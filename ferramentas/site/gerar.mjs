@@ -346,8 +346,21 @@ const U = {
   parte: (o, i) => (umaParte(o) ? U.obra(o) : U.obra(o) + o.partes[i - 1].slug + '/'),
   sobre: (o) => U.obra(o) + 'sobre/'
 };
-U.poesia = (a) => (soPoesia(a.id) ? U.autor(a) : U.genero(a, 'Poesia'));
-U.indicePoema = (a, o) => (pastasDe(poesiaDe(a.id)).length > 1 ? U.pasta(a, o.forma || 'outras') : U.poesia(a));
+/* Categoria (gênero na página do autor, forma na poesia) só existe com MIN_CATEGORIA livros ou
+   mais (pedido do Gere, 06/10/2026): entrar numa pasta e achar uma obra só é redundante. Abaixo
+   disso, as obras ficam soltas na página de cima. */
+const MIN_CATEGORIA = 3;
+function generoEhPasta(a, g) {
+  const obras = obrasDe(a.id).filter((o) => (o.genero || 'Outros') === g);
+  return (g === 'Poesia' ? obras.length : livros(obras)) >= MIN_CATEGORIA;
+}
+const formasPasta = (autorId) => {
+  const ps = pastasDe(poesiaDe(autorId));
+  return ps.length > 1 ? ps.filter((x) => x.obras.length >= MIN_CATEGORIA) : [];
+};
+const formaEhPasta = (autorId, f) => formasPasta(autorId).some((x) => x.forma.id === f);
+U.poesia = (a) => (soPoesia(a.id) || !generoEhPasta(a, 'Poesia') ? U.autor(a) : U.genero(a, 'Poesia'));
+U.indicePoema = (a, o) => (formaEhPasta(a.id, o.forma || 'outras') ? U.pasta(a, o.forma || 'outras') : U.poesia(a));
 const chaveObra = (o) => o.autor + '/' + o.url;
 
 // colisões: dentro de cada autor, obras × gêneros × "poesia"; autores × reservados
@@ -486,8 +499,9 @@ function cabecaAutor(a) {
     (a.nota ? '<p class="nota-autor">' + inline(a.nota) + '</p>' : '') + '</header>';
 }
 function htmlPastas(a, obras) {
-  const pastas = pastasDe(obras);
-  if (pastas.length === 1) return htmlListaPoemas(pastas[0].obras);
+  const pastas = formasPasta(a.id);
+  if (!pastas.length) return htmlListaPoemas(obras);
+  const soltos = obras.filter((o) => !formaEhPasta(a.id, o.forma || 'outras'));
   let html = '<p class="secao-titulo">Formas</p>';
   pastas.forEach((x) => {
     const titulos = [];
@@ -496,6 +510,7 @@ function htmlPastas(a, obras) {
       '<span class="cartao-meta">' + plural(x.obras.length, 'poema', 'poemas') + '</span>' +
       (titulos.length ? '<span class="cartao-texto">' + titulos.map((t) => '<em>' + esc(t) + '</em>').join(', ') + '</span>' : '') + '</a>';
   });
+  if (soltos.length) html += '<p class="secao-titulo">Outros poemas</p>' + htmlListaPoemas(soltos);
   return html;
 }
 function htmlListaPoemas(obras) {
@@ -517,16 +532,16 @@ function htmlListaPoemas(obras) {
 }
 function trilhaPasta(a, o) {
   const f = acharForma(o.forma || 'outras'), itens = [{ txt: a.nome, href: U.autor(a) }];
-  if (!soPoesia(a.id)) itens.push({ txt: 'Poesia', href: U.genero(a, 'Poesia') });
-  if (pastasDe(poesiaDe(a.id)).length > 1) itens.push({ txt: f.nome, href: U.pasta(a, f.id) });
+  if (!soPoesia(a.id) && generoEhPasta(a, 'Poesia')) itens.push({ txt: 'Poesia', href: U.genero(a, 'Poesia') });
+  if (formaEhPasta(a.id, f.id)) itens.push({ txt: f.nome, href: U.pasta(a, f.id) });
   return comArea(a, itens);
 }
-const trilhaGenero = (a, g) => ({ txt: nomeGenero(g), href: U.genero(a, g) });
+const trilhaGenero = (a, g) => (generoEhPasta(a, g) ? { txt: nomeGenero(g), href: U.genero(a, g) } : null);
 
 function paginaPasta(a, f) {
   const obras = poesiaDe(a.id).filter((o) => (o.forma || 'outras') === f.id);
   const itens = [{ txt: a.nome, href: U.autor(a) }];
-  if (!soPoesia(a.id)) itens.push({ txt: 'Poesia', href: U.genero(a, 'Poesia') });
+  if (!soPoesia(a.id) && generoEhPasta(a, 'Poesia')) itens.push({ txt: 'Poesia', href: U.genero(a, 'Poesia') });
   const html = '<div class="folha"><header class="cabeca"><h1>' + esc(f.nome) + '</h1><p class="meta">' + esc(a.nome) + ' · ' +
     plural(obras.length, 'poema', 'poemas') + '</p></header>' + htmlListaPoemas(obras) + '</div>';
   pagina({ url: U.pasta(a, f.id), titulo: f.nome + ' — ' + a.nome, corpo: html, trilha: comArea(a, itens.concat({ txt: f.nome })),
@@ -540,8 +555,10 @@ function paginaAutor(a) {
       trilha: comArea(a, [{ txt: a.nome }]), descricao: descricaoDe(desc) });
     return;
   }
-  let html = '<div class="folha">' + cabecaAutor(a) + '<p class="secao-titulo">Gêneros</p>';
-  generosDe(a.id).forEach((x) => {
+  const generos = generosDe(a.id), pastas = generos.filter((x) => generoEhPasta(a, x.genero));
+  const soltos = generos.filter((x) => !generoEhPasta(a, x.genero));
+  let html = '<div class="folha">' + cabecaAutor(a) + (pastas.length ? '<p class="secao-titulo">Gêneros</p>' : '');
+  pastas.forEach((x) => {
     const grupos = porColetanea(x.obras), titulos = [];
     grupos.forEach((g) => { if (g.titulo) titulos.push(g.titulo); else g.obras.forEach((o) => titulos.push(o.titulo)); });
     let meta = plural(livros(x.obras), 'obra', 'obras');
@@ -552,8 +569,28 @@ function paginaAutor(a) {
     html += '<a class="cartao" href="' + U.genero(a, x.genero) + '"><span class="cartao-titulo">' + esc(nomeGenero(x.genero)) + '</span>' +
       '<span class="cartao-meta">' + meta + '</span><span class="cartao-texto">' + titulos.map((t) => '<em>' + esc(t) + '</em>').join(', ') + '</span></a>';
   });
+  if (soltos.length) {
+    html += '<p class="secao-titulo">' + (pastas.length ? 'Outras obras' : 'Obras') + '</p>';
+    soltos.forEach((x) => { html += x.genero === 'Poesia' ? htmlListaPoemas(x.obras) : htmlObrasDoGenero(x.obras); });
+  }
   html += '</div>';
   pagina({ url: U.autor(a), titulo: a.nome, corpo: html, trilha: comArea(a, [{ txt: a.nome }]), descricao: descricaoDe(desc) });
+}
+
+/* As obras de um gênero, agrupadas por coletânea: o corpo da página do gênero, ou a lista solta
+   na página do autor quando o gênero não chega a ser categoria. */
+function htmlObrasDoGenero(obras) {
+  let html = '';
+  porColetanea(obras).forEach((g) => {
+    if (g.titulo) html += '<p class="secao-titulo"><em>' + esc(g.titulo) + '</em>' + (g.ano ? ' · ' + g.ano : '') + '</p>';
+    g.obras.forEach((o) => {
+      const pub = textoPublicacao(o);
+      html += '<a class="cartao' + (o.paratexto ? ' paratexto' : '') + '" href="' + U.obra(o) + '" data-obra="' + esc(chaveObra(o)) + '">' +
+        '<span class="cartao-titulo">' + (o.coletanea ? esc(o.titulo) : '<em>' + esc(o.titulo) + '</em>') + '</span>' +
+        '<span class="cartao-meta">' + esc(fichaObra(o)) + '</span>' + (pub ? '<span class="cartao-texto">' + inline(pub) + '</span>' : '') + '</a>';
+    });
+  });
+  return html;
 }
 
 function paginaGenero(a, x) {
@@ -564,22 +601,13 @@ function paginaGenero(a, x) {
       descricao: `Poesia de ${a.nome} na Biblioteca Taioé.` });
     return;
   }
-  porColetanea(x.obras).forEach((g) => {
-    if (g.titulo) html += '<p class="secao-titulo"><em>' + esc(g.titulo) + '</em>' + (g.ano ? ' · ' + g.ano : '') + '</p>';
-    g.obras.forEach((o) => {
-      const pub = textoPublicacao(o);
-      html += '<a class="cartao' + (o.paratexto ? ' paratexto' : '') + '" href="' + U.obra(o) + '" data-obra="' + esc(chaveObra(o)) + '">' +
-        '<span class="cartao-titulo">' + (o.coletanea ? esc(o.titulo) : '<em>' + esc(o.titulo) + '</em>') + '</span>' +
-        '<span class="cartao-meta">' + esc(fichaObra(o)) + '</span>' + (pub ? '<span class="cartao-texto">' + inline(pub) + '</span>' : '') + '</a>';
-    });
-  });
-  html += '</div>';
+  html += htmlObrasDoGenero(x.obras) + '</div>';
   pagina({ url: U.genero(a, x.genero), titulo: nomeGenero(x.genero) + ' — ' + a.nome, corpo: html, trilha,
     descricao: descricaoDe(`${nomeGenero(x.genero)} de ${a.nome} na Biblioteca Taioé: ${x.obras.map((o) => o.titulo).join(', ')}.`) });
 }
 
 function trilhaObra(a, o) {
-  return o.poema ? trilhaPasta(a, o) : comArea(a, [{ txt: a.nome, href: U.autor(a) }, trilhaGenero(a, o.genero || 'Outros')]);
+  return o.poema ? trilhaPasta(a, o) : comArea(a, [{ txt: a.nome, href: U.autor(a) }, trilhaGenero(a, o.genero || 'Outros')].filter(Boolean));
 }
 function jsonObra(a, o) {
   return { '@context': 'https://schema.org', '@type': o.poema ? 'CreativeWork' : 'Book', name: o.titulo, inLanguage: 'pt-BR',
@@ -626,7 +654,7 @@ function paginaParte(a, o, i) {
   } else {
     passos = [{ txt: a.nome, href: U.autor(a) }, { txt: o.titulo, href: U.obra(o) }, { txt: rotuloParte(o, p) }];
     if (conto) {
-      passos.splice(1, 0, trilhaGenero(a, o.genero || 'Outros'));
+      if (trilhaGenero(a, o.genero || 'Outros')) passos.splice(1, 0, trilhaGenero(a, o.genero || 'Outros'));
       if (total === 1) passos = passos.slice(0, 2).concat({ txt: o.titulo });
     }
     passos = comArea(a, passos);
@@ -639,8 +667,9 @@ function paginaParte(a, o, i) {
   else if (k > 0) { const x = irmaos[k - 1]; prev = U.parte(x, x.partes.length); navAnt = passo('ant', 'prev', '← Anterior', prev, esc(x.titulo)); }
   if (i < total) { next = U.parte(o, i + 1); navSeg = passo('seg', 'next', 'Seguinte →', next, rotuloPasso(o.partes[i])); }
   else if (k >= 0 && k < irmaos.length - 1) { const x = irmaos[k + 1]; next = U.parte(x, 1); navSeg = passo('seg', 'next', 'Seguinte →', next, esc(x.titulo)); }
-  else if (poema) navSeg = indice(U.indicePoema(a, o), pastasDe(poesiaDe(a.id)).length > 1 ? acharForma(o.forma || 'outras').nome : 'Poesia');
-  else if (conto) navSeg = indice(U.genero(a, o.genero), nomeGenero(o.genero));
+  else if (poema) navSeg = indice(U.indicePoema(a, o), formaEhPasta(a.id, o.forma || 'outras') ? acharForma(o.forma || 'outras').nome
+    : U.poesia(a) === U.autor(a) ? a.nome : 'Poesia');
+  else if (conto) navSeg = generoEhPasta(a, o.genero) ? indice(U.genero(a, o.genero), nomeGenero(o.genero)) : indice(U.autor(a), a.nome);
   else navSeg = indice(U.obra(o), o.titulo);
 
   function titulo(tag, cls, trad, orig) {
@@ -762,8 +791,8 @@ paginasDoLeitor();
 dados.autores.forEach((a) => {
   if (!obrasDe(a.id).length) return;
   paginaAutor(a);
-  generosDe(a.id).forEach((x) => { if (!(x.genero === 'Poesia' && soPoesia(a.id))) paginaGenero(a, x); });
-  pastasDe(poesiaDe(a.id)).forEach((x) => { if (pastasDe(poesiaDe(a.id)).length > 1) paginaPasta(a, x.forma); });
+  generosDe(a.id).forEach((x) => { if (!(x.genero === 'Poesia' && soPoesia(a.id)) && generoEhPasta(a, x.genero)) paginaGenero(a, x); });
+  formasPasta(a.id).forEach((x) => paginaPasta(a, x.forma));
 });
 dados.obras.forEach((o) => {
   const a = acharAutor(o.autor) || { nome: o.autor, id: o.autor };

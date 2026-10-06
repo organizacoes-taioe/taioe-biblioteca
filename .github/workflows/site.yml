@@ -1,0 +1,30 @@
+# Confere que public/biblioteca/ está em dia com o conteúdo (quem muda conteudo/ roda o gerador
+# e commita o resultado) e que o site gerado não tem link quebrado nem script inline.
+name: Site
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gerar de novo e comparar
+        run: |
+          node ferramentas/site/gerar.mjs
+          if ! git diff --quiet -- public/biblioteca ferramentas/site/enderecos.json ferramentas/sql/obras.sql; then
+            git diff --stat -- public/biblioteca ferramentas/site/enderecos.json ferramentas/sql/obras.sql | tail -5
+            echo "::error::O site gerado não está em dia. Rode node ferramentas/site/gerar.mjs e commite o resultado."
+            exit 1
+          fi
+      - name: Links e CSP
+        run: node ferramentas/site/conferir.mjs

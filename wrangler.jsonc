@@ -1,12 +1,11 @@
-// Worker só com arquivos estáticos. AINDA SEM ROUTE: o Worker existe para os previews das
-// branches, mas não responde em endereço público. No lançamento da Biblioteca entra a route
-//   "routes": [ { "pattern": "taioe.com.br/biblioteca*", "zone_name": "taioe.com.br" } ]
-// (contrato da origem, no README do taioe-hub).
+// Worker só com arquivos estáticos. Publica só /biblioteca (contrato da origem, no README do
+// taioe-hub). Os arquivos ficam em public/biblioteca/, porque o caminho completo chega ao Worker.
 {
   "name": "taioe-biblioteca",
   "compatibility_date": "2026-09-25",
   "workers_dev": false,
   "preview_urls": true,
-  "previews": {},
+  "previews": {},                 // exigido pelo "npx wrangler preview" das branches
+  "routes": [ { "pattern": "taioe.com.br/biblioteca*", "zone_name": "taioe.com.br" } ],
   "assets": { "directory": "./public", "not_found_handling": "404-page", "html_handling": "auto-trailing-slash" }
 }

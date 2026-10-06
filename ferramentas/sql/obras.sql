@@ -1122,6 +1122,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('francisca-julia/marmores-rainha-das-aguas', 'Rainha das águas'),
   ('francisca-julia/marmores-sonho-africano', 'Sonho africano'),
   ('francisca-julia/marmores-venus', 'Vênus'),
+  ('g-k-chesterton/ortodoxia', 'Ortodoxia'),
   ('goethe/o-rei-dos-elfos', 'O Rei dos Elfos'),
   ('goncalves-dias/gulnare-e-mustafa', 'Gulnare e Mustafá'),
   ('goncalves-dias/novos-cantos-ainda-uma-vez-adeus', 'Ainda uma vez — adeus!'),

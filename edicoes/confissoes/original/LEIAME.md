@@ -25,6 +25,13 @@ O Latin Library numera cada parágrafo como `livro.capítulo.seção` (ex.: `1.2
 - Livro 9, seção 32 (hino de Ambrósio, «deus, creator omnium»): os oito versos estão num parágrafo próprio, um verso por linha, sem marca (é continuação da seção `[XII.32]`). Foram descartados dois restos de HTML da página (`<` solto e uma aspa solta). **Atenção:** a página não traz a aspa de abertura do primeiro verso, e eu não a inventei.
 - Aspas e parênteses da página foram mantidos como estão.
 
+## Lacunas da página, completadas na tradução pelo Knöll
+
+A página do Latin Library perde frases em alguns pontos (o fim de um parágrafo não casa com o começo do
+seguinte). Os arquivos daqui ficaram como a página; na tradução, os tradutores completaram pelo Knöll
+(CSEL 33) e registraram nas `traducao/notas-NN.md`: livro IV, XII.19; V, III.4; VI, XI.18–19; VIII, I.1 e
+IX.21; X, XLIII.70; XII, IV.4–V.5, VII.7 e XI.12; XIII, XVIII.22–23 e XXXV.50–51.
+
 ## Contagens
 
 Palavras por arquivo (separação por espaços; marcas `[...]` e cabeçalho excluídos):

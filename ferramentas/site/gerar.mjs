@@ -66,9 +66,11 @@ const BIBLIOTECA = {
   }
 };
 const ctx = vm.createContext({ BIBLIOTECA });
-function rodar(rel) { vm.runInContext(fs.readFileSync(path.join(RAIZ, rel), 'utf8'), ctx, { filename: rel }); }
+// Sempre com LF: no Windows o Git entrega CRLF, e o resultado tem de ser igual ao do GitHub.
+const lerLf = (arq) => fs.readFileSync(arq, 'utf8').replace(/\r\n/g, '\n');
+function rodar(rel) { vm.runInContext(lerLf(path.join(RAIZ, rel)), ctx, { filename: rel }); }
 
-const indiceAntigo = fs.readFileSync(path.join(RAIZ, 'index.html'), 'utf8');
+const indiceAntigo = lerLf(path.join(RAIZ, 'index.html'));
 const scripts = [...indiceAntigo.matchAll(/<script[^>]*src="(conteudo\/[^"]+)"/g)].map((m) => m[1]);
 scripts.forEach(rodar);
 [...new Set(dados.obras.filter((o) => o.arquivo && !o.carregada).map((o) => o.arquivo))].forEach(rodar);
@@ -290,7 +292,7 @@ const umaParte = (o) => (o.coletanea || o.poema) && o.partes.length === 1;
 
 // ------------------------------------------------------------------ endereços (congelados)
 const RESERVADOS = new Set(['css', 'js', 'vendor', 'sitemap.xml', '404.html', 'obras.json', 'favicon.svg', ...AREAS.map((a) => a.id)]);
-const congelados = fs.existsSync(ARQ_ENDERECOS) ? JSON.parse(fs.readFileSync(ARQ_ENDERECOS, 'utf8')) : {};
+const congelados = fs.existsSync(ARQ_ENDERECOS) ? JSON.parse(lerLf(ARQ_ENDERECOS)) : {};
 const enderecos = {};
 function slugParte(o, p, i) {
   const ag = o.divisao && (o.divisao.agrupar || o.divisao.rotulo === 'titulo');
@@ -357,8 +359,8 @@ dados.autores.forEach((a) => {
 
 // ------------------------------------------------------------------ moldura das páginas
 const hash = (s) => crypto.createHash('sha256').update(s).digest('hex').slice(0, 8);
-const CSS = fs.readFileSync(path.join(RAIZ, 'ferramentas', 'site', 'estilo.css'), 'utf8');
-const LEITOR = fs.readFileSync(path.join(RAIZ, 'ferramentas', 'site', 'leitor.js'), 'utf8');
+const CSS = lerLf(path.join(RAIZ, 'ferramentas', 'site', 'estilo.css'));
+const LEITOR = lerLf(path.join(RAIZ, 'ferramentas', 'site', 'leitor.js'));
 const V_CSS = hash(CSS), V_JS = hash(LEITOR);
 
 function trilhaHtml(itens) {
@@ -765,8 +767,8 @@ fs.writeFileSync(path.join(SAIDA, 'js', 'leitor.js'), LEITOR);
 fs.copyFileSync(path.join(RAIZ, 'favicon.svg'), path.join(SAIDA, 'favicon.svg'));
 // cópias idênticas do taioe-hub (o workflow Cópias confere o sha256)
 fs.mkdirSync(path.join(SAIDA, 'vendor'), { recursive: true });
-fs.copyFileSync(path.join(RAIZ, 'ferramentas', 'site', 'comum', 'supabase-js-2.117.2.js'), path.join(SAIDA, 'vendor', 'supabase-js-2.117.2.js'));
-fs.copyFileSync(path.join(RAIZ, 'ferramentas', 'site', 'comum', 'taioe-sessao.js'), path.join(SAIDA, 'js', 'taioe-sessao.js'));
+fs.writeFileSync(path.join(SAIDA, 'vendor', 'supabase-js-2.117.2.js'), lerLf(path.join(RAIZ, 'ferramentas', 'site', 'comum', 'supabase-js-2.117.2.js')));
+fs.writeFileSync(path.join(SAIDA, 'js', 'taioe-sessao.js'), lerLf(path.join(RAIZ, 'ferramentas', 'site', 'comum', 'taioe-sessao.js')));
 
 // índice compacto das obras: títulos e partes, para «Continuar a leitura» de outro aparelho
 // e para converter os endereços antigos (#/o/<id>/<n>)

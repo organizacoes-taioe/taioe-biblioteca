@@ -1,0 +1,25 @@
+# PN 16 — Canto de gratidão da Noiva de Jesus — notas do tradutor
+
+**Metro do original.** Decassílabo francês com cesura na 4.ª (4 + 6), seis quadras, sobre a ária «Oh ! saint autel». No segundo hemistíquio o apoio cai na 7.ª (dez versos) ou na 8.ª sem a 6.ª (oito versos); só seis versos têm a 6.ª.
+
+**Metro da tradução.** Decassílabo com a 4.ª obrigatória e cadência dominante heroica (`10: 4-6`). Há seis sáficos (`10: 4-8`) em 24 versos, um em cada quadra nas estrofes 1, 2, 3 e 5 e dois no fecho (vv. 23-24). É a dose parnasiana da regra 5 do estudo, e fica abaixo da proporção de versos sem a 6.ª no original. A estrofe 4 é toda heroica.
+
+**Rimas.** ABAB como no original, grave nos ímpares (rima feminina) e aguda nos pares (masculina): *Face / bastasse*, *Jesus / Cruz*; *prantos / encantos*, *dores / pecadores*; *dilatada / abençoada*, *despontou / alçou*; *ternura / inaugura*, *dilui / substitui*; *desejada / amada*, *além / bem*; *vida / querida*, *está / lá*. O par francês *fui / nuit* ficou num par em *-ui*.
+
+**Título e cabeçalho.** *Fiancée* virou «Noiva». O poema é da tomada de hábito de Celina (5 de fevereiro de 1895), que no Carmelo da época se vivia como esponsais com Jesus. O destinatário segue o arquivo, *Céline (Sr Geneviève)*: «Celina (Irmã Genoveva)». A data «(5 Février 1895)», que vem depois dos versos, foi para o cabeçalho.
+
+**Escolhas e perdas.**
+- **Estrofe 1.** A rima com *Face*, a imagem central, decidiu a estrofe. Para *l'inexprimable grâce* não há rima portuguesa em *-ace* com *graça*. O inexprimível passou a uma condição, «se a língua me bastasse», e a *graça* desceu ao v. 4: «A graça que é sofrer... levar a Cruz...». A frase guarda a ideia dela de que a graça é o próprio sofrer, e não algo que vem do sofrimento. Perdem-se o adjetivo *Divin* (v. 2) e o passado de *d'avoir souffert / porté*. O v. 1, «Tens-me escondida sempre», mantém o *cacher* e o resultado do *tu m'as cachée*; *pour toujours* virou «sempre».
+- **Estrofe 2.** *Longtemps* virou «Muito» (palavra literal). *J'ai compris* virou «percebi», e *souffrir*, «a dor». *On sauve* virou «salvamos», porque o *on* de Teresa inclui quem sofre: é a ideia apostólica dela.
+- **Estrofe 3.** Em *mon âme agrandie a vu s'ouvrir un horizon nouveau*, a alma passou de sujeito a lugar: «nesta alma dilatada / Um horizonte novo despontou». *Mon* virou «nesta», e *s'ouvrir*, «despontou». *Rayons* virou «fulgor», e *ta Face bénie*, «a Face abençoada». *Mon faible cœur* ficou «o fraco coração», e *bien haut* se manteve («Bem alto»).
+- **Estrofe 4.** *Ta douce voix m'appelle* virou «chamas com ternura»: a voz fica implícita, e o *douce* passa a «ternura». Em *déjà l'hiver a fui*, o inverno «se dilui» em vez de fugir, e o *déjà* passou ao verso seguinte («Já para ti...»). *Une saison nouvelle* virou «um tempo se inaugura»: o *nouvelle* fica implícito em *inaugurar*. A palavra *nouvelle* saiu para que os vv. 15 a 17 não tivessem o mesmo esqueleto três vezes seguidas.
+- **Estrofe 5.** Perde-se o *Sainte* de *la Sainte Patrie* («Pátria desejada»): nenhum adjetivo de três sílabas cabe depois de *Pátria* na medida. *Un Père aimé.... Une Mère chérie* virou «Teu Pai querido.... tua Mãe amada», com os adjetivos trocados de lugar. O artigo indefinido virou possessivo porque «Uma» depois das reticências só mede com um hiato que o leitor não faz; e o pai e a mãe de quem se fala são os de Celina. *Auxquels tu dois ton immense bonheur* virou «A quem se deve tão imenso bem»: fica o *devoir* (impessoal, porque «A quem tu deves» choca a 3.ª com a 4.ª), e *bonheur* vira «bem», por causa da rima aguda. O «além» do v. 18 (lá no Céu) é acréscimo leve, pedido pela rima e implícito na Pátria.
+- **Estrofe 6.** O futuro *s'écoulera* virou o presente «escoa», e *tout près* ficou «perto». *Ma bien-aimée* virou «querida», e *mon amour t'a choisie*, «Eu te escolhi com meu amor». *Je te réserve* virou «Guardo-te». O «lá» final retoma o Céu do v. 22. Em «glo-ri-o-so» se lê a diérese natural, como no *glo-ri-eux* francês.
+
+**Testemunhos.** O site antigo dá o mesmo texto e traz também a ária e a data. Os dois arquivos trazem «Que par le Croix» no v. 8, erro evidente que se corrigiu para «la Croix» no `original.txt`.
+
+**Conferência.** `molde.mjs`: 24 versos, 24 exatos (✓), 0 aceitáveis (~), 0 falhos (✗), 0 fora da medida (≠), nenhuma leitura forçada. Linha final depois da revisão crítica: «24 versos: 24 exatos, 0 aceitáveis, 0 falhos, 0 fora da medida; forçamento médio 0; custo total 4.55». Não há três esqueletos iguais seguidos. O grep de mesóclise não acha nada.
+
+**Revisão crítica (mudanças aceitas e recusadas).**
+- v. 20: «De quem recebes tão imenso bem» → «A quem se deve tão imenso bem» (volta o *tu dois*: o bem é devido aos pais, não recebido deles).
+- Recusadas: «para sempre» no v. 1 e «a graça de ter sofrido» nos vv. 3-4 (não cabem no decassílabo); «já fugiu» no v. 14 (*-iu* não rima com *substitui*); «Pátria Santa» no v. 17 (medida); «No Carmelo» no v. 22 (*Sobre* é o *Sur* literal, o monte perto do Céu, e «No Carmelo» tira a 4.ª).

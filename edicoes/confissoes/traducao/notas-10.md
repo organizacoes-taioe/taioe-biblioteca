@@ -218,7 +218,14 @@ Nomes: **Anaxímenes** (VI.9); **Cartago** (XVI.25, XXI.30); **Atanásio**, bisp
 - XXIII.33 *inluminatio mea, salus faciei meae* (Sl 26,1; 41,12); *caro concupiscit adversus spiritum* (Gl
   5,17); *ambulent ... ne tenebrae comprehendant* (Jo 12,35): o latim não tem objeto; o português pede «os».
 - XXIII.34 *veritas parit odium*: verso de Terêncio (*Andria* 68), não da Escritura; *inimicus ... factus est
-  homo tuus verum praedicans* ecoa Gl 4,16 (Paulo).
+  homo tuus verum praedicans* ecoa Gl 4,16 (Paulo). Na revisão dos versos citados (método do
+  Versificador) ficou em prosa, e o texto não mudou: Agostinho troca a ordem do senário (*veritas odium
+  parit*, segunda metade de *obsequium amicos, veritas odium parit*) e faz da sentença proverbial a sua
+  própria pergunta, sem a marcar como citação; o latim dele já não mede. Se se quiser marcá-la como
+  verso, a chegada do senário seria o alexandrino, e «a verdade gera o ódio» dá um hemistíquio de 6
+  sílabas, mas com choque na 5.ª e 6.ª (`molde.mjs`, `6: 3-6 +1`: ~ aceitável, choque 5); nenhuma
+  versão com «ódio» no fim escapa ao choque, porque o verbo tônico cai sempre colado a ele, e «ódio» tem
+  de ficar pelo eco com *oderunt* logo adiante.
 - XXVIII.39 *temptatio est vita humana super terram* (Jó 7,1): «Não é tentação a vida humana sobre a terra?».
 - XXIX.40 *et cum scirem ... nisi deus det* (Sb 8,21): Agostinho diz *ait quidam*; mantive «diz alguém»;
   *lho* = lhe + o, como no Livro VI.

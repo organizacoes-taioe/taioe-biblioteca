@@ -130,7 +130,15 @@ em IV.7–9 não tem nome no texto.
 - **VI.11** *nescio an vellem vel pro illo*: subentende-se *amittere* (a vida): «e não sei se quereria
   perdê-la sequer por ele».
 - **VI.11** *dimidium animae suae*: Horácio, *Odes* I,3,8 (*animae dimidium meae*), citado sem nome do
-  autor, como em Agostinho («Bem disse alguém do seu amigo»).
+  autor, como em Agostinho («Bem disse alguém do seu amigo»). **Verso (método do Versificador).** O
+  original é um asclepiadeu menor (*et serves animae dimidium meae*: 12 sílabas, cortadas 6 + 6);
+  metro de chegada, o alexandrino, que tem a mesma extensão e o mesmo corte. Agostinho inverte a ordem
+  (*dimidium animae*, contra *animae dimidium* de Horácio) e muda *meae* em *suae*, de modo que o latim
+  dele já não mede; a tradução «metade da sua alma» forma um hemistíquio de alexandrino, molde
+  `6: 2-6 +1`, conferido com `molde.mjs` (temporários em
+  `C:\Users\geren\AppData\Local\Temp\claude\confissoes-versos\`): ✓ exato (2-6, o desenho mais comum do
+  hemistíquio no corpus, 31,2%). O texto não mudou; *suae* fica dentro das aspas, como na versão
+  anterior.
 - **X.15** *in illis autem non est ubi*: «Mas nelas não há onde» (guardada a secura do latim).
 - **XI.16** *reflorescent putria tua… et fluxa tua reformabuntur*: os neutros substantivados viraram
   orações relativas: «reflorescerá o que em ti apodreceu… o que em ti se escoa será reformado».

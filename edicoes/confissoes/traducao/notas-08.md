@@ -162,8 +162,19 @@ intellegimus*.
   retomei o sujeito com «esse não se envergonhou».
 - **II.3, Virgílio, *Eneida* 8,698–700** (*omnigenumque deum monstra et latrator Anubis / contra Neptunum
   et Venerem contraque Minervam / tela tenent*). Agostinho encaixa os versos na prosa, mudando a
-  sintaxe; Knöll compõe *contra Neptunum ... Minervam* como verso. Traduzi em prosa, sem aspas, como em
-  O'Donnell, porque o verso não aparece inteiro nem destacado. O *a se victis* é Roma suplicando aos
+  sintaxe; Knöll compõe *contra Neptunum ... Minervam* como verso. Esse verso (8,699) vem inteiro e
+  literal, e agora vai **em verso, pelo método do Versificador**, entre aspas: «contra Netuno dos mares
+  e Vênus e a sábia Minerva». Metro do original: hexâmetro datílico; metro de chegada: o verso longo de
+  seis tempos datílicos de Carlos Alberto Nunes, molde `16: (1)-4-7-10-13-16 +1` (heptassílabo 1-4-7 +
+  eneassílabo 3-6-9), o mesmo dos meios versos de Virgílio no Livro I. O 1.º tempo cai na preposição
+  *contra*, que é acento fraco: vai entre parênteses, como o `(1)` facultativo do eneassílabo (no latim o
+  ictus também cai em *cōn-*). Conferência com `molde.mjs` (temporários em
+  `C:\Users\geren\AppData\Local\Temp\claude\confissoes-versos\`): ✓ exato (4-7-10-13-16, fraco na 1.ª).
+  Cedeu: o segundo *contra* (*contraque Minervam*), porque a preposição na 13.ª é fraca e o verso
+  ficava com quatro tempos; no lugar dele, o epíteto «a sábia» para Minerva, e «dos mares» para Netuno
+  (ornamentos que o hexâmetro pedia para ter os seis tempos). O resto, alterado por Agostinho
+  (*omnigenum deum monstra*, sem o *-que*, e *Anubem latratorem*, *tela tenuerant*, em lugar de
+  *latrator Anubis* e *tela tenent*), já não mede no latim e ficou em prosa. O *a se victis* é Roma suplicando aos
   deuses do Egito que ela mesma vencera (Ácio): «a quem Roma, depois de os ter vencido, agora suplicava».
 - **II.4, *ait Simplicianus*.** Presente no latim: «como diz Simpliciano».
 - **II.5, *non enim erat salus quam docebat in rhetorica, et tamen eam publice professus erat*.** *Eam* é

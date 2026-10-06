@@ -218,23 +218,64 @@ Todas traduzidas do latim de Agostinho, sem referências no texto.
 ## Citações de poetas e decisão sobre os versos
 
 O livro cita versos de Virgílio e de Terêncio, todos embutidos na prosa (no texto de O'Donnell, dentro
-do parágrafo, sem disposição em versos):
+do parágrafo, sem disposição em versos). A primeira versão os deixou em prosa; agora vão **em verso, pelo
+método do Versificador** (`MANUAL-DE-TRADUCAO.md`; `ESTUDO-DO-RITMO.md`, §§ 5–6), regra fixa do Gere
+para toda poesia. Ficam dentro da frase, entre aspas, com «/» onde há fim de verso no meio da citação;
+nenhuma marca de parágrafo mudou. Conferência: `node ferramentas/molde.mjs livro01-versos.txt
+livro01-molde.txt` (temporários em `C:\Users\geren\AppData\Local\Temp\claude\confissoes-versos\`):
+**7 exatos, nenhum ~, nenhum ✗, nenhum ≠, nenhuma leitura forçada.**
 
-- XIII.21 *extinctam ferroque extrema secutam* (Eneida VI, 457): «Dido extinta, que pelo ferro buscou o
-  extremo fim».
-- XIII.22 *ipsius umbra Creusae* (Eneida II, 772): «a sombra da própria Creúsa».
-- XVII.27 *Italia Teucrorum avertere regem* (Eneida I, 38): «afastar da Itália o rei dos teucros».
-- XVI.26 Terêncio, *O Eunuco*, 584-591: *Iovem quo pacto Danae misisse aiunt in gremium quondam imbrem
-  aureum, fucum factum mulieri* e *at quem deum! qui templa caeli summo sonitu concutit. ego homuncio id
-  non facerem? ego vero illud feci ac libens.*
+**Virgílio (hexâmetro datílico).** Metro de chegada: o verso longo de seis tempos datílicos de Carlos
+Alberto Nunes, `16: 1-4-7-10-13-16 +1` (a tabela do manual manda «verso longo de 6 tempos, como em
+Carlos Alberto Nunes»), que se parte num heptassílabo 1-4-7 e num eneassílabo 3-6-9, os dois ternários
+da tradição. O hexâmetro não tem anacruse; a tradução também não. Cada meio verso de Agostinho ficou com
+o trecho correspondente do verso de chegada:
 
-Como são fragmentos curtos dentro da frase de Agostinho (meio verso, ou poucos senários de comédia
-recortados e encaixados na prosa), traduzi em prosa, como o resto do parágrafo, seguindo a regra do
-`CONVENCOES-TRADUCAO.md` § 3 («citação curta de verso, pode ficar em verso livre, com registro nas
-notas»). As palavras que Agostinho comenta antes da citação de Terêncio («chuva de ouro», «regaço»,
-«engano», «templos do céu») reaparecem iguais dentro da citação, para que a remissão funcione. Se o
-Gere preferir que os versos de Terêncio sejam versificados pelo método do Versificador, é a única
-passagem do livro em que isso caberia (ver dúvidas).
+- **XIII.21** *extinctam ferroque extrema secutam* (Eneida VI, 457; Agostinho cita do 2.º pé ao fim) →
+  «morta, e que, a golpe de ferro, seguiu os extremos». Molde `13: 1-4-7-10-13 +1` (posições 4 a 16 do
+  verso inteiro): ✓ exato. *Extinctam* → «morta» (*ex-tin-ta* poria o acento na 2.ª); *ferro* ganhou
+  «a golpe de», que diz o instrumento. O ganho: o eco de Agostinho, *extrema secutam / sequens ipse
+  extrema condita tua*, passa inteiro, «seguiu os extremos / eu que seguia os extremos das tuas
+  criaturas» (antes ficava «buscou / seguia»); por isso o plural «os extremos» também na prosa.
+- **XIII.22** *atque ipsius umbra Creusae* (Eneida II, 772; os pés 4 a 6) → «a sombra da própria
+  Creúsa», com o «e» de *atque* fora das aspas. Molde `8: 2-5-8 +1` (posições 9 a 16): ✓ exato. Já era
+  a versão anterior: só ganhou as aspas. (O desenho 2-5-8 é proibido como octossílabo inteiro; aqui é
+  cauda do verso longo, não verso solto.)
+- **XVII.27** *Italia Teucrorum avertere regem* (Eneida I, 38; do 2.º pé ao fim) → «longe da Itália
+  manter o monarca dos teucros». Molde `13: 1-4-7-10-13 +1`: ✓ exato. *Avertere* → «manter longe»;
+  *regem* → «monarca» (sinônimo; «rei» deixava o verso sem a 10.ª). O *non posset* fica na prosa, como
+  em Agostinho («por não poder»).
+
+**Terêncio, *O Eunuco* (XVI.26).** As linhas citadas (585, o fim de 589, 590 e 591) não são senários:
+têm de 16 a 19 sílabas latinas. A 590 escande limpa como **septenário trocaico**, com a diérese depois
+do 4.º pé no fim de palavra (*at quem deum! qui templa caeli | summa sonitu concutit*); tomei as quatro
+como septenários. Dúvida em aberto: podem ser octonários jâmbicos (a escansão do trecho pede uma edição
+comentada do *Eunuco*, que não consultei); nesse caso a chegada seria o octossílabo duplo, 8 + 8. Metro de chegada: o do septenário é o
+mesmo do octâmetro trocaico do *Corvo*, a **redondilha dupla trocaica**, 8 + 7, `15: (1)-(3)-(5)-7-(9)-
+11-(13)`; a primeira metade termina grave (ou aguda, com a átona seguinte na 8.ª), como a diérese
+latina. As quatro palavras que Agostinho destaca antes («chuva de ouro», «regaço», «engano», «templos do
+céu») reaparecem iguais dentro dos versos, para que a remissão funcione.
+
+- **584 (fim) + 585**, *Iovem quo pacto Danae misisse aiunt in gremium quondam imbrem aureum* → Júpiter,
+  «como, contam, deu a Dânae no regaço chuva de ouro». Molde `15: … +1`: ✓ exato (3-5-7-11-13-15).
+  *Iovem*, a última palavra do v. 584, ficou fora das aspas, como sujeito da frase de Agostinho.
+  Cedeu: *misisse* → «deu» (só um monossílabo tônico cabia na 5.ª) e *quondam* («outrora»), que não
+  coube. «Dânae» em duas sílabas (*Dâ-nae*), como a lê o `molde.mjs`; quem a ler em três (*Dâ-na-e*)
+  faz da primeira metade uma redondilha esdrúxula, também regular.
+- **589 (2.ª metade)**, *fucum factum mulieri* → «um engano feito à dama». Molde `7: (1)-3-(5) +1`
+  (só a segunda metade do verso): ✓ exato. «Engano feito à mulher» dava 2-4-7, jâmbico, contra o
+  ritmo trocaico; *mulieri* → «dama». Agostinho salta de 585 para o fim de 589; o «/» marca o fim de
+  verso, não continuidade no original.
+- **590**, *at quem deum! qui templa caeli summo sonitu concutit* → «Que deus!», diz, «que os templos do
+  céu abala ao som de sumo estrondo». Molde `15: … +1`: ✓ exato (2-4-7-9-11-13-15; a primeira metade
+  sai jâmbica, 2-4-7, que é o desenho de base da redondilha; a segunda é trocaica pura). Cedeu o *at*
+  («E que deus!» punha o acento fora do lugar); *summo sonitu* → «ao som de sumo estrondo».
+- **591**, *ego homuncio id non facerem? ego vero illud feci ac libens* → «Homenzinho, eu não faria?
+  Pois o fiz, e com prazer». Molde `15: (1)-(3)-(5)-7-(9)-11-(13)`, final agudo: ✓ exato (o «eu» cai
+  na 4.ª, fora do molde, sem choque com polissílabo; fica porque guarda o contraste *deum / ego
+  homuncio*). Cedeu o *id* («não o faria» dava 16). *Ac libens* → «e com prazer» («e de bom grado»
+  fazia choque na 14.ª); para não perder o eco *libens … libenter* do fim do parágrafo, a prosa passou de
+  «aprendi de bom grado essas coisas» a «aprendi com prazer essas coisas».
 
 A frase de XVI.25 *fingebat haec Homerus et humana ad deos transferebat: divina mallem ad nos* é de
 Cícero (*Tusculanas* I, 65); vai entre aspas, como em O'Donnell.
@@ -272,9 +313,9 @@ Cícero (*Tusculanas* I, 65); vai entre aspas, como em O'Donnell.
   Eneias», mas *tegimentum erroris* → «encobrimento do erro».
 - **XIII.21, *miserius misero non miserante se ipsum*.** «Mais mísero que um mísero sem misericórdia
   de si mesmo».
-- **XIII.21, *extrema secutam, sequens ipse extrema condita tua*.** «Que pelo ferro buscou o extremo
-  fim, eu que seguia o extremo das tuas criaturas»: o eco *extrema / extrema* passa; *secutam / sequens*
-  ficou «buscou / seguia».
+- **XIII.21, *extrema secutam, sequens ipse extrema condita tua*.** «Que, a golpe de ferro, seguiu os
+  extremos, eu que seguia os extremos das tuas criaturas»: passam os dois ecos, *extrema / extrema* e
+  *secutam / sequens* (ver a citação de Virgílio, acima, agora em verso).
 - **XIII.21, *terra iens in terram*.** «Terra que ia para a terra».
 - **XIII.21, *dolerem, quia non legerem quod dolerem*.** «Eu sofreria por não ler o que me fazia
   sofrer».

@@ -199,3 +199,29 @@ Qualquer hospedagem estática serve, com a raiz do repositório como pasta publi
 - **GitHub Pages**: Settings → Pages → *Deploy from a branch* → `main` / raiz.
 - **Netlify**: importar o repositório, sem comando de build, *publish directory* `.`
   (o `netlify.toml` já traz isso).
+
+## Taioé: o site estático (etapa 4 do PLANO da plataforma)
+
+Em taioe.com.br/biblioteca/, a Biblioteca deixa de ser uma página única com rotas `#` e vira um
+site estático: **uma página HTML pronta para cada área, autor, gênero, pasta de poemas, obra,
+parte e «Sobre esta edição»**, com endereço fixo (`/biblioteca/machado-de-assis/dom-casmurro/xii/`),
+título e descrição próprios, `sitemap.xml` e dados estruturados. Funciona até sem JavaScript.
+
+```bash
+node ferramentas/site/gerar.mjs      # grava public/biblioteca/, enderecos.json e sql/obras.sql
+node ferramentas/site/conferir.mjs   # links internos, títulos, CSP (nada inline)
+```
+
+- **Rode o gerador e commite o resultado sempre que mudar `conteudo/`.** O workflow *Site* recusa
+  o push se `public/biblioteca/` não estiver em dia.
+- O gerador lê o `conteudo/` na ordem do `index.html` antigo e usa as mesmas funções de marcação
+  do `js/app.js` antigo; só os endereços mudam.
+- **Endereços congelados:** `ferramentas/site/enderecos.json` guarda o endereço de cada parte. Uma
+  parte nunca muda de endereço; parte nova ganha um endereço novo. Nunca apague linhas desse arquivo.
+- O endereço da obra é o `id` sem o nome do autor repetido no começo.
+- `ferramentas/sql/obras.sql` é o catálogo (`biblioteca.obras`), aplicado pelo workflow *Catálogo*
+  do `taioe-infra`, primeiro no teste e depois na produção, **antes** de publicar obra nova.
+- `ferramentas/site/leitor.js`: tema, letra, original e tradução, setas, e a posição de leitura —
+  só no navegador para quem não entrou; na conta, em qualquer aparelho, para quem entrou.
+- `ferramentas/site/comum/`: cópias do supabase-js e do módulo de sessão do `taioe-hub`
+  (o workflow *Cópias* confere o sha256).

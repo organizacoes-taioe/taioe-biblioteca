@@ -1,0 +1,428 @@
+/* ---------------------------------------------------------------
+   Biblioteca — folha de estilo única
+   Paleta: papel e tinta; tema escuro para leitura noturna
+   --------------------------------------------------------------- */
+
+:root {
+  --papel:        #fbf8f2;
+  --papel-2:      #f3eee3;
+  --tinta:        #25221d;
+  --tinta-suave:  #57514a;
+  --tinta-tenue:  #8b8377;
+  --realce:       #8a3b2e;
+  --realce-claro: #a8523f;
+  --linha:        #e3dccd;
+  --sombra:       0 1px 2px rgba(60,45,30,.05), 0 6px 20px rgba(60,45,30,.06);
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
+  --sans:  ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --escala: 1;
+  --medida: 34rem;
+  --raio: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    --papel:        #17161a;
+    --papel-2:      #201f24;
+    --tinta:        #e7e1d6;
+    --tinta-suave:  #b5ad9f;
+    --tinta-tenue:  #878073;
+    --realce:       #e0917c;
+    --realce-claro: #eeb09f;
+    --linha:        #322f37;
+    --sombra:       0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+  }
+}
+
+:root[data-tema="escuro"] {
+  --papel:        #17161a;
+  --papel-2:      #201f24;
+  --tinta:        #e7e1d6;
+  --tinta-suave:  #b5ad9f;
+  --tinta-tenue:  #878073;
+  --realce:       #e0917c;
+  --realce-claro: #eeb09f;
+  --linha:        #322f37;
+  --sombra:       0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--serif);
+  font-size: calc(clamp(1.03rem, 0.98rem + 0.3vw, 1.16rem) * var(--escala));
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: var(--realce); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--realce-claro); }
+
+.pular {
+  position: absolute; left: -9999px;
+  background: var(--papel-2); padding: .6rem 1rem; border-radius: var(--raio);
+}
+.pular:focus { left: 1rem; top: .6rem; z-index: 50; }
+
+main:focus { outline: none; }
+
+/* ---------------- Topo ---------------- */
+
+.topo {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--papel);
+  border-bottom: 1px solid var(--linha);
+}
+.topo-int {
+  max-width: calc(var(--medida) + 14rem);
+  margin: 0 auto;
+  padding: .5rem 1rem;
+  display: flex; align-items: center; gap: .75rem;
+}
+.marca {
+  font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  font-size: .78rem; color: var(--tinta); text-decoration: none;
+  font-family: var(--sans); flex: none;
+}
+.topo-nav {
+  flex: 1; min-width: 0;
+  font-family: var(--sans); font-size: .78rem; color: var(--tinta-tenue);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.topo-nav a { color: var(--tinta-tenue); text-decoration: none; }
+.topo-nav a:hover { color: var(--realce); text-decoration: underline; }
+.topo-nav .sep { opacity: .5; padding: 0 .4em; }
+.ferramentas { display: flex; gap: .35rem; flex: none; }
+.btn {
+  border: 1px solid var(--linha); background: transparent; color: var(--tinta-suave);
+  border-radius: 999px; min-width: 2rem; height: 2rem; padding: 0 .5rem; cursor: pointer;
+  font-family: var(--sans); font-size: .8rem; line-height: 1;
+}
+.btn:hover { border-color: var(--realce); color: var(--realce); }
+
+/* original e tradução: dois botões independentes (original à esquerda, tradução à direita) */
+.idiomas { border-top: 1px solid var(--linha); }
+.idiomas[hidden] { display: none; }
+.idiomas-int {
+  max-width: calc(var(--medida) + 14rem); margin: 0 auto; padding: .4rem 1rem;
+  display: flex; justify-content: center;
+}
+.idioma {
+  font-family: var(--sans); font-size: .8rem; line-height: 1; cursor: pointer;
+  min-width: 7.5rem; padding: .45rem 1rem;
+  border: 1px solid var(--linha); background: transparent; color: var(--tinta-suave);
+}
+.idioma:first-child { border-radius: 999px 0 0 999px; }
+.idioma:last-child { border-radius: 0 999px 999px 0; border-left: 0; }
+.idioma:hover { color: var(--realce); }
+.idioma[aria-pressed="true"] { background: var(--realce); border-color: var(--realce); color: var(--papel); }
+.idioma[aria-pressed="true"]:hover { background: var(--realce-claro); color: var(--papel); }
+
+.barra-progresso { height: 2px; }
+.barra-progresso span { display: block; height: 100%; width: 0; background: var(--realce); transition: width .25s ease; }
+
+/* ---------------- Estrutura ---------------- */
+
+main { padding: 0 1rem 5rem; }
+
+.folha { max-width: var(--medida); margin: 0 auto; }
+
+.capa { padding: clamp(3rem, 10vh, 6rem) 0 2.5rem; text-align: center; }
+.capa h1 { font-size: clamp(2.4rem, 8vw, 3.4rem); font-weight: 400; letter-spacing: .02em; margin: 0 0 .3rem; }
+.capa .subtitulo {
+  font-family: var(--sans); font-size: .8rem; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--tinta-tenue); margin: 0;
+}
+
+.secao-titulo {
+  font-family: var(--sans); font-size: .72rem; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--tinta-tenue);
+  margin: 2.2rem 0 1rem; font-weight: 600;
+}
+
+.cabeca { padding: 2.5rem 0 .5rem; }
+.cabeca h1 { font-weight: 400; font-size: clamp(1.9rem, 6vw, 2.5rem); margin: 0 0 .3rem; line-height: 1.2; }
+.meta { font-family: var(--sans); font-size: .82rem; color: var(--tinta-tenue); margin: 0; }
+.nota-autor { color: var(--tinta-suave); margin: 1rem 0 0; }
+
+/* ---------------- Cartões ---------------- */
+
+.cartao {
+  display: block; text-decoration: none; color: inherit;
+  background: var(--papel-2); border: 1px solid var(--linha);
+  border-radius: var(--raio); padding: 1.1rem 1.25rem;
+  margin-bottom: .9rem; box-shadow: var(--sombra);
+  transition: border-color .15s ease, transform .15s ease;
+}
+.cartao:hover { border-color: var(--realce); color: inherit; transform: translateY(-1px); }
+.cartao-titulo { display: block; font-size: 1.25rem; line-height: 1.3; }
+.cartao-meta { display: block; font-family: var(--sans); font-size: .78rem; color: var(--tinta-tenue); margin-top: .2rem; }
+.cartao-texto { display: block; color: var(--tinta-suave); margin-top: .55rem; font-size: .95rem; line-height: 1.55; }
+
+.retomar {
+  display: block; text-decoration: none; color: inherit;
+  border-left: 3px solid var(--realce); padding: .6rem 0 .6rem 1rem; margin: 0 0 1rem;
+}
+.retomar .rot { display: block; font-family: var(--sans); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--realce); }
+.retomar .alvo { display: block; font-size: 1.05rem; }
+.retomar:hover .alvo { text-decoration: underline; }
+
+/* ---------------- Folha de rosto e índice ---------------- */
+
+.rosto { text-align: center; padding: clamp(2.5rem, 8vh, 4.5rem) 0 1rem; }
+.rosto-autor { font-family: var(--sans); font-size: .8rem; letter-spacing: .2em; text-transform: uppercase; color: var(--tinta-tenue); margin: 0 0 .6rem; }
+.rosto h1 { font-weight: 400; font-size: clamp(2.3rem, 8vw, 3.2rem); margin: 0 0 .3rem; line-height: 1.1; }
+.descricao { color: var(--tinta-suave); margin: 1.4rem auto 0; max-width: 30rem; }
+.acoes { margin: 1.8rem 0 0; display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }
+.botao {
+  display: inline-block; font-family: var(--sans); font-size: .88rem; text-decoration: none;
+  background: var(--realce); color: var(--papel); border: 1px solid var(--realce);
+  padding: .55rem 1.1rem; border-radius: 999px;
+}
+.botao:hover { background: var(--realce-claro); border-color: var(--realce-claro); color: var(--papel); }
+.botao.secundario { background: transparent; color: var(--realce); }
+.botao.secundario:hover { color: var(--realce-claro); background: transparent; }
+
+.indice { list-style: none; margin: 0; padding: 0; }
+.indice li { border-bottom: 1px solid var(--linha); }
+.indice a {
+  display: flex; gap: .9rem; align-items: baseline;
+  padding: .45rem .25rem; text-decoration: none; color: var(--tinta);
+}
+.indice a:hover { color: var(--realce); }
+.indice .num {
+  flex: none; width: 4.2rem; text-align: right;
+  font-family: var(--sans); font-size: .78rem; color: var(--tinta-tenue); letter-spacing: .04em;
+}
+.indice .tit { flex: 1; min-width: 0; }
+.indice .inc { color: var(--tinta-suave); font-style: italic; }
+.indice li.atual .num { color: var(--realce); font-weight: 600; }
+.indice li.atual a { color: var(--realce); }
+
+/* ---------------- Leitura ---------------- */
+
+.cabeca-parte { text-align: center; padding: clamp(2.2rem, 7vh, 4rem) 0 1.2rem; }
+.num-parte {
+  font-size: 1.05rem; letter-spacing: .18em;
+  color: var(--tinta-tenue); margin: 0 0 .4rem;
+}
+.cabeca-parte h1 { font-weight: 400; font-size: clamp(1.55rem, 5vw, 2rem); line-height: 1.25; margin: 0; }
+
+/* contos: coletânea, título, subtítulo e primeira publicação no alto do texto */
+.coletanea-parte {
+  font-family: var(--sans); font-size: .72rem; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--tinta-tenue); margin: 0 0 .7rem;
+}
+.coletanea-parte em, .secao-titulo em { font-style: normal; }
+.cabeca-parte h1.titulo-conto { font-size: clamp(1.9rem, 6vw, 2.5rem); line-height: 1.15; }
+.subtitulo-obra { font-style: italic; color: var(--tinta-suave); margin: .45rem auto 0; max-width: 28rem; line-height: 1.4; }
+.publicacao { font-family: var(--sans); font-size: .78rem; line-height: 1.5; color: var(--tinta-tenue); margin: .9rem auto 0; max-width: 28rem; }
+.cabeca-parte.conto .num-parte { margin-top: 2.2rem; }
+.cabeca-parte h2 { font-weight: 400; font-size: clamp(1.25rem, 4vw, 1.5rem); line-height: 1.3; margin: 0; }
+.cartao.paratexto { background: transparent; box-shadow: none; padding: .7rem 1.25rem; }
+.cartao.paratexto .cartao-titulo { font-size: 1.05rem; color: var(--tinta-suave); }
+
+/* notas do autor, no fim do texto */
+.nota-do-autor {
+  margin: 2.6rem 0 0; padding: 1rem 0 0; border-top: 1px solid var(--linha);
+  font-size: .9em; color: var(--tinta-suave);
+}
+.nota-do-autor .rotulo {
+  font-family: var(--sans); font-size: .7rem; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--tinta-tenue); text-indent: 0; margin: 0 0 .6rem;
+}
+.leitura .texto .nota-do-autor p:nth-child(2) { text-indent: 0; }
+
+.texto p { margin: 0; text-indent: 1.5em; hyphens: auto; -webkit-hyphens: auto; text-align: justify; }
+.texto p + p { margin-top: .15em; }
+.texto p.continua { text-indent: 0; }
+.texto p.verso {
+  text-indent: 0; text-align: left; margin: .9em 0 .9em 2.2em;
+  font-size: .95em; line-height: 1.55;
+}
+.texto em { font-style: italic; }
+.leitura .texto p:first-child { text-indent: 0; }
+
+/* ---------------- Poemas e textos em paralelo ---------------- */
+
+/* Grade de linhas: cada verso (ou parágrafo) do original e da tradução ocupa a mesma linha,
+   de modo que os dois lados andam juntos; escondido um dos lados, sobra uma coluna. */
+.paralelo { display: grid; grid-template-columns: minmax(0, 1fr); }
+.bilingue.ver-trad .orig, .bilingue.ver-orig .trad { display: none; }
+.leitura.bilingue.ver-ambos { max-width: calc(var(--medida) * 2 + 3rem); }
+.bilingue.ver-ambos .paralelo { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: clamp(1.5rem, 4vw, 3.5rem); }
+.bilingue.ver-ambos .paralelo.poema { width: 100%; }
+
+/* tela estreita: um texto de cada vez; com os dois ligados, o último escolhido */
+@media (max-width: 760px) {
+  .leitura.bilingue.ver-ambos { max-width: var(--medida); }
+  .bilingue.ver-ambos .paralelo { grid-template-columns: minmax(0, 1fr); }
+  .bilingue.ver-ambos.ultimo-orig .trad, .bilingue.ver-ambos.ultimo-trad .orig { display: none; }
+}
+
+/* poema: bloco centrado na largura do verso mais longo */
+.paralelo.poema { width: fit-content; max-width: 100%; margin: 0 auto; }
+.paralelo.poema > div { text-align: left; }
+.paralelo .v { padding-left: 1.6em; text-indent: -1.6em; line-height: 1.6; }
+.paralelo .ini { margin-top: 1.05em; }
+
+.paralelo .m { color: var(--tinta-suave); }
+.paralelo .m-parte { text-align: center; letter-spacing: .18em; color: var(--tinta-tenue); margin: 1.6em 0 .7em; }
+.paralelo .m-parte:first-child, .paralelo .m-parte[data-i="0"] { margin-top: 0; }
+.paralelo .m-subtitulo { text-align: center; font-style: italic; margin: 1.4em 0 .5em; }
+.paralelo .m-fala { font-variant: small-caps; letter-spacing: .06em; margin-bottom: .15em; }
+.paralelo .m-voz { font-style: italic; font-size: .92em; line-height: 1.45; margin-bottom: .2em; }
+.paralelo .m-epigrafe {
+  font-style: italic; font-size: .88em; line-height: 1.5; text-align: right;
+  max-width: 24rem; margin: 0 0 1.4em auto;
+}
+.paralelo .m-dedicatoria { font-style: italic; font-size: .9em; text-align: right; margin-bottom: 1.2em; }
+.paralelo .m-data, .paralelo .m-fecho { font-style: italic; font-size: .9em; text-align: right; margin-top: 1em; }
+.paralelo .m-separador, .paralelo .m-lacuna { text-align: center; color: var(--tinta-tenue); letter-spacing: .25em; margin: .9em 0; }
+.paralelo .m-pagina { height: 1.2em; }
+.fio { display: inline-block; width: 4rem; border-top: 1px solid var(--tinta-tenue); vertical-align: middle; }
+
+/* prosa em paralelo: os parágrafos dos dois lados começam na mesma altura */
+.paralelo.prosa .p:not([data-i="0"]) { margin-top: .15em; }
+.leitura .texto .paralelo.prosa p:first-child { text-indent: 1.5em; }
+.leitura .texto .paralelo.prosa [data-i="0"] p { text-indent: 0; }
+
+/* títulos do original e da tradução, cada um sobre o seu texto */
+.cabeca-parte .paralelo.titulos { width: 100%; }
+.cabeca-parte .paralelo.titulos > div { text-align: center; }
+.cabeca-parte .paralelo.titulos h1, .cabeca-parte .paralelo.titulos h2 { margin: 0; }
+
+.carregando { text-align: center; padding: 3rem 0; }
+
+/* lista de poemas de uma pasta */
+.indice.poemas .orig-tit { display: block; font-size: .8em; font-style: italic; color: var(--tinta-tenue); }
+.indice.sem-num a { padding-left: .5rem; }
+.cartao.pasta .cartao-texto { font-size: .9rem; }
+.cartao.area .cartao-titulo { font-size: 1.45rem; }
+
+/* folha do manuscrito ({Ms A 45v}): marca discreta no meio do texto */
+.folha-ms {
+  font-family: var(--sans); font-size: .62em; letter-spacing: .04em; color: var(--tinta-tenue);
+  vertical-align: .35em; padding: 0 .15em; white-space: nowrap; user-select: none; opacity: .8;
+}
+
+/* índice dos manuscritos: folhas de cada parte */
+.indice .folhas { font-family: var(--sans); font-size: .72rem; color: var(--tinta-tenue); margin-left: .6em; white-space: nowrap; }
+
+/* teatro: título de cena e nome de quem fala */
+.texto p.cena {
+  text-indent: 0; text-align: center; font-family: var(--sans); font-size: .74rem;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--tinta-tenue); margin: 2.2em 0 1em;
+}
+.texto p.fala {
+  text-indent: 0; text-align: left; font-variant: small-caps; letter-spacing: .04em;
+  color: var(--tinta-suave); margin: 1.1em 0 .2em;
+}
+.texto p.fala em { font-variant: normal; letter-spacing: 0; }
+.texto p.fala + p { text-indent: 0; }
+
+.fim {
+  text-align: center; font-family: var(--sans); font-size: .78rem; letter-spacing: .3em;
+  text-transform: uppercase; color: var(--tinta-tenue); margin: 3rem 0 0;
+}
+
+.passos { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin: 3rem 0 0; }
+.passo {
+  display: block; text-decoration: none; color: inherit;
+  border: 1px solid var(--linha); border-radius: var(--raio); padding: .75rem .9rem;
+  background: var(--papel-2);
+}
+.passo:hover { border-color: var(--realce); color: inherit; }
+.passo.seg { text-align: right; }
+.passo.vazio { border: 0; background: transparent; }
+.passo .dir { display: block; font-family: var(--sans); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--realce); }
+.passo .alvo { display: block; font-size: .92rem; line-height: 1.35; margin-top: .2rem; color: var(--tinta-suave); }
+
+.posicao { text-align: center; font-family: var(--sans); font-size: .78rem; color: var(--tinta-tenue); margin: 1.4rem 0 0; }
+.posicao a { color: var(--tinta-tenue); }
+
+/* ---------------- Sobre esta edição ---------------- */
+
+.sobre .texto p { text-indent: 0; text-align: left; margin: 0 0 1em; }
+.sobre h2 {
+  font-family: var(--sans); font-size: .8rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--tinta-suave); margin: 2.4rem 0 .4rem; font-weight: 600;
+}
+.explica { font-size: .9rem; color: var(--tinta-tenue); margin: 0 0 .8rem; }
+.variantes { width: 100%; border-collapse: collapse; font-size: .9rem; line-height: 1.45; }
+.variantes th {
+  text-align: left; font-family: var(--sans); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--tinta-tenue); font-weight: 600; border-bottom: 1px solid var(--linha); padding: .35rem .4rem;
+}
+.variantes td { border-bottom: 1px solid var(--linha); padding: .4rem .4rem; vertical-align: top; }
+.variantes td.cap { font-family: var(--sans); font-size: .75rem; color: var(--tinta-tenue); white-space: nowrap; }
+.variantes .obs { display: block; font-size: .82rem; color: var(--tinta-tenue); margin-top: .15rem; }
+.fontes { padding-left: 1.1rem; font-size: .95rem; }
+.fontes li { margin: .35rem 0; }
+.obs-inline { color: var(--tinta-tenue); }
+
+/* ---------------- Rodapé ---------------- */
+
+.rodape {
+  border-top: 1px solid var(--linha); padding: 1.2rem 1rem 2rem;
+  text-align: center; font-family: var(--sans); font-size: .75rem; color: var(--tinta-tenue);
+}
+.rodape p { margin: 0; }
+
+@media (max-width: 520px) {
+  .passos { grid-template-columns: 1fr; }
+  .passo.seg { text-align: left; }
+  .passo.vazio { display: none; }
+  .indice .num { width: 3.4rem; }
+  .variantes { font-size: .85rem; }
+}
+
+@media print {
+  .topo, .passos, .posicao, .rodape { display: none; }
+  body { background: #fff; color: #000; }
+}
+
+/* ---------------------------------------------------------------
+   Biblioteca Taioé (site estático, etapa 4)
+   --------------------------------------------------------------- */
+
+[hidden] { display: none !important; }
+
+.visualmente-oculto {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+}
+
+/* aviso discreto da capa: a posição fica só neste navegador */
+.aviso-conta {
+  font-family: var(--sans); font-size: .85rem; line-height: 1.5;
+  color: var(--tinta-tenue); margin: .4rem 0 1.4rem;
+}
+
+/* "Você parou no Capítulo XII em outro aparelho" */
+.aviso-outro {
+  font-family: var(--sans); font-size: .9rem; line-height: 1.5;
+  max-width: var(--medida); margin: 1rem auto; padding: .7rem 1rem;
+  border: 1px solid var(--linha); border-left: 3px solid var(--realce);
+  border-radius: var(--raio); background: var(--papel-2);
+}
+.leitura + .aviso-outro, .aviso-outro + .leitura { margin-top: 1rem; }
+
+/* pergunta antes de enviar as leituras deste aparelho para a conta */
+.pergunta-envio {
+  font-family: var(--sans); font-size: .9rem; line-height: 1.5;
+  max-width: var(--medida); margin: 1rem auto; padding: .9rem 1rem;
+  border: 1px solid var(--linha); border-radius: var(--raio); background: var(--papel-2);
+}
+.pergunta-envio button {
+  font: inherit; margin: .6rem .5rem 0 0; padding: .4rem .9rem; cursor: pointer;
+  border-radius: var(--raio); border: 1px solid var(--realce); background: var(--realce); color: var(--papel);
+}
+.pergunta-envio button.secundario { background: transparent; color: var(--realce); }

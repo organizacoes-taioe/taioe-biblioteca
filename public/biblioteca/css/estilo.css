@@ -154,14 +154,15 @@ main { padding: 0 1rem 5rem; }
 
 /* ---------------- Cartões ---------------- */
 
+/* Em todos os níveis, o mesmo desenho do índice da obra: sem caixa, só uma
+   linha separando um item do outro (pedido do Gere, 06/10/2026). */
 .cartao {
   display: block; text-decoration: none; color: inherit;
-  background: var(--papel-2); border: 1px solid var(--linha);
-  border-radius: var(--raio); padding: 1.1rem 1.25rem;
-  margin-bottom: .9rem; box-shadow: var(--sombra);
-  transition: border-color .15s ease, transform .15s ease;
+  border-bottom: 1px solid var(--linha); padding: .85rem .25rem;
+  transition: color .15s ease;
 }
-.cartao:hover { border-color: var(--realce); color: inherit; transform: translateY(-1px); }
+.cartao:hover { color: inherit; }
+.cartao:hover .cartao-titulo { color: var(--realce); }
 .cartao-titulo { display: block; font-size: 1.25rem; line-height: 1.3; }
 .cartao-meta { display: block; font-family: var(--sans); font-size: .78rem; color: var(--tinta-tenue); margin-top: .2rem; }
 .cartao-texto { display: block; color: var(--tinta-suave); margin-top: .55rem; font-size: .95rem; line-height: 1.55; }
@@ -226,7 +227,7 @@ main { padding: 0 1rem 5rem; }
 .publicacao { font-family: var(--sans); font-size: .78rem; line-height: 1.5; color: var(--tinta-tenue); margin: .9rem auto 0; max-width: 28rem; }
 .cabeca-parte.conto .num-parte { margin-top: 2.2rem; }
 .cabeca-parte h2 { font-weight: 400; font-size: clamp(1.25rem, 4vw, 1.5rem); line-height: 1.3; margin: 0; }
-.cartao.paratexto { background: transparent; box-shadow: none; padding: .7rem 1.25rem; }
+.cartao.paratexto { padding: .6rem .25rem; }
 .cartao.paratexto .cartao-titulo { font-size: 1.05rem; color: var(--tinta-suave); }
 
 /* notas do autor, no fim do texto */

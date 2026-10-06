@@ -34,6 +34,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'santo-agostinho',
+  area: 'catolicismo',
+  nome: 'Santo Agostinho',
+  nomeCompleto: 'Aurélio Agostinho de Hipona',
+  vida: '354–430',
+  ordem: 'Agostinho, Santo',
+  nota: 'Bispo de Hipona, doutor da Igreja, convertido em Milão em 386. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
   id: 'g-k-chesterton',
   area: 'catolicismo',
   nome: 'G. K. Chesterton',

@@ -2070,6 +2070,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('santa-teresinha/cartas-de-santa-teresinha', 'Cartas'),
   ('santa-teresinha/historia-de-uma-alma', 'História de uma Alma'),
   ('santa-teresinha/oracoes-de-santa-teresinha', 'Orações'),
+  ('santo-agostinho/confissoes', 'Confissões'),
   ('santo-atanasio/vida-de-santo-antao', 'Vida de Santo Antão'),
   ('tomas-antonio-gonzaga/lira-acaso-sao-estes', 'Acaso são estes'),
   ('tomas-antonio-gonzaga/lira-de-amar-minha-marilia-a-formosura', 'De amar, minha Marília, a formosura'),

@@ -291,7 +291,7 @@ const tituloSobre = (o) => (o.edicao && o.edicao.titulo) || 'Sobre esta edição
 const umaParte = (o) => (o.coletanea || o.poema) && o.partes.length === 1;
 
 // ------------------------------------------------------------------ endereços (congelados)
-const RESERVADOS = new Set(['css', 'js', 'vendor', 'sitemap.xml', '404.html', 'obras.json', 'favicon.svg', ...AREAS.map((a) => a.id)]);
+const RESERVADOS = new Set(['css', 'js', 'vendor', 'sitemap.xml', '404.html', 'obras.json', 'favicon.svg', 'lendo', 'lidos', 'busca', ...AREAS.map((a) => a.id)]);
 const congelados = fs.existsSync(ARQ_ENDERECOS) ? JSON.parse(lerLf(ARQ_ENDERECOS)) : {};
 const enderecos = {};
 function slugParte(o, p, i) {
@@ -405,6 +405,7 @@ ${o.jsonld ? `<script type="application/ld+json">${JSON.stringify(o.jsonld).repl
     <a class="marca" href="${BASE}">Biblioteca</a>
     <nav class="topo-nav" id="trilha" aria-label="Trilha de navegação">${trilhaHtml(o.trilha || [])}</nav>
     <div class="ferramentas">
+      <a class="btn" href="${BASE}busca/" aria-label="Buscar" title="Buscar"><svg viewBox="0 0 20 20" width="15" height="15" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12.6 12.6 17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></a>
       <button type="button" id="fonte-menos" class="btn" aria-label="Diminuir a letra" title="Diminuir a letra" hidden>A−</button>
       <button type="button" id="fonte-mais" class="btn" aria-label="Aumentar a letra" title="Aumentar a letra" hidden>A+</button>
       <button type="button" id="tema" class="btn" aria-label="Alternar tema claro e escuro" title="Alternar tema" hidden>◐</button>
@@ -436,6 +437,7 @@ ${o.corpo}
 function paginaCapa() {
   let html = '<div class="folha capa"><h1>Biblioteca</h1><p class="subtitulo">Textos em domínio público</p></div><div class="folha">' +
     '<div id="retomar"></div>' +
+    '<p class="atalhos"><a href="' + BASE + 'lendo/">Em leitura</a><a href="' + BASE + 'lidos/">Lidos</a><a href="' + BASE + 'busca/">Buscar</a></p>' +
     '<p class="aviso-conta" id="aviso-conta">Sua posição de leitura fica salva só neste navegador. ' +
     '<a href="/entrar/?voltar=%2Fbiblioteca%2F">Entre com seu email</a> para guardá-la em qualquer aparelho.</p>' +
     '<p class="secao-titulo">Acervo</p>';
@@ -454,16 +456,26 @@ function paginaCapa() {
     jsonld: { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Biblioteca Taioé', url: SITE + BASE, inLanguage: 'pt-BR' } });
 }
 
+/* «1839–1908» ou «~296–373» (o til marca o ano estimado) → os dois anos, para ordenar */
+function anosDe(vida) {
+  const m = String(vida || '').match(/(~?)(\d{1,4})\s*[–-]\s*(~?)(\d{1,4})/);
+  return m ? { nasc: +m[2], morte: +m[4] } : { nasc: 9999, morte: 9999 };
+}
 function paginaArea(ar) {
-  let html = '<div class="folha"><header class="cabeca"><h1>' + esc(ar.nome) + '</h1></header><p class="secao-titulo">Autores</p>';
-  autoresDaArea(ar.id).forEach((a) => {
+  let html = '<div class="folha"><header class="cabeca"><h1>' + esc(ar.nome) + '</h1></header>' +
+    '<div class="secao-titulo linha-ordem"><span>Autores</span><span class="ordenar" id="ordenar" hidden>' +
+    '<button type="button" data-ordem="alfa" aria-pressed="true">A–Z</button>' +
+    '<button type="button" data-ordem="nasc" aria-pressed="false">nascimento</button>' +
+    '<button type="button" data-ordem="morte" aria-pressed="false">falecimento</button></span></div><div id="lista-autores">';
+  autoresDaArea(ar.id).forEach((a, k) => {
     const obras = obrasDe(a.id), prosa = obras.filter((o) => !o.poema), versos = obras.length - prosa.length;
     const conta = [prosa.length ? plural(livros(prosa), 'obra', 'obras') : '', versos ? plural(versos, 'poema', 'poemas') : ''].filter(Boolean).join(' · ') || '0 obras';
-    html += '<a class="cartao" href="' + U.autor(a) + '"><span class="cartao-titulo">' + esc(a.nome) + '</span>' +
+    const anos = anosDe(a.vida);
+    html += '<a class="cartao" href="' + U.autor(a) + '" data-alfa="' + k + '" data-nasc="' + anos.nasc + '" data-morte="' + anos.morte + '"><span class="cartao-titulo">' + esc(a.nome) + '</span>' +
       '<span class="cartao-meta">' + esc(a.vida || '') + (a.vida ? ' · ' : '') + conta + '</span>' +
       (obras.length ? '<span class="cartao-texto">' + generosDe(a.id).map((x) => esc(nomeGenero(x.genero))).join(' · ') + '</span>' : '') + '</a>';
   });
-  html += '</div>';
+  html += '</div></div>';
   pagina({ url: U.area(ar.id), titulo: ar.nome, corpo: html, trilha: [{ txt: ar.nome }],
     descricao: `${ar.nome} na Biblioteca Taioé: ${autoresDaArea(ar.id).map((a) => a.nome).join(', ')}.` });
 }
@@ -496,7 +508,7 @@ function htmlListaPoemas(obras) {
     g.obras.forEach((o) => {
       const extra = o.traducao ? '<span class="orig-tit" lang="' + esc(o.traducao.codigo || '') + '">' + esc(o.traducao.titulo) + '</span>'
         : o.partes.length > 1 ? '<span class="orig-tit">' + esc(fichaObra(o)) + '</span>' : '';
-      html += '<li><a href="' + U.obra(o) + '">' + (comNum ? '<span class="num">' + esc(o.n) + '</span>' : '') +
+      html += '<li data-obra="' + esc(chaveObra(o)) + '"><a href="' + U.obra(o) + '">' + (comNum ? '<span class="num">' + esc(o.n) + '</span>' : '') +
         '<span class="tit"' + (o.lingua ? ' lang="' + esc(o.lingua) + '"' : '') + '>' + esc(o.titulo) + extra + '</span></a></li>';
     });
     html += '</ol>';
@@ -556,7 +568,7 @@ function paginaGenero(a, x) {
     if (g.titulo) html += '<p class="secao-titulo"><em>' + esc(g.titulo) + '</em>' + (g.ano ? ' · ' + g.ano : '') + '</p>';
     g.obras.forEach((o) => {
       const pub = textoPublicacao(o);
-      html += '<a class="cartao' + (o.paratexto ? ' paratexto' : '') + '" href="' + U.obra(o) + '">' +
+      html += '<a class="cartao' + (o.paratexto ? ' paratexto' : '') + '" href="' + U.obra(o) + '" data-obra="' + esc(chaveObra(o)) + '">' +
         '<span class="cartao-titulo">' + (o.coletanea ? esc(o.titulo) : '<em>' + esc(o.titulo) + '</em>') + '</span>' +
         '<span class="cartao-meta">' + esc(fichaObra(o)) + '</span>' + (pub ? '<span class="cartao-texto">' + inline(pub) + '</span>' : '') + '</a>';
     });
@@ -589,7 +601,8 @@ function paginaObra(a, o) {
     (o.descricao ? '<p class="descricao">' + inline(o.descricao) + '</p>' : '') +
     '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
     '<p class="acoes"><a class="botao" id="comecar" href="' + U.parte(o, 1) + '">Começar a ler</a>' +
-    (o.edicao ? ' <a class="botao secundario" href="' + U.sobre(o) + '">' + esc(tituloSobre(o)) + '</a>' : '') + '</p></header>' +
+    (o.edicao ? ' <a class="botao secundario" href="' + U.sobre(o) + '">' + esc(tituloSobre(o)) + '</a>' : '') + '</p>' +
+    '<div class="estado-leitura" id="estado-leitura" data-alvo="obra" hidden></div></header>' +
     '<p class="secao-titulo">' + esc(d.plural.charAt(0).toUpperCase() + d.plural.slice(1)) + '</p><ol class="indice">';
   const agrupa = o.divisao && (o.divisao.rotulo === 'titulo' || o.divisao.agrupar);
   o.partes.forEach((p, i) => {
@@ -655,7 +668,9 @@ function paginaParte(a, o, i) {
   const html = '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
     '<article class="folha leitura' + (poema ? ' de-poema' : '') + (bilingue ? ' bilingue ver-trad' : '') + '"' + (lingua ? ' data-lingua="' + esc(lingua) + '"' : '') + '>' +
     '<header class="cabeca-parte' + (conto && i === 1 ? ' conto' : '') + '">' + cabeca + '</header>' + textoParte(o, p) +
+    '<div id="fim-parte" aria-hidden="true"></div>' +
     (i < total || poema ? '' : '<p class="fim">Fim</p>') +
+    '<div class="estado-leitura" id="estado-leitura" data-alvo="parte" hidden></div>' +
     '<nav class="passos" aria-label="Navegação entre ' + esc(poema && total === 1 ? 'poemas' : o.divisao ? o.divisao.plural : 'partes') + '">' + navAnt + navSeg + '</nav>' +
     (total > 1 ? '<p class="posicao">' + i + ' de ' + total + ' · <a href="' + U.obra(o) + '">índice</a></p>' : '') +
     (conto && o.edicao && i === total ? '<p class="posicao"><a href="' + U.sobre(o) + '">' + esc(tituloSobre(o)) + '</a></p>' : '') + '</article>';
@@ -720,12 +735,30 @@ function paginaSobre(a, o) {
     descricao: descricaoDe(`${tit}: ${o.titulo}, de ${a.nome}. ${e.apresentacao || ''}`) });
 }
 
+function paginasDoLeitor() {
+  const casca = (url, titulo, explica, id) => pagina({ url, titulo, semSitemap: true, trilha: [{ txt: titulo }], dados: { pagina: id },
+    descricao: titulo + ' na Biblioteca Taioé.',
+    corpo: '<div class="folha"><header class="cabeca"><h1>' + esc(titulo) + '</h1><p class="meta">' + esc(explica) + '</p></header>' +
+      '<div id="lista-leitor" class="lista-leitor"><p class="explica">Carregando…</p></div></div>' });
+  casca(BASE + 'lendo/', 'Em leitura', 'Os livros que você começou, o aberto mais recentemente primeiro.', 'lendo');
+  casca(BASE + 'lidos/', 'Lidos', 'Os livros que você leu por inteiro.', 'lidos');
+  pagina({ url: BASE + 'busca/', titulo: 'Buscar', trilha: [{ txt: 'Buscar' }], dados: { pagina: 'busca' },
+    descricao: 'Busque livros, poemas e autores na Biblioteca Taioé, ou palavras dentro dos textos.',
+    corpo: '<div class="folha"><header class="cabeca"><h1>Buscar</h1></header>' +
+      '<form class="busca" id="busca" role="search"><input type="search" id="busca-q" name="q" autocomplete="off" ' +
+      'placeholder="título, autor ou palavra do texto" aria-label="Buscar"></form>' +
+      '<p class="modos" role="group" aria-label="Onde buscar"><button type="button" data-modo="titulos" aria-pressed="true">Títulos e autores</button>' +
+      '<button type="button" data-modo="textos" aria-pressed="false">Dentro dos textos</button></p>' +
+      '<div id="busca-resultados" class="busca-resultados" aria-live="polite"><noscript><p class="explica">A busca precisa de JavaScript.</p></noscript></div></div>' });
+}
+
 // ------------------------------------------------------------------ gerar
 fs.rmSync(SAIDA, { recursive: true, force: true });
 fs.mkdirSync(SAIDA, { recursive: true });
 
 paginaCapa();
 AREAS.forEach(paginaArea);
+paginasDoLeitor();
 dados.autores.forEach((a) => {
   if (!obrasDe(a.id).length) return;
   paginaAutor(a);
@@ -774,9 +807,51 @@ fs.writeFileSync(path.join(SAIDA, 'js', 'taioe-sessao.js'), lerLf(path.join(RAIZ
 // e para converter os endereços antigos (#/o/<id>/<n>)
 const indiceObras = {};
 dados.obras.forEach((o) => {
-  indiceObras[chaveObra(o)] = { i: o.id, t: o.titulo, u: U.obra(o), p: umaParte(o) ? [['texto', '']] : o.partes.map((p) => [p.slug, rotuloParte(o, p)]) };
+  const a = acharAutor(o.autor);
+  indiceObras[chaveObra(o)] = { i: o.id, t: o.titulo, a: a ? a.nome : o.autor, u: U.obra(o), p: umaParte(o) ? [['texto', '']] : o.partes.map((p) => [p.slug, rotuloParte(o, p)]) };
 });
 fs.writeFileSync(path.join(SAIDA, 'obras.json'), JSON.stringify(indiceObras));
+
+/* ── a busca ──
+   busca/titulos.json: obras e autores, para a busca por nome (no navegador: começo do nome
+   primeiro, depois qualquer parte). busca/docs.json: as partes (obra, parte), na ordem dos
+   números do índice. busca/i/<xy>.json: o índice invertido dos textos, partido pelas duas
+   primeiras letras da palavra: { palavra: "números das partes, em base 36, por diferença" }. */
+const STOP = new Set(('de da do das dos a o as os e é em um uma uns umas no na nos nas ao aos à às que se por para com ' +
+  'não mas ou como mais lhe lhes me te vos seu sua seus suas meu minha meus minhas teu tua ele ela eles elas eu tu ' +
+  'isso isto este esta estes estas esse essa esses essas aquele aquela era foi ser há já só the and of to in that is it ' +
+  'le la les et des un une du en est qui der die das und den dem ist ein eine nicht zu mit sich non ad cum').split(' ')
+  .map((w) => w.normalize('NFD').replace(/[\u0300-\u036f]/g, '')));
+const normal = (t) => String(t).toLowerCase().replace(/ß/g, 'ss').replace(/æ/g, 'ae').replace(/œ/g, 'oe')
+  .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const limpo = (t) => String(t || '').replace(/\{[^}]*\}/g, ' ').replace(/^::.*$/gm, ' ').replace(/[_*|]/g, ' ');
+const titulos = [];
+dados.autores.forEach((a) => { if (obrasDe(a.id).length) titulos.push([a.nome, '', U.autor(a), 'autor']); });
+dados.obras.filter((o) => !o.paratexto).forEach((o) => {
+  const a = acharAutor(o.autor);
+  titulos.push([o.titulo, a ? a.nome : o.autor, U.obra(o), o.poema ? 'poema' : 'obra',
+    ...(o.traducao && o.traducao.titulo ? [o.traducao.titulo] : [])]);
+});
+fs.mkdirSync(path.join(SAIDA, 'busca', 'i'), { recursive: true });
+fs.writeFileSync(path.join(SAIDA, 'busca', 'titulos.json'), JSON.stringify(titulos));
+const chaves = [], docs = [], postings = new Map();
+dados.obras.forEach((o) => {
+  const oi = chaves.push(chaveObra(o)) - 1;
+  o.partes.forEach((p, pi) => {
+    const d = docs.push([oi, pi]) - 1;
+    const vistas = new Set((normal(limpo(p.texto) + ' ' + limpo(p.original)).match(/[a-z0-9]+/g) || [])
+      .filter((w) => w.length >= 2 && w.length <= 30 && !STOP.has(w)));
+    vistas.forEach((w) => { let l = postings.get(w); if (!l) postings.set(w, (l = [])); l.push(d); });
+  });
+});
+fs.writeFileSync(path.join(SAIDA, 'busca', 'docs.json'), JSON.stringify({ o: chaves, d: docs }));
+const shards = {};
+[...postings.keys()].sort().forEach((w) => {
+  const k = w.slice(0, 2), ids = postings.get(w);
+  let ant = 0;
+  (shards[k] = shards[k] || {})[w] = ids.map((x) => { const v = (x - ant).toString(36); ant = x; return v; }).join(',');
+});
+Object.entries(shards).forEach(([k, m]) => fs.writeFileSync(path.join(SAIDA, 'busca', 'i', k + '.json'), JSON.stringify(m)));
 
 fs.writeFileSync(path.join(SAIDA, 'sitemap.xml'), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   sitemap.map((u) => `<url><loc>${SITE}${u}</loc></url>`).join('\n') + '\n</urlset>\n');  // sem data: gerar de novo dá o mesmo arquivo

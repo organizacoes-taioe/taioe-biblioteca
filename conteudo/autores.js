@@ -28,7 +28,7 @@ BIBLIOTECA.autor({
   area: 'catolicismo',
   nome: 'Santo Atanásio',
   nomeCompleto: 'Atanásio de Alexandria',
-  vida: 'c. 296–373',
+  vida: '~296–373',
   ordem: 'Atanásio, Santo',
   nota: 'Bispo de Alexandria, doutor da Igreja, defensor da fé de Niceia contra os arianos. Em tradução do grego.'
 });
@@ -229,7 +229,7 @@ BIBLIOTECA.autor({
   id: 'luis-de-camoes',
   nome: 'Luís de Camões',
   nomeCompleto: 'Luís Vaz de Camões',
-  vida: 'c. 1524–1580',
+  vida: '~1524–1580',
   ordem: 'Camões, Luís de',
   nota: 'Poeta de _Os Lusíadas_ e o maior lírico da língua.'
 });

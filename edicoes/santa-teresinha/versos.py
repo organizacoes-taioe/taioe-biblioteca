@@ -12,8 +12,17 @@ import subprocess
 import sys
 import tempfile
 
-VERSIFICADOR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..',
-                            'Solar', 'Editora', 'Versificador')
+def _achar_versificador():
+    # sobe pelas pastas até achar Solar/Editora/Versificador (o repositório já mudou de lugar)
+    d = os.path.dirname(os.path.abspath(__file__))
+    while True:
+        alvo = os.path.join(d, 'Solar', 'Editora', 'Versificador')
+        if os.path.isdir(alvo) or os.path.dirname(d) == d:
+            return alvo
+        d = os.path.dirname(d)
+
+
+VERSIFICADOR = _achar_versificador()
 MOLDE = os.path.normpath(os.path.join(VERSIFICADOR, 'ferramentas', 'molde.mjs'))
 
 

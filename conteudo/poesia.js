@@ -1284,9 +1284,21 @@ BIBLIOTECA.poemas({
 BIBLIOTECA.poemas({
   autor: "goethe",
   arquivo: "conteudo/goethe/poesia.js",
-  livros: [{"id":"die-fischerin","titulo":"Die Fischerin","ano":1782}],
+  livros: [{"id":"iris","titulo":"Iris","ano":1775},{"id":"christliches-magazin","titulo":"Christliches Magazin","ano":1780},{"id":"die-fischerin","titulo":"Die Fischerin","ano":1782},{"id":"goethe-s-schriften-vol-8","titulo":"Goethe’s Schriften, vol. 8","ano":1789},{"id":"faust-ein-fragment","titulo":"Faust. Ein Fragment","ano":1790},{"id":"wilhelm-meisters-lehrjahre","titulo":"Wilhelm Meisters Lehrjahre","ano":1795},{"id":"musen-almanach-fur-das-jahr-1798","titulo":"Musen-Almanach für das Jahr 1798","ano":1797},{"id":"faust-eine-tragodie","titulo":"Faust. Eine Tragödie","ano":1808},{"id":"goethe-s-werke-vol-1","titulo":"Goethe’s Werke, vol. 1","ano":1815}],
   poemas: [
-    {"id":"o-rei-dos-elfos","titulo":"O Rei dos Elfos","forma":"outras","livro":0,"ordem":1782,"ano":1782,"versos":32,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Erlkönig"}}
+    {"id":"cancao-de-maio","titulo":"Canção de maio","forma":"outras","livro":0,"ordem":1771,"ano":1771,"versos":36,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Mailied (na primeira edição, Mayfest)"}},
+    {"id":"boas-vindas-e-despedida","titulo":"Boas-vindas e despedida","forma":"outras","livro":0,"ordem":1775,"ano":1775,"versos":32,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Willkommen und Abschied"}},
+    {"id":"cancao-noturna-do-viandante","titulo":"Canção noturna do viandante","forma":"outras","livro":1,"ordem":1776,"ano":1776,"versos":8,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Wandrers Nachtlied"}},
+    {"id":"o-rei-dos-elfos","titulo":"O Rei dos Elfos","forma":"outras","livro":2,"ordem":1782,"ano":1782,"versos":32,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Erlkönig"}},
+    {"id":"prometeu","titulo":"Prometeu","forma":"outras","livro":3,"ordem":1774,"ano":1774,"versos":57,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Prometheus"}},
+    {"id":"o-pescador","titulo":"O pescador","forma":"outras","livro":3,"ordem":1779,"ano":1779,"versos":32,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Der Fischer"}},
+    {"id":"rosinha-do-prado","titulo":"Rosinha do prado","forma":"outras","livro":3,"ordem":1789,"ano":1789,"versos":21,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Heidenröslein"}},
+    {"id":"margarida-a-roca","titulo":"Margarida à roca","forma":"outras","livro":4,"ordem":1790,"ano":1790,"versos":40,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Gretchen am Spinnrade"}},
+    {"id":"mignon","titulo":"Mignon","forma":"outras","livro":5,"ordem":1795,"ano":1795,"versos":21,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Kennst du das Land? wo die Citronen blühn (Mignon)"}},
+    {"id":"o-aprendiz-de-feiticeiro","titulo":"O aprendiz de feiticeiro","forma":"outras","livro":6,"ordem":1797,"ano":1797,"versos":98,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Der Zauberlehrling"}},
+    {"id":"o-rei-de-tule","titulo":"O rei de Tule","forma":"outras","livro":7,"ordem":1774,"ano":1774,"versos":24,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Der König in Thule"}},
+    {"id":"outra-cancao-noturna-do-viandante","titulo":"Outra canção noturna do viandante","forma":"outras","livro":8,"ordem":1780,"ano":1780,"versos":8,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Ein gleiches"}},
+    {"id":"achado","titulo":"Achado","forma":"outras","livro":8,"ordem":1813,"ano":1813,"versos":20,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Gefunden"}}
   ]
 });
 

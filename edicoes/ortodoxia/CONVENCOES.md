@@ -39,6 +39,14 @@ Títulos dos capítulos: Prefácio; I. Introdução em defesa de todo o resto; I
 do pensamento; IV. A ética da Terra dos Elfos; V. A bandeira do mundo; VI. Os paradoxos do
 cristianismo; VII. A revolução eterna; VIII. O romance da ortodoxia; IX. A autoridade e o aventureiro.
 
+Decididos pelo Gere em 06/10/2026, depois dos caps. III–IX: *nursery tales* → contos da carochinha;
+*nursery* → quarto das crianças; *nurse* → ama; *elfin* → élfico; *the Fall* → a Queda; *levity* →
+leveza; *humanitarian* → humanitário. Falas de fadas, de crianças e de Deus nos contos vão em *tu*; a
+fala solene citada (Belloc) pode ir em *vós*; *você* só quando Chesterton fala ao leitor. Pronomes que
+se referem a Cristo com maiúscula (Ele, Sua), como no Gutenberg. Títulos estrangeiros entre aspas e em
+itálico (“_Vie de Jésus_”). Provérbio sem tradução literal boa pode virar o equivalente brasileiro, com
+registro nas notas.
+
 ## Versos citados
 
 Toda citação em verso (Swinburne, Arnold, hinos, cantigas) se traduz pelo método do Versificador:

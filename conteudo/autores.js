@@ -33,6 +33,16 @@ BIBLIOTECA.autor({
   nota: 'Bispo de Alexandria, doutor da Igreja, defensor da fé de Niceia contra os arianos. Em tradução do grego.'
 });
 
+BIBLIOTECA.autor({
+  id: 'g-k-chesterton',
+  area: 'catolicismo',
+  nome: 'G. K. Chesterton',
+  nomeCompleto: 'Gilbert Keith Chesterton',
+  vida: '1874–1936',
+  ordem: 'Chesterton, G. K.',
+  nota: 'Escritor e jornalista inglês, convertido ao catolicismo em 1922. Em tradução do inglês.'
+});
+
 /* Poetas (poemas publicados a partir do Versificador; ver ferramentas/poesia.py) */
 
 BIBLIOTECA.autor({

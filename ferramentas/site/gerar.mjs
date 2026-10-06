@@ -778,9 +778,8 @@ dados.obras.forEach((o) => {
 });
 fs.writeFileSync(path.join(SAIDA, 'obras.json'), JSON.stringify(indiceObras));
 
-const hoje = new Date().toISOString().slice(0, 10);
 fs.writeFileSync(path.join(SAIDA, 'sitemap.xml'), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-  sitemap.map((u) => `<url><loc>${SITE}${u}</loc><lastmod>${hoje}</lastmod></url>`).join('\n') + '\n</urlset>\n');
+  sitemap.map((u) => `<url><loc>${SITE}${u}</loc></url>`).join('\n') + '\n</urlset>\n');  // sem data: gerar de novo dá o mesmo arquivo
 
 // endereços congelados (só acrescenta; nunca muda um que já existe)
 const juntos = { ...congelados };

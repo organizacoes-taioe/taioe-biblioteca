@@ -1,5 +1,7 @@
 # Notas do tradutor: A arte de aproveitar as próprias faltas, Primeira parte
 
+> Depois destas notas, as quatro partes foram harmonizadas. Onde houver divergência, valem `HARMONIZACAO.md` e a seção 8 do `CONVENCOES.md`.
+
 Arquivo: `traducao/01-primeira-parte.txt`. Texto-base: `original/01-primeira-parte.txt` (6e édition, 1894, estabelecida do scan; ver `original/LEIAME.md`).
 
 A tradução foi escrita inteira por outro tradutor, cuja sessão caiu antes da conferência. Esta revisão a conferiu contra o original, parágrafo a parágrafo, e corrigiu o que vai listado em «Correções desta revisão».

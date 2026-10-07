@@ -1,6 +1,6 @@
 # A arte de aproveitar as próprias faltas, de Joseph Tissot: texto francês de trabalho
 
-Arquivos: `00-avant-propos.txt` a `02-segunda-parte-b.txt`. São 4 arquivos em UTF-8, com cabeçalho `# chave: valor` e parágrafos separados por uma linha em branco. Nada foi traduzido.
+Arquivos: `00-avant-propos.txt` a `02-segunda-parte-b.txt`. São 4 arquivos em UTF-8, com cabeçalho `# chave: valor` e parágrafos separados por uma linha em branco. A tradução está em `../traducao/`.
 
 O texto foi estabelecido por nós a partir de um scan. Não há transcrição digital confiável disponível.
 
@@ -48,8 +48,8 @@ O texto foi estabelecido por nós a partir de um scan. Não há transcrição di
   - a página de rosto;
   - o índice.
 
-  A epígrafe da página de rosto, *Misericordias Domini in æternum cantabo* (Ps. LXXXVIII), também ficou fora. Convém decidir se entra na tradução.
-- **Erros de impressão corrigidos:** cerca de 50, todos registrados com a página em `ferramentas/cache/faltas/revisado/emendas.txt`. Exemplos:
+  A epígrafe da página de rosto, *Misericordias Domini in æternum cantabo* (Ps. LXXXVIII), entra no começo de `00-avant-propos.txt`, antes do título, como parágrafo próprio (decisão da harmonização; `montar.py` a acrescenta).
+- **Erros de impressão corrigidos:** cerca de 50, mais dois acertados na harmonização da tradução (*Puits-d'Ordre* → *Puits-d'Orbe*, nota da pág. 36; *disentils* → *disent-ils*, pág. 58–59, hífen perdido pela montagem na virada de página), todos registrados com a página em `ferramentas/cache/faltas/revisado/emendas.txt`. Exemplos:
   - *extraordiraire* → *extraordinaire*;
   - *pesque* → *presque*;
   - *Osannam* → *Ozanam*;
@@ -61,7 +61,7 @@ O texto foi estabelecido por nós a partir de um scan. Não há transcrição di
   - «Anoméens», na nota da pág. 60;
   - o fim da nota 3 da pág. 117.
 
-  Referências erradas do impresso foram mantidas e anotadas: Gen. VI, 13 (é IV, 13); Luc III, 43; Job XXX, 33.
+  Referências erradas do impresso foram mantidas e anotadas: Gen. VI, 13 (é IV, 13); Luc III, 43; Job XXX, 33. A harmonização da tradução registrou as demais no fim do `emendas.txt` (Hebr. VI, 12; Eccl. XVII, 6; Prov. XXX, 13; Ps. LXVI, 11; Rom. VIII, 24; I Cor. XII, 9; Luc. VII, 48; Luc, VII, 35; Ps. LXXXIII; a numeração 1, 2, 2, 3, 5 do cap. VIII).
 
 ## Convenção das marcas
 
@@ -78,11 +78,11 @@ Palavras contadas por espaços, sem cabeçalho, marcas e chamadas. «Parágrafos
 
 | arquivo | conteúdo | parágrafos | títulos `##` | marcas | notas | palavras (texto) | palavras (notas) |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 00-avant-propos.txt | Avant-propos (1894) | 11 | 1 | 0 | 0 | 372 | 0 |
+| 00-avant-propos.txt | epígrafe do rosto e Avant-propos (1894) | 12 | 1 | 0 | 0 | 379 | 0 |
 | 01-primeira-parte.txt | 1ª parte, cap. I–III (não se espantar, não se perturbar, não desanimar) | 110 | 3 | 3 | 99 | 10.471 | 896 |
 | 02-segunda-parte-a.txt | 2ª parte, cap. I–IV (humildade, amor da própria abjeção, confiança) | 141 | 4 | 4 | 119 | 14.408 | 1.160 |
 | 02-segunda-parte-b.txt | 2ª parte, cap. V–VIII (perseverança, fervor, satisfação, Virgem Maria) | 136 | 4 | 4 | 104 | 11.797 | 989 |
-| **total** | | **398** | **12** | **11** | **322** | **37.048** | **3.045** |
+| **total** | | **399** | **12** | **11** | **322** | **37.055** | **3.045** |
 
 ## O texto pode ir ao lado da tradução?
 
@@ -94,6 +94,6 @@ Sim (`original_ao_lado = True`). Foi revisado inteiro contra a imagem.
    - «Voir le _Pouvoir de saint François de Sales_, page 284» remete a outra obra de Tissot.
    - «Pages 84 et 190», na nota 58 de `02-segunda-parte-b.txt`, remete à paginação de uma edição anterior: nesta, o livro tem 165 páginas.
 
-   Na tradução, o melhor é manter a primeira e trocar a segunda por remissão ao capítulo, com nota.
+   Na tradução, as duas ficaram: a segunda como «Páginas 84 e 190», com uma nota «[Trad.: ...]» que indica os lugares prováveis (I, cap. III, n.º 7, e II, cap. IV, n.º 2, em nota).
 2. **Citações de São Francisco de Sales:** Tissot cita as cartas pela numeração da coleção Blaise («Lettre 793e ; collect. Blaise») e o *Esprit* de Camus. Essas referências se traduzem como estão. Não há equivalência com a numeração de Annecy.
-3. **Remissões à Filoteia:** muitas citações são da *Introduction à la vie dévote*, que a Biblioteca também vai traduzir. Convém que o tradutor use, para essas passagens, a mesma redação da nossa Filoteia, ajustada ao texto que Tissot cita (ver `CONVENCOES.md`).
+3. **Remissões à Filoteia:** muitas citações são da *Introduction à la vie dévote*, que a Biblioteca também vai traduzir. Na harmonização, essas passagens seguiram a redação da nossa Filoteia, ajustada ao texto que Tissot cita; as dos capítulos III.1–13, ainda em tradução, ficaram listadas em `../traducao/HARMONIZACAO.md` para conferir depois.

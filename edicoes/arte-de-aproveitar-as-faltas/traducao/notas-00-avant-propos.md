@@ -1,5 +1,7 @@
 # Notas do tradutor: A arte de aproveitar as próprias faltas, Advertência
 
+> Depois destas notas, as quatro partes foram harmonizadas. Onde houver divergência, valem `HARMONIZACAO.md` e a seção 8 do `CONVENCOES.md`.
+
 Arquivo: `traducao/00-avant-propos.txt`. Texto-base: `original/00-avant-propos.txt` (6e édition, 1894, estabelecida do scan; ver `original/LEIAME.md`).
 
 ## O que foi conferido

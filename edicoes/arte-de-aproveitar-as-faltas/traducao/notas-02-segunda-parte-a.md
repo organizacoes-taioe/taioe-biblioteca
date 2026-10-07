@@ -1,5 +1,7 @@
 # Notas do tradutor: A arte de aproveitar as próprias faltas, Segunda parte, capítulos I a IV
 
+> Depois destas notas, as quatro partes foram harmonizadas. Onde houver divergência, valem `HARMONIZACAO.md` e a seção 8 do `CONVENCOES.md`.
+
 Arquivo: `traducao/02-segunda-parte-a.txt`. Texto-base: `original/02-segunda-parte-a.txt` (6e édition, 1894, estabelecida do scan; ver `original/LEIAME.md`). Corresponde às págs. 49 a 113 do livro. Um tradutor anterior deixou blocos parciais numa pasta temporária, que não foram usados: a tradução foi feita de novo, inteira, e substitui qualquer versão anterior.
 
 ## O que foi conferido

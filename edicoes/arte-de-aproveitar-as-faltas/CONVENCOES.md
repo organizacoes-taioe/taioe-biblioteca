@@ -15,7 +15,7 @@ Leia antes `edicoes/CONVENCOES-TRADUCAO.md`, com as regras gerais. Este guia acr
   - `¤ [n] ...` é a nota. Traduza o conteúdo e mantenha o prefixo `¤ [n] `, no mesmo lugar (logo depois do parágrafo).
   - Referências bibliográficas: traduza só as palavras comuns («Lettre 793e ; collect. Blaise» → «Carta 793.ª; coleção Blaise»; «Sermon pour le premier Dimanche de Carême» → «Sermão para o primeiro domingo da Quaresma»).
   - Títulos de obras em francês ficam em francês, em itálico (*Esprit du Saint*, *Chrétien intérieur*). Exceção: as obras do próprio São Francisco com forma portuguesa consagrada (*Introd. à la vie dévote* → *Introd. à vida devota*; *Traité de l'amour de Dieu* → *Tratado do amor de Deus*).
-- **Remissões de página:** «Pages 84 et 190» (nota 58 de `02-segunda-parte-b.txt`) remete a uma edição antiga. Troque por remissão ao capítulo correspondente desta tradução, se der para identificá-lo, ou mantenha e registre nas notas. As remissões a outros livros («le _Pouvoir de saint François de Sales_, page 284») ficam.
+- **Remissões de página:** «Pages 84 et 190» (nota 58 de `02-segunda-parte-b.txt`) remete a uma edição antiga. Fica «Páginas 84 e 190», com nota «[Trad.: ...]» (ver § 8). As remissões a outros livros («le _Pouvoir de saint François de Sales_, page 284») ficam.
 
 ## 2. Registro e tratamento
 
@@ -40,7 +40,7 @@ Leia antes `edicoes/CONVENCOES-TRADUCAO.md`, com as regras gerais. Este guia acr
 - **Escritura:** traduza do francês ou do latim como Tissot e São Francisco a dão, não de uma Bíblia portuguesa.
   - Latim que fique em latim no original fica em latim, em itálico.
   - Se o autor traduz, traduza a tradução dele.
-  - Referências no formato do autor, com os livros em português («Judic. XVI» → «Juízes XVI», ou a abreviação «Jz XVI»; escolha uma forma e mantenha). Os erros de referência do impresso ficam como estão; estão listados em `ferramentas/cache/faltas/revisado/emendas.txt`.
+  - Referências no formato do autor, com os livros em português, abreviados («Judic. XVI» → «Jz XVI»; ver § 8). Os erros de referência do impresso ficam como estão; estão listados em `ferramentas/cache/faltas/revisado/emendas.txt`.
 - **Versos:** não há versos no livro. Se aparecer algum na revisão, use o método do Versificador (guia da Filoteia, § 3).
 
 ## 4. Nomes
@@ -93,3 +93,84 @@ Leia antes `edicoes/CONVENCOES-TRADUCAO.md`, com as regras gerais. Este guia acr
 - Cada arquivo vai para `traducao/<mesmo nome>.txt`, com `# titulo:` traduzido («Advertência», «Primeira parte», «Segunda parte, capítulos I a IV»...).
 - Um parágrafo traduzido para cada parágrafo do original, na mesma ordem, com `## `, `[I.1]`, `[n]` e `¤ [n]` no mesmo lugar.
 - As notas do tradutor vão em `traducao/notas-<arquivo>.md`.
+
+## 8. Termos fixados na harmonização
+
+Fixados ao harmonizar as quatro partes (outubro de 2026). Prevalecem sobre o que vai acima e sobre as notas dos tradutores. O relatório está em `traducao/HARMONIZACAO.md`.
+
+### Texto e edição
+
+- **Epígrafe do rosto:** entra antes da Advertência, como primeiro parágrafo de `00-avant-propos.txt` (no original também): `_Misericordias Domini in æternum cantabo._ (Sl LXXXVIII.) [Trad.: Cantarei eternamente as misericórdias do Senhor.]`.
+- **Título do livro dentro do texto:** em português, com «próprias», em itálico e contraído: «a sexta edição da _Arte de aproveitar as próprias faltas_». Quando Tissot fala da arte e não do livro (*l'art d'utiliser ses fautes*), vai sem itálico: «a arte de aproveitar as próprias faltas» (ou «as nossas faltas», se ele diz *nos fautes*). Nos títulos dos capítulos: «Aproveitar as faltas para...».
+- **Nota 58 de `02-segunda-parte-b.txt`:** «Páginas 84 e 190. [Trad.: paginação da 3.ª edição; os lugares parecem ser I, cap. III, n.º 7, e II, cap. IV, n.º 2, em nota.]».
+- **Erros do impresso:** os de grafia se emendam no original e se registram no `emendas.txt`; as referências erradas ficam como estão, no original e na tradução, e se registram lá. Única adaptação: *Eccl.* (cap. I.3, nota 88), que é o Eclesiástico, vai como «Eclo».
+- **Numeração do cap. VIII** (1, 2, 2, 3, 5...): fica como no impresso.
+
+### Escritura e latim
+
+- Livros com a abreviação portuguesa, sem ponto e sem vírgula depois do livro; número do livro em algarismo arábico: Gn, Lv, Nm, Jz, 3 Rs, 2 Mc, Jó, Sl, Pr, Ct, Eclo, Is, Jr, Lm, Ez, Dn, Os, Ag, Mt, Lc, At, Rm, 1 Cor, 2 Cor, Gl, Ef, Cl, Hb, Tg, 1 Pd, 1 Jo. Capítulo em romano e versículo em arábico, como o impresso dá («Sl XC, 6»); salmos pela Vulgata; os poucos números arábicos do impresso ficam («Sl 85, 11»).
+- Latim fica em latim e em itálico, também nas notas em que o impresso o dá em redondo. Sem «[Trad.: ...]», salvo na epígrafe; onde Tissot traduz o latim, traduz-se a tradução dele.
+
+### Referências das obras
+
+| francês | português |
+|---|---|
+| Lettre 793e ; collect. Blaise / coll. Blaise | Carta 793.ª; coleção Blaise |
+| édit. Meyer / édition Meyer | edição Meyer |
+| Lettre à une Dame / à une Demoiselle / à une Religieuse | Carta a uma senhora / a uma senhorita / a uma religiosa |
+| Entretien XVIe. Des Aversions; Entret., Entr. | Colóquio XVI. Das aversões; Colóq. |
+| Sermon pour le premier Dimanche de Carême | Sermão para o primeiro domingo da Quaresma |
+| Avis, Avis spirituels | Avisos, Avisos espirituais |
+| _Introd. à la vie dévote_, 1re partie, chap. 5 / IIIe partie | _Introd. à vida devota_, 1.ª parte, cap. 5 / III parte |
+| _Traité de l'amour de Dieu_ / _De l'amour de Dieu_ | _Tratado do amor de Deus_ / _Do amor de Deus_ |
+| _Avertissement_ (_Avis_) _aux confesseurs_ | _Avisos aos confessores_ |
+| l'auteur de _Philothée_ / de _Théotime_ | o autor da _Filoteia_ / do _Teótimo_ |
+| l'_Imitation_ | a _Imitação_ |
+
+Os demais títulos de obras ficam na língua do impresso, em itálico (*Esprit du Saint*, *Chrétien intérieur*, *Manna dell' anima*).
+
+### Abreviaturas, tratamentos e maiúsculas
+
+- *S.* → «são», «santo» («Santo Agostinho», «São João Crisóstomo» no começo de nota); *Mgr*, *Monseigneur* → «dom» («Dom» no começo de nota); *P.*, *Père* → «padre» («Padre» no começo de nota); *R. P.* → «reverendo padre»; *V. Père* → «venerável padre»; *Vén.* → «Ven.».
+- *M.* diante de leigo → «o senhor» («o senhor de Bernières», «o senhor Olier»); *M. l'abbé* e *M. J.-J. Allemand* (o mesmo sacerdote) → «o padre».
+- Minúscula em *Évêque*, *Religieuse*, *Religieux*, *Directeur*, *Supérieure* quando é Tissot quem fala: «o Bem-aventurado bispo de Genebra», «uma religiosa», «um religioso», «o meu diretor», «uma superiora da Visitação». Nos colóquios do Santo, «a Superiora», «a Diretora», «uma Irmã», onde o impresso tem maiúscula.
+- Maiúsculas de reverência do impresso, mantidas: o Santo, o nosso Santo (são Francisco), o Doutor, o Bem-aventurado, o Bem-aventurado Pai, os Santos, os Apóstolos (onde o impresso tem maiúscula), o Coração (de Jesus), Aquele / Daquele (*Celui*, Deus), Ela (Maria, cap. VIII), «pensa n'Ela».
+- «Saint», com nome, em minúscula: são Francisco de Sales, santa Chantal.
+
+### Nomes e prenomes
+
+- **Regra dos prenomes:** santos e figuras com forma portuguesa corrente levam o prenome em português, com o sobrenome em francês; religiosos obscuros, nomes ligados a título de obra e escritores leigos ficam em francês.
+- Em português: Frederico Ozanam; o venerável padre Cláudio de la Colombière (C. de la Colombière, Cl. de la Colombière, quando o impresso abrevia); dom Carlos Augusto de Sales; santa Joana Francisca de Chantal (santa Chantal; a Madre de Chantal); a Madre Maria de Sales Chappuis; a Madre Angélica Arnaud; a bem-aventurada Margarida Maria; santa Maria Madalena de Pazzi (santa Madalena de Pazzi, onde o impresso encurta); Benigna Gojos; santa Matilde (*Mecthilde*); santa Brígida; santa Gertrudes; são Luís Gonzaga; são Vicente Ferrer; são Tomás de Vilanova; são Gregório Nazianzeno; são Gregório de Nissa; santo Optato de Milevi; Ricardo de São Vítor; Hugo de São Vítor; Cristóvão de Vega; Longuinho; Teodoro; Vítor (bispo de Cartago); Simão, o Leproso.
+- Em francês: Alexandre de Saint-François; M.-Mélanie Pommeroy; Raoul d'Asti; Linée; Louis Veuillot; J. de Maistre; as Irmãs citadas pelas iniciais (Irmã C.-E. Cortelot, Irmã M.-A. Fichet...); a senhora de Cornillon; a presidente Brulart; a senhora d'Aix.
+- **Puits-d'Orbe** (a abadessa do Puits-d'Orbe), também na nota 79 de `01-primeira-parte.txt`, onde o impresso tem *Puits-d'Ordre* (emendado).
+- O padre **La Rivière** (maiúscula sempre); o padre **Roothaan** (o impresso tem *Roothan*); o padre Grou, o padre Faber, o padre Segneri, o padre Pinamonti, o padre Du Pont, o padre Varin, o padre Gratry; o cura d'Ars.
+
+### Vocabulário
+
+| francês | português | observação |
+|---|---|---|
+| avancement | progresso | era «adiantamento» em 01 e 02-a; como na Filoteia |
+| avancé (na perfeição) | adiantado | |
+| reconnaissance (para com Deus) | gratidão | exceção: «o conhecimento gera o reconhecimento» (Filoteia III.5, jogo de palavras) |
+| « tenant des pécheurs » | «o que responde pelos pecadores» | II.2, n.º 2 |
+| caution des pécheurs | fiador dos pecadores | II.2, n.º 2 |
+| Entretien | Colóquio | |
+| mouchons (des abeilles) | crias | como na Filoteia, IV.2 |
+| il ne faut pas (proibição) | não se deve, não convém | nunca «não é preciso», que diz o contrário |
+| empressement | pressa | fora das citações da Filoteia, que seguem a redação dela |
+| industries | expedientes; recursos | pelo contexto |
+| chétif, chétive; chétiveté | mesquinho; pobre; pequenez | como na Filoteia |
+| abjection; agréer l'abjection | abjeção; aceitar a abjeção | |
+| marri; marrissement | pesaroso; _amofinamento_ | |
+| Or sus; Sus | Eia; Eia, pois | |
+| tout bellement | devagarinho | fora das citações da Filoteia |
+| Notre-Dame; la Sainte Vierge; la Très Sainte Vierge | Nossa Senhora; a Santa Virgem; a Santíssima Virgem | maiúsculas do impresso |
+
+### Citações da Filoteia
+
+- Seguem a redação da nossa tradução da Filoteia, ajustada só onde o texto de Tissot difere do de são Francisco (palavra trocada, trecho cortado, glosa entre parênteses).
+- As passagens dos capítulos III.1–13, que ainda estavam em tradução, ficaram com a redação dos tradutores do Tissot e estão listadas em `traducao/HARMONIZACAO.md` para conferir quando a Filoteia 03-a estiver pronta.
+
+### Pronomes combinados
+
+- Evitar «lho(s)», «lha(s)», «no-la», «vo-la», como na Filoteia; «vo-lo», «no-lo», «no-los», «vo-los» ficam onde soam naturais.

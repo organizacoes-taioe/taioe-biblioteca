@@ -1,6 +1,6 @@
 /* Autores da biblioteca.
    Para acrescentar um autor, copie o modelo abaixo; o id é usado nas rotas (#/a/<id>)
-   e no campo "autor" de cada obra. "ordem" define a posição na lista (sobrenome, nome). */
+   e no campo "autor" de cada obra. "ordem" (sobrenome, nome) não ordena mais a lista: desde 07/10/2026 ela segue o nome como está escrito. */
 
 BIBLIOTECA.autor({
   id: 'machado-de-assis',

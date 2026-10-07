@@ -271,7 +271,8 @@ function generosDe(autorId) {
     .map((g) => ({ genero: g, obras: grupos[g] }));
 }
 function soPoesia(autorId) { const g = generosDe(autorId); return g.length === 1 && g[0].genero === 'Poesia'; }
-const autoresOrdenados = () => dados.autores.slice().sort((a, b) => (a.ordem || a.nome).localeCompare(b.ordem || b.nome, 'pt'));
+// Ordem alfabética pelo nome como está escrito («Machado de Assis» no M), pedido do Gere, 07/10/2026.
+const autoresOrdenados = () => dados.autores.slice().sort((a, b) => a.nome.localeCompare(b.nome, 'pt'));
 const autoresDaArea = (id) => autoresOrdenados().filter((a) => areaDe(a) === id);
 function vizinhosPoema(o) {
   let lista = [];

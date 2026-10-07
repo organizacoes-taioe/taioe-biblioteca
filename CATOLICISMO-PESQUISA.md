@@ -346,6 +346,11 @@ Siglas: DCO = Documenta Catholica Omnia; PG/PL = Patrologia Graeca/Latina de Mig
 
 ## Recomendação de ordem para a primeira versão
 
+**No topo da fila (pedido do Gere, 7.10.2026; originais franceses já preparados em `edicoes/<obra>/original/`, com LEIAME, obra.py e CONVENCOES):**
+- Introdução à vida devota (Filoteia), Francisco de Sales: texto de 1619, ed. Boulenger 1909 (Wikisource), conferido com Annecy t. III (1893); ~93 mil palavras. Pasta `introducao-a-vida-devota`.
+- A alma de todo apostolado, Dom J.-B. Chautard (1858–1935): 12e éd. (1927), texto estabelecido do scan do Internet Archive; ~66 mil palavras e ~10,5 mil de notas. Pasta `alma-de-todo-apostolado`.
+- A arte de aproveitar as próprias faltas, Joseph Tissot (1840–1894): 6e éd. (1894), última revista pelo autor, texto estabelecido do scan da BM de Lyon (Numelyo); ~37 mil palavras e ~3 mil de notas. Pasta `arte-de-aproveitar-as-faltas`.
+
 **Bloco A, as três pedidas:**
 1. Confissões (Agostinho)
 2. Vida de Santo Antão (Atanásio)

@@ -378,16 +378,6 @@ main { padding: 0 1rem 5rem; }
 .rodape p { margin: 0; }
 
 @media (max-width: 520px) {
-  /* trilha no celular: só o nível de cima e a página atual; o de cima encolhe primeiro */
-  .topo-nav { display: flex; align-items: baseline; }
-  .topo-nav > * { flex: none; white-space: nowrap; }
-  .topo-nav > :nth-last-child(n+4) { display: none; }
-  .topo-nav > a:nth-last-child(3) { flex: 0 1000 auto; min-width: 2.4em; overflow: hidden; text-overflow: ellipsis; }
-  .topo-nav > :last-child { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
-  .topo-nav .sep { padding: 0 .3em; }
-  .topo-int { gap: .5rem; padding: .5rem .75rem; }
-  .ferramentas { gap: .25rem; }
-  .btn { min-width: 1.9rem; height: 1.9rem; padding: 0 .4rem; }
   .passos { grid-template-columns: 1fr; }
   .passo.seg { text-align: left; }
   .passo.vazio { display: none; }

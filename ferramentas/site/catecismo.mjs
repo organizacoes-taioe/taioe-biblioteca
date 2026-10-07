@@ -12,8 +12,10 @@
 //
 // A navegação passa pelas aberturas, como no leitor antigo: … 26 → a27 → 27 → 28 …
 // Os endereços são o próprio número do ponto e não mudam: não entram em enderecos.json.
-// Para o resto do site (estado de leitura, obras.json, busca), as partes da obra são os pontos;
-// as aberturas são páginas de passagem.
+// Para a busca, as partes da obra são os pontos; as aberturas são páginas de passagem. O estado de
+// leitura guarda só a posição («Continuar: Ponto N») e a escolha manual da obra (lendo, lida), sem
+// marca por ponto: milhares de marcas estourariam o limite de leituras.partes no banco (64 KB).
+// No obras.json, a obra vai com q = [primeiro, último, 'Ponto'] em vez da lista dos pontos.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -56,7 +58,7 @@ export function carregarCatecismo(raiz) {
   }
   return {
     id: ID, autor: 'igreja-catolica', titulo: 'Catecismo da Igreja Católica', tituloCurto: 'Catecismo',
-    ano: 1992, genero: 'Magistério', divisao: { singular: 'ponto', plural: 'pontos' },
+    ano: 1992, genero: 'Catecismo', divisao: { singular: 'ponto', plural: 'pontos' },
     descricao: 'A exposição da fé e da moral da Igreja, promulgada por São João Paulo II em 1992: ' +
       'a profissão da fé, os sacramentos, a vida em Cristo e a oração cristã.',
     rodape: RODAPE, _palavras: palavras, partes, catecismo: man,
@@ -133,7 +135,7 @@ export function paginasCatecismo(a, o, h) {
       '<p class="secao-titulo">Índice</p><nav class="indice-cat" aria-label="Índice do Catecismo">' + arvore + '</nav></div>';
     h.pagina({ url: raiz, titulo: o.titulo, corpo: html, trilha: h.trilhaObra(a, o).concat({ txt: o.tituloCurto }), rodape: o.rodape,
       descricao: h.descricaoDe(o.descricao),
-      dados: { pagina: 'obra', obra: chave, 'titulo-obra': o.titulo, total: o.partes.length },
+      dados: { pagina: 'obra', obra: chave, 'titulo-obra': o.titulo, total: o.partes.length, 'so-posicao': 1, primeira: String(min) },
       jsonld: { ...h.jsonObra(a, o), author: autor, copyrightHolder: { '@type': 'Organization', name: 'Libreria Editrice Vaticana' } } });
   }
 
@@ -175,14 +177,13 @@ export function paginasCatecismo(a, o, h) {
       '<div class="texto corpo-ponto">' + d.body + '</div>' + notas +
       '<div id="fim-parte" aria-hidden="true"></div>' +
       (n === TOTAL ? '<p class="fim">Fim</p>' : '') +
-      '<div class="estado-leitura" id="estado-leitura" data-alvo="parte" hidden></div>' +
       '<nav class="passos" aria-label="Navegação entre os pontos">' + passo('ant', 'prev', '← Anterior', prev) +
       (next ? passo('seg', 'next', 'Seguinte →', next) : indice()) + '</nav>' +
       '<p class="posicao">Ponto ' + n + ' de ' + TOTAL + ' · <a href="' + raiz + '">índice</a></p>' + irAoPonto() + '</article>';
     h.pagina({ url: P(n), titulo: 'Ponto ' + n + ' — ' + o.titulo, corpo: html, trilha: trilha('Ponto ' + n), rodape: o.rodape,
       prev: prev && prev.url, next: next ? next.url : null, progresso: n / TOTAL,
       descricao: h.descricaoDe(`Catecismo, ${n}. ` + semTags(d.body)),
-      dados: { pagina: 'parte', obra: chave, parte: p.slug, indice: n, total: TOTAL, ponto: n,
+      dados: { pagina: 'parte', obra: chave, parte: p.slug, indice: n, total: TOTAL, ponto: n, 'so-posicao': 1,
         rotulo: 'Ponto ' + n, 'titulo-obra': o.titulo, 'url-obra': raiz },
       jsonld: { '@context': 'https://schema.org', '@type': 'Chapter', name: 'Ponto ' + n, position: n,
         isPartOf: { '@type': 'Book', name: o.titulo, url: SITE + raiz }, author: autor, inLanguage: 'pt-BR' } });

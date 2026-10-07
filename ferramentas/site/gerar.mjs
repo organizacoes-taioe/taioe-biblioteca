@@ -201,12 +201,12 @@ const plural = (n, s, p) => n + ' ' + (n === 1 ? s : p);
 const numeradas = (o) => o.partes.filter((p) => p.n).length || o.partes.length;
 const rotuloPasso = (p) => [esc(p.n), p.titulo ? inline(p.titulo) : ''].filter(Boolean).join(' · ');
 
-const GENEROS = ['Romance', 'Novela', 'Contos', 'Magistério', 'Autobiografia', 'Hagiografia', 'Ensaio', 'Poesia', 'Teatro',
+const GENEROS = ['Romance', 'Novela', 'Contos', 'Catecismo', 'Autobiografia', 'Hagiografia', 'Ensaio', 'Poesia', 'Teatro',
   'Cartas', 'Orações', 'Crônica', 'Crítica', 'Tradução'];
 const PLURAIS = { 'Romance': 'Romances', 'Novela': 'Novelas', 'Contos': 'Contos', 'Poesia': 'Poesia',
   'Teatro': 'Teatro', 'Crônica': 'Crônicas', 'Crítica': 'Crítica', 'Tradução': 'Traduções',
   'Autobiografia': 'Autobiografia', 'Cartas': 'Cartas', 'Orações': 'Orações',
-  'Hagiografia': 'Hagiografia', 'Ensaio': 'Ensaios', 'Magistério': 'Magistério' };
+  'Hagiografia': 'Hagiografia', 'Ensaio': 'Ensaios', 'Catecismo': 'Catecismo' };
 const AREAS = [{ id: 'literatura', nome: 'Literatura' }, { id: 'catolicismo', nome: 'Catolicismo' }];
 const areaDe = (a) => a.area || 'literatura';
 const acharArea = (id) => AREAS.find((x) => x.id === id) || null;
@@ -852,7 +852,10 @@ fs.writeFileSync(path.join(SAIDA, 'js', 'taioe-sessao.js'), lerLf(path.join(RAIZ
 const indiceObras = {};
 dados.obras.forEach((o) => {
   const a = acharAutor(o.autor);
-  indiceObras[chaveObra(o)] = { i: o.id, t: o.titulo, a: a ? a.nome : o.autor, u: U.obra(o), p: umaParte(o) ? [['texto', '']] : o.partes.map((p) => [p.slug, rotuloParte(o, p)]) };
+  // obra «só posição» (o Catecismo): q = [primeira, última, rótulo] no lugar da lista das partes (ver leitor.js)
+  indiceObras[chaveObra(o)] = { i: o.id, t: o.titulo, a: a ? a.nome : o.autor, u: U.obra(o),
+    ...(o.catecismo ? { q: [o.catecismo.min, o.catecismo.max, 'Ponto'] }
+      : { p: umaParte(o) ? [['texto', '']] : o.partes.map((p) => [p.slug, rotuloParte(o, p)]) }) };
 });
 fs.writeFileSync(path.join(SAIDA, 'obras.json'), JSON.stringify(indiceObras));
 

@@ -305,7 +305,7 @@
         if (!chave) return;
         var o = idx[chave], destino = o.u;
         if (p[2] === 'sobre') destino = o.u + 'sobre/';
-        else if (p[2] && o.p[parseInt(p[2], 10) - 1]) destino = urlDe(chave, o.p[parseInt(p[2], 10) - 1][0]);
+        else if (p[2] && parteN(o, parseInt(p[2], 10) - 1)) destino = urlDe(chave, parteN(o, parseInt(p[2], 10) - 1)[0]);
         location.replace(destino);
       });
     }
@@ -327,10 +327,28 @@
     return saida;
   }
   function estadoParte(r, slug) { var v = r && r.partes && r.partes[slug]; return v ? v[0] : 0; }
+  /* Obra «só posição» (o Catecismo: milhares de partes, que estourariam o limite de leituras.partes
+     no banco): não guarda marca por parte, só a posição e a escolha manual da obra («*»). No
+     obras.json ela traz q = [primeira, última, rótulo] no lugar da lista p das partes. */
+  function nPartes(o) { return o.q ? o.q[1] - o.q[0] + 1 : o.p.length; }
+  function parteN(o, i) {
+    if (!o.q) return o.p[i];
+    return i >= 0 && i < nPartes(o) ? [String(o.q[0] + i), o.q[2] + ' ' + (o.q[0] + i)] : null;
+  }
+  function rotuloDe(o, slug) {
+    if (o.q) return slug ? o.q[2] + ' ' + slug : '';
+    var x = o.p.filter(function (y) { return y[0] === slug; })[0];
+    return x ? x[1] : '';
+  }
   /* a obra: a escolha manual, se for mais nova que todas as marcas das partes; senão, lida com
      todas as partes lidas, lendo com pelo menos uma parte lida por inteiro */
-  function estadoObra(r, n) {
+  function estadoObra(r, n, so) {
     if (!r) return 0;
+    if (so) {                 /* só posição: «lida» manual fica; senão vale a mais recente entre a escolha e a leitura */
+      var m = r.partes && r.partes['*'];
+      if (m && (m[0] === 2 || m[1] >= (r.t || 0))) return m[0];
+      return r.concluida ? 2 : r.parte ? 1 : 0;
+    }
     var p = r.partes || {}, inteiras = 0, maisNova = 0, chaves = Object.keys(p);
     chaves.forEach(function (k) { if (k === '*') return; if (p[k][0] === 2) inteiras++; maisNova = Math.max(maisNova, p[k][1]); });
     if (p['*'] && p['*'][1] >= maisNova) return p['*'][0];
@@ -340,9 +358,9 @@
     return 0;
   }
   /* começada: em leitura pela regra acima, ou com alguma parte aberta (e sem «não iniciada» depois) */
-  function comecada(r, n) {
-    var e = estadoObra(r, n);
-    if (e !== 0) return e === 1;
+  function comecada(r, n, so) {
+    var e = estadoObra(r, n, so);
+    if (so || e !== 0) return e === 1;
     var p = (r && r.partes) || {}, m = p['*'];
     return Object.keys(p).some(function (k) { return k !== '*' && p[k][0] >= 1 && (!m || p[k][1] > m[1]); });
   }
@@ -395,15 +413,16 @@
       var slugs = lis.map(function (li) { return li.getAttribute('data-parte'); });
       lis.forEach(function (li) { pintar(li, estadoParte(L[D.obra], li.getAttribute('data-parte'))); });
       var cx = $('estado-leitura');
-      if (cx) controleEstado(cx, estadoObra(L[D.obra], slugs.length), function (e) {
-        var extra = slugs.length ? { parte: slugs[0], i: 1, max: slugs[0], maxI: 1, t: 1, titulo: D.tituloObra, rotulo: '' } : null;
+      if (cx) controleEstado(cx, estadoObra(L[D.obra], slugs.length, !!D.soPosicao), function (e) {
+        var primeira = slugs[0] || D.primeira;
+        var extra = primeira ? { parte: primeira, i: 1, max: primeira, maxI: 1, t: 1, titulo: D.tituloObra, rotulo: '' } : null;
         marcar(D.obra, ['*'], e, true, extra);
         if (e !== 1) marcar(D.obra, slugs, e, true);             /* lida ou não iniciada vale para todas as partes */
         pintarTudo();
       });
     }
     /* a parte aberta */
-    if (D.pagina === 'parte') {
+    if (D.pagina === 'parte' && !D.soPosicao) {
       var cp = $('estado-leitura');
       if (cp) controleEstado(cp, estadoParte(L[D.obra], D.parte), function (e) { marcar(D.obra, [D.parte], e, true); pintarTudo(); });
     }
@@ -414,13 +433,13 @@
       var L2 = leituras();
       Array.prototype.forEach.call(itens, function (el) {
         var k = el.getAttribute('data-obra'), o = idx[k];
-        pintar(el, o ? estadoObra(L2[k], o.p.length) : 0);
+        pintar(el, o ? estadoObra(L2[k], nPartes(o), !!o.q) : 0);
       });
     });
   }
 
   /* abrir a parte já é «lendo»; chegar ao fim do texto (depois de uns segundos na página) é «lida» */
-  if (D.pagina === 'parte' && D.obra && D.parte) {
+  if (D.pagina === 'parte' && D.obra && D.parte && !D.soPosicao) {
     marcar(D.obra, [D.parte], 1, false, { parte: D.parte, i: parseInt(D.indice, 10), max: D.parte, maxI: parseInt(D.indice, 10),
       t: Date.now(), titulo: D.tituloObra, rotulo: D.rotulo || '', url: location.pathname });
     var fim = $('fim-parte'), abertaEm = Date.now(), checar = null;
@@ -476,7 +495,7 @@
       var L = leituras(), lidos = D.pagina === 'lidos';
       var ks = Object.keys(L).filter(function (k) {
         var o = idx[k]; if (!o) return false;
-        return lidos ? estadoObra(L[k], o.p.length) === 2 : comecada(L[k], o.p.length);
+        return lidos ? estadoObra(L[k], nPartes(o), !!o.q) === 2 : comecada(L[k], nPartes(o), !!o.q);
       }).sort(function (a, b) { return recencia(L[b]) - recencia(L[a]); });
       caixa.textContent = '';
       if (!ks.length) {
@@ -487,11 +506,11 @@
         return;
       }
       ks.forEach(function (k) {
-        var o = idx[k], r = L[k], n = o.p.length, inteiras = 0;
-        o.p.forEach(function (x) { if (estadoParte(r, x[0]) === 2) inteiras++; });
-        var par = r.parte && o.p.filter(function (x) { return x[0] === r.parte; })[0];
-        var onde = lidos ? '' : (par && par[1] ? 'Parou em: ' + par[1] : '');
-        var conta = n > 1 ? inteiras + ' de ' + n + ' partes lidas' : '';
+        var o = idx[k], r = L[k], n = nPartes(o), inteiras = 0;
+        if (!o.q) o.p.forEach(function (x) { if (estadoParte(r, x[0]) === 2) inteiras++; });
+        var rotParou = r.parte ? rotuloDe(o, r.parte) : '';
+        var onde = lidos ? '' : (rotParou ? 'Parou em: ' + rotParou : '');
+        var conta = n > 1 && !o.q ? inteiras + ' de ' + n + ' partes lidas' : '';
         var href = lidos || !r.parte ? o.u : urlDe(k, r.parte, r.url);
         caixa.appendChild(item(href, o.t, o.a, [onde, conta].filter(Boolean).join(' · ')));
       });
@@ -581,7 +600,7 @@
         achados.slice(0, 60).forEach(function (d, n) {
           var par = docs.d[d], k = docs.o[par[0]], o = idx[k];
           if (!o) return;
-          var p = o.p[par[1]], href = p[0] === 'texto' ? o.u : o.u + p[0] + '/';
+          var p = parteN(o, par[1]), href = p[0] === 'texto' ? o.u : o.u + p[0] + '/';
           var el = item(href, o.t + (p[1] ? ' — ' + p[1] : ''), o.a, '');
           saida.appendChild(el);
           if (n < 12) trecho(el, href, palavras, vez, normal(q).replace(/[^a-z0-9]+/g, ' ').trim());
@@ -801,16 +820,15 @@
         if (!o || !x.parte) return;
         if (!x.titulo) { x.titulo = o.t; mudou = true; }
         if (x.rotulo === null || x.rotulo === undefined) {
-          var par = o.p.filter(function (y) { return y[0] === x.parte; })[0];
-          x.rotulo = par ? par[1] : ''; mudou = true;
+          x.rotulo = rotuloDe(o, x.parte); mudou = true;
         }
       });
       if (mudou) guardar(CHAVE_LEIT, JSON.stringify(L));
       mostrarRetomar();
       pintarTudo();
       if (aviso && $('aviso-outro')) {
-        var o = idx[aviso.obra], par = o && o.p.filter(function (y) { return y[0] === aviso.parte; })[0];
-        var rot = par && par[1] ? par[1] : 'parte ' + aviso.indice;
+        var o = idx[aviso.obra], rotA = o ? rotuloDe(o, aviso.parte) : '';
+        var rot = rotA || 'parte ' + aviso.indice;
         var caixa = $('aviso-outro');
         caixa.textContent = 'Em outro aparelho, você parou em: ' + rot + '. ';
         var ir = document.createElement('a');

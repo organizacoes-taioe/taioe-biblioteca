@@ -1,0 +1,1516 @@
+{
+ "min": 1,
+ "max": 483,
+ "blocos": [
+  {
+   "file": "prologo.json",
+   "de": 1,
+   "ate": 25,
+   "titulo": "Prólogo"
+  },
+  {
+   "file": "p1s1c1.json",
+   "de": 26,
+   "ate": 49,
+   "titulo": "O homem é «capaz» de Deus"
+  },
+  {
+   "file": "p1s1c2a1.json",
+   "de": 50,
+   "ate": 73,
+   "titulo": "A Revelação de Deus"
+  },
+  {
+   "file": "p1s1c2a2.json",
+   "de": 74,
+   "ate": 100,
+   "titulo": "A transmissão da Revelação divina"
+  },
+  {
+   "file": "p1s1c2a3.json",
+   "de": 101,
+   "ate": 141,
+   "titulo": "A Sagrada Escritura"
+  },
+  {
+   "file": "p1s1c3.json",
+   "de": 142,
+   "ate": 184,
+   "titulo": "A resposta do homem a Deus"
+  },
+  {
+   "file": "p1s2.json",
+   "de": 185,
+   "ate": 197,
+   "titulo": "Os Símbolos da fé"
+  },
+  {
+   "file": "p1s2c1a1p1.json",
+   "de": 198,
+   "ate": 231,
+   "titulo": "Creio em Deus"
+  },
+  {
+   "file": "p1s2c1a1p2.json",
+   "de": 232,
+   "ate": 267,
+   "titulo": "O Pai"
+  },
+  {
+   "file": "p1s2c1a1p3.json",
+   "de": 268,
+   "ate": 278,
+   "titulo": "O Todo-Poderoso"
+  },
+  {
+   "file": "p1s2c1a1p4.json",
+   "de": 279,
+   "ate": 324,
+   "titulo": "O Criador"
+  },
+  {
+   "file": "p1s2c1a1p5.json",
+   "de": 325,
+   "ate": 354,
+   "titulo": "O céu e a terra"
+  },
+  {
+   "file": "p1s2c1a1p6.json",
+   "de": 355,
+   "ate": 384,
+   "titulo": "O homem"
+  },
+  {
+   "file": "p1s2c1a1p7.json",
+   "de": 385,
+   "ate": 421,
+   "titulo": "A queda"
+  },
+  {
+   "file": "p1s2c2a2.json",
+   "de": 422,
+   "ate": 455,
+   "titulo": "Creio em Jesus Cristo, Filho Único de Deus"
+  },
+  {
+   "file": "p1s2c2a3p1.json",
+   "de": 456,
+   "ate": 483,
+   "titulo": "O Filho de Deus fez-se homem"
+  }
+ ],
+ "aberturas": {
+  "1": {
+   "contexto": [],
+   "novos": [
+    {
+     "nivel": "parte",
+     "rotulo": null,
+     "titulo": "Prólogo"
+    },
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. A vida do homem — conhecer e amar a Deus"
+    }
+   ]
+  },
+  "4": {
+   "contexto": [
+    "Prólogo"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. Transmitir a fé — a catequese"
+    }
+   ]
+  },
+  "11": {
+   "contexto": [
+    "Prólogo"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. Finalidade e destinatários deste catecismo"
+    }
+   ]
+  },
+  "13": {
+   "contexto": [
+    "Prólogo"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. Estrutura deste catecismo"
+    }
+   ]
+  },
+  "18": {
+   "contexto": [
+    "Prólogo"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "V. Indicações práticas para o uso deste catecismo"
+    }
+   ]
+  },
+  "23": {
+   "contexto": [
+    "Prólogo"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "VI. Adaptações necessárias"
+    }
+   ]
+  },
+  "26": {
+   "contexto": [],
+   "novos": [
+    {
+     "nivel": "parte",
+     "rotulo": "Primeira parte",
+     "titulo": "A profissão da fé"
+    },
+    {
+     "nivel": "secao",
+     "rotulo": "Primeira seção",
+     "titulo": "«Eu creio» — «Nós cremos»"
+    }
+   ]
+  },
+  "27": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»"
+   ],
+   "novos": [
+    {
+     "nivel": "capitulo",
+     "rotulo": "Capítulo primeiro",
+     "titulo": "O homem é «capaz» de Deus"
+    },
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. O desejo de Deus"
+    }
+   ]
+  },
+  "31": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo primeiro — O homem é «capaz» de Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. Os caminhos de acesso ao conhecimento de Deus"
+    }
+   ]
+  },
+  "36": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo primeiro — O homem é «capaz» de Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. O conhecimento de Deus segundo a Igreja"
+    }
+   ]
+  },
+  "39": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo primeiro — O homem é «capaz» de Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. Como falar de Deus?"
+    }
+   ]
+  },
+  "44": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo primeiro — O homem é «capaz» de Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "50": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»"
+   ],
+   "novos": [
+    {
+     "nivel": "capitulo",
+     "rotulo": "Capítulo segundo",
+     "titulo": "Deus ao encontro do homem"
+    }
+   ]
+  },
+  "51": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem"
+   ],
+   "novos": [
+    {
+     "nivel": "artigo",
+     "rotulo": "Artigo 1",
+     "titulo": "A Revelação de Deus"
+    },
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. Deus revela o seu «desígnio benevolente»"
+    }
+   ]
+  },
+  "54": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 1 — A Revelação de Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. As etapas da Revelação"
+    }
+   ]
+  },
+  "65": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 1 — A Revelação de Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. Jesus Cristo — «Mediador e plenitude de toda a Revelação»"
+    }
+   ]
+  },
+  "68": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 1 — A Revelação de Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "74": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem"
+   ],
+   "novos": [
+    {
+     "nivel": "artigo",
+     "rotulo": "Artigo 2",
+     "titulo": "A transmissão da Revelação divina"
+    }
+   ]
+  },
+  "75": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 2 — A transmissão da Revelação divina"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. A Tradição apostólica"
+    }
+   ]
+  },
+  "80": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 2 — A transmissão da Revelação divina"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. A relação entre a Tradição e a Sagrada Escritura"
+    }
+   ]
+  },
+  "84": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 2 — A transmissão da Revelação divina"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. A interpretação da herança da fé"
+    }
+   ]
+  },
+  "96": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 2 — A transmissão da Revelação divina"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "101": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem"
+   ],
+   "novos": [
+    {
+     "nivel": "artigo",
+     "rotulo": "Artigo 3",
+     "titulo": "A Sagrada Escritura"
+    },
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. Cristo — Palavra única da Escritura santa"
+    }
+   ]
+  },
+  "105": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 3 — A Sagrada Escritura"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. Inspiração e verdade da Sagrada Escritura"
+    }
+   ]
+  },
+  "109": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 3 — A Sagrada Escritura"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. O Espírito Santo, intérprete da Escritura"
+    }
+   ]
+  },
+  "120": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 3 — A Sagrada Escritura"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. O Cânon das Escrituras"
+    }
+   ]
+  },
+  "131": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 3 — A Sagrada Escritura"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "V. A Sagrada Escritura na vida da Igreja"
+    }
+   ]
+  },
+  "134": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo segundo — Deus ao encontro do homem",
+    "Artigo 3 — A Sagrada Escritura"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "142": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»"
+   ],
+   "novos": [
+    {
+     "nivel": "capitulo",
+     "rotulo": "Capítulo terceiro",
+     "titulo": "A resposta do homem a Deus"
+    }
+   ]
+  },
+  "144": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo terceiro — A resposta do homem a Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "artigo",
+     "rotulo": "Artigo 1",
+     "titulo": "Eu creio"
+    },
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. A «obediência da fé»"
+    }
+   ]
+  },
+  "150": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo terceiro — A resposta do homem a Deus",
+    "Artigo 1 — Eu creio"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. «Eu sei em quem pus a minha fé» (2Tm 1,12)"
+    }
+   ]
+  },
+  "153": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo terceiro — A resposta do homem a Deus",
+    "Artigo 1 — Eu creio"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. As características da fé"
+    }
+   ]
+  },
+  "166": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo terceiro — A resposta do homem a Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "artigo",
+     "rotulo": "Artigo 2",
+     "titulo": "Nós cremos"
+    }
+   ]
+  },
+  "168": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo terceiro — A resposta do homem a Deus",
+    "Artigo 2 — Nós cremos"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. «Olhai, Senhor, para a fé da vossa Igreja»"
+    }
+   ]
+  },
+  "170": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo terceiro — A resposta do homem a Deus",
+    "Artigo 2 — Nós cremos"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. A linguagem da fé"
+    }
+   ]
+  },
+  "172": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo terceiro — A resposta do homem a Deus",
+    "Artigo 2 — Nós cremos"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. Uma só fé"
+    }
+   ]
+  },
+  "176": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Primeira seção — «Eu creio» — «Nós cremos»",
+    "Capítulo terceiro — A resposta do homem a Deus",
+    "Artigo 2 — Nós cremos"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "185": {
+   "contexto": [
+    "Primeira parte — A profissão da fé"
+   ],
+   "novos": [
+    {
+     "nivel": "secao",
+     "rotulo": "Segunda seção",
+     "titulo": "A profissão da fé cristã"
+    },
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Os Símbolos da fé"
+    }
+   ]
+  },
+  "198": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã"
+   ],
+   "novos": [
+    {
+     "nivel": "capitulo",
+     "rotulo": "Capítulo primeiro",
+     "titulo": "Creio em Deus Pai"
+    }
+   ]
+  },
+  "199": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai"
+   ],
+   "novos": [
+    {
+     "nivel": "artigo",
+     "rotulo": "Artigo 1",
+     "titulo": "«Creio em Deus Pai todo-poderoso, criador do céu e da terra»"
+    },
+    {
+     "nivel": "paragrafo",
+     "rotulo": "Parágrafo 1",
+     "titulo": "Creio em Deus"
+    }
+   ]
+  },
+  "200": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 1 — Creio em Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. «Creio em um só Deus»"
+    }
+   ]
+  },
+  "203": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 1 — Creio em Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. Deus revela o seu nome"
+    }
+   ]
+  },
+  "214": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 1 — Creio em Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. Deus, «Aquele que é», é verdade e amor"
+    }
+   ]
+  },
+  "222": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 1 — Creio em Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. Consequências da fé no Deus Único"
+    }
+   ]
+  },
+  "228": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 1 — Creio em Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "232": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»"
+   ],
+   "novos": [
+    {
+     "nivel": "paragrafo",
+     "rotulo": "Parágrafo 2",
+     "titulo": "O Pai"
+    },
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. «Em nome do Pai e do Filho e do Espírito Santo»"
+    }
+   ]
+  },
+  "238": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 2 — O Pai"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. A revelação de Deus como Trindade"
+    }
+   ]
+  },
+  "249": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 2 — O Pai"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. A Santíssima Trindade na doutrina da fé"
+    }
+   ]
+  },
+  "257": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 2 — O Pai"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. As obras divinas e as missões trinitárias"
+    }
+   ]
+  },
+  "261": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 2 — O Pai"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "268": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»"
+   ],
+   "novos": [
+    {
+     "nivel": "paragrafo",
+     "rotulo": "Parágrafo 3",
+     "titulo": "O Todo-Poderoso"
+    }
+   ]
+  },
+  "275": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 3 — O Todo-Poderoso"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "279": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»"
+   ],
+   "novos": [
+    {
+     "nivel": "paragrafo",
+     "rotulo": "Parágrafo 4",
+     "titulo": "O Criador"
+    }
+   ]
+  },
+  "282": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 4 — O Criador"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. A catequese sobre a criação"
+    }
+   ]
+  },
+  "290": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 4 — O Criador"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. A criação — obra da Santíssima Trindade"
+    }
+   ]
+  },
+  "293": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 4 — O Criador"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. «O mundo foi criado para glória de Deus»"
+    }
+   ]
+  },
+  "295": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 4 — O Criador"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. O mistério da criação"
+    }
+   ]
+  },
+  "302": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 4 — O Criador"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "V. Deus realiza o seu desígnio: a divina Providência"
+    }
+   ]
+  },
+  "315": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 4 — O Criador"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "325": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»"
+   ],
+   "novos": [
+    {
+     "nivel": "paragrafo",
+     "rotulo": "Parágrafo 5",
+     "titulo": "O céu e a terra"
+    }
+   ]
+  },
+  "328": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 5 — O céu e a terra"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. Os anjos"
+    }
+   ]
+  },
+  "337": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 5 — O céu e a terra"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. O mundo visível"
+    }
+   ]
+  },
+  "350": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 5 — O céu e a terra"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "355": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»"
+   ],
+   "novos": [
+    {
+     "nivel": "paragrafo",
+     "rotulo": "Parágrafo 6",
+     "titulo": "O homem"
+    }
+   ]
+  },
+  "356": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 6 — O homem"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. «A imagem de Deus»"
+    }
+   ]
+  },
+  "362": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 6 — O homem"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. «Corpore et anima unus» — unidade de corpo e alma"
+    }
+   ]
+  },
+  "369": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 6 — O homem"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. «Homem e mulher os criou»"
+    }
+   ]
+  },
+  "374": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 6 — O homem"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. O homem no paraíso"
+    }
+   ]
+  },
+  "380": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 6 — O homem"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "385": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»"
+   ],
+   "novos": [
+    {
+     "nivel": "paragrafo",
+     "rotulo": "Parágrafo 7",
+     "titulo": "A queda"
+    }
+   ]
+  },
+  "386": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 7 — A queda"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. «Onde abundou o pecado, sobreabundou a graça»"
+    }
+   ]
+  },
+  "391": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 7 — A queda"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. A queda dos anjos"
+    }
+   ]
+  },
+  "396": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 7 — A queda"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. O pecado original"
+    }
+   ]
+  },
+  "410": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 7 — A queda"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. «Vós não o abandonastes ao poder da morte»"
+    }
+   ]
+  },
+  "413": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo primeiro — Creio em Deus Pai",
+    "Artigo 1 — «Creio em Deus Pai todo-poderoso, criador do céu e da terra»",
+    "Parágrafo 7 — A queda"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "422": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã"
+   ],
+   "novos": [
+    {
+     "nivel": "capitulo",
+     "rotulo": "Capítulo segundo",
+     "titulo": "Creio em Jesus Cristo, Filho Único de Deus"
+    }
+   ]
+  },
+  "430": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "artigo",
+     "rotulo": "Artigo 2",
+     "titulo": "«E em Jesus Cristo, seu único Filho, nosso Senhor»"
+    },
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. Jesus"
+    }
+   ]
+  },
+  "436": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus",
+    "Artigo 2 — «E em Jesus Cristo, seu único Filho, nosso Senhor»"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. Cristo"
+    }
+   ]
+  },
+  "441": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus",
+    "Artigo 2 — «E em Jesus Cristo, seu único Filho, nosso Senhor»"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. Filho único de Deus"
+    }
+   ]
+  },
+  "446": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus",
+    "Artigo 2 — «E em Jesus Cristo, seu único Filho, nosso Senhor»"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. Senhor"
+    }
+   ]
+  },
+  "452": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus",
+    "Artigo 2 — «E em Jesus Cristo, seu único Filho, nosso Senhor»"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  },
+  "456": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus"
+   ],
+   "novos": [
+    {
+     "nivel": "artigo",
+     "rotulo": "Artigo 3",
+     "titulo": "«Jesus Cristo foi concebido pelo poder do Espírito Santo e nasceu da Virgem Maria»"
+    },
+    {
+     "nivel": "paragrafo",
+     "rotulo": "Parágrafo 1",
+     "titulo": "O Filho de Deus fez-se homem"
+    },
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "I. Por que é que o Verbo encarnou?"
+    }
+   ]
+  },
+  "461": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus",
+    "Artigo 3 — «Jesus Cristo foi concebido pelo poder do Espírito Santo e nasceu da Virgem Maria»",
+    "Parágrafo 1 — O Filho de Deus fez-se homem"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "II. A Encarnação"
+    }
+   ]
+  },
+  "464": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus",
+    "Artigo 3 — «Jesus Cristo foi concebido pelo poder do Espírito Santo e nasceu da Virgem Maria»",
+    "Parágrafo 1 — O Filho de Deus fez-se homem"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "III. Verdadeiro Deus e verdadeiro homem"
+    }
+   ]
+  },
+  "470": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus",
+    "Artigo 3 — «Jesus Cristo foi concebido pelo poder do Espírito Santo e nasceu da Virgem Maria»",
+    "Parágrafo 1 — O Filho de Deus fez-se homem"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "IV. Como é que o Filho de Deus é homem"
+    }
+   ]
+  },
+  "479": {
+   "contexto": [
+    "Primeira parte — A profissão da fé",
+    "Segunda seção — A profissão da fé cristã",
+    "Capítulo segundo — Creio em Jesus Cristo, Filho Único de Deus",
+    "Artigo 3 — «Jesus Cristo foi concebido pelo poder do Espírito Santo e nasceu da Virgem Maria»",
+    "Parágrafo 1 — O Filho de Deus fez-se homem"
+   ],
+   "novos": [
+    {
+     "nivel": "topico",
+     "rotulo": null,
+     "titulo": "Resumindo"
+    }
+   ]
+  }
+ },
+ "subtitulos": {
+  "14": "Primeira parte: A profissão da fé",
+  "15": "Segunda parte: Os sacramentos da fé",
+  "16": "Terceira parte: A vida da fé",
+  "17": "Quarta parte: A oração na vida da fé",
+  "25": "Acima de tudo — a caridade",
+  "54": "Desde a origem, Deus dá-se a conhecer",
+  "56": "A aliança com Noé",
+  "59": "Deus elege Abraão",
+  "62": "Deus forma o seu povo Israel",
+  "65": "No seu Verbo, Deus disse tudo",
+  "66": "Já não haverá outra Revelação",
+  "76": "A pregação apostólica…",
+  "77": "…continuada na sucessão apostólica",
+  "80": "Uma fonte comum…",
+  "81": "…duas formas de transmissão distintas",
+  "83": "Tradição apostólica e tradições eclesiais",
+  "84": "A herança da fé confiada à totalidade da Igreja",
+  "85": "O Magistério da Igreja",
+  "88": "Os dogmas da fé",
+  "91": "O sentido sobrenatural da fé",
+  "94": "O crescimento na inteligência da fé",
+  "115": "Os sentidos da Escritura",
+  "121": "O Antigo Testamento",
+  "124": "O Novo Testamento",
+  "128": "A unidade do Antigo e do Novo Testamento",
+  "145": "Abraão, o pai de todos os crentes",
+  "148": "Maria, feliz aquela que acreditou",
+  "150": "Crer só em Deus",
+  "151": "Crer em Jesus Cristo, Filho de Deus",
+  "152": "Crer no Espírito Santo",
+  "153": "A fé é uma graça",
+  "154": "A fé é um ato humano",
+  "156": "A fé e a inteligência",
+  "160": "A liberdade da fé",
+  "161": "A necessidade da fé",
+  "162": "A perseverança na fé",
+  "163": "A fé, vida eterna iniciada",
+  "205": "O Deus vivo",
+  "206": "«Eu sou Aquele que sou»",
+  "210": "«Deus de ternura e de piedade»",
+  "212": "Só Deus é",
+  "215": "Deus é a verdade",
+  "218": "Deus é amor",
+  "238": "O Pai revelado pelo Filho",
+  "243": "O Pai e o Filho revelados pelo Espírito",
+  "249": "A formação do dogma trinitário",
+  "253": "O dogma da Santíssima Trindade",
+  "269": "«Faz tudo quanto lhe apraz» (Sl 115,3)",
+  "270": "«Porque podeis tudo, de todos vos compadeceis» (Sb 11,23)",
+  "272": "O mistério da aparente impotência de Deus",
+  "295": "Deus cria com sabedoria e por amor",
+  "296": "Deus cria «do nada»",
+  "299": "Deus cria um mundo ordenado e bom",
+  "300": "Deus transcende a criação e está presente nela",
+  "301": "Deus sustenta e conduz a criação",
+  "306": "A Providência e as causas segundas",
+  "309": "A Providência e o escândalo do mal",
+  "328": "A existência dos anjos, uma verdade de fé",
+  "329": "Quem são os anjos?",
+  "331": "Cristo «com todos os seus anjos»",
+  "334": "Os anjos na vida da Igreja",
+  "369": "Igualdade e diferença queridas por Deus",
+  "371": "«Um para o outro» — «uma unidade a dois»",
+  "386": "A realidade do pecado",
+  "388": "O pecado original, uma verdade fundamental da fé",
+  "390": "Para ler a narrativa da queda",
+  "396": "A prova da liberdade",
+  "397": "O primeiro pecado do homem",
+  "402": "Consequências do pecado de Adão para a humanidade",
+  "407": "Um duro combate",
+  "422": "A Boa-Nova: Deus enviou o seu Filho",
+  "425": "«Anunciar a insondável riqueza de Cristo» (Ef 3,8)",
+  "426": "No coração da catequese: Cristo",
+  "471": "A alma e o conhecimento humano de Cristo",
+  "475": "A vontade humana de Cristo",
+  "476": "O verdadeiro corpo de Cristo",
+  "478": "O coração do Verbo encarnado"
+ }
+}

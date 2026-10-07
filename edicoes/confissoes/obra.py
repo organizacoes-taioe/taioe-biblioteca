@@ -16,12 +16,14 @@ META = {
             'Milão, em 386, e a morte da mãe, Mônica, em Óstia, no ano seguinte; o décimo examina a memória e '
             'o estado da alma no tempo em que escreve; os três últimos meditam sobre o tempo, a criação e o '
             'começo do Gênesis. A tradução foi feita do latim, sobre o texto do The Latin Library, conferido '
-            'com a edição de Knöll (_Corpus Scriptorum Ecclesiasticorum Latinorum_, vol. 33, Viena, 1896).\n\n'
+            'com a edição de Knöll (_Corpus Scriptorum Ecclesiasticorum Latinorum_, vol. 33, Viena, 1896); onde a página '
+            'do Latin Library perde frases, o texto foi completado pelo de Knöll.\n\n'
             '**A tradução.** Português do Brasil, fiel ao sentido e ao movimento da prosa de Agostinho — as '
             'perguntas, as antíteses, as exclamações, os ecos dos Salmos —, sem acréscimos nem explicações. '
             'Deus é tratado por _tu_, como no original. As citações da Escritura são traduzidas do latim de '
             'Agostinho, que usava a Bíblia latina antiga, e não de uma Bíblia moderna; as referências não '
-            'foram acrescentadas. A pequena marca no começo dos parágrafos (I.1) dá o capítulo e a seção, na '
+            'foram acrescentadas. Os versos que Agostinho cita, de Virgílio, de Terêncio, de Horácio e o hino de Ambrósio, '
+            'foram traduzidos em verso, numa medida correspondente do português. A pequena marca no começo dos parágrafos (I.1) dá o capítulo e a seção, na '
             'numeração usual das edições, que é como se cita a obra.\n\n'
             '**O original.** O latim não aparece ao lado: o texto digital disponível vem de uma edição moderna.'),
         'fontes': [

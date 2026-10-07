@@ -654,6 +654,49 @@
   /* ---------------------------------------------------------------- sincronização (com conta) */
   var sync = { ativo: false, t: null, agendar: function () {} };
   pintarTudo();
+  /* ---------------------------------------------------------------- trilha */
+  /* Trilha que não cabe no topo (pedido do Gere, 07/10/2026): some primeiro o começo, não o fim.
+     Os primeiros passos dão lugar a um «…» (que leva ao último passo escondido) até o resto
+     caber; o mais perto da página atual, o nome do autor ou da obra, é o que fica. */
+  function ajustarTrilha() {
+    var nav = $('trilha');
+    if (!nav) return;
+    var velho = nav.querySelector('.retic');
+    if (velho) { velho.nextElementSibling.remove(); velho.remove(); }
+    var filhos = Array.prototype.slice.call(nav.children);
+    filhos.forEach(function (f) { f.hidden = false; });
+    if (nav.scrollWidth <= nav.clientWidth + 1) return;
+    var passos = filhos.filter(function (f) { return !f.classList.contains('sep'); });
+    if (passos.length < 2) return;
+    var retic = document.createElement('a');
+    retic.className = 'retic';
+    retic.textContent = '…';
+    var sep = document.createElement('span');
+    sep.className = 'sep';
+    sep.textContent = '›';
+    nav.insertBefore(sep, nav.firstChild);
+    nav.insertBefore(retic, sep);
+    var escondidos = [];
+    for (var i = 0; i < passos.length - 1 && nav.scrollWidth > nav.clientWidth + 1; i++) {
+      passos[i].hidden = true;
+      if (passos[i].nextElementSibling) passos[i].nextElementSibling.hidden = true;
+      escondidos.push(passos[i]);
+    }
+    /* nem só o último cabe: o «…» também sai, para sobrar a ele o espaço todo */
+    if (nav.scrollWidth > nav.clientWidth + 1) { retic.hidden = true; sep.hidden = true; }
+    var ultimo = escondidos[escondidos.length - 1];
+    if (ultimo && ultimo.getAttribute('href')) retic.href = ultimo.getAttribute('href');
+    retic.title = escondidos.map(function (e) { return e.textContent; }).join(' › ');
+  }
+  ajustarTrilha();
+  var trilhaPendente = false;
+  window.addEventListener('resize', function () {
+    if (trilhaPendente) return;
+    trilhaPendente = true;
+    requestAnimationFrame(function () { trilhaPendente = false; ajustarTrilha(); });
+  });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ajustarTrilha);
+
   var temSessao = !!ler('taioe-auth');
   if (!temSessao) return;
 

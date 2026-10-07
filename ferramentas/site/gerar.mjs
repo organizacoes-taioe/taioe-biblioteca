@@ -420,7 +420,7 @@ ${o.jsonld ? `<script type="application/ld+json">${JSON.stringify(o.jsonld).repl
 
 <header class="topo">
   <div class="topo-int">
-    <a class="marca" href="${BASE}">Biblioteca</a>
+    ${o.dados && o.dados.pagina === 'capa' ? '<a class="marca" href="/">Taioé</a>' : `<a class="marca" href="${BASE}">Biblioteca</a>`}
     <nav class="topo-nav" id="trilha" aria-label="Trilha de navegação">${trilhaHtml(o.trilha || [])}</nav>
     <div class="ferramentas">
       <a class="btn" href="${BASE}busca/" aria-label="Buscar" title="Buscar"><svg viewBox="0 0 20 20" width="15" height="15" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12.6 12.6 17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></a>

@@ -1289,6 +1289,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('gregorio-de-matos/soneto-sobolos-rios-sobolas-torrentes', 'Sôbolos rios, sôbolas torrentes'),
   ('gregorio-de-matos/soneto-triste-bahia-oh-quao-dessemelhante', 'Triste Bahia! Oh quão dessemelhante'),
   ('gregorio-de-matos/soneto-um-soneto-comeco-em-vosso-gabo', 'Um soneto começo em vosso gabo'),
+  ('igreja-catolica/catecismo-da-igreja-catolica', 'Catecismo da Igreja Católica'),
   ('junqueira-freire/inspiracoes-do-claustro-louco', 'Louco (Hora de Delírio)'),
   ('junqueira-freire/inspiracoes-do-claustro-martirio', 'Martírio'),
   ('junqueira-freire/inspiracoes-do-claustro-meu-filho-no-claustro', 'Meu filho no claustro'),

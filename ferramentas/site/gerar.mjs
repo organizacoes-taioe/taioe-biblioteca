@@ -17,6 +17,7 @@ import path from 'node:path';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { carregarCatecismo, paginasCatecismo } from './catecismo.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const SAIDA = path.join(RAIZ, 'public', 'biblioteca');
@@ -74,6 +75,9 @@ const indiceAntigo = lerLf(path.join(RAIZ, 'index.html'));
 const scripts = [...indiceAntigo.matchAll(/<script[^>]*src="(conteudo\/[^"]+)"/g)].map((m) => m[1]);
 scripts.forEach(rodar);
 [...new Set(dados.obras.filter((o) => o.arquivo && !o.carregada).map((o) => o.arquivo))].forEach(rodar);
+// o Catecismo vem de edicoes/catecismo/dados/ (ver ferramentas/site/catecismo.mjs)
+const catecismo = carregarCatecismo(RAIZ);
+if (catecismo) registrar(catecismo);
 dados.obras.forEach((o) => {
   o.partes.forEach((p, i) => { if (p.texto === undefined) throw new Error(`sem texto: ${o.id} parte ${i + 1}`); });
 });
@@ -197,12 +201,12 @@ const plural = (n, s, p) => n + ' ' + (n === 1 ? s : p);
 const numeradas = (o) => o.partes.filter((p) => p.n).length || o.partes.length;
 const rotuloPasso = (p) => [esc(p.n), p.titulo ? inline(p.titulo) : ''].filter(Boolean).join(' · ');
 
-const GENEROS = ['Romance', 'Novela', 'Contos', 'Autobiografia', 'Hagiografia', 'Ensaio', 'Poesia', 'Teatro',
+const GENEROS = ['Romance', 'Novela', 'Contos', 'Magistério', 'Autobiografia', 'Hagiografia', 'Ensaio', 'Poesia', 'Teatro',
   'Cartas', 'Orações', 'Crônica', 'Crítica', 'Tradução'];
 const PLURAIS = { 'Romance': 'Romances', 'Novela': 'Novelas', 'Contos': 'Contos', 'Poesia': 'Poesia',
   'Teatro': 'Teatro', 'Crônica': 'Crônicas', 'Crítica': 'Crítica', 'Tradução': 'Traduções',
   'Autobiografia': 'Autobiografia', 'Cartas': 'Cartas', 'Orações': 'Orações',
-  'Hagiografia': 'Hagiografia', 'Ensaio': 'Ensaios' };
+  'Hagiografia': 'Hagiografia', 'Ensaio': 'Ensaios', 'Magistério': 'Magistério' };
 const AREAS = [{ id: 'literatura', nome: 'Literatura' }, { id: 'catolicismo', nome: 'Catolicismo' }];
 const areaDe = (a) => a.area || 'literatura';
 const acharArea = (id) => AREAS.find((x) => x.id === id) || null;
@@ -302,7 +306,7 @@ function slugParte(o, p, i) {
   return s || 'parte-' + (i + 1);
 }
 dados.obras.forEach((o) => {
-  if (umaParte(o)) return;
+  if (umaParte(o) || o.catecismo) return;            // no Catecismo, o endereço é o número do ponto
   const antes = congelados[o.id] || {}, agora = {}, usados = new Set(Object.values(antes));
   const vistos = {};
   o.partes.forEach((p, i) => {
@@ -438,7 +442,7 @@ ${o.corpo}
 </main>
 
 <footer class="rodape">
-  <p>Textos em domínio público. <a href="/">Taioé</a> · <a href="/privacidade/">Privacidade</a> · <a href="/termos/">Termos de uso</a></p>
+  <p>${esc(o.rodape || 'Textos em domínio público.')} <a href="/">Taioé</a> · <a href="/privacidade/">Privacidade</a> · <a href="/termos/">Termos de uso</a></p>
 </footer>
 </body>
 </html>
@@ -549,6 +553,11 @@ function paginaPasta(a, f) {
     descricao: `${f.nome} de ${a.nome}: ${plural(obras.length, 'poema', 'poemas')} na Biblioteca Taioé.` });
 }
 
+/* rodapé próprio (obra que não está em domínio público): vale na página do autor só se vale para todas as obras dele */
+function rodapeDe(a) {
+  const rs = [...new Set(obrasDe(a.id).map((o) => o.rodape || ''))];
+  return rs.length === 1 && rs[0] ? rs[0] : undefined;
+}
 function paginaAutor(a) {
   const desc = `${a.nome}${a.vida ? ' (' + a.vida + ')' : ''} na Biblioteca Taioé.${a.nota ? ' ' + textoPuro(a.nota) : ''}`;
   if (soPoesia(a.id)) {
@@ -575,7 +584,7 @@ function paginaAutor(a) {
     soltos.forEach((x) => { html += x.genero === 'Poesia' ? htmlListaPoemas(x.obras) : htmlObrasDoGenero(x.obras); });
   }
   html += '</div>';
-  pagina({ url: U.autor(a), titulo: a.nome, corpo: html, trilha: comArea(a, [{ txt: a.nome }]), descricao: descricaoDe(desc) });
+  pagina({ url: U.autor(a), titulo: a.nome, corpo: html, trilha: comArea(a, [{ txt: a.nome }]), descricao: descricaoDe(desc), rodape: rodapeDe(a) });
 }
 
 /* As obras de um gênero, agrupadas por coletânea: o corpo da página do gênero, ou a lista solta
@@ -612,7 +621,7 @@ function trilhaObra(a, o) {
 }
 function jsonObra(a, o) {
   return { '@context': 'https://schema.org', '@type': o.poema ? 'CreativeWork' : 'Book', name: o.titulo, inLanguage: 'pt-BR',
-    author: { '@type': 'Person', name: a.nomeCompleto || a.nome }, url: SITE + U.obra(o),
+    author: { '@type': a.organizacao ? 'Organization' : 'Person', name: a.nomeCompleto || a.nome }, url: SITE + U.obra(o),
     ...(o.ano ? { datePublished: String(o.ano) } : {}), isAccessibleForFree: true,
     ...(o.traducao ? { translationOfWork: { '@type': 'CreativeWork', name: o.traducao.titulo || o.titulo, inLanguage: o.traducao.codigo || undefined } } : {}),
     publisher: { '@type': 'Organization', name: 'Taioé', url: SITE + '/' } };
@@ -761,7 +770,7 @@ function paginaSobre(a, o) {
     }).join('') + '</ul>';
   }
   html += '<p class="posicao"><a href="' + U.obra(o) + '">' + (umaParte(o) ? 'Voltar ao texto' : 'Voltar ao índice') + '</a></p></article>';
-  pagina({ url: U.sobre(o), titulo: tit + ' — ' + o.titulo, corpo: html, trilha: trilhaObra(a, o).concat({ txt: o.titulo, href: U.obra(o) }, { txt: tit }),
+  pagina({ url: U.sobre(o), titulo: tit + ' — ' + o.titulo, corpo: html, rodape: o.rodape, trilha: trilhaObra(a, o).concat({ txt: o.tituloCurto || o.titulo, href: U.obra(o) }, { txt: tit }),
     descricao: descricaoDe(`${tit}: ${o.titulo}, de ${a.nome}. ${e.apresentacao || ''}`) });
 }
 
@@ -797,6 +806,11 @@ dados.autores.forEach((a) => {
 });
 dados.obras.forEach((o) => {
   const a = acharAutor(o.autor) || { nome: o.autor, id: o.autor };
+  if (o.catecismo) {
+    paginasCatecismo(a, o, { pagina, esc, U, SITE, trilhaObra, jsonObra, chaveObra, fichaObra, descricaoDe, tituloSobre });
+    paginaSobre(a, o);
+    return;
+  }
   if (!umaParte(o)) paginaObra(a, o);
   o.partes.forEach((p, i) => paginaParte(a, o, i + 1));
   if (o.edicao) paginaSobre(a, o);

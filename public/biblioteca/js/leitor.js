@@ -63,6 +63,79 @@
     if (link) { ev.preventDefault(); location.href = link.getAttribute('href'); }
   });
 
+  /* ---------------------------------------------------------------- Catecismo */
+  /* Notas em popup, com o mesmo funcionamento dos popups de nota da Bíblia: junto ao número
+     (abaixo ou acima, conforme o espaço, sempre dentro da tela), segundo toque no mesmo número
+     fecha, toque no popup ou fora dele fecha, Esc fecha, acompanha a rolagem e o redimensionamento.
+     O conteúdo é o da nota embaixo do ponto (fonte e, se houver, o texto). Sem JavaScript, o
+     número é só um link para a nota (#nota-N). */
+  var corpoPonto = document.querySelector('.corpo-ponto');
+  if (corpoPonto && corpoPonto.querySelector('a.ref')) {
+    var popupNota = document.createElement('div'), pnRef = document.createElement('div'), pnCorpo = document.createElement('div'), pnDica = document.createElement('div');
+    popupNota.id = 'popup-nota'; popupNota.setAttribute('aria-live', 'polite');
+    pnRef.className = 'ref-nota'; pnDica.className = 'hint'; pnDica.textContent = 'toque para fechar';
+    popupNota.appendChild(pnRef); popupNota.appendChild(pnCorpo); popupNota.appendChild(pnDica);
+    document.body.appendChild(popupNota);
+    var notaAtiva = null;
+    var posicionarPopup = function (el) {
+      popupNota.style.visibility = 'hidden'; popupNota.classList.add('show');
+      var r = el.getBoundingClientRect(), pw = popupNota.offsetWidth, ph = popupNota.offsetHeight, m = 10;
+      var left = r.left + r.width / 2 - pw / 2; left = Math.max(m, Math.min(left, window.innerWidth - pw - m));
+      var top = r.bottom + 8;
+      if (top + ph > window.innerHeight - m) { top = r.top - ph - 8; if (top < m) top = Math.max(m, (window.innerHeight - ph) / 2); }
+      popupNota.style.left = left + 'px'; popupNota.style.top = top + 'px'; popupNota.style.visibility = 'visible';
+    };
+    var fecharNota = function () {
+      popupNota.classList.remove('show');
+      if (notaAtiva) { notaAtiva.classList.remove('ativa'); notaAtiva = null; }
+    };
+    var abrirNota = function (el) {
+      if (notaAtiva === el) { fecharNota(); return; }          /* segundo toque no mesmo número fecha */
+      if (notaAtiva) notaAtiva.classList.remove('ativa');
+      notaAtiva = el; el.classList.add('ativa');
+      pnRef.textContent = 'Ponto ' + D.ponto + ' · nota ' + el.getAttribute('data-n');
+      pnCorpo.textContent = '';
+      var nota = $('nota-' + el.getAttribute('data-n'));
+      if (nota) Array.prototype.forEach.call(nota.querySelectorAll('.src, .quoted'), function (x) { pnCorpo.appendChild(x.cloneNode(true)); });
+      popupNota.scrollTop = 0;
+      posicionarPopup(el);
+    };
+    $('app').addEventListener('click', function (e) {
+      var n = e.target.closest('.corpo-ponto a.ref');
+      if (n) { e.preventDefault(); e.stopPropagation(); abrirNota(n); return; }
+      if (popupNota.classList.contains('show')) fecharNota();
+    });
+    popupNota.addEventListener('click', function (e) { e.stopPropagation(); fecharNota(); });
+    document.addEventListener('click', function (e) {
+      if (!popupNota.classList.contains('show')) return;
+      if (e.target.closest('.corpo-ponto a.ref') || e.target.closest('#popup-nota')) return;
+      fecharNota();
+    });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fecharNota(); });
+    window.addEventListener('scroll', function () { if (notaAtiva) posicionarPopup(notaAtiva); }, { passive: true });
+    window.addEventListener('resize', function () { if (notaAtiva) posicionarPopup(notaAtiva); });
+  }
+
+  /* «Ir ao ponto»; e, na página da obra, os endereços do site antigo (#27, #a27) */
+  var irPonto = $('ir-ponto');
+  if (irPonto) {
+    var dp = irPonto.dataset, pMin = +dp.min, pMax = +dp.max;
+    var aberturas = (dp.aberturas || '').split(' ').filter(Boolean);
+    irPonto.hidden = false;
+    irPonto.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var n = parseInt($('ir-ponto-n').value, 10);
+      if (n >= pMin && n <= pMax) { location.href = dp.url + n + '/'; return; }
+      $('ir-aviso').textContent = isNaN(n) ? '' : 'Por enquanto estão publicados os pontos ' + pMin + ' a ' + pMax + '.';
+    });
+    var velho = /^#(a?)(\d+)$/i.exec(location.hash);
+    if (D.pagina === 'obra' && velho) {
+      var nv = parseInt(velho[2], 10);
+      if (nv >= pMin && nv <= pMax) location.replace(dp.url + (velho[1] && aberturas.indexOf(String(nv)) >= 0 ? 'a' : '') + nv + '/');
+      else $('ir-aviso').textContent = 'O ponto ' + nv + ' ainda não está publicado: por enquanto, só os pontos ' + pMin + ' a ' + pMax + '.';
+    }
+  }
+
   /* ---------------------------------------------------------------- original e tradução */
   /* Todo texto abre só em português; a escolha segue de parte em parte da mesma obra (vale
      quando se chega pela navegação da própria obra) e volta ao português ao reabrir o texto. */
@@ -521,7 +594,7 @@
       fetch(href).then(function (r) { return r.text(); }).then(function (html) {
         if (vez !== ultima) return;
         var doc = new DOMParser().parseFromString(html, 'text/html');
-        var ps = doc.querySelectorAll('.leitura .texto p, .leitura .texto .trad, .leitura .texto .orig');
+        var ps = doc.querySelectorAll('.leitura .texto p, .leitura .texto .trad, .leitura .texto .orig, .leitura .notas-ponto p');
         var melhor = null;
         for (var i = 0; i < ps.length; i++) {
           var t = ps[i].textContent.replace(/\s+/g, ' ').trim(), m = mapaNormal(t), achou = [], nota = 0;

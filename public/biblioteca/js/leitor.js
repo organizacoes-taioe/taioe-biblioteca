@@ -693,6 +693,13 @@
   /* Trilha que não cabe no topo (pedido do Gere, 07/10/2026): some primeiro o começo, não o fim.
      Os primeiros passos dão lugar a um «…» (que leva ao último passo escondido) até o resto
      caber; o mais perto da página atual, o nome do autor ou da obra, é o que fica. */
+  /* o fim da trilha passa da borda: scrollWidth arredonda, e meio pixel a mais já corta o último
+     passo com «…» do text-overflow; por isso a posição do último filho, em fração de pixel */
+  function transborda(nav) {
+    var fim = nav.lastElementChild;
+    return nav.scrollWidth > nav.clientWidth + 1 ||
+      (!!fim && fim.getBoundingClientRect().right > nav.getBoundingClientRect().right + 0.5);
+  }
   function ajustarTrilha() {
     var nav = $('trilha');
     if (!nav) return;
@@ -700,7 +707,7 @@
     if (velho) { velho.nextElementSibling.remove(); velho.remove(); }
     var filhos = Array.prototype.slice.call(nav.children);
     filhos.forEach(function (f) { f.hidden = false; });
-    if (nav.scrollWidth <= nav.clientWidth + 1) return;
+    if (!transborda(nav)) return;
     var passos = filhos.filter(function (f) { return !f.classList.contains('sep'); });
     if (passos.length < 2) return;
     var retic = document.createElement('a');
@@ -712,13 +719,13 @@
     nav.insertBefore(sep, nav.firstChild);
     nav.insertBefore(retic, sep);
     var escondidos = [];
-    for (var i = 0; i < passos.length - 1 && nav.scrollWidth > nav.clientWidth + 1; i++) {
+    for (var i = 0; i < passos.length - 1 && transborda(nav); i++) {
       passos[i].hidden = true;
       if (passos[i].nextElementSibling) passos[i].nextElementSibling.hidden = true;
       escondidos.push(passos[i]);
     }
     /* nem só o último cabe: o «…» também sai, para sobrar a ele o espaço todo */
-    if (nav.scrollWidth > nav.clientWidth + 1) { retic.hidden = true; sep.hidden = true; }
+    if (transborda(nav)) { retic.hidden = true; sep.hidden = true; }
     var ultimo = escondidos[escondidos.length - 1];
     if (ultimo && ultimo.getAttribute('href')) retic.href = ultimo.getAttribute('href');
     retic.title = escondidos.map(function (e) { return e.textContent; }).join(' › ');

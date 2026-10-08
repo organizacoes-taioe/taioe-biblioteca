@@ -181,6 +181,13 @@ Para uma obra traduzida escrita à mão, basta acrescentar à obra
 `traducao: { lingua: 'francês', codigo: 'fr', titulo: 'Titre original' }` e, em cada parte,
 `original` (e, se houver, `tituloOriginal`), no mesmo formato de `texto`.
 
+As obras traduzidas para a Biblioteca ficam em `edicoes/<obra>/` (`obra.py`, `original/`, `traducao/`) e
+vão para o site com `python ferramentas/traducoes.py <obra>` (sempre com o nome da obra: sem ele, a
+ferramenta publica tudo o que estiver completo). O índice vai para `conteudo/catolicismo.js` ou, com
+`'indice': 'literatura'` no `META`, para `conteudo/literatura.js`. Uma obra em verso (`'poema': True`,
+como o _Beowulf_) é lida verso com verso, e a tabulação que marca a cesura nos arquivos vira um espaço
+largo no site.
+
 ## O texto de _Dom Casmurro_
 
 Base: a 1ª edição (H. Garnier, 1899), estabelecida palavra por palavra a partir de três

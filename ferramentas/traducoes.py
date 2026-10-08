@@ -1,7 +1,10 @@
-"""Publica no site as obras traduzidas (seção Catolicismo, exceto Santa Teresinha, que tem o seu).
+"""Publica no site as obras traduzidas (seção Catolicismo, exceto Santa Teresinha, que tem o seu, e
+obras de Literatura escritas da mesma forma, como o Beowulf).
 
 Cada obra fica em edicoes/<obra>/:
-  obra.py        META (id, autor, titulo, ano, genero, divisao, traducao, edicao, original_ao_lado)
+  obra.py        META (id, autor, titulo, ano, genero, divisao, traducao, edicao, original_ao_lado;
+                 opcionais: indice, «literatura» para gravar em conteudo/literatura.js; poema, para obra
+                 em verso, lida verso com verso, com a cesura marcada por tabulação nos arquivos)
                  e PARTES: [(sigla, título, [arquivos])] — os arquivos de original/ e traducao/;
   original/      texto na língua original;
   traducao/      tradução, um arquivo para cada arquivo do original.
@@ -9,7 +12,8 @@ Cada obra fica em edicoes/<obra>/:
 Grava:
   conteudo/<autor>/<obra>.js     texto de cada parte (e o original, se META['original_ao_lado']),
                                  carregado só quando a obra é aberta (BIBLIOTECA.textos);
-  conteudo/catolicismo.js        índice das obras (BIBLIOTECA.obra com «arquivo»), carregado com o site.
+  conteudo/catolicismo.js        índice das obras (BIBLIOTECA.obra com «arquivo»), carregado com o site
+                                 (conteudo/literatura.js para as obras com META['indice'] == 'literatura').
 Uma obra só entra quando todos os arquivos traduzidos existem.
 
 Marcas: «[I.1]», «[12]» no começo do parágrafo viram «{§ I.1}» (marca discreta no site);
@@ -25,7 +29,17 @@ import sys
 
 RAIZ = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 EDICOES = os.path.join(RAIZ, 'edicoes')
-INDICE = os.path.join(RAIZ, 'conteudo', 'catolicismo.js')
+INDICES = {
+    'catolicismo': ('conteudo/catolicismo.js',
+                    '/* Catolicismo: obras em tradução (índice). Gerado por ferramentas/traducoes.py;\n'
+                    '   o texto de cada obra fica em conteudo/<autor>/<obra>.js e só é carregado quando a obra é aberta.\n'
+                    '   (Santa Teresinha tem índice próprio: conteudo/santa-teresinha/indice.js.) */\n\n'),
+    'literatura': ('conteudo/literatura.js',
+                   '/* Literatura: obras em tradução (índice). Gerado por ferramentas/traducoes.py;\n'
+                   '   o texto de cada obra fica em conteudo/<autor>/<obra>.js e só é carregado quando a obra é aberta.\n'
+                   '   (Os poemas do Versificador têm índice próprio: conteudo/poesia.js.) */\n\n'),
+}
+CESURA = '\u2003\u2003'   # a tabulação dos arquivos de verso vira dois espaços largos no site
 sys.path.insert(0, os.path.join(RAIZ, 'ferramentas'))
 from edicao import montar  # noqa: E402
 
@@ -98,6 +112,8 @@ def publicar_obra(nome):
             t.append(marcas(trecho(arq_t, faixa)))
             if meta.get('original_ao_lado'):
                 orig.append(marcas(trecho(os.path.join(pasta, 'original', a), faixa)))
+        if meta.get('poema'):
+            t, orig = [x.replace('\t', CESURA) for x in t], [x.replace('\t', CESURA) for x in orig]
         partes.append({'n': sigla, 'titulo': titulo, 'texto': '\n\n'.join(t),
                        'original': '\n\n'.join(orig) if orig else None})
     arq_js = f"conteudo/{meta['autor']}/{meta['id']}.js"
@@ -110,30 +126,33 @@ def publicar_obra(nome):
         f.write(f"/* {meta['titulo']} — em tradução. Gerado por ferramentas/traducoes.py a partir de edicoes/{nome}/;\n"
                 "   não edite à mão. t: tradução de cada parte; o: original; e: página «Sobre». */\n")
         f.write('BIBLIOTECA.textos(' + json.dumps(mapa, ensure_ascii=False) + ');\n')
-    registro = {k: meta.get(k) for k in ('id', 'autor', 'titulo', 'subtitulo', 'ano', 'datas', 'genero', 'divisao',
-                                         'traducao', 'descricao')}
+    registro = {k: meta.get(k) for k in ('id', 'autor', 'titulo', 'subtitulo', 'ano', 'datas', 'genero', 'poema',
+                                         'divisao', 'traducao', 'descricao')}
     registro['arquivo'] = arq_js
     registro['_palavras'] = palavras(p['texto'] for p in partes)
+    if meta.get('poema'):
+        registro['versos'] = sum(1 for p in partes for v in p['texto'].split('\n') if v.strip())
     registro['partes'] = [{'n': p['n'], 'titulo': p['titulo']} for p in partes]
     print(f"publicada: {meta['id']} ({len(partes)} partes, {registro['_palavras']} palavras)")
+    registro['_indice'] = meta.get('indice', 'catolicismo')
     return {k: v for k, v in registro.items() if v is not None}
 
 
-def gravar_indice(novas):
+def gravar_indice(nome, novas):
+    rel, cabecalho = INDICES[nome]
+    arq = os.path.join(RAIZ, rel)
     obras = {}
-    if os.path.exists(INDICE):
-        for m in re.finditer(r'BIBLIOTECA\.obra\((\{.*?\})\);\n', open(INDICE, encoding='utf-8').read(), re.S):
+    if os.path.exists(arq):
+        for m in re.finditer(r'BIBLIOTECA\.obra\((\{.*?\})\);\n', open(arq, encoding='utf-8').read(), re.S):
             x = json.loads(m.group(1))
             obras[x['id']] = x
     obras.update(novas)
-    with open(INDICE, 'w', encoding='utf-8') as f:
-        f.write('/* Catolicismo: obras em tradução (índice). Gerado por ferramentas/traducoes.py;\n'
-                '   o texto de cada obra fica em conteudo/<autor>/<obra>.js e só é carregado quando a obra é aberta.\n'
-                '   (Santa Teresinha tem índice próprio: conteudo/santa-teresinha/indice.js.) */\n\n')
+    with open(arq, 'w', encoding='utf-8') as f:
+        f.write(cabecalho)
         for x in sorted(obras.values(), key=lambda x: (x.get('ano') or 0, x['titulo'])):
             f.write('BIBLIOTECA.obra(' + json.dumps(x, ensure_ascii=False) + ');\n')
-    if montar.registrar_no_index(os.path.join(RAIZ, 'index.html'), 'conteudo/catolicismo.js'):
-        print('acrescentado ao index.html: conteudo/catolicismo.js')
+    if montar.registrar_no_index(os.path.join(RAIZ, 'index.html'), rel):
+        print('acrescentado ao index.html: ' + rel)
 
 
 if __name__ == '__main__':
@@ -142,6 +161,6 @@ if __name__ == '__main__':
     for n in nomes:
         r = publicar_obra(n)
         if r:
-            novas[r['id']] = r
-    if novas:
-        gravar_indice(novas)
+            novas.setdefault(r.pop('_indice'), {})[r['id']] = r
+    for indice, obras in novas.items():
+        gravar_indice(indice, obras)

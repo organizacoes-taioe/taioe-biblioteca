@@ -3,8 +3,8 @@
    - posição de leitura: só neste navegador para quem não entrou; para quem entrou, também na
      conta, em qualquer aparelho (anexo banco.md, §2.7);
    - «Continuar a leitura» na capa e endereços antigos (#/o/<obra>/<n>) levados aos novos;
-   - o estado de leitura de cada parte e de cada obra (lendo, lida), com as marcas nas listas,
-     a escolha manual, as páginas «Em leitura» e «Lidos», a ordem dos autores e a busca.
+   - o estado de leitura de cada parte (ou capítulo) e de cada obra (lendo, lida), com as marcas
+     nas listas, a escolha manual, as páginas «Em leitura» e «Lidos», a ordem dos autores e a busca.
    O leitor anônimo não baixa o supabase-js: só com a sessão guardada (taioe-auth) a página carrega
    o SDK e o módulo de sessão. Tudo o que vem de fora entra com textContent. */
 (function () {
@@ -142,6 +142,50 @@
     return parte === 'texto' ? B + obra + '/' : B + obra + '/' + parte + '/';
   }
 
+  /* A estrutura da obra: [[slug, rótulo, filhos?], …] (no obras.json; nas páginas da obra e dos
+     índices, em data-estrutura, sem os rótulos). Parte dividida tem filhos (capítulos, que podem ter
+     seções). Folha = página de leitura; nó = qualquer item. A chave de cada item no estado de
+     leitura são as slugs do caminho unidas por hífen («i-capitulo-3»); cadeia = as chaves de cima. */
+  function arvore(lista, base) {
+    var nos = {}, folhas = [], topo = [];
+    (function andar(l, prefixo, url, cadeia) {
+      l.forEach(function (x) {
+        var k = prefixo ? prefixo + '-' + x[0] : x[0];
+        var u = !prefixo && x[0] === 'texto' ? base : url + x[0] + '/';
+        var no = { k: k, rot: x[1] || '', u: u, cadeia: cadeia, folhas: [], filhos: !!x[2] };
+        nos[k] = no;
+        if (!prefixo) topo.push(no);
+        if (x[2]) andar(x[2], k, u, cadeia.concat(k)); else folhas.push(no);
+      });
+    })(lista || [], '', base, []);
+    folhas.forEach(function (f) { f.folhas.push(f); f.cadeia.forEach(function (c) { nos[c].folhas.push(f); }); });
+    return { nos: nos, folhas: folhas, topo: topo };
+  }
+  function arvoreDe(o) { return o._arv || (o._arv = arvore(o.p, o.u)); }
+  /* a da página aberta: data-estrutura («prefacio i(capitulo-1 capitulo-2) ii(…)»), ou (obra sem
+     divisão) os itens do índice */
+  var arvPagina = null;
+  function lerEstrutura(s) {
+    var pilha = [[]], m, re = /([a-z0-9-]+)(\(?)|\)/g;
+    while ((m = re.exec(s))) {
+      if (m[0] === ')') { var filhos = pilha.pop(); var dono = pilha[pilha.length - 1]; dono[dono.length - 1][2] = filhos; continue; }
+      pilha[pilha.length - 1].push([m[1], '']);
+      if (m[2]) pilha.push([]);
+    }
+    return pilha[0];
+  }
+  function arvoreDaPagina() {
+    if (arvPagina) return arvPagina;
+    var lista = D.estrutura ? lerEstrutura(D.estrutura)
+      : Array.prototype.map.call(document.querySelectorAll('.indice li[data-parte]'), function (li) { return [li.getAttribute('data-parte')]; });
+    return (arvPagina = arvore(lista, B + D.obra + '/'));
+  }
+  /* o endereço de uma posição guardada sem endereço (veio de outro aparelho): pelo índice das obras */
+  function urlPeloIndice(idx, obra, parte) {
+    var o = idx[obra], no = o && arvoreDe(o).nos[parte];
+    return no ? no.u : o ? o.u : B;
+  }
+
   function paragrafoVisivel() {
     var cels = document.querySelectorAll('.leitura .texto [data-i], .leitura .texto > p');
     var topo = 80;
@@ -188,14 +232,36 @@
   function textoRetomar(r) {
     return r.titulo + (r.rotulo ? ' — ' + r.rotulo : '');
   }
-  if (D.pagina === 'obra') {
-    var r0 = leituras()[D.obra];
-    if (r0 && r0.parte) {
-      var b = $('comecar');
-      if (b && (r0.i > 1 || r0.rotulo)) { b.textContent = 'Continuar: ' + (r0.rotulo || ('parte ' + r0.i)); b.href = urlDe(D.obra, r0.parte, r0.url); }
-      var li = document.querySelector('.indice li[data-parte="' + r0.parte + '"]');
+  if (D.pagina === 'obra' || D.pagina === 'no') {
+    var r0 = leituras()[D.obra], arv0 = arvoreDaPagina(), no0 = r0 && r0.parte ? arv0.nos[r0.parte] : null, b = $('comecar');
+    if (D.pagina === 'obra' && r0 && r0.parte) {
+      if (b && (r0.i > 1 || r0.rotulo)) { b.textContent = 'Continuar: ' + (r0.rotulo || ('parte ' + r0.i)); b.href = r0.url || (no0 ? no0.u : urlDe(D.obra, r0.parte)); }
+      var li = document.querySelector('.indice li[data-parte="' + (no0 && no0.cadeia.length ? no0.cadeia[0] : r0.parte) + '"]');
       if (li) li.classList.add('atual');
     }
+    /* índice de uma parte (ou capítulo): o item onde se parou; quem parou na parte inteira, antes
+       da divisão em capítulos, vai ao capítulo em que estava (pela linha guardada em «par») */
+    if (D.pagina === 'no' && r0 && r0.parte) {
+      var lisNo = Array.prototype.slice.call(document.querySelectorAll('#indice-no li[data-no]')), liAqui = null;
+      if (no0 && no0.cadeia.indexOf(D.no) >= 0) {
+        var kAqui = no0.cadeia.length > no0.cadeia.indexOf(D.no) + 1 ? no0.cadeia[no0.cadeia.indexOf(D.no) + 1] : no0.k;
+        liAqui = lisNo.filter(function (x) { return x.getAttribute('data-no') === kAqui; })[0];
+        if (b) { b.textContent = 'Continuar: ' + (r0.rotulo || no0.rot || 'de onde parou'); b.href = r0.url || no0.u; }
+      } else if (r0.parte === D.no && $('indice-no')) {
+        var cel = parseInt($('indice-no').getAttribute('data-celulas'), 10) || 1, linha = Math.floor((r0.par || 0) / cel);
+        lisNo.forEach(function (x) { if (parseInt(x.getAttribute('data-linha'), 10) <= linha) liAqui = x; });
+        if (liAqui && r0.par > 0 && b) { b.textContent = 'Continuar: ' + liAqui.getAttribute('data-rotulo'); b.href = liAqui.querySelector('a').getAttribute('href'); }
+      }
+      if (liAqui) liAqui.classList.add('atual');
+    }
+  }
+  /* links antigos com âncora para dentro da parte (…/i/#capitulo-3, #I.3, #3) levam ao capítulo */
+  if (D.pagina === 'no' && location.hash.length > 1) {
+    var h = decodeURIComponent(location.hash.slice(1)).toLowerCase().replace(/^§\s*/, '');
+    var hm = /^(?:[ivxlc]+[.\-])?(\d+)$/.exec(h), hAlvo = hm ? 'capitulo-' + hm[1] : h;
+    var lisH = Array.prototype.slice.call(document.querySelectorAll('#indice-no li[data-no]'));
+    var liH = h === 'fim-parte' ? lisH[lisH.length - 1] : lisH.filter(function (x) { var k = x.getAttribute('data-no'); return k.slice(-hAlvo.length - 1) === '-' + hAlvo; })[0];
+    if (liH) location.replace(liH.querySelector('a').getAttribute('href') + (h === 'fim-parte' ? '#fim-parte' : ''));
   }
   function mostrarRetomar() {
     var caixa = $('retomar');
@@ -206,7 +272,8 @@
     if (!ultima || !ultima.r.titulo) return;
     var a = document.createElement('a');
     a.className = 'retomar';
-    a.href = urlDe(ultima.k, ultima.r.parte, ultima.r.url);
+    a.href = ultima.r.url || B + ultima.k + '/';
+    if (!ultima.r.url) indiceObras().then(function (idx) { a.href = urlPeloIndice(idx, ultima.k, ultima.r.parte); });
     var s1 = document.createElement('span'); s1.className = 'rot'; s1.textContent = 'Continuar a leitura';
     var s2 = document.createElement('span'); s2.className = 'alvo'; s2.textContent = textoRetomar(ultima.r);
     a.appendChild(s1); a.appendChild(s2);
@@ -232,7 +299,7 @@
         if (!chave) return;
         var o = idx[chave], destino = o.u;
         if (p[2] === 'sobre') destino = o.u + 'sobre/';
-        else if (p[2] && o.p[parseInt(p[2], 10) - 1]) destino = urlDe(chave, o.p[parseInt(p[2], 10) - 1][0]);
+        else if (p[2] && o.p[parseInt(p[2], 10) - 1]) destino = arvoreDe(o).topo[parseInt(p[2], 10) - 1].u;
         location.replace(destino);
       });
     }
@@ -241,7 +308,11 @@
   /* ---------------------------------------------------------------- estado de leitura */
   /* r.partes = { "<parte>": [estado, t], "*": [estado, t] }: 0 não iniciada, 1 lendo (aberta),
      2 lida por inteiro (desceu até o fim); "*" é a escolha manual para a obra inteira. Parte a
-     parte vale a marca mais recente (a mesma regra do servidor); sozinho, o aparelho só sobe. */
+     parte vale a marca mais recente (a mesma regra do servidor); sozinho, o aparelho só sobe.
+     Nas partes divididas em capítulos (08/10/2026), cada capítulo tem a sua marca («i-capitulo-3»),
+     e «Lida» ou «Não iniciada» marcada na parte (ou na obra) vale para todos os capítulos dela, se
+     for mais recente que a do capítulo: assim a parte lida antes da divisão conta como todos os
+     capítulos lidos, sem gravar nada de novo. «Lendo» na parte não passa para os capítulos. */
   function juntarPartes(a, b) {
     var saida = {};
     [a || {}, b || {}].forEach(function (m) {
@@ -253,22 +324,45 @@
     });
     return saida;
   }
-  function estadoParte(r, slug) { var v = r && r.partes && r.partes[slug]; return v ? v[0] : 0; }
+  function marcaDe(r, k) { var v = r && r.partes && r.partes[k]; return Array.isArray(v) && v.length === 2 ? v : null; }
+  /* uma folha (parte sem divisão, capítulo ou seção): a marca dela ou, se mais recente, a «Lida» ou
+     «Não iniciada» de um nível de cima (a parte, o capítulo, a obra) */
+  function estadoFolha(r, f) {
+    var m = marcaDe(r, f.k), e = m ? m[0] : 0, t = m ? m[1] : -1;
+    f.cadeia.concat('*').forEach(function (c) { var x = marcaDe(r, c); if (x && x[0] !== 1 && x[1] > t) { e = x[0]; t = x[1]; } });
+    return e;
+  }
+  /* um item com filhos: lido com todas as folhas lidas, lendo com alguma aberta; «Lendo» marcado
+     nele (ou a parte aberta antes da divisão) vale se não houver marca mais nova embaixo */
+  function estadoNo(r, no) {
+    if (!no.filhos) return estadoFolha(r, no);
+    var ef = no.folhas.map(function (f) { return estadoFolha(r, f); });
+    var derivado = ef.every(function (e) { return e === 2; }) ? 2 : ef.some(function (e) { return e >= 1; }) ? 1 : 0;
+    var m = marcaDe(r, no.k);
+    if (m && m[0] === 1 && derivado !== 1) {
+      var t = 0;
+      no.folhas.forEach(function (f) { var x = marcaDe(r, f.k); if (x) t = Math.max(t, x[1]); });
+      no.cadeia.concat('*').forEach(function (c) { var x = marcaDe(r, c); if (x && x[0] !== 1) t = Math.max(t, x[1]); });
+      if (m[1] >= t) return 1;
+    }
+    return derivado;
+  }
   /* a obra: a escolha manual, se for mais nova que todas as marcas das partes; senão, lida com
-     todas as partes lidas, lendo com pelo menos uma parte lida por inteiro */
-  function estadoObra(r, n) {
+     todas as folhas lidas, lendo com pelo menos uma lida por inteiro */
+  function estadoObra(r, arv) {
     if (!r) return 0;
-    var p = r.partes || {}, inteiras = 0, maisNova = 0, chaves = Object.keys(p);
-    chaves.forEach(function (k) { if (k === '*') return; if (p[k][0] === 2) inteiras++; maisNova = Math.max(maisNova, p[k][1]); });
+    var p = r.partes || {}, maisNova = 0, chaves = Object.keys(p);
+    chaves.forEach(function (k) { if (k !== '*' && Array.isArray(p[k])) maisNova = Math.max(maisNova, p[k][1]); });
     if (p['*'] && p['*'][1] >= maisNova) return p['*'][0];
-    if (n && inteiras >= n) return 2;
+    var inteiras = arv.folhas.filter(function (f) { return estadoFolha(r, f) === 2; }).length;
+    if (arv.folhas.length && inteiras >= arv.folhas.length) return 2;
     if (inteiras > 0) return 1;
     if (r.concluida && !chaves.length) return 2;                  /* conclusão de antes das marcas */
     return 0;
   }
   /* começada: em leitura pela regra acima, ou com alguma parte aberta (e sem «não iniciada» depois) */
-  function comecada(r, n) {
-    var e = estadoObra(r, n);
+  function comecada(r, arv) {
+    var e = estadoObra(r, arv);
     if (e !== 0) return e === 1;
     var p = (r && r.partes) || {}, m = p['*'];
     return Object.keys(p).some(function (k) { return k !== '*' && p[k][0] >= 1 && (!m || p[k][1] > m[1]); });
@@ -294,13 +388,15 @@
     marcarPendente(obra);
     if (sync && sync.ativo) sync.agendar(3000);              /* «sync» ainda não existe na abertura da página */
   }
-  var ROTULOS = [['0', 'Não iniciada'], ['1', 'Lendo'], ['2', 'Lida']];
+  var ROTULOS = [['0', 'Não iniciada', 'Não iniciado'], ['1', 'Lendo', 'Lendo'], ['2', 'Lida', 'Lido']];
+  var ALVOS = { obra: 'Esta obra:', parte: 'Esta parte:', capitulo: 'Este capítulo:', secao: 'Esta seção:' };
   function controleEstado(caixa, atual, aoEscolher) {
     caixa.textContent = '';
-    var rot = document.createElement('span'); rot.className = 'rot'; rot.textContent = caixa.getAttribute('data-alvo') === 'obra' ? 'Esta obra:' : 'Esta parte:';
+    var alvo = caixa.getAttribute('data-alvo'), masc = alvo === 'capitulo';
+    var rot = document.createElement('span'); rot.className = 'rot'; rot.textContent = ALVOS[alvo] || 'Esta parte:';
     caixa.appendChild(rot);
     ROTULOS.forEach(function (x) {
-      var b = document.createElement('button'); b.type = 'button'; b.textContent = x[1];
+      var b = document.createElement('button'); b.type = 'button'; b.textContent = masc ? x[2] : x[1];
       b.setAttribute('aria-pressed', String(String(atual) === x[0]));
       b.className = 'estado-' + x[0];
       b.addEventListener('click', function () { aoEscolher(+x[0]); });
@@ -314,25 +410,33 @@
     if (classeDe(e)) el.classList.add(classeDe(e));
   }
 
+  function folhaDaPagina() { return { k: D.parte, cadeia: (D.cadeia || '').split(' ').filter(Boolean) }; }
   function pintarTudo() {
     var L = leituras();
-    /* índice da obra: cada parte; e a escolha manual da obra */
-    if (D.pagina === 'obra') {
-      var lis = Array.prototype.slice.call(document.querySelectorAll('.indice li[data-parte]'));
-      var slugs = lis.map(function (li) { return li.getAttribute('data-parte'); });
-      lis.forEach(function (li) { pintar(li, estadoParte(L[D.obra], li.getAttribute('data-parte'))); });
-      var cx = $('estado-leitura');
-      if (cx) controleEstado(cx, estadoObra(L[D.obra], slugs.length), function (e) {
-        var extra = slugs.length ? { parte: slugs[0], i: 1, max: slugs[0], maxI: 1, t: 1, titulo: D.tituloObra, rotulo: '' } : null;
-        marcar(D.obra, ['*'], e, true, extra);
-        if (e !== 1) marcar(D.obra, slugs, e, true);             /* lida ou não iniciada vale para todas as partes */
-        pintarTudo();
+    /* índice da obra (cada parte; e a escolha manual da obra) e índice de uma parte dividida */
+    if (D.pagina === 'obra' || D.pagina === 'no') {
+      var arv = arvoreDaPagina();
+      Array.prototype.forEach.call(document.querySelectorAll('.indice li[data-parte], #indice-no li[data-no]'), function (li) {
+        var no = arv.nos[li.getAttribute('data-parte') || li.getAttribute('data-no')];
+        if (no) pintar(li, estadoNo(L[D.obra], no));
       });
+      var cx = $('estado-leitura');
+      if (cx && D.pagina === 'obra') {
+        var slugs = arv.topo.map(function (x) { return x.k; }), f0 = arv.folhas[0];
+        controleEstado(cx, estadoObra(L[D.obra], arv), function (e) {
+          var extra = f0 ? { parte: f0.k, i: 1, max: f0.k, maxI: 1, t: 1, titulo: D.tituloObra, rotulo: '' } : null;
+          marcar(D.obra, ['*'], e, true, extra);
+          if (e !== 1) marcar(D.obra, slugs, e, true);           /* lida ou não iniciada vale para todas as partes */
+          pintarTudo();
+        });
+      } else if (cx && arv.nos[D.no]) {
+        controleEstado(cx, estadoNo(L[D.obra], arv.nos[D.no]), function (e) { marcar(D.obra, [D.no], e, true); pintarTudo(); });
+      }
     }
-    /* a parte aberta */
+    /* a parte (ou o capítulo) aberta */
     if (D.pagina === 'parte') {
       var cp = $('estado-leitura');
-      if (cp) controleEstado(cp, estadoParte(L[D.obra], D.parte), function (e) { marcar(D.obra, [D.parte], e, true); pintarTudo(); });
+      if (cp) controleEstado(cp, estadoFolha(L[D.obra], folhaDaPagina()), function (e) { marcar(D.obra, [D.parte], e, true); pintarTudo(); });
     }
     /* listas de obras e de poemas: precisam do número de partes de cada obra */
     var itens = document.querySelectorAll('li[data-obra], a[data-obra]');
@@ -341,14 +445,16 @@
       var L2 = leituras();
       Array.prototype.forEach.call(itens, function (el) {
         var k = el.getAttribute('data-obra'), o = idx[k];
-        pintar(el, o ? estadoObra(L2[k], o.p.length) : 0);
+        pintar(el, o ? estadoObra(L2[k], arvoreDe(o)) : 0);
       });
     });
   }
 
-  /* abrir a parte já é «lendo»; chegar ao fim do texto (depois de uns segundos na página) é «lida» */
+  /* abrir a parte já é «lendo»; chegar ao fim do texto (depois de uns segundos na página) é «lida»
+     (comparando com o estado que vale, que pode vir da parte inteira: o aparelho só sobe) */
   if (D.pagina === 'parte' && D.obra && D.parte) {
-    marcar(D.obra, [D.parte], 1, false, { parte: D.parte, i: parseInt(D.indice, 10), max: D.parte, maxI: parseInt(D.indice, 10),
+    var efAqui = function () { return estadoFolha(leituras()[D.obra], folhaDaPagina()); };
+    marcar(D.obra, efAqui() >= 1 ? [] : [D.parte], 1, false, { parte: D.parte, i: parseInt(D.indice, 10), max: D.parte, maxI: parseInt(D.indice, 10),
       t: Date.now(), titulo: D.tituloObra, rotulo: D.rotulo || '', url: location.pathname });
     var fim = $('fim-parte'), abertaEm = Date.now(), checar = null;
     if (fim) {
@@ -357,7 +463,7 @@
         if (fim.getBoundingClientRect().top > window.innerHeight) return;
         clearInterval(checar);
         window.removeEventListener('scroll', verFim);
-        marcar(D.obra, [D.parte], 2, false);
+        if (efAqui() < 2) marcar(D.obra, [D.parte], 2, false);
         pintarTudo();
       };
       checar = setInterval(verFim, 1500);
@@ -403,7 +509,7 @@
       var L = leituras(), lidos = D.pagina === 'lidos';
       var ks = Object.keys(L).filter(function (k) {
         var o = idx[k]; if (!o) return false;
-        return lidos ? estadoObra(L[k], o.p.length) === 2 : comecada(L[k], o.p.length);
+        return lidos ? estadoObra(L[k], arvoreDe(o)) === 2 : comecada(L[k], arvoreDe(o));
       }).sort(function (a, b) { return recencia(L[b]) - recencia(L[a]); });
       caixa.textContent = '';
       if (!ks.length) {
@@ -414,12 +520,12 @@
         return;
       }
       ks.forEach(function (k) {
-        var o = idx[k], r = L[k], n = o.p.length, inteiras = 0;
-        o.p.forEach(function (x) { if (estadoParte(r, x[0]) === 2) inteiras++; });
-        var par = r.parte && o.p.filter(function (x) { return x[0] === r.parte; })[0];
-        var onde = lidos ? '' : (par && par[1] ? 'Parou em: ' + par[1] : '');
+        var o = idx[k], r = L[k], arv = arvoreDe(o), n = arv.topo.length;
+        var inteiras = arv.topo.filter(function (x) { return estadoNo(r, x) === 2; }).length;
+        var par = r.parte && arv.nos[r.parte];
+        var onde = lidos ? '' : (par && par.rot ? 'Parou em: ' + par.rot : '');
         var conta = n > 1 ? inteiras + ' de ' + n + ' partes lidas' : '';
-        var href = lidos || !r.parte ? o.u : urlDe(k, r.parte, r.url);
+        var href = lidos || !r.parte ? o.u : r.url || (par ? par.u : o.u);
         caixa.appendChild(item(href, o.t, o.a, [onde, conta].filter(Boolean).join(' · ')));
       });
     });
@@ -508,7 +614,9 @@
         achados.slice(0, 60).forEach(function (d, n) {
           var par = docs.d[d], k = docs.o[par[0]], o = idx[k];
           if (!o) return;
+          /* o documento: [obra, parte] ou, nas partes divididas, [obra, parte, capítulo(, seção)] */
           var p = o.p[par[1]], href = p[0] === 'texto' ? o.u : o.u + p[0] + '/';
+          for (var z = 2; z < par.length && p[2]; z++) { p = p[2][par[z]]; href += p[0] + '/'; }
           var el = item(href, o.t + (p[1] ? ' — ' + p[1] : ''), o.a, '');
           saida.appendChild(el);
           if (n < 12) trecho(el, href, palavras, vez, normal(q).replace(/[^a-z0-9]+/g, ' ').trim());
@@ -521,7 +629,7 @@
       fetch(href).then(function (r) { return r.text(); }).then(function (html) {
         if (vez !== ultima) return;
         var doc = new DOMParser().parseFromString(html, 'text/html');
-        var ps = doc.querySelectorAll('.leitura .texto p, .leitura .texto .trad, .leitura .texto .orig');
+        var ps = doc.querySelectorAll('.leitura .texto p, .leitura .texto .trad, .leitura .texto .orig, .preambulo p');
         var melhor = null;
         for (var i = 0; i < ps.length; i++) {
           var t = ps[i].textContent.replace(/\s+/g, ' ').trim(), m = mapaNormal(t), achou = [], nota = 0;
@@ -691,6 +799,7 @@
         var enviados = itens.map(function (x) { return x.obra; });
         guardar(CHAVE_PEND, JSON.stringify(pendentes().filter(function (k) { return enviados.indexOf(k) < 0; })));
         adotar(resp.data, false);
+        indiceObras().then(completar);
       } catch (e) { sync.agendar(60000); }
       finally { enviando = false; }
     }
@@ -717,31 +826,34 @@
       return aviso;
     }
 
-    /* puxa as leituras da conta e completa títulos e rótulos pelo índice das obras */
+    /* completa títulos, rótulos e endereços das posições que vieram da conta, pelo índice das obras */
+    function completar(idx) {
+      var L = leituras(), mudou = false;
+      Object.keys(L).forEach(function (k) {
+        var o = idx[k], x = L[k];
+        if (!o || !x.parte) return;
+        var no = arvoreDe(o).nos[x.parte];
+        if (!x.titulo) { x.titulo = o.t; mudou = true; }
+        if (x.rotulo === null || x.rotulo === undefined) { x.rotulo = no ? no.rot : ''; mudou = true; }
+        if (!x.url && no) { x.url = no.u; mudou = true; }
+      });
+      if (mudou) guardar(CHAVE_LEIT, JSON.stringify(L));
+    }
     var q = await sb.schema('biblioteca').from('leituras')
       .select('obra, parte, indice, paragrafo, lida_em, max_parte, max_indice, concluida, partes');
     if (!q.error) {
       var aviso = adotar(q.data, true);
-      var idx = await indiceObras(), L = leituras(), mudou = false;
-      Object.keys(L).forEach(function (k) {
-        var o = idx[k], x = L[k];
-        if (!o || !x.parte) return;
-        if (!x.titulo) { x.titulo = o.t; mudou = true; }
-        if (x.rotulo === null || x.rotulo === undefined) {
-          var par = o.p.filter(function (y) { return y[0] === x.parte; })[0];
-          x.rotulo = par ? par[1] : ''; mudou = true;
-        }
-      });
-      if (mudou) guardar(CHAVE_LEIT, JSON.stringify(L));
+      var idx = await indiceObras();
+      completar(idx);
       mostrarRetomar();
       pintarTudo();
       if (aviso && $('aviso-outro')) {
-        var o = idx[aviso.obra], par = o && o.p.filter(function (y) { return y[0] === aviso.parte; })[0];
-        var rot = par && par[1] ? par[1] : 'parte ' + aviso.indice;
+        var o = idx[aviso.obra], par = o && arvoreDe(o).nos[aviso.parte];
+        var rot = par && par.rot ? par.rot : 'parte ' + aviso.indice;
         var caixa = $('aviso-outro');
         caixa.textContent = 'Em outro aparelho, você parou em: ' + rot + '. ';
         var ir = document.createElement('a');
-        ir.href = urlDe(aviso.obra, aviso.parte);
+        ir.href = urlPeloIndice(idx, aviso.obra, aviso.parte);
         ir.textContent = 'Ir para lá';
         caixa.appendChild(ir);
         caixa.hidden = false;

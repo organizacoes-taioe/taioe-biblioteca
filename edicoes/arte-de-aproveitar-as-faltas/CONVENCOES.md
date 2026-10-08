@@ -109,7 +109,7 @@ Fixados ao harmonizar as quatro partes (outubro de 2026). Prevalecem sobre o que
 ### Escritura e latim
 
 - Livros com a abreviação portuguesa, sem ponto e sem vírgula depois do livro; número do livro em algarismo arábico: Gn, Lv, Nm, Jz, 3 Rs, 2 Mc, Jó, Sl, Pr, Ct, Eclo, Is, Jr, Lm, Ez, Dn, Os, Ag, Mt, Lc, At, Rm, 1 Cor, 2 Cor, Gl, Ef, Cl, Hb, Tg, 1 Pd, 1 Jo. Capítulo em romano e versículo em arábico, como o impresso dá («Sl XC, 6»); salmos pela Vulgata; os poucos números arábicos do impresso ficam («Sl 85, 11»).
-- Latim fica em latim e em itálico, também nas notas em que o impresso o dá em redondo. Sem «[Trad.: ...]», salvo na epígrafe; onde Tissot traduz o latim, traduz-se a tradução dele.
+- Latim fica em latim e em itálico, também nas notas em que o impresso o dá em redondo. Onde Tissot traduz o latim, traduz-se a tradução dele. Nas notas em que o latim vem sem tradução do autor, acrescenta-se depois «[Trad.: ...]» curto (retoque final: 01, notas 82 e 94; 02-a, notas 2, 15, 39, 40, 49, 83 e 108; 02-b, notas 24, 42, 75, 81 e 95), além da epígrafe. No corpo, nunca; nem nas palavras latinas soltas dentro de frase portuguesa (*Felix culpa!*, *Fiat! Fiat!*).
 
 ### Referências das obras
 
@@ -169,8 +169,8 @@ Os demais títulos de obras ficam na língua do impresso, em itálico (*Esprit d
 ### Citações da Filoteia
 
 - Seguem a redação da nossa tradução da Filoteia, ajustada só onde o texto de Tissot difere do de são Francisco (palavra trocada, trecho cortado, glosa entre parênteses).
-- As passagens dos capítulos III.1–13, que ainda estavam em tradução, ficaram com a redação dos tradutores do Tissot e estão listadas em `traducao/HARMONIZACAO.md` para conferir quando a Filoteia 03-a estiver pronta.
+- As passagens dos capítulos III.1–13 (III.5, III.6, III.9 e os ecos), que ainda estavam em tradução na harmonização, foram alinhadas no retoque final com a Filoteia já harmonizada (`traducao/HARMONIZACAO.md`, § 10).
 
 ### Pronomes combinados
 
-- Evitar «lho(s)», «lha(s)», «no-la», «vo-la», como na Filoteia; «vo-lo», «no-lo», «no-los», «vo-los» ficam onde soam naturais.
+- Nenhum pronome combinado: nem «lho(s)», «lha(s)», nem «no-lo(s)», «no-la(s)», «vo-lo(s)», «vo-la(s)», como na Filoteia. Desfaz-se com o pronome só («que vos perdoou»), com o objeto explícito («eu vos direi isto») ou refazendo a frase («unânimes em afirmá-lo»).

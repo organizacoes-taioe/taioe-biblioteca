@@ -54,6 +54,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-francisco-de-sales',
+  area: 'catolicismo',
+  nome: 'São Francisco de Sales',
+  nomeCompleto: 'Francisco de Sales (François de Sales)',
+  vida: '1567–1622',
+  ordem: 'Francisco de Sales, São',
+  nota: 'Bispo de Genebra, com sede em Annecy, doutor da Igreja, fundador da Visitação com santa Joana de Chantal. Em tradução do francês, com o original ao lado.'
+});
+
+BIBLIOTECA.autor({
   id: 'g-k-chesterton',
   area: 'catolicismo',
   nome: 'G. K. Chesterton',

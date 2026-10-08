@@ -128,3 +128,60 @@ Leia antes `edicoes/CONVENCOES-TRADUCAO.md`, com as regras gerais. Este guia acr
 - Cada arquivo vai para `traducao/<mesmo nome>.txt`, com `# titulo:` traduzido («Prelúdio», «Primeira parte», «Quarta parte, capítulo único, a) a c)»...).
 - Um parágrafo traduzido para cada parágrafo do original, na mesma ordem, com `## `, `[I.1]`, `[n]`, `¤ [n]`, `¤ ` e `| ` no mesmo lugar.
 - As notas do tradutor vão em `traducao/notas-<arquivo>.md`.
+
+## 8. Termos fixados na harmonização
+
+Fixados ao harmonizar os onze arquivos (ver `traducao/HARMONIZACAO.md`). Prevalecem sobre as seções anteriores onde estas forem menos precisas.
+
+### Texto e marcação
+
+- **Epígrafe** da página de rosto, antes do `## Prelúdio`, no original e na tradução: «Jesus deve ser **a Vida** das minhas obras. Senão... (Card. Mermillod)».
+- **Negrito:** o tipo grosso do livro vai em `**…**` (o `js/app.js` o converte), também dentro de itálico (`**_Dignè_.**`) e nos títulos corridos. Os títulos `## ` não levam marca, embora estejam em negrito no livro. Conferido em todo o scan: nas partes 00 a 04-a o livro só usa negrito nos títulos; o negrito no corpo começa em IV.1 f) e é frequente na Quinta parte.
+- **Perguntas e exclamações** que o impresso fecha com ponto ficam com ponto. A inversão francesa de valor condicional («S'agit-il de…, l'amour…») vira condicional em português («Quando se trata de…, o amor…»), não pergunta.
+- **`[Trad.: …]`:** nas notas inteiramente em latim cujo sentido o autor não dá no corpo, e ainda, por decisão de quem coordena: nota 1 do Prelúdio (versos *Ex quo omnia*); começo da nota 12 da 2ª parte; as quatro saudações da prancha *Regina Apostolorum*; «Pão e Cinema» (IV.1 f)); as duas remissões trocadas (nota 28 da 3ª parte; Epílogo, «reproduzida no meio deste livro»). No latim do corpo, nada.
+- **Remissões** à paginação do livro: no formato «1ª parte, cap. 3», «3ª parte, cap. 1», «5ª parte, cap. 4, IV». Onde o autor dá o capítulo em romanos («chap. III»), fica como ele escreve.
+- **Referências bíblicas** como no impresso, com os erros dele (registrados em `ferramentas/cache/alma/revisado/emendas.txt`). Só as abreviaturas francesas viram latinas: *Jér.* → «Jer.», *Sag.* → «Sab.», *Lévit.* → «Levit.». *Actes* → «Atos» e *Jérémie* → «Jeremias» (por extenso) ficam traduzidos.
+- **Santos nas referências das notas:** por extenso e em minúscula dentro dos parênteses («(são Bernardo, …)»); com maiúscula quando abrem a nota («¤ [23] Santo Tomás…»).
+- **Ordinais:** os numeradores do autor «1°, 2°» ficam com o sinal do livro; os adjetivos ordinais vão com «º», «ª» («1º princípio», «1ª parte», «4º livro», «1ª VERDADE»).
+- **Pronomes contraídos** (*no-lo*, *vo-la*, *lho*): evitar; reescrever.
+
+### Tratamento e nomes
+
+- **Falas entre pessoas** por *vous* → **vós** em toda a obra (Leão XIII, Pio X, Timon-David ao jovem padre, o Religioso e a Superiora, o prelado e o médico, são Bernardo a Eugênio III etc.). Não se usa «o senhor».
+- **M.** diante de padre secular (Allemand, Timon-David, Olier) → «o padre»; diante de leigo → «o sr.» (o sr. Dupont, o sr. Wuescher-Becchi).
+- *Mgr* → «dom» (dom Favier, dom Dupanloup; «Dom Gay» com maiúscula só por abrir item de lista); monges → «Dom» (Dom Sébastien Wyart, Dom Festugière, Dom Guéranger, Dom Vital Lehodey, Dom Gréa).
+- Sobrenomes como o autor os escreve: **Suarez**, **Alvarez de Paz** (sem acento); «Grignion de Montfort» (o *Grignon* da pág. 282 é gralha).
+- *saint Antoine* (o eremita) → «santo Antão»; *Notre-Dame* (a catedral de Paris) fica em francês.
+- *la Sainte Vierge* → «a Santa Virgem»; *la Très Sainte Vierge* → «a Santíssima Virgem».
+
+### Vocabulário
+
+| francês | português | observação |
+|---|---|---|
+| *suffisance* | suficiência / presunção | «suficiência» quando vem junto de *présomption* (I.2, «tola suficiência» × «louca presunção»; V.3 IV b)) e em *airs de suffisance* («ares de suficiência»); sozinha, «presunção» |
+| *présomption*; *présomptueux* | presunção; presunçoso | |
+| *entretien* (com Deus, na oração) | colóquio | também *Entretien cordial/simple/pratique* (V.2); *s'entretenir avec Dieu* → «conversar com Deus»; *entretien* entre pessoas → «conversa» |
+| *tête-à-tête avec Jésus* | colóquio a sós com Jesus | |
+| *oraison*; *prière* | oração; oração | *prière* → «prece» onde o autor junta ou opõe as duas palavras (IV.1 a)) e nas resoluções de V.2 (a prece de súplica) |
+| *Interlocuteur*; *Bouquet spirituel* | Interlocutor; Ramalhete espiritual | |
+| *fins dernières*; *Saint Sacrement* | novíssimos; Santíssimo Sacramento | |
+| *« Pieuseté »* | «Beatice» / «beatice» | maiúscula onde o autor a põe |
+| *au muguet* (um Cristo) | «açucarado» | |
+| *Galette et Cinéma* | «Pão e Cinema» | com `[Trad.]` que explica a gíria (*galette* = dinheiro) |
+| *porte-Christ*; *porte-grâce*; *porte-Dieu* | portador de Cristo; portadora da graça; portador de Deus | concorda com o substantivo a que se refere |
+| *porte-Verbe*, *porte-voix* | a porta-Verbo, a porta-voz | Epílogo |
+| *Monseigneur* (vocativo) | Senhor Bispo | |
+| *rayonner de* | irradiar + objeto direto | «ELE IRRADIA FÉ» |
+| *débordement*; *trop-plein*, *surplus*, *excédent* | transbordamento; excedente | |
+| *s'appeler mutuellement* | reclamar-se mutuamente | |
+| *dévouement*; *guérisseur*; *folle du logis* | dedicação; sanador; louca da casa | |
+| *Esprit de Force*; *spirituelle* (de pessoa) | Espírito de Fortaleza; espirituosa | |
+| *Apprentissage de la Garde du cœur* | Aprendizado da Guarda do coração | título de V.4, IV, e nota 28 da 3ª parte |
+| *honoraires*; *sans-gêne*; *crainte révérentielle* | espórtulas; sem-cerimônia; temor reverencial | |
+| *Église militante, souffrante et triomphante* | Igreja militante, padecente e triunfante | |
+| *Prêtre* (Cristo; o padre unido a ele) | Sacerdote | *prêtre* (o clero) → padre |
+| *sujet(s)* | elemento(s), membro(s) | conforme o contexto |
+| *Fête-Dieu* | Corpus Christi | |
+| *Exercices spirituels* (santo Inácio) | _Exercices spirituels_ | títulos na língua da obra; exceções, os clássicos que o autor cita em francês no corpo: _Introdução à vida devota_, _Imitação de Jesus Cristo_ / _Imitação_ |
+
+**As nove classes de almas** (IV.1 f)): 1. ENDURECIMENTO; 2. VERNIZ CRISTÃO; 3. PIEDADE MEDÍOCRE; 4. PIEDADE INTERMITENTE; 5. PIEDADE CONSTANTE (*soutenue*); 6. FERVOR; 7. PERFEIÇÃO RELATIVA; 8. HEROICIDADE; 9. SANTIDADE CONSUMADA. Os quatro pontos da direção: **Paz.**, **Ideal.**, **Oração.**, **Renúncia.**

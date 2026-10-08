@@ -1292,6 +1292,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('gregorio-de-matos/soneto-triste-bahia-oh-quao-dessemelhante', 'Triste Bahia! Oh quão dessemelhante'),
   ('gregorio-de-matos/soneto-um-soneto-comeco-em-vosso-gabo', 'Um soneto começo em vosso gabo'),
   ('igreja-catolica/catecismo-da-igreja-catolica', 'Catecismo da Igreja Católica'),
+  ('joseph-tissot/arte-de-aproveitar-as-faltas', 'A arte de aproveitar as próprias faltas'),
   ('junqueira-freire/inspiracoes-do-claustro-louco', 'Louco (Hora de Delírio)'),
   ('junqueira-freire/inspiracoes-do-claustro-martirio', 'Martírio'),
   ('junqueira-freire/inspiracoes-do-claustro-meu-filho-no-claustro', 'Meu filho no claustro'),

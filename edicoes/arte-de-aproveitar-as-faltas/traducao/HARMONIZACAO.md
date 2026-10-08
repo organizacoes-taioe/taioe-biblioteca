@@ -77,6 +77,8 @@ Base: a tradução atual da Filoteia (`edicoes/introducao-a-vida-devota/traducao
 
 ## 4. Citações de capítulos da Filoteia ainda não traduzidos (III.1–13): conferir depois
 
+_Feito no retoque final (seção 10)._
+
 A Filoteia 03-a (III.1–13) ainda está em tradução. Estas passagens ficaram com a redação dos tradutores do Tissot e devem ser alinhadas quando ela estiver pronta:
 
 | Tissot | arquivo | Filoteia | começo da citação |
@@ -152,3 +154,55 @@ Script: `C:\Users\geren\AppData\Local\Temp\claude\arte-de-aproveitar-as-faltas-h
 3. **Nota 55 de 02-a**, «_Introd. à vida devota_, 1.ª parte, cap. II»: a passagem é de I.11. Ficou como o impresso (talvez «II» por «11»). Pode virar «cap. 11» na tradução, com registro.
 4. **Latim sem tradução nas notas** (01, notas 82 e 94; 02-a, notas 2, 15, 39, 40, 83; 02-b, notas 24, 42, 75, 81, 95, entre outras, e as frases latinas do texto). O guia da obra não pede «[Trad.: ...]», e só a epígrafe o recebeu. O Chautard usa [Trad.] nas notas inteiramente em latim; se for para igualar, são esses lugares.
 5. **«vo-lo», «no-lo», «no-los», «vo-los»** (7 lugares) ficaram; só «lhos» e «no-la» saíram. Se a regra da Filoteia for para valer por inteiro, trocam-se também.
+
+## 10. Retoque final
+
+Outubro de 2026, depois da harmonização da Filoteia (`edicoes/introducao-a-vida-devota/traducao/HARMONIZACAO.md`). Resolve os itens 1, 4 e 5 da seção 9.
+
+### 10.1 Citações de III.1–13 alinhadas (seção 4)
+
+Base: a Filoteia definitiva (`03-terceira-parte-a.txt`). Cada passagem foi comparada palavra a palavra, em francês (Tissot × Filoteia) e em português (Tissot × Filoteia). Ficou a redação da Filoteia; os ajustes são só onde Tissot muda o texto.
+
+| Tissot | Filoteia | ajuste ao texto de Tissot |
+|---|---|---|
+| I.1, n.º 6, nota 29 | III.9 | nenhum («da vossa queda», «a miséria mesquinha», «com uma grande coragem e confiança na sua misericórdia», da Filoteia) |
+| I.2, n.º 2, nota 41 (eco, _Tratado_ IX, 7) | III.9 | «assentado» → «sereno», como *rassis* na Filoteia |
+| I.2, n.º 4, nota 57 (dois parágrafos) | III.9 | Tissot divide o parágrafo em dois, começa frase nova em *Outre* («Além de que») e tem *d'autre origine* («não têm outra origem senão o amor-próprio») |
+| I.2, n.º 5, nota 66 (três parágrafos) | III.9 | Tissot corta em *inclinations...*, antes do exemplo da castidade: o «cometida contra a castidade» da Filoteia emendada não entra. Tem *tout ainsi qu'un* («assim como um»), *dorénavant* e *désormais* («doravante», «agora»), *la censure et une répréhension* («a censura e uma repreensão»), as falas do coração sem aspas e com exclamações, *Directeur* («diretor») |
+| II.1, n.º 3, nota 14 | III.6 | nenhum («o verdadeiro conhecimento e o voluntário reconhecimento») |
+| II.1, n.º 7, nota 53 | III.5 | Tissot corta a frase final (a Virgem) e tem *Prince* com maiúscula («Príncipe»). Da Filoteia: «miudamente», «nos inche», «não vem de nós», «nos viesse fazer cócegas», «obra nossa nem fruto do nosso chão»; «o conhecimento gera o reconhecimento» mantido |
+| II.2, n.º 1, nota 60, e o eco «esse ponto alto» | III.6 | nenhum («O ponto alto da humildade... consiste não somente...») |
+| II.2, n.º 5, nota 74 | III.6 | Tissot tem *inconvenantes* («inconvenientes»), *sont offensés* e *m'efforcerai* («me esforçarei por»), onde a Filoteia tem *indécentes*, *est offensé*, *m'essaierai* |
+| II.2, n.º 5, nota 75 (eco, carta a santa Chantal) | III.6 | as frases comuns pela Filoteia: «nem por isso se deve deixar de remediar o mal», «se um se pudesse separar do outro» |
+| II.2, n.º 5, nota 76 | III.6 | nenhum («escondê-la dentro do nosso coração») |
+
+**As onze da seção 3, reconferidas** contra a Filoteia harmonizada, do mesmo modo: as diferenças são só os ajustes já listados lá. Os termos que a harmonização da Filoteia mudou (*conducteur* → guia, *débonnaireté* → mansidão, *empressement* → afã, *avancement* → progresso, *affection* → afeição/afeto, «cara Filoteia», *dîner* → almoço) não caem dentro de nenhuma passagem citada; «a galope», «crias» e «fedor» continuam na Filoteia. Uma busca de sequências de 5 palavras iguais entre os dois originais franceses, com qualquer número de coincidências, não achou outra citação da Filoteia no Tissot. Fora das citações, «pressa» por *empressement* fica (nota 37 de 01, que é de uma carta).
+
+### 10.2 Latim das notas: «[Trad.: ...]» (item 4 da seção 9)
+
+Acrescentado, curto, depois do latim que vem sem tradução do autor: 01, notas 82 (Crisóstomo) e 94 (Eclo XI, 22-23); 02-a, notas 2 (hino *Pange lingua*, em prosa, como o [Trad.] dos versos *Ex quo omnia* no Chautard), 15 (Nm XXIV, 4), 39, 40, 49 (são Jerônimo, *Drachma periit*), 83 (Jó XI, 17) e 108 (ladainha e *Confiteor*); 02-b, notas 24 (Eclo IV, 24-25), 42 (Is XXXI, 6), 75, 81 e 95 (prosa antiga, três versos separados por « / »). Ficaram sem [Trad.]: a nota 26 de 02-a (Tissot traduz), as palavras latinas soltas dentro de frase portuguesa (*Felix culpa!*, nota 34 de 02-b; *Fiat! Fiat!*, nota 8 de 02-b), os títulos de obras e as referências. No corpo, nada. Regra fixada no CONVENCOES, § 8.
+
+### 10.3 Pronomes combinados (item 5 da seção 9)
+
+Os sete que restavam saíram:
+
+| arquivo | antes | agora |
+|---|---|---|
+| 01, I.3 (Crisóstomo) | «eu vo-lo direi em todos os meus discursos» | «eu vos direi isto em todos os meus discursos» |
+| 01, I.3 | «eu vo-lo ordeno por todo o poder» | «eu vos ordeno isto por todo o poder» |
+| 02-a, II.1 | «tais como no-los revela a Igreja» | «tais como a Igreja nos revela» |
+| 02-a, II.4 | «os seus confidentes no-lo dizem bastante» | «os seus confidentes nos dizem isso bastante» |
+| 02-b, II.7 | «a sua misericórdia, que vo-los perdoou» | «que vos perdoou» |
+| 02-b, II.7 | «como já no-lo insinuou o nosso Bem-aventurado Doutor» | «como já nos insinuou» |
+| 02-b, II.8 | «são unânimes em no-lo afirmar» | «são unânimes em afirmá-lo» |
+
+Varredura (*lho*, *lhos*, *lha*, *lhas*, *no-lo(s)*, *no-la(s)*, *vo-lo(s)*, *vo-la(s)*): nada nos quatro arquivos traduzidos.
+
+### 10.4 `obra.py` e CONVENCOES
+
+- «Sobre esta tradução»: a frase das citações da _Filoteia_ («seguem a nossa tradução») passa a valer para todas; acrescentado que o latim das notas sem tradução do autor vem com «[Trad.: ...]».
+- CONVENCOES, § 8: a regra do latim, a das citações de III.1–13 e a dos pronomes combinados, atualizadas.
+
+### 10.5 Conferências
+
+O script da seção 8, de novo, contra o original: 00, 13 blocos; 01, 212; 02-a, 264; 02-b, 244. Mesma sequência de tipos de bloco, marcas `[I.1]`–`[II.8]`, chamadas `[n]` nos mesmos blocos (99, 119, 104), notas `¤ [n]` iguais, números do autor iguais, cabeçalhos iguais; 0 erros. O saldo de «» só difere no bloco do Pai-nosso (01), como antes. Os blocos mais longos que o dobro do original são as notas que receberam [Trad.]. **Mesóclise:** o `grep` do CONVENCOES e a regex em Python com `(?![A-Za-zÀ-ÿ])` não acham nada nas quatro traduções, no CONVENCOES, no `obra.py`, no LEIAME, nas notas e neste arquivo.

@@ -160,7 +160,7 @@ Earnanæs; Hrefnesholt, Hrefnawudu; Hreosnabeorh; Hronesnæs; _Swīo-rīce_ → 
 # canto: I
 # titulo: A partida de Scyld
 
-Escutai! Dos dinamarqueses da lança,	nos dias de outrora,
+Escutai! Nos dias de outrora,	dos dinamarqueses da lança,
 ...
 ```
 

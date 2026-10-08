@@ -355,3 +355,12 @@ BIBLIOTECA.autor({
   ordem: 'Verlaine, Paul',
   nota: 'Poeta simbolista francês. Em tradução, com o original ao lado.'
 });
+
+BIBLIOTECA.autor({
+  id: 'anonimo-anglo-saxao',
+  nome: 'Anônimo anglo-saxão',
+  nomeCompleto: 'Poeta anônimo da Inglaterra anglo-saxã',
+  vida: 'séc. VIII–XI',
+  ordem: 'Anônimo anglo-saxão',
+  nota: 'O poeta desconhecido do _Beowulf_, o maior poema do inglês antigo. Em tradução, com o original ao lado.'
+});

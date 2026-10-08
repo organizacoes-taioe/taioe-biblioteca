@@ -107,9 +107,11 @@ export function paginasCatecismo(a, o, h) {
     ? '<a class="passo ' + cls + '" href="' + alvo.url + '" rel="' + rel + '"><span class="dir">' + dir + '</span><span class="alvo">' + esc(alvo.txt) + '</span></a>'
     : '<span class="passo vazio"></span>');
   const indice = () => '<a class="passo seg" href="' + raiz + '"><span class="dir">Índice</span><span class="alvo">' + esc(o.tituloCurto) + '</span></a>';
+  // o campo é de texto com teclado numérico: sem as setinhas de subir e descer do type="number"
   const irAoPonto = (sufixo) => '<form class="ir-ponto" id="ir-ponto" data-url="' + raiz + '" data-min="' + min + '" data-max="' + max + '"' +
-    (sufixo === 'obra' ? ' data-aberturas="' + Object.keys(ab).join(' ') + '"' : '') + ' hidden>' +
-    '<label for="ir-ponto-n">Ir ao ponto</label><input id="ir-ponto-n" type="number" inputmode="numeric" min="1" max="' + TOTAL + '" placeholder="' + min + '">' +
+    ' data-total="' + TOTAL + '"' + (sufixo === 'obra' ? ' data-aberturas="' + Object.keys(ab).join(' ') + '"' : '') + ' novalidate hidden>' +
+    '<label for="ir-ponto-n">Ir ao ponto</label><input id="ir-ponto-n" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="4"' +
+    ' autocomplete="off" placeholder="' + min + '">' +
     '<button type="submit">Ir</button><span class="ir-aviso" id="ir-aviso" role="status"></span></form>';
   // a sequência do leitor: o que vem antes e depois de cada ponto e de cada abertura
   const pontoOuAbertura = (n) => (temAb(n) ? { url: A(n), txt: tituloAb(n) } : { url: P(n), txt: 'Ponto ' + n });

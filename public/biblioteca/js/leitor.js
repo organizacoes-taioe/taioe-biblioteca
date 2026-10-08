@@ -124,9 +124,10 @@
     irPonto.hidden = false;
     irPonto.addEventListener('submit', function (ev) {
       ev.preventDefault();
-      var n = parseInt($('ir-ponto-n').value, 10);
+      var v = $('ir-ponto-n').value.trim(), n = /^\d+$/.test(v) ? parseInt(v, 10) : NaN, total = +dp.total || pMax;
       if (n >= pMin && n <= pMax) { location.href = dp.url + n + '/'; return; }
-      $('ir-aviso').textContent = isNaN(n) ? '' : 'Por enquanto estão publicados os pontos ' + pMin + ' a ' + pMax + '.';
+      $('ir-aviso').textContent = v === '' ? '' : isNaN(n) || n < 1 || n > total ? 'Digite um número de 1 a ' + total + '.'
+        : 'Por enquanto estão publicados os pontos ' + pMin + ' a ' + pMax + '.';
     });
     var velho = /^#(a?)(\d+)$/i.exec(location.hash);
     if (D.pagina === 'obra' && velho) {

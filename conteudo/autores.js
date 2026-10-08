@@ -83,6 +83,15 @@ BIBLIOTECA.autor({
   nota: 'Escritor e jornalista inglês, convertido ao catolicismo em 1922. Em tradução do inglês.'
 });
 
+BIBLIOTECA.autor({
+  id: 'igreja-catolica',
+  area: 'catolicismo',
+  nome: 'Igreja Católica',
+  organizacao: true,                 // nos dados estruturados, Organization em vez de Person
+  ordem: 'Igreja Católica',
+  nota: 'Documentos do magistério da Igreja.'
+});
+
 /* Poetas (poemas publicados a partir do Versificador; ver ferramentas/poesia.py) */
 
 BIBLIOTECA.autor({

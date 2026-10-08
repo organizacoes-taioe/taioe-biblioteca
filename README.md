@@ -232,3 +232,26 @@ node ferramentas/site/conferir.mjs   # links internos, títulos, CSP (nada inlin
   só no navegador para quem não entrou; na conta, em qualquer aparelho, para quem entrou.
 - `ferramentas/site/comum/`: cópias do supabase-js e do módulo de sessão do `taioe-hub`
   (o workflow *Cópias* confere o sha256).
+
+### O _Catecismo da Igreja Católica_
+
+Vem do site próprio do Catecismo (pasta `catecismo`, vizinha de `taioe`), onde o texto é
+preparado. `edicoes/catecismo/dados/` é cópia fiel da pasta `dados/` de lá; o gerador lê essa
+cópia (`ferramentas/site/catecismo.mjs`). Quando entrarem pontos novos no Catecismo:
+
+```bash
+python estrutura.py                            # na pasta do Catecismo: aberturas e subtítulos
+python edicoes/catecismo/sincronizar.py        # aqui: confere e copia (aceita a pasta como argumento)
+node ferramentas/site/gerar.mjs && node ferramentas/site/conferir.mjs
+```
+
+Endereços: `/biblioteca/igreja-catolica/catecismo-da-igreja-catolica/` (índice e «Ir ao ponto»),
+`.../27/` (o ponto 27), `.../a27/` (a abertura do tópico que começa no 27) e `.../sobre/`. A
+navegação passa pelas aberturas (… 26 → a27 → 27 …). O número da nota no corpo abre um popup
+(o mesmo funcionamento dos popups da Bíblia); sem JavaScript, é um link para a nota embaixo.
+O texto não está em domínio público: nessas páginas o rodapé diz «© Libreria Editrice Vaticana».
+
+Cada ponto traz também «Ler este ponto no site do Vaticano», que vai à página do vatican.va com
+um fragmento de texto (`#:~:text=`) apontando para o começo do ponto. Os endereços dos 2865
+pontos ficam em `edicoes/catecismo/vaticano.json`, gravado uma vez por
+`python edicoes/catecismo/vaticano.py` (o gerador não acessa o Vaticano).

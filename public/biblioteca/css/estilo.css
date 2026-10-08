@@ -481,3 +481,186 @@ main { padding: 0 1rem 5rem; }
 .busca-resultados mark { background: color-mix(in srgb, var(--lendo) 30%, transparent); color: inherit; border-radius: 2px; padding: 0 .1em; }
 .lista-leitor .explica, .busca-resultados .explica { color: var(--tinta-suave); }
 #fim-parte { height: 1px; }
+
+/* ---------------- Catecismo da Igreja Católica ---------------- */
+/* O leitor do site antigo do Catecismo (trilha, numeral, subtítulo marginal, corpo, referências,
+   abertura no alto do primeiro ponto de cada tópico) nas cores e letras da Biblioteca. */
+
+.cabeca-ponto { padding: clamp(1.6rem, 5vh, 2.6rem) 0 0; }
+.trilha-ponto { margin: 0; }
+.trilha-ponto span {
+  display: block; font-family: var(--sans); font-size: .68rem; line-height: 1.55;
+  letter-spacing: .15em; text-transform: uppercase; color: var(--tinta-tenue);
+}
+.trilha-ponto span.aqui { color: var(--realce); letter-spacing: .13em; }
+.numeral {
+  font-weight: 300; font-size: 5.2rem; line-height: .9; color: var(--realce);
+  margin: .7rem 0 0; letter-spacing: -.02em; font-variant-numeric: lining-nums;
+}
+.regua { height: 1px; background: linear-gradient(90deg, var(--realce), var(--linha) 60%, transparent); margin: 1.1rem 0 1.9rem; }
+.subtitulo-ponto { font-weight: 400; font-size: 1.5rem; line-height: 1.28; color: var(--realce); margin: 0 0 1.3rem; }
+
+/* sem recuo e sem justificar, como no leitor antigo: os pontos têm parágrafos curtos e citações em bloco */
+.leitura .texto.corpo-ponto p, .leitura .texto.corpo-ponto p:first-child { text-indent: 0; text-align: left; margin: 0 0 1.15em; }
+.texto.corpo-ponto p:last-child { margin-bottom: 0; }
+.texto.corpo-ponto p.quote {
+  margin: 1.5em 0; padding-left: 1.05rem; border-left: 1px solid var(--linha);
+  color: var(--tinta-suave); font-size: .96em; line-height: 1.7;
+}
+.texto.corpo-ponto p.sum { font-style: italic; }
+
+/* a chamada de nota no corpo: sem JavaScript, leva à nota embaixo; com ele, abre o popup */
+.corpo-ponto a.ref {
+  font-family: var(--sans); font-size: .62em; vertical-align: .42em; line-height: 1;
+  color: var(--realce); text-decoration: none; padding: 0 .06em; font-weight: 600; cursor: pointer;
+}
+.corpo-ponto a.ref:hover, .corpo-ponto a.ref:focus-visible { color: var(--realce-claro); text-decoration: underline; }
+/* a chamada ativa, como na Bíblia: o quadrado é desenhado com box-shadow e não move o texto */
+.corpo-ponto a.ref.ativa, .corpo-ponto a.ref.ativa:hover {
+  background: var(--realce); color: var(--papel); border-radius: 2px;
+  box-shadow: 0 0 0 3px var(--realce); text-decoration: none;
+}
+
+.notas-ponto { margin-top: 3.4rem; border-top: 1px solid var(--linha); padding-top: 1.5rem; }
+.notas-ponto h2 {
+  font-family: var(--sans); font-size: .68rem; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--tinta-tenue); font-weight: 600; margin: 0 0 1.4rem;
+}
+.nota-ponto { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: .55rem; margin-bottom: 1.75rem; scroll-margin-top: 5rem; }
+.nota-ponto .n { font-size: 1.05rem; color: var(--realce); line-height: 1.5; }
+.nota-ponto:target .src { color: var(--realce); }
+.notas-ponto .src, #popup-nota .src { font-size: .9rem; line-height: 1.6; color: var(--tinta-suave); margin: 0; }
+.quoted { margin: .7rem 0 0; padding: .85rem 0 .1rem 1rem; border-left: 1px solid var(--realce); font-size: .92rem; line-height: 1.68; }
+.quoted p { margin: 0 0 .8rem; }
+.quoted p:last-child { margin-bottom: 0; }
+.quoted .lat { font-style: italic; color: var(--tinta-suave); }
+.quoted h4 {
+  font-family: var(--sans); font-size: .62rem; letter-spacing: .15em; text-transform: uppercase;
+  color: var(--tinta-tenue); font-weight: 600; margin: 1.1rem 0 .5rem;
+}
+.quoted h4:first-child { margin-top: 0; }
+/* o mesmo ponto no vatican.va (fragmento de texto: o navegador vai direto ao começo do ponto) */
+.no-vaticano { margin: 2rem 0 0; font-family: var(--sans); font-size: .78rem; color: var(--tinta-tenue); }
+.no-vaticano a { color: var(--tinta-tenue); }
+.no-vaticano a:hover { color: var(--realce); }
+.etiqueta {
+  display: inline-block; margin-top: .55rem; font-family: var(--sans); font-size: .6rem;
+  letter-spacing: .13em; text-transform: uppercase; color: var(--tinta-tenue);
+  border: 1px solid var(--linha); border-radius: 2px; padding: .14rem .42rem;
+}
+
+/* o popup das notas: o mesmo da Bíblia (posição, largura, rótulo e dica), com as cores da
+   Biblioteca; a altura tem limite porque há notas longas (a 3 do ponto 29 tem 7 mil letras) */
+#popup-nota {
+  position: fixed; z-index: 100; display: none; max-width: min(420px, calc(100vw - 24px));
+  max-height: min(70vh, 36rem); overflow-y: auto; overscroll-behavior: contain;
+  background: var(--papel); color: var(--tinta); border: 1px solid var(--tinta); border-radius: 2px;
+  box-shadow: 5px 5px 0 color-mix(in srgb, var(--tinta) 12%, transparent);
+  padding: 14px 16px; font-size: .86rem; line-height: 1.55; cursor: pointer;
+}
+#popup-nota.show { display: block; }
+#popup-nota .ref-nota {
+  font-family: var(--sans); font-size: .6rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--realce); margin-bottom: 7px;
+}
+#popup-nota .hint {
+  margin-top: 10px; font-family: var(--sans); font-size: .56rem; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--tinta-tenue); text-align: right;
+}
+#popup-nota .src { font-size: inherit; color: var(--tinta); }
+#popup-nota .quoted { font-size: inherit; margin-top: .55rem; padding: .2rem 0 .1rem .8rem; }
+
+/* «Ir ao ponto» */
+.ir-ponto {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .45rem;
+  margin: 1.2rem 0 0; font-family: var(--sans); font-size: .8rem; color: var(--tinta-tenue);
+}
+.ir-ponto input {
+  width: 5rem; font: inherit; font-size: .9rem; text-align: center; padding: .3rem .4rem; color: var(--tinta);
+  background: var(--papel-2); border: 1px solid var(--linha); border-radius: 999px;
+}
+.ir-ponto input:focus { outline: 2px solid var(--realce); outline-offset: 1px; }
+.ir-ponto button {
+  font: inherit; background: transparent; color: var(--realce); cursor: pointer;
+  border: 1px solid var(--linha); border-radius: 999px; padding: .3rem .8rem;
+}
+.ir-ponto button:hover { border-color: var(--realce); }
+.ir-ponto .ir-aviso { flex-basis: 100%; text-align: center; }
+.ir-ponto .ir-aviso:empty { display: none; }
+
+/* índices por níveis: o rosto lista as partes, a parte as seções, a seção os capítulos; no
+   capítulo, a lista aberta do que se lê (artigos, parágrafos, tópicos), indentada por nível */
+.indice-cat ol { list-style: none; margin: 0; padding: 0; }
+.indice-cat ol ol { padding-left: 1.1rem; }
+.indice-cat li > a, .indice-cat li > .item {
+  display: flex; flex-wrap: wrap; column-gap: .8rem; align-items: baseline;
+  text-decoration: none; color: var(--tinta); line-height: 1.4;
+  padding: .4rem .25rem; border-bottom: 1px solid var(--linha);
+}
+.indice-cat li > a:hover { color: var(--realce); }
+.indice-cat .rot {
+  flex-basis: 100%; font-family: var(--sans); font-size: .68rem; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--tinta-tenue);
+}
+.indice-cat .tit { flex: 1; min-width: 0; }
+.indice-cat .pontos { flex: none; font-family: var(--sans); font-size: .74rem; color: var(--tinta-tenue); white-space: nowrap; }
+.indice-cat .nivel-topico > a { font-size: .95rem; }
+.indice-cat .nivel-inicio .tit { font-style: italic; color: var(--tinta-suave); }
+/* parte, seção e capítulo levam à página deles: linha maior, com a seta */
+.indice-cat li.passa > a { padding: .75rem 1.6rem .75rem .25rem; font-size: 1.2rem; position: relative; }
+.indice-cat li.passa > a::after {
+  content: "\203A"; position: absolute; right: .35rem; top: 50%; transform: translateY(-50%);
+  font-size: 1.3rem; color: var(--tinta-tenue);
+}
+.indice-cat li.passa > a:hover::after { color: var(--realce); }
+.indice-cat li.inedita > .item { padding: .75rem .25rem; font-size: 1.2rem; color: var(--tinta-tenue); }
+/* na página do capítulo, artigos e parágrafos um pouco maiores que os tópicos dentro deles */
+.leitura-cat .nivel-artigo > a, .leitura-cat .nivel-paragrafo > a { font-size: 1.08rem; }
+.indice-cat li:target > a { color: var(--realce); }
+.nivel-cat .cabeca .rotulo-nivel {
+  font-family: var(--sans); font-size: .72rem; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--tinta-tenue); margin: 0 0 .5rem;
+}
+.nivel-cat .cabeca h1 { color: var(--realce); }
+.nivel-cat .indice-cat { margin-top: 1.4rem; }
+.nivel-cat .passos { margin-top: 2.2rem; }
+/* a linha de contexto dos pontos e da abertura: cada nível leva à sua página (ou ao primeiro ponto) */
+.trilha-ponto a, .abertura-ponto .contexto a { color: inherit; text-decoration: none; }
+.trilha-ponto a:hover, .abertura-ponto .contexto a:hover { color: var(--realce); text-decoration: underline; text-underline-offset: .2em; }
+
+/* a abertura de tópico, no alto do primeiro ponto dele: o contexto e, grandes, os níveis que começam ali */
+.cabeca-ponto.com-abertura { padding-top: clamp(2rem, 7vh, 3.6rem); }
+.abertura-ponto { margin-bottom: 2.6rem; }
+.abertura-ponto .contexto { margin-bottom: 1.7rem; }
+.abertura-ponto .contexto span {
+  display: block; font-family: var(--sans); font-size: .64rem; line-height: 1.75;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--tinta-tenue);
+}
+.abertura-ponto .ornato { height: 1px; margin-bottom: 2rem; background: linear-gradient(90deg, var(--realce), var(--linha) 34%, transparent); }
+.abertura-ponto .rotulo {
+  font-family: var(--sans); font-size: .66rem; letter-spacing: .22em; text-transform: uppercase;
+  color: var(--realce); margin: 0 0 .7rem;
+}
+.abertura-ponto .titulo { font-weight: 400; line-height: 1.14; letter-spacing: -.01em; color: var(--tinta); margin: 0; }
+.abertura-ponto .parte .titulo { font-size: 2.6rem; color: var(--realce); }
+.abertura-ponto .secao .titulo, .abertura-ponto .capitulo .titulo { font-size: 2.15rem; }
+.abertura-ponto .artigo .titulo { font-size: 1.9rem; }
+.abertura-ponto .paragrafo .titulo { font-size: 1.75rem; }
+.abertura-ponto .topico .titulo { font-size: 1.55rem; }
+.abertura-ponto .elo { width: 2.1rem; height: 1px; background: var(--linha); margin: 1.4rem 0; }
+
+@media (min-width: 640px) {
+  .numeral { font-size: 6.4rem; }
+  .abertura-ponto .parte .titulo { font-size: 3rem; }
+  .abertura-ponto .secao .titulo, .abertura-ponto .capitulo .titulo { font-size: 2.4rem; }
+  .abertura-ponto .artigo .titulo { font-size: 2.1rem; }
+  .abertura-ponto .paragrafo .titulo { font-size: 1.95rem; }
+  .abertura-ponto .topico .titulo { font-size: 1.75rem; }
+}
+@media (max-width: 520px) {
+  .abertura-ponto .parte .titulo { font-size: 2.2rem; }
+  .abertura-ponto .secao .titulo, .abertura-ponto .capitulo .titulo { font-size: 1.9rem; }
+  .abertura-ponto .artigo .titulo, .abertura-ponto .paragrafo .titulo { font-size: 1.7rem; }
+  .abertura-ponto .topico .titulo { font-size: 1.5rem; }
+}
+@media print { #popup-nota, .ir-ponto { display: none !important; } }

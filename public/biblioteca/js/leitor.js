@@ -63,6 +63,79 @@
     if (link) { ev.preventDefault(); location.href = link.getAttribute('href'); }
   });
 
+  /* ---------------------------------------------------------------- Catecismo */
+  /* Notas em popup, com o mesmo funcionamento dos popups de nota da Bíblia: junto ao número
+     (abaixo ou acima, conforme o espaço, sempre dentro da tela), segundo toque no mesmo número
+     fecha, toque no popup ou fora dele fecha, Esc fecha, acompanha a rolagem e o redimensionamento.
+     O conteúdo é o da nota embaixo do ponto (fonte e, se houver, o texto). Sem JavaScript, o
+     número é só um link para a nota (#nota-N). */
+  var corpoPonto = document.querySelector('.corpo-ponto');
+  if (corpoPonto && corpoPonto.querySelector('a.ref')) {
+    var popupNota = document.createElement('div'), pnRef = document.createElement('div'), pnCorpo = document.createElement('div'), pnDica = document.createElement('div');
+    popupNota.id = 'popup-nota'; popupNota.setAttribute('aria-live', 'polite');
+    pnRef.className = 'ref-nota'; pnDica.className = 'hint'; pnDica.textContent = 'toque para fechar';
+    popupNota.appendChild(pnRef); popupNota.appendChild(pnCorpo); popupNota.appendChild(pnDica);
+    document.body.appendChild(popupNota);
+    var notaAtiva = null;
+    var posicionarPopup = function (el) {
+      popupNota.style.visibility = 'hidden'; popupNota.classList.add('show');
+      var r = el.getBoundingClientRect(), pw = popupNota.offsetWidth, ph = popupNota.offsetHeight, m = 10;
+      var left = r.left + r.width / 2 - pw / 2; left = Math.max(m, Math.min(left, window.innerWidth - pw - m));
+      var top = r.bottom + 8;
+      if (top + ph > window.innerHeight - m) { top = r.top - ph - 8; if (top < m) top = Math.max(m, (window.innerHeight - ph) / 2); }
+      popupNota.style.left = left + 'px'; popupNota.style.top = top + 'px'; popupNota.style.visibility = 'visible';
+    };
+    var fecharNota = function () {
+      popupNota.classList.remove('show');
+      if (notaAtiva) { notaAtiva.classList.remove('ativa'); notaAtiva = null; }
+    };
+    var abrirNota = function (el) {
+      if (notaAtiva === el) { fecharNota(); return; }          /* segundo toque no mesmo número fecha */
+      if (notaAtiva) notaAtiva.classList.remove('ativa');
+      notaAtiva = el; el.classList.add('ativa');
+      pnRef.textContent = 'Ponto ' + D.ponto + ' · nota ' + el.getAttribute('data-n');
+      pnCorpo.textContent = '';
+      var nota = $('nota-' + el.getAttribute('data-n'));
+      if (nota) Array.prototype.forEach.call(nota.querySelectorAll('.src, .quoted'), function (x) { pnCorpo.appendChild(x.cloneNode(true)); });
+      popupNota.scrollTop = 0;
+      posicionarPopup(el);
+    };
+    $('app').addEventListener('click', function (e) {
+      var n = e.target.closest('.corpo-ponto a.ref');
+      if (n) { e.preventDefault(); e.stopPropagation(); abrirNota(n); return; }
+      if (popupNota.classList.contains('show')) fecharNota();
+    });
+    popupNota.addEventListener('click', function (e) { e.stopPropagation(); fecharNota(); });
+    document.addEventListener('click', function (e) {
+      if (!popupNota.classList.contains('show')) return;
+      if (e.target.closest('.corpo-ponto a.ref') || e.target.closest('#popup-nota')) return;
+      fecharNota();
+    });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fecharNota(); });
+    window.addEventListener('scroll', function () { if (notaAtiva) posicionarPopup(notaAtiva); }, { passive: true });
+    window.addEventListener('resize', function () { if (notaAtiva) posicionarPopup(notaAtiva); });
+  }
+
+  /* «Ir ao ponto»; e, na página da obra, os endereços do site antigo (#27, #a27: os dois vão ao ponto) */
+  var irPonto = $('ir-ponto');
+  if (irPonto) {
+    var dp = irPonto.dataset, pMin = +dp.min, pMax = +dp.max;
+    irPonto.hidden = false;
+    irPonto.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var v = $('ir-ponto-n').value.trim(), n = /^\d+$/.test(v) ? parseInt(v, 10) : NaN, total = +dp.total || pMax;
+      if (n >= pMin && n <= pMax) { location.href = dp.url + n + '/'; return; }
+      $('ir-aviso').textContent = v === '' ? '' : isNaN(n) || n < 1 || n > total ? 'Digite um número de 1 a ' + total + '.'
+        : 'Por enquanto estão publicados os pontos ' + pMin + ' a ' + pMax + '.';
+    });
+    var velho = /^#(a?)(\d+)$/i.exec(location.hash);
+    if (D.pagina === 'obra' && velho) {
+      var nv = parseInt(velho[2], 10);
+      if (nv >= pMin && nv <= pMax) location.replace(dp.url + nv + '/');
+      else $('ir-aviso').textContent = 'O ponto ' + nv + ' ainda não está publicado: por enquanto, só os pontos ' + pMin + ' a ' + pMax + '.';
+    }
+  }
+
   /* ---------------------------------------------------------------- original e tradução */
   /* Todo texto abre só em português; a escolha segue de parte em parte da mesma obra (vale
      quando se chega pela navegação da própria obra) e volta ao português ao reabrir o texto. */
@@ -161,7 +234,14 @@
     folhas.forEach(function (f) { f.folhas.push(f); f.cadeia.forEach(function (c) { nos[c].folhas.push(f); }); });
     return { nos: nos, folhas: folhas, topo: topo };
   }
-  function arvoreDe(o) { return o._arv || (o._arv = arvore(o.p, o.u)); }
+  /* Obra «só posição» (o Catecismo: milhares de partes, que estourariam o limite de leituras.partes
+     no banco): não guarda marca por parte, só a posição e a escolha manual da obra («*»). No
+     obras.json ela traz q = [primeira, última, rótulo] no lugar da lista p; a árvore são os pontos. */
+  function listaQ(q) { var l = []; for (var n = q[0]; n <= q[1]; n++) l.push([String(n), q[2] + ' ' + n]); return l; }
+  function arvoreDe(o) {
+    if (!o._arv) { o._arv = arvore(o.q ? listaQ(o.q) : o.p, o.u); o._arv.so = !!o.q; }
+    return o._arv;
+  }
   /* a da página aberta: data-estrutura («prefacio i(capitulo-1 capitulo-2) ii(…)»), ou (obra sem
      divisão) os itens do índice */
   var arvPagina = null;
@@ -178,7 +258,9 @@
     if (arvPagina) return arvPagina;
     var lista = D.estrutura ? lerEstrutura(D.estrutura)
       : Array.prototype.map.call(document.querySelectorAll('.indice li[data-parte]'), function (li) { return [li.getAttribute('data-parte')]; });
-    return (arvPagina = arvore(lista, B + D.obra + '/'));
+    arvPagina = arvore(lista, B + D.obra + '/');
+    arvPagina.so = !!D.soPosicao;
+    return arvPagina;
   }
   /* o endereço de uma posição guardada sem endereço (veio de outro aparelho): pelo índice das obras */
   function urlPeloIndice(idx, obra, parte) {
@@ -299,7 +381,7 @@
         if (!chave) return;
         var o = idx[chave], destino = o.u;
         if (p[2] === 'sobre') destino = o.u + 'sobre/';
-        else if (p[2] && o.p[parseInt(p[2], 10) - 1]) destino = arvoreDe(o).topo[parseInt(p[2], 10) - 1].u;
+        else if (p[2] && arvoreDe(o).topo[parseInt(p[2], 10) - 1]) destino = arvoreDe(o).topo[parseInt(p[2], 10) - 1].u;
         location.replace(destino);
       });
     }
@@ -351,6 +433,11 @@
      todas as folhas lidas, lendo com pelo menos uma lida por inteiro */
   function estadoObra(r, arv) {
     if (!r) return 0;
+    if (arv.so) {             /* só posição: «lida» manual fica; senão vale a mais recente entre a escolha e a leitura */
+      var ms = marcaDe(r, '*');
+      if (ms && (ms[0] === 2 || ms[1] >= (r.t || 0))) return ms[0];
+      return r.concluida ? 2 : r.parte ? 1 : 0;
+    }
     var p = r.partes || {}, maisNova = 0, chaves = Object.keys(p);
     chaves.forEach(function (k) { if (k !== '*' && Array.isArray(p[k])) maisNova = Math.max(maisNova, p[k][1]); });
     if (p['*'] && p['*'][1] >= maisNova) return p['*'][0];
@@ -363,7 +450,7 @@
   /* começada: em leitura pela regra acima, ou com alguma parte aberta (e sem «não iniciada» depois) */
   function comecada(r, arv) {
     var e = estadoObra(r, arv);
-    if (e !== 0) return e === 1;
+    if (arv.so || e !== 0) return e === 1;
     var p = (r && r.partes) || {}, m = p['*'];
     return Object.keys(p).some(function (k) { return k !== '*' && p[k][0] >= 1 && (!m || p[k][1] > m[1]); });
   }
@@ -422,7 +509,7 @@
       });
       var cx = $('estado-leitura');
       if (cx && D.pagina === 'obra') {
-        var slugs = arv.topo.map(function (x) { return x.k; }), f0 = arv.folhas[0];
+        var slugs = arv.topo.map(function (x) { return x.k; }), f0 = arv.folhas[0] || (D.primeira && { k: D.primeira });
         controleEstado(cx, estadoObra(L[D.obra], arv), function (e) {
           var extra = f0 ? { parte: f0.k, i: 1, max: f0.k, maxI: 1, t: 1, titulo: D.tituloObra, rotulo: '' } : null;
           marcar(D.obra, ['*'], e, true, extra);
@@ -434,7 +521,7 @@
       }
     }
     /* a parte (ou o capítulo) aberta */
-    if (D.pagina === 'parte') {
+    if (D.pagina === 'parte' && !D.soPosicao) {
       var cp = $('estado-leitura');
       if (cp) controleEstado(cp, estadoFolha(L[D.obra], folhaDaPagina()), function (e) { marcar(D.obra, [D.parte], e, true); pintarTudo(); });
     }
@@ -452,7 +539,7 @@
 
   /* abrir a parte já é «lendo»; chegar ao fim do texto (depois de uns segundos na página) é «lida»
      (comparando com o estado que vale, que pode vir da parte inteira: o aparelho só sobe) */
-  if (D.pagina === 'parte' && D.obra && D.parte) {
+  if (D.pagina === 'parte' && D.obra && D.parte && !D.soPosicao) {
     var efAqui = function () { return estadoFolha(leituras()[D.obra], folhaDaPagina()); };
     marcar(D.obra, efAqui() >= 1 ? [] : [D.parte], 1, false, { parte: D.parte, i: parseInt(D.indice, 10), max: D.parte, maxI: parseInt(D.indice, 10),
       t: Date.now(), titulo: D.tituloObra, rotulo: D.rotulo || '', url: location.pathname });
@@ -521,10 +608,10 @@
       }
       ks.forEach(function (k) {
         var o = idx[k], r = L[k], arv = arvoreDe(o), n = arv.topo.length;
-        var inteiras = arv.topo.filter(function (x) { return estadoNo(r, x) === 2; }).length;
+        var inteiras = arv.so ? 0 : arv.topo.filter(function (x) { return estadoNo(r, x) === 2; }).length;
         var par = r.parte && arv.nos[r.parte];
         var onde = lidos ? '' : (par && par.rot ? 'Parou em: ' + par.rot : '');
-        var conta = n > 1 ? inteiras + ' de ' + n + ' partes lidas' : '';
+        var conta = n > 1 && !arv.so ? inteiras + ' de ' + n + ' partes lidas' : '';
         var href = lidos || !r.parte ? o.u : r.url || (par ? par.u : o.u);
         caixa.appendChild(item(href, o.t, o.a, [onde, conta].filter(Boolean).join(' · ')));
       });
@@ -615,7 +702,7 @@
           var par = docs.d[d], k = docs.o[par[0]], o = idx[k];
           if (!o) return;
           /* o documento: [obra, parte] ou, nas partes divididas, [obra, parte, capítulo(, seção)] */
-          var p = o.p[par[1]], href = p[0] === 'texto' ? o.u : o.u + p[0] + '/';
+          var p = o.q ? [String(o.q[0] + par[1]), o.q[2] + ' ' + (o.q[0] + par[1])] : o.p[par[1]], href = p[0] === 'texto' ? o.u : o.u + p[0] + '/';
           for (var z = 2; z < par.length && p[2]; z++) { p = p[2][par[z]]; href += p[0] + '/'; }
           var el = item(href, o.t + (p[1] ? ' — ' + p[1] : ''), o.a, '');
           saida.appendChild(el);
@@ -629,7 +716,7 @@
       fetch(href).then(function (r) { return r.text(); }).then(function (html) {
         if (vez !== ultima) return;
         var doc = new DOMParser().parseFromString(html, 'text/html');
-        var ps = doc.querySelectorAll('.leitura .texto p, .leitura .texto .trad, .leitura .texto .orig, .preambulo p');
+        var ps = doc.querySelectorAll('.leitura .texto p, .leitura .texto .trad, .leitura .texto .orig, .leitura .notas-ponto p, .preambulo p');
         var melhor = null;
         for (var i = 0; i < ps.length; i++) {
           var t = ps[i].textContent.replace(/\s+/g, ' ').trim(), m = mapaNormal(t), achou = [], nota = 0;

@@ -582,15 +582,16 @@ main { padding: 0 1rem 5rem; }
 .ir-ponto .ir-aviso { flex-basis: 100%; text-align: center; }
 .ir-ponto .ir-aviso:empty { display: none; }
 
-/* índice: partes que se abrem e, dentro delas, a árvore de seções, capítulos, artigos e tópicos */
+/* índices por níveis: o rosto lista as partes, a parte as seções, a seção os capítulos; no
+   capítulo, a lista aberta do que se lê (artigos, parágrafos, tópicos), indentada por nível */
 .indice-cat ol { list-style: none; margin: 0; padding: 0; }
 .indice-cat ol ol { padding-left: 1.1rem; }
-.indice-cat li > a, .parte-cat summary {
+.indice-cat li > a, .indice-cat li > .item {
   display: flex; flex-wrap: wrap; column-gap: .8rem; align-items: baseline;
   text-decoration: none; color: var(--tinta); line-height: 1.4;
+  padding: .4rem .25rem; border-bottom: 1px solid var(--linha);
 }
-.indice-cat li > a { padding: .4rem .25rem; border-bottom: 1px solid var(--linha); }
-.indice-cat li > a:hover, .parte-cat summary:hover { color: var(--realce); }
+.indice-cat li > a:hover { color: var(--realce); }
 .indice-cat .rot {
   flex-basis: 100%; font-family: var(--sans); font-size: .68rem; letter-spacing: .14em;
   text-transform: uppercase; color: var(--tinta-tenue);
@@ -598,12 +599,28 @@ main { padding: 0 1rem 5rem; }
 .indice-cat .tit { flex: 1; min-width: 0; }
 .indice-cat .pontos { flex: none; font-family: var(--sans); font-size: .74rem; color: var(--tinta-tenue); white-space: nowrap; }
 .indice-cat .nivel-topico > a { font-size: .95rem; }
-.parte-cat { border-bottom: 1px solid var(--linha); }
-.parte-cat summary { cursor: pointer; padding: .7rem .25rem .7rem 1.4rem; font-size: 1.2rem; list-style: none; position: relative; }
-.parte-cat summary::-webkit-details-marker { display: none; }
-.parte-cat summary::before { content: "\25B8"; position: absolute; left: .25rem; font-size: .8em; color: var(--tinta-tenue); }
-.parte-cat[open] summary::before { content: "\25BE"; }
-.parte-cat > ol { padding: 0 0 1rem 1.2rem; }
+.indice-cat .nivel-inicio .tit { font-style: italic; color: var(--tinta-suave); }
+/* parte, seção e capítulo levam à página deles: linha maior, com a seta */
+.indice-cat li.passa > a { padding: .75rem 1.6rem .75rem .25rem; font-size: 1.2rem; position: relative; }
+.indice-cat li.passa > a::after {
+  content: "\203A"; position: absolute; right: .35rem; top: 50%; transform: translateY(-50%);
+  font-size: 1.3rem; color: var(--tinta-tenue);
+}
+.indice-cat li.passa > a:hover::after { color: var(--realce); }
+.indice-cat li.inedita > .item { padding: .75rem .25rem; font-size: 1.2rem; color: var(--tinta-tenue); }
+/* na página do capítulo, artigos e parágrafos um pouco maiores que os tópicos dentro deles */
+.leitura-cat .nivel-artigo > a, .leitura-cat .nivel-paragrafo > a { font-size: 1.08rem; }
+.indice-cat li:target > a { color: var(--realce); }
+.nivel-cat .cabeca .rotulo-nivel {
+  font-family: var(--sans); font-size: .72rem; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--tinta-tenue); margin: 0 0 .5rem;
+}
+.nivel-cat .cabeca h1 { color: var(--realce); }
+.nivel-cat .indice-cat { margin-top: 1.4rem; }
+.nivel-cat .passos { margin-top: 2.2rem; }
+/* a linha de contexto dos pontos e das aberturas: cada nível leva à sua página */
+.trilha-ponto a, .abertura-cat .contexto a { color: inherit; text-decoration: none; }
+.trilha-ponto a:hover, .abertura-cat .contexto a:hover { color: var(--realce); text-decoration: underline; text-underline-offset: .2em; }
 
 /* abertura de tópico */
 .abertura-cat { min-height: 58vh; display: flex; flex-direction: column; justify-content: center; padding: 2rem 0 1rem; }

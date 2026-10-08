@@ -6,7 +6,7 @@ Na dúvida, a regra é: **fidelidade ao que Francisco de Sales escreveu, em port
 
 ## 1. Texto-fonte
 
-- Os arquivos são `original/00-oracao-e-prefacio.txt` a `05-quinta-parte.txt`. É o texto de 1619 na edição Boulenger (1909), com a ortografia modernizada (ver `original/LEIAME.md`).
+- Os arquivos são `original/00-oracao-e-prefacio.txt` a `05-quinta-parte.txt`. É o texto de 1619 na edição Boulenger (1909), com a ortografia modernizada, emendado em 233 pontos pela colação com a edição de Annecy (lacunas de linha, palavras, números de ponto, pontuação; ver `original/LEIAME.md`). A tradução acompanha o texto emendado.
 - As linhas `# ` do topo são do arquivo, não do livro. Traduza só o `# titulo:`.
 - Marcas:
   - `## Chapitre N — Título` → `## Capítulo N — Título traduzido`, com os números romanos como estão.
@@ -93,13 +93,13 @@ Na dúvida, a regra é: **fidelidade ao que Francisco de Sales escreveu, em port
 | aspirations; oraisons jaculatoires | aspirações; orações jaculatórias |
 | retraite spirituelle (o recolhimento no meio do dia) | retiro espiritual |
 | bouquet spirituel | ramalhete espiritual |
-| affections; résolutions | afetos; resoluções |
+| affections; résolutions (da meditação) | afetos; resoluções (as inclinações do coração são «afeições»: ver § 7) |
 | considérations | considerações |
 | préparation | preparação |
 | examen de conscience | exame de consciência |
-| conducteur, guide (diretor espiritual) | guia, condutor |
+| conducteur, guide (diretor espiritual) | guia (nunca «condutor») |
 | confession; communion | confissão; comunhão |
-| la sainte Messe | a santa Missa |
+| la sainte messe | a santa missa (minúscula, como no original) |
 | péché mortel, véniel | pecado mortal, venial |
 | affection au péché | afeição ao pecado |
 | purgation | purificação |
@@ -130,3 +130,65 @@ Os títulos de obras citadas vão em português quando há forma consagrada (*Co
 - Depois vem o texto: **um parágrafo traduzido para cada parágrafo do original, na mesma ordem**, com os títulos `## ` e as marcas `[I.1]` no mesmo lugar.
 - Versos com `| `, um por linha.
 - As notas do tradutor vão em `traducao/notas-<arquivo>.md` (ver as regras gerais, § 4): termos novos, passagens difíceis, versos, conferências com Annecy.
+
+## 7. Termos fixados na harmonização
+
+Fixados ao harmonizar as oito partes (outubro de 2026). Prevalecem sobre o que vai acima e sobre as notas dos tradutores (`traducao/notas-*.md`), que ficam como registro do trabalho. O relatório está em `traducao/HARMONIZACAO.md`.
+
+### Texto
+
+- **Original emendado.** A tradução segue o texto francês emendado por Annecy (233 pontos; lista no `original/LEIAME.md`): as sete lacunas de linha (I.20, II.4, II.19, II.20, II.21, III.3, III.38), as palavras que mudam o sentido, as palavras omitidas e os números de ponto (V.2 «6.», V.4 «10.», V.5 «6.»).
+- **Lições de Boulenger que ficam** (variantes das edições anteriores, preferidas por ele e mantidas no original): I.4 «envers sa mère», «ne le considérez pas»; III.3 «désirais», «peines». A tradução as segue.
+- **Nomes que Annecy corrige contra 1619.** O original fica com a lição de 1619; a tradução segue a correção, sem nota no corpo, e a apresentação da edição («Sobre esta tradução») registra o fato. Regra única:
+  - Prefácio: «Campaspe» (1619: *Compaspé*);
+  - I.4: «Catarina de Cardona» (1619: *Cordoue*);
+  - I.15: «as palavras de Isaías» (1619: *Job*; a citação é de Is 33,14);
+  - III.40: «Salvina», a destinatária da carta 79 de são Jerônimo (1619 e Annecy: *Salvia*).
+- **Aspas que Boulenger abre e não fecha** (I.4, I.14, I.15, I.17, III.14, III.18, III.21, III.27, IV.1, IV.12, V.2, V.4): a tradução fecha onde a fala termina. O original fica como está.
+- **Dísticos** (III.1 e V.18): em verso, pelo Versificador, conferidos com `molde.mjs` (sem ✗ nem ≠). O segundo verso começa com maiúscula, como no original.
+
+### Vocabulário
+
+| francês | português | observação |
+|---|---|---|
+| conducteur; guide | guia | «condutor» não se usa; *celui qui conduit votre âme* → «aquele que guia a vossa alma» |
+| directeur | diretor | |
+| père spirituel | pai espiritual | |
+| affections (atos da meditação) | afetos | «Afetos e resoluções»; «passareis aos afetos» |
+| affection(s) (inclinação, apego) | afeição, afeições | «afeição ao pecado», «pôr a afeição», «as boas afeições das mães» |
+| douceur (virtude) | doçura | também IV.1, IV.11, V.11; *les douceurs* (consolações) → «doçuras» ou «suavidades» |
+| débonnaireté; débonnaire | mansidão; manso | também quando dito de Deus («liberal em mansidão», «meu Salvador manso», «ó Pai manso») |
+| Apprenez de moi que je suis doux et humble de cœur | «manso e humilde de coração» | forma consagrada de Mt 11,29 |
+| empressement; s'empresser; empressé | afã; afanar-se; afanoso | nunca «sofreguidão», «ânsia», «açodado»; a pressa concreta fica «pressa», «apressar-se» (I.13, IV.1) |
+| souci; sollicitude; inquiétude | preocupação; solicitude; inquietação | |
+| avancement; s'avancer | progresso; progredir, avançar | nunca «adiantamento» |
+| renommée | fama | *réputation* → «reputação» |
+| ire; colère; courroux | ira; cólera; irritação | |
+| conversation (trato social, reuniões, visitas) | conversação, conversações | inclusive «a mútua conversação» (III.38–39) e «a conversação dos mundanos» (III.40) |
+| conversation particulière; devis; entretien | conversa | «conversas familiares», «toda conversa particular, toda conversa secreta» |
+| bonne conversation (eutrapelia) | boa conversação | |
+| amourettes | namoricos | |
+| honnêteté; honnête | honestidade; honesto | exceção: III.24, *conversations qui ont pour leur fin l'honnêteté* → «cortesia» |
+| recherche (amorosa) | corte | |
+| mugueter; muguetterie | galantear; galanteio | *muguetteries* do cabelo (III.25) → «faceirices» |
+| protestation; protester | protestação; protestar | *je proteste* (dito de quem fala mal, III.29) → «asseguro» |
+| avis | avisos | o parecer de uma pessoa → «parecer» |
+| loisir | vagar | |
+| vacation | vocação | |
+| dîner; souper; collation | almoço; ceia; colação | nunca «jantar» |
+| potirons; champignons (III.33) | cogumelos; fungos | nunca «tortulhos»; em IV.13 *champignons* → «cogumelos» |
+| mouchons; avettes | crias; abelhinhas | |
+| élancements | impulsos | |
+| saint Antoine (o abade) | santo Antão | |
+| messe | missa | minúscula |
+
+### Nomes
+
+Raab; padre Gracián; madre Teresa (sempre em minúscula, como «padre Arias», «padre João Cassiano»); Godofredo de Péronne; o senhor Gautier de Nemours; Du Pont (como o autor escreve); Capilia; Granada; Mitridates; Elzeário, conde de Ariano; lago de Rieti; a mãe de são Sinforiano (Annecy e o original emendado: *de saint Symphorien*).
+
+### Tratamento e fórmulas
+
+- Vocativos: *très chère Philothée* → «caríssima Filoteia»; *chère Philothée* → «cara Filoteia» (nunca «querida Filoteia»); *ma Philothée* → «minha Filoteia»; *ma chère Philothée* → «minha cara Filoteia».
+- Fórmulas das meditações: «Ponde-vos na presença de Deus» (*devant Dieu* → «diante de Deus»); «Suplicai-lhe que vos inspire» (*Suppliez-le*), «Pedi-lhe que vos inspire» (*Priez-le*); *Priez Dieu qu'il* → «Pedi a Deus que»; *Priez.* → «Orai»; o refrão «Agradecei, oferecei, orai».
+- Pronomes combinados: nunca «no-lo», «no-la», «vo-lo», «vo-la», «lho», «lha», «lhos». Reescrever: «Deus as deu a nós», «se o vosso pai espiritual não vos mandar expressamente».
+- *Celui* referido a Deus ou a Cristo: «Aquele», «Daquele» (sem apóstrofo).

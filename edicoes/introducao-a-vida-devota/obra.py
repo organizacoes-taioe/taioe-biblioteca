@@ -17,22 +17,31 @@ META = {
             'à resolução firme, à oração e aos sacramentos, ao exercício das virtudes, à luta contra as tentações e à '
             'renovação anual dos propósitos. O autor reviu o livro até a edição de 1619, a última que saiu em vida '
             'dele; é esse o texto traduzido, na edição do abade Fernand Boulenger (Paris, 1909), que o reproduz '
-            'inteiro com a ortografia atualizada, conferido com a edição de Annecy das _Obras_ (t. III, 1893).\n\n'
+            'inteiro com a ortografia atualizada. A transcrição digital dessa edição pulava linhas e trazia erros de '
+            'palavra: foi conferida palavra a palavra com a edição de Annecy das _Obras_ (t. III, 1893), que dá o '
+            'mesmo texto de 1619, e emendada em 233 pontos, entre eles sete lacunas de uma linha ou mais (I.20, II.4, '
+            'II.19, II.20, II.21, III.3, III.38) e três números de ponto que faltavam na Quinta parte. A tradução e o '
+            'original ao lado seguem o texto emendado.\n\n'
             '**A tradução.** Português do Brasil, fiel ao sentido e ao movimento da prosa de Francisco de Sales: as '
             'comparações tiradas das abelhas, das plantas e dos animais, a doçura do tom, as frases longas e '
             'encadeadas. Filoteia é tratada por _vós_, como no original; o leitor do Prefácio, por _tu_. As palavras '
             'antigas do francês do século XVII foram vertidas pelo sentido, sem arcaísmos artificiais. As citações da '
-            'Escritura foram traduzidas do francês do autor, e não copiadas de uma Bíblia portuguesa. A pequena marca '
+            'Escritura foram traduzidas do francês do autor, e não copiadas de uma Bíblia portuguesa. Os dois dísticos '
+            'citados (III.1 e V.18) foram vertidos em verso, com a medida e as rimas emparelhadas do original. Em quatro nomes que '
+            'as edições antigas trazem errados, a tradução segue a correção de Annecy, e o francês ao lado guarda a '
+            'lição de 1619: Campaspe (_Compaspé_, no Prefácio), Catarina de Cardona (_Cordoue_, I.4), Isaías (_Job_, '
+            'I.15; a citação é de Is 33,14) e Salvina, a destinatária da carta de são Jerônimo (_Salvia_, III.40). '
+            'Onde a edição de 1909 abre aspas e não as fecha, a tradução as fecha onde a fala termina. A pequena marca '
             'no começo dos capítulos (I.1) dá a parte e o capítulo, como se cita a obra.\n\n'
             '**O original ao lado.** O botão «Francês», no alto da página de leitura, mostra o texto de 1619 junto da '
             'tradução.'),
         'fontes': [
             {'nome': 'Wikisource (fr): Introduction à la vie dévote (Boulenger), texto integral',
              'url': 'https://fr.wikisource.org/wiki/Introduction_%C3%A0_la_vie_d%C3%A9vote_(Boulenger)/Texte_entier',
-             'nota': 'texto francês de base (texto de 1619, ed. Boulenger, 1909)'},
+             'nota': 'texto francês de base (texto de 1619, ed. Boulenger, 1909), emendado pela colação com Annecy'},
             {'nome': 'Œuvres de saint François de Sales, Édition d\'Annecy, t. III (1893), no Internet Archive',
              'url': 'https://archive.org/details/oeuvresdesaintfr03fran',
-             'nota': 'edição antiga, para conferência'},
+             'nota': 'texto de 1619 com a grafia original, usado na colação palavra a palavra e nas emendas'},
         ],
     },
 }

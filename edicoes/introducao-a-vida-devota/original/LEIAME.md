@@ -307,7 +307,9 @@ Vêm de duas fontes:
   - Prefácio: «Compaspé»; Annecy põe «Campaspé».
   - I.4: «Catherine de Cordoue»; Annecy põe «Cardone».
   - I.15: «les paroles de Job». Annecy põe «d’Isaïe» e explica em nota: as edições anteriores à de 1652 atribuem a Jó essas palavras de Isaías, e os editores quiseram retificar o engano.
-- **Aspas que abrem e não fecham**, ou o contrário. Ficam como em Boulenger, porque Annecy quase não usa aspas e não serve de modelo. Os casos estão em I.4, I.14, I.15, I.17, III.14, III.18, III.21, III.27, IV.1, IV.12, V.2 e V.4.
+  - III.40: «Salvia», como em Annecy. A destinatária da carta 79 de são Jerônimo é Salvina.
+  - A tradução segue a correção nesses quatro nomes (Campaspe, Catarina de Cardona, Isaías, Salvina), e a apresentação da edição o registra (ver `CONVENCOES.md`, § 7).
+- **Aspas que abrem e não fecham**, ou o contrário. Ficam como em Boulenger, porque Annecy quase não usa aspas e não serve de modelo. Os casos estão em I.4, I.14, I.15, I.17, III.14, III.18, III.21, III.27, IV.1, IV.12, V.2 e V.4. Na tradução, as aspas se fecham onde a fala termina.
 - **Divisão de parágrafos**, que em Annecy é às vezes outra: em II.20, V.1, V.3, V.7, V.15 e no texto corrido de V.3 e IV.15. Fica a de Boulenger.
 - **Pontuação** não foi colada sistematicamente. Ficam também as diferenças miúdas que não são erro, como I.20 «Dieu de mon cœur. Dieu de mon âme», onde o OCR de Annecy também tem ponto.
 

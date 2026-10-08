@@ -54,7 +54,7 @@ TITULOS = [
     'Beowulf arranca o braço de Grendel', 'A alegria em Heorot', 'O louvor de Hrothgar', 'O banquete e os presentes',
     'O canto do poeta de Hrothgar: a balada de Hnæf e Hengest', 'Termina a história do menestrel',
     'O colar de Beowulf. Os heróis repousam', 'A mãe de Grendel ataca os dinamarqueses dos anéis',
-    'Luto em Heorot: a morte de Æschere', 'Beowulf busca o monstro na morada das ondinas',
+    'Luto em Heorot: a morte de Æschere', 'Beowulf busca o monstro no covil das feras das águas',
     'A batalha com o dragão das águas', 'Beowulf mata o espectro', 'A gratidão de Hrothgar. O discurso do rei',
     'Fim do discurso. Beowulf se prepara para partir', 'As palavras de despedida',
     'Beowulf volta à terra dos geatas. As rainhas Hygd e Thryth', 'A chegada. Hygelac recebe Beowulf',

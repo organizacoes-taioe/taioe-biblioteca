@@ -146,6 +146,9 @@ Earnanæs; Hrefnesholt, Hrefnawudu; Hreosnabeorh; Hronesnæs; _Swīo-rīce_ → 
 - Aspas: as do português, “...”, com ‘...’ dentro. **Uma fala abre as aspas no verso em que começa e
   fecha no verso em que acaba**; os versos do meio não levam aspas (o `"` no começo de cada linha
   do original é uso tipográfico antigo, ver `original/LEIAME.md`).
+- **Fala que atravessa duas seções** (o canto de Finnsburh, o discurso de Hrothgar, o relato de Beowulf a
+  Hygelac, a fala do mensageiro): as aspas fecham no último verso de
+  um arquivo e reabrem no primeiro do seguinte (cada página do site é lida por si).
 - Parênteses do original (incisos dos editores) → parênteses na tradução, no mesmo verso.
 - Lacunas `. . .` → `. . .` na tradução, no mesmo lugar do verso; traduza só as palavras legíveis, sem
   completar o que o manuscrito perdeu. `(?)` → `(?)`.
@@ -201,7 +204,7 @@ Os títulos ingleses são de Harrison e Sharp; os portugueses os traduzem.
 | XIX | 19 | O colar de Beowulf. Os heróis repousam |
 | XX | 20 | A mãe de Grendel ataca os dinamarqueses dos anéis |
 | XXI | 21 | Luto em Heorot: a morte de Æschere |
-| XXII | 22 | Beowulf busca o monstro na morada das ondinas |
+| XXII | 22 | Beowulf busca o monstro no covil das feras das águas |
 | XXIII | 23 | A batalha com o dragão das águas |
 | XXIV | 24 | Beowulf mata o espectro |
 | XXV | 25 | A gratidão de Hrothgar. O discurso do rei |
@@ -225,7 +228,24 @@ Os títulos ingleses são de Harrison e Sharp; os portugueses os traduzem.
 | XLIII | 43 | A pira de Beowulf |
 | Apêndice | finnsburh | O combate em Finnsburh (fragmento) |
 
-## 9. Notas do tradutor
+## 9. Decisões da tradução (harmonização)
+
+Tomadas pelos tradutores e conferidas no poema inteiro:
+
+- _gæst_ (vogal breve, «estranho») → hóspede (_gryre-gæst_ → hóspede do horror; _inwit-gæst_ → hóspede
+  hostil); _gāst/gǣst_ (espírito) → espírito (_ellor-gǣst_ → espírito estranho); _wæl-gǣst_ → espírito
+  da matança.
+- _nicor_ → monstros das águas; _orcnēas_ → monstros marinhos; _gīgantas_ → gigantes. _eotenas_ fora do
+  episódio de Finnsburh (903) → gigantes, como na edição; no episódio, com maiúscula na edição → jutos.
+- _beorh, hlǣw_ → túmulo (monte, quando é o lugar da pira); _segn_ → estandarte; _bǣr_ → esquife.
+- _hlēo_ (de pessoa) → amparo; _þyle_ (Unferth) → o orador; _weard_ (da costa) → o vigia.
+- _gifeðe_ → fado; _wyrd_ → destino; _dōm_ → glória, mas juízo em _dōm godes_ (2859).
+- Fórmulas: «Wiglaf falou, o filho de Weohstan»; «O vigia falou».
+- Nomes novos: Elan, Hoc, Hondscio, Heoroweard, Hereric, Sigeferth, Eaha, Ordlaf, Garulf, Guthere;
+  _Merewīoing_ → o merovíngio; _Secgan_ → secgas; Weohstan numa forma só (a edição varia).
+- _Hwæt!_ dentro de fala → «Vê!» a quem se trata por tu, «Ora!» quando é exclamação geral.
+
+## 10. Notas do tradutor
 
 Cada tarefa grava `traducao/notas-<arquivos>.md` (ex.: `notas-01-05.md`): leituras difíceis e a
 interpretação adotada (com o verso); compostos e kennings novos e como ficaram; nomes e termos que

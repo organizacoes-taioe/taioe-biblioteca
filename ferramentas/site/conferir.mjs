@@ -1,6 +1,6 @@
 // Confere o site gerado em public/biblioteca/: todo link interno leva a uma página que existe,
 // toda página tem título, descrição, canonical e um <h1>, nenhuma tem script ou estilo inline
-// (a CSP bloquearia), e os endereços das partes valem no banco.
+// (a CSP bloquearia), e os endereços das partes e as chaves de leitura dos capítulos valem no banco.
 //
 //   node ferramentas/site/conferir.mjs
 import fs from 'node:fs';
@@ -44,6 +44,10 @@ function conferir(arq) {
     if (!existe(u)) problemas.push(rel + ': link quebrado ' + u);
   }
   for (const m of html.matchAll(/\ssrc="([^"]+)"/g)) if (!existe(m[1])) problemas.push(rel + ': arquivo ausente ' + m[1]);
+  // as chaves do estado de leitura (partes, capítulos) vão para leituras.partes e leituras.parte no banco
+  for (const m of html.matchAll(/\sdata-(?:parte|no)="([^"]+)"/g)) {
+    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(m[1]) || m[1].length > 60) problemas.push(rel + ': chave de leitura inválida para o banco ' + m[1]);
+  }
 }
 andar(path.join(PUB, 'biblioteca'));
 

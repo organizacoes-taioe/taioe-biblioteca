@@ -156,6 +156,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('alvares-de-azevedo/lira-dos-vinte-anos-vida', 'Vida'),
   ('alvares-de-azevedo/lira-dos-vinte-anos-virgem-morta', 'Virgem morta'),
   ('alvares-de-azevedo/poesias-diversas-se-eu-morresse-amanha', 'Se eu morresse amanhã!'),
+  ('anonimo-anglo-saxao/beowulf', 'Beowulf'),
   ('antero-de-quental/sonetos-1886-a-virgem-santissima', 'À Virgem Santissima'),
   ('antero-de-quental/sonetos-1886-anima-mea', 'Anima mea'),
   ('antero-de-quental/sonetos-1886-com-os-mortos', 'Com os mortos'),

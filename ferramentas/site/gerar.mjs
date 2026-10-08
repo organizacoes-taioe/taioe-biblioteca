@@ -368,6 +368,144 @@ U.poesia = (a) => (soPoesia(a.id) || !generoEhPasta(a, 'Poesia') ? U.autor(a) : 
 U.indicePoema = (a, o) => (formaEhPasta(a.id, o.forma || 'outras') ? U.pasta(a, o.forma || 'outras') : U.poesia(a));
 const chaveObra = (o) => o.autor + '/' + o.url;
 
+// ------------------------------------------------------------------ capítulos (páginas por nível)
+/* Pedido do Gere, 08/10/2026: «coloque mais páginas intermediárias para eu avançar por níveis…
+   Prefiro várias páginas, do que essas listas recolhíveis». Numa parte com capítulos (as marcas
+   «{§ I.1}» no começo do parágrafo, todas da mesma parte, cada uma logo depois de um título «## »),
+   a página da parte vira o índice dos capítulos, e cada capítulo, uma página de leitura, embaixo
+   dela (…/i/capitulo-3/). Capítulo muito longo com seções tituladas («## I. …», «## a) …») vira,
+   por sua vez, índice das seções; parte de capítulo único mostra direto as seções (nunca índice de
+   um item só). As Confissões (marca «capítulo.seção», sem títulos) e a Vida de Santo Antão (números
+   sem título) não se dividem: lá o livro e a parte já são a unidade de leitura.
+   A ordem de leitura são as folhas: as partes sem divisão, os capítulos e as seções. Cada item tem
+   chave própria no estado de leitura: as slugs do caminho unidas por hífen («i-capitulo-3»,
+   «v-capitulo-3-ii»), no formato que o banco aceita (ver leitor.js). */
+const MARCA_CAP = /^\{§ ([IVXLC]+)\.(\d+)\}/;
+const TIT_CAP = /^## (?:(?:Cap[ií]tulo|Chapitre|Chapter)\s+([IVXLC]+|\d+)\s*[—–-]\s*|(\d+)\.\s+)(.+)$/;
+const TIT_SECAO = [/^## ([IVXLC]+)\.\s+(.+)$/, /^## ([a-z])\)\s+(.+)$/];
+const SECOES_ACIMA_DE = 8000;   // palavras: capítulo maior que isto, com seções tituladas, vira índice delas
+const ehNota = (b) => /^¤ /.test(b);
+const ehTitulo = (b) => /^## /.test(b);
+const contarPalavras = (bl) => bl.filter((b) => !ehNota(b))
+  .reduce((n, b) => n + (b.replace(/\{[^}]*\}/g, ' ').replace(/[_*|]/g, ' ').match(PALAVRA) || []).length, 0);
+
+function cabecalho(b) {
+  const cab = b.replace(/^## /, '').trim();
+  let m = TIT_CAP.exec(b);
+  if (m) return { n: m[1] || m[2], titulo: m[3].trim(), cab };
+  m = TIT_SECAO[0].exec(b);
+  if (m) return { n: m[1], titulo: m[2].trim(), cab };
+  m = TIT_SECAO[1].exec(b);
+  if (m) return { n: m[1] + ')', titulo: m[2].trim(), cab };
+  return { n: '', titulo: cab, cab };
+}
+function dividirParte(o, p) {
+  const bl = String(p.texto).trim().split(/\n\s*\n/), marcas = [];
+  bl.forEach((b, i) => { const m = MARCA_CAP.exec(b); if (m) marcas.push({ i, p: m[1], c: +m[2] }); });
+  if (!marcas.length || new Set(marcas.map((m) => m.p)).size > 1) return;
+  const inis = [];
+  for (const m of marcas) {
+    const corrida = [];
+    for (let j = m.i - 1; j >= 0 && (ehTitulo(bl[j]) || ehNota(bl[j])); j--) if (ehTitulo(bl[j])) corrida.unshift(j);
+    if (!corrida.length) return;                       // marca sem título de capítulo: não é esta a divisão
+    const t = corrida.find((k) => TIT_CAP.test(bl[k]));
+    inis.push(t === undefined ? corrida[corrida.length - 1] : t);
+  }
+  const orig = p.original === undefined || p.original === null ? null : String(p.original).trim().split(/\n\s*\n/);
+  const onde = `${o.id}, ${rotuloParte(o, p)}`;
+  if (orig) {
+    if (orig.length !== bl.length) throw new Error(`${onde}: original com ${orig.length} blocos e tradução com ${bl.length}`);
+    marcas.forEach((m) => { if (!orig[m.i].startsWith(`{§ ${m.p}.${m.c}}`)) throw new Error(`${onde}: a marca ${m.p}.${m.c} não está no mesmo lugar no original`); });
+    inis.forEach((a) => { if (!ehTitulo(orig[a])) throw new Error(`${onde}: falta no original o título «${bl[a]}»`); });
+  }
+  const linha = (i) => bl.slice(0, i).filter((b) => !ehNota(b)).length;   // a linha do bloco na página antiga da parte
+  const fatia = (a, b, tipo, s) => {                  // do título (a) até antes de b
+    const c = cabecalho(bl[a]);
+    const x = { slug: s, tipo, n: c.n, titulo: c.titulo, cab: c.cab, linha: linha(a), a, b, texto: bl.slice(a + 1, b).join('\n\n') };
+    if (orig) { x.cabOriginal = orig[a].replace(/^## /, '').trim(); x.original = orig.slice(a + 1, b).join('\n\n'); }
+    return x;
+  };
+  const secoes = (cap, tipoAbertura, slugAbertura) => {
+    for (const re of TIT_SECAO) {
+      const idx = [];
+      for (let j = cap.a + 1; j < cap.b; j++) if (re.test(bl[j])) idx.push(j);
+      if (idx.length < 2) continue;
+      const filhos = [];
+      if (bl.slice(cap.a + 1, idx[0]).some((b) => !ehTitulo(b) && !ehNota(b))) filhos.push(fatia(cap.a, idx[0], tipoAbertura, slugAbertura));
+      idx.forEach((j, k) => filhos.push(fatia(j, k + 1 < idx.length ? idx[k + 1] : cap.b, 'secao', slug(cabecalho(bl[j]).n))));
+      return filhos;
+    }
+    return null;
+  };
+  let caps = inis.map((a, k) => fatia(a, k + 1 < inis.length ? inis[k + 1] : bl.length, 'capitulo', 'capitulo-' + marcas[k].c));
+  if (caps.length === 1) {
+    caps = secoes(caps[0], 'capitulo', caps[0].slug);  // capítulo único: as seções direto na parte
+    if (!caps) return;
+  } else {
+    caps.forEach((c) => {
+      if (contarPalavras(bl.slice(c.a, c.b)) > SECOES_ACIMA_DE) { const s = secoes(c, 'abertura', 'abertura'); if (s) c.filhos = s; }
+    });
+  }
+  p.filhos = caps;
+  p.preambulo = bl.slice(0, inis[0]).filter((b) => !ehTitulo(b)).join('\n\n');
+}
+dados.obras.forEach((o) => { if (!o.poema && !o.coletanea && !umaParte(o)) o.partes.forEach((p) => dividirParte(o, p)); });
+const dividida = (o) => o.partes.some((p) => p.filhos);
+
+const curto = (x) => (x.tipo === 'capitulo' ? 'Capítulo ' + x.n : x.tipo === 'abertura' ? 'Abertura' : x.n);
+const minuscula = (s) => s.charAt(0).toLowerCase() + s.slice(1);
+/* um item da obra: a parte i e o caminho até ele dentro dela (cadeia de capítulos e seções) */
+function infoNo(o, i, cadeia) {
+  const p = o.partes[i - 1], x = cadeia.length ? cadeia[cadeia.length - 1] : p;
+  return { parte: p, i, cadeia, no: x,
+    chave: cadeia.length ? [p.slug].concat(cadeia.map((y) => y.slug)).join('-') : umaParte(o) ? 'texto' : p.slug,
+    url: U.parte(o, i) + cadeia.map((y) => y.slug + '/').join(''),
+    rotulo: [rotuloParte(o, p)].concat(cadeia.map((y) => minuscula(curto(y)))).join(', '),
+    acima: cadeia.slice(0, -1).reduce((l, y) => l.concat(l[l.length - 1] + '-' + y.slug), cadeia.length ? [p.slug] : []) };
+}
+/* as folhas (páginas de leitura), na ordem do livro, e os nós (páginas de índice dentro da obra) */
+function percorrer(o, aoNo) {
+  o.partes.forEach((p, i) => {
+    const andar = (cadeia) => {
+      const x = cadeia.length ? cadeia[cadeia.length - 1] : p;
+      aoNo(infoNo(o, i + 1, cadeia), !!x.filhos);
+      if (x.filhos) x.filhos.forEach((y) => andar(cadeia.concat(y)));
+    };
+    andar([]);
+  });
+}
+function folhasDe(o) {
+  if (!o._folhas) {
+    o._folhas = [];
+    percorrer(o, (x, temFilhos) => { if (!temFilhos) o._folhas.push(x); });
+    o._folhas.forEach((f, k) => { f.k = k; });
+  }
+  return o._folhas;
+}
+function nosDe(o) { const l = []; percorrer(o, (x, temFilhos) => { if (temFilhos) l.push(x); }); return l; }
+/* a estrutura para o leitor.js (obras.json): [[slug, rótulo, filhos?], …] */
+function estrutura(o) {
+  const sub = (i, lista, cadeia) => lista.map((y) => {
+    const c = cadeia.concat(y), r = infoNo(o, i, c).rotulo;
+    return y.filhos ? [y.slug, r, sub(i, y.filhos, c)] : [y.slug, r];
+  });
+  return o.partes.map((p, k) => (p.filhos ? [p.slug, rotuloParte(o, p), sub(k + 1, p.filhos, [])] : [p.slug, rotuloParte(o, p)]));
+}
+/* a mesma, sem os rótulos, nas páginas da obra e dos índices (data-estrutura): as slugs separadas
+   por espaço, e os filhos entre parênteses: «prefacio i(capitulo-1 capitulo-2) ii(…)» */
+function estruturaCurta(o) {
+  const sub = (lista) => lista.map((y) => y.slug + (y.filhos ? '(' + sub(y.filhos) + ')' : '')).join(' ');
+  return sub(o.partes);
+}
+dados.obras.filter(dividida).forEach((o) => {
+  const vistas = new Set();
+  folhasDe(o).concat(nosDe(o)).forEach((x) => {
+    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(x.chave) || x.chave.length > 60) throw new Error(`chave de leitura inválida para o banco: ${o.id}/${x.chave}`);
+    if (vistas.has(x.chave)) throw new Error(`chave de leitura repetida: ${o.id}/${x.chave}`);
+    vistas.add(x.chave);
+  });
+});
+
 // colisões: dentro de cada autor, obras × gêneros × "poesia"; autores × reservados
 dados.autores.forEach((a) => {
   if (RESERVADOS.has(a.id)) throw new Error('autor com nome reservado: ' + a.id);
@@ -662,7 +800,7 @@ function paginaObra(a, o) {
       (o.traducao.titulo ? ' (<em lang="' + esc(o.traducao.codigo || '') + '">' + esc(o.traducao.titulo) + '</em>)' : '') + '</p>' : '') +
     (o.descricao ? '<p class="descricao">' + inline(o.descricao) + '</p>' : '') +
     '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
-    '<p class="acoes"><a class="botao" id="comecar" href="' + U.parte(o, 1) + '">Começar a ler</a>' +
+    '<p class="acoes"><a class="botao" id="comecar" href="' + folhasDe(o)[0].url + '">Começar a ler</a>' +
     (o.edicao ? ' <a class="botao secundario" href="' + U.sobre(o) + '">' + esc(tituloSobre(o)) + '</a>' : '') + '</p>' +
     '<div class="estado-leitura" id="estado-leitura" data-alvo="obra" hidden></div></header>' +
     '<p class="secao-titulo">' + esc(d.plural.charAt(0).toUpperCase() + d.plural.slice(1)) + '</p><ol class="indice">';
@@ -671,20 +809,42 @@ function paginaObra(a, o) {
     const num = agrupa && i && o.partes[i - 1].n === p.n ? '' : p.n;
     html += '<li data-parte="' + p.slug + '"><a href="' + U.parte(o, i + 1) + '"><span class="num">' + esc(num) + '</span>' +
       '<span class="tit">' + (p.titulo ? inline(p.titulo) : '<span class="inc">' + incipit(p.texto, 60) + '</span>') +
-      (p.folhas ? '<span class="folhas">' + esc(p.folhas) + '</span>' : '') + '</span></a></li>';
+      (p.folhas ? '<span class="folhas">' + esc(p.folhas) + '</span>' : '') +
+      (p.filhos ? '<span class="folhas">' + contaFilhos(p.filhos) + '</span>' : '') + '</span></a></li>';
   });
   html += '</ol></div>';
   pagina({ url: U.obra(o), titulo: o.titulo + ' — ' + a.nome, corpo: html, trilha: trilhaObra(a, o).concat({ txt: o.titulo }),
     descricao: descricaoDe(o.descricao || `${o.titulo}, de ${a.nome}${o.ano ? ' (' + (o.datas || o.ano) + ')' : ''}: ${fichaObra(o)}. Leia na Biblioteca Taioé.`),
-    dados: { pagina: 'obra', obra: chaveObra(o), 'titulo-obra': o.titulo, total: o.partes.length }, jsonld: jsonObra(a, o) });
+    dados: { pagina: 'obra', obra: chaveObra(o), 'titulo-obra': o.titulo, total: o.partes.length,
+      ...(dividida(o) ? { estrutura: estruturaCurta(o) } : {}) }, jsonld: jsonObra(a, o) });
 }
 
-function paginaParte(a, o, i) {
-  const p = o.partes[i - 1], total = o.partes.length, poema = !!o.poema, conto = !!o.coletanea || poema;
+const contaFilhos = (l) => (l.every((y) => y.tipo === 'capitulo') ? plural(l.length, 'capítulo', 'capítulos') : plural(l.length, 'seção', 'seções'));
+/* rótulo de uma folha nos passos «Anterior»/«Seguinte»: a parte, como sempre; o capítulo ou a seção
+   com o número e o título, e com a parte na frente quando é de outra parte */
+function rotuloFolha(o, f, daqui) {
+  if (!f.cadeia.length) return rotuloPasso(f.parte);
+  const x = f.no, nome = x.tipo === 'capitulo' ? 'Capítulo ' + esc(x.n) + ' · ' + inline(x.titulo)
+    : x.tipo === 'abertura' ? 'Abertura · ' + inline(x.titulo) : esc(x.n) + (/\)$/.test(x.n) ? ' ' : '. ') + inline(x.titulo);
+  return (daqui && daqui.parte === f.parte ? '' : esc(rotuloParte(o, f.parte)) + ' · ') + nome;
+}
+/* a trilha até um item dentro da parte: Área › Autor › Obra › Parte › Capítulo (› Seção) */
+function trilhaDentro(a, o, x) {
+  const passos = [{ txt: a.nome, href: U.autor(a) }, { txt: o.titulo, href: U.obra(o) }, { txt: rotuloParte(o, x.parte), href: U.parte(o, x.i) }];
+  x.cadeia.forEach((y, j) => passos.push({ txt: curto(y), href: U.parte(o, x.i) + x.cadeia.slice(0, j + 1).map((z) => z.slug + '/').join('') }));
+  delete passos[passos.length - 1].href;
+  return comArea(a, passos);
+}
+const passo = (cls, rel, dir, href, alvo) => '<a class="passo ' + cls + '" href="' + href + '" rel="' + rel + '"><span class="dir">' + dir + '</span><span class="alvo">' + alvo + '</span></a>';
+function paginaParte(a, o, f) {
+  const fs_ = folhasDe(o), i = f.k + 1, total = fs_.length, poema = !!o.poema, conto = !!o.coletanea || poema;
+  const p = f.no, sub = f.cadeia.length > 0, partes = o.partes.length;
   const bilingue = p.original !== undefined && p.original !== null;
   let passos;
   if (poema) {
     passos = trilhaPasta(a, o).concat(total > 1 ? [{ txt: o.titulo, href: U.obra(o) }, { txt: rotuloParte(o, p) }] : [{ txt: o.titulo }]);
+  } else if (sub) {
+    passos = trilhaDentro(a, o, f);
   } else {
     passos = [{ txt: a.nome, href: U.autor(a) }, { txt: o.titulo, href: U.obra(o) }, { txt: rotuloParte(o, p) }];
     if (conto) {
@@ -693,13 +853,12 @@ function paginaParte(a, o, i) {
     }
     passos = comArea(a, passos);
   }
-  const passo = (cls, rel, dir, href, alvo) => '<a class="passo ' + cls + '" href="' + href + '" rel="' + rel + '"><span class="dir">' + dir + '</span><span class="alvo">' + alvo + '</span></a>';
   const indice = (href, alvo) => '<a class="passo seg" href="' + href + '"><span class="dir">Índice</span><span class="alvo">' + esc(alvo) + '</span></a>';
   let navAnt = '<span class="passo vazio"></span>', navSeg, prev = null, next = null;
   const irmaos = poema ? vizinhosPoema(o) : conto ? daColetanea(o) : [], k = irmaos.indexOf(o);
-  if (i > 1) { prev = U.parte(o, i - 1); navAnt = passo('ant', 'prev', '← Anterior', prev, rotuloPasso(o.partes[i - 2])); }
+  if (i > 1) { const x = fs_[i - 2]; prev = x.url; navAnt = passo('ant', 'prev', '← Anterior', prev, rotuloFolha(o, x, f)); }
   else if (k > 0) { const x = irmaos[k - 1]; prev = U.parte(x, x.partes.length); navAnt = passo('ant', 'prev', '← Anterior', prev, esc(x.titulo)); }
-  if (i < total) { next = U.parte(o, i + 1); navSeg = passo('seg', 'next', 'Seguinte →', next, rotuloPasso(o.partes[i])); }
+  if (i < total) { const x = fs_[i]; next = x.url; navSeg = passo('seg', 'next', 'Seguinte →', next, rotuloFolha(o, x, f)); }
   else if (k >= 0 && k < irmaos.length - 1) { const x = irmaos[k + 1]; next = U.parte(x, 1); navSeg = passo('seg', 'next', 'Seguinte →', next, esc(x.titulo)); }
   else if (poema) navSeg = indice(U.indicePoema(a, o), formaEhPasta(a.id, o.forma || 'outras') ? acharForma(o.forma || 'outras').nome
     : U.poesia(a) === U.autor(a) ? a.nome : 'Poesia');
@@ -723,30 +882,81 @@ function paginaParte(a, o, i) {
       (o.traducao ? '<p class="publicacao">Tradução do ' + esc(o.traducao.lingua) + '</p>' : '') +
       (o.publicacao ? '<p class="publicacao">' + inline(textoPublicacao(o)) + '</p>' : '') : '') +
       (total > 1 ? (p.n ? '<p class="num-parte">' + esc(p.n) + '</p>' : '') + (p.titulo ? titulo('h2', '', p.titulo, p.tituloOriginal) : '') : '');
+  } else if (sub) {
+    cabeca = '<p class="num-parte">' + esc([rotuloParte(o, f.parte)].concat(f.cadeia.slice(0, -1).map(curto)).join(' · ')) + '</p>' +
+      titulo('h1', '', p.cab, p.cabOriginal);
   } else {
     cabeca = (p.n ? '<p class="num-parte">' + esc(p.n) + '</p>' : '') + (p.titulo ? titulo('h1', '', p.titulo, p.tituloOriginal) : '');
   }
   if (!/<h1/.test(cabeca)) cabeca = '<h1 class="visualmente-oculto">' + esc(rotuloParte(o, p) === o.titulo ? o.titulo : o.titulo + ' — ' + rotuloParte(o, p)) + '</h1>' + cabeca;
+  /* onde se está: entre as partes, ou entre os irmãos do capítulo (ou da seção), com o índice de cima */
+  let posicao = '';
+  if (sub) {
+    const pai = infoNo(o, f.i, f.cadeia.slice(0, -1)), lista = pai.no.filhos;
+    posicao = '<p class="posicao">' + (lista.indexOf(p) + 1) + ' de ' + lista.length + ' · <a href="' + pai.url + '">' +
+      esc(pai.cadeia.length ? curto(pai.no) : rotuloParte(o, pai.parte)) + '</a> · <a href="' + U.obra(o) + '">índice</a></p>';
+  } else if (partes > 1) posicao = '<p class="posicao">' + f.i + ' de ' + partes + ' · <a href="' + U.obra(o) + '">índice</a></p>';
+  const alvo = !sub ? 'parte' : p.tipo === 'capitulo' ? 'capitulo' : 'secao';
   const lingua = bilingue && o.traducao ? o.traducao.codigo || '' : '';
   const html = '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
     '<article class="folha leitura' + (poema ? ' de-poema' : '') + (bilingue ? ' bilingue ver-trad' : '') + '"' + (lingua ? ' data-lingua="' + esc(lingua) + '"' : '') + '>' +
     '<header class="cabeca-parte' + (conto && i === 1 ? ' conto' : '') + '">' + cabeca + '</header>' + textoParte(o, p) +
     '<div id="fim-parte" aria-hidden="true"></div>' +
     (i < total || poema ? '' : '<p class="fim">Fim</p>') +
-    '<div class="estado-leitura" id="estado-leitura" data-alvo="parte" hidden></div>' +
-    '<nav class="passos" aria-label="Navegação entre ' + esc(poema && total === 1 ? 'poemas' : o.divisao ? o.divisao.plural : 'partes') + '">' + navAnt + navSeg + '</nav>' +
-    (total > 1 ? '<p class="posicao">' + i + ' de ' + total + ' · <a href="' + U.obra(o) + '">índice</a></p>' : '') +
+    '<div class="estado-leitura" id="estado-leitura" data-alvo="' + alvo + '" hidden></div>' +
+    '<nav class="passos" aria-label="Navegação entre ' + esc(poema && total === 1 ? 'poemas' : dividida(o) ? 'capítulos' : o.divisao ? o.divisao.plural : 'partes') + '">' + navAnt + navSeg + '</nav>' +
+    posicao +
     (conto && o.edicao && i === total ? '<p class="posicao"><a href="' + U.sobre(o) + '">' + esc(tituloSobre(o)) + '</a></p>' : '') + '</article>';
-  const rot = rotuloParte(o, p);
-  const tituloPagina = (rot && rot !== o.titulo ? rot + (p.titulo && rot.indexOf(textoPuro(p.titulo)) < 0 ? ': ' + textoPuro(p.titulo) : '') + ' — ' : '') + o.titulo + ' — ' + a.nome;
-  pagina({ url: U.parte(o, i), titulo: tituloPagina, corpo: html, trilha: passos, prev, next,
+  const rot = sub ? f.rotulo : rotuloParte(o, p);
+  const tituloPagina = sub ? rot + ': ' + textoPuro(p.titulo) + ' — ' + o.titulo + ' — ' + a.nome
+    : (rot && rot !== o.titulo ? rot + (p.titulo && rot.indexOf(textoPuro(p.titulo)) < 0 ? ': ' + textoPuro(p.titulo) : '') + ' — ' : '') + o.titulo + ' — ' + a.nome;
+  pagina({ url: f.url, titulo: tituloPagina, corpo: html, trilha: passos, prev, next,
     bilingue: bilingue ? (o.traducao && o.traducao.lingua ? o.traducao.lingua.charAt(0).toUpperCase() + o.traducao.lingua.slice(1) : 'Original') : null,
     progresso: total > 1 ? i / total : undefined,
     descricao: descricaoDe(p.texto),
-    dados: { pagina: 'parte', obra: chaveObra(o), parte: umaParte(o) ? 'texto' : p.slug, indice: i, total,
+    dados: { pagina: 'parte', obra: chaveObra(o), parte: f.chave, indice: i, total, ...(sub ? { cadeia: f.acima.join(' ') } : {}),
       rotulo: rot === o.titulo ? '' : rot, 'titulo-obra': o.titulo, 'url-obra': U.obra(o) },
     jsonld: umaParte(o) ? jsonObra(a, o) : { '@context': 'https://schema.org', '@type': 'Chapter', name: tituloPagina.replace(/ — [^—]+$/, ''),
       position: i, isPartOf: { '@type': 'Book', name: o.titulo, url: SITE + U.obra(o) }, author: { '@type': 'Person', name: a.nomeCompleto || a.nome }, inLanguage: 'pt-BR' } });
+}
+
+/* Página de índice dentro da obra: a parte com capítulos (no endereço que a parte sempre teve) ou o
+   capítulo com seções. Lista aberta, sem recolher; «Começar a ler» vai à primeira folha, e as setas
+   e os passos seguem a ordem de leitura (a folha antes deste índice e a primeira dele). Cada item
+   leva a linha em que começava na página antiga da parte (data-linha), para o leitor.js levar ao
+   capítulo certo quem tinha parado no meio da parte inteira. */
+function paginaIndice(a, o, x) {
+  const fs_ = folhasDe(o), p = x.no, ehParte = !x.cadeia.length;
+  const primeira = fs_.find((f) => f.parte === x.parte && x.cadeia.every((y, j) => f.cadeia[j] === y)), antes = fs_[primeira.k - 1];
+  const prev = antes ? antes.url : null, next = primeira.url;
+  const navAnt = antes ? passo('ant', 'prev', '← Anterior', prev, rotuloFolha(o, antes, x)) : '<span class="passo vazio"></span>';
+  const navSeg = passo('seg', 'next', 'Seguinte →', next, rotuloFolha(o, primeira, x));
+  const cabeca = ehParte ? (p.n ? '<p class="num-parte">' + esc(p.n) + '</p>' : '') + '<h1>' + inline(p.titulo || rotuloParte(o, p)) + '</h1>'
+    : '<p class="num-parte">' + esc([rotuloParte(o, x.parte)].concat(x.cadeia.slice(0, -1).map(curto)).join(' · ')) + '</p><h1>' + inline(p.cab) + '</h1>';
+  const pre = ehParte && p.preambulo ? '<div class="preambulo">' + blocos(p.preambulo) + '</div>' : '';
+  const nome = contaFilhos(p.filhos).replace(/^\d+ /, '');
+  let html = '<p class="aviso-outro" id="aviso-outro" hidden></p><div class="folha indice-parte"><header class="cabeca-parte">' + cabeca + pre + '</header>' +
+    '<p class="acoes"><a class="botao" id="comecar" href="' + primeira.url + '">Começar a ler</a></p>' +
+    '<div class="estado-leitura" id="estado-leitura" data-alvo="' + (ehParte ? 'parte' : 'capitulo') + '" hidden></div>' +
+    '<p class="secao-titulo">' + esc(nome.charAt(0).toUpperCase() + nome.slice(1)) + '</p>' +
+    '<ol class="indice" id="indice-no"' + (ehParte ? ' data-celulas="' + (p.original !== undefined && p.original !== null ? 2 : 1) + '"' : '') + '>';
+  p.filhos.forEach((y) => {
+    const z = infoNo(o, x.i, x.cadeia.concat(y));
+    html += '<li data-no="' + z.chave + '"' + (ehParte ? ' data-linha="' + y.linha + '"' : '') + ' data-rotulo="' + esc(z.rotulo) + '"><a href="' + z.url + '">' +
+      '<span class="num">' + esc(y.tipo === 'abertura' ? '' : y.n) + '</span><span class="tit">' + (y.tipo === 'abertura' ? 'Abertura' : inline(y.titulo)) +
+      (y.filhos ? '<span class="folhas">' + contaFilhos(y.filhos) + '</span>' : '') + '</span></a></li>';
+  });
+  const pai = ehParte ? null : infoNo(o, x.i, x.cadeia.slice(0, -1)), irmaos = pai ? pai.no.filhos : o.partes;
+  html += '</ol><nav class="passos" aria-label="Navegação entre capítulos">' + navAnt + navSeg + '</nav>' +
+    '<p class="posicao">' + (irmaos.indexOf(p) + 1) + ' de ' + irmaos.length +
+    (pai ? ' · <a href="' + pai.url + '">' + esc(pai.cadeia.length ? curto(pai.no) : rotuloParte(o, pai.parte)) + '</a>' : '') +
+    ' · <a href="' + U.obra(o) + '">índice</a></p></div>';
+  const rot = x.rotulo, tit = p.titulo;
+  const tituloPagina = (tit && rot.indexOf(textoPuro(tit)) < 0 ? rot + ': ' + textoPuro(tit) : rot) + ' — ' + o.titulo + ' — ' + a.nome;
+  pagina({ url: x.url, titulo: tituloPagina, corpo: html, trilha: trilhaDentro(a, o, x), prev, next,
+    descricao: descricaoDe(`${rot}${tit ? ': ' + tit : ''}, de ${o.titulo}, de ${a.nome}: ${contaFilhos(p.filhos)}. ${p.preambulo || ''}`),
+    dados: { pagina: 'no', obra: chaveObra(o), no: x.chave, ...(x.acima.length ? { cadeia: x.acima.join(' ') } : {}),
+      estrutura: estruturaCurta(o), rotulo: rot, 'titulo-obra': o.titulo, 'url-obra': U.obra(o) } });
 }
 
 function colunaLugar(itens, rotParte) {
@@ -836,7 +1046,8 @@ dados.obras.forEach((o) => {
     return;
   }
   if (!umaParte(o)) paginaObra(a, o);
-  o.partes.forEach((p, i) => paginaParte(a, o, i + 1));
+  folhasDe(o).forEach((f) => paginaParte(a, o, f));
+  nosDe(o).forEach((x) => paginaIndice(a, o, x));
   if (o.edicao) paginaSobre(a, o);
 });
 
@@ -872,14 +1083,14 @@ fs.writeFileSync(path.join(SAIDA, 'vendor', 'supabase-js-2.117.2.js'), lerLf(pat
 fs.writeFileSync(path.join(SAIDA, 'js', 'taioe-sessao.js'), lerLf(path.join(RAIZ, 'ferramentas', 'site', 'comum', 'taioe-sessao.js')));
 
 // índice compacto das obras: títulos e partes, para «Continuar a leitura» de outro aparelho
-// e para converter os endereços antigos (#/o/<id>/<n>)
+// e para converter os endereços antigos (#/o/<id>/<n>). Parte dividida: [slug, rótulo, capítulos],
+// e cada capítulo [slug, rótulo] ou [slug, rótulo, seções] (ver arvore() no leitor.js).
 const indiceObras = {};
 dados.obras.forEach((o) => {
   const a = acharAutor(o.autor);
-  // obra «só posição» (o Catecismo): q = [primeira, última, rótulo] no lugar da lista das partes (ver leitor.js)
+  // obra «só posição» (o Catecismo): q = [primeira, última, rótulo] no lugar da estrutura das partes (ver leitor.js)
   indiceObras[chaveObra(o)] = { i: o.id, t: o.titulo, a: a ? a.nome : o.autor, u: U.obra(o),
-    ...(o.catecismo ? { q: [o.catecismo.min, o.catecismo.max, 'Ponto'] }
-      : { p: umaParte(o) ? [['texto', '']] : o.partes.map((p) => [p.slug, rotuloParte(o, p)]) }) };
+    ...(o.catecismo ? { q: [o.catecismo.min, o.catecismo.max, 'Ponto'] } : { p: umaParte(o) ? [['texto', '']] : estrutura(o) }) };
 });
 fs.writeFileSync(path.join(SAIDA, 'obras.json'), JSON.stringify(indiceObras));
 
@@ -887,7 +1098,9 @@ fs.writeFileSync(path.join(SAIDA, 'obras.json'), JSON.stringify(indiceObras));
    busca/titulos.json: obras e autores, para a busca por nome (no navegador: começo do nome
    primeiro, depois qualquer parte). busca/docs.json: as partes (obra, parte), na ordem dos
    números do índice. busca/i/<xy>.json: o índice invertido dos textos, partido pelas duas
-   primeiras letras da palavra: { palavra: "números das partes, em base 36, por diferença" }. */
+   primeiras letras da palavra: { palavra: "números das partes, em base 36, por diferença" }.
+   Nas partes divididas, cada capítulo (ou seção) é um documento: [obra, parte, capítulo(, seção)];
+   o preâmbulo da parte, quando há, fica no documento [obra, parte], o índice dela. */
 const STOP = new Set(('de da do das dos a o as os e é em um uma uns umas no na nos nas ao aos à às que se por para com ' +
   'não mas ou como mais lhe lhes me te vos seu sua seus suas meu minha meus minhas teu tua ele ela eles elas eu tu ' +
   'isso isto este esta estes estas esse essa esses essas aquele aquela era foi ser há já só the and of to in that is it ' +
@@ -908,11 +1121,20 @@ fs.writeFileSync(path.join(SAIDA, 'busca', 'titulos.json'), JSON.stringify(titul
 const chaves = [], docs = [], postings = new Map();
 dados.obras.forEach((o) => {
   const oi = chaves.push(chaveObra(o)) - 1;
-  o.partes.forEach((p, pi) => {
-    const d = docs.push([oi, pi]) - 1;
-    const vistas = new Set((normal(limpo(p.texto) + ' ' + limpo(p.original)).match(/[a-z0-9]+/g) || [])
+  const indexar = (caminho, texto) => {
+    const d = docs.push([oi, ...caminho]) - 1;
+    const vistas = new Set((normal(texto).match(/[a-z0-9]+/g) || [])
       .filter((w) => w.length >= 2 && w.length <= 30 && !STOP.has(w)));
     vistas.forEach((w) => { let l = postings.get(w); if (!l) postings.set(w, (l = [])); l.push(d); });
+  };
+  const andar = (lista, caminho) => lista.forEach((y, yi) => {
+    if (y.filhos) andar(y.filhos, caminho.concat(yi));
+    else indexar(caminho.concat(yi), limpo(y.cab) + ' ' + limpo(y.texto) + ' ' + limpo(y.cabOriginal) + ' ' + limpo(y.original));
+  });
+  o.partes.forEach((p, pi) => {
+    if (!p.filhos) { indexar([pi], limpo(p.texto) + ' ' + limpo(p.original)); return; }
+    if (p.preambulo) indexar([pi], limpo(p.preambulo));
+    andar(p.filhos, [pi]);
   });
 });
 fs.writeFileSync(path.join(SAIDA, 'busca', 'docs.json'), JSON.stringify({ o: chaves, d: docs }));

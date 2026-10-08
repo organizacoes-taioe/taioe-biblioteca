@@ -44,6 +44,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'dom-chautard',
+  area: 'catolicismo',
+  nome: 'Dom Chautard',
+  nomeCompleto: 'Jean-Baptiste Chautard',
+  vida: '1858–1935',
+  ordem: 'Chautard, Dom',
+  nota: 'Monge trapista, abade de Sept-Fons. Em tradução do francês, com o original ao lado.'
+});
+
+BIBLIOTECA.autor({
   id: 'g-k-chesterton',
   area: 'catolicismo',
   nome: 'G. K. Chesterton',

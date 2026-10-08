@@ -8,14 +8,15 @@
 //   .../catecismo-da-igreja-catolica/          rosto: o Prólogo e as quatro partes, «Ir ao ponto»
 //   .../catecismo-da-igreja-catolica/parte-1/  as seções da parte (e .../prologo/, os tópicos do Prólogo)
 //   .../parte-1/secao-2/                       os capítulos da seção
-//   .../parte-1/secao-2/capitulo-1/            o que se lê: artigos, parágrafos e tópicos, até as aberturas
+//   .../parte-1/secao-2/capitulo-1/            o que se lê: artigos, parágrafos e tópicos, até os pontos
 //   .../catecismo-da-igreja-catolica/27/       o ponto 27: trilha, numeral, subtítulo, corpo, referências
-//   .../catecismo-da-igreja-catolica/a27/      a abertura do tópico que começa no ponto 27
 //   .../catecismo-da-igreja-catolica/sobre/    a origem do texto
 //
-// A navegação passa pelas aberturas, como no leitor antigo: … 26 → a27 → 27 → 28 …
+// A navegação vai de ponto em ponto: … 26 → 27 → 28 … O primeiro ponto de cada tópico traz no alto,
+// em destaque, os níveis que começam ali (a «abertura»: parte, seção, capítulo, artigo, parágrafo,
+// tópico). As antigas páginas de abertura (.../a27/) ficam só como redirecionamento para o ponto.
 // Os endereços são o próprio número do ponto e não mudam: não entram em enderecos.json.
-// Para a busca, as partes da obra são os pontos; as aberturas são páginas de passagem. O estado de
+// Para a busca, as partes da obra são os pontos. O estado de
 // leitura guarda só a posição («Continuar: Ponto N») e a escolha manual da obra (lendo, lida), sem
 // marca por ponto: milhares de marcas estourariam o limite de leituras.partes no banco (64 KB).
 // No obras.json, a obra vai com q = [primeiro, último, 'Ponto'] em vez da lista dos pontos.
@@ -83,7 +84,7 @@ O texto desta edição é a tradução portuguesa publicada pela Santa Sé no s�
 
 Os direitos do texto são da Libreria Editrice Vaticana (© Libreria Editrice Vaticana). Ao contrário das outras obras desta biblioteca, o _Catecismo_ não está em domínio público.
 
-Cada um dos ${TOTAL} pontos (os parágrafos numerados do _Catecismo_) tem página própria, com as referências embaixo. Quando a nota traz um texto que não aparece no corpo do ponto, esse texto vem junto da fonte; quando a citação já foi transcrita no corpo, a nota mostra só a fonte e uma etiqueta que o diz. Tocar no número de uma nota abre a referência ali mesmo. Entre um tópico e outro, uma página de abertura anuncia o que começa ali: parte, seção, capítulo, artigo, parágrafo ou tópico.
+Cada um dos ${TOTAL} pontos (os parágrafos numerados do _Catecismo_) tem página própria, com as referências embaixo. Quando a nota traz um texto que não aparece no corpo do ponto, esse texto vem junto da fonte; quando a citação já foi transcrita no corpo, a nota mostra só a fonte e uma etiqueta que o diz. Tocar no número de uma nota abre a referência ali mesmo. O primeiro ponto de cada tópico anuncia no alto da página o que começa ali: parte, seção, capítulo, artigo, parágrafo ou tópico.
 
 Por enquanto estão publicados os pontos ${man.min} a ${man.max}; os outros entram aos poucos.`,
       fontes: [{ nome: 'Catecismo da Igreja Católica, em vatican.va', url: VATICANO, nota: 'tradução portuguesa publicada pela Santa Sé' },
@@ -100,21 +101,18 @@ export function paginasCatecismo(a, o, h) {
   const P = (n) => raiz + n + '/', A = (n) => raiz + 'a' + n + '/';
   const temAb = (n) => !!ab[n];
   const textoNivel = (x) => (x.rotulo ? x.rotulo + ': ' : '') + x.titulo;
-  const tituloAb = (n) => textoNivel(ab[n].novos[0]);
-  const autor = { '@type': 'Organization', name: a.nomeCompleto || a.nome };
+    const autor = { '@type': 'Organization', name: a.nomeCompleto || a.nome };
 
   const passo = (cls, rel, dir, alvo) => (alvo
     ? '<a class="passo ' + cls + '" href="' + alvo.url + '" rel="' + rel + '"><span class="dir">' + dir + '</span><span class="alvo">' + esc(alvo.txt) + '</span></a>'
     : '<span class="passo vazio"></span>');
   const indice = () => '<a class="passo seg" href="' + raiz + '"><span class="dir">Índice</span><span class="alvo">' + esc(o.tituloCurto) + '</span></a>';
   // o campo é de texto com teclado numérico: sem as setinhas de subir e descer do type="number"
-  const irAoPonto = (sufixo) => '<form class="ir-ponto" id="ir-ponto" data-url="' + raiz + '" data-min="' + min + '" data-max="' + max + '"' +
-    ' data-total="' + TOTAL + '"' + (sufixo === 'obra' ? ' data-aberturas="' + Object.keys(ab).join(' ') + '"' : '') + ' novalidate hidden>' +
+  const irAoPonto = () => '<form class="ir-ponto" id="ir-ponto" data-url="' + raiz + '" data-min="' + min + '" data-max="' + max + '"' +
+    ' data-total="' + TOTAL + '" novalidate hidden>' +
     '<label for="ir-ponto-n">Ir ao ponto</label><input id="ir-ponto-n" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="4"' +
     ' autocomplete="off" placeholder="' + min + '">' +
     '<button type="submit">Ir</button><span class="ir-aviso" id="ir-aviso" role="status"></span></form>';
-  // a sequência do leitor: o que vem antes e depois de cada ponto e de cada abertura
-  const pontoOuAbertura = (n) => (temAb(n) ? { url: A(n), txt: tituloAb(n) } : { url: P(n), txt: 'Ponto ' + n });
 
   // ---------------------------------------------------------------- a árvore dos níveis
   // Cada nível que começa numa abertura (parte, seção, capítulo, artigo, parágrafo, tópico) vira
@@ -158,9 +156,8 @@ export function paginasCatecismo(a, o, h) {
   entradas.filter(estrutural).reverse().forEach((e) => {          // de baixo para cima: o filho decide antes do pai
     const it = itens(e);
     e.temPagina = it.length > 1 || (it.length === 1 && !it[0].inicio && !estrutural(it[0]) && it[0].filhos.length > 0);
-    e.destino = e.temPagina ? e.url : it.length === 1 && estrutural(it[0]) ? it[0].destino : A(e.de);
+    e.destino = e.temPagina ? e.url : it.length === 1 && estrutural(it[0]) ? it[0].destino : P(e.de);
   });
-  const destino = (e) => (estrutural(e) ? e.destino : A(e.de));
   // a cadeia de níveis que contém o ponto n, do mais alto ao mais baixo
   const cadeia = (n) => {
     const c = [];
@@ -168,16 +165,12 @@ export function paginasCatecismo(a, o, h) {
     return c;
   };
   const ancora = (e) => e.x.nivel + '-' + e.de;
-  // a página de nível onde a entrada aparece (a do capítulo, para artigos, parágrafos e tópicos)
-  const ondeAparece = (e) => {
-    for (let p = e.pai; p; p = p.pai) if (estrutural(p) && p.temPagina) return p.url + '#' + ancora(e);
-    return raiz;
-  };
-  const linkNivel = (e) => (estrutural(e) ? e.destino : ondeAparece(e));
+  // o link de um nível: parte, seção e capítulo levam à sua página; artigo, parágrafo e tópico, ao primeiro ponto
+  const linkNivel = (e) => (estrutural(e) ? e.destino : P(e.de));
   const trilhaNiveis = (es) => es.filter(estrutural).map((e) => ({ txt: e.curto, href: e.destino }));
-  // a trilha do topo nas aberturas e nos pontos: Catecismo › Primeira parte › Segunda seção › Capítulo 1 › Ponto 27
+  // a trilha do topo nos pontos: Catecismo › Primeira parte › Segunda seção › Capítulo 1 › Ponto 27
   const trilha = (ultimo, n) => h.trilhaObra(a, o).concat({ txt: o.tituloCurto, href: raiz }, trilhaNiveis(cadeia(n)), { txt: ultimo });
-  // «índice», embaixo das aberturas e dos pontos: a página de nível onde está o ponto n, no item dele
+  // «índice», embaixo dos pontos: a página de nível onde está o ponto n, no item dele
   const indiceDe = (n) => {
     const c = cadeia(n), ult = c[c.length - 1];
     for (let k = c.length - 1; k >= 0; k--) {
@@ -185,7 +178,7 @@ export function paginasCatecismo(a, o, h) {
     }
     return raiz;
   };
-  // a linha de contexto dos pontos e das aberturas, com links: cada texto que for um nível da cadeia
+  // a linha de contexto dos pontos e da abertura no primeiro ponto do tópico, com links: cada texto que for um nível da cadeia
   const ligarContexto = (textos, n, cls) => {
     const c = cadeia(n);
     return textos.map((t, k) => {
@@ -202,12 +195,12 @@ export function paginasCatecismo(a, o, h) {
   const rotulo = (r, t) => (r ? '<span class="rot">' + esc(r) + '</span> ' : '') + '<span class="tit">' + esc(t) + '</span>';
   // a lista aberta do que se lê (artigos, parágrafos, tópicos), indentada por nível
   const listaLeitura = (es) => (es.length ? '<ol>' + es.map((e) => '<li class="nivel-' + e.x.nivel + '" id="' + ancora(e) + '">' +
-    '<a href="' + A(e.de) + '">' + rotulo(e.x.rotulo, e.x.titulo) + faixa(e.de, e.ate) + '</a>' + listaLeitura(e.filhos) + '</li>').join('') + '</ol>' : '');
+    '<a href="' + P(e.de) + '">' + rotulo(e.x.rotulo, e.x.titulo) + faixa(e.de, e.ate) + '</a>' + listaLeitura(e.filhos) + '</li>').join('') + '</ol>' : '');
   const item = (e) => (e.inicio
-    ? '<li class="nivel-inicio"><a href="' + A(e.de) + '">' + rotulo(null, INICIO[e.nivel]) + faixa(e.de, e.ate) + '</a></li>'
+    ? '<li class="nivel-inicio"><a href="' + P(e.de) + '">' + rotulo(null, INICIO[e.nivel]) + faixa(e.de, e.ate) + '</a></li>'
     : estrutural(e)
       ? '<li class="nivel-' + e.x.nivel + ' passa"><a href="' + e.destino + '">' + rotulo(prologo(e) ? null : e.x.rotulo, e.x.titulo) + faixa(e.de, e.ate) + '</a></li>'
-      : '<li class="nivel-' + e.x.nivel + '" id="' + ancora(e) + '"><a href="' + A(e.de) + '">' + rotulo(e.x.rotulo, e.x.titulo) + faixa(e.de, e.ate) + '</a>' +
+      : '<li class="nivel-' + e.x.nivel + '" id="' + ancora(e) + '"><a href="' + P(e.de) + '">' + rotulo(e.x.rotulo, e.x.titulo) + faixa(e.de, e.ate) + '</a>' +
         listaLeitura(e.filhos) + '</li>');
 
   // ---------------------------------------------------------------- rosto
@@ -226,8 +219,8 @@ export function paginasCatecismo(a, o, h) {
       (publicados ? '<p class="publicacao">' + esc(publicados) + '</p>' : '') +
       '<p class="descricao">' + esc(o.descricao) + '</p>' +
       '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
-      '<p class="acoes"><a class="botao" id="comecar" href="' + pontoOuAbertura(min).url + '">Começar a ler</a> ' +
-      '<a class="botao secundario" href="' + U.sobre(o) + '">' + esc(h.tituloSobre(o)) + '</a></p>' + irAoPonto('obra') +
+      '<p class="acoes"><a class="botao" id="comecar" href="' + P(min) + '">Começar a ler</a> ' +
+      '<a class="botao secundario" href="' + U.sobre(o) + '">' + esc(h.tituloSobre(o)) + '</a></p>' + irAoPonto() +
       '<div class="estado-leitura" id="estado-leitura" data-alvo="obra" hidden></div></header>' +
       '<p class="secao-titulo">Índice</p><nav class="indice-cat" aria-label="Partes do Catecismo"><ol>' + linhas.join('') + '</ol></nav></div>';
     h.pagina({ url: raiz, titulo: o.titulo, corpo: html, trilha: h.trilhaObra(a, o).concat({ txt: o.tituloCurto }), rodape: o.rodape,
@@ -261,27 +254,21 @@ export function paginasCatecismo(a, o, h) {
     });
   }
 
-  // ---------------------------------------------------------------- aberturas
-  Object.keys(ab).map(Number).forEach((n) => {
-    const x = ab[n];
-    const contexto = x.contexto.length ? '<div class="contexto">' + ligarContexto(x.contexto, n) + '</div>' : '';
-    const niveis = x.novos.map((v, k) => {
-      const tag = k === 0 ? 'h1' : 'h2';
-      return '<div class="nivel ' + v.nivel + '">' + (v.rotulo ? '<p class="rotulo">' + esc(v.rotulo) + '</p>' : '') +
-        '<' + tag + ' class="titulo">' + esc(v.titulo) + '</' + tag + '></div>';
-    }).join('<div class="elo"></div>');
-    const prev = n > min ? { url: P(n - 1), txt: 'Ponto ' + (n - 1) } : null, next = { url: P(n), txt: 'Ponto ' + n };
-    const html = '<article class="folha catecismo abertura-cat">' + contexto + '<div class="ornato"></div>' + niveis +
-      '<p class="adiante">Ponto ' + n + ' em diante</p>' +
-      '<nav class="passos" aria-label="Navegação entre os pontos">' + passo('ant', 'prev', '← Anterior', prev) + passo('seg', 'next', 'Seguinte →', next) + '</nav>' +
-      '<p class="posicao"><a href="' + indiceDe(n) + '">índice</a></p>' + irAoPonto() + '</article>';
-    h.pagina({ url: A(n), titulo: tituloAb(n) + ' — ' + o.titulo, corpo: html, trilha: trilha('Abertura ' + n, n), rodape: o.rodape,
-      prev: prev && prev.url, next: next.url, semSitemap: true,
-      descricao: h.descricaoDe(`${o.titulo}, a partir do ponto ${n}: ` + x.contexto.concat(x.novos.map(textoNivel)).join(' · ') + '.'),
-      dados: { pagina: 'abertura', obra: chave, 'url-obra': raiz } });
-  });
+  // ---------------------------------------------------------------- os antigos endereços das aberturas
+  // .../a27/ era a página de abertura do tópico que começa no ponto 27; agora o próprio ponto 27 traz
+  // a abertura no alto. O endereço antigo continua valendo: leva ao ponto (fora do sitemap e da contagem).
+  Object.keys(ab).map(Number).forEach((n) => h.redirecionar(A(n), P(n), 'Ponto ' + n + ' — ' + o.titulo));
 
   // ---------------------------------------------------------------- pontos
+  // o que muda no primeiro ponto de um tópico: o contexto (os níveis de cima, com links) e, grandes,
+  // os níveis novos, cada um com rótulo e título — o que a página de abertura mostrava
+  const abertura = (n) => {
+    const x = ab[n];
+    const contexto = x.contexto.length ? '<div class="contexto">' + ligarContexto(x.contexto, n) + '</div>' : '';
+    const niveis = x.novos.map((v) => '<div class="nivel ' + v.nivel + '">' + (v.rotulo ? '<p class="rotulo">' + esc(v.rotulo) + '</p>' : '') +
+      '<h2 class="titulo">' + esc(v.titulo) + '</h2></div>').join('<div class="elo"></div>');
+    return '<div class="abertura-ponto">' + contexto + '<div class="ornato"></div>' + niveis + '</div>';
+  };
   o.partes.forEach((p) => {
     const n = p.num, d = p.ponto, sub = man.subtitulos[n];
     const trilhaPonto = d.trail.length ? '<p class="trilha-ponto">' +
@@ -290,11 +277,12 @@ export function paginasCatecismo(a, o, h) {
       d.notes.map((x) => '<div class="nota-ponto" id="nota-' + x.n + '"><span class="n">' + x.n + '</span><div class="nota-corpo">' +
         '<p class="src">' + x.fonte + '</p>' + (x.txt ? '<div class="quoted">' + x.txt + '</div>' : '') +
         (x.tag ? '<span class="etiqueta">' + esc(x.tag) + '</span>' : '') + '</div></div>').join('') + '</section>' : '';
-    const prev = temAb(n) ? { url: A(n), txt: tituloAb(n) } : n > min ? { url: P(n - 1), txt: 'Ponto ' + (n - 1) } : null;
-    const next = n < max ? pontoOuAbertura(n + 1) : null;
+    const prev = n > min ? { url: P(n - 1), txt: 'Ponto ' + (n - 1) } : null;
+    const next = n < max ? { url: P(n + 1), txt: 'Ponto ' + (n + 1) } : null;
     const html = '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
       '<article class="folha leitura catecismo ponto">' +
-      '<header class="cabeca-ponto">' + trilhaPonto + '<h1 class="numeral"><span class="visualmente-oculto">Ponto </span>' + n + '</h1>' +
+      '<header class="cabeca-ponto' + (temAb(n) ? ' com-abertura' : '') + '">' + (temAb(n) ? abertura(n) : trilhaPonto) +
+      '<h1 class="numeral"><span class="visualmente-oculto">Ponto </span>' + n + '</h1>' +
       '<div class="regua"></div>' + (sub ? '<h2 class="subtitulo-ponto">' + esc(sub) + '</h2>' : '') + '</header>' +
       '<div class="texto corpo-ponto">' + d.body + '</div>' + notas +
       (o.vaticano[n] ? '<p class="no-vaticano"><a href="' + esc(o.vaticano[n]) + '" target="_blank" rel="noopener">Ler este ponto no site do Vaticano ↗</a></p>' : '') +
@@ -305,7 +293,7 @@ export function paginasCatecismo(a, o, h) {
       '<p class="posicao">Ponto ' + n + ' de ' + TOTAL + ' · <a href="' + indiceDe(n) + '">índice</a></p>' + irAoPonto() + '</article>';
     h.pagina({ url: P(n), titulo: 'Ponto ' + n + ' — ' + o.titulo, corpo: html, trilha: trilha('Ponto ' + n, n), rodape: o.rodape,
       prev: prev && prev.url, next: next ? next.url : null, progresso: n / TOTAL,
-      descricao: h.descricaoDe(`Catecismo, ${n}. ` + semTags(d.body)),
+      descricao: h.descricaoDe(`Catecismo, ${n}. ` + (temAb(n) ? ab[n].novos.map(textoNivel).join(' · ') + '. ' : '') + semTags(d.body)),
       dados: { pagina: 'parte', obra: chave, parte: p.slug, indice: n, total: TOTAL, ponto: n, 'so-posicao': 1,
         rotulo: 'Ponto ' + n, 'titulo-obra': o.titulo, 'url-obra': raiz },
       jsonld: { '@context': 'https://schema.org', '@type': 'Chapter', name: 'Ponto ' + n, position: n,

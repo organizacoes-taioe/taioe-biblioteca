@@ -116,11 +116,10 @@
     window.addEventListener('resize', function () { if (notaAtiva) posicionarPopup(notaAtiva); });
   }
 
-  /* «Ir ao ponto»; e, na página da obra, os endereços do site antigo (#27, #a27) */
+  /* «Ir ao ponto»; e, na página da obra, os endereços do site antigo (#27, #a27: os dois vão ao ponto) */
   var irPonto = $('ir-ponto');
   if (irPonto) {
     var dp = irPonto.dataset, pMin = +dp.min, pMax = +dp.max;
-    var aberturas = (dp.aberturas || '').split(' ').filter(Boolean);
     irPonto.hidden = false;
     irPonto.addEventListener('submit', function (ev) {
       ev.preventDefault();
@@ -132,7 +131,7 @@
     var velho = /^#(a?)(\d+)$/i.exec(location.hash);
     if (D.pagina === 'obra' && velho) {
       var nv = parseInt(velho[2], 10);
-      if (nv >= pMin && nv <= pMax) location.replace(dp.url + (velho[1] && aberturas.indexOf(String(nv)) >= 0 ? 'a' : '') + nv + '/');
+      if (nv >= pMin && nv <= pMax) location.replace(dp.url + nv + '/');
       else $('ir-aviso').textContent = 'O ponto ' + nv + ' ainda não está publicado: por enquanto, só os pontos ' + pMin + ' a ' + pMax + '.';
     }
   }

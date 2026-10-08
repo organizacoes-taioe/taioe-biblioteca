@@ -451,6 +451,30 @@ ${o.corpo}
   if (!o.semSitemap) sitemap.push(o.url);
 }
 
+/* Endereço antigo que passou a ser outro: página mínima que leva ao novo (meta refresh e link),
+   com canonical no novo e noindex; fica fora do sitemap e da contagem de páginas. */
+function redirecionar(url, destino, titulo) {
+  const dir = path.join(SAIDA, url.slice(BASE.length));
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'index.html'), `<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=${esc(destino)}">
+<title>${esc(titulo)} · Biblioteca Taioé</title>
+<meta name="description" content="${esc('Este endereço mudou: ' + titulo + '.')}">
+<link rel="canonical" href="${SITE}${destino}">
+<link rel="stylesheet" href="${BASE}css/estilo.css?v=${V_CSS}">
+</head>
+<body>
+<main id="app"><div class="folha cabeca"><h1>${esc(titulo)}</h1><p>Este endereço mudou. <a href="${destino}">Seguir para a página nova</a></p></div></main>
+</body>
+</html>
+`);
+}
+
 // ------------------------------------------------------------------ páginas
 function paginaCapa() {
   let html = '<div class="folha capa"><h1>Biblioteca</h1><p class="subtitulo">Textos em domínio público</p></div><div class="folha">' +
@@ -807,7 +831,7 @@ dados.autores.forEach((a) => {
 dados.obras.forEach((o) => {
   const a = acharAutor(o.autor) || { nome: o.autor, id: o.autor };
   if (o.catecismo) {
-    paginasCatecismo(a, o, { pagina, esc, U, SITE, trilhaObra, jsonObra, chaveObra, fichaObra, descricaoDe, tituloSobre });
+    paginasCatecismo(a, o, { pagina, redirecionar, esc, U, SITE, trilhaObra, jsonObra, chaveObra, fichaObra, descricaoDe, tituloSobre });
     paginaSobre(a, o);
     return;
   }

@@ -478,7 +478,7 @@ main { padding: 0 1rem 5rem; }
 
 /* ---------------- Catecismo da Igreja Católica ---------------- */
 /* O leitor do site antigo do Catecismo (trilha, numeral, subtítulo marginal, corpo, referências,
-   aberturas entre os tópicos) nas cores e letras da Biblioteca. */
+   abertura no alto do primeiro ponto de cada tópico) nas cores e letras da Biblioteca. */
 
 .cabeca-ponto { padding: clamp(1.6rem, 5vh, 2.6rem) 0 0; }
 .trilha-ponto { margin: 0; }
@@ -618,47 +618,43 @@ main { padding: 0 1rem 5rem; }
 .nivel-cat .cabeca h1 { color: var(--realce); }
 .nivel-cat .indice-cat { margin-top: 1.4rem; }
 .nivel-cat .passos { margin-top: 2.2rem; }
-/* a linha de contexto dos pontos e das aberturas: cada nível leva à sua página */
-.trilha-ponto a, .abertura-cat .contexto a { color: inherit; text-decoration: none; }
-.trilha-ponto a:hover, .abertura-cat .contexto a:hover { color: var(--realce); text-decoration: underline; text-underline-offset: .2em; }
+/* a linha de contexto dos pontos e da abertura: cada nível leva à sua página (ou ao primeiro ponto) */
+.trilha-ponto a, .abertura-ponto .contexto a { color: inherit; text-decoration: none; }
+.trilha-ponto a:hover, .abertura-ponto .contexto a:hover { color: var(--realce); text-decoration: underline; text-underline-offset: .2em; }
 
-/* abertura de tópico */
-.abertura-cat { min-height: 58vh; display: flex; flex-direction: column; justify-content: center; padding: 2rem 0 1rem; }
-.abertura-cat .contexto { margin-bottom: 2.1rem; }
-.abertura-cat .contexto span {
+/* a abertura de tópico, no alto do primeiro ponto dele: o contexto e, grandes, os níveis que começam ali */
+.cabeca-ponto.com-abertura { padding-top: clamp(2rem, 7vh, 3.6rem); }
+.abertura-ponto { margin-bottom: 2.6rem; }
+.abertura-ponto .contexto { margin-bottom: 1.7rem; }
+.abertura-ponto .contexto span {
   display: block; font-family: var(--sans); font-size: .64rem; line-height: 1.75;
   letter-spacing: .16em; text-transform: uppercase; color: var(--tinta-tenue);
 }
-.abertura-cat .ornato { height: 1px; margin-bottom: 2.3rem; background: linear-gradient(90deg, var(--realce), var(--linha) 34%, transparent); }
-.abertura-cat .rotulo {
+.abertura-ponto .ornato { height: 1px; margin-bottom: 2rem; background: linear-gradient(90deg, var(--realce), var(--linha) 34%, transparent); }
+.abertura-ponto .rotulo {
   font-family: var(--sans); font-size: .66rem; letter-spacing: .22em; text-transform: uppercase;
-  color: var(--realce); margin: 0 0 .75rem;
+  color: var(--realce); margin: 0 0 .7rem;
 }
-.abertura-cat .titulo { font-weight: 400; line-height: 1.14; letter-spacing: -.01em; color: var(--tinta); margin: 0; }
-.abertura-cat .parte .titulo { font-size: 3rem; color: var(--realce); }
-.abertura-cat .secao .titulo, .abertura-cat .capitulo .titulo { font-size: 2.4rem; }
-.abertura-cat .artigo .titulo { font-size: 2.1rem; }
-.abertura-cat .paragrafo .titulo { font-size: 1.95rem; }
-.abertura-cat .topico .titulo { font-size: 1.75rem; }
-.abertura-cat .elo { width: 2.1rem; height: 1px; background: var(--linha); margin: 1.8rem 0; }
-.abertura-cat .adiante {
-  margin: 3rem 0 0; font-family: var(--sans); font-size: .62rem; letter-spacing: .18em;
-  text-transform: uppercase; color: var(--tinta-tenue);
-}
-.abertura-cat .passos { margin-top: 2.6rem; }
+.abertura-ponto .titulo { font-weight: 400; line-height: 1.14; letter-spacing: -.01em; color: var(--tinta); margin: 0; }
+.abertura-ponto .parte .titulo { font-size: 2.6rem; color: var(--realce); }
+.abertura-ponto .secao .titulo, .abertura-ponto .capitulo .titulo { font-size: 2.15rem; }
+.abertura-ponto .artigo .titulo { font-size: 1.9rem; }
+.abertura-ponto .paragrafo .titulo { font-size: 1.75rem; }
+.abertura-ponto .topico .titulo { font-size: 1.55rem; }
+.abertura-ponto .elo { width: 2.1rem; height: 1px; background: var(--linha); margin: 1.4rem 0; }
 
 @media (min-width: 640px) {
   .numeral { font-size: 6.4rem; }
-  .abertura-cat .parte .titulo { font-size: 3.5rem; }
-  .abertura-cat .secao .titulo, .abertura-cat .capitulo .titulo { font-size: 2.7rem; }
-  .abertura-cat .artigo .titulo { font-size: 2.3rem; }
-  .abertura-cat .paragrafo .titulo { font-size: 2.1rem; }
-  .abertura-cat .topico .titulo { font-size: 1.9rem; }
+  .abertura-ponto .parte .titulo { font-size: 3rem; }
+  .abertura-ponto .secao .titulo, .abertura-ponto .capitulo .titulo { font-size: 2.4rem; }
+  .abertura-ponto .artigo .titulo { font-size: 2.1rem; }
+  .abertura-ponto .paragrafo .titulo { font-size: 1.95rem; }
+  .abertura-ponto .topico .titulo { font-size: 1.75rem; }
 }
 @media (max-width: 520px) {
-  .abertura-cat .parte .titulo { font-size: 2.4rem; }
-  .abertura-cat .secao .titulo, .abertura-cat .capitulo .titulo { font-size: 2rem; }
-  .abertura-cat .artigo .titulo, .abertura-cat .paragrafo .titulo { font-size: 1.8rem; }
-  .abertura-cat .topico .titulo { font-size: 1.6rem; }
+  .abertura-ponto .parte .titulo { font-size: 2.2rem; }
+  .abertura-ponto .secao .titulo, .abertura-ponto .capitulo .titulo { font-size: 1.9rem; }
+  .abertura-ponto .artigo .titulo, .abertura-ponto .paragrafo .titulo { font-size: 1.7rem; }
+  .abertura-ponto .topico .titulo { font-size: 1.5rem; }
 }
 @media print { #popup-nota, .ir-ponto { display: none !important; } }

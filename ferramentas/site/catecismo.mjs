@@ -25,6 +25,7 @@ export const TOTAL = 2865;                         // pontos do Catecismo inteir
 const NIVEIS = ['parte', 'secao', 'capitulo', 'artigo', 'paragrafo', 'topico'];
 const RODAPE = 'Catecismo da Igreja Católica © Libreria Editrice Vaticana.';
 const VATICANO = 'https://www.vatican.va/archive/cathechism_po/index_new/prima-pagina-cic_po.html';
+const VATICANO_INDICE = 'https://www.vatican.va/archive/cathechism_po/index_new/indice_po.html';
 
 const semTags = (s) => String(s || '').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<')
   .replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
@@ -35,6 +36,9 @@ export function carregarCatecismo(raiz) {
   const ler = (arq) => JSON.parse(fs.readFileSync(path.join(dir, arq), 'utf8'));
   if (!fs.existsSync(path.join(dir, 'manifesto.json'))) return null;
   const man = ler('manifesto.json');
+  // o endereço de cada ponto no vatican.va, com fragmento de texto (edicoes/catecismo/vaticano.py)
+  const arqVat = path.join(raiz, 'edicoes', 'catecismo', 'vaticano.json');
+  const vaticano = fs.existsSync(arqVat) ? JSON.parse(fs.readFileSync(arqVat, 'utf8')) : {};
   man.aberturas = man.aberturas || {};
   man.subtitulos = man.subtitulos || {};
   const pontos = {};
@@ -61,7 +65,7 @@ export function carregarCatecismo(raiz) {
     ano: 1992, genero: 'Catecismo', divisao: { singular: 'ponto', plural: 'pontos' },
     descricao: 'A exposição da fé e da moral da Igreja, promulgada por São João Paulo II em 1992: ' +
       'a profissão da fé, os sacramentos, a vida em Cristo e a oração cristã.',
-    rodape: RODAPE, _palavras: palavras, partes, catecismo: man,
+    rodape: RODAPE, _palavras: palavras, partes, catecismo: man, vaticano,
     edicao: {
       apresentacao: `O _Catecismo da Igreja Católica_ foi promulgado por São João Paulo II em 11 de outubro de 1992, com a constituição apostólica _Fidei depositum_. A edição típica latina, com as correções definitivas, saiu em 1997.
 
@@ -72,7 +76,8 @@ Os direitos do texto são da Libreria Editrice Vaticana (© Libreria Editrice Va
 Cada um dos ${TOTAL} pontos (os parágrafos numerados do _Catecismo_) tem página própria, com as referências embaixo. Quando a nota traz um texto que não aparece no corpo do ponto, esse texto vem junto da fonte; quando a citação já foi transcrita no corpo, a nota mostra só a fonte e uma etiqueta que o diz. Tocar no número de uma nota abre a referência ali mesmo. Entre um tópico e outro, uma página de abertura anuncia o que começa ali: parte, seção, capítulo, artigo, parágrafo ou tópico.
 
 Por enquanto estão publicados os pontos ${man.min} a ${man.max}; os outros entram aos poucos.`,
-      fontes: [{ nome: 'Catecismo da Igreja Católica, em vatican.va', url: VATICANO, nota: 'tradução portuguesa publicada pela Santa Sé' }]
+      fontes: [{ nome: 'Catecismo da Igreja Católica, em vatican.va', url: VATICANO, nota: 'tradução portuguesa publicada pela Santa Sé' },
+        { nome: 'Índice do Catecismo em vatican.va', url: VATICANO_INDICE, nota: 'em cada ponto desta edição há um link para o mesmo ponto lá' }]
     }
   };
 }
@@ -175,6 +180,7 @@ export function paginasCatecismo(a, o, h) {
       '<header class="cabeca-ponto">' + trilhaPonto + '<h1 class="numeral"><span class="visualmente-oculto">Ponto </span>' + n + '</h1>' +
       '<div class="regua"></div>' + (sub ? '<h2 class="subtitulo-ponto">' + esc(sub) + '</h2>' : '') + '</header>' +
       '<div class="texto corpo-ponto">' + d.body + '</div>' + notas +
+      (o.vaticano[n] ? '<p class="no-vaticano"><a href="' + esc(o.vaticano[n]) + '" target="_blank" rel="noopener">Ler este ponto no site do Vaticano ↗</a></p>' : '') +
       '<div id="fim-parte" aria-hidden="true"></div>' +
       (n === TOTAL ? '<p class="fim">Fim</p>' : '') +
       '<nav class="passos" aria-label="Navegação entre os pontos">' + passo('ant', 'prev', '← Anterior', prev) +

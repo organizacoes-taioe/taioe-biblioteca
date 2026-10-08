@@ -533,6 +533,10 @@ main { padding: 0 1rem 5rem; }
   color: var(--tinta-tenue); font-weight: 600; margin: 1.1rem 0 .5rem;
 }
 .quoted h4:first-child { margin-top: 0; }
+/* o mesmo ponto no vatican.va (fragmento de texto: o navegador vai direto ao começo do ponto) */
+.no-vaticano { margin: 2rem 0 0; font-family: var(--sans); font-size: .78rem; color: var(--tinta-tenue); }
+.no-vaticano a { color: var(--tinta-tenue); }
+.no-vaticano a:hover { color: var(--realce); }
 .etiqueta {
   display: inline-block; margin-top: .55rem; font-family: var(--sans); font-size: .6rem;
   letter-spacing: .13em; text-transform: uppercase; color: var(--tinta-tenue);

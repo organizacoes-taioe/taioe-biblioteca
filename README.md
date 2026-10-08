@@ -243,3 +243,8 @@ Endereços: `/biblioteca/igreja-catolica/catecismo-da-igreja-catolica/` (índice
 navegação passa pelas aberturas (… 26 → a27 → 27 …). O número da nota no corpo abre um popup
 (o mesmo funcionamento dos popups da Bíblia); sem JavaScript, é um link para a nota embaixo.
 O texto não está em domínio público: nessas páginas o rodapé diz «© Libreria Editrice Vaticana».
+
+Cada ponto traz também «Ler este ponto no site do Vaticano», que vai à página do vatican.va com
+um fragmento de texto (`#:~:text=`) apontando para o começo do ponto. Os endereços dos 2865
+pontos ficam em `edicoes/catecismo/vaticano.json`, gravado uma vez por
+`python edicoes/catecismo/vaticano.py` (o gerador não acessa o Vaticano).

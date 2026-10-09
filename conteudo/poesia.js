@@ -806,15 +806,6 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
-  autor: "charles-baudelaire",
-  arquivo: "conteudo/charles-baudelaire/poesia.js",
-  livros: [{"id":"les-fleurs-du-mal","titulo":"Les Fleurs du mal","ano":1861}],
-  poemas: [
-    {"id":"o-albatroz","titulo":"O albatroz","forma":"outras","livro":0,"ordem":1859,"ano":1859,"versos":16,"traducao":{"lingua":"francês","codigo":"fr","titulo":"L’Albatros"}}
-  ]
-});
-
-BIBLIOTECA.poemas({
   autor: "claudio-manuel-da-costa",
   arquivo: "conteudo/claudio-manuel-da-costa/poesia.js",
   livros: [{"id":"soneto","titulo":"Obras","ano":1768}],
@@ -1020,17 +1011,6 @@ BIBLIOTECA.poemas({
     {"id":"cruz-e-sousa-ultimos-sonetos-assim-seja","titulo":"Assim seja!","forma":"sonetos","livro":2,"ordem":92,"versos":14},
     {"id":"cruz-e-sousa-ultimos-sonetos-renascimento","titulo":"Renascimento","forma":"sonetos","livro":2,"ordem":93,"versos":14},
     {"id":"cruz-e-sousa-ultimos-sonetos-pacto-de-almas","titulo":"Pacto de almas","forma":"sonetos","livro":2,"ordem":94,"versos":42}
-  ]
-});
-
-BIBLIOTECA.poemas({
-  autor: "edgar-allan-poe",
-  arquivo: "conteudo/edgar-allan-poe/poesia.js",
-  livros: [{"id":"the-raven-and-other-poems","titulo":"The Raven and Other Poems","ano":1845}],
-  poemas: [
-    {"id":"annabel-lee","titulo":"Annabel Lee","forma":"outras","livro":-1,"ordem":1849,"ano":1849,"versos":41,"traducao":{"lingua":"inglês","codigo":"en","titulo":"Annabel Lee"}},
-    {"id":"a-helena","titulo":"A Helena","forma":"outras","livro":0,"ordem":1831,"ano":1831,"versos":15,"traducao":{"lingua":"inglês","codigo":"en","titulo":"To Helen"}},
-    {"id":"o-corvo","titulo":"O corvo","forma":"outras","livro":0,"ordem":1845,"ano":1845,"versos":108,"traducao":{"lingua":"inglês","codigo":"en","titulo":"The Raven"}}
   ]
 });
 
@@ -1278,27 +1258,6 @@ BIBLIOTECA.poemas({
     {"id":"francisca-julia-esfinges-natureza","titulo":"Natureza","forma":"sonetos","livro":1,"ordem":24,"versos":14},
     {"id":"francisca-julia-esfinges-angelus","titulo":"Ângelus","forma":"sonetos","livro":1,"ordem":25,"versos":14},
     {"id":"francisca-julia-avulsos-rustica","titulo":"Rústica","forma":"sonetos","livro":2,"ordem":1,"versos":14}
-  ]
-});
-
-BIBLIOTECA.poemas({
-  autor: "goethe",
-  arquivo: "conteudo/goethe/poesia.js",
-  livros: [{"id":"iris","titulo":"Iris","ano":1775},{"id":"christliches-magazin","titulo":"Christliches Magazin","ano":1780},{"id":"die-fischerin","titulo":"Die Fischerin","ano":1782},{"id":"goethe-s-schriften-vol-8","titulo":"Goethe’s Schriften, vol. 8","ano":1789},{"id":"faust-ein-fragment","titulo":"Faust. Ein Fragment","ano":1790},{"id":"wilhelm-meisters-lehrjahre","titulo":"Wilhelm Meisters Lehrjahre","ano":1795},{"id":"musen-almanach-fur-das-jahr-1798","titulo":"Musen-Almanach für das Jahr 1798","ano":1797},{"id":"faust-eine-tragodie","titulo":"Faust. Eine Tragödie","ano":1808},{"id":"goethe-s-werke-vol-1","titulo":"Goethe’s Werke, vol. 1","ano":1815}],
-  poemas: [
-    {"id":"cancao-de-maio","titulo":"Canção de maio","forma":"outras","livro":0,"ordem":1771,"ano":1771,"versos":36,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Mailied (na primeira edição, Mayfest)"}},
-    {"id":"boas-vindas-e-despedida","titulo":"Boas-vindas e despedida","forma":"outras","livro":0,"ordem":1775,"ano":1775,"versos":32,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Willkommen und Abschied"}},
-    {"id":"cancao-noturna-do-viandante","titulo":"Canção noturna do viandante","forma":"outras","livro":1,"ordem":1776,"ano":1776,"versos":8,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Wandrers Nachtlied"}},
-    {"id":"o-rei-dos-elfos","titulo":"O Rei dos Elfos","forma":"outras","livro":2,"ordem":1782,"ano":1782,"versos":32,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Erlkönig"}},
-    {"id":"prometeu","titulo":"Prometeu","forma":"outras","livro":3,"ordem":1774,"ano":1774,"versos":57,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Prometheus"}},
-    {"id":"o-pescador","titulo":"O pescador","forma":"outras","livro":3,"ordem":1779,"ano":1779,"versos":32,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Der Fischer"}},
-    {"id":"rosinha-do-prado","titulo":"Rosinha do prado","forma":"outras","livro":3,"ordem":1789,"ano":1789,"versos":21,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Heidenröslein"}},
-    {"id":"margarida-a-roca","titulo":"Margarida à roca","forma":"outras","livro":4,"ordem":1790,"ano":1790,"versos":40,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Gretchen am Spinnrade"}},
-    {"id":"mignon","titulo":"Mignon","forma":"outras","livro":5,"ordem":1795,"ano":1795,"versos":21,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Kennst du das Land? wo die Citronen blühn (Mignon)"}},
-    {"id":"o-aprendiz-de-feiticeiro","titulo":"O aprendiz de feiticeiro","forma":"outras","livro":6,"ordem":1797,"ano":1797,"versos":98,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Der Zauberlehrling"}},
-    {"id":"o-rei-de-tule","titulo":"O rei de Tule","forma":"outras","livro":7,"ordem":1774,"ano":1774,"versos":24,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Der König in Thule"}},
-    {"id":"outra-cancao-noturna-do-viandante","titulo":"Outra canção noturna do viandante","forma":"outras","livro":8,"ordem":1780,"ano":1780,"versos":8,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Ein gleiches"}},
-    {"id":"achado","titulo":"Achado","forma":"outras","livro":8,"ordem":1813,"ano":1813,"versos":20,"traducao":{"lingua":"alemão","codigo":"de","titulo":"Gefunden"}}
   ]
 });
 
@@ -2185,15 +2144,6 @@ BIBLIOTECA.poemas({
     {"id":"olavo-bilac-tarde-frutidoro","titulo":"Frutidoro","forma":"sonetos","livro":7,"ordem":96,"versos":14},
     {"id":"olavo-bilac-tarde-aos-sinos","titulo":"Aos sinos","forma":"sonetos","livro":7,"ordem":97,"versos":14},
     {"id":"olavo-bilac-tarde-sinfonia","titulo":"Sinfonia","forma":"sonetos","livro":7,"ordem":98,"versos":14}
-  ]
-});
-
-BIBLIOTECA.poemas({
-  autor: "paul-verlaine",
-  arquivo: "conteudo/paul-verlaine/poesia.js",
-  livros: [{"id":"poemes-saturniens","titulo":"Poèmes saturniens","ano":1866}],
-  poemas: [
-    {"id":"cancao-de-outono","titulo":"Canção de outono","forma":"outras","livro":0,"ordem":1866,"ano":1866,"versos":18,"traducao":{"lingua":"francês","codigo":"fr","titulo":"Chanson d’automne"}}
   ]
 });
 

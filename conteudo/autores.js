@@ -328,43 +328,9 @@ BIBLIOTECA.autor({
   nota: 'Poeta parnasiano santista, o poeta do mar.'
 });
 
-/* Poetas estrangeiros, em tradução */
-
-BIBLIOTECA.autor({
-  id: 'charles-baudelaire',
-  nome: 'Charles Baudelaire',
-  nomeCompleto: 'Charles-Pierre Baudelaire',
-  vida: '1821–1867',
-  ordem: 'Baudelaire, Charles',
-  nota: 'Poeta francês, autor de _As Flores do Mal_. Em tradução, com o original ao lado.'
-});
-
-BIBLIOTECA.autor({
-  id: 'edgar-allan-poe',
-  nome: 'Edgar Allan Poe',
-  nomeCompleto: 'Edgar Allan Poe',
-  vida: '1809–1849',
-  ordem: 'Poe, Edgar Allan',
-  nota: 'Poeta e contista norte-americano. Em tradução, com o original ao lado.'
-});
-
-BIBLIOTECA.autor({
-  id: 'goethe',
-  nome: 'Goethe',
-  nomeCompleto: 'Johann Wolfgang von Goethe',
-  vida: '1749–1832',
-  ordem: 'Goethe, Johann Wolfgang von',
-  nota: 'Poeta, romancista e dramaturgo alemão. Em tradução, com o original ao lado.'
-});
-
-BIBLIOTECA.autor({
-  id: 'paul-verlaine',
-  nome: 'Paul Verlaine',
-  nomeCompleto: 'Paul-Marie Verlaine',
-  vida: '1844–1896',
-  ordem: 'Verlaine, Paul',
-  nota: 'Poeta simbolista francês. Em tradução, com o original ao lado.'
-});
+/* Literatura em tradução: por ora, só o Beowulf. Os poetas traduzidos pelo Versificador (Poe,
+   Baudelaire, Verlaine, Goethe) saíram do site em 9/10/2026; ver PUBLICAR_TRADUCOES em
+   ferramentas/poesia.py. */
 
 BIBLIOTECA.autor({
   id: 'anonimo-anglo-saxao',

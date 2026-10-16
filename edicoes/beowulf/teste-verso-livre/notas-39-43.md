@@ -259,3 +259,25 @@ Mantive, conferido com o glossário:
 - Cabeçalhos iguais aos de `../traducao/` (o de Finnsburh: `# canto: Apêndice`, `# titulo: O combate em
   Finnsburh (fragmento)`).
 - Temporários em `C:\Users\geren\AppData\Local\Temp\claude\beowulf-verso-livre-39-43\`. Nenhum commit.
+
+## Crítica independente (feita depois, pelo coordenador)
+
+Um crítico (Sonnet, esforço médio) conferiu o lote depois da entrega e apontou 15 itens; aceitos 14,
+cada verso mudado medido de novo no `verso-livre.mjs` (nenhum marcado):
+
+- 2859 «dispor dos feitos» → «reger os feitos» (glossário: _rule over_).
+- 2881–2882 a serpe, sujeito e objeto: «sempre que eu a feria com a espada, / a inimiga mortal».
+- 2885–2887 «à vossa raça» passa para depois do verbo («hão de faltar à vossa raça»).
+- 2960–2961 _syððan_ → «depois que»; 2962 «Ongentheow foi ali» (dois «foi») → «Ali, pelos gumes das
+  espadas, Ongentheow».
+- 2978–2980 _lēt … brecan_: «fez … a larga espada» lia-se «fabricou» → «brandiu … e partiu o elmo».
+- 3006–3007 os Scylfings como objeto de _gehēold_ (nota ao v. 3006: Beowulf os tinha submetido) →
+  «também os bravos Scylfings; / ele fez o bem do povo».
+- 3070 o _hit_ é o tesouro amaldiçoado, não Beowulf → «pois assim o tesouro amaldiçoaram».
+- 3075 «Beowulf não tinha cobiça de ouro» (glossário, s.v. _gold-hwæt_: _he_ (Bēowulf)).
+- 3142–3143 sujeito antes do objeto: «puseram então no meio, em pranto, os heróis / o ilustre rei».
+- Finnsburh 13 «muito vassalo» (calco) → «mais de um vassalo»; 19–20 ordem; 22 «ele» → «Garulf»
+  (quem pergunta; Sigeferth responde); 27 _swæðer_ → «a vida ou a morte» (nota da edição).
+
+Recusado: 2947–2948 «o rastro … , o assalto mortal dos homens, foi visto»: verbo no singular com
+aposição, correto.

@@ -39,7 +39,9 @@ INDICES = {
                    '   o texto de cada obra fica em conteudo/<autor>/<obra>.js e só é carregado quando a obra é aberta.\n'
                    '   (Os poemas do Versificador têm índice próprio: conteudo/poesia.js.) */\n\n'),
 }
-CESURA = '\u2003\u2003'   # a tabulação dos arquivos de verso vira dois espaços largos no site
+CESURA = '\u2003\u2003'   # no original, a tabulação dos arquivos de verso vira dois espaços largos no site
+# Na tradução o verso sai corrido, com um espaço só (pedido do Gere, 08/10/2026: a cesura marcada
+# estranhava a leitura); a tabulação continua nos arquivos, para o conferidor medir os meios-versos.
 sys.path.insert(0, os.path.join(RAIZ, 'ferramentas'))
 from edicao import montar  # noqa: E402
 
@@ -113,7 +115,7 @@ def publicar_obra(nome):
             if meta.get('original_ao_lado'):
                 orig.append(marcas(trecho(os.path.join(pasta, 'original', a), faixa)))
         if meta.get('poema'):
-            t, orig = [x.replace('\t', CESURA) for x in t], [x.replace('\t', CESURA) for x in orig]
+            t, orig = [x.replace('\t', ' ') for x in t], [x.replace('\t', CESURA) for x in orig]
         partes.append({'n': sigla, 'titulo': titulo, 'texto': '\n\n'.join(t),
                        'original': '\n\n'.join(orig) if orig else None})
     arq_js = f"conteudo/{meta['autor']}/{meta['id']}.js"

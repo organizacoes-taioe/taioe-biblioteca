@@ -64,6 +64,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'joseph-tissot',
+  area: 'catolicismo',
+  nome: 'Joseph Tissot',
+  nomeCompleto: 'Joseph Tissot',
+  vida: '1840–1894',
+  ordem: 'Tissot, Joseph',
+  nota: 'Superior-geral dos Missionários de São Francisco de Sales, de Annecy. Em tradução do francês, com o original ao lado.'
+});
+
+BIBLIOTECA.autor({
   id: 'g-k-chesterton',
   area: 'catolicismo',
   nome: 'G. K. Chesterton',

@@ -314,6 +314,12 @@ main { padding: 0 1rem 5rem; }
   vertical-align: .35em; padding: 0 .15em; white-space: nowrap; user-select: none; opacity: .8;
 }
 
+/* índice de uma parte dividida em capítulos (ou de um capítulo em seções): o preâmbulo da parte
+   entre o título e a lista */
+.preambulo { max-width: 30rem; margin: .9rem auto 0; color: var(--tinta-suave); line-height: 1.5; }
+.preambulo p { margin: 0 0 .5em; }
+.indice-parte .acoes { margin-top: 1.2rem; }
+
 /* índice dos manuscritos: folhas de cada parte */
 .indice .folhas { font-family: var(--sans); font-size: .72rem; color: var(--tinta-tenue); margin-left: .6em; white-space: nowrap; }
 
@@ -443,7 +449,7 @@ main { padding: 0 1rem 5rem; }
 .lido-inteiro .tit, .lido-inteiro .cartao-titulo { color: var(--tinta-suave); }
 
 .estado-leitura { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: 1.4rem 0 0; font-family: var(--sans); font-size: .8rem; }
-.rosto .estado-leitura { justify-content: center; }
+.rosto .estado-leitura, .indice-parte .estado-leitura { justify-content: center; }
 .leitura .estado-leitura { justify-content: center; margin: 2rem 0 .6rem; }
 .estado-leitura .rot { color: var(--tinta-tenue); margin-right: .2rem; }
 .estado-leitura button, .ordenar button, .modos button {

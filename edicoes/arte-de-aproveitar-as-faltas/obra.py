@@ -27,7 +27,8 @@ META = {
             'século XVII sem arcaísmos artificiais; as que vêm da _Filoteia_ seguem a nossa tradução da _Introdução à '
             'vida devota_, ajustada onde Tissot cita de outro modo. O tratamento do original foi mantido: _vós_ nas cartas '
             'do santo, nos apelos ao leitor e nas orações; _tu_ quando Deus fala à alma ou a alma a si mesma. As notas do '
-            'autor aparecem no fim de cada parte. A pequena marca no começo dos capítulos (I.1) dá a parte e o capítulo.\n\n'
+            'autor aparecem no fim de cada parte; onde citam em latim sem dar o sentido, a tradução vem logo depois, '
+            'entre colchetes, marcada «[Trad.: ...]». A pequena marca no começo dos capítulos (I.1) dá a parte e o capítulo.\n\n'
             '**O original ao lado.** O botão «Francês», no alto da página de leitura, mostra o texto de 1894 junto da '
             'tradução.'),
         'fontes': [

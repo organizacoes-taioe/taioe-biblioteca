@@ -11,48 +11,42 @@ original, na mesma ordem**: no site, cada verso português fica na altura do seu
 Não se traduzem os títulos ingleses das seções (o `# titulo-edicao`); cada arquivo traduzido leva o
 título português da tabela do § 8.
 
-## 2. O verso: o método do Versificador aplicado ao verso aliterativo
+## 2. O verso: verso livre, verso a verso
 
-O Versificador manda guardar a **medida** de cada verso e o **esquema de rimas** do original. O
-_Beowulf_ não rima e não conta sílabas: a medida dele é **acentual e aliterativa**. Cada verso tem
-dois meios-versos separados pela cesura; cada meio-verso tem **dois tempos fortes** (sílabas tônicas
-de palavras plenas: substantivos, adjetivos, verbos principais, advérbios fortes); a **aliteração**
-liga as duas metades (a primeira tônica do segundo meio-verso aliterando com uma ou as duas do
-primeiro). A aliteração é, neste poema, o que a rima é nos outros.
+A tradução publicada (`traducao/`) é em **verso livre** (desde outubro de 2026; a tradução anterior,
+que guardava a cesura e a aliteração do original, está em `traducao-aliterativa/`, fora do site).
 
-A tradução guarda essa medida, com o equivalente português:
-
-1. **Cesura sempre.** Cada verso tem dois meios-versos separados por **uma tabulação** (como no
-   arquivo original). Verso original sem tabulação (mutilado) → tradução sem tabulação.
-2. **Dois tempos fortes por meio-verso** (às vezes três no primeiro meio-verso, como nos versos
-   «hipermétricos» do original); entre 4 e 9 sílabas poéticas por meio-verso; o verso inteiro
-   não passa de 18. Meio-verso de uma palavra só ou de dez sílabas está errado.
-3. **Aliteração**: procure-a sempre, em cada verso, ligando as metades (consoante igual no começo
-   de sílabas tônicas: _**g**uerra … **g**lória_; vogal com qualquer vogal, como no original). Ela
-   cede ao sentido: nunca troque o sentido, a imagem ou a ordem das ideias por uma aliteração. Meta:
-   aliteração ligando as metades em pelo menos metade dos versos, e nenhuma passagem de cinco
-   versos sem nenhuma.
-4. **Sem rima** (rima seria acréscimo). Evite rimas casuais entre versos vizinhos.
-5. **Sentido verso a verso.** O que está no verso N do original fica no verso N da tradução. A sintaxe
-   portuguesa pode pedir que uma palavra passe ao verso vizinho, dentro da mesma frase: aceitável,
-   mas raro, e nunca uma ideia inteira. As **aposições** (variação: o mesmo referente dito duas ou três
-   vezes, _«Hrothgar … senhor dos Scyldings … guardião do povo»_) ficam todas, no lugar delas: são a
-   alma do estilo.
+1. **Sem cesura**: nenhuma tabulação nos arquivos traduzidos; o verso corre inteiro.
+2. **Sem imitar a medida do original** (dois tempos por meio-verso, aliteração). O ritmo é o do bom
+   verso livre português, conferido pelo Versificador (`Solar\Editora\Versificador`):
+   `ferramentas/verso-livre.mjs` sem nenhum verso marcado (`ralo`, `vazio`, `choques`), de 2,4 a 2,8
+   sílabas por acento forte, no máximo um verso em cinco com 4 átonas seguidas, nada de três vogais
+   iguais seguidas, sem repetir o mesmo esqueleto em versos vizinhos; `ferramentas/molde.mjs`, em molde
+   livre (`*`) com `# troca` para a pronúncia dos nomes, sem ✗, ≠ nem «leitura natural tem». Método e
+   números: `traducao/notas.md`, § 4.
+3. **Sem rima** (rima seria acréscimo).
+4. **Sentido verso a verso.** O que está no verso N do original fica no verso N da tradução. A sintaxe
+   portuguesa pode pedir que uma palavra passe ao verso vizinho, dentro da mesma frase: aceitável, mas
+   raro, e nunca uma ideia inteira. As **aposições** ficam todas, no lugar delas: são a alma do estilo.
+5. **Clareza**: sujeito explícito quando um pronome deixaria dúvida (às vezes o nome, que o original
+   dá por subentendido); comparações completas; nenhuma aposição truncada.
+6. **«dinamarqueses»** depois de preposição pode deixar cinco átonas seguidas: use o adjetivo
+   («dinamarquesa», «dinamarquês») ou mude a ordem, sem trocar o termo.
 
 Versos-modelo (I, 1–11):
 
 ```
-Escutai! Nos dias de outrora,	dos dinamarqueses da lança,
-dos reis do seu povo	a glória ouvimos,
-e como os príncipes	proezas fizeram.
-Muitas vezes Scyld Scefing	às hostes inimigas,
-a muitas linhagens,	tomou os bancos de hidromel;
-aterrou os nobres,	depois que de início
-foi achado desvalido;	disso teve consolo:
-cresceu sob as nuvens,	medrou em honrarias,
-até que cada um	dos povos em volta,
-além do caminho da baleia,	teve de obedecer-lhe
-e pagar-lhe tributo:	aquele era um bom rei!
+Escutai! Dos dinamarqueses da lança, nos dias de outrora,
+dos reis do povo ouvimos a glória,
+e como os príncipes deram provas de bravura.
+Muitas vezes Scyld Scefing, às hostes inimigas,
+a muitas linhagens, tomou os bancos de hidromel;
+aterrou os nobres, depois que no princípio
+foi achado desamparado; disso teve consolo:
+cresceu sob as nuvens, prosperou em honras,
+até que cada um dos povos vizinhos,
+além do caminho da baleia, teve de obedecer-lhe
+e pagar-lhe tributo: aquele era um bom rei!
 ```
 
 ## 3. Registro
@@ -163,7 +157,7 @@ Earnanæs; Hrefnesholt, Hrefnawudu; Hreosnabeorh; Hronesnæs; _Swīo-rīce_ → 
 # canto: I
 # titulo: A partida de Scyld
 
-Escutai! Nos dias de outrora,	dos dinamarqueses da lança,
+Escutai! Dos dinamarqueses da lança, nos dias de outrora,
 ...
 ```
 
@@ -174,8 +168,9 @@ o mesmo número de linhas do original. Conferência (tem de sair «ok»):
 python edicoes/beowulf/conferir.py 01 02 03
 ```
 
-O `conferir.py` confere número de versos, cesuras, aspas, mesóclise e mostra os meios-versos longos ou
-curtos demais e as passagens sem aliteração (é uma estimativa: leia o aviso e decida).
+O `conferir.py` confere o título, o número de versos, linhas em branco, tabulação, aspas (as falas que
+atravessam seções fecham no fim de um arquivo e reabrem no seguinte) e mesóclise. O ritmo se confere
+com o Versificador (§ 2).
 
 ## 8. Títulos das seções
 
@@ -244,6 +239,13 @@ Tomadas pelos tradutores e conferidas no poema inteiro:
 - Nomes novos: Elan, Hoc, Hondscio, Heoroweard, Hereric, Sigeferth, Eaha, Ordlaf, Garulf, Guthere;
   _Merewīoing_ → o merovíngio; _Secgan_ → secgas; Weohstan numa forma só (a edição varia).
 - _Hwæt!_ dentro de fala → «Vê!» a quem se trata por tu, «Ora!» quando é exclamação geral.
+- Da tradução em verso livre (`traducao/notas-harmonizacao.md`): _eofor_, _swȳn_, _swīn_ (do elmo) →
+  javali, e _ferh_ → varrão; _gold-wine_ → amigo de ouro; _Sige-Scyldingas_ → Scyldings vitoriosos;
+  _on þǣm dæge þysses līfes_ → naquele dia, aqui nesta vida; _þearf_, _nīed_ → necessidade, aperto
+  (nunca «precisão»); _gār_ da flecha de Hæthcyn (2441) → dardo; _sinces brytta_ → o doador de tesouro;
+  _hornas_ (do salão) → galhadas; _hȳð-weard_, _bāt-weard_ → o guarda do porto, o guarda do bote.
+  Nomes de Deus: o Soberano de tudo (_al-wealda_), o Pastor da glória (_wuldres hyrde_), o Dono
+  (_āgend_), o Rei verdadeiro (_sōð-cyning_); _kyninga wuldor_ → Deus, a glória dos reis.
 
 ## 10. Notas do tradutor
 

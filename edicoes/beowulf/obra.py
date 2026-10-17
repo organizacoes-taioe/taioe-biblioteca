@@ -7,8 +7,8 @@ META = {
     'traducao': {'lingua': 'inglês antigo', 'codigo': 'ang', 'titulo': 'Bēowulf'},
     'original_ao_lado': True,
     'descricao': ('O poema heroico do inglês antigo: Beowulf, príncipe dos geatas, livra o salão de Hrothgar de '
-                  'Grendel e da mãe dele e, já velho e rei, morre matando o dragão. Tradução verso a verso, com '
-                  'a cesura e a aliteração do original, que pode ser lido ao lado.'),
+                  'Grendel e da mãe dele e, já velho e rei, morre matando o dragão. Tradução verso a verso, em verso '
+                  'livre, com o original ao lado.'),
     'edicao': {
         'titulo': 'Sobre esta tradução',
         'apresentacao': (
@@ -27,15 +27,19 @@ META = {
             'lacuna com pontos, sem completá-la. O volume de Harrison e Sharp traz em apêndice o fragmento de '
             '_Finnsburh_, que conta a luta de que o poeta de _Beowulf_ canta o desfecho nos cantos XVII e XVIII; ele vem '
             'aqui também, no fim.\n\n'
-            '**A tradução.** Verso a verso, do inglês antigo, em português do Brasil. O verso do _Beowulf_ não '
-            'tem rima nem conta sílabas: cada verso tem duas metades separadas por uma pausa, cada metade dois '
-            'tempos fortes, e a aliteração (palavras que começam pelo mesmo som) amarra as duas metades. A '
-            'tradução guarda essa medida, como o método do Versificador manda guardar a do original: a pausa '
-            'no meio do verso, os dois tempos de cada metade e, sempre que o sentido deixa, a aliteração. Guarda '
-            'também o que faz o estilo do poema: as aposições (o mesmo herói nomeado duas e três vezes no mesmo '
-            'fôlego), os compostos e as metáforas condensadas, os _kennings_ (o mar é o «caminho da baleia», o '
-            'corpo, a «casa dos ossos»), e as fórmulas, traduzidas sempre do mesmo modo. Os nomes ficam na forma do '
-            'inglês antigo, sem os acentos de quantidade, com _th_ no lugar de _þ_ e _ð_.\n\n'
+            '**A tradução.** Verso a verso, do inglês antigo, em português do Brasil: cada verso português '
+            'diz o que diz o seu par no original, na mesma ordem, e fica na altura dele quando o original está '
+            'aberto ao lado. O verso do _Beowulf_ não rima nem conta sílabas: cada verso tem duas metades separadas '
+            'por uma pausa, cada metade dois tempos fortes, e a aliteração (palavras que começam pelo mesmo som) '
+            'amarra as duas metades. A tradução não imita essa medida: é feita '
+            'em verso livre, com o ritmo conferido pelo Versificador (um acento forte a cada duas ou três sílabas, '
+            'cadências variadas, a frase cabendo no verso), para ser lida em voz alta sem tropeço. Guarda o que faz '
+            'o estilo do poema: as aposições (o mesmo herói nomeado duas e três vezes no mesmo fôlego), os '
+            'compostos e as metáforas condensadas, os _kennings_ (o mar é o «caminho da baleia», o corpo, a «casa '
+            'dos ossos»), e as fórmulas, traduzidas sempre do mesmo modo. O sentido de cada verso foi conferido com '
+            'o glossário e as notas de Harrison e Sharp e com as traduções inglesas de Hall (1892), Gummere (1910) '
+            'e Morris e Wyatt (1895); nas passagens disputadas, segue-se a leitura da edição. Os nomes ficam na '
+            'forma do inglês antigo, sem os acentos de quantidade, com _th_ no lugar de _þ_ e _ð_.\n\n'
             '**O original ao lado.** O botão «Inglês antigo», no alto da página de leitura, mostra o texto da '
             'edição junto da tradução, verso com verso.'),
         'fontes': [

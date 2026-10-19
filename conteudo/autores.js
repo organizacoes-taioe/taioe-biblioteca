@@ -383,3 +383,86 @@ BIBLIOTECA.autor({
   ordem: 'Anônimo anglo-saxão',
   nota: 'O poeta desconhecido do _Beowulf_, o maior poema do inglês antigo. Em tradução, com o original ao lado.'
 });
+
+/* Na língua original, sem tradução ("lingua": a língua em que o autor aparece na Literatura;
+   cada palavra dos poemas abre uma nota, ver edicoes/lingua-original/README.md) */
+BIBLIOTECA.autor({
+  id: 'garcilaso-de-la-vega',
+  nome: 'Garcilaso de la Vega',
+  nomeCompleto: 'Garcilaso de la Vega',
+  vida: '~1500–1536',
+  lingua: 'es',
+  nota: 'Poeta do Renascimento espanhol, que aclimatou no castelhano o soneto e o verso italiano.'
+});
+
+BIBLIOTECA.autor({
+  id: 'francisco-de-quevedo',
+  nome: 'Francisco de Quevedo',
+  nomeCompleto: 'Francisco Gómez de Quevedo y Santibáñez Villegas',
+  vida: '1580–1645',
+  lingua: 'es',
+  nota: 'Poeta e prosador do Século de Ouro espanhol.'
+});
+
+BIBLIOTECA.autor({
+  id: 'sao-joao-da-cruz',
+  nome: 'São João da Cruz',
+  nomeCompleto: 'Juan de Yepes Álvarez (San Juan de la Cruz)',
+  vida: '1542–1591',
+  lingua: 'es',
+  nota: 'Carmelita, doutor da Igreja e poeta místico do Século de Ouro espanhol.'
+});
+
+BIBLIOTECA.autor({
+  id: 'william-shakespeare',
+  nome: 'William Shakespeare',
+  nomeCompleto: 'William Shakespeare',
+  vida: '1564–1616',
+  lingua: 'en',
+  nota: 'Dramaturgo e poeta inglês.'
+});
+
+BIBLIOTECA.autor({
+  id: 'john-donne',
+  nome: 'John Donne',
+  nomeCompleto: 'John Donne',
+  vida: '1572–1631',
+  lingua: 'en',
+  nota: 'Poeta e pregador inglês, o maior dos poetas metafísicos.'
+});
+
+BIBLIOTECA.autor({
+  id: 'john-keats',
+  nome: 'John Keats',
+  nomeCompleto: 'John Keats',
+  vida: '1795–1821',
+  lingua: 'en',
+  nota: 'Poeta romântico inglês.'
+});
+
+BIBLIOTECA.autor({
+  id: 'pierre-de-ronsard',
+  nome: 'Pierre de Ronsard',
+  nomeCompleto: 'Pierre de Ronsard',
+  vida: '1524–1585',
+  lingua: 'fr',
+  nota: 'Poeta do Renascimento francês, o principal da Plêiade.'
+});
+
+BIBLIOTECA.autor({
+  id: 'victor-hugo',
+  nome: 'Victor Hugo',
+  nomeCompleto: 'Victor-Marie Hugo',
+  vida: '1802–1885',
+  lingua: 'fr',
+  nota: 'Poeta, romancista e dramaturgo francês.'
+});
+
+BIBLIOTECA.autor({
+  id: 'arthur-rimbaud',
+  nome: 'Arthur Rimbaud',
+  nomeCompleto: 'Jean Nicolas Arthur Rimbaud',
+  vida: '1854–1891',
+  lingua: 'fr',
+  nota: 'Poeta francês; escreveu toda a sua obra antes dos 21 anos.'
+});

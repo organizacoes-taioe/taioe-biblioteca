@@ -1,0 +1,81 @@
+{
+  "linguas": {
+    "es": { "nome": "espanhol", "wikisource": "https://es.wikisource.org/wiki/" },
+    "en": { "nome": "inglês", "wikisource": "https://en.wikisource.org/wiki/" },
+    "fr": { "nome": "francês", "wikisource": "https://fr.wikisource.org/wiki/" }
+  },
+  "poemas": [
+    {
+      "pasta": "soneto-xxiii", "autor": "garcilaso-de-la-vega", "lingua": "es", "forma": "sonetos",
+      "titulo": "Soneto XXIII", "ano": 1543,
+      "livro": { "titulo": "Las obras de Boscán y algunas de Garcilaso de la Vega", "ano": 1543 },
+      "fontes": [
+        { "nome": "Garcilaso de la Vega, Poesías (Madrid, Tipográfica Renovación, 1919), no Wikisource", "url": "https://es.wikisource.org/wiki/En_tanto_que_de_rosa_y_azucena" }
+      ]
+    },
+    {
+      "pasta": "amor-constante", "autor": "francisco-de-quevedo", "lingua": "es", "forma": "sonetos",
+      "titulo": "Amor constante más allá de la muerte", "ano": 1648,
+      "livro": { "titulo": "El Parnaso español", "ano": 1648 },
+      "fontes": [
+        { "nome": "Wikisource", "url": "https://es.wikisource.org/wiki/Amor_constante_m%C3%A1s_all%C3%A1_de_la_muerte" }
+      ]
+    },
+    {
+      "pasta": "noche-oscura", "autor": "sao-joao-da-cruz", "lingua": "es", "forma": "liras",
+      "titulo": "Noche oscura", "ano": 1618,
+      "livro": { "titulo": "Obras espirituales", "ano": 1618 },
+      "fontes": [
+        { "nome": "Wikisource", "url": "https://es.wikisource.org/wiki/Noche_oscura" }
+      ]
+    },
+    {
+      "pasta": "sonnet-18", "autor": "william-shakespeare", "lingua": "en", "forma": "sonetos",
+      "titulo": "Sonnet 18", "ano": 1609,
+      "livro": { "titulo": "Shakespeare's Sonnets", "ano": 1609 },
+      "fontes": [
+        { "nome": "Wikisource", "url": "https://en.wikisource.org/wiki/Sonnet_18_(Shakespeare)" }
+      ]
+    },
+    {
+      "pasta": "death-be-not-proud", "autor": "john-donne", "lingua": "en", "forma": "sonetos",
+      "titulo": "Death, be not proud", "subtitulo": "Holy Sonnet X", "ano": 1633,
+      "livro": { "titulo": "Poems", "ano": 1633 },
+      "fontes": [
+        { "nome": "Poems (1633), no Wikisource", "url": "https://en.wikisource.org/wiki/Death_be_not_proud", "nota": "grafia de 1633, aqui atualizada" }
+      ]
+    },
+    {
+      "pasta": "to-autumn", "autor": "john-keats", "lingua": "en", "forma": "odes",
+      "titulo": "To Autumn", "ano": 1820,
+      "livro": { "titulo": "Lamia, Isabella, The Eve of St. Agnes, and Other Poems", "ano": 1820 },
+      "fontes": [
+        { "nome": "Wikisource", "url": "https://en.wikisource.org/wiki/To_Autumn_(Keats)", "nota": "texto e grafia da 1ª edição (1820)" }
+      ]
+    },
+    {
+      "pasta": "quand-vous-serez-bien-vieille", "autor": "pierre-de-ronsard", "lingua": "fr", "forma": "sonetos",
+      "titulo": "Quand vous serez bien vieille", "ano": 1578,
+      "livro": { "titulo": "Sonnets pour Hélène", "ano": 1578 },
+      "fontes": [
+        { "nome": "Wikisource", "url": "https://fr.wikisource.org/wiki/Quand_vous_serez_bien_vieille,_au_soir,_%C3%A0_la_chandelle", "nota": "grafia de 1578, aqui atualizada" }
+      ]
+    },
+    {
+      "pasta": "demain-des-l-aube", "autor": "victor-hugo", "lingua": "fr", "forma": "outras",
+      "titulo": "Demain, dès l’aube…", "ano": 1856,
+      "livro": { "titulo": "Les Contemplations", "ano": 1856 },
+      "fontes": [
+        { "nome": "Wikisource", "url": "https://fr.wikisource.org/wiki/%C2%AB_Demain,_d%C3%A8s_l%E2%80%99aube,_%C3%A0_l%E2%80%99heure_o%C3%B9_blanchit_la_campagne_%C2%BB" }
+      ]
+    },
+    {
+      "pasta": "le-dormeur-du-val", "autor": "arthur-rimbaud", "lingua": "fr", "forma": "sonetos",
+      "titulo": "Le Dormeur du val", "ano": 1870,
+      "livro": null,
+      "fontes": [
+        { "nome": "Wikisource", "url": "https://fr.wikisource.org/wiki/Le_Dormeur_du_val", "nota": "escrito em 1870; publicado em 1888" }
+      ]
+    }
+  ]
+}

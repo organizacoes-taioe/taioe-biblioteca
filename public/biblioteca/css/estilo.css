@@ -664,3 +664,41 @@ main { padding: 0 1rem 5rem; }
   .abertura-ponto .topico .titulo { font-size: 1.5rem; }
 }
 @media print { #popup-nota, .ir-ponto { display: none !important; } }
+
+/* ---------------- Poemas na língua original: palavras com nota ---------------- */
+button.pal {
+  font: inherit; color: inherit; letter-spacing: inherit; background: none; border: 0; margin: 0; padding: 0;
+  cursor: pointer; border-radius: 3px; text-align: inherit; -webkit-tap-highlight-color: transparent;
+}
+button.pal:hover { color: var(--realce); text-decoration: underline dotted; text-underline-offset: .22em; text-decoration-thickness: 1px; }
+button.pal:focus-visible { outline: 2px solid var(--realce); outline-offset: 1px; }
+button.pal.ativa { color: var(--realce); background: color-mix(in srgb, var(--realce) 12%, transparent); }
+.dica-glossario { margin-top: .5rem; }
+
+.nota-palavra {
+  position: absolute; z-index: 30; width: min(24rem, calc(100vw - 16px)); max-height: 70vh; overflow: auto;
+  padding: .85rem 2.2rem .9rem 1rem; background: var(--papel); color: var(--tinta);
+  border: 1px solid var(--linha); border-radius: var(--raio); box-shadow: 0 6px 28px rgba(40,30,20,.18);
+  font-family: var(--sans); font-size: .9rem; line-height: 1.5; text-align: left;
+}
+.nota-palavra.no-pe {
+  position: fixed; left: 0; right: 0; bottom: 0; top: auto; width: auto; max-height: 55vh;
+  border-radius: var(--raio) var(--raio) 0 0; border-width: 1px 0 0; padding: 1rem 2.6rem calc(1.1rem + env(safe-area-inset-bottom)) 1.1rem;
+}
+.nota-palavra p, .nota-palavra ol { margin: 0; }
+.fechar-nota {
+  position: absolute; top: .3rem; right: .35rem; width: 2rem; height: 2rem; border: 0; background: none;
+  color: var(--tinta-tenue); font-size: 1.35rem; line-height: 1; cursor: pointer; border-radius: 50%;
+}
+.fechar-nota:hover { color: var(--realce); }
+.vb-parte + .vb-parte { margin-top: .7rem; padding-top: .6rem; border-top: 1px solid var(--linha); }
+.vb-cab b { font-family: var(--serif); font-size: 1.12rem; font-weight: 600; }
+.vb-classe { color: var(--tinta-tenue); font-size: .85em; }
+.vb-def { margin-top: .3rem !important; }
+ol.vb-def { padding-left: 1.3rem; }
+.vb-fonte { font-size: .78em; margin-top: .25rem !important; }
+.vb-fonte a { color: var(--tinta-tenue); }
+.vb-fonte a:hover { color: var(--realce); }
+.vb-fonte a::after { content: " ↗"; }
+.vb-nota { margin-top: .7rem !important; padding-top: .6rem; border-top: 1px solid var(--linha); color: var(--tinta-suave); }
+.com-notas .paralelo.poema > .m-subtitulo { text-align: center; max-width: 24rem; justify-self: center; margin-top: 0; }

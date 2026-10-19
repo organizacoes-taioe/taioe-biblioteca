@@ -1,0 +1,682 @@
+{
+  "verbetes": {
+    "demain": {
+      "lema": "demain",
+      "classe": "advérbio",
+      "def": [
+        "O dia que vem imediatamente depois daquele em que se está."
+      ]
+    },
+    "dès": {
+      "lema": "dès",
+      "classe": "preposição",
+      "def": [
+        "A partir de (um tempo)."
+      ],
+      "nota": "«Dès l’aube»: logo ao romper da aurora, assim que amanhece."
+    },
+    "l’": {
+      "lema": "l’",
+      "classe": "artigo definido",
+      "forma": "elisão de «le» ou «la»",
+      "def": [
+        "Elisão dos artigos definidos «le» e «la» diante de vogal ou de h mudo."
+      ]
+    },
+    "aube": {
+      "lema": "aube",
+      "classe": "substantivo feminino",
+      "def": [
+        "Claridade que embranquece o oriente no momento que precede o nascer do sol; esse próprio momento."
+      ]
+    },
+    "à": {
+      "lema": "à",
+      "classe": "preposição",
+      "def": [
+        "Introduz um complemento circunstancial de tempo."
+      ]
+    },
+    "heure": {
+      "lema": "heure",
+      "classe": "substantivo feminino",
+      "def": [
+        "Momento de um dia."
+      ]
+    },
+    "où": {
+      "lema": "où",
+      "classe": "advérbio relativo",
+      "def": [
+        "Ao qual; no qual.",
+        "Usado, por analogia, para falar do tempo."
+      ],
+      "nota": "Aqui equivale a «em que»: «l’heure où…» é a hora em que algo acontece."
+    },
+    "blanchit": {
+      "lema": "blanchir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Tornar-se branco."
+      ],
+      "nota": "Fala do campo que clareia, esbranquiçado pela primeira luz, ao amanhecer."
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Feminino singular de «le»; determina um grupo nominal feminino singular."
+      ]
+    },
+    "campagne": {
+      "lema": "campagne",
+      "classe": "substantivo feminino",
+      "def": [
+        "Planície, país plano e descoberto, considerado sobretudo em relação ao seu cultivo e às suas produções."
+      ],
+      "nota": "Aqui é o campo aberto, a paisagem rural; não tem o sentido de «campanha» como ação organizada."
+    },
+    "je": {
+      "lema": "je",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome da primeira pessoa do singular, usado exclusivamente como sujeito."
+      ]
+    },
+    "partirai": {
+      "lema": "partir",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Deixar um lugar por outro."
+      ]
+    },
+    "vois": {
+      "lema": "voir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Dar-se conta; compreender."
+      ],
+      "nota": "«Vois-tu» (com o sujeito depois do verbo) é uma interpelação íntima, como «veja bem», «sabe?», dirigida a quem espera por ele."
+    },
+    "tu": {
+      "lema": "tu",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal sujeito da segunda pessoa do singular."
+      ]
+    },
+    "sais": {
+      "lema": "savoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Apreender pelo espírito ou pelo conhecimento; conhecer de modo certo."
+      ]
+    },
+    "que": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Complementador que introduz uma oração subordinada completiva."
+      ]
+    },
+    "m’": {
+      "lema": "m’",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «me»",
+      "def": [
+        "Elisão do pronome pessoal «me» diante de vogal ou de h mudo."
+      ]
+    },
+    "attends": {
+      "lema": "attendre",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Não se mexer; ficar onde se está à espera da vinda de algo ou de alguém."
+      ]
+    },
+    "j’": {
+      "lema": "j’",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «je»",
+      "def": [
+        "Elisão do pronome da primeira pessoa do singular «je» diante de vogal ou de h mudo."
+      ]
+    },
+    "irai": {
+      "lema": "aller",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Deslocar-se até um lugar."
+      ]
+    },
+    "par": {
+      "lema": "par",
+      "classe": "preposição",
+      "def": [
+        "Através de."
+      ]
+    },
+    "forêt": {
+      "lema": "forêt",
+      "classe": "substantivo feminino",
+      "def": [
+        "Vasto terreno coberto de mata, com muitas árvores próximas umas das outras."
+      ]
+    },
+    "montagne": {
+      "lema": "montagne",
+      "classe": "substantivo feminino",
+      "def": [
+        "Relevo topográfico que apresenta vertentes pronunciadas (em oposição a «altiplano», situado em altitude mas sem caráter montanhoso)."
+      ]
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "partícula",
+      "def": [
+        "Negação. Primeira parte de um morfema negativo que enquadra o verbo, em geral completado por «pas», «plus», «jamais», «rien» etc. Em linguagem formal, basta às vezes sozinho para marcar a negação."
+      ],
+      "nota": "Em «je ne puis», o «ne» está sozinho, sem «pas», como na língua literária; em «ne… ni… ni…», o «ni» já completa a negação."
+    },
+    "puis": {
+      "lema": "pouvoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Ser capaz de; ter a faculdade de; estar em condições de."
+      ],
+      "nota": "Forma literária de «je peux»: «je ne puis» é «não posso»."
+    },
+    "demeurer": {
+      "lema": "demeurer",
+      "classe": "verbo",
+      "def": [
+        "Encontrar-se, ficar ou estar em certo estado."
+      ],
+      "nota": "Equivale aqui a «ficar», «permanecer»."
+    },
+    "loin": {
+      "lema": "loin",
+      "classe": "advérbio",
+      "def": [
+        "Que se encontra a grande distância."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Marca a relação de uma distância ou de uma duração qualquer com o lugar ou com a época em que ela começa."
+      ]
+    },
+    "toi": {
+      "lema": "toi",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome da segunda pessoa do singular.",
+        "Usado, depois de uma preposição, como complemento indireto ou circunstancial."
+      ]
+    },
+    "plus": {
+      "lema": "plus",
+      "classe": "advérbio",
+      "def": [
+        "Com um adjetivo ou advérbio, indica o comparativo; mais."
+      ]
+    },
+    "longtemps": {
+      "lema": "longtemps",
+      "classe": "advérbio",
+      "def": [
+        "Durante muito tempo."
+      ]
+    },
+    "les": {
+      "lema": "les",
+      "classe": "artigo definido",
+      "forma": "plural",
+      "def": [
+        "Plural de «le» ou «la»."
+      ]
+    },
+    "marcherai": {
+      "lema": "marcher",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Deslocar-se por movimento alternado das pernas ou patas, tendo sempre um apoio no chão."
+      ]
+    },
+    "yeux": {
+      "lema": "œil",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Órgão da visão."
+      ],
+      "nota": "«Yeux» é o plural irregular de «œil»."
+    },
+    "fixés": {
+      "lema": "fixer",
+      "classe": "verbo",
+      "forma": "particípio passado, masculino plural",
+      "def": [
+        "Olhar, observar ou encarar com atenção e por muito tempo."
+      ],
+      "nota": "«Les yeux fixés sur…»: com os olhos fixos em…; o particípio concorda com «yeux»."
+    },
+    "sur": {
+      "lema": "sur",
+      "classe": "preposição",
+      "def": [
+        "Indica uma direção."
+      ]
+    },
+    "mes": {
+      "lema": "mon",
+      "classe": "determinante possessivo",
+      "forma": "plural (de «mon» e «ma»)",
+      "def": [
+        "Marca a posse ou a pertença; o possuidor é quem fala."
+      ]
+    },
+    "pensées": {
+      "lema": "pensée",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Meditação; devaneio."
+      ],
+      "nota": "Neste sentido, «pensée» quase só se usa no plural: ele anda absorto em seus devaneios."
+    },
+    "sans": {
+      "lema": "sans",
+      "classe": "preposição",
+      "def": [
+        "Coloca-se também diante de um infinitivo para marcar a ausência, a falta de uma maneira de ser ou de agir."
+      ]
+    },
+    "rien": {
+      "lema": "rien",
+      "classe": "pronome indefinido",
+      "def": [
+        "Com valor negativo: ausência de alguma coisa ou, por extensão, de toda coisa.",
+        "«Sans rien» + verbo no infinitivo: construção que torna totalmente negativa a ação do verbo."
+      ],
+      "nota": "«Sans rien voir»: sem ver coisa alguma."
+    },
+    "voir": {
+      "lema": "voir",
+      "classe": "verbo",
+      "def": [
+        "Perceber a imagem dos objetos pelo órgão da visão."
+      ]
+    },
+    "au": {
+      "lema": "au",
+      "classe": "artigo definido",
+      "forma": "contração de «à» + «le»",
+      "def": [
+        "Contração da preposição «à» e do artigo definido «le»."
+      ]
+    },
+    "dehors": {
+      "lema": "dehors",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte exterior de uma coisa."
+      ],
+      "nota": "«Au dehors»: do lado de fora, no mundo exterior."
+    },
+    "entendre": {
+      "lema": "entendre",
+      "classe": "verbo",
+      "def": [
+        "Perceber um som."
+      ]
+    },
+    "aucun": {
+      "lema": "aucun",
+      "classe": "adjetivo indefinido",
+      "def": [
+        "Nenhum; nem um (associado a uma negação: ne, sans…)."
+      ]
+    },
+    "bruit": {
+      "lema": "bruit",
+      "classe": "substantivo masculino",
+      "def": [
+        "Manifestação sonora desagradável, devida à mistura de sons de frequência e intensidade diversas."
+      ]
+    },
+    "seul": {
+      "lema": "seul",
+      "classe": "adjetivo",
+      "def": [
+        "Que está sem companhia; que não está com outros."
+      ]
+    },
+    "inconnu": {
+      "lema": "inconnu",
+      "classe": "adjetivo",
+      "def": [
+        "Que não se conhece; que é ignorado."
+      ],
+      "nota": "Aqui, anônimo: ninguém o reconhece pelo caminho."
+    },
+    "le": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "def": [
+        "Determinante que marca um substantivo masculino singular, referindo-se a uma única entidade possível em um contexto."
+      ]
+    },
+    "dos": {
+      "lema": "dos",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte do corpo humano situada acima do traseiro, do pescoço até os rins."
+      ]
+    },
+    "courbé": {
+      "lema": "courber",
+      "classe": "verbo",
+      "forma": "particípio passado, masculino singular",
+      "def": [
+        "Tornar curvo."
+      ]
+    },
+    "mains": {
+      "lema": "main",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Parte do corpo humano situada na ponta do braço, do pulso até a ponta dos dedos, que serve para a preensão e o tato."
+      ]
+    },
+    "croisées": {
+      "lema": "croiser",
+      "classe": "verbo",
+      "forma": "particípio passado, feminino plural",
+      "def": [
+        "Dispor em forma de cruz.",
+        "Em particular: dispor uma sobre a outra."
+      ]
+    },
+    "triste": {
+      "lema": "triste",
+      "classe": "adjetivo",
+      "def": [
+        "Aflito; que sente pesar."
+      ]
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção coordenativa",
+      "def": [
+        "Concatena vários conceitos numa mesma relação."
+      ]
+    },
+    "jour": {
+      "lema": "jour",
+      "classe": "substantivo masculino",
+      "def": [
+        "Período durante o qual o sol traz a sua luz, para uma dada zona da Terra."
+      ]
+    },
+    "pour": {
+      "lema": "pour",
+      "classe": "preposição",
+      "def": [
+        "Tendo em conta; em relação a."
+      ],
+      "nota": "«Pour moi»: para mim, a meu ver."
+    },
+    "moi": {
+      "lema": "moi",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome tônico da primeira pessoa do singular."
+      ]
+    },
+    "sera": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Definir um estado, uma característica do sujeito."
+      ]
+    },
+    "comme": {
+      "lema": "comme",
+      "classe": "conjunção",
+      "def": [
+        "Assim como.",
+        "Da maneira que; tanto quanto."
+      ]
+    },
+    "nuit": {
+      "lema": "nuit",
+      "classe": "substantivo feminino",
+      "def": [
+        "Período que decorre entre o pôr do sol e o nascer do sol."
+      ]
+    },
+    "regarderai": {
+      "lema": "regarder",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Dirigir o olhar para algo ou alguém."
+      ]
+    },
+    "ni": {
+      "lema": "ni",
+      "classe": "conjunção coordenativa",
+      "def": [
+        "Conjunção coordenativa negativa que corresponde a «et» afirmativo."
+      ],
+      "nota": "«Ni… ni…»: nem… nem…; vem acompanhada de «ne» antes do verbo."
+    },
+    "or": {
+      "lema": "or",
+      "classe": "substantivo masculino",
+      "def": [
+        "Corpo simples metálico de cor amarela, brilhante, inalterável, muito dúctil e maleável, considerado metal precioso.",
+        "Por extensão: a cor desse metal."
+      ],
+      "nota": "Aqui é a cor dourada, a luz de ouro do entardecer."
+    },
+    "du": {
+      "lema": "du",
+      "classe": "artigo definido",
+      "forma": "contração de «de» + «le»",
+      "def": [
+        "Artigo contraído, formado pela preposição «de» e pelo artigo «le»."
+      ]
+    },
+    "soir": {
+      "lema": "soir",
+      "classe": "substantivo masculino",
+      "def": [
+        "Declínio do dia, últimas horas da jornada."
+      ]
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "O qual, a qual, os quais, as quais.",
+        "Serve para designar o sujeito na oração relativa."
+      ]
+    },
+    "tombe": {
+      "lema": "tomber",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser levado para baixo pelo próprio peso."
+      ],
+      "nota": "«Le soir qui tombe»: o fim da tarde que desce, o dia que declina, como em «a noite cai»."
+    },
+    "voiles": {
+      "lema": "voile",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Grande peça de tecido que, pela força do vento, impulsiona os navios ou os moinhos."
+      ],
+      "nota": "«La voile» (feminino) é a vela do barco; não confundir com «le voile» (masculino), o véu. Aqui, as velas dos barcos ao longe."
+    },
+    "descendant": {
+      "lema": "descendre",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Ir de montante para jusante; seguir um curso de água no sentido da corrente."
+      ],
+      "nota": "Os barcos descem o rio em direção à foz."
+    },
+    "vers": {
+      "lema": "vers",
+      "classe": "preposição",
+      "def": [
+        "Em direção a."
+      ]
+    },
+    "harfleur": {
+      "lema": "Harfleur",
+      "classe": "nome próprio",
+      "def": [
+        "Comuna francesa situada no departamento do Sena Marítimo."
+      ],
+      "nota": "Antigo porto na foz do Sena, perto de Le Havre: o poeta imagina as velas dos barcos descendo o rio até lá."
+    },
+    "quand": {
+      "lema": "quand",
+      "classe": "conjunção",
+      "def": [
+        "Quando; no tempo em que."
+      ]
+    },
+    "arriverai": {
+      "lema": "arriver",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Chegar ao destino."
+      ]
+    },
+    "mettrai": {
+      "lema": "mettre",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Colocar uma pessoa, um animal ou uma coisa num lugar determinado."
+      ]
+    },
+    "sur#2": {
+      "lema": "sur",
+      "classe": "preposição",
+      "def": [
+        "Indica uma posição mais elevada.",
+        "Exprime uma ideia de contato."
+      ]
+    },
+    "ta": {
+      "lema": "ta",
+      "classe": "determinante possessivo",
+      "def": [
+        "Determinante que marca a posse de um objeto (de gênero feminino) pertencente àquele (no singular) a quem se fala."
+      ]
+    },
+    "tombe#2": {
+      "lema": "tombe",
+      "classe": "substantivo feminino",
+      "def": [
+        "Fossa mortuária; sepultura que contém um ou vários mortos.",
+        "Pedra tumular; monumento que cobre um túmulo."
+      ],
+      "nota": "É o túmulo de Léopoldine, filha de Victor Hugo, morta em 4 de setembro de 1843. Só no último verso se revela a quem o poema fala; a data, 3 de setembro de 1847, é a véspera do quarto aniversário da morte dela."
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "def": [
+        "Determinante colocado diante de um substantivo que representa um objeto, animado ou inanimado, que não se conhece com precisão. Frequentemente: «um entre outros»."
+      ]
+    },
+    "bouquet": {
+      "lema": "bouquet",
+      "classe": "substantivo masculino",
+      "def": [
+        "Reunião de flores cortadas e apertadas umas contra as outras."
+      ]
+    },
+    "de#2": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Relação de uma coisa com aquilo de que ela é formada, sempre com complemento indeterminado."
+      ]
+    },
+    "houx": {
+      "lema": "houx",
+      "classe": "substantivo masculino",
+      "def": [
+        "Árvore sempre verde, da família das aquifoliáceas, cujas folhas são luzidias e armadas de espinhos e cujo fruto é uma baga de um vermelho muito bonito."
+      ],
+      "nota": "Em português, azevinho: o ramo verde e espinhoso, de bagas vermelhas."
+    },
+    "vert": {
+      "lema": "vert",
+      "classe": "adjetivo",
+      "def": [
+        "Que é de uma cor semelhante à das folhas ou das ervas."
+      ]
+    },
+    "bruyère": {
+      "lema": "bruyère",
+      "classe": "substantivo feminino",
+      "def": [
+        "Planta lenhosa do gênero «Erica», de folhagem sempre verde, que cresce em terrenos incultos e arenosos."
+      ],
+      "nota": "Em português, urze: planta de flores miúdas, que floresce no fim do verão."
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Preposição que tem diversos usos especiais e precede muito frequentemente uma palavra que indica ou determina o estado absoluto ou relativo, a maneira de ser, a disposição, a modificação de uma pessoa ou coisa."
+      ],
+      "nota": "«En fleur»: em flor, florida."
+    },
+    "fleur": {
+      "lema": "fleur",
+      "classe": "substantivo feminino",
+      "def": [
+        "Órgão reprodutor das angiospermas (ou «plantas com flores»), constituído dos órgãos de reprodução sexuada (estames, carpelos) e de seus envoltórios protetores (sépalas, pétalas)."
+      ]
+    },
+    "septembre": {
+      "lema": "septembre",
+      "classe": "substantivo masculino",
+      "def": [
+        "Nono mês do ano do calendário gregoriano, que tem trinta dias."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "11.7": "sur#2",
+    "11.9": "tombe#2",
+    "12.3": "de#2",
+    "12.7": "de#2"
+  }
+}

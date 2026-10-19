@@ -1,0 +1,621 @@
+{
+  "verbetes": {
+    "amor": {
+      "lema": "amor",
+      "classe": "substantivo masculino",
+      "def": [
+        "Sentimento afetivo de atração, união e afinidade que se experimenta por uma pessoa, animal ou coisa."
+      ]
+    },
+    "constante": {
+      "lema": "constante",
+      "classe": "adjetivo",
+      "def": [
+        "Que não muda."
+      ],
+      "nota": "No título, «amor constante» é o amor que não muda nem com a morte."
+    },
+    "más": {
+      "lema": "más",
+      "classe": "advérbio",
+      "def": [
+        "Em comparação implícita ou explícita, indica maior quantidade, excesso, aumento, superioridade, preferência."
+      ],
+      "nota": "Em «más allá de», locução que quer dizer «além de»."
+    },
+    "allá": {
+      "lema": "allá",
+      "classe": "advérbio",
+      "def": [
+        "Indica um lugar distante de quem fala ou se comunica, de forma mais imprecisa que «allí»."
+      ],
+      "nota": "«Más allá de la muerte»: para além da morte."
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Junto com um advérbio, indica separação."
+      ],
+      "nota": "No título, forma com «más allá» a locução «más allá de», «além de»."
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Artigo definido feminino singular. Antecede substantivos femininos, indicando que devem ser tomados como informação conhecida."
+      ]
+    },
+    "muerte": {
+      "lema": "muerte",
+      "classe": "substantivo feminino",
+      "def": [
+        "Fim da vida, em especial de uma pessoa."
+      ]
+    },
+    "cerrar": {
+      "lema": "cerrar",
+      "classe": "verbo",
+      "def": [
+        "Colocar ou modificar algo para evitar sua abertura."
+      ],
+      "nota": "Hipérbato: o sujeito vem depois, no v. 2. É «la postrera sombra» (a última sombra) que poderá fechar-me os olhos."
+    },
+    "podrá": {
+      "lema": "poder",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter a capacidade ou a faculdade que permite fazer algo."
+      ],
+      "nota": "Nos vv. 1 e 3 o sujeito é o mesmo, «la postrera sombra» do v. 2: a sombra poderá fechar os olhos e poderá desatar a alma."
+    },
+    "mis": {
+      "lema": "mi",
+      "classe": "adjetivo possessivo",
+      "forma": "plural",
+      "def": [
+        "Adjetivo possessivo da primeira pessoa do singular; de mim."
+      ]
+    },
+    "ojos": {
+      "lema": "ojo",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Órgão sensível à luz que permite a visão nos seres vivos."
+      ]
+    },
+    "postrera": {
+      "lema": "postrero",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que está no final; último em ordem."
+      ]
+    },
+    "sombra": {
+      "lema": "sombra",
+      "classe": "substantivo feminino",
+      "def": [
+        "Ausência de luz."
+      ],
+      "nota": "«La postrera sombra» é a última escuridão, a morte, que leva de mim «el blanco día», a claridade da vida."
+    },
+    "que": {
+      "lema": "que",
+      "classe": "pronome relativo",
+      "def": [
+        "Palavra usada para fazer referência a uma palavra ou frase expressa antes, conhecida como antecedente, ligando-a a uma ideia que será expressa depois."
+      ],
+      "nota": "Retoma o antecedente: «sombra» no v. 2, «venas» no v. 10, «médulas» no v. 11."
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal da primeira pessoa do singular para os objetos direto e indireto."
+      ],
+      "nota": "No v. 2 indica a quem a sombra tira o dia: a sombra que de mim leva a luz do dia."
+    },
+    "llevare": {
+      "lema": "llevar",
+      "classe": "verbo",
+      "forma": "futuro do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Transportar algo ou alguém de um lugar a outro, separado no espaço."
+      ],
+      "nota": "O futuro do subjuntivo quase sumiu do espanhol de hoje; o português ainda o usa: «a sombra que me levar o branco dia». Aqui «llevar» é tirar, arrebatar: a última sombra, a da morte, que me tirar a luz do dia."
+    },
+    "el": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "forma": "masculino singular",
+      "def": [
+        "Artigo definido masculino singular."
+      ]
+    },
+    "blanco": {
+      "lema": "blanco",
+      "classe": "adjetivo",
+      "def": [
+        "De tom luminoso, brilhante e incolor, por refletir por completo a luz."
+      ],
+      "nota": "«Blanco día» é o dia claro, luminoso: a luz da vida, que a morte apaga."
+    },
+    "día": {
+      "lema": "día",
+      "classe": "substantivo masculino",
+      "def": [
+        "Tempo que dura a claridade diurna."
+      ]
+    },
+    "y": {
+      "lema": "y",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção copulativa que conclui uma enumeração."
+      ]
+    },
+    "desatar": {
+      "lema": "desatar",
+      "classe": "verbo",
+      "def": [
+        "Tirar ligaduras ou nós; soltar o que estava amarrado."
+      ],
+      "nota": "Aqui a morte solta a alma, que estava presa ao corpo."
+    },
+    "esta": {
+      "lema": "este",
+      "classe": "adjetivo demonstrativo",
+      "forma": "feminino singular",
+      "def": [
+        "Emprega-se para indicar ou assinalar algo ou alguém próximo do falante, ou para se referir a algo que acaba de ser mencionado."
+      ]
+    },
+    "alma": {
+      "lema": "alma",
+      "classe": "substantivo feminino",
+      "def": [
+        "Suposta essência imaterial de uma pessoa ou de um animal."
+      ],
+      "nota": "Nos vv. 9 a 12 a alma é um dos sujeitos de «dejará», junto com as veias e o tutano: todos deixam o corpo, mas não o seu «cuidado»."
+    },
+    "mía": {
+      "lema": "mío",
+      "classe": "pronome possessivo",
+      "forma": "feminino singular",
+      "def": [
+        "Possessivo da primeira pessoa (eu). Refere-se ao que é próprio ou pertence a mim."
+      ],
+      "nota": "Posposto ao substantivo («esta alma mía»), o possessivo ganha um tom de afeto."
+    },
+    "hora": {
+      "lema": "hora",
+      "classe": "substantivo feminino",
+      "def": [
+        "Últimos momentos da vida."
+      ],
+      "nota": "Aqui é a hora da morte. A ordem é invertida: «hora a su afán ansioso lisonjera» quer dizer «hora lisonjera a su afán ansioso», uma hora grata ao anseio da alma."
+    },
+    "a": {
+      "lema": "a",
+      "classe": "preposição",
+      "def": [
+        "Indica o complemento que regem certos verbos e alguns adjetivos."
+      ],
+      "nota": "Introduz o complemento de «lisonjera» (v. 4) e de «respeto» (v. 8): grata a, respeito a."
+    },
+    "su": {
+      "lema": "su",
+      "classe": "adjetivo possessivo",
+      "def": [
+        "Adjetivo possessivo da terceira pessoa; dele, dela, deles, delas."
+      ],
+      "nota": "Nos vv. 4 e 12 refere-se sempre à alma: seu anseio, seu corpo, seu cuidado."
+    },
+    "afán": {
+      "lema": "afán",
+      "classe": "substantivo masculino",
+      "def": [
+        "Ânsia, solicitude, angústia, anseio veemente."
+      ],
+      "nota": "O desejo veemente da alma; «ansioso» reforça a ideia."
+    },
+    "ansioso": {
+      "lema": "ansioso",
+      "classe": "adjetivo",
+      "def": [
+        "Que deseja com ânsia ou ansiedade."
+      ]
+    },
+    "lisonjera": {
+      "lema": "lisonjero",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que dá gosto ou prazer; que deleita os sentidos, em particular o ouvido."
+      ],
+      "nota": "Concorda com «hora». Vale aqui o sentido de agradar, de ser grata; não o de adular."
+    },
+    "mas": {
+      "lema": "mas",
+      "classe": "conjunção adversativa",
+      "def": [
+        "Mas."
+      ],
+      "nota": "Sem acento, é a conjunção «mas»; com acento, «más» é o advérbio «mais»."
+    },
+    "no": {
+      "lema": "no",
+      "classe": "advérbio de negação",
+      "def": [
+        "Advérbio de negação, que nega a frase ou expressão que segue."
+      ],
+      "nota": "Em «mas no» (v. 5), a negação vale para o verbo «dejará» do v. 6. Em «no su cuidado» (v. 12), nega só o objeto: o corpo a alma deixa, o «cuidado» não."
+    },
+    "de#2": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica a origem."
+      ],
+      "nota": "«De esotra parte»: do outro lado, na outra margem."
+    },
+    "esotra": {
+      "lema": "esotro",
+      "classe": "pronome demonstrativo",
+      "forma": "feminino singular",
+      "def": [
+        "Esse outro."
+      ],
+      "nota": "Contração antiga de «esa otra». «De esotra parte» é «da outra parte», isto é, do outro lado, a margem dos mortos."
+    },
+    "parte": {
+      "lema": "parte",
+      "classe": "substantivo feminino",
+      "def": [
+        "Local ocupado por algo ou alguém."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Indica o lugar onde ocorre o fato ou a ação."
+      ]
+    },
+    "ribera": {
+      "lema": "ribera",
+      "classe": "substantivo feminino",
+      "def": [
+        "Terreno imediatamente adjacente a um curso ou espelho de água."
+      ],
+      "nota": "A margem do rio da morte (o Lete, na mitologia clássica, o rio do esquecimento): a outra margem, a dos mortos."
+    },
+    "dejará": {
+      "lema": "dejar",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Desfazer-se de algo ou de alguém em um lugar qualquer."
+      ],
+      "nota": "No v. 6, a alma não deixará para trás a memória na outra margem. No v. 12, o sujeito vem dos vv. 9 a 11 (alma, veias, tutano): deixa o corpo, não o seu «cuidado»."
+    },
+    "memoria": {
+      "lema": "memoria",
+      "classe": "substantivo feminino",
+      "def": [
+        "Faculdade mental para reter e recordar o passado."
+      ],
+      "nota": "Aqui é a lembrança do amor, que a alma não largará, mesmo do outro lado."
+    },
+    "donde": {
+      "lema": "donde",
+      "classe": "advérbio relativo",
+      "def": [
+        "Indica o sítio da ação ou do fato."
+      ],
+      "nota": "«En donde» é «em que»: retoma «la memoria», o lugar em que a alma ardia de amor."
+    },
+    "ardía": {
+      "lema": "arder",
+      "classe": "verbo",
+      "forma": "pretérito imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Estar muito agitado ou possuído por uma paixão, sentimento ou emoção."
+      ],
+      "nota": "Arder de amor: a imagem do fogo atravessa o soneto («llama», «fuego», «ardido», «ceniza»)."
+    },
+    "nadar": {
+      "lema": "nadar",
+      "classe": "verbo",
+      "def": [
+        "Deslocar-se na água ou em outro líquido por meios próprios, impulsionando-se pelo deslocamento do meio fluido."
+      ],
+      "nota": "Aqui é transitivo: «nadar la agua fría» é atravessá-la a nado. A água fria é a da morte."
+    },
+    "sabe": {
+      "lema": "saber",
+      "classe": "verbo auxiliar",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "(saber + infinitivo) Ter destreza para fazer algo."
+      ],
+      "nota": "«Nadar sabe mi llama»: a ordem é invertida, minha chama sabe nadar."
+    },
+    "mi": {
+      "lema": "mi",
+      "classe": "adjetivo possessivo",
+      "def": [
+        "Adjetivo possessivo da primeira pessoa do singular; de mim."
+      ]
+    },
+    "llama": {
+      "lema": "llama",
+      "classe": "substantivo feminino",
+      "def": [
+        "Luz emitida pelos elétrons excitados com a energia liberada nos processos de combustão em atmosferas ricas em oxigênio.",
+        "Intensidade de uma emoção, paixão ou desejo."
+      ],
+      "nota": "A «llama» é o amor do poeta, uma chama que a água fria da morte não apaga."
+    },
+    "agua": {
+      "lema": "agua",
+      "classe": "substantivo feminino",
+      "def": [
+        "Substância transparente, inodora e insípida, que se encontra em estado líquido a temperatura e pressão padrão, e cuja composição molecular é de dois átomos de hidrogênio para um de oxigênio."
+      ],
+      "nota": "«La agua» é o uso antigo; hoje se diz «el agua». É a água fria da morte, o rio do esquecimento."
+    },
+    "fría": {
+      "lema": "frío",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "De temperatura inferior à normal."
+      ]
+    },
+    "perder": {
+      "lema": "perder",
+      "classe": "verbo",
+      "def": [
+        "Deixar de possuir uma qualidade espiritual ou moral."
+      ],
+      "nota": "«Perder el respeto a» é deixar de respeitar, desacatar."
+    },
+    "respeto": {
+      "lema": "respeto",
+      "classe": "substantivo masculino",
+      "def": [
+        "Reconhecimento que alguém faz das qualidades superiores de uma pessoa, como sua posição social ou moral, acompanhado de obediência e de uma espécie de veneração por ela."
+      ]
+    },
+    "ley": {
+      "lema": "ley",
+      "classe": "substantivo feminino",
+      "def": [
+        "Disposição, regra ou preceito ditado pela máxima autoridade."
+      ],
+      "nota": "«Ley severa» é a lei rígida da morte, que a chama do poeta desafia."
+    },
+    "severa": {
+      "lema": "severo",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que trata ou castiga de modo áspero, duro ou estrito."
+      ]
+    },
+    "quien": {
+      "lema": "quien",
+      "classe": "pronome relativo",
+      "def": [
+        "Faz referência a uma pessoa já mencionada ou subentendida."
+      ],
+      "nota": "Retoma «alma»: «alma a quien...» é «alma para quem...»."
+    },
+    "todo": {
+      "lema": "todo",
+      "classe": "adjetivo indefinido",
+      "def": [
+        "Que se considera completo tanto em seus atributos como em número."
+      ],
+      "nota": "«Todo un dios»: um deus inteiro, nada menos que um deus."
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Artigo indefinido masculino singular."
+      ]
+    },
+    "dios": {
+      "lema": "dios",
+      "classe": "substantivo masculino e feminino",
+      "def": [
+        "Entidade sobrenatural dotada de poderes superiores aos do homem."
+      ],
+      "nota": "É o Amor, o deus que manteve a alma prisioneira."
+    },
+    "prisión": {
+      "lema": "prisión",
+      "classe": "substantivo feminino",
+      "def": [
+        "Qualquer coisa ou fato que ate, atrapalhe ou limite a liberdade.",
+        "O que une estreitamente as vontades e os afetos."
+      ],
+      "nota": "O verso joga com os dois sentidos: o amor é ao mesmo tempo cárcere e laço."
+    },
+    "ha": {
+      "lema": "haber",
+      "classe": "verbo auxiliar",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Combina-se com o particípio de outros verbos para conjugá-los nos tempos compostos."
+      ]
+    },
+    "sido": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Ter algo determinada natureza, propriedade ou qualidade estável."
+      ]
+    },
+    "venas": {
+      "lema": "vena",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Qualquer vaso sanguíneo."
+      ]
+    },
+    "humor": {
+      "lema": "humor",
+      "classe": "substantivo masculino",
+      "def": [
+        "Líquido dentro do corpo de um animal ou vegetal, que cumpre uma função biológica específica."
+      ],
+      "nota": "No sentido antigo dos humores do corpo: o líquido vital (o sangue) que as veias deram para alimentar o fogo do amor."
+    },
+    "a#2": {
+      "lema": "a",
+      "classe": "preposição",
+      "def": [
+        "Indica complemento indireto."
+      ],
+      "nota": "Marca o destinatário: «a quien» (a quem) e «a tanto fuego» (a tanto fogo)."
+    },
+    "tanto": {
+      "lema": "tanto",
+      "classe": "adjetivo",
+      "def": [
+        "Tão grande, muito grande."
+      ],
+      "nota": "«Tanto fuego» é um fogo tão grande."
+    },
+    "fuego": {
+      "lema": "fuego",
+      "classe": "substantivo masculino",
+      "def": [
+        "Por extensão, energia moral ou anímica impressa por alguma paixão."
+      ],
+      "nota": "O fogo do amor, que as veias alimentaram com o seu «humor»."
+    },
+    "han": {
+      "lema": "haber",
+      "classe": "verbo auxiliar",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Combina-se com o particípio de outros verbos para conjugá-los nos tempos compostos."
+      ]
+    },
+    "dado": {
+      "lema": "dar",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Fazer entrega de algo."
+      ],
+      "nota": "«Dar humor a fuego» é alimentar o fogo, fornecer-lhe o líquido que o sustenta."
+    },
+    "médulas": {
+      "lema": "médula",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Tecido gorduroso, hematógeno e flexível que se encontra no interior dos ossos dos vertebrados."
+      ],
+      "nota": "O tutano, o mais fundo do corpo: o amor ardeu até ali."
+    },
+    "gloriosamente": {
+      "lema": "gloriosamente",
+      "classe": "advérbio de modo",
+      "def": [
+        "Com glória, de modo glorioso."
+      ]
+    },
+    "ardido": {
+      "lema": "arder",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Estar muito agitado ou possuído por uma paixão, sentimento ou emoção."
+      ],
+      "nota": "«Han ardido»: arderam de amor, a paixão que consumiu o corpo e que nos tercetos se faz cinza."
+    },
+    "cuerpo": {
+      "lema": "cuerpo",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte material de um ser humano ou de um animal."
+      ],
+      "nota": "O corpo mortal, que a alma deixa, em contraste com o «cuidado»."
+    },
+    "cuidado": {
+      "lema": "cuidado",
+      "classe": "substantivo masculino",
+      "def": [
+        "Forma de agir com atenção e preocupação para que tudo esteja bem."
+      ],
+      "nota": "Aqui é a solicitude amorosa, a inquietação do amante pelo ser amado, isto é, o próprio amor: a alma deixa o corpo, mas não esse «cuidado»."
+    },
+    "serán": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ter algo determinada natureza, propriedade ou qualidade estável."
+      ]
+    },
+    "ceniza": {
+      "lema": "ceniza",
+      "classe": "substantivo feminino",
+      "def": [
+        "Restos pulverulentos da combustão completa de algum material, de cor cinza ou enegrecida.",
+        "Figuradamente, restos físicos de um cadáver humano."
+      ],
+      "nota": "O corpo que ardeu de amor termina em cinza, mas uma cinza que ainda sente."
+    },
+    "tendrá": {
+      "lema": "tener",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Possuir, ser dono de algo."
+      ]
+    },
+    "sentido": {
+      "lema": "sentido",
+      "classe": "substantivo masculino",
+      "def": [
+        "Mecanismo fisiológico da percepção de sensações e estímulos."
+      ],
+      "nota": "Não é «significado», mas a capacidade de sentir: «tendrá sentido» quer dizer que a cinza ainda terá sensibilidade, continuará sentindo."
+    },
+    "polvo": {
+      "lema": "polvo",
+      "classe": "substantivo masculino",
+      "def": [
+        "Qualquer substância sólida, em especial terra, reduzida a grânulos de diâmetro muito fino."
+      ],
+      "nota": "O pó dos restos do corpo, paralelo de «ceniza»."
+    },
+    "enamorado": {
+      "lema": "enamorado",
+      "classe": "adjetivo",
+      "def": [
+        "Que sente ou tem um amor profundo."
+      ],
+      "nota": "Último verso: o corpo será pó, mas pó que ainda ama."
+    }
+  },
+  "ocorrencias": {
+    "5.3": "de#2",
+    "9.2": "a#2",
+    "10.4": "a#2"
+  }
+}

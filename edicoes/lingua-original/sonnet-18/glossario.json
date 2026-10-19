@@ -1,0 +1,746 @@
+{
+  "verbetes": {
+    "sonnet": {
+      "lema": "sonnet",
+      "classe": "substantivo",
+      "def": [
+        "Forma poética fixa, de origem italiana, com catorze versos, em geral de cinco pés jâmbicos, que rimam segundo um dos poucos esquemas prescritos."
+      ]
+    },
+    "shall": {
+      "lema": "shall",
+      "classe": "verbo auxiliar modal",
+      "def": [
+        "Usado em perguntas na primeira pessoa para sugerir uma possível ação futura."
+      ],
+      "nota": "«Shall I…?» propõe ou oferece uma ação, como o nosso «devo eu…?» ou «hei de…?»."
+    },
+    "i": {
+      "lema": "I",
+      "classe": "pronome pessoal",
+      "def": [
+        "Quem fala ou escreve, tratado como sujeito gramatical da frase."
+      ]
+    },
+    "compare": {
+      "lema": "compare",
+      "classe": "verbo",
+      "def": [
+        "Declarar que duas coisas são semelhantes em algum aspecto."
+      ]
+    },
+    "thee": {
+      "lema": "thee",
+      "classe": "pronome pessoal",
+      "def": [
+        "Caso oblíquo e reflexivo de «thou»."
+      ],
+      "nota": "Pronome arcaico de 2ª pessoa do singular, hoje restrito à poesia e aos textos religiosos: «thou» é «tu» (sujeito), «thee» é «te, ti» (objeto) e «thy» é «teu, tua». Aqui o poeta fala à pessoa amada."
+    },
+    "to": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Usada para indicar uma comparação; em comparação com, em contraste com."
+      ],
+      "nota": "Com «compare», marca aquilo com que se compara: «compare thee to…» é «comparar-te a…»."
+    },
+    "a": {
+      "lema": "a",
+      "classe": "artigo indefinido",
+      "def": [
+        "Um exemplar não específico de (algo); o artigo indefinido."
+      ]
+    },
+    "summer's": {
+      "lema": "summer",
+      "classe": "substantivo",
+      "forma": "genitivo (possessivo) singular",
+      "def": [
+        "Uma das quatro estações do ano, tradicionalmente a segunda, marcada pelos dias mais longos e, em geral, mais quentes do ano."
+      ],
+      "nota": "O «-’s» indica posse: «summer’s day» é «dia de verão»; «summer’s lease», «o arrendamento do verão»."
+    },
+    "day": {
+      "lema": "day",
+      "classe": "substantivo",
+      "def": [
+        "Período de tempo igual, ou quase igual, a um ciclo completo de dia e noite, com 24 horas."
+      ]
+    },
+    "thou": {
+      "lema": "thou",
+      "classe": "pronome pessoal",
+      "def": [
+        "Nominativo singular de «ye» («you»): o pronome de segunda pessoa do singular, como sujeito."
+      ],
+      "nota": "Veja «thee». O verbo que acompanha «thou» leva a terminação «-st» (art, ow’st, wander’st, grow’st)."
+    },
+    "art": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular (arcaico, com «thou»)",
+      "def": [
+        "Usado para indicar que o sujeito tem as qualidades descritas por um adjetivo ou por uma locução preposicional."
+      ],
+      "nota": "«Art» é o «és» de «thou»: «thou art» = «tu és»."
+    },
+    "more": {
+      "lema": "more",
+      "classe": "advérbio",
+      "def": [
+        "Usado para formar o comparativo de adjetivos e advérbios."
+      ]
+    },
+    "lovely": {
+      "lema": "lovely",
+      "classe": "adjetivo",
+      "def": [
+        "Encantador pela beleza, pela harmonia ou pela graça."
+      ]
+    },
+    "and": {
+      "lema": "and",
+      "classe": "conjunção",
+      "def": [
+        "Como conjunção coordenativa: exprime dois elementos tomados em conjunto ou um em acréscimo ao outro."
+      ]
+    },
+    "temperate": {
+      "lema": "temperate",
+      "classe": "adjetivo",
+      "def": [
+        "Moderado; que não é excessivo; em especial, moderado na temperatura.",
+        "Moderado na satisfação dos apetites e das paixões naturais."
+      ],
+      "nota": "O verso joga com os dois sentidos: o clima moderado, sem o calor excessivo do verão, e o temperamento equilibrado, sem excessos."
+    },
+    "rough": {
+      "lema": "rough",
+      "classe": "adjetivo",
+      "def": [
+        "Turbulento."
+      ]
+    },
+    "winds": {
+      "lema": "wind",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Movimento real ou percebido do ar atmosférico, em geral causado por convecção ou por diferenças de pressão do ar."
+      ]
+    },
+    "do": {
+      "lema": "do",
+      "classe": "verbo auxiliar",
+      "def": [
+        "Marcador sintático de ênfase nos modos indicativo, imperativo e subjuntivo."
+      ],
+      "nota": "Na época de Shakespeare esse «do» era comum nas frases afirmativas, quase sem ênfase, e ajudava o ritmo do verso: «do shake» vale por «shake», «sacodem»."
+    },
+    "shake": {
+      "lema": "shake",
+      "classe": "verbo",
+      "def": [
+        "Fazer (algo) mover-se rapidamente em direções opostas, alternadamente."
+      ]
+    },
+    "the": {
+      "lema": "the",
+      "classe": "artigo definido",
+      "def": [
+        "Usado antes de um sintagma nominal para mostrar que ele é definidamente identificável."
+      ]
+    },
+    "darling": {
+      "lema": "darling",
+      "classe": "adjetivo",
+      "def": [
+        "Muito querido; amado, estimado, favorito."
+      ]
+    },
+    "buds": {
+      "lema": "bud",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Folha ou flor recém-brotada que ainda não se abriu."
+      ]
+    },
+    "of": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Que pertence a, existe em ou ocorre em um dado lugar ou tempo."
+      ],
+      "nota": "«Buds of May» são os botões de maio, os que despontam nesse mês."
+    },
+    "may": {
+      "lema": "May",
+      "classe": "nome próprio",
+      "def": [
+        "O quinto mês do calendário gregoriano, depois de abril e antes de junho."
+      ],
+      "nota": "Com inicial maiúscula é o mês, e não o verbo modal «may». Maio é o fim da primavera no hemisfério norte, quando os botões ainda são frágeis."
+    },
+    "lease": {
+      "lema": "lease",
+      "classe": "substantivo",
+      "def": [
+        "Direito sobre um imóvel que concede uso ou ocupação exclusivos por um período limitado; arrendamento.",
+        "O contrato ou a escritura que concede esse direito."
+      ],
+      "nota": "Termo jurídico: o verão é um inquilino com contrato por prazo fixo, e esse prazo («date») é curto demais."
+    },
+    "hath": {
+      "lema": "have",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (forma arcaica em «-th»)",
+      "def": [
+        "Possuir, ter."
+      ],
+      "nota": "«Hath» é o antigo «has»: a terminação «-th» marcava a 3ª pessoa do singular."
+    },
+    "all": {
+      "lema": "all",
+      "classe": "advérbio",
+      "def": [
+        "Intensificador: totalmente, inteiramente, completamente."
+      ],
+      "nota": "«All too» reforça «too»: «demasiado», «curto demais»."
+    },
+    "too": {
+      "lema": "too",
+      "classe": "advérbio",
+      "def": [
+        "Em grau excessivo, mais do que o suficiente."
+      ]
+    },
+    "short": {
+      "lema": "short",
+      "classe": "adjetivo",
+      "def": [
+        "De pouca duração."
+      ]
+    },
+    "date": {
+      "lema": "date",
+      "classe": "substantivo",
+      "def": [
+        "Duração ou tempo de vida determinado ou atribuído (sentido obsoleto).",
+        "Fim designado; conclusão (raro)."
+      ],
+      "nota": "Outro termo de contrato: o prazo, o vencimento. O arrendamento do verão tem um prazo curtíssimo e um fim marcado."
+    },
+    "sometime": {
+      "lema": "sometime",
+      "classe": "advérbio",
+      "def": [
+        "Às vezes (sentido obsoleto)."
+      ],
+      "nota": "Aqui vale o sentido antigo de «sometimes»: «às vezes», «de quando em quando»."
+    },
+    "hot": {
+      "lema": "hot",
+      "classe": "adjetivo",
+      "def": [
+        "Dito de um objeto: que tem ou emite temperatura elevada."
+      ]
+    },
+    "eye": {
+      "lema": "eye",
+      "classe": "substantivo",
+      "def": [
+        "Órgão com que os animais veem."
+      ],
+      "nota": "«The eye of heaven» é o sol, imaginado como o olho do céu."
+    },
+    "of#2": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Que pertence a alguém ou a algo como coisa que possui ou como característica sua (genitivo possessivo)."
+      ]
+    },
+    "heaven": {
+      "lema": "heaven",
+      "classe": "substantivo",
+      "def": [
+        "O céu, em sentido antiquado ou poético: o céu distante em que o sol, a lua e as estrelas aparecem ou se movem; o firmamento."
+      ],
+      "nota": "Aqui é o firmamento, e não o paraíso."
+    },
+    "shines": {
+      "lema": "shine",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Emitir ou refletir luz de modo a brilhar."
+      ],
+      "nota": "Ordem poética: o verbo vem no fim, depois do sujeito («the eye of heaven»)."
+    },
+    "often": {
+      "lema": "often",
+      "classe": "advérbio",
+      "def": [
+        "Com frequência; muitas vezes, em ocasiões diferentes."
+      ]
+    },
+    "is": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Usado com o particípio passado de verbos para formar a voz passiva."
+      ],
+      "nota": "Ordem invertida: «often is his gold complexion dimm’d» equivale a «his gold complexion is often dimm’d»."
+    },
+    "his": {
+      "lema": "his",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a ele."
+      ],
+      "nota": "No verso 6 refere-se ao sol (o «olho do céu»), tratado como masculino. No verso 11, à Morte, também personificada."
+    },
+    "gold": {
+      "lema": "gold",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem a cor do ouro."
+      ]
+    },
+    "complexion": {
+      "lema": "complexion",
+      "classe": "substantivo",
+      "def": [
+        "Qualidade, cor ou aspecto da pele do rosto.",
+        "Em sentido figurado: o aspecto exterior de algo."
+      ],
+      "nota": "O sol é visto como um rosto de tez dourada; o que escurece é o seu brilho."
+    },
+    "dimm'd": {
+      "lema": "dim",
+      "classe": "verbo",
+      "forma": "particípio passado (grafia abreviada de «dimmed»)",
+      "def": [
+        "Tornar escuro, obscuro ou sombrio; tornar menos brilhante ou menos nítido."
+      ],
+      "nota": "O apóstrofo marca o «e» que não se pronuncia, de modo que a palavra cabe em uma sílaba do verso."
+    },
+    "every": {
+      "lema": "every",
+      "classe": "determinante",
+      "def": [
+        "Todos os de um grupo contável (considerados individualmente), sem exceção."
+      ]
+    },
+    "fair": {
+      "lema": "fair",
+      "classe": "substantivo",
+      "def": [
+        "Algo que é «fair» (nos vários sentidos do adjetivo)."
+      ],
+      "nota": "«Fair» é aqui o adjetivo no seu sentido original, «belo», usado como substantivo: «every fair» é toda coisa bela, todo ser belo."
+    },
+    "from": {
+      "lema": "from",
+      "classe": "preposição",
+      "def": [
+        "Indica remoção ou separação."
+      ]
+    },
+    "fair#2": {
+      "lema": "fair",
+      "classe": "substantivo",
+      "def": [
+        "Beleza (sentido obsoleto)."
+      ],
+      "nota": "Aqui é a própria beleza. No verso 7, «declines from fair» é «decai da beleza»; no verso 10, «that fair thou ow’st» é «essa beleza que possuis»."
+    },
+    "declines": {
+      "lema": "decline",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Tornar-se mais fraco ou pior."
+      ],
+      "nota": "Com «from», perder o que se tinha: a beleza decai e se afasta da beleza."
+    },
+    "by": {
+      "lema": "by",
+      "classe": "preposição",
+      "def": [
+        "Indica a pessoa ou a coisa que faz ou causa algo: por obra de, pela ação ou presença de."
+      ]
+    },
+    "chance": {
+      "lema": "chance",
+      "classe": "substantivo",
+      "def": [
+        "Ocorrência casual; sorte."
+      ]
+    },
+    "or": {
+      "lema": "or",
+      "classe": "conjunção",
+      "def": [
+        "Liga ao menos duas palavras, locuções ou orações alternativas, cada uma das quais poderia tornar verdadeira a passagem."
+      ]
+    },
+    "nature's": {
+      "lema": "nature",
+      "classe": "substantivo",
+      "forma": "genitivo (possessivo) singular",
+      "def": [
+        "O modo como as coisas são; a totalidade de todas as coisas do universo físico e a sua ordem, em especial o mundo físico, por oposição aos reinos espirituais, e a flora e a fauna, como distintas das convenções, da arte e da tecnologia humanas."
+      ]
+    },
+    "changing": {
+      "lema": "change",
+      "classe": "verbo",
+      "forma": "particípio presente, usado como adjetivo",
+      "def": [
+        "Tornar-se algo diferente."
+      ],
+      "nota": "Aqui é «mutável», «que muda sem parar»."
+    },
+    "course": {
+      "lema": "course",
+      "classe": "substantivo",
+      "def": [
+        "Sequência de acontecimentos; em especial, a sequência normal ou habitual."
+      ],
+      "nota": "«Nature’s changing course» é o andamento sempre mutável da natureza, a ordem natural das mudanças."
+    },
+    "untrimm'd": {
+      "lema": "untrimmed",
+      "classe": "adjetivo",
+      "forma": "grafia abreviada de «untrimmed»",
+      "def": [
+        "Não aparado; não posto em ordem por meio de corte.",
+        "Sem enfeites ou guarnições."
+      ],
+      "nota": "Vale sobretudo o segundo sentido: «trim» é enfeitar, pôr em ordem, e uma beleza «untrimm’d» fica despojada dos seus enfeites. O apóstrofo marca o «e» que não se pronuncia."
+    },
+    "but": {
+      "lema": "but",
+      "classe": "conjunção",
+      "def": [
+        "Porém, contudo, no entanto, por outro lado: introduz uma oração contrária a uma crença anterior ou em contraste com a oração ou frase precedente."
+      ]
+    },
+    "thy": {
+      "lema": "thy",
+      "classe": "determinante possessivo",
+      "def": [
+        "Forma possessiva de «thou»: que pertence a ti (singular)."
+      ],
+      "nota": "«Thy» é o «teu, tua» de «thou»."
+    },
+    "eternal": {
+      "lema": "eternal",
+      "classe": "adjetivo",
+      "def": [
+        "Que dura para sempre; sem fim."
+      ]
+    },
+    "summer": {
+      "lema": "summer",
+      "classe": "substantivo",
+      "def": [
+        "Uma das quatro estações do ano, tradicionalmente a segunda, marcada pelos dias mais longos e, em geral, mais quentes do ano.",
+        "Em sentido figurado: o período mais florescente, feliz ou belo; a idade de ouro, o auge."
+      ],
+      "nota": "Aqui é o verão figurado: o auge da beleza e da vida da pessoa amada, que não se acaba."
+    },
+    "shall#2": {
+      "lema": "shall",
+      "classe": "verbo auxiliar modal",
+      "def": [
+        "Usado para indicar determinação ou obrigação na segunda e na terceira pessoas do singular ou do plural."
+      ],
+      "nota": "Não é um simples futuro: o poeta promete e afirma, como em «não há de», «não vai»."
+    },
+    "not": {
+      "lema": "not",
+      "classe": "advérbio",
+      "def": [
+        "Nega o sentido do verbo que modifica."
+      ]
+    },
+    "fade": {
+      "lema": "fade",
+      "classe": "verbo",
+      "def": [
+        "Enfraquecer; perder a força; decair; perecer aos poucos; murchar, como uma planta.",
+        "Perder o frescor, a cor ou o brilho."
+      ]
+    },
+    "nor": {
+      "lema": "nor",
+      "classe": "conjunção",
+      "def": [
+        "E… não (introduz uma afirmação negativa, sem que precise seguir outra)."
+      ]
+    },
+    "lose": {
+      "lema": "lose",
+      "classe": "verbo",
+      "def": [
+        "Deixar de ter (algo) em sua posse ou capacidade."
+      ]
+    },
+    "possession": {
+      "lema": "possession",
+      "classe": "substantivo",
+      "def": [
+        "Posse; o ato de tomar, ter ou guardar algo como seu."
+      ]
+    },
+    "of#3": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Forma o «genitivo objetivo»: segue um substantivo de agente, um substantivo verbal ou um substantivo de ação."
+      ],
+      "nota": "«Possession of that fair» é a posse daquela beleza: a beleza é o que se possui."
+    },
+    "that": {
+      "lema": "that",
+      "classe": "determinante demonstrativo",
+      "def": [
+        "A coisa, pessoa, ideia etc. indicada ou entendida pelo contexto, em especial se mais remota do que a designada por «this», ou se exprime distinção."
+      ]
+    },
+    "ow'st": {
+      "lema": "own",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular (arcaico: «owest», de «owe»)",
+      "def": [
+        "Ter a posse legítima de (propriedade, bens ou capital); ter título legal sobre; adquirir uma propriedade ou um bem."
+      ],
+      "nota": "No inglês de Shakespeare, «owe» ainda queria dizer «possuir», como hoje «own»; o Wiktionary dá «ow’st» como forma de «owest» e de «ownest». «That fair thou ow’st» é «essa beleza que possuis»."
+    },
+    "death": {
+      "lema": "death",
+      "classe": "substantivo",
+      "def": [
+        "A personificação da morte como uma figura (em geral masculina) encapuzada, com uma foice; a Morte."
+      ],
+      "nota": "Com inicial maiúscula: a Morte como pessoa, que pode gabar-se e que tem uma sombra."
+    },
+    "brag": {
+      "lema": "brag",
+      "classe": "verbo",
+      "def": [
+        "Gabar-se; falar com orgulho excessivo do que se tem, do que se é capaz de fazer ou do que se fez."
+      ],
+      "nota": "Sem «that» antes da oração: «Death brag thou wander’st» é «a Morte se gabe de que vagas»."
+    },
+    "wander'st": {
+      "lema": "wander",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular (arcaico, abreviado de «wanderest»)",
+      "def": [
+        "Mover-se sem propósito nem destino determinado."
+      ],
+      "nota": "A terminação «-st» é a de «thou»; o apóstrofo marca o «e» que sumiu de «wanderest»."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Contido em; dentro de."
+      ],
+      "nota": "A sombra da Morte é vista como um lugar em que se pode vagar."
+    },
+    "shade": {
+      "lema": "shade",
+      "classe": "substantivo",
+      "def": [
+        "Escuridão onde a luz, em particular a do sol, está bloqueada; sombra.",
+        "Em registro literário: fantasma, espectro; espírito."
+      ],
+      "nota": "«His shade» é a sombra da Morte, e o verso ecoa as «sombras» dos mortos."
+    },
+    "when": {
+      "lema": "when",
+      "classe": "conjunção",
+      "def": [
+        "No (ou logo que no) momento em que; em todo e qualquer momento em que; se."
+      ]
+    },
+    "in#2": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Usado para indicar meio, suporte, formato, gênero ou instrumento."
+      ],
+      "nota": "«In eternal lines» é «por meio de versos eternos»: o poema é o meio da sobrevivência."
+    },
+    "lines": {
+      "lema": "line",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Verso (em poesia).",
+        "Série ou sucessão de ancestrais ou de descendentes de uma pessoa; família ou raça."
+      ],
+      "nota": "Aqui são os versos do poema, que dão a ela vida eterna. O outro sentido, a linhagem, fica ressoando: ela cresceria no tempo como uma descendência."
+    },
+    "time": {
+      "lema": "time",
+      "classe": "substantivo",
+      "def": [
+        "A progressão inevitável rumo ao futuro, com a passagem dos acontecimentos presentes e passados."
+      ]
+    },
+    "to#2": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Indica destino ou posição final: na direção de, de modo a chegar a ou alcançar."
+      ]
+    },
+    "grow'st": {
+      "lema": "grow",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular (arcaico, abreviado de «growest»)",
+      "def": [
+        "Desenvolver-se, amadurecer.",
+        "Tornar-se preso ou fixo; aderir (sentido obsoleto)."
+      ],
+      "nota": "«Grow to time» junta os dois sentidos: crescer e ficar ligada ao tempo, como se fosse enxertada nele. A terminação «-st» é a de «thou»."
+    },
+    "so": {
+      "lema": "so",
+      "classe": "advérbio",
+      "def": [
+        "(Com «as») Em tal extensão ou grau; tanto quanto."
+      ],
+      "nota": "«So long as…» significa «enquanto…», «por todo o tempo em que…»."
+    },
+    "long": {
+      "lema": "long",
+      "classe": "advérbio",
+      "def": [
+        "Por uma duração particular (especificada por palavras que a acompanham)."
+      ]
+    },
+    "as": {
+      "lema": "as",
+      "classe": "conjunção",
+      "def": [
+        "Do mesmo modo ou na mesma medida que; usada depois de «so» ou «as» para introduzir uma comparação."
+      ]
+    },
+    "men": {
+      "lema": "men",
+      "classe": "substantivo",
+      "def": [
+        "(Coletivo, antiquado) As pessoas, a humanidade, o gênero humano."
+      ],
+      "nota": "Aqui são as pessoas em geral, e não apenas os homens."
+    },
+    "can": {
+      "lema": "can",
+      "classe": "verbo auxiliar modal",
+      "def": [
+        "Ser capaz de."
+      ]
+    },
+    "breathe": {
+      "lema": "breathe",
+      "classe": "verbo",
+      "def": [
+        "Puxar o ar para os pulmões (inspirar) e expeli-lo (expirar) para extrair oxigênio e excretar gases residuais.",
+        "Em sentido figurado: viver."
+      ],
+      "nota": "Respirar é sinal de vida: «enquanto houver quem respire» é «enquanto houver quem viva»."
+    },
+    "eyes": {
+      "lema": "eye",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Órgão com que os animais veem."
+      ]
+    },
+    "see": {
+      "lema": "see",
+      "classe": "verbo",
+      "def": [
+        "Perceber ou detectar alguém ou algo com os olhos, ou como se fosse pela vista."
+      ]
+    },
+    "so#2": {
+      "lema": "so",
+      "classe": "advérbio",
+      "def": [
+        "Em tal extensão (implícita)."
+      ],
+      "nota": "Repete a fórmula do verso anterior: «so long lives this» é «por tanto tempo vive este», isto é, pelo mesmo tempo."
+    },
+    "long#2": {
+      "lema": "long",
+      "classe": "advérbio",
+      "def": [
+        "Por muito tempo (colocado antes de um verbo, particípio, adjetivo, preposição ou advérbio)."
+      ]
+    },
+    "lives": {
+      "lema": "live",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Estar vivo; ter vida.",
+        "Perdurar na memória; escapar ao esquecimento."
+      ],
+      "nota": "O sujeito é «this», o poema, que vive em quem o lê."
+    },
+    "this": {
+      "lema": "this",
+      "classe": "pronome demonstrativo",
+      "def": [
+        "A coisa, o item etc. que se indica."
+      ],
+      "nota": "No último verso, «this» é o próprio poema: ele é o que vive e o que dá vida a ela."
+    },
+    "gives": {
+      "lema": "give",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Passar, levar ou fornecer algo, abstrato ou concreto, a alguém ou a algo."
+      ]
+    },
+    "to#3": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Usado para indicar o alvo ou o destinatário de uma ação."
+      ]
+    },
+    "life": {
+      "lema": "life",
+      "classe": "substantivo",
+      "def": [
+        "O estado dos organismos anterior à sua morte, caracterizado por processos biológicos como o metabolismo e a reprodução e que os distingue dos objetos inanimados; o estado de estar vivo."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "5.6": "of#2",
+    "7.5": "fair#2",
+    "9.5": "shall#2",
+    "10.4": "of#3",
+    "10.6": "fair#2",
+    "11.2": "shall#2",
+    "12.2": "in#2",
+    "12.5": "to#2",
+    "14.1": "so#2",
+    "14.2": "long#2",
+    "14.9": "to#3"
+  }
+}

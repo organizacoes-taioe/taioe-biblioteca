@@ -212,6 +212,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('antonio-nobre/so-soneto-16', 'Aqui, sobre estas águas cor de azeite,'),
   ('antonio-nobre/so-soneto-17', 'Vaidade, meu Amor, tudo Vaidade!'),
   ('antonio-nobre/so-soneto-18', 'E a Vida foi, e é assim, e não melhora.'),
+  ('arthur-rimbaud/le-dormeur-du-val', 'Le Dormeur du val'),
   ('augusto-dos-anjos/eu-a-arvore-da-serra', 'A Árvore da Serra'),
   ('augusto-dos-anjos/eu-a-ideia', 'A Ideia'),
   ('augusto-dos-anjos/eu-a-ilha-de-cipango', 'A Ilha de Cipango'),
@@ -1124,7 +1125,9 @@ insert into biblioteca.obras (obra, titulo) values
   ('francisca-julia/marmores-rainha-das-aguas', 'Rainha das águas'),
   ('francisca-julia/marmores-sonho-africano', 'Sonho africano'),
   ('francisca-julia/marmores-venus', 'Vênus'),
+  ('francisco-de-quevedo/amor-constante', 'Amor constante más allá de la muerte'),
   ('g-k-chesterton/ortodoxia', 'Ortodoxia'),
+  ('garcilaso-de-la-vega/soneto-xxiii', 'Soneto XXIII'),
   ('goethe/achado', 'Achado'),
   ('goethe/boas-vindas-e-despedida', 'Boas-vindas e despedida'),
   ('goethe/cancao-de-maio', 'Canção de maio'),
@@ -1291,6 +1294,8 @@ insert into biblioteca.obras (obra, titulo) values
   ('gregorio-de-matos/soneto-sobolos-rios-sobolas-torrentes', 'Sôbolos rios, sôbolas torrentes'),
   ('gregorio-de-matos/soneto-triste-bahia-oh-quao-dessemelhante', 'Triste Bahia! Oh quão dessemelhante'),
   ('gregorio-de-matos/soneto-um-soneto-comeco-em-vosso-gabo', 'Um soneto começo em vosso gabo'),
+  ('john-donne/death-be-not-proud', 'Death, be not proud'),
+  ('john-keats/to-autumn', 'To Autumn'),
   ('joseph-tissot/arte-de-aproveitar-as-faltas', 'A arte de aproveitar as próprias faltas'),
   ('junqueira-freire/inspiracoes-do-claustro-louco', 'Louco (Hora de Delírio)'),
   ('junqueira-freire/inspiracoes-do-claustro-martirio', 'Martírio'),
@@ -1988,6 +1993,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('olavo-bilac/via-lactea-vejo-a-contemplo-a-comovido-aquela', 'Vejo-a, contemplo-a comovido... Aquela'),
   ('olavo-bilac/via-lactea-viver-nao-pude-sem-que', 'Viver não pude sem que o fel provasse'),
   ('paul-verlaine/cancao-de-outono', 'Canção de outono'),
+  ('pierre-de-ronsard/quand-vous-serez-bien-vieille', 'Quand vous serez bien vieille'),
   ('raimundo-correia/aleluias-amem', 'Amém!'),
   ('raimundo-correia/aleluias-banzo', 'Banzo'),
   ('raimundo-correia/aleluias-citera', 'Citera'),
@@ -2076,6 +2082,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('santo-agostinho/confissoes', 'Confissões'),
   ('santo-atanasio/vida-de-santo-antao', 'Vida de Santo Antão'),
   ('sao-francisco-de-sales/introducao-a-vida-devota', 'Introdução à vida devota (Filoteia)'),
+  ('sao-joao-da-cruz/noche-oscura', 'Noche oscura'),
   ('tomas-antonio-gonzaga/lira-acaso-sao-estes', 'Acaso são estes'),
   ('tomas-antonio-gonzaga/lira-de-amar-minha-marilia-a-formosura', 'De amar, minha Marília, a formosura'),
   ('tomas-antonio-gonzaga/lira-era-uma-frondosa', 'Era uma frondosa'),
@@ -2138,6 +2145,8 @@ insert into biblioteca.obras (obra, titulo) values
   ('vicente-de-carvalho/poemas-e-cancoes-velho-tema-3', 'Velho tema, III'),
   ('vicente-de-carvalho/poemas-e-cancoes-velho-tema-4', 'Velho tema, IV'),
   ('vicente-de-carvalho/poemas-e-cancoes-velho-tema-5', 'Velho tema, V'),
-  ('vicente-de-carvalho/poemas-e-cancoes-velho-tema-6', 'Velho tema, VI')
+  ('vicente-de-carvalho/poemas-e-cancoes-velho-tema-6', 'Velho tema, VI'),
+  ('victor-hugo/demain-des-l-aube', 'Demain, dès l’aube…'),
+  ('william-shakespeare/sonnet-18', 'Sonnet 18')
 on conflict (obra) do update set titulo = excluded.titulo, atualizado_em = now()
   where biblioteca.obras.titulo is distinct from excluded.titulo;

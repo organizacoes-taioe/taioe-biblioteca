@@ -42,7 +42,7 @@ const BIBLIOTECA = {
         id: p.id, autor: pac.autor, titulo: p.titulo, genero: 'Poesia', poema: true,
         forma: p.forma, n: p.n || '', secao: p.secao || '', subtitulo: p.subtitulo || '',
         ano: p.ano || (l && l.ano) || null, versos: p.versos, lingua: p.lingua || '',
-        traducao: p.traducao || null,
+        traducao: p.traducao || null, glossario: !!p.glossario,
         coletanea: l ? { id: pac.autor + '/' + l.id, titulo: l.titulo, ano: l.ano || '', ordem: k, seq: p.livro } : null,
         ordem: k,
         divisao: { singular: 'parte', plural: 'partes' },
@@ -59,6 +59,7 @@ const BIBLIOTECA = {
         if (!o.partes[i]) o.partes[i] = { n: '', titulo: '' };
         o.partes[i].texto = t;
         if (e.o) o.partes[i].original = e.o[i];
+        if (e.g) o.partes[i].glossario = e.g[i];
       });
       if (e.e) o.edicao = e.e;
       o.carregada = true;
@@ -118,20 +119,22 @@ function paragrafos(lista) {
 }
 function blocosPoema(texto) {
   const bl = []; let estrofe = null, branco = true;
-  String(texto || '').split('\n').forEach((l) => {
+  String(texto || '').split('\n').forEach((l, k) => {
     if (!l.trim()) { estrofe = null; branco = true; return; }
     const m = /^::(\w+)\s?(.*)$/.exec(l);
-    if (m) { bl.push({ marca: m[1], valor: m[2].trim(), sep: branco }); estrofe = null; branco = false; return; }
-    if (!estrofe) { estrofe = { versos: [], sep: branco }; bl.push(estrofe); }
+    if (m) { bl.push({ marca: m[1], valor: m[2].trim(), sep: branco, linha: k }); estrofe = null; branco = false; return; }
+    if (!estrofe) { estrofe = { versos: [], linhas: [], sep: branco }; bl.push(estrofe); }
     estrofe.versos.push(l);
+    estrofe.linhas.push(k);
     branco = false;
   });
   return bl;
 }
 const SEPARADORES = { 'filete': '<span class="fio"></span>', 'fio horizontal': '<span class="fio"></span>',
   'linha de pontos': '. . . . . . . . . . .' };
-function htmlMarca(b) {
+function htmlMarca(b, pals) {
   const v = b.valor;
+  if (pals && ['subtitulo', 'data', 'dedicatoria', 'fecho'].includes(b.marca)) return marcarPalavras(v, pals);
   switch (b.marca) {
     case 'epigrafe': return v.split(/\s+\/\s+/).map(inline).join('<br>');
     case 'separador': return SEPARADORES[v] || esc(v || '*');
@@ -140,11 +143,38 @@ function htmlMarca(b) {
     default: return inline(v);
   }
 }
-function linhasPoema(texto) {
+function linhasPoema(texto, glos) {
+  const porLinha = {}, brutas = String(texto || '').split('\n');
+  if (glos) glos.o.forEach(([l, a, b, id]) => (porLinha[l] = porLinha[l] || []).push([a, b, id]));
   return blocosPoema(texto).map((b) => {
-    if (b.marca) return { sep: b.sep, linhas: [{ cls: 'm m-' + b.marca, html: htmlMarca(b) }] };
-    return { sep: b.sep, linhas: b.versos.map((v) => ({ cls: 'v', html: inline(v) })) };
+    if (b.marca) {
+      const d = glos ? brutas[b.linha].indexOf(b.valor) : 0;   // as posições contam a linha inteira, com o «::marca»
+      const pals = glos ? (porLinha[b.linha] || []).map(([x, y, id]) => [x - d, y - d, id]) : null;
+      return { sep: b.sep, linhas: [{ cls: 'm m-' + b.marca, html: htmlMarca(b, pals) }] };
+    }
+    return { sep: b.sep, linhas: b.versos.map((v, j) => ({ cls: 'v', html: glos ? marcarPalavras(v, porLinha[b.linhas[j]] || []) : inline(v) })) };
   });
+}
+/* Poema na língua original (edicoes/lingua-original): cada palavra é um botão que abre a nota;
+   os verbetes ficam escondidos no fim da página, e o leitor.js mostra o da palavra junto dela. */
+function marcarPalavras(s, pals) {
+  let html = '', ant = 0;
+  pals.slice().sort((x, y) => x[0] - y[0]).forEach(([a, b, id]) => {
+    html += esc(s.slice(ant, a)) + '<button type="button" class="pal" data-g="' + id + '" aria-haspopup="dialog">' + esc(s.slice(a, b)) + '</button>';
+    ant = b;
+  });
+  return html + esc(s.slice(ant));
+}
+function htmlGlossario(o, glos) {
+  const lingua = esc(o.lingua || '');
+  return '<div class="glossario" id="glossario" hidden>' + Object.keys(glos.v).map((id) => {
+    const v = glos.v[id];
+    const partes = v.p.map((x) => '<div class="vb-parte"><p class="vb-cab"><b lang="' + lingua + '">' + esc(x.l) + '</b>' +
+      (x.c || x.f ? ' <span class="vb-classe">' + inline([x.c, x.f].filter(Boolean).join(', ')) + '</span>' : '') + '</p>' +
+      (x.d ? (x.d.length > 1 ? '<ol class="vb-def">' + x.d.map((d) => '<li>' + inline(d) + '</li>').join('') + '</ol>' : '<p class="vb-def">' + inline(x.d[0]) + '</p>') : '') +
+      (x.u ? '<p class="vb-fonte"><a href="' + esc(x.u) + '" target="_blank" rel="noopener">Wiktionary</a></p>' : '') + '</div>').join('');
+    return '<div class="verbete" id="g-' + id + '">' + partes + (v.n ? '<p class="vb-nota">' + inline(v.n) + '</p>' : '') + '</div>';
+  }).join('') + '</div>';
 }
 function linhasProsa(texto) {
   const todos = String(texto || '').trim().split(/\n\s*\n/).filter(Boolean);
@@ -184,7 +214,7 @@ function textoParte(o, p) {
   const attr = o.lingua && !orig ? ' lang="' + esc(o.lingua) + '"' : '';
   if (!orig && !poema) return '<div class="texto">' + blocos(p.texto) + '</div>';
   return '<div class="texto"><div class="' + cls + '"' + attr + '>' +
-    grade(linhas(p.texto), orig ? linhas(p.original) : null, lingua) + '</div></div>';
+    grade(poema ? linhasPoema(p.texto, p.glossario) : linhas(p.texto), orig ? linhas(p.original) : null, lingua) + '</div></div>';
 }
 function incipit(texto, limite) {
   const t = String(texto).replace(/\{[^}]*\}/g, '').replace(/^\|\s?/gm, '').replace(/[_*]/g, '').replace(/\s+/g, ' ').trim();
@@ -206,6 +236,8 @@ const PLURAIS = { 'Romance': 'Romances', 'Novela': 'Novelas', 'Contos': 'Contos'
 const AREAS = [{ id: 'literatura', nome: 'Literatura' }, { id: 'catolicismo', nome: 'Catolicismo' }];
 const areaDe = (a) => a.area || 'literatura';
 const acharArea = (id) => AREAS.find((x) => x.id === id) || null;
+/* Literatura na língua original (autor com «lingua»): uma página por língua, dentro da Literatura */
+const LINGUAS = { es: { nome: 'Espanhol', slug: 'espanhol' }, en: { nome: 'Inglês', slug: 'ingles' }, fr: { nome: 'Francês', slug: 'frances' } };
 const nomeGenero = (g) => PLURAIS[g] || g;
 const slug = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const slugGenero = (g) => slug(nomeGenero(g));
@@ -340,6 +372,7 @@ dados.autores.forEach((a) => {
 const U = {
   capa: () => BASE,
   area: (id) => BASE + id + '/',
+  lingua: (l) => BASE + 'literatura/' + LINGUAS[l].slug + '/',
   autor: (a) => BASE + a.id + '/',
   genero: (a, g) => BASE + a.id + '/' + slugGenero(g) + '/',
   pasta: (a, f) => BASE + a.id + '/poesia/' + f + '/',
@@ -521,7 +554,8 @@ function trilhaHtml(itens) {
 }
 function comArea(a, itens) {
   const ar = a && acharArea(areaDe(a));
-  return ar ? [{ txt: ar.nome, href: U.area(ar.id) }].concat(itens) : itens;
+  const li = a && a.lingua && LINGUAS[a.lingua] ? [{ txt: LINGUAS[a.lingua].nome, href: U.lingua(a.lingua) }] : [];
+  return ar ? [{ txt: ar.nome, href: U.area(ar.id) }].concat(li, itens) : itens;
 }
 function descricaoDe(t) { const s = textoPuro(t); return s.length > 155 ? s.slice(0, 154).replace(/\s+\S*$/, '') + '…' : s; }
 
@@ -613,13 +647,12 @@ function anosDe(vida) {
   const m = String(vida || '').match(/(~?)(\d{1,4})\s*[–-]\s*(~?)(\d{1,4})/);
   return m ? { nasc: +m[2], morte: +m[4] } : { nasc: 9999, morte: 9999 };
 }
-function paginaArea(ar) {
-  let html = '<div class="folha"><header class="cabeca"><h1>' + esc(ar.nome) + '</h1></header>' +
-    '<div class="secao-titulo linha-ordem"><span>Autores</span><span class="ordenar" id="ordenar" hidden>' +
+function htmlAutores(autores) {
+  let html = '<div class="secao-titulo linha-ordem"><span>Autores</span><span class="ordenar" id="ordenar" hidden>' +
     '<button type="button" data-ordem="alfa" aria-pressed="true">A–Z</button>' +
     '<button type="button" data-ordem="nasc" aria-pressed="false">nascimento</button>' +
     '<button type="button" data-ordem="morte" aria-pressed="false">falecimento</button></span></div><div id="lista-autores">';
-  autoresDaArea(ar.id).forEach((a, k) => {
+  autores.forEach((a, k) => {
     const obras = obrasDe(a.id), prosa = obras.filter((o) => !o.poema), versos = obras.length - prosa.length;
     const conta = [prosa.length ? plural(livros(prosa), 'obra', 'obras') : '', versos ? plural(versos, 'poema', 'poemas') : ''].filter(Boolean).join(' · ') || '0 obras';
     const anos = anosDe(a.vida);
@@ -627,9 +660,32 @@ function paginaArea(ar) {
       '<span class="cartao-meta">' + esc(a.vida || '') + (a.vida ? ' · ' : '') + conta + '</span>' +
       (obras.length ? '<span class="cartao-texto">' + generosDe(a.id).map((x) => esc(nomeGenero(x.genero))).join(' · ') + '</span>' : '') + '</a>';
   });
-  html += '</div></div>';
+  return html + '</div>';
+}
+const autoresDaLingua = (l) => autoresDaArea('literatura').filter((a) => a.lingua === l && obrasDe(a.id).length);
+const linguasComAutores = () => Object.keys(LINGUAS).filter((l) => autoresDaLingua(l).length);
+function paginaArea(ar) {
+  let html = '<div class="folha"><header class="cabeca"><h1>' + esc(ar.nome) + '</h1></header>';
+  if (ar.id === 'literatura' && linguasComAutores().length) {
+    html += '<p class="secao-titulo">Na língua original</p>';
+    linguasComAutores().forEach((l) => {
+      const autores = autoresDaLingua(l), poemas = autores.reduce((n, a) => n + obrasDe(a.id).length, 0);
+      html += '<a class="cartao pasta" href="' + U.lingua(l) + '"><span class="cartao-titulo">' + esc(LINGUAS[l].nome) + '</span>' +
+        '<span class="cartao-meta">' + plural(autores.length, 'autor', 'autores') + ' · ' + plural(poemas, 'poema', 'poemas') + '</span>' +
+        '<span class="cartao-texto">' + autores.map((a) => esc(a.nome)).join(' · ') + '</span></a>';
+    });
+  }
+  html += htmlAutores(autoresDaArea(ar.id).filter((a) => !a.lingua)) + '</div>';
   pagina({ url: U.area(ar.id), titulo: ar.nome, corpo: html, trilha: [{ txt: ar.nome }],
-    descricao: `${ar.nome} na Biblioteca Taioé: ${autoresDaArea(ar.id).map((a) => a.nome).join(', ')}.` });
+    descricao: `${ar.nome} na Biblioteca Taioé: ${autoresDaArea(ar.id).filter((a) => !a.lingua).map((a) => a.nome).join(', ')}.` });
+}
+function paginaLingua(l) {
+  const L = LINGUAS[l], ar = acharArea('literatura'), autores = autoresDaLingua(l);
+  const html = '<div class="folha"><header class="cabeca"><h1>' + esc(L.nome) + '</h1>' +
+    '<p class="meta">Na língua original, sem tradução. Cada palavra abre uma nota com a definição.</p></header>' +
+    htmlAutores(autores) + '</div>';
+  pagina({ url: U.lingua(l), titulo: L.nome + ' — ' + ar.nome, corpo: html, trilha: [{ txt: ar.nome, href: U.area(ar.id) }, { txt: L.nome }],
+    descricao: `Literatura em ${L.nome.toLowerCase()} na Biblioteca Taioé, com notas em português: ${autores.map((a) => a.nome).join(', ')}.` });
 }
 
 function cabecaAutor(a) {
@@ -834,6 +890,7 @@ function paginaParte(a, o, f) {
 
   function titulo(tag, cls, trad, orig) {
     const h = '<' + tag + (cls ? ' class="' + cls + '"' : '') + '>';
+    if (p.glossario && tag === 'h1') return h + '<span lang="' + esc(o.lingua) + '">' + marcarPalavras(trad, p.glossario.t) + '</span></' + tag + '>';
     if (!bilingue || !orig) return h + inline(trad) + '</' + tag + '>';
     const lingua = o.traducao ? o.traducao.codigo || '' : '';
     return '<div class="paralelo titulos"><div class="orig" data-i="t"' + (lingua ? ' lang="' + esc(lingua) + '"' : '') + '>' + h + inline(orig) + '</' + tag + '></div>' +
@@ -845,8 +902,10 @@ function paginaParte(a, o, f) {
     cabeca = (i === 1 ? (livro ? '<p class="coletanea-parte">' + livro + '</p>' : '') +
       (poema && o.n ? '<p class="num-parte">' + esc(o.n) + '</p>' : '') +
       titulo('h1', 'titulo-conto', o.titulo, o.traducao && o.traducao.titulo) +
-      (o.subtitulo ? '<p class="subtitulo-obra">' + inline(o.subtitulo) + '</p>' : '') +
+      (o.subtitulo ? '<p class="subtitulo-obra"' + (o.glossario ? ' lang="' + esc(o.lingua) + '"' : '') + '>' +
+        (p.glossario && p.glossario.s ? marcarPalavras(o.subtitulo, p.glossario.s) : inline(o.subtitulo)) + '</p>' : '') +
       (o.traducao ? '<p class="publicacao">Tradução do ' + esc(o.traducao.lingua) + '</p>' : '') +
+      (p.glossario ? '<p class="publicacao dica-glossario">Toque numa palavra para ver a nota.</p>' : '') +
       (o.publicacao ? '<p class="publicacao">' + inline(textoPublicacao(o)) + '</p>' : '') : '') +
       (total > 1 ? (p.n ? '<p class="num-parte">' + esc(p.n) + '</p>' : '') + (p.titulo ? titulo('h2', '', p.titulo, p.tituloOriginal) : '') : '');
   } else if (sub) {
@@ -866,8 +925,9 @@ function paginaParte(a, o, f) {
   const alvo = !sub ? 'parte' : p.tipo === 'capitulo' ? 'capitulo' : 'secao';
   const lingua = bilingue && o.traducao ? o.traducao.codigo || '' : '';
   const html = '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
-    '<article class="folha leitura' + (poema ? ' de-poema' : '') + (bilingue ? ' bilingue ver-trad' : '') + '"' + (lingua ? ' data-lingua="' + esc(lingua) + '"' : '') + '>' +
+    '<article class="folha leitura' + (poema ? ' de-poema' : '') + (p.glossario ? ' com-notas' : '') + (bilingue ? ' bilingue ver-trad' : '') + '"' + (lingua ? ' data-lingua="' + esc(lingua) + '"' : '') + '>' +
     '<header class="cabeca-parte' + (conto && i === 1 ? ' conto' : '') + '">' + cabeca + '</header>' + textoParte(o, p) +
+    (p.glossario ? htmlGlossario(o, p.glossario) : '') +
     '<div id="fim-parte" aria-hidden="true"></div>' +
     (i < total || poema ? '' : '<p class="fim">Fim</p>') +
     '<div class="estado-leitura" id="estado-leitura" data-alvo="' + alvo + '" hidden></div>' +
@@ -998,6 +1058,7 @@ fs.mkdirSync(SAIDA, { recursive: true });
 
 paginaCapa();
 AREAS.forEach(paginaArea);
+linguasComAutores().forEach(paginaLingua);
 paginasDoLeitor();
 dados.autores.forEach((a) => {
   if (!obrasDe(a.id).length) return;

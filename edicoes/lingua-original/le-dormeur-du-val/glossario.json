@@ -1,0 +1,736 @@
+{
+  "verbetes": {
+    "le": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante que marca um substantivo masculino singular, referindo-se a uma única entidade possível num contexto."
+      ]
+    },
+    "dormeur": {
+      "lema": "dormeur",
+      "classe": "substantivo masculino",
+      "def": [
+        "Aquele que está dormindo."
+      ],
+      "nota": "No título, o «dormeur» é o adormecido, o que dorme; só o último verso mostrará que esse sono não é sono."
+    },
+    "du": {
+      "lema": "du",
+      "classe": "artigo definido",
+      "forma": "contraído",
+      "def": [
+        "Artigo contraído, formado da preposição «de» e do artigo «le». Usa-se diante de som consonantal ou de h aspirado."
+      ]
+    },
+    "val": {
+      "lema": "val",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Literário) Vale estreito, espaço de terra apertado entre duas encostas."
+      ],
+      "nota": "Forma literária de «vallée» (vale). No título e no verso 4, é o recanto onde o poema se passa."
+    },
+    "c’": {
+      "lema": "c’",
+      "classe": "pronome demonstrativo",
+      "forma": "elisão de «ce»",
+      "def": [
+        "Elisão do pronome demonstrativo «ce» diante de «en» e das formas dos verbos «être» ou «avoir» que começam por «e» ou «é»."
+      ],
+      "nota": "«C’est» (é, trata-se de) serve para apresentar e descrever: «é um buraco de verdura»."
+    },
+    "est": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Definir um estado, uma característica do sujeito."
+      ]
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante colocado diante de um substantivo que representa um objeto, animado ou inanimado, que não se conhece com precisão."
+      ]
+    },
+    "trou": {
+      "lema": "trou",
+      "classe": "substantivo masculino",
+      "def": [
+        "Abertura através de um corpo ou que nele penetra até certa profundidade."
+      ],
+      "nota": "«Trou de verdure»: uma depressão fechada de verdura, um recanto verde. A mesma palavra volta no último verso, nos «trous rouges»."
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica uma associação à matéria."
+      ],
+      "nota": "Em «trou de verdure» e «mousse de rayons», diz de que é feito ou do que está cheio o lugar."
+    },
+    "verdure": {
+      "lema": "verdure",
+      "classe": "substantivo feminino",
+      "def": [
+        "Conjunto das ervas, das plantas e das próprias folhas."
+      ]
+    },
+    "où": {
+      "lema": "où",
+      "classe": "advérbio relativo",
+      "def": [
+        "Ao qual; no qual. Usado nos complementos circunstanciais de lugar."
+      ]
+    },
+    "chante": {
+      "lema": "chanter",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "(Literário) Murmurar harmoniosamente."
+      ],
+      "nota": "O rio «canta»: o murmúrio da água é visto como canto."
+    },
+    "une": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante colocado diante de um substantivo que representa um objeto, animado ou inanimado, que não se conhece com precisão."
+      ]
+    },
+    "rivière": {
+      "lema": "rivière",
+      "classe": "substantivo feminino",
+      "def": [
+        "Curso de água natural que deságua em outro rio, num rio maior, num lago, no mar, ou se perde nas areias."
+      ]
+    },
+    "accrochant": {
+      "lema": "accrocher",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Deter, reter por algo ganchudo ou pontiagudo."
+      ],
+      "nota": "O rio «prende» nas ervas pedaços do seu brilho: é a imagem dos «haillons d’argent», que o verso termina e o seguinte completa (enjambement)."
+    },
+    "follement": {
+      "lema": "follement",
+      "classe": "advérbio",
+      "def": [
+        "De maneira louca, imprudente, excessiva."
+      ]
+    },
+    "aux": {
+      "lema": "aux",
+      "classe": "artigo definido",
+      "forma": "contraído",
+      "def": [
+        "Contração obrigatória da preposição «à» e do artigo definido «les»."
+      ]
+    },
+    "herbes": {
+      "lema": "herbe",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "(Sentido estrito) Vegetal verde, monocotiledônea ou dicotiledônea, de caule fino e mole por não ser lenhoso, vivaz ou anual, que perde caule e folhas no inverno."
+      ]
+    },
+    "des": {
+      "lema": "des",
+      "classe": "artigo indefinido",
+      "forma": "plural",
+      "def": [
+        "Artigo indefinido do plural. É assim o plural de «un» ou «une»."
+      ]
+    },
+    "haillons": {
+      "lema": "haillon",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Pedaço velho de pano ou de tecido, farrapo."
+      ],
+      "nota": "Metáfora: os reflexos da água, presos no capim, parecem farrapos de prata. O verso acaba em «haillons» e a prata vem no seguinte (enjambement)."
+    },
+    "d’": {
+      "lema": "d’",
+      "classe": "preposição",
+      "forma": "elisão de «de»",
+      "def": [
+        "Elisão da preposição «de» diante de vogal ou de h mudo."
+      ]
+    },
+    "argent": {
+      "lema": "argent",
+      "classe": "substantivo masculino",
+      "def": [
+        "Corpo simples metálico e sólido, o elemento de número atômico 47, em condições atmosféricas. Metal branco e dúctil, conhecido desde a Antiguidade, é considerado precioso tanto por sua raridade quanto por suas qualidades físico-químicas."
+      ],
+      "nota": "Aqui vale como brilho e cor: «haillons d’argent» são os reflexos prateados da água."
+    },
+    "soleil": {
+      "lema": "soleil",
+      "classe": "substantivo masculino",
+      "def": [
+        "Estrela que dá luz e calor à Terra e aos outros planetas do sistema solar."
+      ]
+    },
+    "de#2": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica a procedência, a origem."
+      ],
+      "nota": "«Où le soleil, de la montagne fière, luit»: o sol brilha lá do alto da montanha. O complemento vem antes do verbo (inversão), e «luit» abre o verso seguinte."
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Feminino singular de «le». Determina um grupo nominal feminino singular."
+      ]
+    },
+    "montagne": {
+      "lema": "montagne",
+      "classe": "substantivo feminino",
+      "def": [
+        "Relevo topográfico de vertentes pronunciadas (por oposição a «alto planalto», situado em altitude mas sem o caráter montanhoso)."
+      ]
+    },
+    "fière": {
+      "lema": "fier",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que sente um impulso de amor-próprio, muitas vezes fundado."
+      ],
+      "nota": "Dito de uma montanha, «fière» é altiva, orgulhosa de sua altura (personificação)."
+    },
+    "luit": {
+      "lema": "luire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Emitir luz."
+      ]
+    },
+    "petit": {
+      "lema": "petit",
+      "classe": "adjetivo",
+      "def": [
+        "De tamanho reduzido."
+      ]
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "O qual, a qual, os quais, as quais. Serve para designar o sujeito na oração relativa."
+      ]
+    },
+    "mousse": {
+      "lema": "mousser",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Produzir espuma."
+      ],
+      "nota": "«Un petit val qui mousse de rayons»: o vale «espuma» de luz, como se os raios de sol transbordassem nele em borbulhas."
+    },
+    "rayons": {
+      "lema": "rayon",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Emanação que vem de uma fonte luminosa irradiante."
+      ]
+    },
+    "soldat": {
+      "lema": "soldat",
+      "classe": "substantivo masculino",
+      "def": [
+        "Aquele que serve num exército e recebe soldo."
+      ]
+    },
+    "jeune": {
+      "lema": "jeune",
+      "classe": "adjetivo",
+      "def": [
+        "Que está numa fase de começo da vida ou do desenvolvimento; pouco avançado em idade, falando-se de humanos, animais ou vegetais."
+      ]
+    },
+    "bouche": {
+      "lema": "bouche",
+      "classe": "substantivo feminino",
+      "def": [
+        "Órgão do ser humano, composto de dois lábios horizontais situados na parte de baixo do rosto, que serve notadamente para ingerir comida e bebida, para falar, para beijar e para fazer expressões faciais."
+      ]
+    },
+    "ouverte": {
+      "lema": "ouvert",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que não está fechado."
+      ]
+    },
+    "tête": {
+      "lema": "tête",
+      "classe": "substantivo feminino",
+      "def": [
+        "Parte superior do corpo, que é a sede do cérebro e dos principais órgãos dos sentidos e que, no ser humano e na maioria dos vertebrados, se liga ao resto do corpo pelo pescoço."
+      ]
+    },
+    "nue": {
+      "lema": "nu",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Sem o invólucro, a cobertura ou o ornamento habituais."
+      ],
+      "nota": "«Tête nue»: de cabeça descoberta, sem chapéu nem quepe. Não quer dizer «despido»."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "Liga vários conceitos numa mesma relação."
+      ]
+    },
+    "nuque": {
+      "lema": "nuque",
+      "classe": "substantivo feminino",
+      "def": [
+        "Parte dorsal do pescoço."
+      ]
+    },
+    "baignant": {
+      "lema": "baigner",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Estar inteiramente mergulhado e ficar de molho, por mais ou menos tempo, num líquido."
+      ]
+    },
+    "dans": {
+      "lema": "dans",
+      "classe": "preposição",
+      "def": [
+        "Preposição de lugar que marca a relação de uma pessoa ou coisa com aquilo que a contém. Introduz um complemento circunstancial de lugar."
+      ]
+    },
+    "frais": {
+      "lema": "frais",
+      "classe": "adjetivo",
+      "def": [
+        "De temperatura bastante baixa."
+      ],
+      "nota": "É o frescor da água corrente, não o sentido de «recém-colhido»."
+    },
+    "cresson": {
+      "lema": "cresson",
+      "classe": "substantivo masculino",
+      "def": [
+        "Planta da família das Brassicáceas, cuja espécie mais conhecida cresce em águas vivas e se come comumente em salada ou com assado."
+      ],
+      "nota": "O agrião, planta de beira de água corrente: a nuca do soldado repousa nele."
+    },
+    "bleu": {
+      "lema": "bleu",
+      "classe": "adjetivo",
+      "def": [
+        "Da cor do céu em pleno dia, quando está limpo."
+      ],
+      "nota": "O agrião é verde; o azul é a impressão de cor que a água e a sombra dão às folhas."
+    },
+    "dort": {
+      "lema": "dormir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Repousar num estado inconsciente, de sono.",
+        "(Figurado, por eufemismo) Jazer na morte."
+      ],
+      "nota": "O verbo se repete (versos 7, 9 e 13) e joga com o eufemismo «dormir» por «estar morto», que o último verso confirma."
+    },
+    "il": {
+      "lema": "il",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome da terceira pessoa do singular masculino (usado exclusivamente como sujeito). Designa uma pessoa, um animal ou uma coisa cujo gênero é masculino."
+      ]
+    },
+    "étendu": {
+      "lema": "étendre",
+      "classe": "verbo",
+      "forma": "particípio passado, masculino singular",
+      "def": [
+        "(Figurado) Derrubar de modo a deitar, falando-se de uma pessoa.",
+        "(Figurado) Matar, geralmente a tiro."
+      ],
+      "nota": "«Il est étendu»: está estendido, deitado na relva. O verbo também significa «abater a tiro», o que o último verso confirma."
+    },
+    "herbe": {
+      "lema": "herbe",
+      "classe": "substantivo feminino",
+      "def": [
+        "(No singular, coletivamente) Conjunto das plantas que cobrem pastagens, prados, lugares pouco frequentados etc., e que se costuma cortar para alimento de cavalos e gado."
+      ]
+    },
+    "l’": {
+      "lema": "l’",
+      "classe": "artigo definido",
+      "forma": "elisão de «le» e «la»",
+      "def": [
+        "Elisão dos artigos definidos «le» e «la» diante de vogal ou de h mudo."
+      ]
+    },
+    "sous": {
+      "lema": "sous",
+      "classe": "preposição",
+      "def": [
+        "Serve para marcar a situação de uma coisa em relação a outra que está acima, por cima, que a cobre total ou parcialmente."
+      ]
+    },
+    "nue#2": {
+      "lema": "nue",
+      "classe": "substantivo feminino",
+      "def": [
+        "(Antiquado, arcaico, poético) Sinônimo de «nuage» (nuvem)."
+      ],
+      "nota": "«Sous la nue»: sob a nuvem, isto é, sob o céu aberto. Palavra literária, hoje quase só de poesia; rima com «tête nue» (verso 5), a mesma grafia em outro sentido."
+    },
+    "pâle": {
+      "lema": "pâle",
+      "classe": "adjetivo",
+      "def": [
+        "De um branco sem brilho, descorado, falando-se do rosto."
+      ]
+    },
+    "son": {
+      "lema": "son",
+      "classe": "determinante possessivo",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante possessivo de 3ª pessoa: o que pertence ao sujeito de quem se fala, com o possuído no masculino singular."
+      ]
+    },
+    "lit": {
+      "lema": "lit",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Por analogia) Qualquer lugar onde se pode deitar."
+      ],
+      "nota": "O «leito» do soldado é o próprio capim."
+    },
+    "vert": {
+      "lema": "vert",
+      "classe": "adjetivo",
+      "def": [
+        "De cor semelhante à das folhas ou das ervas, cujo comprimento de onda dominante fica entre cerca de 490 e 570 nm."
+      ]
+    },
+    "lumière": {
+      "lema": "lumière",
+      "classe": "substantivo feminino",
+      "def": [
+        "O que ilumina e torna visíveis os objetos."
+      ]
+    },
+    "pleut": {
+      "lema": "pleuvoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "(Transitivo, por analogia) Cair, ou parecer cair, do céu como a chuva, falando-se de outras coisas que não a chuva."
+      ],
+      "nota": "A luz «chove»: cai do alto sobre o soldado como chuva. O verbo ganha assim um sujeito que não é a chuva."
+    },
+    "les": {
+      "lema": "les",
+      "classe": "artigo definido",
+      "forma": "plural",
+      "def": [
+        "Plural de «le» ou «la»."
+      ]
+    },
+    "pieds": {
+      "lema": "pied",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Parte do corpo humano situada na extremidade das pernas."
+      ]
+    },
+    "glaïeuls": {
+      "lema": "glaïeul",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Planta herbácea da família das iridáceas, de folhas longas, estreitas e pontiagudas."
+      ],
+      "nota": "São os gladíolos: o soldado dorme com os pés entre essas folhas longas e pontiagudas."
+    },
+    "souriant": {
+      "lema": "souriant",
+      "classe": "adjetivo",
+      "def": [
+        "Que sorri."
+      ]
+    },
+    "comme": {
+      "lema": "comme",
+      "classe": "advérbio",
+      "def": [
+        "Do mesmo modo que; assim como."
+      ],
+      "nota": "O verso termina em «comme» e a comparação continua no seguinte (enjambement)."
+    },
+    "sourirait": {
+      "lema": "sourire",
+      "classe": "verbo",
+      "forma": "condicional, 3ª pessoa do singular",
+      "def": [
+        "Rir sem estrondo, por um leve movimento da boca e do rosto."
+      ],
+      "nota": "O sujeito vem depois do verbo (inversão): «comme sourirait un enfant malade» é «como sorriria uma criança doente»."
+    },
+    "enfant": {
+      "lema": "enfant",
+      "classe": "substantivo",
+      "def": [
+        "Pessoa que ainda não atingiu a adolescência."
+      ]
+    },
+    "malade": {
+      "lema": "malade",
+      "classe": "adjetivo",
+      "def": [
+        "Cuja saúde está alterada."
+      ]
+    },
+    "fait": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Operar, efetuar, executar, realizar, seja em ordem física, seja em ordem moral."
+      ]
+    },
+    "somme": {
+      "lema": "somme",
+      "classe": "substantivo masculino",
+      "def": [
+        "Tempo de sono."
+      ],
+      "nota": "«Faire un somme» é tirar uma soneca, cochilar. Não é o «somme» feminino da adição."
+    },
+    "nature": {
+      "lema": "nature",
+      "classe": "substantivo feminino",
+      "def": [
+        "(Por personificação) Poder, força ativa e criadora."
+      ],
+      "nota": "Invocação: o poeta se dirige à Natureza, personificada, e lhe pede que embale o soldado."
+    },
+    "berce": {
+      "lema": "bercer",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Balançar com suavidade, para acalmar ou adormecer."
+      ]
+    },
+    "le#2": {
+      "lema": "le",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome que representa aquele (pessoa ou objeto) de quem se fala. Usado como complemento direto."
+      ],
+      "nota": "Depois do verbo no imperativo, ligado por hífen: «berce-le» é «embale-o». O pronome é o soldado."
+    },
+    "chaudement": {
+      "lema": "chaudement",
+      "classe": "advérbio",
+      "def": [
+        "Com calor; de modo a conservar o calor."
+      ],
+      "nota": "Aqui, aquecendo-o: o pedido contrasta com o frio que o soldado «sente»."
+    },
+    "a": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Estar numa relação de posse, concreta ou abstrata, permanente ou ocasional, em que o possuidor é o sujeito e o possuído é o complemento direto."
+      ]
+    },
+    "froid": {
+      "lema": "froid",
+      "classe": "substantivo masculino",
+      "def": [
+        "Estado do que é frio."
+      ],
+      "nota": "«Avoir froid» é sentir frio (como «avoir faim», sentir fome). O frio do corpo é a primeira pista da morte."
+    },
+    "parfums": {
+      "lema": "parfum",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Odor aromático, agradável, mais ou menos forte, mais ou menos sutil e suave, que se exala de uma substância qualquer e particularmente das flores."
+      ]
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "partícula",
+      "def": [
+        "Negação. Primeira parte de uma marca em geral dupla que enquadra o verbo e certos pronomes, completada por um forclusivo: «pas», «plus», «jamais», «point», «personne», «rien», «aucun», «nul» etc."
+      ],
+      "nota": "«Ne … pas» é a negação francesa em duas partes, que abraça o verbo: «ne font pas»."
+    },
+    "font": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ser a causa de determinado resultado ou ser a ocasião dele."
+      ],
+      "nota": "«Faire» + infinitivo faz o sujeito provocar a ação: «ne font pas frissonner» é «não fazem estremecer»."
+    },
+    "pas": {
+      "lema": "pas",
+      "classe": "advérbio",
+      "def": [
+        "Negação de um verbo. Usada com a partícula «ne» na língua literária, mas muitas vezes sem ela na língua corrente."
+      ]
+    },
+    "frissonner": {
+      "lema": "frissonner",
+      "classe": "verbo",
+      "def": [
+        "Ter calafrio, um tremor causado pelo frio ou pela febre."
+      ],
+      "nota": "A narina não estremece: sinal de que o soldado não respira."
+    },
+    "sa": {
+      "lema": "sa",
+      "classe": "determinante possessivo",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante usado para exprimir a ideia de posse de um objeto que tem relação com a pessoa de quem se fala."
+      ]
+    },
+    "narine": {
+      "lema": "narine",
+      "classe": "substantivo feminino",
+      "def": [
+        "Cada uma das duas aberturas do nariz pelas quais o ser humano respira e percebe os odores."
+      ]
+    },
+    "soleil#2": {
+      "lema": "soleil",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Por metonímia) Zona iluminada ou aquecida pelo sol."
+      ]
+    },
+    "main": {
+      "lema": "main",
+      "classe": "substantivo feminino",
+      "def": [
+        "Parte do corpo humano situada na ponta do braço, que vai do pulso até a ponta dos dedos e serve para a preensão e o tato."
+      ]
+    },
+    "sur": {
+      "lema": "sur",
+      "classe": "preposição",
+      "def": [
+        "Indica uma posição mais elevada."
+      ]
+    },
+    "poitrine": {
+      "lema": "poitrine",
+      "classe": "substantivo feminino",
+      "def": [
+        "Parte do corpo desde a base do pescoço até o diafragma, que contém os pulmões e o coração."
+      ]
+    },
+    "tranquille": {
+      "lema": "tranquille",
+      "classe": "adjetivo",
+      "def": [
+        "Que é pacífico, calmo, sem agitação."
+      ],
+      "nota": "Fica sozinho no começo do último verso (rejeito): pode qualificar a mão, o peito ou o próprio soldado, imóvel."
+    },
+    "deux": {
+      "lema": "deux",
+      "classe": "adjetivo numeral",
+      "def": [
+        "Um mais um."
+      ]
+    },
+    "trous": {
+      "lema": "trou",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Abertura através de um corpo ou que nele penetra até certa profundidade."
+      ],
+      "nota": "São os furos das balas: a revelação do último verso. O poema é de outubro de 1870, durante a guerra franco-prussiana."
+    },
+    "rouges": {
+      "lema": "rouge",
+      "classe": "adjetivo",
+      "forma": "plural",
+      "def": [
+        "De cor semelhante à do sangue, da papoula, do morango etc., cujo comprimento de onda dominante fica entre cerca de 625 e 740 nm."
+      ]
+    },
+    "au": {
+      "lema": "au",
+      "classe": "artigo definido",
+      "forma": "contraído",
+      "def": [
+        "Contração da preposição «à» e do artigo definido «le»."
+      ]
+    },
+    "côté": {
+      "lema": "côté",
+      "classe": "substantivo masculino",
+      "def": [
+        "Região das costelas, da axila até o quadril."
+      ]
+    },
+    "droit": {
+      "lema": "droit",
+      "classe": "adjetivo",
+      "def": [
+        "Que fica do lado oposto ao do coração para a maioria dos seres humanos, ou ainda do lado da mão que escreve para a maioria."
+      ]
+    },
+    "octobre": {
+      "lema": "octobre",
+      "classe": "substantivo masculino",
+      "def": [
+        "Décimo mês do ano do calendário gregoriano, que tem trinta e um dias."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "3.6": "de#2",
+    "7.10": "nue#2",
+    "11.3": "le#2",
+    "13.5": "soleil#2"
+  }
+}

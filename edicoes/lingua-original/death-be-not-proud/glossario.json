@@ -1,0 +1,771 @@
+{
+  "verbetes": {
+    "death": {
+      "lema": "death",
+      "classe": "substantivo",
+      "def": [
+        "A personificação da morte como uma figura encapuzada (em geral masculina) com uma foice; a Morte, a Ceifadora.",
+        "A cessação da vida e de todos os processos a ela associados; o fim da existência de um organismo."
+      ],
+      "nota": "Em todo o soneto, a Morte é uma pessoa, tratada pelo vocativo e escrita com maiúscula. O último verso joga com os dois sentidos: a Morte-pessoa é morta, e a morte como fato acaba."
+    },
+    "be": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "Indicar que o sujeito tem as qualidades descritas por um adjetivo ou locução preposicional."
+      ],
+      "nota": "«Be not proud» é o imperativo negativo à moda antiga, sem «do»: hoje se diria «do not be proud». Equivale a «não te orgulhes»."
+    },
+    "not": {
+      "lema": "not",
+      "classe": "advérbio",
+      "def": [
+        "Nega o sentido do verbo modificado."
+      ]
+    },
+    "proud": {
+      "lema": "proud",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem uma opinião alta demais de si mesmo; arrogante, soberbo."
+      ],
+      "nota": "Aqui é o sentido bíblico: o orgulho soberbo de quem se julga maior do que é."
+    },
+    "holy": {
+      "lema": "holy",
+      "classe": "adjetivo",
+      "def": [
+        "Dedicado a um propósito religioso ou a um deus."
+      ]
+    },
+    "sonnet": {
+      "lema": "sonnet",
+      "classe": "substantivo",
+      "def": [
+        "Forma poética fixa, de origem italiana, com catorze versos, tipicamente em pentâmetros iâmbicos e rimados segundo um de alguns esquemas prescritos."
+      ]
+    },
+    "x": {
+      "lema": "X",
+      "wiki": "en:Translingual",
+      "classe": "numeral",
+      "def": [
+        "O numeral romano dez (10)."
+      ],
+      "nota": "Os Holy Sonnets (Sonetos Sagrados) de Donne são 19 sonetos religiosos; este é o décimo, na numeração usual."
+    },
+    "though": {
+      "lema": "though",
+      "classe": "conjunção",
+      "def": [
+        "Apesar do fato de que; embora."
+      ]
+    },
+    "some": {
+      "lema": "some",
+      "classe": "pronome indefinido",
+      "def": [
+        "Certo número (vários, mas não todos)."
+      ]
+    },
+    "have": {
+      "lema": "have",
+      "classe": "verbo auxiliar",
+      "def": [
+        "Usado, com o particípio passado, para formar o aspecto perfeito."
+      ]
+    },
+    "callèd": {
+      "lema": "call",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Nomear ou designar; referir-se a alguém ou algo por um nome."
+      ],
+      "nota": "O acento grave marca que o «-ed» se pronuncia como sílaba (call-ed), a que o verso precisa para fechar o metro; em inglês de hoje, «called» tem uma só. «Have called thee mighty» = «chamaram-te poderosa»."
+    },
+    "thee": {
+      "lema": "thee",
+      "classe": "pronome pessoal",
+      "forma": "caso oblíquo de «thou»",
+      "def": [
+        "Forma de objeto (caso oblíquo) e reflexiva de «thou»."
+      ],
+      "nota": "É o «te/ti» do tu antigo. Aqui, a própria Morte, a quem o poeta fala."
+    },
+    "mighty": {
+      "lema": "mighty",
+      "classe": "adjetivo",
+      "def": [
+        "Muito forte; dotado de poder."
+      ]
+    },
+    "and": {
+      "lema": "and",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção coordenativa que liga dois elementos, tomados em conjunto ou em acréscimo um ao outro."
+      ]
+    },
+    "dreadful": {
+      "lema": "dreadful",
+      "classe": "adjetivo",
+      "def": [
+        "Verdadeiramente horrível, terrível ou alarmante; perigoso.",
+        "(Obsoleto) Que inspira temor reverente."
+      ],
+      "nota": "No tempo de Donne, o sentido ainda é o de «terrível», que causa pavor e respeito: a Morte como poder temido."
+    },
+    "for": {
+      "lema": "for",
+      "classe": "conjunção",
+      "def": [
+        "Porque (formal, literário)."
+      ],
+      "nota": "Aqui é conjunção, não preposição: «for thou art not so» = «porque não és assim». O mesmo no verso 3."
+    },
+    "thou": {
+      "lema": "thou",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome de segunda pessoa do singular, caso nominativo (sujeito): «tu»; arcaico, literário e dialetal, em lugar do atual «you»."
+      ],
+      "nota": "Donne trata a Morte por «tu» (thou, thee, thy) e usa as terminações em -st (art, dost, canst, shalt), como se falasse a um inferior ou a um igual, nunca com respeito."
+    },
+    "art": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular (arcaica)",
+      "def": [
+        "Indicar que o sujeito tem as qualidades descritas por um adjetivo ou locução."
+      ],
+      "nota": "«Thou art» = «tu és»; «art not so» = «não és assim»."
+    },
+    "so": {
+      "lema": "so",
+      "classe": "advérbio",
+      "def": [
+        "Do mesmo modo ou na mesma medida que o já mencionado."
+      ],
+      "nota": "Retoma «mighty and dreadful»: a Morte não é poderosa e terrível como dizem."
+    },
+    "those": {
+      "lema": "that",
+      "classe": "pronome demonstrativo",
+      "forma": "plural",
+      "def": [
+        "A coisa, pessoa, ideia, qualidade, evento, ação ou tempo indicado ou entendido pelo contexto, em especial se mais remoto do que o designado por «this»."
+      ],
+      "nota": "Aqui, «aqueles», com gente: «those whom thou think'st thou dost overthrow» = aqueles que pensas derrubar."
+    },
+    "whom": {
+      "lema": "whom",
+      "classe": "pronome relativo",
+      "def": [
+        "Usado para se referir a uma pessoa ou pessoas já mencionadas."
+      ],
+      "nota": "Objeto de «overthrow»; a oração intercalada «thou think'st» quebra a ordem: aqueles que pensas que derrubas."
+    },
+    "think'st": {
+      "lema": "think",
+      "classe": "verbo",
+      "forma": "presente, 2ª pessoa do singular (arcaica: thinkest)",
+      "def": [
+        "Ser da opinião (de que); considerar, julgar, tomar por."
+      ],
+      "nota": "Contração de «thinkest»: a terminação -est é a do «tu» antigo; o apóstrofo marca a vogal omitida, para o verso caber no metro."
+    },
+    "dost": {
+      "lema": "do",
+      "classe": "verbo auxiliar",
+      "forma": "presente, 2ª pessoa do singular (arcaica)",
+      "def": [
+        "Marcador sintático de ênfase, nos modos indicativo, imperativo e subjuntivo."
+      ],
+      "nota": "«Thou dost overthrow» = «tu derrubas». O auxiliar não muda o sentido: dá ênfase e ajuda o ritmo do verso."
+    },
+    "overthrow": {
+      "lema": "overthrow",
+      "classe": "verbo",
+      "def": [
+        "Provocar a queda de (um governo etc.), em especial pela força; usurpar.",
+        "(Hoje raro) Lançar ao chão; derrubar."
+      ],
+      "nota": "Aqui, abater, derrubar: a Morte acredita derrubar de vez quem mata."
+    },
+    "die": {
+      "lema": "die",
+      "classe": "verbo",
+      "def": [
+        "Deixar de viver; tornar-se morto; passar pela morte."
+      ],
+      "nota": "No verso 4, «those… die not» é «não morrem», a negação à moda antiga, sem «do». No último verso, «thou shalt die» é o futuro com «shall»: «morrerás»."
+    },
+    "poor": {
+      "lema": "poor",
+      "classe": "adjetivo",
+      "def": [
+        "(Só antes do substantivo) Digno de pena."
+      ],
+      "nota": "Em «poor Death», vocativo ao mesmo tempo compassivo e irônico: a Morte, tão temida, é apenas uma coitada."
+    },
+    "nor": {
+      "lema": "nor",
+      "classe": "conjunção",
+      "def": [
+        "(Literário) E… não (introduz uma afirmação negativa, sem necessariamente seguir outra)."
+      ]
+    },
+    "yet": {
+      "lema": "yet",
+      "classe": "advérbio",
+      "def": [
+        "Além disso, também."
+      ],
+      "nota": "«Nor yet» = «nem tampouco»: reforça a negação."
+    },
+    "canst": {
+      "lema": "can",
+      "classe": "verbo auxiliar",
+      "forma": "presente, 2ª pessoa do singular (arcaica)",
+      "def": [
+        "Ser capaz de; poder."
+      ],
+      "nota": "«Canst thou kill me» = «podes tu matar-me». A inversão do sujeito vem depois de «nor»."
+    },
+    "kill": {
+      "lema": "kill",
+      "classe": "verbo",
+      "def": [
+        "Levar à morte; extinguir a vida de."
+      ]
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "def": [
+        "Primeira pessoa do singular, como objeto (de um verbo, preposição etc.)."
+      ],
+      "nota": "É o próprio poeta, que fala em primeira pessoa e se inclui entre os que a Morte não pode matar."
+    },
+    "from": {
+      "lema": "from",
+      "classe": "preposição",
+      "def": [
+        "Indica fonte ou procedência."
+      ],
+      "nota": "Do «repouso e sono» (e da própria Morte) é que flui o prazer: a frase se completa no verso seguinte."
+    },
+    "rest": {
+      "lema": "rest",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer alívio do esforço; estado de quietude e relaxamento."
+      ]
+    },
+    "sleep": {
+      "lema": "sleep",
+      "classe": "substantivo",
+      "def": [
+        "O estado de consciência reduzida em que uma pessoa ou animal repousa, num ritmo diário."
+      ]
+    },
+    "which": {
+      "lema": "which",
+      "classe": "pronome relativo",
+      "def": [
+        "Em oração relativa não restritiva, refere-se a algo já mencionado."
+      ],
+      "nota": "Aqui retoma «rest and sleep»: o repouso e o sono, que são só retratos da Morte."
+    },
+    "but": {
+      "lema": "but",
+      "classe": "advérbio",
+      "def": [
+        "(Sobretudo literário ou poético) Meramente, apenas, somente."
+      ]
+    },
+    "thy": {
+      "lema": "thy",
+      "classe": "determinante possessivo",
+      "def": [
+        "(Arcaico, literário) Forma possessiva de «thou»: que pertence a ti (singular)."
+      ]
+    },
+    "pictures": {
+      "lema": "picture",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Representação de algo (uma pessoa, uma paisagem etc.) numa superfície, por desenho, pintura, fotografia etc.",
+        "Uma imagem; uma representação, como na imaginação."
+      ],
+      "nota": "Retratos, imagens: o repouso e o sono são cópias da morte; se as cópias dão prazer, o original, a morte, deve dar muito mais."
+    },
+    "be#2": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente, plural (forma arcaica)",
+      "def": [
+        "Declarar que o sujeito e o predicativo são idênticos ou equivalentes."
+      ],
+      "nota": "«Which but thy pictures be» = «que são só os teus retratos». O verbo no fim do verso é inversão poética, que também fecha a rima."
+    },
+    "much": {
+      "lema": "much",
+      "classe": "determinante",
+      "def": [
+        "Grande quantidade de."
+      ],
+      "nota": "«Much pleasure» é o sujeito de «must flow», no verso seguinte: a ordem natural seria «much pleasure must flow from rest and sleep»."
+    },
+    "pleasure": {
+      "lema": "pleasure",
+      "classe": "substantivo",
+      "def": [
+        "Estado de quem está satisfeito ou contente; gratificação."
+      ]
+    },
+    "then": {
+      "lema": "then",
+      "classe": "advérbio",
+      "def": [
+        "(Conjuntivo) Nesse caso."
+      ],
+      "nota": "Palavra de lógica, não de tempo: «se é assim, então». O mesmo no verso 12: «por que, então, te ensoberbeces?»."
+    },
+    "much#2": {
+      "lema": "much",
+      "classe": "advérbio",
+      "def": [
+        "Em grande medida."
+      ]
+    },
+    "more": {
+      "lema": "more",
+      "classe": "pronome",
+      "def": [
+        "Maior número ou quantidade (de algo)."
+      ],
+      "nota": "«Much more» = «muito mais» prazer."
+    },
+    "must": {
+      "lema": "must",
+      "classe": "verbo",
+      "def": [
+        "Indica que algo é muito provável ou certamente verdadeiro."
+      ],
+      "nota": "Dedução, não ordem: se o retrato dá prazer, por força o original tem de dar mais."
+    },
+    "flow": {
+      "lema": "flow",
+      "classe": "verbo",
+      "def": [
+        "Proceder; sair; emanar."
+      ],
+      "nota": "Inversão: «Much pleasure; then from thee much more must flow» = «muito prazer (vem do repouso e do sono); então de ti, muito mais deve fluir». O prazer «flui» como de uma fonte."
+    },
+    "soonest": {
+      "lema": "soon",
+      "classe": "advérbio",
+      "forma": "superlativo",
+      "def": [
+        "Em pouco tempo; rapidamente."
+      ],
+      "nota": "«Soonest» = o mais depressa, o primeiro: os melhores homens são os primeiros a partir."
+    },
+    "our": {
+      "lema": "our",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a nós, sem incluir a pessoa com quem se fala."
+      ]
+    },
+    "best": {
+      "lema": "good",
+      "classe": "adjetivo",
+      "forma": "superlativo",
+      "def": [
+        "O mais excelente; o mais favorável."
+      ]
+    },
+    "men": {
+      "lema": "man",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Ser humano adulto do sexo masculino."
+      ],
+      "nota": "Mais que «varões»: aqui, as pessoas em geral, os humanos."
+    },
+    "with": {
+      "lema": "with",
+      "classe": "preposição",
+      "def": [
+        "Em companhia de; junto de, perto de."
+      ]
+    },
+    "do": {
+      "lema": "do",
+      "classe": "verbo auxiliar",
+      "forma": "presente, plural",
+      "def": [
+        "Marcador sintático de ênfase, nos modos indicativo, imperativo e subjuntivo."
+      ],
+      "nota": "«Do go» é só «go», com o auxiliar a preencher o metro."
+    },
+    "go": {
+      "lema": "go",
+      "classe": "verbo",
+      "def": [
+        "Partir; ir embora."
+      ],
+      "nota": "«Go with thee» = ir com a Morte, isto é, morrer: os melhores partem primeiro."
+    },
+    "rest#2": {
+      "lema": "rest",
+      "classe": "substantivo",
+      "def": [
+        "(Eufemismo) Posição final depois da morte; também a própria morte."
+      ],
+      "nota": "«Rest of their bones» = o repouso dos ossos, a paz do corpo no túmulo. É um dos dois bens que a Morte dá."
+    },
+    "of": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Pertencente a (alguém ou algo) como algo que possui ou como característica sua (genitivo possessivo)."
+      ]
+    },
+    "their": {
+      "lema": "their",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a eles, vem deles ou a eles se refere (plural)."
+      ]
+    },
+    "bones": {
+      "lema": "bone",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Cada um dos componentes do endoesqueleto, feito de material composto sobretudo de fosfato de cálcio e colágeno."
+      ]
+    },
+    "soul's": {
+      "lema": "soul",
+      "classe": "substantivo",
+      "forma": "caso possessivo (genitivo)",
+      "def": [
+        "O espírito ou a essência de uma pessoa, em geral pensado como feito de seus pensamentos e personalidade e que se crê viver após a morte."
+      ],
+      "nota": "O «-'s» marca o possessivo: «soul's delivery» = a libertação da alma."
+    },
+    "art#2": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular (arcaica)",
+      "def": [
+        "Declarar que o sujeito e o predicativo são idênticos ou equivalentes."
+      ],
+      "nota": "«Thou art slave» = «tu és escrava»: o poeta diz à Morte que ela é serva, e não senhora."
+    },
+    "delivery": {
+      "lema": "deliverance",
+      "classe": "substantivo",
+      "def": [
+        "O ato de libertar ou de livrar de perigo, prisão, servidão, mal etc."
+      ],
+      "nota": "O Wiktionary não dá esse sentido em «delivery», só em «deliverance», de mesma origem (o verbo «deliver», livrar). «Soul’s delivery» é a libertação da alma, que a morte solta do corpo."
+    },
+    "slave": {
+      "lema": "slave",
+      "classe": "substantivo",
+      "def": [
+        "Pessoa mantida em servidão como propriedade de outra, cujo trabalho (e muitas vezes também o corpo e a vida) está sujeito à vontade e ao controle do dono."
+      ],
+      "nota": "Em sentido figurado: a Morte não manda, obedece. É escrava do destino, do acaso, dos reis e dos desesperados, que podem matar por ela."
+    },
+    "to": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Usado para indicar o alvo ou o destinatário de uma ação."
+      ],
+      "nota": "«Slave to» = escrava de, submetida a."
+    },
+    "fate": {
+      "lema": "fate",
+      "classe": "substantivo",
+      "def": [
+        "A causa, força, princípio ou vontade divina presumida que predetermina os acontecimentos."
+      ]
+    },
+    "chance": {
+      "lema": "chance",
+      "classe": "substantivo",
+      "def": [
+        "Ocorrência aleatória; sorte."
+      ]
+    },
+    "kings": {
+      "lema": "king",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Monarca do sexo masculino; homem que chefia uma monarquia."
+      ]
+    },
+    "desperate": {
+      "lema": "desperate",
+      "classe": "adjetivo",
+      "def": [
+        "Tomado de desespero, ou em estado de desespero; sem esperança.",
+        "Que adota medidas extremas, sem considerar o perigo; temerário por falta de esperança."
+      ],
+      "nota": "«Desperate men» são os que, sem esperança, recorrem a tudo, até ao suicídio ou ao assassinato: a Morte serve também a eles."
+    },
+    "poison": {
+      "lema": "poison",
+      "classe": "substantivo",
+      "def": [
+        "Substância nociva ou letal a um organismo vivo quando ingerida."
+      ]
+    },
+    "war": {
+      "lema": "war",
+      "classe": "substantivo",
+      "def": [
+        "Conflito armado organizado e em larga escala entre países ou entre grupos nacionais, étnicos ou outros de grande porte, em geral (mas nem sempre) com participação ativa de forças militares."
+      ]
+    },
+    "sickness": {
+      "lema": "sickness",
+      "classe": "substantivo",
+      "def": [
+        "A qualidade ou o estado de estar doente; doença."
+      ]
+    },
+    "dwell": {
+      "lema": "dwell",
+      "classe": "verbo",
+      "def": [
+        "(Hoje literário) Viver; residir."
+      ],
+      "nota": "«Dwell with» = morar em companhia de: a Morte tem por vizinhas e companheiras a peçonha, a guerra e a doença, que matam por ela."
+    },
+    "poppy": {
+      "lema": "poppy",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer planta do gênero Papaver ou da família Papaveraceae, de pétalas enrugadas, em geral vermelhas, e seiva leitosa de propriedades narcóticas; a flor dessa planta."
+      ],
+      "nota": "É a papoula de que se tira o ópio: o poeta diz que um narcótico ou um feitiço também nos fazem dormir, e melhor que a Morte."
+    },
+    "or": {
+      "lema": "or",
+      "classe": "conjunção",
+      "def": [
+        "Liga pelo menos duas palavras, expressões ou orações alternativas, cada uma das quais poderia tornar verdadeira a passagem."
+      ]
+    },
+    "charms": {
+      "lema": "charm",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Objeto, ato ou palavras tidos como dotados de poder mágico."
+      ],
+      "nota": "Aqui, feitiços e encantamentos, como os de bruxaria."
+    },
+    "can": {
+      "lema": "can",
+      "classe": "verbo auxiliar",
+      "def": [
+        "Ser capaz de; poder."
+      ]
+    },
+    "make": {
+      "lema": "make",
+      "classe": "verbo",
+      "def": [
+        "Fazer (alguém) fazer algo; obrigar (a fazer algo)."
+      ],
+      "nota": "«Make us sleep» = fazer-nos dormir."
+    },
+    "sleep#2": {
+      "lema": "sleep",
+      "classe": "verbo",
+      "def": [
+        "Repousar em estado de consciência reduzida."
+      ]
+    },
+    "us": {
+      "lema": "us",
+      "classe": "pronome pessoal",
+      "def": [
+        "Eu e pelo menos outra pessoa, excluindo a pessoa a quem se fala."
+      ],
+      "nota": "Os homens em geral, em oposição à Morte, a quem o poeta se dirige."
+    },
+    "as": {
+      "lema": "as",
+      "classe": "advérbio",
+      "def": [
+        "Até tal ponto ou grau; no mesmo grau."
+      ]
+    },
+    "well": {
+      "lema": "well",
+      "classe": "advérbio",
+      "def": [
+        "De modo bom; com exatidão, competência, de modo satisfatório."
+      ],
+      "nota": "«As well and better than thy stroke» = tão bem, e até melhor, que o teu golpe: a comparação com a Morte fica no fim da frase."
+    },
+    "better": {
+      "lema": "well",
+      "classe": "advérbio",
+      "forma": "comparativo",
+      "def": [
+        "De modo bom; com exatidão, competência, de modo satisfatório."
+      ]
+    },
+    "than": {
+      "lema": "than",
+      "classe": "conjunção",
+      "def": [
+        "Usado em comparações, para introduzir a base da comparação."
+      ]
+    },
+    "stroke": {
+      "lema": "stroke",
+      "classe": "substantivo",
+      "def": [
+        "Ato de bater; golpe, pancada."
+      ],
+      "nota": "O golpe da Morte, com que ela derruba suas vítimas: o poeta o compara com o sono suave do ópio, que faz o mesmo de modo melhor."
+    },
+    "why": {
+      "lema": "why",
+      "classe": "advérbio",
+      "def": [
+        "(Interrogativo) Por que causa, razão ou propósito."
+      ]
+    },
+    "swell'st": {
+      "lema": "swell",
+      "classe": "verbo",
+      "forma": "presente, 2ª pessoa do singular (arcaica: swellest)",
+      "def": [
+        "Tornar-se maior, mais cheio ou mais redondo; expandir-se, em geral por pressão interna.",
+        "Ser levado à arrogância."
+      ],
+      "nota": "«Why swell'st thou» = «por que te inchas?»: inchar de orgulho. O apóstrofo marca a vogal omitida de «swellest»."
+    },
+    "one": {
+      "lema": "one",
+      "classe": "numeral",
+      "def": [
+        "O número representado pelo algarismo arábico 1; o valor numérico igual a esse número cardinal."
+      ]
+    },
+    "short": {
+      "lema": "short",
+      "classe": "adjetivo",
+      "def": [
+        "De pouca duração."
+      ]
+    },
+    "sleep#3": {
+      "lema": "sleep",
+      "classe": "substantivo",
+      "def": [
+        "Ato ou ocasião de dormir."
+      ],
+      "nota": "O «sono curto» é a própria morte, vista da eternidade: um breve sono, e acordamos."
+    },
+    "past": {
+      "lema": "past",
+      "classe": "adjetivo",
+      "def": [
+        "Que já aconteceu; no passado; terminado."
+      ],
+      "nota": "«One short sleep past» = «passado um breve sono»: construção absoluta, o sono tendo passado."
+    },
+    "we": {
+      "lema": "we",
+      "classe": "pronome pessoal",
+      "def": [
+        "Duas ou mais pessoas, incluindo ou constituídas pelo falante ou falantes."
+      ]
+    },
+    "wake": {
+      "lema": "wake",
+      "classe": "verbo",
+      "def": [
+        "Parar de dormir; acordar."
+      ],
+      "nota": "Acordar é ressuscitar: no sentido cristão, o fim do sono da morte."
+    },
+    "eternally": {
+      "lema": "eternally",
+      "classe": "advérbio",
+      "def": [
+        "Por toda a eternidade; para sempre."
+      ]
+    },
+    "be#3": {
+      "lema": "be",
+      "classe": "verbo",
+      "def": [
+        "Existir."
+      ],
+      "nota": "«Shall be no more» = deixará de existir. A Morte não será mais."
+    },
+    "no": {
+      "lema": "no",
+      "classe": "determinante",
+      "def": [
+        "Nenhum; nem um."
+      ]
+    },
+    "shall": {
+      "lema": "shall",
+      "classe": "verbo auxiliar",
+      "def": [
+        "Usado para indicar determinação ou obrigação, na segunda e na terceira pessoa."
+      ],
+      "nota": "Não é só futuro: é promessa firme. «Death shall be no more» é uma sentença, não uma previsão."
+    },
+    "more#2": {
+      "lema": "more",
+      "classe": "advérbio",
+      "def": [
+        "(Hoje poético) Em construções negativas: mais, por mais tempo."
+      ],
+      "nota": "«No more» = nunca mais, deixando de existir."
+    },
+    "shalt": {
+      "lema": "shall",
+      "classe": "verbo auxiliar",
+      "forma": "presente, 2ª pessoa do singular (arcaica)",
+      "def": [
+        "Usado para indicar determinação ou obrigação, na segunda e na terceira pessoa."
+      ],
+      "nota": "«Thou shalt die» = «morrerás», como uma sentença final dirigida à Morte."
+    }
+  },
+  "ocorrencias": {
+    "5.9": "be#2",
+    "9.2": "art#2",
+    "14.4": "be#3",
+    "8.1": "rest#2",
+    "11.8": "sleep#2",
+    "13.3": "sleep#3",
+    "6.6": "much#2",
+    "14.6": "more#2"
+  }
+}

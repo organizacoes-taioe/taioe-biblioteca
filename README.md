@@ -163,6 +163,14 @@ são marcas: `::parte II` (seção do poema), `::subtitulo`, `::fala ROMEU.`, `:
 `::epigrafe` (linhas separadas por ` / `), `::dedicatoria`, `::data`, `::fecho`,
 `::separador` (`*`, `* * *`, `filete`, `linha de pontos`), `::lacuna` e `::pagina` (espaço).
 
+## Poemas na língua original
+
+Na Literatura, os textos em espanhol, inglês e francês vêm sem tradução (uma página por língua em
+`/biblioteca/literatura/<língua>/`). Cada palavra do poema é um botão que abre uma nota: a definição
+do sentido que ela tem ali, traduzida do Wiktionary (CC BY-SA 4.0), com o link para o verbete, e uma
+explicação do uso no verso quando é preciso. Fonte e método em `edicoes/lingua-original/README.md`;
+o conteúdo sai de `python ferramentas/lingua_original.py publicar`. O autor leva `lingua` no cadastro.
+
 ## Traduções: original e tradução
 
 Uma parte que traga `original` além de `texto` é lida em modo bilíngue. No alto da página, sob

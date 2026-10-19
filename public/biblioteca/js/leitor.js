@@ -58,10 +58,72 @@
   document.addEventListener('keydown', function (ev) {
     if (ev.altKey || ev.ctrlKey || ev.metaKey || ev.shiftKey) return;
     var alvo = ev.target;
-    if (alvo && (alvo.isContentEditable || /^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(alvo.tagName))) return;
+    if (alvo && (alvo.isContentEditable || /^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(alvo.tagName)) && !(alvo.classList && alvo.classList.contains('pal'))) return;
     var link = ev.key === 'ArrowLeft' ? document.querySelector('a[rel="prev"]') : ev.key === 'ArrowRight' ? document.querySelector('a[rel="next"]') : null;
     if (link) { ev.preventDefault(); location.href = link.getAttribute('href'); }
   });
+
+  /* ---------------------------------------------------------------- notas das palavras */
+  /* Poema na língua original: cada palavra (button.pal) abre o seu verbete, que o gerador deixa
+     escondido em #glossario. Na tela larga, a nota fica junto da palavra; na estreita, no pé da
+     tela. Fecha com Esc, com o ×, tocando fora ou tocando de novo na mesma palavra. */
+  var glossario = $('glossario');
+  if (glossario) {
+    var nota = null, palAtual = null;
+    var fecharNota = function (devolverFoco) {
+      if (!nota) return;
+      nota.parentNode.removeChild(nota);
+      nota = null;
+      if (palAtual) {
+        palAtual.classList.remove('ativa');
+        palAtual.setAttribute('aria-expanded', 'false');
+        if (devolverFoco) palAtual.focus();
+      }
+      palAtual = null;
+    };
+    var posicionar = function () {
+      if (!nota || !palAtual) return;
+      if (window.matchMedia && window.matchMedia('(max-width: 760px)').matches) { nota.classList.add('no-pe'); nota.style.left = nota.style.top = ''; return; }
+      nota.classList.remove('no-pe');
+      var r = palAtual.getBoundingClientRect(), largura = nota.offsetWidth, altura = nota.offsetHeight;
+      var esq = Math.max(8, Math.min(r.left + r.width / 2 - largura / 2, document.documentElement.clientWidth - largura - 8));
+      var topo = r.bottom + 8;
+      if (topo + altura > window.innerHeight - 8 && r.top - altura - 8 > 8) topo = r.top - altura - 8;
+      nota.style.left = (esq + window.pageXOffset) + 'px';
+      nota.style.top = (topo + window.pageYOffset) + 'px';
+    };
+    var abrirNota = function (pal) {
+      var verbete = $('g-' + pal.getAttribute('data-g'));
+      if (!verbete) return;
+      fecharNota(false);
+      nota = document.createElement('div');
+      nota.className = 'nota-palavra';
+      nota.setAttribute('role', 'dialog');
+      nota.setAttribute('aria-label', 'Nota sobre «' + pal.textContent + '»');
+      var fechar = document.createElement('button');
+      fechar.type = 'button';
+      fechar.className = 'fechar-nota';
+      fechar.setAttribute('aria-label', 'Fechar a nota');
+      fechar.textContent = '×';
+      fechar.addEventListener('click', function () { fecharNota(true); });
+      var corpoNota = verbete.cloneNode(true);
+      corpoNota.removeAttribute('id');
+      nota.appendChild(fechar);
+      nota.appendChild(corpoNota);
+      document.body.appendChild(nota);
+      palAtual = pal;
+      pal.classList.add('ativa');
+      pal.setAttribute('aria-expanded', 'true');
+      posicionar();
+    };
+    document.addEventListener('click', function (ev) {
+      var pal = ev.target.closest ? ev.target.closest('button.pal') : null;
+      if (pal) { if (pal === palAtual) fecharNota(false); else abrirNota(pal); return; }
+      if (nota && !nota.contains(ev.target)) fecharNota(false);
+    });
+    document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && nota) fecharNota(true); });
+    window.addEventListener('resize', posicionar);
+  }
 
   /* ---------------------------------------------------------------- original e tradução */
   /* Todo texto abre só em português; a escolha segue de parte em parte da mesma obra (vale

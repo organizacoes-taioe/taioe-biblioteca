@@ -1,0 +1,763 @@
+{
+  "verbetes": {
+    "quand": {
+      "lema": "quand",
+      "classe": "conjunção",
+      "def": [
+        "Quando, no tempo em que."
+      ]
+    },
+    "vous": {
+      "lema": "vous",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome de polidez da segunda pessoa do singular ou do plural, clítico ou tônico."
+      ],
+      "nota": "Aqui é uma só pessoa, a dama a quem o poema se dirige: Ronsard a trata por «vous», forma cerimoniosa, e não por «tu»."
+    },
+    "serez": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do plural",
+      "def": [
+        "Definir um estado, uma característica do sujeito."
+      ],
+      "nota": "Verbo de ligação: «serez vieille», sereis velha."
+    },
+    "bien": {
+      "lema": "bien",
+      "classe": "advérbio",
+      "def": [
+        "Muito; fortemente; bastante."
+      ],
+      "nota": "Intensifica o adjetivo: «bien vieille» é «bem velha», já no fim da vida."
+    },
+    "vieille": {
+      "lema": "vieux",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "De certa idade (em relação a outra pessoa)."
+      ]
+    },
+    "au": {
+      "lema": "au",
+      "classe": "artigo definido",
+      "forma": "contraído",
+      "def": [
+        "Contração da preposição «à» e do artigo definido «le»."
+      ]
+    },
+    "soir": {
+      "lema": "soir",
+      "classe": "substantivo masculino",
+      "def": [
+        "Período que se estende entre o pôr do sol e a meia-noite."
+      ]
+    },
+    "à": {
+      "lema": "à",
+      "classe": "preposição",
+      "def": [
+        "Introduz um complemento circunstancial de meio, e pode ser substituída por «au moyen de»."
+      ],
+      "nota": "«À la chandelle» é «à luz da vela»: o serão de uma casa sem luz elétrica."
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Feminino singular de «le». Determina um grupo nominal feminino singular."
+      ]
+    },
+    "chandelle": {
+      "lema": "chandelle",
+      "classe": "substantivo feminino",
+      "def": [
+        "Cilindro combustível com um pavio envolto em sebo ou cera, que ilumina ao queimar."
+      ]
+    },
+    "assise": {
+      "lema": "asseoir",
+      "classe": "verbo",
+      "forma": "particípio passado, feminino singular",
+      "def": [
+        "Pôr alguém num assento ou em algo que faça as vezes de assento."
+      ],
+      "nota": "Aqui o particípio vale como adjetivo, concordando com «vous»: sentada."
+    },
+    "auprès": {
+      "lema": "auprès de",
+      "classe": "preposição",
+      "forma": "em «auprès de» (aqui com «du» = «de le»)",
+      "def": [
+        "Na vizinhança de; na proximidade de."
+      ]
+    },
+    "du": {
+      "lema": "du",
+      "classe": "artigo definido",
+      "forma": "contraído",
+      "def": [
+        "Artigo contraído, formado pela preposição «de» e pelo artigo «le». Emprega-se diante de som consonantal ou de «h» aspirado."
+      ]
+    },
+    "feu": {
+      "lema": "feu",
+      "classe": "substantivo masculino",
+      "def": [
+        "Brasa ou fogueira de pequeno porte, acesa de propósito para iluminar, aquecer ou cozinhar."
+      ]
+    },
+    "dévidant": {
+      "lema": "dévider",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Pôr em novelo o fio que está em meada ou em carretel."
+      ],
+      "nota": "Trabalho de fiar: «dévider» é passar o fio da meada para o novelo. Junto com «filant», mostra a velha ocupada em fiar à luz da vela."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção coordenativa",
+      "def": [
+        "Liga vários conceitos numa mesma relação. Vários adjetivos podem compartilhar o mesmo substantivo, e vários prefixos, o mesmo radical."
+      ]
+    },
+    "filant": {
+      "lema": "filer",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Torcer juntos vários fios de cânhamo, linho, seda, lã etc., para que formem um só fio."
+      ]
+    },
+    "direz": {
+      "lema": "dire",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do plural",
+      "def": [
+        "Exprimir pela fala."
+      ],
+      "nota": "O sujeito «vous» fica subentendido: o verbo abre o verso sem pronome, como era comum no francês do século XVI. É a dama quem dirá."
+    },
+    "chantant": {
+      "lema": "chanter",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Modular a voz em vários tons, seguir um trecho de música vocal."
+      ]
+    },
+    "mes": {
+      "lema": "mes",
+      "classe": "determinante possessivo",
+      "forma": "plural",
+      "def": [
+        "Plural de «mon», «ma». Que são meus, no caso de um só possuidor e de vários objetos."
+      ]
+    },
+    "vers": {
+      "lema": "vers",
+      "classe": "substantivo masculino",
+      "def": [
+        "Sequência de palavras ritmadas segundo a quantidade, a acentuação, o número de sílabas ou o retorno da rima."
+      ],
+      "nota": "No sentido de «verso», é palavra sobretudo plural: «mes vers» são os versos do poeta."
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "(Seguida do particípio presente) Preposição que serve para formar um gerúndio que marca o tempo, a duração."
+      ],
+      "nota": "«En … -ant» é o gerúndio: «en vous émerveillant» é «maravilhando-vos», enquanto a dama se maravilha."
+    },
+    "vous#2": {
+      "lema": "vous",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome clítico da segunda pessoa do plural, objeto direto ou indireto, ou como pronome reflexivo."
+      ],
+      "nota": "Aqui é reflexivo: «vous émerveillant» é o pronominal «s’émerveiller», maravilhar-se."
+    },
+    "émerveillant": {
+      "lema": "émerveiller",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Encher, tomar de uma viva admiração, misturada com espanto.",
+        "(Uso pronominal, por extensão) Espantar-se muito."
+      ]
+    },
+    "ronsard": {
+      "lema": "Ronsard",
+      "wiki": null,
+      "classe": "nome próprio",
+      "nota": "Pierre de Ronsard (1524-1585), o próprio autor do poema. Ele se nomeia em terceira pessoa, pondo o próprio nome na boca da dama, que um dia dirá que Ronsard a celebrava."
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome da primeira pessoa do singular como complemento direto. Acusativo de «je»."
+      ]
+    },
+    "célébrait": {
+      "lema": "célébrer",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Louvar com brilho; publicar com elogio."
+      ]
+    },
+    "temps": {
+      "lema": "temps",
+      "classe": "substantivo masculino",
+      "def": [
+        "Duração longa; época; período; era."
+      ],
+      "nota": "«Du temps que» é uma locução: «no tempo em que», «quando»."
+    },
+    "que": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Utilizada junto com outro termo (geralmente uma preposição) para formar uma conjunção subordinativa."
+      ],
+      "nota": "Em «du temps que», equivale a «au temps où»: no tempo em que."
+    },
+    "j’": {
+      "lema": "j’",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «je»",
+      "def": [
+        "Elisão do pronome pessoal da primeira pessoa do singular «je» diante de vogal ou «h» mudo."
+      ]
+    },
+    "étais": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Definir um estado, uma característica do sujeito."
+      ]
+    },
+    "belle": {
+      "lema": "beau",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "De aspecto agradável à vista ou ao ouvido."
+      ]
+    },
+    "lors": {
+      "lema": "lors",
+      "wiki": "en:French",
+      "classe": "advérbio",
+      "def": [
+        "Então, naquele momento."
+      ],
+      "nota": "Palavra antiga, que hoje só vive em combinações como «lorsque» e «dès lors». Aqui marca o momento futuro em que a dama cantará os versos."
+    },
+    "n’": {
+      "lema": "n’",
+      "classe": "partícula",
+      "forma": "elisão de «ne»",
+      "def": [
+        "Elisão da partícula de negação «ne» diante de vogal ou «h» mudo."
+      ],
+      "nota": "No francês do século XVI o «ne» sozinho bastava para negar: «n’aurez servante» é «não tereis criada», e «n’attendez à demain» é «não espereis até amanhã», ambos sem o «pas» de hoje."
+    },
+    "aurez": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do plural",
+      "def": [
+        "Estar em relação possessiva, concreta ou abstrata, permanente ou ocasional, em que o possuidor é o sujeito e o possuído é o complemento direto."
+      ]
+    },
+    "servante": {
+      "lema": "servante",
+      "classe": "substantivo feminino",
+      "def": [
+        "Aquela que é empregada nos trabalhos domésticos e serve por salário."
+      ]
+    },
+    "oyant": {
+      "lema": "ouïr",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "(Antiquado) Ouvir, perceber pelo ouvido."
+      ],
+      "nota": "«Ouïr» saiu do uso e só sobrevive em «ouï-dire» (ouvir dizer). «Oyant» é o particípio: a criada ouvindo."
+    },
+    "telle": {
+      "lema": "tel",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que é igual, semelhante, do mesmo gênero, da mesma qualidade."
+      ],
+      "nota": "«Telle nouvelle» é «tal notícia», uma notícia dessas: a de que Ronsard cantou a dama."
+    },
+    "nouvelle": {
+      "lema": "nouvelle",
+      "classe": "substantivo feminino",
+      "def": [
+        "Fato novo de que se é informado; anúncio de uma coisa acontecida recentemente."
+      ]
+    },
+    "déjà": {
+      "lema": "déjà",
+      "classe": "advérbio",
+      "def": [
+        "Indica uma mudança de estado ou o alcance do critério até agora ou até então."
+      ]
+    },
+    "sous": {
+      "lema": "sous",
+      "classe": "preposição",
+      "def": [
+        "Marca a subordinação ou a dependência."
+      ],
+      "nota": "Em «sous le labeur», a criada está dominada pelo trabalho do dia, vencida pelo cansaço."
+    },
+    "le": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "def": [
+        "Determinante que marca um substantivo masculino singular, referindo-se a uma única entidade possível num contexto."
+      ]
+    },
+    "labeur": {
+      "lema": "labeur",
+      "classe": "substantivo masculino",
+      "def": [
+        "Trabalho penoso que exige esforço de certa duração."
+      ]
+    },
+    "à#2": {
+      "lema": "à demi",
+      "classe": "locução adverbial",
+      "def": [
+        "Pela metade.",
+        "Em parte; de modo imperfeito, incompleto."
+      ],
+      "nota": "O «à» forma com «demi» a locução «à demi», meio, pela metade."
+    },
+    "demi": {
+      "lema": "demi",
+      "classe": "advérbio",
+      "def": [
+        "Emprega-se também como advérbio diante de vários adjetivos e significa «pela metade», «quase»."
+      ],
+      "nota": "Parte da locução «à demi»: «à demi sommeillant» é meio adormecida."
+    },
+    "sommeillant": {
+      "lema": "sommeiller",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Dormir de um sono leve, de um sono imperfeito."
+      ]
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "O qual, a qual, os quais, as quais. Serve para designar o sujeito na oração relativa."
+      ],
+      "nota": "Retoma «servante»: nenhuma criada «que»."
+    },
+    "bruit": {
+      "lema": "bruit",
+      "classe": "substantivo masculino",
+      "def": [
+        "Som sem harmonia regular."
+      ],
+      "nota": "Aqui é só o som do nome: «au bruit de mon nom» é «ao som do meu nome», ao ouvi-lo."
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica a posse (o genitivo)."
+      ]
+    },
+    "mon": {
+      "lema": "mon",
+      "classe": "determinante possessivo",
+      "def": [
+        "Marca a posse ou a pertença. O possuidor é o locutor, e o que ele possui é masculino singular."
+      ]
+    },
+    "nom": {
+      "lema": "nom",
+      "classe": "substantivo masculino",
+      "def": [
+        "Palavra ou grupo de palavras que permite nomear um ser ou uma coisa."
+      ]
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "partícula",
+      "def": [
+        "Negação. Primeira parte de um morfema em geral de forma dupla, que envolve o verbo e certos pronomes e costuma ser completado por um forclusivo («pas», «plus», «jamais», «point», «personne», «rien» etc.)."
+      ],
+      "nota": "Aqui aparece sozinho, sem o «pas»: «ne s’aille réveillant» é «não vá despertando», depois de uma negação implícita em «n’aurez servante … qui»."
+    },
+    "s’": {
+      "lema": "s’",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «se»",
+      "def": [
+        "Elisão do pronome pessoal «se» diante de vogal ou «h» mudo."
+      ]
+    },
+    "aille": {
+      "lema": "aller",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Junta-se ao particípio presente de um verbo para exprimir-lhe, com a ideia de progressão, a de certa duração da ação."
+      ],
+      "nota": "Construção antiga de «aller» com particípio presente: «s’aille réveillant» é «vá-se despertando», aos poucos. O subjuntivo vem da relativa que depende de uma negação."
+    },
+    "réveillant": {
+      "lema": "réveiller",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "(Uso pronominal) Sair do sono."
+      ]
+    },
+    "bénissant": {
+      "lema": "bénir",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Louvar, glorificar, agradecer com sentimentos de veneração e de reconhecimento."
+      ]
+    },
+    "votre": {
+      "lema": "votre",
+      "classe": "determinante possessivo",
+      "def": [
+        "Segunda pessoa do plural no singular. Que é de vós. Vários possuidores e um único objeto, ou um possuidor a quem se dirige com polidez e um único objeto."
+      ]
+    },
+    "louange": {
+      "lema": "louange",
+      "classe": "substantivo feminino",
+      "def": [
+        "Discurso ou palavras pelas quais se realça o mérito de alguém, de alguma ação, de alguma coisa."
+      ]
+    },
+    "de#2": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Tem ainda o lugar de várias outras preposições."
+      ],
+      "nota": "Em «de louange immortelle», o «de» faz as vezes de «avec»: com louvor imortal."
+    },
+    "immortelle": {
+      "lema": "immortel",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "(Sentido figurado) Eterno, que dura indefinidamente.",
+        "Diz-se de homens ou coisas cuja memória se supõe que deva durar sempre."
+      ]
+    },
+    "je": {
+      "lema": "je",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome da primeira pessoa do singular. Tanto pode ser masculino como feminino. Usado exclusivamente como sujeito."
+      ]
+    },
+    "serai": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Situar-se, encontrar-se, ficar, especificando um lugar, uma situação."
+      ]
+    },
+    "sous#2": {
+      "lema": "sous",
+      "classe": "preposição",
+      "def": [
+        "Serve para marcar a situação de uma coisa em relação a outra que está por cima, que a cobre no todo ou em parte."
+      ]
+    },
+    "terre": {
+      "lema": "terre",
+      "classe": "substantivo feminino",
+      "def": [
+        "Solo onde se sepultam os mortos."
+      ]
+    },
+    "fantôme": {
+      "lema": "fantôme",
+      "classe": "substantivo masculino",
+      "def": [
+        "Aparição de um defunto sob o aspecto que tinha em vida ou sob outra forma."
+      ]
+    },
+    "sans": {
+      "lema": "sans",
+      "classe": "preposição",
+      "def": [
+        "Preposição que marca a ausência, a falta, a exclusão de uma pessoa, de uma coisa."
+      ]
+    },
+    "os": {
+      "lema": "os",
+      "classe": "substantivo masculino",
+      "def": [
+        "Elemento do esqueleto dos animais vertebrados, feito de um tecido duro e calcificado."
+      ]
+    },
+    "par": {
+      "lema": "par",
+      "classe": "preposição",
+      "def": [
+        "Emprega-se também no sentido de «en», «dans», com a ideia de movimento no espaço indicado."
+      ],
+      "nota": "«Par les ombres» é «por entre as sombras»: o poeta andará entre os mortos."
+    },
+    "les": {
+      "lema": "les",
+      "classe": "artigo definido",
+      "forma": "plural",
+      "def": [
+        "Plural de «le» ou de «la»."
+      ]
+    },
+    "ombres": {
+      "lema": "ombre",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "(Poético) Alma depois de deixar o corpo; fantasma; espírito."
+      ],
+      "nota": "As «ombres» são as almas dos mortos no mundo subterrâneo, como na poesia antiga."
+    },
+    "myrteux": {
+      "lema": "myrteux",
+      "classe": "adjetivo",
+      "def": [
+        "(Literário) Relativo à murta, símbolo do reino dos mortos, da imortalidade, mas também do amor entre os antigos gregos."
+      ],
+      "nota": "A murta é a planta dos mortos: «ombres myrteux» são as sombras dos Campos Elísios, em seus bosques de murta, onde a poesia antiga põe os que morreram de amor."
+    },
+    "prendrai": {
+      "lema": "prendre",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Fazer uso de algo para a saúde, para o próprio agrado etc."
+      ],
+      "nota": "«Prendre son repos» é repousar, descansar."
+    },
+    "repos": {
+      "lema": "repos",
+      "classe": "substantivo masculino",
+      "def": [
+        "Cessação de trabalho, de exercício, para fazer desaparecer o cansaço.",
+        "(Por elipse) O repouso eterno, a morte."
+      ],
+      "nota": "O verso joga com os dois sentidos: o descanso e o repouso dos mortos."
+    },
+    "serez#2": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do plural",
+      "def": [
+        "Situar-se, encontrar-se, ficar, especificando um lugar, uma situação."
+      ]
+    },
+    "foyer": {
+      "lema": "foyer",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte de um fogão de sala ou de um fogareiro onde se faz o fogo.",
+        "(Figurado) Casa, morada da família, país natal."
+      ],
+      "nota": "«Au foyer» é junto da lareira, onde arde o «feu» do verso 2."
+    },
+    "une": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante colocado diante de um substantivo que representa um objeto animado ou inanimado que não se conhece com precisão. O artigo indefinido tem muitas vezes o sentido de «um (1) entre outros»."
+      ]
+    },
+    "vieille#2": {
+      "lema": "vieille",
+      "classe": "substantivo feminino",
+      "def": [
+        "Mulher idosa."
+      ]
+    },
+    "accroupie": {
+      "lema": "accroupi",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Cuja postura resulta do agachamento, que tem os joelhos dobrados, apoiada na ponta dos pés."
+      ],
+      "nota": "A dama, encolhida junto ao fogo: a imagem da velhice."
+    },
+    "regrettant": {
+      "lema": "regretter",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Ter desprazer pela perda, pela privação de alguma coisa."
+      ]
+    },
+    "amour": {
+      "lema": "amour",
+      "classe": "substantivo masculino",
+      "def": [
+        "Sentimento intenso e agradável que incita os seres a se unirem."
+      ]
+    },
+    "fier": {
+      "lema": "fier",
+      "wiki": "en:French",
+      "classe": "adjetivo",
+      "def": [
+        "Orgulhoso, cheio de si, arrogante."
+      ],
+      "nota": "«Fier dédain»: o desdém altivo com que a dama rejeitou o poeta."
+    },
+    "dédain": {
+      "lema": "dédain",
+      "classe": "substantivo masculino",
+      "def": [
+        "Desprezo expresso pelo ar, pelo tom ou pelo porte."
+      ]
+    },
+    "vivez": {
+      "lema": "vivre",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Empregar utilmente a vida, gozar a vida."
+      ]
+    },
+    "si": {
+      "lema": "si",
+      "classe": "conjunção",
+      "def": [
+        "No caso de, com a condição de que, supondo que."
+      ]
+    },
+    "m’": {
+      "lema": "m’",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «me»",
+      "def": [
+        "Elisão do pronome pessoal «me» diante de vogal ou «h» mudo."
+      ]
+    },
+    "en#2": {
+      "lema": "en",
+      "classe": "pronome pessoal",
+      "def": [
+        "(Substituindo um complemento indireto com «de») Disso, disto, daquilo."
+      ],
+      "nota": "Retoma o conselho dos versos seguintes: «m’en croyez» é «acreditais-me nisto»."
+    },
+    "croyez": {
+      "lema": "croire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do plural",
+      "def": [
+        "Remeter-se a alguém ou a alguma coisa (fiar-se no seu juízo)."
+      ],
+      "nota": "«Si m’en croyez» é «se me derdes ouvidos nisto», «se acreditais em mim», com o sujeito «vous» subentendido; o francês de hoje diria «si vous m’en croyez»."
+    },
+    "attendez": {
+      "lema": "attendre",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Adiar uma ação até um limite temporal."
+      ]
+    },
+    "à#3": {
+      "lema": "à",
+      "classe": "preposição",
+      "def": [
+        "Introduz um complemento circunstancial de tempo."
+      ],
+      "nota": "«Attendre à demain» é deixar para amanhã; hoje se diria «attendre jusqu’à demain»."
+    },
+    "demain": {
+      "lema": "demain",
+      "classe": "advérbio",
+      "def": [
+        "O dia que se seguirá imediatamente àquele em que se está."
+      ]
+    },
+    "cueillez": {
+      "lema": "cueillir",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Destacar frutos, flores, legumes dos seus galhos ou dos seus talos."
+      ],
+      "nota": "É o «carpe diem» de Horácio no último verso: aproveitar o dia, gozar a juventude antes que passe."
+    },
+    "dès": {
+      "lema": "dès",
+      "classe": "preposição",
+      "def": [
+        "A partir de (um tempo)."
+      ]
+    },
+    "aujourd’hui": {
+      "lema": "aujourd’hui",
+      "classe": "advérbio",
+      "def": [
+        "Na data presente, neste mesmo dia."
+      ]
+    },
+    "roses": {
+      "lema": "rose",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Flor da roseira."
+      ],
+      "nota": "A rosa dura pouco: imagem da juventude e do prazer, que passam depressa."
+    },
+    "vie": {
+      "lema": "vie",
+      "classe": "substantivo feminino",
+      "def": [
+        "Todo o espaço de tempo que vai do nascimento até a morte."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "3.6": "vous#2",
+    "6.5": "à#2",
+    "9.3": "sous#2",
+    "8.4": "de#2",
+    "11.2": "serez#2",
+    "11.6": "vieille#2",
+    "13.4": "en#2",
+    "13.8": "à#3"
+  }
+}

@@ -54,6 +54,32 @@
       ]
     },
     {
+      "pasta": "the-raven", "autor": "edgar-allan-poe", "lingua": "en", "forma": "outras",
+      "titulo": "The Raven", "ano": 1845,
+      "livro": { "titulo": "The Raven and Other Poems", "ano": 1845 },
+      "traducao": {"tradutor": "Fernando Pessoa", "titulo": "O Corvo", "ano": 1924, "publicacao": "publicada na revista Athena (n.º 1, outubro de 1924) «rhythmicamente conforme com o original»", "fonte": {"nome": "Athena, n.º 1 (Lisboa, 1924), no Wikisource", "url": "https://pt.wikisource.org/wiki/Athena/O_Corvo", "nota": "tradução de Fernando Pessoa; ortografia atualizada"}},
+      "fontes": [
+        { "nome": "The Raven and Other Poems (Nova York, Wiley and Putnam, 1845), no Wikisource", "url": "https://en.wikisource.org/wiki/The_Raven_and_Other_Poems/The_Raven", "nota": "grafia atualizada («visitor», «lamplight»)" }
+      ]
+    },
+    {
+      "pasta": "to-helen", "autor": "edgar-allan-poe", "lingua": "en", "forma": "outras",
+      "titulo": "To Helen", "ano": 1845,
+      "livro": { "titulo": "The Raven and Other Poems", "ano": 1845 },
+      "fontes": [
+        { "nome": "The Raven and Other Poems (1845), no Wikisource", "url": "https://en.wikisource.org/wiki/The_Bells_and_other_poems%2FTo_Helen_(Helen%2C_thy_beauty_is_to_me)", "nota": "texto revisto por Poe em 1845; a primeira versão é de 1831" }
+      ]
+    },
+    {
+      "pasta": "annabel-lee", "autor": "edgar-allan-poe", "lingua": "en", "forma": "outras",
+      "titulo": "Annabel Lee", "ano": 1849,
+      "livro": null,
+      "traducao": {"tradutor": "Fernando Pessoa", "titulo": "Annabel Lee", "ano": 1925, "publicacao": "publicada na revista Athena (n.º 4, janeiro de 1925), entre «Os poemas finais de Edgar Poe»", "fonte": {"nome": "Athena, n.º 4 (Lisboa, 1925), no Wikisource", "url": "https://pt.wikisource.org/wiki/Athena/Os_Poemas_Finaes_de_Edgar_Poe", "nota": "tradução de Fernando Pessoa; ortografia atualizada"}},
+      "fontes": [
+        { "nome": "The Works of the Late Edgar Allan Poe, vol. 2 (1850), no Wikisource", "url": "https://en.wikisource.org/wiki/The_Works_of_the_Late_Edgar_Allan_Poe_(1859)/Volume_2/Annabel_Lee", "nota": "escrito em 1849; publicado depois da morte de Poe" }
+      ]
+    },
+    {
       "pasta": "quand-vous-serez-bien-vieille", "autor": "pierre-de-ronsard", "lingua": "fr", "forma": "sonetos",
       "titulo": "Quand vous serez bien vieille", "ano": 1578,
       "livro": { "titulo": "Sonnets pour Hélène", "ano": 1578 },
@@ -75,6 +101,23 @@
       "livro": null,
       "fontes": [
         { "nome": "Wikisource", "url": "https://fr.wikisource.org/wiki/Le_Dormeur_du_val", "nota": "escrito em 1870; publicado em 1888" }
+      ]
+    },
+    {
+      "pasta": "l-albatros", "autor": "charles-baudelaire", "lingua": "fr", "forma": "outras",
+      "titulo": "L’Albatros", "ano": 1861,
+      "livro": { "titulo": "Les Fleurs du mal", "ano": 1861 },
+      "fontes": [
+        { "nome": "Les Fleurs du mal, 2ª ed. (1861), no Wikisource", "url": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/L%E2%80%99Albatros", "nota": "grafia atualizada («Poète»)" }
+      ]
+    },
+    {
+      "pasta": "chanson-d-automne", "autor": "paul-verlaine", "lingua": "fr", "forma": "outras",
+      "titulo": "Chanson d’automne", "ano": 1866,
+      "livro": { "titulo": "Poèmes saturniens", "ano": 1866 },
+      "traducao": {"tradutor": "Alphonsus de Guimaraens", "titulo": "Canção do Outono", "ano": null, "publicacao": "poeta simbolista mineiro (1870–1921)", "fonte": {"nome": "Pensador", "url": "https://www.pensador.com/paul_verlaine", "nota": "tradução de Alphonsus de Guimaraens; o mesmo texto no material de curso da USP"}},
+      "fontes": [
+        { "nome": "Poèmes saturniens (1866), no Wikisource", "url": "https://fr.wikisource.org/wiki/Po%C3%A8mes_saturniens_(1866)/Chanson_d%E2%80%99automne" }
       ]
     }
   ]

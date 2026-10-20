@@ -42,7 +42,7 @@ const BIBLIOTECA = {
         id: p.id, autor: pac.autor, titulo: p.titulo, genero: 'Poesia', poema: true,
         forma: p.forma, n: p.n || '', secao: p.secao || '', subtitulo: p.subtitulo || '',
         ano: p.ano || (l && l.ano) || null, versos: p.versos, lingua: p.lingua || '',
-        traducao: p.traducao || null, glossario: !!p.glossario,
+        traducao: p.traducao || null, glossario: !!p.glossario, pt: p.pt || null,
         coletanea: l ? { id: pac.autor + '/' + l.id, titulo: l.titulo, ano: l.ano || '', ordem: k, seq: p.livro } : null,
         ordem: k,
         divisao: { singular: 'parte', plural: 'partes' },
@@ -60,6 +60,7 @@ const BIBLIOTECA = {
         o.partes[i].texto = t;
         if (e.o) o.partes[i].original = e.o[i];
         if (e.g) o.partes[i].glossario = e.g[i];
+        if (e.p) o.partes[i].pt = e.p[i];
       });
       if (e.e) o.edicao = e.e;
       o.carregada = true;
@@ -156,12 +157,19 @@ function linhasPoema(texto, glos) {
   });
 }
 /* Poema na língua original (edicoes/lingua-original): cada palavra é um botão que abre a nota;
-   os verbetes ficam escondidos no fim da página, e o leitor.js mostra o da palavra junto dela. */
+   os verbetes ficam escondidos no fim da página, e o leitor.js mostra o da palavra junto dela.
+   A pontuação colada à palavra vai junto com ela num .pal-g, para não cair sozinha na linha de baixo. */
 function marcarPalavras(s, pals) {
+  const ps = pals.slice().sort((x, y) => x[0] - y[0]);
   let html = '', ant = 0;
-  pals.slice().sort((x, y) => x[0] - y[0]).forEach(([a, b, id]) => {
-    html += esc(s.slice(ant, a)) + '<button type="button" class="pal" data-g="' + id + '" aria-haspopup="dialog">' + esc(s.slice(a, b)) + '</button>';
-    ant = b;
+  ps.forEach(([a, b, id], k) => {
+    const prox = k + 1 < ps.length ? ps[k + 1][0] : s.length;
+    let ini = a, fim = b;
+    while (ini > ant && !/\s/.test(s[ini - 1])) ini--;
+    while (fim < prox && !/\s/.test(s[fim])) fim++;
+    const grupo = esc(s.slice(ini, a)) + '<button type="button" class="pal" data-g="' + id + '" aria-haspopup="dialog">' + esc(s.slice(a, b)) + '</button>' + esc(s.slice(b, fim));
+    html += esc(s.slice(ant, ini)) + (ini < a || fim > b ? '<span class="pal-g">' + grupo + '</span>' : grupo);
+    ant = fim;
   });
   return html + esc(s.slice(ant));
 }
@@ -208,6 +216,10 @@ function celula(lado, l, ini, i, lingua) {
 function textoParte(o, p) {
   const poema = !!o.poema;
   const linhas = poema ? linhasPoema : linhasProsa;
+  /* poema na língua original com uma tradução em domínio público: o original (com as notas) à
+     esquerda, no lado «orig», e a tradução no lado «trad» */
+  if (p.glossario && p.pt) return '<div class="texto"><div class="paralelo poema">' +
+    grade(linhasPoema(p.pt), linhasPoema(p.texto, p.glossario), esc(o.lingua)) + '</div></div>';
   const orig = p.original !== undefined && p.original !== null;
   const lingua = orig && o.traducao ? o.traducao.codigo || '' : '';
   const cls = 'paralelo ' + (poema ? 'poema' : 'prosa');
@@ -717,6 +729,7 @@ function htmlListaPoemas(obras) {
     html += '<ol class="indice poemas' + (comNum ? '' : ' sem-num') + '">';
     g.obras.forEach((o) => {
       const extra = o.traducao ? '<span class="orig-tit" lang="' + esc(o.traducao.codigo || '') + '">' + esc(o.traducao.titulo) + '</span>'
+        : o.pt ? '<span class="orig-tit" lang="pt-BR">com a tradução de ' + esc(o.pt.tradutor) + '</span>'
         : o.partes.length > 1 ? '<span class="orig-tit">' + esc(fichaObra(o)) + '</span>' : '';
       html += '<li data-obra="' + esc(chaveObra(o)) + '"><a href="' + U.obra(o) + '">' + (comNum ? '<span class="num">' + esc(o.n) + '</span>' : '') +
         '<span class="tit"' + (o.lingua ? ' lang="' + esc(o.lingua) + '"' : '') + '>' + esc(o.titulo) + extra + '</span></a></li>';
@@ -862,7 +875,8 @@ const passo = (cls, rel, dir, href, alvo) => '<a class="passo ' + cls + '" href=
 function paginaParte(a, o, f) {
   const fs_ = folhasDe(o), i = f.k + 1, total = fs_.length, poema = !!o.poema, conto = !!o.coletanea || poema;
   const p = f.no, sub = f.cadeia.length > 0, partes = o.partes.length;
-  const bilingue = p.original !== undefined && p.original !== null;
+  const comPt = !!(p.glossario && p.pt);
+  const bilingue = comPt || (p.original !== undefined && p.original !== null);
   let passos;
   if (poema) {
     passos = trilhaPasta(a, o).concat(total > 1 ? [{ txt: o.titulo, href: U.obra(o) }, { txt: rotuloParte(o, p) }] : [{ txt: o.titulo }]);
@@ -890,6 +904,9 @@ function paginaParte(a, o, f) {
 
   function titulo(tag, cls, trad, orig) {
     const h = '<' + tag + (cls ? ' class="' + cls + '"' : '') + '>';
+    if (comPt && tag === 'h1') return '<div class="paralelo titulos"><div class="orig" data-i="t" lang="' + esc(o.lingua) + '">' + h +
+      marcarPalavras(trad, p.glossario.t) + '</' + tag + '></div><div class="trad" data-i="t">' + h + inline(o.pt.titulo) + '</' + tag + '>' +
+      '<p class="publicacao">Tradução de ' + esc(o.pt.tradutor) + (o.pt.ano ? ' (' + o.pt.ano + ')' : '') + '</p></div></div>';
     if (p.glossario && tag === 'h1') return h + '<span lang="' + esc(o.lingua) + '">' + marcarPalavras(trad, p.glossario.t) + '</span></' + tag + '>';
     if (!bilingue || !orig) return h + inline(trad) + '</' + tag + '>';
     const lingua = o.traducao ? o.traducao.codigo || '' : '';
@@ -923,9 +940,10 @@ function paginaParte(a, o, f) {
       esc(pai.cadeia.length ? curto(pai.no) : rotuloParte(o, pai.parte)) + '</a> · <a href="' + U.obra(o) + '">índice</a></p>';
   } else if (partes > 1) posicao = '<p class="posicao">' + f.i + ' de ' + partes + ' · <a href="' + U.obra(o) + '">índice</a></p>';
   const alvo = !sub ? 'parte' : p.tipo === 'capitulo' ? 'capitulo' : 'secao';
-  const lingua = bilingue && o.traducao ? o.traducao.codigo || '' : '';
+  const lingua = comPt ? o.lingua : bilingue && o.traducao ? o.traducao.codigo || '' : '';
   const html = '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
-    '<article class="folha leitura' + (poema ? ' de-poema' : '') + (p.glossario ? ' com-notas' : '') + (bilingue ? ' bilingue ver-trad' : '') + '"' + (lingua ? ' data-lingua="' + esc(lingua) + '"' : '') + '>' +
+    '<article class="folha leitura' + (poema ? ' de-poema' : '') + (p.glossario ? ' com-notas' : '') + (bilingue ? ' bilingue ' + (comPt ? 'ver-orig' : 'ver-trad') : '') + '"' +
+    (lingua ? ' data-lingua="' + esc(lingua) + '"' : '') + (comPt ? ' data-abre="orig"' : '') + '>' +
     '<header class="cabeca-parte' + (conto && i === 1 ? ' conto' : '') + '">' + cabeca + '</header>' + textoParte(o, p) +
     (p.glossario ? htmlGlossario(o, p.glossario) : '') +
     '<div id="fim-parte" aria-hidden="true"></div>' +
@@ -938,7 +956,7 @@ function paginaParte(a, o, f) {
   const tituloPagina = sub ? rot + ': ' + textoPuro(p.titulo) + ' — ' + o.titulo + ' — ' + a.nome
     : (rot && rot !== o.titulo ? rot + (p.titulo && rot.indexOf(textoPuro(p.titulo)) < 0 ? ': ' + textoPuro(p.titulo) : '') + ' — ' : '') + o.titulo + ' — ' + a.nome;
   pagina({ url: f.url, titulo: tituloPagina, corpo: html, trilha: passos, prev, next,
-    bilingue: bilingue ? (o.traducao && o.traducao.lingua ? o.traducao.lingua.charAt(0).toUpperCase() + o.traducao.lingua.slice(1) : 'Original') : null,
+    bilingue: comPt ? LINGUAS[o.lingua].nome : bilingue ? (o.traducao && o.traducao.lingua ? o.traducao.lingua.charAt(0).toUpperCase() + o.traducao.lingua.slice(1) : 'Original') : null,
     progresso: total > 1 ? i / total : undefined,
     descricao: descricaoDe(p.texto),
     dados: { pagina: 'parte', obra: chaveObra(o), parte: f.chave, indice: i, total, ...(sub ? { cadeia: f.acima.join(' ') } : {}),
@@ -1153,7 +1171,7 @@ dados.obras.forEach((o) => {
     else indexar(caminho.concat(yi), limpo(y.cab) + ' ' + limpo(y.texto) + ' ' + limpo(y.cabOriginal) + ' ' + limpo(y.original));
   });
   o.partes.forEach((p, pi) => {
-    if (!p.filhos) { indexar([pi], limpo(p.texto) + ' ' + limpo(p.original)); return; }
+    if (!p.filhos) { indexar([pi], limpo(p.texto) + ' ' + limpo(p.original) + ' ' + limpo(p.pt)); return; }
     if (p.preambulo) indexar([pi], limpo(p.preambulo));
     andar(p.filhos, [pi]);
   });

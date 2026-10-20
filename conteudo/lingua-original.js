@@ -57,6 +57,17 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
+  autor: "edgar-allan-poe",
+  arquivo: "conteudo/edgar-allan-poe/lingua-original.js",
+  livros: [{"id": "the-raven-and-other-poems", "titulo": "The Raven and Other Poems", "ano": 1845}, {"id": "the-raven-and-other-poems", "titulo": "The Raven and Other Poems", "ano": 1845}],
+  poemas: [
+    {"id":"edgar-allan-poe-the-raven","titulo":"The Raven","forma":"outras","livro":0,"ordem":0,"versos":108,"lingua":"en","ano":1845,"glossario":true,"pt":{"tradutor":"Fernando Pessoa","titulo":"O Corvo","ano":1924}},
+    {"id":"edgar-allan-poe-to-helen","titulo":"To Helen","forma":"outras","livro":1,"ordem":1,"versos":15,"lingua":"en","ano":1845,"glossario":true},
+    {"id":"edgar-allan-poe-annabel-lee","titulo":"Annabel Lee","forma":"outras","livro":-1,"ordem":2,"versos":41,"lingua":"en","ano":1849,"glossario":true,"pt":{"tradutor":"Fernando Pessoa","titulo":"Annabel Lee","ano":1925}}
+  ]
+});
+
+BIBLIOTECA.poemas({
   autor: "pierre-de-ronsard",
   arquivo: "conteudo/pierre-de-ronsard/lingua-original.js",
   livros: [{"id": "sonnets-pour-h-l-ne", "titulo": "Sonnets pour Hélène", "ano": 1578}],
@@ -80,5 +91,23 @@ BIBLIOTECA.poemas({
   livros: [],
   poemas: [
     {"id":"arthur-rimbaud-le-dormeur-du-val","titulo":"Le Dormeur du val","forma":"sonetos","livro":-1,"ordem":0,"versos":14,"lingua":"fr","ano":1870,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "charles-baudelaire",
+  arquivo: "conteudo/charles-baudelaire/lingua-original.js",
+  livros: [{"id": "les-fleurs-du-mal", "titulo": "Les Fleurs du mal", "ano": 1861}],
+  poemas: [
+    {"id":"charles-baudelaire-l-albatros","titulo":"L’Albatros","forma":"outras","livro":0,"ordem":0,"versos":16,"lingua":"fr","ano":1861,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "paul-verlaine",
+  arquivo: "conteudo/paul-verlaine/lingua-original.js",
+  livros: [{"id": "po-mes-saturniens", "titulo": "Poèmes saturniens", "ano": 1866}],
+  poemas: [
+    {"id":"paul-verlaine-chanson-d-automne","titulo":"Chanson d’automne","forma":"outras","livro":0,"ordem":0,"versos":18,"lingua":"fr","ano":1866,"glossario":true,"pt":{"tradutor":"Alphonsus de Guimaraens","titulo":"Canção do Outono","ano":null}}
   ]
 });

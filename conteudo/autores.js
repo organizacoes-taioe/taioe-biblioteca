@@ -328,43 +328,9 @@ BIBLIOTECA.autor({
   nota: 'Poeta parnasiano santista, o poeta do mar.'
 });
 
-/* Poetas estrangeiros, em tradução */
-
-BIBLIOTECA.autor({
-  id: 'charles-baudelaire',
-  nome: 'Charles Baudelaire',
-  nomeCompleto: 'Charles-Pierre Baudelaire',
-  vida: '1821–1867',
-  ordem: 'Baudelaire, Charles',
-  nota: 'Poeta francês, autor de _As Flores do Mal_. Em tradução, com o original ao lado.'
-});
-
-BIBLIOTECA.autor({
-  id: 'edgar-allan-poe',
-  nome: 'Edgar Allan Poe',
-  nomeCompleto: 'Edgar Allan Poe',
-  vida: '1809–1849',
-  ordem: 'Poe, Edgar Allan',
-  nota: 'Poeta e contista norte-americano. Em tradução, com o original ao lado.'
-});
-
-BIBLIOTECA.autor({
-  id: 'goethe',
-  nome: 'Goethe',
-  nomeCompleto: 'Johann Wolfgang von Goethe',
-  vida: '1749–1832',
-  ordem: 'Goethe, Johann Wolfgang von',
-  nota: 'Poeta, romancista e dramaturgo alemão. Em tradução, com o original ao lado.'
-});
-
-BIBLIOTECA.autor({
-  id: 'paul-verlaine',
-  nome: 'Paul Verlaine',
-  nomeCompleto: 'Paul-Marie Verlaine',
-  vida: '1844–1896',
-  ordem: 'Verlaine, Paul',
-  nota: 'Poeta simbolista francês. Em tradução, com o original ao lado.'
-});
+/* Literatura em tradução: por ora, só o Beowulf. Os poemas traduzidos pelo Versificador (Poe,
+   Baudelaire, Verlaine, Goethe) saíram do site em 20/10/2026; ver PUBLICAR_TRADUCOES em
+   ferramentas/poesia.py. Poe, Baudelaire e Verlaine estão abaixo, na língua original. */
 
 BIBLIOTECA.autor({
   id: 'anonimo-anglo-saxao',
@@ -375,8 +341,9 @@ BIBLIOTECA.autor({
   nota: 'O poeta desconhecido do _Beowulf_, o maior poema do inglês antigo. Em tradução, com o original ao lado.'
 });
 
-/* Na língua original, sem tradução ("lingua": a língua em que o autor aparece na Literatura;
-   cada palavra dos poemas abre uma nota, ver edicoes/lingua-original/README.md) */
+/* Na língua original, sem tradução nossa ("lingua": a língua em que o autor aparece na Literatura;
+   cada palavra dos poemas abre uma nota, ver edicoes/lingua-original/README.md). Poe, Baudelaire
+   e Verlaine voltaram assim em 20/10/2026; uma tradução em domínio público, quando há, fica ao lado. */
 BIBLIOTECA.autor({
   id: 'garcilaso-de-la-vega',
   nome: 'Garcilaso de la Vega',
@@ -432,6 +399,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'edgar-allan-poe',
+  nome: 'Edgar Allan Poe',
+  nomeCompleto: 'Edgar Allan Poe',
+  vida: '1809–1849',
+  lingua: 'en',
+  nota: 'Poeta e contista norte-americano.'
+});
+
+BIBLIOTECA.autor({
   id: 'pierre-de-ronsard',
   nome: 'Pierre de Ronsard',
   nomeCompleto: 'Pierre de Ronsard',
@@ -456,4 +432,22 @@ BIBLIOTECA.autor({
   vida: '1854–1891',
   lingua: 'fr',
   nota: 'Poeta francês; escreveu toda a sua obra antes dos 21 anos.'
+});
+
+BIBLIOTECA.autor({
+  id: 'charles-baudelaire',
+  nome: 'Charles Baudelaire',
+  nomeCompleto: 'Charles-Pierre Baudelaire',
+  vida: '1821–1867',
+  lingua: 'fr',
+  nota: 'Poeta francês, autor de _As Flores do Mal_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'paul-verlaine',
+  nome: 'Paul Verlaine',
+  nomeCompleto: 'Paul-Marie Verlaine',
+  vida: '1844–1896',
+  lingua: 'fr',
+  nota: 'Poeta simbolista francês.'
 });

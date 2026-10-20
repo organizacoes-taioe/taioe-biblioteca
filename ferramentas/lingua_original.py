@@ -157,9 +157,11 @@ def baixar(url):
 
 
 def wikitext(wiki, pagina):
-    os.makedirs(os.path.join(CACHE, wiki), exist_ok=True)
-    nome = re.sub(r'[<>:"/\\|?*]', lambda m: '%%%02X' % ord(m.group()), pagina) + '.json'
-    arq = os.path.join(CACHE, wiki, nome)
+    # pasta c2: no Windows «Land» e «land» seriam o mesmo arquivo; a maiúscula vai marcada com ^
+    os.makedirs(os.path.join(CACHE, wiki, 'c2'), exist_ok=True)
+    nome = re.sub(r'[<>:"/\\|?*^]', lambda m: '%%%02X' % ord(m.group()), pagina)
+    nome = ''.join('^' + c if c != c.lower() else c for c in nome) + '.json'
+    arq = os.path.join(CACHE, wiki, 'c2', nome)
     if os.path.exists(arq):
         with open(arq, encoding='utf-8') as f:
             return json.load(f)
@@ -360,6 +362,9 @@ def publicar():
                     'ordem': k, 'versos': versos, 'lingua': p['lingua'], 'ano': p.get('ano'), 'glossario': True}
             if p.get('subtitulo'):
                 item['subtitulo'] = p['subtitulo']
+            if p.get('traducao'):
+                tr = p['traducao']
+                item['pt'] = {'tradutor': tr['tradutor'], 'titulo': tr['titulo'], 'ano': tr.get('ano')}
             poemas.append(item)
         arquivo = 'conteudo/%s/lingua-original.js' % autor
         indice.append('BIBLIOTECA.poemas({\n  autor: %s,\n  arquivo: %s,\n  livros: %s,\n  poemas: [\n    %s\n  ]\n});\n' % (
@@ -420,14 +425,24 @@ def montar(p, info_lingua):
     fontes = [{'nome': f['nome'], 'url': f.get('url'), 'nota': f.get('nota')} for f in p.get('fontes', [])]
     fontes.append({'nome': 'Wiktionary', 'url': 'https://%s.wiktionary.org/' % lingua,
                    'nota': 'definições das notas, traduzidas ao português (CC BY-SA 4.0)'})
-    apresentacao = ('Texto em %s, sem tradução. Toque numa palavra para ver a nota: a definição do sentido que ela tem '
+    tr = p.get('traducao')
+    apresentacao = ('Texto em %s%s. Toque numa palavra para ver a nota: a definição do sentido que ela tem '
                     'no poema, traduzida do Wiktionary, com o link para o verbete original, e, quando é preciso, uma '
                     'explicação do uso no verso.\n\nAs notas, como o Wiktionary, estão sob a '
-                    'licença CC BY-SA 4.0.') % info_lingua['nome']
-    return {'t': [ler_texto(p['pasta'])],
-            'g': [{'v': verbetes, 'o': o_linhas, 't': o_titulo, 's': o_sub}],
-            'e': {'titulo': 'Sobre este texto', 'apresentacao': apresentacao,
-                  'fontes': [{k: v for k, v in f.items() if v} for f in fontes]}}
+                    'licença CC BY-SA 4.0.') % (info_lingua['nome'], '' if tr else ', sem tradução')
+    if tr:
+        # uma tradução em domínio público, com o nome do tradutor (pedido de 2026-10-20); nunca uma nossa
+        apresentacao += ('\n\n**Tradução.** No botão «Português», a tradução de %s, %s, em domínio público, '
+                         'na ortografia de hoje.') % (tr['tradutor'], tr['publicacao'])
+        fontes.insert(len(fontes) - 1, {'nome': tr['fonte']['nome'], 'url': tr['fonte'].get('url'), 'nota': tr['fonte'].get('nota')})
+    saida = {'t': [ler_texto(p['pasta'])],
+             'g': [{'v': verbetes, 'o': o_linhas, 't': o_titulo, 's': o_sub}],
+             'e': {'titulo': 'Sobre este texto', 'apresentacao': apresentacao,
+                   'fontes': [{k: v for k, v in f.items() if v} for f in fontes]}}
+    if tr:
+        with open(os.path.join(EDICAO, p['pasta'], 'traducao.txt'), encoding='utf-8') as f:
+            saida['p'] = [f.read().replace('\r\n', '\n').strip('\n')]
+    return saida
 
 
 if __name__ == '__main__':

@@ -10,6 +10,11 @@ nossa do uso no verso.
   separadas por linha em branco, marcas `::subtitulo`, `::data`…). Ortografia atual da língua,
   pelas edições correntes; a fonte de cada um está em `obras.json`.
 - `<pasta>/glossario.json`: as notas.
+- `<pasta>/traducao.txt` (opcional): uma tradução **em domínio público**, boa e com o nome do tradutor
+  (pedido de 2026-10-20; nunca uma tradução nossa). Vai no botão «Português», ao lado do original, que
+  continua a abrir primeiro. Ortografia atualizada (AO1990, com os acentos de Portugal nos portugueses).
+  Em `obras.json`, o campo `traducao`: `tradutor`, `titulo`, `ano`, `publicacao` (frase da página «Sobre»)
+  e `fonte`. Hoje: Fernando Pessoa (*O Corvo*, *Annabel Lee*) e Alphonsus de Guimaraens (*Canção do Outono*).
 
 ```bash
 python ferramentas/lingua_original.py palavras <pasta>         # as palavras, com a posição e a chave

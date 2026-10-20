@@ -257,6 +257,8 @@ main { padding: 0 1rem 5rem; }
    de modo que os dois lados andam juntos; escondido um dos lados, sobra uma coluna. */
 .paralelo { display: grid; grid-template-columns: minmax(0, 1fr); }
 .bilingue.ver-trad .orig, .bilingue.ver-orig .trad { display: none; }
+/* poema na língua original com a tradução ao lado: só com a tradução à vista, a dica das notas sai */
+.bilingue.ver-trad .dica-glossario { display: none; }
 .leitura.bilingue.ver-ambos { max-width: calc(var(--medida) * 2 + 3rem); }
 .bilingue.ver-ambos .paralelo { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: clamp(1.5rem, 4vw, 3.5rem); }
 .bilingue.ver-ambos .paralelo.poema { width: 100%; }
@@ -266,6 +268,7 @@ main { padding: 0 1rem 5rem; }
   .leitura.bilingue.ver-ambos { max-width: var(--medida); }
   .bilingue.ver-ambos .paralelo { grid-template-columns: minmax(0, 1fr); }
   .bilingue.ver-ambos.ultimo-orig .trad, .bilingue.ver-ambos.ultimo-trad .orig { display: none; }
+  .bilingue.ver-ambos.ultimo-trad .dica-glossario { display: none; }
 }
 
 /* poema: bloco centrado na largura do verso mais longo */
@@ -487,6 +490,7 @@ button.pal {
   font: inherit; color: inherit; letter-spacing: inherit; background: none; border: 0; margin: 0; padding: 0;
   cursor: pointer; border-radius: 3px; text-align: inherit; -webkit-tap-highlight-color: transparent;
 }
+.pal-g { white-space: nowrap; }
 button.pal:hover { color: var(--realce); text-decoration: underline dotted; text-underline-offset: .22em; text-decoration-thickness: 1px; }
 button.pal:focus-visible { outline: 2px solid var(--realce); outline-offset: 1px; }
 button.pal.ativa { color: var(--realce); background: color-mix(in srgb, var(--realce) 12%, transparent); }

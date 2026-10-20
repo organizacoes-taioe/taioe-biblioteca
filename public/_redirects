@@ -1,2 +1,12 @@
 # Só tem efeito nos previews: em produção, o "/" é do hub.
 /  /biblioteca/  302
+
+# Poemas que eram traduzidos e voltaram na língua original (20/10/2026)
+/biblioteca/edgar-allan-poe/o-corvo/*  /biblioteca/edgar-allan-poe/the-raven/:splat  301
+/biblioteca/edgar-allan-poe/a-helena/*  /biblioteca/edgar-allan-poe/to-helen/:splat  301
+/biblioteca/charles-baudelaire/o-albatroz/*  /biblioteca/charles-baudelaire/l-albatros/:splat  301
+/biblioteca/paul-verlaine/cancao-de-outono/*  /biblioteca/paul-verlaine/chanson-d-automne/:splat  301
+/biblioteca/edgar-allan-poe/o-corvo  /biblioteca/edgar-allan-poe/the-raven/  301
+/biblioteca/edgar-allan-poe/a-helena  /biblioteca/edgar-allan-poe/to-helen/  301
+/biblioteca/charles-baudelaire/o-albatroz  /biblioteca/charles-baudelaire/l-albatros/  301
+/biblioteca/paul-verlaine/cancao-de-outono  /biblioteca/paul-verlaine/chanson-d-automne/  301

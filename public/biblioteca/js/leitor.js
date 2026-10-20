@@ -953,4 +953,33 @@
       app.insertBefore(caixa, app.firstChild);
     });
   }
+
+  /* ── «Aprender as palavras deste poema» (taioe-cards, PLANO.md, seção 9) ──
+     Os Cards publicam em /cards/data/textos.json os textos que já têm card para todas as
+     palavras; no poema que está na lista, o botão leva aos Cards com o texto escolhido. No
+     poema em português, só para quem lê a Taioé noutra língua (o curso é para quem fala
+     espanhol ou inglês). */
+  function botaoDosCards() {
+    var folha = document.querySelector('article.folha.leitura');
+    var fimParte = $('fim-parte');
+    if (!folha || !fimParte || !window.fetch) return;
+    var aqui = location.pathname.replace(/\/?$/, '/');
+    fetch('/cards/data/textos.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (x) {
+      var txt = ((x && x.textos) || []).filter(function (t) { return t.biblioteca === aqui; })[0];
+      if (!txt) return;
+      if (txt.idioma === 'pt') {
+        var pref = ler('taioe:lingua') || (navigator.language || '').slice(0, 2);
+        if (!pref || pref === 'pt') return;
+      }
+      var p = document.createElement('p');
+      p.className = 'aprender-cards';
+      var a = document.createElement('a');
+      a.className = 'botao';
+      a.href = '/cards/?texto=' + encodeURIComponent(txt.id);
+      a.textContent = txt.tipo === 'prosa' ? 'Aprender as palavras deste texto' : 'Aprender as palavras deste poema';
+      p.appendChild(a);
+      fimParte.parentNode.insertBefore(p, fimParte);
+    }).catch(function () { /* sem os Cards, sem botão */ });
+  }
+  botaoDosCards();
 })();

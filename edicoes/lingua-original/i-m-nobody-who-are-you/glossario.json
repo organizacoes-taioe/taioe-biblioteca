@@ -1,0 +1,321 @@
+{
+  "verbetes": {
+    "i'm": {
+      "partes": [
+        {
+          "lema": "I",
+          "classe": "pronome pessoal",
+          "def": [
+            "Quem fala ou escreve, tratado como sujeito gramatical da frase."
+          ]
+        },
+        {
+          "lema": "be",
+          "classe": "verbo",
+          "forma": "presente do indicativo, 1ª pessoa do singular («am»)",
+          "def": [
+            "Usado para indicar que um predicativo nominal se aplica ao sujeito."
+          ]
+        }
+      ],
+      "nota": "Contração de «I am»: «I’m nobody» é «eu sou ninguém»."
+    },
+    "nobody": {
+      "lema": "nobody",
+      "classe": "substantivo",
+      "def": [
+        "(Informal) Pessoa tida como sem importância."
+      ],
+      "nota": "Aqui não é o pronome «ninguém» («nenhuma pessoa»): é um substantivo, um «ninguém» em carne e osso, alguém sem fama nem importância. O poema o opõe a «somebody»."
+    },
+    "who": {
+      "lema": "who",
+      "classe": "pronome interrogativo",
+      "def": [
+        "Que pessoa ou pessoas; qual pessoa ou quais pessoas."
+      ]
+    },
+    "are": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa (singular ou plural)",
+      "def": [
+        "Usado para indicar que um predicativo nominal se aplica ao sujeito."
+      ],
+      "nota": "«Who are you?» é «quem és?» ou «quem é você?»; «Are you nobody, too?», «és também ninguém?»."
+    },
+    "you": {
+      "lema": "you",
+      "classe": "pronome pessoal",
+      "def": [
+        "A pessoa a quem se fala ou escreve, tratada como sujeito."
+      ],
+      "nota": "Em «Who are you?» o pronome vem depois do verbo, por ser pergunta; é a pessoa a quem o poema se dirige."
+    },
+    "too": {
+      "lema": "too",
+      "classe": "advérbio",
+      "def": [
+        "Também, além disso (marca uma afirmação como igualmente válida à anterior)."
+      ]
+    },
+    "then": {
+      "lema": "then",
+      "classe": "advérbio",
+      "def": [
+        "Nesse caso."
+      ]
+    },
+    "there's": {
+      "partes": [
+        {
+          "lema": "there",
+          "classe": "pronome",
+          "def": [
+            "Usado como sujeito expletivo de «be» no sentido de «existir», com o sujeito semântico, em geral indefinido, posposto."
+          ]
+        },
+        {
+          "lema": "be",
+          "classe": "verbo",
+          "forma": "presente do indicativo, 3ª pessoa do singular («is»)",
+          "def": [
+            "Existir."
+          ]
+        }
+      ],
+      "nota": "Contração de «there is»: «there’s a pair of us» é «há um par de nós»."
+    },
+    "a": {
+      "lema": "a",
+      "classe": "artigo indefinido",
+      "def": [
+        "Um exemplar não específico de (algo); o artigo indefinido."
+      ]
+    },
+    "pair": {
+      "lema": "pair",
+      "classe": "substantivo",
+      "def": [
+        "Duas pessoas numa relação, numa parceria ou numa amizade."
+      ],
+      "nota": "Aqui o «par» são os dois «ninguéns» que se encontraram: o eu do poema e a pessoa a quem ele fala."
+    },
+    "of": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Indica a composição de um substantivo coletivo ou de quantidade."
+      ],
+      "nota": "«A pair of us» é «um par de nós», isto é, nós dois."
+    },
+    "us": {
+      "lema": "us",
+      "classe": "pronome pessoal",
+      "def": [
+        "Eu e pelo menos uma outra pessoa, incluindo a pessoa a quem se fala."
+      ],
+      "nota": "Caso oblíquo de «we» («nós»): «nós», «nos»."
+    },
+    "don't": {
+      "partes": [
+        {
+          "lema": "do",
+          "classe": "verbo auxiliar",
+          "def": [
+            "Marcador sintático nas negações com os modos indicativo e imperativo."
+          ]
+        },
+        {
+          "lema": "not",
+          "classe": "advérbio",
+          "def": [
+            "Nega o sentido do verbo que modifica."
+          ]
+        }
+      ],
+      "nota": "Contração de «do not». «Don’t tell!» é a negação do imperativo: «não conte!», «não diga!»."
+    },
+    "tell": {
+      "lema": "tell",
+      "classe": "verbo",
+      "def": [
+        "Revelar."
+      ],
+      "nota": "Sem complemento, é «não conte (a ninguém)»: o segredo de que os dois são «ninguéns»."
+    },
+    "tell#2": {
+      "lema": "tell",
+      "classe": "verbo",
+      "def": [
+        "Transmitir pela fala; dizer."
+      ],
+      "nota": "«To tell your name» é «dizer o seu nome», gritá-lo aos quatro ventos, como a rã que coaxa."
+    },
+    "they'd": {
+      "partes": [
+        {
+          "lema": "they",
+          "classe": "pronome pessoal",
+          "def": [
+            "Pessoas em geral que estão no poder: as autoridades, as elites, o sistema (governo, polícia, empregadores etc.)."
+          ]
+        },
+        {
+          "lema": "would",
+          "classe": "verbo auxiliar modal",
+          "def": [
+            "Subjuntivo do modal «will»; em geral seguido de infinitivo sem «to»."
+          ]
+        }
+      ],
+      "nota": "Contração de «they would». O «they» não tem referente definido: é «eles», os outros, a sociedade que impõe o que é ser alguém. «They’d banish us» é «eles nos baniriam»."
+    },
+    "banish": {
+      "lema": "banish",
+      "classe": "verbo",
+      "def": [
+        "Mandar (alguém) para longe e proibi-lo de voltar."
+      ]
+    },
+    "know": {
+      "lema": "know",
+      "classe": "verbo",
+      "def": [
+        "Ter conhecimento; estar informado."
+      ],
+      "nota": "«You know» é uma interpolação de fala, «sabe», «você sabe», que busca a cumplicidade de quem ouve."
+    },
+    "how": {
+      "lema": "how",
+      "classe": "advérbio",
+      "def": [
+        "Usado como modificador para indicar surpresa, deleite ou outro sentimento forte numa exclamação."
+      ],
+      "nota": "Exclamativo: «how dreary!» é «que sem graça!», «como é triste!»."
+    },
+    "dreary": {
+      "lema": "dreary",
+      "classe": "adjetivo",
+      "def": [
+        "Sem graça; escuro, sem cor ou sem alegria."
+      ]
+    },
+    "to": {
+      "lema": "to",
+      "classe": "partícula",
+      "def": [
+        "Partícula que marca o verbo seguinte como infinitivo."
+      ],
+      "nota": "«Dreary to be somebody» é «triste ser alguém»; «public … to tell your name» é «público … dizer o seu nome»."
+    },
+    "to#2": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Usado para indicar o alvo ou o destinatário de uma ação."
+      ]
+    },
+    "be": {
+      "lema": "be",
+      "classe": "verbo",
+      "def": [
+        "Usado para indicar que um predicativo nominal se aplica ao sujeito."
+      ]
+    },
+    "somebody": {
+      "lema": "somebody",
+      "classe": "substantivo",
+      "def": [
+        "Pessoa reconhecida ou importante; celebridade."
+      ],
+      "nota": "É o oposto de «nobody»: não «alguém» qualquer, mas um «alguém» de prestígio, uma pessoa de nome."
+    },
+    "public": {
+      "lema": "public",
+      "classe": "adjetivo",
+      "def": [
+        "Que pode ser conhecido ou visto por todos; que acontece sem ocultação, aberto à vista de todos."
+      ]
+    },
+    "like": {
+      "lema": "like",
+      "classe": "preposição",
+      "def": [
+        "Semelhante a; que lembra."
+      ]
+    },
+    "frog": {
+      "lema": "frog",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer anfíbio sem cauda da ordem dos anuros, que em geral salta."
+      ]
+    },
+    "your": {
+      "lema": "your",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a você; relativo a você (um só dono)."
+      ]
+    },
+    "name": {
+      "lema": "name",
+      "classe": "substantivo",
+      "def": [
+        "Palavra ou locução nominal que designa uma pessoa, lugar, classe ou coisa em particular."
+      ]
+    },
+    "the": {
+      "lema": "the",
+      "classe": "artigo definido",
+      "def": [
+        "Usado antes de um sintagma nominal para mostrar que ele é definidamente identificável."
+      ]
+    },
+    "livelong": {
+      "lema": "livelong",
+      "classe": "adjetivo",
+      "def": [
+        "Total, completo, inteiro."
+      ],
+      "nota": "Palavra arcaica e poética que reforça a duração: «the livelong day» é «o dia inteirinho», «o dia todo, sem parar»."
+    },
+    "day": {
+      "lema": "day",
+      "classe": "substantivo",
+      "def": [
+        "O tempo em que o Sol está acima do horizonte e ilumina o céu."
+      ]
+    },
+    "an": {
+      "lema": "a",
+      "classe": "artigo indefinido",
+      "forma": "variante usada diante de som vocálico («an»)",
+      "def": [
+        "Um exemplar não específico de (algo); o artigo indefinido."
+      ]
+    },
+    "admiring": {
+      "lema": "admire",
+      "classe": "verbo",
+      "forma": "particípio presente, usado como adjetivo",
+      "def": [
+        "Olhar com um sentimento elevado de prazer, como algo que desperta aprovação, estima ou reverência."
+      ],
+      "nota": "O «brejo que admira» é o público: a plateia sem rosto, imaginada como um pântano que ouve embevecido o coaxar da rã."
+    },
+    "bog": {
+      "lema": "bog",
+      "classe": "substantivo",
+      "def": [
+        "Área de vegetação em decomposição (em especial musgo de esfagno) que forma um terreno úmido e esponjoso, mole demais para se andar."
+      ],
+      "nota": "O brejo onde a rã coaxa: um lugar lamacento e parado. Aqui é a imagem do público que escuta quem é «somebody»."
+    }
+  },
+  "ocorrencias": {
+    "7.2": "tell#2",
+    "8.1": "to#2"
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "verbetes": {
+    "to": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Indica destino ou posição final: na direção de, de modo a chegar a ou alcançar."
+      ]
+    },
+    "to#2": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Usado para indicar o alvo ou o destinatário de uma ação."
+      ],
+      "nota": "No título, é a dedicatória: o poema é dirigido a Helen («A Helen»)."
+    },
+    "to#3": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Usado para indicar o alvo ou o destinatário de uma ação."
+      ],
+      "nota": "«Is to me» é «é para mim»: a meus olhos, na minha impressão."
+    },
+    "to#4": {
+      "lema": "to",
+      "classe": "partícula",
+      "def": [
+        "Partícula que marca o verbo seguinte como infinitivo."
+      ]
+    },
+    "helen": {
+      "lema": "Helen",
+      "classe": "substantivo próprio",
+      "def": [
+        "(mitologia grega) Filha de Zeus e Leda, tida como a mulher mais bela do mundo; seu rapto por Páris provocou a Guerra de Troia."
+      ],
+      "nota": "É o nome da mulher a quem o poeta se dirige; ele a compara à beleza clássica, e o nome evoca Helena de Troia."
+    },
+    "thy": {
+      "lema": "thy",
+      "classe": "determinante",
+      "def": [
+        "Forma possessiva de «thou»: o que pertence a ti."
+      ],
+      "nota": "«Thou/thee/thy» é a segunda pessoa do singular, antiga e hoje quase só literária ou religiosa: «teu», «tua»."
+    },
+    "beauty": {
+      "lema": "beauty",
+      "classe": "substantivo",
+      "def": [
+        "A qualidade de ser atraente, agradável à vista, bonito."
+      ]
+    },
+    "is": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Usado para indicar que o sujeito tem as qualidades descritas por um adjetivo ou por um sintagma preposicional."
+      ]
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "def": [
+        "A primeira pessoa do singular, como objeto (de um verbo, de uma preposição etc.)."
+      ]
+    },
+    "like": {
+      "lema": "like",
+      "classe": "preposição",
+      "def": [
+        "Semelhante a; que lembra."
+      ]
+    },
+    "those": {
+      "lema": "that",
+      "classe": "determinante",
+      "forma": "plural",
+      "def": [
+        "O que é indicado ou subentendido pelo contexto, sobretudo se mais distante, no espaço, no tempo ou no pensamento, do que o designado por «this»."
+      ],
+      "nota": "«Those Nicean barks» são «aqueles barcos de Niceia»."
+    },
+    "nicean": {
+      "lema": "Nicaean",
+      "classe": "adjetivo",
+      "forma": "grafia alternativa",
+      "def": [
+        "De, vindo de ou relativo a Niceia (hoje Iznik, na Turquia)."
+      ],
+      "nota": "Alusão obscura: costuma-se entender como barcos de Niceia, cidade antiga da Ásia Menor; o que importa no verso é o ar de Antiguidade e de viagem de volta ao lar."
+    },
+    "barks": {
+      "lema": "bark",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "(poético) Embarcação a vela de qualquer tipo."
+      ],
+      "nota": "Aqui «barks» são barcos, e não cascas nem latidos; é variante poética de «barque»."
+    },
+    "of": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Indica o que pertence a, ou existe ou ocorre em, determinado lugar ou tempo."
+      ],
+      "nota": "«Of yore» é «de outrora»."
+    },
+    "yore": {
+      "lema": "yore",
+      "classe": "substantivo",
+      "def": [
+        "(poético) Um tempo há muito passado."
+      ],
+      "nota": "Palavra fóssil, quase só usada na locução «of yore» («de outrora», «de antigamente»)."
+    },
+    "that": {
+      "lema": "that",
+      "classe": "pronome relativo",
+      "def": [
+        "Em uma oração relativa, refere-se a um substantivo mencionado antes; «que», «o qual»."
+      ]
+    },
+    "gently": {
+      "lema": "gently",
+      "classe": "advérbio",
+      "def": [
+        "De modo suave; sem muita força nem rapidez; de leve."
+      ]
+    },
+    "o'er": {
+      "lema": "o'er",
+      "classe": "preposição",
+      "def": [
+        "(literário) Contração de «over»."
+      ],
+      "nota": "Aqui, «sobre»."
+    },
+    "a": {
+      "lema": "a",
+      "classe": "artigo indefinido",
+      "def": [
+        "Artigo indefinido: um exemplar não especificado de algo."
+      ]
+    },
+    "perfumed": {
+      "lema": "perfumed",
+      "classe": "adjetivo",
+      "def": [
+        "Perfumado: a que se deu um cheiro agradável."
+      ]
+    },
+    "sea": {
+      "lema": "sea",
+      "classe": "substantivo",
+      "def": [
+        "Grande massa de água salgada."
+      ]
+    },
+    "the": {
+      "lema": "the",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido: mostra que o sintagma nominal seguinte é identificável de modo definido."
+      ]
+    },
+    "weary": {
+      "lema": "weary",
+      "classe": "adjetivo",
+      "def": [
+        "Com as forças esgotadas pelo trabalho ou pelo esforço; cansado; fatigado."
+      ]
+    },
+    "wayworn": {
+      "lema": "wayworn",
+      "classe": "adjetivo",
+      "def": [
+        "Cansado de viajar."
+      ]
+    },
+    "wanderer": {
+      "lema": "wanderer",
+      "classe": "substantivo",
+      "def": [
+        "Aquele que vagueia, que viaja sem rumo."
+      ]
+    },
+    "bore": {
+      "lema": "bear",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(transitivo) Carregar ou transportar, em sentido literal ou figurado."
+      ],
+      "nota": "O sujeito é «barks» (os barcos): os barcos que levaram o viajante cansado «à sua própria terra natal». O objeto («wanderer») vem antes do verbo."
+    },
+    "his": {
+      "lema": "his",
+      "classe": "determinante",
+      "def": [
+        "Pertencente a ele."
+      ]
+    },
+    "own": {
+      "lema": "own",
+      "classe": "adjetivo",
+      "def": [
+        "Pertencente a; possuído por; próprio de. Muitas vezes marca um possessivo como reflexivo, referindo-se ao sujeito da oração."
+      ],
+      "nota": "«His own native shore» é «sua própria terra natal»."
+    },
+    "native": {
+      "lema": "native",
+      "classe": "adjetivo",
+      "def": [
+        "Pertencente a alguém por nascimento ou ascendência."
+      ]
+    },
+    "shore": {
+      "lema": "shore",
+      "classe": "substantivo",
+      "def": [
+        "Terra que margeia uma massa de água não corrente, como um oceano, um lago ou uma lagoa."
+      ],
+      "nota": "Aqui, a «shore» natal é a terra de origem do viajante: a pátria."
+    },
+    "on": {
+      "lema": "on",
+      "classe": "preposição",
+      "def": [
+        "Em posição sobre a superfície superior de, tocando-a por cima."
+      ],
+      "nota": "«On desperate seas» é «sobre mares desesperados»: o poeta vagou sobre eles."
+    },
+    "desperate": {
+      "lema": "desperate",
+      "classe": "adjetivo",
+      "def": [
+        "Sem esperança, dando pouca razão para esperar; que causa desespero; extremamente perigoso."
+      ]
+    },
+    "seas": {
+      "lema": "sea",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Grande massa de água salgada."
+      ]
+    },
+    "long": {
+      "lema": "long",
+      "classe": "advérbio",
+      "def": [
+        "Por muito tempo."
+      ]
+    },
+    "wont": {
+      "lema": "wont",
+      "classe": "adjetivo",
+      "def": [
+        "Acostumado (a algo); habituado ou propenso (a fazer algo)."
+      ],
+      "nota": "Arcaico: «long wont to roam» descreve o poeta, «há muito acostumado a vaguear»."
+    },
+    "roam": {
+      "lema": "roam",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Vaguear ou viajar livremente, sem destino específico."
+      ]
+    },
+    "hyacinth": {
+      "lema": "hyacinth",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer planta bulbosa do gênero Hyacinthus, nativa do Mediterrâneo e da África do Sul."
+      ],
+      "nota": "«Hyacinth hair» são os cabelos de cachos escuros como o jacinto, imagem comum na poesia grega antiga."
+    },
+    "hair": {
+      "lema": "hair",
+      "classe": "substantivo",
+      "def": [
+        "Especificamente, o conjunto de pelos que crescem no alto e nos lados da cabeça humana, a partir do couro cabeludo."
+      ]
+    },
+    "classic": {
+      "lema": "classic",
+      "classe": "adjetivo",
+      "def": [
+        "Dos antigos gregos e romanos, ou a eles relativo; em especial dos autores de primeira categoria ou da época em que sua melhor literatura foi produzida."
+      ],
+      "nota": "«Classic face» é o rosto de traços como os da arte greco-romana."
+    },
+    "face": {
+      "lema": "face",
+      "classe": "substantivo",
+      "def": [
+        "A parte da frente da cabeça de um humano ou de outro animal, com os olhos, o nariz e a boca, e a área ao redor."
+      ]
+    },
+    "naiad": {
+      "lema": "naiad",
+      "classe": "substantivo",
+      "def": [
+        "(mitologia grega) Divindade feminina (ninfa) associada à água, especialmente a uma fonte, a um riacho ou a outra água doce."
+      ],
+      "nota": "As náiades eram as ninfas das águas doces."
+    },
+    "airs": {
+      "lema": "air",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Uma sensação ou impressão; em particular, a de elegância, graciosidade ou qualidade."
+      ],
+      "nota": "Aqui não são «ares» afetados: «Naiad airs» é o porte gracioso, de ninfa."
+    },
+    "have": {
+      "lema": "have",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "(verbo auxiliar) Usado para formar o aspecto perfeito."
+      ],
+      "nota": "«Have brought» é o pretérito perfeito composto: «trouxeram»."
+    },
+    "brought": {
+      "lema": "bring",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Transportar em direção a alguém ou a algum lugar."
+      ]
+    },
+    "home": {
+      "lema": "home",
+      "classe": "advérbio",
+      "def": [
+        "Para a casa de alguém: para o lugar de residência ou para o lugar habitual de alguém."
+      ]
+    },
+    "glory": {
+      "lema": "glory",
+      "classe": "substantivo",
+      "def": [
+        "Honra, admiração ou distinção concedida por consenso comum a uma pessoa ou coisa; boa reputação; renome."
+      ],
+      "nota": "«The glory that was Greece» é «a glória que foi a Grécia»: a Grécia antiga, o passado."
+    },
+    "was": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "pretérito do indicativo, 1ª e 3ª pessoas do singular",
+      "def": [
+        "Usado para declarar que o sujeito e o predicativo são idênticos ou equivalentes."
+      ]
+    },
+    "greece": {
+      "lema": "Greece",
+      "classe": "substantivo próprio",
+      "def": [
+        "País do sudeste da Europa, cuja capital é Atenas; oficialmente República Helênica."
+      ],
+      "nota": "Aqui, a Grécia antiga, berço da arte e da poesia."
+    },
+    "and": {
+      "lema": "and",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção coordenativa que liga dois elementos, a serem tomados juntos ou em adição um ao outro."
+      ]
+    },
+    "grandeur": {
+      "lema": "grandeur",
+      "classe": "substantivo",
+      "def": [
+        "O estado de ser grandioso ou esplêndido; magnificência."
+      ]
+    },
+    "rome": {
+      "lema": "Rome",
+      "classe": "substantivo próprio",
+      "def": [
+        "Cidade, capital da Itália, às margens do Tibre; antiga capital do Império Romano."
+      ],
+      "nota": "Aqui, a Roma antiga e seu império."
+    },
+    "lo": {
+      "lema": "lo",
+      "classe": "interjeição",
+      "def": [
+        "(arcaico) Olhe; veja; eis (em sentido imperativo)."
+      ]
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Contido por; dentro de."
+      ]
+    },
+    "yon": {
+      "lema": "yon",
+      "classe": "determinante",
+      "def": [
+        "(antiquado ou dialetal) Distante, mas à vista; aquele (que está) logo ali."
+      ],
+      "nota": "«Yon window-niche» é «aquele nicho de janela, ali adiante»."
+    },
+    "brilliant": {
+      "lema": "brilliant",
+      "classe": "adjetivo",
+      "def": [
+        "Que brilha intensamente."
+      ]
+    },
+    "window-niche": {
+      "partes": [
+        {
+          "lema": "window",
+          "classe": "substantivo",
+          "def": [
+            "Abertura, em geral coberta por um ou mais vidros transparentes, que deixa entrar luz e ar de fora em um edifício ou veículo."
+          ]
+        },
+        {
+          "lema": "niche",
+          "classe": "substantivo",
+          "def": [
+            "Cavidade, reentrância ou recesso, geralmente na espessura de uma parede, destinado a uma estátua, um busto ou outro ornamento erguido."
+          ]
+        }
+      ],
+      "nota": "O «nicho de janela» é a reentrância da parede onde a figura aparece, de pé, como uma estátua num nicho, contra a luz."
+    },
+    "how": {
+      "lema": "how",
+      "classe": "advérbio",
+      "def": [
+        "(exclamativo) Usado como modificador para indicar surpresa, deleite ou outros sentimentos fortes em uma exclamação."
+      ],
+      "nota": "Exclamativo: «how statue-like...» é «como (te vejo) tão semelhante a uma estátua!»."
+    },
+    "statue-like": {
+      "partes": [
+        {
+          "lema": "statue",
+          "classe": "substantivo",
+          "def": [
+            "Obra de arte tridimensional, em geral representando uma pessoa ou um animal, criada por escultura, entalhe, moldagem ou fundição."
+          ]
+        },
+        {
+          "lema": "-like",
+          "classe": "sufixo",
+          "def": [
+            "Que se assemelha a; que tem algumas das características de (usado para formar adjetivos a partir de substantivos)."
+          ]
+        }
+      ],
+      "nota": "«Statue-like» é «como uma estátua»: imóvel, de pé, no nicho."
+    },
+    "i": {
+      "lema": "I",
+      "classe": "pronome pessoal",
+      "def": [
+        "O falante ou escritor, referido como sujeito gramatical de uma frase."
+      ]
+    },
+    "see": {
+      "lema": "see",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Perceber ou detectar alguém ou algo com os olhos, ou como que pela vista."
+      ]
+    },
+    "thee": {
+      "lema": "thee",
+      "classe": "pronome pessoal",
+      "def": [
+        "Caso oblíquo (objeto) e reflexivo de «thou»."
+      ],
+      "nota": "«Thou/thee/thy» é a segunda pessoa do singular, antiga e hoje quase só literária ou religiosa. Aqui o poeta fala diretamente a Helen: «te», «a ti»."
+    },
+    "stand": {
+      "lema": "stand",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Sustentar-se sobre os pés, em posição ereta."
+      ],
+      "nota": "«I see thee stand» é «vejo-te de pé»."
+    },
+    "agate": {
+      "lema": "agate",
+      "classe": "substantivo",
+      "def": [
+        "Mineral silicato semitransparente, não cristalizado, e pedra semipreciosa, que apresenta vários matizes no mesmo exemplar."
+      ],
+      "nota": "A lâmpada «de ágata» é feita dessa pedra translúcida."
+    },
+    "lamp": {
+      "lema": "lamp",
+      "classe": "substantivo",
+      "def": [
+        "Dispositivo que contém óleo, queimado por um pavio para iluminar; lamparina a óleo."
+      ],
+      "nota": "É a lamparina do mito de Psyche, que a ergue para ver o rosto de Eros adormecido."
+    },
+    "within": {
+      "lema": "within",
+      "classe": "preposição",
+      "def": [
+        "Na parte interna, no espaço; fisicamente dentro de."
+      ],
+      "nota": "«Within thy hand» é «em tua mão»."
+    },
+    "hand": {
+      "lema": "hand",
+      "classe": "substantivo",
+      "def": [
+        "A parte do membro anterior abaixo do antebraço ou do pulso, nos humanos e em outros primatas, e a parte correspondente em muitos outros animais."
+      ]
+    },
+    "ah": {
+      "lema": "ah",
+      "classe": "interjeição",
+      "def": [
+        "Expressão de alívio, descontração, conforto, confusão, compreensão, maravilhamento, assombro etc., segundo a entonação com que é proferida."
+      ]
+    },
+    "psyche": {
+      "lema": "Psyche",
+      "classe": "substantivo próprio",
+      "def": [
+        "(mitologia greco-romana) A personificação da alma; originalmente uma princesa mortal que se casou com Eros (Cupido), deus do amor, e foi divinizada."
+      ],
+      "nota": "Em grego, «psyche» é «alma». Helen é chamada de Psyche: figura da alma, vinda de uma terra ideal."
+    },
+    "from": {
+      "lema": "from",
+      "classe": "preposição",
+      "def": [
+        "Usado para indicar fonte ou procedência."
+      ]
+    },
+    "regions": {
+      "lema": "region",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Qualquer parte considerável e contínua de um espaço ou superfície; em especial, uma extensão de terra ou de mar de tamanho considerável, mas indefinido; um país; um distrito."
+      ]
+    },
+    "which": {
+      "lema": "which",
+      "classe": "pronome relativo",
+      "def": [
+        "Em uma oração relativa não restritiva, refere-se a algo mencionado antes; «que», «as quais»."
+      ],
+      "nota": "Refere-se a «regions»: «as regiões que são Terra Santa»."
+    },
+    "are": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Usado para indicar que um predicativo nominal se aplica ao sujeito."
+      ]
+    },
+    "holy": {
+      "lema": "holy",
+      "classe": "adjetivo",
+      "def": [
+        "Dedicado a um propósito religioso ou a um deus."
+      ]
+    },
+    "land": {
+      "lema": "land",
+      "classe": "substantivo",
+      "def": [
+        "Um país ou uma região."
+      ],
+      "nota": "«Holy Land» é a Terra Santa, em geral a Palestina bíblica; aqui, figuradamente, a terra sagrada de onde Psyche vem."
+    }
+  },
+  "ocorrencias": {
+    "0.1": "to#2",
+    "1.5": "to#3",
+    "6.6": "to#4"
+  }
+}

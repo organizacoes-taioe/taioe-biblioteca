@@ -1,0 +1,3785 @@
+{
+  "verbetes": {
+    "the": {
+      "lema": "the",
+      "classe": "artigo definido",
+      "def": [
+        "Usado diante de um substantivo ou sintagma nominal já conhecido ou determinado."
+      ]
+    },
+    "raven": {
+      "lema": "raven",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer das várias espécies, em geral grandes, de aves do gênero «Corvus», de plumagem preta e lustrosa; em especial o corvo-comum."
+      ]
+    },
+    "once": {
+      "lema": "once",
+      "classe": "advérbio",
+      "def": [
+        "Antigamente; em algum período do passado."
+      ],
+      "nota": "«Once upon a midnight» imita o «once upon a time» dos contos: numa certa meia-noite."
+    },
+    "upon": {
+      "lema": "upon",
+      "classe": "preposição",
+      "def": [
+        "Em registro mais elevado ou formal, alternativa a «on» (sobre, em) na maior parte dos usos."
+      ]
+    },
+    "a": {
+      "lema": "a",
+      "classe": "artigo indefinido",
+      "def": [
+        "Refere-se a uma coisa ou pessoa ainda não determinada, uma entre várias."
+      ]
+    },
+    "midnight": {
+      "lema": "midnight",
+      "classe": "substantivo",
+      "def": [
+        "O meio da noite: a hora que fica à mesma distância do pôr do sol e do nascer do sol.",
+        "Doze horas da noite, em ponto."
+      ]
+    },
+    "dreary": {
+      "lema": "dreary",
+      "classe": "adjetivo",
+      "def": [
+        "Sombrio, escuro, sem cor ou sem alegria."
+      ],
+      "nota": "Vem depois do substantivo, como é comum na poesia: «uma meia-noite sombria»."
+    },
+    "while": {
+      "lema": "while",
+      "classe": "conjunção",
+      "def": [
+        "Durante o tempo em que; enquanto."
+      ]
+    },
+    "i": {
+      "lema": "I",
+      "classe": "pronome pessoal",
+      "def": [
+        "A pessoa que fala ou escreve, como sujeito da frase: eu."
+      ]
+    },
+    "pondered": {
+      "lema": "ponder",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Considerar algo com cuidado e minúcia."
+      ]
+    },
+    "weak": {
+      "lema": "weak",
+      "classe": "adjetivo",
+      "def": [
+        "Que carece de força (em geral física) ou de capacidade."
+      ]
+    },
+    "and": {
+      "lema": "and",
+      "classe": "conjunção",
+      "def": [
+        "Liga dois elementos que devem ser tomados juntos ou um em acréscimo ao outro."
+      ]
+    },
+    "weary": {
+      "lema": "weary",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem as forças esgotadas pelo trabalho ou pelo esforço; cansado, fatigado."
+      ]
+    },
+    "over": {
+      "lema": "over",
+      "classe": "preposição",
+      "def": [
+        "Sobre, acima de; expressa relação espacial ou movimento."
+      ],
+      "nota": "«Pondered over» = «meditei sobre»: debruçado sobre os livros e pensando neles."
+    },
+    "many": {
+      "lema": "many",
+      "classe": "determinante",
+      "def": [
+        "Diante de substantivo contável: grande número indeterminado de."
+      ],
+      "nota": "«Many a quaint and curious volume» é a construção literária com o singular: «muitos volumes curiosos e estranhos»."
+    },
+    "quaint": {
+      "lema": "quaint",
+      "classe": "adjetivo",
+      "def": [
+        "Agradavelmente incomum; sobretudo, com um charme de coisa antiga."
+      ]
+    },
+    "curious": {
+      "lema": "curious",
+      "classe": "adjetivo",
+      "def": [
+        "Que leva a fazer perguntas a seu respeito; um tanto estranho, fora do comum, singular."
+      ]
+    },
+    "volume": {
+      "lema": "volume",
+      "classe": "substantivo",
+      "def": [
+        "Livro encadernado."
+      ]
+    },
+    "of": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Liga um substantivo a outro, indicando matéria, assunto, composição, origem ou posse."
+      ]
+    },
+    "forgotten": {
+      "lema": "forgotten",
+      "classe": "adjetivo",
+      "def": [
+        "De que se perdeu o conhecimento; que já não se lembra."
+      ]
+    },
+    "lore": {
+      "lema": "lore",
+      "classe": "substantivo",
+      "def": [
+        "Conjunto de fatos e tradições sobre um assunto, acumulados ao longo do tempo pelo estudo ou pela experiência; saber tradicional."
+      ]
+    },
+    "nodded": {
+      "lema": "nod",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Cair aos poucos no sono; cochilar."
+      ],
+      "nota": "O sentido de «acenar com a cabeça» também existe, mas aqui é o da cabeça que pende de sono."
+    },
+    "nearly": {
+      "lema": "nearly",
+      "classe": "advérbio",
+      "def": [
+        "Quase; de modo muito aproximado."
+      ]
+    },
+    "napping": {
+      "lema": "nap",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Tirar um cochilo; dormir por pouco tempo, em especial de dia."
+      ]
+    },
+    "suddenly": {
+      "lema": "suddenly",
+      "classe": "advérbio",
+      "def": [
+        "De repente; que acontece depressa e com pouco ou nenhum aviso."
+      ]
+    },
+    "there": {
+      "lema": "there",
+      "classe": "advérbio",
+      "def": [
+        "Neste mundo: usado para dizer que alguém ou algo existe."
+      ],
+      "nota": "Aqui é o «there» que só abre a frase («there came a tapping» = «veio um toque»); não indica lugar."
+    },
+    "came": {
+      "lema": "come",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Chegar.",
+        "Aparecer; manifestar-se."
+      ]
+    },
+    "tapping": {
+      "lema": "tapping",
+      "classe": "substantivo",
+      "def": [
+        "Ato de bater de leve em alguma coisa; pancadinha."
+      ]
+    },
+    "as": {
+      "lema": "as",
+      "classe": "conjunção",
+      "def": [
+        "Do mesmo modo que; da maneira que."
+      ],
+      "nota": "Em «as of some one gently rapping» e «as if», liga a comparação: «como de», «como se»."
+    },
+    "some": {
+      "lema": "some",
+      "classe": "determinante",
+      "def": [
+        "Certo; algum, não especificado ou desconhecido."
+      ]
+    },
+    "one": {
+      "lema": "one",
+      "classe": "pronome indefinido",
+      "def": [
+        "Qualquer pessoa."
+      ],
+      "nota": "«Some one» está escrito em duas palavras: «alguém»."
+    },
+    "gently": {
+      "lema": "gently",
+      "classe": "advérbio",
+      "def": [
+        "De modo suave, com delicadeza."
+      ]
+    },
+    "rapping": {
+      "lema": "rap",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Bater com golpes secos, em especial com os nós dos dedos; bater à porta."
+      ]
+    },
+    "at": {
+      "lema": "at",
+      "classe": "preposição",
+      "def": [
+        "Em, perto de, nas imediações de (um lugar)."
+      ]
+    },
+    "my": {
+      "lema": "my",
+      "classe": "determinante possessivo",
+      "def": [
+        "Determinante possessivo da primeira pessoa do singular: meu."
+      ]
+    },
+    "chamber": {
+      "lema": "chamber",
+      "classe": "substantivo",
+      "def": [
+        "Aposento privado de uma pessoa; quarto de dormir."
+      ],
+      "nota": "«My chamber door» é a porta do quarto do narrador."
+    },
+    "door": {
+      "lema": "door",
+      "classe": "substantivo",
+      "def": [
+        "Abertura de entrada em um edifício, cômodo ou veículo, em geral uma peça rígida plana que se move sobre dobradiças."
+      ]
+    },
+    "tis": {
+      "lema": "'tis",
+      "classe": "contração",
+      "def": [
+        "Contração de «it is» («é»); forma literária ou arcaica."
+      ]
+    },
+    "visitor": {
+      "lema": "visitor",
+      "classe": "substantivo",
+      "def": [
+        "Quem visita outra pessoa; quem está hospedado como convidado."
+      ]
+    },
+    "muttered": {
+      "lema": "mutter",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Dizer algo em voz baixa, de modo indistinto, com os lábios quase fechados; falar entre os dentes."
+      ]
+    },
+    "only": {
+      "lema": "only",
+      "classe": "advérbio",
+      "def": [
+        "Não mais que; apenas."
+      ],
+      "nota": "«Only this, and nothing more» = «só isso, e nada mais»."
+    },
+    "this": {
+      "lema": "this",
+      "classe": "pronome demonstrativo",
+      "def": [
+        "A coisa, o item etc. que se indica."
+      ]
+    },
+    "nothing": {
+      "lema": "nothing",
+      "classe": "pronome",
+      "def": [
+        "Nenhuma coisa; coisa alguma."
+      ]
+    },
+    "more": {
+      "lema": "more",
+      "classe": "determinante",
+      "def": [
+        "Adicional; a mais."
+      ],
+      "nota": "«Nothing more» = «nada mais»."
+    },
+    "ah": {
+      "lema": "ah",
+      "classe": "interjeição",
+      "def": [
+        "Expressão de alívio, descanso, conforto, confusão, compreensão, admiração, assombro etc., conforme a entonação."
+      ]
+    },
+    "distinctly": {
+      "lema": "distinctly",
+      "classe": "advérbio",
+      "def": [
+        "De modo distinto; com nitidez."
+      ]
+    },
+    "remember": {
+      "lema": "remember",
+      "classe": "verbo",
+      "def": [
+        "Trazer à memória; ter na memória a imagem de algo."
+      ]
+    },
+    "it": {
+      "lema": "it",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal neutro da terceira pessoa do singular, usado para objeto inanimado, entidade abstrata ou ser vivo não humano."
+      ]
+    },
+    "was": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "pretérito do indicativo, 1ª e 3ª pessoas do singular",
+      "def": [
+        "Indicar que o sujeito tem as qualidades descritas por um adjetivo ou locução preposicional."
+      ]
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Indica lugar, inclusão ou posição dentro de limites espaciais, temporais ou abstratos."
+      ]
+    },
+    "bleak": {
+      "lema": "bleak",
+      "classe": "adjetivo",
+      "def": [
+        "Desolado e exposto; varrido por ventos frios."
+      ]
+    },
+    "december": {
+      "lema": "December",
+      "classe": "substantivo próprio",
+      "def": [
+        "O décimo segundo e último mês do calendário gregoriano, depois de novembro e antes de janeiro."
+      ]
+    },
+    "each": {
+      "lema": "each",
+      "classe": "determinante",
+      "def": [
+        "Cada: todos os exemplares do que o substantivo nomeia, vistos um a um, como itens separados."
+      ]
+    },
+    "separate": {
+      "lema": "separate",
+      "classe": "adjetivo",
+      "def": [
+        "À parte do resto; não ligado nem preso a mais nada."
+      ]
+    },
+    "dying": {
+      "lema": "dying",
+      "classe": "adjetivo",
+      "def": [
+        "Em declínio, em fim; que está chegando ao término."
+      ]
+    },
+    "ember": {
+      "lema": "ember",
+      "classe": "substantivo",
+      "def": [
+        "Pedaço de carvão ou de lenha em brasa; brasa."
+      ]
+    },
+    "wrought": {
+      "lema": "work",
+      "classe": "verbo",
+      "forma": "pretérito (arcaico)",
+      "def": [
+        "Dar forma a um material; moldar, trabalhar."
+      ],
+      "nota": "Cada brasa que morria desenhava no chão o seu vulto fantasmagórico. «Wrought» é hoje forma rara do pretérito de «work»."
+    },
+    "its": {
+      "lema": "its",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a ele ou ela (coisa ou animal); seu."
+      ]
+    },
+    "ghost": {
+      "lema": "ghost",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer semelhança tênue e sombria; imagem sem substância."
+      ],
+      "nota": "Aqui, o vulto fraco que a brasa projeta no chão, e não um fantasma de verdade."
+    },
+    "floor": {
+      "lema": "floor",
+      "classe": "substantivo",
+      "def": [
+        "Superfície inferior interna de uma casa ou edifício; a superfície que sustenta um cômodo; chão."
+      ]
+    },
+    "eagerly": {
+      "lema": "eagerly",
+      "classe": "advérbio",
+      "def": [
+        "De modo ávido, ansioso."
+      ]
+    },
+    "wished": {
+      "lema": "wish",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Desejar; querer."
+      ],
+      "nota": "«Eagerly I wished the morrow» = «eu ansiava que chegasse o amanhã»."
+    },
+    "morrow": {
+      "lema": "morrow",
+      "classe": "substantivo",
+      "def": [
+        "O dia seguinte."
+      ],
+      "nota": "Palavra arcaica ou poética; hoje se diria «tomorrow»."
+    },
+    "vainly": {
+      "lema": "vainly",
+      "classe": "advérbio",
+      "def": [
+        "Em vão; sem resultado."
+      ]
+    },
+    "had": {
+      "lema": "have",
+      "classe": "verbo auxiliar",
+      "forma": "pretérito",
+      "def": [
+        "Usado, com o particípio passado, para formar o mais-que-perfeito: uma ação anterior a um ponto do passado."
+      ]
+    },
+    "sought": {
+      "lema": "seek",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Tentar; procurar fazer algo."
+      ],
+      "nota": "«Had sought to borrow» = «tinha procurado obter»."
+    },
+    "to": {
+      "lema": "to",
+      "classe": "partícula",
+      "def": [
+        "Partícula que marca o verbo seguinte como infinitivo."
+      ]
+    },
+    "borrow": {
+      "lema": "borrow",
+      "classe": "verbo",
+      "def": [
+        "Receber algo de alguém por um tempo, com a expectativa de devolvê-lo."
+      ],
+      "nota": "Em sentido figurado: pedir aos livros, como se emprestado, o alívio da dor."
+    },
+    "from": {
+      "lema": "from",
+      "classe": "preposição",
+      "def": [
+        "Indica origem ou procedência."
+      ]
+    },
+    "books": {
+      "lema": "book",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Obra escrita ou impressa reunida em volume; livro."
+      ]
+    },
+    "surcease": {
+      "lema": "surcease",
+      "classe": "substantivo",
+      "def": [
+        "Cessação; fim.",
+        "Pausa, intervalo."
+      ],
+      "nota": "Palavra literária e rara. «Surcease of sorrow» = «trégua da tristeza», o descanso da dor."
+    },
+    "sorrow": {
+      "lema": "sorrow",
+      "classe": "substantivo",
+      "def": [
+        "Infelicidade, aflição, dor."
+      ]
+    },
+    "for": {
+      "lema": "for",
+      "classe": "preposição",
+      "def": [
+        "Por causa de; em razão de."
+      ],
+      "nota": "«Sorrow for the lost Lenore» = «dor pela perdida Lenore»."
+    },
+    "lost": {
+      "lema": "lost",
+      "classe": "adjetivo",
+      "def": [
+        "De que se abriu mão ou que já não se possui; perdido."
+      ],
+      "nota": "«The lost Lenore» é a Lenore que o narrador perdeu, porque morreu."
+    },
+    "lenore": {
+      "lema": "Lenore",
+      "wiki": null,
+      "classe": "substantivo próprio",
+      "def": [
+        "Nome de mulher."
+      ],
+      "nota": "O nome da mulher amada que morreu. No poema rima com «more», «before» e «nevermore»."
+    },
+    "rare": {
+      "lema": "rare",
+      "classe": "adjetivo",
+      "def": [
+        "Muito pouco comum; escasso."
+      ],
+      "nota": "Aqui, de qualidade excepcional."
+    },
+    "radiant": {
+      "lema": "radiant",
+      "classe": "adjetivo",
+      "def": [
+        "Que irradia luz ou calor.",
+        "(Figurado) De beleza marcante."
+      ]
+    },
+    "maiden": {
+      "lema": "maiden",
+      "classe": "substantivo",
+      "def": [
+        "Moça ou mulher jovem e solteira."
+      ]
+    },
+    "whom": {
+      "lema": "whom",
+      "classe": "pronome relativo",
+      "def": [
+        "Usado para se referir a uma pessoa ou pessoas já mencionadas; a quem, que."
+      ]
+    },
+    "angels": {
+      "lema": "angel",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Mensageiro incorpóreo, santo ou semidivino, de uma divindade, em geral representado como figura jovem, alada e de vestes soltas."
+      ]
+    },
+    "name": {
+      "lema": "name",
+      "classe": "verbo",
+      "def": [
+        "Dar um nome a."
+      ],
+      "nota": "«Whom the angels name Lenore» = «a quem os anjos chamam Lenore»."
+    },
+    "nameless": {
+      "lema": "nameless",
+      "classe": "adjetivo",
+      "def": [
+        "Que não tem nome."
+      ],
+      "nota": "Aqui na terra, Lenore já não tem nome; só os anjos a chamam por ele."
+    },
+    "here": {
+      "lema": "here",
+      "classe": "advérbio",
+      "def": [
+        "Neste lugar (percebido como próximo de quem fala)."
+      ]
+    },
+    "evermore": {
+      "lema": "evermore",
+      "classe": "advérbio",
+      "def": [
+        "Sempre; para sempre; eternamente."
+      ],
+      "nota": "«For evermore» = «para sempre»."
+    },
+    "silken": {
+      "lema": "silken",
+      "classe": "adjetivo",
+      "def": [
+        "Feito de seda."
+      ],
+      "nota": "Descreve a cortina de seda, que farfalha."
+    },
+    "sad": {
+      "lema": "sad",
+      "classe": "adjetivo",
+      "def": [
+        "Emocionalmente negativo; triste."
+      ]
+    },
+    "uncertain": {
+      "lema": "uncertain",
+      "classe": "adjetivo",
+      "def": [
+        "Intermitente ou instável; irregular."
+      ]
+    },
+    "rustling": {
+      "lema": "rustling",
+      "classe": "substantivo",
+      "def": [
+        "Série de farfalhares (ruídos leves e secos, como o do movimento de folhas secas)."
+      ]
+    },
+    "purple": {
+      "lema": "purple",
+      "classe": "adjetivo",
+      "def": [
+        "De cor púrpura, entre o vermelho e o azul."
+      ]
+    },
+    "curtain": {
+      "lema": "curtain",
+      "classe": "substantivo",
+      "def": [
+        "Pedaço de pano que cobre uma janela, uma cama etc., para dar privacidade e impedir a entrada de luz."
+      ]
+    },
+    "thrilled": {
+      "lema": "thrill",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(Fazer) tremer ou estremecer."
+      ],
+      "nota": "Aqui, o calafrio de medo: a cortina fez o narrador estremecer."
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "def": [
+        "Primeira pessoa do singular, como objeto (de verbo, preposição etc.): me, mim."
+      ]
+    },
+    "filled": {
+      "lema": "fill",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Fazer ficar cheio; encher."
+      ]
+    },
+    "with": {
+      "lema": "with",
+      "classe": "preposição",
+      "def": [
+        "Afetado por (certa emoção ou condição)."
+      ],
+      "nota": "«Filled me with terrors» = «encheu-me de terrores»."
+    },
+    "fantastic": {
+      "lema": "fantastic",
+      "classe": "adjetivo",
+      "def": [
+        "Que existe na fantasia ou é feito dela; relativo à fantasia; fantasioso."
+      ],
+      "nota": "«Fantastic terrors» são terrores nascidos da imaginação, sem causa real."
+    },
+    "terrors": {
+      "lema": "terror",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Pavor, medo intenso."
+      ]
+    },
+    "never": {
+      "lema": "never",
+      "classe": "advérbio",
+      "def": [
+        "Em nenhum momento; em nenhuma ocasião."
+      ]
+    },
+    "felt": {
+      "lema": "feel",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Experimentar uma emoção ou outro estado mental."
+      ]
+    },
+    "before": {
+      "lema": "before",
+      "classe": "advérbio",
+      "def": [
+        "Em tempo anterior; antes."
+      ]
+    },
+    "so": {
+      "lema": "so",
+      "classe": "conjunção",
+      "def": [
+        "Em consequência; por esse motivo."
+      ],
+      "nota": "«So that now» abre uma consequência: «de modo que agora»."
+    },
+    "that": {
+      "lema": "that",
+      "classe": "conjunção",
+      "def": [
+        "Introduz uma oração subordinada, por exemplo a que serve de objeto de um verbo de dizer, crer, perceber etc."
+      ],
+      "nota": "Em «so that now» e «that I scarce was sure», introduz a consequência: «de modo que», «tanto que»."
+    },
+    "now": {
+      "lema": "now",
+      "classe": "advérbio",
+      "def": [
+        "No momento presente; agora."
+      ]
+    },
+    "still": {
+      "lema": "still",
+      "classe": "verbo",
+      "def": [
+        "Acalmar, aquietar."
+      ],
+      "nota": "«To still the beating of my heart» = «para aquietar as batidas do meu coração»."
+    },
+    "beating": {
+      "lema": "beating",
+      "classe": "substantivo",
+      "def": [
+        "A pulsação do coração."
+      ]
+    },
+    "heart": {
+      "lema": "heart",
+      "classe": "substantivo",
+      "def": [
+        "Órgão muscular que bombeia o sangue pelo corpo, tradicionalmente tido como a sede das emoções; coração."
+      ]
+    },
+    "stood": {
+      "lema": "stand",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Manter-se de pé, em posição ereta."
+      ]
+    },
+    "repeating": {
+      "lema": "repeat",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Fazer ou dizer outra vez (e outra)."
+      ]
+    },
+    "entreating": {
+      "lema": "entreat",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Pedir com empenho; implorar (algo)."
+      ]
+    },
+    "entrance": {
+      "lema": "entrance",
+      "classe": "substantivo",
+      "def": [
+        "Direito de entrar."
+      ],
+      "nota": "«Entreating entrance» = «pedindo para entrar»."
+    },
+    "late": {
+      "lema": "late",
+      "classe": "adjetivo",
+      "def": [
+        "Perto do fim do dia."
+      ],
+      "nota": "«Some late visitor» = «algum visitante de hora avançada»: alguém que chega tarde da noite."
+    },
+    "is": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Declarar que o sujeito e o complemento são idênticos ou equivalentes."
+      ]
+    },
+    "presently": {
+      "lema": "presently",
+      "classe": "advérbio",
+      "def": [
+        "Em pouco tempo; logo."
+      ],
+      "nota": "Em narrativa no passado, equivale a «pouco depois»."
+    },
+    "soul": {
+      "lema": "soul",
+      "classe": "substantivo",
+      "def": [
+        "O espírito ou a essência de uma pessoa, tida como feita de seus pensamentos e personalidade e muitas vezes como capaz de viver depois da morte; alma."
+      ]
+    },
+    "grew": {
+      "lema": "grow",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Passar a ter, com o tempo, uma condição ou qualidade; tornar-se."
+      ]
+    },
+    "stronger": {
+      "lema": "strong",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Determinado; que não cede; firme."
+      ],
+      "nota": "«My soul grew stronger» = a alma do narrador ganhou coragem."
+    },
+    "hesitating": {
+      "lema": "hesitate",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Parar ou fazer uma pausa diante de uma decisão ou ação; ficar em suspenso ou em dúvida."
+      ]
+    },
+    "then": {
+      "lema": "then",
+      "classe": "advérbio",
+      "def": [
+        "Naquele momento.",
+        "Logo depois."
+      ]
+    },
+    "no": {
+      "lema": "no",
+      "classe": "advérbio",
+      "def": [
+        "Não, de modo nenhum; usado diante de comparativos."
+      ],
+      "nota": "«No longer» = «não mais»."
+    },
+    "longer": {
+      "lema": "longer",
+      "classe": "advérbio",
+      "def": [
+        "Forma comparativa de «long»: por mais tempo."
+      ]
+    },
+    "sir": {
+      "lema": "sir",
+      "classe": "substantivo",
+      "def": [
+        "Tratamento respeitoso dirigido a um homem adulto, sobretudo quando se desconhece o nome ou o título dele."
+      ]
+    },
+    "said": {
+      "lema": "say",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Dizer, de viva voz ou por escrito."
+      ],
+      "nota": "«Said I» = «disse eu»: o sujeito vem depois do verbo, à moda antiga."
+    },
+    "or": {
+      "lema": "or",
+      "classe": "conjunção",
+      "def": [
+        "Liga ao menos duas palavras, expressões ou orações alternativas, cada uma das quais poderia tornar verdadeiro o enunciado."
+      ]
+    },
+    "madam": {
+      "lema": "madam",
+      "classe": "substantivo",
+      "def": [
+        "Forma polida de tratamento dirigida a uma mulher ou senhora."
+      ]
+    },
+    "truly": {
+      "lema": "truly",
+      "classe": "advérbio",
+      "def": [
+        "Com sinceridade; de fato, realmente."
+      ]
+    },
+    "your": {
+      "lema": "your",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a você; relativo a você (um só dono)."
+      ]
+    },
+    "forgiveness": {
+      "lema": "forgiveness",
+      "classe": "substantivo",
+      "def": [
+        "Ato de perdoar."
+      ],
+      "nota": "Aqui, o perdão que o narrador pede ao visitante desconhecido."
+    },
+    "implore": {
+      "lema": "implore",
+      "classe": "verbo",
+      "def": [
+        "Pedir ou suplicar com empenho ou urgência; rogar."
+      ],
+      "nota": "«Your forgiveness I implore» tem a ordem invertida: «eu imploro o seu perdão»."
+    },
+    "but": {
+      "lema": "but",
+      "classe": "conjunção",
+      "def": [
+        "Porém; no entanto; por outro lado (introduz oração que contraria uma crença anterior ou contrasta com a oração anterior)."
+      ]
+    },
+    "fact": {
+      "lema": "fact",
+      "classe": "substantivo",
+      "def": [
+        "Algo real, e não inventado."
+      ]
+    },
+    "you": {
+      "lema": "you",
+      "classe": "pronome pessoal",
+      "def": [
+        "A pessoa a quem se fala ou escreve, como sujeito.",
+        "A pessoa a quem se fala ou escreve, como objeto."
+      ]
+    },
+    "faintly": {
+      "lema": "faintly",
+      "classe": "advérbio",
+      "def": [
+        "De modo tênue; muito baixo ou de leve."
+      ]
+    },
+    "scarce": {
+      "lema": "scarce",
+      "classe": "advérbio",
+      "def": [
+        "Mal; por pouco."
+      ],
+      "nota": "Uso literário; hoje se diz «scarcely»."
+    },
+    "sure": {
+      "lema": "sure",
+      "classe": "adjetivo",
+      "def": [
+        "Certo em seu conhecimento ou em sua crença."
+      ]
+    },
+    "heard": {
+      "lema": "hear",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Perceber (um som, ou o que o produz) com o ouvido."
+      ]
+    },
+    "opened": {
+      "lema": "open",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Tornar(-se) fisicamente desobstruído ou descoberto; abrir."
+      ]
+    },
+    "wide": {
+      "lema": "wide",
+      "classe": "advérbio",
+      "def": [
+        "De modo a deixar um grande espaço entre os lados; de modo a formar uma abertura grande."
+      ]
+    },
+    "darkness": {
+      "lema": "darkness",
+      "classe": "substantivo",
+      "def": [
+        "Estado do que é escuro; falta de luz."
+      ]
+    },
+    "there#2": {
+      "lema": "there",
+      "classe": "advérbio",
+      "def": [
+        "Em ou a um lugar (declarado, subentendido ou indicado) percebido como afastado de quem fala."
+      ]
+    },
+    "tapping#2": {
+      "lema": "tap",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Bater de leve, com som claro."
+      ]
+    },
+    "as#2": {
+      "lema": "as",
+      "classe": "conjunção",
+      "def": [
+        "Usado depois de «so» ou «as» para introduzir uma comparação."
+      ],
+      "nota": "«Such name as “Nevermore”» = «um nome como “Nevermore”»."
+    },
+    "as#3": {
+      "lema": "as",
+      "classe": "preposição",
+      "def": [
+        "No papel de."
+      ],
+      "nota": "«As a token» = «como sinal», «como lembrança»."
+    },
+    "one#2": {
+      "lema": "one",
+      "classe": "numeral",
+      "def": [
+        "O número representado pelo algarismo arábico 1; o valor numérico igual a esse número cardinal: um."
+      ]
+    },
+    "only#2": {
+      "lema": "only",
+      "classe": "adjetivo",
+      "def": [
+        "Único de sua categoria; só."
+      ]
+    },
+    "this#2": {
+      "lema": "this",
+      "classe": "determinante demonstrativo",
+      "def": [
+        "A coisa que está aqui; a coisa conhecida, que se acaba de mencionar ou que está para ser mencionada."
+      ]
+    },
+    "more#2": {
+      "lema": "more",
+      "classe": "advérbio",
+      "def": [
+        "Em maior grau ou medida."
+      ],
+      "nota": "«Scarcely more than muttered» = «mal mais que murmurei»."
+    },
+    "more#3": {
+      "lema": "more",
+      "classe": "pronome",
+      "def": [
+        "Quantidade extra ou adicional (de algo)."
+      ],
+      "nota": "«This and more» = «isto e mais»."
+    },
+    "was#2": {
+      "lema": "be",
+      "classe": "verbo auxiliar",
+      "forma": "pretérito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Usado com o particípio presente de um verbo para formar o aspecto contínuo."
+      ]
+    },
+    "was#3": {
+      "lema": "be",
+      "classe": "verbo auxiliar",
+      "forma": "pretérito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Usado com o particípio passado de um verbo para formar a voz passiva."
+      ]
+    },
+    "is#2": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Existir."
+      ]
+    },
+    "is#3": {
+      "lema": "be",
+      "classe": "verbo auxiliar",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Usado com o particípio presente de um verbo para formar o aspecto contínuo."
+      ]
+    },
+    "name#2": {
+      "lema": "name",
+      "classe": "substantivo",
+      "def": [
+        "Palavra ou expressão que indica uma pessoa, um lugar, uma classe ou uma coisa em particular; nome."
+      ]
+    },
+    "still#2": {
+      "lema": "still",
+      "classe": "adjetivo",
+      "def": [
+        "Sem se mover; calmo."
+      ]
+    },
+    "still#3": {
+      "lema": "still",
+      "classe": "advérbio",
+      "def": [
+        "Até o momento de que se fala, como no tempo anterior; ainda.",
+        "(Arcaico, poético) Sempre; continuamente."
+      ],
+      "nota": "«Prophet still» = «ainda assim profeta», «profeta mesmo assim»."
+    },
+    "here#2": {
+      "lema": "here",
+      "classe": "advérbio",
+      "def": [
+        "A este lugar (usado no lugar de «hither»)."
+      ]
+    },
+    "sure#2": {
+      "lema": "sure",
+      "classe": "advérbio",
+      "def": [
+        "Sem dúvida; certamente."
+      ],
+      "nota": "«Art sure no craven» = «certamente não és covarde»."
+    },
+    "for#2": {
+      "lema": "for",
+      "classe": "conjunção",
+      "def": [
+        "Porque."
+      ],
+      "nota": "Uso formal e literário."
+    },
+    "for#3": {
+      "lema": "for",
+      "classe": "preposição",
+      "def": [
+        "Durante (um período de tempo)."
+      ],
+      "nota": "«For evermore» = «para sempre»."
+    },
+    "so#2": {
+      "lema": "so",
+      "classe": "advérbio",
+      "def": [
+        "Muito (em oração positiva ou negativa)."
+      ]
+    },
+    "that#2": {
+      "lema": "that",
+      "classe": "determinante demonstrativo",
+      "def": [
+        "A coisa, pessoa ou ideia indicada ou entendida pelo contexto, em especial quando mais distante do que a designada por «this»."
+      ]
+    },
+    "that#3": {
+      "lema": "that",
+      "classe": "pronome relativo",
+      "def": [
+        "Em oração relativa, refere-se a um substantivo já mencionado; que, o qual, quem."
+      ]
+    },
+    "that#4": {
+      "lema": "that",
+      "classe": "pronome demonstrativo",
+      "def": [
+        "A coisa, pessoa, ideia, qualidade, evento, ação ou tempo indicado ou entendido pelo contexto."
+      ]
+    },
+    "then#2": {
+      "lema": "then",
+      "classe": "advérbio",
+      "def": [
+        "Nesse caso."
+      ]
+    },
+    "to#2": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Na direção de; em direção a."
+      ],
+      "nota": "«Betook myself to linking» = «pus-me a ligar»."
+    },
+    "to#3": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Usado para indicar o alvo ou o destinatário de uma ação."
+      ]
+    },
+    "no#2": {
+      "lema": "no",
+      "classe": "determinante",
+      "def": [
+        "Nenhum; nem um."
+      ]
+    },
+    "at#2": {
+      "lema": "at",
+      "classe": "preposição",
+      "def": [
+        "Em resposta ou reação a."
+      ],
+      "nota": "«Startled at the stillness» = «assustado com o silêncio»."
+    },
+    "at#3": {
+      "lema": "at",
+      "classe": "preposição",
+      "def": [
+        "Em estado de."
+      ],
+      "nota": "«At ease» = «à vontade», «em repouso»."
+    },
+    "in#2": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Para dentro; de fora para dentro."
+      ],
+      "nota": "«In there stepped» = «entrou ali»: o corvo entra."
+    },
+    "in#3": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Fazendo algo; ao fazer algo."
+      ],
+      "nota": "«Meant in croaking» = «quis dizer ao crocitar»."
+    },
+    "with#2": {
+      "lema": "with",
+      "classe": "preposição",
+      "def": [
+        "Usado para acrescentar informação complementar, em especial a de algo simultâneo ou de consequência imediata."
+      ]
+    },
+    "deep": {
+      "lema": "deep",
+      "classe": "advérbio",
+      "def": [
+        "Longe, em especial muito para baixo ou para dentro de algo, física ou figuradamente."
+      ],
+      "nota": "Aqui modifica «peering»: o narrador espia fundo, bem para dentro da escuridão."
+    },
+    "into": {
+      "lema": "into",
+      "classe": "preposição",
+      "def": [
+        "Para ou em direção ao interior de."
+      ]
+    },
+    "peering": {
+      "lema": "peer",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Olhar com dificuldade, ou como quem procura algo."
+      ]
+    },
+    "long": {
+      "lema": "long",
+      "classe": "advérbio",
+      "def": [
+        "Por muito tempo."
+      ]
+    },
+    "wondering": {
+      "lema": "wonder",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Ponderar; sentir dúvida e curiosidade; perguntar-se mentalmente."
+      ]
+    },
+    "fearing": {
+      "lema": "fear",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Ter medo de (algo ou alguém); considerar ou esperar (algo ou alguém) com alarme."
+      ]
+    },
+    "doubting": {
+      "lema": "doubt",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Considerar questionável ou improvável; hesitar em crer; não ter confiança em; questionar."
+      ]
+    },
+    "dreaming": {
+      "lema": "dream",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Ver acontecimentos imaginários na mente durante o sono."
+      ],
+      "nota": "«Dreaming dreams» (sonhando sonhos) repete a mesma palavra no verbo e no objeto, para dar peso à cena: o narrador sonha o que ninguém ousou sonhar."
+    },
+    "dreams": {
+      "lema": "dream",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Acontecimentos imaginários vistos na mente durante o sono."
+      ]
+    },
+    "mortal": {
+      "lema": "mortal",
+      "classe": "substantivo",
+      "def": [
+        "Um ser humano; alguém sujeito à morte."
+      ],
+      "nota": "«No mortal» é «nenhum ser humano»."
+    },
+    "ever": {
+      "lema": "ever",
+      "classe": "advérbio",
+      "def": [
+        "Em qualquer momento."
+      ]
+    },
+    "dared": {
+      "lema": "dare",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Ter coragem suficiente (para fazer algo)."
+      ]
+    },
+    "dream": {
+      "lema": "dream",
+      "classe": "verbo",
+      "def": [
+        "Ver acontecimentos imaginários na mente durante o sono."
+      ]
+    },
+    "silence": {
+      "lema": "silence",
+      "classe": "substantivo",
+      "def": [
+        "A ausência de qualquer som."
+      ]
+    },
+    "unbroken": {
+      "lema": "unbroken",
+      "classe": "adjetivo",
+      "def": [
+        "Contínuo, sem interrupção."
+      ]
+    },
+    "gave": {
+      "lema": "give",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Mover, passar ou fornecer algo, abstrato ou concreto, a alguém ou a algum lugar."
+      ],
+      "nota": "«Gave no token» é «não deu sinal nenhum»."
+    },
+    "token": {
+      "lema": "token",
+      "classe": "substantivo",
+      "def": [
+        "Algo que serve de expressão de outra coisa."
+      ],
+      "nota": "Aqui, um sinal ou indício: a escuridão não deu o menor sinal de resposta."
+    },
+    "word": {
+      "lema": "word",
+      "classe": "substantivo",
+      "def": [
+        "A menor unidade da língua que tem um significado particular e pode ser expressa sozinha."
+      ]
+    },
+    "spoken": {
+      "lema": "speak",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Comunicar-se com a voz; dizer palavras em voz alta."
+      ]
+    },
+    "whispered": {
+      "lema": "whisper",
+      "classe": "verbo",
+      "forma": "pretérito e particípio passado",
+      "def": [
+        "Dizer (algo) em voz baixa ou sob o fôlego, de modo que só quem está perto o ouça."
+      ]
+    },
+    "an": {
+      "lema": "a",
+      "classe": "artigo indefinido",
+      "forma": "forma de «a» antes de som vocálico",
+      "def": [
+        "Um exemplar não especificado de (algo); o artigo indefinido."
+      ]
+    },
+    "echo": {
+      "lema": "echo",
+      "classe": "substantivo",
+      "def": [
+        "Som refletido que é ouvido de novo por quem o emitiu."
+      ]
+    },
+    "murmured": {
+      "lema": "murmur",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Dizer (algo) de modo indistinto; murmurar, resmungar."
+      ]
+    },
+    "back": {
+      "lema": "back",
+      "classe": "advérbio",
+      "def": [
+        "De modo recíproco; em troca."
+      ],
+      "nota": "«Murmured back the word» é «devolveu a palavra»: o eco repete, em resposta, o nome que o narrador sussurrou."
+    },
+    "back#2": {
+      "lema": "back",
+      "classe": "advérbio",
+      "def": [
+        "Para ou em uma condição ou lugar anterior."
+      ],
+      "nota": "«Back into the chamber turning»: voltando para dentro do quarto."
+    },
+    "merely": {
+      "lema": "merely",
+      "classe": "advérbio",
+      "def": [
+        "Sem nenhuma outra razão; apenas, só, e nada mais."
+      ]
+    },
+    "turning": {
+      "lema": "turn",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Mudar a direção do próprio deslocamento."
+      ]
+    },
+    "all": {
+      "lema": "all",
+      "classe": "advérbio",
+      "def": [
+        "Totalmente; inteiramente; por completo."
+      ],
+      "nota": "«All my soul within me burning»: com a alma toda ardendo dentro de mim."
+    },
+    "within": {
+      "lema": "within",
+      "classe": "preposição",
+      "def": [
+        "Na parte interna, no espaço; fisicamente dentro de."
+      ]
+    },
+    "burning": {
+      "lema": "burn",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Ser consumido pelo fogo ou pelas chamas."
+      ],
+      "nota": "Sentido figurado: a alma «arde» de medo e agitação."
+    },
+    "soon": {
+      "lema": "soon",
+      "classe": "advérbio",
+      "def": [
+        "Dentro de pouco tempo; depressa."
+      ]
+    },
+    "again": {
+      "lema": "again",
+      "classe": "advérbio",
+      "def": [
+        "Mais uma vez (indica a repetição de uma ação)."
+      ]
+    },
+    "somewhat": {
+      "lema": "somewhat",
+      "classe": "advérbio",
+      "def": [
+        "Em grau ou medida limitada; não completamente."
+      ]
+    },
+    "louder": {
+      "lema": "loud",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "De grande intensidade (som)."
+      ]
+    },
+    "than": {
+      "lema": "than",
+      "classe": "conjunção",
+      "def": [
+        "Usada em comparações para introduzir a base da comparação."
+      ]
+    },
+    "surely": {
+      "lema": "surely",
+      "classe": "advérbio",
+      "def": [
+        "Certamente, sem dúvida."
+      ]
+    },
+    "something": {
+      "lema": "something",
+      "classe": "pronome",
+      "def": [
+        "Coisa incerta ou não especificada; uma coisa."
+      ]
+    },
+    "window": {
+      "lema": "window",
+      "classe": "substantivo",
+      "def": [
+        "Abertura, em geral coberta por uma ou mais vidraças, que deixa entrar luz e ar do exterior num edifício ou veículo."
+      ]
+    },
+    "lattice": {
+      "lema": "lattice",
+      "classe": "substantivo",
+      "def": [
+        "Painel plano feito de tiras finas de madeira ou de outro material, cruzadas e bem espaçadas, usado comumente como treliça de jardim."
+      ],
+      "nota": "«Window lattice» é a grade de ripas cruzadas da janela, a treliça."
+    },
+    "let": {
+      "lema": "let",
+      "classe": "verbo",
+      "def": [
+        "Permitir; não impedir (com infinitivo, em geral sem «to»).",
+        "Usado para introduzir uma construção imperativa de primeira ou terceira pessoa."
+      ],
+      "nota": "«Let me see» e «let my heart be still» são ordens dadas a si mesmo: «deixe-me ver», «que meu coração se acalme»."
+    },
+    "see": {
+      "lema": "see",
+      "classe": "verbo",
+      "def": [
+        "Perceber ou detectar alguém ou algo com os olhos, ou como que pela vista."
+      ]
+    },
+    "what": {
+      "lema": "what",
+      "classe": "pronome",
+      "def": [
+        "Que coisa, acontecimento, circunstância etc.: usado para pedir a especificação de uma identidade, quantidade, qualidade etc."
+      ],
+      "nota": "Pronome interrogativo, aqui em perguntas indiretas: «o que há ali», «qual é o teu nome»."
+    },
+    "thereat": {
+      "lema": "thereat",
+      "classe": "advérbio",
+      "def": [
+        "Ali; naquele lugar."
+      ],
+      "nota": "«What thereat is» é «o que há ali», isto é, na janela."
+    },
+    "mystery": {
+      "lema": "mystery",
+      "classe": "substantivo",
+      "def": [
+        "Algo secreto ou inexplicável; algo desconhecido."
+      ]
+    },
+    "explore": {
+      "lema": "explore",
+      "classe": "verbo",
+      "def": [
+        "Examinar ou investigar algo de modo sistemático."
+      ],
+      "nota": "«This mystery explore» tem a ordem invertida da poesia: «explorar este mistério»."
+    },
+    "be": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Indicar que o sujeito tem as qualidades descritas por um adjetivo ou locução preposicional."
+      ],
+      "nota": "«Let my heart be still»: que o meu coração fique quieto."
+    },
+    "be#2": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "subjuntivo",
+      "def": [
+        "Usado com particípios passados de verbos para formar a voz passiva."
+      ],
+      "nota": "«Though thy crest be shorn»: embora a tua crista esteja raspada. O subjuntivo sem auxiliar é próprio da língua antiga e da poesia."
+    },
+    "moment": {
+      "lema": "moment",
+      "classe": "substantivo",
+      "def": [
+        "Uma quantidade breve e não especificada de tempo."
+      ]
+    },
+    "wind": {
+      "lema": "wind",
+      "classe": "substantivo",
+      "def": [
+        "Movimento real ou percebido do ar atmosférico, em geral causado por convecção ou por diferenças de pressão do ar."
+      ]
+    },
+    "open": {
+      "lema": "open",
+      "classe": "adjetivo",
+      "def": [
+        "Fisicamente desobstruído, descoberto etc."
+      ],
+      "nota": "«Open here I flung the shutter» é a ordem invertida de «I flung the shutter open»: abri a janela de par em par."
+    },
+    "flung": {
+      "lema": "fling",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Lançar com violência ou movimento rápido; arremessar."
+      ],
+      "nota": "Aqui, abrir de repente e com força."
+    },
+    "shutter": {
+      "lema": "shutter",
+      "classe": "substantivo",
+      "def": [
+        "Cada um dos painéis protetores, em geral de madeira, colocados sobre as janelas para impedir a entrada da luz."
+      ]
+    },
+    "when": {
+      "lema": "when",
+      "classe": "advérbio",
+      "def": [
+        "Em que, no qual, durante o qual (relativo)."
+      ],
+      "nota": "Introduz o momento do fato: «e foi então que»."
+    },
+    "flirt": {
+      "lema": "flirt",
+      "classe": "substantivo",
+      "def": [
+        "Solavanco súbito; lance rápido; movimento brusco e rápido."
+      ],
+      "nota": "Não tem o sentido de hoje («paquera»): é o movimento brusco das asas do corvo."
+    },
+    "flutter": {
+      "lema": "flutter",
+      "classe": "substantivo",
+      "def": [
+        "Movimento ou vibração rápida e irregular."
+      ],
+      "nota": "O bater de asas do corvo ao entrar."
+    },
+    "stepped": {
+      "lema": "step",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Mover o pé ao andar; avançar ou recuar levantando e pousando um dos pés em outro lugar.",
+        "Andar devagar, com gravidade ou resolução."
+      ]
+    },
+    "stately": {
+      "lema": "stately",
+      "classe": "adjetivo",
+      "def": [
+        "Grandioso; impressionante; imponente."
+      ]
+    },
+    "saintly": {
+      "lema": "saintly",
+      "classe": "adjetivo",
+      "def": [
+        "Semelhante a um santo ou próprio dele; digno de uma pessoa santa."
+      ]
+    },
+    "days": {
+      "lema": "day",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Um tempo ou período determinado; o tempo considerado em relação à existência ou à proeminência de uma pessoa ou coisa; época."
+      ],
+      "nota": "«Days of yore» é «os tempos de outrora»."
+    },
+    "yore": {
+      "lema": "yore",
+      "classe": "substantivo",
+      "def": [
+        "Um tempo muito passado."
+      ],
+      "nota": "Palavra poética: «of yore» é «de outrora», «de antigamente»."
+    },
+    "not": {
+      "lema": "not",
+      "classe": "advérbio",
+      "def": [
+        "Nega o sentido do verbo modificado."
+      ]
+    },
+    "least": {
+      "lema": "least",
+      "classe": "determinante",
+      "def": [
+        "Superlativo de «little»: o menor; a menor quantidade de."
+      ],
+      "nota": "«Not the least obeisance» é «nem a menor reverência»."
+    },
+    "obeisance": {
+      "lema": "obeisance",
+      "classe": "substantivo",
+      "def": [
+        "Demonstração de uma atitude obediente, em especial uma reverência profunda, que mostra essa atitude."
+      ]
+    },
+    "made": {
+      "lema": "make",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Provocar; efetuar ou produzir por meio de alguma ação."
+      ],
+      "nota": "«Made obeisance» é «fez reverência». A ordem invertida («made he») é da poesia."
+    },
+    "he": {
+      "lema": "he",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pessoa que se identifica como do sexo masculino, ou animal já conhecido ou subentendido."
+      ],
+      "nota": "Aqui, o corvo, tratado por «ele»."
+    },
+    "instant": {
+      "lema": "instant",
+      "classe": "substantivo",
+      "def": [
+        "Um período de tempo muito curto; um momento."
+      ]
+    },
+    "stopped": {
+      "lema": "stop",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Parar de se mover."
+      ]
+    },
+    "stayed": {
+      "lema": "stay",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Permanecer num lugar, em especial por um tempo definido ou curto; demorar-se."
+      ],
+      "nota": "«Stopped or stayed» é um par de quase sinônimos: «nem por um instante parou ou se deteve»."
+    },
+    "mien": {
+      "lema": "mien",
+      "classe": "substantivo",
+      "def": [
+        "Porte; expressão do rosto ou atitude, em especial a que quem a tem quer mostrar."
+      ],
+      "nota": "«With mien of lord or lady» é «com o porte de um nobre ou de uma dama»."
+    },
+    "lord": {
+      "lema": "lord",
+      "classe": "substantivo",
+      "def": [
+        "Quem possui domínio sobre outros; qualquer nobre ou aristocrata; qualquer chefe, príncipe ou soberano."
+      ]
+    },
+    "lady": {
+      "lema": "lady",
+      "classe": "substantivo",
+      "def": [
+        "Mulher de berço ou de classe mais alta; mulher de autoridade."
+      ]
+    },
+    "perched": {
+      "lema": "perch",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Pousar num poleiro (em especial uma ave); empoleirar-se."
+      ]
+    },
+    "above": {
+      "lema": "above",
+      "classe": "preposição",
+      "def": [
+        "Em ou para um lugar mais alto; mais alto que."
+      ]
+    },
+    "bust": {
+      "lema": "bust",
+      "classe": "substantivo",
+      "def": [
+        "Representação escultórica da cabeça e dos ombros de uma pessoa."
+      ]
+    },
+    "pallas": {
+      "lema": "Pallas",
+      "classe": "nome próprio",
+      "def": [
+        "Epíteto de Atena, sempre usado junto com o nome, como em Palas Atena, e não sozinho."
+      ],
+      "nota": "Palas é Atena, a deusa grega da sabedoria. O corvo pousa no busto dela, o que combina com a cena: o quarto de um estudioso, cheio de livros."
+    },
+    "just": {
+      "lema": "just",
+      "classe": "advérbio",
+      "def": [
+        "Exatamente, precisamente, perfeitamente."
+      ],
+      "nota": "«Just above my chamber door» é «bem em cima da porta do meu quarto»."
+    },
+    "sat": {
+      "lema": "sit",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Estar numa posição em que o tronco fica ereto e apoiado nas nádegas."
+      ]
+    },
+    "ebony": {
+      "lema": "ebony",
+      "classe": "adjetivo",
+      "def": [
+        "De um preto profundo e escuro."
+      ]
+    },
+    "bird": {
+      "lema": "bird",
+      "classe": "substantivo",
+      "def": [
+        "Animal do clado (tradicionalmente classe) das aves, no filo dos cordados, caracterizado por ter sangue quente, penas e asas em geral capazes de voo, boca em forma de bico e pôr ovos."
+      ]
+    },
+    "beguiling": {
+      "lema": "beguile",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Encantar, deleitar, cativar."
+      ],
+      "nota": "«Beguiling my sad fancy into smiling»: o corvo, com sua gravidade, leva a tristeza do narrador a sorrir. O verbo também pode ser «enganar», e o poema joga com isso."
+    },
+    "fancy": {
+      "lema": "fancy",
+      "classe": "substantivo",
+      "def": [
+        "A imaginação."
+      ],
+      "nota": "«My sad fancy» é a imaginação ou o ânimo triste do narrador."
+    },
+    "smiling": {
+      "lema": "smiling",
+      "classe": "substantivo",
+      "def": [
+        "A ação do verbo «sorrir»."
+      ],
+      "nota": "«Into smiling» é «até sorrir»."
+    },
+    "by": {
+      "lema": "by",
+      "classe": "preposição",
+      "def": [
+        "Por ação ou presença de; por meio de."
+      ],
+      "nota": "Aqui indica a causa: o corvo o faz sorrir «pela» gravidade do semblante."
+    },
+    "grave": {
+      "lema": "grave",
+      "classe": "adjetivo",
+      "def": [
+        "Caracterizado por um senso digno de seriedade."
+      ],
+      "nota": "Adjetivo de «grave and stern decorum»; não é o substantivo «sepultura»."
+    },
+    "stern": {
+      "lema": "stern",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem dureza e severidade de natureza ou de modos."
+      ]
+    },
+    "decorum": {
+      "lema": "decorum",
+      "classe": "substantivo",
+      "def": [
+        "Comportamento social apropriado."
+      ]
+    },
+    "countenance": {
+      "lema": "countenance",
+      "classe": "substantivo",
+      "def": [
+        "Aparência, em especial os traços e a expressão do rosto."
+      ]
+    },
+    "wore": {
+      "lema": "wear",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Ostentar ou exibir no aspecto ou na aparência."
+      ],
+      "nota": "«The countenance it wore» é «o semblante que ele trazia»."
+    },
+    "though": {
+      "lema": "though",
+      "classe": "conjunção",
+      "def": [
+        "Apesar do fato de que; embora."
+      ]
+    },
+    "thy": {
+      "lema": "thy",
+      "classe": "determinante possessivo",
+      "forma": "possessivo de «thou»",
+      "def": [
+        "Que pertence a ti; teu (de um só interlocutor)."
+      ]
+    },
+    "crest": {
+      "lema": "crest",
+      "classe": "substantivo",
+      "def": [
+        "Tufo ou outro ornamento natural que cresce na cabeça de um animal, por exemplo a crista do galo, o inchaço na cabeça de uma cobra, as penas alongadas do alto da cabeça ou da nuca de uma ave etc."
+      ]
+    },
+    "shorn": {
+      "lema": "shear",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Cortar o cabelo de (uma pessoa)."
+      ],
+      "nota": "«Shorn and shaven» é «cortada e raspada»: o narrador vê a crista da ave como se fosse uma cabeça rapada."
+    },
+    "shaven": {
+      "lema": "shaven",
+      "classe": "adjetivo",
+      "def": [
+        "Que foi barbeado ou raspado."
+      ]
+    },
+    "thou": {
+      "lema": "thou",
+      "classe": "pronome pessoal",
+      "def": [
+        "Forma do nominativo singular de «ye»; tu, você."
+      ],
+      "nota": "O «tu» antigo, hoje só na poesia e na liturgia. Suas outras formas são «thee» (objeto) e «thy» (possessivo)."
+    },
+    "art": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular (antigo)",
+      "def": [
+        "Indicar que o sujeito tem as qualidades descritas por um adjetivo ou locução preposicional."
+      ],
+      "nota": "«Thou art» é «tu és»."
+    },
+    "craven": {
+      "lema": "craven",
+      "classe": "substantivo",
+      "def": [
+        "Covarde."
+      ],
+      "nota": "Sentido antigo, como substantivo; o adjetivo é «covarde», que não luta. «No craven» é «nenhum covarde»."
+    },
+    "ghastly": {
+      "lema": "ghastly",
+      "classe": "adjetivo",
+      "def": [
+        "Semelhante a um fantasma na aparência; semelhante à morte; pálido; lúgubre."
+      ]
+    },
+    "grim": {
+      "lema": "grim",
+      "classe": "adjetivo",
+      "def": [
+        "Lúgubre e sombrio, frio e carrancudo."
+      ]
+    },
+    "ancient": {
+      "lema": "ancient",
+      "classe": "adjetivo",
+      "def": [
+        "Que dura desde um período remoto; de grande idade, muito velho."
+      ]
+    },
+    "wandering": {
+      "lema": "wandering",
+      "classe": "adjetivo",
+      "def": [
+        "Que vagueia; que viaja de lugar em lugar."
+      ]
+    },
+    "nightly": {
+      "lema": "nightly",
+      "classe": "adjetivo",
+      "def": [
+        "Que acontece ou aparece à noite; noturno."
+      ],
+      "nota": "Com a inicial maiúscula, «Nightly shore» é a margem da Noite, personificada como um reino (veja «Night's Plutonian shore»)."
+    },
+    "shore": {
+      "lema": "shore",
+      "classe": "substantivo",
+      "def": [
+        "Terra contígua a um corpo de água parada, como um oceano, lago ou lagoa."
+      ],
+      "nota": "Aqui é a margem do reino da Noite, o mundo dos mortos."
+    },
+    "tell": {
+      "lema": "tell",
+      "classe": "verbo",
+      "def": [
+        "Comunicar pela fala; dizer."
+      ]
+    },
+    "lordly": {
+      "lema": "lordly",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem as qualidades de um senhor; senhoril, nobre."
+      ]
+    },
+    "on": {
+      "lema": "on",
+      "classe": "preposição",
+      "def": [
+        "Indica posição ou localização."
+      ]
+    },
+    "night's": {
+      "lema": "night",
+      "classe": "substantivo",
+      "forma": "possessivo (genitivo)",
+      "def": [
+        "O tempo em que o Sol está abaixo do horizonte e o céu está escuro."
+      ],
+      "nota": "«Night's Plutonian shore» é a margem da Noite, que Poe trata como um reino e escreve com inicial maiúscula."
+    },
+    "plutonian": {
+      "lema": "Plutonian",
+      "classe": "adjetivo",
+      "def": [
+        "Relativo a Plutão, o deus grego e romano do mundo dos mortos; demoníaco, infernal.",
+        "Por extensão: do mundo dos mortos ou com características a ele associadas; escuro, sombrio, lúgubre."
+      ],
+      "nota": "A «Night's Plutonian shore» é a margem do mundo dos mortos, de onde o corvo teria vindo."
+    },
+    "quoth": {
+      "lema": "quoth",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Disse."
+      ],
+      "nota": "Forma antiga e literária, que só existe no pretérito e vem antes do sujeito: «quoth the raven» é «disse o corvo»."
+    },
+    "nevermore": {
+      "lema": "nevermore",
+      "classe": "advérbio",
+      "def": [
+        "Nunca mais; em nenhum momento no futuro."
+      ],
+      "nota": "É o refrão do poema: a única palavra do corvo."
+    },
+    "much": {
+      "lema": "much",
+      "classe": "advérbio",
+      "def": [
+        "Em grande medida."
+      ]
+    },
+    "marvelled": {
+      "lema": "marvel",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Encher-se de assombro ou admiração; espantar-se com algo."
+      ],
+      "nota": "Com dois «l», é a grafia britânica (a americana é «marveled»). «Marvelled this ungainly fowl» é «espantei-me com esta ave desengonçada», com o objeto direto, sem «at»."
+    },
+    "ungainly": {
+      "lema": "ungainly",
+      "classe": "adjetivo",
+      "def": [
+        "Desajeitado; sem graça."
+      ]
+    },
+    "fowl": {
+      "lema": "fowl",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer ave."
+      ],
+      "nota": "Sentido antigo; hoje a palavra costuma indicar aves de criação ou de caça."
+    },
+    "hear": {
+      "lema": "hear",
+      "classe": "verbo",
+      "def": [
+        "Perceber (um som, ou algo que produz um som) com o ouvido; reconhecer (algo) de modo auditivo."
+      ]
+    },
+    "discourse": {
+      "lema": "discourse",
+      "classe": "verbo",
+      "def": [
+        "Entrar em discussão ou conversa; conversar."
+      ],
+      "nota": "Aqui é verbo: «hear discourse» é «ouvir falar», ouvir conversar."
+    },
+    "plainly": {
+      "lema": "plainly",
+      "classe": "advérbio",
+      "def": [
+        "Obviamente; claramente."
+      ]
+    },
+    "answer": {
+      "lema": "answer",
+      "classe": "substantivo",
+      "def": [
+        "Resposta ou réplica; algo dito ou feito em reação a uma declaração ou pergunta."
+      ]
+    },
+    "little": {
+      "lema": "little",
+      "classe": "determinante",
+      "def": [
+        "Pouco; apenas uma pequena quantidade (de)."
+      ],
+      "nota": "«Little meaning bore»: tinha pouco sentido."
+    },
+    "meaning": {
+      "lema": "meaning",
+      "classe": "substantivo",
+      "def": [
+        "A denotação, o referente ou a ideia ligada a uma palavra, expressão ou símbolo."
+      ]
+    },
+    "relevancy": {
+      "lema": "relevancy",
+      "classe": "substantivo",
+      "def": [
+        "O grau em que uma coisa é relevante; relevância, aplicabilidade."
+      ]
+    },
+    "bore": {
+      "lema": "bear",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Carregar ou transportar, literal ou figuradamente."
+      ],
+      "nota": "«Little relevancy bore» é «tinha pouca relevância», com a ordem invertida da poesia."
+    },
+    "we": {
+      "lema": "we",
+      "classe": "pronome pessoal",
+      "def": [
+        "Duas ou mais pessoas incluindo ou consistindo do falante ou dos falantes."
+      ]
+    },
+    "cannot": {
+      "lema": "cannot",
+      "classe": "verbo",
+      "def": [
+        "Não poder; ser incapaz de (seja por incapacidade física, impossibilidade lógica etc.)."
+      ]
+    },
+    "help": {
+      "lema": "help",
+      "classe": "verbo",
+      "def": [
+        "Evitar; impedir; abster-se de; conter(-se). Usado em geral em contextos negativos, com «can»."
+      ],
+      "nota": "«Cannot help agreeing» é «não podemos deixar de concordar»."
+    },
+    "agreeing": {
+      "lema": "agree",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Estar em harmonia quanto a uma opinião, declaração ou ação; ter uma ideia coerente entre duas ou mais pessoas."
+      ]
+    },
+    "living": {
+      "lema": "living",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem vida; vivo."
+      ]
+    },
+    "human": {
+      "lema": "human",
+      "classe": "adjetivo",
+      "def": [
+        "Da espécie Homo sapiens ou de seus parentes mais próximos, ou pertencente a ela."
+      ]
+    },
+    "being": {
+      "lema": "being",
+      "classe": "substantivo",
+      "def": [
+        "Criatura viva."
+      ]
+    },
+    "yet": {
+      "lema": "yet",
+      "classe": "advérbio",
+      "def": [
+        "Até agora; até o presente; até um momento não especificado."
+      ],
+      "nota": "«Ever yet» é «até hoje, em tempo algum»."
+    },
+    "blessed": {
+      "lema": "blessed",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem ajuda, proteção ou outra bênção divina."
+      ],
+      "nota": "«Blessed with seeing» é «agraciado com a visão de», dito com um toque de ironia."
+    },
+    "seeing": {
+      "lema": "seeing",
+      "classe": "substantivo",
+      "def": [
+        "O ato ou o fato de perceber algo com os olhos."
+      ]
+    },
+    "his": {
+      "lema": "his",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a ele."
+      ]
+    },
+    "beast": {
+      "lema": "beast",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer mamífero terrestre de quatro patas."
+      ]
+    },
+    "sculptured": {
+      "lema": "sculptured",
+      "classe": "adjetivo",
+      "def": [
+        "Feito como uma escultura."
+      ]
+    },
+    "such": {
+      "lema": "such",
+      "classe": "determinante",
+      "def": [
+        "Como este, aquele, estes, aqueles; usado para comparar com algo implícito pelo contexto."
+      ],
+      "nota": "«Such name as “Nevermore”» é «um nome como “Nevermore”»."
+    },
+    "sitting": {
+      "lema": "sit",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Estar numa posição em que o tronco fica ereto, apoiado sobre as nádegas."
+      ],
+      "nota": "Dito do corvo: pousado, imóvel, no busto."
+    },
+    "lonely": {
+      "lema": "lonely",
+      "classe": "adjetivo",
+      "def": [
+        "(de uma pessoa) Sem companheiros; solitário."
+      ],
+      "nota": "Aqui descreve o corvo, só em cima do busto."
+    },
+    "placid": {
+      "lema": "placid",
+      "classe": "adjetivo",
+      "def": [
+        "Calmo e quieto; pacífico; tranquilo."
+      ],
+      "nota": "O busto de Palas é «plácido»: sereno, sem expressão, em contraste com o corvo agourento."
+    },
+    "spoke": {
+      "lema": "speak",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(intransitivo) Comunicar-se com a voz; dizer palavras em voz alta."
+      ]
+    },
+    "if": {
+      "lema": "if",
+      "classe": "conjunção",
+      "def": [
+        "Embora; usado para introduzir uma concessão."
+      ],
+      "nota": "«Prophet still, if bird or devil»: profeta mesmo que seja ave ou demônio, isto é, «ainda que sejas ave ou demônio»."
+    },
+    "if#2": {
+      "lema": "if",
+      "classe": "conjunção",
+      "def": [
+        "(às vezes considerado incorreto) Se; usado para introduzir uma oração substantiva, uma pergunta indireta, que funciona como objeto direto de certos verbos."
+      ],
+      "nota": "«Tell me if...» equivale a «diga-me se...»: pergunta indireta, sinônimo de «whether»."
+    },
+    "did": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Verbo auxiliar: um marcador sintático."
+      ],
+      "nota": "Aqui é o «did» enfático, comum na poesia antiga e usado também para acertar o ritmo: «he did outpour» é apenas «ele derramou»."
+    },
+    "outpour": {
+      "lema": "outpour",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Derramar; despejar."
+      ],
+      "nota": "«His soul he did outpour»: o corvo derrama toda a sua alma naquela única palavra."
+    },
+    "farther": {
+      "lema": "farther",
+      "classe": "advérbio",
+      "def": [
+        "Forma alternativa de «further»: a uma distância maior, no espaço, no tempo ou em outra medida; além do que já foi dito ou já é o caso."
+      ],
+      "nota": "«Nothing farther» é «nada mais»: o corvo não disse mais nada."
+    },
+    "uttered": {
+      "lema": "utter",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Emitir (um som) ou proferir (palavras); dizer em voz alta."
+      ]
+    },
+    "feather": {
+      "lema": "feather",
+      "classe": "substantivo",
+      "def": [
+        "Estrutura ramificada, semelhante a um pelo, que cresce no corpo das aves, usada para o voo, a natação, a proteção e a exibição."
+      ]
+    },
+    "fluttered": {
+      "lema": "flutter",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(intransitivo) Agitar-se ou bater rápida mas irregularmente."
+      ]
+    },
+    "till": {
+      "lema": "till",
+      "classe": "conjunção",
+      "def": [
+        "Até; até o momento em que."
+      ]
+    },
+    "scarcely": {
+      "lema": "scarcely",
+      "classe": "advérbio",
+      "def": [
+        "Quase não; por pouco; por uma pequena margem."
+      ]
+    },
+    "other": {
+      "lema": "other",
+      "classe": "determinante",
+      "def": [
+        "Que não é a coisa ou as coisas mencionadas antes; outro."
+      ]
+    },
+    "friends": {
+      "lema": "friend",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Pessoa, em geral que não é da família, cônjuge ou amante, cuja companhia se aprecia e por quem se sente afeição."
+      ]
+    },
+    "have": {
+      "lema": "have",
+      "classe": "verbo",
+      "def": [
+        "(verbo auxiliar, com o particípio passado) Usado para formar o aspecto perfeito."
+      ]
+    },
+    "have#2": {
+      "lema": "have",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Possuir; ter."
+      ],
+      "nota": "«Have all the seeming»: têm toda a aparência (de um demônio sonhando)."
+    },
+    "flown": {
+      "lema": "fly",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(intransitivo) Deslocar-se pelo ar, sem contato com uma superfície firme; voar."
+      ],
+      "nota": "Sentido figurado: os amigos «voaram», isto é, foram embora, como pássaros; o corvo, diz o poeta, vai deixá-lo do mesmo modo que as esperanças."
+    },
+    "will": {
+      "lema": "will",
+      "classe": "verbo",
+      "def": [
+        "(verbo auxiliar) Usado para expressar o tempo futuro, às vezes com a ideia de vontade ou determinação."
+      ]
+    },
+    "leave": {
+      "lema": "leave",
+      "classe": "verbo",
+      "def": [
+        "Partir de; separar-se de."
+      ],
+      "nota": "«He will leave me»: ele me deixará, irá embora."
+    },
+    "leave#2": {
+      "lema": "leave",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "(transitivo) Fazer ou permitir que algo permaneça; deixar."
+      ],
+      "nota": "«Leave no black plume»: não deixes nenhuma pluma; «leave my loneliness unbroken»: deixa a minha solidão intacta."
+    },
+    "hopes": {
+      "lema": "hope",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "O sentimento de confiança, crença ou expectativa de que algo desejado pode acontecer ou vai acontecer."
+      ]
+    },
+    "startled": {
+      "lema": "startle",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Excitar por súbito alarme, surpresa ou apreensão; assustar de repente e sem gravidade; alarmar; surpreender."
+      ],
+      "nota": "Aqui descreve o poeta, sobressaltado ao ver a quietude da noite quebrada."
+    },
+    "stillness": {
+      "lema": "stillness",
+      "classe": "substantivo",
+      "def": [
+        "A qualidade ou o estado de estar quieto."
+      ]
+    },
+    "broken": {
+      "lema": "broken",
+      "classe": "adjetivo",
+      "def": [
+        "Fragmentado; em pedaços separados."
+      ],
+      "nota": "Aqui no sentido figurado: a quietude foi quebrada, interrompida, pela resposta do corvo."
+    },
+    "reply": {
+      "lema": "reply",
+      "classe": "substantivo",
+      "def": [
+        "Resposta escrita ou falada; parte de uma conversa."
+      ]
+    },
+    "aptly": {
+      "lema": "aptly",
+      "classe": "advérbio",
+      "def": [
+        "De modo apto ou adequado; convenientemente; apropriadamente."
+      ]
+    },
+    "doubtless": {
+      "lema": "doubtless",
+      "classe": "advérbio",
+      "def": [
+        "Sem dúvida; certamente; muito provavelmente."
+      ]
+    },
+    "utters": {
+      "lema": "utter",
+      "classe": "verbo",
+      "forma": "presente, 3ª pessoa do singular",
+      "def": [
+        "Emitir (um som) ou proferir (palavras); dizer em voz alta."
+      ]
+    },
+    "stock": {
+      "lema": "stock",
+      "classe": "substantivo",
+      "def": [
+        "Um estoque ou provisão."
+      ],
+      "nota": "«Stock and store» é uma expressão antiga: tudo o que se tem. O poeta supõe que aquela palavra é todo o vocabulário do corvo."
+    },
+    "store": {
+      "lema": "store",
+      "classe": "substantivo",
+      "def": [
+        "Provisão guardada; suprimento."
+      ],
+      "nota": "Em «stock and store», sinônimo de «stock»: o corvo só dispõe dessa palavra."
+    },
+    "caught": {
+      "lema": "catch",
+      "classe": "verbo",
+      "forma": "pretérito / particípio passado",
+      "def": [
+        "(transitivo) Capturar ou prender; apanhar."
+      ],
+      "nota": "Aqui, no sentido de aprender por imitação: o corvo teria «apanhado» a palavra de um dono desgraçado."
+    },
+    "unhappy": {
+      "lema": "unhappy",
+      "classe": "adjetivo",
+      "def": [
+        "Que não é feliz; triste.",
+        "(sobretudo datado) Sem sorte; desafortunado."
+      ],
+      "nota": "Aqui pesa o segundo sentido: o dono perseguido pelo Desastre é um infeliz, um desafortunado."
+    },
+    "master": {
+      "lema": "master",
+      "classe": "substantivo",
+      "def": [
+        "O dono de um animal ou de um escravo."
+      ],
+      "nota": "Aqui, o antigo dono do corvo."
+    },
+    "unmerciful": {
+      "lema": "unmerciful",
+      "classe": "adjetivo",
+      "def": [
+        "Que não mostra misericórdia; impiedoso."
+      ]
+    },
+    "disaster": {
+      "lema": "disaster",
+      "classe": "substantivo",
+      "def": [
+        "Ocorrência infeliz ou desagradável, sobretudo a que resulta de um acidente ou de algo que dá errado."
+      ],
+      "nota": "Com inicial maiúscula, o Desastre é personificado: persegue o dono do corvo como um perseguidor."
+    },
+    "followed": {
+      "lema": "follow",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(transitivo ou intransitivo) Ir atrás de; perseguir; mover-se atrás no mesmo caminho ou direção, sobretudo com a intenção de alcançar."
+      ]
+    },
+    "fast": {
+      "lema": "fast",
+      "classe": "advérbio",
+      "def": [
+        "Logo atrás, em lugar ou tempo; muito perto, imediatamente a seguir."
+      ],
+      "nota": "«Followed fast»: seguiu de perto, colado nos calcanhares."
+    },
+    "faster": {
+      "lema": "fast",
+      "classe": "advérbio",
+      "forma": "comparativo",
+      "def": [
+        "Rapidamente; com grande velocidade."
+      ],
+      "nota": "«Followed faster»: seguiu ainda mais de perto e mais depressa."
+    },
+    "songs": {
+      "lema": "song",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Composição musical com letra, para uma ou mais vozes, executada cantando.",
+        "Composição poética; poesia; versos."
+      ]
+    },
+    "burden": {
+      "lema": "burden",
+      "classe": "substantivo",
+      "def": [
+        "Frase ou tema que se repete no fim de cada estrofe de uma canção popular ou balada; estribilho."
+      ],
+      "nota": "Sentido antigo e musical: o refrão de uma canção. Aqui, o «Never, nevermore» que fecha todos os cantos do dono do corvo."
+    },
+    "dirges": {
+      "lema": "dirge",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Poema ou peça musical lúgubre, composto ou executado em memória de uma pessoa morta; lamento fúnebre."
+      ]
+    },
+    "hope": {
+      "lema": "hope",
+      "classe": "substantivo",
+      "def": [
+        "O sentimento de confiança, crença ou expectativa de que algo desejado pode acontecer ou vai acontecer."
+      ],
+      "nota": "Com inicial maiúscula (Hope), a Esperança do dono do corvo é quase uma pessoa."
+    },
+    "melancholy": {
+      "lema": "melancholy",
+      "classe": "adjetivo",
+      "def": [
+        "Tomado de grande tristeza ou depressão."
+      ]
+    },
+    "straight": {
+      "lema": "straight",
+      "classe": "advérbio",
+      "def": [
+        "Diretamente; sem pausa, demora ou desvio."
+      ],
+      "nota": "«Straight I wheeled»: sem demora, logo em seguida eu puxei."
+    },
+    "wheeled": {
+      "lema": "wheel",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(transitivo) Fazer rolar sobre rodas."
+      ],
+      "nota": "Aqui, o poeta empurra a poltrona, que tem rodinhas, para diante do corvo."
+    },
+    "cushioned": {
+      "lema": "cushioned",
+      "classe": "adjetivo",
+      "def": [
+        "Provido de almofada ou almofadas; acolchoado."
+      ]
+    },
+    "seat": {
+      "lema": "seat",
+      "classe": "substantivo",
+      "def": [
+        "Algo em que se senta; assento."
+      ]
+    },
+    "front": {
+      "lema": "front",
+      "classe": "substantivo",
+      "def": [
+        "O lado dianteiro de algo, ou a extremidade voltada para a direção em que normalmente se move."
+      ],
+      "nota": "Em «in front of», diante de."
+    },
+    "velvet": {
+      "lema": "velvet",
+      "classe": "substantivo",
+      "def": [
+        "Tecido de trama cerrada (originalmente de seda, hoje também de algodão ou fibras sintéticas) com pelo curto e espesso de um dos lados."
+      ],
+      "nota": "Em «upon the velvet sinking», o veludo é a própria poltrona: o poeta se afunda nela."
+    },
+    "velvet#2": {
+      "lema": "velvet",
+      "classe": "adjetivo",
+      "def": [
+        "Feito de veludo."
+      ],
+      "nota": "Veludo do forro da almofada, onde a luz da lâmpada repousa."
+    },
+    "sinking": {
+      "lema": "sink",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Descer ou submergir-se em um líquido ou substância semelhante."
+      ],
+      "nota": "Aqui, afundar-se, acomodar-se no veludo da poltrona."
+    },
+    "betook": {
+      "lema": "betake",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(reflexivo, arcaico) Comprometer-se com uma ação determinada; dedicar-se a ela."
+      ],
+      "nota": "«I betook myself to linking»: pus-me a ligar, entreguei-me ao trabalho de ligar."
+    },
+    "myself": {
+      "lema": "myself",
+      "classe": "pronome reflexivo",
+      "def": [
+        "Me, como objeto direto ou indireto: o falante como objeto de um verbo ou preposição, quando o falante é também o sujeito."
+      ]
+    },
+    "linking": {
+      "lema": "link",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(transitivo) Ligar (duas ou mais coisas); conectar."
+      ]
+    },
+    "unto": {
+      "lema": "unto",
+      "classe": "preposição",
+      "def": [
+        "A; indica o destinatário ou objeto indireto (variante antiga de «to»)."
+      ],
+      "nota": "«Fancy unto fancy»: fantasia ligada a fantasia, uma conjectura após a outra."
+    },
+    "thinking": {
+      "lema": "think",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(transitivo) Ponderar; examinar na mente."
+      ]
+    },
+    "ominous": {
+      "lema": "ominous",
+      "classe": "adjetivo",
+      "def": [
+        "Que dá indício de um mal por vir; que é um mau presságio."
+      ]
+    },
+    "gaunt": {
+      "lema": "gaunt",
+      "classe": "adjetivo",
+      "def": [
+        "Angular, ossudo e magro.",
+        "Doentiamente magro, como de fome ou doença; macilento, descarnado."
+      ]
+    },
+    "meant": {
+      "lema": "mean",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(transitivo) Transmitir (um sentido); significar, indicar."
+      ]
+    },
+    "croaking": {
+      "lema": "croak",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(intransitivo) Emitir o seu som vocal, áspero e rouco, feito na garganta (como a rã, o sapo, o corvo e outras aves)."
+      ],
+      "nota": "Em português, o corvo «crocita» ou «grasna»; «croak» é também o som do coaxar da rã."
+    },
+    "engaged": {
+      "lema": "engage",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Prender a atenção de alguém; manter ocupado."
+      ],
+      "nota": "«I sat engaged in guessing»: sentei-me ocupado em conjecturar."
+    },
+    "guessing": {
+      "lema": "guess",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Chegar a uma conclusão não confirmada; conjecturar; especular."
+      ]
+    },
+    "syllable": {
+      "lema": "syllable",
+      "classe": "substantivo",
+      "def": [
+        "(linguística) Unidade da fala humana que muitas vezes forma palavras, correspondente a uma abertura da boca; uma vogal e as consoantes que a rodeiam."
+      ]
+    },
+    "expressing": {
+      "lema": "express",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(transitivo) Transmitir ou comunicar; dar a conhecer ou tornar explícito."
+      ]
+    },
+    "whose": {
+      "lema": "whose",
+      "classe": "determinante",
+      "def": [
+        "(relativo) De quem; pertencente a quem.",
+        "(relativo) De que; pertencente ao qual ou à qual."
+      ],
+      "nota": "No verso 74, «whose» retoma a ave («the fowl whose fiery eyes»); nos versos 77 e 80, retoma a almofada («whose velvet violet lining»)."
+    },
+    "fiery": {
+      "lema": "fiery",
+      "classe": "adjetivo",
+      "def": [
+        "Ardente ou brilhante, como o fogo."
+      ]
+    },
+    "eyes": {
+      "lema": "eye",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Órgão pelo qual os animais veem, percebendo o ambiente pela luz."
+      ]
+    },
+    "burned": {
+      "lema": "burn",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(intransitivo) Ser consumido pelo fogo ou pelas chamas; arder."
+      ],
+      "nota": "Aqui, figurado: os olhos do corvo ardem, queimam, penetrando até o fundo do peito do poeta."
+    },
+    "bosom's": {
+      "lema": "bosom",
+      "classe": "substantivo",
+      "forma": "genitivo (possessivo)",
+      "def": [
+        "(anatomia, um tanto datado) O peito de um ser humano (ou, às vezes, de outro animal)."
+      ],
+      "nota": "«Bosom's core» é o âmago do peito, o coração."
+    },
+    "core": {
+      "lema": "core",
+      "classe": "substantivo",
+      "def": [
+        "A parte central ou interior de algo; o coração de uma coisa física."
+      ]
+    },
+    "divining": {
+      "lema": "divine",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(transitivo) Predizer (algo), sobretudo por adivinhação; descobrir (algo) por intuição ou discernimento."
+      ],
+      "nota": "«Divining» é adivinhar, conjecturar o que o corvo queria dizer."
+    },
+    "head": {
+      "lema": "head",
+      "classe": "substantivo",
+      "def": [
+        "A parte do corpo de um animal ou ser humano que contém o cérebro, a boca e os principais órgãos dos sentidos."
+      ]
+    },
+    "ease": {
+      "lema": "ease",
+      "classe": "substantivo",
+      "def": [
+        "Estado de conforto, sem desprazer; liberdade de dor, privação e incômodo."
+      ],
+      "nota": "«At ease» é à vontade, com comodidade."
+    },
+    "reclining": {
+      "lema": "recline",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(intransitivo) Recostar-se; inclinar-se para trás."
+      ]
+    },
+    "cushion's": {
+      "lema": "cushion",
+      "classe": "substantivo",
+      "forma": "genitivo (possessivo)",
+      "def": [
+        "Massa macia de material enchida em um saco de tecido, usada para conforto ou apoio; almofada."
+      ]
+    },
+    "lining": {
+      "lema": "lining",
+      "classe": "substantivo",
+      "def": [
+        "Cobertura da superfície interna de algo; forro."
+      ]
+    },
+    "lamplight": {
+      "lema": "lamplight",
+      "classe": "substantivo",
+      "def": [
+        "A luz emitida por uma lâmpada."
+      ]
+    },
+    "gloated": {
+      "lema": "gloat",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Exibir um prazer ou satisfação evidente (às vezes maldoso), muitas vezes diante da desgraça de um adversário."
+      ],
+      "nota": "Poeticamente, a luz da lâmpada «se regozijava» sobre o veludo, como quem se deleita com uma posse."
+    },
+    "o'er": {
+      "lema": "o'er",
+      "classe": "preposição",
+      "def": [
+        "(literário) Contração de «over»: sobre; por cima de."
+      ],
+      "nota": "Contração poética de «over»."
+    },
+    "violet": {
+      "lema": "violet",
+      "classe": "adjetivo",
+      "def": [
+        "De cor violeta."
+      ]
+    },
+    "gloating": {
+      "lema": "gloat",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Exibir um prazer ou satisfação evidente (às vezes maldoso), muitas vezes diante da desgraça de um adversário."
+      ],
+      "nota": "Poeticamente, a luz da lâmpada «se regozija» sobre o veludo, como quem se deleita com uma posse."
+    },
+    "she": {
+      "lema": "she",
+      "classe": "pronome pessoal",
+      "def": [
+        "A pessoa (em geral do sexo feminino) mencionada antes ou subentendida."
+      ],
+      "nota": "Aqui, Lenore."
+    },
+    "shall": {
+      "lema": "shall",
+      "classe": "verbo",
+      "def": [
+        "(verbo auxiliar) Usado antes de um verbo para indicar o futuro simples na primeira pessoa; nas outras pessoas, para indicar determinação ou obrigação."
+      ],
+      "nota": "Com «She shall press», o poeta afirma, quase como sentença: ela nunca mais se encostará ali."
+    },
+    "press": {
+      "lema": "press",
+      "classe": "verbo",
+      "def": [
+        "(transitivo ou intransitivo) Exercer peso ou força contra algo; agir sobre algo com força ou peso; fazer pressão."
+      ],
+      "nota": "Aqui, deixar a marca do próprio peso: Lenore nunca mais se recostará naquela almofada."
+    },
+    "methought": {
+      "lema": "methinks",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(arcaico ou humorístico) Parece-me."
+      ],
+      "nota": "«Methought» é o pretérito de «methinks»: «pareceu-me». Verbo antigo, em que «me» é o complemento de «thinks», «parece»."
+    },
+    "air": {
+      "lema": "air",
+      "classe": "substantivo",
+      "def": [
+        "A substância que constitui a atmosfera da Terra: uma mistura gasosa de nitrogênio, oxigênio e vários gases em quantidades menores."
+      ]
+    },
+    "denser": {
+      "lema": "dense",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Que tem densidade relativamente alta; compacto."
+      ]
+    },
+    "perfumed": {
+      "lema": "perfume",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Aplicar perfume a; encher ou impregnar de perfume; perfumar."
+      ]
+    },
+    "unseen": {
+      "lema": "unseen",
+      "classe": "adjetivo",
+      "def": [
+        "Que não foi visto ou descoberto; invisível."
+      ]
+    },
+    "censer": {
+      "lema": "censer",
+      "classe": "substantivo",
+      "def": [
+        "Recipiente ornamental para queimar incenso, sobretudo durante cerimônias religiosas; turíbulo, incensório."
+      ]
+    },
+    "swung": {
+      "lema": "swing",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Mover (um objeto) para a frente e para trás; balançar."
+      ]
+    },
+    "faint": {
+      "lema": "faint",
+      "classe": "adjetivo",
+      "def": [
+        "Mal perceptível; pouco brilhante, pouco alto ou pouco agudo."
+      ]
+    },
+    "foot-falls": {
+      "partes": [
+        {
+          "lema": "foot",
+          "classe": "substantivo",
+          "def": [
+            "A parte do corpo na extremidade da perna, sobre a qual se anda."
+          ]
+        },
+        {
+          "lema": "fall",
+          "classe": "substantivo",
+          "forma": "plural",
+          "def": [
+            "O ato de cair; uma queda."
+          ]
+        }
+      ],
+      "nota": "«Footfall» é o som de um passo, o passo mesmo; aqui, os passos leves dos anjos, que tilintam no chão."
+    },
+    "tinkled": {
+      "lema": "tinkle",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(intransitivo) Produzir sons metálicos leves, como os de um sininho."
+      ]
+    },
+    "tufted": {
+      "lema": "tufted",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem tufos."
+      ],
+      "nota": "O chão «tufted» é forrado de tufos, isto é, de tapete felpudo."
+    },
+    "wretch": {
+      "lema": "wretch",
+      "classe": "substantivo",
+      "def": [
+        "Pessoa infeliz, desafortunada ou miserável."
+      ],
+      "nota": "Aqui, o poeta dirige-se a si mesmo: «miserável!»."
+    },
+    "cried": {
+      "lema": "cry",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(transitivo) Proferir em voz alta; exclamar; declarar publicamente."
+      ]
+    },
+    "god": {
+      "lema": "God",
+      "classe": "substantivo próprio",
+      "def": [
+        "O primeiro deus de várias religiões teístas e o único deus no monoteísmo; (cristianismo) Deus Pai."
+      ]
+    },
+    "hath": {
+      "lema": "have",
+      "classe": "verbo",
+      "forma": "presente, 3ª pessoa do singular (arcaico)",
+      "def": [
+        "(verbo auxiliar, com o particípio passado) Usado para formar o aspecto perfeito."
+      ],
+      "nota": "Forma antiga de «has», a 3ª pessoa do singular."
+    },
+    "lent": {
+      "lema": "lend",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Conceder; dar ou fornecer, em geral."
+      ],
+      "nota": "Aqui, não é emprestar: é conceder, dar."
+    },
+    "thee": {
+      "lema": "thee",
+      "classe": "pronome pessoal",
+      "forma": "caso objetivo",
+      "def": [
+        "(arcaico, literário) Caso objetivo e reflexivo de «thou»: te, a ti."
+      ],
+      "nota": "«Thee» é o antigo pronome de segunda pessoa do singular, como o «te» do português; o poeta o usa para falar com o corvo."
+    },
+    "these": {
+      "lema": "this",
+      "classe": "determinante",
+      "forma": "plural",
+      "def": [
+        "Plural de «this»: estes, estas, esses, essas."
+      ]
+    },
+    "sent": {
+      "lema": "send",
+      "classe": "verbo",
+      "forma": "pretérito / particípio passado",
+      "def": [
+        "(transitivo) Fazer algo (como um objeto ou mensagem) ir de um lugar a outro ou a alguém; enviar."
+      ]
+    },
+    "respite": {
+      "lema": "respite",
+      "classe": "substantivo",
+      "def": [
+        "Breve intervalo de descanso ou alívio."
+      ]
+    },
+    "nepenthe": {
+      "lema": "nepenthe",
+      "classe": "substantivo",
+      "def": [
+        "(arcaico) Droga que alivia a dor emocional, o pesar ou a tristeza."
+      ],
+      "nota": "Do grego: na «Odisseia», Helena põe no vinho uma poção que faz esquecer o sofrimento. Aqui, o remédio do esquecimento de Lenore."
+    },
+    "memories": {
+      "lema": "memory",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Registro de uma coisa ou de um acontecimento guardado e disponível para uso posterior por um organismo; lembrança."
+      ]
+    },
+    "quaff": {
+      "lema": "quaff",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "Beber com vigor ou prazer; beber muito; engolir em grandes goles."
+      ],
+      "nota": "Palavra antiga, de beber de um trago só."
+    },
+    "oh": {
+      "lema": "oh",
+      "classe": "interjeição",
+      "def": [
+        "(muitas vezes poético) Exclamação para dar dramaticidade ou ênfase."
+      ]
+    },
+    "kind": {
+      "lema": "kind",
+      "classe": "adjetivo",
+      "def": [
+        "De natureza benevolente, cortês, amigável, generosa, gentil ou calorosa, marcada pela consideração pelos outros."
+      ],
+      "nota": "O «nepenthe» é «bondoso» porque alivia a dor."
+    },
+    "forget": {
+      "lema": "forget",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "(transitivo) Perder a lembrança de; esquecer."
+      ]
+    },
+    "prophet": {
+      "lema": "prophet",
+      "classe": "substantivo",
+      "def": [
+        "Alguém que fala por inspiração divina.",
+        "Alguém que prediz o futuro; adivinho."
+      ]
+    },
+    "thing": {
+      "lema": "thing",
+      "classe": "substantivo",
+      "def": [
+        "Objeto individual ou entidade distinta."
+      ],
+      "nota": "«Thing of evil»: um ser maligno, uma criatura do mal."
+    },
+    "evil": {
+      "lema": "evil",
+      "classe": "substantivo",
+      "def": [
+        "Maldade moral; perversidade; malevolência; as forças ou comportamentos que são o oposto e o inimigo do bem."
+      ]
+    },
+    "devil": {
+      "lema": "devil",
+      "classe": "substantivo",
+      "def": [
+        "(teologia) Criatura maligna, a objetivação de uma força hostil e destrutiva."
+      ]
+    },
+    "whether": {
+      "lema": "whether",
+      "classe": "conjunção",
+      "def": [
+        "Introduz uma oração adverbial disjuntiva que qualifica a oração principal (com o correlativo «or»)."
+      ],
+      "nota": "«Whether... or whether...» é «quer... quer...»: quer o Tentador te tenha enviado, quer a tempestade te tenha jogado aqui."
+    },
+    "tempter": {
+      "lema": "tempter",
+      "classe": "substantivo",
+      "def": [
+        "Alguém ou algo que tenta, sobretudo um homem que tenta."
+      ],
+      "nota": "Com inicial maiúscula, o Tentador é o Diabo."
+    },
+    "tempest": {
+      "lema": "tempest",
+      "classe": "substantivo",
+      "def": [
+        "Tempestade, sobretudo a de ventos violentos."
+      ]
+    },
+    "tossed": {
+      "lema": "toss",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Lançar para cima ou para longe; atirar."
+      ],
+      "nota": "«Tempest tossed thee here ashore»: a tempestade te atirou aqui, à praia."
+    },
+    "ashore": {
+      "lema": "ashore",
+      "classe": "advérbio",
+      "def": [
+        "(náutico) Em direção à margem ou sobre a margem; para a praia, na praia."
+      ]
+    },
+    "desolate": {
+      "lema": "desolate",
+      "classe": "adjetivo",
+      "def": [
+        "Triste, desamparado e sem esperança."
+      ]
+    },
+    "undaunted": {
+      "lema": "undaunted",
+      "classe": "adjetivo",
+      "def": [
+        "Que mostra coragem e resolução.",
+        "Que não se abala, não desanima nem se desencoraja."
+      ]
+    },
+    "desert": {
+      "lema": "desert",
+      "classe": "adjetivo",
+      "def": [
+        "(em geral de um lugar) Abandonado, deserto ou desabitado."
+      ]
+    },
+    "land": {
+      "lema": "land",
+      "classe": "substantivo",
+      "def": [
+        "Um país ou uma região."
+      ]
+    },
+    "enchanted": {
+      "lema": "enchanted",
+      "classe": "adjetivo",
+      "def": [
+        "Sob o efeito do encantamento; encantado."
+      ]
+    },
+    "home": {
+      "lema": "home",
+      "classe": "substantivo",
+      "def": [
+        "A moradia da própria pessoa; a casa ou a estrutura em que alguém vive, sobretudo a casa em que vive com a família."
+      ]
+    },
+    "horror": {
+      "lema": "horror",
+      "classe": "substantivo",
+      "def": [
+        "Emoção intensa e aflitiva de medo ou repulsa."
+      ],
+      "nota": "Com inicial maiúscula, o Horror é personificado: quase um morador do quarto."
+    },
+    "haunted": {
+      "lema": "haunt",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Habitar ou visitar com frequência (em geral a respeito de fantasmas); assombrar."
+      ]
+    },
+    "balm": {
+      "lema": "balm",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer óleo ou loção calmante, sobretudo aromática.",
+        "(figurado) Algo que acalma."
+      ],
+      "nota": "«Balm in Gilead» é uma alusão ao livro bíblico de Jeremias (8,22): «Não há bálsamo em Galaad?». Pergunta se existe remédio para a dor."
+    },
+    "gilead": {
+      "lema": "Gilead",
+      "classe": "substantivo próprio",
+      "def": [
+        "(bíblico) Região a leste do rio Jordão."
+      ],
+      "nota": "Em português bíblico, Galaad. Era famosa por seu bálsamo medicinal, que serve de imagem para o remédio da alma."
+    },
+    "heaven": {
+      "lema": "heaven",
+      "classe": "substantivo",
+      "def": [
+        "(datado ou poético) O céu distante, em que aparecem ou se movem o sol, a lua e as estrelas; o firmamento.",
+        "(religião, cristianismo) A morada de Deus e dos anjos e santos em Sua presença."
+      ],
+      "nota": "Os dois sentidos valem: o Céu que se curva sobre eles é o firmamento e é a morada de Deus."
+    },
+    "bends": {
+      "lema": "bend",
+      "classe": "verbo",
+      "forma": "presente, 3ª pessoa do singular",
+      "def": [
+        "(intransitivo) Tornar-se curvo; curvar-se."
+      ],
+      "nota": "«Heaven that bends above us»: o céu que se arqueia sobre nós."
+    },
+    "us": {
+      "lema": "us",
+      "classe": "pronome pessoal",
+      "forma": "caso objetivo",
+      "def": [
+        "Eu e pelo menos uma outra pessoa, incluindo as pessoas a quem se fala."
+      ]
+    },
+    "both": {
+      "lema": "both",
+      "classe": "pronome",
+      "def": [
+        "Cada um dos dois, ou dos dois tipos."
+      ]
+    },
+    "adore": {
+      "lema": "adore",
+      "classe": "verbo",
+      "forma": "presente",
+      "def": [
+        "Adorar; render culto."
+      ]
+    },
+    "laden": {
+      "lema": "laden",
+      "classe": "adjetivo",
+      "def": [
+        "Carregado de peso; sobrecarregado."
+      ],
+      "nota": "«Soul with sorrow laden»: alma carregada de tristeza."
+    },
+    "distant": {
+      "lema": "distant",
+      "classe": "adjetivo",
+      "def": [
+        "Longínquo (física, lógica ou mentalmente)."
+      ]
+    },
+    "aidenn": {
+      "lema": "Aidenn",
+      "classe": "substantivo próprio",
+      "def": [
+        "(poético) Paraíso."
+      ],
+      "nota": "Grafia própria de Poe para «Éden», o Paraíso onde os santos habitam."
+    },
+    "clasp": {
+      "lema": "clasp",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Segurar com firmeza; agarrar."
+      ],
+      "nota": "Aqui, no sentido de abraçar, estreitar nos braços."
+    },
+    "sainted": {
+      "lema": "sainted",
+      "classe": "adjetivo",
+      "def": [
+        "Usado para indicar que uma pessoa querida mencionada na conversa já morreu.",
+        "Feito santo; semelhante a santo, reverenciado."
+      ],
+      "nota": "Lenore é «sainted»: santa, falecida e no Céu."
+    },
+    "our": {
+      "lema": "our",
+      "classe": "determinante",
+      "def": [
+        "Pertencente a nós, incluindo as pessoas a quem se fala."
+      ]
+    },
+    "sign": {
+      "lema": "sign",
+      "classe": "substantivo",
+      "def": [
+        "Marca ou outro símbolo usado para representar algo; sinal."
+      ]
+    },
+    "parting": {
+      "lema": "parting",
+      "classe": "substantivo",
+      "def": [
+        "O ato de despedir-se ou separar-se; separação; partida."
+      ],
+      "nota": "«Sign of parting»: o sinal da despedida."
+    },
+    "fiend": {
+      "lema": "fiend",
+      "classe": "substantivo",
+      "def": [
+        "Diabo ou demônio; ser maligno ou diabólico; espírito mau."
+      ]
+    },
+    "shrieked": {
+      "lema": "shriek",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(intransitivo) Soltar um som alto, agudo e estridente; gritar, como num susto repentino, em horror ou angústia."
+      ]
+    },
+    "upstarting": {
+      "lema": "upstart",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Erguer-se de repente; saltar."
+      ]
+    },
+    "get": {
+      "lema": "get",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "(intransitivo, informal, sobretudo no imperativo) Ir-se embora; sair."
+      ],
+      "nota": "«Get thee back»: volta, retorna! Com «thee» antigo, em vez de «get back»."
+    },
+    "black": {
+      "lema": "black",
+      "classe": "adjetivo",
+      "def": [
+        "Que absorve toda a luz e não reflete nenhuma; escuro e sem cor."
+      ]
+    },
+    "plume": {
+      "lema": "plume",
+      "classe": "substantivo",
+      "def": [
+        "(arcaico, literário e poético) Pena de ave, sobretudo uma grande ou vistosa, usada como enfeite."
+      ]
+    },
+    "lie": {
+      "lema": "lie",
+      "classe": "substantivo",
+      "def": [
+        "Afirmação intencionalmente falsa; falsidade intencional."
+      ]
+    },
+    "loneliness": {
+      "lema": "loneliness",
+      "classe": "substantivo",
+      "def": [
+        "O estado de estar só ou sem companhia."
+      ]
+    },
+    "quit": {
+      "lema": "quit",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "(transitivo) Deixar (um lugar)."
+      ]
+    },
+    "take": {
+      "lema": "take",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "(transitivo) Retirar; remover."
+      ]
+    },
+    "beak": {
+      "lema": "beak",
+      "classe": "substantivo",
+      "def": [
+        "Estrutura rígida que se projeta da frente do rosto de uma ave, usada para bicar, limpar as penas, procurar comida, carregar coisas, comer etc.; bico."
+      ]
+    },
+    "out": {
+      "lema": "out",
+      "classe": "preposição",
+      "def": [
+        "Do interior para o exterior de; para fora de."
+      ],
+      "nota": "Em «from out», fora de, de dentro de."
+    },
+    "form": {
+      "lema": "form",
+      "classe": "substantivo",
+      "def": [
+        "A forma ou estrutura visível de uma coisa ou de uma pessoa."
+      ]
+    },
+    "off": {
+      "lema": "off",
+      "classe": "preposição",
+      "def": [
+        "Que não está sobre algo; afastado da posição sobre algo."
+      ],
+      "nota": "Em «from off», de cima de."
+    },
+    "flitting": {
+      "lema": "flit",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Mover-se com rapidez e agilidade."
+      ],
+      "nota": "«Never flitting» é «sem nunca se mexer»: o corvo não vai embora."
+    },
+    "pallid": {
+      "lema": "pallid",
+      "classe": "adjetivo",
+      "def": [
+        "De aparência fraca, pálida ou lívida."
+      ]
+    },
+    "seeming": {
+      "lema": "seeming",
+      "classe": "substantivo",
+      "def": [
+        "Aparência exterior."
+      ]
+    },
+    "demon's": {
+      "lema": "demon",
+      "classe": "substantivo",
+      "forma": "genitivo (possessivo)",
+      "def": [
+        "Ser sobrenatural maligno."
+      ]
+    },
+    "him": {
+      "lema": "him",
+      "classe": "pronome pessoal",
+      "forma": "caso objetivo",
+      "def": [
+        "Pronome masculino: «he» como objeto gramatical."
+      ]
+    },
+    "streaming": {
+      "lema": "stream",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(intransitivo) Fluir de modo contínuo e constante, como um líquido."
+      ],
+      "nota": "Aqui, a luz da lâmpada jorra sobre o corvo."
+    },
+    "throws": {
+      "lema": "throw",
+      "classe": "verbo",
+      "forma": "presente, 3ª pessoa do singular",
+      "def": [
+        "(transitivo) Projetar ou lançar."
+      ],
+      "nota": "Aqui, a luz lança a sombra do corvo no chão."
+    },
+    "shadow": {
+      "lema": "shadow",
+      "classe": "substantivo",
+      "def": [
+        "Imagem escura projetada numa superfície onde a luz (ou outra radiação) é bloqueada pela sombra de um objeto."
+      ]
+    },
+    "lies": {
+      "lema": "lie",
+      "classe": "verbo",
+      "forma": "presente, 3ª pessoa do singular",
+      "def": [
+        "(intransitivo) Repousar em posição horizontal sobre uma superfície."
+      ]
+    },
+    "floating": {
+      "lema": "float",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(intransitivo) Deslocar-se suavemente, como se fosse sustentado."
+      ],
+      "nota": "A sombra do corvo parece boiar no chão, sem nunca se mexer dali."
+    },
+    "lifted": {
+      "lema": "lift",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Fazer subir; erguer."
+      ]
+    },
+    "be#3": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Usado com particípios passados de verbos para formar a voz passiva."
+      ],
+      "nota": "«Shall be lifted»: será erguida, com «shall» para o futuro."
+    },
+    "be#4": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "subjuntivo",
+      "def": [
+        "Indicar que o sujeito tem as qualidades descritas por um adjetivo ou locução preposicional."
+      ],
+      "nota": "«Be that word our sign of parting»: seja essa palavra o nosso sinal de despedida. O subjuntivo sozinho, sem «let» nem «may», exprime o desejo ou a ordem, como na língua antiga."
+    }
+  },
+  "ocorrencias": {
+    "24.2": "there#2",
+    "25.9": "there#2",
+    "28.5": "there#2",
+    "38.2": "there#2",
+    "5.6": "tapping#2",
+    "22.6": "tapping#2",
+    "22.7": "tapping#2",
+    "54.4": "as#2",
+    "99.5": "as#3",
+    "56.2": "one#2",
+    "56.10": "one#2",
+    "64.9": "one#2",
+    "28.3": "only#2",
+    "62.9": "only#2",
+    "34.9": "this#2",
+    "35.9": "this#2",
+    "43.2": "this#2",
+    "49.4": "this#2",
+    "70.6": "this#2",
+    "71.2": "this#2",
+    "83.4": "this#2",
+    "83.9": "this#2",
+    "87.6": "this#2",
+    "88.2": "this#2",
+    "93.2": "this#2",
+    "58.4": "more#2",
+    "75.3": "more#3",
+    "21.6": "was#2",
+    "52.3": "was#3",
+    "34.7": "is#2",
+    "89.1": "is#2",
+    "89.3": "is#2",
+    "103.7": "is#3",
+    "103.10": "is#3",
+    "105.12": "is#3",
+    "47.6": "name#2",
+    "54.3": "name#2",
+    "35.5": "still#2",
+    "67.4": "still#3",
+    "85.8": "still#3",
+    "91.8": "still#3",
+    "103.6": "still#3",
+    "103.9": "still#3",
+    "86.9": "here#2",
+    "45.12": "sure#2",
+    "51.1": "for#2",
+    "12.3": "for#3",
+    "21.9": "so#2",
+    "22.2": "so#2",
+    "49.10": "so#2",
+    "61.8": "so#2",
+    "25.3": "that#2",
+    "56.1": "that#2",
+    "56.9": "that#2",
+    "92.2": "that#2",
+    "92.9": "that#2",
+    "97.2": "that#2",
+    "99.9": "that#2",
+    "107.6": "that#2",
+    "65.7": "that#3",
+    "76.6": "that#3",
+    "92.4": "that#3",
+    "105.11": "that#3",
+    "107.8": "that#3",
+    "33.5": "that#4",
+    "34.4": "then#2",
+    "69.9": "to#2",
+    "74.1": "to#3",
+    "26.4": "no#2",
+    "27.10": "no#2",
+    "45.13": "no#2",
+    "51.7": "no#2",
+    "73.8": "no#2",
+    "99.2": "no#2",
+    "61.2": "at#2",
+    "75.10": "at#3",
+    "38.1": "in#2",
+    "72.2": "in#3",
+    "37.8": "with#2",
+    "40.2": "with#2",
+    "54.1": "with#2",
+    "75.7": "with#2",
+    "77.6": "with#2",
+    "45.4": "be#2",
+    "31.1": "back#2",
+    "93.7": "if#2",
+    "105.4": "have#2",
+    "99.1": "leave#2",
+    "100.1": "leave#2",
+    "76.4": "velvet#2",
+    "77.3": "velvet#2",
+    "108.2": "be#3",
+    "97.1": "be#4"
+  }
+}

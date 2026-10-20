@@ -163,7 +163,12 @@ def pasta_da_forma(forma):
             return 'verso-livre'
     return 'outras'
 
-# Traduções: pasta em traducao/, autor, ano, língua, livro do original e notas do visualizador
+# Traduções: pasta em traducao/, autor, ano, língua, livro do original e notas do visualizador.
+# Fora do site desde 20/10/2026 (decidido em 9/10): a Literatura não tem traduções nossas (o Beowulf,
+# publicado por ferramentas/traducoes.py, é a exceção). Poe, Baudelaire e Verlaine voltaram na língua
+# original, com notas (edicoes/lingua-original); Goethe, em alemão, ficou de fora. As traduções ficam guardadas no Versificador
+# e nesta lista; para voltar a publicá-las, ponha True e recadastre os autores em conteudo/autores.js.
+PUBLICAR_TRADUCOES = False
 TRADUCOES = [
     {'pasta': 'o-corvo', 'autor': 'edgar-allan-poe', 'ano': 1845, 'lingua': 'inglês', 'codigo': 'en',
      'livro': ('The Raven and Other Poems', 1845),
@@ -767,11 +772,12 @@ def main():
     poemas, excluidos = carregar_corpus(args.fonte)
     poemas = tirar_duplicatas(poemas, excluidos)
     obras, livros = montar(poemas)
-    obras_t, livros_t = carregar_traducoes(args.fonte)
-    for a, l in obras_t.items():
-        obras.setdefault(a, []).extend(l)
-    for a, l in livros_t.items():
-        livros.setdefault(a, {}).update(l)
+    if PUBLICAR_TRADUCOES:
+        obras_t, livros_t = carregar_traducoes(args.fonte)
+        for a, l in obras_t.items():
+            obras.setdefault(a, []).extend(l)
+        for a, l in livros_t.items():
+            livros.setdefault(a, {}).update(l)
 
     nomes = nomes_dos_autores()
     faltam = sorted(set(obras) - set(nomes))

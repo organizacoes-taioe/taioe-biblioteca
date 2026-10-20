@@ -204,11 +204,13 @@
 
   /* ---------------------------------------------------------------- original e tradução */
   /* Todo texto abre só em português; a escolha segue de parte em parte da mesma obra (vale
-     quando se chega pela navegação da própria obra) e volta ao português ao reabrir o texto. */
+     quando se chega pela navegação da própria obra) e volta ao português ao reabrir o texto.
+     O poema na língua original com tradução ao lado (data-abre="orig") abre no original. */
   var art = document.querySelector('.bilingue');
   if (art && $('idiomas')) {
     var ESTREITO = window.matchMedia ? window.matchMedia('(max-width: 760px)') : { matches: false };
-    var idiomas = { obra: D.obra, orig: false, trad: true, ultimo: 'trad' };
+    var idiomas = art.getAttribute('data-abre') === 'orig' ? { obra: D.obra, orig: true, trad: false, ultimo: 'orig' }
+      : { obra: D.obra, orig: false, trad: true, ultimo: 'trad' };
     try {
       var s = JSON.parse(sessionStorage.getItem('biblioteca:idiomas'));
       var veioDaObra = document.referrer && new URL(document.referrer).pathname.indexOf(D.urlObra) === 0;

@@ -1,0 +1,831 @@
+{
+  "verbetes": {
+    "l’": {
+      "lema": "l’",
+      "classe": "artigo definido",
+      "forma": "elisão de «le» e «la»",
+      "def": [
+        "Elisão dos artigos definidos «le» e «la» diante de vogal ou de h mudo."
+      ]
+    },
+    "l’#2": {
+      "lema": "l’",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «le» e «la»",
+      "def": [
+        "Elisão dos pronomes pessoais «la» e «le» diante de vogal ou de h mudo."
+      ],
+      "nota": "Aqui, «l’empêchent» é «o impedem»: o pronome retoma o poeta-albatroz."
+    },
+    "albatros": {
+      "lema": "albatros",
+      "classe": "substantivo masculino",
+      "def": [
+        "Ave palmípede dos mares austrais, com cerca de vinte espécies; a grande envergadura de suas asas faz delas veleiros excepcionais."
+      ]
+    },
+    "souvent": {
+      "lema": "souvent",
+      "classe": "advérbio",
+      "def": [
+        "Um grande número de vezes; com frequência."
+      ]
+    },
+    "pour": {
+      "lema": "pour",
+      "classe": "preposição",
+      "def": [
+        "Com o objetivo de; a fim de."
+      ],
+      "nota": "«Pour s’amuser»: por divertimento, para se divertir."
+    },
+    "s’": {
+      "lema": "s’",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «se»",
+      "def": [
+        "Elisão do pronome pessoal «se» diante de vogal ou de h mudo."
+      ]
+    },
+    "amuser": {
+      "lema": "amuser",
+      "classe": "verbo",
+      "forma": "infinitivo, com «se»",
+      "def": [
+        "(Pronominal) Ocupar-se por simples divertimento."
+      ]
+    },
+    "les": {
+      "lema": "les",
+      "classe": "artigo definido",
+      "forma": "plural",
+      "def": [
+        "Plural de «le» ou «la»."
+      ]
+    },
+    "les#2": {
+      "lema": "les",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal da 3ª pessoa do plural, no acusativo."
+      ],
+      "nota": "Aqui, «les» são os albatrozes: «mal os pousam no convés»."
+    },
+    "hommes": {
+      "lema": "homme",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "(Antropologia) Ser humano adulto de gênero ou sexo masculino, em oposição à mulher e à criança."
+      ],
+      "nota": "«Hommes d’équipage» são os marujos, os homens da tripulação."
+    },
+    "d’": {
+      "lema": "d’",
+      "classe": "preposição",
+      "forma": "elisão de «de»",
+      "def": [
+        "Elisão da preposição «de» diante de vogal ou de h mudo."
+      ]
+    },
+    "équipage": {
+      "lema": "équipage",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Marinha) Conjunto daqueles que tripulam um navio para fazer o serviço e a manobra."
+      ]
+    },
+    "prennent": {
+      "lema": "prendre",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Apoderar-se, apanhar à força uma coisa ou uma pessoa."
+      ],
+      "nota": "Aqui, os marujos capturam os albatrozes."
+    },
+    "des": {
+      "lema": "des",
+      "classe": "artigo indefinido",
+      "forma": "plural",
+      "def": [
+        "Artigo indefinido do plural. É, assim, o plural de «un» ou «une»."
+      ]
+    },
+    "des#2": {
+      "lema": "des",
+      "classe": "artigo definido",
+      "forma": "contraído",
+      "def": [
+        "Contração do artigo definido do plural «les» com a preposição «de»."
+      ]
+    },
+    "vastes": {
+      "lema": "vaste",
+      "classe": "adjetivo",
+      "forma": "plural",
+      "def": [
+        "Que é de grande extensão."
+      ]
+    },
+    "oiseaux": {
+      "lema": "oiseau",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Animal vertebrado terópode, de duas patas e duas asas, ovíparo, homeotérmico, de corpo coberto de penas e com um bico córneo desprovido de dentes."
+      ]
+    },
+    "mers": {
+      "lema": "mer",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Vasta extensão de água salgada que banha as diversas partes da Terra."
+      ]
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "O qual, a qual, os quais, as quais. Serve para designar o sujeito na oração relativa."
+      ]
+    },
+    "suivent": {
+      "lema": "suivre",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ir ou vir atrás."
+      ],
+      "nota": "Os albatrozes acompanham o navio, voando atrás dele."
+    },
+    "indolents": {
+      "lema": "indolent",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Displicente, nonchalante.",
+        "Que carece de vivacidade."
+      ]
+    },
+    "compagnons": {
+      "lema": "compagnon",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Aquele que está habitualmente com outro ou que faz com ele a mesma coisa."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica a posse (o genitivo)."
+      ]
+    },
+    "de#2": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Serve também para formar o complemento de grande número de adjetivos e o complemento de objeto indireto de muitos verbos."
+      ],
+      "nota": "Aqui o verbo é que pede a preposição: «se rire de» (zombar de, não fazer caso de) e «empêcher de» (impedir de)."
+    },
+    "voyage": {
+      "lema": "voyage",
+      "classe": "substantivo masculino",
+      "def": [
+        "Ação de deslocar-se por um caminho mais ou menos longo para ir de uma cidade a outra, de um país a outro, de um lugar a outro."
+      ]
+    },
+    "le": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante que marca um substantivo masculino singular, referindo-se a uma única entidade possível num contexto."
+      ]
+    },
+    "navire": {
+      "lema": "navire",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Navegação) Barco que serve para navegar no mar."
+      ]
+    },
+    "glissant": {
+      "lema": "glisser",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Pôr-se em movimento como que escorrendo sobre uma superfície lisa ou ao longo de outro corpo.",
+        "(Figurado) Deslocar-se com leveza e desenvoltura."
+      ]
+    },
+    "sur": {
+      "lema": "sur",
+      "classe": "preposição",
+      "def": [
+        "Indica uma posição mais elevada.",
+        "Exprime a ideia de contato."
+      ]
+    },
+    "gouffres": {
+      "lema": "gouffre",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "(Espeleologia) Cavidade subterrânea natural, larga e profunda."
+      ],
+      "nota": "Aqui, os abismos do mar, vistos de cima pelo navio que desliza sobre eles."
+    },
+    "amers": {
+      "lema": "amer",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que tem sabor áspero e em geral desagradável.",
+        "(Figurado) Que é penoso, triste, doloroso."
+      ],
+      "nota": "O mar é amargo no gosto e na dor: os dois sentidos valem."
+    },
+    "à": {
+      "lema": "à",
+      "classe": "preposição",
+      "def": [
+        "Introduz um complemento circunstancial de lugar."
+      ]
+    },
+    "à#2": {
+      "lema": "à",
+      "classe": "preposição",
+      "def": [
+        "Introduz um complemento circunstancial de maneira."
+      ],
+      "nota": "Em «à peine», faz parte da locução."
+    },
+    "peine": {
+      "lema": "à peine",
+      "classe": "locução adverbial",
+      "def": [
+        "Por uma pequena margem; apenas, somente.",
+        "Logo, com pouco tempo decorrido desde que aconteceu a coisa de que se fala."
+      ],
+      "nota": "«À peine… que»: mal… e logo. O «que» do verso seguinte completa a frase."
+    },
+    "ont": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "(Auxiliar) Serve para formar os tempos compostos, significando o passado, a conclusão ou a experiência."
+      ],
+      "nota": "«Les ont-ils déposés» é um pretérito composto («depositaram-nos»), com o sujeito «ils» depois do verbo."
+    },
+    "ils": {
+      "lema": "ils",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome clítico da 3ª pessoa do plural, sujeito, quando se fala de um grupo de homens ou de coisas gramaticalmente masculinas."
+      ]
+    },
+    "déposés": {
+      "lema": "déposer",
+      "classe": "verbo",
+      "forma": "particípio passado, masculino plural",
+      "def": [
+        "Tirar uma coisa que se carregava e pô-la no chão."
+      ]
+    },
+    "planches": {
+      "lema": "planche",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Tábua, peça de madeira serrada, de pouca espessura."
+      ],
+      "nota": "Aqui, as tábuas do convés do navio."
+    },
+    "que": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Complementador que introduz uma oração subordinada completiva."
+      ]
+    },
+    "ces": {
+      "lema": "ce",
+      "classe": "determinante demonstrativo",
+      "forma": "plural",
+      "def": [
+        "Plural de «ce» e «cette»."
+      ]
+    },
+    "rois": {
+      "lema": "roi",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "(Figurado) Homem que ocupa uma posição eminente num domínio, que se destaca, que supera seus iguais."
+      ],
+      "nota": "«Rois de l’azur»: os reis do céu azul, isto é, os albatrozes."
+    },
+    "azur": {
+      "lema": "azur",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Literário, no singular) O próprio céu, azul e puro."
+      ]
+    },
+    "maladroits": {
+      "lema": "maladroit",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que carece de destreza."
+      ]
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção coordenativa",
+      "def": [
+        "Reúne vários conceitos numa mesma relação."
+      ]
+    },
+    "honteux": {
+      "lema": "honteux",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que sente vergonha."
+      ]
+    },
+    "laissent": {
+      "lema": "laisser",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Permitir; tolerar; não impedir."
+      ],
+      "nota": "Seguido de infinitivo («laissent… traîner»): deixam as asas arrastar."
+    },
+    "piteusement": {
+      "lema": "piteusement",
+      "classe": "advérbio",
+      "def": [
+        "(Desusado) De maneira a suscitar piedade."
+      ],
+      "nota": "Aqui, de modo lastimável, de dar pena."
+    },
+    "leurs": {
+      "lema": "leur",
+      "classe": "determinante possessivo",
+      "forma": "plural",
+      "def": [
+        "3ª pessoa do plural. Que são deles. Vários possuidores e vários objetos."
+      ]
+    },
+    "grandes": {
+      "lema": "grand",
+      "classe": "adjetivo",
+      "forma": "feminino plural",
+      "def": [
+        "De dimensões importantes (altura, comprimento etc.), que superam as de seus semelhantes."
+      ]
+    },
+    "ailes": {
+      "lema": "aile",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "(Zoologia) Parte do corpo de um animal, como uma ave, um inseto ou um morcego, que lhe permite voar."
+      ]
+    },
+    "blanches": {
+      "lema": "blanc",
+      "classe": "adjetivo",
+      "forma": "feminino plural",
+      "def": [
+        "De uma cor como a dos ossos, do giz ou da espuma, entre outros."
+      ]
+    },
+    "comme": {
+      "lema": "comme",
+      "classe": "advérbio",
+      "def": [
+        "Do mesmo modo que; como."
+      ]
+    },
+    "comme#2": {
+      "lema": "comme",
+      "classe": "advérbio",
+      "def": [
+        "A que ponto, quanto."
+      ],
+      "nota": "Na exclamação «comme il est gauche!»: como ele é desajeitado!"
+    },
+    "avirons": {
+      "lema": "aviron",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Remo, de que se serve para manobrar uma embarcação."
+      ],
+      "nota": "Imagem: as asas compridas, caídas, arrastam como remos."
+    },
+    "traîner": {
+      "lema": "traîner",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "(Intransitivo) Pender até o chão."
+      ]
+    },
+    "côté": {
+      "lema": "à côté de",
+      "classe": "preposição",
+      "def": [
+        "Ao lado de, junto de."
+      ],
+      "nota": "Com «à» e «d’eux»: «à côté d’eux», ao lado deles."
+    },
+    "eux": {
+      "lema": "eux",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome tônico da 3ª pessoa do plural masculino."
+      ]
+    },
+    "ce": {
+      "lema": "ce",
+      "classe": "determinante demonstrativo",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante usado para pôr em evidência uma coisa ou uma pessoa que se tem diante de si."
+      ]
+    },
+    "voyageur": {
+      "lema": "voyageur",
+      "classe": "substantivo masculino",
+      "def": [
+        "Aquele que viaja."
+      ]
+    },
+    "ailé": {
+      "lema": "ailé",
+      "classe": "adjetivo",
+      "def": [
+        "Que possui asas."
+      ]
+    },
+    "il": {
+      "lema": "il",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome da 3ª pessoa do singular masculino (usado exclusivamente como sujeito). Designa uma pessoa, um animal ou uma coisa cujo gênero é masculino."
+      ]
+    },
+    "est": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Definir um estado, uma característica do sujeito."
+      ]
+    },
+    "gauche": {
+      "lema": "gauche",
+      "classe": "adjetivo",
+      "def": [
+        "(Figurado) Que é constrangido, sem graça.",
+        "Que é desajeitado."
+      ],
+      "nota": "Aqui, o albatroz em terra: desajeitado e sem graça no andar."
+    },
+    "veule": {
+      "lema": "veule",
+      "classe": "adjetivo",
+      "def": [
+        "Que carece de energia, de coragem, de ânimo."
+      ],
+      "nota": "Aqui, frouxo, sem ânimo: a ave sem forças fora do ar."
+    },
+    "lui": {
+      "lema": "lui",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome tônico da 3ª pessoa do singular masculino."
+      ]
+    },
+    "naguère": {
+      "lema": "naguère",
+      "classe": "advérbio",
+      "def": [
+        "(Desusado) Pouco tempo antes; antigamente."
+      ],
+      "nota": "No francês de hoje a palavra costuma querer dizer «há muito tempo»; aqui vale o sentido antigo: ainda há pouco."
+    },
+    "si": {
+      "lema": "si",
+      "classe": "advérbio",
+      "def": [
+        "Tão, a tal ponto."
+      ]
+    },
+    "beau": {
+      "lema": "beau",
+      "classe": "adjetivo",
+      "def": [
+        "De aspecto agradável à vista ou ao ouvido."
+      ]
+    },
+    "qu’": {
+      "lema": "qu’",
+      "classe": "conjunção",
+      "forma": "elisão de «que»",
+      "def": [
+        "Elisão da conjunção «que» diante de vogal ou de h mudo."
+      ],
+      "nota": "«Si beau… qu’il est comique»: tão belo… que é cômico; o «que» liga o efeito ao «si»."
+    },
+    "comique": {
+      "lema": "comique",
+      "classe": "adjetivo",
+      "def": [
+        "Que é próprio para fazer rir."
+      ]
+    },
+    "laid": {
+      "lema": "laid",
+      "classe": "adjetivo",
+      "def": [
+        "(Pejorativo) Que tem algum defeito visível nas proporções, nas formas ou nas cores que constituem a beleza nos seres humanos e nos animais.",
+        "(Pejorativo) Que é desagradável de ver."
+      ]
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante colocado diante de um substantivo que representa um objeto, animado ou inanimado, que não se conhece com precisão."
+      ]
+    },
+    "un#2": {
+      "lema": "un",
+      "classe": "pronome indefinido",
+      "def": [
+        "Uma pessoa ou coisa entre várias outras."
+      ],
+      "nota": "«L’un… l’autre»: um… o outro, os dois marujos que zombam da ave."
+    },
+    "agace": {
+      "lema": "agacer",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "(Figurado) Provocar irritação, contrariar, até causar impaciência."
+      ],
+      "nota": "O marujo provoca a ave, enfiando-lhe o cachimbo no bico."
+    },
+    "son": {
+      "lema": "son",
+      "classe": "determinante possessivo",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante possessivo da 3ª pessoa, de um só possuidor, diante de um substantivo masculino singular."
+      ]
+    },
+    "bec": {
+      "lema": "bec",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Zoologia) Parte saliente, dura e córnea, formada de duas partes chamadas mandíbulas, usada pelas aves para pegar e consumir o alimento."
+      ]
+    },
+    "avec": {
+      "lema": "avec",
+      "classe": "preposição",
+      "def": [
+        "Introduz complementos circunstanciais que indicam a maneira, o instrumento etc."
+      ]
+    },
+    "brûle-gueule": {
+      "lema": "brûle-gueule",
+      "classe": "substantivo masculino",
+      "def": [
+        "Cachimbo de haste muito curta."
+      ]
+    },
+    "autre": {
+      "lema": "autre",
+      "classe": "substantivo",
+      "def": [
+        "Emprega-se em oposição a «un» ou «une» para distinguir dois seres ou duas coisas."
+      ],
+      "nota": "«L’un… l’autre»: um… o outro."
+    },
+    "mime": {
+      "lema": "mimer",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Imitar por meio de gestos e à maneira dos atores chamados mimos."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "(Seguida do particípio presente) Preposição que serve para formar um gerúndio que marca o tempo, a duração."
+      ],
+      "nota": "«En boitant»: mancando, enquanto manca."
+    },
+    "boitant": {
+      "lema": "boiter",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Mancar, inclinar a cada passo o corpo mais para um lado que para o outro, ou alternadamente para um lado e para o outro."
+      ]
+    },
+    "infirme": {
+      "lema": "infirme",
+      "classe": "substantivo",
+      "def": [
+        "Pessoa afetada por uma ou mais enfermidades."
+      ],
+      "nota": "O aleijado, o inválido: aqui, a ave que não consegue andar em terra."
+    },
+    "volait": {
+      "lema": "voler",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Manter-se no ar batendo as asas."
+      ],
+      "nota": "O imperfeito marca o que ele fazia antes e agora não faz: «o aleijado que voava»."
+    },
+    "poète": {
+      "lema": "poète",
+      "classe": "substantivo masculino",
+      "def": [
+        "Aquele que faz versos, que se dedica à poesia."
+      ],
+      "nota": "«Le Poète», com maiúscula, é o poeta em geral: o poema compara a sua sorte à do albatroz."
+    },
+    "semblable": {
+      "lema": "semblable",
+      "classe": "adjetivo",
+      "def": [
+        "Que é parecido, semelhante, de mesma natureza, de mesma qualidade, que tem características comuns."
+      ]
+    },
+    "au": {
+      "lema": "au",
+      "classe": "artigo definido",
+      "forma": "contraído",
+      "def": [
+        "Contração da preposição «à» e do artigo definido «le»."
+      ]
+    },
+    "prince": {
+      "lema": "prince",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Formal) Aquele que é o primeiro em ordem de dignidade, de mérito, de talento."
+      ]
+    },
+    "nuées": {
+      "lema": "nuée",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "(Antiquado) Nuvem extensa, espessa, escura. Usa-se sobretudo no plural, para designar as nuvens que se acumulam no céu antes de uma tempestade."
+      ]
+    },
+    "hante": {
+      "lema": "hanter",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Frequentar algum lugar mal-afamado ou sobre o qual se exerce má influência."
+      ],
+      "nota": "Aqui, o albatroz frequenta a tempestade como a seu lugar, sem medo."
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Feminino singular de «le». Determina um grupo nominal feminino singular."
+      ]
+    },
+    "tempête": {
+      "lema": "tempête",
+      "classe": "substantivo feminino",
+      "def": [
+        "Tormenta atmosférica, violenta agitação do ar, muitas vezes acompanhada de chuva, neve, granizo, relâmpagos, trovões etc."
+      ]
+    },
+    "se": {
+      "lema": "se",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal da 3ª pessoa, dos dois gêneros e dos dois números; serve de complemento de um verbo pronominal reflexivo."
+      ]
+    },
+    "rit": {
+      "lema": "rire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Zombar de alguém.",
+        "Não levar em conta uma coisa, desprezá-la."
+      ],
+      "nota": "Aqui, no sentido de «se rire de»: o príncipe despreza o arqueiro, sem se importar com ele."
+    },
+    "archer": {
+      "lema": "archer",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Tiro com arco) Atirador ou atiradora com arco."
+      ]
+    },
+    "exilé": {
+      "lema": "exilé",
+      "classe": "adjetivo",
+      "def": [
+        "Que vive no exílio, longe."
+      ]
+    },
+    "milieu": {
+      "lema": "au milieu de",
+      "classe": "preposição",
+      "def": [
+        "No seio de; entre; em meio a."
+      ],
+      "nota": "«Au milieu des huées»: em meio às vaias."
+    },
+    "huées": {
+      "lema": "huée",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "(Figurado, sobretudo no plural) Gritos de zombaria pelos quais uma reunião de pessoas manifesta seu descontentamento ou seu desprezo."
+      ]
+    },
+    "sol": {
+      "lema": "sol",
+      "classe": "substantivo masculino",
+      "def": [
+        "Superfície da terra onde se está, onde se anda, sobre a qual se constrói etc."
+      ]
+    },
+    "ses": {
+      "lema": "son",
+      "classe": "determinante possessivo",
+      "forma": "plural",
+      "def": [
+        "Plural dos determinantes possessivos «son» e «sa». Que são dele ou dela. Um só possuidor e vários objetos."
+      ]
+    },
+    "géant": {
+      "lema": "géant",
+      "classe": "substantivo masculino",
+      "def": [
+        "Pessoa que excede muito a estatura ordinária."
+      ],
+      "nota": "«Ailes de géant»: asas de gigante, grandes demais para andar em terra."
+    },
+    "empêchent": {
+      "lema": "empêcher",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Tornar impossível, irrealizável; opor-se a; fazer obstáculo."
+      ]
+    },
+    "marcher": {
+      "lema": "marcher",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "(Intransitivo) Deslocar-se por um movimento alternado das pernas ou das patas, tendo sempre um apoio no chão."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "16.5": "l’#2",
+    "11.2": "un#2",
+    "2.6": "des#2",
+    "13.7": "des#2",
+    "15.7": "des#2",
+    "5.3": "les#2",
+    "14.8": "de#2",
+    "16.7": "de#2",
+    "9.4": "comme#2",
+    "5.1": "à#2"
+  }
+}

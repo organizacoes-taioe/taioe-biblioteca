@@ -5,8 +5,10 @@ parte por parte, seguindo a divisão interna do próprio livro (capítulos, cant
 
 Primeira obra: **Machado de Assis — _Dom Casmurro_**, em texto estabelecido para esta
 biblioteca (ver abaixo). Depois, a prosa de Machado e a **poesia** do corpus do Versificador:
-cerca de 2.100 poemas de 28 poetas de língua portuguesa e poemas estrangeiros traduzidos, com
-o original ao lado.
+cerca de 2.100 poemas de 28 poetas de língua portuguesa. Na Literatura, textos escritos em
+português, o _Beowulf_ traduzido, com o original ao lado, e poemas em espanhol, inglês e francês
+na língua original, com uma nota em cada palavra (`edicoes/lingua-original/`); as traduções
+nossas seguem no Catolicismo.
 
 ## Como funciona
 
@@ -41,7 +43,7 @@ As rotas usam `#`, de modo que qualquer hospedagem estática serve:
 | `#/o/o-alienista/1`      | um conto (cada conto é uma obra; o livro vai em `coletanea`) |
 | `#/a/olavo-bilac`        | num poeta, direto as pastas por forma   |
 | `#/a/olavo-bilac/poesia/sonetos` | os sonetos do autor, livro a livro |
-| `#/o/o-corvo/1`          | um poema (aqui, traduzido: original ao lado) |
+| `#/o/beowulf/1`          | uma obra traduzida: original ao lado    |
 
 Na leitura, as setas ← e → do teclado passam de uma parte para outra. O site guarda no
 navegador a última parte lida de cada obra, o tema (claro ou escuro) e o tamanho da letra.
@@ -131,7 +133,9 @@ anterior ou seguinte do mesmo livro.
 ## Poesia
 
 Os poemas vêm do corpus do Versificador (`Solar/Editora/Versificador`): o texto em ortografia
-atualizada de `corpus/<autor>/` e as traduções de `traducao/<poema>/`. Os poemas infantis
+atualizada de `corpus/<autor>/`. As traduções de `traducao/<poema>/` (Poe, Baudelaire, Verlaine,
+Goethe) saíram do site em 20/10/2026 (Poe, Baudelaire e Verlaine voltaram na língua original):
+ficam no Versificador e na lista `TRADUCOES`, desligada por `PUBLICAR_TRADUCOES`. Os poemas infantis
 ficam de fora, assim como os trechos de teste de `poemas/` (os poemas completos de lá já estão
 no corpus). Para publicar de novo depois de mudar o corpus:
 

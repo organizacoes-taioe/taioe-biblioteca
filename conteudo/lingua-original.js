@@ -25,7 +25,7 @@ BIBLIOTECA.poemas({
   arquivo: "conteudo/sao-joao-da-cruz/lingua-original.js",
   livros: [{"id": "obras-espirituales", "titulo": "Obras espirituales", "ano": 1618}],
   poemas: [
-    {"id":"sao-joao-da-cruz-noche-oscura","titulo":"Noche oscura","forma":"liras","livro":0,"ordem":0,"versos":40,"lingua":"es","ano":1618,"glossario":true}
+    {"id":"sao-joao-da-cruz-noche-oscura","titulo":"Noche oscura","forma":"liras","livro":0,"ordem":0,"versos":40,"lingua":"es","ano":1618,"glossario":true,"pt":{"tradutor":"Teófilo Braga","titulo":"A noite escura da alma","ano":1869}}
   ]
 });
 
@@ -99,7 +99,7 @@ BIBLIOTECA.poemas({
   arquivo: "conteudo/charles-baudelaire/lingua-original.js",
   livros: [{"id": "les-fleurs-du-mal", "titulo": "Les Fleurs du mal", "ano": 1861}],
   poemas: [
-    {"id":"charles-baudelaire-l-albatros","titulo":"L’Albatros","forma":"outras","livro":0,"ordem":0,"versos":16,"lingua":"fr","ano":1861,"glossario":true}
+    {"id":"charles-baudelaire-l-albatros","titulo":"L’Albatros","forma":"outras","livro":0,"ordem":0,"versos":16,"lingua":"fr","ano":1861,"glossario":true,"pt":{"tradutor":"Eduardo Guimaraens","titulo":"O albatroz","ano":null}}
   ]
 });
 

@@ -83,6 +83,15 @@ BIBLIOTECA.autor({
   nota: 'Escritor e jornalista inglês, convertido ao catolicismo em 1922. Em tradução do inglês.'
 });
 
+BIBLIOTECA.autor({
+  id: 'igreja-catolica',
+  nome: 'Igreja Católica',
+  area: 'catolicismo',
+  organizacao: true,                 // nos dados estruturados, Organization em vez de Person
+  ordem: 'Igreja Católica',
+  nota: 'Documentos do magistério da Igreja.'
+});
+
 /* As orações em latim, na língua original, com nota em cada palavra (edicoes/lingua-original), sob o
    nome «Orações»; «nome» logo depois de «id», como os Cards o leem. */
 BIBLIOTECA.autor({

@@ -1284,6 +1284,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('gregorio-de-matos/soneto-triste-bahia-oh-quao-dessemelhante', 'Triste Bahia! Oh quão dessemelhante'),
   ('gregorio-de-matos/soneto-um-soneto-comeco-em-vosso-gabo', 'Um soneto começo em vosso gabo'),
   ('gustavo-adolfo-becquer/rima-xxi', 'Rima XXI'),
+  ('igreja-catolica/catecismo-da-igreja-catolica', 'Catecismo da Igreja Católica'),
   ('john-donne/death-be-not-proud', 'Death, be not proud'),
   ('john-keats/to-autumn', 'To Autumn'),
   ('joseph-tissot/arte-de-aproveitar-as-faltas', 'A arte de aproveitar as próprias faltas'),

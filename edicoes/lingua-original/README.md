@@ -14,7 +14,8 @@ nossa do uso no verso.
   (pedido de 2026-10-20; nunca uma tradução nossa). Vai no botão «Português», ao lado do original, que
   continua a abrir primeiro. Ortografia atualizada (AO1990, com os acentos de Portugal nos portugueses).
   Em `obras.json`, o campo `traducao`: `tradutor`, `titulo`, `ano`, `publicacao` (frase da página «Sobre»)
-  e `fonte`. Hoje: Fernando Pessoa (*O Corvo*, *Annabel Lee*) e Alphonsus de Guimaraens (*Canção do Outono*).
+  e `fonte`. Hoje: Fernando Pessoa (*O Corvo*, *Annabel Lee*), Alphonsus de Guimaraens
+  (*Canção do Outono*), Teófilo Braga (*A noite escura da alma*) e Eduardo Guimaraens (*O albatroz*).
 
 ```bash
 python ferramentas/lingua_original.py palavras <pasta>         # as palavras, com a posição e a chave

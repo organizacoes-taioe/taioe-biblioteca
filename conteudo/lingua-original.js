@@ -106,8 +106,45 @@ BIBLIOTECA.poemas({
 BIBLIOTECA.poemas({
   autor: "paul-verlaine",
   arquivo: "conteudo/paul-verlaine/lingua-original.js",
-  livros: [{"id": "po-mes-saturniens", "titulo": "Poèmes saturniens", "ano": 1866}],
+  livros: [{"id": "po-mes-saturniens", "titulo": "Poèmes saturniens", "ano": 1866}, {"id": "romances-sans-paroles", "titulo": "Romances sans paroles", "ano": 1874}],
   poemas: [
-    {"id":"paul-verlaine-chanson-d-automne","titulo":"Chanson d’automne","forma":"outras","livro":0,"ordem":0,"versos":18,"lingua":"fr","ano":1866,"glossario":true,"pt":{"tradutor":"Alphonsus de Guimaraens","titulo":"Canção do Outono","ano":null}}
+    {"id":"paul-verlaine-chanson-d-automne","titulo":"Chanson d’automne","forma":"outras","livro":0,"ordem":0,"versos":18,"lingua":"fr","ano":1866,"glossario":true,"pt":{"tradutor":"Alphonsus de Guimaraens","titulo":"Canção do Outono","ano":null}},
+    {"id":"paul-verlaine-il-pleure-dans-mon-coeur","titulo":"Il pleure dans mon cœur","forma":"outras","livro":1,"ordem":1,"versos":16,"lingua":"fr","ano":1874,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "gustavo-adolfo-becquer",
+  arquivo: "conteudo/gustavo-adolfo-becquer/lingua-original.js",
+  livros: [{"id": "rimas", "titulo": "Rimas", "ano": 1871}],
+  poemas: [
+    {"id":"gustavo-adolfo-becquer-rima-xxi","titulo":"Rima XXI","forma":"outras","livro":0,"ordem":0,"versos":4,"lingua":"es","ano":1871,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "antonio-machado",
+  arquivo: "conteudo/antonio-machado/lingua-original.js",
+  livros: [{"id": "campos-de-castilla", "titulo": "Campos de Castilla", "ano": 1912}],
+  poemas: [
+    {"id":"antonio-machado-proverbios-y-cantares-xxix","titulo":"Proverbios y cantares, XXIX","forma":"outras","livro":0,"ordem":0,"versos":10,"lingua":"es","ano":1912,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "emily-dickinson",
+  arquivo: "conteudo/emily-dickinson/lingua-original.js",
+  livros: [{"id": "poems-second-series", "titulo": "Poems: Second Series", "ano": 1891}],
+  poemas: [
+    {"id":"emily-dickinson-i-m-nobody-who-are-you","titulo":"I'm nobody! Who are you?","forma":"outras","livro":0,"ordem":0,"versos":8,"lingua":"en","ano":1891,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "robert-louis-stevenson",
+  arquivo: "conteudo/robert-louis-stevenson/lingua-original.js",
+  livros: [{"id": "underwoods", "titulo": "Underwoods", "ano": 1887}],
+  poemas: [
+    {"id":"robert-louis-stevenson-requiem","titulo":"Requiem","forma":"outras","livro":0,"ordem":0,"versos":8,"lingua":"en","ano":1887,"glossario":true}
   ]
 });

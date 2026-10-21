@@ -1,0 +1,430 @@
+{
+  "verbetes": {
+    "il": {
+      "lema": "il",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome da 3ª pessoa do singular, expletivo e impessoal, sujeito de um verbo sem actante."
+      ],
+      "nota": "Em «il pleure» e em «il pleut» o pronome é o mesmo e não remete a ninguém: não há quem chore, como não há quem chova."
+    },
+    "pleure": {
+      "lema": "pleurer",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Derramar lágrimas."
+      ],
+      "nota": "Verlaine usa «pleurer» como verbo impessoal, à imagem de «il pleut»: não é «eu choro», é como se chorasse dentro do coração, assim como chove sobre a cidade. É o jogo que sustenta o poema."
+    },
+    "dans": {
+      "lema": "dans",
+      "classe": "preposição",
+      "def": [
+        "Preposição de lugar que marca a relação de uma pessoa ou de uma coisa com aquilo que a contém."
+      ]
+    },
+    "mon": {
+      "lema": "mon",
+      "classe": "determinante possessivo",
+      "def": [
+        "Marca a posse ou a pertença. O possuidor é quem fala; o que ele possui está no masculino singular."
+      ]
+    },
+    "cœur": {
+      "lema": "cœur",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Figurado) Órgão considerado como a sede da sensibilidade moral, dos sentimentos e das paixões."
+      ]
+    },
+    "comme": {
+      "lema": "comme",
+      "classe": "conjunção",
+      "def": [
+        "Assim como.",
+        "Da maneira que; tanto quanto."
+      ]
+    },
+    "pleut": {
+      "lema": "pleuvoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "(Meteorologia) Cair do céu, falando da água das nuvens."
+      ],
+      "nota": "Verbo impessoal: o sujeito «il» é vazio. O verso 2 copia a construção para o choro do verso 1."
+    },
+    "sur": {
+      "lema": "sur",
+      "classe": "preposição",
+      "def": [
+        "Indica uma posição mais elevada.",
+        "Exprime uma ideia de contato."
+      ]
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Feminino singular de «le»; determina um grupo nominal feminino singular."
+      ]
+    },
+    "ville": {
+      "lema": "ville",
+      "classe": "substantivo feminino",
+      "def": [
+        "Conjunto ordenado de um número bastante considerável de casas dispostas em ruas, e por vezes limitado por uma muralha."
+      ]
+    },
+    "quelle": {
+      "lema": "quel",
+      "classe": "pronome interrogativo",
+      "forma": "feminino singular",
+      "def": [
+        "Com o verbo «être»: interroga sobre a identidade ou a qualidade do sujeito."
+      ],
+      "nota": "«Quelle est cette langueur»: qual é este langor? O poeta pergunta que abatimento é esse que o invade."
+    },
+    "est": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Definir um estado, uma característica do sujeito."
+      ]
+    },
+    "cette": {
+      "lema": "ce",
+      "classe": "determinante demonstrativo",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante usado para pôr em evidência uma coisa ou uma pessoa que se tem diante de si."
+      ]
+    },
+    "langueur": {
+      "lema": "langueur",
+      "classe": "substantivo feminino",
+      "def": [
+        "Enfraquecimento físico e moral que reduz consideravelmente as forças e a atividade de uma pessoa; ato de languescer."
+      ],
+      "nota": "Aqui é o langor da alma, um abatimento difuso, sem causa conhecida. Rima com «cœur»."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "O qual, a qual, os quais, as quais.",
+        "Serve para designar o sujeito na oração relativa."
+      ]
+    },
+    "pénètre": {
+      "lema": "pénétrer",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Passar através de; entrar fundo.",
+        "(Figurado) Tocar profundamente."
+      ],
+      "nota": "O langor entra no coração como a chuva que penetra a terra: o verbo une o sentido físico e o figurado."
+    },
+    "ô": {
+      "lema": "ô",
+      "classe": "partícula",
+      "def": [
+        "(Literário) Partícula vocativa empregada quando se fala a uma divindade, a uma pessoa reverenciada ou a algo personificado.",
+        "Exprime a admiração, a alegria, a dor, o temor etc."
+      ],
+      "nota": "Abre o verso como uma exclamação: o poeta se dirige ao rumor e ao canto da chuva como a coisas vivas."
+    },
+    "bruit": {
+      "lema": "bruit",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Por extensão) Som pouco distinto, confuso."
+      ],
+      "nota": "Aqui não é o ruído desagradável: com «doux», é o rumor suave da chuva."
+    },
+    "doux": {
+      "lema": "doux",
+      "classe": "adjetivo",
+      "def": [
+        "Agradável de ouvir, nem brusco, nem forte."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Relação de uma coisa com aquele que a fez ou produziu."
+      ],
+      "nota": "«Bruit de la pluie», «chant de la pluie»: o rumor e o canto que a chuva produz."
+    },
+    "pluie": {
+      "lema": "pluie",
+      "classe": "substantivo feminino",
+      "def": [
+        "Conjunto de gotas de água devidas à condensação do vapor de água da atmosfera, que caem do céu sobre a terra."
+      ]
+    },
+    "par": {
+      "lema": "par",
+      "classe": "preposição",
+      "def": [
+        "Emprega-se também no sentido de «en», «dans», com a ideia de movimento no espaço indicado."
+      ]
+    },
+    "terre": {
+      "lema": "terre",
+      "classe": "substantivo feminino",
+      "def": [
+        "Solo sobre o qual caminhamos, sobre o qual são construídas as casas, que produz e alimenta os vegetais."
+      ],
+      "nota": "«Par terre»: no chão, pelo chão. Com «sur les toits», a chuva cobre tudo, de baixo a cima."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção coordenativa",
+      "def": [
+        "Liga vários conceitos numa mesma relação."
+      ]
+    },
+    "les": {
+      "lema": "les",
+      "classe": "artigo definido",
+      "forma": "plural",
+      "def": [
+        "Plural de «le» ou «la»."
+      ]
+    },
+    "toits": {
+      "lema": "toit",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "(Arquitetura) Obra constituída da armação e da cobertura que serve para cobrir um edifício."
+      ]
+    },
+    "pour": {
+      "lema": "pour",
+      "classe": "preposição",
+      "def": [
+        "Serve também para marcar a relação entre uma coisa que afeta, para bem ou para mal, e a pessoa afetada por ela."
+      ],
+      "nota": "«Pour un cœur qui s’ennuie»: para um coração que se entedia, isto é, no que toca a esse coração."
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "def": [
+        "Determinante colocado diante de um substantivo que representa um objeto, animado ou inanimado, que não se conhece com precisão. Frequentemente: «um entre outros»."
+      ]
+    },
+    "s’": {
+      "lema": "s’",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «se»",
+      "def": [
+        "Elisão do pronome pessoal «se» diante de vogal ou de h mudo."
+      ]
+    },
+    "ennuie": {
+      "lema": "s’ennuyer",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (de «ennuyer»)",
+      "def": [
+        "Sentir tédio, consumir-se de aborrecimento, não saber como se ocupar."
+      ],
+      "nota": "Verbo pronominal: o coração «se» entedia. Rima com «pluie»."
+    },
+    "le": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "def": [
+        "Determinante que marca um substantivo masculino singular, referindo-se a uma única entidade possível em um contexto."
+      ]
+    },
+    "chant": {
+      "lema": "chant",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Música) Emissão de sons variados e ritmados pelos quais a voz se eleva e se abaixa, de modo a formar um conjunto musical."
+      ],
+      "nota": "Sentido figurado: a chuva «canta». O som contínuo da chuva é comparado a uma melodia."
+    },
+    "sans": {
+      "lema": "sans",
+      "classe": "preposição",
+      "def": [
+        "Preposição que marca a ausência, a falta, a exclusão de uma pessoa ou de uma coisa."
+      ]
+    },
+    "raison": {
+      "lema": "raison",
+      "classe": "substantivo feminino",
+      "def": [
+        "Assunto; causa; motivo."
+      ],
+      "nota": "«Sans raison»: sem motivo. Repetida nos versos 9 e 12, a expressão é o centro do poema: a tristeza não tem causa."
+    },
+    "ce": {
+      "lema": "ce",
+      "classe": "determinante demonstrativo",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante usado para pôr em evidência uma coisa ou uma pessoa que se tem diante de si."
+      ]
+    },
+    "écœure": {
+      "lema": "écœurer",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular, forma pronominal (s’écœurer)",
+      "def": [
+        "Fazer o coração desfalecer; enojar.",
+        "(Figurado) Pôr em estado de nojo."
+      ],
+      "nota": "O coração enjoa de si mesmo. O verbo traz «cœur» dentro de si, e o verso o põe ao lado de «cœur»: «cœur qui s’écœure»."
+    },
+    "quoi": {
+      "lema": "quoi",
+      "classe": "interjeição",
+      "def": [
+        "Exprime o espanto, a incompreensão, a indignação etc."
+      ]
+    },
+    "nulle": {
+      "lema": "nul",
+      "classe": "adjetivo indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "(Diante de um substantivo, literário) Nenhum."
+      ],
+      "nota": "«Nulle trahison»: nenhuma traição, o mesmo que «aucune trahison»."
+    },
+    "trahison": {
+      "lema": "trahison",
+      "classe": "substantivo feminino",
+      "def": [
+        "Ação de uma pessoa que trai."
+      ]
+    },
+    "deuil": {
+      "lema": "deuil",
+      "classe": "substantivo masculino",
+      "def": [
+        "Aflição, dor que se sente por ocasião da morte de alguém, ou em consequência de outra perda importante.",
+        "(Por extensão) Grande tristeza causada por uma coisa funesta, deplorável."
+      ],
+      "nota": "Aqui é um luto sem morte conhecida: a dor de quem não sabe o que perdeu."
+    },
+    "c’": {
+      "lema": "c’",
+      "classe": "pronome demonstrativo",
+      "forma": "elisão de «ce»",
+      "def": [
+        "Elisão do pronome demonstrativo «ce» diante de «en» e das formas do verbo «être» ou «avoir» que começam por «e» ou «é»."
+      ]
+    },
+    "bien": {
+      "lema": "bien",
+      "wiki": "en:French",
+      "classe": "advérbio",
+      "def": [
+        "De fato; realmente."
+      ],
+      "nota": "Em «c’est bien la pire peine», reforça o superlativo: é de fato a pior pena."
+    },
+    "pire": {
+      "lema": "pire",
+      "classe": "adjetivo",
+      "def": [
+        "Comparativo de «mauvais»: mais mau, mais defeituoso, mais nocivo."
+      ],
+      "nota": "Precedido do artigo («la pire»), torna-se superlativo: a pior."
+    },
+    "peine": {
+      "lema": "peine",
+      "classe": "substantivo feminino",
+      "def": [
+        "Sofrimento físico ou moral.",
+        "Dor, aflição, pesar, desprazer."
+      ],
+      "nota": "Em português «pena» tem o mesmo duplo sentido, de castigo e de dor; aqui é só a dor, a tristeza."
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "partícula",
+      "def": [
+        "Negação. Primeira parte de um morfema negativo que enquadra o verbo; em linguagem formal, às vezes basta sozinho, com certos verbos como «savoir»."
+      ],
+      "nota": "«Ne savoir pourquoi»: não saber por quê. O «ne» está sozinho, sem «pas», como na língua literária."
+    },
+    "savoir": {
+      "lema": "savoir",
+      "classe": "verbo",
+      "def": [
+        "Apreender pelo espírito ou pelo conhecimento; conhecer de modo certo."
+      ]
+    },
+    "pourquoi": {
+      "lema": "pourquoi",
+      "classe": "advérbio interrogativo",
+      "def": [
+        "Por qual razão; com que intenção; por qual causa."
+      ],
+      "nota": "Interrogativa indireta: «de ne savoir pourquoi», de não saber por quê."
+    },
+    "amour": {
+      "lema": "amour",
+      "classe": "substantivo masculino",
+      "def": [
+        "Sentimento intenso e agradável que incita os seres a se unirem.",
+        "Afeição profunda por alguém ou por alguma coisa."
+      ]
+    },
+    "haine": {
+      "lema": "haine",
+      "classe": "substantivo feminino",
+      "def": [
+        "Sentimento de aversão, de repulsa, em relação a uma pessoa ou a um grupo, que leva a desprezar ou a querer destruir aquilo que é o seu objeto."
+      ]
+    },
+    "a": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Estar em relação de posse, concreta ou abstrata, permanente ou ocasional, em que o possuidor é o sujeito e o possuído é o complemento de objeto direto."
+      ],
+      "nota": "«Avoir de la peine»: sentir dor, ter pena. Aqui, o coração «tem» tanta dor."
+    },
+    "tant": {
+      "lema": "tant",
+      "classe": "advérbio",
+      "def": [
+        "Tanto; em grande quantidade; a tal ponto."
+      ]
+    },
+    "de#2": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Marca uma relação que existe entre as pessoas ou as coisas."
+      ],
+      "nota": "«La pire peine de ne savoir pourquoi»: o «de» com o infinitivo diz em que consiste a pena: não saber por quê."
+    },
+    "de#3": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "(Sentido partitivo) Indica uma quantidade vaga, um número indeterminado."
+      ],
+      "nota": "«Tant de peine»: tanta pena. Depois de «tant», o «de» liga a quantidade ao substantivo, sem artigo."
+    }
+  },
+  "ocorrencias": {
+    "14.1": "de#2",
+    "16.5": "de#3"
+  }
+}

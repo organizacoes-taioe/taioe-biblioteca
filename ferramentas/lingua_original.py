@@ -17,6 +17,7 @@ glossario.json:
   palavra pede outro verbete num lugar, usa-se outra chave («fair#2») e a ocorrência aponta para ela;
 - wiki: o Wiktionary de onde vem a definição ("es", "fr", "en"; o da língua do poema, se faltar);
   "en:Spanish" é o en.wiktionary na seção da língua; null quando não há verbete (só a nota);
+  no latim, se faltar, vale "en:Latin" (WIKI_PADRAO): `wiki en <página> Latin`, sem mácrons;
 - def: a definição do sentido que vale no poema, traduzida ao português; nota: a explicação nossa,
   quando a definição sozinha não basta para entender a palavra no verso;
 - palavra composta: "partes": [{lema, wiki, classe, forma, def}, ...] no lugar de lema…def.
@@ -35,7 +36,13 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EDICAO = os.path.join(RAIZ, 'edicoes', 'lingua-original')
 CACHE = os.path.join(RAIZ, 'ferramentas', 'cache', 'wiktionary')
 UA = 'TaioeBiblioteca/0.1 (https://taioe.com.br/biblioteca/; contato@taioe.com.br)'
-NOMES_LINGUA = {'es': 'Spanish', 'fr': 'French', 'en': 'English'}
+NOMES_LINGUA = {'es': 'Spanish', 'fr': 'French', 'en': 'English', 'la': 'Latin'}
+# o Wiktionary padrão de cada língua é o dela; o latim usa o en.wiktionary, na seção Latin
+WIKI_PADRAO = {'la': 'en:Latin'}
+
+
+def wiki_padrao(lingua):
+    return WIKI_PADRAO.get(lingua, lingua)
 
 PALAVRA = re.compile(r"[^\W\d_]+(?:[-'’][^\W\d_]+)*")
 # francês: o artigo, o pronome ou a conjunção elididos são palavras à parte (l’aube → l’ + aube),
@@ -243,7 +250,7 @@ CAMPOS = {'lema', 'wiki', 'classe', 'forma', 'def', 'nota', 'partes'}
 def conferir_parte(x, onde, problemas, lingua):
     if not isinstance(x.get('lema'), str) or not x['lema'].strip():
         problemas.append(onde + ': falta o lema')
-    w = x.get('wiki', lingua)
+    w = x.get('wiki', wiki_padrao(lingua))
     if w is not None and not re.match(r'^(es|fr|en)(:[A-Z][a-z]+)?$', str(w)):
         problemas.append(onde + ': wiki inválido ' + repr(w))
     if w is not None and not x.get('def'):
@@ -286,7 +293,7 @@ def conferir(pasta, verboso=True):
                 conferir_parte(p, onde + ' parte %d' % (j + 1), problemas, poema['lingua'])
         else:
             conferir_parte(x, onde, problemas, poema['lingua'])
-            if x.get('wiki', poema['lingua']) is None and not x.get('nota'):
+            if x.get('wiki', wiki_padrao(poema['lingua'])) is None and not x.get('nota'):
                 problemas.append(onde + ': sem Wiktionary e sem nota')
         texto = json.dumps(x, ensure_ascii=False)
         if MESOCLISE.search(texto):
@@ -310,6 +317,7 @@ def cmd_conferir(pasta=None):
 
 # ------------------------------------------------------------------ publicar
 def url_wiki(wiki, lema, lingua):
+    wiki = WIKI_PADRAO.get(wiki, wiki)   # "la" (não há la.wiktionary aqui) é o en.wiktionary, seção Latin
     w = wiki.split(':')[0]
     u = 'https://%s.wiktionary.org/wiki/%s' % (w, urllib.parse.quote(lema.replace(' ', '_'), safe="'’-"))
     if ':' in wiki:
@@ -320,7 +328,7 @@ def url_wiki(wiki, lema, lingua):
 
 
 def parte_publica(x, lingua):
-    w = x.get('wiki', lingua)
+    w = x.get('wiki', wiki_padrao(lingua))
     d = {'l': x['lema'], 'c': x.get('classe', '')}
     if x.get('forma'):
         d['f'] = x['forma']
@@ -334,10 +342,25 @@ def parte_publica(x, lingua):
 PROVISORIO = False   # publicar --provisorio: só para ver o site no local, com notas vazias onde faltam
 
 
+def areas_dos_autores():
+    """A área de cada autor em conteudo/autores.js («area»; sem ela, a Literatura). Os textos de
+    autor do Catolicismo (as orações) não são poemas: a página «Sobre» fala em «texto»."""
+    with open(os.path.join(RAIZ, 'conteudo', 'autores.js'), encoding='utf-8') as f:
+        js = f.read()
+    areas = {}
+    for bloco in re.findall(r'BIBLIOTECA\.autor\(\{(.*?)\}\);', js, re.S):
+        i = re.search(r"\bid:\s*'([^']+)'", bloco)
+        a = re.search(r"\barea:\s*'([^']+)'", bloco)
+        if i:
+            areas[i.group(1)] = a.group(1) if a else 'literatura'
+    return areas
+
+
 def publicar():
     obras = ler_obras()
     if not cmd_conferir() and not PROVISORIO:
         sys.exit('corrija os problemas antes de publicar')
+    areas = areas_dos_autores()
     autores = []
     por_autor = {}
     for p in obras['poemas']:
@@ -362,6 +385,8 @@ def publicar():
                     'ordem': k, 'versos': versos, 'lingua': p['lingua'], 'ano': p.get('ano'), 'glossario': True}
             if p.get('subtitulo'):
                 item['subtitulo'] = p['subtitulo']
+            if p.get('genero'):
+                item['genero'] = p['genero']   # sem ele, Poesia (as orações levam "Orações")
             if p.get('traducao'):
                 tr = p['traducao']
                 item['pt'] = {'tradutor': tr['tradutor'], 'titulo': tr['titulo'], 'ano': tr.get('ano')}
@@ -371,14 +396,16 @@ def publicar():
             json.dumps(autor), json.dumps(arquivo), json.dumps(livros, ensure_ascii=False),
             ',\n    '.join(json.dumps(x, ensure_ascii=False, separators=(',', ':')) for x in poemas)))
         textos = {}
+        poesia = areas.get(autor, 'literatura') != 'catolicismo'
         for p in por_autor[autor]:
-            textos[autor + '-' + p['pasta']] = montar(p, obras['linguas'][p['lingua']])
+            textos[autor + '-' + p['pasta']] = montar(p, obras['linguas'][p['lingua']], poesia)
         os.makedirs(os.path.join(RAIZ, 'conteudo', autor), exist_ok=True)
         with open(os.path.join(RAIZ, arquivo), 'w', encoding='utf-8', newline='\n') as f:
-            f.write('/* Poemas de %s na língua original, com as notas de cada palavra.\n'
+            f.write('/* %s de %s na língua original, com as notas de cada palavra.\n'
                     '   Gerado por ferramentas/lingua_original.py; não edite à mão.\n'
                     '   t: texto; g: notas (v: verbetes; o: [linha do texto, início, fim, verbete]; t: o mesmo no título);\n'
-                    '   e: página «Sobre». As definições vêm do Wiktionary (CC BY-SA 4.0), traduzidas. */\n' % autor)
+                    '   e: página «Sobre». As definições vêm do Wiktionary (CC BY-SA 4.0), traduzidas. */\n'
+                    % ('Poemas' if poesia else 'Textos', autor))
             f.write('BIBLIOTECA.textos({\n')
             f.write(',\n'.join('%s: %s' % (json.dumps(k), json.dumps(v, ensure_ascii=False, separators=(',', ':')))
                                for k, v in textos.items()))
@@ -398,7 +425,7 @@ def publicar():
     print('publicado: %d poemas de %d autores' % (len(obras['poemas']), len(autores)))
 
 
-def montar(p, info_lingua):
+def montar(p, info_lingua, poesia=True):
     lingua = p['lingua']
     g = ler_glossario(p['pasta'])
     if PROVISORIO and (g is None or conferir(p['pasta'], False)):
@@ -423,13 +450,19 @@ def montar(p, info_lingua):
             desl = [d for (m, _t, _i, d) in linhas_do_poema(p) if m == n][0]
             o_linhas.append([i, a + desl, b + desl, ids[k]])
     fontes = [{'nome': f['nome'], 'url': f.get('url'), 'nota': f.get('nota')} for f in p.get('fontes', [])]
-    fontes.append({'nome': 'Wiktionary', 'url': 'https://%s.wiktionary.org/' % lingua,
-                   'nota': 'definições das notas, traduzidas ao português (CC BY-SA 4.0)'})
+    wiki = wiki_padrao(lingua).split(':')[0]
+    outro = wiki != lingua   # o latim: as definições vêm do en.wiktionary
+    fontes.append({'nome': 'Wiktionary', 'url': 'https://%s.wiktionary.org/' % wiki,
+                   'nota': ('definições das notas, da seção de %s do Wiktionary em inglês, traduzidas ao português '
+                            '(CC BY-SA 4.0)' % info_lingua['nome']) if outro
+                   else 'definições das notas, traduzidas ao português (CC BY-SA 4.0)'})
     tr = p.get('traducao')
     apresentacao = ('Texto em %s%s. Toque numa palavra para ver a nota: a definição do sentido que ela tem '
-                    'no poema, traduzida do Wiktionary, com o link para o verbete original, e, quando é preciso, uma '
-                    'explicação do uso no verso.\n\nAs notas, como o Wiktionary, estão sob a '
-                    'licença CC BY-SA 4.0.') % (info_lingua['nome'], '' if tr else ', sem tradução')
+                    'no %s, traduzida do Wiktionary%s, com o link para o verbete original, e, quando é preciso, uma '
+                    'explicação do uso %s.\n\nAs notas, como o Wiktionary, estão sob a '
+                    'licença CC BY-SA 4.0.') % (info_lingua['nome'], '' if tr else ', sem tradução',
+                                                'poema' if poesia else 'texto', ' em inglês' if outro else '',
+                                                'no verso' if poesia else 'na frase')
     if tr:
         # uma tradução em domínio público, com o nome do tradutor (pedido de 2026-10-20); nunca uma nossa
         apresentacao += ('\n\n**Tradução.** No botão «Português», a tradução de %s, %s, em domínio público, '

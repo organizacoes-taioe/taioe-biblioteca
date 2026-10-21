@@ -16,6 +16,9 @@ nossa do uso no verso.
   Em `obras.json`, o campo `traducao`: `tradutor`, `titulo`, `ano`, `publicacao` (frase da página «Sobre»)
   e `fonte`. Hoje: Fernando Pessoa (*O Corvo*, *Annabel Lee*), Alphonsus de Guimaraens
   (*Canção do Outono*), Teófilo Braga (*A noite escura da alma*) e Eduardo Guimaraens (*O albatroz*).
+- **Latim** (2026-10-21): o Wiktionary padrão é o en.wiktionary, seção Latin (`wiki en <página> Latin`,
+  sem mácrons), e o lema é o `la` do card dos Cards. As orações ficam no Catolicismo, sob o autor «Orações»,
+  com `"genero": "Orações"` em `obras.json`: o site as conta como orações e a página «Sobre» diz «texto».
 
 ```bash
 python ferramentas/lingua_original.py palavras <pasta>         # as palavras, com a posição e a chave
@@ -39,8 +42,9 @@ definição é obra derivada e segue a mesma licença.
    sentido noutro verso, crie outra chave (`fair#2`) e aponte a ocorrência em `ocorrencias`.
 3. Consulte o Wiktionary pela ferramenta: na forma flexionada, primeiro a página da forma (ela diz
    de que lema é), depois a do lema. Ordem das fontes: o Wiktionary da própria língua (`es`, `fr`,
-   `en`); se ele não tiver a palavra ou o sentido (arcaísmo, uso poético), o en.wiktionary na seção
-   da língua (`"wiki": "en:Spanish"`, `"en:French"`); se nenhum tiver, `"wiki": null` e só a nota.
+   `en`; no latim, o en.wiktionary); se ele não tiver a palavra ou o sentido (arcaísmo, uso poético),
+   o en.wiktionary na seção da língua (`"wiki": "en:Spanish"`, `"en:French"`); se nenhum tiver,
+   `"wiki": null` e só a nota.
 4. Campos (tudo em português do Brasil, **nunca mesóclise**):
    - `lema`: o título exato da página do Wiktionary de onde vem a definição;
    - `wiki`: só quando não é o Wiktionary da língua do poema (`"en:Spanish"`, `null`);

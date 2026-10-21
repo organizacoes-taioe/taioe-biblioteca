@@ -25,6 +25,7 @@
       "pasta": "noche-oscura", "autor": "sao-joao-da-cruz", "lingua": "es", "forma": "liras",
       "titulo": "Noche oscura", "ano": 1618,
       "livro": { "titulo": "Obras espirituales", "ano": 1618 },
+      "traducao": {"tradutor": "Teófilo Braga", "titulo": "A noite escura da alma", "ano": 1869, "publicacao": "publicada em 1869 e reproduzida nos seus Estudos da Edade Média (Porto, 1870)", "fonte": {"nome": "Teófilo Braga, Estudos da Edade Média (Porto, 1870), pp. 165-166, no Internet Archive", "url": "https://archive.org/details/estudosdaedademe00brag", "nota": "tradução de Teófilo Braga (1843–1924); ortografia atualizada"}},
       "fontes": [
         { "nome": "Wikisource", "url": "https://es.wikisource.org/wiki/Noche_oscura" }
       ]
@@ -107,6 +108,7 @@
       "pasta": "l-albatros", "autor": "charles-baudelaire", "lingua": "fr", "forma": "outras",
       "titulo": "L’Albatros", "ano": 1861,
       "livro": { "titulo": "Les Fleurs du mal", "ano": 1861 },
+      "traducao": {"tradutor": "Eduardo Guimaraens", "titulo": "O albatroz", "ano": null, "publicacao": "poeta simbolista gaúcho (1892–1928), publicada no Jornal do Comércio (Rio de Janeiro, 1933)", "fonte": {"nome": "Ricardo Meirelles, «Baudelaire no Brasil: Eduardo Guimaraens, um poeta albatroz», Cerrados n.º 23 (UnB, 2007)", "url": "https://periodicos.unb.br/index.php/cerrados/article/download/1243/1084/2130", "nota": "transcrição da tradução de Eduardo Guimaraens; ortografia atualizada"}},
       "fontes": [
         { "nome": "Les Fleurs du mal, 2ª ed. (1861), no Wikisource", "url": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/L%E2%80%99Albatros", "nota": "grafia atualizada («Poète»)" }
       ]
@@ -118,6 +120,46 @@
       "traducao": {"tradutor": "Alphonsus de Guimaraens", "titulo": "Canção do Outono", "ano": null, "publicacao": "poeta simbolista mineiro (1870–1921)", "fonte": {"nome": "Pensador", "url": "https://www.pensador.com/paul_verlaine", "nota": "tradução de Alphonsus de Guimaraens; o mesmo texto no material de curso da USP"}},
       "fontes": [
         { "nome": "Poèmes saturniens (1866), no Wikisource", "url": "https://fr.wikisource.org/wiki/Po%C3%A8mes_saturniens_(1866)/Chanson_d%E2%80%99automne" }
+      ]
+    },
+    {
+      "pasta": "rima-xxi", "autor": "gustavo-adolfo-becquer", "lingua": "es", "forma": "outras",
+      "titulo": "Rima XXI", "ano": 1871,
+      "livro": { "titulo": "Rimas", "ano": 1871 },
+      "fontes": [
+        { "nome": "Rimas (Buenos Aires, 1925), no Wikisource", "url": "https://es.wikisource.org/wiki/Rimas_(B%C3%A9cquer%2C_1925)/Rima_21", "nota": "pontuação das edições correntes" }
+      ]
+    },
+    {
+      "pasta": "proverbios-y-cantares-xxix", "autor": "antonio-machado", "lingua": "es", "forma": "outras",
+      "titulo": "Proverbios y cantares, XXIX", "ano": 1912,
+      "livro": { "titulo": "Campos de Castilla", "ano": 1912 },
+      "fontes": [
+        { "nome": "Campos de Castilla (1912), no Wikisource", "url": "https://es.wikisource.org/wiki/Proverbios_y_cantares_(Campos_de_Castilla)" }
+      ]
+    },
+    {
+      "pasta": "il-pleure-dans-mon-coeur", "autor": "paul-verlaine", "lingua": "fr", "forma": "outras",
+      "titulo": "Il pleure dans mon cœur", "ano": 1874,
+      "livro": { "titulo": "Romances sans paroles", "ano": 1874 },
+      "fontes": [
+        { "nome": "Romances sans paroles (1891), no Wikisource", "url": "https://fr.wikisource.org/wiki/Romances_sans_paroles_(1891)/Il_pleure_dans_mon_c%C5%93ur", "nota": "Ariettes oubliées, III; pontuação das edições correntes" }
+      ]
+    },
+    {
+      "pasta": "i-m-nobody-who-are-you", "autor": "emily-dickinson", "lingua": "en", "forma": "outras",
+      "titulo": "I'm nobody! Who are you?", "ano": 1891,
+      "livro": { "titulo": "Poems: Second Series", "ano": 1891 },
+      "fontes": [
+        { "nome": "Poems: Second Series (1891), no Wikisource", "url": "https://en.wikisource.org/wiki/Poems:_Second_Series_(Dickinson)/I%27m_nobody!_Who_are_you%3F", "nota": "publicado depois da morte de Dickinson (1886)" }
+      ]
+    },
+    {
+      "pasta": "requiem", "autor": "robert-louis-stevenson", "lingua": "en", "forma": "outras",
+      "titulo": "Requiem", "ano": 1887,
+      "livro": { "titulo": "Underwoods", "ano": 1887 },
+      "fontes": [
+        { "nome": "Underwoods (1887), no Wikisource", "url": "https://en.wikisource.org/wiki/Underwoods/Requiem" }
       ]
     }
   ]

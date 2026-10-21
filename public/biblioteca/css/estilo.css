@@ -706,3 +706,6 @@ ol.vb-def { padding-left: 1.3rem; }
 .vb-fonte a::after { content: " ↗"; }
 .vb-nota { margin-top: .7rem !important; padding-top: .6rem; border-top: 1px solid var(--linha); color: var(--tinta-suave); }
 .com-notas .paralelo.poema > .m-subtitulo { text-align: center; max-width: 24rem; justify-self: center; margin-top: 0; }
+
+/* o botão «Aprender as palavras deste poema», que leva aos Cards (leitor.js) */
+.aprender-cards { text-align: center; margin: 2rem 0 0; }

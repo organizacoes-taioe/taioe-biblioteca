@@ -460,3 +460,39 @@ BIBLIOTECA.autor({
   lingua: 'fr',
   nota: 'Poeta simbolista francês.'
 });
+
+BIBLIOTECA.autor({
+  id: 'gustavo-adolfo-becquer',
+  nome: 'Gustavo Adolfo Bécquer',
+  nomeCompleto: 'Gustavo Adolfo Claudio Domínguez Bastida',
+  vida: '1836–1870',
+  lingua: 'es',
+  nota: 'Poeta e prosador do romantismo espanhol, autor das _Rimas_ e das _Leyendas_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'antonio-machado',
+  nome: 'Antonio Machado',
+  nomeCompleto: 'Antonio Cipriano José María y Francisco de Santa Ana Machado Ruiz',
+  vida: '1875–1939',
+  lingua: 'es',
+  nota: 'Poeta espanhol da Geração de 98, autor de _Soledades_ e _Campos de Castilla_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'emily-dickinson',
+  nome: 'Emily Dickinson',
+  nomeCompleto: 'Emily Elizabeth Dickinson',
+  vida: '1830–1886',
+  lingua: 'en',
+  nota: 'Poeta norte-americana; quase toda a obra saiu depois da morte dela.'
+});
+
+BIBLIOTECA.autor({
+  id: 'robert-louis-stevenson',
+  nome: 'Robert Louis Stevenson',
+  nomeCompleto: 'Robert Louis Balfour Stevenson',
+  vida: '1850–1894',
+  lingua: 'en',
+  nota: 'Escritor escocês, autor de _A Ilha do Tesouro_ e de poemas.'
+});

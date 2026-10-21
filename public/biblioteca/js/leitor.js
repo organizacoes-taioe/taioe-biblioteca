@@ -803,6 +803,9 @@
   });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(ajustarTrilha);
 
+  /* o botão dos Cards vale com ou sem sessão (a função mora lá embaixo) */
+  botaoDosCards();
+
   var temSessao = !!ler('taioe-auth');
   if (!temSessao) return;
 
@@ -981,5 +984,4 @@
       fimParte.parentNode.insertBefore(p, fimParte);
     }).catch(function () { /* sem os Cards, sem botão */ });
   }
-  botaoDosCards();
 })();

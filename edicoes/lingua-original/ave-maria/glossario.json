@@ -1,0 +1,263 @@
+{
+  "verbetes": {
+    "ave": {
+      "lema": "ave",
+      "classe": "interjeição",
+      "def": [
+        "Salve!, olá!, saudações! (expressão de cumprimento)."
+      ],
+      "nota": "A saudação do anjo a Maria, no Evangelho de Lucas (1,28)."
+    },
+    "maria": {
+      "lema": "Maria",
+      "classe": "nome próprio",
+      "forma": "vocativo",
+      "def": [
+        "Maria, mãe de Jesus."
+      ],
+      "nota": "Vocativo: a quem se fala."
+    },
+    "gratia": {
+      "lema": "gratia",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Graça."
+      ],
+      "nota": "Ablativo com «plena»: aquilo de que ela está cheia."
+    },
+    "plena": {
+      "lema": "plenus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Cheio de (com ablativo)."
+      ],
+      "nota": "Concorda com «Maria»."
+    },
+    "dominus": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "def": [
+        "Senhor, soberano."
+      ],
+      "nota": "Nominativo: o sujeito, com o verbo subentendido; «o Senhor» é Deus."
+    },
+    "tecum": {
+      "partes": [
+        {
+          "lema": "tu",
+          "classe": "pronome pessoal",
+          "forma": "ablativo singular («te»)",
+          "def": [
+            "Tu; você (no singular)."
+          ]
+        },
+        {
+          "lema": "cum",
+          "classe": "preposição",
+          "def": [
+            "Com, junto com."
+          ]
+        }
+      ],
+      "nota": "«Tecum» é «cum te»: a preposição vem depois do pronome, colada a ele."
+    },
+    "benedicta": {
+      "lema": "benedico",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "(Latim tardio e eclesiástico) Abençoar, louvar."
+      ],
+      "nota": "Particípio, «bendita»: o predicativo de «tu», com «es» subentendido."
+    },
+    "tu": {
+      "lema": "tu",
+      "classe": "pronome pessoal",
+      "def": [
+        "Tu; você (no singular)."
+      ],
+      "nota": "Nominativo: o sujeito."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Entre."
+      ],
+      "nota": "Com ablativo."
+    },
+    "mulieribus": {
+      "lema": "mulier",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "Mulher."
+      ]
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "benedictus": {
+      "lema": "benedico",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "(Latim tardio e eclesiástico) Abençoar, louvar."
+      ],
+      "nota": "Particípio, «bendito»: concorda com «fructus»."
+    },
+    "fructus": {
+      "lema": "fructus",
+      "classe": "substantivo masculino",
+      "def": [
+        "Produto, fruto."
+      ],
+      "nota": "Nominativo (4ª declinação): o sujeito."
+    },
+    "ventris": {
+      "lema": "venter",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "(Sentido translato) O útero, o ventre materno."
+      ],
+      "nota": "Genitivo: de quem é o fruto."
+    },
+    "tui": {
+      "lema": "tuus",
+      "classe": "pronome possessivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com «ventris»."
+    },
+    "iesus": {
+      "lema": "Iesus",
+      "classe": "nome próprio",
+      "def": [
+        "Jesus."
+      ],
+      "nota": "Aposto de «fructus»: o fruto é Jesus."
+    },
+    "sancta": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Venerável, augusto, divino, bendito, santo."
+      ],
+      "nota": "Concorda com «Maria»."
+    },
+    "mater": {
+      "lema": "mater",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "Mãe."
+      ],
+      "nota": "Vocativo: aposto de «Maria»."
+    },
+    "dei": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "Deus, divindade."
+      ],
+      "nota": "Genitivo: de quem ela é Mãe. Com maiúscula, é o Deus cristão."
+    },
+    "ora": {
+      "lema": "oro",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Suplicar, implorar, rezar, rogar."
+      ]
+    },
+    "pro": {
+      "lema": "pro",
+      "classe": "preposição",
+      "def": [
+        "Em favor de, no interesse de, pelo bem de."
+      ],
+      "nota": "Com ablativo."
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome pessoal",
+      "forma": "ablativo plural",
+      "def": [
+        "Nós, nos."
+      ],
+      "nota": "Ablativo, depois de «pro»."
+    },
+    "peccatoribus": {
+      "lema": "peccator",
+      "classe": "substantivo masculino",
+      "forma": "ablativo plural",
+      "def": [
+        "Pecador."
+      ],
+      "nota": "No mesmo caso de «nobis», a que se junta: diz quem somos nós."
+    },
+    "nunc": {
+      "lema": "nunc",
+      "classe": "advérbio",
+      "def": [
+        "Agora, no presente, neste momento."
+      ]
+    },
+    "in#2": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Durante, dentro de, em (tempo)."
+      ],
+      "nota": "Com ablativo, indica o tempo."
+    },
+    "hora": {
+      "lema": "hora",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Hora."
+      ],
+      "nota": "Ablativo: quando."
+    },
+    "mortis": {
+      "lema": "mors",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "Morte."
+      ]
+    },
+    "nostrae": {
+      "lema": "noster",
+      "classe": "pronome possessivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com «mortis»."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "advérbio",
+      "def": [
+        "Amém; assim seja."
+      ],
+      "nota": "Palavra de origem hebraica que fecha a oração."
+    }
+  },
+  "ocorrencias": {
+    "7.3": "in#2"
+  }
+}

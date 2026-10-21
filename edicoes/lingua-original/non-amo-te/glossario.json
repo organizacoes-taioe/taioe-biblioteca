@@ -1,0 +1,83 @@
+{
+  "verbetes": {
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "amo": {
+      "lema": "amo",
+      "classe": "verbo",
+      "def": [
+        "Amar."
+      ]
+    },
+    "te": {
+      "lema": "tu",
+      "classe": "pronome pessoal",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu; você (no singular)."
+      ],
+      "nota": "Acusativo: o objeto de «amo»."
+    },
+    "sabidi": {
+      "lema": "Sabidius",
+      "classe": "nome próprio",
+      "forma": "vocativo singular",
+      "def": [
+        "Nome gentílico romano: o nome da gens, o «nome de família»."
+      ],
+      "nota": "Vocativo de «Sabidius»: a quem o poeta fala."
+    },
+    "nec": {
+      "lema": "nec",
+      "classe": "conjunção",
+      "def": [
+        "E não."
+      ]
+    },
+    "possum": {
+      "lema": "possum",
+      "classe": "verbo",
+      "def": [
+        "Ser capaz de, poder."
+      ]
+    },
+    "dicere": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Dizer, falar, pronunciar, mencionar."
+      ],
+      "nota": "Infinitivo: completa «possum»."
+    },
+    "quare": {
+      "lema": "quare",
+      "classe": "advérbio",
+      "def": [
+        "(Interrogativo) por que causa, por que motivo, por quê."
+      ]
+    },
+    "hoc": {
+      "lema": "hic",
+      "classe": "pronome demonstrativo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Este; isto (coisa)."
+      ],
+      "nota": "Acusativo neutro: o objeto de «dicere», «isto»."
+    },
+    "tantum": {
+      "lema": "tantum",
+      "classe": "advérbio",
+      "def": [
+        "Só, somente, apenas."
+      ]
+    }
+  },
+  "ocorrencias": {}
+}

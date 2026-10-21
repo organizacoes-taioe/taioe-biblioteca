@@ -148,3 +148,23 @@ BIBLIOTECA.poemas({
     {"id":"robert-louis-stevenson-requiem","titulo":"Requiem","forma":"outras","livro":0,"ordem":0,"versos":8,"lingua":"en","ano":1887,"glossario":true}
   ]
 });
+
+BIBLIOTECA.poemas({
+  autor: "oracoes",
+  arquivo: "conteudo/oracoes/lingua-original.js",
+  livros: [],
+  poemas: [
+    {"id":"oracoes-gloria-patri","titulo":"Gloria Patri","forma":"outras","livro":-1,"ordem":0,"versos":3,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-pater-noster","titulo":"Pater Noster","forma":"outras","livro":-1,"ordem":1,"versos":9,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-ave-maria","titulo":"Ave Maria","forma":"outras","livro":-1,"ordem":2,"versos":7,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "marcial",
+  arquivo: "conteudo/marcial/lingua-original.js",
+  livros: [{"id": "epigrammata", "titulo": "Epigrammata", "ano": 86}],
+  poemas: [
+    {"id":"marcial-non-amo-te","titulo":"Non amo te","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":86,"glossario":true}
+  ]
+});

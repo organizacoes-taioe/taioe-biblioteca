@@ -39,7 +39,7 @@ const BIBLIOTECA = {
     pac.poemas.forEach((p, k) => {
       const l = p.livro >= 0 ? pac.livros[p.livro] : null;
       registrar({
-        id: p.id, autor: pac.autor, titulo: p.titulo, genero: 'Poesia', poema: true,
+        id: p.id, autor: pac.autor, titulo: p.titulo, genero: p.genero || 'Poesia', poema: true,
         forma: p.forma, n: p.n || '', secao: p.secao || '', subtitulo: p.subtitulo || '',
         ano: p.ano || (l && l.ano) || null, versos: p.versos, lingua: p.lingua || '',
         traducao: p.traducao || null, glossario: !!p.glossario, pt: p.pt || null,
@@ -249,7 +249,8 @@ const AREAS = [{ id: 'literatura', nome: 'Literatura' }, { id: 'catolicismo', no
 const areaDe = (a) => a.area || 'literatura';
 const acharArea = (id) => AREAS.find((x) => x.id === id) || null;
 /* Literatura na língua original (autor com «lingua»): uma página por língua, dentro da Literatura */
-const LINGUAS = { es: { nome: 'Espanhol', slug: 'espanhol' }, en: { nome: 'Inglês', slug: 'ingles' }, fr: { nome: 'Francês', slug: 'frances' } };
+const LINGUAS = { es: { nome: 'Espanhol', slug: 'espanhol' }, en: { nome: 'Inglês', slug: 'ingles' }, fr: { nome: 'Francês', slug: 'frances' },
+  la: { nome: 'Latim', slug: 'latim' } };
 const nomeGenero = (g) => PLURAIS[g] || g;
 const slug = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const slugGenero = (g) => slug(nomeGenero(g));
@@ -281,7 +282,9 @@ function livros(obras) {
   obras.forEach((o) => { vistos[o.coletanea ? 'c:' + o.coletanea.id : o.id] = 1; });
   return Object.keys(vistos).length;
 }
-const TEXTOS = { 'Contos': ['conto', 'contos'], 'Poesia': ['poema', 'poemas'] };
+const TEXTOS = { 'Contos': ['conto', 'contos'], 'Poesia': ['poema', 'poemas'], 'Orações': ['oração', 'orações'] };
+/* os textos em verso (o.poema) contam-se pelo gênero: «3 poemas», ou «3 orações» nas orações na língua original */
+const rotuloVersos = (g) => (g !== 'Poesia' && TEXTOS[g]) || TEXTOS.Poesia;
 function porColetanea(obras) {
   const grupos = [], idx = {};
   obras.forEach((o) => {
@@ -303,7 +306,8 @@ const FORMAS = [{ id: 'sonetos', nome: 'Sonetos' }, { id: 'apologos', nome: 'Ap�
   { id: 'odes', nome: 'Odes' }, { id: 'verso-livre', nome: 'Verso livre' }, { id: 'outras', nome: 'Outras formas' }];
 const acharForma = (id) => FORMAS.find((f) => f.id === id) || null;
 const pastasDe = (obras) => FORMAS.map((f) => ({ forma: f, obras: obras.filter((o) => (o.forma || 'outras') === f.id) })).filter((x) => x.obras.length);
-const poesiaDe = (autorId) => dados.obras.filter((o) => o.autor === autorId && o.genero === 'Poesia');
+/* os textos em verso do autor: os poemas (gênero Poesia) ou, nas orações na língua original, as orações */
+const poesiaDe = (autorId) => dados.obras.filter((o) => o.autor === autorId && o.poema);
 const acharAutor = (id) => dados.autores.find((a) => a.id === id) || null;
 const obrasDe = (autorId) => dados.obras.filter((o) => o.autor === autorId)
   .sort((a, b) => (a.ano || 0) - (b.ano || 0) || a.titulo.localeCompare(b.titulo, 'pt'));
@@ -314,7 +318,9 @@ function generosDe(autorId) {
     .concat(Object.keys(grupos).filter((g) => GENEROS.indexOf(g) < 0).sort())
     .map((g) => ({ genero: g, obras: grupos[g] }));
 }
-function soPoesia(autorId) { const g = generosDe(autorId); return g.length === 1 && g[0].genero === 'Poesia'; }
+/* autor de um gênero só, todo em verso (a Poesia; as Orações): a página do autor já é a lista dos
+   textos, sem a pasta do gênero */
+function soPoesia(autorId) { const g = generosDe(autorId); return g.length === 1 && g[0].obras.every((o) => o.poema); }
 // Ordem alfabética pelo nome como está escrito («Machado de Assis» no M), pedido do Gere, 07/10/2026.
 const autoresOrdenados = () => dados.autores.slice().sort((a, b) => a.nome.localeCompare(b.nome, 'pt'));
 const autoresDaArea = (id) => autoresOrdenados().filter((a) => areaDe(a) === id);
@@ -665,8 +671,10 @@ function htmlAutores(autores) {
     '<button type="button" data-ordem="nasc" aria-pressed="false">nascimento</button>' +
     '<button type="button" data-ordem="morte" aria-pressed="false">falecimento</button></span></div><div id="lista-autores">';
   autores.forEach((a, k) => {
-    const obras = obrasDe(a.id), prosa = obras.filter((o) => !o.poema), versos = obras.length - prosa.length;
-    const conta = [prosa.length ? plural(livros(prosa), 'obra', 'obras') : '', versos ? plural(versos, 'poema', 'poemas') : ''].filter(Boolean).join(' · ') || '0 obras';
+    const obras = obrasDe(a.id), prosa = obras.filter((o) => !o.poema), versos = {};
+    obras.filter((o) => o.poema).forEach((o) => { const t = rotuloVersos(o.genero); versos[t[1]] = versos[t[1]] || [t, 0]; versos[t[1]][1]++; });
+    const conta = [prosa.length ? plural(livros(prosa), 'obra', 'obras') : ''].concat(Object.values(versos).map(([t, n]) => plural(n, t[0], t[1])))
+      .filter(Boolean).join(' · ') || '0 obras';
     const anos = anosDe(a.vida);
     html += '<a class="cartao" href="' + U.autor(a) + '" data-alfa="' + k + '" data-nasc="' + anos.nasc + '" data-morte="' + anos.morte + '"><span class="cartao-titulo">' + esc(a.nome) + '</span>' +
       '<span class="cartao-meta">' + esc(a.vida || '') + (a.vida ? ' · ' : '') + conta + '</span>' +
@@ -779,7 +787,7 @@ function paginaAutor(a) {
   });
   if (soltos.length) {
     html += '<p class="secao-titulo">' + (pastas.length ? 'Outras obras' : 'Obras') + '</p>';
-    soltos.forEach((x) => { html += x.genero === 'Poesia' ? htmlListaPoemas(x.obras) : htmlObrasDoGenero(x.obras); });
+    soltos.forEach((x) => { html += x.obras.every((o) => o.poema) ? htmlListaPoemas(x.obras) : htmlObrasDoGenero(x.obras); });
   }
   html += '</div>';
   pagina({ url: U.autor(a), titulo: a.nome, corpo: html, trilha: comArea(a, [{ txt: a.nome }]), descricao: descricaoDe(desc) });
@@ -817,9 +825,11 @@ function paginaGenero(a, x) {
 function trilhaObra(a, o) {
   return o.poema ? trilhaPasta(a, o) : comArea(a, [{ txt: a.nome, href: U.autor(a) }, trilhaGenero(a, o.genero || 'Outros')].filter(Boolean));
 }
+/* o autor no schema.org: uma pessoa; o autor coletivo («Orações») fica sem */
+const autorLd = (a) => (a.coletivo ? {} : { author: { '@type': 'Person', name: a.nomeCompleto || a.nome } });
 function jsonObra(a, o) {
   return { '@context': 'https://schema.org', '@type': o.poema ? 'CreativeWork' : 'Book', name: o.titulo, inLanguage: 'pt-BR',
-    author: { '@type': 'Person', name: a.nomeCompleto || a.nome }, url: SITE + U.obra(o),
+    ...autorLd(a), url: SITE + U.obra(o),
     ...(o.ano ? { datePublished: String(o.ano) } : {}), isAccessibleForFree: true,
     ...(o.traducao ? { translationOfWork: { '@type': 'CreativeWork', name: o.traducao.titulo || o.titulo, inLanguage: o.traducao.codigo || undefined } } : {}),
     publisher: { '@type': 'Organization', name: 'Taioé', url: SITE + '/' } };
@@ -949,7 +959,7 @@ function paginaParte(a, o, f) {
     '<div id="fim-parte" aria-hidden="true"></div>' +
     (i < total || poema ? '' : '<p class="fim">Fim</p>') +
     '<div class="estado-leitura" id="estado-leitura" data-alvo="' + alvo + '" hidden></div>' +
-    '<nav class="passos" aria-label="Navegação entre ' + esc(poema && total === 1 ? 'poemas' : dividida(o) ? 'capítulos' : o.divisao ? o.divisao.plural : 'partes') + '">' + navAnt + navSeg + '</nav>' +
+    '<nav class="passos" aria-label="Navegação entre ' + esc(poema && total === 1 ? rotuloVersos(o.genero)[1] : dividida(o) ? 'capítulos' : o.divisao ? o.divisao.plural : 'partes') + '">' + navAnt + navSeg + '</nav>' +
     posicao +
     (conto && o.edicao && i === total ? '<p class="posicao"><a href="' + U.sobre(o) + '">' + esc(tituloSobre(o)) + '</a></p>' : '') + '</article>';
   const rot = sub ? f.rotulo : rotuloParte(o, p);
@@ -962,7 +972,7 @@ function paginaParte(a, o, f) {
     dados: { pagina: 'parte', obra: chaveObra(o), parte: f.chave, indice: i, total, ...(sub ? { cadeia: f.acima.join(' ') } : {}),
       rotulo: rot === o.titulo ? '' : rot, 'titulo-obra': o.titulo, 'url-obra': U.obra(o) },
     jsonld: umaParte(o) ? jsonObra(a, o) : { '@context': 'https://schema.org', '@type': 'Chapter', name: tituloPagina.replace(/ — [^—]+$/, ''),
-      position: i, isPartOf: { '@type': 'Book', name: o.titulo, url: SITE + U.obra(o) }, author: { '@type': 'Person', name: a.nomeCompleto || a.nome }, inLanguage: 'pt-BR' } });
+      position: i, isPartOf: { '@type': 'Book', name: o.titulo, url: SITE + U.obra(o) }, ...autorLd(a), inLanguage: 'pt-BR' } });
 }
 
 /* Página de índice dentro da obra: a parte com capítulos (no endereço que a parte sempre teve) ou o
@@ -1081,7 +1091,7 @@ paginasDoLeitor();
 dados.autores.forEach((a) => {
   if (!obrasDe(a.id).length) return;
   paginaAutor(a);
-  generosDe(a.id).forEach((x) => { if (!(x.genero === 'Poesia' && soPoesia(a.id)) && generoEhPasta(a, x.genero)) paginaGenero(a, x); });
+  generosDe(a.id).forEach((x) => { if (!soPoesia(a.id) && generoEhPasta(a, x.genero)) paginaGenero(a, x); });
   formasPasta(a.id).forEach((x) => paginaPasta(a, x.forma));
 });
 dados.obras.forEach((o) => {
@@ -1152,7 +1162,9 @@ const titulos = [];
 dados.autores.forEach((a) => { if (obrasDe(a.id).length) titulos.push([a.nome, '', U.autor(a), 'autor']); });
 dados.obras.filter((o) => !o.paratexto).forEach((o) => {
   const a = acharAutor(o.autor);
-  titulos.push([o.titulo, a ? a.nome : o.autor, U.obra(o), o.poema ? 'poema' : 'obra',
+  // o tipo: 'poema', 'obra' ou, num texto em verso de outro gênero, o nome dele ('oração'); o leitor.js
+  // mostra «Poema» e, no resto, «Obra»
+  titulos.push([o.titulo, a ? a.nome : o.autor, U.obra(o), o.poema ? rotuloVersos(o.genero)[0] : 'obra',
     ...(o.traducao && o.traducao.titulo ? [o.traducao.titulo] : [])]);
 });
 fs.mkdirSync(path.join(SAIDA, 'busca', 'i'), { recursive: true });

@@ -1,0 +1,139 @@
+{
+  "verbetes": {
+    "gloria": {
+      "lema": "gloria",
+      "classe": "substantivo feminino",
+      "def": [
+        "Glória, renome, fama, honra."
+      ],
+      "nota": "Nominativo: o sujeito, com o verbo subentendido."
+    },
+    "patri": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "Pai."
+      ],
+      "nota": "Dativo: a quem se dá a glória."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "filio": {
+      "lema": "filius",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "Filho."
+      ],
+      "nota": "Dativo, como «Patri»."
+    },
+    "spiritui": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "Espírito."
+      ],
+      "nota": "Dativo, como «Patri» e «Filio», mas da 4ª declinação, em -ui."
+    },
+    "sancto": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "dativo masculino singular",
+      "def": [
+        "Venerável, augusto, divino, bendito, santo."
+      ],
+      "nota": "Concorda com «Spiritui»: o Espírito Santo."
+    },
+    "sicut": {
+      "lema": "sicut",
+      "classe": "advérbio",
+      "def": [
+        "Como, assim como."
+      ]
+    },
+    "erat": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser, estar; existir."
+      ],
+      "nota": "O sujeito subentendido é a glória."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Durante, dentro de, em (tempo)."
+      ],
+      "nota": "Com ablativo, indica o tempo."
+    },
+    "principio": {
+      "lema": "principium",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Começo, origem, início."
+      ],
+      "nota": "Ablativo, depois de «in»: quando."
+    },
+    "nunc": {
+      "lema": "nunc",
+      "classe": "advérbio",
+      "def": [
+        "Agora, no presente, neste momento."
+      ]
+    },
+    "semper": {
+      "lema": "semper",
+      "classe": "advérbio",
+      "def": [
+        "Sempre, para sempre, em todo tempo, a cada vez."
+      ]
+    },
+    "in#2": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Até, por."
+      ],
+      "nota": "Com acusativo: a duração, «por» ou «até»."
+    },
+    "saecula": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Época, tempo, os tempos, uma era."
+      ],
+      "nota": "Com «saeculorum», forma a expressão «pelos séculos dos séculos», isto é, para sempre."
+    },
+    "saeculorum": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo plural",
+      "def": [
+        "Época, tempo, os tempos, uma era."
+      ],
+      "nota": "Genitivo: «dos séculos»."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "advérbio",
+      "def": [
+        "Amém; assim seja."
+      ],
+      "nota": "Palavra de origem hebraica que fecha a oração."
+    }
+  },
+  "ocorrencias": {
+    "3.2": "in#2"
+  }
+}

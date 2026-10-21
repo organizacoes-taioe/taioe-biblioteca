@@ -83,6 +83,17 @@ BIBLIOTECA.autor({
   nota: 'Escritor e jornalista inglês, convertido ao catolicismo em 1922. Em tradução do inglês.'
 });
 
+/* As orações em latim, na língua original, com nota em cada palavra (edicoes/lingua-original), sob o
+   nome «Orações»; «nome» logo depois de «id», como os Cards o leem. */
+BIBLIOTECA.autor({
+  id: 'oracoes',
+  nome: 'Orações',
+  area: 'catolicismo',
+  nomeCompleto: 'Orações tradicionais da Igreja',
+  coletivo: true,   // não é uma pessoa: as páginas não o dão como autor (schema.org Person)
+  nota: 'Em latim, no texto do Missal e do Breviário romanos, sem tradução.'
+});
+
 /* Poetas (poemas publicados a partir do Versificador; ver ferramentas/poesia.py) */
 
 BIBLIOTECA.autor({
@@ -486,4 +497,13 @@ BIBLIOTECA.autor({
   vida: '1850–1894',
   lingua: 'en',
   nota: 'Escritor escocês, autor de _A Ilha do Tesouro_ e de poemas.'
+});
+
+BIBLIOTECA.autor({
+  id: 'marcial',
+  nome: 'Marcial',
+  nomeCompleto: 'Marco Valério Marcial',
+  vida: '~40–~104',
+  lingua: 'la',
+  nota: 'Poeta latino nascido na Hispânia, que viveu em Roma; mestre do epigrama.'
 });

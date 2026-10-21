@@ -2,7 +2,8 @@
   "linguas": {
     "es": { "nome": "espanhol", "wikisource": "https://es.wikisource.org/wiki/" },
     "en": { "nome": "inglês", "wikisource": "https://en.wikisource.org/wiki/" },
-    "fr": { "nome": "francês", "wikisource": "https://fr.wikisource.org/wiki/" }
+    "fr": { "nome": "francês", "wikisource": "https://fr.wikisource.org/wiki/" },
+    "la": { "nome": "latim", "wikisource": "https://la.wikisource.org/wiki/" }
   },
   "poemas": [
     {
@@ -160,6 +161,42 @@
       "livro": { "titulo": "Underwoods", "ano": 1887 },
       "fontes": [
         { "nome": "Underwoods (1887), no Wikisource", "url": "https://en.wikisource.org/wiki/Underwoods/Requiem" }
+      ]
+    },
+    {
+      "pasta": "gloria-patri", "autor": "oracoes", "lingua": "la", "forma": "outras", "genero": "Orações",
+      "titulo": "Gloria Patri", "ano": null,
+      "livro": null,
+      "fontes": [
+        { "nome": "Breviarium Romanum (Ratisbona, Pustet, 1888), no Internet Archive", "url": "https://archive.org/details/p1breviariumroma00cathuoft", "nota": "o versículo que fecha os salmos; grafia normalizada (i e v, sem j; ae no lugar de æ e de oe), «Sancto» com maiúscula e pontuação de hoje" },
+        { "nome": "Missale Romanum (Tours, Mame, 1882), no Internet Archive", "url": "https://archive.org/details/missaleromanumex1882cath", "nota": "as mesmas palavras e a mesma pontuação" }
+      ]
+    },
+    {
+      "pasta": "pater-noster", "autor": "oracoes", "lingua": "la", "forma": "outras", "genero": "Orações",
+      "titulo": "Pater Noster", "ano": null,
+      "livro": null,
+      "fontes": [
+        { "nome": "Breviarium Romanum (Ratisbona, Pustet, 1888), no Internet Archive", "url": "https://archive.org/details/p1breviariumroma00cathuoft", "nota": "dito antes das horas, com «Amen»; grafia normalizada (i e v, sem j; ae no lugar de æ e de oe: «caelis», não «coelis») e pontuação de hoje, no lugar dos dois-pontos entre os pedidos" },
+        { "nome": "Missale Romanum (Tours, Mame, 1882), no Internet Archive", "url": "https://archive.org/details/missaleromanumex1882cath", "nota": "o Pai-nosso da Missa, com as mesmas palavras; ali o sacerdote diz o «Amen» em voz baixa" }
+      ]
+    },
+    {
+      "pasta": "ave-maria", "autor": "oracoes", "lingua": "la", "forma": "outras", "genero": "Orações",
+      "titulo": "Ave Maria", "ano": null,
+      "livro": null,
+      "fontes": [
+        { "nome": "Breviarium Romanum (Ratisbona, Pustet, 1888), no Internet Archive", "url": "https://archive.org/details/p1breviariumroma00cathuoft", "nota": "dita antes das horas, depois do Pai-nosso; grafia normalizada (i e v, sem j: «Iesus»; ae no lugar de æ e de oe) e pontuação de hoje" },
+        { "nome": "Wikisource", "url": "https://la.wikisource.org/wiki/Ave_Maria", "nota": "o texto de hoje, com acentos: as mesmas palavras" }
+      ]
+    },
+    {
+      "pasta": "non-amo-te", "autor": "marcial", "lingua": "la", "forma": "outras",
+      "titulo": "Non amo te", "ano": 86,
+      "livro": { "titulo": "Epigrammata", "ano": 86 },
+      "fontes": [
+        { "nome": "M. Val. Martialis Epigrammata, ed. W. M. Lindsay (Oxford, 1902), no Internet Archive", "url": "https://archive.org/details/epigrammatarecog00martuoft", "nota": "livro I, epigrama 32; o livro I saiu em 85 ou 86" },
+        { "nome": "M. Valerii Martialis Epigrammaton libri, ed. Ludwig Friedländer (Leipzig, 1886), no Internet Archive", "url": "https://archive.org/details/mvaleriimartial01friegoog", "nota": "as mesmas palavras, com ponto depois de «quare»" }
       ]
     }
   ]

@@ -1,0 +1,363 @@
+{
+  "verbetes": {
+    "pater": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "Pai."
+      ],
+      "nota": "Vocativo: a quem se reza."
+    },
+    "noster": {
+      "lema": "noster",
+      "classe": "pronome possessivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com «Pater»."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "Que, quem, o qual."
+      ],
+      "nota": "Nominativo: o sujeito de «es»."
+    },
+    "es": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Ser, estar; existir."
+      ]
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Em, a, sobre (lugar)."
+      ],
+      "nota": "Com ablativo: onde."
+    },
+    "caelis": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "Céu (onde estão as estrelas e a Via Láctea)."
+      ],
+      "nota": "Ablativo: onde. O plural «os céus», raro no latim clássico, é comum no latim cristão."
+    },
+    "sanctificetur": {
+      "lema": "sanctifico",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Consagrar; tornar santo; separar para uso sagrado ou cerimonial."
+      ],
+      "nota": "Subjuntivo de desejo: «seja santificado»."
+    },
+    "nomen": {
+      "lema": "nomen",
+      "classe": "substantivo neutro",
+      "def": [
+        "Nome."
+      ],
+      "nota": "Nominativo: o sujeito de «sanctificetur»."
+    },
+    "tuum": {
+      "lema": "tuus",
+      "classe": "pronome possessivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com o substantivo neutro que acompanha: «nomen», «regnum»."
+    },
+    "adveniat": {
+      "lema": "advenio",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Vir, chegar."
+      ],
+      "nota": "Subjuntivo de pedido: «venha»."
+    },
+    "regnum": {
+      "lema": "regnum",
+      "classe": "substantivo neutro",
+      "def": [
+        "Reino, domínio, trono."
+      ],
+      "nota": "Nominativo: o sujeito de «adveniat»."
+    },
+    "fiat": {
+      "lema": "fio",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Tornar-se, ser feito."
+      ],
+      "nota": "Subjuntivo de pedido, como «adveniat»: «seja feita»."
+    },
+    "voluntas": {
+      "lema": "voluntas",
+      "classe": "substantivo feminino",
+      "def": [
+        "Vontade, livre-arbítrio, escolha."
+      ],
+      "nota": "Nominativo: o sujeito de «fiat»."
+    },
+    "tua": {
+      "lema": "tuus",
+      "classe": "pronome possessivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com «voluntas»."
+    },
+    "sicut": {
+      "lema": "sicut",
+      "classe": "advérbio",
+      "def": [
+        "Como, assim como."
+      ]
+    },
+    "caelo": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Céu (onde estão as estrelas e a Via Láctea)."
+      ],
+      "nota": "Ablativo: onde."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "terra": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A terra: toda a superfície do planeta, terra firme e mar juntos, em oposição aos céus."
+      ],
+      "nota": "Ablativo: onde."
+    },
+    "panem": {
+      "lema": "panis",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "Pão."
+      ],
+      "nota": "Acusativo: o objeto direto de «da»."
+    },
+    "nostrum": {
+      "lema": "noster",
+      "classe": "pronome possessivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com «panem»."
+    },
+    "quotidianum": {
+      "lema": "quotidianus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Diário, de todos os dias, cotidiano."
+      ],
+      "nota": "Variante de «cotidianus»; concorda com «panem»."
+    },
+    "da": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Dar."
+      ]
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome pessoal",
+      "forma": "dativo plural",
+      "def": [
+        "Nós, nos."
+      ],
+      "nota": "Dativo: a quem se dá ou se perdoa."
+    },
+    "hodie": {
+      "lema": "hodie",
+      "classe": "advérbio",
+      "def": [
+        "Hoje."
+      ]
+    },
+    "dimitte": {
+      "lema": "dimitto",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Perdoar, desculpar, relevar."
+      ]
+    },
+    "debita": {
+      "lema": "debitum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Dívida; aquilo que se deve a outra pessoa ou entidade."
+      ],
+      "nota": "Acusativo: o objeto direto de «dimitte». As dívidas são aqui as faltas, os pecados."
+    },
+    "nostra": {
+      "lema": "noster",
+      "classe": "pronome possessivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com «debita»."
+    },
+    "et#2": {
+      "lema": "et",
+      "classe": "advérbio",
+      "def": [
+        "Também, além disso, igualmente."
+      ],
+      "nota": "Aqui é advérbio, «também»: «sicut et nos», «assim como também nós»."
+    },
+    "nos#2": {
+      "lema": "nos",
+      "classe": "pronome pessoal",
+      "def": [
+        "Nós, nos."
+      ],
+      "nota": "Nominativo: o sujeito de «dimittimus»."
+    },
+    "dimittimus": {
+      "lema": "dimitto",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Perdoar, desculpar, relevar."
+      ]
+    },
+    "debitoribus": {
+      "lema": "debitor",
+      "classe": "substantivo masculino",
+      "forma": "dativo plural",
+      "def": [
+        "Devedor."
+      ],
+      "nota": "Dativo: a quem se perdoa."
+    },
+    "nostris": {
+      "lema": "noster",
+      "classe": "pronome possessivo",
+      "forma": "dativo masculino plural",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com «debitoribus»."
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "advérbio",
+      "def": [
+        "(Com subjuntivo; introduz uma proibição ou uma ordem negativa) não."
+      ],
+      "nota": "Nega o pedido, com o subjuntivo «inducas»."
+    },
+    "nos": {
+      "lema": "nos",
+      "classe": "pronome pessoal",
+      "forma": "acusativo plural",
+      "def": [
+        "Nós, nos."
+      ],
+      "nota": "Acusativo: o objeto do verbo."
+    },
+    "inducas": {
+      "lema": "induco",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 2ª pessoa do singular",
+      "def": [
+        "Conduzir, levar ou trazer para dentro de algum lugar."
+      ],
+      "nota": "Subjuntivo com «ne»: o pedido negativo."
+    },
+    "in#2": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Para dentro de, para."
+      ],
+      "nota": "Com acusativo: para dentro de."
+    },
+    "tentationem": {
+      "lema": "tentatio",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Tentação."
+      ]
+    },
+    "sed": {
+      "lema": "sed",
+      "classe": "conjunção",
+      "def": [
+        "Mas."
+      ]
+    },
+    "libera": {
+      "lema": "libero",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Soltar, livrar."
+      ]
+    },
+    "a": {
+      "lema": "ab",
+      "classe": "preposição",
+      "forma": "variante de «ab» usada diante de consoante",
+      "def": [
+        "(Afastamento) de, para longe de, fora de."
+      ],
+      "nota": "Com ablativo: o afastamento."
+    },
+    "malo": {
+      "lema": "malum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Mal, adversidade, infortúnio, calamidade, desastre."
+      ],
+      "nota": "Ablativo, depois de «a»."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "advérbio",
+      "def": [
+        "Amém; assim seja."
+      ],
+      "nota": "Palavra de origem hebraica que fecha a oração."
+    }
+  },
+  "ocorrencias": {
+    "7.2": "et#2",
+    "7.3": "nos#2",
+    "8.5": "in#2"
+  }
+}

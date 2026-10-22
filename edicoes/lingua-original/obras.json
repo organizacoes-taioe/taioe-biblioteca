@@ -198,6 +198,30 @@
         { "nome": "M. Val. Martialis Epigrammata, ed. W. M. Lindsay (Oxford, 1902), no Internet Archive", "url": "https://archive.org/details/epigrammatarecog00martuoft", "nota": "livro I, epigrama 32; o livro I saiu em 85 ou 86" },
         { "nome": "M. Valerii Martialis Epigrammaton libri, ed. Ludwig Friedländer (Leipzig, 1886), no Internet Archive", "url": "https://archive.org/details/mvaleriimartial01friegoog", "nota": "as mesmas palavras, com ponto depois de «quare»" }
       ]
+    },
+    {
+      "pasta": "regina-caeli", "autor": "oracoes", "lingua": "la", "forma": "outras", "genero": "Orações",
+      "titulo": "Regina caeli", "ano": null,
+      "livro": null,
+      "fontes": [
+        { "nome": "Wikisource", "url": "https://la.wikisource.org/wiki/Regina_Caeli", "nota": "a antífona do tempo pascal, sem o versículo e a oração que a seguem; grafia normalizada (ae no lugar de æ, sem acentos) e pontuação de hoje" }
+      ]
+    },
+    {
+      "pasta": "odi-et-amo", "autor": "catulo", "lingua": "la", "forma": "outras",
+      "titulo": "Odi et amo", "ano": null,
+      "livro": { "titulo": "Carmina", "ano": null },
+      "fontes": [
+        { "nome": "Catullus, ed. Elmer Truesdell Merrill (Boston, Ginn and Company, 1893), no Perseus Digital Library", "url": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi0472.phi001.perseus-lat2:85/", "nota": "poema 85; pontuação de hoje" }
+      ]
+    },
+    {
+      "pasta": "lupus-et-agnus", "autor": "fedro", "lingua": "la", "forma": "outras",
+      "titulo": "Lupus et agnus", "ano": null,
+      "livro": { "titulo": "Fabulae Aesopiae", "ano": null },
+      "fontes": [
+        { "nome": "Phaedri Augusti liberti Fabulae Aesopiae, ed. Lucian Müller (Leipzig, Teubner, 1876), no Perseus Digital Library", "url": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi0975.phi001.perseus-lat2:1.1/", "nota": "livro I, fábula 1" }
+      ]
     }
   ]
 }

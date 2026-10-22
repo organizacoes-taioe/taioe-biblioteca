@@ -507,3 +507,21 @@ BIBLIOTECA.autor({
   lingua: 'la',
   nota: 'Poeta latino nascido na Hispânia, que viveu em Roma; mestre do epigrama.'
 });
+
+BIBLIOTECA.autor({
+  id: 'catulo',
+  nome: 'Catulo',
+  nomeCompleto: 'Caio Valério Catulo',
+  vida: '~84–~54 a.C.',
+  lingua: 'la',
+  nota: 'Poeta latino de Verona; os seus poemas a Lésbia estão entre os mais pessoais da poesia antiga.'
+});
+
+BIBLIOTECA.autor({
+  id: 'fedro',
+  nome: 'Fedro',
+  nomeCompleto: 'Fedro',
+  vida: '~15 a.C.–~50',
+  lingua: 'la',
+  nota: 'Escravo liberto de Augusto, pôs em verso latino as fábulas de Esopo.'
+});

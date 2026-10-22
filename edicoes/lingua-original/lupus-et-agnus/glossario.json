@@ -1,0 +1,743 @@
+{
+  "verbetes": {
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "def": [
+        "Para, em direção a."
+      ]
+    },
+    "rivum": {
+      "lema": "rivus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "Pequena corrente de água; riacho, regato."
+      ],
+      "nota": "Para onde."
+    },
+    "eundem": {
+      "lema": "idem",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "O mesmo."
+      ],
+      "nota": "Concorda com rivum: o mesmo."
+    },
+    "lupus": {
+      "lema": "lupus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Lobo."
+      ],
+      "nota": "O sujeito."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "agnus": {
+      "lema": "agnus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Cordeiro."
+      ],
+      "nota": "O sujeito."
+    },
+    "venerant": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "mais-que-perfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Vir (a um lugar), chegar, alcançar."
+      ]
+    },
+    "siti": {
+      "lema": "sitis",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Sede."
+      ],
+      "nota": "A causa: pela sede."
+    },
+    "compulsi": {
+      "lema": "compello",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino plural",
+      "def": [
+        "Compelir, reduzir à força a certa condição ou estado."
+      ],
+      "nota": "Os dois, impelidos."
+    },
+    "superior": {
+      "lema": "superior",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "(De lugar) mais alto, de cima."
+      ],
+      "nota": "Predicativo: mais acima."
+    },
+    "stabat": {
+      "lema": "sto",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Estar de pé."
+      ]
+    },
+    "longeque": {
+      "partes": [
+        {
+          "lema": "longe",
+          "classe": "advérbio",
+          "def": [
+            "Amplamente, grandemente, muito."
+          ],
+          "nota": "Com o comparativo: muito."
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ]
+    },
+    "inferior": {
+      "lema": "inferior",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Mais baixo em situação ou lugar."
+      ],
+      "nota": "Predicativo: mais abaixo."
+    },
+    "agnus#2": {
+      "lema": "agnus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Cordeiro."
+      ],
+      "nota": "O sujeito, com stabat subentendido."
+    },
+    "tunc": {
+      "lema": "tunc",
+      "classe": "advérbio",
+      "def": [
+        "Então."
+      ]
+    },
+    "fauce": {
+      "lema": "faux",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Garganta, goela."
+      ],
+      "nota": "O meio: com a goela."
+    },
+    "improba": {
+      "lema": "improbus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Ávido, desregrado, voraz."
+      ],
+      "nota": "Concorda com fauce."
+    },
+    "latro": {
+      "lema": "latro",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Salteador de estrada; bandido; ladrão."
+      ],
+      "nota": "O sujeito: o ladrão, isto é, o lobo."
+    },
+    "incitatus": {
+      "lema": "incito",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "(Figurado) incitar, estimular, excitar, instigar."
+      ],
+      "nota": "Concorda com latro."
+    },
+    "iurgii": {
+      "lema": "iurgium",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "Briga, contenda, disputa, altercação."
+      ],
+      "nota": "De briga."
+    },
+    "causam": {
+      "lema": "causa",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Motivo, razão, pretexto."
+      ],
+      "nota": "O objeto direto."
+    },
+    "intulit": {
+      "lema": "infero",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Apresentar, introduzir; causar, ocasionar."
+      ]
+    },
+    "cur": {
+      "lema": "cur",
+      "classe": "advérbio",
+      "def": [
+        "Por quê; por que motivo; com que fim."
+      ]
+    },
+    "inquit": {
+      "lema": "inquam",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dizer."
+      ],
+      "nota": "Diz o lobo."
+    },
+    "turbulentam": {
+      "lema": "turbulentus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Tempestuoso, turbulento."
+      ],
+      "nota": "Predicativo de aquam, na linha seguinte: turva."
+    },
+    "fecisti": {
+      "lema": "facio",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Fazer, produzir."
+      ]
+    },
+    "mihi": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "dativo",
+      "def": [
+        "Eu (pronome pessoal da 1ª pessoa do singular)."
+      ],
+      "nota": "Para mim."
+    },
+    "aquam": {
+      "lema": "aqua",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Água."
+      ],
+      "nota": "O objeto de fecisti."
+    },
+    "bibenti": {
+      "lema": "bibo",
+      "classe": "verbo",
+      "forma": "particípio presente, dativo masculino singular",
+      "def": [
+        "Beber."
+      ],
+      "nota": "Concorda com mihi: a mim, que bebo."
+    },
+    "laniger": {
+      "lema": "laniger",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "(Poético) que tem lã, lanígero."
+      ],
+      "nota": "O sujeito: o que tem lã, o cordeiro."
+    },
+    "contra": {
+      "lema": "contra",
+      "classe": "advérbio",
+      "def": [
+        "Em troca, de volta."
+      ],
+      "nota": "Advérbio: em resposta."
+    },
+    "timens": {
+      "lema": "timeo",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo masculino singular",
+      "def": [
+        "Ter medo, temer."
+      ],
+      "nota": "Temendo."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "def": [
+        "(Interrogativo) de que modo? como? por que meio?"
+      ],
+      "nota": "Advérbio, a forma antiga do ablativo: como?."
+    },
+    "possum": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Ser capaz de, poder."
+      ]
+    },
+    "quaeso": {
+      "lema": "quaeso",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Rogar, pedir."
+      ],
+      "nota": "Por favor."
+    },
+    "facere": {
+      "lema": "facio",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Fazer (sobretudo um ato determinado, numa ocasião)."
+      ],
+      "nota": "Completa possum."
+    },
+    "quod": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Que, quem, o qual."
+      ],
+      "nota": "Aquilo que: o objeto de facere."
+    },
+    "quereris": {
+      "lema": "queror",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Queixar-se, lamentar-se, deplorar."
+      ],
+      "nota": "Depoente: te queixas."
+    },
+    "lupe": {
+      "lema": "lupus",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "Lobo."
+      ],
+      "nota": "A quem o cordeiro fala."
+    },
+    "a": {
+      "lema": "ab",
+      "classe": "preposição",
+      "def": [
+        "(Afastamento) de, para longe de, fora de."
+      ]
+    },
+    "te": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "ablativo singular",
+      "def": [
+        "Tu; você (no singular)."
+      ],
+      "nota": "De onde."
+    },
+    "decurrit": {
+      "lema": "decurro",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Correr, fluir ou mover-se para baixo."
+      ]
+    },
+    "meos": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com haustus."
+    },
+    "haustus": {
+      "lema": "haustus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Aquilo que se bebe; bebida, gole."
+      ],
+      "nota": "Para onde."
+    },
+    "liquor": {
+      "lema": "liquor",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Líquido, fluido."
+      ],
+      "nota": "O sujeito."
+    },
+    "repulsus": {
+      "lema": "repello",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Empurrar ou fazer recuar, afastar; rejeitar, repelir."
+      ],
+      "nota": "Particípio, concorda com «ille»: o lobo, repelido."
+    },
+    "ille": {
+      "lema": "ille",
+      "classe": "pronome demonstrativo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Aquele; aquilo; ele, ela."
+      ],
+      "nota": "O sujeito: o lobo."
+    },
+    "veritatis": {
+      "lema": "veritas",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "Verdade, veracidade."
+      ],
+      "nota": "Genitivo: as forças «da verdade»."
+    },
+    "viribus": {
+      "lema": "vis",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "(No plural) força; poder; vigor; capacidade."
+      ],
+      "nota": "Ablativo de «vis»: o meio, pelo qual o lobo é repelido."
+    },
+    "ante": {
+      "lema": "ante",
+      "classe": "preposição",
+      "def": [
+        "(De tempo) antes de."
+      ],
+      "nota": "Com acusativo: «ante hos sex menses», antes destes seis meses, isto é, seis meses atrás."
+    },
+    "hos": {
+      "lema": "hic",
+      "classe": "pronome demonstrativo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Este; estes (no plural)."
+      ],
+      "nota": "Concorda com «menses»."
+    },
+    "sex": {
+      "lema": "sex",
+      "classe": "numeral",
+      "def": [
+        "Seis; 6."
+      ]
+    },
+    "menses": {
+      "lema": "mensis",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Mês."
+      ],
+      "nota": "Acusativo, depois de «ante»."
+    },
+    "male": {
+      "lema": "male",
+      "classe": "advérbio",
+      "def": [
+        "Mal."
+      ],
+      "nota": "Com «dicere», «falar mal de» alguém, que vai no dativo («mihi»). O Wiktionary registra a expressão também como um verbo só, «maledico», «caluniar, falar mal de»."
+    },
+    "ait": {
+      "lema": "aio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dizer, falar, afirmar."
+      ],
+      "nota": "Intercalado na fala do lobo, como «inquit»: «diz ele»."
+    },
+    "dixisti": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Dizer, falar, pronunciar, mencionar."
+      ],
+      "nota": "Com «male»: «falaste mal de mim»."
+    },
+    "mihi#2": {
+      "lema": "ego",
+      "classe": "pronome pessoal",
+      "forma": "dativo singular",
+      "def": [
+        "Eu (pronome pessoal da 1ª pessoa do singular)."
+      ],
+      "nota": "Dativo com «male dicere»: de quem se fala mal."
+    },
+    "respondit": {
+      "lema": "respondeo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Replicar, responder."
+      ]
+    },
+    "equidem": {
+      "lema": "equidem",
+      "classe": "advérbio",
+      "def": [
+        "Na verdade; de fato; certamente."
+      ],
+      "nota": "Usado sobretudo por quem fala de si, como aqui: «quanto a mim»."
+    },
+    "natus": {
+      "lema": "nascor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Nascer, ser gerado."
+      ],
+      "nota": "Com «eram», forma o mais-que-perfeito de «nascor», verbo depoente (de forma passiva e sentido ativo): «eu tinha nascido»."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "eram": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Ser, estar; existir."
+      ],
+      "nota": "Auxiliar de «natus»: «natus eram», «eu tinha nascido»."
+    },
+    "pater": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Pai."
+      ],
+      "nota": "O sujeito de «dixit»."
+    },
+    "hercle": {
+      "lema": "mehercule",
+      "classe": "interjeição",
+      "def": [
+        "Expressão de surpresa, irritação ou excitação."
+      ],
+      "nota": "Hercle é a forma breve de mehercule: «por Hércules!», jura de quem se irrita."
+    },
+    "tuus": {
+      "lema": "tuus",
+      "classe": "pronome possessivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com «pater»."
+    },
+    "dixit": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dizer, falar, pronunciar, mencionar."
+      ],
+      "nota": "Com «male», como no verso 10: «falou mal de mim»."
+    },
+    "atque": {
+      "lema": "atque",
+      "classe": "conjunção",
+      "def": [
+        "E, e também, e além disso, e até."
+      ]
+    },
+    "ita": {
+      "lema": "ita",
+      "classe": "advérbio",
+      "def": [
+        "Assim; deste modo."
+      ]
+    },
+    "correptum": {
+      "lema": "corripio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino singular",
+      "def": [
+        "Agarrar, arrebatar, apanhar; deitar as mãos com violência a."
+      ],
+      "nota": "Particípio no acusativo, o objeto de «lacerat»: o cordeiro, agarrado."
+    },
+    "lacerat": {
+      "lema": "lacero",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Rasgar, despedaçar."
+      ],
+      "nota": "O sujeito subentendido é o lobo."
+    },
+    "iniusta": {
+      "lema": "iniustus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Injusto, indevido."
+      ],
+      "nota": "Concorda com «nece»."
+    },
+    "nece": {
+      "lema": "nex",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Assassínio, matança, morte violenta (em oposição a «mors»)."
+      ],
+      "nota": "Ablativo de «nex»: o modo, «com morte injusta»."
+    },
+    "haec": {
+      "lema": "hic",
+      "classe": "pronome demonstrativo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Este, esta."
+      ],
+      "nota": "Concorda com «fabula», no fim do verso: «esta fábula»."
+    },
+    "propter": {
+      "lema": "propter",
+      "classe": "preposição",
+      "def": [
+        "Por causa de, por conta de, por."
+      ],
+      "nota": "Com acusativo: «propter illos homines», por causa daqueles homens."
+    },
+    "illos": {
+      "lema": "ille",
+      "classe": "pronome demonstrativo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Aquele; aqueles (no plural)."
+      ],
+      "nota": "Concorda com «homines»."
+    },
+    "scripta": {
+      "lema": "scribo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Escrever."
+      ],
+      "nota": "Com «est», forma o perfeito passivo, «foi escrita»; concorda com «fabula»."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser, estar; existir."
+      ],
+      "nota": "Auxiliar de «scripta»."
+    },
+    "homines": {
+      "lema": "homo",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Ser humano, pessoa, homem."
+      ],
+      "nota": "Acusativo, depois de «propter»."
+    },
+    "fabula": {
+      "lema": "fabula",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Fábula, conto, história."
+      ],
+      "nota": "O sujeito de «scripta est»."
+    },
+    "qui#2": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Que, quem, o qual."
+      ],
+      "nota": "O sujeito de «opprimunt»; retoma «homines»."
+    },
+    "fictis": {
+      "lema": "fingo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, ablativo feminino plural",
+      "def": [
+        "Dissimular; alterar a verdade para enganar; fingir, forjar, inventar."
+      ],
+      "nota": "Particípio, concorda com «causis»: motivos inventados."
+    },
+    "causis": {
+      "lema": "causa",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "Motivo, razão, pretexto."
+      ],
+      "nota": "Ablativo: o meio, «com pretextos»."
+    },
+    "innocentes": {
+      "lema": "innocens",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Irrepreensível, sem culpa, inocente."
+      ],
+      "nota": "Usado como substantivo, «os inocentes»: o objeto de «opprimunt»."
+    },
+    "opprimunt": {
+      "lema": "opprimo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Esmagar, reprimir."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "3.3": "agnus#2",
+    "10.8": "mihi#2",
+    "12.8": "mihi#2",
+    "15.1": "qui#2"
+  }
+}

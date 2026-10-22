@@ -156,7 +156,8 @@ BIBLIOTECA.poemas({
   poemas: [
     {"id":"oracoes-gloria-patri","titulo":"Gloria Patri","forma":"outras","livro":-1,"ordem":0,"versos":3,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
     {"id":"oracoes-pater-noster","titulo":"Pater Noster","forma":"outras","livro":-1,"ordem":1,"versos":9,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
-    {"id":"oracoes-ave-maria","titulo":"Ave Maria","forma":"outras","livro":-1,"ordem":2,"versos":7,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"}
+    {"id":"oracoes-ave-maria","titulo":"Ave Maria","forma":"outras","livro":-1,"ordem":2,"versos":7,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-regina-caeli","titulo":"Regina caeli","forma":"outras","livro":-1,"ordem":3,"versos":4,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"}
   ]
 });
 
@@ -166,5 +167,23 @@ BIBLIOTECA.poemas({
   livros: [{"id": "epigrammata", "titulo": "Epigrammata", "ano": 86}],
   poemas: [
     {"id":"marcial-non-amo-te","titulo":"Non amo te","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":86,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "catulo",
+  arquivo: "conteudo/catulo/lingua-original.js",
+  livros: [{"id": "carmina", "titulo": "Carmina", "ano": null}],
+  poemas: [
+    {"id":"catulo-odi-et-amo","titulo":"Odi et amo","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":null,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "fedro",
+  arquivo: "conteudo/fedro/lingua-original.js",
+  livros: [{"id": "fabulae-aesopiae", "titulo": "Fabulae Aesopiae", "ano": null}],
+  poemas: [
+    {"id":"fedro-lupus-et-agnus","titulo":"Lupus et agnus","forma":"outras","livro":0,"ordem":0,"versos":15,"lingua":"la","ano":null,"glossario":true}
   ]
 });

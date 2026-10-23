@@ -1991,6 +1991,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('paul-verlaine/chanson-d-automne', 'Chanson d’automne'),
   ('paul-verlaine/il-pleure-dans-mon-coeur', 'Il pleure dans mon cœur'),
   ('pierre-de-ronsard/quand-vous-serez-bien-vieille', 'Quand vous serez bien vieille'),
+  ('platao/apologia-de-socrates', 'Apologia de Sócrates'),
   ('raimundo-correia/aleluias-amem', 'Amém!'),
   ('raimundo-correia/aleluias-banzo', 'Banzo'),
   ('raimundo-correia/aleluias-citera', 'Citera'),

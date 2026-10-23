@@ -516,3 +516,14 @@ BIBLIOTECA.autor({
   lingua: 'la',
   nota: 'Escravo liberto de Augusto, pôs em verso latino as fábulas de Esopo.'
 });
+
+/* Não-ficção (área ainda sem link na capa, até o Gere aprovar a primeira obra) */
+BIBLIOTECA.autor({
+  id: 'platao',
+  nome: 'Platão',
+  nomeCompleto: 'Platão de Atenas',
+  vida: '~428–348 a.C.',
+  ordem: 'Platão',
+  area: 'nao-ficcao',
+  nota: 'Filósofo ateniense, discípulo de Sócrates e mestre de Aristóteles.'
+});

@@ -56,6 +56,16 @@ python -m http.server 8765
 
 e abrir `http://localhost:8765`.
 
+## Não-ficção comentada
+
+Desde 23/10/2026 há uma terceira área, a Não-ficção, por enquanto oculta (fora da capa, do
+sitemap e da busca, com `noindex`; `oculta: true` em `AREAS`, no gerador), com a *Apologia de
+Sócrates* comentada, no esquema da Bíblia Taioé: o grego ao lado, a paginação de Stephanus no
+texto, notas que abrem junto da linha e comentários por tema em `…/<parte>/comentarios/`. Fonte em
+`edicoes/apologia-de-socrates/` (ver o `CONVENCOES.md` de lá); `python3 ferramentas/comentadas.py`
+grava o conteúdo, e `--revisao <pasta>` as páginas de revisão do Gere (`/admin/nao-ficcao/` e
+`/admin/nao-ficcao-comentarios/`, conteúdo no `taioe-infra`).
+
 ## Acrescentar um autor
 
 Em `conteudo/autores.js`:

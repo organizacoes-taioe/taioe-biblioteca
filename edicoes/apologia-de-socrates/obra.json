@@ -1,0 +1,492 @@
+{
+  "id": "apologia-de-socrates",
+  "autor": "platao",
+  "titulo": "Apologia de Sócrates",
+  "original": "Ἀπολογία Σωκράτους",
+  "datas": "c. 399–390 a.C.",
+  "genero": "Filosofia",
+  "estado": "em revisão",
+  "descricao": "A defesa de Sócrates diante do tribunal de Atenas, em 399 a.C., quando foi acusado de não crer nos deuses da cidade e de corromper os jovens; depois da condenação, a contraproposta de pena e as últimas palavras aos juízes.",
+  "apresentacao": "Tradução da Biblioteca Taioé, feita do grego da edição de John Burnet (_Platonis Opera_, vol. I, Oxford, 1900), em domínio público; o texto digital é o da Perseus Digital Library (Universidade Tufts, licença CC BY-SA). As notas são nossas; os comentários, de filósofos e teólogos em domínio público, foram traduzidos por nós dos originais, e cada um traz a referência e o link para o texto na língua em que foi escrito.\n\nOs números à margem (17a, 17b…) são a paginação da edição de Henri Estienne (Stephanus), de 1578, pela qual todas as edições e estudos citam Platão. A divisão em nove partes segue a estrutura do discurso que os estudiosos reconhecem: a defesa (partes 1 a 6), a contraproposta de pena depois da condenação (parte 7) e as palavras finais aos juízes (partes 8 e 9).",
+  "fontes": [
+    {
+      "nome": "Burnet, Platonis Opera, vol. I (Oxford, 1900), no Internet Archive",
+      "url": "https://archive.org/details/platonisopera01platuoft"
+    },
+    {
+      "nome": "Perseus Digital Library: Plato, Apology (texto grego de Burnet)",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0169",
+      "nota": "CC BY-SA"
+    }
+  ],
+  "partes": [
+    {
+      "n": "1",
+      "titulo": "Exórdio",
+      "st": "17a–18a"
+    },
+    {
+      "n": "2",
+      "titulo": "Os dois grupos de acusadores",
+      "st": "18a–18e"
+    },
+    {
+      "n": "3",
+      "titulo": "Os primeiros acusadores e o oráculo de Delfos",
+      "st": "18e–24b",
+      "trechos": [
+        {
+          "id": "fisico-e-sofista",
+          "titulo": "Nem investigador da natureza, nem sofista",
+          "par": 1
+        },
+        {
+          "id": "oraculo",
+          "titulo": "O oráculo de Delfos",
+          "par": 5
+        },
+        {
+          "id": "origem-do-odio",
+          "titulo": "De onde vem a calúnia",
+          "par": 12
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "titulo": "O interrogatório de Meleto",
+      "st": "24b–28a",
+      "trechos": [
+        {
+          "id": "os-jovens",
+          "titulo": "Quem torna os jovens melhores",
+          "par": 1
+        },
+        {
+          "id": "os-deuses",
+          "titulo": "Os deuses e as coisas divinas",
+          "par": 30
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "titulo": "A missão",
+      "st": "28a–34b",
+      "trechos": [
+        {
+          "id": "o-posto",
+          "titulo": "O posto que o deus lhe deu",
+          "par": 1
+        },
+        {
+          "id": "o-moscardo",
+          "titulo": "O moscardo",
+          "par": 6
+        },
+        {
+          "id": "sinal-divino-e-politica",
+          "titulo": "O sinal divino e a vida pública",
+          "par": 8
+        },
+        {
+          "id": "os-discipulos",
+          "titulo": "Mestre de ninguém",
+          "par": 11
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "titulo": "Peroração",
+      "st": "34b–35d"
+    },
+    {
+      "n": "7",
+      "titulo": "Depois do veredicto: a contraproposta",
+      "st": "35e–38b"
+    },
+    {
+      "n": "8",
+      "titulo": "Aos que o condenaram",
+      "st": "38c–39d"
+    },
+    {
+      "n": "9",
+      "titulo": "Aos que o absolveram",
+      "st": "39e–42a"
+    }
+  ],
+  "notas": [
+    {
+      "id": "cambistas",
+      "parte": 1,
+      "st": "17c",
+      "apos": "mesas dos cambistas",
+      "texto": "Na praça de Atenas, a ágora, os cambistas atendiam em mesas ao ar livre, e muita gente parava ali para conversar."
+    },
+    {
+      "id": "acusadores",
+      "parte": 2,
+      "st": "18b",
+      "apos": "Ânito e aos seus",
+      "texto": "Eram três os acusadores: Ânito, rico e um dos chefes da democracia restaurada em 403 a.C., o de mais peso; Meleto, um poeta jovem, que assinou a acusação; e Lícon, um orador."
+    },
+    {
+      "id": "nuvens",
+      "parte": 3,
+      "st": "19c",
+      "apos": "caminhava pelos ares",
+      "texto": "Em *As Nuvens* (423 a.C.), Aristófanes pôs em cena um Sócrates que entra pendurado num cesto, no alto, estuda o céu e ensina a ganhar discussões injustas."
+    },
+    {
+      "id": "sofistas",
+      "parte": 3,
+      "st": "19e",
+      "apos": "Hípias de Élis",
+      "texto": "Três dos sofistas mais famosos da época: mestres que iam de cidade em cidade ensinando a arte de falar e de vencer debates, e cobravam caro por isso."
+    },
+    {
+      "id": "minas",
+      "parte": 3,
+      "st": "20b",
+      "apos": "por cinco minas",
+      "texto": "Uma mina valia cem dracmas, e uma dracma era mais ou menos o salário de um dia de trabalho. Para um sofista, cinco minas era pouco: daí a ironia."
+    },
+    {
+      "id": "querefonte",
+      "parte": 3,
+      "st": "20e",
+      "apos": "conheceram Querefonte",
+      "texto": "Amigo de Sócrates desde a juventude. Foi para o exílio com os democratas durante o governo dos Trinta (404–403 a.C.) e voltou com eles; quando o julgamento aconteceu, já tinha morrido."
+    },
+    {
+      "id": "pitia",
+      "parte": 3,
+      "st": "21a",
+      "apos": "a Pítia",
+      "texto": "A sacerdotisa de Apolo em Delfos, por cuja boca o deus respondia às consultas."
+    },
+    {
+      "id": "cao",
+      "parte": 3,
+      "st": "22a",
+      "apos": "pelo cão",
+      "texto": "Juramento típico de Sócrates, talvez para não usar à toa o nome de um deus."
+    },
+    {
+      "id": "conselho",
+      "parte": 4,
+      "st": "25a",
+      "apos": "membros do Conselho",
+      "texto": "O Conselho dos Quinhentos preparava as propostas que a Assembleia, aberta a todos os cidadãos, votava."
+    },
+    {
+      "id": "anaxagoras",
+      "parte": 4,
+      "st": "26d",
+      "apos": "Anaxágoras de Clazômenas",
+      "texto": "Filósofo que viveu em Atenas no tempo de Péricles e foi processado por impiedade por ensinar que o sol é uma pedra incandescente."
+    },
+    {
+      "id": "orquestra",
+      "parte": 4,
+      "st": "26e",
+      "apos": "na orquestra",
+      "texto": "Um lugar da ágora onde se vendiam livros."
+    },
+    {
+      "id": "aquiles",
+      "parte": 5,
+      "st": "28c",
+      "apos": "o filho de Tétis",
+      "texto": "Aquiles. Na *Ilíada*, a deusa Tétis avisa o filho de que, se matar Heitor para vingar o amigo Pátroclo, vai morrer logo depois; ele escolhe a vingança."
+    },
+    {
+      "id": "batalhas",
+      "parte": 5,
+      "st": "28e",
+      "apos": "em Délio",
+      "texto": "Batalhas da Guerra do Peloponeso, entre 432 e 422 a.C., em que Sócrates lutou como soldado de infantaria."
+    },
+    {
+      "id": "arginusas",
+      "parte": 5,
+      "st": "32b",
+      "apos": "os da batalha naval",
+      "texto": "Em 406 a.C., depois da vitória naval das Arginusas, uma tempestade impediu os generais de recolher os náufragos e os mortos. A Assembleia quis julgá-los todos juntos, numa só votação, o que a lei proibia, e seis foram executados."
+    },
+    {
+      "id": "trinta",
+      "parte": 5,
+      "st": "32c",
+      "apos": "os Trinta",
+      "texto": "A oligarquia imposta por Esparta depois da derrota de Atenas, em 404 a.C.; em oito meses mandou matar mais de mil cidadãos. A Rotunda era o edifício redondo onde ela governava."
+    },
+    {
+      "id": "platao",
+      "parte": 5,
+      "st": "34a",
+      "apos": "por irmão Platão",
+      "texto": "É o autor deste livro, então com cerca de vinte e oito anos."
+    },
+    {
+      "id": "votos",
+      "parte": 7,
+      "st": "36a",
+      "apos": "trinta votos",
+      "texto": "O tribunal tinha cerca de quinhentos juízes, cidadãos sorteados. Segundo a tradição antiga, Sócrates foi condenado por 280 votos contra 220."
+    },
+    {
+      "id": "quinto",
+      "parte": 7,
+      "st": "36b",
+      "apos": "quinta parte dos votos",
+      "texto": "Quem acusava e não alcançava um quinto dos votos pagava multa de mil dracmas. Sócrates brinca: dividindo os votos da condenação entre os três acusadores, a parte de Meleto ficaria abaixo disso."
+    },
+    {
+      "id": "contraproposta",
+      "parte": 7,
+      "st": "36b",
+      "apos": "em troca, atenienses",
+      "texto": "Quando a lei não fixava a pena, depois do veredicto o acusador e o réu propunham uma pena cada um, e os juízes escolhiam uma das duas, sem meio-termo."
+    },
+    {
+      "id": "pritaneu",
+      "parte": 7,
+      "st": "36d",
+      "apos": "alimentado no Pritaneu",
+      "ocorrencia": 1,
+      "texto": "O edifício onde a cidade alimentava, à custa pública, os seus hóspedes de honra, os vencedores olímpicos e os grandes benfeitores."
+    },
+    {
+      "id": "onze",
+      "parte": 7,
+      "st": "37c",
+      "apos": "os Onze",
+      "texto": "Os magistrados encarregados das prisões e das execuções."
+    },
+    {
+      "id": "juizes",
+      "parte": 9,
+      "st": "40a",
+      "apos": "juízes (pois",
+      "texto": "Até aqui Sócrates dizia sempre «atenienses» ou «senhores»; só agora, falando aos que o absolveram, os chama de juízes."
+    },
+    {
+      "id": "grande-rei",
+      "parte": 9,
+      "st": "40d",
+      "apos": "o próprio Grande Rei",
+      "texto": "O rei da Pérsia, que para os gregos era a imagem da maior felicidade e do maior poder."
+    },
+    {
+      "id": "juizes-do-hades",
+      "parte": 9,
+      "st": "41a",
+      "apos": "Triptólemo",
+      "texto": "Na mitologia grega, os juízes dos mortos."
+    },
+    {
+      "id": "palamedes",
+      "parte": 9,
+      "st": "41b",
+      "apos": "filho de Télamon",
+      "texto": "Dois heróis da guerra de Troia mortos por injustiça: Palamedes, condenado por traição com provas forjadas por Ulisses; Ájax, que se matou quando as armas de Aquiles foram dadas a Ulisses e não a ele."
+    },
+    {
+      "id": "agamemnon",
+      "parte": 9,
+      "st": "41b",
+      "apos": "quem levou contra Troia",
+      "texto": "Agamêmnon."
+    }
+  ],
+  "revisao": {
+    "escolhas": [
+      {
+        "id": "tratamento",
+        "titulo": "Sócrates trata os juízes por «vocês», «vós» ou «os senhores»?",
+        "ref": "a obra inteira",
+        "contexto": "Sócrates avisa no começo (17c–d) que vai falar do jeito de sempre, como na praça, e não como orador. Em português de hoje, «vocês» é o tratamento comum; «vós» dá solenidade, mas pesa num discurso de duas horas e soa a púlpito; «os senhores» é o da tribuna dos tribunais brasileiros («os senhores jurados»). Com Meleto e com os interlocutores imaginários, «você».",
+        "opcoes": [
+          {
+            "id": "a",
+            "texto": "«vocês» (e «você» com Meleto), como está",
+            "nota": "O tom de conversa que ele mesmo anuncia.",
+            "recomendada": true
+          },
+          {
+            "id": "b",
+            "texto": "«vós» (e «tu» com Meleto)",
+            "nota": "Mais solene e mais distante."
+          },
+          {
+            "id": "c",
+            "texto": "«os senhores» (e «o senhor» com Meleto)",
+            "nota": "O tom de tribunal; respeitoso, mais formal que o original."
+          }
+        ]
+      },
+      {
+        "id": "atenienses",
+        "titulo": "*Ō ándres Athēnaîoi*: «atenienses» ou «cidadãos atenienses»?",
+        "ref": "a obra inteira (mais de 40 vezes)",
+        "contexto": "A fórmula literal é «ó homens atenienses». Sócrates a usa de propósito no lugar de «juízes», que só diz aos que o absolveram (40a). Sozinho, *ō ándres* («ó homens») ficou «senhores».",
+        "opcoes": [
+          {
+            "id": "a",
+            "texto": "«atenienses»; *ō ándres* = «senhores», como está",
+            "nota": "Curto e natural; guarda a diferença com «juízes».",
+            "recomendada": true
+          },
+          {
+            "id": "b",
+            "texto": "«cidadãos atenienses»; *ō ándres* = «cidadãos»",
+            "nota": "Mais perto do grego, mais pesado na repetição."
+          }
+        ]
+      },
+      {
+        "id": "daimonia",
+        "titulo": "*Daimónia* e *daímones*: «coisas divinas» e «divindades»?",
+        "ref": "24c, 26b, 27b–28a, 31d",
+        "contexto": "A acusação diz que Sócrates crê em «outros *daimónia* novos». No interrogatório (27b–e), o argumento depende de ligar *daimónia* (neutro: «coisas de *daímones*») a *daímones* («deuses ou filhos de deuses»), como «coisas de cavalos» a «cavalos». «Demônio», em português, é o diabo, e não serve. As traduções brasileiras dizem «novas divindades», o que quebra o argumento.",
+        "opcoes": [
+          {
+            "id": "a",
+            "texto": "«outras coisas divinas, novas»; *daímones* = «divindades», como está",
+            "nota": "O argumento de 27c continua claro: «coisas divinas» pede «divindades».",
+            "recomendada": true
+          },
+          {
+            "id": "b",
+            "texto": "«outras divindades novas»; *daímones* = «divindades»",
+            "nota": "A forma das traduções conhecidas; o argumento perde a passagem do neutro ao masculino."
+          },
+          {
+            "id": "c",
+            "texto": "«novos seres divinos»; *daímones* = «gênios»",
+            "nota": "«Gênio», como o latim *genius*, é o espírito protetor; hoje lembra outra coisa."
+          }
+        ]
+      },
+      {
+        "id": "sinal",
+        "titulo": "O *daimónion* de Sócrates: «o sinal divino»?",
+        "ref": "31c–d, 40a–c, 41d",
+        "contexto": "Sócrates fala de «algo divino e *daimónion*» que lhe acontece desde criança, uma voz que só o detém (31d); em 40a, «a advertência profética de costume, a do *daimónion*»; em 40b, «o sinal do deus»; em 40c e 41d, «o sinal». Em 31d ficou «algo divino, que vem de uma divindade»; em 40a, «a do sinal divino».",
+        "opcoes": [
+          {
+            "id": "a",
+            "texto": "«o sinal divino», como está",
+            "nota": "É a palavra que ele mesmo usa em 40b–c («o sinal»), e não confunde com demônio.",
+            "recomendada": true
+          },
+          {
+            "id": "b",
+            "texto": "«o espírito», «a voz divina»",
+            "nota": "«Voz» é o que ele descreve em 31d, mas ele mesmo a chama de sinal."
+          },
+          {
+            "id": "c",
+            "texto": "«o demônio de Sócrates», com nota",
+            "nota": "A expressão tradicional dos livros; em português comum, é o diabo."
+          }
+        ]
+      },
+      {
+        "id": "o-deus",
+        "titulo": "*Ho theós*: «o deus», com minúscula?",
+        "ref": "20e–23c, 28e–31b, 33c, 35d, 42a",
+        "contexto": "É Apolo, o deus de Delfos, que Sócrates chama sempre de «o deus». Com maiúscula («o Deus», «Deus»), o leitor entenderia o Deus de Israel e dos cristãos, o que os Padres da Igreja discutem, mas o texto não diz.",
+        "opcoes": [
+          {
+            "id": "a",
+            "texto": "«o deus», minúscula, como está",
+            "nota": "Fiel ao que ele diz; os comentários tratam do resto.",
+            "recomendada": true
+          },
+          {
+            "id": "b",
+            "texto": "«o Deus», maiúscula",
+            "nota": "Sublinha a leitura cristã, que não está no texto."
+          }
+        ]
+      },
+      {
+        "id": "vida-sem-exame",
+        "titulo": "38a: «a vida sem exame não vale a pena ser vivida»?",
+        "ref": "38a",
+        "contexto": "A frase mais citada da obra: *ho anexétastos bíos ou biōtòs anthrṓpōi*, «a vida não examinada não é vivível para o homem». A forma «não vale a pena ser vivida» é a consagrada em português.",
+        "opcoes": [
+          {
+            "id": "a",
+            "texto": "«a vida sem exame não vale a pena ser vivida pelo homem», como está",
+            "nota": "A forma consagrada, com o «para o homem» do grego.",
+            "recomendada": true
+          },
+          {
+            "id": "b",
+            "texto": "«uma vida sem exame não é vida para um homem»",
+            "nota": "Mais perto do grego, menos reconhecível."
+          }
+        ]
+      },
+      {
+        "id": "virtude-riquezas",
+        "titulo": "30b: da virtude «vêm as riquezas» ou as riquezas «se tornam bens»?",
+        "ref": "30b",
+        "contexto": "O grego (*ouk ek chrēmátōn aretḗ gígnetai, all' ex aretês chrḗmata kaì tà álla agathà toîs anthrṓpois hápanta*) se lê de dois jeitos. O mais comum nas traduções: «da virtude vêm as riquezas e todos os outros bens», o que faria Sócrates prometer dinheiro a quem é virtuoso, contra tudo o que ele diz da pobreza (23c, 31c). Burnet, no comentário de 1924, lê *agathá* como predicado: «é a virtude que faz que as riquezas e todo o resto sejam bens para os homens».",
+        "opcoes": [
+          {
+            "id": "a",
+            "texto": "«é pela virtude que as riquezas e todas as outras coisas se tornam bens para os homens», como está",
+            "nota": "A leitura de Burnet; coerente com o resto do discurso.",
+            "recomendada": true
+          },
+          {
+            "id": "b",
+            "texto": "«é da virtude que vêm as riquezas e todos os outros bens dos homens»",
+            "nota": "A leitura mais comum; Sócrates pareceria prometer riqueza."
+          }
+        ]
+      },
+      {
+        "id": "moscardo",
+        "titulo": "30e: «moscardo» ou «mutuca»?",
+        "ref": "30e",
+        "contexto": "*Mýōps* é a mosca grande que pica o gado e o cavalo. «Moscardo» é a palavra das traduções portuguesas; no Brasil, o bicho se chama «mutuca».",
+        "opcoes": [
+          {
+            "id": "a",
+            "texto": "«moscardo», como está",
+            "nota": "A imagem já conhecida («o moscardo de Atenas»).",
+            "recomendada": true
+          },
+          {
+            "id": "b",
+            "texto": "«mutuca»",
+            "nota": "A palavra brasileira, viva no campo; soa menos literária."
+          }
+        ]
+      }
+    ],
+    "divisao": {
+      "titulo": "Nove partes, com a paginação de Stephanus",
+      "texto": "Os números à margem são a paginação de Stephanus (1578), pela qual todos citam Platão: 17a a 42a, 125 seções. As nove partes seguem a estrutura que os estudos reconhecem (Burnet, de Strycker e Slings, Brickhouse e Smith), cortadas no começo da frase, e não no meio da seção: exórdio (17a–18a), os dois grupos de acusadores (18a–18e), os primeiros acusadores e o oráculo (18e–24b), o interrogatório de Meleto (24b–28a), a missão (28a–34b), a peroração (34b–35d), a contraproposta (35e–38b), aos que o condenaram (38c–39d), aos que o absolveram (39e–42a).\n\nAs partes 3, 4 e 5, mais longas, têm trechos com subtítulo, e os comentários vêm por trecho. Os parágrafos são os da edição de Burnet, iguais no grego e no português; no interrogatório de Meleto, cada fala é um parágrafo, com travessão."
+    },
+    "registro": [
+      {
+        "id": "termos",
+        "titulo": "Termos que valem para os próximos livros de Platão",
+        "texto": "*aretḗ* = «virtude»; *psychḗ* = «alma»; *sophía* = «sabedoria»; *philosopheîn* = «filosofar»; *exetázein* = «examinar»; *elénchein* = «pôr à prova», «refutar»; *kalòs kagathós* = «homem de bem»; *deinòs légein* = «hábil no falar»; *tòn héttō lógon kreíttō poieîn* = «fazer da razão mais fraca a mais forte»; *mýōps* = «moscardo»."
+      },
+      {
+        "id": "texto-grego",
+        "titulo": "O texto grego",
+        "texto": "O de Burnet (1900), pela Perseus. Corrigi quatro erros de digitação da Perseus, conferidos no grego: 28d «μὴ αὐτὸν οἴει» (estava «ὴ»), 31c (espaço antes da vírgula), 36b «τί ἄξιος» (sobrava um «τ»), 36c «τῷ ὄντι» (faltava o «τ»)."
+      }
+    ]
+  }
+}

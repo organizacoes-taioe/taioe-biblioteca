@@ -65,6 +65,13 @@ const BIBLIOTECA = {
       if (e.e) o.edicao = e.e;
       o.carregada = true;
     });
+  },
+  /* obra comentada (ferramentas/comentadas.py): por parte, os trechos, as notas e os temas dos comentários */
+  comentadas(mapa) {
+    Object.keys(mapa).forEach((id) => {
+      const o = dados.porId[id];
+      if (o) mapa[id].forEach((x, i) => Object.assign(o.partes[i], { trechos: x.trechos, notas: x.notas, temas: x.temas }));
+    });
   }
 };
 const ctx = vm.createContext({ BIBLIOTECA });
@@ -245,7 +252,10 @@ const PLURAIS = { 'Romance': 'Romances', 'Novela': 'Novelas', 'Contos': 'Contos'
   'Teatro': 'Teatro', 'Crônica': 'Crônicas', 'Crítica': 'Crítica', 'Tradução': 'Traduções',
   'Autobiografia': 'Autobiografia', 'Cartas': 'Cartas', 'Orações': 'Orações',
   'Hagiografia': 'Hagiografia', 'Ensaio': 'Ensaios' };
-const AREAS = [{ id: 'literatura', nome: 'Literatura' }, { id: 'catolicismo', nome: 'Catolicismo' }];
+/* «oculta»: a área existe, mas fica fora da capa, do sitemap e da busca, com noindex, até o Gere
+   aprovar (a Não-ficção, desde 23/10/2026, com a Apologia de Sócrates comentada) */
+const AREAS = [{ id: 'literatura', nome: 'Literatura' }, { id: 'catolicismo', nome: 'Catolicismo' },
+  { id: 'nao-ficcao', nome: 'Não-ficção', oculta: true }];
 const areaDe = (a) => a.area || 'literatura';
 const acharArea = (id) => AREAS.find((x) => x.id === id) || null;
 /* Literatura na língua original (autor com «lingua»): uma página por língua, dentro da Literatura */
@@ -324,6 +334,7 @@ function soPoesia(autorId) { const g = generosDe(autorId); return g.length === 1
 // Ordem alfabética pelo nome como está escrito («Machado de Assis» no M), pedido do Gere, 07/10/2026.
 const autoresOrdenados = () => dados.autores.slice().sort((a, b) => a.nome.localeCompare(b.nome, 'pt'));
 const autoresDaArea = (id) => autoresOrdenados().filter((a) => areaDe(a) === id);
+const autorOculto = (a) => !!(a && acharArea(areaDe(a)) && acharArea(areaDe(a)).oculta);
 function vizinhosPoema(o) {
   let lista = [];
   porColetanea(poesiaDe(o.autor).filter((x) => (x.forma || 'outras') === (o.forma || 'outras'))).forEach((g) => { lista = lista.concat(g.obras); });
@@ -579,6 +590,8 @@ function descricaoDe(t) { const s = textoPuro(t); return s.length > 155 ? s.slic
 
 const sitemap = [];
 let paginas = 0;
+const OCULTOS = AREAS.filter((x) => x.oculta).map((x) => U.area(x.id)).concat(dados.autores.filter(autorOculto).map((a) => U.autor(a)));
+const ehOculta = (url) => OCULTOS.some((pre) => url.startsWith(pre));
 function gravar(url, html) {
   const dir = path.join(SAIDA, url.slice(BASE.length));
   fs.mkdirSync(dir, { recursive: true });
@@ -595,7 +608,7 @@ function pagina(o) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(titulo)}</title>
 <meta name="description" content="${esc(o.descricao || 'Biblioteca Taioé: clássicos em português, abertos a todos.')}">
-<link rel="canonical" href="${SITE}${o.url}">
+${ehOculta(o.url) ? '<meta name="robots" content="noindex">\n' : ''}<link rel="canonical" href="${SITE}${o.url}">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="${BASE}favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="${BASE}css/estilo.css?v=${V_CSS}">
@@ -634,7 +647,7 @@ ${o.corpo}
 </html>
 `;
   gravar(o.url, html);
-  if (!o.semSitemap) sitemap.push(o.url);
+  if (!o.semSitemap && !ehOculta(o.url)) sitemap.push(o.url);
 }
 
 // ------------------------------------------------------------------ páginas
@@ -645,7 +658,7 @@ function paginaCapa() {
     '<p class="aviso-conta" id="aviso-conta">Sua posição de leitura fica salva só neste navegador. ' +
     '<a href="/entrar/?voltar=%2Fbiblioteca%2F">Entre com seu email</a> para guardá-la em qualquer aparelho.</p>' +
     '<p class="secao-titulo">Acervo</p>';
-  AREAS.forEach((ar) => {
+  AREAS.filter((ar) => !ar.oculta).forEach((ar) => {
     const autores = autoresDaArea(ar.id), generos = [];
     autores.forEach((a) => generosDe(a.id).forEach((x) => { if (generos.indexOf(x.genero) < 0) generos.push(x.genero); }));
     generos.sort((x, y) => GENEROS.indexOf(x) - GENEROS.indexOf(y));
@@ -951,17 +964,22 @@ function paginaParte(a, o, f) {
   } else if (partes > 1) posicao = '<p class="posicao">' + f.i + ' de ' + partes + ' · <a href="' + U.obra(o) + '">índice</a></p>';
   const alvo = !sub ? 'parte' : p.tipo === 'capitulo' ? 'capitulo' : 'secao';
   const lingua = comPt ? o.lingua : bilingue && o.traducao ? o.traducao.codigo || '' : '';
+  const comentada = !!o.comentada;
+  const notasC = comentada ? notasDaParte(p) : null;
   const html = '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
     '<article class="folha leitura' + (poema ? ' de-poema' : '') + (p.glossario ? ' com-notas' : '') + (bilingue ? ' bilingue ' + (comPt ? 'ver-orig' : 'ver-trad') : '') + '"' +
     (lingua ? ' data-lingua="' + esc(lingua) + '"' : '') + (comPt ? ' data-abre="orig"' : '') + '>' +
-    '<header class="cabeca-parte' + (conto && i === 1 ? ' conto' : '') + '">' + cabeca + '</header>' + textoParte(o, p) +
+    '<header class="cabeca-parte' + (conto && i === 1 ? ' conto' : '') + '">' + cabeca +
+    (comentada ? '<p class="faixa-st">' + esc(p.folhas) + '</p>' + (temComentarios(p) ? '<p class="ver-coment"><a class="botao secundario" href="' + f.url + 'comentarios/">Comentários sobre esta parte</a></p>' : '') : '') +
+    '</header>' + (comentada ? textoComentado(o, p, f, notasC) : textoParte(o, p)) + (comentada ? listaNotas(notasC) : '') +
     (p.glossario ? htmlGlossario(o, p.glossario) : '') +
     '<div id="fim-parte" aria-hidden="true"></div>' +
     (i < total || poema ? '' : '<p class="fim">Fim</p>') +
     '<div class="estado-leitura" id="estado-leitura" data-alvo="' + alvo + '" hidden></div>' +
     '<nav class="passos" aria-label="Navegação entre ' + esc(poema && total === 1 ? rotuloVersos(o.genero)[1] : dividida(o) ? 'capítulos' : o.divisao ? o.divisao.plural : 'partes') + '">' + navAnt + navSeg + '</nav>' +
     posicao +
-    (conto && o.edicao && i === total ? '<p class="posicao"><a href="' + U.sobre(o) + '">' + esc(tituloSobre(o)) + '</a></p>' : '') + '</article>';
+    (conto && o.edicao && i === total ? '<p class="posicao"><a href="' + U.sobre(o) + '">' + esc(tituloSobre(o)) + '</a></p>' : '') + '</article>' +
+    (comentada && notasC.length ? PAINEL_NOTA : '');
   const rot = sub ? f.rotulo : rotuloParte(o, p);
   const tituloPagina = sub ? rot + ': ' + textoPuro(p.titulo) + ' — ' + o.titulo + ' — ' + a.nome
     : (rot && rot !== o.titulo ? rot + (p.titulo && rot.indexOf(textoPuro(p.titulo)) < 0 ? ': ' + textoPuro(p.titulo) : '') + ' — ' : '') + o.titulo + ' — ' + a.nome;
@@ -973,6 +991,99 @@ function paginaParte(a, o, f) {
       rotulo: rot === o.titulo ? '' : rot, 'titulo-obra': o.titulo, 'url-obra': U.obra(o) },
     jsonld: umaParte(o) ? jsonObra(a, o) : { '@context': 'https://schema.org', '@type': 'Chapter', name: tituloPagina.replace(/ — [^—]+$/, ''),
       position: i, isPartOf: { '@type': 'Book', name: o.titulo, url: SITE + U.obra(o) }, ...autorLd(a), inLanguage: 'pt-BR' } });
+}
+
+// ------------------------------------------------------------------ obras comentadas
+/* A Não-ficção comentada (ferramentas/comentadas.py), no esquema da Bíblia Taioé: o original ao
+   lado, a paginação de referência à margem ({St 17a}), as notas coladas à palavra (abrem junto da
+   linha, pelo leitor.js; sem JavaScript, levam à lista do fim) e os comentários por tema, em
+   páginas próprias embaixo da parte (…/<parte>/comentarios/ e …/comentarios/<tema>/). */
+const PAINEL_NOTA = '<div class="nota-painel" id="nota-painel" role="dialog" aria-modal="false" aria-labelledby="nota-painel-ref" hidden>' +
+  '<p class="nota-painel-ref" id="nota-painel-ref"></p><div class="nota-painel-texto" id="nota-painel-texto"></div></div>';
+const letraNota = (k) => (k < 26 ? String.fromCharCode(97 + k) : letraNota(Math.floor(k / 26) - 1) + letraNota(k % 26));
+const inlineC = (s) => inline(String(s).replace(/\*\*([^*]+)\*\*/g, '\u0001$1\u0002').replace(/\*([^*]+)\*/g, '_$1_')
+  .replace(/\u0001/g, '**').replace(/\u0002/g, '**'));
+const temComentarios = (p) => !!(p.temas && p.temas.length);
+/* as notas da parte, com a posição no texto (depois do «apos», na ocorrência pedida) e a letra na ordem do texto */
+function notasDaParte(p) {
+  const texto = String(p.texto);
+  const lista = (p.notas || []).map((n) => {
+    let k = -1;
+    for (let v = 0; v < (n.ocorrencia || 1); v++) k = texto.indexOf(n.apos, k + 1);
+    if (k < 0) throw new Error(`nota ${n.id}: «${n.apos}» não está no texto`);
+    return { ...n, pos: k + n.apos.length };
+  }).sort((a, b) => a.pos - b.pos);
+  lista.forEach((n, k) => { n.letra = letraNota(k); });
+  return lista;
+}
+function textoComentadoHtml(s, comIds) {
+  return inline(s).replace(/\s*\{St ([0-9]+[a-e])\}\s*/g, (m, x) => ' <span class="st"' + (comIds ? ' id="st-' + x + '"' : '') + '>' + x + '</span> ')
+    .replace(/\{N ([a-z]+)\}/g, (m, l) => '<a class="nota-ref" href="#nota-' + l + '" id="ref-' + l + '" data-nota="' + l + '" aria-label="Nota ' + l + '">' + l + '</a>')
+    .replace(/^ | $/g, '');
+}
+function textoComentado(o, p, f, notas) {
+  let texto = String(p.texto);
+  notas.slice().sort((a, b) => b.pos - a.pos).forEach((n) => { texto = texto.slice(0, n.pos) + '{N ' + n.letra + '}' + texto.slice(n.pos); });
+  const bt = texto.split(/\n\s*\n/), bo = String(p.original).split(/\n\s*\n/);
+  if (bt.length !== bo.length) throw new Error(`${o.id}, parte ${p.n}: ${bt.length} parágrafos na tradução e ${bo.length} no original`);
+  const ladoT = [], ladoO = [];
+  bt.forEach((b, k) => {
+    const tr = (p.trechos || []).find((x) => x.par === k + 1);
+    if (tr) {
+      const temas = (p.temas || []).filter((x) => x.trecho === tr.id);
+      ladoT.push({ sep: false, linhas: [{ cls: 'trecho', html: '<h2 class="sub-trecho" id="trecho-' + tr.id + '">' + esc(tr.titulo) + '</h2>' +
+        (temas.length ? '<p class="ver-coment"><a href="' + f.url + 'comentarios/#' + tr.id + '">Comentários sobre este trecho</a></p>' : '') }] });
+      ladoO.push({ sep: false, linhas: [] });
+    }
+    ladoT.push({ sep: false, linhas: [{ cls: 'p', html: '<p>' + textoComentadoHtml(b, true) + '</p>' }] });
+    ladoO.push({ sep: false, linhas: [{ cls: 'p', html: '<p>' + textoComentadoHtml(bo[k], false) + '</p>' }] });
+  });
+  return '<div class="texto comentado"><div class="paralelo prosa">' + grade(ladoT, ladoO, (o.traducao && o.traducao.codigo) || '') + '</div></div>';
+}
+function listaNotas(notas) {
+  if (!notas.length) return '';
+  return '<section class="notas" aria-labelledby="titulo-notas"><h2 id="titulo-notas">Notas</h2><ol>' + notas.map((n) =>
+    '<li id="nota-' + n.letra + '"><a class="nota-letra" href="#ref-' + n.letra + '" aria-label="Voltar ao texto">' + n.letra + '</a> ' +
+    '<span class="nota-v">' + esc(n.st) + '</span> <span class="nota-texto">' + inlineC(n.texto) + '</span></li>').join('') + '</ol></section>';
+}
+function paginasComentarios(a, o, f) {
+  const p = f.no;
+  if (!temComentarios(p)) return;
+  const urlC = f.url + 'comentarios/', rot = rotuloParte(o, p) + ': ' + textoPuro(p.titulo);
+  const trilha = (fim) => comArea(a, [{ txt: a.nome, href: U.autor(a) }, { txt: o.titulo, href: U.obra(o) }, { txt: rotuloParte(o, p), href: f.url }].concat(fim));
+  const cartao = (x) => '<a class="tema" href="' + urlC + x.id + '/"><span class="tema-titulo">' + inlineC(x.titulo) + '</span>' +
+    (x.st ? '<span class="tema-ref">' + esc(x.st) + '</span>' : '') + (x.resumo ? '<span class="tema-resumo">' + inlineC(x.resumo) + '</span>' : '') +
+    '<span class="tema-n">' + plural(x.itens.length, 'comentário', 'comentários') + '</span></a>';
+  const total = p.temas.reduce((s, x) => s + x.itens.length, 0);
+  let lista;
+  if (p.trechos && p.trechos.length) {
+    lista = p.trechos.filter((tr) => p.temas.some((x) => x.trecho === tr.id)).map((tr) =>
+      '<h2 class="sub-trecho" id="' + tr.id + '">' + esc(tr.titulo) + '</h2><nav class="temas" aria-label="Temas: ' + esc(tr.titulo) + '">' +
+      p.temas.filter((x) => x.trecho === tr.id).map(cartao).join('') + '</nav>').join('');
+  } else lista = '<nav class="temas" aria-label="Temas dos comentários">' + p.temas.map(cartao).join('') + '</nav>';
+  pagina({ url: urlC, titulo: 'Comentários: ' + rot + ' — ' + o.titulo, trilha: trilha([{ txt: 'Comentários' }]), dados: { pagina: 'comentarios' },
+    descricao: descricaoDe(`Comentários de filósofos e teólogos sobre a ${rot.charAt(0).toLowerCase() + rot.slice(1)} da ${o.titulo}, de ${a.nome}, organizados por tema.`),
+    corpo: '<article class="folha"><p class="voltar"><a href="' + f.url + '">← ' + esc(rotuloParte(o, p)) + '</a></p>' +
+      '<header class="cab-coment"><p class="sobretitulo">Comentários</p><h1>' + esc(o.titulo) + ', ' + esc(rot.charAt(0).toLowerCase() + rot.slice(1)) + '</h1>' +
+      '<p class="explica">' + plural(p.temas.length, 'tema', 'temas') + ' · ' + plural(total, 'comentário', 'comentários') + '. Escolha um tema.</p></header>' +
+      lista + '<p class="explica aviso-trad">As traduções dos comentários são da Biblioteca Taioé, feitas dos originais; cada comentário traz a referência e o link para o texto na língua em que foi escrito.</p></article>' });
+  p.temas.forEach((x, k) => {
+    const ant = p.temas[k - 1], seg = p.temas[k + 1];
+    const st0 = (String(x.st).match(/[0-9]+[a-e]/) || [])[0];
+    pagina({ url: urlC + x.id + '/', titulo: textoPuro(x.titulo) + ' · Comentários — ' + o.titulo, trilha: trilha([{ txt: 'Comentários', href: urlC }, { txt: textoPuro(x.titulo) }]),
+      dados: { pagina: 'comentarios' }, descricao: descricaoDe(x.resumo || `Comentários sobre ${rot}.`),
+      corpo: '<article class="folha"><p class="voltar"><a href="' + urlC + '">← Todos os temas</a><span class="sep">·</span><a href="' + f.url + '">' + esc(rotuloParte(o, p)) + '</a></p>' +
+        '<header class="cab-coment"><p class="sobretitulo">Comentários · ' + esc(o.titulo) + ', ' + esc(rotuloParte(o, p).toLowerCase()) + '</p><h1>' + inlineC(x.titulo) + '</h1>' +
+        (x.resumo ? '<p class="resumo">' + inlineC(x.resumo) + '</p>' : '') +
+        (x.st ? '<p class="tema-st"><a href="' + f.url + (st0 ? '#st-' + st0 : '') + '">' + esc(x.st) + '</a></p>' : '') + '</header>' +
+        '<div class="comentarios">' + x.itens.map((it) => '<details class="comentario"><summary><span class="abrir" aria-hidden="true"></span><span class="autor">' + esc(it.autor) + '</span></summary>' +
+          '<div class="comentario-texto">' + paragrafos(String(it.texto).split(/\n\s*\n/).map((t) => t.replace(/\*([^*]+)\*/g, '_$1_'))) + '</div>' +
+          '<p class="autoria"><span class="autor">' + esc(it.autor) + '</span>' + (it.sobre ? '<span class="sobre-autor">, ' + esc(it.sobre) + '</span>' : '') +
+          '<br><span class="obra">' + inlineC(it.obra) + (it.passagem ? ', ' + esc(it.passagem) : '') + '</span>' +
+          (it.link ? ' · <a href="' + esc(it.link) + '" target="_blank" rel="noopener">texto original</a>' : '') + '</p></details>').join('') + '</div>' +
+        '<nav class="passos" aria-label="Navegação entre temas">' + (ant ? passo('ant', 'prev', '← Anterior', urlC + ant.id + '/', inlineC(ant.titulo)) : '<span class="passo vazio"></span>') +
+        (seg ? passo('seg', 'next', 'Seguinte →', urlC + seg.id + '/', inlineC(seg.titulo)) : '<a class="passo seg" href="' + f.url + '"><span class="dir">Voltar</span><span class="alvo">' + esc(rotuloParte(o, p)) + '</span></a>') + '</nav></article>' });
+  });
 }
 
 /* Página de índice dentro da obra: a parte com capítulos (no endereço que a parte sempre teve) ou o
@@ -1098,6 +1209,7 @@ dados.obras.forEach((o) => {
   const a = acharAutor(o.autor) || { nome: o.autor, id: o.autor };
   if (!umaParte(o)) paginaObra(a, o);
   folhasDe(o).forEach((f) => paginaParte(a, o, f));
+  if (o.comentada) folhasDe(o).forEach((f) => paginasComentarios(a, o, f));
   nosDe(o).forEach((x) => paginaIndice(a, o, x));
   if (o.edicao) paginaSobre(a, o);
 });
@@ -1159,8 +1271,8 @@ const normal = (t) => String(t).toLowerCase().replace(/ß/g, 'ss').replace(/æ/g
   .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 const limpo = (t) => String(t || '').replace(/\{[^}]*\}/g, ' ').replace(/^::.*$/gm, ' ').replace(/[_*|]/g, ' ');
 const titulos = [];
-dados.autores.forEach((a) => { if (obrasDe(a.id).length) titulos.push([a.nome, '', U.autor(a), 'autor']); });
-dados.obras.filter((o) => !o.paratexto).forEach((o) => {
+dados.autores.forEach((a) => { if (obrasDe(a.id).length && !autorOculto(a)) titulos.push([a.nome, '', U.autor(a), 'autor']); });
+dados.obras.filter((o) => !o.paratexto && !autorOculto(acharAutor(o.autor))).forEach((o) => {
   const a = acharAutor(o.autor);
   // o tipo: 'poema', 'obra' ou, num texto em verso de outro gênero, o nome dele ('oração'); o leitor.js
   // mostra «Poema» e, no resto, «Obra»
@@ -1170,7 +1282,7 @@ dados.obras.filter((o) => !o.paratexto).forEach((o) => {
 fs.mkdirSync(path.join(SAIDA, 'busca', 'i'), { recursive: true });
 fs.writeFileSync(path.join(SAIDA, 'busca', 'titulos.json'), JSON.stringify(titulos));
 const chaves = [], docs = [], postings = new Map();
-dados.obras.forEach((o) => {
+dados.obras.filter((o) => !autorOculto(acharAutor(o.autor))).forEach((o) => {
   const oi = chaves.push(chaveObra(o)) - 1;
   const indexar = (caminho, texto) => {
     const d = docs.push([oi, ...caminho]) - 1;

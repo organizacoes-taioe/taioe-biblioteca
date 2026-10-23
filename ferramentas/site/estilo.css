@@ -526,3 +526,76 @@ ol.vb-def { padding-left: 1.3rem; }
 
 /* o botão «Aprender as palavras deste poema», que leva aos Cards (leitor.js) */
 .aprender-cards { text-align: center; margin: 2rem 0 0; }
+
+/* ---------------- Obras comentadas (Não-ficção): Stephanus, notas, comentários ---------------- */
+.faixa-st { font-family: var(--sans); font-size: .78rem; letter-spacing: .08em; color: var(--tinta-tenue); text-align: center; margin: .3rem 0 0; }
+.cabeca-parte .ver-coment { text-align: center; margin: 1rem 0 0; }
+.comentado .st { font-family: var(--sans); font-size: .62em; font-weight: 600; color: var(--realce); vertical-align: .35em; margin: 0 .15em; scroll-margin-top: 5rem; }
+.comentado .orig .st { color: var(--tinta-tenue); }
+.comentado .orig p { font-size: .97em; }
+.comentado .paralelo.prosa .p p { margin: 0; text-indent: 0; }
+.comentado .paralelo.prosa .p { margin-top: .85em; }
+.comentado .trecho { margin-top: 1.6em; }
+.sub-trecho { font-size: 1.12em; font-weight: 600; margin: 1.6em 0 .3em; line-height: 1.3; }
+.comentado .sub-trecho { margin: 0 0 .2em; }
+.ver-coment { margin: 0 0 .4em; font-family: var(--sans); font-size: .8rem; }
+.ver-coment a:not(.botao) { color: var(--realce); text-decoration: none; }
+.ver-coment a:not(.botao):hover { text-decoration: underline; }
+.nota-ref {
+  font-family: var(--sans); font-size: .6em; vertical-align: super; line-height: 0;
+  text-decoration: none; font-style: italic; padding: 0 .12em; margin-left: .05em; color: var(--realce);
+}
+.nota-ref:hover, .nota-ref.ativa { background: var(--realce); color: var(--papel); border-radius: 3px; }
+.notas { margin-top: 2.4rem; border-top: 1px solid var(--linha); padding-top: .8rem; font-size: .88em; }
+.notas h2 { font-family: var(--sans); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-tenue); font-weight: 600; margin: 0 0 .8rem; }
+.notas ol { list-style: none; margin: 0; padding: 0; }
+.notas li { margin: 0 0 .7em; padding-left: 1.4em; text-indent: -1.4em; }
+.nota-letra { font-family: var(--sans); font-style: italic; text-decoration: none; display: inline-block; width: 1.2em; text-indent: 0; }
+.nota-v { font-family: var(--sans); font-size: .78em; color: var(--tinta-tenue); }
+.notas li:target { background: var(--papel-2); border-radius: 6px; }
+.nota-painel {
+  position: fixed; left: 1em; top: 4em; z-index: 40; width: calc(100vw - 2em); overflow: auto;
+  background: var(--papel); border: 1px solid var(--linha); border-left: 3px solid var(--realce); border-radius: 6px; box-shadow: var(--sombra);
+  padding: .6em 1em .7em; font-size: .9em;
+}
+.nota-painel[hidden] { display: none; }
+.nota-painel-ref { font-family: var(--sans); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--realce); margin: 0 0 .35em; }
+.nota-painel-texto { margin: 0; }
+.voltar { font-family: var(--sans); font-size: .82rem; margin: 0 0 1.2rem; }
+.voltar a { text-decoration: none; }
+.voltar .sep { margin: 0 .5em; color: var(--tinta-tenue); }
+.sobretitulo { font-family: var(--sans); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-tenue); margin: 0; }
+.cab-coment h1 { font-size: 1.6em; margin: .2em 0 .5em; line-height: 1.2; }
+.cab-coment .resumo { color: var(--tinta-suave); margin: 0 0 .6em; }
+.tema-st { font-family: var(--sans); font-size: .8rem; margin: 0 0 1.4rem; }
+.tema-st a { text-decoration: none; }
+.temas { display: flex; flex-direction: column; gap: .6rem; margin-bottom: 1rem; }
+.tema {
+  display: block; text-decoration: none; color: var(--tinta);
+  border: 1px solid var(--linha); border-radius: var(--raio); padding: .7em .9em; background: var(--papel);
+}
+.tema:hover { border-color: var(--realce); color: var(--tinta); box-shadow: var(--sombra); }
+.tema-titulo { display: block; font-size: 1.05em; }
+.tema-resumo { display: block; color: var(--tinta-suave); font-size: .85em; margin-top: .15em; }
+.tema-ref, .tema-n { display: block; font-family: var(--sans); font-size: .68rem; letter-spacing: .06em; color: var(--tinta-tenue); }
+.tema-ref { text-transform: uppercase; margin-top: .25em; }
+.tema-n { margin-top: .5em; color: var(--realce); }
+.aviso-trad { margin-top: 2rem; }
+.comentario { border-bottom: 1px solid var(--linha); }
+.comentario:last-child { border-bottom: 0; }
+.comentario > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: .6em; padding: .55em 0; }
+.comentario > summary::-webkit-details-marker { display: none; }
+.comentario > summary:hover .autor { color: var(--realce); }
+.abrir { flex: none; position: relative; width: 1.1em; height: 1.1em; border: 1.5px solid var(--realce); border-radius: 50%; }
+.abrir::before, .abrir::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: .5em; height: 1.5px; background: var(--realce); transform: translate(-50%, -50%);
+}
+.abrir::after { transform: translate(-50%, -50%) rotate(90deg); }
+.comentario[open] .abrir { background: var(--realce); }
+.comentario[open] .abrir::before { background: var(--papel); }
+.comentario[open] .abrir::after { display: none; }
+.comentario[open] { padding-bottom: 1.2em; }
+.comentario-texto { margin-top: .4em; }
+.comentario-texto p { margin: 0 0 .85em; }
+.autoria { font-size: .82em; color: var(--tinta-suave); margin: .2em 0 0; }
+.autoria .autor { font-weight: 600; color: var(--tinta); }

@@ -339,18 +339,9 @@ BIBLIOTECA.autor({
   nota: 'Poeta parnasiano santista, o poeta do mar.'
 });
 
-/* Literatura em tradução: por ora, só o Beowulf. Os poemas traduzidos pelo Versificador (Poe,
-   Baudelaire, Verlaine, Goethe) saíram do site em 20/10/2026; ver PUBLICAR_TRADUCOES em
-   ferramentas/poesia.py. Poe, Baudelaire e Verlaine estão abaixo, na língua original. */
-
-BIBLIOTECA.autor({
-  id: 'anonimo-anglo-saxao',
-  nome: 'Anônimo anglo-saxão',
-  nomeCompleto: 'Poeta anônimo da Inglaterra anglo-saxã',
-  vida: 'séc. VIII–XI',
-  ordem: 'Anônimo anglo-saxão',
-  nota: 'O poeta desconhecido do _Beowulf_, o maior poema do inglês antigo. Em tradução, com o original ao lado.'
-});
+/* Literatura em tradução: nenhuma. O Beowulf (tradução por IA) saiu em 23/10/2026: o Gere não põe
+   tradução de IA na Literatura e combina a do Beowulf com um tradutor. Os poemas traduzidos pelo
+   Versificador saíram em 20/10/2026 (PUBLICAR_TRADUCOES em ferramentas/poesia.py). */
 
 /* Na língua original, sem tradução nossa ("lingua": a língua em que o autor aparece na Literatura;
    cada palavra dos poemas abre uma nota, ver edicoes/lingua-original/README.md). Poe, Baudelaire

@@ -9,7 +9,8 @@ por tema. Monta o conteúdo do site e as páginas de revisão do Gere.
 Fonte de cada obra, em edicoes/<obra>/:
   obra.json          título, partes (n, titulo, st, trechos [{id, titulo, par}]), notas
                      [{id, parte, st, apos, texto, revista?}], apresentação, fontes e o que vai à
-                     revisão (escolhas, divisão, registro)
+                     revisão (só `revisao.escolhas`: uma pergunta pontual cada; a divisão e o
+                     registro ficam no CONVENCOES.md da obra, sem passar pelo Gere, pedido de 24/10)
   original/parte-N.txt, traducao/parte-N.txt
                      um parágrafo por bloco, os mesmos nos dois; a marca {St 17a} no mesmo
                      parágrafo nos dois lados
@@ -168,12 +169,10 @@ def revisao(obras, destino):
                           'letra': chr(96 + letras[n['parte']]), 'versiculo': frase(texto, n['apos']), 'texto': n['texto']})
         if notas:
             secoes.append({'id': 'notas', 'titulo': 'Notas', 'itens': notas})
-        if r.get('divisao'):
-            secoes.append({'id': 'divisao', 'titulo': 'Divisão do texto',
-                           'itens': [dict(r['divisao'], id=f'{o["id"]}:divisao', tipo='avaliacao')]})
-        if r.get('registro'):
-            secoes.append({'id': 'registro', 'titulo': 'Para os próximos livros',
-                           'itens': [dict(x, id=f'{o["id"]}:registro:{x["id"]}', tipo='avaliacao') for x in r['registro']]})
+        # Divisão e registro não vão mais à página (o Gere, 24/10: «me mostre apenas questões
+        # pontuais, para eu decidir uma única coisa em cada pendência»).
+        if r.get('divisao') or r.get('registro'):
+            erros.append(f'{o["id"]}: revisao.divisao e revisao.registro não vão mais ao Gere (CONVENCOES.md da obra)')
         if secoes:
             pag['capitulos'].append({'id': o['id'], 'rotulo': o['titulo'], 'url': url,
                                      'estado': f'{o["estado"]}, atualizado em {hoje}', 'secoes': secoes})

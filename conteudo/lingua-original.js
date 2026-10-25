@@ -132,6 +132,15 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
+  autor: "jose-marti",
+  arquivo: "conteudo/jose-marti/lingua-original.js",
+  livros: [{"id": "versos-sencillos", "titulo": "Versos sencillos", "ano": 1891}],
+  poemas: [
+    {"id":"jose-marti-cultivo-una-rosa-blanca","titulo":"Cultivo una rosa blanca","forma":"outras","livro":0,"ordem":0,"versos":8,"lingua":"es","ano":1891,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
   autor: "emily-dickinson",
   arquivo: "conteudo/emily-dickinson/lingua-original.js",
   livros: [{"id": "poems-second-series", "titulo": "Poems: Second Series", "ano": 1891}],

@@ -473,6 +473,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'cervantes',
+  nome: 'Miguel de Cervantes',
+  nomeCompleto: 'Miguel de Cervantes Saavedra',
+  vida: '1547–1616',
+  lingua: 'es',
+  nota: 'Romancista, poeta e dramaturgo espanhol, soldado em Lepanto e cativo em Argel, autor do _Dom Quixote_ e das _Novelas exemplares_.'
+});
+
+BIBLIOTECA.autor({
   id: 'jose-marti',
   nome: 'José Martí',
   nomeCompleto: 'José Julián Martí Pérez',

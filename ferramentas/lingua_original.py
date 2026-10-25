@@ -8,6 +8,8 @@
 
 Fonte: edicoes/lingua-original/obras.json (autor, título, livro, fontes) e, por poema,
 edicoes/lingua-original/<pasta>/poema.txt (formato dos poemas da Biblioteca) e glossario.json.
+Prosa («prosa»: true em obras.json, com o gênero, como o começo do Quixote): um trecho por linha (a
+unidade que os Cards mostram), linha em branco entre os parágrafos; a página junta os trechos.
 
 glossario.json:
   {"verbetes": {"<chave>": {"lema": "prenda", "wiki": "es", "classe": "substantivo feminino",
@@ -387,6 +389,8 @@ def publicar():
                 item['subtitulo'] = p['subtitulo']
             if p.get('genero'):
                 item['genero'] = p['genero']   # sem ele, Poesia (as orações levam "Orações")
+            if p.get('prosa'):
+                item['prosa'] = True
             if p.get('traducao'):
                 tr = p['traducao']
                 item['pt'] = {'tradutor': tr['tradutor'], 'titulo': tr['titulo'], 'ano': tr.get('ano')}
@@ -427,6 +431,7 @@ def publicar():
 
 def montar(p, info_lingua, poesia=True):
     lingua = p['lingua']
+    poesia = poesia and not p.get('prosa')
     g = ler_glossario(p['pasta'])
     if PROVISORIO and (g is None or conferir(p['pasta'], False)):
         g = {'verbetes': {chave(x[1]): {'lema': x[1], 'classe': '(em preparo)', 'def': ['(nota em preparo)']} for x in ocorrencias(p)}}

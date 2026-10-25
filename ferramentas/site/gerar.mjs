@@ -39,7 +39,7 @@ const BIBLIOTECA = {
     pac.poemas.forEach((p, k) => {
       const l = p.livro >= 0 ? pac.livros[p.livro] : null;
       registrar({
-        id: p.id, autor: pac.autor, titulo: p.titulo, genero: p.genero || 'Poesia', poema: true,
+        id: p.id, autor: pac.autor, titulo: p.titulo, genero: p.genero || 'Poesia', poema: true, prosa: !!p.prosa,
         forma: p.forma, n: p.n || '', secao: p.secao || '', subtitulo: p.subtitulo || '',
         ano: p.ano || (l && l.ano) || null, versos: p.versos, lingua: p.lingua || '',
         traducao: p.traducao || null, glossario: !!p.glossario, pt: p.pt || null,
@@ -191,6 +191,14 @@ function htmlGlossario(o, glos) {
     return '<div class="verbete" id="g-' + id + '">' + partes + (v.n ? '<p class="vb-nota">' + inline(v.n) + '</p>' : '') + '</div>';
   }).join('') + '</div>';
 }
+/* Prosa na língua original (o.prosa): o arquivo tem um trecho por linha, a unidade dos Cards, e a
+   linha em branco separa os parágrafos; na página, os trechos de um parágrafo vão juntos. */
+function paragrafosComNotas(texto, glos) {
+  const porLinha = {};
+  glos.o.forEach(([l, a, b, id]) => (porLinha[l] = porLinha[l] || []).push([a, b, id]));
+  return blocosPoema(texto).filter((b) => !b.marca)
+    .map((b) => '<p>' + b.versos.map((v, j) => marcarPalavras(v, porLinha[b.linhas[j]] || [])).join(' ') + '</p>').join('\n');
+}
 function linhasProsa(texto) {
   const todos = String(texto || '').trim().split(/\n\s*\n/).filter(Boolean);
   const corpo = todos.filter((b) => !/^¤ /.test(b));
@@ -225,6 +233,7 @@ function textoParte(o, p) {
   const linhas = poema ? linhasPoema : linhasProsa;
   /* poema na língua original com uma tradução em domínio público: o original (com as notas) à
      esquerda, no lado «orig», e a tradução no lado «trad» */
+  if (p.glossario && o.prosa) return '<div class="texto" lang="' + esc(o.lingua) + '">' + paragrafosComNotas(p.texto, p.glossario) + '</div>';
   if (p.glossario && p.pt) return '<div class="texto"><div class="paralelo poema">' +
     grade(linhasPoema(p.pt), linhasPoema(p.texto, p.glossario), esc(o.lingua)) + '</div></div>';
   const orig = p.original !== undefined && p.original !== null;
@@ -275,6 +284,7 @@ function palavras(o) {
 const milhar = (n) => n.toLocaleString('pt-BR');
 function fichaObra(o) {
   const d = o.divisao || { singular: 'parte', plural: 'partes' };
+  if (o.poema && o.prosa) return milhar(palavras(o)) + ' palavras';
   if (o.poema) {
     return [o.partes.length > 1 ? plural(o.partes.length, d.singular, d.plural) : '',
       o.versos === 1 ? '1 verso' : milhar(o.versos) + ' versos'].filter(Boolean).join(' · ');
@@ -292,8 +302,10 @@ function livros(obras) {
   obras.forEach((o) => { vistos[o.coletanea ? 'c:' + o.coletanea.id : o.id] = 1; });
   return Object.keys(vistos).length;
 }
-const TEXTOS = { 'Contos': ['conto', 'contos'], 'Poesia': ['poema', 'poemas'], 'Orações': ['oração', 'orações'] };
-/* os textos em verso (o.poema) contam-se pelo gênero: «3 poemas», ou «3 orações» nas orações na língua original */
+const TEXTOS = { 'Contos': ['conto', 'contos'], 'Poesia': ['poema', 'poemas'], 'Orações': ['oração', 'orações'],
+  'Romance': ['texto', 'textos'] };
+/* os textos em verso (o.poema) contam-se pelo gênero: «3 poemas», ou «3 orações» nas orações na língua original;
+   a prosa na língua original (o começo do Quixote) entra no mesmo esquema, como «texto» */
 const rotuloVersos = (g) => (g !== 'Poesia' && TEXTOS[g]) || TEXTOS.Poesia;
 function porColetanea(obras) {
   const grupos = [], idx = {};
@@ -967,7 +979,7 @@ function paginaParte(a, o, f) {
   const comentada = !!o.comentada;
   const notasC = comentada ? notasDaParte(p) : null;
   const html = '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
-    '<article class="folha leitura' + (poema ? ' de-poema' : '') + (p.glossario ? ' com-notas' : '') + (bilingue ? ' bilingue ' + (comPt ? 'ver-orig' : 'ver-trad') : '') + '"' +
+    '<article class="folha leitura' + (poema && !o.prosa ? ' de-poema' : '') + (p.glossario ? ' com-notas' : '') + (bilingue ? ' bilingue ' + (comPt ? 'ver-orig' : 'ver-trad') : '') + '"' +
     (lingua ? ' data-lingua="' + esc(lingua) + '"' : '') + (comPt ? ' data-abre="orig"' : '') + '>' +
     '<header class="cabeca-parte' + (conto && i === 1 ? ' conto' : '') + '">' + cabeca +
     (comentada ? '<p class="faixa-st">' + esc(p.folhas) + '</p>' + (temComentarios(p) ? '<p class="ver-coment"><a class="botao secundario" href="' + f.url + 'comentarios/">Comentários sobre esta parte</a></p>' : '') : '') +

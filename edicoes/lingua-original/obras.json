@@ -149,6 +149,16 @@
       ]
     },
     {
+      "pasta": "quijote", "autor": "cervantes", "lingua": "es", "forma": "outras", "prosa": true, "genero": "Romance",
+      "titulo": "Capítulo primero", "ano": 1605,
+      "subtitulo": "Que trata de la condición y ejercicio del famoso hidalgo don Quijote de la Mancha",
+      "livro": { "titulo": "El ingenioso hidalgo don Quijote de la Mancha", "ano": 1605 },
+      "fontes": [
+        { "nome": "El ingenioso hidalgo Don Quijote de la Mancha, tomo I (Barcelona, Casa Editorial Vda. de Luis Tasso, 1905), no Wikisource", "url": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1905)/Tomo_I/Cap%C3%ADtulo_I", "nota": "só o começo do capítulo I, até «de la verdad», o retrato do fidalgo, que os Cards ensinam em três partes; na acentuação de hoje («a» e «o» sem acento) e, no resto, como está nessa edição, com as formas do tempo de Cervantes («della», «deste», «dél», «lantejas», «una ama»)" },
+        { "nome": "o mesmo tomo, no Internet Archive", "url": "https://archive.org/details/elingenioso01cervguat" }
+      ]
+    },
+    {
       "pasta": "il-pleure-dans-mon-coeur", "autor": "paul-verlaine", "lingua": "fr", "forma": "outras",
       "titulo": "Il pleure dans mon cœur", "ano": 1874,
       "livro": { "titulo": "Romances sans paroles", "ano": 1874 },

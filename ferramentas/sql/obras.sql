@@ -700,6 +700,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('castro-alves/espumas-sub-tegmine-fagi', 'Sub tegmine fagi'),
   ('castro-alves/espumas-versos-de-um-viajante', 'Versos de um viajante'),
   ('catulo/odi-et-amo', 'Odi et amo'),
+  ('cervantes/quijote', 'Capítulo primero'),
   ('cesario-verde/livro-a-debil', 'A débil'),
   ('cesario-verde/livro-contrariedades', 'Contrariedades'),
   ('cesario-verde/livro-cristalizacoes', 'Cristalizações'),

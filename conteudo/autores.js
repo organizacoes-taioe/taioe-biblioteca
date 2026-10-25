@@ -527,3 +527,12 @@ BIBLIOTECA.autor({
   area: 'nao-ficcao',
   nota: 'Filósofo ateniense, discípulo de Sócrates e mestre de Aristóteles.'
 });
+
+BIBLIOTECA.autor({
+  id: 'vergilio',
+  nome: 'Vergílio',
+  nomeCompleto: 'Públio Vergílio Marão',
+  vida: '70–19 a.C.',
+  lingua: 'la',
+  nota: 'Poeta latino de Mântua, autor das Bucólicas, das Geórgicas e da Eneida.'
+});

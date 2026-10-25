@@ -222,6 +222,14 @@
       "fontes": [
         { "nome": "Phaedri Augusti liberti Fabulae Aesopiae, ed. Lucian Müller (Leipzig, Teubner, 1876), no Perseus Digital Library", "url": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi0975.phi001.perseus-lat2:1.1/", "nota": "livro I, fábula 1" }
       ]
+    },
+    {
+      "pasta": "eneida", "autor": "vergilio", "lingua": "la", "forma": "outras",
+      "titulo": "Liber I", "ano": null,
+      "livro": { "titulo": "Aeneis", "ano": null },
+      "fontes": [
+        { "nome": "P. Vergili Maronis Opera, ed. J. B. Greenough (Boston, Ginn and Company, 1900), no Perseus Digital Library", "url": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi0690.phi003.perseus-lat2:1.1-1.11/", "nota": "livro I, versos 1 a 11, o começo do poema; os Cards o dividem em duas partes (1 a 7 e 8 a 11)" }
+      ]
     }
   ]
 }

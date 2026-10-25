@@ -187,3 +187,12 @@ BIBLIOTECA.poemas({
     {"id":"fedro-lupus-et-agnus","titulo":"Lupus et agnus","forma":"outras","livro":0,"ordem":0,"versos":15,"lingua":"la","ano":null,"glossario":true}
   ]
 });
+
+BIBLIOTECA.poemas({
+  autor: "vergilio",
+  arquivo: "conteudo/vergilio/lingua-original.js",
+  livros: [{"id": "aeneis", "titulo": "Aeneis", "ano": null}],
+  poemas: [
+    {"id":"vergilio-eneida","titulo":"Liber I","forma":"outras","livro":0,"ordem":0,"versos":11,"lingua":"la","ano":null,"glossario":true}
+  ]
+});

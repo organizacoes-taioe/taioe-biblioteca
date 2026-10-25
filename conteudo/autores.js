@@ -473,6 +473,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'jose-marti',
+  nome: 'José Martí',
+  nomeCompleto: 'José Julián Martí Pérez',
+  vida: '1853–1895',
+  lingua: 'es',
+  nota: 'Poeta, jornalista e herói da independência de Cuba, autor de _Ismaelillo_ e dos _Versos sencillos_.'
+});
+
+BIBLIOTECA.autor({
   id: 'emily-dickinson',
   nome: 'Emily Dickinson',
   nomeCompleto: 'Emily Elizabeth Dickinson',

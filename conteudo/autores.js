@@ -11,6 +11,15 @@ BIBLIOTECA.autor({
   nota: 'Romancista, contista, poeta e cronista carioca; fundador da Academia Brasileira de Letras.'
 });
 
+BIBLIOTECA.autor({
+  id: 'graciliano-ramos',
+  nome: 'Graciliano Ramos',
+  nomeCompleto: 'Graciliano Ramos de Oliveira',
+  vida: '1892–1953',
+  ordem: 'Ramos, Graciliano',
+  nota: 'Romancista, contista e memorialista alagoano.'
+});
+
 /* Catolicismo ("area": a pasta da capa; sem ela, o autor fica em Literatura) */
 
 BIBLIOTECA.autor({

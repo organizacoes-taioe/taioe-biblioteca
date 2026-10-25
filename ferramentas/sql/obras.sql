@@ -2102,6 +2102,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('tomas-antonio-gonzaga/lira-pintam-marilia-os-poetas', 'Pintam, Marília, os Poetas'),
   ('tomas-antonio-gonzaga/lira-por-morto-marilia', 'Por morto, Marília'),
   ('tomas-antonio-gonzaga/lira-que-diversas-que-sao-marilia-as-horas', 'Que diversas que são, Marília, as horas'),
+  ('vergilio/eneida', 'Liber I'),
   ('vicente-de-carvalho/poemas-e-cancoes-a-invencao-do-diabo', 'A invenção do Diabo'),
   ('vicente-de-carvalho/poemas-e-cancoes-arrufos-1', 'Arrufos, I'),
   ('vicente-de-carvalho/poemas-e-cancoes-arrufos-2', 'Arrufos, II'),

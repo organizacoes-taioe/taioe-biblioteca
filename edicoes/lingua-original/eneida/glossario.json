@@ -1,0 +1,733 @@
+{
+  "verbetes": {
+    "liber": {
+      "lema": "liber",
+      "classe": "substantivo masculino",
+      "def": [
+        "Livro; cada uma das partes de uma obra."
+      ]
+    },
+    "i": {
+      "lema": "I",
+      "classe": "numeral",
+      "def": [
+        "Um (em algarismo romano)."
+      ],
+      "nota": "O primeiro livro da Eneida."
+    },
+    "arma": {
+      "lema": "arma",
+      "classe": "substantivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Armas, armamento."
+      ],
+      "nota": "Objeto de cano."
+    },
+    "virumque": {
+      "partes": [
+        {
+          "lema": "vir",
+          "classe": "substantivo masculino",
+          "forma": "acusativo singular",
+          "def": [
+            "Homem valente, herói."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Objeto de cano."
+    },
+    "cano": {
+      "lema": "cano",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Cantar, recitar."
+      ],
+      "nota": "Quem fala é o poeta."
+    },
+    "troiae": {
+      "lema": "Troia",
+      "classe": "nome próprio",
+      "forma": "genitivo singular",
+      "def": [
+        "Troia, a cidade de Príamo, na Ásia Menor, destruída pelos gregos."
+      ],
+      "nota": "De Troia."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que, o qual, quem."
+      ],
+      "nota": "Sujeito de venit, no verso 2; retoma virum."
+    },
+    "primus": {
+      "lema": "primus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Primeiro."
+      ],
+      "nota": "Concorda com qui: o primeiro."
+    },
+    "ab": {
+      "lema": "ab",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De, desde (o lugar de onde)."
+      ]
+    },
+    "oris": {
+      "lema": "ora",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "Costa, litoral, beira-mar."
+      ],
+      "nota": "De onde: das costas."
+    },
+    "italiam": {
+      "lema": "Italia",
+      "classe": "nome próprio",
+      "forma": "acusativo singular",
+      "def": [
+        "A Itália."
+      ],
+      "nota": "Para onde, sem preposição."
+    },
+    "fato": {
+      "lema": "fatum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Destino, sorte."
+      ],
+      "nota": "A causa: pelo destino."
+    },
+    "profugus": {
+      "lema": "profugus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Banido, exilado."
+      ],
+      "nota": "Concorda com qui: exilado."
+    },
+    "laviniaque": {
+      "partes": [
+        {
+          "lema": "Lavinius",
+          "classe": "adjetivo (nome próprio)",
+          "forma": "acusativo neutro plural",
+          "def": [
+            "De Lavínio, a cidade que Eneias fundou no Lácio."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Concorda com litora, no verso seguinte."
+    },
+    "venit": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Vir (a um lugar), chegar."
+      ],
+      "nota": "O verbo de qui: veio."
+    },
+    "litora": {
+      "lema": "litus",
+      "classe": "substantivo neutro",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Praia, margem, beira-mar."
+      ],
+      "nota": "Para onde, com Lavinia: às praias lavínias."
+    },
+    "multum": {
+      "lema": "multus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Muito."
+      ],
+      "nota": "Como advérbio: muito."
+    },
+    "ille": {
+      "lema": "ille",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Ele, ela (pronome da 3ª pessoa)."
+      ],
+      "nota": "Ele, o homem do verso 1."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E; repetido, tanto… como."
+      ],
+      "nota": "Et… et: tanto… como."
+    },
+    "terris": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "Terra firme, oposta ao mar."
+      ],
+      "nota": "Onde: por terras."
+    },
+    "iactatus": {
+      "lema": "iacto",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Agitar, atormentar; lançar de um lado para o outro."
+      ],
+      "nota": "Concorda com ille: sacudido."
+    },
+    "et#2": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E; repetido, tanto… como."
+      ]
+    },
+    "alto": {
+      "lema": "altus",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Alto, elevado; profundo."
+      ],
+      "nota": "Como nome, o alto-mar: onde."
+    },
+    "vi": {
+      "lema": "vis",
+      "classe": "substantivo",
+      "forma": "ablativo singular",
+      "def": [
+        "Força; violência."
+      ],
+      "nota": "A causa: pela força."
+    },
+    "superum": {
+      "lema": "superus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "De cima, do alto."
+      ],
+      "nota": "Forma antiga de superorum: dos deuses."
+    },
+    "saevae": {
+      "lema": "saevus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Furioso, feroz, cruel."
+      ],
+      "nota": "Concorda com Iunonis."
+    },
+    "memorem": {
+      "lema": "memor",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Que se lembra, que não esquece."
+      ],
+      "nota": "Concorda com iram: que não esquece."
+    },
+    "iunonis": {
+      "lema": "Iuno",
+      "classe": "nome próprio",
+      "forma": "genitivo singular",
+      "def": [
+        "Juno, a rainha dos deuses, mulher de Júpiter."
+      ],
+      "nota": "De quem é a ira."
+    },
+    "ob": {
+      "lema": "ob",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por causa de, por."
+      ]
+    },
+    "iram": {
+      "lema": "ira",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Ira, cólera."
+      ],
+      "nota": "Com ob: por causa da ira."
+    },
+    "multa": {
+      "lema": "multus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Muito."
+      ],
+      "nota": "Objeto de passus: muitas coisas."
+    },
+    "quoque": {
+      "lema": "quoque",
+      "classe": "advérbio",
+      "def": [
+        "Também."
+      ]
+    },
+    "et#3": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "Também."
+      ],
+      "nota": "Também, junto com quoque."
+    },
+    "bello": {
+      "lema": "bellum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Guerra."
+      ],
+      "nota": "Onde: na guerra."
+    },
+    "passus": {
+      "lema": "patior",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Sofrer, suportar."
+      ],
+      "nota": "De depoente, sentido ativo: tendo sofrido."
+    },
+    "dum": {
+      "lema": "dum",
+      "classe": "conjunção",
+      "def": [
+        "(Com subjuntivo) até que."
+      ],
+      "nota": "Com subjuntivo: até que."
+    },
+    "conderet": {
+      "lema": "condo",
+      "classe": "verbo",
+      "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Fundar, construir, estabelecer."
+      ],
+      "nota": "Até que fundasse."
+    },
+    "urbem": {
+      "lema": "urbs",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Cidade cercada de muralhas."
+      ],
+      "nota": "Objeto de conderet."
+    },
+    "inferretque": {
+      "partes": [
+        {
+          "lema": "infero",
+          "classe": "verbo",
+          "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+          "def": [
+            "Levar para dentro, introduzir."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Ainda com dum: e levasse."
+    },
+    "deos": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Deus, divindade."
+      ],
+      "nota": "Objeto de inferret: os deuses de Troia. São os Penates, que Eneias leva consigo."
+    },
+    "latio": {
+      "lema": "Latium",
+      "classe": "nome próprio",
+      "forma": "dativo singular",
+      "def": [
+        "O Lácio, a região da Itália onde fica Roma."
+      ],
+      "nota": "Para onde."
+    },
+    "genus": {
+      "lema": "genus",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "Nascimento, origem, linhagem; raça."
+      ],
+      "nota": "O sujeito; o verbo fica subentendido."
+    },
+    "unde": {
+      "lema": "unde",
+      "classe": "advérbio",
+      "def": [
+        "De onde."
+      ],
+      "nota": "De onde: de Eneias e dos seus."
+    },
+    "latinum": {
+      "lema": "Latinus",
+      "classe": "adjetivo (nome próprio)",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Latino, do Lácio."
+      ],
+      "nota": "Concorda com genus."
+    },
+    "albanique": {
+      "partes": [
+        {
+          "lema": "Albanus",
+          "classe": "adjetivo (nome próprio)",
+          "forma": "nominativo masculino plural",
+          "def": [
+            "Albano, de Alba Longa, a cidade que o filho de Eneias fundou e de onde veio Rômulo."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Concorda com patres."
+    },
+    "patres": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "nominativo plural",
+      "def": [
+        "Antepassado."
+      ],
+      "nota": "Sujeito, como genus: os antepassados."
+    },
+    "atque": {
+      "lema": "atque",
+      "classe": "conjunção",
+      "def": [
+        "E também, e ainda."
+      ]
+    },
+    "altae": {
+      "lema": "altus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Alto, elevado; profundo."
+      ],
+      "nota": "Concorda com Romae."
+    },
+    "moenia": {
+      "lema": "moenia",
+      "classe": "substantivo",
+      "forma": "nominativo plural",
+      "def": [
+        "Muralhas da cidade, fortificações."
+      ],
+      "nota": "Sujeito, como genus."
+    },
+    "romae": {
+      "lema": "Roma",
+      "classe": "nome próprio",
+      "forma": "genitivo singular",
+      "def": [
+        "Roma."
+      ],
+      "nota": "De Roma."
+    },
+    "musa": {
+      "lema": "Musa",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "Musa, uma das nove deusas das artes liberais."
+      ],
+      "nota": "A quem se fala."
+    },
+    "mihi": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "A quem: a mim."
+    },
+    "causas": {
+      "lema": "causa",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "Causa, motivo."
+      ],
+      "nota": "Objeto de memora."
+    },
+    "memora": {
+      "lema": "memoro",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Contar, narrar, relatar."
+      ],
+      "nota": "Lembra, conta."
+    },
+    "quo": {
+      "lema": "quis",
+      "classe": "pronome",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Que? qual? o quê?"
+      ],
+      "nota": "Interrogativo, concorda com numine: qual."
+    },
+    "numine": {
+      "lema": "numen",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Vontade ou poder divino."
+      ],
+      "nota": "Com laeso, ablativo absoluto."
+    },
+    "laeso": {
+      "lema": "laedo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, ablativo neutro singular",
+      "def": [
+        "Ofender."
+      ],
+      "nota": "Com numine: tendo sido ofendido."
+    },
+    "quidve": {
+      "partes": [
+        {
+          "lema": "quis",
+          "classe": "pronome",
+          "forma": "acusativo neutro singular",
+          "def": [
+            "Que? qual? o quê?"
+          ]
+        },
+        {
+          "lema": "-ve",
+          "classe": "conjunção",
+          "def": [
+            "Ou."
+          ]
+        }
+      ],
+      "nota": "De quê."
+    },
+    "dolens": {
+      "lema": "doleo",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo feminino singular",
+      "def": [
+        "Afligir-se, sentir pesar."
+      ],
+      "nota": "Concorda com regina: ressentida."
+    },
+    "regina": {
+      "lema": "regina",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Rainha."
+      ],
+      "nota": "Sujeito de impulerit, no verso 11."
+    },
+    "deum": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "Deus, divindade."
+      ],
+      "nota": "Forma antiga de deorum: dos deuses."
+    },
+    "tot": {
+      "lema": "tot",
+      "classe": "adjetivo",
+      "def": [
+        "Tantos."
+      ],
+      "nota": "Concorda com casus."
+    },
+    "volvere": {
+      "lema": "volvo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Fazer rolar, rolar."
+      ],
+      "nota": "Depende de impulerit: a passar por. Volvere casus: passar por uma série de desgraças, como uma roda que gira."
+    },
+    "casus": {
+      "lema": "casus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Desgraça, infortúnio."
+      ],
+      "nota": "Objeto de volvere: as desgraças."
+    },
+    "insignem": {
+      "lema": "insignis",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Notável, ilustre."
+      ],
+      "nota": "Concorda com virum."
+    },
+    "pietate": {
+      "lema": "pietas",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Senso do dever; piedade, devoção."
+      ],
+      "nota": "Em quê: notável pela piedade."
+    },
+    "virum": {
+      "lema": "vir",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "Homem valente, herói."
+      ],
+      "nota": "Objeto de impulerit, no verso 11."
+    },
+    "tot#2": {
+      "lema": "tot",
+      "classe": "adjetivo",
+      "def": [
+        "Tantos."
+      ],
+      "nota": "Concorda com labores."
+    },
+    "adire": {
+      "lema": "adeo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Enfrentar, empreender."
+      ],
+      "nota": "Depende de impulerit: a enfrentar."
+    },
+    "labores": {
+      "lema": "labor",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Trabalho, fadiga, sofrimento."
+      ],
+      "nota": "Objeto de adire."
+    },
+    "impulerit": {
+      "lema": "impello",
+      "classe": "verbo",
+      "forma": "perfeito do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Impelir, levar a, instigar."
+      ],
+      "nota": "Na pergunta indireta: levou."
+    },
+    "tantaene": {
+      "partes": [
+        {
+          "lema": "tantus",
+          "classe": "adjetivo",
+          "forma": "nominativo feminino plural",
+          "def": [
+            "Tão grande, tamanho."
+          ]
+        },
+        {
+          "lema": "-ne",
+          "classe": "partícula",
+          "def": [
+            "Partícula que faz a pergunta (de sim ou não)."
+          ]
+        }
+      ],
+      "nota": "Concorda com irae."
+    },
+    "animis": {
+      "lema": "animus",
+      "classe": "substantivo masculino",
+      "forma": "dativo plural",
+      "def": [
+        "Ânimo, coração, espírito: a sede dos sentimentos."
+      ],
+      "nota": "De posse: os ânimos celestes têm."
+    },
+    "caelestibus": {
+      "lema": "caelestis",
+      "classe": "adjetivo",
+      "forma": "dativo plural",
+      "def": [
+        "Celeste, dos deuses."
+      ],
+      "nota": "Concorda com animis."
+    },
+    "irae": {
+      "lema": "ira",
+      "classe": "substantivo feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "Ira, cólera."
+      ],
+      "nota": "Sujeito; o verbo (sunt) fica subentendido."
+    }
+  },
+  "ocorrencias": {
+    "3.7": "et#2",
+    "5.3": "et#3",
+    "10.4": "tot#2"
+  }
+}

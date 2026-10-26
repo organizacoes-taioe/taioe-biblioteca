@@ -145,7 +145,7 @@ BIBLIOTECA.poemas({
   arquivo: "conteudo/cervantes/lingua-original.js",
   livros: [{"id": "el-ingenioso-hidalgo-don-quijote-de-la-mancha", "titulo": "El ingenioso hidalgo don Quijote de la Mancha", "ano": 1605}],
   poemas: [
-    {"id":"cervantes-quijote","titulo":"Capítulo primero","forma":"outras","livro":0,"ordem":0,"versos":25,"lingua":"es","ano":1605,"glossario":true,"subtitulo":"Que trata de la condición y ejercicio del famoso hidalgo don Quijote de la Mancha","genero":"Romance","prosa":true}
+    {"id":"cervantes-quijote","titulo":"Capítulo primero","forma":"outras","livro":0,"ordem":0,"versos":25,"lingua":"es","ano":1605,"glossario":true,"subtitulo":"Que trata de la condición y ejercicio del famoso hidalgo don Quijote de la Mancha","genero":"Romance","prosa":true,"pt":{"tradutor":"António Feliciano de Castilho","titulo":"Capítulo I","ano":1876}}
   ]
 });
 
@@ -172,10 +172,10 @@ BIBLIOTECA.poemas({
   arquivo: "conteudo/oracoes/lingua-original.js",
   livros: [],
   poemas: [
-    {"id":"oracoes-gloria-patri","titulo":"Gloria Patri","forma":"outras","livro":-1,"ordem":0,"versos":3,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
-    {"id":"oracoes-pater-noster","titulo":"Pater Noster","forma":"outras","livro":-1,"ordem":1,"versos":9,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
-    {"id":"oracoes-ave-maria","titulo":"Ave Maria","forma":"outras","livro":-1,"ordem":2,"versos":7,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
-    {"id":"oracoes-regina-caeli","titulo":"Regina caeli","forma":"outras","livro":-1,"ordem":3,"versos":4,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"}
+    {"id":"oracoes-gloria-patri","titulo":"Gloria Patri","forma":"outras","livro":-1,"ordem":0,"versos":3,"lingua":"la","ano":null,"glossario":true,"genero":"Orações","pt":{"tradutor":null,"titulo":"Glória ao Pai","ano":null,"credito":"Na forma rezada no Brasil"}},
+    {"id":"oracoes-pater-noster","titulo":"Pater Noster","forma":"outras","livro":-1,"ordem":1,"versos":9,"lingua":"la","ano":null,"glossario":true,"genero":"Orações","pt":{"tradutor":null,"titulo":"Pai-nosso","ano":null,"credito":"Na forma rezada no Brasil"}},
+    {"id":"oracoes-ave-maria","titulo":"Ave Maria","forma":"outras","livro":-1,"ordem":2,"versos":7,"lingua":"la","ano":null,"glossario":true,"genero":"Orações","pt":{"tradutor":null,"titulo":"Ave-Maria","ano":null,"credito":"Na forma rezada no Brasil"}},
+    {"id":"oracoes-regina-caeli","titulo":"Regina caeli","forma":"outras","livro":-1,"ordem":3,"versos":4,"lingua":"la","ano":null,"glossario":true,"genero":"Orações","pt":{"tradutor":null,"titulo":"Rainha do Céu","ano":null,"credito":"Na forma rezada no Brasil"}}
   ]
 });
 

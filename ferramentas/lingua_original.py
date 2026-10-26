@@ -393,7 +393,9 @@ def publicar():
                 item['prosa'] = True
             if p.get('traducao'):
                 tr = p['traducao']
-                item['pt'] = {'tradutor': tr['tradutor'], 'titulo': tr['titulo'], 'ano': tr.get('ano')}
+                item['pt'] = {'tradutor': tr.get('tradutor'), 'titulo': tr['titulo'], 'ano': tr.get('ano')}
+                if tr.get('credito'):   # as orações: a forma rezada no Brasil, sem tradutor
+                    item['pt']['credito'] = tr['credito']
             poemas.append(item)
         arquivo = 'conteudo/%s/lingua-original.js' % autor
         indice.append('BIBLIOTECA.poemas({\n  autor: %s,\n  arquivo: %s,\n  livros: %s,\n  poemas: [\n    %s\n  ]\n});\n' % (
@@ -468,7 +470,11 @@ def montar(p, info_lingua, poesia=True):
                     'licença CC BY-SA 4.0.') % (info_lingua['nome'], '' if tr else ', sem tradução',
                                                 'poema' if poesia else 'texto', ' em inglês' if outro else '',
                                                 'no verso' if poesia else 'na frase')
-    if tr:
+    if tr and tr.get('credito'):
+        apresentacao += '\n\n**Em português.** No botão «Português», %s.' % tr['publicacao']
+        if tr.get('fonte'):
+            fontes.insert(len(fontes) - 1, {'nome': tr['fonte']['nome'], 'url': tr['fonte'].get('url'), 'nota': tr['fonte'].get('nota')})
+    elif tr:
         # uma tradução em domínio público, com o nome do tradutor (pedido de 2026-10-20); nunca uma nossa
         apresentacao += ('\n\n**Tradução.** No botão «Português», a tradução de %s, %s, em domínio público, '
                          'na ortografia de hoje.') % (tr['tradutor'], tr['publicacao'])

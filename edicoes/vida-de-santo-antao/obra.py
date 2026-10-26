@@ -5,7 +5,7 @@ META = {
     'ano': 357, 'datas': 'c. 357', 'genero': 'Hagiografia',
     'divisao': {'singular': 'parte', 'plural': 'partes', 'rotulo': 'nome'},
     'traducao': {'lingua': 'grego', 'codigo': 'grc', 'titulo': 'Βίος Ἀντωνίου'},
-    'original_ao_lado': False,
+    'original_ao_lado': True,
     'edicao': {
         'titulo': 'Sobre esta tradução',
         'apresentacao': (
@@ -23,10 +23,11 @@ META = {
             '**A tradução.** Português do Brasil, fiel ao sentido e ao tom, sem acréscimos nem explicações. '
             'Atanásio aos destinatários e Antão aos monges falam por _vós_. As citações da Escritura são '
             'traduzidas do grego de Atanásio (a Septuaginta, nos salmos), e não de uma Bíblia moderna.\n\n'
-            '**O original.** O grego não aparece ao lado: o texto digital disponível é uma digitação protegida.'),
+            '**O original.** O grego, no botão «Grego», é o da _Patrologia Graeca_ 26 (Paris, 1857), conferido por nós '
+            'com o fac-símile, palavra por palavra.'),
         'fontes': [
             {'nome': 'Migne, Patrologia Graeca 26 (Paris, 1857), no Internet Archive',
-             'url': 'https://archive.org/details/patrologiae_cursus_completus_gr_vol_026', 'nota': 'texto grego de base'},
+             'url': 'https://archive.org/details/patrologiae_cursus_completus_gr_vol_026', 'nota': 'texto grego de base e do original ao lado (colunas 835–976)'},
             {'nome': 'Evágrio, Vita B. Antonii abbatis (Wikisource latina)', 'url': 'https://la.wikisource.org/wiki/Vita_B._Antonii_abbatis',
              'nota': 'tradução latina antiga, para conferência'},
         ],

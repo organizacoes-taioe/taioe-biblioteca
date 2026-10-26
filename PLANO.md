@@ -73,3 +73,21 @@ Acordo de 1990) · **MEC** Obra Completa, Nova Aguilar, 1994 (texto moderno).
 Enquanto a poesia não passa por este processo, o site traz 26 poemas de Machado (de
 _Crisálidas_, _Falenas_, _Americanas_, _Ocidentais_ e _Relíquias de Casa Velha_) tirados do
 corpus do Versificador, com a poesia dos outros autores (ver `ferramentas/poesia.py`).
+
+# Graciliano Ramos (desde 2026-10-25)
+
+Mesmo processo do Machado. Edição-base: a última revista pelo autor que se pode ler em fac-símile;
+as mudanças sobre a 1ª edição vão listadas na página «Sobre esta edição» (ver
+`edicoes/vidas-secas/mudancas.py`). Só romances, os contos de _Insônia_ e as memórias de _Infância_;
+ficam de fora _Memórias do Cárcere_ (póstumo e inacabado), os livros infantis, crônicas e cartas.
+Domínio público no Brasil desde 2024 (Lei 9.610, art. 41); os herdeiros contestam, e nos EUA as
+obras só caem em domínio público 95 anos depois da publicação.
+
+| # | Obra | 1ª edição | Revista em vida | Fontes | Situação |
+|---|------|-----------|-----------------|--------|----------|
+| 1 | _Vidas Secas_ | 1938, José Olympio | 2ª ed. 1947 (fac-símile BBM 8480); 3ª ed. 1952 (não digitalizada) | WS (1938, validado; 1947, cap. 1–3) · OCR BBM · edição gratuita do Centro Paula Souza (2024) | **publicado** (base 1947) |
+| 2 | _São Bernardo_ | 1934, Ariel | 2ª ed. 1938, José Olympio | a levantar | a fazer |
+| 3 | _Angústia_ | 1936, José Olympio | a levantar | a levantar | a fazer |
+| 4 | _Caetés_ | 1933, Schmidt | a levantar | a levantar | a fazer |
+| 5 | _Insônia_ | 1947, José Olympio | — | a levantar | a fazer |
+| 6 | _Infância_ | 1945, José Olympio | a levantar | a levantar | a fazer |

@@ -1,0 +1,88 @@
+{
+ "id": "arte-de-aproveitar-as-faltas",
+ "rotulo": "A arte de aproveitar as próprias faltas (Tissot)",
+ "url": "/biblioteca/joseph-tissot/arte-de-aproveitar-as-faltas/",
+ "escolhas": [
+  {
+   "id": "faltas",
+   "titulo": "O título e o termo-chave ficam «aproveitar as próprias faltas»?",
+   "ref": "título; capítulos da 2ª parte; toda a obra",
+   "contexto": "*L'Art d'utiliser ses fautes.* Hoje: «A arte de aproveitar as próprias faltas», e «Aproveitar as faltas para amar a própria abjeção» no capítulo II da 2ª parte. *Faute* vai da imperfeição à queda grave, e Tissot a distingue de *péché* («pecado»), que a tradução guarda à parte. «Próprias» não está no título francês (*ses fautes*, «as suas faltas»): foi posto para que o título não fique ambíguo.",
+   "opcoes": [
+    {"id": "a", "texto": "«A arte de aproveitar as próprias faltas», como está", "nota": "O tom suave do livro e a diferença entre falta e pecado.", "recomendada": true},
+    {"id": "b", "texto": "«A arte de aproveitar as suas faltas»", "nota": "Mais literal; «suas» fica ambíguo em português."},
+    {"id": "c", "texto": "«A arte de tirar proveito das próprias culpas»", "nota": "Mais forte e jurídico; perde a leveza de «falta»."}
+   ]
+  },
+  {
+   "id": "abjecao",
+   "titulo": "*Abjection* fica «abjeção», o termo de São Francisco de Sales?",
+   "ref": "2ª parte, caps. I e II (título)",
+   "contexto": "Em São Francisco de Sales, *abjection* é o estado de ser pouco, desprezado, que se aceita por amor de Cristo; a nossa Filoteia também diz «abjeção». Hoje: «Aproveitar as faltas para amar a própria abjeção»; «O amor da nossa abjeção identifica-se com o amor do verdadeiro».\n\nEm português corrente «abjeção» soa a vileza. «Humilhação» se confundiria com *humiliation* e *humilité*, que Tissot também usa.",
+   "opcoes": [
+    {"id": "a", "texto": "«abjeção», como está", "nota": "O termo salesiano, igual ao da Filoteia.", "recomendada": true},
+    {"id": "b", "texto": "«baixeza»: «amar a própria baixeza»", "nota": "Mais suave; perde o termo consagrado."}
+   ]
+  },
+  {
+   "id": "desprazer",
+   "titulo": "O jogo de São Francisco «desprazer-nos de termos desprazido ao divino prazer» fica assim?",
+   "ref": "1ª parte, cap. II, n.º 6",
+   "contexto": "O livro distingue a inquietação com as faltas (amor-próprio) do desprazer delas (graça). Citação do biógrafo do santo: «o desprazer é um efeito da graça celeste, a qual nos inspira a desprazer-nos de termos desprazido ao divino prazer do nosso Criador» (*nous déplaire de ce que nous avons déplu au divin plaisir*).\n\nGuarda o jogo de palavras do santo, mas «desprazer-nos… desprazido» é raro em português.",
+   "opcoes": [
+    {"id": "a", "texto": "«…a desprazer-nos de termos desprazido ao divino prazer do nosso Criador», como está", "nota": "O jogo do santo e o termo «desprazer», que o livro opõe à inquietação.", "recomendada": true},
+    {"id": "b", "texto": "«…a nos desagradarmos de termos desagradado ao divino agrado do nosso Criador»", "nota": "Mais legível; o jogo fica mais fraco."}
+   ]
+  },
+  {
+   "id": "afa",
+   "titulo": "*Empressement* passa de «pressa» a «afã», como na nossa Filoteia?",
+   "ref": "1ª parte, cap. II; 2ª parte, cap. III",
+   "contexto": "*Empressement* é a pressa ansiosa de se livrar da falta, que é amor-próprio. Hoje: «Guardai-vos das pressas e inquietações; pois não há nada que nos impeça mais de caminhar na perfeição» — frase que é da Filoteia, onde a mesma palavra virou «afã». O plural «pressas» é desajeitado, e as citações da Filoteia ficam diferentes do livro de onde vêm.",
+   "opcoes": [
+    {"id": "a", "texto": "«afã»: «Guardai-vos dos afãs e inquietações»", "nota": "O mesmo termo da Filoteia, que Tissot cita.", "recomendada": true},
+    {"id": "b", "texto": "«pressa(s)», como está", "nota": "Mais corrente; diferente da Filoteia."}
+   ]
+  },
+  {
+   "id": "fiador",
+   "titulo": "Cristo como *tenant* e *caution* dos pecadores: «o que responde pelos pecadores» e «fiador dos pecadores»?",
+   "ref": "2ª parte, cap. II, n.º 2",
+   "contexto": "Passagem de cristologia delicada: Cristo aceitou todas as humilhações, menos o pecado, como «tenant des pécheurs» (entre aspas no original) e «caution des pécheurs». Hoje: «…à sua qualidade de «o que responde pelos pecadores»», «Esse divino Cordeiro, revestindo a sua adorável inocência da libré do pecado», «como fiador dos pecadores». As duas fórmulas diferentes podem parecer dois papéis.",
+   "opcoes": [
+    {"id": "a", "texto": "«o que responde pelos pecadores» e «fiador dos pecadores», como está", "nota": "Distingue as duas palavras do autor; «responder por» é o sentido de *tenant*.", "recomendada": true},
+    {"id": "b", "texto": "«fiador dos pecadores» nos dois lugares", "nota": "Uniforme e ligado a Hb 7,22; perde a nuance de *tenant*."}
+   ]
+  },
+  {
+   "id": "bernardo-ampara",
+   "titulo": "Na citação de São Bernardo, «quando é a humildade que a ampara» vira «que o ampara»?",
+   "ref": "2ª parte, cap. II, n.º 7",
+   "contexto": "*La main de Dieu ne soutient-elle pas celui qui tombe, quand c'est l'humilité qui la soutient ?* Hoje, fiel ao impresso: «A mão de Deus não ampara aquele que cai, quando é a humildade que a ampara?». O «a» se refere à mão, e a frase quase não faz sentido: quem a humildade ampara é quem cai. O mais provável é erro do impresso (*la* por *le*).",
+   "opcoes": [
+    {"id": "a", "texto": "«…quando é a humildade que o ampara?», com registro da emenda", "nota": "A frase faz sentido, como em São Bernardo.", "recomendada": true},
+    {"id": "b", "texto": "«…quando é a humildade que a ampara?», como está", "nota": "Fiel ao impresso; quase incompreensível."}
+   ]
+  },
+  {
+   "id": "referencias-erradas",
+   "titulo": "As referências bíblicas que o impresso dá erradas são corrigidas?",
+   "ref": "uns 10 lugares; ex.: 1ª parte, cap. III; 2ª parte, cap. IV",
+   "contexto": "O livro de 1894 traz referências erradas: «(Hb VI, 12)», que é Hb 4,12; «(Rm VIII, 24)» para «Ó miserável de mim!», que é Rm 7,24; «(1 Cor XII, 9)», que é 2 Cor; «(Gn VI, 13)», que é Gn 4,13. Hoje ficam como no impresso. É a mesma pergunta feita para Dom Chautard.",
+   "opcoes": [
+    {"id": "a", "texto": "corrigir as referências e dizer na apresentação quais foram", "nota": "O leitor acha o versículo; o texto do autor não muda.", "recomendada": true},
+    {"id": "b", "texto": "deixar como no impresso, como está", "nota": "Fiel ao livro; o leitor procura o versículo errado."}
+   ]
+  },
+  {
+   "id": "conhecimento-reconhecimento",
+   "titulo": "«O conhecimento gera o reconhecimento» (gratidão) fica assim?",
+   "ref": "2ª parte, cap. I, n.º 7 (citação da Filoteia III.5)",
+   "contexto": "*La connaissance engendre la reconnaissance:* em francês, *reconnaissance* é também gratidão, e o santo joga com isso. Hoje: «A consideração das graças recebidas nos torna humildes: porque o conhecimento gera o reconhecimento». No resto do livro, *reconnaissance* é «gratidão»; aqui ficou «reconhecimento» para guardar o jogo, e o leitor pode entender «admitir».",
+   "opcoes": [
+    {"id": "a", "texto": "«o conhecimento gera o reconhecimento», como está", "nota": "Guarda o jogo; «reconhecimento» também é gratidão em português.", "recomendada": true},
+    {"id": "b", "texto": "«o conhecimento gera a gratidão»", "nota": "Claro; perde o jogo."}
+   ]
+  }
+ ]
+}

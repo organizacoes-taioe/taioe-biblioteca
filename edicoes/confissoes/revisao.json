@@ -1,0 +1,109 @@
+{
+ "id": "confissoes",
+ "rotulo": "Confissões (Santo Agostinho)",
+ "url": "/biblioteca/santo-agostinho/confissoes/",
+ "escolhas": [
+  {
+   "id": "tratamento-deus",
+   "titulo": "Deus continua tratado por «tu», com os pronomes em minúscula?",
+   "ref": "toda a obra; ex.: Livro I, I.1",
+   "contexto": "O livro inteiro é uma oração a Deus, e o tratamento aparece em quase toda frase. Hoje: «Grande és tu, Senhor, e sumamente digno de louvor; grande é o teu poder, e a tua sabedoria não tem número» (*magnus es, domine, et laudabilis valde*).\n\nO latim só tem *tu*. As traduções portuguesas antigas usam «vós», mais solene; as recentes, «tu», mais íntimo, de filho a pai.",
+   "opcoes": [
+    {"id": "a", "texto": "«tu», com minúscula, como está: «Grande és tu, Senhor… grande é o teu poder»", "nota": "A intimidade da oração de Agostinho.", "recomendada": true},
+    {"id": "b", "texto": "«vós»: «Grande sois vós, Senhor… grande é o vosso poder»", "nota": "Mais solene, como as traduções antigas; mais distante."},
+    {"id": "c", "texto": "«Tu» com maiúscula: «Grande és Tu, Senhor… grande é o Teu poder»", "nota": "Íntimo e reverente; enche o livro de maiúsculas."}
+   ]
+  },
+  {
+   "id": "confessar",
+   "titulo": "*Confiteri* continua sempre «confessar», também quando é louvor?",
+   "ref": "toda a obra; ex.: Livro V, I.1",
+   "contexto": "*Confessio* em Agostinho é ao mesmo tempo confissão dos pecados, profissão de fé e louvor a Deus, como nos Salmos; é a chave do título. Hoje a tradução diz sempre «confessar» (uns 126 lugares): «Recebe o sacrifício das minhas confissões da mão da minha língua, que formaste e despertaste para que confesse o teu nome». Em português «confessar» pende para o pecado, e o louvor fica escondido.",
+   "opcoes": [
+    {"id": "a", "texto": "«confessar» e «confissão» sempre, como está", "nota": "Guarda a unidade que dá o título ao livro; a apresentação explica o sentido.", "recomendada": true},
+    {"id": "b", "texto": "«louvar» onde o verbo é de louvor: «…para que louve o teu nome»", "nota": "Mais claro nesses lugares; quebra o elo com o título."}
+   ]
+  },
+  {
+   "id": "tarde-te-amei",
+   "titulo": "«Tarde te amei, beleza tão antiga e tão nova» fica com «beleza»?",
+   "ref": "Livro X, XXVII.38",
+   "contexto": "É talvez o trecho mais conhecido do livro: *sero te amavi, pulchritudo tam antiqua et tam nova… et in ista formosa quae fecisti deformis inruebam.*\n\nHoje: «Tarde te amei, beleza tão antiga e tão nova, tarde te amei! E eis que estavas dentro, e eu fora… e sobre estas coisas formosas que fizeste me lançava, eu, disforme». «Formosura» casaria com «formosas» e «disforme», mas foge da forma que o leitor conhece.",
+   "opcoes": [
+    {"id": "a", "texto": "«Tarde te amei, beleza tão antiga e tão nova», como está", "nota": "A forma que o leitor de língua portuguesa conhece.", "recomendada": true},
+    {"id": "b", "texto": "«Tarde te amei, formosura tão antiga e tão nova»", "nota": "Faz eco a «formosas» e «disforme»; foge da fórmula conhecida."}
+   ]
+  },
+  {
+   "id": "toma-le",
+   "titulo": "A voz da criança na conversão: «Toma, lê» ou «Toma e lê»?",
+   "ref": "Livro VIII, XII.29",
+   "contexto": "*Tolle lege, tolle lege.* Hoje: «E eis que ouço, da casa vizinha, uma voz, como de menino ou de menina, não sei, que dizia cantando e repetia muitas vezes: “Toma, lê; toma, lê”».\n\n«Toma e lê» é a forma com que a frase se tornou conhecida em português; «Toma, lê» é a letra seca do latim, sem a conjunção.",
+   "opcoes": [
+    {"id": "a", "texto": "«Toma e lê; toma e lê»", "nota": "A forma conhecida, e soa como cantiga.", "recomendada": true},
+    {"id": "b", "texto": "«Toma, lê; toma, lê», como está", "nota": "Literal, com os dois imperativos soltos do latim."},
+    {"id": "c", "texto": "«Pega e lê; pega e lê»", "nota": "Mais falado; menos reconhecível."}
+   ]
+  },
+  {
+   "id": "distensao-intencao",
+   "titulo": "No Livro XI, *distentio* e *intentio* ficam «distensão» e «intenção»?",
+   "ref": "Livro XI, XXIII–XXXI",
+   "contexto": "É o núcleo filosófico do livro: o tempo como *distentio* do espírito, e a vida do cristão como *intentio*, tensão para o que está adiante (Fl 3,13-14). Hoje: «Por isso me pareceu que o tempo não é outra coisa senão distensão… não segundo a distensão, mas segundo a intenção, prossigo rumo à palma da vocação do alto».\n\n«Intenção» pode soar a propósito moral; «tensão» guarda a imagem física, mas é mais técnica.",
+   "opcoes": [
+    {"id": "a", "texto": "«distensão» e «intenção», como está", "nota": "Os termos correntes nos estudos de Agostinho; guardam a série *distentus*, *extentus*, *intentio*.", "recomendada": true},
+    {"id": "b", "texto": "«distensão» e «tensão»: «…não segundo a distensão, mas segundo a tensão, prossigo…»", "nota": "Evita o sentido moral; fica mais técnico."}
+   ]
+  },
+  {
+   "id": "citacoes-biblicas",
+   "titulo": "As citações bíblicas continuam traduzidas do latim de Agostinho, mesmo quando diferem da Bíblia de hoje?",
+   "ref": "toda a obra; ex.: Livro V, V.8; Livro X, XXX.41",
+   "contexto": "Agostinho cita a Bíblia latina antiga, às vezes diferente da Vulgata e das Bíblias de hoje. Hoje a tradução segue o que ele escreveu: «Pois disseste ao homem: “Eis que a piedade é a sabedoria”» (Jó 28,28, onde a Bíblia usual diz «o temor do Senhor»); «a concupiscência da carne, e a concupiscência dos olhos, e a ambição do século» (1Jo 2,16, onde se lê «a soberba da vida»).\n\nÉ a regra de todas as traduções da Biblioteca; e o argumento de Agostinho depende das palavras que ele leu.",
+   "opcoes": [
+    {"id": "a", "texto": "traduzir o latim de Agostinho, como está", "nota": "Fiel ao que ele leu e comenta.", "recomendada": true},
+    {"id": "b", "texto": "usar a forma da Bíblia usual onde as duas divergem", "nota": "Familiar ao leitor; quebra o argumento em vários lugares."}
+   ]
+  },
+  {
+   "id": "idipsum",
+   "titulo": "*Idipsum*, nome de Deus, fica «o Mesmo», com maiúscula?",
+   "ref": "Livro IX, IV.11 e X.24; Livros XII e XIII (9 lugares)",
+   "contexto": "*In idipsum* vem do Sl 4,9, e Agostinho faz dele um nome de Deus: o que não muda, o sempre o Mesmo. Hoje: «Oh, em paz! Oh, no Mesmo!» e «E tu és o Mesmo em sumo grau, tu que não mudas». É estranho a quem não conhece o termo; «o Ser» explicaria, mas troca a palavra de Agostinho por uma interpretação.",
+   "opcoes": [
+    {"id": "a", "texto": "«o Mesmo», com maiúscula, como está", "nota": "A palavra de Agostinho, marcada como nome de Deus.", "recomendada": true},
+    {"id": "b", "texto": "«o próprio Ser»: «Oh, em paz! Oh, no próprio Ser!»", "nota": "Mais claro; é interpretação."}
+   ]
+  },
+  {
+   "id": "terra-incomposta",
+   "titulo": "Em Gn 1,2, nos Livros XII e XIII, a terra fica «invisível e incomposta»?",
+   "ref": "Livro XII, III.3 e passim; Livro XIII",
+   "contexto": "Agostinho comenta Gn 1,2 pela Bíblia latina antiga: *terra autem erat invisibilis et incomposita* (a Vulgata diz *inanis et vacua*). Hoje: «A terra, porém, era invisível e incomposta, e as trevas estavam sobre o abismo», com «informidade» para *informitas* e «o céu do céu».\n\nOs dois livros dependem de distinguir *incomposita* (sem arranjo) de *informis* (sem forma). «Incomposta» é palavra rara, e quem conhece «informe e vazia» pode estranhar.",
+   "opcoes": [
+    {"id": "a", "texto": "«invisível e incomposta», como está", "nota": "Guarda a distinção de que o comentário depende.", "recomendada": true},
+    {"id": "b", "texto": "«invisível e desordenada»", "nota": "Mais corrente; perde o eco *composita* que o comentário usa."}
+   ]
+  },
+  {
+   "id": "joao-1-3",
+   "titulo": "Em Jo 1,3-4, a pontuação fica «sem ele nada foi feito. O que foi feito nele é vida»?",
+   "ref": "Livro VII, IX.13",
+   "contexto": "A pontuação decide o sentido. Hoje: «Todas as coisas foram feitas por ele, e sem ele nada foi feito. O que foi feito nele é vida, e a vida era a luz dos homens». É a divisão que o próprio Agostinho adota ao comentar o versículo, e a da edição-base (O'Donnell). As Bíblias portuguesas e a Vulgata dividem: «…nada foi feito do que foi feito. Nele estava a vida».",
+   "opcoes": [
+    {"id": "a", "texto": "«…sem ele nada foi feito. O que foi feito nele é vida», como está", "nota": "Como Agostinho lia; diferente das Bíblias de hoje.", "recomendada": true},
+    {"id": "b", "texto": "«…sem ele nada foi feito do que foi feito. Nele estava a vida»", "nota": "A divisão que o leitor conhece; contraria a leitura de Agostinho."}
+   ]
+  },
+  {
+   "id": "da-o-que-mandas",
+   "titulo": "*Da quod iubes et iube quod vis* fica «Dá o que mandas e manda o que queres»?",
+   "ref": "Livro X, XXIX.40 (e XXXI.45, XXXVII.60)",
+   "contexto": "A frase que irritou Pelágio e abriu a controvérsia da graça. Hoje: «Mandas a continência: dá o que mandas e manda o que queres». É a forma conhecida em português; «ordenar» seria mais exato para *iubere*, mas mais pesado.",
+   "opcoes": [
+    {"id": "a", "texto": "«Dá o que mandas e manda o que queres», como está", "nota": "A forma conhecida, curta como o latim.", "recomendada": true},
+    {"id": "b", "texto": "«Dá o que ordenas e ordena o que queres»", "nota": "Mais exato e solene; foge da fórmula conhecida."}
+   ]
+  }
+ ]
+}

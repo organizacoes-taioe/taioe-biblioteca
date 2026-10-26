@@ -114,7 +114,7 @@ def publicar_obra(nome):
                 return None
             t.append(marcas(trecho(arq_t, faixa)))
             if meta.get('original_ao_lado'):
-                orig.append(marcas(trecho(os.path.join(pasta, 'original', a), faixa)))
+                orig.append(marcas(trecho(os.path.join(pasta, meta.get('pasta_original', 'original'), a), faixa)))
         if meta.get('poema'):
             t, orig = [x.replace('\t', ' ') for x in t], [x.replace('\t', CESURA) for x in orig]
         partes.append({'n': sigla, 'titulo': titulo, 'texto': '\n\n'.join(t),

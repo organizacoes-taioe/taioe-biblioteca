@@ -7,7 +7,7 @@ META = {
     'ano': 397, 'datas': 'c. 397–401', 'genero': 'Autobiografia',
     'divisao': {'singular': 'livro', 'plural': 'livros'},
     'traducao': {'lingua': 'latim', 'codigo': 'la', 'titulo': 'Confessiones'},
-    'original_ao_lado': False,
+    'original_ao_lado': True, 'pasta_original': 'original-knoll',
     'edicao': {
         'titulo': 'Sobre esta tradução',
         'apresentacao': (
@@ -25,12 +25,14 @@ META = {
             'foram acrescentadas. Os versos que Agostinho cita, de Virgílio, de Terêncio, de Horácio e o hino de Ambrósio, '
             'foram traduzidos em verso, numa medida correspondente do português. A pequena marca no começo dos parágrafos (I.1) dá o capítulo e a seção, na '
             'numeração usual das edições, que é como se cita a obra.\n\n'
-            '**O original.** O latim não aparece ao lado: o texto digital disponível vem de uma edição moderna.'),
+            '**O original.** O latim, no botão «Latim», é o da edição de Knöll (Viena, 1896), em domínio público, transcrito por nós '
+            'dos fac-símiles e conferido nas imagens; segue a grafia de Knöll (_uirtus_, _inmutabilis_). Onde Knöll lê diferente do texto '
+            'que serviu de base à tradução, as duas colunas podem não coincidir palavra por palavra.'),
         'fontes': [
             {'nome': 'The Latin Library: Augustinus, Confessiones', 'url': 'http://www.thelatinlibrary.com/august.html',
              'nota': 'texto latino de base'},
             {'nome': 'Knöll, CSEL 33 (Viena, 1896), no Internet Archive', 'url': 'https://archive.org/details/sanctiaureliaugu33augu',
-             'nota': 'edição crítica antiga, para conferência'},
+             'nota': 'edição crítica antiga, para conferência, e o latim ao lado (também os exemplares corpusscriptoru11wiengoog e corpusscriptorum0033unse)'},
         ],
     },
 }

@@ -54,7 +54,10 @@ As fontes baixadas e os relatórios ficam em `ferramentas/cache/<obra>/` (fora d
      PDF e o Tesseract, `edicoes/sao-bernardo/tesseract.py`) e o texto da 1ª edição, posto na grafia
      de hoje, como «moderna» de desempate; `config.rever` desempata pelo léxico, `config.modernizar`
      faz a grafia por regras e `decisoes.corrigir` aplica as leituras conferidas nas imagens
-     (`conferencia.json`). Ver `edicoes/sao-bernardo/config.py`.
+     (`conferencia.json`). Ver `edicoes/sao-bernardo/config.py`. Em _Angústia_ (`edicoes/angustia/`) o
+     desempate é o texto impresso das provas de 1946 (outros dois OCRs), os parágrafos vão por voto das
+     quatro leituras, o itálico sai da inclinação das letras (`italico.py`) e `revisao.py` junta numa
+     lista só os pontos a conferir nas imagens.
 3. **Intervenções** (`edicoes/<obra>/decisoes.py`, `EMENDAS`): erros tipográficos da
    edição-base (`erro`), lições da tradição posterior (`edicao`), erros das
    transcrições (`ocr`) e lições da edição-base conferidas no fac-símile que o confronto

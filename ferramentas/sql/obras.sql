@@ -1273,6 +1273,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('goncalves-dias/ultimos-cantos-triste-do-trovador', 'Triste do Trovador'),
   ('goncalves-dias/ultimos-cantos-urge-o-tempo', 'Urge o Tempo'),
   ('goncalves-dias/ultimos-cantos-velhice-e-mocidade', 'Velhice e Mocidade'),
+  ('graciliano-ramos/angustia', 'Angústia'),
   ('graciliano-ramos/sao-bernardo', 'São Bernardo'),
   ('graciliano-ramos/vidas-secas', 'Vidas Secas'),
   ('gregorio-de-matos/soneto-a-cada-canto-um-grande-conselheiro', 'A cada canto um grande conselheiro'),

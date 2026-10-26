@@ -14,3 +14,13 @@
 # O Beowulf (tradução por IA) saiu do site em 23/10/2026; a tradução humana virá depois
 /biblioteca/anonimo-anglo-saxao/*  /biblioteca/literatura/  302
 /biblioteca/anonimo-anglo-saxao  /biblioteca/literatura/  302
+
+# As páginas por língua viraram o filtro da Literatura (26/10/2026)
+/biblioteca/literatura/espanhol/*  /biblioteca/literatura/?lingua=espanhol  301
+/biblioteca/literatura/espanhol  /biblioteca/literatura/?lingua=espanhol  301
+/biblioteca/literatura/ingles/*  /biblioteca/literatura/?lingua=ingles  301
+/biblioteca/literatura/ingles  /biblioteca/literatura/?lingua=ingles  301
+/biblioteca/literatura/frances/*  /biblioteca/literatura/?lingua=frances  301
+/biblioteca/literatura/frances  /biblioteca/literatura/?lingua=frances  301
+/biblioteca/literatura/latim/*  /biblioteca/literatura/?lingua=latim  301
+/biblioteca/literatura/latim  /biblioteca/literatura/?lingua=latim  301

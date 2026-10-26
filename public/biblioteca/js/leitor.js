@@ -24,7 +24,7 @@
     if (t === 'claro' || t === 'escuro') document.documentElement.setAttribute('data-tema', t);
     else document.documentElement.removeAttribute('data-tema');
   }
-  var TAMANHOS = [0.9, 1, 1.1, 1.22, 1.35];
+  var TAMANHOS = [0.9, 1, 1.1, 1.22, 1.35, 1.5, 1.66, 1.85];   // os três maiores: pedido do Gere, 26/10/2026
   function aplicarFonte(k) { document.documentElement.style.setProperty('--escala', TAMANHOS[k]); }
   aplicarTema(ler(CHAVE_TEMA));
   var kf = parseInt(ler(CHAVE_FONTE), 10);
@@ -556,6 +556,66 @@
     ordenar.hidden = false;
     var salva = ler(CHAVE_ORDEM);
     if (salva === 'nasc' || salva === 'morte') aplicarOrdem(salva);
+  }
+
+  /* ---------------------------------------------------------------- filtros da lista de autores
+     Língua em que a obra foi escrita e gênero; ficam no endereço (?lingua=ingles&genero=poesia),
+     para que «voltar» de um autor reencontre a lista filtrada. */
+  var filtros = $('filtros');
+  if (filtros && listaAutores) {
+    var escolha = { lingua: '', genero: '' };
+    var aplicarFiltro = function () {
+      var n = 0;
+      Array.prototype.forEach.call(listaAutores.children, function (el) {
+        var pares = (el.getAttribute('data-obras') || '').split(' ');
+        var ok = pares.some(function (p) {
+          var x = p.split(':');
+          return (!escolha.lingua || x[0] === escolha.lingua) && (!escolha.genero || x[1] === escolha.genero);
+        });
+        el.hidden = !ok;
+        if (ok) n++;
+      });
+      Array.prototype.forEach.call(filtros.querySelectorAll('[data-filtro]'), function (g) {
+        var v = escolha[g.getAttribute('data-filtro')];
+        Array.prototype.forEach.call(g.querySelectorAll('button'), function (b) {
+          b.setAttribute('aria-pressed', String(b.getAttribute('data-valor') === v));
+        });
+      });
+      if ($('filtro-vazio')) $('filtro-vazio').hidden = n > 0;
+      if ($('filtro-nota')) $('filtro-nota').hidden = !escolha.lingua || escolha.lingua === 'portugues' || D.area !== 'literatura';
+    };
+    var guardarNoEndereco = function () {
+      try {
+        var q = new URLSearchParams(location.search);
+        ['lingua', 'genero'].forEach(function (k) { if (escolha[k]) q.set(k, escolha[k]); else q.delete(k); });
+        var s = q.toString();
+        history.replaceState(history.state, '', location.pathname + (s ? '?' + s : '') + location.hash);
+      } catch (e) { /* sem history: o filtro vale só nesta visita */ }
+    };
+    Array.prototype.forEach.call(filtros.querySelectorAll('[data-filtro]'), function (g) {
+      var k = g.getAttribute('data-filtro');
+      Array.prototype.forEach.call(g.querySelectorAll('button'), function (b) {
+        b.addEventListener('click', function () {
+          escolha[k] = b.getAttribute('data-valor');
+          aplicarFiltro(); guardarNoEndereco();
+        });
+      });
+    });
+    try {
+      var q0 = new URLSearchParams(location.search);
+      ['lingua', 'genero'].forEach(function (k) {
+        var v = q0.get(k) || '', g = filtros.querySelector('[data-filtro="' + k + '"]');
+        if (v && g && g.querySelector('[data-valor="' + v.replace(/[^a-z0-9-]/g, '') + '"]')) escolha[k] = v;
+      });
+    } catch (e) { /* endereço sem parâmetros */ }
+    filtros.hidden = false;
+    aplicarFiltro();
+    /* o botão escolhido fica à vista na linha que desliza (sem mexer na rolagem da página) */
+    Array.prototype.forEach.call(filtros.querySelectorAll('[data-filtro]'), function (g) {
+      var b = g.querySelector('[aria-pressed="true"]');
+      var x = b ? b.getBoundingClientRect().left - g.getBoundingClientRect().left : 0;
+      if (b && x + b.offsetWidth > g.clientWidth) g.scrollLeft = x - 16;
+    });
   }
 
   /* ---------------------------------------------------------------- «Em leitura» e «Lidos» */

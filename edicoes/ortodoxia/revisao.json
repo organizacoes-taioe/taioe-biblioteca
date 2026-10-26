@@ -1,0 +1,90 @@
+{
+ "id": "ortodoxia",
+ "rotulo": "Ortodoxia (G. K. Chesterton)",
+ "url": "/biblioteca/g-k-chesterton/ortodoxia/",
+ "escolhas": [
+  {
+   "id": "louco-razao",
+   "titulo": "A definição do louco fica «perdeu tudo, menos a razão»?",
+   "ref": "cap. II",
+   "contexto": "*The madman is not the man who has lost his reason. The madman is the man who has lost everything except his reason.* É talvez a frase mais citada do livro.\n\nHoje: «O louco não é o homem que perdeu a razão. O louco é o homem que perdeu tudo, menos a razão». O golpe está em repetir a mesma palavra, como o inglês repete *reason*.",
+   "opcoes": [
+    {"id": "a", "texto": "«…perdeu a razão. O louco é o homem que perdeu tudo, menos a razão», como está", "nota": "A repetição do original, no tom de conversa do livro.", "recomendada": true},
+    {"id": "b", "texto": "«…perdeu a razão. O louco é o homem que perdeu tudo, salvo a razão»", "nota": "Mais seco, com ar de aforismo; menos de conversa."},
+    {"id": "c", "texto": "«…perdeu o juízo. O louco é o homem que perdeu tudo, exceto o raciocínio»", "nota": "Separa as duas ideias, mas desfaz o eco de uma só palavra."}
+   ]
+  },
+  {
+   "id": "seu-riso",
+   "titulo": "Na última frase do livro, *His mirth* fica «o Seu riso»?",
+   "ref": "cap. IX, a última frase",
+   "contexto": "*There was some one thing that was too great for God to show us when He walked upon our earth; and I have sometimes fancied that it was His mirth.*\n\nHoje: «Havia uma coisa grande demais para Deus nos mostrar quando andou pela nossa terra; e às vezes imaginei que fosse o Seu riso». Chesterton evita aqui *joy*, que no resto do capítulo vira «alegria», e o parágrafo anterior fala do riso dos céus.",
+   "opcoes": [
+    {"id": "a", "texto": "«o Seu riso», como está", "nota": "Curto, forte e ligado ao parágrafo anterior.", "recomendada": true},
+    {"id": "b", "texto": "«a Sua alegria»", "nota": "Mais devoto; confunde *mirth* com *joy* e perde o elo com o riso."},
+    {"id": "c", "texto": "«o Seu bom humor»", "nota": "Diz a disposição alegre, mas rebaixa o fecho solene."}
+   ]
+  },
+  {
+   "id": "anjos-leveza",
+   "titulo": "«Os anjos podem voar porque se levam com leveza» ou «porque não se levam a sério»?",
+   "ref": "cap. VII; o termo «leveza» também nos caps. II e IX",
+   "contexto": "*A characteristic of the great saints is their power of levity. Angels can fly because they can take themselves lightly.* Em inglês, *levity*, *levitation* e *lightly* são uma família, e o parágrafo opõe a eles a *gravity* (Satanás caiu pela força da gravidade).\n\nHoje: «uma característica dos grandes santos é o seu poder de leveza. Os anjos podem voar porque se levam com leveza». «Leveza» guarda a família (com «levitação»), mas «se levam com leveza» soa traduzido; «não se levar a sério» é a expressão portuguesa exata, e o seu contrário, «levar-se a sério», casa com a gravidade.",
+   "opcoes": [
+    {"id": "a", "texto": "«o seu poder de leveza. Os anjos podem voar porque não se levam a sério»", "nota": "Fica «leveza» como termo do livro, e a frase célebre soa natural.", "recomendada": true},
+    {"id": "b", "texto": "«o seu poder de leveza. Os anjos podem voar porque se levam com leveza», como está", "nota": "Repete a palavra como o inglês; soa artificial."}
+   ]
+  },
+  {
+   "id": "romance",
+   "titulo": "*Romance* continua «romance» («O romance da ortodoxia»)?",
+   "ref": "cap. I; título do cap. VIII; caps. VI e IX",
+   "contexto": "Chesterton usa *romance* no sentido antigo, o romanesco, a aventura, com uma piada de etimologia: «…aquela mistura do familiar e do insólito a que a cristandade deu, com razão, o nome de romance. Pois a própria palavra “romance” traz em si o mistério e o antigo significado de Roma». O capítulo VIII chama-se «O romance da ortodoxia».\n\nO leitor de hoje lê «romance» como livro de ficção; «aventura» diz bem a ideia, mas mata a piada de Roma e o fio que liga o capítulo VIII ao I.",
+   "opcoes": [
+    {"id": "a", "texto": "«romance» em toda a obra, como está", "nota": "Passa a piada de Roma e a unidade do livro; o título do cap. VIII fica ambíguo.", "recomendada": true},
+    {"id": "b", "texto": "«aventura» («A aventura da ortodoxia»), com «romance» só na frase de Roma", "nota": "Claro para o leitor de hoje; perde o fio entre os capítulos."}
+   ]
+  },
+  {
+   "id": "faz-de-novo",
+   "titulo": "O *Do it again* das crianças e de Deus fica «Faz de novo!» ou «De novo!»?",
+   "ref": "cap. IV",
+   "contexto": "*They always say, 'Do it again'… It is possible that God says every morning, 'Do it again' to the sun.* Um dos trechos mais lembrados do livro.\n\nHoje: «Elas sempre dizem: “Faz de novo”… É possível que Deus diga toda manhã ao sol: “Faz de novo”». A criança brasileira, quando quer que se repita, grita «De novo!»; a frase seguinte («o adulto faz de novo até quase morrer») continua de pé.",
+   "opcoes": [
+    {"id": "a", "texto": "«De novo!»: «Elas sempre dizem: “De novo!”… Deus diga toda manhã ao sol: “De novo!”»", "nota": "É o que a criança diz de fato; a cena fica viva.", "recomendada": true},
+    {"id": "b", "texto": "«Faz de novo!», como está", "nota": "Mais literal, com o verbo; soa um pouco seco."}
+   ]
+  },
+  {
+   "id": "practical-joke",
+   "titulo": "*Practical joke* (o fidalgo como piada) deixa de ser «brincadeira de mão»?",
+   "ref": "cap. VII",
+   "contexto": "*We have always thought the gentleman a sort of joke, though I admit that in some great crusades and councils he earned the right to be called a practical joke.* O paradoxo: o fidalgo era uma piada, mas nas cruzadas virou piada *prática*, que funciona.\n\nHoje: «…ele ganhou o direito de ser chamado de brincadeira de mão». Em português, «brincadeira de mão» é a de tapas («brincadeira de mão é de vilão»), e o sentido de «prática» se perde. É o ponto mais fraco do livro, segundo as notas.",
+   "opcoes": [
+    {"id": "a", "texto": "«…ele ganhou o direito de ser chamado de piada posta em prática»", "nota": "Guarda a piada e o «prática» que funciona.", "recomendada": true},
+    {"id": "b", "texto": "«…ele ganhou o direito de ser chamado de peça pregada»", "nota": "A expressão natural para *practical joke*; perde o «prática»."},
+    {"id": "c", "texto": "«brincadeira de mão», como está", "nota": "Lida quase sempre como brincadeira de tapas."}
+   ]
+  },
+  {
+   "id": "preveni-nos",
+   "titulo": "*Prevent us, O Lord* fica «Preveni-nos, Senhor», com o duplo sentido de «prevenir»?",
+   "ref": "cap. VII, perto do fim",
+   "contexto": "Chesterton conta que, ao inventar a sua filosofia, descobriu que ela já existia, e diz: «Para mim, no sentido antigo e em parte no moderno, Deus atendeu à oração: “Preveni-nos, Senhor, em todas as nossas obras”». *Prevent* é «vir antes» (o sentido antigo, o da coleta) e «impedir» (o moderno). O português tem o mesmo duplo sentido em «prevenir», mas o antigo é pouco conhecido.",
+   "opcoes": [
+    {"id": "a", "texto": "«Preveni-nos, Senhor, em todas as nossas obras», como está", "nota": "Guarda o jogo dos dois sentidos, raro de passar inteiro.", "recomendada": true},
+    {"id": "b", "texto": "«Precedei-nos, Senhor, em todas as nossas obras»", "nota": "Claro, mas perde o «impedir» e com ele a graça."}
+   ]
+  },
+  {
+   "id": "galileu-palido",
+   "titulo": "O verso de Swinburne fica «Galileu macilento… Teu hálito o mundo embaçou», sem a cor cinza?",
+   "ref": "cap. VI",
+   "contexto": "*Thou hast conquered, O pale Galilaean, the world has grown gray with Thy breath.* Chesterton responde que o mundo estava ainda mais cinzento antes de o Galileu soprar sobre ele.\n\nHoje, em verso medido: «Galileu macilento, venceste; Teu hálito o mundo embaçou», e na prosa seguinte «o mundo estava, se possível, ainda mais embaçado antes que o Galileu soprasse sobre ele». O eco passa pelo «embaçado», mas o «pálido» e o «cinzento» somem.",
+   "opcoes": [
+    {"id": "a", "texto": "o verso medido, como está, com «embaçado» na prosa", "nota": "Verso de verdade, pelo método do Versificador; a resposta de Chesterton continua a funcionar.", "recomendada": true},
+    {"id": "b", "texto": "«Venceste, ó pálido Galileu; o mundo ficou cinzento com o Teu hálito», e «cinzento» na prosa", "nota": "Fiel às duas cores; deixa de ser verso."}
+   ]
+  }
+ ]
+}

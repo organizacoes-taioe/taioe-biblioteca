@@ -1,0 +1,77 @@
+{
+ "id": "vida-de-santo-antao",
+ "rotulo": "Vida de Santo Antão (Santo Atanásio)",
+ "url": "/biblioteca/santo-atanasio/vida-de-santo-antao/",
+ "escolhas": [
+  {
+   "id": "antao",
+   "titulo": "O santo continua «Antão» (e não «Antônio Abade»)?",
+   "ref": "título e toda a obra",
+   "contexto": "Hoje: «Vida de Santo Antão», e no começo do texto o título grego inteiro: «Vida e conduta de nosso santo pai Antão…». «Antão» é a forma portuguesa tradicional e não se confunde com Santo Antônio de Pádua; no Brasil o santo também é chamado «Santo Antônio Abade».",
+   "opcoes": [
+    {"id": "a", "texto": "«Antão», como está", "nota": "A forma portuguesa tradicional, sem confusão com o de Pádua.", "recomendada": true},
+    {"id": "b", "texto": "«Antônio» («Vida de Santo Antônio Abade»)", "nota": "Como é chamado em parte do Brasil; pode confundir."}
+   ]
+  },
+  {
+   "id": "ascese",
+   "titulo": "*Áskesis* fica «ascese», e *asketés*, «asceta»?",
+   "ref": "prólogo e toda a obra",
+   "contexto": "É o centro da obra: Antão como modelo de *áskesis*, o exercício do atleta de Cristo. Hoje: «a vida de Antão é para os monges modelo suficiente de ascese»; «Apeguemo-nos, pois, filhos, à ascese». «Ascese» é palavra culta e pouco usada; «ascetismo» é mais familiar, mas é a doutrina geral, e não o exercício concreto.",
+   "opcoes": [
+    {"id": "a", "texto": "«ascese» e «asceta», como está", "nota": "Termo exato e sempre o mesmo.", "recomendada": true},
+    {"id": "b", "texto": "«vida ascética» e «asceta»", "nota": "Mais familiar; menos preciso."}
+   ]
+  },
+  {
+   "id": "cap69-verbo-eterno",
+   "titulo": "No cap. 69, contra Ário, «o Verbo e a Sabedoria eterna» passa a «o Verbo e a Sabedoria eternos»?",
+   "ref": "cap. 69",
+   "contexto": "O trecho doutrinal mais delicado: Antão condena Ário com as fórmulas de Niceia. Hoje: «E ensinava ao povo que o Filho de Deus não é criatura, nem foi feito do nada, mas que é o Verbo e a Sabedoria eterna da substância do Pai». No grego, «eterno» (*aḯdios*) vale para os dois; em português, «eterna» concorda só com «Sabedoria», e o leitor pode entender que o Verbo não é dito eterno — justo o ponto contra Ário.",
+   "opcoes": [
+    {"id": "a", "texto": "«…mas que é o Verbo e a Sabedoria eternos, da substância do Pai»", "nota": "«Eternos» vale para os dois, como no grego.", "recomendada": true},
+    {"id": "b", "texto": "«…mas que é o Verbo e a Sabedoria eterna da substância do Pai», como está", "nota": "Ambíguo no ponto que importa."}
+   ]
+  },
+  {
+   "id": "theotokos",
+   "titulo": "No cap. 36, *Theotókos* fica «Maria, Mãe de Deus»?",
+   "ref": "cap. 36",
+   "contexto": "Hoje: «Assim Abraão, vendo o Senhor, exultou; e João, à voz de Maria, Mãe de Deus, saltou de alegria». O grego diz *Theotókos*, título já usado em Alexandria no séc. IV; a versão latina antiga de Evágrio parafraseia e não o traz. A tradução segue o grego, que é o texto-base.",
+   "opcoes": [
+    {"id": "a", "texto": "«Maria, Mãe de Deus», como está", "nota": "Fiel ao grego de Atanásio.", "recomendada": true},
+    {"id": "b", "texto": "«Maria, Mãe do Senhor»", "nota": "Como em Lc 1,43; perde o título que Atanásio usa."}
+   ]
+  },
+  {
+   "id": "gregos-pagaos",
+   "titulo": "*Héllenes* fica «gregos» quando se trata dos filósofos e da sabedoria deles, e «pagãos» quando é o povo não cristão?",
+   "ref": "caps. 20, 22, 70, 72, 74, 78, 94",
+   "contexto": "No séc. IV cristão, *Héllen* é o pagão culto, herdeiro da cultura grega. Hoje a tradução varia: «Os gregos viajam para longe e atravessam o mar para aprender as letras» (cap. 20), «a sabedoria das palavras dos gregos» (cap. 78), mas «Também os pagãos… vinham à igreja» (cap. 70) e «os próprios pagãos julgam ser deuses» (cap. 94). No cap. 22 («enganaram os gregos com as suas aparições») ficou «gregos» onde o sentido é pagãos em geral.",
+   "opcoes": [
+    {"id": "a", "texto": "«gregos» para os filósofos e a sabedoria deles; «pagãos» para o povo, também no cap. 22", "nota": "Cada caso com o sentido certo; acerta o cap. 22.", "recomendada": true},
+    {"id": "b", "texto": "«gregos» sempre", "nota": "Uniforme e literal; estranho no cap. 70, em Alexandria, onde todos eram gregos."}
+   ]
+  },
+  {
+   "id": "pensamentos",
+   "titulo": "*Logismoí* fica sempre «pensamentos», também quando são sugestões dos demônios?",
+   "ref": "caps. 5, 6, 36, 87 e toda a obra",
+   "contexto": "Termo técnico dos Padres do deserto: as ideias que surgem na mente, muitas vezes postas pelos demônios. Hoje: «levantou-lhe na mente uma grande poeira de pensamentos»; «Um sugeria pensamentos imundos, o outro os desfazia com orações». «Pensamentos» é o termo tradicional, mas em português soa neutro.",
+   "opcoes": [
+    {"id": "a", "texto": "«pensamentos» sempre, como está", "nota": "O termo tradicional; o contexto mostra quando são tentação.", "recomendada": true},
+    {"id": "b", "texto": "«maus pensamentos» quando sugeridos pelo inimigo", "nota": "Mais claro nesses lugares; acrescenta ao texto."}
+   ]
+  },
+  {
+   "id": "selai-vos",
+   "titulo": "*Sphragízein* fica «selai-vos» (e não «fazei o sinal da cruz»)?",
+   "ref": "caps. 13 e 35",
+   "contexto": "O monge se protege dos demônios «selando» a si e à casa com o sinal da cruz. Hoje: «“Vós, pois, selai-vos e ide confiantes”… Eles então partiam, protegidos como por muralha pelo sinal da cruz» (cap. 13); «selai-vos a vós mesmos e a casa, e orai… pois são covardes e temem muito o sinal da cruz do Senhor» (cap. 35). O próprio texto diz logo em seguida que é o sinal da cruz.",
+   "opcoes": [
+    {"id": "a", "texto": "«selai-vos», como está", "nota": "Fiel ao verbo; o contexto explica.", "recomendada": true},
+    {"id": "b", "texto": "«fazei o sinal da cruz»", "nota": "Claro de imediato; perde a imagem do selo."}
+   ]
+  }
+ ]
+}

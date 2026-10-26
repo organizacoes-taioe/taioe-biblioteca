@@ -1,0 +1,108 @@
+{
+ "id": "alma-de-todo-apostolado",
+ "rotulo": "A alma de todo apostolado (Dom Chautard)",
+ "url": "/biblioteca/dom-chautard/alma-de-todo-apostolado/",
+ "escolhas": [
+  {
+   "id": "tratamento-dialogos",
+   "titulo": "Nas conversas entre pessoas, «vós» ou «o senhor»?",
+   "ref": "toda a obra; sobretudo II.3, IV.1 e IV d)–g)",
+   "contexto": "O francês trata as pessoas por *vous*. Hoje o livro passa tudo a «vós», também nas cenas de conversa: «— Mas, meu Padre, não pensais no que dizeis: é a melhor diretora» (*Mais, mon Père, vous n'y pensez pas*); «Podeis citar um fato, um só…».\n\nA favor do «vós»: o livro é feito de citações solenes de papas e santos, e uma regra só é mais simples. Contra: na boca de uma Superiora ou de um padre conversando, «vós» soa postiço ao leitor brasileiro. A mudança atinge as falas entre pessoas; Deus, Nossa Senhora e as apóstrofes solenes continuam com «vós».",
+   "opcoes": [
+    {"id": "a", "texto": "«o senhor», «a senhora» nas conversas; «vós» só para Deus, os santos e as falas solenes", "nota": "Conversa viva, como se fala; os documentos dos papas continuam com «vós».", "recomendada": true},
+    {"id": "b", "texto": "«vós» em toda a obra, como está no site", "nota": "Uniforme e no tom de 1927, mas arcaico nas cenas de conversa."}
+   ]
+  },
+  {
+   "id": "obras",
+   "titulo": "*Œuvres* continua «obras» («homem de obras», «Heresia das Obras»)?",
+   "ref": "toda a obra; ex.: I.1, I.2",
+   "contexto": "É a palavra central do livro: *œuvres* são as instituições e atividades do apostolado (patronatos, escolas, círculos, imprensa), e a «Heresia das Obras» é a tese do autor: a atividade febril que toma o lugar da ação de Deus. Hoje: «*Heresia das Obras*!», «o coração do homem de obras».\n\n«Obras» é menos claro em português (lembra «boas obras»), mas «ação» ou «atividades» apagariam a distinção que o autor faz entre *œuvres*, *action* e *activité*.",
+   "opcoes": [
+    {"id": "a", "texto": "«obras», «homem de obras», «Heresia das Obras», como está", "nota": "Guarda a palavra-chave do autor; a apresentação explica o sentido.", "recomendada": true},
+    {"id": "b", "texto": "«obras de apostolado», «homem de ação», «heresia da ação»", "nota": "Mais claro à primeira leitura; perde o termo do autor e a oposição com a vida interior."}
+   ]
+  },
+  {
+   "id": "oracao-prece",
+   "titulo": "*Oraison* e *prière* ficam as duas «oração»?",
+   "ref": "toda a obra; «prece» em IV.1 a), V.2 e V.3",
+   "contexto": "Para Chautard, *oraison* é a oração mental, e *prière*, a oração em geral (de súplica, vocal). O português usa «oração» para as duas. Hoje o livro diz «oração» quase sempre (umas 450 vezes) e «prece» só onde o autor põe as duas juntas: «A prece, o espírito de oração, o mestre não cessa de lembrar…» (*La prière, l'esprit d'oraison*).",
+   "opcoes": [
+    {"id": "a", "texto": "«oração» para as duas, e «prece» só onde vêm juntas, como está", "nota": "Natural em português; «oração mental» marca o termo técnico quando o autor precisa.", "recomendada": true},
+    {"id": "b", "texto": "«prece» para *prière* em toda a obra", "nota": "Guarda a distinção do autor; soa forçado em muitos lugares («prece litúrgica»)."}
+   ]
+  },
+  {
+   "id": "latim-sem-traducao",
+   "titulo": "As frases em latim do corpo do texto ganham tradução entre colchetes?",
+   "ref": "toda a obra; ex.: V.2, V.4",
+   "contexto": "Chautard deixa sem traduzir muitas frases latinas da Escritura e da liturgia, porque o leitor de 1927 as entendia. Hoje elas ficam em latim, sem tradução: «Padre que sou, ouvi no meu retiro de Ordenação esta grave palavra: *Sacerdos alter Christus!*»; também *Per te ad nihilum redegit inimicos nostros*, *Clauso ostio*. Só as notas inteiramente em latim e as saudações do Epílogo têm «[Trad.: …]» (52 lugares).\n\nO leitor sem latim perde o sentido de frases que sustentam o argumento.",
+   "opcoes": [
+    {"id": "a", "texto": "toda frase latina do corpo que o autor não traduz ganha «[Trad.: …]» logo depois", "nota": "O leitor entende tudo; o latim do autor fica intacto, só com o colchete ao lado.", "recomendada": true},
+    {"id": "b", "texto": "o latim do corpo fica sem tradução, como está", "nota": "O texto do autor sem acréscimos; o leitor sem latim fica sem o sentido."}
+   ]
+  },
+  {
+   "id": "distico-margarida-maria",
+   "titulo": "O dístico de Santa Margarida Maria fica em verso rimado, sem o «meu»?",
+   "ref": "I.3, no fim da 3ª verdade",
+   "contexto": "Original: «Je possède en tout temps et je porte en tout lieu / Et le Dieu de mon cœur et le Cœur de mon Dieu».\n\nHoje, em dois versos de 12 sílabas com rima, pelo método do Versificador: «Possuo e levo sempre e sob todos os céus / O Deus do coração e o Coração de Deus». Guarda o metro, a rima e o cruzamento das palavras, mas perde os dois «meu», que são a intimidade do dístico.",
+   "opcoes": [
+    {"id": "a", "texto": "«Possuo e levo sempre e sob todos os céus / O Deus do coração e o Coração de Deus», como está", "nota": "Verso de verdade, com rima; perde o «meu».", "recomendada": true},
+    {"id": "b", "texto": "«Possuo em todo tempo e levo a todo lugar / o Deus do meu coração e o Coração do meu Deus»", "nota": "Fiel palavra a palavra; deixa de ser verso medido e rimado."}
+   ]
+  },
+  {
+   "id": "divinizacao",
+   "titulo": "«Divinização», «deificado» e «feitos deuses» ficam como dizem os Padres?",
+   "ref": "Prelúdio, § 2 e nota 2; IV f)–g)",
+   "contexto": "O Prelúdio fala da «nossa divinização» (*divinisation*) e da alma «deificada»; cita Santo Agostinho, *Factus est homo ut homo fieret deus* — hoje «[Trad.: Fez-se homem para que o homem se tornasse deus.]» — e Santo Atanásio: «somos feitos deuses pela carne de Cristo».\n\nÉ a linguagem dos Padres (a participação na natureza divina, 2Pd 1,4). O risco é o leitor sem formação ler panteísmo; suavizar mudaria as palavras dos Padres.",
+   "opcoes": [
+    {"id": "a", "texto": "como está: «divinização», «deificado», «se tornasse deus», «feitos deuses»", "nota": "Fiel aos Padres e ao autor; o contexto do livro deixa claro o sentido.", "recomendada": true},
+    {"id": "b", "texto": "«participante da natureza divina», «divinizado» no lugar de «se tornasse deus» e «feitos deuses»", "nota": "Mais cauteloso; muda a frase de Agostinho e a de Atanásio."}
+   ]
+  },
+  {
+   "id": "referencias-erradas",
+   "titulo": "As referências bíblicas que o impresso dá erradas são corrigidas?",
+   "ref": "toda a obra; ex.: I.7, nota 37",
+   "contexto": "O livro de 1927 traz umas 10 referências erradas: «Para que esta perda? (Matth., XXIV, 8)», que é Mt 26,8; também Mt 16,25, Lc 23,27, Sl 132,2, Is 52,12. Hoje ficam como no impresso, e a apresentação avisa. As gralhas que mudavam o sentido do texto (*foi* por *loi*, «fé» por «lei» no Sl 118,92) já foram corrigidas.",
+   "opcoes": [
+    {"id": "a", "texto": "corrigir as referências erradas e dizer na apresentação quais foram", "nota": "O leitor acha o versículo; o texto do autor não muda.", "recomendada": true},
+    {"id": "b", "texto": "deixar como no impresso, como está", "nota": "Fiel ao livro de 1927; o leitor procura o versículo errado."}
+   ]
+  },
+  {
+   "id": "beatice",
+   "titulo": "*Pieuseté* (palavra inventada pelo autor) fica «beatice»?",
+   "ref": "IV.1 a), IV f) e V.3",
+   "contexto": "Chautard inventa *pieuseté*, entre aspas, para a devoção de fachada: «Piedade flácida, toda de fachada, de pieguice ou de rotina. «Beatice» que formava boas meninas incapazes de causar desgosto…».",
+   "opcoes": [
+    {"id": "a", "texto": "«beatice», como está", "nota": "Diz o mesmo desdém e ainda lembra devoção.", "recomendada": true},
+    {"id": "b", "texto": "«carolice»", "nota": "Mais brasileira e viva, mas mais coloquial."},
+    {"id": "c", "texto": "«piedosidade»", "nota": "Recria a palavra inventada; soa estranha."}
+   ]
+  },
+  {
+   "id": "pao-e-cinema",
+   "titulo": "*Galette et Cinéma* (jogo com *panem et circenses*) fica «Pão e Cinema»?",
+   "ref": "IV f)",
+   "contexto": "«O *Panem et Circenses* dos Romanos decadentes poderia traduzir-se hoje por «Pão e Cinema»». *Galette* é o bolo, o pão do povo, e na gíria o dinheiro, que a frase seguinte retoma (a «sede do ouro»). Hoje a tradução fica com o pão e explica a gíria num «[Trad.: …]».",
+   "opcoes": [
+    {"id": "a", "texto": "«Pão e Cinema», com a explicação da gíria, como está", "nota": "O eco do *panem et circenses* fica claro.", "recomendada": true},
+    {"id": "b", "texto": "«Grana e Cinema»", "nota": "Guarda o dinheiro e a gíria; perde o pão e o eco do latim."}
+   ]
+  },
+  {
+   "id": "espirito-de-fortaleza",
+   "titulo": "*L'Esprit de Force* fica «Espírito de Fortaleza» ou «Espírito de Força»?",
+   "ref": "III.3 c)",
+   "contexto": "A seção martela a palavra *force*: «Jesus, Ele, é a Força por essência. Nele reside em sua plenitude a Força do Pai… e o seu Espírito chama-se o Espírito de Fortaleza». Em português, o dom do Espírito Santo é a «fortaleza»; a escolha guarda o nome do dom e quebra a repetição do autor.",
+   "opcoes": [
+    {"id": "a", "texto": "«Espírito de Fortaleza», como está", "nota": "O nome do dom que o leitor católico conhece.", "recomendada": true},
+    {"id": "b", "texto": "«Espírito de Força»", "nota": "Guarda a repetição de *force* da seção; soa menos tradicional."}
+   ]
+  }
+ ]
+}

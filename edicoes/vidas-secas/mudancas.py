@@ -32,7 +32,7 @@ def carregar(nome):
 
 # palavras de 1938 que a edição de referência não atualiza (porque ali 1947 mudou o texto)
 GRAFIA_1938 = {'ella': 'ela', 'elle': 'ele', 'paletot': 'paletó', 'd’agua': 'd’água', 'aquillo': 'aquilo',
-               'reconhecel-o': 'reconhecê-lo', 'bonnet': 'boné', 'maguavam-no': 'magoavam-no'}
+               'reconhecel-o': 'reconhecê-lo', 'bonnet': 'boné', 'maguavam-no': 'magoavam-no', 'nao': 'não'}
 
 CONTRACOES = {('dum',): ('de', 'um'), ('duma',): ('de', 'uma'), ('duns',): ('de', 'uns'), ('dumas',): ('de', 'umas'),
               ('d’água',): ('de', 'água')}
@@ -58,6 +58,7 @@ def mudancas():
     tr, md = pickle.load(open(cache('vidas-secas', 'fontes.pkl'), 'rb'))
     r = pickle.load(open(cache('vidas-secas', 'resultado.pkl'), 'rb'))
     refs = [(n, md[n], pos) for n, pos in config.REFERENCIAS]
+    erros = [(b, t) for tipo, b, t in dec.EMENDAS if tipo == 'erro']
     E38 = [t for t in achatar(tr['ws38']) if t != '_']
     out38, _, _ = modernizar.modernizar(E38, refs, dec.MANUAL)
     limpa = lambda ts: [('—' if t == '-' else t) for t in aspas_angulares(ts) if t != '_']
@@ -91,8 +92,8 @@ def mudancas():
             n += e_palavra(A[a3]); a3 += 1; b3 += 1
         mostra = lambda ts: re.sub(r'\s*¶\s*', ' ¶ ', texto([GRAFIA_1938.get(x, x) for x in ts])).strip()
         de, para = mostra(A[a0:a3]), mostra(B[b0:b3])
-        if igual_na_grafia(de, para):
-            continue
+        if igual_na_grafia(de, para) or any(b in de and de.replace(b, t) == para for b, t in erros):
+            continue                                # (as correções nossas, de erros de 1938 e 1947, não contam)
         itens.append({'cap': titulos.get(j1), 'de': de, 'para': para,
                       'tipo': 'parágrafo' if set(A[i1:i2] + B[j1:j2]) <= {'¶'} else
                               ('pontuação' if not any(e_palavra(x) for x in A[i1:i2] + B[j1:j2]) else 'palavras')})

@@ -55,8 +55,8 @@ FONTES = [
 MANTIDAS = [
     ('joelhos encostados ao estômago', 'encostados no estômago', ''),
     ('estavam agarrados na terra', 'agarrados à terra', ''),
-    ('Era só o que sabia dizer', 'Era o que sabia dizer', ''),
     ('com os talões de recibos', 'com talões de recibos', ''),
+    ('Era só o que sabia dizer', 'Era o que sabia dizer', ''),
     ('com sentimentos revolucionários', 'com pensamentos revolucionários', ''),
     ('davam-lhe uma sensação de firmeza', 'davam-lhe sensação de firmeza', ''),
     ('cheio de alegria e de medo', 'cheio de alegria e medo', ''),

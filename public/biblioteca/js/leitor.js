@@ -867,8 +867,11 @@
   botaoDosCards();
   notasComentadas();
 
+  /* o aviso «salva só neste navegador» nasce escondido e só aparece quando se sabe que não há
+     sessão: sem nada guardado, na hora; com sessão guardada, só se ela não valer */
+  function avisoConta(sim) { if ($('aviso-conta')) $('aviso-conta').hidden = !sim; }
   var temSessao = !!ler('taioe-auth');
-  if (!temSessao) return;
+  if (!temSessao) { avisoConta(true); return; }
 
   function carregar(src) {
     return new Promise(function (ok, falha) {
@@ -886,10 +889,9 @@
   async function iniciarSync() {
     var sb = TaioeSessao.cliente();
     var r = await sb.auth.getSession(), sessao = r.data && r.data.session;
-    if (!sessao) return;
+    if (!sessao) { avisoConta(true); return; }
     var uid = sessao.user.id, email = sessao.user.email;
-    if ($('aviso-conta')) $('aviso-conta').hidden = true;
-    TaioeSessao.aoSair(function () { sync.ativo = false; if ($('aviso-conta')) $('aviso-conta').hidden = false; });
+    TaioeSessao.aoSair(function () { sync.ativo = false; avisoConta(true); });
 
     /* primeira vez nesta conta, neste aparelho: perguntar antes de enviar o que já está aqui
        (defesa contra login CSRF: o link de outra pessoa não leva as leituras desta) */

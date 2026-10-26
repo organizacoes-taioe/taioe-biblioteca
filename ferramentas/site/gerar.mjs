@@ -673,7 +673,7 @@ function paginaCapa() {
   let html = '<div class="folha capa"><h1>Biblioteca</h1><p class="subtitulo">Textos em domínio público</p></div><div class="folha">' +
     '<div id="retomar"></div>' +
     '<p class="atalhos"><a href="' + BASE + 'lendo/">Em leitura</a><a href="' + BASE + 'lidos/">Lidos</a><a href="' + BASE + 'busca/">Buscar</a></p>' +
-    '<p class="aviso-conta" id="aviso-conta">Sua posição de leitura fica salva só neste navegador. ' +
+    '<p class="aviso-conta" id="aviso-conta" hidden>Sua posição de leitura fica salva só neste navegador. ' +
     '<a href="/entrar/?voltar=%2Fbiblioteca%2F">Entre com seu email</a> para guardá-la em qualquer aparelho.</p>' +
     '<p class="secao-titulo">Acervo</p>';
   AREAS.filter((ar) => !ar.oculta).forEach((ar) => {

@@ -100,7 +100,7 @@ BIBLIOTECA.autor({
   area: 'catolicismo',
   nomeCompleto: 'Orações tradicionais da Igreja',
   coletivo: true,   // não é uma pessoa: as páginas não o dão como autor (schema.org Person)
-  nota: 'Em latim, no texto do Missal e do Breviário romanos, sem tradução.'
+  nota: 'Em latim, no texto do Missal e do Breviário romanos, com a forma em português rezada no Brasil.'
 });
 
 /* Textos cristãos antigos de autor desconhecido (a Didaqué), sob o nome «Anônimo». */

@@ -233,6 +233,10 @@ function textoParte(o, p) {
   const linhas = poema ? linhasPoema : linhasProsa;
   /* poema na língua original com uma tradução em domínio público: o original (com as notas) à
      esquerda, no lado «orig», e a tradução no lado «trad» */
+  /* prosa na língua original (o começo do Quixote): os trechos juntos num bloco, e a tradução, se houver, ao lado */
+  if (p.glossario && o.prosa && p.pt) return '<div class="texto"><div class="paralelo prosa">' +
+    grade([{ sep: false, linhas: [{ cls: 'p', html: paragrafos(String(p.pt).trim().split(/\n\s*\n/)) }] }],
+      [{ sep: false, linhas: [{ cls: 'p', html: paragrafosComNotas(p.texto, p.glossario) }] }], esc(o.lingua)) + '</div></div>';
   if (p.glossario && o.prosa) return '<div class="texto" lang="' + esc(o.lingua) + '">' + paragrafosComNotas(p.texto, p.glossario) + '</div>';
   if (p.glossario && p.pt) return '<div class="texto"><div class="paralelo poema">' +
     grade(linhasPoema(p.pt), linhasPoema(p.texto, p.glossario), esc(o.lingua)) + '</div></div>';
@@ -769,7 +773,7 @@ function htmlListaPoemas(obras) {
     html += '<ol class="indice poemas' + (comNum ? '' : ' sem-num') + '">';
     g.obras.forEach((o) => {
       const extra = o.traducao ? '<span class="orig-tit" lang="' + esc(o.traducao.codigo || '') + '">' + esc(o.traducao.titulo) + '</span>'
-        : o.pt ? '<span class="orig-tit" lang="pt-BR">com a tradução de ' + esc(o.pt.tradutor) + '</span>'
+        : o.pt ? '<span class="orig-tit" lang="pt-BR">' + (o.pt.credito ? 'com a forma em português' : 'com a tradução de ' + esc(o.pt.tradutor)) + '</span>'
         : o.partes.length > 1 ? '<span class="orig-tit">' + esc(fichaObra(o)) + '</span>' : '';
       html += '<li data-obra="' + esc(chaveObra(o)) + '"><a href="' + U.obra(o) + '">' + (comNum ? '<span class="num">' + esc(o.n) + '</span>' : '') +
         '<span class="tit"' + (o.lingua ? ' lang="' + esc(o.lingua) + '"' : '') + '>' + esc(o.titulo) + extra + '</span></a></li>';
@@ -948,7 +952,7 @@ function paginaParte(a, o, f) {
     const h = '<' + tag + (cls ? ' class="' + cls + '"' : '') + '>';
     if (comPt && tag === 'h1') return '<div class="paralelo titulos"><div class="orig" data-i="t" lang="' + esc(o.lingua) + '">' + h +
       marcarPalavras(trad, p.glossario.t) + '</' + tag + '></div><div class="trad" data-i="t">' + h + inline(o.pt.titulo) + '</' + tag + '>' +
-      '<p class="publicacao">Tradução de ' + esc(o.pt.tradutor) + (o.pt.ano ? ' (' + o.pt.ano + ')' : '') + '</p></div></div>';
+      '<p class="publicacao">' + (o.pt.credito ? esc(o.pt.credito) : 'Tradução de ' + esc(o.pt.tradutor) + (o.pt.ano ? ' (' + o.pt.ano + ')' : '')) + '</p></div></div>';
     if (p.glossario && tag === 'h1') return h + '<span lang="' + esc(o.lingua) + '">' + marcarPalavras(trad, p.glossario.t) + '</span></' + tag + '>';
     if (!bilingue || !orig) return h + inline(trad) + '</' + tag + '>';
     const lingua = o.traducao ? o.traducao.codigo || '' : '';

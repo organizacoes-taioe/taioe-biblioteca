@@ -193,7 +193,7 @@ BIBLIOTECA.poemas({
   arquivo: "conteudo/catulo/lingua-original.js",
   livros: [{"id": "carmina", "titulo": "Carmina", "ano": null}],
   poemas: [
-    {"id":"catulo-odi-et-amo","titulo":"Odi et amo","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":null,"glossario":true}
+    {"id":"catulo-odi-et-amo","titulo":"Odi et amo","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"José Feliciano de Castilho","titulo":"O amor e o ódio","ano":1858}}
   ]
 });
 
@@ -211,6 +211,6 @@ BIBLIOTECA.poemas({
   arquivo: "conteudo/vergilio/lingua-original.js",
   livros: [{"id": "aeneis", "titulo": "Aeneis", "ano": null}],
   poemas: [
-    {"id":"vergilio-eneida","titulo":"Liber I","forma":"outras","livro":0,"ordem":0,"versos":11,"lingua":"la","ano":null,"glossario":true}
+    {"id":"vergilio-eneida","titulo":"Liber I","forma":"outras","livro":0,"ordem":0,"versos":11,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"António José de Lima Leitão","titulo":"A Eneida, Canto I","ano":1819}}
   ]
 });

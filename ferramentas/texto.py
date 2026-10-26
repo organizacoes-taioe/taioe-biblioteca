@@ -7,7 +7,8 @@ uso:
 A obra é descrita em edicoes/<obra>/:
   config.py    META, fontes (transcrições da edição-base e edições modernas)
   decisoes.py  EMENDAS, AJUSTES, MANUAL, VERSOS, TITULOS
-  notas.py     APRESENTACAO, FONTES, MANTIDAS, ERROS_ANTERIORES
+  notas.py     APRESENTACAO, FONTES, MANTIDAS, ERROS_ANTERIORES (e, opcional, TRADICAO_EXTRA:
+               lições de outra edição levantadas à parte, como em edicoes/vidas-secas/mudancas.py)
 """
 import importlib.util
 import json
@@ -159,6 +160,7 @@ def notas_da_edicao(notas, reg_em, reg_aj, partes, tradicao=(), rotulo_divisao=N
     sem_cab = lambda x: ' '.join(t for t in x.split() if not t.startswith('#'))
     trad = [(cap(r), sem_par(r['de']), sem_par(r['para'])) for r in reg_em if r['tipo'] == 'edicao']
     trad += [(cap(r), sem_cab(sem_par(r['de'])), sem_cab(sem_par(r['para']))) for r in tradicao]
+    trad += [x for x in getattr(notas, 'TRADICAO_EXTRA', []) if indices is None or x[0] in {rotulos[i] for i in dentro}]
     trad.sort(key=lambda x: ordem.get(x[0], 9999))
     pont = []
     for r in reg_aj:

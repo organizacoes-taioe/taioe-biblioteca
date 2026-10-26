@@ -86,7 +86,7 @@ obras só caem em domínio público 95 anos depois da publicação.
 | # | Obra | 1ª edição | Revista em vida | Fontes | Situação |
 |---|------|-----------|-----------------|--------|----------|
 | 1 | _Vidas Secas_ | 1938, José Olympio | 2ª ed. 1947 (fac-símile BBM 8480); 3ª ed. 1952 (não digitalizada) | WS (1938, validado; 1947, cap. 1–3) · OCR BBM · edição gratuita do Centro Paula Souza (2024) | **publicado** (base 1947) |
-| 2 | _São Bernardo_ | 1934, Ariel | 2ª ed. 1938, José Olympio | a levantar | a fazer |
+| 2 | _São Bernardo_ | 1934, Ariel | 2ª ed. 1938 (só as provas, BBM 8418); 3ª ed. 1947 (fac-símile BBM 8421) | WS (1934; revisado até o cap. XXII) · OCR BBM e Tesseract de 1934 (BBM 8398) e de 1947 · sem edição moderna gratuita | **publicado** (base 1947) |
 | 3 | _Angústia_ | 1936, José Olympio | a levantar | a levantar | a fazer |
 | 4 | _Caetés_ | 1933, Schmidt | a levantar | a levantar | a fazer |
 | 5 | _Insônia_ | 1947, José Olympio | — | a levantar | a fazer |

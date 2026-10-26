@@ -50,6 +50,11 @@ As fontes baixadas e os relatórios ficam em `ferramentas/cache/<obra>/` (fora d
      as partes numeradas seguintes; as notas do autor vão numa unidade final (`NOTAS`) e,
      na publicação, cada uma volta ao fim do seu conto (parágrafos `¤ `). Tudo sai num só
      `conteudo/<autor>/<livro>.js`, com um `BIBLIOTECA.obra` por conto.
+   - **Sem edição moderna** (ex.: _São Bernardo_, base 1947): dois OCRs da edição-base (a camada do
+     PDF e o Tesseract, `edicoes/sao-bernardo/tesseract.py`) e o texto da 1ª edição, posto na grafia
+     de hoje, como «moderna» de desempate; `config.rever` desempata pelo léxico, `config.modernizar`
+     faz a grafia por regras e `decisoes.corrigir` aplica as leituras conferidas nas imagens
+     (`conferencia.json`). Ver `edicoes/sao-bernardo/config.py`.
 3. **Intervenções** (`edicoes/<obra>/decisoes.py`, `EMENDAS`): erros tipográficos da
    edição-base (`erro`), lições da tradição posterior (`edicao`), erros das
    transcrições (`ocr`) e lições da edição-base conferidas no fac-símile que o confronto

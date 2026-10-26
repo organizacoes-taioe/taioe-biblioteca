@@ -474,6 +474,24 @@ main { padding: 0 1rem 5rem; }
 .ordenar { display: flex; flex-wrap: wrap; gap: .3rem; text-transform: none; letter-spacing: 0; font-weight: 400; font-size: .78rem; }
 .ordenar[hidden] { display: none; }
 
+/* filtros da lista de autores: cada linha desliza para o lado quando não cabe, dentro da margem da folha */
+.filtros { margin: -.2rem 0 1.1rem; }
+.filtros[hidden] { display: none; }
+.filtro {
+  display: flex; gap: .35rem; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
+  -webkit-overflow-scrolling: touch; padding: .15rem 0; margin-bottom: .35rem;
+  font-family: var(--sans); font-size: .78rem;
+}
+.filtro::-webkit-scrollbar { display: none; }
+.filtro button {
+  flex: none; font: inherit; background: transparent; color: var(--tinta-suave); white-space: nowrap;
+  border: 1px solid var(--linha); border-radius: 999px; padding: .3rem .8rem; cursor: pointer;
+}
+.filtro button:hover { border-color: var(--realce); color: var(--realce); }
+.filtro button[aria-pressed="true"] { background: var(--realce); border-color: var(--realce); color: var(--papel); }
+.filtro-nota { margin: 0 0 1rem; }
+#lista-autores > [hidden] { display: none; }
+
 .busca input[type="search"] {
   width: 100%; font: inherit; font-size: 1.05rem; padding: .7rem .9rem; color: var(--tinta);
   background: var(--papel-2); border: 1px solid var(--linha); border-radius: var(--raio);

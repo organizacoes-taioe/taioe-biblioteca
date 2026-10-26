@@ -262,14 +262,18 @@ const PLURAIS = { 'Romance': 'Romances', 'Novela': 'Novelas', 'Contos': 'Contos'
   'Autobiografia': 'Autobiografia', 'Cartas': 'Cartas', 'Orações': 'Orações',
   'Hagiografia': 'Hagiografia', 'Ensaio': 'Ensaios' };
 /* «oculta»: a área existe, mas fica fora da capa, do sitemap e da busca, com noindex, até o Gere
-   aprovar (a Não-ficção, desde 23/10/2026, com a Apologia de Sócrates comentada) */
+   aprovar (a Não-ficção ficou assim de 23 a 26/10/2026, quando estreou com a Apologia de Sócrates) */
 const AREAS = [{ id: 'literatura', nome: 'Literatura' }, { id: 'catolicismo', nome: 'Catolicismo' },
-  { id: 'nao-ficcao', nome: 'Não-ficção', oculta: true }];
+  { id: 'nao-ficcao', nome: 'Não-ficção' }];
 const areaDe = (a) => a.area || 'literatura';
 const acharArea = (id) => AREAS.find((x) => x.id === id) || null;
 /* Literatura na língua original (autor com «lingua»): uma página por língua, dentro da Literatura */
-const LINGUAS = { es: { nome: 'Espanhol', slug: 'espanhol' }, en: { nome: 'Inglês', slug: 'ingles' }, fr: { nome: 'Francês', slug: 'frances' },
-  la: { nome: 'Latim', slug: 'latim' } };
+/* As línguas em que as obras foram escritas, na ordem do filtro das áreas (pedido do Gere, 26/10/2026:
+   no lugar das páginas por língua, um filtro acima da lista de autores). Os endereços antigos
+   /biblioteca/literatura/<slug>/ levam à Literatura filtrada (public/_redirects). */
+const LINGUAS = { pt: { nome: 'Português', slug: 'portugues' }, es: { nome: 'Espanhol', slug: 'espanhol' },
+  en: { nome: 'Inglês', slug: 'ingles' }, fr: { nome: 'Francês', slug: 'frances' },
+  la: { nome: 'Latim', slug: 'latim' }, grc: { nome: 'Grego', slug: 'grego' } };
 const nomeGenero = (g) => PLURAIS[g] || g;
 const slug = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const slugGenero = (g) => slug(nomeGenero(g));
@@ -413,7 +417,6 @@ dados.autores.forEach((a) => {
 const U = {
   capa: () => BASE,
   area: (id) => BASE + id + '/',
-  lingua: (l) => BASE + 'literatura/' + LINGUAS[l].slug + '/',
   autor: (a) => BASE + a.id + '/',
   genero: (a, g) => BASE + a.id + '/' + slugGenero(g) + '/',
   pasta: (a, f) => BASE + a.id + '/poesia/' + f + '/',
@@ -595,8 +598,7 @@ function trilhaHtml(itens) {
 }
 function comArea(a, itens) {
   const ar = a && acharArea(areaDe(a));
-  const li = a && a.lingua && LINGUAS[a.lingua] ? [{ txt: LINGUAS[a.lingua].nome, href: U.lingua(a.lingua) }] : [];
-  return ar ? [{ txt: ar.nome, href: U.area(ar.id) }].concat(li, itens) : itens;
+  return ar ? [{ txt: ar.nome, href: U.area(ar.id) }].concat(itens) : itens;
 }
 function descricaoDe(t) { const s = textoPuro(t); return s.length > 155 ? s.slice(0, 154).replace(/\s+\S*$/, '') + '…' : s; }
 
@@ -681,7 +683,7 @@ function paginaCapa() {
   });
   html += '</div>';
   pagina({ url: U.capa(), titulo: '', corpo: html, trilha: [], dados: { pagina: 'capa' },
-    descricao: 'Biblioteca Taioé: romances, contos, poesia e obras católicas em português, abertos a todos, para ler capítulo por capítulo.',
+    descricao: 'Biblioteca Taioé: romances, contos, poesia, obras católicas e filosofia comentada, abertos a todos, para ler capítulo por capítulo.',
     jsonld: { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Biblioteca Taioé', url: SITE + BASE, inLanguage: 'pt-BR' } });
 }
 
@@ -690,47 +692,52 @@ function anosDe(vida) {
   const m = String(vida || '').match(/(~?)(\d{1,4})\s*[–-]\s*(~?)(\d{1,4})/);
   return m ? { nasc: +m[2], morte: +m[4] } : { nasc: 9999, morte: 9999 };
 }
+/* a língua em que a obra foi escrita: a da tradução (Catolicismo, Não-ficção), a do poema ou a do autor */
+const linguaDe = (o) => (o.traducao && o.traducao.codigo) || o.lingua || (acharAutor(o.autor) || {}).lingua || 'pt';
+/* Filtros da lista de autores (pedido do Gere, 26/10/2026): língua em que a obra foi escrita e gênero,
+   cada um numa linha que desliza para o lado quando não cabe; só aparece com duas opções ou mais.
+   Cada cartão leva os pares «língua:gênero» das suas obras, e o leitor.js esconde os que não batem. */
+function htmlFiltros(autores) {
+  const obras = [].concat(...autores.map((a) => obrasDe(a.id)));
+  const ls = Object.keys(LINGUAS).filter((l) => obras.some((o) => linguaDe(o) === l));
+  const gs = GENEROS.concat([...new Set(obras.map((o) => o.genero || 'Outros'))].filter((g) => GENEROS.indexOf(g) < 0).sort())
+    .filter((g) => obras.some((o) => (o.genero || 'Outros') === g));
+  const linha = (id, rot, todos, opcoes) => '<div class="filtro" role="group" aria-label="' + rot + '" data-filtro="' + id + '">' +
+    '<button type="button" data-valor="" aria-pressed="true">' + todos + '</button>' +
+    opcoes.map(([v, n]) => '<button type="button" data-valor="' + v + '" aria-pressed="false">' + esc(n) + '</button>').join('') + '</div>';
+  let html = '';
+  if (ls.length > 1) html += linha('lingua', 'Língua em que foi escrito', 'Todas as línguas', ls.map((l) => [LINGUAS[l].slug, LINGUAS[l].nome]));
+  if (gs.length > 1) html += linha('genero', 'Gênero', 'Todos os gêneros', gs.map((g) => [slugGenero(g), nomeGenero(g)]));
+  if (!html) return '';
+  return '<div class="filtros" id="filtros" hidden>' + html + '</div>' +
+    '<p class="explica filtro-nota" id="filtro-nota" hidden>Na língua original. Cada palavra abre uma nota com a definição.</p>' +
+    '<p class="explica" id="filtro-vazio" hidden>Nenhum autor com esse filtro.</p>';
+}
 function htmlAutores(autores) {
   let html = '<div class="secao-titulo linha-ordem"><span>Autores</span><span class="ordenar" id="ordenar" hidden>' +
     '<button type="button" data-ordem="alfa" aria-pressed="true">A–Z</button>' +
     '<button type="button" data-ordem="nasc" aria-pressed="false">nascimento</button>' +
-    '<button type="button" data-ordem="morte" aria-pressed="false">falecimento</button></span></div><div id="lista-autores">';
+    '<button type="button" data-ordem="morte" aria-pressed="false">falecimento</button></span></div>' +
+    htmlFiltros(autores) + '<div id="lista-autores">';
   autores.forEach((a, k) => {
     const obras = obrasDe(a.id), prosa = obras.filter((o) => !o.poema), versos = {};
     obras.filter((o) => o.poema).forEach((o) => { const t = rotuloVersos(o.genero); versos[t[1]] = versos[t[1]] || [t, 0]; versos[t[1]][1]++; });
     const conta = [prosa.length ? plural(livros(prosa), 'obra', 'obras') : ''].concat(Object.values(versos).map(([t, n]) => plural(n, t[0], t[1])))
       .filter(Boolean).join(' · ') || '0 obras';
     const anos = anosDe(a.vida);
-    html += '<a class="cartao" href="' + U.autor(a) + '" data-alfa="' + k + '" data-nasc="' + anos.nasc + '" data-morte="' + anos.morte + '"><span class="cartao-titulo">' + esc(a.nome) + '</span>' +
-      '<span class="cartao-meta">' + esc(a.vida || '') + (a.vida ? ' · ' : '') + conta + '</span>' +
+    const pares = [...new Set(obras.map((o) => LINGUAS[linguaDe(o)].slug + ':' + slugGenero(o.genero || 'Outros')))].join(' ');
+    const linguas = [...new Set(obras.map(linguaDe))].filter((l) => l !== 'pt' && areaDe(a) === 'literatura').map((l) => LINGUAS[l].nome);
+    html += '<a class="cartao" href="' + U.autor(a) + '" data-alfa="' + k + '" data-nasc="' + anos.nasc + '" data-morte="' + anos.morte + '" data-obras="' + pares + '"><span class="cartao-titulo">' + esc(a.nome) + '</span>' +
+      '<span class="cartao-meta">' + esc(linguas.concat(a.vida || []).join(' · ')) + (linguas.length || a.vida ? ' · ' : '') + conta + '</span>' +
       (obras.length ? '<span class="cartao-texto">' + generosDe(a.id).map((x) => esc(nomeGenero(x.genero))).join(' · ') + '</span>' : '') + '</a>';
   });
   return html + '</div>';
 }
-const autoresDaLingua = (l) => autoresDaArea('literatura').filter((a) => a.lingua === l && obrasDe(a.id).length);
-const linguasComAutores = () => Object.keys(LINGUAS).filter((l) => autoresDaLingua(l).length);
 function paginaArea(ar) {
-  let html = '<div class="folha"><header class="cabeca"><h1>' + esc(ar.nome) + '</h1></header>';
-  if (ar.id === 'literatura' && linguasComAutores().length) {
-    html += '<p class="secao-titulo">Na língua original</p>';
-    linguasComAutores().forEach((l) => {
-      const autores = autoresDaLingua(l), poemas = autores.reduce((n, a) => n + obrasDe(a.id).length, 0);
-      html += '<a class="cartao pasta" href="' + U.lingua(l) + '"><span class="cartao-titulo">' + esc(LINGUAS[l].nome) + '</span>' +
-        '<span class="cartao-meta">' + plural(autores.length, 'autor', 'autores') + ' · ' + plural(poemas, 'poema', 'poemas') + '</span>' +
-        '<span class="cartao-texto">' + autores.map((a) => esc(a.nome)).join(' · ') + '</span></a>';
-    });
-  }
-  html += htmlAutores(autoresDaArea(ar.id).filter((a) => !a.lingua)) + '</div>';
-  pagina({ url: U.area(ar.id), titulo: ar.nome, corpo: html, trilha: [{ txt: ar.nome }],
-    descricao: `${ar.nome} na Biblioteca Taioé: ${autoresDaArea(ar.id).filter((a) => !a.lingua).map((a) => a.nome).join(', ')}.` });
-}
-function paginaLingua(l) {
-  const L = LINGUAS[l], ar = acharArea('literatura'), autores = autoresDaLingua(l);
-  const html = '<div class="folha"><header class="cabeca"><h1>' + esc(L.nome) + '</h1>' +
-    '<p class="meta">Na língua original, sem tradução. Cada palavra abre uma nota com a definição.</p></header>' +
-    htmlAutores(autores) + '</div>';
-  pagina({ url: U.lingua(l), titulo: L.nome + ' — ' + ar.nome, corpo: html, trilha: [{ txt: ar.nome, href: U.area(ar.id) }, { txt: L.nome }],
-    descricao: `Literatura em ${L.nome.toLowerCase()} na Biblioteca Taioé, com notas em português: ${autores.map((a) => a.nome).join(', ')}.` });
+  const autores = autoresDaArea(ar.id);
+  const html = '<div class="folha"><header class="cabeca"><h1>' + esc(ar.nome) + '</h1></header>' + htmlAutores(autores) + '</div>';
+  pagina({ url: U.area(ar.id), titulo: ar.nome, corpo: html, trilha: [{ txt: ar.nome }], dados: { pagina: 'area', area: ar.id },
+    descricao: descricaoDe(`${ar.nome} na Biblioteca Taioé: ${autores.map((a) => a.nome).join(', ')}.`) });
 }
 
 function cabecaAutor(a) {
@@ -1209,7 +1216,6 @@ fs.mkdirSync(SAIDA, { recursive: true });
 
 paginaCapa();
 AREAS.forEach(paginaArea);
-linguasComAutores().forEach(paginaLingua);
 paginasDoLeitor();
 dados.autores.forEach((a) => {
   if (!obrasDe(a.id).length) return;

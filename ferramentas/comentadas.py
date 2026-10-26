@@ -104,9 +104,31 @@ def js(v):
     return json.dumps(v, ensure_ascii=False)
 
 
+def aprovados(o, i):
+    """Os temas da parte i que vão ao site (o Gere, 26/10: «os comentários só vão aparecer depois
+    que forem aceitos por mim»): só o comentário aprovado (`revisto`, sem aviso de corte), só o tema
+    com o título aprovado e algum comentário aprovado, e o resumo só aprovado."""
+    temas = []
+    for x in o['_com']:
+        rev = x.get('revisto', [])
+        itens = [it for it in x['itens'] if it.get('revisto') and not it.get('aviso_corte')]
+        if x['parte'] != i or 'titulo' not in rev or not itens:
+            continue
+        temas.append({'id': x['id'], 'titulo': x['titulo'], 'st': x.get('st', ''),
+                      'resumo': x.get('resumo', '') if 'resumo' in rev else '', 'trecho': x.get('trecho', ''),
+                      'itens': [{k: it[k] for k in ('autor', 'sobre', 'obra', 'passagem', 'link', 'texto')} for it in itens]})
+    return temas
+
+
 def gravar_conteudo(obras):
     reg = ['/* Gerado por ferramentas/comentadas.py a partir de edicoes/<obra>/obra.json. Não editar à mão. */']
     for o in obras:
+        dest = RAIZ / 'conteudo' / o['autor'] / f'{o["id"]}.js'
+        # Só o aprovado vai ao site (pedido do Gere, 26/10): a obra, só sem escolha de tradução
+        # esperando a resposta dele; a nota, só `revista` ou na obra revisada; os comentários, aprovados().
+        if (o.get('revisao') or {}).get('escolhas'):
+            dest.unlink(missing_ok=True)
+            continue
         partes = [{'n': p['n'], 'titulo': p['titulo'], 'folhas': p['st']} for p in o['partes']]
         reg.append('BIBLIOTECA.obra(' + js({
             'id': o['id'], 'autor': o['autor'], 'titulo': o['titulo'], 'genero': o['genero'], 'datas': o['datas'],
@@ -118,12 +140,9 @@ def gravar_conteudo(obras):
         for i, p in enumerate(o['partes'], 1):
             extra.append({
                 'trechos': p.get('trechos', []),
-                'notas': [{k: n[k] for k in ('id', 'st', 'apos', 'texto', 'ocorrencia') if k in n} for n in o['notas'] if n['parte'] == i],
-                'temas': [{'id': x['id'], 'titulo': x['titulo'], 'st': x.get('st', ''), 'resumo': x.get('resumo', ''),
-                           'trecho': x.get('trecho', ''),
-                           'itens': [{k: it[k] for k in ('autor', 'sobre', 'obra', 'passagem', 'link', 'texto')} for it in x['itens']]}
-                          for x in o['_com'] if x['parte'] == i]})
-        dest = RAIZ / 'conteudo' / o['autor'] / f'{o["id"]}.js'
+                'notas': [{k: n[k] for k in ('id', 'st', 'apos', 'texto', 'ocorrencia') if k in n} for n in o['notas']
+                          if n['parte'] == i and (o['estado'] == 'revisado' or n.get('revista'))],
+                'temas': aprovados(o, i)})
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text('/* Gerado por ferramentas/comentadas.py a partir de edicoes/' + o['id'] + '/. Não editar à mão. */\n'
                         'BIBLIOTECA.textos(' + js({o['id']: {'t': ['\n\n'.join(t) for t in o['_t']], 'o': ['\n\n'.join(g) for g in o['_o']]}}) + ');\n'

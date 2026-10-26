@@ -9,6 +9,7 @@ A obra é descrita em edicoes/<obra>/:
   decisoes.py  EMENDAS, AJUSTES, MANUAL, VERSOS, TITULOS
   notas.py     APRESENTACAO, FONTES, MANTIDAS, ERROS_ANTERIORES (e, opcional, TRADICAO_EXTRA:
                lições de outra edição levantadas à parte, como em edicoes/vidas-secas/mudancas.py)
+Sem edição moderna (REFERENCIAS vazio), config.modernizar(E, manual) faz a grafia (ex.: São Bernardo).
 """
 import importlib.util
 import json
@@ -56,6 +57,8 @@ def processar(obra, publicar=False):
     E0, sitios = estabelecer.estabelecer(tr, config.BASE, md, getattr(config, 'CORRELACIONADOS', ()),
                                          getattr(config, 'RUIDOSO', None), getattr(config, 'UM_VOTO', False),
                                          getattr(config, 'DESEMPATE_LEXICO', False))
+    if hasattr(config, 'rever'):          # desempate próprio da obra (ex.: São Bernardo, sem edição moderna)
+        E0, sitios = config.rever(tr, md, sitios)
     print('divergências entre transcrições:', len(sitios), dict(estabelecer.resumo(sitios)))
     ruidoso = getattr(config, 'RUIDOSO', None)
     revisoes = []
@@ -72,14 +75,18 @@ def processar(obra, publicar=False):
     # só votam os testemunhos que marcam itálico (o OCR não marca; tem só sublinhados soltos)
     marcas = {n: sum('_' in x for p in o for x in p['paras']) for n, o in tr.items()}
     votam = {n: o for n, o in tr.items() if n != ruidoso and marcas[n] * 4 >= max(marcas.values())}
-    E, ital = modernizar.italico_por_votacao(E0, votam, md.get(config.REFERENCIAS[0][0]))
+    ref0 = config.REFERENCIAS[0][0] if config.REFERENCIAS else None
+    E, ital = modernizar.italico_por_votacao(E0, votam, md.get(ref0))
 
     # 3. intervenções no texto-base
     E, ital, reg_em = modernizar.aplicar_emendas(E, ital, dec.EMENDAS)
 
-    # 4. grafia
-    refs = [(n, md[n], pos) for n, pos in config.REFERENCIAS]
-    out, origem, rel = modernizar.modernizar(E, refs, getattr(dec, 'MANUAL', {}))
+    # 4. grafia (sem edição moderna de referência, a obra traz a sua: config.modernizar)
+    if hasattr(config, 'modernizar'):
+        out, origem, rel = config.modernizar(E, getattr(dec, 'MANUAL', {}))
+    else:
+        refs = [(n, md[n], pos) for n, pos in config.REFERENCIAS]
+        out, origem, rel = modernizar.modernizar(E, refs, getattr(dec, 'MANUAL', {}))
     flags = [ital[o] if (t[:1].isalpha()) else False for t, o in zip(out, origem)]
 
     # 5. pontuação da edição revista (só com config.TRADICAO) e ajustes finais
@@ -93,6 +100,8 @@ def processar(obra, publicar=False):
     reg_aj = reg_pt + reg_aj
     out = montar.aspas_angulares(out)
     out = ['—' if t == '-' else t for t in out]      # hífen solto é travessão
+    if hasattr(dec, 'corrigir'):                     # correções da obra sobre o texto pronto (ex.: São Bernardo)
+        out, flags = dec.corrigir(out, flags)
 
     partes = montar.partes(out, flags, getattr(dec, 'VERSOS', None), getattr(dec, 'TITULOS', None))
 
@@ -100,11 +109,14 @@ def processar(obra, publicar=False):
     n = {
         'sitios': relatorios.sitios(pasta, sitios),
         'revisoes': relatorios.revisoes(pasta, revisoes),
-        'modernas': relatorios.comparar_modernas(pasta, out, md, config.REFERENCIAS[0][0]),
-        'pontuacao': relatorios.pontuacao_unanime(pasta, out, md),
         'sem_par': relatorios.sem_par(pasta, E, rel),
-        'vocabulario': relatorios.vocabulario(pasta, partes, md),
     }
+    if md:
+        n.update({
+            'modernas': relatorios.comparar_modernas(pasta, out, md, ref0),
+            'pontuacao': relatorios.pontuacao_unanime(pasta, out, md),
+            'vocabulario': relatorios.vocabulario(pasta, partes, md),
+        })
     print('relatórios em', pasta, n)
     with open(os.path.join(pasta, 'texto.txt'), 'w', encoding='utf-8') as f:
         for p in partes:

@@ -914,8 +914,10 @@
       });
       if (mudou) guardar(CHAVE_LEIT, JSON.stringify(L));
     }
+    /* o revisor geral lê as leituras de todo mundo: o filtro pela conta é obrigatório */
     var q = await sb.schema('biblioteca').from('leituras')
-      .select('obra, parte, indice, paragrafo, lida_em, max_parte, max_indice, concluida, partes');
+      .select('obra, parte, indice, paragrafo, lida_em, max_parte, max_indice, concluida, partes')
+      .eq('usuario_id', uid);
     if (!q.error) {
       var aviso = adotar(q.data, true);
       var idx = await indiceObras();

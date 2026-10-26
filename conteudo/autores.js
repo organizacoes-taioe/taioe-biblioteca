@@ -103,6 +103,16 @@ BIBLIOTECA.autor({
   nota: 'Em latim, no texto do Missal e do Breviário romanos, sem tradução.'
 });
 
+/* Textos cristãos antigos de autor desconhecido (a Didaqué), sob o nome «Anônimo». */
+BIBLIOTECA.autor({
+  id: 'anonimo',
+  nome: 'Anônimo',
+  area: 'catolicismo',
+  nomeCompleto: 'Escritos cristãos antigos de autor desconhecido',
+  coletivo: true,   // não é uma pessoa: as páginas não o dão como autor (schema.org Person)
+  nota: 'Textos dos primeiros séculos cujo autor não se conhece. Em tradução do grego.'
+});
+
 /* Poetas (poemas publicados a partir do Versificador; ver ferramentas/poesia.py) */
 
 BIBLIOTECA.autor({

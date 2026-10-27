@@ -911,6 +911,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('cruz-e-sousa/ultimos-sonetos-visionarios', 'Visionários'),
   ('cruz-e-sousa/ultimos-sonetos-voz-fugitiva', 'Voz fugitiva'),
   ('dom-chautard/alma-de-todo-apostolado', 'A alma de todo apostolado'),
+  ('eca-de-queiros/os-maias', 'Os Maias'),
   ('edgar-allan-poe/annabel-lee', 'Annabel Lee'),
   ('edgar-allan-poe/the-raven', 'The Raven'),
   ('edgar-allan-poe/to-helen', 'To Helen'),

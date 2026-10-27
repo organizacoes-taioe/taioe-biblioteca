@@ -1,0 +1,199 @@
+{
+ "id": "regra-pastoral",
+ "rotulo": "Regra Pastoral (São Gregório Magno)",
+ "url": "/biblioteca/sao-gregorio-magno/regra-pastoral/",
+ "escolhas": [
+  {
+   "id": "ars-artium",
+   "titulo": "A frase célebre fica «o governo das almas é a arte das artes», dentro da pergunta?",
+   "ref": "Parte I, I.1",
+   "contexto": "É a frase mais citada do livro (*quando ars est artium regimen animarum*). Hoje: «Com que temeridade, então, os imperitos recebem o magistério pastoral, quando o governo das almas é a arte das artes?». O latim é uma pergunta retórica; a forma proverbial, que circula solta, tira a frase da pergunta.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«…quando o governo das almas é a arte das artes?», como está",
+     "nota": "Fiel à pergunta e com as palavras que todos citam.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«…se o governo das almas é a arte das artes?»",
+     "nota": "Mais leve; o «se» enfraquece a afirmação."
+    },
+    {
+     "id": "c",
+     "texto": "Duas frases: «…recebem o magistério pastoral? O governo das almas é a arte das artes.»",
+     "nota": "A frase célebre fica sozinha e citável; muda a construção de Gregório."
+    }
+   ]
+  },
+  {
+   "id": "mens",
+   "titulo": "*Mens* continua «mente» em toda a obra?",
+   "ref": "toda a obra; ex.: Parte III, III.12",
+   "contexto": "Gregório usa *mens* o tempo todo (umas 170 vezes) para o interior do homem, a sede do pensamento, da vontade e dos afetos; ao lado aparecem *animus* («ânimo») e *anima* («alma»). Hoje: «mente» sempre, e «alma» só no par com o corpo («a saúde do corpo em favor da saúde da alma»). Em português «mente» pende para o intelecto.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«mente» sempre, como está, com «alma» só no par corpo/alma",
+     "nota": "Guarda a distinção das três palavras latinas; às vezes soa intelectual demais.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«alma» onde não se trata do entendimento: «a alma se eleva no pensamento»",
+     "nota": "Mais natural; confunde *mens* com *anima*, que também aparece."
+    },
+    {
+     "id": "c",
+     "texto": "«espírito» onde não se trata do entendimento",
+     "nota": "Natural e amplo; colide com *spiritus*, que Gregório usa para o Espírito e para o espírito oposto à carne."
+    }
+   ]
+  },
+  {
+   "id": "impuri",
+   "titulo": "*Simplices et impuri*: «os simples e os fingidos»?",
+   "ref": "Parte III, III.1 e III.11",
+   "contexto": "Na admoestação 12 Gregório opõe os *simplices* aos *impuri* (no título, *versipelles*). *Impuri* aqui não tem nada de sexual: é o que não é puro, misturado, de coração dobre, e Gregório o explica pela duplicidade. Hoje: «De um modo devem ser admoestados os simples, e de outro os fingidos» (*impuritas* = «fingimento», *puritas* = «sinceridade»); no título, «os simples e os dissimulados».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«os fingidos», como está",
+     "nota": "Dá o sentido certo e liga com o «fingido» de Sb 1,5, que Gregório cita.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«os dúplices»",
+     "nota": "Perto da *duplicitas* da explicação; repete «a duplicidade da mente dúplice»."
+    },
+    {
+     "id": "c",
+     "texto": "«os impuros», ao pé da letra",
+     "nota": "Fiel à palavra; o leitor de hoje entende pecado de luxúria."
+    }
+   ]
+  },
+  {
+   "id": "conspersio",
+   "titulo": "*Conspersio* («a massa de que alguém é feito») fica «temperamento»?",
+   "ref": "Parte III, III.3 e III.37",
+   "contexto": "Alguns, diz Gregório, não são alegres ou tristes pelas coisas, mas *conspersionibus*: pela massa, pela mistura de que são feitos. Hoje: «Alguns, porém, não se tornam alegres ou tristes pelas coisas, mas o são pelo temperamento. A estes se deve fazer saber que certos vícios estão próximos de certos temperamentos». A palavra volta em III.37, no médico que serve ao «temperamento que está por baixo».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«temperamento», como está",
+     "nota": "Claro e próximo da medicina antiga dos humores, que está por trás da imagem.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«compleição»",
+     "nota": "Também da medicina antiga, mais rara; soa ao corpo mais que ao gênio."
+    },
+    {
+     "id": "c",
+     "texto": "«a massa de que são feitos»",
+     "nota": "Ao pé da letra; pesado nas repetições."
+    }
+   ]
+  },
+  {
+   "id": "racional-superumeral",
+   "titulo": "As vestes do sumo sacerdote ficam «racional do juízo» e «superumeral»?",
+   "ref": "Parte II, II.2 e II.3",
+   "contexto": "Gregório explica as vestes de Aarão pela etimologia latina: o *rationale judicii* (o peitoral) lembra a razão (*ratio*), e o *superhumerale* (o efod) cobre os ombros (*humerus*). Hoje: «que no peito de Aarão se prenda… o racional do juízo, para que… só a razão o mantenha cingido» e «o sacerdote é cingido nos dois ombros com a cobertura do superumeral». Os nomes antigos guardam a explicação; os de hoje são mais conhecidos.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«racional do juízo» e «superumeral», como está",
+     "nota": "A alegoria fecha (razão, ombros); termos antigos, dicionarizados, que o leitor estranha.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«peitoral do juízo» e «efod»",
+     "nota": "Os nomes das Bíblias de hoje; a ligação com a razão e com os ombros se perde."
+    },
+    {
+     "id": "c",
+     "texto": "«peitoral do juízo» e «manto dos ombros»",
+     "nota": "Meio-termo: guarda os ombros, perde a razão."
+    }
+   ]
+  },
+  {
+   "id": "sem-desprezo",
+   "titulo": "«Devem ser desprezados sem desprezo» (*sine dedignatione dedignandi*)?",
+   "ref": "Parte III, III.13",
+   "contexto": "Sobre os que nem os flagelos corrigem, Gregório faz um jogo de palavras: *sine dedignatione dedignandi sunt, sine desperatione desperandi*. Hoje: «Pois muitas vezes devem ser desprezados sem desprezo, e deve-se desesperar deles sem desespero; de tal modo, porém, que o desespero mostrado lhes infunda temor…».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«desprezados sem desprezo… desesperar deles sem desespero», como está",
+     "nota": "Guarda o paradoxo e o paralelo de Gregório.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«desdenhados sem desdém e dados por perdidos sem desespero»",
+     "nota": "Mais suave; o paralelo fica desigual."
+    },
+    {
+     "id": "c",
+     "texto": "«tratados com desprezo sem que os desprezemos, como casos perdidos sem perder a esperança»",
+     "nota": "Explica o paradoxo; perde a concisão."
+    }
+   ]
+  },
+  {
+   "id": "indulgencia",
+   "titulo": "*Secundum indulgentiam, non secundum imperium* (1Cor 7,6) fica «por condescendência, não por mandamento»?",
+   "ref": "Parte III, III.27",
+   "contexto": "Passagem delicada, sobre o prazer no matrimônio. Gregório cita Paulo e conclui: *culpa quippe esse innuitur, quod indulgeri perhibetur*. Hoje: «Digo isto por condescendência, não por mandamento» (Ibid.). Dá-se a entender que é culpa aquilo que se diz concedido; mas culpa que se perdoa tanto mais depressa…». A palavra latina liga «indulgência» a «perdoar» (*indulgere*), e o raciocínio depende disso.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«por condescendência… aquilo que se diz concedido», como está",
+     "nota": "Claro; o elo verbal com *indulgere* se perde, mas «concedido» o recupera.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«por concessão, não por ordem… aquilo que se diz concedido»",
+     "nota": "Mais simples e de uso corrente."
+    },
+    {
+     "id": "c",
+     "texto": "«por indulgência, não por mandamento… aquilo que se diz ser indulgência»",
+     "nota": "Literal e guarda o elo; «indulgência» tem em português outro sentido técnico."
+    }
+   ]
+  },
+  {
+   "id": "nunquam-pergunta",
+   "titulo": "A frase de III.38 com *nunquam* fica como pergunta retórica?",
+   "ref": "Parte III, III.38",
+   "contexto": "O capítulo ensina que às vezes se deixa crescer o vício mais leve para vencer o mais grave. A edição traz, conferida na imagem: *Tolerandum nunquam est ut per virtutem abstinentiae interim arrogantia contra viventem crescat, ne eum per ingluviem a vita funditus luxuria exstinguat*. Ao pé da letra («Nunca se deve tolerar que…») a frase contradiz o capítulo. Hoje, lido *nunquam* como partícula de pergunta (como *numquid*): «Não se deve tolerar, então, que pela virtude da abstinência cresça por algum tempo a arrogância contra ele, ainda vivo, para que a luxúria, pela gula, não o extinga de todo da vida?».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Pergunta retórica, como está",
+     "nota": "Faz a frase dizer o que o capítulo ensina, sem mudar o latim.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Afirmativa: «Deve-se tolerar, então, que…»",
+     "nota": "Mesmo sentido, mais direto; corrige o latim sem dizer."
+    },
+    {
+     "id": "c",
+     "texto": "Ao pé da letra: «Nunca se deve tolerar que…»",
+     "nota": "Fiel à letra; contradiz o argumento de Gregório."
+    }
+   ]
+  }
+ ]
+}

@@ -53,6 +53,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-gregorio-magno',
+  area: 'catolicismo',
+  nome: 'São Gregório Magno',
+  nomeCompleto: 'Gregório I, papa',
+  vida: '~540–604',
+  ordem: 'Gregório Magno, São',
+  nota: 'Monge romano e papa de 590 a 604, doutor da Igreja, pastor e pregador. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
   id: 'dom-chautard',
   area: 'catolicismo',
   nome: 'Dom Chautard',

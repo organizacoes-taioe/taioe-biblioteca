@@ -2,6 +2,11 @@
 tradução nossa com o original ao lado, a paginação de referência à margem, notas e comentários
 por tema. Monta o conteúdo do site e as páginas de revisão do Gere.
 
+Também serve a obra em português antigo que não é tradução (a Carta de Caminha, desde 27/10/2026):
+o texto na grafia de hoje fica em atualizado/ (no lugar de traducao/), sem comentários, com a marca
+da folha do manuscrito ({fl. 1v}) e, no obra.json, `rotulos` ({orig, trad}: os nomes dos botões dos
+dois textos) no lugar de `original` (o título na língua da tradução).
+
     python3 ferramentas/comentadas.py                 # confere e grava conteudo/
     python3 ferramentas/comentadas.py --revisao DIR   # também DIR/nao-ficcao.json e
                                                       # DIR/nao-ficcao-comentarios.json (o infra)
@@ -11,9 +16,9 @@ Fonte de cada obra, em edicoes/<obra>/:
                      [{id, parte, st, apos, texto, revista?}], apresentação, fontes e o que vai à
                      revisão (só `revisao.escolhas`: uma pergunta pontual cada; a divisão e o
                      registro ficam no CONVENCOES.md da obra, sem passar pelo Gere, pedido de 24/10)
-  original/parte-N.txt, traducao/parte-N.txt
-                     um parágrafo por bloco, os mesmos nos dois; a marca {St 17a} no mesmo
-                     parágrafo nos dois lados
+  original/parte-N.txt, traducao/parte-N.txt (ou atualizado/parte-N.txt)
+                     um parágrafo por bloco, os mesmos nos dois; a marca {St 17a} (ou {fl. 1v})
+                     no mesmo parágrafo nos dois lados
   comentarios.json   [{parte, trecho?, id, titulo, st, resumo, revisto?, itens: [{id, autor, sobre,
                      obra, passagem, link, original, texto, revisto?}]}], na ordem do texto
 
@@ -33,10 +38,10 @@ import sys
 from datetime import date
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
-OBRAS = ['apologia-de-socrates']
+OBRAS = ['apologia-de-socrates', 'carta']
 MESOCLISE = re.compile(r"[A-Za-zÀ-ÿ]+-(lo|la|los|las|o|a|os|as|me|te|se|lhe|lhes|nos|vos|no|na)-"
                        r"(ei|as|á|ás|emos|eis|ão|ia|ias|íamos|íeis|iam)([^A-Za-zÀ-ÿ]|$)")
-MARCA = re.compile(r'\{St ([0-9]+[a-e])\}')
+MARCA = re.compile(r'\{(St [0-9]+[a-e]|fl\. [0-9]+[rv])\}')
 ID = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
 erros = []
 
@@ -50,15 +55,17 @@ def carregar(slug):
     o = json.loads((d / 'obra.json').read_text(encoding='utf-8'))
     com = json.loads((d / 'comentarios.json').read_text(encoding='utf-8')) if (d / 'comentarios.json').exists() else []
     o['_t'], o['_o'] = [], []
+    texto = 'atualizado' if (d / 'atualizado').is_dir() else 'traducao'
     for i, p in enumerate(o['partes'], 1):
-        t, g = ler_blocos(d / 'traducao' / f'parte-{i}.txt'), ler_blocos(d / 'original' / f'parte-{i}.txt')
+        t, g = ler_blocos(d / texto / f'parte-{i}.txt'), ler_blocos(d / 'original' / f'parte-{i}.txt')
         onde = f'{slug}, parte {i}'
         if len(t) != len(g):
             erros.append(f'{onde}: {len(t)} parágrafos na tradução e {len(g)} no original')
         for k, (a, b) in enumerate(zip(t, g), 1):
             if MARCA.findall(a) != MARCA.findall(b):
                 erros.append(f'{onde}, parágrafo {k}: marcas diferentes {MARCA.findall(a)} × {MARCA.findall(b)}')
-        for m in MESOCLISE.finditer('\n'.join(t)):
+        # a mesóclise é proibida no que nós escrevemos; a do autor (Caminha) fica
+        for m in MESOCLISE.finditer('' if 'rotulos' in o else '\n'.join(t)):
             erros.append(f'{onde}: mesóclise «{m.group(0).strip()}»')
         for tr in p.get('trechos', []):
             if not ID.match(tr['id']) or not 1 <= tr['par'] <= len(t):
@@ -130,10 +137,13 @@ def gravar_conteudo(obras):
             dest.unlink(missing_ok=True)
             continue
         partes = [{'n': p['n'], 'titulo': p['titulo'], 'folhas': p['st']} for p in o['partes']]
+        # tradução (a Apologia): a língua e o título do original; obra em português antigo (Caminha):
+        # só os nomes dos botões dos dois textos
+        lado = {'rotulos': o['rotulos']} if 'rotulos' in o else {'traducao': {'lingua': 'grego', 'codigo': 'grc', 'titulo': o['original']}}
         reg.append('BIBLIOTECA.obra(' + js({
             'id': o['id'], 'autor': o['autor'], 'titulo': o['titulo'], 'genero': o['genero'], 'datas': o['datas'],
             'divisao': {'singular': 'parte', 'plural': 'partes'}, 'comentada': True,
-            'traducao': {'lingua': 'grego', 'codigo': 'grc', 'titulo': o['original']},
+            **lado,
             'descricao': o['descricao'], 'edicao': {'titulo': 'Sobre esta edição', 'apresentacao': o['apresentacao'], 'fontes': o['fontes']},
             'arquivo': f'conteudo/{o["autor"]}/{o["id"]}.js', 'partes': partes}) + ');')
         extra = []

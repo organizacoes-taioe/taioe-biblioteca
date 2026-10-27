@@ -31,16 +31,16 @@ nossa é nova, do texto oficial. A fila e o resto da lista estão em `taioe.com.
 
 | ordem | documento | papa | data | língua | palavras | estado |
 |---|---|---|---|---|---|---|
-| 1 | *Divini Redemptoris* | Pio XI | 1937 | latim | ~11 mil | no ar (PR do 1º lote) |
-| 2 | *Quadragesimo Anno* | Pio XI | 1931 | latim | ~14,7 mil | tradução |
-| 3 | *Divini Illius Magistri* | Pio XI | 1929 | latim | ~10,8 mil | no ar (PR do 1º lote) |
-| 4 | *Mortalium Animos* | Pio XI | 1928 | latim | ~3,3 mil | no ar (PR do 1º lote) |
-| 5 | *Maximum Illud* | Bento XV | 1919 | latim | ~4,3 mil | no ar (PR do 1º lote) |
-| 6 | *Pascendi Dominici Gregis* | São Pio X | 1907 | latim | ~14,8 mil | tradução |
-| 7 | *Tra le sollecitudini* | São Pio X | 1903 | italiano | ~3,2 mil | no ar (PR do 1º lote) |
-| 8 | *Rerum Novarum* | Leão XIII | 1891 | latim | ~9,5 mil | tradução |
-| 9 | *Immortale Dei* | Leão XIII | 1885 | latim | ~6,5 mil | tradução |
-| 10 | *Humanum Genus* | Leão XIII | 1884 | latim | ~5,5 mil | tradução |
+| 1 | *Divini Redemptoris* | Pio XI | 1937 | latim | ~11 mil | no ar (PR #43) |
+| 2 | *Quadragesimo Anno* | Pio XI | 1931 | latim | ~14,7 mil | no ar (2º lote) |
+| 3 | *Divini Illius Magistri* | Pio XI | 1929 | latim | ~10,8 mil | no ar (PR #43) |
+| 4 | *Mortalium Animos* | Pio XI | 1928 | latim | ~3,3 mil | no ar (PR #43) |
+| 5 | *Maximum Illud* | Bento XV | 1919 | latim | ~4,3 mil | no ar (PR #43) |
+| 6 | *Pascendi Dominici Gregis* | São Pio X | 1907 | latim | ~14,8 mil | no ar (2º lote) |
+| 7 | *Tra le sollecitudini* | São Pio X | 1903 | italiano | ~3,2 mil | no ar (PR #43) |
+| 8 | *Rerum Novarum* | Leão XIII | 1891 | latim | ~9,5 mil | no ar (2º lote) |
+| 9 | *Immortale Dei* | Leão XIII | 1885 | latim | ~6,5 mil | no ar (2º lote) |
+| 10 | *Humanum Genus* | Leão XIII | 1884 | latim | ~5,5 mil | no ar (2º lote) |
 
 ## Depois
 

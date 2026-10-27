@@ -653,7 +653,7 @@ ${o.jsonld ? `<script type="application/ld+json">${JSON.stringify(o.jsonld).repl
 ${o.bilingue ? `  <div class="idiomas" id="idiomas" hidden>
     <div class="idiomas-int" role="group" aria-label="Textos visíveis: original e tradução">
       <button type="button" class="idioma" data-lado="orig" aria-pressed="false" title="Mostrar ou esconder o original">${esc(o.bilingue)}</button>
-      <button type="button" class="idioma" data-lado="trad" aria-pressed="true" title="Mostrar ou esconder a tradução">Português</button>
+      <button type="button" class="idioma" data-lado="trad" aria-pressed="true" title="Mostrar ou esconder ${o.bilingueTrad ? 'o texto atualizado' : 'a tradução'}">${esc(o.bilingueTrad || 'Português')}</button>
     </div>
   </div>
 ` : ''}${o.progresso !== undefined ? `  <div class="barra-progresso" id="progresso" data-frac="${o.progresso.toFixed(4)}" hidden><span></span></div>\n` : ''}</header>
@@ -1013,7 +1013,9 @@ function paginaParte(a, o, f) {
   const tituloPagina = sub ? rot + ': ' + textoPuro(p.titulo) + ' — ' + o.titulo + ' — ' + a.nome
     : (rot && rot !== o.titulo ? rot + (p.titulo && rot.indexOf(textoPuro(p.titulo)) < 0 ? ': ' + textoPuro(p.titulo) : '') + ' — ' : '') + o.titulo + ' — ' + a.nome;
   pagina({ url: f.url, titulo: tituloPagina, corpo: html, trilha: passos, prev, next,
-    bilingue: comPt ? LINGUAS[o.lingua].nome : bilingue ? (o.traducao && o.traducao.lingua ? o.traducao.lingua.charAt(0).toUpperCase() + o.traducao.lingua.slice(1) : 'Original') : null,
+    bilingue: comPt ? LINGUAS[o.lingua].nome : bilingue ? (o.rotulos ? o.rotulos.orig : o.traducao && o.traducao.lingua ? o.traducao.lingua.charAt(0).toUpperCase() + o.traducao.lingua.slice(1) : 'Original') : null,
+    /* obra em português antigo (a Carta de Caminha): os botões são o original e o texto atualizado, não uma tradução */
+    ...(bilingue && o.rotulos ? { bilingueTrad: o.rotulos.trad } : {}),
     progresso: total > 1 ? i / total : undefined,
     descricao: descricaoDe(p.texto),
     dados: { pagina: 'parte', obra: chaveObra(o), parte: f.chave, indice: i, total, ...(sub ? { cadeia: f.acima.join(' ') } : {}),
@@ -1024,7 +1026,7 @@ function paginaParte(a, o, f) {
 
 // ------------------------------------------------------------------ obras comentadas
 /* A Não-ficção comentada (ferramentas/comentadas.py), no esquema da Bíblia Taioé: o original ao
-   lado, a paginação de referência à margem ({St 17a}), as notas coladas à palavra (abrem junto da
+   lado, a paginação de referência à margem ({St 17a}, ou a folha do manuscrito, {fl. 1v}), as notas coladas à palavra (abrem junto da
    linha, pelo leitor.js; sem JavaScript, levam à lista do fim) e os comentários por tema, em
    páginas próprias embaixo da parte (…/<parte>/comentarios/ e …/comentarios/<tema>/). */
 const PAINEL_NOTA = '<div class="nota-painel" id="nota-painel" role="dialog" aria-modal="false" aria-labelledby="nota-painel-ref" hidden>' +
@@ -1047,6 +1049,7 @@ function notasDaParte(p) {
 }
 function textoComentadoHtml(s, comIds) {
   return inline(s).replace(/\s*\{St ([0-9]+[a-e])\}\s*/g, (m, x) => ' <span class="st"' + (comIds ? ' id="st-' + x + '"' : '') + '>' + x + '</span> ')
+    .replace(/\s*\{fl\. ([0-9]+[rv])\}\s*/g, (m, x) => ' <span class="st"' + (comIds ? ' id="fl-' + x + '"' : '') + '>fl. ' + x + '</span> ')
     .replace(/\{N ([a-z]+)\}/g, (m, l) => '<a class="nota-ref" href="#nota-' + l + '" id="ref-' + l + '" data-nota="' + l + '" aria-label="Nota ' + l + '">' + l + '</a>')
     .replace(/^ | $/g, '');
 }

@@ -604,6 +604,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'pero-vaz-de-caminha',
+  nome: 'Pero Vaz de Caminha',
+  nomeCompleto: 'Pero Vaz de Caminha',
+  vida: '~1450–1500',
+  ordem: 'Caminha, Pero Vaz de',
+  area: 'nao-ficcao',
+  nota: 'Escrivão da armada de Pedro Álvares Cabral, autor da carta que deu notícia do achamento do Brasil.'
+});
+
+BIBLIOTECA.autor({
   id: 'seneca',
   nome: 'Sêneca',
   nomeCompleto: 'Lúcio Aneu Sêneca',

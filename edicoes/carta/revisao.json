@@ -1,0 +1,174 @@
+{
+ "id": "carta",
+ "rotulo": "Carta a el-rei D. Manuel sobre o achamento do Brasil (Pero Vaz de Caminha)",
+ "url": "/biblioteca/pero-vaz-de-caminha/carta/",
+ "escolhas": [
+  {
+   "id": "genro",
+   "titulo": "O genro de Caminha, no pedido final ao rei, fica «Jorge de Osório»?",
+   "ref": "fl. 14r",
+   "contexto": "No manuscrito: «mãde vijr da jlha de sam thomee jorge do soiro meu jenro»; no fac-símile as letras correm juntas, «jorge dosoiro». Lê-se «do Soiro» ou «d'Osoiro», que é a forma antiga de Osório. Os historiadores o identificam como Jorge de Osório, degredado na ilha de São Tomé.\n\nHoje: «mande vir da ilha de São Tomé Jorge de Osório, meu genro».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Jorge de Osório», como está",
+     "nota": "O nome na forma de hoje, como as outras pessoas da carta (Sancho de Tovar, Aires Correia).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Jorge do Soiro»",
+     "nota": "A leitura literal das letras, mas não corresponde a nenhum nome conhecido."
+    },
+    {
+     "id": "c",
+     "texto": "«Jorge de Osoiro»",
+     "nota": "A forma antiga do sobrenome, sem atualizar."
+    }
+   ]
+  },
+  {
+   "id": "parma",
+   "titulo": "«Toda praia parma» fica como no manuscrito, com nota?",
+   "ref": "fl. 13v",
+   "contexto": "Na descrição da costa: «de pomta a pomta he toda praya parma mujto chaã e mujto fremosa». A palavra está clara no fac-símile, mas o sentido é incerto; há quem leia «plana» e quem emende para «palma».\n\nHoje: «De ponta a ponta é toda praia parma, muito chã e muito formosa», com a nota «Assim está no manuscrito. O sentido é incerto: talvez “plana”».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«praia parma», com a nota, como está",
+     "nota": "Não se inventa palavra; a nota diz a dúvida.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«praia plana»",
+     "nota": "Mais claro, mas é emenda nossa."
+    },
+    {
+     "id": "c",
+     "texto": "«praia palma»",
+     "nota": "Emenda de alguns editores; também sem certeza."
+    }
+   ]
+  },
+  {
+   "id": "pero",
+   "titulo": "*Pero* (mas, porém) fica «pero»?",
+   "ref": "fl. 1r, 3r, 4v, 6v, 10r, 13v (7 vezes)",
+   "contexto": "Caminha usa sempre *pero* por «mas» ou «porém»: «Pero tome Vossa Alteza minha ignorância por boa vontade»; «Pero a terra em si é de muito bons ares». A palavra não se usa mais. Pela regra da edição, palavra que caiu de uso fica, com nota (há uma no primeiro *pero*). O mesmo vale para *ca* («mais ca aquilo que vi»), que ficou com a sua nota.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«pero», com a nota, como está",
+     "nota": "A palavra de Caminha; a regra das palavras que caíram de uso.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«porém»",
+     "nota": "Mais fácil, mas troca a palavra."
+    },
+    {
+     "id": "c",
+     "texto": "«mas»",
+     "nota": "Mais fácil ainda; às vezes muda o peso da frase."
+    }
+   ]
+  },
+  {
+   "id": "degredado",
+   "titulo": "*Degradado* passa a «degredado»?",
+   "ref": "fl. 3v e outras (16 vezes)",
+   "contexto": "O manuscrito escreve «degradado» para o condenado ao degredo (Afonso Ribeiro e os outros que ficam na terra). É a forma antiga da palavra que hoje se escreve «degredado»; «degradado», hoje, quer dizer outra coisa (rebaixado, estragado).\n\nHoje: «um mancebo degredado»; «os dois degredados».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«degredado», como está",
+     "nota": "A forma atual da mesma palavra, com o sentido certo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«degradado», como no manuscrito",
+     "nota": "Fiel à letra, mas o leitor de hoje entende outra coisa."
+    }
+   ]
+  },
+  {
+   "id": "obra-de",
+   "titulo": "*Obra de* (cerca de) fica «obra de»?",
+   "ref": "fl. 1r e outras (15 vezes)",
+   "contexto": "Caminha diz sempre «obra de» para quantidades aproximadas: «obra de três ou quatro léguas»; «obra de setenta ou oitenta». É expressão que caiu de uso; está explicada na primeira nota em que aparece.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«obra de», com a nota, como está",
+     "nota": "A expressão de Caminha.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«cerca de»",
+     "nota": "Mais claro, mas troca a expressão."
+    }
+   ]
+  },
+  {
+   "id": "jazer",
+   "titulo": "*Jouvemos* passa a «jazemos»?",
+   "ref": "fl. 1v, 2r, 3r, 11r",
+   "contexto": "O verbo é *jazer* (ficar parado, deitado, ancorado), no pretérito antigo: «aly jouuemos toda aquela noute», «omde jouuesemos», «e jouueram e dormjram». Pela regra da edição, a forma antiga de palavra que existe hoje passa à forma atual: «jazemos», «jazêssemos», «jazeram». «Jazemos» é igual ao presente, e o sentido fica um pouco menos claro; há nota em «surgimos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«jazemos», «jazêssemos», «jazeram», como está",
+     "nota": "A forma de hoje do mesmo verbo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«jouvemos», «jouvéssemos», «jouveram»",
+     "nota": "A forma antiga, só com a grafia atualizada; precisa de nota."
+    }
+   ]
+  },
+  {
+   "id": "numeros",
+   "titulo": "Os números, que o manuscrito escreve em algarismos romanos, vão por extenso?",
+   "ref": "toda a carta",
+   "contexto": "O manuscrito escreve «xxb braças», «bjᶜ lx ou lxx legoas», «iiijᶜ ou iiijᶜ l». No texto atualizado estão por extenso: «vinte e cinco braças», «seiscentas e sessenta ou setenta léguas», «quatrocentos ou quatrocentos e cinquenta». O ano da data final ficou em algarismos («1500»), como no manuscrito.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "por extenso, como está",
+     "nota": "Lê-se como prosa; é o costume das edições de leitura.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "em algarismos («25 braças», «660 ou 670 léguas»)",
+     "nota": "Mais rápido de ler as quantidades."
+    }
+   ]
+  },
+  {
+   "id": "tovar",
+   "titulo": "«Sancho de Toar» passa a «Sancho de Tovar»?",
+   "ref": "fl. 2v, 10r, 10v",
+   "contexto": "O capitão é chamado «sancho de toar» no manuscrito. O nome dele, na forma de hoje e nos livros de história, é Sancho de Tovar. Os outros nomes seguem o mesmo critério: «bertolameu dijz» = Bartolomeu Dias, «aires corea» = Aires Correia, «frey amrique» = frei Henrique.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Sancho de Tovar», como está",
+     "nota": "O nome como se escreve hoje, no mesmo critério dos outros.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Sancho de Toar»",
+     "nota": "A forma do manuscrito."
+    }
+   ]
+  }
+ ]
+}

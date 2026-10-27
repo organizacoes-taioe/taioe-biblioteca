@@ -1,6 +1,7 @@
 """As decisões delicadas das traduções nossas (Catolicismo) para o Gere, em /admin/pendencias/
-(tipo «Biblioteca: traduções»; pedido dele, 26/10/2026). Não vale para a Não-ficção comentada, que
-tem a sua revisão no comentadas.py.
+(tipo «Biblioteca: traduções»; pedido dele, 26/10/2026). Não vale para as escolhas de tradução da
+Não-ficção comentada, que têm a sua revisão no comentadas.py; vale para as decisões de leitura e de
+grafia da Carta de Caminha (edicoes/carta/revisao.json), que não é tradução.
 
     python3 ferramentas/traducoes_revisao.py                  → só confere
     python3 ferramentas/traducoes_revisao.py --revisao <pasta> → grava <pasta>/traducoes.json

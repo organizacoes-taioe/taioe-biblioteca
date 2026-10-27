@@ -1,0 +1,428 @@
+{
+ "id": "carta",
+ "autor": "pero-vaz-de-caminha",
+ "titulo": "Carta a el-rei D. Manuel sobre o achamento do Brasil",
+ "rotulos": {
+  "orig": "Original (1500)",
+  "trad": "Grafia atual"
+ },
+ "datas": "1500",
+ "genero": "Cartas",
+ "estado": "em revisão",
+ "descricao": "A carta em que o escrivão da armada de Pedro Álvares Cabral contou ao rei D. Manuel I, dia a dia, a chegada à terra que viria a ser o Brasil. É o primeiro texto escrito sobre o país.",
+ "apresentacao": "Carta de Pero Vaz de Caminha, escrivão da armada de Pedro Álvares Cabral, ao rei D. Manuel I, escrita em Porto Seguro, no sul da Bahia, nos dias em que a armada esteve ali, e datada de 1º de maio de 1500. Seguiu para Lisboa no navio dos mantimentos. O manuscrito, de catorze folhas da mão de Caminha, está no Arquivo Nacional da Torre do Tombo, em Lisboa (Gavetas, gaveta 8, maço 2, n.º 8). Só foi publicado em 1817, pelo padre Manuel Aires de Casal, na _Corografia Brasílica_.\n\nEsta edição dá a carta inteira em duas formas, lado a lado: o original, com a ortografia de 1500, e o texto com a grafia de hoje (Acordo Ortográfico de 1990, forma brasileira), que conserva as palavras e a ordem das frases de Caminha. As palavras que não se usam mais ficaram como estavam e vão explicadas nas notas; os números, que o manuscrito escreve em algarismos romanos, vão por extenso. O manuscrito quase não tem pontuação nem parágrafos: a pontuação, os parágrafos e a divisão em nove partes, pelos dias que a carta narra, são desta edição, e também os títulos das partes. As marcas «fl. 1r», «fl. 1v»… dão o começo de cada folha do manuscrito (r: frente; v: verso).\n\nO original segue a transcrição da Wikisource, que acompanha linha a linha o manuscrito, corrigida pelo texto diplomático publicado na _Revista de História_ da USP (1968) e, nos pontos duvidosos, pelo fac-símile. As notas são nossas.",
+ "fontes": [
+  {
+   "nome": "Manuscrito: Arquivo Nacional da Torre do Tombo, PT/TT/GAV/8/2/8 (fac-símile no Wikimedia Commons)",
+   "url": "https://commons.wikimedia.org/wiki/File:PT-TT-GAV-8-2-8.pdf"
+  },
+  {
+   "nome": "Wikisource: Carta a El Rei D. Manuel (ortografia original)",
+   "url": "https://pt.wikisource.org/wiki/Carta_a_El_Rei_D._Manuel_(ortografia_original)",
+   "nota": "transcrição de base, CC BY-SA"
+  },
+  {
+   "nome": "K. M. Abud e outros, «O descobrimento do Brasil através dos textos», Revista de História (USP), v. 36, n. 73, 1968 (texto diplomático)",
+   "url": "https://revistas.usp.br/revhistoria/article/view/126823"
+  }
+ ],
+ "partes": [
+  {
+   "n": "1",
+   "titulo": "De Lisboa à Terra de Vera Cruz",
+   "st": "fl. 1r–2r"
+  },
+  {
+   "n": "2",
+   "titulo": "Porto Seguro e os dois homens a bordo",
+   "st": "fl. 2r–3r"
+  },
+  {
+   "n": "3",
+   "titulo": "Sábado: os primeiros em terra",
+   "st": "fl. 3v–4v"
+  },
+  {
+   "n": "4",
+   "titulo": "Domingo de Pascoela: a primeira missa",
+   "st": "fl. 5r–6r"
+  },
+  {
+   "n": "5",
+   "titulo": "O conselho dos capitães e a tarde no rio",
+   "st": "fl. 6r–8r"
+  },
+  {
+   "n": "6",
+   "titulo": "Segunda e terça: a aldeia e a cruz",
+   "st": "fl. 8v–10r"
+  },
+  {
+   "n": "7",
+   "titulo": "Quarta e quinta: os hóspedes",
+   "st": "fl. 10r–11v"
+  },
+  {
+   "n": "8",
+   "titulo": "Sexta-feira, 1º de maio: a cruz e a missa",
+   "st": "fl. 11v–13r"
+  },
+  {
+   "n": "9",
+   "titulo": "A terra e o fim da carta",
+   "st": "fl. 13v–14r"
+  }
+ ],
+ "notas": [
+  {
+   "id": "capitao-mor",
+   "parte": 1,
+   "st": "fl. 1r",
+   "apos": "o capitão-mor desta vossa frota",
+   "texto": "Pedro Álvares Cabral, fidalgo da corte de D. Manuel, que comandava a armada de treze navios a caminho da Índia. Caminha nunca o chama pelo nome."
+  },
+  {
+   "id": "pero",
+   "parte": 1,
+   "st": "fl. 1r",
+   "apos": "Pero tome Vossa Alteza",
+   "texto": "*Pero*: mas, porém. A palavra caiu de uso; Caminha a emprega muitas vezes."
+  },
+  {
+   "id": "ca",
+   "parte": 1,
+   "st": "fl. 1r",
+   "apos": "mais ca aquilo",
+   "texto": "*Ca*: que, do que. Em outros lugares da carta, «porque»."
+  },
+  {
+   "id": "obra-de",
+   "parte": 1,
+   "st": "fl. 1r",
+   "apos": "obra de três ou quatro léguas",
+   "texto": "*Obra de*: cerca de. A légua do mar valia mais de seis quilômetros."
+  },
+  {
+   "id": "vasco-de-ataide",
+   "parte": 1,
+   "st": "fl. 1r",
+   "apos": "Vasco de Ataíde com a sua nau",
+   "texto": "Capitão de uma das naus da armada. Nunca se soube o que lhe aconteceu."
+  },
+  {
+   "id": "pareceu",
+   "parte": 1,
+   "st": "fl. 1r",
+   "apos": "e não pareceu mais",
+   "texto": "*Parecer*: aqui, aparecer, como em outros lugares da carta."
+  },
+  {
+   "id": "oitavas",
+   "parte": 1,
+   "st": "fl. 1r",
+   "apos": "terça-feira de oitavas de Páscoa",
+   "texto": "A Páscoa de 1500 caiu a 19 de abril; as oitavas são a semana que se segue à festa."
+  },
+  {
+   "id": "botelho",
+   "parte": 1,
+   "st": "fl. 1r",
+   "apos": "chamam botelho",
+   "texto": "Botelho e rabo-de-asno: nomes que os marinheiros davam a ervas do mar que boiam ao largo e anunciam terra perto."
+  },
+  {
+   "id": "fura-buxos",
+   "parte": 1,
+   "st": "fl. 1v",
+   "apos": "fura-buxos",
+   "texto": "Aves marinhas que voam rente às ondas; também anunciavam terra."
+  },
+  {
+   "id": "monte-pascoal",
+   "parte": 1,
+   "st": "fl. 1v",
+   "apos": "o Monte Pascoal",
+   "texto": "Monte do sul da Bahia, perto da costa. O nome lembra a semana da Páscoa; Vera Cruz é a Santa Cruz."
+  },
+  {
+   "id": "surgimos",
+   "parte": 1,
+   "st": "fl. 1v",
+   "apos": "surgimos âncoras",
+   "texto": "*Surgir*: lançar âncora. Na frase seguinte, *jazer* é ficar parado, ancorado."
+  },
+  {
+   "id": "nicolau-coelho",
+   "parte": 1,
+   "st": "fl. 1v",
+   "apos": "Nicolau Coelho, para ver",
+   "texto": "Capitão de um dos navios. Tinha ido à Índia com Vasco da Gama, na viagem de 1497 a 1499."
+  },
+  {
+   "id": "aljaveira",
+   "parte": 1,
+   "st": "fl. 2r",
+   "apos": "de aljaveira",
+   "texto": "*Aljaveira*: aljôfar, pérolas miúdas."
+  },
+  {
+   "id": "cacar",
+   "parte": 2,
+   "st": "fl. 2r",
+   "apos": "fez caçar as naus",
+   "texto": "*Caçar*: diz-se do navio que arrasta a âncora pelo fundo, levado pelo vento."
+  },
+  {
+   "id": "porto-seguro",
+   "parte": 2,
+   "st": "fl. 2r",
+   "apos": "um arrecife com um porto dentro",
+   "texto": "A baía hoje chamada Cabrália, no sul da Bahia, abrigada por um recife. Os portugueses deram-lhe o nome de Porto Seguro."
+  },
+  {
+   "id": "almadia",
+   "parte": 2,
+   "st": "fl. 2r",
+   "apos": "tomou em uma almadia",
+   "texto": "*Almadia*: canoa."
+  },
+  {
+   "id": "senhos",
+   "parte": 2,
+   "st": "fl. 2v",
+   "apos": "metidos por eles senhos ossos",
+   "texto": "*Senhos*: um para cada um."
+  },
+  {
+   "id": "capitaes",
+   "parte": 2,
+   "st": "fl. 2v",
+   "apos": "E Sancho de Tovar",
+   "texto": "Sancho de Tovar e Simão de Miranda eram capitães da armada. Aires Correia ia para ser feitor em Calecute, na Índia, e Caminha, escrivão da feitoria."
+  },
+  {
+   "id": "malaves",
+   "parte": 2,
+   "st": "fl. 3r",
+   "apos": "tão malaves",
+   "texto": "*Malaves*: a custo, mal."
+  },
+  {
+   "id": "fanadas",
+   "parte": 2,
+   "st": "fl. 3r",
+   "apos": "não eram fanadas",
+   "texto": "*Fanado*: circuncidado."
+  },
+  {
+   "id": "bartolomeu-dias",
+   "parte": 3,
+   "st": "fl. 3v",
+   "apos": "Nicolau Coelho e Bartolomeu Dias que fossem",
+   "texto": "O navegador que dobrou o cabo da Boa Esperança em 1488. Capitão de um dos navios, morreu poucas semanas depois desta carta, num naufrágio perto daquele cabo."
+  },
+  {
+   "id": "degredado",
+   "parte": 3,
+   "st": "fl. 3v",
+   "apos": "um mancebo degredado",
+   "texto": "Condenado a cumprir pena longe do reino. As armadas levavam degredados para deixá-los nas terras novas, onde aprenderiam a língua e serviriam de intérpretes."
+  },
+  {
+   "id": "encarna",
+   "parte": 3,
+   "st": "fl. 4r",
+   "apos": "com aquela encarna",
+   "texto": "*Encarna*: isca, engodo; aqui, os presentes que os atraíam."
+  },
+  {
+   "id": "homem",
+   "parte": 3,
+   "st": "fl. 4r",
+   "apos": "que lhes homem queria dar",
+   "texto": "*Homem*, sem artigo: alguém, a gente. Volta outras vezes na carta."
+  },
+  {
+   "id": "berberia",
+   "parte": 3,
+   "st": "fl. 4r",
+   "apos": "a berberia deles",
+   "texto": "*Berberia*: algazarra."
+  },
+  {
+   "id": "a-carao",
+   "parte": 3,
+   "st": "fl. 4v",
+   "apos": "a carão da praia",
+   "texto": "*A carão de*: rente a, junto de."
+  },
+  {
+   "id": "pascoela",
+   "parte": 4,
+   "st": "fl. 5r",
+   "apos": "Ao domingo de Pascoela",
+   "texto": "O domingo seguinte à Páscoa, em 1500 a 26 de abril. Foi a primeira missa celebrada no Brasil."
+  },
+  {
+   "id": "corrigissem",
+   "parte": 4,
+   "st": "fl. 5r",
+   "apos": "que se corrigissem nos batéis",
+   "texto": "*Corrigir*: preparar, aprontar. Logo adiante, «altar muito bem corrigido»."
+  },
+  {
+   "id": "frei-henrique",
+   "parte": 4,
+   "st": "fl. 5r",
+   "apos": "o padre frei Henrique",
+   "texto": "Frei Henrique Soares, de Coimbra, franciscano, que ia com outros frades para a Índia. Depois foi bispo de Ceuta."
+  },
+  {
+   "id": "bandeira",
+   "parte": 4,
+   "st": "fl. 5r",
+   "apos": "a bandeira de Cristo",
+   "texto": "A bandeira da Ordem de Cristo, de cruz vermelha, a mesma que as naus levavam nas velas."
+  },
+  {
+   "id": "evangelho",
+   "parte": 4,
+   "st": "fl. 5r",
+   "apos": "à parte do evangelho",
+   "texto": "O lado do altar onde se lia o Evangelho na missa."
+  },
+  {
+   "id": "navio-mantimentos",
+   "parte": 5,
+   "st": "fl. 6r",
+   "apos": "pelo navio dos mantimentos",
+   "texto": "O navio que levava os mantimentos da armada. Voltou a Lisboa com a notícia e com esta carta."
+  },
+  {
+   "id": "quejando",
+   "parte": 5,
+   "st": "fl. 6v",
+   "apos": "o rio quejando era",
+   "texto": "*Quejando*: qual, de que feição."
+  },
+  {
+   "id": "soia",
+   "parte": 5,
+   "st": "fl. 6v",
+   "apos": "aquela que soía",
+   "texto": "*Soer*: costumar. «Aquela que soía» é a de costume."
+  },
+  {
+   "id": "o-al",
+   "parte": 5,
+   "st": "fl. 7r",
+   "apos": "e o al todo",
+   "texto": "*O al*: o resto."
+  },
+  {
+   "id": "diogo-dias",
+   "parte": 5,
+   "st": "fl. 7v",
+   "apos": "Diogo Dias, almoxarife",
+   "texto": "Irmão de Bartolomeu Dias e capitão de um dos navios. Almoxarife era quem recebia as rendas do rei numa vila."
+  },
+  {
+   "id": "cevadouro",
+   "parte": 5,
+   "st": "fl. 8r",
+   "apos": "pardais de cevadouro",
+   "texto": "O cevadouro é o lugar onde se põe comida para atrair as aves; o pardal que ali come foge ao menor movimento."
+  },
+  {
+   "id": "urucum",
+   "parte": 6,
+   "st": "fl. 8v",
+   "apos": "uns ouriços verdes",
+   "texto": "Os frutos do urucum, cujas sementes dão a tinta vermelha com que muitos povos indígenas ainda hoje se pintam."
+  },
+  {
+   "id": "inhame",
+   "parte": 6,
+   "st": "fl. 9r",
+   "apos": "muito inhame",
+   "texto": "Os portugueses chamaram inhame às raízes que os índios comiam; era, muito provavelmente, a mandioca."
+  },
+  {
+   "id": "acerca",
+   "parte": 6,
+   "st": "fl. 10r",
+   "apos": "acerca da noite",
+   "texto": "*Acerca de*: perto de."
+  },
+  {
+   "id": "lacao",
+   "parte": 7,
+   "st": "fl. 10v",
+   "apos": "lacão cozido frio",
+   "texto": "*Lacão*: presunto da pá do porco."
+  },
+  {
+   "id": "avezar",
+   "parte": 7,
+   "st": "fl. 11r",
+   "apos": "avezarem",
+   "texto": "*Avezar*: acostumar."
+  },
+  {
+   "id": "chantar",
+   "parte": 8,
+   "st": "fl. 12r",
+   "apos": "melhor chantar a cruz",
+   "texto": "*Chantar*: fincar no chão."
+  },
+  {
+   "id": "elevacao",
+   "parte": 8,
+   "st": "fl. 12r",
+   "apos": "quando levantaram a Deus",
+   "texto": "A elevação da hóstia consagrada, na missa."
+  },
+  {
+   "id": "apostolos",
+   "parte": 8,
+   "st": "fl. 12v",
+   "apos": "dos apóstolos cujo dia hoje é",
+   "texto": "São Filipe e São Tiago, que então se festejavam a 1º de maio."
+  },
+  {
+   "id": "outra-vinda",
+   "parte": 8,
+   "st": "fl. 12v",
+   "apos": "da outra vinda",
+   "texto": "A viagem de Vasco da Gama à Índia, em que Nicolau Coelho foi capitão."
+  },
+  {
+   "id": "parma",
+   "parte": 9,
+   "st": "fl. 13v",
+   "apos": "praia parma",
+   "texto": "Assim está no manuscrito. O sentido é incerto: talvez «plana»."
+  },
+  {
+   "id": "calecute",
+   "parte": 9,
+   "st": "fl. 13v",
+   "apos": "navegação de Calecute",
+   "texto": "Calecute, na costa ocidental da Índia, era o destino da armada. A terra nova serviria de escala no caminho."
+  },
+  {
+   "id": "osorio",
+   "parte": 9,
+   "st": "fl. 14r",
+   "apos": "Jorge de Osório, meu genro",
+   "texto": "Jorge de Osório, genro de Caminha, cumpria pena de degredo na ilha de São Tomé, no golfo da Guiné."
+  },
+  {
+   "id": "caminha",
+   "parte": 9,
+   "st": "fl. 14r",
+   "apos": "Pero Vaz de Caminha.",
+   "texto": "Caminha morreu meses depois, em dezembro de 1500, num ataque à feitoria portuguesa de Calecute."
+  }
+ ]
+}

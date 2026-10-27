@@ -376,6 +376,15 @@ BIBLIOTECA.autor({
    cada palavra dos poemas abre uma nota, ver edicoes/lingua-original/README.md). Poe, Baudelaire
    e Verlaine voltaram assim em 20/10/2026; uma tradução em domínio público, quando há, fica ao lado. */
 BIBLIOTECA.autor({
+  id: 'jorge-manrique',
+  nome: 'Jorge Manrique',
+  nomeCompleto: 'Jorge Manrique',
+  vida: '~1440–1479',
+  lingua: 'es',
+  nota: 'Poeta e cavaleiro castelhano do século XV, autor das Coplas pela morte do pai, a elegia mais célebre da língua espanhola.'
+});
+
+BIBLIOTECA.autor({
   id: 'garcilaso-de-la-vega',
   nome: 'Garcilaso de la Vega',
   nomeCompleto: 'Garcilaso de la Vega',

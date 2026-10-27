@@ -214,3 +214,12 @@ BIBLIOTECA.poemas({
     {"id":"vergilio-eneida","titulo":"Liber I","forma":"outras","livro":0,"ordem":0,"versos":11,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"António José de Lima Leitão","titulo":"A Eneida, Canto I","ano":1819}}
   ]
 });
+
+BIBLIOTECA.poemas({
+  autor: "jorge-manrique",
+  arquivo: "conteudo/jorge-manrique/lingua-original.js",
+  livros: [],
+  poemas: [
+    {"id":"jorge-manrique-coplas-por-la-muerte-de-su-padre","titulo":"Coplas por la muerte de su padre","forma":"outras","livro":-1,"ordem":0,"versos":480,"lingua":"es","ano":1476,"glossario":true}
+  ]
+});

@@ -1317,6 +1317,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('igreja-catolica/tra-le-sollecitudini', 'Tra le sollecitudini'),
   ('john-donne/death-be-not-proud', 'Death, be not proud'),
   ('john-keats/to-autumn', 'To Autumn'),
+  ('jorge-manrique/coplas-por-la-muerte-de-su-padre', 'Coplas por la muerte de su padre'),
   ('jose-marti/cultivo-una-rosa-blanca', 'Cultivo una rosa blanca'),
   ('joseph-tissot/arte-de-aproveitar-as-faltas', 'A arte de aproveitar as próprias faltas'),
   ('junqueira-freire/inspiracoes-do-claustro-louco', 'Louco (Hora de Delírio)'),

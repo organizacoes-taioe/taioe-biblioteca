@@ -1280,6 +1280,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('graciliano-ramos/caetes', 'Caetés'),
   ('graciliano-ramos/ciumes', 'Ciúmes'),
   ('graciliano-ramos/dois-dedos', 'Dois dedos'),
+  ('graciliano-ramos/infancia', 'Infância'),
   ('graciliano-ramos/insonia', 'Insônia'),
   ('graciliano-ramos/luciana', 'Luciana'),
   ('graciliano-ramos/minsk', 'Minsk'),

@@ -1,6 +1,6 @@
 {
  "id": "santa-teresinha",
- "rotulo": "Santa Teresinha: História de uma Alma, cartas e orações",
+ "rotulo": "Santa Teresinha: História de uma Alma, cartas, orações e poesias",
  "url": "/biblioteca/santa-teresinha/",
  "escolhas": [
   {
@@ -9,8 +9,17 @@
    "ref": "História de uma Alma, Ms B 3v",
    "contexto": "A frase mais citada da obra: *ma vocation, c'est l'amour… dans le Cœur de l'Église, ma Mère, je serai l'Amour*. Teresa escreve a primeira vez com minúscula e a segunda com maiúscula.\n\nHoje: «minha vocação, enfim a encontrei, minha vocação é o amor… no Coração da Igreja, minha Mãe, eu serei o Amor… assim serei tudo…». A mudança mostra a passagem do sentimento ao Amor que é Deus; para quem não conhece o original, pode parecer descuido.",
    "opcoes": [
-    {"id": "a", "texto": "«…minha vocação é o amor… eu serei o Amor», como está", "nota": "Como Teresa escreveu.", "recomendada": true},
-    {"id": "b", "texto": "«…minha vocação é o Amor… eu serei o Amor»", "nota": "Uniforme; perde a diferença que ela marcou."}
+    {
+     "id": "a",
+     "texto": "«…minha vocação é o amor… eu serei o Amor», como está",
+     "nota": "Como Teresa escreveu.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«…minha vocação é o Amor… eu serei o Amor»",
+     "nota": "Uniforme; perde a diferença que ela marcou."
+    }
    ]
   },
   {
@@ -19,8 +28,17 @@
    "ref": "História de uma Alma, Ms C 2v–3r; cartas (LT 226 e outras)",
    "contexto": "Hoje: «quero procurar o meio de ir para o Céu por uma pequena via bem reta, bem curta, uma pequena via totalmente nova… na casa dos ricos um elevador a substitui com vantagem». Nas cartas, *voie* também é «via» («a minha via é toda de confiança e de amor», LT 226), e *chemin* é «caminho»: Teresa usa as duas palavras.\n\n«Pequena via» é a forma dos estudos teresianos em português; «pequeno caminho» é mais corrente e aparece em edições populares.",
    "opcoes": [
-    {"id": "a", "texto": "«pequena via», e «via» para *voie* nas cartas, como está", "nota": "O nome consagrado; guarda a diferença entre *voie* e *chemin*.", "recomendada": true},
-    {"id": "b", "texto": "«pequeno caminho», e «caminho» para *voie* em toda parte", "nota": "Mais corrente; apaga a diferença entre as duas palavras dela."}
+    {
+     "id": "a",
+     "texto": "«pequena via», e «via» para *voie* nas cartas, como está",
+     "nota": "O nome consagrado; guarda a diferença entre *voie* e *chemin*.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«pequeno caminho», e «caminho» para *voie* em toda parte",
+     "nota": "Mais corrente; apaga a diferença entre as duas palavras dela."
+    }
    ]
   },
   {
@@ -29,8 +47,17 @@
    "ref": "toda a obra (umas 70 vezes); ex.: Ms B 1v, Pri 1",
    "contexto": "Teresa fala de si na terceira pessoa, com ternura de criança. Hoje: «a alma da vossa pequena Teresa» (Ms B); «Minha boa Santíssima Virgem, fazei que a vossa pequena Teresa não se atormente nunca mais» (Pri 1).\n\n«Teresinha» é o nome com que o Brasil a conhece, e o da seção da Biblioteca; mas é o apelido que a devoção lhe deu depois, e ela nunca se chama assim.",
    "opcoes": [
-    {"id": "a", "texto": "«pequena Teresa», como está", "nota": "As palavras dela; o apelido da devoção fica no nome da seção.", "recomendada": true},
-    {"id": "b", "texto": "«Teresinha»: «a alma da vossa Teresinha»", "nota": "O nome que o leitor conhece; põe na boca dela o apelido posterior."}
+    {
+     "id": "a",
+     "texto": "«pequena Teresa», como está",
+     "nota": "As palavras dela; o apelido da devoção fica no nome da seção.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Teresinha»: «a alma da vossa Teresinha»",
+     "nota": "O nome que o leitor conhece; põe na boca dela o apelido posterior."
+    }
    ]
   },
   {
@@ -39,9 +66,22 @@
    "ref": "História de uma Alma; orações (Pri 2, 11, 14 e 16 com «tu»)",
    "contexto": "Teresa muda de tratamento: «Eu vos amo, eu me dou a vós para sempre» (Ms A); «graças maiores com que tu me querias cumular» (Ms B); «Vós o sabeis, ó meu Deus, nunca desejei senão amar-vos» (Ms C). Nas orações, o mesmo: «Jesus, eu não te peço senão a paz» (Pri 2), mas «eu desejo Amar-vos e fazer-vos Amar» (Pri 6).\n\nHoje a tradução segue cada mudança. O leitor pode tomá-las por incoerência; uniformizar apagaria o «tu» íntimo do Ms B.",
    "opcoes": [
-    {"id": "a", "texto": "seguir Teresa em cada texto, como está", "nota": "Fiel às mudanças de tom que ela fez.", "recomendada": true},
-    {"id": "b", "texto": "«tu» sempre para Jesus", "nota": "Uniforme e íntimo; põe «tu» onde ela escreveu *vous*, inclusive no Ato de Oferecimento."},
-    {"id": "c", "texto": "«vós» sempre para Jesus", "nota": "Uniforme e solene; apaga o «tu» do Ms B."}
+    {
+     "id": "a",
+     "texto": "seguir Teresa em cada texto, como está",
+     "nota": "Fiel às mudanças de tom que ela fez.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«tu» sempre para Jesus",
+     "nota": "Uniforme e íntimo; põe «tu» onde ela escreveu *vous*, inclusive no Ato de Oferecimento."
+    },
+    {
+     "id": "c",
+     "texto": "«vós» sempre para Jesus",
+     "nota": "Uniforme e solene; apaga o «tu» do Ms B."
+    }
    ]
   },
   {
@@ -50,8 +90,17 @@
    "ref": "Ms A 2r; Ms C; cartas (LT 140)",
    "contexto": "Paulina foi irmã de sangue e depois priora de Teresa. Hoje: «Madre» para o cargo («minha Madre querida», umas 400 vezes nas três obras), «Mãezinha» para *petite Mère*, e «Mãe» onde o texto joga com as duas coisas: «a vós que sois duas vezes minha Mãe» (dedicatória do Ms A).\n\nNa LT 140, escrita quando Paulina se torna priora, o assunto é o próprio nome («Como me é doce poder dar-vos este nome!… Há muito tempo já éreis minha Madre»), e «Madre» só diz o cargo novo.",
    "opcoes": [
-    {"id": "a", "texto": "como está, e na LT 140 «Mãe»: «Há muito tempo já éreis minha Mãe… sois verdadeiramente minha Mãe»", "nota": "O título carmelita onde é cargo; «Mãe» onde ela fala da maternidade.", "recomendada": true},
-    {"id": "b", "texto": "como está, com «Madre» também na LT 140", "nota": "Regra mais simples; perde o jogo da carta."}
+    {
+     "id": "a",
+     "texto": "como está, e na LT 140 «Mãe»: «Há muito tempo já éreis minha Mãe… sois verdadeiramente minha Mãe»",
+     "nota": "O título carmelita onde é cargo; «Mãe» onde ela fala da maternidade.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "como está, com «Madre» também na LT 140",
+     "nota": "Regra mais simples; perde o jogo da carta."
+    }
    ]
   },
   {
@@ -60,8 +109,17 @@
    "ref": "cartas; ex.: LT 230, LT 182",
    "contexto": "Teresa trata por *vous* as irmãs de sangue que estão no Carmelo, mesmo nos bilhetes de mais ternura. Hoje: «Mãezinha querida, a vossa filhinha derramou ainda há pouco doces lágrimas…». Com Celina há uma virada: «tu» até ela entrar no Carmelo, «vós» depois (LT 182). São quase cem cartas.\n\n«Vós» guarda o respeito que ela mantém; soa solene em bilhetes tão afetuosos.",
    "opcoes": [
-    {"id": "a", "texto": "«vós», como está", "nota": "Fiel ao *vous* dela e à virada de Celina.", "recomendada": true},
-    {"id": "b", "texto": "«tu» entre as irmãs de sangue: «Mãezinha querida, a tua filhinha…»", "nota": "Mais caloroso; contraria o *vous* e o respeito que ela marca."}
+    {
+     "id": "a",
+     "texto": "«vós», como está",
+     "nota": "Fiel ao *vous* dela e à virada de Celina.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«tu» entre as irmãs de sangue: «Mãezinha querida, a tua filhinha…»",
+     "nota": "Mais caloroso; contraria o *vous* e o respeito que ela marca."
+    }
    ]
   },
   {
@@ -70,8 +128,17 @@
    "ref": "orações, Pri 6",
    "contexto": "O título de Teresa é *Offrande de moi-même comme Victime d'Holocauste à l'Amour Miséricordieux du Bon Dieu*. Hoje: título «Oferenda ao Amor Misericordioso» e cabeçalho «Oferenda de mim mesma como Vítima de Holocausto…». O texto da oração é tradução nossa, fiel.\n\nEm português a oração é conhecida como «Ato de Oferecimento ao Amor Misericordioso», e é por esse nome que o leitor a procura. Só o título e o cabeçalho mudariam.",
    "opcoes": [
-    {"id": "a", "texto": "«Ato de Oferecimento ao Amor Misericordioso» no título, e «Oferecimento de mim mesma como Vítima de Holocausto…» no cabeçalho; o texto da oração fica como está", "nota": "O leitor reconhece a oração pelo nome.", "recomendada": true},
-    {"id": "b", "texto": "«Oferenda ao Amor Misericordioso», como está", "nota": "Literal; o nome não é o que o leitor conhece."}
+    {
+     "id": "a",
+     "texto": "«Ato de Oferecimento ao Amor Misericordioso» no título, e «Oferecimento de mim mesma como Vítima de Holocausto…» no cabeçalho; o texto da oração fica como está",
+     "nota": "O leitor reconhece a oração pelo nome.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Oferenda ao Amor Misericordioso», como está",
+     "nota": "Literal; o nome não é o que o leitor conhece."
+    }
    ]
   },
   {
@@ -80,8 +147,17 @@
    "ref": "cartas, LT 197",
    "contexto": "A carta que traz o centro da pequena via: «É a confiança e nada mais que a confiança que nos deve conduzir ao Amor… O temor não conduz à Justiça?… Já que vemos a via, corramos juntas». Teresa explica numa nota no fim da carta: a justiça severa que se mostra aos pecadores, não a Justiça que Jesus terá com os que o amam (a nota está traduzida).\n\nQuem lê só a frase pode entender «não conduz mesmo?» e perder a oposição entre confiança e temor.",
    "opcoes": [
-    {"id": "a", "texto": "«O temor não conduz à Justiça?…», como está, com a nota dela", "nota": "Fiel à pergunta de Teresa; a nota dela explica.", "recomendada": true},
-    {"id": "b", "texto": "«Não é o temor que conduz à Justiça?…»", "nota": "A oposição fica clara já na frase; é um pouco de interpretação."}
+    {
+     "id": "a",
+     "texto": "«O temor não conduz à Justiça?…», como está, com a nota dela",
+     "nota": "Fiel à pergunta de Teresa; a nota dela explica.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Não é o temor que conduz à Justiça?…»",
+     "nota": "A oposição fica clara já na frase; é um pouco de interpretação."
+    }
    ]
   },
   {
@@ -90,8 +166,17 @@
    "ref": "cartas de 1897 (8 cartas); ex.: LT 244, LT 258",
    "contexto": "Nas cartas da doença, Teresa escreve às vezes *A Dieu* separado, em vez de *Adieu*: a despedida que leva a Deus. Hoje: «A Deus, irmãozinho, até breve até a vista no belo Céu»; nas outras 37 cartas, onde ela escreve junto, «Adeus».",
    "opcoes": [
-    {"id": "a", "texto": "«A Deus» onde ela separa, «Adeus» onde junta, como está", "nota": "Guarda o jogo que ela fez de propósito.", "recomendada": true},
-    {"id": "b", "texto": "«Adeus» sempre", "nota": "Sem estranheza; perde o jogo."}
+    {
+     "id": "a",
+     "texto": "«A Deus» onde ela separa, «Adeus» onde junta, como está",
+     "nota": "Guarda o jogo que ela fez de propósito.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Adeus» sempre",
+     "nota": "Sem estranheza; perde o jogo."
+    }
    ]
   },
   {
@@ -100,8 +185,17 @@
    "ref": "cartas (68 cartas); ex.: LT 58, LT 100",
    "contexto": "*Embrasser* é a fórmula de afeto das despedidas. Hoje a tradução está misturada, porque os lotes não foram harmonizados: «Ela te beija de todo o coração» (LT 58), mas «vos abraça de todo o coração» (LT 100). «Abraçar» é o natural em português para essas fórmulas; «beijar» fica onde o gesto é mesmo o beijo (a testa, o pé do Papa).",
    "opcoes": [
-    {"id": "a", "texto": "«abraçar» nas fórmulas; «beijar» só onde o gesto é o beijo", "nota": "Uniforme e natural.", "recomendada": true},
-    {"id": "b", "texto": "«beijar» nas cartas de criança e ao pai, «abraçar» nas de adulta", "nota": "Guarda o tom de cada fase; exige um critério que o leitor não vê."}
+    {
+     "id": "a",
+     "texto": "«abraçar» nas fórmulas; «beijar» só onde o gesto é o beijo",
+     "nota": "Uniforme e natural.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«beijar» nas cartas de criança e ao pai, «abraçar» nas de adulta",
+     "nota": "Guarda o tom de cada fase; exige um critério que o leitor não vê."
+    }
    ]
   },
   {
@@ -110,8 +204,17 @@
    "ref": "cartas, LT 169",
    "contexto": "«Ele, o Rei de Glória, que está sentado sobre os querubins… Ele, cuja presença os Céus não podem conter…». O francês diz, à letra, «cuja presença não pode encher os Céus», o que contradiz a frase (ela celebra a imensidão de Deus que se faz pequeno). A tradução seguiu o sentido.",
    "opcoes": [
-    {"id": "a", "texto": "«cuja presença os Céus não podem conter», como está", "nota": "Diz o que ela quer dizer (1Rs 8,27).", "recomendada": true},
-    {"id": "b", "texto": "«cuja presença não pode encher os Céus»", "nota": "Fiel à letra; diz o contrário do que ela quer."}
+    {
+     "id": "a",
+     "texto": "«cuja presença os Céus não podem conter», como está",
+     "nota": "Diz o que ela quer dizer (1Rs 8,27).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«cuja presença não pode encher os Céus»",
+     "nota": "Fiel à letra; diz o contrário do que ela quer."
+    }
    ]
   },
   {
@@ -120,9 +223,79 @@
    "ref": "orações, Pri 2",
    "contexto": "O original não tem vírgulas, e *regardée* pode ser «olhada» ou «tida por». Hoje: «Faze que eu nunca seja um peso para a comunidade, mas que ninguém se ocupe de mim, que eu seja considerada pisada aos pés, esquecida como um grãozinho de areia teu, Jesus». «Olhada» contradiria o «que ninguém se ocupe de mim».",
    "opcoes": [
-    {"id": "a", "texto": "«que eu seja tida por pisada aos pés, esquecida como um grãozinho de areia teu»", "nota": "O mesmo sentido de hoje, com uma forma mais natural que «considerada pisada».", "recomendada": true},
-    {"id": "b", "texto": "«que eu seja considerada pisada aos pés, esquecida…», como está", "nota": "Mesmo sentido; soa estranho."},
-    {"id": "c", "texto": "«que eu seja olhada, pisada aos pés, esquecida…»", "nota": "Literal; contradiz o «que ninguém se ocupe de mim»."}
+    {
+     "id": "a",
+     "texto": "«que eu seja tida por pisada aos pés, esquecida como um grãozinho de areia teu»",
+     "nota": "O mesmo sentido de hoje, com uma forma mais natural que «considerada pisada».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«que eu seja considerada pisada aos pés, esquecida…», como está",
+     "nota": "Mesmo sentido; soa estranho."
+    },
+    {
+     "id": "c",
+     "texto": "«que eu seja olhada, pisada aos pés, esquecida…»",
+     "nota": "Literal; contradiz o «que ninguém se ocupe de mim»."
+    }
+   ]
+  },
+  {
+   "id": "pn5-hoje",
+   "titulo": "«Meu canto de hoje»: manter «hoje» no fim do refrão, com rima só toante nos versos pares?",
+   "ref": "Poesias, PN 5",
+   "contexto": "Em francês, os versos pares das 14 quadras rimam todos com *aujourd'hui*, rima aguda. Em português «hoje» é palavra grave e quase não tem rima perfeita (*foge*, *aloje*). Na tradução, o refrão «Tão somente por hoje» fecha o poema como o *rien que pour aujourd'hui* de Teresa, mas os versos que rimam com ele rimam só pelas vogais (*foge*, *norte*, *pode*, *longe*).\n\nA alternativa é tirar «hoje» do fim do verso para ter rima aguda perfeita; o «hoje» iria para o meio, e o fio do poema, que é a palavra final de cada estrofe, se perde.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Manter «hoje» no fim, com a rima toante",
+     "nota": "Guarda a palavra que é o assunto do poema; cede na rima.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Refazer os refrões com rima aguda perfeita, com «hoje» no meio do verso",
+     "nota": "Guarda a rima; o «hoje» deixa de fechar as estrofes."
+    }
+   ]
+  },
+  {
+   "id": "pn32-transformar",
+   "titulo": "«Meu Céu»: *me transformer en toi* como «e em ti já não sou eu»?",
+   "ref": "Poesias, PN 32, v. 22",
+   "contexto": "Teresa: *Tu viens, mon Bien-Aimé, me transformer en toi*. «Transformar-me em ti» não cabe no alexandrino com a rima em *-eu*. A tradução diz a transformação com as palavras de São Paulo (Gl 2,20, «já não sou eu que vivo»): «Vens, ó meu Bem-Amado, e em ti já não sou eu». A primeira versão dizia «e meu ser fazes teu», que transforma a união em posse.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Vens, ó meu Bem-Amado, e em ti já não sou eu»",
+     "nota": "A transformação, na fórmula de Gl 2,20; dois acentos seguidos no fim do verso.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Vens, ó meu Bem-Amado, e em ti meu ser se deu»",
+     "nota": "Verso mais liso; diz entrega, não transformação."
+    }
+   ]
+  },
+  {
+   "id": "pn54-noite-da-fe",
+   "titulo": "«Por que te amo, ó Maria»: a «noite da fé» como «na noite escura»?",
+   "ref": "Poesias, PN 54, estrofe 15",
+   "contexto": "Teresa: *Mère, ton doux Enfant veut que tu sois l'exemple / De l'âme qui Le cherche en la nuit de la foi* — a «noite da fé» é a expressão dela para a provação dos últimos meses. A forma literal, «De toda alma que O busca na noite da fé», só cabe no alexandrino com a cesura irregular (palavra grave sem elisão na 6.ª sílaba). A tradução diz: «De quem, na noite escura, O procura na fé», que guarda a noite e a fé e ecoa São João da Cruz.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«De quem, na noite escura, O procura na fé»",
+     "nota": "Alexandrino regular; a expressão «noite da fé» fica desfeita em duas partes.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«De toda alma que O busca na noite da fé»",
+     "nota": "A expressão de Teresa inteira; a cesura fica irregular."
+    }
    ]
   }
  ]

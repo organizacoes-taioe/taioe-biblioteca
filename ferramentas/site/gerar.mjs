@@ -260,11 +260,11 @@ const numeradas = (o) => o.partes.filter((p) => p.n).length || o.partes.length;
 const rotuloPasso = (p) => [esc(p.n), p.titulo ? inline(p.titulo) : ''].filter(Boolean).join(' · ');
 
 const GENEROS = ['Romance', 'Novela', 'Contos', 'Autobiografia', 'Hagiografia', 'Ensaio', 'Poesia', 'Teatro',
-  'Cartas', 'Orações', 'Crônica', 'Crítica', 'Tradução'];
+  'Cartas', 'Orações', 'Magistério', 'Crônica', 'Crítica', 'Tradução'];
 const PLURAIS = { 'Romance': 'Romances', 'Novela': 'Novelas', 'Contos': 'Contos', 'Poesia': 'Poesia',
   'Teatro': 'Teatro', 'Crônica': 'Crônicas', 'Crítica': 'Crítica', 'Tradução': 'Traduções',
   'Autobiografia': 'Autobiografia', 'Cartas': 'Cartas', 'Orações': 'Orações',
-  'Hagiografia': 'Hagiografia', 'Ensaio': 'Ensaios' };
+  'Hagiografia': 'Hagiografia', 'Ensaio': 'Ensaios', 'Magistério': 'Magistério' };
 /* «oculta»: a área existe, mas fica fora da capa, do sitemap e da busca, com noindex, até o Gere
    aprovar (a Não-ficção ficou assim de 23 a 26/10/2026, quando estreou com a Apologia de Sócrates) */
 const AREAS = [{ id: 'literatura', nome: 'Literatura' }, { id: 'catolicismo', nome: 'Catolicismo' },
@@ -276,7 +276,7 @@ const acharArea = (id) => AREAS.find((x) => x.id === id) || null;
    no lugar das páginas por língua, um filtro acima da lista de autores). Os endereços antigos
    /biblioteca/literatura/<slug>/ levam à Literatura filtrada (public/_redirects). */
 const LINGUAS = { pt: { nome: 'Português', slug: 'portugues' }, es: { nome: 'Espanhol', slug: 'espanhol' },
-  en: { nome: 'Inglês', slug: 'ingles' }, fr: { nome: 'Francês', slug: 'frances' },
+  en: { nome: 'Inglês', slug: 'ingles' }, fr: { nome: 'Francês', slug: 'frances' }, it: { nome: 'Italiano', slug: 'italiano' },
   la: { nome: 'Latim', slug: 'latim' }, grc: { nome: 'Grego', slug: 'grego' } };
 const nomeGenero = (g) => PLURAIS[g] || g;
 const slug = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -300,6 +300,7 @@ function fichaObra(o) {
   if (o.coletanea) {
     return [o.partes.length > 1 ? plural(numeradas(o), d.singular, d.plural) : '', milhar(palavras(o)) + ' palavras'].filter(Boolean).join(' · ');
   }
+  if (o.documento) return [o.datas || (o.ano ? String(o.ano) : ''), milhar(palavras(o)) + ' palavras'].filter(Boolean).join(' · ');
   return [o.datas || (o.ano ? String(o.ano) : ''), plural(numeradas(o), d.singular, d.plural), milhar(palavras(o)) + ' palavras'].filter(Boolean).join(' · ');
 }
 const textoPublicacao = (o) => (o.publicacao ? 'Primeira publicação: ' + o.publicacao : '');
@@ -370,7 +371,10 @@ function rotuloParte(obra, parte) {
   return d.charAt(0).toUpperCase() + d.slice(1) + ' ' + parte.n;
 }
 const tituloSobre = (o) => (o.edicao && o.edicao.titulo) || 'Sobre esta edição';
-const umaParte = (o) => (o.coletanea || o.poema) && o.partes.length === 1;
+/* «documento»: um documento do Magistério (edicoes/magisterio/), lido de uma vez, como um conto: abre
+   direto no texto, com «Anterior» e «Seguinte» entre os documentos do mesmo gênero do autor */
+const umaParte = (o) => (o.coletanea || o.poema || o.documento) && o.partes.length === 1;
+const documentosIrmaos = (o) => obrasDe(o.autor).filter((x) => x.documento && x.genero === o.genero);
 
 // ------------------------------------------------------------------ endereços (congelados)
 const RESERVADOS = new Set(['css', 'js', 'vendor', 'sitemap.xml', '404.html', 'obras.json', 'favicon.svg', 'lendo', 'lidos', 'busca', ...AREAS.map((a) => a.id)]);
@@ -832,10 +836,12 @@ function paginaAutor(a) {
 /* As obras de um gênero, agrupadas por coletânea: o corpo da página do gênero, ou a lista solta
    na página do autor quando o gênero não chega a ser categoria. */
 function htmlObrasDoGenero(obras) {
-  let html = '';
+  let html = '', grupo = null;
   porColetanea(obras).forEach((g) => {
     if (g.titulo) html += '<p class="secao-titulo"><em>' + esc(g.titulo) + '</em>' + (g.ano ? ' · ' + g.ano : '') + '</p>';
     g.obras.forEach((o) => {
+      /* os documentos do Magistério, sob o nome do papa (o «grupo»), na ordem das datas */
+      if (o.grupo && o.grupo !== grupo) { html += '<p class="secao-titulo">' + esc(o.grupo) + '</p>'; grupo = o.grupo; }
       const pub = textoPublicacao(o);
       html += '<a class="cartao' + (o.paratexto ? ' paratexto' : '') + '" href="' + U.obra(o) + '" data-obra="' + esc(chaveObra(o)) + '">' +
         '<span class="cartao-titulo">' + (o.coletanea ? esc(o.titulo) : '<em>' + esc(o.titulo) + '</em>') + '</span>' +
@@ -919,7 +925,7 @@ function trilhaDentro(a, o, x) {
 }
 const passo = (cls, rel, dir, href, alvo) => '<a class="passo ' + cls + '" href="' + href + '" rel="' + rel + '"><span class="dir">' + dir + '</span><span class="alvo">' + alvo + '</span></a>';
 function paginaParte(a, o, f) {
-  const fs_ = folhasDe(o), i = f.k + 1, total = fs_.length, poema = !!o.poema, conto = !!o.coletanea || poema;
+  const fs_ = folhasDe(o), i = f.k + 1, total = fs_.length, poema = !!o.poema, conto = !!o.coletanea || poema || !!o.documento;
   const p = f.no, sub = f.cadeia.length > 0, partes = o.partes.length;
   const comPt = !!(p.glossario && p.pt);
   const bilingue = comPt || (p.original !== undefined && p.original !== null);
@@ -938,7 +944,7 @@ function paginaParte(a, o, f) {
   }
   const indice = (href, alvo) => '<a class="passo seg" href="' + href + '"><span class="dir">Índice</span><span class="alvo">' + esc(alvo) + '</span></a>';
   let navAnt = '<span class="passo vazio"></span>', navSeg, prev = null, next = null;
-  const irmaos = poema ? vizinhosPoema(o) : conto ? daColetanea(o) : [], k = irmaos.indexOf(o);
+  const irmaos = poema ? vizinhosPoema(o) : o.coletanea ? daColetanea(o) : o.documento ? documentosIrmaos(o) : [], k = irmaos.indexOf(o);
   if (i > 1) { const x = fs_[i - 2]; prev = x.url; navAnt = passo('ant', 'prev', '← Anterior', prev, rotuloFolha(o, x, f)); }
   else if (k > 0) { const x = irmaos[k - 1]; prev = U.parte(x, x.partes.length); navAnt = passo('ant', 'prev', '← Anterior', prev, esc(x.titulo)); }
   if (i < total) { const x = fs_[i]; next = x.url; navSeg = passo('seg', 'next', 'Seguinte →', next, rotuloFolha(o, x, f)); }

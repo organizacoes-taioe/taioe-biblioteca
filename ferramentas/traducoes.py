@@ -3,7 +3,8 @@ obras de Literatura escritas da mesma forma, como o Beowulf).
 
 Cada obra fica em edicoes/<obra>/:
   obra.py        META (id, autor, titulo, ano, genero, divisao, traducao, edicao, original_ao_lado;
-                 opcionais: indice, «literatura» para gravar em conteudo/literatura.js; poema, para obra
+                 opcionais: documento e grupo (os documentos do Magistério, edicoes/magisterio/<doc>,
+                 lidos de uma vez e agrupados pelo papa), indice, «literatura» para gravar em conteudo/literatura.js; poema, para obra
                  em verso, lida verso com verso, com a cesura marcada por tabulação nos arquivos)
                  e PARTES: [(sigla, título, [arquivos])] — os arquivos de original/ e traducao/;
   original/      texto na língua original;
@@ -130,7 +131,7 @@ def publicar_obra(nome):
                 "   não edite à mão. t: tradução de cada parte; o: original; e: página «Sobre». */\n")
         f.write('BIBLIOTECA.textos(' + json.dumps(mapa, ensure_ascii=False) + ');\n')
     registro = {k: meta.get(k) for k in ('id', 'autor', 'titulo', 'subtitulo', 'ano', 'datas', 'genero', 'poema',
-                                         'divisao', 'traducao', 'descricao')}
+                                         'divisao', 'traducao', 'descricao', 'documento', 'grupo')}
     registro['arquivo'] = arq_js
     registro['_palavras'] = palavras(p['texto'] for p in partes)
     if meta.get('poema'):

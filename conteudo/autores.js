@@ -113,6 +113,16 @@ BIBLIOTECA.autor({
   nota: 'Textos dos primeiros séculos cujo autor não se conhece. Em tradução do grego.'
 });
 
+/* Os documentos do Magistério (edicoes/magisterio/), em tradução nossa, com o original ao lado
+   (pedido do Gere, 26/10/2026: «dentro de Igreja Católica, dentro de Catolicismo»). */
+BIBLIOTECA.autor({
+  id: 'igreja-catolica',
+  nome: 'Igreja Católica',
+  area: 'catolicismo',
+  coletivo: true,   // não é uma pessoa
+  nota: 'Documentos do Magistério, em tradução do original, com o texto oficial ao lado.'
+});
+
 /* Poetas (poemas publicados a partir do Versificador; ver ferramentas/poesia.py) */
 
 BIBLIOTECA.autor({

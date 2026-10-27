@@ -1,0 +1,94 @@
+{
+ "id": "carta-a-diogneto",
+ "rotulo": "Carta a Diogneto (Anônimo)",
+ "url": "/biblioteca/anonimo/carta-a-diogneto/",
+ "escolhas": [
+  {
+   "id": "alma-no-corpo",
+   "titulo": "A frase célebre de 6,1 fica «Numa palavra: o que a alma é no corpo, isso são os cristãos no mundo»?",
+   "ref": "cap. 6,1",
+   "contexto": "É a frase que abre a comparação do cap. 6 e a mais citada da carta: *Ἁπλῶς δ’ εἰπεῖν, ὅπερ ἐστὶν σώματι ψυχή, τοῦτ’ εἰσὶν ἐν κόσμῳ Χριστιανοί* («para dizer simplesmente: o que no corpo é a alma, isso são no mundo os cristãos»).\n\nHoje: «Numa palavra: o que a alma é no corpo, isso são os cristãos no mundo». Guarda a ordem do grego (primeiro a alma, depois os cristãos) e o «isso» que responde ao «o que». A forma mais corrente em português inverte a frase e perde o paralelo.",
+   "opcoes": [
+    {"id": "a", "texto": "«Numa palavra: o que a alma é no corpo, isso são os cristãos no mundo», como está", "nota": "A ordem e o paralelo do grego.", "recomendada": true},
+    {"id": "b", "texto": "«Em suma, os cristãos são no mundo o que a alma é no corpo»", "nota": "Mais corrente; começa pelos cristãos e perde o «isso»."},
+    {"id": "c", "texto": "«Para dizer tudo numa palavra: o que é a alma no corpo, isto são os cristãos no mundo»", "nota": "Mais solene, mais longa."}
+   ]
+  },
+  {
+   "id": "theosebeia",
+   "titulo": "*Theosébeia* fica «religião»?",
+   "ref": "1,1; 3,3; 4,5; 4,6; 6,4",
+   "contexto": "É a palavra da pergunta de Diogneto e o fio da carta: *τὴν θεοσέβειαν τῶν Χριστιανῶν* (1,1), «o mistério da sua própria *theosébeia*» (4,6), «invisível permanece a sua *theosébeia*» (6,4). Quer dizer «reverência a Deus», a fé vivida no culto e na conduta. Para o culto exterior o autor tem outras palavras (*thrēskeía*, *latreía*), que ficaram «culto».\n\nHoje: «conhecer a religião dos cristãos»; «o mistério da religião própria deles»; «mas a sua religião permanece invisível». «Piedade» é a tradução literal mais antiga, mas hoje soa a devoção sentimental ou a compaixão.",
+   "opcoes": [
+    {"id": "a", "texto": "«religião», como está", "nota": "Claro e amplo; o leitor entende a pergunta de Diogneto.", "recomendada": true},
+    {"id": "b", "texto": "«piedade»: «conhecer a piedade dos cristãos»", "nota": "Mais literal e antigo; ambíguo hoje."},
+    {"id": "c", "texto": "«culto a Deus»: «conhecer o culto dos cristãos a Deus»", "nota": "Literal, mas confunde com *thrēskeía* e pesa a frase."}
+   ]
+  },
+  {
+   "id": "logos-verbo",
+   "titulo": "*Lógos*, quando é o Filho, fica «o Verbo»?",
+   "ref": "7,2; 11,2–8; 12,9",
+   "contexto": "Em 7,2 Deus «fez habitar entre os homens a verdade e o *Lógos* santo e incompreensível» e o enviou; nos cap. 11–12 o *Lógos* aparece, fala com franqueza, é enviado ao mundo, «hoje é tido por Filho» e «se alegra ensinando os santos». Em outros lugares a palavra tem o sentido comum: «a razão» que Deus deu aos homens (10,2), «uma palavra nova» (2,1).\n\nHoje: «o Verbo» com maiúscula onde é o Filho; «razão» e «palavra» nos outros. «Verbo» é o termo da liturgia e do prólogo de João; «Palavra» é o das traduções bíblicas mais recentes.",
+   "opcoes": [
+    {"id": "a", "texto": "«o Verbo», como está", "nota": "O termo tradicional em português, sem confusão com «palavra» comum.", "recomendada": true},
+    {"id": "b", "texto": "«a Palavra», com maiúscula", "nota": "Como várias Bíblias recentes; mais transparente, mas o masculino do grego vira feminino («a Palavra, aparecendo…»)."},
+    {"id": "c", "texto": "«o Logos», sem traduzir", "nota": "Guarda o duplo sentido (palavra e razão); soa técnico."}
+   ]
+  },
+  {
+   "id": "pais-filho",
+   "titulo": "*Paîs*, dito de Cristo em 8,9–9,1, fica «Filho» (e não «Servo», como na Didaqué)?",
+   "ref": "8,9; 8,11; 9,1",
+   "contexto": "*Paîs* quer dizer «menino, filho» e também «servo». Deus, tendo concebido um grande pensamento, «comunicou-o só ao *paîs*» (8,9), revelou-o «por meio do seu *paîs* amado» (8,11) e tudo dispôs «com o *paîs*» (9,1). Logo depois a carta diz *huiós*, «Filho», para o mesmo («entregou o seu próprio Filho», 9,2).\n\nHoje: «comunicou-o só ao Filho»; «por meio do seu Filho amado». Na Didaqué ficou «servo» («Jesus, teu servo»), porque lá o contexto é o de Davi, «teu servo», e de Isaías.",
+   "opcoes": [
+    {"id": "a", "texto": "«Filho», como está", "nota": "O sentido do contexto, que passa a *huiós* sem mudar de assunto.", "recomendada": true},
+    {"id": "b", "texto": "«Servo», como na Didaqué", "nota": "Uniforme entre as duas obras; destoa do contexto e de 9,2."},
+    {"id": "c", "texto": "«Menino»", "nota": "Literal; estranho em português."}
+   ]
+  },
+  {
+   "id": "mesa-leito",
+   "titulo": "Em 5,7 fica a correção «põem a mesa em comum, mas não o leito»?",
+   "ref": "cap. 5,7",
+   "contexto": "Lake, como quase todos os editores, imprime *τράπεζαν κοινὴν παρατίθενται, ἀλλ’ οὐ κοίτην*: «põem a mesa em comum, mas não o leito», isto é, partilham a comida, mas não as mulheres. O manuscrito, que se perdeu, repetia *κοινήν* («mas não comum»), o que não faz sentido; *κοίτην* («leito») é correção antiga, que muda uma letra.\n\nHoje: «Põem a mesa em comum, mas não o leito».",
+   "opcoes": [
+    {"id": "a", "texto": "«Põem a mesa em comum, mas não o leito», como está (a correção)", "nota": "O texto de Lake e de quase todas as edições.", "recomendada": true},
+    {"id": "b", "texto": "«Põem a mesa em comum, mas não [comum]», com o manuscrito e nota", "nota": "Fiel à letra do manuscrito; o leitor não entende."}
+   ]
+  },
+  {
+   "id": "deus-dos-que-recebem",
+   "titulo": "Em 10,6, quem dá aos necessitados «se torna um deus para os que recebem»?",
+   "ref": "cap. 10,6",
+   "contexto": "*θεὸς γίνεται τῶν λαμβανόντων*: quem dá aos necessitados o que recebeu de Deus «torna-se deus dos que recebem», e por isso «é imitador de Deus». A expressão é ousada e intencional (o tema do capítulo é a imitação de Deus).\n\nHoje: «quem dá aos necessitados o que recebeu de Deus e se torna um deus para os que recebem, esse é imitador de Deus». O «um» e a minúscula evitam ler que ele se torna Deus; não amaciam a frase.",
+   "opcoes": [
+    {"id": "a", "texto": "«se torna um deus para os que recebem», como está", "nota": "A ousadia do grego, sem equívoco.", "recomendada": true},
+    {"id": "b", "texto": "«se torna Deus para os que recebem»", "nota": "Mais literal (o grego não tem artigo); pode chocar ou confundir."},
+    {"id": "c", "texto": "«faz as vezes de Deus para os que recebem»", "nota": "Explica o sentido; perde a força e acrescenta ao texto."}
+   ]
+  },
+  {
+   "id": "eva-virgem",
+   "titulo": "Em 12,8, «nem Eva é corrompida, mas, virgem, é digna de fé»?",
+   "ref": "cap. 12,8",
+   "contexto": "*οὐδὲ Εὔα φθείρεται, ἀλλὰ παρθένος πιστεύεται*. É um dos lugares mais discutidos da carta. Lake: «Eva não é corrompida, mas é confiada como virgem». O fundo é 2Cor 11,2–3 (a Igreja apresentada a Cristo como virgem pura, com medo de que, como Eva, seja seduzida pela serpente): no paraíso do cristão, Eva não cai. Outros leem *parthénos* como a Virgem Maria, a nova Eva: «e uma virgem é crida».\n\nHoje: «nem Eva é corrompida, mas, virgem, é digna de fé».",
+   "opcoes": [
+    {"id": "a", "texto": "«nem Eva é corrompida, mas, virgem, é digna de fé», como está", "nota": "Eva é o sujeito das duas frases, com o eco de 2Cor 11.", "recomendada": true},
+    {"id": "b", "texto": "«nem Eva é corrompida, mas é confiada como virgem»", "nota": "Como Lake; «confiada» (ao esposo) fica obscuro em português."},
+    {"id": "c", "texto": "«nem Eva é corrompida, mas a Virgem é crida»", "nota": "A leitura mariana; decide o que o grego deixa em aberto."}
+   ]
+  },
+  {
+   "id": "tempos-cirios",
+   "titulo": "Em 12,9 fica a correção «os tempos se reúnem e se dispõem em ordem»?",
+   "ref": "cap. 12,9",
+   "contexto": "Lake imprime *καὶ καιροὶ συνάγονται καὶ μετὰ κόσμου ἁρμόζονται*: «e os tempos se reúnem e se dispõem em ordem», na lista das alegrias da Páscoa. O manuscrito trazia *κηροί*, «círios», que alguns tomam como as velas da vigília pascal; outros corrigem para *χοροί*, «os coros». *Kairoí* é correção antiga, de uma letra na pronúncia da época.\n\nHoje: «e a Páscoa do Senhor avança, e os tempos se reúnem e se dispõem em ordem».",
+   "opcoes": [
+    {"id": "a", "texto": "«os tempos se reúnem e se dispõem em ordem», como está (o texto de Lake)", "nota": "Segue a edição de base, como em toda a carta.", "recomendada": true},
+    {"id": "b", "texto": "«os círios se reúnem e se dispõem em ordem» (o manuscrito)", "nota": "A letra do manuscrito, com a imagem da vigília pascal; o grego ao lado diria outra coisa."},
+    {"id": "c", "texto": "«os coros se reúnem e se dispõem em ordem»", "nota": "Outra correção, como as traduções inglesas antigas."}
+   ]
+  }
+ ]
+}

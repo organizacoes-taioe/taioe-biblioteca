@@ -1,0 +1,4 @@
+/* Não-ficção: obras em tradução, sem comentários (índice). Gerado por ferramentas/traducoes.py;
+   as comentadas ficam em conteudo/nao-ficcao.js, do ferramentas/comentadas.py. */
+
+BIBLIOTECA.obra({"id": "sobre-a-brevidade-da-vida", "autor": "seneca", "titulo": "Sobre a brevidade da vida", "ano": 49, "datas": "c. 49–55", "genero": "Ensaio", "divisao": {"singular": "parte", "plural": "partes", "rotulo": "nome"}, "traducao": {"lingua": "latim", "codigo": "la", "titulo": "De brevitate vitae"}, "arquivo": "conteudo/seneca/sobre-a-brevidade-da-vida.js", "_palavras": 8550, "partes": [{"n": "1–2", "titulo": "A vida não é breve"}, {"n": "3–9", "titulo": "Os ocupados"}, {"n": "10–13", "titulo": "O tempo dos ocupados e o falso ócio"}, {"n": "14–15", "titulo": "O ócio dos sábios"}, {"n": "16–20", "titulo": "A vida dos ocupados e o conselho a Paulino"}]});

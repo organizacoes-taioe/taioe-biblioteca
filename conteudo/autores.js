@@ -576,6 +576,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'seneca',
+  nome: 'Sêneca',
+  nomeCompleto: 'Lúcio Aneu Sêneca',
+  vida: '~4 a.C.–65 d.C.',
+  ordem: 'Sêneca',
+  area: 'nao-ficcao',
+  nota: 'Filósofo estoico romano, nascido em Córdova, preceptor e conselheiro de Nero.'
+});
+
+BIBLIOTECA.autor({
   id: 'vergilio',
   nome: 'Vergílio',
   nomeCompleto: 'Públio Vergílio Marão',

@@ -1,0 +1,68 @@
+{
+  "id": "os-lusiadas",
+  "rotulo": "Os Lusíadas (Luís de Camões): grafia",
+  "url": "/biblioteca/luis-de-camoes/os-lusiadas/",
+  "escolhas": [
+    {
+      "id": "baxo",
+      "titulo": "*Baxo*, *debaxo*, *pexe*, *dexa* ficam como na 1ª edição?",
+      "ref": "31 vezes (X,154: «humilde, baxo e rudo»)",
+      "contexto": "Onde a 1ª edição escreve sem o *i* (*baxo*, *debaxo*, *abaxo*, *pexe*, *dexa*, *embaxada*, *exos*), o texto segue a forma de Camões, que era a pronúncia da época; onde ela já traz *baixo* ou *deixa*, fica assim. As duas formas aparecem no livro.\n\nHoje: «Mas eu que falo, humilde, baxo e rudo»; «A naufrágios, a pexes, ao profundo».",
+      "opcoes": [
+        {"id": "a", "texto": "A forma de 1572, como está", "nota": "Pela regra da edição: muda a grafia, nunca a forma da palavra. O verso famoso do fim (X,154) fica com *baxo*.", "recomendada": true},
+        {"id": "b", "texto": "Sempre *baixo*, *peixe*, *deixa*", "nota": "Mais fácil de ler, e uniforme no livro todo; perde a forma de Camões."}
+      ]
+    },
+    {
+      "id": "antigua",
+      "titulo": "*Antigua* e *antiguo* passam a «antiga» e «antigo»?",
+      "ref": "I,3; I,6; I,26; I,36; I,43; I,103; IV,69 (7 vezes)",
+      "contexto": "A 1ª edição escreve *antigua*, *antiguo*, à espanhola, ao lado de *antiga*. O número de sílabas não muda.\n\nHoje: «Cesse tudo o que a Musa antiga canta» (I,3).",
+      "opcoes": [
+        {"id": "a", "texto": "«antiga», «antigo», como está", "nota": "É a única forma antiga que o texto atualiza, porque com a grafia de hoje ficaria «antígua», que parece erro.", "recomendada": true},
+        {"id": "b", "texto": "«antígua», «antíguo»", "nota": "Segue à risca a regra das formas antigas."}
+      ]
+    },
+    {
+      "id": "fea",
+      "titulo": "*Fea*, *chea*, *area*, *alhea* passam a «feia», «cheia», «areia», «alheia»?",
+      "ref": "todo o livro (fea, feo, chea, area, alhea, rodea, recrea, Judea…)",
+      "contexto": "Na época, *fea* e *feia* eram a mesma palavra escrita de dois jeitos, e o número de sílabas é o mesmo. O texto usa a forma de hoje. Em II,60, «alhea» rima com «recreia» e «arreceia».\n\nHoje: «As areias ali de prata fina» (VI,9); «Caso feio e cruel» (IV,32).",
+      "opcoes": [
+        {"id": "a", "texto": "«feia», «cheia», «areia», como está", "nota": "Tratado como grafia, e não como forma da palavra.", "recomendada": true},
+        {"id": "b", "texto": "*fea*, *chea*, *area*, como em 1572", "nota": "Mais perto do original, mas estranho ao leitor e sem ganho no verso."}
+      ]
+    },
+    {
+      "id": "co-o",
+      "titulo": "A contração de «com» com o artigo fica *co'o*, *co'a*, *co'os*, *c'um*?",
+      "ref": "237 vezes",
+      "contexto": "A 1ª edição escreve *co*, *coa*, *cos*, *cum* (com o, com a, com os, com um), e o Wikisource ora segue isso, ora escreve «com o», que soma uma sílaba ao verso. O texto usa uma notação só, com apóstrofo; *co* sozinho fica antes de pronome (*co ele*, *co isto*).\n\nHoje: «Co'os panos e co'os braços acenavam» (I,48); «C'um tom de voz nos fala horrendo e grosso» (V,40).",
+      "opcoes": [
+        {"id": "a", "texto": "*co'o*, *co'a*, *co'os*, *c'um*, como está", "nota": "A notação mais comum nas edições brasileiras.", "recomendada": true},
+        {"id": "b", "texto": "*c'o*, *c'a*, *c'os*, *c'um*", "nota": "A notação de parte das edições portuguesas."},
+        {"id": "c", "texto": "«com o», «com a», «com os»", "nota": "Mais fácil de ler, mas o verso fica com uma sílaba a mais na leitura."}
+      ]
+    },
+    {
+      "id": "sprito",
+      "titulo": "*Sprito* (duas sílabas) fica «esprito»?",
+      "ref": "II,64; VI,4; VI,55; X,5; X,37",
+      "contexto": "Camões escreve *sprito*, com duas sílabas, ao lado de *spirito*, com três. A grafia de hoje não aceita palavra começada por *sp*. Nas cinco vezes o texto põe «esprito» («espritos»); *spirito* virou «espírito».\n\nHoje: «Com novo esprito ao mestre seu mandava» (II,64); «Mas, se a verdade o esprito me adivinha» (VI,55).",
+      "opcoes": [
+        {"id": "a", "texto": "«esprito», como está", "nota": "Guarda as duas sílabas (o *e* se apaga na leitura) e é forma aceita para o verso antigo.", "recomendada": true},
+        {"id": "b", "texto": "«espírito»", "nota": "A palavra de hoje, com uma sílaba a mais no verso."}
+      ]
+    },
+    {
+      "id": "quasi",
+      "titulo": "*Quasi* fica «quási»?",
+      "ref": "18 vezes (I,10: «mas alto e quási eterno»)",
+      "contexto": "A 1ª edição escreve sempre *quasi*. Com a grafia de hoje, a forma antiga leva acento: «quási».\n\nHoje: «De prêmio vil, mas alto e quási eterno» (I,10).",
+      "opcoes": [
+        {"id": "a", "texto": "«quási», como está", "nota": "A forma de Camões, como *dous* e *cousa*.", "recomendada": true},
+        {"id": "b", "texto": "«quase»", "nota": "A palavra de hoje; o número de sílabas é o mesmo."}
+      ]
+    }
+  ]
+}

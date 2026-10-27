@@ -96,6 +96,7 @@ function inline(s) {
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/_([^_]+)_/g, '<em>$1</em>')
     .replace(/\s*\{§ ([^}]+)\}\s*/g, (m, x) => ' <span class="folha-ms" title="capítulo e seção">' + x + '</span> ')
+    .replace(/^\{e (\d+)\}\s*/, (m, n) => '<span class="estrofe-n" title="estrofe ' + n + '">' + n + '</span>')
     .replace(/\s*\{Ms ([A-C]) (\d+)([rv]?)\}\s*/g, (m, ms, f, l) =>
       ' <span class="folha-ms" title="Manuscrito ' + ms + ', folha ' + f + (l === 'r' ? ' recto' : l === 'v' ? ' verso' : '') + '">' + ms + ' ' + f + l + '</span> ')
     .replace(/^ | $/g, '');

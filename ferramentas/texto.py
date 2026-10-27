@@ -204,9 +204,12 @@ def publicar_coletanea(config, notas, partes, reg_em, reg_aj, tradicao):
             unidades.append([i])
         else:
             unidades[-1].append(i)
-    i_notas = next(k for k, u in enumerate(unidades) if partes[u[0]]['titulo'] == config.NOTAS)
-    notas_partes = unidades[i_notas][1:]
-    unidades = unidades[:i_notas]
+    if getattr(config, 'NOTAS', None):
+        i_notas = next(k for k, u in enumerate(unidades) if partes[u[0]]['titulo'] == config.NOTAS)
+        notas_partes = unidades[i_notas][1:]
+        unidades = unidades[:i_notas]
+    else:                                          # coletânea sem notas do autor (Insônia)
+        notas_partes = []
     contos = config.CONTOS
     if len(unidades) != len(contos):
         raise SystemExit(f'{len(unidades)} unidades no texto, {len(contos)} em config.CONTOS')

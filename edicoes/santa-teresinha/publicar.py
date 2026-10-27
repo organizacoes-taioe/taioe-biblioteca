@@ -272,8 +272,16 @@ def fecho(cab):
 def poesias():
     pasta = os.path.join(TRAD, 'poesias')
     fontes = sorted(f[:-4] for f in os.listdir(os.path.join(ORIG, 'poesias')) if f.endswith('.txt'))
-    if not os.path.isdir(pasta) or any(not os.path.exists(os.path.join(pasta, s, 'traducao.txt')) for s in fontes):
+    # Publicação por lotes (decisão do Gere, 2026-10-27): entram os poemas já traduzidos, e a página
+    # «Sobre» diz quantos faltam.
+    prontos = [s for s in fontes if os.path.exists(os.path.join(pasta, s, 'traducao.txt'))]
+    if not prontos:
         return None
+    aviso = None
+    if len(prontos) < len(fontes):
+        aviso = (f'**Em tradução.** Estão aqui {len(prontos)} dos {len(fontes)} poemas; os outros entram à medida '
+                 'que ficam prontos, primeiro os mais conhecidos.\n\n')
+    fontes = prontos
     def chave(s):
         m = re.match(r'(pn|ps)-(\d+)(bis)?', s)
         return (m.group(1) == 'ps', int(m.group(2)), m.group(3) or '')
@@ -286,7 +294,7 @@ def poesias():
         sigla = cab.get('sigla') or s.upper().replace('-', ' ')
         partes.append({'n': re.sub(r'\b0(\d)', r'\1', sigla), 'titulo': cab.get('titulo', ''), 'tituloOriginal': cab_fr.get('titulo', ''),
                        'texto': '\n\n'.join(x for x in t if x), 'original': '\n\n'.join(x for x in o if x)})
-    return partes, []
+    return partes, [], aviso
 
 
 def recreacoes():
@@ -318,13 +326,16 @@ def publicar(nomes):
         if r is None:
             print('ainda incompleta:', obra['id'])
             continue
-        partes, avisos = r
+        partes, avisos = r[:2]
+        edicao = dict(obra['edicao'])
+        if len(r) > 2 and r[2]:
+            edicao['apresentacao'] = r[2] + edicao['apresentacao']
         for a in avisos:
             print('  aviso:', a)
         feitas[obra['id']] = (obra, partes)
         arq = f"conteudo/santa-teresinha/{obra['id']}.js"
         mapa = {obra['id']: {'t': [p['texto'] for p in partes], 'o': [p.get('original') for p in partes],
-                             'e': obra['edicao']}}
+                             'e': edicao}}
         with open(os.path.join(RAIZ, arq), 'w', encoding='utf-8') as f:
             f.write(f"/* {obra['titulo']} — Santa Teresinha, em tradução. Gerado por edicoes/santa-teresinha/publicar.py;\n"
                     "   não edite à mão. t: tradução de cada parte; o: original francês; e: página «Sobre». */\n")

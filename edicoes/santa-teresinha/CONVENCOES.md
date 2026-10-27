@@ -232,10 +232,10 @@ O método é o do Versificador (§ 7). Arquivos:
 
 Toda tradução de versos segue o manual da Solar Editora. Leia antes de começar:
 
-- `C:\Users\geren\OneDrive\Documentos\Onedrive do Gere\Solar\Editora\Versificador\traducao\MANUAL-DE-TRADUCAO.md`
+- `~/Geremias/Solar/Editora/Versificador/traducao/MANUAL-DE-TRADUCAO.md`
   (princípios, passos, tabela de metros, lições, lista de conferência);
-- `...\Versificador\estudo\ESTUDO-DO-RITMO.md`, § 5 (regras práticas) e § 6 (versos-modelo);
-- um caso resolvido com francês: `...\Versificador\traducao\o-albatroz\` e `...\cancao-de-outono\`.
+- `.../Versificador/estudo/ESTUDO-DO-RITMO.md`, § 5 (regras práticas) e § 6 (versos-modelo);
+- um caso resolvido com francês: `.../Versificador/traducao/o-albatroz/` e `.../cancao-de-outono/`.
 
 Em resumo:
 
@@ -260,7 +260,7 @@ Em resumo:
    `# troca: Thabor => Tabor`.
 5. **Conferência**, a cada estrofe e no fim:
    ```
-   node "C:\Users\geren\OneDrive\Documentos\Onedrive do Gere\Solar\Editora\Versificador\ferramentas\molde.mjs" traducao.txt traducao-molde.txt --so-problemas
+   node ~/Geremias/Solar/Editora/Versificador/ferramentas/molde.mjs traducao.txt traducao-molde.txt --so-problemas
    ```
    Meta: nenhum ✗, nenhum ≠, nenhuma «leitura natural tem N». Os ~ que ficarem têm de ser
    deliberados e justificados em `notas.md`. Teste um verso isolado com

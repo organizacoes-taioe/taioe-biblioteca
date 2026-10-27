@@ -2115,6 +2115,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('santa-teresinha/cartas-de-santa-teresinha', 'Cartas'),
   ('santa-teresinha/historia-de-uma-alma', 'História de uma Alma'),
   ('santa-teresinha/oracoes-de-santa-teresinha', 'Orações'),
+  ('santa-teresinha/poesias-de-santa-teresinha', 'Poesias'),
   ('santo-agostinho/confissoes', 'Confissões'),
   ('santo-atanasio/vida-de-santo-antao', 'Vida de Santo Antão'),
   ('sao-francisco-de-sales/introducao-a-vida-devota', 'Introdução à vida devota (Filoteia)'),

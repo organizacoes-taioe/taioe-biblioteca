@@ -2114,6 +2114,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('santo-agostinho/confissoes', 'Confissões'),
   ('santo-atanasio/vida-de-santo-antao', 'Vida de Santo Antão'),
   ('sao-francisco-de-sales/introducao-a-vida-devota', 'Introdução à vida devota (Filoteia)'),
+  ('sao-gregorio-magno/regra-pastoral', 'Regra Pastoral'),
   ('sao-joao-da-cruz/noche-oscura', 'Noche oscura'),
   ('seneca/sobre-a-brevidade-da-vida', 'Sobre a brevidade da vida'),
   ('tomas-antonio-gonzaga/lira-acaso-sao-estes', 'Acaso são estes'),

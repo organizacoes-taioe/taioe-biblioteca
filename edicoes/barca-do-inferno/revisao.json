@@ -1,0 +1,18 @@
+{
+  "id": "auto-da-barca-do-inferno",
+  "rotulo": "Auto da Barca do Inferno (Gil Vicente): versão do texto",
+  "url": "/biblioteca/gil-vicente/auto-da-barca-do-inferno/",
+  "escolhas": [
+    {
+      "id": "versao",
+      "titulo": "O texto segue a Copilação de 1562, e não o folheto de c. 1518?",
+      "ref": "o auto inteiro",
+      "contexto": "O auto tem duas versões antigas. O folheto, impresso em vida de Gil Vicente (c. 1518, um exemplar só, em Madri), e a Copilação de 1562, a edição das obras feita pelos filhos dele, que muda muitos versos. O texto do Wikisource segue o folheto; o daqui segue a Copilação, lida na reimpressão de 1834 e conferida em três cópias.\n\nExemplos: no folheto, «Ó poderoso dom Anrique», «mui estreita é esta barca», «Pera o lago dos danados»; na Copilação (e aqui), «Ó precioso Dom Anrique», «Mui pequena é esta barca», «Pera a terra dos danados».",
+      "opcoes": [
+        {"id": "a", "texto": "A Copilação de 1562, como está", "nota": "É o texto das Obras de Gil Vicente, e cada verso foi conferido nas cópias de 1834. Para o folheto não há transcrição confiável à mão.", "recomendada": true},
+        {"id": "b", "texto": "O folheto de c. 1518", "nota": "A única edição em vida do autor, mas exigiria ler o fac-símile de Madri verso a verso (letra gótica)."},
+        {"id": "c", "texto": "As duas, lado a lado", "nota": "Mostra as diferenças, com o mesmo trabalho da opção b."}
+      ]
+    }
+  ]
+}

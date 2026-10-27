@@ -29,6 +29,14 @@ BIBLIOTECA.autor({
   nota: 'Romancista, contista e cronista português.'
 });
 
+BIBLIOTECA.autor({
+  id: 'gil-vicente',
+  nome: 'Gil Vicente',
+  vida: '~1465–~1536',
+  ordem: 'Vicente, Gil',
+  nota: 'Dramaturgo português, autor de autos e farsas para a corte de D. Manuel e D. João III.'
+});
+
 /* Catolicismo ("area": a pasta da capa; sem ela, o autor fica em Literatura) */
 
 BIBLIOTECA.autor({

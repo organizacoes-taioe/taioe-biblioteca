@@ -1135,6 +1135,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('francisco-de-quevedo/amor-constante', 'Amor constante más allá de la muerte'),
   ('g-k-chesterton/ortodoxia', 'Ortodoxia'),
   ('garcilaso-de-la-vega/soneto-xxiii', 'Soneto XXIII'),
+  ('gil-vicente/auto-da-barca-do-inferno', 'Auto da Barca do Inferno'),
   ('goncalves-dias/gulnare-e-mustafa', 'Gulnare e Mustafá'),
   ('goncalves-dias/novos-cantos-ainda-uma-vez-adeus', 'Ainda uma vez — adeus!'),
   ('goncalves-dias/novos-cantos-donde-vens-viajor', 'Donde vens, viajor?'),

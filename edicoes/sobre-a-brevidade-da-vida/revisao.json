@@ -1,0 +1,179 @@
+{
+ "id": "sobre-a-brevidade-da-vida",
+ "rotulo": "Sobre a brevidade da vida (Sêneca)",
+ "url": "/biblioteca/seneca/sobre-a-brevidade-da-vida/",
+ "escolhas": [
+  {
+   "id": "otium",
+   "titulo": "*Otium* fica «ócio», e *otiosus*, «ocioso»?",
+   "ref": "toda a obra; sobretudo 12 e 14.1",
+   "contexto": "É o tema do livro: o tempo livre dos negócios, dado a si e à sabedoria. «Soli omnium otiosi sunt qui sapientiae vacant, soli vivunt» — «De todos, só são ociosos os que se dão à sabedoria; só eles vivem.» No cap. 12 Sêneca nega o nome aos falsos ociosos: «Illum tu otiosum vocas…?» — «Chamas ocioso aquele que…?»\n\nHoje «ocioso» lembra preguiça, que é justamente o que Sêneca não quer dizer; mas o jogo com *occupatus* pede a mesma palavra em todo o livro.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«ócio» e «ocioso», como está: «De todos, só são ociosos os que se dão à sabedoria»",
+     "nota": "A palavra de Sêneca, com o paradoxo; o contexto dá o sentido.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«ócio» e «quem tem ócio»: «De todos, só têm ócio os que se dão à sabedoria»; «Dizes que esse tem ócio…?»",
+     "nota": "Evita a preguiça de «ocioso», mas alonga as frases e perde o adjetivo."
+    },
+    {
+     "id": "c",
+     "texto": "«lazer» e «livre»: «De todos, só são livres os que se dão à sabedoria»",
+     "nota": "Mais corrente, mas «lazer» é diversão, e «livre» se confunde com *liber*."
+    }
+   ]
+  },
+  {
+   "id": "occupati",
+   "titulo": "*Occupati* fica «os ocupados»?",
+   "ref": "toda a obra (de 7.1 em diante, quase em cada capítulo)",
+   "contexto": "Os que gastam a vida em negócios, ambição e deveres sociais. «Nihil minus est hominis occupati quam vivere» — «Nada é menos próprio do homem ocupado do que viver» (7.3); «Tu occupatus es, vita festinat» — «Tu estás ocupado, a vida se apressa» (8.5).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«os ocupados», «o homem ocupado», como está",
+     "nota": "Literal e com o eco de «ocupação», «ocupar»; casa com «ocioso».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«os atarefados», «o homem atarefado»",
+     "nota": "Mais expressivo hoje, mas perde o par ócio × ocupação e o jogo de 3.1 («não toleram que ninguém ocupe as suas terras»)."
+    }
+   ]
+  },
+  {
+   "id": "perdimus",
+   "titulo": "A frase mais célebre: «Não temos pouco tempo, mas perdemos muito»?",
+   "ref": "1.3",
+   "contexto": "«Non exiguum temporis habemus, set multum perdimus.» Hermes, cujo latim está ao lado, lê *perdimus* (presente); as edições mais conhecidas trazem *perdidimus* (perfeito: «perdemos», «temos perdido»). Nossa tradução: «Não temos pouco tempo, mas perdemos muito.»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Não temos pouco tempo, mas perdemos muito.»",
+     "nota": "Curta como o latim; «perdemos» serve ao presente e ao passado.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Não é pouco o tempo que temos: é muito o que perdemos.»",
+     "nota": "Destaca a antítese, com uma frase a mais."
+    },
+    {
+     "id": "c",
+     "texto": "«Não temos pouco tempo; nós é que desperdiçamos muito.»",
+     "nota": "Mais enfática; «desperdiçar» explica, mas Sêneca diz só «perder»."
+    }
+   ]
+  },
+  {
+   "id": "diu-fuit",
+   "titulo": "*Non ille diu vixit, sed diu fuit*: «não viveu muito, durou muito»?",
+   "ref": "7.10",
+   "contexto": "«Non est itaque quod quemquam propter canos aut rugas putes diu vixisse: non ille diu vixit, sed diu fuit.» Nossa tradução: «Não há, pois, por que pensares que alguém viveu muito por causa das cãs ou das rugas: esse não viveu muito, durou muito.» *Fuit* é «foi», «existiu».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«esse não viveu muito, durou muito», como está",
+     "nota": "Curto e claro, com a antítese.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«esse não viveu muito, existiu muito»",
+     "nota": "Mais perto de *fuit*, um pouco mais abstrato."
+    },
+    {
+     "id": "c",
+     "texto": "«esse não viveu muito tempo: esteve muito tempo no mundo»",
+     "nota": "Explica, mas perde a simetria das duas metades."
+    }
+   ]
+  },
+  {
+   "id": "protinus-vive",
+   "titulo": "*Protinus vive*: «vive desde já»?",
+   "ref": "9.1",
+   "contexto": "«Omnia quae ventura sunt in incerto iacent: protinus vive.» — «Tudo o que há de vir jaz na incerteza: vive desde já.» *Protinus* é «imediatamente», «sem demora», contra o adiamento de que Sêneca acaba de falar.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«vive desde já»",
+     "nota": "Diz o «sem esperar» do contexto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«vive agora»",
+     "nota": "Mais curto e mais conhecido; perde um pouco o «sem demora»."
+    },
+    {
+     "id": "c",
+     "texto": "«vive imediatamente»",
+     "nota": "Literal, mas pesado no fim da frase."
+    }
+   ]
+  },
+  {
+   "id": "verso-virgilio",
+   "titulo": "O verso de Virgílio vai em verso?",
+   "ref": "9.2–9.4",
+   "contexto": "Sêneca cita as *Geórgicas* (III, 66–67): «Optima quaeque dies miseris mortalibus aevi / prima fugit», e comenta palavra por palavra (o *dia*, não a *idade*; *primeiro*; os *mortais infelizes*, «isto é, os ocupados»). Nossa tradução, em verso longo de seis tempos (ritmo conferido com o Versificador):\n«Para os mortais infelizes, o dia melhor da existência / foge primeiro.»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "em verso, como está: «Para os mortais infelizes, o dia melhor da existência / foge primeiro.»",
+     "nota": "Guarda o ritmo do hexâmetro e as palavras que o comentário retoma.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "em prosa: «O melhor dia da vida é o primeiro a fugir para os pobres mortais.»",
+     "nota": "Mais simples, mas deixa de soar como poesia citada."
+    }
+   ]
+  },
+  {
+   "id": "innoxis",
+   "titulo": "13.6: «homens inocentes», como no latim de Hermes, ou «criminosos», como em outras edições?",
+   "ref": "13.6",
+   "contexto": "Sobre o combate de elefantes que Pompeu ofereceu no circo: «commissis more proeli innoxis hominibus» (Hermes, ao lado) — «lançando contra eles, à maneira de batalha, homens inocentes». Outras edições leem *noxiis* («criminosos», os condenados que se davam às feras). O manuscrito está estragado neste ponto; Hermes, com Lípsio e Gertz, lê *innoxis*, apoiado em Plínio, que conta o mesmo espetáculo. A leitura agrava a crueldade de Pompeu.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«homens inocentes», como está, seguindo o latim ao lado",
+     "nota": "Tradução e original coincidem.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«criminosos», seguindo as edições modernas",
+     "nota": "Leitura mais aceita hoje, mas diverge do latim que o leitor vê ao lado."
+    }
+   ]
+  },
+  {
+   "id": "cruces",
+   "titulo": "Passagens corrompidas (†): traduzir o sentido ou marcar a lacuna?",
+   "ref": "2.4 e 9.1",
+   "contexto": "Em dois lugares o latim de Hermes traz o sinal † (texto estragado no manuscrito): 2.4 «Quam multorum eloquentia † et cotidiana ostentandi ingenii spatio sanguinem educit!» e 9.1 «Potestne quicquam † sensus hominum eorum dico qui prudentiam iactant?». Nossa tradução dá o sentido que os editores reconstituem: «A quantos a eloquência e o empenho diário de exibir o talento tiram o sangue!»; «Pode haver coisa mais insensata do que o modo de pensar desses homens, digo, dos que alardeiam prudência?»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "traduzir o sentido, como está",
+     "nota": "O leitor lê uma frase inteira; o † continua no latim ao lado.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "marcar a lacuna também na tradução: «Pode haver algo † o modo de pensar desses homens…»",
+     "nota": "Mais rigoroso, mas a frase fica truncada para quem lê só o português."
+    }
+   ]
+  }
+ ]
+}

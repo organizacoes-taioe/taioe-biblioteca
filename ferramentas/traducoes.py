@@ -35,6 +35,9 @@ INDICES = {
                     '/* Catolicismo: obras em tradução (índice). Gerado por ferramentas/traducoes.py;\n'
                     '   o texto de cada obra fica em conteudo/<autor>/<obra>.js e só é carregado quando a obra é aberta.\n'
                     '   (Santa Teresinha tem índice próprio: conteudo/santa-teresinha/indice.js.) */\n\n'),
+    'nao-ficcao-traducoes': ('conteudo/nao-ficcao-traducoes.js',
+                             '/* Não-ficção: obras em tradução, sem comentários (índice). Gerado por ferramentas/traducoes.py;\n'
+                             '   as comentadas ficam em conteudo/nao-ficcao.js, do ferramentas/comentadas.py. */\n\n'),
     'literatura': ('conteudo/literatura.js',
                    '/* Literatura: obras em tradução (índice). Gerado por ferramentas/traducoes.py;\n'
                    '   o texto de cada obra fica em conteudo/<autor>/<obra>.js e só é carregado quando a obra é aberta.\n'

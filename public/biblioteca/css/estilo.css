@@ -248,6 +248,12 @@ main { padding: 0 1rem 5rem; }
   text-indent: 0; text-align: left; margin: .9em 0 .9em 2.2em;
   font-size: .95em; line-height: 1.55;
 }
+/* número da estrofe ({e N}, Os Lusíadas): à margem esquerda do primeiro verso */
+.texto p.verso { position: relative; }
+.texto .estrofe-n {
+  position: absolute; right: 100%; margin-right: .9em; margin-top: .3em; font-family: var(--sans); font-size: .62em;
+  letter-spacing: .04em; color: var(--tinta-tenue); white-space: nowrap; user-select: none;
+}
 .texto em { font-style: italic; }
 .leitura .texto p:first-child { text-indent: 0; }
 

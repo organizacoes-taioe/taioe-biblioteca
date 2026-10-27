@@ -26,6 +26,7 @@ AJUSTES = []
 
 MANUAL = {
     'quási': 'quase', 'Quási': 'Quase',
+    'sossêgo': 'sossego',                         # o léxico do sistema não tem a forma de hoje
     'Escorei-me': 'Escorei-me',                   # o esqueleto a tomava por «escorrer»
 }
 

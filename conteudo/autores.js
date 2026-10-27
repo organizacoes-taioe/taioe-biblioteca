@@ -20,6 +20,15 @@ BIBLIOTECA.autor({
   nota: 'Romancista, contista e memorialista alagoano.'
 });
 
+BIBLIOTECA.autor({
+  id: 'eca-de-queiros',
+  nome: 'Eça de Queirós',
+  nomeCompleto: 'José Maria de Eça de Queirós',
+  vida: '1845–1900',
+  ordem: 'Queirós, Eça de',
+  nota: 'Romancista, contista e cronista português.'
+});
+
 /* Catolicismo ("area": a pasta da capa; sem ela, o autor fica em Literatura) */
 
 BIBLIOTECA.autor({

@@ -130,10 +130,15 @@ def processar(obra, publicar=False):
     if publicar and getattr(config, 'CONTOS', None):
         publicar_coletanea(config, notas, partes, reg_em, reg_aj, tradicao)
     elif publicar:
-        edicao = notas_da_edicao(notas, reg_em, reg_aj, partes, tradicao, config.META['divisao'].get('rotulo'))
+        # config.rotulos: o lugar de cada correção na página «Sobre»; config.agrupar: a divisão publicada,
+        # quando não é a do fluxo (ex.: Policarpo Quaresma, partes com capítulos)
+        rotulos = config.rotulos(partes) if hasattr(config, 'rotulos') else None
+        edicao = notas_da_edicao(notas, reg_em, reg_aj, partes, tradicao, config.META['divisao'].get('rotulo'),
+                                 rotulos=rotulos)
         meta = config.META
         destino = os.path.join(RAIZ, 'conteudo', meta['autor'], meta['id'] + '.js')
-        montar.publicar(destino, meta, partes, edicao, getattr(notas, 'COMENTARIO', ''))
+        obra = config.agrupar(partes) if hasattr(config, 'agrupar') else partes
+        montar.publicar(destino, meta, obra, edicao, getattr(notas, 'COMENTARIO', ''))
         rel_js = f"conteudo/{meta['autor']}/{meta['id']}.js"
         if montar.registrar_no_index(os.path.join(RAIZ, 'index.html'), rel_js):
             print('acrescentado ao index.html:', rel_js)

@@ -21,6 +21,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'lima-barreto',
+  nome: 'Lima Barreto',
+  nomeCompleto: 'Afonso Henriques de Lima Barreto',
+  vida: '1881–1922',
+  ordem: 'Barreto, Lima',
+  nota: 'Romancista, contista e cronista carioca.'
+});
+
+BIBLIOTECA.autor({
   id: 'eca-de-queiros',
   nome: 'Eça de Queirós',
   nomeCompleto: 'José Maria de Eça de Queirós',

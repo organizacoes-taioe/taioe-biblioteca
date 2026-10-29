@@ -1333,6 +1333,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('junqueira-freire/inspiracoes-do-claustro-morte', 'Morte (Hora de Delírio)'),
   ('junqueira-freire/inspiracoes-do-claustro-o-jesuita', 'O jesuíta'),
   ('junqueira-freire/inspiracoes-do-claustro-temor', 'Temor'),
+  ('lima-barreto/policarpo-quaresma', 'Triste Fim de Policarpo Quaresma'),
   ('luis-de-camoes/os-lusiadas', 'Os Lusíadas'),
   ('luis-de-camoes/soneto-a-chaga-que-senhora-me-fizestes', 'A chaga que, Senhora, me fizestes'),
   ('luis-de-camoes/soneto-a-formosura-desta-fresca-serra', 'A formosura desta fresca serra'),

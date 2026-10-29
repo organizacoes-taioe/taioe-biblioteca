@@ -533,6 +533,14 @@ function dividirParte(o, p) {
   p.preambulo = bl.slice(0, inis[0]).filter((b) => !ehTitulo(b)).join('\n\n');
 }
 dados.obras.forEach((o) => { if (!o.poema && !o.coletanea && !umaParte(o)) o.partes.forEach((p) => dividirParte(o, p)); });
+/* romance em partes com capítulos (Policarpo Quaresma): a marca «{§ I.1}» só divide, não aparece no texto
+   (divisao.marcas = false) */
+const semMarcas = (s) => String(s).replace(/(^|\n)\{§ [^}]+\}\s*/g, '$1');
+dados.obras.forEach((o) => {
+  if (!o.divisao || o.divisao.marcas !== false) return;
+  const tira = (y) => { y.texto = semMarcas(y.texto); (y.filhos || []).forEach(tira); };
+  o.partes.forEach((p) => (p.filhos || []).forEach(tira));
+});
 const dividida = (o) => o.partes.some((p) => p.filhos);
 
 const curto = (x) => (x.tipo === 'capitulo' ? 'Capítulo ' + x.n : x.tipo === 'abertura' ? 'Abertura' : x.n);

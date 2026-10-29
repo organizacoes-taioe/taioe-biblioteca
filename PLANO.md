@@ -91,3 +91,12 @@ obras só caem em domínio público 95 anos depois da publicação.
 | 4 | _Caetés_ | 1933, Schmidt | a levantar | a levantar | a fazer |
 | 5 | _Insônia_ | 1947, José Olympio | — | a levantar | a fazer |
 | 6 | _Infância_ | 1945, José Olympio | a levantar | a levantar | a fazer |
+
+# Lima Barreto (desde 2026-10-29)
+
+Mesmo processo. Edição-base: a última revista pelo autor que se pode ler em fac-símile, com os erros
+dela corrigidos e listados na «Sobre».
+
+| # | Obra | 1ª edição | Revista em vida | Fontes | Situação |
+|---|------|-----------|-----------------|--------|----------|
+| 1 | _Triste Fim de Policarpo Quaresma_ | folhetim, _Jornal do Commercio_, 1911 | livro, 1915 (única em vida; BBM 4361, Commons/Princeton) | PG 67535 (1915) · OCR de Princeton (DjVu do Commons) · Tesseract da BBM 4361 · BVEB/Ática e WS (modernas) | **publicado** (base 1915; 3 partes, 15 capítulos) |

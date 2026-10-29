@@ -58,6 +58,10 @@ As fontes baixadas e os relatórios ficam em `ferramentas/cache/<obra>/` (fora d
      desempate é o texto impresso das provas de 1946 (outros dois OCRs), os parágrafos vão por voto das
      quatro leituras, o itálico sai da inclinação das letras (`italico.py`) e `revisao.py` junta numa
      lista só os pontos a conferir nas imagens.
+   - **Partes com capítulos** (ex.: _Policarpo Quaresma_): no fluxo, cada capítulo é uma parte («I.III»);
+     `config.agrupar(partes)` refaz as partes na publicação, com «## Capítulo N — título» e a marca
+     «{§ P.c}» que o gerador usa para dividir as páginas (`divisao.marcas = False` a esconde), e
+     `config.rotulos(partes)` dá o lugar de cada correção na «Sobre» («I, cap. III»).
 3. **Intervenções** (`edicoes/<obra>/decisoes.py`, `EMENDAS`): erros tipográficos da
    edição-base (`erro`), lições da tradição posterior (`edicao`), erros das
    transcrições (`ocr`) e lições da edição-base conferidas no fac-símile que o confronto

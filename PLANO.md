@@ -54,7 +54,7 @@ Acordo de 1990) · **MEC** Obra Completa, Nova Aguilar, 1994 (texto moderno).
 | # | Obra | 1ª edição | Transcrições | Moderno | Situação |
 |---|------|-----------|--------------|---------|----------|
 | 10 | _Papéis Avulsos_ | 1882, Lombaerts (única em vida) | PG 57001 (1882) · OCR BBM 4774 | MDN (conto a conto) · MEC · Objetivo | **publicado** (12 contos e a advertência) |
-| 11 | _Histórias sem Data_ | 1884, Garnier | PG 33056 · WS (1884) | MDN · MEC | a fazer |
+| 11 | _Histórias sem Data_ | 1884, Garnier (única em vida; com errata) | PG 33056 (= WS) · OCR IA e Tesseract do exemplar de Toronto (IA historiassemdata00machuoft) | MDN (conto a conto) · MEC · Objetivo | **publicado** (18 contos e a advertência) |
 | 12 | _Várias Histórias_ | 1896, Laemmert | WS (1896) | MDN · MEC | a fazer |
 | 13 | _Páginas Recolhidas_ | 1899, Garnier | WS (1899) | MDN (contos) · MEC | a fazer |
 | 14 | _Relíquias de Casa Velha_ | 1906, Garnier | PG 67935 (reimpr.) · WS (1906) | MDN (contos) · MEC | a fazer |

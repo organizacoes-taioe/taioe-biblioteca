@@ -17,6 +17,7 @@ import path from 'node:path';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const SAIDA = path.join(RAIZ, 'public', 'biblioteca');
@@ -615,10 +616,51 @@ const sitemap = [];
 let paginas = 0;
 const OCULTOS = AREAS.filter((x) => x.oculta).map((x) => U.area(x.id)).concat(dados.autores.filter(autorOculto).map((a) => U.autor(a)));
 const ehOculta = (url) => OCULTOS.some((pre) => url.startsWith(pre));
+/* ── o latim com æ e œ ──
+   Pedido do Gere (29/10/2026): o latim na tela com as ligaduras, como nas edições da Igreja
+   (cælum, cœpit), e o trema no hiato (Israël, poëta, aër). Os arquivos de conteudo/ e edicoes/
+   continuam com «ae» e «oe», e a busca já iguala æ a ae (normal, adiante); a troca é só no texto
+   das páginas que está dentro de um elemento com lang="la". A função é a mesma dos Cards
+   (comum/ligaduras.js, cópia idêntica da de taioe-cards). */
+const Ligaduras = createRequire(import.meta.url)('./comum/ligaduras.js');
+const VAZIOS = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'track', 'wbr']);
+function comLigaduras(html) {
+  if (html.indexOf('lang="la"') < 0) return html;
+  const pilha = [];
+  let saida = '', i = 0;
+  while (i < html.length) {
+    const lt = html.indexOf('<', i);
+    const fim = lt < 0 ? html.length : lt;
+    if (fim > i) {
+      const texto = html.slice(i, fim);
+      saida += pilha.length && pilha[pilha.length - 1] === 'la' ? Ligaduras.ligar(texto) : texto;
+    }
+    if (lt < 0) break;
+    const gt = html.indexOf('>', lt);
+    const tag = html.slice(lt, gt + 1);
+    saida += tag;
+    i = gt + 1;
+    const m = /^<(\/?)([a-zA-Z][\w-]*)/.exec(tag);
+    if (!m) continue;
+    const nome = m[2].toLowerCase();
+    if (m[1]) { pilha.pop(); continue; }
+    if (nome === 'script' || nome === 'style') {
+      const fecha = html.indexOf('</' + nome, i);
+      saida += html.slice(i, fecha);
+      i = fecha;
+      pilha.push(null);
+      continue;
+    }
+    if (VAZIOS.has(nome) || tag.endsWith('/>')) continue;
+    const lang = /\slang="([^"]*)"/.exec(tag);
+    pilha.push(lang ? lang[1] : (pilha.length ? pilha[pilha.length - 1] : null));
+  }
+  return saida;
+}
 function gravar(url, html) {
   const dir = path.join(SAIDA, url.slice(BASE.length));
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), html);
+  fs.writeFileSync(path.join(dir, 'index.html'), comLigaduras(html));
   paginas++;
 }
 function pagina(o) {

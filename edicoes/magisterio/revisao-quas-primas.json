@@ -1,0 +1,26 @@
+{
+ "id": "magisterio-quas-primas",
+ "rotulo": "Quas Primas (Pio XI, 1925)",
+ "url": "/biblioteca/igreja-catolica/quas-primas/",
+ "escolhas": [
+  {
+   "id": "nota-33",
+   "titulo": "A nota 33 (Mt XI, 30), que só o site do Vaticano tem, fica?",
+   "ref": "§ 20, nota 33",
+   "contexto": "No «o meu jugo é suave…», o site da Santa Sé põe a referência como nota 33; as _Acta_ (o texto oficial) e a versão inglesa não a têm. Hoje a nota está lá, e as notas seguem a numeração do site (34 a 36).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica, como está",
+     "nota": "A numeração das notas continua igual à do site, e a referência ajuda o leitor.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Sai, e as notas 34–36 passam a 33–35",
+     "nota": "Fiel às _Acta_; a numeração deixa de bater com o site."
+    }
+   ]
+  }
+ ]
+}

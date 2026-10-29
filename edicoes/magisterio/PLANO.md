@@ -42,6 +42,17 @@ nossa é nova, do texto oficial. A fila e o resto da lista estão em `taioe.com.
 | 9 | *Immortale Dei* | Leão XIII | 1885 | latim | ~6,5 mil | no ar (2º lote) |
 | 10 | *Humanum Genus* | Leão XIII | 1884 | latim | ~5,5 mil | no ar (2º lote) |
 
+## Pedidos de 29/10 (3º lote)
+
+| documento | papa | data | língua | palavras | estado |
+|---|---|---|---|---|---|
+| *Mit brennender Sorge* | Pio XI | 1937 | alemão | ~8 mil | no ar (3º lote); numeração do texto alemão (1–53) |
+| *Casti Connubii* | Pio XI | 1930 | latim | ~13 mil | no ar (3º lote); parágrafos das _Acta_ |
+| *Quas Primas* | Pio XI | 1925 | latim | ~5 mil | no ar (3º lote) |
+| *Spiritus Paraclitus* | Bento XV | 1920 | latim | ~10 mil | no ar (3º lote) |
+
+Uma decisão de cada nas pendências («Biblioteca: traduções»): `revisao-<documento>.json` nesta pasta.
+
 ## Depois
 
 Os próximos vêm da lista do Magistério em `/admin/sugestoes/`, quando o Gere pedir. O levantamento
@@ -52,5 +63,8 @@ Os concílios gregos pedem o texto do Mansi (o latim on-line é de edição mode
 
 - O vatican.va responde HTTP 200 a qualquer língua, mesmo sem tradução: conferir o texto da página.
 - O texto do vatican.va vem de OCR das *Acta* e tem erros («f.. r.», «A. A. 5.»): corrigir só o evidente.
+- O vatican.va às vezes põe parágrafos fora de `<p>`: o extrator os dá como `<solto>` desde 29/10 (a
+  *Quas Primas* perdia o § 5). Os 10 primeiros foram conferidos: nada faltava.
+- Texto que não é latim nem italiano: a língua entra em `ADJETIVO` (`obras.py`) e em `LINGUAS` (`gerar.mjs`).
 - O Catecismo (PR #7, rascunho) também cria o autor `igreja-catolica`: ao juntar, ficar com uma
   entrada só em `conteudo/autores.js`.

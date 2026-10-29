@@ -1,0 +1,26 @@
+{
+ "id": "magisterio-spiritus-paraclitus",
+ "rotulo": "Spiritus Paraclitus (Bento XV, 1920)",
+ "url": "/biblioteca/igreja-catolica/spiritus-paraclitus/",
+ "escolhas": [
+  {
+   "id": "sacrorum-alumni",
+   "titulo": "*Sacrorum alumni* fica «seminaristas»?",
+   "ref": "perto do fim",
+   "contexto": "Hoje: «…e sobretudo os que formam nesta disciplina os seminaristas, a seguirem com ânimo constante as pegadas do Doutor de Estridão…». O latim diz, ao pé da letra, «os alunos das coisas sagradas», os que se preparam para o sacerdócio.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«seminaristas», como está",
+     "nota": "Claro e é quem o papa tem em vista.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«os alunos das ciências sagradas»",
+     "nota": "Mais literal e mais largo (inclui leigos que estudam teologia)."
+    }
+   ]
+  }
+ ]
+}

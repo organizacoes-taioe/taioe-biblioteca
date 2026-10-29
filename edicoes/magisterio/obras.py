@@ -18,10 +18,18 @@ DOCS = {
         '19 de março de 1937', 1937, 'latim', 'la', 'AAS 29 (1937), p. 65-106',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html',
         'https://www.vatican.va/archive/aas/documents/AAS-29-1937-ocr.pdf'),
+    'mit-brennender-sorge': ('Mit brennender Sorge', 'Sobre a situação da Igreja Católica no Reich alemão', 'Carta encíclica', 'Pio XI',
+        '14 de março de 1937', 1937, 'alemão', 'de', 'AAS 29 (1937), p. 145-167',
+        'https://www.vatican.va/content/pius-xi/de/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-29-1937-ocr.pdf'),
     'quadragesimo-anno': ('Quadragesimo Anno', 'Sobre a restauração da ordem social', 'Carta encíclica', 'Pio XI',
         '15 de maio de 1931', 1931, 'latim', 'la', 'AAS 23 (1931), p. 177-228',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html',
         'https://www.vatican.va/archive/aas/documents/AAS-23-1931-ocr.pdf'),
+    'casti-connubii': ('Casti Connubii', 'Sobre o matrimônio cristão', 'Carta encíclica', 'Pio XI',
+        '31 de dezembro de 1930', 1930, 'latim', 'la', 'AAS 22 (1930), p. 539-592',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-22-1930-ocr.pdf'),
     'divini-illius-magistri': ('Divini Illius Magistri', 'Sobre a educação cristã da juventude', 'Carta encíclica', 'Pio XI',
         '31 de dezembro de 1929', 1929, 'latim', 'la', 'AAS 22 (1930), p. 49-86',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html',
@@ -30,6 +38,14 @@ DOCS = {
         '6 de janeiro de 1928', 1928, 'latim', 'la', 'AAS 20 (1928), p. 5 e seguintes',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html',
         'https://www.vatican.va/archive/aas/documents/AAS-20-1928-ocr.pdf'),
+    'quas-primas': ('Quas Primas', 'Sobre a festa de Cristo Rei', 'Carta encíclica', 'Pio XI',
+        '11 de dezembro de 1925', 1925, 'latim', 'la', 'AAS 17 (1925), p. 593-610',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-17-1925-ocr.pdf'),
+    'spiritus-paraclitus': ('Spiritus Paraclitus', 'Sobre São Jerônimo e a Sagrada Escritura', 'Carta encíclica', 'Bento XV',
+        '15 de setembro de 1920', 1920, 'latim', 'la', 'AAS 12 (1920), p. 385-422',
+        'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-12-1920-ocr.pdf'),
     'maximum-illud': ('Maximum Illud', 'Sobre a propagação da fé católica no mundo', 'Carta apostólica', 'Bento XV',
         '30 de novembro de 1919', 1919, 'latim', 'la', 'AAS 11 (1919), p. 440-455',
         'https://www.vatican.va/content/benedict-xv/la/apost_letters/documents/hf_ben-xv_apl_19191130_maximum-illud.html',
@@ -55,11 +71,23 @@ DOCS = {
         'https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_18840420_humanum-genus.html',
         'https://www.vatican.va/archive/ass/documents/ASS-16-1883-84-1-576+supplemento-17-96-ocr.pdf'),
 }
+ADJETIVO = {'la': 'latino', 'it': 'italiano', 'de': 'alemão'}
 ACTA = {'AAS': '_Acta Apostolicae Sedis_', 'ASS': '_Acta Sanctae Sedis_'}
 NUMERACAO = {   # de onde vem a numeração dos parágrafos (a marca à margem)
     'tra-le-sollecitudini': 'Os números dos parágrafos são os do próprio documento.',
+    'mit-brennender-sorge': ('Os números dos parágrafos são os do texto alemão do site da Santa Sé (as _Acta_ não '
+                             'numeram; a versão inglesa junta parágrafos e vai só até 43).'),
 }
-CORRECOES = {}  # id: frase sobre as correções feitas no texto de base
+CORRECOES = {  # id: frase sobre as correções feitas no texto de base
+    'mit-brennender-sorge': ('O texto do site é de outra composição que não a das _Acta_: onde ele perdia uma frase '
+                             '(§ 35) e onde tinha erros evidentes de digitação, seguimos as _Acta_.'),
+    'casti-connubii': ('Os erros de digitalização do site (mais de sessenta) foram corrigidos pelas _Acta_, cuja '
+                       'divisão em parágrafos seguimos; também por elas se acertaram as chamadas de nota que o site '
+                       'trocava.'),
+    'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
+    'spiritus-paraclitus': ('Os erros de digitalização do site (uns setenta no texto e trinta nas notas) foram '
+                            'corrigidos pelas _Acta_.'),
+}
 
 
 def meta(doc):
@@ -81,7 +109,7 @@ def meta(doc):
                 '**A tradução.** Nossa, feita do ' + lingua + ', em português do Brasil. As citações da Escritura e de '
                 'outros documentos foram traduzidas como o documento as dá, e as notas são as dele. ' + numeracao + '\n\n'
                 f'**O original ao lado.** O botão «{lingua.capitalize()}», no alto da página de leitura, mostra o texto '
-                f'{"latino" if cod == "la" else "italiano"} junto da tradução.'),
+                f'{ADJETIVO[cod]} junto da tradução.'),
             'fontes': [
                 {'nome': f'Site da Santa Sé, texto em {lingua}', 'url': url},
                 {'nome': f'{acta.strip("_")}, {citacao}', 'url': pdf, 'nota': 'o texto oficial, em fac-símile'},

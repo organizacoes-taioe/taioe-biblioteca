@@ -1,0 +1,26 @@
+{
+ "id": "magisterio-casti-connubii",
+ "rotulo": "Casti Connubii (Pio XI, 1930)",
+ "url": "/biblioteca/igreja-catolica/casti-connubii/",
+ "escolhas": [
+  {
+   "id": "fides",
+   "titulo": "Nos três bens do matrimônio, *fides* fica «fidelidade»?",
+   "ref": "toda a obra; ex.: § 43",
+   "contexto": "Os três bens de Santo Agostinho (*proles, fides, sacramentum*) estruturam a encíclica. Hoje: «se estes excelentes bens do matrimônio, prole, fidelidade, sacramento, forem postos na devida luz…» (17 vezes «fidelidade»). Traduções antigas em português dizem «fé conjugal».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«fidelidade», como está",
+     "nota": "É o sentido (a fidelidade mútua dos esposos) e o termo dos catecismos de hoje.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«fé conjugal»",
+     "nota": "Mais próximo do latim e das traduções antigas; «fé» pode ser lida como a virtude teologal."
+    }
+   ]
+  }
+ ]
+}

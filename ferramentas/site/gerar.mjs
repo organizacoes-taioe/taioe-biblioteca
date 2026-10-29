@@ -279,7 +279,7 @@ const acharArea = (id) => AREAS.find((x) => x.id === id) || null;
    /biblioteca/literatura/<slug>/ levam à Literatura filtrada (public/_redirects). */
 const LINGUAS = { pt: { nome: 'Português', slug: 'portugues' }, es: { nome: 'Espanhol', slug: 'espanhol' },
   en: { nome: 'Inglês', slug: 'ingles' }, fr: { nome: 'Francês', slug: 'frances' }, it: { nome: 'Italiano', slug: 'italiano' },
-  la: { nome: 'Latim', slug: 'latim' }, grc: { nome: 'Grego', slug: 'grego' } };
+  la: { nome: 'Latim', slug: 'latim' }, grc: { nome: 'Grego', slug: 'grego' }, de: { nome: 'Alemão', slug: 'alemao' } };
 const nomeGenero = (g) => PLURAIS[g] || g;
 const slug = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const slugGenero = (g) => slug(nomeGenero(g));

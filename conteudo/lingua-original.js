@@ -145,7 +145,7 @@ BIBLIOTECA.poemas({
   arquivo: "conteudo/cervantes/lingua-original.js",
   livros: [{"id": "el-ingenioso-hidalgo-don-quijote-de-la-mancha", "titulo": "El ingenioso hidalgo don Quijote de la Mancha", "ano": 1605}],
   poemas: [
-    {"id":"cervantes-quijote","titulo":"Capítulo primero","forma":"outras","livro":0,"ordem":0,"versos":25,"lingua":"es","ano":1605,"glossario":true,"subtitulo":"Que trata de la condición y ejercicio del famoso hidalgo don Quijote de la Mancha","genero":"Romance","prosa":true,"pt":{"tradutor":"António Feliciano de Castilho","titulo":"Capítulo I","ano":1876}}
+    {"id":"cervantes-quijote","titulo":"Capítulo primero","forma":"outras","livro":0,"ordem":0,"versos":35,"lingua":"es","ano":1605,"glossario":true,"subtitulo":"Que trata de la condición y ejercicio del famoso hidalgo don Quijote de la Mancha","genero":"Romance","prosa":true,"pt":{"tradutor":"António Feliciano de Castilho","titulo":"Capítulo I","ano":1876}}
   ]
 });
 

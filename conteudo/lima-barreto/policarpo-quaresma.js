@@ -69,6 +69,7 @@ BIBLIOTECA.obra({
       {"cap": "II, cap. II", "de": "A Ismenia ooi aquella", "para": "A Ismenia foi aquella"},
       {"cap": "II, cap. III", "de": "charfurdar-se", "para": "chafurdar-se"},
       {"cap": "II, cap. III", "de": "levantamento moral a intellectual", "para": "levantamento moral e intellectual"},
+      {"cap": "II, cap. III", "de": "com o o seu terno", "para": "com o seu terno"},
       {"cap": "II, cap. III", "de": "a irmã da Quaresma a perguntar", "para": "a irmã de Quaresma a perguntar"},
       {"cap": "II, cap. III", "de": "varrendo a testada, ¶ Apezar", "para": "varrendo a testada. ¶ Apezar"},
       {"cap": "II, cap. III", "de": "difficilmente. e solemnemente", "para": "difficilmente, e solemnemente"},
@@ -77,16 +78,20 @@ BIBLIOTECA.obra({
       {"cap": "II, cap. IV", "de": "precisavam desse processos", "para": "precisavam desses processos"},
       {"cap": "II, cap. IV", "de": "batalha sem treguas, Se", "para": "batalha sem treguas. Se"},
       {"cap": "II, cap. V", "de": "boa fé, sinceriddae", "para": "boa fé, sinceridade"},
+      {"cap": "II, cap. V", "de": "examinando o soldado, Era branco", "para": "examinando o soldado. Era branco"},
+      {"cap": "II, cap. V", "de": "da população. inteira", "para": "da população inteira"},
       {"cap": "II, cap. V", "de": "Deodoro nunca sôbe o que", "para": "Deodoro nunca soube o que"},
       {"cap": "II, cap. V", "de": "o Almirante, não. Quaresma passavam", "para": "o Almirante, não. Quando passavam"},
       {"cap": "II, cap. V", "de": "os pequenos. os alferes", "para": "os pequenos, os alferes"},
       {"cap": "III, cap. II", "de": "Uma inquidade", "para": "Uma iniquidade"},
       {"cap": "III, cap. II", "de": "em um polygno", "para": "em um polygono"},
       {"cap": "III, cap. II", "de": "Quaresma o não pia.", "para": "Quaresma o não via."},
+      {"cap": "III, cap. III", "de": "Quaresma viu caixão do coche", "para": "Quaresma viu o caixão do coche"},
       {"cap": "III, cap. III", "de": "todas aquelles que", "para": "todos aquelles que"},
       {"cap": "III, cap. IV", "de": "longo e tristes dias", "para": "longos e tristes dias"},
       {"cap": "III, cap. IV", "de": "faz um reduzido", "para": "faz uso reduzido"},
       {"cap": "III, cap. IV", "de": "transcedente medicina", "para": "transcendente medicina"},
+      {"cap": "III, cap. IV", "de": "desesperada a a nossa roça", "para": "desesperada a nossa roça"},
       {"cap": "III, cap. IV", "de": "separados pela bahia. agora", "para": "separados pela bahia, agora"},
       {"cap": "III, cap. IV", "de": "Na rua. Genelicio", "para": "Na rua, Genelicio"},
       {"cap": "III, cap. V", "de": "Fustel de Conlangos", "para": "Fustel de Coulanges"},
@@ -146,7 +151,7 @@ Quando entrou em casa, naquele dia, foi a irmã quem lhe abriu a porta, pergunta
 
 — Policarpo, você precisa tomar juízo. Um homem de idade, com posição, respeitável, como você é, andar metido com esse seresteiro, um quase capadócio — não é bonito!
 
-O major descansou o chapéu-de-sol — um antigo chapéu-de-sol, com a haste inteiramente de madeira, e um cabo de volta, incrustado de pequenos losangos de madrepérola — e respondeu:
+O major descansou o chapéu de sol — um antigo chapéu de sol, com a haste inteiramente de madeira, e um cabo de volta, incrustado de pequenos losangos de madrepérola — e respondeu:
 
 — Mas você está muito enganada, mana. É preconceito supor-se que todo o homem que toca violão é um desclassificado. A modinha é a mais genuína expressão da poesia nacional e o violão é o instrumento que ela pede. Nós é que temos abandonado o gênero, mas ele já esteve em honra, em Lisboa, no século passado, com o padre Caldas, que teve um auditório de fidalgas. Beckford, um inglês notável, muito o elogia.
 
@@ -212,7 +217,7 @@ Ricardo, depois de ser poeta e o cantor dessa curiosa aristocracia, extravasou e
 
 Mas que vinha ele fazer ali, na casa de pessoa de propósitos tão altos e tão severos hábitos? Não é difícil atinar. Decerto, não vinha auxiliar o major nos seus estudos de geologia, de poética, de mineralogia e história brasileiras.
 
-Como bem supôs a vizinhança, o Coração dos Outros vinha ali tão-somente ensinar o Major a cantar modinhas e a tocar violão. Nada mais, e é simples.
+Como bem supôs a vizinhança, o Coração dos Outros vinha ali tão somente ensinar o Major a cantar modinhas e a tocar violão. Nada mais, e é simples.
 
 De acordo com a sua paixão dominante, Quaresma estivera muito tempo a meditar qual seria a expressão poético-musical característica da alma nacional. Consultou historiadores, cronistas e filósofos e adquiriu certeza que era a modinha acompanhada pelo violão. Seguro dessa verdade, não teve dúvidas: tratou de aprender o instrumento genuinamente brasileiro: e entrar nos segredos da modinha. Estava nisso tudo _a quo_, mas procurou saber quem era o primeiro executor e cantor da cidade e tomou lições com ele. O seu fim era disciplinar a modinha e tirar dela um forte motivo original de arte.
 
@@ -246,7 +251,7 @@ Sentaram-se à mesa. Quaresma agarrou uma pequena garrafa de cristal e serviu do
 
 — É do programa nacional, fez a irmã, sorrindo.
 
-— Decerto, e é um magnífico aperitivo. Esses vermutes por ai, drogas! Isto é álcool puro, bom, de cana, não é de batatas ou milho...
+— Decerto, e é um magnífico aperitivo. Esses vermutes por aí, drogas! Isto é álcool puro, bom, de cana, não é de batatas ou milho...
 
 Ricardo agarrou o cálice com delicadeza e respeito, levou-o aos lábios e foi como se todo ele bebesse o licor nacional.
 
@@ -258,7 +263,7 @@ Ricardo agarrou o cálice com delicadeza e respeito, levou-o aos lábios e foi c
 
 E o jantar correu assim, nesse tom. Quaresma exaltando os produtos nacionais: a banha, o toucinho e o arroz; a irmã fazia pequenas objeções e Ricardo dizia: «é, é, não há dúvida» — rolando nas órbitas os olhos pequenos, franzindo a testa diminuta que se sumia no cabelo áspero, forçando muito a sua fisionomia miúda e dura a adquirir uma expressão sincera de delicadeza e satisfação.
 
-Acabado o jantar foram ver o jardim. Era uma maravilha; não tinha nem uma flor... Certamente não se podia tomar por tal míseros beijos-defrade, palmas de Santa Rita, quaresmas lutulentas, manacás melancólicos e outros belos exemplares dos nossos campos e prados. Como em tudo o mais, o Major era em jardinagem essencialmente nacional. Nada de rosas, de crisântemos, de magnólias — flores exóticas; as nossas terras tinham outras mais belas, mais expressivas, mais olentes, como aquelas que ele tinha ali.
+Acabado o jantar foram ver o jardim. Era uma maravilha; não tinha nem uma flor... Certamente não se podia tomar por tal míseros beijos-de-frade, palmas de Santa Rita, quaresmas lutulentas, manacás melancólicos e outros belos exemplares dos nossos campos e prados. Como em tudo o mais, o Major era em jardinagem essencialmente nacional. Nada de rosas, de crisântemos, de magnólias — flores exóticas; as nossas terras tinham outras mais belas, mais expressivas, mais olentes, como aquelas que ele tinha ali.
 
 Ricardo ainda uma vez concordou e os dois entraram na sala, quando o crepúsculo vinha devagar, muito vagaroso e lento, como se fosse um longo adeus saudoso do sol ao deixar a terra, pondo nas coisas a sua poesia dolente e a sua deliquescência.
 
@@ -355,7 +360,7 @@ Quaresma ficou encantado, quando Albernaz falou em organizar uma chegança, à m
 
 O major pensara até ali pouco nessas coisas de festas e danças tradicionais, entretanto viu logo a significação altamente patriótica do intento. Aprovou e animou o vizinho. Mas quem havia de ensaiar, de dar os versos e a música? Alguém lembrou a tia Maria Rita, uma preta velha, que morava em Benfica, antiga lavadeira da família Albernaz. Lá foram os dois, o general Albernaz e o major Quaresma, alegres, apressados, por uma linda e cristalina tarde de abril.
 
-O general nada tinha de marcial, nem mesmo o uniforme que talvez não possuísse. Durante toda a sua carreira militar, não viu uma única batalha, não tivera um comando, nada fizera que tivesse relação com a sua profissão e o seu curso de artilheiro. Fora sempre ajudante-de-ordens, assistente, encarregado disso ou daquilo, escriturário, almoxarife, e era secretário do Conselho Supremo Militar, quando, se reformou em general. Os seus hábitos eram de um bom chefe de seção e a sua inteligência não era muito diferente dos seus hábitos. Nada entendia de guerras, de estratégia, de tática ou de história militar; a sua sabedoria a tal respeito estava reduzida às batalhas do Paraguai, para ele a maior e a mais extraordinária guerra de todos os tempos.
+O general nada tinha de marcial, nem mesmo o uniforme que talvez não possuísse. Durante toda a sua carreira militar, não viu uma única batalha, não tivera um comando, nada fizera que tivesse relação com a sua profissão e o seu curso de artilheiro. Fora sempre ajudante de ordens, assistente, encarregado disso ou daquilo, escriturário, almoxarife, e era secretário do Conselho Supremo Militar, quando, se reformou em general. Os seus hábitos eram de um bom chefe de seção e a sua inteligência não era muito diferente dos seus hábitos. Nada entendia de guerras, de estratégia, de tática ou de história militar; a sua sabedoria a tal respeito estava reduzida às batalhas do Paraguai, para ele a maior e a mais extraordinária guerra de todos os tempos.
 
 O altissonante título de general, que lembrava coisas sobre-humanas dos Césares, dos Turennes e dos Gustavos Adolfos, ficava mal naquele homem plácido, medíocre, bonachão, cuja única preocupação era casar as cinco filhas e arranjar _pistolões_ para fazer passar o filho nos exames do Colégio Militar. Contudo, não era conveniente que se duvidasse das suas aptidões guerreiras. Ele mesmo, percebendo o seu ar muito civil, de onde em onde, contava um episódio de guerra, uma anedota militar.» «Foi em Lomas Valentinas, dizia ele»... Se alguém perguntava: «O general assistiu a batalha?» Ele respondia logo: «Não pude. Adoeci e vim para o Brasil, nas vésperas. Mas soube pelo Camisão, pelo Venâncio que a coisa esteve preta.»
 
@@ -367,7 +372,7 @@ Entre nós tudo é inconsistente, provisório, não dura. Não havia ali nada qu
 
 Quaresma e Albernaz atravessaram tudo aquilo sem reminiscências e foram até ao ponto. Antes perlustraram a zona do turfe, uma pequena porção da cidade onde se amontoam cocheiras e coudelarias de animais de corridas, tendo grandes ferraduras, cabeças de cavalos, panóplias de chicotes e outros emblemas hípicos, nos pilares dos portões, nas almofadas das portas, por toda parte onde tais distintivos fiquem bem e deem na vista.
 
-A casa da velha preta ficava além do ponto, para as bandas da estação da estrada de ferro Leopoldina. Lá foram ter. Passaram pela estação. Sobre um largo terreiro, negro de moinha de carvão-de-pedra, medas de lenha e imensas tulhas de sacos de carvão vegetal se acumulavam; mais adiante um depósito de locomotivas e sobre os trilhos algumas manobravam e outras arfavam sob pressão.
+A casa da velha preta ficava além do ponto, para as bandas da estação da estrada de ferro Leopoldina. Lá foram ter. Passaram pela estação. Sobre um largo terreiro, negro de moinha de carvão de pedra, medas de lenha e imensas tulhas de sacos de carvão vegetal se acumulavam; mais adiante um depósito de locomotivas e sobre os trilhos algumas manobravam e outras arfavam sob pressão.
 
 Apanharam afinal o carreiro onde ficava a casa da Maria Rita. O tempo estivera seco e por isso se podia andar por ele. Para além do caminho, estendia-se a vasta região de mangues, uma zona imensa, triste e feia, que vai até ao fundo da baía e, no horizonte, morre ao sopé das montanhas azuis de Petrópolis. Chegaram à casa da velha. Era baixa, caiada e coberta com as pesadas telhas portuguesas. Ficava um pouco afastada da estrada. À direita havia um monturo: restos de cozinha, trapos, conchas de mariscos, pedaços de louça caseira — um sambaqui a fazer-se para gáudio de um arqueólogo de futuro remoto; à esquerda, crescia um mamoeiro e bem junto à cerca, no mesmo lado, havia um pé de arruda. Bateram. Uma pretinha moça apareceu na janela aberta.
 
@@ -440,7 +445,7 @@ Albernaz vinha contrariado. Contava arranjar um número bom para a festa que ia 
 
 O crepúsculo chegava e eles entraram em casa mergulhados na melancolia da hora.
 
-A decepção, porém, demorou dias. Cavalcânti, o noivo de Ismênia, informou que nas imediações morava um literato, teimoso cultivador dos contos e canções populares do Brasil. Foram a ele. Era um velho poeta que teve sua fama ai pelos setenta e tantos, homem doce e ingênuo que se deixara esquecer em vida, como poeta, e agora se entretinha em publicar coleções que ninguém lia, de contos, canções, adágios e ditados populares.
+A decepção, porém, demorou dias. Cavalcânti, o noivo de Ismênia, informou que nas imediações morava um literato, teimoso cultivador dos contos e canções populares do Brasil. Foram a ele. Era um velho poeta que teve sua fama aí pelos setenta e tantos, homem doce e ingênuo que se deixara esquecer em vida, como poeta, e agora se entretinha em publicar coleções que ninguém lia, de contos, canções, adágios e ditados populares.
 
 Foi grande a sua alegria quando soube o objeto da visita daqueles senhores. Quaresma estava animado e falou com calor; e Albernaz também, porque via na sua festa, com um número de _folklore_, meio de chamar a atenção sobre sua casa, atrair gente e... casar as filhas.
 
@@ -464,7 +469,7 @@ O colecionador revolveu pastas e afinal trouxe de lá um papel onde leu:
 
 Quaresma olhava para o velho poeta com o espanto satisfeito de algum que encontrou um semelhante no deserto; e Albernaz, um momento contagiado pela paixão do folclorista, tinha mais inteligência no olhar com que o encarava.
 
-O velho poeta guardou a canção de Urubu-de-Baixo, numa pasta; e foi logo à outra, donde tirou várias folhas de papel. Veio até junto aos dois visitantes e disse-lhes:
+O velho poeta guardou a canção de Urubu de Baixo, numa pasta; e foi logo à outra, donde tirou várias folhas de papel. Veio até junto aos dois visitantes e disse-lhes:
 
 — Vou ler aos senhores uma pequena história do macaco, das muitas que o nosso povo conta... Só eu já tenho perto de quarenta e pretendo publicá-las, sob o título _Histórias do Mestre Simão_.
 
@@ -663,7 +668,7 @@ Despedindo-se, o velho Albernaz corria aos armazéns, às lojas de louça, compr
 
 Na manhã do dia da festa comemorativa do pedido, D. Maricota amanheceu cantando. Era raro que o fizesse; mas nos dias de grande alegria, ela cantarolava uma velha ária, uma coisa do seu tempo de moça e as filhas que sentiam nisto sinal certo de alegria corriam a ela, pedindo-lhe isto ou aquilo.
 
-Muito ativa, muito diligente, não havia dona-de-casa mais econômica, mais poupada e que fizesse render mais o dinheiro do marido e o serviço das criadas. Logo que despertou, pôs tudo em atividade, as criadas e as filhas. Vivi e Quinota foram para os doces; Lalá e Zizi auxiliaram as raparigas na arrumação das salas e dos quartos, enquanto ela e Ismênia iam arrumar a mesa, dispô-la com muito gosto e esplendor. O móvel ficaria assim galhardo desde as primeiras horas do dia. A alegria de D. Maricota era grande; ela não compreendia que uma mulher pudesse viver sem estar casada. Não eram só os perigos a que se achava exposta, a falta de arrimo; parecia-lhe feio e desonroso para a família. A sua satisfação não vinha do simples fato de ter descontado uma letra, como ela dizia. Vinha mais profundamente dos seus sentimentos maternos e de família.
+Muito ativa, muito diligente, não havia dona de casa mais econômica, mais poupada e que fizesse render mais o dinheiro do marido e o serviço das criadas. Logo que despertou, pôs tudo em atividade, as criadas e as filhas. Vivi e Quinota foram para os doces; Lalá e Zizi auxiliaram as raparigas na arrumação das salas e dos quartos, enquanto ela e Ismênia iam arrumar a mesa, dispô-la com muito gosto e esplendor. O móvel ficaria assim galhardo desde as primeiras horas do dia. A alegria de D. Maricota era grande; ela não compreendia que uma mulher pudesse viver sem estar casada. Não eram só os perigos a que se achava exposta, a falta de arrimo; parecia-lhe feio e desonroso para a família. A sua satisfação não vinha do simples fato de ter descontado uma letra, como ela dizia. Vinha mais profundamente dos seus sentimentos maternos e de família.
 
 Ela arrumava a mesa, nervosa e alegre; e a filha fria e indiferente.
 
@@ -739,7 +744,7 @@ Ei-lo a fazer malas para o Alto Uruguai, onde chegou enfim, depois de uma penosa
 
 O «Lima Barros» tinha ido a pique, durante a guerra do Paraguai.
 
-Embora absolvido, nunca mais entrou em graça dos ministros e dos seus generais. Todos o tinham na conta de parvo, de um comandante de opereta que andava à cata do seu navio pelos quatro pontos cardeais. Deixaram-no _encostado_, como se diz na gíria militar, e ele levou quase quarenta anos para chegar de Guarda-marinha a Capitão-de-fragata. Reformado no posto imediato, com graduação do seguinte, todo o seu azedume contra a Marinha se concentrou num longo trabalho de estudar leis, decretos, alvarás, avisos, consultas, que se referissem a promoções de oficiais. Comprava repertórios de legislação, armazenava coleções de leis, relatórios, e encheu a casa de toda essa enfadonha e fatigante literatura administrativa. Os requerimentos, pedindo a modificação da sua reforma, choviam sobre os ministros da Marinha. Corriam meses o infinito rosário de repartiçôes e eram sempre indeferidos, sobre consultas do Conselho Naval ou do Supremo Tribunal Militar. Ultimamente constituíra advogado junto à justiça federal e lá andava ele de cartório em cartório, acotovelando-se com meirinhos, escrivães, juízes e advogados — esse poviléu rebarbativo do foro que parece ter contraído todas as misérias que lhe passam pelas mãos e pelos olhos.
+Embora absolvido, nunca mais entrou em graça dos ministros e dos seus generais. Todos o tinham na conta de parvo, de um comandante de opereta que andava à cata do seu navio pelos quatro pontos cardeais. Deixaram-no _encostado_, como se diz na gíria militar, e ele levou quase quarenta anos para chegar de Guarda-marinha a Capitão de Fragata. Reformado no posto imediato, com graduação do seguinte, todo o seu azedume contra a Marinha se concentrou num longo trabalho de estudar leis, decretos, alvarás, avisos, consultas, que se referissem a promoções de oficiais. Comprava repertórios de legislação, armazenava coleções de leis, relatórios, e encheu a casa de toda essa enfadonha e fatigante literatura administrativa. Os requerimentos, pedindo a modificação da sua reforma, choviam sobre os ministros da Marinha. Corriam meses o infinito rosário de repartiçôes e eram sempre indeferidos, sobre consultas do Conselho Naval ou do Supremo Tribunal Militar. Ultimamente constituíra advogado junto à justiça federal e lá andava ele de cartório em cartório, acotovelando-se com meirinhos, escrivães, juízes e advogados — esse poviléu rebarbativo do foro que parece ter contraído todas as misérias que lhe passam pelas mãos e pelos olhos.
 
 Inocêncio Bustamante também tinha a mesma mania demandista. Era renitente, teimoso, mas servil e humilde. Antigo voluntário da pátria, possuindo honras de Major, não havia dia em que não fosse ao quartel-general ver o andamento do seu requerimento e de outros. Num pedia inclusão no Asilo dos Inválidos, noutro honras de Tenente-coronel, noutro tal ou qual medalha; e, quando não tinha nenhum, ia ver o dos outros.
 
@@ -1418,7 +1423,7 @@ Não fora ele, porém, quem se lembrara; fora a afilhada que lhe trouxe à ideia
 
 Tão taciturno que ele estivesse, não pôde deixar de modificar imediatamente a sua fisionomia à lembrança da moça. Era um velho desejo seu, esse de tirar da terra o alimento, a alegria e a fortuna; e foi lembrando dos seus antigos projetos que respondeu à afilhada:
 
-— É verdade, minha filha. Que magnífica ideia, tens tu! Há por ai tantas terras férteis sem emprego... A nossa terra tem os terrenos mais férteis do mundo... O milho pode dar até duas colheitas e quatrocentos por um...
+— É verdade, minha filha. Que magnífica ideia, tens tu! Há por aí tantas terras férteis sem emprego... A nossa terra tem os terrenos mais férteis do mundo... O milho pode dar até duas colheitas e quatrocentos por um...
 
 A moça esteve quase arrependida da sua lembrança. Pareceu-lhe que ia atear no espírito do padrinho manias já extintas.
 
@@ -1624,7 +1629,7 @@ Nada mais irregular, mais caprichoso, mais sem plano qualquer, pode ser imaginad
 
 Marcham assim ao acaso as edificações e conseguintemente o arruamento. Há casas de todos os gostos e construídas de todas as formas.
 
-Vai-se por uma rua a ver um correr de «chalets», de porta e janela, parede de frontal, humildes e acanhados, de repente se nos depara uma casa burguesa, dessas de compoteiras na cimalha rendilhada, a se erguer sobre um porão alto com mezaninos gradeados. Passada essa surpresa, olha-se acolá e dá-se com uma choupana de pau-a-pique, coberta de zinco ou mesmo palha, em torno da qual formiga uma população; adiante, é uma velha casa de roça, com varanda e colunas de estilo pouco classificável, que parece vexada e querer ocultar-se, diante daquela onda de edifícios disparatados e novos.
+Vai-se por uma rua a ver um correr de «chalets», de porta e janela, parede de frontal, humildes e acanhados, de repente se nos depara uma casa burguesa, dessas de compoteiras na cimalha rendilhada, a se erguer sobre um porão alto com mezaninos gradeados. Passada essa surpresa, olha-se acolá e dá-se com uma choupana de pau a pique, coberta de zinco ou mesmo palha, em torno da qual formiga uma população; adiante, é uma velha casa de roça, com varanda e colunas de estilo pouco classificável, que parece vexada e querer ocultar-se, diante daquela onda de edifícios disparatados e novos.
 
 Não há nos nossos subúrbios coisa alguma que nos lembre os famosos das grandes cidades europeias, com as suas vilas de ar repousado e satisfeito, as suas estradas e ruas macadamizadas e cuidadas, nem mesmo se encontram aqueles jardins, cuidadinhos, aparadinhos, penteados, porque os nossos, se os há, são em geral pobres, feios e desleixados.
 
@@ -1698,7 +1703,7 @@ A manhã ia alta. As cigarras defronte chilreavam no tamarineiro desfolhado; com
 
 O trovador, à proporção que lia, ia mudando de fisionomia. Até então estava carregada e dura; quando acabou de ler o bilhete, um sorriso brincava por toda ela, descia e subia, ia de uma face a outra. O General não o abandonara; para o respeitável militar, Ricardo Coração dos Outros ainda era o rei do violão. Iria e arranjaria passagem com o antigo vizinho de Quaresma. Contemplou um pouco o violão, demoradamente, ternamente, agradecidamente como se fosse um ídolo benfazejo.
 
-Quando Ricardo penetrou em casa do General Albernaz, o último brinde havia sido levantado e todos se dirigiam para a sala de visitas em pequenos grupos. D. Maricota vestia seda malva e o seu busto curto parecia ainda mais abafado, mais socado, naquele tecido caro que parece requerer corpos elegantes e flexíveis. Quinota estava radiante no vestido de noiva. Ela era alta, de feições mais regulares que a irmã Ismênia, mas menos interessante e mais comum de temperamento e alma, embora faceira. Lalá a terceira filha do General, que já se ajeitava a moça, tinha muito pó-de-arroz, estava sempre a concertar o penteado e a sorrir para o Tenente Fontes. Um casamento bem cotado e esperado. Genelício dava o braço à noiva, encasacado numa casaca mal talhada, que punha bem à mostra a sua gibosidade, e caminhava todo atrapalhado nos apertados sapatos de verniz.
+Quando Ricardo penetrou em casa do General Albernaz, o último brinde havia sido levantado e todos se dirigiam para a sala de visitas em pequenos grupos. D. Maricota vestia seda malva e o seu busto curto parecia ainda mais abafado, mais socado, naquele tecido caro que parece requerer corpos elegantes e flexíveis. Quinota estava radiante no vestido de noiva. Ela era alta, de feições mais regulares que a irmã Ismênia, mas menos interessante e mais comum de temperamento e alma, embora faceira. Lalá a terceira filha do General, que já se ajeitava a moça, tinha muito pó de arroz, estava sempre a concertar o penteado e a sorrir para o Tenente Fontes. Um casamento bem cotado e esperado. Genelício dava o braço à noiva, encasacado numa casaca mal talhada, que punha bem à mostra a sua gibosidade, e caminhava todo atrapalhado nos apertados sapatos de verniz.
 
 Ricardo não os viu passar, pois ao entrar, a fila estava no General, metido num segundo uniforme dos grandes dias, que lhe ia mal como a farda de um guarda-nacional endomingado; mas, quem tinha um ar importante, marcial e navegado, ao mesmo tempo palaciano, era o Contra-Almirante Caldas. Fora padrinho e estava irrepreensível na sua casaca do uniforme. As âncoras reluziam como metais de bordo em hora de revista e os seus favoritos, muito penteados, alargavam a sua face e pareciam desejar com ardor os grandes ventos do vasto oceano sem fim. Ismênia estava de rosa e andava pelas salas com o seu ar dolente, com o seu vagar, com os seus gestos lentos, dando providências. O Lulu, o único filho do General, impava no seu uniforme do Colégio Militar, cheio de dourados e cabelos, tanto mais que passara de ano, graças aos empenhos do pai.
 
@@ -1790,7 +1795,7 @@ De resto, contadas pelo General Albernaz, que nunca tinha visto a guerra, a cois
 
 Estavam Ricardo, o Dr. Florêncio, o exato empregado como engenheiro das Águas, aqueles dois recentes conhecimentos de Albernaz, embevecidos, boquiabertos e invejosos diante das proezas imaginárias daqueles três militares, um honorário, talvez o menos pacífico dos três, o único que tivesse mesmo tomado parte em alguma coisa guerreira — quando D. Maricota chegou, sempre diligente, ativa, dando movimento e vida à festa. Era mais moça que o marido, tinha ainda inteiramente pretos os cabelos na sua cabeça pequena, que contrastava tanto com o seu corpo enorme. Ela vinha ofegante e dirigiu-se ao marido:
 
-— Então, Chico, que é isso? Ficam ai e eu que faça sala, que anime as moças... Pra sala todos!
+— Então, Chico, que é isso? Ficam aí e eu que faça sala, que anime as moças... Pra sala todos!
 
 — Já vamos D. Maricota, disse alguém.
 
@@ -1892,7 +1897,7 @@ Julgava que a noiva o aceitara pelo seu maravilhoso título, o pergaminho; é ve
 
 Era por isso que ela não ia para a igreja, em virtude de uma determinação certa de sua vontade, embora sem perceber o constrangimento de um comando fora dela.
 
-Apesar da pompa, esteve longe de ser uma noiva majestosa. Não obstante as origens puramente europeias, era pequena, muito mesmo, ao lado do noivo, alto, ereto, com uma fisionomia irradiante de felicidade; e, desse modo, ela desaparecia dentro do vestido, dos véus e daqueles atavios obsoletos com que se arreiam as moças que se vão casar, De resto, a sua beleza não era a grande beleza — aquela que nós exigimos das noivas ricas, segundo o modelo das estampas clássicas.
+Apesar da pompa, esteve longe de ser uma noiva majestosa. Não obstante as origens puramente europeias, era pequena, muito mesmo, ao lado do noivo, alto, ereto, com uma fisionomia irradiante de felicidade; e, desse modo, ela desaparecia dentro do vestido, dos véus e daqueles atavios obsoletos com que se arreiam as moças que se vão casar. De resto, a sua beleza não era a grande beleza — aquela que nós exigimos das noivas ricas, segundo o modelo das estampas clássicas.
 
 No seu rosto, nada de grego, desse grego autêntico ou de pacotilha, ou também dessa majestade de ópera lírica. Havia nos seus traços muita irregularidade, mas a sua fisionomia era profunda e própria. Não só a luz dos seus grandes olhos negros, que quase cobriam toda a cavidade orbitária, fazia fulgurar o seu rosto móbil, como a sua pequena boca, de um desenho fino, exprimia bondade, malícia e o seu ar geral era de reflexão e curiosidade.
 
@@ -1906,7 +1911,7 @@ Passou um mês com o Major, e foi um triunfo. A fama do seu nome precedia-o, de 
 
 O seu primeiro trabalho foi ir à vila. Ficava a quatro quilômetros adiante da casa de Quaresma e a estrada de ferro tinha uma estação lá. Ricardo dispensou a estrada e foi a pé, pela estrada de rodagem, se assim se pode chamar um trilho, cheio de caldeirões, que subia e descia morros, cortava planícies e rios em toscas pontes. A vila!... Tinha duas ruas principais: a antiga, determinada pelo velho caminho de tropas, e a nova, cuja origem veio da ligação da velha com a estrada de ferro. Elas se encontravam em _T_, sendo o braço vertical o caminho da estação. As outras partiam delas, as casas juntavam-se urbanamente no começo, depois iam espaçando, espaçando, até acabar em mato, em campo. A antiga chamava-se Marechal Deodoro, ex-Imperador; e a nova, Marechal Floriano, ex-Imperatriz. De uma das extremidades da rua Marechal Deodoro, partia a da Matriz, que ia ter à igreja, ao alto de uma colina, feia e pobre no seu estilo jesuítico. À esquerda da estação, num campo, a praça da República, a que ia dar uma rua mal esboçada por espaçadas casas, ficava a Câmara Municipal.
 
-Era um grande paralelepípedo de tijolo, cimalha, janela com sacadas de grade de ferro, puro estilo mestre-de-obras. Compungia essa pobreza de gosto a quem se lembrasse dos edifícios da mesma natureza das pequenas comunas francesas e belgas da idade média.
+Era um grande paralelepípedo de tijolo, cimalha, janela com sacadas de grade de ferro, puro estilo mestre de obras. Compungia essa pobreza de gosto a quem se lembrasse dos edifícios da mesma natureza das pequenas comunas francesas e belgas da idade média.
 
 Ricardo entrou num barbeiro da rua Marechal Deodoro, salão Rio de Janeiro, e fez a barba. O fígaro deu-lhe informações a vila e ele se deu a conhecer. Havia certos circunstantes, um deles tomou-o a seu cargo e daí em pouco estava relacionado.
 
@@ -1920,7 +1925,7 @@ Era o médico do lugar, morava, porém, fora, na sua fazenda, e viera de «aranh
 
 O trovador e o médico estiveram um instante conversando, enquanto a filha, muito magra, pálida, com uns longos braços descarnados, olhava com um vexame fingido o solo poeirento da rua. Quando eles partiram, ainda Ricardo considerou um pouco aquele rebento dos ares livres do Brasil.
 
-À festa do Dr. Campos, seguiram-se outras a que Ricardo deu a honra de sua presença e a alegria da sua voz. Quaresma não o acompanhava, mas gozava a sua vitória. Se bem que o Major tivesse abandonado o violão, ainda continuava a prezar aquele instrumento essencialmente nacional. As consequências desastrosas do seu requerimento em nada tinham abalado as suas convicções patrióticas. Continuavam as suas ideias profundamente arraigadas, tão-somente ele as escondia, para não sofrer com a incompreensão e maldade dos homens.
+À festa do Dr. Campos, seguiram-se outras a que Ricardo deu a honra de sua presença e a alegria da sua voz. Quaresma não o acompanhava, mas gozava a sua vitória. Se bem que o Major tivesse abandonado o violão, ainda continuava a prezar aquele instrumento essencialmente nacional. As consequências desastrosas do seu requerimento em nada tinham abalado as suas convicções patrióticas. Continuavam as suas ideias profundamente arraigadas, tão somente ele as escondia, para não sofrer com a incompreensão e maldade dos homens.
 
 Gozava, portanto, a fulminante vitória de Ricardo, que indicava bem naquela população a existência de um resíduo forte da nossa nacionalidade a resistir às invasões das modas e gostos estrangeiros.
 
@@ -2046,7 +2051,7 @@ Ricardo apreciava pouco aquelas formas inferiores de vida, mas Quaresma ficava m
 
 A tarde ia adiantada. A terra já começava a amolecer, pelo fim daquele beijo ardente e demorado do sol. Os bambus suspiravam; as cigarras ciciavam; as rolas gemiam amorosamente. Ouvindo passos o Major voltou-se. Padrinho! Olga!
 
-Mal se viram, abraçaram-se, e quando se separaram ficaram ainda a olhar um para o outro, com as mãos presas. E vieram aquelas estúpidas e tocantes frases dos encontros satisfeitos: quando chegaste? Não esperava... É longe... Ricardo olhava embevecido com a ternura dos dois; Anastácio tirara o chapéu e olhava a «sinhazinha», com o o seu terno e vazio olhar de africano.
+Mal se viram, abraçaram-se, e quando se separaram ficaram ainda a olhar um para o outro, com as mãos presas. E vieram aquelas estúpidas e tocantes frases dos encontros satisfeitos: quando chegaste? Não esperava... É longe... Ricardo olhava embevecido com a ternura dos dois; Anastácio tirara o chapéu e olhava a «sinhazinha», com o seu terno e vazio olhar de africano.
 
 Passada a emoção, a moça se debruçou sobre o chiqueiro, depois passeou a vista pelos quatro pontos e Quaresma perguntou:
 
@@ -2353,7 +2358,7 @@ Após esta leve conversa, Quaresma voltou à sua sala de estudos. Meditava grand
 
 Quando se convencesse de que eram necessários, parecia-lhe que todo o seu sistema de ideias ia por terra e os móveis de sua vida desapareceriam. Estava assim a escolher arados e outros «Planets», «Bajacs» e «Brabants» de vários feitios, quando o seu pequeno copeiro lhe anunciou a visita do dr. Campos.
 
-O edil entrou com a sua jovialidade, a sua mansidão, e o seu grande corpo. Era alto e gordo, pançudo um pouco, tinha os olhos castanhos, quase à flor do rosto, uma testa média e reta: o nariz, malfeito. Um tanto trigueiro, cabelos corridos e já grisalhos, era o que se chama por ai um caboclo, embora o seu bigode fosse crespo. Não nascera em Curuzu, era da Bahia ou de Sergipe, habitava, porém, o lugar há mais de vinte anos, onde casara e prosperara, graças ao dote da mulher e à sua atividade clínica. Com esta, não gastava grande energia mental: tendo de cor uma meia dúzia de receitas, ele, desde muito, conseguira enquadrar as moléstias locais no seu reduzido formulário.
+O edil entrou com a sua jovialidade, a sua mansidão, e o seu grande corpo. Era alto e gordo, pançudo um pouco, tinha os olhos castanhos, quase à flor do rosto, uma testa média e reta: o nariz, malfeito. Um tanto trigueiro, cabelos corridos e já grisalhos, era o que se chama por aí um caboclo, embora o seu bigode fosse crespo. Não nascera em Curuzu, era da Bahia ou de Sergipe, habitava, porém, o lugar há mais de vinte anos, onde casara e prosperara, graças ao dote da mulher e à sua atividade clínica. Com esta, não gastava grande energia mental: tendo de cor uma meia dúzia de receitas, ele, desde muito, conseguira enquadrar as moléstias locais no seu reduzido formulário.
 
 Presidente da Câmara, era das pessoas mais consideráveis da Curuzu, e Quaresma o estimava particularmente pela sua familiaridade, pela sua afabilidade e simplicidade.
 
@@ -2389,7 +2394,7 @@ Campos não deu mostras de aborrecimento, conversou um pouco sobre coisas banais
 
 Isto se passou na terça-feira, naquele dia de luz fosca e irritante. À tarde houve trovoada, choveu muito. O tempo só levantou na quinta-feira, dia em que o Major foi surpreendido com a visita de um sujeito com um uniforme velho e lamentável, portador de um papel oficial para ele, proprietário do «Sossego», conforme mesmo disse o tal homem fardado.
 
-Em virtude das posturas e leis municipais, rezava o papel, O Sr. Policarpo Quaresma, proprietário do sítio «Sossego» era intimado, sob as penas das mesmas posturas e leis, a roçar e capinar as testadas do referido sítio que confrontavam com as vias públicas.
+Em virtude das posturas e leis municipais, rezava o papel, o Sr. Policarpo Quaresma, proprietário do sítio «Sossego» era intimado, sob as penas das mesmas posturas e leis, a roçar e capinar as testadas do referido sítio que confrontavam com as vias públicas.
 
 O Major ficou um tempo pensando. Julgava impossível uma tal intimação. Seria mesmo? Brincadeira... Leu de novo o papel, viu a assinatura do Dr. Campos. Era certo... Mas que absurda intimação esta de capinar e limpar estradas na extensão de mil duzentos metros, pois seu sítio dava de frente para um caminho e de um dos lados acompanhava outro na extensão de oitocentos metros — era possível!?
 
@@ -2509,7 +2514,7 @@ Albernaz falou em tom ríspido e de comando. A praça, falando a medo, explicou 
 
 — Os homens desistem ou não?
 
-O General esteve um instante examinando o soldado, Era branco e tinha os cabelos alourados, de um louro sujo e degradado; as feições eram feias: malares salientes, testa óssea e todo ele anguloso e desconjuntado.
+O General esteve um instante examinando o soldado. Era branco e tinha os cabelos alourados, de um louro sujo e degradado; as feições eram feias: malares salientes, testa óssea e todo ele anguloso e desconjuntado.
 
 — Donde você é? perguntou-lhe ainda Albernaz.
 
@@ -2549,7 +2554,7 @@ Bustamante apareceu; morava nos arredores e vinha tomar o trem, para apresentar-
 
 — Viemos pela Quinta, disse o Almirante.
 
-— Nada, meus amigos, esses bondes andam muito perto do mar... Não me importa morrer, mas quero morrer combatendo; isso de morrer por ai, à toa, sem saber como, não vai comigo...
+— Nada, meus amigos, esses bondes andam muito perto do mar... Não me importa morrer, mas quero morrer combatendo; isso de morrer por aí, à toa, sem saber como, não vai comigo...
 
 O General falara um pouco alto e os jovens oficiais que estavam próximo, olharam-no com mal disfarçada censura. Albernaz percebeu e ajuntou imediatamente:
 
@@ -2585,7 +2590,7 @@ Fontes estava indignado, todo ele era horror, maldição contra os insurretos, e
 
 — Hão de ver o resultado... Piratas! Bandidos! Eu, no caso do Marechal, se os pegasse... ai deles!
 
-O Tenente não era feroz nem mau, antes bom e até generoso, mas era positivista e tinha da sua República uma ideia religiosa e transcendente. Fazia repousar nela toda a felicidade humana e não admitia que a quisessem de outra forma que não aquela que imaginava boa. Fora daí não havia boa-fé, sinceridade; eram heréticos interesseiros, e, dominicano do seu barrete frígio, raivoso por não poder queimá-los em autos-de-fé, congesto, via passar por seus olhos uma série enorme de réus confitentes, relapsos, contumazes, falsos, simulados, fictos e confictos, sem samarra, soltos por aí...
+O Tenente não era feroz nem mau, antes bom e até generoso, mas era positivista e tinha da sua República uma ideia religiosa e transcendente. Fazia repousar nela toda a felicidade humana e não admitia que a quisessem de outra forma que não aquela que imaginava boa. Fora daí não havia boa-fé, sinceridade; eram heréticos interesseiros, e, dominicano do seu barrete frígio, raivoso por não poder queimá-los em autos de fé, congesto, via passar por seus olhos uma série enorme de réus confitentes, relapsos, contumazes, falsos, simulados, fictos e confictos, sem samarra, soltos por aí...
 
 Albernaz não tinha tanta fúria contra os adversários. No fundo d'alma, ele os queria até, tinha amigos lá, e essas divergências nada significavam para a sua idade e experiência.
 
@@ -2617,7 +2622,7 @@ O lugar de lente é que o tentava mais; o concurso porém, metia-lhe medo. Tinha
 
 Não havia dia em que não comprasse livros, em francês, inglês e italiano; tomara até um professor de alemão, para entrar na ciência germânica; mas faltava-lhe energia para o estudo prolongado e a sua felicidade pessoal fizera evolar-se a pequena que tivera quando estudante.
 
-A sala da frente do alto porão tinha sido transformada em biblioteca. As paredes estavam forradas de estantes que gemiam ao peso dos grandes tratados. À noite, ele abria as janelas das venezianas, acendia todos os bicos-de-gás e se punha à mesa, todo de branco com um livro aberto sob os olhos.
+A sala da frente do alto porão tinha sido transformada em biblioteca. As paredes estavam forradas de estantes que gemiam ao peso dos grandes tratados. À noite, ele abria as janelas das venezianas, acendia todos os bicos de gás e se punha à mesa, todo de branco com um livro aberto sob os olhos.
 
 O sono não tardava a vir ao fim da quinta página... isso era o diabo! Deu em procurar os livros da mulher. Eram romances franceses, Goncourt, Anatole France, Daudet, Maupassant, que o faziam dormir da mesma maneira que os tratados. Ele não compreendia a grandeza daquelas análises, daquelas descrições, o interesse e o valor delas, revelando a todos, à sociedade, a vida, os sentimentos, as dores daqueles personagens, um mundo! O seu pedantismo, a sua falsa ciência e a pobreza de sua instrução geral faziam-no ver naquilo tudo, brinquedos, passatempos, falatórios, tanto mais que ele dormia à leitura de tais livros.
 
@@ -2645,7 +2650,7 @@ O sogro suspendera a viagem à Europa, e, naquela manhã, após o almoço, confo
 
 Ela escrevia e o pai lia; num dado momento ele disse:
 
-— Sabes quem vem ai, minha filha?
+— Sabes quem vem aí, minha filha?
 
 — Quem é?
 
@@ -2685,7 +2690,7 @@ E sorriu com um falso sorriso que o brilho morto dos seus dentes postiços mais 
 
 — Você, no fundo, é uma revoltosa, disse o doutor, fechando a discussão.
 
-Ela não deixava de ser. A simpatia dos desinteressados, da população. inteira era pelos insurgentes. Não só isso sempre acontece em toda a parte, como particularmente, no Brasil, devido a múltiplos fatores, há de ser assim normalmente.
+Ela não deixava de ser. A simpatia dos desinteressados, da população inteira era pelos insurgentes. Não só isso sempre acontece em toda a parte, como particularmente, no Brasil, devido a múltiplos fatores, há de ser assim normalmente.
 
 Os Governos, com os seus inevitáveis processos de violência e hipocrisias, ficam alheados da simpatia dos que acreditam nele; e demais, esquecidos de sua vital impotência e inutilidade, levam a prometer o que não podem fazer, de forma a criar desesperados, que pedem sempre mudanças e mudanças.
 
@@ -2731,7 +2736,7 @@ Nisto ouviu um tiro, depois outro, outro... Que diabo? pensou. Hão de ser salva
 
 {§ III.1} Havia mais de uma hora que ele estava ali, num grande salão do palácio, vendo o Marechal, mas sem lhe poder falar. Quase não se encontravam dificuldades para se chegar à sua presença, mas falar-lhe, a coisa não era tão fácil.
 
-O palácio tinha um ar de intimidade, de quase relaxamento, representativo e eloquente. Não era raro ver-se pelos divãs, em outras salas, ajudantes-de-ordens, ordenanças, contínuos, cochilando, meio deitados e desabotoados. Tudo nele era desleixo e moleza. Os cantos dos tetos tinham teias de aranha; dos tapetes, quando pisados com mais força, subia uma poeira de rua mal varrida.
+O palácio tinha um ar de intimidade, de quase relaxamento, representativo e eloquente. Não era raro ver-se pelos divãs, em outras salas, ajudantes de ordens, ordenanças, contínuos, cochilando, meio deitados e desabotoados. Tudo nele era desleixo e moleza. Os cantos dos tetos tinham teias de aranha; dos tapetes, quando pisados com mais força, subia uma poeira de rua mal varrida.
 
 Quaresma não pudera vir logo, como anunciara no telegrama. Fora preciso pôr em ordem os seus negócios, arranjar quem fizesse companhia à irmã. Fizera D. Adelaide mil objeções à sua partida; mostrara-lhe os riscos da luta, da guerra, incompatíveis com a sua idade e superiores à sua força; ele, porém, não se deixara abater, fizera pé firme, pois sentia, indispensável, necessário que toda a sua vontade, que toda a sua inteligência, que tudo o que ele tinha de vida e atividade fosse posto à disposição do Governo, para então!... oh!
 
@@ -3189,7 +3194,7 @@ A lancha continuava a atirar; Fontes fez um disparo. O canhão vomitou o projét
 
 Eram sempre esses garotos que anunciavam os tiros do inimigo. Mal viam o fuzilar breve e a fumaça, lá longe, no navio, jorrar devagar, muito pesada, gritavam queimou!
 
-Houve um em Niterói que teve o seu quarto de hora de celebridade. Chamavam-no _trinta-Réis_; os jornais do tempo ocuparam-se com ele, fizeram-se subscrições a seu favor. Um herói! Passou a revolta e foi esquecido, tanto ele como a «Luci», uma lancha que chegou a fazer-se entidade na imaginação da _urbs_, a interessá-la, a criar inimigos e admiradores.
+Houve um em Niterói que teve o seu quarto de hora de celebridade. Chamavam-no _trinta réis_; os jornais do tempo ocuparam-se com ele, fizeram-se subscrições a seu favor. Um herói! Passou a revolta e foi esquecido, tanto ele como a «Luci», uma lancha que chegou a fazer-se entidade na imaginação da _urbs_, a interessá-la, a criar inimigos e admiradores.
 
 A embarcação deixou de provocar a fúria do posto do Caju, e Fontes deu instruções ao seu chefe da peça, e foi-se embora.
 
@@ -3357,7 +3362,7 @@ Na saída, a pobre D. Maricota, um tanto já diminuída da sua atividade e dilig
 
 O preto considerava um instante, como se estivesse recebendo as últimas comunicações do que não se vê nem se percebe, e dizia com a sua majestade de africano:
 
-— Vô vê, nhãnhã... Tô crotando mandinga...
+— Vó vê, nhã nhã... Tô crôtando mandinga...
 
 Ela e o General tinham assistido a cerimônia e o amor de pais e também esse fundo de superstição que há em todos nós, levavam a olhá-la com respeito, quase com fé.
 
@@ -3443,7 +3448,7 @@ A época era de susto e temor, e todos esses que ele sentia, só os comunicava �
 
 E o doutor tinha razão; já obtivera uma graça governamental. Fora nomeado médico do Hospital de Santa Bárbara, na vaga de um colega, demitido a bem do serviço público como suspeito por ter ido visitar um amigo na prisão. Como o hospital, porém, ficasse no ilhéu do mesmo nome, dentro da baia, em frente à Saúde e a Guanabara ainda estivesse em mão dos revoltosos, ele nada tinha que fazer, pois até agora o Governo não aceitara os seus oferecimentos de auxiliar o tratamento dos feridos.
 
-O Major foi encontrar pai e filha em casa; o doutor tinha saído, ido dar uma volta pela cidade, dar arras de sua dedicação à causa legal, conversando com os mais exaltados jacobinos do Café do Rio, não esquecendo também de passear pelos corredores do Itamarati, fazendo-se ver pelos ajudantes-de-ordens, secretários e outras pessoas influentes no ânimo de Floriano.
+O Major foi encontrar pai e filha em casa; o doutor tinha saído, ido dar uma volta pela cidade, dar arras de sua dedicação à causa legal, conversando com os mais exaltados jacobinos do Café do Rio, não esquecendo também de passear pelos corredores do Itamarati, fazendo-se ver pelos ajudantes de ordens, secretários e outras pessoas influentes no ânimo de Floriano.
 
 A moça viu entrar Quaresma com aquele sentimento estranho que o seu padrinho lhe causava ultimamente, e esse sentimento mais agudo se tornava quando o via contar os casos guerreiros do seu destacamento, a passagem de balas, as descargas das lanchas, naturalmente, simplesmente, como se fossem feições de uma festa, de uma justa, de um divertimento qualquer em que a morte não estivesse presente.
 
@@ -3485,7 +3490,7 @@ O quartel ainda ficava no velho cortiço condenado pela higiene, lá para as ban
 
 No pátio, o instrutor coxo adestrava novos voluntários e os seus majestosos e demorados gritos: hom-broôô... armas! Mei-ããã volta... volver! subiam ao céu e ecoavam longamente pelos muros da antiga estalagem.
 
-Bustamante estava no seu cubículo, mais conhecido por gabinete, irrepreensível no seu uniforme verde-garrafa, alamares dourados e vivos azulferrete. Com auxilio de um sargento, examinava a escrita de um livro quarteleiro.
+Bustamante estava no seu cubículo, mais conhecido por gabinete, irrepreensível no seu uniforme verde-garrafa, alamares dourados e vivos azul-ferrete. Com auxilio de um sargento, examinava a escrita de um livro quarteleiro.
 
 — Tinta vermelha, Sargento! É como mandam as instruções de 1864.
 
@@ -3571,7 +3576,7 @@ O enterro foi feito no dia imediato e a casa de Albernaz esteve os dois dias che
 
 Quaresma foi ao enterro; ele não gostava muito dessa cerimônia; mas veio, e foi ver a pobre moça, no caixão, coberta de flores, vestida de noiva, com um ar imaculado de imagem. Pouco mudara, entretanto. Era ela mesma ali; era a Ismênia dolente e pobre de nervos, com os seus traços miúdos e os seus lindos cabelos, que estava dentro daquelas quatro tábuas. A morte tinha fixado a sua pequena beleza e o seu aspecto pueril; e ela ia para a cova com a insignificância, com a inocência e a falta de acento próprio que tinha tido em vida.
 
-Contemplando aqueles tristes restos, Quaresma viu caixão do coche parar na porta do cemitério, atravessar pelas ruas de túmulos — uma multidão que trepava, se tocava, lutava por espaço, na estreiteza da várzea e nas encostas das colinas. Algumas sepulturas como se olhavam com afeto e se queriam aproximar; em outras, transparecia repugnância por estarem perto. Havia ali, naquele mudo laboratório de decomposições, solicitações incompreensíveis, repulsões, simpatias e antipatias; havia túmulos arrogantes, vaidosos, orgulhosos, humildes, alegres e tristes; e de muitos, ressumava o esforço, um esforço extraordinário, para escapar ao nivelamento da morte, ao apagamento que ela traz às condições e às fortunas.
+Contemplando aqueles tristes restos, Quaresma viu o caixão do coche parar na porta do cemitério, atravessar pelas ruas de túmulos — uma multidão que trepava, se tocava, lutava por espaço, na estreiteza da várzea e nas encostas das colinas. Algumas sepulturas como se olhavam com afeto e se queriam aproximar; em outras, transparecia repugnância por estarem perto. Havia ali, naquele mudo laboratório de decomposições, solicitações incompreensíveis, repulsões, simpatias e antipatias; havia túmulos arrogantes, vaidosos, orgulhosos, humildes, alegres e tristes; e de muitos, ressumava o esforço, um esforço extraordinário, para escapar ao nivelamento da morte, ao apagamento que ela traz às condições e às fortunas.
 
 Quaresma ainda contemplava o cadáver da moça e o cemitério surgia aos seus olhos com as esculturas que se amontoavam, com vasos, cruzes e inscrições, em alguns túmulos; noutros, eram pirâmides de pedra tosca, retratos, caramanchões extravagantes, complicações de ornatos, coisas barrocas e delirantes, para fugir ao anonimato do túmulo, ao fim dos fins.
 
@@ -3631,9 +3636,9 @@ Na sua inteligência havia uma necessidade do tortuoso; do aparentemente fácil;
 
 A revolta tinha tido sobre a política local efeito pacificador. Todos os partidos se fizeram dedicadamente governistas, de forma que, entre os dois poderosos contendores, o Dr. Campos e o Tenente Antonino, houve um traço de união que os reconciliou e os fez entenderem-se. Ao osso que ambos disputavam encarniçadamente, chegou um outro mais forte que pôs em perigo a segurança de ambos e eles se puseram em expectativa, um instante unidos.
 
-O candidato foi imposto pelo Governo Central e as eleições chegaram. É um momento bem curioso esse das eleições na roça. Não se sabe bem donde saem tantos tipos exóticos. De tal forma são eles esquisitos que se pode mesmo esperar que apareçam calções e bofes de renda, espadins e gibão. Há sobrecasacas de cintura, há calças boca-de-sino, há chapéus de seda — todo um museu de indumentária que aqueles roceiros vestem e por um instante fazem viver por entre as ruas esburacadas e estradas poeirentas das vilas e lugarejos. Não faltam também os valentões, com calças bombachas e grandes bengalões de pequiá, à espera do que der e vier.
+O candidato foi imposto pelo Governo Central e as eleições chegaram. É um momento bem curioso esse das eleições na roça. Não se sabe bem donde saem tantos tipos exóticos. De tal forma são eles esquisitos que se pode mesmo esperar que apareçam calções e bofes de renda, espadins e gibão. Há sobrecasacas de cintura, há calças boca de sino, há chapéus de seda — todo um museu de indumentária que aqueles roceiros vestem e por um instante fazem viver por entre as ruas esburacadas e estradas poeirentas das vilas e lugarejos. Não faltam também os valentões, com calças bombachas e grandes bengalões de pequiá, à espera do que der e vier.
 
-Para a monótona vida que levava D. Adelaide, esse desfile de manequins de museu, por sua porteira, em direção à seção eleitoral que lhe ficava nas proximidades, foi um divertimento. Ela passava longos e tristes dias naquele isolamento. Fazia-lhe companhia desde muito a mulher de Felizardo, a sinhá Chica, uma velha cafuza, espécie de Medeia esquelética, cuja fama de rezadeira pairava por sobre todo o município. Não havia quem como ela soubesse rezar dores, cortar febres, curar cobreiros e conhecesse os efeitos das ervas medicinais: a língua-de-vaca, a silvina, o cipóchumbo — toda aquela drogaria que crescia pelos campos, pelas capoeiras, e pelos troncos de árvores.
+Para a monótona vida que levava D. Adelaide, esse desfile de manequins de museu, por sua porteira, em direção à seção eleitoral que lhe ficava nas proximidades, foi um divertimento. Ela passava longos e tristes dias naquele isolamento. Fazia-lhe companhia desde muito a mulher de Felizardo, a sinhá Chica, uma velha cafuza, espécie de Medeia esquelética, cuja fama de rezadeira pairava por sobre todo o município. Não havia quem como ela soubesse rezar dores, cortar febres, curar cobreiros e conhecesse os efeitos das ervas medicinais: a língua de vaca, a silvina, o cipó-chumbo — toda aquela drogaria que crescia pelos campos, pelas capoeiras, e pelos troncos de árvores.
 
 Além desse saber que a fazia estimada e respeitável, tinha também a habilidade de assistir partos. Na redondeza, entre a gente pobre e mesmo remediada, todos os nascimentos se faziam aos cuidados de suas luzes.
 
@@ -3669,7 +3674,7 @@ Passavam então uma semana em casa, a dormir ou a perambular pelas estradas e ve
 
 Embora seus pais vivessem em casa de Quaresma, raramente lá apareciam; e, se o faziam, era porque de todo não tinham que comer. Levavam o descuido da vida, a imprevidência, a ponto de não terem medo do recrutamento. Eram, entretanto, capazes de dedicação, de lealdade e bondade, mas o trabalho continuado, todo o dia, repugnava-lhes à natureza, como uma pena ou um castigo.
 
-Essa atonia da nossa população, essa espécie de desânimo doentio, de indiferença nirvanesca por tudo e todas as coisas, cercam de uma caligem de tristeza, desesperada a a nossa roça e tira-lhe o encanto, a poesia e o viço sedutor de plena natureza.
+Essa atonia da nossa população, essa espécie de desânimo doentio, de indiferença nirvanesca por tudo e todas as coisas, cercam de uma caligem de tristeza, desesperada a nossa roça e tira-lhe o encanto, a poesia e o viço sedutor de plena natureza.
 
 Parece que nem um dos grandes países oprimidos, a Polônia, a Irlanda, a Índia apresentará o aspecto cataléptico do nosso interior. Tudo aí dorme, cochila, parece morto; naqueles há revolta, há fuga para o sonho: no nosso... Oh!... dorme-se...
 
@@ -3755,7 +3760,7 @@ Coçou nervoso um dos favoritos e esteve um instante a olhar o ladrilho do chão
 
 — Mais baixo, Caldas!
 
-—... onde é que se viu um Governo que não aproveita as aptidões, abandona-as, deixa-as por ai vegetar?... Dá-se o mesmo com as nossas riquezas naturais: jazem por aí à toa!
+—... onde é que se viu um Governo que não aproveita as aptidões, abandona-as, deixa-as por aí vegetar?... Dá-se o mesmo com as nossas riquezas naturais: jazem por aí à toa!
 
 A sineta soou e olharam um pouco a nave cheia. Pela porta, via-se uma porção de homens, todos de negro, ajoelhados, contrictos, batendo nos peitos, a confessar de si para si: _mea culpa, mea maxima culpa_...
 
@@ -4079,7 +4084,7 @@ Em breve, estava no palácio da rua Larga. Ricardo não entrou; deixou que a mo�
 
 Ela subiu. Havia um imenso burburinho, uma agitação de entradas e saídas. Toda a gente queria mostrar-se a Floriano, queria cumprimentálo, queria dar mostras da sua dedicação, provar os seus serviços, mostrandose co-participante na sua vitória. Lançavam mão de todos os meios, de todos os planos, de todos os processos. O ditador tão acessível antes, agora se esquivava. Havia quem lhe quisesse beijar as mãos, como ao papa ou a um imperador; e ele já tinha nojo de tanta subserviência. O califa não se supunha sagrado e aborrecia-se.
 
-Olga falou aos contínuos, pedindo ser recebida pelo Marechal. Foi inútil. A muito custo conseguiu falar a um secretário ou ajudante-de-ordens. Quando ela lhe disse a que vinha, a fisionomia terrosa do homem tornou-se de oca e sob as suas pálpebras correu um firme e rápido lampejo de espada:
+Olga falou aos contínuos, pedindo ser recebida pelo Marechal. Foi inútil. A muito custo conseguiu falar a um secretário ou ajudante de ordens. Quando ela lhe disse a que vinha, a fisionomia terrosa do homem tornou-se de oca e sob as suas pálpebras correu um firme e rápido lampejo de espada:
 
 — Quem, Quaresma? disse ele. Um traidor! Um bandido!
 

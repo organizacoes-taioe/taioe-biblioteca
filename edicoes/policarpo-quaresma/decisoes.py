@@ -31,6 +31,8 @@ EMENDAS = [
     ('ocr', "commando: Hom-brõo", "commando: Hom-brôô"),
     ('ocr', "para ella, pão era", "para ella, não era"),
     ('ocr', "por falta da", "por falta do"),
+    ('ocr', "que se vão casar, De resto", "que se vão casar. De resto"),
+    ('ocr', "rezava o papel, O Sr.", "rezava o papel, o Sr."),
     ('ocr', "Era uma moca", "Era uma moça"),
     ('ocr', "leva de desgraça a sahir", "leva de desgraçados a sahir"),
     # erros tipográficos evidentes da edição de 1915 (conferidos no fac-símile)
@@ -59,6 +61,11 @@ EMENDAS = [
     ('erro', "salvar da norte", "salvar da morte"),
     ('erro', "levantamento moral a intellectual", "levantamento moral e intellectual"),
     ('erro', "precisavam desse processos", "precisavam desses processos"),
+    ('erro', "examinando o soldado, Era branco", "examinando o soldado. Era branco"),
+    ('erro', "da população. inteira", "da população inteira"),
+    ('erro', "Quaresma viu caixão do coche", "Quaresma viu o caixão do coche"),
+    ('erro', "com o o seu terno", "com o seu terno"),
+    ('erro', "desesperada a a nossa roça", "desesperada a nossa roça"),
     ('erro', "a irmã da Quaresma a perguntar", "a irmã de Quaresma a perguntar"),
     ('erro', "Ismenia, cumprimentado-a", "Ismenia, cumprimentando-a"),
     ('erro', "paixão do foklorista", "paixão do folklorista"),
@@ -96,10 +103,24 @@ MANUAL = {
     'proximo': 'próximo', 'cadaveres': 'cadáveres', 'poetico-musical': 'poético-musical', 'Meier': 'Méier', 'Meyer': 'Méier',
     'Jacob': 'Jacó', 'bonet': 'boné', 'pret': 'pré', "chamaram-n'o": 'chamaram-no',
     # contrações da fala sem o apóstrofo, como hoje (p'ra -> pra), como as edições modernas já fazem
+    'ahi': 'aí', 'Ahi': 'Aí',                      # a edição moderna dá às vezes «ai»
     "p'ra": 'pra', "P'ra": 'Pra', "p'r'o": 'pro',
     # palavras que ficam como estão (nomes, estrangeirismos, a fala das personagens)
     'Paysandon': 'Paysandon', 'menenanan': 'menenanan', 'hom-broôô': 'hom-broôô', 'Hom-brôô': 'Hom-brôô',
-    'ármas': 'ármas', 'Hom': 'Hom', 'brôoo': 'brôoo', 'Mei-ããã': 'Mei-ããã', 'Mei-ãã': 'Mei-ãã', 'cavaignac': 'cavaignac', 'khan': 'khan',
+    'Vó': 'Vó', 'crôtando': 'crôtando', 'ármas': 'ármas', 'Hom': 'Hom', 'brôoo': 'brôoo', 'Mei-ããã': 'Mei-ããã', 'Mei-ãã': 'Mei-ãã', 'cavaignac': 'cavaignac', 'khan': 'khan',
+}
+
+
+# locuções que a edição moderna (de antes do Acordo) hifeniza e que o Acordo de 1990 escreve
+# separadas, como 1915; e enganos de digitalização dela que o alinhamento trouxe
+SEPARAR = {
+    'chapéu-de-sol': 'chapéu de sol', 'ajudante-de-ordens': 'ajudante de ordens',
+    'ajudantes-de-ordens': 'ajudantes de ordens', 'dona-de-casa': 'dona de casa', 'mestre-de-obras': 'mestre de obras',
+    'Capitão-de-fragata': 'Capitão de Fragata', 'pó-de-arroz': 'pó de arroz', 'boca-de-sino': 'boca de sino',
+    'carvão-de-pedra': 'carvão de pedra', 'pau-a-pique': 'pau a pique', 'autos-de-fé': 'autos de fé',
+    'bicos-de-gás': 'bicos de gás', 'língua-de-vaca': 'língua de vaca', 'tão-somente': 'tão somente',
+    'Urubu-de-Baixo': 'Urubu de Baixo', 'trinta-Réis': 'trinta réis',
+    'azulferrete': 'azul-ferrete', 'beijos-defrade': 'beijos-de-frade', 'cipóchumbo': 'cipó-chumbo',
 }
 
 
@@ -110,6 +131,12 @@ def corrigir(out, flags):
     i = 0
     while i < len(out):
         t = out[i]
+        if t in SEPARAR:
+            partes = SEPARAR[t].split(' ')
+            ital = flags[i] or t == 'trinta-Réis'          # «_trinta réis_», em itálico em 1915
+            novo += partes; nf += [ital] * len(partes); i += 1; continue
+        if t == 'nhãnhã' and novo[-2:] == ['vê', ',']:   # «Vó vê, nhã nhã...»; adiante, «nhãnhã»
+            novo += ['nhã', 'nhã']; nf += [flags[i]] * 2; i += 1; continue
         if t == 'n' and out[i + 1:i + 4] == ["'", '«', 'O']:
             novo.append("n'«O"); nf.append(flags[i]); i += 4; continue
         if t.isdigit() and out[i + 1:i + 2] == ['.'] and i + 2 < len(out) and re.fullmatch(r'\d{3}', out[i + 2]):

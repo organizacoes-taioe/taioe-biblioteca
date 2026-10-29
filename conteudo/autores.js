@@ -30,6 +30,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'jose-de-alencar',
+  nome: 'José de Alencar',
+  nomeCompleto: 'José Martiniano de Alencar',
+  vida: '1829–1877',
+  ordem: 'Alencar, José de',
+  nota: 'Romancista, dramaturgo e cronista cearense.'
+});
+
+BIBLIOTECA.autor({
   id: 'eca-de-queiros',
   nome: 'Eça de Queirós',
   nomeCompleto: 'José Maria de Eça de Queirós',

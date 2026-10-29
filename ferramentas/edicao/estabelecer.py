@@ -224,6 +224,7 @@ def estabelecer(transcricoes, base, modernas, correlacionados=(), ruidoso=None, 
         sitios.append({
             's': s, 'e': e,
             'leituras': {n: texto(leit[n]) if n in leit else '(lacuna)' for n in nomes_t},
+            'tokens': {n: list(leit[n]) for n in leit},
             'modernas': {n: texto(mods[n]) for n in nomes_m},
             'escolha': escolha_tokens, 'escolha_txt': texto(escolha_tokens), 'por': por,
             'apoio': sup,

@@ -104,6 +104,8 @@ def processar(obra, publicar=False):
         out, flags = dec.corrigir(out, flags)
 
     partes = montar.partes(out, flags, getattr(dec, 'VERSOS', None), getattr(dec, 'TITULOS', None))
+    if hasattr(config, 'arrumar'):                   # arrumação própria da obra (ex.: Iracema, notas no fim de cada capítulo)
+        partes = config.arrumar(partes)
 
     # relatórios
     n = {

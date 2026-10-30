@@ -255,8 +255,8 @@ def estrofes_site(corpo):
 
 
 def abertura(cab):
-    """Linhas que antecedem os versos: dedicatória e ária (em itálico)."""
-    linhas = []
+    """Linhas que antecedem os versos: epígrafes, dedicatória e ária (em itálico)."""
+    linhas = ['_' + e.strip().strip('_') + '_' for e in cab.get('epigrafe', '').split(' / ') if e.strip()]
     if cab.get('dedicatoria'):
         linhas.append('_' + cab['dedicatoria'].strip('_') + '_')
     if cab.get('aria'):

@@ -1,0 +1,760 @@
+{
+ "obras": [
+  "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro",
+  "tomas-antonio-gonzaga-lira-pintam-marilia-os-poetas",
+  "tomas-antonio-gonzaga-lira-de-amar-minha-marilia-a-formosura",
+  "tomas-antonio-gonzaga-lira-marilia-teus-olhos",
+  "tomas-antonio-gonzaga-lira-acaso-sao-estes",
+  "tomas-antonio-gonzaga-lira-oh-quanto-pode-em-nos-a-varia",
+  "tomas-antonio-gonzaga-lira-marilia-de-que-te-queixas",
+  "tomas-antonio-gonzaga-lira-eu-sou-gentil-marilia-eu-sou-cativo",
+  "tomas-antonio-gonzaga-lira-nao-toques-minha-musa-nao-nao-toques",
+  "tomas-antonio-gonzaga-lira-minha-bela-marilia-tudo-passa",
+  "tomas-antonio-gonzaga-lira-minha-marilia",
+  "tomas-antonio-gonzaga-lira-era-uma-frondosa",
+  "tomas-antonio-gonzaga-lira-num-sitio-ameno",
+  "tomas-antonio-gonzaga-lira-o-destro-cupido-um-dia",
+  "tomas-antonio-gonzaga-lira-junto-a-uma-clara-fonte",
+  "tomas-antonio-gonzaga-lira-ja-nao-cinjo-de-louro-a-minha",
+  "tomas-antonio-gonzaga-lira-ja-ja-me-vai-marilia-branquejando",
+  "tomas-antonio-gonzaga-lira-eu-vejo-o-minha-bela-aquele-nume",
+  "tomas-antonio-gonzaga-lira-que-diversas-que-sao-marilia-as-horas",
+  "tomas-antonio-gonzaga-lira-por-morto-marilia"
+ ],
+ "palavras": [
+  {
+   "lema": "casal",
+   "formas": [
+    "casal"
+   ],
+   "classe": "substantivo masculino",
+   "def": "pequena propriedade no campo, com casa e terras",
+   "exemplo": "frios gelos e dos sóis queimado. Tenho próprio casal e nele assisto; Dá-me vinho, legume, fruta,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "assistir",
+   "formas": [
+    "assisto"
+   ],
+   "classe": "verbo",
+   "def": "morar, viver",
+   "exemplo": "dos sóis queimado. Tenho próprio casal e nele assisto; Dá-me vinho, legume, fruta, azeite; Das",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "estrela",
+   "formas": [
+    "estrela"
+   ],
+   "classe": "substantivo feminino",
+   "def": "destino, sorte de cada um",
+   "exemplo": "me visto. Graças, Marília bela, Graças à minha Estrela! Eu vi o meu semblante numa",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro",
+   "so_obras": [
+    "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro",
+    "tomas-antonio-gonzaga-lira-oh-quanto-pode-em-nos-a-varia",
+    "tomas-antonio-gonzaga-lira-minha-bela-marilia-tudo-passa"
+   ]
+  },
+  {
+   "lema": "cajado",
+   "formas": [
+    "cajado"
+   ],
+   "classe": "substantivo masculino",
+   "def": "bastão de pastor, de ponta curva",
+   "exemplo": "habitam este monte Respeitam o poder do meu cajado: Com tal destreza toco a sanfoninha,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "sanfona",
+   "formas": [
+    "sanfoninha"
+   ],
+   "classe": "substantivo feminino",
+   "def": "antigo instrumento de cordas, tocado com uma roda que se gira à manivela",
+   "exemplo": "do meu cajado: Com tal destreza toco a sanfoninha, Que inveja até me tem o",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "concertar",
+   "formas": [
+    "concerto"
+   ],
+   "classe": "verbo",
+   "def": "afino, ponho em harmonia",
+   "exemplo": "me tem o próprio Alceste: Ao som dela concerto a voz celeste, Nem canto letra que",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "vaporar",
+   "formas": [
+    "vapora"
+   ],
+   "classe": "verbo",
+   "def": "exala, espalha como vapor",
+   "exemplo": "são uns fios d'ouro; Teu lindo corpo bálsamos vapora. Ah! Não, não fez o Céu,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "rês",
+   "formas": [
+    "rês"
+   ],
+   "classe": "substantivo feminino",
+   "def": "cabeça de gado, um boi ou uma vaca",
+   "exemplo": "Acabe, acabe a peste matadora, Sem deixar uma rês, o nédio gado. Já destes bens,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "nédio",
+   "formas": [
+    "nédio"
+   ],
+   "classe": "adjetivo",
+   "def": "gordo e de pelo luzidio",
+   "exemplo": "a peste matadora, Sem deixar uma rês, o nédio gado. Já destes bens, Marília, não preciso:",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "toucar",
+   "formas": [
+    "toucarei"
+   ],
+   "classe": "verbo",
+   "def": "enfeitarei a cabeça, pentearei com enfeites",
+   "exemplo": "jogam os Pastores, E emparelhados correm nas campinas, Toucarei teus cabelos de boninas, Nos troncos gravarei",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "bonina",
+   "formas": [
+    "boninas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "florzinha do campo, a margarida",
+   "exemplo": "emparelhados correm nas campinas, Toucarei teus cabelos de boninas, Nos troncos gravarei os teus louvores.",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "campa",
+   "formas": [
+    "campa"
+   ],
+   "classe": "substantivo feminino",
+   "def": "sepultura; a pedra que a cobre",
+   "exemplo": "De consumir os dois a mesma terra. Na campa, rodeada de ciprestes, Lerão estas palavras",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-marilia-nao-sou-algum-vaqueiro"
+  },
+  {
+   "lema": "aljava",
+   "formas": [
+    "aljava"
+   ],
+   "classe": "substantivo feminino",
+   "def": "estojo em que se levam as flechas",
+   "exemplo": "os Poetas A um menino vendado Com uma aljava de setas, Arco empunhado na mão; Ligeiras",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-pintam-marilia-os-poetas"
+  },
+  {
+   "lema": "honesto",
+   "formas": [
+    "honesta",
+    "honestos"
+   ],
+   "classe": "adjetivo",
+   "def": "recatado, casto, pudico",
+   "exemplo": "testa, Arqueadas sobrancelhas; A voz meiga, a vista honesta, E seus olhos são uns sóis.",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-pintam-marilia-os-poetas"
+  },
+  {
+   "lema": "pejo",
+   "formas": [
+    "pejo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "vergonha, pudor",
+   "exemplo": "E querendo dar-lhe um beijo, Cobriu-se todo de pejo, E fugiu-me com a mão. Tu,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-pintam-marilia-os-poetas"
+  },
+  {
+   "lema": "bruto",
+   "formas": [
+    "brutos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "os animais, os irracionais",
+   "exemplo": "humanos peitos. Adoram os heróis; e os mesmos brutos Aos grilhões de Cupido estão sujeitos. Quem,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-de-amar-minha-marilia-a-formosura"
+  },
+  {
+   "lema": "discurso",
+   "formas": [
+    "discurso"
+   ],
+   "classe": "substantivo masculino",
+   "def": "a razão, a capacidade de pensar",
+   "exemplo": "A luz da razão precisa; E, se tem discurso, pisa A lei que lhe ditou",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-de-amar-minha-marilia-a-formosura"
+  },
+  {
+   "lema": "acreditar",
+   "formas": [
+    "acredita"
+   ],
+   "classe": "verbo",
+   "def": "dá crédito, faz bem à fama de alguém",
+   "exemplo": "desculpa, ou menos esta chama: Amar formosos rostos acredita, Amar os feios de algum modo",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-de-amar-minha-marilia-a-formosura"
+  },
+  {
+   "lema": "peregrino",
+   "formas": [
+    "peregrino"
+   ],
+   "classe": "adjetivo",
+   "def": "raro, de beleza extraordinária",
+   "exemplo": "Amou o Pai dos Deuses Soberano Um semblante peregrino: Eu adoro o teu divino, O",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-de-amar-minha-marilia-a-formosura"
+  },
+  {
+   "lema": "vargem",
+   "formas": [
+    "vargem"
+   ],
+   "classe": "substantivo feminino",
+   "def": "várzea, terreno plano à beira do rio",
+   "exemplo": "o teu gado À fonte mais clara, À vargem, e prado De relva melhor. Marília,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-marilia-teus-olhos"
+  },
+  {
+   "lema": "herdade",
+   "formas": [
+    "herdade"
+   ],
+   "classe": "substantivo feminino",
+   "def": "grande propriedade rural",
+   "exemplo": "Marília, escuta Um triste Pastor. Se vinha da herdade, Trazia dos ninhos As aves nascidas,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-marilia-teus-olhos"
+  },
+  {
+   "lema": "penhor",
+   "formas": [
+    "penhor"
+   ],
+   "classe": "substantivo masculino",
+   "def": "prova, garantia (de amor)",
+   "exemplo": "me deste Da tua fé pura Um doce penhor. Marília, escuta Um triste Pastor. Tu",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-marilia-teus-olhos"
+  },
+  {
+   "lema": "faia",
+   "formas": [
+    "faia"
+   ],
+   "classe": "substantivo feminino",
+   "def": "árvore europeia de tronco liso e copa larga",
+   "exemplo": "triste Pastor. Tu já te mudaste; E a faia frondosa, Aonde escreveste A jura horrorosa, Tem",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-marilia-teus-olhos"
+  },
+  {
+   "lema": "fado",
+   "formas": [
+    "fado"
+   ],
+   "classe": "substantivo masculino",
+   "def": "destino, sorte",
+   "exemplo": "triste Pastor. Mas eu te desculpo, Que o fado tirano Te obriga a deixar-me; Pois basta",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-marilia-teus-olhos"
+  },
+  {
+   "lema": "freixo",
+   "formas": [
+    "freixos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "árvore alta de madeira clara, comum na Europa",
+   "exemplo": "de um dia? Existem as fontes, E os freixos copados; Dão flores os prados E corre",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-acaso-sao-estes"
+  },
+  {
+   "lema": "copado",
+   "formas": [
+    "copados"
+   ],
+   "classe": "adjetivo",
+   "def": "de copa grande e cheia",
+   "exemplo": "um dia? Existem as fontes, E os freixos copados; Dão flores os prados E corre",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-acaso-sao-estes"
+  },
+  {
+   "lema": "gênio",
+   "formas": [
+    "gênios",
+    "gênio"
+   ],
+   "classe": "substantivo masculino",
+   "def": "índole, inclinação natural de cada um",
+   "exemplo": "a vária Estrela! Que diversos que são os gênios nossos! Qual solta a branca vela E",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-oh-quanto-pode-em-nos-a-varia",
+   "so_obras": [
+    "tomas-antonio-gonzaga-lira-oh-quanto-pode-em-nos-a-varia"
+   ]
+  },
+  {
+   "lema": "pinho",
+   "formas": [
+    "pinho"
+   ],
+   "classe": "substantivo masculino",
+   "def": "o navio, feito de madeira de pinho",
+   "exemplo": "solta a branca vela E afronta sobre o pinho os mares grossos; Qual cinge com a",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-oh-quanto-pode-em-nos-a-varia"
+  },
+  {
+   "lema": "malha",
+   "formas": [
+    "malha"
+   ],
+   "classe": "substantivo feminino",
+   "def": "armadura feita de anéis de ferro entrelaçados",
+   "exemplo": "pinho os mares grossos; Qual cinge com a malha o peito duro E, marchando na frente",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-oh-quanto-pode-em-nos-a-varia"
+  },
+  {
+   "lema": "coorte",
+   "formas": [
+    "coortes"
+   ],
+   "classe": "substantivo feminino",
+   "def": "tropa, corpo de soldados",
+   "exemplo": "o peito duro E, marchando na frente das coortes, Faz a torre voar, cair o",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-oh-quanto-pode-em-nos-a-varia"
+  },
+  {
+   "lema": "lauto",
+   "formas": [
+    "lauta"
+   ],
+   "classe": "adjetivo",
+   "def": "farto, abundante, suntuoso",
+   "exemplo": "que da voraz gula o vício adora, Da lauta mesa os seus prazeres fia. E o",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-oh-quanto-pode-em-nos-a-varia"
+  },
+  {
+   "lema": "rular",
+   "formas": [
+    "rulam"
+   ],
+   "classe": "verbo",
+   "def": "arrulham, como pombos",
+   "exemplo": "ter isenção? Em torno das castas pombas, Não rulam ternos pombinhos? E rulam, Marília, em vão?",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-marilia-de-que-te-queixas"
+  },
+  {
+   "lema": "empíreo",
+   "formas": [
+    "empíreo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "o céu mais alto, morada dos deuses",
+   "exemplo": "da terra As nuvens rompe, chega ao alto Empíreo: E chega ainda quente. As abelhas",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-sou-gentil-marilia-eu-sou-cativo"
+  },
+  {
+   "lema": "ambrosia",
+   "formas": [
+    "ambrosias"
+   ],
+   "classe": "substantivo feminino",
+   "def": "manjar dos deuses, doçura divina",
+   "exemplo": "teus beijos graciosos O mel não chupam, chupam ambrosias Nunca fartos Amores. O Vento quando parte",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-sou-gentil-marilia-eu-sou-cativo"
+  },
+  {
+   "lema": "largo",
+   "formas": [
+    "largo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "a água aberta, longe da margem",
+   "exemplo": "furtivos beijos. O Cisne, quando corta o manso largo, Erguendo as brancas asas e o",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-sou-gentil-marilia-eu-sou-cativo"
+  },
+  {
+   "lema": "enfunar",
+   "formas": [
+    "enfuna"
+   ],
+   "classe": "verbo",
+   "def": "enche (a vela) de vento",
+   "exemplo": "que ao longe passa Quando o vento lhe enfuna o pano grosso, O teu garbo não",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-sou-gentil-marilia-eu-sou-cativo"
+  },
+  {
+   "lema": "fiar",
+   "formas": [
+    "fia"
+   ],
+   "classe": "verbo",
+   "def": "fazer fio na roca; Hércules fiou por amor da rainha Ônfale",
+   "exemplo": "o grande Aquiles veste a saia, Também Alcides fia.",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-sou-gentil-marilia-eu-sou-cativo",
+   "so_obras": [
+    "tomas-antonio-gonzaga-lira-eu-sou-gentil-marilia-eu-sou-cativo"
+   ]
+  },
+  {
+   "lema": "empresa",
+   "formas": [
+    "empresa"
+   ],
+   "classe": "substantivo feminino",
+   "def": "feito, tarefa grandiosa",
+   "exemplo": "Homero, Cantou Virgílio a Guerra. Busquemos, ó Musa, Empresa maior; Deixemos as ternas Fadigas do Amor.",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-nao-toques-minha-musa-nao-nao-toques"
+  },
+  {
+   "lema": "ledo",
+   "formas": [
+    "ledo"
+   ],
+   "classe": "adjetivo",
+   "def": "alegre, contente",
+   "exemplo": "Erguem os colos, voltam as cabeças, Param o ledo canto: Move-se o tronco, o vento se",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-nao-toques-minha-musa-nao-nao-toques"
+  },
+  {
+   "lema": "diferir",
+   "formas": [
+    "difere"
+   ],
+   "classe": "verbo",
+   "def": "adia, deixa para depois",
+   "exemplo": "que frouxo A grata posse de seu bem difere, A si, Marília, a si próprio",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-minha-bela-marilia-tudo-passa"
+  },
+  {
+   "lema": "alvejar",
+   "formas": [
+    "alveja"
+   ],
+   "classe": "verbo",
+   "def": "fica branco, embranquece",
+   "exemplo": "goza a mocidade: Rugam-se as faces, o cabelo alveja, Mal chega a longa idade. Que",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-minha-bela-marilia-tudo-passa"
+  },
+  {
+   "lema": "zelos",
+   "formas": [
+    "zelos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "ciúmes",
+   "exemplo": "sempre fumo Aonde há fogo: Assim, Marília, Há zelos, logo Que existe amor. Olha, Marília,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-minha-marilia"
+  },
+  {
+   "lema": "jubão",
+   "formas": [
+    "jubão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "gibão, casaco curto e justo",
+   "exemplo": "No seu cabelo, Sem peles finas No seu jubão. Porém que importa? O rico asseio",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-minha-marilia"
+  },
+  {
+   "lema": "asseio",
+   "formas": [
+    "asseio"
+   ],
+   "classe": "substantivo masculino",
+   "def": "apuro no vestir, enfeite",
+   "exemplo": "No seu jubão. Porém que importa? O rico asseio Não dá, Marília, Ao rosto feio A",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-minha-marilia"
+  },
+  {
+   "lema": "negaça",
+   "formas": [
+    "negaça"
+   ],
+   "classe": "substantivo feminino",
+   "def": "provocação, gesto de quem atrai e foge",
+   "exemplo": "ela diz graça, Ou muda o gesto, Esta negaça Faz-lhe impressão? Se está fronteira, E brandamente",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-minha-marilia"
+  },
+  {
+   "lema": "fronteiro",
+   "formas": [
+    "fronteira"
+   ],
+   "classe": "adjetivo",
+   "def": "em frente, defronte",
+   "exemplo": "o gesto, Esta negaça Faz-lhe impressão? Se está fronteira, E brandamente Lhe fita os olhos,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-minha-marilia"
+  },
+  {
+   "lema": "pundonor",
+   "formas": [
+    "pundonor"
+   ],
+   "classe": "substantivo masculino",
+   "def": "brio, sentimento de honra",
+   "exemplo": "aspecto; Dirceu se alenta De puro afeto, E pundonor.",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-minha-marilia"
+  },
+  {
+   "lema": "espargir",
+   "formas": [
+    "espargido"
+   ],
+   "classe": "verbo",
+   "def": "espalhado, derramado",
+   "exemplo": "acudiu. Mal viu a rotura, E o sangue espargido, Que a Deusa mostrou; Risonho beijando",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-era-uma-frondosa"
+  },
+  {
+   "lema": "murta",
+   "formas": [
+    "murtas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "arbusto de folhas perfumadas e flores brancas",
+   "exemplo": "sítio ameno Cheio de rosas, De brancos lírios, Murtas viçosas; Dos seus amores Na companhia Dirceu",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-num-sitio-ameno"
+  },
+  {
+   "lema": "temperar",
+   "formas": [
+    "tempere"
+   ],
+   "classe": "verbo",
+   "def": "afine (o instrumento)",
+   "exemplo": "e cante. Pega na lira Sem que a tempere; A voz levanta E as cordas",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-num-sitio-ameno"
+  },
+  {
+   "lema": "cobre",
+   "formas": [
+    "cobre"
+   ],
+   "classe": "substantivo masculino",
+   "def": "chapa de cobre em que se grava uma imagem",
+   "exemplo": "e de outra tinta, E nos ângulos do cobre A quatro belezas pinta. Por fazer pensar",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-o-destro-cupido-um-dia",
+   "so_obras": [
+    "tomas-antonio-gonzaga-lira-o-destro-cupido-um-dia"
+   ]
+  },
+  {
+   "lema": "letra",
+   "formas": [
+    "letra"
+   ],
+   "classe": "substantivo feminino",
+   "def": "dizeres, inscrição",
+   "exemplo": "Vênus, que viu a pintura, E leu a letra engenhosa, Pôs por baixo \"Eu dele cedo;",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-o-destro-cupido-um-dia",
+   "so_obras": [
+    "tomas-antonio-gonzaga-lira-o-destro-cupido-um-dia"
+   ]
+  },
+  {
+   "lema": "suprir",
+   "formas": [
+    "supra"
+   ],
+   "classe": "verbo",
+   "def": "preencha o que falta, compense",
+   "exemplo": "Cumpro o seu desejo; E ao que resta supra A paixão e a arte. A fumaça,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-ja-nao-cinjo-de-louro-a-minha"
+  },
+  {
+   "lema": "candeia",
+   "formas": [
+    "candeia"
+   ],
+   "classe": "substantivo feminino",
+   "def": "lamparina de azeite",
+   "exemplo": "paixão e a arte. A fumaça, Marília, da candeia Que a molhada parede ou suja, ou",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-ja-nao-cinjo-de-louro-a-minha"
+  },
+  {
+   "lema": "pluma",
+   "formas": [
+    "pluma"
+   ],
+   "classe": "substantivo feminino",
+   "def": "pena de ave usada para escrever",
+   "exemplo": "ponta, E dele me sirva Em lugar de pluma. Perder as úteis horas não, não",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-ja-nao-cinjo-de-louro-a-minha"
+  },
+  {
+   "lema": "chusma",
+   "formas": [
+    "chusma"
+   ],
+   "classe": "substantivo feminino",
+   "def": "multidão, bando",
+   "exemplo": "cabelos. Vejo, Marília, sim, e vejo ainda A chusma dos Cupidos, que pendentes Dessa boca linda,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-ja-nao-cinjo-de-louro-a-minha"
+  },
+  {
+   "lema": "burnir",
+   "formas": [
+    "burnir"
+   ],
+   "classe": "verbo",
+   "def": "polir; burnir-se a pele: ficar lisa e lustrosa",
+   "exemplo": "dias A minha mocidade o doce gosto; Verás burnir-se a pele, o corpo encher-se, Voltar",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-ja-ja-me-vai-marilia-branquejando"
+  },
+  {
+   "lema": "termo",
+   "formas": [
+    "termo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "fim, limite",
+   "exemplo": "padece; Mas logo que a doença faz seu termo, Torna, Marília, a ser quem era",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-ja-ja-me-vai-marilia-branquejando"
+  },
+  {
+   "lema": "sucesso",
+   "formas": [
+    "sucessos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "acontecimento, fato (bom ou mau)",
+   "exemplo": "anos fora \"Para isso ainda pouco; \"Deixa estranhos sucessos, vem comigo; \"Verás quanto inda deve",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-vejo-o-minha-bela-aquele-nume"
+  },
+  {
+   "lema": "afeito",
+   "formas": [
+    "afeito"
+   ],
+   "classe": "adjetivo",
+   "def": "acostumado, habituado",
+   "exemplo": "bens um peito nobre? Severo lhe respondo, \"Vivo afeito a ser pobre.\" Aqui me enruga a",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-vejo-o-minha-bela-aquele-nume"
+  },
+  {
+   "lema": "mofa",
+   "formas": [
+    "mofa"
+   ],
+   "classe": "substantivo feminino",
+   "def": "zombaria, caçoada",
+   "exemplo": "faço \"Restituir o posto.\" Respondo em ar de mofa, e tom sereno: \"Conheço-te, Fortuna, \"Posso",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-vejo-o-minha-bela-aquele-nume"
+  },
+  {
+   "lema": "insofrido",
+   "formas": [
+    "insofrido"
+   ],
+   "classe": "adjetivo",
+   "def": "impaciente, que não aguenta esperar",
+   "exemplo": "da mão de Jove.\" Queria mais falar; eu insofrido Desta maneira rompo os seus acentos: \"Basta,",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-eu-vejo-o-minha-bela-aquele-nume"
+  },
+  {
+   "lema": "reputar",
+   "formas": [
+    "reputo"
+   ],
+   "classe": "verbo",
+   "def": "considero, tenho por",
+   "exemplo": "Por morto, Marília, Aqui me reputo: Mil vezes escuto O som do",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-por-morto-marilia"
+  },
+  {
+   "lema": "carregar",
+   "formas": [
+    "carrega"
+   ],
+   "classe": "verbo",
+   "def": "carregar o rosto: fechar a cara, franzir o rosto com severidade",
+   "exemplo": "O meu coração. Já o Torres se assenta; Carrega-me o rosto; Do crime suposto Com",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-por-morto-marilia"
+  },
+  {
+   "lema": "esforçado",
+   "formas": [
+    "esforçado"
+   ],
+   "classe": "adjetivo",
+   "def": "valente, corajoso",
+   "exemplo": "mais forte Ainda que a morte, Num peito esforçado, De amor a paixão. Marília, já",
+   "capitulo": 1,
+   "obra_ex": "tomas-antonio-gonzaga-lira-por-morto-marilia"
+  }
+ ]
+}

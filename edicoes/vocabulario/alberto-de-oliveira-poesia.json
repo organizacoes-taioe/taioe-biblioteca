@@ -1,0 +1,932 @@
+{
+ "obras": [
+  "alberto-de-oliveira-meridionais-fantastica",
+  "alberto-de-oliveira-meridionais-o-interior-da-camara",
+  "alberto-de-oliveira-meridionais-a-primeira-paixao",
+  "alberto-de-oliveira-meridionais-sabor-das-lagrimas",
+  "alberto-de-oliveira-meridionais-a-volta-da-galera",
+  "alberto-de-oliveira-meridionais-as-estrelas",
+  "alberto-de-oliveira-meridionais-a-janela-de-julieta",
+  "alberto-de-oliveira-meridionais-saudade-da-estatua",
+  "alberto-de-oliveira-meridionais-o-leque",
+  "alberto-de-oliveira-meridionais-beija-flores",
+  "alberto-de-oliveira-meridionais-falando-ao-sol",
+  "alberto-de-oliveira-sonetos-e-poemas-a-galera-de-cleopatra",
+  "alberto-de-oliveira-sonetos-e-poemas-o-leito-da-romana",
+  "alberto-de-oliveira-sonetos-e-poemas-manto-real",
+  "alberto-de-oliveira-sonetos-e-poemas-a-ponte-vermelha",
+  "alberto-de-oliveira-sonetos-e-poemas-a-janela-e-o-sol",
+  "alberto-de-oliveira-sonetos-e-poemas-fim-de-um-conto",
+  "alberto-de-oliveira-sonetos-e-poemas-mazeppa",
+  "alberto-de-oliveira-sonetos-e-poemas-sombra",
+  "alberto-de-oliveira-sonetos-e-poemas-titania",
+  "alberto-de-oliveira-sonetos-e-poemas-galateia",
+  "alberto-de-oliveira-sonetos-e-poemas-ultima-deusa",
+  "alberto-de-oliveira-sonetos-e-poemas-lendo-os-antigos",
+  "alberto-de-oliveira-sonetos-e-poemas-paraiso-vedado",
+  "alberto-de-oliveira-sonetos-e-poemas-a-estatua",
+  "alberto-de-oliveira-sonetos-e-poemas-a-entrada-da-primavera",
+  "alberto-de-oliveira-sonetos-e-poemas-vox-rerum",
+  "alberto-de-oliveira-sonetos-e-poemas-de-volta-do-circo",
+  "alberto-de-oliveira-sonetos-e-poemas-ao-luar-de-verona",
+  "alberto-de-oliveira-sonetos-e-poemas-nox",
+  "alberto-de-oliveira-sonetos-e-poemas-pobre-mae",
+  "alberto-de-oliveira-sonetos-e-poemas-so",
+  "alberto-de-oliveira-sonetos-e-poemas-vaso-grego",
+  "alberto-de-oliveira-sonetos-e-poemas-vaso-chines",
+  "alberto-de-oliveira-versos-e-rimas-aspiracao",
+  "alberto-de-oliveira-versos-e-rimas-a-taca-de-hafiz",
+  "alberto-de-oliveira-versos-e-rimas-a-vinganca-da-porta",
+  "alberto-de-oliveira-versos-e-rimas-metempsicose",
+  "alberto-de-oliveira-versos-e-rimas-paganismo",
+  "alberto-de-oliveira-versos-e-rimas-o-sonho-de-titania",
+  "alberto-de-oliveira-versos-e-rimas-rede-selvagem",
+  "alberto-de-oliveira-versos-e-rimas-depois-da-morte",
+  "alberto-de-oliveira-por-amor-de-uma-lagrima-por-amor-de-uma-lagrima",
+  "alberto-de-oliveira-alma-em-flor"
+ ],
+ "palavras": [
+  {
+   "lema": "imoto",
+   "formas": [
+    "imoto",
+    "imota"
+   ],
+   "classe": "adjetivo",
+   "def": "imóvel, parado",
+   "exemplo": "de lendas um palácio dorme. Torvo, imoto em seu leito, um rio o cinge, E,",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-fantastica"
+  },
+  {
+   "lema": "novilúnio",
+   "formas": [
+    "novilúnios"
+   ],
+   "classe": "substantivo masculino",
+   "def": "lua nova, a fase em que a Lua quase não se vê",
+   "exemplo": "o cinge, E, à luz dos novilúnios argentados, Vê-se em bronze uma antiga e bronca",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-fantastica"
+  },
+  {
+   "lema": "bronco",
+   "formas": [
+    "bronca",
+    "bronco"
+   ],
+   "classe": "adjetivo",
+   "def": "tosco, grosseiro, sem acabamento ou polimento",
+   "exemplo": "Vê-se em bronze uma antiga e bronca esfinge E lamentam-se arbustos encantados. Dentro, assombro e",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-fantastica"
+  },
+  {
+   "lema": "quedo",
+   "formas": [
+    "quedo",
+    "quedas"
+   ],
+   "classe": "adjetivo",
+   "def": "quieto, imóvel, parado",
+   "exemplo": "arbustos encantados. Dentro, assombro e mudez! quedas figuras De reis e de rainhas; penduradas Pelo",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-fantastica",
+   "so_obras": [
+    "alberto-de-oliveira-meridionais-fantastica",
+    "alberto-de-oliveira-sonetos-e-poemas-fim-de-um-conto",
+    "alberto-de-oliveira-sonetos-e-poemas-ao-luar-de-verona"
+   ]
+  },
+  {
+   "lema": "panóplia",
+   "formas": [
+    "panóplias"
+   ],
+   "classe": "substantivo feminino",
+   "def": "conjunto de armas antigas pendurado na parede como enfeite",
+   "exemplo": "e de rainhas; penduradas Pelo muro panóplias, armaduras, Dardos, elmos, punhais, piques, espadas. E inda",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-fantastica"
+  },
+  {
+   "lema": "pique",
+   "formas": [
+    "piques",
+    "pique"
+   ],
+   "classe": "substantivo masculino",
+   "def": "lança comprida dos antigos soldados de infantaria",
+   "exemplo": "muro panóplias, armaduras, Dardos, elmos, punhais, piques, espadas. E inda ornada de gemas e vestida",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-fantastica"
+  },
+  {
+   "lema": "toro",
+   "formas": [
+    "toro"
+   ],
+   "classe": "substantivo masculino",
+   "def": "leito, cama",
+   "exemplo": "princesa está sem vida Sobre um toro fantástico de flores. Traz o colo estrelado de",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-fantastica"
+  },
+  {
+   "lema": "tálamo",
+   "formas": [
+    "tálamo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "leito do casal, a cama dos noivos",
+   "exemplo": "raio baço Põe da morta no tálamo de flores.",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-fantastica"
+  },
+  {
+   "lema": "toucador",
+   "formas": [
+    "toucador"
+   ],
+   "classe": "substantivo masculino",
+   "def": "penteadeira, móvel com espelho onde a mulher se penteia e se arruma",
+   "exemplo": "com flores, rosas em grinaldas No toucador, — o espelho refletindo, Como um fundo de",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-o-interior-da-camara"
+  },
+  {
+   "lema": "carcérula",
+   "formas": [
+    "carcérula"
+   ],
+   "classe": "substantivo feminino",
+   "def": "prisão pequena, cela",
+   "exemplo": "bendita essa mão que a tímida carcérula Onde minh'alma ansiava ora apresenta aberta, Como a",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-a-primeira-paixao"
+  },
+  {
+   "lema": "ciato",
+   "formas": [
+    "ciato"
+   ],
+   "classe": "substantivo masculino",
+   "def": "taça pequena com que os gregos tiravam o vinho da vasilha",
+   "exemplo": "que o vinho Bebido em grego ciato dourado! »",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-sabor-das-lagrimas"
+  },
+  {
+   "lema": "trireme",
+   "formas": [
+    "trireme"
+   ],
+   "classe": "substantivo feminino",
+   "def": "galera antiga de guerra, com três ordens de remos de cada lado",
+   "exemplo": "velas esquisitas, Púrpuras velas de real trireme, Pandas ondulam; a água escura freme E ouve-se",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-a-volta-da-galera"
+  },
+  {
+   "lema": "panda",
+   "formas": [
+    "pandas"
+   ],
+   "classe": "adjetivo",
+   "def": "cheia de vento, estufada (a vela do navio)",
+   "exemplo": "esquisitas, Púrpuras velas de real trireme, Pandas ondulam; a água escura freme E ouve-se a",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-a-volta-da-galera"
+  },
+  {
+   "lema": "fremir",
+   "formas": [
+    "freme"
+   ],
+   "classe": "verbo",
+   "def": "tremer de leve, vibrar, estremecer",
+   "exemplo": "trireme, Pandas ondulam; a água escura freme E ouve-se a espaço a voz dos talamitas.",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-a-volta-da-galera"
+  },
+  {
+   "lema": "talamita",
+   "formas": [
+    "talamitas"
+   ],
+   "classe": "substantivo masculino",
+   "def": "remador do banco mais baixo das galeras gregas",
+   "exemplo": "ouve-se a espaço a voz dos talamitas. — Praias do iônio mar, sede benditas! A",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-a-volta-da-galera"
+  },
+  {
+   "lema": "concento",
+   "formas": [
+    "concento"
+   ],
+   "classe": "substantivo masculino",
+   "def": "harmonia de vozes ou de sons, concerto",
+   "exemplo": "encarando as águas infinitas. Tal ao concento de impelidos remos Ouvia a noite a alguém",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-a-volta-da-galera"
+  },
+  {
+   "lema": "clâmide",
+   "formas": [
+    "clâmide"
+   ],
+   "classe": "substantivo feminino",
+   "def": "manto curto dos gregos, preso no ombro",
+   "exemplo": "a sombra meditava, Do ombro a clâmide aos ventos sacudindo.",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-a-volta-da-galera"
+  },
+  {
+   "lema": "plenilúnio",
+   "formas": [
+    "plenilúnio"
+   ],
+   "classe": "substantivo masculino",
+   "def": "lua cheia",
+   "exemplo": "o espaço Da doce luz do plenilúnio de ouro.",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-as-estrelas"
+  },
+  {
+   "lema": "vingar",
+   "formas": [
+    "vinga"
+   ],
+   "classe": "verbo",
+   "def": "galgar, subir até o alto de",
+   "exemplo": "móvel planta peregrina Que o muro vinga, o peitoril domina Em torsa, aérea, caprichosa escada.",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-a-janela-de-julieta",
+   "so_obras": [
+    "alberto-de-oliveira-meridionais-a-janela-de-julieta"
+   ]
+  },
+  {
+   "lema": "pungir",
+   "formas": [
+    "punge"
+   ],
+   "classe": "verbo",
+   "def": "ferir por dentro, afligir, magoar",
+   "exemplo": "e ainda agora o que me punge e traz De estranho afeto lágrimas tardias É",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-saudade-da-estatua"
+  },
+  {
+   "lema": "plaustro",
+   "formas": [
+    "plaustro"
+   ],
+   "classe": "substantivo masculino",
+   "def": "carro, carruagem dos antigos",
+   "exemplo": "prata em largo mar sustinha Ao plaustro iluminado. Dormira um dia à flor do regaço",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-o-leque"
+  },
+  {
+   "lema": "estema",
+   "formas": [
+    "estema"
+   ],
+   "classe": "substantivo masculino",
+   "def": "coroa, grinalda",
+   "exemplo": "gênio peregrino Incrustara, arrojado, em cintilante estema, A alma inteira: o coral da ilusão, a",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-o-leque"
+  },
+  {
+   "lema": "rútilo",
+   "formas": [
+    "rútilo",
+    "rutilar",
+    "rutila"
+   ],
+   "classe": "adjetivo",
+   "def": "muito brilhante, resplandecente; rutilar: brilhar muito",
+   "exemplo": "o olhar de topázio, enfebrecida logo Rutila em rubro mar de púrpuras, abrasa, Arde, queima,",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-o-leque"
+  },
+  {
+   "lema": "linfa",
+   "formas": [
+    "linfa"
+   ],
+   "classe": "substantivo feminino",
+   "def": "água pura e clara, de fonte ou de rio",
+   "exemplo": "espessura Dos mirtos retouçando. Perto a linfa, — um pequeno e trêmulo, arrufado Fio de",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-o-leque"
+  },
+  {
+   "lema": "flavo",
+   "formas": [
+    "flavo",
+    "flava"
+   ],
+   "classe": "adjetivo",
+   "def": "louro, cor de ouro",
+   "exemplo": "frouxa espuma erguida E recurvado seio. Flavo e crespo ondulando o rútilo cabelo Cai da",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-o-leque"
+  },
+  {
+   "lema": "náiade",
+   "formas": [
+    "náiade"
+   ],
+   "classe": "substantivo feminino",
+   "def": "ninfa das fontes e dos rios",
+   "exemplo": "ondulando o rútilo cabelo Cai da náiade, — é bela! Esplêndido modelo, Atrai, fascina o",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-o-leque"
+  },
+  {
+   "lema": "virente",
+   "formas": [
+    "virente",
+    "virentes",
+    "viridente"
+   ],
+   "classe": "adjetivo",
+   "def": "verde, verdejante",
+   "exemplo": "Mas a um lado, afastando o virente embaraço Dos caniços de ao pé, surge um",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-o-leque"
+  },
+  {
+   "lema": "argentino",
+   "formas": [
+    "argentina"
+   ],
+   "classe": "adjetivo",
+   "def": "de som claro e fino, como o da prata",
+   "exemplo": "a trêmula voz de uma flauta argentina Começa a despertar o silêncio. Encantada, Repete a",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-o-leque",
+   "so_obras": [
+    "alberto-de-oliveira-meridionais-o-leque"
+   ]
+  },
+  {
+   "lema": "flux",
+   "formas": [
+    "flux"
+   ],
+   "classe": "substantivo masculino",
+   "def": "à flux: em abundância, aos montes",
+   "exemplo": "extensão das campinas. Depois, sussurrando à flux Dos cactos ensanguentados, Bailam nos prismas da luz,",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-beija-flores"
+  },
+  {
+   "lema": "fuzil",
+   "formas": [
+    "fuzil",
+    "fuzis",
+    "fuzile"
+   ],
+   "classe": "substantivo masculino",
+   "def": "relâmpago; fuzilar: relampejar, faiscar",
+   "exemplo": "cigarra embora, A prumo o sol fuzile; Este pesar de agora Não há canto que",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-meridionais-falando-ao-sol"
+  },
+  {
+   "lema": "estos",
+   "formas": [
+    "estos"
+   ],
+   "classe": "substantivo masculino plural",
+   "def": "ardores, ondas de calor intenso",
+   "exemplo": "Impelem-na. O verão faz rutilar, aos estos Da luz, de um céu de cobre o",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-a-galera-de-cleopatra"
+  },
+  {
+   "lema": "ostro",
+   "formas": [
+    "ostro"
+   ],
+   "classe": "substantivo masculino",
+   "def": "púrpura, tinta ou tecido vermelho-escuro",
+   "exemplo": "Castro Pelo cedrino tálamo odorante O ostro fenício, a púrpura mais bela, Raros bissos de",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-o-leito-da-romana"
+  },
+  {
+   "lema": "coma",
+   "formas": [
+    "coma"
+   ],
+   "classe": "substantivo feminino",
+   "def": "cabeleira; nas árvores, a copa",
+   "exemplo": "olhos sob a treva ondeante Da coma esparsa, que um luar estrela. Eri-lavradas trípodes custosas,",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-o-leito-da-romana"
+  },
+  {
+   "lema": "caçoula",
+   "formas": [
+    "caçoulas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "vaso em que se queimam perfumes",
+   "exemplo": "luar estrela. Eri-lavradas trípodes custosas, Kam-klins, caçoulas, derramai no espaço Aloés, sândalo, mirras vaporosas. Entrando",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-o-leito-da-romana"
+  },
+  {
+   "lema": "pomas",
+   "formas": [
+    "pomas"
+   ],
+   "classe": "substantivo feminino plural",
+   "def": "os seios",
+   "exemplo": "pouco, e as rosas Mostra das pomas, levantando o braço.",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-o-leito-da-romana"
+  },
+  {
+   "lema": "tácito",
+   "formas": [
+    "tácito"
+   ],
+   "classe": "adjetivo",
+   "def": "calado, silencioso",
+   "exemplo": "a tais desoras. O arvoredo Estava tácito, mudo, imoto, quedo..... Nem uma aragem derredor se",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-fim-de-um-conto"
+  },
+  {
+   "lema": "lêmure",
+   "formas": [
+    "lêmures"
+   ],
+   "classe": "substantivo masculino",
+   "def": "alma de morto que vaga, assombração",
+   "exemplo": "som tremendo Vão-se, ao modo dos lêmures, carpindo. Vens do passado, Sombra, e uivando choras...",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-sombra"
+  },
+  {
+   "lema": "válido",
+   "formas": [
+    "válidos"
+   ],
+   "classe": "adjetivo",
+   "def": "forte, vigoroso",
+   "exemplo": "toma... Eis Titânia! de pé, meus válidos cativos! » Tal a voz de Oberon vai",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-titania"
+  },
+  {
+   "lema": "garço",
+   "formas": [
+    "garço"
+   ],
+   "classe": "adjetivo",
+   "def": "verde-azulado (dos olhos)",
+   "exemplo": "lá trouxeste o olhar sereno e garço, O alvo colo onde, em quedas de oiro",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-ultima-deusa"
+  },
+  {
+   "lema": "citaredo",
+   "formas": [
+    "citaredo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "tocador de cítara, poeta que canta ao som dela",
+   "exemplo": "se lhe apraz, de Teos o citaredo; Olhe a verdura aqui d'este arvoredo À beira",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-lendo-os-antigos"
+  },
+  {
+   "lema": "estuar",
+   "formas": [
+    "estuas",
+    "estuava"
+   ],
+   "classe": "verbo",
+   "def": "ferver, arder",
+   "exemplo": "Em paz, desejo meu, que ardente estuas! De seus límpidos pés o arminho brando Nem",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-paraiso-vedado"
+  },
+  {
+   "lema": "bonina",
+   "formas": [
+    "boninas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "florzinha do campo",
+   "exemplo": "as campinas. Revestem-se os outeiros de boninas, Como outr'ora de acanto o altar dos Numes;",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-a-entrada-da-primavera"
+  },
+  {
+   "lema": "nume",
+   "formas": [
+    "numes"
+   ],
+   "classe": "substantivo masculino",
+   "def": "deus, divindade",
+   "exemplo": "outr'ora de acanto o altar dos Numes; Flóreas caçoulas partem-se em perfumes; Já vão fugindo",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-a-entrada-da-primavera"
+  },
+  {
+   "lema": "páramo",
+   "formas": [
+    "páramo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "o alto do céu, o firmamento",
+   "exemplo": "beijo de ouro iluminado, No alto páramo azul, de lado a lado, Andaram as estrelas",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-vox-rerum"
+  },
+  {
+   "lema": "cratera",
+   "formas": [
+    "crateras"
+   ],
+   "classe": "substantivo feminino",
+   "def": "vaso largo em que os antigos misturavam o vinho com água",
+   "exemplo": "loira Aglaia? Corados vinhos golfam das crateras, Luzem taças no ar, e a mesa espraia",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-de-volta-do-circo",
+   "so_obras": [
+    "alberto-de-oliveira-sonetos-e-poemas-de-volta-do-circo"
+   ]
+  },
+  {
+   "lema": "copa",
+   "formas": [
+    "copas",
+    "copa"
+   ],
+   "classe": "substantivo feminino",
+   "def": "taça",
+   "exemplo": "heras. Embalde! embalde púrpuras cantando Tinintes copas cruzam-se festivas... Pensa Aglaia em Leucipo: a arena",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-de-volta-do-circo",
+   "so_obras": [
+    "alberto-de-oliveira-sonetos-e-poemas-de-volta-do-circo",
+    "alberto-de-oliveira-sonetos-e-poemas-vaso-grego"
+   ]
+  },
+  {
+   "lema": "açoteia",
+   "formas": [
+    "açoteia"
+   ],
+   "classe": "substantivo feminino",
+   "def": "terraço no alto da casa",
+   "exemplo": "Largas janelas, peitoris altivos, Colunatas da açoteia alevantada, Como eu, quedais lá em cima pensativos.",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-ao-luar-de-verona"
+  },
+  {
+   "lema": "procela",
+   "formas": [
+    "procela"
+   ],
+   "classe": "substantivo feminino",
+   "def": "tempestade, sobretudo no mar",
+   "exemplo": "e estridor do raio e da procela. Nem todo o equóreo abismo, entre as equóreas",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-so"
+  },
+  {
+   "lema": "equóreo",
+   "formas": [
+    "equóreo",
+    "equóreas"
+   ],
+   "classe": "adjetivo",
+   "def": "do mar",
+   "exemplo": "e da procela. Nem todo o equóreo abismo, entre as equóreas fragas Ruindo, urrante e",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-so"
+  },
+  {
+   "lema": "fauce",
+   "formas": [
+    "fauce"
+   ],
+   "classe": "substantivo feminino",
+   "def": "goela, garganta",
+   "exemplo": "e estouraz, com a espuma à fauce e aquela Luz dos ruivos fuzis como serpentes",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-so"
+  },
+  {
+   "lema": "pego",
+   "formas": [
+    "pego"
+   ],
+   "classe": "substantivo masculino",
+   "def": "o fundo do mar, abismo",
+   "exemplo": "teu silêncio esmagas. Rompe, atira-te ao pego, a escuridão profaça De a venceres no horror",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-so"
+  },
+  {
+   "lema": "contador",
+   "formas": [
+    "contador"
+   ],
+   "classe": "substantivo masculino",
+   "def": "móvel antigo de gavetinhas, espécie de escrivaninha",
+   "exemplo": "Casualmente, uma vez, de um perfumado Contador sobre o mármor luzidio, Entre um leque e",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-sonetos-e-poemas-vaso-chines",
+   "so_obras": [
+    "alberto-de-oliveira-sonetos-e-poemas-vaso-chines"
+   ]
+  },
+  {
+   "lema": "arrear",
+   "formas": [
+    "arreia"
+   ],
+   "classe": "verbo",
+   "def": "enfeitar, adornar",
+   "exemplo": "luz de que se veste e arreia O bosque, e a mais o amor levava-nos",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-versos-e-rimas-paganismo"
+  },
+  {
+   "lema": "folgar",
+   "formas": [
+    "folga"
+   ],
+   "classe": "verbo",
+   "def": "alegrar-se, ficar contente",
+   "exemplo": "gênios do espaço o excelso soberano, Folga o altivo Oberon. Titânia, a encantadora, (Auras, podeis",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-versos-e-rimas-o-sonho-de-titania",
+   "so_obras": [
+    "alberto-de-oliveira-versos-e-rimas-o-sonho-de-titania"
+   ]
+  },
+  {
+   "lema": "atro",
+   "formas": [
+    "atro",
+    "atros"
+   ],
+   "classe": "adjetivo",
+   "def": "negro, escuro, sombrio",
+   "exemplo": "a quebranta, Olha em roda e atro amor domina-a num momento, Vendo, pasma a encará-la,",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-versos-e-rimas-o-sonho-de-titania"
+  },
+  {
+   "lema": "viração",
+   "formas": [
+    "viração",
+    "virações"
+   ],
+   "classe": "substantivo feminino",
+   "def": "brisa fresca",
+   "exemplo": "aroma o cacto da montanha. Das virações ao leve e perfumado açoite, Une-se inseto a",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-por-amor-de-uma-lagrima-por-amor-de-uma-lagrima"
+  },
+  {
+   "lema": "rojar",
+   "formas": [
+    "rojei",
+    "rojam"
+   ],
+   "classe": "verbo",
+   "def": "arrastar-se pelo chão; rojar aos pés: prostrar-se",
+   "exemplo": "o que agora és... E já rojei a teus pés E ardi na paixão infinda...",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-por-amor-de-uma-lagrima-por-amor-de-uma-lagrima"
+  },
+  {
+   "lema": "prestes",
+   "formas": [
+    "prestes"
+   ],
+   "classe": "advérbio",
+   "def": "depressa, num instante",
+   "exemplo": "sonho tão belo! Mas tudo evaporou-se Prestes no ar! Tudo acabado, tudo! E tanto amei,",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-por-amor-de-uma-lagrima-por-amor-de-uma-lagrima",
+   "so_obras": [
+    "alberto-de-oliveira-por-amor-de-uma-lagrima-por-amor-de-uma-lagrima"
+   ]
+  },
+  {
+   "lema": "perau",
+   "formas": [
+    "peraus"
+   ],
+   "classe": "substantivo masculino",
+   "def": "barranco fundo, buraco aberto pela enxurrada",
+   "exemplo": "lamaçais com as enxurradas E em peraus fundos mudam-se as estradas. Fala-se de barreiras e",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "cancela",
+   "formas": [
+    "cancela"
+   ],
+   "classe": "substantivo feminino",
+   "def": "porteira da fazenda",
+   "exemplo": "Do campo e a limitá-lo, A cancela sonora Batesse, dando entrada ao seu cavalo. Imaginava",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "roupão",
+   "formas": [
+    "roupão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "vestido comprido e largo; aqui, o traje de montaria da moça",
+   "exemplo": "Na sela, o farfalhar de seu roupão; Brincando à ventania O véu, e no estalido",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "tropear",
+   "formas": [
+    "tropear"
+   ],
+   "classe": "substantivo masculino",
+   "def": "tropel, barulho das patas dos animais",
+   "exemplo": "Eu despertei, sentindo Aos animais o tropear lá fora, E os passos apressados àquela hora",
+   "capitulo": 1,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "aguilhada",
+   "formas": [
+    "aguilhada"
+   ],
+   "classe": "substantivo feminino",
+   "def": "vara com ferrão na ponta, para tocar os bois",
+   "exemplo": "Por bois que a espaços a aguilhada instiga, Chiam, de longas canas carregados, Os tardos",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "outão",
+   "formas": [
+    "outão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "parede lateral da casa",
+   "exemplo": "ao sol nascente alta mangueira, No outão da casa há século plantada. Mas não é",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "dita",
+   "formas": [
+    "dita"
+   ],
+   "classe": "substantivo feminino",
+   "def": "felicidade, sorte",
+   "exemplo": "o olhar, e a mão, suprema dita! Me estende. Aperto-lhe a tremer a mão. III",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor",
+   "so_obras": [
+    "alberto-de-oliveira-alma-em-flor"
+   ]
+  },
+  {
+   "lema": "restrugir",
+   "formas": [
+    "restrugia",
+    "restruge"
+   ],
+   "classe": "verbo",
+   "def": "ressoar com força, retumbar",
+   "exemplo": "recortes dos barrancos Roxos ou rubros, restrugia em cheio Dos carros, a cambar aos solavancos,",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "tacha",
+   "formas": [
+    "tachas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "tacho grande de cobre em que se ferve o caldo de cana no engenho",
+   "exemplo": "O hino triunfal. Ao pé das tachas, de onde a quando e quando No fervor",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "grimpa",
+   "formas": [
+    "grimpas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "o alto, a ponta mais alta (da árvore)",
+   "exemplo": "e vária; Do musgo humilde às grimpas da araucária Há, talvez, gritos, há, talvez, lamentos.",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "balsa",
+   "formas": [
+    "balsas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "moita, mato cerrado",
+   "exemplo": "arcos da ponte, ondas do rio, Balsas em flor, lírios das ribanceiras, O enlevo meu...",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor",
+   "so_obras": [
+    "alberto-de-oliveira-alma-em-flor"
+   ]
+  },
+  {
+   "lema": "corar",
+   "formas": [
+    "corar"
+   ],
+   "classe": "verbo",
+   "def": "quarar, branquear a roupa ao sol",
+   "exemplo": "talvez, o meu primeiro verso, Vendo corar ao sol as suas saias. IX Divina febre,",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor",
+   "so_obras": [
+    "alberto-de-oliveira-alma-em-flor"
+   ]
+  },
+  {
+   "lema": "aljava",
+   "formas": [
+    "aljava"
+   ],
+   "classe": "substantivo feminino",
+   "def": "estojo das flechas, levado às costas",
+   "exemplo": "Cedo as setas provei de tua aljava, Menino ainda, alado deus menino. Para estar junto",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "feita",
+   "formas": [
+    "feita"
+   ],
+   "classe": "substantivo feminino",
+   "def": "de uma feita: certa vez",
+   "exemplo": "através vejo-as ainda! XIII De uma feita era em rancho estreito e pobre: Fala-nos rindo",
+   "capitulo": 2,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor",
+   "so_obras": [
+    "alberto-de-oliveira-alma-em-flor"
+   ]
+  },
+  {
+   "lema": "capão",
+   "formas": [
+    "capões"
+   ],
+   "classe": "substantivo masculino",
+   "def": "mata isolada no meio do campo",
+   "exemplo": "E no ar que sopra dos capões escuros, Sente-se, de mistura a essências finas E",
+   "capitulo": 3,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "trêfego",
+   "formas": [
+    "trêfega"
+   ],
+   "classe": "adjetivo",
+   "def": "irrequieto, travesso",
+   "exemplo": "porta Do templo de verdura Azul, trêfega, leve borboleta; Vai volateando inquieta, Recruza o atalho,",
+   "capitulo": 3,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  },
+  {
+   "lema": "chusma",
+   "formas": [
+    "chusma"
+   ],
+   "classe": "substantivo feminino",
+   "def": "multidão, bando",
+   "exemplo": "selva espessa e escura. Outras, alada chusma de mil cores, Vêm-lhe ao encontro, farfalhando. Agora",
+   "capitulo": 3,
+   "obra_ex": "alberto-de-oliveira-alma-em-flor"
+  }
+ ]
+}

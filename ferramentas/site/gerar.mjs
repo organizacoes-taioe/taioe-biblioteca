@@ -230,6 +230,60 @@ function celula(lado, l, ini, i, lingua) {
   if (!l) return '<div class="' + lado + ' vazio' + ini + '" data-i="' + i + '"></div>';
   return '<div class="' + lado + ' ' + l.cls + ini + '" data-i="' + i + '"' + (lingua ? ' lang="' + lingua + '"' : '') + '>' + l.html + '</div>';
 }
+/* ---------------------------------------------------------------- vocabulário
+   Pedido do Gere (31/10/2026): nas obras em português, as palavras raras ganham nota com a
+   definição, para o falante de português. A fonte é edicoes/<pasta>/vocabulario.json:
+   {obra, palavras: [{lema, formas: [...], classe, def, so_capitulos?: [n, ...]}]}. Cada ocorrência
+   no texto vira um button.pal.rara (sublinhado pontilhado), e o verbete fica escondido no fim da
+   página, como o dos poemas na língua original; o js/notas.js o abre junto da palavra. */
+const VOCABULARIO = {};
+for (const d of fs.readdirSync(path.join(RAIZ, 'edicoes'))) {
+  const f = path.join(RAIZ, 'edicoes', d, 'vocabulario.json');
+  if (!fs.existsSync(f)) continue;
+  const v = JSON.parse(fs.readFileSync(f, 'utf8')), vistas = new Set();
+  for (const w of v.palavras) {
+    if (!w.lema || !w.def || !Array.isArray(w.formas) || !w.formas.length) throw new Error(f + ': palavra sem lema, definição ou formas: ' + JSON.stringify(w).slice(0, 80));
+    for (const x of w.formas) {
+      if (vistas.has(x.toLowerCase())) throw new Error(f + ': forma em duas palavras: ' + x);
+      vistas.add(x.toLowerCase());
+    }
+  }
+  VOCABULARIO[v.obra || d] = v;
+}
+/* marca as formas do vocabulário nos trechos de texto do HTML (fora das marcas); devolve o HTML
+   e os índices das palavras usadas */
+function marcarRaras(html, voc, parte) {
+  const formas = new Map(), usados = new Set();
+  voc.palavras.forEach((w, k) => {
+    if (w.so_capitulos && !w.so_capitulos.includes(parte)) return;
+    w.formas.forEach((x) => formas.set(x.toLowerCase(), k));
+  });
+  const saida = String(html).split(/(<[^>]*>)/).map((pedaco) => pedaco.startsWith('<') ? pedaco
+    : pedaco.replace(/([«“(—]*)(\p{L}+(?:-\p{L}+)*)([»”),.;:!?…]*)/gu, (tudo, antes, pal, depois) => {
+      /* o composto inteiro (guarda-peito) ou, no verbo com pronome (derreava-se, apear-se-ia), o
+         verbo, com o pronome fora da marca */
+      let k = formas.get(pal.toLowerCase()), resto = '';
+      if (k === undefined && pal.includes('-')) {
+        const i = pal.indexOf('-');
+        k = formas.get(pal.slice(0, i).toLowerCase());
+        resto = pal.slice(i);
+        pal = pal.slice(0, i);
+      }
+      if (k === undefined) return tudo;
+      usados.add(k);
+      /* a pontuação colada vai junto, num trecho que não quebra (o botão quebraria antes da vírgula) */
+      const marca = '<button type="button" class="pal rara" data-g="v' + k + '" aria-expanded="false">' + pal + '</button>';
+      return antes || resto || depois ? '<span class="pal-g">' + antes + marca + resto + depois + '</span>' : marca;
+    })).join('');
+  return { html: saida, usados };
+}
+function htmlVocabulario(voc, usados) {
+  return '<div class="glossario" hidden>' + [...usados].sort((a, b) => a - b).map((k) => {
+    const w = voc.palavras[k];
+    return '<div class="verbete" id="g-v' + k + '"><div class="vb-parte"><p class="vb-cab"><b>' + esc(w.lema) + '</b>' +
+      (w.classe ? ' <span class="vb-classe">' + esc(w.classe) + '</span>' : '') + '</p><p class="vb-def">' + inline(w.def) + '</p></div></div>';
+  }).join('') + '</div>';
+}
 function textoParte(o, p) {
   const poema = !!o.poema;
   const linhas = poema ? linhasPoema : linhasProsa;
@@ -1049,13 +1103,21 @@ function paginaParte(a, o, f) {
   const lingua = comPt ? o.lingua : bilingue && o.traducao ? o.traducao.codigo || '' : '';
   const comentada = !!o.comentada;
   const notasC = comentada ? notasDaParte(p) : null;
+  let corpo = comentada ? textoComentado(o, p, f, notasC) : textoParte(o, p), vocab = '';
+  const voc = !p.glossario && !bilingue ? VOCABULARIO[o.id] : null;
+  if (voc) {
+    const r = marcarRaras(corpo, voc, f.i);
+    corpo = r.html;
+    if (r.usados.size) vocab = htmlVocabulario(voc, r.usados);
+  }
   const html = '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
     '<article class="folha leitura' + (poema && !o.prosa ? ' de-poema' : '') + (p.glossario ? ' com-notas' : '') + (bilingue ? ' bilingue ' + (comPt ? 'ver-orig' : 'ver-trad') : '') + '"' +
     (lingua ? ' data-lingua="' + esc(lingua) + '"' : '') + (comPt ? ' data-abre="orig"' : '') + '>' +
     '<header class="cabeca-parte' + (conto && i === 1 ? ' conto' : '') + '">' + cabeca +
     (comentada ? '<p class="faixa-st">' + esc(p.folhas) + '</p>' + (temComentarios(p) ? '<p class="ver-coment"><a class="botao secundario" href="' + f.url + 'comentarios/">Comentários sobre esta parte</a></p>' : '') : '') +
-    '</header>' + (comentada ? textoComentado(o, p, f, notasC) : textoParte(o, p)) + (comentada ? listaNotas(notasC) : '') +
-    (p.glossario ? htmlGlossario(o, p.glossario) : '') +
+    (vocab ? '<p class="publicacao dica-glossario">As palavras sublinhadas têm nota: toque para ver o sentido.</p>' : '') +
+    '</header>' + corpo + (comentada ? listaNotas(notasC) : '') +
+    (p.glossario ? htmlGlossario(o, p.glossario) : '') + vocab +
     '<div id="fim-parte" aria-hidden="true"></div>' +
     (i < total || poema ? '' : '<p class="fim">Fim</p>') +
     '<div class="estado-leitura" id="estado-leitura" data-alvo="' + alvo + '" hidden></div>' +

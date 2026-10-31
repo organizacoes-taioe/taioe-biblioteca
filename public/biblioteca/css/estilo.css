@@ -515,6 +515,9 @@ button.pal {
   cursor: pointer; border-radius: 3px; text-align: inherit; -webkit-tap-highlight-color: transparent;
 }
 .pal-g { white-space: nowrap; }
+/* a palavra rara das obras em português (vocabulario.json): sublinhado pontilhado discreto */
+button.pal.rara { text-decoration: underline dotted; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  text-underline-offset: .22em; text-decoration-thickness: 1px; }
 button.pal:hover { color: var(--realce); text-decoration: underline dotted; text-underline-offset: .22em; text-decoration-thickness: 1px; }
 button.pal:focus-visible { outline: 2px solid var(--realce); outline-offset: 1px; }
 button.pal.ativa { color: var(--realce); background: color-mix(in srgb, var(--realce) 12%, transparent); }

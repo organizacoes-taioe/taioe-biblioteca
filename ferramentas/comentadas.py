@@ -19,12 +19,13 @@ Fonte de cada obra, em edicoes/<obra>/:
   original/parte-N.txt, traducao/parte-N.txt (ou atualizado/parte-N.txt)
                      um parágrafo por bloco, os mesmos nos dois; a marca {St 17a} (ou {fl. 1v})
                      no mesmo parágrafo nos dois lados
-  comentarios.json   [{parte, trecho?, id, titulo, st, resumo, revisto?, itens: [{id, autor, sobre,
+  comentarios.json   [{parte, trecho?, id, titulo, st, revisto?, itens: [{id, autor, sobre,
                      obra, passagem, link, original, texto, revisto?}]}], na ordem do texto
 
 Montagem dos comentários (uma vez, e de novo só se a escolha mudar):
     python3 ferramentas/comentadas.py --montar <obra>
-  junta edicoes/<obra>/temas.json ([{parte, trecho?, id, titulo, st, resumo, itens: [ids]}]) com os
+  junta edicoes/<obra>/temas.json ([{parte, trecho?, id, titulo, st, itens: [ids]}]; o tema não tem
+  resumo desde 31/10, só um nome bem descritivo, pedido do Gere) com os
   achados da pesquisa (edicoes/<obra>/pesquisa/achados-*.json) e grava comentarios.json, que daí em
   diante é a fonte (as respostas do Gere se aplicam nele).
 
@@ -114,7 +115,7 @@ def js(v):
 def aprovados(o, i):
     """Os temas da parte i que vão ao site (o Gere, 26/10: «os comentários só vão aparecer depois
     que forem aceitos por mim»): só o comentário aprovado (`revisto`, sem aviso de corte), só o tema
-    com o título aprovado e algum comentário aprovado, e o resumo só aprovado."""
+    com o título aprovado e algum comentário aprovado."""
     temas = []
     for x in o['_com']:
         rev = x.get('revisto', [])
@@ -122,7 +123,7 @@ def aprovados(o, i):
         if x['parte'] != i or 'titulo' not in rev or not itens:
             continue
         temas.append({'id': x['id'], 'titulo': x['titulo'], 'st': x.get('st', ''),
-                      'resumo': x.get('resumo', '') if 'resumo' in rev else '', 'trecho': x.get('trecho', ''),
+                      'trecho': x.get('trecho', ''),
                       'itens': [{k: it[k] for k in ('autor', 'sobre', 'obra', 'passagem', 'link', 'texto')} for it in itens]})
     return temas
 
@@ -210,17 +211,18 @@ def revisao(obras, destino):
             trechos = {tr['id']: tr['titulo'] for tr in p.get('trechos', [])}
             for x in [x for x in o['_com'] if x['parte'] == i]:
                 rev, base, itens = x.get('revisto', []), f'{o["id"]}-{i}', []
-                if 'titulo' not in rev:
-                    itens.append({'id': f'{base}:tt:{x["id"]}', 'tipo': 'tema-titulo', 'texto': x['titulo']})
-                if x.get('resumo') and 'resumo' not in rev:
-                    itens.append({'id': f'{base}:tr:{x["id"]}', 'tipo': 'tema-resumo', 'texto': x['resumo']})
                 for it in x['itens']:
                     if not it.get('revisto'):
                         itens.append({'id': f'{base}:c:{x["id"]}:{it["id"]}'[:120], 'tipo': 'comentario',
                                       **{k: it[k] for k in ('autor', 'sobre', 'obra', 'passagem', 'link', 'texto')}})
+                # o nome do tema vem no fim, para ele decidir depois de ler os comentários (31/10)
+                if 'titulo' not in rev:
+                    itens.append({'id': f'{base}:tt:{x["id"]}', 'tipo': 'tema-titulo', 'texto': x['titulo']})
+                if x.get('resumo'):
+                    erros.append(f'{o["id"]}: tema {x["id"]} com resumo; desde 31/10 o tema tem só o nome')
                 if itens:
-                    sec.append({'id': x['id'], 'titulo': x['titulo'],
-                                'sub': ' · '.join(s for s in (trechos.get(x.get('trecho', ''), ''), x.get('st', '')) if s),
+                    sec.append({'id': x['id'], 'titulo': x.get('st') or 'Tema',
+                                'sub': trechos.get(x.get('trecho', ''), ''),
                                 'url': f'{url}{p["n"]}/comentarios/{x["id"]}/', 'itens': itens})
             if sec:
                 pagc['capitulos'].append({'id': f'{o["id"]}-{i}', 'rotulo': f'{o["titulo"]}, parte {i}: {p["titulo"]}',
@@ -255,7 +257,7 @@ def montar(slug):
             texto = re.sub(r'\s*\[[^\]]*\]\s*$', '', x['traducao_pt'].strip())
             itens.append({'id': i, 'autor': x['autor'], 'sobre': x['sobre'], 'obra': x['obra'], 'passagem': x['passagem'],
                           'link': x['link'], 'texto': texto, 'original': x['original']})
-        com.append({k: t[k] for k in ('parte', 'trecho', 'id', 'titulo', 'st', 'resumo') if k in t} | {'itens': itens})
+        com.append({k: t[k] for k in ('parte', 'trecho', 'id', 'titulo', 'st') if k in t} | {'itens': itens})
     if erros:
         sys.exit('\n'.join(erros))
     (d / 'comentarios.json').write_text(json.dumps(com, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')

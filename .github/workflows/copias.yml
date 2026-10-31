@@ -1,5 +1,5 @@
 # Confere que o supabase-js e o módulo de sessão são exatamente os do README do taioe-hub
-# (contrato da origem, item 6). Ao atualizar, mude os valores aqui e nos outros dois repositórios.
+# (contrato da origem, item 6), e que o notas.js é o mesmo da Bíblia Taioé (31/10/2026). Ao atualizar, mude os valores aqui e nos outros dois repositórios.
 name: Cópias
 
 on:
@@ -19,5 +19,6 @@ jobs:
         run: |
           echo "59d39487c3589843b410322d8a3d562ce022aba1e5ccb16898ef3fb2a0da2ecd  public/biblioteca/vendor/supabase-js-2.117.2.js" > esperado.txt
           echo "a1f94e2ca73a7ee9aa5f8ec3a8dba939b1adaafe441d149896aa7bb2013942ca  public/biblioteca/js/taioe-sessao.js" >> esperado.txt
+          echo "e1def09bd0ffd6d5c09624c375e5bfa39ff008ff845816fe2906fe98b41afef7  public/biblioteca/js/notas.js" >> esperado.txt
           sha256sum -c esperado.txt
 

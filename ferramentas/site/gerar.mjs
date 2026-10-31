@@ -608,7 +608,9 @@ dados.autores.forEach((a) => {
 const hash = (s) => crypto.createHash('sha256').update(s).digest('hex').slice(0, 8);
 const CSS = lerLf(path.join(RAIZ, 'ferramentas', 'site', 'estilo.css'));
 const LEITOR = lerLf(path.join(RAIZ, 'ferramentas', 'site', 'leitor.js'));
-const V_CSS = hash(CSS), V_JS = hash(LEITOR);
+// as notas: o mesmo arquivo da Bíblia Taioé (comum/notas.js; o workflow Cópias confere o sha256)
+const NOTAS = lerLf(path.join(RAIZ, 'ferramentas', 'site', 'comum', 'notas.js'));
+const V_CSS = hash(CSS), V_JS = hash(LEITOR), V_NOTAS = hash(NOTAS);
 
 function trilhaHtml(itens) {
   return itens.map((it) => (it.href ? '<a href="' + it.href + '">' + esc(it.txt) + '</a>' : '<span aria-current="page">' + esc(it.txt) + '</span>'))
@@ -686,6 +688,7 @@ ${ehOculta(o.url) ? '<meta name="robots" content="noindex">\n' : ''}<link rel="c
 <link rel="icon" href="${BASE}favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="${BASE}css/estilo.css?v=${V_CSS}">
 ${o.prev ? `<link rel="prev" href="${o.prev}">\n` : ''}${o.next ? `<link rel="next" href="${o.next}">\n` : ''}<script defer src="${BASE}js/leitor.js?v=${V_JS}"></script>
+<script defer src="${BASE}js/notas.js?v=${V_NOTAS}"></script>
 ${o.jsonld ? `<script type="application/ld+json">${JSON.stringify(o.jsonld).replace(/</g, '\\u003c')}</script>\n` : ''}</head>
 <body${ds}>
 <a class="pular" href="#app">Ir para o texto</a>
@@ -1135,7 +1138,7 @@ function paginasComentarios(a, o, f) {
   const urlC = f.url + 'comentarios/', rot = rotuloParte(o, p) + ': ' + textoPuro(p.titulo);
   const trilha = (fim) => comArea(a, [{ txt: a.nome, href: U.autor(a) }, { txt: o.titulo, href: U.obra(o) }, { txt: rotuloParte(o, p), href: f.url }].concat(fim));
   const cartao = (x) => '<a class="tema" href="' + urlC + x.id + '/"><span class="tema-titulo">' + inlineC(x.titulo) + '</span>' +
-    (x.st ? '<span class="tema-ref">' + esc(x.st) + '</span>' : '') + (x.resumo ? '<span class="tema-resumo">' + inlineC(x.resumo) + '</span>' : '') +
+    (x.st ? '<span class="tema-ref">' + esc(x.st) + '</span>' : '') +
     '<span class="tema-n">' + plural(x.itens.length, 'comentário', 'comentários') + '</span></a>';
   const total = p.temas.reduce((s, x) => s + x.itens.length, 0);
   let lista;
@@ -1154,10 +1157,9 @@ function paginasComentarios(a, o, f) {
     const ant = p.temas[k - 1], seg = p.temas[k + 1];
     const st0 = (String(x.st).match(/[0-9]+[a-e]/) || [])[0];
     pagina({ url: urlC + x.id + '/', titulo: textoPuro(x.titulo) + ' · Comentários — ' + o.titulo, trilha: trilha([{ txt: 'Comentários', href: urlC }, { txt: textoPuro(x.titulo) }]),
-      dados: { pagina: 'comentarios' }, descricao: descricaoDe(x.resumo || `Comentários sobre ${rot}.`),
+      dados: { pagina: 'comentarios' }, descricao: descricaoDe(textoPuro(x.titulo) + `: comentários sobre ${rot}.`),
       corpo: '<article class="folha"><p class="voltar"><a href="' + urlC + '">← Todos os temas</a><span class="sep">·</span><a href="' + f.url + '">' + esc(rotuloParte(o, p)) + '</a></p>' +
         '<header class="cab-coment"><p class="sobretitulo">Comentários · ' + esc(o.titulo) + ', ' + esc(rotuloParte(o, p).toLowerCase()) + '</p><h1>' + inlineC(x.titulo) + '</h1>' +
-        (x.resumo ? '<p class="resumo">' + inlineC(x.resumo) + '</p>' : '') +
         (x.st ? '<p class="tema-st"><a href="' + f.url + (st0 ? '#st-' + st0 : '') + '">' + esc(x.st) + '</a></p>' : '') + '</header>' +
         '<div class="comentarios">' + x.itens.map((it) => '<details class="comentario"><summary><span class="abrir" aria-hidden="true"></span><span class="autor">' + esc(it.autor) + '</span></summary>' +
           '<div class="comentario-texto">' + paragrafos(String(it.texto).split(/\n\s*\n/).map((t) => t.replace(/\*([^*]+)\*/g, '_$1_'))) + '</div>' +
@@ -1321,6 +1323,7 @@ fs.mkdirSync(path.join(SAIDA, 'css'), { recursive: true });
 fs.mkdirSync(path.join(SAIDA, 'js'), { recursive: true });
 fs.writeFileSync(path.join(SAIDA, 'css', 'estilo.css'), CSS);
 fs.writeFileSync(path.join(SAIDA, 'js', 'leitor.js'), LEITOR);
+fs.writeFileSync(path.join(SAIDA, 'js', 'notas.js'), NOTAS);
 fs.copyFileSync(path.join(RAIZ, 'favicon.svg'), path.join(SAIDA, 'favicon.svg'));
 // cópias idênticas do taioe-hub (o workflow Cópias confere o sha256)
 fs.mkdirSync(path.join(SAIDA, 'vendor'), { recursive: true });

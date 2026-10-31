@@ -63,67 +63,8 @@
     if (link) { ev.preventDefault(); location.href = link.getAttribute('href'); }
   });
 
-  /* ---------------------------------------------------------------- notas das palavras */
-  /* Poema na língua original: cada palavra (button.pal) abre o seu verbete, que o gerador deixa
-     escondido em #glossario. Na tela larga, a nota fica junto da palavra; na estreita, no pé da
-     tela. Fecha com Esc, com o ×, tocando fora ou tocando de novo na mesma palavra. */
-  var glossario = $('glossario');
-  if (glossario) {
-    var nota = null, palAtual = null;
-    var fecharNota = function (devolverFoco) {
-      if (!nota) return;
-      nota.parentNode.removeChild(nota);
-      nota = null;
-      if (palAtual) {
-        palAtual.classList.remove('ativa');
-        palAtual.setAttribute('aria-expanded', 'false');
-        if (devolverFoco) palAtual.focus();
-      }
-      palAtual = null;
-    };
-    var posicionar = function () {
-      if (!nota || !palAtual) return;
-      if (window.matchMedia && window.matchMedia('(max-width: 760px)').matches) { nota.classList.add('no-pe'); nota.style.left = nota.style.top = ''; return; }
-      nota.classList.remove('no-pe');
-      var r = palAtual.getBoundingClientRect(), largura = nota.offsetWidth, altura = nota.offsetHeight;
-      var esq = Math.max(8, Math.min(r.left + r.width / 2 - largura / 2, document.documentElement.clientWidth - largura - 8));
-      var topo = r.bottom + 8;
-      if (topo + altura > window.innerHeight - 8 && r.top - altura - 8 > 8) topo = r.top - altura - 8;
-      nota.style.left = (esq + window.pageXOffset) + 'px';
-      nota.style.top = (topo + window.pageYOffset) + 'px';
-    };
-    var abrirNota = function (pal) {
-      var verbete = $('g-' + pal.getAttribute('data-g'));
-      if (!verbete) return;
-      fecharNota(false);
-      nota = document.createElement('div');
-      nota.className = 'nota-palavra';
-      nota.setAttribute('role', 'dialog');
-      nota.setAttribute('aria-label', 'Nota sobre «' + pal.textContent + '»');
-      var fechar = document.createElement('button');
-      fechar.type = 'button';
-      fechar.className = 'fechar-nota';
-      fechar.setAttribute('aria-label', 'Fechar a nota');
-      fechar.textContent = '×';
-      fechar.addEventListener('click', function () { fecharNota(true); });
-      var corpoNota = verbete.cloneNode(true);
-      corpoNota.removeAttribute('id');
-      nota.appendChild(fechar);
-      nota.appendChild(corpoNota);
-      document.body.appendChild(nota);
-      palAtual = pal;
-      pal.classList.add('ativa');
-      pal.setAttribute('aria-expanded', 'true');
-      posicionar();
-    };
-    document.addEventListener('click', function (ev) {
-      var pal = ev.target.closest ? ev.target.closest('button.pal') : null;
-      if (pal) { if (pal === palAtual) fecharNota(false); else abrirNota(pal); return; }
-      if (nota && !nota.contains(ev.target)) fecharNota(false);
-    });
-    document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && nota) fecharNota(true); });
-    window.addEventListener('resize', posicionar);
-  }
+  /* as notas (as palavras com nota e as letras da Não-ficção) ficam em js/notas.js, o mesmo
+     arquivo da Bíblia Taioé (pedido do Gere, 31/10/2026) */
 
   /* ---------------------------------------------------------------- original e tradução */
   /* Todo texto abre só em português; a escolha segue de parte em parte da mesma obra (vale
@@ -865,7 +806,6 @@
 
   /* o botão dos Cards vale com ou sem sessão (a função mora lá embaixo) */
   botaoDosCards();
-  notasComentadas();
 
   /* o aviso «salva só neste navegador» nasce escondido e só aparece quando se sabe que não há
      sessão: sem nada guardado, na hora; com sessão guardada, só se ela não valer */
@@ -1049,70 +989,5 @@
       fimParte.parentNode.insertBefore(p, fimParte);
     }).catch(function () { /* sem os Cards, sem botão */ });
   }
-  /* ── notas das obras comentadas (Não-ficção; o mesmo jeito da Bíblia Taioé) ──
-     A nota abre colada à linha da marca e some com qualquer toque ou rolagem. Sem JavaScript,
-     a marca é um link para a lista de notas no fim da parte. */
-  function notasComentadas() {
-    var painel = $('nota-painel');
-    if (!painel) return;
-    var ref = $('nota-painel-ref'), texto = $('nota-painel-texto');
-    var ativa = null, y0 = 0, largura0 = 0;
-    function fechar(focar) {
-      if (painel.hidden) return;
-      painel.hidden = true;
-      if (ativa) {
-        ativa.classList.remove('ativa');
-        if (focar) ativa.focus({ preventScroll: true });
-        ativa = null;
-      }
-    }
-    /* o pé da linha em que está a marca: o retângulo do texto que cobre a altura da marca */
-    function peDaLinha(marca) {
-      var m = marca.getBoundingClientRect(), meio = (m.top + m.bottom) / 2, pe = 0;
-      var bloco = marca.closest('p') || marca.parentNode;
-      var r = document.createRange();
-      r.selectNodeContents(bloco);
-      var rs = r.getClientRects();
-      for (var i = 0; i < rs.length; i++) if (rs[i].top <= meio && rs[i].bottom >= meio && rs[i].bottom > pe) pe = rs[i].bottom;
-      return pe || m.bottom + 6;
-    }
-    function posicionar(marca) {
-      var col = (marca.closest('.trad') || marca.closest('.folha') || document.body).getBoundingClientRect();
-      var margem = 8, alto = window.innerHeight;
-      var barra = document.querySelector('.topo');
-      var cima = barra ? Math.max(0, barra.getBoundingClientRect().bottom) : 0;
-      var esq = Math.max(margem, col.left - 12);
-      var larg = Math.min(col.width + 24, window.innerWidth - 2 * margem);
-      painel.style.left = esq + 'px';
-      painel.style.width = larg + 'px';
-      painel.style.maxHeight = (alto - cima - 2 * margem) + 'px';
-      var h = painel.offsetHeight;
-      var y = peDaLinha(marca) + 4;
-      if (y + h > alto - margem) y = alto - margem - h;
-      painel.style.top = Math.max(cima + margem, y) + 'px';
-    }
-    function abrir(marca) {
-      var li = $('nota-' + marca.getAttribute('data-nota'));
-      if (!li) return false;
-      if (ativa === marca) { fechar(); return true; }
-      if (ativa) ativa.classList.remove('ativa');
-      ativa = marca;
-      marca.classList.add('ativa');
-      ref.textContent = 'Nota ' + marca.getAttribute('data-nota') + ' · ' + li.querySelector('.nota-v').textContent;
-      texto.innerHTML = '';
-      texto.appendChild(li.querySelector('.nota-texto').cloneNode(true));
-      painel.hidden = false;
-      posicionar(marca);
-      y0 = window.scrollY; largura0 = window.innerWidth;
-      return true;
-    }
-    document.addEventListener('click', function (e) {
-      var marca = e.target.closest && e.target.closest('.nota-ref');
-      if (marca) { if (abrir(marca)) e.preventDefault(); return; }
-      fechar();
-    });
-    window.addEventListener('scroll', function () { if (!painel.hidden && Math.abs(window.scrollY - y0) > 3) fechar(); }, { passive: true });
-    window.addEventListener('resize', function () { if (!painel.hidden && window.innerWidth !== largura0) fechar(); });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fechar(true); });
-  }
+
 })();

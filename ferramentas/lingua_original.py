@@ -170,6 +170,9 @@ def wikitext(wiki, pagina):
     os.makedirs(os.path.join(CACHE, wiki, 'c2'), exist_ok=True)
     nome = re.sub(r'[<>:"/\\|?*^]', lambda m: '%%%02X' % ord(m.group()), pagina)
     nome = ''.join('^' + c if c != c.lower() else c for c in nome) + '.json'
+    # o NTFS recusa con, nul, aux, prn, com1… mesmo com extensão; nenhuma página do Wiktionary começa por _
+    if re.fullmatch(r'con|prn|aux|nul|com[1-9]|lpt[1-9]', nome.split('.')[0], re.I):
+        nome = '_' + nome
     arq = os.path.join(CACHE, wiki, 'c2', nome)
     if os.path.exists(arq):
         with open(arq, encoding='utf-8') as f:

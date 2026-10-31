@@ -520,22 +520,8 @@ button.pal:focus-visible { outline: 2px solid var(--realce); outline-offset: 1px
 button.pal.ativa { color: var(--realce); background: color-mix(in srgb, var(--realce) 12%, transparent); }
 .dica-glossario { margin-top: .5rem; }
 
-.nota-palavra {
-  position: absolute; z-index: 30; width: min(24rem, calc(100vw - 16px)); max-height: 70vh; overflow: auto;
-  padding: .85rem 2.2rem .9rem 1rem; background: var(--papel); color: var(--tinta);
-  border: 1px solid var(--linha); border-radius: var(--raio); box-shadow: 0 6px 28px rgba(40,30,20,.18);
-  font-family: var(--sans); font-size: .9rem; line-height: 1.5; text-align: left;
-}
-.nota-palavra.no-pe {
-  position: fixed; left: 0; right: 0; bottom: 0; top: auto; width: auto; max-height: 55vh;
-  border-radius: var(--raio) var(--raio) 0 0; border-width: 1px 0 0; padding: 1rem 2.6rem calc(1.1rem + env(safe-area-inset-bottom)) 1.1rem;
-}
-.nota-palavra p, .nota-palavra ol { margin: 0; }
-.fechar-nota {
-  position: absolute; top: .3rem; right: .35rem; width: 2rem; height: 2rem; border: 0; background: none;
-  color: var(--tinta-tenue); font-size: 1.35rem; line-height: 1; cursor: pointer; border-radius: 50%;
-}
-.fechar-nota:hover { color: var(--realce); }
+/* o verbete abre no painel das notas (js/notas.js, o mesmo da Bíblia Taioé) */
+.nota-painel .verbete p, .nota-painel .verbete ol { margin: 0; }
 .vb-parte + .vb-parte { margin-top: .7rem; padding-top: .6rem; border-top: 1px solid var(--linha); }
 .vb-cab b { font-family: var(--serif); font-size: 1.12rem; font-weight: 600; }
 .vb-classe { color: var(--tinta-tenue); font-size: .85em; }
@@ -590,7 +576,6 @@ ol.vb-def { padding-left: 1.3rem; }
 .voltar .sep { margin: 0 .5em; color: var(--tinta-tenue); }
 .sobretitulo { font-family: var(--sans); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-tenue); margin: 0; }
 .cab-coment h1 { font-size: 1.6em; margin: .2em 0 .5em; line-height: 1.2; }
-.cab-coment .resumo { color: var(--tinta-suave); margin: 0 0 .6em; }
 .tema-st { font-family: var(--sans); font-size: .8rem; margin: 0 0 1.4rem; }
 .tema-st a { text-decoration: none; }
 .temas { display: flex; flex-direction: column; gap: .6rem; margin-bottom: 1rem; }
@@ -600,7 +585,6 @@ ol.vb-def { padding-left: 1.3rem; }
 }
 .tema:hover { border-color: var(--realce); color: var(--tinta); box-shadow: var(--sombra); }
 .tema-titulo { display: block; font-size: 1.05em; }
-.tema-resumo { display: block; color: var(--tinta-suave); font-size: .85em; margin-top: .15em; }
 .tema-ref, .tema-n { display: block; font-family: var(--sans); font-size: .68rem; letter-spacing: .06em; color: var(--tinta-tenue); }
 .tema-ref { text-transform: uppercase; margin-top: .25em; }
 .tema-n { margin-top: .5em; color: var(--realce); }

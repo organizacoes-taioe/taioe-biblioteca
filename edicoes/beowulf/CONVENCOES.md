@@ -18,7 +18,7 @@ que guardava a cesura e a aliteração do original, está em `traducao-aliterati
 
 1. **Sem cesura**: nenhuma tabulação nos arquivos traduzidos; o verso corre inteiro.
 2. **Sem imitar a medida do original** (dois tempos por meio-verso, aliteração). O ritmo é o do bom
-   verso livre português, conferido pelo Versificador (`Solar\Editora\Versificador`):
+   verso livre português, conferido pelo Versificador (`Solar/producao/versificador`):
    `ferramentas/verso-livre.mjs` sem nenhum verso marcado (`ralo`, `vazio`, `choques`), de 2,4 a 2,8
    sílabas por acento forte, no máximo um verso em cinco com 4 átonas seguidas, nada de três vogais
    iguais seguidas, sem repetir o mesmo esqueleto em versos vizinhos; `ferramentas/molde.mjs`, em molde

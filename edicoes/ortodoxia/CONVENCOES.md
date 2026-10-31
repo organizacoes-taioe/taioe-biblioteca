@@ -51,7 +51,7 @@ registro nas notas.
 
 Toda citação em verso (Swinburne, Arnold, hinos, cantigas) se traduz pelo método do Versificador:
 medida, rimas e número de versos do original, conferidos com o `molde.mjs`
-(`C:\Users\geren\OneDrive\Documentos\Onedrive do Gere\Solar\Editora\Versificador\ferramentas\molde.mjs`;
+(`~/Geremias/Solar/producao/versificador/ferramentas/molde.mjs`;
 leia antes o `traducao\MANUAL-DE-TRADUCAO.md` da mesma pasta). Registre metro e escolhas nas notas.
 
 ## Formato

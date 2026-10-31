@@ -1,0 +1,854 @@
+{
+ "obras": [
+  "machado-de-assis-crisalidas-musa-consolatrix",
+  "machado-de-assis-crisalidas-quinze-anos",
+  "machado-de-assis-crisalidas-stella",
+  "machado-de-assis-crisalidas-horas-vivas",
+  "machado-de-assis-crisalidas-versos-a-corina",
+  "machado-de-assis-falenas-flor-da-mocidade",
+  "machado-de-assis-falenas-manha-de-inverno",
+  "machado-de-assis-falenas-ite-missa-est",
+  "machado-de-assis-falenas-musa-dos-olhos-verdes",
+  "machado-de-assis-falenas-a-elvira",
+  "machado-de-assis-falenas-lagrimas-de-cera",
+  "machado-de-assis-falenas-passaros",
+  "machado-de-assis-americanas-a-flor-do-embirocu",
+  "machado-de-assis-americanas-lua-nova",
+  "machado-de-assis-ocidentais-o-desfecho",
+  "machado-de-assis-ocidentais-circulo-vicioso",
+  "machado-de-assis-ocidentais-uma-criatura",
+  "machado-de-assis-ocidentais-mundo-interior",
+  "machado-de-assis-ocidentais-perguntas-sem-resposta",
+  "machado-de-assis-ocidentais-suave-mari-magno",
+  "machado-de-assis-ocidentais-a-mosca-azul",
+  "machado-de-assis-ocidentais-spinoza",
+  "machado-de-assis-ocidentais-camoes",
+  "machado-de-assis-ocidentais-soneto-de-natal",
+  "machado-de-assis-ocidentais-no-alto",
+  "machado-de-assis-reliquias-a-carolina"
+ ],
+ "palavras": [
+  {
+   "lema": "ermo",
+   "formas": [
+    "ermos",
+    "ermo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "lugar deserto; solidão",
+   "exemplo": "Nem dor aguda, nem sombrios ermos;",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-musa-consolatrix"
+  },
+  {
+   "lema": "alcíone",
+   "formas": [
+    "alcíone"
+   ],
+   "classe": "substantivo feminino",
+   "def": "ave lendária que, segundo os antigos, acalmava o mar com o seu canto",
+   "exemplo": "Passa cantando, alcíone divina.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-musa-consolatrix"
+  },
+  {
+   "lema": "mancebo",
+   "formas": [
+    "mancebo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "rapaz, moço",
+   "exemplo": "Quando da minha fronte de mancebo",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-musa-consolatrix"
+  },
+  {
+   "lema": "viração",
+   "formas": [
+    "viração"
+   ],
+   "classe": "substantivo feminino",
+   "def": "vento brando e fresco, brisa",
+   "exemplo": "Que ao chão atira a viração do outono,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-musa-consolatrix"
+  },
+  {
+   "lema": "escuma",
+   "formas": [
+    "escuma"
+   ],
+   "classe": "substantivo feminino",
+   "def": "espuma",
+   "exemplo": "Que se esvaem como a escuma",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-quinze-anos"
+  },
+  {
+   "lema": "vaga",
+   "formas": [
+    "vaga"
+   ],
+   "classe": "substantivo feminino",
+   "def": "onda do mar",
+   "exemplo": "Que a vaga cospe na praia",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-quinze-anos",
+   "so_obras": [
+    "machado-de-assis-crisalidas-quinze-anos",
+    "machado-de-assis-crisalidas-stella"
+   ]
+  },
+  {
+   "lema": "desvelado",
+   "formas": [
+    "desvelados",
+    "desvelado"
+   ],
+   "classe": "adjetivo",
+   "def": "dedicado, cuidadoso, que zela com carinho",
+   "exemplo": "Os desvelados contigo;",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-quinze-anos"
+  },
+  {
+   "lema": "tíbio",
+   "formas": [
+    "tíbio"
+   ],
+   "classe": "adjetivo",
+   "def": "fraco, frouxo",
+   "exemplo": "Tíbio clarão já cora",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-stella"
+  },
+  {
+   "lema": "torvo",
+   "formas": [
+    "torva"
+   ],
+   "classe": "adjetivo",
+   "def": "sombrio, carregado",
+   "exemplo": "À muda e torva irmã,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-stella"
+  },
+  {
+   "lema": "fagueiro",
+   "formas": [
+    "fagueiras"
+   ],
+   "classe": "adjetivo",
+   "def": "meigo, agradável",
+   "exemplo": "Vivas e fagueiras,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-horas-vivas"
+  },
+  {
+   "lema": "ósculo",
+   "formas": [
+    "ósculo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "beijo",
+   "exemplo": "Em um ósculo de amor,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-versos-a-corina"
+  },
+  {
+   "lema": "enleio",
+   "formas": [
+    "enleio"
+   ],
+   "classe": "substantivo masculino",
+   "def": "encanto, enlevo; também, embaraço",
+   "exemplo": "E tremer do mesmo enleio,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-versos-a-corina"
+  },
+  {
+   "lema": "encendido",
+   "formas": [
+    "encendido"
+   ],
+   "classe": "adjetivo",
+   "def": "aceso, em brasa",
+   "exemplo": "Em que encendido horizonte",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-crisalidas-versos-a-corina"
+  },
+  {
+   "lema": "capela",
+   "formas": [
+    "capelas",
+    "capela"
+   ],
+   "classe": "substantivo feminino",
+   "def": "grinalda, coroa de flores ou de luz",
+   "exemplo": "Puras capelas, lágrimas mais puras.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-manha-de-inverno"
+  },
+  {
+   "lema": "erma",
+   "formas": [
+    "erma"
+   ],
+   "classe": "adjetivo",
+   "def": "vazia, desprovida",
+   "exemplo": "Erma de flores, curva a planta o colo,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-manha-de-inverno"
+  },
+  {
+   "lema": "alpestre",
+   "formas": [
+    "alpestre"
+   ],
+   "classe": "adjetivo",
+   "def": "das montanhas, agreste",
+   "exemplo": "A sinfonia alpestre, — a voz serena",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-manha-de-inverno"
+  },
+  {
+   "lema": "macilento",
+   "formas": [
+    "macilento"
+   ],
+   "classe": "adjetivo",
+   "def": "magro e pálido, abatido",
+   "exemplo": "Cubra-te agora o rosto macilento",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-ite-missa-est"
+  },
+  {
+   "lema": "fúlgido",
+   "formas": [
+    "fúlgidos"
+   ],
+   "classe": "adjetivo",
+   "def": "brilhante, cintilante",
+   "exemplo": "C'os fúlgidos cabelos;",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-musa-dos-olhos-verdes"
+  },
+  {
+   "lema": "regaço",
+   "formas": [
+    "regaço"
+   ],
+   "classe": "substantivo masculino",
+   "def": "colo",
+   "exemplo": "Enches o brando, tépido regaço",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-musa-dos-olhos-verdes"
+  },
+  {
+   "lema": "umbroso",
+   "formas": [
+    "umbrosa"
+   ],
+   "classe": "adjetivo",
+   "def": "sombrio, cheio de sombra",
+   "exemplo": "Ou quando às solidões de umbrosa selva",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-a-elvira"
+  },
+  {
+   "lema": "níveo",
+   "formas": [
+    "níveos"
+   ],
+   "classe": "adjetivo",
+   "def": "branco como a neve",
+   "exemplo": "Quando enlaçado em teus níveos braços",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-a-elvira"
+  },
+  {
+   "lema": "ditoso",
+   "formas": [
+    "ditoso"
+   ],
+   "classe": "adjetivo",
+   "def": "feliz, afortunado",
+   "exemplo": "Mais ditoso mortal o céu não cobre!",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-a-elvira"
+  },
+  {
+   "lema": "facho",
+   "formas": [
+    "facho"
+   ],
+   "classe": "substantivo masculino",
+   "def": "tocha",
+   "exemplo": "E o nosso amor é facho que se extingue!",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-a-elvira"
+  },
+  {
+   "lema": "fanal",
+   "formas": [
+    "fanal"
+   ],
+   "classe": "substantivo masculino",
+   "def": "farol, luz que guia",
+   "exemplo": "Como tranquilo fanal,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-lagrimas-de-cera"
+  },
+  {
+   "lema": "estância",
+   "formas": [
+    "estância"
+   ],
+   "classe": "substantivo feminino",
+   "def": "morada, lugar onde se vive",
+   "exemplo": "Porque o céu é também aquela estância",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-falenas-passaros"
+  },
+  {
+   "lema": "recender",
+   "formas": [
+    "recende"
+   ],
+   "classe": "verbo",
+   "def": "exalar perfume",
+   "exemplo": "Vive, embala-se, orvalha-se, recende,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-americanas-a-flor-do-embirocu"
+  },
+  {
+   "lema": "espontar",
+   "formas": [
+    "espontar"
+   ],
+   "classe": "verbo",
+   "def": "despontar, começar a aparecer",
+   "exemplo": "Que inda apenas começa a espontar,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-americanas-lua-nova"
+  },
+  {
+   "lema": "tajaçu",
+   "formas": [
+    "tajaçu"
+   ],
+   "classe": "substantivo masculino",
+   "def": "porco-do-mato, a queixada",
+   "exemplo": "Tajaçu, que roncando caminha;",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-americanas-lua-nova"
+  },
+  {
+   "lema": "tapir",
+   "formas": [
+    "tapir"
+   ],
+   "classe": "substantivo masculino",
+   "def": "anta",
+   "exemplo": "Nem lhe fuja pesado tapir.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-americanas-lua-nova"
+  },
+  {
+   "lema": "brenhas",
+   "formas": [
+    "brenhas"
+   ],
+   "classe": "substantivo feminino plural",
+   "def": "mato fechado, selva",
+   "exemplo": "Rude peito criado nas brenhas,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-americanas-lua-nova"
+  },
+  {
+   "lema": "manietado",
+   "formas": [
+    "manietados"
+   ],
+   "classe": "adjetivo",
+   "def": "de mãos amarradas",
+   "exemplo": "Prometeu sacudiu os braços manietados",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-o-desfecho"
+  },
+  {
+   "lema": "súplice",
+   "formas": [
+    "súplice"
+   ],
+   "classe": "adjetivo",
+   "def": "que suplica, suplicante",
+   "exemplo": "E súplice pediu a eterna compaixão,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-o-desfecho"
+  },
+  {
+   "lema": "dobre",
+   "formas": [
+    "dobre"
+   ],
+   "classe": "substantivo masculino",
+   "def": "toque lento do sino pelos mortos",
+   "exemplo": "Pausadamente, como um dobre de finados.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-o-desfecho"
+  },
+  {
+   "lema": "rútilo",
+   "formas": [
+    "rutila"
+   ],
+   "classe": "adjetivo",
+   "def": "brilhante, resplandecente",
+   "exemplo": "Mas o sol, inclinando a rutila capela:",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-circulo-vicioso"
+  },
+  {
+   "lema": "nume",
+   "formas": [
+    "nume"
+   ],
+   "classe": "substantivo masculino",
+   "def": "divindade",
+   "exemplo": "— «Pesa-me esta brilhante auréola de nume.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-circulo-vicioso"
+  },
+  {
+   "lema": "enfarar",
+   "formas": [
+    "enfara"
+   ],
+   "classe": "verbo",
+   "def": "enfastiar, aborrecer",
+   "exemplo": "Enfara-me esta azul e desmedida umbela.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-circulo-vicioso"
+  },
+  {
+   "lema": "umbela",
+   "formas": [
+    "umbela"
+   ],
+   "classe": "substantivo feminino",
+   "def": "guarda-sol, sombrinha",
+   "exemplo": "Enfara-me esta azul e desmedida umbela.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-circulo-vicioso"
+  },
+  {
+   "lema": "acerbo",
+   "formas": [
+    "acerbo"
+   ],
+   "classe": "adjetivo",
+   "def": "áspero, cruel",
+   "exemplo": "Cada olhar que despede, acerbo e mavioso,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-uma-criatura"
+  },
+  {
+   "lema": "mavioso",
+   "formas": [
+    "mavioso"
+   ],
+   "classe": "adjetivo",
+   "def": "suave, terno, que toca o coração",
+   "exemplo": "Cada olhar que despede, acerbo e mavioso,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-uma-criatura"
+  },
+  {
+   "lema": "inerme",
+   "formas": [
+    "inerme"
+   ],
+   "classe": "adjetivo",
+   "def": "sem armas, indefeso",
+   "exemplo": "ela o chacal é, como a rola, inerme;",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-uma-criatura"
+  },
+  {
+   "lema": "gomo",
+   "formas": [
+    "gomo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "broto, botão da planta",
+   "exemplo": "Na árvore que rebenta o seu primeiro gomo",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-uma-criatura"
+  },
+  {
+   "lema": "pomo",
+   "formas": [
+    "pomo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "fruto",
+   "exemplo": "Depois a flor, depois o suspirado pomo.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-uma-criatura"
+  },
+  {
+   "lema": "crestar",
+   "formas": [
+    "cresta"
+   ],
+   "classe": "verbo",
+   "def": "queimar de leve, secar",
+   "exemplo": "Cresta o seio da flor e corrompe-lhe o fruto;",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-uma-criatura"
+  },
+  {
+   "lema": "poluto",
+   "formas": [
+    "poluto"
+   ],
+   "classe": "adjetivo",
+   "def": "manchado, sujo",
+   "exemplo": "Ama de igual amor o poluto e o impoluto;",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-uma-criatura"
+  },
+  {
+   "lema": "lauda",
+   "formas": [
+    "lauda"
+   ],
+   "classe": "substantivo feminino",
+   "def": "página",
+   "exemplo": "Ouço que a natureza é uma lauda eterna",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-mundo-interior"
+  },
+  {
+   "lema": "luzerna",
+   "formas": [
+    "luzerna"
+   ],
+   "classe": "substantivo feminino",
+   "def": "luz, lume, clarão",
+   "exemplo": "De sol à ínfima luzerna.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-mundo-interior"
+  },
+  {
+   "lema": "cevar",
+   "formas": [
+    "ceva"
+   ],
+   "classe": "verbo",
+   "def": "alimentar, engordar",
+   "exemplo": "Feiticeira que ceva uma hidra de Lerna",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-mundo-interior"
+  },
+  {
+   "lema": "baio",
+   "formas": [
+    "baio"
+   ],
+   "classe": "adjetivo",
+   "def": "cavalo baio: de pelo castanho-amarelado",
+   "exemplo": "Correndo vinha no cavalo baio,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-perguntas-sem-resposta"
+  },
+  {
+   "lema": "rábido",
+   "formas": [
+    "rábido"
+   ],
+   "classe": "adjetivo",
+   "def": "raivoso, furioso",
+   "exemplo": "Era o cavalo, rábido, arrastando",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-perguntas-sem-resposta"
+  },
+  {
+   "lema": "responso",
+   "formas": [
+    "responso"
+   ],
+   "classe": "substantivo masculino",
+   "def": "oração rezada pelos mortos",
+   "exemplo": "Terra e cal e um responso recitado.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-perguntas-sem-resposta"
+  },
+  {
+   "lema": "goivo",
+   "formas": [
+    "goivo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "flor roxa ou amarela, ligada à tristeza e aos túmulos",
+   "exemplo": "E murmurou: «Tens a expressão do goivo,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-perguntas-sem-resposta"
+  },
+  {
+   "lema": "roaz",
+   "formas": [
+    "roaz"
+   ],
+   "classe": "adjetivo",
+   "def": "que rói, que corrói",
+   "exemplo": "«Tens a mesma roaz melancolia;",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-perguntas-sem-resposta"
+  },
+  {
+   "lema": "granada",
+   "formas": [
+    "granada"
+   ],
+   "classe": "substantivo feminino",
+   "def": "pedra preciosa vermelho-escura",
+   "exemplo": "uma mosca azul, asas de ouro e granada,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "poleá",
+   "formas": [
+    "poleá"
+   ],
+   "classe": "substantivo masculino",
+   "def": "homem da casta mais baixa da Índia",
+   "exemplo": "Um poleá que a viu, espantado e tristonho,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "deslembrado",
+   "formas": [
+    "deslembrado"
+   ],
+   "classe": "adjetivo",
+   "def": "esquecido",
+   "exemplo": "Como alguém que ficou deslembrado de tudo,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "surdir",
+   "formas": [
+    "surdia"
+   ],
+   "classe": "verbo",
+   "def": "surgir, brotar",
+   "exemplo": "Que surdia, com todo o resplendor de um paço",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "paço",
+   "formas": [
+    "paço"
+   ],
+   "classe": "substantivo masculino",
+   "def": "palácio",
+   "exemplo": "surdia, com todo o resplendor de um paço",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "naira",
+   "formas": [
+    "nairas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "mulher dos naires, casta nobre do sul da Índia",
+   "exemplo": "Cem mulheres em flor, cem nairas superfinas,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "páreas",
+   "formas": [
+    "páreas"
+   ],
+   "classe": "substantivo feminino plural",
+   "def": "tributo que o rei vencido pagava ao vencedor",
+   "exemplo": "E enfim as páreas triunfais",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "carpintejar",
+   "formas": [
+    "carpintejar"
+   ],
+   "classe": "verbo",
+   "def": "trabalhar de carpinteiro",
+   "exemplo": "Afeita a só carpintejar,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "aloé",
+   "formas": [
+    "aloé"
+   ],
+   "classe": "substantivo masculino",
+   "def": "madeira perfumada do Oriente, usada como incenso",
+   "exemplo": "Hoje, quando ele aí vai, de aloé e cardamomo",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "cardamomo",
+   "formas": [
+    "cardamomo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "especiaria aromática da Índia",
+   "exemplo": "quando ele aí vai, de aloé e cardamomo",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "taful",
+   "formas": [
+    "taful"
+   ],
+   "classe": "adjetivo",
+   "def": "vistoso, garboso",
+   "exemplo": "Na cabeça, com ar taful,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "ensandecer",
+   "formas": [
+    "ensandeceu"
+   ],
+   "classe": "verbo",
+   "def": "enlouquecer",
+   "exemplo": "Dizem que ensandeceu, e que não sabe como",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-a-mosca-azul"
+  },
+  {
+   "lema": "coruscante",
+   "formas": [
+    "coruscante"
+   ],
+   "classe": "adjetivo",
+   "def": "que brilha, faiscante",
+   "exemplo": "E na cabeça a coruscante ideia.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-spinoza"
+  },
+  {
+   "lema": "granjear",
+   "formas": [
+    "grangeia"
+   ],
+   "classe": "verbo",
+   "def": "ganhar, conseguir com esforço",
+   "exemplo": "A tua mão a labutar grangeia",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-spinoza"
+  },
+  {
+   "lema": "sibilar",
+   "formas": [
+    "sibile"
+   ],
+   "classe": "verbo",
+   "def": "assobiar",
+   "exemplo": "Sibile o bafo aspérrimo do inverno,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-spinoza"
+  },
+  {
+   "lema": "oblação",
+   "formas": [
+    "oblação"
+   ],
+   "classe": "substantivo feminino",
+   "def": "oferenda, sacrifício oferecido",
+   "exemplo": "Esta imensa oblação?",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-camoes"
+  },
+  {
+   "lema": "volver",
+   "formas": [
+    "volvendo",
+    "volvereis"
+   ],
+   "classe": "verbo",
+   "def": "virar; voltar",
+   "exemplo": "Volvereis à morte.",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-camoes"
+  },
+  {
+   "lema": "superno",
+   "formas": [
+    "superno"
+   ],
+   "classe": "adjetivo",
+   "def": "supremo, que está no alto",
+   "exemplo": "o tens, como um guia alto e superno",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-camoes"
+  },
+  {
+   "lema": "cancelo",
+   "formas": [
+    "cancelos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "portão de grades",
+   "exemplo": "Que os cancelos fechava do Oriente,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-camoes"
+  },
+  {
+   "lema": "companha",
+   "formas": [
+    "companha"
+   ],
+   "classe": "substantivo feminino",
+   "def": "a tripulação do navio",
+   "exemplo": "Aos olhos da companha valorosa,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-camoes"
+  },
+  {
+   "lema": "tuba",
+   "formas": [
+    "tuba"
+   ],
+   "classe": "substantivo feminino",
+   "def": "trombeta; aqui, a poesia épica",
+   "exemplo": "Tuba, que cantaria a ação famosa",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-camoes"
+  },
+  {
+   "lema": "fero",
+   "formas": [
+    "fero"
+   ],
+   "classe": "adjetivo",
+   "def": "feroz, cruel",
+   "exemplo": "«Pois não serás herói de um canto fero,",
+   "capitulo": 1,
+   "obra_ex": "machado-de-assis-ocidentais-camoes"
+  }
+ ]
+}

@@ -1,0 +1,878 @@
+{
+ "obras": [
+  "fernando-pessoa-mensagem-o-dos-castelos",
+  "fernando-pessoa-mensagem-o-das-quinas",
+  "fernando-pessoa-mensagem-ulisses",
+  "fernando-pessoa-mensagem-viriato",
+  "fernando-pessoa-mensagem-o-conde-d-henrique",
+  "fernando-pessoa-mensagem-d-tareja",
+  "fernando-pessoa-mensagem-d-afonso-henriques",
+  "fernando-pessoa-mensagem-d-dinis",
+  "fernando-pessoa-mensagem-d-joao-o-primeiro",
+  "fernando-pessoa-mensagem-d-filipa-de-lencastre",
+  "fernando-pessoa-mensagem-d-duarte-rei-de-portugal",
+  "fernando-pessoa-mensagem-d-fernando-infante-de-portugal",
+  "fernando-pessoa-mensagem-d-pedro-regente-de-portugal",
+  "fernando-pessoa-mensagem-d-joao-infante-de-portugal",
+  "fernando-pessoa-mensagem-d-sebastiao-rei-de-portugal",
+  "fernando-pessoa-mensagem-nunalvares-pereira",
+  "fernando-pessoa-mensagem-o-infante-d-henrique",
+  "fernando-pessoa-mensagem-d-joao-o-segundo",
+  "fernando-pessoa-mensagem-afonso-de-albuquerque",
+  "fernando-pessoa-mensagem-o-infante",
+  "fernando-pessoa-mensagem-horizonte",
+  "fernando-pessoa-mensagem-padrao",
+  "fernando-pessoa-mensagem-o-mostrengo",
+  "fernando-pessoa-mensagem-epitafio-de-bartolomeu-dias",
+  "fernando-pessoa-mensagem-os-colombos",
+  "fernando-pessoa-mensagem-ocidente",
+  "fernando-pessoa-mensagem-fernao-de-magalhaes",
+  "fernando-pessoa-mensagem-ascensao-de-vasco-da-gama",
+  "fernando-pessoa-mensagem-mar-portugues",
+  "fernando-pessoa-mensagem-a-ultima-nau",
+  "fernando-pessoa-mensagem-prece",
+  "fernando-pessoa-mensagem-d-sebastiao",
+  "fernando-pessoa-mensagem-o-quinto-imperio",
+  "fernando-pessoa-mensagem-o-desejado",
+  "fernando-pessoa-mensagem-as-ilhas-afortunadas",
+  "fernando-pessoa-mensagem-o-encoberto",
+  "fernando-pessoa-mensagem-o-bandarra",
+  "fernando-pessoa-mensagem-antonio-vieira",
+  "fernando-pessoa-mensagem-screvo-meu-livro-a-beira-magoa",
+  "fernando-pessoa-mensagem-noite",
+  "fernando-pessoa-mensagem-tormenta",
+  "fernando-pessoa-mensagem-calma",
+  "fernando-pessoa-mensagem-antemanha",
+  "fernando-pessoa-mensagem-nevoeiro",
+  "fernando-pessoa-cancioneiro-o-sino-da-minha-aldeia",
+  "fernando-pessoa-cancioneiro-saudade-dada",
+  "fernando-pessoa-cancioneiro-plenilunio",
+  "fernando-pessoa-cancioneiro-trila-na-noite-uma-flauta",
+  "fernando-pessoa-cancioneiro-tenho-tanto-sentimento",
+  "fernando-pessoa-cancioneiro-abat-jour",
+  "fernando-pessoa-cancioneiro-e-brando-o-dia-brando-o-vento",
+  "fernando-pessoa-cancioneiro-qualquer-musica",
+  "fernando-pessoa-cancioneiro-nao-nao-digas-nada",
+  "fernando-pessoa-cancioneiro-nao-sei-se-e-sonho-se-realidade",
+  "fernando-pessoa-cancioneiro-leve-breve-suave",
+  "fernando-pessoa-cancioneiro-nuvens-sobre-a-floresta",
+  "fernando-pessoa-cancioneiro-na-ribeira-deste-rio",
+  "fernando-pessoa-cancioneiro-durmo-se-sonho-ao-despertar-nao-sei",
+  "fernando-pessoa-cancioneiro-o-menino-da-sua-mae",
+  "fernando-pessoa-cancioneiro-chove-e-dia-de-natal",
+  "fernando-pessoa-cancioneiro-dobre",
+  "fernando-pessoa-cancioneiro-vaga-no-azul-amplo-solta",
+  "fernando-pessoa-cancioneiro-contemplo-o-lago-mudo",
+  "fernando-pessoa-cancioneiro-sonho-nao-sei-quem-sou-neste-momento",
+  "fernando-pessoa-cancioneiro-ao-longe-ao-luar",
+  "fernando-pessoa-cancioneiro-depois-da-feira",
+  "fernando-pessoa-cancioneiro-sorriso-audivel-das-folhas",
+  "fernando-pessoa-cancioneiro-o-andaime",
+  "fernando-pessoa-cancioneiro-ela-canta-pobre-ceifeira",
+  "fernando-pessoa-cancioneiro-isto",
+  "fernando-pessoa-cancioneiro-gato-que-brincas-na-rua",
+  "fernando-pessoa-cancioneiro-abdicacao",
+  "fernando-pessoa-cancioneiro-intervalo",
+  "fernando-pessoa-cancioneiro-entre-o-luar-e-a-folhagem",
+  "fernando-pessoa-cancioneiro-autopsicografia",
+  "fernando-pessoa-alberto-caeiro-eu-nunca-guardei-rebanhos",
+  "fernando-pessoa-alberto-caeiro-o-meu-olhar-e-nitido-como-um-girassol",
+  "fernando-pessoa-alberto-caeiro-acho-tao-natural-que-nao-se-pense",
+  "fernando-pessoa-alberto-caeiro-a-espantosa-realidade-das-cousas",
+  "fernando-pessoa-alberto-caeiro-dizem-que-em-cada-coisa-uma-coisa-oculta-mora",
+  "fernando-pessoa-alberto-caeiro-ao-entardecer-debrucado-pela-janela",
+  "fernando-pessoa-ricardo-reis-as-rosas-amo-dos-jardins-de-adonis",
+  "fernando-pessoa-ricardo-reis-o-mar-jaz-gemem-em-segredo-os-ventos",
+  "fernando-pessoa-ricardo-reis-nao-consentem-os-deuses-mais-que-a-vida",
+  "fernando-pessoa-ricardo-reis-como-se-cada-beijo",
+  "fernando-pessoa-ricardo-reis-quao-breve-tempo-e-a-mais-longa-vida",
+  "fernando-pessoa-ricardo-reis-coroai-me-de-rosas",
+  "fernando-pessoa-ricardo-reis-temo-lidia-o-destino-nada-e-certo",
+  "fernando-pessoa-ricardo-reis-a-flor-que-es-nao-a-que-das-eu-quero",
+  "fernando-pessoa-ricardo-reis-nao-queiras-lidia-edificar-no-spaco",
+  "fernando-pessoa-ricardo-reis-ao-longe-os-montes-tem-neve-ao-sol",
+  "fernando-pessoa-ricardo-reis-anjos-ou-deuses-sempre-nos-tivemos",
+  "fernando-pessoa-ricardo-reis-nao-quero-recordar-nem-conhecer-me",
+  "fernando-pessoa-ricardo-reis-para-ser-grande-se-inteiro-nada",
+  "fernando-pessoa-ricardo-reis-segue-o-teu-destino",
+  "fernando-pessoa-ricardo-reis-vem-sentar-te-comigo-lidia-a-beira-do-rio",
+  "fernando-pessoa-ricardo-reis-mestre-sao-placidas",
+  "fernando-pessoa-alvaro-de-campos-tabacaria",
+  "fernando-pessoa-alvaro-de-campos-aniversario",
+  "fernando-pessoa-alvaro-de-campos-lisbon-revisited-1923",
+  "fernando-pessoa-alvaro-de-campos-todas-as-cartas-de-amor-sao-ridiculas",
+  "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+ ],
+ "palavras": [
+  {
+   "lema": "fadar",
+   "formas": [
+    "fadou"
+   ],
+   "classe": "verbo",
+   "def": "destinar, marcar pelo destino",
+   "exemplo": "e natural certeza O que, imprevisto, Deus fadou. Por ele reza! Dê tua prece",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-d-tareja"
+  },
+  {
+   "lema": "arroio",
+   "formas": [
+    "arroio"
+   ],
+   "classe": "substantivo masculino",
+   "def": "riacho",
+   "exemplo": "De Império, ondulam sem se poder ver. Arroio, esse cantar, jovem e puro, Busca",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-d-dinis"
+  },
+  {
+   "lema": "marulho",
+   "formas": [
+    "marulho"
+   ],
+   "classe": "substantivo masculino",
+   "def": "o barulho das ondas",
+   "exemplo": "por achar; E a fala dos pinhais, marulho obscuro, É o som presente d'esse",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-d-dinis"
+  },
+  {
+   "lema": "ara",
+   "formas": [
+    "ara",
+    "aras"
+   ],
+   "classe": "substantivo feminino",
+   "def": "altar",
+   "exemplo": "nome, eleito em sua fama, É, na ara da nossa alma interna, A que",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-d-joao-o-primeiro"
+  },
+  {
+   "lema": "gládio",
+   "formas": [
+    "gládio"
+   ],
+   "classe": "substantivo masculino",
+   "def": "espada",
+   "exemplo": "Deu-me Deus o seu gládio, porque eu faça A sua santa",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-d-fernando-infante-de-portugal"
+  },
+  {
+   "lema": "cerração",
+   "formas": [
+    "cerração"
+   ],
+   "classe": "substantivo feminino",
+   "def": "nevoeiro fechado",
+   "exemplo": "e arvoredos. Desvendadas a noite e a cerração, As tormentas passadas e o mistério,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-horizonte"
+  },
+  {
+   "lema": "padrão",
+   "formas": [
+    "padrão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "coluna de pedra com a cruz e as armas, que os navegadores deixavam nas terras descobertas",
+   "exemplo": "pequeno. Eu, Diogo Cão, navegador, deixei Este padrão ao pé do areal moreno E",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-padrao",
+   "so_obras": [
+    "fernando-pessoa-mensagem-padrao"
+   ]
+  },
+  {
+   "lema": "quinas",
+   "formas": [
+    "quinas"
+   ],
+   "classe": "substantivo feminino plural",
+   "def": "os cinco escudetes do brasão de Portugal",
+   "exemplo": "ao imenso e possível oceano Ensinam estas Quinas, que aqui vês, Que o mar",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-padrao"
+  },
+  {
+   "lema": "mostrengo",
+   "formas": [
+    "mostrengo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "monstro",
+   "exemplo": "O mostrengo que está no fim do mar",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-o-mostrengo"
+  },
+  {
+   "lema": "pendão",
+   "formas": [
+    "pendão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "bandeira, estandarte",
+   "exemplo": "E erguendo, como um nome, alto o pendão Do Império, Foi-se a última nau,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-a-ultima-nau"
+  },
+  {
+   "lema": "aziago",
+   "formas": [
+    "aziago"
+   ],
+   "classe": "adjetivo",
+   "def": "de mau agouro, que traz desgraça",
+   "exemplo": "Império, Foi-se a última nau, ao sol aziago Erma, e entre choros de ânsia",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-a-ultima-nau"
+  },
+  {
+   "lema": "présago",
+   "formas": [
+    "présago"
+   ],
+   "classe": "adjetivo",
+   "def": "que pressente o futuro",
+   "exemplo": "e entre choros de ânsia e de présago Mistério. Não voltou mais. A que",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-a-ultima-nau"
+  },
+  {
+   "lema": "atro",
+   "formas": [
+    "atro",
+    "atra"
+   ],
+   "classe": "adjetivo",
+   "def": "negro, escuro, sombrio",
+   "exemplo": "será teatro Do dia claro, que no atro Da erma noite começou. Grécia, Roma,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-o-quinto-imperio"
+  },
+  {
+   "lema": "hausto",
+   "formas": [
+    "hausto"
+   ],
+   "classe": "substantivo masculino",
+   "def": "gole, sorvo; aqui, o clarão de um só golpe",
+   "exemplo": "ruge, O relâmpago, farol de Deus, um hausto Brilha, e o mar scuro struge.",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-tormenta"
+  },
+  {
+   "lema": "estrugir",
+   "formas": [
+    "struge",
+    "estrugindo"
+   ],
+   "classe": "verbo",
+   "def": "estrondear, fazer um barulho forte",
+   "exemplo": "um hausto Brilha, e o mar scuro struge.",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-tormenta"
+  },
+  {
+   "lema": "sargaço",
+   "formas": [
+    "sargaço"
+   ],
+   "classe": "substantivo masculino",
+   "def": "alga marinha que boia em grandes massas",
+   "exemplo": "um d'eles encontrado, Aqui, onde há só sargaço, Surja uma ilha velada, O país",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-mensagem-calma"
+  },
+  {
+   "lema": "tanger",
+   "formas": [
+    "tanjas"
+   ],
+   "classe": "verbo",
+   "def": "tocar (o sino)",
+   "exemplo": "som de repetida. Por mais que me tanjas perto, Quando passo, sempre errante, És",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-o-sino-da-minha-aldeia"
+  },
+  {
+   "lema": "atoarda",
+   "formas": [
+    "atoarda"
+   ],
+   "classe": "substantivo feminino",
+   "def": "boato, rumor",
+   "exemplo": "já não torna! E em tom de atoarda todo o alarde Do adornado ardor",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-saudade-dada"
+  },
+  {
+   "lema": "jota",
+   "formas": [
+    "jota"
+   ],
+   "classe": "substantivo feminino",
+   "def": "dança popular espanhola",
+   "exemplo": "nada vejo... Qualquer coisa que não vida! Jota, fado, a confusão Da última dança",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-qualquer-musica"
+  },
+  {
+   "lema": "álea",
+   "formas": [
+    "áleas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "aleia, alameda",
+   "exemplo": "e o amor sorri. Talvez palmares inexistentes Áleas longínquas sem poder ser, Sombra ou",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-nao-sei-se-e-sonho-se-realidade"
+  },
+  {
+   "lema": "plaino",
+   "formas": [
+    "plaino"
+   ],
+   "classe": "substantivo masculino",
+   "def": "planície",
+   "exemplo": "No plaino abandonado Que a morna brisa aquece,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-o-menino-da-sua-mae"
+  },
+  {
+   "lema": "langue",
+   "formas": [
+    "langue"
+   ],
+   "classe": "adjetivo",
+   "def": "lânguido, sem força",
+   "exemplo": "estendidos, Alvo, louro, exangue, Fita com olhar langue E cego os céus perdidos. Tão",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-o-menino-da-sua-mae"
+  },
+  {
+   "lema": "algibeira",
+   "formas": [
+    "algibeira"
+   ],
+   "classe": "substantivo feminino",
+   "def": "bolso",
+   "exemplo": "«O menino da sua mãe». Caiu-lhe da algibeira A cigarreira breve. Dera-lhe a mãe.",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-o-menino-da-sua-mae"
+  },
+  {
+   "lema": "pávido",
+   "formas": [
+    "pávido"
+   ],
+   "classe": "adjetivo",
+   "def": "cheio de medo, assustado",
+   "exemplo": "Grãos de areia ou uma folha. Olhei-o pávido e absorto Como quem sabe estar",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-dobre"
+  },
+  {
+   "lema": "ceifeira",
+   "formas": [
+    "ceifeira"
+   ],
+   "classe": "substantivo feminino",
+   "def": "mulher que corta o trigo na colheita",
+   "exemplo": "Ela canta, pobre ceifeira, Julgando-se feliz talvez; Canta, e ceifa,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-ela-canta-pobre-ceifeira"
+  },
+  {
+   "lema": "ledice",
+   "formas": [
+    "ledice"
+   ],
+   "classe": "substantivo feminino",
+   "def": "alegria",
+   "exemplo": "- A que as deusas esperam da ledice Com que o Olimpo se apouca.",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-intervalo"
+  },
+  {
+   "lema": "comboio",
+   "formas": [
+    "comboio",
+    "comboios"
+   ],
+   "classe": "substantivo masculino",
+   "def": "trem de ferro",
+   "exemplo": "roda Gira, a entreter a razão, Esse comboio de corda Que se chama coração.",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-cancioneiro-autopsicografia"
+  },
+  {
+   "lema": "chocalho",
+   "formas": [
+    "chocalhos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "sino pequeno pendurado ao pescoço do gado",
+   "exemplo": "dar por isso. Como um ruído de chocalhos Para além da curva da estrada,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alberto-caeiro-eu-nunca-guardei-rebanhos"
+  },
+  {
+   "lema": "outeiro",
+   "formas": [
+    "outeiro"
+   ],
+   "classe": "substantivo masculino",
+   "def": "colina, pequeno monte",
+   "exemplo": "um recorte de mim No cimo dum outeiro, Olhando para o meu rebanho e",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alberto-caeiro-eu-nunca-guardei-rebanhos"
+  },
+  {
+   "lema": "diligência",
+   "formas": [
+    "diligência"
+   ],
+   "classe": "substantivo feminino",
+   "def": "carruagem grande de passageiros, puxada a cavalos",
+   "exemplo": "me veem à minha porta Mal a diligência levanta no cimo do outeiro. Saúdo-os",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alberto-caeiro-eu-nunca-guardei-rebanhos",
+   "so_obras": [
+    "fernando-pessoa-alberto-caeiro-eu-nunca-guardei-rebanhos"
+   ]
+  },
+  {
+   "lema": "bibe",
+   "formas": [
+    "bibe"
+   ],
+   "classe": "substantivo masculino",
+   "def": "avental ou bata de criança, vestido por cima da roupa",
+   "exemplo": "da testa quente Com a manga do bibe riscado.",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alberto-caeiro-eu-nunca-guardei-rebanhos"
+  },
+  {
+   "lema": "malmequer",
+   "formas": [
+    "malmequer"
+   ],
+   "classe": "substantivo masculino",
+   "def": "margarida, flor do campo",
+   "exemplo": "do Mundo Creio no mundo como um malmequer Porque o vejo, mas não penso",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alberto-caeiro-o-meu-olhar-e-nitido-como-um-girassol"
+  },
+  {
+   "lema": "volucre",
+   "formas": [
+    "volucres"
+   ],
+   "classe": "adjetivo",
+   "def": "passageiro, que voa e foge depressa",
+   "exemplo": "rosas amo dos jardins de Adónis, Essas volucres amo, Lídia, rosas, Que em o",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-as-rosas-amo-dos-jardins-de-adonis"
+  },
+  {
+   "lema": "insciente",
+   "formas": [
+    "inscientes"
+   ],
+   "classe": "adjetivo",
+   "def": "que não sabe, ignorante",
+   "exemplo": "visível. Assim façamos nossa vida um dia, Inscientes, Lídia, voluntariamente Que há noite antes",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-as-rosas-amo-dos-jardins-de-adonis"
+  },
+  {
+   "lema": "píncaro",
+   "formas": [
+    "píncaros"
+   ],
+   "classe": "substantivo masculino",
+   "def": "pico, cume de montanha",
+   "exemplo": "pois refusemos, que nos alce A irrespiráveis píncaros, Perenes sem ter flores. Só de",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-nao-consentem-os-deuses-mais-que-a-vida"
+  },
+  {
+   "lema": "fonte",
+   "formas": [
+    "fontes"
+   ],
+   "classe": "substantivo feminino",
+   "def": "têmpora, o lado da cabeça junto à testa",
+   "exemplo": "E, enquanto bate o sangue em nossas fontes, Nem se engelha conosco O mesmo",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-nao-consentem-os-deuses-mais-que-a-vida",
+   "so_obras": [
+    "fernando-pessoa-ricardo-reis-nao-consentem-os-deuses-mais-que-a-vida"
+   ]
+  },
+  {
+   "lema": "engelhar",
+   "formas": [
+    "engelha"
+   ],
+   "classe": "verbo",
+   "def": "enrugar, murchar",
+   "exemplo": "o sangue em nossas fontes, Nem se engelha conosco O mesmo amor, duremos, Como",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-nao-consentem-os-deuses-mais-que-a-vida"
+  },
+  {
+   "lema": "ínfero",
+   "formas": [
+    "ínfera"
+   ],
+   "classe": "adjetivo",
+   "def": "de baixo; do mundo dos mortos",
+   "exemplo": "oculta margem onde os lírios frios Da ínfera leiva crescem, e a corrente Não",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-quao-breve-tempo-e-a-mais-longa-vida"
+  },
+  {
+   "lema": "leiva",
+   "formas": [
+    "leiva"
+   ],
+   "classe": "substantivo feminino",
+   "def": "terra lavrada, torrão",
+   "exemplo": "margem onde os lírios frios Da ínfera leiva crescem, e a corrente Não sabe",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-quao-breve-tempo-e-a-mais-longa-vida"
+  },
+  {
+   "lema": "nume",
+   "formas": [
+    "numes"
+   ],
+   "classe": "substantivo masculino",
+   "def": "divindade",
+   "exemplo": "estranho o passo Que próprio damos. Graves numes guardam As lindas do que é",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-temo-lidia-o-destino-nada-e-certo"
+  },
+  {
+   "lema": "lindas",
+   "formas": [
+    "lindas"
+   ],
+   "classe": "antigo, substantivo feminino plural",
+   "def": "limites, fronteiras",
+   "exemplo": "Que próprio damos. Graves numes guardam As lindas do que é uso. Não somos",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-temo-lidia-o-destino-nada-e-certo",
+   "so_obras": [
+    "fernando-pessoa-ricardo-reis-temo-lidia-o-destino-nada-e-certo"
+   ]
+  },
+  {
+   "lema": "óbolo",
+   "formas": [
+    "óbolo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "moedinha que os gregos punham com o morto, para pagar ao barqueiro do inferno",
+   "exemplo": "se antes do que eu levares o óbolo ao barqueiro sombrio, Eu nada terei",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-vem-sentar-te-comigo-lidia-a-beira-do-rio"
+  },
+  {
+   "lema": "regaço",
+   "formas": [
+    "regaço"
+   ],
+   "classe": "substantivo masculino",
+   "def": "colo",
+   "exemplo": "beira-rio, Pagã triste e com flores no regaço.",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-ricardo-reis-vem-sentar-te-comigo-lidia-a-beira-do-rio"
+  },
+  {
+   "lema": "mansarda",
+   "formas": [
+    "mansarda",
+    "mansardas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "água-furtada, quarto pobre no sótão",
+   "exemplo": "certo? Não, nem em mim... Em quantas mansardas e não-mansardas do mundo Não estão",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-tabacaria"
+  },
+  {
+   "lema": "capoeira",
+   "formas": [
+    "capoeira"
+   ],
+   "classe": "substantivo feminino",
+   "def": "galinheiro",
+   "exemplo": "E cantou a cantiga do Infinito numa capoeira, E ouviu a voz de Deus",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-tabacaria",
+   "so_obras": [
+    "fernando-pessoa-alvaro-de-campos-tabacaria"
+   ]
+  },
+  {
+   "lema": "rol",
+   "formas": [
+    "rol"
+   ],
+   "classe": "substantivo masculino",
+   "def": "lista (da roupa mandada lavar)",
+   "exemplo": "atiro A roupa suja que sou, sem rol, pra o decurso das coisas, E",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-tabacaria"
+  },
+  {
+   "lema": "cocote",
+   "formas": [
+    "cocote",
+    "cocotes"
+   ],
+   "classe": "substantivo feminino",
+   "def": "prostituta elegante, de luxo",
+   "exemplo": "do século dezoito, decotada e longínqua, Ou cocote célebre do tempo dos nossos pais,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-tabacaria"
+  },
+  {
+   "lema": "passeio",
+   "formas": [
+    "passeios"
+   ],
+   "classe": "substantivo masculino",
+   "def": "calçada, a parte da rua para quem anda a pé",
+   "exemplo": "nitidez absoluta. Vejo as lojas, vejo os passeios, vejo os carros que passam, Vejo",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-tabacaria",
+   "so_obras": [
+    "fernando-pessoa-alvaro-de-campos-tabacaria"
+   ]
+  },
+  {
+   "lema": "andrajos",
+   "formas": [
+    "andrajos"
+   ],
+   "classe": "substantivo masculino plural",
+   "def": "trapos, roupa rasgada",
+   "exemplo": "ser eu. Olho a cada um os andrajos e as chagas e a mentira,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-tabacaria"
+  },
+  {
+   "lema": "dominó",
+   "formas": [
+    "dominó"
+   ],
+   "classe": "substantivo masculino",
+   "def": "fantasia de carnaval, túnica longa com capuz",
+   "exemplo": "fazer de mim não o fiz. O dominó que vesti era errado. Conheceram-me logo",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-tabacaria",
+   "so_obras": [
+    "fernando-pessoa-alvaro-de-campos-tabacaria"
+   ]
+  },
+  {
+   "lema": "tabuleta",
+   "formas": [
+    "tabuleta"
+   ],
+   "classe": "substantivo feminino",
+   "def": "placa com o nome da loja",
+   "exemplo": "morrerá e eu morrerei. Ele deixará a tabuleta, e eu deixarei versos. A certa",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-tabacaria"
+  },
+  {
+   "lema": "serão",
+   "formas": [
+    "serões"
+   ],
+   "classe": "substantivo masculino",
+   "def": "o fim do dia passado em família, à noite",
+   "exemplo": "coração e parentesco. O que fui de serões de meia-província, O que fui de",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-aniversario"
+  },
+  {
+   "lema": "maçar",
+   "formas": [
+    "macem"
+   ],
+   "classe": "verbo",
+   "def": "aborrecer, importunar",
+   "exemplo": "o direito a sê-lo, ouviram? Não me macem, por amor de Deus! Queriam-me casado,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-lisbon-revisited-1923"
+  },
+  {
+   "lema": "maçada",
+   "formas": [
+    "maçada"
+   ],
+   "classe": "substantivo feminino",
+   "def": "coisa cansativa e aborrecida, chateação",
+   "exemplo": "Já disse que sou sozinho! Ah, que maçada quererem que eu seja da companhia!",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-lisbon-revisited-1923"
+  },
+  {
+   "lema": "êmbolo",
+   "formas": [
+    "êmbolos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "pistão de máquina",
+   "exemplo": "estas correias de transmissão e por estes êmbolos e por estes volantes, Rugindo, rangendo,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "passento",
+   "formas": [
+    "passento"
+   ],
+   "classe": "adjetivo",
+   "def": "que deixa passar tudo, poroso",
+   "exemplo": "tudo isto, Rasgar-me todo, abrir-me completamente, tornar-me passento A todos os perfumes de óleos",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "estrênuo",
+   "formas": [
+    "estrénuos"
+   ],
+   "classe": "adjetivo",
+   "def": "valente, incansável",
+   "exemplo": "Do rodar férreo e cosmopolita Dos comboios estrénuos, Da faina transportadora-de-cargas dos navios, Do",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "faina",
+   "formas": [
+    "faina"
+   ],
+   "classe": "substantivo feminino",
+   "def": "trabalho duro e contínuo",
+   "exemplo": "férreo e cosmopolita Dos comboios estrénuos, Da faina transportadora-de-cargas dos navios, Do giro lúbrico",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "chumaceira",
+   "formas": [
+    "chumaceiras"
+   ],
+   "classe": "substantivo feminino",
+   "def": "peça onde gira o eixo de uma máquina, mancal",
+   "exemplo": "as rodas, e as rodas-dentadas e as chumaceiras do Progressivo! Nova Minerva sem-alma dos",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "gare",
+   "formas": [
+    "gares"
+   ],
+   "classe": "substantivo feminino",
+   "def": "estação de trem",
+   "exemplo": "Nova Minerva sem-alma dos cais e das gares! Novos entusiasmos de estatura do Momento!",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "montra",
+   "formas": [
+    "montras"
+   ],
+   "classe": "substantivo feminino",
+   "def": "vitrine de loja",
+   "exemplo": "que passa, tudo o que para às montras! Comerciantes; vários; escrocs exageradamente bem-vestidos; Membros",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "escroc",
+   "formas": [
+    "escrocs"
+   ],
+   "classe": "substantivo masculino",
+   "def": "vigarista",
+   "exemplo": "o que para às montras! Comerciantes; vários; escrocs exageradamente bem-vestidos; Membros evidentes de clubes",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "fazenda",
+   "formas": [
+    "fazendas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "tecido, pano vendido em peças",
+   "exemplo": "das fábricas e dos calmos escritórios! Ó fazendas nas montras! Ó manequins! Ó últimos",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal",
+   "so_obras": [
+    "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+   ]
+  },
+  {
+   "lema": "pândego",
+   "formas": [
+    "pândegos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "farrista, quem vive na folia",
+   "exemplo": "em plena cara, Ó automóveis apinhados de pândegos e de putas, Ó multidões quotidianas",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "nora",
+   "formas": [
+    "nora"
+   ],
+   "classe": "substantivo feminino",
+   "def": "roda que tira água do poço, girada por um animal",
+   "exemplo": "do fundo do mar da vida! (Na nora do quintal da minha casa O",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal",
+   "so_obras": [
+    "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+   ]
+  },
+  {
+   "lema": "fogueiro",
+   "formas": [
+    "fogueiro"
+   ],
+   "classe": "substantivo masculino",
+   "def": "quem alimenta a fornalha da máquina a vapor, foguista",
+   "exemplo": "de tronco nu e quente como um fogueiro, O Momento estridentemente ruidoso e mecânico,",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  },
+  {
+   "lema": "bacante",
+   "formas": [
+    "bacantes"
+   ],
+   "classe": "substantivo feminino",
+   "def": "sacerdotisa de Baco, nas festas de vinho e desvario",
+   "exemplo": "O Momento dinâmico passagem de todas as bacantes Do ferro e do bronze e",
+   "capitulo": 1,
+   "obra_ex": "fernando-pessoa-alvaro-de-campos-ode-triunfal"
+  }
+ ]
+}

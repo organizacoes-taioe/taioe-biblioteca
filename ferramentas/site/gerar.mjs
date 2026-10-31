@@ -232,14 +232,16 @@ function celula(lado, l, ini, i, lingua) {
 }
 /* ---------------------------------------------------------------- vocabulário
    Pedido do Gere (31/10/2026): nas obras em português, as palavras raras ganham nota com a
-   definição, para o falante de português. A fonte é edicoes/<pasta>/vocabulario.json:
-   {obra, palavras: [{lema, formas: [...], classe, def, so_capitulos?: [n, ...]}]}. Cada ocorrência
-   no texto vira um button.pal.rara (sublinhado pontilhado), e o verbete fica escondido no fim da
-   página, como o dos poemas na língua original; o js/notas.js o abre junto da palavra. */
+   definição, para o falante de português; é a regra para todo livro novo em português. A fonte é
+   edicoes/vocabulario/<nome>.json: {obra | obras: [ids], palavras: [{lema, formas: [...], classe,
+   def, so_capitulos?: [n, ...], so_obras?: [ids]}]} (um arquivo por obra, por coletânea ou, na
+   poesia, por autor). Cada ocorrência no texto em português vira um button.pal.rara (sublinhado
+   pontilhado); nas páginas bilíngues, o lado do original fica de fora. O verbete fica escondido no
+   fim da página, como o dos poemas na língua original, e o js/notas.js o abre junto da palavra. */
 const VOCABULARIO = {};
-for (const d of fs.readdirSync(path.join(RAIZ, 'edicoes'))) {
-  const f = path.join(RAIZ, 'edicoes', d, 'vocabulario.json');
-  if (!fs.existsSync(f)) continue;
+const DIR_VOCAB = path.join(RAIZ, 'edicoes', 'vocabulario');
+for (const d of fs.existsSync(DIR_VOCAB) ? fs.readdirSync(DIR_VOCAB).filter((x) => x.endsWith('.json')).sort() : []) {
+  const f = path.join(DIR_VOCAB, d);
   const v = JSON.parse(fs.readFileSync(f, 'utf8')), vistas = new Set();
   for (const w of v.palavras) {
     if (!w.lema || !w.def || !Array.isArray(w.formas) || !w.formas.length) throw new Error(f + ': palavra sem lema, definição ou formas: ' + JSON.stringify(w).slice(0, 80));
@@ -248,18 +250,32 @@ for (const d of fs.readdirSync(path.join(RAIZ, 'edicoes'))) {
       vistas.add(x.toLowerCase());
     }
   }
-  VOCABULARIO[v.obra || d] = v;
+  for (const id of v.obras || [v.obra]) {
+    if (VOCABULARIO[id]) throw new Error(f + ': a obra ' + id + ' já tem vocabulário noutro arquivo');
+    VOCABULARIO[id] = v;
+  }
 }
-/* marca as formas do vocabulário nos trechos de texto do HTML (fora das marcas); devolve o HTML
-   e os índices das palavras usadas */
-function marcarRaras(html, voc, parte) {
+/* marca as formas do vocabulário nos trechos de texto do HTML; fora das marcas, dos links, dos
+   botões e dos títulos, e fora do lado do original (div.orig) nas páginas bilíngues. Devolve o HTML
+   e os índices das palavras usadas. */
+function marcarRaras(html, voc, parte, obra) {
   const formas = new Map(), usados = new Set();
   voc.palavras.forEach((w, k) => {
     if (w.so_capitulos && !w.so_capitulos.includes(parte)) return;
+    if (w.so_obras && !w.so_obras.includes(obra)) return;
     w.formas.forEach((x) => formas.set(x.toLowerCase(), k));
   });
-  const saida = String(html).split(/(<[^>]*>)/).map((pedaco) => pedaco.startsWith('<') ? pedaco
-    : pedaco.replace(/([«“(—]*)(\p{L}+(?:-\p{L}+)*)([»”),.;:!?…]*)/gu, (tudo, antes, pal, depois) => {
+  let pular = 0, divs = 0;   // dentro de a, button ou h1–h6 (pular); dentro do div.orig (divs, a profundidade)
+  const saida = String(html).split(/(<[^>]*>)/).map((pedaco) => {
+    if (pedaco.startsWith('<')) {
+      if (divs) { if (/^<div\b/.test(pedaco)) divs++; else if (/^<\/div>/.test(pedaco)) divs--; }
+      else if (/^<div\b[^>]*class="orig\b/.test(pedaco)) divs = 1;
+      if (/^<(a|button|h[1-6])\b/.test(pedaco)) pular++;
+      else if (/^<\/(a|button|h[1-6])>/.test(pedaco)) pular = Math.max(0, pular - 1);
+      return pedaco;
+    }
+    if (pular || divs) return pedaco;
+    return pedaco.replace(/([«“(—]*)(\p{L}+(?:-\p{L}+)*)([»”),.;:!?…]*)/gu, (tudo, antes, pal, depois) => {
       /* o composto inteiro (guarda-peito) ou, no verbo com pronome (derreava-se, apear-se-ia), o
          verbo, com o pronome fora da marca */
       let k = formas.get(pal.toLowerCase()), resto = '';
@@ -274,7 +290,8 @@ function marcarRaras(html, voc, parte) {
       /* a pontuação colada vai junto, num trecho que não quebra (o botão quebraria antes da vírgula) */
       const marca = '<button type="button" class="pal rara" data-g="v' + k + '" aria-expanded="false">' + pal + '</button>';
       return antes || resto || depois ? '<span class="pal-g">' + antes + marca + resto + depois + '</span>' : marca;
-    })).join('');
+    });
+  }).join('');
   return { html: saida, usados };
 }
 function htmlVocabulario(voc, usados) {
@@ -1104,9 +1121,9 @@ function paginaParte(a, o, f) {
   const comentada = !!o.comentada;
   const notasC = comentada ? notasDaParte(p) : null;
   let corpo = comentada ? textoComentado(o, p, f, notasC) : textoParte(o, p), vocab = '';
-  const voc = !p.glossario && !bilingue ? VOCABULARIO[o.id] : null;
+  const voc = !p.glossario ? VOCABULARIO[o.id] : null;
   if (voc) {
-    const r = marcarRaras(corpo, voc, f.i);
+    const r = marcarRaras(corpo, voc, f.i, o.id);
     corpo = r.html;
     if (r.usados.size) vocab = htmlVocabulario(voc, r.usados);
   }

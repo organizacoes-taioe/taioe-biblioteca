@@ -8,10 +8,12 @@ MANUAL: grafia final de palavras que as edições de referência não resolvem
 """
 
 EMENDAS = [
-    # erros da transcrição (o Wikisource copiou o Gutenberg; a 1ª edição traz a forma correta)
+    # erros da transcrição (o Wikisource copiou o Gutenberg); todos conferidos no fac-símile de 1862
+    # (Commons, 2026-11-02), que traz a forma correta. Lições da 1ª edição conferidas e mantidas:
+    # «sasões», «promenores», «dezoitos annos» (p. 247; «dezoito» na p. 243), «estorturoso», «su villão»
     ('ocr', 'Ballhazar', 'Balthazar'),
     ('ocr', 'Chegou o ferrador a Monehique', 'Chegou o ferrador a Monchique'),
-    ('ocr', 'fidalgo de Gastro-d\'Aire', 'fidalgo de Castro d\'Aire'),
+    ('ocr', 'fidalgo de Gastro-d\'Aire', 'fidalgo de Castro-d\'Aire'),
     ('ocr', 'acerescentou o desembargador', 'accrescentou o desembargador'),
     ('ocr', 'imaginou desvairadaraente', 'imaginou desvairadamente'),
     ('ocr', 'mãos convuísamente enlaçadas', 'mãos convulsamente enlaçadas'),

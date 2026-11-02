@@ -4,9 +4,10 @@ Pronto: as fontes e o confronto em rascunho (`config.py`), a proposta de grafia 
 `decisoes.py` e `notas.py` vazios. Nada publicado: sem `conteudo/`, autor, `obras.json` nem vocabulário.
 
 ## Achados que mudam o trabalho
-1. **O Wikisource «Macunaíma (1928)» não é todo de 1928.** As páginas revisadas (nível 3/4: caps. I,
-   XII–XVIII e epílogo, pp. 7–12 e 167–283 do índice) reproduzem o impresso (heroi, tambem, porêm,
-   frexa, tribu). As do nível 1 (caps. II–XI, pp. 13–165, «Giro bot») trazem o texto de uma edição
+1. **O Wikisource «Macunaíma (1928)» não é todo de 1928.** As páginas revisadas (nível 3/4: pp. 7–12
+   e 167–283 do índice, caps. XII–XVIII e epílogo e o começo do I) reproduzem o impresso (heroi,
+   tambem, porêm, frexa, tribu). As do nível 1 (pp. 13–165: fim do cap. I e caps. II–XI, «Giro bot»;
+   no cap. I, «Toda a tribo» onde o impresso tem «tribu») trazem o texto de uma edição
    **posterior, revista e modernizada**: flecha por frexa, tribo por tribu, pôde por poude, para por
    pra, e passagens reescritas (cap. V: onde 1928 tem «jacús jacutingas», ela lista «mutuns,
    mutum-de-vargem mutum-de-fava mutuporanga urus urumutum»). Ali o Wikisource não vota como 1928.
@@ -19,26 +20,26 @@ Pronto: as fontes e o confronto em rascunho (`config.py`), a proposta de grafia 
    não tem `aviso`.
 
 ## Como está o confronto (`python3 ferramentas/texto.py macunaima --rebaixar`)
-- Base `b28`: o Wikisource revisado nos caps. I, XII–XVIII e epílogo; o OCR ABBYY do IA (`or182096`)
-  nos caps. de `DO_OCR` (II–XI), posto na divisão do Wikisource por `ocr.estrutura_como`.
-- `t28`: Tesseract (por, `--psm 6`, 300 dpi) das páginas do PDF do IA, também só nos caps. II–XI.
+- Base `b28`: o Wikisource revisado nos caps. XII–XVIII e epílogo; o OCR ABBYY do IA (`or182096`)
+  nos caps. de `DO_OCR` (I–XI), posto na divisão do Wikisource por `ocr.estrutura_como`.
+- `t28`: Tesseract (por, `--psm 6`, 300 dpi) das páginas do PDF do IA, também só nos caps. I–XI.
   Os .txt ficam em `ferramentas/cache/macunaima/tess/` (fora do git; 184 das 253 páginas, o
   bastante até o cap. XI). Para refazer: baixar `https://archive.org/download/or182096/or182096.pdf`,
   `pdftoppm -r 300 -gray -png` e o Tesseract de `~/.cache/tesseract-local/raiz` (ver
   `edicoes/sao-bernardo/tesseract.py`) com `-l por --psm 6`, um .txt por página, nomes em ordem.
-- `ws`: o Wikisource inteiro (no voto dos caps. II–XI ele desempata palavra igual; nas formas de 1928
+- `ws`: o Wikisource inteiro (no voto dos caps. I–XI ele desempata palavra igual; nas formas de 1928
   os dois OCRs o vencem).
-- Resultado: 19 partes, 1.308 parágrafos, ~45,8 mil palavras; 2.500 sítios por maioria e **549 sem
-  maioria** (todos nos caps. II–XI), onde vale o ABBYY e quase sempre há lixo de OCR («ai'omava ° s»,
-  «enchen — le», «M A G U N A í M A 77», «Por - isso»).
+- `rever()` (feito): nos sítios sem maioria limpa os dois OCRs e fica com o que só tem palavras
+  conhecidas; se nenhum serve, com o `ws` quando ele difere pouco e **não** por grafia (frexa/flecha,
+  genipapo/jenipapo ficam como no OCR). Conferido: nenhum «flecha», «tribo» ou «jenipapo» no texto.
+- Resultado: 19 partes, 1.308 parágrafos, ~45 mil palavras; 2.629 sítios por maioria, 568 sem
+  maioria, dos quais **364 a conferir no fac-símile** (`ferramentas/cache/macunaima/relatorios/duvidas.tsv`;
+  ex.: «aromava s» por «aromava os»).
 
 ## Próximos passos
-1. `rever(tr, md, sitios)` no config, como em São Bernardo/Insônia: nos 549 sem maioria, limpar os
-   dois OCRs (cabeços «MARIO DE ANDRADE»/«MACUNAÍMA» com número, « - » de hífen, símbolos soltos) e,
-   se um deles então coincidir com outro ou com o `ws` (descontados acentos), ficar com ele; se o `ws`
-   for palavra do léxico a distância ≤ 2 de ambos e nenhum OCR for palavra, ficar com o `ws` **só se
-   a diferença não for de grafia** (x/ch, s/ç/ss, u/o, e/i, l/r: aí vale o OCR). O resto vai para a
-   conferência nas imagens (`conferencia.json`, como em Caetés).
+1. Conferir nas imagens as 364 dúvidas de `duvidas.tsv` e gravar as leituras (`conferencia.json` e
+   `decisoes.corrigir`, como em Caetés). Também ler `sitios.tsv` por amostra: onde ABBYY e Tesseract
+   concordam contra o `ws` ganha o OCR, inclusive em erro comum aos dois.
 2. Conferir no fac-símile as formas de Mário que só o OCR atesta nos caps. II–XI, e o cap. I nas
    pp. 13–15 (nível 1 no Wikisource, mas na base: conferir se também está modernizado).
 3. Hífen de fim de linha no OCR: hoje se junta sem hífen; compostos partidos na linha

@@ -68,6 +68,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'santo-inacio-de-antioquia',
+  area: 'catolicismo',
+  nome: 'Santo Inácio de Antioquia',
+  nomeCompleto: 'Inácio de Antioquia, também chamado Teóforo',
+  vida: '~35–~107',
+  ordem: 'Inácio de Antioquia, Santo',
+  nota: 'Bispo de Antioquia, mártir em Roma sob Trajano, Padre apostólico. Em tradução do grego.'
+});
+
+BIBLIOTECA.autor({
   id: 'santo-atanasio',
   area: 'catolicismo',
   nome: 'Santo Atanásio',

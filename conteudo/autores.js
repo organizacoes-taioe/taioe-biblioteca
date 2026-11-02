@@ -484,6 +484,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'gerard-manley-hopkins',
+  nome: 'Gerard Manley Hopkins',
+  nomeCompleto: 'Gerard Manley Hopkins',
+  vida: '1844–1889',
+  lingua: 'en',
+  nota: 'Poeta inglês e padre jesuíta; os poemas dele só saíram em livro em 1918.'
+});
+
+BIBLIOTECA.autor({
   id: 'edgar-allan-poe',
   nome: 'Edgar Allan Poe',
   nomeCompleto: 'Edgar Allan Poe',

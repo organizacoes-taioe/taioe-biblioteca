@@ -309,7 +309,8 @@ def modernizar(E, manual):
                 for n in ns[:-1]:
                     partes.append(o[pos:pos + len(n)]); pos += len(n)
                 partes.append(o[pos:])
-                if all(partes) and [chave(x) for x in partes][:-1] == [chave(x) for x in ns][:-1]:
+                ka = [chave(x).replace('ao', 'am') for x in partes]
+                if all(partes) and ka[:-1] == [chave(x).replace('ao', 'am') for x in ns][:-1]:
                     novo += partes
                     mapa += [i1] * len(partes)
                     continue

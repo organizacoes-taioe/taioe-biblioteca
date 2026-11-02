@@ -24,20 +24,20 @@ Estado: **fontes e confronto montados e rodando; texto ainda não conferido nem 
   empatava. Resultado: 3.907 divergências, 2.901 por maioria, 296 por minoria com apoio moderno, 710 sem
   maioria (relatório `sitios.tsv`: 1.845 pontos fracos).
 - `config.modernizar` (antes da grafia pela moderna, sempre só onde a moderna, alinhada no mesmo ponto,
-  confirma): parte as palavras coladas pelos OCRs (72: «Tinhãoesses», «emquantoella»); passa a 3ª do
+  confirma): parte as palavras coladas pelos OCRs (76: «Tinhãoesses», «emquantoella»); passa a 3ª do
   plural em -ão a -am (786: «formão», «enfurecião-se»; o futuro fica); troca as letras que os três OCRs
   confundem igual (131: l/t, c/e, ó/é, b/h, n/u…; lista em `relatorios/letras.tsv`, conferir uma amostra).
-- `decisoes.EMENDAS`: 9 leituras conferidas nas imagens (pranchas dos pontos 1–62 de `ver/pontos.json`).
+- `decisoes.EMENDAS`: 11 leituras conferidas nas imagens (pranchas dos pontos 1–80 de `ver/pontos.json`).
 - `edicoes/sargento-de-milicias/conferir.py` (pranchas, cópia do de Policarpo) funciona:
   `python3 edicoes/sargento-de-milicias/conferir.py ferramentas/cache/sargento-de-milicias/ver/p3.tsv`.
   `ver/pontos.json` tem os 650 pontos de palavra sem apoio moderno, na ordem do texto; as pranchas dos
-  pontos 41–80 (`ver/p3-4846-*.png`) estão feitas e ainda não foram lidas.
-- `texto.py` roda: 48 partes, 1.456 parágrafos; relatórios: 623 em `modernas.tsv`, 1.697 em
-  `pontuacao.tsv`, 552 em `sem_par.tsv`, 415 em `vocabulario.tsv`.
+  pontos 1–80 já foram lidas (`ver/p10-*`, `p2-*`, `p3-*`); seguir do 81.
+- `texto.py` roda: 48 partes, 1.456 parágrafos; relatórios: 617 em `modernas.tsv`, 1.695 em
+  `pontuacao.tsv`, 545 em `sem_par.tsv`, 408 em `vocabulario.tsv`.
 - `decisoes.py` e `notas.py` com a estrutura e um rascunho da «Sobre». O bloco do autor está no item 7 abaixo.
 
 ## Falta (na ordem)
-1. **Conferência**: ler as pranchas dos 650 pontos de palavra (`ver/pontos.json`, a partir do 41) e
+1. **Conferência**: ler as pranchas dos 650 pontos de palavra (`ver/pontos.json`, a partir do 81) e
    registrar em `EMENDAS` só o que o texto final ainda erra (muitos pontos já saem certos pelos passos de
    `config.modernizar`: conferir em `relatorios/texto.txt` antes de anotar). Depois, `modernas.tsv` e
    `vocabulario.tsv` (palavras que só os OCRs têm) e a pontuação (`pontuacao.tsv`: «meirinho!.;.»).

@@ -28,6 +28,9 @@ EMENDAS = [
     ('ocr', 'talvez para ã cadê,', 'talvez para a cadêa...'),
     ('ocr', 'os industriosos ]', 'os industriosos!'),
     ('ocr', 'meirinho!.;. Nada', 'meirinho!... Nada'),
+    # pontos 63–72
+    ('ocr', 'eimaginouqueopequeno ajleria', 'e imaginou que o pequeno a teria'),
+    ('ocr', 'Ciganos. Tinhãoesses meninos', 'Ciganos. Tinhão esses meninos'),
 ]
 
 AJUSTES = []

@@ -27,11 +27,15 @@ META = {
             'citações da Escritura são traduzidas do latim de Severo, e não de uma Bíblia moderna.\n\n'
             '**O original.** O latim ao lado é o da edição de Karl Halm (_Corpus Scriptorum '
             'Ecclesiasticorum Latinorum_, vol. 1, Viena, 1866), na digitalização da The Latin Library, '
-            'com uns poucos erros de digitação corrigidos.'),
+            'conferida por nós com o fac-símile, palavra por palavra, e corrigida onde se afastava dele; em 24,4 '
+            'segue-se a leitura de outros manuscritos, «prae se», no lugar do «prece» de Halm.'),
         'fontes': [
             {'nome': 'Sulpicius Severus, Vita Sancti Martini (The Latin Library)',
              'url': 'https://www.thelatinlibrary.com/sulpiciusseverusmartin.html',
-             'nota': 'texto latino de base e ao lado, que segue a edição de Halm (CSEL 1, 1866)'},
+             'nota': 'texto latino de base e ao lado, que segue a edição de Halm'},
+            {'nome': 'Karl Halm, Sulpicii Severi libri qui supersunt, CSEL 1 (Viena, 1866), no Internet Archive',
+             'url': 'https://archive.org/details/sulpiciiseverili0000seve',
+             'nota': 'fac-símile da edição, para a conferência (p. 109–137)'},
             {'nome': 'Vita Sancti Martini (Wikisource latina)',
              'url': 'https://la.wikisource.org/wiki/Vita_Sancti_Martini',
              'nota': 'mesma digitação, para consulta'},

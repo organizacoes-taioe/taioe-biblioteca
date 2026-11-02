@@ -179,6 +179,25 @@
      "nota": "Simples, mas tira a imagem pagã que Severo usa de propósito."
     }
    ]
+  },
+  {
+   "id": "praemissa-prae-se",
+   "titulo": "Em 24,4 fica a leitura «praemissa prae se», contra o «prece» de Halm?",
+   "ref": "cap. 24,4",
+   "contexto": "O diabo aparece a Martinho disfarçado de Cristo: *praemissa prece et circumiectus ipse luce purpurea*, no texto de Halm, que segue o códice de Verona; outros códices e as edições antigas leem *praemissa prae se*, isto é, a luz de púrpura mandada adiante de si e envolvendo-o. Com *prece* («depois de mandar à frente uma prece») a frase fica estranha. O latim ao lado traz *prae se*, e o LEIAME registra a diferença.\n\nHoje: «Certo dia, mandando adiante de si uma luz de púrpura e envolto nela, para enganar mais facilmente com o brilho do fulgor que tomara…».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«mandando adiante de si uma luz de púrpura e envolto nela», como está (prae se)",
+     "nota": "Faz sentido e é a leitura de vários códices.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "seguir Halm: «depois de uma prece, envolto numa luz de púrpura»",
+     "nota": "Fiel à edição de base; o sentido de «prece» aqui é obscuro."
+    }
+   ]
   }
  ]
 }

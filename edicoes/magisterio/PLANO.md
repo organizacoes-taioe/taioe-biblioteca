@@ -65,6 +65,16 @@ Uma decisão de cada nas pendências («Biblioteca: traduções»): `revisao-<do
   (url do texto `None` em `DOCS`; a fonte do site fica só a das _Acta_). As notas «N. R.» das ASS
   (da redação) ficaram de fora (`SEM_NOTAS`); é a decisão de `revisao-lamentabili.json`.
 
+## Pedidos de 02/11 (noite; branch `pedido-magisterio-5`)
+
+| documento | papa | data | língua | palavras | estado |
+|---|---|---|---|---|---|
+| *Miserentissimus Redemptor* | Pio XI | 1928 | latim | ~3,8 mil | pronto na branch; fecha com a oração de reparação (`## `) |
+| *Studiorum Ducem* | Pio XI | 1923 | latim | ~4,7 mil | pronto na branch; sem `{§}` (o vatican.va não tem a versão inglesa); fecha com a oração de Santo Tomás |
+| *Rerum Ecclesiae* | Pio XI | 1926 | latim | ~5 mil | pronto na branch; o vatican.va só tem o inglês: base o PDF das AAS (url do texto `None`), notas em numeração contínua nossa |
+
+Duas decisões de cada nas pendências (`revisao-<documento>.json`).
+
 ## Depois
 
 Os próximos vêm da lista do Magistério em `/admin/sugestoes/`, quando o Gere pedir. O levantamento

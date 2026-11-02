@@ -1,7 +1,7 @@
 # Paixão de Perpétua e Felicidade — convenções da tradução
 
 Leia antes `edicoes/CONVENCOES-TRADUCAO.md`. Texto-fonte e correções: `original/LEIAME.md`.
-Decisões que esperam o Gere: `revisao.json`. O que falta: `FALTA.md`.
+Decisões que esperam o Gere: `revisao.json`.
 
 - Autor no site: **Anônimo** (`anonimo`, autor coletivo de `conteudo/autores.js`), como a Didaqué e
   a Carta a Diogneto. A lista de sugestões dava «Santa Perpétua e um anônimo»; o mais simples foi não

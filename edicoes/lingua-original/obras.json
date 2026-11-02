@@ -56,6 +56,30 @@
       ]
     },
     {
+      "pasta": "gods-grandeur", "autor": "gerard-manley-hopkins", "lingua": "en", "forma": "sonetos",
+      "titulo": "God's Grandeur", "ano": 1918,
+      "livro": { "titulo": "Poems of Gerard Manley Hopkins", "ano": 1918 },
+      "fontes": [
+        { "nome": "Poems of Gerard Manley Hopkins, ed. Robert Bridges (Londres, Humphrey Milford, 1918), no Wikisource", "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/God%27s_Grandeur", "nota": "texto e grafia da 1ª edição (1918), escaneada e revista no Wikisource; o soneto é de 1877" }
+      ]
+    },
+    {
+      "pasta": "the-windhover", "autor": "gerard-manley-hopkins", "lingua": "en", "forma": "sonetos",
+      "titulo": "The Windhover", "subtitulo": "To Christ our Lord", "ano": 1918,
+      "livro": { "titulo": "Poems of Gerard Manley Hopkins", "ano": 1918 },
+      "fontes": [
+        { "nome": "Poems of Gerard Manley Hopkins, ed. Robert Bridges (Londres, Humphrey Milford, 1918), no Wikisource", "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/The_Windhover", "nota": "texto e grafia da 1ª edição (1918), com os acentos de Hopkins (shéer plód), o «AND» em versalete e a grafia dele «ecstacy» e «vermillion»; o soneto é de 1877" }
+      ]
+    },
+    {
+      "pasta": "pied-beauty", "autor": "gerard-manley-hopkins", "lingua": "en", "forma": "sonetos",
+      "titulo": "Pied Beauty", "ano": 1918,
+      "livro": { "titulo": "Poems of Gerard Manley Hopkins", "ano": 1918 },
+      "fontes": [
+        { "nome": "Poems of Gerard Manley Hopkins, ed. Robert Bridges (Londres, Humphrey Milford, 1918), no Wikisource", "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/Pied_Beauty", "nota": "texto e grafia da 1ª edição (1918), com os acentos de Hopkins (áll trádes); o poema é de 1877" }
+      ]
+    },
+    {
       "pasta": "the-raven", "autor": "edgar-allan-poe", "lingua": "en", "forma": "outras",
       "titulo": "The Raven", "ano": 1845,
       "livro": { "titulo": "The Raven and Other Poems", "ano": 1845 },
@@ -264,6 +288,31 @@
       "fontes": [
         { "nome": "Coplas por la muerte de su padre, ed. R. Foulché-Delbosc (Barcelona, L'Avenç, 1902), no Wikisource", "url": "https://es.wikisource.org/wiki/Coplas_por_la_muerte_de_su_padre", "nota": "composto por volta de 1476 (c. 1476), após a morte do pai, o mestre dom Rodrigo Manrique; as 40 coplas de pé quebrado, na ordem e nas lições dessa edição crítica (em que a copla «Si fuese en nuestro poder» vem em 7º lugar, e não em 13º como em várias edições modernas; no v. 19.11 lê «rodos» onde muitas leem «rocíos»), com a grafia de hoje (u e v, j, h, ç e ss, acentos e pontuação) e, no resto, as formas do tempo de Manrique («dellas», «dél», «allegados», «falaguero», «agora», «sofrir», «afruenta»); conferido com o texto de textos.info (edição moderna, de outra ordem e de outras lições)" },
         { "nome": "o mesmo livro (1902), no Internet Archive", "url": "https://archive.org/details/CoplasPorLaMuerteDeSuPadreJorgeManrique" }
+      ]
+    },
+    {
+      "pasta": "tu-ne-quaesieris", "autor": "horacio", "lingua": "la", "forma": "outras",
+      "titulo": "Tu ne quaesieris", "ano": null,
+      "livro": { "titulo": "Carmina", "ano": null },
+      "traducao": {
+        "tradutor": "António Ribeiro dos Santos",
+        "titulo": "A Leuconoe",
+        "ano": 1807,
+        "publicacao": "poeta e erudito português (1745–1818), que assinava Elpino Duriense, publicada em decassílabos brancos em A lírica de Q. Horácio Flaco, poeta romano (Lisboa, Impressão Régia, 1807), ode XI do livro I, p. 53",
+        "fonte": { "nome": "A lyrica de Q. Horacio Flacco, poeta romano (Lisboa, Impressão Régia, 1807), p. 53, no Internet Archive", "url": "https://archive.org/details/alyricadeqhorac00sancgoog/page/n69", "nota": "tradução de António Ribeiro dos Santos (Elpino Duriense); ortografia atualizada («marcaram», «babilónios», «Tirreno», «ínvida»)" }
+      },
+      "fontes": [
+        { "nome": "Q. Horati Flacci Opera, ed. Edward C. Wickham, 2ª ed. revista por H. W. Garrod (Oxford, Clarendon Press, 1912), no Internet Archive", "url": "https://archive.org/details/qhoratiflacciop00garrgoog", "nota": "livro I, ode 11 (os livros I a III saíram juntos em 23 a.C.); palavras e pontuação desta edição, com maiúscula depois do ponto" },
+        { "nome": "Q. Horati Flacci Opera, ed. Otto Keller e Alfred Holder, vol. I (Leipzig, Teubner, 1878), no Internet Archive", "url": "https://archive.org/details/qhoratiflacciop00kellgoog", "nota": "as mesmas palavras, com «quicquid» e «scire nefas» entre parênteses" }
+      ]
+    },
+    {
+      "pasta": "exegi-monumentum", "autor": "horacio", "lingua": "la", "forma": "outras",
+      "titulo": "Exegi monumentum", "ano": null,
+      "livro": { "titulo": "Carmina", "ano": null },
+      "fontes": [
+        { "nome": "Q. Horati Flacci Opera, ed. Edward C. Wickham, 2ª ed. revista por H. W. Garrod (Oxford, Clarendon Press, 1912), no Internet Archive", "url": "https://archive.org/details/qhoratiflacciop00garrgoog", "nota": "livro III, ode 30, a última dos livros I a III (23 a.C.); palavras e pontuação desta edição, com maiúscula depois do ponto" },
+        { "nome": "Q. Horati Flacci Opera, ed. Otto Keller e Alfred Holder, vol. I (Leipzig, Teubner, 1878), no Internet Archive", "url": "https://archive.org/details/qhoratiflacciop00kellgoog", "nota": "as mesmas palavras" }
       ]
     }
   ]

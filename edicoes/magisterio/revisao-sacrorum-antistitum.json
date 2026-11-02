@@ -1,0 +1,26 @@
+{
+ "id": "magisterio-sacrorum-antistitum",
+ "rotulo": "Sacrorum Antistitum (São Pio X, 1910)",
+ "url": "/biblioteca/igreja-catolica/sacrorum-antistitum/",
+ "escolhas": [
+  {
+   "id": "subtitulo",
+   "titulo": "O subtítulo na lista do Magistério: o nome popular ou o título do próprio documento?",
+   "ref": "subtítulo da obra",
+   "contexto": "O documento se intitula «Quo quaedam statuuntur leges ad modernismi periculum propulsandum» («em que se estabelecem algumas leis para afastar o perigo do modernismo»), e é assim que o título aparece no começo do texto. Mas ele é conhecido, e procurado, como o motu proprio do «juramento antimodernista», que está no meio dele. Hoje o subtítulo na lista e na página da obra é «O juramento antimodernista».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica «O juramento antimodernista»",
+     "nota": "É o nome por que o documento é conhecido; o título oficial continua no topo do texto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Passa a «Leis para afastar o perigo do modernismo»",
+     "nota": "Fiel ao título do documento, como nas outras obras do Magistério; menos reconhecível."
+    }
+   ]
+  }
+ ]
+}

@@ -68,6 +68,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'santo-inacio-de-antioquia',
+  area: 'catolicismo',
+  nome: 'Santo Inácio de Antioquia',
+  nomeCompleto: 'Inácio de Antioquia, também chamado Teóforo',
+  vida: '~35–~107',
+  ordem: 'Inácio de Antioquia, Santo',
+  nota: 'Bispo de Antioquia, mártir em Roma sob Trajano, Padre apostólico. Em tradução do grego.'
+});
+
+BIBLIOTECA.autor({
   id: 'santo-atanasio',
   area: 'catolicismo',
   nome: 'Santo Atanásio',
@@ -85,6 +95,16 @@ BIBLIOTECA.autor({
   vida: '354–430',
   ordem: 'Agostinho, Santo',
   nota: 'Bispo de Hipona, doutor da Igreja, convertido em Milão em 386. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
+  id: 'sulpicio-severo',
+  area: 'catolicismo',
+  nome: 'Sulpício Severo',
+  nomeCompleto: 'Sulpício Severo (Sulpicius Severus)',
+  vida: '~363–~420',
+  ordem: 'Sulpício Severo',
+  nota: 'Advogado da Aquitânia que deixou o mundo para a vida ascética, discípulo e biógrafo de São Martinho de Tours. Em tradução do latim.'
 });
 
 BIBLIOTECA.autor({
@@ -155,7 +175,7 @@ BIBLIOTECA.autor({
   area: 'catolicismo',
   nomeCompleto: 'Escritos cristãos antigos de autor desconhecido',
   coletivo: true,   // não é uma pessoa: as páginas não o dão como autor (schema.org Person)
-  nota: 'Textos dos primeiros séculos cujo autor não se conhece. Em tradução do grego.'
+  nota: 'Textos dos primeiros séculos cujo autor não se conhece. Em tradução do grego e do latim.'
 });
 
 /* Os documentos do Magistério (edicoes/magisterio/), em tradução nossa, com o original ao lado
@@ -484,6 +504,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'gerard-manley-hopkins',
+  nome: 'Gerard Manley Hopkins',
+  nomeCompleto: 'Gerard Manley Hopkins',
+  vida: '1844–1889',
+  lingua: 'en',
+  nota: 'Poeta inglês e padre jesuíta; os poemas dele só saíram em livro em 1918.'
+});
+
+BIBLIOTECA.autor({
   id: 'edgar-allan-poe',
   nome: 'Edgar Allan Poe',
   nomeCompleto: 'Edgar Allan Poe',
@@ -656,4 +685,13 @@ BIBLIOTECA.autor({
   vida: '70–19 a.C.',
   lingua: 'la',
   nota: 'Poeta latino de Mântua, autor das Bucólicas, das Geórgicas e da Eneida.'
+});
+
+BIBLIOTECA.autor({
+  id: 'horacio',
+  nome: 'Horácio',
+  nomeCompleto: 'Quinto Horácio Flaco',
+  vida: '65–8 a.C.',
+  lingua: 'la',
+  nota: 'Poeta latino de Venúsia, filho de um liberto; autor das Odes, das Sátiras e das Epístolas.'
 });

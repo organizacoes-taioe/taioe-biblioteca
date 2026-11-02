@@ -1,0 +1,912 @@
+{
+  "verbetes": {
+    "the": {
+      "lema": "the",
+      "classe": "artigo definido",
+      "def": [
+        "Usado diante de um substantivo ou sintagma nominal já conhecido ou determinado."
+      ]
+    },
+    "windhover": {
+      "lema": "windhover",
+      "classe": "substantivo",
+      "def": [
+        "(Reino Unido) O francelho, ou peneireiro-comum (Falco tinnunculus)."
+      ],
+      "nota": "Pequeno falcão que se mantém parado no ar contra o vento, de «wind» (vento) e «hover» (pairar): daí o nome. É o pássaro do poema e o assunto do título."
+    },
+    "to": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Usado para indicar o alvo ou o destinatário de uma ação."
+      ],
+      "nota": "No subtítulo, é a dedicatória: o poema é dirigido a Cristo."
+    },
+    "christ": {
+      "lema": "Christ",
+      "classe": "substantivo próprio",
+      "def": [
+        "(cristianismo) Título dado a Jesus de Nazaré, visto como o cumpridor da profecia messiânica."
+      ],
+      "nota": "No subtítulo, a dedicatória. Pela leitura mais comum, é também a Cristo que o poema se dirige no fim («thee», «my chevalier»)."
+    },
+    "our": {
+      "lema": "our",
+      "classe": "determinante",
+      "def": [
+        "Pertencente a nós, incluindo as pessoas a quem se fala."
+      ]
+    },
+    "lord": {
+      "lema": "lord",
+      "classe": "substantivo",
+      "def": [
+        "Quem possui domínio sobre outros; qualquer nobre ou aristocrata; qualquer chefe, príncipe ou soberano."
+      ],
+      "nota": "«Our Lord» é «Nosso Senhor», título de Cristo."
+    },
+    "i": {
+      "lema": "I",
+      "classe": "pronome pessoal",
+      "def": [
+        "A pessoa que fala ou escreve, como sujeito da frase: eu."
+      ]
+    },
+    "caught": {
+      "lema": "catch",
+      "classe": "verbo",
+      "forma": "pretérito do indicativo",
+      "def": [
+        "Capturar ou prender (alguém ou algo que preferiria escapar)."
+      ],
+      "nota": "Capturar, apanhar: aqui o poeta «apanha» o falcão ao vê-lo, e o verbo abre o poema."
+    },
+    "this": {
+      "lema": "this",
+      "classe": "pronome demonstrativo",
+      "def": [
+        "A coisa, o item etc. que se indica."
+      ],
+      "nota": "«This morning» é «esta manhã», a manhã de hoje."
+    },
+    "morning": {
+      "lema": "morning",
+      "classe": "substantivo",
+      "def": [
+        "A parte inicial do dia, sobretudo da meia-noite ao meio-dia."
+      ]
+    },
+    "morning's": {
+      "lema": "morning",
+      "classe": "substantivo",
+      "forma": "genitivo («de manhã»)",
+      "def": [
+        "A parte inicial do dia, sobretudo da meia-noite ao meio-dia."
+      ],
+      "nota": "«Morning's minion» é o favorito da manhã: o falcão é o queridinho do amanhecer, como um favorito do rei."
+    },
+    "minion": {
+      "lema": "minion",
+      "classe": "substantivo",
+      "def": [
+        "(obsoleto) Pessoa amada; alguém muito estimado e favorecido."
+      ],
+      "nota": "O favorito, o queridinho, sobretudo de um rei: o falcão é o favorito da manhã. O sentido de hoje, «lacaio», não é o do verso."
+    },
+    "king": {
+      "lema": "kingdom",
+      "classe": "substantivo",
+      "def": [
+        "Reino: território que tem um rei ou uma rainha como soberano, de fato ou nominal."
+      ],
+      "nota": "Hopkins parte «kingdom» na virada do verso: «king-» fecha o primeiro verso e «dom» abre o segundo. O corte faz o verso se precipitar, como o voo do falcão."
+    },
+    "dom": {
+      "lema": "kingdom",
+      "classe": "substantivo",
+      "def": [
+        "Reino: território que tem um rei ou uma rainha como soberano, de fato ou nominal."
+      ],
+      "nota": "Segunda metade de «kingdom», cortado no fim do verso 1 (veja «king»): o verso se precipita, como o voo. O «reino da luz do dia» é o céu da manhã."
+    },
+    "of": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Liga um substantivo a outro, indicando matéria, assunto, composição, origem ou posse."
+      ]
+    },
+    "daylight's": {
+      "lema": "daylight",
+      "classe": "substantivo",
+      "forma": "genitivo («da luz do dia»)",
+      "def": [
+        "A luz natural presente durante o dia, sobretudo a luz do sol."
+      ]
+    },
+    "dauphin": {
+      "lema": "dauphin",
+      "classe": "substantivo",
+      "def": [
+        "O filho mais velho do rei da França; sob as dinastias Valois e Bourbon, o «Dauphin» era o herdeiro do trono."
+      ],
+      "nota": "O delfim: o príncipe herdeiro. O falcão é o herdeiro do reino da luz do dia."
+    },
+    "dapple-dawn-drawn": {
+      "partes": [
+        {
+          "lema": "dapple",
+          "classe": "adjetivo",
+          "def": [
+            "Que tem a pele ou o pelo malhado ou manchado."
+          ]
+        },
+        {
+          "lema": "dawn",
+          "classe": "substantivo",
+          "def": [
+            "O período do crepúsculo matinal imediatamente antes do nascer do sol."
+          ]
+        },
+        {
+          "lema": "draw",
+          "classe": "verbo",
+          "forma": "particípio passado",
+          "def": [
+            "Puxar (alguém ou algo) numa direção ou de um modo determinado."
+          ]
+        }
+      ],
+      "nota": "Composto de Hopkins: atraído (ou desenhado, como contra o céu) pela aurora salpicada de nuvens. «Dapple» é a malha, a mancha do pelo dos cavalos, aplicada às nuvens da manhã."
+    },
+    "falcon": {
+      "lema": "falcon",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer ave do gênero Falco, todas aves de rapina."
+      ],
+      "nota": "Aqui o francelho do título. Hopkins usa a palavra maior, mais nobre, para o pequeno falcão."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Indica posição dentro de um lugar, de um espaço ou de um estado."
+      ]
+    },
+    "his": {
+      "lema": "his",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a ele."
+      ]
+    },
+    "riding": {
+      "lema": "ride",
+      "classe": "verbo",
+      "forma": "gerúndio (particípio presente)",
+      "def": [
+        "Transportar-se sentado sobre um cavalo e dirigindo-o."
+      ],
+      "nota": "O falcão «cavalga» o ar como um cavaleiro. «In his riding / Of the rolling level underneath him steady air»: na sua cavalgada do ar firme e plano, que rola embaixo dele (sintaxe comprimida)."
+    },
+    "rolling": {
+      "lema": "rolling",
+      "classe": "adjetivo",
+      "def": [
+        "Que se move girando sobre um eixo, sem parar."
+      ],
+      "nota": "O ar que rola: uma corrente ampla e ondulante. Em «rolling level … steady air», três adjetivos se acumulam antes do substantivo."
+    },
+    "level": {
+      "lema": "level",
+      "classe": "adjetivo",
+      "def": [
+        "Da mesma altura em todos os pontos; paralelo a um terreno plano."
+      ],
+      "nota": "O ar plano, nivelado, sobre o qual o falcão se firma."
+    },
+    "underneath": {
+      "lema": "underneath",
+      "classe": "preposição",
+      "def": [
+        "Sob, debaixo, embaixo de."
+      ],
+      "nota": "Na ordem de Hopkins, «underneath him» fica entre «level» e «steady air»: o ar que está embaixo dele."
+    },
+    "him": {
+      "lema": "him",
+      "classe": "pronome pessoal",
+      "forma": "caso objetivo",
+      "def": [
+        "Pronome masculino: «he» como objeto gramatical."
+      ]
+    },
+    "steady": {
+      "lema": "steady",
+      "classe": "adjetivo",
+      "def": [
+        "Firme na posição; que não balança nem treme; fixo."
+      ]
+    },
+    "air": {
+      "lema": "air",
+      "classe": "substantivo",
+      "def": [
+        "A substância que constitui a atmosfera da Terra: uma mistura gasosa de nitrogênio, oxigênio e vários gases em quantidades menores."
+      ]
+    },
+    "and": {
+      "lema": "and",
+      "classe": "conjunção",
+      "def": [
+        "Liga dois elementos que devem ser tomados juntos ou um em acréscimo ao outro."
+      ]
+    },
+    "striding": {
+      "lema": "stride",
+      "classe": "verbo",
+      "forma": "gerúndio (particípio presente)",
+      "def": [
+        "Caminhar com passos longos."
+      ],
+      "nota": "O falcão «anda a passos largos» no alto do ar, como quem caminha: ele cavalga e caminha no vazio."
+    },
+    "high": {
+      "lema": "high",
+      "classe": "advérbio",
+      "def": [
+        "Em ou para uma posição elevada."
+      ],
+      "nota": "«High there»: lá no alto."
+    },
+    "there": {
+      "lema": "there",
+      "classe": "advérbio",
+      "def": [
+        "Naquele lugar (percebido como distante de quem fala)."
+      ]
+    },
+    "how": {
+      "lema": "how",
+      "classe": "advérbio",
+      "def": [
+        "Usado como modificador para indicar surpresa, deleite ou outro sentimento forte numa exclamação."
+      ],
+      "nota": "Exclamativo: «how he rung…» é «como ele girou…!»."
+    },
+    "he": {
+      "lema": "he",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome masculino da terceira pessoa do singular, como sujeito: ele."
+      ]
+    },
+    "rung": {
+      "lema": "ring",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(falcoaria) Subir no ar em espiral."
+      ],
+      "nota": "Termo de picadeiro, «to ring on the rein»: o cavalo que gira em círculo preso à guia longa; o falcão descreve um círculo no ar. «Rung» é particípio de «ring», usado aqui como pretérito."
+    },
+    "upon": {
+      "lema": "upon",
+      "classe": "preposição",
+      "def": [
+        "Em registro mais elevado ou formal, alternativa a «on» (sobre, em) na maior parte dos usos."
+      ]
+    },
+    "rein": {
+      "lema": "rein",
+      "classe": "substantivo",
+      "def": [
+        "Tira ou corda presa à rédea ou ao freio, usada para controlar um cavalo ou outro animal."
+      ],
+      "nota": "A guia, a rédea longa do picadeiro. Aqui o ar faz de rédea do falcão."
+    },
+    "a": {
+      "lema": "a",
+      "classe": "artigo indefinido",
+      "def": [
+        "Um exemplo não especificado de (algo); o artigo indefinido: um, uma."
+      ]
+    },
+    "wimpling": {
+      "lema": "wimple",
+      "classe": "verbo",
+      "forma": "gerúndio (particípio presente)",
+      "def": [
+        "Fazer parecer dobrado em pregas; fazer ondular."
+      ],
+      "nota": "De «wimple», a touca em pregas das freiras; como verbo, ondular, dobrar-se em pregas. A asa «wimpling» ondula, treme em pregas ao ritmo do voo."
+    },
+    "wing": {
+      "lema": "wing",
+      "classe": "substantivo",
+      "def": [
+        "Apêndice do corpo de um animal (ave, morcego, inseto) que lhe permite voar."
+      ]
+    },
+    "ecstacy": {
+      "lema": "ecstasy",
+      "classe": "substantivo",
+      "def": [
+        "Estado de emoção tão intenso que a pessoa é levada além do pensamento racional e do autocontrole."
+      ],
+      "nota": "«Ecstacy» é a grafia de Hopkins (e da edição de 1918) para «ecstasy», êxtase."
+    },
+    "then": {
+      "lema": "then",
+      "classe": "advérbio",
+      "def": [
+        "Logo depois, em seguida."
+      ]
+    },
+    "off": {
+      "lema": "off",
+      "classe": "advérbio",
+      "def": [
+        "Para longe; em direção a outro lugar."
+      ],
+      "nota": "«Off, off forth on swing»: lá se vai, e a repetição imita o arranco."
+    },
+    "forth": {
+      "lema": "forth",
+      "classe": "advérbio",
+      "def": [
+        "(formal, arcaico) Para fora, à vista; para adiante, a partir de um lugar."
+      ]
+    },
+    "on": {
+      "lema": "on",
+      "classe": "preposição",
+      "def": [
+        "Indica posição ou localização; sobre, em."
+      ],
+      "nota": "Em «on swing» («num balanço»): em movimento de arco."
+    },
+    "swing": {
+      "lema": "swing",
+      "classe": "substantivo",
+      "def": [
+        "O ato, ou um caso, de balançar; o modo como algo é balançado; o arco ou o alcance de um corpo que balança."
+      ],
+      "nota": "«Off forth on swing»: lá se vai, num balanço, num arco."
+    },
+    "as": {
+      "lema": "as",
+      "classe": "conjunção",
+      "def": [
+        "Do mesmo modo que; da maneira que."
+      ],
+      "nota": "Introduz a comparação: o voo é como o patim que desliza."
+    },
+    "skate's": {
+      "lema": "skate",
+      "classe": "substantivo",
+      "forma": "genitivo (do patim)",
+      "def": [
+        "Lâmina de aço, com armação que se ajusta à sola do sapato, presa sob o pé e usada para deslizar no gelo."
+      ]
+    },
+    "heel": {
+      "lema": "heel",
+      "classe": "substantivo",
+      "def": [
+        "A parte da sola do sapato que sustenta o calcanhar do pé."
+      ],
+      "nota": "O salto do patim, no qual se apoia o patinador ao fazer a curva."
+    },
+    "sweeps": {
+      "lema": "sweep",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Mover-se num arco horizontal ou num longo traço semelhante."
+      ],
+      "nota": "O salto do patim «varre» o gelo num arco largo e liso."
+    },
+    "smooth": {
+      "lema": "smooth",
+      "classe": "adjetivo",
+      "def": [
+        "Que flui ou se emite sem tropeço, obstáculo ou hesitação; fluente."
+      ],
+      "nota": "Aqui com função de advérbio: lisamente, sem tropeço."
+    },
+    "bow-bend": {
+      "partes": [
+        {
+          "lema": "bow",
+          "classe": "substantivo",
+          "def": [
+            "Qualquer coisa curvada, como um arco-íris; curva em uma haste ou superfície."
+          ]
+        },
+        {
+          "lema": "bend",
+          "classe": "substantivo",
+          "def": [
+            "Curva; deformação ou curvatura."
+          ]
+        }
+      ],
+      "nota": "A curva do arco, a curva larga que o patinador desenha com o salto do patim. Em português, o arco tensionado dá a imagem."
+    },
+    "hurl": {
+      "lema": "hurl",
+      "classe": "substantivo",
+      "def": [
+        "Arremesso, sobretudo violento; lance."
+      ],
+      "nota": "O arremesso, o ímpeto do falcão que se lança."
+    },
+    "gliding": {
+      "lema": "gliding",
+      "classe": "substantivo",
+      "def": [
+        "A ação ou o movimento de algo que plana."
+      ],
+      "nota": "O planar: o falcão desliza sem bater as asas. É um substantivo, tal como «hurl»: «the hurl and gliding» é o arremesso e o planar."
+    },
+    "rebuffed": {
+      "lema": "rebuff",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Recusar; opor resistência súbita ou áspera; rechaçar."
+      ],
+      "nota": "Rechaçou, repeliu: o ímpeto e o planar do falcão repelem o vento forte."
+    },
+    "big": {
+      "lema": "big",
+      "classe": "adjetivo",
+      "def": [
+        "De grande tamanho; grande."
+      ],
+      "nota": "O vento grande, forte."
+    },
+    "wind": {
+      "lema": "wind",
+      "classe": "substantivo",
+      "def": [
+        "Movimento real ou percebido do ar atmosférico, em geral causado por convecção ou por diferenças de pressão do ar."
+      ]
+    },
+    "my": {
+      "lema": "my",
+      "classe": "determinante possessivo",
+      "def": [
+        "Determinante possessivo da primeira pessoa do singular: meu."
+      ]
+    },
+    "heart": {
+      "lema": "heart",
+      "classe": "substantivo",
+      "def": [
+        "Órgão muscular que bombeia o sangue pelo corpo, tradicionalmente tido como a sede das emoções; coração."
+      ]
+    },
+    "hiding": {
+      "lema": "hiding",
+      "classe": "substantivo",
+      "def": [
+        "Estado de ocultação."
+      ],
+      "nota": "«My heart in hiding»: o coração escondido, que até então se mantinha recolhido, sem se mostrar."
+    },
+    "stirred": {
+      "lema": "stir",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "Comover; tocar emocionalmente; mover."
+      ],
+      "nota": "Agitou-se, comoveu-se: o coração escondido se move por causa do pássaro."
+    },
+    "for": {
+      "lema": "for",
+      "classe": "preposição",
+      "def": [
+        "Por causa de; em razão de."
+      ],
+      "nota": "«Stirred for a bird»: comoveu-se por causa de um pássaro."
+    },
+    "bird": {
+      "lema": "bird",
+      "classe": "substantivo",
+      "def": [
+        "Animal do clado (tradicionalmente classe) das aves, caracterizado por ter sangue quente, penas e asas em geral capazes de voo, boca em forma de bico e pôr ovos."
+      ]
+    },
+    "achieve": {
+      "lema": "achieve",
+      "classe": "substantivo",
+      "def": [
+        "Façanha; feito (de «achievement», em uso arcaico)."
+      ],
+      "nota": "Substantivo arcaico, equivalente a «achievement»: a façanha, o feito do falcão. O Wiktionary só registra o verbo («realizar, conseguir»); por isso, aqui, a definição é nossa.",
+      "wiki": null
+    },
+    "mastery": {
+      "lema": "mastery",
+      "classe": "substantivo",
+      "def": [
+        "A posição ou a autoridade de um mestre; domínio, comando, supremacia."
+      ],
+      "nota": "O domínio, a maestria. Hopkins junta «achieve» e «mastery»: a façanha e o domínio do falcão sobre o ar."
+    },
+    "thing": {
+      "lema": "thing",
+      "classe": "substantivo",
+      "def": [
+        "Objeto individual ou entidade distinta."
+      ],
+      "nota": "«The thing» é o pássaro, o ser que se vê, dito com certa dureza admirada."
+    },
+    "brute": {
+      "lema": "brute",
+      "classe": "adjetivo",
+      "def": [
+        "Forte, abrupto e espontâneo; de natureza puramente física."
+      ],
+      "nota": "A beleza crua, física, animal: sem razão, sem refinamento."
+    },
+    "beauty": {
+      "lema": "beauty",
+      "classe": "substantivo",
+      "def": [
+        "A qualidade de ser atraente, agradável à vista, bonito."
+      ]
+    },
+    "valour": {
+      "lema": "valour",
+      "classe": "substantivo",
+      "def": [
+        "Força de ânimo diante do perigo; qualidade que permite enfrentar o perigo com firmeza."
+      ],
+      "nota": "Grafia britânica de «valor»: coragem."
+    },
+    "act": {
+      "lema": "act",
+      "classe": "substantivo",
+      "def": [
+        "Algo feito; ação, ato."
+      ],
+      "nota": "A ação, o ato do falcão: aqui, o voo e o mergulho."
+    },
+    "oh": {
+      "lema": "oh",
+      "classe": "interjeição",
+      "def": [
+        "Interjeição usada para manifestar muitos e muito diversos movimentos do ânimo, e mais comumente assombro, pena ou alegria."
+      ]
+    },
+    "pride": {
+      "lema": "pride",
+      "classe": "substantivo",
+      "def": [
+        "Algo ou alguém de que se tem orgulho; fonte de autossatisfação e de autoestima."
+      ],
+      "nota": "Aqui, o brio, a altivez do pássaro."
+    },
+    "plume": {
+      "lema": "plume",
+      "classe": "substantivo",
+      "def": [
+        "(arcaico, literário e poético) Pena de ave, sobretudo uma grande ou vistosa, usada como enfeite."
+      ]
+    },
+    "here": {
+      "lema": "here",
+      "classe": "advérbio",
+      "def": [
+        "Neste lugar (percebido como próximo de quem fala); neste ponto."
+      ],
+      "nota": "Aqui, «here / Buckle!»: neste ponto, nesta junção, tudo se reúne."
+    },
+    "buckle": {
+      "lema": "buckle",
+      "classe": "verbo",
+      "forma": "imperativo ou presente do indicativo",
+      "def": [
+        "Prender (algo) com uma fivela; prender junto, afivelar.",
+        "Ceder ou desabar sob pressão; vergar-se, dobrar-se, entortar-se."
+      ],
+      "nota": "O ponto crucial do poema: o verbo guarda dois sentidos opostos, e o verso os mantém. Afivelar (as qualidades se juntam num ponto, como o cavaleiro afivela a armadura) ou vergar (o falcão que se dobra no mergulho; o sacrifício). Os leitores o leem das duas maneiras; pode ser imperativo (um mando) ou indicativo (um fato)."
+    },
+    "and#2": {
+      "lema": "and",
+      "classe": "conjunção",
+      "def": [
+        "Liga dois elementos que devem ser tomados juntos ou um em acréscimo ao outro."
+      ],
+      "nota": "Em maiúsculas aqui; na 1ª edição vem em versalete. É a ênfase de Hopkins: o «e» pesa, e o fogo vem a mais, depois do «buckle»."
+    },
+    "fire": {
+      "lema": "fire",
+      "classe": "substantivo",
+      "def": [
+        "Reação química, em geral autossustentada, em que o oxigênio se liga ao carbono ou a outro combustível, com produção de calor e luz."
+      ],
+      "nota": "O fogo é figurado: o clarão que irrompe do falcão quando as qualidades se juntam."
+    },
+    "that": {
+      "lema": "that",
+      "classe": "pronome relativo",
+      "def": [
+        "Usado para introduzir uma oração relativa restritiva; que."
+      ]
+    },
+    "breaks": {
+      "lema": "break",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Irromper; brotar; vir à vista."
+      ],
+      "nota": "O fogo irrompe, brota: como a aurora que «rompe». O Wiktionary registra o sentido de «burst forth»."
+    },
+    "from": {
+      "lema": "from",
+      "classe": "preposição",
+      "def": [
+        "Indica origem ou procedência."
+      ]
+    },
+    "thee": {
+      "lema": "thee",
+      "classe": "pronome pessoal",
+      "forma": "caso objetivo",
+      "def": [
+        "(arcaico, literário) Caso objetivo e reflexivo de «thou»: te, a ti."
+      ],
+      "nota": "O antigo pronome de segunda pessoa do singular. Segundo a leitura mais comum, quem fala é a Cristo (o subtítulo, «To Christ our Lord»)."
+    },
+    "billion": {
+      "lema": "billion",
+      "classe": "numeral",
+      "def": [
+        "Mil milhões (1 000 000 000), no sentido hoje comum."
+      ],
+      "nota": "Aqui, apenas um número enorme, um «bilhão» de vezes: não se conta a sério."
+    },
+    "times": {
+      "lema": "time",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Um caso ou uma ocorrência; vez, ocasião."
+      ],
+      "nota": "«A billion times» é um bilhão de vezes."
+    },
+    "told": {
+      "lema": "tell",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Determinar o número, a quantidade ou o valor de (algo); contar."
+      ],
+      "nota": "«Times told» é «vezes contadas»: contadas uma a uma, um bilhão de vezes mais belo."
+    },
+    "lovelier": {
+      "lema": "lovely",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Delicioso pela beleza, pela harmonia ou pela graça."
+      ]
+    },
+    "more": {
+      "lema": "more",
+      "classe": "determinante",
+      "def": [
+        "Adicional; a mais."
+      ],
+      "nota": "«More dangerous» é «mais perigoso»."
+    },
+    "dangerous": {
+      "lema": "dangerous",
+      "classe": "adjetivo",
+      "def": [
+        "Cheio de perigo; que causa perigo; pronto a causar dano ou ferimento."
+      ]
+    },
+    "o": {
+      "lema": "O",
+      "classe": "interjeição",
+      "def": [
+        "Partícula vocativa, usada para chamar diretamente alguém."
+      ],
+      "nota": "O «O» invocativo, que chama o interlocutor («O my chevalier»). Não é a letra, mas o «ó» do português."
+    },
+    "chevalier": {
+      "lema": "chevalier",
+      "classe": "substantivo",
+      "def": [
+        "(histórico) Cavaleiro."
+      ],
+      "nota": "Cavaleiro, em francês: o falcão como cavaleiro; e, segundo a leitura mais comum, Cristo como o cavaleiro por trás dele."
+    },
+    "no": {
+      "lema": "no",
+      "classe": "advérbio",
+      "def": [
+        "Não, de modo nenhum; usado antes de comparativos e diante de adjetivo."
+      ],
+      "nota": "«No wonder of it» é «não é de admirar»."
+    },
+    "wonder": {
+      "lema": "wonder",
+      "classe": "substantivo",
+      "def": [
+        "Algo que causa espanto ou assombro; maravilha."
+      ],
+      "nota": "«No wonder of it»: não é de admirar."
+    },
+    "it": {
+      "lema": "it",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal neutro da terceira pessoa do singular, usado para objeto inanimado, entidade abstrata ou ser vivo não humano."
+      ]
+    },
+    "shéer": {
+      "lema": "sheer",
+      "classe": "adjetivo",
+      "def": [
+        "(obsoleto) Puro na composição; sem mistura, não adulterado.",
+        "(por extensão) Completo, absoluto; puro."
+      ],
+      "nota": "Os acentos são de Hopkins e marcam a força das sílabas. «Sheer» é aqui «puro, mero»: o esforço apenas, sem mais nada."
+    },
+    "plód": {
+      "lema": "plod",
+      "classe": "substantivo",
+      "def": [
+        "Andar ou atividade lenta e penosa."
+      ],
+      "nota": "O acento é de Hopkins. A lida arrastada, o andar pesado e teimoso: o trabalho comum do lavrador, que em «shéer plód» faz o arado brilhar."
+    },
+    "makes": {
+      "lema": "make",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Provocar, ocasionar; produzir um efeito por meio de alguma ação."
+      ],
+      "nota": "Aqui o verbo é causativo: o mero esforço «faz» o arado brilhar."
+    },
+    "plough": {
+      "lema": "plough",
+      "classe": "substantivo",
+      "def": [
+        "Instrumento arrastado pelo solo para abri-lo em sulcos para o plantio; arado."
+      ],
+      "nota": "Grafia britânica de «plow»: o arado. É o sujeito de «shine»: o ferro do arado, descendo o sulco, brilha."
+    },
+    "down": {
+      "lema": "down",
+      "classe": "preposição",
+      "def": [
+        "De uma posição mais alta para uma mais baixa; ao longo de."
+      ],
+      "nota": "Em «plough down sillion»: o arado, descendo pelo sulco."
+    },
+    "sillion": {
+      "lema": "sillion",
+      "classe": "substantivo",
+      "def": [
+        "(raro) O solo espesso, volumoso e brilhante que o arado revolve."
+      ],
+      "nota": "Palavra rara e dialetal, do francês «sillon»: o sulco aberto pelo arado, ou a faixa de terra arada. Ao descer pelo sulco, o ferro do arado se polia e brilhava."
+    },
+    "shine": {
+      "lema": "shine",
+      "classe": "verbo",
+      "def": [
+        "Refletir luz; brilhar."
+      ],
+      "nota": "O mero esforço faz o arado, ao descer o sulco, brilhar: o ferro polido pela terra."
+    },
+    "blue-bleak": {
+      "partes": [
+        {
+          "lema": "blue",
+          "classe": "adjetivo",
+          "def": [
+            "(de uma chama) Pálido, sem vermelhidão ou clarão."
+          ]
+        },
+        {
+          "lema": "bleak",
+          "classe": "adjetivo",
+          "def": [
+            "Sem cor; pálido, desbotado."
+          ]
+        }
+      ],
+      "nota": "Brasas de um azul frio e baço, que parecem apagadas. Cada metade pesa a outra: o azul é o da chama pálida, e o «bleak» é o de uma cor morta."
+    },
+    "embers": {
+      "lema": "ember",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Pedaço de carvão ou de lenha incandescente; brasa."
+      ]
+    },
+    "ah": {
+      "lema": "ah",
+      "classe": "interjeição",
+      "def": [
+        "Expressão de alívio, descanso, conforto, confusão, compreensão, admiração, assombro etc., conforme a entonação."
+      ]
+    },
+    "dear": {
+      "lema": "dear",
+      "classe": "adjetivo",
+      "def": [
+        "Amado; digno de amor."
+      ],
+      "nota": "«My dear» é o vocativo afetuoso. Segundo a leitura mais comum, é Cristo de novo."
+    },
+    "fall": {
+      "lema": "fall",
+      "classe": "verbo",
+      "def": [
+        "Mover-se para uma posição mais baixa por efeito da gravidade; cair."
+      ]
+    },
+    "gall": {
+      "lema": "gall",
+      "classe": "verbo",
+      "def": [
+        "Esfolar, roçar, sujeitar ao atrito; criar ferida na pele."
+      ],
+      "nota": "As brasas se esfolam, ferem-se ao roçar-se umas nas outras e, ao cair e partir-se, deixam ver o brilho de dentro."
+    },
+    "gash": {
+      "lema": "gash",
+      "classe": "verbo",
+      "def": [
+        "Fazer um corte longo e profundo."
+      ],
+      "nota": "Abrem-se em talho, mostrando o ouro-vermelho por dentro."
+    },
+    "themselves": {
+      "lema": "themselves",
+      "classe": "pronome",
+      "forma": "reflexivo",
+      "def": [
+        "Caso reflexivo de «they»: a si mesmos, as próprias coisas já mencionadas."
+      ]
+    },
+    "gold-vermillion": {
+      "partes": [
+        {
+          "lema": "gold",
+          "classe": "substantivo",
+          "def": [
+            "Cor amarela profunda, semelhante à do metal ouro."
+          ]
+        },
+        {
+          "lema": "vermilion",
+          "classe": "substantivo",
+          "forma": "grafia «vermillion»",
+          "def": [
+            "Cor vermelho-alaranjada brilhante."
+          ]
+        }
+      ],
+      "nota": "Ouro e vermelhão: as brasas, ao se partirem, mostram por dentro um vermelho dourado. «Vermillion» com dois «l» é a grafia de Hopkins para «vermilion». Muitos leitores veem aqui uma alusão às chagas de Cristo, mas é uma leitura."
+    }
+  },
+  "ocorrencias": {
+    "10.2": "and#2"
+  }
+}

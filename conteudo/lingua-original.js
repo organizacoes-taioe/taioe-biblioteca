@@ -57,6 +57,17 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
+  autor: "gerard-manley-hopkins",
+  arquivo: "conteudo/gerard-manley-hopkins/lingua-original.js",
+  livros: [{"id": "poems-of-gerard-manley-hopkins", "titulo": "Poems of Gerard Manley Hopkins", "ano": 1918}, {"id": "poems-of-gerard-manley-hopkins", "titulo": "Poems of Gerard Manley Hopkins", "ano": 1918}, {"id": "poems-of-gerard-manley-hopkins", "titulo": "Poems of Gerard Manley Hopkins", "ano": 1918}],
+  poemas: [
+    {"id":"gerard-manley-hopkins-gods-grandeur","titulo":"God's Grandeur","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"en","ano":1918,"glossario":true},
+    {"id":"gerard-manley-hopkins-the-windhover","titulo":"The Windhover","forma":"sonetos","livro":1,"ordem":1,"versos":14,"lingua":"en","ano":1918,"glossario":true,"subtitulo":"To Christ our Lord"},
+    {"id":"gerard-manley-hopkins-pied-beauty","titulo":"Pied Beauty","forma":"sonetos","livro":2,"ordem":2,"versos":11,"lingua":"en","ano":1918,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
   autor: "edgar-allan-poe",
   arquivo: "conteudo/edgar-allan-poe/lingua-original.js",
   livros: [{"id": "the-raven-and-other-poems", "titulo": "The Raven and Other Poems", "ano": 1845}, {"id": "the-raven-and-other-poems", "titulo": "The Raven and Other Poems", "ano": 1845}],

@@ -1,0 +1,104 @@
+{
+ "id": "cartas-inacio-antioquia",
+ "rotulo": "Cartas (Santo Inácio de Antioquia)",
+ "url": "/biblioteca/santo-inacio-de-antioquia/cartas-inacio-antioquia/",
+ "escolhas": [
+  {
+   "id": "trigo-de-deus",
+   "titulo": "A frase célebre de Romanos 4,1 fica «Sou trigo de Deus, e sou moído pelos dentes das feras, para ser achado pão puro de Cristo»?",
+   "ref": "Romanos 4,1",
+   "contexto": "*σῖτός εἰμι θεοῦ καὶ δι’ ὀδόντων θηρίων ἀλήθομαι, ἵνα καθαρὸς ἄρτος εὑρεθῶ τοῦ Χριστοῦ*. É a página mais citada das cartas, lida na liturgia da memória de Santo Inácio (17 de outubro). O presente *ἀλήθομαι* («sou moído») mostra o martírio como já em curso; «achado» guarda o *εὑρεθῶ*, que Inácio usa muito («ser achado discípulo»).\n\nHoje: «Sou trigo de Deus, e sou moído pelos dentes das feras, para ser achado pão puro de Cristo».",
+   "opcoes": [
+    {"id": "a", "texto": "Como está: «Sou trigo de Deus, e sou moído pelos dentes das feras, para ser achado pão puro de Cristo»", "nota": "Literal; o presente e o «achado» do grego.", "recomendada": true},
+    {"id": "b", "texto": "«Sou trigo de Deus, e serei moído pelos dentes das feras, para me tornar pão puro de Cristo»", "nota": "Mais perto da forma corrente em português; troca o tempo e o verbo do grego."}
+   ]
+  },
+  {
+   "id": "preside-ao-amor",
+   "titulo": "Na saudação aos Romanos, *prokathēménē tês agápēs* fica «que preside ao amor»?",
+   "ref": "Romanos, saudação",
+   "contexto": "A igreja de Roma «preside no lugar da região dos romanos» e é *προκαθημένη τῆς ἀγάπης*. A expressão é muito discutida, por tocar no primado de Roma: «que preside ao amor» (à caridade, como virtude que ela encabeça), «que preside à caridade» entendida como a comunhão das igrejas (*agápē* às vezes designa a Igreja inteira), ou «que preside na caridade» (o modo de presidir; mas o grego tem genitivo).\n\nHoje: «e que preside ao amor». No resto das cartas *agápē* é «amor» (guia da obra).",
+   "opcoes": [
+    {"id": "a", "texto": "«que preside ao amor», como está", "nota": "Literal; deixa ao leitor a discussão, com a palavra de sempre para *agápē*.", "recomendada": true},
+    {"id": "b", "texto": "«que preside à caridade»", "nota": "A forma tradicional em português e latim (*praesidens caritati*); abre a leitura da comunhão das igrejas."},
+    {"id": "c", "texto": "«que preside na caridade»", "nota": "Comum em traduções devocionais; o grego não diz «em»."}
+   ]
+  },
+  {
+   "id": "igreja-catolica",
+   "titulo": "Em Esmirnenses 8,2, *hē katholikḕ ekklēsía* fica «a Igreja católica»?",
+   "ref": "Esmirnenses 8,2",
+   "contexto": "*ὅπου ἂν ᾖ Χριστὸς Ἰησοῦς, ἐκεῖ ἡ καθολικὴ ἐκκλησία*. É a primeira vez que a expressão aparece num texto cristão. Em Inácio, *katholikḗ* quer dizer «universal», em oposição à igreja local reunida em torno do bispo; ainda não é o nome próprio da Igreja, mas é a origem dele.\n\nHoje: «Onde aparecer o bispo, ali esteja a multidão, assim como onde estiver Jesus Cristo, ali está a Igreja católica».",
+   "opcoes": [
+    {"id": "a", "texto": "«a Igreja católica», como está", "nota": "A palavra que a tradição guardou; o leitor reconhece a origem do nome.", "recomendada": true},
+    {"id": "b", "texto": "«a Igreja universal»", "nota": "O sentido exato no tempo de Inácio; perde o elo com o nome."},
+    {"id": "c", "texto": "«a Igreja católica (universal)»", "nota": "As duas coisas, mas é glosa dentro do texto."}
+   ]
+  },
+  {
+   "id": "eucaristia-legitima",
+   "titulo": "Em Esmirnenses 8,1, *bebaía eucharistía* fica «legítima»?",
+   "ref": "Esmirnenses 8,1 (e Magnésios 4,1, *bebaíōs*, «validamente»)",
+   "contexto": "*ἐκείνη βεβαία εὐχαριστία ἡγείσθω, ἡ ὑπὸ τὸν ἐπίσκοπον οὖσα*. *Bébaios* é «firme, seguro, garantido». Lake traduz *valid*. Em Magnésios 4,1 o advérbio diz dos que se reúnem sem o bispo que não o fazem *bebaíōs*; ficou «validamente». As duas passagens devem andar juntas.\n\nHoje: «Tenha-se por legítima a Eucaristia que está sob o bispo ou sob aquele a quem ele a confiar» (Esm 8,1); «não se reúnem validamente» (Mg 4,1).",
+   "opcoes": [
+    {"id": "a", "texto": "«legítima» (Esm 8,1) e «validamente» (Mg 4,1), como está", "nota": "O sentido que Lake e a maioria dão; «válida» em Esm soaria anacrônico (vocabulário da teologia sacramental posterior).", "recomendada": true},
+    {"id": "b", "texto": "«segura» e «com segurança» nas duas", "nota": "Mais literal e mais vago; evita qualquer anacronismo."},
+    {"id": "c", "texto": "«válida» e «validamente» nas duas", "nota": "Uniforme e claro, mas com o termo técnico de hoje."}
+   ]
+  },
+  {
+   "id": "peripsema",
+   "titulo": "*Perípsēma* fica «escória» em Efésios 8,1 e 18,1?",
+   "ref": "Efésios 8,1 e 18,1",
+   "contexto": "*περίψημα ὑμῶν* (8,1) e *περίψημα τὸ ἐμὸν πνεῦμα τοῦ σταυροῦ* (18,1). A palavra é «o que se raspa, o refugo» (1Cor 4,13: «o refugo de todos»), mas também era o nome da vítima oferecida pela cidade para expiar os males: «eu me ofereço por vós». Em 8,1 vem junto *ἁγνίζομαι ὑμῶν*, «me consagro por vós».\n\nHoje: «Sou a vossa última escória e me consagro por vós, efésios» (8,1); «O meu espírito é escória da cruz» (18,1).",
+   "opcoes": [
+    {"id": "a", "texto": "«escória» nas duas, como está", "nota": "A imagem concreta e humilde, com o eco de 1Cor 4,13; o sentido de oferta fica no «me consagro por vós».", "recomendada": true},
+    {"id": "b", "texto": "«Sou a vossa vítima de expiação» (8,1) e «O meu espírito é oferenda pela cruz» (18,1)", "nota": "Explicita o sentido de oferta; perde a humildade da imagem."},
+    {"id": "c", "texto": "«o mais humilde dos vossos servos» (8,1) e «O meu espírito se dá todo à cruz» (18,1)", "nota": "Fluente, mas parafraseia."}
+   ]
+  },
+  {
+   "id": "gerado-nao-gerado",
+   "titulo": "Em Efésios 7,2 fica «gerado e não gerado», com Lake?",
+   "ref": "Efésios 7,2",
+   "contexto": "*εἷς ἰατρός ἐστιν, σαρκικός τε καὶ πνευματικός, γεννητὸς καὶ ἀγέννητος, ἐν ἀνθρώπῳ θεός*. Parte dos manuscritos e dos editores tem *γενητὸς καὶ ἀγένητος* (com um ny só: «que veio a ser e não veio a ser», «criado e incriado»), que serviu aos arianos e foi depois evitado. Lake imprime a forma com dois ny, e o grego ao lado é o dele.\n\nHoje: «Há um só médico, carnal e espiritual, gerado e não gerado, Deus em homem».",
+   "opcoes": [
+    {"id": "a", "texto": "«gerado e não gerado», como está (o texto de Lake)", "nota": "Concorda com o grego ao lado; o sentido é o de Inácio (nascido de Maria, eterno em Deus).", "recomendada": true},
+    {"id": "b", "texto": "«nascido e não nascido»", "nota": "Mesmo sentido, mais concreto («de Maria e de Deus», logo depois)."},
+    {"id": "c", "texto": "«feito e não feito», com a outra leitura", "nota": "Contradiz o grego ao lado."}
+   ]
+  },
+  {
+   "id": "meu-amor-crucificado",
+   "titulo": "Em Romanos 7,2, *ho emòs érōs estaúrōtai* fica «O meu amor está crucificado»?",
+   "ref": "Romanos 7,2",
+   "contexto": "*ζῶν γὰρ γράφω ὑμῖν, ἐρῶν τοῦ ἀποθανεῖν. ὁ ἐμὸς ἔρως ἐσταύρωται*. Aqui a palavra é *érōs*, não *agápē*. A maioria entende o desejo das coisas do mundo, já pregado na cruz; Orígenes leu «o meu Amor», isto é, Cristo crucificado, leitura que a tradição espiritual guardou.\n\nHoje: «Pois vos escrevo vivo, enamorado da morte. O meu amor está crucificado, e não há em mim fogo que ame a matéria, mas água viva».",
+   "opcoes": [
+    {"id": "a", "texto": "«O meu amor está crucificado», como está", "nota": "Deixa abertas as duas leituras, como o grego.", "recomendada": true},
+    {"id": "b", "texto": "«O meu desejo está crucificado»", "nota": "Decide pela leitura da maioria; perde a de Orígenes."},
+    {"id": "c", "texto": "«O meu Amor está crucificado», com maiúscula", "nota": "Decide pela leitura de Orígenes (Cristo)."}
+   ]
+  },
+  {
+   "id": "palavra-voz",
+   "titulo": "Em Romanos 2,1 fica «eu serei palavra de Deus; … voltarei a ser apenas voz»?",
+   "ref": "Romanos 2,1",
+   "contexto": "*ἐὰν γὰρ σιωπήσητε ἀπ’ ἐμοῦ, ἐγὼ λόγος θεοῦ· ἐὰν δὲ ἐρασθῆτε τῆς σαρκός μου, πάλιν ἔσομαι φωνή*. Se os romanos não intercederem para salvá-lo, a morte de Inácio será «palavra de Deus»; se o pouparem, ele volta a ser só um som. A primeira frase não tem verbo, e o «apenas» não está no grego: os dois foram postos para o contraste se entender.\n\nHoje: «Pois, se vos calardes a meu respeito, eu serei palavra de Deus; mas, se amardes a minha carne, voltarei a ser apenas voz».",
+   "opcoes": [
+    {"id": "a", "texto": "Como está, com «serei» e «apenas»", "nota": "Claro; dois acréscimos pequenos.", "recomendada": true},
+    {"id": "b", "texto": "«eu, palavra de Deus; mas, se amardes a minha carne, voltarei a ser voz»", "nota": "Seco como o grego; o contraste fica menos evidente."}
+   ]
+  },
+  {
+   "id": "arquivos",
+   "titulo": "Em Filadélfios 8,2, *archeîa* fica «os arquivos»?",
+   "ref": "Filadélfios 8,2",
+   "contexto": "*ἐὰν μὴ ἐν τοῖς ἀρχείοις εὕρω, ἐν τῷ εὐαγγελίῳ οὐ πιστεύω*. Os adversários, judaizantes, só aceitam o que acham nos *archeîa*, os documentos antigos, isto é, o Antigo Testamento; Inácio responde que os seus *archeîa* são Jesus Cristo, a cruz e a ressurreição. A pontuação de Lake dá «se não o encontro nos arquivos, não creio no Evangelho»; outros leem «se não encontro nos arquivos [o que está] no Evangelho, não creio».\n\nHoje: «Se não o encontro nos arquivos, não creio no Evangelho» … «Para mim, porém, os arquivos são Jesus Cristo».",
+   "opcoes": [
+    {"id": "a", "texto": "«os arquivos», como está, com a pontuação de Lake", "nota": "Literal; a imagem dos documentos de cartório passa nas duas metades.", "recomendada": true},
+    {"id": "b", "texto": "«as Escrituras antigas»", "nota": "Explica o sentido; perde a imagem e o jogo com «os arquivos invioláveis»."},
+    {"id": "c", "texto": "«os documentos antigos»", "nota": "Meio-termo, menos marcado."}
+   ]
+  }
+ ]
+}

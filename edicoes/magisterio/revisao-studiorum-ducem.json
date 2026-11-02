@@ -1,0 +1,45 @@
+{
+ "id": "magisterio-studiorum-ducem",
+ "rotulo": "Studiorum Ducem (Pio XI, 1923)",
+ "url": "/biblioteca/igreja-catolica/studiorum-ducem/",
+ "escolhas": [
+  {
+   "id": "sermo-sapientiae",
+   "titulo": "O _sermo sapientiae_ de São Paulo, que o papa diz ser o traço mais próprio de Santo Tomás, fica «palavra de sabedoria»?",
+   "ref": "Parágrafos 3 e 7 (as duas sabedorias)",
+   "contexto": "A expressão vem de 1Cor 12,8, a lista dos dons do Espírito, e aparece duas vezes, em itálico. As Bíblias brasileiras dizem «palavra de sabedoria» ou «linguagem da sabedoria»; o latim _sermo_ é tanto «palavra» como «discurso».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«palavra de sabedoria», como está",
+     "nota": "A forma das Bíblias mais usadas no Brasil, que o leitor reconhece.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«linguagem da sabedoria»",
+     "nota": "Também usada em traduções da Bíblia; insiste mais no ensino falado."
+    }
+   ]
+  },
+  {
+   "id": "lycea",
+   "titulo": "Os _magna Lycea_ onde se há de celebrar o centenário ficam «universidades»?",
+   "ref": "Parágrafo que manda celebrar o centenário",
+   "contexto": "O papa enumera onde se fará a festa: «em todos os Colégios de clérigos, _magnis Lyceis_ e nas escolas católicas». _Lyceum magnum_ é, no latim da Igreja, a universidade; «liceu», no português de hoje, é escola de ensino médio.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«nas universidades», como está",
+     "nota": "Diz o que o latim quer dizer.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«nos grandes Liceus»",
+     "nota": "Literal, mas o leitor de hoje entende escola secundária."
+    }
+   ]
+  }
+ ]
+}

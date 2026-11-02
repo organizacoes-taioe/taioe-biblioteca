@@ -17,13 +17,25 @@ Ao publicar (o principal):
   `/biblioteca/goncalves-dias/primeiros-cantos/cancao-do-exilio/`, ou o botão «Aprender as palavras
   deste poema» some da Canção do Exílio.
 
+Feito depois (rodada de 02/11, à tarde):
+- **notas do autor** no fim de cada poema, como «¤ » (o site as mostra em «Notas do autor»):
+  `notas.json`, na grafia de hoje, lido pelo `montar.py`. As 13 «Notas às Poesias Americanas»
+  (Wikisource, páginas 34 a 36 do PDF, revisadas), agrupadas por poema conforme as chamadas no texto
+  (Guerreiro 1–5, Piaga 6–11, Índio 12, Morro do Alecrim 13), e as de rodapé (Canção do Exílio,
+  Visões 3, À Tarde). Fica de fora a «Nota» do fim (p. 257–259: trechos do «Hino à Tarde» de
+  Frederico José Corrêa, outro autor);
+- **diferenças com 1860**: `diferencas-1860.txt`, 310 diferenças de palavra (sem as de grafia),
+  poema por poema. Quase todas são revisões do autor para Leipzig; nos poemas 2 a 6 o Wikisource
+  (1ª ed. revisada) confirma o nosso texto.
+
 Falta:
-- as notas do autor: «Notas às Poesias Americanas» (livro p. 30–34; Wikisource, Página:Primeiros
-  cantos- poesias.pdf/34 a 37, revisadas) e a «Nota» do fim (p. 257–259, sem transcrição no
-  Wikisource; o corpus do Versificador guarda as notas de rodapé no campo `nota`). Entrariam como
-  «¤ » no fim de cada poema ou como parte própria depois de «O Morro do Alecrim»;
-- o confronto com a edição de Leipzig (_Cantos_, 1860) rodou palavra por palavra, mas as diferenças
-  (quase todas grafia, OCR ou revisão do autor) não foram revistas uma a uma; o Wikisource só
-  cobre umas 40 páginas da 1ª edição, e ali só houve diferença de grafia;
+- conferir no fac-símile de 1846 (Commons, `File:Primeiros_cantos-_poesias.pdf`) os casos de
+  `diferencas-1860.txt` dos poemas 7 em diante em que o nosso texto pareça errado (métrica, sentido);
+  e achar os três poemas sem âncora (O Soldado Espanhol, Lágrimas sem Dor, Miserrimus);
+- pontos das notas a confirmar no fac-símile (mantidos como o Wikisource os dá): «Rolonx Baro»
+  (o viajante é conhecido como Roulox Baro), «cabaça ervada», «Hans Stade» (o Wikisource lê «Haus
+  Stade»), «Orosmane e Arimane»; e «Figli» posto como «figle» (o instrumento). Corrigidos como
+  erro de composição: «lle» e «he» → lhe, «tenivel» → terrível, «calanidade» → calamidade,
+  «es Tupis» → os tupis, «eutre» → entre;
 - as três partes do livro (Poesias Americanas, Poesias Diversas, Hinos) estão em `secao` de cada
   parte, mas o gerador ainda não as mostra.

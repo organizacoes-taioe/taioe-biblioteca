@@ -4,7 +4,7 @@
 
 Lê os 44 poemas do livro no corpus do Versificador (corpus/goncalves-dias/primeiros-cantos--NN-*.txt,
 transcritos da 1ª edição, Laemmert, 1846, e já na ortografia de hoje), mais o prólogo do autor
-(prologo.txt, desta pasta), e grava conteudo/goncalves-dias/primeiros-cantos.js. A «Deprecação»
+(prologo.txt, desta pasta) e as notas do autor (notas.json, no fim de cada poema, como «¤ »), e grava conteudo/goncalves-dias/primeiros-cantos.js. A «Deprecação»
 (05b) vai no fim, como apêndice: é a refundição da parte II de «O Morro do Alecrim» feita para as edições de Leipzig.
 """
 import glob, json, os, re, sys
@@ -66,10 +66,18 @@ def main():
     if len(arqs) != 44 or len(apendice) != 1:
         raise SystemExit('esperava 44 poemas, achei %d' % len(arqs))
     partes = [{'n': '', 'titulo': 'Prólogo', 'texto': open(os.path.join(AQUI, 'prologo.txt'), encoding='utf-8').read().strip()}]
+    notas = json.load(open(os.path.join(AQUI, 'notas.json'), encoding='utf-8'))
+    usadas = set()
     for a in arqs:
         cab, texto = ler_poema(a)
+        if cab['titulo'] in notas:
+            usadas.add(cab['titulo'])
+            texto += ''.join('\n\n¤ ' + n for n in notas[cab['titulo']])
         secao = cab['obra'].split(',', 1)[1].strip()
         partes.append({'n': '', 'titulo': cab['titulo'], 'secao': secao, 'texto': texto})
+    falta = set(k for k in notas if not k.startswith('_')) - usadas
+    if falta:
+        raise SystemExit('notas sem poema: %s' % ', '.join(sorted(falta)))
     cab, texto = ler_poema(apendice[0])
     partes.append({'n': '', 'titulo': 'Apêndice: Deprecação (versão de 1857)', 'texto':
                    '_Nas edições de Leipzig (1857 em diante), o autor refundiu a segunda parte de «O Morro do Alecrim» '

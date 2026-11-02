@@ -2,4 +2,6 @@
 
 **Como foi estabelecido.** Os poemas foram transcritos das imagens da 1ª edição, verso a verso, e confrontados palavra por palavra com a transcrição do Wikisource, feita sobre o mesmo fac-símile, nos trechos em que ela existe. O prólogo segue o Wikisource, conferido com a reimpressão de Leipzig (_Cantos_, 1860). As emendas da errata da 1ª edição foram feitas (alçado, Cantor, progride, «portentosa, e baixa»). A grafia segue o Acordo Ortográfico de 1990, mas ficam as formas que o verso pede ou que são do autor e ainda se usam (oiro, d'oiro, qu'inda), e a pontuação é a da edição. As epígrafes em outras línguas ficam como o autor as imprimiu.
 
-**O apêndice.** A «Deprecação», que nas edições de Leipzig (1857 em diante) tomou o lugar da segunda parte de «O Morro do Alecrim», não é da 1ª edição: aqui o poema sai como em 1846, e a «Deprecação» vai no fim, em apêndice, pelo texto de 1860. As notas do autor (as «Notas às Poesias Americanas» e a «Nota» do fim do volume) ainda não entraram.
+**Notas do autor.** As notas da 1ª edição (as «Notas às Poesias Americanas» e as de rodapé) vão no fim de cada poema. Fica de fora a «Nota» do fim do volume, que transcreve trechos do «Hino à Tarde» de Frederico José Corrêa.
+
+**O apêndice.** A «Deprecação», que nas edições de Leipzig (1857 em diante) tomou o lugar da segunda parte de «O Morro do Alecrim», não é da 1ª edição: aqui o poema sai como em 1846, e a «Deprecação» vai no fim, em apêndice, pelo texto de 1860.

@@ -32,15 +32,12 @@ EMENDAS = [
     ('ocr', 'eimaginouqueopequeno ajleria', 'e imaginou que o pequeno a teria'),
     ('ocr', 'Ciganos. Tinhãoesses meninos', 'Ciganos. Tinhão esses meninos'),
     # palavras que só os OCRs têm (relatorios/modernas.tsv), de correção evidente; a moderna arbitra
-    ('ocr', 'sahiãò', 'sahião'),
     ('ocr', 'eslevlado', 'este lado'),
-    ('ocr', 'hãò', 'não'),
     ('ocr', 'iembrasse', 'lembrasse'),
     ('ocr', 'com prelenções de', 'com pretenções de'),
     ('ocr', 'suas prelenções ou', 'suas pretenções ou'),
     ('ocr', 'mpito', 'muito'),
     ('ocr', 'imniunda', 'immunda'),
-    ('ocr', 'vierâo', 'vierão'),
 ]
 
 AJUSTES = []

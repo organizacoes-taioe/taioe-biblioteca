@@ -21,13 +21,15 @@ Estado: **fontes e confronto montados e rodando; texto ainda não conferido nem 
   a cota da API do Google Livros acabou, e no Internet Archive só há edições modernas.
 - Voto: pdf e dj são `CORRELACIONADOS` (erram juntos: «linha», «ler», «eslava»), com `UM_VOTO = False`:
   a maioria deles perde para o Tesseract quando a moderna o apoia. Com `UM_VOTO = True` quase tudo
-  empatava. Resultado: 3.907 divergências, 2.901 por maioria, 296 por minoria com apoio moderno, 710 sem
-  maioria (relatório `sitios.tsv`: 1.845 pontos fracos).
+  empatava. Resultado: 3.890 divergências, 2.883 por maioria, 298 por minoria com apoio moderno, 709 sem
+  maioria (relatório `sitios.tsv`: 1.848 pontos fracos).
 - `config.modernizar` (antes da grafia pela moderna, sempre só onde a moderna, alinhada no mesmo ponto,
   confirma): parte as palavras coladas pelos OCRs (76: «Tinhãoesses», «emquantoella»); passa a 3ª do
-  plural em -ão a -am (796, também com pronomes: «formão», «enfurecião-se»; o futuro fica); troca as letras que os três OCRs
+  plural em -ão a -am (814, também com pronomes: «formão», «enfurecião-se»; o futuro fica); troca as letras que os três OCRs
   confundem igual (131: l/t, c/e, ó/é, b/h, n/u…; lista em `relatorios/letras.tsv`, conferir uma amostra).
-- `decisoes.EMENDAS`: 11 leituras conferidas nas imagens (pranchas dos pontos 1–80 de `ver/pontos.json`) e 9
+- `_capitulo_ocr` corrige antes do voto dois vícios constantes dos OCRs: o til de -ão lido como acento
+  («podiáo», «fizerào», «chamavãó») e «lhe» lido «Ihe», «Ibe», «Jhe».
+- `decisoes.EMENDAS`: 11 leituras conferidas nas imagens (pranchas dos pontos 1–80 de `ver/pontos.json`) e 7
   palavras que só os OCRs têm, de correção evidente (as primeiras ~60 linhas de `modernas.tsv`); `MANUAL`
   com 5 formas em -ão que não alinham. Em `modernas.tsv` há também lições de 1854 que as edições modernas
   mudaram e que ficam («espanava», não «esganava»; «engodar», não «engordar»; «achava cheio de
@@ -36,8 +38,9 @@ Estado: **fontes e confronto montados e rodando; texto ainda não conferido nem 
   `python3 edicoes/sargento-de-milicias/conferir.py ferramentas/cache/sargento-de-milicias/ver/p3.tsv`.
   `ver/pontos.json` tem os 650 pontos de palavra sem apoio moderno, na ordem do texto; as pranchas dos
   pontos 1–80 já foram lidas (`ver/p10-*`, `p2-*`, `p3-*`); seguir do 81.
-- `texto.py` roda: 48 partes, 1.456 parágrafos; relatórios: 599 em `modernas.tsv`, 1.696 em
-  `pontuacao.tsv`, 529 em `sem_par.tsv`, 392 em `vocabulario.tsv`.
+- `texto.py` roda: 48 partes, 1.456 parágrafos; relatórios: 592 em `modernas.tsv`, 1.695 em
+  `pontuacao.tsv`, 522 em `sem_par.tsv`, 384 em `vocabulario.tsv` (resíduo de OCR quase todo:
+  «Leopardo», «máosrolhados», «quatrooreIhas»; resolver com EMENDAS, olhando a imagem quando houver dúvida).
 - `decisoes.py` e `notas.py` com a estrutura e um rascunho da «Sobre». O bloco do autor está no item 7 abaixo.
 
 ## Falta (na ordem)

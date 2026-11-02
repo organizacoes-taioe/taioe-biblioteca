@@ -181,6 +181,11 @@ def _capitulo_ocr(n, linhas_por_pagina):
         linhas += pag
     texto = _juntar(linhas)
     texto = re.sub(r'\s+([,.;:!?])', r'\1', texto).replace('’', "'")
+    # vícios constantes dos OCRs: o til de -ão lido como acento («podiáo», «fizerào», «chamavãó») e
+    # «lhe» lido «Ihe», «Ibe», «Jhe»
+    texto = re.sub(r'(?<=[a-zç])(?:áo|ào|ãó|âo|aõ|ãò|ãô)(?![\wÀ-ÿ])', 'ão', texto)
+    texto = re.sub(r'(?<![\wÀ-ÿ])(?:Ihe|Ibe|Jhe)(s?)(?![\wÀ-ÿ])', r'lhe\1', texto)
+    texto = re.sub(r'-(?:Ihe|Ibe|Jhe)(s?)(?![\wÀ-ÿ])', r'-lhe\1', texto)
     return {'n': n, 'titulo': '', 'paras': [fontes.limpar(texto)]}
 
 

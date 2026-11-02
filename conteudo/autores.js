@@ -676,3 +676,12 @@ BIBLIOTECA.autor({
   lingua: 'la',
   nota: 'Poeta latino de Mântua, autor das Bucólicas, das Geórgicas e da Eneida.'
 });
+
+BIBLIOTECA.autor({
+  id: 'horacio',
+  nome: 'Horácio',
+  nomeCompleto: 'Quinto Horácio Flaco',
+  vida: '65–8 a.C.',
+  lingua: 'la',
+  nota: 'Poeta latino de Venúsia, filho de um liberto; autor das Odes, das Sátiras e das Epístolas.'
+});

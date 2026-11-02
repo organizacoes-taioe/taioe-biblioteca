@@ -1,0 +1,473 @@
+{
+  "verbetes": {
+    "tu": {
+      "lema": "tu",
+      "classe": "pronome pessoal",
+      "forma": "nominativo singular",
+      "def": [
+        "Tu; você (no singular)."
+      ]
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "advérbio",
+      "def": [
+        "Introduz uma proibição ou ordem negativa: não."
+      ],
+      "nota": "Com o subjuntivo, «ne» faz a proibição: «ne quaesieris» é «não procures»."
+    },
+    "quaesieris": {
+      "lema": "quaero",
+      "classe": "verbo",
+      "forma": "perfeito do subjuntivo, 2ª pessoa do singular",
+      "def": [
+        "Procurar, buscar; indagar, perguntar, tentar saber."
+      ],
+      "nota": "Perfeito do subjuntivo com «ne»: proibição, «não procures». Aqui, procurar saber, perguntar pelo futuro."
+    },
+    "scire": {
+      "lema": "scio",
+      "classe": "verbo",
+      "forma": "infinitivo presente ativo",
+      "def": [
+        "Saber, conhecer, entender."
+      ],
+      "nota": "Em «scire nefas», parêntese: «saber é proibido», não é lícito saber."
+    },
+    "nefas": {
+      "lema": "nefas",
+      "classe": "substantivo neutro",
+      "def": [
+        "Ato proibido, coisa que a lei divina não permite; falta moral, ato ímpio."
+      ],
+      "nota": "Indeclinável. Aqui, «nefas [est]»: o que os deuses vedam, não é lícito."
+    },
+    "quem": {
+      "lema": "qui",
+      "classe": "pronome interrogativo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Que, qual, que espécie de (interrogativo)."
+      ],
+      "nota": "Concorda com «finem» e abre a pergunta indireta: «que fim»."
+    },
+    "mihi": {
+      "lema": "ego",
+      "classe": "pronome pessoal",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Dativo de interesse: «para mim»."
+    },
+    "tibi": {
+      "lema": "tu",
+      "classe": "pronome pessoal",
+      "forma": "dativo singular",
+      "def": [
+        "Tu; você (no singular)."
+      ],
+      "nota": "Dativo: «para ti»."
+    },
+    "finem": {
+      "lema": "finis",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "Fim; limite de duração, termo.",
+        "Morte, fim (da vida)."
+      ],
+      "nota": "O termo da vida: a quantidade de anos que os deuses fixaram."
+    },
+    "di": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo plural",
+      "def": [
+        "Deus, divindade."
+      ],
+      "nota": "«Di» é a forma contraída de «dei», nominativo plural: «os deuses»."
+    },
+    "dederint": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "perfeito do subjuntivo, 3ª pessoa do plural",
+      "def": [
+        "Dar; conceder."
+      ],
+      "nota": "Perfeito do subjuntivo numa pergunta indireta, dependente de «quaesieris»: «que fim os deuses nos tenham dado»."
+    },
+    "leuconoe": {
+      "lema": "Leuconoe",
+      "classe": "nome próprio",
+      "forma": "vocativo singular",
+      "def": [
+        "Nome da moça a quem o poeta fala."
+      ],
+      "nota": "Nome grego. Vocativo: é a ela que o poeta se dirige.",
+      "wiki": null
+    },
+    "nec": {
+      "lema": "nec",
+      "classe": "advérbio",
+      "def": [
+        "E não; nem."
+      ],
+      "nota": "Aqui, «e não»: continua a proibição de «ne quaesieris»."
+    },
+    "babylonios": {
+      "lema": "Babylonius",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Babilônico, da Babilônia."
+      ],
+      "nota": "Os «números babilônicos» são os cálculos dos astrólogos caldeus, os horóscopos."
+    },
+    "temptaris": {
+      "lema": "tempto",
+      "classe": "verbo",
+      "forma": "perfeito do subjuntivo, 2ª pessoa do singular, forma contraída",
+      "def": [
+        "Tentar, experimentar; pôr à prova."
+      ],
+      "nota": "Contração de «temptaveris». Ainda depende do «ne» proibitivo: «nem tentes (calcular)»."
+    },
+    "numeros": {
+      "lema": "numerus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Número."
+      ],
+      "nota": "Os cálculos dos astrólogos: o horóscopo."
+    },
+    "ut": {
+      "lema": "ut",
+      "classe": "advérbio",
+      "def": [
+        "(Interrogativo, exclamativo) como? de que modo?"
+      ],
+      "nota": "Aqui exclamativo, com o infinitivo: «ut melius... pati», «quanto melhor é suportar...»."
+    },
+    "melius": {
+      "lema": "melior",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Melhor (comparativo de «bonus»)."
+      ],
+      "nota": "Predicado de «pati»: «é melhor»."
+    },
+    "quidquid": {
+      "lema": "quidquid",
+      "classe": "pronome indefinido",
+      "def": [
+        "O que quer que, tudo o que, seja o que for."
+      ],
+      "nota": "Neutro de «quisquis». «Quidquid erit»: seja o que vier a ser."
+    },
+    "erit": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser, existir."
+      ]
+    },
+    "pati": {
+      "lema": "patior",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Sofrer, suportar, aguentar."
+      ],
+      "nota": "Verbo depoente (forma passiva, sentido ativo): suportar."
+    },
+    "seu": {
+      "lema": "seu",
+      "classe": "conjunção",
+      "def": [
+        "Ou; («seu... seu...») quer... quer..., seja... seja..."
+      ],
+      "nota": "Repetido: «seja que... seja que...»."
+    },
+    "pluris": {
+      "lema": "plus",
+      "classe": "adjetivo",
+      "forma": "acusativo plural",
+      "def": [
+        "Mais; vários, muitos (no plural)."
+      ],
+      "nota": "«Pluris» é «plures»: acusativo plural, concorda com «hiemes»."
+    },
+    "hiemes": {
+      "lema": "hiems",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "Inverno."
+      ],
+      "nota": "«Invernos», por «anos»: cada inverno conta um ano de vida."
+    },
+    "tribuit": {
+      "lema": "tribuo",
+      "classe": "verbo",
+      "forma": "presente ou perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Conceder, outorgar, atribuir."
+      ],
+      "nota": "Aqui, «concede»: Júpiter dá (ou terá dado) ao poeta e a ela mais invernos, ou só este como último."
+    },
+    "iuppiter": {
+      "lema": "Iuppiter",
+      "classe": "nome próprio",
+      "forma": "nominativo singular",
+      "def": [
+        "Júpiter, deus romano do céu e chefe dos deuses."
+      ]
+    },
+    "ultimam": {
+      "lema": "ultimus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Último, final; o mais afastado."
+      ],
+      "nota": "Subentende-se «hiemem»: «o último inverno»."
+    },
+    "quae": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Que, o qual, a qual."
+      ],
+      "nota": "Refere-se a «hiemem» subentendido: o inverno que agora quebra o mar Tirreno."
+    },
+    "nunc": {
+      "lema": "nunc",
+      "classe": "advérbio",
+      "def": [
+        "Agora, neste momento, no presente."
+      ]
+    },
+    "oppositis": {
+      "lema": "oppositus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino plural",
+      "def": [
+        "Posto contra, oposto; defronte."
+      ],
+      "nota": "Particípio de «oppono». Concorda com «pumicibus»: as rochas da costa que se opõem ao mar."
+    },
+    "debilitat": {
+      "lema": "debilito",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Debilitar, enfraquecer, quebrar."
+      ],
+      "nota": "O sujeito é o inverno («quae»): ele quebra o mar contra as rochas da costa."
+    },
+    "pumicibus": {
+      "lema": "pumex",
+      "classe": "substantivo masculino",
+      "forma": "ablativo plural",
+      "def": [
+        "Pedra-pomes; qualquer rocha porosa."
+      ],
+      "nota": "Aqui, as rochas porosas da costa batidas pelo mar."
+    },
+    "mare": {
+      "lema": "mare",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "Mar."
+      ]
+    },
+    "tyrrhenum": {
+      "lema": "Tyrrhenus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Tirreno, relativo aos tirrenos (os etruscos)."
+      ],
+      "nota": "O mar Tirreno, a oeste da Itália, banha a costa da Etrúria e da Campânia."
+    },
+    "sapias": {
+      "lema": "sapio",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 2ª pessoa do singular",
+      "def": [
+        "Ser sábio, sensato, prudente."
+      ],
+      "nota": "Subjuntivo de exortação: «sê sensata»."
+    },
+    "vina": {
+      "lema": "vinum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Vinho."
+      ]
+    },
+    "liques": {
+      "lema": "liquo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 2ª pessoa do singular",
+      "def": [
+        "Coar, filtrar."
+      ],
+      "nota": "Subjuntivo de exortação. Coar o vinho, para tirar a borra, era a tarefa da casa antes de beber."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "spatio": {
+      "lema": "spatium",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Espaço; período, intervalo de tempo."
+      ],
+      "nota": "Ablativo de lugar ou tempo: «em um espaço breve», dentro de tão curto tempo."
+    },
+    "brevi": {
+      "lema": "brevis",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Curto, breve (do tempo)."
+      ],
+      "nota": "Concorda com «spatio»."
+    },
+    "spem": {
+      "lema": "spes",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Esperança."
+      ]
+    },
+    "longam": {
+      "lema": "longus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Longo, extenso; (do tempo) de longa duração."
+      ],
+      "nota": "Concorda com «spem»: a esperança longa, de coisas distantes."
+    },
+    "reseces": {
+      "lema": "reseco",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 2ª pessoa do singular",
+      "def": [
+        "Cortar; reduzir, conter."
+      ],
+      "nota": "Subjuntivo de exortação, como a poda de uma videira: «corta a esperança longa»."
+    },
+    "dum": {
+      "lema": "dum",
+      "classe": "conjunção",
+      "def": [
+        "Enquanto."
+      ]
+    },
+    "loquimur": {
+      "lema": "loquor",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Dizer, falar, conversar."
+      ],
+      "nota": "Verbo depoente (forma passiva, sentido ativo)."
+    },
+    "fugerit": {
+      "lema": "fugio",
+      "classe": "verbo",
+      "forma": "futuro perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Fugir; passar depressa, escoar-se."
+      ],
+      "nota": "Futuro perfeito: «terá fugido». Enquanto falamos, o tempo já terá escapado."
+    },
+    "invida": {
+      "lema": "invidus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Invejoso; hostil."
+      ],
+      "nota": "Concorda com «aetas»: o tempo invejoso, que parece ter inveja da nossa alegria."
+    },
+    "aetas": {
+      "lema": "aetas",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Tempo da vida, idade; tempo, época."
+      ],
+      "nota": "Aqui, o tempo que passa."
+    },
+    "carpe": {
+      "lema": "carpo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Colher, apanhar (frutos); fazer bom uso de, desfrutar (de um período de tempo)."
+      ],
+      "nota": "Colher o dia como se colhe um fruto maduro: aproveitar."
+    },
+    "diem": {
+      "lema": "dies",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "Dia."
+      ]
+    },
+    "quam": {
+      "lema": "quam",
+      "classe": "advérbio",
+      "def": [
+        "De que modo, quanto; (diante de superlativo) o mais... possível."
+      ],
+      "nota": "Com «minimum»: «o menos possível»."
+    },
+    "minimum": {
+      "lema": "minimus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular, usado como advérbio",
+      "def": [
+        "O menor, o mínimo (superlativo de «parvus»)."
+      ],
+      "nota": "Aqui, advérbio: «quam minimum credula», confiando o menos possível."
+    },
+    "credula": {
+      "lema": "credulus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Que acredita facilmente; crédulo, confiante."
+      ],
+      "nota": "Concorda com «Leuconoe»: confiando o menos possível no amanhã."
+    },
+    "postero": {
+      "lema": "posterus",
+      "classe": "adjetivo",
+      "forma": "dativo masculino singular",
+      "def": [
+        "Seguinte, próximo, que vem depois."
+      ],
+      "nota": "Subentende-se «diei»: o dia seguinte, o amanhã. Dativo, depois de «credula»."
+    }
+  },
+  "ocorrencias": {}
+}

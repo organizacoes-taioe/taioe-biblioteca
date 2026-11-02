@@ -34,6 +34,10 @@ DOCS = {
         '31 de dezembro de 1929', 1929, 'latim', 'la', 'AAS 22 (1930), p. 49-86',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html',
         'https://www.vatican.va/archive/aas/documents/AAS-22-1930-ocr.pdf'),
+    'miserentissimus-redemptor': ('Miserentissimus Redemptor', 'Sobre a expiação devida ao Sacratíssimo Coração de Jesus', 'Carta encíclica', 'Pio XI',
+        '8 de maio de 1928', 1928, 'latim', 'la', 'AAS 20 (1928), p. 165-179',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19280508_miserentissimus-redemptor.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-20-1928-ocr.pdf'),
     'mortalium-animos': ('Mortalium Animos', 'Sobre a promoção da verdadeira unidade religiosa', 'Carta encíclica', 'Pio XI',
         '6 de janeiro de 1928', 1928, 'latim', 'la', 'AAS 20 (1928), p. 5 e seguintes',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html',
@@ -110,6 +114,8 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
                        'trocava.'),
     'lamentabili': ('Os erros evidentes da leitura do PDF (OCR) foram corrigidos pela gramática e pelo texto '
                     'corrente do decreto.'),
+    'miserentissimus-redemptor': ('Os erros de digitalização do site (uns oitenta) foram corrigidos pelas _Acta_, e também '
+                                  'quatro referências bíblicas das notas que estavam erradas.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
     'ad-beatissimi': ('Os erros evidentes de digitalização do site (uns quarenta) foram corrigidos. Num caso, no '
                       '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),

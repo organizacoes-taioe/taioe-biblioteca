@@ -115,7 +115,7 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
     'lamentabili': ('Os erros evidentes da leitura do PDF (OCR) foram corrigidos pela gramática e pelo texto '
                     'corrente do decreto.'),
     'miserentissimus-redemptor': ('Os erros de digitalização do site (uns oitenta) foram corrigidos pelas _Acta_, e também '
-                                  'quatro referências bíblicas das notas que estavam erradas.'),
+                                  'cinco referências bíblicas erradas das notas.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
     'ad-beatissimi': ('Os erros evidentes de digitalização do site (uns quarenta) foram corrigidos. Num caso, no '
                       '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),

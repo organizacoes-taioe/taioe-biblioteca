@@ -34,11 +34,23 @@ Pronto: as fontes, o confronto e a grafia (só acento) em rascunho (`config.py`)
   genipapo/jenipapo ficam como no OCR). Conferido: nenhum «flecha», «tribo» ou «jenipapo» no texto.
 - Resultado: 19 partes, 1.308 parágrafos, ~45 mil palavras; 2.629 sítios por maioria, 568 sem
   maioria, dos quais **364 a conferir no fac-símile** (`ferramentas/cache/macunaima/relatorios/duvidas.tsv`;
-  ex.: «aromava s» por «aromava os»).
+  ex.: «aromava s» por «aromava os»). Página sem texto ou cabeço lido como lixo, onde o Wikisource não
+  tem nada, sai sozinho (`rever()`).
 
 ## Próximos passos
-1. Conferir nas imagens as 364 dúvidas de `duvidas.tsv` e gravar as leituras (`conferencia.json` e
-   `decisoes.corrigir`, como em Caetés). Também ler `sitios.tsv` por amostra: onde ABBYY e Tesseract
+1. **Conferência no fac-símile em andamento** (`conferencia.json`: cada item tem as leituras do sítio,
+   a leitura de 1928 ou `null` quando a escolha confere, e a nota; `rever()` aplica). Feitas 142, as
+   primeiras pela ordem do texto (caps. I a VI, mais ou menos até a p. 88 do PDF), das quais 50
+   corrigidas (palavra partida na virada de página, cabeço colado, «sussuarana» que virava
+   «suçuarana», «maracujá-michira», «mãi-de-santo», «Catou os mucuins»…). Restam **209** em
+   `ferramentas/cache/macunaima/relatorios/duvidas.tsv`. As pranchas saem de
+   `~/.cache/claude-pedidos-0211/scr-macunaima/lote.py <de> <até>` (4 recortes por imagem, página
+   achada pelo contexto no Tesseract; precisa do PDF do IA em `tmp-macunaima/m28.pdf`), e
+   `conf.py` grava pelos números de `duvidas.tsv` (não rodar o `texto.py` no meio de um lote: a
+   numeração muda). Ficaram sem decidir, por o recorte não mostrar a linha: as de «dagua um
+   metro», «sabiá-tropeiro», «velho», «cará/carauá» e «milhor» (caps. V–VI).
+   **«flexa» conferida**: está no impresso de 1928 (pp. 16 e 26 do PDF, «marombas flexas piquás»,
+   «Fez lança da flexa tridente»), ao lado de «frexa»: Mário usa as duas; fica como está. Também ler `sitios.tsv` por amostra: onde ABBYY e Tesseract
    concordam contra o `ws` ganha o OCR, inclusive em erro comum aos dois.
 2. Conferir no fac-símile as formas de Mário que só o OCR atesta nos caps. II–XI, e o cap. I nas
    pp. 13–15 (nível 1 no Wikisource, mas na base: conferir se também está modernizado).

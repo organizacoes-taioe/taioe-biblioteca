@@ -222,6 +222,7 @@ def modernizar(E, manual):
 # ------------------------------------------------------------------ desempate sem maioria (caps. II–XI)
 
 DUVIDAS = []                # sítios decididos sem certeza: para a conferência nas imagens
+CONFERIDAS = []             # os de conferencia.json que acharam o lugar
 
 
 def _lexico(ws):
@@ -254,8 +255,12 @@ def rever(tr, md, sitios):
     from edicao.tokens import texto as junta
     from edicao.tokens import TOK
     lex = _lexico(tr['ws'])
-    sa = lambda w: ''.join(ch for ch in __import__('unicodedata').normalize('NFD', w.lower())
-                           if __import__('unicodedata').category(ch) != 'Mn')
+    sa = lambda w: ''.join(ch for ch in __import__('unicodedata').normalize('NFD', w.lower().replace('ç', '\0'))
+                           if __import__('unicodedata').category(ch) != 'Mn').replace('\0', 'ç')
+    import json
+    arq = os.path.join(AQUI, 'conferencia.json')
+    conf = {d['leituras']: d for d in json.load(open(arq, encoding='utf-8'))} if os.path.exists(arq) else {}
+    CONFERIDAS.clear()
 
     def toks(s):
         out = []
@@ -276,11 +281,14 @@ def rever(tr, md, sitios):
             continue
         W = toks(L['ws'])
         nw = len(pal(W))
+        chave_l = ' || '.join(f'{n}: {v}' for n, v in x['leituras'].items())
         cands = {n: toks(_limpo(L[n])) for n in ('b28', 't28') if n in L}
         nota = lambda ts: sum(1 for t in pal(ts) if t.lower() not in lex) + abs(len(pal(ts)) - nw)
         best = min(cands, key=lambda n: (nota(cands[n]), n != BASE))
         esc, por = cands[best], f'limpo; {best}'
-        if nota(esc):
+        if not pal(W) and all(nota(c) for c in cands.values()):
+            esc, por = W, 'ws (lixo do OCR: página sem texto, cabeço)'
+        elif nota(esc):
             a, b = sa(' '.join(pal(esc))), sa(' '.join(pal(W)))
             def esq(w):              # esqueleto sem as diferenças de grafia (frexa/flecha, genipapo/jenipapo)
                 w = re.sub(r'ch|x', 'x', w).replace('ç', 's').replace('ss', 's').replace('z', 's').replace('y', 'i')
@@ -290,6 +298,13 @@ def rever(tr, md, sitios):
             if a and b and not grafia and SequenceMatcher(None, a, b).ratio() >= 0.8 and abs(len(a) - len(b)) <= 2:
                 esc, por = W, 'ws (OCR estragado)'
             DUVIDAS.append(x)
+        if chave_l in conf:                 # conferido no fac-símile (conferencia.json)
+            d = conf[chave_l]
+            if d.get('leitura') is not None:
+                esc, por = toks(d['leitura']), 'fac-símile'
+            if x in DUVIDAS:
+                DUVIDAS.remove(x)
+            CONFERIDAS.append(d)
         x['escolha'], x['por'], x['escolha_txt'] = esc, por, junta(esc)
     E, pos = [], 0
     for x in sitios:
@@ -297,7 +312,7 @@ def rever(tr, md, sitios):
         E.extend(x['escolha'])
         pos = x['e']
     E.extend(B[pos:])
-    print('sem maioria: a conferir no fac-símile', len(DUVIDAS))
+    print('sem maioria: a conferir no fac-símile', len(DUVIDAS), '; conferidos', len(CONFERIDAS))
     with open(os.path.join(fontes.cache(OBRA, 'relatorios'), 'duvidas.tsv'), 'w', encoding='utf-8') as f:
         f.write('escolha\tpor\tleituras\tdepois\n')
         for x in DUVIDAS:

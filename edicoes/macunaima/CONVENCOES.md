@@ -47,7 +47,8 @@ guspiu, enguliu, poude, tribu, frexa, nagua, dagua, inda, riba, adonde, desinfel
 **A decidir com o Gere** (letra trocada que parece só ortografia de época, sem marca de fala; hoje
 ficam como em 1928, no `sem_par.tsv`): geito (10) → jeito, tezouro(s)/tezoura (11) → tesouro/tesoura,
 gôso/gosar/gosados → gozo/gozar/gozados, dansa/dansando → dança/dançando, cincoenta → cinquenta,
-milreis → mil-réis, guela → goela?, flexa (4, ao lado de frexa: erro ou forma?). Recomendação: modernizar
+milreis → mil-réis, guela → goela?. (flexa, 4 vezes, ao lado de frexa: conferida no impresso, é de
+Mário; fica.) Recomendação: modernizar
 essas (não marcam a fala) e manter as da lista acima (marcam).
 
 ## Itálico e pontuação

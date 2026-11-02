@@ -45,4 +45,12 @@ AJUSTES = []
 MANUAL = {
     # formas de 1854 que a moderna, no mesmo ponto, não alinha 1:1
     'dansa': 'dança', 'dansão': 'dançam', 'dansavão': 'dançavam', "fizerão-n'a": 'fizeram-na', 'mudavão-se': 'mudavam-se',
+    # resíduo evidente de OCR (relatorios/vocabulario.tsv: palavras que nenhuma edição moderna tem); a moderna arbitra
+    'Leopardo': 'Leonardo', 'Leonardo-Pataça': 'Leonardo-Pataca', 'Jesé': 'José', 'Ob': 'Oh', 'abaridonado': 'abandonado',
+    'ainigo': 'amigo', 'appareeer': 'aparecer', 'aqnellas': 'aquelas', 'assumplo': 'assunto', 'comsSgo': 'consigo',
+    'conliverão-se': 'contiveram-se', 'consa': 'coisa', 'consas': 'coisas', 'digainos': 'digamos', 'ejla': 'ela',
+    'emfini': 'enfim', 'eseravo': 'escravo', 'finalmgnte': 'finalmente', 'gue': 'que', 'hayia': 'havia',
+    'incomniodava': 'incomodava', 'jue': 'que', 'mesino': 'mesmo', 'pelQ': 'pelo', 'possivei': 'possível',
+    'prometlia': 'prometia', 'qfie': 'que', 'qjue': 'que', 'sugeilinho': 'sujeitinho', 'triumpbo': 'triunfo',
+    'typq': 'tipo', 'utn': 'um', 'vizihança': 'vizinhança',
 }

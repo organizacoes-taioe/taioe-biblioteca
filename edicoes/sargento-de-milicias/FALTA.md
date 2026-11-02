@@ -31,15 +31,15 @@ Estado: **fontes e confronto montados e rodando; texto ainda não conferido nem 
   («podiáo», «fizerào», «chamavãó») e «lhe» lido «Ihe», «Ibe», «Jhe».
 - `decisoes.EMENDAS`: 11 leituras conferidas nas imagens (pranchas dos pontos 1–80 de `ver/pontos.json`) e 7
   palavras que só os OCRs têm, de correção evidente (as primeiras ~60 linhas de `modernas.tsv`); `MANUAL`
-  com 5 formas em -ão que não alinham. Em `modernas.tsv` há também lições de 1854 que as edições modernas
+  com 5 formas em -ão que não alinham e 32 palavras de resíduo evidente de OCR («Leopardo», «mesino», «qfie»). Em `modernas.tsv` há também lições de 1854 que as edições modernas
   mudaram e que ficam («espanava», não «esganava»; «engodar», não «engordar»; «achava cheio de
   espírito»; «viu-se presa»): só emendar o que for erro de OCR, de preferência visto na imagem.
 - `edicoes/sargento-de-milicias/conferir.py` (pranchas, cópia do de Policarpo) funciona:
   `python3 edicoes/sargento-de-milicias/conferir.py ferramentas/cache/sargento-de-milicias/ver/p3.tsv`.
   `ver/pontos.json` tem os 650 pontos de palavra sem apoio moderno, na ordem do texto; as pranchas dos
   pontos 1–80 já foram lidas (`ver/p10-*`, `p2-*`, `p3-*`); seguir do 81.
-- `texto.py` roda: 48 partes, 1.456 parágrafos; relatórios: 592 em `modernas.tsv`, 1.695 em
-  `pontuacao.tsv`, 522 em `sem_par.tsv`, 384 em `vocabulario.tsv` (resíduo de OCR quase todo:
+- `texto.py` roda: 48 partes, 1.456 parágrafos; relatórios: 561 em `modernas.tsv`, 1.700 em
+  `pontuacao.tsv`, 489 em `sem_par.tsv`, 351 em `vocabulario.tsv` (resíduo de OCR quase todo:
   «Leopardo», «máosrolhados», «quatrooreIhas»; resolver com EMENDAS, olhando a imagem quando houver dúvida).
 - `decisoes.py` e `notas.py` com a estrutura e um rascunho da «Sobre». O bloco do autor está no item 7 abaixo.
 

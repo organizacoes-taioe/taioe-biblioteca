@@ -34,14 +34,26 @@ DOCS = {
         '31 de dezembro de 1929', 1929, 'latim', 'la', 'AAS 22 (1930), p. 49-86',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html',
         'https://www.vatican.va/archive/aas/documents/AAS-22-1930-ocr.pdf'),
+    'miserentissimus-redemptor': ('Miserentissimus Redemptor', 'Sobre a expiação devida ao Sacratíssimo Coração de Jesus', 'Carta encíclica', 'Pio XI',
+        '8 de maio de 1928', 1928, 'latim', 'la', 'AAS 20 (1928), p. 165-179',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19280508_miserentissimus-redemptor.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-20-1928-ocr.pdf'),
     'mortalium-animos': ('Mortalium Animos', 'Sobre a promoção da verdadeira unidade religiosa', 'Carta encíclica', 'Pio XI',
         '6 de janeiro de 1928', 1928, 'latim', 'la', 'AAS 20 (1928), p. 5 e seguintes',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html',
         'https://www.vatican.va/archive/aas/documents/AAS-20-1928-ocr.pdf'),
+    # o site da Santa Sé só tem o texto em inglês: a base é o PDF das AAS (url do texto: None), como no Lamentabili
+    'rerum-ecclesiae': ('Rerum Ecclesiae', 'Sobre as missões católicas', 'Carta encíclica', 'Pio XI',
+        '28 de fevereiro de 1926', 1926, 'latim', 'la', 'AAS 18 (1926), p. 65-83', None,
+        'https://www.vatican.va/archive/aas/documents/AAS-18-1926-ocr.pdf'),
     'quas-primas': ('Quas Primas', 'Sobre a festa de Cristo Rei', 'Carta encíclica', 'Pio XI',
         '11 de dezembro de 1925', 1925, 'latim', 'la', 'AAS 17 (1925), p. 593-610',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html',
         'https://www.vatican.va/archive/aas/documents/AAS-17-1925-ocr.pdf'),
+    'studiorum-ducem': ('Studiorum Ducem', 'Sobre Santo Tomás de Aquino', 'Carta encíclica', 'Pio XI',
+        '29 de junho de 1923', 1923, 'latim', 'la', 'AAS 15 (1923), p. 309-326',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19230629_studiorum-ducem.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-15-1923-ocr.pdf'),
     'spiritus-paraclitus': ('Spiritus Paraclitus', 'Sobre São Jerônimo e a Sagrada Escritura', 'Carta encíclica', 'Bento XV',
         '15 de setembro de 1920', 1920, 'latim', 'la', 'AAS 12 (1920), p. 385-422',
         'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html',
@@ -93,6 +105,8 @@ NUMERACAO = {   # de onde vem a numeração dos parágrafos (a marca à margem)
                     'marcadas «N. R.» (nota da redação), não fazem parte do decreto e ficaram de fora.'),
     'sacrorum-antistitum': ('O documento não numera os parágrafos, e o site do Vaticano não o tem em outra língua; '
                             'por isso não há marca à margem.'),
+    'studiorum-ducem': ('O documento não numera os parágrafos, e o site do Vaticano não o tem em inglês, cuja '
+                        'numeração seguimos nos outros documentos; por isso não há marca à margem.'),
     'mit-brennender-sorge': ('Os números dos parágrafos são os do texto alemão do site da Santa Sé (as _Acta_ não '
                              'numeram; a versão inglesa junta parágrafos e vai só até 43).'),
 }
@@ -110,6 +124,12 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
                        'trocava.'),
     'lamentabili': ('Os erros evidentes da leitura do PDF (OCR) foram corrigidos pela gramática e pelo texto '
                     'corrente do decreto.'),
+    'miserentissimus-redemptor': ('Os erros de digitalização do site (uns oitenta) foram corrigidos pelas _Acta_, e também '
+                                  'cinco referências bíblicas erradas das notas.'),
+    'studiorum-ducem': ('Os erros de digitalização do site (uns setenta) foram corrigidos pelas _Acta_, e por elas '
+                        'se juntaram três parágrafos que o site partia ao meio.'),
+    'rerum-ecclesiae': ('Os erros evidentes da leitura do PDF (OCR) foram corrigidos pela gramática, pelo sentido e pela '
+                        'versão inglesa do site; as notas, que nas _Acta_ recomeçam a cada página, vão numeradas em sequência.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
     'ad-beatissimi': ('Os erros evidentes de digitalização do site (uns quarenta) foram corrigidos. Num caso, no '
                       '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),

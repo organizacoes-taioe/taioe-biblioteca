@@ -16,5 +16,16 @@ Arquivos: `parte-1.txt` a `parte-4.txt` (prólogo e cap. 1–8; 9–21; 22–32;
 ## Forma
 - `## Praefatio` e `## n. título` (título da edição; nas páginas da Augustana o título vem em duas linhas,
   aqui juntadas). `[II.n]` no começo do primeiro parágrafo do capítulo. Quem fala: `_Gregorius._`, `_Petrus._`.
-- Corrigidas pelo sentido, sem fac-símile, as falhas evidentes da transcrição: II.1 «de relictum» → «derelictum», «vi debat» → «videbat» e dois pontos finais; II.18 «tranmissus»; II.19 «accepit. sibique»; II.22 «mobiliolioris», «ex-Judaea»; II.23 «not», «de locum» → «det locum» e dois pontos; II.30 «mantis»; II.33 «ejus. Scholastica», «pulviae»; II.38 «infirmia»; e os hífens moles. Ficou «Dan. XXIV, 32» em II.22 (é Dn 14,32; a tradução põe a referência certa).
-- Não houve conferência com o fac-símile da PL 66 (falta de tempo): é o primeiro passo de uma revisão do latim.
+- **Conferência (2026-11-02):** as passagens duvidosas foram comparadas com o fac-símile do Internet Archive
+  `patrologiaecur66mign` (PL 66, Paris, 1847; a mesma data dá o exemplar `bim_early-english-books-1641-1700_1847_66`),
+  pelo texto OCR (a página tem ao lado a tradução grega de Zacarias, que o OCR mistura) e por uma comparação
+  automática palavra a palavra do livro inteiro com esse OCR, que não mostrou outras diferenças de texto.
+- **Corrigidos** os erros da transcrição da Augustana, pela edição impressa: II.1 «de relictum» → «derelictum»
+  (quebra de linha), «vi debat» → «videbat» (idem) e dois pontos finais; II.19 «accepit. sibique»; II.22 «ex-Judaea»;
+  II.23 «not» → «non» e dois pontos; II.33 «ejus. Scholastica» → «ejus, Scholastica»; II.38 «infirmia» → «infirmis»;
+  e os hífens moles. Em II.23 a impressão traz «de locum» (talvez «de-» no fim da linha): ficou «det locum», a
+  fórmula litúrgica.
+- **Ficaram como na impressão** (erros da própria edição de 1847, como se fez na *Regra Pastoral*; a tradução lê a
+  forma certa): II.18 «tranmissus»; II.22 «mobiliolioris» (repetição na quebra de linha) ; II.30 «mantis» (montis);
+  II.33 «pulviae» (pluviae). Em II.22 a referência fica «Dan. XIV, 32» (a transcrição dizia «XXIV»; o OCR lê «xiv, 52»;
+  Habacuc está em Dn 14,32–38).

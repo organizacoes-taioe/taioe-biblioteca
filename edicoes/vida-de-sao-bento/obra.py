@@ -33,15 +33,18 @@ META = {
             'seguem a forma portuguesa tradicional (Bento, Escolástica, Mauro, Plácido, Enfide, Subiaco, '
             'Cassino).\n\n'
             '**O original.** O latim, no botão «Latim», é o da _Patrologia Latina_ de Migne, vol. 66 '
-            '(Paris, Migne, col. 126–204), que reproduz a edição dos beneditinos de São Mauro (Paris, 1705), '
+            '(Paris, 1847, col. 126–204), que reproduz a edição dos beneditinos de São Mauro (Paris, 1705), '
             'em domínio público, na transcrição da Bibliotheca Augustana. Ficaram de fora as notas e '
-            'variantes dos editores e os números das colunas. Corrigimos pelo sentido uma dúzia de '
-            'falhas evidentes da transcrição (letras trocadas, pontos que faltavam); a conferência com o '
-            'fac-símile da edição ainda está por fazer.'),
+            'variantes dos editores e os números das colunas. Conferimos a transcrição com o '
+            'fac-símile do volume e corrigimos por ele os erros de digitação; os poucos erros de impressão da '
+            'própria edição de 1847 ficaram no latim, e a tradução lê a forma certa.'),
         'fontes': [
             {'nome': 'Bibliotheca Augustana: Gregorius Magnus, Dialogi, Liber II (texto da PL 66)',
              'url': 'https://www.hs-augsburg.de/~harsch/Chronologia/Lspost06/GregoriusMagnus/gre_d200.html',
              'nota': 'transcrição do texto de Migne, base do latim ao lado'},
+            {'nome': 'Migne, Patrologia Latina 66 (Paris, 1847), no Internet Archive',
+             'url': 'https://archive.org/details/patrologiaecur66mign',
+             'nota': 'fac-símile da edição usada no original ao lado (col. 126–204); conferência das correções'},
             {'nome': 'Dialogi (Gregorius Magnus)/Liber II, no Wikisource latino',
              'url': 'https://la.wikisource.org/wiki/Dialogi_(Gregorius_Magnus)/Liber_II',
              'nota': 'outro texto antigo (dos Bolandistas, com outra divisão em capítulos), para comparar'},

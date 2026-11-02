@@ -14,7 +14,7 @@ for k, p in enumerate(d['poemas'], 1):
     cab = [f'_{x}_' for x in p.get('cabecalho', [])]
     estrofes = ['\n'.join('| ' + v for v in e.split('\n')) for e in p['texto'].split('\n\n')]
     fim = [f'_{p["fecho"]}_'] if p.get('fecho') else []
-    partes.append({'n': str(k), 'titulo': p['titulo'], 'texto': '\n\n'.join(cab + estrofes + fim)})
+    partes.append({'n': '', 'titulo': p['titulo'], 'texto': '\n\n'.join(cab + estrofes + fim)})
 obra = {
     'id': 'mensagem', 'autor': 'fernando-pessoa', 'titulo': 'Mensagem', 'ano': 1934, 'genero': 'Poesia',
     'divisao': {'singular': 'poema', 'plural': 'poemas'},

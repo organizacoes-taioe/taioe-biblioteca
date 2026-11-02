@@ -37,6 +37,19 @@ não muda a pronúncia nem a forma da palavra.
 - Hífen e aglutinação: manter os do livro (`talqualmente`, `boca-da-noite`, `mato-virgem`), salvo
   regra clara de hoje sem efeito de leitura.
 
+## Feito em `config.modernizar` (2026-11-02)
+Só o acento: a palavra fora do léxico (o do sistema + o Wikisource da edição posterior, na grafia de
+hoje) com uma única forma igual sem acentos ganha a dela: heroi → herói (280), êle → ele, porêm →
+porém, tambem → também, agua → água, fôrça → força, ninguem → ninguém. Protegidas: prá, prás, porquê,
+mãi, mamãi. `á`/`ás` → à/às pelo MANUAL. Ficam: si, sinão, quasi, siquer, pra/pro/pros, mãi, milhor,
+guspiu, enguliu, poude, tribu, frexa, nagua, dagua, inda, riba, adonde, desinfeliz.
+
+**A decidir com o Gere** (letra trocada que parece só ortografia de época, sem marca de fala; hoje
+ficam como em 1928, no `sem_par.tsv`): geito (10) → jeito, tezouro(s)/tezoura (11) → tesouro/tesoura,
+gôso/gosar/gosados → gozo/gozar/gozados, dansa/dansando → dança/dançando, cincoenta → cinquenta,
+milreis → mil-réis, guela → goela?, flexa (4, ao lado de frexa: erro ou forma?). Recomendação: modernizar
+essas (não marcam a fala) e manter as da lista acima (marcam).
+
 ## Itálico e pontuação
 Pontuação do livro, sem vírgulas acrescentadas (Mário corta vírgulas de propósito: «foi crescendo foi
 crescendo»). Aspas “ ” passam a « » como no resto da Biblioteca.

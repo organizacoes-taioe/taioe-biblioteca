@@ -1,7 +1,7 @@
 # Macunaíma: o que falta (estado em 2026-11-02, rodada de pedidos)
 
-Pronto: as fontes e o confronto em rascunho (`config.py`), a proposta de grafia (`CONVENCOES.md`),
-`decisoes.py` e `notas.py` vazios. Nada publicado: sem `conteudo/`, autor, `obras.json` nem vocabulário.
+Pronto: as fontes, o confronto e a grafia (só acento) em rascunho (`config.py`), a proposta de grafia
+(`CONVENCOES.md`), `decisoes.py` (só o MANUAL da crase) e `notas.py` (esboço). Nada publicado: sem `conteudo/`, autor, `obras.json` nem vocabulário.
 
 ## Achados que mudam o trabalho
 1. **O Wikisource «Macunaíma (1928)» não é todo de 1928.** As páginas revisadas (nível 3/4: pp. 7–12
@@ -44,9 +44,9 @@ Pronto: as fontes e o confronto em rascunho (`config.py`), a proposta de grafia 
    pp. 13–15 (nível 1 no Wikisource, mas na base: conferir se também está modernizado).
 3. Hífen de fim de linha no OCR: hoje se junta sem hífen; compostos partidos na linha
    («mato-/virgem») perdem o hífen: conferir os casos pela lista de compostos do texto revisado.
-4. `modernizar(E, manual)` pelas regras de `CONVENCOES.md` (só acento e diferencial; manter as
-   formas de Mário), com o relatório `sem_par.tsv`. Pode partir de `edicoes/caetes/grafia1990.py`,
-   **sem** o passo de esqueleto (que trocaria frexa por flecha, mãi por mãe).
+4. Grafia: `modernizar` já faz o acento (CONVENCOES.md, «Feito»); falta a decisão do Gere sobre as
+   formas de época da lista «A decidir» e ler o `sem_par.tsv` inteiro (nomes próprios, tupi, restos
+   de OCR como «sa», «lem», «c», «v», «hol», «di»).
 5. Decidir com o Gere: 1928 inteiro com «As tres Normalistas» (recomendado: é o texto da edição-base,
    e a «Sobre» explica que o capítulo saiu depois) e as dúvidas de grafia de `CONVENCOES.md`.
 6. `notas.py` («Sobre esta edição»), autor novo em `conteudo/autores.js` (`mario-de-andrade`,

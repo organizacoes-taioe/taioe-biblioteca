@@ -154,12 +154,69 @@ def modernas():
     return {}
 
 
+# formas de Mário que perderiam o acento (e a pronúncia) se a regra as tocasse
+PROTEGIDAS = {'prá', 'prás', 'porquê', 'mãi', 'mamãi'}
+
+
 def modernizar(E, manual):
-    """A FAZER (FALTA.md): grafia de 1928 -> Acordo de 1990 só no que não é escolha do autor
-    (CONVENCOES.md). Por ora, a palavra fica como está, para os relatórios."""
-    from edicao.tokens import e_palavra  # noqa: F401
-    out = [manual.get(t, t) for t in E]
-    return out, list(range(len(E))), []
+    """Grafia de 1928 -> de hoje, só no acento (CONVENCOES.md): a palavra que não está no léxico do
+    sistema e tem nele uma única forma igual sem acentos ganha a acentuação dela (heroi → herói,
+    tambem → também, porêm → porém, agua → água, êle → ele, fôrça → força). O resto fica como Mário
+    escreveu (si, pra, mãi, frexa, tribu, poude) e, se não estiver no léxico, vai para sem_par.tsv.
+    MANUAL (decisoes.py) decide os casos à parte."""
+    import unicodedata
+    from edicao.grafia import igualar_caixa
+    sa = lambda w: ''.join(c for c in unicodedata.normalize('NFD', w) if unicodedata.category(c) != 'Mn')
+    lex, por_sa = set(), {}
+    for l in open('/usr/share/dict/brazilian', encoding='utf-8', errors='ignore'):
+        w = fontes.nfc(l.strip())
+        if w and w == w.lower():
+            lex.add(w)
+            por_sa.setdefault(sa(w), set()).add(w)
+    # o Wikisource dos caps. de DO_OCR é de edição posterior, na grafia de hoje: entra no léxico
+    import pickle
+    from edicao.tokens import TOK
+    tr = pickle.load(open(fontes.cache(OBRA, 'fontes.pkl'), 'rb'))[0]
+    moderno = set()
+    for c in tr['ws']:
+        if c['n'] in DO_OCR:
+            for p in c['paras']:
+                moderno |= {fontes.nfc(x).lower() for x in TOK.findall(p)}
+    velho = set()                   # as páginas revisadas (grafia de 1928) também caem nesses capítulos
+    for c in tr['ws']:
+        if c['n'] not in DO_OCR:
+            for p in c['paras']:
+                velho |= {fontes.nfc(x).lower() for x in TOK.findall(p)}
+    moderno -= velho - lex
+    for w in moderno:
+        por_sa.setdefault(sa(w), set()).add(w)
+    lex |= moderno
+    out, rel = [], []
+    for i, t in enumerate(E):
+        if not e_palavra(t):
+            out.append(t)
+            continue
+        partes = t.split('-')
+        novas = []
+        for pt in partes:
+            w = fontes.nfc(pt).lower()
+            if w in manual:
+                nova, fonte = manual[w], 'MANUAL'
+            elif not w or w in lex or w in PROTEGIDAS or not w.isalpha():
+                nova, fonte = w, 'IGUAL'
+            else:
+                c = por_sa.get(sa(w), set())
+                if len(c) > 1 and len(c & moderno) == 1:
+                    c = c & moderno
+                if len(c) == 1:
+                    nova, fonte = next(iter(c)), 'ACENTO'
+                else:
+                    nova, fonte = w, 'SEM_PAR'
+            novas.append(igualar_caixa(pt, nova) if nova != w else pt)
+            if fonte != 'IGUAL':
+                rel.append((pt, nova, fonte, i))
+        out.append('-'.join(novas))
+    return out, list(range(len(E))), rel
 
 
 # ------------------------------------------------------------------ desempate sem maioria (caps. II–XI)

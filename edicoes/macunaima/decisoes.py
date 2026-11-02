@@ -6,4 +6,6 @@ fac-símile; nada de «normalizar» o que é escolha do autor.
 """
 EMENDAS = []      # (tipo, capítulo, leitura de 1928, correção): tipo 'erro' | 'ocr' | 'revisao'
 AJUSTES = []
-MANUAL = {}       # grafia de 1928 -> de hoje, só ortografia de época (CONVENCOES.md)
+MANUAL = {        # grafia de 1928 -> de hoje, só ortografia de época (CONVENCOES.md)
+    'á': 'à', 'ás': 'às',          # a crase de 1928 leva agudo («ás ordens»)
+}

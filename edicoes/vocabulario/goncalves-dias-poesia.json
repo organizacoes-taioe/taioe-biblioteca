@@ -1,50 +1,5 @@
 {
  "obras": [
-  "goncalves-dias-primeiros-cantos-cancao-do-exilio",
-  "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro",
-  "goncalves-dias-primeiros-cantos-o-canto-do-piaga",
-  "goncalves-dias-primeiros-cantos-o-canto-do-indio",
-  "goncalves-dias-primeiros-cantos-o-morro-do-alecrim",
-  "goncalves-dias-primeiros-cantos-o-soldado-espanhol",
-  "goncalves-dias-primeiros-cantos-a-leviana",
-  "goncalves-dias-primeiros-cantos-a-minha-musa",
-  "goncalves-dias-primeiros-cantos-desejo",
-  "goncalves-dias-primeiros-cantos-seus-olhos",
-  "goncalves-dias-primeiros-cantos-inocencia",
-  "goncalves-dias-primeiros-cantos-pedido",
-  "goncalves-dias-primeiros-cantos-o-desengano",
-  "goncalves-dias-primeiros-cantos-minha-vida-e-meus-amores",
-  "goncalves-dias-primeiros-cantos-recordacao",
-  "goncalves-dias-primeiros-cantos-tristeza",
-  "goncalves-dias-primeiros-cantos-o-trovador",
-  "goncalves-dias-primeiros-cantos-amor-delirio-engano",
-  "goncalves-dias-primeiros-cantos-delirio",
-  "goncalves-dias-primeiros-cantos-epicedio",
-  "goncalves-dias-primeiros-cantos-sofrimento",
-  "goncalves-dias-primeiros-cantos-visoes",
-  "goncalves-dias-primeiros-cantos-o-vate",
-  "goncalves-dias-primeiros-cantos-a-morte-prematura",
-  "goncalves-dias-primeiros-cantos-a-mendiga",
-  "goncalves-dias-primeiros-cantos-a-escrava",
-  "goncalves-dias-primeiros-cantos-ao-dr-joao-duarte-lisboa-serra",
-  "goncalves-dias-primeiros-cantos-lagrimas-sem-dor-e-dor-com-lagrimas",
-  "goncalves-dias-primeiros-cantos-o-desterro-de-um-pobre-velho",
-  "goncalves-dias-primeiros-cantos-o-orgulhoso",
-  "goncalves-dias-primeiros-cantos-o-cometa",
-  "goncalves-dias-primeiros-cantos-o-oiro",
-  "goncalves-dias-primeiros-cantos-a-um-menino",
-  "goncalves-dias-primeiros-cantos-miserrimus",
-  "goncalves-dias-primeiros-cantos-o-pirata",
-  "goncalves-dias-primeiros-cantos-a-vila-maldita",
-  "goncalves-dias-primeiros-cantos-quadras-da-minha-vida",
-  "goncalves-dias-primeiros-cantos-o-mar",
-  "goncalves-dias-primeiros-cantos-ideia-de-deus",
-  "goncalves-dias-primeiros-cantos-o-romper-dalva",
-  "goncalves-dias-primeiros-cantos-a-tarde",
-  "goncalves-dias-primeiros-cantos-a-noite",
-  "goncalves-dias-primeiros-cantos-te-deum",
-  "goncalves-dias-primeiros-cantos-adeus-aos-meus-amigos",
-  "goncalves-dias-primeiros-cantos-05b-deprecacao",
   "goncalves-dias-segundos-cantos-consolacao-nas-lagrimas",
   "goncalves-dias-segundos-cantos-cancao",
   "goncalves-dias-segundos-cantos-lira",
@@ -148,7 +103,6 @@
     "cismar",
     "cismando",
     "cisma",
-    "cismou",
     "cismas"
    ],
    "classe": "verbo",
@@ -156,17 +110,6 @@
    "exemplo": "mais vida, Nossa vida mais amores. Em cismar — sozinho — à noite —",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-cancao-do-exilio"
-  },
-  {
-   "lema": "lidar",
-   "formas": [
-    "lidar"
-   ],
-   "classe": "antigo, substantivo masculino",
-   "def": "luta, combate",
-   "exemplo": "Que estimam a vida Sem guerra e lidar. — Ouvi-me, Guerreiros, — Ouvi meu",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro"
   },
   {
    "lema": "tacape",
@@ -181,38 +124,13 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro"
   },
   {
-   "lema": "prear",
-   "formas": [
-    "preou",
-    "preiando",
-    "preia"
-   ],
-   "classe": "verbo",
-   "def": "aprisionar, capturar (o inimigo ou a caça)",
-   "exemplo": "cantar. IV. Quem tantos imigos Em guerras preou? ¿Quem canta seus feitos Com mais",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro"
-  },
-  {
    "lema": "lide",
    "formas": [
-    "lide",
     "lides"
    ],
    "classe": "substantivo feminino",
    "def": "luta, combate",
    "exemplo": "eu sou? V. Na caça ou na lide, Quem há que me afronte?! A",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro"
-  },
-  {
-   "lema": "estrujir",
-   "formas": [
-    "strujo"
-   ],
-   "classe": "verbo",
-   "def": "fazer estrondar, encher de barulho",
-   "exemplo": "do que eu? VI. Se as matas strujo Co'os sons do Boré, Mil arcos",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro"
   },
@@ -232,8 +150,7 @@
    "formas": [
     "reboam",
     "reboa",
-    "reboava",
-    "reboando"
+    "reboava"
    ],
    "classe": "verbo",
    "def": "ecoar com força, ressoar",
@@ -268,8 +185,7 @@
    "lema": "maracá",
    "formas": [
     "maracá",
-    "maracás",
-    "maraca"
+    "maracás"
    ],
    "classe": "tupi, substantivo masculino",
    "def": "chocalho sagrado feito de cabaça com sementes, usado pelo pajé nos ritos",
@@ -280,24 +196,12 @@
   {
    "lema": "juncar",
    "formas": [
-    "juncado",
     "juncada",
     "juncando"
    ],
    "classe": "verbo",
    "def": "cobrir, encher (o chão) de coisas espalhadas",
    "exemplo": "lá paira Nos ares frechados, O campo juncado De mortos é já: Mil homens",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro"
-  },
-  {
-   "lema": "marulhoso",
-   "formas": [
-    "marulhosa"
-   ],
-   "classe": "adjetivo",
-   "def": "agitado e ruidoso como as ondas",
-   "exemplo": "que salta De rocha empinada, Que vai marulhosa, Fremente e queixosa, Que a raiva",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro"
   },
@@ -328,23 +232,11 @@
    "lema": "manitô",
    "formas": [
     "manitôs",
-    "manitós",
-    "manito"
+    "manitós"
    ],
    "classe": "substantivo masculino",
    "def": "espírito protetor ou ídolo dos índios",
    "exemplo": "Abro os olhos — inquieto — medroso, Manitôs! que prodígios que eu vi! Arde",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-piaga"
-  },
-  {
-   "lema": "estrídulo",
-   "formas": [
-    "estrídulos"
-   ],
-   "classe": "substantivo masculino",
-   "def": "som agudo e áspero, guincho",
-   "exemplo": "Não ouviste a coruja, de dia, Seus estrídulos torva soltar? Tu não viste dos",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-piaga"
   },
@@ -372,51 +264,6 @@
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-piaga",
    "so_obras": [
-    "goncalves-dias-primeiros-cantos-cancao-do-exilio",
-    "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro",
-    "goncalves-dias-primeiros-cantos-o-canto-do-piaga",
-    "goncalves-dias-primeiros-cantos-o-canto-do-indio",
-    "goncalves-dias-primeiros-cantos-o-morro-do-alecrim",
-    "goncalves-dias-primeiros-cantos-o-soldado-espanhol",
-    "goncalves-dias-primeiros-cantos-a-leviana",
-    "goncalves-dias-primeiros-cantos-a-minha-musa",
-    "goncalves-dias-primeiros-cantos-desejo",
-    "goncalves-dias-primeiros-cantos-seus-olhos",
-    "goncalves-dias-primeiros-cantos-inocencia",
-    "goncalves-dias-primeiros-cantos-pedido",
-    "goncalves-dias-primeiros-cantos-o-desengano",
-    "goncalves-dias-primeiros-cantos-minha-vida-e-meus-amores",
-    "goncalves-dias-primeiros-cantos-recordacao",
-    "goncalves-dias-primeiros-cantos-tristeza",
-    "goncalves-dias-primeiros-cantos-o-trovador",
-    "goncalves-dias-primeiros-cantos-amor-delirio-engano",
-    "goncalves-dias-primeiros-cantos-delirio",
-    "goncalves-dias-primeiros-cantos-epicedio",
-    "goncalves-dias-primeiros-cantos-sofrimento",
-    "goncalves-dias-primeiros-cantos-visoes",
-    "goncalves-dias-primeiros-cantos-o-vate",
-    "goncalves-dias-primeiros-cantos-a-morte-prematura",
-    "goncalves-dias-primeiros-cantos-a-mendiga",
-    "goncalves-dias-primeiros-cantos-a-escrava",
-    "goncalves-dias-primeiros-cantos-ao-dr-joao-duarte-lisboa-serra",
-    "goncalves-dias-primeiros-cantos-lagrimas-sem-dor-e-dor-com-lagrimas",
-    "goncalves-dias-primeiros-cantos-o-desterro-de-um-pobre-velho",
-    "goncalves-dias-primeiros-cantos-o-orgulhoso",
-    "goncalves-dias-primeiros-cantos-o-cometa",
-    "goncalves-dias-primeiros-cantos-o-oiro",
-    "goncalves-dias-primeiros-cantos-a-um-menino",
-    "goncalves-dias-primeiros-cantos-miserrimus",
-    "goncalves-dias-primeiros-cantos-o-pirata",
-    "goncalves-dias-primeiros-cantos-a-vila-maldita",
-    "goncalves-dias-primeiros-cantos-quadras-da-minha-vida",
-    "goncalves-dias-primeiros-cantos-o-mar",
-    "goncalves-dias-primeiros-cantos-ideia-de-deus",
-    "goncalves-dias-primeiros-cantos-o-romper-dalva",
-    "goncalves-dias-primeiros-cantos-a-tarde",
-    "goncalves-dias-primeiros-cantos-a-noite",
-    "goncalves-dias-primeiros-cantos-te-deum",
-    "goncalves-dias-primeiros-cantos-adeus-aos-meus-amigos",
-    "goncalves-dias-primeiros-cantos-05b-deprecacao",
     "goncalves-dias-segundos-cantos-consolacao-nas-lagrimas",
     "goncalves-dias-segundos-cantos-cancao",
     "goncalves-dias-segundos-cantos-lira",
@@ -525,17 +372,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-piaga"
   },
   {
-   "lema": "harto",
-   "formas": [
-    "hartos"
-   ],
-   "classe": "antigo, adjetivo",
-   "def": "farto: muito, grande, grosso",
-   "exemplo": "selva — sem folhas — hi vem; Hartos troncos, robustos, gigantes; Vossas matas tais",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-canto-do-piaga"
-  },
-  {
    "lema": "embira",
    "formas": [
     "embira"
@@ -597,7 +433,6 @@
   {
    "lema": "calcar",
    "formas": [
-    "calcara",
     "calcando",
     "calcados",
     "calcar",
@@ -625,8 +460,7 @@
   {
    "lema": "ebúrneo",
    "formas": [
-    "ebúrneo",
-    "ebúrnea"
+    "ebúrneo"
    ],
    "classe": "adjetivo",
    "def": "branco e liso como marfim",
@@ -637,7 +471,6 @@
   {
    "lema": "níveo",
    "formas": [
-    "níveo",
     "nívea",
     "níveos"
    ],
@@ -750,17 +583,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-o-morro-do-alecrim"
   },
   {
-   "lema": "velâmen",
-   "formas": [
-    "velamen"
-   ],
-   "classe": "substantivo masculino",
-   "def": "véu, cobertura",
-   "exemplo": "— cobriste o teu rosto Com denso velamen de penas gentis; E jazem teus",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-morro-do-alecrim"
-  },
-  {
    "lema": "danado",
    "formas": [
     "danada"
@@ -770,20 +592,6 @@
    "exemplo": "nos trouxe Filhos de Tupã, essa raça danada, Em vão deu-lhe of'rendas o Piaga",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-morro-do-alecrim"
-  },
-  {
-   "lema": "boa",
-   "formas": [
-    "boa"
-   ],
-   "classe": "substantivo feminino",
-   "def": "jiboia, cobra grande",
-   "exemplo": "e frutas — e a pel'cambiante Da Boa vistosa de corpo pasmoso. Manito —",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-morro-do-alecrim",
-   "so_obras": [
-    "goncalves-dias-primeiros-cantos-o-morro-do-alecrim"
-   ]
   },
   {
    "lema": "igara",
@@ -817,8 +625,6 @@
     "folgar",
     "folgava",
     "folgara",
-    "folgando",
-    "folgasse",
     "folguei",
     "folgares",
     "folgo"
@@ -829,51 +635,6 @@
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol",
    "so_obras": [
-    "goncalves-dias-primeiros-cantos-cancao-do-exilio",
-    "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro",
-    "goncalves-dias-primeiros-cantos-o-canto-do-piaga",
-    "goncalves-dias-primeiros-cantos-o-canto-do-indio",
-    "goncalves-dias-primeiros-cantos-o-morro-do-alecrim",
-    "goncalves-dias-primeiros-cantos-o-soldado-espanhol",
-    "goncalves-dias-primeiros-cantos-a-leviana",
-    "goncalves-dias-primeiros-cantos-a-minha-musa",
-    "goncalves-dias-primeiros-cantos-desejo",
-    "goncalves-dias-primeiros-cantos-seus-olhos",
-    "goncalves-dias-primeiros-cantos-inocencia",
-    "goncalves-dias-primeiros-cantos-pedido",
-    "goncalves-dias-primeiros-cantos-o-desengano",
-    "goncalves-dias-primeiros-cantos-minha-vida-e-meus-amores",
-    "goncalves-dias-primeiros-cantos-recordacao",
-    "goncalves-dias-primeiros-cantos-tristeza",
-    "goncalves-dias-primeiros-cantos-o-trovador",
-    "goncalves-dias-primeiros-cantos-amor-delirio-engano",
-    "goncalves-dias-primeiros-cantos-delirio",
-    "goncalves-dias-primeiros-cantos-epicedio",
-    "goncalves-dias-primeiros-cantos-sofrimento",
-    "goncalves-dias-primeiros-cantos-visoes",
-    "goncalves-dias-primeiros-cantos-o-vate",
-    "goncalves-dias-primeiros-cantos-a-morte-prematura",
-    "goncalves-dias-primeiros-cantos-a-mendiga",
-    "goncalves-dias-primeiros-cantos-a-escrava",
-    "goncalves-dias-primeiros-cantos-ao-dr-joao-duarte-lisboa-serra",
-    "goncalves-dias-primeiros-cantos-lagrimas-sem-dor-e-dor-com-lagrimas",
-    "goncalves-dias-primeiros-cantos-o-desterro-de-um-pobre-velho",
-    "goncalves-dias-primeiros-cantos-o-orgulhoso",
-    "goncalves-dias-primeiros-cantos-o-cometa",
-    "goncalves-dias-primeiros-cantos-o-oiro",
-    "goncalves-dias-primeiros-cantos-a-um-menino",
-    "goncalves-dias-primeiros-cantos-miserrimus",
-    "goncalves-dias-primeiros-cantos-o-pirata",
-    "goncalves-dias-primeiros-cantos-a-vila-maldita",
-    "goncalves-dias-primeiros-cantos-quadras-da-minha-vida",
-    "goncalves-dias-primeiros-cantos-o-mar",
-    "goncalves-dias-primeiros-cantos-ideia-de-deus",
-    "goncalves-dias-primeiros-cantos-o-romper-dalva",
-    "goncalves-dias-primeiros-cantos-a-tarde",
-    "goncalves-dias-primeiros-cantos-a-noite",
-    "goncalves-dias-primeiros-cantos-te-deum",
-    "goncalves-dias-primeiros-cantos-adeus-aos-meus-amigos",
-    "goncalves-dias-primeiros-cantos-05b-deprecacao",
     "goncalves-dias-segundos-cantos-consolacao-nas-lagrimas",
     "goncalves-dias-segundos-cantos-cancao",
     "goncalves-dias-segundos-cantos-lira",
@@ -1008,28 +769,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
   },
   {
-   "lema": "nebri",
-   "formas": [
-    "nebris"
-   ],
-   "classe": "substantivo masculino",
-   "def": "falcão de caça",
-   "exemplo": "pajens, selado o ginete, Quero em punho nebris e falcão, Qu'é promessa de grande",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
-  },
-  {
-   "lema": "venábulo",
-   "formas": [
-    "venablo"
-   ],
-   "classe": "substantivo masculino",
-   "def": "lança curta de caça",
-   "exemplo": "tudo luzindo, brilhante, — Curta espada, e venablo e punhal; — Cães e galgos",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
-  },
-  {
    "lema": "sanhudo",
    "formas": [
     "sanhudo",
@@ -1038,28 +777,6 @@
    "classe": "adjetivo",
    "def": "furioso, raivoso",
    "exemplo": "e galgos farejem diante Leve odor de sanhudo animal. » E ai do gamo",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
-  },
-  {
-   "lema": "coutada",
-   "formas": [
-    "coutada"
-   ],
-   "classe": "substantivo feminino",
-   "def": "terra reservada à caça do senhor",
-   "exemplo": "ai do gamo que eu vir na coutada, Corça, onagro que eu primo avistar!",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
-  },
-  {
-   "lema": "onagro",
-   "formas": [
-    "onagro"
-   ],
-   "classe": "substantivo masculino",
-   "def": "jumento selvagem",
-   "exemplo": "gamo que eu vir na coutada, Corça, onagro que eu primo avistar! Que o",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
   },
@@ -1090,7 +807,6 @@
    "lema": "loução",
    "formas": [
     "louçãos",
-    "loução",
     "louçãs"
    ],
    "classe": "adjetivo",
@@ -1113,23 +829,11 @@
   {
    "lema": "seteira",
    "formas": [
-    "seteira",
-    "seteiras"
+    "seteira"
    ],
    "classe": "substantivo feminino",
    "def": "abertura estreita na muralha, para atirar setas",
    "exemplo": "vento Na torre castelã batendo acaso, Não seteiras acaso sibilando Do castelo feudal —",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
-  },
-  {
-   "lema": "haqueneia",
-   "formas": [
-    "haqueneias"
-   ],
-   "classe": "substantivo feminino",
-   "def": "égua mansa de passo macio, montaria de damas",
-   "exemplo": "Doiro Geiras mil de lavradio; Tenho lindas haqueneias, Tenho pajens e matilha, Tenho os",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
   },
@@ -1141,17 +845,6 @@
    "classe": "substantivo feminino",
    "def": "água pura, de fonte",
    "exemplo": "Tenho fragatas que cingem Dos mares a linfa clara, Que vão preiando piratas Pelas",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
-  },
-  {
-   "lema": "endecha",
-   "formas": [
-    "endeixas"
-   ],
-   "classe": "substantivo feminino",
-   "def": "canção triste",
-   "exemplo": "saudosa Bem junto d'ela sentado, Cantava brandas endeixas O Gardingo namorado. « Careço de",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-soldado-espanhol"
   },
@@ -1171,7 +864,6 @@
    "formas": [
     "pressuroso",
     "pressurosos",
-    "pressurosa",
     "pressurosas"
    ],
    "classe": "adjetivo",
@@ -1183,7 +875,6 @@
   {
    "lema": "dextra",
    "formas": [
-    "dextra",
     "destra"
    ],
    "classe": "substantivo feminino",
@@ -1233,7 +924,6 @@
    "formas": [
     "donoso",
     "donosa",
-    "donosas",
     "donosos"
    ],
    "classe": "adjetivo",
@@ -1300,17 +990,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-a-minha-musa"
   },
   {
-   "lema": "falerno",
-   "formas": [
-    "falerno"
-   ],
-   "classe": "substantivo masculino",
-   "def": "vinho famoso da Roma antiga; vinho fino",
-   "exemplo": "grande em lauta mesa, Onde gira o falerno em taças d'oiro, Não é que",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-minha-musa"
-  },
-  {
    "lema": "carpir",
    "formas": [
     "carpir",
@@ -1365,34 +1044,11 @@
    "lema": "merencório",
    "formas": [
     "merencório",
-    "merencória",
-    "merencórios"
+    "merencória"
    ],
    "classe": "adjetivo",
    "def": "melancólico, triste",
    "exemplo": "Quando os astros derramam sobre a terra Merencório luzir. Ela então, sem destino, erra",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-minha-musa"
-  },
-  {
-   "lema": "pegureiro",
-   "formas": [
-    "pegureiro"
-   ],
-   "classe": "substantivo masculino",
-   "def": "pastor de gado",
-   "exemplo": "já m'a dera acabar! Tenho inveja ao pegureiro, Da pastora invejo a vida, Invejo",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-minha-musa"
-  },
-  {
-   "lema": "pegão",
-   "formas": [
-    "pegão"
-   ],
-   "classe": "substantivo masculino",
-   "def": "ventania forte, rajada",
-   "exemplo": "mortos Sob a laje carcomida. Se qual pegão tormentoso, O sopro da desventura Vai",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-a-minha-musa"
   },
@@ -1443,17 +1099,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-minha-vida-e-meus-amores"
   },
   {
-   "lema": "rebuçado",
-   "formas": [
-    "rebuçado"
-   ],
-   "classe": "adjetivo",
-   "def": "encoberto, disfarçado",
-   "exemplo": "mordi no fruto Pútrido e amargo e rebuçado em cinzas, Como infante glutão que",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-minha-vida-e-meus-amores"
-  },
-  {
    "lema": "pego",
    "formas": [
     "pego"
@@ -1467,7 +1112,6 @@
   {
    "lema": "açucena",
    "formas": [
-    "açucenas",
     "açucena"
    ],
    "classe": "substantivo feminino",
@@ -1488,17 +1132,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-o-trovador"
   },
   {
-   "lema": "morrião",
-   "formas": [
-    "morrião"
-   ],
-   "classe": "substantivo masculino",
-   "def": "capacete antigo",
-   "exemplo": "bracelete » E, qual lúcido espelho, o morrião. » Tens fogoso corcel todo arreiado,",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-trovador"
-  },
-  {
    "lema": "varlete",
    "formas": [
     "varletes"
@@ -1512,23 +1145,11 @@
   {
    "lema": "aperceber",
    "formas": [
-    "apercebia",
-    "apercebida"
+    "apercebia"
    ],
    "classe": "verbo",
    "def": "preparar, aprontar",
    "exemplo": "e escudeiros » E a marcha afoita, apercebida em guerra » Do luzido esquadrão",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-trovador"
-  },
-  {
-   "lema": "truão",
-   "formas": [
-    "truão"
-   ],
-   "classe": "substantivo masculino",
-   "def": "bobo da corte, palhaço",
-   "exemplo": "— Minha dama quer ouvir-te, » Canta, truão trovador! — » Manda a mulher",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-trovador"
   },
@@ -1569,7 +1190,6 @@
   {
    "lema": "ósculo",
    "formas": [
-    "ósculo",
     "ósculos"
    ],
    "classe": "substantivo masculino",
@@ -1582,7 +1202,6 @@
    "lema": "baço",
    "formas": [
     "baça",
-    "baços",
     "baço"
    ],
    "classe": "adjetivo",
@@ -1608,7 +1227,6 @@
    "formas": [
     "roja",
     "rojam",
-    "rojar",
     "rojavam",
     "rojei",
     "rojado"
@@ -1624,7 +1242,6 @@
    "formas": [
     "pejando",
     "pejado",
-    "pejada",
     "pejados"
    ],
    "classe": "verbo",
@@ -1649,8 +1266,7 @@
    "formas": [
     "aventando",
     "aventasse",
-    "aventar",
-    "aventei"
+    "aventar"
    ],
    "classe": "verbo",
    "def": "perceber, adivinhar; também propor, sugerir",
@@ -1661,8 +1277,7 @@
   {
    "lema": "hirsuto",
    "formas": [
-    "hirsuto",
-    "hirsuta"
+    "hirsuto"
    ],
    "classe": "adjetivo",
    "def": "de pelos duros e eriçados, peludo",
@@ -1673,23 +1288,11 @@
   {
    "lema": "sopesar",
    "formas": [
-    "sopesa",
-    "sopesava"
+    "sopesa"
    ],
    "classe": "verbo",
    "def": "segurar na mão, sentindo o peso",
    "exemplo": "carregado e barba hirsuta Nas mãos calosas sopesava a lança. Dos mercadores na comprida",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
-  },
-  {
-   "lema": "serralho",
-   "formas": [
-    "serralhos"
-   ],
-   "classe": "substantivo masculino",
-   "def": "harém",
-   "exemplo": "corpo Do estofo que vendia. — Nos serralhos Era o Eunuco imperfeito; — das",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
   },
@@ -1707,8 +1310,7 @@
   {
    "lema": "zimbório",
    "formas": [
-    "zimbórios",
-    "zimbório"
+    "zimbórios"
    ],
    "classe": "substantivo masculino",
    "def": "cúpula de igreja",
@@ -1769,17 +1371,6 @@
    "classe": "adjetivo",
    "def": "estúpido, sem juízo",
    "exemplo": "se sentia. » Morrer! — dizia o stólido, sentindo » Da morte o cru",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
-  },
-  {
-   "lema": "sobrecenho",
-   "formas": [
-    "sobrecenho"
-   ],
-   "classe": "substantivo masculino",
-   "def": "cara fechada, sobrancelhas franzidas",
-   "exemplo": "sido » Motor de tudo a um sobrecenho — a um gesto? » Morrer",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
   },
@@ -1857,34 +1448,11 @@
    "lema": "mesto",
    "formas": [
     "mesta",
-    "mestos",
     "mesto"
    ],
    "classe": "adjetivo",
    "def": "triste",
    "exemplo": "Era tudo amor; — dormente Era a mesta solidão, — Porém eis que de",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
-  },
-  {
-   "lema": "couceira",
-   "formas": [
-    "couceiras"
-   ],
-   "classe": "substantivo feminino",
-   "def": "peça em que gira a porta, junto às dobradiças",
-   "exemplo": "mal seguros se arrastavam. Como sobre as couceiras se revolvem As portas emperradas, tal",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
-  },
-  {
-   "lema": "tremebundo",
-   "formas": [
-    "tremebundo"
-   ],
-   "classe": "adjetivo",
-   "def": "que faz tremer, terrível",
-   "exemplo": "— os longos dedos Correndo pela testa, tremebundo Carrega sobre a turba o rosto",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
   },
@@ -1927,8 +1495,7 @@
    "lema": "adejar",
    "formas": [
     "adejavas",
-    "adejam",
-    "adejar"
+    "adejam"
    ],
    "classe": "verbo",
    "def": "esvoaçar, bater as asas",
@@ -1939,7 +1506,6 @@
   {
    "lema": "conspecto",
    "formas": [
-    "conspecto",
     "conspeto"
    ],
    "classe": "substantivo masculino",
@@ -1969,28 +1535,6 @@
    "classe": "substantivo masculino",
    "def": "sopro leve, brisa",
    "exemplo": "Onde estás? — Já da morte o bafejo Por teu rosto divino roçou; Já",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
-  },
-  {
-   "lema": "soído",
-   "formas": [
-    "soído"
-   ],
-   "classe": "substantivo masculino",
-   "def": "som, ruído",
-   "exemplo": "ao manso clarão. Era o cantar um soído Fraco, incerto e duvidoso; Era o",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
-  },
-  {
-   "lema": "segador",
-   "formas": [
-    "segador"
-   ],
-   "classe": "substantivo masculino",
-   "def": "ceifeiro, quem corta o trigo",
-   "exemplo": "entre o feno maduro A foice do segador. — E prostrar uma após outra",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-visoes"
   },
@@ -2106,50 +1650,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-a-mendiga"
   },
   {
-   "lema": "archote",
-   "formas": [
-    "archotes"
-   ],
-   "classe": "substantivo masculino",
-   "def": "tocha",
-   "exemplo": "— Infindos pajens Ricas librés trajando, mil archotes Nos ares revolviam; — fortes, rápidos,",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-mendiga"
-  },
-  {
-   "lema": "sege",
-   "formas": [
-    "sege"
-   ],
-   "classe": "substantivo feminino",
-   "def": "carruagem antiga de duas rodas",
-   "exemplo": "Fumegantes corcéis sorvendo a terra Tiravam rica sege melindrosa. Sobre a terra saltou airosa",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-mendiga"
-  },
-  {
-   "lema": "óbolo",
-   "formas": [
-    "óbolo"
-   ],
-   "classe": "substantivo masculino",
-   "def": "pequena esmola",
-   "exemplo": "dai; — de que vos serve Um óbolo mesquinho que não pode Sequer um",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-mendiga"
-  },
-  {
-   "lema": "ouropel",
-   "formas": [
-    "oiropel"
-   ],
-   "classe": "substantivo masculino",
-   "def": "falso brilho, enfeite sem valor",
-   "exemplo": "vida, além da morte, Quando deixardes o oiropel na campa, Quando subirdes do Senhor",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-mendiga"
-  },
-  {
    "lema": "pejo",
    "formas": [
     "pejo"
@@ -2175,9 +1675,7 @@
   {
    "lema": "rábido",
    "formas": [
-    "rábida",
-    "rábido",
-    "rábidas"
+    "rábida"
    ],
    "classe": "adjetivo",
    "def": "raivoso, furioso",
@@ -2189,8 +1687,7 @@
    "lema": "pungir",
    "formas": [
     "punge",
-    "punja",
-    "pungir"
+    "punja"
    ],
    "classe": "verbo",
    "def": "ferir, picar; causar dor",
@@ -2201,8 +1698,7 @@
   {
    "lema": "montesinho",
    "formas": [
-    "montesinhos",
-    "montesinho"
+    "montesinhos"
    ],
    "classe": "adjetivo",
    "def": "do monte, selvagem",
@@ -2234,17 +1730,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-ao-dr-joao-duarte-lisboa-serra"
   },
   {
-   "lema": "nume",
-   "formas": [
-    "nume"
-   ],
-   "classe": "substantivo masculino",
-   "def": "divindade, deus",
-   "exemplo": "Anjo — encanto, — mulher, foras meu nume, Foras meu sangue, meu prazer, minha",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-lagrimas-sem-dor-e-dor-com-lagrimas"
-  },
-  {
    "lema": "recender",
    "formas": [
     "recendendo",
@@ -2254,17 +1739,6 @@
    "classe": "verbo",
    "def": "exalar perfume",
    "exemplo": "mocidade, quando a vida Por entre flores, recendendo aromas, Risonha e festival, sem medo",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-lagrimas-sem-dor-e-dor-com-lagrimas"
-  },
-  {
-   "lema": "sáfaro",
-   "formas": [
-    "sáfara"
-   ],
-   "classe": "adjetivo",
-   "def": "árido, estéril",
-   "exemplo": "hoje se entorna, Que não em terra sáfara; Doido por muito amar, por ser",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-lagrimas-sem-dor-e-dor-com-lagrimas"
   },
@@ -2282,7 +1756,6 @@
   {
    "lema": "cenho",
    "formas": [
-    "cenho",
     "cenhos"
    ],
    "classe": "substantivo masculino",
@@ -2370,17 +1843,6 @@
    "exemplo": "Que undoso corre no pendor do monte, Precípite e ruidoso, — arbustos, troncos Consigo",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-oiro"
-  },
-  {
-   "lema": "bonina",
-   "formas": [
-    "bonina"
-   ],
-   "classe": "substantivo feminino",
-   "def": "florzinha do campo, margarida",
-   "exemplo": "noitinha, — e te entristeces Como a bonina, — e adormeces, Adormeces a sonhar!",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-um-menino"
   },
   {
    "lema": "quebranto",
@@ -2477,17 +1939,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-miserrimus"
   },
   {
-   "lema": "sânie",
-   "formas": [
-    "sânie"
-   ],
-   "classe": "substantivo feminino",
-   "def": "pus",
-   "exemplo": "que ali passou, vendo um cadáver De sânie e podridão comido e sujo, Co'o",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-miserrimus"
-  },
-  {
    "lema": "amainar",
    "formas": [
     "amaina"
@@ -2495,17 +1946,6 @@
    "classe": "verbo",
    "def": "acalmar, abrandar",
    "exemplo": "À noite bela fragata Chega ao porto, amaina, ancora. Cai da popa e fere",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-pirata"
-  },
-  {
-   "lema": "falua",
-   "formas": [
-    "falua"
-   ],
-   "classe": "substantivo feminino",
-   "def": "pequena embarcação de vela",
-   "exemplo": "popa e fere as ondas Inquieta, esguia falua, Que resvala sobre as águas Na",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-pirata"
   },
@@ -2519,39 +1959,6 @@
    "exemplo": "resvala sobre as águas Na esteira que traça a lua. Já na vácua praia",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-pirata"
-  },
-  {
-   "lema": "mezena",
-   "formas": [
-    "mezena"
-   ],
-   "classe": "substantivo feminino",
-   "def": "vela do mastro de ré do navio",
-   "exemplo": "um globo pintado; E no mastro da mezena Um negro vulto encostado. Eram chorosos",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-o-pirata"
-  },
-  {
-   "lema": "eivado",
-   "formas": [
-    "eivada"
-   ],
-   "classe": "adjetivo",
-   "def": "contaminado, manchado",
-   "exemplo": "honra, Sem pejo, sem pudor — d'infâmia eivada. E o livre ditirambo, a atroz",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-vila-maldita"
-  },
-  {
-   "lema": "ditirambo",
-   "formas": [
-    "ditirambo"
-   ],
-   "classe": "substantivo masculino",
-   "def": "poema de louvor exaltado",
-   "exemplo": "pudor — d'infâmia eivada. E o livre ditirambo, a atroz blasfêmia, Os cantos imorais,",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-vila-maldita"
   },
   {
    "lema": "coorte",
@@ -2588,50 +1995,6 @@
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-a-vila-maldita",
    "so_obras": [
-    "goncalves-dias-primeiros-cantos-cancao-do-exilio",
-    "goncalves-dias-primeiros-cantos-o-canto-do-guerreiro",
-    "goncalves-dias-primeiros-cantos-o-canto-do-piaga",
-    "goncalves-dias-primeiros-cantos-o-canto-do-indio",
-    "goncalves-dias-primeiros-cantos-o-morro-do-alecrim",
-    "goncalves-dias-primeiros-cantos-a-leviana",
-    "goncalves-dias-primeiros-cantos-a-minha-musa",
-    "goncalves-dias-primeiros-cantos-desejo",
-    "goncalves-dias-primeiros-cantos-seus-olhos",
-    "goncalves-dias-primeiros-cantos-inocencia",
-    "goncalves-dias-primeiros-cantos-pedido",
-    "goncalves-dias-primeiros-cantos-o-desengano",
-    "goncalves-dias-primeiros-cantos-minha-vida-e-meus-amores",
-    "goncalves-dias-primeiros-cantos-recordacao",
-    "goncalves-dias-primeiros-cantos-tristeza",
-    "goncalves-dias-primeiros-cantos-o-trovador",
-    "goncalves-dias-primeiros-cantos-amor-delirio-engano",
-    "goncalves-dias-primeiros-cantos-delirio",
-    "goncalves-dias-primeiros-cantos-epicedio",
-    "goncalves-dias-primeiros-cantos-sofrimento",
-    "goncalves-dias-primeiros-cantos-visoes",
-    "goncalves-dias-primeiros-cantos-o-vate",
-    "goncalves-dias-primeiros-cantos-a-morte-prematura",
-    "goncalves-dias-primeiros-cantos-a-mendiga",
-    "goncalves-dias-primeiros-cantos-a-escrava",
-    "goncalves-dias-primeiros-cantos-ao-dr-joao-duarte-lisboa-serra",
-    "goncalves-dias-primeiros-cantos-lagrimas-sem-dor-e-dor-com-lagrimas",
-    "goncalves-dias-primeiros-cantos-o-desterro-de-um-pobre-velho",
-    "goncalves-dias-primeiros-cantos-o-orgulhoso",
-    "goncalves-dias-primeiros-cantos-o-cometa",
-    "goncalves-dias-primeiros-cantos-o-oiro",
-    "goncalves-dias-primeiros-cantos-a-um-menino",
-    "goncalves-dias-primeiros-cantos-miserrimus",
-    "goncalves-dias-primeiros-cantos-o-pirata",
-    "goncalves-dias-primeiros-cantos-a-vila-maldita",
-    "goncalves-dias-primeiros-cantos-quadras-da-minha-vida",
-    "goncalves-dias-primeiros-cantos-o-mar",
-    "goncalves-dias-primeiros-cantos-ideia-de-deus",
-    "goncalves-dias-primeiros-cantos-o-romper-dalva",
-    "goncalves-dias-primeiros-cantos-a-tarde",
-    "goncalves-dias-primeiros-cantos-a-noite",
-    "goncalves-dias-primeiros-cantos-te-deum",
-    "goncalves-dias-primeiros-cantos-adeus-aos-meus-amigos",
-    "goncalves-dias-primeiros-cantos-05b-deprecacao",
     "goncalves-dias-segundos-cantos-consolacao-nas-lagrimas",
     "goncalves-dias-segundos-cantos-cancao",
     "goncalves-dias-segundos-cantos-lira",
@@ -2751,17 +2114,6 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-a-vila-maldita"
   },
   {
-   "lema": "nitrido",
-   "formas": [
-    "nitrido"
-   ],
-   "classe": "substantivo masculino",
-   "def": "relincho",
-   "exemplo": "da guerra lampeja, Do fogoso corcel o nitrido, Eis o brônzeo canhão que rouqueja,",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-a-vila-maldita"
-  },
-  {
    "lema": "bizarria",
    "formas": [
     "bizarria"
@@ -2775,8 +2127,7 @@
   {
    "lema": "lidador",
    "formas": [
-    "lidador",
-    "lidadores"
+    "lidador"
    ],
    "classe": "substantivo masculino",
    "def": "guerreiro, combatente",
@@ -2798,7 +2149,6 @@
   {
    "lema": "fido",
    "formas": [
-    "fido",
     "fida"
    ],
    "classe": "adjetivo",
@@ -2830,24 +2180,12 @@
    "obra_ex": "goncalves-dias-primeiros-cantos-quadras-da-minha-vida"
   },
   {
-   "lema": "vesperino",
-   "formas": [
-    "vesperina"
-   ],
-   "classe": "adjetivo",
-   "def": "da tarde",
-   "exemplo": "das ondas, Aspirando perfumes mal sentidos, Por vesperina aragem bafejados, É jogo o seu",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-quadras-da-minha-vida"
-  },
-  {
    "lema": "bafejar",
    "formas": [
     "bafeja",
     "bafejam",
     "bafejara",
-    "bafejada",
-    "bafejados"
+    "bafejada"
    ],
    "classe": "verbo",
    "def": "soprar de leve; favorecer",
@@ -2881,8 +2219,7 @@
    "lema": "proceloso",
    "formas": [
     "procelosa",
-    "proceloso",
-    "procelosas"
+    "proceloso"
    ],
    "classe": "adjetivo",
    "def": "tempestuoso",
@@ -2915,8 +2252,7 @@
   {
    "lema": "horríssono",
    "formas": [
-    "horríssono",
-    "horríssona"
+    "horríssono"
    ],
    "classe": "adjetivo",
    "def": "que soa de modo horrível",
@@ -2927,25 +2263,13 @@
   {
    "lema": "fulvo",
    "formas": [
-    "fulvos",
-    "fulva"
+    "fulvos"
    ],
    "classe": "adjetivo",
    "def": "amarelo-avermelhado, cor de fogo",
    "exemplo": "soará que as tuas vagas Mordendo a fulva areia; Inda mais doce que o",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-o-mar"
-  },
-  {
-   "lema": "carunchoso",
-   "formas": [
-    "carunchoso"
-   ],
-   "classe": "adjetivo",
-   "def": "roído pelo caruncho",
-   "exemplo": "Esperançoso e crente, Como do podre e carunchoso tronco Hástea forte e virente. II",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-ideia-de-deus"
   },
   {
    "lema": "tapiz",
@@ -3018,8 +2342,7 @@
   {
    "lema": "fragoso",
    "formas": [
-    "fragosos",
-    "fragosas"
+    "fragosos"
    ],
    "classe": "adjetivo",
    "def": "cheio de penhascos, áspero",
@@ -3070,17 +2393,6 @@
    "classe": "adjetivo",
    "def": "tomado, paralisado (de medo, frio ou dor)",
    "exemplo": "abrigo. Rasgado o coração de pena acerba, Transido de aflições, cheio de mágoa, Miserando",
-   "capitulo": 1,
-   "obra_ex": "goncalves-dias-primeiros-cantos-adeus-aos-meus-amigos"
-  },
-  {
-   "lema": "réprobo",
-   "formas": [
-    "réprobo"
-   ],
-   "classe": "substantivo masculino",
-   "def": "condenado, maldito",
-   "exemplo": "de mágoa, Miserando parti! — tal quando réprobo, Adão, cobrindo os olhos co'as mãos",
    "capitulo": 1,
    "obra_ex": "goncalves-dias-primeiros-cantos-adeus-aos-meus-amigos"
   },

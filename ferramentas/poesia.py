@@ -49,6 +49,7 @@ OBRAS_PROPRIAS = {
     'bilac': tuple('panoplias--%02d-' % n for n in range(1, 13)) + ('via-lactea--', 'sarcas-de-fogo--', 'alma-inquieta--', 'as-viagens--',
               'cacador-de-esmeraldas--'),   # edicoes/poesias-de-olavo-bilac/montar.py (02/11/2026)
     'fernando-pessoa': ('mensagem--',),   # edicoes/mensagem/montar.py (02/11/2026)
+    'goncalves-dias': ('primeiros-cantos--',),   # edicoes/primeiros-cantos/montar.py (02/11/2026)
 }
 
 # pasta do corpus -> id do autor na biblioteca (conteudo/autores.js)

@@ -42,6 +42,10 @@ DOCS = {
         '6 de janeiro de 1928', 1928, 'latim', 'la', 'AAS 20 (1928), p. 5 e seguintes',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html',
         'https://www.vatican.va/archive/aas/documents/AAS-20-1928-ocr.pdf'),
+    # o site da Santa Sé só tem o texto em inglês: a base é o PDF das AAS (url do texto: None), como no Lamentabili
+    'rerum-ecclesiae': ('Rerum Ecclesiae', 'Sobre as missões católicas', 'Carta encíclica', 'Pio XI',
+        '28 de fevereiro de 1926', 1926, 'latim', 'la', 'AAS 18 (1926), p. 65-83', None,
+        'https://www.vatican.va/archive/aas/documents/AAS-18-1926-ocr.pdf'),
     'quas-primas': ('Quas Primas', 'Sobre a festa de Cristo Rei', 'Carta encíclica', 'Pio XI',
         '11 de dezembro de 1925', 1925, 'latim', 'la', 'AAS 17 (1925), p. 593-610',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html',
@@ -124,6 +128,8 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
                                   'cinco referências bíblicas erradas das notas.'),
     'studiorum-ducem': ('Os erros de digitalização do site (uns setenta) foram corrigidos pelas _Acta_, e por elas '
                         'se juntaram três parágrafos que o site partia ao meio.'),
+    'rerum-ecclesiae': ('Os erros evidentes da leitura do PDF (OCR) foram corrigidos pela gramática, pelo sentido e pela '
+                        'versão inglesa do site; as notas, que nas _Acta_ recomeçam a cada página, vão numeradas em sequência.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
     'ad-beatissimi': ('Os erros evidentes de digitalização do site (uns quarenta) foram corrigidos. Num caso, no '
                       '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),

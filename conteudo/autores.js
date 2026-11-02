@@ -88,6 +88,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sulpicio-severo',
+  area: 'catolicismo',
+  nome: 'Sulpício Severo',
+  nomeCompleto: 'Sulpício Severo (Sulpicius Severus)',
+  vida: '~363–~420',
+  ordem: 'Sulpício Severo',
+  nota: 'Advogado da Aquitânia que deixou o mundo para a vida ascética, discípulo e biógrafo de São Martinho de Tours. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
   id: 'sao-gregorio-magno',
   area: 'catolicismo',
   nome: 'São Gregório Magno',

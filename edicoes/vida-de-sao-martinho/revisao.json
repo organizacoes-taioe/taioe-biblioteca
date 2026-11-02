@@ -1,0 +1,184 @@
+{
+ "id": "vida-de-sao-martinho",
+ "rotulo": "Vida de São Martinho (Sulpício Severo)",
+ "url": "/biblioteca/sulpicio-severo/vida-de-sao-martinho/",
+ "escolhas": [
+  {
+   "id": "chlamys-manto",
+   "titulo": "A *chlamys* que Martinho divide com o pobre fica «manto»?",
+   "ref": "cap. 3,2–4",
+   "contexto": "*nihil praeter chlamydem, qua indutus erat, habebat* (3,2): a *chlamys* era a capa curta do uniforme militar, presa no ombro. É a cena mais famosa do livro e da iconografia do santo.\n\nHoje: «Não tinha nada além do manto que vestia… divide o manto ao meio»; e Cristo aparece «vestido com a parte do seu manto».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«manto», como está",
+     "nota": "A palavra da tradição brasileira («o manto de São Martinho») e da pregação.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«capa»",
+     "nota": "Mais exato para a peça militar; é a forma usual em Portugal («a capa de São Martinho»)."
+    },
+    {
+     "id": "c",
+     "texto": "«clâmide»",
+     "nota": "Literal e técnico; o leitor comum não conhece."
+    }
+   ]
+  },
+  {
+   "id": "defensor-salmo",
+   "titulo": "O jogo com o nome do bispo Defensor fica «para destruíres o inimigo e o defensor»?",
+   "ref": "cap. 9,4–7",
+   "contexto": "O bispo Defensor se opõe à eleição de Martinho; um leitor abre o saltério ao acaso e lê Sl 8,3 no latim antigo: *ut destruas inimicum et defensorem*. O povo entende que o salmo nomeia o bispo. As Bíblias de hoje traduzem esse versículo de outro modo («o inimigo e o vingador»).\n\nHoje: «para destruíres o inimigo e o defensor», com minúscula, e o nome «Defensor» mantido sem tradução no resto do capítulo, para o leitor ver o jogo.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o inimigo e o defensor», como está",
+     "nota": "Traduz o latim que Severo cita; o jogo com o nome fica claro sem explicação.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o inimigo e o Defensor», com maiúscula no salmo",
+     "nota": "Mais evidente, mas põe na boca do salmo o que é leitura do povo."
+    },
+    {
+     "id": "c",
+     "texto": "«o inimigo e o vingador», como as Bíblias de hoje",
+     "nota": "Perde o jogo, e o capítulo deixa de fazer sentido."
+    }
+   ]
+  },
+  {
+   "id": "virtus-poder",
+   "titulo": "*Virtus*, quando é o milagre ou a força de Deus que age, fica «poder»?",
+   "ref": "caps. 7,3; 14,1–2; 16,5; 23,10",
+   "contexto": "Severo usa *virtus* nos dois sentidos: a virtude moral (2,7; 26,5) e a força que faz milagres (*sensisset… Domini adesse virtutem*, 7,3; *virtute Martini*, 14,2; *signum virtutis*, 16,5; *hanc etiam Martini fuisse virtutem*, 23,10). Nos milagres o plural *virtutes* às vezes quer dizer os próprios prodígios.\n\nHoje: «poder» nos milagres («sentindo… que estava presente o poder do Senhor»; «pelo poder de Martinho»; «também isso foi um poder de Martinho»); «virtude» no sentido moral e nas «virtudes de Martinho» de 7,5, 19,2 e 25,8.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«poder» nos milagres e «virtude» no sentido moral, como está",
+     "nota": "Claro para o leitor de hoje.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«virtude» sempre",
+     "nota": "Guarda a palavra do latim e da linguagem antiga dos milagres («a virtude de Deus»), mas soa a virtude moral."
+    },
+    {
+     "id": "c",
+     "texto": "«milagre» onde é o fato, «poder» onde é a força",
+     "nota": "Mais explícito, mas interpreta mais."
+    }
+   ]
+  },
+  {
+   "id": "rex-imperador",
+   "titulo": "*Rex*, que Severo usa para o imperador, fica «imperador»?",
+   "ref": "caps. 2,2; 2,5; 6,7; 20",
+   "contexto": "Severo chama os imperadores de *rex* (Constâncio, 2,2; Máximo, 20,2–8; *regia adulatio*, 20,1), ao lado de *imperator* e *princeps* para os mesmos homens. Em português «rei» faria pensar num outro cargo.\n\nHoje: «imperador» sempre («sob o imperador Constâncio»; «a adulação do imperador»; «o almoço do imperador»); *regnum* → «reino» ou «reinar».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«imperador», como está",
+     "nota": "Corresponde ao cargo; o leitor não se confunde.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«rei», como no latim",
+     "nota": "Literal; dá a impressão de que eram reis de outro tipo."
+    }
+   ]
+  },
+  {
+   "id": "tyrannus-juliano",
+   "titulo": "Em 4,4, *tyrannus* (o césar Juliano, que depois apostatou) fica «o tirano»?",
+   "ref": "cap. 4,4",
+   "contexto": "*tum vero adversus hanc vocem tyrannus infremuit*. Juliano ainda era césar e ainda não renegara a fé, mas Severo escreve depois da apostasia e lhe dá o nome de tirano.\n\nHoje: «Diante dessas palavras o tirano bramiu de raiva».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o tirano», como está",
+     "nota": "Guarda o juízo de Severo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o césar»",
+     "nota": "Neutro; apaga a intenção do autor."
+    }
+   ]
+  },
+  {
+   "id": "sacerdos-bispo",
+   "titulo": "*Sacerdos*, quando é o bispo, fica «sacerdote»?",
+   "ref": "caps. 9,3; 10,9; 20,1; 26,5",
+   "contexto": "No latim do século IV *sacerdos* designa sobretudo o bispo: *felicem fore tali ecclesiam sacerdote* (9,3); *de Martini monasterio… sacerdotem* (10,9); *cum esset summus sacerdos* (26,5). O presbítero é *presbyter*.\n\nHoje: «sacerdote» (9,3: «feliz seria a igreja com tal sacerdote»; 10,9; 26,5: «sendo o sacerdote mais alto»), e «bispo»/«episcopal» em 20,1 («a firmeza de um bispo», «a dignidade episcopal»), onde «sacerdotal» confundiria.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«sacerdote», como está, com «bispo» só em 20,1",
+     "nota": "Guarda a palavra antiga; o contexto mostra que é o bispo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«bispo» em todos",
+     "nota": "Mais claro, mas perde o tom de Severo e repete «bispo» ao lado de *episcopus*."
+    }
+   ]
+  },
+  {
+   "id": "nomes-de-lugar",
+   "titulo": "Os nomes de lugar ficam na forma de hoje (Pavia, Worms, Levroux)?",
+   "ref": "caps. 2,1; 4,1; 14,3",
+   "contexto": "Severo escreve *Ticini* (Pavia), *apud Vangionum civitatem* («a cidade dos vangiões», Worms), *in vico, cui Leprosum nomen est* (Levroux), *in pago Aeduorum* (a região de Autun). Nos outros casos o nome antigo e o de hoje coincidem ou são próximos (Poitiers, Amiens, Tours, Tréveris, Paris, Milão).\n\nHoje: «em Pavia»; «junto a Worms»; «na aldeia chamada Levroux»; «na região dos éduos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "formas de hoje, como está",
+     "nota": "O leitor acha os lugares no mapa; o latim fica ao lado.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "formas antigas aportuguesadas («em Ticino», «na cidade dos vangiões», «Leproso»)",
+     "nota": "Mais perto do texto, mas obscuras."
+    },
+    {
+     "id": "c",
+     "texto": "formas antigas com a de hoje entre parênteses",
+     "nota": "Explica, mas é acréscimo, contra a regra de não pôr explicações no texto."
+    }
+   ]
+  },
+  {
+   "id": "homero-infernos",
+   "titulo": "Em 26,3, *ab inferis Homerus emergeret* fica «saísse dos infernos»?",
+   "ref": "cap. 26,3",
+   "contexto": "*non si ipse, ut aiunt, ab inferis Homerus emergeret, posset exponere*: nem Homero, se voltasse da morada dos mortos, poderia contar a vida interior de Martinho. *Inferi* são os mortos e o seu lugar, não o inferno dos condenados.\n\nHoje: «nem que o próprio Homero, como dizem, saísse dos infernos, poderia expô-lo».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«saísse dos infernos», como está",
+     "nota": "A forma antiga, no plural, que distingue do inferno.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«voltasse do mundo dos mortos»",
+     "nota": "Sem risco de entender o inferno dos condenados; menos solene."
+    },
+    {
+     "id": "c",
+     "texto": "«ressuscitasse»",
+     "nota": "Simples, mas tira a imagem pagã que Severo usa de propósito."
+    }
+   ]
+  }
+ ]
+}

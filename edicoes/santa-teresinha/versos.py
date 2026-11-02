@@ -13,12 +13,16 @@ import sys
 import tempfile
 
 def _achar_versificador():
-    # sobe pelas pastas até achar Solar/Editora/Versificador (o repositório já mudou de lugar)
+    # sobe pelas pastas até achar o Versificador: Solar/producao/versificador desde 2026-10-31,
+    # antes Solar/Editora/Versificador (o repositório já mudou de lugar)
     d = os.path.dirname(os.path.abspath(__file__))
     while True:
-        alvo = os.path.join(d, 'Solar', 'Editora', 'Versificador')
-        if os.path.isdir(alvo) or os.path.dirname(d) == d:
-            return alvo
+        for alvo in (os.path.join(d, 'Solar', 'producao', 'versificador'),
+                     os.path.join(d, 'Solar', 'Editora', 'Versificador')):
+            if os.path.isdir(alvo):
+                return alvo
+        if os.path.dirname(d) == d:
+            return os.path.join(d, 'Solar', 'producao', 'versificador')
         d = os.path.dirname(d)
 
 

@@ -39,9 +39,10 @@ fixa o que tem de sair igual em todas.
     προκαθημένη τῆς ἀγάπης (Rm saudação) → «que preside ao amor» (ver revisão);
   - ὁ ἄρχων τοῦ αἰῶνος τούτου → o príncipe deste mundo; αἰών → século / mundo, conforme o caso;
   - Χριστιανισμός → cristianismo; Χριστιανός → cristão.
-- Nomes: Inácio, Policarpo, Onésimo, Burro, Croco, Eupló, Frontão, Damas, Basso, Apolônio, Zócion,
-  Políbio, Filão, Reo Agátopo, Alce, Tavia, Dafno, Eutecno, Átalo; Éfeso, Magnésia, Trales,
-  Filadélfia, Esmirna, Antioquia da Síria, Trôade, Roma; Pôncio Pilatos, Herodes, Maria, Davi.
+- Nomes: Inácio, Policarpo, Onésimo, Burro, Croco, Euplo, Frontão, Damas, Basso, Apolônio, Zócion,
+  Políbio, Filão, Reo Agátopo, Alce, Tavia, Dafno, Eutecno, Átalo, a mulher de Epítropo (Pol 8,2); Éfeso, Magnésia, Trales,
+  Filadélfia, Esmirna (os esmirnenses), Antioquia da Síria, Trôade, Roma; Pôncio Pilatos, Herodes, Maria, Davi.
 - Citações da Escritura: traduzidas do grego de Inácio, sem copiar uma Bíblia moderna.
 - Tom: a frase de Inácio é densa, às vezes truncada (anacolutos); guardar a densidade e o calor,
   sem alisar demais nem completar o que ele deixou subentendido.
+- Decisões que esperam o Gere: `revisao.json`; as outras escolhas de cada carta estão em `traducao/notas-*.md`.

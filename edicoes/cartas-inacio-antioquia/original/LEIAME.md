@@ -2,7 +2,7 @@
 
 Base: Kirsopp Lake, *The Apostolic Fathers*, vol. 1 (Loeb, 1912), p. 172–277, na digitalização do
 First1KGreek (`tlg1443.tlg001.1st1K-grc1.xml`, CC BY-SA 4.0; baixado em 2026-11-02). São as sete
-cartas da recensão média: Efésios, Magnésios, Tralianos, Romanos, Filadelfos, Esmirnenses e Policarpo.
+cartas da recensão média: Efésios, Magnésios, Tralianos, Romanos, Filadélfios, Esmirnenses e Policarpo.
 
 Como foi montado: do XML saíram as notas e as referências bíblicas de margem (`note`, `bibl`); os
 dois-pontos viraram o ponto alto grego (·); a saudação vem sem número, depois um parágrafo por
@@ -37,7 +37,7 @@ os sinais ʽ … ʼ de Lake).
 - **Romanos**: saudação Ἰγνατιος → Ἰγνάτιος; 2.1 «σαρκός μου. πάλιν» → vírgula; 2.1 ἕσομαι → ἔσομαι;
   4.1 ὦν → ὧν; 5.1 ἧμερας → ἡμέρας; 6.2 θελήσητε με → θελήσητέ με; 7.2 φιλόυλον → φιλόϋλον; 9.2 ὣν →
   ὢν; 10.2 οὕς → οὓς.
-- **Filadelfos**: 1.2 γαρ → γὰρ; 3.1 ὰποδιῡλισμόν → ἀποδιυλισμόν; 3.3 «ἀκολουθεῖ. βασιλείαν» → vírgula;
+- **Filadélfios**: 1.2 γαρ → γὰρ; 3.1 ὰποδιῡλισμόν → ἀποδιυλισμόν; 3.3 «ἀκολουθεῖ. βασιλείαν» → vírgula;
   5.2 ᾦ → ᾧ; 5.2 ἀξιαγαπητοι → ἀξιαγάπητοι; 6.1 ἰουδαῖσμόν → ἰουδαϊσμόν; 7.1 ἐπισκοπῳ → ἐπισκόπῳ; 8.1
   «ὀργή. θεὸς» → vírgula; 8.2 οἶς → οἷς; 11.2 «ὁμονοίᾳ, ἔρρωσθε» → ponto.
 - **Esmirnenses**: 1.2 οὖ → οὗ; 2.1 το δοκεῖν → τὸ δοκεῖν; 7.1 πρυσευχῆς → προσευχῆς; 7.1 δε → δὲ;

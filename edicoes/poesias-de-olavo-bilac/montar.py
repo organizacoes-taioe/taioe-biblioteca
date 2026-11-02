@@ -10,7 +10,7 @@ import json, os, re, glob
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(AQUI))
 PARTES = [('panoplias', 'Panóplias'), ('via-lactea', 'Via Láctea'), ('sarcas-de-fogo', 'Sarças de Fogo'),
-          ('alma-inquieta', 'Alma Inquieta')]  # as outras: ver FALTA.md
+          ('alma-inquieta', 'Alma Inquieta'), ('as-viagens', 'As Viagens'), ('cacador-de-esmeraldas', 'O Caçador de Esmeraldas')]  # as outras: ver FALTA.md
 ERROS = {('panoplias--01', 'Que ofício tal.. nem há notícia'): 'Que ofício tal... nem há notícia'}
 # grafia de hoje que o corpus não aplicou (por que nas perguntas, afora, trás, vazios, cor-de-rosa, campo-santo)
 GRAFIA = {
@@ -25,9 +25,14 @@ GRAFIA = {
     'alma-inquieta--32': [('porque vieste?', 'por que vieste?')],
     'alma-inquieta--33': [('Porque é que', 'Por que é que'), ('Porque, fugindo', 'Por que, fugindo'), ('Porque me ouviste', 'Por que me ouviste')],
     'alma-inquieta--36': [('Porque me vens', 'Por que me vens'), ('Porque levantas', 'Por que levantas'), ('Porque, entre as sombras', 'Por que, entre as sombras')],
+    'as-viagens--12': [('Pobre! porque, a sofrer', 'Pobre! por que, a sofrer')],
+    'as-viagens--14': [('o Chãos aqui', 'o Caos aqui'), ('por traz da bruma', 'por trás da bruma'), ('Terras Cristans', 'Terras Cristãs'),
+                       ('além, porque, a sofrer', 'além, por que, a sofrer')],
+    'cacador-de-esmeraldas--01': [('jussaras', 'juçaras'), ('ante manhã', 'antemanhã'), ('Guaycuhy', 'Guaicuí'), ('dar-lhe-hás', 'dar-lhe-ás')],
     'alma-inquieta--37': [('Olhos, porque inda', 'Olhos, por que inda'), ('Porque é que choro', 'Por que é que choro')],
 }
 FICAM = {"minh'alma", "d'alma", "d'água"}
+TITULOS = {'Os Fenicios': 'Os Fenícios', 'As Indias': 'As Índias', 'O Brazil': 'O Brasil'}
 ROM = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'XVIII',
        'XIX', 'XX', 'XXI', 'XXII', 'XXIII', 'XXIV', 'XXV', 'XXVI', 'XXVII', 'XXVIII', 'XXIX', 'XXX', 'XXXI', 'XXXII', 'XXXIII', 'XXXIV', 'XXXV']
 
@@ -61,7 +66,10 @@ def poema(f):
     t = re.sub(r'\n{3,}', '\n\n', '\n'.join(linhas)).strip()
     t = re.sub(r'(\*\*[IVX]+\*\*)\n(?=\|)', r'\1\n\n', t)
     pre = []
-    if 'subtitulo' in cab: pre.append('_' + cab['subtitulo'].strip('().') + '_')
+    if 'subtitulo' in cab:
+        sub = cab['subtitulo'].strip('().')
+        if sub.isupper(): sub = 'Episódio da epopeia sertanista no XVII século' if sub.startswith('EPISÓDIO') else sub.capitalize()
+        pre.append('_' + sub + '_')
     if 'dedicatoria' in cab: pre.append('_' + grafia(cab['dedicatoria']).rstrip('.') + '_')
     if 'epigrafe' in cab: pre.append('_' + cab['epigrafe'] + '_')
     if 'data' in cab: t += '\n\n_' + cab['data'] + '_'
@@ -77,12 +85,12 @@ for slug, nome in PARTES:
             if prim.count('(') != prim.count(')'): prim = prim.split('(')[0].rstrip(' ,')
             tit = ROM[i] + ' · ' + prim
         else:
-            tit = grafia(cab['titulo'])
+            tit = TITULOS.get(cab['titulo'], grafia(cab['titulo']))
         partes.append({'n': nome, 'titulo': tit}); textos.append(t)
 pal = sum(len(re.findall(r"[A-Za-zÀ-ÿ]+", t)) for t in textos)
 obra = {'id': 'poesias-de-olavo-bilac', 'autor': 'olavo-bilac', 'titulo': 'Poesias', 'ano': 1902, 'genero': 'Poesia',
         'divisao': {'singular': 'poema', 'plural': 'poemas', 'rotulo': 'titulo', 'agrupar': True},
-        'descricao': 'A edição definitiva em vida (Garnier, 1902). Por enquanto, as quatro primeiras partes: _Panóplias_, _Via Láctea_, _Sarças de Fogo_ e _Alma Inquieta_.',
+        'descricao': 'A edição definitiva em vida (Garnier, 1902). As seis partes: _Panóplias_, _Via Láctea_, _Sarças de Fogo_, _Alma Inquieta_, _As Viagens_ e _O Caçador de Esmeraldas_.',
         '_palavras': pal, 'partes': partes,
         'edicao': json.load(open(os.path.join(AQUI, 'edicao.json'), encoding='utf-8'))}
 js = ('/* Poesias — Olavo Bilac (1902). Gerado por edicoes/poesias-de-olavo-bilac/montar.py; não edite à mão. */\n'

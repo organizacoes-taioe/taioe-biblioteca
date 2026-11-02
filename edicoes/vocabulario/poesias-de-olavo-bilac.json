@@ -29,6 +29,7 @@
    "lema": "torvo",
    "formas": [
     "torvo",
+    "torvos",
     "torvas"
    ],
    "classe": "adjetivo",
@@ -200,7 +201,8 @@
    "formas": [
     "ulule",
     "ulular",
-    "ululando"
+    "ululando",
+    "ululante"
    ],
    "classe": "verbo",
    "def": "uivar, gritar de modo lamentoso",
@@ -387,7 +389,8 @@
   {
    "lema": "enfunar",
    "formas": [
-    "enfunada"
+    "enfunada",
+    "enfunadas"
    ],
    "classe": "verbo",
    "def": "inchar (a vela) com o vento",
@@ -420,7 +423,8 @@
   {
    "lema": "triclínio",
    "formas": [
-    "triclínios"
+    "triclínios",
+    "triclínio"
    ],
    "classe": "substantivo masculino",
    "def": "leito em que os romanos se reclinavam para comer; a sala de jantar",
@@ -476,7 +480,8 @@
    "lema": "rútilo",
    "formas": [
     "rútila",
-    "rútilo"
+    "rútilo",
+    "rútilos"
    ],
    "classe": "adjetivo",
    "def": "brilhante, resplandecente",
@@ -498,7 +503,8 @@
   {
    "lema": "aflar",
    "formas": [
-    "aflando"
+    "aflando",
+    "aflante"
    ],
    "classe": "verbo",
    "def": "ofegar; aflante: ofegante",
@@ -543,7 +549,8 @@
   {
    "lema": "búcina",
    "formas": [
-    "bucina"
+    "bucina",
+    "búcina"
    ],
    "classe": "substantivo feminino",
    "def": "trombeta de guerra dos romanos",
@@ -586,7 +593,8 @@
    "obra_ex": "poesias-de-olavo-bilac",
    "so_capitulos": [
     12,
-    88
+    88,
+    119
    ]
   },
   {
@@ -640,7 +648,9 @@
   {
    "lema": "bramir",
    "formas": [
-    "bramir"
+    "bramir",
+    "brame",
+    "bramidos"
    ],
    "classe": "verbo",
    "def": "rugir, fazer grande ruído (o mar, o vento, a fera)",
@@ -849,7 +859,8 @@
   {
    "lema": "charrua",
    "formas": [
-    "charrua"
+    "charrua",
+    "charruas"
    ],
    "classe": "substantivo feminino",
    "def": "arado",
@@ -872,7 +883,8 @@
    "lema": "torvelim",
    "formas": [
     "torvelins",
-    "torvelinhar"
+    "torvelinhar",
+    "torvelinhando"
    ],
    "classe": "substantivo masculino",
    "def": "redemoinho; torvelinhar: rodopiar",
@@ -939,7 +951,8 @@
   {
    "lema": "encanecer",
    "formas": [
-    "encanecida"
+    "encanecida",
+    "encaneces"
    ],
    "classe": "verbo",
    "def": "ficar de cabelos brancos, envelhecer",
@@ -1290,7 +1303,8 @@
    "formas": [
     "estorço",
     "estorcer",
-    "estorcia"
+    "estorcia",
+    "estorce"
    ],
    "classe": "verbo",
    "def": "torcer-se com força, contorcer-se",
@@ -1461,7 +1475,8 @@
    "lema": "crestar",
    "formas": [
     "cresta",
-    "creste"
+    "creste",
+    "crestadas"
    ],
    "classe": "verbo",
    "def": "queimar de leve, tostar, secar",
@@ -1494,7 +1509,8 @@
   {
    "lema": "espancar",
    "formas": [
-    "espancando"
+    "espancando",
+    "espancava"
    ],
    "classe": "verbo",
    "def": "afugentar, dissipar (a sombra, a bruma)",
@@ -1574,7 +1590,8 @@
   {
    "lema": "riba",
    "formas": [
-    "riba"
+    "riba",
+    "ribas"
    ],
    "classe": "substantivo feminino",
    "def": "margem alta do rio, ribanceira",
@@ -1585,7 +1602,8 @@
   {
    "lema": "macerado",
    "formas": [
-    "maceradas"
+    "maceradas",
+    "maceraram"
    ],
    "classe": "adjetivo",
    "def": "abatido e magro de jejuns e sofrimentos; macerar: mortificar",
@@ -1650,6 +1668,586 @@
    "obra_ex": "poesias-de-olavo-bilac",
    "so_capitulos": [
     114
+   ]
+  },
+  {
+   "lema": "estrupido",
+   "formas": [
+    "estrupido"
+   ],
+   "classe": "substantivo masculino",
+   "def": "estrondo, tropel barulhento",
+   "exemplo": "uma tempestade entre as sombras noturnas, O estrupido brutal d'essa invasão de feras.",
+   "capitulo": 116,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "maninho",
+   "formas": [
+    "maninho"
+   ],
+   "classe": "adjetivo",
+   "def": "estéril, que não dá fruto (o terreno)",
+   "exemplo": "gente! — D'esse estéril torrão, d'esse areal maninho Entre o Líbano e o mar da",
+   "capitulo": 117,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "atupido",
+   "formas": [
+    "atupidas"
+   ],
+   "classe": "adjetivo",
+   "def": "abarrotado, cheio até não caber mais",
+   "exemplo": "ardem pedrarias, Conta as barcas de cedro, atupidas de fardos De ouro, púrpura, ônix, sedas",
+   "capitulo": 117,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "sus",
+   "formas": [
+    "sus"
+   ],
+   "classe": "interjeição",
+   "def": "eia!, vamos!, coragem!",
+   "exemplo": "De ouro, púrpura, ônix, sedas e especiarias. Sus! Ao largo! Melkhart abençoe a partida Dos",
+   "capitulo": 117,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "aceiro",
+   "formas": [
+    "aceiro"
+   ],
+   "classe": "substantivo masculino",
+   "def": "aço",
+   "exemplo": "do Egito Ao Cáucaso, o fulgor do aceiro d'essa espada Prosternava, a tremer, sobre a",
+   "capitulo": 119,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "regougar",
+   "formas": [
+    "regouga",
+    "regougante"
+   ],
+   "classe": "verbo",
+   "def": "fazer ruído rouco e áspero, como a raposa",
+   "exemplo": "bronze, e esfinges de granito. Mar que regouga e estronda, espedaçando diques, — Aos confins",
+   "capitulo": 119,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "liminar",
+   "formas": [
+    "liminar"
+   ],
+   "classe": "substantivo masculino",
+   "def": "limiar, a entrada",
+   "exemplo": "astros mira, e chora De pé, no liminar da tenebrosa gruta. Abandonou-te o deus que",
+   "capitulo": 120,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "clangor",
+   "formas": [
+    "clangor"
+   ],
+   "classe": "substantivo masculino",
+   "def": "som forte e vibrante de trombeta; clangorar: soar assim",
+   "exemplo": "da luta E o alto e crebro clangor da búcina sonora! Dos Alpes, sacudindo as",
+   "capitulo": 120,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "pavês",
+   "formas": [
+    "paveses"
+   ],
+   "classe": "substantivo masculino",
+   "def": "escudo grande, que cobria o corpo todo",
+   "exemplo": "Mar Armoricano, Retumba o entrechocar dos rútilos paveses Que carregam à glória o Imperador romano.",
+   "capitulo": 120,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "morrião",
+   "formas": [
+    "morriam"
+   ],
+   "classe": "substantivo masculino",
+   "def": "capacete antigo, sem viseira",
+   "exemplo": "Fulge-te o morriam sobre o cabelo louro, E avultas na",
+   "capitulo": 122,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "guante",
+   "formas": [
+    "guante"
+   ],
+   "classe": "substantivo masculino",
+   "def": "luva de ferro ou de couro da armadura",
+   "exemplo": "Brilha-te a lança à mão, presa ao guante de couro. Nos peitorais de ferro arfa-te",
+   "capitulo": 122,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "blau",
+   "formas": [
+    "blau"
+   ],
+   "classe": "adjetivo",
+   "def": "azul, na linguagem dos brasões",
+   "exemplo": "do escudo, Nobre: — em campo de blau sete besantes de ouro. \"Diex le volt!\"",
+   "capitulo": 122,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "catre",
+   "formas": [
+    "catre"
+   ],
+   "classe": "substantivo masculino",
+   "def": "cama pobre e tosca",
+   "exemplo": "o pranto do luar cai sobre o catre imundo... E em farrapos, sozinho, arqueja moribundo",
+   "capitulo": 125,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "alfange",
+   "formas": [
+    "alfanges"
+   ],
+   "classe": "substantivo masculino",
+   "def": "espada de lâmina larga e curva",
+   "exemplo": "Ganges, Semeies, através de dardos, e de alfanges, E de torturas!\" Purna ouve sorrindo, e",
+   "capitulo": 128,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "inerme",
+   "formas": [
+    "inerme"
+   ],
+   "classe": "adjetivo",
+   "def": "desarmado, indefeso",
+   "exemplo": "Um homem te espancar, vendo-te fraco e inerme, E sem piedade aos pés te pisar,",
+   "capitulo": 128,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "zimbro",
+   "formas": [
+    "zimbros"
+   ],
+   "classe": "substantivo masculino",
+   "def": "arbusto de folhas espinhosas e bagas escuras, o junípero",
+   "exemplo": "se precipita, a uivar; Retorcem-se gemendo os zimbros sobre a areia... E, impassível, opondo ao",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "pífano",
+   "formas": [
+    "pífanos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "flautim usado nas bandas militares",
+   "exemplo": "vida. Forte, em Ceuta, ao clamor dos pífanos de guerra, Entre as mesnadas (quando a",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "mesnada",
+   "formas": [
+    "mesnadas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "tropa de soldados a serviço de um senhor",
+   "exemplo": "clamor dos pífanos de guerra, Entre as mesnadas (quando a matança sem dó Dizimava a",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "montante",
+   "formas": [
+    "montante"
+   ],
+   "classe": "substantivo masculino",
+   "def": "espada grande, manejada com as duas mãos",
+   "exemplo": "A alma de Portugal no aceiro do montante. Em Tanger, na jornada atroz do desbarato,",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "desbarato",
+   "formas": [
+    "desbarato"
+   ],
+   "classe": "substantivo masculino",
+   "def": "derrota, destruição, ruína",
+   "exemplo": "montante. Em Tanger, na jornada atroz do desbarato, — Duro, ensopando os pés em sangue",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "salsugem",
+   "formas": [
+    "salsugem"
+   ],
+   "classe": "substantivo feminino",
+   "def": "o sal e o cheiro do mar trazidos pelo vento, a maresia",
+   "exemplo": "a névoa, entre o vento e a salsugem, A voz incompreendida, a voz da Tentação",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "macaréu",
+   "formas": [
+    "macaréus"
+   ],
+   "classe": "substantivo masculino",
+   "def": "onda forte e repentina, como a pororoca",
+   "exemplo": "da Tentação Canta, ao surdo bater dos macaréus que rugem: \"Ao largo, Ousado! o segredo",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "porfiar",
+   "formas": [
+    "porfias"
+   ],
+   "classe": "verbo",
+   "def": "insistir, teimar",
+   "exemplo": "dias, Sobre mapas e astrolábios Encaneces e porfias; Tu, buscando o oceano infindo, Tu, apartado",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "agro",
+   "formas": [
+    "agro"
+   ],
+   "classe": "adjetivo",
+   "def": "áspero, agreste",
+   "exemplo": "Ficar mais perto de Deus); Tu, no agro templo de Sagres, Ninho das naves esbeltas,",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "rostro",
+   "formas": [
+    "rostros"
+   ],
+   "classe": "substantivo masculino",
+   "def": "esporão da proa do navio; a proa",
+   "exemplo": "O voo das naus do Gama, De rostros feitos ao sul... Que importa? Vivo e",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "escolho",
+   "formas": [
+    "escolhos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "recife, rochedo à flor da água",
+   "exemplo": "às unhadas O peito, e contra os escolhos Golfando, em flamas iradas, Os relâmpagos dos",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "galé",
+   "formas": [
+    "galés"
+   ],
+   "classe": "substantivo feminino",
+   "def": "navio antigo movido a remos",
+   "exemplo": "água através, Deslizem fustas ligeiras, Corram ávidas galés! Aí vão, oprimindo o oceano, Toda a",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "aljôfar",
+   "formas": [
+    "aljofres"
+   ],
+   "classe": "substantivo masculino",
+   "def": "pérola miúda; gota de orvalho",
+   "exemplo": "ilhas resplandecendo, Costas de âmbar, parceis de aljofres e corais, — Surgem, redemoinhando e desaparecendo...",
+   "capitulo": 129,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "bandeira",
+   "formas": [
+    "bandeira",
+    "bandeiras"
+   ],
+   "classe": "substantivo feminino",
+   "def": "expedição de bandeirantes pelo sertão",
+   "exemplo": "as águas da estação, — Que, em bandeira, buscando esmeraldas e prata, À frente dos",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac",
+   "so_capitulos": [
+    130
+   ]
+  },
+  {
+   "lema": "angra",
+   "formas": [
+    "angras"
+   ],
+   "classe": "substantivo feminino",
+   "def": "enseada, pequena baía",
+   "exemplo": "fora, da ourela azul das enseadas, Das angras verdes, onde as águas repousadas Vêm, borbulhando,",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "cachopo",
+   "formas": [
+    "cachopos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "rochedo à flor da água, recife",
+   "exemplo": "águas repousadas Vêm, borbulhando, à flor dos cachopos cantar; Das abras e da foz dos",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "abra",
+   "formas": [
+    "abras"
+   ],
+   "classe": "substantivo feminino",
+   "def": "baía, enseada aberta",
+   "exemplo": "borbulhando, à flor dos cachopos cantar; Das abras e da foz dos tumultuosos rios, —",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac",
+   "so_capitulos": [
+    130
+   ]
+  },
+  {
+   "lema": "pegão",
+   "formas": [
+    "pegão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "rajada fortíssima de vento, tufão",
+   "exemplo": "vez, rodando aos ventos maus, O primeiro pegão, como a baixeis, quebrava! E lá iam,",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "baixel",
+   "formas": [
+    "baixeis"
+   ],
+   "classe": "substantivo masculino",
+   "def": "barco, navio",
+   "exemplo": "ventos maus, O primeiro pegão, como a baixeis, quebrava! E lá iam, no alvor da",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "falda",
+   "formas": [
+    "faldas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "a parte baixa de um monte, o sopé",
+   "exemplo": "ante a invasão do sol. Já nas faldas da serra apinhavam-se aldeias; Levantava-se a cruz",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "caiçara",
+   "formas": [
+    "caiçaras"
+   ],
+   "classe": "substantivo feminino",
+   "def": "cerca de paus em volta da aldeia indígena; a própria aldeia",
+   "exemplo": "de morte, Desterrando os pajés, abatendo as caiçaras. Mas além, por detrás das broncas serranias,",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "brenha",
+   "formas": [
+    "brenha",
+    "brenhas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "mato fechado e emaranhado",
+   "exemplo": "uivava a onça feroz; Além da áspera brenha, onde as tribos errantes À sombra maternal",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "arcano",
+   "formas": [
+    "arcano"
+   ],
+   "classe": "substantivo masculino",
+   "def": "segredo, mistério; também adjetivo: secreto",
+   "exemplo": "de passo em passo penetrando O verde arcano, foi o bandeirante audaz... — Marcha horrenda!",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "derrota",
+   "formas": [
+    "derrota"
+   ],
+   "classe": "substantivo feminino",
+   "def": "rota, rumo de uma viagem",
+   "exemplo": "foi o bandeirante audaz... — Marcha horrenda! derrota implacável e calma, Sem uma hora de",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac",
+   "so_capitulos": [
+    130
+   ]
+  },
+  {
+   "lema": "pendor",
+   "formas": [
+    "pendor"
+   ],
+   "classe": "substantivo masculino",
+   "def": "declive, encosta",
+   "exemplo": "o crescer dos rios iracundos, Espiando-a no pendor dos boqueirões profundos, Onde vinham ruir com",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "adarve",
+   "formas": [
+    "adarve"
+   ],
+   "classe": "substantivo masculino",
+   "def": "muralha com caminho no alto; adarvado: cercado de muralhas",
+   "exemplo": "a sol mordendo os troncos, Contra esse adarve bruto em vão rodavam no ar. Dentro,",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "espalda",
+   "formas": [
+    "espalda"
+   ],
+   "classe": "substantivo feminino",
+   "def": "ombro, costas; aqui, o dorso da serra",
+   "exemplo": "da montanha. Quando apareceria enfim, vergando a espalda, Desenhada no céu entre as neblinas claras,",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "fragoso",
+   "formas": [
+    "fragosos",
+    "fragosas"
+   ],
+   "classe": "adjetivo",
+   "def": "áspero, cheio de penhascos",
+   "exemplo": "lençol. Agora, o áspero morro, os caminhos fragosos... Leve, de quando em quando, entre os",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "esto",
+   "formas": [
+    "esto"
+   ],
+   "classe": "substantivo masculino",
+   "def": "agitação, ímpeto, ardor",
+   "exemplo": "destruidor, E desenraizando os troncos seculares, No esto da aluvião estremecendo os ares, E indo",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "palude",
+   "formas": [
+    "paludes"
+   ],
+   "classe": "substantivo masculino",
+   "def": "pântano",
+   "exemplo": "com fragor... Sete anos! combatendo índios, febres, paludes. Feras, reptis, — contendo os sertanejos rudes,",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "lapa",
+   "formas": [
+    "lapas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "gruta, cavidade na rocha",
+   "exemplo": "cobras. Longe, as feras carniceiras Uivam nas lapas. Desce a noite, como um véu. Pálido,",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "surto",
+   "formas": [
+    "surtos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "voo, impulso para o alto",
+   "exemplo": "último olhar ao firmamento! A vida Em surtos de paixão e febre repartida, Toda, num",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac",
+   "so_capitulos": [
+    130
+   ]
+  },
+  {
+   "lema": "noitibó",
+   "formas": [
+    "noitibó"
+   ],
+   "classe": "substantivo masculino",
+   "def": "ave noturna, parecida com o bacurau",
+   "exemplo": "em derredor zunia, E a voz do noitibó soava como um agouro, — Quantas vezes",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "gineceu",
+   "formas": [
+    "gineceus"
+   ],
+   "classe": "substantivo masculino",
+   "def": "aposento das mulheres na casa antiga; o harém",
+   "exemplo": "perfumes selvagens! Ninhos cantando no ar! suspensos gineceus Resoantes de amor! outonos benfeitores! Nuvens e",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "escarvar",
+   "formas": [
+    "escarva"
+   ],
+   "classe": "verbo",
+   "def": "cavar raspando com as unhas ou as patas",
+   "exemplo": "os dedos, e sonda a terra, e escarva o chão: Sangra as unhas, revolve as",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "fuzil",
+   "formas": [
+    "fuzis"
+   ],
+   "classe": "substantivo masculino",
+   "def": "relâmpago",
+   "exemplo": "no ar brandamente se movem; Chispam verdes fuzis riscando o céu sombrio; Em esmeraldas flui",
+   "capitulo": 130,
+   "obra_ex": "poesias-de-olavo-bilac",
+   "so_capitulos": [
+    130
    ]
   }
  ]

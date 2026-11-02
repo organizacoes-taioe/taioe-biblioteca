@@ -326,10 +326,11 @@ def modernizar(E, manual):
             o, n = E[i1 + k], G[j1 + k]
             if not isinstance(o, str):
                 continue
-            mo = re.match(r'(.+)ão(-\w+)?$', o)          # «formão», «enfurecião-se»
-            mn = re.match(r'(.+)am(-\w+)?$', n)
-            if mo and mn and len(o) >= 3 and chave(mo.group(1)) == chave(mn.group(1)) and mo.group(2) == mn.group(2):
-                E[i1 + k] = mo.group(1) + 'am' + (mo.group(2) or '')
+            mo = re.match(r"(.+?)ão((?:-[\w']+)*)$", o)    # «formão», «enfurecião-se», «avermelhárão-se-lhe»
+            mn = re.match(r"(.+?)am((?:-[\w']+)*)$", n)
+            if (mo and mn and len(o) >= 3 and chave(mo.group(1)).replace('ç', 's') == chave(mn.group(1)).replace('ç', 's')
+                    and chave(mo.group(2)) == chave(mn.group(2))):
+                E[i1 + k] = mo.group(1) + 'am' + mo.group(2)
                 trocas += 1
     print('3ª do plural em -ão -> -am:', trocas)
     # letras que os três OCRs confundem do mesmo jeito (tipo gasto de 1854): onde todos leem «linha», «ler»,

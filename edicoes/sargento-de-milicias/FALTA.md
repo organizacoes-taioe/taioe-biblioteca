@@ -25,15 +25,19 @@ Estado: **fontes e confronto montados e rodando; texto ainda não conferido nem 
   maioria (relatório `sitios.tsv`: 1.845 pontos fracos).
 - `config.modernizar` (antes da grafia pela moderna, sempre só onde a moderna, alinhada no mesmo ponto,
   confirma): parte as palavras coladas pelos OCRs (76: «Tinhãoesses», «emquantoella»); passa a 3ª do
-  plural em -ão a -am (786: «formão», «enfurecião-se»; o futuro fica); troca as letras que os três OCRs
+  plural em -ão a -am (796, também com pronomes: «formão», «enfurecião-se»; o futuro fica); troca as letras que os três OCRs
   confundem igual (131: l/t, c/e, ó/é, b/h, n/u…; lista em `relatorios/letras.tsv`, conferir uma amostra).
-- `decisoes.EMENDAS`: 11 leituras conferidas nas imagens (pranchas dos pontos 1–80 de `ver/pontos.json`).
+- `decisoes.EMENDAS`: 11 leituras conferidas nas imagens (pranchas dos pontos 1–80 de `ver/pontos.json`) e 9
+  palavras que só os OCRs têm, de correção evidente (as primeiras ~60 linhas de `modernas.tsv`); `MANUAL`
+  com 5 formas em -ão que não alinham. Em `modernas.tsv` há também lições de 1854 que as edições modernas
+  mudaram e que ficam («espanava», não «esganava»; «engodar», não «engordar»; «achava cheio de
+  espírito»; «viu-se presa»): só emendar o que for erro de OCR, de preferência visto na imagem.
 - `edicoes/sargento-de-milicias/conferir.py` (pranchas, cópia do de Policarpo) funciona:
   `python3 edicoes/sargento-de-milicias/conferir.py ferramentas/cache/sargento-de-milicias/ver/p3.tsv`.
   `ver/pontos.json` tem os 650 pontos de palavra sem apoio moderno, na ordem do texto; as pranchas dos
   pontos 1–80 já foram lidas (`ver/p10-*`, `p2-*`, `p3-*`); seguir do 81.
-- `texto.py` roda: 48 partes, 1.456 parágrafos; relatórios: 617 em `modernas.tsv`, 1.695 em
-  `pontuacao.tsv`, 545 em `sem_par.tsv`, 408 em `vocabulario.tsv`.
+- `texto.py` roda: 48 partes, 1.456 parágrafos; relatórios: 599 em `modernas.tsv`, 1.696 em
+  `pontuacao.tsv`, 529 em `sem_par.tsv`, 392 em `vocabulario.tsv`.
 - `decisoes.py` e `notas.py` com a estrutura e um rascunho da «Sobre». O bloco do autor está no item 7 abaixo.
 
 ## Falta (na ordem)

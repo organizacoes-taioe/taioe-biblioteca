@@ -52,6 +52,8 @@ def poema(f):
     for l in open(f, encoding='utf-8').read().split('\n'):
         m = re.match(r'# (\w+): (.*)', l)
         if m and m.group(1) == 'parte': corpo.append('**' + m.group(2) + '**'); continue
+        if m and m.group(1) == 'subtitulo' and any(x.startswith('**') for x in corpo):  # título da seção
+            corpo.append('__' + m.group(2) + '__'); continue
         if m: cab.setdefault(m.group(1), m.group(2)); continue
         corpo.append(l)
     chave = re.match(r'(.+?--\d+)', os.path.basename(f)).group(1)
@@ -60,6 +62,7 @@ def poema(f):
         l = l.rstrip()
         if not l: linhas.append(''); continue
         if l.startswith('**'): linhas.append(l); continue
+        if l.startswith('__'): linhas.append('_' + l[2:-2] + '_'); continue
         l = ERROS.get((chave, l.strip()), l.strip())
         for de, para in GRAFIA.get(chave, []): l = l.replace(de, para)
         linhas.append('| ' + grafia(l))
@@ -68,7 +71,8 @@ def poema(f):
     pre = []
     if 'subtitulo' in cab:
         sub = cab['subtitulo'].strip('().')
-        if sub.isupper(): sub = 'Episódio da epopeia sertanista no XVII século' if sub.startswith('EPISÓDIO') else sub.capitalize()
+        sub = {'EPISÓDIO DA EPOPEIA SERTANISTA NO XVII° SÉCULO': 'Episódio da epopeia sertanista no XVII século',
+               'LENDA DO RENO. GRANDMOUGIN': 'Lenda do Reno. Grandmougin'}.get(sub, sub)
         pre.append('_' + sub + '_')
     if 'dedicatoria' in cab: pre.append('_' + grafia(cab['dedicatoria']).rstrip('.') + '_')
     if 'epigrafe' in cab: pre.append('_' + cab['epigrafe'] + '_')

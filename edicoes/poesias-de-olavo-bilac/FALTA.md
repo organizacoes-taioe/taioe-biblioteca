@@ -26,7 +26,7 @@
 - `ferramentas/site/gerar.mjs`: o livro inteiro aparece em «Livros», em cima das formas, na página do autor.
 
 ## Falta
-- *Baladas românticas*: conferir nas imagens (o OCR não achou o título; não está no Wikisource).
+- *Baladas românticas*: conferida só com o OCR de 1902 (não está no Wikisource), sem divergência real.
 - Ver se 1902 numera os poemas d'*As Viagens* (o Wikisource põe I–XIV) e se há nota ou prefácio a incluir.
 - **Duplicação**: os mesmos poemas estão em `conteudo/olavo-bilac/poesia.js` (poemas soltos, do
   `ferramentas/poesia.py`, livros panoplias…cacador-de-esmeraldas). Decidir com o Gere se saem de lá (sugestão:

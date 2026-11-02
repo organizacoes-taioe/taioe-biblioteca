@@ -155,7 +155,7 @@ BIBLIOTECA.autor({
   area: 'catolicismo',
   nomeCompleto: 'Escritos cristãos antigos de autor desconhecido',
   coletivo: true,   // não é uma pessoa: as páginas não o dão como autor (schema.org Person)
-  nota: 'Textos dos primeiros séculos cujo autor não se conhece. Em tradução do grego.'
+  nota: 'Textos dos primeiros séculos cujo autor não se conhece. Em tradução do grego e do latim.'
 });
 
 /* Os documentos do Magistério (edicoes/magisterio/), em tradução nossa, com o original ao lado

@@ -9,7 +9,7 @@ Uso, na raiz do repositório: python3 edicoes/poesias-de-olavo-bilac/montar.py
 import json, os, re, glob
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(AQUI))
-PARTES = [('panoplias', 'Panóplias'), ('via-lactea', 'Via Láctea')]  # as outras: ver FALTA.md
+PARTES = [('panoplias', 'Panóplias'), ('via-lactea', 'Via Láctea'), ('sarcas-de-fogo', 'Sarças de Fogo')]  # as outras: ver FALTA.md
 ERROS = {('panoplias--01', 'Que ofício tal.. nem há notícia'): 'Que ofício tal... nem há notícia'}
 FICAM = {"minh'alma", "d'alma", "d'água"}
 ROM = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'XVIII',
@@ -44,6 +44,7 @@ def poema(f):
     t = re.sub(r'\n{3,}', '\n\n', '\n'.join(linhas)).strip()
     t = re.sub(r'(\*\*[IVX]+\*\*)\n(?=\|)', r'\1\n\n', t)
     pre = []
+    if 'subtitulo' in cab: pre.append('_' + cab['subtitulo'].strip('().') + '_')
     if 'dedicatoria' in cab: pre.append('_' + grafia(cab['dedicatoria']).rstrip('.') + '_')
     if 'epigrafe' in cab: pre.append('_' + cab['epigrafe'] + '_')
     if 'data' in cab: t += '\n\n_' + cab['data'] + '_'
@@ -64,7 +65,7 @@ for slug, nome in PARTES:
 pal = sum(len(re.findall(r"[A-Za-zÀ-ÿ]+", t)) for t in textos)
 obra = {'id': 'poesias-de-olavo-bilac', 'autor': 'olavo-bilac', 'titulo': 'Poesias', 'ano': 1902, 'genero': 'Poesia',
         'divisao': {'singular': 'poema', 'plural': 'poemas', 'rotulo': 'titulo', 'agrupar': True},
-        'descricao': 'A edição definitiva em vida (Garnier, 1902). Por enquanto, as duas primeiras partes: _Panóplias_ e _Via Láctea_.',
+        'descricao': 'A edição definitiva em vida (Garnier, 1902). Por enquanto, as três primeiras partes: _Panóplias_, _Via Láctea_ e _Sarças de Fogo_.',
         '_palavras': pal, 'partes': partes,
         'edicao': json.load(open(os.path.join(AQUI, 'edicao.json'), encoding='utf-8'))}
 js = ('/* Poesias — Olavo Bilac (1902). Gerado por edicoes/poesias-de-olavo-bilac/montar.py; não edite à mão. */\n'

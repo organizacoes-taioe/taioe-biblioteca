@@ -28,7 +28,8 @@
   {
    "lema": "torvo",
    "formas": [
-    "torvo"
+    "torvo",
+    "torvas"
    ],
    "classe": "adjetivo",
    "def": "sombrio, carregado, de aspecto ameaçador",
@@ -138,7 +139,8 @@
   {
    "lema": "fulvo",
    "formas": [
-    "fulvas"
+    "fulvas",
+    "fulvos"
    ],
    "classe": "adjetivo",
    "def": "amarelo-dourado, de um ouro avermelhado",
@@ -160,7 +162,8 @@
   {
    "lema": "embalsamado",
    "formas": [
-    "embalsamado"
+    "embalsamado",
+    "embalsamada"
    ],
    "classe": "adjetivo",
    "def": "perfumado",
@@ -171,7 +174,8 @@
   {
    "lema": "crebro",
    "formas": [
-    "crebro"
+    "crebro",
+    "crebros"
    ],
    "classe": "adjetivo",
    "def": "repetido, frequente, amiudado",
@@ -194,7 +198,8 @@
    "lema": "ulular",
    "formas": [
     "ulule",
-    "ulular"
+    "ulular",
+    "ululando"
    ],
    "classe": "verbo",
    "def": "uivar, gritar de modo lamentoso",
@@ -227,7 +232,8 @@
   {
    "lema": "espádua",
    "formas": [
-    "espáduas"
+    "espáduas",
+    "espádua"
    ],
    "classe": "substantivo feminino",
    "def": "ombro; a parte de cima das costas",
@@ -249,7 +255,8 @@
   {
    "lema": "ascoso",
    "formas": [
-    "ascoso"
+    "ascoso",
+    "ascosas"
    ],
    "classe": "adjetivo",
    "def": "nojento, repugnante",
@@ -293,7 +300,9 @@
   {
    "lema": "nácar",
    "formas": [
-    "nácar"
+    "nácar",
+    "nacarada",
+    "nacarado"
    ],
    "classe": "substantivo masculino",
    "def": "madrepérola; nacarado: rosado e brilhante como ela",
@@ -315,7 +324,8 @@
   {
    "lema": "ebúrneo",
    "formas": [
-    "ebúrneo"
+    "ebúrneo",
+    "ebúrnea"
    ],
    "classe": "adjetivo",
    "def": "de marfim, ou branco e liso como o marfim",
@@ -337,7 +347,8 @@
   {
    "lema": "rescender",
    "formas": [
-    "rescendente"
+    "rescendente",
+    "rescendentes"
    ],
    "classe": "verbo",
    "def": "exalar perfume; rescendente: perfumado",
@@ -356,6 +367,18 @@
    "def": "sensual, lascivo",
    "exemplo": "fronte reclinando Nos alvos seios nus da lúbrica Popeia.",
    "capitulo": 6,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "esbroar",
+   "formas": [
+    "esbroa",
+    "esbroado"
+   ],
+   "classe": "verbo",
+   "def": "desfazer-se em pedaços ou em pó, desmoronar",
+   "exemplo": "as garras inflamadas Do incêndio cingem, tudo esbroa-se partido. Longe, reverberando o clarão purpurino, Arde",
+   "capitulo": 7,
    "obra_ex": "poesias-de-olavo-bilac"
   },
   {
@@ -449,7 +472,8 @@
   {
    "lema": "rútilo",
    "formas": [
-    "rútila"
+    "rútila",
+    "rútilo"
    ],
    "classe": "adjetivo",
    "def": "brilhante, resplandecente",
@@ -597,6 +621,17 @@
    "obra_ex": "poesias-de-olavo-bilac"
   },
   {
+   "lema": "rojar",
+   "formas": [
+    "roja"
+   ],
+   "classe": "verbo",
+   "def": "arrastar-se, lançar-se ao chão; de rojo: arrastando-se pelo chão",
+   "exemplo": "cachões, furioso, Parte os diques o mar, roja-se impetuoso, As vagas encrespando acapeladas, brutas, E",
+   "capitulo": 12,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
    "lema": "bramir",
    "formas": [
     "bramir"
@@ -710,12 +745,25 @@
   {
    "lema": "atro",
    "formas": [
-    "atra"
+    "atra",
+    "atros",
+    "atro"
    ],
    "classe": "adjetivo",
    "def": "negro, escuro, sombrio",
    "exemplo": "pela vida humana. Por que tanta serpente atra e profana Dentro d'alma deixei que se",
    "capitulo": 26,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "pungir",
+   "formas": [
+    "punge"
+   ],
+   "classe": "verbo",
+   "def": "ferir, doer, magoar",
+   "exemplo": "o livro do passado abrindo, Lembro-as, e punge-me a lembrança d'elas; Lembro-as, e vejo-as, como",
+   "capitulo": 27,
    "obra_ex": "poesias-de-olavo-bilac"
   },
   {
@@ -763,6 +811,17 @@
    "def": "mariposa",
    "exemplo": "versos! Palpita a minha vida N'eles — falenas que a saudade eleva, De meu seio,",
    "capitulo": 30,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "ataviar",
+   "formas": [
+    "atavia"
+   ],
+   "classe": "verbo",
+   "def": "enfeitar, adornar",
+   "exemplo": "todo o jardim, por que ela passe, Atavia-se. Há falas misteriosas Pelas moitas, saudando-a respeitosas...",
+   "capitulo": 31,
    "obra_ex": "poesias-de-olavo-bilac"
   },
   {
@@ -829,6 +888,443 @@
    "def": "zombar, caçoar; mofa: zombaria",
    "exemplo": "Pouco me pesa que mofeis sorrindo D'estes versos puríssimos e santos: Porque,",
    "capitulo": 47,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "hetera",
+   "formas": [
+    "hetére",
+    "hetéres"
+   ],
+   "classe": "substantivo feminino",
+   "def": "cortesã da Grécia antiga, mulher culta e livre",
+   "exemplo": "roupas, enfim, livres os corpos saltam, Nenhuma hetére sabe a primorosa taça, Transbordante de Cós,",
+   "capitulo": 48,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "cizânia",
+   "formas": [
+    "cizânia"
+   ],
+   "classe": "substantivo feminino",
+   "def": "discórdia, desavença",
+   "exemplo": "falsa e dissoluta, Leva ao lar a cizânia e as famílias enluta! Dos deuses zomba!",
+   "capitulo": 48,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "batel",
+   "formas": [
+    "batel"
+   ],
+   "classe": "substantivo masculino",
+   "def": "barco pequeno",
+   "exemplo": "Sobre as ondas oscila o batel docemente... Sopra o vento a gemer. Treme",
+   "capitulo": 49,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "encanecer",
+   "formas": [
+    "encanecida"
+   ],
+   "classe": "verbo",
+   "def": "ficar de cabelos brancos, envelhecer",
+   "exemplo": "Sobre o peito, a tremer, a barba encanecida, Descias, cambaleando, a encosta pedregosa Da velhice.",
+   "capitulo": 50,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "bordão",
+   "formas": [
+    "bordão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "cajado, bastão em que se apoia ao andar",
+   "exemplo": "Que mão te ofereceu, piedosa, Um piedoso bordão para amparar teus passos? Quem te estendeu",
+   "capitulo": 50,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "bulcão",
+   "formas": [
+    "bulcões"
+   ],
+   "classe": "substantivo masculino",
+   "def": "nuvem negra e espessa de tempestade",
+   "exemplo": "acidentado... Uivava perto o vento E rodavam bulcões no turvo firmamento. Entrado de terror, a",
+   "capitulo": 50,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "furna",
+   "formas": [
+    "furna",
+    "furnas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "caverna, gruta",
+   "exemplo": "noturna, Urra um velho leão n'uma apartada furna.",
+   "capitulo": 50,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "fauce",
+   "formas": [
+    "fauce"
+   ],
+   "classe": "substantivo feminino",
+   "def": "garganta, goela",
+   "exemplo": "Como o abismo que, pérfido, a medonha Fauce apresenta flórida e risonha, Tapetada de rosas",
+   "capitulo": 51,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "bonina",
+   "formas": [
+    "boninas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "florzinha do campo, margarida",
+   "exemplo": "flórida e risonha, Tapetada de rosas e boninas. O viajor, vendo as flores, fatigado Foge",
+   "capitulo": 51,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "quedar",
+   "formas": [
+    "quedava",
+    "quedou"
+   ],
+   "classe": "verbo",
+   "def": "ficar parado, quieto",
+   "exemplo": "vento. Cortavam fitas de ouro o firmamento... Quedava imoto o coqueiral tranquilo... Caíra a tarde.",
+   "capitulo": 52,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "vasa",
+   "formas": [
+    "vasa"
+   ],
+   "classe": "substantivo feminino",
+   "def": "lodo do fundo das águas",
+   "exemplo": "mim, roçar de leve A superfície d'esta vasa... E tanto pôde essa piedade, E tanto",
+   "capitulo": 54,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "embalde",
+   "formas": [
+    "embalde"
+   ],
+   "classe": "advérbio",
+   "def": "em vão",
+   "exemplo": "abraçar-te as formas primorosas! Vem tu, que embalde veio O sol: somente anseio Por teu",
+   "capitulo": 56,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "poma",
+   "formas": [
+    "pomas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "seio de mulher",
+   "exemplo": "quero, tremente, Cingir de beijos tuas róseas pomas, Cobrir teu corpo ardente, E na água",
+   "capitulo": 56,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "coma",
+   "formas": [
+    "coma"
+   ],
+   "classe": "substantivo feminino",
+   "def": "cabeleira",
+   "exemplo": "é o meu intento: Quero embalar-te a coma desnastrada! — Tudo a exigia... Entanto, Alguém,",
+   "capitulo": 56,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "desnastrar",
+   "formas": [
+    "desnastrada"
+   ],
+   "classe": "verbo",
+   "def": "soltar as tranças, desfazer o penteado",
+   "exemplo": "o meu intento: Quero embalar-te a coma desnastrada! — Tudo a exigia... Entanto, Alguém, oculto",
+   "capitulo": 56,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "fímbria",
+   "formas": [
+    "fímbria"
+   ],
+   "classe": "substantivo feminino",
+   "def": "orla, borda, barra (do horizonte, da roupa)",
+   "exemplo": "espalha. Mas a lua lentamente Surge na fímbria do horizonte mudo: E o seu reflexo",
+   "capitulo": 58,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "alcova",
+   "formas": [
+    "alcova"
+   ],
+   "classe": "substantivo feminino",
+   "def": "quarto de dormir",
+   "exemplo": "solto o cabelo às costas, Sorri. Na alcova perfumada e quente, Pela janela, como um",
+   "capitulo": 59,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "túmido",
+   "formas": [
+    "túmidos",
+    "túmido"
+   ],
+   "classe": "adjetivo",
+   "def": "inchado, intumescido",
+   "exemplo": "ventre, abraça-lhe a cintura, Morde-lhe os bicos túmidos dos seios, Corre-lhe a espádua, espia-lhe o",
+   "capitulo": 59,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "pompear",
+   "formas": [
+    "pompeando"
+   ],
+   "classe": "verbo",
+   "def": "ostentar, exibir com pompa",
+   "exemplo": "nagassaris de ampla coroa, flores De angsoka, pompeando a opulência das cores, Viçam; viçam rosais",
+   "capitulo": 62,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "colear",
+   "formas": [
+    "coleiam"
+   ],
+   "classe": "verbo",
+   "def": "mover-se em curvas, como a cobra; coleio: esse movimento",
+   "exemplo": "As picadas mortais das peçonhentas cobras, Que coleiam, torcendo e destorcendo as dobras Da escama,",
+   "capitulo": 62,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "messe",
+   "formas": [
+    "messe"
+   ],
+   "classe": "substantivo feminino",
+   "def": "colheita, a seara madura",
+   "exemplo": "Semeares trigo, — em vez da ambicionada messe, Em vez da espiga de ouro a",
+   "capitulo": 62,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "boa",
+   "formas": [
+    "boas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "jiboia, grande cobra",
+   "exemplo": "lustrando, ou, em calma, um novelo De boas, digerindo o touro devorado... Tem receio de",
+   "capitulo": 62,
+   "obra_ex": "poesias-de-olavo-bilac",
+   "so_capitulos": [
+    62
+   ]
+  },
+  {
+   "lema": "engelhado",
+   "formas": [
+    "engelhadas"
+   ],
+   "classe": "adjetivo",
+   "def": "enrugado",
+   "exemplo": "do nada. (Machado de Assis, Braz Cubas.) Engelhadas as faces, os cabelos Brancos, ferido, chegas",
+   "capitulo": 63,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "veiga",
+   "formas": [
+    "veigas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "várzea fértil, planície cultivada",
+   "exemplo": "de lodo e trevas feito Estendeu pelas veigas rescendentes. E a alma que os anjos",
+   "capitulo": 65,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "ventarola",
+   "formas": [
+    "ventarola"
+   ],
+   "classe": "substantivo feminino",
+   "def": "leque",
+   "exemplo": "Chega do baile. Descansa. Move a ebúrnea ventarola. Que aroma de sua trança Voluptuoso se",
+   "capitulo": 66,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "artelho",
+   "formas": [
+    "artelho"
+   ],
+   "classe": "substantivo masculino",
+   "def": "tornozelo",
+   "exemplo": "firme que desce Curvamente, a perna, o artelho: Todo o seu corpo aparece Subitamente no",
+   "capitulo": 66,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "fuzilar",
+   "formas": [
+    "fuzila",
+    "fuzilando"
+   ],
+   "classe": "verbo",
+   "def": "lançar clarões, faiscar, relampejar",
+   "exemplo": "bronze infindo e quente, E o sol fuzila e, fuzilando, ardente Criva de flechas de",
+   "capitulo": 67,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "falaz",
+   "formas": [
+    "falaz"
+   ],
+   "classe": "adjetivo",
+   "def": "enganador",
+   "exemplo": "do amor que, claramente, Além, belo e falaz, se delineia. Mas o simum da morte",
+   "capitulo": 67,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "simum",
+   "formas": [
+    "simum"
+   ],
+   "classe": "substantivo masculino",
+   "def": "vento muito quente e seco do deserto",
+   "exemplo": "belo e falaz, se delineia. Mas o simum da morte sopra: a tromba Convulsa envolve-os,",
+   "capitulo": 67,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "arrebol",
+   "formas": [
+    "arrebol"
+   ],
+   "classe": "substantivo masculino",
+   "def": "vermelhidão do céu ao nascer ou ao pôr do sol",
+   "exemplo": "anseio, Com o mesmo ardente amor! De arrebol a arrebol, Vão-se os dias sem conto!",
+   "capitulo": 68,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "crepe",
+   "formas": [
+    "crepe"
+   ],
+   "classe": "substantivo masculino",
+   "def": "tecido fino e escuro usado no luto; o luto",
+   "exemplo": "treva à luz! Vele a noite de crepe a curva do horizonte; Em véus de",
+   "capitulo": 68,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "propinar",
+   "formas": [
+    "propina"
+   ],
+   "classe": "verbo",
+   "def": "dar a beber, ministrar",
+   "exemplo": "Mão, que o veneno e o bálsamo propina, E aos sorrisos as lágrimas mistura! Pois",
+   "capitulo": 69,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "delfim",
+   "formas": [
+    "delfins"
+   ],
+   "classe": "substantivo masculino",
+   "def": "golfinho",
+   "exemplo": "derredor Turvando o Oceano, em grupo os delfins atropelam-se Para a fitar melhor.",
+   "capitulo": 70,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "mister",
+   "formas": [
+    "mister"
+   ],
+   "classe": "substantivo masculino",
+   "def": "ofício, serviço; ser mister: ser preciso, necessário",
+   "exemplo": "mágoas esquecida!... Pois acaso será, para esquecê-la, Mister e força que me deixe a vida?",
+   "capitulo": 71,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "estorcer",
+   "formas": [
+    "estorço"
+   ],
+   "classe": "verbo",
+   "def": "torcer-se com força, contorcer-se",
+   "exemplo": "amor, Senhora, vede: Prendeu-me. Em vão me estorço, e me debato, e grito; Em vão",
+   "capitulo": 73,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "alfombra",
+   "formas": [
+    "alfombra"
+   ],
+   "classe": "substantivo feminino",
+   "def": "tapete; a relva que cobre o chão como um tapete",
+   "exemplo": "juntamente Contigo... Torre o sol a verde alfombra, A areia envolva a solidão inteira... E",
+   "capitulo": 75,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "aleia",
+   "formas": [
+    "aleias"
+   ],
+   "classe": "substantivo feminino",
+   "def": "alameda, caminho ladeado de árvores",
+   "exemplo": "a fronte, cruzando a passos lentos As aleias de plátanos, — dizia Das faculdades da",
+   "capitulo": 77,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "páramo",
+   "formas": [
+    "páramo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "o alto do céu, a abóbada celeste",
+   "exemplo": "estrelas de ouro: Na alta esfera, no páramo profundo Onde não vão, errantes, Bramir as",
+   "capitulo": 77,
+   "obra_ex": "poesias-de-olavo-bilac"
+  },
+  {
+   "lema": "ignoto",
+   "formas": [
+    "ignotas"
+   ],
+   "classe": "adjetivo",
+   "def": "desconhecido",
+   "exemplo": "flutua Sua alma, e que a regiões ignotas o transporta, — Que não sente Laïs,",
+   "capitulo": 77,
    "obra_ex": "poesias-de-olavo-bilac"
   }
  ]

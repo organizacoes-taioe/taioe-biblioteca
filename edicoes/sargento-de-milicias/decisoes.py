@@ -16,7 +16,14 @@ _cfg = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_cfg)
 TITULOS = dict(_cfg.TITULOS)
 
-EMENDAS = []
+EMENDAS = [
+    # leituras dos OCRs que o voto não corrigiu, conferidas no fac-símile (pranchas de 02/11, pontos 1–20)
+    ('ocr', 'um sem numero do pontos', 'um sem numero de pontos'),
+    ('ocr', 'certa Maria do hortaliça', 'certa Maria da hortaliça'),
+    ('ocr', 'foi a honrai', 'foi a honra!'),
+    ('ocr', 'arrependida doudicesde rapariga', 'arrependida..... doudices de rapariga'),
+    ('ocr', 'e acahe-se tudo', 'e acabe-se tudo'),
+]
 
 AJUSTES = []
 

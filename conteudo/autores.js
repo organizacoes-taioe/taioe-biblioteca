@@ -30,6 +30,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'manuel-antonio-de-almeida',
+  nome: 'Manuel Antônio de Almeida',
+  nomeCompleto: 'Manuel Antônio de Almeida',
+  vida: '1831–1861',
+  ordem: 'Almeida, Manuel Antônio de',
+  nota: 'Romancista e jornalista carioca; autor de um romance só, publicado sem o seu nome.'
+});
+
+BIBLIOTECA.autor({
   id: 'jose-de-alencar',
   nome: 'José de Alencar',
   nomeCompleto: 'José Martiniano de Alencar',

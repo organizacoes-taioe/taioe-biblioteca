@@ -201,6 +201,14 @@ def camada():
     return [_capitulo_ocr(n, [pags[k - 1].split('\n') for k in range(a, b + 1)]) for n, a, b, _ in CAPITULOS]
 
 
+def djvu():
+    """A camada de texto do DjVu do Commons (mesma digitalização da Brasiliana, OCR diferente do do PDF).
+    commons.txt: djvutxt --page=N para cada página, separadas por \\f (djvulibre extraído sem sudo em
+    ~/.cache/djvu-local/raiz, como o Tesseract)."""
+    pags = open(fontes.cache(OBRA, 'commons.txt'), encoding='utf-8').read().split('\f')
+    return [_capitulo_ocr(n, [pags[k - 1].split('\n') for k in range(a, b + 1)]) for n, a, b, _ in CAPITULOS]
+
+
 def tesseract():
     pasta = fontes.cache(OBRA, 'tess-bbm4846')
     por_pagina = {}
@@ -221,17 +229,22 @@ def tesseract():
 BASE = 'pdf'
 REFERENCIAS = [('ws', False)]
 DESEMPATE_LEXICO = True
+# as duas camadas (PDF e DjVu) são do mesmo tipo de OCR e erram juntas («linha» por «tinha», «ler» por
+# «ter», «eslava», «c» por «e»): correlacionadas, a maioria delas perde para a minoria (o Tesseract) que tem o
+# apoio da moderna. Com UM_VOTO = True quase tudo virava empate (3.907 divergências, 2.458 sem maioria)
+CORRELACIONADOS = [('pdf', 'dj')]
+UM_VOTO = False
 
 
 def transcricoes():
     """Os dois OCRs de 1854–55, limpos pela edição moderna (só palavras inexistentes) e com a
     divisão dela (parágrafos, versos)."""
     ws = modernas()['ws']
-    brutos = {'pdf': camada(), 'bt': tesseract()}
+    brutos = {'pdf': camada(), 'dj': djvu(), 'bt': tesseract()}
     # léxico de 1854–55: palavras que os dois programas leram iguais em algum lugar. Sem ele, a guia
     # moderna «corrigia» as formas da época («passavão» -> «passavam», «baptisado» -> «batizado»)
     palavras = [{w for p in o for x in p['paras'] for w in re.findall(r"[A-Za-zÀ-ÿ'-]+", x)} for o in brutos.values()]
-    lexico = palavras[0] & palavras[1]
+    lexico = (palavras[0] & palavras[2]) | (palavras[1] & palavras[2])     # um ABBYY e o Tesseract
     out = {}
     for nome, bruto in brutos.items():
         o, n = ocr.limpar(bruto, [ws], lexico)
@@ -281,18 +294,68 @@ def modernizar(E, manual):
     ws = modernas()['ws']
     G = achatar(ws)
     E = list(E)
+    # palavras coladas pelos OCRs (o tipo de 1854 é espaçado de modo irregular): «Tinhãoesses»,
+    # «emquantoella», «logarvou». Onde a moderna, no mesmo ponto, traz duas ou mais palavras que juntas
+    # dão a mesma chave, a palavra se parte nos mesmos comprimentos
+    novo, mapa = [], []          # mapa: índice na lista nova -> índice em E (o itálico é indexado por E)
+    ops = alinhar(E, G, chave=chave)
+    for tp, i1, i2, j1, j2 in ops:
+        if tp == 'replace' and i2 - i1 == 1 and 2 <= j2 - j1 <= 6 and isinstance(E[i1], str):
+            o, ns = E[i1], G[j1:j2]
+            ko = chave(o)
+            kn = chave(''.join(ns))
+            if all(n[:1].isalpha() for n in ns) and (ko == kn or ko.replace('ao', 'am') == kn.replace('ao', 'am')):
+                partes, pos = [], 0
+                for n in ns[:-1]:
+                    partes.append(o[pos:pos + len(n)]); pos += len(n)
+                partes.append(o[pos:])
+                if all(partes) and [chave(x) for x in partes][:-1] == [chave(x) for x in ns][:-1]:
+                    novo += partes
+                    mapa += [i1] * len(partes)
+                    continue
+        novo += E[i1:i2]
+        mapa += list(range(i1, i2))
+    print('palavras coladas partidas:', len(novo) - len(E))
+    E = novo
     trocas = 0
     for tp, i1, i2, j1, j2 in alinhar(E, G, chave=chave):
         if tp != 'replace' or i2 - i1 != j2 - j1:
             continue
         for k in range(i2 - i1):
             o, n = E[i1 + k], G[j1 + k]
-            if (isinstance(o, str) and o.endswith('ão') and n.endswith('am') and len(o) >= 3
-                    and chave(o[:-2]) == chave(n[:-2])):
-                E[i1 + k] = o[:-2] + 'am'
+            if not isinstance(o, str):
+                continue
+            mo = re.match(r'(.+)ão(-\w+)?$', o)          # «formão», «enfurecião-se»
+            mn = re.match(r'(.+)am(-\w+)?$', n)
+            if mo and mn and len(o) >= 3 and chave(mo.group(1)) == chave(mn.group(1)) and mo.group(2) == mn.group(2):
+                E[i1 + k] = mo.group(1) + 'am' + (mo.group(2) or '')
                 trocas += 1
     print('3ª do plural em -ão -> -am:', trocas)
-    return mz.modernizar(E, [(n, modernas()[n], pos) for n, pos in REFERENCIAS], manual)
+    # letras que os três OCRs confundem do mesmo jeito (tipo gasto de 1854): onde todos leem «linha», «ler»,
+    # «eslava», «c», «ó» e a moderna traz, no mesmo ponto, a palavra com a letra certa («tinha», «ter»,
+    # «estava», «e», «é»), vale a da moderna, na grafia de 1854. A lista vai para relatorios/letras.tsv
+    # (conferir uma amostra nas imagens).
+    pares = {('l', 't'), ('c', 'e'), ('ó', 'é'), ('b', 'h'), ('o', 'e'), ('i', 't'), ('f', 't'), ('n', 'u'), ('u', 'n')}
+    reg = []
+    for tp, i1, i2, j1, j2 in alinhar(E, G, chave=chave):
+        if tp != 'replace' or i2 - i1 != j2 - j1:
+            continue
+        for k in range(i2 - i1):
+            o, n = E[i1 + k], G[j1 + k]
+            if not isinstance(o, str) or not o[:1].isalpha():
+                continue
+            cands = [o[:x] + b + o[x + 1:] for x in range(len(o)) for a, b in pares if o[x] == a]
+            certa = next((c for c in cands if chave(c) == chave(n)), None)
+            if certa and (len(o) > 1 or (o, n) in (('c', 'e'), ('ó', 'é'), ('o', 'e'))):
+                reg.append((E[max(0, i1 + k - 6):i1 + k], o, certa, E[i1 + k + 1:i1 + k + 6]))
+                E[i1 + k] = certa
+    print('letras confundidas pelos OCRs, trocadas pela moderna:', len(reg))
+    with open(fontes.cache(OBRA, 'relatorios/letras.tsv'), 'w', encoding='utf-8') as f:
+        f.write('antes\tOCR\ttroca\tdepois\n')
+        for a, o, c, d in reg:
+            f.write(f"{' '.join(a)}\t{o}\t{c}\t{' '.join(d)}\n")
+    out, origem, rel = mz.modernizar(E, [(n, modernas()[n], pos) for n, pos in REFERENCIAS], manual)
+    return out, [mapa[o] for o in origem], rel
 
 
 if __name__ == '__main__':          # conferência rápida das fontes: palavras por capítulo

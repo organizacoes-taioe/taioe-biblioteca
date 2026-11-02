@@ -13,7 +13,7 @@ COMENTARIO = '''Memórias de um Sargento de Milícias — Manuel Antônio de Alm
 
 APRESENTACAO = '''**Texto-base.** Este texto reproduz a primeira edição em livro das _Memórias de um Sargento de Milícias_, publicada «por um Brasileiro» no Rio de Janeiro, pela Typographia Brasiliense de Maximiano Gomes Ribeiro, em dois tomos (o primeiro de 1854, o segundo de 1855), a única em vida do autor, morto em 1861. O romance tinha saído antes, sem assinatura, em folhetim na «Pacotilha», o suplemento de domingo do _Correio Mercantil_, entre junho de 1852 e julho de 1853.
 
-**Como foi estabelecido.** Foram confrontadas palavra por palavra duas leituras automáticas (OCR) do exemplar da Brasiliana USP: a que vem no arquivo da biblioteca e uma nova, feita para esta edição. O texto moderno do Wikisource serviu para a divisão em parágrafos e para a grafia; os pontos de dúvida foram conferidos nas imagens do livro.
+**Como foi estabelecido.** Foram confrontadas palavra por palavra três leituras automáticas (OCR) do exemplar da Brasiliana USP: a que vem no PDF da biblioteca, a que vem na cópia do mesmo exemplar no Wikimedia Commons e uma nova, feita para esta edição. O texto moderno do Wikisource serviu para a divisão em parágrafos e para a grafia; os pontos de dúvida foram conferidos nas imagens do livro.
 
 **Ortografia.** A grafia foi atualizada pelo Acordo Ortográfico de 1990, na forma brasileira (_elle_ → ele, _baptisar_ → batizar, _cousa_ → coisa, _dous_ → dois). O vocabulário e as construções do autor ficaram como estão.
 

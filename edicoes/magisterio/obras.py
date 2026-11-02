@@ -50,6 +50,10 @@ DOCS = {
         '30 de novembro de 1919', 1919, 'latim', 'la', 'AAS 11 (1919), p. 440-455',
         'https://www.vatican.va/content/benedict-xv/la/apost_letters/documents/hf_ben-xv_apl_19191130_maximum-illud.html',
         'https://www.vatican.va/archive/aas/documents/AAS-11-1919-ocr.pdf'),
+    'sacrorum-antistitum': ('Sacrorum Antistitum', 'O juramento antimodernista', 'Motu proprio', 'São Pio X',
+        '1º de setembro de 1910', 1910, 'latim', 'la', 'AAS 2 (1910), p. 655-680',
+        'https://www.vatican.va/content/pius-x/la/motu_proprio/documents/hf_p-x_motu-proprio_19100901_sacrorum-antistitum.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-02-1910-ocr.pdf'),
     'pascendi': ('Pascendi Dominici Gregis', 'Sobre as doutrinas dos modernistas', 'Carta encíclica', 'São Pio X',
         '8 de setembro de 1907', 1907, 'latim', 'la', 'ASS 40 (1907), p. 593 e seguintes',
         'https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html',
@@ -75,6 +79,8 @@ ADJETIVO = {'la': 'latino', 'it': 'italiano', 'de': 'alemão'}
 ACTA = {'AAS': '_Acta Apostolicae Sedis_', 'ASS': '_Acta Sanctae Sedis_'}
 NUMERACAO = {   # de onde vem a numeração dos parágrafos (a marca à margem)
     'tra-le-sollecitudini': 'Os números dos parágrafos são os do próprio documento.',
+    'sacrorum-antistitum': ('O documento não numera os parágrafos, e o site do Vaticano não o tem em outra língua; '
+                            'por isso não há marca à margem.'),
     'mit-brennender-sorge': ('Os números dos parágrafos são os do texto alemão do site da Santa Sé (as _Acta_ não '
                              'numeram; a versão inglesa junta parágrafos e vai só até 43).'),
 }
@@ -85,6 +91,8 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
                        'divisão em parágrafos seguimos; também por elas se acertaram as chamadas de nota que o site '
                        'trocava.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
+    'sacrorum-antistitum': ('Os erros evidentes de digitalização (uns trinta) foram corrigidos, e as chamadas de '
+                            'nota que o site perdia ou trocava voltaram ao lugar das _Acta_.'),
     'spiritus-paraclitus': ('Os erros de digitalização do site (uns setenta no texto e trinta nas notas) foram '
                             'corrigidos pelas _Acta_.'),
 }

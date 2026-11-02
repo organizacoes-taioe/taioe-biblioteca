@@ -54,6 +54,10 @@ DOCS = {
         '1º de novembro de 1914', 1914, 'latim', 'la', 'AAS 6 (1914), p. 565-581',
         'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html',
         'https://www.vatican.va/archive/aas/documents/AAS-06-1914-ocr.pdf'),
+    'sacrorum-antistitum': ('Sacrorum Antistitum', 'O juramento antimodernista', 'Motu proprio', 'São Pio X',
+        '1º de setembro de 1910', 1910, 'latim', 'la', 'AAS 2 (1910), p. 655-680',
+        'https://www.vatican.va/content/pius-x/la/motu_proprio/documents/hf_p-x_motu-proprio_19100901_sacrorum-antistitum.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-02-1910-ocr.pdf'),
     'pascendi': ('Pascendi Dominici Gregis', 'Sobre as doutrinas dos modernistas', 'Carta encíclica', 'São Pio X',
         '8 de setembro de 1907', 1907, 'latim', 'la', 'ASS 40 (1907), p. 593 e seguintes',
         'https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html',
@@ -87,6 +91,8 @@ NUMERACAO = {   # de onde vem a numeração dos parágrafos (a marca à margem)
     'tra-le-sollecitudini': 'Os números dos parágrafos são os do próprio documento.',
     'lamentabili': ('Os números das 65 proposições são os do próprio decreto. As notas que as _Acta_ acrescentam, '
                     'marcadas «N. R.» (nota da redação), não fazem parte do decreto e ficaram de fora.'),
+    'sacrorum-antistitum': ('O documento não numera os parágrafos, e o site do Vaticano não o tem em outra língua; '
+                            'por isso não há marca à margem.'),
     'mit-brennender-sorge': ('Os números dos parágrafos são os do texto alemão do site da Santa Sé (as _Acta_ não '
                              'numeram; a versão inglesa junta parágrafos e vai só até 43).'),
 }
@@ -107,6 +113,8 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
     'ad-beatissimi': ('Os erros evidentes de digitalização do site (uns quarenta) foram corrigidos. Num caso, no '
                       '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),
+    'sacrorum-antistitum': ('Os erros evidentes de digitalização (uns trinta) foram corrigidos, e as chamadas de '
+                            'nota que o site perdia ou trocava voltaram ao lugar das _Acta_.'),
     'spiritus-paraclitus': ('Os erros de digitalização do site (uns setenta no texto e trinta nas notas) foram '
                             'corrigidos pelas _Acta_.'),
 }

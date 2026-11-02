@@ -8,12 +8,12 @@ Os erros de digitalização do grego e as marcas repostas estão em `original/LE
 - **1,1** τὸ πολυεύτακτον τῆς … ἀγάπης → «a ordem tão perfeita do vosso amor».
 - **1,2** ὀνόματος θεοπρεπεστάτου → «um nome digníssimo de Deus» (alusão à condição de prisioneiro/mártir, ou a «Teóforo»; não explicitado). A tríplice ἕνωσιν (carne e espírito / fé e amor / Jesus e o Pai) ficou com os genitivos encadeados, sem repetir «união». τοῦ διὰ παντὸς ἡμῶν ζῆν → «nossa vida para sempre».
 - **2,1** Anacoluto do grego mantido (a frase «Visto que…» não se fecha). ἰδεῖν ὑμᾶς διὰ Δαμᾶ → «vos ver na pessoa de Damas». οὗ ἐγὼ ὀναίμην → «de quem oxalá eu possa alegrar-me»; o mesmo verbo em 12,1 → «Oxalá eu possa alegrar-me de vós».
-- **3,1** συγχρᾶσθαι → «abusar»; οὐ προσειληφότας τὴν φαινομένην νεωτερικὴν τάξιν → «não abusaram da sua condição juvenil, que está à vista»; συγχωροῦντας → «lhe dão lugar».
+- **3,1** συγχρᾶσθαι → «abusar»; οὐ προσειληφότας τὴν φαινομένην νεωτερικὴν τάξιν → «não abusaram da condição juvenil dele, que está à vista» («dele»: a juventude é do bispo, não dos presbíteros); συγχωροῦντας → «lhe dão lugar».
 - **3,2** οὐ πρὸς σάρκα ὁ λόγος → «a conta não se presta à carne, mas a Deus» (λόγος = prestação de contas; não «palavra»).
 - **4,1** βεβαίως … συναθροίζεσθαι → «não se reúnem validamente» (Lake: *validly*); alternativa: «com firmeza».
 - **5,2** Elipse do grego («os incrédulos [têm o cunho] deste mundo») completada com «têm o cunho», necessário em português. χαρακτήρ → «cunho». εἰς τὸ αὐτοῦ πάθος → «morrer para entrar na sua paixão» (o «entrar» explicita o εἰς; alternativa mais seca: «morrer rumo à sua paixão»).
 - **6,1** συνέδριον τῶν ἀποστόλων → «conselho dos apóstolos» (alternativa: «colégio», «senado»). τὸ πᾶν πλῆθος → «toda a vossa multidão».
-- **6,2** ὁμοήθειαν θεοῦ λαβόντες → «tendo recebido os costumes de Deus».
+- **6,2** ὁμοήθειαν θεοῦ λαβόντες → «tendo recebido costumes conformes aos de Deus» (o ὁμο- pede a conformidade, não só «os costumes»).
 - **7,1** μηδὲ πειράσητε εὔλογόν τι φαίνεσθαι ἰδίᾳ ὑμῖν → «nem procureis que vos pareça razoável alguma coisa feita à parte, por vossa conta». ἐπὶ τὸ αὐτό → «reunidos».
 - **7,2** εἰς ἕνα ὄντα καὶ χωρήσαντα → «está junto daquele que é um só, e para ele voltou».
 - **8,2** Texto de Lake: λόγος ἀπὸ σιγῆς προελθών (sem a variante longa ἀΐδιος οὐκ ἀπὸ σιγῆς) → «o seu Verbo saído do silêncio», como no guia. τοὺς ἀπειθοῦντας → «os desobedientes» (para não confundir com ἄπιστοι, «incrédulos», de 5,2).

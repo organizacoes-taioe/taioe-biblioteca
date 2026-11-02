@@ -2,7 +2,6 @@
 
 META = {
     'id': 'cartas-inacio-antioquia', 'autor': 'santo-inacio-de-antioquia', 'titulo': 'Cartas',
-    'subtitulo': 'As sete cartas a caminho do martírio',
     'ano': 107, 'datas': 'c. 107–110', 'genero': 'Padres apostólicos',
     'divisao': {'singular': 'carta', 'plural': 'cartas', 'rotulo': 'nome'},
     'traducao': {'lingua': 'grego', 'codigo': 'grc', 'titulo': 'Ἰγνατίου ἐπιστολαί'},

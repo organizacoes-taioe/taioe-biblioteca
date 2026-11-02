@@ -23,6 +23,11 @@ EMENDAS = [
     ('ocr', 'foi a honrai', 'foi a honra!'),
     ('ocr', 'arrependida doudicesde rapariga', 'arrependida..... doudices de rapariga'),
     ('ocr', 'e acahe-se tudo', 'e acabe-se tudo'),
+    # pontos 41–62
+    ('ocr', 'habitada por unia', 'habitada por uma'),
+    ('ocr', 'talvez para ã cadê,', 'talvez para a cadêa...'),
+    ('ocr', 'os industriosos ]', 'os industriosos!'),
+    ('ocr', 'meirinho!.;. Nada', 'meirinho!... Nada'),
 ]
 
 AJUSTES = []

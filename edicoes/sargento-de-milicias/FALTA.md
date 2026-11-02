@@ -27,7 +27,7 @@ Estado: **fontes e confronto montados e rodando; texto ainda não conferido nem 
   confirma): parte as palavras coladas pelos OCRs (72: «Tinhãoesses», «emquantoella»); passa a 3ª do
   plural em -ão a -am (786: «formão», «enfurecião-se»; o futuro fica); troca as letras que os três OCRs
   confundem igual (131: l/t, c/e, ó/é, b/h, n/u…; lista em `relatorios/letras.tsv`, conferir uma amostra).
-- `decisoes.EMENDAS`: 5 leituras conferidas nas imagens (pranchas dos pontos 1–40 de `ver/pontos.json`).
+- `decisoes.EMENDAS`: 9 leituras conferidas nas imagens (pranchas dos pontos 1–62 de `ver/pontos.json`).
 - `edicoes/sargento-de-milicias/conferir.py` (pranchas, cópia do de Policarpo) funciona:
   `python3 edicoes/sargento-de-milicias/conferir.py ferramentas/cache/sargento-de-milicias/ver/p3.tsv`.
   `ver/pontos.json` tem os 650 pontos de palavra sem apoio moderno, na ordem do texto; as pranchas dos

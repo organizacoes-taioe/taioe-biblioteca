@@ -46,6 +46,10 @@ DOCS = {
         '11 de dezembro de 1925', 1925, 'latim', 'la', 'AAS 17 (1925), p. 593-610',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html',
         'https://www.vatican.va/archive/aas/documents/AAS-17-1925-ocr.pdf'),
+    'studiorum-ducem': ('Studiorum Ducem', 'Sobre Santo Tomás de Aquino', 'Carta encíclica', 'Pio XI',
+        '29 de junho de 1923', 1923, 'latim', 'la', 'AAS 15 (1923), p. 309-326',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19230629_studiorum-ducem.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-15-1923-ocr.pdf'),
     'spiritus-paraclitus': ('Spiritus Paraclitus', 'Sobre São Jerônimo e a Sagrada Escritura', 'Carta encíclica', 'Bento XV',
         '15 de setembro de 1920', 1920, 'latim', 'la', 'AAS 12 (1920), p. 385-422',
         'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html',
@@ -97,6 +101,8 @@ NUMERACAO = {   # de onde vem a numeração dos parágrafos (a marca à margem)
                     'marcadas «N. R.» (nota da redação), não fazem parte do decreto e ficaram de fora.'),
     'sacrorum-antistitum': ('O documento não numera os parágrafos, e o site do Vaticano não o tem em outra língua; '
                             'por isso não há marca à margem.'),
+    'studiorum-ducem': ('O documento não numera os parágrafos, e o site do Vaticano não o tem em inglês, cuja '
+                        'numeração seguimos nos outros documentos; por isso não há marca à margem.'),
     'mit-brennender-sorge': ('Os números dos parágrafos são os do texto alemão do site da Santa Sé (as _Acta_ não '
                              'numeram; a versão inglesa junta parágrafos e vai só até 43).'),
 }
@@ -116,6 +122,8 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
                     'corrente do decreto.'),
     'miserentissimus-redemptor': ('Os erros de digitalização do site (uns oitenta) foram corrigidos pelas _Acta_, e também '
                                   'cinco referências bíblicas erradas das notas.'),
+    'studiorum-ducem': ('Os erros de digitalização do site (uns setenta) foram corrigidos pelas _Acta_, e por elas '
+                        'se juntaram três parágrafos que o site partia ao meio.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
     'ad-beatissimi': ('Os erros evidentes de digitalização do site (uns quarenta) foram corrigidos. Num caso, no '
                       '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),

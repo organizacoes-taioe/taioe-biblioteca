@@ -249,9 +249,21 @@ def oracoes():
 
 # ------------------------------------------------------------------ poesias e recreações
 
-def estrofes_site(corpo):
-    """Versos simples (um por linha, estrofes por linha em branco) -> formato da Biblioteca."""
-    return '\n\n'.join('\n'.join('| ' + l.strip() for l in e.split('\n') if l.strip()) for e in paragrafos(corpo))
+def estrofes_site(corpo, rubricas=''):
+    """Versos simples (um por linha, estrofes por linha em branco) -> formato da Biblioteca.
+    rubricas: o «# rubrica:» do cabeçalho, «n | texto» (várias separadas por « / »), uma linha em itálico
+    antes da estrofe n (ex.: «13 | (À nossa Madre)» no PN 29)."""
+    antes = {}
+    for r in rubricas.split(' / '):
+        if '|' in r:
+            n, t = r.split('|', 1)
+            antes[int(n.strip())] = '_' + t.strip().strip('_') + '_'
+    blocos = []
+    for i, e in enumerate(paragrafos(corpo), 1):
+        if i in antes:
+            blocos.append(antes[i])
+        blocos.append('\n'.join('| ' + l.strip() for l in e.split('\n') if l.strip()))
+    return '\n\n'.join(blocos)
 
 
 def abertura(cab):
@@ -289,8 +301,8 @@ def poesias():
     for s in sorted(fontes, key=chave):
         cab, corpo = ler(os.path.join(pasta, s, 'traducao.txt'))
         cab_fr, corpo_fr = ler(os.path.join(pasta, s, 'original.txt'))
-        t = abertura(cab) + [estrofes_site(corpo)] + fecho(cab)
-        o = abertura(cab_fr) + [estrofes_site(corpo_fr)] + fecho(cab_fr)
+        t = abertura(cab) + [estrofes_site(corpo, cab.get('rubrica', ''))] + fecho(cab)
+        o = abertura(cab_fr) + [estrofes_site(corpo_fr, cab_fr.get('rubrica', ''))] + fecho(cab_fr)
         sigla = cab.get('sigla') or s.upper().replace('-', ' ')
         partes.append({'n': re.sub(r'\b0(\d)', r'\1', sigla), 'titulo': cab.get('titulo', ''), 'tituloOriginal': cab_fr.get('titulo', ''),
                        'texto': '\n\n'.join(x for x in t if x), 'original': '\n\n'.join(x for x in o if x)})

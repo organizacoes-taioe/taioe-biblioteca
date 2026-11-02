@@ -424,7 +424,15 @@ function generosDe(autorId) {
 }
 /* autor de um gênero só, todo em verso (a Poesia; as Orações): a página do autor já é a lista dos
    textos, sem a pasta do gênero */
-function soPoesia(autorId) { const g = generosDe(autorId); return g.length === 1 && g[0].obras.every((o) => o.poema); }
+function soPoesia(autorId) {
+  const g = generosDe(autorId);
+  return g.length === 1 && g[0].obras.some((o) => o.poema) && g[0].obras.every((o) => o.poema || g[0].genero === 'Poesia');
+}
+/* livros de poemas inteiros (obra com partes, não poema solto; as Poesias de Bilac), em cima dos poemas */
+function htmlLivrosDePoesia(obras) {
+  const livros = obras.filter((o) => !o.poema);
+  return livros.length && livros.length < obras.length ? '<p class="secao-titulo">Livros</p>' + htmlObrasDoGenero(livros) : '';
+}
 // Ordem alfabética pelo nome como está escrito («Machado de Assis» no M), pedido do Gere, 07/10/2026.
 const autoresOrdenados = () => dados.autores.slice().sort((a, b) => a.nome.localeCompare(b.nome, 'pt'));
 const autoresDaArea = (id) => autoresOrdenados().filter((a) => areaDe(a) === id);
@@ -917,7 +925,7 @@ function trilhaPasta(a, o) {
   if (formaEhPasta(a.id, f.id)) itens.push({ txt: f.nome, href: U.pasta(a, f.id) });
   return comArea(a, itens);
 }
-const trilhaGenero = (a, g) => (generoEhPasta(a, g) ? { txt: nomeGenero(g), href: U.genero(a, g) } : null);
+const trilhaGenero = (a, g) => (generoEhPasta(a, g) && !(g === 'Poesia' && soPoesia(a.id)) ? { txt: nomeGenero(g), href: U.genero(a, g) } : null);
 
 function paginaPasta(a, f) {
   const obras = poesiaDe(a.id).filter((o) => (o.forma || 'outras') === f.id);
@@ -932,7 +940,7 @@ function paginaPasta(a, f) {
 function paginaAutor(a) {
   const desc = `${a.nome}${a.vida ? ' (' + a.vida + ')' : ''} na Biblioteca Taioé.${a.nota ? ' ' + textoPuro(a.nota) : ''}`;
   if (soPoesia(a.id)) {
-    pagina({ url: U.autor(a), titulo: a.nome, corpo: '<div class="folha">' + cabecaAutor(a) + htmlPastas(a, poesiaDe(a.id)) + '</div>',
+    pagina({ url: U.autor(a), titulo: a.nome, corpo: '<div class="folha">' + cabecaAutor(a) + htmlLivrosDePoesia(obrasDe(a.id)) + htmlPastas(a, poesiaDe(a.id)) + '</div>',
       trilha: comArea(a, [{ txt: a.nome }]), descricao: descricaoDe(desc) });
     return;
   }
@@ -980,7 +988,9 @@ function paginaGenero(a, x) {
   let html = '<div class="folha"><header class="cabeca"><h1>' + esc(nomeGenero(x.genero)) + '</h1><p class="meta">' + esc(a.nome) + '</p></header>';
   const trilha = comArea(a, [{ txt: a.nome, href: U.autor(a) }, { txt: nomeGenero(x.genero) }]);
   if (x.genero === 'Poesia') {
-    pagina({ url: U.genero(a, x.genero), titulo: 'Poesia — ' + a.nome, corpo: html + htmlPastas(a, x.obras) + '</div>', trilha,
+    const poemas = x.obras.filter((o) => o.poema);
+    html += htmlLivrosDePoesia(x.obras);
+    pagina({ url: U.genero(a, x.genero), titulo: 'Poesia — ' + a.nome, corpo: html + htmlPastas(a, poemas.length ? poemas : x.obras) + '</div>', trilha,
       descricao: `Poesia de ${a.nome} na Biblioteca Taioé.` });
     return;
   }

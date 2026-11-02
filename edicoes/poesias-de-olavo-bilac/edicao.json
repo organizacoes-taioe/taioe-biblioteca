@@ -1,0 +1,29 @@
+{
+  "base": "Edição de 1902",
+  "secoes": {
+    "erros": {
+      "titulo": "Erros de 1902 corrigidos",
+      "explica": "Erros de composição da edição de 1902. À esquerda, a lição impressa; o lugar é o poema."
+    }
+  },
+  "apresentacao": "**Texto-base.** _Poesias_, edição definitiva (Rio de Janeiro e Paris, H. Garnier, 1902), a última revista por Bilac em vida, que reúne _Panóplias_, _Via Láctea_, _Sarças de Fogo_, _Alma Inquieta_, _As Viagens_ e _O Caçador de Esmeraldas_. Por enquanto estão aqui as duas primeiras partes; as outras entram depois de conferidas.\n\n**Como foi estabelecido.** O texto foi transcrito das imagens do fac-símile de 1902 (exemplar da Brasiliana Guita e José Mindlin, no Wikimedia Commons) e confrontado palavra por palavra com a transcrição dos mesmos poemas no Wikisource. Onde as duas divergem, vale a de 1902: as diferenças do Wikisource são, na maior parte, lições de outras edições (Bilac reescreveu versos d'_A morte de Tapir_ e da _Via Láctea_ entre 1888 e 1902) ou erros de leitura. _Para a Rainha Dona Amélia de Portugal_, que entrou nas _Panóplias_ só em edições posteriores, fica de fora.\n\n**Grafia.** A de hoje. Mudou só a maneira de escrever, nunca a forma da palavra: ficam _doirado_, _subtil_, _inda_, _Atene_ e as elisões do verso (_minh'alma_, _d'alma_, _d'água_); as contrações com apóstrofo da época passam à forma de hoje (_dessa_, _num_, _outrora_).",
+  "fontes": [
+    {
+      "nome": "Poesias, edição definitiva, H. Garnier, 1902 (Brasiliana Guita e José Mindlin, USP), no Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Poesias_(1902).pdf",
+      "nota": "fac-símile; a base do texto"
+    },
+    {
+      "nome": "Wikisource, poemas de Olavo Bilac",
+      "url": "https://pt.wikisource.org/wiki/Categoria:Olavo_Bilac",
+      "nota": "segunda transcrição, confrontada palavra por palavra"
+    }
+  ],
+  "erros": [
+    {
+      "cap": "Profissão de fé",
+      "de": "Que officio tal.. nem ha noticia",
+      "para": "Que ofício tal... nem há notícia"
+    }
+  ]
+}

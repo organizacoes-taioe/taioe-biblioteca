@@ -53,6 +53,18 @@ nossa é nova, do texto oficial. A fila e o resto da lista estão em `taioe.com.
 
 Uma decisão de cada nas pendências («Biblioteca: traduções»): `revisao-<documento>.json` nesta pasta.
 
+## Pedidos de 02/11
+
+| documento | autor | data | língua | palavras | estado |
+|---|---|---|---|---|---|
+| *Lamentabili sane exitu* | Santo Ofício, aprovado por São Pio X | 1907 | latim | ~2,2 mil | pronto na branch `pedido-lamentabili`; numeração própria (1–65) |
+
+- Decreto de congregação romana (não ato do próprio papa): fica sob «Igreja Católica», como os outros,
+  no grupo do papa que o aprovou (São Pio X); a apresentação diz «Decreto do Santo Ofício… aprovado e
+  confirmado por São Pio X» (`ABERTURA` em `obras.py`). Sem página no vatican.va: a base é o PDF das ASS
+  (url do texto `None` em `DOCS`; a fonte do site fica só a das _Acta_). As notas «N. R.» das ASS
+  (da redação) ficaram de fora (`SEM_NOTAS`); é a decisão de `revisao-lamentabili.json`.
+
 ## Depois
 
 Os próximos vêm da lista do Magistério em `/admin/sugestoes/`, quando o Gere pedir. O levantamento

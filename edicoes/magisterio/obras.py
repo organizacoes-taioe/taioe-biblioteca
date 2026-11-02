@@ -54,6 +54,12 @@ DOCS = {
         '8 de setembro de 1907', 1907, 'latim', 'la', 'ASS 40 (1907), p. 593 e seguintes',
         'https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html',
         'https://www.vatican.va/archive/ass/documents/ASS-40-1907-ocr.pdf'),
+    # decreto do Santo Ofício aprovado pelo papa: fica sob «Igreja Católica», no grupo de São Pio X, como os outros
+    # (decisão de 02/11); o site da Santa Sé não tem o texto latino, e a base é o PDF das ASS (url do texto: None)
+    'lamentabili': ('Lamentabili sane exitu', 'Sobre os erros dos modernistas',
+        'Decreto do Santo Ofício', 'São Pio X',
+        '3 de julho de 1907', 1907, 'latim', 'la', 'ASS 40 (1907), p. 470-478', None,
+        'https://www.vatican.va/archive/ass/documents/ASS-40-1907-ocr.pdf'),
     'tra-le-sollecitudini': ('Tra le sollecitudini', 'Sobre a música sacra', 'Motu proprio', 'São Pio X',
         '22 de novembro de 1903', 1903, 'italiano', 'it', 'ASS 36 (1903-1904), p. 329-339',
         'https://www.vatican.va/content/pius-x/it/motu_proprio/documents/hf_p-x_motu-proprio_19031122_sollecitudini.html',
@@ -75,15 +81,25 @@ ADJETIVO = {'la': 'latino', 'it': 'italiano', 'de': 'alemão'}
 ACTA = {'AAS': '_Acta Apostolicae Sedis_', 'ASS': '_Acta Sanctae Sedis_'}
 NUMERACAO = {   # de onde vem a numeração dos parágrafos (a marca à margem)
     'tra-le-sollecitudini': 'Os números dos parágrafos são os do próprio documento.',
+    'lamentabili': ('Os números das 65 proposições são os do próprio decreto. As notas que as _Acta_ acrescentam, '
+                    'marcadas «N. R.» (nota da redação), não fazem parte do decreto e ficaram de fora.'),
     'mit-brennender-sorge': ('Os números dos parágrafos são os do texto alemão do site da Santa Sé (as _Acta_ não '
                              'numeram; a versão inglesa junta parágrafos e vai só até 43).'),
 }
+ABERTURA = {  # id: o começo da apresentação, quando «<tipo> de <papa>, de <data>.» não serve
+    'lamentabili': ('Decreto do Santo Ofício (a Sagrada Congregação da Romana e Universal Inquisição), de 3 de '
+                    'julho de 1907, aprovado e confirmado por São Pio X no dia seguinte, com as 65 proposições '
+                    'condenadas dos modernistas.'),
+}
+SEM_NOTAS = {'lamentabili'}  # documentos sem notas próprias
 CORRECOES = {  # id: frase sobre as correções feitas no texto de base
     'mit-brennender-sorge': ('O texto do site é de outra composição que não a das _Acta_: onde ele perdia uma frase '
                              '(§ 35) e onde tinha erros evidentes de digitação, seguimos as _Acta_.'),
     'casti-connubii': ('Os erros de digitalização do site (mais de sessenta) foram corrigidos pelas _Acta_, cuja '
                        'divisão em parágrafos seguimos; também por elas se acertaram as chamadas de nota que o site '
                        'trocava.'),
+    'lamentabili': ('Os erros evidentes da leitura do PDF (OCR) foram corrigidos pela gramática e pelo texto '
+                    'corrente do decreto.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
     'spiritus-paraclitus': ('Os erros de digitalização do site (uns setenta no texto e trinta nas notas) foram '
                             'corrigidos pelas _Acta_.'),
@@ -95,8 +111,10 @@ def meta(doc):
     acta = ACTA[citacao[:3]]
     numeracao = NUMERACAO.get(doc, 'A pequena marca à margem dá a numeração dos parágrafos mais usada nas '
                                    'citações, a da versão inglesa do site do Vaticano.')
-    texto = (f'**O documento.** {tipo} de {papa}, de {data}. O texto de base é o {lingua} oficial, publicado nas '
-             f'{acta} ({citacao}), na transcrição do site da Santa Sé. ' + CORRECOES.get(doc, ''))
+    abertura = ABERTURA.get(doc, f'{tipo} de {papa}, de {data}.')
+    texto = (f'**O documento.** {abertura} O texto de base é o {lingua} oficial, publicado nas '
+             f'{acta} ({citacao}), ' + ('na transcrição do site da Santa Sé. ' if url else
+             'transcrito do PDF do volume (o site da Santa Sé não tem página com o texto). ') + CORRECOES.get(doc, ''))
     return {
         'id': doc, 'autor': 'igreja-catolica', 'titulo': tit, 'subtitulo': sub,
         'ano': ano, 'datas': f'{papa}, {ano}', 'genero': 'Magistério', 'grupo': papa, 'documento': True,
@@ -107,11 +125,12 @@ def meta(doc):
             'apresentacao': (
                 texto.strip() + '\n\n'
                 '**A tradução.** Nossa, feita do ' + lingua + ', em português do Brasil. As citações da Escritura e de '
-                'outros documentos foram traduzidas como o documento as dá, e as notas são as dele. ' + numeracao + '\n\n'
+                'outros documentos foram traduzidas como o documento as dá' + ('. ' if doc in SEM_NOTAS else
+                ', e as notas são as dele. ') + numeracao + '\n\n'
                 f'**O original ao lado.** O botão «{lingua.capitalize()}», no alto da página de leitura, mostra o texto '
                 f'{ADJETIVO[cod]} junto da tradução.'),
             'fontes': [
-                {'nome': f'Site da Santa Sé, texto em {lingua}', 'url': url},
+                {'nome': f'Site da Santa Sé, texto em {lingua}', 'url': url}] * bool(url) + [
                 {'nome': f'{acta.strip("_")}, {citacao}', 'url': pdf, 'nota': 'o texto oficial, em fac-símile'},
             ],
         },

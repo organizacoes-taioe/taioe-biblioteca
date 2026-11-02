@@ -1,0 +1,26 @@
+{
+ "id": "magisterio-lamentabili",
+ "rotulo": "Lamentabili sane exitu (Santo Ofício, São Pio X, 1907)",
+ "url": "/biblioteca/igreja-catolica/lamentabili/",
+ "escolhas": [
+  {
+   "id": "notas-da-redacao",
+   "titulo": "As 7 notas da redação das _Acta_ (N. R.) entram?",
+   "ref": "proposições 8, 12, 20, 27, 45, 48 e 65",
+   "contexto": "O decreto não tem notas. Nas _Acta Sanctae Sedis_, a redação da revista pôs sete notas, assinadas «N. R.», que agrupam as proposições por tema (8 primeiras: autoridade da Igreja; 9–19: a Escritura; 20–26: revelação e dogma; 27–38: Cristo; 39–51: sacramentos; 52–63: a Igreja; 64–65: o evolucionismo, ligado ao _Syllabus_) e citam por inteiro 1Cor 11,23-25 e Tg 5,14-15. Hoje ficaram de fora, e a página «Sobre» diz isso.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam de fora, como está",
+     "nota": "Só o texto do decreto, como nos outros documentos (só as notas do próprio documento).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Entram, traduzidas, como «Nota da redação das _Acta_»",
+     "nota": "Ajudam a ver a ordem das 65 proposições, mas não são do Santo Ofício."
+    }
+   ]
+  }
+ ]
+}

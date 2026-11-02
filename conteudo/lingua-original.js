@@ -223,3 +223,13 @@ BIBLIOTECA.poemas({
     {"id":"jorge-manrique-coplas-por-la-muerte-de-su-padre","titulo":"Coplas por la muerte de su padre","forma":"outras","livro":-1,"ordem":0,"versos":480,"lingua":"es","ano":1476,"glossario":true}
   ]
 });
+
+BIBLIOTECA.poemas({
+  autor: "horacio",
+  arquivo: "conteudo/horacio/lingua-original.js",
+  livros: [{"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}],
+  poemas: [
+    {"id":"horacio-tu-ne-quaesieris","titulo":"Tu ne quaesieris","forma":"outras","livro":0,"ordem":0,"versos":8,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"António Ribeiro dos Santos","titulo":"A Leuconoe","ano":1807}},
+    {"id":"horacio-exegi-monumentum","titulo":"Exegi monumentum","forma":"outras","livro":1,"ordem":1,"versos":16,"lingua":"la","ano":null,"glossario":true}
+  ]
+});

@@ -39,6 +39,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'camilo-castelo-branco',
+  nome: 'Camilo Castelo Branco',
+  nomeCompleto: 'Camilo Ferreira Botelho Castelo Branco',
+  vida: '1825–1890',
+  ordem: 'Castelo Branco, Camilo',
+  nota: 'Romancista português, o mais fecundo do seu século; autor de _Amor de Perdição_.'
+});
+
+BIBLIOTECA.autor({
   id: 'eca-de-queiros',
   nome: 'Eça de Queirós',
   nomeCompleto: 'José Maria de Eça de Queirós',

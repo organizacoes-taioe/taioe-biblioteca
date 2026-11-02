@@ -564,6 +564,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('bocage/soneto-voaste-alma-inocente-alma-querida', 'Voaste, alma inocente, alma querida'),
   ('bocage/soneto-vos-credulos-mortais-alucinados', 'Vós, crédulos mortais, alucinados'),
   ('bocage/soneto-vos-que-de-meus-extremos-sois-a-historia', 'Vós, que de meus extremos sois a história'),
+  ('camilo-castelo-branco/amor-de-perdicao', 'Amor de Perdição'),
   ('camilo-pessanha/clepsidra-ao-longe-os-barcos', 'Ao longe os barcos de flores'),
   ('camilo-pessanha/clepsidra-chorae-arcadas', 'Chorai arcadas'),
   ('camilo-pessanha/clepsidra-crepuscular', 'Crepuscular'),

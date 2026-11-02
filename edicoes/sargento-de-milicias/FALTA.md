@@ -34,7 +34,7 @@ Estado: **fontes e confronto montados e rodando; texto ainda não conferido nem 
   pontos 41–80 (`ver/p3-4846-*.png`) estão feitas e ainda não foram lidas.
 - `texto.py` roda: 48 partes, 1.456 parágrafos; relatórios: 623 em `modernas.tsv`, 1.697 em
   `pontuacao.tsv`, 552 em `sem_par.tsv`, 415 em `vocabulario.tsv`.
-- `decisoes.py` e `notas.py` com a estrutura e um rascunho da «Sobre»; o autor em `conteudo/autores.js`.
+- `decisoes.py` e `notas.py` com a estrutura e um rascunho da «Sobre». O bloco do autor está no item 7 abaixo.
 
 ## Falta (na ordem)
 1. **Conferência**: ler as pranchas dos 650 pontos de palavra (`ver/pontos.json`, a partir do 41) e
@@ -53,8 +53,12 @@ Estado: **fontes e confronto montados e rodando; texto ainda não conferido nem 
 5. **Versos** (modinhas, p. 10 e outras) em `decisoes.VERSOS` ou pelo `<poem>` do Wikisource.
 6. Grafia final (`MANUAL`), `notas.py` completa (erros corrigidos, lista, descrição das fontes) e
    `texto.py --publicar`.
-7. Autor: já em `conteudo/autores.js`; falta a linha da obra em `conteudo/obras.json`/`index.html`, se o
-   gerador pedir (o `--publicar` grava `conteudo/manuel-antonio-de-almeida/sargento-de-milicias.js`).
+7. Autor em `conteudo/autores.js`, **só junto com a obra** (sem obra, o `conferir.mjs` acusa link quebrado
+   em `literatura/index.html`; por isso saiu do commit), depois do de Lima Barreto:
+   `BIBLIOTECA.autor({ id: 'manuel-antonio-de-almeida', nome: 'Manuel Antônio de Almeida', nomeCompleto:
+   'Manuel Antônio de Almeida', vida: '1831–1861', ordem: 'Almeida, Manuel Antônio de', nota: 'Romancista e
+   jornalista carioca; autor de um romance só, publicado sem o seu nome.' });`
+   O `--publicar` grava `conteudo/manuel-antonio-de-almeida/sargento-de-milicias.js`.
 8. `edicoes/vocabulario/sargento-de-milicias.json` (`edicoes/vocabulario/LEIA.md`;
    `node ferramentas/vocabulario.mjs … conferir` dá `ok`): o livro tem muito léxico de época (meirinho,
    chicana, rótula, mantilha, granadeiro, ucharia, malsinar…).

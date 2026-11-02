@@ -29,7 +29,7 @@ os sinais ʽ … ʼ de Lake).
   ἦς → ἧς; 20.2 «Χριστῷ. τῷ κατὰ σάρκα» → vírgula.
 - **Magnésios**: saudação καῖ → καὶ; 1.2 «ἕνωσιν· εὔχομαι» → sem o ponto alto; 1.2 ἡς → ἧς; 2.1 ἀξϊων →
   ἀξίων; 4.1 Χρις τιανούς → Χριστιανούς; 5.1 πρώγματα → πράγματα; 6.1 δς → ὃς; 7.1 οὖ → οὗ; 8.1 e 10.3
-  Ἰουδαῖσμ- → Ἰουδαϊσμ-; 8.2 ἐνπνεόμενοι → ἐμπνεόμενοι; 8.2 ἁπὸ → ἀπὸ; 12.1 ὀ δίκαιος → ὁ δίκαιος; 14.1
+  Ἰουδαῖσμ- → Ἰουδαϊσμ-; 8.2 ἁπὸ → ἀπὸ; 12.1 ὀ δίκαιος → ὁ δίκαιος; 14.1
   «ὑμῶν. ἵνα» → vírgula; 15.1 οἲ → οἳ.
 - **Tralianos**: 2.1 Ἱησοῦ → Ἰησοῦ; 2.2 ᾦ → ᾧ; 3.2 e 12.3 οὖ → οὗ; 3.3 e 7.2 ὤν → ὢν; 8.1 «ἀγαπητούς.
   προορῶν» → vírgula; 9.1 Πιλάτον → Πιλάτου; 9.2 «ἀπὸ νεκρῶν. ἐγείραντος» → vírgula; 11.2 προσκαλεῖταν →
@@ -41,5 +41,12 @@ os sinais ʽ … ʼ de Lake).
   5.2 ᾦ → ᾧ; 5.2 ἀξιαγαπητοι → ἀξιαγάπητοι; 6.1 ἰουδαῖσμόν → ἰουδαϊσμόν; 7.1 ἐπισκοπῳ → ἐπισκόπῳ; 8.1
   «ὀργή. θεὸς» → vírgula; 8.2 οἶς → οἷς; 11.2 «ὁμονοίᾳ, ἔρρωσθε» → ponto.
 - **Esmirnenses**: 1.2 οὖ → οὗ; 2.1 το δοκεῖν → τὸ δοκεῖν; 7.1 πρυσευχῆς → προσευχῆς; 7.1 δε → δὲ;
-  8.1 ἄν → ἂν; 9.2 πάροντα → παρόντα; 12.1 ὅν → ὃν.
+  8.1 ἄν → ἂν; 9.2 πάροντα → παρόντα (erro também da edição impressa); 12.1 ὅν → ὃν.
 - **Policarpo**: 6.2 οὖ → οὗ.
+
+Conferência com o fac-símile (2026-11-02): as 125 diferenças entre a digitalização e este texto
+foram comparadas com o OCR do fac-símile do Internet Archive (`apostolicfathers01lake`, reimpressão
+de 1919). Em 73 o impresso tem a forma corrigida; nas outras o OCR não distingue (coronis e
+apóstrofo, acento grave, δι’) ou a linha está partida, e a correção é de acentuação evidente. Mantido
+como Lake imprime: Mg 8.2 ἐνπνεόμενοι (grafia do manuscrito, sem assimilação). Os números de
+versículo repostos (Tr 11.2, Esm 4.2, Pol 2.3) estão no impresso como números soltos no texto.

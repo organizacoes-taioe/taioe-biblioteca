@@ -70,7 +70,9 @@ Dezoito anos! O arrebol dourado e escarlate da manhã da vida! As louçanias do 
 O leitor decerto se compungia; e a leitora se lhe dissessem, em menos de uma linha, a história daqueles dezoito anos, choraria! Pois não? A olhos enxutos poderia ouvi-la a mulher, a criatura mais bem formada das branduras da piedade, a que por vezes traz consigo do céu um reflexo da divina misericórdia, essa, a minha leitora, a carinhosa amiga de todos os infelizes não choraria se lhe dissessem que o pobre moço perdera honra, reabilitação, pátria, liberdade, irmãs, mãe, tudo, por amor da primeira mulher que o despertou do seu dormir de inocentes desejos?!
 
 Chorava, chorava! Assim eu lhe soubesse dizer o doloroso sobressalto que me causaram aquelas linhas, de propósito procuradas, e lidas com amargura e respeito e, ao mesmo tempo, ódio. Ódio, sim... A tempo verão se é perdoável o ódio, ou se antes me não fora melhor abrir mão desde já de uma história que me pode acarear enojos dos frios julgadores do coração, e das sentenças que eu aqui lavrar contra a falsa virtude de homens, feitos bárbaros, em nome de sua honra.` },
-    { n: "I", titulo: "Domingos José Correia Botelho de Mesquita e Meneses, fidalgo de linhagem, e um dos mais antigos solarengos de Vila Real de Trás-os-Montes, era, em 1779, juiz de fora de Cascais, e nesse mesmo ano casara com uma dama do paço, D. Rita Teresa Margarida Preciosa da Veiga Caldeirão Castelo Branco, filha de um capitão de cavalos, e neta de outro, Antônio de Azevedo Castelo Branco Pereira da Silva, tão notável por sua jerarquia, como por um, naquele tempo, precioso livro acerca da Arte da Guerra", texto: `Dez anos de enamorado mal sucedido consumira em Lisboa o bacharel provinciano. Para se fazer amar da formosa dama de D. Maria I minguavam-lhe dotes físicos: Domingos Botelho era extremamente feio. Para se inculcar como partido conveniente a uma filha segunda, faltavam-lhe bens de fortuna: os haveres dele não excediam a trinta mil cruzados em propriedades no Douro. Os dotes de espírito não o recomendavam também: era alcançadíssimo de inteligência, e granjeara entre os seus condiscípulos da universidade o epíteto de «brocas» com que ainda hoje os seus descendentes em Vila Real são conhecidos. Bem ou mal derivado, o epíteto _brocas_ vem de _broa_. Entenderam os acadêmicos que a rudeza do seu condiscípulo procedia do muito pão de milho que ele digeria na sua terra.
+    { n: "I", titulo: "", texto: `Domingos José Correia Botelho de Mesquita e Meneses, fidalgo de linhagem, e um dos mais antigos solarengos de Vila Real de Trás-os-Montes, era, em 1779, juiz de fora de Cascais, e nesse mesmo ano casara com uma dama do paço, D. Rita Teresa Margarida Preciosa da Veiga Caldeirão Castelo Branco, filha de um capitão de cavalos, e neta de outro, Antônio de Azevedo Castelo Branco Pereira da Silva, tão notável por sua jerarquia, como por um, naquele tempo, precioso livro acerca da Arte da Guerra.
+
+Dez anos de enamorado mal sucedido consumira em Lisboa o bacharel provinciano. Para se fazer amar da formosa dama de D. Maria I minguavam-lhe dotes físicos: Domingos Botelho era extremamente feio. Para se inculcar como partido conveniente a uma filha segunda, faltavam-lhe bens de fortuna: os haveres dele não excediam a trinta mil cruzados em propriedades no Douro. Os dotes de espírito não o recomendavam também: era alcançadíssimo de inteligência, e granjeara entre os seus condiscípulos da universidade o epíteto de «brocas» com que ainda hoje os seus descendentes em Vila Real são conhecidos. Bem ou mal derivado, o epíteto _brocas_ vem de _broa_. Entenderam os acadêmicos que a rudeza do seu condiscípulo procedia do muito pão de milho que ele digeria na sua terra.
 
 Domingos Botelho devia ter uma vocação qualquer; e tinha: era excelente flautista; foi a primeira flauta do seu tempo; e a tocar flauta se sustentou dois anos em Coimbra, durante os quais seu pai lhe suspendeu as mesadas, porque os rendimentos da casa não bastavam a livrar outro filho de um crime de morte[1].
 
@@ -143,7 +145,9 @@ O corregedor, quando soube o expediente de sua mulher, fingiu-se zangado, e prom
 ¤ [1] Há vinte anos que eu ouvi de um coevo do fato a história do assassínio assim contada: Era em quinta-feira santa. Marcos Botelho, irmão de Domingos, estava na festa de endoenças, em S. Francisco, defrontando com uma dama, namorada sua, e desleal dama que ela era. Noutro ponto da igreja estava, apontado em olhos e coração à mesma mulher, um alferes de infantaria. Marcos enfreou o seu ciúme até ao final do ofício da paixão. À saída do templo encarou no militar, e provocou-o. O alferes tirou da espada, e o fidalgo do espadim. Terçaram as armas longo tempo sem desaire nem sangue. Amigos de ambos tinham conseguido aplacá-los, quando Luís Botelho, outro irmão de Marcos, desfechou uma clavina no peito do alferes, e ali à entrada da «rua do Jogo da Bola» o derribou morto. O homicida foi livre por graça régia.
 
 ¤ [2] É a casa-palacete da «rua da Piedade», hoje pertencente ao doutor Antônio Girardo Monteiro.` },
-    { n: "II", titulo: "Simão Botelho levou de Viseu para Coimbra as arrogantes convicções da sua valentia. Se recordava os chibantes pormenores da derrota em que pusera trinta aguadeiros, o som cavo das pancadas, a queda atordoada deste, o levantar-se daquele ensanguentado, a bordoada que abrangia três a um tempo, a que afocinhava dois, a gritaria de todos, e o estrépito dos cântaros afinal, Simão deliciava-se nestas lembranças, como ainda não vi nalgum drama, em que o veterano de cem batalhas relembra os louros de cada uma, e esmorece, afinal, estafado de espantar, quando não é de estafar, os ouvintes", texto: `O acadêmico, porém, com os seus entusiasmos era incomparavelmente muito mais prejudicial e perigoso que o mata-mouros de tragédia. As recordações esporeavam-no a façanhas novas, e naquele tempo a academia dava azo a elas. A mocidade estudiosa, em grande parte, simpatizava com as balbuciantes teorias da liberdade, mais por pressentimento que por estudo. Os apóstolos da revolução francesa não tinham podido fazer reboar o trovão dos seus clamores neste canto do mundo; mas os livros dos enciclopedistas, as fontes onde a geração seguinte bebera a peçonha que saiu no sangue de noventa e três, não eram de todo ignorados. As doutrinas da regeneração social pela guilhotina tinham alguns tímidos sectários em Portugal, e esses de ver é que deviam pertencer à geração nova. Além de que, o rancor à Inglaterra lavrava nas entranhas das classes manufatureiras, e o desprender-se do jugo aviltador de estranhos, apertado, desde o princípio do século anterior, com as sogas de ruinosos e pérfidos tratados, estava no ânimo de muitos e bons portugueses que se queriam antes aliançados com a França, Estes eram os pensadores reflexivos; os sectários da academia, porém, exprimiam mais a paixão da novidade que as doutrinas do raciocínio.
+    { n: "II", titulo: "", texto: `Simão Botelho levou de Viseu para Coimbra as arrogantes convicções da sua valentia. Se recordava os chibantes pormenores da derrota em que pusera trinta aguadeiros, o som cavo das pancadas, a queda atordoada deste, o levantar-se daquele ensanguentado, a bordoada que abrangia três a um tempo, a que afocinhava dois, a gritaria de todos, e o estrépito dos cântaros afinal, Simão deliciava-se nestas lembranças, como ainda não vi nalgum drama, em que o veterano de cem batalhas relembra os louros de cada uma, e esmorece, afinal, estafado de espantar, quando não é de estafar, os ouvintes.
+
+O acadêmico, porém, com os seus entusiasmos era incomparavelmente muito mais prejudicial e perigoso que o mata-mouros de tragédia. As recordações esporeavam-no a façanhas novas, e naquele tempo a academia dava azo a elas. A mocidade estudiosa, em grande parte, simpatizava com as balbuciantes teorias da liberdade, mais por pressentimento que por estudo. Os apóstolos da revolução francesa não tinham podido fazer reboar o trovão dos seus clamores neste canto do mundo; mas os livros dos enciclopedistas, as fontes onde a geração seguinte bebera a peçonha que saiu no sangue de noventa e três, não eram de todo ignorados. As doutrinas da regeneração social pela guilhotina tinham alguns tímidos sectários em Portugal, e esses de ver é que deviam pertencer à geração nova. Além de que, o rancor à Inglaterra lavrava nas entranhas das classes manufatureiras, e o desprender-se do jugo aviltador de estranhos, apertado, desde o princípio do século anterior, com as sogas de ruinosos e pérfidos tratados, estava no ânimo de muitos e bons portugueses que se queriam antes aliançados com a França, Estes eram os pensadores reflexivos; os sectários da academia, porém, exprimiam mais a paixão da novidade que as doutrinas do raciocínio.
 
 No ano anterior de 1800 saíra Antônio de Araújo de Azevedo, depois conde da Barca, a negociar em Madrid e Paris a neutralidade de Portugal. Rejeitaram-lhe as potências aliadas as propostas, tendo-lhe em conta de nada os dezesseis milhões que o diplomata oferecia ao primeiro cônsul. Sem delongas, foi o território português infestado pelos exércitos de Espanha e França. As nossas tropas, comandadas pelo duque de Lafões, não chegaram a travar a luta desigual, porque, a esse tempo, Luís Pinto de Sousa, mais tarde visconde de Balsemão, negociara ignominiosa paz em Badajoz, com cedência de Olivença à Espanha, exclusão de ingleses dos nossos portos, e indenização de alguns milhões à França.
 
@@ -186,7 +190,9 @@ Isto afervorou-lhe para mais o amor ao estudo. Simão, chamado em pontos difíce
 A este tempo, Manuel Botelho, cadete em Bragança, destacado no Porto, licenciou-se para estudar na universidade as matemáticas. Animou-o a notícia do reviramento que se dera em seu irmão. Foi viver com ele; achou-o quieto; mas alheado numa ideia que o tornava misantropo e intratável noutro gênero. Pouco tempo conviveram, sendo a causa da separação um desgraçado amor de Manuel Botelho a uma açoreana casada com um acadêmico. A esposa apaixonada perdeu-se nas ilusões do cego amante. Deixou o marido, e fugiu com ele para Lisboa, e daí para Espanha. Em outro relanço desta narrativa darei conta do remate deste episódio.
 
 No mês de fevereiro de 1803 recebeu Simão Botelho uma carta de Teresa. No seguinte capítulo se diz minuciosamente a peripécia que forçara a filha de Tadeu de Albuquerque a escrever aquela carta de pungentíssima surpresa para o acadêmico, convertido aos deveres, à honra, à sociedade e a Deus pelo amor.` },
-    { n: "III", titulo: "O pai de Teresa não embicaria na impureza do sangue do corregedor, se o ajustarem-se os dois filhos em casamento se compadecesse com o ódio de um e o desprezo do outro. O magistrado mofava do rancor do seu vizinho, e o vizinho malsinava de venalidade a reputação do magistrado. Este sabia da injuriosa vingança em que o outro se ia despicando; fingia-se invulnerável à detração; mas de dia para dia se lhe azedava a bílis; e é de crer que, se o não contivessem considerações de família, sofreria menos, desabafando pela boca de um bacamarte, arma da predileção dos Botelhos Correias de Mesquita. Era obra sobrehumana o reconciliarem-se. Rita, a filha mais nova, estava um dia na janela do quarto de Simão, e viu a vizinha rente com os vidros e a testa apoiada nas mãos. Sabia Teresa que era aquela menina a mais querida irmã de Simão, e a que mais semelhança de parecer tinha com ele. Saiu da sua artificial indiferença, e respondeu ao reparo de Rita, fazendo-lhe com a mão um gesto e sorrindo para ela. A filha do corregedor sorriu também, mas fugiu logo da janela, porque sua mãe tinha proibido às filhas de trocarem vistas com pessoa daquela casa", texto: `No dia seguinte à mesma hora, levada da simpatia que lhe causara aquele sorriso e aceno, tornou Rita à janela, e lá viu Teresa com os olhos fitos na sua, como se a estivesse esperando. Sorriram-se com resguardo, afastando-se, a um tempo, do peitoril das janelas; e assim, ambas de pé, no interior dos quartos, se estavam contemplando. Como a rua era estreita, podiam ouvir-se falando baixo. Teresa, mais pelo movimento dos lábios que por palavras, perguntou a Rita se era sua amiga. A menina respondeu com um gesto afirmativo, e fugiu, acenando-lhe um adeus. Estes rápidos instantes de se verem repetiram-se sucessivos dias, até que, perdido o maior medo de ambas, ousaram demorar-se em palestras a meia voz. Teresa falava de Simão, contava à menina de onze anos o segredo do seu amor, e dizia-lhe que ela havia de ser ainda sua irmã, recomendando-lhe muito que não dissesse nada à sua família.
+    { n: "III", titulo: "", texto: `O pai de Teresa não embicaria na impureza do sangue do corregedor, se o ajustarem-se os dois filhos em casamento se compadecesse com o ódio de um e o desprezo do outro. O magistrado mofava do rancor do seu vizinho, e o vizinho malsinava de venalidade a reputação do magistrado. Este sabia da injuriosa vingança em que o outro se ia despicando; fingia-se invulnerável à detração; mas de dia para dia se lhe azedava a bílis; e é de crer que, se o não contivessem considerações de família, sofreria menos, desabafando pela boca de um bacamarte, arma da predileção dos Botelhos Correias de Mesquita. Era obra sobrehumana o reconciliarem-se. Rita, a filha mais nova, estava um dia na janela do quarto de Simão, e viu a vizinha rente com os vidros e a testa apoiada nas mãos. Sabia Teresa que era aquela menina a mais querida irmã de Simão, e a que mais semelhança de parecer tinha com ele. Saiu da sua artificial indiferença, e respondeu ao reparo de Rita, fazendo-lhe com a mão um gesto e sorrindo para ela. A filha do corregedor sorriu também, mas fugiu logo da janela, porque sua mãe tinha proibido às filhas de trocarem vistas com pessoa daquela casa.
+
+No dia seguinte à mesma hora, levada da simpatia que lhe causara aquele sorriso e aceno, tornou Rita à janela, e lá viu Teresa com os olhos fitos na sua, como se a estivesse esperando. Sorriram-se com resguardo, afastando-se, a um tempo, do peitoril das janelas; e assim, ambas de pé, no interior dos quartos, se estavam contemplando. Como a rua era estreita, podiam ouvir-se falando baixo. Teresa, mais pelo movimento dos lábios que por palavras, perguntou a Rita se era sua amiga. A menina respondeu com um gesto afirmativo, e fugiu, acenando-lhe um adeus. Estes rápidos instantes de se verem repetiram-se sucessivos dias, até que, perdido o maior medo de ambas, ousaram demorar-se em palestras a meia voz. Teresa falava de Simão, contava à menina de onze anos o segredo do seu amor, e dizia-lhe que ela havia de ser ainda sua irmã, recomendando-lhe muito que não dissesse nada à sua família.
 
 Numa dessas conversações, Rita descuidara-se, e levantou de modo a voz que foi ouvida de uma irmã, que a foi logo acusar ao pai. O corregedor chamou Rita, e forçou-a pelo terror a contar tudo que ouvira à vizinha. Tanta foi sua cólera, que, sem atender às razões da esposa, que viera espavorida dos gritos dele, correu ao quarto de Simão, e viu ainda Teresa à janela.
 
@@ -279,7 +285,9 @@ Baltasar Coutinho foi dali procurar seu tio, e contou-lhe o essencial do diálog
 Teresa respondeu, chorando, que entraria num convento, se essa era a vontade de seu pai; porém que se não privasse ele de a ter em sua companhia, nem a privasse a ela dos seus afetos, por medo de que sua filha praticasse alguma ação indigna, ou lhe desobedecesse no que era virtude obedecer. Prometeu-lhe julgar-se morta para todos os homens, menos para seu pai.
 
 Tadeu ouviu-a, e não lhe replicou.` },
-    { n: "IV", titulo: "O coração de Teresa estava mentindo. Vão lá pedir sinceridade ao coração!", texto: `Para finos entendedores, o diálogo do anterior capítulo definiu a filha de Tadeu de Albuquerque. E mulher varonil, tem força de caráter, orgulho fortalecido pelo amor, despego das vulgares apreensões, se são apreensões a renúncia que uma filha faz de sua vontade às imprevidentes e caprichosas vontades de seu pai. Diz boa gente que não, e eu abundo sempre no voto da gente boa. Não será aleive atribuir-lhe uma pouca de astúcia, ou hipocrisia, se quiserem; perspicácia seria mais correto dizer. Teresa adivinha que a lealdade tropeça a cada passo na estrada real da vida, e que os melhores fins se atingem por atalhos onde não cabem a franqueza e a sinceridade. Estes ardis são raros na idade inexperta de Teresa; mas a mulher do romance quase nunca é trivial, e esta, de que rezam os meus apontamentos, não o era. A mim me basta para crer em sua distinção a celebridade que ela veio a ganhar à conta da desgraça.
+    { n: "IV", titulo: "", texto: `O coração de Teresa estava mentindo. Vão lá pedir sinceridade ao coração!
+
+Para finos entendedores, o diálogo do anterior capítulo definiu a filha de Tadeu de Albuquerque. E mulher varonil, tem força de caráter, orgulho fortalecido pelo amor, despego das vulgares apreensões, se são apreensões a renúncia que uma filha faz de sua vontade às imprevidentes e caprichosas vontades de seu pai. Diz boa gente que não, e eu abundo sempre no voto da gente boa. Não será aleive atribuir-lhe uma pouca de astúcia, ou hipocrisia, se quiserem; perspicácia seria mais correto dizer. Teresa adivinha que a lealdade tropeça a cada passo na estrada real da vida, e que os melhores fins se atingem por atalhos onde não cabem a franqueza e a sinceridade. Estes ardis são raros na idade inexperta de Teresa; mas a mulher do romance quase nunca é trivial, e esta, de que rezam os meus apontamentos, não o era. A mim me basta para crer em sua distinção a celebridade que ela veio a ganhar à conta da desgraça.
 
 Da carta que ela escreveu a Simão Botelho, contando as cenas descritas, a crítica deduz que a menina de Viseu contemporizava com o pai, pondo a mira no futuro, sem passar pelo dissabor do convento, nem romper com o velho em manifesta desobediência. Na narrativa que fez ao acadêmico omitiu ela as ameaças do primo Baltasar, cláusula que, a ser transmitida, arrebataria de Coimbra o moço, em que sobejavam brios e ferocidade para mantê-los.
 
@@ -338,7 +346,9 @@ Não esperava tanto o acadêmico. O que ele pedia era falar-lhe da rua para a ja
 À hora da partida, Simão tremia, e a si mesmo pedia contas da timidez, sem saber que os encantos da vida, os mais angélicos momentos da alma, são esses lances de misterioso alvoroço que aos mais ricos de coração sucedem em todas as sazões da vida, e a todos os homens, uma vez ao menos.
 
 As onze horas em ponto estava Simão encostado à porta do quintal, e a distância convencionada o arreeiro com o cavalo à rédea. A toada da música, que vinha das salas remotas alvoroçava-o, porque a festa em casa de Tadeu de Albuquerque o surpreendera. No longo termo de três anos nunca ele ouvira música naquela casa. Se ele soubesse o dia natalício de Teresa, espantara-se menos da estranha alegria daquelas salas, sempre fechadas, como em dias de mortório. Simão imaginou desvairadamente as quimeras que voejam, ora negras, ora translúcidas em redor da fantasia apaixonada. Não há baliza racional para as belas, nem para as horrorosas ilusões, quando o amor as inventa. Simão Botelho, com o ouvido colado à fechadura, ouvia apenas o som das flautas, e as pancadas do coração sobressaltado.` },
-    { n: "V", titulo: "Baltasar Cominho estava na sala, simulando vingativa indiferença por sua prima. As irmãs do fidalgo e a demais parentela da casa não deixavam respirar Teresa. Moças e velhas, todas à uma, se repetiam, aconselhando-a a reconciliar-se com seu primo, e dar a seu pai a alegria que o pobre velho tanto rogava a Deus, antes de fechar os olhos. Replicava Teresa que não queria mal a seu primo, nem sequer estava sentida dele; que era sua amiga, e se-lo-ia sempre enquanto lhe ele deixasse livre o coração", texto: `O velho esperava muito daquela noitada de festa. Alguns parentes, presumidos de prudentes, lhe tinham dito que seria proveitoso regalar a filha com os prazeres congruentes à sua idade, dando-lhe ensejo a que ela repartisse o espírito, concentrado num só ponto, por diversões em que a natural vaidade se preocupa, e a força do amor contrariado se vai a pouco e pouco quebrantando. Aconselharam-lhe as reuniões amiudadas, já em sua casa, já na dos seus parentes, para deste modo Teresa se mostrar a muitos, ser cortejada de todos, e ter em opinião de menos valia o único homem com quem falava, e a quem julgava superior a todos. O fidalgo acedeu, mas com dificuldade; porque tinha lá um sistema seu de ajuizar das mulheres, e porque vivera trinta anos de vida libertina e dispendiosa, e se estava agora saboreando na economia e na quietação. Os anos de Teresa eram pela primeira vez festejados com estrondo. A morgada viu então o que era o minuete da corte, e certos jogos de prendas com que os intervalos naqueles tempos, se aligeiravam em delícias, sem fadiga do corpo, nem desagrado da moral.
+    { n: "V", titulo: "", texto: `Baltasar Coutinho estava na sala, simulando vingativa indiferença por sua prima. As irmãs do fidalgo e a demais parentela da casa não deixavam respirar Teresa. Moças e velhas, todas à uma, se repetiam, aconselhando-a a reconciliar-se com seu primo, e dar a seu pai a alegria que o pobre velho tanto rogava a Deus, antes de fechar os olhos. Replicava Teresa que não queria mal a seu primo, nem sequer estava sentida dele; que era sua amiga, e se-lo-ia sempre enquanto lhe ele deixasse livre o coração.
+
+O velho esperava muito daquela noitada de festa. Alguns parentes, presumidos de prudentes, lhe tinham dito que seria proveitoso regalar a filha com os prazeres congruentes à sua idade, dando-lhe ensejo a que ela repartisse o espírito, concentrado num só ponto, por diversões em que a natural vaidade se preocupa, e a força do amor contrariado se vai a pouco e pouco quebrantando. Aconselharam-lhe as reuniões amiudadas, já em sua casa, já na dos seus parentes, para deste modo Teresa se mostrar a muitos, ser cortejada de todos, e ter em opinião de menos valia o único homem com quem falava, e a quem julgava superior a todos. O fidalgo acedeu, mas com dificuldade; porque tinha lá um sistema seu de ajuizar das mulheres, e porque vivera trinta anos de vida libertina e dispendiosa, e se estava agora saboreando na economia e na quietação. Os anos de Teresa eram pela primeira vez festejados com estrondo. A morgada viu então o que era o minuete da corte, e certos jogos de prendas com que os intervalos naqueles tempos, se aligeiravam em delícias, sem fadiga do corpo, nem desagrado da moral.
 
 Mas, de agitada que estava, Teresa não compartia do gozo dos seus hóspedes. Desde que soaram as dez horas daquela noite, a rainha da festa parecia tão alheada das finezas com que senhoras e homens à competência a lisonjeavam, que Baltasar Coutinho deu fé do dessossego de sua prima, e teve a modéstia de imaginar que ela se ofendera da indiferença dele. Generoso até ao perdão, o morgado de Castro Daire, compondo o rosto com gesto grave e melancólico, dirigiu-se a Teresa, e pediu-lhe desculpa da frieza que ele disse ser como a das montanhas, que têm vulcões por dentro e neve por fora. Teresa teve a sinceridade de responder que não tinha reparado na frieza de seu primo, e chamou para junto dela uma menina, para evitar que a montanha se abrisse em vulcões. Pouco depois ergueu-se, e saiu da sala.
 
@@ -384,11 +394,11 @@ O sobrinho de Tadeu de Albuquerque entrou na sala, sem denunciar levemente alter
 
 Velou Teresa o restante da noite, escrevendo a Simão a detida história dos seus terrores, e pedindo-lhe perdão de o ela não ter advertido do baile, por ficar doida de alegria com a sua vinda. No tocante ao plano de se encontrarem na seguinte noite não havia alteração na carta. Isto espantou o acadêmico. A seu ver, o vulto era Baltasar Coutinho, e o pai de Teresa devia ser avisado naquela mesma noite.
 
-Respondeu ele contando a história do incidente com o encapelado; receando, porém, assustar Teresa e gorar a entrevista, escreveu nova carta, em que não transluzia medo de ser atacado, nem sequer receio de marear-lhe a fama. Quis parecer a Simão Botelho que este era o digno porte de um amante corajoso.
+Respondeu ele contando a história do incidente com o encapotado; receando, porém, assustar Teresa e gorar a entrevista, escreveu nova carta, em que não transluzia medo de ser atacado, nem sequer receio de marear-lhe a fama. Quis parecer a Simão Botelho que este era o digno porte de um amante corajoso.
 
 Passou o estudante aquele dia contando as longas horas, e meditando instantes nos funestos resultados que podia ter a sua temerária ida, se Baltasar Coutinho era aquele homem, que reservara para melhor relance a vingança da provocação insolente. Mas de si para si tinha ele que pensar em tal era mais covardia que prudência.
 
-O ferrador tinha uma filha, moça de vinte e quatro anos, e formas bonitas, e um rosto belo e triste. Notou Simão os reparos em que ela se demorava a contemplá-lo, e perguntou-lhe a causa daquele olhar melancólico com que ela o fitava. Mariana corou, abriu um sorriso triste, o respondeu:
+O ferrador tinha uma filha, moça de vinte e quatro anos, e formas bonitas, e um rosto belo e triste. Notou Simão os reparos em que ela se demorava a contemplá-lo, e perguntou-lhe a causa daquele olhar melancólico com que ela o fitava. Mariana corou, abriu um sorriso triste, e respondeu:
 
 — Não sei o que me adivinha o coração a respeito de v. s.ª Alguma desgraça está para lhe suceder.
 
@@ -463,11 +473,13 @@ Neste intervalo, Mariana, a filha do ferrador, entrou no sobrado, e disse com me
 — Vou, porque não hei de ir?
 
 — Pois Nossa Senhora vá na sua companhia — tornou ela, saindo logo para esconder as lágrimas.` },
-    { n: "VI", titulo: "As dez horas e meia da noite daquele dia, três vultos convergiram para o local, raro frequentado, em que se abria a porta do quintal de Tadeu de Albuquerque. Ali se detiveram alguns minutos discutindo e gesticulando. Dos três havia um, cujas palavras eram ouvidas em silêncio e sem réplica pelos outros: Dizia ele a um dos dois:", texto: `— Não convém que estejas perto desta porta. Se o homem aparecesse aqui morto, as suspeitas caiam logo sobre mim ou meu tio. Afastem-se um do outro, e tenham o ouvido aplicado ao tropel do cavalo. Depois apressem o passo, até o encontrarem de modo que os tiros sejam dados longe daqui.
+    { n: "VI", titulo: "", texto: `As dez horas e meia da noite daquele dia, três vultos convergiram para o local, raro frequentado, em que se abria a porta do quintal de Tadeu de Albuquerque. Ali se detiveram alguns minutos discutindo e gesticulando. Dos três havia um, cujas palavras eram ouvidas em silêncio e sem réplica pelos outros: Dizia ele a um dos dois:
+
+— Não convém que estejas perto desta porta. Se o homem aparecesse aqui morto, as suspeitas caiam logo sobre mim ou meu tio. Afastem-se um do outro, e tenham o ouvido aplicado ao tropel do cavalo. Depois apressem o passo, até o encontrarem de modo que os tiros sejam dados longe daqui.
 
 — Mas... — atalhou um — quem nos diz que ele veio ontem a cavalo, e hoje vem a pé?
 
-— E verdade! — acrescentou o outro.
+— E ' verdade! — acrescentou o outro.
 
 — Se ele vier a pé, eu lhes darei aviso para o seguirem depois até o terem a jeito de tiro, mas longe daqui, percebem vocês? — disse Baltasar Coutinho.
 
@@ -477,7 +489,7 @@ Neste intervalo, Mariana, a filha do ferrador, entrou no sobrado, e disse com me
 
 Debandou o grupo, e Baltasar ficou alguns momentos encostado ao muro. Soaram os três quartos depois das dez. O de Castro Daire colou o ouvido à porta, e retirou-se aceleradamente, ouvindo o rumor da folhagem seca que Teresa vinha pisando.
 
-Apenas Baltasar, cosido com o muro, desaparecera, um vulto assomou do outro lado a passo rápido. Não parou: foi direito a todos os pontos onde uma sombra podia figurar um homem. Rodeou a igreja que estava a duzentos passos de distância. Viu os dois vultos direitos com o recanto que formava a junção da capela-mor, e sobre o qual cabiam as sombras da torre. Fitou-os de passagem, e suspeitou; não os conheceu; mas eles disseram entre si, depois que ele desaparecera:
+Apenas Baltasar, cosido com o muro, desaparecera, um vulto assomou do outro lado a passo rápido. Não parou: foi direito a todos os pontos onde uma sombra podia figurar um homem. Rodeou a igreja que estava a duzentos passos de distância. Viu os dois vultos direitos com o recanto que formava a junção da capela-mor, e sobre o qual caíam as sombras da torre. Fitou-os de passagem, e suspeitou; não os conheceu; mas eles disseram entre si, depois que ele desaparecera:
 
 — E o João da Cruz, ferrador, ou o diabo por ele!...
 
@@ -553,7 +565,7 @@ Os dois criados de Baltasar, quando o tropel do cavalo parou, recordaram as orde
 
 — E vêm direitos a nós... aperra lá a clavina...
 
-O melhor é retirarmos. Nós estamos à espera de outro, e não destes. Vamos embora daqui...
+O melhor é retirarmos. Nós estamos à espera do outro, e não destes. Vamos embora daqui...
 
 Este não esperou convencer o companheiro: desceu a ribanceira do cascalho. O mais intrépido teve também a prudência de todos os assassinos assalariados: seguiu o assustadiço, e deu-lhe razão, quando ouviu após de si os passos velozes dos perseguidores. Saiu-lhes o amo de frente, quando dobravam a esquina do quintal, e disse-lhes:
 
@@ -655,7 +667,7 @@ O ferrador desceu os três socalcos da vinha, e curvou-se sobre o cadáver, dize
 
 — Anda daí! — disse o arreeiro — deixa lá esse diabo, que o senhor doutor está ferido num ombro. Vamos depressa, que está o sangue a escorrer-lhe.
 
-— Eu vi duas cabeças a espreitarem-me de cima de uma ribanceira, e cuidei que eram vocês — disse Simão, enquanto o ferrador, com a destreza de hábil cirurgião, lho enfaixava o braço ferido com lenços. — Parei o cavalo, e disse: «Olé! há novidade?» Logo que me não responderam, saltei para terra; mas ainda eu tinha um pé no estribo quando me fizeram fogo. Quis saltar à ribanceira, mas não pude romper o mato. Dei uma volta grande para achar subida, e foi então que dei fé de estar ferido...
+— Eu vi duas cabeças a espreitarem-me de cima de uma ribanceira, e cuidei que eram vocês — disse Simão, enquanto o ferrador, com a destreza de hábil cirurgião, lhe enfaixava o braço ferido com lenços. — Parei o cavalo, e disse: «Olé! há novidade?» Logo que me não responderam, saltei para terra; mas ainda eu tinha um pé no estribo quando me fizeram fogo. Quis saltar à ribanceira, mas não pude romper o mato. Dei uma volta grande para achar subida, e foi então que dei fé de estar ferido...
 
 — Isto é uma arranhadura — disse João da Cruz — olhe que eu sei disto, fidalgo! Estou afeito a curar muitas feridas.
 
@@ -971,7 +983,9 @@ Teresa afastou sutilmente as cortinas do seu quarto, e tirou de entre o seu fato
 A lâmpada do oratório lançava um frouxo raio sobre a cadeira, em que Teresa pusera os seus vestidos. Desceu da cama, ajoelhou ao pé da cadeira, e escreveu a Simão, relatando-lhe miudamente os sucessos daquele dia. A carta rematava assim:
 
 «Não receies nada por mim, Simão. Todos estes trabalhos me parecem leves, se os comparo ao que tens padecido por amor de mim. A desgraça não abala a minha firmeza, nem deve intimidar os teus projetos. São alguns dias de tempestade, e mais nada. Qualquer nova resolução que meu pai tome, dir-ta-ei logo podendo, ou quando puder. A falta das minhas noticias deves atribuí-la sempre ao impossível. Ama-me assim desgraçada, porque me parece que os desgraçados são os que mais precisam de amor e de conforto. Vou ver se posso esquecer-me dormindo. Como isto é triste, meu querido amigo!... Adeus.»` },
-    { n: "VIII", titulo: "Mariana, a filha de João da Cruz, quando viu seu pai pensar a chaga do braço de Simão, perdeu os sentidos. O ferrador riu estrondosamente da fraqueza da moça, e o acadêmico achou estranha sensibilidade em mulher afeita a curar as feridas com que seu pai vinha laureado de todas as feiras e romarias", texto: `— Não há ainda um ano que me fizeram três buracos na cabeça, quando eu fui à Senhora dos Remédios a Lamego, e foi ela que me tosqueou e rapou o casco à navalha — disse o ferrador. — Pelo que vejo o sangue do fidalgo deu volta ao estômago da rapariga!... Estamos então bem aviados! Eu tenho cá a minha vida, e queria que ela fosse a enfermeira do meu doente... És ou não és, rapariga? — disse ele à filha, quando ela abriu os olhos, com rosto de corrida da sua fraqueza.
+    { n: "VIII", titulo: "", texto: `Mariana, a filha de João da Cruz, quando viu seu pai pensar a chaga do braço de Simão, perdeu os sentidos. O ferrador riu estrondosamente da fraqueza da moça, e o acadêmico achou estranha sensibilidade em mulher afeita a curar as feridas com que seu pai vinha laureado de todas as feiras e romarias.
+
+— Não há ainda um ano que me fizeram três buracos na cabeça, quando eu fui à Senhora dos Remédios a Lamego, e foi ela que me tosqueou e rapou o casco à navalha — disse o ferrador. — Pelo que vejo o sangue do fidalgo deu volta ao estômago da rapariga!... Estamos então bem aviados! Eu tenho cá a minha vida, e queria que ela fosse a enfermeira do meu doente... És ou não és, rapariga? — disse ele à filha, quando ela abriu os olhos, com rosto de corrida da sua fraqueza.
 
 — Serei com muito gosto, se o pai quiser.
 
@@ -1269,7 +1283,9 @@ O acadêmico não ousou insistir, vendo-a apressar-se na descida para o quinteir
 A égua partiu a galope, e o ferrador, no meio da estrada, a rever-se na filha e na égua, dizia em solilóquio, que Simão ouvira:
 
 — Vales tu mais, rapariga, que quantas fidalgas tem Viseu! Pela mais pintada não dava eu a minha égua; e, se cá viesse o Miramolim de Marrocos pedir-me a filha, os diabos me levem se eu lha dava! Isto é que são mulheres, e o mais é uma história!` },
-    { n: "X", titulo: "Apeou Mariana defronte do mosteiro, e foi à portaria chamar a sua amiga Brito", texto: `— Que boa moça! — disse o padre capelão, que estava no raro lateral da porta, praticando com a prioresa, acerca da salvação das almas, e de umas ancoretas de vinho do Pinhão, que ele recebera naquele dia, e do qual já tinha engarrafado um almude para tonizar o estômago da prelada.
+    { n: "X", titulo: "", texto: `Apeou Mariana defronte do mosteiro, e foi à portaria chamar a sua amiga Brito.
+
+— Que boa moça! — disse o padre capelão, que estava no raro lateral da porta, praticando com a prioresa, acerca da salvação das almas, e de umas ancoretas de vinho do Pinhão, que ele recebera naquele dia, e do qual já tinha engarrafado um almude para tonizar o estômago da prelada.
 
 — Que boa moça! — tornou ele, com um olho nela e outro no raro, onde a ciumosa prioresa se estava remordendo.
 
@@ -1626,7 +1642,9 @@ E entregou as pistolas.
 Tadeu de Albuquerque, quando se recobrou do espasmo, fez transportar a filha a uma das liteiras, e ordenou que dois criados a acompanhassem ao Porto.
 
 As irmãs de Baltasar seguiram o cadáver de seu irmão para casa do tio.` },
-    { n: "XI", titulo: "O corregedor acordara com o grande rebuliço que ia na casa, e perguntou à esposa, que ele supunha também desperta na câmara imediata, que bulha era aquela. Como ninguém lhe respondesse, sacudiu freneticamente a campainha, e berrou ao mesmo tempo, aterrado pela hipótese de incêndio na casa. Quando D. Rita acudiu, já ele estava enfiando os calções às avessas", texto: `— Que estrondo é este? quem é que grita? — exclamou Domingos Botelho.
+    { n: "XI", titulo: "", texto: `O corregedor acordara com o grande rebuliço que ia na casa, e perguntou à esposa, que ele supunha também desperta na câmara imediata, que bulha era aquela. Como ninguém lhe respondesse, sacudiu freneticamente a campainha, e berrou ao mesmo tempo, aterrado pela hipótese de incêndio na casa. Quando D. Rita acudiu, já ele estava enfiando os calções às avessas.
+
+— Que estrondo é este? quem é que grita? — exclamou Domingos Botelho.
 
 — Quem grita mais é o senhor — respondeu D. Rita.
 
@@ -1732,7 +1750,7 @@ Saiu o juiz de fora, e foi encontrar Simão na mesma serenidade em que o deixara
 
 — Que hei de eu pedir a minha mãe? — atalhou Simão.
 
-— Peça-lhe, que amacie a cólera de seu pai, senão o senhor Botelho não tem quem o alimente.
+— Peca-lhe, que amacie a cólera de seu pai, senão o senhor Botelho não tem quem o alimente.
 
 — V. s.ª está-me julgando um miserável, a quem dá cuidado saber onde há de almoçar hoje. Penso que não incumbem ao senhor juiz de fora essas miudezas de estômago.
 
@@ -1831,7 +1849,9 @@ E, dizendo, tirou das amplas algibeiras um embrulho de biscoitos e uma garrafa d
 ¤ [3] Esclarece este dizer de D. Rita a certidão de idade de Simão, a qual tenho presente, e é extraída por Herculano Henrique Garcia Camilo Galhardo, reitor da real Igreja da Senhora da Ajuda, do livro 14, a folhas 159 v. Reza assim:
 
 ¤ «Aos dois dias do mês de maio de 1784, pôs os santos óleos o reverendo padre cura João Domingues Chaves a Simão, o qual foi _batizado em casa em perigo de vida_ pelo Reverendo Frei Antônio de S. Pelágio, etc.»` },
-    { n: "XII", titulo: "O corregedor, nesse mesmo dia, ordenou que se preparassem mulher e filhas para no dia imediato saírem de Viseu, com tudo que pudesse ser transportado em cavalgaduras", texto: `Vou transcrever a singela e dorida reminiscência de uma senhora daquela família, como a tenho em carta, recebida há meses:
+    { n: "XII", titulo: "", texto: `O corregedor, nesse mesmo dia, ordenou que se preparassem mulher e filhas para no dia imediato saírem de Viseu, com tudo que pudesse ser transportado em cavalgaduras.
+
+Vou transcrever a singela e dorida reminiscência de uma senhora daquela família, como a tenho em carta, recebida há meses:
 
 «Já lá vão cinquenta e sete anos, e ainda me lembro, como se fossem ontem passados os tristes acontecimentos da minha mocidade. Não sei como é que tenho hoje mais clara a memória das coisas da infância. Parece-me que, há trinta anos, me não lembravam com tantas circunstâncias e promenores.
 
@@ -2101,7 +2121,9 @@ E com as mãos convulsamente enlaçadas sobre o seio, Teresa arquejava em pranto
 E ajoelhou ante o retábulo devoto, que trouxera do seu quarto de Viseu, ao qual sua mãe e avó já tinham orado, e em cujo rosto compassivo os olhos das duas senhoras moribundas tinham fixado os seus últimos raios de luz.
 
 ¤ [5] Este romance foi escrito num dos cubículos-cárceres da Relação do Porto, a uma luz coada por entre ferros, e abafada pelas sombras das abóbadas. Ano da Graça de 1861.` },
-    { n: "XIV", titulo: "Anunciara-se Tadeu de Albuquerque na portaria de Monchique, ao dia seguinte dos anteriores sucessos", texto: `Sua prima, primeira senhora que lhe saiu ao locutório, vinha enxugando lágrimas de alegria.
+    { n: "XIV", titulo: "", texto: `Anunciara-se Tadeu de Albuquerque na portaria de Monchique, ao dia seguinte dos anteriores sucessos.
+
+Sua prima, primeira senhora que lhe saiu ao locutório, vinha enxugando lágrimas de alegria.
 
 — Não cuide que eu choro de aflita, meu primo — disse ela — O nosso anjo, se Deus quiser, pode salvar-se. Logo de manhã a vi a passear por seu pé nos dormitórios. Que diferença de semblante ela tem hoje! Isto, meu primo, é milagre de duas santas, que temos inteiras na claustra, e com as quais algumas perfeitas criaturas desta casa se apegaram. Se as melhoras continuarem assim, temos Teresa; o céu consente que esteja entre nós aquele anjo mais alguns anos...
 
@@ -2228,7 +2250,9 @@ O desembargador retorquiu:
 — Fique no que quiser; mas vá na certeza, se isso lhe serve de alguma coisa, que Simão Botelho não vai à forca.
 
 — Veremos... — resmoneou o velho.` },
-    { n: "XV", titulo: "São treze dias corridos do mês de Março de 1805", texto: `Está Simão num quarto de malta das cadeias da Relação. Um catre de tábuas, um colchão de embarque, uma banca e cadeira de pinho, e um pequeno pacote de roupa, colocado no lugar do travesseiro, são a sua mobília. Sobre a mesa tem um caixote de pau preto, que contém as cartas de Teresa, ramilhetes secos, os seus manuscritos do cárcere de Viseu, e um avental de Mariana, o último com que ela enxugara lágrimas, e arrancara de si no primeiro instante de demência.
+    { n: "XV", titulo: "", texto: `São treze dias corridos do mês de Março de 1805.
+
+Está Simão num quarto de malta das cadeias da Relação. Um catre de tábuas, um colchão de embarque, uma banca e cadeira de pinho, e um pequeno pacote de roupa, colocado no lugar do travesseiro, são a sua mobília. Sobre a mesa tem um caixote de pau preto, que contém as cartas de Teresa, ramilhetes secos, os seus manuscritos do cárcere de Viseu, e um avental de Mariana, o último com que ela enxugara lágrimas, e arrancara de si no primeiro instante de demência.
 
 Simão relê as cartas de Teresa, abre os envoltórios de papel que encerram as flores ressequidas, contempla o avental de linho, procurando os visíveis vestígios das lágrimas. Depois encosta a face e o peito aos ferros da sua janela, e avista os horizontes boleados pelas serras de Valongo e Gralheira, e cortados pelas ribas pitorescas de Gaia, do Candal, de Oliveira, e do mosteiro da serra-do-Pilar. É um dia lindo. Refletem-se do azul do céu os mil matizes da primavera. Tem aromas o ar, e a viração, fugitiva dos jardins, derrama no éter as urnas que roubou aos canteiros. Aquela indefinida alegria, que parece reluzir nas legiões de espíritos, que se geram ao sol de março, rejubila a natureza, que toda pompas de luz e flores se está namorando do calor que a vai fecundando.
 
@@ -2366,7 +2390,7 @@ Simão sorriu ao rasgado panegírico da bravura da moça, e orgulhou-se secretam
 
 — E vossemecê há de privar-se da companhia de sua filha? — insistiu o preso.
 
-— Eu lá me arranjarei como puder. Tenho um cunhada velha, e levo-a para mim para me arranjar o caldo. E v. s.ª pouco tempo aqui estará... O senhor corregedor lá anda a tratar de o pôr na rua, e que o senhor sai cá para mim são favas contadas. E assim com'assim, vou dizer-lhe tudo de uma feita: a rapariga, se eu a não deixasse vir para o Porto, dava um estoiro como uma castanha. Olhe que eu não sou tolo, fidalgo. Que ela tem paixão de alma por v. s.ª isso é tão certo como eu ser; João. É a sua sina; que hei de eu fazer-lhe? Deixá-la, que pelo senhor Simão não lhe há de vir mal, ou então já não há honra neste mundo.
+— Eu lá me arranjarei como puder. Tenho uma cunhada velha, e levo-a para mim para me arranjar o caldo. E v. s.ª pouco tempo aqui estará... O senhor corregedor lá anda a tratar de o pôr na rua, e que o senhor sai cá para mim são favas contadas. E assim com'assim, vou dizer-lhe tudo de uma feita: a rapariga, se eu a não deixasse vir para o Porto, dava um estoiro como uma castanha. Olhe que eu não sou tolo, fidalgo. Que ela tem paixão de alma por v. s.ª isso é tão certo como eu ser; João. É a sua sina; que hei de eu fazer-lhe? Deixá-la, que pelo senhor Simão não lhe há de vir mal, ou então já não há honra neste mundo.
 
 Simão lançou-se aos braços do ferrador, exclamando:
 
@@ -2377,7 +2401,9 @@ Simão lançou-se aos braços do ferrador, exclamando:
 — Jarras.
 
 — E como diz, duas jarras para flores; mas eu não sei onde se vende isso. Agora vou buscar o jantar, que a moça há de cuidar que me não deixam sair da cadeia. Ainda lhe não disse que não me deixaram cá entrar ontem à tarde; mas eu, como trouxe uma cartinha de sua mãe para um senhor desembargador, fui onde a ele, e hoje de manhã já lá tinha na estalagem a ordem do senhor intendente geral da policia. Até logo.` },
-    { n: "XVI", titulo: "Um incidente agora me ocorre, não muito concertado com o seguimento da história, mas a propósito vindo para demonstrar uma face da índole do ex-corregedor de Viseu, já então exonerado do cargo", texto: `Sabido é que Manuel Botelho, o primogênito, voltando a frequentar matemáticas em Coimbra, fugira dali para Espanha com uma dama desleal a seu marido, estudante açoreano que cursava medicina.
+    { n: "XVI", titulo: "", texto: `Um incidente agora me ocorre, não muito concertado com o seguimento da história, mas a propósito vindo para demonstrar uma face da índole do ex-corregedor de Viseu, já então exonerado do cargo.
+
+Sabido é que Manuel Botelho, o primogênito, voltando a frequentar matemáticas em Coimbra, fugira dali para Espanha com uma dama desleal a seu marido, estudante açoreano que cursava medicina.
 
 Um ano demorara na Corunha Manuel Botelho com a fugitiva, alimentando-se dos recursos que sua mãe, extremosa por ele, lhe remetia vendendo a pouco e pouco as suas joias, e privando as filhas dos adornos próprios dos anos e da qualidade.
 
@@ -2467,7 +2493,7 @@ E no próximo correio, escrevendo a Domingos Botelho, dizia no período final: �
 
 Estava já Manuel em casa de seus avós, e cuidava em trastejar uma modesta casa para a açoreana, auxiliado por sua bondosa e indulgente mãe. O pai fora informado da vinda, e dissera que não queria ver o filho, avisando-o de que era considerado desertor de cavalaria seis, desde que abandonara os estudos, onde estava com licença.
 
-Recebeu depois a carta do corregedor do crime, e mandou imediata e secretamente devassar se em Vila Real estava a senhora que indicava a carta. A espionagem deu-a como certa na estalagem, enquanto Manuel Botelho cuidava nos adornos de uma casa. Escreveu o magistrado ao juiz de fora, e este mandou chamar à sua presença a mulher suspeita, e ouviu dela a sua história sincera e lagrimosamente contada. Condoeu-se o juiz, e revelou ao colega as suas averiguações. Domingos Botelho foi a Vila Real, e hospedou-se em casa do juiz de fora, onde a senhora foi novamente chamada, sendo que ao mesmo tempo o general da provinda lavrava ordem de prisão para o cadete desertor de cavalaria de Bragança.
+Recebeu depois a carta do corregedor do crime, e mandou imediata e secretamente devassar se em Vila Real estava a senhora que indicava a carta. A espionagem deu-a como certa na estalagem, enquanto Manuel Botelho cuidava nos adornos de uma casa. Escreveu o magistrado ao juiz de fora, e este mandou chamar à sua presença a mulher suspeita, e ouviu dela a sua história sincera e lagrimosamente contada. Condoeu-se o juiz, e revelou ao colega as suas averiguações. Domingos Botelho foi a Vila Real, e hospedou-se em casa do juiz de fora, onde a senhora foi novamente chamada, sendo que ao mesmo tempo o general da província lavrava ordem de prisão para o cadete desertor de cavalaria de Bragança.
 
 A açoreana, em vez do juiz, encontrou um feio homem, de carrancuda sombra, e aparências de intenções sinistras.
 
@@ -2514,7 +2540,9 @@ Partiu para Lisboa a açoreana, e dali para a sua terra, e para o abrigo de sua 
 Manuel Botelho, obtido o perdão pela preponderância do corregedor do crime, mudou de regimento para Lisboa, e ai permaneceu até que, falecido seu pai, pediu a baixa, e voltou à província.
 
 ¤ [6] _Hoje então_!... Vou-lhes contar um lance memorando de um filósofo da atualidade, lance único pelo qual eu fiquei conhecendo a pessoa. Hoje (21 de setembro de 1861) estava eu no escritório do ilustre advogado Joaquim Marcelino de Matos, e um cliente entrou contando o seguinte: — «Senhor doutor, eu sou um lojista da rua de ***; e fui roubado em oitocentos mil réis por minha mulher, que fugiu com um amante para Viana. Venho saber se posso querelar, e receber o meu dinheiro.» — Pode querelar, respondeu o advogado, se tiver testemunhas. O senhor quer querelar por adultério? — Responde o queixoso: «O que eu quero é o meu dinheiro.» — Mas, redargue o consultor, o senhor pode querelar de ambos, dela por adultera, e dele como receptador do furto. — «E receberei o meu dinheiro?» — Conforme. Eu sei cá se ele tem o seu dinheiro?! O que sei é que não pode pronunciá-la a ela como ladra. — «Mas os meus oitocentos mil réis?!» — Ah! o senhor não se lhe dá que sua mulher fuja e não volte? — «Não, senhor doutor, que a leve o diabo; o que eu quero é o meu dinheiro.» — Pois querele de ambos, o veremos depois. — «Mas não é certo receber eu o meu dinheiro?!» — Certo não é; veremos se depois de pronunciado as autoridades administrativas capturam o ladrão com o seu dinheiro. — «E, se ele o não tiver já? — redargui o marido consternado.» — Se o não tiver já, o senhor vinga-se na querela por adultério. — «E gasta-se alguma coisa?» — Gasta, sim; mas vinga-se. — «O que eu queria era o meu dinheiro, senhor doutor: a mulher deixá-la ir, que tem cinquenta anos.» — Cinquenta anos! — acudiu o doutor — o senhor está vingado do amante. Vá para casa, deixe-se de querelas, que o mais desgraçado é ele.` },
-    { n: "XVII", titulo: "João da Cruz, no dia 4 de agosto de 1805, sentou-se à mesa com triste aspecto e nenhum apetite do almoço", texto: `— Não comes, João? — disse-lhe a cunhada.
+    { n: "XVII", titulo: "", texto: `João da Cruz, no dia 4 de agosto de 1805, sentou-se à mesa com triste aspecto e nenhum apetite do almoço.
+
+— Não comes, João? — disse-lhe a cunhada.
 
 — Não passa daqui o bocado — respondeu ele, pondo o dedo nos gorgomilos.
 
@@ -2584,7 +2612,7 @@ Voltou ao coberto a tempo que um viandante ia passando sobre a sua possante mula
 
 — E quem é seu pai?
 
-— Meu pai era um recoveiro de Garção, chamado Bento Machado.
+— Meu pai era um recoveiro de Carção, chamado Bento Machado.
 
 Proferida metade destas palavras, o cavalheiro afastou rapidamente as bandas do capote, e desfechou um bacamarte no peito do ferrador. O ferido recuou, exclamando:
 
@@ -2641,7 +2669,9 @@ Mariana exclamou:
 — Deixe-me chorar, por caridade!... Ai! meu Deus, se eu torno a endoidecer!
 
 — Que seria de mim! — atalhou Simão — A quem deixaria Mariana o seu nobre coração para me suavizar este martírio? Quem me levaria ao desterro uma palavra amiga que me animasse a crer em Deus!... Não há de enlouquecer, Mariana, porque eu sei que me estima, que me ama, e que afrontará com coragem a maior desgraça, que ainda pode sugerir-me o inferno! Chore, minha irmã, chore; mas veja-me através das suas lágrimas!` },
-    { n: "XVIII", titulo: "Mariana, decorridos dias, foi a Viseu recolher a herança paterna. Em proporção com o seu nascimento bem dotada a deixara o laborioso ferrador. Afora os campos, cujo rendimento bastaria à sustentação dela, Mariana levantou a laje conhecida da lareira, e achou os quatrocentos mil réis com que João da Cruz contava para alimentar as regalias da sua decrepitude inerte. Vendeu Mariana as terras, e deixou a casa a sua tia, que nascera nela, e onde seu pai casara", texto: `Liquidada a herança tornou para o Porto, e depositou o seu cabedal nas mãos de Simão Botelho, dizendo que receava ser roubada na casinha em que vivia, fronteira à Relação, na rua de S. Bento.
+    { n: "XVIII", titulo: "", texto: `Mariana, decorridos dias, foi a Viseu recolher a herança paterna. Em proporção com o seu nascimento bem dotada a deixara o laborioso ferrador. Afora os campos, cujo rendimento bastaria à sustentação dela, Mariana levantou a laje conhecida da lareira, e achou os quatrocentos mil réis com que João da Cruz contava para alimentar as regalias da sua decrepitude inerte. Vendeu Mariana as terras, e deixou a casa a sua tia, que nascera nela, e onde seu pai casara.
+
+Liquidada a herança tornou para o Porto, e depositou o seu cabedal nas mãos de Simão Botelho, dizendo que receava ser roubada na casinha em que vivia, fronteira à Relação, na rua de S. Bento.
 
 — Por que vendeu as suas terras, Mariana? — perguntou o preso.
 
@@ -2752,7 +2782,9 @@ Quando intimaram a Simão Botelho a decisão do recurso e a graça do regente, o
 Domingos Botelho, avisado da rejeição do filho, respondeu que fizesse ele a sua vontade; mas que a sua vitória dele, sobre os protetores e os corrompidos pelo ouro do fidalgo de Viseu, estava plenamente obtida.
 
 Foi aviso ao intendente geral da polícia, e o nome de Simão Botelho foi inscrito no catálogo dos degredados para a Índia.` },
-    { n: "XIX", titulo: "A verdade é algumas vezes o escolho de um romance", texto: `Na vida real, recebemo-la como ela sai dos encontrados acasos, ou da lógica implacável das coisas; mas, na novela, custa-nos a sofrer que o autor, se inventa, não invente melhor; e, se copia, não minta por amor da arte.
+    { n: "XIX", titulo: "", texto: `A verdade é algumas vezes o escolho de um romance.
+
+Na vida real, recebemo-la como ela sai dos encontrados acasos, ou da lógica implacável das coisas; mas, na novela, custa-nos a sofrer que o autor, se inventa, não invente melhor; e, se copia, não minta por amor da arte.
 
 Um romance, que estriba na verdade o seu merecimento, é frio, é impertinente, é uma coisa que não sacode os nervos, nem tira a gente, sequer uma temporada, enquanto ele nos lembra, deste jogo de nora, cujos alcatruzes somos, uns a subir, outros a descer, movidos pela manivela do egoísmo.
 
@@ -2794,7 +2826,7 @@ A ti mesmo perguntavas pelo teu passado, e o coração, se ousava responder, ret
 
 De além, daquele convento onde outra existência agonizava, gementes queixas te vinham espremer fel na chaga; e tu, que não sabias, nem podias consolar, pedias palavras ao anjo da compaixão para ela, e recebias as do demônio do desespero para ti.
 
-Os dez anos de ferros, era que lhe quiseram minorar a pena, eram-lhe mais horrorosos que o patíbulo. E aceitá-lo-ias, porventura, se amasse o céu, onde Teresa bebia o ar, que nos pulmões se lhe formava em peçonha? Creio: — antes a masmorra, onde pode ouvir-se o som abafado de uma voz amiga; antes os paroxismos de dez anos sobre as lajes úmidas de uma enxovia, se, na hora extrema, a última faísca da paixão, ao bruxulear para morrer, nos alumia o caminho do céu por onde o anjo do amor desditoso se levantou a dar conta de si a Deus, e a pedir a alma do que ficou.
+Os dez anos de ferros, em que lhe quiseram minorar a pena, eram-lhe mais horrorosos que o patíbulo. E aceitá-lo-ias, porventura, se amasse o céu, onde Teresa bebia o ar, que nos pulmões se lhe formava em peçonha? Creio: — antes a masmorra, onde pode ouvir-se o som abafado de uma voz amiga; antes os paroxismos de dez anos sobre as lajes úmidas de uma enxovia, se, na hora extrema, a última faísca da paixão, ao bruxulear para morrer, nos alumia o caminho do céu por onde o anjo do amor desditoso se levantou a dar conta de si a Deus, e a pedir a alma do que ficou.
 
 Teresa pedira a Simão Botelho que aceitasse dez anos de cadeia, e esperasse ai a sua redenção por ela.
 
@@ -2808,7 +2840,7 @@ Se por amor ou piedade o condenado aceitasse os ferrolhos três mil seiscentas e
 
 «Não esperes nada, mártir — escrevia-lhe ele. — A luta com a desgraça é inútil, e eu não posso já lutar. Foi um atroz engano o nosso encontro. Não temos nada neste mundo. Caminhemos ao encontro da morte... Há um segredo que só no sepulcro se sabe. Vernos-emos?
 
-Vou. Abomino a pátria, abomino a minha família, todo este solo está aos meus olhos coberto de forcas, e quantos homens falam a minha língua, creio que os ouço vociferar as imprecações do carrasco. Em Portugal, nem a liberdade com a opulência; nem já agora a realização da esperanças que me dava o teu amor, Teresa!
+Vou. Abomino a pátria, abomino a minha família, todo este solo está aos meus olhos coberto de forcas, e quantos homens falam a minha língua, creio que os ouço vociferar as imprecações do carrasco. Em Portugal, nem a liberdade com a opulência; nem já agora a realização das esperanças que me dava o teu amor, Teresa!
 
 Esquece-te de mim, e adormece no seio do nada. Eu quero morrer, mas não aqui. Apague-se a luz de meus olhos; mas a luz do céu, quero-a! quero ver o céu no meu último olhar.
 
@@ -2843,7 +2875,9 @@ Quis muitas vezes escrever a derradeira carta à moribunda Teresa, e nem sinais 
 Mariana contemplava estarrecida estes e outros lances de loucura, ou os não menos medonhos da letargia.
 
 — E Teresa! — bradava ele, surgindo subitamente do seu espasmo — E aquela infeliz menina, que eu matei! Não hei de vê-la mais, nunca mais! Ninguém me levará ao degredo a noticia da sua morte! E quando a eu chamar para que me veja morrer digno dela, quem te dirá que eu morri, ó mártir!` },
-    { n: "XX", titulo: "A 17 de março de 1807 saiu dos cárceres da Relação Simão Antônio Botelho, e embarcou no cais da Ribeira, com setenta e cinco companheiros. O filho do ex-corregedor de Viseu, a pedido do desembargador Mourão Mosqueira, e por ordem do regedor das justiças, não ia amarrado com cordas ao braço de algum companheiro. Desceu da cadeia ao embarque, ao lado de um meirinho, e seguido de Mariana, que vigiava os caixões da bagagem. O magistrado, fiel amigo de D. Rita Preciosa, foi a bordo da nau, e recomendou ao comandante que distinguisse o degredado Simão, consentindo-o na tolda, e sentando-o à sua mesa. Chamou Simão de parte, e deu-lhe um cartucho de dinheiro em ouro, que sua mãe lhe enviava. Simão Botelho aceitou o dinheiro, e na presença de Mourão Mosqueira pediu ao comandante que fizesse distribuir pelos seus companheiros de degredo o dinheiro que lhe dava", texto: `— É demente o senhor Simão?! — disse o desembargador.
+    { n: "XX", titulo: "", texto: `A 17 de março de 1807 saiu dos cárceres da Relação Simão Antônio Botelho, e embarcou no cais da Ribeira, com setenta e cinco companheiros. O filho do ex-corregedor de Viseu, a pedido do desembargador Mourão Mosqueira, e por ordem do regedor das justiças, não ia amarrado com cordas ao braço de algum companheiro. Desceu da cadeia ao embarque, ao lado de um meirinho, e seguido de Mariana, que vigiava os caixões da bagagem. O magistrado, fiel amigo de D. Rita Preciosa, foi a bordo da nau, e recomendou ao comandante que distinguisse o degredado Simão, consentindo-o na tolda, e sentando-o à sua mesa. Chamou Simão de parte, e deu-lhe um cartucho de dinheiro em ouro, que sua mãe lhe enviava. Simão Botelho aceitou o dinheiro, e na presença de Mourão Mosqueira pediu ao comandante que fizesse distribuir pelos seus companheiros de degredo o dinheiro que lhe dava.
+
+— É demente o senhor Simão?! — disse o desembargador.
 
 — Tenho a demência da dignidade: por amor da minha dignidade me perdi: quero agora ver a que extremo de infortúnio ela pode levar os seus amantes. A caridade só me não humilha, quando parte do coração e não do dever. Não conheço a pessoa, que me remeteu este dinheiro.
 
@@ -2923,7 +2957,7 @@ Simão curvou-se sobre a amurada, e fitou os olhos na torrente. O comandante lan
 
 Mariana estava um passo atrás de Simão, e tinha as mãos erguidas.
 
-— Acabou-se tudo!... — murmurou Simão — Eis-me livre... para a morte... Senhor comandante — continuou ele energicamente — eu não me suicídio. Pode deixar-me.
+— Acabou-se tudo!... — murmurou Simão — Eis-me livre... para a morte... Senhor comandante — continuou ele energicamente — eu não me suicido. Pode deixar-me.
 
 — Peço-lhe que se recolha à câmara. O seu beliche está ao pé do meu.
 
@@ -3042,7 +3076,7 @@ Simão ajuntou a carta de Teresa ao maço das suas, e subiu cambaleando. No conv
 
 O capitão passeava da proa à ré; mas com o ouvido fito aos movimentos do degredado. Receara ele o propósito do suicídio, porque Mariana lhe incutira semelhante suspeita. Queria o marítimo falar-lhe palavras consoladoras, mas pensava consigo: «O que há de dizer-se a um homem que sofre assim?» E parava junto dele algumas vezes, como para desviar-lhe o espírito daquele mirante.
 
-— Eu não me suicídio! — exclamou abruptamente Simão Botelho — Se a sua generosidade, senhor capitão, se interessa em que eu viva, pode dormir descansado a sua noite, que eu não me suicídio.
+— Eu não me suicido! — exclamou abruptamente Simão Botelho — Se a sua generosidade, senhor capitão, se interessa em que eu viva, pode dormir descansado a sua noite, que eu não me suicido.
 
 — Mas mereço-lhe eu a condescendência de descer comigo à câmara?
 

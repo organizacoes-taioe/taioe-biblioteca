@@ -8,10 +8,12 @@ MANUAL: grafia final de palavras que as edições de referência não resolvem
 """
 
 EMENDAS = [
+    # leituras da camada de texto do Commons que as imagens desmentem
+    ('ocr', 'deixou aneedotas', 'deixou anecdotas'),
+    ('ocr', "fidalgo de Castrod'Aire", "fidalgo de Castro-d'Aire"),
     # erros da transcrição (o Wikisource copiou o Gutenberg); todos conferidos no fac-símile de 1862
     # (Commons, 2026-11-02), que traz a forma correta. Lições da 1ª edição conferidas e mantidas:
     # «sasões», «promenores», «dezoitos annos» (p. 247; «dezoito» na p. 243), «estorturoso», «su villão»
-    ('ocr', 'Ballhazar', 'Balthazar'),
     ('ocr', 'Chegou o ferrador a Monehique', 'Chegou o ferrador a Monchique'),
     ('ocr', 'fidalgo de Gastro-d\'Aire', 'fidalgo de Castro-d\'Aire'),
     ('ocr', 'acerescentou o desembargador', 'accrescentou o desembargador'),
@@ -27,11 +29,9 @@ EMENDAS = [
     ('ocr', 'em quanto naaa póde esperar', 'em quanto nada póde esperar'),
     ('ocr', 'mandar-lhe o presenle de', 'mandar-lhe o presente de'),
     ('ocr', 'a mão de urn homem', 'a mão de um homem'),
-    ('ocr', 'nos labios ura sorriso', 'nos labios um sorriso'),
     ('ocr', 'aos olhas de Simão', 'aos olhos de Simão'),
     ('ocr', 'templo, onde cabira', 'templo, onde cahira'),
     ('ocr', 'Erguei-se Simão Botelho', 'Ergueu-se Simão Botelho'),
-    ('ocr', 'Peca-lhe, que amacie', 'Peça-lhe, que amacie'),
     ('ocr', 'agradecido lhe estou-disse Simão', 'agradecido lhe estou — disse Simão'),
     ('ocr', 'Monchique? — pergutou Simão', 'Monchique? — perguntou Simão'),
 ]
@@ -61,7 +61,7 @@ MANUAL = {
     'ex-corregedor': 'ex-corregedor', 'mandam-me': 'mandam-me', 'pedindo-lhe': 'pedindo-lhe', 'tendo-lhe': 'tendo-lhe',
     'tenho-lhe': 'tenho-lhe', 'viu-a': 'viu-a', 'quer-me': 'quer-me', 'estava-no': 'estava-no', 'entre-acto': 'entreato',
     'Mira-Molim': 'Miramolim', 'sobre-rolda': 'sobre-rolda',
-    'loucura': 'loucura', 'suicido': 'suicídio', 'suicidio': 'suicídio',
+    'loucura': 'loucura', 'suicidio': 'suicídio',
     'exigencias': 'exigências', 'camera': 'câmara', 'coixo': 'coxo',
 }
 

@@ -47,6 +47,9 @@ META = {
 }
 
 BASE = 'pg'
+# o Wikisource copiou o Gutenberg: os dois valem um voto contra a camada de texto do Commons
+CORRELACIONADOS = [('pg', 'ws')]
+UM_VOTO = True
 REFERENCIAS = [('bveb', False), ('luso', True)]
 
 ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV',
@@ -144,9 +147,72 @@ def wikisource(base):
     return ocr.paragrafos_como(o, base)
 
 
+def commons(base):
+    """Camada de texto (OCR próprio) do PDF da 1ª edição no Commons, outra leitura que a do
+    Gutenberg. A dedicatória vem em letra manuscrita (OCR ilegível): ali não vota (LACUNA). Sem os
+    cabeçalhos dos capítulos (vários se perderam), o texto corrido recebe a divisão do Gutenberg
+    inteira, partes e parágrafos (ocr.estrutura_como)."""
+    from edicao import ocr, rede
+    from edicao.tokens import LACUNA
+    pdf, txt = fontes.cache(OBRA, 'commons1862.pdf'), fontes.cache(OBRA, 'commons1862.txt')
+    if not os.path.exists(txt):
+        rede.baixar('https://upload.wikimedia.org/wikipedia/commons/d/dc/Amor_de_Perdi%C3%A7%C3%A3o_%281862%29.pdf',
+                    pdf, cabecalhos={'User-Agent': 'Mozilla/5.0 taioe-biblioteca'})
+        import subprocess
+        subprocess.run(['pdftotext', '-enc', 'UTF-8', pdf, txt], check=True)
+    s = open(txt, encoding='utf-8').read().replace('\f', '\n')
+    s = s[s.index('PREFACIO.'):]
+    texto = ''
+    for l in s.split('\n'):
+        l = l.strip()
+        if (not l or re.fullmatch(r'[\d\W]+|[IVXL]+\.?|(PRIMEIRA|SEGUNDA) PARTE\.?|PREFACIO\.?|CONCLUSÃO\.?|FIM\.?', l)
+                or 'AMOR DE PERDI' in l):
+            continue
+        if re.search(r'\w-$', texto) and re.match(r'[a-zà-ÿ]', l):
+            texto = texto[:-1] + l
+        else:
+            texto = (texto + ' ' + l).strip()
+    texto = texto.replace('’', "'").replace('--', '—')
+    texto = re.sub(r'\s+([,;:!?])', r'\1', texto)
+    obra = [{'n': '', 'titulo': '', 'paras': [fontes.limpar(texto)]}]
+    obra = ocr.estrutura_como(fontes.normalizar(obra), base[1:])
+    obra = [{'n': base[0]['n'], 'titulo': base[0]['titulo'], 'paras': [LACUNA]}] + obra
+    if len(obra) != len(base):
+        raise SystemExit(f'Commons: {len(obra)} partes (esperadas {len(base)})')
+    for p, b in zip(obra, base):
+        p['n'], p['titulo'] = b['n'], b['titulo']
+    return so_palavras(obra, base)
+
+
+def so_palavras(obra, base):
+    """A camada do Commons vota só nas palavras: a pontuação, as aspas e as chamadas de nota dela são
+    pouco confiáveis (some muita vírgula e todo «). Fica o texto do Gutenberg, com a palavra do
+    Commons onde as duas leituras se emparelham uma a uma e diferem."""
+    import difflib
+    from edicao.tokens import TOK, texto as juntar, LACUNA
+    saida = []
+    for p, b in zip(obra, base):
+        if p['paras'] == [LACUNA]:
+            saida.append(p)
+            continue
+        cm = [t for x in p['paras'] for t in TOK.findall(x) if t[:1].isalnum()]
+        novos = []
+        bt = [TOK.findall(x) for x in b['paras']]
+        pos = [(i, j) for i, ts in enumerate(bt) for j, t in enumerate(ts) if t[:1].isalnum()]
+        pw = [bt[i][j] for i, j in pos]
+        sm = difflib.SequenceMatcher(None, [w.lower() for w in pw], [w.lower() for w in cm], autojunk=False)
+        for op, a1, a2, b1, b2 in sm.get_opcodes():
+            if op == 'replace' and a2 - a1 == b2 - b1:
+                for k in range(a2 - a1):
+                    i, j = pos[a1 + k]
+                    bt[i][j] = cm[b1 + k]
+        saida.append(dict(p, paras=[juntar(ts) for ts in bt]))
+    return saida
+
+
 def transcricoes():
     pg = gutenberg()
-    return {'pg': pg, 'ws': wikisource(pg)}
+    return {'pg': pg, 'ws': wikisource(pg), 'cm': commons(pg)}
 
 
 def luso():

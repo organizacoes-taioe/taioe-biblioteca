@@ -15,11 +15,18 @@ dedicatória, prefácio, capítulos I–XX e conclusão; as 6 notas do autor no 
   difere por OCR partido («Mis eraveis», «Vallon go», «elos», «E'» = É, como imprime 1862). Os
   outros são `v. s.ª` (escrito igual nos dois) e os cabeçalhos dos capítulos: nada a mudar.
 
+## Terceiro testemunho (feito, 15:31)
+- A camada de texto do PDF do Commons (`config.commons`) entrou no confronto, só nas palavras
+  (`so_palavras`: a pontuação dela é falha); Gutenberg e Wikisource valem um voto (`UM_VOTO`).
+- Ela corrigiu 31 palavras; as novas foram conferidas nas imagens e estão certas: Baltasar
+  «Coutinho» (não Cominho), «encapotado», «pingoleta», «Carção», «e respondeu», «cahiam», «á espera
+  do outro», «lhe enfaixava», «uma cunhada», «em que lhe quizeram», «realisação das»,
+  «continuou elle», «aquelle». Duas leituras dela que as imagens desmentem viraram emendas
+  («anecdotas», «Castro-d'Aire»). «eu não me suicido» é verbo: a troca para «suicídio» saiu.
+
 ## Falta
-- O PDF do Commons tem camada de texto (OCR próprio, que difere do Gutenberg em vários pontos):
-  pode entrar como terceiro testemunho (`pdftotext`, partido pelos cabeçalhos e com
-  `ocr.paragrafos_como`), o que acharia os erros do Gutenberg que formam palavra existente e que
-  nenhum relatório marca hoje. Até lá, ler `modernas.tsv` (1034 linhas, quase todas revisões da 5ª).
+- Ler os 784 pontos «sem maioria; pg=ws» de `sitios.tsv` (onde a camada difere e perdeu) atrás de
+  mais erros do Gutenberg; e `modernas.tsv` (quase tudo revisão da 5ª).
 - A BVEB (referência de grafia) é OCR: já se corrigiram leituras dela que passavam ao texto (hífens
   perdidos, «locura», «Cas'telo», «d'a», «Vila-Real»); falta uma leitura corrida do `texto.txt`.
 - Edição-base: a regra da Biblioteca prefere a última revista pelo autor (5ª, 1879, com o prefácio

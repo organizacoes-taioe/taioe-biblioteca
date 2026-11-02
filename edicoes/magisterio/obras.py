@@ -50,6 +50,10 @@ DOCS = {
         '30 de novembro de 1919', 1919, 'latim', 'la', 'AAS 11 (1919), p. 440-455',
         'https://www.vatican.va/content/benedict-xv/la/apost_letters/documents/hf_ben-xv_apl_19191130_maximum-illud.html',
         'https://www.vatican.va/archive/aas/documents/AAS-11-1919-ocr.pdf'),
+    'ad-beatissimi': ('Ad Beatissimi Apostolorum', 'Sobre a paz, a caridade e a concórdia entre os católicos', 'Carta encíclica', 'Bento XV',
+        '1º de novembro de 1914', 1914, 'latim', 'la', 'AAS 6 (1914), p. 565-581',
+        'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-06-1914-ocr.pdf'),
     'pascendi': ('Pascendi Dominici Gregis', 'Sobre as doutrinas dos modernistas', 'Carta encíclica', 'São Pio X',
         '8 de setembro de 1907', 1907, 'latim', 'la', 'ASS 40 (1907), p. 593 e seguintes',
         'https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html',
@@ -85,6 +89,8 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
                        'divisão em parágrafos seguimos; também por elas se acertaram as chamadas de nota que o site '
                        'trocava.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
+    'ad-beatissimi': ('Os erros evidentes de digitalização do site (uns quarenta) foram corrigidos. Num caso, no '
+                      '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),
     'spiritus-paraclitus': ('Os erros de digitalização do site (uns setenta no texto e trinta nas notas) foram '
                             'corrigidos pelas _Acta_.'),
 }

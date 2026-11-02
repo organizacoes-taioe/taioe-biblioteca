@@ -42,6 +42,16 @@ def _achar_versificador():
 
 FONTE_PADRAO = _achar_versificador()
 
+# livros publicados como obra própria (conteudo/<autor>/<obra>.js, com o seu montador em edicoes/):
+# os poemas deles não entram nos poemas avulsos do autor
+OBRAS_PROPRIAS = {
+    # das Panóplias, só as 12 de 1902: a 13ª (Para a Rainha Dona Amélia) é posterior e fica entre os avulsos
+    'bilac': tuple('panoplias--%02d-' % n for n in range(1, 13)) + ('via-lactea--', 'sarcas-de-fogo--', 'alma-inquieta--', 'as-viagens--',
+              'cacador-de-esmeraldas--'),   # edicoes/poesias-de-olavo-bilac/montar.py (02/11/2026)
+    'fernando-pessoa': ('mensagem--',),   # edicoes/mensagem/montar.py (02/11/2026)
+    'goncalves-dias': ('primeiros-cantos--',),   # edicoes/primeiros-cantos/montar.py (02/11/2026)
+}
+
 # pasta do corpus -> id do autor na biblioteca (conteudo/autores.js)
 AUTORES = {
     'alberto-de-oliveira': 'alberto-de-oliveira',
@@ -513,6 +523,9 @@ def carregar_corpus(fonte):
             caminho = os.path.join(base, pasta, arq)
             meta, corpo = ler(caminho)
             obra = primeiro(meta, 'obra')
+            if any(arq.startswith(pre) for pre in OBRAS_PROPRIAS.get(pasta, ())):
+                excluidos.append((pasta, arq, 'publicado como obra própria'))
+                continue
             if re.search(r'infant', obra, re.I) or arq.startswith('poesias-infantis'):
                 excluidos.append((pasta, arq, 'poema infantil'))
                 continue

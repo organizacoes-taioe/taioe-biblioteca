@@ -1,0 +1,28 @@
+{
+  "base": "1ª edição, 1893",
+  "secoes": {
+    "erros": {
+      "titulo": "Erros de 1893 corrigidos",
+      "explica": "Erros de composição da 1ª edição. À esquerda, a lição impressa; o lugar é o poema."
+    }
+  },
+  "apresentacao": "**Texto-base.** A primeira edição de _Broquéis_ (Rio de Janeiro, Magalhães & C.ª, Livraria Moderna, 1893), a única publicada em vida do autor: a epígrafe de Baudelaire e os 54 poemas, na ordem do livro.\n\n**Como foi estabelecido.** O texto parte da transcrição da 1ª edição no Wikisource, feita e validada página por página sobre o fac-símile (exemplar da Universidade Harvard, digitalizado pelo Google). Ela foi confrontada palavra por palavra, e na pontuação, com uma segunda leitura do mesmo fac-símile, feita por nós com reconhecimento automático (OCR), e cada divergência foi conferida nas imagens das páginas. Os erros de digitação da transcrição (_brancnras_, _levauta_, _quebrautos_ e outros) foram corrigidos pelo impresso, e foram restituídas duas pontuações de 1893 (_em trenos,_ em «Lua»; _violinos..._ em «Sinfonias do ocaso»).\n\n**Grafia.** A de hoje. Mudou só a maneira de escrever, nunca a forma da palavra nem a pontuação: ficam _subtis_, _murmuríos_ (com o acento do impresso, que marca a pronúncia), as elisões do verso (_minh'alma_, _tu'alma_, _d'ouro_, _c'roado_) e o latim com a ligadura do impresso nos versos (_Regina Cœli_; nos títulos, _Regina Coeli_ e _Foederis Arca_); as contrações com apóstrofo da época passam à forma de hoje (_dentre_, _num_, _nela_, _outrora_), e _tribus_ se escreve _tribos_. A epígrafe sai em francês, com quatro emendas da composição (_accordez_, _grâce_, _inférieur_ e o nome de Baudelaire, impresso _Beaudelaire_).",
+  "fontes": [
+    {
+      "nome": "Broquéis, 1ª edição (Rio de Janeiro, Magalhães & C.ª, 1893), exemplar da Harvard College Library digitalizado pelo Google, no Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Broqueis.pdf",
+      "nota": "fac-símile; a base do texto"
+    },
+    {
+      "nome": "Wikisource, Broquéis (transcrição validada da 1ª edição)",
+      "url": "https://pt.wikisource.org/wiki/Broqu%C3%A9is",
+      "nota": "primeira transcrição, confrontada palavra por palavra com o fac-símile"
+    }
+  ],
+  "erros": [
+    {"cap": "Satã", "de": "E sôlta ao sóes e estranha e ondeada e espêssa", "para": "E solta aos sóis e estranha e ondeada e espessa"},
+    {"cap": "Antífona (epígrafe)", "de": "acordez-moi la grace", "para": "accordez-moi la grâce"},
+    {"cap": "Antífona (epígrafe)", "de": "pas inferieur", "para": "pas inférieur"},
+    {"cap": "Antífona (epígrafe)", "de": "Beaudelaire", "para": "Baudelaire"}
+  ]
+}

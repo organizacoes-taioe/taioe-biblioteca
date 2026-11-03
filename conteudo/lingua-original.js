@@ -228,6 +228,15 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
+  autor: "oscar-wilde",
+  arquivo: "conteudo/oscar-wilde/lingua-original.js",
+  livros: [{"id": "the-happy-prince-and-other-tales", "titulo": "The Happy Prince and Other Tales", "ano": 1888}],
+  poemas: [
+    {"id":"oscar-wilde-the-happy-prince","titulo":"The Happy Prince","forma":"outras","livro":0,"ordem":0,"versos":205,"lingua":"en","ano":1888,"glossario":true,"genero":"Contos","prosa":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
   autor: "jorge-manrique",
   arquivo: "conteudo/jorge-manrique/lingua-original.js",
   livros: [],

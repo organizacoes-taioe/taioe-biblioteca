@@ -220,9 +220,19 @@ BIBLIOTECA.poemas({
 BIBLIOTECA.poemas({
   autor: "vergilio",
   arquivo: "conteudo/vergilio/lingua-original.js",
-  livros: [{"id": "aeneis", "titulo": "Aeneis", "ano": null}],
+  livros: [{"id": "aeneis", "titulo": "Aeneis", "ano": null}, {"id": "bucolica", "titulo": "Bucolica", "ano": null}],
   poemas: [
-    {"id":"vergilio-eneida","titulo":"Liber I","forma":"outras","livro":0,"ordem":0,"versos":11,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"António José de Lima Leitão","titulo":"A Eneida, Canto I","ano":1819}}
+    {"id":"vergilio-eneida","titulo":"Liber I","forma":"outras","livro":0,"ordem":0,"versos":11,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"António José de Lima Leitão","titulo":"A Eneida, Canto I","ano":1819}},
+    {"id":"vergilio-bucolica-iv","titulo":"Ecloga IV","forma":"outras","livro":1,"ordem":1,"versos":63,"lingua":"la","ano":null,"glossario":true,"subtitulo":"Pollio","pt":{"tradutor":"António José de Lima Leitão","titulo":"Écloga IV","ano":1818}}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "oscar-wilde",
+  arquivo: "conteudo/oscar-wilde/lingua-original.js",
+  livros: [{"id": "the-happy-prince-and-other-tales", "titulo": "The Happy Prince and Other Tales", "ano": 1888}],
+  poemas: [
+    {"id":"oscar-wilde-the-happy-prince","titulo":"The Happy Prince","forma":"outras","livro":0,"ordem":0,"versos":205,"lingua":"en","ano":1888,"glossario":true,"genero":"Contos","prosa":true}
   ]
 });
 

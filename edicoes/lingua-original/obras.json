@@ -282,6 +282,28 @@
       ]
     },
     {
+      "pasta": "bucolica-iv", "autor": "vergilio", "lingua": "la", "forma": "outras",
+      "titulo": "Ecloga IV", "ano": null,
+      "subtitulo": "Pollio",
+      "livro": { "titulo": "Bucolica", "ano": null },
+      "traducao": {"tradutor": "António José de Lima Leitão", "titulo": "Écloga IV", "ano": 1818, "publicacao": "médico e poeta português (1787–1856), publicada em As obras de Públio Virgílio Maro, traduzidas em verso português, tomo I (Rio de Janeiro, Tipografia Real, 1818), pp. 40–44, em decassílabos brancos, com o título «Druso» (o tradutor seguia a leitura de que o menino é Druso, filho de Lívia)", "fonte": {"nome": "Monumento à elevação da colónia do Brasil a reino… As obras de Públio Virgílio Maro, tomo I (Rio de Janeiro, 1818), pp. 40–44, no Internet Archive", "url": "https://archive.org/details/monumentoelevaod00virg/page/n67", "nota": "tradução de Lima Leitão, conferida verso a verso nas imagens; ortografia atualizada («sejam», «disseram», «sorriram», «contudo», «predileta», onde a edição traz «perdilecta»), com os nomes na forma de hoje (Polião, Tétis, Tífis, Aquiles, Orfeu, Calíope); sem as notas do tradutor"}},
+      "fontes": [
+        { "nome": "P. Vergili Maronis Opera, ed. J. B. Greenough (Boston, Ginn and Company, 1900), no Perseus Digital Library", "url": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi0690.phi001.perseus-lat2:4/", "nota": "a 4ª das dez éclogas das Bucólicas, composta por volta de 40 a.C., no consulado de Polião; palavras e pontuação desta edição, com maiúscula depois do ponto e os parágrafos das edições correntes; «mella.» no v. 30 e «heroas» no v. 35 pela edição impressa" },
+        { "nome": "Publi Vergili Maronis Bucolica, Aeneis, Georgica, ed. J. B. Greenough, vol. I (Boston, Ginn, Heath, & Co., 1883), no Internet Archive", "url": "https://archive.org/details/bucolicaaeneisge00virguoft", "nota": "a edição impressa de Greenough: as mesmas palavras, salvo «irrita» no v. 14 (a de 1900 traz «inrita», como Ribbeck)" },
+        { "nome": "P. Vergili Maronis Bucolica, ed. A. Sidgwick (Cambridge, University Press, 1901), no Internet Archive", "url": "https://archive.org/details/bucolicaeditedwi00virguoft", "nota": "outra edição, para conferir: lê «vulgo» (v. 25), «laetantur» (v. 52), «tum» (v. 53) e «vincat» (v. 55), lições que muitas edições modernas preferem" }
+      ]
+    },
+    {
+      "pasta": "the-happy-prince", "autor": "oscar-wilde", "lingua": "en", "forma": "outras", "prosa": true, "genero": "Contos",
+      "titulo": "The Happy Prince", "ano": 1888,
+      "livro": { "titulo": "The Happy Prince and Other Tales", "ano": 1888 },
+      "fontes": [
+        { "nome": "The Happy Prince and Other Tales, 7ª tiragem (Londres, David Nutt, 1910), no Projeto Gutenberg (ebook 902)", "url": "https://www.gutenberg.org/ebooks/902", "nota": "o primeiro conto do livro, inteiro; palavras, grafia britânica e pontuação desta tiragem, conferida palavra por palavra com a 1ª edição; um trecho por linha (uma frase), linha em branco entre os parágrafos" },
+        { "nome": "The Happy Prince and Other Tales, 1ª edição (Londres, David Nutt, 1888), no Internet Archive", "url": "https://archive.org/details/happyprinceother02wild", "nota": "exemplar com dedicatória do autor (Brigham Young University); dela vêm «curtsies» (a de 1910 traz «curtseys») e «cannot choose but weep» (o texto do Gutenberg traz «chose»)" },
+        { "nome": "A House of Pomegranates; The Happy Prince and Other Tales (Londres, Methuen, 1908), no Internet Archive", "url": "https://archive.org/details/ahousepomegrana00wildgoog", "nota": "a edição das obras reunidas, organizada por Robert Ross: as mesmas palavras" }
+      ]
+    },
+    {
       "pasta": "coplas-por-la-muerte-de-su-padre", "autor": "jorge-manrique", "lingua": "es", "forma": "outras",
       "titulo": "Coplas por la muerte de su padre", "ano": 1476,
       "livro": null,

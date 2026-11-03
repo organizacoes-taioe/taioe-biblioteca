@@ -50,6 +50,8 @@ OBRAS_PROPRIAS = {
               'cacador-de-esmeraldas--'),   # edicoes/poesias-de-olavo-bilac/montar.py (02/11/2026)
     'fernando-pessoa': ('mensagem--',),   # edicoes/mensagem/montar.py (02/11/2026)
     'goncalves-dias': ('primeiros-cantos--',),   # edicoes/primeiros-cantos/montar.py (02/11/2026)
+    'cruz-e-sousa': ('broqueis--',),   # edicoes/broqueis/montar.py (02/11/2026)
+    'alvares-de-azevedo': ('lira-dos-vinte-anos--',),   # edicoes/lira-dos-vinte-anos/montar.py (02/11/2026)
 }
 
 # pasta do corpus -> id do autor na biblioteca (conteudo/autores.js)

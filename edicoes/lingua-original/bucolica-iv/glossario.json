@@ -1,0 +1,3264 @@
+{
+  "verbetes": {
+    "ecloga": {
+      "lema": "ecloga",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Écloga."
+      ],
+      "nota": "Poema pastoril curto. Esta é a quarta das dez éclogas das «Bucólicas»."
+    },
+    "iv": {
+      "lema": "IV",
+      "classe": "numeral",
+      "def": [
+        "Quatro."
+      ],
+      "nota": "O numeral romano: «Écloga IV» é a quarta écloga."
+    },
+    "pollio": {
+      "lema": "Pollio",
+      "classe": "substantivo próprio masculino",
+      "def": [
+        "Cognome romano, famoso por ter sido o de Caio Asínio Polião, poeta romano."
+      ],
+      "nota": "Caio Asínio Polião, a quem o poema é dedicado: cônsul em 40 a.C., ano em que a écloga foi escrita. No v. 12 está no vocativo: o poeta fala com ele."
+    },
+    "sicelides": {
+      "lema": "Sicelis",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino plural, forma grega",
+      "def": [
+        "Siciliano, da Sicília."
+      ],
+      "nota": "Palavra de origem grega. «Sicelides Musae» são as Musas sicilianas, as da poesia pastoril de Teócrito, que era siciliano; Vergílio as invoca para abrir a écloga.",
+      "wiki": null
+    },
+    "musae": {
+      "lema": "Musa",
+      "classe": "substantivo próprio feminino",
+      "forma": "vocativo plural",
+      "def": [
+        "Musa, uma das nove deusas das artes liberais."
+      ],
+      "nota": "Vocativo: o poeta chama as Musas."
+    },
+    "paulo": {
+      "lema": "paulo",
+      "classe": "advérbio",
+      "def": [
+        "Um pouco."
+      ],
+      "nota": "Com o comparativo «maiora»: «um pouco maiores»."
+    },
+    "maiora": {
+      "lema": "magnus",
+      "classe": "adjetivo",
+      "forma": "comparativo, acusativo plural neutro",
+      "def": [
+        "Grande, de grande tamanho.",
+        "Grande, elevado, importante, nobre."
+      ],
+      "nota": "Comparativo de «magnus»: «coisas maiores». O poeta pede um canto mais elevado que o pastoril de costume."
+    },
+    "canamus": {
+      "lema": "cano",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Cantar, recitar, tocar.",
+        "Predizer, profetizar."
+      ],
+      "nota": "Subjuntivo exortativo: «cantemos»."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "omnis": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Todo; (no plural) todos."
+      ],
+      "nota": "«Omnis» = «omnes»: acusativo plural em -is. É o objeto de «iuvant»; os sujeitos são «arbusta» e «myricae»."
+    },
+    "arbusta": {
+      "lema": "arbustum",
+      "classe": "substantivo neutro",
+      "forma": "nominativo plural",
+      "def": [
+        "Plantação de árvores, pomar; em especial a vinha plantada com árvores em que as videiras sobem.",
+        "(Poético) bosque, mata, lugar coberto de árvores."
+      ],
+      "nota": "Sujeito de «iuvant», junto com «myricae»: a paisagem humilde da poesia pastoril, que nem a todos agrada."
+    },
+    "iuvant": {
+      "lema": "iuvo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ajudar, auxiliar.",
+        "Deleitar, agradar, dar prazer."
+      ],
+      "nota": "Aqui, o segundo sentido: «agradam»."
+    },
+    "humilesque": {
+      "partes": [
+        {
+          "lema": "humilis",
+          "classe": "adjetivo",
+          "forma": "nominativo feminino plural",
+          "def": [
+            "Baixo, rasteiro, pequeno.",
+            "(Da linguagem) comum, sem elevação."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Concorda com «myricae». É também o estilo «humilde», o da poesia pastoril."
+    },
+    "myricae": {
+      "lema": "myrice",
+      "classe": "substantivo feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "Tamargueira."
+      ],
+      "nota": "A tamargueira, arbusto baixo e rasteiro, que simboliza a poesia pastoril humilde. Sujeito de «iuvant»."
+    },
+    "si": {
+      "lema": "si",
+      "classe": "conjunção",
+      "def": [
+        "Se, supondo que."
+      ]
+    },
+    "canimus": {
+      "lema": "cano",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Cantar, recitar, tocar.",
+        "Predizer, profetizar."
+      ],
+      "nota": "Com objeto direto: «cantamos as selvas», isto é, tomamos as selvas por tema."
+    },
+    "silvas": {
+      "lema": "silva",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "Bosque, floresta.",
+        "Pomar, arvoredo."
+      ]
+    },
+    "silvae": {
+      "lema": "silva",
+      "classe": "substantivo feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "Bosque, floresta.",
+        "Pomar, arvoredo."
+      ],
+      "nota": "Sujeito de «sint»: as selvas devem ser dignas de um cônsul."
+    },
+    "sint": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do plural",
+      "def": [
+        "Ser, existir."
+      ],
+      "nota": "Subjuntivo exortativo: «sejam as selvas dignas de um cônsul»."
+    },
+    "consule": {
+      "lema": "consul",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "Cônsul: um dos dois magistrados supremos da república romana, eleitos todo ano."
+      ],
+      "nota": "Ablativo complemento de «dignae»: dignas de um cônsul (Polião, a quem o poema é dedicado)."
+    },
+    "dignae": {
+      "lema": "dignus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino plural",
+      "def": [
+        "Digno, merecedor, adequado."
+      ],
+      "nota": "Concorda com «silvae» e pede o ablativo («consule»): «dignas de um cônsul»."
+    },
+    "ultima": {
+      "lema": "ultimus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Último, o mais distante (superlativo de «ulter», «que está além»)."
+      ],
+      "nota": "No v. 4 concorda com «aetas»; no v. 53, com «pars»."
+    },
+    "cumaei": {
+      "lema": "Cumaeus",
+      "classe": "adjetivo",
+      "forma": "genitivo neutro singular",
+      "def": [
+        "Cumano, de Cumas."
+      ],
+      "nota": "Concorda com «carminis». O «canto de Cumas» é a profecia da Sibila de Cumas, a sacerdotisa de Apolo que anuncia a nova era."
+    },
+    "venit": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "presente ou perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Vir, chegar."
+      ],
+      "nota": "Aqui, perfeito: «chegou». A forma é a mesma do presente."
+    },
+    "iam": {
+      "lema": "iam",
+      "classe": "advérbio",
+      "def": [
+        "Já, agora.",
+        "(Em transições) além disso, de novo."
+      ],
+      "nota": "Repetido ao longo do poema: a nova era chega por etapas, e cada «iam» marca uma delas."
+    },
+    "iam#2": {
+      "lema": "iam",
+      "classe": "advérbio",
+      "def": [
+        "Já, agora."
+      ],
+      "nota": "Repetido, «iam … iam» (vv. 43–44) equivale a «ora … ora»: ora o velo se tinge de púrpura, ora de amarelo."
+    },
+    "carminis": {
+      "lema": "carmen",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "Canção, poema, canto.",
+        "Oráculo (profecia dita em verso)."
+      ],
+      "nota": "Aqui, o segundo sentido: «Cumaei carminis» é o oráculo da Sibila de Cumas, a profecia em verso."
+    },
+    "aetas": {
+      "lema": "aetas",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Período indefinido e relativamente longo: era, época, idade."
+      ],
+      "nota": "No v. 4, a era do mundo: a última das idades da profecia da Sibila, e não a idade de uma pessoa."
+    },
+    "aetas#2": {
+      "lema": "aetas",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Tempo de vida, fase da vida, idade."
+      ],
+      "nota": "No v. 37, a idade da pessoa: quando a idade fizer do menino um homem."
+    },
+    "magnus": {
+      "lema": "magnus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Grande, de grande tamanho.",
+        "Grande, elevado, importante, nobre."
+      ],
+      "nota": "Concorda com «ordo» (v. 5) e com «Achilles» (v. 36)."
+    },
+    "ab": {
+      "lema": "ab",
+      "classe": "preposição",
+      "def": [
+        "De, a partir de (com ablativo)."
+      ],
+      "nota": "Em «ab integro»: a partir do começo."
+    },
+    "integro": {
+      "lema": "integer",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Completo, inteiro, intacto, são."
+      ],
+      "nota": "«Ab integro»: desde o começo, de novo. A grande ordem dos séculos nasce outra vez, do princípio."
+    },
+    "saeclorum": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo plural",
+      "def": [
+        "Geração, tempo de vida.",
+        "Era, época, século."
+      ],
+      "nota": "Forma contraída de «saeculorum», genitivo plural: «dos séculos»."
+    },
+    "nascitur": {
+      "lema": "nascor",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Nascer, ser gerado."
+      ],
+      "nota": "Verbo depoente: forma passiva com sentido ativo."
+    },
+    "ordo": {
+      "lema": "ordo",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Série metódica, ordem, arranjo; fileira regular."
+      ],
+      "nota": "A ordem dos séculos: a sucessão das eras recomeça."
+    },
+    "redit": {
+      "lema": "redeo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Voltar, retornar, reaparecer."
+      ]
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E.",
+        "Tanto (em «et … et»: tanto … quanto)."
+      ],
+      "nota": "Liga palavras e orações; repetido em «et serpens, et fallax herba» (v. 24)."
+    },
+    "et#2": {
+      "lema": "et",
+      "classe": "advérbio",
+      "def": [
+        "Também, igualmente, além disso.",
+        "Até, mesmo."
+      ],
+      "nota": "Aqui é advérbio e reforça a palavra seguinte: «também a Virgem volta», «ele também será visto», «até o navegante»."
+    },
+    "virgo": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Donzela, moça solteira.",
+        "Virgem."
+      ],
+      "nota": "A Virgem é Astreia, a deusa da Justiça, que, segundo a lenda, deixou a terra ao fim da idade de ouro. Seu retorno anuncia a nova era."
+    },
+    "redeunt": {
+      "lema": "redeo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Voltar, retornar, reaparecer."
+      ]
+    },
+    "saturnia": {
+      "lema": "Saturnius",
+      "classe": "adjetivo",
+      "forma": "nominativo plural neutro",
+      "def": [
+        "Saturnino, relativo a Saturno."
+      ],
+      "nota": "«Saturnia regna»: o reino de Saturno, a idade de ouro, quando os homens viviam em paz e fartura sem precisar trabalhar a terra."
+    },
+    "regna": {
+      "lema": "regnum",
+      "classe": "substantivo neutro",
+      "forma": "nominativo plural",
+      "def": [
+        "Poder real, domínio, governo.",
+        "Reino, trono."
+      ],
+      "nota": "Sujeito de «redeunt»."
+    },
+    "nova": {
+      "lema": "novus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Novo, recente.",
+        "Jovem, fresco."
+      ],
+      "nota": "Concorda com «progenies»."
+    },
+    "progenies": {
+      "lema": "progenies",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Raça, família, linhagem, descendência."
+      ],
+      "nota": "Uma nova linhagem desce do céu: o menino de que fala o poema, e com ele a geração nova."
+    },
+    "caelo": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Céu, firmamento."
+      ],
+      "nota": "Ablativo de origem, sem preposição: «do céu»."
+    },
+    "demittitur": {
+      "lema": "demitto",
+      "classe": "verbo",
+      "forma": "presente do indicativo passivo, 3ª pessoa do singular",
+      "def": [
+        "Enviar ou fazer descer, deixar cair."
+      ],
+      "nota": "«É enviada do alto céu»: a nova geração vem do alto."
+    },
+    "alto": {
+      "lema": "altus",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Alto, de grande altura."
+      ],
+      "nota": "Concorda com «caelo»: do alto céu."
+    },
+    "tu": {
+      "lema": "tu",
+      "classe": "pronome pessoal",
+      "forma": "nominativo singular",
+      "def": [
+        "Tu; você (no singular)."
+      ],
+      "nota": "O poeta se dirige a Lucina."
+    },
+    "modo": {
+      "lema": "modo",
+      "classe": "advérbio",
+      "def": [
+        "Apenas, só, somente.",
+        "Há pouco, recentemente."
+      ],
+      "nota": "«Tu modo … fave»: «só tu, favorece», basta que tu ajudes."
+    },
+    "nascenti": {
+      "lema": "nascor",
+      "classe": "verbo",
+      "forma": "particípio presente, dativo masculino singular",
+      "def": [
+        "Nascer, ser gerado."
+      ],
+      "nota": "Concorda com «puero»: ao menino que nasce."
+    },
+    "puero": {
+      "lema": "puer",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "Criança.",
+        "Menino, rapaz."
+      ],
+      "nota": "O menino cujo nascimento o poema celebra. Vergílio não o nomeia, e desde a Antiguidade se discute quem seria."
+    },
+    "quo": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Quem, que, o qual (relativo)."
+      ],
+      "nota": "Refere-se ao menino: «com o nascimento do qual», sob o qual a raça de ferro começa a acabar."
+    },
+    "ferrea": {
+      "lema": "ferreus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "De ferro, feito de ferro.",
+        "Duro, cruel."
+      ],
+      "nota": "Concorda com «gens»: a raça de ferro, a última e mais dura das idades do mundo (segundo Hesíodo), que dá lugar à raça de ouro."
+    },
+    "primum": {
+      "lema": "primum",
+      "classe": "advérbio",
+      "def": [
+        "Primeiro, a princípio, em primeiro lugar; pela primeira vez."
+      ],
+      "nota": "Acusativo neutro de «primus», usado como advérbio. «Quo primum»: logo que, no momento em que nasce o menino."
+    },
+    "desinet": {
+      "lema": "desino",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Cessar, parar, acabar."
+      ],
+      "nota": "A raça de ferro vai acabar."
+    },
+    "ac": {
+      "lema": "atque",
+      "classe": "conjunção",
+      "def": [
+        "E, e também, e além disso."
+      ],
+      "nota": "«Ac» é a forma abreviada de «atque», usada diante de consoante."
+    },
+    "toto": {
+      "lema": "totus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Todo, inteiro, completo."
+      ],
+      "nota": "Concorda com «mundo»: em todo o mundo."
+    },
+    "surget": {
+      "lema": "surgo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Levantar-se, erguer-se; surgir."
+      ]
+    },
+    "gens": {
+      "lema": "gens",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Raça, estirpe, tribo.",
+        "Povo, nação."
+      ],
+      "nota": "A «raça de ouro» é a humanidade da idade de ouro."
+    },
+    "aurea": {
+      "lema": "aureus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "De ouro, dourado.",
+        "(Figurado) magnífico, esplêndido."
+      ],
+      "nota": "Concorda com «gens»: a raça de ouro."
+    },
+    "mundo": {
+      "lema": "mundus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "Universo, mundo, sobretudo o céu e os astros.",
+        "A humanidade, os habitantes da terra."
+      ]
+    },
+    "casta": {
+      "lema": "castus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Moralmente puro, sem culpa.",
+        "Casto, virtuoso."
+      ],
+      "nota": "Concorda com «Lucina»: Lucina casta, a deusa virgem."
+    },
+    "fave": {
+      "lema": "faveo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Ser favorável, favorecer, proteger."
+      ],
+      "nota": "Pede o dativo: favorece o menino que nasce."
+    },
+    "lucina": {
+      "lema": "Lucina",
+      "classe": "substantivo próprio feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "Deusa romana do parto, das parteiras e dos recém-nascidos; epíteto de Juno ou de Diana nessa função."
+      ],
+      "nota": "Em geral se entende aqui Diana, por causa do irmão Apolo, no fim do verso. É a ela que o poeta pede ajuda para o nascimento."
+    },
+    "tuus": {
+      "lema": "tuus",
+      "classe": "pronome possessivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Teu, de ti."
+      ],
+      "nota": "Concorda com «Apollo»: o teu Apolo, isto é, o teu irmão."
+    },
+    "regnat": {
+      "lema": "regno",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Reinar, governar (como monarca)."
+      ],
+      "nota": "Apolo já reina: sinal de que a nova era chegou."
+    },
+    "apollo": {
+      "lema": "Apollo",
+      "classe": "substantivo próprio masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Apolo (deus grego e romano)."
+      ],
+      "nota": "Deus da luz, da música, da poesia e da profecia; irmão de Diana, a Lucina do verso."
+    },
+    "apollo#2": {
+      "lema": "Apollo",
+      "classe": "substantivo próprio masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Apolo (deus grego e romano)."
+      ],
+      "nota": "Aqui, pai de Lino, segundo esta versão do mito. O verso completa-se com «[é pai]»: a Lino, o belo Apolo."
+    },
+    "teque": {
+      "partes": [
+        {
+          "lema": "tu",
+          "classe": "pronome pessoal",
+          "forma": "acusativo singular",
+          "def": [
+            "Tu; você (no singular)."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "«E a ti»: ênfase em Polião, que o verso repete em «te consule» (sendo tu cônsul)."
+    },
+    "adeo": {
+      "lema": "adeo",
+      "classe": "advérbio",
+      "def": [
+        "Precisamente, justamente, de fato (posposto)."
+      ],
+      "nota": "Posposto, reforça «te»: «e justamente a ti»."
+    },
+    "decus": {
+      "lema": "decus",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "Honra, distinção, glória.",
+        "Graça, esplendor, ornamento."
+      ],
+      "nota": "Sujeito de «inibit»: este esplendor da era."
+    },
+    "hoc": {
+      "lema": "hic",
+      "classe": "pronome demonstrativo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Este, esta, isto."
+      ],
+      "nota": "Concorda com «decus»."
+    },
+    "aevi": {
+      "lema": "aevum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "Era, idade, longo período.",
+        "Geração, tempo de vida."
+      ],
+      "nota": "«Decus aevi»: a glória da era, a era nova."
+    },
+    "te": {
+      "lema": "tu",
+      "classe": "pronome pessoal",
+      "forma": "ablativo singular",
+      "def": [
+        "Tu; você (no singular)."
+      ],
+      "nota": "Ablativo absoluto: «te consule» (v. 11) é «sendo tu cônsul»; «te duce» (v. 13), «sendo tu o guia»."
+    },
+    "te#2": {
+      "lema": "tu",
+      "classe": "pronome pessoal",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu; você (no singular)."
+      ],
+      "nota": "Objeto de «fecerit»: quando a idade te tiver feito homem."
+    },
+    "consule#2": {
+      "lema": "consul",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "Cônsul: um dos dois magistrados supremos da república romana, eleitos todo ano."
+      ],
+      "nota": "Ablativo absoluto «te consule»: «sendo tu cônsul», isto é, no teu consulado (40 a.C.)."
+    },
+    "inibit": {
+      "lema": "ineo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Entrar, ir para dentro de.",
+        "Começar (uma atividade, um empreendimento)."
+      ],
+      "nota": "Aqui, «começar»: sob o teu consulado, a glória desta era vai começar."
+    },
+    "incipient": {
+      "lema": "incipio",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Começar, principiar."
+      ]
+    },
+    "magni": {
+      "lema": "magnus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Grande, de grande tamanho.",
+        "Grande, elevado, importante, nobre."
+      ],
+      "nota": "Concorda com «menses»: os grandes meses da nova era."
+    },
+    "procedere": {
+      "lema": "procedo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Avançar, seguir adiante.",
+        "Mostrar-se, aparecer."
+      ],
+      "nota": "Depende de «incipient»: começarão a avançar."
+    },
+    "menses": {
+      "lema": "mensis",
+      "classe": "substantivo masculino",
+      "forma": "nominativo plural",
+      "def": [
+        "Mês."
+      ],
+      "nota": "No v. 12, os meses da nova era; no v. 61, os dez meses da gravidez. Nos dois casos é sujeito."
+    },
+    "duce": {
+      "lema": "dux",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "Líder, chefe.",
+        "Comandante, general; guia."
+      ],
+      "nota": "Ablativo absoluto: «te duce», sendo tu o guia, sob a tua condução."
+    },
+    "qua": {
+      "lema": "qui",
+      "classe": "pronome indefinido",
+      "forma": "nominativo plural neutro",
+      "def": [
+        "Algum, qualquer (indefinido)."
+      ],
+      "nota": "Depois de «si», «qua» é o indefinido (= «aliqua»): «se alguns vestígios…». Concorda com «vestigia»."
+    },
+    "manent": {
+      "lema": "maneo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ficar, permanecer, continuar."
+      ]
+    },
+    "sceleris": {
+      "lema": "scelus",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "Ação má, ato ímpio, crime.",
+        "Maldade, perversidade."
+      ],
+      "nota": "O «crime nosso» são, em geral, as guerras civis que dilaceraram Roma."
+    },
+    "vestigia": {
+      "lema": "vestigium",
+      "classe": "substantivo neutro",
+      "forma": "nominativo plural",
+      "def": [
+        "Pegada, rastro.",
+        "Vestígio, sinal, marca."
+      ],
+      "nota": "Sujeito. No v. 13, os vestígios do crime; no v. 31, os da antiga fraude: marcas que a nova era ainda não apagou."
+    },
+    "nostri": {
+      "lema": "noster",
+      "classe": "pronome possessivo",
+      "forma": "genitivo neutro singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com «sceleris»."
+    },
+    "inrita": {
+      "lema": "irritus",
+      "classe": "adjetivo",
+      "forma": "nominativo plural neutro",
+      "def": [
+        "Inválido, sem valor, anulado.",
+        "Ineficaz, inútil."
+      ],
+      "nota": "Grafia antiga de «irrita». Concorda com «vestigia»: os vestígios, tornados sem efeito, livrarão as terras do medo."
+    },
+    "perpetua": {
+      "lema": "perpetuus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Perpétuo, eterno, contínuo, ininterrupto."
+      ],
+      "nota": "Concorda com «formidine»."
+    },
+    "solvent": {
+      "lema": "solvo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Soltar, desatar, libertar.",
+        "Absolver, livrar."
+      ],
+      "nota": "Com o ablativo «formidine»: livrar do medo."
+    },
+    "formidine": {
+      "lema": "formido",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Medo, pavor, terror."
+      ],
+      "nota": "Ablativo de separação: livrar «do medo»."
+    },
+    "terras": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "Terra, território, região.",
+        "(No plural) a terra inteira, o mundo."
+      ]
+    },
+    "ille": {
+      "lema": "ille",
+      "classe": "pronome demonstrativo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Aquele; ele, ela."
+      ],
+      "nota": "Refere-se ao menino."
+    },
+    "deum": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "Deus, divindade."
+      ],
+      "nota": "Forma contraída de «deorum», genitivo plural: «dos deuses»."
+    },
+    "vitam": {
+      "lema": "vita",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Vida."
+      ],
+      "nota": "«Deum vitam»: a vida dos deuses, a vida divina."
+    },
+    "accipiet": {
+      "lema": "accipio",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Receber, aceitar, tomar."
+      ]
+    },
+    "divisque": {
+      "partes": [
+        {
+          "lema": "divus",
+          "classe": "substantivo masculino",
+          "forma": "dativo plural",
+          "def": [
+            "Deus, divindade."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Dativo ligado a «permixtos»: heróis misturados aos deuses."
+    },
+    "videbit": {
+      "lema": "video",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ver, perceber; olhar."
+      ]
+    },
+    "permixtos": {
+      "lema": "permisceo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino plural",
+      "def": [
+        "Misturar por inteiro, entremear, combinar.",
+        "(Falando de pessoas) misturar-se, unir-se."
+      ],
+      "nota": "Concorda com «heroas»: heróis misturados aos deuses."
+    },
+    "heroas": {
+      "lema": "heros",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural, forma grega",
+      "def": [
+        "Semideus, herói."
+      ],
+      "nota": "Acusativo plural à grega, em -as (o latino seria «heroes»)."
+    },
+    "ipse": {
+      "lema": "ipse",
+      "classe": "pronome intensivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Ele mesmo, em pessoa (enfático).",
+        "Por sua parte, por conta própria."
+      ],
+      "nota": "Enfático: no v. 16, o próprio menino; no v. 38, o próprio navegante; no v. 43, o próprio carneiro."
+    },
+    "videbitur": {
+      "lema": "video",
+      "classe": "verbo",
+      "forma": "futuro do indicativo passivo, 3ª pessoa do singular",
+      "def": [
+        "(Passivo) ser visto, mostrar-se, parecer."
+      ],
+      "nota": "«Ser visto por eles»: o menino também será visto pelos deuses e heróis."
+    },
+    "illis": {
+      "lema": "ille",
+      "classe": "pronome demonstrativo",
+      "forma": "dativo masculino plural",
+      "def": [
+        "Aquele; ele, ela."
+      ],
+      "nota": "Dativo de agente com o passivo: «será visto por eles», pelos deuses e heróis."
+    },
+    "pacatumque": {
+      "partes": [
+        {
+          "lema": "paco",
+          "classe": "verbo",
+          "forma": "particípio perfeito, acusativo masculino singular",
+          "def": [
+            "Tornar pacífico, pacificar, acalmar; submeter."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Concorda com «orbem»: o mundo pacificado."
+    },
+    "reget": {
+      "lema": "rego",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Governar, dirigir, reger."
+      ]
+    },
+    "patriis": {
+      "lema": "patrius",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino plural",
+      "def": [
+        "Do pai, paterno.",
+        "Hereditário, ancestral."
+      ],
+      "nota": "Concorda com «virtutibus»: as virtudes do pai, que o menino herda."
+    },
+    "virtutibus": {
+      "lema": "virtus",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "Coragem, valor.",
+        "Virtude, excelência."
+      ],
+      "nota": "Ablativo de meio: «com as virtudes»."
+    },
+    "orbem": {
+      "lema": "orbis",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "Círculo, anel, disco.",
+        "A Terra, o mundo, o globo."
+      ],
+      "nota": "Aqui, o segundo sentido: o mundo. Subentende-se «terrarum» (o globo das terras)."
+    },
+    "at": {
+      "lema": "at",
+      "classe": "conjunção",
+      "def": [
+        "Mas, porém; por outro lado."
+      ]
+    },
+    "tibi": {
+      "lema": "tu",
+      "classe": "pronome pessoal",
+      "forma": "dativo singular",
+      "def": [
+        "Tu; você (no singular)."
+      ],
+      "nota": "Dativo: «para ti»."
+    },
+    "prima": {
+      "lema": "primus",
+      "classe": "adjetivo",
+      "forma": "acusativo plural neutro",
+      "def": [
+        "Primeiro, inicial."
+      ],
+      "nota": "Concorda com «munuscula»: os primeiros presentinhos."
+    },
+    "puer": {
+      "lema": "puer",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "Criança.",
+        "Menino, rapaz."
+      ],
+      "nota": "Vocativo: o poeta fala ao menino."
+    },
+    "nullo": {
+      "lema": "nullus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Nenhum."
+      ],
+      "nota": "Concorda com «cultu»: sem nenhum cultivo."
+    },
+    "munuscula": {
+      "lema": "munusculum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Presentinho, pequena dádiva, pequeno favor."
+      ],
+      "nota": "Diminutivo de «munus»: os primeiros mimos que a terra dá ao menino."
+    },
+    "cultu": {
+      "lema": "cultus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "Cultivo, lavra da terra.",
+        "Cuidado, refinamento."
+      ],
+      "nota": "«Nullo cultu»: sem cultivo, sem que ninguém trabalhe a terra."
+    },
+    "errantis": {
+      "lema": "erro",
+      "classe": "verbo",
+      "forma": "particípio presente, acusativo plural (em -is)",
+      "def": [
+        "Vagar, andar sem rumo."
+      ],
+      "nota": "Forma em -is por «errantes». Concorda com «hederas»: a hera que se espalha ao acaso."
+    },
+    "hederas": {
+      "lema": "hedera",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "Hera."
+      ]
+    },
+    "passim": {
+      "lema": "passim",
+      "classe": "advérbio",
+      "def": [
+        "Por toda parte.",
+        "Aqui e ali, sem ordem."
+      ]
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "preposição",
+      "def": [
+        "Com, junto com (com ablativo)."
+      ]
+    },
+    "baccare": {
+      "lema": "baccar",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Planta perfumada, de identidade incerta."
+      ],
+      "nota": "Ablativo com «cum»: a hera nasce junto com o bácar."
+    },
+    "tellus": {
+      "lema": "tellus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Terra, chão, solo.",
+        "A Terra, o mundo; região."
+      ],
+      "nota": "Sujeito do verbo: no v. 19, a própria terra, sem ser trabalhada, produzirá; no v. 39, a terra toda dará tudo."
+    },
+    "mixtaque": {
+      "partes": [
+        {
+          "lema": "misceo",
+          "classe": "verbo",
+          "forma": "particípio perfeito, acusativo plural neutro",
+          "def": [
+            "Misturar, mesclar, entremear.",
+            "Unir, combinar."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Concorda com «colocasia»: colocásias misturadas ao acanto sorridente."
+    },
+    "ridenti": {
+      "lema": "rideo",
+      "classe": "verbo",
+      "forma": "particípio presente, ablativo masculino singular",
+      "def": [
+        "Rir, sorrir."
+      ],
+      "nota": "Concorda com «acantho»: o acanto «sorridente», viçoso."
+    },
+    "colocasia": {
+      "lema": "colocasia",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "Lótus-sagrado (do gênero Nelumbo).",
+        "Taro (do gênero Colocasia)."
+      ],
+      "nota": "Aqui é a forma neutra plural, de «colocasium», a mesma planta: o taro egípcio, de folhas grandes."
+    },
+    "fundet": {
+      "lema": "fundo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Derramar, verter.",
+        "Estender, espalhar."
+      ],
+      "nota": "A terra «derrama» plantas sem ser trabalhada: produz sozinha."
+    },
+    "acantho": {
+      "lema": "acanthus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "Planta conhecida como pé-de-urso (Helleborus foetidus).",
+        "Árvore espinhosa de folhas sempre verdes."
+      ],
+      "nota": "Os antigos davam o nome de «acanto» a várias plantas; não se sabe ao certo qual era a deste verso."
+    },
+    "ipsae": {
+      "lema": "ipse",
+      "classe": "pronome intensivo",
+      "forma": "nominativo feminino plural",
+      "def": [
+        "Ele mesmo, em pessoa (enfático).",
+        "Por sua parte, por conta própria."
+      ],
+      "nota": "Concorda com «capellae»: as próprias cabras, sem pastor, voltarão para casa."
+    },
+    "lacte": {
+      "lema": "lac",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Leite."
+      ],
+      "nota": "Ablativo de meio: as tetas «cheias de leite»."
+    },
+    "domum": {
+      "lema": "domus",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Casa, lar."
+      ],
+      "nota": "Acusativo de direção, sem preposição: «para casa»."
+    },
+    "referent": {
+      "lema": "refero",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Trazer de volta, levar de volta, devolver."
+      ]
+    },
+    "distenta": {
+      "lema": "distendo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo plural neutro",
+      "def": [
+        "Esticar, estender.",
+        "Inchar, dilatar."
+      ],
+      "nota": "Concorda com «ubera»: tetas inchadas de leite."
+    },
+    "capellae": {
+      "lema": "capella",
+      "classe": "substantivo feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "Cabra ou cabrita."
+      ],
+      "nota": "Sujeito de «referent»."
+    },
+    "ubera": {
+      "lema": "uber",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Teta, úbere, peito que dá leite."
+      ]
+    },
+    "nec": {
+      "lema": "nec",
+      "classe": "conjunção",
+      "def": [
+        "E não; nem."
+      ]
+    },
+    "magnos": {
+      "lema": "magnus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Grande, de grande tamanho.",
+        "Grande, elevado, importante, nobre."
+      ],
+      "nota": "No v. 22 concorda com «leones»; no v. 48 concorda com «honores», de que o separa o parêntese «aderit iam tempus»."
+    },
+    "metuent": {
+      "lema": "metuo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Temer, ter medo."
+      ]
+    },
+    "armenta": {
+      "lema": "armentum",
+      "classe": "substantivo neutro",
+      "forma": "nominativo plural",
+      "def": [
+        "Animal de tração (boi, cavalo) ou de grande porte.",
+        "O gado desses animais, tomados em conjunto."
+      ],
+      "nota": "Sujeito de «metuent»: o gado grande (bois), distinto das cabras e ovelhas do verso anterior."
+    },
+    "leones": {
+      "lema": "leo",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Leão."
+      ]
+    },
+    "ipsa": {
+      "lema": "ipse",
+      "classe": "pronome intensivo",
+      "forma": "nominativo neutro plural",
+      "def": [
+        "Ele mesmo, em pessoa (enfático).",
+        "Por sua parte, por conta própria."
+      ],
+      "nota": "Concorda com «cunabula»: os próprios berços."
+    },
+    "blandos": {
+      "lema": "blandus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Agradável, aprazível.",
+        "Sedutor, atraente."
+      ],
+      "nota": "Concorda com «flores»: flores que agradam, que acariciam."
+    },
+    "fundent": {
+      "lema": "fundo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Derramar, verter.",
+        "Estender, espalhar."
+      ],
+      "nota": "Os berços vão «derramar» flores sozinhos."
+    },
+    "cunabula": {
+      "lema": "cunabula",
+      "classe": "substantivo neutro",
+      "forma": "nominativo plural",
+      "def": [
+        "Berço."
+      ],
+      "nota": "Plural poético, que só se usa assim: o berço do menino."
+    },
+    "flores": {
+      "lema": "flos",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Flor, botão."
+      ]
+    },
+    "occidet": {
+      "lema": "occido",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Perecer, morrer, desaparecer."
+      ],
+      "nota": "Repetido no começo dos vv. 24 e 25; no v. 25 o sujeito é «herba veneni». É o «occido» de «ob» + «cado», morrer, perecer, e não o de matar: a serpente e a erva venenosa vão desaparecer."
+    },
+    "serpens": {
+      "lema": "serpens",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Serpente, cobra.",
+        "Qualquer animal rastejante."
+      ]
+    },
+    "fallax": {
+      "lema": "fallax",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Enganoso, ardiloso.",
+        "Falaz, falso."
+      ],
+      "nota": "Concorda com «herba»: a erva traiçoeira, que esconde o veneno."
+    },
+    "herba": {
+      "lema": "herba",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Erva, capim.",
+        "Planta."
+      ]
+    },
+    "veneni": {
+      "lema": "venenum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "Veneno, peçonha."
+      ],
+      "nota": "Genitivo qualificativo: «erva de veneno», isto é, venenosa."
+    },
+    "assyrium": {
+      "lema": "Assyrius",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Assírio."
+      ],
+      "nota": "Concorda com «amomum»: o amomo assírio, planta perfumada do Oriente, que nascerá por toda parte."
+    },
+    "volgo": {
+      "lema": "vulgo",
+      "classe": "advérbio",
+      "def": [
+        "Em geral, comumente, por toda parte.",
+        "Publicamente, de modo comum."
+      ],
+      "nota": "Grafia antiga de «vulgo». Aqui, «por toda parte, sem esforço»: o amomo, planta rara e cara, nascerá em qualquer lugar."
+    },
+    "nascetur": {
+      "lema": "nascor",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Nascer, ser gerado.",
+        "Surgir, brotar."
+      ],
+      "nota": "Verbo depoente: forma passiva com sentido ativo."
+    },
+    "amomum": {
+      "lema": "amomum",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "Amomo, planta de uma especiaria oriental.",
+        "Bálsamo que contém essa especiaria."
+      ]
+    },
+    "simul": {
+      "lema": "simul",
+      "classe": "advérbio",
+      "def": [
+        "Ao mesmo tempo, juntos.",
+        "Assim que, logo que."
+      ],
+      "nota": "Aqui, «assim que»: logo que o menino puder ler os feitos dos heróis…"
+    },
+    "heroum": {
+      "lema": "heros",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "Semideus, herói."
+      ]
+    },
+    "laudes": {
+      "lema": "laus",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "Louvor, glória, renome.",
+        "Elogio, mérito."
+      ],
+      "nota": "Os louvores dos heróis: o que se canta em verso a respeito deles."
+    },
+    "facta": {
+      "lema": "factum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Fato, feito, ato.",
+        "Façanha, proeza."
+      ]
+    },
+    "parentis": {
+      "lema": "parens",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "Pai ou mãe; progenitor.",
+        "Fundador, antepassado."
+      ],
+      "nota": "O pai do menino: os feitos do pai (facta parentis) são os que ele vai ler."
+    },
+    "legere": {
+      "lema": "lego",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Ler.",
+        "Reunir, colher, escolher."
+      ],
+      "nota": "Aqui, «ler»: o menino já poderá ler os feitos e o que é a virtude."
+    },
+    "quae#2": {
+      "lema": "qui",
+      "classe": "pronome interrogativo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Que, qual, que espécie de (interrogativo)."
+      ],
+      "nota": "Abre a pergunta indireta e concorda com «virtus»: o que é a virtude, qual é o seu sentido."
+    },
+    "sit": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Ser, existir."
+      ],
+      "nota": "Subjuntivo da pergunta indireta: «quae sit virtus», o que é a virtude."
+    },
+    "poteris": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Poder, ser capaz de."
+      ]
+    },
+    "cognoscere": {
+      "lema": "cognosco",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Conhecer, ficar sabendo.",
+        "Reconhecer."
+      ],
+      "nota": "No v. 27, «aprender a conhecer»; no v. 60, «reconhecer» (a mãe, pelo sorriso)."
+    },
+    "virtus": {
+      "lema": "virtus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Coragem, valor.",
+        "Virtude, excelência."
+      ],
+      "nota": "A excelência do homem de bem; na origem, o valor viril."
+    },
+    "molli": {
+      "lema": "mollis",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Macio, suave ao toque.",
+        "Brando, tenro."
+      ],
+      "nota": "Concorda com «arista»: a espiga tenra."
+    },
+    "paulatim": {
+      "lema": "paulatim",
+      "classe": "advérbio",
+      "def": [
+        "Gradualmente, pouco a pouco."
+      ]
+    },
+    "flavescet": {
+      "lema": "flavesco",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Tornar-se dourado ou amarelo."
+      ],
+      "nota": "O campo vai amarelar com as espigas, sem que ninguém o tenha semeado."
+    },
+    "campus": {
+      "lema": "campus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Terreno aberto, plano e nivelado: planície, campo."
+      ]
+    },
+    "arista": {
+      "lema": "arista",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Barba de espiga de cereal.",
+        "Espiga."
+      ],
+      "nota": "Ablativo: o campo amarelará «com a espiga»."
+    },
+    "incultisque": {
+      "partes": [
+        {
+          "lema": "incultus",
+          "classe": "adjetivo",
+          "forma": "ablativo masculino plural",
+          "def": [
+            "Não cultivado, inculto.",
+            "Abandonado, descuidado."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Concorda com «sentibus»: mesmo nos espinheiros incultos penderá a uva."
+    },
+    "rubens": {
+      "lema": "rubeo",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo feminino singular",
+      "def": [
+        "Ser vermelho, rubro, corado."
+      ],
+      "nota": "Concorda com «uva»: a uva que enrubesce."
+    },
+    "pendebit": {
+      "lema": "pendeo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Pender, estar pendurado."
+      ]
+    },
+    "sentibus": {
+      "lema": "sentis",
+      "classe": "substantivo masculino",
+      "forma": "ablativo plural",
+      "def": [
+        "Espinheiro, sarça, silvado."
+      ]
+    },
+    "uva": {
+      "lema": "uva",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Uva, fruto da videira.",
+        "Cacho de uvas."
+      ]
+    },
+    "durae": {
+      "lema": "durus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino plural",
+      "def": [
+        "Duro, rijo (ao toque).",
+        "Rude, severo."
+      ],
+      "nota": "Concorda com «quercus»: carvalhos duros, de que escorrerá mel."
+    },
+    "quercus": {
+      "lema": "quercus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "Carvalho (em especial o carvalho-italiano)."
+      ],
+      "nota": "Nominativo plural em -us (4ª declinação)."
+    },
+    "sudabunt": {
+      "lema": "sudo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Suar, transpirar."
+      ],
+      "nota": "Sentido figurado: os carvalhos «suam» mel, que escorre do tronco."
+    },
+    "roscida": {
+      "lema": "roscidus",
+      "classe": "adjetivo",
+      "forma": "acusativo plural neutro",
+      "def": [
+        "Orvalhado, úmido de orvalho."
+      ],
+      "nota": "Concorda com «mella»: os antigos criam que o mel nascia do orvalho do céu."
+    },
+    "mella": {
+      "lema": "mel",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Mel.",
+        "(Figurado) doçura."
+      ]
+    },
+    "pauca": {
+      "lema": "paucus",
+      "classe": "adjetivo",
+      "forma": "nominativo plural neutro",
+      "def": [
+        "Pouco, escasso; (no plural) poucos."
+      ],
+      "nota": "Concorda com «vestigia»."
+    },
+    "tamen": {
+      "lema": "tamen",
+      "classe": "advérbio",
+      "def": [
+        "Contudo, no entanto, apesar disso."
+      ]
+    },
+    "suberunt": {
+      "lema": "subsum",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Estar por baixo, atrás ou no meio de.",
+        "Estar perto, estar à mão."
+      ],
+      "nota": "Aqui, «restarão»: ficarão ainda ocultos, por baixo, uns poucos vestígios."
+    },
+    "priscae": {
+      "lema": "priscus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Anterior, antigo, de outrora."
+      ],
+      "nota": "Concorda com «fraudis»."
+    },
+    "fraudis": {
+      "lema": "fraus",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "Engano, fraude, ardil, perfídia.",
+        "Dano, prejuízo."
+      ],
+      "nota": "A malícia da idade anterior, que ainda deixa os homens forçarem a natureza: navegar, fortificar cidades, rasgar a terra com o arado."
+    },
+    "quae": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "forma": "nominativo plural neutro",
+      "def": [
+        "Quem, que, o qual (relativo)."
+      ],
+      "nota": "Nos vv. 32–33, repetido três vezes, retoma «vestigia» e é sujeito de «iubeant»: os vestígios que mandam tentar o mar, cercar cidades e abrir sulcos."
+    },
+    "temptare": {
+      "lema": "tempto",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Pôr à prova, testar.",
+        "Tentar, experimentar."
+      ],
+      "nota": "Depende de «iubeant» (v. 33): mandar tentar o mar com navios."
+    },
+    "thetim": {
+      "lema": "Thetis",
+      "classe": "substantivo próprio feminino",
+      "forma": "acusativo singular, forma grega",
+      "def": [
+        "Tétis, ninfa do mar, mãe de Aquiles; por extensão, o mar."
+      ],
+      "nota": "Acusativo grego em -im. Aqui o nome da deusa marinha está pelo mar (metonímia): «tentar o mar com navios».",
+      "wiki": null
+    },
+    "ratibus": {
+      "lema": "ratis",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "Balsa, jangada.",
+        "(Poético) barco, navio."
+      ],
+      "nota": "Ablativo de meio: com navios."
+    },
+    "cingere": {
+      "lema": "cingo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Cercar, rodear, circundar."
+      ]
+    },
+    "muris": {
+      "lema": "murus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo plural",
+      "def": [
+        "Muro, muralha (de cidade)."
+      ],
+      "nota": "Ablativo de meio: cercar cidades com muralhas."
+    },
+    "oppida": {
+      "lema": "oppidum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Cidade, vila (em especial as que não são Roma)."
+      ]
+    },
+    "iubeant": {
+      "lema": "iubeo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do plural",
+      "def": [
+        "Mandar, ordenar (com infinitivo)."
+      ],
+      "nota": "Subjuntivo de consequência: vestígios «tais que mandem»; o sujeito é «quae»."
+    },
+    "telluri": {
+      "lema": "tellus",
+      "classe": "substantivo feminino",
+      "forma": "dativo singular",
+      "def": [
+        "Terra, chão, solo."
+      ],
+      "nota": "Dativo (construção poética): abrir sulcos «na terra»."
+    },
+    "infindere": {
+      "lema": "infindo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Cortar para dentro, fender."
+      ],
+      "nota": "Depende de «iubeant»: mandar abrir sulcos na terra."
+    },
+    "sulcos": {
+      "lema": "sulcus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Sulco aberto pelo arado."
+      ]
+    },
+    "alter": {
+      "lema": "alter",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "O outro; o segundo."
+      ],
+      "nota": "«Alter … Tiphys, altera … Argo, altera bella»: a repetição diz que as velhas aventuras se repetirão."
+    },
+    "erit": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser, existir."
+      ]
+    },
+    "tum": {
+      "lema": "tum",
+      "classe": "advérbio",
+      "def": [
+        "Então, nesse momento."
+      ]
+    },
+    "tiphys": {
+      "lema": "Tiphys",
+      "classe": "substantivo próprio masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Tífis, piloto da nau Argo."
+      ],
+      "nota": "Na lenda, o timoneiro da Argo, a nau dos Argonautas, que foram buscar o Velocino de Ouro; um «segundo Tífis» pilotaria uma segunda expedição.",
+      "wiki": null
+    },
+    "altera": {
+      "lema": "alter",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "O outro; o segundo."
+      ],
+      "nota": "Concorda com «Argo»: uma segunda Argo."
+    },
+    "quae#3": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Quem, que, o qual (relativo)."
+      ],
+      "nota": "Retoma «Argo»: uma Argo que levará…"
+    },
+    "vehat": {
+      "lema": "veho",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Levar, transportar, conduzir."
+      ],
+      "nota": "Subjuntivo de consequência: uma Argo «tal que leve»."
+    },
+    "argo": {
+      "lema": "Argo",
+      "classe": "substantivo próprio feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A nau Argo (navio mitológico)."
+      ],
+      "nota": "A nau dos Argonautas, comandados por Jasão, na busca do Velocino de Ouro."
+    },
+    "delectos": {
+      "lema": "deligo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino plural",
+      "def": [
+        "Escolher, selecionar.",
+        "Recrutar, alistar."
+      ],
+      "nota": "Concorda com «heroas»: heróis escolhidos a dedo, a elite que a Argo levará."
+    },
+    "erunt": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ser, existir."
+      ],
+      "nota": "Aqui, «haverá»."
+    },
+    "etiam": {
+      "lema": "etiam",
+      "classe": "advérbio",
+      "def": [
+        "Também, ainda; além disso."
+      ],
+      "nota": "No v. 35, «haverá ainda outras guerras»; nos vv. 58–59, «Pã também»."
+    },
+    "altera#2": {
+      "lema": "alter",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro plural",
+      "def": [
+        "O outro; o segundo."
+      ],
+      "nota": "Concorda com «bella»: outras guerras."
+    },
+    "bella": {
+      "lema": "bellum",
+      "classe": "substantivo neutro",
+      "forma": "nominativo plural",
+      "def": [
+        "Guerra."
+      ]
+    },
+    "atque": {
+      "lema": "atque",
+      "classe": "conjunção",
+      "def": [
+        "E, e também, e além disso."
+      ]
+    },
+    "iterum": {
+      "lema": "iterum",
+      "classe": "advérbio",
+      "def": [
+        "De novo, outra vez, mais uma vez."
+      ]
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "def": [
+        "Para, em direção a (com acusativo)."
+      ]
+    },
+    "troiam": {
+      "lema": "Troia",
+      "classe": "substantivo próprio feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Troia, antiga cidade do noroeste da Ásia Menor, na atual Turquia."
+      ],
+      "nota": "Palco da guerra de Troia: a nova era repete as velhas guerras."
+    },
+    "mittetur": {
+      "lema": "mitto",
+      "classe": "verbo",
+      "forma": "futuro do indicativo passivo, 3ª pessoa do singular",
+      "def": [
+        "Enviar, mandar."
+      ],
+      "nota": "«Será enviado a Troia»: outra guerra de Troia."
+    },
+    "achilles": {
+      "lema": "Achilles",
+      "classe": "substantivo próprio masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Aquiles (herói da mitologia grega)."
+      ],
+      "nota": "O maior guerreiro grego em Troia. Um novo Aquiles será enviado a uma nova guerra de Troia."
+    },
+    "hinc": {
+      "lema": "hinc",
+      "classe": "advérbio",
+      "def": [
+        "Daqui, a partir daqui.",
+        "Depois, em seguida."
+      ],
+      "nota": "Aqui, «depois disso»: quando o menino for adulto."
+    },
+    "ubi": {
+      "lema": "ubi",
+      "classe": "advérbio",
+      "def": [
+        "Onde, no lugar em que.",
+        "(De tempo) quando."
+      ],
+      "nota": "Aqui, de tempo: «quando»."
+    },
+    "firmata": {
+      "lema": "firmo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Tornar firme, fortalecer, endurecer."
+      ],
+      "nota": "Concorda com «aetas»: a idade já firmada, robusta."
+    },
+    "virum": {
+      "lema": "vir",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "Homem (adulto do sexo masculino)."
+      ],
+      "nota": "Predicativo de «te»: tiver feito de ti um homem."
+    },
+    "fecerit": {
+      "lema": "facio",
+      "classe": "verbo",
+      "forma": "futuro perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Fazer, construir, produzir.",
+        "Nomear, designar."
+      ],
+      "nota": "Futuro perfeito: quando a idade te tiver feito homem."
+    },
+    "cedet": {
+      "lema": "cedo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Retirar-se, afastar-se, partir.",
+        "Ceder, dar passagem (com dativo)."
+      ],
+      "nota": "Com o dativo «mari»: o navegante vai deixar o mar."
+    },
+    "mari": {
+      "lema": "mare",
+      "classe": "substantivo neutro",
+      "forma": "dativo singular",
+      "def": [
+        "Mar."
+      ]
+    },
+    "vector": {
+      "lema": "vector",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Portador, carregador.",
+        "Passageiro."
+      ],
+      "nota": "Quem viaja num navio: o navegante ou o passageiro."
+    },
+    "nautica": {
+      "lema": "nauticus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Náutico, naval."
+      ],
+      "nota": "Concorda com «pinus»."
+    },
+    "pinus": {
+      "lema": "pinus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Pinheiro.",
+        "Madeira de pinho, ou coisa feita dela."
+      ],
+      "nota": "Metonímia: o «pinheiro náutico» é o navio, feito de pinho."
+    },
+    "mutabit": {
+      "lema": "muto",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Mudar, alterar, transformar.",
+        "Trocar, permutar."
+      ],
+      "nota": "No v. 39, «trocar» mercadorias (comerciar); no v. 44, «mudar» a cor do velo."
+    },
+    "merces": {
+      "lema": "merx",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "Mercadoria, artigo de comércio.",
+        "Bens, produtos."
+      ],
+      "nota": "Objeto de «mutabit»: nenhum navio trocará mais mercadorias."
+    },
+    "omnis#2": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Todo, inteiro; cada (no singular)."
+      ],
+      "nota": "Concorda com «tellus»: toda terra."
+    },
+    "feret": {
+      "lema": "fero",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Levar, carregar, suportar.",
+        "Criar, produzir."
+      ],
+      "nota": "Aqui, «produzirá»: toda terra dará tudo."
+    },
+    "omnia": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "nominativo ou acusativo plural neutro",
+      "def": [
+        "Todo; (substantivado) todas as coisas, tudo."
+      ],
+      "nota": "No v. 39, objeto de «feret»; no v. 52, sujeito de «laetentur»."
+    },
+    "rastros": {
+      "lema": "rastrum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural, forma masculina",
+      "def": [
+        "Ancinho, enxada, sacho."
+      ],
+      "nota": "O plural aparece também no masculino («rastri») ao lado do neutro «rastra». É a ferramenta da lavoura, que ficará sem uso."
+    },
+    "patietur": {
+      "lema": "patior",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Suportar, tolerar.",
+        "Permitir, deixar."
+      ],
+      "nota": "Verbo depoente (forma passiva, sentido ativo). Também vale para «vinea … falcem»: a vinha não suportará a foice."
+    },
+    "humus": {
+      "lema": "humus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Chão, solo, terra."
+      ]
+    },
+    "vinea": {
+      "lema": "vinea",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Vinha, vinhedo.",
+        "Videira, parreira."
+      ]
+    },
+    "falcem": {
+      "lema": "falx",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Foice."
+      ],
+      "nota": "A foice de podar a vinha."
+    },
+    "robustus": {
+      "lema": "robustus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Duro, firme, sólido, robusto.",
+        "De carvalho."
+      ],
+      "nota": "Concorda com «arator»: o lavrador robusto. A palavra vem de «robur», carvalho."
+    },
+    "quoque": {
+      "lema": "quoque",
+      "classe": "advérbio",
+      "def": [
+        "Também, igualmente, além disso."
+      ],
+      "nota": "Posposto: «também o lavrador»."
+    },
+    "tauris": {
+      "lema": "taurus",
+      "classe": "substantivo masculino",
+      "forma": "dativo plural",
+      "def": [
+        "Touro, boi."
+      ],
+      "nota": "Dativo de separação: tirará dos touros os jugos."
+    },
+    "iuga": {
+      "lema": "iugum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Canga, jugo (de bois)."
+      ]
+    },
+    "solvet": {
+      "lema": "solvo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Soltar, desatar, libertar."
+      ]
+    },
+    "arator": {
+      "lema": "arator",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Lavrador, arador, agricultor."
+      ]
+    },
+    "varios": {
+      "lema": "varius",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Diverso, variado.",
+        "(De cores) matizado, variegado."
+      ],
+      "nota": "Concorda com «colores»: cores diversas, que a lã não precisará fingir."
+    },
+    "discet": {
+      "lema": "disco",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Aprender."
+      ]
+    },
+    "mentiri": {
+      "lema": "mentior",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Mentir, enganar.",
+        "Fingir, simular."
+      ],
+      "nota": "Verbo depoente. Aqui, «fingir»: a lã não aprenderá a imitar cores com tinturas, porque o próprio carneiro as terá."
+    },
+    "lana": {
+      "lema": "lana",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Lã."
+      ]
+    },
+    "colores": {
+      "lema": "color",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Cor, tom, matiz."
+      ]
+    },
+    "sed": {
+      "lema": "sed",
+      "classe": "conjunção",
+      "def": [
+        "Mas."
+      ],
+      "nota": "Posposto: «ipse sed … aries», mas o próprio carneiro."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Em, sobre (com ablativo).",
+        "Para dentro de, contra (com acusativo)."
+      ],
+      "nota": "Aqui, com o ablativo «pratis»: nos prados."
+    },
+    "pratis": {
+      "lema": "pratum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "Prado."
+      ]
+    },
+    "aries": {
+      "lema": "aries",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Carneiro, macho da ovelha."
+      ]
+    },
+    "suave": {
+      "lema": "suave",
+      "classe": "advérbio",
+      "def": [
+        "Docemente, agradavelmente, graciosamente."
+      ],
+      "nota": "Neutro de «suavis» usado como advérbio: avermelhando-se de modo agradável."
+    },
+    "rubenti": {
+      "lema": "rubeo",
+      "classe": "verbo",
+      "forma": "particípio presente, ablativo masculino singular",
+      "def": [
+        "Ser vermelho, rubro, corado."
+      ],
+      "nota": "Concorda com «murice»: a púrpura rubra."
+    },
+    "murice": {
+      "lema": "murex",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "Molusco de que se tirava a púrpura de Tiro (múrice).",
+        "A púrpura de Tiro, o corante púrpura extraído dele."
+      ],
+      "nota": "O corante mais caro da Antiguidade; aqui, a cor púrpura que o carneiro terá na lã sem ser tingido."
+    },
+    "croceo": {
+      "lema": "croceus",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "De açafrão.",
+        "Amarelo ou vermelho como o açafrão."
+      ],
+      "nota": "Concorda com «luto»: lã amarela como o açafrão."
+    },
+    "vellera": {
+      "lema": "vellus",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Velo, lã tosquiada da ovelha.",
+        "Pele, couro de animal."
+      ]
+    },
+    "luto": {
+      "lema": "lutum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Planta (Reseda luteola) usada para tingir de amarelo.",
+        "O corante amarelo extraído dessa planta."
+      ],
+      "nota": "Não é o «lodo» (outro sentido de «lutum»), mas a planta tintureira de que se tirava o amarelo."
+    },
+    "sponte": {
+      "lema": "sponte",
+      "classe": "advérbio",
+      "def": [
+        "Livremente, de boa vontade; espontaneamente."
+      ],
+      "nota": "«Sponte sua»: por sua própria vontade, sozinho, sem ajuda."
+    },
+    "sua": {
+      "lema": "suus",
+      "classe": "pronome possessivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Seu, dele, dela (reflexivo)."
+      ],
+      "nota": "Concorda com «sponte»: «sponte sua», por si mesmo."
+    },
+    "sandyx": {
+      "lema": "sandix",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Cor semelhante ao vermelhão.",
+        "Planta que dá essa cor."
+      ],
+      "nota": "«Sandyx» é grafia de «sandix». É o corante vermelho vivo que, nessa idade, tingirá por si a lã dos cordeiros."
+    },
+    "pascentis": {
+      "lema": "pasco",
+      "classe": "verbo",
+      "forma": "particípio presente, acusativo plural (em -is)",
+      "def": [
+        "Alimentar, nutrir; levar ao pasto.",
+        "(De animais) pastar."
+      ],
+      "nota": "Forma em -is por «pascentes». Concorda com «agnos»: os cordeiros que pastam."
+    },
+    "vestiet": {
+      "lema": "vestio",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Vestir, cobrir de roupas.",
+        "Adornar, enfeitar."
+      ],
+      "nota": "Aqui, a cor que reveste a lã dos cordeiros."
+    },
+    "agnos": {
+      "lema": "agnus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Cordeiro."
+      ]
+    },
+    "talia": {
+      "lema": "talis",
+      "classe": "adjetivo",
+      "forma": "acusativo plural neutro",
+      "def": [
+        "Tal, assim, semelhante."
+      ],
+      "nota": "Concorda com «saecla»: tais séculos, a era que acaba de ser descrita."
+    },
+    "saecla": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Geração, tempo de vida.",
+        "Era, época, século."
+      ],
+      "nota": "Forma contraída de «saecula», acusativo plural. É o objeto de «currite»."
+    },
+    "suis": {
+      "lema": "suus",
+      "classe": "pronome possessivo",
+      "forma": "dativo masculino plural",
+      "def": [
+        "Seu, dele, dela (reflexivo)."
+      ],
+      "nota": "Concorda com «fusis»: aos seus fusos."
+    },
+    "dixerunt": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Dizer, falar, declarar."
+      ],
+      "nota": "O sujeito é «Parcae» (v. 47): as Parcas disseram aos seus fusos «correi»."
+    },
+    "currite": {
+      "lema": "curro",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural",
+      "def": [
+        "Correr, apressar-se.",
+        "Mover-se, avançar."
+      ],
+      "nota": "Imperativo plural, dirigido aos fusos: «correi!». As Parcas mandam que a nova era chegue."
+    },
+    "fusis": {
+      "lema": "fusus",
+      "classe": "substantivo masculino",
+      "forma": "dativo plural",
+      "def": [
+        "Fuso (instrumento de fiar)."
+      ],
+      "nota": "Dativo de «dixerunt»: as Parcas falam aos fusos em que fiam o fio do destino."
+    },
+    "concordes": {
+      "lema": "concors",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino plural",
+      "def": [
+        "Concorde, de um só parecer, unânime."
+      ],
+      "nota": "Concorda com «Parcae»: as Parcas em acordo."
+    },
+    "stabili": {
+      "lema": "stabilis",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Firme, estável, constante.",
+        "Duradouro, imutável."
+      ],
+      "nota": "Concorda com «numine»: pela vontade firme do destino."
+    },
+    "fatorum": {
+      "lema": "fatum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo plural",
+      "def": [
+        "Destino, fado, sorte."
+      ]
+    },
+    "numine": {
+      "lema": "numen",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Vontade divina, poder divino.",
+        "Divindade."
+      ],
+      "nota": "Ablativo de meio: «pelo decreto firme dos fados»."
+    },
+    "parcae": {
+      "lema": "Parca",
+      "classe": "substantivo próprio feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "Uma das Parcas, as três deusas que controlam o destino."
+      ],
+      "nota": "As três deusas que fiam o destino de cada um e do mundo (as Moiras gregas)."
+    },
+    "adgredere": {
+      "lema": "aggredior",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Empreender, começar, assumir.",
+        "Avançar ao encontro de, aproximar-se de."
+      ],
+      "nota": "Grafia antiga de «aggredere». Verbo depoente (forma passiva, sentido ativo). Aqui: «assume!», toma sobre ti as grandes honras."
+    },
+    "o": {
+      "lema": "o",
+      "classe": "interjeição",
+      "def": [
+        "Ó! Oh! (expressa surpresa, dor ou alegria)."
+      ],
+      "nota": "Exclamação: no v. 48 anima o menino («ó, assume as grandes honras»); no v. 53 exprime desejo («oh, que me reste…»)."
+    },
+    "aderit": {
+      "lema": "adsum",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Estar presente, estar perto, chegar."
+      ],
+      "nota": "Parêntese: «aderit iam tempus», o momento já está perto."
+    },
+    "tempus": {
+      "lema": "tempus",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "Tempo, período.",
+        "Momento oportuno, ocasião."
+      ],
+      "nota": "O momento certo para o menino assumir as honras."
+    },
+    "honores": {
+      "lema": "honor",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "Honra, estima, dignidade, cargo."
+      ],
+      "nota": "Objeto de «adgredere», separado de «magnos» pelo parêntese «aderit iam tempus». Aqui, os cargos e as honras públicas."
+    },
+    "cara": {
+      "lema": "carus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Querido, caro."
+      ],
+      "nota": "Concorda com «suboles»: querida prole dos deuses."
+    },
+    "suboles": {
+      "lema": "suboles",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "Descendência, prole, rebento."
+      ],
+      "nota": "O menino é chamado «prole dos deuses»: filho de linhagem divina."
+    },
+    "magnum": {
+      "lema": "magnus",
+      "classe": "adjetivo",
+      "forma": "vocativo neutro singular",
+      "def": [
+        "Grande, de grande tamanho.",
+        "Grande, elevado, importante, nobre."
+      ],
+      "nota": "Concorda com «incrementum»."
+    },
+    "iovis": {
+      "lema": "Iuppiter",
+      "classe": "substantivo próprio masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "Júpiter, deus do céu e senhor do panteão romano."
+      ],
+      "nota": "Genitivo irregular de «Iuppiter»."
+    },
+    "incrementum": {
+      "lema": "incrementum",
+      "classe": "substantivo neutro",
+      "forma": "vocativo singular",
+      "def": [
+        "Crescimento, desenvolvimento, aumento."
+      ],
+      "nota": "O menino é o «acréscimo» de Júpiter: o rebento que faz crescer a linhagem do deus."
+    },
+    "aspice": {
+      "lema": "aspicio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Olhar para, contemplar, ver."
+      ],
+      "nota": "Imperativo: «olha!». Repetido nos vv. 50 e 52."
+    },
+    "convexo": {
+      "lema": "convexus",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Abobadado, arqueado, curvo."
+      ],
+      "nota": "Concorda com «pondere»: o peso abobadado do mundo, a sua massa curva."
+    },
+    "nutantem": {
+      "lema": "nuto",
+      "classe": "verbo",
+      "forma": "particípio presente, acusativo masculino singular",
+      "def": [
+        "Balançar, oscilar, cambalear."
+      ],
+      "nota": "Concorda com «mundum»: o mundo que se inclina com o seu peso, como num aceno de assentimento à nova era."
+    },
+    "pondere": {
+      "lema": "pondus",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Peso."
+      ]
+    },
+    "mundum": {
+      "lema": "mundus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "Universo, mundo, sobretudo o céu e os astros.",
+        "A humanidade, os habitantes da terra."
+      ]
+    },
+    "terrasque": {
+      "partes": [
+        {
+          "lema": "terra",
+          "classe": "substantivo feminino",
+          "forma": "acusativo plural",
+          "def": [
+            "Terra firme.",
+            "Terra, território, região."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Objeto de «aspice»: as terras, as extensões do mar e o céu profundo, isto é, o universo inteiro."
+    },
+    "tractusque": {
+      "partes": [
+        {
+          "lema": "tractus",
+          "classe": "substantivo masculino",
+          "forma": "acusativo plural",
+          "def": [
+            "Extensão de terra, região."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "«Tractus maris»: as extensões do mar."
+    },
+    "maris": {
+      "lema": "mare",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "Mar."
+      ]
+    },
+    "caelumque": {
+      "partes": [
+        {
+          "lema": "caelum",
+          "classe": "substantivo neutro",
+          "forma": "acusativo singular",
+          "def": [
+            "Céu, firmamento."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ]
+    },
+    "profundum": {
+      "lema": "profundus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Profundo, fundo.",
+        "Imenso, sem limites."
+      ],
+      "nota": "Concorda com «caelum»: o céu profundo, sem fim."
+    },
+    "venturo": {
+      "lema": "venturus",
+      "classe": "particípio",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Prestes a vir, que vai chegar."
+      ],
+      "nota": "Particípio futuro de «venio». Concorda com «saeclo»: a era que vem."
+    },
+    "laetentur": {
+      "lema": "laetor",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do plural",
+      "def": [
+        "Alegrar-se, regozijar-se."
+      ],
+      "nota": "Depoente. Subjuntivo depois de «ut», que abre a pergunta indireta de «aspice»: olha como tudo se alegra."
+    },
+    "ut": {
+      "lema": "ut",
+      "classe": "advérbio",
+      "def": [
+        "Como, de que modo."
+      ],
+      "nota": "Introduz a oração dependente de «aspice»: «vê como tudo se alegra»."
+    },
+    "saeclo": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Geração, tempo de vida.",
+        "Era, época, século."
+      ],
+      "nota": "Forma contraída de «saeculo». Ablativo de causa: alegram-se com a era vindoura."
+    },
+    "mihi": {
+      "lema": "ego",
+      "classe": "pronome pessoal",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Dativo: «que me reste»."
+    },
+    "tam": {
+      "lema": "tam",
+      "classe": "advérbio",
+      "def": [
+        "Tão, tanto, a tal ponto."
+      ]
+    },
+    "longae": {
+      "lema": "longus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Longo, extenso.",
+        "(De tempo) longo, duradouro."
+      ],
+      "nota": "Concorda com «vitae»: de uma vida tão longa."
+    },
+    "maneat": {
+      "lema": "maneo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Ficar, permanecer, restar."
+      ],
+      "nota": "Subjuntivo optativo: «que me reste…», o desejo do poeta."
+    },
+    "pars": {
+      "lema": "pars",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Parte, porção, pedaço."
+      ]
+    },
+    "vitae": {
+      "lema": "vita",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "Vida."
+      ]
+    },
+    "spiritus": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Sopro, respiração, fôlego.",
+        "Espírito."
+      ],
+      "nota": "O fôlego do poeta, a inspiração: que me reste fôlego bastante para cantar os teus feitos."
+    },
+    "quantum": {
+      "lema": "quantus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Quanto, tão grande quanto (relativo)."
+      ],
+      "nota": "«Quantum sat erit»: quanto bastar."
+    },
+    "sat": {
+      "lema": "satis",
+      "classe": "advérbio",
+      "def": [
+        "Bastante, suficientemente, o bastante."
+      ],
+      "nota": "Forma abreviada de «satis»."
+    },
+    "tua": {
+      "lema": "tuus",
+      "classe": "pronome possessivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Teu, de ti."
+      ],
+      "nota": "Concorda com «facta»."
+    },
+    "dicere": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Dizer, falar, declarar."
+      ],
+      "nota": "Aqui, dizer em canto, celebrar: «quantum sat erit … dicere facta»."
+    },
+    "me": {
+      "lema": "ego",
+      "classe": "pronome pessoal",
+      "forma": "acusativo singular",
+      "def": [
+        "Eu."
+      ]
+    },
+    "carminibus": {
+      "lema": "carmen",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "Canção, poema, canto."
+      ],
+      "nota": "Ablativo de meio: nem Orfeu me vencerá «em cantos»."
+    },
+    "vincet": {
+      "lema": "vinco",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Vencer, derrotar, conquistar."
+      ]
+    },
+    "thracius": {
+      "lema": "Thracius",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Trácio, da Trácia."
+      ],
+      "nota": "Concorda com «Orpheus»: Orfeu era trácio, da Trácia, região ao norte da Grécia.",
+      "wiki": null
+    },
+    "orpheus": {
+      "lema": "Orpheus",
+      "classe": "substantivo próprio masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Orfeu."
+      ],
+      "nota": "O cantor lendário da Trácia, cujo canto comovia animais e pedras; filho da Musa Calíope."
+    },
+    "linus": {
+      "lema": "Linus",
+      "classe": "substantivo próprio masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Nome próprio masculino, de origem grega."
+      ],
+      "nota": "Lino, músico e poeta lendário, aqui filho de Apolo (v. 57)."
+    },
+    "huic": {
+      "lema": "hic",
+      "classe": "pronome demonstrativo",
+      "forma": "dativo singular",
+      "def": [
+        "Este, esta, isto; ele, ela."
+      ],
+      "nota": "Dativo de interesse («a ele assista»). Os dois «huic» apontam cada um para um cantor, e o v. 57 os resolve: o primeiro é Orfeu (cuja mãe é Calíope), o segundo, Lino (cujo pai é Apolo)."
+    },
+    "mater": {
+      "lema": "mater",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Mãe."
+      ]
+    },
+    "quamvis": {
+      "lema": "quamvis",
+      "classe": "conjunção",
+      "def": [
+        "Embora, ainda que."
+      ],
+      "nota": "Com o subjuntivo «adsit»: ainda que a mãe lhe assista."
+    },
+    "pater": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Pai."
+      ]
+    },
+    "adsit": {
+      "lema": "adsum",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Estar presente, assistir, ajudar (com dativo)."
+      ],
+      "nota": "Subjuntivo depois de «quamvis»: ainda que lhe assista a mãe, ainda que lhe assista o pai."
+    },
+    "orphei": {
+      "lema": "Orpheus",
+      "classe": "substantivo próprio masculino",
+      "forma": "dativo singular, forma grega",
+      "def": [
+        "Orfeu."
+      ],
+      "nota": "Dativo grego em -ei: «a Orfeu [é mãe] Calíope»."
+    },
+    "calliopea": {
+      "lema": "Calliopea",
+      "classe": "substantivo próprio feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Calíope, a Musa da poesia épica ou da poesia em geral."
+      ],
+      "nota": "Mãe de Orfeu, segundo a lenda. O verso completa-se com «[é mãe]»: a Orfeu, Calíope."
+    },
+    "lino": {
+      "lema": "Linus",
+      "classe": "substantivo próprio masculino",
+      "forma": "dativo singular",
+      "def": [
+        "Nome próprio masculino, de origem grega."
+      ],
+      "nota": "Dativo de posse: «a Lino [é pai] o belo Apolo»."
+    },
+    "formosus": {
+      "lema": "formosus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Belo, formoso."
+      ],
+      "nota": "Concorda com «Apollo»."
+    },
+    "pan": {
+      "lema": "Pan",
+      "classe": "substantivo próprio masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Pã (deus grego)."
+      ],
+      "nota": "Deus pastoril da Arcádia, de patas de bode, inventor da flauta de pastor. Nos vv. 58–59 é rival do poeta."
+    },
+    "arcadia": {
+      "lema": "Arcadia",
+      "classe": "substantivo próprio feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Arcádia."
+      ],
+      "nota": "Região montanhosa do centro do Peloponeso, pátria de Pã e dos pastores. Ablativo absoluto «Arcadia iudice»: tendo a Arcádia por juiz. No v. 59 as duas palavras ficam separadas por «dicat se»."
+    },
+    "mecum": {
+      "lema": "mecum",
+      "classe": "advérbio",
+      "def": [
+        "Comigo."
+      ],
+      "nota": "Contração de «cum me»: na língua antiga, «cum» vem depois do pronome."
+    },
+    "iudice": {
+      "lema": "iudex",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "Juiz.",
+        "Árbitro, jurado."
+      ],
+      "nota": "Ablativo absoluto «Arcadia iudice»: a Arcádia sendo o juiz."
+    },
+    "certet": {
+      "lema": "certo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Competir, disputar, rivalizar."
+      ],
+      "nota": "Subjuntivo de hipótese: «se Pã competisse comigo»."
+    },
+    "dicat": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Dizer, falar, declarar."
+      ],
+      "nota": "Subjuntivo potencial: Pã «diria»."
+    },
+    "se": {
+      "lema": "sui",
+      "classe": "pronome reflexivo",
+      "forma": "acusativo",
+      "def": [
+        "Pronome reflexivo da 3ª pessoa: ele mesmo, ela mesma, eles mesmos."
+      ],
+      "nota": "Refere-se a Pã, sujeito de «dicat»."
+    },
+    "victum": {
+      "lema": "vinco",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino singular",
+      "def": [
+        "Vencer, derrotar, conquistar."
+      ],
+      "nota": "Concorda com «se»: Pã diria que ele próprio está vencido."
+    },
+    "incipe": {
+      "lema": "incipio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Começar, principiar."
+      ],
+      "nota": "Imperativo: «começa!». Repetido nos vv. 60 e 62."
+    },
+    "parve": {
+      "lema": "parvus",
+      "classe": "adjetivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Pequeno, miúdo."
+      ],
+      "nota": "Concorda com «puer»: menino pequeno."
+    },
+    "risu": {
+      "lema": "risus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "Riso, risada.",
+        "Sorriso."
+      ],
+      "nota": "Ablativo de meio: reconhecer a mãe «pelo sorriso»."
+    },
+    "matrem": {
+      "lema": "mater",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Mãe."
+      ]
+    },
+    "matri": {
+      "lema": "mater",
+      "classe": "substantivo feminino",
+      "forma": "dativo singular",
+      "def": [
+        "Mãe."
+      ],
+      "nota": "Dativo de interesse: «para a mãe»."
+    },
+    "longa": {
+      "lema": "longus",
+      "classe": "adjetivo",
+      "forma": "acusativo plural neutro",
+      "def": [
+        "Longo, extenso.",
+        "(De tempo) longo, duradouro."
+      ],
+      "nota": "Concorda com «fastidia»: longos enjoos."
+    },
+    "decem": {
+      "lema": "decem",
+      "classe": "numeral",
+      "def": [
+        "Dez."
+      ]
+    },
+    "tulerunt": {
+      "lema": "fero",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Levar, carregar.",
+        "Suportar, tolerar, aguentar."
+      ],
+      "nota": "Perfeito em -erunt, com o -e- breve, como os poetas às vezes fazem. Aqui, «suportaram»: dez meses de incômodo para a mãe."
+    },
+    "fastidia": {
+      "lema": "fastidium",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "Repugnância, nojo, desgosto.",
+        "Enjoo, melindre."
+      ],
+      "nota": "Os enjoos da gravidez."
+    },
+    "cui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "forma": "dativo masculino singular",
+      "def": [
+        "Quem, que, o qual (relativo)."
+      ],
+      "nota": "Dativo: «a quem». Refere-se ao menino."
+    },
+    "risere": {
+      "lema": "rideo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do plural, forma contraída",
+      "def": [
+        "Rir, sorrir."
+      ],
+      "nota": "Forma contraída de «riserunt». Com o dativo, «sorrir a alguém»: o menino a quem os pais não sorriram."
+    },
+    "parentes": {
+      "lema": "parens",
+      "classe": "substantivo masculino",
+      "forma": "nominativo plural",
+      "def": [
+        "Pai ou mãe; progenitor.",
+        "Fundador, antepassado."
+      ],
+      "nota": "No plural, «os pais»; sujeito de «risere»."
+    },
+    "deus": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Deus, divindade."
+      ],
+      "nota": "Sujeito de um «dignatus est» subentendido, tirado de «dea … dignata est»: nenhum deus o julgou digno da mesa."
+    },
+    "hunc": {
+      "lema": "hic",
+      "classe": "pronome demonstrativo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Este, esta, isto; ele, ela."
+      ],
+      "nota": "Refere-se ao menino que não recebeu o sorriso dos pais."
+    },
+    "mensa": {
+      "lema": "mensa",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Mesa.",
+        "Refeição, banquete."
+      ],
+      "nota": "Ablativo complemento de «dignatus» (subentendido): julgar digno «da mesa» dos deuses."
+    },
+    "dea": {
+      "lema": "dea",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Deusa."
+      ]
+    },
+    "dignata": {
+      "lema": "dignor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Julgar digno (com ablativo).",
+        "Dignar-se, achar digno de si (fazer algo)."
+      ],
+      "nota": "Depoente: «dignata est» tem sentido ativo. Com o ablativo «cubili»: a deusa não o julgou digno do leito."
+    },
+    "cubili": {
+      "lema": "cubile",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Cama, leito.",
+        "(Por extensão) leito conjugal."
+      ],
+      "nota": "O leito da deusa: o menino que não sorriu aos pais não é acolhido nem à mesa dos deuses nem no leito das deusas."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser, existir."
+      ],
+      "nota": "Auxiliar de «dignata est»: forma perfeita do depoente."
+    }
+  },
+  "ocorrencias": {
+    "37.8": "aetas#2",
+    "43.6": "iam#2",
+    "44.2": "iam#2",
+    "6.3": "et#2",
+    "16.3": "et#2",
+    "24.2": "et#2",
+    "38.2": "et#2",
+    "57.5": "apollo#2",
+    "37.6": "te#2",
+    "11.7": "consule#2",
+    "27.4": "quae#2",
+    "34.7": "quae#3",
+    "35.5": "altera#2",
+    "39.3": "omnis#2"
+  }
+}

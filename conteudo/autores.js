@@ -621,6 +621,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'oscar-wilde',
+  nome: 'Oscar Wilde',
+  nomeCompleto: 'Oscar Fingal O’Flahertie Wills Wilde',
+  vida: '1854–1900',
+  lingua: 'en',
+  nota: 'Escritor irlandês, autor de _O Retrato de Dorian Gray_, de comédias e de contos de fadas.'
+});
+
+BIBLIOTECA.autor({
   id: 'marcial',
   nome: 'Marcial',
   nomeCompleto: 'Marco Valério Marcial',

@@ -294,6 +294,16 @@
       ]
     },
     {
+      "pasta": "the-happy-prince", "autor": "oscar-wilde", "lingua": "en", "forma": "outras", "prosa": true, "genero": "Contos",
+      "titulo": "The Happy Prince", "ano": 1888,
+      "livro": { "titulo": "The Happy Prince and Other Tales", "ano": 1888 },
+      "fontes": [
+        { "nome": "The Happy Prince and Other Tales, 7ª tiragem (Londres, David Nutt, 1910), no Projeto Gutenberg (ebook 902)", "url": "https://www.gutenberg.org/ebooks/902", "nota": "o primeiro conto do livro, inteiro; palavras, grafia britânica e pontuação desta tiragem, conferida palavra por palavra com a 1ª edição; um trecho por linha (uma frase), linha em branco entre os parágrafos" },
+        { "nome": "The Happy Prince and Other Tales, 1ª edição (Londres, David Nutt, 1888), no Internet Archive", "url": "https://archive.org/details/happyprinceother02wild", "nota": "exemplar com dedicatória do autor (Brigham Young University); dela vêm «curtsies» (a de 1910 traz «curtseys») e «cannot choose but weep» (o texto do Gutenberg traz «chose»)" },
+        { "nome": "A House of Pomegranates; The Happy Prince and Other Tales (Londres, Methuen, 1908), no Internet Archive", "url": "https://archive.org/details/ahousepomegrana00wildgoog", "nota": "a edição das obras reunidas, organizada por Robert Ross: as mesmas palavras" }
+      ]
+    },
+    {
       "pasta": "coplas-por-la-muerte-de-su-padre", "autor": "jorge-manrique", "lingua": "es", "forma": "outras",
       "titulo": "Coplas por la muerte de su padre", "ano": 1476,
       "livro": null,

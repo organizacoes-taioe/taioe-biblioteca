@@ -108,6 +108,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-jeronimo',
+  area: 'catolicismo',
+  nome: 'São Jerônimo',
+  nomeCompleto: 'Eusébio Jerônimo de Estridão (Eusebius Hieronymus)',
+  vida: '~347–420',
+  ordem: 'Jerônimo, São',
+  nota: 'Presbítero, tradutor da Bíblia para o latim (a Vulgata) e doutor da Igreja; viveu como monge em Belém. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
   id: 'sao-gregorio-magno',
   area: 'catolicismo',
   nome: 'São Gregório Magno',

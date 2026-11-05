@@ -1,61 +1,47 @@
-# Macunaíma: convenções do texto (proposta, 2026-11-02; a confirmar com o Gere)
+# Macunaíma: convenções do texto (2026-11-05)
 
-Edição-base: a 1ª (São Paulo, 1928, edição do autor), fac-símile da Biblioteca Nacional
-(Internet Archive `or182096`; o mesmo exemplar do índice do Wikisource «Macunaíma (1928).pdf»).
-18 capítulos e o epílogo (ver FALTA.md, dúvida 1).
+Edição-base: a 1ª (São Paulo, 1928, edição do autor), fac-símile da Biblioteca Nacional (Internet
+Archive `or182096`; o mesmo exemplar do índice do Wikisource «Macunaíma (1928).pdf»). Inteira: 18
+capítulos e o epílogo, com «As três Normalistas» (cap. XI), que Mário cortou em 1937. As decisões que
+são do Gere estão em `revisao.json`, com a recomendação aplicada.
 
 ## O princípio
-A grafia de Mário é parte da obra: ele escrevia «à brasileira» de propósito (a «Gramatiquinha da
-Fala Brasileira» estava «em preparo», diz a lista «Do autor» do próprio livro). Modernizar só o que é
-**ortografia de época sem valor de estilo**, isto é, o que qualquer texto de 1928 grafava assim e que
-não muda a pronúncia nem a forma da palavra.
+A grafia de Mário é parte da obra (ele escrevia «à brasileira» de propósito). Moderniza-se só a
+ortografia de época sem valor de estilo, isto é, o que qualquer texto de 1928 grafava assim e que não
+marca a fala.
 
-## Fica como Mário escreveu (escolha do autor, marca da fala)
-- `si` (conjunção «se»: 84 vezes), `sinão`, `siquer`, `quasi` (pronúncia com i; forma que ele defendia).
-- `pra`, `prá`, `pro`, `pros`, `prás`, `pras` e as contrações `nagua`, `dêle`→ver abaixo, `duma`, `numa`.
-- Pronome átono no começo da frase («Me acocorei em riba destas folhas»), colocações e regências da fala.
-- `mãi`, `mamãi` (40 vezes; Mário pronunciava e grafava assim; não é «mãe» antiga), `milhor`,
-  `guspir`, `frexa` / `frexou` / `frexinhas`, `tribu`, `poude`, `enguliu`, `Ochum`, `Ochosse`,
-  `macacheira`, `cachirí`, `piché`, `sussuarana`, `massaroca`, `dansarina`?: formas que o texto
-  posterior (Wikisource nível 1) «corrigiu» e que são do impresso de 1928. **Dúvida**: parte delas
-  (ch/x, s/ç, ss/ç) pode ser só ortografia de época (antes de 1931 não havia norma), e não estilo.
-  Proposta prudente: manter todas as que mudam letra (x/ch, s/ç/ss, u/o, e/i), porque a grafia de
-  Mário é programática e não há como separar com segurança; modernizar só acento gráfico.
-- Palavras tupis e regionais com a grafia do livro (Uraricoera, cunhatã, curumim/culumi, paxiúba…).
+## Fica como Mário escreveu
+- `si`, `sinão`, `siquer`; `mãi`, `mamãi`, `mãis`; `milhor`, `guspir`, `enguliu`, `guela`, `frexa` e
+  `flexa` (as duas estão no impresso), `mostro`, `bolir`, `escapoliu`, `alumear`, `desembuxar`.
+- `pra`, `prá`, `pro`, `pros`, `prás`, `nagua`, `dagua`, `inda`, `riba`, `adonde`, `desinfeliz`, `té-logo`,
+  `Vam’bora`, `’tá’í`, `sinh’Helena`; a colocação dos pronomes e as regências da fala.
+- Compostos e aglutinações do livro (`arranhacéu`, `boca-da-noite`, `mãi-de-santo`, `pai-de-terreiro`,
+  `talqualmente`, `senvergonhice`, `simsinhô`), sem as regras de hífen de hoje.
+- Na «Carta pras Icamiabas» (pastiche lusitano): `dextro`, `assás`, `hemos`, `abstémio`, `Polónia`,
+  `nipónicos`, `colónia`, `imperescível`, `tesoiros`.
+- Palavras indígenas e africanas cuja grafia de 1928 ainda é variante registrada (`cachiri`, `curumi`,
+  `embiroçu` com ç mas a forma de Mário).
+- Pontuação do livro (sem vírgulas acrescentadas) e as falhas que podem ser intencionais («Vinham
+  médicos veio Assistência», `estorcegado de cócegas`, «Principiou» depois de «porta» sem ponto).
 
-## Modernizar (ortografia de época, sem valor de estilo)
-- Acento gráfico pela norma de hoje: `tambem` → também, `ninguem` → ninguém, `heroi` → herói,
-  `agua` → água, `porêm` → porém, `ha` → há, `familia` → família, `individuo` → indivíduo.
-  O acento não muda a palavra (Mário acentuava pouco e sem sistema; o ABBYY do IA ainda inventa
-  acentos, então o acento do OCR não conta).
-- Circunflexo diferencial que caiu: `êle` → ele, `fôrça` → força, `chôro` → choro, `dêle` → dele.
-- Letras dobradas e etimológicas, se houver (`theatro`, `paiz`): não apareceram até agora no texto
-  revisado; `paiz` (1 vez) → país.
-- `s` intervocálico de época com som de z (`gosados` → gozados)? **Dúvida** (é como «dansa»):
-  proposta, modernizar, porque não marca fala nenhuma.
-- Crase e maiúsculas: `Ás` (com agudo, uso de 1928) → Às.
-- Hífen e aglutinação: manter os do livro (`talqualmente`, `boca-da-noite`, `mato-virgem`), salvo
-  regra clara de hoje sem efeito de leitura.
+## Modernizado (`config.modernizar`, `decisoes.MANUAL` e `decisoes.FINAL`)
+- Acentos pela norma de hoje: heroi → herói, tambem → também, porêm/porem → porém, êle → ele,
+  fôrça → força, agua → água, cunhas → cunhãs, puito → puíto, individuo → indivíduo; oxítonas em
+  -i/-u sem o acento que a norma não pede (jejú → jeju, Exú → Exu, Gurupí → Gurupi; `_oxitona`),
+  mantido o do hiato (Pauí, tuiuiú); acento grave das derivadas (sabiàcica → sabiacica, pèsão →
+  pezão); `E’` → É, `A’s` → Às, `D’aí` → Daí.
+- Ortografia de época: quasi → quase, tribu → tribo, poude → pôde, geito → jeito, tezouro → tesouro,
+  gôso/gosar → gozo/gozar, dansa → dança, cincoenta → cinquenta, milreis → mil-réis, sciencia →
+  ciência, -isar → -izar, idea → ideia, sopetão → supetão, alvíçaras → alvíssaras.
+- Palavras indígenas e africanas cuja grafia de 1928 caiu: Ochum → Oxum, Ochosse → Oxóssi,
+  macacheira → macaxeira, girau → jirau, sussuarana → suçuarana, massaroca → maçaroca, pagé → pajé,
+  pegí → peji, guassú → guaçu (e os outros -assú/-ussú), assai → açaí, çairê → sairê, gêge → jeje.
+- Aspas “ ” → « ».
 
-## Feito em `config.modernizar` (2026-11-02)
-Só o acento: a palavra fora do léxico (o do sistema + o Wikisource da edição posterior, na grafia de
-hoje) com uma única forma igual sem acentos ganha a dela: heroi → herói (280), êle → ele, porêm →
-porém, tambem → também, agua → água, fôrça → força, ninguem → ninguém. Protegidas: prá, prás, porquê,
-mãi, mamãi. `á`/`ás` → à/às pelo MANUAL. Ficam: si, sinão, quasi, siquer, pra/pro/pros, mãi, milhor,
-guspiu, enguliu, poude, tribu, frexa, nagua, dagua, inda, riba, adonde, desinfeliz.
-
-**A decidir com o Gere** (letra trocada que parece só ortografia de época, sem marca de fala; hoje
-ficam como em 1928, no `sem_par.tsv`): geito (10) → jeito, tezouro(s)/tezoura (11) → tesouro/tesoura,
-gôso/gosar/gosados → gozo/gozar/gozados, dansa/dansando → dança/dançando, cincoenta → cinquenta,
-milreis → mil-réis, guela → goela?. (flexa, 4 vezes, ao lado de frexa: conferida no impresso, é de
-Mário; fica.) Recomendação: modernizar
-essas (não marcam a fala) e manter as da lista acima (marcam).
-
-## Itálico e pontuação
-Pontuação do livro, sem vírgulas acrescentadas (Mário corta vírgulas de propósito: «foi crescendo foi
-crescendo»). Aspas “ ” passam a « » como no resto da Biblioteca.
-
-## Vocabulário (`edicoes/vocabulario/macunaima.json`)
-Essencial nesta obra (tupi, termos afro-brasileiros, regionalismos), só com definição de fonte segura
-(Houaiss/Aulete digital, Cascudo, *Dicionário histórico das palavras portuguesas de origem tupi* de
-Antônio Geraldo da Cunha, o glossário de Cavalcanti Proença, *Roteiro de Macunaíma*). Ainda não feito.
+## Como o texto foi feito
+`python3 ferramentas/texto.py macunaima [--publicar]`. Base `b28`: Wikisource revisado nos caps. I,
+XII–XVIII e epílogo; OCR ABBYY do IA nos caps. de `DO_OCR` (I–XI). `t28`: Tesseract das 253 páginas.
+`ws`: o Wikisource inteiro (nos caps. II–XI é de edição posterior: só aponta dúvidas). `rever()` +
+`conferencia.json` (351 pontos conferidos nas imagens); `decisoes.CORRECOES` (por `corrigir()`) os erros
+de OCR achados depois, pela comparação com uma edição moderna (só para achar diferenças de palavra) e
+conferidos no fac-símile; `notas.ERROS_ANTERIORES` os 5 erros de 1928.

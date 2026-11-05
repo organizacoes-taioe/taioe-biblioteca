@@ -713,7 +713,7 @@ A mulatinha ali. Então Macunaíma deu um bruto dum tapa na peste e ficou com a 
 
 Caterina era uma boneca de cera de carnaúba posta ali pelo gigante. Ficou bem quieta. Macunaíma deu outro tapa com a mão livre e ficou mais preso.
 
-— Caterina, Caterina! me larga minhas mãos E — £ vai-te embora pixaim! sinão te dou um contapé!
+— Caterina, Caterina! me larga minhas mãos e vai-te embora pixaim! sinão te dou um contapé!
 
 Deu o pontapé e ficou mais preso ainda. Afinal o herói ficou inteirinho grudado na Caterina. Então chegou Piaimã com um cesto. Tirou a francesa da armadilha e berrou pro cesto:
 
@@ -763,7 +763,7 @@ Piaimã cego de raiva agarrou no sim-sinhô sem ver o que era e atirou sim-sinh�
 
 Chegou na pensão tomando a bênção de cachorro e chamando gato de tio, só vendo! suando esfolado com fogo nos olhos, botando os bofes pela boca. Descansou um pedaço e como estava arado de fome bateu uma fritada de sururu de Maceió, um pato seco de Marajó molhando a janta com mocororó. Descansou.
 
-Macunaíma estava muito contrariado. Venceslau Pietro Pietra era um colecionador célebre e ele não. Suava de inveja e afinal resolveu imitar o gigante. Porém não achava graça em colecionar pedras não porquê já tinha uma imundície delas na terra dele pelos espigões, nos manadeiros nas corredeiras e gupiaras elevadas. E todas essas pedras já tinham sido vespas formigas mosquitos carrapatos animais passarinhos gentes e cunhãs e cunhatās e até as graças das cunhãs e das cunhatās... Praquê mais pedra que é tão pesado pra carregar!... Estendeu os braços com moleza e murmurou:
+Macunaíma estava muito contrariado. Venceslau Pietro Pietra era um colecionador célebre e ele não. Suava de inveja e afinal resolveu imitar o gigante. Porém não achava graça em colecionar pedras não porquê já tinha uma imundície delas na terra dele pelos espigões, nos manadeiros nas corredeiras e gupiaras elevadas. E todas essas pedras já tinham sido vespas formigas mosquitos carrapatos animais passarinhos gentes e cunhãs e cunhatãs e até as graças das cunhãs e das cunhatãs... Praquê mais pedra que é tão pesado pra carregar!... Estendeu os braços com moleza e murmurou:
 
 — Ai! que preguiça!...
 
@@ -832,7 +832,7 @@ E o nome do diabo reboava com estrondo encurtando o tamanho da noite.
 
 — Vá-mo sa-rã-vá!...
 
-Era assim. Saudaram todos os santos da pajelança, o Boto Branco que dá os amores, Xangô, Omulu, Iroco, Oxóssi, a Boiúna Mãi feroz, Obatalá que dá força pra brincar muito, todos esses santos e o sairê se acabou. Tia Ciata sentou na tripeça num canto e toda aquela gente suando, médicos padeiros engenheiros rábulas polícias criadas focas assassinos Macunaíma, todos vieram botar as velas no chão rodeando a tripeça. As velas jogaram no teto a sombra da măi-de-santo imóvel. Já quase todos tinham tirado algumas roupas e o respiro ficara chiado por causa do cheiro de mistura budum coty pitium e o suor de todos. Então veio a vez de beber. E foi lá que Macunaíma provou pela primeira vez o cachiri temível cujo nome à cachaça. Provou estalando com a língua feliz e deu uma grande gargalhada.
+Era assim. Saudaram todos os santos da pajelança, o Boto Branco que dá os amores, Xangô, Omulu, Iroco, Oxóssi, a Boiúna Mãi feroz, Obatalá que dá força pra brincar muito, todos esses santos e o sairê se acabou. Tia Ciata sentou na tripeça num canto e toda aquela gente suando, médicos padeiros engenheiros rábulas polícias criadas focas assassinos Macunaíma, todos vieram botar as velas no chão rodeando a tripeça. As velas jogaram no teto a sombra da mãi-de-santo imóvel. Já quase todos tinham tirado algumas roupas e o respiro ficara chiado por causa do cheiro de mistura budum coty pitium e o suor de todos. Então veio a vez de beber. E foi lá que Macunaíma provou pela primeira vez o cachiri temível cujo nome à cachaça. Provou estalando com a língua feliz e deu uma grande gargalhada.
 
 Depois da bebida, entre bebidas, seguiram as rezas de invocação. Todos estavam inquietos ardentes desejando que um santo viesse na macumba daquela noite. Fazia já tempo que nenhum não vinha por mais que os outros pedissem. Porquê a macumba da tia Ciata não era que nem essas macumbas falsas não em que sempre o pai-de-terreiro fingia vir Xangô Oxóssi qualquer, pra contentar os macumbeiros. Era uma macumba séria e quando santo aparecia aparecia de deveras sem nenhuma falsidade. Tia Ciata não permitia dessas desmoralizações no zungu dela e fazia mais de doze meses que Ogum nem Exu não apareciam no Mangue. Todos desejavam que Ogum viesse. Macunaíma queria Exu só pra se vingar de Venceslau Pietro Pietra.
 
@@ -912,13 +912,13 @@ Lá no palácio da rua Maranhão em São Paulo tinha um corre-corre sem parada. 
 
 —... O pai nosso Exu de cada dia nos dai hoje, seja feita vossa vontade assim também no terreiro da sanzala que pertence pro nosso padre Exu, por todo o sempre que assim seja, amen! ..
 
-Glória prá pátria gêge de Exu!
+Glória prá pátria jeje de Exu!
 
 — Glória pro fio de Exu!
 
 Macunaíma agradeceu. A tia acabou:
 
-— Chico — — era um príncipe gêge que virou nosso padre Exu dos século seculoro pra sempre que assim seja, amen.
+— Chico — — era um príncipe jeje que virou nosso padre Exu dos século seculoro pra sempre que assim seja, amen.
 
 — Pra sempre que assim seja, amen!
 
@@ -961,7 +961,7 @@ Macunaíma tremia que mais tremia e o urubu sempre fazendo necessidade em riba d
 
 Vei tomou Macunaíma na jangada que tinha uma vela cor-de-ferrugem pintada com muruci e fez as três filhas limparem o herói, catarem os carrapatos e examinarem si as unhas dele estavam limpas. E Macunaíma ficou alinhado outra vez. Porém por causa dela estar velha vermelha e tão suando o herói não maliciava que a coroca era mesmo a Sol, a boa da Sol poncho dos pobres. Por isso pediu pra ela que chamasse Vei com seu calor porquê ele estava lavadinho bem mas tremendo de frio. Vei era a Sol mesmo e andava matinando fazer Macunaíma genro dela. Só que inda não podia aquentar ninguém não porquê era cedo por demais, não tinha força. Pra distrair a espera assobiou dum jeito e as três filhas dela fizeram muitos cafunés e cosquinhas no corpo todo do herói.
 
-Ele dava risadas chatas, se espremendo de cócegas e gostando muito. Quando elas paravam pedia mais estorcendo já de antegozo. Vei pôs reparo na senvergonhice do herói, teve raiva. Foi ficando sem vontade de tirar fogo do corpo e esquentar ninguém. Então as cunhatās agarraram na mãi, amarraram bem ela e Macunaíma dando muitos munhecaços na barriga da bruaca saiu que saiu um fogaréu por detrás e todos se aquentaram.
+Ele dava risadas chatas, se espremendo de cócegas e gostando muito. Quando elas paravam pedia mais estorcendo já de antegozo. Vei pôs reparo na senvergonhice do herói, teve raiva. Foi ficando sem vontade de tirar fogo do corpo e esquentar ninguém. Então as cunhatãs agarraram na mãi, amarraram bem ela e Macunaíma dando muitos munhecaços na barriga da bruaca saiu que saiu um fogaréu por detrás e todos se aquentaram.
 
 Principiou um calorão que tomou a jangada, se alastrou nas águas e doirou a face limpa do ar. Macunaíma deitado na jangada lagarteava numa quebreira azul. E o silêncio alargando tudo...
 
@@ -1137,7 +1137,7 @@ Recebei a bênção do vosso Imperador e mais saúde e fraternidade. Acatai com 
 Ci guarde a Vossas Excias.` },
     { n: "X", titulo: "Pauí-Pódole", texto: `Venceslau Pietro Pietra ficara muito doente com a sova e estava todo envolvido em rama de algodão. Passou meses na rede. Macunaíma não podia nem dar passo pra conseguir a muiraquitã agora guardada dentro do caramujo por debaixo do corpo do gigante. Imaginou botar formiga cupim no chinelo do outro porquê isso traz morte, dizem, Porém Piaimã tinha pé pra trás e não usava chinelo. Macunaíma estava muito contrariado com aquele chove-não-molha e passava o dia na rede mastigando beiju membeca entre codórios longos de restilo. Nesse tempo veio pedir pousada na pensão o índio Antônio santo famoso com a companheira dele, Mãi de Deus. Foi visitar Macunaíma, fez discurso e batizou o herói diante do deus que havia de vir e tinha forma nem bem de peixe nem bem de anta. Foi assim que Macunaíma entrou prá religião Caraimonhaga que estava fazendo furor no sertão da Baía.
 
-Macunaíma aproveitava a espera se aperfeiçoando nas duas línguas da terra, o brasileiro falado e o português escrito. Já sabia nome de tudo. [ Uma feita era dia da Flor, festa inventada pros brasileiros serem caridosos e tinha tantos mosquitos carapanās que Macunaíma largou do estudo e foi na cidade refrescar as ideias. Foi e viu um despropósito de coisas. Parava em cada vitrina e examinava dentro dela aquela porção de monstros, tantos que até parecia a serra do Ererê onde tudo se refugiou quando a enchente grande inundou o mundo. Macunaíma passeava passeava e encontrou uma cunhatã com uma urupema carregadinha de rosas. A mocica fez ele parar e botou uma flor na lapela dele, falando:
+Macunaíma aproveitava a espera se aperfeiçoando nas duas línguas da terra, o brasileiro falado e o português escrito. Já sabia nome de tudo. [ Uma feita era dia da Flor, festa inventada pros brasileiros serem caridosos e tinha tantos mosquitos carapanãs que Macunaíma largou do estudo e foi na cidade refrescar as ideias. Foi e viu um despropósito de coisas. Parava em cada vitrina e examinava dentro dela aquela porção de monstros, tantos que até parecia a serra do Ererê onde tudo se refugiou quando a enchente grande inundou o mundo. Macunaíma passeava passeava e encontrou uma cunhatã com uma urupema carregadinha de rosas. A mocica fez ele parar e botou uma flor na lapela dele, falando:
 
 — Custa mil-réis.
 
@@ -1145,7 +1145,7 @@ Macunaíma ficou muito contrariado porquê não sabia como era o nome daquele bu
 
 — A senhora me arrumou com um dia-de-judeu! Nunca mais me bote flor neste... neste puíto, dona!
 
-Macunaíma era desbocado duma vez. Falara uma bocagem muito porca, muito! A cunhatã não sabia que puíto era palavra-feia não e enquanto o herói voltava aluado com o caso prá pensão, ficou se rindo, achando graça na palavra. «Puíto...» que ela dizia. E repetia gosado: «Puíto... Puíto»... imaginou que era moda. Então se pôs falando pra toda a gente si queriam que ella botasse uma rosa no puíto deles. Uns quiseram outros não quiseram, as outras cunhatās escutaram a palavra, a empregaram e «puíto» pegou. Ninguém mais não falava em boutonnière por exemplo; só puíto, puíto que se escutava.
+Macunaíma era desbocado duma vez. Falara uma bocagem muito porca, muito! A cunhatã não sabia que puíto era palavra-feia não e enquanto o herói voltava aluado com o caso prá pensão, ficou se rindo, achando graça na palavra. «Puíto...» que ela dizia. E repetia gosado: «Puíto... Puíto»... imaginou que era moda. Então se pôs falando pra toda a gente si queriam que ella botasse uma rosa no puíto deles. Uns quiseram outros não quiseram, as outras cunhatãs escutaram a palavra, a empregaram e «puíto» pegou. Ninguém mais não falava em boutonnière por exemplo; só puíto, puíto que se escutava.
 
 Macunaíma ficou de azeite uma semana, sem comer sem brincar sem dormir só porquê desejava saber as línguas da terra. Lembrava de perguntar pros outros como era o nome daquele buraco mas tinha vergonha de irem pensar que ele era ignorante e moita. Afinal chegou o domingo pé-de-cachimbo que era dia do Cruzeiro, feriado novo inventado pros brasileiros descansarem mais. De manhã teve parada na Mooca, ao meio-dia missa campal no Coração de Jesus, às dezessete corso e batalha de confetes na avenida Rangel Pestana e de-noite, depois da passeata dos deputados e desocupados pela rua Quinze, iam queimar um fogo de-artifício no Ipiranga. Então pra espairecer Macunaíma foi no parque ver os fogos. Nem bem saiu da pensão topou com uma cunhã clara, filhinha-da-mandioca bem, toda de branco e o chapéu de tucumã vermelho coberto de margaridinhas. Foram juntos e chegaram lá. A parque estava uma boniteza. Tinha tantas máquinas repuxos misturadas com a máquina luz elétrica que a gente se encostava um no outro no escuro e as mãos se agarravam pra aguentar a admiração. Assim a dona fez e Macunaíma sussurrou docemente:
 
@@ -1153,7 +1153,7 @@ Macunaíma ficou de azeite uma semana, sem comer sem brincar sem dormir só porq
 
 Mas o caso é que «puíto» já entrara prás revistas estudando com muita ciência os idiomas escrito e falado e já estava mais que assente que pelas leis de catalepse elipse síncope metonímia metafonia metátese próclise prótese aférese apócope haplologia etimologia popular, todas essas leis, a palavra «botoeira» viera a dar em puíto, por meio dum palavra intermediária, a voZ latina «rabanitius» (botoeira — rabanitius — puíto) > sendo que rabanitius embora não encontrada nos documentos medievais afirmaram os doutos que na certa existira e fora corrente no sermo vulgaris.
 
-Nesse momento um mulato da maior mulataria trepou numa estátua e principiou um discurso entusiasmado explicando pra Macunaíma o que era o dia do Cruzeiro. No céu escampado da noite não tinha uma nuvem nem Capei. A gente enxergava os conhecidos, os pais-das-árvores os paisdas-aves os pais-das-caças e os parentes manos pais mãis tias cunhadas cunhãs cunhatās, todas essas estrelas piscapiscando bem felizes nesse país onde se ignora os males, adonde havia muita saúde e pouca saúva, o firmamento lá. Macunaíma escutava muito agradecido, concordando com a fala comprida que o discursador fazia pra ele. Só depois do homem apontar muito e descrever muito é que Macunaíma pôs reparo que o tal dê Cruzeiro era mas eram aquelas quatro estrelas que ele sabia muito bem serem o Pai do Mutum morando no campo do céu. Teve raiva da mentira do mulato e berrou:
+Nesse momento um mulato da maior mulataria trepou numa estátua e principiou um discurso entusiasmado explicando pra Macunaíma o que era o dia do Cruzeiro. No céu escampado da noite não tinha uma nuvem nem Capei. A gente enxergava os conhecidos, os pais-das-árvores os paisdas-aves os pais-das-caças e os parentes manos pais mãis tias cunhadas cunhãs cunhatãs, todas essas estrelas piscapiscando bem felizes nesse país onde se ignora os males, adonde havia muita saúde e pouca saúva, o firmamento lá. Macunaíma escutava muito agradecido, concordando com a fala comprida que o discursador fazia pra ele. Só depois do homem apontar muito e descrever muito é que Macunaíma pôs reparo que o tal dê Cruzeiro era mas eram aquelas quatro estrelas que ele sabia muito bem serem o Pai do Mutum morando no campo do céu. Teve raiva da mentira do mulato e berrou:
 
 — Não é não!
 
@@ -1370,7 +1370,7 @@ Macunaíma ficou muito despeitado e perguntou pro rival:
 
 E abriu o pala até a pensão.
 
-Mas estava muito contrariado por ter perdido a aposta. Pra disfarçar imaginou noutra coisa. Fazia tempo que pusera reparo num bando de cunhatās passeando todos os dias na praça da República. Perguntou e soube que aquilo eram normalistas. Dormiu sonhando com elas. No outro dia esperou com o olho esquerdo dormindo que os manos saíssem e levantou, sem reparar, com o pé esquerdo. Tomou banho perfumado com macaca-poranga» botou um chapéu fino de ubuçu e deu uma chegadinha no cabeleireiro pra pingar essência de pau-rosa no cabelo. Depois foi na praça da República muito bem disposto. Quando as cunhatās vieram saindo da máquina Escola Normal Macunaíma ficou muito atrapalhado não sabendo qual a mais bonita. Coração batia com saltinhos apaixonados e Macunaíma andava dum lado pra outro sussurrando suavemente: «Mani! Mani! filhinhas da mandioca!»... Afinal se resolveu por uma lindeza de normalistinha branca ver garça-real. Pegou nela e foi caminhando prá pensão. A cunhatã achou graça e rindo feito boba perguntou:
+Mas estava muito contrariado por ter perdido a aposta. Pra disfarçar imaginou noutra coisa. Fazia tempo que pusera reparo num bando de cunhatãs passeando todos os dias na praça da República. Perguntou e soube que aquilo eram normalistas. Dormiu sonhando com elas. No outro dia esperou com o olho esquerdo dormindo que os manos saíssem e levantou, sem reparar, com o pé esquerdo. Tomou banho perfumado com macaca-poranga» botou um chapéu fino de ubuçu e deu uma chegadinha no cabeleireiro pra pingar essência de pau-rosa no cabelo. Depois foi na praça da República muito bem disposto. Quando as cunhatãs vieram saindo da máquina Escola Normal Macunaíma ficou muito atrapalhado não sabendo qual a mais bonita. Coração batia com saltinhos apaixonados e Macunaíma andava dum lado pra outro sussurrando suavemente: «Mani! Mani! filhinhas da mandioca!»... Afinal se resolveu por uma lindeza de normalistinha branca ver garça-real. Pegou nela e foi caminhando prá pensão. A cunhatã achou graça e rindo feito boba perguntou:
 
 — Aonde você me leva?
 
@@ -1392,7 +1392,7 @@ O herói exclamou:
 
 Então a moça deu um tapa certo na cara dele. Ajuntou um despropósito de gente. Quando Macunaíma se viu naqueles assados se lembrou da Bolsa de Mercadorias. Largou da moça e partiu que partiu na disparada. Chegou na pensão muito contrariado. Os manos bem que perceberam porém Macunaíma não tugiu nem mugiu, deitou.
 
-No outro dia esperou com o olho esquerdo dormindo que os manos saíssem. Pulou da cama não reparando que punha primeiro o pé esquerdo no; chão. Tomou banho de cauré cheiroso, vestiu roupa chegada da lavadeira e perfumada com priprioca botou um chapéu brilhante de jupati e deu uma chegada no cabeleireiro pra encharcar o cabelo com essência de pau-rosa, bastante essência. Depois foi na praça da República muito bem disposto. Quando as cunhatās principiaram saindo Macunaíma tornou a se atrapalhar não sabendo escolher. O coração dele batia com paixão ardente e Macunaíma ia dum lado pra outro murmuriando suavíssimo: «Mani! Mani! filhinhas da mandioca!»... Afinal se resolveu por uma gracinha de cunhatã corada feito pena de guará. Pegou nela e foi caminhando prá pensão. A normalista ficou muito séria e perguntou:
+No outro dia esperou com o olho esquerdo dormindo que os manos saíssem. Pulou da cama não reparando que punha primeiro o pé esquerdo no; chão. Tomou banho de cauré cheiroso, vestiu roupa chegada da lavadeira e perfumada com priprioca botou um chapéu brilhante de jupati e deu uma chegada no cabeleireiro pra encharcar o cabelo com essência de pau-rosa, bastante essência. Depois foi na praça da República muito bem disposto. Quando as cunhatãs principiaram saindo Macunaíma tornou a se atrapalhar não sabendo escolher. O coração dele batia com paixão ardente e Macunaíma ia dum lado pra outro murmuriando suavíssimo: «Mani! Mani! filhinhas da mandioca!»... Afinal se resolveu por uma gracinha de cunhatã corada feito pena de guará. Pegou nela e foi caminhando prá pensão. A normalista ficou muito séria e perguntou:
 
 — Aonde que você me leva?
 
@@ -1442,7 +1442,7 @@ Xiribiribi xiribiribó,
 
 Zaz-traz nó-cego!
 
-E mastigou a passoquinha ruim. Então mais sossegado tomou banho de perfume francês com sabão inglês, botou um chapéu finíssimo de jijijapa, deu uma chegadona no cabeleireiro pra botar brilhantina italiana com loção alemã e passou na manicura pra polir as unhas bem. Inda passou um pouco de carajaru na cara pra ficar mais corado porquê estava desmerecido com a doença e então foi na praça da República muitíssimo satisfeito. As cunhatās já estavam lá e tudo se passou como das outras feitas. O herói gemegemia de amor olhando pra aquele desperdício de filhinhas da mandioca. Todo o corpo dele relumeava de paixão destemperada por causa do sabão, da brilhantina e das unhas polidas. Afinal escolheu uma gostosura de moça morena com olhos de tição ardendo, pegou nela e foi caminhando prá pensão. A normalista derramando muitas lágrimas perguntou:
+E mastigou a passoquinha ruim. Então mais sossegado tomou banho de perfume francês com sabão inglês, botou um chapéu finíssimo de jijijapa, deu uma chegadona no cabeleireiro pra botar brilhantina italiana com loção alemã e passou na manicura pra polir as unhas bem. Inda passou um pouco de carajaru na cara pra ficar mais corado porquê estava desmerecido com a doença e então foi na praça da República muitíssimo satisfeito. As cunhatãs já estavam lá e tudo se passou como das outras feitas. O herói gemegemia de amor olhando pra aquele desperdício de filhinhas da mandioca. Todo o corpo dele relumeava de paixão destemperada por causa do sabão, da brilhantina e das unhas polidas. Afinal escolheu uma gostosura de moça morena com olhos de tição ardendo, pegou nela e foi caminhando prá pensão. A normalista derramando muitas lágrimas perguntou:
 
 — Aonde que você me leva!
 
@@ -2573,7 +2573,7 @@ Então Macunaíma não achou mais graça nesta terra. Capei bem nova relumeava l
 
 — Qual o quê!... Quando urubu está de caipora o de baixo caga no de cima, este mundo não tem qeito mais e vou pro céu!
 
-Ia pro céu viver com a marvada. Ia ser o brilho bonito mas inútil porém de mais uma constelação. Não fazia mal que fosse brilho inútil não, pelo menos era o mesmo de todos esses parentes, de todos os pais dos vivos da sua terra, mais pais manos cunhãs cunhadas cunhatās, todos esses conhecidos que vivem agora do brilho inútil das estrelas.
+Ia pro céu viver com a marvada. Ia ser o brilho bonito mas inútil porém de mais uma constelação. Não fazia mal que fosse brilho inútil não, pelo menos era o mesmo de todos esses parentes, de todos os pais dos vivos da sua terra, mais pais manos cunhãs cunhadas cunhatãs, todos esses conhecidos que vivem agora do brilho inútil das estrelas.
 
 Plantou uma semente do cipó matamatá, filho-da-luna e enquanto o cipó crescia agarrou numa itá pontuda e escreveu na laje que já fora jaboti num tempo muito de dantes:
 

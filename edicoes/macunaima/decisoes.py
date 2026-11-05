@@ -86,6 +86,7 @@ CORRECOES = [
     ('erro', 'como Jiguê', 'são', 'não', 'conseguira'),
     ('erro', 'fez um', 'discursos', 'discurso', 'pros grilos'),
     ('ocr', 'moeda tradicional', ',', '.', 'Calculou com'),
+    ('ocr', 'minhas mãos', 'E - £', 'e', 'vai-te'),
     ('ocr', 'aqueles', 'hiatos', 'matos', 'sobre'),
     ('ocr', 'lagartixa que', 'Onda', 'anda', 'de'),
     ('ocr', 'catauaris de', 'beirado', 'beira-rio', 'o'),
@@ -204,6 +205,7 @@ FINAL = {
     'marques': 'marquês', 'conhecidissimo': 'conhecidíssimo', 'guiquem': 'guiquém', 'distraia': 'distraía',
     'vesper': 'vésper', 'contentissima': 'contentíssima', 'tangolomangolo': 'tangolomângolo', 'ruira': 'ruíra',
     'codorios': 'codórios', 'juquiai': 'juquiaí',
+    'carapanās': 'carapanãs', 'cunhatās': 'cunhatãs', 'măi-de-santo': 'mãi-de-santo', 'gêge': 'jeje',
     'alvíçaras': 'alvíssaras', 'a’s': 'às', 'd’aí': 'daí', "d'aí": 'daí', 'd’ai': 'daí', 'uirauassús': 'uirauaçus', 'cincoenta': 'cinquenta',
 }
 

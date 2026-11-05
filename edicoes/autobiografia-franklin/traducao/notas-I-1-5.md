@@ -71,3 +71,23 @@ disse eu», *farthing* → «vintém»). Franklin ao filho: tu.
 - Estalagens: *the Three Mariners*, *the Crooked Billet* ficam em inglês, como as ruas (Market Street…).
 - Bradford a Franklin e a Keimer: você; o jovem quacre: tu («se quiseres vir comigo, eu te mostro»).
 - *Miss Read* → «a srta. Read»; *my friends in Boston* (a família) → «os meus, em Boston».
+
+## I.4
+
+- *the public business* (a impressão oficial) → «os serviços do governo», «os serviços públicos dos dois
+  governos» (Pensilvânia e os condados do Delaware).
+- *stared like a pig poison'd* → «arregalou os olhos como um porco envenenado»; *Madeira* → «madeira» (o
+  vinho, minúscula); *sprung a leak* → «começou a fazer água»; *fortnight* → «uns quinze dias»; *my br.
+  Holmes* → «meu cunhado Holmes».
+- *raree-show* → «espetáculo de feira»; *piece of eight* → «peça de oito» (o peso espanhol; vocabulário);
+  *currency* (dinheiro da colônia) → «moeda da colônia»; *order* → «ordem por escrito».
+- *character* (abonação) → «referências»; *steady industry and a prudent parsimony* → «diligência constante
+  e uma economia prudente».
+- A quacre do navio: tu, sem marcar os erros de gramática dela (*thou has*, *thee art*), como manda o guia;
+  *strumpets* → «rameiras»; *this escape* → «este livramento».
+- *sotting with brandy* → «embriagar-se com aguardente»; *dramming* → «que ele bebia»; *counting-house* →
+  «escritório de comércio».
+- O barco no Delaware: Collins e Franklin, você; *says he / says I* → «disse ele / disse eu»; *under his
+  crutch* (= *crotch*) → «por entre as pernas»; *thwarts* → «bancos».
+- Keith a Franklin: você (de cima para baixo, guia § 2); *Annis* → «o Annis» (o navio).
+- *reasonable creature… find or make a reason* → «criatura racional… achar ou inventar uma razão» (o jogo passa).

@@ -1,0 +1,45 @@
+{
+ "id": "magisterio-ad-catholici-sacerdotii",
+ "rotulo": "Ad Catholici Sacerdotii (Pio XI, 1935)",
+ "url": "/biblioteca/igreja-catolica/ad-catholici-sacerdotii/",
+ "escolhas": [
+  {
+   "id": "marca-indelevel",
+   "titulo": "A _indelebilis forma_ que a ordenação imprime na alma fica «marca indelével»?",
+   "ref": "§ 22",
+   "contexto": "O papa diz que os poderes do sacerdote «nascem de uma marca indelével impressa na sua alma» e que ele «nunca poderá apagar da sua alma esta marca sacerdotal». É o que a teologia chama de «caráter» sacramental, mas o latim não usa _character_, e sim _forma_.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«marca indelével», «marca sacerdotal», como está",
+     "nota": "Fiel à palavra do papa e clara para quem não conhece o termo técnico.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«caráter indelével», «caráter sacerdotal»",
+     "nota": "O termo consagrado do catecismo; troca a palavra do latim pela da teologia."
+    }
+   ]
+  },
+  {
+   "id": "sorte-do-senhor",
+   "titulo": "_In sortem Domini vocati_ fica «chamados à sorte do Senhor»?",
+   "ref": "§ 49 e § 87",
+   "contexto": "O papa joga com a palavra «clérigo», que em grego quer dizer «sorte», «parte que cabe a alguém»: os padres foram «chamados à sorte do Senhor, como o indica o próprio nome de clérigos». No § 87 volta a expressão: quem «entrou na sorte do Senhor» sem ser chamado por Cristo.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«chamados à sorte do Senhor», como está",
+     "nota": "Guarda o jogo com «clérigos», que o próprio texto aponta.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«chamados a ser a porção do Senhor»",
+     "nota": "Mais claro à primeira leitura; perde o eco com «clérigos»."
+    }
+   ]
+  }
+ ]
+}

@@ -295,27 +295,89 @@ def modernas():
 # ------------------------------------------------------------------ grafia
 
 def modernizar(E, manual):
-    """A grafia das modernas (o texto do Wikisource primeiro, as Obras de 1949 onde ele falta), mas a
-    crase como em 1900: o livro a marca («á», «ás», «áquelle»), e o texto do Wikisource às vezes a põe
-    ou a tira por engano («uma boa fortuna à noite que passei»)."""
+    """A grafia do texto moderno do Wikisource; onde ele falta (o cap. I, revisto lá na grafia de 1900, e
+    lacunas), a das Obras de 1949 posta no Acordo pelo léxico (êle -> ele: grafia1990 de São Bernardo), mas
+    só quando a de 1949 é uma palavra inteira (o PDF de 1949 parte palavras: «Ta vares»); sem par, o
+    léxico. A crase fica como em 1900: o livro a marca («á», «ás», «áquelle»), e o texto do Wikisource às
+    vezes a põe ou a tira por engano («uma boa fortuna à noite que passei»)."""
     import pickle
     from edicao import modernizar as _mod
+    from edicao.grafia import forma_atual, igualar_caixa
+    sys.path.insert(0, os.path.join(AQUI, '..', 'sao-bernardo'))
+    import grafia1990
     _, md = pickle.load(open(fontes.cache(OBRA, 'fontes.pkl'), 'rb'))
-    out, origem, rel = _mod.modernizar(E, [(n, md[n], pos) for n, pos in REFERENCIAS], manual)
-    pos = {}
-    for j, o in enumerate(origem):
-        pos.setdefault(o, j)
-    novo_rel = []
-    for velho, novo, fonte, i in rel:
-        j = pos.get(i)
-        if j is not None and fonte != 'manual' and ' ' not in velho:
-            v, n = velho, out[j]
-            if v[:1] in 'áÁ' and n[:1] in 'aA' and chave(v) == chave(n):
-                out[j] = novo = ('À' if n[0] == 'A' else 'à') + n[1:]
-            elif v[:1] in 'aA' and n[:1] in 'àÀ':
-                out[j] = novo = ('A' if n[0] == 'À' else 'a') + n[1:]
-        novo_rel.append((velho, novo, fonte, i))
+    _, _, rel = _mod.modernizar(E, [(n, md[n], pos) for n, pos in REFERENCIAS], manual)
+    por_i = {r[3]: r for r in rel}
+    lex = grafia1990.lexico()
+    fora = estrangeiro(E, lex)
+    out, origem, novo_rel = [], [], []
+    i = 0
+    while i < len(E):
+        if i not in por_i:
+            out.append(E[i]); origem.append(i); i += 1
+            continue
+        velho, novo, fonte, _ = por_i[i]
+        n = len(velho.split(' '))
+        if fonte != 'manual' and any(fora[i:i + n]) and (
+                velho.lower() in FR_EN or novo.lower() not in lex or ' ' in novo):
+            novo, fonte = velho, 'estrangeiro'          # trecho em francês ou inglês: fica como em 1900
+        elif fonte not in ('manual', 'SEM_PAR') and (
+                (n > 1 and ' ' not in novo and '-' not in novo and novo.lower() not in lex)    # «dainfância»
+                or (re.search(r'[òìùè]', novo) and not re.search(r'[òìùè]', velho))):     # «profissòes»
+            fonte = 'SEM_PAR'
+        if re.fullmatch(r'[IVXLC]+', velho) and fonte != 'manual':      # números romanos: o léxico os estraga
+            novo, fonte = velho, 'romano'
+        if fonte == 'ob':
+            if n == 1 and ' ' not in novo:
+                novo = grafia1990.atual(novo, manual)[0]
+            else:
+                fonte = 'SEM_PAR'
+        if fonte == 'SEM_PAR':
+            if n > 1:                                   # o grupo fica palavra por palavra
+                for k in range(n):
+                    w = E[i + k]
+                    nw = grafia1990.atual(w, manual)[0] if w[:1].isalpha() else w
+                    out.append(nw); origem.append(i + k)
+                    if w[:1].isalpha():
+                        novo_rel.append((w, nw, 'lexico', i + k))
+                i += n
+                continue
+            n2, f2 = grafia1990.atual(velho, manual)
+            novo, fonte = n2, ('lexico:' + f2 if (f2 != 'SEM_PAR' or n2 != velho) else 'SEM_PAR')
+        toks = novo.split(' ')
+        if toks and toks[0]:
+            toks[0] = igualar_caixa(E[i], toks[0])
+        toks = [forma_atual(x) for x in toks]
+        v, w = velho, toks[0] if toks else ''
+        if fonte != 'manual' and n == 1 and w:
+            if v[:1] in 'áÁ' and w[:1] in 'aA' and chave(v) == chave(w):
+                toks[0] = ('À' if w[0] == 'A' else 'à') + w[1:]
+            elif v[:1] in 'aA' and w[:1] in 'àÀ':
+                toks[0] = ('A' if w[0] == 'À' else 'a') + w[1:]
+        out.extend(toks); origem.extend([i] * len(toks))
+        novo_rel.append((velho, ' '.join(toks), fonte, i))
+        i += n
     return out, origem, novo_rel
+
+
+FR_EN = set('le les des du un une et est qui pas vous nous je il elle ne sont dans pour par sur au aux ce cette '
+            'mon mes son ses avec plus tout tous être avoir ai suis notre votre leur faire fait comme mais '
+            'the of and is to that with it was be by not this are from which his have has an at you'.split())
+
+
+def estrangeiro(E, lex):
+    """Tokens de trechos em francês ou inglês: palavra fora do léxico português, ou palavra funcional
+    francesa ou inglesa, com ao menos três palavras funcionais dessas línguas a quatro tokens de distância."""
+    from edicao.tokens import e_palavra
+    fr = [t.lower().split('’')[-1].split("'")[-1] in FR_EN for t in E]
+    out = []
+    for i, t in enumerate(E):
+        if not e_palavra(t):
+            out.append(False); continue
+        perto = sum(fr[max(0, i - 4):i + 5])
+        tl = t.lower()
+        out.append(perto >= 3 and (fr[i] or (tl not in lex and t not in lex)))
+    return out
 
 
 # ------------------------------------------------------------------ publicação
@@ -339,6 +401,25 @@ def ler_notas(arq='notas-autor.txt'):
     return por_cap
 
 
+def _itinerario(ps):
+    """O quadro do «Caminho de ferro subterrâneo» (cap. XXI), em versaletes em 1900: o título numa linha,
+    as estações em caixa normal."""
+    out, k = [], 0
+    while k < len(ps):
+        x = ps[k]
+        if x == 'Caminho De Ferro Subterrâneo' and ps[k + 1:k + 3] == ['do', 'Alto S. Francisco Ao Ceará Livre']:
+            out.append('Caminho de ferro subterrâneo do Alto S. Francisco ao Ceará Livre')
+            k += 3
+            continue
+        if isinstance(x, str):
+            m = re.match(r'^(Estação Inicial|(?:Segunda|Terceira|Quarta|Quinta|Sexta|Sétima|Oitava|Nona) Estação)\.\.\. ', x)
+            if m:
+                x = m.group(1).capitalize() + x[len(m.group(1)):]
+        out.append(x)
+        k += 1
+    return out
+
+
 def arrumar(partes):
     """A dedicatória abre o prefácio; as linhas de asteriscos voltam ao seu lugar; cada nota do autor
     vai para o fim do seu capítulo (parágrafos «¤ »), com a chamada [1] depois da âncora."""
@@ -347,8 +428,8 @@ def arrumar(partes):
     usados = set()
 
     def abre(x, s):
-        a = [chave(w) for w in re.findall(r'[^\W_]+', x)[:len(s.split())]]
-        return a == [chave(w) for w in re.findall(r'[^\W_]+', s)]
+        a = [chave(w) for w in re.findall(r'[^\W_]+', x)[:3]]
+        return a == [chave(w) for w in re.findall(r'[^\W_]+', s)[:3]]
     saida = []
     for p in partes:
         novos = []
@@ -362,6 +443,7 @@ def arrumar(partes):
             novos.append(x)
         if p['titulo'] == PREFACIO:
             novos = [{'verso': [DEDICATORIA]}] + novos
+        novos = _itinerario(novos)
         if p['n'] in notas:
             ancora, corpo = notas[p['n']]
             if ancora != '-':
@@ -397,6 +479,11 @@ def _toks(s):
     return out
 
 
+def _colado(ts):
+    s = ''.join(t for t in ts if t not in ('¶',)).replace('œ', 'oe').replace('Œ', 'Oe').replace('æ', 'ae')
+    return re.sub(r'[\W_ºª°]', '', chave(s)) if s else ''
+
+
 def rever(tr, md, sitios):
     """Depois do voto: (1) onde só a pontuação difere, vale a do Gutenberg (os OCRs perdem vírgulas e
     pontos finos); (2) os pontos conferidos no fac-símile (conferencia.json: assinatura -> 'pg', 'ia',
@@ -417,8 +504,12 @@ def rever(tr, md, sitios):
             x['escolha'] = L[v] if v in L else _toks(v)
             x['por'] = 'conferido no fac-símile'
             usados.add(a)
-        elif len({tuple(pal(v)) for v in L.values()}) == 1 and x['escolha'] != L[BASE]:
-            x['escolha'], x['por'] = L[BASE], 'pontuação do pg'
+        elif BASE in L and x['escolha'] != L[BASE]:
+            # a transcrição do Gutenberg é humana e fiel a 1900 (conserva até os erros do livro: «ciaphana»,
+            # «instituções»); os OCRs só apontam os pontos a conferir. Nos que o fac-símile decidiu contra
+            # ela, a correção vai em decisoes.EMENDAS ('ocr'); onde 1900 tem erro que ela corrigiu sem
+            # avisar («das costumes»), em notas.ERROS_ANTERIORES.
+            x['escolha'], x['por'] = L[BASE], 'pg: ' + x.get('por', '')
         x['escolha_txt'] = junta(x['escolha'])
     sobra = set(conf) - usados
     if sobra:

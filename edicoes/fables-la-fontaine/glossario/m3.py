@@ -173,7 +173,7 @@ V('assez#3', 'assez', 'advérbio', '', 'Em quantidade suficiente: bastante, o ba
 V('suis#2', 'être', 'verbo', 'presente do indicativo, 1ª pessoa do singular', 'Estar: «y être», chegar lá, ter conseguido.', '«N’y suis-je point encore ?»: ainda não cheguei lá?')
 V('approchez', 'approcher', 'verbo', 'presente do indicativo, 2ª pessoa do plural', '«Approcher de», chegar perto de: «vous n’en approchez point», nem chegais perto.')
 V('chétive', 'chétif', 'adjetivo', 'feminino singular', 'Fraco, mirrado; (literário) miserável, de pouco valor.')
-V('pécore', 'pécore', 'substantivo feminino', '', '(Antigo) Animal, bicho; (figurado) pessoa tola e pretensiosa.', 'Do latim «pecus», gado: a palavra serve aos dois sentidos, o bicho e a tola convencida.')
+V('pécore', 'pécore', 'substantivo feminino', '', '(Antigo) Pequeno animal de rebanho, bichinho. || (Pejorativo) Mulher tola, pretensiosa.', 'Do latim «pecus», gado: a palavra serve aos dois sentidos, o bicho e a tola convencida.')
 V('enfla', 'enfler', 'verbo', 'pretérito perfeito (passé simple), 3ª pessoa do singular', '«S’enfler», encher-se de ar, inchar: inchou.')
 V('creva', 'crever', 'verbo', 'pretérito perfeito (passé simple), 3ª pessoa do singular', 'Arrebentar, estourar; (dito de animal) morrer.')
 V('plein', 'plein', 'adjetivo', 'masculino singular', 'Que contém tudo o que pode conter: cheio.')

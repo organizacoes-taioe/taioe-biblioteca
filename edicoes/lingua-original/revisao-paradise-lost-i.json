@@ -1,0 +1,18 @@
+{
+  "id": "paradise-lost-i",
+  "rotulo": "Paradise Lost, livro I (John Milton): tradução ao lado",
+  "url": "/biblioteca/john-milton/paradise-lost-i/",
+  "escolhas": [
+    {
+      "id": "traducao-ao-lado",
+      "titulo": "Fica ao lado a tradução em verso de Lima Leitão (1840)?",
+      "ref": "o livro I inteiro, no botão «Português»",
+      "contexto": "Há duas traduções em verso em domínio público: a de Lima Leitão (1840), o mesmo tradutor da Eneida e das Bucólicas que estão no site, e a de Targini, visconde de São Lourenço (Paris, 1823). A de Lima Leitão lê-se bem como poesia portuguesa, em decassílabos brancos, mas é livre e amplia muito (1.083 versos para os 798 de Milton; às vezes acrescenta imagens, e troca o filho de Anrão, Moisés, por «Arão»). A de Targini, pelo trecho comparado (o começo do livro VII), é mais presa ao original, mas dura e prosaica; e o volume com o livro I não está digitalizado (só o 2º, do livro VII em diante, no Internet Archive), o que pediria o livro físico. As traduções modernas são protegidas.",
+      "opcoes": [
+        {"id": "a", "texto": "Manter Lima Leitão, como está", "nota": "Boa leitura em português, ao lado; já é o tradutor aceito na Eneida e nas Bucólicas. Os versos não casam um a um com os de Milton: andam juntos por parágrafo.", "recomendada": true},
+        {"id": "b", "texto": "Trocar por Targini (1823)", "nota": "Mais fiel, porém mais dura. Só com um exemplar do volume 1 em imagem (biblioteca física ou pedido de digitalização)."},
+        {"id": "c", "texto": "Tirar a tradução: só o original com as notas", "nota": "Basta apagar o traducao.txt e o campo «traducao» da obra."}
+      ]
+    }
+  ]
+}

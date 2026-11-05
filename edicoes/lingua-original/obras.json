@@ -294,6 +294,18 @@
       ]
     },
     {
+      "pasta": "metamorfoses-i", "autor": "ovidio", "lingua": "la", "forma": "outras",
+      "titulo": "Liber I", "ano": null,
+      "subtitulo": "Mundi origo",
+      "livro": { "titulo": "Metamorphoses", "ano": null },
+      "traducao": {"tradutor": "António Feliciano de Castilho", "titulo": "As Metamorfoses, Livro I", "ano": 1841, "publicacao": "poeta português (1800–1875), publicada em As Metamorphoses de Publio Ovidio Nasão, tomo I (Lisboa, Imprensa Nacional, 1841), pp. 11–16, em decassílabos brancos; Castilho diz nas notas que aproveitou, com emendas, a tradução que Bocage fizera deste trecho", "fonte": {"nome": "As Metamorphoses de Publio Ovidio Nasão: poema em quinze livros, traduzido por António Feliciano de Castilho, tomo I (Lisboa, Imprensa Nacional, 1841), pp. 11–16, no Internet Archive", "url": "https://archive.org/details/asmetamorphsesd00ovidgoog/page/n63", "nota": "tradução de Castilho, conferida verso a verso nas imagens: 120 versos para os 88 do original, com os parágrafos do tradutor; ortografia atualizada («um», «é», «céu», «coisas», «noites», «arrepiados», «Fator», «destra», «úmido», «umedece»), com «inda», «grão» e «d'arrepiados» como no impresso, por causa do metro; sem as notas do tradutor"}},
+      "fontes": [
+        { "nome": "P. Ovidi Nasonis Metamorphoseon libri XV, ed. Hugo Magnus (Berlim, Weidmann, 1914), no Internet Archive", "url": "https://archive.org/details/metamorphoseonli00oviduoft/page/n42", "nota": "livro I, versos 1 a 88 (pp. 5–11): o proêmio, o caos, a criação do mundo e a do homem, até o fim da frase que fecha o trecho, antes das quatro idades («Aurea prima sata est aetas», v. 89); palavras e pontuação da edição crítica de Magnus (1851–1924), com maiúscula depois do ponto e os parágrafos que ela marca; o subtítulo, «Mundi origo», é o título que Magnus dá ao trecho; «fulgora» no v. 56 é lição dele («fulgura» na maioria das edições)" },
+        { "nome": "Die Metamorphosen des P. Ovidius Naso, ed. Hugo Magnus (Gotha, F. A. Perthes, 1892), no Perseus Digital Library", "url": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi0959.phi006.perseus-lat2:1.1-1.88/", "nota": "o texto digital de partida, conferido com o impresso de 1914: as mesmas palavras, salvo «utque aer, tellus illic et pontus et aether» no v. 15, «redegit» no v. 33 e «fulgura» no v. 56" },
+        { "nome": "Die Metamorphosen des P. Ovidius Naso, ed. Hugo Magnus, edição escolar, vol. I (Gotha, F. A. Perthes, 1885), no Internet Archive", "url": "https://archive.org/details/bub_gb_ECUlAAAAMAAJ", "nota": "a primeira edição de Magnus, para conferir: lê «frigora» (v. 56), «trionem» (v. 64), «pluvioque … austro» (v. 66), «animantibus» (v. 72), «fluvialibus» (v. 82) e «caelumque tueri» (v. 85), lições que ele trocou depois" }
+      ]
+    },
+    {
       "pasta": "the-happy-prince", "autor": "oscar-wilde", "lingua": "en", "forma": "outras", "prosa": true, "genero": "Contos",
       "titulo": "The Happy Prince", "ano": 1888,
       "livro": { "titulo": "The Happy Prince and Other Tales", "ano": 1888 },

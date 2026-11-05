@@ -723,3 +723,12 @@ BIBLIOTECA.autor({
   lingua: 'la',
   nota: 'Poeta latino de Venúsia, filho de um liberto; autor das Odes, das Sátiras e das Epístolas.'
 });
+
+BIBLIOTECA.autor({
+  id: 'ovidio',
+  nome: 'Ovídio',
+  nomeCompleto: 'Públio Ovídio Nasão',
+  vida: '43 a.C.–17/18 d.C.',
+  lingua: 'la',
+  nota: 'Poeta latino de Sulmona, autor das Metamorfoses, dos Fastos e das Heroides; morreu no exílio, em Tomis, no mar Negro.'
+});

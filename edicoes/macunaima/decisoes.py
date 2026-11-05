@@ -68,11 +68,15 @@ MANUAL = {
     'estréias': 'estrelas', 'amaginou': 'imaginou', 'zangai': 'zangar', 'respirada': 'respirava',
     'vetes': 'vezes', 'rufaram': 'rumaram', 'castigando': 'mastigando', 'tucümãs': 'tucumãs',
     'jiguê': 'jiguê', 'jiguè': 'jiguê',
+    'beijú': 'beiju', 'pajuarí': 'pajuari', 'carurús': 'carurus', 'macurú': 'macuru', 'javarí': 'javari', 'hindú': 'hindu',
     'tucuchí': 'tucuxi', 'jamachí': 'jamaxi', 'cachirí': 'cachiri', 'çairê': 'sairê',
 }
 
-# erros de OCR que o voto não pegou e erros de 1928, conferidos no fac-símile (tokens da grafia de hoje)
-AJUSTES = [
+AJUSTES = []
+
+# erros de OCR que o voto não pegou e erros de 1928, conferidos no fac-símile: (tipo, antes, de, para,
+# depois), em tokens do texto pronto («-» vale pelo travessão em que o hífen solto se torna); corrigir()
+CORRECOES = [
     ('ocr', 'punha os', 'lhos', 'olhos', 'em'),
     ('ocr', 'aromava', 's', 'os', 'cabelos'),
     ('ocr', 'Macunaíma', 'S (', 'se', 'aproximou'),
@@ -112,4 +116,70 @@ AJUSTES = [
     ('ocr', 'nossa', 'mãe', 'mãi', 'Vei não'),
     ('ocr', 'Veja , nossa', 'mãe', 'mãi', 'Vei'),
     ('ocr', '¶ —', 'Mãe', 'Mãi', ', quem'),
+    ('ocr', 'e as', '- Mulheres', 'mulheres', 'soltavam'),
+    ('ocr', 'não quis', 'por - quê', 'porquê', 'não'),
+    ('ocr', 'tronco de', 'co - Paíba', 'copaíba', 'e'),
+    ('ocr', 'não se', 'ave - Xe', 'avexe', 'não'),
+    ('ocr', 'bichinho muito', '- Pra', 'pra', 'longe'),
+    ('ocr', 'de tanta', 'como - Cão', 'comoção', 'e'),
+    ('ocr', 'Então', 'Cama-Pá - bimque', 'Cama-Pabimque', 'virou'),
+    # ponto final que o OCR leu como hífen
+    ('ocr', 'estava fechada', '-', '.', 'Maanape coçou'),
+    ('ocr', 'de assacu', '-', '.', 'Entrou na'),
+    ('ocr', 'de horror', '-', '.', 'Tia Ciata'),
+    ('ocr', 'mestre Cosme', '-', '.', 'Então voltou'),
+    ('ocr', 'a inesquecível', '-', '.', 'Chamou os'),
+    ('ocr', 'de mim', '-', '.', 'Esconde lá'),
+    ('ocr', 'pé esquerdo', '-', '.', 'Tomou banho'),
+    ('ocr', 'cara dele', '-', '.', 'Ajuntou um'),
+    ('ocr', 'sabendo escolher', '-', '.', 'O coração'),
+    # maiúscula que o OCR pôs no começo da linha, e pontos perdidos (conferidos com outra edição e no fac-símile)
+    ('ocr', 'rede', 'Jiguê', '. Jiguê', 'já'),
+    ('ocr', 'todos', 'Que', 'que', 'de'),
+    ('ocr', 'ele', 'Passear', 'passear', 'e'),
+    ('ocr', 'num', 'Príncipe', 'príncipe', 'fogoso'),
+    ('ocr', 'boto', 'Pra', 'pra', 'comerem'),
+    ('ocr', 'corria', 'Pelo', 'pelo', 'mato'),
+    ('ocr', 'o', 'Pescoço', 'pescoço', ','),
+    ('ocr', 'noite', 'Inteira', 'inteira', ','),
+    ('ocr', 'desesperado', 'Porquê', 'porquê', 'era'),
+    ('ocr', 'volvendo', 'Pros', 'pros', 'matos'),
+    ('ocr', 'numa', 'Maloca', 'maloca', 'mais'),
+    ('ocr', 'é', 'Mui', 'mui', 'alta'),
+    ('ocr', 'alta', 'Os', '. Os', 'dois'),
+    ('ocr', 'não', 'Secundar', 'secundar', 'cantiga'),
+    ('ocr', 'me', 'Pica', 'pica', 'não'),
+    ('ocr', 'ficou', 'Pesado', 'pesado', 'mas'),
+    ('ocr', 'bem', 'Perguntando', 'perguntando', 'si'),
+    ('ocr', 'carnaúba', 'Posta', 'posta', 'ali'),
+    ('ocr', 'mais', 'Preso', 'preso', '.'),
+    ('ocr', 'sem', 'Nenhuma', 'nenhuma', 'falsidade'),
+    ('ocr', 'enregelado', 'Mordido', 'mordido', 'e'),
+    ('ocr', 'calor', 'Porquê', 'porquê', 'ele'),
+    ('ocr', 'erguida', 'Pelo', 'pelo', 'andar'),
+    ('ocr', 'não', 'Podia', 'podia', 'nem'),
+    ('ocr', 'gigante', 'Imaginou', '. Imaginou', 'botar'),
+    ('ocr', 'rede', 'Mastigando', 'mastigando', 'beiju'),
+    ('ocr', 'perguntar', 'Pros', 'pros', 'outros'),
+    ('ocr', 'bem', 'Maanape', '. Maanape', 'e'),
+    ('ocr', 'tem', 'Pescoço', 'pescoço', ','),
+    ('ocr', 'número', 'Igual', 'igual', '.'),
+    ('ocr', 'madrugada', 'Veio', 'veio', 'a'),
+    ('ocr', 'na', 'Madrugada', 'madrugada', '.'),
+    ('ocr', 'um', 'Puro', 'puro', 'de'),
 ]
+
+
+def corrigir(out, flags):
+    """Aplica CORRECOES ao texto pronto (cada trecho tem de aparecer uma vez só)."""
+    for tipo, antes, de, para, depois in CORRECOES:
+        tr = lambda x: ['—' if t == '-' else t for t in x.split()]
+        a, d, p, z = tr(antes), tr(de), tr(para), tr(depois)
+        pad = a + d + z
+        achados = [i for i in range(len(out) - len(pad) + 1) if out[i:i + len(pad)] == pad]
+        if len(achados) != 1:
+            raise SystemExit(f'correção {antes!r} [{de}] {depois!r}: {len(achados)} ocorrências')
+        i = achados[0] + len(a)
+        out = out[:i] + p + out[i + len(d):]
+        flags = flags[:i] + [False] * len(p) + flags[i + len(d):]
+    return out, flags

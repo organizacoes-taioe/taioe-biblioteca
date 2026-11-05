@@ -1,0 +1,18 @@
+{
+  "id": "amor-de-perdicao",
+  "rotulo": "Amor de Perdição (Camilo Castelo Branco): edição-base",
+  "url": "/biblioteca/camilo-castelo-branco/amor-de-perdicao/",
+  "escolhas": [
+    {
+      "id": "edicao-base",
+      "titulo": "O texto segue a 1ª edição (1862), e não a 5ª (1879), a última revista por Camilo?",
+      "ref": "o romance inteiro",
+      "contexto": "Camilo reviu o romance na 2ª edição (1864) e na 5ª (1879), a que juntou um prefácio novo. A 1ª edição tem duas transcrições feitas sobre as imagens (Gutenberg e Wikisource), conferidas aqui com o fac-símile; a 5ª só existe em imagem, sem transcrição confiável. A frase célebre «Amou, perdeu-se e morreu amando» entrou no prefácio depois de 1862, e por isso não está no texto daqui.",
+      "opcoes": [
+        {"id": "a", "texto": "A 1ª edição (1862), como está", "nota": "Texto conferido em três leituras e nas imagens; a «Sobre» já explica a escolha. É o que se faz com Os Maias (1ª edição).", "recomendada": true},
+        {"id": "b", "texto": "Trocar pela 5ª edição (1879)", "nota": "É a última revista pelo autor, com o prefácio da 5ª. Pede um OCR novo das imagens e a conferência de novo, como em São Bernardo (um dia de trabalho, mais ou menos)."},
+        {"id": "c", "texto": "Manter 1862 e acrescentar o prefácio da 5ª em apêndice", "nota": "Pouco trabalho: só o prefácio, lido nas imagens de 1879, com a frase célebre."}
+      ]
+    }
+  ]
+}

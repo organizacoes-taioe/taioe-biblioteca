@@ -1,0 +1,590 @@
+{
+  "verbetes": {
+    "pied": {
+      "lema": "pied",
+      "classe": "adjetivo",
+      "def": [
+        "De duas ou mais cores, especialmente preto e branco."
+      ],
+      "nota": "Malhado, de duas ou mais cores em manchas, como o cavalo pampa ou a pega (a ave). O título anuncia o tema do poema: a beleza das coisas manchadas, variadas e mutáveis. O poema é um «soneto encurtado» (curtal sonnet), forma inventada por Hopkins, com dez versos e meio."
+    },
+    "beauty": {
+      "lema": "beauty",
+      "classe": "substantivo",
+      "def": [
+        "A qualidade de ser atraente, agradável, bonito (especialmente à vista); formosura."
+      ],
+      "nota": "No título, a beleza das coisas variegadas; no verso 10, a beleza de Deus, que não muda."
+    },
+    "glory": {
+      "lema": "glory",
+      "classe": "substantivo",
+      "def": [
+        "Adoração ou louvor."
+      ],
+      "nota": "«Glory be to God» ecoa o «Gloria Patri» («Glória ao Pai»), a doxologia que encerra os salmos na liturgia."
+    },
+    "be": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "subjuntivo (presente)",
+      "def": [
+        "Existir; haver."
+      ],
+      "nota": "«Glory be» é um subjuntivo de desejo, fórmula de louvor: «seja a glória…», «glória a…»."
+    },
+    "to": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Usada para indicar o destinatário ou a pessoa a quem algo se dirige."
+      ],
+      "nota": "«Glory be to God» é «glória a Deus»."
+    },
+    "god": {
+      "lema": "God",
+      "classe": "substantivo próprio",
+      "def": [
+        "O ser supremo, criador do universo, nas religiões monoteístas."
+      ]
+    },
+    "for": {
+      "lema": "for",
+      "classe": "preposição",
+      "def": [
+        "Por causa de; em razão de."
+      ],
+      "nota": "Nos versos 1 a 6, a mesma preposição se repete («For skies…, For rose-moles…»): cada «for» dá um motivo do louvor, «por causa de…»."
+    },
+    "dappled": {
+      "lema": "dappled",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem pele ou pelo malhado ou manchado; salpicado."
+      ],
+      "nota": "Salpicado de manchas, de claros e escuros. É a palavra que dá o motivo do louvor, e o poema inteiro a explica."
+    },
+    "things": {
+      "lema": "thing",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Qualquer coisa que exista ou possa ser pensada."
+      ]
+    },
+    "skies": {
+      "lema": "sky",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "A atmosfera acima de um ponto qualquer, especialmente como se vê da superfície da Terra."
+      ]
+    },
+    "of": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Usada para indicar o que algo contém ou de que é feito; de."
+      ]
+    },
+    "couple-colour": {
+      "partes": [
+        {
+          "lema": "couple",
+          "classe": "adjetivo",
+          "def": [
+            "Dois, ou um pequeno número de."
+          ]
+        },
+        {
+          "lema": "colour",
+          "classe": "substantivo",
+          "def": [
+            "Cor (grafia britânica de «color»)."
+          ]
+        }
+      ],
+      "nota": "Composto de Hopkins: «de duas cores». Céus de duas cores, como o azul com as nuvens brancas, ou o céu raiado ao entardecer."
+    },
+    "as": {
+      "lema": "as",
+      "classe": "conjunção",
+      "def": [
+        "Do mesmo modo que; no mesmo grau em que; como."
+      ],
+      "nota": "Aqui compara a cor do céu com a pelagem da vaca: «como a de uma vaca rajada»."
+    },
+    "a": {
+      "lema": "a",
+      "classe": "artigo indefinido",
+      "def": [
+        "Um exemplar não específico de (algo); o artigo indefinido."
+      ]
+    },
+    "brinded": {
+      "lema": "brinded",
+      "classe": "adjetivo",
+      "def": [
+        "Dito especialmente do pelo ou da pele de animais: que tem um padrão manchado ou listrado, em geral pardo ou cinzento; rajado."
+      ],
+      "nota": "Forma antiga e dialetal de «brindled»: rajado, com listras escuras sobre fundo pardo, como o pelo de certas vacas e gatos."
+    },
+    "cow": {
+      "lema": "cow",
+      "classe": "substantivo",
+      "def": [
+        "Fêmea adulta da espécie Bos taurus, especialmente a que já pariu."
+      ]
+    },
+    "rose-moles": {
+      "partes": [
+        {
+          "lema": "rose",
+          "classe": "substantivo",
+          "def": [
+            "Cor púrpura-avermelhada ou rosada."
+          ]
+        },
+        {
+          "lema": "mole",
+          "classe": "substantivo",
+          "forma": "plural",
+          "def": [
+            "Nevo: mancha da pele, pigmentada, ligeiramente saliente e às vezes peluda."
+          ]
+        }
+      ],
+      "nota": "Composto de Hopkins: pintas cor-de-rosa (mole = pinta, sinal na pele), as manchas avermelhadas no corpo da truta."
+    },
+    "all": {
+      "lema": "all",
+      "classe": "advérbio",
+      "def": [
+        "Completamente; inteiramente."
+      ],
+      "nota": "No verso 3, «all in stipple» é «todas em pontilhado», isto é, cobertas de pontinhos."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Indica o estado, a forma ou a maneira em que algo se apresenta; em."
+      ]
+    },
+    "stipple": {
+      "lema": "stipple",
+      "classe": "substantivo",
+      "def": [
+        "O uso de pequenos pontos que dão a aparência de sombreado; os pontos assim usados."
+      ],
+      "nota": "Pontilhado: técnica de desenho ou gravura feita de pontinhos. Hopkins vê as pintas da truta como um pontilhado."
+    },
+    "upon": {
+      "lema": "upon",
+      "classe": "preposição",
+      "def": [
+        "Em cima de; sobre."
+      ]
+    },
+    "trout": {
+      "lema": "trout",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Qualquer de várias espécies de peixes da família Salmonidae, aparentados do salmão e que desovam mais de uma vez."
+      ],
+      "nota": "O plural de «trout» é igual ao singular: «trout that swim» são «trutas que nadam»."
+    },
+    "that": {
+      "lema": "that",
+      "classe": "pronome relativo",
+      "def": [
+        "Usado para introduzir uma oração restritiva; que."
+      ]
+    },
+    "swim": {
+      "lema": "swim",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Mover-se pela água, sem tocar o fundo; propelir-se na água por meios naturais."
+      ]
+    },
+    "fresh-firecoal": {
+      "partes": [
+        {
+          "lema": "fresh",
+          "classe": "adjetivo",
+          "def": [
+            "Recém-produzido ou obtido; recente."
+          ]
+        },
+        {
+          "lema": "firecoal",
+          "classe": "substantivo",
+          "def": [
+            "Um carvão em brasa; brasa."
+          ]
+        }
+      ],
+      "nota": "Composto de Hopkins: brasa acesa de novo, recém-saída do fogo. Qualifica as castanhas caídas, cuja casca aberta mostra o miolo luzidio, cor de brasa."
+    },
+    "chestnut-falls": {
+      "partes": [
+        {
+          "lema": "chestnut",
+          "classe": "substantivo",
+          "def": [
+            "Noz comestível (tecnicamente um fruto) da castanheira; castanha."
+          ]
+        },
+        {
+          "lema": "fall",
+          "classe": "substantivo",
+          "forma": "plural",
+          "def": [
+            "Aquilo que cai ou desce em cascata."
+          ]
+        }
+      ],
+      "nota": "Composto de Hopkins: as castanhas caídas da árvore, que, abertas, brilham como brasas. Em «fall», o verbo («cair») dá o substantivo: o que caiu."
+    },
+    "finches": {
+      "lema": "finch",
+      "classe": "substantivo",
+      "forma": "plural (e possessivo)",
+      "def": [
+        "Qualquer ave da família Fringillidae, pássaros que comem sementes, nativos sobretudo do Hemisfério Norte e em geral de bico cônico."
+      ],
+      "nota": "Tentilhões. A forma «finches’» (possessivo plural) indica que as asas são dos tentilhões."
+    },
+    "wings": {
+      "lema": "wing",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Apêndice do corpo de um animal (ave, morcego, inseto) que lhe permite voar."
+      ]
+    },
+    "landscape": {
+      "lema": "landscape",
+      "classe": "substantivo",
+      "def": [
+        "Porção de terra ou de território definida por suas formas de relevo e por suas características geográficas (e arquitetônicas)."
+      ]
+    },
+    "plotted": {
+      "lema": "plot",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Dividir (um terreno) em lotes ou talhões."
+      ],
+      "nota": "A paisagem aparece traçada como num mapa e dividida em lotes («plot» é também o lote, o talhão de terra). Com «pieced», descreve os campos ingleses, repartidos como uma colcha de retalhos."
+    },
+    "and": {
+      "lema": "and",
+      "classe": "conjunção",
+      "def": [
+        "Usada para ligar palavras, orações ou elementos de uma enumeração; e."
+      ]
+    },
+    "pieced": {
+      "lema": "pieced",
+      "classe": "adjetivo",
+      "def": [
+        "Montado ou construído pela junção de pedaços separados."
+      ],
+      "nota": "Remendada, feita de retalhos juntados. Com «plotted», evoca os campos divididos em lotes de cores diferentes."
+    },
+    "fold": {
+      "lema": "fold",
+      "classe": "substantivo",
+      "def": [
+        "Cercado ou curral para ovelhas ou outros animais domésticos."
+      ],
+      "nota": "O curral ou pasto cercado das ovelhas. É um dos três elementos da paisagem repartida: o pasto, a terra em pousio e a terra arada."
+    },
+    "fallow": {
+      "lema": "fallow",
+      "classe": "substantivo",
+      "def": [
+        "Terra lavrada e gradeada, mas deixada sem semear por um ano."
+      ],
+      "nota": "A terra em pousio, deixada sem plantar por um tempo. No verso, é um substantivo (a terra em pousio), entre o curral e a terra arada."
+    },
+    "plough": {
+      "lema": "plough",
+      "classe": "substantivo",
+      "def": [
+        "Instrumento puxado pelo solo para abri-lo em sulcos para o plantio; arado."
+      ],
+      "nota": "Por metonímia, a terra arada, o campo lavrado."
+    },
+    "áll": {
+      "lema": "all",
+      "classe": "adjetivo",
+      "def": [
+        "Todo; a totalidade de."
+      ],
+      "nota": "Os acentos em «áll trádes» são de Hopkins e marcam a força das sílabas na leitura: dão ênfase ao «todos»."
+    },
+    "trádes": {
+      "lema": "trade",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "A prática especializada de uma ocupação prática; ofício."
+      ],
+      "nota": "Os ofícios, as profissões manuais. O acento é de Hopkins, para marcar a sílaba forte."
+    },
+    "their": {
+      "lema": "their",
+      "classe": "determinante",
+      "def": [
+        "Que pertence ou se refere a eles ou a elas (plural); deles, delas."
+      ],
+      "nota": "Refere-se aos ofícios: o equipamento próprio de cada um."
+    },
+    "gear": {
+      "lema": "gear",
+      "classe": "substantivo",
+      "def": [
+        "Equipamento ou apetrechos, especialmente os usados em uma atividade esportiva."
+      ],
+      "nota": "Equipamento, apetrechos de trabalho, aquilo de que cada ofício precisa."
+    },
+    "tackle": {
+      "lema": "tackle",
+      "classe": "substantivo",
+      "def": [
+        "Equipamento (vara, carretel, linha, isca etc.) usado na pesca com anzol."
+      ],
+      "nota": "Aparelho, apetrechos. A palavra vale também para o aparelho de pesca e para o cordame dos navios, apetrechos de outros ofícios."
+    },
+    "trim": {
+      "lema": "trim",
+      "classe": "substantivo",
+      "def": [
+        "O modo como algo é equipado ou adornado; ordem; disposição."
+      ],
+      "nota": "O arranjo, o aprumo, o equipamento em ordem: cada ofício com os seus apetrechos no devido lugar."
+    },
+    "counter": {
+      "lema": "counter",
+      "classe": "adjetivo",
+      "def": [
+        "Contrário ou oposto."
+      ],
+      "nota": "Contrário, oposto, do contra: as coisas que contrariam o esperado, ao lado das outras."
+    },
+    "original": {
+      "lema": "original",
+      "classe": "adjetivo",
+      "def": [
+        "Relativo à origem ou ao começo; anterior a todos os outros."
+      ],
+      "nota": "Único, que é a sua própria origem; sem cópia nem modelo anterior."
+    },
+    "spare": {
+      "lema": "spare",
+      "classe": "adjetivo",
+      "def": [
+        "Pouco abundante."
+      ],
+      "nota": "Raro, escasso, e também magro, sem excesso: o sentido de «sparse» e de «lean»."
+    },
+    "strange": {
+      "lema": "strange",
+      "classe": "adjetivo",
+      "def": [
+        "Fora do normal; esquisito, incomum, surpreendente."
+      ]
+    },
+    "whatever": {
+      "lema": "whatever",
+      "classe": "pronome",
+      "def": [
+        "Tudo o que; qualquer coisa que."
+      ],
+      "nota": "Aqui é o pronome relativo («tudo o que é…»): o sujeito de «is fickle, freckled»."
+    },
+    "is": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser, estar: liga o sujeito ao seu predicativo (uma qualidade ou um estado)."
+      ]
+    },
+    "fickle": {
+      "lema": "fickle",
+      "classe": "adjetivo",
+      "def": [
+        "Rápido para mudar de opinião ou de lealdade; pouco leal ou confiável. (Figurado) Mutável."
+      ],
+      "nota": "Inconstante, volúvel, que muda: tudo o que é movediço neste mundo."
+    },
+    "freckled": {
+      "lema": "freckled",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem sardas; coberto de sardas."
+      ],
+      "nota": "Sardento, salpicado de pintas; outra imagem das coisas manchadas."
+    },
+    "who": {
+      "lema": "who",
+      "classe": "pronome",
+      "def": [
+        "Usado para perguntar qual pessoa; quem."
+      ],
+      "nota": "Na pergunta entre parênteses, «who knows how?» quer dizer «quem sabe como?»: a pergunta do poeta sobre o mistério da variedade das coisas."
+    },
+    "knows": {
+      "lema": "know",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter conhecimento de; saber."
+      ]
+    },
+    "how": {
+      "lema": "how",
+      "classe": "advérbio",
+      "def": [
+        "De que maneira; como."
+      ]
+    },
+    "with": {
+      "lema": "with",
+      "classe": "preposição",
+      "def": [
+        "Indica o que acompanha, tem ou apresenta; com."
+      ],
+      "nota": "Nesta enumeração, «with» introduz os pares contrários: «com rápido e lento, doce e azedo…»."
+    },
+    "swift": {
+      "lema": "swift",
+      "classe": "adjetivo",
+      "def": [
+        "Rápido; veloz."
+      ]
+    },
+    "slow": {
+      "lema": "slow",
+      "classe": "adjetivo",
+      "def": [
+        "Que leva muito tempo para se mover ou ir a curta distância; que não é rápido."
+      ]
+    },
+    "sweet": {
+      "lema": "sweet",
+      "classe": "adjetivo",
+      "def": [
+        "Com gosto de açúcar; doce."
+      ]
+    },
+    "sour": {
+      "lema": "sour",
+      "classe": "adjetivo",
+      "def": [
+        "Com sabor de acidez; azedo."
+      ]
+    },
+    "adazzle": {
+      "lema": "adazzle",
+      "classe": "adjetivo",
+      "def": [
+        "Iluminado de modo a ofuscar."
+      ],
+      "nota": "Ofuscante, deslumbrante: palavra de Hopkins, feita de «a-» (em estado de) e «dazzle» (ofuscar, deslumbrar); fica ao lado de «dim» (fosco, apagado)."
+    },
+    "dim": {
+      "lema": "dim",
+      "classe": "adjetivo",
+      "def": [
+        "Não brilhante nem colorido; sem brilho; fosco."
+      ]
+    },
+    "he": {
+      "lema": "he",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pessoa ou animal do sexo masculino já mencionado ou subentendido; ele."
+      ],
+      "nota": "Aqui é Deus, sujeito da frase, que só volta a aparecer no «Praise him» final."
+    },
+    "fathers-forth": {
+      "partes": [
+        {
+          "lema": "father",
+          "classe": "verbo",
+          "forma": "3ª pessoa do singular do presente do indicativo",
+          "def": [
+            "Ser pai de; gerar."
+          ]
+        },
+        {
+          "lema": "forth",
+          "classe": "advérbio",
+          "def": [
+            "Para fora; à vista; desde um lugar ou posição."
+          ]
+        }
+      ],
+      "nota": "Composto de Hopkins: «gera», «faz nascer», fazendo vir à luz. Deus é o Pai que cria (father = gerar; forth = para fora) todas as coisas variadas, e ele mesmo não varia."
+    },
+    "whose": {
+      "lema": "whose",
+      "classe": "determinante",
+      "def": [
+        "De quem, de quem é; cujo."
+      ],
+      "nota": "Pronome relativo: «cuja beleza»; refere-se a Deus."
+    },
+    "past": {
+      "lema": "past",
+      "classe": "preposição",
+      "def": [
+        "Além de, mais adiante que (em lugar ou quantidade)."
+      ],
+      "nota": "«Past change» é «além da mudança»: Deus imutável, em contraste com o mundo malhado e mutável."
+    },
+    "change": {
+      "lema": "change",
+      "classe": "substantivo",
+      "def": [
+        "Ato de tornar-se diferente; mudança."
+      ]
+    },
+    "praise": {
+      "lema": "praise",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "Dar louvor a; elogiar, glorificar ou adorar."
+      ],
+      "nota": "Imperativo: «louvai-o». O fecho do poema ecoa os salmos de louvor, o «Laudate»."
+    },
+    "him": {
+      "lema": "he",
+      "classe": "pronome pessoal",
+      "forma": "caso oblíquo",
+      "def": [
+        "Caso oblíquo de «he»; ele, o."
+      ]
+    },
+    "all#2": {
+      "lema": "all",
+      "classe": "determinante",
+      "def": [
+        "Todo indivíduo ou toda coisa da classe dada, sem exceções."
+      ],
+      "nota": "«All things counter, original, spare, strange» é «todas as coisas contrárias, singulares, raras, estranhas»."
+    }
+  },
+  "ocorrencias": {
+    "7.1": "all#2"
+  }
+}

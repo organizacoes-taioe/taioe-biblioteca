@@ -1,0 +1,169 @@
+{
+ "id": "paixao-de-perpetua",
+ "rotulo": "Paixão de Perpétua e Felicidade (Anônimo)",
+ "url": "/biblioteca/anonimo/paixao-de-perpetua/",
+ "escolhas": [
+  {
+   "id": "folhas-cantavam",
+   "titulo": "Em 11,6 as folhas das árvores «cantavam», com a conjectura de Robinson?",
+   "ref": "cap. 11,6",
+   "contexto": "No jardim da visão de Sáturo, Robinson imprime *quarum folia canebant sine cessatione*, «cujas folhas cantavam sem parar». É conjectura dele: os manuscritos latinos trazem *cadebant*, «caíam», e um deles *ardebant*, «ardiam»; a versão grega também fala de folhas que caem. Robinson argumenta que «caíam sem parar» não combina com um jardim do paraíso.\n\nHoje: «e as suas folhas cantavam sem parar».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«cantavam», como está, com Robinson",
+     "nota": "É o texto da edição-base; a apresentação avisa.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«caíam sem parar», com os manuscritos",
+     "nota": "Mais seguro; o latim ao lado ficaria diferente da tradução (ou trocaríamos o latim também)."
+    }
+   ]
+  },
+  {
+   "id": "estadio-violetas",
+   "titulo": "Em 11,8 fica «atravessamos um estádio coberto de violetas»?",
+   "ref": "cap. 11,8",
+   "contexto": "Robinson imprime *et pedibus nostris transiuimus stadium uiolatum*, «atravessamos a pé um estádio de violetas». Também é conjectura dele: um manuscrito traz *uiolata*, outro *uia lata*, «por um caminho largo», que é o que muitas edições adotam («fomos a pé até o estádio por um caminho largo»).\n\nHoje: «E com os nossos pés atravessamos um estádio coberto de violetas».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«um estádio coberto de violetas», como está",
+     "nota": "Segue a edição-base.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«fomos a pé até o estádio por um caminho largo»",
+     "nota": "A leitura mais comum nas edições posteriores."
+    }
+   ]
+  },
+  {
+   "id": "revocato-19",
+   "titulo": "Em 19,3, quem é atacado pelo leopardo e pelo urso: só Saturnino, como no texto de Robinson?",
+   "ref": "cap. 19,3",
+   "contexto": "Robinson imprime *itaque in commissione spectaculi reuocatus leopardo expertus etiam super pulpitum ab urso erat uexatus*: tudo no singular, e *reuocatus* («chamado de volta») com minúscula, de modo que o sujeito continua sendo Saturnino, de quem a frase anterior fala. Os outros manuscritos e as edições posteriores leem *ipse et Reuocatus leopardum experti … uexati sunt*, «ele e Revocato enfrentaram o leopardo e foram atacados por um urso».\n\nHoje: «Assim, no começo do espetáculo, chamado de volta depois de enfrentar o leopardo, foi ainda atacado por um urso sobre o estrado».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Só Saturnino, como está, com Robinson",
+     "nota": "Coerente com o latim ao lado.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«ele e Revocato enfrentaram o leopardo e foram ainda atacados por um urso»",
+     "nota": "A leitura mais difundida; o latim ao lado não a traz."
+    }
+   ]
+  },
+  {
+   "id": "papa-noster",
+   "titulo": "Em 13,3 *papa noster*, dito ao bispo Otato, fica «o nosso pai»?",
+   "ref": "cap. 13,3",
+   "contexto": "Sáturo e Perpétua dizem ao bispo e ao presbítero que se lançam aos pés deles: *Non tu es papa noster et tu presbyter…?* Na África do séc. III, *papa* é o tratamento afetuoso de qualquer bispo, «pai», e ainda não o título do bispo de Roma.\n\nHoje: «Não és tu o nosso pai, e tu o nosso presbítero?».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o nosso pai», como está",
+     "nota": "Diz o sentido da época sem confundir com o Papa.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o nosso papa»",
+     "nota": "Mais literal; o leitor de hoje pensa no bispo de Roma."
+    },
+    {
+     "id": "c",
+     "texto": "«o nosso bispo»",
+     "nota": "Claro, mas perde o tom afetuoso."
+    }
+   ]
+  },
+  {
+   "id": "saluum-lotum",
+   "titulo": "O grito do povo em 21,2, *Saluum lotum!*, fica «Bom banho!»?",
+   "ref": "cap. 21,2",
+   "contexto": "Quando Sáturo volta coberto de sangue, o povo grita *Saluum lotum! saluum lotum!*, a saudação que se dava a quem saía das termas («banho que faça bem»). O redator vê nisso, sem o povo saber, o testemunho do «segundo batismo», o do sangue, e comenta: «certamente estava salvo quem se lavara desse modo» (o jogo entre *saluum* e *saluus*).\n\nHoje: «Bom banho! Bom banho!» e «Certamente estava salvo quem se lavara desse modo».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Bom banho!», como está",
+     "nota": "Diz o que o grito era na boca do povo; o comentário seguinte faz o jogo com «salvo».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Salvo e lavado!»",
+     "nota": "Guarda o jogo de palavras, mas perde a saudação de termas."
+    }
+   ]
+  },
+  {
+   "id": "tegnon",
+   "titulo": "Em 4,9 a palavra grega *tegnon* fica em grego transcrito, «Bem-vinda, *tégnon*»?",
+   "ref": "cap. 4,9",
+   "contexto": "O pastor da visão recebe Perpétua com uma palavra grega no meio do latim: *Bene uenisti, tegnon* (grego *téknon*, «filha», «criança»). O mesmo acontece com *agios* em 12,2. São marcas de uma comunidade bilíngue (em 13,4 Perpétua fala grego com o bispo).\n\nHoje: «Bem-vinda, *tégnon*», com o sentido na apresentação; «*Ágios, ágios, ágios*».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Em grego transcrito, como está",
+     "nota": "Guarda o estranhamento do original.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Traduzido: «Bem-vinda, filha»",
+     "nota": "Mais claro; perde a palavra estrangeira."
+    }
+   ]
+  },
+  {
+   "id": "casa-de-pretorio",
+   "titulo": "Em 3,9 *praetorium* fica «palácio»?",
+   "ref": "cap. 3,9",
+   "contexto": "Quando consegue ficar com o filho, Perpétua escreve: *factus est mihi carcer subito praetorium*, «o cárcere se tornou para mim de repente um pretório». *Praetorium* é a residência oficial do governador, o lugar mais nobre da cidade.\n\nHoje: «e o cárcere se tornou para mim de repente um palácio».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«um palácio», como está",
+     "nota": "O leitor entende de imediato o contraste.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«um pretório»",
+     "nota": "Mais exato; pede nota."
+    }
+   ]
+  },
+  {
+   "id": "porta-sanauiuaria",
+   "titulo": "A *porta Sanauiuaria* (10,13 e 20,7) fica «a Porta da Vida»?",
+   "ref": "cap. 10,13; 20,7",
+   "contexto": "*Sanauiuaria* é o nome da porta do anfiteatro por onde saíam os gladiadores e os condenados que escapavam com vida (literalmente «dos salvos e vivos»), ao contrário da porta por onde saíam os mortos. Na visão, Perpétua vencedora sai por ela; no martírio, as duas mulheres são levadas a ela por um momento.\n\nHoje: «para a Porta da Vida».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«a Porta da Vida», como está",
+     "nota": "Curto e claro; perde o nome próprio.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«a porta Sanavivária»",
+     "nota": "O nome latino; pede nota."
+    },
+    {
+     "id": "c",
+     "texto": "«a porta dos que saem vivos»",
+     "nota": "Explicativo, mais longo."
+    }
+   ]
+  }
+ ]
+}

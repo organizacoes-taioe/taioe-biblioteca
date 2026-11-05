@@ -1,0 +1,179 @@
+{
+ "id": "vida-de-sao-bento",
+ "rotulo": "Vida de São Bento (São Gregório Magno)",
+ "url": "/biblioteca/sao-gregorio-magno/vida-de-sao-bento/",
+ "escolhas": [
+  {
+   "id": "scienter-nescius",
+   "titulo": "O jogo de palavras do prólogo fica «ignorante de ciência certa e sabiamente sem letras»?",
+   "ref": "Parte 1, Prólogo",
+   "contexto": "É a frase mais citada do livro: Bento deixou os estudos em Roma, *scienter nescius, et sapienter indoctus* («sabendo, sem saber; sabiamente, sem instrução»). Hoje: «Retirou-se, portanto, ignorante de ciência certa e sabiamente sem letras.» «De ciência certa» quer dizer «de caso pensado», e guarda a palavra «ciência» do jogo latino.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«ignorante de ciência certa e sabiamente sem letras», como está",
+     "nota": "Guarda o jogo de palavras e o sentido de «de propósito».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«conscientemente ignorante e sabiamente inculto»",
+     "nota": "Mais claro à primeira leitura; perde o eco «ciência»."
+    },
+    {
+     "id": "c",
+     "texto": "«sabiamente ignorante e sabiamente sem letras»",
+     "nota": "Mais simples; repete «sabiamente» e perde a diferença entre *scienter* e *sapienter*."
+    }
+   ]
+  },
+  {
+   "id": "vir-dei",
+   "titulo": "*Vir Dei* fica «o homem de Deus» em todo o livro?",
+   "ref": "todo o livro (cerca de 80 vezes)",
+   "contexto": "Gregório chama Bento quase sempre *vir Dei* («homem de Deus») ou *vir Domini* («homem do Senhor»). As traduções portuguesas antigas dizem «varão de Deus». Hoje: «o homem de Deus», «o homem do Senhor».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o homem de Deus», como está",
+     "nota": "Português de hoje, e o mesmo título bíblico dado a Moisés e Elias.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o varão de Deus»",
+     "nota": "Tom tradicional das vidas de santos; «varão» soa antigo ao leitor de hoje."
+    }
+   ]
+  },
+  {
+   "id": "habitavit-secum",
+   "titulo": "*Habitavit secum* fica «habitou consigo mesmo»?",
+   "ref": "Parte 1, II.3",
+   "contexto": "Depois do vinho envenenado, Bento volta à gruta e *solus … habitavit secum*; Pedro pergunta o que isso quer dizer, e Gregório explica por quatro parágrafos (a volta a si do filho pródigo, o êxtase de Pedro). Hoje: «habitou consigo mesmo», repetido igual na pergunta e na explicação.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«habitou consigo mesmo», como está",
+     "nota": "Ao pé da letra; a estranheza é a que Pedro também sente e Gregório explica.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«viveu consigo mesmo»",
+     "nota": "Mais corrente; perde a ideia de morada."
+    },
+    {
+     "id": "c",
+     "texto": "«morou dentro de si»",
+     "nota": "Mais claro; antecipa a explicação de Gregório."
+    }
+   ]
+  },
+  {
+   "id": "capisterium",
+   "titulo": "O *capisterium* do primeiro milagre fica «joeirador»?",
+   "ref": "Parte 1, II.1",
+   "contexto": "A ama pede emprestado um *capisterium* «para limpar o trigo», e ele se quebra em dois; é um vaso de barro ou de madeira para peneirar e limpar o grão. Hoje: «joeirador», com nota do vocabulário («peneira grande para limpar o trigo»), cinco vezes no capítulo, também no título.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«joeirador», como está, com a nota",
+     "nota": "Exato e com cor de época; palavra rara.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«peneira»",
+     "nota": "Todos entendem; uma peneira comum não se «quebra em duas partes» como um vaso."
+    },
+    {
+     "id": "c",
+     "texto": "«alguidar de joeirar»",
+     "nota": "Diz que é vaso; mais longo e também raro."
+    }
+   ]
+  },
+  {
+   "id": "pater-abbas",
+   "titulo": "O abade e o próprio Bento ficam «o pai», com minúscula?",
+   "ref": "todo o livro; ex.: II.3, II.7, II.22",
+   "contexto": "A edição latina escreve *Pater* com maiúscula para Bento e para os superiores dos mosteiros («ut eis praeesse deberet… Patrem vobis quaerite»). Hoje: «o pai», «o venerável pai Bento», «o pai do mosteiro», com minúscula, e «abade» onde o latim diz *abbas*; «Pai» com maiúscula só para Deus.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o pai», com minúscula, como está",
+     "nota": "Evita a confusão com Deus Pai; é o sentido de *abbas*.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o Pai», com maiúscula, como a edição",
+     "nota": "Respeito que a edição marca; ambíguo em frases como «à ordem do seu Pai»."
+    },
+    {
+     "id": "c",
+     "texto": "«o abade» sempre",
+     "nota": "Claro; perde o tom familiar de «pai» e mistura dois termos latinos."
+    }
+   ]
+  },
+  {
+   "id": "virtus",
+   "titulo": "*Virtus* fica «milagre» (ou «poder») quando é um feito sobrenatural?",
+   "ref": "todo o livro; ex.: II.3, II.8, II.16, II.23",
+   "contexto": "Gregório usa *virtus* tanto para a virtude moral (*magister virtutum*, «mestre das virtudes») quanto para o milagre e a força de Deus (*virtutibus signisque succresceret*, *de hujus viri virtutibus*). Hoje: «virtude» no sentido moral, «milagre» quando é um feito (II.3 «crescesse … em milagres e sinais») e «poder» quando é a força (II.23 «vazia do peso do poder»).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Conforme o sentido, como está",
+     "nota": "O leitor entende o que Gregório quer dizer em cada lugar.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«virtude» sempre",
+     "nota": "Guarda a palavra latina; «crescer em virtudes e sinais» sugere só santidade moral."
+    }
+   ]
+  },
+  {
+   "id": "nomes-godos",
+   "titulo": "Os condes de Totila ficam «Vulterico, Roderico e Blido»?",
+   "ref": "Parte 2, II.14",
+   "contexto": "Totila manda o escudeiro Rigo (*Riggo*) disfarçado de rei, com três condes que a edição de Migne chama *Vult, Ruderic, et Blidin*; outros manuscritos dão *Vulderic*. Hoje: «Vulterico, Roderico e Blido», como os demais nomes, na forma portuguesa.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Vulterico, Roderico e Blido», como está",
+     "nota": "Segue a regra dos nomes em forma portuguesa; «Vulterico» completa o *Vult* truncado.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Vult, Ruderic e Blidin», como a edição",
+     "nota": "Fiel à edição; nomes estranhos e um deles truncado."
+    }
+   ]
+  },
+  {
+   "id": "deus-caritas",
+   "titulo": "Em II.33, *Deus charitas est* fica «Deus é amor»?",
+   "ref": "Parte 4, II.33",
+   "contexto": "Escolástica vence o irmão pela oração, e Gregório conclui: *quia enim juxta Joannis vocem, Deus charitas est, justo valde judicio illa plus potuit, quae amplius amavit*. Hoje: «segundo a palavra de João, “Deus é amor” (1Jo 4,16), e por justíssimo juízo pôde mais aquela que amou mais». O argumento liga *caritas* a *amavit*.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Deus é amor», como está",
+     "nota": "Forma da Bíblia no Brasil e liga a citação a «amou mais».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Deus é caridade»",
+     "nota": "Ao pé da letra da Vulgata; a ligação com «amou» fica menos visível."
+    }
+   ]
+  }
+ ]
+}

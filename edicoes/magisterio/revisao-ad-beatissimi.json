@@ -1,0 +1,26 @@
+{
+ "id": "magisterio-ad-beatissimi",
+ "rotulo": "Ad Beatissimi Apostolorum (Bento XV, 1914)",
+ "url": "/biblioteca/igreja-catolica/ad-beatissimi/",
+ "escolhas": [
+  {
+   "id": "palavra-19",
+   "titulo": "No § 19, «a força e a imortalidade divinas» da Igreja: a palavra latina estragada fica como «imortalidade»?",
+   "ref": "§ 19",
+   "contexto": "O site da Santa Sé e o texto em linha das _Acta_ (só o OCR, sem a imagem da página) trazem «divinae illius virtutis ac oralitatis qua pollet Ecclesia»; «oralitatis» não existe. As versões italiana e francesa do site dizem «indefectibilidade». Lemos _immortalitatis_, que tem quase as mesmas letras e o mesmo sentido; a alternativa é _vitalitatis_.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«imortalidade» (_immortalitatis_), como está",
+     "nota": "Mais perto das letras do OCR e do sentido das versões italiana e francesa.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«vitalidade» (_vitalitatis_)",
+     "nota": "Também possível; afasta-se mais do «indefectibilidade» das outras versões."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,675 @@
+{
+  "verbetes": {
+    "exegi": {
+      "lema": "exigo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Executar, completar (uma tarefa)."
+      ],
+      "nota": "Perfeito: «concluí, levei a termo». O monumento é a obra do poeta, os três livros de odes que esta fecha."
+    },
+    "monumentum": {
+      "lema": "monumentum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "Monumento, memorial."
+      ]
+    },
+    "ære": {
+      "lema": "aes",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "Bronze."
+      ],
+      "nota": "Ablativo de comparação, depois de «perennius»: «mais duradouro que o bronze», o metal das estátuas e das inscrições."
+    },
+    "perennius": {
+      "lema": "perennis",
+      "classe": "adjetivo",
+      "forma": "comparativo, acusativo neutro singular",
+      "def": [
+        "Contínuo, eterno, perpétuo."
+      ],
+      "nota": "Comparativo: «mais duradouro». Concorda com «monumentum»."
+    },
+    "regalique": {
+      "partes": [
+        {
+          "lema": "regalis",
+          "classe": "adjetivo",
+          "forma": "ablativo masculino singular",
+          "def": [
+            "Real, régio; próprio de rei."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Concorda com «situ»: a construção régia das pirâmides, feitas para reis."
+    },
+    "situ": {
+      "lema": "situs",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O modo de estar situado; a posição ou o lugar de algo.",
+        "Decadência, ferrugem, mofo, pó."
+      ],
+      "nota": "Ablativo de comparação, depois de «altius». As duas leituras existem: a construção das pirâmides, ou o desgaste do tempo sobre elas; o poema joga com a ideia de ruína."
+    },
+    "pyramidum": {
+      "lema": "pyramis",
+      "classe": "substantivo feminino",
+      "forma": "genitivo plural",
+      "def": [
+        "Pirâmide."
+      ],
+      "nota": "As pirâmides do Egito, túmulos de reis."
+    },
+    "altius": {
+      "lema": "altus",
+      "classe": "adjetivo",
+      "forma": "comparativo, acusativo neutro singular",
+      "def": [
+        "Alto, elevado."
+      ],
+      "nota": "Comparativo: «mais alto». Concorda com «monumentum»."
+    },
+    "quod": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "forma": "nominativo ou acusativo neutro singular",
+      "def": [
+        "Que, o qual."
+      ],
+      "nota": "Acusativo: o objeto de «possit diruere»; retoma «monumentum»."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "imber": {
+      "lema": "imber",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Chuva, temporal."
+      ]
+    },
+    "edax": {
+      "lema": "edax",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Voraz, devorador, que consome."
+      ],
+      "nota": "A chuva que corrói a pedra."
+    },
+    "aquilo": {
+      "lema": "aquilo",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Vento norte; o deus do vento, Bóreas."
+      ],
+      "nota": "O vento norte, tempestuoso; também o deus desse vento."
+    },
+    "impotens": {
+      "lema": "impotens",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Incapaz de se controlar, sem domínio de si; desenfreado, violento."
+      ],
+      "nota": "Não quer dizer «impotente»: é o vento sem freio, que não domina a própria fúria."
+    },
+    "possit": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Poder, ser capaz."
+      ],
+      "nota": "Subjuntivo na relativa: um monumento tal que a chuva não o possa destruir."
+    },
+    "diruere": {
+      "lema": "diruo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Demolir, derrubar, destruir."
+      ]
+    },
+    "aut": {
+      "lema": "aut",
+      "classe": "conjunção",
+      "def": [
+        "Ou."
+      ]
+    },
+    "innumerabilis": {
+      "lema": "innumerabilis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Inumerável, incontável."
+      ],
+      "nota": "Concorda com «series», no verso seguinte."
+    },
+    "annorum": {
+      "lema": "annus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "Ano."
+      ]
+    },
+    "series": {
+      "lema": "series",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Sucessão."
+      ],
+      "nota": "Mais um sujeito de «possit diruere»: a fila sem fim dos anos."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "fuga": {
+      "lema": "fuga",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Fuga."
+      ],
+      "nota": "A fuga, isto é, a passagem rápida do tempo."
+    },
+    "temporum": {
+      "lema": "tempus",
+      "classe": "substantivo neutro",
+      "forma": "genitivo plural",
+      "def": [
+        "Tempo."
+      ]
+    },
+    "omnis": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Todo, inteiro."
+      ],
+      "nota": "«Non omnis moriar»: não morrerei todo, por inteiro."
+    },
+    "moriar": {
+      "lema": "morior",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Morrer."
+      ],
+      "nota": "Verbo depoente (forma passiva, sentido ativo): «morrerei»."
+    },
+    "multaque": {
+      "partes": [
+        {
+          "lema": "multus",
+          "classe": "adjetivo",
+          "forma": "nominativo feminino singular",
+          "def": [
+            "Muito, grande."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Concorda com «pars»: grande parte de mim."
+    },
+    "pars": {
+      "lema": "pars",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Parte, porção."
+      ]
+    },
+    "mei": {
+      "lema": "ego",
+      "classe": "pronome pessoal",
+      "forma": "genitivo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Genitivo partitivo: «parte de mim»."
+    },
+    "vitabit": {
+      "lema": "vito",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Evitar, escapar de."
+      ]
+    },
+    "libitinam": {
+      "lema": "Libitina",
+      "classe": "substantivo próprio feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Libitina, antiga deusa romana dos cadáveres, dos funerais e dos sepultamentos."
+      ],
+      "nota": "Aqui, por metonímia, a própria morte."
+    },
+    "usque": {
+      "lema": "usque",
+      "classe": "advérbio",
+      "def": [
+        "Constantemente, continuamente."
+      ]
+    },
+    "ego": {
+      "lema": "ego",
+      "classe": "pronome pessoal",
+      "forma": "nominativo singular",
+      "def": [
+        "Eu."
+      ]
+    },
+    "postera": {
+      "lema": "posterus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Seguinte, que vem depois."
+      ],
+      "nota": "Concorda com «laude»: o louvor dos que vêm depois, a posteridade."
+    },
+    "crescam": {
+      "lema": "cresco",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Crescer, aumentar."
+      ],
+      "nota": "Crescerei: a fama do poeta aumenta com o tempo."
+    },
+    "laude": {
+      "lema": "laus",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Louvor, elogio; glória, fama."
+      ]
+    },
+    "recens": {
+      "lema": "recens",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Fresco, vivo."
+      ],
+      "nota": "Concorda com «ego»: sempre novo, renovado pelo louvor."
+    },
+    "dum": {
+      "lema": "dum",
+      "classe": "conjunção",
+      "def": [
+        "Enquanto."
+      ]
+    },
+    "capitolium": {
+      "lema": "Capitolium",
+      "classe": "substantivo próprio neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O monte Capitolino, uma das sete colinas de Roma, em especial os templos romanos que ficavam ali na Antiguidade."
+      ],
+      "nota": "O lugar dos sacrifícios solenes do Estado romano."
+    },
+    "scandet": {
+      "lema": "scando",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Subir, escalar."
+      ],
+      "nota": "«Enquanto o pontífice subir ao Capitólio com a virgem calada»: enquanto durarem Roma e os seus ritos."
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "preposição",
+      "def": [
+        "Com (com ablativo)."
+      ]
+    },
+    "tacita": {
+      "lema": "tacitus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Silencioso, calado."
+      ],
+      "nota": "A vestal sobe em silêncio religioso."
+    },
+    "virgine": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Virgem, donzela."
+      ],
+      "nota": "Uma das virgens vestais, que guardavam o fogo sagrado de Roma."
+    },
+    "pontifex": {
+      "lema": "pontifex",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Antigo sumo sacerdote romano, ministro do Estado, pontífice."
+      ],
+      "nota": "O pontífice máximo, chefe da religião do Estado."
+    },
+    "dicar": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular, voz passiva",
+      "def": [
+        "Dizer, falar."
+      ],
+      "nota": "«Dirão de mim»; rege o infinitivo «deduxisse»: dirão que eu fui o primeiro a trazer…"
+    },
+    "qua": {
+      "lema": "qua",
+      "classe": "advérbio",
+      "def": [
+        "Onde, por onde; no lugar em que."
+      ],
+      "nota": "As duas orações com «qua» dizem onde se falará dele: na sua terra, a Apúlia."
+    },
+    "violens": {
+      "lema": "violens",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Violento, impetuoso."
+      ],
+      "nota": "O Wiktionary a dá como sinônimo poético de «violentus»."
+    },
+    "obstrepit": {
+      "lema": "obstrepo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Rugir ou ressoar contra; ressoar."
+      ]
+    },
+    "aufidus": {
+      "lema": "Aufidus",
+      "classe": "substantivo próprio masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O rio Ofanto."
+      ],
+      "nota": "Rio da Apúlia, que passa perto de Venúsia, a cidade natal de Horácio."
+    },
+    "pauper": {
+      "lema": "pauper",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Pobre."
+      ],
+      "nota": "Com o genitivo «aquae»: pobre de água. A Apúlia é terra seca."
+    },
+    "aquae": {
+      "lema": "aqua",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "Água."
+      ],
+      "nota": "Genitivo depois de «pauper»: «pobre de água»."
+    },
+    "daunus": {
+      "lema": "Daunus",
+      "classe": "substantivo próprio masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Dauno, rei de uma parte da Apúlia."
+      ],
+      "nota": "Rei lendário da Apúlia, terra de Horácio."
+    },
+    "agrestium": {
+      "lema": "agrestis",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Rural, rústico, do campo."
+      ],
+      "nota": "Concorda com «populorum»."
+    },
+    "regnavit": {
+      "lema": "regno",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Reinar, governar (como monarca)."
+      ],
+      "nota": "Com o genitivo «populorum», à maneira do grego: reinou sobre povos do campo."
+    },
+    "populorum": {
+      "lema": "populus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "Povo."
+      ],
+      "nota": "Genitivo depois de «regnavit», construção imitada do grego."
+    },
+    "ex": {
+      "lema": "ex",
+      "classe": "preposição",
+      "def": [
+        "De, a partir de (com ablativo)."
+      ]
+    },
+    "humili": {
+      "lema": "humilis",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "(Quanto ao nascimento, à fortuna ou ao valor) humilde, obscuro, pobre."
+      ],
+      "nota": "«Ex humili potens»: vindo de origem humilde, chegado a poderoso. Horácio era filho de um liberto."
+    },
+    "potens": {
+      "lema": "potens",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Capaz; forte, poderoso."
+      ],
+      "nota": "Concorda com o «eu» de «dicar»."
+    },
+    "princeps": {
+      "lema": "princeps",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Primeiro, o mais adiante."
+      ],
+      "nota": "Horácio se diz o primeiro a fazer em latim o que os líricos gregos faziam."
+    },
+    "aeolium": {
+      "lema": "Aeolius",
+      "classe": "adjetivo",
+      "wiki": null,
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Eólio: dos eólios, os gregos da ilha de Lesbos."
+      ],
+      "nota": "O canto eólio é a lírica de Alceu e de Safo, poetas de Lesbos, que Horácio imitou nas odes."
+    },
+    "carmen": {
+      "lema": "carmen",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "Canção, poema, canto."
+      ]
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "def": [
+        "Para, a (com acusativo)."
+      ]
+    },
+    "italos": {
+      "lema": "Italus",
+      "classe": "adjetivo",
+      "wiki": null,
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Itálico, da Itália."
+      ],
+      "nota": "Concorda com «modos»: os metros da Itália, isto é, o verso latino."
+    },
+    "deduxisse": {
+      "lema": "deduco",
+      "classe": "verbo",
+      "forma": "infinitivo perfeito",
+      "def": [
+        "Trazer, conduzir."
+      ],
+      "nota": "Depende de «dicar»: «ter trazido» o canto eólio para os metros itálicos."
+    },
+    "modos": {
+      "lema": "modus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "(Poesia) ritmo, metro."
+      ]
+    },
+    "sume": {
+      "lema": "sumo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Tomar, assumir."
+      ],
+      "nota": "O poeta fala agora à Musa, Melpômene."
+    },
+    "superbiam": {
+      "lema": "superbia",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Orgulho, altivez."
+      ],
+      "nota": "Aqui, o orgulho legítimo de quem fez a obra."
+    },
+    "quaesitam": {
+      "lema": "quaero",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo feminino singular",
+      "def": [
+        "Procurar, buscar; obter, ganhar."
+      ],
+      "nota": "Concorda com «superbiam»: o orgulho ganho pelos méritos."
+    },
+    "meritis": {
+      "lema": "meritum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "Mérito, serviço."
+      ],
+      "nota": "Ablativo de causa: «pelos méritos»."
+    },
+    "mihi": {
+      "lema": "ego",
+      "classe": "pronome pessoal",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Dativo de posse, com «comam»: a minha cabeleira."
+    },
+    "delphica": {
+      "lema": "Delphicus",
+      "classe": "adjetivo",
+      "wiki": null,
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Délfico, de Delfos."
+      ],
+      "nota": "Concorda com «lauro»: o louro de Delfos, a árvore de Apolo, deus da poesia."
+    },
+    "lauro": {
+      "lema": "laurus",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "Loureiro; (por metonímia) coroa de louro."
+      ],
+      "nota": "Ablativo de instrumento: «com o louro»."
+    },
+    "cinge": {
+      "lema": "cingo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Cingir; coroar ou enfeitar com guirlanda."
+      ]
+    },
+    "volens": {
+      "lema": "volo",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo feminino singular",
+      "def": [
+        "Querer, desejar."
+      ],
+      "nota": "Concorda com «Melpomene»: de bom grado, propícia. É fórmula das preces aos deuses."
+    },
+    "melpomene": {
+      "lema": "Melpomene",
+      "classe": "substantivo próprio feminino",
+      "wiki": null,
+      "forma": "vocativo singular",
+      "def": [
+        "Melpômene, uma das nove Musas."
+      ],
+      "nota": "A Musa invocada pelo poeta; mais tarde a da tragédia, aqui a do canto lírico."
+    },
+    "comam": {
+      "lema": "coma",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "Cabelo, cabeleira."
+      ]
+    }
+  }
+}

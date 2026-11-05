@@ -1,0 +1,88 @@
+{
+ "id": "vida-de-sao-paulo-eremita",
+ "rotulo": "Vida de São Paulo, primeiro eremita (São Jerônimo)",
+ "url": "/biblioteca/sao-jeronimo/vida-de-sao-paulo-eremita/",
+ "escolhas": [
+  {
+   "id": "poenis-regnis",
+   "titulo": "No fim (18), a púrpura dos reis fica «com os seus castigos», como no latim ao lado?",
+   "ref": "cap. 18",
+   "contexto": "A frase final: Jerônimo preferiria *tunicam Pauli cum meritis eius, quam regum purpuras cum poenis suis*, «a túnica de Paulo com os seus méritos à púrpura dos reis com os seus castigos». É a leitura do PL (Vallarsi). Outros manuscritos, e a edição moderna de Hunink, leem *cum regnis suis*, «com os seus reinos»; o códice de Verona, *cum meritis suis*. A nota do PL diz que Martianay juntou as duas.\n\nHoje: «à púrpura dos reis com os seus castigos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«com os seus castigos», como está",
+     "nota": "Segue o latim ao lado; o contraste é méritos × castigos.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«com os seus reinos»",
+     "nota": "A leitura mais conhecida hoje; o latim ao lado ficaria diferente."
+    }
+   ]
+  },
+  {
+   "id": "conservus",
+   "titulo": "*Conservus* (7 e 11) fica «companheiro de serviço»?",
+   "ref": "cap. 7 e 11",
+   "contexto": "Antão diz que Deus lhe há de mostrar *conservum quem mihi promisit*, e Paulo depois: *olim te conservum meum mihi promiserat Deus*. *Conservus* é o «servo com», o que serve ao mesmo Senhor (Ap 19,10: «sou teu conservo»).\n\nHoje: «ele há de me mostrar o companheiro de serviço que me prometeu»; «Deus te prometera a mim como meu companheiro de serviço».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«companheiro de serviço», como está",
+     "nota": "Claro e fiel.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«conservo»",
+     "nota": "A palavra das Bíblias antigas; rara hoje."
+    },
+    {
+     "id": "c",
+     "texto": "«irmão de serviço»",
+     "nota": "Mais afetuoso; afasta-se do latim."
+    }
+   ]
+  },
+  {
+   "id": "principem-rei",
+   "titulo": "Em 1 fica «o iniciador desta vida, embora não do nome»?",
+   "ref": "cap. 1",
+   "contexto": "Jerônimo diz que os discípulos de Antão afirmam *Paulum quemdam Thebaeum principem istius rei fuisse, non nominis*: Paulo foi o primeiro a viver assim, mas não foi ele que deu nome à vida de eremita (o nome veio com Antão). O PL anota outras leituras e explicações.\n\nHoje: «um certo Paulo de Tebas foi o iniciador desta vida, embora não do nome».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o iniciador desta vida, embora não do nome», como está",
+     "nota": "Diz o sentido que o editor do PL defende.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o primeiro na coisa, não no nome»",
+     "nota": "Mais literal e mais seco."
+    }
+   ]
+  },
+  {
+   "id": "geena",
+   "titulo": "Em 17 *gehenna* fica «a geena»?",
+   "ref": "cap. 17",
+   "contexto": "Na apóstrofe aos ricos: *vos auratos gehenna suscipiet*. *Gehenna* é a palavra do Evangelho para o inferno. Vai com nota de vocabulário.\n\nHoje: «a vós, cobertos de ouro, a geena vos receberá».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«a geena», com nota",
+     "nota": "Guarda a palavra de Jerônimo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o inferno»",
+     "nota": "Claro; perde o termo bíblico."
+    }
+   ]
+  }
+ ]
+}

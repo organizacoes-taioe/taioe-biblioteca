@@ -56,6 +56,30 @@
       ]
     },
     {
+      "pasta": "gods-grandeur", "autor": "gerard-manley-hopkins", "lingua": "en", "forma": "sonetos",
+      "titulo": "God's Grandeur", "ano": 1918,
+      "livro": { "titulo": "Poems of Gerard Manley Hopkins", "ano": 1918 },
+      "fontes": [
+        { "nome": "Poems of Gerard Manley Hopkins, ed. Robert Bridges (Londres, Humphrey Milford, 1918), no Wikisource", "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/God%27s_Grandeur", "nota": "texto e grafia da 1ª edição (1918), escaneada e revista no Wikisource; o soneto é de 1877" }
+      ]
+    },
+    {
+      "pasta": "the-windhover", "autor": "gerard-manley-hopkins", "lingua": "en", "forma": "sonetos",
+      "titulo": "The Windhover", "subtitulo": "To Christ our Lord", "ano": 1918,
+      "livro": { "titulo": "Poems of Gerard Manley Hopkins", "ano": 1918 },
+      "fontes": [
+        { "nome": "Poems of Gerard Manley Hopkins, ed. Robert Bridges (Londres, Humphrey Milford, 1918), no Wikisource", "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/The_Windhover", "nota": "texto e grafia da 1ª edição (1918), com os acentos de Hopkins (shéer plód), o «AND» em versalete e a grafia dele «ecstacy» e «vermillion»; o soneto é de 1877" }
+      ]
+    },
+    {
+      "pasta": "pied-beauty", "autor": "gerard-manley-hopkins", "lingua": "en", "forma": "sonetos",
+      "titulo": "Pied Beauty", "ano": 1918,
+      "livro": { "titulo": "Poems of Gerard Manley Hopkins", "ano": 1918 },
+      "fontes": [
+        { "nome": "Poems of Gerard Manley Hopkins, ed. Robert Bridges (Londres, Humphrey Milford, 1918), no Wikisource", "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/Pied_Beauty", "nota": "texto e grafia da 1ª edição (1918), com os acentos de Hopkins (áll trádes); o poema é de 1877" }
+      ]
+    },
+    {
       "pasta": "the-raven", "autor": "edgar-allan-poe", "lingua": "en", "forma": "outras",
       "titulo": "The Raven", "ano": 1845,
       "livro": { "titulo": "The Raven and Other Poems", "ano": 1845 },
@@ -258,12 +282,59 @@
       ]
     },
     {
+      "pasta": "bucolica-iv", "autor": "vergilio", "lingua": "la", "forma": "outras",
+      "titulo": "Ecloga IV", "ano": null,
+      "subtitulo": "Pollio",
+      "livro": { "titulo": "Bucolica", "ano": null },
+      "traducao": {"tradutor": "António José de Lima Leitão", "titulo": "Écloga IV", "ano": 1818, "publicacao": "médico e poeta português (1787–1856), publicada em As obras de Públio Virgílio Maro, traduzidas em verso português, tomo I (Rio de Janeiro, Tipografia Real, 1818), pp. 40–44, em decassílabos brancos, com o título «Druso» (o tradutor seguia a leitura de que o menino é Druso, filho de Lívia)", "fonte": {"nome": "Monumento à elevação da colónia do Brasil a reino… As obras de Públio Virgílio Maro, tomo I (Rio de Janeiro, 1818), pp. 40–44, no Internet Archive", "url": "https://archive.org/details/monumentoelevaod00virg/page/n67", "nota": "tradução de Lima Leitão, conferida verso a verso nas imagens; ortografia atualizada («sejam», «disseram», «sorriram», «contudo», «predileta», onde a edição traz «perdilecta»), com os nomes na forma de hoje (Polião, Tétis, Tífis, Aquiles, Orfeu, Calíope); sem as notas do tradutor"}},
+      "fontes": [
+        { "nome": "P. Vergili Maronis Opera, ed. J. B. Greenough (Boston, Ginn and Company, 1900), no Perseus Digital Library", "url": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi0690.phi001.perseus-lat2:4/", "nota": "a 4ª das dez éclogas das Bucólicas, composta por volta de 40 a.C., no consulado de Polião; palavras e pontuação desta edição, com maiúscula depois do ponto e os parágrafos das edições correntes; «mella.» no v. 30 e «heroas» no v. 35 pela edição impressa" },
+        { "nome": "Publi Vergili Maronis Bucolica, Aeneis, Georgica, ed. J. B. Greenough, vol. I (Boston, Ginn, Heath, & Co., 1883), no Internet Archive", "url": "https://archive.org/details/bucolicaaeneisge00virguoft", "nota": "a edição impressa de Greenough: as mesmas palavras, salvo «irrita» no v. 14 (a de 1900 traz «inrita», como Ribbeck)" },
+        { "nome": "P. Vergili Maronis Bucolica, ed. A. Sidgwick (Cambridge, University Press, 1901), no Internet Archive", "url": "https://archive.org/details/bucolicaeditedwi00virguoft", "nota": "outra edição, para conferir: lê «vulgo» (v. 25), «laetantur» (v. 52), «tum» (v. 53) e «vincat» (v. 55), lições que muitas edições modernas preferem" }
+      ]
+    },
+    {
+      "pasta": "the-happy-prince", "autor": "oscar-wilde", "lingua": "en", "forma": "outras", "prosa": true, "genero": "Contos",
+      "titulo": "The Happy Prince", "ano": 1888,
+      "livro": { "titulo": "The Happy Prince and Other Tales", "ano": 1888 },
+      "fontes": [
+        { "nome": "The Happy Prince and Other Tales, 7ª tiragem (Londres, David Nutt, 1910), no Projeto Gutenberg (ebook 902)", "url": "https://www.gutenberg.org/ebooks/902", "nota": "o primeiro conto do livro, inteiro; palavras, grafia britânica e pontuação desta tiragem, conferida palavra por palavra com a 1ª edição; um trecho por linha (uma frase), linha em branco entre os parágrafos" },
+        { "nome": "The Happy Prince and Other Tales, 1ª edição (Londres, David Nutt, 1888), no Internet Archive", "url": "https://archive.org/details/happyprinceother02wild", "nota": "exemplar com dedicatória do autor (Brigham Young University); dela vêm «curtsies» (a de 1910 traz «curtseys») e «cannot choose but weep» (o texto do Gutenberg traz «chose»)" },
+        { "nome": "A House of Pomegranates; The Happy Prince and Other Tales (Londres, Methuen, 1908), no Internet Archive", "url": "https://archive.org/details/ahousepomegrana00wildgoog", "nota": "a edição das obras reunidas, organizada por Robert Ross: as mesmas palavras" }
+      ]
+    },
+    {
       "pasta": "coplas-por-la-muerte-de-su-padre", "autor": "jorge-manrique", "lingua": "es", "forma": "outras",
       "titulo": "Coplas por la muerte de su padre", "ano": 1476,
       "livro": null,
       "fontes": [
         { "nome": "Coplas por la muerte de su padre, ed. R. Foulché-Delbosc (Barcelona, L'Avenç, 1902), no Wikisource", "url": "https://es.wikisource.org/wiki/Coplas_por_la_muerte_de_su_padre", "nota": "composto por volta de 1476 (c. 1476), após a morte do pai, o mestre dom Rodrigo Manrique; as 40 coplas de pé quebrado, na ordem e nas lições dessa edição crítica (em que a copla «Si fuese en nuestro poder» vem em 7º lugar, e não em 13º como em várias edições modernas; no v. 19.11 lê «rodos» onde muitas leem «rocíos»), com a grafia de hoje (u e v, j, h, ç e ss, acentos e pontuação) e, no resto, as formas do tempo de Manrique («dellas», «dél», «allegados», «falaguero», «agora», «sofrir», «afruenta»); conferido com o texto de textos.info (edição moderna, de outra ordem e de outras lições)" },
         { "nome": "o mesmo livro (1902), no Internet Archive", "url": "https://archive.org/details/CoplasPorLaMuerteDeSuPadreJorgeManrique" }
+      ]
+    },
+    {
+      "pasta": "tu-ne-quaesieris", "autor": "horacio", "lingua": "la", "forma": "outras",
+      "titulo": "Tu ne quaesieris", "ano": null,
+      "livro": { "titulo": "Carmina", "ano": null },
+      "traducao": {
+        "tradutor": "António Ribeiro dos Santos",
+        "titulo": "A Leuconoe",
+        "ano": 1807,
+        "publicacao": "poeta e erudito português (1745–1818), que assinava Elpino Duriense, publicada em decassílabos brancos em A lírica de Q. Horácio Flaco, poeta romano (Lisboa, Impressão Régia, 1807), ode XI do livro I, p. 53",
+        "fonte": { "nome": "A lyrica de Q. Horacio Flacco, poeta romano (Lisboa, Impressão Régia, 1807), p. 53, no Internet Archive", "url": "https://archive.org/details/alyricadeqhorac00sancgoog/page/n69", "nota": "tradução de António Ribeiro dos Santos (Elpino Duriense); ortografia atualizada («marcaram», «babilónios», «Tirreno», «ínvida»)" }
+      },
+      "fontes": [
+        { "nome": "Q. Horati Flacci Opera, ed. Edward C. Wickham, 2ª ed. revista por H. W. Garrod (Oxford, Clarendon Press, 1912), no Internet Archive", "url": "https://archive.org/details/qhoratiflacciop00garrgoog", "nota": "livro I, ode 11 (os livros I a III saíram juntos em 23 a.C.); palavras e pontuação desta edição, com maiúscula depois do ponto" },
+        { "nome": "Q. Horati Flacci Opera, ed. Otto Keller e Alfred Holder, vol. I (Leipzig, Teubner, 1878), no Internet Archive", "url": "https://archive.org/details/qhoratiflacciop00kellgoog", "nota": "as mesmas palavras, com «quicquid» e «scire nefas» entre parênteses" }
+      ]
+    },
+    {
+      "pasta": "exegi-monumentum", "autor": "horacio", "lingua": "la", "forma": "outras",
+      "titulo": "Exegi monumentum", "ano": null,
+      "livro": { "titulo": "Carmina", "ano": null },
+      "fontes": [
+        { "nome": "Q. Horati Flacci Opera, ed. Edward C. Wickham, 2ª ed. revista por H. W. Garrod (Oxford, Clarendon Press, 1912), no Internet Archive", "url": "https://archive.org/details/qhoratiflacciop00garrgoog", "nota": "livro III, ode 30, a última dos livros I a III (23 a.C.); palavras e pontuação desta edição, com maiúscula depois do ponto" },
+        { "nome": "Q. Horati Flacci Opera, ed. Otto Keller e Alfred Holder, vol. I (Leipzig, Teubner, 1878), no Internet Archive", "url": "https://archive.org/details/qhoratiflacciop00kellgoog", "nota": "as mesmas palavras" }
       ]
     }
   ]

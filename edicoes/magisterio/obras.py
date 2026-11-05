@@ -34,14 +34,26 @@ DOCS = {
         '31 de dezembro de 1929', 1929, 'latim', 'la', 'AAS 22 (1930), p. 49-86',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html',
         'https://www.vatican.va/archive/aas/documents/AAS-22-1930-ocr.pdf'),
+    'miserentissimus-redemptor': ('Miserentissimus Redemptor', 'Sobre a expiação devida ao Sacratíssimo Coração de Jesus', 'Carta encíclica', 'Pio XI',
+        '8 de maio de 1928', 1928, 'latim', 'la', 'AAS 20 (1928), p. 165-179',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19280508_miserentissimus-redemptor.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-20-1928-ocr.pdf'),
     'mortalium-animos': ('Mortalium Animos', 'Sobre a promoção da verdadeira unidade religiosa', 'Carta encíclica', 'Pio XI',
         '6 de janeiro de 1928', 1928, 'latim', 'la', 'AAS 20 (1928), p. 5 e seguintes',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html',
         'https://www.vatican.va/archive/aas/documents/AAS-20-1928-ocr.pdf'),
+    # o site da Santa Sé só tem o texto em inglês: a base é o PDF das AAS (url do texto: None), como no Lamentabili
+    'rerum-ecclesiae': ('Rerum Ecclesiae', 'Sobre as missões católicas', 'Carta encíclica', 'Pio XI',
+        '28 de fevereiro de 1926', 1926, 'latim', 'la', 'AAS 18 (1926), p. 65-83', None,
+        'https://www.vatican.va/archive/aas/documents/AAS-18-1926-ocr.pdf'),
     'quas-primas': ('Quas Primas', 'Sobre a festa de Cristo Rei', 'Carta encíclica', 'Pio XI',
         '11 de dezembro de 1925', 1925, 'latim', 'la', 'AAS 17 (1925), p. 593-610',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html',
         'https://www.vatican.va/archive/aas/documents/AAS-17-1925-ocr.pdf'),
+    'studiorum-ducem': ('Studiorum Ducem', 'Sobre Santo Tomás de Aquino', 'Carta encíclica', 'Pio XI',
+        '29 de junho de 1923', 1923, 'latim', 'la', 'AAS 15 (1923), p. 309-326',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19230629_studiorum-ducem.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-15-1923-ocr.pdf'),
     'spiritus-paraclitus': ('Spiritus Paraclitus', 'Sobre São Jerônimo e a Sagrada Escritura', 'Carta encíclica', 'Bento XV',
         '15 de setembro de 1920', 1920, 'latim', 'la', 'AAS 12 (1920), p. 385-422',
         'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html',
@@ -50,9 +62,23 @@ DOCS = {
         '30 de novembro de 1919', 1919, 'latim', 'la', 'AAS 11 (1919), p. 440-455',
         'https://www.vatican.va/content/benedict-xv/la/apost_letters/documents/hf_ben-xv_apl_19191130_maximum-illud.html',
         'https://www.vatican.va/archive/aas/documents/AAS-11-1919-ocr.pdf'),
+    'ad-beatissimi': ('Ad Beatissimi Apostolorum', 'Sobre a paz, a caridade e a concórdia entre os católicos', 'Carta encíclica', 'Bento XV',
+        '1º de novembro de 1914', 1914, 'latim', 'la', 'AAS 6 (1914), p. 565-581',
+        'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-06-1914-ocr.pdf'),
+    'sacrorum-antistitum': ('Sacrorum Antistitum', 'O juramento antimodernista', 'Motu proprio', 'São Pio X',
+        '1º de setembro de 1910', 1910, 'latim', 'la', 'AAS 2 (1910), p. 655-680',
+        'https://www.vatican.va/content/pius-x/la/motu_proprio/documents/hf_p-x_motu-proprio_19100901_sacrorum-antistitum.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-02-1910-ocr.pdf'),
     'pascendi': ('Pascendi Dominici Gregis', 'Sobre as doutrinas dos modernistas', 'Carta encíclica', 'São Pio X',
         '8 de setembro de 1907', 1907, 'latim', 'la', 'ASS 40 (1907), p. 593 e seguintes',
         'https://www.vatican.va/content/pius-x/la/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html',
+        'https://www.vatican.va/archive/ass/documents/ASS-40-1907-ocr.pdf'),
+    # decreto do Santo Ofício aprovado pelo papa: fica sob «Igreja Católica», no grupo de São Pio X, como os outros
+    # (decisão de 02/11); o site da Santa Sé não tem o texto latino, e a base é o PDF das ASS (url do texto: None)
+    'lamentabili': ('Lamentabili sane exitu', 'Sobre os erros dos modernistas',
+        'Decreto do Santo Ofício', 'São Pio X',
+        '3 de julho de 1907', 1907, 'latim', 'la', 'ASS 40 (1907), p. 470-478', None,
         'https://www.vatican.va/archive/ass/documents/ASS-40-1907-ocr.pdf'),
     'tra-le-sollecitudini': ('Tra le sollecitudini', 'Sobre a música sacra', 'Motu proprio', 'São Pio X',
         '22 de novembro de 1903', 1903, 'italiano', 'it', 'ASS 36 (1903-1904), p. 329-339',
@@ -75,16 +101,40 @@ ADJETIVO = {'la': 'latino', 'it': 'italiano', 'de': 'alemão'}
 ACTA = {'AAS': '_Acta Apostolicae Sedis_', 'ASS': '_Acta Sanctae Sedis_'}
 NUMERACAO = {   # de onde vem a numeração dos parágrafos (a marca à margem)
     'tra-le-sollecitudini': 'Os números dos parágrafos são os do próprio documento.',
+    'lamentabili': ('Os números das 65 proposições são os do próprio decreto. As notas que as _Acta_ acrescentam, '
+                    'marcadas «N. R.» (nota da redação), não fazem parte do decreto e ficaram de fora.'),
+    'sacrorum-antistitum': ('O documento não numera os parágrafos, e o site do Vaticano não o tem em outra língua; '
+                            'por isso não há marca à margem.'),
+    'studiorum-ducem': ('O documento não numera os parágrafos, e o site do Vaticano não o tem em inglês, cuja '
+                        'numeração seguimos nos outros documentos; por isso não há marca à margem.'),
     'mit-brennender-sorge': ('Os números dos parágrafos são os do texto alemão do site da Santa Sé (as _Acta_ não '
                              'numeram; a versão inglesa junta parágrafos e vai só até 43).'),
 }
+ABERTURA = {  # id: o começo da apresentação, quando «<tipo> de <papa>, de <data>.» não serve
+    'lamentabili': ('Decreto do Santo Ofício (a Sagrada Congregação da Romana e Universal Inquisição), de 3 de '
+                    'julho de 1907, aprovado e confirmado por São Pio X no dia seguinte, com as 65 proposições '
+                    'condenadas dos modernistas.'),
+}
+SEM_NOTAS = {'lamentabili'}  # documentos sem notas próprias
 CORRECOES = {  # id: frase sobre as correções feitas no texto de base
     'mit-brennender-sorge': ('O texto do site é de outra composição que não a das _Acta_: onde ele perdia uma frase '
                              '(§ 35) e onde tinha erros evidentes de digitação, seguimos as _Acta_.'),
     'casti-connubii': ('Os erros de digitalização do site (mais de sessenta) foram corrigidos pelas _Acta_, cuja '
                        'divisão em parágrafos seguimos; também por elas se acertaram as chamadas de nota que o site '
                        'trocava.'),
+    'lamentabili': ('Os erros evidentes da leitura do PDF (OCR) foram corrigidos pela gramática e pelo texto '
+                    'corrente do decreto.'),
+    'miserentissimus-redemptor': ('Os erros de digitalização do site (uns oitenta) foram corrigidos pelas _Acta_, e também '
+                                  'cinco referências bíblicas erradas das notas.'),
+    'studiorum-ducem': ('Os erros de digitalização do site (uns setenta) foram corrigidos pelas _Acta_, e por elas '
+                        'se juntaram três parágrafos que o site partia ao meio.'),
+    'rerum-ecclesiae': ('Os erros evidentes da leitura do PDF (OCR) foram corrigidos pela gramática, pelo sentido e pela '
+                        'versão inglesa do site; as notas, que nas _Acta_ recomeçam a cada página, vão numeradas em sequência.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
+    'ad-beatissimi': ('Os erros evidentes de digitalização do site (uns quarenta) foram corrigidos. Num caso, no '
+                      '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),
+    'sacrorum-antistitum': ('Os erros evidentes de digitalização (uns trinta) foram corrigidos, e as chamadas de '
+                            'nota que o site perdia ou trocava voltaram ao lugar das _Acta_.'),
     'spiritus-paraclitus': ('Os erros de digitalização do site (uns setenta no texto e trinta nas notas) foram '
                             'corrigidos pelas _Acta_.'),
 }
@@ -95,8 +145,10 @@ def meta(doc):
     acta = ACTA[citacao[:3]]
     numeracao = NUMERACAO.get(doc, 'A pequena marca à margem dá a numeração dos parágrafos mais usada nas '
                                    'citações, a da versão inglesa do site do Vaticano.')
-    texto = (f'**O documento.** {tipo} de {papa}, de {data}. O texto de base é o {lingua} oficial, publicado nas '
-             f'{acta} ({citacao}), na transcrição do site da Santa Sé. ' + CORRECOES.get(doc, ''))
+    abertura = ABERTURA.get(doc, f'{tipo} de {papa}, de {data}.')
+    texto = (f'**O documento.** {abertura} O texto de base é o {lingua} oficial, publicado nas '
+             f'{acta} ({citacao}), ' + ('na transcrição do site da Santa Sé. ' if url else
+             'transcrito do PDF do volume (o site da Santa Sé não tem página com o texto). ') + CORRECOES.get(doc, ''))
     return {
         'id': doc, 'autor': 'igreja-catolica', 'titulo': tit, 'subtitulo': sub,
         'ano': ano, 'datas': f'{papa}, {ano}', 'genero': 'Magistério', 'grupo': papa, 'documento': True,
@@ -107,11 +159,12 @@ def meta(doc):
             'apresentacao': (
                 texto.strip() + '\n\n'
                 '**A tradução.** Nossa, feita do ' + lingua + ', em português do Brasil. As citações da Escritura e de '
-                'outros documentos foram traduzidas como o documento as dá, e as notas são as dele. ' + numeracao + '\n\n'
+                'outros documentos foram traduzidas como o documento as dá' + ('. ' if doc in SEM_NOTAS else
+                ', e as notas são as dele. ') + numeracao + '\n\n'
                 f'**O original ao lado.** O botão «{lingua.capitalize()}», no alto da página de leitura, mostra o texto '
                 f'{ADJETIVO[cod]} junto da tradução.'),
             'fontes': [
-                {'nome': f'Site da Santa Sé, texto em {lingua}', 'url': url},
+                {'nome': f'Site da Santa Sé, texto em {lingua}', 'url': url}] * bool(url) + [
                 {'nome': f'{acta.strip("_")}, {citacao}', 'url': pdf, 'nota': 'o texto oficial, em fac-símile'},
             ],
         },

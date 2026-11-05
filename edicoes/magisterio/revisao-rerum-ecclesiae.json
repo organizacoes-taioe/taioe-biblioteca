@@ -1,0 +1,45 @@
+{
+ "id": "magisterio-rerum-ecclesiae",
+ "rotulo": "Rerum Ecclesiae (Pio XI, 1926)",
+ "url": "/biblioteca/igreja-catolica/rerum-ecclesiae/",
+ "escolhas": [
+  {
+   "id": "indigenae",
+   "titulo": "Os _indigenae_ das terras de missão (o «clero indígena» que o papa quer formar) ficam «nativos»?",
+   "ref": "§ 16 a § 33",
+   "contexto": "É o tema central da encíclica: formar padres, religiosos e catequistas do próprio povo, na China, na Índia, na África. As traduções antigas dizem «clero indígena»; no Brasil de hoje «indígena» faz pensar só nos povos indígenas das Américas. Hoje o texto diz «clero nativo», «alunos nativos», «sacerdotes nativos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«nativos» («clero nativo»), como está",
+     "nota": "O sentido do latim (os naturais da terra), sem o sentido restrito que «indígena» tem hoje no Brasil.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«indígenas» («clero indígena»)",
+     "nota": "O termo histórico das traduções e dos livros de missiologia."
+    }
+   ]
+  },
+  {
+   "id": "ethnici",
+   "titulo": "Os _ethnici_, os povos ainda não cristãos, ficam «pagãos»?",
+   "ref": "Em todo o documento",
+   "contexto": "O latim usa _ethnici_ (e às vezes _infideles_, que vai como «infiéis»). «Pagãos» é o termo corrente; «gentios» é mais bíblico e mais suave, mas hoje pouco usado fora da Bíblia.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«pagãos», como está",
+     "nota": "Claro para o leitor de hoje e próprio da linguagem missionária da época.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«gentios»",
+     "nota": "Mais perto do latim bíblico (_gentes_); soa antiquado."
+    }
+   ]
+  }
+ ]
+}

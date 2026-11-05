@@ -24,3 +24,6 @@
 - p. 36, «respondeu que era foã»: nome da mártir no impresso («foã», provável «Fulana»/«Joana»); mantido como impresso.
 - p. 36, «Irmã» (maiúscula em «sua Irmã a fazer») no impresso; mantida.
 - p. 38, «cunhado seu»: a vírgula depois de «outro» (acompanhando ao Padre com outro, cunhado seu,) é tinta clara; mantida.
+- p. 43: o número impresso no topo é «43» (o voto lia «48»); título do cap. 23 no impresso: «De como obedeciam ao Padre José as Aves e animaes feros fallando com elles na lingoa Brasilica».
+- p. 43, última linha do cap. 22: «de 1605» (algarismo final em tipo pesado, lido «5»; o voto dizia «1603/1605»).
+- p. 44, «Padre Pº Leitão»: o «o» sobrescrito está sem ponto visível («Pº»); transcrito «Pº».

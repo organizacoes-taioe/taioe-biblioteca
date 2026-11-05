@@ -159,7 +159,7 @@ def finalizar(pid, texto, titulo):
             if re.fullmatch(r"[A-Z .,]+", s) and len(s) > 3:
                 nome = s.strip(' .')
                 if ',' in nome or nome.startswith('OS MESMOS'):
-                    out += ['# rubrica: ' + titulo_caixa(nome) + '.', '']
+                    out += ['# rubrica: ' + ', '.join(x.strip().capitalize() if not x.strip().startswith('OS MESMOS') else x.strip().capitalize() for x in nome.split(',')).replace('Os mesmos', 'Os mesmos') + '.', '']
                 else:
                     out += ['', '# fala: ' + nome, '']
                 continue

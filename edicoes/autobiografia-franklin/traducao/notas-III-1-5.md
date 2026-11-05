@@ -27,11 +27,6 @@
 - III.1, a máxima do livro emprestado: «Quem uma vez nos fez um favor estará mais disposto a nos fazer
   outro do que aquele a quem nós mesmos fizemos um favor» (*you* genérico → «nos»).
 
-## Candidatos a decisão para o Gere
-
-- *Society of the Free and Easy*: «Sociedade dos Livres e Desembaraçados» (recomendada) × «dos Livres e
-  à Vontade» (mais perto de *easy*, perde o eco das dívidas).
-
 ## III.2
 
 - *city watch* → «guarda noturna»; *constable* (de *ward*) → «inspetor de quarteirão» (o termo brasileiro
@@ -87,3 +82,33 @@
   «por esta lhe é ordenado»); o espaço «------» fica.
 - *another projector* → «outro homem de projetos».
 - Franklin a Tennent e os de Bond («Você consultou o Franklin…?»): você.
+
+## III.5
+
+- *scavengers* → «varredores de rua» (e «os varredores»); *foot-pavement*, *footway* → «calçada»;
+  *gutter*, *kennel* → «sarjeta»; *watchmen* → «guardas noturnos»; *round* → «ronda».
+- *globe lamps* → «lampiões de globo»; *panes* → «vidros»; *funnel* → «funil»; *flax* → «linho».
+- *bodies of carts… upon sliders, with lattice bottoms* → «caixas de carroça… sobre patins, com fundo de
+  grade»; *draining-sleds* → «trenós de escorrer».
+- *Jersey Market*, *Vauxhall*, *the Strand*, *Craven Street*, *Fleet Street* ficam.
+- *comptroller* → «controlador»; *offices* / *officers* (do correio) → «agências» / «agentes»;
+  *College of Cambridge* → «o Colégio de Cambridge» (Harvard; sem explicar); *Yale College* → «o Colégio
+  de Yale»; *Master of Arts* → «mestre em artes»; *natural philosophy* → «filosofia natural».
+- A varredeira de Londres fala errado (*I sweeps before gentlefolkses doors, and hopes*): marquei com
+  erros leves de concordância («na frente das porta dos fidalgo… espero que eles me dá»). Candidato.
+- *not one farthing!* → «nem um vintém!» (o guia não lista *farthing*; «vintém» é a expressão corrente
+  e guarda o desabafo). Candidato.
+- *duty on candles* → «imposto sobre as velas»; *tallow* → «sebo»; *guineas* → «guinéus».
+
+## Candidatos a decisão para o Gere
+
+1. *Society of the Free and Easy* (III.1): «Sociedade dos Livres e Desembaraçados» (recomendada:
+   «desembaraçado» = sem embaraço de dívida, o que Franklin explica logo depois) × «dos Livres e à
+   Vontade» (mais perto de *easy*, perde o eco das dívidas).
+2. O trocadilho de Syng (III.3), *fire-engine* = bomba de incêndio e canhão: «máquina de fogo» nas duas
+   vezes (recomendada; mantém a piada, mas a 1ª vez soa um pouco estranha para bomba) × «bomba de
+   incêndio» na 1ª e «boca de fogo» (o canhão) na 2ª (mais natural, a piada fica no som).
+3. A fala da varredeira (III.5): português popular com erros leves («das porta dos fidalgo… que eles me
+   dá», recomendada) × português correto, perdendo a marca social que Franklin pôs de propósito.
+4. *not one farthing!* (III.5): «nem um vintém!» (recomendada) × «nem um quarto de pêni!» (fiel à moeda,
+   sem a força do desabafo).

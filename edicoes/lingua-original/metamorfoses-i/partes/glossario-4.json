@@ -1,0 +1,912 @@
+{
+ "verbetes": {
+  "haec": {
+   "lema": "hic",
+   "classe": "pronome demonstrativo",
+   "forma": "acusativo neutro plural",
+   "def": [
+    "Este, esta, isto; estes, estas."
+   ],
+   "nota": "Complemento de «super»: «haec super» = «super haec», «por cima disto», isto é, por cima do ar e dos ventos descritos antes."
+  },
+  "super": {
+   "lema": "super",
+   "classe": "preposição",
+   "def": [
+    "Acima de, por cima de, sobre (com acusativo ou ablativo)."
+   ],
+   "nota": "Vem depois do seu complemento («haec super» = «super haec»), com acusativo."
+  },
+  "inposuit": {
+   "lema": "impono",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Pôr, colocar, assentar sobre."
+   ],
+   "nota": "Grafia antiga de «imposuit». O sujeito é o criador, «mundi fabricator», do verso 57."
+  },
+  "carentem": {
+   "lema": "careo",
+   "classe": "verbo",
+   "forma": "particípio presente, acusativo masculino singular",
+   "def": [
+    "Carecer, estar sem; estar privado de (em geral com ablativo)."
+   ],
+   "nota": "Concorda com «aethera» e pede o ablativo «gravitate»: «sem peso»."
+  },
+  "aethera": {
+   "lema": "aether",
+   "classe": "substantivo masculino",
+   "forma": "acusativo singular, forma grega",
+   "def": [
+    "Céu, éter; a substância que enche o céu acima das nuvens, distinta do ar."
+   ],
+   "nota": "Objeto de «inposuit». O éter é a região mais alta e mais pura do céu, acima do ar."
+  },
+  "terrenae": {
+   "lema": "terrenus",
+   "classe": "adjetivo",
+   "forma": "genitivo feminino singular",
+   "def": [
+    "Terreno, da terra."
+   ],
+   "nota": "Concorda com «faecis»: «da borra terrena»."
+  },
+  "faecis": {
+   "lema": "faex",
+   "classe": "substantivo feminino",
+   "forma": "genitivo singular",
+   "def": [
+    "Sedimento, borra (de líquidos)."
+   ],
+   "nota": "Genitivo com «quicquam»: «nada de borra terrena», isto é, nenhuma impureza da terra."
+  },
+  "habentem": {
+   "lema": "habeo",
+   "classe": "verbo",
+   "forma": "particípio presente, acusativo masculino singular",
+   "def": [
+    "Ter, possuir."
+   ],
+   "nota": "Concorda com «aethera»; o objeto é «quicquam», com o genitivo «faecis»."
+  },
+  "ita": {
+   "lema": "ita",
+   "classe": "advérbio",
+   "def": [
+    "Assim, deste modo."
+   ]
+  },
+  "limitibus": {
+   "lema": "limes",
+   "classe": "substantivo masculino",
+   "forma": "ablativo plural",
+   "def": [
+    "Limite posto entre dois terrenos ou campos; fronteira, divisa."
+   ],
+   "nota": "Ablativo de meio: o criador separou tudo «por meio de limites»."
+  },
+  "dissaepserat": {
+   "lema": "dissaepio",
+   "classe": "verbo",
+   "forma": "mais-que-perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Separar por um limite, dividir."
+   ],
+   "nota": "O sujeito é o criador do mundo («mundi fabricator», v. 57)."
+  },
+  "certis": {
+   "lema": "certus",
+   "classe": "adjetivo",
+   "forma": "ablativo masculino plural",
+   "def": [
+    "Fixo, determinado, firme."
+   ],
+   "nota": "Concorda com «limitibus»: limites fixos."
+  },
+  "diu": {
+   "lema": "diu",
+   "classe": "advérbio",
+   "def": [
+    "Por muito tempo, longamente."
+   ]
+  },
+  "massa": {
+   "lema": "massa",
+   "classe": "substantivo feminino",
+   "forma": "ablativo singular",
+   "def": [
+    "Massa, volume (de matéria)."
+   ],
+   "nota": "Ablativo com «sub»: a massa confusa do caos, de onde saíram as coisas."
+  },
+  "latuere": {
+   "lema": "lateo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Esconder-se, ficar oculto."
+   ],
+   "nota": "Forma poética de «latuerunt». O sujeito é «sidera» (verso 71)."
+  },
+  "sub": {
+   "lema": "sub",
+   "classe": "preposição",
+   "def": [
+    "Sob, debaixo de (com ablativo); com acusativo, para debaixo de."
+   ],
+   "nota": "Aqui, com ablativo: «sub illa massa»."
+  },
+  "illa": {
+   "lema": "ille",
+   "classe": "pronome demonstrativo",
+   "forma": "ablativo feminino singular",
+   "def": [
+    "Aquele, aquela, aquilo."
+   ],
+   "nota": "Concorda com «massa»: «aquela massa», isto é, a massa do caos já mencionada."
+  },
+  "sidera": {
+   "lema": "sidus",
+   "classe": "substantivo neutro",
+   "forma": "nominativo plural",
+   "def": [
+    "Estrela.",
+    "Grupo de estrelas, constelação."
+   ],
+   "nota": "Sujeito de «coeperunt». As estrelas estavam escondidas, apertadas na massa do caos."
+  },
+  "sidera#2": {
+   "lema": "sidus",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Estrela.",
+    "Grupo de estrelas, constelação."
+   ],
+   "nota": "Com «ad»: o homem ergue o rosto «para as estrelas»."
+  },
+  "coeperunt": {
+   "lema": "coepi",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Ter começado, ter principiado."
+   ],
+   "nota": "Verbo que só tem as formas do perfeito (e as que dele vêm); o sentido é de presente ou passado conforme o contexto. Aqui: «começaram»."
+  },
+  "effervescere": {
+   "lema": "effervesco",
+   "classe": "verbo",
+   "forma": "infinitivo presente",
+   "def": [
+    "Ferver, transbordar fervendo; espumar, efervescer."
+   ],
+   "nota": "Figurado: as estrelas, antes escondidas, começam a brilhar e a cintilar como algo que ferve."
+  },
+  "neu": {
+   "lema": "neve",
+   "classe": "conjunção",
+   "def": [
+    "E não, nem; e que não."
+   ],
+   "nota": "«Neu» é outra forma de «neve». Liga um novo desejo ou finalidade negativa a «foret»: «e para que não»."
+  },
+  "regio": {
+   "lema": "regio",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Região, distrito, província."
+   ],
+   "nota": "Sujeito de «foret»."
+  },
+  "ulla": {
+   "lema": "ullus",
+   "classe": "adjetivo indefinido",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Algum, qualquer (usado em frases negativas)."
+   ],
+   "nota": "Concorda com «regio»: «neu regio ulla» = «e para que região alguma»."
+  },
+  "animalibus": {
+   "lema": "animal",
+   "classe": "substantivo neutro",
+   "forma": "ablativo plural",
+   "def": [
+    "Animal.",
+    "Ser vivo, criatura."
+   ],
+   "nota": "Ablativo com «orba»: «sem animais»."
+  },
+  "orba": {
+   "lema": "orbus",
+   "classe": "adjetivo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Privado, desprovido, despojado (de algo)."
+   ],
+   "nota": "Concorda com «regio» e pede o ablativo «animalibus»: «região desprovida de seus animais»."
+  },
+  "astra": {
+   "lema": "astrum",
+   "classe": "substantivo neutro",
+   "forma": "nominativo plural",
+   "def": [
+    "(Poético) estrela, constelação."
+   ],
+   "nota": "Sujeito de «tenent»."
+  },
+  "tenent": {
+   "lema": "teneo",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Possuir, ocupar, controlar."
+   ],
+   "nota": "Os sujeitos são «astra» e «formae deorum»; o objeto é «solum»."
+  },
+  "caeleste": {
+   "lema": "caelestis",
+   "classe": "adjetivo",
+   "forma": "acusativo neutro singular",
+   "def": [
+    "Celeste, do céu ou dos céus."
+   ],
+   "nota": "Concorda com «solum»: «o chão celeste»."
+  },
+  "solum": {
+   "lema": "solum",
+   "classe": "substantivo neutro",
+   "forma": "acusativo singular",
+   "def": [
+    "Chão, terra, solo."
+   ],
+   "nota": "«Caeleste solum»: o chão do céu, isto é, a região celeste onde moram os astros e os deuses."
+  },
+  "formaeque": {
+   "partes": [
+    {
+     "lema": "forma",
+     "classe": "substantivo feminino",
+     "forma": "nominativo plural",
+     "def": [
+      "Forma, figura, aspecto."
+     ]
+    },
+    {
+     "lema": "-que",
+     "classe": "conjunção",
+     "def": [
+      "E."
+     ]
+    }
+   ],
+   "nota": "«Formae deorum»: as figuras dos deuses, isto é, os próprios deuses, que ocupam o céu."
+  },
+  "cesserunt": {
+   "lema": "cedo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Caber (a alguém) como posse; passar a ser de alguém."
+   ],
+   "nota": "Com dativo («piscibus»): «couberam aos peixes»."
+  },
+  "nitidis": {
+   "lema": "nitidus",
+   "classe": "adjetivo",
+   "forma": "dativo masculino plural",
+   "def": [
+    "Brilhante, polido, reluzente."
+   ],
+   "nota": "Concorda com «piscibus»."
+  },
+  "habitandae": {
+   "lema": "habito",
+   "classe": "verbo",
+   "forma": "gerundivo, nominativo feminino plural",
+   "def": [
+    "Residir, habitar, morar."
+   ],
+   "nota": "Gerundivo: «undae habitandae» são as águas «a serem habitadas», próprias para morar."
+  },
+  "piscibus": {
+   "lema": "piscis",
+   "classe": "substantivo masculino",
+   "forma": "dativo plural",
+   "def": [
+    "Peixe."
+   ],
+   "nota": "Dativo com «cesserunt»: as águas couberam aos peixes."
+  },
+  "undae": {
+   "lema": "unda",
+   "classe": "substantivo feminino",
+   "forma": "nominativo plural",
+   "def": [
+    "(Poético) água, águas.",
+    "Onda."
+   ],
+   "nota": "Aqui, as águas, o mar e os rios."
+  },
+  "terra": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Terra firme, em oposição às partes líquidas da Terra."
+   ],
+   "nota": "Sujeito de «cepit»."
+  },
+  "feras": {
+   "lema": "fera",
+   "classe": "substantivo feminino",
+   "forma": "acusativo plural",
+   "def": [
+    "Animal selvagem, fera."
+   ],
+   "nota": "Objeto de «cepit»."
+  },
+  "cepit": {
+   "lema": "capio",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ocupar, possuir.",
+    "Receber, acolher."
+   ],
+   "nota": "Aqui, «recebeu», «acolheu». O verbo vale também para a segunda parte do verso: «volucres agitabilis aer [cepit]»."
+  },
+  "volucres": {
+   "lema": "volucris",
+   "classe": "substantivo feminino",
+   "forma": "acusativo plural",
+   "def": [
+    "Ave (ou outra criatura voadora)."
+   ],
+   "nota": "Objeto de «cepit», que se subentende: «o ar ágil recebeu as aves»."
+  },
+  "agitabilis": {
+   "lema": "agitabilis",
+   "classe": "adjetivo",
+   "forma": "nominativo masculino singular",
+   "def": [
+    "Facilmente movido, móvel."
+   ],
+   "nota": "Concorda com «aer». Aplica-se ao ar, que se move sem esforço."
+  },
+  "sanctius": {
+   "lema": "sanctus",
+   "classe": "adjetivo",
+   "forma": "comparativo, nominativo neutro singular",
+   "def": [
+    "Sagrado, venerável, augusto, divino, santo."
+   ],
+   "nota": "Comparativo: «mais venerável». Concorda com «animal», no verso 76."
+  },
+  "animal": {
+   "lema": "animal",
+   "classe": "substantivo neutro",
+   "forma": "nominativo singular",
+   "def": [
+    "Animal.",
+    "Ser vivo, criatura."
+   ],
+   "nota": "Sujeito de «deerat». Um animal «mais venerável» que os outros: o homem, que vai ser criado."
+  },
+  "mentisque": {
+   "partes": [
+    {
+     "lema": "mens",
+     "classe": "substantivo feminino",
+     "forma": "genitivo singular",
+     "def": [
+      "Mente; inteligência, razão."
+     ]
+    },
+    {
+     "lema": "-que",
+     "classe": "conjunção",
+     "def": [
+      "E."
+     ]
+    }
+   ],
+   "nota": "Genitivo com «capacius»: «mais capaz de mente alta»."
+  },
+  "capacius": {
+   "lema": "capax",
+   "classe": "adjetivo",
+   "forma": "comparativo, nominativo neutro singular",
+   "def": [
+    "Capaz de, apto, adequado para."
+   ],
+   "nota": "Comparativo: «mais capaz». Pede o genitivo «mentis altae»: capaz de uma mente elevada."
+  },
+  "altae": {
+   "lema": "altus",
+   "classe": "adjetivo",
+   "forma": "genitivo feminino singular",
+   "def": [
+    "De espírito elevado, magnânimo, grande."
+   ],
+   "nota": "Concorda com «mentis»: uma mente elevada, nobre."
+  },
+  "deerat": {
+   "lema": "desum",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Faltar, estar em falta."
+   ],
+   "nota": "Tem dois sujeitos: «animal» (v. 76) e, depois do «et», a oração «quod … posset»: faltava um ser que pudesse dominar."
+  },
+  "dominari": {
+   "lema": "dominor",
+   "classe": "verbo",
+   "forma": "infinitivo presente",
+   "def": [
+    "Dominar, governar, reinar."
+   ],
+   "nota": "Verbo depoente: forma passiva com sentido ativo. Com «in» e acusativo («in cetera»): dominar sobre os outros."
+  },
+  "cetera": {
+   "lema": "ceterus",
+   "classe": "adjetivo",
+   "forma": "acusativo neutro plural",
+   "def": [
+    "O outro, o restante, o resto."
+   ],
+   "nota": "Em «in cetera»: «sobre os demais», isto é, sobre as outras criaturas."
+  },
+  "cetera#2": {
+   "lema": "ceterus",
+   "classe": "adjetivo",
+   "forma": "nominativo neutro plural",
+   "def": [
+    "O outro, o restante, o resto."
+   ],
+   "nota": "Concorda com «animalia»: «os demais animais»."
+  },
+  "posset": {
+   "lema": "possum",
+   "classe": "verbo",
+   "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+   "def": [
+    "Poder, ser capaz de."
+   ],
+   "nota": "Subjuntivo numa oração relativa: «um ser que pudesse dominar»."
+  },
+  "natus": {
+   "lema": "nascor",
+   "classe": "verbo",
+   "forma": "particípio perfeito, nominativo masculino singular",
+   "def": [
+    "Nascer, ser gerado."
+   ],
+   "nota": "Com «est», mais adiante no mesmo verso («natus … est»), forma o perfeito: «nasceu». Nascor é depoente: forma passiva, sentido ativo."
+  },
+  "homo": {
+   "lema": "homo",
+   "classe": "substantivo masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "Ser humano, pessoa, homem."
+   ],
+   "nota": "Sujeito de «natus est»."
+  },
+  "sive": {
+   "lema": "sive",
+   "classe": "conjunção",
+   "def": [
+    "Ou; (em «sive … sive …») quer … quer."
+   ],
+   "nota": "Em «sive … sive»: o poeta propõe duas explicações para a origem do homem: ou o criador o fez de semente divina, ou a terra, ainda jovem, guardava sementes do céu."
+  },
+  "hunc": {
+   "lema": "hic",
+   "classe": "pronome demonstrativo",
+   "forma": "acusativo masculino singular",
+   "def": [
+    "Este, esta, isto; ele, ela."
+   ],
+   "nota": "Refere-se ao homem; é objeto de «fecit»."
+  },
+  "divino": {
+   "lema": "divinus",
+   "classe": "adjetivo",
+   "forma": "ablativo neutro singular",
+   "def": [
+    "Divino, de um deus, sobre-humano."
+   ],
+   "nota": "Concorda com «semine»."
+  },
+  "semine": {
+   "lema": "semen",
+   "classe": "substantivo neutro",
+   "forma": "ablativo singular",
+   "def": [
+    "Semente (de plantas).",
+    "Descendência; causa, princípio."
+   ],
+   "nota": "Ablativo de origem ou meio. Aqui, no sentido figurado: o princípio divino de que o homem nasce."
+  },
+  "opifex": {
+   "lema": "opifex",
+   "classe": "substantivo masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "Aquele que faz um trabalho, sobretudo criador ou construtivo: artífice, criador, artesão."
+   ],
+   "nota": "O deus criador, o mesmo «mundi fabricator» do verso 57."
+  },
+  "melioris": {
+   "lema": "melior",
+   "classe": "adjetivo",
+   "forma": "comparativo, genitivo masculino singular",
+   "def": [
+    "Melhor."
+   ],
+   "nota": "Comparativo de «bonus», concorda com «mundi»: «de um mundo melhor»."
+  },
+  "recens": {
+   "lema": "recens",
+   "classe": "adjetivo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Novo, recente; fresco."
+   ],
+   "nota": "Concorda com «tellus»: a terra ainda nova, recém-formada."
+  },
+  "seductaque": {
+   "partes": [
+    {
+     "lema": "seduco",
+     "classe": "verbo",
+     "forma": "particípio perfeito, nominativo feminino singular",
+     "def": [
+      "Levar para longe, afastar do caminho.",
+      "Seduzir."
+     ]
+    },
+    {
+     "lema": "-que",
+     "classe": "conjunção",
+     "def": [
+      "E."
+     ]
+    }
+   ],
+   "nota": "Aqui, «afastada, separada»: a terra, havia pouco separada do alto éter. O verbete do Wiktionary traz só o sentido de «levar a desvio»; o de «separar» vem de «se-» («à parte») + «ducere» («levar»)."
+  },
+  "nuper": {
+   "lema": "nuper",
+   "classe": "advérbio",
+   "def": [
+    "Há pouco, recentemente, não faz muito tempo."
+   ]
+  },
+  "alto": {
+   "lema": "altus",
+   "classe": "adjetivo",
+   "forma": "ablativo masculino singular",
+   "def": [
+    "Alto, elevado, de grande altura."
+   ],
+   "nota": "Concorda com «aethere»: «do alto éter». Com «ab»: separada do alto éter."
+  },
+  "aethere": {
+   "lema": "aether",
+   "classe": "substantivo masculino",
+   "forma": "ablativo singular",
+   "def": [
+    "Céu, éter; a substância que enche o céu acima das nuvens, distinta do ar."
+   ],
+   "nota": "Ablativo com «ab» («ab alto aethere»): de onde a terra foi separada."
+  },
+  "cognati": {
+   "lema": "cognatus",
+   "classe": "adjetivo",
+   "forma": "genitivo neutro singular",
+   "def": [
+    "(Figurado) aparentado, ligado, semelhante."
+   ],
+   "nota": "Concorda com «caeli». A terra guardava sementes do céu «seu parente», isto é, de natureza igual."
+  },
+  "retinebat": {
+   "lema": "retineo",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Reter, guardar, conservar."
+   ],
+   "nota": "Sujeito: «tellus» (v. 80)."
+  },
+  "quam": {
+   "lema": "qui",
+   "classe": "pronome relativo",
+   "forma": "acusativo feminino singular",
+   "def": [
+    "Que, o qual, quem."
+   ],
+   "nota": "Refere-se a «tellus» (v. 80) e é o objeto de «finxit»; «mixtam» concorda com ele."
+  },
+  "satus": {
+   "lema": "sero",
+   "classe": "verbo",
+   "forma": "particípio perfeito, nominativo masculino singular",
+   "def": [
+    "Gerado, nascido de, descendente de; filho de."
+   ],
+   "nota": "«Satus Iapeto»: filho de Jápeto, isto é, Prometeu, o Titã que modelou o homem."
+  },
+  "iapeto": {
+   "lema": "Iapetus",
+   "classe": "substantivo próprio masculino",
+   "forma": "ablativo singular",
+   "def": [
+    "(Deus grego) Jápeto."
+   ],
+   "nota": "Titã, pai de Prometeu e de Epimeteu. Ablativo de origem com «satus»: «Prometeu, filho de Jápeto»."
+  },
+  "mixtam": {
+   "lema": "misceo",
+   "classe": "verbo",
+   "forma": "particípio perfeito, acusativo feminino singular",
+   "def": [
+    "Misturar, mesclar.",
+    "Unir, combinar."
+   ],
+   "nota": "Concorda com «quam» (a terra): terra misturada com água."
+  },
+  "pluvialibus": {
+   "lema": "pluvialis",
+   "classe": "adjetivo",
+   "forma": "ablativo feminino plural",
+   "def": [
+    "Da chuva, relativo à chuva; chuvoso."
+   ],
+   "nota": "Concorda com «undis»: água de chuva."
+  },
+  "undis": {
+   "lema": "unda",
+   "classe": "substantivo feminino",
+   "forma": "ablativo plural",
+   "def": [
+    "(Poético) água, águas.",
+    "Onda."
+   ],
+   "nota": "Ablativo de companhia ou meio com «mixtam»: misturada com águas de chuva."
+  },
+  "finxit": {
+   "lema": "fingo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Modelar, moldar, formar."
+   ],
+   "nota": "Sujeito: «satus Iapeto». Um verbo próprio de modelar barro ou massa."
+  },
+  "effigiem": {
+   "lema": "effigies",
+   "classe": "substantivo feminino",
+   "forma": "acusativo singular",
+   "def": [
+    "Cópia, imitação.",
+    "Imagem, retrato, estátua."
+   ],
+   "nota": "Em «in effigiem … deorum»: à imagem dos deuses."
+  },
+  "moderantum": {
+   "lema": "moderor",
+   "classe": "verbo",
+   "forma": "particípio presente, genitivo masculino plural",
+   "def": [
+    "Reger, governar, dirigir, controlar."
+   ],
+   "nota": "Forma contraída de «moderantium»; concorda com «deorum». Ligado a «cuncta» (objeto): os deuses que governam todas as coisas."
+  },
+  "cuncta": {
+   "lema": "cunctus",
+   "classe": "adjetivo",
+   "forma": "acusativo neutro plural",
+   "def": [
+    "Todo junto, em conjunto; inteiro."
+   ],
+   "nota": "Usado como nome: «todas as coisas», o conjunto do mundo. Objeto de «moderantum»."
+  },
+  "pronaque": {
+   "partes": [
+    {
+     "lema": "pronus",
+     "classe": "adjetivo",
+     "forma": "nominativo neutro plural",
+     "def": [
+      "Inclinado para a frente.",
+      "Curvado, debruçado."
+     ]
+    },
+    {
+     "lema": "-que",
+     "classe": "conjunção",
+     "def": [
+      "E."
+     ]
+    }
+   ],
+   "nota": "Concorda com «animalia»: os animais debruçados para a terra."
+  },
+  "spectent": {
+   "lema": "specto",
+   "classe": "verbo",
+   "forma": "presente do subjuntivo, 3ª pessoa do plural",
+   "def": [
+    "Olhar, observar, contemplar."
+   ],
+   "nota": "Subjuntivo em oração com «cum» de sentido concessivo: «embora os outros animais olhem para a terra»."
+  },
+  "animalia": {
+   "lema": "animal",
+   "classe": "substantivo neutro",
+   "forma": "nominativo plural",
+   "def": [
+    "Animal.",
+    "Ser vivo, criatura."
+   ],
+   "nota": "Sujeito de «spectent»."
+  },
+  "os": {
+   "lema": "os",
+   "classe": "substantivo neutro",
+   "forma": "acusativo singular",
+   "def": [
+    "Rosto, cabeça.",
+    "Feições, semblante."
+   ],
+   "nota": "Aqui, o rosto do homem, e não o «osso» («os, ossis»), outra palavra de mesma forma. Objeto de «dedit»."
+  },
+  "homini": {
+   "lema": "homo",
+   "classe": "substantivo masculino",
+   "forma": "dativo singular",
+   "def": [
+    "Ser humano, pessoa, homem."
+   ],
+   "nota": "Dativo: «ao homem»."
+  },
+  "sublime": {
+   "lema": "sublimis",
+   "classe": "adjetivo",
+   "forma": "acusativo neutro singular",
+   "def": [
+    "Elevado, alto, sublime."
+   ],
+   "nota": "Concorda com «os»: o rosto erguido, voltado para o alto."
+  },
+  "caelumque": {
+   "partes": [
+    {
+     "lema": "caelum",
+     "classe": "substantivo neutro",
+     "forma": "acusativo singular",
+     "def": [
+      "Céu, firmamento (onde ficam as estrelas e a Via Láctea)."
+     ]
+    },
+    {
+     "lema": "-que",
+     "classe": "conjunção",
+     "def": [
+      "E."
+     ]
+    }
+   ]
+  },
+  "videre": {
+   "lema": "video",
+   "classe": "verbo",
+   "forma": "infinitivo presente",
+   "def": [
+    "Ver, perceber; olhar."
+   ],
+   "nota": "Depende de «iussit» (verso 86): «mandou ver o céu»."
+  },
+  "erectos": {
+   "lema": "erigo",
+   "classe": "verbo",
+   "forma": "particípio perfeito, acusativo masculino plural",
+   "def": [
+    "Levantar, erguer."
+   ],
+   "nota": "Concorda com «vultus»: os rostos erguidos."
+  },
+  "tollere": {
+   "lema": "tollo",
+   "classe": "verbo",
+   "forma": "infinitivo presente",
+   "def": [
+    "Erguer, levantar."
+   ],
+   "nota": "Depende de «iussit»: mandou erguer os rostos."
+  },
+  "modo": {
+   "lema": "modo",
+   "classe": "advérbio",
+   "def": [
+    "Há pouco, recentemente."
+   ],
+   "nota": "Em «modo quae fuerat rudis»: a terra que ainda há pouco era informe."
+  },
+  "fuerat": {
+   "lema": "sum",
+   "classe": "verbo",
+   "forma": "mais-que-perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ser, existir."
+   ],
+   "nota": "Sujeito: o relativo «quae» (a terra). Mais-que-perfeito: «tinha sido»."
+  },
+  "imagine": {
+   "lema": "imago",
+   "classe": "substantivo feminino",
+   "forma": "ablativo singular",
+   "def": [
+    "Imagem, imitação, semelhança, estátua, representação.",
+    "Aparência, semelhança."
+   ],
+   "nota": "Em «sine imagine»: sem forma, sem figura definida."
+  },
+  "induit": {
+   "lema": "induo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Vestir (uma roupa etc.); assumir."
+   ],
+   "nota": "Perfeito; a forma é a mesma do presente. Sentido figurado: a terra «vestiu» figuras de homens, isto é, tomou a forma humana."
+  },
+  "ignotas": {
+   "lema": "ignotus",
+   "classe": "adjetivo",
+   "forma": "acusativo feminino plural",
+   "def": [
+    "Desconhecido, estranho."
+   ],
+   "nota": "Concorda com «figuras»: formas até então nunca vistas."
+  },
+  "hominum": {
+   "lema": "homo",
+   "classe": "substantivo masculino",
+   "forma": "genitivo plural",
+   "def": [
+    "Ser humano, pessoa, homem."
+   ],
+   "nota": "Genitivo com «figuras»: figuras de homens."
+  },
+  "conversa": {
+   "lema": "converto",
+   "classe": "verbo",
+   "forma": "particípio perfeito, nominativo feminino singular",
+   "def": [
+    "Mudar, transformar, converter."
+   ],
+   "nota": "Concorda com «tellus» (v. 87): a terra, transformada."
+  },
+  "figuras": {
+   "lema": "figura",
+   "classe": "substantivo feminino",
+   "forma": "acusativo plural",
+   "def": [
+    "Forma, figura, aspecto."
+   ],
+   "nota": "Objeto de «induit»."
+  }
+ },
+ "ocorrencias": {
+  "84.5": "cetera#2",
+  "86.5": "sidera#2"
+ }
+}

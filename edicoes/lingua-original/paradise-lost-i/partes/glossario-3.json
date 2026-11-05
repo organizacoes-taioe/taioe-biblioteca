@@ -1673,6 +1673,812 @@
         "Equipado com armas; armado.",
         "(obsoleto) Munido de algo que acrescenta força, poder ou eficácia."
       ]
+    },
+    "dislike": {
+      "lema": "dislike",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Ter sentimento de aversão ou antipatia por; não gostar de."
+      ],
+      "nota": "«Durst dislike his reign» é «ousou não aprovar o reinado dele»."
+    },
+    "reign": {
+      "lema": "reign",
+      "classe": "substantivo",
+      "def": [
+        "O exercício do poder soberano.",
+        "O território ou a esfera sobre que se exerce o domínio; reino."
+      ],
+      "nota": "«The reign of Chaos and old Night» (v. 543) é o reino do Caos e da velha Noite, as trevas primordiais."
+    },
+    "reign#2": {
+      "lema": "reign",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Exercer o poder soberano; governar como monarca; reinar."
+      ],
+      "nota": "«Better to reign in Hell than serve in Heaven»: melhor reinar no inferno do que servir no céu."
+    },
+    "preferring": {
+      "lema": "prefer",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(transitivo) Ter o costume de escolher uma coisa em vez de outra; favorecer, gostar mais de."
+      ],
+      "nota": "«Me preferring» é «preferindo-me», isto é, os que me preferiram a ele."
+    },
+    "adverse": {
+      "lema": "adverse",
+      "classe": "adjetivo",
+      "def": [
+        "Contrário; oposto; hostil, que age contra os interesses ou os desejos de alguém."
+      ]
+    },
+    "dubious": {
+      "lema": "dubious",
+      "classe": "adjetivo",
+      "def": [
+        "Que desperta dúvida; questionável, incerto."
+      ],
+      "nota": "Sentido do latim «dubius»: «dubious battle» é a batalha de resultado incerto, em que a vitória ainda oscila."
+    },
+    "plains": {
+      "lema": "plain",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Extensão de terra de relevo relativamente baixo, em especial campo de grama; planície."
+      ]
+    },
+    "shook": {
+      "lema": "shake",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "(transitivo, figurado) Ameaçar derrubar.",
+        "(transitivo, ergativo) Fazer mover-se rapidamente em direções opostas, alternadamente; sacudir."
+      ],
+      "nota": "«Shook his throne» é abalou o trono dele, ameaçou derrubá-lo."
+    },
+    "field": {
+      "lema": "field",
+      "classe": "substantivo",
+      "def": [
+        "Espaço amplo e aberto, em geral cercado, usado para plantar ou criar animais; campo."
+      ],
+      "nota": "Aqui, no v. 677, é o terreno aberto onde o acampamento será fortificado com fossos."
+    },
+    "field#2": {
+      "lema": "field",
+      "classe": "substantivo",
+      "def": [
+        "Lugar onde se trava uma batalha; campo de batalha.",
+        "Lugar onde se realizam disputas competitivas."
+      ],
+      "nota": "«The field be lost» é perder o campo, perder a batalha. No v. 763, é o campo dos torneios, onde os cavaleiros lutam."
+    },
+    "unconquerable": {
+      "lema": "unconquerable",
+      "classe": "adjetivo",
+      "def": [
+        "Que não se pode conquistar; indomável, invencível."
+      ]
+    },
+    "study": {
+      "lema": "study",
+      "classe": "substantivo",
+      "def": [
+        "(arcaico) Pensamento dirigido a um propósito específico; preocupação, empenho.",
+        "Esforço mental para adquirir conhecimento."
+      ],
+      "nota": "«Study of revenge» é o empenho em se vingar, a aplicação constante a esse fim; não o estudo de livros."
+    },
+    "courage": {
+      "lema": "courage",
+      "classe": "substantivo",
+      "def": [
+        "A capacidade de manter a vontade ou a intenção diante do medo, da fraqueza, da frustração ou da adversidade; coragem, fortaleza moral."
+      ]
+    },
+    "submit": {
+      "lema": "submit",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Ceder ou dar lugar a outro; submeter-se."
+      ]
+    },
+    "yield": {
+      "lema": "yield",
+      "classe": "verbo",
+      "def": [
+        "Desistir, render-se, capitular.",
+        "(ambitransitivo) Dar como se exige; ceder."
+      ]
+    },
+    "yield#2": {
+      "lema": "yield",
+      "classe": "verbo",
+      "def": [
+        "Dar como resultado; produzir, render.",
+        "(obsoleto) Dar em pagamento; retribuir, recompensar."
+      ],
+      "nota": "«Satiate fury yield it from our Foe»: a fúria saciada tire (extraia) isso do nosso Inimigo, isto é, que o ódio dele nos ceda ou nos dê isso."
+    },
+    "overcome": {
+      "lema": "overcome",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Vencer, prevalecer sobre; levar a melhor."
+      ]
+    },
+    "overcome#2": {
+      "lema": "overcome",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "(transitivo) Superar (um obstáculo físico ou abstrato); prevalecer sobre ele."
+      ],
+      "nota": "«How overcome this dire calamity» é «como superar esta calamidade terrível»."
+    },
+    "sue": {
+      "lema": "sue",
+      "classe": "verbo",
+      "def": [
+        "(ambitransitivo) Buscar por meio de pedido; fazer petição; suplicar, implorar."
+      ],
+      "nota": "«Sue for grace» é pedir mercê, implorar perdão."
+    },
+    "grace": {
+      "lema": "grace",
+      "classe": "substantivo",
+      "def": [
+        "Favor, sanção ou beneficência.",
+        "(arcaico) Misericórdia, perdão."
+      ],
+      "nota": "No v. 111, «sue for grace» é pedir perdão ou mercê; no v. 218, «goodness, grace, and mercy» são os favores gratuitos de Deus, a graça."
+    },
+    "suppliant": {
+      "lema": "suppliant",
+      "classe": "adjetivo",
+      "def": [
+        "Que pede com humildade; suplicante."
+      ]
+    },
+    "knee": {
+      "lema": "knee",
+      "classe": "substantivo",
+      "def": [
+        "(arcaico) Ato de ajoelhar-se, em especial para mostrar respeito ou cortesia.",
+        "Articulação no meio da perna, entre a coxa e a canela; joelho."
+      ],
+      "nota": "«Suppliant knee» é o joelho dobrado de quem implora, de joelhos em súplica."
+    },
+    "deify": {
+      "lema": "deify",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Fazer de (alguém) um deus.",
+        "(transitivo) Considerar como divindade; tratar como digno de adoração; exaltar."
+      ]
+    },
+    "terror": {
+      "lema": "terror",
+      "classe": "substantivo",
+      "def": [
+        "Pavor, medo ou susto intenso."
+      ],
+      "nota": "«The terror of this arm» é o terror que este braço inspira."
+    },
+    "arm": {
+      "lema": "arm",
+      "classe": "substantivo",
+      "def": [
+        "(figurado) Poder; força, apoio.",
+        "(anatomia) A parte do membro superior humano, do ombro ao pulso; braço."
+      ],
+      "nota": "«This arm» é o próprio Satanás: o braço é o seu poder, a sua força, que fez os anjos o temerem."
+    },
+    "late": {
+      "lema": "late",
+      "classe": "advérbio",
+      "def": [
+        "Não há muito tempo; há pouco, recentemente."
+      ],
+      "nota": "«So late» é «tão recentemente»."
+    },
+    "doubted": {
+      "lema": "doubt",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "(transitivo, arcaico) Prever com receio ou medo; recear, temer.",
+        "(ambitransitivo) Considerar questionável ou improvável; duvidar."
+      ],
+      "nota": "Aqui, o sentido antigo é temer: «doubted his empire» é «temeram pelo domínio dele», ou «tiveram receio de que o domínio dele caísse»."
+    },
+    "empire": {
+      "lema": "empire",
+      "classe": "substantivo",
+      "def": [
+        "(absoluto) Controle, domínio, poder."
+      ],
+      "nota": "Aqui «empire» não é o Estado chamado império, mas o domínio, o poder de mando de Deus."
+    },
+    "indeed": {
+      "lema": "indeed",
+      "classe": "advérbio",
+      "def": [
+        "(grau, depois do adjetivo modificado) De fato; realmente, deveras."
+      ]
+    },
+    "ignominy": {
+      "lema": "ignominy",
+      "classe": "substantivo",
+      "def": [
+        "Grande desonra, vergonha ou humilhação; ignomínia."
+      ]
+    },
+    "shame": {
+      "lema": "shame",
+      "classe": "substantivo",
+      "def": [
+        "Censura sofrida ou incorrida; desonra, opróbrio.",
+        "Sentimento desconfortável ou doloroso ao reconhecer a própria inconveniência ou desonra."
+      ]
+    },
+    "beneath": {
+      "lema": "beneath",
+      "classe": "preposição",
+      "def": [
+        "Em posição inferior em categoria, dignidade etc."
+      ],
+      "nota": "«Beneath» as «ignominy and shame beneath us» é indigno de nós, abaixo da nossa dignidade."
+    },
+    "beneath#2": {
+      "lema": "beneath",
+      "classe": "preposição",
+      "def": [
+        "Abaixo de; por baixo de."
+      ],
+      "nota": "«Beneath Gibraltar» é ao sul do estreito de Gibraltar, abaixo dele no mapa."
+    },
+    "shall": {
+      "lema": "shall",
+      "classe": "verbo auxiliar",
+      "def": [
+        "(usado antes de um verbo) Indica o futuro, na 1ª pessoa; na 2ª e na 3ª, indica determinação ou obrigação."
+      ],
+      "nota": "Em Milton, o «shall» da 3ª pessoa costuma ser de firmeza: «that glory never shall extort from me» é «essa glória nunca me arrancará», e Satanás o diz com determinação."
+    },
+    "might": {
+      "lema": "might",
+      "classe": "substantivo",
+      "def": [
+        "Força, poder ou influência de uma pessoa ou grupo; poderio.",
+        "A capacidade de fazer algo."
+      ]
+    },
+    "might#2": {
+      "lema": "may",
+      "classe": "verbo auxiliar",
+      "forma": "passado",
+      "def": [
+        "(modal) Expressa possibilidade; admite uma suposição: poderia, talvez pudesse."
+      ],
+      "nota": "«He might see» é «ele pudesse ver»; «he might» (v. 214) é «ele pudesse»: a possibilidade no passado, introduzida por «that»."
+    },
+    "extort": {
+      "lema": "extort",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Tomar ou arrancar de alguém que não quer, por força física, ameaça, coação ou qualquer exercício indevido de poder."
+      ],
+      "nota": "«Extort from me» é «arrancar de mim»."
+    },
+    "bow": {
+      "lema": "bow",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Inclinar-se, curvar-se como gesto de respeito ou deferência.",
+        "(transitivo) Inclinar para baixo, em especial a cabeça."
+      ],
+      "nota": "Aqui, «to bow and sue for grace» é curvar-se e implorar perdão."
+    },
+    "downfall": {
+      "lema": "downfall",
+      "classe": "substantivo",
+      "def": [
+        "Queda brusca de fortuna; ruína, desgraça.",
+        "Ato de cair."
+      ],
+      "nota": "«This downfall» é a queda dos anjos rebeldes do céu."
+    },
+    "since": {
+      "lema": "since",
+      "classe": "conjunção",
+      "def": [
+        "Porque; visto que."
+      ]
+    },
+    "since#2": {
+      "lema": "since",
+      "classe": "conjunção",
+      "def": [
+        "Desde o tempo em que."
+      ],
+      "nota": "«For never, since created Man» é «porque nunca, desde que o Homem foi criado»."
+    },
+    "since#3": {
+      "lema": "since",
+      "classe": "advérbio",
+      "def": [
+        "Desde um tempo específico no passado; depois."
+      ],
+      "nota": "«All who since…» são todos os que, depois, ao longo dos tempos que vieram."
+    },
+    "fate": {
+      "lema": "fate",
+      "classe": "substantivo",
+      "def": [
+        "A causa, força, princípio ou vontade divina que predetermina os acontecimentos; destino."
+      ]
+    },
+    "fate#2": {
+      "lema": "fate",
+      "classe": "substantivo",
+      "def": [
+        "Destino, em geral com ideia de morte, ruína ou infortúnio."
+      ],
+      "nota": "«Lament his fate» é chorar a sorte dele, a morte de Tamuz."
+    },
+    "strength": {
+      "lema": "strength",
+      "classe": "substantivo",
+      "def": [
+        "A qualidade ou o grau de ser forte; força, vigor.",
+        "A intensidade de uma força ou poder; potência."
+      ]
+    },
+    "gods": {
+      "lema": "god",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Divindade ou ser supremo; ser sobrenatural, em geral imortal, com poderes superiores.",
+        "Ídolo; algo particularmente venerado ou adorado."
+      ],
+      "nota": "Em Milton, «gods» são ora os próprios anjos, chamados deuses por seu poder e imortalidade, ora os ídolos e falsos deuses das nações pagãs, que são anjos caídos."
+    },
+    "empyreal": {
+      "lema": "empyreal",
+      "classe": "adjetivo",
+      "def": [
+        "Pertencente ao mais alto céu, o empíreo.",
+        "Do céu; de fogo puro, feito de fogo puro."
+      ],
+      "nota": "O empíreo é a região mais alta do céu, feita de fogo e luz; os anjos têm essa matéria."
+    },
+    "substance": {
+      "lema": "substance",
+      "classe": "substantivo",
+      "def": [
+        "Matéria física; material."
+      ]
+    },
+    "substance#2": {
+      "lema": "substance",
+      "classe": "substantivo",
+      "def": [
+        "Substancialidade; solidez, firmeza."
+      ],
+      "nota": "«Semblance of worth, not substance» é a aparência de valor, sem o conteúdo real; «substance» é aqui o que realmente se tem por dentro."
+    },
+    "cannot": {
+      "lema": "cannot",
+      "classe": "verbo",
+      "def": [
+        "Não poder; ser incapaz de (por impossibilidade física, lógica etc.)."
+      ]
+    },
+    "fail": {
+      "lema": "fail",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Não ter sucesso.",
+        "(transitivo) Não conseguir alcançar um objetivo declarado."
+      ],
+      "nota": "«If I fail not» é «se eu não falhar»."
+    },
+    "fail#2": {
+      "lema": "fail",
+      "classe": "verbo",
+      "def": [
+        "(arcaico) Esvair-se; diminuir, decair, perecer."
+      ],
+      "nota": "«Cannot fail» é «não pode se desfazer, não pode perecer»: a substância celeste dos anjos não se gasta."
+    },
+    "through": {
+      "lema": "through",
+      "classe": "preposição",
+      "def": [
+        "De um lado ou extremo a outro de (algo); através de.",
+        "Por via de; por meio de."
+      ]
+    },
+    "through#2": {
+      "lema": "through",
+      "classe": "preposição",
+      "def": [
+        "Ao longo ou em toda a extensão de; por todo, por toda a parte."
+      ],
+      "nota": "«Through the heathen world» é por todo o mundo pagão; «through the coast», por toda a costa."
+    },
+    "experience": {
+      "lema": "experience",
+      "classe": "substantivo",
+      "def": [
+        "O efeito sobre o juízo ou os sentimentos produzido por um acontecimento, visto ou vivido; impressão pessoal e direta.",
+        "(obsoleto) Prova; teste, experimento."
+      ],
+      "nota": "Do latim «experientia»: ter passado pela prova. «Through experience of this great event» é por tê-lo experimentado na própria pele."
+    },
+    "event": {
+      "lema": "event",
+      "classe": "substantivo",
+      "def": [
+        "Resultado final; desfecho."
+      ],
+      "nota": "Do latim «eventus», o resultado: «this great event» é o desfecho da batalha e da guerra no céu; «the dire event», o triste resultado dela."
+    },
+    "worse": {
+      "lema": "bad",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Pior; de qualidade mais baixa, mais desfavorável."
+      ]
+    },
+    "foresight": {
+      "lema": "foresight",
+      "classe": "substantivo",
+      "def": [
+        "A capacidade de prever, ou de se preparar com sabedoria para o futuro; previdência."
+      ]
+    },
+    "advanced": {
+      "lema": "advanced",
+      "classe": "adjetivo",
+      "def": [
+        "Em fase tardia de desenvolvimento; que progrediu muito além do estágio inicial; adiantado."
+      ],
+      "nota": "«In foresight much advanced» é «muito mais avançado em previdência»."
+    },
+    "advanced#2": {
+      "lema": "advance",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo, hoje arcaico) Elevar; erguer, levantar."
+      ],
+      "nota": "«Full high advanced» é erguido bem no alto: o estandarte imperial é levantado."
+    },
+    "advanced#3": {
+      "lema": "advance",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(intransitivo) Mover-se para a frente; avançar, aproximar-se."
+      ],
+      "nota": "«Advanced in view they stand» é «avançaram à vista e ali ficam»."
+    },
+    "we": {
+      "lema": "we",
+      "classe": "pronome pessoal",
+      "def": [
+        "Duas ou mais pessoas, entre as quais ou entre as quais se inclui quem fala; nós."
+      ]
+    },
+    "we#2": {
+      "lema": "we",
+      "classe": "pronome pessoal",
+      "def": [
+        "(West Country, arcaico) Nós, como objeto: nos, a nós."
+      ],
+      "nota": "«Let we» está no lugar de «let us» (deixemos nós): é um uso de caso do pronome sujeito em lugar do objeto."
+    },
+    "successful": {
+      "lema": "successful",
+      "classe": "adjetivo",
+      "def": [
+        "Que resulta em sucesso; que realiza o que se propôs; que tem o efeito desejado."
+      ]
+    },
+    "resolve": {
+      "lema": "resolve",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Tomar uma decisão firme de fazer algo; tornar-se determinado a alcançar um objetivo ou a agir."
+      ]
+    },
+    "wage": {
+      "lema": "wage",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Conduzir ou levar a cabo (uma guerra ou outra disputa)."
+      ]
+    },
+    "irreconcilable": {
+      "lema": "irreconcilable",
+      "classe": "adjetivo",
+      "def": [
+        "Que não se pode reconciliar; oposto, intransigente."
+      ]
+    },
+    "foe": {
+      "lema": "foe",
+      "classe": "substantivo",
+      "def": [
+        "Inimigo."
+      ]
+    },
+    "triumphs": {
+      "lema": "triumph",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "Celebrar a vitória com pompa; alegrar-se com o sucesso; exultar numa vantagem alcançada."
+      ]
+    },
+    "excess": {
+      "lema": "excess",
+      "classe": "substantivo",
+      "def": [
+        "O estado de ultrapassar um limite; o que passa do suficiente, do necessário ou do usual."
+      ]
+    },
+    "joy": {
+      "lema": "joy",
+      "classe": "substantivo",
+      "def": [
+        "Sentimento de extrema felicidade ou alegria, em geral ligado à posse ou à expectativa de algo bom."
+      ]
+    },
+    "sole": {
+      "lema": "sole",
+      "classe": "adjetivo",
+      "def": [
+        "Único; apenas um."
+      ],
+      "nota": "No v. 124, «sole reigning» tem valor de advérbio: reinando sozinho, único soberano."
+    },
+    "sole#2": {
+      "lema": "sole",
+      "classe": "substantivo",
+      "def": [
+        "(anatomia) A face inferior do pé; planta do pé."
+      ],
+      "nota": "«The sole of unblest feet» é a planta dos pés dos desventurados."
+    },
+    "reigning": {
+      "lema": "reign",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(intransitivo) Exercer o poder soberano; governar como monarca; reinar."
+      ]
+    },
+    "holds": {
+      "lema": "hold",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "(transitivo) Ter e manter a posse de algo; deter, manter."
+      ],
+      "nota": "«Holds the tyranny of Heaven» é mantém a tirania sobre o céu: é assim que Satanás vê o governo de Deus."
+    },
+    "tyranny": {
+      "lema": "tyranny",
+      "classe": "substantivo",
+      "def": [
+        "Governo em que um só governante tem poder absoluto, em especial se age de modo cruel e injusto.",
+        "Poder absoluto, ou o seu exercício."
+      ],
+      "nota": "É assim que Satanás e Belzebu chamam o governo de Deus."
+    },
+    "spake": {
+      "lema": "speak",
+      "classe": "verbo",
+      "forma": "passado (arcaico)",
+      "def": [
+        "(intransitivo) Comunicar-se com a voz; dizer palavras em voz alta; falar."
+      ]
+    },
+    "apostate": {
+      "lema": "apostate",
+      "classe": "adjetivo",
+      "def": [
+        "Que mostra apostasia; do ponto de vista religioso, culpado de apostasia."
+      ],
+      "nota": "«Apostate Angel» é o anjo que renegou Deus: Satanás."
+    },
+    "angel": {
+      "lema": "angel",
+      "classe": "substantivo",
+      "def": [
+        "(sobretudo nas religiões abraâmicas) Mensageiro incorpóreo, santo ou semidivino, de uma divindade."
+      ]
+    },
+    "vaunting": {
+      "lema": "vaunt",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(intransitivo) Falar com jactância; vangloriar-se.",
+        "(transitivo) Gabar-se de; fazer exibição vã de."
+      ]
+    },
+    "aloud": {
+      "lema": "aloud",
+      "classe": "advérbio",
+      "def": [
+        "Em voz alta; com grande ruído; audivelmente."
+      ]
+    },
+    "racked": {
+      "lema": "rack",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Fazer (alguém) sofrer dor; torturar no cavalete (instrumento de tortura que estica a vítima).",
+        "(figurado) Esticar ou fatigar; atormentar."
+      ],
+      "nota": "«Racked with deep despair» é atormentado, torturado por um profundo desespero."
+    },
+    "despair": {
+      "lema": "despair",
+      "classe": "substantivo",
+      "def": [
+        "Perda da esperança; desesperança total, completo abatimento."
+      ]
+    },
+    "answered": {
+      "lema": "answer",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "(ambitransitivo) Dar uma resposta; responder."
+      ]
+    },
+    "compeer": {
+      "lema": "compeer",
+      "classe": "substantivo",
+      "def": [
+        "(obsoleto) O igual ou par de alguém; companheiro próximo, sócio."
+      ],
+      "nota": "Aqui é Satanás, o igual de Belzebu em desgraça e em ambição."
+    },
+    "prince": {
+      "lema": "prince",
+      "classe": "substantivo",
+      "def": [
+        "(hoje arcaico ou histórico) Governante, soberano; rei, monarca.",
+        "Alguém preeminente em seu ramo; grande personagem."
+      ],
+      "nota": "«O Prince» é um tratamento de respeito a Satanás, o chefe dos rebeldes."
+    },
+    "throned": {
+      "lema": "throne",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Colocar num assento real; entronizar.",
+        "(transitivo) Colocar numa posição elevada; dar soberania ou domínio a; exaltar."
+      ],
+      "nota": "«Throned Powers» são Potestades assentadas em tronos; no v. 386, Jeová está «entronizado» em Sião."
+    },
+    "powers": {
+      "lema": "power",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "(bíblico, no plural) Na angelologia cristã, um nível intermediário de anjos, acima dos arcanjos."
+      ],
+      "nota": "Milton chama de «Powers» os anjos, bons ou maus, pelo posto: «Chief of many throned Powers» é «chefe de muitas Potestades entronizadas»."
+    },
+    "powers#2": {
+      "lema": "power",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "(metonímia, arcaico) Exército; força militar."
+      ],
+      "nota": "«Afflicted powers» são as tropas aflitas, o exército abatido."
+    },
+    "led": {
+      "lema": "lead",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "(transitivo) Guiar ou conduzir.",
+        "Conduzir ou dirigir com autoridade; comandar, em especial uma unidade militar."
+      ]
+    },
+    "embattled": {
+      "lema": "embattle",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Dispor em ordem de batalha; formar para a luta."
+      ],
+      "nota": "«Th’ embattled Seraphim» são os serafins formados em ordem de combate."
+    },
+    "seraphim": {
+      "lema": "seraph",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "(pós-bíblico) Anjo de seis asas; um dos coros mais elevados dos anjos no cristianismo, acima dos querubins."
+      ],
+      "nota": "«Seraphim» é o plural hebraico de «seraph» (serafim)."
+    },
+    "under": {
+      "lema": "under",
+      "classe": "preposição",
+      "def": [
+        "Abaixo de; por baixo de; na parte de baixo de."
+      ]
+    },
+    "under#2": {
+      "lema": "under",
+      "classe": "preposição",
+      "def": [
+        "Subordinado a; sujeito ao controle de; de acordo com."
+      ],
+      "nota": "«Under thy conduct» é «sob o teu comando»; «under amazement», sujeitos ao espanto; «under names of old renown», sob nomes de antiga fama."
+    },
+    "conduct": {
+      "lema": "conduct",
+      "classe": "substantivo",
+      "def": [
+        "Orientação habilidosa; direção, comando.",
+        "O ato ou o método de controlar ou dirigir."
+      ],
+      "nota": "«Under thy conduct» é «sob a tua direção, sob o teu comando»."
+    },
+    "dreadful": {
+      "lema": "dreadful",
+      "classe": "adjetivo",
+      "def": [
+        "Cheio de algo que causa pavor; assustador, horroroso.",
+        "(obsoleto) Que inspira reverência e temor; respeitável."
+      ]
+    },
+    "deeds": {
+      "lema": "deed",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Ação ou ato; algo que se faz.",
+        "Ação corajosa ou notável; feito, façanha."
+      ]
+    },
+    "fearless": {
+      "lema": "fearless",
+      "classe": "adjetivo",
+      "def": [
+        "Sem medo; destemido."
+      ]
+    },
+    "endangered": {
+      "lema": "endanger",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "(transitivo) Pôr em perigo; arriscar causar dano a."
+      ],
+      "nota": "«Endangered Heaven’s perpetual King» é «pusemos em perigo o rei eterno do céu», o sujeito sendo os anjos rebeldes."
     }
   },
   "ocorrencias": {
@@ -1730,6 +2536,36 @@
     "123.4": "force#4",
     "649.2": "force#4",
     "651.2": "force#4",
-    "577.2": "merit#2"
+    "577.2": "merit#2",
+    "263.4": "reign#2",
+    "264.2": "reign#2",
+    "265.3": "reign#2",
+    "107.8": "field#2",
+    "765.5": "field#2",
+    "181.4": "yield#2",
+    "191.2": "overcome#2",
+    "357.1": "beneath#2",
+    "216.6": "might#2",
+    "218.6": "might#2",
+    "575.4": "since#2",
+    "584.4": "since#3",
+    "450.7": "fate#2",
+    "531.5": "substance#2",
+    "119.6": "fail#2",
+    "377.4": "through#2",
+    "466.5": "through#2",
+    "520.5": "through#2",
+    "538.7": "advanced#2",
+    "565.1": "advanced#3",
+    "266.4": "we#2",
+    "239.9": "sole#2",
+    "209.5": "under",
+    "347.4": "under",
+    "604.7": "under",
+    "661.2": "under",
+    "132.1": "under#2",
+    "315.1": "under#2",
+    "479.4": "under#2",
+    "188.5": "powers#2"
   }
 }

@@ -1,0 +1,855 @@
+{
+  "verbetes": {
+    "le": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante que marca um substantivo masculino singular, referindo-se a uma entidade definida no contexto."
+      ]
+    },
+    "laboureur": {
+      "lema": "laboureur",
+      "classe": "substantivo masculino",
+      "def": [
+        "Homem que lavra a terra: lavrador."
+      ]
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "Liga palavras ou orações da mesma função: e."
+      ]
+    },
+    "ses": {
+      "lema": "son",
+      "classe": "adjetivo possessivo",
+      "forma": "plural",
+      "def": [
+        "Que pertencem a ele ou a ela: seus, suas."
+      ]
+    },
+    "enfants#2": {
+      "lema": "enfant",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Filho ou filha: filho."
+      ]
+    },
+    "travaillez": {
+      "lema": "travailler",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Fazer um trabalho, esforçar-se: trabalhai."
+      ]
+    },
+    "prenez": {
+      "lema": "prendre",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "«Prendre de la peine», esforçar-se, dar-se ao trabalho."
+      ]
+    },
+    "de#5": {
+      "lema": "de",
+      "classe": "artigo partitivo",
+      "forma": "com «la» ou «l’»",
+      "def": [
+        "Com «la» ou «l’», indica uma quantidade indeterminada: «de la peine», «de l’argent», algum esforço, algum dinheiro (em geral não se traduz)."
+      ]
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante que marca um substantivo feminino singular, referindo-se a uma entidade definida no contexto."
+      ]
+    },
+    "peine": {
+      "lema": "peine",
+      "classe": "substantivo feminino",
+      "def": [
+        "Esforço, trabalho, cansaço."
+      ]
+    },
+    "c’": {
+      "lema": "ce",
+      "classe": "pronome demonstrativo",
+      "forma": "elisão de «ce»",
+      "def": [
+        "Pronome demonstrativo neutro: isso, isto (em «c’est», é)."
+      ]
+    },
+    "est": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "fonds": {
+      "lema": "fonds",
+      "classe": "substantivo masculino",
+      "def": [
+        "Capital, bem que produz renda; (figurado) o que se possui de mais seguro."
+      ],
+      "nota": "Jogo de palavras: o «fonds» é também a terra, o campo que se cultiva."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "Pronome relativo, sujeito da oração que introduz: que, o qual, quem."
+      ]
+    },
+    "manque": {
+      "lema": "manquer",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Faltar, falhar."
+      ]
+    },
+    "moins": {
+      "lema": "moins",
+      "classe": "advérbio",
+      "def": [
+        "Em menor quantidade ou grau: menos."
+      ]
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante que indica um ser ou uma coisa de maneira indeterminada: um, algum."
+      ]
+    },
+    "riche": {
+      "lema": "riche",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem muitos bens: rico."
+      ]
+    },
+    "sentant": {
+      "lema": "sentir",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Perceber, pressentir: sentindo."
+      ]
+    },
+    "sa": {
+      "lema": "son",
+      "classe": "adjetivo possessivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que pertence a ele ou a ela: sua, seu."
+      ]
+    },
+    "mort": {
+      "lema": "mort",
+      "classe": "substantivo feminino",
+      "def": [
+        "Fim da vida: morte."
+      ]
+    },
+    "prochaine": {
+      "lema": "prochain",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que está perto no tempo: próxima."
+      ]
+    },
+    "fit": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Realizar, executar, produzir: fez."
+      ]
+    },
+    "fit#2": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Com um infinitivo: fazer com que alguém faça ou algo aconteça: fez (vir, ver)."
+      ]
+    },
+    "leur": {
+      "lema": "leur",
+      "classe": "pronome pessoal",
+      "forma": "terceira pessoa do plural, objeto indireto",
+      "def": [
+        "Pronome pessoal da terceira pessoa do plural, objeto indireto: lhes, a eles."
+      ]
+    },
+    "parla": {
+      "lema": "parler",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Dirigir a palavra a alguém: falou."
+      ]
+    },
+    "sans": {
+      "lema": "sans",
+      "classe": "preposição",
+      "def": [
+        "Indica a ausência ou a falta: sem."
+      ]
+    },
+    "témoins": {
+      "lema": "témoin",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Pessoa que vê ou ouve algo: testemunha."
+      ]
+    },
+    "gardez": {
+      "lema": "garder",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "«Se garder de», evitar, guardar-se de."
+      ]
+    },
+    "vous": {
+      "lema": "vous",
+      "classe": "pronome pessoal",
+      "forma": "segunda pessoa do plural",
+      "def": [
+        "Pronome pessoal da segunda pessoa do plural, ou do singular de cortesia: vós, o senhor, a senhora; vos, lhe."
+      ]
+    },
+    "dit": {
+      "lema": "dire",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Exprimir por palavras: dizer, disse."
+      ]
+    },
+    "il": {
+      "lema": "il",
+      "classe": "pronome pessoal",
+      "forma": "masculino singular, sujeito",
+      "def": [
+        "Pronome pessoal da terceira pessoa do singular masculino, sujeito: ele."
+      ]
+    },
+    "de#2": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Introduz um infinitivo que completa um verbo, um adjetivo ou um substantivo: de, a (muitas vezes não se traduz)."
+      ]
+    },
+    "vendre": {
+      "lema": "vendre",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Ceder em troca de dinheiro: vender."
+      ]
+    },
+    "l’": {
+      "lema": "l’",
+      "classe": "artigo definido",
+      "forma": "elisão de «le» ou «la»",
+      "def": [
+        "Elisão dos artigos definidos «le» e «la» diante de vogal ou de h mudo."
+      ]
+    },
+    "héritage": {
+      "lema": "héritage",
+      "classe": "substantivo masculino",
+      "def": [
+        "Bens que se recebem de quem morreu: herança."
+      ]
+    },
+    "que#2": {
+      "lema": "que",
+      "classe": "pronome relativo",
+      "def": [
+        "Pronome relativo, objeto direto ou atributo da oração que introduz: que, o qual."
+      ]
+    },
+    "nous": {
+      "lema": "nous",
+      "classe": "pronome pessoal",
+      "forma": "primeira pessoa do plural",
+      "def": [
+        "Pronome pessoal da primeira pessoa do plural: nós, nos."
+      ]
+    },
+    "ont": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural (auxiliar)",
+      "def": [
+        "Verbo auxiliar dos tempos compostos: ter, haver (não se traduz à parte)."
+      ]
+    },
+    "laissé": {
+      "lema": "laisser",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Deixar a alguém depois da morte: legar, deixar."
+      ]
+    },
+    "nos": {
+      "lema": "notre",
+      "classe": "adjetivo possessivo",
+      "forma": "plural",
+      "def": [
+        "Que pertencem a nós: nossos, nossas."
+      ]
+    },
+    "parents": {
+      "lema": "parent",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Os antepassados; a família."
+      ],
+      "nota": "«Que nous ont laissé nos parents»: que os nossos antepassados nos deixaram."
+    },
+    "trésor": {
+      "lema": "trésor",
+      "classe": "substantivo masculino",
+      "def": [
+        "Conjunto de dinheiro ou de objetos preciosos guardados ou escondidos: tesouro."
+      ]
+    },
+    "est#2": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (auxiliar)",
+      "def": [
+        "Verbo auxiliar dos tempos compostos de certos verbos e da voz passiva: ser, ter (não se traduz à parte)."
+      ]
+    },
+    "caché": {
+      "lema": "cacher",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Pôr num lugar onde não se vê: escondido."
+      ]
+    },
+    "dedans": {
+      "lema": "dedans",
+      "classe": "advérbio",
+      "def": [
+        "No interior, dentro."
+      ]
+    },
+    "je": {
+      "lema": "je",
+      "classe": "pronome pessoal",
+      "forma": "primeira pessoa do singular, sujeito",
+      "def": [
+        "Pronome pessoal da primeira pessoa do singular, sujeito: eu."
+      ]
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "advérbio",
+      "def": [
+        "Advérbio de negação, quase sempre com «pas», «point», «plus», «rien» etc.: não."
+      ]
+    },
+    "sais": {
+      "lema": "savoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Ter conhecimento de: saber."
+      ]
+    },
+    "pas": {
+      "lema": "pas",
+      "classe": "advérbio",
+      "def": [
+        "Com «ne», forma a negação: não."
+      ]
+    },
+    "endroit": {
+      "lema": "endroit",
+      "classe": "substantivo masculino",
+      "def": [
+        "Lugar determinado: lugar, ponto."
+      ]
+    },
+    "mais": {
+      "lema": "mais",
+      "classe": "conjunção",
+      "def": [
+        "Indica oposição, restrição ou correção: mas, porém."
+      ]
+    },
+    "peu": {
+      "lema": "peu",
+      "classe": "advérbio",
+      "def": [
+        "Em pequena quantidade; não muito: pouco."
+      ]
+    },
+    "de#3": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Depois de negação ou de quantidade, substitui o artigo: «pas de», «point de», «assez de»; em português, nada ou «nenhum»."
+      ]
+    },
+    "courage": {
+      "lema": "courage",
+      "classe": "substantivo masculino",
+      "def": [
+        "Força de ânimo, disposição para o trabalho: coragem."
+      ]
+    },
+    "le#2": {
+      "lema": "le",
+      "classe": "pronome pessoal",
+      "forma": "masculino singular, objeto direto",
+      "def": [
+        "Pronome pessoal da terceira pessoa do singular masculino, objeto direto: o, a ele."
+      ]
+    },
+    "fera": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Com um infinitivo: fazer com que alguém faça: «vous le fera trouver», fará que o encontreis."
+      ]
+    },
+    "trouver": {
+      "lema": "trouver",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Descobrir o que se procura: encontrar, achar."
+      ]
+    },
+    "en#2": {
+      "lema": "en",
+      "classe": "pronome",
+      "def": [
+        "Pronome que retoma um complemento introduzido por «de»: disso, dele, dela, daí; às vezes «alguns»."
+      ]
+    },
+    "viendrez#2": {
+      "lema": "venir",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do plural",
+      "def": [
+        "«En venir à bout», conseguir, chegar ao fim de: «vous en viendrez à bout», conseguireis."
+      ]
+    },
+    "à": {
+      "lema": "à",
+      "classe": "preposição",
+      "def": [
+        "Indica o lugar, a direção, o destino ou o objeto indireto: a, em, para."
+      ]
+    },
+    "bout#2": {
+      "lema": "bout",
+      "classe": "substantivo masculino",
+      "def": [
+        "«Au bout de», ao fim de; «venir à bout», levar a termo, conseguir."
+      ]
+    },
+    "remuez": {
+      "lema": "remuer",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Revolver a terra: revolvei."
+      ]
+    },
+    "votre": {
+      "lema": "votre",
+      "classe": "adjetivo possessivo",
+      "forma": "singular",
+      "def": [
+        "Que pertence a vós ou ao senhor: vosso, vossa, seu, sua."
+      ]
+    },
+    "champ": {
+      "lema": "champ",
+      "classe": "substantivo masculino",
+      "def": [
+        "Terreno cultivado: campo."
+      ]
+    },
+    "dès": {
+      "lema": "dès",
+      "classe": "preposição",
+      "def": [
+        "A partir de; «dès que», logo que, assim que."
+      ]
+    },
+    "qu’": {
+      "lema": "que",
+      "classe": "conjunção",
+      "forma": "elisão de «que»",
+      "def": [
+        "Liga a oração principal a uma oração subordinada: que."
+      ]
+    },
+    "on": {
+      "lema": "on",
+      "classe": "pronome indefinido",
+      "def": [
+        "Pronome sujeito que designa uma ou mais pessoas indeterminadas: a gente, alguém, se (como em «diz-se»)."
+      ]
+    },
+    "aura": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular (auxiliar)",
+      "def": [
+        "Verbo auxiliar dos tempos compostos: «aura fait», terá feito."
+      ]
+    },
+    "fait#3": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Realizar, executar, produzir: feito."
+      ]
+    },
+    "août#2": {
+      "lema": "août",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Antigo) A colheita, que se fazia em agosto."
+      ],
+      "nota": "«Dès qu’on aura fait l’août»: logo depois da colheita. Pronuncia-se «u»."
+    },
+    "août": {
+      "lema": "août",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Antigo) A colheita, que se fazia em agosto; o tempo da colheita."
+      ],
+      "nota": "Não é o mês, mas a época da colheita («l’août»). Pronuncia-se «u»; muitas edições escrevem «l’oût»."
+    },
+    "creusez": {
+      "lema": "creuser",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Fazer buracos na terra: cavai."
+      ]
+    },
+    "fouillez": {
+      "lema": "fouiller",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Revolver a terra para procurar algo: escavai, revolvei."
+      ]
+    },
+    "bêchez": {
+      "lema": "bêcher",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Revolver a terra com a enxada: cavai, lavrai."
+      ]
+    },
+    "laissez": {
+      "lema": "laisser",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Não tomar, deixar como está: deixai."
+      ]
+    },
+    "nulle": {
+      "lema": "nul",
+      "classe": "adjetivo indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "Nenhuma, nem uma só."
+      ]
+    },
+    "place": {
+      "lema": "place",
+      "classe": "substantivo feminino",
+      "def": [
+        "Espaço, lugar."
+      ]
+    },
+    "où": {
+      "lema": "où",
+      "classe": "pronome relativo",
+      "def": [
+        "Pronome relativo de lugar ou de tempo: onde, em que, no qual."
+      ]
+    },
+    "main": {
+      "lema": "main",
+      "classe": "substantivo feminino",
+      "def": [
+        "Parte do corpo no fim do braço: mão."
+      ]
+    },
+    "passe": {
+      "lema": "passer",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Ir por um lugar: passar."
+      ]
+    },
+    "repasse": {
+      "lema": "repasser",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Passar de novo: repassar."
+      ]
+    },
+    "père": {
+      "lema": "père",
+      "classe": "substantivo masculino",
+      "def": [
+        "Homem que tem um ou mais filhos: pai."
+      ]
+    },
+    "mort#3": {
+      "lema": "mort",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que deixou de viver: morto; «le père mort», morto o pai."
+      ]
+    },
+    "les": {
+      "lema": "les",
+      "classe": "artigo definido",
+      "forma": "plural",
+      "def": [
+        "Determinante que marca um substantivo plural, referindo-se a entidades definidas no contexto."
+      ]
+    },
+    "fils": {
+      "lema": "fils",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Pessoa do sexo masculino em relação aos pais: filho."
+      ]
+    },
+    "vous#2": {
+      "lema": "vous",
+      "classe": "pronome pessoal",
+      "forma": "expletivo",
+      "def": [
+        "Pronome que não tem função na frase e só marca o interesse de quem fala ou de quem ouve (dativo ético)."
+      ],
+      "nota": "É o «vous» que puxa o leitor para dentro da cena, como o «me» de «não me faça isso»: «les fils vous retournent le champ», os filhos (vejam só!) reviram o campo."
+    },
+    "retournent": {
+      "lema": "retourner",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Revolver a terra, virá-la: reviram."
+      ]
+    },
+    "deçà": {
+      "lema": "deçà",
+      "classe": "advérbio",
+      "def": [
+        "(Antigo) Do lado de cá; «deçà, delà», de um lado e de outro, por toda parte."
+      ]
+    },
+    "delà": {
+      "lema": "delà",
+      "classe": "advérbio",
+      "def": [
+        "(Antigo) Do lado de lá; «deçà, delà», de um lado e de outro."
+      ]
+    },
+    "partout": {
+      "lema": "partout",
+      "classe": "advérbio",
+      "def": [
+        "Em todo lugar, por toda parte."
+      ]
+    },
+    "si#2": {
+      "lema": "si",
+      "classe": "advérbio",
+      "def": [
+        "Tão, a tal ponto (diante de adjetivo ou advérbio)."
+      ]
+    },
+    "bien": {
+      "lema": "bien",
+      "classe": "advérbio",
+      "def": [
+        "De maneira boa, conveniente: bem."
+      ]
+    },
+    "au": {
+      "lema": "au",
+      "classe": "artigo definido contraído",
+      "forma": "contração de «à» + «le»",
+      "def": [
+        "Contração da preposição «à» com o artigo «le»: ao, no."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica a origem, a matéria, a posse ou a relação entre duas palavras: de."
+      ]
+    },
+    "an": {
+      "lema": "an",
+      "classe": "substantivo masculino",
+      "def": [
+        "Período de doze meses: ano."
+      ]
+    },
+    "rapporta": {
+      "lema": "rapporter",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Produzir, dar como lucro: rendeu."
+      ],
+      "nota": "O sujeito é o campo: ele produziu mais."
+    },
+    "davantage": {
+      "lema": "davantage",
+      "classe": "advérbio",
+      "def": [
+        "Mais, em maior quantidade."
+      ]
+    },
+    "d’": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "elisão de «de»",
+      "def": [
+        "Indica a origem, a matéria, a posse ou a relação entre duas palavras: de."
+      ]
+    },
+    "argent": {
+      "lema": "argent",
+      "classe": "substantivo masculino",
+      "def": [
+        "Moeda, dinheiro."
+      ]
+    },
+    "point": {
+      "lema": "point",
+      "classe": "advérbio",
+      "def": [
+        "Com «ne», nega com mais força que «pas»: não, nada, de modo nenhum."
+      ],
+      "nota": "Hoje é literário ou regional; no século XVII era comum."
+    },
+    "caché#2": {
+      "lema": "cacher",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Usado como substantivo: o que está escondido."
+      ],
+      "nota": "«D’argent, point de caché»: dinheiro escondido, nenhum."
+    },
+    "fut": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "sage#2": {
+      "lema": "sage",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem juízo; prudente, sensato."
+      ]
+    },
+    "montrer#2": {
+      "lema": "montrer",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Fazer ver, fazer conhecer; ensinar: mostrar."
+      ]
+    },
+    "avant": {
+      "lema": "avant",
+      "classe": "preposição",
+      "def": [
+        "Indica anterioridade no tempo: antes de."
+      ]
+    },
+    "que": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Liga a oração principal a uma oração subordinada: que."
+      ]
+    },
+    "travail": {
+      "lema": "travail",
+      "classe": "substantivo masculino",
+      "def": [
+        "Esforço que se faz para produzir algo: trabalho."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "0.5": "enfants#2",
+    "1.3": "de#5",
+    "4.2": "fit#2",
+    "4.4": "enfants#2",
+    "5.6": "de#2",
+    "6.1": "que#2",
+    "7.3": "est#2",
+    "8.10": "de#3",
+    "9.2": "le#2",
+    "9.6": "en#2",
+    "9.7": "viendrez#2",
+    "9.9": "bout#2",
+    "10.8": "fait#3",
+    "10.9": "août#2",
+    "13.3": "mort#3",
+    "13.6": "vous#2",
+    "14.4": "si#2",
+    "14.8": "bout#2",
+    "15.2": "en#2",
+    "16.4": "de#3",
+    "16.5": "caché#2",
+    "16.10": "sage#2",
+    "17.1": "de#2",
+    "17.3": "montrer#2"
+  }
+}

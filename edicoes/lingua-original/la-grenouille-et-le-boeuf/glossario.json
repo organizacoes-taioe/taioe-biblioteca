@@ -1,0 +1,739 @@
+{
+  "verbetes": {
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante que marca um substantivo feminino singular, referindo-se a uma entidade definida no contexto."
+      ]
+    },
+    "grenouille": {
+      "lema": "grenouille",
+      "classe": "substantivo feminino",
+      "def": [
+        "Pequeno anfíbio sem cauda, de pele lisa, que salta e vive perto da água: rã."
+      ]
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "Pronome relativo, sujeito da oração que introduz: que, o qual, quem."
+      ]
+    },
+    "se": {
+      "lema": "se",
+      "classe": "pronome pessoal",
+      "forma": "reflexivo, terceira pessoa",
+      "def": [
+        "Pronome reflexivo da terceira pessoa: se, a si mesmo."
+      ]
+    },
+    "veut#2": {
+      "lema": "vouloir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter a vontade de, desejar: querer."
+      ],
+      "nota": "«Qui se veut faire aussi grosse»: que quer fazer-se tão grande. No francês clássico o pronome vinha antes do verbo auxiliar; hoje se diz «qui veut se faire»."
+    },
+    "faire": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Realizar, executar, produzir: fazer."
+      ]
+    },
+    "aussi": {
+      "lema": "aussi",
+      "classe": "advérbio",
+      "def": [
+        "Em comparação de igualdade: tão (… quanto)."
+      ]
+    },
+    "grosse": {
+      "lema": "gros",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que tem volume grande: grossa, grande, gorda."
+      ]
+    },
+    "que#5": {
+      "lema": "que",
+      "classe": "conjunção",
+      "forma": "segundo termo de comparação",
+      "def": [
+        "Introduz o segundo termo de uma comparação: que, do que."
+      ]
+    },
+    "le": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante que marca um substantivo masculino singular, referindo-se a uma entidade definida no contexto."
+      ]
+    },
+    "bœuf": {
+      "lema": "bœuf",
+      "classe": "substantivo masculino",
+      "def": [
+        "Macho castrado da vaca, usado no trabalho do campo: boi."
+      ]
+    },
+    "une": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante que indica um ser ou uma coisa de maneira indeterminada: uma, alguma."
+      ]
+    },
+    "vit": {
+      "lema": "voir",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Perceber pela vista: ver, viu."
+      ]
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante que indica um ser ou uma coisa de maneira indeterminada: um, algum."
+      ]
+    },
+    "lui": {
+      "lema": "lui",
+      "classe": "pronome pessoal",
+      "forma": "terceira pessoa do singular, objeto indireto",
+      "def": [
+        "Pronome pessoal da terceira pessoa do singular, objeto indireto: lhe, a ele, a ela."
+      ]
+    },
+    "sembla": {
+      "lema": "sembler",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Ter a aparência de: pareceu."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica a origem, a matéria, a posse ou a relação entre duas palavras: de."
+      ]
+    },
+    "belle": {
+      "lema": "beau",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que agrada à vista ou ao ouvido: bela, bonita."
+      ]
+    },
+    "taille": {
+      "lema": "taille",
+      "classe": "substantivo feminino",
+      "def": [
+        "Altura e corpulência do corpo: tamanho, porte."
+      ]
+    },
+    "elle": {
+      "lema": "elle",
+      "classe": "pronome pessoal",
+      "forma": "feminino singular",
+      "def": [
+        "Pronome pessoal da terceira pessoa do singular feminino: ela."
+      ]
+    },
+    "n’": {
+      "lema": "ne",
+      "classe": "advérbio",
+      "forma": "elisão de «ne»",
+      "def": [
+        "Advérbio de negação, quase sempre com «pas», «point», «plus», «rien» etc.: não."
+      ]
+    },
+    "était": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "pas": {
+      "lema": "pas",
+      "classe": "advérbio",
+      "def": [
+        "Com «ne», forma a negação: não."
+      ]
+    },
+    "en#4": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "«En tout», ao todo, inteira."
+      ],
+      "nota": "«Pas grosse en tout comme un œuf»: ao todo, não maior que um ovo."
+    },
+    "tout": {
+      "lema": "tout",
+      "classe": "pronome indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Todas as coisas; a totalidade: tudo."
+      ]
+    },
+    "comme": {
+      "lema": "comme",
+      "classe": "conjunção",
+      "def": [
+        "Indica comparação: como, assim como."
+      ]
+    },
+    "œuf": {
+      "lema": "œuf",
+      "classe": "substantivo masculino",
+      "def": [
+        "Corpo arredondado, de casca dura, que a fêmea da ave põe: ovo."
+      ]
+    },
+    "envieuse": {
+      "lema": "envieux",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que sente inveja: invejosa."
+      ]
+    },
+    "s’": {
+      "lema": "se",
+      "classe": "pronome pessoal",
+      "forma": "reflexivo, elisão de «se»",
+      "def": [
+        "Pronome reflexivo da terceira pessoa: se, a si mesmo."
+      ]
+    },
+    "étend": {
+      "lema": "étendre",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "«S’étendre», estender-se, esticar-se."
+      ]
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "Liga palavras ou orações da mesma função: e."
+      ]
+    },
+    "enfle": {
+      "lema": "enfler",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "«S’enfler», encher-se de ar, inchar."
+      ]
+    },
+    "travaille": {
+      "lema": "travailler",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "«Se travailler», (antigo) esforçar-se, atormentar-se."
+      ],
+      "nota": "Sentido antigo: a Rã se esforça, se cansa no trabalho de inchar."
+    },
+    "pour": {
+      "lema": "pour",
+      "classe": "preposição",
+      "def": [
+        "Indica a finalidade, o destino ou a causa: para, por."
+      ]
+    },
+    "égaler": {
+      "lema": "égaler",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Ser ou ficar igual a: igualar."
+      ]
+    },
+    "l’": {
+      "lema": "l’",
+      "classe": "artigo definido",
+      "forma": "elisão de «le» ou «la»",
+      "def": [
+        "Elisão dos artigos definidos «le» e «la» diante de vogal ou de h mudo."
+      ]
+    },
+    "animal": {
+      "lema": "animal",
+      "classe": "substantivo masculino",
+      "def": [
+        "Ser vivo que se move e sente, por oposição às plantas: animal, bicho."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Indica o lugar, o tempo, o estado ou a maneira: em."
+      ]
+    },
+    "grosseur": {
+      "lema": "grosseur",
+      "classe": "substantivo feminino",
+      "def": [
+        "Volume, tamanho de um corpo: grossura, tamanho."
+      ]
+    },
+    "disant": {
+      "lema": "dire",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Exprimir por palavras: dizendo."
+      ]
+    },
+    "regardez": {
+      "lema": "regarder",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Dirigir a vista para: olhai, olhe."
+      ]
+    },
+    "bien": {
+      "lema": "bien",
+      "classe": "advérbio",
+      "def": [
+        "De maneira boa, conveniente: bem."
+      ]
+    },
+    "ma": {
+      "lema": "mon",
+      "classe": "adjetivo possessivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que pertence a mim: minha."
+      ]
+    },
+    "sœur": {
+      "lema": "sœur",
+      "classe": "substantivo feminino",
+      "def": [
+        "Filha do mesmo pai e da mesma mãe que outra pessoa: irmã."
+      ]
+    },
+    "est-ce": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular, com «ce» invertido",
+      "def": [
+        "Ser, estar; «est-ce» começa uma pergunta: é?, será que?"
+      ]
+    },
+    "assez#3": {
+      "lema": "assez",
+      "classe": "advérbio",
+      "def": [
+        "Em quantidade suficiente: bastante, o bastante."
+      ],
+      "nota": "«Est-ce assez ?»: já basta?, já estou grande o bastante?"
+    },
+    "dites": {
+      "lema": "dire",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural",
+      "def": [
+        "Exprimir por palavras: dizei, diga."
+      ]
+    },
+    "moi": {
+      "lema": "moi",
+      "classe": "pronome pessoal",
+      "forma": "primeira pessoa do singular, forma tônica",
+      "def": [
+        "Pronome pessoal tônico da primeira pessoa do singular: eu, mim."
+      ]
+    },
+    "y": {
+      "lema": "y",
+      "classe": "pronome",
+      "def": [
+        "Pronome que retoma um complemento introduzido por «à»: nisso, a isso, lá."
+      ]
+    },
+    "suis#2": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Estar: «y être», chegar lá, ter conseguido."
+      ],
+      "nota": "«N’y suis-je point encore ?»: ainda não cheguei lá?"
+    },
+    "je": {
+      "lema": "je",
+      "classe": "pronome pessoal",
+      "forma": "primeira pessoa do singular, sujeito",
+      "def": [
+        "Pronome pessoal da primeira pessoa do singular, sujeito: eu."
+      ]
+    },
+    "point": {
+      "lema": "point",
+      "classe": "advérbio",
+      "def": [
+        "Com «ne», nega com mais força que «pas»: não, nada, de modo nenhum."
+      ],
+      "nota": "Hoje é literário ou regional; no século XVII era comum."
+    },
+    "encore": {
+      "lema": "encore",
+      "classe": "advérbio",
+      "def": [
+        "Até agora, ainda."
+      ]
+    },
+    "nenni": {
+      "lema": "nenni",
+      "classe": "interjeição",
+      "def": [
+        "(Antigo) Expressão negativa que marca uma recusa categórica: não."
+      ],
+      "nota": "É a resposta da irmã da Rã. Nesses versos as falas se alternam sem marca: a Rã pergunta («Est-ce assez ?», «M’y voici donc ?», «M’y voilà ?») e a irmã responde («Nenni», «Point du tout», «Vous n’en approchez point»)."
+    },
+    "m’": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «me»",
+      "def": [
+        "Pronome pessoal da primeira pessoa do singular, objeto direto ou indireto: me, a mim."
+      ]
+    },
+    "voici": {
+      "lema": "voici",
+      "classe": "preposição",
+      "def": [
+        "Mostra uma coisa ou pessoa próxima: eis, eis aqui."
+      ],
+      "nota": "«M’y voici donc ?»: então cheguei lá?, estou do tamanho dele?"
+    },
+    "donc": {
+      "lema": "donc",
+      "classe": "conjunção",
+      "def": [
+        "Indica a consequência ou a conclusão: portanto, então, pois."
+      ]
+    },
+    "point#2": {
+      "lema": "point",
+      "classe": "advérbio",
+      "def": [
+        "«Point du tout», de modo nenhum, nada disso."
+      ],
+      "nota": "É a resposta da irmã."
+    },
+    "du#3": {
+      "lema": "du",
+      "classe": "artigo definido contraído",
+      "def": [
+        "Em «point du tout», de jeito nenhum: não se traduz à parte."
+      ]
+    },
+    "tout#5": {
+      "lema": "tout",
+      "classe": "pronome indefinido",
+      "def": [
+        "Em «du tout», com negação: de modo nenhum."
+      ]
+    },
+    "voilà": {
+      "lema": "voilà",
+      "classe": "preposição",
+      "def": [
+        "Mostra uma coisa ou pessoa: eis, eis aí."
+      ],
+      "nota": "«M’y voilà ?»: e agora, cheguei?"
+    },
+    "vous": {
+      "lema": "vous",
+      "classe": "pronome pessoal",
+      "forma": "segunda pessoa do plural",
+      "def": [
+        "Pronome pessoal da segunda pessoa do plural, ou do singular de cortesia: vós, o senhor, a senhora; vos, lhe."
+      ]
+    },
+    "en#2": {
+      "lema": "en",
+      "classe": "pronome",
+      "def": [
+        "Pronome que retoma um complemento introduzido por «de»: disso, dele, dela, daí; às vezes «alguns»."
+      ]
+    },
+    "approchez": {
+      "lema": "approcher",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do plural",
+      "def": [
+        "«Approcher de», chegar perto de: «vous n’en approchez point», nem chegais perto."
+      ]
+    },
+    "chétive": {
+      "lema": "chétif",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Fraco, mirrado; (literário) miserável, de pouco valor."
+      ]
+    },
+    "pécore": {
+      "lema": "pécore",
+      "classe": "substantivo feminino",
+      "def": [
+        "(Antigo) Pequeno animal de rebanho, bichinho.",
+        "(Pejorativo) Mulher tola, pretensiosa."
+      ],
+      "nota": "Do latim «pecus», gado: a palavra serve aos dois sentidos, o bicho e a tola convencida."
+    },
+    "enfla": {
+      "lema": "enfler",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "«S’enfler», encher-se de ar, inchar: inchou."
+      ]
+    },
+    "si#2": {
+      "lema": "si",
+      "classe": "advérbio",
+      "def": [
+        "Tão, a tal ponto (diante de adjetivo ou advérbio)."
+      ]
+    },
+    "qu’": {
+      "lema": "que",
+      "classe": "conjunção",
+      "forma": "elisão de «que»",
+      "def": [
+        "Liga a oração principal a uma oração subordinada: que."
+      ]
+    },
+    "creva": {
+      "lema": "crever",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Arrebentar, estourar; (dito de animal) morrer."
+      ]
+    },
+    "monde": {
+      "lema": "monde",
+      "classe": "substantivo masculino",
+      "def": [
+        "Os homens em geral, a gente: mundo."
+      ]
+    },
+    "est": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "plein": {
+      "lema": "plein",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que contém tudo o que pode conter: cheio."
+      ]
+    },
+    "gens": {
+      "lema": "gens",
+      "classe": "substantivo masculino plural",
+      "def": [
+        "Pessoas em número indeterminado: gente, pessoas."
+      ]
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "advérbio",
+      "def": [
+        "Advérbio de negação, quase sempre com «pas», «point», «plus», «rien» etc.: não."
+      ]
+    },
+    "sont": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "plus#2": {
+      "lema": "plus",
+      "classe": "advérbio",
+      "def": [
+        "Em maior quantidade ou grau; forma o comparativo: mais."
+      ]
+    },
+    "sages#2": {
+      "lema": "sage",
+      "classe": "adjetivo",
+      "forma": "plural",
+      "def": [
+        "Que tem juízo; prudente, sensato."
+      ]
+    },
+    "tout#3": {
+      "lema": "tout",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Qualquer, cada: todo (sem artigo)."
+      ]
+    },
+    "bourgeois": {
+      "lema": "bourgeois",
+      "classe": "substantivo masculino",
+      "def": [
+        "Habitante da cidade que não é nobre nem trabalhador manual: burguês."
+      ]
+    },
+    "veut": {
+      "lema": "vouloir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter a vontade de, desejar: querer."
+      ]
+    },
+    "bâtir": {
+      "lema": "bâtir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Construir um edifício: construir, edificar."
+      ]
+    },
+    "les": {
+      "lema": "les",
+      "classe": "artigo definido",
+      "forma": "plural",
+      "def": [
+        "Determinante que marca um substantivo plural, referindo-se a entidades definidas no contexto."
+      ]
+    },
+    "grands": {
+      "lema": "grand",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "De posição elevada, poderoso: grande."
+      ]
+    },
+    "seigneurs": {
+      "lema": "seigneur",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Homem nobre de alta posição: senhor, fidalgo."
+      ]
+    },
+    "petit": {
+      "lema": "petit",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "De tamanho ou importância reduzida: pequeno."
+      ]
+    },
+    "prince": {
+      "lema": "prince",
+      "classe": "substantivo masculino",
+      "def": [
+        "Nobre que governa um pequeno Estado ou pertence a uma família soberana: príncipe."
+      ]
+    },
+    "a": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Possuir, ter."
+      ]
+    },
+    "des": {
+      "lema": "des",
+      "classe": "artigo indefinido",
+      "forma": "plural",
+      "def": [
+        "Plural do artigo indefinido «un», «une»: uns, umas, alguns (muitas vezes não se traduz)."
+      ]
+    },
+    "ambassadeurs": {
+      "lema": "ambassadeur",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Representante de um Estado junto de outro: embaixador."
+      ]
+    },
+    "marquis": {
+      "lema": "marquis",
+      "classe": "substantivo masculino",
+      "def": [
+        "Título de nobreza entre o conde e o duque: marquês."
+      ]
+    },
+    "avoir": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Possuir, ter."
+      ]
+    },
+    "pages": {
+      "lema": "page",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Jovem nobre a serviço de um rei ou de um senhor: pajem."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "0.5": "veut#2",
+    "0.9": "que#5",
+    "3.7": "en#4",
+    "7.2": "assez#3",
+    "7.7": "suis#2",
+    "8.6": "point#2",
+    "8.7": "du#3",
+    "8.8": "tout#5",
+    "9.3": "en#2",
+    "10.3": "si#2",
+    "11.11": "plus#2",
+    "11.12": "sages#2",
+    "12.1": "tout#3",
+    "13.1": "tout#3",
+    "14.1": "tout#3"
+  }
+}

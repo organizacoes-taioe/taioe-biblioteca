@@ -1592,6 +1592,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('mario-de-andrade/losango-caqui-xxxvi', 'Como sempre, escondi minha paixão'),
   ('mario-de-andrade/losango-caqui-xxxvii', 'Te goso'),
   ('mario-de-andrade/losango-caqui-xxxviii', 'Manhã veraneja, manhã que dá sustância'),
+  ('mario-de-andrade/macunaima', 'Macunaíma'),
   ('mario-de-andrade/pauliceia-a-cacada', 'A Caçada'),
   ('mario-de-andrade/pauliceia-a-escalada', 'A Escalada'),
   ('mario-de-andrade/pauliceia-anhangabau', 'Anhangabaú'),

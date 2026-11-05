@@ -1,0 +1,45 @@
+{
+ "id": "magisterio-miserentissimus-redemptor",
+ "rotulo": "Miserentissimus Redemptor (Pio XI, 1928)",
+ "url": "/biblioteca/igreja-catolica/miserentissimus-redemptor/",
+ "escolhas": [
+  {
+   "id": "satisfacao-honrosa",
+   "titulo": "_Honesta satisfactio_, o dever que dá o tema da encíclica, fica «satisfação honrosa»?",
+   "ref": "§ 1 e § 6",
+   "contexto": "O papa fala «da satisfação honrosa, como lhe chamam» e logo a iguala à «reparação». A expressão latina traduz a _amende honorable_ francesa, o pedido público de perdão; em português a devoção usa mais «desagravo» (atos de desagravo ao Sagrado Coração). No resto do texto, _reparatio_ é sempre «reparação» e _expiatio_, «expiação».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«satisfação honrosa», como está",
+     "nota": "Literal, e guarda o «como lhe chamam» do papa, que avisa que é um nome técnico.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«desagravo»",
+     "nota": "Mais conhecido na devoção brasileira; perde o par «satisfação»/«reparação» do latim."
+    }
+   ]
+  },
+  {
+   "id": "titulo-oracao",
+   "titulo": "A oração do fim, _Precatio piacularis ad Sacratissimum Cor Iesu_, fica com o título literal?",
+   "ref": "Oração final e § 20",
+   "contexto": "É a oração que o papa manda rezar todo ano na festa do Sagrado Coração. No Brasil ela é conhecida como «Ato de reparação ao Sagrado Coração de Jesus». Hoje o título é «Oração expiatória ao Sacratíssimo Coração de Jesus», e no § 20 _precatio piacularis_ é «oração expiatória».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Oração expiatória ao Sacratíssimo Coração de Jesus», como está",
+     "nota": "Fiel ao latim e igual ao § 20, que fala da mesma oração.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Ato de reparação ao Sacratíssimo Coração de Jesus»",
+     "nota": "O nome com que a oração é rezada no Brasil; o § 20 passaria a «ato de reparação»."
+    }
+   ]
+  }
+ ]
+}

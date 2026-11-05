@@ -90,7 +90,15 @@ main:focus { outline: none; }
   font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
   font-size: .78rem; color: var(--tinta); text-decoration: none;
   font-family: var(--sans); flex: none;
+  display: inline-flex; align-items: center; gap: .6rem;
 }
+/* A logo (taioe/logo/LOGO.md, a 14e): máscara pintada com a cor do texto, para valer nos três temas.
+   No link para o hub, o texto «Taioé» fica só para leitor de tela. */
+.marca::before {
+  content: ""; flex: none; height: 36px; aspect-ratio: 384 / 355; background: currentColor;
+  -webkit-mask: url("taioe.svg") center / contain no-repeat; mask: url("taioe.svg") center / contain no-repeat;
+}
+.marca[href="/"] { font-size: 0; gap: 0; }
 .topo-nav {
   flex: 1; min-width: 0;
   font-family: var(--sans); font-size: .78rem; color: var(--tinta-tenue);

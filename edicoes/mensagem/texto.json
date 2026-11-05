@@ -1,0 +1,465 @@
+{
+ "descricao": "O único livro de poemas em português que Pessoa publicou em vida (1934): 44 poemas em três partes, Brasão, Mar Português e O Encoberto, sobre a história e o destino de Portugal.",
+ "edicao": {
+  "apresentacao": "**Texto-base.** Este texto reproduz a primeira edição de _Mensagem_ (Lisboa, Parceria António Maria Pereira, 1934), a única publicada em vida de Fernando Pessoa, na grafia brasileira de hoje.\n\n**Como foi estabelecido.** Três testemunhos da 1ª edição, comparados palavra por palavra: a transcrição do Wikisource, uma leitura nossa das imagens do fac-símile por OCR e, em cada ponto em que as duas divergiam, as próprias imagens. As palavras de Pessoa são as mesmas nos três; as diferenças eram de pontuação e de um verso, e em todas valeu o fac-símile (lista abaixo). Seguimos também a errata do próprio livro, que acerta dois versos.\n\n**Grafia.** Mudou só a maneira de escrever (_mytho_ → mito, _sphyngico_ → esfíngico, _Christo_ → Cristo, _ancia_ → ânsia, _porisso_ → por isso, _buscal-os_ → buscá-los, _d'esse_ → desse, _em baixo_ → embaixo), na forma brasileira (gênio, Antônio, bênção). Ficam as formas de Pessoa que pesam no verso ou no sentido, como «Screvo», «strella», «spaço», «murmuro» e «esprança».\n\n**Divisão.** As três partes (Brasão, Mar Português, O Encoberto), as epígrafes latinas e os números e títulos das seções são os do livro. Cada poema fica numa página, com o seu lugar no livro em itálico antes do texto.",
+  "fontes": [
+   {
+    "nome": "Mensagem, 1ª edição, 1934 (fac-símile no Wikimedia Commons)",
+    "url": "https://commons.wikimedia.org/wiki/File:Mensagem.djvu",
+    "nota": "as imagens: lidas por OCR nosso (Tesseract) e conferidas em cada divergência"
+   },
+   {
+    "nome": "Wikisource, Mensagem (transcrição da 1ª edição)",
+    "url": "https://pt.wikisource.org/wiki/Mensagem_(Fernando_Pessoa)",
+    "nota": "o primeiro testemunho, com a errata"
+   }
+  ],
+  "secoes": {
+   "erros": {
+    "titulo": "Errata da 1ª edição",
+    "explica": "A 1ª edição traz no fim uma errata de dois versos, que o texto segue. À esquerda, o verso como saiu impresso, na grafia original."
+   },
+   "mantidas": {
+    "titulo": "Onde a transcrição do Wikisource se afasta da 1ª edição",
+    "explica": "Lições conferidas nas imagens do fac-símile; vale a 1ª edição."
+   }
+  },
+  "erros": [
+   {
+    "cap": "D. Fernando, Infante de Portugal",
+    "de": "Poz-me as mãos sobre os ombros e doirou-me",
+    "para": "Pôs-me as mãos sobre os ombros e doirou-me (a errata pede «hombros», que hoje se escreve «ombros»)"
+   },
+   {
+    "cap": "O Mostrengo",
+    "de": "Trez vezes ao leme as mãos ergueu,",
+    "para": "Três vezes do leme as mãos ergueu,"
+   }
+  ],
+  "mantidas": [
+   {
+    "cap": "O dos Castelos",
+    "texto": "é recuado: … onde é pousado:",
+    "variante": "recuado; … pousado;",
+    "obs": "dois-pontos na 1ª edição"
+   },
+   {
+    "cap": "O dos Castelos",
+    "texto": "esfíngico e fatal,",
+    "variante": "fatal.",
+    "obs": "vírgula na 1ª edição"
+   },
+   {
+    "cap": "D. João o Primeiro",
+    "texto": "De o defender,",
+    "variante": "defender.",
+    "obs": "vírgula na 1ª edição"
+   },
+   {
+    "cap": "D. Pedro, Regente de Portugal",
+    "texto": "assim morri, a vida,",
+    "variante": "a vida.",
+    "obs": "vírgula na 1ª edição"
+   },
+   {
+    "cap": "D. Sebastião, Rei de Portugal",
+    "texto": "minha certeza;",
+    "variante": "certeza;:",
+    "obs": "só ponto e vírgula na 1ª edição"
+   },
+   {
+    "cap": "Ascensão de Vasco da Gama",
+    "texto": "os véus,",
+    "variante": "os véus.",
+    "obs": "vírgula na 1ª edição"
+   },
+   {
+    "cap": "A Última Nau",
+    "texto": "que há a hora,",
+    "variante": "a hora.",
+    "obs": "vírgula na 1ª edição"
+   },
+   {
+    "cap": "O Quinto Império",
+    "texto": "Ser descontente é ser homem. / Que as forças cegas se domem",
+    "variante": "estrofe partida em 3 + 2 versos",
+    "obs": "uma estrofe de cinco versos na 1ª edição, como as outras"
+   },
+   {
+    "cap": "Antemanhã",
+    "texto": "no fim do mar",
+    "variante": "no rim do mar",
+    "obs": "«fim» na 1ª edição"
+   }
+  ]
+ },
+ "poemas": [
+  {
+   "titulo": "O dos Castelos",
+   "pag1934": 15,
+   "cabecalho": [
+    "Benedictus Dominus Deus noster qui dedit nobis signum.",
+    "Primeira parte: Brasão",
+    "Bellum sine bello.",
+    "I. Os Campos",
+    "Primeiro"
+   ],
+   "texto": "A Europa jaz, posta nos cotovelos:\nDe Oriente a Ocidente jaz, fitando,\nE toldam-lhe românticos cabelos\nOlhos gregos, lembrando.\n\nO cotovelo esquerdo é recuado:\nO direito é em ângulo disposto.\nAquele diz Itália onde é pousado:\nEste diz Inglaterra onde, afastado,\nA mão sustenta, em que se apoia o rosto.\n\nFita, com olhar esfíngico e fatal,\nO Ocidente, futuro do passado.\n\nO rosto com que fita é Portugal."
+  },
+  {
+   "titulo": "O das Quinas",
+   "pag1934": 16,
+   "cabecalho": [
+    "Segundo"
+   ],
+   "texto": "Vendem os Deuses o que dão.\nA glória compra-se a desgraça.\nAi dos felizes, porque são\nSó o que passa!\n\nBaste a quem basta o que lhe basta!\nO bastante de lhe bastar!\nA vida é breve, a alma é vasta:\nTer é tardar.\n\nFoi com desgraça e com vileza\nQue Deus ao Cristo definiu :\nAssim o opôs à Natureza\nE Filho o ungiu"
+  },
+  {
+   "titulo": "Ulisses",
+   "pag1934": 19,
+   "cabecalho": [
+    "II. Os Castelos",
+    "Primeiro"
+   ],
+   "texto": "O mito é o nada que é tudo.\nO mesmo sol que abre os céus\nÉ um mito brilhante e mudo\nO corpo morto de Deus,\nVivo e desnudo.\n\nEste, que aqui aportou,\nFoi por não ser existindo.\nSem existir nos bastou.\nPor não ter vindo foi vindo\nE nos criou.\n\nAssim a lenda se escorre\nA entrar na realidade,\nE a fecundá-la decorre.\nEmbaixo, a vida, metade\nDe nada, morre."
+  },
+  {
+   "titulo": "Viriato",
+   "pag1934": 20,
+   "cabecalho": [
+    "Segundo"
+   ],
+   "texto": "Se a alma que sente e faz conhece\nSó porque lembra o que esqueceu,\nVivemos, raça, porque houvesse\nMemória em nós do instinto teu.\n\nNação porque reencarnaste,\nPovo porque ressuscitou\nOu tu, ou o de que eras a haste —\nAssim se Portugal formou.\n\nTeu ser é como aquela fria\nLuz que precede a madrugada,\nE é já o ir a haver o dia\nNa antemanhã, confuso nada."
+  },
+  {
+   "titulo": "O Conde D. Henrique",
+   "pag1934": 21,
+   "cabecalho": [
+    "Terceiro"
+   ],
+   "texto": "Todo começo é involuntário.\nDeus é o agente.\nO herói a si assiste, vário\nE inconsciente.\n\nÀ espada em tuas mãos achada\nTeu olhar desce.\n«Que farei eu com esta espada?»\n\nErgueste-a, e fez-se."
+  },
+  {
+   "titulo": "D. Tareja",
+   "pag1934": 22,
+   "cabecalho": [
+    "Quarto"
+   ],
+   "texto": "As nações todas são mistérios.\nCada uma é todo o mundo a sós.\nÓ mãe de reis e avó de impérios,\nVela por nós!\n\nTeu seio augusto amamentou\nCom bruta e natural certeza\nO que, imprevisto, Deus fadou.\nPor ele reza!\n\nDê tua prece outro destino\nA quem fadou o instinto teu!\nO homem que foi o teu menino\nEnvelheceu.\n\nMas todo vivo é eterno infante\nOnde estás e não há o dia.\nNo antigo seio, vigilante,\nDe novo o cria!"
+  },
+  {
+   "titulo": "D. Afonso Henriques",
+   "pag1934": 24,
+   "cabecalho": [
+    "Quinto"
+   ],
+   "texto": "Pai, foste cavaleiro.\nHoje a vigília é nossa.\nDá-nos o exemplo inteiro\nE a tua inteira força!\n\nDá, contra a hora em que, errada,\nNovos infiéis vençam,\nA bênção como espada,\nA espada como bênção!"
+  },
+  {
+   "titulo": "D. Dinis",
+   "pag1934": 25,
+   "cabecalho": [
+    "Sexto"
+   ],
+   "texto": "Na noite escreve um seu Cantar de Amigo\nO plantador de naus a haver,\nE ouve um silêncio murmuro consigo:\nÉ o rumor dos pinhais que, como um trigo\nDe Império, ondulam sem se poder ver.\n\nArroio, esse cantar, jovem e puro,\nBusca o oceano por achar;\nE a fala dos pinhais, marulho obscuro,\nÉ o som presente desse mar futuro,\nÉ a voz da terra anciando pelo mar."
+  },
+  {
+   "titulo": "D. João o Primeiro",
+   "pag1934": 26,
+   "cabecalho": [
+    "Sétimo (I)"
+   ],
+   "texto": "O homem e a hora são um só\nQuando Deus faz e a história é feita.\nO mais é carne, cujo pó\nA terra espreita.\n\nMestre, sem o saber, do Templo\nQue Portugal foi feito ser,\nQue houveste a glória e deste o exemplo\nDe o defender,\n\nTeu nome, eleito em sua fama,\nÉ, na ara da nossa alma interna,\nA que repele, eterna chama,\nA sombra eterna."
+  },
+  {
+   "titulo": "D. Filipa de Lencastre",
+   "pag1934": 27,
+   "cabecalho": [
+    "Sétimo (II)"
+   ],
+   "texto": "Que enigma havia em teu seio\nQue só gênios concebia?\nQue arcanjo teus sonhos veio\nVelar, maternos, um dia?\n\nVolve a nós teu rosto sério,\nPrincesa do Santo Gral,\nHumano ventre do Império,\nMadrinha de Portugal!"
+  },
+  {
+   "titulo": "D. Duarte, Rei de Portugal",
+   "pag1934": 31,
+   "cabecalho": [
+    "III. As Quinas",
+    "Primeira"
+   ],
+   "texto": "Meu dever fez-me, como Deus ao mundo.\nA regra de ser Rei almou meu ser,\nEm dia e letra escrupuloso e fundo.\n\nFirme em minha tristeza, tal vivi.\nCumpri contra o Destino o meu dever.\nInutilmente? Não, porque o cumpri."
+  },
+  {
+   "titulo": "D. Fernando, Infante de Portugal",
+   "pag1934": 32,
+   "cabecalho": [
+    "Segunda"
+   ],
+   "texto": "Deu-me Deus o seu gládio, porque eu faça\nA sua santa guerra.\nSagrou-me seu em honra e em desgraça,\nÀs horas em que um frio vento passa\nPor sobre a fria terra.\n\nPôs-me as mãos sobre os ombros e doirou-me\nA fronte com o olhar;\nE esta febre de Além, que me consome,\nE este querer grandeza são seu nome\nDentro em mim a vibrar.\n\nE eu vou, e a luz do gládio erguido dá\nEm minha face calma.\nCheio de Deus, não temo o que virá,\nPois, venha o que vier, nunca será\nMaior do que a minha alma."
+  },
+  {
+   "titulo": "D. Pedro, Regente de Portugal",
+   "pag1934": 33,
+   "cabecalho": [
+    "Terceira"
+   ],
+   "texto": "Claro em pensar, e claro no sentir,\nE claro no querer;\nIndiferente ao que há em conseguir\nQue seja só obter;\nDúplice dono, sem me dividir,\nDe dever e de ser —\n\nNão me podia a Sorte dar guarida\nPor eu não ser dos seus.\nAssim vivi, assim morri, a vida,\nCalmo sob mudos céus,\nFiel à palavra dada e à ideia tida.\nTudo mais é com Deus!"
+  },
+  {
+   "titulo": "D. João, Infante de Portugal",
+   "pag1934": 34,
+   "cabecalho": [
+    "Quarta"
+   ],
+   "texto": "Não fui alguém. Minha alma estava estreita\nEntre tam grandes almas minhas pares,\nInutilmente eleita,\nVirgemente parada;\n\nPorque é do português, pai de amplos mares,\nQuerer, poder só isto:\nO inteiro mar, ou a orla vã desfeita —\nO todo, ou o seu nada."
+  },
+  {
+   "titulo": "D. Sebastião, Rei de Portugal",
+   "pag1934": 35,
+   "cabecalho": [
+    "Quinta"
+   ],
+   "texto": "Louco, sim, louco, porque quis grandeza\nQual a Sorte a não dá.\nNão coube em mim minha certeza;\nPor isso onde o areal está\nFicou meu ser que houve, não o que há.\n\nMinha loucura, outros que me a tomem\nCom o que nela ia.\nSem a loucura o que é o homem\nMais que a besta sadia,\nCadáver adiado que procria?"
+  },
+  {
+   "titulo": "Nunalvares Pereira",
+   "pag1934": 39,
+   "cabecalho": [
+    "IV. A Coroa"
+   ],
+   "texto": "Que auréola te cerca?\nÉ a espada que, volteando,\nFaz que o ar alto perca\nSeu azul negro e brando.\n\nMas que espada é que, erguida,\nFaz esse halo no céu?\nÉ Excalibur, a ungida,\nQue o Rei Artur te deu.\n\nSperança consumada,\nS. Portugal em ser,\nErgue a luz da tua espada\nPara a estrada se ver!"
+  },
+  {
+   "titulo": "O Infante D. Henrique",
+   "pag1934": 43,
+   "cabecalho": [
+    "V. O Timbre",
+    "A cabeça do grifo"
+   ],
+   "texto": "Em seu trono entre o brilho das esferas,\nCom seu manto de noite e solidão,\nTem aos pés o mar novo e as mortas eras —\nO único imperador que tem, deveras,\nO globo mundo em sua mão."
+  },
+  {
+   "titulo": "D. João o Segundo",
+   "pag1934": 44,
+   "cabecalho": [
+    "Uma asa do grifo"
+   ],
+   "texto": "Braços cruzados, fita além do mar.\nParece em promontório uma alta serra —\nO limite da terra a dominar\nO mar que possa haver além da terra.\n\nSeu formidável vulto solitário\nEnche de estar presente o mar e o céu,\nE parece temer o mundo vário\nQue ele abra os braços e lhe rasgue o véu."
+  },
+  {
+   "titulo": "Afonso de Albuquerque",
+   "pag1934": 45,
+   "cabecalho": [
+    "A outra asa do grifo"
+   ],
+   "texto": "De pé, sobre os países conquistados\nDesce os olhos cansados\nDe ver o mundo e a injustiça e a sorte.\nNão pensa em vida ou morte,\nTam poderoso que não quer o quanto\nPode, que o querer tanto\nCalcara mais do que o submisso mundo\nSob o seu passo fundo.\nTrês impérios do chão lhe a Sorte apanha.\nCriou-os como quem desdenha."
+  },
+  {
+   "titulo": "O Infante",
+   "pag1934": 51,
+   "cabecalho": [
+    "Segunda parte: Mar Português",
+    "Possessio maris.",
+    "I."
+   ],
+   "texto": "Deus quer, o homem sonha, a obra nasce.\nDeus quis que a terra fosse toda uma,\nQue o mar unisse, já não separasse.\nSagrou-te, e foste desvendando a espuma,\n\nE a orla branca foi de ilha em continente,\nClareou, correndo, até ao fim do mundo,\nE viu-se a terra inteira, de repente,\nSurgir, redonda, do azul profundo.\n\nQuem te sagrou criou-te português.\nDo mar e nós em ti nos deu sinal.\nCumpriu-se o Mar, e o Império se desfez.\nSenhor, falta cumprir-se Portugal!"
+  },
+  {
+   "titulo": "Horizonte",
+   "pag1934": 52,
+   "cabecalho": [
+    "II."
+   ],
+   "texto": "Ó mar anterior a nós, teus medos\nTinham coral e praias e arvoredos.\nDesvendadas a noite e a cerração,\nAs tormentas passadas e o mistério,\nAbria em flor o Longe, e o Sul siderio\nSplendia sobre as naus da iniciação.\n\nLinha severa da longinqua costa —\nQuando a nau se aproxima ergue-se a encosta\nEm arvores onde o Longe nada tinha;\nMais perto, abre-se a terra em sons e cores;\nE, no desembarcar, há aves, flores,\nOnde era só, de longe a abstrata linha."
+  },
+  {
+   "titulo": "Padrão",
+   "pag1934": 54,
+   "cabecalho": [
+    "III."
+   ],
+   "texto": "O esforço é grande e o homem é pequeno.\nEu, Diogo Cão, navegador, deixei\nEste padrão ao pé do areal moreno\nE para diante naveguei.\n\nA alma é divina e a obra é imperfeita.\nEste padrão sinala ao vento e aos céus\nQue, da obra ousada, é minha a parte feita:\nO por-fazer é só com Deus.\n\nE ao imenso e possível oceano\nEnsinam estas Quinas, que aqui vês,\nQue o mar com fim será grego ou romano:\nO mar sem fim é português.\n\nE a Cruz ao alto diz que o que me há na alma\nE faz a febre em mim de navegar\nSó encontrará de Deus na eterna calma\nO porto sempre por achar."
+  },
+  {
+   "titulo": "O Mostrengo",
+   "pag1934": 56,
+   "cabecalho": [
+    "IV."
+   ],
+   "texto": "O mostrengo que está no fim do mar\nNa noite de breu ergueu-se a voar;\nÀ roda da nau voou três vezes,\nVoou três vezes a chiar,\nE disse, «Quem é que ousou entrar\nNas minhas cavernas que não desvendo,\nMeus tetos negros do fim do mundo?»\nE o homem do leme disse, tremendo,\n«El-Rei D. João Segundo!»\n\n«De quem são as velas onde me roço?\nDe quem as quilhas que vejo e ouço?»\nDisse o mostrengo, e rodou três vezes,\nTrês vezes rodou imundo e grosso,\n«Quem vem poder o que só eu posso,\nQue moro onde nunca ninguém me visse\nE escorro os medos do mar sem fundo?»\nE o homem do leme tremeu, e disse,\n«El-Rei D. João Segundo!»\n\nTrês vezes do leme as mãos ergueu\nTrês vezes ao leme as reprendeu,\nE disse no fim de temer três vezes,\n«Aqui ao leme sou mais do que eu:\nSou um Povo que quer o mar que é teu;\nE mais que o mostrengo, que me a alma teme\nE roda nas trevas do fim do mundo,\nManda a vontade, que me ata ao leme,\nDe El-Rei D. João Segundo!»"
+  },
+  {
+   "titulo": "Epitáfio de Bartolomeu Dias",
+   "pag1934": 58,
+   "cabecalho": [
+    "V."
+   ],
+   "texto": "Jaz aqui, na pequena praia extrema,\nO Capitão do Fim. Dobrado o Assombro,\nO mar é o mesmo: já ninguém o tema!\nAtlas, mostra alto o mundo no seu ombro."
+  },
+  {
+   "titulo": "Os Colombos",
+   "pag1934": 59,
+   "cabecalho": [
+    "VI."
+   ],
+   "texto": "Outros haverão de ter\nO que houvermos de perder.\nOutros poderão achar\nO que, no nosso encontrar,\nFoi achado, ou não achado,\nSegundo o destino dado.\n\nMas o que a eles não toca\nÉ a Magia que evoca\nO Longe e faz dele história.\nE por isso a sua glória\nÉ uma justa auréola dada\nPor uma luz emprestada."
+  },
+  {
+   "titulo": "Ocidente",
+   "pag1934": 60,
+   "cabecalho": [
+    "VII."
+   ],
+   "texto": "Com duas mãos — o Ato e o Destino —\nDesvendámos. No mesmo gesto, ao céu\nUma ergue o facho trêmulo e divino\nE a outra afasta o véu.\n\nFosse a hora que haver ou a que havia\nA mão que ao Ocidente o véu rasgou,\nFoi alma a Ciência e corpo a Ousadia\nDa mão que desvendou.\n\nFosse Acaso, ou Vontade, ou Temporal\nA mão que ergueu o facho que luziu,\nFoi Deus a alma e o corpo Portugal\nDa mão que o conduziu."
+  },
+  {
+   "titulo": "Fernão de Magalhães",
+   "pag1934": 61,
+   "cabecalho": [
+    "VIII."
+   ],
+   "texto": "No vale clareia uma fogueira.\nUma dança sacode a terra inteira.\nE sombras disformes e descompostas\nEm clarões negros do vale vão\nSubitamente pelas encostas,\nIndo perder-se na escuridão.\n\nDe quem é a dança que a noite aterra?\nSão os Titãs, os filhos da Terra,\nQue dançam da morte do marinheiro\nQue quis cingir o materno vulto —\nCingi-lo, dos homens, o primeiro —,\nNa praia ao longe por fim sepulto.\n\nDançam, nem sabem que a alma ousada\nDo morto ainda comanda a armada,\nPulso sem corpo ao leme a guiar\nAs naus no resto do fim do espaço:\nQue até ausente soube cercar\nA terra inteira com seu abraço.\n\nViolou a Terra. Mas eles não\nO sabem, e dançam na solidão;\nE sombras disformes e descompostas,\nIndo perder-se nos horizontes,\nGalgam do vale pelas encostas\nDos mudos montes."
+  },
+  {
+   "titulo": "Ascensão de Vasco da Gama",
+   "pag1934": 63,
+   "cabecalho": [
+    "IX."
+   ],
+   "texto": "Os Deuses da tormenta e os gigantes da terra\nSuspendem de repente o ódio da sua guerra\nE pasmam. Pelo vale onde se ascende aos céus\nSurge um silêncio, e vai, da névoa ondeando os véus,\nPrimeiro um movimento e depois um assombro.\nLadeiam-o, ao durar, os medos, ombro a ombro,\nE ao longe o rastro ruge em nuvens e clarões\n\nEmbaixo, onde a terra é, o pastor gela, e a flauta\nCai-lhe, e em êxtase vê, à luz de mil trovões,\nO céu abrir o abismo à alma do Argonauta."
+  },
+  {
+   "titulo": "Mar Português",
+   "pag1934": 64,
+   "cabecalho": [
+    "X."
+   ],
+   "texto": "Ó mar salgado, quanto do teu sal\nSão lágrimas de Portugal!\nPor te cruzarmos, quantas mães choraram,\nQuantos filhos em vão rezaram!\nQuantas noivas ficaram por casar\nPara que fosses nosso, ó mar!\n\nValeu a pena? Tudo vale a pena\nSe a alma não é pequena.\nQuem quer passar além do Bojador\nTem que passar além da dor.\nDeus ao mar o perigo e o abismo deu,\nMas nele é que espelhou o céu."
+  },
+  {
+   "titulo": "A Última Nau",
+   "pag1934": 65,
+   "cabecalho": [
+    "XI."
+   ],
+   "texto": "Levando a bordo El-Rei D. Sebastião,\nE erguendo, como um nome, alto o pendão\nDo Império,\nFoi-se a última nau, ao sol aziago\nErma, e entre choros de ânsia e de présago\nMistério.\n\nNão voltou mais. A que ilha indescoberta\nAportou? Voltará da sorte incerta\nQue teve?\nDeus guarda o corpo e a forma do futuro,\nMas Sua luz projeta-o, sonho escuro\nE breve.\n\nAh, quanto mais ao povo a alma falta,\nMais a minha alma atlântica se exalta\nE entorna,\nE em mim, num mar que não tem tempo ou spaço,\nVejo entre a cerração teu vulto baço\nQue torna.\n\nNão sei a hora, mas sei que há a hora,\nDemore-a Deus, chame-lhe a alma embora\nMistério.\nSurges ao sol em mim, e a névoa finda:\nA mesma, e trazes o pendão ainda\nDo Império."
+  },
+  {
+   "titulo": "Prece",
+   "pag1934": 67,
+   "cabecalho": [
+    "XII."
+   ],
+   "texto": "Senhor, a noite veio e a alma é vil.\nTanta foi a tormenta e a vontade!\nRestam-nos hoje, no silêncio hostil,\nO mar universal e a saudade.\n\nMas a chama, que a vida em nós criou,\nSe — ainda há vida ainda não é finda.\nO frio morto em cinzas a ocultou:\nA mão do vento pode erguê-la ainda.\n\nDá o sopro, a aragem — ou desgraça ou ânsia—,\nCom que a chama do esforço se remoça,\nE outra vez conquistemos a Distância—\nDo mar ou outra, mas que seja nossa!"
+  },
+  {
+   "titulo": "D. Sebastião",
+   "pag1934": 75,
+   "cabecalho": [
+    "Terceira parte: O Encoberto",
+    "Pax in excelsis.",
+    "I. Os Símbolos",
+    "Primeiro"
+   ],
+   "texto": "Sperae! Caí no areal e na hora adversa\nQue Deus concede aos seus\nPara o intervalo em que esteja a alma imersa\nEm sonhos que são Deus.\n\nQue importa o areal e a morte e a desventura\nSe com Deus me guardei?\nÉ o que eu me sonhei que eterno dura,\nÉ Esse que regressarei."
+  },
+  {
+   "titulo": "O Quinto Império",
+   "pag1934": 76,
+   "cabecalho": [
+    "Segundo"
+   ],
+   "texto": "Triste de quem vive em casa,\nContente com o seu lar,\nSem que um sonho, no erguer de asa,\nFaça até mais rubra a brasa\nDa lareira a abandonar!\n\nTriste de quem é feliz!\nVive porque a vida dura.\nNada na alma lhe diz\nMais que a lição da raiz —\nTer por vida a sepultura.\n\nEras sobre eras se somem\nNo tempo que em eras vem.\nSer descontente é ser homem.\nQue as forças cegas se domem\nPela visão que a alma tem!\n\nE assim, passados os quatro\nTempos do ser que sonhou,\nA terra será teatro\nDo dia claro, que no atro\nDa erma noite começou.\n\nGrécia, Roma, Cristandade,\nEuropa — os quatro se vão\nPara onde vai toda idade.\nQuem vem viver a verdade\nQue morreu D. Sebastião?"
+  },
+  {
+   "titulo": "O Desejado",
+   "pag1934": 78,
+   "cabecalho": [
+    "Terceiro"
+   ],
+   "texto": "Onde quer que, entre sombras e dizeres,\nJazas, remoto, sente-te sonhado,\nE ergue-te do fundo de não-seres\nPara teu novo fado!\n\nVem, Galaaz com pátria, erguer de novo,\nMas já no auge da suprema prova,\nA alma penitente do teu povo\nÀ Eucaristia Nova.\n\nMestre da Paz, ergue teu gládio ungido,\nExcalibur do Fim, em jeito tal\nQue sua Luz ao mundo dividido\nRevele o Santo Gral!"
+  },
+  {
+   "titulo": "As Ilhas Afortunadas",
+   "pag1934": 79,
+   "cabecalho": [
+    "Quarto"
+   ],
+   "texto": "Que voz vem no som das ondas\nQue não é a voz do mar?\nÉ a voz de alguém que nos fala,\nMas que, se escutamos, cala,\nPor ter havido escutar.\n\nE só se, meio dormindo,\nSem saber de ouvir ouvimos,\nQue ela nos diz a esperança\nA que, como uma criança\nDormente, a dormir sorrimos.\n\nSão ilhas afortunadas,\nSão terras sem ter logar,\nOnde o Rei mora esperando.\nMas, se vamos dispertando,\nCala a voz, e há só o mar."
+  },
+  {
+   "titulo": "O Encoberto",
+   "pag1934": 80,
+   "cabecalho": [
+    "Quinto"
+   ],
+   "texto": "Que símbolo fecundo\nVem na aurora anciosa?\nNa Cruz morta do Mundo\nA Vida, que é a Rosa.\n\nQue símbolo divino\nTraz o dia já visto?\nNa Cruz, que é o Destino,\nA Rosa, que é o Cristo.\n\nQue símbolo final\nMostra o sol já disperto?\nNa Cruz morta e fatal\nA Rosa do Encoberto."
+  },
+  {
+   "titulo": "O Bandarra",
+   "pag1934": 83,
+   "cabecalho": [
+    "II. Os Avisos",
+    "Primeiro"
+   ],
+   "texto": "Sonhava, anónimo e disperso,\nO Império por Deus mesmo visto,\nConfuso como o Universo\nE plebeu como Jesus Cristo\n\nNão foi nem santo nem herói,\nMas Deus sagrou com Seu sinal\nEste, cujo coração foi\nNão português mas Portugal."
+  },
+  {
+   "titulo": "Antônio Vieira",
+   "pag1934": 84,
+   "cabecalho": [
+    "Segundo"
+   ],
+   "texto": "O céu strela o azul e tem grandeza.\nEste, que teve a fama e à glória tem,\nImperador da lingua portuguesa,\nFoi-nos um céu também.\n\nNo imenso espaço seu de meditar,\nConstelado de forma e de visão,\nSurge, prenuncio claro do luar,\nEl-Rei D. Sebastião.\n\nMas não, não é luar: é luz do etéreo.\nÉ um dia; e, no céu amplo de desejo,\nA madrugada irreal do Quinto Império\nDoira as margens do Tejo."
+  },
+  {
+   "titulo": "Screvo meu livro à beira-mágoa",
+   "pag1934": 85,
+   "cabecalho": [
+    "Terceiro"
+   ],
+   "texto": "Screvo meu livro à beira-mágoa.\nMeu coração não tem que ter.\nTenho meus olhos quentes de água.\nSó tu, Senhor, me dás viver.\n\nSó te sentir e te pensar\nMeus dias vácuos enche e doura.\nMas quando quererás voltar?\nQuando é o Rei? Quando é a Hora?\n\nQuando virás a ser o Cristo\nDe a quem morreu o falso Deus,\nE a dispertar do mal que existo\nA Nova Terra e os Novos Céus?\n\nQuando virás, ó Encoberto,\nSonho das eras português,\nTornar-me mais que o sopro incerto\nDe um grande anseio que Deus fez?\n\nAh, quando quererás, voltando,\nFazer minha esperança amor?\nDa névoa e da saudade quando?\nQuando, meu Sonho e meu Senhor?"
+  },
+  {
+   "titulo": "Noite",
+   "pag1934": 89,
+   "cabecalho": [
+    "III. Os Tempos",
+    "Primeiro"
+   ],
+   "texto": "A nau de um deles tinha se perdido\nNo mar indefinido.\nO segundo pediu licença ao Rei\nDe, na fé e na lei\nDa descoberta ir em procura\nDo irmão no mar sem fim e a névoa escura.\n\nTempo foi. Nem primeiro nem segundo\nVolveu do fim profundo\nDo mar ignoto à pátria por quem dera\nO enigma que fizera.\nEntão o terceiro a El-Rei rogou\nLicença de os buscar, e El-Rei negou.\n\nComo a um cativo, o ouvem a passar\nOs servos do solar.\nE, quando o veem, veem a figura\nDa febre e da amargura,\nCom fixos olhos rasos de ânsia\nFitando a proibida azul distância.\n\nSenhor, os dois irmãos do nosso Nome—\nO Poder e o Renome —\nAmbos se foram pelo mar da idade\nÀ tua eternidade;\nE com eles de nós se foi\nO que faz a alma poder ser de herói,\n\nQueremos ir buscá-los, desta vil\nNossa prisão servil:\nÉ a busca de quem somos, na distância\nDe nós; e, em febre de ânsia,\nA Deus as mãos alçamos.\n\nMas Deus não dá licença que partamos."
+  },
+  {
+   "titulo": "Tormenta",
+   "pag1934": 92,
+   "cabecalho": [
+    "Segundo"
+   ],
+   "texto": "Que jaz no abismo sob o mar que se ergue?\nNós, Portugal, o poder ser.\nQue inquietação do fundo nos soergue?\nO desejar poder querer.\n\nIsto, e o mistério de que a noite é o fausto...\nMas súbito, onde o vento ruge,\nO relâmpago, farol de Deus, um hausto\nBrilha, e o mar scuro struge."
+  },
+  {
+   "titulo": "Calma",
+   "pag1934": 93,
+   "cabecalho": [
+    "Terceiro"
+   ],
+   "texto": "Que costa é que as ondas contam\nE se não pode encontrar\nPor mais naus que haja no mar?\nO que é que as ondas encontram\nE nunca se vê surgindo?\nEste som de o mar praiar\nOnde é que está existindo?\n\nIlha próxima e remota,\nQue nos ouvidos persiste,\nPara a vista não existe.\nQue nau, que armada, que frota\nPode encontrar o caminho\nÀ praia onde o mar insiste,\nSe à vista o mar é sozinho?\n\nHaverá rasgões no espaço\nQue deem para outro lado,\nE que, um deles encontrado,\nAqui, onde há só sargaço,\nSurja uma ilha velada,\nO país afortunado\nQue guarda o Rei desterrado\nEm sua vida encantada?"
+  },
+  {
+   "titulo": "Antemanhã",
+   "pag1934": 95,
+   "cabecalho": [
+    "Quarto"
+   ],
+   "texto": "O mostrengo que está no fim do mar\nVeio das trevas a procurar\nA madrugada do novo dia,\nDo novo dia sem acabar;\nE disse, «Quem é que dorme a lembrar\nQue desvendou o Segundo Mundo,\nNem o Terceiro quer desvendar?»\n\nE o som na treva de ele rodar\nFaz mau o sono, triste o sonhar.\nRodou e foi-se o mostrengo servo\nQue seu senhor veio aqui buscar.\nQue veio aqui seu senhor chamar —\nChamar Aquele que está dormindo\nE foi outrora Senhor do Mar."
+  },
+  {
+   "titulo": "Nevoeiro",
+   "pag1934": 96,
+   "cabecalho": [
+    "Quinto"
+   ],
+   "texto": "Nem rei nem lei, nem paz nem guerra,\nDefine com perfil e ser\nEste fulgor baço da terra\nQue é Portugal a entristecer —\nBrilho sem luz e sem arder,\nComo o que o fogo-fátuo encerra.\n\nNinguém sabe que coisa quer.\nNinguém conhece que alma tem,\nNem o que é mal nem o que é bem.\n(Que ânsia distante perto chora?)\nTudo é incerto e derradeiro.\nTudo é disperso, nada é inteiro.\nÓ Portugal, hoje és nevoeiro...\n\nÉ a Hora!",
+   "fecho": "Valete, Fratres."
+  }
+ ]
+}

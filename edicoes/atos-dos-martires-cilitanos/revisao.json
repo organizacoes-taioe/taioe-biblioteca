@@ -1,0 +1,117 @@
+{
+ "id": "atos-dos-martires-cilitanos",
+ "rotulo": "Atos dos Mártires Cilitanos (Anônimo)",
+ "url": "/biblioteca/anonimo/atos-dos-martires-cilitanos/",
+ "escolhas": [
+  {
+   "id": "data-romana",
+   "titulo": "Em 1 a data fica na forma romana, «no décimo sexto dia antes das calendas de agosto»?",
+   "ref": "seção 1",
+   "contexto": "A ata abre com a data à romana: os cônsules do ano e *XVI Kalendas Augustas*, que é 17 de julho (contando o próprio dia das calendas, 1º de agosto). A apresentação explica a conta.\n\nHoje: «Sendo cônsules Presente, pela segunda vez, e Claudiano, no décimo sexto dia antes das calendas de agosto, em Cartago…».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Na forma romana, como está",
+     "nota": "Guarda o tom de ata; a apresentação dá o dia de hoje.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«em 17 de julho»",
+     "nota": "Mais claro; perde a fórmula do documento."
+    },
+    {
+     "id": "c",
+     "texto": "«no décimo sexto dia antes das calendas de agosto (17 de julho)»",
+     "nota": "As duas coisas, com um acréscimo entre parênteses."
+    }
+   ]
+  },
+  {
+   "id": "claudiano",
+   "titulo": "O segundo cônsul fica «Claudiano», como no texto, e não «Condiano», o nome da história?",
+   "ref": "seção 1",
+   "contexto": "Os cônsules de 180 foram Brútio Presente (pela segunda vez) e Sexto Quintílio Condiano. Todos os manuscritos e a versão grega trazem *Claudiano*, e Robinson imprime assim de propósito (p. 111). A apresentação diz que a história o conhece como Condiano.\n\nHoje: «Sendo cônsules Presente, pela segunda vez, e Claudiano».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Claudiano», como está, com o latim ao lado",
+     "nota": "Tradução e original dizem o mesmo; a apresentação corrige.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Condiano», o nome certo",
+     "nota": "Corrige o copista na tradução; o latim ao lado fica diferente."
+    }
+   ]
+  },
+  {
+   "id": "nosso-imperador",
+   "titulo": "Em 2 fica ambíguo quem é «o nosso imperador» que os cristãos respeitam?",
+   "ref": "seção 2",
+   "contexto": "Esperato termina: *propter quod imperatorem nostrum obseruamus*, «por isso respeitamos o nosso imperador». Pode ser o imperador romano (os cristãos dizem que não fazem mal e por isso são bons súditos) ou Deus, que em 6 ele chama «Rei dos reis e Imperador de todas as nações»; os estudiosos se dividem, e talvez a ambiguidade seja de propósito.\n\nHoje: «e por isso respeitamos o nosso imperador».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ambíguo, como está",
+     "nota": "Como o latim.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«e por isso honramos o nosso Imperador», com maiúscula, apontando para Deus",
+     "nota": "Escolhe uma leitura."
+    },
+    {
+     "id": "c",
+     "texto": "«e por isso respeitamos o imperador»",
+     "nota": "Puxa para o imperador romano; perde o «nosso»."
+    }
+   ]
+  },
+  {
+   "id": "persuasio",
+   "titulo": "Em 7 *persuasio* fica «crença», nas duas falas?",
+   "ref": "seção 7",
+   "contexto": "O procônsul diz aos outros: *Desinite huius esse persuasionis*, «deixai de ter essa crença»; Esperato devolve a palavra: *Mala est persuasio homicidium facere, falsum testimonium dicere*, «má crença é cometer homicídio, dar falso testemunho». A resposta só funciona se a palavra for a mesma nas duas falas.\n\nHoje: «Deixai de ter essa crença» e «Má crença é cometer homicídio, dar falso testemunho».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«crença», como está",
+     "nota": "Palavra comum, que serve às duas falas.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«persuasão»",
+     "nota": "Mais literal; em português soa estranho («deixai de ter essa persuasão»)."
+    },
+    {
+     "id": "c",
+     "texto": "«convicção»",
+     "nota": "Clara; «má convicção» soa menos natural."
+    }
+   ]
+  },
+  {
+   "id": "livros-e-cartas",
+   "titulo": "Em 12 a resposta fica «Os livros e as cartas de Paulo, homem justo»?",
+   "ref": "seção 12",
+   "contexto": "Perguntado sobre o que há na caixa (*capsa*, o estojo dos rolos), Esperato responde: *Libri et epistulae Pauli uiri iusti*. O latim não diz se os «livros» também são de Paulo ou se são outros (os Evangelhos, os livros do Antigo Testamento), ao lado das cartas. A tradução guarda essa abertura.\n\nHoje: «Os livros e as cartas de Paulo, homem justo».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Os livros e as cartas de Paulo, homem justo», como está",
+     "nota": "Tão aberto quanto o latim.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Livros, e as cartas de Paulo, homem justo»",
+     "nota": "Separa os livros das cartas: escolhe uma leitura."
+    }
+   ]
+  }
+ ]
+}

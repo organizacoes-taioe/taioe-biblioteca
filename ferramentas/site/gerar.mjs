@@ -255,6 +255,50 @@ for (const d of fs.existsSync(DIR_VOCAB) ? fs.readdirSync(DIR_VOCAB).filter((x) 
     VOCABULARIO[id] = v;
   }
 }
+/* Notas gerais (pedido do Gere, 04/11/2026; edicoes/notas/LEIA.md): notas de contexto nos livros em
+   português, um arquivo por obra, por coletânea ou, na poesia, por autor: edicoes/notas/<nome>.json,
+   {obra | obras: [ids], notas: [{id, obra?, parte, apos, ocorrencia?, texto, revista?}]}. Ele aprova
+   uma a uma em /admin/notas/ (ferramentas/notas.mjs revisao); só a nota «revista» vai ao site, com a
+   letra logo depois do «apos» e o texto na lista do fim da parte, como nas obras comentadas. */
+const NOTAS_GERAIS = {};   // obra → parte (1, 2…) → [notas]
+const DIR_NOTAS = path.join(RAIZ, 'edicoes', 'notas');
+for (const d of fs.existsSync(DIR_NOTAS) ? fs.readdirSync(DIR_NOTAS).filter((x) => x.endsWith('.json')).sort() : []) {
+  const v = JSON.parse(fs.readFileSync(path.join(DIR_NOTAS, d), 'utf8'));
+  for (const n of v.notas || []) {
+    if (!n.revista) continue;
+    const id = n.obra || v.obra;
+    ((NOTAS_GERAIS[id] = NOTAS_GERAIS[id] || {})[n.parte] = NOTAS_GERAIS[id][n.parte] || []).push(n);
+  }
+}
+const notasPostas = new Set();
+/* as notas gerais aprovadas da parte, com a posição no texto e a letra na ordem do texto */
+function notasGeraisDaParte(o, i, p) {
+  const lista = ((NOTAS_GERAIS[o.id] || {})[i] || []);
+  if (!lista.length) return [];
+  const texto = String(p.texto || '');
+  const r = lista.map((n) => {
+    let k = -1;
+    for (let v = 0; v < (n.ocorrencia || 1); v++) { k = texto.indexOf(n.apos, k + 1); if (k < 0) break; }
+    if (k < 0) throw new Error(`nota geral ${o.id}:${n.id}: «${n.apos}» não está na parte ${i}`);
+    let pos = k + n.apos.length;
+    while (/[_*]/.test(texto[pos] || '')) pos++;   // depois do fim do itálico, não dentro dele
+    notasPostas.add(o.id + ':' + n.id);
+    return { ...n, pos };
+  }).sort((a, b) => a.pos - b.pos);
+  r.forEach((n, k) => { n.letra = letraNota(k); });
+  return r;
+}
+/* a marca de cada nota no texto cru (caracteres de uso privado, que o inline() e o vocabulário deixam
+   passar) e, depois de montado o HTML, a letra no lugar dela */
+function comMarcasNotas(texto, notas) {
+  let t = String(texto);
+  notas.slice().sort((a, b) => b.pos - a.pos).forEach((n) => { t = t.slice(0, n.pos) + '\uE000' + notas.indexOf(n) + '\uE001' + t.slice(n.pos); });
+  return t;
+}
+function trocarMarcasNotas(html, notas) {
+  return html.replace(/\uE000(\d+)\uE001/g, (m, k) => { const l = notas[+k].letra;
+    return '<a class="nota-ref" href="#nota-' + l + '" id="ref-' + l + '" data-nota="' + l + '" aria-label="Nota ' + l + '">' + l + '</a>'; });
+}
 /* marca as formas do vocabulário nos trechos de texto do HTML; fora das marcas, dos links, dos
    botões e dos títulos, e fora do lado do original (div.orig) nas páginas bilíngues. Devolve o HTML
    e os índices das palavras usadas. */
@@ -424,7 +468,15 @@ function generosDe(autorId) {
 }
 /* autor de um gênero só, todo em verso (a Poesia; as Orações): a página do autor já é a lista dos
    textos, sem a pasta do gênero */
-function soPoesia(autorId) { const g = generosDe(autorId); return g.length === 1 && g[0].obras.every((o) => o.poema); }
+function soPoesia(autorId) {
+  const g = generosDe(autorId);
+  return g.length === 1 && g[0].obras.some((o) => o.poema) && g[0].obras.every((o) => o.poema || g[0].genero === 'Poesia');
+}
+/* livros de poemas inteiros (obra com partes, não poema solto; as Poesias de Bilac), em cima dos poemas */
+function htmlLivrosDePoesia(obras) {
+  const livros = obras.filter((o) => !o.poema);
+  return livros.length && livros.length < obras.length ? '<p class="secao-titulo">Livros</p>' + htmlObrasDoGenero(livros) : '';
+}
 // Ordem alfabética pelo nome como está escrito («Machado de Assis» no M), pedido do Gere, 07/10/2026.
 const autoresOrdenados = () => dados.autores.slice().sort((a, b) => a.nome.localeCompare(b.nome, 'pt'));
 const autoresDaArea = (id) => autoresOrdenados().filter((a) => areaDe(a) === id);
@@ -917,7 +969,7 @@ function trilhaPasta(a, o) {
   if (formaEhPasta(a.id, f.id)) itens.push({ txt: f.nome, href: U.pasta(a, f.id) });
   return comArea(a, itens);
 }
-const trilhaGenero = (a, g) => (generoEhPasta(a, g) ? { txt: nomeGenero(g), href: U.genero(a, g) } : null);
+const trilhaGenero = (a, g) => (generoEhPasta(a, g) && !(g === 'Poesia' && soPoesia(a.id)) ? { txt: nomeGenero(g), href: U.genero(a, g) } : null);
 
 function paginaPasta(a, f) {
   const obras = poesiaDe(a.id).filter((o) => (o.forma || 'outras') === f.id);
@@ -932,7 +984,7 @@ function paginaPasta(a, f) {
 function paginaAutor(a) {
   const desc = `${a.nome}${a.vida ? ' (' + a.vida + ')' : ''} na Biblioteca Taioé.${a.nota ? ' ' + textoPuro(a.nota) : ''}`;
   if (soPoesia(a.id)) {
-    pagina({ url: U.autor(a), titulo: a.nome, corpo: '<div class="folha">' + cabecaAutor(a) + htmlPastas(a, poesiaDe(a.id)) + '</div>',
+    pagina({ url: U.autor(a), titulo: a.nome, corpo: '<div class="folha">' + cabecaAutor(a) + htmlLivrosDePoesia(obrasDe(a.id)) + htmlPastas(a, poesiaDe(a.id)) + '</div>',
       trilha: comArea(a, [{ txt: a.nome }]), descricao: descricaoDe(desc) });
     return;
   }
@@ -980,7 +1032,9 @@ function paginaGenero(a, x) {
   let html = '<div class="folha"><header class="cabeca"><h1>' + esc(nomeGenero(x.genero)) + '</h1><p class="meta">' + esc(a.nome) + '</p></header>';
   const trilha = comArea(a, [{ txt: a.nome, href: U.autor(a) }, { txt: nomeGenero(x.genero) }]);
   if (x.genero === 'Poesia') {
-    pagina({ url: U.genero(a, x.genero), titulo: 'Poesia — ' + a.nome, corpo: html + htmlPastas(a, x.obras) + '</div>', trilha,
+    const poemas = x.obras.filter((o) => o.poema);
+    html += htmlLivrosDePoesia(x.obras);
+    pagina({ url: U.genero(a, x.genero), titulo: 'Poesia — ' + a.nome, corpo: html + htmlPastas(a, poemas.length ? poemas : x.obras) + '</div>', trilha,
       descricao: `Poesia de ${a.nome} na Biblioteca Taioé.` });
     return;
   }
@@ -1119,13 +1173,17 @@ function paginaParte(a, o, f) {
   const alvo = !sub ? 'parte' : p.tipo === 'capitulo' ? 'capitulo' : 'secao';
   const lingua = comPt ? o.lingua : bilingue && o.traducao ? o.traducao.codigo || '' : '';
   const comentada = !!o.comentada;
-  const notasC = comentada ? notasDaParte(p) : null;
-  let corpo = comentada ? textoComentado(o, p, f, notasC) : textoParte(o, p), vocab = '';
+  const notasC = comentada ? notasDaParte(p) : notasGeraisDaParte(o, f.i, p);
+  let corpo = comentada ? textoComentado(o, p, f, notasC) : textoParte(o, notasC.length ? { ...p, texto: comMarcasNotas(p.texto, notasC) } : p), vocab = '';
   const voc = !p.glossario ? VOCABULARIO[o.id] : null;
   if (voc) {
     const r = marcarRaras(corpo, voc, f.i, o.id);
     corpo = r.html;
     if (r.usados.size) vocab = htmlVocabulario(voc, r.usados);
+  }
+  if (!comentada && notasC.length) {
+    corpo = trocarMarcasNotas(corpo, notasC);
+    if (/[\uE000\uE001]/.test(corpo)) throw new Error(`${o.id}, parte ${f.i}: marca de nota que não virou letra`);
   }
   const html = '<p class="aviso-outro" id="aviso-outro" hidden></p>' +
     '<article class="folha leitura' + (poema && !o.prosa ? ' de-poema' : '') + (p.glossario ? ' com-notas' : '') + (bilingue ? ' bilingue ' + (comPt ? 'ver-orig' : 'ver-trad') : '') + '"' +
@@ -1133,7 +1191,7 @@ function paginaParte(a, o, f) {
     '<header class="cabeca-parte' + (conto && i === 1 ? ' conto' : '') + '">' + cabeca +
     (comentada ? '<p class="faixa-st">' + esc(p.folhas) + '</p>' + (temComentarios(p) ? '<p class="ver-coment"><a class="botao secundario" href="' + f.url + 'comentarios/">Comentários sobre esta parte</a></p>' : '') : '') +
     (vocab ? '<p class="publicacao dica-glossario">As palavras sublinhadas têm nota: toque para ver o sentido.</p>' : '') +
-    '</header>' + corpo + (comentada ? listaNotas(notasC) : '') +
+    '</header>' + corpo + listaNotas(notasC) +
     (p.glossario ? htmlGlossario(o, p.glossario) : '') + vocab +
     '<div id="fim-parte" aria-hidden="true"></div>' +
     (i < total || poema ? '' : '<p class="fim">Fim</p>') +
@@ -1141,7 +1199,7 @@ function paginaParte(a, o, f) {
     '<nav class="passos" aria-label="Navegação entre ' + esc(poema && total === 1 ? rotuloVersos(o.genero)[1] : dividida(o) ? 'capítulos' : o.divisao ? o.divisao.plural : 'partes') + '">' + navAnt + navSeg + '</nav>' +
     posicao +
     (conto && o.edicao && i === total ? '<p class="posicao"><a href="' + U.sobre(o) + '">' + esc(tituloSobre(o)) + '</a></p>' : '') + '</article>' +
-    (comentada && notasC.length ? PAINEL_NOTA : '');
+    (notasC.length ? PAINEL_NOTA : '');
   const rot = sub ? f.rotulo : rotuloParte(o, p);
   const tituloPagina = sub ? rot + ': ' + textoPuro(p.titulo) + ' — ' + o.titulo + ' — ' + a.nome
     : (rot && rot !== o.titulo ? rot + (p.titulo && rot.indexOf(textoPuro(p.titulo)) < 0 ? ': ' + textoPuro(p.titulo) : '') + ' — ' : '') + o.titulo + ' — ' + a.nome;
@@ -1209,7 +1267,7 @@ function listaNotas(notas) {
   if (!notas.length) return '';
   return '<section class="notas" aria-labelledby="titulo-notas"><h2 id="titulo-notas">Notas</h2><ol>' + notas.map((n) =>
     '<li id="nota-' + n.letra + '"><a class="nota-letra" href="#ref-' + n.letra + '" aria-label="Voltar ao texto">' + n.letra + '</a> ' +
-    '<span class="nota-v">' + esc(n.st) + '</span> <span class="nota-texto">' + inlineC(n.texto) + '</span></li>').join('') + '</ol></section>';
+    (n.st !== undefined ? '<span class="nota-v">' + esc(n.st) + '</span> ' : '') + '<span class="nota-texto">' + inlineC(n.texto) + '</span></li>').join('') + '</ol></section>';
 }
 function paginasComentarios(a, o, f) {
   const p = f.no;
@@ -1401,7 +1459,11 @@ fs.writeFileSync(path.join(SAIDA, '404.html'), html404);
 fs.mkdirSync(path.join(SAIDA, 'css'), { recursive: true });
 fs.mkdirSync(path.join(SAIDA, 'js'), { recursive: true });
 fs.writeFileSync(path.join(SAIDA, 'css', 'estilo.css'), CSS);
+fs.copyFileSync(path.join(RAIZ, 'ferramentas', 'site', 'taioe.svg'), path.join(SAIDA, 'css', 'taioe.svg'));   // a logo, máscara do .marca
 fs.writeFileSync(path.join(SAIDA, 'js', 'leitor.js'), LEITOR);
+/* toda nota geral aprovada tem de ter entrado numa página */
+for (const [id, partes] of Object.entries(NOTAS_GERAIS)) for (const lista of Object.values(partes)) for (const n of lista)
+  if (!notasPostas.has(id + ':' + n.id)) throw new Error(`nota geral ${id}:${n.id} não entrou em nenhuma página (obra ou parte errada?)`);
 fs.writeFileSync(path.join(SAIDA, 'js', 'notas.js'), NOTAS);
 fs.copyFileSync(path.join(RAIZ, 'favicon.svg'), path.join(SAIDA, 'favicon.svg'));
 // cópias idênticas do taioe-hub (o workflow Cópias confere o sha256)

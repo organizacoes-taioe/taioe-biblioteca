@@ -1,0 +1,107 @@
+{
+ "id": "atos-de-sao-justino",
+ "rotulo": "Atos de São Justino e seus companheiros (Anônimo)",
+ "url": "/biblioteca/anonimo/atos-de-sao-justino/",
+ "escolhas": [
+  {
+   "id": "redacao",
+   "titulo": "Fica a redação média dos Atos (a de Gebhardt, 1902), e não a curta?",
+   "ref": "a obra inteira",
+   "contexto": "Os *Atos de São Justino* existem em três redações. A curta («A»), tida como a mais antiga, está num único manuscrito de Paris (ano 890) e só foi editada à parte no séc. XX, em edições ainda protegidas (Franchi de' Cavalieri; Musurillo, 1972). Em 1902 Franchi a usou só como testemunho, anotando as faltas dela no aparato. A Gebhardt de 1902, indicada no pedido, imprime a média («B»): o mesmo interrogatório, com introdução, fecho e frases a mais nas respostas de Justino. A apresentação explica.\n\nHoje: a média, de Gebhardt.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "A média, como está",
+     "nota": "Edição em domínio público e conferida no fac-símile.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Montar a curta pelo aparato de Franchi (1902) e traduzi-la",
+     "nota": "Reconstrução nossa, incompleta onde o aparato não dá o texto; o editor morreu em 1960 (risco a perguntar ao advogado)."
+    }
+   ]
+  },
+  {
+   "id": "dumata",
+   "titulo": "Em 5,2 Justino espera ter «as moradas» de Deus, com a correção de Gebhardt?",
+   "ref": "5,2",
+   "contexto": "Os manuscritos têm *ἕξειν αὐτοῦ τὰ δόγματα*, «ter as suas doutrinas», que não faz sentido ali; Otto corrigiu para *δόματα*, «os seus dons», e Gebhardt para *δώματα*, «as suas moradas» (cf. Jo 14,2). O grego ao lado é o de Gebhardt.\n\nHoje: «Espero ter as suas moradas, se suportar isso».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«as suas moradas», como está",
+     "nota": "Segue o grego ao lado.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«os seus dons», com Otto",
+     "nota": "A leitura de muitas traduções; o grego ao lado ficaria diferente."
+    }
+   ]
+  },
+  {
+   "id": "pais-theou",
+   "titulo": "Em 2,5 *παῖς θεοῦ* fica «Filho de Deus»?",
+   "ref": "2,5",
+   "contexto": "Justino diz crer *καὶ κύριον Ἰησοῦν Χριστὸν παῖδα θεοῦ*. *Παῖς* é «filho» e também «servo» (o «Servo» de Isaías, em At 3,13). Logo depois (2,7) ele diz *θεοῦ υἱόν*, «Filho de Deus», sem ambiguidade.\n\nHoje: «e no Senhor Jesus Cristo, Filho de Deus».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Filho de Deus», como está",
+     "nota": "Coerente com 2,7.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Servo de Deus»",
+     "nota": "Guarda o eco de Isaías; o leitor estranha."
+    }
+   ]
+  },
+  {
+   "id": "logoi",
+   "titulo": "Os *logoi* do interrogatório ficam «ensinamentos»?",
+   "ref": "2,3–4; 3,3; 4,7; 5,1",
+   "contexto": "Rústico pergunta *Ποίους λόγους μεταχειρίζεις;*, e Justino responde que procurou aprender todos os *logoi* e aderiu aos verdadeiros, os dos cristãos. São as doutrinas das escolas de filosofia. A mesma palavra volta em 3,3 («os ensinamentos da verdade»), 4,7 e 5,1; em 2,4 *δόγμα* fica «doutrina».\n\nHoje: «Que ensinamentos professas?» — «Procurei aprender todos os ensinamentos, mas aderi aos ensinamentos verdadeiros, os dos cristãos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«ensinamentos», como está",
+     "nota": "Serve a todos os lugares; deixa «doutrina» para *dogma*.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«doutrinas»",
+     "nota": "Mais técnico; choca com o *dogma* de 2,4."
+    },
+    {
+     "id": "c",
+     "texto": "«palavras»",
+     "nota": "Literal; em 2,3 fica obscuro."
+    }
+   ]
+  },
+  {
+   "id": "peao",
+   "titulo": "O mártir *Παίων* fica «Peão»?",
+   "ref": "título; 4,6",
+   "contexto": "Os nomes vão na forma portuguesa usual: Justino, Caritão, Caritó, Evelpisto, Hierax, Liberiano. *Παίων* em português dá «Peão», forma dos livros litúrgicos, mas que se confunde com a palavra comum.\n\nHoje: «Peão, que estava de pé, disse».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Peão», como está",
+     "nota": "Forma portuguesa regular do nome.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Péon»",
+     "nota": "Evita a confusão; forma menos usual."
+    }
+   ]
+  }
+ ]
+}

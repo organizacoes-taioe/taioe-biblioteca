@@ -68,7 +68,7 @@ MANUAL = {
     'estréias': 'estrelas', 'amaginou': 'imaginou', 'zangai': 'zangar', 'respirada': 'respirava',
     'vetes': 'vezes', 'rufaram': 'rumaram', 'castigando': 'mastigando', 'tucümãs': 'tucumãs',
     'jiguê': 'jiguê', 'jiguè': 'jiguê',
-    'beijú': 'beiju', 'pajuarí': 'pajuari', 'carurús': 'carurus', 'macurú': 'macuru', 'javarí': 'javari', 'hindú': 'hindu',
+    'boiuna': 'boiúna', 'querencia': 'querência', 'beijú': 'beiju', 'pajuarí': 'pajuari', 'carurús': 'carurus', 'macurú': 'macuru', 'javarí': 'javari', 'hindú': 'hindu',
     'tucuchí': 'tucuxi', 'jamachí': 'jamaxi', 'cachirí': 'cachiri', 'çairê': 'sairê',
 }
 
@@ -167,11 +167,48 @@ CORRECOES = [
     ('ocr', 'madrugada', 'Veio', 'veio', 'a'),
     ('ocr', 'na', 'Madrugada', 'madrugada', '.'),
     ('ocr', 'um', 'Puro', 'puro', 'de'),
+    # «E’» de 1928 é «É»: o OCR perdeu o apóstrofo, e ficou a conjunção
+    ('ocr', 'um cipó .', 'E', 'É', 'lá que Ci'),
+    ('ocr', 'numa planta .', 'E', 'É', 'aquela uma'),
+    ('ocr', 'é cruel .', 'E', 'É', 'capaz de pedir'),
+    ('ocr', 'desagradável nova .', 'E', 'É', 'bem verdade'),
+    ('ocr', 'do céu .', 'E', 'É', 'aquele caminho de luz'),
+    ('ocr', 'Cruzeiro nada !', 'E', 'É', 'o Pai do Mutum'),
+    ('ocr', 'do Mutum !', 'E', 'É', 'o Pai do Mutum'),
+    ('ocr', 'minha gente !', 'E', 'É', 'o Pai do Mutum'),
+    ('ocr', 'que é :', "E '", 'É', 'comprido roliço'),
+    ('ocr', 'Cachorro !', "E '", 'É', 'na África'),
+    ('ocr', '! ¶ —', 'E’', 'É', '! ¶ — Ora'),
+    # D’aí, A’s: o apóstrofo de 1928
 ]
 
 
+# grafia de hoje que o MANUAL não alcança (palavra colada ao «_» do itálico, ou que entrou pelo voto)
+FINAL = {
+    'falàmos': 'falamos', 'descuidàmos': 'descuidamos', 'inteiràmos': 'inteiramos',
+    'linguas': 'línguas', 'india': 'índia', 'género': 'gênero', 'dificil': 'difícil',
+    'tumulo': 'túmulo', 'circunstancias': 'circunstâncias', 'mingua': 'míngua', 'abricôs': 'abricós',
+    'desagradavel': 'desagradável', 'abstinéncia': 'abstinência', 'exceléncia': 'excelência',
+    'orificio': 'orifício', 'sincope': 'síncope', 'simbolo': 'símbolo', 'masorqueiros': 'mazorqueiros',
+    'alvíçaras': 'alvíssaras', 'uirauassús': 'uirauaçus', 'cincoenta': 'cinquenta',
+}
+
+
+def _final(t):
+    import re as _re
+    m = _re.match(r'^(_*)(.*?)(_*)$', t)
+    a, w, z = m.groups()
+    nova = FINAL.get(w.lower())
+    if not nova:
+        return t
+    if w[:1].isupper():
+        nova = nova[:1].upper() + nova[1:]
+    return a + nova + z
+
+
 def corrigir(out, flags):
-    """Aplica CORRECOES ao texto pronto (cada trecho tem de aparecer uma vez só)."""
+    """Aplica FINAL e CORRECOES ao texto pronto (cada trecho de CORRECOES aparece uma vez só)."""
+    out = [_final(t) for t in out]
     for tipo, antes, de, para, depois in CORRECOES:
         tr = lambda x: ['—' if t == '-' else t for t in x.split()]
         a, d, p, z = tr(antes), tr(de), tr(para), tr(depois)

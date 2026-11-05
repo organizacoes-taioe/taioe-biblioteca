@@ -26,6 +26,10 @@ poema de `edicoes/lingua-original/<pasta>/` sob o autor novo `jean-de-la-fontain
   `lingua_original.py publicar`.
 
 ## Falta
-- Conferir os lemas no fr.wiktionary quando o cache estiver completo (ver abaixo) e ajustar as
-  definições que se afastem do verbete.
-- `publicar --provisorio` só para ver; gerar e conferir o site na worktree; não commitar `public/`.
+- Pronto para o principal juntar e publicar: gerar o site, Catálogo `obras` (12 obras novas), PR,
+  `traducoes_revisao.py --revisao` (8 escolhas novas). Sem regras de `_redirects` (endereços novos).
+- Conferência dos lemas no fr.wiktionary: `~/.cache/claude-pedidos-0511/fabulas-la-fontaine/scripts/lemas.py`
+  (só neste PC); resultado no relatório da rodada.
+- Depois das respostas do Gere ao `revisao.json`: aplicar (travessões, «Hé ! bonjour», maiúsculas…)
+  em `edicoes/lingua-original/<pasta>/poema.txt` e rodar `glossario/montar.py gravar` (as posições
+  das palavras mudam se o texto mudar: conferir `escolhas.py`).

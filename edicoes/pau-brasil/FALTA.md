@@ -1,21 +1,25 @@
-# Pau Brasil (Oswald de Andrade, 1925): o que está feito e o que falta
+# Pau Brasil (Oswald de Andrade, 1925): estado
 
-## Fontes (achadas em 2026-11-05)
-- Fac-símile da 1ª edição (Paris, Au Sans Pareil, 1925), Brasiliana USP, `bbm/7829`
-  (https://digital.bbm.usp.br/handle/bbm/7829; PDF de 128 páginas, com camada de OCR). É o mesmo exemplar
-  do Commons «Pau Brasil (Andrade, 1925).pdf» (sem as ilustrações de Tarsila).
-- Wikisource, «Pau Brasil» (índice «Pau Brasil (Andrade, 1925).pdf»): transcrição página a página desse
-  exemplar, 95 páginas revisadas (nível 3).
-- Project Gutenberg 79326 (2026): transcrição do Distributed Proofreaders sobre as imagens da HathiTrust
-  (outro exemplar da mesma edição); diz ter corrigido «os erros tipográficos evidentes», sem lista.
-- Downloads e rascunhos em `~/.cache/claude-pedidos-0511/pau-brasil/` (só neste PC).
+## Feito (2026-11-05), pronto para publicar
+- Obra `pau-brasil` (Literatura, autor novo `oswald-de-andrade`, 1890–1954), livro de poemas como obra própria
+  (não há poemas de Oswald no corpus do Versificador, então nada muda em `ferramentas/poesia.py`).
+  `python3 edicoes/pau-brasil/montar.py` grava `conteudo/oswald-de-andrade/pau-brasil.js`: 122 partes (prefácio de
+  Paulo Prado, dedicatória, Escapulário, Falação; «História do Brasil» com um cronista por página; as outras
+  seções, um poema por página; «Secretário dos amantes» numa página só), ~134 poemas, 1.217 linhas de verso,
+  6.829 palavras. Desenhos de Tarsila: fora (protegidos).
+- Fonte: `original/pau-brasil-1925.txt`, o texto de 1925 na grafia do livro, do Gutenberg 79326 (DP, exemplar da
+  HathiTrust), confrontado palavra por palavra com o Wikisource (exemplar da BBM 7829) e com dois OCRs das imagens
+  da BBM (camada do PDF e Tesseract); ~40 pontos conferidos no fac-símile. O Gutenberg tinha trocado 5 lições
+  (rosa/resa, modos/modas, Perdôa/Peredôa, do/de Paraty, um/un), restabelecidas.
+- Grafia: `tabela.py` → `grafia.tsv` (758 trocas, revisada; MANUAL e MANTER no topo do tabela.py); no
+  `montar.py`, CORRECOES (24 erros de composição, listados na «Sobre»), FRASES (compostos) e LINHAS (tem/têm).
+- `edicao.json` («Sobre»), `revisao.json` (7 decisões, todas com a recomendação aplicada; nenhuma muda o texto),
+  vocabulário `edicoes/vocabulario/pau-brasil.json` (70 palavras, `conferir` ok).
 
-## Feito
-- `original/pau-brasil-1925.txt`: o texto de 1925 (grafia do livro), montado do Gutenberg e posto no
-  formato desta pasta (ver o topo de `montar.py`, quando existir). Ilustrações de Tarsila: fora (protegidas).
+## Ao publicar (o principal)
+- Catálogo `obras.sql` (obra nova); `_redirects`: nada (obra nova, sem endereço antigo). Tirar dos pedidos.
+- Notas gerais: o livro entra na fila dos lotes (`edicoes/notas/`).
 
-## Falta
-- Conferir as ~30 diferenças Gutenberg × Wikisource nas imagens da BBM e procurar as correções caladas do
-  Gutenberg (onde as duas transcrições concordam e os OCRs do fac-símile não).
-- `montar.py` (grafia de hoje, só acento e letra), `edicao.json` («Sobre»), autor `oswald-de-andrade`,
-  linha no `index.html`, `revisao.json`, vocabulário `edicoes/vocabulario/pau-brasil.json`.
+## Dúvidas que ficaram
+- «Mivam» (Levante), «babeis de borracha» (Falação), «Temperatura de bolina» (Capital da República), «O fera»:
+  mantidos como impressos, sem nota no vocabulário (sentido incerto).

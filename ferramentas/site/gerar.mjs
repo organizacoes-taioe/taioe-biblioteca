@@ -1459,6 +1459,7 @@ fs.writeFileSync(path.join(SAIDA, '404.html'), html404);
 fs.mkdirSync(path.join(SAIDA, 'css'), { recursive: true });
 fs.mkdirSync(path.join(SAIDA, 'js'), { recursive: true });
 fs.writeFileSync(path.join(SAIDA, 'css', 'estilo.css'), CSS);
+fs.copyFileSync(path.join(RAIZ, 'ferramentas', 'site', 'taioe.svg'), path.join(SAIDA, 'css', 'taioe.svg'));   // a logo, máscara do .marca
 fs.writeFileSync(path.join(SAIDA, 'js', 'leitor.js'), LEITOR);
 /* toda nota geral aprovada tem de ter entrado numa página */
 for (const [id, partes] of Object.entries(NOTAS_GERAIS)) for (const lista of Object.values(partes)) for (const n of lista)

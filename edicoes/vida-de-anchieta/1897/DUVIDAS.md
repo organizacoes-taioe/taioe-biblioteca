@@ -10,3 +10,4 @@
 - p. 16, «Onvindo o / general»: no impresso «Onvindo» por «Ouvindo» (transcrito como está).
 - p. 17: no rodapé há a marca de caderno «A. B. N.» e «2» (assinatura tipográfica); não transcrita.
 - p. 18, «aqual acha-/ram»: no impresso «aqual» junto (por «a qual»); transcrito como está.
+- p. 21, «devaçaõ»: no impresso o til está sobre o «o» (devaçaõ); transcrito como está.

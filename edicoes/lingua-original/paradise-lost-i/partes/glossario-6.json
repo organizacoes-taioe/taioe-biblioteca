@@ -472,6 +472,848 @@
    "def": [
     "Lugar santo ou sagrado dedicado a uma divindade, ancestral, herói, mártir, santo ou figura semelhante, onde ela é venerada ou adorada."
    ]
+  },
+  "abominations": {
+   "lema": "abomination",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Aquilo que é abominável, vergonhosamente vil; objeto que excita nojo e ódio (muitas vezes com conotação religiosa)."
+   ],
+   "nota": "Na Bíblia, as «abominações» são os ídolos e os ritos pagãos que Deus detesta."
+  },
+  "cursed": {
+   "lema": "cursed",
+   "classe": "adjetivo",
+   "def": [
+    "Odioso; condenável; maldito."
+   ]
+  },
+  "holy": {
+   "lema": "holy",
+   "classe": "adjetivo",
+   "def": [
+    "Dedicado a um propósito religioso ou a um deus."
+   ]
+  },
+  "rites": {
+   "lema": "rite",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Um costume religioso."
+   ]
+  },
+  "solemn": {
+   "lema": "solemn",
+   "classe": "adjetivo",
+   "def": [
+    "Relativo a cerimônias e ritos religiosos; de natureza religiosa; sagrado."
+   ],
+   "nota": "«Solemn feasts»: as festas religiosas de preceito."
+  },
+  "solemn#2": {
+   "lema": "solemn",
+   "classe": "adjetivo",
+   "def": [
+    "Caracterizado por, ou realizado com, grande cerimônia e formalidade."
+   ]
+  },
+  "solemn#3": {
+   "lema": "solemn",
+   "classe": "adjetivo",
+   "def": [
+    "Profundamente sério e sombrio; grave."
+   ]
+  },
+  "feasts": {
+   "lema": "feast",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Dia santo, festival, especialmente religioso."
+   ]
+  },
+  "profaned": {
+   "lema": "profane",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Violar (algo sagrado); tratar com abuso, irreverência ou desprezo; profanar."
+   ]
+  },
+  "affront": {
+   "lema": "affront",
+   "classe": "verbo",
+   "def": [
+    "Enfrentar com desafio; confrontar."
+   ],
+   "nota": "«Durst affront his light»: ousaram enfrentar a luz de Deus com as suas trevas."
+  },
+  "moloch": {
+   "lema": "Moloch",
+   "classe": "substantivo próprio",
+   "def": [
+    "Antiga divindade amonita adorada pelos cananeus, pelos fenícios e por culturas afins, muitas vezes representada com cabeça de touro."
+   ],
+   "nota": "Moloque, o deus dos amonitas, a quem se ofereciam crianças em sacrifício (cf. Levítico 18,21; 2 Reis 23,10)."
+  },
+  "besmeared": {
+   "lema": "besmear",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "Cobrir por inteiro de uma substância; lambuzar, borrar."
+   ]
+  },
+  "blood": {
+   "lema": "blood",
+   "classe": "substantivo",
+   "def": [
+    "Líquido vital que corre no corpo de muitos tipos de animais e em geral conduz nutrientes e oxigênio."
+   ]
+  },
+  "sacrifice": {
+   "lema": "sacrifice",
+   "classe": "substantivo",
+   "def": [
+    "Originalmente, a morte (e muitas vezes a queima) de um ser humano ou de um animal como oferenda a uma divindade; depois, também a oferta de um objeto."
+   ]
+  },
+  "tears": {
+   "lema": "tear",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Gota de líquido claro e salgado produzido pelos olhos ao chorar ou por irritação."
+   ]
+  },
+  "noise": {
+   "lema": "noise",
+   "classe": "substantivo",
+   "def": [
+    "Sons diversos, em geral indesejados ou desagradáveis; qualquer som."
+   ]
+  },
+  "drums": {
+   "lema": "drum",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Instrumento musical de percussão, com uma membrana esticada em pelo menos uma extremidade, que se toca batendo."
+   ],
+   "nota": "Segundo Milton, o barulho dos tambores e pandeiros abafava os gritos das crianças sacrificadas."
+  },
+  "timbrels": {
+   "lema": "timbrel",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Antigo instrumento de percussão, semelhante a um pandeiro simples."
+   ]
+  },
+  "children’s": {
+   "lema": "child",
+   "classe": "substantivo",
+   "forma": "genitivo (possessivo) plural (de «children»)",
+   "def": [
+    "Pessoa que ainda não chegou à idade adulta; filho ou filha."
+   ]
+  },
+  "cries": {
+   "lema": "cry",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Grito ou berro."
+   ]
+  },
+  "unheard": {
+   "lema": "unheard",
+   "classe": "adjetivo",
+   "def": [
+    "Não ouvido."
+   ],
+   "nota": "«Their children’s cries unheard»: os gritos dos filhos, que não se ouviam por causa do barulho."
+  },
+  "unheard#2": {
+   "lema": "unheard",
+   "classe": "adjetivo",
+   "def": [
+    "Não conhecido pela fama; não ilustre nem célebre; obscuro."
+   ],
+   "nota": "«Nor was his name unheard»: seu nome não era desconhecido."
+  },
+  "grim": {
+   "lema": "grim",
+   "classe": "adjetivo",
+   "def": [
+    "Horrível ou sinistro."
+   ]
+  },
+  "idol": {
+   "lema": "idol",
+   "classe": "substantivo",
+   "def": [
+    "Imagem esculpida ou representação de algo que se venera ou que se crê dotado de poder espiritual."
+   ]
+  },
+  "ammonite": {
+   "lema": "Ammonite",
+   "classe": "substantivo próprio",
+   "def": [
+    "Natural ou habitante de Amon."
+   ],
+   "nota": "Os amonitas eram vizinhos de Israel, a leste do Jordão."
+  },
+  "worshiped": {
+   "lema": "worship",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Reverenciar (uma divindade etc.) com supremo respeito e veneração; praticar exercícios religiosos em honra dela."
+   ]
+  },
+  "rabba": {
+   "lema": "Rabba",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Cidade principal dos amonitas, a leste do Jordão."
+   ],
+   "nota": "Rabá dos amonitas (Deuteronômio 3,11), a atual Amã, na Jordânia."
+  },
+  "watery": {
+   "lema": "watery",
+   "classe": "adjetivo",
+   "def": [
+    "Molhado, encharcado de água."
+   ],
+   "nota": "A planície de Rabá, banhada por águas."
+  },
+  "argob": {
+   "lema": "Argob",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Região de Basã, a leste do Jordão."
+   ],
+   "nota": "Região do reino de Basã (Deuteronômio 3,4)."
+  },
+  "basan": {
+   "lema": "Basan",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Basã, região a leste do Jordão, no Antigo Testamento."
+   ],
+   "nota": "Em português, Basã (Números 21,33)."
+  },
+  "stream": {
+   "lema": "stream",
+   "classe": "substantivo",
+   "def": [
+    "Pequeno rio; grande riacho; corpo de água em movimento, contido entre margens."
+   ]
+  },
+  "arnon": {
+   "lema": "Arnon",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Rio a leste do mar Morto, na fronteira de Moabe."
+   ],
+   "nota": "O rio Arnon, limite de Moabe (Números 21,13)."
+  },
+  "content": {
+   "lema": "content",
+   "classe": "adjetivo",
+   "def": [
+    "Satisfeito, contente."
+   ],
+   "nota": "«Nor content with such»: não satisfeito com tal vizinhança."
+  },
+  "audacious": {
+   "lema": "audacious",
+   "classe": "adjetivo",
+   "def": [
+    "Que mostra disposição de correr riscos ousados; temerariamente audaz.",
+    "Impudente, insolente."
+   ],
+   "nota": "«Audacious neighbourhood»: a ousada vizinhança, isto é, estar tão perto do Templo de Deus."
+  },
+  "neighbourhood": {
+   "lema": "neighborhood",
+   "classe": "substantivo",
+   "def": [
+    "A qualidade da proximidade física."
+   ],
+   "nota": "Aqui, a vizinhança: o fato de estar perto, ao lado do Templo."
+  },
+  "wisest": {
+   "lema": "wise",
+   "classe": "adjetivo",
+   "forma": "superlativo",
+   "def": [
+    "Que demonstra bom juízo ou a vantagem da experiência."
+   ]
+  },
+  "solomon": {
+   "lema": "Solomon",
+   "classe": "substantivo próprio",
+   "def": [
+    "(personagem bíblico) No Antigo Testamento e no Alcorão, rei de Israel famoso pela sua sabedoria; filho do rei Davi e pai do rei Roboão."
+   ]
+  },
+  "fraud": {
+   "lema": "fraud",
+   "classe": "substantivo",
+   "def": [
+    "Qualquer ato de engano praticado com o fim de ganho injusto, imerecido ou ilegal."
+   ],
+   "nota": "Segundo 1 Reis 11, Salomão, já velho, foi levado pelas suas mulheres estrangeiras a erguer santuários a deuses pagãos."
+  },
+  "build": {
+   "lema": "build",
+   "classe": "verbo",
+   "def": [
+    "Formar (algo) combinando materiais ou partes."
+   ]
+  },
+  "temple": {
+   "lema": "temple",
+   "classe": "substantivo",
+   "def": [
+    "Casa de culto."
+   ]
+  },
+  "opprobrious": {
+   "lema": "opprobrious",
+   "classe": "adjetivo",
+   "def": [
+    "Que causa opróbrio; ofensivo e vergonhoso."
+   ],
+   "nota": "O monte diante de Jerusalém, onde Salomão ergueu um santuário a Moloque (1 Reis 11,7)."
+  },
+  "grove": {
+   "lema": "grove",
+   "classe": "substantivo",
+   "def": [
+    "Pequena floresta; bosque."
+   ],
+   "nota": "Aqui, um bosque sagrado, lugar de culto idólatra."
+  },
+  "pleasant": {
+   "lema": "pleasant",
+   "classe": "adjetivo",
+   "def": [
+    "Que dá prazer; agradável."
+   ]
+  },
+  "valley": {
+   "lema": "valley",
+   "classe": "substantivo",
+   "def": [
+    "Depressão alongada entre colinas ou montanhas, muitas vezes com um rio."
+   ]
+  },
+  "hinnom": {
+   "lema": "Hinnom",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Vale ao sul de Jerusalém."
+   ],
+   "nota": "O vale de Hinom (Josué 15,8), onde se queimavam crianças em honra de Moloque (2 Reis 23,10)."
+  },
+  "tophet": {
+   "lema": "Tophet",
+   "classe": "substantivo próprio",
+   "def": [
+    "(bíblico) Local perto de Jerusalém, no vale de Geena, onde crianças eram queimadas vivas em sacrifício."
+   ],
+   "nota": "Em português, Tofet (2 Reis 23,10); daí o nome passou a designar o inferno."
+  },
+  "black": {
+   "lema": "black",
+   "classe": "adjetivo",
+   "def": [
+    "Mau; maligno; de mau agouro."
+   ],
+   "nota": "«Black Gehenna»: a Geena sombria, de mau agouro."
+  },
+  "gehenna": {
+   "lema": "Gehenna",
+   "classe": "substantivo próprio",
+   "def": [
+    "Na literatura rabínica e nas escrituras cristãs e islâmicas, o lugar para onde vão as almas dos ímpios depois da morte, onde sofrem danação eterna ou aniquilação."
+   ],
+   "nota": "Geena, o nome do vale de Hinom, tornou-se o do inferno."
+  },
+  "type": {
+   "lema": "type",
+   "classe": "substantivo",
+   "def": [
+    "(obsoleto, exceto nos sentidos especiais) Símbolo, emblema ou exemplo de algo."
+   ],
+   "nota": "Geena é o «tipo» do Inferno: a sua imagem, o seu símbolo."
+  },
+  "chemos": {
+   "lema": "Chemosh",
+   "classe": "substantivo próprio",
+   "forma": "variante (Quemós)",
+   "def": [
+    "O deus dos antigos moabitas."
+   ],
+   "nota": "Quemós, deus de Moabe (Números 21,29; 1 Reis 11,7)."
+  },
+  "obscene": {
+   "lema": "obscene",
+   "classe": "adjetivo",
+   "def": [
+    "Repugnante, nojento."
+   ],
+   "nota": "Aqui, no sentido latino de impuro e de mau agouro, ligado aos ritos lascivos de Peor."
+  },
+  "moab’s": {
+   "lema": "Moab",
+   "classe": "substantivo próprio",
+   "forma": "genitivo (possessivo) singular",
+   "def": [
+    "O povo que tradicionalmente fazia remontar sua ascendência a Moabe, filho de Ló."
+   ],
+   "nota": "Moabe, reino a leste do mar Morto."
+  },
+  "aroar": {
+   "lema": "Aroar",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Cidade moabita à beira do Arnon."
+   ],
+   "nota": "Em português, Aroer (Josué 13,16)."
+  },
+  "nebo": {
+   "lema": "Nebo",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Monte em Moabe, de onde Moisés viu a Terra Prometida."
+   ],
+   "nota": "Monte Nebo (Deuteronômio 34,1)."
+  },
+  "southmost": {
+   "lema": "southmost",
+   "classe": "adjetivo",
+   "def": [
+    "O mais ao sul; o mais meridional."
+   ]
+  },
+  "abarim": {
+   "lema": "Abarim",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Cadeia de montes a leste do mar Morto, em Moabe, a que pertence o Nebo."
+   ],
+   "nota": "Números 27,12."
+  },
+  "hesebon": {
+   "lema": "Hesebon",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Cidade a leste do Jordão, capital do rei Seon."
+   ],
+   "nota": "Em português, Hesbon ou Hesebon (Números 21,26)."
+  },
+  "horonaim": {
+   "lema": "Horonaim",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Cidade de Moabe."
+   ],
+   "nota": "Isaías 15,5; Jeremias 48,3."
+  },
+  "seon’s": {
+   "lema": "Seon",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "forma": "genitivo (possessivo) singular",
+   "def": [
+    "Rei dos amorreus em Hesebon, derrotado pelos israelitas."
+   ],
+   "nota": "Seon (Números 21,21-26)."
+  },
+  "beyond": {
+   "lema": "beyond",
+   "classe": "preposição",
+   "def": [
+    "Mais longe do que; do outro lado de."
+   ]
+  },
+  "beyond#2": {
+   "lema": "beyond",
+   "classe": "advérbio",
+   "def": [
+    "Mais adiante; mais longe."
+   ]
+  },
+  "flowery": {
+   "lema": "flowery",
+   "classe": "adjetivo",
+   "def": [
+    "Decorado com flores ou abundante nelas."
+   ]
+  },
+  "dale": {
+   "lema": "dale",
+   "classe": "substantivo",
+   "def": [
+    "Vale, muitas vezes numa região de colinas."
+   ]
+  },
+  "sibma": {
+   "lema": "Sibma",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Lugar de Moabe famoso pelas vinhas."
+   ],
+   "nota": "Em português, Sebama ou Sibma (Números 32,38; Isaías 16,8)."
+  },
+  "clad": {
+   "lema": "clothe",
+   "classe": "verbo",
+   "forma": "particípio passado (arcaico)",
+   "def": [
+    "Cobrir ou adornar com roupa; vestir."
+   ],
+   "nota": "«Clad with vines»: coberto de videiras."
+  },
+  "vines": {
+   "lema": "vine",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Planta trepadeira que produz uvas; videira."
+   ]
+  },
+  "eleale": {
+   "lema": "Eleale",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Cidade a leste do Jordão, em Moabe."
+   ],
+   "nota": "Em português, Eleale ou Elealeh (Números 32,3)."
+  },
+  "asphaltic": {
+   "lema": "asphaltic",
+   "classe": "adjetivo",
+   "def": [
+    "(obsoleto) Relativo ao mar Morto."
+   ],
+   "nota": "O «Asphaltic Pool» é o mar Morto, que produzia betume (asfalto)."
+  },
+  "peor": {
+   "lema": "Peor",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Nome de uma divindade de Moabe; Milton o toma por outro nome de Quemós."
+   ],
+   "nota": "Baal-Peor (Números 25,3)."
+  },
+  "enticed": {
+   "lema": "entice",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Atrair seduzindo; despertar desejo ou esperança."
+   ]
+  },
+  "israel": {
+   "lema": "Israel",
+   "classe": "substantivo próprio",
+   "def": [
+    "(poético, litúrgico) Os judeus como povo, tomados coletivamente."
+   ],
+   "nota": "Os israelitas."
+  },
+  "sittim": {
+   "lema": "Sittim",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Lugar a leste do Jordão onde os israelitas acamparam, antes de passar o rio."
+   ],
+   "nota": "Em português, Setim (Números 25,1)."
+  },
+  "march": {
+   "lema": "march",
+   "classe": "substantivo",
+   "def": [
+    "Uma viagem feita marchando."
+   ]
+  },
+  "wanton": {
+   "lema": "wanton",
+   "classe": "adjetivo",
+   "def": [
+    "(arcaico) Lascivo, imoral; sexualmente livre, impudico."
+   ]
+  },
+  "cost": {
+   "lema": "cost",
+   "classe": "verbo",
+   "def": [
+    "Obrigar a suportar ou a sofrer; causar."
+   ],
+   "nota": "«Which cost them woe»: o que lhes custou aflição."
+  },
+  "lustful": {
+   "lema": "lustful",
+   "classe": "adjetivo",
+   "def": [
+    "Cheio de luxúria; movido por ela."
+   ]
+  },
+  "orgies": {
+   "lema": "orgy",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Originalmente, rito ou cerimônia secreta, em geral com comportamento desenfreado e dissoluto, em honra de deuses pagãos."
+   ]
+  },
+  "enlarged": {
+   "lema": "enlarge",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Tornar maior; ampliar."
+   ]
+  },
+  "scandal": {
+   "lema": "scandal",
+   "classe": "substantivo",
+   "def": [
+    "(teologia) Palavra ou ato falho que é ocasião da ruína espiritual de outro."
+   ],
+   "nota": "«Hill of scandal»: o monte do Escândalo ou da Ofensa, no Monte das Oliveiras (2 Reis 23,13)."
+  },
+  "homicide": {
+   "lema": "homicide",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa que mata outra."
+   ],
+   "nota": "Em aposição a «Moloch»: Moloque, o homicida."
+  },
+  "lust": {
+   "lema": "lust",
+   "classe": "substantivo",
+   "def": [
+    "Sentimento de forte desejo, sobretudo o movido por excitação sexual."
+   ]
+  },
+  "hard": {
+   "lema": "hard",
+   "classe": "advérbio",
+   "def": [
+    "(agora arcaico) Perto, próximo."
+   ],
+   "nota": "«Hard by»: junto de, ao lado de."
+  },
+  "josiah": {
+   "lema": "Josiah",
+   "classe": "substantivo próprio",
+   "def": [
+    "(personagem bíblico) Rei de Judá."
+   ],
+   "nota": "Josias, que destruiu os altares pagãos (2 Reis 23)."
+  },
+  "drove": {
+   "lema": "drive",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Deslocar, física ou não fisicamente, mediante a aplicação de força."
+   ]
+  },
+  "bordering": {
+   "lema": "border",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "Ficar junto a uma fronteira ou adjacente a ela."
+   ]
+  },
+  "old": {
+   "lema": "old",
+   "classe": "adjetivo",
+   "def": [
+    "Que existe há um período relativamente longo."
+   ]
+  },
+  "euphrates": {
+   "lema": "Euphrates",
+   "classe": "substantivo próprio",
+   "def": [
+    "Rio da Ásia Ocidental, com 2780 quilômetros, que corre da Turquia pela Síria e pelo Iraque."
+   ],
+   "nota": "O Eufrates e o ribeiro do verso seguinte marcam os limites da região de onde vêm os ídolos descritos."
+  },
+  "egypt": {
+   "lema": "Egypt",
+   "classe": "substantivo próprio",
+   "def": [
+    "(histórico) Civilização baseada no rio Nilo, no seu curso inferior, mais perto do Mediterrâneo."
+   ]
+  },
+  "syrian": {
+   "lema": "Syrian",
+   "classe": "adjetivo",
+   "def": [
+    "De, da, ou relativo à Síria, ao povo sírio ou à cultura síria."
+   ]
+  },
+  "ground": {
+   "lema": "ground",
+   "classe": "substantivo",
+   "def": [
+    "Terreno."
+   ]
+  },
+  "ground#2": {
+   "lema": "ground",
+   "classe": "substantivo",
+   "def": [
+    "Solo; terra."
+   ]
+  },
+  "general": {
+   "lema": "general",
+   "classe": "adjetivo",
+   "def": [
+    "Que inclui ou envolve todas as partes ou membros de um todo; comum a todos, universal."
+   ],
+   "nota": "«General names»: nomes comuns a todos, os de Baalim e de Astarote."
+  },
+  "baalim": {
+   "lema": "Baal",
+   "classe": "substantivo próprio",
+   "forma": "plural (Baalim)",
+   "def": [
+    "(mitologia, bíblico) Vários baalins, entendidos como deuses patronos distintos ou como aspectos locais do grande deus Baal."
+   ],
+   "nota": "Os Baalim são os deuses masculinos dos povos de Canaã."
+  },
+  "ashtaroth": {
+   "lema": "Astarte",
+   "classe": "substantivo próprio",
+   "forma": "plural (Astarote)",
+   "def": [
+    "Uma deusa semita da fertilidade, da sexualidade e da guerra."
+   ],
+   "nota": "Astarote são as deusas femininas de Canaã, em oposição aos Baalim."
+  },
+  "male": {
+   "lema": "male",
+   "classe": "adjetivo",
+   "def": [
+    "Pertencente ao sexo que tipicamente produz esperma, ou ao gênero que se associa a ele."
+   ]
+  },
+  "feminine": {
+   "lema": "feminine",
+   "classe": "adjetivo",
+   "def": [
+    "Do, pertencente ou relativo ao gênero feminino, ao sexo feminino ou às fêmeas."
+   ]
+  },
+  "please": {
+   "lema": "please",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Desejar; querer."
+   ],
+   "nota": "«When they please»: quando querem."
+  },
+  "either": {
+   "lema": "either",
+   "classe": "determinante",
+   "def": [
+    "Qualquer um (de dois)."
+   ]
+  },
+  "either#2": {
+   "lema": "either",
+   "classe": "conjunção",
+   "def": [
+    "Introduz a primeira de duas opções, a segunda introduzida por «or»."
+   ]
+  },
+  "sex": {
+   "lema": "sex",
+   "classe": "substantivo",
+   "def": [
+    "Categoria em que se dividem os organismos de reprodução sexuada, segundo os seus papéis reprodutivos."
+   ]
+  },
+  "assume": {
+   "lema": "assume",
+   "classe": "verbo",
+   "def": [
+    "Tomar uma posição, um dever ou uma forma."
+   ]
+  },
+  "soft": {
+   "lema": "soft",
+   "classe": "adjetivo",
+   "def": [
+    "Que cede facilmente à pressão."
+   ],
+   "nota": "Os espíritos são «moles»: sem rigidez, de substância fluida."
+  },
+  "soft#2": {
+   "lema": "soft",
+   "classe": "adjetivo",
+   "def": [
+    "(de um som) Suave; baixo."
+   ]
+  },
+  "uncompounded": {
+   "lema": "uncompounded",
+   "classe": "adjetivo",
+   "def": [
+    "Não composto."
+   ],
+   "nota": "Simples, sem mistura de partes."
+  },
+  "essence": {
+   "lema": "essence",
+   "classe": "substantivo",
+   "def": [
+    "Substância constitutiva."
+   ],
+   "nota": "Aqui, a substância de que os espíritos são feitos, simples e pura."
+  },
+  "love": {
+   "lema": "love",
+   "classe": "substantivo",
+   "def": [
+    "Afeição forte."
+   ]
+  },
+  "love#2": {
+   "lema": "love",
+   "classe": "verbo",
+   "def": [
+    "Ter forte afeição por (alguém ou algo)."
+   ]
   }
  },
  "ocorrencias": {
@@ -481,6 +1323,17 @@
   "622.9": "last#2",
   "798.6": "seats#2",
   "727.1": "within#2",
-  "794.7": "within#2"
+  "794.7": "within#2",
+  "757.2": "solemn#2",
+  "559.2": "solemn#3",
+  "740.5": "unheard#2",
+  "544.8": "beyond#2",
+  "589.6": "beyond#2",
+  "707.9": "ground#2",
+  "769.6": "ground#2",
+  "646.4": "either#2",
+  "553.4": "soft#2",
+  "563.6": "soft#2",
+  "493.9": "love#2"
  }
 }

@@ -1706,6 +1706,951 @@
         "Fazer um juramento; prometer com intensidade, solene ou legalmente."
       ],
       "nota": "«Have ye sworn to adore the Conqueror?»: jurastes adorar o Vencedor?"
+    },
+    "adore": {
+      "lema": "adore",
+      "classe": "verbo",
+      "def": [
+        "Adorar; prestar culto."
+      ]
+    },
+    "beholds": {
+      "lema": "behold",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "Olhar para (alguém ou algo); contemplar."
+      ]
+    },
+    "seraph": {
+      "lema": "seraph",
+      "classe": "substantivo",
+      "def": [
+        "(pós-bíblico) Anjo de seis asas; um dos mais altos coros ou ordens de anjos na angelologia cristã."
+      ],
+      "nota": "Seraph e Cherub (querubim) são duas ordens de anjos; aqui, os anjos caídos que jazem no lago."
+    },
+    "ensigns": {
+      "lema": "ensign",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Bandeira ou estandarte levado por unidades militares."
+      ]
+    },
+    "anon": {
+      "lema": "anon",
+      "classe": "advérbio",
+      "def": [
+        "(arcaico) Logo; em breve; imediatamente."
+      ],
+      "nota": "Sentido antigo: «em seguida», e não «mais tarde»."
+    },
+    "swift": {
+      "lema": "swift",
+      "classe": "adjetivo",
+      "def": [
+        "Rápido, veloz."
+      ]
+    },
+    "pursuers": {
+      "lema": "pursuer",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Aquele que persegue."
+      ]
+    },
+    "heaven-gates": {
+      "partes": [
+        {
+          "lema": "heaven",
+          "classe": "substantivo",
+          "def": [
+            "O céu; o firmamento; também, o lugar onde habita Deus."
+          ]
+        },
+        {
+          "lema": "gate",
+          "classe": "substantivo",
+          "forma": "plural",
+          "def": [
+            "Passagem, abertura ou porta em uma cerca ou muro."
+          ]
+        }
+      ],
+      "nota": "As portas do Céu: «from Heaven-gates» é «desde as portas do Céu»."
+    },
+    "discern": {
+      "lema": "discern",
+      "classe": "verbo",
+      "def": [
+        "Detectar com os sentidos, em especial com os olhos."
+      ],
+      "nota": "«Discern th’ advantage»: percebam a vantagem."
+    },
+    "advantage": {
+      "lema": "advantage",
+      "classe": "substantivo",
+      "def": [
+        "Condição, circunstância ou oportunidade particularmente favorável ao sucesso."
+      ],
+      "nota": "A vantagem que os anjos caídos oferecem aos perseguidores: estarem prostrados."
+    },
+    "descending": {
+      "lema": "descend",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Mover-se de um lugar mais alto para um mais baixo; descer."
+      ]
+    },
+    "tread": {
+      "lema": "tread",
+      "classe": "verbo",
+      "def": [
+        "Pisar; pisotear."
+      ],
+      "nota": "«Tread us down»: nos pisotear."
+    },
+    "drooping": {
+      "lema": "droop",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Perder toda a energia, o entusiasmo ou a alegria; abater-se."
+      ]
+    },
+    "linked": {
+      "lema": "link",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Ligar, unir (duas ou mais coisas)."
+      ],
+      "nota": "«Linked thunderbolts»: raios encadeados, em série."
+    },
+    "thunderbolts": {
+      "lema": "thunderbolt",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Relâmpago acompanhado de um estrondo de trovão."
+      ],
+      "nota": "Os raios, com que Deus derrubou os anjos rebeldes."
+    },
+    "transfix": {
+      "lema": "transfix",
+      "classe": "verbo",
+      "def": [
+        "Atravessar com uma arma pontiaguda; trespassar; cravar."
+      ]
+    },
+    "awake": {
+      "lema": "awake",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "Tornar-se consciente depois de ter dormido; despertar."
+      ]
+    },
+    "awake#2": {
+      "lema": "awake",
+      "classe": "adjetivo",
+      "def": [
+        "Que não está dormindo; consciente."
+      ],
+      "nota": "«Ere well awake»: antes de estarem bem acordados."
+    },
+    "arise": {
+      "lema": "arise",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "Levantar-se da cama ou do lugar de repouso; erguer-se."
+      ]
+    },
+    "abashed": {
+      "lema": "abash",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Envergonhar; destruir o autocontrole de (alguém), despertando de repente a consciência da culpa."
+      ]
+    },
+    "sprung": {
+      "lema": "spring",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Mover-se ou irromper de repente; saltar."
+      ],
+      "nota": "«Up they sprung»: ergueram-se de um salto."
+    },
+    "upon": {
+      "lema": "upon",
+      "classe": "preposição",
+      "def": [
+        "Sobre; em cima de (forma mais elevada ou formal de «on»)."
+      ],
+      "nota": "«Upon the wing»: em voo."
+    },
+    "wing": {
+      "lema": "wing",
+      "classe": "substantivo",
+      "def": [
+        "Apêndice do corpo de um animal (ave, morcego, inseto) que lhe permite voar."
+      ],
+      "nota": "«On wing»: em voo."
+    },
+    "wing#2": {
+      "lema": "wing",
+      "classe": "substantivo",
+      "def": [
+        "Parte lateral de uma construção ou de uma formação; ala."
+      ],
+      "nota": "«From wing to wing»: de uma ala (flanco) à outra da multidão que cerca Satã."
+    },
+    "wont": {
+      "lema": "wont",
+      "classe": "adjetivo",
+      "def": [
+        "Acostumado, habituado (a)."
+      ],
+      "nota": "«Wont to watch»: habituados a vigiar. Em «wont ride in armed», costumavam entrar armados."
+    },
+    "watch": {
+      "lema": "watch",
+      "classe": "verbo",
+      "def": [
+        "Cuidar, atender ou guardar; vigiar."
+      ],
+      "nota": "«Men wont to watch on duty»: homens acostumados a vigiar de serviço (os sentinelas)."
+    },
+    "duty": {
+      "lema": "duty",
+      "classe": "substantivo",
+      "def": [
+        "Estado de quem está no trabalho e responsável por uma tarefa; serviço."
+      ],
+      "nota": "«On duty»: de serviço."
+    },
+    "sleeping": {
+      "lema": "sleep",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Repousar em estado de consciência reduzida; dormir."
+      ]
+    },
+    "dread": {
+      "lema": "dread",
+      "classe": "verbo",
+      "def": [
+        "Temer muito."
+      ],
+      "nota": "«By whom they dread»: por aquele que temem."
+    },
+    "dread#2": {
+      "lema": "dread",
+      "classe": "substantivo",
+      "def": [
+        "Grande medo diante de um mal iminente; apreensão temerosa do perigo."
+      ]
+    },
+    "dread#3": {
+      "lema": "dread",
+      "classe": "substantivo",
+      "def": [
+        "Aquele (ou aquilo) que é temido; objeto do temor."
+      ],
+      "nota": "Quemós, o «obscene dread» de Moabe: o deus que os moabitas temiam, de culto obsceno."
+    },
+    "dread#4": {
+      "lema": "dread",
+      "classe": "adjetivo",
+      "def": [
+        "(arcaico) Que causa grande temor ou reverência; temível."
+      ],
+      "nota": "«Their dread Commander»: o chefe temido por eles."
+    },
+    "rouse": {
+      "lema": "rouse",
+      "classe": "verbo",
+      "def": [
+        "Fazer com que (algo) se torne mais ativo ou se mova; agitar, despertar."
+      ],
+      "nota": "«Rouse and bestir themselves»: acordar e pôr-se em ação."
+    },
+    "bestir": {
+      "lema": "bestir",
+      "classe": "verbo",
+      "def": [
+        "Pôr em ação rápida e vigorosa; (reflexivo) tornar-se ativo, despertar a si mesmo."
+      ]
+    },
+    "themselves": {
+      "lema": "themselves",
+      "classe": "pronome reflexivo",
+      "def": [
+        "O grupo de pessoas ou coisas já mencionado, como objeto do verbo ou depois de preposição; a si mesmos."
+      ]
+    },
+    "ere": {
+      "lema": "ere",
+      "classe": "preposição",
+      "def": [
+        "(poético, arcaico) Antes; mais cedo que."
+      ],
+      "nota": "«Ere long»: antes de muito tempo, em breve."
+    },
+    "did": {
+      "lema": "do",
+      "classe": "verbo auxiliar",
+      "forma": "passado",
+      "def": [
+        "Marcador sintático usado em perguntas, negativas e para dar ênfase; fazer."
+      ],
+      "nota": "«Nor did they not perceive»: a negação dupla afirma que eles percebiam, sim, o mal em que estavam. Em «as did Eli's sons», «did» substitui o verbo anterior: como fizeram os filhos de Eli (que se tornaram ateus)."
+    },
+    "perceive": {
+      "lema": "perceive",
+      "classe": "verbo",
+      "def": [
+        "Tornar-se ciente, por meio dos sentidos físicos; ver; compreender."
+      ]
+    },
+    "plight": {
+      "lema": "plight",
+      "classe": "substantivo",
+      "def": [
+        "Situação grave ou infeliz."
+      ]
+    },
+    "general’s": {
+      "lema": "general",
+      "classe": "substantivo",
+      "forma": "genitivo (possessivo) singular",
+      "def": [
+        "Oficial de alto posto que comanda tropas; chefe."
+      ],
+      "nota": "«Their General's voice»: a voz de Satã, o seu comandante."
+    },
+    "obeyed": {
+      "lema": "obey",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Fazer o que ordena (uma pessoa, instituição etc.); agir conforme a vontade de."
+      ]
+    },
+    "rod": {
+      "lema": "rod",
+      "classe": "substantivo",
+      "def": [
+        "Vara, cajado ou bastão reto e redondo."
+      ],
+      "nota": "A vara de Moisés, com que ele fez surgir as pragas do Egito (Êxodo)."
+    },
+    "amram’s": {
+      "lema": "Amram",
+      "classe": "nome próprio",
+      "forma": "genitivo (possessivo) singular",
+      "def": [
+        "(bíblico) Pai de Moisés."
+      ],
+      "nota": "«Amram's son» é Moisés, que operou as pragas do Egito."
+    },
+    "son": {
+      "lema": "son",
+      "classe": "substantivo",
+      "def": [
+        "Descendente masculino de alguém; filho."
+      ],
+      "nota": "«His own and Rhea's son» é Júpiter, filho de Saturno e de Reia."
+    },
+    "egypt’s": {
+      "lema": "Egypt",
+      "classe": "nome próprio",
+      "forma": "genitivo (possessivo) singular",
+      "def": [
+        "(histórico) Civilização baseada no rio Nilo, em seu curso inferior, mais perto do Mediterrâneo."
+      ],
+      "nota": "«Egypt's evil day»: o dia infeliz do Egito, o da praga dos gafanhotos (Êxodo)."
+    },
+    "waved": {
+      "lema": "wave",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Mover(-se) para a frente e para trás repetidamente."
+      ]
+    },
+    "up-called": {
+      "partes": [
+        {
+          "lema": "up",
+          "classe": "advérbio",
+          "def": [
+            "Para ou em uma posição fisicamente mais alta."
+          ]
+        },
+        {
+          "lema": "call",
+          "classe": "verbo",
+          "forma": "particípio passado",
+          "def": [
+            "Pedir, convocar ou fazer sinal para que alguém venha."
+          ]
+        }
+      ],
+      "nota": "«Up-called a pitchy cloud»: fez surgir, convocou uma nuvem negra."
+    },
+    "pitchy": {
+      "lema": "pitchy",
+      "classe": "adjetivo",
+      "def": [
+        "Muito escuro, negro como o breu."
+      ]
+    },
+    "cloud": {
+      "lema": "cloud",
+      "classe": "substantivo",
+      "def": [
+        "Qualquer massa de poeira, vapor ou fumaça que lembra uma nuvem."
+      ],
+      "nota": "A nuvem negra dos gafanhotos."
+    },
+    "locusts": {
+      "lema": "locust",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Gafanhoto que costuma formar enxames e destruir lavouras."
+      ],
+      "nota": "Uma das pragas do Egito (Êxodo)."
+    },
+    "warping": {
+      "lema": "warp",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(raro, antiquado) Voar com movimento sinuoso, como um bando de aves ou de insetos."
+      ]
+    },
+    "eastern": {
+      "lema": "eastern",
+      "classe": "adjetivo",
+      "def": [
+        "(de vento) Que sopra do leste."
+      ]
+    },
+    "o’er": {
+      "lema": "o'er",
+      "classe": "preposição",
+      "def": [
+        "(literário) Contração poética de «over»: sobre, por cima de."
+      ],
+      "nota": "A contração tira uma sílaba, para ajustar o verso."
+    },
+    "realm": {
+      "lema": "realm",
+      "classe": "substantivo",
+      "def": [
+        "Território ou estado governado por uma autoridade absoluta, em especial um rei; reino."
+      ]
+    },
+    "pharaoh": {
+      "lema": "Pharaoh",
+      "classe": "nome próprio",
+      "def": [
+        "Qualquer faraó em particular."
+      ],
+      "nota": "O Faraó do Êxodo."
+    },
+    "darkened": {
+      "lema": "darken",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Tornar escuro ou mais escuro, reduzindo a luz."
+      ]
+    },
+    "nile": {
+      "lema": "Nile",
+      "classe": "nome próprio",
+      "def": [
+        "Grande rio da África, em geral considerado o mais longo do mundo."
+      ]
+    },
+    "numberless": {
+      "lema": "numberless",
+      "classe": "adjetivo",
+      "def": [
+        "Sem número; em quantidade grande demais para contar."
+      ]
+    },
+    "bad": {
+      "lema": "bad",
+      "classe": "adjetivo",
+      "def": [
+        "(às vezes infantil) Mau; perverso."
+      ],
+      "nota": "«Bad Angels»: anjos maus, os rebeldes."
+    },
+    "seen": {
+      "lema": "see",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Perceber ou detectar alguém ou algo com os olhos."
+      ]
+    },
+    "hovering": {
+      "lema": "hover",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Permanecer parado ou flutuar no ar."
+      ]
+    },
+    "cope": {
+      "lema": "cope",
+      "classe": "substantivo",
+      "def": [
+        "(literário) A abóbada ou dossel do céu, dos céus."
+      ],
+      "nota": "«Cope of Hell»: a abóbada do Inferno."
+    },
+    "twixt": {
+      "lema": "twixt",
+      "classe": "preposição",
+      "def": [
+        "(literário, poético, arcaico) Entre."
+      ],
+      "nota": "Forma abreviada de «betwixt»."
+    },
+    "upper": {
+      "lema": "upper",
+      "classe": "adjetivo",
+      "def": [
+        "Em posição, nível, categoria ou ordem mais alta."
+      ]
+    },
+    "nether": {
+      "lema": "nether",
+      "classe": "adjetivo",
+      "def": [
+        "Mais baixo; que fica embaixo."
+      ],
+      "nota": "«Upper, nether, and surrounding fires»: os fogos de cima, de baixo e dos lados."
+    },
+    "surrounding": {
+      "lema": "surround",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Cercar; estender-se em todas as direções ao redor de algo."
+      ]
+    },
+    "fires": {
+      "lema": "fire",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Reação química em que um combustível, ao queimar, produz calor e luz; fogo."
+      ]
+    },
+    "given": {
+      "lema": "give",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Transferir a posse de algo a alguém; dar."
+      ],
+      "nota": "«As a signal given»: dado o sinal."
+    },
+    "uplifted": {
+      "lema": "uplift",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Erguer, elevar (algo ou alguém) a um nível mais alto."
+      ]
+    },
+    "sultan": {
+      "lema": "sultan",
+      "classe": "substantivo",
+      "def": [
+        "Governante hereditário em vários estados muçulmanos."
+      ],
+      "nota": "Satã aparece aqui com o título oriental de «Sultan», senhor absoluto das legiões."
+    },
+    "waving": {
+      "lema": "wave",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Mover(-se) para a frente e para trás repetidamente."
+      ]
+    },
+    "direct": {
+      "lema": "direct",
+      "classe": "verbo",
+      "def": [
+        "Mostrar a (alguém) o rumo ou o caminho certo; guiar."
+      ],
+      "nota": "«Waving to direct their course»: acenando para guiar o rumo deles."
+    },
+    "course": {
+      "lema": "course",
+      "classe": "substantivo",
+      "def": [
+        "Caminho que algo ou alguém percorre; rumo."
+      ],
+      "nota": "No fim do livro, a Lua «wheels her pale course»: gira em seu pálido curso."
+    },
+    "even": {
+      "lema": "even",
+      "classe": "adjetivo",
+      "def": [
+        "Plano e nivelado; sem grande variação."
+      ],
+      "nota": "«In even balance»: em equilíbrio, planando de modo parelho."
+    },
+    "even#2": {
+      "lema": "even",
+      "classe": "advérbio",
+      "def": [
+        "Usado para dar ênfase a um caso extremo, inesperado ou surpreendente; até mesmo."
+      ]
+    },
+    "balance": {
+      "lema": "balance",
+      "classe": "substantivo",
+      "def": [
+        "Estado em que forças opostas se harmonizam; equilíbrio."
+      ]
+    },
+    "firm": {
+      "lema": "firm",
+      "classe": "adjetivo",
+      "def": [
+        "Firme, seguro, sólido (em posição)."
+      ]
+    },
+    "brimstone": {
+      "lema": "brimstone",
+      "classe": "substantivo",
+      "def": [
+        "(arcaico) Enxofre; (bíblico) o enxofre do Inferno."
+      ],
+      "nota": "Pedra ardente que alimenta o fogo do Inferno."
+    },
+    "fill": {
+      "lema": "fill",
+      "classe": "verbo",
+      "def": [
+        "Ocupar totalmente; tomar todo o espaço de."
+      ]
+    },
+    "multitude": {
+      "lema": "multitude",
+      "classe": "substantivo",
+      "def": [
+        "Grande quantidade ou número, muitas vezes de pessoas; multidão."
+      ]
+    },
+    "populous": {
+      "lema": "populous",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem grande população; densamente povoado."
+      ]
+    },
+    "north": {
+      "lema": "north",
+      "classe": "substantivo",
+      "def": [
+        "A direção do polo à esquerda de quem olha para o leste; o Norte."
+      ],
+      "nota": "O Norte é tratado como mãe («her frozen loins»)."
+    },
+    "frozen": {
+      "lema": "frozen",
+      "classe": "adjetivo",
+      "def": [
+        "Que passou pelo processo de congelamento; gelado."
+      ]
+    },
+    "loins": {
+      "lema": "loin",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "(Bíblia, eufemismo) A região púbica; os órgãos reprodutores."
+      ],
+      "nota": "«Her frozen loins»: o ventre gelado do Norte, de onde saíram as hordas bárbaras."
+    },
+    "pass": {
+      "lema": "pass",
+      "classe": "verbo",
+      "def": [
+        "Ir além de, por cima de ou através de; atravessar."
+      ],
+      "nota": "«To pass Rhene or the Danaw»: para atravessar o Reno ou o Danúbio."
+    },
+    "rhene": {
+      "lema": "Rhene",
+      "wiki": null,
+      "classe": "nome próprio",
+      "def": [
+        "Reno, grande rio da Europa Ocidental."
+      ],
+      "nota": "Forma antiga de Reno."
+    },
+    "danaw": {
+      "lema": "Danaw",
+      "wiki": null,
+      "classe": "nome próprio",
+      "def": [
+        "Danúbio, grande rio da Europa Central."
+      ],
+      "nota": "Forma antiga de Danúbio («Danaw» no inglês de Milton)."
+    },
+    "barbarous": {
+      "lema": "barbarous",
+      "classe": "adjetivo",
+      "def": [
+        "Sem civilização, sem cultura; bárbaro."
+      ],
+      "nota": "Os bárbaros do Norte (os godos, vândalos e outros) que invadiram o sul da Europa."
+    },
+    "sons": {
+      "lema": "son",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Descendente masculino de alguém; filho."
+      ]
+    },
+    "came": {
+      "lema": "come",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Mover-se em direção ao ponto de vista; vir."
+      ]
+    },
+    "south": {
+      "lema": "south",
+      "classe": "substantivo",
+      "def": [
+        "A região sul; os seus habitantes."
+      ]
+    },
+    "spread": {
+      "lema": "spread",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Proliferar; tornar-se mais presente; espalhar-se."
+      ],
+      "nota": "«Came like a deluge on the South, and spread»: caíram como um dilúvio sobre o Sul e se espalharam."
+    },
+    "gibraltar": {
+      "lema": "Gibraltar",
+      "classe": "nome próprio",
+      "def": [
+        "Península, cidade e território ultramarino do Reino Unido, no extremo sul da Ibéria.",
+        "Estreito que liga o Mediterrâneo ao Atlântico, entre Gibraltar e o Marrocos."
+      ],
+      "nota": "«Beneath Gibraltar»: ao sul de Gibraltar, isto é, na África."
+    },
+    "libyan": {
+      "lema": "Libyan",
+      "classe": "adjetivo",
+      "def": [
+        "Da Líbia."
+      ],
+      "nota": "Na geografia antiga, Líbia designava o norte da África."
+    },
+    "sands": {
+      "lema": "sand",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Extensão de areia, como em um deserto ou numa praia."
+      ]
+    },
+    "every": {
+      "lema": "every",
+      "classe": "determinante",
+      "def": [
+        "Cada um, sem exceção, de um grupo contável (considerados individualmente)."
+      ]
+    },
+    "squadron": {
+      "lema": "squadron",
+      "classe": "substantivo",
+      "def": [
+        "(obsoleto) Corpo de tropas disposto em formação quadrada; esquadrão."
+      ]
+    },
+    "band": {
+      "lema": "band",
+      "classe": "substantivo",
+      "def": [
+        "Grupo de pessoas unidas frouxamente por um fim comum."
+      ],
+      "nota": "«Every squadron and each band»: cada esquadrão e cada bando de soldados."
+    },
+    "heads": {
+      "lema": "head",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "A parte do corpo do animal ou do ser humano que contém o cérebro, a boca e os principais órgãos dos sentidos; cabeça."
+      ]
+    },
+    "heads#2": {
+      "lema": "head",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Líder ou especialista."
+      ],
+      "nota": "«The heads and leaders»: os chefes e líderes."
+    },
+    "haste": {
+      "lema": "haste",
+      "classe": "verbo",
+      "def": [
+        "(arcaico) Mover-se com pressa; apressar-se."
+      ]
+    },
+    "commander": {
+      "lema": "commander",
+      "classe": "substantivo",
+      "def": [
+        "Aquele que exerce o controle e a direção de uma organização militar; comandante."
+      ],
+      "nota": "Satã."
+    },
+    "godlike": {
+      "lema": "godlike",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem as características de um deus."
+      ]
+    },
+    "shapes": {
+      "lema": "shape",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Forma; formação."
+      ],
+      "nota": "«Godlike Shapes»: seres de aspecto divino."
+    },
+    "excelling": {
+      "lema": "excel",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Ser muito melhor que os outros; superar."
+      ],
+      "nota": "«Excelling human»: superando o que é humano."
+    },
+    "human": {
+      "lema": "human",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem a natureza ou os atributos de um ser humano; humano."
+      ]
+    },
+    "princely": {
+      "lema": "princely",
+      "classe": "adjetivo",
+      "def": [
+        "Próprio de um príncipe; digno de um príncipe."
+      ]
+    },
+    "dignities": {
+      "lema": "dignity",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Pessoa que ocupa um alto posto; dignitário."
+      ],
+      "nota": "«Princely Dignities»: seres de alta categoria entre os anjos."
+    },
+    "erst": {
+      "lema": "erst",
+      "classe": "advérbio",
+      "def": [
+        "(obsoleto) Antes; anteriormente."
+      ],
+      "nota": "«Powers that erst in Heaven sat on thrones»: Potestades que outrora, no Céu, se sentavam em tronos."
+    },
+    "sat": {
+      "lema": "sit",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Estar assentado; permanecer ou ocupar uma posição."
+      ]
+    },
+    "thrones": {
+      "lema": "throne",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Assento imponente usado por um monarca."
+      ]
+    },
+    "names": {
+      "lema": "name",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Palavra ou expressão que indica uma pessoa, um lugar, uma classe ou uma coisa; nome."
+      ]
+    },
+    "records": {
+      "lema": "record",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Item de informação posto em meio físico, temporário ou permanente, para ser conservado; registro."
+      ],
+      "nota": "«Heavenly records»: os registros do Céu, onde constavam os nomes dos anjos."
+    },
+    "memorial": {
+      "lema": "memorial",
+      "classe": "substantivo",
+      "def": [
+        "(obsoleto) Memória; lembrança."
+      ],
+      "nota": "«Be no memorial»: não haja lembrança."
+    },
+    "blotted": {
+      "lema": "blot",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Manchar ou borrar, como com tinta."
+      ],
+      "nota": "«Blotted out»: apagados, riscados."
+    },
+    "rased": {
+      "lema": "rase",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Apagar (um registro, um texto etc.), originalmente raspando; riscar."
+      ],
+      "nota": "«Rased» é forma antiga de «razed»; aqui, raspado do livro do Céu."
     }
   },
   "ocorrencias": {
@@ -1732,6 +2677,15 @@
     "313.5": "thick#2",
     "769.1": "thick#2",
     "316.4": "loud#2",
-    "379.4": "slumber#2"
+    "379.4": "slumber#2",
+    "336.7": "awake#2",
+    "619.2": "wing#2",
+    "619.4": "wing#2",
+    "557.2": "dread#2",
+    "408.5": "dread#3",
+    "591.2": "dread#4",
+    "418.1": "even#2",
+    "682.4": "even#2",
+    "359.2": "heads#2"
   }
 }

@@ -91,3 +91,32 @@ disse eu», *farthing* → «vintém»). Franklin ao filho: tu.
   crutch* (= *crotch*) → «por entre as pernas»; *thwarts* → «bancos».
 - Keith a Franklin: você (de cima para baixo, guia § 2); *Annis* → «o Annis» (o navio).
 - *reasonable creature… find or make a reason* → «criatura racional… achar ou inventar uma razão» (o jogo passa).
+
+## I.5
+
+- *trepann'd* → «apanhado na armadilha»; *conundrums* → «enigmas»; Keimer a Franklin, Ralph a Franklin: você.
+- Levítico 19,27 (KJV, *Thou shalt not mar the corners of thy beard*) → «Não estragarás os cantos da tua
+  barba.»; *the flesh-pots of Egypt* (Êx 16,3) → «as panelas de carne do Egito».
+- *the Seventh day, Sabbath* → «o sétimo dia, o sábado»; *Lents* → «Quaresmas»; *roast pig* → «leitão
+  assado»; *eighteenpence sterling* → «dezoito pence esterlinos».
+- *scrivener or conveyancer* → «escrivão, ou tabelião»; *clerks* → «escreventes»; *factor* → «agente
+  comercial».
+- *the eighteenth Psalm… the descent of a Deity* → «o Salmo dezoito… a descida de uma Divindade» (fica a
+  numeração protestante, a de Franklin; na Vulgata seria o 17).
+- *the trick we had plaid him* → «a peça que tínhamos pregado»; *that separate state* → «naquele estado
+  separado» (a alma separada do corpo).
+
+## Candidatos a decisão para o Gere
+
+1. **Pope, a medida** (I.2): alexandrinos rimados (recomendada: cabe o sentido inteiro, a rima é consoante
+   e a troca *of no defense / For* × *but this defense / That* fica exata: «Não tem defesa alguma… pois» ×
+   «Só tem esta defesa…: que») × decassílabos (mais perto da medida de Pope, mas, nos que tentei, a rima
+   obrigava a mudar o sentido ou a perder o paralelo «falta de… é falta de…»).
+2. **_want of sense_ → «falta de razão»** (I.2, nos versos e na prosa que os discute): recomendada, pela
+   rima e porque «razão» é o juízo × «falta de juízo» / «de siso» (mais claro, mas não rima com nada que
+   diga «defesa» sem enchimento).
+3. **_grammar-school_ → «escola de latim»** (I.1): recomendada (é o que era, a Latin School de Boston;
+   «escola de gramática» é calque e engana o leitor) × «escola de gramática» (literal).
+4. **Folger, o último verso** (I.1): «eis aqui Peter Folgier», rimando com «ponho o meu nome ao pé»
+   (recomendada; *here* do original vira «ao pé», a assinatura no pé da folha) × «ponho o meu nome aqui» /
+   «é Peter Folgier, sim» (mais literal, rima pior).

@@ -228,6 +228,15 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
+  autor: "ovidio",
+  arquivo: "conteudo/ovidio/lingua-original.js",
+  livros: [{"id": "metamorphoses", "titulo": "Metamorphoses", "ano": null}],
+  poemas: [
+    {"id":"ovidio-metamorfoses-i","titulo":"Liber I","forma":"outras","livro":0,"ordem":0,"versos":88,"lingua":"la","ano":null,"glossario":true,"subtitulo":"Mundi origo","pt":{"tradutor":"António Feliciano de Castilho","titulo":"As Metamorfoses, Livro I","ano":1841}}
+  ]
+});
+
+BIBLIOTECA.poemas({
   autor: "oscar-wilde",
   arquivo: "conteudo/oscar-wilde/lingua-original.js",
   livros: [{"id": "the-happy-prince-and-other-tales", "titulo": "The Happy Prince and Other Tales", "ano": 1888}],

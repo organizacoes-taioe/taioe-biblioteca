@@ -85,6 +85,16 @@ def corrigir(out, flags):
     dele, se houver mais de um) e troca só o miolo que difere."""
     ERROS.clear()
     FALHAS.clear()
+    # tokens que o tokenizador de hoje partiria («'OS»): partidos, para os trechos acharem o lugar
+    o2, f2 = [], []
+    for t, f in zip(out, flags):
+        ps = [t] if (t.startswith('#') or t == '¶') else (_toks(t) or [t])
+        if ps == ['.'] and o2 and set(o2[-1]) == {'.'}:          # «...» + «.» = «....»
+            o2[-1] += '.'
+            continue
+        o2 += ps
+        f2 += [f] * len(ps)
+    out, flags = o2, f2
     caps, cap = {}, None
     for i, t in enumerate(out):
         if t.startswith('#'):
@@ -94,7 +104,13 @@ def corrigir(out, flags):
         if d['cod'] not in ('fix', 'erro', 'ws'):
             continue
         P = _toks(d['para'])
-        C = _toks(d['texto'])
+        C, ital, k = [], [], 0
+        for t in _toks(d['texto']):              # _palavras em itálico_
+            if t == '_':
+                k ^= 1
+                continue
+            C.append(t)
+            ital.append(bool(k))
         sem = [k for k, t in enumerate(out) if t != '¶']          # o trecho não conta as quebras de parágrafo
         plano = [out[k] for k in sem]
         n = len(P)
@@ -117,8 +133,41 @@ def corrigir(out, flags):
         ini = sem[i + a] if a < n else sem[i + n - 1] + 1
         fim = sem[i + n - z - 1] + 1 if n - z > a else ini
         novo = C[a:len(C) - z]
+        velho = out[ini:fim]
+        if '¶' in velho:            # as quebras de parágrafo do miolo voltam no mesmo lugar
+            import difflib
+            vs = [t for t in velho if t != '¶']
+            antes_de = set()
+            k = 0
+            for t in velho:
+                if t == '¶':
+                    antes_de.add(k)
+                else:
+                    k += 1
+            mapa = {}
+            for tp, i1, i2, j1, j2 in difflib.SequenceMatcher(None, vs, novo, autojunk=False).get_opcodes():
+                for x in range(i1, i2):
+                    mapa.setdefault(x, j1 + (x - i1 if tp == 'equal' else 0))
+            mapa.setdefault(len(vs), len(novo))
+            pos = sorted({min(mapa.get(x, len(novo)), len(novo)) for x in antes_de}, reverse=True)
+            novo = list(novo)
+            for j in pos:
+                novo.insert(j, '¶')
         out = out[:ini] + novo + out[fim:]
         flags = flags[:ini] + [False] * len(novo) + flags[fim:]
+        if any(ital):                           # o itálico vale para o trecho inteiro
+            j = sem[i]
+            while j < len(out) and out[j] == '¶':
+                j += 1
+            k = 0
+            for x in range(j, len(out)):
+                if k >= len(C):
+                    break
+                if out[x] == '¶':
+                    continue
+                if ital[k] and out[x][:1].isalpha():
+                    flags[x] = True
+                k += 1
         caps = {}
         cap = None
         for k, t in enumerate(out):

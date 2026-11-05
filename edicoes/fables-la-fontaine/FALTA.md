@@ -28,8 +28,10 @@ poema de `edicoes/lingua-original/<pasta>/` sob o autor novo `jean-de-la-fontain
 ## Falta
 - Pronto para o principal juntar e publicar: gerar o site, Catálogo `obras` (12 obras novas), PR,
   `traducoes_revisao.py --revisao` (8 escolhas novas). Sem regras de `_redirects` (endereços novos).
-- Conferência dos lemas no fr.wiktionary: `~/.cache/claude-pedidos-0511/fabulas-la-fontaine/scripts/lemas.py`
-  (só neste PC); resultado no relatório da rodada.
+- Lemas conferidos: os 772 existem no fr.wiktionary, com seção francesa (05/11; cache em
+  `ferramentas/cache/wiktionary/fr/c2`). As definições difíceis foram conferidas com o verbete
+  (cancre, hère, lippée, pécore, régal, honnête, marri, clerc, dévouer, carrière, obliger, nenni,
+  haro, lande, calendes); as outras seguem o padrão do Wiktionary, sem conferência uma a uma.
 - Depois das respostas do Gere ao `revisao.json`: aplicar (travessões, «Hé ! bonjour», maiúsculas…)
   em `edicoes/lingua-original/<pasta>/poema.txt` e rodar `glossario/montar.py gravar` (as posições
   das palavras mudam se o texto mudar: conferir `escolhas.py`).

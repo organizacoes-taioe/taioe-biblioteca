@@ -97,7 +97,7 @@ Filadélfia», *dinner* = almoço, *supper* = jantar, Biblioteca, curadores). Fr
 - **Memo.** → «Memorando.» (evitei «Nota.», que é a marca das notas de Franklin, `[_Nota:_ …]`); *these
   letters* → «nestas cartas» (as de Abel James e Vaughan, que abrem a parte II).
 
-## Erratas (as quatro da parte I.6–9)
+## Erratas (I.6–9)
 
 I.6: a carta única à srta. Read («outra das grandes erratas da minha vida»), o folheto de Londres («outra
 errata»), a investida sobre a sra. T------ («outra errata»); I.8: a dívida com Vernon («essa errata foi em

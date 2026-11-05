@@ -77,7 +77,7 @@ CONFUSOES = {'0': 'o', '6': 'ó', '1': 'l', '4': 'á'}
 
 
 def palavras(s):
-    return [w for w in s.split() if re.match(r'\w', w)]
+    return [w for w in s.split() if re.match(r'[^\W_]', w)]
 
 
 def decidir(p):
@@ -94,6 +94,15 @@ def decidir(p):
         if re.search(r'CHRYS|PHAL|AMERIC|OCCID|NOTAS', oc) and len(palavras(oc)) <= 3:
             return ''
         return None
+    if re.fullmatch(r'[IVXLC]+\.?', ws.strip()) and len(palavras(oc)) <= 1 and not re.search(r'[a-z]{2}', oc):
+        return 'ws'   # número da estrofe: o OCR não lê os romanos
+    m = re.fullmatch(r'([IVXLC]+) (.+)', ws.strip())
+    if m and len(oc.split()) == 2 and mesma_palavra(m.group(2), oc.split()[1]):
+        return 'ws'
+    if re.fullmatch(r'[«»"“”]', ws.strip()) and not palavras(oc) and not re.search(r'[,.;:!?]', oc):
+        return 'ws'   # aspas no começo do verso: o OCR as perde
+    if re.fullmatch(r'[«»] (\S+)', ws.strip()) and len(oc.split()) == 1 and mesma_palavra(ws.split()[1], oc) :
+        return 'ws'
     if p['tipo'] == '-':
         if not palavras(ws) and re.fullmatch(r'[_\s]*', ws):
             return 'ws'   # itálico do Wikisource
@@ -106,7 +115,7 @@ def decidir(p):
         return ''
     if len(wsw) == len(ocw) == 1 and len(ws.split()) == len(oc.split()) == 1:
         a, b = wsw[0], ocw[0]
-        if mesma_palavra(a, b):
+        if mesma_palavra(a, b) or mesma_palavra(re.sub('ão(?=$|-)', 'am', a), b) or mesma_palavra(a, re.sub('ão(?=$|-)', 'am', b)):
             return 'ws'
         if re.search(r'\d', b) and not re.search(r'\d', a):
             bb = ''.join(CONFUSOES.get(ch, ch) for ch in b)

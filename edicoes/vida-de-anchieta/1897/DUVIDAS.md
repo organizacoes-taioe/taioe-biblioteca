@@ -14,3 +14,5 @@
 - p. 24, «Irmaõ:»: til sobre o «o» no impresso; transcrito como está.
 - p. 24, «fazer fazer» (duas vezes: «iriam fazer fazer», «foram fazer fazer uma pescaria»): repetição no impresso, provável erro de composição; transcrito como está.
 - p. 22, «morreram ali máo estado»: na quebra de linha «máo es-/tado» (provável «em máo estado»; falta «em» no impresso, assim como no voto).
+- p. 25, «Aires Fernandes» (linhas 11–12 do cap.) e «Ayres Fernandes» (l. 'Ouviu isto'): grafias diferentes no próprio impresso; mantidas.
+- p. 27, «dissimuladameute»: no impresso «u» por «n» (dissimuladamente); transcrito como está.

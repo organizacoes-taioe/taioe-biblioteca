@@ -32,3 +32,28 @@ Filadélfia», *dinner* = almoço, *supper* = jantar, Biblioteca, curadores). Fr
   *handkerchief*; a tradição portuguesa diria «véu»). Candidato.
 - *the College* (Chelsea) → «o Colégio»; *Thevenot* → «Thévenot»; *at the first remove* → «ao ser tirado o
   primeiro prato»; *clerk* (de Denham) → «escrevente»; *Earl of Egremont* → «conde de Egremont».
+
+## I.7
+
+- *Journal* (o diário da viagem de 1726) → «o meu diário» (sem itálico: não é título publicado).
+- *Sabbath* (o sábado de Keimer) → «dia de guarda»; *a wild Irishman* → «um irlandês desregrado»; *bought
+  servant* → «criado comprado» (como em III.7); *grammar-school* → «escola de latim» (como em I.1); *Witty
+  Club* → «Clube dos Espirituosos»; *quarterly allowance* → «pensão do trimestre»; *crimp's bill* → «o anúncio
+  de um aliciador»; *entertainment and encouragement* → «abrigo imediato e incentivos».
+- *sorts* → «tipos avulsos»; *puncheons* → «punções»; *warehouseman* → «almoxarife»; *factotum* →
+  «faz-tudo»; *copperplate press* → «prelo de chapa de cobre»; *checks for the bills* → «marcas de controle para
+  as cédulas»; *bills* (o papel-moeda) → «cédulas».
+- *odd fish* → «tipo esquisito»; *enthusiastic in some points of religion* → «exaltado em alguns pontos de
+  religião»; *surveyor-general* → «agrimensor-geral»; *nuncupative will* → «testamento verbal».
+- *Dissenting way* → «na fé dos dissidentes»; *Boyle's Lectures* → «as Conferências de Boyle»; *freethinker*
+  → «livre-pensador»; *thorough Deist* → «deísta completo».
+- *croakers*, *croaking* → «agourentos», «agouros».
+- **Dryden** (a epígrafe; o 1º verso é de Pope, fundido por Franklin): verso branco, quatro decassílabos
+  heroicos (6ª e 10ª), conferidos com o `molde.mjs` (todos ✓):
+  | “É justo tudo o que é; mas o homem, míope,
+  | vê da cadeia apenas uma parte,
+  | o elo próximo; os olhos não alcançam
+  | a balança que no alto tudo pesa;”
+  O 4º verso do original é meio verso (*That poises all above*); aqui ficou inteiro. *Though* → «mas»;
+  *right* → «justo» (com «certo», «está certo» dá choque de acentos na 5ª–6ª); perdeu-se o *equal* de *equal
+  beam* («balança» já o supõe).

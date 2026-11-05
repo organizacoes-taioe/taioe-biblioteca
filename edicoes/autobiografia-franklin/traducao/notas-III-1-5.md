@@ -31,3 +31,19 @@
 
 - *Society of the Free and Easy*: «Sociedade dos Livres e Desembaraçados» (recomendada) × «dos Livres e
   à Vontade» (mais perto de *easy*, perde o eco das dívidas).
+
+## III.2
+
+- *city watch* → «guarda noturna»; *constable* (de *ward*) → «inspetor de quarteirão» (o termo brasileiro
+  histórico, mais natural que «condestável»), *ward* → «bairro», *constableship* → «cargo de inspetor»;
+  *housekeepers* → «donos de casa»; *walking the rounds* → «a ronda».
+- *Union Fire Company* fica em inglês (nome próprio de instituição que existe com esse nome).
+- *fire-engines, ladders, fire-hooks* → «bombas de incêndio, escadas, ganchos».
+- *trustees* → «administradores»; *Mufti of Constantinople* → «o mufti de Constantinopla»;
+  *Mohammedanism* → «o maometismo»; *Orphan House* → «Orfanato».
+- *Court-house steps* → «a escadaria do tribunal».
+- Whitefield: *his Sermons and Journals* → os seus _Sermões_, o seu _Diário_ (títulos em itálico).
+- *litera scripta manet* fica em latim, com «[a letra escrita permanece]», conforme o guia (§4).
+- O quacre a Hopkinson: tu («eu te emprestaria… tu pareces estar fora do teu juízo»).
+- *for Christ's sake… for your sake* → «pelo amor de Cristo… foi pelo seu» (Franklin a Whitefield, você);
+  guarda o paralelo.

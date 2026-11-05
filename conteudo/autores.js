@@ -740,6 +740,9 @@ BIBLIOTECA.autor({
   ordem: 'Nabuco, Joaquim',
   area: 'nao-ficcao',
   nota: 'Político, diplomata e escritor pernambucano; líder do movimento abolicionista e fundador da Academia Brasileira de Letras.'
+});
+
+BIBLIOTECA.autor({
   id: 'pero-rodrigues',
   nome: 'Pero Rodrigues',
   nomeCompleto: 'Pero Rodrigues',

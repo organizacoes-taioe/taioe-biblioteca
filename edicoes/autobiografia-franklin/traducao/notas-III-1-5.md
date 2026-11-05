@@ -47,3 +47,26 @@
 - O quacre a Hopkinson: tu («eu te emprestaria… tu pareces estar fora do teu juízo»).
 - *for Christ's sake… for your sake* → «pelo amor de Cristo… foi pelo seu» (Franklin a Whitefield, você);
   guarda o paralelo.
+
+## III.3
+
+- *Philosophical Society* → «Sociedade Filosófica»; *Plain Truth* → _A pura verdade_ (título traduzido,
+  como os outros livros do guia).
+- *instrument of association* → «termo de associação»; *associators* → «os associados»; *the association*
+  (a de 1747) → «a Associação» (guia); *manual exercise* → «o manejo das armas»; *silk colors… devices and
+  mottos* → «bandeiras de seda… emblemas e divisas».
+- *battery* → «bateria»; *merlons* → «parapeitos» (evitei «merlões», raro); *eighteen-pounders* → «de
+  dezoito libras»; *bumpers* → «copos cheios»; *Abram Taylor, Esqr.* → «Abram Taylor, Esq.» (fica a
+  abreviatura; o principal decide se tira).
+- *fast* → «jejum»; *reformation* → «emenda dos costumes».
+- *for the king's use* → «para o uso do rei».
+- *other grain is gunpowder* → «outros grãos são grãos de pólvora» (o duplo sentido de *grain* passa
+  pelo «grão de pólvora»).
+- O trocadilho de Syng: *fire-engine* → «máquina de fogo» nas duas vezes (bomba de incêndio e canhão);
+  na primeira, o leitor entende a bomba pelo contexto da companhia de incêndio. Candidato a decisão.
+- Logan a Penn (quacre): tu, «por que não me mandaste descer?… bem que quiseste…».
+- *Dunkers* → «dunkers»; *zealots* → «zelotes».
+- *open stove* → «fogão aberto»; *Pennsylvania Fireplaces* → «lareiras da Pensilvânia» (título do
+  panfleto traduzido, entre aspas como no original); *iron-furnace* → «fundição de ferro»;
+  *ironmonger* → «ferrageiro»; *patent* → «patente».
+- *Louisburg* fica como no original.

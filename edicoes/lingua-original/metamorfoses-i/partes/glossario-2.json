@@ -1,0 +1,1163 @@
+{
+ "verbetes": {
+  "hanc": {
+   "lema": "hic",
+   "classe": "pronome demonstrativo",
+   "forma": "acusativo feminino singular",
+   "def": [
+    "Este, esta; isto."
+   ],
+   "nota": "Concorda com «litem»: «esta contenda», a briga dos elementos descrita nos versos anteriores."
+  },
+  "deus": {
+   "lema": "deus",
+   "classe": "substantivo masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "Deus, divindade."
+   ],
+   "nota": "Sujeito de «diremit», junto com «natura»: um deus, sem nome, ou uma natureza melhor, que põe ordem no caos."
+  },
+  "melior": {
+   "lema": "bonus",
+   "classe": "adjetivo",
+   "forma": "comparativo, nominativo feminino singular",
+   "def": [
+    "Bom, honesto, valente, nobre, bondoso, agradável."
+   ],
+   "nota": "Comparativo de «bonus»: «melhor». Concorda com «natura»."
+  },
+  "litem": {
+   "lema": "lis",
+   "classe": "substantivo feminino",
+   "forma": "acusativo singular",
+   "def": [
+    "Processo, ação judicial.",
+    "Disputa, briga, contenda."
+   ],
+   "nota": "Aqui, o segundo sentido: a luta dos elementos contrários, do caos."
+  },
+  "natura": {
+   "lema": "natura",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Natureza, qualidade, substância ou essência de uma coisa."
+   ],
+   "nota": "Sujeito de «diremit», com «deus». Aqui a natureza é uma força ordenadora, a que desfaz o caos."
+  },
+  "diremit": {
+   "lema": "dirimo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Separar, dividir, desmanchar.",
+    "Interromper, perturbar, adiar."
+   ],
+   "nota": "Com «litem», o sentido é pôr fim à contenda, separando os elementos que brigavam."
+  },
+  "caelo": {
+   "lema": "caelum",
+   "classe": "substantivo neutro",
+   "forma": "ablativo singular",
+   "def": [
+    "Céu, firmamento."
+   ],
+   "nota": "Ablativo de separação: «caelo terras abscidit» é «separou as terras do céu»."
+  },
+  "caelo#2": {
+   "lema": "caelum",
+   "classe": "substantivo neutro",
+   "forma": "ablativo singular",
+   "def": [
+    "Céu, firmamento."
+   ],
+   "nota": "Ablativo de lugar, sem preposição: «em todo o céu»."
+  },
+  "terris": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "forma": "ablativo plural",
+   "def": [
+    "Terra firme, em oposição às partes aquáticas da Terra."
+   ],
+   "nota": "Ablativo de separação: separou as águas das terras."
+  },
+  "abscidit": {
+   "lema": "abscindo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Rasgar, arrancar (sobretudo com a mão).",
+    "Separar, dividir, cortar; afastar."
+   ],
+   "nota": "Aqui, o segundo sentido: separou as terras do céu e as águas das terras."
+  },
+  "undas": {
+   "lema": "unda",
+   "classe": "substantivo feminino",
+   "forma": "acusativo plural",
+   "def": [
+    "Onda.",
+    "(Poético) água, águas."
+   ],
+   "nota": "Aqui, o sentido poético: «as águas», isto é, os mares."
+  },
+  "liquidum": {
+   "lema": "liquidus",
+   "classe": "adjetivo",
+   "forma": "acusativo neutro singular",
+   "def": [
+    "Líquido, fluido, que escorre.",
+    "Claro, transparente, límpido."
+   ],
+   "nota": "Aqui, o segundo sentido; concorda com «caelum»: o céu límpido, que se separa do ar espesso."
+  },
+  "liquidum#2": {
+   "lema": "liquidus",
+   "classe": "adjetivo",
+   "forma": "acusativo masculino singular",
+   "def": [
+    "Líquido, fluido, que escorre.",
+    "Claro, transparente, límpido."
+   ],
+   "nota": "Aqui, o segundo sentido; concorda com «aethera»: o éter límpido, posto sobre o ar."
+  },
+  "spisso": {
+   "lema": "spissus",
+   "classe": "adjetivo",
+   "forma": "ablativo masculino singular",
+   "def": [
+    "Espesso, denso, compacto."
+   ],
+   "nota": "Concorda com «aere»: «ab spisso aere», «do ar espesso»."
+  },
+  "secrevit": {
+   "lema": "secerno",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Pôr à parte, separar, dividir."
+   ],
+   "nota": "Perfeito de «secerno»: «spisso ab aere» é «do ar espesso»; o deus separou o céu límpido do ar denso."
+  },
+  "quae": {
+   "lema": "qui",
+   "classe": "pronome relativo",
+   "forma": "acusativo neutro plural",
+   "def": [
+    "Que, o qual, quem, o que."
+   ],
+   "nota": "Relativo de ligação, no começo da frase: «e a estas coisas». Refere-se aos elementos do caos e é objeto de «evolvit» e «exemit»."
+  },
+  "quae#2": {
+   "lema": "qui",
+   "classe": "pronome relativo",
+   "forma": "nominativo neutro plural",
+   "def": [
+    "Que, o qual, quem, o que."
+   ],
+   "nota": "Sujeito da oração relativa. No v. 40 refere-se a «flumina» (os rios); no v. 63, concorda com «litora»; no v. 70, refere-se a «sidera» (os astros)."
+  },
+  "quae#3": {
+   "lema": "qui",
+   "classe": "pronome relativo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Que, o qual, quem, o que."
+   ],
+   "nota": "No v. 49, «quarum quae media est» é «a que está no meio delas» (uma das cinco zonas); no v. 87, refere-se a «tellus», a terra."
+  },
+  "postquam": {
+   "lema": "postquam",
+   "classe": "conjunção",
+   "def": [
+    "Depois que."
+   ]
+  },
+  "evolvit": {
+   "lema": "evolvo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Desenrolar, desdobrar, fazer rolar para fora.",
+    "(Figurado) esclarecer, deslindar."
+   ],
+   "nota": "Aqui, o sentido figurado: o deus desembaraçou os elementos misturados do caos."
+  },
+  "caecoque": {
+   "lema": "caecus",
+   "classe": "adjetivo",
+   "forma": "ablativo masculino singular",
+   "def": [
+    "Escuro, sombrio, denso, obscuro (o que impede a percepção)."
+   ],
+   "nota": "Com o enclítico -que, «e». Concorda com «acervo»: o monte confuso e escuro do caos, sem luz e sem forma."
+  },
+  "exemit": {
+   "lema": "eximo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Tirar, levar embora, remover, extrair."
+   ],
+   "nota": "Os elementos foram tirados do monte do caos: «caeco acervo» é ablativo de separação."
+  },
+  "acervo": {
+   "lema": "acervus",
+   "classe": "substantivo masculino",
+   "forma": "ablativo singular",
+   "def": [
+    "Massa, monte, pilha."
+   ],
+   "nota": "O monte confuso do caos, de onde os elementos foram tirados."
+  },
+  "dissociata": {
+   "lema": "dissocio",
+   "classe": "verbo",
+   "forma": "particípio perfeito, acusativo neutro plural",
+   "def": [
+    "Desfazer a união, separar, desunir."
+   ],
+   "nota": "Concorda com «quae» do v. 24: os elementos, separados uns dos outros."
+  },
+  "locis": {
+   "lema": "locus",
+   "classe": "substantivo masculino",
+   "forma": "ablativo plural",
+   "def": [
+    "Lugar (local específico)."
+   ],
+   "nota": "No v. 25, «dissociata locis» é «separados em lugares diferentes», cada um no seu; no v. 40, «diversa locis» é «diversos, conforme os lugares»."
+  },
+  "concordi": {
+   "lema": "concors",
+   "classe": "adjetivo",
+   "forma": "ablativo feminino singular",
+   "def": [
+    "De acordo, de uma só mente, concorde.",
+    "Pacífico, harmonioso."
+   ],
+   "nota": "Aqui, o segundo sentido; concorda com «pace»."
+  },
+  "pace": {
+   "lema": "pax",
+   "classe": "substantivo feminino",
+   "forma": "ablativo singular",
+   "def": [
+    "Paz."
+   ],
+   "nota": "Ablativo de modo: «com paz concorde»."
+  },
+  "ligavit": {
+   "lema": "ligo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Atar, prender, amarrar.",
+    "Unir."
+   ],
+   "nota": "Aqui, o segundo sentido: o deus uniu os elementos separados, com uma paz concorde."
+  },
+  "ignea": {
+   "lema": "igneus",
+   "classe": "adjetivo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Ardente, quente, em chamas.",
+    "Ardoroso, fervoroso, veemente."
+   ],
+   "nota": "Concorda com «vis»: a força de fogo, isto é, o fogo, o elemento mais leve."
+  },
+  "convexi": {
+   "lema": "convexus",
+   "classe": "adjetivo",
+   "forma": "genitivo neutro singular",
+   "def": [
+    "Abobadado, arqueado, arredondado."
+   ],
+   "nota": "Concorda com «caeli»: o céu como abóbada, arredondado por cima da terra."
+  },
+  "vis": {
+   "lema": "vis",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Força.",
+    "Poder, influência, vigor."
+   ],
+   "nota": "«Ignea vis» é o sujeito de «emicuit»: a força do fogo, o próprio elemento fogo."
+  },
+  "caeli": {
+   "lema": "caelum",
+   "classe": "substantivo neutro",
+   "forma": "genitivo singular",
+   "def": [
+    "Céu, firmamento."
+   ],
+   "nota": "Genitivo: «convexi caeli», «do céu abobadado», que concorda com «convexi»."
+  },
+  "caeli#2": {
+   "lema": "caelum",
+   "classe": "substantivo neutro",
+   "forma": "genitivo singular",
+   "def": [
+    "Céu, firmamento."
+   ],
+   "nota": "Genitivo que depende de «semina»: as sementes do céu, ao qual a terra recém-formada era aparentada («cognati»)."
+  },
+  "emicuit": {
+   "lema": "emico",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Aparecer de repente.",
+    "Saltar para fora, irromper."
+   ],
+   "nota": "Sujeito: «ignea vis». O fogo se lançou para cima, ao ponto mais alto do céu."
+  },
+  "summaque": {
+   "lema": "summus",
+   "classe": "adjetivo",
+   "forma": "ablativo feminino singular",
+   "def": [
+    "O mais alto, o maior, o supremo.",
+    "A parte mais alta de, o topo de."
+   ],
+   "nota": "Com o enclítico -que, «e». Concorda com «arce»: «na parte mais alta»."
+  },
+  "locum": {
+   "lema": "locus",
+   "classe": "substantivo masculino",
+   "forma": "acusativo singular",
+   "def": [
+    "Lugar (local específico)."
+   ],
+   "nota": "Objeto de «fecit»: «locum sibi fecit» é «fez lugar para si»."
+  },
+  "sibi": {
+   "lema": "sui",
+   "classe": "pronome reflexivo",
+   "forma": "dativo singular ou plural",
+   "def": [
+    "Pronome reflexivo da 3ª pessoa: a si mesmo, para si."
+   ],
+   "nota": "Dativo reflexivo, que se refere ao sujeito «ignea vis»: «para si»."
+  },
+  "fecit": {
+   "lema": "facio",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer, construir, fabricar, edificar.",
+    "Fazer, produzir, compor."
+   ],
+   "nota": "«Locum sibi fecit» é «abriu para si um lugar»."
+  },
+  "fecit#2": {
+   "lema": "facio",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer, construir, fabricar, edificar.",
+    "Fazer, produzir, compor."
+   ],
+   "nota": "Aqui, «criou»: o artífice divino fez o homem de semente divina."
+  },
+  "arce": {
+   "lema": "arx",
+   "classe": "substantivo feminino",
+   "forma": "ablativo singular",
+   "def": [
+    "Fortaleza, castelo, cidadela, acrópole.",
+    "(Por metonímia) altura, cume, topo, pico."
+   ],
+   "nota": "Aqui, o segundo sentido: o ponto mais alto do céu, como uma cidadela no alto."
+  },
+  "proximus": {
+   "lema": "proximus",
+   "classe": "adjetivo",
+   "forma": "nominativo masculino singular",
+   "def": [
+    "O mais próximo, o seguinte.",
+    "Contíguo."
+   ],
+   "nota": "Superlativo; pede o dativo («illi»): «o mais próximo dele». É o ar, que fica logo abaixo do fogo."
+  },
+  "est": {
+   "lema": "sum",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ser, existir."
+   ]
+  },
+  "est#2": {
+   "lema": "sum",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ser, existir."
+   ],
+   "nota": "Aqui é verbo auxiliar: com o particípio forma o perfeito passivo («pressa est», «foi comprimida») e o perfeito do verbo depoente («natus est», «nasceu»)."
+  },
+  "illi": {
+   "lema": "ille",
+   "classe": "pronome demonstrativo",
+   "forma": "dativo masculino ou neutro singular",
+   "def": [
+    "Aquele, aquilo; ele, ela."
+   ],
+   "nota": "Dativo, pedido por «proximus»; refere-se ao fogo, a «ignea vis»."
+  },
+  "levitate": {
+   "lema": "levitas",
+   "classe": "substantivo feminino",
+   "forma": "ablativo singular",
+   "def": [
+    "Leveza."
+   ],
+   "nota": "Ablativo de relação: «em leveza», como «loco» (em lugar): o ar é o mais próximo do fogo em leveza e em posição."
+  },
+  "locoque": {
+   "lema": "locus",
+   "classe": "substantivo masculino",
+   "forma": "ablativo singular",
+   "def": [
+    "Lugar (local específico)."
+   ],
+   "nota": "Com o enclítico -que, «e». Ablativo de relação, como «levitate»: «em leveza e em lugar»."
+  },
+  "densior": {
+   "lema": "densus",
+   "classe": "adjetivo",
+   "forma": "comparativo, nominativo feminino singular",
+   "def": [
+    "Denso, compacto."
+   ],
+   "nota": "Comparativo de «densus»: «mais densa». Concorda com «tellus», e «his» é o ablativo de comparação: «mais densa do que estes»."
+  },
+  "his": {
+   "lema": "hic",
+   "classe": "pronome demonstrativo",
+   "forma": "ablativo plural",
+   "def": [
+    "Este, esta; isto."
+   ],
+   "nota": "Ablativo de comparação: no v. 29, «mais densa do que estes» (o fogo e o ar); no v. 76, «mais santo do que estes» (os animais)."
+  },
+  "his#2": {
+   "lema": "hic",
+   "classe": "pronome demonstrativo",
+   "forma": "dativo plural",
+   "def": [
+    "Este, esta; isto."
+   ],
+   "nota": "Dativo: no v. 52, «inminet his» é «paira sobre estas» (as zonas da terra); no v. 57, «a estes» (os ventos)."
+  },
+  "elementaque": {
+   "lema": "elementum",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Um dos quatro elementos que compunham o mundo."
+   ],
+   "nota": "Com o enclítico -que, «e». Objeto de «traxit»; «grandia» concorda com ele."
+  },
+  "grandia": {
+   "lema": "grandis",
+   "classe": "adjetivo",
+   "forma": "acusativo neutro plural",
+   "def": [
+    "Grande, enorme, grandioso, elevado.",
+    "Poderoso."
+   ],
+   "nota": "Aqui, o primeiro sentido: os elementos pesados e maciços, que a terra puxa para si."
+  },
+  "traxit": {
+   "lema": "traho",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Arrastar, puxar.",
+    "Tirar, extrair, derivar."
+   ],
+   "nota": "Aqui, o primeiro sentido: a terra, mais densa, arrastou para baixo os elementos pesados."
+  },
+  "pressa": {
+   "lema": "premo",
+   "classe": "verbo",
+   "forma": "particípio perfeito, nominativo feminino singular",
+   "def": [
+    "Pressionar, empurrar, apertar, oprimir.",
+    "Apertar, comprimir, encurtar."
+   ],
+   "nota": "Com «est», forma o perfeito passivo: «foi comprimida». Concorda com «tellus»."
+  },
+  "pressa#2": {
+   "lema": "premo",
+   "classe": "verbo",
+   "forma": "particípio perfeito, nominativo neutro plural",
+   "def": [
+    "Pressionar, empurrar, apertar, oprimir.",
+    "Apertar, comprimir, encurtar."
+   ],
+   "nota": "Concorda com «quae», isto é, com os astros: eles estavam oprimidos, escondidos sob a massa do caos."
+  },
+  "gravitate": {
+   "lema": "gravitas",
+   "classe": "substantivo feminino",
+   "forma": "ablativo singular",
+   "def": [
+    "Peso, qualidade do que é pesado."
+   ],
+   "nota": "No v. 30, ablativo de causa: «pelo seu peso»; no v. 67, «gravitate carentem» é «que carece de peso»."
+  },
+  "circumfluus": {
+   "lema": "circumfluus",
+   "classe": "adjetivo",
+   "forma": "nominativo masculino singular",
+   "def": [
+    "Que flui ao redor."
+   ],
+   "nota": "Concorda com «umor»: a água que corre ao redor da terra, o mar."
+  },
+  "umor": {
+   "lema": "umor",
+   "classe": "substantivo masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "Líquido, fluido.",
+    "Umidade."
+   ],
+   "nota": "Sujeito de «possedit»: o elemento água, os mares."
+  },
+  "ultima": {
+   "lema": "ultimus",
+   "classe": "adjetivo",
+   "forma": "acusativo neutro plural",
+   "def": [
+    "O mais distante, o mais remoto, o extremo, o último."
+   ],
+   "nota": "Objeto de «possedit»: «os lugares extremos». A água ocupou os confins, em volta da terra."
+  },
+  "possedit": {
+   "lema": "possideo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Tomar posse de, apoderar-se de, ocupar."
+   ],
+   "nota": "Aqui, a água ocupou as regiões mais baixas, em volta da terra."
+  },
+  "solidumque": {
+   "lema": "solidus",
+   "classe": "adjetivo",
+   "forma": "acusativo masculino singular",
+   "def": [
+    "Denso, sólido, não oco.",
+    "Inteiro, completo."
+   ],
+   "nota": "Com o enclítico -que, «e». Concorda com «orbem»: o globo sólido, a terra."
+  },
+  "coercuit": {
+   "lema": "coerceo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Cercar por todos os lados, manter junto; envolver, circundar."
+   ],
+   "nota": "A água envolveu o globo sólido da terra e o manteve unido."
+  },
+  "orbem": {
+   "lema": "orbis",
+   "classe": "substantivo masculino",
+   "forma": "acusativo singular",
+   "def": [
+    "Esfera, globo."
+   ],
+   "nota": "Objeto de «coercuit»: a esfera da terra sólida."
+  },
+  "ubi": {
+   "lema": "ubi",
+   "classe": "advérbio",
+   "def": [
+    "Quando (relativo, de tempo)."
+   ],
+   "nota": "«Sic ubi» é «assim que», «logo que»."
+  },
+  "dispositam": {
+   "lema": "dispono",
+   "classe": "verbo",
+   "forma": "particípio perfeito, acusativo feminino singular",
+   "def": [
+    "Dispor, distribuir, arrumar."
+   ],
+   "nota": "Concorda com «congeriem»: a massa já arrumada, com cada elemento em seu lugar."
+  },
+  "quisquis": {
+   "lema": "quisquis",
+   "classe": "pronome indefinido",
+   "def": [
+    "Quem quer que, o que quer que."
+   ],
+   "nota": "«Quisquis fuit ille deorum» é «quem quer que tenha sido aquele dos deuses»: o poeta não diz qual deus foi."
+  },
+  "fuit": {
+   "lema": "sum",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ser, existir."
+   ],
+   "nota": "Perfeito: «foi», «tenha sido»."
+  },
+  "ille": {
+   "lema": "ille",
+   "classe": "pronome demonstrativo",
+   "forma": "nominativo masculino singular",
+   "def": [
+    "Aquele, aquilo; ele, ela."
+   ],
+   "nota": "Reforça o sujeito: no v. 32, «ille deorum» é «aquele dos deuses»; no v. 79, «ille opifex», «aquele artífice»."
+  },
+  "deorum": {
+   "lema": "deus",
+   "classe": "substantivo masculino",
+   "forma": "genitivo plural",
+   "def": [
+    "Deus, divindade."
+   ],
+   "nota": "No v. 32, genitivo partitivo: «dentre os deuses». Nos vv. 73 e 83, genitivo de especificação: «dos deuses»."
+  },
+  "congeriem": {
+   "lema": "congeries",
+   "classe": "substantivo feminino",
+   "forma": "acusativo singular",
+   "def": [
+    "Monte, pilha, massa.",
+    "Coleção, acúmulo."
+   ],
+   "nota": "Objeto de «secuit»: a massa do mundo, já arrumada, e depois dividida em partes."
+  },
+  "secuit": {
+   "lema": "seco",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Cortar, separar cortando.",
+    "Fender, dividir."
+   ],
+   "nota": "Aqui, o segundo sentido: o deus dividiu a massa em partes."
+  },
+  "sectamque": {
+   "lema": "seco",
+   "classe": "verbo",
+   "forma": "particípio perfeito, acusativo feminino singular",
+   "def": [
+    "Cortar, separar cortando.",
+    "Fender, dividir."
+   ],
+   "nota": "Com o enclítico -que, «e». Concorda com «congeriem»: «e a massa dividida»."
+  },
+  "membra": {
+   "lema": "membrum",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Membro, parte do corpo.",
+    "Parte, porção, divisão."
+   ],
+   "nota": "Aqui, o segundo sentido: «in membra» é «em partes»."
+  },
+  "coegit": {
+   "lema": "cogo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Reunir, juntar, congregar.",
+    "Restringir ou confinar num espaço."
+   ],
+   "nota": "«Sectam in membra coegit»: reduziu a massa dividida a partes, cada uma no seu espaço."
+  },
+  "principio": {
+   "lema": "principium",
+   "classe": "substantivo neutro",
+   "forma": "ablativo singular",
+   "def": [
+    "Começo, origem, princípio."
+   ],
+   "nota": "Ablativo usado como advérbio: «primeiro», «para começar»."
+  },
+  "terram": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "forma": "acusativo singular",
+   "def": [
+    "A Terra, o globo, o mundo (como corpo celeste)."
+   ],
+   "nota": "Objeto de «glomeravit»: a terra como um globo."
+  },
+  "terram#2": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "forma": "acusativo singular",
+   "def": [
+    "Chão, solo, a superfície da terra."
+   ],
+   "nota": "Objeto de «spectent»: os outros animais olham para o chão."
+  },
+  "ne": {
+   "lema": "ne",
+   "classe": "conjunção",
+   "def": [
+    "Para que não, a fim de que não."
+   ],
+   "nota": "«Ne non aequalis foret» é «para que não deixasse de ser igual»: o deus quis a terra igual por todos os lados."
+  },
+  "aequalis": {
+   "lema": "aequalis",
+   "classe": "adjetivo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Igual, semelhante.",
+    "(Em sentido absoluto) uniforme, regular."
+   ],
+   "nota": "Aqui, o segundo sentido: a terra uniforme, redonda de todos os lados."
+  },
+  "omni": {
+   "lema": "omnis",
+   "classe": "adjetivo",
+   "forma": "ablativo feminino singular",
+   "def": [
+    "Cada, todo, inteiro."
+   ],
+   "nota": "Concorda com «parte»: «ab omni parte» é «de todos os lados»."
+  },
+  "parte": {
+   "lema": "pars",
+   "classe": "substantivo feminino",
+   "forma": "ablativo singular",
+   "def": [
+    "Parte, porção, pedaço.",
+    "Direção."
+   ],
+   "nota": "Aqui, o segundo sentido: «ab omni parte» é «de todos os lados»; no v. 46, «sinistra parte», «à esquerda»."
+  },
+  "foret": {
+   "lema": "sum",
+   "classe": "verbo",
+   "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+   "def": [
+    "Ser, existir."
+   ],
+   "nota": "Forma alternativa de «esset»: «fosse»."
+  },
+  "magni": {
+   "lema": "magnus",
+   "classe": "adjetivo",
+   "forma": "genitivo masculino singular",
+   "def": [
+    "Grande, de grande tamanho.",
+    "Grande, elevado, importante, nobre."
+   ],
+   "nota": "Concorda com «orbis»: «magni orbis» é «de um grande globo»."
+  },
+  "speciem": {
+   "lema": "species",
+   "classe": "substantivo feminino",
+   "forma": "acusativo singular",
+   "def": [
+    "Aparência exterior; contorno geral ou forma."
+   ],
+   "nota": "«In speciem» é «em forma de»; «magni … orbis» (ordem invertida) completa a expressão: «em forma de um grande globo»."
+  },
+  "glomeravit": {
+   "lema": "glomero",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer em bola, amontoar.",
+    "Juntar, reunir num grupo."
+   ],
+   "nota": "Aqui, o primeiro sentido: o deus deu à terra a forma de uma bola."
+  },
+  "orbis": {
+   "lema": "orbis",
+   "classe": "substantivo masculino",
+   "forma": "genitivo singular",
+   "def": [
+    "Esfera, globo."
+   ],
+   "nota": "Genitivo que depende de «speciem»; «magni orbis speciem» é «a forma de um grande globo»."
+  },
+  "tum": {
+   "lema": "tum",
+   "classe": "advérbio",
+   "def": [
+    "Então, naquele momento."
+   ]
+  },
+  "freta": {
+   "lema": "fretum",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Estreito, canal.",
+    "Mar, mares."
+   ],
+   "nota": "Aqui, o segundo sentido: «freta» são os mares, objeto de «diffudit»."
+  },
+  "diffudit": {
+   "lema": "diffundo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Difundir, espalhar, derramar."
+   ],
+   "nota": "O deus espalhou os mares sobre a terra."
+  },
+  "rapidisque": {
+   "lema": "rapidus",
+   "classe": "adjetivo",
+   "forma": "ablativo masculino plural",
+   "def": [
+    "Impetuoso, que se move com tanta violência que arrasta tudo o que encontra (dos rios, ventos, tempestades)."
+   ],
+   "nota": "Com o enclítico -que, «e». Concorda com «ventis»."
+  },
+  "tumescere": {
+   "lema": "tumesco",
+   "classe": "verbo",
+   "forma": "infinitivo presente",
+   "def": [
+    "Começar a inchar, inchar-se.",
+    "(Figurado) ficar agitado, violento, pronto a explodir."
+   ],
+   "nota": "Depende de «iussit»: «mandou inchar». O mar incha com o impulso dos ventos."
+  },
+  "ventis": {
+   "lema": "ventus",
+   "classe": "substantivo masculino",
+   "forma": "ablativo plural",
+   "def": [
+    "Vento."
+   ],
+   "nota": "Ablativo de causa: o mar se agita pelos ventos."
+  },
+  "iussit": {
+   "lema": "iubeo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ordenar, mandar (com o infinitivo da ação ordenada)."
+   ],
+   "nota": "Com infinitivo: «iussit tumescere» é «mandou inchar», «mandou que inchassem»."
+  },
+  "ambitae": {
+   "lema": "ambio",
+   "classe": "verbo",
+   "forma": "particípio perfeito, dativo feminino singular",
+   "def": [
+    "Dar a volta, contornar.",
+    "Rodear, cercar."
+   ],
+   "nota": "Aqui, o segundo sentido; concorda com «terrae», dativo de «circumdare»: a terra rodeada pelo mar."
+  },
+  "circumdare": {
+   "lema": "circumdo",
+   "classe": "verbo",
+   "forma": "infinitivo presente",
+   "def": [
+    "Cercar, rodear, envolver."
+   ],
+   "nota": "Depende de «iussit». Construção: pôr as praias (acusativo) em volta da terra (dativo)."
+  },
+  "litora": {
+   "lema": "litus",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Praia, margem, costa."
+   ],
+   "nota": "Objeto de «circumdare» no v. 37 e de «pulsant» no v. 42."
+  },
+  "litora#2": {
+   "lema": "litus",
+   "classe": "substantivo neutro",
+   "forma": "nominativo plural",
+   "def": [
+    "Praia, margem, costa."
+   ],
+   "nota": "Sujeito de «tepescunt»: as praias que o sol poente aquece."
+  },
+  "terrae": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "forma": "dativo singular",
+   "def": [
+    "A Terra, o globo, o mundo (como corpo celeste)."
+   ],
+   "nota": "Dativo, com «circumdare»: «circumdare litora terrae» é «pôr praias em torno da terra»."
+  },
+  "terrae#2": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "forma": "genitivo singular",
+   "def": [
+    "Terra, solo, barro, torrão (a matéria de que é feita a terra firme)."
+   ],
+   "nota": "Genitivo: «pondere terrae» é «do peso da terra»."
+  },
+  "addidit": {
+   "lema": "addo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Acrescentar, juntar."
+   ],
+   "nota": "O deus acrescentou à obra as fontes, os pântanos, os lagos."
+  },
+  "fontes": {
+   "lema": "fons",
+   "classe": "substantivo masculino",
+   "forma": "acusativo plural",
+   "def": [
+    "Água que sai do chão, nascente, fonte."
+   ],
+   "nota": "Objeto de «addidit»."
+  },
+  "stagna": {
+   "lema": "stagnum",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Massa de água parada (lagoa, pântano, charco).",
+    "(Poético) águas."
+   ],
+   "nota": "Objeto de «addidit»; concorda com «inmensa»."
+  },
+  "inmensa": {
+   "lema": "immensus",
+   "classe": "adjetivo",
+   "forma": "acusativo neutro plural",
+   "def": [
+    "Incomensurável, sem limites, vasto, imenso."
+   ],
+   "nota": "Grafia antiga de «immensa»; concorda com «stagna»."
+  },
+  "lacusque": {
+   "lema": "lacus",
+   "classe": "substantivo masculino",
+   "forma": "acusativo plural",
+   "def": [
+    "Lago, lagoa, bacia."
+   ],
+   "nota": "Com o enclítico -que, «e». Objeto de «addidit»."
+  },
+  "fluminaque": {
+   "lema": "flumen",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Rio."
+   ],
+   "nota": "Com o enclítico -que, «e». Objeto de «cinxit»; «declivia» concorda com ele."
+  },
+  "obliquis": {
+   "lema": "obliquus",
+   "classe": "adjetivo",
+   "forma": "ablativo feminino plural",
+   "def": [
+    "De lado, inclinado, torto, oblíquo."
+   ],
+   "nota": "Concorda com «ripis»: margens que fazem curvas."
+  },
+  "cinxit": {
+   "lema": "cingo",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Cercar, rodear, circundar.",
+    "Cingir; coroar."
+   ],
+   "nota": "Aqui, o primeiro sentido: o deus cercou os rios de margens tortas."
+  },
+  "declivia": {
+   "lema": "declivis",
+   "classe": "adjetivo",
+   "forma": "acusativo neutro plural",
+   "def": [
+    "Inclinado (para baixo).",
+    "Descendente, em declive."
+   ],
+   "nota": "Concorda com «flumina»: rios que correm em declive."
+  },
+  "ripis": {
+   "lema": "ripa",
+   "classe": "substantivo feminino",
+   "forma": "ablativo plural",
+   "def": [
+    "Margem de um rio.",
+    "Margem do mar, costa."
+   ],
+   "nota": "No v. 39, ablativo de meio: «com margens oblíquas»; no v. 42, «pro ripis», «em lugar de margens»."
+  },
+  "diversa": {
+   "lema": "diversus",
+   "classe": "adjetivo",
+   "forma": "nominativo neutro plural",
+   "def": [
+    "Separado, afastado.",
+    "Diverso, diferente."
+   ],
+   "nota": "Concorda com o relativo «quae», isto é, com os rios: «diversa locis» é «diversos conforme os lugares»."
+  },
+  "partim": {
+   "lema": "partim",
+   "classe": "advérbio",
+   "def": [
+    "Em parte, parcialmente, uma parte."
+   ],
+   "nota": "Repetido em «partim … partim» (vv. 40–41): «em parte … em parte», «uns … outros»."
+  },
+  "sorbentur": {
+   "lema": "sorbeo",
+   "classe": "verbo",
+   "forma": "presente do indicativo passivo, 3ª pessoa do plural",
+   "def": [
+    "Sugar, sorver, beber."
+   ],
+   "nota": "Passivo: alguns rios «são sorvidos» pela própria terra."
+  },
+  "ipsa": {
+   "lema": "ipse",
+   "classe": "pronome intensivo",
+   "forma": "ablativo feminino singular",
+   "def": [
+    "(Enfático) ele mesmo, ela mesma, o próprio."
+   ],
+   "nota": "Concorda com «terra», subentendida: «ab ipsa» é «pela própria terra»."
+  },
+  "perveniunt": {
+   "lema": "pervenio",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Chegar.",
+    "Alcançar, atingir."
+   ],
+   "nota": "Os outros rios chegam ao mar."
+  },
+  "campoque": {
+   "lema": "campus",
+   "classe": "substantivo masculino",
+   "forma": "ablativo singular",
+   "def": [
+    "Terreno aberto, plano e nivelado: planície, campo."
+   ],
+   "nota": "Com o enclítico -que, «e». Ablativo de lugar, sem preposição: «numa planície»."
+  },
+  "recepta": {
+   "lema": "recipio",
+   "classe": "verbo",
+   "forma": "particípio perfeito, nominativo neutro plural",
+   "def": [
+    "Receber, aceitar, admitir."
+   ],
+   "nota": "Concorda com o relativo «quae» (os rios): os que são recebidos numa planície, a do mar."
+  },
+  "liberioris": {
+   "lema": "liber",
+   "classe": "adjetivo",
+   "forma": "comparativo, genitivo feminino singular",
+   "def": [
+    "Livre, independente, sem restrição."
+   ],
+   "nota": "Comparativo de «liber»: «mais livre». Concorda com «aquae»: a água do mar aberto, mais livre do que a dos rios."
+  },
+  "aquae": {
+   "lema": "aqua",
+   "classe": "substantivo feminino",
+   "forma": "genitivo singular",
+   "def": [
+    "Água."
+   ],
+   "nota": "Genitivo: no v. 42, «de uma água mais livre»; no v. 53, «pondere aquae» é «o peso da água»."
+  },
+  "pro": {
+   "lema": "pro",
+   "classe": "preposição",
+   "def": [
+    "Em vez de, no lugar de.",
+    "Como, a modo de."
+   ],
+   "nota": "Pede o ablativo: «pro ripis litora pulsant» é «batem nas praias em lugar de margens»."
+  },
+  "pulsant": {
+   "lema": "pulso",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Empurrar, golpear, bater."
+   ],
+   "nota": "Os rios que chegam ao mar batem nas praias."
+  },
+  "extendi": {
+   "lema": "extendo",
+   "classe": "verbo",
+   "forma": "infinitivo presente passivo",
+   "def": [
+    "Estender, esticar.",
+    "Alongar, prolongar."
+   ],
+   "nota": "Depende de «iussit», como «subsidere» e «surgere»: «mandou que os campos se estendessem»."
+  },
+  "campos": {
+   "lema": "campus",
+   "classe": "substantivo masculino",
+   "forma": "acusativo plural",
+   "def": [
+    "Terreno aberto, plano e nivelado: planície, campo."
+   ],
+   "nota": "Sujeito de «extendi», no acusativo (construção do infinitivo depois de «iussit»)."
+  },
+  "subsidere": {
+   "lema": "subsido",
+   "classe": "verbo",
+   "forma": "infinitivo presente",
+   "def": [
+    "Assentar-se, abaixar-se, afundar."
+   ],
+   "nota": "Depende de «iussit»: «mandou que os vales se abaixassem»."
+  },
+  "valles": {
+   "lema": "vallis",
+   "classe": "substantivo feminino",
+   "forma": "acusativo plural",
+   "def": [
+    "Vale."
+   ],
+   "nota": "Sujeito de «subsidere», no acusativo (construção do infinitivo depois de «iussit»)."
+  }
+ },
+ "ocorrencias": {
+  "71.5": "caelo#2",
+  "67.4": "liquidum#2",
+  "40.1": "quae#2",
+  "63.4": "quae#2",
+  "70.2": "quae#2",
+  "49.2": "quae#3",
+  "87.3": "quae#3",
+  "30.3": "est#2",
+  "78.3": "est#2",
+  "52.2": "his#2",
+  "57.1": "his#2",
+  "70.3": "pressa#2",
+  "81.5": "caeli#2",
+  "78.8": "fecit#2",
+  "63.5": "litora#2",
+  "52.8": "terrae#2",
+  "84.6": "terram#2"
+ }
+}

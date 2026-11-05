@@ -82,6 +82,36 @@ Seguem o guia e as `notas-III-1-5.md` (Biblioteca, curadores, «em Filadélfia»
   entendidos»; *kite* → «papagaio de papel»; *pointed rod* → «vara pontuda»; *Philadelphia Experiments* →
   «as Experiências de Filadélfia»; *Letters* (de Nollet) → _Cartas_.
 
+## III.10
+
+- *paquet*, *paquet-boat* (o navio-correio) → «paquete»; *a paquet from Governor Denny* (o pacote de cartas)
+  → «um malote».
+- *his lordship* → «Sua Senhoria»; Loudoun e Shirley a Franklin, e Franklin a Shirley: **o senhor**;
+  Franklin e Innis: você.
+- *entre nous* → _entre nous_ [cá entre nós] (francês fica, com a tradução entre colchetes, guia § 4);
+  *escritoire* → «escrivaninha».
+- *Historical Review* → o _Exame histórico_ (o livro de 1759, _An Historical Review of the Constitution
+  and Government of Pennsylvania_). *Jas. Ralph* → «James Ralph». *Prince Frederic* → «o príncipe
+  Frederico». *three hundred a year* → «trezentas libras por ano» («libras» subentendido no original).
+- *St. George on the signs, always on horseback, and never rides on* → «como o São Jorge das tabuletas:
+  está sempre a cavalo e nunca sai do lugar».
+- *I find a low seat the easiest* (Shirley, rebaixado) → «acho que um assento baixo é o mais cômodo»
+  (o duplo sentido de *easiest* passa por «cômodo»).
+- Mar: *ninety-six sail* → «noventa e seis velas»; *dull* → «lento»; *best sailer* → «o melhor veleiro»;
+  *ensign staff* → «mastro da bandeira»; *by the head* → «à proa»; *knots* → «nós»; *log*, *log-line*,
+  *heaving the log* → «barquilha», «linha da barquilha», «lançar a barquilha»; *watches* → «quartos»;
+  *trimm'd sharper or flatter* → «mais fechadas ou mais abertas»; *had soundings* → «achamos fundo com a
+  sonda»; *privateers* → «corsários»; *indraught* → «corrente que entra»; *studdingsails* → «velas
+  auxiliares» (evitei «varredouras», raro); *yaw* → «guinada»; *wear round, all sails standing* → «virar
+  em roda, com todas as velas em cima»; *heave her down and clean her bottom* → «deitá-lo de lado e limpar
+  o fundo»; *the worm* → «o gusano»; *Look well out before there* / *Ay ay* → «Olho vivo aí na frente!» /
+  «Sim, sim».
+- *Scilly Isles* → «ilhas Scilly»; *St. George's Channel* → «canal de São Jorge»; *Salisbury Plain* →
+  «planície de Salisbury»; *Fort George* → «forte George»; *Sandy Hook*, *Halifax*, *Charlestown*,
+  *Falmouth*, *Stonehenge*, *Wilton* ficam.
+- *fall goods* → «mercadorias de outono»; *contractors* → «fornecedores»; *voucher* → «comprovante»;
+  *not a farthing* → «um vintém» (como em III.5).
+
 ## Candidatos a decisão para o Gere
 
 1. O jogo racial de Morris e Franklin (III.6, *government of blacks… negrofied*): tradução literal
@@ -91,3 +121,5 @@ Seguem o guia e as `notas-III-1-5.md` (Biblioteca, curadores, «em Filadélfia»
    contrato» (mais exata para o leitor de hoje, mas explica o que ele não explica).
 3. *gill of rum* (III.8): «um _gill_ de rum» (recomendada, pelo guia: medidas sem converter, com o
    vocabulário) × «uma dose de rum» (mais legível, perde a medida).
+4. *entre nous* (III.10, Loudoun): _entre nous_ [cá entre nós] (recomendada pela regra do guia, § 4) ×
+   só _entre nous_, sem colchete (a expressão é corrente, e o colchete pesa numa fala).

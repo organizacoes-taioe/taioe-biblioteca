@@ -78,3 +78,42 @@ Filadélfia», *dinner* = almoço, *supper* = jantar, Biblioteca, curadores). Fr
   (como em I.4); *gave bail* → «demos fiança»; *judgment and execution* → «sentença e execução».
 - Meredith a Franklin, e Franklin a ele: você. *go about my business* → «vou cuidar da minha vida».
 - *[_In the margin:_ I got his son once £500.]* → «[_À margem:_ Uma vez consegui para o filho dele 500 libras.]».
+
+## I.9
+
+- *sunk* (o papel-moeda) → «recolhidas»; *struck* → «emitida»; _The Nature and Necessity of a Paper Currency_
+  → _A natureza e a necessidade de um papel-moeda_; *blanks* → «formulários»; *chapmen's books* → «livrinhos de
+  cordel» (I.2); *loan-office* → «Caixa de Empréstimos» (III.6); *riders* → «postilhões» (III); *kept the
+  post-office* → «tinha a agência do correio»; *straggling hands* → «empregados avulsos».
+- *a book… debauch'd me from my work* → «um livro às vezes me desencaminhava do trabalho» (guarda o tom de
+  pecadilho); *snug* → «discreto»; *went on swimmingly* → «ia de vento em popa» (III.8).
+- *steal a marriage* → «nos casaríamos às escondidas»; *the latter* → «a segunda hipótese»; *inmates* →
+  «inquilinos»; *intrigues with low women* → «aventuras com mulheres de baixa condição»; *a distemper* → «uma
+  doença» (Franklin não a nomeia); *The match* (o de Deborah com Rogers) → «Aquele casamento»; *helpmate* →
+  «companheira»; *I took her to wife* → «eu a tomei por esposa».
+- *subscription library* → «biblioteca por assinatura» (minúscula: genérico; a instituição, na parte III, é «a
+  Biblioteca»); *charter* → «carta de incorporação»; *intelligent* (séc. XVIII: informado) → «instruídos»;
+  *the stand… in defence of their privileges* → «a resistência… em defesa dos seus privilégios».
+- **Memo.** → «Memorando.» (evitei «Nota.», que é a marca das notas de Franklin, `[_Nota:_ …]`); *these
+  letters* → «nestas cartas» (as de Abel James e Vaughan, que abrem a parte II).
+
+## Erratas (as quatro da parte I.6–9)
+
+I.6: a carta única à srta. Read («outra das grandes erratas da minha vida»), o folheto de Londres («outra
+errata»), a investida sobre a sra. T------ («outra errata»); I.8: a dívida com Vernon («essa errata foi em
+certa medida corrigida»); I.9: o casamento («Assim corrigi aquela grande errata o melhor que pude»). Sempre
+«errata», feminino, como manda o guia.
+
+## Candidatos a decisão para o Gere
+
+1. **Dryden, a medida** (I.7): quatro decassílabos brancos (recomendada; o 4º verso do original é meio verso
+   e aqui ficou inteiro) × deixar o 4º curto, «que no alto tudo pesa» (6 sílabas, como Dryden). E *right* →
+   «justo» (recomendada, pelo metro) × «certo» («O que existe está certo», com choque de acentos).
+2. **_pint_ → «quartilho»** (I.6, a cerveja dos impressores; recomendada: medida antiga que o leitor
+   reconhece, ao lado do «quarto de galão» do guia) × «pinto» (o nome técnico, estranho em português) ×
+   «caneca» (natural, mas perde a medida).
+3. **_St. Monday_ → «santa segunda-feira»** (I.6; recomendada, com nota de vocabulário) × «nunca emendava a
+   segunda-feira» (mais brasileiro, mas perde o «santo» irônico).
+4. **_her handkerchief_ (Santa Verônica) → «o seu lenço»** (I.6; recomendada: é o que Franklin, protestante,
+   diz) × «o seu véu» (o nome católico tradicional).
+5. _Busy Body_ (I.8): fica em inglês (recomendada, como o _Spectator_) × _O Intrometido_.

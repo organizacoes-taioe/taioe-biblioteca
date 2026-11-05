@@ -18,3 +18,5 @@
 - p. 27, «dissimuladameute»: no impresso «u» por «n» (dissimuladamente); transcrito como está.
 - p. 28, «reteudo» (por «retendo»/«detido»), «fuão» e «Foão» (para «Fulano/Foão»?): grafias estranhas do impresso, mantidas como estão.
 - p. 30, «sem a deitar em / quanto se representava»: o impresso tem «em» no fim da linha e «quanto» no começo da seguinte, sem hífen (duas palavras); transcrito assim.
+- p. 31, linha «foão e foão» (ou «Foão»): nome omitido/forma estranha no impresso («foão e foão»); mantido como está.
+- p. 33, rodapé: «A. B. N.» e «3» (assinatura de caderno), não transcritos.

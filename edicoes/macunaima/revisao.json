@@ -1,0 +1,87 @@
+{
+  "id": "macunaima",
+  "rotulo": "Macunaíma (Mário de Andrade): edição-base e grafia",
+  "url": "/biblioteca/mario-de-andrade/macunaima/",
+  "escolhas": [
+    {
+      "id": "edicao-base",
+      "titulo": "O texto segue a 1ª edição (1928) inteira, com o capítulo XI, «As três normalistas», que Mário cortou na 2ª (1937)?",
+      "ref": "o livro inteiro; cap. XI",
+      "contexto": "A 1ª edição (São Paulo, 1928, 800 exemplares pagos pelo autor) tem 18 capítulos e o epílogo. Para a 2ª (José Olympio, 1937), Mário reviu o texto e tirou o fim do capítulo XI, «As três normalistas» (o herói propõe brincar com as moças da Escola Normal da praça da República); o que sobrou dele passou ao começo de «A velha Ceiuci», e o livro ficou com 17 capítulos. A 1ª edição é a única com fac-símile gratuito (Biblioteca Nacional) e está em domínio público também nos EUA; o texto de 1937 não está digitalizado.",
+      "opcoes": [
+        {"id": "a", "texto": "A 1ª edição inteira, com os 18 capítulos, como está", "nota": "É o texto da edição-base, conferido no fac-símile; a «Sobre» explica o corte de 1937. Como em Os Maias e em Amor de Perdição (1ª edição).", "recomendada": true},
+        {"id": "b", "texto": "1928, mas sem o trecho que Mário cortou em 1937", "nota": "Aproxima-se do livro que se lê hoje, mas mistura duas edições: o resto do texto continuaria o de 1928, sem as outras mudanças de 1937, que não temos."}
+      ]
+    },
+    {
+      "id": "si-senao",
+      "titulo": "*Si*, *sinão* e *siquer* (por «se», «senão», «sequer») ficam como Mário escreveu?",
+      "ref": "o livro todo (si: uns 80 casos; sinão: 15)",
+      "contexto": "Mário escrevia *si* de propósito, pela pronúncia brasileira, num programa de «escrever brasileiro»; em 1928 a norma e o uso dos outros escritores já eram «se». As edições críticas de hoje mantêm *si*, *sinão* e *siquer*.\n\nHoje: «Si o incitavam a falar exclamava: — Ai! que preguiça!...»",
+      "opcoes": [
+        {"id": "a", "texto": "*si*, *sinão*, *siquer*, como está", "nota": "É marca do estilo do livro, não ortografia da época.", "recomendada": true},
+        {"id": "b", "texto": "«se», «senão», «sequer»", "nota": "Mais fácil para o leitor de hoje; apaga uma marca famosa do livro."}
+      ]
+    },
+    {
+      "id": "mai",
+      "titulo": "*Mãi* e *mamãi* (por «mãe», «mamãe») ficam como em 1928?",
+      "ref": "o livro todo (uns 60 casos; o título do cap. III, «Ci, Mãi do Mato»)",
+      "contexto": "Mário escrevia *mãi* pela pronúncia, como *si*. Era também uma grafia comum antes de 1931, e as edições de hoje (inclusive a crítica) põem «mãe». O som não muda.\n\nHoje: «Ci, Mãi do Mato»; «a mãi dele».",
+      "opcoes": [
+        {"id": "a", "texto": "*mãi*, *mamãi*, como está", "nota": "Fica com a forma de Mário, como *si*; o leitor entende sem esforço.", "recomendada": true},
+        {"id": "b", "texto": "«mãe», «mamãe»", "nota": "Como as edições modernas; trata *mãi* como ortografia de época, à maneira de *quasi*."}
+      ]
+    },
+    {
+      "id": "formas-da-fala",
+      "titulo": "As formas da fala de Mário (*frexa*, *milhor*, *guspir*, *enguliu*, *guela*) ficam como em 1928?",
+      "ref": "o livro todo (frexa e flexa, milhor, guspiu, enguliu, guela)",
+      "contexto": "São formas da pronúncia popular, que mudam a palavra e não só a letra; Mário as escolheu (ao lado delas o livro também usa «flexa»). As edições de hoje mantêm *milhor* e algumas outras, e põem «flecha», «engoliu», «goela».\n\nHoje: «Fez lança da flexa tridente»; «Nos machos guspia na cara».",
+      "opcoes": [
+        {"id": "a", "texto": "Como em 1928", "nota": "Pela regra da Biblioteca: a forma que é escolha do autor fica.", "recomendada": true},
+        {"id": "b", "texto": "«flecha», «melhor», «cuspir», «engoliu», «goela»", "nota": "Mais uniforme; perde a fala que o livro imita."}
+      ]
+    },
+    {
+      "id": "quasi-tribu-poude",
+      "titulo": "*Quasi*, *tribu* e *poude* passam a «quase», «tribo» e «pôde»?",
+      "ref": "quasi (12 vezes), tribu (14), poude (11)",
+      "contexto": "Eram a grafia corrente de 1928 (Alencar e Machado já escreviam *tribu* e *poude*), não uma marca de Mário: o som é o mesmo. A Biblioteca põe a grafia de hoje nesses casos, como em *cousa* → coisa.\n\nHoje: «Toda a tribo»; «quase»; «não pôde».",
+      "opcoes": [
+        {"id": "a", "texto": "«quase», «tribo», «pôde», como está", "nota": "Grafia de época sem valor de estilo.", "recomendada": true},
+        {"id": "b", "texto": "*quasi*, *tribu*, *poude*, como em 1928", "nota": "Tudo como o livro impresso, ao lado de *si* e *mãi*."}
+      ]
+    },
+    {
+      "id": "letras-de-epoca",
+      "titulo": "*Geito*, *tezouro*, *gosar*, *dansa*, *cincoenta* e *milreis* passam à grafia de hoje?",
+      "ref": "geito (11), tezouro/tezoura (4), gosar/gôso/gosados, dansa, cincoenta (3), milreis (4)",
+      "contexto": "Letras da ortografia sem norma de antes de 1931 (g/j, s/z, s/ç), que não mudam a pronúncia.\n\nHoje: «jeito», «tesouro», «gozar», «dança», «cinquenta», «mil-réis».",
+      "opcoes": [
+        {"id": "a", "texto": "A grafia de hoje, como está", "nota": "Como em todos os livros da Biblioteca.", "recomendada": true},
+        {"id": "b", "texto": "Como em 1928", "nota": "Segue o impresso letra por letra."}
+      ]
+    },
+    {
+      "id": "palavras-indigenas",
+      "titulo": "As palavras indígenas e africanas vão na grafia de hoje quando a de 1928 caiu (*Ochum* → Oxum, *macacheira* → macaxeira, *girau* → jirau)?",
+      "ref": "o livro todo (Oxum, Oxóssi, macaxeira, jirau, suçuarana, maçaroca…)",
+      "contexto": "Antes de 1931 se escrevia *ch* e *s* onde hoje vai *x* e *ç* nas palavras de origem tupi e africana. A regra aplicada: muda só quando a forma de 1928 não existe mais como variante nos dicionários; quando ela ainda é variante registrada (*cachiri*, *curumi*), fica a de Mário.\n\nHoje: «Oxum», «macaxeira», «jirau de paxiúba», «cachiri».",
+      "opcoes": [
+        {"id": "a", "texto": "A grafia de hoje, só onde a de 1928 caiu, como está", "nota": "O leitor acha a palavra no dicionário, e o som não muda.", "recomendada": true},
+        {"id": "b", "texto": "Todas como em 1928", "nota": "Guarda o aspecto de época dos nomes indígenas e africanos."}
+      ]
+    },
+    {
+      "id": "acentos",
+      "titulo": "Os acentos seguem a norma de hoje (*heroi* → herói, *tambem* → também, *porêm* → porém)?",
+      "ref": "o livro todo (herói: uns 280 casos)",
+      "contexto": "Mário acentuava pouco e sem sistema (*heroi*, *tambem*, *ninguem*, *agua*, mas *porêm*, *êle*); o acento não muda a palavra. As formas da fala que dependem do acento ficam (*prá*, *prás*).\n\nHoje: «herói da nossa gente»; «E também espertava».",
+      "opcoes": [
+        {"id": "a", "texto": "Acentos de hoje, como está", "nota": "Como em todos os livros da Biblioteca.", "recomendada": true},
+        {"id": "b", "texto": "Os acentos de 1928", "nota": "Fiel ao impresso; o leitor tropeça em *heroi* e *tambem* a cada página."}
+      ]
+    }
+  ]
+}

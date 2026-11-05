@@ -408,6 +408,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'oswald-de-andrade',
+  nome: 'Oswald de Andrade',
+  nomeCompleto: 'José Oswald de Sousa Andrade',
+  vida: '1890–1954',
+  ordem: 'Andrade, Oswald de',
+  nota: 'Poeta, romancista e dramaturgo paulistano, um dos líderes do modernismo; autor dos manifestos da poesia pau-brasil e antropófago.'
+});
+
+BIBLIOTECA.autor({
   id: 'olavo-bilac',
   nome: 'Olavo Bilac',
   nomeCompleto: 'Olavo Brás Martins dos Guimarães Bilac',

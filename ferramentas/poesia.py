@@ -52,6 +52,9 @@ OBRAS_PROPRIAS = {
     'goncalves-dias': ('primeiros-cantos--',),   # edicoes/primeiros-cantos/montar.py (02/11/2026)
     'cruz-e-sousa': ('broqueis--',),   # edicoes/broqueis/montar.py (02/11/2026)
     'alvares-de-azevedo': ('lira-dos-vinte-anos--',),   # edicoes/lira-dos-vinte-anos/montar.py (02/11/2026)
+    # Poesias Completas (1901): os poemas de Crisálidas, Falenas, Americanas e Ocidentais que estão no volume
+    # (todos os do corpus, menos «A Carolina», das Relíquias); edicoes/poesias-completas-machado/montar.py (05/11/2026)
+    'machado-de-assis': ('crisalidas--', 'falenas--', 'americanas--', 'ocidentais--'),
 }
 
 # pasta do corpus -> id do autor na biblioteca (conteudo/autores.js)

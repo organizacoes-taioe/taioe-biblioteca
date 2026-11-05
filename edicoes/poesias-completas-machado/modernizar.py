@@ -142,7 +142,7 @@ MANUAL = {
     'Ciceronica': 'Ciceroniana', 'Cassange': 'Cassange', 'iriado': 'iriado', 'pagé': 'pajé', 'pagés': 'pajés',
     'Pœstum': 'Pesto', 'Scamandro': 'Escamandro', 'Sciancato': 'Sciancato', 'agra': 'agra', 'perduravel': 'perdurável',
     'Revivirião': 'Reviviriam', 'Pallejou': 'Palejou', 'Romeos': 'Romeus', 'Lenora': 'Lenora', 'cherubim': 'querubim',
-    'prantêe': 'pranteie', 'ó': 'ó', 'Ó': 'Ó', 'ô': 'ô', 'affouta': 'afoita', 'affouto': 'afoito', 'almanach': 'almanaque', 'archiduqueza': 'arquiduquesa',
+    'prantêe': 'pranteie', 'Viram': 'Viram', 'contrahido': 'contraído', 'augmentos': 'aumentos', 'ó': 'ó', 'Ó': 'Ó', 'ô': 'ô', 'affouta': 'afoita', 'affouto': 'afoito', 'almanach': 'almanaque', 'archiduqueza': 'arquiduquesa',
     'azues': 'azuis', 'Azues': 'Azuis', 'bemvinda': 'bem-vinda', 'Chapeo': 'Chapéu', 'Chimera': 'Quimera', 'chimera': 'quimera',
     'chimeras': 'quimeras', 'Chr': 'Chr', 'craneo': 'crânio', 'creada': 'criada', 'creado': 'criado', 'Creador': 'Criador',
     'creador': 'criador', 'creadora': 'criadora', 'creança': 'criança', 'creanças': 'crianças', 'creatura': 'criatura',
@@ -177,7 +177,7 @@ MANUAL = {
     'sr': 'sr', 'Sr': 'Sr', 'Sra': 'Sra', 'Dr': 'Dr', 'S': 'S',
 }
 # palavras que ficam (formas do autor que a língua registra, ou que mudam o metro)
-FICAM = {'inda', 'té', "co'a", "co'as", "co'o", "co'os", "minh'alma", "d'alma", "d'agua", "d'água", "p'ra",
+FICAM = {'val', 'inda', 'té', "co'a", "co'as", "co'o", "co'os", "minh'alma", "d'alma", "d'agua", "d'água", "p'ra",
          "tu'alma", "d'oiro", "d'ouro", 'mui', 'assaz', 'hi', 'despareceu', 'desparecêra', 'entregalh', 'esquivo',
          'n', 'd', 'lh', 'm'}
 # contrações com apóstrofo que têm forma de hoje

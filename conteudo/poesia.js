@@ -1489,34 +1489,9 @@ BIBLIOTECA.poemas({
 BIBLIOTECA.poemas({
   autor: "machado-de-assis",
   arquivo: "conteudo/machado-de-assis/poesia.js",
-  livros: [{"id":"crisalidas","titulo":"Crisálidas","ano":1864},{"id":"falenas","titulo":"Falenas","ano":1870},{"id":"americanas","titulo":"Americanas","ano":1875},{"id":"ocidentais","titulo":"Ocidentais","ano":1901},{"id":"reliquias","titulo":"Relíquias de Casa Velha","ano":1906}],
+  livros: [{"id":"reliquias","titulo":"Relíquias de Casa Velha","ano":1906}],
   poemas: [
-    {"id":"machado-de-assis-crisalidas-musa-consolatrix","titulo":"Musa Consoladora","forma":"outras","livro":0,"ordem":1,"versos":27},
-    {"id":"machado-de-assis-crisalidas-quinze-anos","titulo":"Quinze Anos","forma":"outras","livro":0,"ordem":2,"versos":71},
-    {"id":"machado-de-assis-crisalidas-stella","titulo":"Stella","forma":"outras","livro":0,"ordem":3,"versos":40},
-    {"id":"machado-de-assis-crisalidas-horas-vivas","titulo":"Horas Vivas","forma":"outras","livro":0,"ordem":4,"versos":40},
-    {"id":"machado-de-assis-crisalidas-versos-a-corina","titulo":"Versos a Corina (parte I)","forma":"outras","livro":0,"ordem":5,"versos":68,"n":"I"},
-    {"id":"machado-de-assis-falenas-flor-da-mocidade","titulo":"Flor da Mocidade","forma":"outras","livro":1,"ordem":1,"versos":24},
-    {"id":"machado-de-assis-falenas-manha-de-inverno","titulo":"Manhã de Inverno","forma":"outras","livro":1,"ordem":2,"versos":32},
-    {"id":"machado-de-assis-falenas-ite-missa-est","titulo":"Ite, Missa Est","forma":"outras","livro":1,"ordem":3,"versos":35},
-    {"id":"machado-de-assis-falenas-musa-dos-olhos-verdes","titulo":"Musa dos Olhos Verdes","forma":"outras","livro":1,"ordem":4,"versos":28},
-    {"id":"machado-de-assis-falenas-a-elvira","titulo":"A Elvira","forma":"outras","livro":1,"ordem":5,"versos":40},
-    {"id":"machado-de-assis-falenas-lagrimas-de-cera","titulo":"Lágrimas de Cera","forma":"outras","livro":1,"ordem":6,"versos":24},
-    {"id":"machado-de-assis-falenas-passaros","titulo":"Pássaros","forma":"outras","livro":1,"ordem":7,"versos":32},
-    {"id":"machado-de-assis-americanas-a-flor-do-embirocu","titulo":"A Flor do Embiroçu","forma":"outras","livro":2,"ordem":1,"versos":36},
-    {"id":"machado-de-assis-americanas-lua-nova","titulo":"Lua Nova","forma":"outras","livro":2,"ordem":2,"versos":48},
-    {"id":"machado-de-assis-ocidentais-o-desfecho","titulo":"O Desfecho","forma":"sonetos","livro":3,"ordem":1,"versos":14},
-    {"id":"machado-de-assis-ocidentais-circulo-vicioso","titulo":"Círculo Vicioso","forma":"sonetos","livro":3,"ordem":2,"versos":14},
-    {"id":"machado-de-assis-ocidentais-uma-criatura","titulo":"Uma Criatura","forma":"outras","livro":3,"ordem":3,"versos":25},
-    {"id":"machado-de-assis-ocidentais-mundo-interior","titulo":"Mundo Interior","forma":"sonetos","livro":3,"ordem":4,"versos":14},
-    {"id":"machado-de-assis-ocidentais-perguntas-sem-resposta","titulo":"Perguntas sem Resposta","forma":"outras","livro":3,"ordem":5,"versos":68},
-    {"id":"machado-de-assis-ocidentais-suave-mari-magno","titulo":"Suave Mari Magno","forma":"outras","livro":3,"ordem":6,"versos":14},
-    {"id":"machado-de-assis-ocidentais-a-mosca-azul","titulo":"A Mosca Azul","forma":"outras","livro":3,"ordem":7,"versos":64},
-    {"id":"machado-de-assis-ocidentais-spinoza","titulo":"Spinoza","forma":"sonetos","livro":3,"ordem":8,"versos":14},
-    {"id":"machado-de-assis-ocidentais-camoes","titulo":"Camões","forma":"sonetos","livro":3,"ordem":9,"versos":56},
-    {"id":"machado-de-assis-ocidentais-soneto-de-natal","titulo":"Soneto de Natal","forma":"sonetos","livro":3,"ordem":10,"versos":14},
-    {"id":"machado-de-assis-ocidentais-no-alto","titulo":"No Alto","forma":"sonetos","livro":3,"ordem":11,"versos":14},
-    {"id":"machado-de-assis-reliquias-a-carolina","titulo":"A Carolina","forma":"sonetos","livro":4,"ordem":1,"versos":14}
+    {"id":"machado-de-assis-reliquias-a-carolina","titulo":"A Carolina","forma":"sonetos","livro":0,"ordem":1,"versos":14}
   ]
 });
 

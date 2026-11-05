@@ -1173,6 +1173,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('jean-de-la-fontaine/le-loup-et-le-chien', 'Le Loup et le Chien'),
   ('jean-de-la-fontaine/le-rat-de-ville-et-le-rat-des-champs', 'Le Rat de ville et le Rat des champs'),
   ('jean-de-la-fontaine/les-animaux-malades-de-la-peste', 'Les Animaux malades de la peste'),
+  ('joaquim-nabuco/minha-formacao', 'Minha Formação'),
   ('john-donne/death-be-not-proud', 'Death, be not proud'),
   ('john-keats/to-autumn', 'To Autumn'),
   ('john-milton/paradise-lost-i', 'Book I'),

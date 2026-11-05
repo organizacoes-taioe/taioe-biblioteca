@@ -37,6 +37,14 @@
    ],
    "nota": "«Stop up the access and passage to remorse» é «tapai o acesso e a passagem à compaixão»."
   },
+  "account": {
+   "lema": "account",
+   "classe": "verbo",
+   "def": [
+    "Contar."
+   ],
+   "nota": "«Such I account thy love» é «assim conto, considero, o teu amor»."
+  },
   "act": {
    "lema": "act",
    "classe": "substantivo",
@@ -51,6 +59,13 @@
     "(teatro) Cada uma das divisões de uma apresentação teatral; ato."
    ]
   },
+  "adage": {
+   "lema": "adage",
+   "classe": "substantivo",
+   "def": [
+    "Dito antigo que ganhou crédito pelo longo uso; provérbio."
+   ]
+  },
   "addition": {
    "lema": "addition",
    "classe": "substantivo",
@@ -58,6 +73,14 @@
     "(sobretudo jurídico) Título acrescentado ao nome de uma pessoa, para identificá-la com mais precisão."
    ],
    "nota": "«In which addition, hail» é «com este título, salve»: o título de Cawdor, acrescentado ao nome."
+  },
+  "adhere": {
+   "lema": "adhere",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo, figurado) Ser consistente ou coerente; estar de acordo."
+   ],
+   "nota": "«Nor time nor place did then adhere» é «nem o tempo nem o lugar combinavam então»."
   },
   "afeard": {
    "lema": "afeard",
@@ -197,6 +220,14 @@
    "classe": "conjunção",
    "def": [
     "Como conjunção coordenativa: exprime dois elementos tomados em conjunto ou um em acréscimo ao outro."
+   ]
+  },
+  "angels": {
+   "lema": "angel",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Mensageiro incorpóreo e santo ou semidivino de uma divindade, tradicionalmente representado como um jovem com asas; anjo."
    ]
   },
   "angus": {
@@ -353,6 +384,22 @@
    ],
    "nota": "Rubrica: o ator fala «à parte», sem que os outros em cena ouçam."
   },
+  "ask'd": {
+   "lema": "ask",
+   "classe": "verbo",
+   "forma": "particípio passado (grafia antiga)",
+   "def": [
+    "Solicitar ou pedir."
+   ],
+   "nota": "«Hath he ask'd for me?» é «ele perguntou por mim?»."
+  },
+  "assassination": {
+   "lema": "assassination",
+   "classe": "substantivo",
+   "def": [
+    "O assassinato de uma pessoa, em especial por razões políticas ou por ganho pessoal."
+   ]
+  },
   "assault": {
    "lema": "assault",
    "classe": "substantivo",
@@ -416,6 +463,14 @@
     "(vestuário) A roupa que alguém veste; traje."
    ]
   },
+  "audit": {
+   "lema": "audit",
+   "classe": "substantivo",
+   "def": [
+    "Exame em geral; prestação de contas."
+   ],
+   "nota": "«Make their audit» é «prestar contas»."
+  },
   "aught": {
    "lema": "aught",
    "classe": "pronome",
@@ -428,6 +483,13 @@
    "classe": "advérbio",
    "def": [
     "De um lugar, para longe daqui."
+   ]
+  },
+  "babe": {
+   "lema": "babe",
+   "classe": "substantivo",
+   "def": [
+    "(hoje literário ou poético) Bebê ou criança de colo; ser humano ou animal muito novo."
    ]
   },
   "back": {
@@ -453,6 +515,14 @@
    "def": [
     "(transitivo) Dirigir uma saudação ou despedida."
    ]
+  },
+  "bank": {
+   "lema": "bank",
+   "classe": "substantivo",
+   "def": [
+    "(náutica) Elevação sob o mar; área rasa de areia, cascalho, lama etc. que se desloca; banco."
+   ],
+   "nota": "«This bank and shoal of time» é «este banco de areia e baixio do tempo»: a vida, uma ilha curta no mar da eternidade."
   },
   "banners": {
    "lema": "banner",
@@ -519,6 +589,14 @@
    ],
    "nota": "Verbo de ligação («ser», «estar»), ou auxiliar do futuro e do passivo: «shalt be king» é «serás rei»."
   },
+  "be-all": {
+   "lema": "be-all",
+   "classe": "substantivo",
+   "def": [
+    "(poético) O todo; tudo o que há de ser."
+   ],
+   "nota": "«The be-all and the end-all» é «o tudo e o fim de tudo»."
+  },
   "bear": {
    "lema": "bear",
    "classe": "verbo",
@@ -544,6 +622,14 @@
    ],
    "nota": "«Bears that life» é «leva essa vida»: a vida que ele ainda tem, sob condenação."
   },
+  "beast": {
+   "lema": "beast",
+   "classe": "substantivo",
+   "def": [
+    "Qualquer mamífero terrestre de quatro patas; fera, animal."
+   ],
+   "nota": "«What beast was't then» é «que animal foi então», pergunta de Lady Macbeth."
+  },
   "became": {
    "lema": "become",
    "classe": "verbo",
@@ -560,6 +646,14 @@
     "(transitivo) Ser apropriado para; convir a, ficar bem a."
    ],
    "nota": "«Become thee» é «te cai bem»."
+  },
+  "bed": {
+   "lema": "bed",
+   "classe": "substantivo",
+   "def": [
+    "Lugar, superfície plana ou camada sobre a qual algo repousa ou é posto; leito."
+   ],
+   "nota": "Aqui é o ninho do pássaro."
   },
   "been": {
    "lema": "be",
@@ -713,6 +807,13 @@
    ],
    "nota": "«Bind us further to you» é «obrigar-nos ainda mais a vós»."
   },
+  "bird": {
+   "lema": "bird",
+   "classe": "substantivo",
+   "def": [
+    "Animal do clado das aves, caracterizado por ter sangue quente, penas e asas em geral capazes de voo, bico e por pôr ovos; ave, pássaro."
+   ]
+  },
   "black": {
    "lema": "black",
    "classe": "adjetivo",
@@ -728,6 +829,13 @@
     "Tecido pesado, de trama frouxa, em geral de lã, usado para aquecer ao dormir ou repousar; cobertor."
    ],
    "nota": "Figurado: «the blanket of the dark» é o manto da escuridão."
+  },
+  "blast": {
+   "lema": "blast",
+   "classe": "substantivo",
+   "def": [
+    "Rajada violenta de vento."
+   ]
   },
   "blasted": {
    "lema": "blast",
@@ -783,6 +891,15 @@
    ],
    "nota": "«Your face is as a book» é «o vosso rosto é como um livro», em que se leem os pensamentos."
   },
+  "borne": {
+   "lema": "bear",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "Sustentar, suportar; levar."
+   ],
+   "nota": "«Hath borne his faculties so meek» é «exerceu seus poderes com tanta mansidão»."
+  },
   "borrow'd": {
    "lema": "borrow",
    "classe": "verbo",
@@ -806,6 +923,15 @@
    "def": [
     "Cada um dos dois, ou dos dois tipos."
    ]
+  },
+  "bought": {
+   "lema": "buy",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Adquirir mediante pagamento; comprar."
+   ],
+   "nota": "«I have bought golden opinions» é «comprei, conquistei, opiniões de ouro»."
   },
   "boy": {
    "lema": "boy",
@@ -867,6 +993,13 @@
     "O ato ou processo de respirar; fôlego, sopro."
    ]
   },
+  "breed": {
+   "lema": "breed",
+   "classe": "verbo",
+   "def": [
+    "Produzir descendência por via sexual; procriar."
+   ]
+  },
   "bridegroom": {
    "lema": "bridegroom",
    "classe": "substantivo",
@@ -880,6 +1013,13 @@
    "forma": "3ª pessoa do singular do presente",
    "def": [
     "(transitivo, ditransitivo) Transportar em direção a alguém ou a algum lugar; trazer."
+   ]
+  },
+  "broad": {
+   "lema": "broad",
+   "classe": "adjetivo",
+   "def": [
+    "De grande extensão ou alcance; largo, vasto."
    ]
   },
   "broil": {
@@ -952,6 +1092,13 @@
    "classe": "advérbio",
    "def": [
     "(sobretudo literário ou poético) Meramente, apenas, somente."
+   ]
+  },
+  "buttress": {
+   "lema": "buttress",
+   "classe": "substantivo",
+   "def": [
+    "(arquitetura) Estrutura de tijolo, concreto ou pedra construída contra outra para sustentá-la; contraforte."
    ]
   },
   "by": {
@@ -1095,12 +1242,37 @@
    ],
    "nota": "«Carved out his passage» é «abriu caminho a golpes»."
   },
+  "cases": {
+   "lema": "case",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Acontecimento, situação ou fato real; caso."
+   ],
+   "nota": "«In these cases» é «em casos assim»."
+  },
+  "cast": {
+   "lema": "cast",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Lançar, arremessar."
+   ],
+   "nota": "«Cast aside» é «jogar de lado», pôr fora."
+  },
   "castle": {
    "lema": "castle",
    "classe": "substantivo",
    "def": [
     "Grande edificação ou conjunto residencial fortificado, com muitas defesas; castelo."
    ]
+  },
+  "cat": {
+   "lema": "cat",
+   "classe": "substantivo",
+   "def": [
+    "Mamífero carnívoro doméstico de pequeno porte; gato."
+   ],
+   "nota": "«The poor cat i' the adage» alude ao provérbio do gato que queria o peixe, mas não queria molhar as patas."
   },
   "catch": {
    "lema": "catch",
@@ -1115,6 +1287,21 @@
    "classe": "nome próprio",
    "wiki": null,
    "nota": "Lugar e título da nobreza escocesa («thane of Cawdor»); o castelo de Cawdor fica perto de Nairn, no norte da Escócia."
+  },
+  "chalice": {
+   "lema": "chalice",
+   "classe": "substantivo",
+   "def": [
+    "Grande taça de beber, em geral com haste e base, usada em ocasiões formais e cerimônias religiosas; cálice."
+   ]
+  },
+  "chamber": {
+   "lema": "chamber",
+   "classe": "substantivo",
+   "def": [
+    "Cômodo ou conjunto de cômodos; aposento."
+   ],
+   "nota": "«His own chamber» é o quarto de dormir de Duncan."
   },
   "chance": {
    "lema": "chance",
@@ -1165,6 +1352,15 @@
     "(transitivo) Repreender; censurar."
    ],
    "nota": "«Chastise with the valour of my tongue» é «castigar com o valor da minha língua», isto é, com palavras."
+  },
+  "cherubin": {
+   "lema": "cherub",
+   "classe": "substantivo",
+   "forma": "forma obsoleta",
+   "def": [
+    "(pós-bíblico) Anjo alado, da segunda mais alta ordem dos anjos."
+   ],
+   "nota": "«Heaven's cherubin horsed upon the sightless couriers of the air» é «o querubim do céu montado nos corcéis invisíveis do ar»."
   },
   "chestnuts": {
    "lema": "chestnut",
@@ -1226,6 +1422,14 @@
    "def": [
     "Agarrar-se com muita força, para não cair."
    ]
+  },
+  "coign": {
+   "lema": "coign",
+   "classe": "substantivo",
+   "def": [
+    "Canto ou ângulo saliente."
+   ],
+   "nota": "«Coign of vantage» é «canto bem situado», ponto favorável de observação."
   },
   "cold": {
    "lema": "cold",
@@ -1306,6 +1510,15 @@
     "O ato de elogiar; louvor, recomendação favorável em palavras."
    ]
   },
+  "commends": {
+   "lema": "commend",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Entregar ou confiar aos cuidados de outro."
+   ],
+   "nota": "«Commends the ingredients… to our own lips» é «leva os ingredientes… aos nossos próprios lábios»."
+  },
   "commission": {
    "lema": "commission",
    "classe": "substantivo",
@@ -1329,6 +1542,14 @@
     "(obsoleto) Acordo ou tratado usado para pôr fim a divergências."
    ]
   },
+  "compt": {
+   "lema": "compt",
+   "classe": "substantivo",
+   "def": [
+    "(obsoleto) Conta; cálculo."
+   ],
+   "nota": "«In compt» é «em conta», pronto para prestar contas ao rei."
+  },
   "compunctious": {
    "lema": "compunctious",
    "classe": "adjetivo",
@@ -1344,6 +1565,13 @@
     "(intransitivo) Terminar; chegar ao fim."
    ],
    "nota": "«To conclude» é «para concluir»."
+  },
+  "conduct": {
+   "lema": "conduct",
+   "classe": "verbo",
+   "def": [
+    "(arcaico, transitivo) Guiar; conduzir; escoltar."
+   ]
   },
   "confess'd": {
    "lema": "confess",
@@ -1391,12 +1619,28 @@
     "(intransitivo) Estar em oposição; disputar, rivalizar."
    ]
   },
+  "continue": {
+   "lema": "continue",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Fazer durar; prolongar."
+   ]
+  },
   "corporal": {
    "lema": "corporal",
    "classe": "adjetivo",
    "def": [
     "(arcaico) Que tem corpo físico e tangível; material, corpóreo."
    ]
+  },
+  "could": {
+   "lema": "can",
+   "classe": "verbo auxiliar modal",
+   "forma": "pretérito",
+   "def": [
+    "(auxiliar modal, defectivo) Ser capaz de."
+   ],
+   "nota": "«If the assassination could trammel up the consequence» é «se o assassinato pudesse prender as consequências»."
   },
   "country's": {
    "lema": "country",
@@ -1405,6 +1649,24 @@
    "def": [
     "O território de uma nação; um Estado soberano ou uma região outrora independente."
    ]
+  },
+  "couriers": {
+   "lema": "courier",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Pessoa que entrega mensagens; mensageiro."
+   ],
+   "nota": "«Sightless couriers of the air» são os ventos: mensageiros invisíveis do ar."
+  },
+  "coursed": {
+   "lema": "course",
+   "classe": "verbo",
+   "forma": "pretérito",
+   "def": [
+    "(ambitransitivo) Perseguir seguindo o rastro ou estimando o caminho tomado pela presa; seguir ou caçar."
+   ],
+   "nota": "«Coursed him at the heels» é «seguimo-lo de perto, nos calcanhares»."
   },
   "cousin": {
    "lema": "cousin",
@@ -1423,6 +1685,13 @@
    ],
    "nota": "Aqui não é parentesco: «cousins» é como os nobres se tratam entre si."
   },
+  "coward": {
+   "lema": "coward",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa que não tem coragem; covarde."
+   ]
+  },
   "cracks": {
    "lema": "crack",
    "classe": "substantivo",
@@ -1430,6 +1699,14 @@
    "def": [
     "Ruído agudo e repentino; estalo, estampido."
    ]
+  },
+  "cradle": {
+   "lema": "cradle",
+   "classe": "substantivo",
+   "def": [
+    "Cama ou berço de bebê, que balança sobre arcos ou gira em eixos."
+   ],
+   "nota": "Aqui, o ninho, berço dos filhotes."
   },
   "craves": {
    "lema": "crave",
@@ -1519,12 +1796,36 @@
     "(transitivo) Conter, refrear."
    ]
   },
+  "damnation": {
+   "lema": "damnation",
+   "classe": "substantivo",
+   "def": [
+    "(religião) Condenação a punição eterna, no futuro, ou a própria punição; danação."
+   ],
+   "nota": "«The deep damnation of his taking-off» é «a funda condenação da sua morte», o castigo eterno que o crime traria."
+  },
   "damned": {
    "lema": "damned",
    "classe": "adjetivo",
    "def": [
     "Abandonado por Deus; maldito, condenado."
    ]
+  },
+  "dare": {
+   "lema": "dare",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Ter coragem suficiente (para fazer algo); ousar."
+   ]
+  },
+  "dares": {
+   "lema": "dare",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Ter coragem suficiente (para fazer algo); ousar."
+   ],
+   "nota": "«Who dares do more is none» é «quem ousa fazer mais não é homem»."
   },
   "dark": {
    "lema": "dark",
@@ -1589,6 +1890,13 @@
     "(transitivo) Enganar; iludir."
    ]
   },
+  "deed": {
+   "lema": "deed",
+   "classe": "substantivo",
+   "def": [
+    "Ação ou ato; algo que se faz."
+   ]
+  },
   "deep": {
    "lema": "deep",
    "classe": "adjetivo",
@@ -1618,6 +1926,14 @@
    "def": [
     "(transitivo, em geral em negativas) Considerar apropriado ou digno fazer ou dar (algo); dignar-se."
    ]
+  },
+  "delicate": {
+   "lema": "delicate",
+   "classe": "adjetivo",
+   "def": [
+    "Agradável aos sentidos; refinado, próprio para agradar um gosto elegante ou cultivado."
+   ],
+   "nota": "«The air is delicate» é «o ar é suave, agradável»."
   },
   "deliver": {
    "lema": "deliver",
@@ -1714,6 +2030,14 @@
     "(intransitivo) Deixar de viver; tornar-se morto; sofrer a morte."
    ]
   },
+  "dignities": {
+   "lema": "dignity",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Alto cargo, posição ou grau."
+   ]
+  },
   "direful": {
    "lema": "direful",
    "classe": "adjetivo",
@@ -1754,6 +2078,14 @@
     "(transitivo) Considerar indigno; desprezar."
    ]
   },
+  "dishes": {
+   "lema": "dish",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Vasilha, como um prato, para conter ou servir comida, em geral plana e com uma parte funda no meio."
+   ]
+  },
   "disloyal": {
    "lema": "disloyal",
    "classe": "adjetivo",
@@ -1784,6 +2116,15 @@
     "O ato de fazer algo depressa; despacho."
    ],
    "nota": "«Into my dispatch» é «entregue à minha execução», aos meus cuidados."
+  },
+  "divers": {
+   "lema": "diverse",
+   "classe": "adjetivo",
+   "forma": "grafia antiga («divers»)",
+   "def": [
+    "Forma antiga de «diverse», no sentido de vários, diversos."
+   ],
+   "nota": "Rubrica: «divers Servants» são vários criados."
   },
   "do": {
    "lema": "do",
@@ -1848,6 +2189,13 @@
     "(transitivo) Fazer; realizar; executar."
    ],
    "nota": "«Be done» é também «estar terminado, acabado»: «when the hurlyburly's done» é «quando o tumulto tiver terminado»."
+  },
+  "door": {
+   "lema": "door",
+   "classe": "substantivo",
+   "def": [
+    "(arquitetura) Portal de entrada num edifício, cômodo ou veículo, em geral um plano rígido móvel sobre dobradiças; porta."
+   ]
   },
   "dost": {
    "lema": "do",
@@ -1916,6 +2264,15 @@
     "(transitivo) Pôr roupas em (alguém); vestir."
    ]
   },
+  "dress'd": {
+   "lema": "dress",
+   "classe": "verbo",
+   "forma": "pretérito (grafia antiga)",
+   "def": [
+    "(transitivo) Pôr roupas em (alguém); vestir."
+   ],
+   "nota": "«Dress'd yourself» é «te vestiste»."
+  },
   "drops": {
    "lema": "drop",
    "classe": "substantivo",
@@ -1925,12 +2282,28 @@
    ],
    "nota": "«Drops of sorrow» são gotas de pesar: lágrimas de alegria."
   },
+  "drown": {
+   "lema": "drown",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Matar por sufocação na água ou em outro líquido; afogar."
+   ],
+   "nota": "Figurado: as lágrimas afogam o vento, isto é, abafam o seu clamor."
+  },
   "drum": {
    "lema": "drum",
    "classe": "substantivo",
    "def": [
     "Instrumento musical de percussão, coberto por uma pele fina esticada; tambor."
    ]
+  },
+  "drunk": {
+   "lema": "drunk",
+   "classe": "adjetivo",
+   "def": [
+    "Intoxicado por consumo excessivo de álcool; bêbado."
+   ],
+   "nota": "«Was the hope drunk wherein you dress'd yourself?» é «estava bêbada a esperança com que te vestias?»."
   },
   "dry": {
    "lema": "dry",
@@ -1980,6 +2353,15 @@
     "De cor cinza-amarronzada; pardo."
    ],
    "nota": "«Dunnest smoke» é o fumo mais escuro e pardacento."
+  },
+  "durst": {
+   "lema": "dare",
+   "classe": "verbo",
+   "forma": "pretérito (arcaico ou dialetal)",
+   "def": [
+    "(intransitivo) Ter coragem suficiente (para fazer algo); ousar."
+   ],
+   "nota": "«When you durst do it» é «quando ousavas fazê-lo»."
   },
   "duties": {
    "lema": "duty",
@@ -2074,6 +2456,25 @@
     "(em geral depois de advérbios interrogativos) Do contrário, se não; senão."
    ]
   },
+  "end-all": {
+   "partes": [
+    {
+     "lema": "end",
+     "classe": "substantivo",
+     "def": [
+      "A parte final de algo; fim."
+     ]
+    },
+    {
+     "lema": "all",
+     "classe": "pronome",
+     "def": [
+      "Tudo; a totalidade."
+     ]
+    }
+   ],
+   "nota": "«End-all» é «o fim de tudo»: o que encerra tudo, ao lado de «be-all», o que é tudo."
+  },
   "england": {
    "lema": "England",
    "classe": "nome próprio",
@@ -2112,6 +2513,14 @@
    ],
    "nota": "Indicação cênica: «Enter Ross» é «Entra Ross». No plural, a peça usa «exeunt» para a saída."
   },
+  "enterprise": {
+   "lema": "enterprise",
+   "classe": "substantivo",
+   "def": [
+    "Empreendimento ou projeto, em especial ousado e corajoso."
+   ],
+   "nota": "«Break this enterprise to me» é «revelar-me este empreendimento»."
+  },
   "entrance": {
    "lema": "entrance",
    "classe": "substantivo",
@@ -2143,6 +2552,23 @@
    ],
    "nota": "«Our estate» é a realeza, o estado do reino, que passará a Malcolm."
   },
+  "esteem": {
+   "lema": "esteem",
+   "classe": "substantivo",
+   "def": [
+    "Apreciação, estima, consideração, em especial favorável."
+   ],
+   "nota": "«In thine own esteem» é «na tua própria estima»."
+  },
+  "esteem'st": {
+   "lema": "esteem",
+   "classe": "verbo",
+   "forma": "2ª pessoa do singular do presente (arcaico, com thou)",
+   "def": [
+    "Atribuir alto valor a; considerar com respeito ou reverência."
+   ],
+   "nota": "«Which thou esteem'st» é «que tu estimas»."
+  },
   "even": {
    "lema": "even",
    "classe": "advérbio",
@@ -2150,6 +2576,14 @@
     "(arcaico) Exatamente; justamente; plenamente."
    ],
    "nota": "«Even now» é «agora mesmo»."
+  },
+  "even-handed": {
+   "lema": "evenhanded",
+   "classe": "adjetivo",
+   "forma": "grafia com hífen",
+   "def": [
+    "Imparcial; sem viés; justo."
+   ]
   },
   "ever": {
    "lema": "ever",
@@ -2233,6 +2667,15 @@
     "(transitivo) Enfrentar, encarar."
    ]
   },
+  "faculties": {
+   "lema": "faculty",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(em geral no plural) Habilidade, poder ou aptidão."
+   ],
+   "nota": "São os poderes de rei de Duncan."
+  },
   "faint": {
    "lema": "faint",
    "classe": "adjetivo",
@@ -2255,6 +2698,15 @@
    "def": [
     "(intransitivo) Mover-se para baixo; cair."
    ]
+  },
+  "falls": {
+   "lema": "fall",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Mover-se para baixo; cair."
+   ],
+   "nota": "«Falls on the other» é «cai do outro lado»."
   },
   "false": {
    "lema": "false",
@@ -2472,6 +2924,21 @@
    ],
    "nota": "«Stars, hide your fires» é «estrelas, escondei as vossas luzes»."
   },
+  "first": {
+   "lema": "first",
+   "classe": "advérbio",
+   "def": [
+    "Antes de qualquer outra coisa; primeiramente."
+   ]
+  },
+  "fitness": {
+   "lema": "fitness",
+   "classe": "substantivo",
+   "def": [
+    "A condição de estar apto, adequado ou apropriado; aptidão."
+   ],
+   "nota": "«Their fitness now» é «a adequação deles agora»: a ocasião propícia."
+  },
   "fix'd": {
    "lema": "fix",
    "classe": "verbo",
@@ -2522,6 +2989,15 @@
    "def": [
     "Nuvem espessa que se forma perto do solo; neblina; a obscuridade dessa nuvem."
    ]
+  },
+  "follows": {
+   "lema": "follow",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(ambitransitivo) Ir atrás de; perseguir; mover-se atrás pelo mesmo caminho ou direção."
+   ],
+   "nota": "«The love that follows us» é «o afeto que nos segue»."
   },
   "for": {
    "lema": "for",
@@ -2629,6 +3105,14 @@
     "Sem constrangimento; livre."
    ],
    "nota": "«Free hearts» são corações abertos, francos."
+  },
+  "freely": {
+   "lema": "freely",
+   "classe": "advérbio",
+   "def": [
+    "Sem interferência ou restrição."
+   ],
+   "nota": "«So freely» é «tão à vontade»."
   },
   "fresh": {
    "lema": "fresh",
@@ -2878,6 +3362,14 @@
    "wiki": null,
    "nota": "Aldeia e castelo da Escócia (condado de Angus). «Thane of Glamis» é o título que Macbeth herdou do pai, Sinel."
   },
+  "gloss": {
+   "lema": "gloss",
+   "classe": "substantivo",
+   "def": [
+    "Brilho ou lustro de superfície."
+   ],
+   "nota": "«Newest gloss» é «brilho mais novo»: as honras recentes."
+  },
   "go": {
    "lema": "go",
    "classe": "verbo",
@@ -2892,6 +3384,13 @@
     "Divindade ou ser supremo; ser sobrenatural, em geral imortal, de poderes superiores aos dos humanos; deus."
    ],
    "nota": "«God save the king» é «Deus salve o rei»: o desejo de saúde ao rei."
+  },
+  "god'ild": {
+   "lema": "God'ild",
+   "classe": "verbo",
+   "wiki": null,
+   "def": null,
+   "nota": "Forma abreviada de «God yield»: «Deus recompense». «Bid God'ild us» é «pedir a Deus que nos recompense», fórmula de agradecimento."
   },
   "goes": {
    "lema": "go",
@@ -2941,6 +3440,15 @@
    ],
    "nota": "«Present grace» é «um favor imediato»."
   },
+  "graces": {
+   "lema": "grace",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Favor, sanção ou benevolência; graça."
+   ],
+   "nota": "«Our graces» são os favores do rei."
+  },
   "grain": {
    "lema": "grain",
    "classe": "substantivo",
@@ -2985,6 +3493,14 @@
    "def": [
     "O estado, a condição ou a qualidade de ser grande; grandeza."
    ]
+  },
+  "green": {
+   "lema": "green",
+   "classe": "adjetivo",
+   "def": [
+    "Da cor da grama e das folhas; verde."
+   ],
+   "nota": "«Look so green and pale» é «ter o rosto tão verde e pálido»: doente de medo."
   },
   "greet": {
    "lema": "greet",
@@ -3204,6 +3720,14 @@
    ],
    "nota": "«Hath» é o antigo «has»."
   },
+  "haunt": {
+   "lema": "haunt",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Habitar ou visitar com frequência (em geral de fantasmas)."
+   ],
+   "nota": "«Breed and haunt» é «procriam e frequentam»."
+  },
   "hautboys": {
    "lema": "hautboy",
    "classe": "substantivo",
@@ -3265,12 +3789,29 @@
     "Pessoa que se identifica como do sexo masculino, ou animal já conhecido ou subentendido; ele."
    ]
   },
+  "he's": {
+   "lema": "he's",
+   "classe": "contração",
+   "def": [
+    "Contração de «he is» («ele é, ele está») ou de «he has»."
+   ],
+   "nota": "«He's here in double trust» é «ele está aqui em dupla confiança»."
+  },
   "head": {
    "lema": "head",
    "classe": "substantivo",
    "def": [
     "A parte do corpo de um animal ou de uma pessoa que contém o cérebro, a boca e os órgãos dos sentidos principais; cabeça."
    ]
+  },
+  "heap'd": {
+   "lema": "heap",
+   "classe": "verbo",
+   "forma": "particípio passado (grafia antiga)",
+   "def": [
+    "(transitivo) Amontoar; empilhar."
+   ],
+   "nota": "«Heap'd up to them» é «amontoadas sobre eles»."
   },
   "hearing": {
    "lema": "hearing",
@@ -3408,6 +3949,21 @@
     "(datado) No tempo por vir; num tempo futuro."
    ]
   },
+  "herein": {
+   "lema": "herein",
+   "classe": "advérbio",
+   "def": [
+    "Nisto; dentro disto."
+   ]
+  },
+  "hermits": {
+   "lema": "hermit",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Recluso religioso; quem vive sozinho por razões religiosas; eremita."
+   ]
+  },
   "hidden": {
    "lema": "hidden",
    "classe": "adjetivo",
@@ -3519,6 +4075,15 @@
     "De modo santo; com santidade."
    ]
   },
+  "holp": {
+   "lema": "help",
+   "classe": "verbo",
+   "forma": "pretérito e particípio passado (arcaico)",
+   "def": [
+    "(transitivo) Dar auxílio; ajudar."
+   ],
+   "nota": "«Hath holp him» é «o ajudou»."
+  },
   "home": {
    "lema": "home",
    "classe": "substantivo",
@@ -3564,6 +4129,15 @@
    ],
    "nota": "Aqui, o título que o rei concede: «a greater honour» é «uma honra maior»."
   },
+  "honour'd": {
+   "lema": "honor",
+   "classe": "verbo",
+   "forma": "particípio passado (grafia antiga)",
+   "def": [
+    "(transitivo) Tratar com respeito e consideração; honrar."
+   ],
+   "nota": "«Our honour'd hostess» é «nossa honrada anfitriã»."
+  },
   "honours": {
    "lema": "honor",
    "classe": "substantivo",
@@ -3601,6 +4175,27 @@
     "Que causa horror ou pavor; horrendo."
    ]
   },
+  "horsed": {
+   "lema": "horsed",
+   "classe": "adjetivo",
+   "def": [
+    "Montado a cavalo."
+   ]
+  },
+  "host": {
+   "lema": "host",
+   "classe": "substantivo",
+   "def": [
+    "Quem recebe ou entretém um convidado, em ocasião social, comercial ou oficial; anfitrião."
+   ]
+  },
+  "hostess": {
+   "lema": "hostess",
+   "classe": "substantivo",
+   "def": [
+    "Anfitriã; mulher que recebe convidados."
+   ]
+  },
   "hour": {
    "lema": "hour",
    "classe": "substantivo",
@@ -3608,6 +4203,14 @@
     "Estação, momento ou ocasião."
    ],
    "nota": "«Time and the hour» é «o tempo e a hora»: o curso do tempo e a ocasião."
+  },
+  "house": {
+   "lema": "house",
+   "classe": "substantivo",
+   "def": [
+    "Construção onde vivem seres humanos; casa."
+   ],
+   "nota": "«Our house» é aqui a família, a casa nobre de Macbeth."
   },
   "hover": {
    "lema": "hover",
@@ -3813,6 +4416,14 @@
     "Falta ou ausência de gratidão."
    ]
   },
+  "ingredients": {
+   "lema": "ingredient",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Cada uma das substâncias presentes numa mistura, em especial num alimento; ingrediente."
+   ]
+  },
   "inhabitants": {
    "lema": "inhabitant",
    "classe": "substantivo",
@@ -3843,6 +4454,15 @@
    ],
    "nota": "«The future in the instant» é «o futuro no instante»: já vivido no momento presente."
   },
+  "instructions": {
+   "lema": "instruction",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(contável) Informação ou conhecimento fornecido; lição."
+   ],
+   "nota": "«Bloody instructions» são lições de sangue: o crime ensina a quem o comete."
+  },
   "instruments": {
    "lema": "instrument",
    "classe": "substantivo",
@@ -3858,6 +4478,13 @@
     "Informação; notícia."
    ],
    "nota": "«Strange intelligence» é «notícia estranha»."
+  },
+  "intent": {
+   "lema": "intent",
+   "classe": "substantivo",
+   "def": [
+    "Aquilo que se pretende; intenção, propósito."
+   ]
   },
   "interest": {
    "lema": "interest",
@@ -3886,6 +4513,14 @@
    "def": [
     "Para dentro de; em direção ao interior de."
    ]
+  },
+  "inventor": {
+   "lema": "inventor",
+   "classe": "substantivo",
+   "def": [
+    "Quem inventa, por passatempo ou por profissão; inventor."
+   ],
+   "nota": "O «inventor» é aqui quem inventou o crime."
   },
   "inverness": {
    "lema": "Inverness",
@@ -3964,6 +4599,14 @@
     "Decisão de quem julga; sentença, julgamento."
    ],
    "nota": "«Heavy judgement» é a sentença severa; em «we still have judgement here» o castigo já chega nesta vida."
+  },
+  "jump": {
+   "lema": "jump",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Passar por meio de um salto; saltar por cima."
+   ],
+   "nota": "«Jump the life to come» é «saltar por cima da vida futura», isto é, arriscá-la sem medo."
   },
   "justice": {
    "lema": "justice",
@@ -4174,6 +4817,14 @@
    ],
    "nota": "«Lapp'd in proof» é «envolto em armadura à prova» de golpes."
   },
+  "late": {
+   "lema": "late",
+   "classe": "adjetivo",
+   "def": [
+    "Recente, em relação ao substantivo que modifica."
+   ],
+   "nota": "«The late dignities» são as honrarias recentes; «of late» é «ultimamente»."
+  },
   "lavish": {
    "lema": "lavish",
    "classe": "adjetivo",
@@ -4331,6 +4982,15 @@
     "Comunicação escrita ou impressa, em geral mais longa e formal que um bilhete; carta."
    ]
   },
+  "letting": {
+   "lema": "let",
+   "classe": "verbo",
+   "forma": "gerúndio",
+   "def": [
+    "(transitivo) Permitir; não impedir."
+   ],
+   "nota": "«Letting 'I dare not' wait upon 'I would'» é «deixando o «não ouso» aguardar o «queria»»."
+  },
   "lid": {
    "lema": "lid",
    "classe": "substantivo",
@@ -4420,6 +5080,15 @@
    "def": [
     "(intransitivo) Estar vivo; ter vida."
    ]
+  },
+  "loads": {
+   "lema": "load",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Pôr carga em; carregar."
+   ],
+   "nota": "«Loads our house» é «cumula a nossa casa», carrega-a de honras."
   },
   "look": {
    "lema": "look",
@@ -4558,6 +5227,14 @@
    ],
    "nota": "«Made you break» é «fez com que rompesses»; «made themselves air» é «fizeram-se ar»."
   },
+  "majesty": {
+   "lema": "majesty",
+   "classe": "substantivo",
+   "def": [
+    "Qualidade de quem é imponente, grandioso, digno, poderoso, soberano; majestade."
+   ],
+   "nota": "«Your majesty» é o tratamento dado ao rei."
+  },
   "make": {
    "lema": "make",
    "classe": "verbo",
@@ -4670,6 +5347,13 @@
    "forma": "pretérito",
    "def": [
     "(transitivo) Ter a intenção de; planejar (fazer)."
+   ]
+  },
+  "meek": {
+   "lema": "meek",
+   "classe": "adjetivo",
+   "def": [
+    "Humilde, sem jactância, modesto."
    ]
   },
   "meet": {
@@ -4929,6 +5613,13 @@
    ],
    "nota": "«Whose murder yet is but fantastical» é «cujo assassinato ainda é só imaginado»."
   },
+  "murderer": {
+   "lema": "murderer",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa que comete assassinato; assassino."
+   ]
+  },
   "murderers": {
    "lema": "murderer",
    "classe": "substantivo",
@@ -4965,6 +5656,13 @@
    "classe": "pronome reflexivo",
    "def": [
     "Eu mesmo; quanto a mim: usado em aposição a «I», às vezes só para ênfase."
+   ]
+  },
+  "naked": {
+   "lema": "naked",
+   "classe": "adjetivo",
+   "def": [
+    "Nu; sem roupa."
    ]
   },
   "name": {
@@ -5057,6 +5755,14 @@
    "classe": "adjetivo",
    "def": [
     "Feito ou criado há pouco; de origem recente."
+   ]
+  },
+  "new-born": {
+   "lema": "newborn",
+   "classe": "adjetivo",
+   "forma": "grafia com hífen",
+   "def": [
+    "Recentemente nascido."
    ]
   },
   "newest": {
@@ -5263,6 +5969,24 @@
    ],
    "nota": "«O'erleap» é a forma poética de «overleap»."
   },
+  "o'erleaps": {
+   "lema": "overleap",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente (forma poética)",
+   "def": [
+    "(transitivo) Saltar por cima de; transpor saltando."
+   ],
+   "nota": "«Which o'erleaps itself» é «que salta por cima de si mesma», passa do alvo e cai do outro lado."
+  },
+  "observed": {
+   "lema": "observe",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Notar ou ver, em especial com cuidado ou atenção aos detalhes; observar."
+   ],
+   "nota": "«I have observed» é «tenho notado»."
+  },
   "of": {
    "lema": "of",
    "classe": "preposição",
@@ -5270,6 +5994,14 @@
     "Que pertence a alguém ou a algo como coisa que possui ou como característica sua (genitivo possessivo)."
    ],
    "nota": "«Of» liga também o título ao domínio («king of Scotland», «thane of Cawdor»), indica a origem, a matéria ou o assunto, e, em sentido antigo, o agente («por»)."
+  },
+  "office": {
+   "lema": "office",
+   "classe": "substantivo",
+   "def": [
+    "Cargo de responsabilidade."
+   ],
+   "nota": "«His great office» é «o seu alto cargo», o de rei."
   },
   "officer": {
    "lema": "officer",
@@ -5339,12 +6071,29 @@
     "Sem outros nem nada mais; exclusivamente, apenas."
    ]
   },
+  "opinions": {
+   "lema": "opinion",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(obsoleto) Estima favorável; daí, consideração, reputação, fama."
+   ],
+   "nota": "«Golden opinions» é uma reputação preciosa, de ouro."
+  },
   "or": {
    "lema": "or",
    "classe": "conjunção",
    "def": [
     "Liga pelo menos duas palavras, expressões ou orações alternativas, cada uma das quais poderia tornar verdadeira a passagem."
    ]
+  },
+  "ornament": {
+   "lema": "ornament",
+   "classe": "substantivo",
+   "def": [
+    "Elemento de decoração; aquilo que enfeita ou adorna; adorno."
+   ],
+   "nota": "«The ornament of life» é «o adorno da vida»: a coroa."
   },
   "other": {
    "lema": "other",
@@ -5387,6 +6136,13 @@
    "classe": "advérbio",
    "def": [
     "Por fora; externamente, na superfície."
+   ]
+  },
+  "over": {
+   "lema": "over",
+   "classe": "preposição",
+   "def": [
+    "Sobre, acima de; expressa relação espacial ou movimento."
    ]
   },
   "overcharged": {
@@ -5470,6 +6226,13 @@
     "Residência oficial de um chefe de Estado ou de outro dignitário, em especial numa monarquia; palácio."
    ]
   },
+  "pale": {
+   "lema": "pale",
+   "classe": "adjetivo",
+   "def": [
+    "(da pele humana) Que tem palidez: cor clara, em especial por doença, choque, susto etc.; pálido."
+   ]
+  },
   "pall": {
    "lema": "pall",
    "classe": "verbo",
@@ -5509,6 +6272,14 @@
     "Aquele que se associa a outro numa atividade ou num interesse comuns; companheiro."
    ],
    "nota": "«Our partner» é Macbeth, que Banquo vê absorto no pensamento."
+  },
+  "pass": {
+   "lema": "pass",
+   "classe": "verbo",
+   "def": [
+    "Mudar de lugar."
+   ],
+   "nota": "Rubrica: «pass over the stage» é «atravessar o palco»."
   },
   "passage": {
    "lema": "passage",
@@ -5576,6 +6347,14 @@
     "Sem par nem igual; incomparável, de qualidade suprema."
    ]
   },
+  "pendent": {
+   "lema": "pendent",
+   "classe": "adjetivo",
+   "def": [
+    "Que pende, balança ou está suspenso."
+   ],
+   "nota": "«Pendent bed» é «leito suspenso»: o ninho que pende do beiral."
+  },
   "pent-house": {
    "lema": "penthouse",
    "classe": "substantivo",
@@ -5623,6 +6402,14 @@
     "(intransitivo) Languir; perder carnes ou definhar por aflição."
    ]
   },
+  "pity": {
+   "lema": "pity",
+   "classe": "substantivo",
+   "def": [
+    "(incontável) Sentimento de simpatia diante da desgraça ou do sofrimento de alguém ou de algo; piedade."
+   ],
+   "nota": "«Pity, like a naked new-born babe» é «a piedade, como um bebê recém-nascido e nu»."
+  },
   "place": {
    "lema": "place",
    "classe": "substantivo",
@@ -5638,6 +6425,14 @@
     "Posição, lugar no espaço."
    ],
    "nota": "«Whose places are the nearest» é «cujos lugares são os mais próximos» do trono."
+  },
+  "plague": {
+   "lema": "plague",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Afligir com uma doença ou outra calamidade; atormentar."
+   ],
+   "nota": "«To plague the inventor» é «atormentar o inventor»."
   },
   "plant": {
    "lema": "plant",
@@ -5655,6 +6450,14 @@
    ],
    "nota": "«Play false» é «agir com falsidade», trapacear."
   },
+  "plead": {
+   "lema": "plead",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Rogar, suplicar, implorar, em especial com emoção."
+   ],
+   "nota": "«Will plead like angels» é «clamarão como anjos»."
+  },
   "pleasant": {
    "lema": "pleasant",
    "classe": "adjetivo",
@@ -5669,6 +6472,14 @@
     "(transitivo) Deixar feliz ou satisfeito; dar prazer a."
    ],
    "nota": "«So please you» é «se vos aprouver», «com a vossa licença»."
+  },
+  "pleasure": {
+   "lema": "pleasure",
+   "classe": "substantivo",
+   "def": [
+    "Estado de quem está contente ou satisfeito; gratificação, prazer."
+   ],
+   "nota": "«At your highness' pleasure» é «ao bel-prazer de Vossa Alteza», quando quiser."
   },
   "plenteous": {
    "lema": "plenteous",
@@ -5700,6 +6511,31 @@
     "Detalhe; item particular."
    ],
    "nota": "«In every point twice done» é «em cada pormenor, feito duas vezes»."
+  },
+  "poison'd": {
+   "lema": "poisoned",
+   "classe": "adjetivo",
+   "forma": "grafia antiga",
+   "def": [
+    "Que contém veneno; venenoso."
+   ],
+   "nota": "«Our poison'd chalice» é «o nosso cálice envenenado»."
+  },
+  "poor": {
+   "lema": "poor",
+   "classe": "adjetivo",
+   "def": [
+    "De baixa qualidade."
+   ],
+   "nota": "«Poor and single business» é «tarefa pobre e frágil», de pouco peso."
+  },
+  "poor#2": {
+   "lema": "poor",
+   "classe": "adjetivo",
+   "def": [
+    "(só antes do substantivo) Digno de pena."
+   ],
+   "nota": "«The poor cat» é «o pobre gato» do provérbio."
   },
   "porter": {
    "lema": "porter",
@@ -5795,6 +6631,14 @@
     "O tempo presente; o momento atual."
    ]
   },
+  "prick": {
+   "lema": "prick",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Furar ou perfurar de leve; picar."
+   ],
+   "nota": "«To prick the sides of my intent» é «picar os flancos do meu propósito», como a espora faz ao cavalo."
+  },
   "prince": {
    "lema": "prince",
    "classe": "substantivo",
@@ -5809,6 +6653,29 @@
    "def": [
     "Qualquer pessoa mantida contra a vontade; prisioneiro."
    ]
+  },
+  "prithee": {
+   "lema": "prithee",
+   "classe": "interjeição",
+   "def": [
+    "(arcaico) Por favor; usado para tornar uma pergunta ou um pedido mais educado ou mais enfático."
+   ],
+   "nota": "Contração de «I pray thee»: «rogo-te»."
+  },
+  "proceed": {
+   "lema": "proceed",
+   "classe": "verbo",
+   "def": [
+    "Mover-se, passar ou ir para a frente; avançar; prosseguir."
+   ]
+  },
+  "procreant": {
+   "lema": "procreant",
+   "classe": "adjetivo",
+   "def": [
+    "Que procria; relativo à procriação."
+   ],
+   "nota": "«Procreant cradle» é o berço onde os filhotes nascem: o ninho."
   },
   "prologues": {
    "lema": "prologue",
@@ -5906,6 +6773,14 @@
    ],
    "nota": "«As he purposes» é «como ele pretende»."
   },
+  "purveyor": {
+   "lema": "purveyor",
+   "classe": "substantivo",
+   "def": [
+    "(obsoleto) Aquele que arranja ou prepara algo; organizador, quem prepara."
+   ],
+   "nota": "«To be his purveyor» é «ser o seu provedor»: ir adiante para preparar a hospedagem."
+  },
   "put": {
    "lema": "put",
    "classe": "verbo",
@@ -5938,6 +6813,14 @@
     "(transitivo) Fazer perguntas a; interrogar."
    ],
    "nota": "«That man may question» é «que um homem possa interrogar»."
+  },
+  "quickly": {
+   "lema": "quickly",
+   "classe": "advérbio",
+   "def": [
+    "Depressa; com rapidez."
+   ],
+   "nota": "«It were done quickly» é «seria bom que se fizesse depressa»."
   },
   "quoth": {
    "lema": "quoth",
@@ -6188,6 +7071,20 @@
    ],
    "nota": "«We rest your hermits» é «seguimos sendo vossos eremitas», isto é, rezamos por vós."
   },
+  "return": {
+   "lema": "return",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Voltar, ir ou vir de volta."
+   ]
+  },
+  "return#2": {
+   "lema": "return",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Devolver, dar de volta."
+   ]
+  },
   "return'd": {
    "lema": "return",
    "classe": "verbo",
@@ -6209,6 +7106,14 @@
    "forma": "plural",
    "def": [
     "(anatomia) Cada um dos ossos longos e curvos que partem da coluna e envolvem o peito; costela."
+   ]
+  },
+  "rides": {
+   "lema": "ride",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(ambitransitivo) Transportar-se sentado num cavalo e dirigindo-o; cavalgar."
    ]
   },
   "robes": {
@@ -6338,6 +7243,14 @@
    "def": [
     "(ambitransitivo) Fazer um gesto em honra de (alguém ou algo); saudar."
    ]
+  },
+  "same": {
+   "lema": "same",
+   "classe": "adjetivo",
+   "def": [
+    "Não diferente nem outro; idêntico."
+   ],
+   "nota": "«To be the same» é «ser o mesmo, o mesmo homem»."
   },
   "save": {
    "lema": "save",
@@ -6584,6 +7497,14 @@
     "O ocaso do sol ou de outro astro; (por extensão) o fim do dia."
    ]
   },
+  "sewer": {
+   "lema": "sewer",
+   "classe": "substantivo",
+   "def": [
+    "(histórico) Oficial encarregado de uma casa principesca, responsável também pela tarefa cerimonial de servir à mesa."
+   ],
+   "nota": "Rubrica: o mestre-sala, que serve os pratos."
+  },
   "seyton": {
    "lema": "Seyton",
    "classe": "nome próprio",
@@ -6631,6 +7552,13 @@
    ],
    "nota": "Nas profecias, não é simples futuro: «thou shalt be king» é «hás de ser rei»."
   },
+  "sharp": {
+   "lema": "sharp",
+   "classe": "adjetivo",
+   "def": [
+    "Que termina em ponta ou gume, em especial que corta ou fura com facilidade; afiado."
+   ]
+  },
   "shine": {
    "lema": "shine",
    "classe": "verbo",
@@ -6652,6 +7580,13 @@
    "forma": "particípio presente",
    "def": [
     "(transitivo) Fazer naufragar; arruinar."
+   ]
+  },
+  "shoal": {
+   "lema": "shoal",
+   "classe": "substantivo",
+   "def": [
+    "Banco de areia que cria um baixio; baixio."
    ]
   },
   "shook": {
@@ -6694,6 +7629,21 @@
     "(intransitivo) Ser visível; aparecer."
    ],
    "nota": "«Show'd like» é «mostrava-se como», «parecia»."
+  },
+  "shut": {
+   "lema": "shut",
+   "classe": "verbo",
+   "def": [
+    "(transitivo ou intransitivo) Fechar, em vários sentidos."
+   ]
+  },
+  "sides": {
+   "lema": "side",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Cada metade (esquerda ou direita, de cima ou de baixo, da frente ou de trás etc.) de algo ou de alguém; lado, flanco."
+   ]
   },
   "sieve": {
    "lema": "sieve",
@@ -6743,6 +7693,13 @@
     "Má ação; falta."
    ],
    "nota": "«The sin of my ingratitude» é «a falta que é a minha ingratidão»."
+  },
+  "since": {
+   "lema": "since",
+   "classe": "advérbio",
+   "def": [
+    "Desde um momento especificado no passado; desde então."
+   ]
   },
   "sinel's": {
    "lema": "Sinel's",
@@ -6831,6 +7788,15 @@
    "def": [
     "Estado natural e periódico de repouso do corpo e da mente, com consciência reduzida; sono."
    ]
+  },
+  "slept": {
+   "lema": "sleep",
+   "classe": "verbo",
+   "forma": "pretérito",
+   "def": [
+    "(intransitivo) Descansar num estado de consciência reduzida; dormir."
+   ],
+   "nota": "«Hath it slept since?» é «dormiu desde então?»."
   },
   "slow": {
    "lema": "slow",
@@ -6934,6 +7900,13 @@
    ],
    "nota": "«Supernatural soliciting» é um incitamento sobrenatural: algo que empurra, que tenta a agir."
   },
+  "sometime": {
+   "lema": "sometime",
+   "classe": "advérbio",
+   "def": [
+    "(obsoleto) Às vezes."
+   ]
+  },
   "son": {
    "lema": "son",
    "classe": "substantivo",
@@ -6947,6 +7920,13 @@
    "forma": "plural",
    "def": [
     "O filho de alguém, do sexo masculino."
+   ]
+  },
+  "soon": {
+   "lema": "soon",
+   "classe": "advérbio",
+   "def": [
+    "Dentro de pouco tempo; depressa."
    ]
   },
   "sooner": {
@@ -6971,6 +7951,14 @@
    "classe": "substantivo",
    "def": [
     "(incontável) Infelicidade, aflição; pesar."
+   ]
+  },
+  "sorts": {
+   "lema": "sort",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Tipo geral; espécie."
    ]
   },
   "sound": {
@@ -7067,6 +8055,28 @@
    ],
    "nota": "«That spring whence comfort seem'd to come» é a nascente de que parecia vir o consolo."
   },
+  "spur": {
+   "lema": "spur",
+   "classe": "substantivo",
+   "def": [
+    "Implemento rígido, fixado ao calcanhar, para picar o cavalo; espora."
+   ]
+  },
+  "spur#2": {
+   "lema": "spur",
+   "classe": "substantivo",
+   "def": [
+    "(figurado) Aquilo que inspira ou motiva, como a espora faz ao cavalo."
+   ],
+   "nota": "«I have no spur to prick the sides of my intent» é «não tenho espora para picar os flancos do meu propósito»."
+  },
+  "stage": {
+   "lema": "stage",
+   "classe": "substantivo",
+   "def": [
+    "(teatro) Plataforma, em geral elevada, sobre a qual se dão espetáculos ou outros eventos públicos; palco."
+   ]
+  },
   "stands": {
    "lema": "stand",
    "classe": "verbo",
@@ -7139,6 +8149,14 @@
    ],
    "nota": "«That is a step on which I must fall down, or else o'erleap» é «esse é um degrau em que hei de cair ou que terei de saltar»."
   },
+  "still": {
+   "lema": "still",
+   "classe": "advérbio",
+   "def": [
+    "(arcaico ou poético) Sempre; invariavelmente; constantemente."
+   ],
+   "nota": "«Which still we thank as love» é «que sempre agradecemos como se fosse afeto»."
+  },
   "stir": {
    "lema": "stir",
    "classe": "substantivo",
@@ -7187,6 +8205,15 @@
     "Pouco familiar, que ainda não faz parte da experiência de alguém."
    ]
   },
+  "striding": {
+   "lema": "stride",
+   "classe": "verbo",
+   "forma": "gerúndio",
+   "def": [
+    "Ficar de pernas muito abertas; montar com as pernas afastadas."
+   ],
+   "nota": "«Striding the blast» é «montando a cavalo no vento»."
+  },
   "strokes": {
    "lema": "stroke",
    "classe": "substantivo",
@@ -7195,6 +8222,14 @@
     "Ato de golpear com uma arma; golpe."
    ]
   },
+  "strong": {
+   "lema": "strong",
+   "classe": "adjetivo",
+   "def": [
+    "(em sentido amplo) Que tem poder, força ou vigor."
+   ],
+   "nota": "«Strong both against the deed» é «forte, em dobro, contra o ato»: com duas razões fortes para recusá-lo."
+  },
   "studied": {
    "lema": "studied",
    "classe": "adjetivo",
@@ -7202,6 +8237,13 @@
     "(datado) Qualificado ou versado pelo estudo; instruído."
    ],
    "nota": "«Had been studied in his death» é «tinha se preparado para a própria morte», como quem a ensaiou."
+  },
+  "subject": {
+   "lema": "subject",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa governada por outra, em especial por um monarca ou autoridade do Estado; súdito."
+   ]
   },
   "substances": {
    "lema": "substance",
@@ -7262,6 +8304,15 @@
     "Acima da natureza; além do natural, ou acrescentado a ele."
    ]
   },
+  "supp'd": {
+   "lema": "sup",
+   "classe": "verbo",
+   "forma": "particípio passado (grafia antiga)",
+   "def": [
+    "(intransitivo) Comer a ceia; cear."
+   ],
+   "nota": "«He has almost supp'd» é «ele quase acabou de cear»."
+  },
   "supplied": {
    "lema": "supply",
    "classe": "verbo",
@@ -7278,6 +8329,14 @@
     "Aquilo que é fornecido; provisão, abastecimento."
    ],
    "nota": "«New supplies of men» são tropas novas, reforços."
+  },
+  "surcease": {
+   "lema": "surcease",
+   "classe": "substantivo",
+   "def": [
+    "Cessação; parada, fim. Pausa, intervalo."
+   ],
+   "nota": "«With his surcease, success» é «com a morte dele, o êxito»."
   },
   "surgeons": {
    "lema": "surgeon",
@@ -7393,6 +8452,50 @@
     "(transitivo) Apreender ou capturar."
    ],
    "nota": "«Takes the reason prisoner» é «prende a razão»."
+  },
+  "taking-off": {
+   "partes": [
+    {
+     "lema": "taking",
+     "classe": "substantivo",
+     "def": [
+      "O ato de tomar."
+     ]
+    },
+    {
+     "lema": "off",
+     "classe": "advérbio",
+     "def": [
+      "Para longe; fora."
+     ]
+    }
+   ],
+   "nota": "«Taking-off» é «o ato de tirar a vida»: a morte de Duncan, aqui o seu assassinato."
+  },
+  "taught": {
+   "lema": "teach",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(bitransitivo) Transmitir conhecimento a; ensinar."
+   ],
+   "nota": "«Which being taught return» é «as quais, depois de ensinadas, voltam» contra quem as ensinou."
+  },
+  "teach": {
+   "lema": "teach",
+   "classe": "verbo",
+   "def": [
+    "(bitransitivo) Transmitir conhecimento a; ensinar."
+   ]
+  },
+  "tears": {
+   "lema": "tear",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Gota de líquido claro e salgado produzida pelos olhos quando se chora ou por irritação; lágrima."
+   ],
+   "nota": "«Tears shall drown the wind» é «as lágrimas afogarão o vento»."
   },
   "tell": {
    "lema": "tell",
@@ -7578,6 +8681,14 @@
    "def": [
     "Que pertence a eles, vem deles ou a eles se refere (plural)."
    ]
+  },
+  "theirs": {
+   "lema": "theirs",
+   "classe": "pronome possessivo",
+   "def": [
+    "O que lhes pertence; o caso possessivo de «they», usado sem substantivo depois."
+   ],
+   "nota": "«Have theirs, themselves, and what is theirs, in compt» é «têm à disposição o que é seu, a si mesmos e o que lhes pertence»."
   },
   "them": {
    "lema": "them",
@@ -8063,12 +9174,28 @@
    ],
    "nota": "«Safe toward your love» é «seguro quanto ao vosso amor»."
   },
+  "towards": {
+   "lema": "toward",
+   "classe": "preposição",
+   "forma": "grafia alternativa («towards»)",
+   "def": [
+    "Em relação a (alguém ou algo)."
+   ]
+  },
   "traitor": {
    "lema": "traitor",
    "classe": "substantivo",
    "def": [
     "Quem viola uma lealdade e trai o seu país; traidor."
    ]
+  },
+  "trammel": {
+   "lema": "trammel",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Emaranhar, como numa rede; prender."
+   ],
+   "nota": "«Trammel up the consequence» é «prender numa rede as consequências», impedi-las."
   },
   "transported": {
    "lema": "transport",
@@ -8101,6 +9228,14 @@
     "(figurado) Coisa de pouca importância ou valor; ninharia."
    ]
   },
+  "trouble": {
+   "lema": "trouble",
+   "classe": "substantivo",
+   "def": [
+    "Dificuldade, problema, condição ou ação que contribui para uma situação aflitiva."
+   ],
+   "nota": "Em «thank us for your trouble», é o incômodo, o trabalho que o hóspede dá."
+  },
   "true": {
    "lema": "true",
    "classe": "adjetivo",
@@ -8108,6 +9243,25 @@
     "Conforme com o fato ou com a realidade; verdadeiro."
    ],
    "nota": "«Speak true» é «dizer a verdade»."
+  },
+  "trumpet-tongued": {
+   "partes": [
+    {
+     "lema": "trumpet",
+     "classe": "substantivo",
+     "def": [
+      "Instrumento musical de metal, da família dos metais; trombeta."
+     ]
+    },
+    {
+     "lema": "tongued",
+     "classe": "adjetivo",
+     "def": [
+      "Que tem uma língua, ou uma fala, de determinado tipo."
+     ]
+    }
+   ],
+   "nota": "«Trumpet-tongued» é «de língua de trombeta»: a voz forte que ressoa e proclama."
   },
   "trust": {
    "lema": "trust",
@@ -8170,6 +9324,13 @@
    "def": null,
    "nota": "Contração de «it were»: o subjuntivo de «be». «As 'twere a careless trifle» é «como se fosse uma ninharia»; «then 'twere well» é «então seria bom»."
   },
+  "twice": {
+   "lema": "twice",
+   "classe": "advérbio",
+   "def": [
+    "Duas vezes."
+   ]
+  },
   "two": {
    "lema": "two",
    "classe": "numeral",
@@ -8222,6 +9383,14 @@
     "(transitivo) Desprender do lugar em que estava fixo."
    ],
    "nota": "«Unfix my hair» é «soltar-me os cabelos»: eriçá-los de horror."
+  },
+  "unmake": {
+   "lema": "unmake",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Destruir ou desmontar; fazer (algo feito) perder a sua natureza; desfazer."
+   ],
+   "nota": "«Does unmake you» é «te desfaz»."
   },
   "unseam'd": {
    "lema": "unseam",
@@ -8353,6 +9522,14 @@
    ],
    "nota": "«Coign of vantage» é o canto, o ponto favorável, bem situado."
   },
+  "vaulting": {
+   "lema": "vaulting",
+   "classe": "adjetivo",
+   "def": [
+    "(figurado) Exagerado ou excessivo; que passa dos limites."
+   ],
+   "nota": "«Vaulting ambition» é a ambição que salta além do alvo, como o cavaleiro que pula demais e passa por cima da sela."
+  },
   "venture": {
    "lema": "venture",
    "classe": "substantivo",
@@ -8398,6 +9575,14 @@
     "Ato de maldade; vilania, perversidade."
    ]
   },
+  "virtues": {
+   "lema": "virtue",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(contável) Atributo de personalidade que predispõe a comportamentos moralmente bons; virtude."
+   ]
+  },
   "visitings": {
    "lema": "visiting",
    "classe": "substantivo",
@@ -8414,6 +9599,14 @@
     "(intransitivo) Retardar o movimento ou a ação até que ocorra um acontecimento ou chegue um momento; permanecer à espera ou de prontidão."
    ],
    "nota": "«Wait on» e «wait upon» são «servir», «estar às ordens de»: «you wait on nature's mischief» é «vós servis ao mal da natureza»."
+  },
+  "wakes": {
+   "lema": "wake",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Fazer alguém parar de dormir; acordar."
+   ]
   },
   "wanton": {
    "lema": "wanton",
@@ -8438,6 +9631,14 @@
    "def": [
     "Usado com o particípio passado de um verbo para formar a voz passiva."
    ]
+  },
+  "was't": {
+   "lema": "was't",
+   "classe": "contração",
+   "def": [
+    "Contração de «was it» (obsoleto)."
+   ],
+   "nota": "«What beast was't» é «que animal foi isso»."
   },
   "water": {
    "lema": "water",
@@ -8475,6 +9676,13 @@
     "Pessoas em geral."
    ],
    "nota": "Aqui «we» é a humanidade, ou o próprio falante, falando de modo geral."
+  },
+  "we'ld": {
+   "lema": "we'ld",
+   "classe": "contração",
+   "wiki": null,
+   "def": null,
+   "nota": "Contração de «we would»: «nós quereríamos, nós havíamos de». «We'ld jump the life to come» é «arriscaríamos a vida futura»."
   },
   "weak": {
    "lema": "weak",
@@ -8637,12 +9845,35 @@
     "(interrogativo) Em, a ou para que lugar."
    ]
   },
+  "where's": {
+   "lema": "where's",
+   "classe": "contração",
+   "def": [
+    "Contração de «where is» («onde está»)."
+   ]
+  },
+  "wherein": {
+   "lema": "wherein",
+   "classe": "conjunção",
+   "def": [
+    "Onde, ou em que lugar."
+   ],
+   "nota": "«Wherein you dress'd yourself» é «em que te vestiste»."
+  },
   "wherever": {
    "lema": "wherever",
    "classe": "conjunção",
    "def": [
     "Independentemente do lugar em, a ou para o qual; onde quer que."
    ]
+  },
+  "wherewith": {
+   "lema": "wherewith",
+   "classe": "advérbio",
+   "def": [
+    "(arcaico) Com o qual, com o que."
+   ],
+   "nota": "«Honours deep and broad wherewith» é «honras profundas e vastas com as quais»."
   },
   "whether": {
    "lema": "whether",
@@ -8946,6 +10177,15 @@
     "Unidade da língua, falada ou escrita, que exprime um sentido; palavra."
    ]
   },
+  "worn": {
+   "lema": "wear",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Trazer sobre o corpo (uma roupa); vestir."
+   ],
+   "nota": "«Would be worn now in their newest gloss» é «convém usá-las agora, no seu brilho mais novo»."
+  },
   "worthiest": {
    "lema": "worthy",
    "classe": "adjetivo",
@@ -9100,6 +10340,13 @@
    "classe": "determinante possessivo",
    "def": [
     "Que pertence a você(s), a ti ou a vós; relativo a você(s)."
+   ]
+  },
+  "yourself": {
+   "lema": "yourself",
+   "classe": "pronome",
+   "def": [
+    "(pronome reflexivo) O seu próprio eu (no singular); a ti mesmo, a você mesmo."
    ]
   }
  },
@@ -9377,6 +10624,7 @@
   "7:34.5": "what#2",
   "7:35.1": "to#2",
   "7:36.2": "to#2",
+  "7:36.3": "return#2",
   "7:38.4": "mine#2",
   "7:38.6": "we#2",
   "7:38.7": "love#2",
@@ -9405,6 +10653,7 @@
   "8:20.7": "that#3",
   "8:24.5": "heaven's#2",
   "8:27.1": "that#3",
+  "8:27.10": "spur#2",
   "8:28.1": "to#2",
   "8:28.8": "but#2",
   "8:32.2": "now#2",
@@ -9417,6 +10666,7 @@
   "8:46.1": "to#2",
   "8:46.6": "thine#2",
   "8:49.6": "thine#2",
+  "8:51.3": "poor#2",
   "8:51.5": "i'",
   "8:52.2": "peace#2",
   "8:53.3": "do#2",

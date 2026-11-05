@@ -16,3 +16,5 @@
 - p. 22, «morreram ali máo estado»: na quebra de linha «máo es-/tado» (provável «em máo estado»; falta «em» no impresso, assim como no voto).
 - p. 25, «Aires Fernandes» (linhas 11–12 do cap.) e «Ayres Fernandes» (l. 'Ouviu isto'): grafias diferentes no próprio impresso; mantidas.
 - p. 27, «dissimuladameute»: no impresso «u» por «n» (dissimuladamente); transcrito como está.
+- p. 28, «reteudo» (por «retendo»/«detido»), «fuão» e «Foão» (para «Fulano/Foão»?): grafias estranhas do impresso, mantidas como estão.
+- p. 30, «sem a deitar em / quanto se representava»: o impresso tem «em» no fim da linha e «quanto» no começo da seguinte, sem hífen (duas palavras); transcrito assim.

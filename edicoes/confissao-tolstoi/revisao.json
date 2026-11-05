@@ -1,0 +1,169 @@
+{
+ "id": "confissao",
+ "rotulo": "Confissão (Liev Tolstói)",
+ "url": "/biblioteca/liev-tolstoi/confissao/",
+ "escolhas": [
+  {
+   "id": "titulo",
+   "titulo": "O título fica «Confissão», sem artigo?",
+   "ref": "título",
+   "contexto": "Em russo, «Исповедь» (o russo não tem artigo). Em português circulam «Confissão» e «Uma confissão» (como o inglês «A Confession», de Maude). A palavra é a mesma do sacramento, que o livro discute.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Confissão»",
+     "nota": "Seco, como o russo; ecoa o sacramento e as *Confissões* de Agostinho sem se confundir com elas.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Uma confissão»",
+     "nota": "Mais modesto, como as traduções inglesas; perde o eco do sacramento."
+    }
+   ]
+  },
+  {
+   "id": "frances",
+   "titulo": "A frase francesa da tia (cap. II) fica em francês, com a tradução entre colchetes?",
+   "ref": "cap. II, § 1",
+   "contexto": "Tolstói escreve em francês, sem traduzir: «rien ne forme un jeune homme comme une liaison avec une femme comme il faut». A edição russa traduz numa nota. Nossa tradução: “_rien ne forme…_” [“nada forma tanto um rapaz como uma ligação com uma mulher distinta”]. O mesmo se fez com _filioque_ [“e do Filho”] no cap. XV.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Francês em itálico e a tradução entre colchetes, como está",
+     "nota": "Guarda o gosto do francês da aristocracia russa e não deixa o leitor sem entender.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Só a tradução portuguesa, sem o francês",
+     "nota": "Mais corrido; perde o detalhe de que a tia falava francês."
+    },
+    {
+     "id": "c",
+     "texto": "Só o francês, sem tradução",
+     "nota": "Como Tolstói; o leitor que não sabe francês fica sem a frase."
+    }
+   ]
+  },
+  {
+   "id": "rabov",
+   "titulo": "«рабов» fica «escravos» (cap. II)?",
+   "ref": "cap. II, § 1; também «escravo de Salomão» (VII) e «velho escravo» (XIII)",
+   "contexto": "A tia queria que ele se casasse com uma moça rica e tivesse «как можно больше рабов». Tolstói não diz «крепостных» (servos da gleba), a palavra jurídica, mas «рабов», escravos: é de propósito. Maude traduz «serfs».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o maior número possível de escravos», como está",
+     "nota": "A palavra dura que Tolstói escolheu.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o maior número possível de servos»",
+     "nota": "Mais exato historicamente, mas suaviza o que o autor quis dizer."
+    }
+   ]
+  },
+  {
+   "id": "mujique",
+   "titulo": "«мужик» fica «camponês»?",
+   "ref": "caps. II, IV, X, XIV, XV",
+   "contexto": "Tolstói chama assim os camponeses russos («проедал труды мужиков» — «devorei o trabalho dos camponeses»; «безграмотного мужика странника» — «um camponês peregrino, analfabeto»). Em português existe «mujique», que guarda a cor russa, mas é palavra que poucos leitores conhecem.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«camponês», como está",
+     "nota": "Claro para todos; segue a regra de não usar palavra rara.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«mujique», com nota no vocabulário",
+     "nota": "Guarda a cor local; pede a nota a cada vez."
+    }
+   ]
+  },
+  {
+   "id": "suieta",
+   "titulo": "«суета» fica «vaidade» («Vaidade das vaidades, tudo é vaidade»)?",
+   "ref": "cap. VI (Salomão) e todo o livro",
+   "contexto": "Tolstói cita o Eclesiastes na tradução russa («Суета сует… всё суета»), e a palavra volta no resto do livro («суета жизни», «a vaidade da vida»). «Vaidade» é a palavra tradicional das Bíblias portuguesas (do latim *vanitas*), no sentido de coisa vã, não de orgulho. Junto dela, «томление духа» ficou «aflição de espírito».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«vaidade», como está",
+     "nota": "A forma consagrada da frase; o contexto mostra que é o vão, o vazio.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«ilusão»: «Ilusão das ilusões, tudo é ilusão»",
+     "nota": "Mais claro hoje, mas a frase célebre fica irreconhecível."
+    },
+    {
+     "id": "c",
+     "texto": "«vazio»: «Vazio dos vazios, tudo é vazio»",
+     "nota": "Próximo do hebraico (*hével*, sopro), mas estranho e longe do russo."
+    }
+   ]
+  },
+  {
+   "id": "deus-1-e-3",
+   "titulo": "«Это Бог 1 и 3, это творение в 6 дней» fica com os algarismos?",
+   "ref": "cap. VIII, § 5",
+   "contexto": "Ao dizer qual é a fé que não podia aceitar, Tolstói escreve os números em algarismos, com secura de quem enumera: «Это Бог 1 и 3, это творение в 6 дней, дьяволы и ангелы». Nossa tradução: «É Deus, 1 e 3, é a criação em 6 dias, os diabos e os anjos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«É Deus, 1 e 3, é a criação em 6 dias», como está",
+     "nota": "Guarda o tom seco e um pouco zombeteiro do original.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«É o Deus uno e trino, é a criação em seis dias»",
+     "nota": "Mais elegante e teológico; perde a secura de Tolstói."
+    }
+   ]
+  },
+  {
+   "id": "voce",
+   "titulo": "Nas falas de Tolstói a si mesmo, «você» (e não «tu»)?",
+   "ref": "caps. III, IV, V, VII, XII e XVI",
+   "contexto": "Tolstói fala consigo mesmo por «ты»: «Ну хорошо, у тебя будет 6000 десятин…» — «Pois bem, você vai ter seis mil dessiatinas…»; «Не нравится тебе жизнь, убей себя» — «Não gosta da vida, mate-se»; e a frase célebre do cap. XII: «Живи, отыскивая Бога, и тогда не будет жизни без Бога» — «Viva buscando a Deus, e então não haverá vida sem Deus». Nas orações a Deus («Senhor, tem piedade, salva-me!») e nas vozes do sonho ficou «tu».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«você», como está",
+     "nota": "Natural no Brasil para a fala interior; o tom fica próximo e vivo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«tu»: «Pois bem, terás seis mil dessiatinas…»; «Não gostas da vida, mata-te»; «Vive buscando a Deus…»",
+     "nota": "Mais solene e mais perto do russo; soa literário e um pouco antigo no monólogo."
+    }
+   ]
+  },
+  {
+   "id": "torba",
+   "titulo": "O ditado «как дурак с писаной торбой» fica «como um bobo com o seu saco pintado»?",
+   "ref": "cap. VII, § 19",
+   "contexto": "«…глупые люди, носящиеся с своею глупостью, как дурак с писаной торбой» — o ditado russo fala do tolo que exibe a toda hora uma sacola enfeitada, coisa sem valor. Nossa tradução: «tolos, que andam com a sua tolice para cima e para baixo como um bobo com o seu saco pintado».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«como um bobo com o seu saco pintado», como está",
+     "nota": "Guarda a imagem russa; o sentido se entende pelo contexto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«como criança com brinquedo novo»",
+     "nota": "Expressão nossa, de sentido parecido (exibir com orgulho); perde a imagem do original."
+    }
+   ]
+  }
+ ]
+}

@@ -392,6 +392,14 @@
    ],
    "nota": "Rubrica: o ator fala «à parte», sem que os outros em cena ouçam."
   },
+  "aside#2": {
+   "lema": "aside",
+   "classe": "advérbio",
+   "def": [
+    "Para um lado, de modo a ficar fora do caminho; à parte."
+   ],
+   "nota": "«Cast aside» é «posto de lado», descartado."
+  },
   "ask'd": {
    "lema": "ask",
    "classe": "verbo",
@@ -954,6 +962,14 @@
    "def": [
     "Cada um dos dois, ou dos dois tipos."
    ]
+  },
+  "both#2": {
+   "lema": "both",
+   "classe": "conjunção",
+   "def": [
+    "Incluindo ambos (usado com «and»)."
+   ],
+   "nota": "«Both of thanks and payment» é «tanto de agradecimento quanto de pagamento»."
   },
   "bought": {
    "lema": "buy",
@@ -2306,7 +2322,6 @@
    "lema": "done't",
    "classe": "contração",
    "wiki": null,
-   "def": null,
    "nota": "Contração de «done it»: «feito isso». «That they have done't?» é «que o fizeram?»."
   },
   "door": {
@@ -3548,7 +3563,6 @@
    "lema": "God'ild",
    "classe": "verbo",
    "wiki": null,
-   "def": null,
    "nota": "Forma abreviada de «God yield»: «Deus recompense». «Bid God'ild us» é «pedir a Deus que nos recompense», fórmula de agradecimento."
   },
   "goes": {
@@ -4716,7 +4730,6 @@
    "lema": "Inverness",
    "classe": "nome próprio",
    "wiki": null,
-   "def": null,
    "nota": "Cidade do norte da Escócia; na peça, é onde fica o castelo de Macbeth."
   },
   "invest": {
@@ -5408,7 +5421,6 @@
    "lema": "Macbeth's",
    "classe": "nome próprio",
    "wiki": null,
-   "def": null,
    "nota": "Genitivo de Macbeth, thane de Glamis e de Cawdor, o protagonista. «Macbeth's castle» é o castelo de Macbeth."
   },
   "macdonwald": {
@@ -5653,7 +5665,6 @@
    "classe": "substantivo",
    "forma": "plural",
    "wiki": null,
-   "def": null,
    "nota": "«Men-children» é «filhos varões»: crianças do sexo masculino."
   },
   "menteith": {
@@ -5818,6 +5829,14 @@
    "def": [
     "Em maior número ou quantidade; mais."
    ]
+  },
+  "more#2": {
+   "lema": "more",
+   "classe": "advérbio",
+   "def": [
+    "Em maior grau ou extensão; mais."
+   ],
+   "nota": "«So much more the man» é «tanto mais homem»."
   },
   "morrow": {
    "lema": "morrow",
@@ -9067,6 +9086,13 @@
    ],
    "nota": "Depois de «till», «that» só reforça a conjunção: «till that» é «até que»."
   },
+  "that#6": {
+   "lema": "that",
+   "classe": "determinante",
+   "def": [
+    "(demonstrativo) O (a coisa, pessoa, ideia etc.) indicado ou entendido pelo contexto, em especial se mais remoto, no espaço, no tempo ou no pensamento, do que aquele designado por «this»; aquele, aquela."
+   ]
+  },
   "that's": {
    "lema": "that's",
    "classe": "contração",
@@ -9274,7 +9300,6 @@
    "lema": "thou'ldst",
    "classe": "contração",
    "wiki": null,
-   "def": null,
    "nota": "Contração de «thou wouldest»: o «tu» com o verbo no pretérito de «will». «Thou'ldst have» é «tu quererias ter»."
   },
   "thou'rt": {
@@ -9736,7 +9761,6 @@
    "lema": "'twere",
    "classe": "contração",
    "wiki": null,
-   "def": null,
    "nota": "Contração de «it were»: o subjuntivo de «be». «As 'twere a careless trifle» é «como se fosse uma ninharia»; «then 'twere well» é «então seria bom»."
   },
   "twice": {
@@ -9780,7 +9804,6 @@
    "lema": "under't",
    "classe": "contração",
    "wiki": null,
-   "def": null,
    "nota": "Contração de «under it»: «debaixo dela». «Be the serpent under't» é «sê a serpente debaixo dela» (da flor)."
   },
   "understand": {
@@ -10069,6 +10092,15 @@
     "Usado com o particípio passado de um verbo para formar a voz passiva."
    ]
   },
+  "was#3": {
+   "lema": "be",
+   "classe": "verbo auxiliar",
+   "forma": "pretérito do indicativo, 1ª e 3ª pessoas do singular",
+   "def": [
+    "Usado com o particípio presente de um verbo para formar o aspecto contínuo."
+   ],
+   "nota": "«While it was smiling» é «enquanto sorria»."
+  },
   "was't": {
    "lema": "was't",
    "classe": "contração",
@@ -10126,7 +10158,6 @@
    "lema": "we'ld",
    "classe": "contração",
    "wiki": null,
-   "def": null,
    "nota": "Contração de «we would»: «nós quereríamos, nós havíamos de». «We'ld jump the life to come» é «arriscaríamos a vida futura»."
   },
   "we'll": {
@@ -10221,7 +10252,6 @@
    "lema": "were't",
    "classe": "contração",
    "wiki": null,
-   "def": null,
    "nota": "Contração de «were it»: «se fosse». «Who, were't so» é «o qual, se fosse assim»."
   },
   "western": {
@@ -10923,6 +10953,7 @@
   "4:115.1": "for#2",
   "4:116.1": "what#4",
   "4:119.1": "who#3",
+  "4:120.6": "that#6",
   "4:121.4": "to#2",
   "4:121.8": "was#2",
   "4:123.7": "that#5",
@@ -10932,7 +10963,9 @@
   "4:132.3": "home#2",
   "4:135.3": "to#2",
   "4:137.6": "to#2",
+  "4:141.1": "as#3",
   "4:141.7": "act#2",
+  "4:147.8": "that#6",
   "4:149.2": "make#2",
   "4:150.3": "use#2",
   "4:150.5": "nature#2",
@@ -10968,11 +11001,13 @@
   "5:23.1": "that#3",
   "5:24.1": "to#2",
   "5:25.1": "that#4",
+  "5:25.4": "both#2",
   "5:26.2": "have#2",
   "5:26.7": "have#2",
   "5:26.9": "to#2",
   "5:30.2": "to#2",
   "5:31.6": "state#2",
+  "5:32.2": "do#2",
   "5:32.3": "but#3",
   "5:32.4": "what#2",
   "5:33.2": "toward#2",
@@ -10991,8 +11026,9 @@
   "5:46.1": "we#2",
   "5:46.4": "our#2",
   "5:47.1": "our#2",
-  "5:47.3": "name#2",
+  "5:47.3": "malcolm",
   "5:47.5": "we#2",
+  "5:47.6": "name#2",
   "5:48.6": "honour#2",
   "5:53.4": "labour#2",
   "5:54.7": "make#2",
@@ -11060,6 +11096,8 @@
   "6:60.4": "hold#2",
   "6:64.3": "have#2",
   "6:65.3": "present#2",
+  "6:69.2": "when#2",
+  "6:72.3": "that#6",
   "6:73.10": "men#2",
   "6:74.5": "to#2",
   "6:74.8": "time#2",
@@ -11068,7 +11106,7 @@
   "6:76.5": "look#2",
   "6:77.8": "coming#2",
   "6:80.9": "to#2",
-  "6:82.1": "we#2",
+  "6:82.1": "we",
   "6:83.2": "look#2",
   "6:84.1": "to#2",
   "6:84.3": "favour#2",
@@ -11108,7 +11146,7 @@
   "8:3.8": "then#2",
   "8:3.10": "well#2",
   "8:6.4": "success#2",
-  "8:6.5": "that#5",
+  "8:6.5": "that#4",
   "8:6.6": "but#3",
   "8:6.8": "blow#2",
   "8:9.5": "to#2",
@@ -11134,6 +11172,7 @@
   "8:33.6": "have#2",
   "8:33.8": "left#2",
   "8:37.9": "have#2",
+  "8:40.3": "aside#2",
   "8:43.5": "to#2",
   "8:43.6": "look#2",
   "8:44.2": "what#2",
@@ -11155,6 +11194,7 @@
   "8:57.6": "then#2",
   "8:58.2": "to#2",
   "8:58.6": "what#2",
+  "8:59.4": "more#2",
   "8:60.5": "yet#2",
   "8:61.2": "have#2",
   "8:61.6": "that#5",
@@ -11162,6 +11202,7 @@
   "8:63.4": "to#2",
   "8:63.5": "love#2",
   "8:63.8": "that#2",
+  "8:64.5": "was#3",
   "8:65.1": "have#2",
   "8:66.8": "so#2",
   "8:67.1": "have#2",

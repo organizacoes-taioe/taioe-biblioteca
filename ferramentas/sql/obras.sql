@@ -1175,6 +1175,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('jean-de-la-fontaine/les-animaux-malades-de-la-peste', 'Les Animaux malades de la peste'),
   ('john-donne/death-be-not-proud', 'Death, be not proud'),
   ('john-keats/to-autumn', 'To Autumn'),
+  ('john-milton/paradise-lost-i', 'Book I'),
   ('jorge-manrique/coplas-por-la-muerte-de-su-padre', 'Coplas por la muerte de su padre'),
   ('jose-de-alencar/iracema', 'Iracema'),
   ('jose-marti/cultivo-una-rosa-blanca', 'Cultivo una rosa blanca'),

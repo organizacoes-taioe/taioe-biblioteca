@@ -49,6 +49,26 @@ Seguem o guia e as `notas-III-1-5.md` (Biblioteca, curadores, «em Filadélfia»
   expressão crua de Franklin).
 - *scamper'd* → «deu no pé»; *lumber* → «tralha»; *Who would have thought it?* → «Quem diria?».
 
+## III.8
+
+- *commission* (ao comandante) → «comissão»; *blank commissions for officers* → «patentes de oficial em
+  branco»; *our commissions were… broken* → «as nossas patentes logo se quebraram» (guarda o jogo com os
+  vidros quebrados do aparelho elétrico, *brittle*).
+- *stockade* → «paliçada»; *palisades* → «estacas»; *loopholes* → «seteiras» (no forte), «aberturas» (nos
+  dormitórios); *stage of boards* → «estrado de tábuas»; *swivel gun* → «canhão giratório»; *perch* (da
+  carroça) → «longarina»; *the bodys* → «a caixa»; *gun locks* → «fechos das espingardas»; *priming* →
+  «escorva»; *saw-mill* → «serraria»; *hutted ourselves* → «fizemos cabanas».
+- *gill of rum* → «um _gill_ de rum» (a medida fica, como manda o guia; vai ao vocabulário: ¼ de pinto,
+  pouco mais de 0,1 litro). *steward of the rum* → «despenseiro do rum». *mate* → «imediato»; *scour the
+  anchor* → «arear a âncora».
+- *captains, lieutenants, and ensigns* → «capitães, tenentes e alferes»; *brass field-pieces* → «peças de
+  campanha de bronze»; *rounds* → «salvas»; *colonelship* → «posto de coronel».
+- *Bethlehem*, *Gnadenhut* (*Gnaden*), *the Minisink*, *Lower Ferry* ficam; *the bishop, Spangenberg* → «o
+  bispo Spangenberg»; *Dr. B.* → «o dr. B.».
+- Morávios: *elders of his class* → «os anciãos da sua classe»; *elder ladies* → «as senhoras mais velhas»;
+  *by lot* → «por sorteio», «a sorte»; *hautboys* → «oboés». O informante a Franklin: você.
+- *went on swimmingly* → «ia de vento em popa»; *blood royal* → «sangue real».
+
 ## Candidatos a decisão para o Gere
 
 1. O jogo racial de Morris e Franklin (III.6, *government of blacks… negrofied*): tradução literal
@@ -56,3 +76,5 @@ Seguem o guia e as `notas-III-1-5.md` (Biblioteca, curadores, «em Filadélfia»
    seria censura e perderia a piada que sustenta a resposta de Franklin).
 2. *bought servants* (III.7): «criados comprados» (recomendada, crua como Franklin) × «servos de
    contrato» (mais exata para o leitor de hoje, mas explica o que ele não explica).
+3. *gill of rum* (III.8): «um _gill_ de rum» (recomendada, pelo guia: medidas sem converter, com o
+   vocabulário) × «uma dose de rum» (mais legível, perde a medida).

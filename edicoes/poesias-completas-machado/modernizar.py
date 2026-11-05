@@ -142,7 +142,7 @@ MANUAL = {
     'Ciceronica': 'Ciceroniana', 'Cassange': 'Cassange', 'iriado': 'iriado', 'pagé': 'pajé', 'pagés': 'pajés',
     'Pœstum': 'Pesto', 'Scamandro': 'Escamandro', 'Sciancato': 'Sciancato', 'agra': 'agra', 'perduravel': 'perdurável',
     'Revivirião': 'Reviviriam', 'Pallejou': 'Palejou', 'Romeos': 'Romeus', 'Lenora': 'Lenora', 'cherubim': 'querubim',
-    'prantêe': 'pranteie', 'Viram': 'Viram', 'contrahido': 'contraído', 'augmentos': 'aumentos', 'ó': 'ó', 'Ó': 'Ó', 'ô': 'ô', 'affouta': 'afoita', 'affouto': 'afoito', 'almanach': 'almanaque', 'archiduqueza': 'arquiduquesa',
+    'prantêe': 'pranteie', 'Asia': 'Ásia', 'cenho': 'cenho', 'doces': 'doces', 'paes': 'pais', 'paços': 'paços', 'Poe': 'Poe', 'roaz': 'roaz', 'viuvez': 'viuvez', 'heis': 'haveis', 'Un': 'Un', 'vieux': 'vieux', 'pays': 'pays', 'cubica': 'cobiça', 'camera': 'câmara', 'viuves': 'viuvez', 'soes': 'sóis', 'sóes': 'sóis', 'viúves': 'viuvez', 'câmera': 'câmara', 'dôces': 'doces', 'dôce': 'doce', 'cubiça': 'cobiça', 'voluvel': 'volúvel', 'desdem': 'desdém', 'nayras': 'nairas', 'Le': 'Le', 'Viram': 'Viram', 'contrahido': 'contraído', 'augmentos': 'aumentos', 'ó': 'ó', 'Ó': 'Ó', 'ô': 'ô', 'affouta': 'afoita', 'affouto': 'afoito', 'almanach': 'almanaque', 'archiduqueza': 'arquiduquesa',
     'azues': 'azuis', 'Azues': 'Azuis', 'bemvinda': 'bem-vinda', 'Chapeo': 'Chapéu', 'Chimera': 'Quimera', 'chimera': 'quimera',
     'chimeras': 'quimeras', 'Chr': 'Chr', 'craneo': 'crânio', 'creada': 'criada', 'creado': 'criado', 'Creador': 'Criador',
     'creador': 'criador', 'creadora': 'criadora', 'creança': 'criança', 'creanças': 'crianças', 'creatura': 'criatura',
@@ -181,7 +181,7 @@ FICAM = {'val', 'inda', 'té', "co'a", "co'as", "co'o", "co'os", "minh'alma", "d
          "tu'alma", "d'oiro", "d'ouro", 'mui', 'assaz', 'hi', 'despareceu', 'desparecêra', 'entregalh', 'esquivo',
          'n', 'd', 'lh', 'm'}
 # contrações com apóstrofo que têm forma de hoje
-JUNTAR = {"n'um": 'num', "n'uma": 'numa', "n'uns": 'nuns', "n'umas": 'numas', "d'ella": 'dela', "d'ellas": 'delas',
+JUNTAR = {"c'rôa": "c'roa", "c′rôa": "c'roa", "n'um": 'num', "n'uma": 'numa', "n'uns": 'nuns', "n'umas": 'numas', "d'ella": 'dela', "d'ellas": 'delas',
           "d'elle": 'dele', "d'elles": 'deles', "n'ella": 'nela', "n'elle": 'nele', "n'ellas": 'nelas', "n'elles": 'neles',
           "d'aquelle": 'daquele', "d'aquella": 'daquela', "d'aquelles": 'daqueles', "d'aquellas": 'daquelas',
           "outr'ora": 'outrora', "n'esta": 'nesta', "n'este": 'neste', "n'essa": 'nessa', "n'esse": 'nesse',
@@ -204,7 +204,7 @@ SEM_ACENTO_FICA = {'e', 'a', 'o', 'as', 'os', 'para', 'pelo', 'pela', 'pelos', '
     'de', 'se', 'que', 'nos', 'vos', 'mas', 'mais', 'tem', 'vem', 'sede', 'seria', 'serie', 'pais', 'sabia', 'secretaria',
     'baba', 'fora', 'cara', 'mesa', 'nu', 'so', 'da', 'das', 'do', 'dos', 'ha', 'la', 'ja', 'esse', 'essa', 'ate', 'ser',
     'contem', 'retem', 'provem', 'detem', 'mantem', 'obtem', 'sustem', 'vis', 'nem', 'em', 'dia', 'agua', 'maria',
-    'fulgura', 'pratica', 'sabias', 'sois', 'varia', 'dois', 'leu', 'magoa', 'magoas', 'doidas', 'doida', 'doido', 'doidos', 'cupido', 'saia', 'saiam', 'caia', 'caiam', 'raia', 'sai', 'cai', 'pais', 'ai', 'ali', 'aqui', 'secretarias'}
+    'fulgura', 'reis', 'tempera', 'pratica', 'sabias', 'sois', 'varia', 'dois', 'leu', 'magoa', 'magoas', 'doidas', 'doida', 'doido', 'doidos', 'cupido', 'saia', 'saiam', 'caia', 'caiam', 'raia', 'sai', 'cai', 'pais', 'ai', 'ali', 'aqui', 'secretarias'}
 _LEX = None
 _IDX = None
 _ACENTO = None
@@ -217,7 +217,7 @@ def lexico():
         lex = set()
         for w in open('/usr/share/dict/brazilian', encoding='utf-8'):
             w = w.strip()
-            if w:
+            if w and w[:1].islower():   # os nomes próprios (Bello, Paes, Victoria) ficam fora
                 lex.add(ao1990(w).lower())
         for f in []:   # os .js do Machado trazem grafias antigas (originais, «Sobre»): fora do léxico
             if f.endswith('poesia.js'):
@@ -279,8 +279,8 @@ def palavra(w):
     if a in lex:
         # a grafia de 1901 não acentuava as proparoxítonas nem muitas paroxítonas: «ultimo» é «último», salvo
         # as palavras de dois sentidos comuns (duvida, pratica…), que ficam e vão para o relatório
-        if a == sem_acento(a) and _ACENTO.get(a) and a not in SEM_ACENTO_FICA:
-            ac = [x for x in _ACENTO[a] if not re.search(r'[àâêô]', x) and re.search(r'[áéíóúâêô][^aeiouáéíóú]*[aeiou]', x)]
+        if a == sem_acento(a) and _ACENTO.get(a) and a not in SEM_ACENTO_FICA and not re.search(r'[aei]reis$', a):
+            ac = [x for x in _ACENTO[a] if not re.search(r'[à]', x) and re.search(r'[áéíóúâêô][^aeiouáéíóú]*[aeiou]', x)]
             if len(ac) == 1:
                 return igualar_caixa(w, ac[0]), 'acento'
             if ac:
@@ -406,7 +406,7 @@ def arquivo(pid, rel):
         m = re.match(r'^# (\w+):? ?(.*)$', l)
         if m:
             k, v = m.group(1), m.group(2)
-            if k in ('nota',) or (k == 'epigrafe' and v.startswith(EPIGRAFES_FORA)):
+            if k in ('nota',) or (k == 'epigrafe' and v.lstrip('_').startswith(EPIGRAFES_FORA)):
                 out.append(l); continue
             if k == 'epigrafe' and '(' in v:   # o autor citado entre parênteses também se atualiza
                 pass

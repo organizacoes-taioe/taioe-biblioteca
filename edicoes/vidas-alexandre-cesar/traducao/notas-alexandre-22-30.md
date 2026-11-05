@@ -25,7 +25,8 @@
 - τύχη: 26.7 «a fortuna, cedendo aos seus empreendimentos»; 30.4 e 30.6 «a fortuna dos persas» (minúscula; Dario
   não a personifica como deusa).
 - νέμεσις (30.7) → «a vingança divina»; μῆνις καὶ νέμεσις em 13.3 → «a cólera e a vingança».
-- ἄριστον / δεῖπνον (22.5, 23.2) → almoço / jantar; ὀλιγαριστία → «um almoço leve».
+- ἄριστον / δεῖπνον (22.5, 23.2, 32.1) → desjejum / jantar (o ἄριστον é a refeição da manhã; «almoço»
+  confundiria); ὀλιγαριστία → «um desjejum leve».
 - συνουσιάζειν (22.3) → «a união carnal».
 
 ## Passagens
@@ -64,7 +65,7 @@
   um homem jovem com a mulher do inimigo, para chegar a honrá-la tanto?».
 
 ## Ditos
-- 22.5: «para o almoço, uma marcha noturna; para o jantar, um almoço leve».
+- 22.5: «para o desjejum, uma marcha noturna; para o jantar, um desjejum leve».
 - 25.5: «Mandamos-te incenso e mirra em abundância, para que deixes de ser mesquinho com os deuses.»
 - 28.2: «Isto que escorre, amigos, é sangue, e não ‘o icor…’»; «…porque vês peixes postos nas mesas, e não cabeças de
   sátrapas».

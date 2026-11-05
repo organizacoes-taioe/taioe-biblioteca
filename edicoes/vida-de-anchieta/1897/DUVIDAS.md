@@ -11,3 +11,6 @@
 - p. 17: no rodapé há a marca de caderno «A. B. N.» e «2» (assinatura tipográfica); não transcrita.
 - p. 18, «aqual acha-/ram»: no impresso «aqual» junto (por «a qual»); transcrito como está.
 - p. 21, «devaçaõ»: no impresso o til está sobre o «o» (devaçaõ); transcrito como está.
+- p. 24, «Irmaõ:»: til sobre o «o» no impresso; transcrito como está.
+- p. 24, «fazer fazer» (duas vezes: «iriam fazer fazer», «foram fazer fazer uma pescaria»): repetição no impresso, provável erro de composição; transcrito como está.
+- p. 22, «morreram ali máo estado»: na quebra de linha «máo es-/tado» (provável «em máo estado»; falta «em» no impresso, assim como no voto).

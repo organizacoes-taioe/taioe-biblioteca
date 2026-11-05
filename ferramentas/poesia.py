@@ -48,7 +48,9 @@ OBRAS_PROPRIAS = {
     # das Panóplias, só as 12 de 1902: a 13ª (Para a Rainha Dona Amélia) é posterior e fica entre os avulsos
     'bilac': tuple('panoplias--%02d-' % n for n in range(1, 13)) + ('via-lactea--', 'sarcas-de-fogo--', 'alma-inquieta--', 'as-viagens--',
               'cacador-de-esmeraldas--'),   # edicoes/poesias-de-olavo-bilac/montar.py (02/11/2026)
-    'fernando-pessoa': ('mensagem--',),   # edicoes/mensagem/montar.py (02/11/2026)
+    'fernando-pessoa': ('mensagem--',   # edicoes/mensagem/montar.py (02/11/2026)
+                        # os 4 do Guardador de Rebanhos (I, II, XXXIV, III): edicoes/o-guardador-de-rebanhos/montar.py (05/11/2026)
+                        'alberto-caeiro--01-', 'alberto-caeiro--02-', 'alberto-caeiro--03-', 'alberto-caeiro--06-'),
     'goncalves-dias': ('primeiros-cantos--',),   # edicoes/primeiros-cantos/montar.py (02/11/2026)
     'cruz-e-sousa': ('broqueis--',),   # edicoes/broqueis/montar.py (02/11/2026)
     'alvares-de-azevedo': ('lira-dos-vinte-anos--',),   # edicoes/lira-dos-vinte-anos/montar.py (02/11/2026)

@@ -1,0 +1,601 @@
+{
+ "verbetes": {
+  "wrought": {
+   "lema": "work",
+   "classe": "verbo",
+   "forma": "passado (arcaico)",
+   "def": [
+    "Fazer funcionar, produzir ou acontecer; causar."
+   ],
+   "nota": "«Wrought our fall»: causou, provocou a nossa queda. É o passado antigo de «work», que ainda sobrevive em frases como «wrought havoc»."
+  },
+  "provoke": {
+   "lema": "provoke",
+   "classe": "verbo",
+   "def": [
+    "Provocar uma reação."
+   ],
+   "nota": "«Not either to provoke, or dread / New war provoked»: nem provocar uma nova guerra, nem temê-la depois de provocada. Aqui «provocar» é desafiar, incitar ao combate."
+  },
+  "provoked": {
+   "lema": "provoke",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "Provocar uma reação."
+   ],
+   "nota": "«New war provoked»: guerra nova, provocada (por outros ou por nós)."
+  },
+  "close": {
+   "lema": "close",
+   "classe": "adjetivo",
+   "def": [
+    "(obsoleto) Fora do alcance da observação; retirado, secreto, oculto."
+   ],
+   "nota": "«Close design» é um plano secreto, feito às ocultas; no v. 795, «close recess» é o recinto retirado, sem testemunhas."
+  },
+  "design": {
+   "lema": "design",
+   "classe": "substantivo",
+   "def": [
+    "Intenção ou trama."
+   ],
+   "nota": "«To work in close design»: agir com um plano secreto, uma intriga, por fraude e astúcia."
+  },
+  "effected": {
+   "lema": "effect",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Fazer ou levar a efeito; realizar."
+   ],
+   "nota": "«What force effected not»: aquilo que a força não conseguiu realizar."
+  },
+  "overcomes": {
+   "lema": "overcome",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Vencer, levar a melhor sobre; prevalecer contra (em batalha, disputa etc.)."
+   ]
+  },
+  "produce": {
+   "lema": "produce",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Gerar, dar à luz, produzir."
+   ],
+   "nota": "«Space may produce new Worlds»: o espaço pode gerar mundos novos."
+  },
+  "worlds": {
+   "lema": "world",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(contável) Um reino distinto, que pode conter objetos ou habitantes; um planeta, sobretudo habitado ou habitável."
+   ],
+   "nota": "Os «new Worlds» de que se fala no Céu são a Terra e o universo que Deus vai criar."
+  },
+  "whereof": {
+   "lema": "whereof",
+   "classe": "conjunção",
+   "def": [
+    "(formal) De que; do qual."
+   ],
+   "nota": "«Whereof so rife / There went a fame»: sobre o que corria, tão espalhado, um rumor no Céu."
+  },
+  "rife": {
+   "lema": "rife",
+   "classe": "adjetivo",
+   "def": [
+    "Difundido, comum, corrente (sobretudo de coisas desagradáveis ou nocivas)."
+   ],
+   "nota": "«So rife»: tão espalhado, tão corrente. Qualifica o rumor («fame») que circulava no Céu."
+  },
+  "went": {
+   "lema": "go",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Mover-se, de modo físico ou em sentido abstrato."
+   ],
+   "nota": "«There went a fame in Heaven»: corria no Céu um rumor. O verbete dá o mesmo uso em «o boato correu pela cidade» (the rumour went all around town)."
+  },
+  "fame": {
+   "lema": "fame",
+   "classe": "substantivo",
+   "def": [
+    "(agora raro) Algo dito ou contado; boato, rumor."
+   ],
+   "nota": "«A fame in Heaven that he… Intended to create»: um rumor no Céu de que Ele pretendia criar. É o sentido latino de «fama» como notícia que corre, e não de celebridade."
+  },
+  "fame#2": {
+   "lema": "fame",
+   "classe": "substantivo",
+   "def": [
+    "O estado de ser famoso e muito comentado, sobretudo por algo positivo."
+   ],
+   "nota": "«Monuments of fame»: monumentos que dão renome a quem os ergue."
+  },
+  "intended": {
+   "lema": "intend",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Fixar a mente (em algo que se quer realizar); ter o propósito de."
+   ],
+   "nota": "«He… Intended to create»: Ele tinha o propósito de criar."
+  },
+  "create": {
+   "lema": "create",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Fazer existir; (especialmente, de um deus) fazer existir a partir do nada."
+   ]
+  },
+  "therein": {
+   "lema": "therein",
+   "classe": "advérbio",
+   "def": [
+    "(pronominal) Nisso; nesse lugar; nele, nela."
+   ],
+   "nota": "«And therein plant»: e nele (nesse mundo novo) estabelecer."
+  },
+  "plant": {
+   "lema": "plant",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Prover de uma população fixa e organizada; povoar, estabelecer."
+   ],
+   "nota": "«Plant a generation»: instalar, como numa colônia, uma nova raça de seres."
+  },
+  "generation": {
+   "lema": "generation",
+   "classe": "substantivo",
+   "def": [
+    "(agora regional) Raça, família, linhagem."
+   ],
+   "nota": "«A generation»: uma nova raça de criaturas, o gênero humano."
+  },
+  "regard": {
+   "lema": "regard",
+   "classe": "substantivo",
+   "def": [
+    "A preocupação que se tem por outro; estima, apreço."
+   ],
+   "nota": "«Whom his choice regard / Should favour equal to the Sons of Heaven»: a quem a sua escolhida consideração havia de favorecer tanto quanto aos Filhos do Céu. «Regard» é o sujeito de «should favour»."
+  },
+  "favour": {
+   "lema": "favor",
+   "classe": "verbo",
+   "forma": "grafia britânica",
+   "def": [
+    "Olhar com carinho; preferir."
+   ],
+   "nota": "Rege «equal to the Sons of Heaven»: favorecer em grau igual ao dos anjos."
+  },
+  "pry": {
+   "lema": "pry",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Espiar de perto e com curiosidade, sobretudo algo fechado ou não público."
+   ],
+   "nota": "«If but to pry»: nem que seja só para espreitar, para explorar."
+  },
+  "eruption": {
+   "lema": "eruption",
+   "classe": "substantivo",
+   "def": [
+    "Uma liberação súbita de pressão ou tensão."
+   ],
+   "nota": "Aqui, a saída súbita e violenta das legiões do Inferno, como numa sortida militar (do latim «eruptio»)."
+  },
+  "elsewhere": {
+   "lema": "elsewhere",
+   "classe": "advérbio",
+   "def": [
+    "Em, a ou para algum outro lugar."
+   ]
+  },
+  "hold": {
+   "lema": "hold",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Impor restrição; limitar o movimento; confinar, reter."
+   ],
+   "nota": "«Shall never hold / Celestial Spirits in bondage»: nunca reterá em cativeiro os Espíritos celestes."
+  },
+  "bondage": {
+   "lema": "bondage",
+   "classe": "substantivo",
+   "def": [
+    "O estado de ser escravizado; (por extensão) a falta de liberdade."
+   ]
+  },
+  "cover": {
+   "lema": "cover",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Pôr algo sobre ou em cima de algo, para ocultar ou proteger."
+   ],
+   "nota": "«Nor th’ Abyss / Long under darkness cover»: nem o Abismo os cobrirá por muito tempo sob as trevas. Atenção à ordem: «cover» fica depois de «under darkness»."
+  },
+  "counsel": {
+   "lema": "counsel",
+   "classe": "substantivo",
+   "def": [
+    "Troca de opiniões e conselhos; consulta, deliberação."
+   ],
+   "nota": "«Full counsel must mature»: só uma deliberação plena (em conselho) pode amadurecer esses pensamentos."
+  },
+  "mature": {
+   "lema": "mature",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Levar (algo) à maturidade, ao pleno desenvolvimento ou à conclusão."
+   ],
+   "nota": "«These thoughts / Full counsel must mature»: esses pensamentos têm de ser amadurecidos por uma deliberação completa."
+  },
+  "despaired": {
+   "lema": "despair",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo, obsoleto) Abandonar como sem esperança; desesperar de."
+   ],
+   "nota": "«Peace is despaired»: desesperou-se da paz, perdeu-se a esperança de paz. É o uso transitivo antigo, do latim «desperare»."
+  },
+  "think": {
+   "lema": "think",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, com «of») Ter (algo que se considera ou contempla) em mente."
+   ],
+   "nota": "«Who can think submission?»: quem pode cogitar, imaginar a submissão?"
+  },
+  "submission": {
+   "lema": "submission",
+   "classe": "substantivo",
+   "def": [
+    "O ato de submeter-se ou ceder; rendição."
+   ]
+  },
+  "open": {
+   "lema": "open",
+   "classe": "adjetivo",
+   "def": [
+    "Não escondido; evidente, às claras."
+   ],
+   "nota": "«War… Open or understood»: guerra declarada, aberta, ou apenas subentendida (a que se faz por fraude)."
+  },
+  "understood": {
+   "lema": "understood",
+   "classe": "adjetivo",
+   "def": [
+    "Compreendido."
+   ],
+   "nota": "Em «open or understood», é o oposto de «open»: guerra não declarada, apenas entendida, subentendida, tácita."
+  },
+  "resolved": {
+   "lema": "resolve",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Determinar ou decidir um propósito; fixar, assentar."
+   ],
+   "nota": "«Must be resolved»: tem de ser decidida, assentada."
+  },
+  "confirm": {
+   "lema": "confirm",
+   "classe": "verbo",
+   "def": [
+    "Fortalecer; tornar firme ou resoluto."
+   ],
+   "nota": "«To confirm his words»: para firmar, dar força às suas palavras."
+  },
+  "outflew": {
+   "lema": "fly",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(intransitivo) Deslocar-se pelo ar sem contato com o chão; voar."
+   ],
+   "nota": "«Outflew» é «out» + «flew»: saíram voando, voaram para fora. Não é o «outfly» moderno, «voar mais rápido ou mais longe que»."
+  },
+  "swords": {
+   "lema": "sword",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(contável) Arma de lâmina longa, com empunhadura, destinada a cortar, perfurar e golpear."
+   ]
+  },
+  "drawn": {
+   "lema": "draw",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Tirar (uma arma, como uma espada) da bainha ou do coldre; desembainhar."
+   ],
+   "nota": "«Drawn from the thighs»: desembainhadas junto às coxas, onde as espadas ficavam penduradas. Concorda com «swords»."
+  },
+  "thighs": {
+   "lema": "thigh",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "A parte superior da perna, entre o quadril e o joelho."
+   ]
+  },
+  "sudden": {
+   "lema": "sudden",
+   "classe": "adjetivo",
+   "def": [
+    "Que ocorre de repente, com pouco ou nenhum aviso."
+   ]
+  },
+  "blaze": {
+   "lema": "blaze",
+   "classe": "substantivo",
+   "def": [
+    "Fogo, sobretudo de queima rápida, que produz muitas chamas e luz; luz intensa e direta, acompanhada de calor."
+   ],
+   "nota": "«The sudden blaze… illumined Hell»: o clarão repentino das espadas flamejantes iluminou o Inferno."
+  },
+  "illumined": {
+   "lema": "illumine",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo, literário) Lançar luz sobre (algo); iluminar."
+   ]
+  },
+  "grasped": {
+   "lema": "grasp",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "Agarrar, segurar firme, sobretudo com a mão."
+   ],
+   "nota": "«Fierce with grasped arms»: ferozes, de armas empunhadas."
+  },
+  "clashed": {
+   "lema": "clash",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo) Fazer produzir um ruído de choque, como de metais que se batem."
+   ],
+   "nota": "«Clashed on their sounding shields the din of war»: batiam nos escudos sonoros o estrépito da guerra. O objeto («the din of war») vem depois, por inversão."
+  },
+  "sounding": {
+   "lema": "sounding",
+   "classe": "adjetivo",
+   "def": [
+    "Que emite som; sonoro."
+   ],
+   "nota": "«Sounding shields»: escudos que ressoam quando golpeados."
+  },
+  "din": {
+   "lema": "din",
+   "classe": "substantivo",
+   "def": [
+    "Ruído forte; cacofonia ou tumulto barulhento."
+   ]
+  },
+  "hurling": {
+   "lema": "hurl",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "(transitivo) Arremessar (algo) com força.",
+    "(transitivo) Proferir (palavras duras), sobretudo contra o alvo."
+   ],
+   "nota": "«Hurling defiance toward the vault of Heaven»: lançando desafio contra a abóbada do Céu. É o sentido figurado: o desafio é arremessado como projétil."
+  },
+  "defiance": {
+   "lema": "defiance",
+   "classe": "substantivo",
+   "def": [
+    "Resistência aberta e ousada à autoridade ou ao poder; recusa em ceder; desafio."
+   ]
+  },
+  "vault": {
+   "lema": "vault",
+   "classe": "substantivo",
+   "def": [
+    "(figurado) Qualquer coisa que lembre uma estrutura côncava voltada para baixo, em particular as cavernas e o céu ou firmamento."
+   ],
+   "nota": "«The vault of Heaven»: a abóbada celeste, o céu visto como cúpula."
+  },
+  "grisly": {
+   "lema": "grisly",
+   "classe": "adjetivo",
+   "def": [
+    "Horrivelmente repugnante; medonho, aterrador."
+   ],
+   "nota": "«Whose grisly top»: cujo cimo medonho, escuro e ameaçador."
+  },
+  "belched": {
+   "lema": "belch",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo) Expelir ou emitir (algo) com força e ruído espasmódicos."
+   ],
+   "nota": "«Belched fire and rolling smoke»: vomitava fogo e fumo em rolos."
+  },
+  "glossy": {
+   "lema": "glossy",
+   "classe": "adjetivo",
+   "def": [
+    "De superfície lisa, sedosa e reflexiva; brilhante."
+   ]
+  },
+  "scurf": {
+   "lema": "scurf",
+   "classe": "substantivo",
+   "def": [
+    "Qualquer formação em forma de crosta, sobre a pele ou em geral."
+   ],
+   "nota": "«A glossy scurf»: uma crosta lustrosa que cobre o morro; é o sinal da riqueza mineral escondida embaixo."
+  },
+  "undoubted": {
+   "lema": "undoubted",
+   "classe": "adjetivo",
+   "def": [
+    "Sem dúvida; sem contestação; certo."
+   ]
+  },
+  "sign": {
+   "lema": "sign",
+   "classe": "substantivo",
+   "def": [
+    "Fato visível que mostra que algo existe ou pode acontecer; indício, sinal."
+   ],
+   "nota": "«Undoubted sign / That in his womb was hid metallic ore»: indício seguro de que no ventre do monte havia metal oculto."
+  },
+  "womb": {
+   "lema": "womb",
+   "classe": "substantivo",
+   "def": [
+    "(anatomia) Em mamíferos fêmeas, o órgão em que o filhote é concebido e cresce até o nascimento; útero."
+   ],
+   "nota": "Figurado: o «ventre» do monte, o interior da terra que guarda e gera o minério."
+  },
+  "hid": {
+   "lema": "hide",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Pôr (algo) onde fique fora da vista ou mais difícil de descobrir; esconder."
+   ],
+   "nota": "«Was hid»: estava escondido (v. 675); «better hid» (v. 690): que melhor estariam escondidos. «Hid» é o particípio antigo de «hide», hoje «hidden»."
+  },
+  "metallic": {
+   "lema": "metallic",
+   "classe": "adjetivo",
+   "def": [
+    "Feito de metal ou que contém metal."
+   ]
+  },
+  "ore": {
+   "lema": "ore",
+   "classe": "substantivo",
+   "def": [
+    "Rocha ou outro material que contém substâncias valiosas ou úteis, sobretudo o minério de que se extraem metais."
+   ]
+  },
+  "speed": {
+   "lema": "speed",
+   "classe": "substantivo",
+   "def": [
+    "O estado de movimentar-se depressa ou a capacidade de movimento rápido; velocidade."
+   ],
+   "nota": "«Winged with speed»: com asas de pressa, voando veloz."
+  },
+  "numerous": {
+   "lema": "numerous",
+   "classe": "adjetivo",
+   "def": [
+    "Indefinidamente grande em número; muitos."
+   ]
+  },
+  "brigade": {
+   "lema": "brigade",
+   "classe": "substantivo",
+   "def": [
+    "(militar) Unidade militar composta de vários regimentos (ou batalhões)."
+   ]
+  },
+  "hastened": {
+   "lema": "hasten",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(intransitivo) Mover-se ou agir depressa; apressar-se."
+   ]
+  },
+  "bands": {
+   "lema": "band",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Grupo de pessoas unidas de modo frouxo por um propósito comum; bando, tropa."
+   ],
+   "nota": "«Bands of pioneers»: turmas de sapadores, que vão à frente do exército."
+  },
+  "pioneers": {
+   "lema": "pioneer",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(militar) Soldado destacado para abrir estradas, cavar trincheiras e construir pontes à medida que o exército avança; sapador."
+   ],
+   "nota": "Aqui o sentido é o militar, e não o de «pioneiro» moderno."
+  },
+  "spade": {
+   "lema": "spade",
+   "classe": "substantivo",
+   "def": [
+    "Ferramenta de jardim com cabo e lâmina chata, para cavar; pá."
+   ]
+  },
+  "pickaxe": {
+   "lema": "pickaxe",
+   "classe": "substantivo",
+   "def": [
+    "Ferramenta pesada de ferro com cabo de madeira, com uma ponta aguda de um lado da cabeça e uma aresta de cinzel do outro; picareta."
+   ]
+  },
+  "forerun": {
+   "lema": "forerun",
+   "classe": "verbo",
+   "def": [
+    "Correr à frente; preceder."
+   ],
+   "nota": "«Forerun the royal camp»: vão na frente do acampamento do rei."
+  },
+  "royal": {
+   "lema": "royal",
+   "classe": "adjetivo",
+   "def": [
+    "Relativo a um monarca ou à sua família; real."
+   ]
+  },
+  "camp": {
+   "lema": "camp",
+   "classe": "substantivo",
+   "def": [
+    "Base de um grupo militar, não necessariamente temporária; acampamento."
+   ]
+  },
+  "trench": {
+   "lema": "trench",
+   "classe": "verbo",
+   "def": [
+    "(militar) Escavar uma cova longa e estreita para proteger soldados ou equipamento; abrir trincheira."
+   ],
+   "nota": "«To trench a field»: abrir trincheiras em um campo."
+  },
+  "rampart": {
+   "lema": "rampart",
+   "classe": "substantivo",
+   "def": [
+    "Monte de terra ou muro defensivo de topo largo e geralmente com parapeito de pedra; baluarte."
+   ],
+   "nota": "«Cast a rampart»: levantar um baluarte (jogando terra)."
+  },
+  "mammon": {
+   "lema": "Mammon",
+   "classe": "substantivo próprio",
+   "def": [
+    "O desejo de riqueza personificado como espírito mau ou influência maligna."
+   ],
+   "nota": "«Mammon» é o nome aramaico da riqueza (Mateus 6,24; Lucas 16,13); Milton o faz um anjo caído, que guia aqui a mineração."
+  }
+ },
+ "ocorrencias": {
+  "697.7": "fame#2"
+ }
+}

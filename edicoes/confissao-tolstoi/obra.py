@@ -3,7 +3,7 @@
 ROMANOS = 'I II III IV V VI VII VIII IX X XI XII XIII XIV XV XVI'.split()
 
 META = {
-    'id': 'confissao', 'indice': 'nao-ficcao-traducoes', 'autor': 'liev-tolstoi', 'titulo': 'Confissão',
+    'id': 'confissao', 'indice': 'nao-ficcao-traducoes', 'autor': 'liev-tolstoi', 'titulo': 'Confissão', 'subtitulo': 'Introdução a uma obra não publicada',
     'ano': 1882, 'datas': '1879–1882', 'genero': 'Autobiografia',
     'divisao': {'singular': 'capítulo', 'plural': 'capítulos'},
     'traducao': {'lingua': 'russo', 'codigo': 'ru', 'titulo': 'Исповедь'},

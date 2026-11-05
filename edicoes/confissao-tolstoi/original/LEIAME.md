@@ -41,7 +41,7 @@ ectenia), «необъяснимое положение», «свои» (AZ «с
 - As duas notas da edição (a tradução, entre colchetes, da frase francesa do cap. II e de *filioque*
   no cap. XV) saíram: são do editor.
 - O traço que separa, no cap. XVI, o fim do livro da nota de 1882 virou `## * * *`.
-- O título e o subtítulo vão no começo do cap. I, como linhas `## `.
+- O título e o subtítulo («ИСПОВЕДЬ / (Вступление к ненапечатанному сочинению)») não entram no texto: vão no `obra.py` (`titulo`, `subtitulo`).
 - O acento tônico de «что́» (cap. III) fica, como no PSS.
 
 ## Numeração

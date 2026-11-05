@@ -1464,6 +1464,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('machado-de-assis/uma-senhora', 'Uma Senhora'),
   ('machado-de-assis/uma-visita-de-alcibiades', 'Uma Visita de Alcibíades'),
   ('machado-de-assis/verba-testamentaria', 'Verba Testamentária'),
+  ('manuel-antonio-de-almeida/sargento-de-milicias', 'Memórias de um Sargento de Milícias'),
   ('marcial/non-amo-te', 'Non amo te'),
   ('mario-de-andrade/cla-do-jabuti-acalanto-da-pensao-azul', 'Acalanto da Pensão Azul'),
   ('mario-de-andrade/cla-do-jabuti-acalanto-do-seringueiro', 'Acalanto do seringueiro (Dois poemas acreanos, II)'),

@@ -23,3 +23,4 @@
 - p. 34, «que estê en gloria»: no impresso «estê en» (provável «esté em»); transcrito como parece estar impresso.
 - p. 36, «respondeu que era foã»: nome da mártir no impresso («foã», provável «Fulana»/«Joana»); mantido como impresso.
 - p. 36, «Irmã» (maiúscula em «sua Irmã a fazer») no impresso; mantida.
+- p. 38, «cunhado seu»: a vírgula depois de «outro» (acompanhando ao Padre com outro, cunhado seu,) é tinta clara; mantida.

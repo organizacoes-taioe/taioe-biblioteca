@@ -34,7 +34,7 @@ META = {
     'ano': 1928,
     'genero': 'Rapsódia',
     'divisao': {'singular': 'capítulo', 'plural': 'capítulos'},
-    'descricao': 'A «rapsódia» de 1928, o herói da nossa gente do Uraricoera a São Paulo e de volta.',
+    'descricao': 'Rapsódia publicada pelo autor em 1928; Mário a reviu em 1937 e em 1944.',
 }
 
 REFERENCIAS = []
@@ -44,10 +44,10 @@ ARQUIVO_WS = 'Macunaíma (1928).pdf'
 IA = ('or182096', 'or182096_djvu.txt')
 
 # o índice de 1928 (p. 286 do PDF): número, título, página de abertura
-CAPITULOS = [('I', 'Macunaíma'), ('II', 'Maioridade'), ('III', 'Ci, Mãi do Mato'), ('IV', 'Boiuna Luna'),
+CAPITULOS = [('I', 'Macunaíma'), ('II', 'Maioridade'), ('III', 'Ci, Mãi do Mato'), ('IV', 'Boiúna Luna'),
              ('V', 'Piaimã'), ('VI', 'A francesa e o gigante'), ('VII', 'Macumba'), ('VIII', 'Vei, a Sol'),
-             ('IX', 'Carta pras Icamiabas'), ('X', 'Pauí-Pódole'), ('XI', 'As tres Normalistas'),
-             ('XII', 'A velha Ceiucí'), ('XIII', 'Teque-teque, Chupinzão e a Injustiça dos Homens'),
+             ('IX', 'Carta pras Icamiabas'), ('X', 'Pauí-Pódole'), ('XI', 'As três Normalistas'),
+             ('XII', 'A velha Ceiuci'), ('XIII', 'Teque-teque, Chupinzão e a Injustiça dos Homens'),
              ('XIV', 'A piolhenta do Jiguê'), ('XV', 'Muiraquitã'), ('XVI', 'A pacuera de Oibê'),
              ('XVII', 'Uraricoera'), ('XVIII', 'Ursa Maior'), ('Epílogo', '')]
 

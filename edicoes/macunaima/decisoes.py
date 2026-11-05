@@ -68,7 +68,7 @@ MANUAL = {
     'estréias': 'estrelas', 'amaginou': 'imaginou', 'zangai': 'zangar', 'respirada': 'respirava',
     'vetes': 'vezes', 'rufaram': 'rumaram', 'castigando': 'mastigando', 'tucümãs': 'tucumãs',
     'jiguê': 'jiguê', 'jiguè': 'jiguê',
-    'boiuna': 'boiúna', 'querencia': 'querência', 'beijú': 'beiju', 'pajuarí': 'pajuari', 'carurús': 'carurus', 'macurú': 'macuru', 'javarí': 'javari', 'hindú': 'hindu',
+    'té': 'té', 'boiuna': 'boiúna', 'boboiuna': 'boboiúna', 'boiúna': 'boiúna', 'boiúnas': 'boiúnas', 'querencia': 'querência', 'beijú': 'beiju', 'pajuarí': 'pajuari', 'carurús': 'carurus', 'macurú': 'macuru', 'javarí': 'javari', 'hindú': 'hindu',
     'tucuchí': 'tucuxi', 'jamachí': 'jamaxi', 'cachirí': 'cachiri', 'çairê': 'sairê',
 }
 
@@ -84,6 +84,8 @@ CORRECOES = [
     ('ocr', 'Ci queria', 'ir', 'rir', 'com'),
     ('ocr', 'crescia pra', 'ci -', 'cima', 'dele'),
     ('erro', 'como Jiguê', 'são', 'não', 'conseguira'),
+    ('erro', 'fez um', 'discursos', 'discurso', 'pros grilos'),
+    ('ocr', 'moeda tradicional', ',', '.', 'Calculou com'),
     ('ocr', 'aqueles', 'hiatos', 'matos', 'sobre'),
     ('ocr', 'lagartixa que', 'Onda', 'anda', 'de'),
     ('ocr', 'catauaris de', 'beirado', 'beira-rio', 'o'),
@@ -190,7 +192,19 @@ FINAL = {
     'tumulo': 'túmulo', 'circunstancias': 'circunstâncias', 'mingua': 'míngua', 'abricôs': 'abricós',
     'desagradavel': 'desagradável', 'abstinéncia': 'abstinência', 'exceléncia': 'excelência',
     'orificio': 'orifício', 'sincope': 'síncope', 'simbolo': 'símbolo', 'masorqueiros': 'mazorqueiros',
-    'alvíçaras': 'alvíssaras', 'uirauassús': 'uirauaçus', 'cincoenta': 'cinquenta',
+    # acentos que faltavam (a forma sem acento existe como outra palavra, e o léxico a deixou passar)
+    'cunhas': 'cunhãs', 'cunha': 'cunhã', 'puito': 'puíto', 'vote': 'vôte', 'individuo': 'indivíduo',
+    'revolver': 'revólver', 'zangadissima': 'zangadíssima', 'hercules': 'hércules',
+    'estrambolicas': 'estrambólicas', 'auxilio': 'auxílio', 'chui': 'chuí', 'boboiuna': 'boboiúna',
+    'medico': 'médico', 'beligeros': 'belígeros', 'dispares': 'díspares', 'pacifico': 'pacífico',
+    'diligencia': 'diligência', 'eugenia': 'eugênia', 'intermediaria': 'intermediária',
+    'libero': 'líbero', 'reis': 'réis', 'moquem': 'moquém', 'ajutorio': 'ajutório', 'platano': 'plátano',
+    'musico': 'músico', 'laminas': 'lâminas', 'ilheu': 'ilhéu', 'satisfeitissimo': 'satisfeitíssimo',
+    'sorumbatico': 'sorumbático', 'gambia': 'gâmbia', 'relamboria': 'relambória', 'hetico': 'hético',
+    'marques': 'marquês', 'conhecidissimo': 'conhecidíssimo', 'guiquem': 'guiquém', 'distraia': 'distraía',
+    'vesper': 'vésper', 'contentissima': 'contentíssima', 'tangolomangolo': 'tangolomângolo', 'ruira': 'ruíra',
+    'codorios': 'codórios', 'juquiai': 'juquiaí',
+    'alvíçaras': 'alvíssaras', 'a’s': 'às', 'd’aí': 'daí', "d'aí": 'daí', 'd’ai': 'daí', 'uirauassús': 'uirauaçus', 'cincoenta': 'cinquenta',
 }
 
 

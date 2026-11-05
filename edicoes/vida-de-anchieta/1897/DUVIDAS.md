@@ -20,3 +20,6 @@
 - p. 30, «sem a deitar em / quanto se representava»: o impresso tem «em» no fim da linha e «quanto» no começo da seguinte, sem hífen (duas palavras); transcrito assim.
 - p. 31, linha «foão e foão» (ou «Foão»): nome omitido/forma estranha no impresso («foão e foão»); mantido como está.
 - p. 33, rodapé: «A. B. N.» e «3» (assinatura de caderno), não transcritos.
+- p. 34, «que estê en gloria»: no impresso «estê en» (provável «esté em»); transcrito como parece estar impresso.
+- p. 36, «respondeu que era foã»: nome da mártir no impresso («foã», provável «Fulana»/«Joana»); mantido como impresso.
+- p. 36, «Irmã» (maiúscula em «sua Irmã a fazer») no impresso; mantida.

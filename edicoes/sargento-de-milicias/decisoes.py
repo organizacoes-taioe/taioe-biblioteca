@@ -81,10 +81,14 @@ FINAL = {
     'susurro': 'sussurro', 'forcada': 'forçada', '$': ';', 'desculpavel': 'desculpável', 'esconjurio': 'esconjúrio',
 }
 
+# palavras que o impresso sempre põe em itálico (o apelido do toma-largura, conferido em várias páginas)
+ITALICO_SEMPRE = {'toma-largura'}
+
 _ARQ = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'conferencia.json')
 CONFERENCIA = json.load(open(_ARQ, encoding='utf-8')) if os.path.exists(_ARQ) else []
 ERROS = []                    # (capítulo, 1854–55, corrigido), para a «Sobre»
 FALHAS = []
+QUEBRAS = []                  # quebras de parágrafo falsas tiradas
 
 
 def _toks(s):
@@ -173,28 +177,15 @@ def _pontuacao(out, flags):
     return out, flags
 
 
-def corrigir(out, flags):
-    """Aplica as leituras conferidas no fac-símile (conferencia.json): acha o trecho 'para' (no capítulo
-    dele, se houver mais de um) e troca só o miolo que difere."""
-    ERROS.clear()
-    FALHAS.clear()
-    # tokens que o tokenizador de hoje partiria («'OS»): partidos, para os trechos acharem o lugar
-    o2, f2 = [], []
-    for t, f in zip(out, flags):
-        ps = [t] if (t.startswith('#') or t == '¶') else (_toks(t) or [t])
-        if ps == ['.'] and o2 and set(o2[-1]) == {'.'}:          # «...» + «.» = «....»
-            o2[-1] += '.'
-            continue
-        o2 += ps
-        f2 += [f] * len(ps)
-    out, flags = o2, f2
+def _aplicar(out, flags, cods):
+    """Os pontos de conferencia.json com cod em cods."""
     caps, cap = {}, None
     for i, t in enumerate(out):
         if t.startswith('#'):
             cap = t[1:]
         caps[i] = cap
     for d in CONFERENCIA:
-        if d['cod'] not in ('fix', 'erro', 'ws'):
+        if d['cod'] not in cods:
             continue
         P = _toks(d['para'])
         C, ital, k = [], [], 0
@@ -271,13 +262,47 @@ def corrigir(out, flags):
             caps[k] = cap
         if d['cod'] == 'erro':
             ERROS.append((d.get('cap'), d['para'], d['texto']))
+    return out, flags
+
+
+def corrigir(out, flags):
+    """Aplica as leituras conferidas no fac-símile (conferencia.json): acha o trecho 'para' (no capítulo
+    dele, se houver mais de um) e troca só o miolo que difere."""
+    ERROS.clear()
+    FALHAS.clear()
+    QUEBRAS.clear()
+    # tokens que o tokenizador de hoje partiria («'OS»): partidos, para os trechos acharem o lugar
+    o2, f2 = [], []
+    for t, f in zip(out, flags):
+        ps = [t] if (t.startswith('#') or t == '¶') else (_toks(t) or [t])
+        if ps == ['.'] and o2 and set(o2[-1]) == {'.'}:          # «...» + «.» = «....»
+            o2[-1] += '.'
+            continue
+        o2 += ps
+        f2 += [f] * len(ps)
+    out, flags = o2, f2
+    out, flags = _aplicar(out, flags, ('fix', 'erro', 'ws'))
     out = [FINAL.get(t, t) for t in out]
+    for i, t in enumerate(out):                 # sempre em itálico no impresso
+        if t in ITALICO_SEMPRE:
+            flags[i] = True
     # parágrafo que começaria por pontuação («¶ :»): a quebra vai para depois dela
     for i in range(len(out) - 1):
         if out[i] == '¶' and out[i + 1] in (',', ';', ':', '.'):
             out[i], out[i + 1] = out[i + 1], out[i]
             flags[i], flags[i + 1] = flags[i + 1], flags[i]
+    # parágrafo que começaria por minúscula ou por «?», «!»: a quebra é falsa (o voto a pôs no meio da frase)
+    o, f = [], []
+    for k, (t, fl) in enumerate(zip(out, flags)):
+        nx = out[k + 1] if k + 1 < len(out) else ''
+        if t == '¶' and o and o[-1] != '¶' and not o[-1].startswith('#') and (re.match(r'[a-zà-ú]', nx) or nx[:1] in '?!'):
+            QUEBRAS.append(' '.join(o[-4:] + [nx]))
+            continue
+        o.append(t); f.append(fl)
+    out, flags = o, f
     out, flags = _pontuacao(out, flags)
+    out, flags = _aplicar(out, flags, ('ital',))          # o itálico, já com a pontuação limpa
+    print('quebras de parágrafo falsas tiradas:', len(QUEBRAS), QUEBRAS[:6])
     if FALHAS:
         print('conferência: correções sem lugar:', len(FALHAS), FALHAS[:8])
     return out, flags

@@ -408,6 +408,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'oswald-de-andrade',
+  nome: 'Oswald de Andrade',
+  nomeCompleto: 'José Oswald de Sousa Andrade',
+  vida: '1890–1954',
+  ordem: 'Andrade, Oswald de',
+  nota: 'Poeta, romancista e dramaturgo paulistano, um dos líderes do modernismo; autor dos manifestos da poesia pau-brasil e antropófago.'
+});
+
+BIBLIOTECA.autor({
   id: 'olavo-bilac',
   nome: 'Olavo Bilac',
   nomeCompleto: 'Olavo Brás Martins dos Guimarães Bilac',
@@ -722,4 +731,13 @@ BIBLIOTECA.autor({
   vida: '65–8 a.C.',
   lingua: 'la',
   nota: 'Poeta latino de Venúsia, filho de um liberto; autor das Odes, das Sátiras e das Epístolas.'
+});
+
+BIBLIOTECA.autor({
+  id: 'ovidio',
+  nome: 'Ovídio',
+  nomeCompleto: 'Públio Ovídio Nasão',
+  vida: '43 a.C.–17/18 d.C.',
+  lingua: 'la',
+  nota: 'Poeta latino de Sulmona, autor das Metamorfoses, dos Fastos e das Heroides; morreu no exílio, em Tomis, no mar Negro.'
 });

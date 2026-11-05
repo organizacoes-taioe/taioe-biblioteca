@@ -1,0 +1,1465 @@
+/* Auto da Barca do Purgatório — Gil Vicente
+   Gerado por edicoes/barca-do-purgatorio/publicar.py. Não edite à mão:
+   corrija edicoes/barca-do-purgatorio/texto.txt e rode de novo.
+*/
+BIBLIOTECA.obra({
+  id: "auto-da-barca-do-purgatorio",
+  autor: "gil-vicente",
+  titulo: "Auto da Barca do Purgatório",
+  ano: 1518,
+  genero: "Teatro",
+  divisao: {"singular": "parte", "plural": "partes"},
+  descricao: "Auto de moralidade representado nas matinas do Natal de 1518, a segunda das três barcas.",
+  edicao: {
+    base: "Edição de 1834",
+    apresentacao: `**Texto-base.** Este texto reproduz o _Auto da Barca do Purgatório_ como está na _Copilaçam de todalas obras de Gil Vicente_ (Lisboa, 1562), a edição das obras preparada por seus filhos, na grafia brasileira de hoje.
+
+**Como foi estabelecido.** A Copilação foi lida na reimpressão de Hamburgo (1834), que a reproduz: página a página, nas imagens de um exemplar, e conferida palavra por palavra com a leitura automática de três digitalizações dessa edição. Ao contrário do _Auto da Barca do Inferno_, deste auto não se conhece folheto impresso em vida do autor; o texto vem só da Copilação.
+
+**Grafia.** A mesma regra de _Os Lusíadas_ e da _Barca do Inferno_: muda só a maneira de escrever, nunca a forma da palavra. Ficam _pera_, _assi_, _cousa_, _noute_, _mi_, _inda_, _samicas_, _eramá_, _bofá_, _rezão_, _perém_, _imigo_, _concrusão_, _Satão_. O latim do Lavrador e do Pastor fica como está.
+
+**Divisão.** O auto é uma cena só, a segunda das três barcas, representada à rainha Dona Leonor nas matinas do Natal de 1518. Para facilitar a leitura, ele está dividido aqui em sete partes, pela chegada de cada personagem; a divisão é nossa.`,
+    fontes: [
+      {"nome": "Obras de Gil Vicente, tomo I (Hamburgo, 1834), exemplar digitalizado pelo Google", "url": "https://archive.org/details/obrasdegilvicen00montgoog", "nota": "reimpressão da Copilação de 1562; o texto foi lido nas imagens deste exemplar (pp. 245–273)"},
+      {"nome": "Obras de Gil Vicente, tomo I (Hamburgo, 1834), outro exemplar", "url": "https://archive.org/details/obrasdegilvicen04vicegoog", "nota": "para a conferência palavra por palavra"},
+      {"nome": "Obras de Gil Vicente, tomo I (Hamburgo, 1834), terceiro exemplar", "url": "https://archive.org/details/obrasdegilvicen03vicegoog", "nota": "para a conferência palavra por palavra"}
+    ]
+  },
+  partes: [
+    { n: "", titulo: "Os Arrais", texto: `_Esta segunda cena é atribuída à Embarcação do Purgatório. Trata-se per lavradores. Foi representada à muito devota e católica Rainha Dona Leonor no hospital de Todolos Santos da cidade de Lisboa, nas matinas do Natal, era do Senhor de 1518._
+
+_Primeiramente entram três Anjos, cantando o romance seguinte, com seus remos:_
+
+| Remando vão remadores
+| Barca de grande alegria;
+| O patrão que a guiava,
+| Filho de Deus se dizia.
+| Anjos eram os remeiros,
+| Que remavam à porfia;
+| Estandarte d'esperança,
+| Oh quão bem que parecia!
+| O masto da fortaleza
+| Como cristal reluzia;
+| A vela com fé cozida
+| Todo o mundo esclarecia;
+| A ribeira mui serena,
+| Que nenhum vento bolia.
+
+_Entra o Arrais do Inferno, e diz:_
+
+@ Diabo
+
+| Ah santo corpo de mi,
+| Corpo de mi consagrado!
+| Como está isto assi
+| Sem ninguém estar aqui
+| Neste meu porto dourado,
+| Agora que está breado
+| De novo o caravelão,
+| Espalmado, e aparelhado,
+| E mais largo bô quinhão
+| Que o passado?
+
+| Quanto mais se chega a fim
+| Do mundo, a todo o andar,
+| Tanto a gente é mais ruim;
+| E juro ò corpo de mim
+| Que já canso de remar.
+| Cumpre-me d'aparelhar
+| Um valente barinel,
+| Ou ũa nau singular,
+| Em que possa mais levar
+| Que n'um batel.
+
+| E não remar senão tal via,
+| E depois haver carraca;
+| Que cobiça e simonia,
+| Inveja e tirania,
+| Nenhũa delas afraca.
+| Ala, ala! saca, saca!
+| À terra, à terra, mortais!
+| Cerrar o leme a esta banda,
+| E não curar d'outro cais;
+| Porque a lei dos mundanais
+| Isto manda.
+
+@ Anjo
+
+| Quem quer ir ò Paraíso?
+| À glória, à glória, senhores!
+| Oh que noite pera isso!
+| Quão prestes, quão improviso
+| Sois celestes moradores!
+| Aviai-vos, e partir;
+| Que vossa vida é sonhar,
+| E a morte é despertar
+| Pera nunca mais dormir,
+| Nem acordar.
+
+| Este rio é mui escuro,
+| Não tendes vau nem maneira:
+| Entrai em barco seguro,
+| Havei conselho maduro,
+| Não entreis em má bateira;
+| Que na viagem primeira,
+| Quantos vistes embarcados
+| Todos foram alagados:
+| No mais fundo da ribeira
+| São penados.
+
+| Pois não se pode escusar
+| A passada deste rio,
+| Nem a morte s'estorvar,
+| Qu'é outro braço de mar
+| Sem remédio nem desvio.
+| E o batel dos danados,
+| Porque nasceu hoje Cristo,
+| Está, c'os remos quebrados,
+| Em seco. Ó descuidados,
+| Cuidai nisto.
+
+| Agora que a madre pia,
+| Frol de toda a perfeição,
+| Está com tanta alegria;
+| Pedi a sua Senhoria
+| Gloriosa embarcação,
+| Que sua é a barcagem.
+| Pedi-lhe como avogada,
+| Per lacrimosa linguagem,
+| Que nos procure viagem
+| Descansada.
+
+| Fala-lhe com alegria,
+| Canta-lhe como souberes,
+| Visita a Virgem Maria,
+| Nossa via, nossa guia,
+| Frol de todalas mulheres.
+| Quando aqui lhe apareceres,
+| Roga-lhe que t'apareça
+| Com piedosos poderes,
+| Porque a alma que tiveres
+| Não pereça.
+
+@ Diabo
+
+| Quero ora meter à vela,
+| E deitar a prancha fora,
+| E arrumar a caravela,
+| E deitar do junco nela,
+| Se vier qualquer senhora.
+| E que é isto na má hora?
+| E o batel está em seco!
+| Oh renego de Zamora!
+
+| O rio s'encaramelou!
+| Nunca tal m'aconteceu.
+| Hou, bota, hou, bota, hou!
+| Oh renego de San Grou,
+| E de San Pata do céu!
+| Arrenego eu do dinheiro
+| Que ganho nesta viagem,
+| Arrenego da barcagem,
+| E do cornudo barqueiro.
+
+_Vem um Companheiro do Arrais do Inferno, e diz:_
+
+@ Companheiro
+
+| Parceiro, gurgurgarao.
+
+@ Diabo
+
+| Porquê?
+
+@ Companheiro
+
+| Porque é assi.
+
+@ Diabo
+
+| Ora bota, hou, bota, hao.
+
+@ Companheiro
+
+| Eu só botara ũa nau
+| Com este dedo sem ti:
+| Mas sabe que este serão
+| É para nós grande praga,
+| E trabalhamos em vão,
+| Porque a promessa d'Abraão
+| Hoje é a paga.` },
+    { n: "", titulo: "O Lavrador", texto: `_Vem um Lavrador com seu arado às costas, e diz:_
+
+@ Lavrador
+
+| Que é isto? cá chega o mar?
+| Ora é forte cagião.
+
+@ Diabo
+
+| Alto, sus, quereis passar?
+| Ponde i o chapeirão,
+| E ajudareis a botar.
+
+@ Lavrador
+
+| Da morte venho eu cansado,
+| E cheio de refregério,
+| E não posso, mal pecado.
+
+@ Diabo
+
+| Põe eramá i o arado.
+
+@ Lavrador
+
+| Perém esse é gran mestério.
+
+| S'eu trouguera mais vagar
+| Sorrira-me eu tamalavez.
+
+@ Diabo
+
+| E vós, vilão, quereis zombar?
+| Se vos eu arrebatar?
+
+@ Lavrador
+
+| Dou-t'eu muito de mau mês.
+| Com'eu a morte passei,
+| Logo o medo ficou finto.
+| Enha cédula amanhei,
+| E meus negócios deixei
+| Como homem de bô retinto.
+
+| Nem fico a dever duas favas,
+| Nem um preto por pagar.
+
+@ Diabo
+
+| E os marcos que mudavas,
+| Dize, porque os não tornavas
+| Outra vez a seu lugar?
+
+@ Lavrador
+
+| E quem tirava do meu
+| Os meus marcos quantos são,
+| E os chantava no seu,
+| Dize, pulga de judeu,
+| Que lhe dizias tu er então?
+
+@ Diabo
+
+| Foste o mais ruim vilão!...
+
+@ Lavrador
+
+| Bofá, salvanor salvado,
+| Vós mentis coma cabrão.
+| Quer me queirais mal, quer não,
+| Não dou por isso um cornado.
+
+@ Diabo
+
+| Pois porque vens carregado?
+
+@ Lavrador
+
+| Porque seja conhecido
+| Por lavrador muito honrado.
+| E tenho a glória merecido;
+| Que sempre fui perseguido,
+| E vivi mui trabalhado.
+
+| Há i, pesar não de São,
+| Afício mais fortunado?
+
+@ Diabo
+
+| Pois para que é o vilão?
+
+@ Lavrador
+
+| Todos nós vimos d'Adão.
+
+@ Diabo
+
+| Pousa, pousa aí o arado.
+
+@ Lavrador
+
+| Juro a San Junco sagrado
+| Que te chante um par de quedas.
+
+@ Diabo
+
+| Aqui hás d'ir embarcado.
+
+@ Lavrador
+
+| Vai beijar o meu bragado
+| Antre as sedas.
+
+@ Diabo
+
+| Que vilão tão descortês!
+
+@ Lavrador
+
+| E vós sois mui deneguil!
+| Dou eu já ora ò Decho o freguês.
+
+@ Diabo
+
+| Dom vilão, comigo irês
+| Onde estão de vós dez mil.
+
+@ Lavrador
+
+| E vós, Dom rosto de funil,
+| Cuidareis que sois alguém?
+
+@ Anjo
+
+| Vinde cá, homem de bem;
+| Pera onde quereis ir?
+
+@ Lavrador
+
+| Queria passar além,
+
+| Pera a glória do Senhor.
+| Samicas de lá serês?
+
+@ Anjo
+
+| E vens tu merecedor?
+
+@ Lavrador
+
+| E que fez lá o lavrador,
+| Pera andar cá ò través?
+
+@ Anjo
+
+| Pode ser mui austinado,
+| E não querer-se arrepender.
+
+@ Lavrador
+
+| Bofá, Senhor, mal pecado,
+| Sempre é morto quem do arado
+| Há de viver.
+
+| Nós somos vida das gentes,
+| E morte de nossas vidas;
+| A tiranos — pacientes,
+| Que a unhas e a dentes
+| Nos têm as almas roídas.
+| Pera que é parouvelar?
+| Que queira ser pecador
+| O lavrador;
+| Não tem tempo nem lugar
+| Nem somente d'alimpar
+| As gotas do seu suor.
+
+| Na igreja bradam com ele,
+| Porqu'assoviou a um cão;
+| E logo excomunhão na pele.
+| O fidalgo maçar nele,
+| Atá o mais triste rascão.
+| Se não levam torta a mão,
+| Não lhe acham nenhum direito.
+| Muito atribulados são!
+| Cada um pela o vilão
+| Por seu jeito.
+
+| Trago a propósito isto,
+| Porque veio a bem de fala.
+| Manifesto está e visto
+| Que o bento Jesu Cristo
+| Deve ser homem de gala.
+| E é rezão que nos valha
+| Neste serão glorioso,
+| Qu'é gran refúgio sem falha.
+| Isto me faz forçoso,
+| E não estou temeroso
+| Nem migalha.
+
+@ Anjo
+
+| Que bens fizeste na vida,
+| Que te sejam cá guiantes?
+
+@ Lavrador
+
+| Ia ao bodo da ermida
+| Cada santa Margarida,
+| E dava esmola aos andantes;
+| Benzia-me pela manhã,
+| Levava o credo até o cabo.
+
+@ Diabo
+
+| Depois tomavas a lã
+| Da melhor e a mais sã,
+| E davas ao dízimo a do rabo,
+| Temporã.
+
+| E o mais fraco cabrito,
+| E o frangão ofegoso,
+| Com repetenado esp'rito.
+
+@ Lavrador
+
+| Oh fideputa maldito,
+| Triste avezimão tinhoso,
+| Lano pecador errado!
+| Não — vai — não me dezimei?
+| Dize, sabujo pelado.
+
+@ Diabo
+
+| Tornaste tu o mal levado?
+
+@ Lavrador
+
+| Si, tornei.
+
+| E de tudo fiz aquesta,
+| Como homem diz, avantairo:
+| Leixei ò cura a enha besta.
+| Abonda que nem aresta
+| Terá comigo o cossairo.
+| Um anal e um trintairo,
+| Com raponsos, ladainhas:
+| A Gil fiz todo repairo
+| Com missas d'aniversairo
+| Trinta dias.
+
+| Perol que dizeis vós lá?
+| Sejo eu como deve ser,
+| Ou que modo se terá?
+
+@ Anjo
+
+| É mui caro d'haver cá
+| Aquele eternal prazer.
+
+@ Lavrador
+
+| Já o eu lá ouvi dizer.
+| Perol o evangelho diz,
+| Quem for bautizado e crer
+| Salvus es: ora dizer,
+| Sede juiz.
+
+| Pois quia infernus es,
+| Nulla redencia há i;
+| Vede vós o que dizês,
+| Qu'a mim já me pruem os pés,
+| Pera me passar d'aqui.
+
+@ Anjo
+
+| Digo que andes assi
+| Purgando nessa ribeira,
+| Até que o Senhor Deus queira
+| Que te levem pera si
+| Nesta bateira.
+
+@ Lavrador
+
+| Bofá, logo quisera eu,
+| Que m'atormenta este arado;
+| E dera muito do meu,
+| Pois que já hei de ser seu,
+| Tirar-me deste cuidado.
+| Ó mundo, mundo enganado,
+| Vida de tão poucos dias,
+| Tão breve tempo passado,
+| Tu me trouveste enganado,
+| E me mentias!
+
+@ Diabo
+
+| Inda esta barca não nada?
+| Que festa esta pera mi!
+| Nunca tal balcarriada,
+| Nem maré tão desastrada
+| Nesta ribeira não vi.` },
+    { n: "", titulo: "Marta Gil", texto: `_Vem ũa regateira, per nome Marta Gil, e diz:_
+
+@ Marta Gil
+
+| Hui! que ribeiros são estes?
+
+@ Diabo
+
+| Venhais embora, Marta Gil.
+
+@ Marta Gil
+
+| E donde me conhecestes?
+
+@ Diabo
+
+| Folgo eu bem porque viestes
+| Oufana e dando ò quadril.
+
+@ Marta Gil
+
+| Vedes outro perrexil!
+| E marinheiro sois vós?
+| Ora assim me salve Deus
+| E me livre do Brasil,
+| Que estais sutil.
+
+| Emque eu seja lavradora,
+| Bem vos hei de responder.
+
+@ Diabo
+
+| Não vos agasteis vós ora,
+| Que, ou lavradora ou pastora,
+| Aqui vos hei de meter.
+
+@ Marta Gil
+
+| Hui mana! e quem no deu?
+| Ide beber,
+| Que bem vos conheço eu.
+
+@ Diabo
+
+| Eu também vos sei nascer,
+| E vi fateixas fazer;
+| Que o que trazeis é meu,
+| E há de ser.
+
+@ Marta Gil
+
+| E que cousas são fateixas?
+| Fateixado te veja eu.
+
+@ Diabo
+
+| Os feitos que feitos leixas,
+| E o povo cheio de queixas.
+
+@ Marta Gil
+
+| Cal'-te, almareo de judeu.
+
+@ Diabo
+
+| Não sabes tu que viveste
+| Lavradora e regateira?
+
+@ Marta Gil
+
+| Ora comede-la, que vos preste.
+| Hui! e que gaio é ora este
+| De ribeira?
+
+| Sabedes vós, João Corujo,
+| Todos fazem seu proveito.
+| Olhade o frei Caramujo,
+| Bargante que não tem cujo!
+| Cant'a agora é o feito feito.
+| Não sabes tu que o respeito
+| Do mundo é em ganhar?
+| E sobre isso é seu proveito,
+| Ou a torto ou a direito
+| Apanhar.
+
+| Fui em tempo de cobiça;
+| Cada tempo sua usança:
+| S'eu morrera de preguiça,
+| Tiveras muita justiça,
+| E eu pequena esperança.
+| Vendia minha lavrança,
+| Um ovo por dous reais,
+| Um cabrito, se s'alcança,
+| Té quatro vinténs, nó mais:
+| Tendes vós isto em lembrança?
+
+| Um frangão por um vintém,
+| E ũa galinha sessenta;
+| E acerta-se também
+| Que às vezes vem alguém,
+| Que as leva por setenta.
+
+@ Diabo
+
+| E pera que era água no leite,
+| Que deitavas ieramá?
+
+@ Marta Gil
+
+| Mais azeite:
+| Ind'hoje o ele dirá!
+| Vistes ora o diabreite!
+
+| Ó diabo, visses tu,
+| Bofé asinha o eu direi.
+| Como é palreiro, Jesu!
+| Fora este cucurucu
+| Bom secretário d'el-Rei.
+| Amanhade-lhe o atafal;
+| Nadar patas, patarrinhas;
+| Corregede-lhe o enxoval;
+| Onças de raiva mortal
+| Nas badarrinhas.
+
+@ Diabo
+
+| Valha-te a ti, Marta amiga,
+| Qu'estamos enfeitiçados.
+
+@ Marta Gil
+
+| Embarcade lá esta figa.
+
+@ Diabo
+
+| Passará esta fadiga,
+| Seremos desembargados.
+
+@ Marta Gil
+
+| Anjos bem-aventurados,
+| Meterei o canistrel,
+| Que trago os testos britados?
+| Carregam estes pecados,
+| Que fazem lançar o fel
+| A bocados.
+
+@ Anjo
+
+| E pera qu'eram eles cá?
+
+@ Marta Gil
+
+| Pera o Demo; e que sei eu?
+
+@ Anjo
+
+| Ora pois, embarca lá.
+
+@ Marta Gil
+
+| Melhor creio eu que será.
+| Jesu! Jesu! benzo-me eu.
+| Ó bento Bartolameu,
+| E vós, Virgem do rosairo,
+| Polo filho que Deus vos deu
+| Esta noute, vosso e seu,
+| Haja repairo.
+
+| Bem sabedes vós, Senhora,
+| Que venho eu manifestada,
+| E fui vossa lavradora;
+| Emque pecasse algum'hora,
+| Venha a piedosa alçada.
+| Esta é a noute que paristes:
+| Benta a hora em que nascestes;
+| Esqueçam meus males tristes,
+| Polo menino que vestistes,
+| E envolvestes.
+
+| Anjos, ajudade-me ora,
+| Que vos veja eu bem casados:
+| Não me deixedes de fora
+| Por aquela santa hora
+| Em que todos fostes criados.
+
+@ Anjo
+
+| Não é tempo cá d'orar,
+| Cant'à para merecer.
+
+@ Marta Gil
+
+| Manos, eu quero provar
+| Qu'em todo tempo há lugar
+| O que Deus quer.
+
+| Este serão glorioso
+| Não é de justiça, não;
+| Mas todo mui piedoso,
+| Em que nasceu o esposo
+| Da humanal geração:
+| E a barca de Satão
+| Não passa hoje ninguém;
+| E per força hei d'ir além,
+| So pena d'excomunhão,
+| Que posta tem.
+
+@ Anjo
+
+| Grande cousa é oração:
+| Purga ao longo da ribeira,
+| Segura de danação,
+| Terás angústia e paixão,
+| E tormento em gran maneira.
+| Isto até que o Senhor queira
+| Que te passemos o rio:
+| Será tua dor lastimeira,
+| Como ardendo em gran brasio
+| De fogueira.
+
+@ Marta Gil
+
+| Oh esperança, esperança,
+| A mais certa pena minha
+| Com toda esta segurança!
+| Tu és a mesma tardança
+| Em figura de mezinha.
+| Oh quem tal arrepender,
+| Tal maneira de penar,
+| Lá soubesse no viver!
+| Oh quem tornasse a nascer,
+| Por não pecar!` },
+    { n: "", titulo: "O Pastor", texto: `_Vem um Pastor, e diz, olhando pera a barca do imigo:_
+
+@ Pastor
+
+| Isto é cancelo, ou picota,
+| Ou senefica algorrem?
+| Não lhe marra ela aqui gota
+| De ser isto terremota
+| Pera enforcar alguém.
+
+@ Diabo
+
+| Queres embarcar, pastor?
+
+@ Pastor
+
+| Praz.
+
+@ Diabo
+
+| Entra neste batel.
+
+@ Pastor
+
+| Irra! pulha é isso, salvanor.
+| S'eu não fora pulhador,
+| J'ela passava o burel.
+
+| Digo, senhor pesadelo,
+| (Vós sabereis isto bem)
+| Estando em val de Cobelo,
+| Deu-me dor de cotovelo,
+| Emperol morri perém.
+| E fui-me per esse chão
+| A Deus douche alma dizer,
+| Com meu cacheiro na mão,
+| Sem soes motrete de pão,
+| Nem fome pera o comer,
+| Se vem à mão.
+
+| E vinha ora bem descuidado
+| De topar mar nem marinha.
+| Avonda, espantalho honrado,
+| Ao morrer deixei o gado,
+| E o amo e quanto tinha.
+| Senão anda que te vás,
+| Enha mãe nega gritar,
+| E chorar que chorarás.
+| Agora quero passar;
+| Perém não me levarás.
+
+@ Diabo
+
+| Porquê?
+
+@ Pastor
+
+| Sois busaranha,
+| E mais fede-vo-lo bafo,
+| E jogatais de gadanha,
+| E tendes modão d'aranha,
+| E samicas sereis gafo.
+
+@ Diabo
+
+| Gafo eu?
+
+@ Pastor
+
+| A bem;
+| Não hei d'ir per acajuso,
+| Emque me custe algorrem,
+| Chinfrão, ou meio vintém,
+| Ir dereito como o fuso
+| Pera além.
+
+@ Diabo
+
+| Dize, rústico perdido,
+| Fizeste tu por saber
+| O Pater noster comprido?
+
+@ Pastor
+
+| E pera que era ele sabido?
+
+@ Diabo
+
+| Porque o havias de dizer.
+
+@ Pastor
+
+| A quem?
+
+@ Diabo
+
+| A quem te criou.
+
+@ Pastor
+
+| Al tem ele que comer.
+
+@ Diabo
+
+| Não fizeste o que mandou.
+
+@ Pastor
+
+| Calai-vos, Senhor Jão Grou;
+| Já sei quem m'há de levar,
+| Sei quem sou.
+
+| Esta noite é dos pastores,
+| E tu, Decho, estás em seco;
+| E salvam-se os pecadores
+| Criados de lavradores,
+| E tu estás coma peco.
+
+@ Diabo
+
+| Digo-te, pastor amigo,
+| Que foste gran pecador.
+
+@ Pastor
+
+| Senhor tartarugo, digo
+| Que mentis como bestigo,
+| Salvanor.
+
+| Fala em tua merencória,
+| E não fales em passar,
+| E conta lá outra história;
+| Porque em festa de tal glória,
+| Não hás ninguém de levar.
+| Ronca, qués tu pôr comego
+| Algorrem pera beber,
+| Que vens de casta de pego,
+| E neto d'algum morcego?
+| Pardicas não pode al ser.
+
+@ Diabo
+
+| Não estou em meu poder,
+| Pera me vingar de ti.
+
+@ Pastor
+
+| Não podes nada fazer
+| Na noite que quis nascer
+| Cristo, filho de Davi.
+
+@ Diabo
+
+| Quem te pôs no coração
+| Falares cousa tão boa?
+| Que tu não tens descrição.
+
+@ Pastor
+
+| E quem te deu a ti lição
+| De ser tão ruim pessoa?
+
+@ Anjo
+
+| Pastor, tu queres passar?
+
+@ Pastor
+
+| Este é melhor artesão.
+
+@ Anjo
+
+| Folgarei de te levar,
+| Se te ajuda o bem obrar,
+| Que as obras remos são.
+
+@ Pastor
+
+| Enha mãe mo bradará,
+| Que fica no saimento,
+| E o responso do mamento;
+| E tudo Sa Gil fará
+| Com bom tento.
+
+@ Anjo
+
+| Morreste tu bom cristão?
+
+@ Pastor
+
+| Que sei eu que vós dizeis?
+
+@ Anjo
+
+| Dize ora o krieleison,
+| Kirieleison, Christeleison.
+
+@ Pastor
+
+| O Pater noster quereis?
+| Já eu soube um quinhão dele.
+| No santo faceto andei já,
+| E nunca me dei por ele;
+| E a Ave Maria a par dele
+| Soube eu lá já tempos há.
+
+| E fui assi por ela andando
+| Nos intes vitus cajuso;
+| Ali andava eu sandejando,
+| E suacendo e cansando:
+| Então dei à treva o uso.
+| Assaz avonda ao pastor
+| Crer em Deus, e não furtar,
+| E fazer bem seu lavor,
+| E dar graças ao Senhor,
+| E fugir de não pecar.
+
+| E crer na Igreja assi junta
+| Com paredes e telhados,
+| Aliceres e furados;
+| E não curar de pergunta,
+| E dar ò Demo os pecados.
+| Eu nunca matei, nem furtei,
+| Nega uvas algum'hora;
+| Nem nunca mexeriquei,
+| Como lá se usa agora.
+
+@ Diabo
+
+| Vai, vai cantar a gamela:
+| Não andavas tu namorado
+| Perdido por Madanela?
+
+@ Pastor
+
+| E pois que lhe fiz a ela,
+| Para dizer que é pecado?
+| Ũa vez armei-lhe o pé
+| Na chacota em Vilarinho,
+| E ainda pola abofé
+| Constança Anes, que viva é,
+| Me meteu naquele alinho.
+
+@ Diabo
+
+| Não na foste tu sperar,
+| Pera a danares, vilão,
+| E começou de bradar
+| Que a querias forçar?
+
+@ Pastor
+
+| Ó fideputa cabrão!
+| Quisera eu e ela não,
+| Porque a tredora fugiu:
+| E s'isto assi foi, ladrão,
+| Que pecado se seguiu,
+| Pois não houve concrusão?
+
+| Juro ao corpo verdadeiro
+| Que tu te podes gabar
+| Que casado nem solteiro,
+| Não anda tão vil barqueiro
+| Sobolas águas do mar.
+| Soma, Anjo, eu m'enfestei:
+| Abrenúncio, Satanás!
+
+@ Anjo
+
+| Faze o que t'eu direi,
+| E depois embarcarás,
+| E eu mesmo te passarei.
+
+| Purga ao longo do rio
+| Em gran fogo, merecendo.
+
+@ Pastor
+
+| E quando parte o navio?
+| Senhor, se eu não tenho frio,
+| Pera que hei d'estar ardendo?` },
+    { n: "", titulo: "A Pastora", texto: `_Vem ũa Pastora menina, e temendo a visão do imigo que lhe apareceu na morte, diz:_
+
+@ Moça
+
+| Jesu! Jesu! que é ora isto?
+| Ave Maria! Ave Maria!
+| Qu'é do meu cão qu'eu trazia?
+| Oh! chagas de Jesu Cristo
+| Vão em minha companhia!
+| Eu sonho! — triste de mim!
+| Oh coitada, como tremo!
+| Minha mãe, valei-me aqui,
+| Que quando de vós parti,
+| Não cuidei d'achar o Demo.
+
+| Mais angústia é o temor
+| Do imigo, que da morte:
+| Tomo a Deus por valedor.
+| Pois me cortas, e dás dor,
+| Má mazela que te corte.
+
+@ Diabo
+
+| Muchacha, venhas embora.
+
+@ Moça
+
+| Mas na negra, pois te vejo.
+| Oh! desaparece-me ora,
+| Que faleci ind'agora
+| Em mui perigoso ensejo.
+
+| Porque era moça e cuidei
+| Que da velhice gouvira,
+| E com tal dor acabei,
+| Que de mi parte não sei,
+| Nem tenho ponta de sira.
+| Não sei quem m'há d'ajudar,
+| Não sei quem m'há de valer,
+| Não sei quem m'há de passar,
+| Não sei se m'hão de matar
+| Outra vez, ou que há de ser.
+
+| Tir'-te diante de mi,
+| Verei os anjos de Deus.
+
+@ Diabo
+
+| Entrai vós, filhinha, aqui.
+
+@ Moça
+
+| Oh! cal'-te: — triste de mi!
+
+@ Diabo
+
+| Eu vos levarei aos céus;
+| Entrai, minha Polixena;
+| Não temais nada, Senhora.
+
+@ Moça
+
+| Arre lá! uxte, morena!
+
+@ Diabo
+
+| Ó minha Rainha Helena,
+| Entrai, e vamo-nos ora.
+
+@ Moça
+
+| Cal'-te, cal'-te na má hora!
+| Cuidas que m'hás d'enganar,
+| Porque assi me vês pastora?
+
+@ Diabo
+
+| Entrai, minha matadora,
+| Pois que Deus vos quis matar.
+
+@ Moça
+
+| Não vedes vós o quebranto,
+| Que se quer pôr em feição!
+
+@ Diabo
+
+| Olhai, flores, não m'espanto
+| Que me digais sete tanto:
+| Padeça meu coração,
+
+| O porvir e o presente.
+| Senhora, por concrusão,
+| Não quero de vós somente,
+| Senão dardes-me essa mão,
+| Se disso fordes contente:
+| E se m'eu gabar de vós,
+| Má pesar veja eu de mi.
+| E iremos ambos sós
+| Onde estão vossos avós.
+| Ora entrai, ireis aqui.
+
+@ Moça
+
+| Jesu! Jesu! raiva na casta!
+| Comendo ò Decho a amargura!
+| Mãe de Deus! como m'agasta!
+| Má rabugem na tarasca,
+| Espezinhada, triste, escura!
+
+@ Anjo
+
+| Leix'ó, pastora; vem cá.
+
+@ Diabo
+
+| Como estou hoje mofino,
+| E sem dita ieramá!
+| Mas algum dia virá
+| Qu'eu estarei mais fino.
+
+@ Moça
+
+| Ó anjos, minha alegria,
+| Vista de consolação!
+| Por virtude e cortesia,
+| Ensinai-me por que via
+| Passarei à salvação.
+
+@ Anjo
+
+| Conhecias tu a Deus?
+
+@ Moça
+
+| Muito bem, era redondo.
+
+@ Anjo
+
+| Esse era o mesmo dos céus.
+
+@ Moça
+
+| Mais alvinho qu'estes véus,
+| O vi eu vezes avondo.
+
+| Como o sino começava,
+| Logo deitava a correr.
+
+@ Anjo
+
+| Que lhe dizias?
+
+@ Moça
+
+| Folgava,
+| E toda me gloriava
+| Em ouvir missa e o ver.
+
+@ Anjo
+
+| Pastora, bom era isso.
+
+@ Diabo
+
+| Era a mor mexeriqueira
+| Golosa, que d'improviso,
+| Se não andavam sobre aviso,
+| Lá ia a cepa e a cepeira.
+
+| E mais quereis que vos diga?
+| É refalsada e mentirosa.
+
+@ Moça
+
+| Era ainda rapariga.
+
+@ Diabo
+
+| Se tu foras minha amiga,
+| Eu me calara, tinhosa.
+
+@ Moça
+
+| Ó anjos, levai-me já,
+| Tirai-me deste ladrão.
+
+@ Anjo
+
+| Não podes ainda ir lá.
+
+@ Moça
+
+| Tão moça, hei de ficar cá?
+| Não parece isso rezão.
+
+@ Anjo
+
+| Vai ao longo desse mar,
+| Que é praia purgatória;
+| E quando Deus o ordenar,
+| Nós te viremos passar
+| Da pena à eterna glória.` },
+    { n: "", titulo: "O Menino", texto: `_Vem um Menino de tenra idade, e diz:_
+
+@ Menino
+
+| Mãe, e o coco está ali!
+| Quereis vós star quedo, quelle?
+
+@ Diabo
+
+| Passa, passa tu per i.
+
+@ Menino
+
+| E vós quereis dar em mi?
+| Ó demo que o trouxe ele!
+
+@ Diabo
+
+| Bé, mé. Filho da puta,
+| Vós estais muito garrido!
+| Tirar-vos-ão, Dom perdido,
+| Dos olhos a marmeluta.
+
+@ Menino
+
+| Eu vos tomarei a vós
+| À porta de minha tia;
+| Entonces veremos nós
+| Os cães de vossos avós,
+| Qu'estavam na mancebia.
+
+@ Diabo
+
+| Bé.
+
+@ Menino
+
+| Mãe, s'ele quer-me comer!
+| E meu pai não vos dará?
+
+@ Diabo
+
+| Bé.
+
+@ Menino
+
+| Dona, se lho eu disser...
+| E ela matar-vos-á:
+| Então ireis a morrer.
+
+@ Diabo
+
+| Bé.
+
+@ Menino
+
+| Aquele, s'eu chamar
+| O nosso Joane!...
+
+@ Diabo
+
+| Bé.
+
+@ Menino
+
+| Não queres senão berrar?
+
+@ Diabo
+
+| Onde hás d'ir, ou pera quê?
+
+@ Menino
+
+| Fica minha mãe chorando,
+| Só porque m'eu vim de lá.
+
+@ Anjo
+
+| Mas fica desvariando,
+| Que tu és do nosso bando,
+| E pera sempre será.
+
+| Fez-te Deus secretamente
+| A mais profunda mercê
+| Em idade de inocente:
+| Eu não sei se sabe a gente
+| A causa porqu'isto é.` },
+    { n: "", titulo: "O Taful", texto: `_Cantando, metem os Anjos o Menino no batel, e entra um Taful, e diz o Diabo:_
+
+@ Diabo
+
+| Ó meu sócio, ó meu amigo,
+| Meu bem e meu cabedal!
+| Vós, irmão, ireis comigo,
+| Que não temeste o perigo
+| Da viagem infernal.
+
+@ Taful
+
+| Eis aqui flux d'um metal.
+
+@ Diabo
+
+| Pois sabe que eu te ganhei.
+
+@ Taful
+
+| Mostra se tens jogo tal.
+
+@ Diabo
+
+| Tu perdes o enxoval.
+
+@ Taful
+
+| Não é isto flux com rei.
+
+@ Diabo
+
+| Baralha o jogo e partamos.
+
+@ Taful
+
+| Paga, qu'eu não jogo em vão.
+
+@ Diabo
+
+| Lá no frete descontamos;
+| Quer ganhemos, quer percamos,
+| Tudo nos fica na mão.
+
+@ Taful
+
+| Muito me gasto eu aqui,
+| Que tu tens mui mau sembrante;
+| E pareces-me enfim
+| Por da ré muito ruim,
+| E malino por d'avante.
+
+@ Diabo
+
+| Mas tornemos a jogar,
+| Porque tenho saudade
+| De te ouvir arrenegar,
+| E descrer e brasfemar
+| Do mistério da Trindade.
+
+@ Taful
+
+| Aramá, como tu falas
+| Tão senhor desta alma minha!
+
+@ Diabo
+
+| Não sei como agora calas,
+| Renegando a soltas alas
+| De Deus e da ladainha.
+
+| Este dia e as oitavas,
+| Por paços, salas e cantos,
+| Oh quanta glória me davas,
+| Quando à hóstia blasfemavas,
+| E desonravas os Santos!
+
+@ Taful
+
+| Cant'eu sempre ouvi dizer,
+| Quem bem renega, bem crê:
+| Isto vos faço eu saber;
+| E quando isto não valer,
+| Entraremos por mercê.
+
+_(Vai-se à barca do Paraíso, e diz:)_
+
+| Haverá cá piedade
+| D'um homem tão carregado?
+
+@ Anjo
+
+| Mas a infinda crueldade
+| Com que ofendeste a majestade,
+| Renegando seu estado?
+
+@ Taful
+
+| Vede que estava ocupado
+| Na gran perda que perdia.
+
+@ Anjo
+
+| E Deus que culpa t'havia,
+| Taful mal-aventurado,
+| Sem valia?
+
+| Renegar tão feramente
+| Da Imperatriz dos Céus!
+| Ó pranta de má semente,
+| Arderás no fogo ardente,
+| Com toda a ira de Deus.
+
+@ Taful
+
+| Má nova é essa pera mi.
+| Se assi for como dizes,
+| Digo qu'eramá cá vim.
+| Porém esperai-me assi,
+| Falarei tamalavez.
+
+| Deus não quis hoje nascer
+| Por remir os pecadores?
+
+@ Anjo
+
+| E pois que queres dizer?
+| Que só c'o seu padecer
+| Se salvam renegadores?
+
+@ Taful
+
+| A perneta me forçou,
+| Que era senhora de mi.
+
+@ Diabo
+
+| Mente, qu'ele s'incrinou:
+| Nunca estrela renegou,
+| Nem tal há i.
+
+| Sempre jogava o fidalgo,
+| Bispo, escudeiro, ou que é.
+
+@ Companheiro
+
+| Mestiço de cão e galgo.
+
+@ Anjo
+
+| Tomai-o, dai-lhe de pé.
+
+@ Diabo
+
+| Nosso é.
+
+@ Taful
+
+| Estai, imigos! — Senhores,
+| Deste santo nascimento
+| Não terei alguns favores?
+
+@ Anjo
+
+| Tafues e renegadores
+| Não têm nenhum salvamento.
+
+_Saem os Diabos do batel, e, com ũa cantiga muito desacordada, levam o Taful; e os Anjos cantando levam o Menino, e fenece esta segunda cena._` }
+  ]
+});

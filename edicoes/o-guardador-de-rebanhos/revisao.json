@@ -1,0 +1,37 @@
+{
+  "id": "o-guardador-de-rebanhos",
+  "rotulo": "O Guardador de Rebanhos (Alberto Caeiro): edição e grafia",
+  "url": "/biblioteca/fernando-pessoa/o-guardador-de-rebanhos/",
+  "escolhas": [
+    {
+      "id": "edicao-base",
+      "titulo": "Nos 23 poemas que Pessoa publicou na revista Athena (1925), o texto segue a revista, e não o livro de 1946?",
+      "ref": "os poemas I, V, IX, X, XIII, XX, XXIV a XXVI, XXVIII, XXX, XXXII, XXXV, XXXVII, XXXIX, XL, XLII, XLIII e XLV a XLIX",
+      "contexto": "O ciclo inteiro só saiu depois da morte de Pessoa, em Poemas de Alberto Caeiro (Ática, 1946), feito sobre os manuscritos. Em vida, ele mesmo levou ao prelo 23 dos 49 poemas, na Athena n.º 4. Os dois textos têm as mesmas palavras quase sempre; mudam a pontuação, algumas estrofes, as maiúsculas (a revista escreve «mundo», «sol», «universo»; o livro, «Mundo», «Sol», «Universo») e umas poucas palavras: XXIV «tristes de nós» × «triste de nós», XXXII «Só com florir» × «Só com o florir», XXXIX «Que sabe o rio disso» × «Que sabe o rio», XLIX «nem pensar em nada» × «sem pensar em nada». A lista inteira está na «Sobre». Os outros 26 seguem o livro de 1946.",
+      "opcoes": [
+        {"id": "a", "texto": "A Athena nos 23 poemas e o livro de 1946 nos outros 26, como está", "nota": "É o texto que Pessoa viu impresso e aprovou; a revista foi lida nas imagens do fac-símile, verso a verso. Como a Lira dos Vinte Anos, que segue em cada parte a edição em que ela saiu primeiro.", "recomendada": true},
+        {"id": "b", "texto": "O livro de 1946 nos 49 poemas", "nota": "Um texto só, de uma edição só, com as maiúsculas uniformes. Mas o de 1946 chega aqui só pela transcrição do Arquivo Pessoa (não achei fac-símile livre), e ele perde o que Pessoa mudou para a revista."}
+      ]
+    },
+    {
+      "id": "cousa",
+      "titulo": "«Cousa», que Pessoa escreve sempre, fica «coisa», pela regra da Biblioteca?",
+      "ref": "o livro inteiro (umas 60 vezes, como «O mistério das cousas, onde está ele?», no XXXIX)",
+      "contexto": "Na Athena e nos manuscritos, Caeiro escreve sempre «cousa(s)», nunca «coisa»; era a forma comum em Portugal no tempo dele, e o Pessoa ortônimo também a usa. As edições portuguesas de hoje (e o Arquivo Pessoa) escrevem «coisa»; algumas brasileiras mantêm «cousa». No verso livre de Caeiro a troca não muda o metro. A regra da Biblioteca («não quero palavras em formas arcaicas como cousas») manda «coisa», e assim está.",
+      "opcoes": [
+        {"id": "a", "texto": "«Coisa», como está", "nota": "A regra geral, a mesma da Lira dos Vinte Anos e de Os Maias.", "recomendada": true},
+        {"id": "b", "texto": "Manter «cousa» neste livro", "nota": "Nos 23 poemas da Athena os arquivos do texto guardam «cousa» (basta tirar a troca do montar.py); nos outros 26 ela se repõe pelo Wikisource, que a tem. Seria a única exceção à regra no site."}
+      ]
+    },
+    {
+      "id": "poema-viii",
+      "titulo": "O poema VIII («Num meio-dia de fim de Primavera», o do Menino Jesus) fica no livro?",
+      "ref": "o poema VIII",
+      "contexto": "É o mais longo do ciclo: Caeiro sonha que Jesus fugiu do céu e vive com ele na aldeia como um menino. Trata a Trindade e a Igreja com zombaria («uma pomba estúpida», a Virgem como «uma mala»). Pessoa não o pôs na Athena; saiu na revista Presença em 1931 e está no livro de 1946 e em todas as edições do ciclo. O pedido foi dos 49 poemas, e ele está no ar com os outros.",
+      "opcoes": [
+        {"id": "a", "texto": "Fica, como está", "nota": "O livro tem 49 poemas, e a Literatura respeita o texto do autor.", "recomendada": true},
+        {"id": "b", "texto": "Tirar o VIII e dizer na «Sobre» que ficou de fora", "nota": "O livro passa a 48 poemas no site, com a lacuna explicada."}
+      ]
+    }
+  ]
+}

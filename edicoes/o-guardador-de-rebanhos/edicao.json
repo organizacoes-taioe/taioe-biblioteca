@@ -1,0 +1,238 @@
+{
+  "base": "Athena, 1925",
+  "apresentacao": "**Texto-base.** _O Guardador de Rebanhos_ é o ciclo de 49 poemas de Alberto Caeiro, o heterônimo que Fernando Pessoa fez nascer em 1914. Em vida, Pessoa publicou só uma escolha: 23 poemas na revista _Athena_, n.º 4 (Lisboa, janeiro de 1925), sob o título «De “O Guardador de Rebanhos” (1911–1912)»; o ciclo inteiro saiu depois da sua morte, em _Poemas de Alberto Caeiro_ (Lisboa, Ática, 1946). Os 23 poemas da _Athena_ seguem a revista, que é o texto que o próprio Pessoa levou ao prelo; os outros 26 seguem a edição de 1946. Os números romanos são os do ciclo.\n\n**Como foi estabelecido.** Os poemas da _Athena_ foram lidos verso a verso nas imagens do fac-símile da revista e confrontados palavra por palavra com o texto de 1946, pela transcrição do Arquivo Pessoa, que segue a edição da Ática. Onde os dois divergem, vale a _Athena_: as diferenças são de pontuação, de maiúsculas (a revista escreve «mundo», «sol», «universo»), de algumas estrofes e de poucas palavras (lista abaixo); um erro de composição da revista foi corrigido. Os outros 26 seguem a transcrição do Arquivo Pessoa, conferida com a do Wikisource; onde as duas divergem, a do Wikisource tinha erro (versos que faltam, palavras trocadas). Nos poemas XVI e XLIV, em que o Arquivo Pessoa dá a versão de uma edição posterior, vale a de 1946. As divisões de estrofe desses 26 são as da transcrição, sem fac-símile em que conferi-las.\n\n**Grafia.** A de hoje, na forma brasileira (_ação_, _exata_, _predileta_, _veem_, _ideia_). Mudou só a maneira de escrever, nunca a palavra: ficam as palavras de Portugal e do campo que Caeiro usa (_fato_, no sentido de roupa, _comboio_, _rapariga_, _outeiro_). «Cousa», que Pessoa escreve sempre, se escreve «coisa»; o «porque» das perguntas se escreve «por que». As maiúsculas de Pessoa (_Natureza_, _Primavera_, _Universo_) ficam como ele as pôs.",
+  "fontes": [
+    {
+      "nome": "Athena, revista de arte, vol. I, n.º 4 (Lisboa, janeiro de 1925), fac-símile no Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Athena,_4.pdf",
+      "nota": "pp. 145–156; base dos 23 poemas que saíram ali"
+    },
+    {
+      "nome": "Arquivo Pessoa, O Guardador de Rebanhos (transcrição de Poemas de Alberto Caeiro, Lisboa, Ática, 1946)",
+      "url": "http://arquivopessoa.net/textos/1456",
+      "nota": "base dos outros 26 poemas e confronto dos da Athena"
+    },
+    {
+      "nome": "Wikisource, O Guardador de Rebanhos",
+      "url": "https://pt.wikisource.org/wiki/O_Guardador_de_Rebanhos",
+      "nota": "segundo testemunho; base de XVI e XLIV"
+    }
+  ],
+  "secoes": {
+    "erros": {
+      "titulo": "Erro da Athena",
+      "explica": "Um erro de composição da revista, corrigido. À esquerda, como saiu impresso, na grafia original."
+    },
+    "mantidas": {
+      "titulo": "Onde a Athena se afasta da edição de 1946",
+      "explica": "Nos 23 poemas que Pessoa publicou na revista, vale a Athena. À direita, a lição da edição de 1946 (pela transcrição do Arquivo Pessoa)."
+    }
+  },
+  "erros": [
+    {
+      "cap": "V",
+      "de": "Ha metaphysica bastaste em não pensar em nada.",
+      "para": "Há metafísica bastante em não pensar em nada."
+    }
+  ],
+  "mantidas": [
+    {
+      "cap": "I",
+      "texto": "como um pôr de sol",
+      "variante": "pôr do Sol",
+      "obs": ""
+    },
+    {
+      "cap": "I",
+      "texto": "Como um ruído de chocalhos",
+      "variante": "Com um ruído",
+      "obs": ""
+    },
+    {
+      "cap": "I",
+      "texto": "ao pôr do sol, / Ou quando",
+      "variante": "pôr do Sol",
+      "obs": ""
+    },
+    {
+      "cap": "I",
+      "texto": "no cimo do outeiro; / Saúdo-os e desejo-lhes sol,",
+      "variante": "outeiro. … sol",
+      "obs": ""
+    },
+    {
+      "cap": "V",
+      "texto": "mundo, sol, universo",
+      "variante": "Mundo, Sol, Universo",
+      "obs": "minúsculas em todo o poema"
+    },
+    {
+      "cap": "V",
+      "texto": "Que metafísica têm aquelas árvores?",
+      "variante": "árvores",
+      "obs": "sem o ponto de interrogação"
+    },
+    {
+      "cap": "V",
+      "texto": "Aqui estou! (em itálico)",
+      "variante": "Aqui estou!, sem itálico",
+      "obs": ""
+    },
+    {
+      "cap": "IX",
+      "texto": "E com o nariz e a boca. // Pensar uma flor",
+      "variante": "sem quebra de estrofe",
+      "obs": ""
+    },
+    {
+      "cap": "X",
+      "texto": "Muita coisa mais do que isso.",
+      "variante": "isso,",
+      "obs": ""
+    },
+    {
+      "cap": "XX",
+      "texto": "que corre pela minha aldeia. // O Tejo",
+      "variante": "aldeia,",
+      "obs": ""
+    },
+    {
+      "cap": "XX",
+      "texto": "Pelo Tejo vai-se para o mundo.",
+      "variante": "Mundo",
+      "obs": ""
+    },
+    {
+      "cap": "XX",
+      "texto": "não faz pensar em nada.",
+      "variante": "nada",
+      "obs": "sem ponto"
+    },
+    {
+      "cap": "XXIV",
+      "texto": "ver e ouvir seriam iludirmo-nos",
+      "variante": "seria",
+      "obs": ""
+    },
+    {
+      "cap": "XXIV",
+      "texto": "E nem pensar quando se vê",
+      "variante": "vê,",
+      "obs": ""
+    },
+    {
+      "cap": "XXIV",
+      "texto": "tristes de nós",
+      "variante": "triste de nós",
+      "obs": ""
+    },
+    {
+      "cap": "XXV",
+      "texto": "como a Natureza, / Amigas dos olhos",
+      "variante": "quebra de estrofe entre os dois versos",
+      "obs": ""
+    },
+    {
+      "cap": "XXXII",
+      "texto": "Não parecia (em itálico) os sinos",
+      "variante": "Não parecia, sem itálico",
+      "obs": ""
+    },
+    {
+      "cap": "XXXII",
+      "texto": "Só com florir e ir correndo.",
+      "variante": "Só com o florir",
+      "obs": ""
+    },
+    {
+      "cap": "XXXII",
+      "texto": "a única missão no mundo",
+      "variante": "Mundo",
+      "obs": ""
+    },
+    {
+      "cap": "XXXVII",
+      "texto": "à flor dos ribeiros,",
+      "variante": "ribeiros",
+      "obs": "sem vírgula"
+    },
+    {
+      "cap": "XXXVII",
+      "texto": "Que nascem e se desmancham / E não têm",
+      "variante": "desmancham.",
+      "obs": ""
+    },
+    {
+      "cap": "XXXIX",
+      "texto": "Que sabe o rio disso e que sabe a árvore?",
+      "variante": "Que sabe o rio e que sabe a árvore",
+      "obs": ""
+    },
+    {
+      "cap": "XXXIX",
+      "texto": "sentido oculto nenhum. / É mais estranho",
+      "variante": "nenhum,",
+      "obs": ""
+    },
+    {
+      "cap": "XL",
+      "texto": "no universo",
+      "variante": "Universo",
+      "obs": ""
+    },
+    {
+      "cap": "XL",
+      "texto": "o movimento é que se move,",
+      "variante": "move.",
+      "obs": ""
+    },
+    {
+      "cap": "XLII",
+      "texto": "E o sol é sempre pontual",
+      "variante": "Sol",
+      "obs": ""
+    },
+    {
+      "cap": "XLIII",
+      "texto": "uma traição à Natureza, / Porque",
+      "variante": "Natureza.",
+      "obs": ""
+    },
+    {
+      "cap": "XLVI",
+      "texto": "Como dar-me o sol de fora. … E que o sol",
+      "variante": "Sol",
+      "obs": ""
+    },
+    {
+      "cap": "XLVIII",
+      "texto": "partem para a humanidade.",
+      "variante": "humanidade",
+      "obs": "sem ponto"
+    },
+    {
+      "cap": "XLVIII",
+      "texto": "Ide, ide de mim!",
+      "variante": "Ide, ide, de mim!",
+      "obs": ""
+    },
+    {
+      "cap": "XLIX",
+      "texto": "dão as boas-noites, / E a minha voz",
+      "variante": "boas-noites.",
+      "obs": ""
+    },
+    {
+      "cap": "XLIX",
+      "texto": "como se acabasse o mundo",
+      "variante": "Mundo",
+      "obs": ""
+    },
+    {
+      "cap": "XLIX",
+      "texto": "nem pensar em nada",
+      "variante": "sem pensar em nada",
+      "obs": ""
+    }
+  ]
+}

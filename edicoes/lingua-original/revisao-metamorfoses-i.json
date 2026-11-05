@@ -1,0 +1,18 @@
+{
+  "id": "metamorfoses-i",
+  "rotulo": "Metamorphoses I, 1–88 (Ovídio): tradução ao lado",
+  "url": "/biblioteca/ovidio/metamorfoses-i/",
+  "escolhas": [
+    {
+      "id": "traducao-ao-lado",
+      "titulo": "Fica ao lado do latim a tradução de António Feliciano de Castilho (1841)?",
+      "ref": "o texto inteiro (botão «Português»)",
+      "contexto": "É a única tradução em verso, em domínio público e impressa, que cobre os versos 1 a 88: decassílabos brancos, 120 versos para 88, fiel e de dicção clássica, com algumas palavras pouco comuns («acervo», «salitroso», «orbicular», «levidade», «enramai-vos», «Triões»). Castilho diz nas notas que aproveitou, com emendas, a tradução de Bocage, que não traduziu o proêmio (vv. 1–4). A de Francisco José Freire (1771) só existe em manuscrito, e a de Almeno (1805) não está acessível; as modernas são protegidas.",
+      "opcoes": [
+        {"id": "a", "texto": "Manter a de Castilho, como está", "nota": "Conferida verso a verso no fac-símile de 1841, na ortografia de hoje.", "recomendada": true},
+        {"id": "b", "texto": "Tirar a tradução (só o latim, com as notas)", "nota": "Como no Fedro I,1: basta apagar o traducao.txt e o campo «traducao»."},
+        {"id": "c", "texto": "Trocar pela de Bocage (vv. 5–88, sem o proêmio)", "nota": "Obras poéticas, vol. IV (1875), pp. 154–158: mais vigorosa, menos exata («Não tinha mais que um rosto a Natureza»); o proêmio ficaria sem tradução."}
+      ]
+    }
+  ]
+}

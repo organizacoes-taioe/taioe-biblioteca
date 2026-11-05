@@ -1,0 +1,32 @@
+{
+ "base": "Edição de 1901",
+ "secoes": {
+  "erros": {
+   "titulo": "Erros de 1901 corrigidos",
+   "explica": "Erros de composição do volume de 1901 (letra trocada, letra ou palavra que caiu, pontuação que sumiu no fim do verso). À esquerda, a lição impressa, na grafia do volume; à direita, o texto aqui, na de hoje; o lugar é o poema."
+  }
+ },
+ "apresentacao": "**Texto-base.** _Poesias Completas_ (Rio de Janeiro e Paris, H. Garnier; folha de rosto de 1902, advertência de julho de 1900, impresso em agosto de 1901), o volume em que Machado de Assis reuniu e reviu os seus três livros de versos, _Crisálidas_ (1864), _Falenas_ (1870) e _Americanas_ (1875), e juntou um quarto, _Ocidentais_. É a última forma que o autor deu à sua poesia. Na advertência ele diz que suprimiu «algumas páginas» da primeira série e o prefácio de Caetano Filgueiras às _Crisálidas_; os poemas cortados e o prefácio não entram aqui. Entram as notas do autor, que no volume ficam no fim, e aqui vão no fim do poema a que se referem, sem o número da página, como as traduções que Machado incluiu (_O corvo_, de Poe, a _Lira chinesa_, o canto de Dante, a fábula de La Fontaine, o monólogo de Hamlet) e o quadro em verso _Uma ode de Anacreonte_.\n\n**Como foi estabelecido.** O fac-símile de 1901 (exemplar digitalizado pelo Google, no Wikimedia Commons) foi lido por OCR página a página e confrontado palavra por palavra com a transcrição revista do Wikisource: a das primeiras edições, nas três primeiras partes, e a do próprio volume, nas _Ocidentais_. Cada divergência (cerca de 1.600) foi decidida nas imagens de 1901: vale sempre 1901, onde Machado mudou palavras, versos, a pontuação e às vezes estrofes inteiras (nos _Versos a Corina_, por exemplo, cortou as epígrafes das seções e um trecho longo da terceira). Os erros evidentes de composição foram corrigidos e vão listados abaixo. O título da tradução de Dante fica como no volume, «Purgatório, canto XXV», embora o trecho seja do canto XXV do _Inferno_.\n\n**Grafia.** A de hoje. Mudou a maneira de escrever, não a palavra: ficam as formas do autor que mudam o metro ou que a língua ainda registra (_inda_, _co'a_, _minh'alma_, _d'alma_, _p'ra_, _té_); as contrações com apóstrofo que têm forma de hoje passam a ela (_num_, _dela_, _nesse_, _outrora_), o «porque» das perguntas se escreve «por que», e as formas antigas de palavras de hoje se escrevem como hoje (_coisa_, _dois_, _doido_, _ouro_). Os nomes próprios vão na forma das edições de hoje (_Lísias_, _Mirto_, _Potira_, _Tupã_). As epígrafes e o poema em francês (_Un vieux pays_) ficam como Machado os imprimiu.",
+ "fontes": [
+  {
+   "nome": "Poesias Completas (H. Garnier, 1901), exemplar digitalizado pelo Google, no Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/File:Poesias_Completas_(Machado_de_Assis).pdf",
+   "nota": "fac-símile; a base do texto"
+  },
+  {
+   "nome": "O mesmo exemplar no Internet Archive",
+   "url": "https://archive.org/details/poesiascompleta00assigoog",
+   "nota": "fac-símile"
+  },
+  {
+   "nome": "Wikisource, Poesias Completas (Machado de Assis)",
+   "url": "https://pt.wikisource.org/wiki/Poesias_Completas_(Machado_de_Assis)",
+   "nota": "transcrição revista das Ocidentais, sobre o mesmo fac-símile"
+  },
+  {
+   "nome": "Wikisource, Chrysalidas (1864), Phalenas (1870) e Americanas (1875)",
+   "url": "https://pt.wikisource.org/wiki/Autor:Machado_de_Assis",
+   "nota": "transcrições revistas das primeiras edições, confrontadas palavra por palavra com 1901"
+  }
+ ]
+}

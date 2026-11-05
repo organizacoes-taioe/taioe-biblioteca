@@ -142,7 +142,7 @@ MANUAL = {
     'Ciceronica': 'Ciceroniana', 'Cassange': 'Cassange', 'iriado': 'iriado', 'pagé': 'pajé', 'pagés': 'pajés',
     'Pœstum': 'Pesto', 'Scamandro': 'Escamandro', 'Sciancato': 'Sciancato', 'agra': 'agra', 'perduravel': 'perdurável',
     'Revivirião': 'Reviviriam', 'Pallejou': 'Palejou', 'Romeos': 'Romeus', 'Lenora': 'Lenora', 'cherubim': 'querubim',
-    'prantêe': 'pranteie', 'Asia': 'Ásia', 'cenho': 'cenho', 'doces': 'doces', 'paes': 'pais', 'paços': 'paços', 'Poe': 'Poe', 'roaz': 'roaz', 'viuvez': 'viuvez', 'heis': 'haveis', 'Un': 'Un', 'vieux': 'vieux', 'pays': 'pays', 'cubica': 'cobiça', 'camera': 'câmara', 'viuves': 'viuvez', 'soes': 'sóis', 'sóes': 'sóis', 'viúves': 'viuvez', 'câmera': 'câmara', 'dôces': 'doces', 'dôce': 'doce', 'cubiça': 'cobiça', 'voluvel': 'volúvel', 'desdem': 'desdém', 'nayras': 'nairas', 'Le': 'Le', 'Viram': 'Viram', 'contrahido': 'contraído', 'augmentos': 'aumentos', 'ó': 'ó', 'Ó': 'Ó', 'ô': 'ô', 'affouta': 'afoita', 'affouto': 'afoito', 'almanach': 'almanaque', 'archiduqueza': 'arquiduquesa',
+    'prantêe': 'pranteie', 'fero': 'fero', 'feros': 'feros', 'fera': 'fera', 'area': 'areia', 'supplice': 'súplice', 'supplices': 'súplices', 'Supplices': 'Súplices', 'Asia': 'Ásia', 'cenho': 'cenho', 'doces': 'doces', 'paes': 'pais', 'paços': 'paços', 'Poe': 'Poe', 'roaz': 'roaz', 'viuvez': 'viuvez', 'heis': 'haveis', 'Un': 'Un', 'vieux': 'vieux', 'pays': 'pays', 'cubica': 'cobiça', 'camera': 'câmara', 'viuves': 'viuvez', 'soes': 'sóis', 'sóes': 'sóis', 'viúves': 'viuvez', 'câmera': 'câmara', 'dôces': 'doces', 'dôce': 'doce', 'cubiça': 'cobiça', 'voluvel': 'volúvel', 'desdem': 'desdém', 'nayras': 'nairas', 'Le': 'Le', 'Viram': 'Viram', 'contrahido': 'contraído', 'augmentos': 'aumentos', 'ó': 'ó', 'Ó': 'Ó', 'ô': 'ô', 'affouta': 'afoita', 'affouto': 'afoito', 'almanach': 'almanaque', 'archiduqueza': 'arquiduquesa',
     'azues': 'azuis', 'Azues': 'Azuis', 'bemvinda': 'bem-vinda', 'Chapeo': 'Chapéu', 'Chimera': 'Quimera', 'chimera': 'quimera',
     'chimeras': 'quimeras', 'Chr': 'Chr', 'craneo': 'crânio', 'creada': 'criada', 'creado': 'criado', 'Creador': 'Criador',
     'creador': 'criador', 'creadora': 'criadora', 'creança': 'criança', 'creanças': 'crianças', 'creatura': 'criatura',
@@ -171,7 +171,7 @@ MANUAL = {
     'ermas': 'ermas', 'ledas': 'ledas', 'fuscas': 'fuscas', 'centos': 'centos', 'cotias': 'cutias', 'Cresta': 'Cresta',
     'descora': 'descora', 'empos': 'empós', 'Camenas': 'Camenas', 'aromados': 'aromados', 'arrulha': 'arrulha',
     'arrulho': 'arrulho', 'abelhitas': 'abelhitas', 'peava': 'peava', 'Remador': 'Remador', 'Vesta': 'Vesta',
-    'approuve': 'approuve', 'pensées': 'pensées', 'rives': 'rives', 'soupire': 'soupire', 'sur': 'sur', 'escruto': 'escruto',
+    'approuve': 'aprouve', 'pensées': 'pensées', 'rives': 'rives', 'soupire': 'soupire', 'sur': 'sur', 'escruto': 'escruto',
     'Fil': 'Fil', 'Elie': 'Elie', 'Neila': 'Neila', 'invio': 'ínvio', 'páreas': 'páreas', 'poleá': 'poleá',
     'pascia': 'pascia', 'leidos': 'leidos', 'ideial': 'ideal', 'Paulos': 'Paulos', 'consomem': 'consomem', 'encendido': 'encendido', 'cholera': 'cólera', 'consolatrix': 'consolatrix',
     'sr': 'sr', 'Sr': 'Sr', 'Sra': 'Sra', 'Dr': 'Dr', 'S': 'S',
@@ -268,7 +268,7 @@ def palavra(w):
     if lw in ('á', 'ás'):
         return igualar_caixa(w, 'à' + lw[1:]), 'regra'
     if re.match(r'^á(quell|quill)', lw):
-        return igualar_caixa(w, ao1990(MANUAL.get('a' + lw[1:], 'à' + re.sub('ll', 'l', lw[1:])))), 'regra'
+        return igualar_caixa(w, 'à' + re.sub('ll', 'l', lw[1:])), 'regra'
     m = re.match(r'^(.*)éo(s?)$', lw)
     if m:
         return igualar_caixa(w, m.group(1) + 'éu' + m.group(2)), 'regra'

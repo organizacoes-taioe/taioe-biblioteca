@@ -1,0 +1,159 @@
+{
+ "id": "poesias-completas",
+ "rotulo": "Poesias Completas (Machado de Assis, 1901): texto e grafia",
+ "url": "/biblioteca/machado-de-assis/poesias-completas/",
+ "escolhas": [
+  {
+   "id": "prefacio-filgueiras",
+   "titulo": "O prefácio de Caetano Filgueiras às Crisálidas fica de fora, como no volume de 1901?",
+   "ref": "Advertência e Crisálidas",
+   "contexto": "Na advertência de 1901 Machado diz que suprime o prefácio de Caetano Filgueiras (que saíra na 1ª edição das Crisálidas, 1864), porque o amigo «lhe cegára o juízo» de tanto afeto. O texto daqui segue o volume.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica de fora, como Machado quis",
+     "nota": "É a vontade expressa do autor na advertência.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Entra em apêndice, tirado da 1ª edição (1864)",
+     "nota": "O Wikisource tem a 1ª edição revista; pouco trabalho. Iria com uma linha dizendo que Machado o suprimiu em 1901."
+    }
+   ]
+  },
+  {
+   "id": "poemas-cortados",
+   "titulo": "Os poemas que Machado tirou das Crisálidas e das Falenas em 1901 ficam fora da Biblioteca?",
+   "ref": "Crisálidas e Falenas",
+   "contexto": "Em 1901 Machado cortou muitos poemas da primeira série («Supprimo da primeira série algumas paginas») e alguns das Falenas. A obra daqui é o volume de 1901; os cortados não estão nela. Dos avulsos de Machado que a Biblioteca já tinha, só «A Carolina» (Relíquias de Casa Velha, 1906) continua fora do livro.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam fora; a obra é o volume de 1901",
+     "nota": "Segue a última vontade do autor, como no Bilac (Poesias de 1902).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Entram depois como avulsos, pelas primeiras edições (1864 e 1870)",
+     "nota": "Mais um pedido; as primeiras edições estão revistas no Wikisource."
+    }
+   ]
+  },
+  {
+   "id": "dante-titulo",
+   "titulo": "O título da tradução de Dante fica «(Purgatório, canto XXV)», como no volume, embora o trecho seja do Inferno?",
+   "ref": "Ocidentais, «Dante»",
+   "contexto": "O volume de 1901 imprime «(PURGATORIO, CANTO XXV.)», mas os versos (Vanni Fucci, as figas, Pistoia, os ladrões que se transformam em serpentes) são do canto XXV do Inferno. A apresentação da obra já avisa.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica como impresso, com o aviso na apresentação",
+     "nota": "O texto do autor sai como ele o publicou; o erro é de fato, não de composição.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Corrigir para «(Inferno, canto XXV)» e listar entre os erros de 1901",
+     "nota": "O leitor não estranha; a lista dos erros diz o que estava impresso."
+    }
+   ]
+  },
+  {
+   "id": "pausada",
+   "titulo": "Na Cristã nova, «Com voz, não frouxa, mas pausada, fala» corrige o «pousada» de 1901?",
+   "ref": "Americanas, A cristã nova",
+   "contexto": "A 1ª edição (1875) tem «pausada»; o volume de 1901 imprime «pousada», que não tem sentido próprio para a voz. Foi tratado como erro de composição.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«pausada», como na 1ª edição (erro de 1901 corrigido)",
+     "nota": "É o sentido do verso; entra na lista dos erros.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«pousada», como impresso em 1901",
+     "nota": "Seria uma revisão do autor, pouco provável."
+    }
+   ]
+  },
+  {
+   "id": "de-tempo",
+   "titulo": "Nos Versos a Corina, fica «Quando, depois de tempo e do cansaço», como em 1901?",
+   "ref": "Crisálidas, Versos a Corina, III",
+   "contexto": "A 1ª edição (1864) tem «depois do tempo e do cansaço»; 1901 imprime «depois de tempo». Pode ser revisão ou erro de composição; ficou como impresso.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«de tempo», como em 1901",
+     "nota": "Não é erro evidente: «depois de tempo» se lê bem.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«do tempo», como em 1864",
+     "nota": "O paralelo com «do cansaço» sugere erro de composição."
+    }
+   ]
+  },
+  {
+   "id": "val",
+   "titulo": "Na Flor da mocidade fica «Que a flor morta já nada val», com a forma antiga?",
+   "ref": "Falenas, Flor da mocidade",
+   "contexto": "«Val» (vale) rima com «mal» e «jovial» no triolé; a forma de hoje quebraria a rima. Pela regra da Biblioteca, as formas que mudam o metro ou a rima ficam.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica «val»",
+     "nota": "É a forma do autor, necessária à rima; o vocabulário pode dar a nota.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Trocar por «vale»",
+     "nota": "Grafia de hoje, mas perde a rima."
+    }
+   ]
+  },
+  {
+   "id": "nomes",
+   "titulo": "Os nomes próprios vão na forma de hoje (Lísias, Cléon, Mirto, Potira, Tupã, Corina)?",
+   "ref": "Toda a obra",
+   "contexto": "O volume escreve Lysias, Cleon, Myrto, Potyra, Tupan, Corinna. Aqui foram para a forma das edições de hoje, como na Iracema (Araquém, Poti, Tupã). Ficam como estão os nomes estrangeiros (Spinoza, Mickiewicz) e Niani.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Na forma de hoje",
+     "nota": "Como nas outras obras da Biblioteca.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Como impressos em 1901",
+     "nota": "Mais fiel à página, mas destoa do resto da grafia."
+    }
+   ]
+  },
+  {
+   "id": "aquilea",
+   "titulo": "Na Clódia, «E mal se rompe o espumeo seio àquela» lê bem o «áquilea» de 1901?",
+   "ref": "Ocidentais, Clódia",
+   "contexto": "O volume imprime «áquilea»; a transcrição revista do Wikisource leu «áquella» (àquela), que dá sentido ao verso (a onda que mal se rompe à praia). «Aquileia» (a cidade) não cabe no contexto. Ficou «àquela».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«àquela»",
+     "nota": "Leitura que dá sentido; o «áquilea» seria letra trocada.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Outra leitura (dizer qual)",
+     "nota": "Conferir de novo na imagem."
+    }
+   ]
+  }
+ ]
+}

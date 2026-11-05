@@ -600,9 +600,6 @@ SEM_PAR	sorvos	sorvos	1
 SEM_PAR	stoica	stoica	1
 SEM_PAR	superfinas	superfinas	1
 SEM_PAR	superno	superno	1
-SEM_PAR	supplice	suplice	1
-SEM_PAR	supplices	suplices	1
-SEM_PAR	Supplices	Suplices	1
 SEM_PAR	surdia	surdia	1
 SEM_PAR	suspirosa	suspirosa	1
 SEM_PAR	sustinha	sustinha	2
@@ -935,7 +932,6 @@ esqueleto	approxima	aproxima	1
 esqueleto	approximava	aproximava	1
 esqueleto	ardentissimo	ardentíssimo	1
 esqueleto	ardêra	ardera	1
-esqueleto	area	área	1
 esqueleto	argolhinhas	argolinhas	1
 esqueleto	arrebatára	arrebatara	1
 esqueleto	atonita	atônita	1
@@ -1108,7 +1104,6 @@ esqueleto	fallára	falara	1
 esqueleto	Faser	Fazer	1
 esqueleto	fatidica	fatídica	1
 esqueleto	fe	fé	6
-esqueleto	fero	ferro	2
 esqueleto	ficára	ficara	1
 esqueleto	flammejantes	flamejantes	1
 esqueleto	fluctua	flutua	2
@@ -1633,6 +1628,7 @@ manual	ancian	anciã	2
 manual	ancias	ânsias	3
 manual	angelicaes	angelicais	1
 manual	apostrophe	apóstrofe	1
+manual	approuve	aprouve	1
 manual	aquella	aquela	26
 manual	Aquella	Aquela	8
 manual	aquellas	aquelas	4
@@ -1640,6 +1636,7 @@ manual	aquelle	aquele	15
 manual	Aquelle	Aquele	8
 manual	Aquelles	Aqueles	4
 manual	archiduqueza	arquiduquesa	1
+manual	area	areia	1
 manual	Arethusa	Aretusa	1
 manual	ARTHUR	ARTUR	1
 manual	aruspice	arúspice	2
@@ -2085,6 +2082,9 @@ manual	spectro	espectro	1
 manual	sphynge	esfinge	1
 manual	strophe	estrofe	1
 manual	succuriuba	sucuriúba	1
+manual	supplice	súplice	1
+manual	supplices	súplices	1
+manual	Supplices	Súplices	1
 manual	supplicio	suplício	2
 manual	surgio	surgiu	1
 manual	suspirae	suspirai	4
@@ -2163,9 +2163,9 @@ regra	véo	véu	8
 regra	véos	véus	1
 regra	Á	À	27
 regra	á	à	209
-regra	áquella	aquela	1
-regra	Áquelle	Aquele	1
-regra	áquelle	aquele	1
+regra	áquella	àquela	1
+regra	Áquelle	Àquele	1
+regra	áquelle	àquele	1
 regra	ás	às	66
 regra	Ás	Às	7
 regras	annaes	anais	1

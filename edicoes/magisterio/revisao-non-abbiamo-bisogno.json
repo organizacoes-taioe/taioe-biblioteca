@@ -1,0 +1,45 @@
+{
+ "id": "magisterio-non-abbiamo-bisogno",
+ "rotulo": "Non Abbiamo Bisogno (Pio XI, 1931)",
+ "url": "/biblioteca/igreja-catolica/non-abbiamo-bisogno/",
+ "escolhas": [
+  {
+   "id": "reserva-do-juramento",
+   "titulo": "A reserva que o papa propõe para o juramento fascista fica «ressalvadas as leis de Deus e da Igreja»?",
+   "ref": "§ 59",
+   "contexto": "É o trecho mais citado da encíclica: a quem já tinha a carteira do partido, o papa sugere fazer diante de Deus a reserva «_salve le leggi di Dio e della Chiesa_» ou «_salvi i doveri di buon cristiano_». Hoje está «ressalvadas as leis de Deus e da Igreja» e «ressalvados os deveres de bom cristão».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«ressalvadas as leis…», «ressalvados os deveres…», como está",
+     "nota": "É a forma corrente em português para uma restrição desse tipo, e guarda a concordância do italiano.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«salvas as leis…», «salvos os deveres…»",
+     "nota": "Mais perto da letra (_salve_, _salvi_); em português soa jurídico e um pouco antigo."
+    }
+   ]
+  },
+  {
+   "id": "tessera",
+   "titulo": "A _tessera_ do Partido Fascista fica «carteira»?",
+   "ref": "§ 22, § 58 e § 59",
+   "contexto": "O documento fala da _tessera_ (o documento de filiação ao partido), que com o juramento era «condição para a carreira, para o pão, para a vida», e diz que a «mensagem» do governo acusava a Ação Católica de ter «estandartes, distintivos, carteiras». Hoje está «carteira» e, para _tesserati_, «receberam a carteira».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«carteira», como está",
+     "nota": "A palavra do documento de identidade ou de filiação no Brasil (carteira do partido, carteira de sócio).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«cartão do partido»",
+     "nota": "Mais comum para filiação partidária em alguns usos; no § 22, «cartões» ao lado de «distintivos» fica menos claro."
+    }
+   ]
+  }
+ ]
+}

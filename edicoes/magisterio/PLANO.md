@@ -75,6 +75,17 @@ Uma decisão de cada nas pendências («Biblioteca: traduções»): `revisao-<do
 
 Duas decisões de cada nas pendências (`revisao-<documento>.json`).
 
+## Pedidos de 05/11 (branch `pedido-magisterio-6`)
+
+| documento | papa | data | língua | palavras | estado |
+|---|---|---|---|---|---|
+| *Ad Catholici Sacerdotii* | Pio XI | 1935 | latim | ~13,4 mil (com 171 notas) | pronto na branch; partes I–IV do documento; a p. 35 das AAS falta no PDF (§ 57–60 só pelo vatican.va) |
+| *Non Abbiamo Bisogno* | Pio XI | 1931 | italiano | ~9,4 mil | pronto na branch; partes I–V; grafia do vatican.va (moderniza a das AAS), palavras pelas AAS |
+
+Duas decisões de cada nas pendências (`revisao-<documento>.json`). Método novo: comparação palavra a palavra do
+texto do site com o OCR das AAS por script (as divergências apontam os erros dos dois lados) e tradução dividida
+em partes entre tradutores com termos fixos, uniformizada no fim.
+
 ## Depois
 
 Os próximos vêm da lista do Magistério em `/admin/sugestoes/`, quando o Gere pedir. O levantamento

@@ -1,14 +1,8 @@
 # Branch pedido-magisterio-6 (pedidos de 05/11): o que falta
 
-Dois documentos de Pio XI: *Ad Catholici Sacerdotii* (1935, latim, AAS 28 (1936), p. 5-53) e *Non Abbiamo
-Bisogno* (1931, italiano, AAS 23 (1931), p. 285-312). Rascunhos e scripts (fora do git) em
-`~/.cache/claude-pedidos-0511/magisterio-6/` (só neste PC).
+Os dois documentos de Pio XI estão prontos (original conferido com as AAS, tradução, notas do tradutor, obra.py,
+`revisao-<doc>.json` com 2 decisões cada, vocabulário com `conferir` ok; gerados e conferidos na worktree sem erro):
+*Ad Catholici Sacerdotii* (1935, latim) e *Non Abbiamo Bisogno* (1931, italiano).
 
-- [x] Originais montados e conferidos com o OCR das AAS (`<doc>/original/<doc>.txt`, com {§ n} da versão inglesa).
-- [ ] Tradução (`<doc>/traducao/<doc>.txt`) e notas do tradutor (`traducao/notas-<doc>.md`).
-- [ ] `obras.py` (DOCS, CORRECOES) → `python3 edicoes/magisterio/obras.py <doc>`; linhas em `conteudo/catolicismo.js`
-      e `conteudo/igreja-catolica/<doc>.js` pelo `python3 ferramentas/traducoes.py magisterio/<doc>`.
-- [ ] `revisao-<doc>.json` (1–2 decisões), vocabulário `edicoes/vocabulario/<doc>.json` (`conferir` ok).
-- [ ] gerar/conferir na worktree, sem commitar `public/`, `enderecos.json`, `obras.sql`.
-
-Falta ao principal: juntar a branch, gerar o site, Catálogos e tirar os dois dos pedidos.
+Falta só o que é do principal: juntar a branch, gerar o site, `obras.sql`, Catálogos (`obras`, `traducoes`,
+`sugestoes`) e tirar os dois dos pedidos. Pode apagar este arquivo ao juntar.

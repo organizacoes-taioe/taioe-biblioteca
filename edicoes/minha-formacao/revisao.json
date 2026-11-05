@@ -1,0 +1,27 @@
+{
+  "id": "minha-formacao",
+  "rotulo": "Minha Formação (Joaquim Nabuco): grafia e leitura",
+  "url": "/biblioteca/joaquim-nabuco/minha-formacao/",
+  "escolhas": [
+    {
+      "id": "nomes-de-pessoas",
+      "titulo": "Os nomes de pessoas vão na grafia de hoje (Luís Gama, Rui Barbosa, Quintino Bocaiuva) ou como em 1900 (Luiz Gama, Ruy Barbosa, Quintino Bocayuva)?",
+      "ref": "o livro inteiro (centenas de nomes)",
+      "contexto": "O livro é cheio de nomes de políticos, escritores e amigos do autor. Em 1900 eles vêm na grafia do tempo (Luiz, Ruy, Theophilo Ottoni, Bocayuva, Zacharias); hoje muitos deles são citados assim mesmo, mas a grafia atual é a regra que a Biblioteca segue nos outros livros (Policarpo Quaresma, Os Maias). Os nomes estrangeiros ficam sempre como na língua deles (Bagehot, Thiers, Tautphoeus).",
+      "opcoes": [
+        {"id": "a", "texto": "Grafia de hoje, como está (Luís Gama, Rui Barbosa, Teófilo Ottoni)", "nota": "É o que se fez nos outros livros; o leitor acha os nomes como os vê hoje nos livros de história.", "recomendada": true},
+        {"id": "b", "texto": "Como em 1900 (Luiz Gama, Ruy Barbosa, Theophilo Ottoni)", "nota": "Mais perto de como as pessoas assinavam; fica uma grafia antiga no meio do texto moderno. Uma regra no gerador da grafia e uma rodada de conferência."}
+      ]
+    },
+    {
+      "id": "cravado",
+      "titulo": "Cap. XVIII: fica «o que havia impresso e cravado no dele» (1900) ou se corrige para «gravado», como as edições modernas?",
+      "ref": "cap. XVIII (Meu pai)",
+      "contexto": "Nabuco diz que o espírito dele guarda «uma cópia, um borrão mesmo, do que havia impresso e cravado no dele [o espírito do pai]». Os dois exemplares de 1900 trazem «cravado»; o texto moderno do Wikisource e as Obras Completas de 1949 dão «gravado». As duas palavras fazem sentido (cravar = fixar fundo; gravar = imprimir), e «impresso e gravado» é a imagem mais comum.",
+      "opcoes": [
+        {"id": "a", "texto": "«cravado», como em 1900", "nota": "Não é erro evidente; a regra é corrigir só o que a frase não admite.", "recomendada": true},
+        {"id": "b", "texto": "«gravado», como as edições modernas", "nota": "Entra na lista dos erros de 1900 corrigidos, na página «Sobre»."}
+      ]
+    }
+  ]
+}

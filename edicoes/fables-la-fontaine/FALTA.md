@@ -16,7 +16,16 @@ poema de `edicoes/lingua-original/<pasta>/` sob o autor novo `jean-de-la-fontain
   ficam sem (Filinto Elísio é pesado; Curvo Semedo é livre; Paranapiacaba e a coletânea de 1886 sem
   cópia digital ao alcance). `revisao.json` com 8 escolhas (conferido pelo `traducoes_revisao.py`).
 
+- Glossários das 12 (1.925 verbetes; `conferir` dá «tudo certo»), feitos pelo principal (os
+  subagentes não puderam ser lançados: limite de concorrência), com os verbetes partilhados em
+  `glossario/m1–m6.py`, a escolha por ocorrência em `glossario/escolhas.py` e
+  `python3 edicoes/fables-la-fontaine/glossario/montar.py gravar`. Definições escritas no padrão do
+  fr.wiktionary (lema = página dele), sem conferência verbete a verbete no próprio Wiktionary: o
+  download do cache (`ferramentas/cache/wiktionary/fr/c2`) estava lento por limite da API.
+- `conteudo/jean-de-la-fontaine/lingua-original.js` e `conteudo/lingua-original.js` gravados pelo
+  `lingua_original.py publicar`.
+
 ## Falta
-- Glossários (`glossario.json` de cada pasta), por subagentes Sonnet; depois revisão das notas
-  difíceis; `python3 ferramentas/lingua_original.py conferir` sem problemas.
+- Conferir os lemas no fr.wiktionary quando o cache estiver completo (ver abaixo) e ajustar as
+  definições que se afastem do verbete.
 - `publicar --provisorio` só para ver; gerar e conferir o site na worktree; não commitar `public/`.

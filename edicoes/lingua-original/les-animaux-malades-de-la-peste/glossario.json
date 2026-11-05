@@ -1,0 +1,2437 @@
+{
+  "verbetes": {
+    "les": {
+      "lema": "les",
+      "classe": "artigo definido",
+      "forma": "plural",
+      "def": [
+        "Determinante que marca um substantivo plural, referindo-se a entidades definidas no contexto."
+      ]
+    },
+    "animaux": {
+      "lema": "animal",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Ser vivo que se move e sente, por oposição às plantas: animal, bicho."
+      ]
+    },
+    "malades": {
+      "lema": "malade",
+      "classe": "adjetivo",
+      "forma": "plural",
+      "def": [
+        "Que sofre de uma doença: doente."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica a origem, a matéria, a posse ou a relação entre duas palavras: de."
+      ]
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante que marca um substantivo feminino singular, referindo-se a uma entidade definida no contexto."
+      ]
+    },
+    "peste": {
+      "lema": "peste",
+      "classe": "substantivo feminino",
+      "def": [
+        "Doença contagiosa grave, que mata muita gente: peste."
+      ],
+      "nota": "«Puisqu’il faut l’appeler par son nom»: o nome dá medo, quase não se ousa dizê-lo."
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante que indica um ser ou uma coisa de maneira indeterminada: um, algum."
+      ]
+    },
+    "mal#3": {
+      "lema": "mal",
+      "classe": "substantivo masculino",
+      "def": [
+        "Doença: mal."
+      ],
+      "nota": "«Un mal qui répand la terreur»: a peste."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "Pronome relativo, sujeito da oração que introduz: que, o qual, quem."
+      ]
+    },
+    "répand": {
+      "lema": "répandre",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Fazer chegar a muitos lugares: espalhar."
+      ]
+    },
+    "terreur": {
+      "lema": "terreur",
+      "classe": "substantivo feminino",
+      "def": [
+        "Medo muito forte: terror."
+      ]
+    },
+    "mal": {
+      "lema": "mal",
+      "classe": "substantivo masculino",
+      "def": [
+        "O que causa dor, dano ou doença: mal."
+      ]
+    },
+    "que#2": {
+      "lema": "que",
+      "classe": "pronome relativo",
+      "def": [
+        "Pronome relativo, objeto direto ou atributo da oração que introduz: que, o qual."
+      ]
+    },
+    "le": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante que marca um substantivo masculino singular, referindo-se a uma entidade definida no contexto."
+      ]
+    },
+    "ciel#2": {
+      "lema": "ciel",
+      "classe": "substantivo masculino",
+      "def": [
+        "Deus, a Providência; os poderes do alto: o Céu."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Indica o lugar, o tempo, o estado ou a maneira: em."
+      ]
+    },
+    "sa": {
+      "lema": "son",
+      "classe": "adjetivo possessivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que pertence a ele ou a ela: sua, seu."
+      ]
+    },
+    "fureur": {
+      "lema": "fureur",
+      "classe": "substantivo feminino",
+      "def": [
+        "Cólera violenta, fúria."
+      ]
+    },
+    "inventa": {
+      "lema": "inventer",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Criar algo que não existia: inventou."
+      ]
+    },
+    "pour": {
+      "lema": "pour",
+      "classe": "preposição",
+      "def": [
+        "Indica a finalidade, o destino ou a causa: para, por."
+      ]
+    },
+    "punir": {
+      "lema": "punir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Castigar alguém por uma falta: punir."
+      ]
+    },
+    "crimes": {
+      "lema": "crime",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Falta grave: crime."
+      ]
+    },
+    "terre": {
+      "lema": "terre",
+      "classe": "substantivo feminino",
+      "def": [
+        "O solo, o chão: terra."
+      ]
+    },
+    "puisqu’": {
+      "lema": "puisque",
+      "classe": "conjunção",
+      "forma": "elisão de «puisque»",
+      "def": [
+        "Já que, uma vez que."
+      ]
+    },
+    "il#2": {
+      "lema": "il",
+      "classe": "pronome pessoal",
+      "forma": "impessoal",
+      "def": [
+        "Sujeito dos verbos impessoais («il faut», «il est»); não se traduz."
+      ]
+    },
+    "faut": {
+      "lema": "falloir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser preciso, ser necessário."
+      ]
+    },
+    "l’#2": {
+      "lema": "l’",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «le» ou «la»",
+      "def": [
+        "Elisão dos pronomes «le» e «la» (objeto direto) diante de vogal ou de h mudo: o, a."
+      ]
+    },
+    "appeler": {
+      "lema": "appeler",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Designar por um nome: chamar."
+      ]
+    },
+    "par": {
+      "lema": "par",
+      "classe": "preposição",
+      "def": [
+        "Indica o meio, a causa, o agente ou o lugar por onde se passa: por, pelo."
+      ]
+    },
+    "son": {
+      "lema": "son",
+      "classe": "adjetivo possessivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que pertence a ele ou a ela: seu, sua (diante de masculino ou de vogal)."
+      ]
+    },
+    "nom": {
+      "lema": "nom",
+      "classe": "substantivo masculino",
+      "def": [
+        "Palavra que designa uma pessoa ou coisa: nome."
+      ]
+    },
+    "capable": {
+      "lema": "capable",
+      "classe": "adjetivo",
+      "def": [
+        "Que pode fazer alguma coisa: capaz."
+      ]
+    },
+    "d’#2": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "elisão de «de»",
+      "def": [
+        "Introduz um infinitivo que completa um verbo, um adjetivo ou um substantivo: de, a (muitas vezes não se traduz)."
+      ]
+    },
+    "enrichir": {
+      "lema": "enrichir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Tornar rico: enriquecer."
+      ],
+      "nota": "«Enrichir l’Achéron»: encher de mortos o mundo dos mortos."
+    },
+    "jour": {
+      "lema": "jour",
+      "classe": "substantivo masculino",
+      "def": [
+        "Tempo em que o sol está acima do horizonte; dia."
+      ]
+    },
+    "l’": {
+      "lema": "l’",
+      "classe": "artigo definido",
+      "forma": "elisão de «le» ou «la»",
+      "def": [
+        "Elisão dos artigos definidos «le» e «la» diante de vogal ou de h mudo."
+      ]
+    },
+    "achéron": {
+      "lema": "Achéron",
+      "classe": "nome próprio",
+      "def": [
+        "(Mitologia) Rio dos infernos, que as almas dos mortos atravessavam: Aqueronte."
+      ]
+    },
+    "faisait": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Realizar, produzir; «faire la guerre», guerrear."
+      ]
+    },
+    "aux": {
+      "lema": "aux",
+      "classe": "artigo definido contraído",
+      "forma": "contração de «à» + «les»",
+      "def": [
+        "Contração da preposição «à» com o artigo «les»: aos, às, nos, nas."
+      ]
+    },
+    "guerre": {
+      "lema": "guerre",
+      "classe": "substantivo feminino",
+      "def": [
+        "Luta armada: guerra; «faire la guerre à», combater."
+      ]
+    },
+    "ils": {
+      "lema": "il",
+      "classe": "pronome pessoal",
+      "forma": "masculino plural, sujeito",
+      "def": [
+        "Pronome pessoal da terceira pessoa do plural masculino, sujeito: eles."
+      ]
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "advérbio",
+      "def": [
+        "Advérbio de negação, quase sempre com «pas», «point», «plus», «rien» etc.: não."
+      ]
+    },
+    "mouraient": {
+      "lema": "mourir",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Deixar de viver: morriam."
+      ]
+    },
+    "pas": {
+      "lema": "pas",
+      "classe": "advérbio",
+      "def": [
+        "Com «ne», forma a negação: não."
+      ]
+    },
+    "tous": {
+      "lema": "tout",
+      "classe": "pronome indefinido",
+      "forma": "masculino plural",
+      "def": [
+        "Todas as pessoas, todos sem exceção: todos."
+      ]
+    },
+    "mais": {
+      "lema": "mais",
+      "classe": "conjunção",
+      "def": [
+        "Indica oposição, restrição ou correção: mas, porém."
+      ]
+    },
+    "étaient#2": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do plural (auxiliar)",
+      "def": [
+        "Verbo auxiliar da voz passiva: «étaient frappés», eram atingidos."
+      ]
+    },
+    "frappés": {
+      "lema": "frapper",
+      "classe": "verbo",
+      "forma": "particípio passado, masculino plural",
+      "def": [
+        "Atingir; (dito de doença) atacar: atingidos."
+      ]
+    },
+    "on": {
+      "lema": "on",
+      "classe": "pronome indefinido",
+      "def": [
+        "Pronome sujeito que designa uma ou mais pessoas indeterminadas: a gente, alguém, se (como em «diz-se»)."
+      ]
+    },
+    "n’": {
+      "lema": "ne",
+      "classe": "advérbio",
+      "forma": "elisão de «ne»",
+      "def": [
+        "Advérbio de negação, quase sempre com «pas», «point», «plus», «rien» etc.: não."
+      ]
+    },
+    "en#2": {
+      "lema": "en",
+      "classe": "pronome",
+      "def": [
+        "Pronome que retoma um complemento introduzido por «de»: disso, dele, dela, daí; às vezes «alguns»."
+      ]
+    },
+    "voyait": {
+      "lema": "voir",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Perceber pela vista: via."
+      ]
+    },
+    "point": {
+      "lema": "point",
+      "classe": "advérbio",
+      "def": [
+        "Com «ne», nega com mais força que «pas»: não, nada, de modo nenhum."
+      ],
+      "nota": "Hoje é literário ou regional; no século XVII era comum."
+    },
+    "d’#3": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "elisão de «de»",
+      "def": [
+        "Depois de negação ou de quantidade, substitui o artigo: «pas d’», «point d’», «assez d’»; em português, nada ou «nenhum»."
+      ]
+    },
+    "occupés": {
+      "lema": "occuper",
+      "classe": "verbo",
+      "forma": "particípio passado, masculino plural",
+      "def": [
+        "«Occupé à», ocupado em, entretido com."
+      ],
+      "nota": "«On n’en voyait point d’occupés…»: não se via nenhum deles ocupado em buscar o sustento."
+    },
+    "à#2": {
+      "lema": "à",
+      "classe": "preposição",
+      "def": [
+        "Introduz um infinitivo que completa um verbo, um adjetivo ou um substantivo: a, de, para."
+      ]
+    },
+    "chercher": {
+      "lema": "chercher",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Tentar encontrar: procurar, buscar."
+      ]
+    },
+    "soutien": {
+      "lema": "soutien",
+      "classe": "substantivo masculino",
+      "def": [
+        "O que sustenta, o que mantém: sustento, apoio."
+      ]
+    },
+    "d’": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "elisão de «de»",
+      "def": [
+        "Indica a origem, a matéria, a posse ou a relação entre duas palavras: de."
+      ]
+    },
+    "une": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante que indica um ser ou uma coisa de maneira indeterminada: uma, alguma."
+      ]
+    },
+    "mourante": {
+      "lema": "mourant",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que está morrendo: moribunda."
+      ]
+    },
+    "vie": {
+      "lema": "vie",
+      "classe": "substantivo feminino",
+      "def": [
+        "O fato de viver; a existência: vida."
+      ]
+    },
+    "nul": {
+      "lema": "nul",
+      "classe": "adjetivo indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Nenhum, nem um só."
+      ]
+    },
+    "mets": {
+      "lema": "mets",
+      "classe": "substantivo masculino",
+      "def": [
+        "Cada um dos alimentos preparados que se servem numa refeição: prato, iguaria."
+      ]
+    },
+    "excitait": {
+      "lema": "exciter",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Despertar, provocar (um desejo): excitava."
+      ]
+    },
+    "leur": {
+      "lema": "leur",
+      "classe": "pronome pessoal",
+      "forma": "terceira pessoa do plural, objeto indireto",
+      "def": [
+        "Pronome pessoal da terceira pessoa do plural, objeto indireto: lhes, a eles."
+      ]
+    },
+    "envie": {
+      "lema": "envie",
+      "classe": "substantivo feminino",
+      "def": [
+        "Desejo, vontade; aqui, o apetite."
+      ]
+    },
+    "ni": {
+      "lema": "ni",
+      "classe": "conjunção",
+      "def": [
+        "Liga, numa frase negativa, palavras ou orações: nem."
+      ]
+    },
+    "loups": {
+      "lema": "loup",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Mamífero carnívoro selvagem da família dos canídeos, parecido com um cão grande: lobo."
+      ]
+    },
+    "renards": {
+      "lema": "renard",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Mamífero carnívoro da família dos canídeos, de focinho fino e cauda peluda: raposa."
+      ]
+    },
+    "épiaient": {
+      "lema": "épier",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Observar às escondidas, à espreita: espreitavam."
+      ]
+    },
+    "douce": {
+      "lema": "doux",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Mansa, que não faz mal: doce, mansa."
+      ]
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "Liga palavras ou orações da mesma função: e."
+      ]
+    },
+    "innocente": {
+      "lema": "innocent",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que não faz mal; sem culpa: inocente."
+      ]
+    },
+    "proie": {
+      "lema": "proie",
+      "classe": "substantivo feminino",
+      "def": [
+        "Ser vivo ou coisa de que um animal se apodera para comer: presa."
+      ]
+    },
+    "tourterelles": {
+      "lema": "tourterelle",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Ave parecida com o pombo, menor, símbolo dos namorados: rola, rolinha."
+      ]
+    },
+    "se": {
+      "lema": "se",
+      "classe": "pronome pessoal",
+      "forma": "reflexivo, terceira pessoa",
+      "def": [
+        "Pronome reflexivo da terceira pessoa: se, a si mesmo."
+      ]
+    },
+    "fuyaient": {
+      "lema": "fuir",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "«Se fuir», evitar-se um ao outro: fugiam uma da outra."
+      ]
+    },
+    "plus": {
+      "lema": "plus",
+      "classe": "advérbio",
+      "def": [
+        "Com «ne», indica que uma coisa cessou: não… mais, já não."
+      ]
+    },
+    "amour": {
+      "lema": "amour",
+      "classe": "substantivo masculino",
+      "def": [
+        "Sentimento de afeição forte: amor."
+      ]
+    },
+    "partant": {
+      "lema": "partant",
+      "classe": "conjunção",
+      "def": [
+        "(Antigo ou literário) Por conseguinte, portanto."
+      ]
+    },
+    "de#3": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Depois de negação ou de quantidade, substitui o artigo: «pas de», «point de», «assez de»; em português, nada ou «nenhum»."
+      ]
+    },
+    "joie": {
+      "lema": "joie",
+      "classe": "substantivo feminino",
+      "def": [
+        "Sentimento de prazer e de satisfação: alegria."
+      ]
+    },
+    "lion": {
+      "lema": "lion",
+      "classe": "substantivo masculino",
+      "def": [
+        "Grande mamífero carnívoro da família dos felinos, de juba no macho, tido como rei dos animais: leão."
+      ]
+    },
+    "tint#2": {
+      "lema": "tenir",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "«Tenir conseil», reunir o conselho, deliberar."
+      ]
+    },
+    "conseil": {
+      "lema": "conseil",
+      "classe": "substantivo masculino",
+      "def": [
+        "Assembleia de pessoas que deliberam: conselho; «tenir conseil», reunir o conselho."
+      ]
+    },
+    "dit": {
+      "lema": "dire",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Exprimir por palavras: dizer, disse."
+      ]
+    },
+    "mes": {
+      "lema": "mon",
+      "classe": "adjetivo possessivo",
+      "forma": "plural",
+      "def": [
+        "Que pertencem a mim: meus, minhas."
+      ]
+    },
+    "chers": {
+      "lema": "cher",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que se ama: caro, querido."
+      ]
+    },
+    "amis": {
+      "lema": "ami",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Pessoa a quem se tem afeição: amigo."
+      ]
+    },
+    "je": {
+      "lema": "je",
+      "classe": "pronome pessoal",
+      "forma": "primeira pessoa do singular, sujeito",
+      "def": [
+        "Pronome pessoal da primeira pessoa do singular, sujeito: eu."
+      ]
+    },
+    "crois": {
+      "lema": "croire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Ter por verdadeiro, julgar: creio."
+      ]
+    },
+    "que": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Liga a oração principal a uma oração subordinada: que."
+      ]
+    },
+    "a#2": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (auxiliar)",
+      "def": [
+        "Verbo auxiliar dos tempos compostos: ter, haver (não se traduz à parte)."
+      ]
+    },
+    "permis": {
+      "lema": "permettre",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Deixar que algo aconteça: permitido."
+      ]
+    },
+    "nos": {
+      "lema": "notre",
+      "classe": "adjetivo possessivo",
+      "forma": "plural",
+      "def": [
+        "Que pertencem a nós: nossos, nossas."
+      ]
+    },
+    "péchés": {
+      "lema": "péché",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Falta contra a lei de Deus: pecado."
+      ]
+    },
+    "cette": {
+      "lema": "ce",
+      "classe": "adjetivo demonstrativo",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante que mostra o ser ou a coisa de que se fala: esta, essa, aquela."
+      ]
+    },
+    "infortune": {
+      "lema": "infortune",
+      "classe": "substantivo feminino",
+      "def": [
+        "Desgraça, má sorte: infortúnio."
+      ]
+    },
+    "que#7": {
+      "lema": "que",
+      "classe": "conjunção",
+      "forma": "com o subjuntivo",
+      "def": [
+        "Introduz, com o subjuntivo, uma ordem, um desejo ou uma hipótese: que."
+      ]
+    },
+    "plus#2": {
+      "lema": "plus",
+      "classe": "advérbio",
+      "def": [
+        "Em maior quantidade ou grau; forma o comparativo: mais."
+      ]
+    },
+    "coupable": {
+      "lema": "coupable",
+      "classe": "adjetivo",
+      "def": [
+        "Que cometeu uma falta: culpado."
+      ]
+    },
+    "nous": {
+      "lema": "nous",
+      "classe": "pronome pessoal",
+      "forma": "primeira pessoa do plural",
+      "def": [
+        "Pronome pessoal da primeira pessoa do plural: nós, nos."
+      ]
+    },
+    "sacrifie": {
+      "lema": "sacrifier",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "«Se sacrifier», oferecer-se em sacrifício: que se sacrifique."
+      ]
+    },
+    "traits": {
+      "lema": "trait",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "(Poético) Flechas, dardos; (figurado) os golpes."
+      ],
+      "nota": "«Aux traits du céleste courroux»: às flechas da cólera do céu."
+    },
+    "du": {
+      "lema": "du",
+      "classe": "artigo definido contraído",
+      "forma": "contração de «de» + «le»",
+      "def": [
+        "Contração da preposição «de» com o artigo «le»: do."
+      ]
+    },
+    "céleste": {
+      "lema": "céleste",
+      "classe": "adjetivo",
+      "def": [
+        "Do céu, de Deus: celeste."
+      ]
+    },
+    "courroux": {
+      "lema": "courroux",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Literário) Cólera: ira."
+      ]
+    },
+    "peut-être": {
+      "lema": "peut-être",
+      "classe": "advérbio",
+      "def": [
+        "Indica a possibilidade: talvez."
+      ]
+    },
+    "il": {
+      "lema": "il",
+      "classe": "pronome pessoal",
+      "forma": "masculino singular, sujeito",
+      "def": [
+        "Pronome pessoal da terceira pessoa do singular masculino, sujeito: ele."
+      ]
+    },
+    "obtiendra": {
+      "lema": "obtenir",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Conseguir o que se pede: obterá."
+      ]
+    },
+    "guérison": {
+      "lema": "guérison",
+      "classe": "substantivo feminino",
+      "def": [
+        "Recuperação da saúde: cura."
+      ]
+    },
+    "commune": {
+      "lema": "commun",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que é de todos: comum."
+      ]
+    },
+    "histoire": {
+      "lema": "histoire",
+      "classe": "substantivo feminino",
+      "def": [
+        "O conhecimento dos fatos do passado: história."
+      ]
+    },
+    "apprend": {
+      "lema": "apprendre",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Fazer saber, ensinar: ensina."
+      ]
+    },
+    "qu’": {
+      "lema": "que",
+      "classe": "conjunção",
+      "forma": "elisão de «que»",
+      "def": [
+        "Liga a oração principal a uma oração subordinada: que."
+      ]
+    },
+    "de#4": {
+      "lema": "de",
+      "classe": "artigo partitivo",
+      "forma": "forma reduzida",
+      "def": [
+        "Forma do artigo partitivo ou indefinido diante de adjetivo plural ou depois de negação: uns, alguns (em geral não se traduz)."
+      ]
+    },
+    "tels": {
+      "lema": "tel",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Semelhantes, assim, desta espécie: tais."
+      ]
+    },
+    "accidents": {
+      "lema": "accident",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "(Antigo) Acontecimento infeliz; desgraça."
+      ]
+    },
+    "fait": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Realizar, executar, produzir: fazer."
+      ]
+    },
+    "pareils": {
+      "lema": "pareil",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Pessoa ou ser da mesma condição: semelhante, igual."
+      ],
+      "nota": "«Vos pareils»: os da vossa espécie, os outros lobos."
+    },
+    "dévouements": {
+      "lema": "dévouement",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "(Antigo) Ato de se oferecer em sacrifício pela salvação dos outros."
+      ],
+      "nota": "Sentido antigo e latino («devotio»): o sacrifício de um pela salvação de todos; hoje «dévouement» é dedicação."
+    },
+    "flattons": {
+      "lema": "flatter",
+      "classe": "verbo",
+      "forma": "imperativo, 1ª pessoa do plural",
+      "def": [
+        "«Se flatter», iludir-se, enganar-se a si mesmo."
+      ],
+      "nota": "«Ne nous flattons donc point»: não nos iludamos."
+    },
+    "donc": {
+      "lema": "donc",
+      "classe": "conjunção",
+      "def": [
+        "Indica a consequência ou a conclusão: portanto, então, pois."
+      ]
+    },
+    "voyons": {
+      "lema": "voir",
+      "classe": "verbo",
+      "forma": "imperativo, 1ª pessoa do plural",
+      "def": [
+        "Examinar, considerar: vejamos."
+      ]
+    },
+    "sans": {
+      "lema": "sans",
+      "classe": "preposição",
+      "def": [
+        "Indica a ausência ou a falta: sem."
+      ]
+    },
+    "indulgence": {
+      "lema": "indulgence",
+      "classe": "substantivo feminino",
+      "def": [
+        "Facilidade em perdoar: indulgência."
+      ]
+    },
+    "état": {
+      "lema": "état",
+      "classe": "substantivo masculino",
+      "def": [
+        "Situação, condição de uma coisa: estado."
+      ]
+    },
+    "notre": {
+      "lema": "notre",
+      "classe": "adjetivo possessivo",
+      "forma": "singular",
+      "def": [
+        "Que pertence a nós: nosso, nossa."
+      ]
+    },
+    "conscience": {
+      "lema": "conscience",
+      "classe": "substantivo feminino",
+      "def": [
+        "O juízo que cada um faz do bem e do mal dos próprios atos: consciência."
+      ]
+    },
+    "moi": {
+      "lema": "moi",
+      "classe": "pronome pessoal",
+      "forma": "primeira pessoa do singular, forma tônica",
+      "def": [
+        "Pronome pessoal tônico da primeira pessoa do singular: eu, mim."
+      ]
+    },
+    "satisfaisant": {
+      "lema": "satisfaire",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Contentar um desejo: satisfazendo."
+      ]
+    },
+    "appétits": {
+      "lema": "appétit",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Desejo de comer: apetite."
+      ]
+    },
+    "gloutons": {
+      "lema": "glouton",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que come com avidez e em excesso: glutão, guloso."
+      ]
+    },
+    "j’": {
+      "lema": "je",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «je»",
+      "def": [
+        "Pronome pessoal da primeira pessoa do singular, sujeito: eu."
+      ]
+    },
+    "ai#2": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular (auxiliar)",
+      "def": [
+        "Verbo auxiliar dos tempos compostos: ter, haver (não se traduz à parte)."
+      ]
+    },
+    "dévoré": {
+      "lema": "dévorer",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Comer com voracidade: devorado."
+      ]
+    },
+    "force#2": {
+      "lema": "force",
+      "classe": "advérbio",
+      "def": [
+        "(Antigo ou literário) Muitos, muito, uma grande quantidade de (sem «de»)."
+      ],
+      "nota": "«Force moutons», «force reliefs»: muitos carneiros, muitos restos. Uso antigo e literário."
+    },
+    "moutons": {
+      "lema": "mouton",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Carneiro."
+      ]
+    },
+    "que#4": {
+      "lema": "que",
+      "classe": "pronome interrogativo",
+      "def": [
+        "Introduz uma pergunta sobre uma coisa: o que, que."
+      ]
+    },
+    "m’": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «me»",
+      "def": [
+        "Pronome pessoal da primeira pessoa do singular, objeto direto ou indireto: me, a mim."
+      ]
+    },
+    "avaient#2": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do plural (auxiliar)",
+      "def": [
+        "Verbo auxiliar dos tempos compostos: «que m’avaient-ils fait ?», que me tinham feito?"
+      ]
+    },
+    "fait#3": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Realizar, executar, produzir: feito."
+      ]
+    },
+    "nulle": {
+      "lema": "nul",
+      "classe": "adjetivo indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "Nenhuma, nem uma só."
+      ]
+    },
+    "offense": {
+      "lema": "offense",
+      "classe": "substantivo feminino",
+      "def": [
+        "Ofensa, injúria."
+      ]
+    },
+    "même": {
+      "lema": "même",
+      "classe": "advérbio",
+      "def": [
+        "Até, inclusive: mesmo."
+      ]
+    },
+    "est#2": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (auxiliar)",
+      "def": [
+        "Verbo auxiliar dos tempos compostos de certos verbos e da voz passiva: ser, ter (não se traduz à parte)."
+      ]
+    },
+    "arrivé": {
+      "lema": "arriver",
+      "classe": "verbo",
+      "forma": "particípio passado (impessoal)",
+      "def": [
+        "«Il m’est arrivé de», aconteceu-me."
+      ]
+    },
+    "quelquefois": {
+      "lema": "quelquefois",
+      "classe": "advérbio",
+      "def": [
+        "Às vezes, de vez em quando."
+      ]
+    },
+    "de#2": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Introduz um infinitivo que completa um verbo, um adjetivo ou um substantivo: de, a (muitas vezes não se traduz)."
+      ]
+    },
+    "manger": {
+      "lema": "manger",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Mastigar e engolir um alimento: comer."
+      ]
+    },
+    "berger": {
+      "lema": "berger",
+      "classe": "substantivo masculino",
+      "def": [
+        "Pessoa que guarda carneiros: pastor."
+      ]
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "forma": "primeira pessoa do singular, objeto",
+      "def": [
+        "Pronome pessoal da primeira pessoa do singular, objeto direto ou indireto: me, a mim."
+      ]
+    },
+    "dévouerai": {
+      "lema": "dévouer",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "(Antigo) «Se dévouer», oferecer-se em sacrifício."
+      ]
+    },
+    "s’": {
+      "lema": "se",
+      "classe": "pronome pessoal",
+      "forma": "reflexivo, elisão de «se»",
+      "def": [
+        "Pronome reflexivo da terceira pessoa: se, a si mesmo."
+      ]
+    },
+    "le#3": {
+      "lema": "le",
+      "classe": "pronome pessoal",
+      "forma": "neutro, objeto direto",
+      "def": [
+        "Pronome neutro que retoma uma ideia ou uma frase inteira: o, isso."
+      ]
+    },
+    "pense": {
+      "lema": "penser",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Julgar, achar: penso."
+      ]
+    },
+    "est#3": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (impessoal)",
+      "def": [
+        "Usado impessoalmente: «il est», há, existe; «il m’est facile», é-me fácil."
+      ]
+    },
+    "bon": {
+      "lema": "bon",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que tem as qualidades que se esperam; agradável, benévolo: bom."
+      ]
+    },
+    "chacun": {
+      "lema": "chacun",
+      "classe": "pronome indefinido",
+      "def": [
+        "Cada pessoa, cada um; todo mundo."
+      ]
+    },
+    "accuse": {
+      "lema": "accuser",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "«S’accuser», declarar-se culpado: que se acuse."
+      ]
+    },
+    "ainsi": {
+      "lema": "ainsi",
+      "classe": "advérbio",
+      "def": [
+        "Desta maneira, deste modo: assim."
+      ]
+    },
+    "que#5": {
+      "lema": "que",
+      "classe": "conjunção",
+      "forma": "segundo termo de comparação",
+      "def": [
+        "Introduz o segundo termo de uma comparação: que, do que."
+      ]
+    },
+    "car": {
+      "lema": "car",
+      "classe": "conjunção",
+      "def": [
+        "Introduz a explicação ou a causa do que se acabou de dizer: pois, porque."
+      ]
+    },
+    "doit": {
+      "lema": "devoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter a obrigação de: deve."
+      ]
+    },
+    "souhaiter": {
+      "lema": "souhaiter",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Desejar."
+      ]
+    },
+    "selon": {
+      "lema": "selon",
+      "classe": "preposição",
+      "def": [
+        "De acordo com, conforme."
+      ]
+    },
+    "toute": {
+      "lema": "tout",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Inteira, completa: toda; ou qualquer, cada."
+      ]
+    },
+    "justice": {
+      "lema": "justice",
+      "classe": "substantivo feminino",
+      "def": [
+        "O que é justo: justiça."
+      ]
+    },
+    "périsse": {
+      "lema": "périr",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "(Literário) Morrer: que pereça."
+      ]
+    },
+    "sire": {
+      "lema": "sire",
+      "classe": "substantivo masculino",
+      "def": [
+        "Título que se dava ao rei, ao falar com ele: Majestade, senhor."
+      ],
+      "nota": "O Agneau e o Renard falam ao Loup e ao Lion como a um rei."
+    },
+    "renard": {
+      "lema": "renard",
+      "classe": "substantivo masculino",
+      "def": [
+        "Mamífero carnívoro da família dos canídeos, de focinho fino e cauda peluda, conhecido pela astúcia: raposa."
+      ],
+      "nota": "Em francês a raposa é masculina, «le Renard»; por isso é «Maître Renard»."
+    },
+    "vous": {
+      "lema": "vous",
+      "classe": "pronome pessoal",
+      "forma": "segunda pessoa do plural",
+      "def": [
+        "Pronome pessoal da segunda pessoa do plural, ou do singular de cortesia: vós, o senhor, a senhora; vos, lhe."
+      ]
+    },
+    "êtes": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do plural",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "trop": {
+      "lema": "trop",
+      "classe": "advérbio",
+      "def": [
+        "Mais do que é preciso: demais, demasiado."
+      ]
+    },
+    "roi": {
+      "lema": "roi",
+      "classe": "substantivo masculino",
+      "def": [
+        "Chefe de um reino, soberano: rei."
+      ]
+    },
+    "vos": {
+      "lema": "votre",
+      "classe": "adjetivo possessivo",
+      "forma": "plural",
+      "def": [
+        "Que pertencem a vós ou ao senhor: vossos, vossas, seus, suas."
+      ]
+    },
+    "scrupules": {
+      "lema": "scrupule",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Dúvida da consciência sobre o que se deve fazer: escrúpulo."
+      ]
+    },
+    "font#2": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Com um infinitivo: fazer com que algo aconteça: «font voir», mostram."
+      ]
+    },
+    "voir": {
+      "lema": "voir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Perceber pela vista: ver; «faire voir», mostrar."
+      ]
+    },
+    "délicatesse": {
+      "lema": "délicatesse",
+      "classe": "substantivo feminino",
+      "def": [
+        "Sensibilidade moral muito fina: delicadeza."
+      ]
+    },
+    "eh": {
+      "lema": "eh",
+      "classe": "interjeição",
+      "def": [
+        "Exprime espanto, admiração ou chama a atenção: eh, ah."
+      ],
+      "nota": "«Eh bien» é «pois bem», «então»: aqui com ironia."
+    },
+    "bien#5": {
+      "lema": "bien",
+      "classe": "advérbio",
+      "forma": "em «eh bien»",
+      "def": [
+        "«Eh bien», pois bem, então."
+      ]
+    },
+    "canaille": {
+      "lema": "canaille",
+      "classe": "substantivo feminino",
+      "def": [
+        "(Pejorativo) Gente vil, ralé."
+      ]
+    },
+    "sotte": {
+      "lema": "sot",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Tola, sem inteligência."
+      ]
+    },
+    "espèce": {
+      "lema": "espèce",
+      "classe": "substantivo feminino",
+      "def": [
+        "Grupo de seres vivos semelhantes: espécie; (pejorativo) gente, laia."
+      ]
+    },
+    "est-ce": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular, com «ce» invertido",
+      "def": [
+        "Ser, estar; «est-ce» começa uma pergunta: é?, será que?"
+      ]
+    },
+    "péché": {
+      "lema": "péché",
+      "classe": "substantivo masculino",
+      "def": [
+        "Falta contra a lei de Deus: pecado."
+      ]
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Advérbio de negação: não."
+      ]
+    },
+    "fîtes": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 2ª pessoa do plural",
+      "def": [
+        "Realizar, produzir: «faire honneur», dar honra, honrar."
+      ]
+    },
+    "seigneur": {
+      "lema": "seigneur",
+      "classe": "substantivo masculino",
+      "def": [
+        "Tratamento de respeito que se dá a um nobre ou a um soberano: senhor."
+      ]
+    },
+    "en#3": {
+      "lema": "en",
+      "classe": "preposição",
+      "forma": "com o particípio presente (gerúndio)",
+      "def": [
+        "Com o particípio presente, forma o gerúndio: ao, enquanto, quando."
+      ]
+    },
+    "croquant": {
+      "lema": "croquer",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Comer mastigando com ruído; devorar: comendo."
+      ],
+      "nota": "«En les croquant»: ao comê-los."
+    },
+    "beaucoup": {
+      "lema": "beaucoup",
+      "classe": "advérbio",
+      "def": [
+        "Em grande quantidade: muito."
+      ]
+    },
+    "honneur#2": {
+      "lema": "honneur",
+      "classe": "substantivo masculino",
+      "def": [
+        "«Faire honneur», honrar."
+      ],
+      "nota": "Ironia do Renard: comidos pelo rei, os carneiros foram honrados."
+    },
+    "quant": {
+      "lema": "quant",
+      "classe": "advérbio",
+      "forma": "em «quant à»",
+      "def": [
+        "Em «quant à», quanto a, no que diz respeito a."
+      ]
+    },
+    "au": {
+      "lema": "au",
+      "classe": "artigo definido contraído",
+      "forma": "contração de «à» + «le»",
+      "def": [
+        "Contração da preposição «à» com o artigo «le»: ao, no."
+      ]
+    },
+    "l’#3": {
+      "lema": "l’",
+      "classe": "artigo definido",
+      "forma": "elisão de «le», antes de «on»",
+      "def": [
+        "Elisão do artigo «le» diante de «on»."
+      ],
+      "nota": "Em «l’on» o artigo não tem sentido: é um enfeite antigo do pronome «on», para evitar o encontro de vogais («si l’on», «et l’on»)."
+    },
+    "peut": {
+      "lema": "pouvoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter a capacidade ou a possibilidade de: poder."
+      ]
+    },
+    "dire": {
+      "lema": "dire",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Exprimir por palavras: dizer."
+      ]
+    },
+    "était": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "digne": {
+      "lema": "digne",
+      "classe": "adjetivo",
+      "def": [
+        "Que merece: digno."
+      ]
+    },
+    "tous#2": {
+      "lema": "tout",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "A totalidade de: todos os."
+      ]
+    },
+    "maux": {
+      "lema": "mal",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "O que causa dor ou dano: mal."
+      ]
+    },
+    "étant": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "ces": {
+      "lema": "ce",
+      "classe": "adjetivo demonstrativo",
+      "forma": "plural",
+      "def": [
+        "Determinante que mostra os seres ou as coisas de que se fala: estes, esses, aqueles."
+      ]
+    },
+    "gens-là": {
+      "lema": "gens",
+      "classe": "substantivo masculino plural",
+      "forma": "com «-là»",
+      "def": [
+        "«Ces gens-là», essa gente, gente dessa espécie (com desprezo)."
+      ]
+    },
+    "sur": {
+      "lema": "sur",
+      "classe": "preposição",
+      "def": [
+        "Indica uma posição mais elevada, com contato: sobre, em cima de."
+      ]
+    },
+    "font": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Realizar, executar, produzir: fazem."
+      ]
+    },
+    "chimérique": {
+      "lema": "chimérique",
+      "classe": "adjetivo",
+      "def": [
+        "Que só existe na imaginação: quimérico, ilusório."
+      ],
+      "nota": "O Renard insinua que o poder do homem sobre os bichos é ilusão."
+    },
+    "empire#2": {
+      "lema": "empire",
+      "classe": "substantivo masculino",
+      "def": [
+        "Poder, domínio: império."
+      ]
+    },
+    "flatteurs": {
+      "lema": "flatteur",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Pessoa que elogia demais, por interesse: bajulador."
+      ]
+    },
+    "applaudir": {
+      "lema": "applaudir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Bater palmas em sinal de aprovação: aplaudir."
+      ],
+      "nota": "«Et flatteurs d’applaudir»: e os bajuladores logo aplaudem. É o infinitivo de narração."
+    },
+    "osa": {
+      "lema": "oser",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Ter a coragem de: ousou."
+      ]
+    },
+    "trop#2": {
+      "lema": "trop",
+      "classe": "advérbio",
+      "forma": "com negação",
+      "def": [
+        "Com negação: não muito, não bem."
+      ],
+      "nota": "«On n’osa trop approfondir»: não se ousou examinar muito a fundo."
+    },
+    "approfondir": {
+      "lema": "approfondir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Examinar a fundo: aprofundar."
+      ]
+    },
+    "tigre": {
+      "lema": "tigre",
+      "classe": "substantivo masculino",
+      "def": [
+        "Grande felino de pelo amarelo com listras pretas: tigre."
+      ]
+    },
+    "ours": {
+      "lema": "ours",
+      "classe": "substantivo masculino",
+      "def": [
+        "Grande mamífero de pelo espesso: urso."
+      ]
+    },
+    "des#2": {
+      "lema": "des",
+      "classe": "artigo definido contraído",
+      "forma": "contração de «de» + «les»",
+      "def": [
+        "Contração da preposição «de» com o artigo «les»: dos, das."
+      ]
+    },
+    "autres": {
+      "lema": "autre",
+      "classe": "adjetivo indefinido",
+      "forma": "plural",
+      "def": [
+        "Diferentes, restantes: outros, outras."
+      ]
+    },
+    "puissances": {
+      "lema": "puissance",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Pessoa ou grupo que tem grande poder: potência, poderoso."
+      ],
+      "nota": "Os grandes da corte do Lion."
+    },
+    "moins": {
+      "lema": "moins",
+      "classe": "advérbio",
+      "def": [
+        "Em menor quantidade ou grau: menos."
+      ]
+    },
+    "pardonnables": {
+      "lema": "pardonnable",
+      "classe": "adjetivo",
+      "forma": "plural",
+      "def": [
+        "Que se pode perdoar: perdoável."
+      ],
+      "nota": "«Les moins pardonnables offenses»: as faltas menos perdoáveis."
+    },
+    "offenses": {
+      "lema": "offense",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Falta, pecado: ofensa."
+      ]
+    },
+    "gens": {
+      "lema": "gens",
+      "classe": "substantivo masculino plural",
+      "def": [
+        "Pessoas em número indeterminado: gente, pessoas."
+      ]
+    },
+    "querelleurs": {
+      "lema": "querelleur",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que gosta de brigar: briguento."
+      ]
+    },
+    "jusqu’": {
+      "lema": "jusque",
+      "classe": "preposição",
+      "forma": "elisão de «jusque»",
+      "def": [
+        "Indica o limite no espaço ou no tempo: até."
+      ]
+    },
+    "simples": {
+      "lema": "simple",
+      "classe": "adjetivo",
+      "forma": "plural",
+      "def": [
+        "Que não passa de, mero: simples."
+      ]
+    },
+    "mâtins": {
+      "lema": "mâtin",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Cão grande de guarda: mastim."
+      ]
+    },
+    "dire#4": {
+      "lema": "dire",
+      "classe": "substantivo masculino",
+      "def": [
+        "«Au dire de», segundo o que diz."
+      ]
+    },
+    "étaient": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "petits": {
+      "lema": "petit",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "De tamanho reduzido; «de petits saints», uns santinhos."
+      ]
+    },
+    "saints": {
+      "lema": "saint",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Pessoa de vida perfeita: santo; «de petits saints», uns santinhos."
+      ]
+    },
+    "âne": {
+      "lema": "âne",
+      "classe": "substantivo masculino",
+      "def": [
+        "Animal doméstico de orelhas compridas, usado como bicho de carga: burro, asno."
+      ]
+    },
+    "vint#2": {
+      "lema": "venir",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Chegar, apresentar-se: veio."
+      ]
+    },
+    "à": {
+      "lema": "à",
+      "classe": "preposição",
+      "def": [
+        "Indica o lugar, a direção, o destino ou o objeto indireto: a, em, para."
+      ]
+    },
+    "tour": {
+      "lema": "tour",
+      "classe": "substantivo masculino",
+      "def": [
+        "Vez; «à son tour», por sua vez."
+      ]
+    },
+    "ai": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Possuir, ter."
+      ]
+    },
+    "souvenance": {
+      "lema": "souvenance",
+      "classe": "substantivo feminino",
+      "def": [
+        "(Antigo) Lembrança: «avoir souvenance», lembrar-se."
+      ]
+    },
+    "pré": {
+      "lema": "pré",
+      "classe": "substantivo masculino",
+      "def": [
+        "Terreno coberto de erva para o gado: prado."
+      ]
+    },
+    "moines": {
+      "lema": "moine",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Religioso que vive num mosteiro: monge."
+      ],
+      "nota": "«Un pré de moines»: um prado que pertence a um mosteiro."
+    },
+    "passant": {
+      "lema": "passer",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Ir por um lugar: passando."
+      ]
+    },
+    "faim": {
+      "lema": "faim",
+      "classe": "substantivo feminino",
+      "def": [
+        "Necessidade de comer: fome."
+      ]
+    },
+    "occasion#2": {
+      "lema": "occasion",
+      "classe": "substantivo feminino",
+      "def": [
+        "Circunstância favorável: ocasião."
+      ]
+    },
+    "herbe": {
+      "lema": "herbe",
+      "classe": "substantivo feminino",
+      "def": [
+        "Planta pequena e verde que cobre o chão: erva, capim."
+      ]
+    },
+    "tendre": {
+      "lema": "tendre",
+      "classe": "adjetivo",
+      "def": [
+        "Fácil de mastigar, macia: tenra."
+      ]
+    },
+    "pense#2": {
+      "lema": "penser",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "«Je pense», acho eu (no meio da frase)."
+      ]
+    },
+    "quelque": {
+      "lema": "quelque",
+      "classe": "adjetivo indefinido",
+      "def": [
+        "Um, algum, certo (sem determinar qual)."
+      ]
+    },
+    "diable": {
+      "lema": "diable",
+      "classe": "substantivo masculino",
+      "def": [
+        "Espírito do mal: diabo."
+      ]
+    },
+    "aussi": {
+      "lema": "aussi",
+      "classe": "advérbio",
+      "def": [
+        "Em comparação de igualdade: tão (… quanto)."
+      ]
+    },
+    "poussant": {
+      "lema": "pousser",
+      "classe": "verbo",
+      "forma": "particípio presente",
+      "def": [
+        "Levar alguém a fazer algo: impelindo."
+      ]
+    },
+    "tondis": {
+      "lema": "tondre",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 1ª pessoa do singular",
+      "def": [
+        "Cortar rente; (dito de animal) comer a erva rente ao chão: tosei, comi."
+      ]
+    },
+    "ce": {
+      "lema": "ce",
+      "classe": "pronome demonstrativo",
+      "def": [
+        "Pronome demonstrativo neutro: isso, isto, o (antes de relativo: «ce que», o que)."
+      ]
+    },
+    "largeur": {
+      "lema": "largeur",
+      "classe": "substantivo feminino",
+      "def": [
+        "A dimensão de um lado ao outro: largura."
+      ],
+      "nota": "«La largeur de ma langue»: só uma lambida de capim."
+    },
+    "ma": {
+      "lema": "mon",
+      "classe": "adjetivo possessivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que pertence a mim: minha."
+      ]
+    },
+    "langue": {
+      "lema": "langue",
+      "classe": "substantivo feminino",
+      "def": [
+        "Órgão móvel da boca: língua."
+      ]
+    },
+    "avais": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Possuir, ter."
+      ],
+      "nota": "«Avais-je pas raison ?»: não tinha eu razão? Na pergunta, o francês clássico podia deixar o «ne» de fora."
+    },
+    "droit": {
+      "lema": "droit",
+      "classe": "substantivo masculino",
+      "def": [
+        "O que se pode fazer legitimamente: direito."
+      ]
+    },
+    "parler": {
+      "lema": "parler",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Exprimir-se por palavras: falar; «sans parler de», sem falar de."
+      ]
+    },
+    "net": {
+      "lema": "net",
+      "classe": "advérbio",
+      "def": [
+        "Com franqueza, claramente: «parler net», falar com franqueza."
+      ]
+    },
+    "mots": {
+      "lema": "mot",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Som ou grupo de sons que exprime uma ideia; o que se diz: palavra."
+      ]
+    },
+    "cria": {
+      "lema": "crier",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Dizer em voz alta: gritou."
+      ]
+    },
+    "haro": {
+      "lema": "haro",
+      "classe": "interjeição",
+      "def": [
+        "(Antigo) Grito com que se pedia justiça contra alguém; «crier haro sur», denunciar com indignação."
+      ],
+      "nota": "Era o grito da antiga lei da Normandia para chamar a justiça contra um criminoso."
+    },
+    "baudet": {
+      "lema": "baudet",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Familiar) Burro, jumento."
+      ]
+    },
+    "loup": {
+      "lema": "loup",
+      "classe": "substantivo masculino",
+      "def": [
+        "Mamífero carnívoro selvagem da família dos canídeos, parecido com um cão grande: lobo."
+      ]
+    },
+    "quelque#2": {
+      "lema": "quelque",
+      "classe": "advérbio",
+      "def": [
+        "Diante de «peu»: um tanto, um pouco."
+      ]
+    },
+    "peu": {
+      "lema": "peu",
+      "classe": "advérbio",
+      "def": [
+        "Em pequena quantidade; não muito: pouco."
+      ]
+    },
+    "clerc": {
+      "lema": "clerc",
+      "classe": "substantivo masculino",
+      "def": [
+        "(Antigo) Homem instruído, letrado."
+      ],
+      "nota": "«Quelque peu clerc»: com uns ares de letrado, de advogado."
+    },
+    "prouva": {
+      "lema": "prouver",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Mostrar que algo é verdade: provou."
+      ]
+    },
+    "harangue": {
+      "lema": "harangue",
+      "classe": "substantivo feminino",
+      "def": [
+        "Discurso solene diante de uma assembleia: arenga."
+      ]
+    },
+    "fallait": {
+      "lema": "falloir",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser preciso, ser necessário."
+      ]
+    },
+    "dévouer": {
+      "lema": "dévouer",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "(Antigo) Oferecer em sacrifício, votar à morte."
+      ]
+    },
+    "maudit": {
+      "lema": "maudit",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Amaldiçoado, detestável: maldito."
+      ]
+    },
+    "animal": {
+      "lema": "animal",
+      "classe": "substantivo masculino",
+      "def": [
+        "Ser vivo que se move e sente, por oposição às plantas: animal, bicho."
+      ]
+    },
+    "pelé": {
+      "lema": "pelé",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que perdeu o pelo: pelado."
+      ],
+      "nota": "O pelo do pescoço gasto pela coleira."
+    },
+    "galeux": {
+      "lema": "galeux",
+      "classe": "substantivo masculino",
+      "def": [
+        "Animal ou pessoa que tem sarna: sarnento."
+      ]
+    },
+    "où": {
+      "lema": "où",
+      "classe": "pronome relativo",
+      "def": [
+        "Pronome relativo de lugar ou de tempo: onde, em que, no qual."
+      ]
+    },
+    "venait": {
+      "lema": "venir",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Provir, ter origem: vinha."
+      ]
+    },
+    "tout#2": {
+      "lema": "tout",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Inteiro, completo, sem nada de menos: todo."
+      ]
+    },
+    "mal#2": {
+      "lema": "mal",
+      "classe": "substantivo masculino",
+      "def": [
+        "Desgraça, sofrimento; o que é ruim: mal."
+      ]
+    },
+    "peccadille": {
+      "lema": "peccadille",
+      "classe": "substantivo feminino",
+      "def": [
+        "Falta leve, sem importância: pecadilho."
+      ]
+    },
+    "fut": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Ter uma qualidade, um estado, uma condição: ser, estar."
+      ]
+    },
+    "fut#2": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular (auxiliar)",
+      "def": [
+        "Verbo auxiliar dos tempos compostos e da voz passiva: foi; com «venue», «fut venue», tinha chegado."
+      ]
+    },
+    "cas": {
+      "lema": "cas",
+      "classe": "substantivo masculino",
+      "def": [
+        "«Cas pendable», crime que merece a forca."
+      ]
+    },
+    "pendable": {
+      "lema": "pendable",
+      "classe": "adjetivo",
+      "def": [
+        "Que merece a forca: «cas pendable», crime grave."
+      ]
+    },
+    "autrui": {
+      "lema": "autrui",
+      "classe": "pronome indefinido",
+      "def": [
+        "Os outros, o próximo: outrem."
+      ]
+    },
+    "quel": {
+      "lema": "quel",
+      "classe": "adjetivo interrogativo",
+      "forma": "masculino singular",
+      "def": [
+        "Que, qual (numa pergunta ou exclamação)."
+      ]
+    },
+    "crime": {
+      "lema": "crime",
+      "classe": "substantivo masculino",
+      "def": [
+        "Falta grave: crime."
+      ]
+    },
+    "abominable": {
+      "lema": "abominable",
+      "classe": "adjetivo",
+      "def": [
+        "Que causa horror: abominável."
+      ]
+    },
+    "rien": {
+      "lema": "rien",
+      "classe": "pronome indefinido",
+      "def": [
+        "Nenhuma coisa, nada."
+      ]
+    },
+    "que#6": {
+      "lema": "que",
+      "classe": "conjunção",
+      "forma": "restritiva, com «ne»",
+      "def": [
+        "Com «ne», indica restrição: «ne… que», só, somente, apenas."
+      ]
+    },
+    "mort": {
+      "lema": "mort",
+      "classe": "substantivo feminino",
+      "def": [
+        "Fim da vida: morte."
+      ]
+    },
+    "expier": {
+      "lema": "expier",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Pagar uma falta com um castigo: expiar."
+      ]
+    },
+    "fit#2": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Com um infinitivo: fazer com que alguém faça ou algo aconteça: fez (vir, ver)."
+      ]
+    },
+    "le#2": {
+      "lema": "le",
+      "classe": "pronome pessoal",
+      "forma": "masculino singular, objeto direto",
+      "def": [
+        "Pronome pessoal da terceira pessoa do singular masculino, objeto direto: o, a ele."
+      ]
+    },
+    "lui": {
+      "lema": "lui",
+      "classe": "pronome pessoal",
+      "forma": "terceira pessoa do singular, objeto indireto",
+      "def": [
+        "Pronome pessoal da terceira pessoa do singular, objeto indireto: lhe, a ele, a ela."
+      ]
+    },
+    "fit": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "pretérito perfeito (passé simple), 3ª pessoa do singular",
+      "def": [
+        "Realizar, executar, produzir: fez."
+      ]
+    },
+    "bien#2": {
+      "lema": "bien",
+      "classe": "advérbio",
+      "def": [
+        "Muito, bastante; reforça o que se diz: bem, de fato."
+      ]
+    },
+    "voir#2": {
+      "lema": "voir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "«Le lui faire bien voir», fazê-lo ver bem, mostrar-lhe na prática."
+      ]
+    },
+    "serez": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do plural",
+      "def": [
+        "Ter uma qualidade, uma condição: sereis."
+      ]
+    },
+    "puissant": {
+      "lema": "puissant",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que tem muita força física: forte, robusto."
+      ]
+    },
+    "ou": {
+      "lema": "ou",
+      "classe": "conjunção",
+      "def": [
+        "Indica alternativa ou equivalência: ou."
+      ]
+    },
+    "misérable": {
+      "lema": "misérable",
+      "classe": "adjetivo",
+      "def": [
+        "Que vive na miséria, desvalido: miserável."
+      ]
+    },
+    "jugements": {
+      "lema": "jugement",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Decisão de um tribunal: julgamento, sentença."
+      ]
+    },
+    "cour": {
+      "lema": "cour",
+      "classe": "substantivo feminino",
+      "def": [
+        "O tribunal; ou os que rodeiam um soberano: corte."
+      ],
+      "nota": "Os dois sentidos valem: a «cour» de justiça e a corte do rei."
+    },
+    "rendront": {
+      "lema": "rendre",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Fazer que alguém fique de certo modo: tornarão."
+      ]
+    },
+    "blanc": {
+      "lema": "blanc",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "(Figurado) Inocente."
+      ],
+      "nota": "«Blanc ou noir»: inocente ou culpado."
+    },
+    "noir": {
+      "lema": "noir",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "(Figurado) Culpado, mau."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "1.2": "mal#3",
+    "2.2": "que#2",
+    "2.4": "ciel#2",
+    "4.4": "il#2",
+    "4.6": "l’#2",
+    "5.2": "d’#2",
+    "7.8": "étaient#2",
+    "8.3": "en#2",
+    "8.6": "d’#3",
+    "9.1": "à#2",
+    "14.2": "d’#3",
+    "14.6": "de#3",
+    "15.3": "tint#2",
+    "16.5": "ciel#2",
+    "16.6": "a#2",
+    "18.1": "que#7",
+    "18.3": "plus#2",
+    "21.7": "de#4",
+    "22.3": "de#4",
+    "26.2": "ai#2",
+    "26.4": "force#2",
+    "27.1": "que#4",
+    "27.3": "avaient#2",
+    "27.5": "fait#3",
+    "28.2": "il#2",
+    "28.4": "est#2",
+    "28.7": "de#2",
+    "30.6": "il#2",
+    "30.7": "le#3",
+    "31.2": "il#2",
+    "31.3": "est#3",
+    "31.5": "que#7",
+    "31.10": "que#5",
+    "33.3": "plus#2",
+    "35.3": "font#2",
+    "35.6": "de#3",
+    "36.2": "bien#5",
+    "38.1": "en#3",
+    "38.5": "d’#3",
+    "38.6": "honneur#2",
+    "39.5": "l’#3",
+    "40.6": "tous#2",
+    "42.5": "empire#2",
+    "43.7": "d’#2",
+    "44.4": "trop#2",
+    "45.8": "des#2",
+    "47.1": "tous#2",
+    "48.2": "dire#4",
+    "48.6": "de#4",
+    "49.3": "vint#2",
+    "51.4": "occasion#2",
+    "51.10": "pense#2",
+    "54.3": "en#2",
+    "54.8": "il#2",
+    "56.3": "quelque#2",
+    "57.2": "il#2",
+    "58.8": "tout#2",
+    "58.10": "mal#2",
+    "59.4": "fut#2",
+    "61.2": "que#6",
+    "62.1": "d’#2",
+    "62.4": "fit#2",
+    "62.6": "le#2",
+    "62.9": "bien#2",
+    "62.10": "voir#2"
+  }
+}

@@ -254,3 +254,23 @@ BIBLIOTECA.poemas({
     {"id":"horacio-exegi-monumentum","titulo":"Exegi monumentum","forma":"outras","livro":1,"ordem":1,"versos":16,"lingua":"la","ano":null,"glossario":true}
   ]
 });
+
+BIBLIOTECA.poemas({
+  autor: "jean-de-la-fontaine",
+  arquivo: "conteudo/jean-de-la-fontaine/lingua-original.js",
+  livros: [{"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}, {"id": "fables-sele-o", "titulo": "Fables (seleção)", "ano": "1668–1694"}],
+  poemas: [
+    {"id":"jean-de-la-fontaine-la-cigale-et-la-fourmi","titulo":"La Cigale et la Fourmi","forma":"apologos","livro":0,"ordem":0,"versos":22,"lingua":"fr","ano":1668,"glossario":true,"n":"I, 1","pt":{"tradutor":"Bocage","titulo":"A cigarra e a formiga","ano":null}},
+    {"id":"jean-de-la-fontaine-le-corbeau-et-le-renard","titulo":"Le Corbeau et le Renard","forma":"apologos","livro":1,"ordem":1,"versos":18,"lingua":"fr","ano":1668,"glossario":true,"n":"I, 2","pt":{"tradutor":"Bocage","titulo":"O corvo e a raposa","ano":null}},
+    {"id":"jean-de-la-fontaine-la-grenouille-et-le-boeuf","titulo":"La Grenouille qui se veut faire aussi grosse que le Bœuf","forma":"apologos","livro":2,"ordem":2,"versos":14,"lingua":"fr","ano":1668,"glossario":true,"n":"I, 3"},
+    {"id":"jean-de-la-fontaine-le-loup-et-le-chien","titulo":"Le Loup et le Chien","forma":"apologos","livro":3,"ordem":3,"versos":41,"lingua":"fr","ano":1668,"glossario":true,"n":"I, 5"},
+    {"id":"jean-de-la-fontaine-le-rat-de-ville-et-le-rat-des-champs","titulo":"Le Rat de ville et le Rat des champs","forma":"apologos","livro":4,"ordem":4,"versos":28,"lingua":"fr","ano":1668,"glossario":true,"n":"I, 9"},
+    {"id":"jean-de-la-fontaine-le-loup-et-l-agneau","titulo":"Le Loup et l’Agneau","forma":"apologos","livro":5,"ordem":5,"versos":29,"lingua":"fr","ano":1668,"glossario":true,"n":"I, 10"},
+    {"id":"jean-de-la-fontaine-le-chene-et-le-roseau","titulo":"Le Chêne et le Roseau","forma":"apologos","livro":6,"ordem":6,"versos":32,"lingua":"fr","ano":1668,"glossario":true,"n":"I, 22"},
+    {"id":"jean-de-la-fontaine-le-lion-et-le-rat","titulo":"Le Lion et le Rat","forma":"apologos","livro":7,"ordem":7,"versos":18,"lingua":"fr","ano":1668,"glossario":true,"n":"II, 11"},
+    {"id":"jean-de-la-fontaine-le-laboureur-et-ses-enfants","titulo":"Le Laboureur et ses enfants","forma":"apologos","livro":8,"ordem":8,"versos":18,"lingua":"fr","ano":1668,"glossario":true,"n":"V, 9"},
+    {"id":"jean-de-la-fontaine-le-lievre-et-la-tortue","titulo":"Le Lièvre et la Tortue","forma":"apologos","livro":9,"ordem":9,"versos":35,"lingua":"fr","ano":1668,"glossario":true,"n":"VI, 10"},
+    {"id":"jean-de-la-fontaine-les-animaux-malades-de-la-peste","titulo":"Les Animaux malades de la peste","forma":"apologos","livro":10,"ordem":10,"versos":64,"lingua":"fr","ano":1678,"glossario":true,"n":"VII, 1","pt":{"tradutor":"Machado de Assis","titulo":"Os animais iscados da peste","ano":1886}},
+    {"id":"jean-de-la-fontaine-la-laitiere-et-le-pot-au-lait","titulo":"La Laitière et le Pot au lait","forma":"apologos","livro":11,"ordem":11,"versos":43,"lingua":"fr","ano":1678,"glossario":true,"n":"VII, 9"}
+  ]
+});

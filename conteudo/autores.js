@@ -759,3 +759,12 @@ BIBLIOTECA.autor({
   lingua: 'la',
   nota: 'Poeta latino de Sulmona, autor das Metamorfoses, dos Fastos e das Heroides; morreu no exílio, em Tomis, no mar Negro.'
 });
+
+BIBLIOTECA.autor({
+  id: 'gustave-flaubert',
+  nome: 'Gustave Flaubert',
+  nomeCompleto: 'Gustave Flaubert',
+  vida: '1821–1880',
+  lingua: 'fr',
+  nota: 'Romancista francês de Rouen, autor de _Madame Bovary_, de _A Educação Sentimental_ e dos _Três Contos_.'
+});

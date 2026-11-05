@@ -459,6 +459,17 @@
         { "nome": "Fables choisies, mises en vers, «revues, corrigées et augmentées» pelo autor, tomo 3 (Paris, Denys Thierry e Claude Barbin, 1678), no Wikisource", "url": "https://fr.wikisource.org/wiki/La_Laiti%C3%A8re_et_le_Pot_au_lait", "nota": "livro VII, fábula 9 (o segundo volume de fábulas saiu em 1678); texto do Wikisource, sobre o fac-símile da BnF (Gallica); palavras e pontuação desta edição, na ortografia de hoje («Fourmi», «était», «eh bien»), com as maiúsculas dos personagens (Corbeau, Renard, Sire Loup) e minúscula nos outros nomes comuns; «Picrochole», o rei de Rabelais (a edição traz «Pichrocole»)" },
         { "nome": "Fables de La Fontaine (Paris, Bernardin-Béchet, 1874), no Wikisource", "url": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(%C3%A9d._1874)/La_Laiti%C3%A8re_et_le_Pot_au_lait", "nota": "edição em ortografia moderna, para conferir a grafia" }
       ]
+    },
+    {
+      "pasta": "un-coeur-simple", "autor": "gustave-flaubert", "lingua": "fr", "forma": "outras",
+      "prosa": true, "genero": "Contos",
+      "titulo": "Un cœur simple", "ano": 1877,
+      "livro": { "titulo": "Trois Contes", "ano": 1877 },
+      "fontes": [
+        { "nome": "Trois Contes (Paris, G. Charpentier, 1877), no Internet Archive", "url": "https://archive.org/details/troiscontesuncu00flaugoog", "nota": "a 1ª edição em livro (abril de 1877, depois do folhetim do Moniteur universel), pp. 1–83: o primeiro dos três contos, inteiro, nas cinco partes do autor; palavras e pontuação desta edição, conferidas nas imagens, na ortografia de hoje («très jeunes», «grand-chose», «s’entrecroisèrent», «s’entrebâilla», «les Îles», «À», «butaient» por «buttaient», «allègement», «goélette», «extrême-onction», «l’Histoire sainte», «saint Michel» terrassant le dragon) e na tipografia francesa de hoje, sem os poucos itálicos do autor (salle, Écores, Agneau d’or, Marais, Agnus Dei); um trecho por linha (uma frase), linha em branco entre os parágrafos" },
+        { "nome": "Trois Contes, «cinquième édition» (Paris, G. Charpentier, 1877), no Projeto Gutenberg (ebook 12065)", "url": "https://www.gutenberg.org/ebooks/12065", "nota": "a transcrição de partida, feita sobre as imagens da BnF (Gallica); conferida palavra por palavra com a 1ª edição, de que se repuseram «un à un» na última frase (o Gutenberg traz «un peu»), «Ecquemauville» e «bluets» (o Gutenberg corrige para «Équemauville» e «bleuets»), «en ajoutant :», «Peu de temps après, — c’était Liébard» e três vírgulas" },
+        { "nome": "Trois Contes, nas Œuvres complètes (Paris, Louis Conard, 1910), no Wikisource", "url": "https://fr.wikisource.org/wiki/Trois_Contes_(Flaubert)/Un_C%C5%93ur_simple", "nota": "texto validado da edição Conard, para conferir; ela se afasta de 1877 em algumas lições («5,000 francs», «pain d’épice», «Sainte-Melaine», «du vendeur de poisson») e na pontuação dos diálogos, que aqui segue a de 1877" }
+      ]
     }
   ]
 }

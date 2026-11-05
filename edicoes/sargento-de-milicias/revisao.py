@@ -51,7 +51,9 @@ def pontos():
         origem = None
         print('aviso: o texto final não tem o tamanho da grafia (corrigir mudou tokens); sem trecho de 1854 exato')
     so_pal = lambda ts: [k2(t) for t in ts if e_palavra(t) or t in ('#',)]
-    feitos = {d['para'] for d in decisoes.CONFERENCIA}
+    norm = lambda x: ' '.join(t for t in decisoes._toks(x) if t not in ('_', '¶'))
+    feitos = {norm(d['para']) for d in decisoes.CONFERENCIA} | {norm(d['texto']) for d in decisoes.CONFERENCIA}
+    conferidos = [norm(d['texto']) for d in decisoes.CONFERENCIA]
     cap, caps = None, []
     for t in out:
         if t.startswith('#'):
@@ -85,8 +87,12 @@ def pontos():
             else:
                 x1 = ks[0] - 1
         para = junta([t for t in out[x0:x1] if t != '¶'])
-        if para in feitos:
+        np_ = norm(para)
+        if np_ in feitos:
             continue
+        miolo = norm(junta([t for t in a if t != '¶']))
+        if miolo and any(miolo in c and (norm(junta(out[max(0, i1 - 2):i1])) + ' ' + miolo) in c for c in conferidos):
+            continue                                   # já visto dentro da janela de outro ponto
         if origem:
             e0 = origem[x0] if x0 < len(origem) else len(E) - 1
             e1 = origem[x1 - 1] + 1 if x1 - 1 < len(origem) else len(E)

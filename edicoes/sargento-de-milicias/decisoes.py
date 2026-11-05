@@ -67,6 +67,20 @@ MANUAL = {
 }
 
 
+# grafia final de palavras que sobraram na forma de 1854 (o alinhamento com a moderna não as pegou), aplicada
+# palavra a palavra ao texto pronto, depois da conferência. A 3ª do plural em -ão de tempo passado ou do
+# presente vai a -am (o futuro, «verão», «estarão», fica)
+FINAL = {
+    'erão': 'eram', 'servião': 'serviam', 'Fazião-lhes': 'Faziam-lhes', 'deixavão': 'deixavam', 'tinhão': 'tinham',
+    'darião': 'dariam', 'Caminhavão': 'Caminhavam', 'Chegárão': 'Chegaram', 'puzerão-se': 'puseram-se',
+    'occupavão': 'ocupavam', 'atormentão': 'atormentam', 'acalmárão-se': 'acalmaram-se', 'estejão': 'estejam',
+    'Valhão-me': 'Valham-me', 'Pensavão': 'Pensavam', 'cantavão-lhe': 'cantavam-lhe', 'postárão-sé': 'postaram-se',
+    'Vejão': 'Vejam', 'vejão': 'vejam', 'estavaò': 'estavam',
+    'Couces': 'Coices', 'couces': 'coices', 'pataças': 'patacas', 'bonanchona': 'bonachona', 'vestoria': 'vistoria',
+    "d'el-rei": 'del-rei', 'conheco': 'conheço', 'cocou': 'coçou', 'açode': 'acode', 'afféçtos': 'afetos',
+    'susurro': 'sussurro', 'forcada': 'forçada', '$': ';', 'desculpavel': 'desculpável', 'esconjurio': 'esconjúrio',
+}
+
 _ARQ = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'conferencia.json')
 CONFERENCIA = json.load(open(_ARQ, encoding='utf-8')) if os.path.exists(_ARQ) else []
 ERROS = []                    # (capítulo, 1854–55, corrigido), para a «Sobre»
@@ -78,6 +92,85 @@ def _toks(s):
     for parte in re.split(r'(¶)', s):
         out += ['¶'] if parte == '¶' else TOK.findall(parte)
     return out
+
+
+ABREVIATURAS = {'Sr', 'Sra', 'Srs', 'Rev', 'Revma', 'Revmo', 'Vm', 'Vms', 'Vmcê', 'V', 'S', 'D', 'etc', 'N', 'Sto', 'Exa'}
+SUJEIRA = {"'", '■', '•', '<', '>', '^', '}', '{', '|', '~', '*', '"', '„', '%'}
+PONTUACAO = []                # (antes, depois) de cada limpeza, para conferir
+
+
+def _pontuacao(out, flags):
+    """Limpa a pontuação falsa dos OCRs, que nenhuma leitura de 1854 traz assim: sujeira solta («'», «•», «<»),
+    ponto antes de minúscula (salvo abreviatura), pares impossíveis («.,», «,.», «.:», «?.», «,,»)."""
+    PONTUACAO.clear()
+    o, f = [], []
+    for t, fl in zip(out, flags):
+        if t in SUJEIRA:
+            PONTUACAO.append((' '.join(o[-4:]), t))
+            continue
+        o.append(t); f.append(fl)
+    out, flags = o, f
+    fortes = {'?', '!', '?!', '!?'}
+    # tokens de pontuação composta que o voto deixou («.,», «?.», «.:», «!,..»): reduzidos ao sinal plausível
+    for i, t in enumerate(out):
+        if len(t) < 2 or not re.fullmatch(r'[.,;:!?]+', t) or set(t) == {'.'}:
+            continue
+        if re.fullmatch(r'[!?]+\.*', t):
+            continue
+        c = out[i + 1] if i + 1 < len(out) else '¶'
+        fim = c == '¶' or c.startswith('#') or c[:1].isupper() or c == '—'
+        forte = ''.join(ch for ch in t if ch in '!?')
+        pontos = re.search(r'\.{2,}$', t)
+        if forte:
+            novo = forte + (pontos.group(0) if pontos else '')
+        elif ':' in t:
+            novo = ':'
+        elif ';' in t:
+            novo = ';'
+        else:
+            novo = '.' if fim else ','
+        PONTUACAO.append((' '.join(out[max(0, i - 3):i + 2]), novo))
+        out[i] = novo
+    # travessão repetido («— —»): um só
+    o, f = [], []
+    for t, fl in zip(out, flags):
+        if t == '—' and o and o[-1] == '—':
+            continue
+        o.append(t); f.append(fl)
+    out, flags = o, f
+    i = 0
+    while i < len(out) - 1:
+        a, b = out[i], out[i + 1]
+        c = out[i + 2] if i + 2 < len(out) else '¶'
+        novo = None
+        fim = c == '¶' or c.startswith('#') or c[:1].isupper() or c == '—'
+        if a == ',' and b == ',':
+            novo = ','
+        elif {a, b} <= {'.', ','} and a != b:
+            novo = '.' if fim else ','
+        elif {a, b} in ({'.', ':'}, {',', ':'}):
+            novo = ':'
+        elif {a, b} in ({',', ';'}, {'.', ';'}):
+            novo = ';'
+        elif a in fortes and b in ('.', ','):
+            novo = a
+        elif a in (',', '.') and (b in fortes or b.startswith('!') or b.startswith('?')):
+            novo = b
+        elif a in fortes and b.startswith('..'):
+            novo = a + b
+        elif a == ',' and b.startswith('..'):
+            novo = b
+        if novo is not None:
+            PONTUACAO.append((' '.join(out[max(0, i - 3):i + 3]), novo))
+            out[i:i + 2] = [novo]
+            flags[i:i + 2] = [flags[i]]
+            continue
+        if a == '.' and re.match(r'[a-zà-ú]', b) and i > 0 and out[i - 1] not in ABREVIATURAS and not out[i - 1].isdigit():
+            PONTUACAO.append((' '.join(out[max(0, i - 3):i + 3]), ''))
+            del out[i]; del flags[i]
+            continue
+        i += 1
+    return out, flags
 
 
 def corrigir(out, flags):
@@ -134,7 +227,7 @@ def corrigir(out, flags):
         fim = sem[i + n - z - 1] + 1 if n - z > a else ini
         novo = C[a:len(C) - z]
         velho = out[ini:fim]
-        if '¶' in velho:            # as quebras de parágrafo do miolo voltam no mesmo lugar
+        if '¶' in velho and '¶' not in novo:            # as quebras de parágrafo do miolo voltam no mesmo lugar
             import difflib
             vs = [t for t in velho if t != '¶']
             antes_de = set()
@@ -163,7 +256,9 @@ def corrigir(out, flags):
             for x in range(j, len(out)):
                 if k >= len(C):
                     break
-                if out[x] == '¶':
+                while k < len(C) and C[k] == '¶':
+                    k += 1
+                if out[x] == '¶' or k >= len(C):
                     continue
                 if ital[k] and out[x][:1].isalpha():
                     flags[x] = True
@@ -176,6 +271,13 @@ def corrigir(out, flags):
             caps[k] = cap
         if d['cod'] == 'erro':
             ERROS.append((d.get('cap'), d['para'], d['texto']))
+    out = [FINAL.get(t, t) for t in out]
+    # parágrafo que começaria por pontuação («¶ :»): a quebra vai para depois dela
+    for i in range(len(out) - 1):
+        if out[i] == '¶' and out[i + 1] in (',', ';', ':', '.'):
+            out[i], out[i + 1] = out[i + 1], out[i]
+            flags[i], flags[i + 1] = flags[i + 1], flags[i]
+    out, flags = _pontuacao(out, flags)
     if FALHAS:
         print('conferência: correções sem lugar:', len(FALHAS), FALHAS[:8])
     return out, flags

@@ -1561,9 +1561,9 @@
 "cap": "I.XVI",
 "de": "eiíoi",
 "para": "esta picou-se com isso, eiíoi essa a fortuna do",
-"texto": "esta ficou-se com isso, e foi essa a _fortuna_ do",
-"cod": "fix",
-"nota": "impresso «esta ficou-se com isso» (o ws traz «picou-se»; letra inicial é f, sem descendente), «fortuna» em itálico; a nossa leitura «picou-se» não confere"
+"texto": "esta picou-se com isso, e foi essa a _fortuna_ do",
+"cod": "erro",
+"nota": "o impresso traz «ficou-se» (f por p), conferido na imagem"
 },
 {
 "id": 175,
@@ -4281,5 +4281,68 @@
 "texto": "já lhe disse, Sr. capitão!... — Pois estoure",
 "cod": "fix",
 "nota": "ponto 74, com a quebra de parágrafo no meio"
+},
+{
+"id": 1003,
+"cap": null,
+"de": "mal arranjado",
+"para": "homem que não é mal arranjado.... filho",
+"texto": "homem que não é mal-arranjado.... filho",
+"cod": "fix",
+"nota": "grafia de hoje"
+},
+{
+"id": 1004,
+"cap": null,
+"de": ", 114",
+"para": "fazendo aqui ponto-final. , 114",
+"texto": "fazendo aqui ponto-final.",
+"cod": "fix",
+"nota": "resto do colofão (Rua do Sabão, 114)"
+},
+{
+"id": 2001,
+"cap": null,
+"de": "versos",
+"para": "e estilo desta: O Divino ^ Esfurito Sânti) É um grande folião, Amigo de muita carne, Muito vinho e muito pão. Eis aí",
+"texto": "e estilo desta: ¶ O Divino Espírito Santo / É um grande folião, / Amigo de muita carne, / Muito vinho e muito pão. ¶ Eis aí",
+"cod": "fix",
+"nota": "versos, conferidos na imagem"
+},
+{
+"id": 2002,
+"cap": null,
+"de": "versos",
+"para": "o seguinte: Se os meus suspiros pudessem Aos teus ouvidos chegar, Verias que uma paixão Tem poder de assassinar. Não são de zelos Os meus queixumes, Nem de ciúme Abrasador; São das saudades Que me atormentão Na dura ausência De meu amor. O Leonardo",
+"texto": "o seguinte: ¶ Se os meus suspiros pudessem / Aos teus ouvidos chegar, / Verias que uma paixão / Tem poder de assassinar. ¶ Não são de zelos / Os meus queixumes, / Nem de ciúme / Abrasador; / São das saudades / Que me atormentam / Na dura ausência / De meu amor. ¶ O Leonardo",
+"cod": "fix",
+"nota": "versos, conferidos na imagem"
+},
+{
+"id": 2003,
+"cap": null,
+"de": "versos",
+"para": "o seguinte: Duros ferros me prenderam «No momento de te ver; Agora quero quebrá-los, É ' tarde não pode ser. Este último",
+"texto": "o seguinte: ¶ Duros ferros me prenderam / No momento de te ver; / Agora quero quebrá-los, / É tarde não pode ser. ¶ Este último",
+"cod": "fix",
+"nota": "versos, conferidos na imagem"
+},
+{
+"id": 2004,
+"cap": null,
+"de": "versos",
+"para": "turba, desta vez, Passarinho foi-se < i embora, Deixou-me as penas na mão. — — Sr. major",
+"texto": "turba, desta vez ¶ Passarinho foi-se embora, / Deixou-me as penas na mão. ¶ — Sr. major",
+"cod": "fix",
+"nota": "versos, conferidos na imagem"
+},
+{
+"id": 2005,
+"cap": null,
+"de": "versos",
+"para": "nas cantigas Papai lelê, seculorum. Nesse fado",
+"texto": "nas cantigas ¶ _Papai lelê, seculorum._ / ¶ Nesse fado",
+"cod": "fix",
+"nota": "versos, conferidos na imagem"
 }
 ]

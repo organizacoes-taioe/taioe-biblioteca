@@ -26,3 +26,28 @@ disse eu», *farthing* → «vintém»). Franklin ao filho: tu.
   e toscos, rima em *pé / Folgier* (lido «Folguiér»); *My name I do put here* → «ponho o meu nome ao pé»
   (o «ao pé» da folha, pela rima). Medidas aproximadas: 9, 7, 8, 6, 8, 7.
 - **Epitáfio**: 24 linhas, prosa lapidar; *Ætat* → _ætat._ (latim fica); *in thy calling* → «no teu ofício».
+
+## I.2
+
+- *chapmen's books* → «livrinhos de cordel» (o equivalente exato dos *chapbooks*); *R. Burton's Historical
+  Collections* → as _Coleções históricas_ de R. Burton; *The Lighthouse Tragedy* → _A tragédia do farol_;
+  *Teach (or Blackbeard)* → «Teach (ou Barba Negra)»; *Grub-street* → «Grub Street» (fica).
+- *polemic divinity* → «teologia polêmica»; *hasty pudding* → «mingau»; *pastry-cook's* → «confeitaria»;
+  *Messrs. du Port Royal* → «os senhores de Port-Royal»; *Edinborough* → «Edimburgo».
+- *papers* (do _Spectator_ e os dele) → «artigos»; *hints* → «apontamentos»; *sentiment* → «ideia».
+- *modest diffidence* → «modesta reserva»; *positive* → «categórico»; o *you* genérico do conselho final →
+  tu (é a carta ao filho).
+- *the speaker's warrant* → «ordem do presidente da Assembleia»; *the House* → «a Câmara»; *indentures* →
+  «contrato (de aprendizagem)»; *full discharge* → «plena quitação»; *sloop* → «chalupa»; *naughty girl* →
+  «moça leviana»; *errata* → «erratas» (guia).
+- [_Note:_] do irmão tirano: *impressing me* → «me imprimir» (o verbo do ofício, como no inglês).
+- **Pope** (*Essay on Criticism*): em alexandrinos (12, acentos na 6ª e na 12ª), a medida portuguesa que
+  melhor cabe o dístico heroico, com rima consoante. Os quatro trechos:
+  - «Ensinem-se as pessoas em lição escondida, / e o novo se proponha qual coisa esquecida;»
+    (*Men* → «as pessoas»; *as if you taught them not* → «em lição escondida»).
+  - «Falar, mesmo seguro, como quem duvida.» (verso solto, como no original).
+  - Pope: «Não tem defesa alguma a imodesta expressão, / pois falta de modéstia é falta de razão.»
+  - Franklin: «Só tem esta defesa a imodesta expressão: / que falta de modéstia é falta de razão.»
+  A troca *of no defense / For* × *but this defense / That* fica à vista: «Não tem defesa alguma… pois» ×
+  «Só tem esta defesa…: que». *want of sense* → «falta de razão» (pela rima; «razão» = juízo), e a prosa
+  do argumento repete «falta de razão».

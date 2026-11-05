@@ -81,17 +81,17 @@ Nada de «Vossa Majestade»: «ó rei» (ὦ βασιλεῦ).
 
 ## Ditos célebres (decisões em `revisao.json`, com a recomendação aplicada)
 
-- Alex. 6.8 «ὦ παῖ, ζήτει σεαυτῷ βασιλείαν ἴσην· Μακεδονία γάρ σε οὐ χωρεῖ» → «Filho, procura um reino à tua
+- Alex. 6.5 «ὦ παῖ, ζήτει σεαυτῷ βασιλείαν ἴσην· Μακεδονία γάρ σε οὐ χωρεῖ» → «Filho, procura um reino à tua
   altura: a Macedônia não te cabe».
-- Alex. 14.4 «μικρὸν ἀπὸ τοῦ ἡλίου μετάστηθι» → «Sai um pouco da frente do sol»; 14.5 «εἰ μὴ Ἀλέξανδρος ἤμην,
+- Alex. 14.2 «μικρὸν ἀπὸ τοῦ ἡλίου μετάστηθι» → «Sai um pouco da frente do sol»; 14.3 «εἰ μὴ Ἀλέξανδρος ἤμην,
   Διογένης ἂν ἤμην» → «Se eu não fosse Alexandre, seria Diógenes».
-- Caes. 11.4 «ἐβουλόμην παρὰ τούτοις εἶναι μᾶλλον πρῶτος ἢ παρὰ Ῥωμαίοις δεύτερος» → «Eu preferiria ser o
+- Caes. 11.2 «ἐβουλόμην παρὰ τούτοις εἶναι μᾶλλον πρῶτος ἢ παρὰ Ῥωμαίοις δεύτερος» → «Eu preferiria ser o
   primeiro aqui a ser o segundo em Roma» (Plutarco: «entre estes … entre os romanos»: seguir o grego).
-- Caes. 10.9 (a mulher de César): seguir o grego à letra.
-- Caes. 32.8 «ἀνερρίφθω κύβος» → «Seja lançado o dado» (ver `revisao.json`).
-- Caes. 38.5 «Καίσαρα φέρεις καὶ τὴν Καίσαρος τύχην συμπλέουσαν» → «Levas César e a Fortuna de César, que navega
+- Caes. 10.6 (a mulher de César): seguir o grego à letra.
+- Caes. 32.6 «ἀνερρίφθω κύβος» → «Seja lançado o dado» (ver `revisao.json`).
+- Caes. 38.3 «Καίσαρα φέρεις καὶ τὴν Καίσαρος τύχην συμπλέουσαν» → «Levas César e a Fortuna de César, que navega
   contigo».
-- Caes. 50.3 «ἦλθον, εἶδον, ἐνίκησα» → «Vim, vi, venci».
+- Caes. 50.2 «ἦλθον, εἶδον, ἐνίκησα» → «Vim, vi, venci».
 
 ## Notas do tradutor
 

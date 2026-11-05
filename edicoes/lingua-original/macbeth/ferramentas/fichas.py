@@ -1,6 +1,6 @@
 """Fichas para o glossário do Macbeth: por lote de chaves ainda sem verbete, as ocorrências, os
 verbetes já feitos noutros textos em inglês e as definições do en.wiktionary (forma e lema).
-python3 fichas.py <worktree> <partes: 1-1,1-2…> <tamanho do lote> <pasta de saída>"""
+python3 fichas.py <worktree> <partes: 1-1,1-2…> <tamanho do lote> <pasta de saída> [<partes anteriores sem glossário>]"""
 import json, os, re, sys
 WT = sys.argv[1]
 sys.path.insert(0, os.path.join(WT, 'ferramentas'))
@@ -95,13 +95,19 @@ def candidatos(k, exemplo):
         c.append(k[:-2])
     return list(dict.fromkeys(x for x in c if x))
 
+# 5º argumento (opcional): partes anteriores ainda sem glossário; as chaves novas delas ficam para as fichas delas
+antes = set()
+for nome in (sys.argv[5].split(',') if len(sys.argv) > 5 and sys.argv[5] else []):
+    kp, _x = L.achar_parte(mb, nome)
+    for ref, pal, *_r in L.ocorrencias(mb, kp):
+        antes.add(g.get('ocorrencias', {}).get(ref, L.chave(pal)))
 ocs = {}
 for nome in partes:
     kp, _x = L.achar_parte(mb, nome)
     linhas = {n: t for n, t, _i, _d in L.linhas_do_poema(mb, kp)}
     for ref, pal, n, *_r in L.ocorrencias(mb, kp):
         k = g.get('ocorrencias', {}).get(ref, L.chave(pal))
-        if k in feitos:
+        if k in feitos or k in antes:
             continue
         ocs.setdefault(k, []).append((ref, pal, linhas[n].strip()))
 chaves = list(ocs)

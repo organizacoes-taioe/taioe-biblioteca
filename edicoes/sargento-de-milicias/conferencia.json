@@ -825,7 +825,11 @@
 "para": "não é preciso apanhar... ^ — Po s você já apanhou?... — [ Vão",
 "texto": "não é preciso apanhar... — Pois você já apanhou?... — Não",
 "cod": "erro",
-"nota": "impresso 'Po s você' (falta o i, letra caída); '— Vão' é OCR de '— Não'; '^' é sujeira; os travessões abrem falas"
+"nota": "impresso 'Po s você' (falta o i, letra caída); '— Vão' é OCR de '— Não'; '^' é sujeira; os travessões abrem falas",
+"sobre": [
+"Po s você",
+"Pois você"
+]
 },
 {
 "id": 93,
@@ -1563,7 +1567,11 @@
 "para": "esta picou-se com isso, eiíoi essa a fortuna do",
 "texto": "esta picou-se com isso, e foi essa a _fortuna_ do",
 "cod": "erro",
-"nota": "o impresso traz «ficou-se» (f por p), conferido na imagem"
+"nota": "o impresso traz «ficou-se» (f por p), conferido na imagem",
+"sobre": [
+"esta ficou-se com",
+"esta picou-se com"
+]
 },
 {
 "id": 175,
@@ -1750,9 +1758,9 @@
 "cap": "I.XVII",
 "de": "(nada)",
 "para": "ocasião de fazer o quer que fosse de",
-"texto": "ocasião de fazer o que quer que fosse de",
-"cod": "erro",
-"nota": "impresso «occasião de fazer o quer que fosse de maligno» (falta o «que»); ws corrige para «o que quer que»"
+"texto": "ocasião de fazer o quer que fosse de",
+"cod": "ok",
+"nota": "«o quer que fosse» é construção antiga, do impresso: fica"
 },
 {
 "id": 196,
@@ -4161,9 +4169,9 @@
 "cap": "II.XXIII",
 "de": "(nada)",
 "para": "sala; nada: que havião dizer de mim se",
-"texto": "sala; nada: que haviam de dizer de mim se",
-"cod": "erro",
-"nota": "o impresso traz «que havião / dizer de mim» (falta «de», na virada de linha); ws completa; completei. havião -> haviam"
+"texto": "sala; nada: que haviam dizer de mim se",
+"cod": "fix",
+"nota": "impresso «que havião dizer» (sem «de», como «havia custar», «havia pôr» em outros pontos): fica"
 },
 {
 "id": 464,
@@ -4199,7 +4207,11 @@
 "para": "que vejo isto por qui vai bem... — — Não se",
 "texto": "que vejo isto por aqui vai bem... — Não se",
 "cod": "erro",
-"nota": "impresso traz «por qui» (a caído); «— —» da janela é um só travessão (nova fala depois de «bem...»)"
+"nota": "impresso traz «por qui» (a caído); «— —» da janela é um só travessão (nova fala depois de «bem...»)",
+"sobre": [
+"por qui vai",
+"por aqui vai"
+]
 },
 {
 "id": 468,

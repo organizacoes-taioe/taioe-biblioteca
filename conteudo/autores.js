@@ -743,6 +743,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'pero-rodrigues',
+  nome: 'Pero Rodrigues',
+  nomeCompleto: 'Pero Rodrigues',
+  vida: '1542–1628',
+  ordem: 'Rodrigues, Pero',
+  area: 'nao-ficcao',
+  nota: 'Jesuíta português, nascido em Évora, provincial da Companhia de Jesus no Brasil e primeiro biógrafo de José de Anchieta.'
+});
+
+BIBLIOTECA.autor({
   id: 'seneca',
   nome: 'Sêneca',
   nomeCompleto: 'Lúcio Aneu Sêneca',

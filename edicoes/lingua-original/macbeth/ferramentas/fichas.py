@@ -142,3 +142,44 @@ for i in range(0, len(chaves), tam):
     with open(arq, 'w', encoding='utf-8') as f:
         f.write('\n'.join(out))
     print(arq, len(chaves[i:i + tam]), 'chaves', os.path.getsize(arq), 'bytes')
+
+# ------------------------------------------------------------------ mapear e revisar
+# mapear.txt: as chaves com variantes (chave#2…) e cada ocorrência delas nestas partes, com a chave de agora;
+# revisar.txt: as chaves já feitas (palavras de conteúdo, sem variantes) que voltam nestas partes, com a
+# definição de agora e os versos daqui, para ver se o sentido é o mesmo
+vb = g['verbetes']
+bases = {}
+for k in vb:
+    bases.setdefault(k.split('#')[0], []).append(k)
+GRAM = re.compile(r'artigo|preposição|conjunção|pronome|auxiliar|numeral|interjeição|contração')
+def curta(x):
+    d = x.get('def') or [x.get('nota', '')] if 'partes' not in x else [' + '.join(p.get('def', [''])[0] for p in x['partes'])]
+    return ('%s; %s' % (x.get('classe', ''), (d[0] if d else '')[:90]))
+mapear, revisar = [], []
+porchave = {}
+for nome in partes:
+    kp, _x = L.achar_parte(mb, nome)
+    linhas = {n: t for n, t, _i, _d in L.linhas_do_poema(mb, kp)}
+    for ref, pal, n, *_r in L.ocorrencias(mb, kp):
+        k = g.get('ocorrencias', {}).get(ref, L.chave(pal))
+        b = k.split('#')[0]
+        if b in feitos or b in bases:
+            porchave.setdefault(b, []).append((ref, k, linhas[n].strip()))
+for b, lst in porchave.items():
+    vs = sorted(bases.get(b, []))
+    if len(vs) > 1:
+        mapear.append('### %s' % b)
+        for v in vs:
+            mapear.append('  = %-12s %s' % (v, curta(vb[v])))
+        for ref, k, t in lst:
+            mapear.append('  %-9s [%s] %s' % (ref, k, t))
+        mapear.append('')
+    elif vs and vb[vs[0]].get('classe') != 'nome próprio' and (not GRAM.search(vb[vs[0]].get('classe', '')) or '«' in vb[vs[0]].get('nota', '')):
+        x = vb[vs[0]]
+        revisar.append('### %s  = %s%s' % (b, curta(x), '  (nota: %s)' % x['nota'][:140] if x.get('nota') else ''))
+        for ref, k, t in lst[:3]:
+            revisar.append('  %-9s %s' % (ref, t))
+for nome, conteudo in (('mapear.txt', mapear), ('revisar.txt', revisar)):
+    with open(os.path.join(saida, nome), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(conteudo))
+    print(nome, os.path.getsize(os.path.join(saida, nome)), 'bytes')

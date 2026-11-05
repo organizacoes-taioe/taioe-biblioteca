@@ -12,7 +12,7 @@ Glossário (um só, `glossario.json`), ato por ato:
 - ato fechado: tirar `"rascunho": true` das partes dele em `obras.json`.
 
 Estado:
-- [ ] Personagens + Ato I
+- [x] Personagens + Ato I (1.393 verbetes; no ar no local)
 - [ ] Ato II
 - [ ] Ato III
 - [ ] Ato IV

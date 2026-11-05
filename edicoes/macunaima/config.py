@@ -158,6 +158,15 @@ def modernas():
 PROTEGIDAS = {'prá', 'prás', 'porquê', 'mãi', 'mamãi'}
 
 
+def _oxitona(w):
+    """Oxítona em -i, -u (tupi, africana: jejú, Gurupí, cachirí) perde o acento que a norma de hoje não
+    pede; fica o do hiato (Pauí, tuiuiú, aí). Na grafia de hoje: jeju, Gurupi, cachiri."""
+    m = re.search(r'(qu|gu|[^aeiouáéíóúâêôãõà])([íú])(s?)$', w)
+    if not m:
+        return w
+    return w[:m.start(2)] + {'í': 'i', 'ú': 'u'}[m.group(2)] + m.group(3)
+
+
 def modernizar(E, manual):
     """Grafia de 1928 -> de hoje, só no acento (CONVENCOES.md): a palavra que não está no léxico do
     sistema e tem nele uma única forma igual sem acentos ganha a acentuação dela (heroi → herói,
@@ -211,7 +220,7 @@ def modernizar(E, manual):
                 if len(c) == 1:
                     nova, fonte = next(iter(c)), 'ACENTO'
                 else:
-                    nova, fonte = w, 'SEM_PAR'
+                    nova, fonte = _oxitona(w), 'SEM_PAR'
             novas.append(igualar_caixa(pt, nova) if nova != w else pt)
             if fonte != 'IGUAL':
                 rel.append((pt, nova, fonte, i))

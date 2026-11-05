@@ -743,6 +743,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'liev-tolstoi',
+  nome: 'Liev Tolstói',
+  nomeCompleto: 'Liev Nikoláievitch Tolstói',
+  vida: '1828–1910',
+  ordem: 'Tolstói, Liev',
+  area: 'nao-ficcao',
+  nota: 'Romancista russo, autor de Guerra e paz e Anna Kariênina; na maturidade, escritor religioso e moralista.'
+});
+
+BIBLIOTECA.autor({
   id: 'vergilio',
   nome: 'Vergílio',
   nomeCompleto: 'Públio Vergílio Marão',

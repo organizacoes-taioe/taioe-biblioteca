@@ -1259,10 +1259,648 @@
     "(transitivo) Decorar ou ornamentar, sobretudo com desenho entrelaçado, ou (em arquitetura) com entalhe ou relevo."
    ],
    "nota": "«The roof was fretted gold»: o teto era de ouro trabalhado, lavrado em desenhos de relevo."
+  },
+  "babylon": {
+   "lema": "Babylon",
+   "classe": "substantivo próprio",
+   "def": [
+    "(histórico) Antiga cidade, capital da Babilônia, às margens do Eufrates."
+   ],
+   "nota": "«Not Babylon / Nor great Alcairo»: nem a Babilônia nem o grande Cairo igualaram o esplendor do Pandemônio."
+  },
+  "alcairo": {
+   "lema": "Alcairo",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Forma antiga do nome do Cairo, cidade do Egito."
+   ],
+   "nota": "Do árabe «Al-Qahira», «a Vitoriosa»; Milton usa a forma que os viajantes de seu tempo davam. Representa aqui o Egito dos faraós, ao lado da Babilônia."
+  },
+  "magnificence": {
+   "lema": "magnificence",
+   "classe": "substantivo",
+   "def": [
+    "Grandeza, brilho, suntuosidade ou esplendor."
+   ]
+  },
+  "enshrine": {
+   "lema": "enshrine",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Encerrar (uma relíquia sagrada etc.) em um santuário ou arca; (por extensão) guardar com reverência."
+   ],
+   "nota": "«To enshrine Belus or Serapis their gods»: para abrigar em templo os seus deuses, Belo ou Serápis."
+  },
+  "belus": {
+   "lema": "Belus",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Nome latino de Bel, divindade dos babilônios e assírios."
+   ],
+   "nota": "Milton o põe ao lado de Serápis, para mostrar os grandes templos pagãos da Assíria e do Egito."
+  },
+  "serapis": {
+   "lema": "Serapis",
+   "classe": "substantivo próprio",
+   "def": [
+    "Deus greco-egípcio criado no século III a.C. para unir gregos e egípcios no reino de Ptolomeu I."
+   ],
+   "nota": "Serápis, deus do Egito ptolomaico."
+  },
+  "assyria": {
+   "lema": "Assyria",
+   "classe": "substantivo próprio",
+   "def": [
+    "(histórico) Antigo reino e, por vezes, império semita da Mesopotâmia."
+   ],
+   "nota": "«When Egypt with Assyria strove / In wealth and luxury»: quando o Egito rivalizava com a Assíria em riqueza e luxo."
+  },
+  "strove": {
+   "lema": "strive",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Competir como rival; rivalizar."
+   ],
+   "nota": "«Egypt with Assyria strove»: o Egito rivalizava com a Assíria."
+  },
+  "wealth": {
+   "lema": "wealth",
+   "classe": "substantivo",
+   "def": [
+    "Riquezas; grande quantidade de bens valiosos."
+   ]
+  },
+  "luxury": {
+   "lema": "luxury",
+   "classe": "substantivo",
+   "def": [
+    "Ambiente muito rico e confortável; o estado que ele cria."
+   ]
+  },
+  "ascending": {
+   "lema": "ascend",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "(intransitivo) Mover-se para cima; subir."
+   ],
+   "nota": "«Th’ ascending pile»: o edifício que subia, que se erguia; «th’» é «the» com elisão."
+  },
+  "pile": {
+   "lema": "pile",
+   "classe": "substantivo",
+   "def": [
+    "Edifício grande, ou conjunto de edifícios."
+   ],
+   "nota": "«The ascending pile»: o grande edifício que se erguia."
+  },
+  "doors": {
+   "lema": "door",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(arquitetura) Abertura de entrada em um edifício, sala ou veículo, em geral formada por uma folha rígida que gira sobre dobradiças; porta."
+   ]
+  },
+  "opening": {
+   "lema": "open",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "(transitivo, intransitivo) Tornar(-se) acessível ou livre para a passagem, movendo de uma posição fechada; abrir(-se)."
+   ],
+   "nota": "«The doors, / Opening their brazen folds»: as portas, abrindo as suas folhas de bronze."
+  },
+  "brazen": {
+   "lema": "brazen",
+   "classe": "adjetivo",
+   "def": [
+    "(arcaico) Feito de latão ou de bronze."
+   ],
+   "nota": "«Brazen folds»: as folhas de bronze das portas."
+  },
+  "folds": {
+   "lema": "fold",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Cada uma das folhas de uma porta articulada."
+   ],
+   "nota": "«Brazen folds»: as folhas, os batentes das portas de bronze."
+  },
+  "wide": {
+   "lema": "wide",
+   "classe": "advérbio",
+   "def": [
+    "Amplamente; extensamente."
+   ],
+   "nota": "«Discover, wide / Within, her ample spaces»: as portas desvendam, escancaradas, o interior de largos espaços. «Discover» é «descobrir», no sentido antigo de revelar."
+  },
+  "wide#2": {
+   "lema": "wide",
+   "classe": "adjetivo",
+   "def": [
+    "Que tem grande extensão de lado a lado; largo."
+   ],
+   "nota": "«The gates / And porches wide»: os portões e os pórticos largos, abertos de par em par."
+  },
+  "ample": {
+   "lema": "ample",
+   "classe": "adjetivo",
+   "def": [
+    "Grande em tamanho, extensão ou capacidade; espaçoso, amplo."
+   ]
+  },
+  "spaces": {
+   "lema": "space",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Extensão física em duas ou três dimensões."
+   ],
+   "nota": "«Her ample spaces»: os vastos espaços do salão; «her» refere-se a «pile», tratado como feminino."
+  },
+  "level": {
+   "lema": "level",
+   "classe": "adjetivo",
+   "def": [
+    "Da mesma altura em todos os pontos; paralelo ao chão plano."
+   ],
+   "nota": "«The smooth / And level pavement»: o piso liso e plano."
+  },
+  "arched": {
+   "lema": "arched",
+   "classe": "adjetivo",
+   "def": [
+    "Curvo."
+   ],
+   "nota": "«The arched roof»: o teto em arco, abobadado."
+  },
+  "pendent": {
+   "lema": "pendent",
+   "classe": "adjetivo",
+   "def": [
+    "Que pende; pendurado, suspenso."
+   ],
+   "nota": "«Pendent by subtle magic»: pendurados por uma arte mágica engenhosa; ligado a «lamps» e «cressets»."
+  },
+  "subtle": {
+   "lema": "subtle",
+   "classe": "adjetivo",
+   "def": [
+    "(arcaico) Hábil de modo astuto; engenhoso, sutil."
+   ],
+   "nota": "«Subtle magic»: uma magia engenhosa, que mantém as lâmpadas no ar."
+  },
+  "magic": {
+   "lema": "magic",
+   "classe": "substantivo",
+   "def": [
+    "Aplicação de rituais ou ações, sobretudo os baseados em conhecimento oculto, para dominar ou manipular seres e forças naturais ou sobrenaturais."
+   ],
+   "nota": "Aqui a «magia» é a arte do arquiteto, que faz as luminárias ficarem suspensas sem apoio visível."
+  },
+  "starry": {
+   "lema": "starry",
+   "classe": "adjetivo",
+   "def": [
+    "Que se assemelha a uma estrela ou tem forma de estrela."
+   ],
+   "nota": "«Starry lamps»: lâmpadas que brilham como estrelas."
+  },
+  "lamps": {
+   "lema": "lamp",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Dispositivo que contém óleo, queimado através de um pavio, para iluminar; lamparina."
+   ]
+  },
+  "blazing": {
+   "lema": "blazing",
+   "classe": "adjetivo",
+   "def": [
+    "De intensidade, calor ou ardor tremendos; incandescente."
+   ],
+   "nota": "«Blazing cressets»: tochas ardentes."
+  },
+  "cressets": {
+   "lema": "cresset",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Cesto, copa ou gaiola de metal com fogo, usado para vários fins; (histórico) copa de metal presa ao alto de um poste e cheia de piche em chamas, usada como iluminação portátil."
+   ],
+   "nota": "«Cressets… fed / With naphtha and asphaltus»: tochas de ferro, alimentadas por nafta e betume."
+  },
+  "naphtha": {
+   "lema": "naphtha",
+   "classe": "substantivo",
+   "def": [
+    "(datado) Petróleo líquido que ocorre naturalmente."
+   ],
+   "nota": "Combustível líquido e inflamável de que se alimentam as tochas."
+  },
+  "asphaltus": {
+   "lema": "asphalt",
+   "classe": "substantivo",
+   "forma": "forma arcaica",
+   "def": [
+    "Líquido ou semissólido negro ou castanho, viscoso e pegajoso, composto quase todo de betume com pequenas partículas minerais, presente na maior parte do petróleo bruto."
+   ],
+   "nota": "«Asphaltus» é a forma latina antiga de «asphalt»: o betume, aqui também combustível das tochas."
+  },
+  "yielded": {
+   "lema": "yield",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "Dar como resultado; produzir, render."
+   ],
+   "nota": "«Yielded light»: davam luz, produziam luz."
+  },
+  "hasty": {
+   "lema": "hasty",
+   "classe": "adjetivo",
+   "def": [
+    "Que age ou é feito com pressa; apressado."
+   ],
+   "nota": "«The hasty multitude»: a multidão apressada, ansiosa por ver a obra."
+  },
+  "entered": {
+   "lema": "enter",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(intransitivo) Ir ou vir para dentro de um espaço fechado ou parcialmente fechado; entrar."
+   ]
+  },
+  "praise": {
+   "lema": "praise",
+   "classe": "verbo",
+   "def": [
+    "Dar louvor a; elogiar, glorificar ou venerar."
+   ],
+   "nota": "«Some praise the work, and some the architect»: uns louvam a obra, e outros o arquiteto."
+  },
+  "architect": {
+   "lema": "architect",
+   "classe": "substantivo",
+   "def": [
+    "Profissional que projeta edifícios ou outras estruturas, ou que prepara os planos e supervisiona a construção."
+   ],
+   "nota": "O arquiteto é Mulciber, nomeado nos versos seguintes."
+  },
+  "towered": {
+   "lema": "towered",
+   "classe": "adjetivo",
+   "def": [
+    "Dotado de torre."
+   ],
+   "nota": "«A towered structure high»: um edifício alto, cheio de torres."
+  },
+  "structure": {
+   "lema": "structure",
+   "classe": "substantivo",
+   "def": [
+    "Um todo coeso formado de partes distintas; construção."
+   ]
+  },
+  "sceptred": {
+   "lema": "sceptred",
+   "classe": "adjetivo",
+   "def": [
+    "Que tem um cetro; investido de poder real."
+   ],
+   "nota": "«Sceptred Angels»: anjos de cetro, que reinavam como príncipes sob o Rei supremo."
+  },
+  "residence": {
+   "lema": "residence",
+   "classe": "substantivo",
+   "def": [
+    "O lugar em que alguém vive; lar, moradia."
+   ]
+  },
+  "exalted": {
+   "lema": "exalt",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo) Elevar em posição, categoria etc."
+   ],
+   "nota": "«Whom the supreme King / Exalted to such power»: a quem o Rei supremo elevou a tal poder."
+  },
+  "gave": {
+   "lema": "give",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(bitransitivo) Transferir a posse de (algo) a alguém; conceder."
+   ],
+   "nota": "«Gave to rule»: concedeu que governassem, deu-lhes o poder de governar."
+  },
+  "rule": {
+   "lema": "rule",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Regular, ter o comando, tomar decisões por, reinar sobre."
+   ],
+   "nota": "«Gave to rule… the Orders bright»: deu-lhes o poder de governar as Ordens luminosas; «to rule» é o infinitivo, e «the Orders» seu objeto."
+  },
+  "hierarchy": {
+   "lema": "hierarchy",
+   "classe": "substantivo",
+   "def": [
+    "Corpo de autoridades organizado em graus encaixados; sistema em que pessoas ou grupos se ordenam como superiores e inferiores."
+   ],
+   "nota": "«Each in his Hierarchy»: cada um em sua hierarquia, isto é, em sua classe de anjos."
+  },
+  "orders": {
+   "lema": "order",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Um número de coisas ou pessoas dispostas em lugar ou posição relativa adequada; classe ou posição social; espécie."
+   ],
+   "nota": "«The Orders bright»: as ordens, as classes luminosas dos anjos."
+  },
+  "unadored": {
+   "lema": "unadored",
+   "classe": "adjetivo",
+   "def": [
+    "Não adorado."
+   ],
+   "nota": "«Nor was his name unheard or unadored / In ancient Greece»: seu nome não era desconhecido nem deixava de ser adorado na Grécia antiga."
+  },
+  "greece": {
+   "lema": "Greece",
+   "classe": "substantivo próprio",
+   "def": [
+    "País do sudeste da Europa."
+   ],
+   "nota": "«Ancient Greece»: a Grécia antiga, onde o arquiteto era conhecido como Hefesto."
+  },
+  "ausonian": {
+   "lema": "Ausonian",
+   "classe": "adjetivo",
+   "def": [
+    "(poético) Italiano; (histórico) da antiga Ausônia, na Itália."
+   ],
+   "nota": "«Ausonian land»: a terra ausônia, isto é, a Itália, onde o deus era conhecido como Mulciber (Vulcano)."
+  },
+  "mulciber": {
+   "lema": "Mulciber",
+   "wiki": null,
+   "classe": "substantivo próprio",
+   "def": [
+    "Epíteto latino de Vulcano, deus romano do fogo e da forja."
+   ],
+   "nota": "Milton o identifica com o anjo caído que construiu o Pandemônio. A queda que os poetas lhe atribuíram é a de Hefesto, o Vulcano grego (cf. «Lemnos», v. 746)."
+  },
+  "fabled": {
+   "lema": "fable",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo, arcaico) Inventar; contar como verdadeiro ou real; narrar em forma de fábula."
+   ],
+   "nota": "«They fabled»: os poetas pagãos contaram em suas fábulas."
+  },
+  "thrown": {
+   "lema": "throw",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Arremessar; lançar (algo) com força."
+   ],
+   "nota": "«Thrown by angry Jove»: lançado por Júpiter irado."
+  },
+  "sheer": {
+   "lema": "sheer",
+   "classe": "advérbio",
+   "def": [
+    "(arcaico) Completamente; de uma só vez."
+   ],
+   "nota": "«Sheer o’er the crystal battlements»: de ponta a ponta, direto por cima das ameias de cristal."
+  },
+  "crystal": {
+   "lema": "crystal",
+   "classe": "adjetivo",
+   "def": [
+    "Feito de cristal."
+   ],
+   "nota": "«Crystal battlements»: as ameias, os muros de cristal do Céu."
+  },
+  "battlements": {
+   "lema": "battlement",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Qualquer muro alto de defesa; (poético) o teto altaneiro do céu."
+   ],
+   "nota": "«Crystal battlements»: as muralhas transparentes do Céu."
+  },
+  "noon": {
+   "lema": "noon",
+   "classe": "substantivo",
+   "def": [
+    "A hora do dia em que o Sol parece alcançar o ponto mais alto do céu; meio-dia."
+   ],
+   "nota": "«From morn / To noon he fell, from noon to dewy eve»: caiu da manhã ao meio-dia, e do meio-dia ao entardecer orvalhado."
+  },
+  "dewy": {
+   "lema": "dewy",
+   "classe": "adjetivo",
+   "def": [
+    "Coberto de orvalho."
+   ]
+  },
+  "setting": {
+   "lema": "setting",
+   "classe": "adjetivo",
+   "def": [
+    "Que desaparece abaixo do horizonte; poente."
+   ],
+   "nota": "«With the setting sun»: com o sol poente."
+  },
+  "dropt": {
+   "lema": "drop",
+   "classe": "verbo",
+   "forma": "passado (grafia antiga)",
+   "def": [
+    "(intransitivo) Cair (em linha reta) pela ação da gravidade, como uma gota de líquido."
+   ],
+   "nota": "«Dropt» é grafia antiga de «dropped»."
+  },
+  "zenith": {
+   "lema": "zenith",
+   "classe": "substantivo",
+   "def": [
+    "(astronomia) O ponto do céu verticalmente acima de um observador; o ponto mais alto do céu alcançado por um astro."
+   ]
+  },
+  "star": {
+   "lema": "star",
+   "classe": "substantivo",
+   "def": [
+    "Qualquer pequeno ponto brilhante e natural no céu, mais visível à noite ou no crepúsculo."
+   ],
+   "nota": "«A falling star»: uma estrela cadente."
+  },
+  "lemnos": {
+   "lema": "Lemnos",
+   "classe": "substantivo próprio",
+   "def": [
+    "Ilha do nordeste da Grécia, no mar Egeu."
+   ],
+   "nota": "Na tradição grega, Hefesto, atirado do Olimpo, caiu em Lemnos (Ilíada I)."
+  },
+  "aegaean": {
+   "lema": "Aegean",
+   "classe": "adjetivo",
+   "forma": "grafia antiga",
+   "def": [
+    "Relativo ao mar Egeu ou às regiões que o margeiam."
+   ],
+   "nota": "«Th’ Aegaean isle»: a ilha do Egeu, Lemnos; «th’» é «the»."
+  },
+  "isle": {
+   "lema": "isle",
+   "classe": "substantivo",
+   "def": [
+    "Ilha, em geral muito pequena."
+   ]
+  },
+  "relate": {
+   "lema": "relate",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Contar de modo descritivo; narrar."
+   ],
+   "nota": "«Thus they relate»: assim contam eles (os poetas pagãos)."
+  },
+  "erring": {
+   "lema": "err",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "(intransitivo, formal) Cometer um erro."
+   ],
+   "nota": "«Erring»: errando, enganados; é o sentido de «errar» como equivocar-se, que Milton usa para dizer que o mito é falso."
+  },
+  "rout": {
+   "lema": "rout",
+   "classe": "substantivo",
+   "def": [
+    "(obsoleto) Grupo de pessoas; multidão, bando."
+   ],
+   "nota": "«This rebellious rout»: este bando rebelde, esta multidão de anjos rebeldes."
+  },
+  "availed": {
+   "lema": "avail",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo) Ser útil a; servir a."
+   ],
+   "nota": "«Nor aught availed him now / To have built in Heaven high towers»: de nada lhe valeu ter edificado no Céu altas torres."
+  },
+  "engines": {
+   "lema": "engine",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(obsoleto) O resultado da astúcia; algo engenhoso, uma invenção ou artifício."
+   ],
+   "nota": "«By all his engines»: por todos os seus engenhos, artifícios; sentido antigo, do latim «ingenium»."
+  },
+  "industrious": {
+   "lema": "industrious",
+   "classe": "adjetivo",
+   "def": [
+    "Trabalhador e persistente."
+   ],
+   "nota": "«His industrious crew»: seus companheiros laboriosos, os anjos construtores."
+  },
+  "meanwhile": {
+   "lema": "meanwhile",
+   "classe": "advérbio",
+   "def": [
+    "Durante o tempo em que algo acontece, muitas vezes em outro lugar."
+   ]
+  },
+  "heralds": {
+   "lema": "herald",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Mensageiro, sobretudo o que leva notícias importantes; arauto."
+   ],
+   "nota": "«Winged Heralds»: arautos alados, anjos que proclamam."
+  },
+  "awful": {
+   "lema": "awful",
+   "classe": "adjetivo",
+   "def": [
+    "(agora raro) Que inspira respeito; que enche de reverência ou temor sagrado."
+   ],
+   "nota": "«With awful ceremony»: com solene cerimônia, que impõe respeito; não tem o sentido moderno de «horrível»."
+  },
+  "ceremony": {
+   "lema": "ceremony",
+   "classe": "substantivo",
+   "def": [
+    "Comportamento formal, estabelecido socialmente, muitas vezes ligado a pessoas de postos diferentes; formalidade."
+   ]
+  },
+  "trumpet’s": {
+   "lema": "trumpet",
+   "classe": "substantivo",
+   "forma": "genitivo (possessivo) singular",
+   "def": [
+    "Instrumento musical de sopro, de metal, com som forte e agudo; trombeta."
+   ],
+   "nota": "«And trumpet’s sound»: e ao som da trombeta."
+  },
+  "throughout": {
+   "lema": "throughout",
+   "classe": "preposição",
+   "def": [
+    "Em todas as partes de; por todo."
+   ],
+   "nota": "«Throughout the host»: por todo o exército."
+  },
+  "proclaim": {
+   "lema": "proclaim",
+   "classe": "verbo",
+   "def": [
+    "Anunciar ou declarar."
+   ],
+   "nota": "«Proclaim / A solemn council»: anunciam um solene concílio; o objeto «council» vem no verso seguinte, e o infinitivo «to be held» o completa."
+  },
+  "capital": {
+   "lema": "capital",
+   "classe": "adjetivo",
+   "def": [
+    "Principal (em sentido político, por ser a sede do governo de um Estado ou nação)."
+   ],
+   "nota": "«The high capital / Of Satan and his peers»: a alta capital, a sede principal de Satanás e de seus pares."
+  },
+  "summons": {
+   "lema": "summons",
+   "classe": "substantivo",
+   "def": [
+    "Chamado para fazer algo, sobretudo para comparecer; convocação."
+   ],
+   "nota": "«Their summons called… the worthiest»: a convocação chamou os mais dignos. Em «summons read» (v. 798): lida a convocação, o concílio começa."
   }
  },
  "ocorrencias": {
   "697.7": "fame#2",
-  "733.1": "admiring#2"
+  "733.1": "admiring#2",
+  "764.3": "wide#2"
  }
 }

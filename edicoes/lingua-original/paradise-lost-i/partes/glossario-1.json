@@ -1,0 +1,652 @@
+{
+  "verbetes": {
+    "book": {
+      "lema": "book",
+      "classe": "substantivo",
+      "def": [
+        "Uma grande divisão de uma obra longa."
+      ],
+      "nota": "«Book I» é o Livro I, a primeira das grandes divisões do poema."
+    },
+    "book#2": {
+      "lema": "book",
+      "classe": "substantivo",
+      "def": [
+        "Uma grande divisão de uma obra longa."
+      ],
+      "nota": "No «Argument», «this first Book» é este Livro I, que o resumo antecede."
+    },
+    "i": {
+      "lema": "I",
+      "classe": "pronome pessoal",
+      "def": [
+        "O falante ou o escritor, referido como sujeito gramatical da oração; eu."
+      ]
+    },
+    "i#2": {
+      "lema": "I",
+      "wiki": "en:Translingual",
+      "classe": "numeral",
+      "def": [
+        "O numeral romano um (1)."
+      ],
+      "nota": "«Book I»: Livro I, o primeiro."
+    },
+    "i#3": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "elisão (i’ = in)",
+      "def": [
+        "Indica localização, inclusão ou posição dentro de limites espaciais, temporais ou abstratos; em, dentro de."
+      ],
+      "nota": "Elisão métrica: «i’ th’ midst» é «in the midst», no meio."
+    },
+    "the": {
+      "lema": "the",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido: mostra que o grupo nominal que o segue é identificável com precisão; o, a, os, as."
+      ]
+    },
+    "argument": {
+      "lema": "argument",
+      "classe": "substantivo",
+      "def": [
+        "O assunto de uma representação artística, de um discurso ou de um escrito; tema."
+      ],
+      "nota": "Sentido antigo, do latim: «argumentum», o tema da obra. Aqui, o grande assunto do poema: a queda do homem e a justiça de Deus."
+    },
+    "argument#2": {
+      "lema": "argument",
+      "classe": "substantivo",
+      "def": [
+        "Resumo do conteúdo de uma obra literária (um livro, um poema ou uma seção, como um capítulo), colocado antes do próprio conteúdo."
+      ],
+      "nota": "É o sumário em prosa que abre o Livro I: o «Argument»."
+    },
+    "this": {
+      "lema": "this",
+      "classe": "determinante demonstrativo",
+      "def": [
+        "A coisa (ou a pessoa) aqui; usado para indicar algo ou alguém próximo, ou já mencionado ou prestes a ser mencionado; este, esta."
+      ]
+    },
+    "this#2": {
+      "lema": "this",
+      "classe": "pronome demonstrativo",
+      "def": [
+        "A coisa, o item etc. que está sendo indicado; isto."
+      ]
+    },
+    "first": {
+      "lema": "first",
+      "classe": "advérbio",
+      "def": [
+        "Antes de qualquer outra coisa; em primeiro lugar, primeiramente."
+      ]
+    },
+    "first#2": {
+      "lema": "first",
+      "classe": "adjetivo",
+      "def": [
+        "Que precede todos os outros de uma série ou espécie; o primeiro; o mais antigo."
+      ]
+    },
+    "first#3": {
+      "lema": "first",
+      "classe": "substantivo",
+      "def": [
+        "A pessoa ou coisa que está na primeira posição."
+      ],
+      "nota": "«From the first» é «desde o princípio, desde o começo»."
+    },
+    "proposes": {
+      "lema": "propose",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "(obsoleto) Expor; apresentar."
+      ],
+      "nota": "Aqui «propose» é «expor, apresentar» (e não «sugerir»): o Livro I enuncia, em resumo, todo o assunto do poema."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Indica localização, inclusão ou posição dentro de limites espaciais, temporais ou abstratos; em, dentro de."
+      ]
+    },
+    "in#2": {
+      "lema": "in",
+      "classe": "advérbio",
+      "def": [
+        "Para o interior de um espaço definido, como um prédio ou um cômodo; para dentro."
+      ],
+      "nota": "Em «ride in armed», os cavaleiros entram (no torneio) armados."
+    },
+    "brief": {
+      "lema": "brief",
+      "classe": "adjetivo",
+      "def": [
+        "Conciso; que usa poucas palavras."
+      ],
+      "nota": "«In brief» é «em resumo, resumidamente»."
+    },
+    "whole": {
+      "lema": "whole",
+      "classe": "adjetivo",
+      "def": [
+        "Inteiro, não dividido."
+      ]
+    },
+    "subject": {
+      "lema": "subject",
+      "classe": "substantivo",
+      "def": [
+        "O tema principal de um escrito, de uma obra de arte, de uma discussão etc.; assunto."
+      ]
+    },
+    "man’s": {
+      "lema": "man",
+      "classe": "substantivo",
+      "forma": "genitivo (possessivo) singular",
+      "def": [
+        "(antiquado, formal) O conjunto de todos os seres humanos; a humanidade."
+      ],
+      "nota": "«Man», com maiúscula, é a humanidade, na pessoa de Adão: a desobediência é a do primeiro homem."
+    },
+    "disobedience": {
+      "lema": "disobedience",
+      "classe": "substantivo",
+      "def": [
+        "Recusa de obedecer."
+      ],
+      "nota": "É a desobediência de Adão e Eva, que comeram o fruto proibido (v. 1–3)."
+    },
+    "and": {
+      "lema": "and",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção coordenativa: liga dois elementos que devem ser tomados em conjunto ou em acréscimo um ao outro; e."
+      ]
+    },
+    "and#2": {
+      "lema": "to and fro",
+      "classe": "advérbio (locução)",
+      "def": [
+        "De um lado para o outro; em vaivém."
+      ],
+      "nota": "Em «to and fro», as três palavras formam a locução «de lá para cá»."
+    },
+    "loss": {
+      "lema": "loss",
+      "classe": "substantivo",
+      "def": [
+        "(contável) O resultado de deixar de possuir um objeto, uma função ou uma característica, por causas externas ou por extravio."
+      ]
+    },
+    "loss#2": {
+      "lema": "loss",
+      "classe": "substantivo",
+      "def": [
+        "(contável) Derrota; um caso de ser derrotado."
+      ],
+      "nota": "É a derrota e a ruína dos anjos rebeldes, lançados do Céu."
+    },
+    "thereupon": {
+      "lema": "thereupon",
+      "classe": "advérbio",
+      "def": [
+        "Em consequência ou por causa disso; portanto."
+      ],
+      "nota": "«The loss thereupon of Paradise» é «a perda do Paraíso em consequência disso» (da desobediência)."
+    },
+    "of": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Exprime relação entre dois termos: posse, origem, composição, assunto etc.; de."
+      ]
+    },
+    "of#2": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Acerca de, a respeito de; sobre."
+      ],
+      "nota": "Em «Of Man’s first disobedience…», o poeta anuncia o tema (que ele vai cantar): «sobre a primeira desobediência do homem»."
+    },
+    "of#3": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "(depois de verbo na voz passiva ou de adjetivo) Indica o agente; por."
+      ],
+      "nota": "«Favoured of Heaven» é «favorecidos pelo Céu», isto é, por Deus."
+    },
+    "of#4": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "(antiquado) Indica afastamento ou separação; de, fora de."
+      ],
+      "nota": "Em «out of», «void of», «shorn of» a ideia é de afastamento ou de ausência."
+    },
+    "paradise": {
+      "lema": "Paradise",
+      "classe": "substantivo próprio",
+      "def": [
+        "(religião) O Jardim do Éden."
+      ],
+      "nota": "O Paraíso terrestre em que Adão e Eva foram postos; no verso 4 o poeta o chama «Eden»."
+    },
+    "wherein": {
+      "lema": "wherein",
+      "classe": "conjunção",
+      "def": [
+        "Onde, ou em qual lugar; no qual."
+      ]
+    },
+    "he": {
+      "lema": "he",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pessoa do sexo masculino, ou animal já conhecido ou subentendido; ele."
+      ]
+    },
+    "was": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "1ª e 3ª pessoa do singular do pretérito",
+      "def": [
+        "Verbo de ligação: indica que o sujeito tem as qualidades descritas por um adjetivo ou locução; ser, estar. Também auxiliar da voz passiva."
+      ]
+    },
+    "placed": {
+      "lema": "place",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(transitivo) Pôr (alguém ou algo) em um lugar específico."
+      ]
+    },
+    "then": {
+      "lema": "then",
+      "classe": "advérbio",
+      "def": [
+        "(localização temporal) Naquele tempo, naquele momento."
+      ]
+    },
+    "then#2": {
+      "lema": "then",
+      "classe": "advérbio",
+      "def": [
+        "(localização temporal) Logo depois; em seguida."
+      ]
+    },
+    "then#3": {
+      "lema": "then",
+      "classe": "advérbio",
+      "def": [
+        "(conjuntivo) Nesse caso; então, portanto."
+      ],
+      "nota": "Valor de inferência: «sendo assim», «sendo isso verdade»."
+    },
+    "touches": {
+      "lema": "touch",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "(arcaico, transitivo) Tratar de (algo) na fala ou na escrita; mencionar brevemente, aludir a."
+      ],
+      "nota": "«Touches the prime cause of his fall»: refere-se, de passagem, à causa primeira da queda do homem."
+    },
+    "touches#2": {
+      "lema": "touch",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "(música) O modo particular ou característico de tocar um instrumento musical."
+      ],
+      "nota": "«Solemn touches» são os toques solenes dos instrumentos: a música que acompanha a marcha dos anjos."
+    },
+    "prime": {
+      "lema": "prime",
+      "classe": "adjetivo",
+      "def": [
+        "Primeiro em importância, em grau ou em categoria.",
+        "Primeiro no tempo, na ordem ou na sequência."
+      ],
+      "nota": "«Prime cause» é a causa primeira, a que está na origem de tudo."
+    },
+    "prime#2": {
+      "lema": "prime",
+      "classe": "substantivo",
+      "def": [
+        "O principal ou o melhor indivíduo ou parte."
+      ],
+      "nota": "«The prime in order and in might»: os principais em categoria e em poder."
+    },
+    "cause": {
+      "lema": "cause",
+      "classe": "substantivo",
+      "def": [
+        "(contável) A fonte ou a razão de um acontecimento ou de uma ação; aquilo que produz um resultado."
+      ]
+    },
+    "his": {
+      "lema": "his",
+      "classe": "determinante possessivo",
+      "def": [
+        "Pertencente a ele; dele, seu."
+      ]
+    },
+    "fall": {
+      "lema": "fall",
+      "classe": "substantivo",
+      "def": [
+        "Perda de grandeza ou de posição."
+      ],
+      "nota": "A «queda»: a do homem, pelo pecado, e a dos anjos rebeldes, lançados do Céu."
+    },
+    "fall#2": {
+      "lema": "fall off",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "(intransitivo) Cair no pecado; desviar-se."
+      ],
+      "nota": "«To fall off» é «apostatar»: afastar-se do Criador, desobedecendo."
+    },
+    "serpent": {
+      "lema": "serpent",
+      "classe": "substantivo",
+      "def": [
+        "(arcaico, literário) Cobra."
+      ],
+      "nota": "A serpente do Éden (Gênesis 3), de cuja forma Satanás se serve."
+    },
+    "or": {
+      "lema": "or",
+      "classe": "conjunção",
+      "def": [
+        "Liga duas ou mais alternativas, cada uma das quais poderia tornar verdadeira a passagem; ou."
+      ]
+    },
+    "rather": {
+      "lema": "rather",
+      "classe": "advérbio",
+      "def": [
+        "(conjuntivo) Introduz uma qualificação ou um esclarecimento; mais precisamente."
+      ],
+      "nota": "«Or rather»: «ou melhor, ou mais exatamente»."
+    },
+    "rather#2": {
+      "lema": "rather",
+      "classe": "advérbio",
+      "def": [
+        "(conjuntivo) Introduz uma contradição; ao contrário."
+      ]
+    },
+    "rather#3": {
+      "lema": "rather",
+      "classe": "advérbio",
+      "def": [
+        "Para indicar escolha ou preferência; de preferência a."
+      ],
+      "nota": "«Rather than» é «em vez de»."
+    },
+    "satan": {
+      "lema": "Satan",
+      "classe": "substantivo próprio",
+      "def": [
+        "(religião) O espírito supremo do mal nas religiões abraâmicas, que tenta a humanidade ao pecado; o Diabo."
+      ],
+      "nota": "Satanás."
+    },
+    "who": {
+      "lema": "who",
+      "classe": "pronome relativo",
+      "def": [
+        "Introduz uma oração relativa cujo antecedente é uma pessoa; que, o qual, quem."
+      ]
+    },
+    "who#2": {
+      "lema": "who",
+      "classe": "pronome interrogativo",
+      "def": [
+        "Que pessoa ou pessoas; quem (em pergunta direta ou indireta)."
+      ]
+    },
+    "who#3": {
+      "lema": "who",
+      "classe": "pronome relativo",
+      "def": [
+        "(relativo fundido, arcaico) Quem quer que; aquele que."
+      ]
+    },
+    "revolting": {
+      "lema": "revolt",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(intransitivo) Rebelar-se, particularmente contra a autoridade."
+      ],
+      "nota": "Aqui é «rebelando-se» contra Deus, e não «repugnante»."
+    },
+    "from": {
+      "lema": "from",
+      "classe": "preposição",
+      "def": [
+        "Indica origem ou procedência, ponto de partida (no espaço ou no tempo), afastamento ou separação; de, desde."
+      ]
+    },
+    "god": {
+      "lema": "God",
+      "classe": "substantivo próprio",
+      "def": [
+        "O primeiro deus de várias religiões teístas e o único deus do monoteísmo; Deus."
+      ]
+    },
+    "drawing": {
+      "lema": "draw",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(transitivo) Atrair (alguém) ou fazê-lo ir a um lugar ou tomar um certo curso de ação."
+      ],
+      "nota": "«Drawing to his side» é «atraindo para o seu partido»."
+    },
+    "to": {
+      "lema": "to",
+      "classe": "preposição",
+      "def": [
+        "Na direção de; em direção a. Também indica destino, o alvo ou o destinatário de uma ação."
+      ]
+    },
+    "to#2": {
+      "lema": "to",
+      "classe": "partícula",
+      "def": [
+        "Partícula que marca o verbo seguinte como infinitivo; em português, em geral o infinitivo sem partícula."
+      ]
+    },
+    "to#3": {
+      "lema": "to and fro",
+      "classe": "advérbio (locução)",
+      "def": [
+        "De um lado para o outro; em vaivém."
+      ],
+      "nota": "Em «to and fro», as três palavras formam a locução «de lá para cá»."
+    },
+    "side": {
+      "lema": "side",
+      "classe": "substantivo",
+      "def": [
+        "Uma das metades (esquerda ou direita, de cima ou de baixo, da frente ou de trás) de algo ou de alguém."
+      ]
+    },
+    "side#2": {
+      "lema": "side",
+      "classe": "substantivo",
+      "def": [
+        "Grupo que tem uma lealdade determinada num conflito ou numa competição; partido, lado."
+      ],
+      "nota": "«Drawing to his side»: atraindo para o seu partido, para o lado dele na rebelião."
+    },
+    "many": {
+      "lema": "many",
+      "classe": "determinante",
+      "def": [
+        "(antes de substantivo contável) Um grande número indefinido de; muitos."
+      ]
+    },
+    "many#2": {
+      "lema": "many a",
+      "classe": "determinante",
+      "def": [
+        "Um entre um grande número; cada um de muitos, considerado individualmente."
+      ],
+      "nota": "Constrói-se com substantivo no singular: «many a row» é «muitas fileiras», vistas uma a uma."
+    }
+  },
+  "ocorrencias": {
+    "2.3": "book#2",
+    "0.2": "i#2",
+    "226.4": "i#3",
+    "1.2": "argument#2",
+    "160.6": "this#2",
+    "244.2": "this#2",
+    "244.5": "this#2",
+    "245.6": "this#2",
+    "2.2": "first#2",
+    "3.3": "first#2",
+    "658.2": "first#2",
+    "21.9": "first#3",
+    "766.3": "in#2",
+    "774.3": "and#2",
+    "190.5": "loss#2",
+    "267.7": "loss#2",
+    "528.2": "loss#2",
+    "633.8": "loss#2",
+    "2.157": "of#2",
+    "2.216": "of#2",
+    "3.1": "of#2",
+    "4.1": "of#2",
+    "32.2": "of#3",
+    "2.60": "of#4",
+    "2.286": "of#4",
+    "12.3": "of#4",
+    "165.2": "of#4",
+    "167.3": "of#4",
+    "388.4": "of#4",
+    "712.3": "of#4",
+    "183.6": "of#4",
+    "598.2": "of#4",
+    "2.23": "then#2",
+    "227.1": "then#2",
+    "245.2": "then#2",
+    "503.4": "then#2",
+    "533.1": "then#2",
+    "799.7": "then#2",
+    "155.4": "then#3",
+    "164.5": "then#3",
+    "266.5": "then#3",
+    "663.7": "then#3",
+    "559.3": "touches#2",
+    "508.4": "prime#2",
+    "32.7": "fall#2",
+    "65.4": "rather#2",
+    "484.1": "rather#3",
+    "35.1": "who#2",
+    "378.7": "who#2",
+    "378.9": "who#2",
+    "495.5": "who#2",
+    "633.2": "who#2",
+    "663.2": "who#2",
+    "650.7": "who#2",
+    "248.1": "who#3",
+    "2.225": "to#2",
+    "2.253": "to#2",
+    "2.263": "to#2",
+    "16.7": "to#2",
+    "32.6": "to#2",
+    "41.1": "to#2",
+    "42.3": "to#2",
+    "49.5": "to#2",
+    "66.3": "to#2",
+    "101.7": "to#2",
+    "110.4": "to#2",
+    "111.6": "to#2",
+    "113.4": "to#2",
+    "123.1": "to#2",
+    "149.2": "to#2",
+    "153.7": "to#2",
+    "157.1": "to#2",
+    "159.3": "to#2",
+    "161.1": "to#2",
+    "162.3": "to#2",
+    "165.6": "to#2",
+    "166.5": "to#2",
+    "167.6": "to#2",
+    "179.1": "to#2",
+    "219.7": "to#2",
+    "241.3": "to#2",
+    "255.4": "to#2",
+    "264.1": "to#2",
+    "265.2": "to#2",
+    "269.5": "to#2",
+    "271.4": "to#2",
+    "292.4": "to#2",
+    "294.3": "to#2",
+    "295.5": "to#2",
+    "297.4": "to#2",
+    "321.6": "to#2",
+    "323.1": "to#2",
+    "325.1": "to#2",
+    "334.8": "to#2",
+    "350.6": "to#2",
+    "354.7": "to#2",
+    "370.5": "to#2",
+    "372.7": "to#2",
+    "375.3": "to#2",
+    "384.2": "to#2",
+    "403.7": "to#2",
+    "416.1": "to#2",
+    "450.4": "to#2",
+    "475.3": "to#2",
+    "476.7": "to#2",
+    "482.6": "to#2",
+    "493.8": "to#2",
+    "507.4": "to#2",
+    "509.5": "to#2",
+    "526.6": "to#2",
+    "527.4": "to#2",
+    "558.4": "to#2",
+    "569.2": "to#2",
+    "607.6": "to#2",
+    "610.4": "to#2",
+    "618.1": "to#2",
+    "628.2": "to#2",
+    "635.6": "to#2",
+    "646.5": "to#2",
+    "648.1": "to#2",
+    "654.2": "to#2",
+    "657.4": "to#2",
+    "665.4": "to#2",
+    "679.5": "to#2",
+    "721.6": "to#2",
+    "738.7": "to#2",
+    "751.1": "to#2",
+    "753.5": "to#2",
+    "757.5": "to#2",
+    "780.3": "to#2",
+    "774.2": "to#3",
+    "2.47": "side#2",
+    "580.9": "side#2",
+    "198.3": "many#2",
+    "711.2": "many#2",
+    "729.5": "many#2",
+    "735.4": "many#2"
+  }
+}

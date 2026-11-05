@@ -108,9 +108,16 @@
    "lema": "against",
    "classe": "preposição",
    "def": [
-    "Em direção contrária a; em oposição física a; contra."
+    "Em oposição a; contra."
+   ]
+  },
+  "against#2": {
+   "lema": "against",
+   "classe": "preposição",
+   "def": [
+    "Em troca de."
    ],
-   "nota": "«Against those honours» (Lady Macbeth) é «em retribuição a essas honras»."
+   "nota": "«Against those honours» é «em troca dessas honras», em retribuição a elas."
   },
   "agent": {
    "lema": "agent",
@@ -4474,11 +4481,11 @@
   "i'": {
    "lema": "in",
    "classe": "preposição",
-   "forma": "contração de «in»",
+   "forma": "forma reduzida de «in»",
    "def": [
     "Contido em; dentro de."
    ],
-   "nota": "«I' the name of truth» é «em nome da verdade»."
+   "nota": "«I'» é «in» sem o «n»: «i' the» é «no, na»."
   },
   "i'll": {
    "lema": "I'll",
@@ -11126,6 +11133,7 @@
   "7:21.9": "double#2",
   "7:22.4": "single#2",
   "7:22.6": "to#2",
+  "7:23.1": "against#2",
   "7:23.2": "those#2",
   "7:24.6": "for#2",
   "7:26.2": "rest#2",

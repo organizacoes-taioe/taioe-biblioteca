@@ -6,7 +6,7 @@ Branch `pedido-confissao-tolstoi` (worktree `~/.cache/claude-wt5-confissao-tolst
 
 - [x] original russo montado e conferido (`original/`, LEIAME)
 - [x] autor novo `liev-tolstoi` em `conteudo/autores.js`; `obra.py`
-- [ ] tradução, capítulo por capítulo (feitos: I–X) (`traducao/capitulo-NN.txt`, mesmo número de parágrafos)
+- [ ] tradução, capítulo por capítulo (feitos: I–XII) (`traducao/capitulo-NN.txt`, mesmo número de parágrafos)
 - [ ] `CONVENCOES.md` com os termos fixados
 - [ ] `revisao.json` (~8 decisões), conferir com `python3 ferramentas/traducoes_revisao.py`
 - [ ] vocabulário `edicoes/vocabulario/confissao.json` (`node ferramentas/vocabulario.mjs conferir`)

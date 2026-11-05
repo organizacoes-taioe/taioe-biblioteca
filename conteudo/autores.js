@@ -724,6 +724,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'joaquim-nabuco',
+  nome: 'Joaquim Nabuco',
+  nomeCompleto: 'Joaquim Aurélio Barreto Nabuco de Araújo',
+  vida: '1849–1910',
+  ordem: 'Nabuco, Joaquim',
+  area: 'nao-ficcao',
+  nota: 'Político, diplomata e escritor pernambucano; líder do movimento abolicionista e fundador da Academia Brasileira de Letras.'
+});
+
+BIBLIOTECA.autor({
   id: 'seneca',
   nome: 'Sêneca',
   nomeCompleto: 'Lúcio Aneu Sêneca',

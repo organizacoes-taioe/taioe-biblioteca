@@ -55,7 +55,7 @@ PREFACIO = 'Prefácio'
 TITULOS = {
     'I': 'Colégio e Academia', 'II': 'Bagehot', 'III': '1871-1873. A _Reforma_', 'IV': 'Atração do mundo',
     'V': 'Primeira viagem à Europa', 'VI': 'A França de 1873-74', 'VII': 'Ernest Renan', 'VIII': 'A crise poética',
-    'IX': 'Adido de legação', 'X': 'Londres', 'XI': '_32, Grosvenor Gardens_', 'XII': 'Influência inglesa',
+    'IX': 'Adido de legação', 'X': 'Londres', 'XI': '32, Grosvenor Gardens', 'XII': 'Influência inglesa',
     'XIII': 'O espírito inglês', 'XIV': 'Nova York (1876-77)', 'XV': 'O meu diário de 1877',
     'XVI': 'Traços americanos', 'XVII': 'Influência dos Estados Unidos', 'XVIII': 'Meu pai',
     'XIX': 'Eleição de deputado', 'XX': 'Massangana', 'XXI': 'A abolição',

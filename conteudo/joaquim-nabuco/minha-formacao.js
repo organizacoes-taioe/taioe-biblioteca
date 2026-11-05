@@ -25,7 +25,7 @@ BIBLIOTECA.obra({
 
 **Correções.** Corrigiram-se só os erros tipográficos evidentes da edição de 1900, que os dois exemplares trazem: letras trocadas ou que faltam («ciaphana», «concidiu», «instituções», «servidares», «reponsabilidade»), palavras repetidas («diante de um de um grande chefe»), a concordância que a composição estragou («a cuja mãos», «sua marcas», «em um religião») e as palavras estrangeiras estropiadas («consuetuoinem», «self-governement», «constitutional»). A lista completa vem abaixo. Ficaram as formas do autor que podem ser intencionais: «bailada», «cravado» («o que havia impresso e cravado no dele»), «inda».
 
-**Ortografia.** A grafia foi atualizada pelo Acordo Ortográfico de 1990, na forma brasileira: _elle_ → ele, _idéa_ → ideia, _paiz_ → país, _Egreja_ → Igreja, _Estados-Unidos_ → Estados Unidos, _Pariz_ → Paris, _Luiz_ → Luís, _cincoenta_ → cinquenta, _regimen_ → regímen. As formas antigas de palavras que continuam em uso passaram à forma atual (_cousa_ → coisa, _coiro_ → couro). A crase segue a do livro, que a marca com o acento agudo («á», «áquelle»). O vocabulário e as construções do autor ficaram como estão: a colocação dos pronomes, as palavras e as citações em francês, inglês, latim, italiano e espanhol (_self-government_, _politicians_, _bon à tirer_), os títulos de jornais e livros, a pontuação, as reticências, as aspas angulares, os itálicos e as abreviaturas da época (_S. Paulo_, _D. Pedro II_, _Mme._, _Mgr_).
+**Ortografia.** A grafia foi atualizada pelo Acordo Ortográfico de 1990, na forma brasileira: _elle_ → ele, _idéa_ → ideia, _paiz_ → país, _Egreja_ → Igreja, _Estados-Unidos_ → Estados Unidos, _Pariz_ → Paris, _Luiz_ → Luís, _cincoenta_ → cinquenta, _regimen_ → regímen. Os nomes de pessoas e lugares do Brasil e de Portugal também (_Ruy_ → Rui, _Luiz Gama_ → Luís Gama, _Parahyba_ → Paraíba); os estrangeiros ficam na língua deles, na forma certa (_Czacki_, _Bismarck_, onde 1900 tem _Czaki_, _Bismark_). As formas antigas de palavras que continuam em uso passaram à forma atual (_cousa_ → coisa, _coiro_ → couro). A crase segue a do livro, que a marca com o acento agudo («á», «áquelle»). O vocabulário e as construções do autor ficaram como estão: a colocação dos pronomes, as palavras e as citações em francês, inglês, latim, italiano e espanhol (_self-government_, _politicians_, _bon à tirer_), os títulos de jornais e livros, a pontuação, as reticências, as aspas angulares, os itálicos e as abreviaturas da época (_S. Paulo_, _D. Pedro II_, _Mme._, _Mgr_).
 
 **Divisão.** O livro tem um prefácio, datado de San Sebastián, 8 de abril de 1900, e vinte e seis capítulos numerados e com título, como em 1900; cada capítulo é uma página desta biblioteca. A dedicatória («A meus filhos») abre o prefácio. As quatro notas de rodapé do autor vão no fim do seu capítulo, e as linhas de asteriscos que separam as seções de alguns capítulos foram mantidas.`,
     fontes: [
@@ -36,10 +36,10 @@ BIBLIOTECA.obra({
       {"nome": "Obras Completas de Joaquim Nabuco, vol. 1 (Instituto Progresso Editorial, 1949), na Brasiliana USP", "url": "https://digital.bbm.usp.br/handle/bbm/4743", "nota": "referência para a ortografia onde o texto do Wikisource falta"}
     ],
     erros: [
-      {"cap": "III", "de": "invenção , sua marcas", "para": "invenção, suas marcas"},
-      {"cap": "IV", "de": "communhão de vida , individuæ vitæ consuetuoinem", "para": "communhão de vida, individuæ vitæ consuetudinem"},
+      {"cap": "III", "de": "invenção, sua marcas", "para": "invenção, suas marcas"},
+      {"cap": "IV", "de": "communhão de vida, individuæ vitæ consuetuoinem", "para": "communhão de vida, individuæ vitæ consuetudinem"},
       {"cap": "IV", "de": "elle devesse bulbuciar", "para": "elle devesse balbuciar"},
-      {"cap": "VI", "de": "A Restauração , póde-dizer", "para": "A Restauração, póde-se dizer"},
+      {"cap": "VI", "de": "A Restauração, póde-dizer", "para": "A Restauração, póde-se dizer"},
       {"cap": "VIII", "de": "perfeita da cravações", "para": "perfeita das cravações"},
       {"cap": "X", "de": "pura e ciaphana atmosphera", "para": "pura e diaphana atmosphera"},
       {"cap": "XI", "de": "seus pratos architectomicos", "para": "seus pratos architectonicos"},
@@ -47,10 +47,10 @@ BIBLIOTECA.obra({
       {"cap": "XIII", "de": "Nenhum da nós", "para": "Nenhum de nós"},
       {"cap": "XIV", "de": "que põem acida de tudo", "para": "que põem acima de tudo"},
       {"cap": "XIV", "de": "uma emenda constitutional", "para": "uma emenda constitucional"},
-      {"cap": "XIV", "de": "Alexandre Hamilton . Un homem", "para": "Alexandre Hamilton. Um homem"},
+      {"cap": "XIV", "de": "Alexandre Hamilton. Un homem", "para": "Alexandre Hamilton. Um homem"},
       {"cap": "XV", "de": "republicano concidiu com", "para": "republicano coincidiu com"},
       {"cap": "XV", "de": "pelo governo parlementar", "para": "pelo governo parlamentar"},
-      {"cap": "XVII", "de": "de vida á parte , de reponsabilidade", "para": "de vida á parte, de responsabilidade"},
+      {"cap": "XVII", "de": "de vida á parte, de reponsabilidade", "para": "de vida á parte, de responsabilidade"},
       {"cap": "XVII", "de": "de convencionanismo e cerimonial", "para": "de convencionalismo e cerimonial"},
       {"cap": "XVIII", "de": "exercer sobre a mim", "para": "exercer sobre mim"},
       {"cap": "XVIII", "de": "um clero a cuja mãos", "para": "um clero a cujas mãos"},
@@ -63,7 +63,7 @@ BIBLIOTECA.obra({
       {"cap": "XXV", "de": "em um religião revelada", "para": "em uma religião revelada"},
       {"cap": "XXV", "de": "o nosso self-governement", "para": "o nosso self-government"},
       {"cap": "XXVI", "de": "subverter as instituções", "para": "subverter as instituições"},
-      {"cap": "XXVI", "de": "os homens , as instituções rivaes", "para": "os homens, as instituições rivaes"},
+      {"cap": "XXVI", "de": "os homens, as instituções rivaes", "para": "os homens, as instituições rivaes"},
       {"cap": "XXVI", "de": "da sua esphera contencisa", "para": "da sua esphera contenciosa"}
     ]
   },

@@ -16,17 +16,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "sobrenadar",
-   "formas": [
-    "sobrenada"
-   ],
-   "classe": "verbo",
-   "def": "boiar, flutuar à superfície",
-   "exemplo": "A alma triste do poeta sobrenada",
-   "capitulo": 2,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "alcíone",
    "formas": [
     "alcíone"
@@ -79,17 +68,6 @@
    "def": "sedento",
    "exemplo": "Os teus lábios sequiosos,",
    "capitulo": 3,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "esperdiçado",
-   "formas": [
-    "esperdiçada"
-   ],
-   "classe": "adjetivo",
-   "def": "que desperdiça, esbanjadora",
-   "exemplo": "Que a doida da esperdiçada",
-   "capitulo": 4,
    "obra_ex": "poesias-completas"
   },
   {
@@ -160,28 +138,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "amortalhado",
-   "formas": [
-    "amortalhado"
-   ],
-   "classe": "adjetivo",
-   "def": "envolto em mortalha",
-   "exemplo": "Em baixo amortalhado",
-   "capitulo": 6,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "tépido",
-   "formas": [
-    "tépido"
-   ],
-   "classe": "adjetivo",
-   "def": "morno",
-   "exemplo": "Jaz o cadáver tépido",
-   "capitulo": 6,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "liça",
    "formas": [
     "liça"
@@ -212,17 +168,6 @@
    "def": "laje que cobre a sepultura; a própria sepultura",
    "exemplo": "Da campa surgirá.",
    "capitulo": 6,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "cuidoso",
-   "formas": [
-    "cuidosa"
-   ],
-   "classe": "adjetivo",
-   "def": "cuidadoso, zeloso",
-   "exemplo": "E a desvelada mãe, a irmã cuidosa,",
-   "capitulo": 7,
    "obra_ex": "poesias-completas"
   },
   {
@@ -527,17 +472,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "penhor",
-   "formas": [
-    "penhor"
-   ],
-   "classe": "substantivo masculino",
-   "def": "objeto dado em garantia; sinal, prova",
-   "exemplo": "Um penhor de saudade, e lá na esfera",
-   "capitulo": 9,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "aprouve",
    "formas": [
     "approuve"
@@ -609,7 +543,7 @@
     "peregrina"
    ],
    "classe": "adjetivo",
-   "def": "raro, fora do comum, de rara beleza",
+   "def": "raro, extraordinário, de rara perfeição",
    "exemplo": "Depois, depois vestindo a forma peregrina,",
    "capitulo": 12,
    "obra_ex": "poesias-completas"
@@ -711,7 +645,13 @@
    "def": "trabalho duro, labuta",
    "exemplo": "E me perdi na porfiosa lida.",
    "capitulo": 12,
-   "obra_ex": "poesias-completas"
+   "obra_ex": "poesias-completas",
+   "so_capitulos": [
+    12,
+    31,
+    47,
+    49
+   ]
   },
   {
    "lema": "desusado",
@@ -1026,17 +966,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "queixume",
-   "formas": [
-    "queixumes"
-   ],
-   "classe": "substantivo masculino",
-   "def": "queixa, lamento",
-   "exemplo": "Uns tímidos queixumes",
-   "capitulo": 12,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "sudário",
    "formas": [
     "sudário"
@@ -1229,28 +1158,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "círio",
-   "formas": [
-    "círio"
-   ],
-   "classe": "substantivo masculino",
-   "def": "vela grande de cera",
-   "exemplo": "Quando em obscuro templo a fraca luz de um círio",
-   "capitulo": 18,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "contrito",
-   "formas": [
-    "contrito"
-   ],
-   "classe": "adjetivo",
-   "def": "arrependido, penitente",
-   "exemplo": "Ajoelha-se contrito, e murmura-se então",
-   "capitulo": 18,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "pio",
    "formas": [
     "pia"
@@ -1300,17 +1207,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "tácito",
-   "formas": [
-    "tácita"
-   ],
-   "classe": "adjetivo",
-   "def": "calado, silencioso",
-   "exemplo": "Melancolia tácita e serena,",
-   "capitulo": 20,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "serro",
    "formas": [
     "serros"
@@ -1319,17 +1215,6 @@
    "def": "colina, morro",
    "exemplo": "Nos serros do poente,",
    "capitulo": 20,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "infante",
-   "formas": [
-    "infante"
-   ],
-   "classe": "substantivo masculino",
-   "def": "criança pequena",
-   "exemplo": "Tu que junto do berço o infante cinges",
-   "capitulo": 21,
    "obra_ex": "poesias-completas"
   },
   {
@@ -1351,29 +1236,6 @@
    "classe": "substantivo masculino",
    "def": "pequena elevação de terreno; colina",
    "exemplo": "Além desses outeiros",
-   "capitulo": 22,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "descambar",
-   "formas": [
-    "descambando",
-    "descamba"
-   ],
-   "classe": "verbo",
-   "def": "descer, declinar para o poente",
-   "exemplo": "Vai descambando o sol, e à terra envia",
-   "capitulo": 22,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "assomar",
-   "formas": [
-    "assoma"
-   ],
-   "classe": "verbo",
-   "def": "aparecer, surgir",
-   "exemplo": "Do leito do oriente a noite assoma;",
    "capitulo": 22,
    "obra_ex": "poesias-completas"
   },
@@ -1813,17 +1675,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "pira",
-   "formas": [
-    "pira"
-   ],
-   "classe": "substantivo feminino",
-   "def": "fogueira onde se queimavam os mortos ou as oferendas",
-   "exemplo": "Que ardem sem consumir, na pira dos desejos.",
-   "capitulo": 31,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "gineceu",
    "formas": [
     "gineceu"
@@ -2175,17 +2026,6 @@
    "classe": "verbo",
    "def": "cair em chuva fina",
    "exemplo": "A chuva peneirava, e além cobria",
-   "capitulo": 32,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "lúgubre",
-   "formas": [
-    "lúgubres"
-   ],
-   "classe": "adjetivo",
-   "def": "fúnebre, muito triste",
-   "exemplo": "Negras, serenas, lúgubres e graves.",
    "capitulo": 32,
    "obra_ex": "poesias-completas"
   },
@@ -2926,18 +2766,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "sertão",
-   "formas": [
-    "sertão",
-    "sertões"
-   ],
-   "classe": "substantivo masculino",
-   "def": "região interior, longe do litoral e das povoações",
-   "exemplo": "Que corre pelo sertão.",
-   "capitulo": 34,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "cobreado",
    "formas": [
     "cobreada"
@@ -3427,17 +3255,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "execrando",
-   "formas": [
-    "execrando"
-   ],
-   "classe": "adjetivo",
-   "def": "detestável, que merece maldição",
-   "exemplo": "Triunfar de inimigo execrando,",
-   "capitulo": 41,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "mucama",
    "formas": [
     "mucama"
@@ -3445,17 +3262,6 @@
    "classe": "substantivo feminino",
    "def": "escrava jovem que servia dentro da casa, como criada pessoal",
    "exemplo": "Sabina era mucama da fazenda;",
-   "capitulo": 42,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "cambraia",
-   "formas": [
-    "cambraia"
-   ],
-   "classe": "substantivo feminino",
-   "def": "tecido de linho ou algodão, fino e leve",
-   "exemplo": "Com suas roupas de cambraia e renda,",
    "capitulo": 42,
    "obra_ex": "poesias-completas"
   },
@@ -3543,28 +3349,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "serão",
-   "formas": [
-    "serões"
-   ],
-   "classe": "substantivo masculino",
-   "def": "reunião ou festa que dura até a noite",
-   "exemplo": "Que o moço viu num dos serões da corte",
-   "capitulo": 42,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "tolher",
-   "formas": [
-    "tolhe"
-   ],
-   "classe": "verbo",
-   "def": "impedir, embaraçar",
-   "exemplo": "A seu trêmulo pé não tolhe a marcha;",
-   "capitulo": 42,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "cerviz",
    "formas": [
     "cerviz"
@@ -3598,24 +3382,13 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "assolação",
+   "lema": "tacape",
    "formas": [
-    "assolação"
+    "tacape"
    ],
-   "classe": "substantivo feminino",
-   "def": "destruição, devastação",
-   "exemplo": "Com fogo escreve a assolação e o susto.",
-   "capitulo": 44,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "atalaia",
-   "formas": [
-    "atalaia"
-   ],
-   "classe": "substantivo feminino",
-   "def": "torre ou ponto alto de vigia; sentinela",
-   "exemplo": "Como eterna atalaia.",
+   "classe": "substantivo masculino",
+   "def": "clava de madeira dos índios",
+   "exemplo": "O tacape meneiam vigoroso.",
    "capitulo": 44,
    "obra_ex": "poesias-completas"
   },
@@ -3638,17 +3411,6 @@
    "classe": "adjetivo",
    "def": "vencido, dominado",
    "exemplo": "Contra eles, as gentes debeladas",
-   "capitulo": 44,
-   "obra_ex": "poesias-completas"
-  },
-  {
-   "lema": "conspurcado",
-   "formas": [
-    "conspurcado"
-   ],
-   "classe": "adjetivo",
-   "def": "manchado, sujo",
-   "exemplo": "E ao conspurcado nome o alvor primeiro",
    "capitulo": 44,
    "obra_ex": "poesias-completas"
   },
@@ -3830,17 +3592,6 @@
    "obra_ex": "poesias-completas"
   },
   {
-   "lema": "impoluto",
-   "formas": [
-    "impoluto"
-   ],
-   "classe": "adjetivo",
-   "def": "sem mancha, puro",
-   "exemplo": "Ama de igual amor o poluto e o impoluto;",
-   "capitulo": 47,
-   "obra_ex": "poesias-completas"
-  },
-  {
    "lema": "arapongas",
    "formas": [
     "arapongas"
@@ -3971,6 +3722,17 @@
    "def": "que rói, que corrói",
    "exemplo": "«Tens a mesma roaz melancolia;",
    "capitulo": 51,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "baldão",
+   "formas": [
+    "baldões"
+   ],
+   "classe": "substantivo masculino",
+   "def": "insulto, injúria",
+   "exemplo": "Injúrias da opressão, baldões do orgulho,",
+   "capitulo": 52,
    "obra_ex": "poesias-completas"
   },
   {
@@ -4188,6 +3950,281 @@
    "def": "rodear, envolver; pôr em volta (coroa, cinto)",
    "exemplo": "Esse que as vestes ásperas cingia,",
    "capitulo": 62,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "folgança",
+   "formas": [
+    "folgança"
+   ],
+   "classe": "substantivo feminino",
+   "def": "divertimento, folguedo",
+   "exemplo": "E onde amor falta, adeus, folgança.",
+   "capitulo": 64,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "mister",
+   "formas": [
+    "mister"
+   ],
+   "classe": "substantivo masculino",
+   "def": "necessidade; é mister: é preciso",
+   "exemplo": "Portanto, se é mister sacrificar-me, pronto.",
+   "capitulo": 64,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "lorpa",
+   "formas": [
+    "lorpa"
+   ],
+   "classe": "adjetivo",
+   "def": "tolo, bobo",
+   "exemplo": "Raça lorpa e vilã, pode lá ser pecado?",
+   "capitulo": 64,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "pegureiro",
+   "formas": [
+    "pegureiros"
+   ],
+   "classe": "substantivo masculino",
+   "def": "pastor de gado",
+   "exemplo": "E no que toca aos pegureiros,",
+   "capitulo": 64,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "esmerilhar",
+   "formas": [
+    "esmerilhar"
+   ],
+   "classe": "verbo",
+   "def": "examinar com minúcia",
+   "exemplo": "Ousava esmerilhar um ato;",
+   "capitulo": 64,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "rafeiro",
+   "formas": [
+    "rafeiros"
+   ],
+   "classe": "substantivo masculino",
+   "def": "cão grande, que guarda o gado",
+   "exemplo": "E até os últimos rafeiros,",
+   "capitulo": 64,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "resingueiro",
+   "formas": [
+    "resingueiros"
+   ],
+   "classe": "adjetivo",
+   "def": "rabugento, que vive reclamando",
+   "exemplo": "Todos os bichos resingueiros",
+   "capitulo": 64,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "tinhoso",
+   "formas": [
+    "tinhoso"
+   ],
+   "classe": "substantivo masculino",
+   "def": "o diabo, o demônio",
+   "exemplo": "E pode ser que do tinhoso,",
+   "capitulo": 64,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "pecadilho",
+   "formas": [
+    "pecadilho"
+   ],
+   "classe": "substantivo masculino",
+   "def": "pecado pequeno, falta leve",
+   "exemplo": "E o pecadilho foi julgado",
+   "capitulo": 64,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "serpe",
+   "formas": [
+    "serpe"
+   ],
+   "classe": "substantivo feminino",
+   "def": "cobra, serpente",
+   "exemplo": "E desde então me foi a serpe amada,",
+   "capitulo": 65,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "armento",
+   "formas": [
+    "armento"
+   ],
+   "classe": "substantivo masculino",
+   "def": "rebanho de gado grande",
+   "exemplo": "Porque roubou malicioso o armento",
+   "capitulo": 65,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "vergôntea",
+   "formas": [
+    "vergontea"
+   ],
+   "classe": "substantivo feminino",
+   "def": "rebento de planta; aqui, descendente",
+   "exemplo": "Era Clódia a vergontea ilustre e rara",
+   "capitulo": 69,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "coxim",
+   "formas": [
+    "coxins"
+   ],
+   "classe": "substantivo masculino",
+   "def": "almofada",
+   "exemplo": "Sobre verdes coxins airosas formas,",
+   "capitulo": 69,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "sestércio",
+   "formas": [
+    "sestércios"
+   ],
+   "classe": "substantivo masculino",
+   "def": "moeda romana antiga",
+   "exemplo": "Perde risonho válidos sestércios...",
+   "capitulo": 69,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "opíparo",
+   "formas": [
+    "opiparos"
+   ],
+   "classe": "adjetivo",
+   "def": "farto e suntuoso (diz-se de refeição)",
+   "exemplo": "Os jantares opiparos. Contudo,",
+   "capitulo": 69,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "prosapia",
+   "formas": [
+    "prosapia"
+   ],
+   "classe": "substantivo feminino",
+   "def": "linhagem, estirpe",
+   "exemplo": "Dama de igual prosapia e iguais campanhas,",
+   "capitulo": 69,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "pimpão",
+   "formas": [
+    "pimpão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "fanfarrão, sujeito vaidoso e valentão",
+   "exemplo": "Deste pimpão de amores e aventuras.",
+   "capitulo": 69,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "chistoso",
+   "formas": [
+    "chistoso"
+   ],
+   "classe": "adjetivo",
+   "def": "engraçado, espirituoso",
+   "exemplo": "Circula o dito equívoco e chistoso,",
+   "capitulo": 69,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "larápio",
+   "formas": [
+    "larápio"
+   ],
+   "classe": "substantivo masculino",
+   "def": "ladrão",
+   "exemplo": "Chama-lhe este: «O larápio endividado»,",
+   "capitulo": 69,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "adro",
+   "formas": [
+    "adros"
+   ],
+   "classe": "substantivo masculino",
+   "def": "terreno aberto diante da igreja",
+   "exemplo": "Namorador dos adros das igrejas,",
+   "capitulo": 70,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "cavalhada",
+   "formas": [
+    "cavalhadas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "festa de cavaleiros, com torneios e jogos",
+   "exemplo": "Taful de cavalhadas, consumado",
+   "capitulo": 70,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "magano",
+   "formas": [
+    "magano"
+   ],
+   "classe": "substantivo masculino",
+   "def": "sujeito maroto, travesso",
+   "exemplo": "Duas damas rivais, porque o magano",
+   "capitulo": 70,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "peralta",
+   "formas": [
+    "peraltas"
+   ],
+   "classe": "substantivo masculino",
+   "def": "rapaz elegante e presunçoso",
+   "exemplo": "O cetro lhe doaram dos peraltas.",
+   "capitulo": 70,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "tasquinar",
+   "formas": [
+    "tasquinar"
+   ],
+   "classe": "verbo",
+   "def": "criticar, falar mal",
+   "exemplo": "Com um vizinho, a tasquinar nos outros,",
+   "capitulo": 70,
+   "obra_ex": "poesias-completas"
+  },
+  {
+   "lema": "argolinha",
+   "formas": [
+    "argolinhas"
+   ],
+   "classe": "substantivo feminino",
+   "def": "jogo em que o cavaleiro tenta enfiar a lança numa argola",
+   "exemplo": "Festa de cavalhadas e argolinhas,",
+   "capitulo": 70,
    "obra_ex": "poesias-completas"
   }
  ]

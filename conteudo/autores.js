@@ -559,6 +559,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'jean-de-la-fontaine',
+  nome: 'Jean de La Fontaine',
+  nomeCompleto: 'Jean de La Fontaine',
+  vida: '1621–1695',
+  lingua: 'fr',
+  nota: 'Poeta francês, autor das _Fábulas_.'
+});
+
+BIBLIOTECA.autor({
   id: 'arthur-rimbaud',
   nome: 'Arthur Rimbaud',
   nomeCompleto: 'Jean Nicolas Arthur Rimbaud',

@@ -390,6 +390,8 @@ def publicar():
                     'ordem': k, 'versos': versos, 'lingua': p['lingua'], 'ano': p.get('ano'), 'glossario': True}
             if p.get('subtitulo'):
                 item['subtitulo'] = p['subtitulo']
+            if p.get('n'):
+                item['n'] = p['n']   # o número dentro do livro (as Fables: «I, 1»), fora das notas
             if p.get('genero'):
                 item['genero'] = p['genero']   # sem ele, Poesia (as orações levam "Orações")
             if p.get('prosa'):

@@ -158,6 +158,10 @@ def pontos(p):
                     'ctx_ocr': ' / '.join(dict.fromkeys(o['txt'] for o in viz))})
     for q in out:
         q['auto'] = decidir(q)
+        # sujeira no pé da página (assinatura do caderno, marca do Google, manchas)
+        ys = [O[j]['cx'][1] for j in range(q['j'][0], q['j'][1])]
+        if q['auto'] is None and q['tipo'] == '+' and ys and min(ys) > 1850:
+            q['auto'] = ''
     return out, W, O, (w0, w1)
 
 
@@ -213,7 +217,7 @@ if __name__ == '__main__':
             continue
         pts, W, O, lim = pontos(p)
         json.dump(pts, open(os.path.join(B, 'pontos', p['id'] + '.json'), 'w'), ensure_ascii=False, indent=0)
-        falta = [q for q in pts if q['auto'] is None and '%s:%d' % (p['id'], q['n']) not in dec]
+        falta = [q for q in pts if q['auto'] is None and ('%s:%d' % (p['id'], q['n']) not in dec or dec['%s:%d' % (p['id'], q['n'])] == '?')]
         tot['auto'] += sum(q['auto'] is not None for q in pts)
         tot['img'] += len(falta)
         tot['feito'] += sum('%s:%d' % (p['id'], q['n']) in dec for q in pts)

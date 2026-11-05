@@ -618,3 +618,27 @@ ol.vb-def { padding-left: 1.3rem; }
 .comentario-texto p { margin: 0 0 .85em; }
 .autoria { font-size: .82em; color: var(--tinta-suave); margin: .2em 0 0; }
 .autoria .autor { font-weight: 600; color: var(--tinta); }
+
+/* ---------------- Teatro na língua original (o Macbeth) ---------------- */
+/* falas e rubricas; o meio-verso recuado onde acabou o da fala anterior (r4…r48: os espaços do
+   arquivo, de 4 em 4); o número do verso à margem esquerda, de 5 em 5, como na edição */
+.paralelo.poema.teatro { width: auto; margin: 0; padding-left: 2.4em; }
+.paralelo.teatro .v { position: relative; }
+.paralelo.teatro .vn {
+  position: absolute; right: 100%; margin-right: .8em; top: .55em; text-indent: 0; font-family: var(--sans);
+  font-size: .62em; letter-spacing: .04em; color: var(--tinta-tenue); user-select: none;
+}
+.paralelo .m-rubrica { font-style: italic; color: var(--tinta-suave); padding-left: 2em; line-height: 1.5; }
+.paralelo.teatro .rub { font-style: italic; color: var(--tinta-suave); }
+.paralelo.teatro .v.r4 { text-indent: calc(4 * .42em - 1.6em); }
+.paralelo.teatro .v.r8 { text-indent: calc(8 * .42em - 1.6em); }
+.paralelo.teatro .v.r12 { text-indent: calc(12 * .42em - 1.6em); }
+.paralelo.teatro .v.r16 { text-indent: calc(16 * .42em - 1.6em); }
+.paralelo.teatro .v.r20 { text-indent: calc(20 * .42em - 1.6em); }
+.paralelo.teatro .v.r24 { text-indent: calc(24 * .42em - 1.6em); }
+.paralelo.teatro .v.r28 { text-indent: calc(28 * .42em - 1.6em); }
+.paralelo.teatro .v.r32 { text-indent: calc(32 * .42em - 1.6em); }
+.paralelo.teatro .v.r36 { text-indent: calc(36 * .42em - 1.6em); }
+.paralelo.teatro .v.r40 { text-indent: calc(40 * .42em - 1.6em); }
+.paralelo.teatro .v.r44 { text-indent: calc(44 * .42em - 1.6em); }
+.paralelo.teatro .v.r48 { text-indent: calc(48 * .42em - 1.6em); }

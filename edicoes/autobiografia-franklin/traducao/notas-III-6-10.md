@@ -21,8 +21,38 @@ Seguem o guia e as `notas-III-1-5.md` (Biblioteca, curadores, «em Filadélfia»
   | conhece o próprio bem, ou o segue, ciente!
   Perde *habitable*; «ciente» = *knowing it* (com sinérese em «cien-»). A conferir no `molde.mjs`.
 
+## III.7
+
+- *waggon* → «carroça»; *waggoner* → «carroceiro»; *carriages* → «transporte», «carroças», «veículos»;
+  *team* → «parelha»; *pack horse* → «cavalo de carga»; *pack-saddle* → «cangalha»; *furniture* (do cavalo)
+  → «arreios»; *forage* → «forragem»; *Indian corn* → «milho».
+- *county* → «comarca» (Lancaster, York, Cumberland); *back parts*, *back counties* → «interior», «comarcas
+  do interior»; *settlements* → «povoações»; *plantations* → «lavouras»; *farmer* → «lavrador».
+- *subalterns* → «oficiais subalternos»; *aids-de-camp* → «ajudantes de ordens»; *paymaster* → «pagador»;
+  *advanced guard* → «guarda avançada»; *front* → «vanguarda»; *scouts* → «batedores»; *regulars* →
+  «tropas regulares»; *raw American militia* → «milícia americana bisonha»; *the hussar* (St. Clair) →
+  «o hussardo»; *receiver-general* (dos proprietários) → «recebedor-geral».
+- *Fort Duquesne* → «o forte Duquesne»; *Will's Creek*, *Niagara*, *Frontenac*, *Crown Point* ficam;
+  *Iroquois* → «iroqueses».
+- O anúncio: *Whereas…* → «Sendo necessárias…»; *viz.* → «a saber»; registro de edital, mas sem arcaísmo.
+  O apelo aos habitantes: **vós**, como manda o guia.
+- Lista de Braddock: *loaf sugar* → «açúcar refinado»; *Muscovado do.* → «açúcar mascavo» (o *do.* =
+  *ditto* desfeito); *bohea do.* → «chá bohea» (fica o nome do chá); *Jamaica spirits* → «rum da Jamaica»;
+  *flour of mustard* → «mostarda em pó»; *dry'd tongues* → «línguas secas»; *kegg* → «barrilete». Em
+  *2 doz. old Madeira wine* acrescentei «de garrafas» («2 dúzias de garrafas de vinho da Madeira velho»):
+  sem isso a linha não se entende em português.
+- Braddock, Franklin a ele e os Bond a Franklin: **o senhor**. *Why the d--l!* → «Mas que diabo!» (o
+  original abrevia o palavrão; em português «diabo» já é brando).
+- A emenda de uma palavra: *those of the proprietaries not excepted* / *for* not *read* only → «não
+  excetuados os dos proprietários… em vez de _não_, leia-se _somente_»: o jogo passa exato.
+- *bought servants* → «criados comprados» (os servos de contrato, cujo tempo se comprava; deixei a
+  expressão crua de Franklin).
+- *scamper'd* → «deu no pé»; *lumber* → «tralha»; *Who would have thought it?* → «Quem diria?».
+
 ## Candidatos a decisão para o Gere
 
 1. O jogo racial de Morris e Franklin (III.6, *government of blacks… negrofied*): tradução literal
    («governo de negros… virar negro», recomendada: é o texto e o tom da época) × suavizar (não recomendo:
    seria censura e perderia a piada que sustenta a resposta de Franklin).
+2. *bought servants* (III.7): «criados comprados» (recomendada, crua como Franklin) × «servos de
+   contrato» (mais exata para o leitor de hoje, mas explica o que ele não explica).

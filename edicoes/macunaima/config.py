@@ -314,8 +314,8 @@ def rever(tr, md, sitios):
     E.extend(B[pos:])
     print('sem maioria: a conferir no fac-símile', len(DUVIDAS), '; conferidos', len(CONFERIDAS))
     with open(os.path.join(fontes.cache(OBRA, 'relatorios'), 'duvidas.tsv'), 'w', encoding='utf-8') as f:
-        f.write('escolha\tpor\tleituras\tdepois\n')
+        f.write('escolha\tpor\tleituras\tdepois\tantes\n')
         for x in DUVIDAS:
             f.write('\t'.join([x['escolha_txt'], x['por'], ' || '.join(f'{n}: {v}' for n, v in x['leituras'].items()),
-                                str(x.get('depois', ''))[:60]]) + '\n')
+                                str(x.get('depois', ''))[:60], str(x.get('antes', ''))[-60:]]) + '\n')
     return [t for t in E if t != '*'], sitios

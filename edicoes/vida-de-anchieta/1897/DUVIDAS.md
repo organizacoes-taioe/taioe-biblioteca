@@ -7,3 +7,6 @@
 - p. 15, «senho / de um engenho»: no impresso falta o «r» de «senhor» (transcrito «senho»).
 - p. 15, «humilha e abate»: no impresso a primeira palavra é «e»; mantido (o sentido pede «e»).
 - p. 15, acentos em «neste á sentença», «toda á qualidade», «promovido á algum», «e á pedra»: acento agudo visível mas pouco nítido; mantido «á».
+- p. 16, «Onvindo o / general»: no impresso «Onvindo» por «Ouvindo» (transcrito como está).
+- p. 17: no rodapé há a marca de caderno «A. B. N.» e «2» (assinatura tipográfica); não transcrita.
+- p. 18, «aqual acha-/ram»: no impresso «aqual» junto (por «a qual»); transcrito como está.

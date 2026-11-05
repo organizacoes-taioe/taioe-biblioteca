@@ -1,0 +1,843 @@
+{
+ "verbetes": {
+  "heures": {
+   "lema": "heure",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Uma das vinte e quatro divisões do dia, com a duração de sessenta minutos: hora."
+   ]
+  },
+  "minuit": {
+   "lema": "minuit",
+   "classe": "substantivo masculino",
+   "def": [
+    "Hora situada no meio da noite, no limite entre dois dias: meia-noite."
+   ]
+  },
+  "moment": {
+   "lema": "moment",
+   "classe": "substantivo masculino",
+   "def": [
+    "Ponto no tempo: momento."
+   ],
+   "nota": "«Au dernier moment»: no último instante."
+  },
+  "moment#2": {
+   "lema": "moment",
+   "classe": "substantivo masculino",
+   "def": [
+    "Certa duração, que não se considera muito longa, mas ainda assim mais longa que um instante: momento."
+   ]
+  },
+  "arrivé": {
+   "lema": "arriver",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "Chegar ao destino."
+   ],
+   "nota": "Em «le moment arrivé», chegado o momento: o particípio, sozinho depois do sujeito, dá a circunstância («quando o momento chegou»)."
+  },
+  "courut": {
+   "lema": "courir",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Deslocar-se rapidamente, com impetuosidade, por um movimento alternado das pernas ou patas que se apoiam no chão: correr."
+   ]
+  },
+  "amoureux": {
+   "lema": "amoureux",
+   "classe": "substantivo masculino",
+   "def": [
+    "Aquele que ama de amor ou que é amado de amor: namorado."
+   ],
+   "nota": "Em 63.8, é Théodore, o namorado de Félicité; em 490.10, Loulou era para ela quase um filho, quase um namorado."
+  },
+  "place": {
+   "lema": "place",
+   "classe": "substantivo feminino",
+   "def": [
+    "Lugar, espaço que ocupa ou pode ocupar uma pessoa ou uma coisa: lugar."
+   ]
+  },
+  "trouva": {
+   "lema": "trouver",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Encontrar por acaso."
+   ],
+   "nota": "Em 494.21, «le trouva mort»: achou-o morto."
+  },
+  "amis": {
+   "lema": "ami",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Pessoa com a qual se tem laços de amizade: amigo."
+   ]
+  },
+  "apprit": {
+   "lema": "apprendre",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Ensinar, dar algum conhecimento a uma pessoa; fazer saber."
+   ],
+   "nota": "«Il lui apprit que…»: ele lhe fez saber que…"
+  },
+  "apprit#2": {
+   "lema": "apprendre",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Adquirir um conhecimento ou um saber-fazer: aprender."
+   ]
+  },
+  "apprit#3": {
+   "lema": "apprendre",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Tomar conhecimento por uma informação: saber, vir a saber."
+   ]
+  },
+  "devait": {
+   "lema": "devoir",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "(Auxiliar) Diz-se também para marcar que há uma espécie de justiça, de razão ou de necessidade para que uma coisa seja."
+   ],
+   "nota": "Indica o que estava previsto ou destinado: «ne devait plus le revoir», não voltaria a vê-lo; «devait démarrer», devia partir (estava previsto)."
+  },
+  "revoir": {
+   "lema": "revoir",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "Ver de novo: rever."
+   ]
+  },
+  "garantir": {
+   "lema": "garantir",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "Pôr ao abrigo; preservar de; proteger de."
+   ],
+   "nota": "«Se garantir de la conscription»: livrar-se do serviço militar."
+  },
+  "conscription": {
+   "lema": "conscription",
+   "classe": "substantivo feminino",
+   "def": [
+    "Inscrição e recrutamento anual dos cidadãos chamados ao serviço militar: conscrição."
+   ],
+   "nota": "Théodore escapou dela casando-se com uma mulher rica e mais velha."
+  },
+  "vieille": {
+   "lema": "vieux",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "De uma certa idade (em relação a outra pessoa): velho, idoso."
+   ]
+  },
+  "vieille#2": {
+   "lema": "vieux",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que tem a aparência de vetustez: velho, gasto."
+   ],
+   "nota": "Aqui, uma carruagem de aspecto envelhecido."
+  },
+  "riche": {
+   "lema": "riche",
+   "classe": "adjetivo",
+   "def": [
+    "Que tem muita fortuna, que possui grandes bens: rico."
+   ]
+  },
+  "lehoussais": {
+   "lema": "Lehoussais",
+   "wiki": null,
+   "classe": "nome próprio",
+   "def": [
+    "Sobrenome da viúva rica de Toucques com quem Théodore se casou."
+   ],
+   "nota": "Mme Lehoussais, de Toucques: Théodore casou-se com ela para fugir à conscrição."
+  },
+  "chagrin": {
+   "lema": "chagrin",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Sentimentos) Estado de desprazer, de pena, de aflição: mágoa, tristeza."
+   ]
+  },
+  "désordonné": {
+   "lema": "désordonné",
+   "classe": "adjetivo",
+   "def": [
+    "(Por extensão) Que carece de ordem: desordenado."
+   ],
+   "nota": "Aqui, uma dor sem freio nem medida."
+  },
+  "jeta": {
+   "lema": "jeter",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Lançar com a mão ou de outro modo: atirar."
+   ],
+   "nota": "«Se jeter»: atirar-se, lançar-se."
+  },
+  "terre": {
+   "lema": "terre",
+   "classe": "substantivo feminino",
+   "def": [
+    "Solo sobre o qual caminhamos, sobre o qual são construídas as casas, que produz e alimenta os vegetais: terra, chão."
+   ],
+   "nota": "«Par terre»: no chão; «mettre pied à terre»: apear, pôr o pé no chão; em 294.11, «par terre» é por via terrestre."
+  },
+  "poussa": {
+   "lema": "pousser",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Fazer pressão contra alguém ou algo, para deslocá-lo ou tirá-lo do lugar: empurrar."
+   ]
+  },
+  "poussa#2": {
+   "lema": "pousser",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Fazer sair com força, falando de palavras, de sons: soltar, dar."
+   ],
+   "nota": "«Pousser un cri»: soltar um grito."
+  },
+  "cris": {
+   "lema": "cri",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Ação de gritar; som agudo ou potente emitido pela voz de um ser humano ou de um animal: grito."
+   ]
+  },
+  "appela": {
+   "lema": "appeler",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Fazer vir servindo-se da voz: chamar."
+   ],
+   "nota": "Aqui, invocou a Deus."
+  },
+  "bon": {
+   "lema": "bon",
+   "classe": "adjetivo",
+   "forma": "masculino singular",
+   "def": [
+    "Generoso, que faz o bem: bom."
+   ],
+   "nota": "«Le bon Dieu»: o bom Deus, forma familiar de dizer Deus."
+  },
+  "bon#2": {
+   "lema": "bon",
+   "classe": "interjeição",
+   "def": [
+    "Usa-se às vezes por antífrase, para se queixar."
+   ],
+   "nota": "Aqui, tom de contrariedade: «Bom! mais um!»"
+  },
+  "dieu": {
+   "lema": "Dieu",
+   "classe": "nome próprio",
+   "def": [
+    "(Religião) Ser supremo e todo-poderoso, criador do universo e da existência, nos cultos monoteístas: Deus."
+   ],
+   "nota": "«Mon Dieu !»: exclamação, meu Deus."
+  },
+  "gémit": {
+   "lema": "gémir",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Exprimir o seu sofrimento com voz plangente e não articulada: gemer."
+   ]
+  },
+  "seule": {
+   "lema": "seul",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que está sem companhia; que não está com outros: só, sozinho."
+   ],
+   "nota": "«Toute seule»: sozinha."
+  },
+  "seule#2": {
+   "lema": "seul",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Com exclusão de qualquer outro: único."
+   ],
+   "nota": "Em 413.5, «une chose seule capable de l’émouvoir»: só uma coisa era capaz de comovê-la."
+  },
+  "soleil": {
+   "lema": "soleil",
+   "classe": "substantivo masculino",
+   "def": [
+    "Estrela que dá luz e calor à Terra e aos outros planetas do sistema solar: sol."
+   ],
+   "nota": "«Au soleil»: ao sol; «brillante de soleil»: toda luz de sol."
+  },
+  "soleil#2": {
+   "lema": "soleil",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Catolicismo) Círculo de ouro ou de prata guarnecido de raios, em que se engasta um duplo cristal destinado a conter a hóstia consagrada: custódia."
+   ],
+   "nota": "Aqui, o ostensório de ouro, posto sobre a renda do altar, que brilha como um sol."
+  },
+  "levant": {
+   "lema": "levant",
+   "classe": "adjetivo",
+   "def": [
+    "Que se levanta, falando do sol: nascente."
+   ],
+   "nota": "«Jusqu’au soleil levant»: até o nascer do sol."
+  },
+  "revint": {
+   "lema": "revenir",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Vir outra vez, vir de novo: voltar."
+   ]
+  },
+  "déclara": {
+   "lema": "déclarer",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Dar a conhecer de modo manifesto: declarar."
+   ]
+  },
+  "intention": {
+   "lema": "intention",
+   "classe": "substantivo feminino",
+   "def": [
+    "Vontade; propósito, desígnio: intenção."
+   ]
+  },
+  "partir": {
+   "lema": "partir",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "Deixar um lugar por outro: partir, ir embora."
+   ]
+  },
+  "partir#2": {
+   "lema": "partir",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "Tirar a sua origem, ter o seu começo, ter por ponto de partida."
+   ],
+   "nota": "«À partir de»: a partir de."
+  },
+  "bout": {
+   "lema": "bout",
+   "classe": "substantivo masculino",
+   "def": [
+    "Parte extrema de uma coisa: ponta, extremidade."
+   ]
+  },
+  "bout#2": {
+   "lema": "bout",
+   "classe": "substantivo masculino",
+   "def": [
+    "Fim, termo de uma coisa que dura no tempo."
+   ],
+   "nota": "«Au bout de»: ao fim de, depois de (tempo)."
+  },
+  "reçu": {
+   "lema": "recevoir",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "Aceitar, tomar o que é dado, apresentado ou oferecido: receber."
+   ],
+   "nota": "Em 69.19, «ayant reçu ses comptes»: tendo recebido o acerto do que lhe era devido."
+  },
+  "comptes": {
+   "lema": "compte",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Estado do que foi recebido, do que é devido, gasto, adiantado ou fornecido: conta."
+   ]
+  },
+  "enferma": {
+   "lema": "enfermer",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Pôr alguém ou algo num lugar fechado de todos os lados: encerrar, trancar."
+   ],
+   "nota": "Em 69.23, guardou os seus poucos pertences, atados num lenço."
+  },
+  "petit": {
+   "lema": "petit",
+   "classe": "adjetivo",
+   "def": [
+    "De tamanho reduzido: pequeno."
+   ],
+   "nota": "Em 634.7, «un petit cadre», um pequeno quadro."
+  },
+  "petit#2": {
+   "lema": "petit",
+   "classe": "adjetivo",
+   "def": [
+    "De tamanho reduzido: pequeno."
+   ],
+   "nota": "«Au petit jour»: ao romper do dia, de manhãzinha."
+  },
+  "petit#3": {
+   "lema": "petit",
+   "classe": "adjetivo",
+   "def": [
+    "Jovem."
+   ],
+   "nota": "«Petit gars» e «petit mousse»: rapazinho, jovem grumete; o adjetivo tem tom afetuoso."
+  },
+  "bagage": {
+   "lema": "bagage",
+   "classe": "substantivo masculino",
+   "def": [
+    "Objeto que se leva em viagem: bagagem."
+   ],
+   "nota": "Aqui, os poucos pertences de Félicité."
+  },
+  "rendit": {
+   "lema": "rendre",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "(Pronominal) Transportar-se a um lugar, ir para lá: ir-se, dirigir-se."
+   ],
+   "nota": "«Se rendre à»: ir a."
+  },
+  "auberge": {
+   "lema": "auberge",
+   "classe": "substantivo feminino",
+   "def": [
+    "Casa onde se encontra refeição e cama para dormir, mediante pagamento: albergue, estalagem."
+   ]
+  },
+  "questionna": {
+   "lema": "questionner",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Interrogar alguém, fazer-lhe perguntas."
+   ]
+  },
+  "bourgeoise": {
+   "lema": "bourgeoise",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Antigo) Cidadã de uma cidade."
+   ],
+   "nota": "Aqui, uma senhora da cidade, de condição abastada: é Mme Aubain, que procurava justamente uma cozinheira."
+  },
+  "capeline": {
+   "lema": "capeline",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Antigo) Chapéu de mulher de abas flexíveis, que podem ser abaixadas e atadas: capelina."
+   ],
+   "nota": "«Capeline de veuve»: capelina de viúva, o chapéu de luto."
+  },
+  "veuve": {
+   "lema": "veuve",
+   "classe": "substantivo feminino",
+   "def": [
+    "Antiga esposa cujo cônjuge morreu e que não voltou a casar: viúva."
+   ]
+  },
+  "précisément": {
+   "lema": "précisément",
+   "classe": "advérbio",
+   "def": [
+    "Com precisão; exatamente, ao justo."
+   ],
+   "nota": "Aqui, «justamente»: por coincidência."
+  },
+  "cherchait": {
+   "lema": "chercher",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Dar-se movimento, cuidado ou trabalho para encontrar alguém ou algo: procurar."
+   ]
+  },
+  "cuisinière": {
+   "lema": "cuisinière",
+   "classe": "substantivo feminino",
+   "def": [
+    "Aquela que se contrata numa casa ou num restaurante para cozinhar: cozinheira."
+   ]
+  },
+  "grand-chose": {
+   "lema": "grand-chose",
+   "classe": "pronome indefinido",
+   "def": [
+    "Muito, algo importante. (Usa-se sempre com um advérbio negativo, quase sempre «pas»: não muito, nada de importante.)"
+   ],
+   "nota": "«Ne… pas grand-chose»: não muita coisa, quase nada."
+  },
+  "paraissait": {
+   "lema": "paraître",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Parecer; ter a aparência."
+   ]
+  },
+  "avoir": {
+   "lema": "avoir",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "Estar em relação de posse, concreta ou abstrata, com algo: ter."
+   ],
+   "nota": "«Avoir soin de»: ter cuidado com."
+  },
+  "avoir#2": {
+   "lema": "avoir",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "(Auxiliar) Serve para formar os tempos compostos, indicando passado, conclusão ou experiência."
+   ],
+   "nota": "Aqui, o infinitivo composto: «avoir pris», «avoir fait», «avoir été»…"
+  },
+  "tant": {
+   "lema": "tant",
+   "classe": "advérbio",
+   "def": [
+    "Tanto; em grande quantidade; a tal ponto."
+   ],
+   "nota": "Em 300.36 e 522.23, «tant» introduz a razão do que se disse antes: «de tão limitada que era…»."
+  },
+  "bonne": {
+   "lema": "bon",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que tem as qualidades que se esperam: bom."
+   ],
+   "nota": "«Bonne volonté»: boa vontade; «de bonne heure»: cedo; «la bonne sœur»: a freira."
+  },
+  "bonne#2": {
+   "lema": "bonne",
+   "classe": "substantivo feminino",
+   "def": [
+    "Criada de casa burguesa, moça encarregada de cuidar de uma criança: babá, criada."
+   ]
+  },
+  "volonté": {
+   "lema": "volonté",
+   "classe": "substantivo feminino",
+   "def": [
+    "Disposição em que se está para com alguém ou algo; desejo de fazer o bem ou o mal: vontade."
+   ],
+   "nota": "«Bonne volonté»: boa vontade, disposição de servir."
+  },
+  "exigences": {
+   "lema": "exigence",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "O que se espera, o que se exige de alguém: exigência."
+   ]
+  },
+  "finit": {
+   "lema": "finir",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Acabar, terminar."
+   ],
+   "nota": "«Finir par»: acabar por."
+  },
+  "dire": {
+   "lema": "dire",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "Exprimir por palavras: dizer."
+   ],
+   "nota": "«Vouloir dire»: querer dizer, significar; «fit dire une messe»: mandou celebrar uma missa; «dire ses oraisons»: rezar as suas orações."
+  },
+  "soit": {
+   "lema": "soit",
+   "classe": "advérbio",
+   "def": [
+    "De acordo, admitamos: seja."
+   ],
+   "nota": "Aqui, «seja»: concordância um tanto a contragosto."
+  },
+  "soit#2": {
+   "lema": "soit",
+   "classe": "conjunção",
+   "def": [
+    "Isto é, a saber."
+   ],
+   "nota": "Introduz exemplos: «soit un paquet de cassonade, du savon…», ou seja, um pacote de açúcar mascavo, sabão…"
+  },
+  "accepte": {
+   "lema": "accepter",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 1ª pessoa do singular",
+   "def": [
+    "Aceitar o que é oferecido."
+   ]
+  },
+  "quart": {
+   "lema": "quart",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Em particular) O quarto de uma hora, ou seja, quinze minutos."
+   ],
+   "nota": "«Un quart d’heure»: um quarto de hora."
+  },
+  "heure": {
+   "lema": "heure",
+   "classe": "substantivo feminino",
+   "def": [
+    "Uma das vinte e quatro divisões do dia, com a duração de sessenta minutos: hora."
+   ],
+   "nota": "«Un quart d’heure»: quinze minutos."
+  },
+  "heure#2": {
+   "lema": "heure",
+   "classe": "substantivo feminino",
+   "def": [
+    "Momento de um dia."
+   ],
+   "nota": "«De bonne heure»: cedo; «à l’heure du marché»: na hora do mercado."
+  },
+  "heure#3": {
+   "lema": "heure",
+   "classe": "substantivo feminino",
+   "def": [
+    "Momento de um dia."
+   ],
+   "nota": "«Tout à l’heure»: há pouco (em francês clássico, também «agora mesmo» e «daqui a pouco»)."
+  },
+  "installée": {
+   "lema": "installer",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular",
+   "def": [
+    "Colocar, dispor alguém ou algo num lugar: instalar."
+   ]
+  },
+  "vécut": {
+   "lema": "vivre",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "(Por extensão) Desenrolar o curso da sua vida: viver."
+   ]
+  },
+  "tremblement": {
+   "lema": "tremblement",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Figurado) Grande temor."
+   ],
+   "nota": "Aqui, um temor que faz estremecer; em 209.3, a emoção de Félicité ao ajudar a vestir Virginie."
+  },
+  "causaient": {
+   "lema": "causer",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Ser causa de; ocasionar, provocar: causar."
+   ]
+  },
+  "causaient#2": {
+   "lema": "causer",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Entreter-se familiarmente com alguém; conversar."
+   ]
+  },
+  "genre": {
+   "lema": "genre",
+   "classe": "substantivo masculino",
+   "def": [
+    "Sorte, maneira ou tipo que qualifica algo abstrato ou concreto: gênero, espécie, estilo."
+   ],
+   "nota": "Em «le genre de la maison», o jeito, o tom da casa."
+  },
+  "souvenir": {
+   "lema": "souvenir",
+   "classe": "substantivo masculino",
+   "def": [
+    "Impressão que a memória conserva: lembrança."
+   ],
+   "nota": "«En souvenir d’elle»: em lembrança dela."
+  },
+  "souvenir#2": {
+   "lema": "souvenir",
+   "classe": "substantivo masculino",
+   "def": [
+    "Objeto adquirido com o fim de lembrar um lugar, algo ou alguém: lembrança."
+   ]
+  },
+  "planant": {
+   "lema": "planer",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "(Ornitologia) Manter-se no ar com as asas estendidas e imóveis: pairar."
+   ],
+   "nota": "Em 74.24 é figurado: a lembrança do patrão paira sobre tudo, como se dominasse a casa."
+  },
+  "paul": {
+   "lema": "Paul",
+   "classe": "nome próprio",
+   "def": [
+    "Prenome masculino."
+   ],
+   "nota": "Filho de Mme Aubain, irmão de Virginie; tem sete anos quando Félicité entra na casa."
+  },
+  "virginie": {
+   "lema": "Virginie",
+   "classe": "nome próprio",
+   "def": [
+    "Prenome feminino."
+   ],
+   "nota": "Filha de Mme Aubain, de quatro anos quando Félicité entra na casa; Félicité dedica-lhe um afeto de mãe."
+  },
+  "âgé": {
+   "lema": "âgé",
+   "classe": "adjetivo",
+   "def": [
+    "Que tem um certo número de anos, uma certa idade."
+   ]
+  },
+  "sept": {
+   "lema": "sept",
+   "classe": "numeral",
+   "def": [
+    "Seis mais um: sete."
+   ]
+  },
+  "peine": {
+   "lema": "à peine",
+   "classe": "locução adverbial",
+   "def": [
+    "Por pouco; apenas, mal."
+   ],
+   "nota": "«À peine»: mal, apenas."
+  },
+  "peine#2": {
+   "lema": "peine",
+   "classe": "substantivo feminino",
+   "def": [
+    "Dificuldades e obstáculos que se encontram em alguma coisa."
+   ],
+   "nota": "«Avoir peine à»: ter dificuldade em."
+  },
+  "semblaient": {
+   "lema": "sembler",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Parecer ter certa qualidade ou certa maneira de ser; ter ar, aparência: parecer."
+   ]
+  },
+  "formés": {
+   "lema": "former",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino plural",
+   "def": [
+    "Criar dando ser e forma: formar."
+   ],
+   "nota": "«Formés d’une matière précieuse»: feitos de uma matéria preciosa."
+  },
+  "matière": {
+   "lema": "matière",
+   "classe": "substantivo feminino",
+   "def": [
+    "Aquilo de que uma coisa é feita: matéria."
+   ]
+  },
+  "précieuse": {
+   "lema": "précieux",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "De grande preço: precioso."
+   ]
+  },
+  "défendit": {
+   "lema": "défendre",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Proibir, interditar alguma coisa."
+   ],
+   "nota": "«Défendre de»: proibir de."
+  }
+ },
+ "ocorrencias": {
+  "621.9": "moment#2",
+  "205.13": "apprit#2",
+  "548.5": "apprit#3",
+  "224.5": "vieille#2",
+  "68.6": "poussa#2",
+  "329.1": "bon#2",
+  "413.5": "seule#2",
+  "594.24": "seule#2",
+  "639.14": "soleil#2",
+  "193.8": "partir#2",
+  "69.15": "bout#2",
+  "181.2": "bout#2",
+  "362.2": "bout#2",
+  "517.10": "bout#2",
+  "358.3": "petit#2",
+  "596.21": "petit#2",
+  "180.30": "petit#3",
+  "309.2": "petit#3",
+  "309.5": "petit#3",
+  "384.13": "avoir#2",
+  "434.13": "avoir#2",
+  "544.2": "avoir#2",
+  "544.21": "avoir#2",
+  "602.2": "avoir#2",
+  "157.13": "bonne#2",
+  "240.11": "soit#2",
+  "88.7": "heure#2",
+  "100.12": "heure#2",
+  "217.5": "heure#2",
+  "301.10": "heure#2",
+  "392.4": "heure#3",
+  "473.13": "heure#3",
+  "416.11": "causaient#2",
+  "441.32": "souvenir#2",
+  "201.3": "peine#2"
+ }
+}

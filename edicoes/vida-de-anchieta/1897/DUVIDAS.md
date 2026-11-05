@@ -27,3 +27,8 @@
 - p. 43: o número impresso no topo é «43» (o voto lia «48»); título do cap. 23 no impresso: «De como obedeciam ao Padre José as Aves e animaes feros fallando com elles na lingoa Brasilica».
 - p. 43, última linha do cap. 22: «de 1605» (algarismo final em tipo pesado, lido «5»; o voto dizia «1603/1605»).
 - p. 44, «Padre Pº Leitão»: o «o» sobrescrito está sem ponto visível («Pº»); transcrito «Pº».
+- p. 47, «fortaleza de Britioga» (l. 3 do 3.º parágrafo) mas «fortalesa» mais adiante: grafias diferentes no próprio impresso; mantidas.
+- p. 47, «recolberam»: no impresso «recolberam» (por «recolheram»); mantido.
+- p. 48: «Codice CX/1-17 da Bibliotheca de Evora»: no impresso a cota é uma fração (CX sobre 1–17, «C X» em cima e «1–17» embaixo); transcrita em linha como «CX/1-17».
+- p. 48: a data é «3.º de Janeiro de 1607»; o «3.º» tem o o sobrescrito; o voto lia «160» (cortado).
+- p. 49, «no Brasil» (l. «Provinciaes da Companhia no Brasil»): o «no» tem acento/mancha parecido com «nó»; lido «no».

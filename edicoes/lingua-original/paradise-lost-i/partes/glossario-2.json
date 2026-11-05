@@ -440,6 +440,897 @@
         "Submeter a outrem, para que examine; enviar ou remeter a outro lugar."
       ],
       "nota": "«He refers to a full council»: ele remete a decisão a um conselho pleno."
+    },
+    "what": {
+      "lema": "what",
+      "classe": "pronome",
+      "def": [
+        "Aquilo que; o que (pronome relativo fundido ou interrogativo)."
+      ],
+      "nota": "Pode ser «o que» relativo («what in me is dark», o que em mim é escuro) ou interrogativo («what can it avail?», de que serve?); em «what his associates thence attempt», é «o que»: o que fazem em seguida os seus companheiros."
+    },
+    "what#2": {
+      "lema": "what",
+      "classe": "determinante",
+      "def": [
+        "Que, qual (diante de um substantivo: «what cause», que causa; interrogativo ou relativo)."
+      ],
+      "nota": "Ora interrogativo («into what pit», em que fosso), ora relativo («in what shape they choose», na forma que escolherem); «what matter where?» é «que importa onde?»."
+    },
+    "what#3": {
+      "lema": "what",
+      "classe": "determinante",
+      "def": [
+        "Que, qual; em qualquer."
+      ],
+      "nota": "«What time» é «quando», «na hora em que»: latinismo de Milton («quo tempore»)."
+    },
+    "what#4": {
+      "lema": "what",
+      "classe": "pronome",
+      "def": [
+        "O que, que (em expressões de desafio ou de hipótese)."
+      ],
+      "nota": "«What though the field be lost?» é «que importa que o campo esteja perdido?»; «But what if he…?» é «e se ele…?»."
+    },
+    "full": {
+      "lema": "full",
+      "classe": "adjetivo",
+      "def": [
+        "Completo; com nada omitido; pleno."
+      ],
+      "nota": "«Full council» é um conselho pleno, completo; em «Full counsel must mature», o conselho deve ser maduramente deliberado; em «frequent and full», cheio de gente."
+    },
+    "full#2": {
+      "lema": "full",
+      "classe": "adjetivo",
+      "def": [
+        "(Informal, com «of») Cheio, repleto, abundante de."
+      ]
+    },
+    "full#3": {
+      "lema": "full",
+      "classe": "advérbio",
+      "def": [
+        "(Arcaico) Completamente; inteiramente; bem, muito."
+      ],
+      "nota": "«Full high advanced»: erguida bem alto."
+    },
+    "full#4": {
+      "lema": "full",
+      "classe": "substantivo",
+      "def": [
+        "Medida ou grau máximo; o momento ou estado de plenitude."
+      ],
+      "nota": "«At full»: em toda a plenitude, com todas as forças."
+    },
+    "council": {
+      "lema": "council",
+      "classe": "substantivo",
+      "def": [
+        "Órgão que dirige ou governa; assembleia que delibera; conselho."
+      ],
+      "nota": "No Argument, os pares infernais se sentam «in council», em conselho."
+    },
+    "associates": {
+      "lema": "associate",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Pessoa unida a outra ou a outras em um ato ou empreendimento; companheiro, parceiro."
+      ]
+    },
+    "thence": {
+      "lema": "thence",
+      "classe": "advérbio",
+      "def": [
+        "(Formal) Dali, daquele lugar ou daquele tempo."
+      ],
+      "nota": "Em «I thence invoke thy aid», dali (do monte Sião) invoco o teu auxílio."
+    },
+    "thence#2": {
+      "lema": "thence",
+      "classe": "advérbio",
+      "def": [
+        "(Literário) Derivando deste fato ou desta circunstância; por isso, daí."
+      ],
+      "nota": "Aqui, «thence» é «daí, por isso»: «thence in Heaven called Satan», por isso chamado Satã no Céu."
+    },
+    "attempt#2": {
+      "lema": "attempt",
+      "classe": "substantivo",
+      "def": [
+        "Ação de tentar algo; tentativa."
+      ],
+      "nota": "«Vain attempt» é a tentativa vã de Satã no Céu; no verso 642, «tempted our attempt» é «incitou a nossa tentativa» (de tomar o trono)."
+    },
+    "attempt": {
+      "lema": "attempt",
+      "classe": "verbo",
+      "forma": "presente (3ª pessoa do plural)",
+      "def": [
+        "Tentar; empreender."
+      ],
+      "nota": "«What his associates thence attempt» é «o que os seus companheiros empreendem daí em diante»."
+    },
+    "palace": {
+      "lema": "palace",
+      "classe": "substantivo",
+      "def": [
+        "Residência oficial de um chefe de Estado ou outro dignitário, em especial em governo monárquico; palácio."
+      ]
+    },
+    "rises": {
+      "lema": "rise",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "Mover-se para cima; subir, erguer-se; atingir uma certa altura."
+      ],
+      "nota": "No Argument, o palácio de Satã «rises suddenly built»: ergue-se, de repente construído, saindo do abismo."
+    },
+    "suddenly": {
+      "lema": "suddenly",
+      "classe": "advérbio",
+      "def": [
+        "De repente; de modo súbito, rápido e com pouco ou nenhum aviso."
+      ]
+    },
+    "built": {
+      "lema": "build",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Formar (algo) combinando materiais ou partes; construir."
+      ]
+    },
+    "infernal": {
+      "lema": "infernal",
+      "classe": "adjetivo",
+      "def": [
+        "Do inferno ou do mundo dos mortos; infernal."
+      ]
+    },
+    "peers": {
+      "lema": "peer",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Aquele que está em nível ou valor igual ao de outro; par."
+      ],
+      "nota": "«Above his peers»: acima dos seus iguais, dos outros anjos."
+    },
+    "peers#2": {
+      "lema": "peer",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Nobre que tem título; par do reino."
+      ],
+      "nota": "Aqui, os grandes senhores do inferno, os príncipes caídos, vistos como uma corte."
+    },
+    "there": {
+      "lema": "there",
+      "classe": "advérbio",
+      "def": [
+        "Em ou a um lugar afastado de quem fala; ali, lá."
+      ]
+    },
+    "there#2": {
+      "lema": "there",
+      "classe": "pronome",
+      "def": [
+        "Sujeito expletivo («there is»), que antecipa o sujeito real, com verbos de existência."
+      ],
+      "nota": "Em «There went a fame», «There stood a hill», é a construção existencial: «correu uma fama», «ficava uma colina»."
+    },
+    "pandemonium": {
+      "lema": "pandemonium",
+      "classe": "substantivo",
+      "def": [
+        "Protesto, desordem ou situação caótica, barulhenta e tumultuada, em geral de uma multidão."
+      ],
+      "nota": "Aqui é nome próprio: Pandemonium, o palácio de Satã, nome criado por Milton do grego («todos os demônios»). O sentido comum de hoje, tumulto, vem desse nome."
+    },
+    "sit": {
+      "lema": "sit",
+      "classe": "verbo",
+      "forma": "presente (3ª pessoa do plural)",
+      "def": [
+        "(Governo) Ser membro de um corpo deliberativo; estar reunido em sessão."
+      ],
+      "nota": "«Sit in council»: os pares do inferno estão reunidos em conselho."
+    },
+    "fruit": {
+      "lema": "fruit",
+      "classe": "substantivo",
+      "def": [
+        "Resultado final, efeito ou consequência."
+      ],
+      "nota": "Milton joga com os dois sentidos: o fruto da árvore proibida e a consequência da primeira desobediência."
+    },
+    "forbidden": {
+      "lema": "forbid",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Proibir; vedar."
+      ]
+    },
+    "tree": {
+      "lema": "tree",
+      "classe": "substantivo",
+      "def": [
+        "Planta perene e lenhosa, com tronco e ramos."
+      ]
+    },
+    "whose": {
+      "lema": "whose",
+      "classe": "determinante / pronome relativo",
+      "def": [
+        "De quem, de que; cujo."
+      ],
+      "nota": "Relativo, de pessoa ou de coisa: «whose mortal taste» é «cujo provar mortal»; «by whose aid» é «cujo auxílio»."
+    },
+    "mortal": {
+      "lema": "mortal",
+      "classe": "adjetivo",
+      "def": [
+        "Que causa a morte; mortífero, fatal."
+      ]
+    },
+    "mortal#2": {
+      "lema": "mortal",
+      "classe": "adjetivo",
+      "def": [
+        "Humano; próprio de quem morre."
+      ],
+      "nota": "Aqui «mortal» é o que pertence aos homens, sujeitos à morte: «mortal men» são os homens, «mortal things», as coisas humanas."
+    },
+    "taste": {
+      "lema": "taste",
+      "classe": "substantivo",
+      "def": [
+        "Pequena amostra de alimento ou bebida; o ato de provar."
+      ],
+      "nota": "Aqui, o provar do fruto proibido, o ato de comê-lo."
+    },
+    "brought": {
+      "lema": "bring",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Transportar para junto de alguém ou para algum lugar; trazer. Ocasionar, causar."
+      ],
+      "nota": "Em «Brought death into the World», trouxe, causou a morte ao mundo."
+    },
+    "death": {
+      "lema": "death",
+      "classe": "substantivo",
+      "def": [
+        "Cessação da vida e de todos os processos associados a ela; morte."
+      ]
+    },
+    "our": {
+      "lema": "our",
+      "classe": "determinante possessivo",
+      "def": [
+        "Pertencente a nós; nosso, nossa."
+      ]
+    },
+    "woe": {
+      "lema": "woe",
+      "classe": "substantivo",
+      "def": [
+        "Grande tristeza ou aflição; desgraça que a causa."
+      ]
+    },
+    "eden": {
+      "lema": "Eden",
+      "classe": "substantivo próprio",
+      "def": [
+        "(Bíblico) Jardim feito por Deus como lar para Adão e Eva."
+      ],
+      "nota": "O Éden de Gênesis 2–3, de onde Adão e Eva são expulsos. Milton escreve «Eden»; em português, Éden."
+    },
+    "one": {
+      "lema": "one",
+      "classe": "numeral",
+      "def": [
+        "Um: o número representado pelo algarismo 1."
+      ],
+      "nota": "Em «one greater Man» (v. 4) é «um só homem maior»: Cristo, que há de restaurar o que Adão perdeu."
+    },
+    "one#2": {
+      "lema": "one",
+      "classe": "pronome",
+      "def": [
+        "Uma coisa ou pessoa, entre outras do grupo; um, alguém."
+      ]
+    },
+    "greater": {
+      "lema": "great",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Importante, de consequência; de peso."
+      ]
+    },
+    "man": {
+      "lema": "man",
+      "classe": "substantivo",
+      "def": [
+        "(Datado, formal) Ser humano, pessoa; também, coletivamente, a humanidade."
+      ],
+      "nota": "«Man» é Adão e a humanidade que descende dele, como em «Man’s first disobedience»."
+    },
+    "man#2": {
+      "lema": "man",
+      "classe": "substantivo",
+      "def": [
+        "Homem adulto do sexo masculino."
+      ],
+      "nota": "«Upward man»: da cintura para cima, Dagon tinha corpo de homem e, de baixo, de peixe."
+    },
+    "man#3": {
+      "lema": "man",
+      "classe": "substantivo",
+      "def": [
+        "(Datado, formal) Ser humano, pessoa."
+      ],
+      "nota": "«One greater Man» é Cristo, o «novo Adão», que restaura o que o primeiro homem perdeu."
+    },
+    "restore": {
+      "lema": "restore",
+      "classe": "verbo",
+      "forma": "subjuntivo",
+      "def": [
+        "Dar de volta (o que se perdeu ou foi tirado); restituir; restabelecer."
+      ],
+      "nota": "«Till one greater Man restore us»: até que um homem maior nos restitua o que perdemos."
+    },
+    "us": {
+      "lema": "us",
+      "classe": "pronome pessoal",
+      "forma": "objeto",
+      "def": [
+        "Eu e ao menos mais uma pessoa; nós (forma de objeto de «we»)."
+      ]
+    },
+    "regain": {
+      "lema": "regain",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Obter de volta; recuperar a posse de."
+      ],
+      "nota": "«Restore us and regain the blissful seat»: dois verbos regidos por «till one greater Man» (restituir, reconquistar)."
+    },
+    "blissful": {
+      "lema": "blissful",
+      "classe": "adjetivo",
+      "def": [
+        "Extremamente feliz; cheio de alegria; que caracteriza ou causa bem-aventurança."
+      ]
+    },
+    "seat": {
+      "lema": "seat",
+      "classe": "substantivo",
+      "def": [
+        "Lugar onde algo ou alguém está estabelecido ou reside; sede, morada."
+      ],
+      "nota": "Em Milton, «seat» é muitas vezes a morada ou o trono: «blissful seat» é o Éden perdido, e «seat of God» é a sede de Deus no Céu."
+    },
+    "sing": {
+      "lema": "sing",
+      "classe": "verbo",
+      "forma": "imperativo",
+      "def": [
+        "Exprimir em voz alta por meio de vocalização harmoniosa; cantar."
+      ],
+      "nota": "«Sing, Heavenly Muse»: abertura da invocação; o assunto do canto são os versos 1–5."
+    },
+    "heavenly": {
+      "lema": "heavenly",
+      "classe": "adjetivo",
+      "def": [
+        "(Religião) Do Céu, a morada celeste de Deus ou dos deuses; celeste."
+      ]
+    },
+    "muse": {
+      "lema": "Muse",
+      "classe": "substantivo",
+      "def": [
+        "Uma das nove divindades gregas antigas das artes; Musa."
+      ],
+      "nota": "Aqui é uma Musa «celeste», invocada como inspiradora do canto, a que inspirou o «pastor» Moisés, e não as musas pagãs do Hélicon."
+    },
+    "secret": {
+      "lema": "secret",
+      "classe": "adjetivo",
+      "def": [
+        "(Obsoleto) Afastado do convívio geral e da vista; retirado, recluso."
+      ],
+      "nota": "Sentido latino: «secret top» é o cume retirado, solitário, onde o monte se isola."
+    },
+    "top": {
+      "lema": "top",
+      "classe": "substantivo",
+      "def": [
+        "A parte mais alta de algo; cume, topo."
+      ]
+    },
+    "oreb": {
+      "lema": "Horeb",
+      "classe": "substantivo próprio",
+      "def": [
+        "(Bíblico) O monte onde Moisés recebeu os Dez Mandamentos de Iahweh, segundo o livro do Deuteronômio."
+      ],
+      "nota": "«Oreb» é a forma da Vulgata e da Bíblia inglesa antiga; em português, Horebe, outro nome do monte Sinai."
+    },
+    "sinai": {
+      "lema": "Mount Sinai",
+      "classe": "substantivo próprio",
+      "def": [
+        "Monte onde se diz que Moisés recebeu de Deus os Dez Mandamentos."
+      ],
+      "nota": "O Sinai, onde Moisés, o «pastor», recebeu a Lei."
+    },
+    "didst": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "2ª pessoa do singular do passado (arcaico)",
+      "def": [
+        "Realizar; executar."
+      ],
+      "nota": "Aqui é auxiliar sem sentido próprio: «didst inspire» é «inspiraste»."
+    },
+    "inspire": {
+      "lema": "inspire",
+      "classe": "verbo",
+      "def": [
+        "Infundir na mente; comunicar ao espírito, como por influência divina ou sobrenatural."
+      ]
+    },
+    "shepherd": {
+      "lema": "shepherd",
+      "classe": "substantivo",
+      "def": [
+        "Pessoa que cuida de ovelhas, em especial de um rebanho que pasta."
+      ],
+      "nota": "Moisés, que foi pastor, subiu o monte e recebeu a Lei."
+    },
+    "taught": {
+      "lema": "teach",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Transmitir conhecimento a; ensinar."
+      ]
+    },
+    "chosen": {
+      "lema": "choose",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Escolher; selecionar."
+      ],
+      "nota": "«The chosen seed» é a descendência escolhida de Deus, o povo de Israel."
+    },
+    "seed": {
+      "lema": "seed",
+      "classe": "substantivo",
+      "def": [
+        "(Raro) Descendência; prole, descendentes."
+      ]
+    },
+    "beginning": {
+      "lema": "beginning",
+      "classe": "substantivo",
+      "def": [
+        "O ato de começar algo; começo, princípio."
+      ],
+      "nota": "«In the beginning» ecoa a abertura do Gênesis: «No princípio»."
+    },
+    "how": {
+      "lema": "how",
+      "classe": "advérbio",
+      "def": [
+        "De que modo, por que meios; como."
+      ],
+      "nota": "Interrogativo indireto: «how the heavens and earth rose out of Chaos» é «como os céus e a terra surgiram do Caos»."
+    },
+    "how#2": {
+      "lema": "how",
+      "classe": "advérbio",
+      "def": [
+        "Usado como modificador para indicar surpresa ou sentimento forte numa exclamação; quão, como."
+      ],
+      "nota": "Exclamação: «O how fallen!» é «ó, quão caído!»."
+    },
+    "heavens": {
+      "lema": "heaven",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "(Datado, poético, em geral no plural) O céu distante em que se movem o Sol, a Lua e as estrelas; o firmamento."
+      ]
+    },
+    "rose": {
+      "lema": "rise",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Mover-se para cima; erguer-se, subir."
+      ],
+      "nota": "Em «rose out of Chaos», surgiram, emergiram do Caos."
+    },
+    "if": {
+      "lema": "if",
+      "classe": "conjunção",
+      "def": [
+        "Supondo que, no caso de que; usada para introduzir uma condição."
+      ]
+    },
+    "sion": {
+      "lema": "Zion",
+      "classe": "substantivo próprio",
+      "def": [
+        "(Poético) Jerusalém propriamente dita, ou, mais estritamente, o Monte do Templo."
+      ],
+      "nota": "Sion é Sião, a colina de Jerusalém onde ficava o Templo: a Musa pode preferir o monte da Lei (Sinai) ou a colina do Templo, e o poeta a invoca de qualquer dos dois."
+    },
+    "hill": {
+      "lema": "hill",
+      "classe": "substantivo",
+      "def": [
+        "Elevação de terreno menor que uma montanha; colina."
+      ]
+    },
+    "delight": {
+      "lema": "delight",
+      "classe": "verbo",
+      "forma": "subjuntivo",
+      "def": [
+        "Dar prazer a; afetar com grande prazer; agradar muito."
+      ],
+      "nota": "«If Sion hill delight thee more»: se a colina de Sião te agradar mais."
+    },
+    "delight#2": {
+      "lema": "delight",
+      "classe": "substantivo",
+      "def": [
+        "Alegria; prazer."
+      ]
+    },
+    "thee": {
+      "lema": "thee",
+      "classe": "pronome pessoal",
+      "forma": "objeto",
+      "def": [
+        "(Arcaico, literário) Forma de objeto de «thou»: te, ti."
+      ]
+    },
+    "siloa’s": {
+      "lema": "Siloa",
+      "wiki": null,
+      "classe": "substantivo próprio",
+      "forma": "genitivo (possessivo) singular",
+      "def": [
+        "Ribeiro ou fonte de Jerusalém, junto ao Templo."
+      ],
+      "nota": "Siloé, a fonte e o ribeiro de Jerusalém, que corria perto do santuário de Deus. «Siloa’s brook» é o ribeiro de Siloé."
+    },
+    "flowed": {
+      "lema": "flow",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Mover-se como um fluido de uma posição a outra; correr."
+      ]
+    },
+    "fast": {
+      "lema": "fast",
+      "classe": "advérbio",
+      "def": [
+        "Imediatamente a seguir, em lugar ou tempo; bem perto, junto."
+      ],
+      "nota": "«Fast by» é «junto a», «ao lado de»: o ribeiro corria bem perto do santuário."
+    },
+    "oracle": {
+      "lema": "oracle",
+      "classe": "substantivo",
+      "def": [
+        "Santuário dedicado a uma divindade profética."
+      ],
+      "nota": "Aqui, o santuário de Deus em Jerusalém, o Templo."
+    },
+    "invoke": {
+      "lema": "invoke",
+      "classe": "verbo",
+      "def": [
+        "Chamar (uma pessoa ou um deus) em busca de ajuda, auxílio ou orientação; invocar."
+      ]
+    },
+    "thy": {
+      "lema": "thy",
+      "classe": "determinante possessivo",
+      "def": [
+        "(Arcaico, literário) Possessivo de «thou»: teu, tua."
+      ]
+    },
+    "aid": {
+      "lema": "aid",
+      "classe": "substantivo",
+      "def": [
+        "Ajuda; auxílio; socorro."
+      ]
+    },
+    "aid#2": {
+      "lema": "aid",
+      "classe": "verbo",
+      "def": [
+        "Ajudar; auxiliar."
+      ],
+      "nota": "«Aid the winds» é «ajudar os ventos», reforçá-los."
+    },
+    "my": {
+      "lema": "my",
+      "classe": "determinante possessivo",
+      "def": [
+        "Pertencente a mim; meu, minha."
+      ]
+    },
+    "adventurous": {
+      "lema": "adventurous",
+      "classe": "adjetivo",
+      "def": [
+        "Disposto a correr riscos; propenso a empreendimentos arriscados; ousado."
+      ],
+      "nota": "Sentido latino: «ousado», «audaz». O canto é ousado porque tenta o que ninguém tentou."
+    },
+    "song": {
+      "lema": "song",
+      "classe": "substantivo",
+      "def": [
+        "Composição poética; poesia; verso."
+      ],
+      "nota": "Aqui «song» é o próprio poema, o canto épico."
+    },
+    "no": {
+      "lema": "no",
+      "classe": "determinante",
+      "def": [
+        "Nenhum; não qualquer."
+      ]
+    },
+    "no#2": {
+      "lema": "no",
+      "classe": "advérbio",
+      "def": [
+        "(Antes de comparativo) De modo algum; nada."
+      ],
+      "nota": "«No less» é «nada menos»."
+    },
+    "middle": {
+      "lema": "middle",
+      "classe": "adjetivo",
+      "def": [
+        "Situado no meio; intermediário."
+      ],
+      "nota": "«No middle flight» é um voo que não se contenta com a altura média: Milton promete voar além."
+    },
+    "flight": {
+      "lema": "flight",
+      "classe": "substantivo",
+      "def": [
+        "Ato de voar; voo."
+      ]
+    },
+    "intends": {
+      "lema": "intend",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "Fixar a mente em (algo a realizar); ter o propósito de."
+      ]
+    },
+    "soar": {
+      "lema": "soar",
+      "classe": "verbo",
+      "def": [
+        "Voar alto, com pouco esforço, como uma ave; elevar-se muito."
+      ]
+    },
+    "above": {
+      "lema": "above",
+      "classe": "preposição",
+      "def": [
+        "Em ou para um lugar mais alto; mais alto que; superior a."
+      ]
+    },
+    "th": {
+      "lema": "the",
+      "classe": "artigo definido",
+      "forma": "forma elidida («th’»)",
+      "def": [
+        "O, a, os, as."
+      ],
+      "nota": "Elisão: «th’» é «the» diante de vogal, para que as duas palavras valham uma só sílaba no verso."
+    },
+    "aonian": {
+      "lema": "Aonian",
+      "classe": "adjetivo",
+      "def": [
+        "(Grécia antiga) Relativo a Aônia ou às Musas, que se supunha habitarem lá."
+      ],
+      "nota": "O «Aonian mount» é o Hélicon, na Aônia (Beócia), monte das Musas. Milton diz que seu canto sobe acima dele."
+    },
+    "mount": {
+      "lema": "mount",
+      "classe": "substantivo",
+      "def": [
+        "Colina ou montanha."
+      ]
+    },
+    "while": {
+      "lema": "while",
+      "classe": "conjunção",
+      "def": [
+        "Durante o mesmo tempo em que; enquanto."
+      ]
+    },
+    "while#2": {
+      "lema": "while",
+      "classe": "substantivo",
+      "def": [
+        "Período de tempo de duração incerta."
+      ],
+      "nota": "«All the while» é «todo o tempo», durante tudo isso."
+    },
+    "pursues": {
+      "lema": "pursue",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "Ir atrás de (um objetivo); buscar."
+      ]
+    },
+    "unattempted": {
+      "lema": "unattempted",
+      "classe": "adjetivo",
+      "def": [
+        "Que não foi tentado."
+      ]
+    },
+    "prose": {
+      "lema": "prose",
+      "classe": "substantivo",
+      "def": [
+        "Linguagem, em especial escrita, que não se destina a ser poesia; prosa."
+      ]
+    },
+    "rhyme": {
+      "lema": "rhyme",
+      "classe": "substantivo",
+      "def": [
+        "Verso rimado (forma poética)."
+      ],
+      "nota": "«In prose or rhyme»: em prosa ou em verso rimado; o poeta promete tratar de coisas que ninguém tentou em nenhum dos dois."
+    },
+    "chiefly": {
+      "lema": "chiefly",
+      "classe": "advérbio",
+      "def": [
+        "Sobretudo; principalmente."
+      ]
+    },
+    "thou": {
+      "lema": "thou",
+      "classe": "pronome pessoal",
+      "def": [
+        "(Arcaico, literário, religioso) Tu (nominativo singular de «ye»)."
+      ]
+    },
+    "o": {
+      "lema": "O",
+      "classe": "partícula",
+      "def": [
+        "Partícula vocativa, usada para chamar alguém diretamente; ó."
+      ],
+      "nota": "Vocativo solene, como no latim: «O Spirit», ó Espírito; em «O how unlike», é exclamação."
+    },
+    "spirit": {
+      "lema": "spirit",
+      "classe": "substantivo",
+      "def": [
+        "Ser sobrenatural, em geral sem forma física; fantasma, fada, anjo."
+      ],
+      "nota": "Aqui, um dos anjos, rebelde: o espírito caído."
+    },
+    "spirit#2": {
+      "lema": "spirit",
+      "classe": "substantivo",
+      "def": [
+        "Ser sobrenatural, em geral sem forma física."
+      ],
+      "nota": "«O Spirit» é o Espírito de Deus (Espírito Santo), invocado depois da Musa, que estava presente na criação."
+    },
+    "spirit#3": {
+      "lema": "spirit",
+      "classe": "substantivo",
+      "def": [
+        "A alma de uma pessoa ou de outra criatura."
+      ],
+      "nota": "Aqui, o ânimo, a alma que resta mesmo depois da queda."
+    },
+    "dost": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "2ª pessoa do singular do presente (arcaico)",
+      "def": [
+        "Realizar; executar."
+      ],
+      "nota": "Aqui é auxiliar sem sentido próprio: «dost prefer» é «preferes»."
+    },
+    "prefer": {
+      "lema": "prefer",
+      "classe": "verbo",
+      "def": [
+        "Ter o hábito de escolher uma coisa em vez de outra; preferir."
+      ]
+    },
+    "temples": {
+      "lema": "temple",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Casa de culto."
+      ]
+    },
+    "upright": {
+      "lema": "upright",
+      "classe": "adjetivo",
+      "def": [
+        "(Figurado, ética) De bons costumes; confiável, digno de confiança, que pratica valores éticos."
+      ],
+      "nota": "«Upright heart»: coração reto, íntegro."
+    },
+    "upright#2": {
+      "lema": "upright",
+      "classe": "advérbio",
+      "def": [
+        "Em ou para uma posição ereta."
+      ]
+    },
+    "heart": {
+      "lema": "heart",
+      "classe": "substantivo",
+      "def": [
+        "Sede dos afetos ou das sensibilidades (amor, ódio, alegria, coragem etc.); coração."
+      ]
+    },
+    "heart#2": {
+      "lema": "heart",
+      "classe": "substantivo",
+      "def": [
+        "(Figurado) O centro, a essência, o âmago."
+      ],
+      "nota": "«In the heart of Hell»: no meio, no âmago do inferno."
+    },
+    "pure": {
+      "lema": "pure",
+      "classe": "adjetivo",
+      "def": [
+        "Livre de falhas ou imperfeições; livre de comportamentos ou qualidades imorais; limpo."
+      ]
+    },
+    "pure#2": {
+      "lema": "pure",
+      "classe": "adjetivo",
+      "def": [
+        "Livre de material estranho ou de poluentes."
+      ]
     }
   },
   "ocorrencias": {
@@ -508,6 +1399,60 @@
     "750.2": "long#2",
     "20.1": "before#2",
     "438.6": "before#3",
-    "750.3": "before#4"
+    "750.3": "before#4",
+    "30.9": "what#2",
+    "93.5": "what#2",
+    "94.2": "what#2",
+    "192.1": "what#2",
+    "193.3": "what#2",
+    "258.1": "what#2",
+    "430.6": "what#2",
+    "568.2": "what#2",
+    "628.5": "what#2",
+    "38.5": "what#3",
+    "107.5": "what#4",
+    "145.2": "what#4",
+    "374.4": "full#2",
+    "538.5": "full#3",
+    "643.4": "full#4",
+    "84.2": "thence#2",
+    "236.4": "thence#2",
+    "406.7": "thence#2",
+    "517.4": "thence#2",
+    "46.3": "attempt#2",
+    "644.4": "attempt#2",
+    "2.291": "peers#2",
+    "620.4": "peers#2",
+    "759.5": "peers#2",
+    "653.1": "there#2",
+    "672.1": "there#2",
+    "717.6": "there#2",
+    "53.2": "mortal#2",
+    "561.2": "mortal#2",
+    "590.3": "mortal#2",
+    "695.4": "mortal#2",
+    "81.1": "one#2",
+    "254.5": "one#2",
+    "459.6": "one#2",
+    "476.2": "one#2",
+    "640.7": "one#2",
+    "464.6": "man#2",
+    "6.8": "man#3",
+    "77.2": "how#2",
+    "86.7": "how#2",
+    "86.9": "how#2",
+    "162.8": "delight#2",
+    "237.5": "aid#2",
+    "146.6": "no#2",
+    "649.7": "no#2",
+    "541.7": "while#2",
+    "19.5": "spirit#2",
+    "141.7": "spirit#3",
+    "148.6": "spirit#3",
+    "20.5": "upright",
+    "223.2": "upright#2",
+    "153.4": "heart#2",
+    "20.8": "pure",
+    "427.6": "pure#2"
   }
 }

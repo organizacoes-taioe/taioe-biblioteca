@@ -1688,6 +1688,730 @@
     "(Bíblia, criatura mitológica) Vasto monstro marinho de enorme força, descrito como a criatura mais perigosa e poderosa do oceano."
    ],
    "nota": "Leviatã, citado em Jó 41 e no Salmo 104: a maior das obras da criação marinha de Deus."
+  },
+  "works": {
+   "lema": "work",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Produto; o resultado de um esforço."
+   ],
+   "nota": "Obras, no sentido do que se faz ou se cria: em 203, as criaturas de Deus; em 433, os atos («works of love or enmity», de amor ou de inimizade); em 696, as construções (as pirâmides dos reis de Mênfis)."
+  },
+  "hugest": {
+   "lema": "huge",
+   "classe": "adjetivo",
+   "forma": "superlativo",
+   "def": [
+    "Muito grande."
+   ]
+  },
+  "swim": {
+   "lema": "swim",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Atravessar (uma extensão de água) a nado."
+   ],
+   "nota": "«That swim th’ ocean-stream»: que nadam o mar, que percorrem a corrente oceânica. «Th’» é «the»."
+  },
+  "ocean-stream": {
+   "partes": [
+    {
+     "lema": "ocean",
+     "classe": "substantivo",
+     "def": [
+      "Corpo contínuo de água salgada que cobre a maior parte da Terra."
+     ]
+    },
+    {
+     "lema": "stream",
+     "classe": "substantivo",
+     "def": [
+      "Corpo de água em movimento, limitado por margens; corrente."
+     ]
+    }
+   ],
+   "nota": "O oceano visto como uma grande corrente de água, à maneira dos antigos."
+  },
+  "haply": {
+   "lema": "haply",
+   "classe": "advérbio",
+   "def": [
+    "Por acaso; talvez."
+   ]
+  },
+  "slumbering": {
+   "lema": "slumber",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "(intransitivo) Estar num estado de sono muito leve, quase acordado."
+   ]
+  },
+  "norway": {
+   "lema": "Norway",
+   "classe": "nome próprio",
+   "def": [
+    "País da Escandinávia, no norte da Europa."
+   ],
+   "nota": "«The Norway foam»: o mar da Noruega, onde as lendas de marinheiros punham as grandes baleias."
+  },
+  "foam": {
+   "lema": "foam",
+   "classe": "substantivo",
+   "def": [
+    "Conjunto de pequenas bolhas formado quando a superfície da água é movida pelas marés, pelo vento etc.; espuma."
+   ]
+  },
+  "pilot": {
+   "lema": "pilot",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa que governa um navio; timoneiro."
+   ]
+  },
+  "some": {
+   "lema": "some",
+   "classe": "determinante",
+   "def": [
+    "Um certo, um não especificado ou desconhecido."
+   ]
+  },
+  "some#2": {
+   "lema": "some",
+   "classe": "pronome",
+   "def": [
+    "Certo número (vários, mas não todos)."
+   ],
+   "nota": "«Some praise the work, and some the architect»: uns louvam a obra, e outros o arquiteto."
+  },
+  "small": {
+   "lema": "small",
+   "classe": "adjetivo",
+   "def": [
+    "Não grande; insignificante; pouco numeroso."
+   ]
+  },
+  "night-foundered": {
+   "partes": [
+    {
+     "lema": "night",
+     "classe": "substantivo",
+     "def": [
+      "O período de escuridão entre o pôr e o nascer do sol."
+     ]
+    },
+    {
+     "lema": "founder",
+     "classe": "verbo",
+     "forma": "particípio passado",
+     "def": [
+      "(intransitivo) Falhar; malograr-se."
+     ]
+    }
+   ],
+   "nota": "Composto de Milton: o barquinho que a noite fez perder-se e falhar, desorientado na escuridão. «Foundered» não está aqui no sentido de naufragado."
+  },
+  "skiff": {
+   "lema": "skiff",
+   "classe": "substantivo",
+   "def": [
+    "Barco pequeno, de fundo chato e aberto, com proa pontiaguda e popa quadrada."
+   ]
+  },
+  "deeming": {
+   "lema": "deem",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "(ambitransitivo) Pensar, julgar ou ter como opinião; supor."
+   ],
+   "nota": "«Deeming some island»: tomando-o por uma ilha, julgando que é uma ilha."
+  },
+  "island": {
+   "lema": "island",
+   "classe": "substantivo",
+   "def": [
+    "Área contínua de terra, menor que um continente, totalmente cercada de água."
+   ]
+  },
+  "oft": {
+   "lema": "oft",
+   "classe": "advérbio",
+   "def": [
+    "Frequentemente; não raramente (sobretudo poético)."
+   ]
+  },
+  "seamen": {
+   "lema": "seaman",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Marinheiro, sobretudo de um navio no mar."
+   ]
+  },
+  "tell": {
+   "lema": "tell",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, ditransitivo) Narrar, contar."
+   ],
+   "nota": "«As seamen tell»: como contam os marinheiros; «were long to tell» (509): seriam longos de contar."
+  },
+  "anchor": {
+   "lema": "anchor",
+   "classe": "substantivo",
+   "def": [
+    "(náutico) Instrumento usado para fundear uma embarcação no fundo do mar ou de um rio, resistindo ao movimento."
+   ]
+  },
+  "scaly": {
+   "lema": "scaly",
+   "classe": "adjetivo",
+   "def": [
+    "Coberto de escamas, ou cheio delas."
+   ]
+  },
+  "rind": {
+   "lema": "rind",
+   "classe": "substantivo",
+   "def": [
+    "Camada externa dura e resistente, sobretudo de frutas, queijo etc.; casca."
+   ],
+   "nota": "Aqui, a pele, a crosta do monstro, em que a âncora se finca."
+  },
+  "moors": {
+   "lema": "moor",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo, náutico) Fixar ou prender (uma embarcação) num lugar, lançando a âncora ou com cordas, cabos ou correntes."
+   ]
+  },
+  "lee": {
+   "lema": "lee",
+   "classe": "substantivo",
+   "def": [
+    "Lugar abrigado, sobretudo do vento por algum obstáculo; abrigo, proteção."
+   ],
+   "nota": "«Under the lee»: no abrigo do vento, junto ao flanco do monstro."
+  },
+  "invests": {
+   "lema": "invest",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "Envolver, envolver em, cobrir."
+   ],
+   "nota": "«Night invests the sea»: a noite cobre o mar, como uma veste. Sentido latino (do verbo «investire»)."
+  },
+  "sea": {
+   "lema": "sea",
+   "classe": "substantivo",
+   "def": [
+    "Grande massa de água salgada."
+   ],
+   "nota": "Em 453, o mar Mediterrâneo, para onde corre o rio Adônis, avermelhado."
+  },
+  "sea#2": {
+   "lema": "sea",
+   "classe": "substantivo",
+   "def": [
+    "Grande massa de água salgada."
+   ],
+   "nota": "«That inflamed sea»: o lago de fogo, chamado «mar» por ser enorme."
+  },
+  "wished": {
+   "lema": "wish",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Desejar; querer."
+   ],
+   "nota": "«Wished morn»: a manhã desejada, aguardada com ansiedade."
+  },
+  "morn": {
+   "lema": "morn",
+   "classe": "substantivo",
+   "def": [
+    "(poético) Manhã."
+   ]
+  },
+  "delays": {
+   "lema": "delay",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Esperar, hesitar, demorar-se."
+   ],
+   "nota": "«Wished morn delays»: a manhã desejada tarda em vir."
+  },
+  "stretched": {
+   "lema": "stretch",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo, intransitivo) Estender os membros ou outra parte do corpo."
+   ],
+   "nota": "«Stretched out huge in length»: estendido, enorme, em todo o comprimento."
+  },
+  "length": {
+   "lema": "length",
+   "classe": "substantivo",
+   "def": [
+    "A distância medida ao longo da maior dimensão de um objeto."
+   ]
+  },
+  "length#2": {
+   "lema": "at length",
+   "classe": "locução preposicional",
+   "def": [
+    "(formal, datado) Por fim, finalmente."
+   ]
+  },
+  "chained": {
+   "lema": "chain",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Prender com correntes."
+   ]
+  },
+  "risen": {
+   "lema": "rise",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(intransitivo) Mover-se, ou parecer mover-se, fisicamente para cima em relação ao chão; erguer-se."
+   ]
+  },
+  "heaved": {
+   "lema": "heave",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo) Levantar com dificuldade; erguer com esforço."
+   ]
+  },
+  "permission": {
+   "lema": "permission",
+   "classe": "substantivo",
+   "def": [
+    "Autorização; consentimento, sobretudo formal, de alguém com autoridade."
+   ],
+   "nota": "Deus apenas permite o mal; não o provoca. «High permission»: a permissão do alto."
+  },
+  "all-ruling": {
+   "partes": [
+    {
+     "lema": "all",
+     "classe": "pronome",
+     "def": [
+      "Tudo."
+     ]
+    },
+    {
+     "lema": "ruling",
+     "classe": "adjetivo",
+     "def": [
+      "Que governa; predominante, principal, reinante."
+     ]
+    }
+   ],
+   "nota": "Que governa tudo, soberano de todas as coisas: epíteto do Céu, isto é, de Deus."
+  },
+  "designs": {
+   "lema": "design",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Plano (com maior ou menor detalhe) para a estrutura e as funções de um artefato, edifício ou sistema."
+   ],
+   "nota": "Aqui, os projetos, as intenções de Satanás: «dark designs», desígnios sombrios."
+  },
+  "reiterated": {
+   "lema": "reiterate",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Dizer ou fazer (algo) repetidamente."
+   ]
+  },
+  "crimes": {
+   "lema": "crime",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Qualquer grande pecado ou maldade; iniquidade."
+   ]
+  },
+  "heap": {
+   "lema": "heap",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Amontoar, empilhar."
+   ],
+   "nota": "«Heap on himself damnation»: acumular sobre si a condenação."
+  },
+  "damnation": {
+   "lema": "damnation",
+   "classe": "substantivo",
+   "def": [
+    "(religião) Condenação ao castigo eterno no futuro, ou o próprio castigo."
+   ]
+  },
+  "sought": {
+   "lema": "seek",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo) Tentar adquirir ou obter; esforçar-se por."
+   ],
+   "nota": "«While he sought evil to others»: enquanto procurava fazer o mal aos outros."
+  },
+  "others": {
+   "lema": "other",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Outro; outra pessoa."
+   ]
+  },
+  "enraged": {
+   "lema": "enrage",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Encher de raiva; provocar frenesi; deixar furioso."
+   ]
+  },
+  "malice": {
+   "lema": "malice",
+   "classe": "substantivo",
+   "def": [
+    "Intenção de causar dano ou de privar alguém de algo de modo ilegal ou imoral; desejo de ter prazer com a desgraça alheia."
+   ]
+  },
+  "infinite": {
+   "lema": "infinite",
+   "classe": "adjetivo",
+   "def": [
+    "Sem limites nem fim; inumerável."
+   ]
+  },
+  "goodness": {
+   "lema": "goodness",
+   "classe": "substantivo",
+   "def": [
+    "O estado ou a característica de ser bom; bondade."
+   ]
+  },
+  "mercy": {
+   "lema": "mercy",
+   "classe": "substantivo",
+   "def": [
+    "Tendência ao perdão, à piedade ou à compaixão."
+   ]
+  },
+  "shewn": {
+   "lema": "show",
+   "classe": "verbo",
+   "forma": "particípio passado (grafia antiga: «shewn» = «shown»)",
+   "def": [
+    "(transitivo) Conceder, outorgar."
+   ],
+   "nota": "«Shewn on Man»: concedidos ao homem, derramados sobre ele. «Shew» é a grafia antiga de «show»."
+  },
+  "treble": {
+   "lema": "treble",
+   "classe": "adjetivo",
+   "def": [
+    "(datado) Triplo, tríplice."
+   ],
+   "nota": "«Treble confusion … poured on himself»: o triplo de confusão, de ira e de vingança cairá sobre Satanás."
+  },
+  "poured": {
+   "lema": "pour",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo, figurado) Enviar como numa corrente ou torrente; descarregar."
+   ],
+   "nota": "«Vengeance poured»: vingança derramada, lançada sobre ele."
+  },
+  "poured#2": {
+   "lema": "pour",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(intransitivo) Fluir, passar ou sair em corrente; cair de modo contínuo e abundante."
+   ],
+   "nota": "«Poured … from her frozen loins»: saiu em torrente do seu ventre gelado; o Norte, personificado como uma mãe, despejou seus bárbaros filhos."
+  },
+  "forthwith": {
+   "lema": "forthwith",
+   "classe": "advérbio",
+   "def": [
+    "Sem demora; imediatamente."
+   ]
+  },
+  "rears": {
+   "lema": "rear",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo, literário) Erguer, física ou metaforicamente; levantar; fazer subir."
+   ],
+   "nota": "«He rears his mighty stature»: ele ergue a sua enorme estatura."
+  },
+  "pool": {
+   "lema": "pool",
+   "classe": "substantivo",
+   "def": [
+    "Pequena extensão de água, em geral doce e bastante funda."
+   ],
+   "nota": "Aqui o lago de fogo («the oblivious pool», o lago do esquecimento, em 268), e o mar Morto («the Asphaltic Pool», lago de asfalto, em 413)."
+  },
+  "stature": {
+   "lema": "stature",
+   "classe": "substantivo",
+   "def": [
+    "A altura natural de uma pessoa ou animal em pé."
+   ]
+  },
+  "each": {
+   "lema": "each",
+   "classe": "determinante",
+   "def": [
+    "Cada; todo, tomado um a um."
+   ]
+  },
+  "each#2": {
+   "lema": "each",
+   "classe": "pronome",
+   "def": [
+    "Cada um, individualmente."
+   ]
+  },
+  "hand": {
+   "lema": "hand",
+   "classe": "substantivo",
+   "def": [
+    "A parte do membro anterior abaixo do antebraço ou do pulso nos humanos e outros primatas; mão."
+   ],
+   "nota": "«His hand was known»: a sua mão era conhecida, isto é, a sua obra, o seu trabalho."
+  },
+  "hand#2": {
+   "lema": "hand",
+   "classe": "substantivo",
+   "def": [
+    "Lado, parte; direção, direita ou esquerda."
+   ],
+   "nota": "«On each hand»: de cada lado."
+  },
+  "backward": {
+   "lema": "backward",
+   "classe": "advérbio",
+   "def": [
+    "Em direção oposta àquela a que algo ou alguém está voltado; para trás."
+   ]
+  },
+  "slope": {
+   "lema": "slope",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Tender de modo regular para cima ou para baixo; inclinar-se."
+   ]
+  },
+  "pointing": {
+   "lema": "point",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "(intransitivo) Estar voltado para determinada direção."
+   ],
+   "nota": "«Their pointing spires»: as suas pontas afiladas, que apontam para o alto."
+  },
+  "spires": {
+   "lema": "spire",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Ponta afilada ou cônica."
+   ],
+   "nota": "As pontas das labaredas, em forma de agulha."
+  },
+  "rolled": {
+   "lema": "roll",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(figurado) Fluir ou avançar com movimento regular, em forma de onda."
+   ]
+  },
+  "billows": {
+   "lema": "billow",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Grande onda; massa ondulante de água, fumaça etc."
+   ]
+  },
+  "leave": {
+   "lema": "leave",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Fazer ou deixar que (algo) permaneça."
+   ],
+   "nota": "«Leave i’ th’ midst a horrid vale»: deixam no meio um vale eriçado, de aspecto horrível. «I’ th’» é «in the»."
+  },
+  "vale": {
+   "lema": "vale",
+   "classe": "substantivo",
+   "def": [
+    "(sobretudo poético) Vale."
+   ]
+  },
+  "expanded": {
+   "lema": "expand",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Mudar de uma forma ou tamanho menor para um maior; estender, abrir."
+   ],
+   "nota": "«Expanded wings»: as asas abertas, estendidas."
+  },
+  "steers": {
+   "lema": "steer",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Guiar o curso de (um navio, veículo etc.)."
+   ],
+   "nota": "«Steers his flight»: dirige o seu voo, como o piloto guia um navio."
+  },
+  "aloft": {
+   "lema": "aloft",
+   "classe": "advérbio",
+   "def": [
+    "No alto; acima, em lugar elevado."
+   ]
+  },
+  "incumbent": {
+   "lema": "incumbent",
+   "classe": "adjetivo",
+   "def": [
+    "Inclinado, deitado ou apoiado em outra coisa."
+   ],
+   "nota": "Do latim: «incumbent on the dusky air» é pousado sobre o ar escuro, pesando nele."
+  },
+  "dusky": {
+   "lema": "dusky",
+   "classe": "adjetivo",
+   "def": [
+    "Pouco iluminado, como ao anoitecer."
+   ]
+  },
+  "air": {
+   "lema": "air",
+   "classe": "substantivo",
+   "def": [
+    "A mistura de gases que envolve a Terra; o ar."
+   ]
+  },
+  "felt": {
+   "lema": "feel",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo) Ter ou adquirir consciência de; perceber."
+   ],
+   "nota": "O sujeito é «the dusky air», que sentiu um peso incomum: o ar sofre o peso de Satanás."
+  },
+  "unusual": {
+   "lema": "unusual",
+   "classe": "adjetivo",
+   "def": [
+    "Fora do comum; não usual."
+   ]
+  },
+  "weight": {
+   "lema": "weight",
+   "classe": "substantivo",
+   "def": [
+    "A força para baixo que um objeto sofre por causa da gravidade; peso."
+   ]
+  },
+  "dry": {
+   "lema": "dry",
+   "classe": "adjetivo",
+   "def": [
+    "Livre de umidade ou sem ela; seco."
+   ]
+  },
+  "land": {
+   "lema": "land",
+   "classe": "substantivo",
+   "def": [
+    "A parte da Terra que não é coberta pelos oceanos ou outras massas de água; terra firme."
+   ]
+  },
+  "land#2": {
+   "lema": "land",
+   "classe": "substantivo",
+   "def": [
+    "País ou região."
+   ],
+   "nota": "«Land of Nile»: o Egito; «Doric land» (521): a Grécia dórica; «Ausonian land» (741): a Itália."
+  },
+  "lights": {
+   "lema": "light",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(arcaico) Pousar; descer, vir abaixo."
+   ],
+   "nota": "Satanás pousa em terra firme."
+  },
+  "burned": {
+   "lema": "burn",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(intransitivo) Ser consumido pelo fogo ou pelas chamas; arder."
+   ]
+  },
+  "solid": {
+   "lema": "solid",
+   "classe": "adjetivo",
+   "def": [
+    "Firme; que se pode pegar ou segurar, com consistência (em oposição a líquido ou gás)."
+   ],
+   "nota": "«With solid, as the lake with liquid fire»: a terra firme ardia com fogo sólido, como o lago com fogo líquido."
+  },
+  "liquid": {
+   "lema": "liquid",
+   "classe": "adjetivo",
+   "def": [
+    "Que flui livremente como a água; fluido; nem sólido nem gasoso."
+   ]
+  },
+  "appeared": {
+   "lema": "appear",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(intransitivo) Vir a ficar à vista; tornar-se visível."
+   ]
+  },
+  "appeared#2": {
+   "lema": "appear",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(intransitivo, de ligação) Parecer; ter certa aparência."
+   ],
+   "nota": "«Such appeared in hue»: parecia assim na cor, tinha tal aspecto."
   }
  },
  "ocorrencias": {
@@ -1734,6 +2458,18 @@
   "510.7": "held#2",
   "620.6": "held#3",
   "736.4": "held#4",
-  "757.7": "held#5"
+  "757.7": "held#5",
+  "733.6": "some#2",
+  "734.2": "some#2",
+  "302.4": "sea#2",
+  "650.2": "length#2",
+  "354.1": "poured#2",
+  "739.1": "each#2",
+  "224.6": "hand#2",
+  "345.7": "land#2",
+  "521.3": "land#2",
+  "741.7": "land#2",
+  "232.3": "appeared#2",
+  "594.6": "appeared#2"
  }
 }

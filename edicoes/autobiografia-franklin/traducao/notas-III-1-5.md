@@ -39,7 +39,7 @@
   *housekeepers* → «donos de casa»; *walking the rounds* → «a ronda».
 - *Union Fire Company* fica em inglês (nome próprio de instituição que existe com esse nome).
 - *fire-engines, ladders, fire-hooks* → «bombas de incêndio, escadas, ganchos».
-- *trustees* → «administradores»; *Mufti of Constantinople* → «o mufti de Constantinopla»;
+- *trustees* → «curadores» (também os da academia, III.4; *managers* do hospital → «administradores»); *Mufti of Constantinople* → «o mufti de Constantinopla»;
   *Mohammedanism* → «o maometismo»; *Orphan House* → «Orfanato».
 - *Court-house steps* → «a escadaria do tribunal».
 - Whitefield: *his Sermons and Journals* → os seus _Sermões_, o seu _Diário_ (títulos em itálico).
@@ -70,3 +70,20 @@
   panfleto traduzido, entre aspas como no original); *iron-furnace* → «fundição de ferro»;
   *ironmonger* → «ferrageiro»; *patent* → «patente».
 - *Louisburg* fica como no original.
+
+## III.4
+
+- _Proposals Relating to the Education of Youth in Pennsylvania_ → _Propostas relativas à educação da
+  juventude na Pensilvânia_.
+- *attorney-general* → «procurador-geral»; *constitutions* (da academia) → «estatutos»; *ground-rent* →
+  «foro do terreno»; *free-school* → «escola gratuita»; *premises* → «imóvel»; *incorporated by a charter*
+  → «constituídos em corporação por uma carta»; *University of Philadelphia* → «Universidade de Filadélfia».
+- *put me into the commission of the peace* → «me nomeou juiz de paz»; *corporation of the city* →
+  «corporação da cidade»; *common council* / *alderman* / *burgess* como no guia.
+- *common law* → _common law_ (em itálico; não há equivalente curto sem explicar).
+- *magic squares or circles* → «quadrados ou círculos mágicos».
+- *Great Spirit* → «o Grande Espírito»; *Indians* → «índios»; *savages* → «selvagens» (como Franklin).
+- A cláusula da lei: fórmula legal portuguesa («E fica decretado, pela autoridade acima referida…»,
+  «por esta lhe é ordenado»); o espaço «------» fica.
+- *another projector* → «outro homem de projetos».
+- Franklin a Tennent e os de Bond («Você consultou o Franklin…?»): você.

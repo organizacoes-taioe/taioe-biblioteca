@@ -118,7 +118,7 @@ V('langue', 'langue', 'substantivo feminino', '', 'Órgão móvel da boca: líng
 V('droit', 'droit', 'substantivo masculino', '', 'O que se pode fazer legitimamente: direito.')
 V('net', 'net', 'advérbio', '', 'Com franqueza, claramente: «parler net», falar com franqueza.')
 V('cria#2', 'crier', 'verbo', 'pretérito perfeito (passé simple), 3ª pessoa do singular', '«Crier haro sur», levantar-se contra, condenar em coro.')
-V('haro', 'haro', 'interjeição', '', '(Antigo) Grito com que se pedia justiça contra alguém; «crier haro sur», denunciar com indignação.', 'Era o grito da antiga lei da Normandia para chamar a justiça contra um criminoso.')
+V('haro', 'haro', 'interjeição', '', '(Antigo) Grito da vítima para chamar a atenção, pedido de socorro. || Por extensão, clamor para rejeitar alguma coisa ou alguém: «crier haro sur», levantar-se contra.', 'Era o grito da antiga lei da Normandia para chamar a justiça contra um criminoso.')
 V('baudet', 'baudet', 'substantivo masculino', '', '(Familiar) Burro, jumento.')
 V('clerc', 'clerc', 'substantivo masculino', '', '(Antigo) Homem instruído, letrado.', '«Quelque peu clerc»: com uns ares de letrado, de advogado.')
 V('prouva', 'prouver', 'verbo', 'pretérito perfeito (passé simple), 3ª pessoa do singular', 'Mostrar que algo é verdade: provou.')

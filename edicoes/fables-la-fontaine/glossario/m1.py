@@ -242,7 +242,7 @@ V('eh', 'eh', 'interjeição', '', 'Exprime espanto, admiração ou chama a aten
 V('adieu', 'adieu', 'interjeição', '', 'Palavra de despedida: adeus.')
 V('adieu#2', 'adieu', 'interjeição', '', 'Exprime a perda de alguma coisa: adeus, acabou-se.', '«Adieu veau, vache, cochon, couvée»: lá se vão o bezerro, a vaca, o porco e a ninhada.')
 V('fi', 'fi', 'interjeição', '', 'Exprime desprezo ou nojo: fora!, que vergonha!', '«Fi du plaisir»: abaixo o prazer, não quero saber do prazer (que o medo estraga).')
-V('nenni', 'nenni', 'advérbio', '', '(Antigo ou regional) Não.', 'É a resposta da irmã da Rã. Nesses versos as falas se alternam sem marca: a Rã pergunta («Est-ce assez ?», «M’y voici donc ?», «M’y voilà ?») e a irmã responde («Nenni», «Point du tout», «Vous n’en approchez point»).')
+V('nenni', 'nenni', 'interjeição', '', '(Antigo) Expressão negativa que marca uma recusa categórica: não.', 'É a resposta da irmã da Rã. Nesses versos as falas se alternam sem marca: a Rã pergunta («Est-ce assez ?», «M’y voici donc ?», «M’y voilà ?») e a irmã responde («Nenni», «Point du tout», «Vous n’en approchez point»).')
 V('voici', 'voici', 'preposição', '', 'Mostra uma coisa ou pessoa próxima: eis, eis aqui.', '«M’y voici donc ?»: então cheguei lá?, estou do tamanho dele?')
 V('voilà', 'voilà', 'preposição', '', 'Mostra uma coisa ou pessoa: eis, eis aí.', '«M’y voilà ?»: e agora, cheguei?')
 V('est-ce', 'être', 'verbo', 'presente do indicativo, 3ª pessoa do singular, com «ce» invertido', 'Ser, estar; «est-ce» começa uma pergunta: é?, será que?')

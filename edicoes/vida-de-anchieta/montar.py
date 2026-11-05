@@ -225,6 +225,8 @@ def modernizar_bloco(texto, onde, rel):
                 novo, fonte = G.atual(t0)
                 if t0 != t:                     # o esqueleto pode dar o futuro (quebrantará): fica o mais-que-perfeito
                     novo = re.sub(r'[áéíó](?=(ra|ras|ram)$)', lambda m: G.CAIDOS[m.group(0)], novo)
+                    if sem_acento(novo).lower() == sem_acento(t0).lower():
+                        novo = G.igualar_caixa(t0, t0.lower())
                 novo = G.composto(novo)
         if fonte in ('SEM_PAR', 'esqueleto'):
             rel[fonte][(t, novo)] += 1

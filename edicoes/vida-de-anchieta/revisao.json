@@ -1,0 +1,159 @@
+{
+ "id": "vida-de-anchieta",
+ "rotulo": "Vida do Padre José de Anchieta (Pero Rodrigues)",
+ "url": "/biblioteca/pero-rodrigues/vida-de-anchieta/",
+ "escolhas": [
+  {
+   "id": "versao",
+   "titulo": "Fica a versão curta, a do códice de Évora (1607), a única livre e digitalizada?",
+   "ref": "a obra inteira",
+   "contexto": "Pero Rodrigues deixou duas redações. A dos Anais da Biblioteca Nacional, vol. XIX (1897), copiada por A. F. Barata de um códice de Évora datado de 1607, tem 25 capítulos (~22 mil palavras) e é a que está no ar. Eduardo Prado avisa, no mesmo volume, que a Biblioteca Nacional de Lisboa (fundo de Alcobaça) tem uma redação muito mais longa, de 1608–1609, em quatro livros, com carta de Fernão Cardim e dedicatória do autor. Não a achamos em fac-símile livre (a BN Digital recusa acesso automático), e as edições do século XX são protegidas.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica a de Évora, como está; a longa entra depois, se aparecer um fac-símile livre",
+     "nota": "O texto que se pode estabelecer hoje, com as fontes livres; a «Sobre» já diz que existe a outra.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Trocar pela redação longa de Alcobaça",
+     "nota": "Mais completa, mas exige achar o volume dos Anais em fac-símile (ou o manuscrito de Lisboa)."
+    }
+   ]
+  },
+  {
+   "id": "grafia",
+   "titulo": "O texto fica só na grafia de hoje, sem a de 1897 ao lado?",
+   "ref": "a obra inteira",
+   "contexto": "Na Carta de Caminha o original de 1500 está ao lado. Aqui não há grafia de 1607 para mostrar: Barata já copiou o manuscrito «na orthographia actual» de 1896 (annos, Deos, cousa, pera, tambem), deixando só algumas palavras antigas de propósito. A grafia de 1897 ao lado mostraria a ortografia do século XIX, não a do autor.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Só a grafia de hoje, como está",
+     "nota": "Como em Os Maias e Os Lusíadas; a «Sobre» explica as trocas.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Pôr ao lado a grafia de 1897, com os botões «1897» e «Grafia atual»",
+     "nota": "Mais fiel ao impresso, mas é a grafia de Barata, não a de Pero Rodrigues."
+    }
+   ]
+  },
+  {
+   "id": "formas-antigas",
+   "titulo": "As palavras que Barata deixou na forma antiga de propósito vão para a forma de hoje?",
+   "ref": "todo o texto (giolho/giolhos 12 vezes, devação 7, antre 4; assi 73, pera 7, té, fuão)",
+   "contexto": "Barata conta, na nota final, que deixou «giolho por joelho, antre por entre, devação por devoção» por «caracterisarem o seculo». Pela regra da Biblioteca (cousa → coisa, sem forma arcaica de palavra atual), estão na forma de hoje: «de joelhos», «entre», «devoção», «assim», «para», «até», «fulano». Ficaram as palavras que não têm forma atual (comenos, gasalhado, lacão), com nota no vocabulário.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Na forma de hoje, como está",
+     "nota": "A regra de todos os livros em português do site.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Manter giolho, antre e devação, como Barata quis",
+     "nota": "Só essas três; o resto continua na forma de hoje."
+    }
+   ]
+  },
+  {
+   "id": "lugares",
+   "titulo": "Os nomes de lugar vão na forma de hoje (Tenerife, Bertioga, Itaparica, Flandres)?",
+   "ref": "cap. 1, 4, 6, 14, 25",
+   "contexto": "O impresso traz «Ilha de Tanarife», «barra da Britioga», «fortaleza de Britioga», «Ilha de Taparica», «senhores muito principais em Frandes», «Baia». Como na Carta (Porto Seguro, Calecute) e com as pessoas (Estêvão, Cristóvão, Inácio, Luís), estão na forma de hoje. Os nomes dos povos indígenas ficaram como no impresso (Maramomis, Moramomis, Tupiniquis, Tumimimos, Pitigares).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Na forma de hoje, como está",
+     "nota": "O leitor reconhece os lugares.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Como no impresso (Tanarife, Britioga, Taparica, Frandes)",
+     "nota": "As formas da época; Bahia continua «Bahia»."
+    }
+   ]
+  },
+  {
+   "id": "afabilidade",
+   "titulo": "Fica «todo o amor e afabilidade» onde Barata leu «infabilidade (sic)»?",
+   "ref": "cap. 4",
+   "contexto": "Anchieta repreende o ministro duro com os súditos: «vos visto outro [hábito] de mansidão, com que nunca deis ocasião a nenhum súdito de impaciência se não de todo o amor e infabilidade (sic)». «Infabilidade» não existe; Barata marcou a palavra. O sentido pede «afabilidade».\n\nHoje: «…se não de todo o amor e afabilidade».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«afabilidade», como está",
+     "nota": "Emenda de uma letra, que o contexto pede.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«infabilidade», como no impresso",
+     "nota": "Fiel à cópia, mas a palavra não existe."
+    }
+   ]
+  },
+  {
+   "id": "garcia-davila",
+   "titulo": "Fica «Isabel de Ávila, filha de Garcia d'Ávila», onde Barata leu «Garcia da villa (sic)»?",
+   "ref": "cap. 19",
+   "contexto": "«Disseram-lhe que era Isabel de Avila, filha de Garcia da villa (sic), pessoa principal desta terra.» Barata não entendeu o nome e marcou. É Garcia d'Ávila, o senhor da Casa da Torre, na Bahia, pai de Isabel de Ávila.\n\nHoje: «…filha de Garcia d'Ávila, pessoa principal desta terra».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Garcia d'Ávila», como está",
+     "nota": "O nome certo, que a própria frase dá (a filha é «de Ávila»).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Garcia da Vila», como no impresso",
+     "nota": "Fiel à cópia, mas é um nome que não existiu."
+    }
+   ]
+  },
+  {
+   "id": "lissao",
+   "titulo": "Fica «assentado num lissão», a palavra obscura da cópia?",
+   "ref": "cap. 4",
+   "contexto": "«O recado o tomou estando atualmente assentado num lissão confessando uma Índia velha e muito doente deitada na rede junto ao fogo.» Barata pôs uma nota: «ou tissão = tição?». «Lissão» não está nos dicionários; «tição» (pedaço de lenha) combina com o fogo da cena, mas é conjectura dele. Logo depois o dono da casa quer «melhorar o padre no assento».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«lissão», como está (a nota de Barata vai citada na «Sobre»)",
+     "nota": "Não se emenda o que não é certo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«tição», a conjectura de Barata",
+     "nota": "Faz sentido na cena, mas não há como conferir sem o manuscrito."
+    }
+   ]
+  },
+  {
+   "id": "marcas-barata",
+   "titulo": "Saem do texto as marcas do copista (as lições do manuscrito entre parênteses e os «sic»)?",
+   "ref": "cap. 1, 4, 6, 8, 11, 18, 19, 24",
+   "contexto": "Barata deixou no texto, entre parênteses, a forma que leu no manuscrito («começo (comuco)», «fervor (heiuor)», «víbora (bibara)», «José Adortio (adortio)») e cinco «(sic)». Saíram do texto e estão listadas na página «Sobre esta edição».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fora do texto, listadas na «Sobre», como está",
+     "nota": "São do copista de 1896, não do autor, e cortam a leitura.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Manter as marcas no texto, entre parênteses",
+     "nota": "Mostra as dúvidas da cópia no lugar delas."
+    }
+   ]
+  }
+ ]
+}

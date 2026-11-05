@@ -48,6 +48,15 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
+  autor: "john-milton",
+  arquivo: "conteudo/john-milton/lingua-original.js",
+  livros: [{"id": "paradise-lost", "titulo": "Paradise Lost", "ano": 1674}],
+  poemas: [
+    {"id":"john-milton-paradise-lost-i","titulo":"Book I","forma":"outras","livro":0,"ordem":0,"versos":799,"lingua":"en","ano":1674,"glossario":true,"pt":{"tradutor":"António José de Lima Leitão","titulo":"O Paraíso Perdido, Canto I","ano":1840}}
+  ]
+});
+
+BIBLIOTECA.poemas({
   autor: "john-keats",
   arquivo: "conteudo/john-keats/lingua-original.js",
   livros: [{"id": "lamia-isabella-the-eve-of-st-agnes-and-other-poems", "titulo": "Lamia, Isabella, The Eve of St. Agnes, and Other Poems", "ano": 1820}],

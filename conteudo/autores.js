@@ -532,6 +532,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'john-milton',
+  nome: 'John Milton',
+  nomeCompleto: 'John Milton',
+  vida: '1608–1674',
+  lingua: 'en',
+  nota: 'Poeta inglês, autor de _Paraíso Perdido_ e de _Paraíso Reconquistado_.'
+});
+
+BIBLIOTECA.autor({
   id: 'john-keats',
   nome: 'John Keats',
   nomeCompleto: 'John Keats',

@@ -48,6 +48,17 @@
       ]
     },
     {
+      "pasta": "paradise-lost-i", "autor": "john-milton", "lingua": "en", "forma": "outras",
+      "titulo": "Book I", "ano": 1674,
+      "livro": { "titulo": "Paradise Lost", "ano": 1674 },
+      "traducao": { "tradutor": "António José de Lima Leitão", "titulo": "O Paraíso Perdido, Canto I", "ano": 1840, "publicacao": "médico e poeta português (1787–1856), publicada em O Paraíso Perdido, poema épico em doze cantos, traduzido em verso português (Lisboa, 1840), em decassílabos brancos, mais extensa que o original (1.083 versos para 798)", "fonte": { "nome": "O Paraíso Perdido, tradução de Lima Leitão, livro I, no Wikisource", "url": "https://pt.wikisource.org/wiki/Para%C3%ADso_Perdido/Livro_I", "nota": "transcrição de edição não indicada, conferida verso a verso com a de Lisboa, Santos & Vieira, s. d. (fac-símile no Wikimedia Commons, «Antonio José de Lima Leitão - O paraiso perdido (1877).pdf»), que dá duas lições seguidas aqui («O exército infernal fora o cêntuplo»; «Sobre polido e plano pavimento»); no 23º verso fica «Instrui-me porque», do Wikisource, porque a de Santos & Vieira perde uma sílaba. Ortografia atualizada, com os acentos de Portugal; o «Argumento» é o do tradutor; os versos vão agrupados nos 14 parágrafos do original, para andarem ao lado dele" } },
+      "fontes": [
+        { "nome": "Paradise Lost. A Poem in Twelve Books, 2ª edição, revista e aumentada (Londres, S. Simmons, 1674), no Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:ParadiseLost1674CopyB.pdf", "nota": "a última edição em vida do autor e a primeira em doze livros, com os «Arguments» em prosa: o livro I inteiro, 798 versos, e o seu «Argument». Dela vêm as palavras, conferidas uma a uma, e a divisão em 14 parágrafos, pelos recuos da página (as edições modernas dividem em mais)" },
+        { "nome": "Paradise Lost (1674), transcrição do Text Creation Partnership (EEBO-TCP A50924, em domínio público)", "url": "https://github.com/textcreationpartnership/A50924", "nota": "a mesma edição de 1674, na grafia original; serviu para conferir o texto moderno palavra por palavra, e as divergências foram resolvidas nas imagens" },
+        { "nome": "Paradise Lost, transcrição de Joseph Raben, no Projeto Gutenberg (ebook 26)", "url": "https://www.gutenberg.org/ebooks/26", "nota": "a grafia e a pontuação de hoje (de edição não identificada), com as palavras de 1674 nos vv. 70 («had», não «has»), 75 («O»), 100 («contention»), 361 («of»), 409 («realm»), 426 («tied»), 627 («Foreseeing»), 703 («found out», como em 1674; a 1ª edição, de 1667, traz «founded») e 729 («naphtha»), e três erros de digitação corrigidos (vv. 356, 378 e 769). O «Argument», que não está nela, é o de 1674, na grafia de hoje" }
+      ]
+    },
+    {
       "pasta": "to-autumn", "autor": "john-keats", "lingua": "en", "forma": "odes",
       "titulo": "To Autumn", "ano": 1820,
       "livro": { "titulo": "Lamia, Isabella, The Eve of St. Agnes, and Other Poems", "ano": 1820 },

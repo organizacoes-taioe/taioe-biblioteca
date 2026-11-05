@@ -127,6 +127,8 @@ def finalizar(pid, texto, titulo):
         if a not in texto:
             raise SystemExit('%s: troca não achada: %r' % (pid, a))
         texto = texto.replace(a, b)
+    # pontuação que o alinhamento deixou no começo de uma linha: volta ao fim do verso anterior
+    texto = re.sub(r'([^\n])(\n+)([,.;:!?]+)[ ]?', lambda m: m.group(1) + m.group(3) + m.group(2), texto)
     ls = texto.split('\n')
     if inicio:
         k = next((i for i, l in enumerate(ls) if (l + '\n').startswith(inicio) or l.startswith(inicio.rstrip('\n'))), None)
@@ -155,7 +157,7 @@ def finalizar(pid, texto, titulo):
             continue
         if modo == 'teatro':
             if re.fullmatch(r'SCENA [IVX]+\.?', s):
-                out += ['', '# cena: ' + titulo_caixa(s), '']; continue
+                out += ['', '# cena: Scena ' + s.split()[1].rstrip('.'), '']; continue
             if re.fullmatch(r"[A-Z .,]+", s) and len(s) > 3:
                 nome = s.strip(' .')
                 if ',' in nome or nome.startswith('OS MESMOS'):

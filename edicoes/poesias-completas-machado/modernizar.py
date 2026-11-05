@@ -142,7 +142,7 @@ MANUAL = {
     'Ciceronica': 'Ciceroniana', 'Cassange': 'Cassange', 'iriado': 'iriado', 'pagé': 'pajé', 'pagés': 'pajés',
     'Pœstum': 'Pesto', 'Scamandro': 'Escamandro', 'Sciancato': 'Sciancato', 'agra': 'agra', 'perduravel': 'perdurável',
     'Revivirião': 'Reviviriam', 'Pallejou': 'Palejou', 'Romeos': 'Romeus', 'Lenora': 'Lenora', 'cherubim': 'querubim',
-    'prantêe': 'pranteie', 'affouta': 'afoita', 'affouto': 'afoito', 'almanach': 'almanaque', 'archiduqueza': 'arquiduquesa',
+    'prantêe': 'pranteie', 'ó': 'ó', 'Ó': 'Ó', 'ô': 'ô', 'affouta': 'afoita', 'affouto': 'afoito', 'almanach': 'almanaque', 'archiduqueza': 'arquiduquesa',
     'azues': 'azuis', 'Azues': 'Azuis', 'bemvinda': 'bem-vinda', 'Chapeo': 'Chapéu', 'Chimera': 'Quimera', 'chimera': 'quimera',
     'chimeras': 'quimeras', 'Chr': 'Chr', 'craneo': 'crânio', 'creada': 'criada', 'creado': 'criado', 'Creador': 'Criador',
     'creador': 'criador', 'creadora': 'criadora', 'creança': 'criança', 'creanças': 'crianças', 'creatura': 'criatura',
@@ -193,12 +193,21 @@ JUNTAR = {"n'um": 'num', "n'uma": 'numa', "n'uns": 'nuns', "n'umas": 'numas', "d
           "n'isso": 'nisso', "n'isto": 'nisto', "d'olhos": 'de olhos', "d'ebano": 'de ébano', "d'agua": "d'água",
           "d'ahi": 'daí', "lh'o": 'lho', "lh'a": 'lha', "lh'os": 'lhos', "lh'as": 'lhas', "d'amor": 'de amor',
           "d'arte": 'de arte', "d'ouro": 'de ouro', "n'agua": "n'água", "d'um": 'de um', "d'uma": 'de uma'}
+# depois da grafia: trocas num lugar só (palavra de dois sentidos)
+POS = [('uma-ode-de-anacreonte', 'Lísias. A esquerda', 'Lísias. À esquerda'), ('lira-chinesa', 'graças cópia', 'graças copia'), ('a-crista-nova', 'há vívido', 'há vivido')]
 ESTRANGEIRO = {'un-vieux-pays'}   # o poema inteiro
 # cabeçalhos em outra língua (as epígrafes de Musset, Shakespeare, Garção é português…)
 EPIGRAFES_FORA = ("Oh! la fleur", "She speaks", "No hay", "Je veux", "Ulysse", "Tacendo", "... che piagne", "... juntamente")
 
+# sem acento, em 1901 e hoje (a forma acentuada é outra palavra, mais rara aqui)
+SEM_ACENTO_FICA = {'e', 'a', 'o', 'as', 'os', 'para', 'pelo', 'pela', 'pelos', 'pelas', 'esta', 'este', 'estas', 'por', 'pode',
+    'de', 'se', 'que', 'nos', 'vos', 'mas', 'mais', 'tem', 'vem', 'sede', 'seria', 'serie', 'pais', 'sabia', 'secretaria',
+    'baba', 'fora', 'cara', 'mesa', 'nu', 'so', 'da', 'das', 'do', 'dos', 'ha', 'la', 'ja', 'esse', 'essa', 'ate', 'ser',
+    'contem', 'retem', 'provem', 'detem', 'mantem', 'obtem', 'sustem', 'vis', 'nem', 'em', 'dia', 'agua', 'maria',
+    'fulgura', 'pratica', 'sabias', 'sois', 'varia', 'dois', 'leu', 'magoa', 'magoas', 'doidas', 'doida', 'doido', 'doidos', 'cupido', 'saia', 'saiam', 'caia', 'caiam', 'raia', 'sai', 'cai', 'pais', 'ai', 'ali', 'aqui', 'secretarias'}
 _LEX = None
 _IDX = None
+_ACENTO = None
 _WS = None
 
 
@@ -210,7 +219,7 @@ def lexico():
             w = w.strip()
             if w:
                 lex.add(ao1990(w).lower())
-        for f in glob.glob(os.path.join(RAIZ, 'conteudo', 'machado-de-assis', '*.js')):
+        for f in []:   # os .js do Machado trazem grafias antigas (originais, «Sobre»): fora do léxico
             if f.endswith('poesia.js'):
                 continue
             corpo = open(f, encoding='utf-8').read()
@@ -219,6 +228,11 @@ def lexico():
             for w in re.findall(r"[^\W\d_]+", corpo):
                 lex.add(w.lower())
         _LEX = lex
+        global _ACENTO
+        _ACENTO = defaultdict(list)
+        for w in lex:
+            if w != sem_acento(w):
+                _ACENTO[sem_acento(w)].append(w)
         _IDX = defaultdict(list)
         for w in lex:
             _IDX[esqueleto(w)].append(w)
@@ -263,6 +277,14 @@ def palavra(w):
         return f, 'forma'
     a = ao1990(lw).replace('ü', 'u')
     if a in lex:
+        # a grafia de 1901 não acentuava as proparoxítonas nem muitas paroxítonas: «ultimo» é «último», salvo
+        # as palavras de dois sentidos comuns (duvida, pratica…), que ficam e vão para o relatório
+        if a == sem_acento(a) and _ACENTO.get(a) and a not in SEM_ACENTO_FICA:
+            ac = [x for x in _ACENTO[a] if not re.search(r'[àâêô]', x) and re.search(r'[áéíóúâêô][^aeiouáéíóú]*[aeiou]', x)]
+            if len(ac) == 1:
+                return igualar_caixa(w, ac[0]), 'acento'
+            if ac:
+                return igualar_caixa(w, a), 'ACENTO?'
         return igualar_caixa(w, a), 'lexico'
     ws = wsdic().get(lw) or wsdic().get(w)
     if ws and ao1990(ws.lower()) in lex and ws[-1:].lower() == lw[-1:] and vogais(ws) == vogais(lw):
@@ -312,6 +334,8 @@ MESO = {'ha': 'á', 'hei': 'ei', 'has': 'ás', 'hemos': 'emos', 'heis': 'eis', '
 
 def token(w, rel):
     if re.match(r"^[^\W\d_]", w) is None:
+        return w
+    if re.fullmatch(r'[IVXLCDM]+', w) or re.fullmatch(r'[A-Z]{1,2}', w) and w in ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'Y', 'Z', 'AA', 'BB', 'CC', 'DD') and False:
         return w
     w0 = w
     w = w.replace('′', "'").replace('’', "'")
@@ -423,6 +447,10 @@ if __name__ == '__main__':
     for p in P:
         rel = []
         t = arquivo(p['id'], rel)
+        for pid, a, b in POS:
+            if pid == p['id']:
+                assert a in t, (pid, a)
+                t = t.replace(a, b)
         open(os.path.join(AQUI, 'texto', p['id'] + '.txt'), 'w', encoding='utf-8').write(t)
         for a, b, f in rel:
             cont[(a, b)] += 1; fonte[(a, b)] = f;

@@ -57,3 +57,24 @@ Filadélfia», *dinner* = almoço, *supper* = jantar, Biblioteca, curadores). Fr
   O 4º verso do original é meio verso (*That poises all above*); aqui ficou inteiro. *Though* → «mas»;
   *right* → «justo» (com «certo», «está certo» dá choque de acentos na 5ª–6ª); perdeu-se o *equal* de *equal
   beam* («balança» já o supõe).
+
+## I.8
+
+- *the Junto* → «o Junto» (guia); *club of mutual improvement* → «clube de aperfeiçoamento mútuo»; *queries*
+  → «questões»; *Natural Philosophy* → «filosofia natural»; *expressions of positiveness* → «toda expressão
+  categórica» (como *positive* em I.2); *to prevent warmth* → «para evitar que os ânimos se esquentassem».
+- Os membros, um por bloco: *Nicknackeries* → «engenhocas» (o eco com «engenhoso» é nosso, mas cabe);
+  *Hadley's Quadrant* → «o quadrante de Hadley»; *a most exquisite mechanic* → «artífice primoroso»; *punning*
+  → «trocadilhos».
+- Ofício: *a folio, pro patria size, in pica, with long primer notes* → «um in-fólio, no formato _pro
+  patria_, em corpo _pica_, com as notas em corpo _long primer_» (os nomes ingleses dos corpos, como _English_
+  em I.3; vão ao vocabulário); *distribution* → «distribuição»; *impos'd my forms* → «impor as formas»;
+  *reduced to pi* → «ficaram empasteladas» (o termo exato do ofício em português).
+- *the merchants' Every-night club* → «o Clube de Todas as Noites, dos comerciantes»; *St. Andrew's* → «St.
+  Andrews»; *the interest I had* → «o apoio com que eu contava».
+- *proposals* (de jornal) → «prospecto»; *the Busy Body* → _Busy Body_ (título da série, fica em inglês como
+  o _Spectator_; candidato a traduzir: _O Intrometido_).
+- *votes* → «as atas» (guia); *address of the House* → «mensagem da Câmara»; *currency* → «moeda da colônia»
+  (como em I.4); *gave bail* → «demos fiança»; *judgment and execution* → «sentença e execução».
+- Meredith a Franklin, e Franklin a ele: você. *go about my business* → «vou cuidar da minha vida».
+- *[_In the margin:_ I got his son once £500.]* → «[_À margem:_ Uma vez consegui para o filho dele 500 libras.]».

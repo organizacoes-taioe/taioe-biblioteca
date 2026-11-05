@@ -51,3 +51,23 @@ disse eu», *farthing* → «vintém»). Franklin ao filho: tu.
   A troca *of no defense / For* × *but this defense / That* fica à vista: «Não tem defesa alguma… pois» ×
   «Só tem esta defesa…: que». *want of sense* → «falta de razão» (pela rima; «razão» = juízo), e a prosa
   do argumento repete «falta de razão».
+
+## I.3
+
+- *dinner* (a refeição do meio do dia) → «almoço»; *supper* → «jantar» (também em I.1, «o que almocei»).
+- *hand* (empregado de tipografia) → «empregado»; *composing stick* → «componedor»; *copy* → «original»;
+  *pair of cases* → «par de caixas»; *presswork* → «trabalho do prelo».
+- *font of English*: *English* é o nome de um corpo de tipo (c. 14 pontos) → «fonte… de corpo _English_»
+  (vai ao vocabulário; o nome português antigo, «santo-agostinho», seria raro demais).
+- *a good deal of the knave in his composition* → «bastante de velhaco na sua composição» (guarda o eco
+  tipográfico de *composition*).
+- *French prophets* → «os profetas franceses»; *enthusiastic agitations* → «agitações de inspirados».
+- *shock pate* → «cabeleira desgrenhada»; *scuttle* → «escotilha»; *surff* → «rebentação»; *the Kill* →
+  «o Kill»; *ferry* → «balsa»; *doggrel verse* → «versos de pé quebrado»; *travestie* → «parodiar»; *Virgil*
+  → «Virgílio»; *gingerbread* → «pão de gengibre»; *ox-cheek* → «bochecha de boi»; *pot of ale* → «caneca
+  de cerveja»; *puffy rolls* → «pães redondos… fofos».
+- Defoe: *Cruso* → _Crusoé_; *Religious Courtship* → _Namoro religioso_; *Family Instructor* →
+  _Instrutor da família_; _Moll Flanders_ e _Pamela_ ficam.
+- Estalagens: *the Three Mariners*, *the Crooked Billet* ficam em inglês, como as ruas (Market Street…).
+- Bradford a Franklin e a Keimer: você; o jovem quacre: tu («se quiseres vir comigo, eu te mostro»).
+- *Miss Read* → «a srta. Read»; *my friends in Boston* (a família) → «os meus, em Boston».

@@ -1,0 +1,513 @@
+{
+  "verbetes": {
+    "numbers": {
+      "lema": "number",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Quantidade de coisas contáveis."
+      ],
+      "nota": "No Argument, «their numbers» é a contagem, o efetivo das legiões que se levantam."
+    },
+    "array": {
+      "lema": "array",
+      "classe": "substantivo",
+      "def": [
+        "Ordem; disposição regular e imponente, em fileiras; daí, ordem de batalha."
+      ],
+      "nota": "«Array of battle» é a formação de combate; no verso 548, «in thick array» é em fileiras cerradas."
+    },
+    "battle": {
+      "lema": "battle",
+      "classe": "substantivo",
+      "def": [
+        "Ação geral, combate ou embate em que todas as divisões de um exército podem estar empenhadas."
+      ]
+    },
+    "chief": {
+      "lema": "chief",
+      "classe": "substantivo",
+      "def": [
+        "Chefe, líder ou cabeça de uma tribo, organização ou outro grupo."
+      ]
+    },
+    "chief#2": {
+      "lema": "chief",
+      "classe": "adjetivo",
+      "def": [
+        "Primário; principal."
+      ],
+      "nota": "Aqui, «chief leaders» são os principais chefes; no verso 381, «the chief» (os principais) é o adjetivo usado como substantivo."
+    },
+    "chief#3": {
+      "lema": "chief",
+      "classe": "adjetivo",
+      "def": [
+        "Primário; principal."
+      ],
+      "nota": "Usado como advérbio, ao modo latino: «principalmente» (o salão espaçoso, sobretudo)."
+    },
+    "leaders": {
+      "lema": "leader",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Qualquer pessoa que conduz ou dirige."
+      ]
+    },
+    "named": {
+      "lema": "name",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Dar nome a; nomear."
+      ],
+      "nota": "«Their chief leaders named» é «seus principais chefes, nomeados» (um por um, segundo os ídolos conhecidos depois em Canaã)."
+    },
+    "according": {
+      "lema": "accord",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Pôr de acordo; ajustar, adequar uma coisa a outra; concordar."
+      ],
+      "nota": "«According to» é a locução «segundo, de acordo com»."
+    },
+    "idols": {
+      "lema": "idol",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Imagem esculpida ou representação de algo venerado ou tido como portador de poder espiritual."
+      ]
+    },
+    "known": {
+      "lema": "know",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Conhecer; ser conhecido, identificado."
+      ]
+    },
+    "afterwards": {
+      "lema": "afterwards",
+      "classe": "advérbio",
+      "def": [
+        "Em tempo posterior; depois disso."
+      ]
+    },
+    "canaan": {
+      "lema": "Canaan",
+      "wiki": null,
+      "classe": "substantivo próprio",
+      "def": [
+        "Região histórica do Oriente Médio, mais ou menos equivalente à Palestina e a Israel."
+      ],
+      "nota": "Canaã, a terra prometida aos hebreus, onde se adoravam os ídolos que depois tomaram os nomes dos anjos caídos."
+    },
+    "countries": {
+      "lema": "country",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Território de uma nação; região, distrito."
+      ],
+      "nota": "«The countries adjoining» são os países vizinhos de Canaã."
+    },
+    "adjoining": {
+      "lema": "adjoin",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Fazer fronteira com; ser contíguo a."
+      ],
+      "nota": "Aqui funciona como adjetivo posposto: «vizinhos», «limítrofes»."
+    },
+    "these": {
+      "lema": "this",
+      "classe": "determinante / pronome demonstrativo",
+      "forma": "plural",
+      "def": [
+        "O que está aqui, perto."
+      ]
+    },
+    "directs": {
+      "lema": "direct",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "Apontar a; dirigir (algo a alguém)."
+      ],
+      "nota": "«Directs his speech to these»: dirige o seu discurso a eles."
+    },
+    "speech": {
+      "lema": "speech",
+      "classe": "substantivo",
+      "def": [
+        "Mensagem oral longa, dirigida publicamente por uma pessoa a outras; discurso."
+      ]
+    },
+    "comforts": {
+      "lema": "comfort",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "Aliviar a aflição ou o sofrimento de; consolar."
+      ],
+      "nota": "Em inglês antigo, «comfort» também é fortalecer, dar ânimo: aqui Satã anima as legiões com a esperança."
+    },
+    "them": {
+      "lema": "them",
+      "classe": "pronome pessoal",
+      "forma": "objeto",
+      "def": [
+        "Eles, elas (forma de objeto de «they»): aqueles, aquelas."
+      ]
+    },
+    "hope": {
+      "lema": "hope",
+      "classe": "substantivo",
+      "def": [
+        "Sentimento de confiança, crença ou expectativa de que algo desejado pode ou vai acontecer; esperança."
+      ]
+    },
+    "regaining": {
+      "lema": "regain",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "Obter de volta; recuperar a posse de."
+      ]
+    },
+    "tells": {
+      "lema": "tell",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "Dizer; contar; informar."
+      ]
+    },
+    "lastly": {
+      "lema": "lastly",
+      "classe": "advérbio",
+      "def": [
+        "Por último; usado para marcar o início do último item de uma lista ou de uma enumeração."
+      ]
+    },
+    "new": {
+      "lema": "new",
+      "classe": "adjetivo",
+      "def": [
+        "Feito ou criado há pouco; recente."
+      ]
+    },
+    "world": {
+      "lema": "world",
+      "classe": "substantivo",
+      "def": [
+        "A Terra, o mundo; a existência humana coletiva."
+      ],
+      "nota": "No Argument, «a new world» é o mundo recém-criado, a Terra, de que falam as profecias no Céu."
+    },
+    "kind": {
+      "lema": "kind",
+      "classe": "substantivo",
+      "def": [
+        "Tipo, raça ou categoria: grupo de entes com características comuns."
+      ],
+      "nota": "«A new kind of creature» é uma nova espécie de criatura (o homem). No verso 704, «each kind» é cada espécie, cada qualidade de metal."
+    },
+    "creature": {
+      "lema": "creature",
+      "classe": "substantivo",
+      "def": [
+        "Coisa ou ser que foi criado; criação."
+      ]
+    },
+    "created": {
+      "lema": "create",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Trazer à existência (em especial, o que um deus faz do nada)."
+      ]
+    },
+    "an": {
+      "lema": "an",
+      "classe": "artigo indefinido",
+      "def": [
+        "Um, uma (forma usada diante de som vocálico)."
+      ]
+    },
+    "ancient": {
+      "lema": "ancient",
+      "classe": "adjetivo",
+      "def": [
+        "Existente ou ocorrido em tempo muito remoto; antigo."
+      ]
+    },
+    "prophecy": {
+      "lema": "prophecy",
+      "classe": "substantivo",
+      "def": [
+        "Predição, em especial feita por um profeta ou sob inspiração divina."
+      ]
+    },
+    "report": {
+      "lema": "report",
+      "classe": "substantivo",
+      "def": [
+        "Informação que descreve ou relata certos acontecimentos, dada a alguém."
+      ],
+      "nota": "Aqui, uma notícia que corre, um dizer corrente no Céu: «prophecy or report», profecia ou rumor."
+    },
+    "that": {
+      "lema": "that",
+      "classe": "determinante / pronome demonstrativo",
+      "def": [
+        "O que é indicado ou entendido pelo contexto, em geral o mais distante, no espaço, no tempo ou no pensamento, do que se designa por «this»; aquele, aquela, esse, essa, aquilo."
+      ]
+    },
+    "that#2": {
+      "lema": "that",
+      "classe": "pronome relativo",
+      "def": [
+        "Que, o qual, quem (introduz uma oração relativa)."
+      ]
+    },
+    "that#3": {
+      "lema": "that",
+      "classe": "conjunção",
+      "def": [
+        "Que (introduz uma oração que completa um verbo, um substantivo ou um adjetivo; ou que expressa causa ou resultado)."
+      ],
+      "nota": "Ocorre ora como «que» completivo, ora como consequência («so loud that…»); no Argument, «for that Angels were…» é «porque, pelo fato de que os Anjos eram…»."
+    },
+    "that#4": {
+      "lema": "that",
+      "classe": "conjunção",
+      "def": [
+        "(Datado) Introduz uma oração que expressa fim ou propósito: para que, a fim de que."
+      ],
+      "nota": "Conjunção final, como o latim «ut»: «para que». Em geral vem com «may» ou «might» no verbo."
+    },
+    "that#5": {
+      "lema": "that",
+      "classe": "conjunção",
+      "def": [
+        "Que (introduz uma oração subordinada)."
+      ],
+      "nota": "«But that the will… left him at large» é «se não fosse que a vontade… o deixou solto»: «but that» tem sentido de «a não ser que», «se não fosse»."
+    },
+    "were": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "passado do plural do indicativo",
+      "def": [
+        "Verbo de ligação: indica que o sujeito tem as qualidades descritas por um adjetivo ou por um complemento; ser, estar."
+      ]
+    },
+    "were#2": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "passado do subjuntivo",
+      "def": [
+        "Verbo de ligação: indica que o sujeito tem as qualidades descritas por um adjetivo ou por um complemento; ser, estar."
+      ],
+      "nota": "Subjuntivo em lugar de condicional: «that were low indeed» é «isso seria baixo»; «if it were land», «se fosse terra»."
+    },
+    "were#3": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "passado do plural do indicativo",
+      "def": [
+        "Auxiliar usado com o particípio passado de outros verbos para formar a voz passiva."
+      ]
+    },
+    "long": {
+      "lema": "long",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem muita distância no espaço de uma ponta à outra; comprido."
+      ],
+      "nota": "No verso 507, «long to tell» é «longo de contar», demorado."
+    },
+    "long#2": {
+      "lema": "long",
+      "classe": "advérbio",
+      "def": [
+        "Por muito tempo; por um longo tempo."
+      ],
+      "nota": "Em «long after», «long before», é «muito depois», «muito antes»; «ere long», logo, dentro de pouco tempo; no verso 659, «long under darkness cover» é por muito tempo sob o manto das trevas."
+    },
+    "before": {
+      "lema": "before",
+      "classe": "preposição",
+      "def": [
+        "Anterior a, mais cedo que (no tempo)."
+      ],
+      "nota": "Em «Angels were long before this visible creation», «muito antes desta criação visível»."
+    },
+    "before#2": {
+      "lema": "before",
+      "classe": "preposição",
+      "def": [
+        "Antes de; à frente de, segundo um sistema formal de ordenar itens."
+      ],
+      "nota": "«Prefer before all temples» é «preferir a todos os templos», acima de todos eles."
+    },
+    "before#3": {
+      "lema": "before",
+      "classe": "preposição",
+      "def": [
+        "Na frente de, no espaço; diante de."
+      ],
+      "nota": "«Sunk before the spear»: tombados diante da lança."
+    },
+    "before#4": {
+      "lema": "before",
+      "classe": "advérbio",
+      "def": [
+        "Em tempo anterior; antes."
+      ]
+    },
+    "visible": {
+      "lema": "visible",
+      "classe": "adjetivo",
+      "def": [
+        "Que pode ser visto."
+      ],
+      "nota": "«This visible creation» é o universo material, em oposição às criaturas invisíveis, os anjos."
+    },
+    "creation": {
+      "lema": "creation",
+      "classe": "substantivo",
+      "def": [
+        "Tudo o que existe; o conjunto das coisas criadas (sentido bíblico e filosófico)."
+      ]
+    },
+    "opinion": {
+      "lema": "opinion",
+      "classe": "substantivo",
+      "def": [
+        "Crença, juízo ou ponto de vista que alguém formou sobre um assunto, uma pessoa ou uma coisa."
+      ]
+    },
+    "fathers": {
+      "lema": "father",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Antepassado masculino mais remoto que o pai; também, tratamento respeitoso dado a um sacerdote."
+      ],
+      "nota": "«Ancient Fathers» são os Padres da Igreja, escritores cristãos antigos."
+    },
+    "find": {
+      "lema": "find",
+      "classe": "verbo",
+      "def": [
+        "Descobrir por estudo ou experiência dirigidos a um fim; averiguar."
+      ],
+      "nota": "«To find out the truth of this prophecy»: descobrir, apurar a verdade desta profecia."
+    },
+    "truth": {
+      "lema": "truth",
+      "classe": "substantivo",
+      "def": [
+        "Os fatos verdadeiros; representação genuína da realidade; conformidade com os fatos."
+      ]
+    },
+    "determine": {
+      "lema": "determine",
+      "classe": "verbo",
+      "def": [
+        "Resolver; decidir; chegar à conclusão de uma questão."
+      ],
+      "nota": "«What to determine thereon»: o que decidir a esse respeito."
+    },
+    "thereon": {
+      "lema": "thereon",
+      "classe": "advérbio",
+      "def": [
+        "Sobre isso; a respeito disso."
+      ]
+    },
+    "refers": {
+      "lema": "refer",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "Submeter a outrem, para que examine; enviar ou remeter a outro lugar."
+      ],
+      "nota": "«He refers to a full council»: ele remete a decisão a um conselho pleno."
+    }
+  },
+  "ocorrencias": {
+    "2.183": "chief#2",
+    "383.2": "chief#2",
+    "764.5": "chief#3",
+    "8.4": "that#2",
+    "13.7": "that#2",
+    "16.1": "that#2",
+    "19.6": "that#2",
+    "52.5": "that#2",
+    "59.1": "that#2",
+    "69.1": "that#2",
+    "101.1": "that#2",
+    "104.1": "that#2",
+    "131.1": "that#2",
+    "137.1": "that#2",
+    "175.4": "that#2",
+    "196.1": "that#2",
+    "200.4": "that#2",
+    "204.3": "that#2",
+    "229.1": "that#2",
+    "230.7": "that#2",
+    "246.1": "that#2",
+    "304.5": "that#2",
+    "344.1": "that#2",
+    "362.3": "that#2",
+    "372.4": "that#2",
+    "397.5": "that#2",
+    "422.7": "that#2",
+    "530.6": "that#2",
+    "544.3": "that#2",
+    "563.8": "that#2",
+    "580.1": "that#2",
+    "681.6": "that#2",
+    "703.1": "that#2",
+    "2.238": "that#3",
+    "316.5": "that#3",
+    "533.4": "that#3",
+    "634.1": "that#3",
+    "653.7": "that#3",
+    "693.1": "that#3",
+    "675.1": "that#3",
+    "26.1": "that#4",
+    "150.1": "that#4",
+    "216.1": "that#4",
+    "649.5": "that#4",
+    "213.8": "that#5",
+    "116.5": "were#2",
+    "117.2": "were#2",
+    "230.5": "were#2",
+    "296.5": "were#2",
+    "509.3": "were#2",
+    "346.3": "were#3",
+    "376.2": "were#3",
+    "546.8": "were#3",
+    "579.7": "were#3",
+    "683.1": "were#3",
+    "716.1": "were#3",
+    "778.3": "were#3",
+    "2.241": "long#2",
+    "82.1": "long#2",
+    "385.3": "long#2",
+    "653.10": "long#2",
+    "661.1": "long#2",
+    "750.2": "long#2",
+    "20.1": "before#2",
+    "438.6": "before#3",
+    "750.3": "before#4"
+  }
+}

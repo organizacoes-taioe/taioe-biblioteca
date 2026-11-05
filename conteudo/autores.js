@@ -740,6 +740,13 @@ BIBLIOTECA.autor({
   ordem: 'Nabuco, Joaquim',
   area: 'nao-ficcao',
   nota: 'Político, diplomata e escritor pernambucano; líder do movimento abolicionista e fundador da Academia Brasileira de Letras.'
+  id: 'pero-rodrigues',
+  nome: 'Pero Rodrigues',
+  nomeCompleto: 'Pero Rodrigues',
+  vida: '1542–1628',
+  ordem: 'Rodrigues, Pero',
+  area: 'nao-ficcao',
+  nota: 'Jesuíta português, nascido em Évora, provincial da Companhia de Jesus no Brasil e primeiro biógrafo de José de Anchieta.'
 });
 
 BIBLIOTECA.autor({

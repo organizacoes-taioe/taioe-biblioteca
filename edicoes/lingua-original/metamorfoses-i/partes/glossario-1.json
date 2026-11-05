@@ -1,0 +1,1204 @@
+{
+ "verbetes": {
+  "liber": {
+   "lema": "liber",
+   "classe": "substantivo masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "Livro."
+   ],
+   "nota": "«Liber I» é o título do primeiro livro das «Metamorfoses», de Ovídio: o livro I."
+  },
+  "i": {
+   "lema": "I",
+   "classe": "numeral",
+   "def": [
+    "Um (o algarismo 1 do sistema numérico romano)."
+   ],
+   "nota": "O numeral romano: «Liber I» é o livro um, o primeiro."
+  },
+  "mundi": {
+   "lema": "mundus",
+   "classe": "substantivo masculino",
+   "forma": "genitivo singular",
+   "def": [
+    "Universo, mundo, em especial o céu e os astros."
+   ],
+   "nota": "Genitivo, complemento de «origine» (v. 3), de «fabricator» (v. 57) e de «origo» (v. 79); também no subtítulo."
+  },
+  "origo": {
+   "lema": "origo",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Começo: ato, acontecimento ou processo de vir à existência.",
+    "Origem, fonte."
+   ],
+   "nota": "No subtítulo, «Mundi origo» é o título que o editor Hugo Magnus dá ao trecho: «a origem do mundo». No v. 79, «origo» é aposto de «opifex»: o criador é a origem de um mundo melhor."
+  },
+  "in": {
+   "lema": "in",
+   "classe": "preposição",
+   "def": [
+    "Para dentro de, para.",
+    "Em direção a, contra (com acusativo)."
+   ],
+   "nota": "Com o acusativo, indica movimento, e também o resultado de uma mudança: «em formas novas», «em membros», «à imagem de»."
+  },
+  "in#2": {
+   "lema": "in",
+   "classe": "preposição",
+   "def": [
+    "Em, sobre, dentro de (com ablativo)."
+   ],
+   "nota": "Aqui, com o ablativo: indica o lugar onde algo está."
+  },
+  "nova": {
+   "lema": "novus",
+   "classe": "adjetivo",
+   "forma": "acusativo plural neutro",
+   "def": [
+    "Novo, inédito.",
+    "Fresco, jovem."
+   ],
+   "nota": "No v. 1, concorda com «corpora» (v. 2), e não com «formas»: «em corpos novos». No v. 11, com «cornua»."
+  },
+  "fert": {
+   "lema": "fero",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Incitar, impelir, mover."
+   ],
+   "nota": "«Animus fert» é uma expressão: o ânimo (a vontade) me impele a fazer algo. O infinitivo «dicere» diz o quê."
+  },
+  "animus": {
+   "lema": "animus",
+   "classe": "substantivo masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "Coração, mente, espírito (a sede das emoções e dos sentimentos).",
+    "Intenção, aspiração, propósito."
+   ],
+   "nota": "Sujeito de «fert»: o ânimo do poeta, o que ele quer fazer."
+  },
+  "mutatas": {
+   "lema": "muto",
+   "classe": "verbo",
+   "forma": "particípio perfeito passivo, acusativo feminino plural",
+   "def": [
+    "Alterar, mudar, modificar, transformar."
+   ],
+   "nota": "Concorda com «formas»: formas transformadas."
+  },
+  "dicere": {
+   "lema": "dico",
+   "classe": "verbo",
+   "forma": "infinitivo presente ativo",
+   "def": [
+    "Dizer, falar, declarar.",
+    "Contar."
+   ],
+   "nota": "Completa «fert»: o ânimo me impele a dizer, isto é, a cantar."
+  },
+  "formas": {
+   "lema": "forma",
+   "classe": "substantivo feminino",
+   "forma": "acusativo plural",
+   "def": [
+    "Forma, figura, aparência."
+   ],
+   "nota": "Objeto de «dicere», junto com o particípio «mutatas»."
+  },
+  "corpora": {
+   "lema": "corpus",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Corpo.",
+    "Substância, matéria (física, perceptível aos sentidos)."
+   ],
+   "nota": "Termina a oração do v. 1: «in nova … corpora», em corpos novos (as palavras estão separadas pelo verso)."
+  },
+  "di": {
+   "lema": "deus",
+   "classe": "substantivo masculino",
+   "forma": "vocativo plural",
+   "def": [
+    "Deus, divindade."
+   ],
+   "nota": "Vocativo: o poeta chama os deuses. Forma contraída de «dii»."
+  },
+  "coeptis": {
+   "lema": "coeptum",
+   "classe": "substantivo neutro",
+   "forma": "dativo plural",
+   "def": [
+    "Empreendimento, obra começada; começo."
+   ],
+   "nota": "Dativo regido por «adspirate»: os meus empreendimentos, isto é, o poema que o poeta começa. «Meis» (v. 3) concorda com ele."
+  },
+  "nam": {
+   "lema": "nam",
+   "classe": "conjunção",
+   "def": [
+    "Pois, porque, visto que."
+   ],
+   "nota": "Introduz a explicação do que se disse antes."
+  },
+  "vos": {
+   "lema": "tu",
+   "classe": "pronome pessoal",
+   "forma": "nominativo plural",
+   "def": [
+    "Vós, vocês (plural de «tu»)."
+   ],
+   "nota": "Refere-se aos deuses invocados em «di»."
+  },
+  "mutastis": {
+   "lema": "muto",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 2ª pessoa do plural",
+   "def": [
+    "Alterar, mudar, modificar, transformar."
+   ],
+   "nota": "Forma contraída de «mutavistis»."
+  },
+  "et": {
+   "lema": "et",
+   "classe": "conjunção",
+   "def": [
+    "E.",
+    "Tanto (em «et … et»: tanto … quanto)."
+   ],
+   "nota": "Liga palavras e orações; repetido, «et … et», soma os termos."
+  },
+  "et#2": {
+   "lema": "et",
+   "classe": "advérbio",
+   "def": [
+    "Também, igualmente, além disso.",
+    "Até, mesmo."
+   ],
+   "nota": "Aqui, «et illas» é «também elas»: os deuses também transformaram as formas."
+  },
+  "illas": {
+   "lema": "ille",
+   "classe": "pronome demonstrativo",
+   "forma": "acusativo feminino plural",
+   "def": [
+    "Aquele; ele, ela."
+   ],
+   "nota": "Retoma «formas»: as próprias formas."
+  },
+  "adspirate": {
+   "lema": "aspiro",
+   "classe": "verbo",
+   "forma": "imperativo presente, 2ª pessoa do plural",
+   "def": [
+    "Ser favorável a, favorecer, auxiliar.",
+    "Soprar sobre."
+   ],
+   "nota": "Grafia antiga de «aspirate». Pede o dativo («coeptis»): ajudai os meus empreendimentos, como um vento que sopra a favor."
+  },
+  "meis": {
+   "lema": "meus",
+   "classe": "pronome possessivo",
+   "forma": "dativo plural neutro",
+   "def": [
+    "Meu, minha."
+   ],
+   "nota": "Concorda com «coeptis» (v. 2)."
+  },
+  "primaque": {
+   "lema": "primus",
+   "classe": "adjetivo",
+   "forma": "ablativo feminino singular",
+   "def": [
+    "Primeiro, inicial.",
+    "Principal, destacado."
+   ],
+   "nota": "Com o enclítico -que, «e». Concorda com «origine»: desde a primeira origem."
+  },
+  "ab": {
+   "lema": "ab",
+   "classe": "preposição",
+   "def": [
+    "De, a partir de, longe de (com ablativo).",
+    "Por (indicando o agente)."
+   ],
+   "nota": "Indica origem, afastamento ou agente."
+  },
+  "origine": {
+   "lema": "origo",
+   "classe": "substantivo feminino",
+   "forma": "ablativo singular",
+   "def": [
+    "Começo: ato, acontecimento ou processo de vir à existência.",
+    "Origem, fonte."
+   ],
+   "nota": "Ablativo regido por «ab»: desde a origem."
+  },
+  "ad": {
+   "lema": "ad",
+   "classe": "preposição",
+   "def": [
+    "Para, em direção a (com acusativo).",
+    "Até (indicando o limite no tempo)."
+   ],
+   "nota": "Em «ad mea tempora», até os meus dias."
+  },
+  "mea": {
+   "lema": "meus",
+   "classe": "pronome possessivo",
+   "forma": "acusativo plural neutro",
+   "def": [
+    "Meu, minha."
+   ],
+   "nota": "Concorda com «tempora»."
+  },
+  "perpetuum": {
+   "lema": "perpetuus",
+   "classe": "adjetivo",
+   "forma": "acusativo singular neutro",
+   "def": [
+    "Perpétuo, contínuo, ininterrupto, incessante."
+   ],
+   "nota": "Concorda com «carmen»: um poema contínuo, que corre sem cortes da origem do mundo até hoje."
+  },
+  "deducite": {
+   "lema": "deduco",
+   "classe": "verbo",
+   "forma": "imperativo presente, 2ª pessoa do plural",
+   "def": [
+    "Estender, prolongar.",
+    "Conduzir, levar para longe ou para baixo."
+   ],
+   "nota": "Imagem do fio que se estira ao fiar: fazei correr o poema, sem interrupção, até os meus dias."
+  },
+  "tempora": {
+   "lema": "tempus",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Tempo (parte ou período de tempo)."
+   ],
+   "nota": "«Mea tempora»: os meus dias, a época do poeta."
+  },
+  "carmen": {
+   "lema": "carmen",
+   "classe": "substantivo neutro",
+   "forma": "acusativo singular",
+   "def": [
+    "Composição em verso, poema; poesia, verso, canto."
+   ],
+   "nota": "Objeto de «deducite»."
+  },
+  "ante": {
+   "lema": "ante",
+   "classe": "preposição",
+   "def": [
+    "Antes de, diante de (com acusativo)."
+   ],
+   "nota": "Tem três complementos: «mare», «terras» e «caelum» (v. 5): antes do mar, das terras e do céu."
+  },
+  "mare": {
+   "lema": "mare",
+   "classe": "substantivo neutro",
+   "forma": "acusativo singular",
+   "def": [
+    "Mar."
+   ],
+   "nota": "Complemento de «ante»."
+  },
+  "terras": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "forma": "acusativo plural",
+   "def": [
+    "Terra firme, em oposição às partes cobertas de água.",
+    "(Geralmente no plural) a terra, toda a superfície do planeta, em oposição ao céu."
+   ],
+   "nota": "Complemento de «ante» no v. 5."
+  },
+  "quod": {
+   "lema": "qui",
+   "classe": "pronome relativo",
+   "forma": "nominativo singular neutro",
+   "def": [
+    "Quem, que, o qual (relativo)."
+   ],
+   "nota": "Sujeito do verbo seguinte. No v. 5, o antecedente é «caelum»; no v. 77, é o ser vivo («animal») que faltava."
+  },
+  "tegit": {
+   "lema": "tego",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Cobrir; vestir.",
+    "Esconder, proteger."
+   ]
+  },
+  "omnia": {
+   "lema": "omnis",
+   "classe": "adjetivo",
+   "forma": "acusativo plural neutro",
+   "def": [
+    "Todo, inteiro; (no plural) todos."
+   ],
+   "nota": "Neutro plural usado como substantivo: «todas as coisas», tudo."
+  },
+  "caelum": {
+   "lema": "caelum",
+   "classe": "substantivo neutro",
+   "forma": "acusativo singular",
+   "def": [
+    "Céu, firmamento (onde ficam as estrelas e a Via Láctea)."
+   ],
+   "nota": "No v. 5, explica «quod tegit omnia»: o céu, que tudo cobre."
+  },
+  "unus": {
+   "lema": "unus",
+   "classe": "adjetivo",
+   "forma": "nominativo masculino singular",
+   "def": [
+    "Um, único.",
+    "Só, sozinho."
+   ],
+   "nota": "Concorda com «vultus»: um só aspecto."
+  },
+  "erat": {
+   "lema": "sum",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ser, existir."
+   ]
+  },
+  "toto": {
+   "lema": "totus",
+   "classe": "adjetivo",
+   "forma": "ablativo masculino singular",
+   "def": [
+    "Todo, inteiro, completo."
+   ],
+   "nota": "Concorda com «orbe»."
+  },
+  "toto#2": {
+   "lema": "totus",
+   "classe": "adjetivo",
+   "forma": "ablativo neutro singular",
+   "def": [
+    "Todo, inteiro, completo."
+   ],
+   "nota": "Concorda com «caelo»."
+  },
+  "naturae": {
+   "lema": "natura",
+   "classe": "substantivo feminino",
+   "forma": "genitivo singular",
+   "def": [
+    "Natureza, o mundo natural.",
+    "Natureza, qualidade, essência de uma coisa."
+   ],
+   "nota": "Genitivo, complemento de «vultus»: o aspecto da natureza."
+  },
+  "vultus": {
+   "lema": "vultus",
+   "classe": "substantivo masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "Expressão do rosto, semblante.",
+    "Aparência exterior, aspecto (de seres e de coisas)."
+   ],
+   "nota": "Aqui, o segundo sentido: o aspecto do mundo antes da criação, todo igual."
+  },
+  "vultus#2": {
+   "lema": "vultus",
+   "classe": "substantivo masculino",
+   "forma": "acusativo plural",
+   "def": [
+    "O rosto, a parte da frente da cabeça (muitas vezes no plural)."
+   ],
+   "nota": "Objeto de «tollere». «Erectos vultus» são os rostos erguidos, voltados para o alto."
+  },
+  "orbe": {
+   "lema": "orbis",
+   "classe": "substantivo masculino",
+   "forma": "ablativo singular",
+   "def": [
+    "A Terra, o globo, o mundo.",
+    "Esfera, globo."
+   ],
+   "nota": "«In toto orbe»: em todo o mundo, no universo inteiro."
+  },
+  "quem": {
+   "lema": "qui",
+   "classe": "pronome relativo",
+   "forma": "acusativo masculino singular",
+   "def": [
+    "Quem, que, o qual (relativo)."
+   ],
+   "nota": "Retoma «vultus» e é objeto de «dixere»; «chaos» é o predicativo: aquilo a que chamaram Caos."
+  },
+  "dixere": {
+   "lema": "dico",
+   "classe": "verbo",
+   "forma": "perfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Dizer, falar.",
+    "Chamar, dar nome."
+   ],
+   "nota": "Forma poética de «dixerunt». Sujeito indeterminado: «chamaram» (os antigos)."
+  },
+  "chaos": {
+   "lema": "Chaos",
+   "classe": "substantivo próprio neutro",
+   "forma": "acusativo singular, forma grega",
+   "def": [
+    "O universo primordial, sem forma."
+   ],
+   "nota": "Palavra grega. Predicativo do objeto «quem»: aquilo a que se deu o nome de Caos."
+  },
+  "rudis": {
+   "lema": "rudis",
+   "classe": "adjetivo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Áspero, bruto, não cultivado.",
+    "Tosco, sem refinamento."
+   ],
+   "nota": "No v. 7, concorda com «moles». No v. 87, qualifica a terra, que antes «era bruta», sem forma."
+  },
+  "indigestaque": {
+   "lema": "indigestus",
+   "classe": "adjetivo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Desorganizado, em desordem."
+   ],
+   "nota": "Com o enclítico -que, «e». Concorda com «moles»: uma massa bruta e desordenada."
+  },
+  "moles": {
+   "lema": "moles",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Multidão, massa (de matéria)."
+   ],
+   "nota": "Aposto de «chaos»: o Caos era uma massa sem forma."
+  },
+  "nec": {
+   "lema": "nec",
+   "classe": "conjunção",
+   "def": [
+    "Nem.",
+    "E não, não."
+   ],
+   "nota": "Repetido, «nec … nec» é «nem … nem»."
+  },
+  "quicquam": {
+   "lema": "quisquam",
+   "classe": "pronome indefinido",
+   "forma": "nominativo singular neutro",
+   "def": [
+    "Alguma coisa, qualquer coisa (em frases negativas)."
+   ],
+   "nota": "«Nec quicquam»: e nada. No v. 8, sujeito sem verbo: «nada senão peso inerte»."
+  },
+  "quicquam#2": {
+   "lema": "quisquam",
+   "classe": "pronome indefinido",
+   "forma": "acusativo singular neutro",
+   "def": [
+    "Alguma coisa, qualquer coisa (em frases negativas)."
+   ],
+   "nota": "«Nec quicquam … habentem»: sem nada de. Objeto de «habentem»."
+  },
+  "nisi": {
+   "lema": "nisi",
+   "classe": "conjunção",
+   "def": [
+    "Se não, a menos que, exceto."
+   ],
+   "nota": "Em «nec quicquam nisi»: nada, exceto."
+  },
+  "pondus": {
+   "lema": "pondus",
+   "classe": "substantivo neutro",
+   "forma": "nominativo singular",
+   "def": [
+    "Peso.",
+    "Carga, fardo."
+   ],
+   "nota": "Depois de «nisi»: nada, senão um peso."
+  },
+  "pondus#2": {
+   "lema": "pondus",
+   "classe": "substantivo neutro",
+   "forma": "acusativo singular",
+   "def": [
+    "Peso.",
+    "Carga, fardo."
+   ],
+   "nota": "Objeto de «habentia»."
+  },
+  "iners": {
+   "lema": "iners",
+   "classe": "adjetivo",
+   "forma": "nominativo singular neutro",
+   "def": [
+    "Inativo, parado, inerte; estagnado."
+   ],
+   "nota": "Concorda com «pondus»: um peso que não se move."
+  },
+  "congestaque": {
+   "lema": "congero",
+   "classe": "verbo",
+   "forma": "particípio perfeito passivo, nominativo plural neutro",
+   "def": [
+    "Juntar, reunir; acumular, amontoar."
+   ],
+   "nota": "Com o enclítico -que, «e». Concorda com «semina»: sementes amontoadas."
+  },
+  "eodem": {
+   "lema": "eodem",
+   "classe": "advérbio",
+   "def": [
+    "Para o mesmo lugar (ou para a mesma pessoa, a mesma coisa)."
+   ],
+   "nota": "Em «congesta eodem»: amontoadas no mesmo lugar."
+  },
+  "eodem#2": {
+   "lema": "idem",
+   "classe": "pronome demonstrativo",
+   "forma": "ablativo masculino singular",
+   "def": [
+    "O mesmo."
+   ],
+   "nota": "Concorda com «numero»: o mesmo número."
+  },
+  "non": {
+   "lema": "non",
+   "classe": "advérbio",
+   "def": [
+    "Não."
+   ],
+   "nota": "Em «non bene iunctarum», «não bem unidas» quer dizer mal unidas."
+  },
+  "non#2": {
+   "lema": "non",
+   "classe": "advérbio",
+   "def": [
+    "Não."
+   ],
+   "nota": "Em «ne non … foret»: duas negações, que se anulam; o sentido é «para que não deixasse de ser»."
+  },
+  "bene": {
+   "lema": "bene",
+   "classe": "advérbio",
+   "def": [
+    "Bem.",
+    "De modo conveniente, devidamente."
+   ]
+  },
+  "iunctarum": {
+   "lema": "iungo",
+   "classe": "verbo",
+   "forma": "particípio perfeito passivo, genitivo feminino plural",
+   "def": [
+    "Juntar, unir, atar."
+   ],
+   "nota": "Concorda com «rerum»: coisas mal unidas."
+  },
+  "discordia": {
+   "lema": "discors",
+   "classe": "adjetivo",
+   "forma": "nominativo plural neutro",
+   "def": [
+    "Discordante, sem harmonia."
+   ],
+   "nota": "Concorda com «semina»: sementes discordantes, que não combinam entre si. Não é o substantivo «discordia» do v. 60."
+  },
+  "discordia#2": {
+   "lema": "discordia",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Desacordo, dissensão, discórdia."
+   ],
+   "nota": "Substantivo, sujeito de «est»: a briga dos irmãos, isto é, dos ventos."
+  },
+  "semina": {
+   "lema": "semen",
+   "classe": "substantivo neutro",
+   "forma": "nominativo plural",
+   "def": [
+    "Semente (de plantas).",
+    "(Poético) semente dos elementos de outros corpos (do fogo, da água, das pedras etc.)."
+   ],
+   "nota": "Aqui, os germes ou elementos de que são feitas as coisas, ainda misturados."
+  },
+  "semina#2": {
+   "lema": "semen",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Semente (de plantas).",
+    "(Poético) semente dos elementos de outros corpos (do fogo, da água, das pedras etc.)."
+   ],
+   "nota": "Objeto de «retinebat»: os germes do céu que a terra ainda guardava."
+  },
+  "rerum": {
+   "lema": "res",
+   "classe": "substantivo feminino",
+   "forma": "genitivo plural",
+   "def": [
+    "Coisa, objeto."
+   ],
+   "nota": "Genitivo: «das coisas», de tudo o que existe."
+  },
+  "nullus": {
+   "lema": "nullus",
+   "classe": "adjetivo",
+   "forma": "nominativo masculino singular",
+   "def": [
+    "Nenhum, nem um só."
+   ],
+   "nota": "Concorda com «Titan»."
+  },
+  "adhuc": {
+   "lema": "adhuc",
+   "classe": "advérbio",
+   "def": [
+    "Até agora; ainda."
+   ]
+  },
+  "mundo": {
+   "lema": "mundus",
+   "classe": "substantivo masculino",
+   "forma": "dativo singular",
+   "def": [
+    "Universo, mundo, em especial o céu e os astros."
+   ],
+   "nota": "Dativo de «praebebat»: dava ao mundo."
+  },
+  "praebebat": {
+   "lema": "praebeo",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Oferecer, dar.",
+    "Fornecer, conceder."
+   ]
+  },
+  "lumina": {
+   "lema": "lumen",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Luz, fonte de luz.",
+    "(Poético) claridade, luz do dia."
+   ],
+   "nota": "Plural poético: a luz que o Sol dá."
+  },
+  "titan": {
+   "lema": "Titan",
+   "classe": "substantivo próprio masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "(Mitologia grega) um Titã."
+   ],
+   "nota": "O Titã é o Sol, chamado assim por ser filho do Titã Hipérion. Sujeito de «praebebat»."
+  },
+  "crescendo": {
+   "lema": "cresco",
+   "classe": "verbo",
+   "forma": "gerúndio, ablativo",
+   "def": [
+    "Crescer, aumentar.",
+    "Surgir, tornar-se visível."
+   ],
+   "nota": "Ablativo do gerúndio: «crescendo», ao crescer. Diz como a Lua refaz as pontas."
+  },
+  "reparabat": {
+   "lema": "reparo",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Renovar, restaurar.",
+    "Recuperar, refazer."
+   ]
+  },
+  "cornua": {
+   "lema": "cornu",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Chifre.",
+    "As pontas (os «chifres») da lua."
+   ],
+   "nota": "«Nova cornua»: as pontas novas da lua crescente."
+  },
+  "phoebe": {
+   "lema": "Phoebe",
+   "classe": "substantivo próprio feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Febe (deusa grega)."
+   ],
+   "nota": "Aqui, Febe é a Lua, personificada; sujeito de «reparabat»."
+  },
+  "circumfuso": {
+   "lema": "circumfundo",
+   "classe": "verbo",
+   "forma": "particípio perfeito passivo, ablativo masculino singular",
+   "def": [
+    "Derramar em volta; cercar (com um líquido)."
+   ],
+   "nota": "Concorda com «aere»: o ar espalhado ao redor, que envolve a terra."
+  },
+  "pendebat": {
+   "lema": "pendeo",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Pender, estar pendurado ou suspenso; flutuar."
+   ]
+  },
+  "aere": {
+   "lema": "aer",
+   "classe": "substantivo masculino",
+   "forma": "ablativo singular",
+   "def": [
+    "Ar.",
+    "(Filosofia) a camada inferior do ar, abaixo do éter."
+   ],
+   "nota": "Ablativo de lugar, depois de «in»."
+  },
+  "tellus": {
+   "lema": "tellus",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Terra, chão, solo.",
+    "A Terra, o globo, o mundo."
+   ]
+  },
+  "ponderibus": {
+   "lema": "pondus",
+   "classe": "substantivo neutro",
+   "forma": "ablativo plural",
+   "def": [
+    "Peso."
+   ],
+   "nota": "Ablativo de meio: equilibrada pelos seus pesos."
+  },
+  "librata": {
+   "lema": "libro",
+   "classe": "verbo",
+   "forma": "particípio perfeito passivo, nominativo feminino singular",
+   "def": [
+    "Equilibrar, pôr em equilíbrio."
+   ],
+   "nota": "Concorda com «tellus»."
+  },
+  "suis": {
+   "lema": "suus",
+   "classe": "pronome possessivo",
+   "forma": "ablativo plural neutro",
+   "def": [
+    "Seu, dele, dela, deles (refere-se ao sujeito)."
+   ],
+   "nota": "No v. 13, concorda com «ponderibus»; no v. 72, com «animalibus»."
+  },
+  "bracchia": {
+   "lema": "bracchium",
+   "classe": "substantivo neutro",
+   "forma": "acusativo plural",
+   "def": [
+    "Braço (do ombro aos dedos).",
+    "Braço do mar."
+   ],
+   "nota": "Os «braços» de Anfitrite são o mar, que se estende pela borda das terras."
+  },
+  "longo": {
+   "lema": "longus",
+   "classe": "adjetivo",
+   "forma": "ablativo masculino singular",
+   "def": [
+    "Longo, comprido, extenso."
+   ],
+   "nota": "Concorda com «margine»."
+  },
+  "margine": {
+   "lema": "margo",
+   "classe": "substantivo masculino",
+   "forma": "ablativo singular",
+   "def": [
+    "Borda, margem, beira."
+   ],
+   "nota": "A borda das terras é a costa, onde o mar encontra a terra."
+  },
+  "terrarum": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "forma": "genitivo plural",
+   "def": [
+    "Terra firme, em oposição às partes cobertas de água.",
+    "Terra, país, região."
+   ],
+   "nota": "Genitivo, complemento de «margine»."
+  },
+  "porrexerat": {
+   "lema": "porrigo",
+   "classe": "verbo",
+   "forma": "mais-que-perfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Estender, esticar."
+   ],
+   "nota": "Sujeito: «Amphitrite»; objeto: «bracchia»."
+  },
+  "amphitrite": {
+   "lema": "Amphitrite",
+   "classe": "substantivo próprio feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Anfitrite, ninfa do mar, esposa de Posêidon (Netuno)."
+   ],
+   "nota": "Anfitrite está pelo mar (metonímia).",
+   "wiki": null
+  },
+  "utque": {
+   "lema": "ut",
+   "classe": "advérbio",
+   "def": [
+    "Como, do modo que."
+   ],
+   "nota": "Com o enclítico -que, «e». Correlato de «sic» (vv. 15–16 e 45–47): «assim como … assim»."
+  },
+  "illic": {
+   "lema": "illic",
+   "classe": "advérbio",
+   "def": [
+    "Ali, naquele lugar."
+   ]
+  },
+  "pontus": {
+   "lema": "pontus",
+   "classe": "substantivo masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "O mar, o mar profundo."
+   ]
+  },
+  "aer": {
+   "lema": "aer",
+   "classe": "substantivo masculino",
+   "forma": "nominativo singular",
+   "def": [
+    "Ar.",
+    "(Filosofia) a camada inferior do ar, abaixo do éter."
+   ],
+   "nota": "No v. 15, um dos elementos misturados no caos, junto com a terra e o mar."
+  },
+  "sic": {
+   "lema": "sic",
+   "classe": "advérbio",
+   "def": [
+    "Assim, deste modo."
+   ],
+   "nota": "Muitas vezes responde a «ut» («utque … sic»), como nos vv. 15–16 e 45–47."
+  },
+  "instabilis": {
+   "lema": "instabilis",
+   "classe": "adjetivo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Instável, que não firma.",
+    "Inconstante, mutável."
+   ],
+   "nota": "Concorda com «tellus»."
+  },
+  "innabilis": {
+   "lema": "innabilis",
+   "classe": "adjetivo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Em que não se pode nadar."
+   ],
+   "nota": "Concorda com «unda»."
+  },
+  "unda": {
+   "lema": "unda",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Onda.",
+    "(Poético) água, águas."
+   ],
+   "nota": "Aqui, o sentido poético: a água."
+  },
+  "lucis": {
+   "lema": "lux",
+   "classe": "substantivo feminino",
+   "forma": "genitivo singular",
+   "def": [
+    "Luz (do sol, das estrelas etc.)."
+   ],
+   "nota": "Genitivo regido por «egens»: sem luz."
+  },
+  "egens": {
+   "lema": "egens",
+   "classe": "adjetivo",
+   "forma": "nominativo singular",
+   "def": [
+    "Necessitado, pobre.",
+    "Desprovido, sem."
+   ],
+   "nota": "Particípio de «egeo», que pede o genitivo: «lucis egens», desprovido de luz."
+  },
+  "nulli": {
+   "lema": "nullus",
+   "classe": "adjetivo",
+   "forma": "dativo singular",
+   "def": [
+    "Nenhum, nem um só."
+   ],
+   "nota": "Dativo: «para nenhuma (coisa)»; o substantivo não aparece."
+  },
+  "sua": {
+   "lema": "suus",
+   "classe": "pronome possessivo",
+   "forma": "nominativo feminino singular",
+   "def": [
+    "Seu, dele, dela, deles (refere-se ao sujeito)."
+   ],
+   "nota": "Concorda com «forma»."
+  },
+  "sua#2": {
+   "lema": "suus",
+   "classe": "pronome possessivo",
+   "forma": "ablativo feminino singular",
+   "def": [
+    "Seu, dele, dela, deles (refere-se ao sujeito)."
+   ],
+   "nota": "Concorda com «gravitate»."
+  },
+  "sua#3": {
+   "lema": "suus",
+   "classe": "pronome possessivo",
+   "forma": "acusativo plural neutro",
+   "def": [
+    "Seu, dele, dela, deles (refere-se ao sujeito)."
+   ],
+   "nota": "Concorda com «flamina»; «quisque», cada um, é o sujeito a que «sua» se refere."
+  },
+  "forma": {
+   "lema": "forma",
+   "classe": "substantivo feminino",
+   "forma": "nominativo singular",
+   "def": [
+    "Forma, figura, aparência."
+   ],
+   "nota": "Sujeito de «manebat»."
+  },
+  "manebat": {
+   "lema": "maneo",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ficar, permanecer.",
+    "Continuar, durar."
+   ]
+  },
+  "obstabatque": {
+   "lema": "obsto",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Pôr-se diante, impedir, opor-se, obstruir."
+   ],
+   "nota": "Com o enclítico -que, «e». Pede o dativo («aliis»): uma coisa se opunha às outras."
+  },
+  "aliis": {
+   "lema": "alius",
+   "classe": "pronome indefinido",
+   "forma": "dativo plural neutro",
+   "def": [
+    "Outro, diferente."
+   ],
+   "nota": "Dativo regido por «obstabat»."
+  },
+  "aliud": {
+   "lema": "alius",
+   "classe": "pronome indefinido",
+   "forma": "nominativo singular neutro",
+   "def": [
+    "Outro, diferente."
+   ],
+   "nota": "Sujeito de «obstabat»: uma coisa, em oposição às outras."
+  },
+  "quia": {
+   "lema": "quia",
+   "classe": "conjunção",
+   "def": [
+    "Porque, visto que."
+   ]
+  },
+  "corpore": {
+   "lema": "corpus",
+   "classe": "substantivo neutro",
+   "forma": "ablativo singular",
+   "def": [
+    "Corpo.",
+    "Substância, matéria (física, perceptível aos sentidos)."
+   ],
+   "nota": "Ablativo regido por «in», com «uno»: num mesmo corpo."
+  },
+  "uno": {
+   "lema": "unus",
+   "classe": "adjetivo",
+   "forma": "ablativo neutro singular",
+   "def": [
+    "Um, único."
+   ],
+   "nota": "Concorda com «corpore»."
+  },
+  "frigida": {
+   "lema": "frigidus",
+   "classe": "adjetivo",
+   "forma": "nominativo plural neutro",
+   "def": [
+    "Frio, fresco, gelado."
+   ],
+   "nota": "Neutro plural usado como substantivo: «as coisas frias». Sujeito de «pugnabant», como os pares seguintes (quente × frio, úmido × seco etc.)."
+  },
+  "pugnabant": {
+   "lema": "pugno",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Lutar, combater.",
+    "Opor-se, estar em conflito."
+   ]
+  },
+  "calidis": {
+   "lema": "calidus",
+   "classe": "adjetivo",
+   "forma": "dativo plural neutro",
+   "def": [
+    "Quente, cálido."
+   ],
+   "nota": "Neutro plural usado como substantivo: «as coisas quentes». Dativo regido por «pugnabant»."
+  },
+  "umentia": {
+   "lema": "umens",
+   "classe": "adjetivo",
+   "forma": "nominativo plural neutro",
+   "def": [
+    "Que está molhado; úmido."
+   ],
+   "nota": "Neutro plural usado como substantivo: «as coisas úmidas». Particípio de «umeo»."
+  },
+  "siccis": {
+   "lema": "siccus",
+   "classe": "adjetivo",
+   "forma": "dativo plural neutro",
+   "def": [
+    "Seco."
+   ],
+   "nota": "Neutro plural usado como substantivo: «as coisas secas». Dativo regido por «pugnabant»."
+  },
+  "mollia": {
+   "lema": "mollis",
+   "classe": "adjetivo",
+   "forma": "nominativo plural neutro",
+   "def": [
+    "Mole, macio, delicado ao toque.",
+    "Flexível, maleável."
+   ],
+   "nota": "Neutro plural usado como substantivo: «as coisas moles»."
+  },
+  "cum": {
+   "lema": "cum",
+   "classe": "preposição",
+   "def": [
+    "Com, junto com (com ablativo)."
+   ]
+  },
+  "cum#2": {
+   "lema": "cum",
+   "classe": "conjunção",
+   "def": [
+    "Quando, depois que (com subjuntivo).",
+    "Porque, visto que.",
+    "Embora."
+   ],
+   "nota": "Conjunção com o subjuntivo: o sentido (causa, concessão ou tempo) vem do contexto."
+  },
+  "cum#3": {
+   "lema": "cum",
+   "classe": "conjunção",
+   "def": [
+    "Quando (com indicativo)."
+   ],
+   "nota": "Em «vix … cum …», «mal … quando»: a segunda oração diz o que aconteceu logo em seguida."
+  },
+  "duris": {
+   "lema": "durus",
+   "classe": "adjetivo",
+   "forma": "ablativo plural neutro",
+   "def": [
+    "Duro; áspero (ao toque)."
+   ],
+   "nota": "Neutro plural usado como substantivo: «as coisas duras». Ablativo regido por «cum»."
+  },
+  "sine": {
+   "lema": "sine",
+   "classe": "preposição",
+   "def": [
+    "Sem (com ablativo)."
+   ]
+  },
+  "pondere": {
+   "lema": "pondus",
+   "classe": "substantivo neutro",
+   "forma": "ablativo singular",
+   "def": [
+    "Peso."
+   ],
+   "nota": "Ablativo regido por «sine». Nos vv. 52–53, ablativo de medida: «de peso», «em peso»."
+  },
+  "habentia": {
+   "lema": "habeo",
+   "classe": "verbo",
+   "forma": "particípio presente, nominativo plural neutro",
+   "def": [
+    "Ter, possuir.",
+    "Possuir (qualidades)."
+   ],
+   "nota": "Neutro plural usado como substantivo: «as coisas que têm peso», em oposição às «sine pondere», as que não têm."
+  }
+ },
+ "ocorrencias": {
+  "6.6": "in#2",
+  "12.4": "in#2",
+  "18.6": "in#2",
+  "27.6": "in#2",
+  "2.7": "et#2",
+  "71.3": "toto#2",
+  "86.7": "vultus#2",
+  "68.3": "quicquam#2",
+  "20.7": "pondus#2",
+  "47.6": "eodem#2",
+  "34.4": "non#2",
+  "60.6": "discordia#2",
+  "81.4": "semina#2",
+  "30.5": "sua#2",
+  "59.2": "sua#3",
+  "59.1": "cum#2",
+  "84.2": "cum#2",
+  "70.1": "cum#3"
+ }
+}

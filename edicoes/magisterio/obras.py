@@ -22,6 +22,14 @@ DOCS = {
         '14 de março de 1937', 1937, 'alemão', 'de', 'AAS 29 (1937), p. 145-167',
         'https://www.vatican.va/content/pius-xi/de/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html',
         'https://www.vatican.va/archive/aas/documents/AAS-29-1937-ocr.pdf'),
+    'ad-catholici-sacerdotii': ('Ad Catholici Sacerdotii', 'Sobre o sacerdócio católico', 'Carta encíclica', 'Pio XI',
+        '20 de dezembro de 1935', 1935, 'latim', 'la', 'AAS 28 (1936), p. 5-53',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-28-1936-ocr.pdf'),
+    'non-abbiamo-bisogno': ('Non Abbiamo Bisogno', 'Sobre a Ação Católica Italiana', 'Carta encíclica', 'Pio XI',
+        '29 de junho de 1931', 1931, 'italiano', 'it', 'AAS 23 (1931), p. 285-312',
+        'https://www.vatican.va/content/pius-xi/it/encyclicals/documents/hf_p-xi_enc_19310629_non-abbiamo-bisogno.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-23-1931-ocr.pdf'),
     'quadragesimo-anno': ('Quadragesimo Anno', 'Sobre a restauração da ordem social', 'Carta encíclica', 'Pio XI',
         '15 de maio de 1931', 1931, 'latim', 'la', 'AAS 23 (1931), p. 177-228',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html',
@@ -117,6 +125,13 @@ ABERTURA = {  # id: o começo da apresentação, quando «<tipo> de <papa>, de <
 }
 SEM_NOTAS = {'lamentabili'}  # documentos sem notas próprias
 CORRECOES = {  # id: frase sobre as correções feitas no texto de base
+    'ad-catholici-sacerdotii': ('Os erros de digitalização do site (uns cento e cinquenta no texto e trinta nas notas) foram '
+                                'corrigidos pelas _Acta_, e também seis referências bíblicas erradas das notas. A página 35 das '
+                                '_Acta_ falta no fac-símile do site: nesse trecho (do § 57 ao § 60) o texto do site é o único '
+                                'testemunho, e só se corrigiu o erro evidente.'),
+    'non-abbiamo-bisogno': ('O site moderniza a grafia das _Acta_ (por exemplo, _perché_ por _perchè_), e ela ficou; onde ele '
+                            'muda uma palavra, seguimos as _Acta_. Uma referência bíblica errada, também nas _Acta_, foi '
+                            'corrigida (nota 4).'),
     'mit-brennender-sorge': ('O texto do site é de outra composição que não a das _Acta_: onde ele perdia uma frase '
                              '(§ 35) e onde tinha erros evidentes de digitação, seguimos as _Acta_.'),
     'casti-connubii': ('Os erros de digitalização do site (mais de sessenta) foram corrigidos pelas _Acta_, cuja '

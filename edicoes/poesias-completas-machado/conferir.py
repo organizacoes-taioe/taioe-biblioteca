@@ -100,6 +100,10 @@ def decidir(p):
         return None
     # troca
     wsw, ocw = palavras(ws), palavras(oc)
+    if not wsw and not ocw and re.fullmatch(r"[A-ZÀ-Ý' ,.]+", p.get('ctx_ws', '').strip() or 'x') and len(p['ctx_ws']) < 40:
+        return 'ws'   # pontuação do nome de quem fala (CLEON.) ou de um título em caixa alta
+    if re.fullmatch(r'[<>/p\s]+', ws) and not ocw:
+        return ''
     if len(wsw) == len(ocw) == 1 and len(ws.split()) == len(oc.split()) == 1:
         a, b = wsw[0], ocw[0]
         if mesma_palavra(a, b):

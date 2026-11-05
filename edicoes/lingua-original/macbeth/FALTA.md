@@ -18,4 +18,4 @@ Estado:
 - [ ] Ato IV
 - [ ] Ato V
 - [ ] revisão das notas difíceis (principal)
-- [ ] `revisao-macbeth.json` (tradução ao lado)
+- [x] `edicoes/lingua-original/revisao-macbeth.json` (tradução ao lado: sem, recomendado)

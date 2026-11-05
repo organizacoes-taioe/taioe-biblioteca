@@ -1,0 +1,159 @@
+{
+ "id": "fables-la-fontaine",
+ "rotulo": "Fables (seleção), de La Fontaine: texto e traduções ao lado",
+ "url": "/biblioteca/jean-de-la-fontaine/",
+ "escolhas": [
+  {
+   "id": "corvo-bocage",
+   "titulo": "«O corvo e a raposa» de Bocage fica ao lado do original, mesmo com o fim acrescentado?",
+   "ref": "Le Corbeau et le Renard (I, 2), botão «Português»",
+   "contexto": "Bocage traduz a fábula em redondilhas, fiel até a lição da raposa; depois acrescenta um verso («Tem destas para teu uso») e uma quadra inteira com a fala do corvo («Velhaca! Deixou-me em branco…»), no lugar dos dois versos finais de La Fontaine («Le Corbeau honteux et confus / Jura, mais un peu tard, qu’on ne l’y prendrait plus»). A outra tradução em domínio público ao alcance, a de Filinto Elísio (1817), é em verso solto, sem rima, com vocabulário raro.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica a de Bocage, como está",
+     "nota": "Boa de verso e fiel em quase tudo; a página «Sobre» avisa do acréscimo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Sem tradução ao lado",
+     "nota": "O Corvo fica só no original, como as outras nove fábulas sem tradução boa."
+    }
+   ]
+  },
+  {
+   "id": "filinto",
+   "titulo": "As nove fábulas sem tradução ao lado continuam sem, em vez de levar a de Filinto Elísio?",
+   "ref": "I, 3; I, 5; I, 9; I, 10; I, 22; II, 11; V, 9; VI, 10; VII, 9",
+   "contexto": "Filinto Elísio traduziu as Fábulas inteiras (Obras completas, t. VI, Paris, 1817), mas em verso solto, sem as rimas de La Fontaine, com os nomes dos falantes entre parênteses, como em teatro, e palavras raras ou antigas («auso», «téqui», «terríbil», «vósses», «Já o ponho em pratos limpos»). Curvo Semedo (1843) se declara «tradução livre» e reescreve as fábulas; a do Barão de Paranapiacaba (1883–1886), fiel de sentido, não tem cópia digital ao alcance. A coletânea luso-brasileira de 1886 também não.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam sem tradução",
+     "nota": "Só vai ao lado tradução boa; o original tem nota em cada palavra.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Pôr a de Filinto Elísio nas nove",
+     "nota": "Tradução completa e em domínio público, mas pesada; um exemplo vai no contexto."
+    }
+   ]
+  },
+  {
+   "id": "bonjour",
+   "titulo": "O v. 5 do Corvo fica «Et bonjour, Monsieur du Corbeau», como nas edições de 1668 e 1678?",
+   "ref": "Le Corbeau et le Renard (I, 2), v. 5",
+   "contexto": "As edições do autor trazem «Et bonjour»; muitas edições escolares do séc. XIX em diante trazem «Hé ! bonjour», a forma que muita gente decorou.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Et bonjour», como o autor",
+     "nota": "",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Hé ! bonjour», a forma mais conhecida",
+     "nota": ""
+    }
+   ]
+  },
+  {
+   "id": "encor",
+   "titulo": "No v. 21 do Lobo e o Cordeiro fica «je tète encor ma mère», como pede o metro?",
+   "ref": "Le Loup et l’Agneau (I, 10), v. 21",
+   "contexto": "A edição de 1678 traz «encore», que dá ao verso uma sílaba a mais (onze); as edições modernas e a de 1874 trazem «encor», que dá o decassílabo. La Fontaine usa as duas formas conforme o metro.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«encor», pelo metro",
+     "nota": "",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«encore», como em 1678",
+     "nota": ""
+    }
+   ]
+  },
+  {
+   "id": "maiusculas",
+   "titulo": "Os personagens ficam com maiúscula, como em 1678 («Maître Corbeau», «la Cigale», «le Loup»)?",
+   "ref": "todas as fábulas",
+   "contexto": "Em 1678 os animais e as figuras das fábulas levam maiúscula, como nomes próprios; as edições escolares do séc. XIX (a de 1874, por exemplo) põem tudo em minúscula («maître corbeau»). Os outros nomes comuns que 1678 escreve com maiúscula (ortolans, tapis, marquis, pages) ficaram em minúscula.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Maiúscula nos personagens, como em 1678",
+     "nota": "É o uso das boas edições de hoje.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Tudo em minúscula, como em 1874",
+     "nota": ""
+    }
+   ]
+  },
+  {
+   "id": "travessoes",
+   "titulo": "As falas continuam sem travessão, como em 1678?",
+   "ref": "todas as fábulas (sobretudo I, 3; I, 5; I, 10)",
+   "contexto": "Em 1678 as falas correm sem marca nenhuma: «Nenni. M’y voici donc ? Point du tout. M’y voilà ?». As edições escolares põem um travessão a cada troca de falante («— Nenni. — M’y voici donc ? — Point du tout.»). As notas já dizem quem fala onde é difícil de ver.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Sem travessão, como em 1678",
+     "nota": "",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Com travessão a cada troca de falante",
+     "nota": "Mais fácil de seguir; é acréscimo dos editores."
+    }
+   ]
+  },
+  {
+   "id": "rat",
+   "titulo": "O v. 18 do Rato da cidade fica «Rat en campagne aussitôt», como em 1678?",
+   "ref": "Le Rat de ville et le Rat des champs (I, 9), v. 18",
+   "contexto": "A edição de 1678 traz «Rat» (o Rato de novo em ação); a de 1874 e várias outras trazem «Rats» (os dois ratos voltam à mesa). O sentido quase não muda.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Rat», como em 1678",
+     "nota": "",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Rats», como em 1874",
+     "nota": ""
+    }
+   ]
+  },
+  {
+   "id": "aout",
+   "titulo": "«l’Oust» de 1678 (a colheita) fica na grafia de hoje, «l’août»?",
+   "ref": "La Cigale et la Fourmi (I, 1), v. 13; Le Laboureur et ses enfants (V, 9), v. 10",
+   "contexto": "A palavra é a mesma do mês de agosto, aqui no sentido antigo de «colheita»; pronuncia-se «u». A grafia de hoje é «août»; muitas edições escrevem «l’oût», para lembrar a pronúncia antiga, e a de 1874 traz «l’oût».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«l’août», a grafia de hoje",
+     "nota": "A nota explica o sentido de colheita.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«l’oût», como em muitas edições",
+     "nota": ""
+    }
+   ]
+  }
+ ]
+}

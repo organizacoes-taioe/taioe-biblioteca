@@ -241,3 +241,103 @@ if __name__ == '__main__':
                 prancha(p['id'], falta[k:k + 14], os.path.join(B, 'pranchas', '%s-%02d.png' % (p['id'], k // 14 + 1)))
             print('%-34s %4d pontos, %4d automáticos, %4d para as imagens' % (p['id'], len(pts), sum(q['auto'] is not None for q in pts), len(falta)))
     print(tot)
+
+
+# ------------------------------------------------------------------ aplicar: o texto de 1901 (grafia antiga)
+
+def aplicar(p, dec):
+    pts, W, O, (w0, w1) = pontos(p)
+    porop = {(q['i'][0], q['j'][0]): q for q in pts}
+    wsl = R.ws_texto(p['ws'], *p['ws_pag']).split('\n')
+    linhas = {}
+    erros, mudancas, duvidas = [], [], []
+    a = [R.norm(w) for w, _ in W]
+    b = [R.norm(o['t']) for o in O]
+    sm = SequenceMatcher(None, a, b, autojunk=False)
+    ult = 0
+
+    def por(k, toks):
+        linhas.setdefault(k, []).extend(toks)
+
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op == 'equal':
+            for i in range(i1, i2):
+                por(W[i][1], [W[i][0]]); ult = W[i][1]
+            continue
+        q = porop.get((i1, j1))
+        ii = [i for i in range(i1, i2) if w0 <= i < w1]
+        ks = sorted({W[i][1] for i in ii}) or [W[i1][1] if i1 < len(W) else ult]
+        if q is None:
+            continue
+        chave = '%s:%d' % (p['id'], q['n'])
+        v = dec.get(chave, q['auto'])
+        if v == 'cab':
+            v = ''
+        if v is None or v == '?':
+            duvidas.append(chave)
+            por(ks[0], ['⟦?%d %s‖%s⟧' % (q['n'], q['ws'], q['ocr'])])
+            for k in ks[1:]:
+                por(k, [])
+            ult = ks[-1]
+            continue
+        if v in ('ws', 'ws!'):
+            for i in ii:
+                por(W[i][1], [W[i][0]])
+            if v == 'ws!':
+                erros.append((chave, q['ocr'], q['ws'], q['ctx_ws']))
+        elif v == 'ocr':
+            grupos, ant = [], None
+            for o in O[j1:j2]:
+                if o['linha'] != ant:
+                    grupos.append([]); ant = o['linha']
+                grupos[-1].append(o['t'])
+            for n, g in enumerate(grupos):
+                por(ks[n] if n < len(ks) else ks[-1] + 0.01 * (n - len(ks) + 1), g)
+            for k in ks:
+                por(k, [])
+            if palavras(q['ws']) != palavras(q['ocr']):
+                mudancas.append((chave, q['ws'], q['ocr'], q['ctx_ws']))
+        else:
+            txt = v[1:] if v.startswith('!') else v
+            if v.startswith('!'):
+                erros.append((chave, q['ocr'], txt, q['ctx_ws']))
+            elif palavras(q['ws']) != palavras(txt):
+                mudancas.append((chave, q['ws'], txt, q['ctx_ws']))
+            pedacos = [x.strip() for x in txt.split(' / ')] if txt else []
+            for n, ped in enumerate(pedacos):
+                por(ks[n] if n < len(ks) else ks[-1] + 0.01 * (n - len(ks) + 1), R.TOK.findall(ped))
+            for k in ks:
+                por(k, [])
+        ult = ks[-1]
+    out = []
+    for k in sorted(set(range(len(wsl))) | set(linhas)):
+        if k in linhas:
+            l = R.juntar(linhas[k]) if linhas[k] else ''
+            if l:
+                if re.match(r'[,.;:!?»]', l) and out and out[-1]:
+                    m = re.match(r'([,.;:!?»]+)\s*(.*)', l)
+                    out[-1] += m.group(1); l = m.group(2)
+                if l:
+                    out.append(l)
+        elif not wsl[int(k)].strip():
+            out.append('')
+    t = re.sub(r'\n{3,}', '\n\n', '\n'.join(out)).strip()
+    t = t.replace(' ⟧', '⟧')
+    return t, erros, mudancas, duvidas
+
+
+def comando_aplicar(P, so, dec):
+    rel = {}
+    os.makedirs(os.path.join(AQUI, 'base'), exist_ok=True)
+    for p in P:
+        if not p['ws'] or (so and p['id'] not in so):
+            continue
+        t, er, mu, du = aplicar(p, dec)
+        open(os.path.join(AQUI, 'base', p['id'] + '.txt'), 'w', encoding='utf-8').write(t + '\n')
+        rel[p['id']] = {'erros': er, 'mudancas': mu, 'duvidas': du}
+        print('%-34s %3d erros de 1901, %3d mudanças sobre a 1ª ed., %2d dúvidas' % (p['id'], len(er), len(mu), len(du)))
+    json.dump(rel, open(os.path.join(AQUI, 'relatorio-1901.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
+
+if __name__ == '__main__' and sys.argv[1] == 'aplicar':
+    comando_aplicar(json.load(open(os.path.join(AQUI, 'poemas.json'), encoding='utf-8')), set(sys.argv[2:]), carregar_decisoes())

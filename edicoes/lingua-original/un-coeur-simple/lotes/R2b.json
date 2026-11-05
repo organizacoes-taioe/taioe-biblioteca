@@ -1829,6 +1829,487 @@
    "def": [
     "Fornecer uma coisa sob a condição de que quem a recebe a devolverá; permitir o uso temporário de uma coisa: emprestar."
    ]
+  },
+  "condition": {
+   "lema": "condition",
+   "classe": "substantivo feminino",
+   "def": [
+    "Cláusula, encargo ou obrigação mediante a qual se faz alguma coisa: condição."
+   ],
+   "nota": "«Sous la condition de»: com a condição de."
+  },
+  "soin": {
+   "lema": "soin",
+   "classe": "substantivo masculino",
+   "def": [
+    "Aplicação do espírito a fazer algo; atenção em zelar pelo bom estado de alguma coisa, pelo bem de alguém: cuidado."
+   ],
+   "nota": "«Avoir soin de»: ter cuidado com, zelar por."
+  },
+  "mauvaise": {
+   "lema": "mauvais",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Vicioso, defeituoso, em se tratando de coisa concreta ou abstrata: mau, ruim."
+   ]
+  },
+  "kilomètres": {
+   "lema": "kilomètre",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "(Unidades) Unidade de medida de comprimento do Sistema Internacional, que vale mil metros e tem o símbolo km: quilômetro."
+   ]
+  },
+  "exigèrent": {
+   "lema": "exiger",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do plural",
+   "def": [
+    "Necessitar de maneira imperiosa: exigir."
+   ],
+   "nota": "Aqui, no sentido de «levar, custar»: os oito quilômetros exigiram duas horas de viagem."
+  },
+  "enfonçaient": {
+   "lema": "enfoncer",
+   "wiki": "en:French",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "(Intransitivo) Afundar."
+   ],
+   "nota": "Em 138.3, os cavalos afundavam na lama; em 373.25, «s’enfonçaient» (pronominal): os olhos afundavam-se, ficavam fundos."
+  },
+  "paturons": {
+   "lema": "paturon",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "(Hipologia) Parte da parte baixa da perna do cavalo, compreendida entre o boleto e a coroa: quartela."
+   ]
+  },
+  "boue": {
+   "lema": "boue",
+   "classe": "substantivo feminino",
+   "def": [
+    "Lama das ruas e dos caminhos, formada de uma mistura mais ou menos consistente de terra, areia, matéria orgânica e água: lama."
+   ]
+  },
+  "sortir": {
+   "lema": "sortir",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "Passar de dentro para fora: sair."
+   ],
+   "nota": "«Pour en sortir»: para sair dela (da lama)."
+  },
+  "brusques": {
+   "lema": "brusque",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Que age por solavancos violentos: brusco."
+   ]
+  },
+  "mouvements": {
+   "lema": "mouvement",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Transporte de um corpo, ou de uma de suas partes, de um lugar, de uma posição a outra: movimento."
+   ]
+  },
+  "hanches": {
+   "lema": "hanche",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "(Anatomia) Parte do corpo humano em que se encaixa o alto da coxa: quadril."
+   ]
+  },
+  "hanches#2": {
+   "lema": "hanche",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "(Hipismo) Trem traseiro de um cavalo, dos rins ao jarrete: anca."
+   ]
+  },
+  "butaient": {
+   "lema": "buter",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Tropeçar, chocar-se contra um corpo saliente que se encontra no caminho."
+   ]
+  },
+  "ornières": {
+   "lema": "ornière",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Marca funda que as rodas de um veículo deixam nos caminhos ou nos terrenos encharcados: rodeira, sulco."
+   ]
+  },
+  "sauter": {
+   "lema": "sauter",
+   "classe": "verbo",
+   "def": [
+    "Lançar-se no ar, seja para cair no mesmo lugar, seja para transpor um espaço: saltar."
+   ]
+  },
+  "jument": {
+   "lema": "jument",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Cavalos) Fêmea do cavalo: égua."
+   ]
+  },
+  "certains": {
+   "lema": "certain",
+   "classe": "adjetivo indefinido",
+   "forma": "masculino plural",
+   "def": [
+    "(Por antífrase) Que é para determinar; que não se quer determinar: certo, determinado."
+   ],
+   "nota": "«À de certains endroits»: em certos lugares, em alguns pontos do caminho."
+  },
+  "endroits": {
+   "lema": "endroit",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Parte determinada de um espaço: lugar, ponto."
+   ]
+  },
+  "arrêtait": {
+   "lema": "arrêter",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Impedir alguém ou algo de continuar seu deslocamento ou seu funcionamento: parar, deter."
+   ],
+   "nota": "«S’arrêtait»: parava; em 468.11, transitivo: «elle arrêtait les passants», ela detinha os passantes."
+  },
+  "patiemment": {
+   "lema": "patiemment",
+   "classe": "advérbio",
+   "def": [
+    "Com paciência: pacientemente."
+   ]
+  },
+  "remît": {
+   "lema": "remettre",
+   "classe": "verbo",
+   "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+   "def": [
+    "Pôr de novo."
+   ],
+   "nota": "«Se remettre en marche»: pôr-se de novo a caminho. O imperfeito do subjuntivo vem depois de «attendre que»."
+  },
+  "marche": {
+   "lema": "marche",
+   "classe": "substantivo feminino",
+   "def": [
+    "Movimento de um veículo ou de uma tropa em deslocamento: marcha."
+   ],
+   "nota": "«En marche»: em marcha, a caminho."
+  },
+  "marche#2": {
+   "lema": "marche",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Arquitetura) Superfície plana elevada que constitui um dos degraus de uma escada, sobre a qual se põe o pé para subir ou descer: degrau."
+   ]
+  },
+  "parlait": {
+   "lema": "parler",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Usar a faculdade da linguagem; proferir, pronunciar, articular palavras: falar."
+   ],
+   "nota": "«Parler de»: falar de, tratar de um assunto (140.12, 273.5)."
+  },
+  "parlait#2": {
+   "lema": "parler",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Dirigir a palavra, ter uma conversa: falar com, conversar."
+   ]
+  },
+  "bordaient": {
+   "lema": "border",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Estender-se ao longo de certas coisas e servir-lhes como de borda: margear, orlar."
+   ]
+  },
+  "ajoutant": {
+   "lema": "ajouter",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Pôr a mais: acrescentar."
+   ]
+  },
+  "ajoutant#2": {
+   "lema": "ajouter",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Dizer a mais: acrescentar."
+   ],
+   "nota": "«En ajoutant : « Voici. »»: acrescentando: «Aqui está.»"
+  },
+  "réflexions": {
+   "lema": "réflexion",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Pensamento que resulta da ação do espírito que reflete: reflexão."
+   ]
+  },
+  "morales": {
+   "lema": "moral",
+   "classe": "adjetivo",
+   "forma": "feminino plural",
+   "def": [
+    "Que diz respeito aos costumes: moral."
+   ]
+  },
+  "ainsi": {
+   "lema": "ainsi",
+   "classe": "advérbio",
+   "def": [
+    "Dessa maneira; desse modo: assim."
+   ],
+   "nota": "«C’est ainsi que…»: é assim que…"
+  },
+  "ainsi#2": {
+   "lema": "ainsi",
+   "classe": "advérbio",
+   "def": [
+    "Por exemplo."
+   ],
+   "nota": "No começo da frase, «ainsi» introduz um exemplo ou uma consequência: assim, por exemplo."
+  },
+  "passait": {
+   "lema": "passer",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ir de um lugar a outro, atravessar um espaço: passar."
+   ]
+  },
+  "passait#2": {
+   "lema": "passer pour",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer-se tomar por; parecer; aparentar: passar por."
+   ],
+   "nota": "«Celui de Caen passait pour le meilleur»: o de Caen era tido como o melhor."
+  },
+  "fenêtres": {
+   "lema": "fenêtre",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "(Arquitetura) Abertura feita em certas partes de um edifício para dar luz e ar ao interior: janela."
+   ]
+  },
+  "entourées": {
+   "lema": "entourer",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino plural",
+   "def": [
+    "Pôr ou dispor em volta; estar ou ficar em volta de: cercar, rodear."
+   ]
+  },
+  "capucines": {
+   "lema": "capucine",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "(Plantas) Nome usual de várias plantas do gênero Tropaeolum: capuchinha."
+   ]
+  },
+  "haussement": {
+   "lema": "haussement",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Em particular) Movimento que se faz com os ombros para marcar indignação ou desprezo."
+   ],
+   "nota": "«Haussement d’épaules»: o ato de dar de ombros."
+  },
+  "épaules": {
+   "lema": "épaule",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "(Anatomia) Parte do corpo que liga ao pescoço a articulação do braço no ser humano e do membro anterior nos quadrúpedes: ombro."
+   ]
+  },
+  "lieu": {
+   "lema": "lieu",
+   "classe": "substantivo masculino",
+   "def": [
+    "Porção do espaço, seja tomada em si mesma, seja considerada em relação ao que a ocupa: lugar."
+   ],
+   "nota": "«Au lieu de»: em vez de."
+  },
+  "entendit": {
+   "lema": "entendre",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Perceber um som: ouvir."
+   ]
+  },
+  "trottaient": {
+   "lema": "trotter",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Ir a trote: trotar."
+   ]
+  },
+  "enfilèrent": {
+   "lema": "enfiler",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do plural",
+   "def": [
+    "(Familiar) Engajar-se em: enveredar por."
+   ]
+  },
+  "sentier": {
+   "lema": "sentier",
+   "classe": "substantivo masculino",
+   "def": [
+    "Caminho estreito através dos campos, dos bosques etc.: trilha, vereda."
+   ]
+  },
+  "barrière": {
+   "lema": "barrière",
+   "classe": "substantivo feminino",
+   "def": [
+    "Conjunto de várias peças de madeira ou de outros materiais, que serve para fechar uma passagem: cancela, barreira."
+   ],
+   "nota": "Em 245.21, figurado: uma barreira entre as duas, uma distância."
+  },
+  "tourna": {
+   "lema": "tourner",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Mover em círculo, por movimento circular ou em linha curva, em torno de um eixo de rotação: girar."
+   ],
+   "nota": "«Une barrière tourna»: uma cancela girou (sobre o eixo) e abriu-se."
+  },
+  "garçons": {
+   "lema": "garçon",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Criança ou adolescente do sexo masculino, por oposição a «fille»: menino, rapaz."
+   ]
+  },
+  "parurent": {
+   "lema": "paraître",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do plural",
+   "def": [
+    "Ser exposto à vista; fazer-se ou deixar-se ver; manifestar-se: aparecer."
+   ]
+  },
+  "purin": {
+   "lema": "purin",
+   "classe": "substantivo masculino",
+   "def": [
+    "Parte líquida do esterco: chorume."
+   ]
+  },
+  "apercevant": {
+   "lema": "apercevoir",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Começar a ver: avistar, perceber."
+   ]
+  },
+  "prodigua": {
+   "lema": "prodiguer",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Dar, gastar com profusão: prodigalizar."
+   ],
+   "nota": "«Prodiguer les démonstrations de joie»: fazer grandes demonstrações de alegria."
+  },
+  "démonstrations": {
+   "lema": "démonstration",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Marca, testemunho, toda palavra ou ato pelo qual se manifestam disposições, intenções: demonstração, manifestação."
+   ]
+  },
+  "joie": {
+   "lema": "joie",
+   "classe": "substantivo feminino",
+   "def": [
+    "Sentimento de felicidade, de satisfação viva e intensa: alegria."
+   ]
+  },
+  "servit": {
+   "lema": "servir",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Fornecer; ocupar-se de alguém, procurar-lhe mercadoria ou serviço: servir."
+   ]
+  },
+  "aloyau": {
+   "lema": "aloyau",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Açougue) Peça nobre de boi cortada ao longo do dorso e da garupa, das últimas costelas ao sacro: lombo de boi."
+   ]
+  },
+  "tripes": {
+   "lema": "tripes",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "(Culinária) Prato à base de pedaços do sistema digestivo, em molho: dobradinha."
+   ]
+  },
+  "boudin": {
+   "lema": "boudin",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Charcutaria) Tripa recheada de sangue e gordura de porco, com o tempero necessário: morcela."
+   ]
+  },
+  "fricassée": {
+   "lema": "fricassée",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Culinária) Carne fricassada (cozida em pedaços, na frigideira ou na caçarola): fricassê."
+   ],
+   "nota": "«Une fricassée de poulet»: um fricassê de frango."
+  },
+  "poulet": {
+   "lema": "poulet",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Por metonímia) Carne de frango, de jovem galinha ou galo, destinada à alimentação humana: frango."
+   ]
   }
  },
  "ocorrencias": {
@@ -1863,6 +2344,13 @@
   "392.15": "étaient#2",
   "560.12": "étaient#2",
   "373.7": "veille#2",
-  "135.4": "monta#2"
+  "135.4": "monta#2",
+  "138.19": "hanches#2",
+  "215.20": "marche#2",
+  "604.6": "parlait#2",
+  "298.19": "ajoutant#2",
+  "141.1": "ainsi#2",
+  "406.1": "ainsi#2",
+  "188.4": "passait#2"
  }
 }

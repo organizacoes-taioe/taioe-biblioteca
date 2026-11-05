@@ -69,6 +69,19 @@ Seguem o guia e as `notas-III-1-5.md` (Biblioteca, curadores, «em Filadélfia»
   *by lot* → «por sorteio», «a sorte»; *hautboys* → «oboés». O informante a Franklin: você.
 - *went on swimmingly* → «ia de vento em popa»; *blood royal* → «sangue real».
 
+## III.9
+
+- *Royal Society* → «a Real Sociedade (de Londres)»; *Fellow* → «membro»; *Transactions* → as
+  _Transactions_ (título, itálico); *Royal Academy of Sciences* → «a Real Academia de Ciências».
+- *our library company* → «a nossa Biblioteca» (o termo fixado em III.1).
+- Franceses: *M. Dalibard*, *M. le Roy*, *M. de Lor*, *Messrs.* → «o sr. Dalibard», «o sr. Le Roy», «os
+  srs. Dalibard e De Lor»; *the Abbé Nollet* → «o abade Nollet»; *Count de Buffon* → «o conde de Buffon»;
+  *Monsieur B------* fica como Franklin escreve; *élève* → _élève_ (itálico).
+- *lectures* → «conferências»; *performers* → «experimentadores»; *glass-house* → «fábrica de vidro»;
+  *quarto volume* → «volume in-quarto»; *copy-money* → «nada pelo original»; *connoisseurs* → «os
+  entendidos»; *kite* → «papagaio de papel»; *pointed rod* → «vara pontuda»; *Philadelphia Experiments* →
+  «as Experiências de Filadélfia»; *Letters* (de Nollet) → _Cartas_.
+
 ## Candidatos a decisão para o Gere
 
 1. O jogo racial de Morris e Franklin (III.6, *government of blacks… negrofied*): tradução literal

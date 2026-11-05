@@ -74,7 +74,7 @@
    "def": [
     "(contável) Um reino distinto, que pode conter objetos ou habitantes; um planeta, sobretudo habitado ou habitável."
    ],
-   "nota": "Os «new Worlds» de que se fala no Céu são a Terra e o universo que Deus vai criar."
+   "nota": "Os «mundos novos» de que se fala no Céu: o rumor de um universo ainda por criar."
   },
   "whereof": {
    "lema": "whereof",
@@ -1883,11 +1883,11 @@
   },
   "capital": {
    "lema": "capital",
-   "classe": "adjetivo",
+   "classe": "substantivo",
    "def": [
-    "Principal (em sentido político, por ser a sede do governo de um Estado ou nação)."
+    "(contável) Cidade designada como sede do poder legislativo pelo governo ou por outra autoridade, em geral a cidade onde o governo está situado."
    ],
-   "nota": "«The high capital / Of Satan and his peers»: a alta capital, a sede principal de Satanás e de seus pares."
+   "nota": "«The high capital / Of Satan and his peers»: a alta capital, a sede de Satanás e de seus pares: o Pandemônio."
   },
   "summons": {
    "lema": "summons",
@@ -1896,6 +1896,819 @@
     "Chamado para fazer algo, sobretudo para comparecer; convocação."
    ],
    "nota": "«Their summons called… the worthiest»: a convocação chamou os mais dignos. Em «summons read» (v. 798): lida a convocação, o concílio começa."
+  },
+  "squared": {
+   "lema": "square",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(formação militar) Corpo de tropas disposto em formação quadrada."
+   ],
+   "nota": "«Squared regiment»: regimento disposto em quadrado, a formação militar em que as tropas ficam alinhadas em quatro lados. O verbete dá «square» como substantivo; aqui é particípio."
+  },
+  "regiment": {
+   "lema": "regiment",
+   "classe": "substantivo",
+   "def": [
+    "(militar) Unidade de tropas armadas sob o comando de um oficial, composta de várias unidades menores; regimento."
+   ]
+  },
+  "worthiest": {
+   "lema": "worthy",
+   "classe": "adjetivo",
+   "forma": "superlativo",
+   "def": [
+    "Que merece; digno, honrado."
+   ],
+   "nota": "«By place or choice the worthiest»: os mais dignos, por posição ou por escolha."
+  },
+  "hundreds": {
+   "lema": "hundred",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Valor numérico igual a 100; cem."
+   ],
+   "nota": "«With hundreds and with thousands trooping came»: vieram aos centos e aos milhares."
+  },
+  "thousands": {
+   "lema": "thousand",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Valor numérico igual a 1.000; mil."
+   ]
+  },
+  "trooping": {
+   "lema": "troop",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "Mover-se em grande número; vir ou reunir-se em bandos."
+   ]
+  },
+  "attended": {
+   "lema": "attend",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Servir (alguém) como acompanhante; acompanhar."
+   ],
+   "nota": "«Trooping came / Attended»: vinham em bando, acompanhados (de séquito)."
+  },
+  "access": {
+   "lema": "access",
+   "classe": "substantivo",
+   "def": [
+    "Meio de se aproximar ou entrar; entrada, passagem."
+   ],
+   "nota": "«All access was thronged»: todos os acessos estavam apinhados."
+  },
+  "thronged": {
+   "lema": "throng",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Encher (um lugar), amontoando-se nele."
+   ],
+   "nota": "«Thronged»: apinhado de gente."
+  },
+  "porches": {
+   "lema": "porch",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(elemento arquitetônico) Entrada coberta de um edifício; pórtico."
+   ],
+   "nota": "«The gates / And porches wide»: os portões e os pórticos largos."
+  },
+  "hall": {
+   "lema": "hall",
+   "classe": "substantivo",
+   "def": [
+    "Sala grande de reuniões; salão."
+   ],
+   "nota": "«The spacious hall»: o vasto salão do Pandemônio, onde ficam os demônios menores; os chefes estão no recinto interno (v. 794–797)."
+  },
+  "covered": {
+   "lema": "cover",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Pôr algo sobre ou em cima de outra coisa, para ocultar ou proteger."
+   ],
+   "nota": "«A covered field»: campo coberto, o recinto de justas e torneios onde os campeões cavalgavam armados."
+  },
+  "champions": {
+   "lema": "champion",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Pessoa escolhida para representar um grupo numa disputa; quem luta por uma causa ou posição."
+   ],
+   "nota": "«Champions bold»: campeões ousados, os cavaleiros dos torneios."
+  },
+  "ride": {
+   "lema": "ride",
+   "classe": "verbo",
+   "def": [
+    "(ambitransitivo) Deslocar-se sentado sobre um cavalo, dirigindo-o; cavalgar."
+   ],
+   "nota": "«Wont ride in armed»: costumavam cavalgar armados; «wont» (v. 764) é «costumavam»."
+  },
+  "soldan’s": {
+   "lema": "soldan",
+   "classe": "substantivo",
+   "forma": "genitivo (possessivo) singular",
+   "def": [
+    "(agora raro, histórico) O governante de um grande Estado muçulmano na Idade Média, sobretudo o sultão do Egito."
+   ],
+   "nota": "«At the Soldan’s chair»: diante do trono do Sultão."
+  },
+  "chair": {
+   "lema": "chair",
+   "classe": "substantivo",
+   "def": [
+    "Peça de mobília para sentar-se, com assento, pernas ou rodas, encosto e às vezes braços."
+   ],
+   "nota": "«The Soldan’s chair»: o assento do Sultão, seu trono; por extensão, a sua corte."
+  },
+  "defied": {
+   "lema": "defy",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo) Desafiar (alguém) ou enfrentar (um perigo ou oposição)."
+   ],
+   "nota": "«Defied the best of Paynim chivalry / To mortal combat»: desafiavam a flor da cavalaria pagã para um combate de morte."
+  },
+  "paynim": {
+   "lema": "paynim",
+   "classe": "substantivo",
+   "def": [
+    "(arcaico) Pagão ou infiel, sobretudo um muçulmano, ou um judeu."
+   ],
+   "nota": "Aqui o substantivo faz as vezes de adjetivo: «Paynim chivalry», a cavalaria sarracena dos romances de cavalaria."
+  },
+  "combat": {
+   "lema": "combat",
+   "classe": "substantivo",
+   "def": [
+    "Batalha, luta (muitas vezes com armas)."
+   ],
+   "nota": "«Mortal combat»: combate mortal, combate até a morte."
+  },
+  "career": {
+   "lema": "career",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Mover-se rapidamente em linha reta, sobretudo sem controle."
+   ],
+   "nota": "«Or career with lance»: ou correr a toda a brida com a lança, investir em carreira."
+  },
+  "lance": {
+   "lema": "lance",
+   "classe": "substantivo",
+   "def": [
+    "Arma de guerra de haste longa e ponta de aço; lança de cavaleiro."
+   ]
+  },
+  "swarmed": {
+   "lema": "swarm",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(intransitivo) Mover-se em enxame; formigar de gente."
+   ],
+   "nota": "«Thick swarmed»: enxameou, fervilhou, denso."
+  },
+  "brushed": {
+   "lema": "brush",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Passar a escova em; roçar."
+   ],
+   "nota": "«Brushed with the hiss of rustling wings»: roçado pelo sibilo de asas que farfalham."
+  },
+  "hiss": {
+   "lema": "hiss",
+   "classe": "substantivo",
+   "def": [
+    "Som sibilante, como o de uma serpente ou do vapor que escapa."
+   ]
+  },
+  "rustling": {
+   "lema": "rustle",
+   "classe": "verbo",
+   "forma": "gerúndio / particípio presente",
+   "def": [
+    "Fazer um som leve, de coisas que se roçam; farfalhar."
+   ],
+   "nota": "«Rustling wings»: asas que farfalham."
+  },
+  "bees": {
+   "lema": "bee",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Inseto voador do clado Anthophila, conhecido por sua vida social organizada; abelha."
+   ]
+  },
+  "spring-time": {
+   "lema": "springtime",
+   "classe": "substantivo",
+   "forma": "grafia com hífen",
+   "def": [
+    "A estação da primavera, entre o inverno e o verão."
+   ],
+   "nota": "«Spring-time» é a grafia com hífen de «springtime»."
+  },
+  "taurus": {
+   "lema": "Taurus",
+   "classe": "substantivo próprio",
+   "def": [
+    "(constelações do zodíaco) Constelação do zodíaco, tradicionalmente representada na forma de um touro; Touro."
+   ],
+   "nota": "«When the Sun with Taurus rides»: quando o Sol está na constelação de Touro, em abril e maio, na primavera."
+  },
+  "rides": {
+   "lema": "ride",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(ambitransitivo) Deslocar-se sentado sobre um cavalo; cavalgar."
+   ],
+   "nota": "«The Sun with Taurus rides»: o Sol cavalga (viaja) com Touro, isto é, está nessa constelação."
+  },
+  "pour": {
+   "lema": "pour",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Enviar para fora, como numa corrente; fazer sair sem interrupção."
+   ],
+   "nota": "«Pour forth their populous youth»: despejam para fora a sua juventude numerosa."
+  },
+  "youth": {
+   "lema": "youth",
+   "classe": "substantivo",
+   "def": [
+    "(contável) Pessoa jovem; (coletivamente) os jovens."
+   ],
+   "nota": "«Their populous youth»: as jovens abelhas, numerosas."
+  },
+  "about": {
+   "lema": "about",
+   "classe": "preposição",
+   "def": [
+    "Em círculo ao redor de; em volta de."
+   ],
+   "nota": "«About the hive»: ao redor da colmeia."
+  },
+  "hive": {
+   "lema": "hive",
+   "classe": "substantivo",
+   "def": [
+    "Estrutura, artificial ou natural, para abrigar um enxame de abelhas; colmeia."
+   ]
+  },
+  "clusters": {
+   "lema": "cluster",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Grupo de vários itens separados e próximos uns dos outros; cacho, aglomerado."
+   ],
+   "nota": "«In clusters»: em cachos, em aglomerados de abelhas."
+  },
+  "fresh": {
+   "lema": "fresh",
+   "classe": "adjetivo",
+   "def": [
+    "Recém-produzido ou obtido; recente."
+   ],
+   "nota": "«Fresh dews and flowers»: orvalhos e flores novos, da manhã."
+  },
+  "dews": {
+   "lema": "dew",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Umidade do ar que se deposita sobre as plantas de manhã ou de tarde, formando gotas; orvalho."
+   ]
+  },
+  "flowers": {
+   "lema": "flower",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Estrutura colorida e vistosa das angiospermas, com frequência perfumada; flor."
+   ]
+  },
+  "fly": {
+   "lema": "fly",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Deslocar-se pelo ar, ou por um gás, sem contato com o chão; voar."
+   ],
+   "nota": "«Fly to and fro»: voam de cá para lá."
+  },
+  "fro": {
+   "lema": "fro",
+   "classe": "advérbio",
+   "def": [
+    "(arcaico) De; para longe; para trás."
+   ],
+   "nota": "Só existe na expressão «to and fro»: para a frente e para trás, daqui para ali."
+  },
+  "smoothed": {
+   "lema": "smooth",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Tornar liso ou plano."
+   ],
+   "nota": "«The smoothed plank»: a tábua alisada, a prancha de pouso da colmeia."
+  },
+  "plank": {
+   "lema": "plank",
+   "classe": "substantivo",
+   "def": [
+    "Peça longa, larga e grossa de madeira; prancha."
+   ]
+  },
+  "suburb": {
+   "lema": "suburb",
+   "classe": "substantivo",
+   "def": [
+    "(por extensão) A parte exterior; os arredores."
+   ],
+   "nota": "«The suburb of their straw-built citadel»: a periferia de sua cidadela de palha, a prancha à entrada da colmeia."
+  },
+  "straw-built": {
+   "partes": [
+    {
+     "lema": "straw",
+     "classe": "substantivo",
+     "def": [
+      "Caule seco de planta cereal; palha."
+     ]
+    },
+    {
+     "lema": "build",
+     "classe": "verbo",
+     "forma": "particípio passado",
+     "def": [
+      "Construir; levantar."
+     ]
+    }
+   ],
+   "nota": "«Straw-built citadel»: a cidadela feita de palha, a colmeia de palha."
+  },
+  "citadel": {
+   "lema": "citadel",
+   "classe": "substantivo",
+   "def": [
+    "(às vezes, figurado) Fortaleza ou lugar fortificado."
+   ],
+   "nota": "A colmeia é comparada a uma cidadela."
+  },
+  "rubbed": {
+   "lema": "rub",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Espalhar uma substância em camada fina sobre algo; esfregar."
+   ],
+   "nota": "«New rubbed with balm»: recém-esfregada com bálsamo (a prancha)."
+  },
+  "balm": {
+   "lema": "balm",
+   "classe": "substantivo",
+   "def": [
+    "A melissa, planta aromática (Melissa officinalis); qualquer erva aromática de cheiro cítrico semelhante."
+   ],
+   "nota": "Erva com que os apicultores esfregavam a colmeia, para atrair as abelhas."
+  },
+  "expatiate": {
+   "lema": "expatiate",
+   "classe": "verbo",
+   "def": [
+    "(raro) Mover-se à vontade, sem restrição."
+   ],
+   "nota": "«Expatiate, and confer / Their state-affairs»: passeiam à vontade e conferem os seus negócios de Estado; sentido latino, de andar livremente."
+  },
+  "state-affairs": {
+   "partes": [
+    {
+     "lema": "state",
+     "classe": "substantivo",
+     "def": [
+      "País soberano ou cidade-Estado, com governo central; o Estado."
+     ]
+    },
+    {
+     "lema": "affair",
+     "classe": "substantivo",
+     "forma": "plural",
+     "def": [
+      "Aquilo que se faz ou há de se fazer; negócio de qualquer tipo, comercial, profissional ou público."
+     ]
+    }
+   ],
+   "nota": "«State-affairs»: os negócios de Estado, os assuntos de governo; a colmeia é vista como uma pequena república."
+  },
+  "straitened": {
+   "lema": "straiten",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "Tornar estreito; reduzir a um espaço menor, confinar."
+   ],
+   "nota": "«Swarmed and were straitened»: enxameavam e eram apertados, comprimidos (pelo número)."
+  },
+  "seemed": {
+   "lema": "seem",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(copulativo) Parecer; aparecer; ser percebido como."
+   ]
+  },
+  "bigness": {
+   "lema": "bigness",
+   "classe": "substantivo",
+   "def": [
+    "(agora raro) Tamanho."
+   ],
+   "nota": "«In bigness»: em tamanho."
+  },
+  "surpass": {
+   "lema": "surpass",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Ir além de, exceder (algo)."
+   ]
+  },
+  "earth’s": {
+   "lema": "earth",
+   "classe": "substantivo",
+   "forma": "genitivo (possessivo) singular",
+   "def": [
+    "O chão, a terra (em oposição ao céu ou ao mar)."
+   ],
+   "nota": "«Earth’s giant sons»: os gigantes, filhos da Terra, da mitologia clássica."
+  },
+  "smallest": {
+   "lema": "small",
+   "classe": "adjetivo",
+   "forma": "superlativo",
+   "def": [
+    "Não grande; insignificante."
+   ],
+   "nota": "«Smallest dwarfs», «smallest forms»: os menores anões, as menores formas."
+  },
+  "dwarfs": {
+   "lema": "dwarf",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(mitologia) Ser pequeno e de aparência humana, do folclore; (agora, às vezes ofensivo) pessoa de baixa estatura."
+   ],
+   "nota": "Aqui são os anões do folclore, termo de comparação para o tamanho."
+  },
+  "narrow": {
+   "lema": "narrow",
+   "classe": "adjetivo",
+   "def": [
+    "De pouca extensão; muito limitado."
+   ],
+   "nota": "«In narrow room»: em espaço estreito."
+  },
+  "room": {
+   "lema": "room",
+   "classe": "substantivo",
+   "def": [
+    "Espaço para algo, ou para realizar uma atividade."
+   ],
+   "nota": "«In narrow room»: em pouco espaço."
+  },
+  "throng": {
+   "lema": "throng",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Reunir-se em multidão; apinhar-se."
+   ],
+   "nota": "«Throng numberless»: apinham-se, em número sem conta."
+  },
+  "pygmean": {
+   "lema": "pygmean",
+   "classe": "adjetivo",
+   "def": [
+    "Semelhante a um pigmeu; muito pequeno."
+   ],
+   "nota": "«That pygmean race»: aquela raça de pigmeus, que a tradição antiga situava além da Índia."
+  },
+  "indian": {
+   "lema": "Indian",
+   "classe": "adjetivo",
+   "def": [
+    "Relativo à Índia ou a seu povo; (formalmente) das Índias Orientais."
+   ],
+   "nota": "«Beyond the Indian mount»: além do monte indiano."
+  },
+  "faery": {
+   "lema": "fairy",
+   "classe": "adjetivo",
+   "forma": "grafia antiga («faery»)",
+   "def": [
+    "Semelhante a uma fada; fantasioso, delicado."
+   ],
+   "nota": "«Faery elves»: elfos de fada, as criaturas pequenas do folclore."
+  },
+  "elves": {
+   "lema": "elf",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(folclore) Criatura mágica pequena, semelhante a uma fada, muitas vezes travessa, brincalhona ou, às vezes, prestativa."
+   ]
+  },
+  "midnight": {
+   "lema": "midnight",
+   "classe": "substantivo",
+   "def": [
+    "O meio da noite; a hora equidistante entre o pôr e o nascer do Sol."
+   ],
+   "nota": "«Midnight revels»: folguedos de meia-noite."
+  },
+  "revels": {
+   "lema": "revel",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Ocasião de diversão; celebração."
+   ]
+  },
+  "forest-side": {
+   "partes": [
+    {
+     "lema": "forest",
+     "classe": "substantivo",
+     "def": [
+      "Extensão densa de árvores e vegetação rasteira não cultivada, maior que um bosque; floresta."
+     ]
+    },
+    {
+     "lema": "side",
+     "classe": "substantivo",
+     "def": [
+      "Uma das metades (esquerda ou direita, em cima ou embaixo etc.) de algo; lado."
+     ]
+    }
+   ],
+   "nota": "«By a forest-side»: à beira da floresta, na orla do bosque."
+  },
+  "fountain": {
+   "lema": "fountain",
+   "classe": "substantivo",
+   "def": [
+    "(originalmente) Fonte natural de água; nascente."
+   ],
+   "nota": "«Forest-side / Or fountain»: na orla da floresta ou junto a uma fonte."
+  },
+  "belated": {
+   "lema": "belate",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Retardar; fazer algo chegar tarde; fazer anoitecer sobre."
+   ],
+   "nota": "«Some belated peasant»: algum camponês retardado, surpreendido pela noite no caminho."
+  },
+  "peasant": {
+   "lema": "peasant",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa do campo; membro da classe humilde que trabalha a terra."
+   ]
+  },
+  "sees": {
+   "lema": "see",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Perceber ou detectar alguém ou algo com os olhos."
+   ],
+   "nota": "«Or dreams he sees»: ou sonha que vê; a oração substantiva «he sees» é o objeto de «dreams»."
+  },
+  "dreams": {
+   "lema": "dream",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Ver, na mente, acontecimentos imaginários enquanto dorme; sonhar."
+   ],
+   "nota": "«Or dreams he sees»: ou imagina que vê, como num sonho."
+  },
+  "overhead": {
+   "lema": "overhead",
+   "classe": "advérbio",
+   "def": [
+    "Acima da cabeça; no céu."
+   ]
+  },
+  "sits": {
+   "lema": "sit",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo, de pessoa) Estar em posição com o tronco ereto, apoiado nas nádegas; estar sentado."
+   ],
+   "nota": "«Sits arbitress»: preside, fica como árbitra; a Lua é descrita como quem assiste e julga os folguedos."
+  },
+  "arbitress": {
+   "lema": "arbitress",
+   "classe": "substantivo",
+   "def": [
+    "Árbitra, mulher que é árbitro."
+   ],
+   "nota": "A Lua, como árbitra silenciosa das danças dos elfos."
+  },
+  "nearer": {
+   "lema": "near",
+   "classe": "advérbio",
+   "forma": "comparativo",
+   "def": [
+    "Em ou para uma posição próxima no espaço ou no tempo."
+   ],
+   "nota": "«Nearer to the Earth / Wheels her pale course»: mais perto da Terra, a Lua gira o seu curso pálido."
+  },
+  "wheels": {
+   "lema": "wheel",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Fazer movimento circular."
+   ],
+   "nota": "«Wheels her pale course»: a Lua traça em círculo a sua órbita pálida."
+  },
+  "mirth": {
+   "lema": "mirth",
+   "classe": "substantivo",
+   "def": [
+    "A emoção que geralmente segue o humor e é acompanhada de riso; alegria."
+   ]
+  },
+  "dance": {
+   "lema": "dance",
+   "classe": "substantivo",
+   "def": [
+    "Sequência de passos ou movimentos rítmicos, em geral executados ao som de música; dança."
+   ]
+  },
+  "intent": {
+   "lema": "intent",
+   "classe": "adjetivo",
+   "def": [
+    "Firmemente fixado ou concentrado em algo."
+   ],
+   "nota": "«They, on their mirth and dance / Intent»: eles, concentrados em seu folguedo e dança."
+  },
+  "jocund": {
+   "lema": "jocund",
+   "classe": "adjetivo",
+   "def": [
+    "Jovial; exuberante; alegre e animado."
+   ]
+  },
+  "music": {
+   "lema": "music",
+   "classe": "substantivo",
+   "def": [
+    "Série de sons organizada no tempo, em geral combinando harmonia, melodia, ritmo e outros elementos."
+   ]
+  },
+  "charm": {
+   "lema": "charm",
+   "classe": "verbo",
+   "def": [
+    "Seduzir, persuadir ou fascinar alguém ou algo; encantar."
+   ],
+   "nota": "«Charm his ear»: encantam-lhe o ouvido."
+  },
+  "ear": {
+   "lema": "ear",
+   "classe": "substantivo",
+   "def": [
+    "O órgão da audição, formado pelo pavilhão, pelo canal auditivo, pelo tímpano, pelos ossículos e pela cóclea; ouvido."
+   ]
+  },
+  "rebounds": {
+   "lema": "rebound",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "Saltar ou voltar atrás de uma força; ricochetear."
+   ],
+   "nota": "«His heart rebounds»: o coração lhe salta, pulsa, entre alegria e medo."
+  },
+  "incorporeal": {
+   "lema": "incorporeal",
+   "classe": "adjetivo",
+   "def": [
+    "Sem forma material nem substância física; incorpóreo."
+   ]
+  },
+  "reduced": {
+   "lema": "reduce",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo) Diminuir o tamanho, a quantidade, a qualidade ou a intensidade de algo."
+   ],
+   "nota": "«Reduced their shapes immense»: reduziram suas formas imensas."
+  },
+  "immense": {
+   "lema": "immense",
+   "classe": "adjetivo",
+   "def": [
+    "Enorme, gigantesco, muito grande."
+   ]
+  },
+  "amidst": {
+   "lema": "amidst",
+   "classe": "preposição",
+   "def": [
+    "No meio de; cercado por; entre."
+   ]
+  },
+  "court": {
+   "lema": "court",
+   "classe": "substantivo",
+   "def": [
+    "Corte real: a sociedade de um soberano; a residência de um soberano, palácio."
+   ],
+   "nota": "«That infernal court»: aquela corte infernal, o Pandemônio."
+  },
+  "dimensions": {
+   "lema": "dimension",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Medida de extensão espacial numa determinada direção, como altura, largura ou profundidade."
+   ],
+   "nota": "«In their own dimensions»: no seu tamanho próprio, o verdadeiro."
+  },
+  "recess": {
+   "lema": "recess",
+   "classe": "substantivo",
+   "def": [
+    "Espaço fundo, oco ou reentrante; também uma abertura."
+   ],
+   "nota": "«In close recess»: em recinto retirado, interno e reservado do salão."
+  },
+  "conclave": {
+   "lema": "conclave",
+   "classe": "substantivo",
+   "def": [
+    "(catolicismo romano) Conjunto de aposentos em que ficam isolados os cardeais durante a eleição de um papa; também o grupo de cardeais reunidos."
+   ],
+   "nota": "Milton aproveita a imagem de uma assembleia fechada e secreta; «secret conclave» é o concílio reservado dos chefes."
+  },
+  "demi-gods": {
+   "lema": "demigod",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(mitologia) Meio deus ou herói; filho de uma divindade e de um mortal."
+   ],
+   "nota": "«A thousand demi-gods»: mil semideuses, os anjos caídos, tratados como divindades menores; a grafia com hífen é a de Milton."
+  },
+  "frequent": {
+   "lema": "frequent",
+   "classe": "adjetivo",
+   "def": [
+    "(obsoleto) Cheio; apinhado; repleto de gente."
+   ],
+   "nota": "«Frequent and full»: apinhada e completa, a assembleia. É o sentido latino de «frequens»."
+  },
+  "short": {
+   "lema": "short",
+   "classe": "adjetivo",
+   "def": [
+    "De pouca duração; breve."
+   ],
+   "nota": "«After short silence»: depois de curto silêncio."
+  },
+  "read": {
+   "lema": "read",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo ou intransitivo) Olhar para letras ou outra informação escrita e interpretá-las; ler."
+   ],
+   "nota": "«Summons read»: lida a convocação (que anuncia o concílio)."
   }
  },
  "ocorrencias": {

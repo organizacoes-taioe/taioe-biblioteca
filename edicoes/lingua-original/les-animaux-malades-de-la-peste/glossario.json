@@ -597,12 +597,14 @@
         "«Se fuir», evitar-se um ao outro: fugiam uma da outra."
       ]
     },
-    "plus": {
+    "plus#3": {
       "lema": "plus",
       "classe": "advérbio",
+      "forma": "sem verbo, em «plus de»",
       "def": [
-        "Com «ne», indica que uma coisa cessou: não… mais, já não."
-      ]
+        "Sem verbo, «plus de…»: acabou-se, não há mais."
+      ],
+      "nota": "«Plus d’amour, partant plus de joie»: acabou-se o amor, e por isso a alegria."
     },
     "amour": {
       "lema": "amour",
@@ -2378,7 +2380,9 @@
     "8.3": "en#2",
     "8.6": "d’#3",
     "9.1": "à#2",
+    "14.1": "plus#3",
     "14.2": "d’#3",
+    "14.5": "plus#3",
     "14.6": "de#3",
     "15.3": "tint#2",
     "16.5": "ciel#2",

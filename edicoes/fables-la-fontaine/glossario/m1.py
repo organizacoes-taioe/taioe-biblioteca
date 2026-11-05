@@ -105,7 +105,7 @@ V('tu', 'tu', 'pronome pessoal', 'segunda pessoa do singular, sujeito', 'Pronome
 V('te', 'te', 'pronome pessoal', 'segunda pessoa do singular, objeto', 'Pronome pessoal da segunda pessoa do singular, objeto direto ou indireto: te, a ti.')
 V('toi', 'toi', 'pronome pessoal', 'segunda pessoa do singular, forma tônica', 'Pronome pessoal tônico da segunda pessoa do singular: tu, ti.')
 V('vous', 'vous', 'pronome pessoal', 'segunda pessoa do plural', 'Pronome pessoal da segunda pessoa do plural, ou do singular de cortesia: vós, o senhor, a senhora; vos, lhe.')
-V('vous#2', 'vous', 'pronome pessoal', 'expletivo', 'Pronome que não tem função na frase e só marca o interesse de quem fala ou de quem ouve (dativo ético).', 'É o «vous» que puxa o leitor para dentro da cena, como no português «me lhe»: «les fils vous retournent le champ», os filhos (vejam só!) reviram o campo.')
+V('vous#2', 'vous', 'pronome pessoal', 'expletivo', 'Pronome que não tem função na frase e só marca o interesse de quem fala ou de quem ouve (dativo ético).', 'É o «vous» que puxa o leitor para dentro da cena, como o «me» de «não me faça isso»: «les fils vous retournent le champ», os filhos (vejam só!) reviram o campo.')
 V('nous', 'nous', 'pronome pessoal', 'primeira pessoa do plural', 'Pronome pessoal da primeira pessoa do plural: nós, nos.')
 V('lui', 'lui', 'pronome pessoal', 'terceira pessoa do singular, objeto indireto', 'Pronome pessoal da terceira pessoa do singular, objeto indireto: lhe, a ele, a ela.')
 V('lui#2', 'lui', 'pronome pessoal', 'terceira pessoa do singular masculino, forma tônica', 'Pronome pessoal tônico da terceira pessoa do singular masculino: ele.')
@@ -251,3 +251,4 @@ V('bien#5', 'bien', 'advérbio', 'em «eh bien»', '«Eh bien», pois bem, entã
 V('peu#2', 'peu', 'advérbio', '', '«À peu près», mais ou menos.')
 V('qu’#7', 'que', 'conjunção', 'com o subjuntivo, elisão de «que»', 'Introduz, com o subjuntivo, uma ordem, um desejo ou uma hipótese: que.')
 V('de#5', 'de', 'artigo partitivo', 'com «la» ou «l’»', 'Com «la» ou «l’», indica uma quantidade indeterminada: «de la peine», «de l’argent», algum esforço, algum dinheiro (em geral não se traduz).')
+V('plus#3', 'plus', 'advérbio', 'sem verbo, em «plus de»', 'Sem verbo, «plus de…»: acabou-se, não há mais.', '«Plus d’amour, partant plus de joie»: acabou-se o amor, e por isso a alegria.')

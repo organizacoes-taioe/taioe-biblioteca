@@ -1064,6 +1064,418 @@
       "def": [
         "(incontável) O estado de ser escuro; falta de luz; a ausência absoluta ou comparativa de luz."
       ]
+    },
+    "which": {
+      "lema": "which",
+      "classe": "pronome relativo",
+      "def": [
+        "(relativo) Numa oração subordinada, refere-se a algo já mencionado (um substantivo ou uma afirmação anterior); que, o qual, a qual."
+      ]
+    },
+    "which#2": {
+      "lema": "which",
+      "classe": "determinante",
+      "def": [
+        "(relativo, formal) Designa aquilo que acaba de ser mencionado; este, esse."
+      ],
+      "nota": "«Which action passed over» é «omitida essa ação», isto é, a expulsão dos anjos rebeldes."
+    },
+    "for": {
+      "lema": "for",
+      "classe": "preposição",
+      "def": [
+        "Por causa de; em razão de.",
+        "Em troca de; em correspondência ou equivalência com."
+      ]
+    },
+    "for#2": {
+      "lema": "for",
+      "classe": "conjunção",
+      "def": [
+        "(formal, literário) Porque."
+      ]
+    },
+    "for#3": {
+      "lema": "for",
+      "classe": "preposição",
+      "def": [
+        "Sendo; na qualidade de; como."
+      ],
+      "nota": "«To adore for deities» é «adorar como deuses»."
+    },
+    "for#4": {
+      "lema": "for",
+      "classe": "preposição",
+      "def": [
+        "Durante (um período de tempo)."
+      ],
+      "nota": "«For ever» é «para sempre»."
+    },
+    "fitliest": {
+      "lema": "fitly",
+      "classe": "advérbio",
+      "forma": "superlativo (fitliest)",
+      "def": [
+        "De modo conveniente; adequadamente."
+      ],
+      "nota": "«Fitliest called Chaos»: com a maior propriedade chamado Caos."
+    },
+    "called": {
+      "lema": "call",
+      "classe": "verbo",
+      "forma": "passado / particípio passado",
+      "def": [
+        "(transitivo) Dar nome a, designar; chamar."
+      ]
+    },
+    "called#2": {
+      "lema": "call",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "Pedir, convocar, fazer sinal.",
+        "Gritar."
+      ]
+    },
+    "chaos": {
+      "lema": "chaos",
+      "classe": "substantivo",
+      "def": [
+        "O estado desordenado da matéria nos relatos clássicos da cosmogonia."
+      ],
+      "nota": "O Caos, onde, segundo o Argument, está o Inferno: lugar de trevas totais."
+    },
+    "chaos#2": {
+      "lema": "Chaos",
+      "classe": "substantivo próprio",
+      "def": [
+        "(mitologia grega) O estado primordial de desordem que existe antes da criação do mundo, ou o primeiro ser ou deus a existir."
+      ],
+      "nota": "Personificado, reina ao lado da velha Noite."
+    },
+    "lying": {
+      "lema": "lie",
+      "classe": "verbo",
+      "forma": "gerúndio / particípio presente",
+      "def": [
+        "(intransitivo) Estar numa posição horizontal sobre uma superfície; estar deitado."
+      ]
+    },
+    "on": {
+      "lema": "on",
+      "classe": "preposição",
+      "def": [
+        "Posicionado sobre a superfície superior de, tocando-a por cima; em cima de, sobre.",
+        "Em (um lugar ou uma posição)."
+      ]
+    },
+    "on#2": {
+      "lema": "on",
+      "classe": "advérbio",
+      "def": [
+        "Adiante, para a frente (dando continuidade a uma ação)."
+      ]
+    },
+    "on#3": {
+      "lema": "on",
+      "classe": "preposição",
+      "def": [
+        "Contra; em oposição a (sobretudo com combatentes ou competidores)."
+      ]
+    },
+    "on#4": {
+      "lema": "on",
+      "classe": "preposição",
+      "def": [
+        "Ocupado com, empenhado em (uma ação ou atividade)."
+      ],
+      "nota": "«On duty sleeping»: dormindo no posto, em serviço."
+    },
+    "burning": {
+      "lema": "burning",
+      "classe": "adjetivo",
+      "def": [
+        "Em chamas."
+      ],
+      "nota": "O «lago» do Inferno é de fogo."
+    },
+    "lake": {
+      "lema": "lake",
+      "classe": "substantivo",
+      "def": [
+        "Grande extensão de água, ou de líquido semelhante, cercada de terra; lago."
+      ],
+      "nota": "No Inferno é um lago de fogo líquido."
+    },
+    "thunder-struck": {
+      "lema": "thunderstruck",
+      "classe": "adjetivo",
+      "def": [
+        "Espantado, atônito, ou tão subitamente surpreso que não consegue falar."
+      ],
+      "nota": "Literalmente «atingido pelo trovão», fulminado: os anjos jazem atordoados no lago de fogo."
+    },
+    "astonished": {
+      "lema": "astonished",
+      "classe": "adjetivo",
+      "def": [
+        "Admirado; surpreso."
+      ],
+      "nota": "Em Milton o sentido ainda é forte: atordoado, como que fulminado."
+    },
+    "after": {
+      "lema": "after",
+      "classe": "preposição",
+      "def": [
+        "Depois de; em tempo posterior a; em seguida a."
+      ]
+    },
+    "after#2": {
+      "lema": "after",
+      "classe": "advérbio",
+      "def": [
+        "Atrás; mais tarde, depois."
+      ],
+      "nota": "«Long after»: muito depois."
+    },
+    "after#3": {
+      "lema": "after",
+      "classe": "preposição",
+      "def": [
+        "Em perseguição de, em busca de."
+      ],
+      "nota": "«Shot after us»: lançado em nossa perseguição."
+    },
+    "certain": {
+      "lema": "certain",
+      "classe": "adjetivo",
+      "def": [
+        "Particular e definido, mas não especificado ou nomeado; certo, determinado."
+      ],
+      "nota": "«A certain space»: um certo espaço de tempo, não determinado."
+    },
+    "space": {
+      "lema": "space",
+      "classe": "substantivo",
+      "def": [
+        "Um período de tempo específico."
+      ],
+      "nota": "«A certain space»: um certo tempo."
+    },
+    "space#2": {
+      "lema": "space",
+      "classe": "substantivo",
+      "def": [
+        "Extensão física em todas as direções, vista como atributo do universo; espaço."
+      ],
+      "nota": "Aqui é o espaço vazio e imenso, onde Deus poderia criar novos mundos."
+    },
+    "recovers": {
+      "lema": "recover",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "(intransitivo) Recobrar a compostura, o equilíbrio etc."
+      ],
+      "nota": "Satanás volta a si, como que saindo de um atordoamento."
+    },
+    "confusion": {
+      "lema": "confusion",
+      "classe": "substantivo",
+      "def": [
+        "Falta de clareza ou de ordem."
+      ]
+    },
+    "calls": {
+      "lema": "call",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "(intransitivo) Pedir, convocar, chamar com um sinal."
+      ],
+      "nota": "«Calls up» é «chama, convoca»."
+    },
+    "up": {
+      "lema": "up",
+      "classe": "advérbio",
+      "def": [
+        "Indica movimento em direção a um lugar mais alto, ou localização nele; para cima, em pé."
+      ]
+    },
+    "up#2": {
+      "lema": "up",
+      "classe": "advérbio",
+      "def": [
+        "(intensificador) Indica ação ou estado completo; por completo, totalmente."
+      ],
+      "nota": "Em «stirred up» e «swallowed up», a partícula reforça o verbo."
+    },
+    "him": {
+      "lema": "him",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome masculino: ele, como objeto gramatical (o, lhe; ele, depois de preposição)."
+      ]
+    },
+    "next": {
+      "lema": "next",
+      "classe": "advérbio",
+      "def": [
+        "No tempo, lugar, categoria ou sequência imediatamente mais próximo ou seguinte; logo a seguir."
+      ]
+    },
+    "next#2": {
+      "lema": "next",
+      "classe": "adjetivo",
+      "def": [
+        "O mais próximo em ordem, sucessão ou categoria; imediatamente seguinte."
+      ]
+    },
+    "next#3": {
+      "lema": "next",
+      "classe": "preposição",
+      "def": [
+        "(obsoleto, poético) Ao lado de; o mais perto de; junto de."
+      ],
+      "nota": "«Next himself in power»: o segundo depois dele em poder."
+    },
+    "order": {
+      "lema": "order",
+      "classe": "substantivo",
+      "def": [
+        "(contável) Posição numa disposição ou sequência; categoria, grau."
+      ],
+      "nota": "«Next in order and dignity»: imediatamente abaixo em categoria e em dignidade."
+    },
+    "order#2": {
+      "lema": "order",
+      "classe": "substantivo",
+      "def": [
+        "(contável) Arranjo, disposição ou sequência."
+      ],
+      "nota": "«Their order due»: a sua disposição em ordem de batalha."
+    },
+    "dignity": {
+      "lema": "dignity",
+      "classe": "substantivo",
+      "def": [
+        "Alto cargo, categoria ou posição."
+      ]
+    },
+    "lay": {
+      "lema": "lie",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "(intransitivo) Estar numa posição horizontal sobre uma superfície; estar deitado."
+      ],
+      "nota": "«Lay» é o passado de «lie» (jazer, estar deitado), e não o verbo «lay» (pôr)."
+    },
+    "they": {
+      "lema": "they",
+      "classe": "pronome pessoal",
+      "def": [
+        "(3ª pessoa do plural, nominativo) Um grupo de entidades já mencionadas; eles, elas."
+      ]
+    },
+    "confer": {
+      "lema": "confer",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Conversar em conjunto; consultar-se, discutir."
+      ]
+    },
+    "their": {
+      "lema": "their",
+      "classe": "determinante possessivo",
+      "def": [
+        "Pertencente a eles, ou relativo a eles (plural); deles, seu."
+      ]
+    },
+    "miserable": {
+      "lema": "miserable",
+      "classe": "adjetivo",
+      "def": [
+        "Em estado de miséria: muito triste, doente ou pobre; infeliz."
+      ]
+    },
+    "miserable#2": {
+      "lema": "miserable",
+      "classe": "adjetivo",
+      "def": [
+        "Desgraçado, digno de lástima."
+      ],
+      "nota": "«Their miserable fall»: a sua queda desgraçada."
+    },
+    "awakens": {
+      "lema": "awaken",
+      "classe": "verbo",
+      "forma": "3ª pessoa do singular do presente",
+      "def": [
+        "(transitivo) Fazer (alguém) despertar."
+      ]
+    },
+    "till": {
+      "lema": "till",
+      "classe": "conjunção",
+      "def": [
+        "Até, até o momento em que."
+      ]
+    },
+    "till#2": {
+      "lema": "till",
+      "classe": "preposição",
+      "def": [
+        "Até; até o tempo de."
+      ]
+    },
+    "same": {
+      "lema": "same",
+      "classe": "adjetivo",
+      "def": [
+        "Que não difere; idêntico, o mesmo."
+      ]
+    },
+    "same#2": {
+      "lema": "same",
+      "classe": "pronome",
+      "def": [
+        "A mesma coisa; o idêntico."
+      ],
+      "nota": "«Still the same»: ainda o mesmo."
+    },
+    "manner": {
+      "lema": "manner",
+      "classe": "substantivo",
+      "def": [
+        "Modo de agir; maneira de fazer algo."
+      ]
+    },
+    "confounded": {
+      "lema": "confounded",
+      "classe": "adjetivo",
+      "def": [
+        "Confuso, atônito."
+      ],
+      "nota": "«Confounded»: atordoados, fora de si."
+    },
+    "confounded#2": {
+      "lema": "confound",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "(arcaico) Destruir, arruinar, devastar."
+      ],
+      "nota": "«Confounded though immortal»: arruinado, embora imortal."
+    },
+    "rise": {
+      "lema": "rise",
+      "classe": "verbo",
+      "forma": "presente (plural)",
+      "def": [
+        "Assumir uma posição ereta; levantar-se.",
+        "Mover-se, ou parecer mover-se, para cima."
+      ]
     }
   },
   "ocorrencias": {
@@ -1304,6 +1716,51 @@
     "729.6": "a#2",
     "735.5": "a#2",
     "761.2": "place#2",
-    "628.3": "utter#2"
+    "628.3": "utter#2",
+    "2.70": "which#2",
+    "2.97": "for#2",
+    "2.237": "for#2",
+    "21.3": "for#2",
+    "29.3": "for#2",
+    "56.6": "for#2",
+    "141.3": "for#2",
+    "425.3": "for#2",
+    "575.2": "for#2",
+    "633.1": "for#2",
+    "659.1": "for#2",
+    "663.1": "for#2",
+    "682.3": "for#2",
+    "749.2": "for#2",
+    "375.5": "for#3",
+    "252.3": "for#4",
+    "332.5": "for#4",
+    "610.1": "for#4",
+    "302.8": "called#2",
+    "316.2": "called#2",
+    "759.8": "called#2",
+    "545.5": "chaos#2",
+    "563.2": "on#2",
+    "680.8": "on#2",
+    "200.6": "on#3",
+    "578.2": "on#3",
+    "335.1": "on#4",
+    "82.2": "after#2",
+    "385.4": "after#2",
+    "174.2": "after#3",
+    "652.1": "space#2",
+    "37.2": "up#2",
+    "144.3": "up#2",
+    "240.7": "next#2",
+    "81.2": "next#3",
+    "81.7": "next#3",
+    "385.5": "next#3",
+    "571.6": "order#2",
+    "2.159": "miserable#2",
+    "2.168": "till#2",
+    "95.6": "till#2",
+    "640.4": "till#2",
+    "327.6": "till#2",
+    "258.9": "same#2",
+    "55.1": "confounded#2"
   }
 }

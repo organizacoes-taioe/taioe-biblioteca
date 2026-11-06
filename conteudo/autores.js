@@ -790,6 +790,9 @@ BIBLIOTECA.autor({
   ordem: 'Douglass, Frederick',
   area: 'nao-ficcao',
   nota: 'Nascido escravo em Maryland, com o nome de Frederick Augustus Washington Bailey, fugiu em 1838 e tornou-se o maior orador do abolicionismo americano.'
+});
+
+BIBLIOTECA.autor({
   id: 'benjamin-franklin',
   nome: 'Benjamin Franklin',
   nomeCompleto: 'Benjamin Franklin',

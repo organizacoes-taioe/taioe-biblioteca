@@ -238,6 +238,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('augusto-dos-anjos/eu-versos-intimos', 'Versos Íntimos'),
   ('augusto-dos-anjos/eu-vozes-da-morte', 'Vozes da Morte'),
   ('augusto-dos-anjos/eu-vozes-de-um-tumulo', 'Vozes de um Túmulo'),
+  ('benjamin-franklin/autobiografia', 'Autobiografia'),
   ('bocage/apologo-a-cigarra-e-a-formiga', 'A cigarra e a formiga'),
   ('bocage/apologo-a-montanha-que-pare', 'A montanha que pare'),
   ('bocage/apologo-a-raposa-e-as-uvas', 'A raposa e as uvas'),

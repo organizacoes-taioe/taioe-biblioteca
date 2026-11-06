@@ -2,7 +2,7 @@
 
 META = {
     'id': 'autobiografia', 'indice': 'nao-ficcao-traducoes', 'autor': 'benjamin-franklin', 'titulo': 'Autobiografia',
-    'ano': 1771, 'datas': '1771–1790', 'genero': 'Autobiografia',
+    'ano': 1771, 'datas': '1771–1790', 'genero': 'Memórias',
     'divisao': {'singular': 'parte', 'plural': 'partes', 'marcas': False},
     'traducao': {'lingua': 'inglês', 'codigo': 'en', 'titulo': 'The Autobiography of Benjamin Franklin'},
     'original_ao_lado': True,

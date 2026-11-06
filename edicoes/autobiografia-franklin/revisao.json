@@ -1,0 +1,174 @@
+{
+ "id": "autobiografia",
+ "rotulo": "Autobiografia (Benjamin Franklin)",
+ "url": "/biblioteca/benjamin-franklin/autobiografia/",
+ "escolhas": [
+  {
+   "id": "filho-tu",
+   "titulo": "Franklin trata o filho por «tu»?",
+   "ref": "parte I inteira (carta ao filho, «Dear Son»)",
+   "contexto": "A parte I é uma carta a William: «You may remember the inquiries I made…» — «Talvez te lembres das investigações que fiz…».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«tu», como está: «Talvez te lembres…», «quando estiveste comigo na Inglaterra»",
+     "nota": "Tom de carta de pai no século XVIII; casa com o «tu» dos quacres.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«você»: «Talvez você se lembre…», «quando você esteve comigo»",
+     "nota": "Mais corrente hoje, mas achata a diferença com o «tu» dos quacres."
+    }
+   ]
+  },
+  {
+   "id": "proprietarios",
+   "titulo": "*The proprietaries* (os Penn) ficam «os proprietários»?",
+   "ref": "partes III e IV (dezenas de vezes)",
+   "contexto": "Os Penn eram donos hereditários da Pensilvânia e nomeavam o governador: «These public quarrels were all at bottom owing to the proprietaries, our hereditary governors» — «Essas brigas públicas se deviam, no fundo, aos proprietários, nossos governadores hereditários».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«os proprietários», como está",
+     "nota": "O termo da época, literal; a «Sobre» explica quem são.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«os donatários»",
+     "nota": "Lembra as capitanias hereditárias do Brasil, instituição parecida, mas é palavra de outra história."
+    }
+   ]
+  },
+  {
+   "id": "errata",
+   "titulo": "Os erros de Franklin ficam «erratas»?",
+   "ref": "parte I (I.2, I.4, I.6, I.8, I.9)",
+   "contexto": "Franklin, tipógrafo, chama os erros da sua vida de *errata*, como os erros de impressão: «I consider it as one of the first errata of my life» — «conto isto como uma das primeiras erratas da minha vida»; «My printing this pamphlet was another erratum» — «Imprimir esse folheto foi outra errata».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«errata», «erratas», como está",
+     "nota": "Guarda a metáfora do ofício, que Franklin repete de propósito (também «corrigir a errata»).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«erro», «erros»",
+     "nota": "Mais claro, mas perde a metáfora tipográfica."
+    },
+    {
+     "id": "c",
+     "texto": "«erro de impressão», «erros de impressão»",
+     "nota": "Deixa a metáfora explícita, mas pesa nas cinco vezes."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "titulo": "A virtude *Industry* fica «Diligência»?",
+   "ref": "II.3 (as treze virtudes) e o par *industry and frugality* em todo o livro",
+   "contexto": "«6. Industry. Lose no time; be always employ'd in something useful» — «6. DILIGÊNCIA. Não percas tempo; ocupa-te sempre de algo útil; corta toda ação desnecessária.»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Diligência», como está",
+     "nota": "Palavra corrente, nome de virtude; «diligência e frugalidade» em todo o livro.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Laboriosidade»",
+     "nota": "Mais exata (amor ao trabalho), mas pesada."
+    },
+    {
+     "id": "c",
+     "texto": "«Trabalho»",
+     "nota": "Simples, mas não soa como nome de virtude."
+    }
+   ]
+  },
+  {
+   "id": "temperanca",
+   "titulo": "O preceito da Temperança: «Não comas até o torpor; não bebas até a exaltação»?",
+   "ref": "II.3",
+   "contexto": "«1. Temperance. Eat not to dulness; drink not to elevation.» Os treze preceitos vão no imperativo com «tu», em forma de máxima.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Não comas até o torpor; não bebas até a exaltação.», como está",
+     "nota": "Guarda a forma negativa e a concisão do original.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Come sem chegar ao torpor; bebe sem chegar à euforia.»",
+     "nota": "Mais leve, mas «euforia» é palavra de hoje."
+    },
+    {
+     "id": "c",
+     "texto": "«Não coma até se entorpecer; não beba até se exaltar.» (e os treze com «você»)",
+     "nota": "Tratamento de hoje, menos sentencioso."
+    }
+   ]
+  },
+  {
+   "id": "pope-medida",
+   "titulo": "Os dísticos de Pope (I.2) em alexandrinos rimados?",
+   "ref": "I.2",
+   "contexto": "Franklin cita Pope (*Men should be taught as if you taught them not, / And things unknown propos'd as things forgot*) e corrige um dístico dele (*Immodest words admit of no defense, / For want of modesty is want of sense* → *admit but this defense, / That want of modesty…*). Traduzidos em versos de 12 sílabas rimados: «Não tem defesa alguma a imodesta expressão, / pois falta de modéstia é falta de razão» × «Só tem esta defesa a imodesta expressão: / que falta de modéstia é falta de razão».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "alexandrinos rimados, como está",
+     "nota": "A rima e o paralelo «falta de… é falta de…» cabem sem mudar o sentido; a correção de Franklin fica visível.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "decassílabos rimados, a medida usual para o verso de Pope",
+     "nota": "Mais perto da medida inglesa, mas a rima obriga a mudar o sentido ou a perder o paralelo."
+    }
+   ]
+  },
+  {
+   "id": "negros",
+   "titulo": "A piada de Sancho Pança e dos quacres «enegrecidos» (III.6) fica literal?",
+   "ref": "III.6",
+   "contexto": "Morris conta que Sancho Pança pediu «um governo de negros» para poder vender o povo; um amigo pergunta por que Franklin não vende os quacres; Franklin responde: «O governador ainda não os enegreceu o bastante», e explica que o governador, de tanto enegrecer a Assembleia, acabou «enegrecido» ele mesmo (*blacked*, *blacken*, *negrofied*). A graça depende do jogo racial da época.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "literal, como está",
+     "nota": "O texto é de 1788; suavizar seria mudar o autor e derrubar a resposta de Franklin.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "suavizado («ainda não os pintou de preto o bastante»; «ficar manchado»)",
+     "nota": "Menos duro hoje, mas perde o jogo e não é o que Franklin escreveu."
+    }
+   ]
+  },
+  {
+   "id": "criados-comprados",
+   "titulo": "*Bought servants* ficam «criados comprados»?",
+   "ref": "I.7, III.7",
+   "contexto": "Os imigrantes que pagavam a passagem com anos de serviço: «It was an odd thing to find an Oxford scholar in the situation of a bought servant» — «Era coisa estranha achar um estudante de Oxford na situação de criado comprado».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«criados comprados», como está",
+     "nota": "Cru como em Franklin; o contexto mostra que é serviço por tempo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«servos por contrato»",
+     "nota": "Mais claro para o leitor de hoje, mas explica o que Franklin não explica."
+    }
+   ]
+  }
+ ]
+}

@@ -19,7 +19,7 @@ Seguem o guia e as `notas-III-1-5.md` (Biblioteca, curadores, «em Filadélfia»
 - Dryden (*Look round the habitable world…*), dístico rimado em decassílabos heroicos (6ª e 10ª):
   | Olhai o mundo: vereis quão pouca gente
   | conhece o próprio bem, ou o segue, ciente!
-  Perde *habitable*; «ciente» = *knowing it* (com sinérese em «cien-»). A conferir no `molde.mjs`.
+  Perde *habitable*; «ciente» = *knowing it* (com sinérese em «cien-»). Refeito pelo principal e conferido no `molde.mjs` (molde `10: 6-10`, os dois ✓): «Vede o mundo em redor: que pouca gente / sabe o seu bem, ou, ciente, o segue em frente!».
 
 ## III.7
 

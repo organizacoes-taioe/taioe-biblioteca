@@ -150,6 +150,13 @@
     "(teatro) Cada uma das divisões de uma apresentação teatral; ato."
    ]
   },
+  "act#3": {
+   "lema": "act",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Fazer algo; agir."
+   ]
+  },
   "acted": {
    "lema": "act",
    "classe": "verbo",
@@ -652,6 +659,14 @@
    ],
    "nota": "O porteiro responde ao bater à porta: «anon!» é «já vou!»."
   },
+  "anon#3": {
+   "lema": "anon",
+   "classe": "advérbio",
+   "def": [
+    "(arcaico) Imediatamente; já, logo."
+   ],
+   "nota": "«Anon» é «daqui a pouco», «já já»."
+  },
   "another": {
    "lema": "another",
    "classe": "determinante",
@@ -910,6 +925,14 @@
    "def": [
     "No momento em que; ao mesmo tempo que; enquanto."
    ]
+  },
+  "as#6": {
+   "lema": "as",
+   "classe": "conjunção",
+   "def": [
+    "(datado) Introduz uma comparação com um estado hipotético (com subjuntivo ou com o verbo omitido): como se."
+   ],
+   "nota": "«As who should say» é «como quem dissesse»: o mensageiro resmunga como quem desse a entender uma ameaça."
   },
   "aside": {
    "lema": "aside",
@@ -1587,6 +1610,14 @@
    "def": [
     "Usado com o particípio passado de um verbo para formar a voz passiva."
    ]
+  },
+  "being#3": {
+   "lema": "being",
+   "classe": "substantivo",
+   "def": [
+    "O estado ou o fato de existir; existência, vida."
+   ],
+   "nota": "«His being» é «a sua existência», o seu viver."
   },
   "beldams": {
    "lema": "beldame",
@@ -2590,6 +2621,14 @@
    ],
    "nota": "Aqui é a preocupação, não o zelo: «sleave of care» é o novelo emaranhado das aflições do dia, que o sono desfaz."
   },
+  "care#3": {
+   "lema": "care",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, intransitivo) Importar-se (com); preocupar-se (com)."
+   ],
+   "nota": "«What care I?» é «que me importa?»."
+  },
   "careless": {
    "lema": "careless",
    "classe": "adjetivo",
@@ -2822,6 +2861,14 @@
     "Ocorrência aleatória; sorte, acaso."
    ],
    "nota": "«This chance» é «este acontecimento», o que acabou de suceder."
+  },
+  "chance#3": {
+   "lema": "chance",
+   "classe": "substantivo",
+   "def": [
+    "Ocorrência aleatória; sorte, acaso."
+   ],
+   "nota": "«Any chance» é «qualquer risco», «qualquer lance do acaso»."
   },
   "chanced": {
    "lema": "chance",
@@ -5045,6 +5092,21 @@
    ],
    "nota": "Na fala do Porteiro, é a bebida forte: «drink is a great provoker of three things» é «a bebida provoca três coisas»."
   },
+  "drink#3": {
+   "lema": "drink",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, intransitivo) Consumir (um líquido) pela boca; beber."
+   ]
+  },
+  "drink#4": {
+   "lema": "drink",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, arcaico) Brindar a (alguém ou algo) bebendo; desejar bem."
+   ],
+   "nota": "«I drink to» é «brindo a»: bebe à saúde da mesa e de Banquo."
+  },
   "droop": {
    "lema": "droop",
    "classe": "verbo",
@@ -5710,6 +5772,14 @@
     "O ato de pôr alguém à morte, como pena, ou de ser posto à morte."
    ]
   },
+  "execution#3": {
+   "lema": "execution",
+   "classe": "substantivo",
+   "def": [
+    "O ato, a maneira ou o estilo de executar (ações, manobras, atuações)."
+   ],
+   "nota": "«Whose execution» é «cuja execução»: o ato de levar a cabo o trabalho que Macbeth encomenda."
+  },
   "exeunt": {
    "lema": "exeunt",
    "classe": "verbo",
@@ -6001,6 +6071,13 @@
     "Pessoa que desempenha de algum modo o papel de pai."
    ],
    "nota": "Tratamento respeitoso a um homem idoso: «good father» é «bom pai», «bom velho»."
+  },
+  "father#3": {
+   "lema": "father",
+   "classe": "substantivo",
+   "def": [
+    "Genitor do sexo masculino, em especial de um ser humano; pai."
+   ]
   },
   "father's": {
    "lema": "father",
@@ -7378,6 +7455,22 @@
    ],
    "nota": "«Renown and grace» é «a fama e a graça (a virtude)»."
   },
+  "grace#3": {
+   "lema": "grace",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Elevar ou dignificar por um ato de favor; honrar."
+   ],
+   "nota": "«To grace us with your royal company» é «honrar-nos com a vossa real companhia»."
+  },
+  "grace#4": {
+   "lema": "grace",
+   "classe": "substantivo",
+   "def": [
+    "(teologia) Favor imerecido de Deus; auxílio divino dado aos homens."
+   ],
+   "nota": "«Grace» é aqui a graça divina, de que Macbeth, confiante demais, se afastaria."
+  },
   "graced": {
    "lema": "grace",
    "classe": "verbo",
@@ -7687,6 +7780,23 @@
     "(transitivo) Possuir, ter."
    ]
   },
+  "had#3": {
+   "lema": "have",
+   "classe": "verbo auxiliar",
+   "forma": "pretérito",
+   "def": [
+    "Usado com o particípio passado para formar o mais-que-perfeito."
+   ]
+  },
+  "had#4": {
+   "lema": "have",
+   "classe": "verbo",
+   "forma": "pretérito",
+   "def": [
+    "(transitivo) Possuir, ter."
+   ],
+   "nota": "«Had he Duncan's sons» é «se ele tivesse os filhos de Duncan»: sujeito invertido, no lugar do «if»."
+  },
   "hadst": {
    "lema": "have",
    "classe": "verbo auxiliar",
@@ -7764,6 +7874,22 @@
    "def": [
     "A parte do membro anterior abaixo do antebraço ou do pulso, em humanos e outros primatas; mão."
    ]
+  },
+  "hand#3": {
+   "lema": "hand",
+   "classe": "substantivo",
+   "def": [
+    "A parte do membro anterior abaixo do antebraço ou do pulso, em humanos e outros primatas; mão."
+   ],
+   "nota": "«Borne in hand» é «mantidos na ilusão», «enganados»: levados pela mão, com falsas esperanças."
+  },
+  "hand#4": {
+   "lema": "hand",
+   "classe": "substantivo",
+   "def": [
+    "A parte do membro anterior abaixo do antebraço ou do pulso, em humanos e outros primatas; mão."
+   ],
+   "nota": "«To hand» é «à mão»: «will to hand» é «virão à mão», isto é, serão postas em obra."
   },
   "handle": {
    "lema": "handle",
@@ -7997,6 +8123,14 @@
    ],
    "nota": "«If chance will have me king» é «se o acaso quer me fazer rei»."
   },
+  "have#4": {
+   "lema": "have",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Possuir, ter."
+   ],
+   "nota": "«It will have blood» é «quer sangue», «há de ter sangue»: o crime exige vingança."
+  },
   "having": {
    "lema": "having",
    "classe": "substantivo",
@@ -8178,6 +8312,14 @@
     "(religião) A vida após a morte dos bem-aventurados, concebida em oposição à dos ímpios e injustos (compare «hell»)."
    ],
    "nota": "«Heaven» é aqui o Céu dos bem-aventurados, em oposição a «hell», o inferno."
+  },
+  "heaven#3": {
+   "lema": "heaven",
+   "classe": "substantivo",
+   "def": [
+    "(por extensão, em geral com maiúscula) A Providência, a vontade de Deus; o destino."
+   ],
+   "nota": "«An't please heaven» é «se aprouver ao Céu», «se Deus quiser»."
   },
   "heaven's": {
    "lema": "heaven",
@@ -8499,6 +8641,30 @@
     "(transitivo) Manter-se numa posição ou estado; conservar."
    ],
    "nota": "«Hold our tongues» é «calar-nos», «ficar de língua presa»: manter a língua quieta."
+  },
+  "hold#4": {
+   "lema": "hold",
+   "classe": "verbo",
+   "def": [
+    "Organizar um evento ou uma reunião (em geral na voz passiva)."
+   ],
+   "nota": "«We hold a solemn supper» é «damos uma ceia solene»: o rei convida Banquo para o banquete."
+  },
+  "hold#5": {
+   "lema": "hold",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Manter-se numa posição ou estado; conservar."
+   ],
+   "nota": "«Hold thee still» é «fica quieto», «cala-te»: manter-se sem agir ou falar."
+  },
+  "hold#6": {
+   "lema": "hold",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Manter-se numa posição ou estado; conservar."
+   ],
+   "nota": "«Hold what distance» é «guardar a distância que…»: manter-se a certa distância."
   },
   "holds": {
    "lema": "hold",
@@ -10037,6 +10203,22 @@
     "Transferir a responsabilidade ou a atenção por (algo) a alguém; deixar a cargo."
    ]
   },
+  "leave#5": {
+   "lema": "leave",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Fazer ou deixar que algo permaneça."
+   ],
+   "nota": "«To leave no rubs» é «para não deixar estorvos»: nada que atrapalhe a obra."
+  },
+  "leave#6": {
+   "lema": "leave",
+   "classe": "verbo",
+   "def": [
+    "(arcaico, transitivo) Parar; desistir de."
+   ],
+   "nota": "«You must leave this» é «tendes de deixar isto»: Lady Macbeth manda-o largar aquelas ideias."
+  },
   "leave-taking": {
    "lema": "leave-taking",
    "classe": "substantivo",
@@ -10444,6 +10626,13 @@
    ],
    "nota": "«Look to the lady» é «cuidai da senhora»: socorrei Lady Macbeth, que desfalece."
   },
+  "look#4": {
+   "lema": "look",
+   "classe": "verbo",
+   "def": [
+    "Tentar ver; dirigir os olhos para prestar atenção."
+   ]
+  },
   "look'd": {
    "lema": "look",
    "classe": "verbo",
@@ -10533,6 +10722,21 @@
    "def": [
     "Ter forte afeição por (alguém ou algo); amar."
    ]
+  },
+  "love#3": {
+   "lema": "love",
+   "classe": "substantivo",
+   "def": [
+    "Afeição forte; cuidado profundo e afetuoso por alguém."
+   ]
+  },
+  "love#4": {
+   "lema": "love",
+   "classe": "substantivo",
+   "def": [
+    "Afeição forte; cuidado profundo e afetuoso por alguém."
+   ],
+   "nota": "«Make love» é «fazer a corte», aqui «procurar a amizade» dos assassinos."
   },
   "loved": {
    "lema": "love",
@@ -10672,6 +10876,13 @@
     "(transitivo, causativo) Fazer com que (alguém ou algo) seja, fique ou faça algo."
    ]
   },
+  "make#4": {
+   "lema": "make",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Criar; construir, produzir."
+   ]
+  },
   "make's": {
    "lema": "make",
    "classe": "verbo",
@@ -10696,6 +10907,15 @@
     "(transitivo, causativo) Fazer com que (alguém ou algo) seja, fique ou faça algo."
    ],
    "nota": "«Makes him stand to» é «faz com que ele fique firme»."
+  },
+  "makes#3": {
+   "lema": "make",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Criar; produzir."
+   ],
+   "nota": "«Makes wing» é «voa», «toma o ar»: o corvo ganha asa e vai ao bosque."
   },
   "making": {
    "lema": "make",
@@ -10892,6 +11112,14 @@
     "Alguém que tem o controle sobre algo ou alguém."
    ],
    "nota": "«Thy master» é «o teu senhor», o dono da casa."
+  },
+  "master#3": {
+   "lema": "master",
+   "classe": "substantivo",
+   "def": [
+    "Alguém que tem o controle sobre algo ou alguém."
+   ],
+   "nota": "«Master of his time» é «dono do seu tempo»: cada um livre para usar a tarde como quiser."
   },
   "master's": {
    "lema": "master",
@@ -11095,6 +11323,14 @@
    "forma": "plural",
    "def": [
     "(coletivo, formal, datado) Os seres humanos; a humanidade."
+   ]
+  },
+  "men#3": {
+   "lema": "man",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Humano adulto do sexo masculino; homem."
    ]
   },
   "men's": {
@@ -12542,6 +12778,14 @@
     "(obsoleto) De outro modo; de maneira diferente."
    ]
   },
+  "other#3": {
+   "lema": "other",
+   "classe": "pronome",
+   "def": [
+    "Uma outra pessoa ou coisa; outro."
+   ],
+   "nota": "«'Tis no other» é «não é outra coisa»."
+  },
   "others": {
    "lema": "others",
    "classe": "substantivo",
@@ -13602,6 +13846,21 @@
     "O tempo presente; o momento atual."
    ]
   },
+  "present#3": {
+   "lema": "present",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Pôr (algo) à vista para que seja visto; mostrar, exibir."
+   ],
+   "nota": "«Present him eminence» é «mostra-lhe distinção», «honra-o»: dá-lhe realce."
+  },
+  "present#4": {
+   "lema": "present",
+   "classe": "adjetivo",
+   "def": [
+    "Que está na vizinhança imediata; presente."
+   ]
+  },
   "pretence": {
    "lema": "pretense",
    "classe": "substantivo",
@@ -13949,6 +14208,13 @@
     "(transitivo) Vestir, pôr sobre si (roupa, equipamento ou o que o valha)."
    ],
    "nota": "Em sentido figurado: «put on manly readiness» é «vestir a prontidão viril»."
+  },
+  "put#3": {
+   "lema": "put",
+   "classe": "verbo",
+   "def": [
+    "Colocar fisicamente (algo ou alguém em algum lugar)."
+   ]
   },
   "puts": {
    "lema": "put",
@@ -15685,6 +15951,30 @@
     "O ocaso do sol ou de outro astro; (por extensão) o fim do dia."
    ]
   },
+  "set#3": {
+   "lema": "set",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Prender ou fixar (algo) a outra coisa, ou em certo lugar."
+   ],
+   "nota": "«Set me up in hope» é «firmar-me na esperança»: pôr-me de pé, com a esperança de ser pai de reis."
+  },
+  "set#4": {
+   "lema": "set",
+   "classe": "verbo",
+   "def": [
+    "(obsoleto) Apostar no jogo; arriscar."
+   ],
+   "nota": "«Set my life on any chance» é «apostar a minha vida em qualquer lance do acaso»."
+  },
+  "set#5": {
+   "lema": "set upon",
+   "classe": "verbo",
+   "def": [
+    "Atacar alguém."
+   ],
+   "nota": "«They set upon Banquo» é «lançam-se sobre Banquo»: os assassinos o atacam."
+  },
   "sets": {
    "lema": "set",
    "classe": "verbo",
@@ -16929,6 +17219,37 @@
    ],
    "nota": "«In the great hand of God I stand» é «na grande mão de Deus eu me firmo»: Banquo se entrega à proteção divina."
   },
+  "stand#3": {
+   "lema": "stand",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Permanecer válido; continuar em vigor."
+   ],
+   "nota": "«It should not stand in thy posterity» é «não ficaria na tua descendência»: a coroa não permaneceria nos filhos de Banquo."
+  },
+  "stand#4": {
+   "lema": "stand",
+   "classe": "verbo",
+   "def": [
+    "Colocar-se ou estar colocado em determinada posição física; manter-se de pé."
+   ]
+  },
+  "stand#5": {
+   "lema": "stand",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Manter a posição; não ceder nem falhar; manter-se firme."
+   ],
+   "nota": "«Stand to 't» é «mantende-vos firmes», «a postos»: o assassino manda os outros esperarem o ataque."
+  },
+  "stand#6": {
+   "lema": "stand on",
+   "classe": "verbo",
+   "def": [
+    "Observar uma cerimônia ou tradição; insistir no comportamento ou no reconhecimento devidos."
+   ],
+   "nota": "«Stand not upon the order of your going» é «não vos prendais à ordem da vossa saída»: saí todos de uma vez, sem cerimônia."
+  },
   "stands": {
    "lema": "stand",
    "classe": "verbo",
@@ -16985,6 +17306,22 @@
     "Alta posição social; pompa, cerimônia ou dignidade."
    ],
    "nota": "«Throne and state» é «trono e majestade»."
+  },
+  "state#3": {
+   "lema": "state",
+   "classe": "substantivo",
+   "def": [
+    "Comunidade política; governo do reino."
+   ],
+   "nota": "«Cause of state» é «assunto de Estado», negócio do governo do reino."
+  },
+  "state#4": {
+   "lema": "state",
+   "classe": "substantivo",
+   "def": [
+    "Cadeira com dossel, sobre um estrado; assento de honra."
+   ],
+   "nota": "«Keeps her state» é «mantém-se na sua cadeira de honra»: Lady Macbeth fica sentada no trono, como rainha."
   },
   "station": {
    "lema": "station",
@@ -18442,6 +18779,14 @@
    ],
    "nota": "«I had thought to» é «eu tinha pensado em», «tinha a intenção de»."
   },
+  "thought#5": {
+   "lema": "thought",
+   "classe": "substantivo",
+   "def": [
+    "Uma representação criada na mente; um ato de pensar."
+   ],
+   "nota": "«Upon a thought» é «num instante», tão depressa quanto se pensa."
+  },
   "thoughts": {
    "lema": "thought",
    "classe": "substantivo",
@@ -18648,6 +18993,14 @@
     "As circunstâncias de uma época; o tempo presente."
    ],
    "nota": "«Look like the time» é «ter o aspecto que a ocasião pede»."
+  },
+  "time#3": {
+   "lema": "time",
+   "classe": "substantivo",
+   "def": [
+    "(contável) Momento ou hora determinados; o momento oportuno para algo."
+   ],
+   "nota": "«The perfect spy o' the time» é «o aviso exato do momento», a hora certa; «in best time» é «na melhor hora», no momento oportuno."
   },
   "timely": {
    "lema": "timely",
@@ -20178,6 +20531,13 @@
     "Saudação dirigida a quem chega: seja bem-vindo."
    ]
   },
+  "welcome#3": {
+   "lema": "welcome",
+   "classe": "adjetivo",
+   "def": [
+    "Cuja chegada é motivo de alegria; recebido com satisfação."
+   ]
+  },
   "well": {
    "lema": "well",
    "classe": "advérbio",
@@ -20740,6 +21100,13 @@
    ],
    "nota": "Indicação cênica: «within» é «nos bastidores», fora da vista do público."
   },
+  "within#3": {
+   "lema": "within",
+   "classe": "preposição",
+   "def": [
+    "Antes que acabe o prazo indicado; dentro de."
+   ]
+  },
   "without": {
    "lema": "without",
    "classe": "preposição",
@@ -21052,6 +21419,24 @@
     "(transitivo) Fazer operar; produzir, mover, agir sobre."
    ],
    "nota": "«Free» é aqui advérbio, «livremente»: «should free have wrought» é «teria agido sem estorvo»."
+  },
+  "wrought#3": {
+   "lema": "work",
+   "classe": "verbo",
+   "forma": "particípio passado (arcaico)",
+   "def": [
+    "(transitivo) Fazer operar; produzir, mover, agir sobre."
+   ],
+   "nota": "«Wrought with them» é «agiu junto com eles», fez o jogo deles."
+  },
+  "wrought#4": {
+   "lema": "work",
+   "classe": "verbo",
+   "forma": "particípio passado (arcaico)",
+   "def": [
+    "(transitivo) Fazer operar; produzir, mover, agir sobre."
+   ],
+   "nota": "«Must be wrought» é «tem de ser executado»: a obra da noite se cumprirá até o meio-dia."
   },
   "yawning": {
    "lema": "yawning",
@@ -21829,39 +22214,403 @@
   "12:53.2": "father#2",
   "12:55.1": "that#2",
   "12:55.3": "make#2",
+  "13:5.6": "yet#2",
+  "13:5.8": "was#2",
+  "13:6.4": "stand#3",
+  "13:7.2": "that#5",
+  "13:7.9": "father#3",
+  "13:10.1": "why#2",
+  "13:10.7": "made#2",
+  "13:11.7": "as#2",
+  "13:12.2": "set#3",
+  "13:12.10": "more#2",
+  "13:13.5": "as#3",
+  "13:13.9": "as#3",
+  "13:14.2": "our#2",
+  "13:15.3": "had#3",
+  "13:16.2": "had#3",
+  "13:18.2": "we#2",
+  "13:18.3": "hold#4",
+  "13:26.1": "we#2",
+  "13:26.3": "have#2",
+  "13:27.5": "both#2",
   "13:27.6": "grave#2",
+  "13:30.1": "as#2",
   "13:31.10": "better#2",
+  "13:33.3": "dark#2",
+  "13:33.4": "hour#2",
+  "13:34.3": "our#2",
+  "13:36.1": "we#2",
+  "13:36.3": "our#2",
+  "13:40.3": "we#2",
+  "13:40.4": "shall#3",
+  "13:40.8": "state#3",
+  "13:43.8": "call#2",
+  "13:45.2": "so#2",
+  "13:46.1": "farewell#2",
+  "13:47.3": "man#2",
+  "13:47.5": "master#3",
+  "13:48.1": "till#2",
+  "13:48.5": "to#2",
+  "13:48.6": "make#2",
+  "13:49.3": "welcome#3",
+  "13:49.4": "we#2",
+  "13:50.1": "till#2",
+  "13:51.3": "but#2",
+  "13:52.7": "those#2",
+  "13:52.8": "men#3",
+  "13:53.1": "our#2",
+  "13:56.1": "to#2",
+  "13:57.2": "to#2",
+  "13:57.6": "our#2",
+  "13:60.3": "that#6",
+  "13:61.5": "that#2",
+  "13:62.1": "to#2",
+  "13:62.2": "act#3",
+  "13:62.8": "but#2",
+  "13:63.2": "being#3",
+  "13:68.4": "father#3",
+  "13:70.2": "put#3",
+  "13:71.2": "to#2",
+  "13:71.8": "hand#2",
+  "13:72.9": "so#2",
+  "13:73.4": "have#2",
+  "13:74.6": "have#2",
+  "13:75.1": "put#3",
+  "13:76.5": "mine#2",
+  "13:77.7": "man#2",
+  "13:78.1": "to#2",
+  "13:78.2": "make#2",
+  "13:79.3": "so#2",
+  "13:82.10": "we#2",
+  "13:82.11": "call#2",
+  "13:85.3": "so#3",
+  "13:86.1": "well#3",
+  "13:86.2": "then#2",
+  "13:87.1": "have#2",
+  "13:88.1": "that#5",
+  "13:89.1": "so#2",
+  "13:89.6": "thought#2",
+  "13:89.7": "had#3",
+  "13:90.1": "our#2",
+  "13:90.6": "made#2",
+  "13:91.2": "our#2",
+  "13:92.6": "hand#3",
+  "13:93.2": "wrought#3",
+  "13:93.9": "that#2",
+  "13:96.2": "made#2",
+  "13:96.4": "known#2",
+  "13:97.3": "so#2",
+  "13:98.1": "our#2",
+  "13:98.2": "point#2",
+  "13:100.1": "that#3",
+  "13:101.1": "to#2",
+  "13:102.3": "hand#2",
+  "13:104.3": "men#3",
+  "13:105.8": "men#3",
+  "13:111.7": "nature#2",
+  "13:114.1": "that#2",
+  "13:114.7": "so#2",
+  "13:114.9": "men#2",
   "13:116.2": "i'",
+  "13:117.4": "put#3",
+  "13:117.5": "that#6",
+  "13:118.2": "execution#3",
+  "13:118.3": "takes#3",
+  "13:119.5": "heart#2",
+  "13:119.7": "love#3",
+  "13:120.1": "who#2",
+  "13:120.3": "our#2",
+  "13:120.5": "but#3",
+  "13:124.1": "have#2",
+  "13:124.4": "that#3",
+  "13:125.2": "do#2",
+  "13:125.3": "to#2",
+  "13:128.1": "that#3",
+  "13:128.4": "set#4",
+  "13:128.9": "chance#3",
+  "13:129.1": "to#2",
+  "13:133.1": "so#4",
+  "13:134.1": "that#3",
+  "13:134.6": "being#3",
+  "13:137.2": "bid#2",
+  "13:137.4": "will#3",
+  "13:137.7": "yet#2",
+  "13:138.1": "for#2",
+  "13:138.4": "that#2",
+  "13:138.6": "both#2",
   "13:139.6": "drop#2",
+  "13:140.1": "who#2",
+  "13:141.1": "that#3",
+  "13:141.7": "make#4",
+  "13:141.8": "love#4",
   "13:142.6": "common#2",
+  "13:144.2": "shall#3",
+  "13:145.2": "what#2",
+  "13:147.6": "within#3",
+  "13:147.8": "hour#2",
+  "13:148.6": "to#2",
   "13:149.5": "perfect#2",
   "13:149.7": "o'",
+  "13:149.9": "time#3",
+  "13:150.5": "for#2",
+  "13:151.7": "thought#2",
+  "13:152.1": "that#5",
+  "13:153.1": "to#2",
+  "13:153.2": "leave#5",
+  "13:154.4": "that#2",
+  "13:157.2": "that#6",
+  "13:157.3": "dark#2",
+  "13:158.5": "anon#3",
+  "13:160.2": "call#2",
+  "13:160.7": "within#2",
+  "13:163.4": "heaven#2",
+  "14:8.2": "had#2",
+  "14:10.3": "to#2",
+  "14:13.2": "now#2",
+  "14:15.2": "those#2",
+  "14:15.7": "have#2",
+  "14:18.2": "have#2",
+  "14:19.8": "poor#2",
+  "14:22.8": "fear#2",
+  "14:24.1": "that#2",
+  "14:25.3": "to#2",
+  "14:25.7": "have#2",
+  "14:26.8": "to#2",
   "14:29.5": "worst#2",
+  "14:33.1": "gentle#2",
+  "14:35.1": "so#2",
+  "14:35.2": "shall#3",
+  "14:35.6": "so#2",
+  "14:37.1": "present#3",
+  "14:37.4": "both#2",
+  "14:38.4": "that#3",
+  "14:40.2": "make#2",
+  "14:41.2": "what#2",
+  "14:42.3": "leave#6",
+  "14:44.3": "that#5",
+  "14:47.1": "then#2",
+  "14:52.2": "to#2",
+  "14:56.7": "hand#2",
+  "14:57.6": "that#6",
+  "14:59.1": "makes#3",
+  "14:60.6": "to#2",
+  "14:62.7": "hold#5",
+  "14:63.4": "make#2",
+  "14:63.5": "strong#2",
+  "14:64.1": "so#2",
+  "15:3.4": "bid#2",
+  "15:6.4": "what#2",
+  "15:6.7": "to#2",
+  "15:6.8": "do#2",
+  "15:8.1": "then#2",
+  "15:8.2": "stand#4",
+  "15:11.1": "to#2",
   "15:11.2": "gain#2",
+  "15:14.1": "within#2",
+  "15:15.1": "then#2",
+  "15:16.1": "that#2",
   "15:16.5": "note#2",
   "15:17.3": "i'",
+  "15:20.1": "so#4",
+  "15:20.3": "men#2",
+  "15:20.4": "do#3",
+  "15:21.1": "make#2",
+  "15:25.1": "stand#5",
+  "15:28.2": "set#5",
+  "15:33.2": "but#3",
+  "15:34.2": "have#2",
+  "15:36.1": "well#3",
+  "16:8.1": "our#2",
+  "16:8.5": "state#4",
+  "16:8.9": "time#3",
+  "16:9.1": "we#2",
   "16:9.3": "require#2",
+  "16:11.1": "for#2",
+  "16:11.3": "heart#2",
+  "16:11.7": "welcome#3",
   "16:14.8": "i'",
+  "16:15.5": "anon#3",
+  "16:15.7": "drink#3",
+  "16:17.3": "then#2",
+  "16:18.7": "within#2",
   "16:21.5": "o'",
+  "16:21.8": "yet#2",
+  "16:22.1": "that#2",
+  "16:26.8": "had#3",
   "16:27.1": "whole#2",
+  "16:28.1": "as#2",
   "16:28.4": "general#2",
+  "16:36.3": "that#2",
+  "16:37.5": "present#2",
+  "16:37.6": "get#3",
+  "16:41.1": "that#2",
+  "16:42.5": "to#2",
+  "16:51.8": "present#4",
+  "16:56.1": "to#2",
+  "16:56.2": "grace#3",
+  "16:59.1": "where#2",
+  "16:60.7": "that#2",
+  "16:61.1": "which#2",
+  "16:61.4": "have#2",
+  "16:62.1": "what#4",
+  "16:65.7": "well#2",
+  "16:68.7": "thought#5",
+  "16:69.5": "well#2",
   "16:69.9": "note#3",
   "16:71.3": "regard#2",
+  "16:72.6": "that#2",
+  "16:72.8": "look#4",
+  "16:75.4": "very#2",
+  "16:75.8": "fear#2",
+  "16:78.4": "fear#2",
+  "16:80.5": "shame#2",
+  "16:81.4": "make#4",
+  "16:82.2": "look#4",
+  "16:82.3": "but#3",
   "16:83.4": "behold#2",
+  "16:84.1": "why#2",
+  "16:84.3": "care#3",
+  "16:84.10": "too#2",
+  "16:86.2": "that#2",
+  "16:86.3": "we#3",
+  "16:88.1": "what#4",
+  "16:89.3": "stand#4",
+  "16:90.3": "shame#2",
   "16:91.7": "i'",
+  "16:93.4": "too#2",
+  "16:93.6": "have#2",
+  "16:95.1": "that#2",
+  "16:97.3": "mortal#2",
+  "16:98.9": "more#2",
+  "16:99.4": "murder#2",
+  "16:105.3": "that#2",
+  "16:105.7": "love#3",
+  "16:106.10": "full#2",
+  "16:107.2": "drink#4",
   "16:107.5": "general#2",
   "16:107.7": "o'",
   "16:107.9": "whole",
   "16:107.10": "table#2",
+  "16:115.6": "those#2",
+  "16:118.2": "as#3",
+  "16:118.9": "other#3",
+  "16:119.8": "time#2",
+  "16:120.1": "what#2",
+  "16:121.1": "approach#2",
   "16:121.5": "rugged#2",
+  "16:123.4": "but#2",
+  "16:126.5": "then#2",
+  "16:129.1": "why#2",
+  "16:129.2": "so#2",
+  "16:129.3": "being#2",
+  "16:131.2": "have#2",
+  "16:135.6": "make#2",
+  "16:136.5": "that#2",
+  "16:136.7": "owe#2",
+  "16:139.6": "fear#2",
+  "16:140.1": "what#5",
+  "16:143.1": "stand#6",
+  "16:148.3": "but#2",
+  "16:149.3": "have#4",
+  "16:149.9": "have#4",
+  "16:150.2": "have#2",
+  "16:150.4": "known#2",
+  "16:150.5": "to#2",
+  "16:150.9": "to#2",
+  "16:151.5": "have#2",
+  "16:154.6": "which#2",
+  "16:154.8": "which#2",
+  "16:155.4": "that#5",
+  "16:156.2": "our#2",
+  "16:162.5": "for#2",
+  "16:162.10": "to#2",
   "16:163.6": "worst#2",
+  "16:163.8": "mine#2",
+  "16:165.5": "that#3",
+  "16:165.10": "more#2",
+  "16:166.3": "as#2",
+  "16:167.7": "that#2",
+  "16:167.10": "hand#4",
+  "16:171.4": "fear#2",
+  "16:171.5": "that#2",
+  "16:171.8": "use#2",
+  "16:172.4": "but#3",
+  "17:3.1": "why#2",
+  "17:3.3": "now#2",
+  "17:3.6": "look#2",
+  "17:6.1": "to#2",
   "17:9.2": "close#2",
+  "17:10.1": "was#2",
+  "17:10.4": "to#2",
+  "17:11.7": "art#2",
+  "17:12.7": "have#2",
+  "17:13.3": "but#3",
+  "17:14.4": "who#2",
+  "17:14.7": "do#3",
   "17:15.1": "loves#2",
+  "17:16.2": "make#4",
+  "17:16.5": "get#3",
   "17:18.3": "i'",
+  "17:19.3": "to#2",
+  "17:24.5": "wrought#4",
   "17:26.5": "drop",
+  "17:33.5": "grace#4",
+  "17:33.7": "fear#2",
+  "17:36.5": "within#2",
+  "17:39.3": "make#4",
+  "18:3.4": "have#2",
+  "18:3.5": "but#3",
+  "18:5.2": "have#2",
+  "18:6.1": "was#2",
+  "18:7.7": "late#2",
+  "18:9.1": "for#2",
+  "18:9.4": "men#2",
+  "18:9.9": "late#2",
+  "18:10.1": "who#3",
+  "18:12.1": "to#2",
+  "18:12.5": "father#3",
+  "18:15.1": "that#2",
+  "18:15.6": "drink#2",
+  "18:16.1": "was#2",
+  "18:16.9": "too#2",
+  "18:17.1": "for#2",
+  "18:17.3": "have#2",
+  "18:17.6": "heart#2",
+  "18:18.1": "to#2",
+  "18:18.4": "men#3",
+  "18:18.7": "so#2",
+  "18:18.8": "that#3",
+  "18:20.1": "that#5",
+  "18:20.2": "had#4",
+  "18:21.4": "heaven#3",
+  "18:22.3": "to#2",
+  "18:22.6": "father#3",
+  "18:22.7": "so#4",
+  "18:23.2": "peace#2",
+  "18:23.3": "for#2",
   "18:23.8": "cause#2",
+  "18:26.1": "where#2",
+  "18:31.1": "that#3",
+  "18:31.6": "nothing#2",
+  "18:32.1": "takes#2",
+  "18:33.3": "to#2",
+  "18:34.1": "to#2",
+  "18:35.1": "that#4",
+  "18:36.1": "to#2",
+  "18:39.1": "do#2",
+  "18:40.9": "report#2",
+  "18:41.6": "that#3",
   "18:46.2": "hums#2",
+  "18:46.3": "as#6",
+  "18:46.4": "who#3",
+  "18:47.1": "that#2",
+  "18:49.6": "to#2",
+  "18:49.7": "hold#6",
+  "18:49.8": "what#2",
   "18:51.1": "fly#2",
+  "18:52.6": "that#4",
+  "18:54.3": "hand#2",
   "19:11.4": "i'",
   "19:27.5": "i'",
   "19:43.6": "i'",

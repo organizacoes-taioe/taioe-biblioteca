@@ -724,6 +724,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'plutarco',
+  nome: 'Plutarco',
+  nomeCompleto: 'Plutarco de Queroneia',
+  vida: '~46–~120',
+  ordem: 'Plutarco',
+  area: 'nao-ficcao',
+  nota: 'Escritor grego da Beócia, sacerdote de Apolo em Delfos, autor das Vidas paralelas de gregos e romanos.'
+});
+
+BIBLIOTECA.autor({
   id: 'seneca',
   nome: 'Sêneca',
   nomeCompleto: 'Lúcio Aneu Sêneca',

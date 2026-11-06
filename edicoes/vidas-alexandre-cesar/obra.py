@@ -9,7 +9,31 @@ META = {
     'original_ao_lado': True,
     'edicao': {
         'titulo': 'Sobre esta tradução',
-        'apresentacao': 'A ESCREVER no fim (ver FALTA.md).',
+        'apresentacao': (
+            '**O texto e o autor.** Plutarco nasceu por volta do ano 46 em Queroneia, na Beócia, onde passou quase '
+            'toda a vida; foi sacerdote de Apolo em Delfos e morreu depois de 119. Das suas _Vidas paralelas_, '
+            'escritas nos últimos vinte anos da vida, restam 23 pares: em cada um, um grego e um romano, contados '
+            'lado a lado e, em geral, comparados no fim. Este é o mais célebre, Alexandre, rei da Macedônia (356–323 '
+            'a.C.), e Caio Júlio César (100–44 a.C.). Plutarco avisa logo no começo que não escreve história, mas '
+            'vidas: busca o caráter, que muitas vezes se mostra melhor num dito ou numa brincadeira do que nas '
+            'grandes batalhas, e por isso resume as guerras e se demora nas anedotas. A comparação que costuma '
+            'fechar cada par perdeu-se neste, e muitos estudiosos acham que se perdeu também o começo da _Vida de '
+            'César_, que abre de repente, já no casamento dele com Cornélia.\n\n'
+            '**A divisão.** Os capítulos e as seções são os da numeração usual (as pequenas marcas no texto: 1.1 é o '
+            'capítulo 1, seção 1), 77 capítulos na _Vida de Alexandre_ e 69 na de César. Os grupos de capítulos e os '
+            'títulos deles são desta edição, para a leitura em partes.\n\n'
+            '**A tradução.** Do grego, em português do Brasil, fiel ao sentido e à ordem das ideias, sem acréscimos; '
+            'as frases longas de Plutarco foram desdobradas onde o português pedia. Os nomes estão na forma '
+            'portuguesa usual, e os romanos voltam à forma latina (Pompeu, Cipião, Lúculo). Os cargos de Roma, que '
+            'Plutarco dá com palavras gregas, levam o nome romano: cônsul, pretor, questor, edil, tribuno da plebe, '
+            'pontífice máximo. Os versos citados vão em verso livre. Em duas passagens o texto dos manuscritos se '
+            'perdeu (os «…» em Alexandre 35.6 e César 42.1).\n\n'
+            '**O original.** O grego, no botão «Grego», é o da edição de Bernadotte Perrin (_Plutarch\'s Lives_, vol. '
+            'VII, coleção Loeb, 1919), em domínio público, que segue em geral o texto de Sintenis (Teubner, 1873–1875). '
+            'Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por palavra, com o fac-símile '
+            'da edição de 1919; corrigimos pela imagem uns 60 erros de digitação (sílabas perdidas, palavras '
+            'trocadas, restos soltos, uma oração repetida) e 355 acentos. Ficaram de fora as notas críticas de Perrin, '
+            'e a tradução inglesa dele, ao lado do grego na edição Loeb, serviu só para conferir o sentido.'),
         'fontes': [
             {'nome': 'Bernadotte Perrin, Plutarch\'s Lives, vol. VII (Loeb, 1919), no Internet Archive',
              'url': 'https://archive.org/details/plutarchslives07plut',

@@ -1,18 +1,17 @@
-# Vidas paralelas, Alexandre e César: o que falta
+# Vidas paralelas, Alexandre e César: estado
 
 Branch `pedido-vidas-alexandre-cesar` do `taioe-biblioteca`. Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`.
 
-## Feito
-- Grego de Perrin (1919) montado e conferido com o fac-símile (`original/`, `original/LEIAME.md`; scripts em
-  `ferramentas/`, rodar de `~/.cache/claude-pedidos-0511/vidas-alexandre-cesar/`, onde estão os downloads).
-- `CONVENCOES.md`, `obra.py` (18 partes: 9 de cada vida, agrupadas por `divisao.agrupar`).
+## Pronto (2026-11-06)
+- Grego de Perrin (1919) conferido com o fac-símile (`original/LEIAME.md`; scripts em `ferramentas/`, rodados de
+  `~/.cache/claude-pedidos-0511/vidas-alexandre-cesar/`, onde estão os downloads do Perseus e do Internet Archive).
+- Tradução inteira (18 arquivos, ~45 mil palavras), feita por três tradutores e revisada por um quarto contra o grego;
+  notas dos tradutores em `traducao/notas-*.md`.
+- `obra.py` com a «Sobre», `revisao.json` (8 decisões), autor `plutarco`, `conteudo/plutarco/`,
+  `edicoes/vocabulario/vidas-alexandre-cesar.json` (47 verbetes, `conferir` ok).
 
-## Falta
-- Traduzir (um arquivo de `traducao/` por arquivo de `original/`, mesmo número de blocos):
-  Alexandre: 1-8, 9-14, 15-21, 22-30, 31-38, 39-47, 48-55, 56-67, 68-77;
-  César: 1-4, 5-14, 15-21, 22-27, 28-35, 36-46, 47-56, 57-61, 62-69.
-- Uniformizar nomes e termos (ler as `traducao/notas-*.md`), varrer mesóclise.
-- `revisao.json` (~8 decisões), «Sobre» (`apresentacao` em `obra.py`, dizer que a synkrisis se perdeu e que o
-  começo de César talvez também), autor novo `plutarco` em `conteudo/autores.js` (área nao-ficcao),
-  `edicoes/vocabulario/vidas-alexandre-cesar.json`.
-- `python3 ferramentas/traducoes.py vidas-alexandre-cesar`, gerar/conferir o site, limpar `public/` etc., commit.
+## Para o principal
+- Juntar a branch, `node ferramentas/site/gerar.mjs`, Catálogo `obras` (obra nova), `traducoes_revisao.py --revisao`
+  e Catálogo `traducoes`; tirar dos pedidos. Nenhuma regra de `_redirects`.
+- Notas gerais (lote futuro): o trocadilho de Amon (Alex. 27.5, ver `revisao.json`), os jogos de 24.5 (sátiro, σὰ
+  Τύρος), 37.1 (λύκος, Λύκιος) e 2.5 (θρησκεύειν), Corfínio = Cornifício (César 43.1, 51.2).

@@ -162,6 +162,13 @@ def curta(x):
     d = x.get('def') or [x.get('nota', '')] if 'partes' not in x else [' + '.join(p.get('def', [''])[0] for p in x['partes'])]
     return ('%s; %s' % (x.get('classe', ''), (d[0] if d else '')[:90]))
 mapear, revisar = [], []
+# só as chaves que já apareceram nas partes anteriores (as do próprio ato foram feitas com as fichas dele)
+primeira = min(L.achar_parte(mb, nome)[0] for nome in partes)
+de_antes = set()
+for kp, _x in L.partes_de(mb, True):
+    if kp < primeira:
+        for ref, pal, *_r in L.ocorrencias(mb, kp):
+            de_antes.add(g.get('ocorrencias', {}).get(ref, L.chave(pal)).split('#')[0])
 porchave = {}
 for nome in partes:
     kp, _x = L.achar_parte(mb, nome)
@@ -169,7 +176,7 @@ for nome in partes:
     for ref, pal, n, *_r in L.ocorrencias(mb, kp):
         k = g.get('ocorrencias', {}).get(ref, L.chave(pal))
         b = k.split('#')[0]
-        if b in feitos or b in bases:
+        if (b in feitos or b in bases) and b in de_antes:
             porchave.setdefault(b, []).append((ref, k, linhas[n].strip()))
 for b, lst in porchave.items():
     vs = sorted(bases.get(b, []))

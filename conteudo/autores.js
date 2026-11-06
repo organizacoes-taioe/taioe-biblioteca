@@ -736,11 +736,11 @@ BIBLIOTECA.autor({
 BIBLIOTECA.autor({
   id: 'frederick-douglass',
   nome: 'Frederick Douglass',
-  nomeCompleto: 'Frederick Augustus Washington Bailey, depois Frederick Douglass',
+  nomeCompleto: 'Frederick Douglass',
   vida: '~1818–1895',
   ordem: 'Douglass, Frederick',
   area: 'nao-ficcao',
-  nota: 'Nasceu escravo em Maryland, fugiu em 1838 e tornou-se o maior orador do abolicionismo americano.'
+  nota: 'Nascido escravo em Maryland, com o nome de Frederick Augustus Washington Bailey, fugiu em 1838 e tornou-se o maior orador do abolicionismo americano.'
 });
 
 BIBLIOTECA.autor({

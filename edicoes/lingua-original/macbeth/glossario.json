@@ -424,6 +424,14 @@
    ],
    "nota": "A bruxa responde ao chamado: «anon!» é «já vou!»."
   },
+  "anon#2": {
+   "lema": "anon",
+   "classe": "advérbio",
+   "def": [
+    "(arcaico) Imediatamente; já, logo."
+   ],
+   "nota": "O porteiro responde ao bater à porta: «anon!» é «já vou!»."
+  },
   "another": {
    "lema": "another",
    "classe": "determinante",
@@ -2022,6 +2030,14 @@
    ],
    "nota": "Personificado: «chance may crown me» é «o acaso pode me coroar»."
   },
+  "chance#2": {
+   "lema": "chance",
+   "classe": "substantivo",
+   "def": [
+    "Ocorrência aleatória; sorte, acaso."
+   ],
+   "nota": "«This chance» é «este acontecimento», o que acabou de suceder."
+  },
   "chanced": {
    "lema": "chance",
    "classe": "verbo",
@@ -2954,6 +2970,14 @@
     "Estado do que é escuro; falta de luz."
    ],
    "nota": "«Instruments of darkness» são os agentes do mal: os espíritos malignos, o que tem a ver com as trevas."
+  },
+  "darkness#2": {
+   "lema": "darkness",
+   "classe": "substantivo",
+   "def": [
+    "Estado do que é escuro; falta de luz."
+   ],
+   "nota": "«Darkness does the face of earth entomb» é «a escuridão sepulta a face da terra»."
   },
   "dash'd": {
    "lema": "dash",
@@ -4843,6 +4867,14 @@
    ],
    "nota": "Aqui, a Fortuna ou a sorte, tratada como pessoa: «fortune smiling» é «a sorte a sorrir»."
   },
+  "fortune#2": {
+   "lema": "fortune",
+   "classe": "substantivo",
+   "def": [
+    "Destino, em especial favorável."
+   ],
+   "nota": "«Our separated fortune» é «a nossa sorte, separada»: cada irmão tomará um caminho."
+  },
   "fought": {
    "lema": "fight",
    "classe": "verbo",
@@ -5045,6 +5077,14 @@
    ],
    "nota": "«'Gainst» é «against» sem o «a» inicial. «Fought 'gainst my captivity» é «lutou para me livrar do cativeiro», isto é, para me defender da captura."
   },
+  "gainst#2": {
+   "lema": "'gainst",
+   "classe": "preposição",
+   "def": [
+    "(poético) Contra."
+   ],
+   "nota": "«'Gainst» é «against» sem o «a» inicial: «'gainst nature» é «contra a natureza»."
+  },
   "gall": {
    "lema": "gall",
    "classe": "substantivo",
@@ -5245,6 +5285,15 @@
    ],
    "nota": "«I have given suck» é «amamentei»."
   },
+  "given#2": {
+   "lema": "give",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(bitransitivo) Passar, dar algo, concreto ou abstrato, a alguém."
+   ],
+   "nota": "«Hath given me fire» é «deu-me fogo», ânimo."
+  },
   "gives": {
    "lema": "give",
    "classe": "verbo",
@@ -5350,6 +5399,14 @@
    ],
    "nota": "«Golden opinions» são opiniões preciosas, de grande valor."
   },
+  "golden#2": {
+   "lema": "golden",
+   "classe": "adjetivo",
+   "def": [
+    "Feito de ouro, ou relativo a ouro; dourado."
+   ],
+   "nota": "«His golden blood» é «o seu sangue dourado», adorno do corpo do rei, em imagem."
+  },
   "golgotha": {
    "lema": "Golgotha",
    "classe": "nome próprio",
@@ -5420,6 +5477,14 @@
     "(arcaico) Favor, mercê, benevolência."
    ],
    "nota": "«Present grace» é «um favor imediato»."
+  },
+  "grace#2": {
+   "lema": "grace",
+   "classe": "substantivo",
+   "def": [
+    "(contável, incontável) Qualidades encantadoras e agradáveis; graça."
+   ],
+   "nota": "«Renown and grace» é «a fama e a graça (a virtude)»."
   },
   "graces": {
    "lema": "grace",
@@ -5669,6 +5734,13 @@
     "A parte do membro anterior abaixo do antebraço ou do pulso, em humanos e outros primatas; mão."
    ],
    "nota": "«Hand in hand» é «de mãos dadas», a roda em que as bruxas dançam."
+  },
+  "hand#2": {
+   "lema": "hand",
+   "classe": "substantivo",
+   "def": [
+    "A parte do membro anterior abaixo do antebraço ou do pulso, em humanos e outros primatas; mão."
+   ]
   },
   "handle": {
    "lema": "handle",
@@ -7208,6 +7280,14 @@
    ],
    "nota": "«Knock at my ribs» é «bater contra as minhas costelas»: o coração disparado."
   },
+  "knock#2": {
+   "lema": "knock",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Bater com os nós dos dedos em algo, em especial madeira."
+   ],
+   "nota": "«Knock, knock, knock!» é «toc, toc, toc!», o bater à porta."
+  },
   "knocking": {
    "lema": "knock",
    "classe": "substantivo",
@@ -8217,6 +8297,14 @@
     "Alguém que tem o controle sobre algo ou alguém."
    ],
    "nota": "«Master o' the Tiger» é o capitão do navio chamado «Tiger»."
+  },
+  "master#2": {
+   "lema": "master",
+   "classe": "substantivo",
+   "def": [
+    "Alguém que tem o controle sobre algo ou alguém."
+   ],
+   "nota": "«Thy master» é «o teu senhor», o dono da casa."
   },
   "master's": {
    "lema": "master",
@@ -12922,6 +13010,21 @@
    ],
    "nota": "«Strong both against the deed» é «forte, em dobro, contra o ato»: com duas razões fortes para recusá-lo."
   },
+  "strong#2": {
+   "lema": "strong",
+   "classe": "adjetivo",
+   "def": [
+    "(em sentido amplo) Que tem poder, força ou vigor."
+   ]
+  },
+  "strong#3": {
+   "lema": "strong",
+   "classe": "adjetivo",
+   "def": [
+    "(em sentido amplo) Que tem poder, força ou vigor."
+   ],
+   "nota": "«Too strong for him» é «forte demais para ele»: a bebida o venceu, como num combate de luta."
+  },
   "stuck": {
    "lema": "stick",
    "classe": "verbo",
@@ -16361,6 +16464,7 @@
   "9:43.2": "bid#2",
   "9:44.6": "get#3",
   "9:44.9": "bed#2",
+  "9:46.5": "hand#2",
   "9:47.6": "yet#2",
   "9:49.9": "but#3",
   "9:52.7": "as#2",
@@ -16386,6 +16490,7 @@
   "10:3.4": "made#2",
   "10:3.8": "made#2",
   "10:4.1": "what#2",
+  "10:4.6": "given#2",
   "10:4.10": "peace#2",
   "10:5.5": "that#2",
   "10:6.8": "about#3",
@@ -16423,6 +16528,7 @@
   "10:56.4": "that#2",
   "10:56.7": "why#2",
   "10:57.7": "to#2",
+  "10:59.8": "hand#2",
   "10:63.4": "more#2",
   "10:64.4": "to#2",
   "10:64.6": "what#2",
@@ -16435,6 +16541,8 @@
   "10:72.3": "that#6",
   "10:74.1": "what#5",
   "10:74.9": "mine#2",
+  "10:76.4": "hand#2",
+  "10:76.8": "hand#2",
   "10:78.3": "green#2",
   "10:81.1": "to#2",
   "10:81.4": "heart#2",
@@ -16451,23 +16559,35 @@
   "11:2.5": "within#2",
   "11:4.6": "old#2",
   "11:5.1": "within#2",
+  "11:5.2": "knock#2",
+  "11:5.3": "knock#2",
+  "11:5.4": "knock#2",
   "11:5.7": "i'",
   "11:6.5": "that#2",
   "11:6.9": "th'",
   "11:8.7": "within#2",
+  "11:8.8": "knock#2",
+  "11:9.1": "knock#2",
   "11:9.5": "th'",
   "11:10.4": "that#2",
   "11:11.4": "who#2",
   "11:12.3": "yet#2",
   "11:12.8": "heaven#2",
   "11:13.4": "within#2",
+  "11:13.5": "knock#2",
+  "11:13.6": "knock#2",
+  "11:13.7": "knock#2",
   "11:16.6": "within#2",
+  "11:16.7": "knock#2",
+  "11:16.8": "knock#2",
   "11:18.10": "thought#4",
   "11:18.11": "to#2",
   "11:19.1": "have#2",
   "11:19.4": "some#2",
   "11:19.8": "that#2",
   "11:20.7": "within#2",
+  "11:20.8": "anon#2",
+  "11:21.1": "anon#2",
   "11:23.4": "late#2",
   "11:23.10": "bed#2",
   "11:24.1": "that#3",
@@ -16491,9 +16611,11 @@
   "11:37.5": "i'",
   "11:37.7": "very#2",
   "11:38.5": "lie#2",
+  "11:38.11": "strong#3",
   "11:39.9": "yet#2",
   "11:40.2": "to#2",
   "11:40.3": "cast#2",
+  "11:41.3": "master#2",
   "11:48.5": "to#2",
   "11:48.6": "call#2",
   "11:49.2": "have#2",
@@ -16528,8 +16650,10 @@
   "11:106.6": "so#2",
   "11:108.3": "but#3",
   "11:108.6": "hour#2",
+  "11:108.9": "chance#2",
   "11:109.7": "for#2",
   "11:111.3": "but#3",
+  "11:111.7": "grace#2",
   "11:113.5": "to#2",
   "11:118.4": "very#2",
   "11:123.1": "so#4",
@@ -16539,6 +16663,7 @@
   "11:128.1": "that#5",
   "11:129.4": "so#2",
   "11:133.6": "lay#2",
+  "11:134.7": "golden#2",
   "11:135.10": "nature#2",
   "11:139.1": "that#2",
   "11:139.2": "had#2",
@@ -16552,10 +16677,12 @@
   "11:142.1": "look#3",
   "11:143.7": "hold#3",
   "11:144.1": "that#2",
+  "11:149.6": "strong#2",
   "11:151.1": "look#3",
   "11:153.4": "have#3",
   "11:154.1": "that#2",
   "11:156.1": "to#2",
+  "11:157.4": "hand#2",
   "11:157.8": "stand#2",
   "11:158.6": "fight#2",
   "11:160.2": "so#4",
@@ -16568,6 +16695,7 @@
   "11:167.1": "to#2",
   "11:167.8": "office#2",
   "11:168.6": "easy#2",
+  "11:169.6": "fortune#2",
   "11:175.2": "to#2",
   "11:177.2": "shift#2",
   "11:177.7": "that#6",
@@ -16579,8 +16707,10 @@
   "12:10.3": "dark#2",
   "12:11.7": "shame#2",
   "12:12.1": "that#2",
+  "12:12.2": "darkness#2",
   "12:17.1": "was#2",
   "12:20.2": "wild#2",
+  "12:21.2": "gainst#2",
   "12:21.4": "as#4",
   "12:24.3": "so#2",
   "12:24.8": "mine#2",
@@ -16591,6 +16721,7 @@
   "12:30.6": "more#2",
   "12:31.2": "that#2",
   "12:33.1": "what#5",
+  "12:38.1": "gainst#2",
   "12:38.2": "nature#2",
   "12:39.3": "that#2",
   "12:40.1": "thine#2",

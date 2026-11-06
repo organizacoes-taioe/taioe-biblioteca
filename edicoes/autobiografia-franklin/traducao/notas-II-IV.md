@@ -58,3 +58,71 @@ Seguem o guia e as notas de I e III (Biblioteca, «disse ele / disse eu», «em 
 - Filipenses 4,8, da King James; *Keeping holy the Sabbath day* → «Santificar o dia de guarda» (para o
   presbiteriano o *Sabbath* é o domingo; «dia de guarda» como o *Sabbath* de Keimer em I.7).
 - *Articles of Belief and Acts of Religion* → _Artigos de fé e atos de religião_.
+
+## II.3
+
+- As treze virtudes e os preceitos: exatamente os do guia (§ 3). Na lista, em maiúsculas
+  («1. TEMPERANÇA.»); no correr do texto, com inicial maiúscula quando Franklin usa o nome da sua virtude
+  como nome («A Temperança primeiro», «o preceito da Ordem», «incorrigível quanto à Ordem», «à Diligência
+  e à Frugalidade»), como no original; minúscula quando é a ideia geral («A temperança, por exemplo, era
+  restrita por alguns…»). O principal uniformiza.
+- A página do livrinho: as letras dos dias em português (D. S. T. Q. Q. S. S.) e as das virtudes pelos
+  nomes portugueses (T. S. O. R. F. **D**. S. J. M. **L**. T. C. H.: Diligência, Limpeza).
+- O horário: *THE MORNING / NOON / EVENING / NIGHT* → «A MANHÃ / MEIO-DIA / TARDE / NOITE» («tarde» para
+  as 6–9 da noite, para não repetir «noite»; *Supper* → «Jantar», *dine* → «almoçar», pela regra);
+  *address Powerful Goodness!* → «dirigir-me à Bondade poderosa!» (como o «Ó Bondade poderosa!» da oração).
+- *Golden Verses* (Pitágoras) → _Versos de ouro_; *Thomson's Poems* → os _Poemas_ de Thomson; *Cato* →
+  _Catão_ (guia); *The Art of Virtue* → _A arte da virtude_ (guia).
+- *motto* → «divisa» («Outra, de Cícero» concorda com ela).
+- **Cícero** (Tusculanas V,5): latim em itálico, entre as aspas do original, e depois «[Ó filosofia, guia da
+  vida! Ó investigadora das virtudes e expulsora dos vícios! Um só dia vivido bem e segundo os teus
+  preceitos deve ser preferido a uma imortalidade no erro.]» (*peccanti* = que erra).
+- Provérbios 3,16–17 (King James): «Longos dias estão na sua mão direita, e na sua mão esquerda, riquezas e
+  honra. Os seus caminhos são caminhos de delícias, e todas as suas veredas são paz.» iii. 16, 17. Tiago
+  2,15–16: a referência «— Tiago ii. 15, 16.» como a de Franklin.
+- As duas orações tratam Deus por tu. *kind offices* → «bons ofícios»; *truest interest* → «interesse mais
+  verdadeiro».
+- *ivory leaves of a memorandum book* → «folhas de marfim de uma caderneta»; *black-lead pencil* → «lápis de
+  grafite».
+- *journeyman printer* → «oficial impressor»; *master* → «patrão» (guia).
+- O machado: *speckled* → «manchado» («por enquanto está só manchado», «prefiro um machado manchado», «um
+  machado manchado era o melhor»): liga-se aos pontos pretos das páginas e soa bem («machado manchado»).
+  Candidato. *says the man* → «disse o homem» (regra de *says he*); o ferreiro ao freguês: você («gire,
+  gire»).
+- *foppery in morals* → «afetação moral»; *to keep his friends in countenance* → «para deixar os amigos à
+  vontade».
+- *engraved copies* → «modelos gravados de caligrafia» («de caligrafia» para que se entenda; é o caderno de
+  modelos).
+- *I conceive, I apprehend, or I imagine a thing to be so or so* → «“eu suponho”, “eu entendo” ou “eu
+  imagino” que uma coisa seja assim ou assim» (como em I.2, «assim e assim»).
+- *after my character of integrity* → «depois da minha reputação de integridade».
+- *Disguise it, struggle with it, beat it down…* → «Pode-se disfarçá-lo, lutar com ele, derrubá-lo…»;
+  *you will see it, perhaps, often in this history* → «talvez se possa vê-lo muitas vezes nesta história»
+  (impessoal, como o *you* de II.2); *I should probably be proud of my humility* → «eu provavelmente me
+  orgulharia da minha humildade» (guia § 5).
+- *[Thus far written at Passy, 1784.]* → «[Escrito até aqui em Passy, 1784.]».
+
+### Os versos (molde `10: 6-10`, decassílabo heroico, verso branco)
+
+Addison (_Catão_ V,1), 4 versos, todos ✓:
+
+    “Firmo-me nisto: se há poder acima          ✓ 1-4-6-8-10
+    (e que há, a natureza inteira o clama        ✓ 2-6-8-10
+    em cada obra), compraz-se na virtude;        ✓ 2-3-6-10
+    e aquilo que lhe apraz será feliz.”          ✓ 2-6-8-10
+
+*Here will I hold* → «Firmo-me nisto»; *us* (de *above us*) ficou de fora; *Thro' all her works* → «em cada
+obra»; *delight in* → «compraz-se» / «lhe apraz» (guarda o eco *delight… delights*); *must be happy* →
+«será feliz» (perde o *must*; «há de ser feliz» não cabe sem estragar o verso).
+
+Thomson (_Inverno_, a invocação), 6 versos: 5 ✓, 1 ~:
+
+    “Pai da luz e da vida, Bem supremo!          ✓ 1-3-6-8-10
+    Mostra-me o bem; ensina-me a ti mesmo!       ~ 1-4-6-9-10 (choque 9–10, «ti mesmo»)
+    Livra-me da loucura e da vaidade,           ✓ 1-6-10
+    do vício, das baixezas; e enche-me a alma    ✓ 2-6-8-10
+    de saber e de paz, virtude pura;             ✓ 3-6-8-10
+    ventura santa, sólida e perene!”             ✓ 2-4-6-10
+
+Perdas: *thou*; *O teach me what is good* → «Mostra-me o bem» (o «ensina» ficou para *teach me Thyself*);
+*every low pursuit* → «baixezas»; *conscious* (de *conscious peace*) ficou de fora; *bliss* → «ventura».

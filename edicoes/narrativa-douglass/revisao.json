@@ -1,0 +1,198 @@
+{
+ "id": "narrativa-douglass",
+ "rotulo": "Narrativa da vida de Frederick Douglass",
+ "url": "/biblioteca/frederick-douglass/narrativa-douglass/",
+ "escolhas": [
+  {
+   "id": "titulo",
+   "titulo": "O título fica «Narrativa da vida de Frederick Douglass», com o subtítulo «um escravo americano, escrito por ele mesmo»?",
+   "ref": "título",
+   "contexto": "*Narrative of the Life of Frederick Douglass, an American Slave. Written by Himself.* Hoje: título «Narrativa da vida de Frederick Douglass» e subtítulo «um escravo americano, escrita por ele mesmo». É o título das edições brasileiras recentes; *Narrative* é também o nome do gênero (as *slave narratives*).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Narrativa da vida de Frederick Douglass», como está",
+     "nota": "Literal e já conhecido.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Memórias de Frederick Douglass, escravo americano, escritas por ele mesmo»",
+     "nota": "Mais natural em português, mas perde «Narrativa», que é o termo do gênero."
+    },
+    {
+     "id": "c",
+     "texto": "«A vida de Frederick Douglass, escravo americano, contada por ele mesmo»",
+     "nota": "Mais leve; afasta-se do título de Douglass."
+    }
+   ]
+  },
+  {
+   "id": "master",
+   "titulo": "*Master Hugh* fica «o senhor Hugh», e os títulos *Mr.*, *Mrs.* e *Miss* ficam em inglês?",
+   "ref": "toda a obra (Master Hugh, Master Thomas, Master Daniel; Mr. Covey, Mrs. Auld)",
+   "contexto": "Douglass distingue o tratamento que o escravo dá ao dono (*Master Hugh*, «my master») do tratamento comum (*Mr. Covey*). Hoje: *master* é sempre «senhor» («o meu senhor», «o senhor Hugh») e *Mr.* fica em inglês («Mr. Covey», «Mrs. Auld»), para as duas coisas não virarem «senhor». *Mistress* é «senhora».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o senhor Hugh» e «Mr. Covey», como está",
+     "nota": "Mantém a distinção sem palavra regional.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«sinhô Hugh», «sinhá» para *mistress*, e «o sr. Covey»",
+     "nota": "O tratamento dos escravos no Brasil; dá cor local que Douglass, que escreve em inglês padrão, não tem."
+    },
+    {
+     "id": "c",
+     "texto": "«o senhor Hugh» e «o sr. Covey»",
+     "nota": "Tudo em português; a distinção fica só na abreviatura."
+    }
+   ]
+  },
+  {
+   "id": "nigger",
+   "titulo": "A palavra injuriosa *nigger*, nas falas dos brancos, fica «crioulo»?",
+   "ref": "I, IV, VI, IX, X (falas de Mr. Auld, de Lanman, dos carpinteiros do estaleiro…)",
+   "contexto": "Douglass usa *negro* como termo neutro («negro-breaker», «the slaves of African descent») e põe *nigger* só na boca dos brancos, como insulto: «If you give a nigger an inch, he will take an ell» (VI); «Kill the damned nigger!» (X). Hoje: *negro* → «negro»; *nigger* → «crioulo» («Dê um dedo a um crioulo, e ele vai querer o braço»; «Mata o maldito crioulo!»).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«crioulo», como está",
+     "nota": "Insulto do Brasil escravista e de hoje, distinto do «negro» de Douglass.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«negro», como o termo neutro",
+     "nota": "Mais simples, mas apaga a diferença que o próprio Douglass marca."
+    },
+    {
+     "id": "c",
+     "texto": "«preto»",
+     "nota": "Menos carregado que o original."
+    }
+   ]
+  },
+  {
+   "id": "leitor",
+   "titulo": "A frase célebre fica «O leitor viu como um homem foi feito escravo; vai ver como um escravo foi feito homem»?",
+   "ref": "X",
+   "contexto": "«You have seen how a man was made a slave; you shall see how a slave was made a man.» É a frase que abre o relato da luta com Covey, a mais citada do livro. O *you* é o leitor.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«O leitor viu como um homem foi feito escravo; vai ver como um escravo foi feito homem.», como está",
+     "nota": "À maneira dos nossos romancistas do século XIX; natural e com a simetria.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Vistes como um homem foi feito escravo; vereis como um escravo foi feito homem.»",
+     "nota": "Solene, de oratória; menos natural hoje."
+    },
+    {
+     "id": "c",
+     "texto": "«Vocês viram como um homem foi feito escravo; vão ver como um escravo foi feito homem.»",
+     "nota": "Direto, mas «vocês» soa moderno demais para o tom."
+    }
+   ]
+  },
+  {
+   "id": "navios",
+   "titulo": "Na apóstrofe aos navios da baía de Chesapeake, o tratamento fica «vós»?",
+   "ref": "X («You are loosed from your moorings…»)",
+   "contexto": "O trecho que Garrison elogia no prefácio: «You are loosed from your moorings, and are free; I am fast in my chains, and am a slave!» Hoje: «Vós estais soltos das amarras, e sois livres; eu estou preso nas minhas correntes, e sou escravo! Vós vos moveis alegres diante da brisa suave…».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«vós», como está",
+     "nota": "Tom de oratória e de prece, como a apóstrofe pede.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«vocês»: «Vocês estão soltos das amarras, e são livres…»",
+     "nota": "Mais corrente, mas tira a solenidade."
+    }
+   ]
+  },
+  {
+   "id": "hire-time",
+   "titulo": "*To hire my time* fica «alugar o meu tempo»?",
+   "ref": "XI",
+   "contexto": "O arranjo em que o escravo procura trabalho por conta própria e paga ao senhor uma quantia fixa por semana: «I applied to Master Hugh for the privilege of hiring my time». Hoje: «pedi ao senhor Hugh o privilégio de alugar o meu tempo». No Brasil o mesmo arranjo se chamava trabalhar «ao ganho» (o escravo de ganho).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«alugar o meu tempo», como está",
+     "nota": "Literal e transparente; o capítulo explica o arranjo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«trabalhar ao ganho»",
+     "nota": "O termo brasileiro exato, mas pouco conhecido hoje."
+    }
+   ]
+  },
+  {
+   "id": "freeland",
+   "titulo": "O trocadilho *upon free land as well as with Freeland* fica com o inglês entre parênteses?",
+   "ref": "X",
+   "contexto": "«I began to want to live _upon free land_ as well as _with Freeland_» (William Freeland era o seu senhor de então). Hoje: «eu começava a querer viver _em terra livre_ (_free land_), e não só _com Freeland_».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "com «(_free land_)», como está",
+     "nota": "O leitor vê o jogo com o nome, com duas palavras a mais.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "sem o parêntese: «a querer viver _em terra livre_, e não só _com Freeland_»",
+     "nota": "Mais limpo, mas o trocadilho se perde para quem não sabe inglês."
+    }
+   ]
+  },
+  {
+   "id": "angu",
+   "titulo": "*Mush* fica «angu», e *corn meal*, «fubá»?",
+   "ref": "II, V, IX",
+   "contexto": "«Our food was coarse corn meal boiled. This was called _mush_» (V). Hoje: «A nossa comida era fubá grosso cozido. Isso se chamava _angu_.» E a ração mensal: «um alqueire de fubá» (*one bushel of corn meal*).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«angu» e «fubá», como está",
+     "nota": "As palavras brasileiras exatas para as mesmas coisas.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«papa de milho» e «farinha de milho»",
+     "nota": "Mais neutras, sem a cor brasileira."
+    }
+   ]
+  },
+  {
+   "id": "censura",
+   "titulo": "Os palavrões que Douglass imprime com traço («d——d b—-h») ficam com traço também na tradução?",
+   "ref": "I (Plummer à tia Hester), IV («the d——d niggers»)",
+   "contexto": "Douglass escreve «calling her at the same time a d——d b—-h» e «Now, you d——d b—-h, I’ll learn you how to disobey my orders!». Hoje: «chamando-a ao mesmo tempo de m——a c——a»; «Agora, sua m——a c——a, vou te ensinar a desobedecer às minhas ordens!»; e em IV «dos m——s crioulos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "com traço, como está («m——a c——a»)",
+     "nota": "Fiel ao pudor tipográfico de Douglass.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "por extenso («maldita cadela»)",
+     "nota": "Mais claro para o leitor, mas diz o que Douglass preferiu não imprimir."
+    }
+   ]
+  }
+ ]
+}

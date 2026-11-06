@@ -5,17 +5,16 @@ Worktree: `~/.cache/claude-wt5-autobiografia-franklin`. Scripts e downloads do t
 refazem `original/` a partir do Gutenberg 148 e dos três OCRs de 1868 — mas `original/` já foi corrigido à
 mão depois: não rodar de novo sem conferir o diff).
 
-Feito:
-- [x] texto inglês (`original/parte-1..4.txt`, `LEIAME.md`), divisão em capítulos, `obra.py`, `CONVENCOES.md`, autor novo em `conteudo/autores.js`.
+Feito (2026-11-06): tudo. Texto inglês de Bigelow 1868 (`original/`, `LEIAME.md`), 4 partes e 22 capítulos nossos,
+tradução completa (`traducao/trechos/*.txt` → `trechos.py juntar` → `traducao/parte-1..4.txt`; notas dos tradutores em
+`traducao/notas-*.md`), versos conferidos no `molde.mjs` (Folger, Pope em alexandrinos, Dryden ×2, Addison, Thomson; só ✓ e ~),
+`revisao.json` (8 decisões, todas com a recomendação aplicada: nenhuma muda o texto), vocabulário
+(`edicoes/vocabulario/autobiografia-franklin.json`, 30 palavras, `conferir` ok), `traducoes.py autobiografia-franklin` gravou
+`conteudo/benjamin-franklin/autobiografia.js` e a linha em `conteudo/nao-ficcao-traducoes.js`; autor novo em `conteudo/autores.js`.
+`gerar.mjs` e `conferir.mjs` sem erro (29 páginas em `/biblioteca/benjamin-franklin/autobiografia/`).
 
-Falta (na ordem):
-- [ ] tradução, um arquivo por parte em `traducao/` (mesmo número de blocos; marcas e títulos `## n.` iguais);
-      ver o estado de cada capítulo abaixo.
-- [ ] versos (Folger, Pope ×3, Dryden ×2, Addison, Thomson) em verso, conferidos com `molde.mjs`.
-- [ ] uniformizar termos (CONVENCOES §3), grep de mesóclise, contar blocos.
-- [ ] `revisao.json` (~8 decisões) e `python3 ferramentas/traducoes_revisao.py`.
-- [ ] `edicoes/vocabulario/autobiografia-franklin.json` e `node ferramentas/vocabulario.mjs conferir`.
-- [ ] `python3 ferramentas/traducoes.py autobiografia-franklin`, `gerar.mjs`, `conferir.mjs`, olhar as páginas;
-      depois `git checkout -- public ferramentas/site/enderecos.json ferramentas/sql/obras.sql` e `git clean -fd public`.
+Falta (do principal): juntar a branch, gerar o site, Catálogo `obras` (obra nova), `traducoes_revisao.py --revisao`,
+tirar dos pedidos. Sem regras de `_redirects`. Notas gerais: não feitas (vão por lotes).
 
-Estado da tradução por capítulo:
+Se mudar um capítulo: editar `traducao/trechos/<parte>-<nn>.txt`, `trechos.py conferir <parte> <n>`, `trechos.py juntar`,
+`python3 ferramentas/traducoes.py autobiografia-franklin`.

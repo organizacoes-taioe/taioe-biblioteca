@@ -1002,6 +1002,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('francisca-julia/marmores-sonho-africano', 'Sonho africano'),
   ('francisca-julia/marmores-venus', 'Vênus'),
   ('francisco-de-quevedo/amor-constante', 'Amor constante más allá de la muerte'),
+  ('frederick-douglass/narrativa-douglass', 'Narrativa da vida de Frederick Douglass'),
   ('g-k-chesterton/ortodoxia', 'Ortodoxia'),
   ('garcilaso-de-la-vega/soneto-xxiii', 'Soneto XXIII'),
   ('gerard-manley-hopkins/gods-grandeur', 'God''s Grandeur'),

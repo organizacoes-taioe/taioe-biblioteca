@@ -126,3 +126,48 @@ Thomson (_Inverno_, a invocação), 6 versos: 5 ✓, 1 ~:
 
 Perdas: *thou*; *O teach me what is good* → «Mostra-me o bem» (o «ensina» ficou para *teach me Thyself*);
 *every low pursuit* → «baixezas»; *conscious* (de *conscious peace*) ficou de fora; *bliss* → «ventura».
+
+## IV.1
+
+- Granville a Franklin: «Vocês, americanos» (você de cima para baixo, guia § 2); Mansfield a Franklin: «o
+  senhor» (como Loudoun em III.10); *his lordship* → «Sua Senhoria» (III.10).
+- *President of the Council* → «presidente do Conselho»; *the king in Council* → «o rei em Conselho»;
+  *Clerk of the Council* → «o secretário do Conselho»; *clerk's chamber* → «a sala do secretário»; *Council
+  Chamber* → «a sala do Conselho»; *one of the counsel* (Mansfield; é o Conselho) → «um dos conselheiros».
+- *solicitor* (Paris) → «procurador»; *the Attorney and Solicitor-General* → «o procurador-geral e o
+  subprocurador-geral»; *lawyers* → «advogados»; *hearing* → «audiência»; *pleading* → «faziam as suas
+  alegações»; *assessors* → «avaliadores»; *committee* → «comissão».
+- *the Commons* → «os Comuns»; *the ministry* → «o ministério»; *pocket instructions* → «instruções de
+  bolso»; *charters* → «cartas»; *royal assent* → «real assentimento».
+- *heads of complaint* → «pontos de queixa»; *a year wanting eight days* → «um ano menos oito dias»;
+  *person of candour* → «pessoa de boa-fé»; *True and Absolute Proprietaries…* → «Verdadeiros e Absolutos
+  Proprietários da Província da Pensilvânia»; *viva voce* → _viva voce_ [de viva voz] (regra do guia § 4).
+- *the proprietary estate* → «os bens dos proprietários»; *to pass an act* (o governador) → «sancionar uma
+  lei»; *came over* → «atravessou o oceano»; *strike it dead in their hands* → «o deixaria morto nas mãos das
+  pessoas»; *given bond to observe* → «se tinha obrigado, sob fiança, a observar»; *some powerful interest at
+  court* → «algum apoio poderoso na corte» (como *interest* em I.8).
+- *The Assembly looked into my entering…* (assim em Bigelow; o sentido é *looked upon*) → «A Assembleia
+  considerou…».
+- *I said certainly* → «Respondi que sim, certamente»; *[Unfinished]* → «[Inacabado]», com os quatro pontos
+  do original antes.
+
+## Candidatos a decisão para o Gere
+
+1. **_speckled ax_ → «machado manchado»** (II.3; recomendada: liga-se aos pontos pretos do livrinho e soa
+   bem: «prefiro um machado manchado») × «machado pintado» (o «pintado» da galinha, mas lê-se «com tinta») ×
+   «machado malhado» (exato, mais de bicho).
+2. **Addison, o último verso**: «e aquilo que lhe apraz será feliz» (recomendada: decassílabo exato,
+   guarda o eco *delight / delights* com «compraz-se… lhe apraz»; perde o *must*) × «e o que ele ama há de
+   ser feliz» (guarda o *must*, mas o verso fica com 9 sílabas na leitura natural).
+3. **_public friend_ (Abel James) → «o nosso Amigo pregador»** (II.1; recomendada: é o ministro quacre que
+   viaja pregando, e «Amigo» com maiúscula diz que é quacre) × «o nosso Amigo público» (literal e opaco).
+4. **_Your attribution appears to have been applied to your life_** (II.1, Vaughan; frase obscura, talvez
+   *attention*): «O senhor parece ter aplicado isso à sua vida» (recomendada, pelo contexto) × «A sua
+   atribuição parece ter sido aplicada à sua vida» (literal, sem sentido em português).
+5. **Os nomes das virtudes no correr do texto** (II.3): com inicial maiúscula quando são as virtudes do
+   plano («A Temperança primeiro», «incorrigível quanto à Ordem»), como Franklin escreve (recomendada) × sempre
+   minúsculas.
+6. *Industry* → «Diligência» (guia) fica bem em toda a parte II, inclusive no par «Diligência e Frugalidade»
+   e no provérbio de Salomão («Vês um homem diligente…», que Franklin liga à *industry*: a escolha do guia faz
+   o eco passar em português). Não vejo razão para mudar. A castidade (*Rarely use venery…*): o preceito do
+   guia, «Raramente uses do prazer venéreo…», é exato e sóbrio; «venéreo» é a palavra justa do séc. XVIII.

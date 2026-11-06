@@ -1837,7 +1837,7 @@
    "def": [
     "Lugar onde, nas comunidades religiosas, nos colégios, nos hospitais, nas prisões etc., os religiosos, os alunos internos, os doentes, os presos etc. vêm falar com as pessoas de fora: locutório."
    ],
-   "nota": "Aqui, o locutório do colégio das Ursulinas, onde Virginie estudava."
+   "nota": "Aqui, a sala do convento onde Virginie estudava, onde se recebem as visitas."
   },
   "ouvrirait": {
    "lema": "ouvrir",
@@ -1924,6 +1924,319 @@
    "def": [
     "Ação de se deslocar por um caminho mais ou menos longo para ir de uma cidade a outra, de um país a outro, de um lugar a outro: viagem."
    ]
+  },
+  "effrayée": {
+   "lema": "effrayer",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular",
+   "def": [
+    "Encher de pavor: assustar, apavorar."
+   ],
+   "nota": "«Ne l’avaient pas effrayée»: não a tinham assustado; o particípio concorda com «l’», isto é, Félicité."
+  },
+  "angleterre": {
+   "lema": "Angleterre",
+   "classe": "nome próprio",
+   "def": [
+    "(País) País da Europa, principal subdivisão da Grã-Bretanha e do Reino Unido: Inglaterra."
+   ],
+   "nota": "Em francês, o nome serve também, por metonímia, para a Grã-Bretanha ou o Reino Unido."
+  },
+  "angleterre#2": {
+   "lema": "angleterre",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Rendas) Renda originária da Inglaterra."
+   ],
+   "nota": "«Point d’Angleterre»: renda de origem inglesa, usada para enfeitar o altar."
+  },
+  "bretagne": {
+   "lema": "Bretagne",
+   "classe": "nome próprio",
+   "def": [
+    "Grande península do oeste da França, que corresponde à região histórica: Bretanha."
+   ],
+   "nota": "«Basse Bretagne»: a Bretanha ocidental, a parte de língua bretã."
+  },
+  "revenait": {
+   "lema": "revenir",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Vir outra vez, vir de novo: voltar."
+   ]
+  },
+  "amérique": {
+   "lema": "Amérique",
+   "classe": "nome próprio",
+   "def": [
+    "Continente que separa o oceano Atlântico do Pacífico: América."
+   ]
+  },
+  "colonies": {
+   "lema": "colonie",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Estabelecimento fundado em uma região separada da metrópole e que permanece sob sua dependência: colônia."
+   ],
+   "nota": "«Les Colonies»: as colônias francesas de além-mar."
+  },
+  "îles": {
+   "lema": "île",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "(Antiquado, absolutamente) As Antilhas."
+   ],
+   "nota": "«Les Îles»: as ilhas, isto é, as Antilhas."
+  },
+  "région": {
+   "lema": "région",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Toponímia) Vasto território; extensão de país: região."
+   ]
+  },
+  "incertaine": {
+   "lema": "incertain",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que não é certo, não é seguro: incerto."
+   ]
+  },
+  "pensa": {
+   "lema": "penser",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Exercer a atividade do espírito; realizar alguma operação da inteligência; conceber; imaginar; refletir: pensar."
+   ]
+  },
+  "soif": {
+   "lema": "soif",
+   "classe": "substantivo feminino",
+   "def": [
+    "Desejo, vontade ou necessidade de beber: sede."
+   ]
+  },
+  "orage": {
+   "lema": "orage",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Meteorologia) Perturbação atmosférica, em geral de pouca duração, que se manifesta por vento impetuoso, chuva ou granizo, relâmpagos e trovões ou um tornado: tempestade, temporal."
+   ]
+  },
+  "foudre": {
+   "lema": "foudre",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Meteorologia) Descarga elétrica, em tempo de tempestade, entre as nuvens e, às vezes, entre as nuvens e o solo, que produz uma luz viva (o relâmpago) e uma violenta detonação (o trovão): raio."
+   ]
+  },
+  "grondait": {
+   "lema": "gronder",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer ouvir um ruído surdo, falando de animais ou de elementos: roncar, ribombar."
+   ]
+  },
+  "battu": {
+   "lema": "battre",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "Golpear com pancadas repetidas: bater, açoitar."
+   ],
+   "nota": "«Battu par la tempête»: açoitado pela tempestade."
+  },
+  "tempête": {
+   "lema": "tempête",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Meteorologia) Tormenta atmosférica, violenta agitação do ar, muitas vezes acompanhada de chuva, neve, granizo, relâmpagos, trovões etc.: tempestade."
+   ]
+  },
+  "sommet": {
+   "lema": "sommet",
+   "classe": "substantivo masculino",
+   "def": [
+    "Parte mais alta de alguma coisa: topo, cume."
+   ]
+  },
+  "mât": {
+   "lema": "mât",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Marinha) Peça longa, redonda e reta, de madeira ou de metal, erguida sobre um navio para sustentar as velas: mastro."
+   ]
+  },
+  "fracassé": {
+   "lema": "fracasser",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "Quebrar em pedaços, com violência: despedaçar, estilhaçar."
+   ]
+  },
+  "corps": {
+   "lema": "corps",
+   "classe": "substantivo masculino",
+   "def": [
+    "Organismo do ser humano, de um animal ou de qualquer ser animado, vivo ou morto: corpo."
+   ]
+  },
+  "corps#2": {
+   "lema": "corps",
+   "classe": "substantivo masculino",
+   "def": [
+    "Porção de matéria que forma um todo individual e distinto: corpo."
+   ],
+   "nota": "«Corps de cheminée»: a parte da chaminé que avança pelo cômodo, onde Loulou foi posto."
+  },
+  "nappe": {
+   "lema": "nappe",
+   "classe": "substantivo feminino",
+   "def": [
+    "Vasta extensão: lençol, camada."
+   ],
+   "nota": "«Nappe d’écume»: lençol de espuma, uma camada larga de espuma."
+  },
+  "mangé": {
+   "lema": "manger",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "Mastigar e engolir um alimento: comer, devorar."
+   ]
+  },
+  "mangé#2": {
+   "lema": "manger",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "(Figurado) Consumir, absorvendo, roendo, minando, destruindo outras coisas: roer, consumir."
+   ],
+   "nota": "«Mangé de vermine»: comido pela praga, cheio de parasitas."
+  },
+  "sauvages": {
+   "lema": "sauvage",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "(Antiquado, pejorativo) Pessoa pertencente a um povo considerado, segundo uma concepção eurocêntrica e evolucionista que opõe natureza e civilização, primitivo ou não civilizado: selvagem."
+   ],
+   "nota": "Palavra antiquada e pejorativa, que traduz a visão da época: aqui, os povos distantes que Félicité via nas gravuras do livro de geografia."
+  },
+  "pris": {
+   "lema": "prendre",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "Agarrar uma coisa, tirá-la, puxá-la para si de outro modo que não com a mão: tomar, pegar."
+   ],
+   "nota": "«Pris par des singes»: apanhado pelos macacos. «Lui avoir pris sa fille»: tê-le tomado a filha."
+  },
+  "singes": {
+   "lema": "singe",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "(Macacos) Mamífero da ordem dos Primatas, exceto o homem e os lêmures: macaco."
+   ]
+  },
+  "mourait": {
+   "lema": "mourir",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "(Pronominal) Estar prestes a morrer: estar morrendo."
+   ],
+   "nota": "«Se mourait»: estava morrendo, à beira da morte."
+  },
+  "plage": {
+   "lema": "plage",
+   "classe": "substantivo feminino",
+   "def": [
+    "Extensão de areia ou de seixos que margeia um espelho de água: praia."
+   ]
+  },
+  "déserte": {
+   "lema": "désert",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que é inabitado ou pouco frequentado: deserto, desabitado."
+   ]
+  },
+  "jamais": {
+   "lema": "jamais",
+   "classe": "advérbio",
+   "def": [
+    "Em tempo nenhum, em nenhuma ocasião, de modo algum: nunca."
+   ],
+   "nota": "Junto com «ne», forma a negação: «ne… jamais», nunca."
+  },
+  "bonnes": {
+   "lema": "bon",
+   "classe": "adjetivo",
+   "forma": "feminino plural",
+   "def": [
+    "Que tem as qualidades conformes ao que se esperava: bom."
+   ],
+   "nota": "«Bonnes sœurs»: as irmãs, as freiras. «Bonnes femmes»: mulheres do povo, mulheres simples. «Bonnes Vierges»: imagens de Nossa Senhora."
+  },
+  "affectueuse": {
+   "lema": "affectueux",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que mostra afeição, amor: afetuoso, carinhoso."
+   ]
+  },
+  "délicate": {
+   "lema": "délicat",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Frágil e franzino."
+   ],
+   "nota": "Aqui, de saúde frágil: Virginie era carinhosa, mas delicada."
+  },
+  "moindre": {
+   "lema": "moindre",
+   "classe": "adjetivo",
+   "def": [
+    "(Superlativo de «petit») O menor."
+   ],
+   "nota": "«La moindre émotion»: a menor emoção, qualquer emoção, até a mais leve."
+  },
+  "émotion": {
+   "lema": "émotion",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Sentimentos) Reação afetiva súbita, temporária e involuntária, em geral acompanhada de manifestações físicas, provocada por um sentimento intenso de medo, raiva, surpresa, admiração, decepção etc.: emoção."
+   ]
+  },
+  "énervait": {
+   "lema": "énerver",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "(Antiquado) Enfraquecer, danificando o sistema nervoso: abalar os nervos."
+   ],
+   "nota": "Sentido antigo, de abalar os nervos; hoje «énerver» costuma significar irritar."
+  },
+  "fallut": {
+   "lema": "falloir",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Ser de necessidade, de dever, de obrigação: ser preciso, ser necessário."
+   ],
+   "nota": "Verbo impessoal: «il fallut abandonner le piano», foi preciso largar o piano."
   }
  },
  "ocorrencias": {
@@ -1947,6 +2260,9 @@
   "465.39": "perdit#2",
   "452.28": "capitaine#2",
   "434.11": "passant#2",
-  "261.19": "pria#2"
+  "261.19": "pria#2",
+  "633.15": "angleterre#2",
+  "529.11": "corps#2",
+  "424.17": "mangé#2"
  }
 }

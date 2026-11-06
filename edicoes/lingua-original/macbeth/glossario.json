@@ -471,6 +471,14 @@
     "(também figurado) Ato de se aproximar, no lugar ou no tempo; chegada."
    ]
   },
+  "approach#2": {
+   "lema": "approach",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Mover-se em direção a (alguém ou algo), no lugar ou no tempo; aproximar-se de."
+   ],
+   "nota": "«Approach the chamber» é «aproximai-vos do quarto»."
+  },
   "approve": {
    "lema": "approve",
    "classe": "verbo",
@@ -983,6 +991,15 @@
    ],
    "nota": "«Nothing in his life became him like the leaving it» é «nada na vida lhe assentou tão bem quanto deixá-la»."
   },
+  "became#2": {
+   "lema": "become",
+   "classe": "verbo",
+   "forma": "pretérito",
+   "def": [
+    "(de ligação, seguido de adjetivo ou substantivo) Começar a ser; tornar-se."
+   ],
+   "nota": "«Our will became the servant to defect» é «nossa vontade tornou-se serva da falta (de preparo)»."
+  },
   "become": {
    "lema": "become",
    "classe": "verbo",
@@ -998,6 +1015,14 @@
     "Lugar, superfície plana ou camada sobre a qual algo repousa ou é posto; leito."
    ],
    "nota": "Aqui é o ninho do pássaro."
+  },
+  "bed#2": {
+   "lema": "bed",
+   "classe": "substantivo",
+   "def": [
+    "(contável) Móvel, em geral plano e macio, em que se descansa ou se dorme; cama."
+   ],
+   "nota": "«Get thee to bed» é «vai para a cama»."
   },
   "beelzebub": {
    "lema": "Beelzebub",
@@ -1199,6 +1224,14 @@
     "(transitivo) Proferir uma saudação ou cumprimento."
    ],
    "nota": "«Bid us welcome» é «dar-nos as boas-vindas»; «bid God'ild us» é «pedir a Deus que nos recompense»."
+  },
+  "bid#2": {
+   "lema": "bid",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Dar uma ordem; mandar."
+   ],
+   "nota": "«Go bid thy mistress» é «vai dizer à tua senhora (que o faça)»; «do not bid me speak» é «não me mandeis falar»."
   },
   "bind": {
    "lema": "bind",
@@ -1710,6 +1743,14 @@
    ],
    "nota": "«Call thee thane of Cawdor» é «chamar-te barão de Cawdor»."
   },
+  "call#2": {
+   "lema": "call",
+   "classe": "verbo",
+   "def": [
+    "Chamar em voz alta; convocar."
+   ],
+   "nota": "«Lest occasion call us» é «para que a ocasião não nos chame»; «call timely on him» é «chamá-lo cedo»."
+  },
   "call'd": {
    "lema": "call",
    "classe": "verbo",
@@ -1820,6 +1861,14 @@
    ],
    "nota": "«Whose care is gone before» é «cujo zelo foi adiante»."
   },
+  "care#2": {
+   "lema": "care",
+   "classe": "substantivo",
+   "def": [
+    "Preocupação; aflição."
+   ],
+   "nota": "Aqui é a preocupação, não o zelo: «sleave of care» é o novelo emaranhado das aflições do dia, que o sono desfaz."
+  },
   "careless": {
    "lema": "careless",
    "classe": "adjetivo",
@@ -1878,6 +1927,14 @@
     "(transitivo) Lançar, arremessar."
    ],
    "nota": "«Cast aside» é «jogar de lado», pôr fora."
+  },
+  "cast#2": {
+   "lema": "cast",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Lançar, arremessar."
+   ],
+   "nota": "«Cast him» é «derrubá-lo» (na luta) e, no jogo do porteiro, também «vomitá-lo»."
   },
   "castle": {
    "lema": "castle",
@@ -1940,6 +1997,14 @@
    ],
    "nota": "«His own chamber» é o quarto de dormir de Duncan."
   },
+  "chamber#2": {
+   "lema": "chamber",
+   "classe": "substantivo",
+   "def": [
+    "Cômodo ou conjunto de cômodos; aposento."
+   ],
+   "nota": "«The second chamber» é «o segundo aposento»; «our chamber» é «o nosso quarto»."
+  },
   "chamberlains": {
    "lema": "chamberlain",
    "classe": "substantivo",
@@ -1981,6 +2046,14 @@
     "(transitivo) Dar ordem solene a; mandar, exortar."
    ],
    "nota": "«Speak, I charge you» é «falai, eu vos ordeno»."
+  },
+  "charge#2": {
+   "lema": "charge",
+   "classe": "substantivo",
+   "def": [
+    "O âmbito da responsabilidade de alguém; incumbência."
+   ],
+   "nota": "«Their charge» é «o seu dever», a guarda do rei."
   },
   "charm's": {
    "lema": "charm",
@@ -2866,6 +2939,13 @@
     "Ausência total ou (mais comumente) parcial de luz; escuridão."
    ],
    "nota": "«The dark» é «a escuridão»."
+  },
+  "dark#2": {
+   "lema": "dark",
+   "classe": "adjetivo",
+   "def": [
+    "Que tem ausência absoluta ou, mais comumente, relativa de luz; escuro."
+   ]
   },
   "darkness": {
    "lema": "darkness",
@@ -4350,6 +4430,13 @@
     "(transitivo) Sentir medo de; temer."
    ]
   },
+  "fear#2": {
+   "lema": "fear",
+   "classe": "substantivo",
+   "def": [
+    "(incontável) Emoção forte e desagradável causada por perigo ou ameaça, real ou suposta; medo."
+   ]
+  },
   "fears": {
    "lema": "fear",
    "classe": "substantivo",
@@ -4459,6 +4546,14 @@
    "def": [
     "(arcaico) Batalha entre exércitos opostos."
    ]
+  },
+  "fight#2": {
+   "lema": "fight",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Travar combate; lutar."
+   ],
+   "nota": "«I fight» é «eu combato»."
   },
   "fill": {
    "lema": "fill",
@@ -5007,6 +5102,15 @@
     "(bitransitivo) Mover, passar ou fornecer algo, abstrato ou concreto, a alguém ou a algum lugar; dar."
    ]
   },
+  "gave#2": {
+   "lema": "give the lie to",
+   "classe": "verbo",
+   "forma": "pretérito",
+   "def": [
+    "(idiomático, transitivo) Revelar ou provar que (algo) é falso; refutar."
+   ],
+   "nota": "«Give the lie» é «desmentir», «chamar de mentiroso»; na luta, é também «derrubar»: o porteiro joga com os dois sentidos."
+  },
   "general": {
    "lema": "general",
    "classe": "substantivo",
@@ -5036,6 +5140,14 @@
     "Suave e brando, em vez de duro ou severo."
    ],
    "nota": "«Our gentle senses» são os sentidos que o ar suaviza."
+  },
+  "gentle#2": {
+   "lema": "gentle",
+   "classe": "adjetivo",
+   "def": [
+    "(arcaico) De boa família; bem-nascido, ainda que não nobre."
+   ],
+   "nota": "«O gentle lady» é «ó senhora de boa estirpe», um tratamento de respeito."
   },
   "gentleman": {
    "lema": "gentleman",
@@ -5150,6 +5262,15 @@
     "Passar, levar ou fornecer algo, abstrato ou concreto, a alguém ou a algo; dar."
    ],
    "nota": "«Giving him the lie» é «dando-lhe a mentira»: desmentindo-o (chamando-o de mentiroso) e, num golpe de luta, derrubando-o."
+  },
+  "giving#2": {
+   "lema": "give the lie to",
+   "classe": "verbo",
+   "forma": "gerúndio",
+   "def": [
+    "(idiomático, transitivo) Revelar ou provar que (algo) é falso; refutar."
+   ],
+   "nota": "«Giving him the lie» é «desmentindo-o», «chamando-o de mentiroso»; na luta, é também «derrubá-lo»: o porteiro joga com os dois sentidos."
   },
   "gladly": {
    "lema": "gladly",
@@ -5377,6 +5498,14 @@
     "Da cor da grama e das folhas; verde."
    ],
    "nota": "«Look so green and pale» é «ter o rosto tão verde e pálido»: doente de medo."
+  },
+  "green#2": {
+   "lema": "green",
+   "classe": "adjetivo",
+   "def": [
+    "Da cor da grama e das folhas; verde."
+   ],
+   "nota": "«The green one» é «o verde», isto é, o mar."
   },
   "greet": {
    "lema": "greet",
@@ -5907,6 +6036,14 @@
     "(datado ou poético) O céu distante, em que aparecem ou se movem o sol, a lua e as estrelas; o firmamento."
    ]
   },
+  "heaven#2": {
+   "lema": "heaven",
+   "classe": "substantivo",
+   "def": [
+    "(religião) A vida após a morte dos bem-aventurados, concebida em oposição à dos ímpios e injustos (compare «hell»)."
+   ],
+   "nota": "«Heaven» é aqui o Céu dos bem-aventurados, em oposição a «hell», o inferno."
+  },
   "heaven's": {
    "lema": "heaven",
    "classe": "substantivo",
@@ -6362,6 +6499,14 @@
     "Estação, momento ou ocasião."
    ],
    "nota": "«Time and the hour» é «o tempo e a hora»: o curso do tempo e a ocasião."
+  },
+  "hour#2": {
+   "lema": "hour",
+   "classe": "substantivo",
+   "def": [
+    "Período de sessenta minutos."
+   ],
+   "nota": "«An hour before this chance» é «uma hora antes deste acontecimento»."
   },
   "hours": {
    "lema": "hour",
@@ -7117,6 +7262,15 @@
    ],
    "nota": "«Nor must be known no less to have done so» é «nem se deve ficar sabendo que fizeste menos»."
   },
+  "known#2": {
+   "lema": "know",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Perceber a verdade ou a realidade de; ter certeza de; saber."
+   ],
+   "nota": "«Make's love known» é «dar a conhecer o seu amor»; «is't known» é «sabe-se?»."
+  },
   "labour": {
    "lema": "labour",
    "classe": "verbo",
@@ -7241,6 +7395,14 @@
    ],
    "nota": "«The late dignities» são as honrarias recentes; «of late» é «ultimamente»."
   },
+  "late#2": {
+   "lema": "late",
+   "classe": "adjetivo",
+   "def": [
+    "Que não chega nem ocorre antes da hora esperada; tardio."
+   ],
+   "nota": "«So late» é «tão tarde»."
+  },
   "later": {
    "lema": "late",
    "classe": "advérbio",
@@ -7273,6 +7435,15 @@
     "(transitivo) Pôr, colocar (algo) em posição horizontal; depor."
    ],
    "nota": "«Lay it to thy heart» é «guarda-o no teu coração»."
+  },
+  "lay#2": {
+   "lema": "lie",
+   "classe": "verbo",
+   "forma": "pretérito",
+   "def": [
+    "(intransitivo) Repousar em posição horizontal sobre uma superfície; jazer."
+   ],
+   "nota": "«Where we lay» é «onde dormimos»; «here lay Duncan» é «aqui jazia Duncan»."
   },
   "laying": {
    "lema": "lay",
@@ -7493,6 +7664,13 @@
     "(intransitivo) Repousar em posição horizontal sobre uma superfície; jazer."
    ],
    "nota": "«Lie as in a death» é «jazem como na morte»."
+  },
+  "lie#2": {
+   "lema": "lie",
+   "classe": "substantivo",
+   "def": [
+    "Declaração intencionalmente falsa; mentira."
+   ]
   },
   "liege": {
    "lema": "liege",
@@ -7897,6 +8075,15 @@
    "def": [
     "(transitivo) Criar; produzir."
    ]
+  },
+  "makes#2": {
+   "lema": "make",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo, causativo) Fazer com que (alguém ou algo) seja, fique ou faça algo."
+   ],
+   "nota": "«Makes him stand to» é «faz com que ele fique firme»."
   },
   "making": {
    "lema": "make",
@@ -8424,6 +8611,14 @@
    ],
    "nota": "«Mock the time with fairest show» é «iludir o tempo com a mais bela aparência»."
   },
+  "mock#2": {
+   "lema": "mock",
+   "classe": "verbo",
+   "def": [
+    "Zombar de, em especial imitando; escarnecer."
+   ],
+   "nota": "«Do mock their charge with snores» é «zombam do seu dever com roncos»: os criados dormem em vez de vigiar."
+  },
   "moment": {
    "lema": "moment",
    "classe": "substantivo",
@@ -8568,6 +8763,29 @@
     "Ato de matar uma pessoa ilegalmente, em especial com premeditação; assassinato."
    ],
    "nota": "«Whose murder yet is but fantastical» é «cujo assassinato ainda é só imaginado»."
+  },
+  "murder#2": {
+   "lema": "murder",
+   "classe": "substantivo",
+   "def": [
+    "Ato de matar uma pessoa ilegalmente, em especial com premeditação; assassinato."
+   ]
+  },
+  "murder#3": {
+   "lema": "murder",
+   "classe": "verbo",
+   "def": [
+    "Matar ilegalmente, com intenção e, em especial, com premeditação; assassinar."
+   ],
+   "nota": "«Macbeth does murder sleep» é «Macbeth assassina o sono»; «would murder as it fell» é «assassinaria ao cair»."
+  },
+  "murder#4": {
+   "lema": "murder",
+   "classe": "substantivo",
+   "def": [
+    "Ato de matar uma pessoa ilegalmente, em especial com premeditação; assassinato."
+   ],
+   "nota": "O Assassinato é aqui uma figura personificada, de passo furtivo, que Macbeth vê caminhar para o seu crime."
   },
   "murder'd": {
    "lema": "murder",
@@ -9130,6 +9348,14 @@
    ],
    "nota": "«His great office» é «o seu alto cargo», o de rei."
   },
+  "office#2": {
+   "lema": "office",
+   "classe": "substantivo",
+   "def": [
+    "Dever, em especial o que cabe a alguém pela sua posição; encargo, papel."
+   ],
+   "nota": "«An office which the false man does easy» é «um ofício que o falso faz com facilidade»: fingir pesar é tarefa fácil."
+  },
   "officer": {
    "lema": "officer",
    "classe": "substantivo",
@@ -9167,6 +9393,14 @@
    "def": [
     "Que existe há um tempo relativamente longo."
    ]
+  },
+  "old#2": {
+   "lema": "old",
+   "classe": "adjetivo",
+   "def": [
+    "(intensificador gramatical, em geral de algo positivo) Usado para reforçar: muito, bastante."
+   ],
+   "nota": "«Old turning the key» é «muito girar de chave», «muito que fazer com a chave»: «old» reforça, em fala popular."
   },
   "on": {
    "lema": "on",
@@ -10138,6 +10372,14 @@
    ],
    "nota": "«Pronounce his present death» é «decretar-lhe a morte imediata»."
   },
+  "pronounce#2": {
+   "lema": "pronounce",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Emitir os sons de (uma palavra ou expressão); articular."
+   ],
+   "nota": "«Pronounce \"Amen\"» é «dizer \"Amém\"»."
+  },
   "proof": {
    "lema": "proof",
    "classe": "substantivo",
@@ -10258,6 +10500,14 @@
     "Pôr em sentido abstrato; atribuir, designar."
    ],
    "nota": "«Put into my dispatch» é «confiar aos meus cuidados»; «put upon» é «lançar sobre»."
+  },
+  "put#2": {
+   "lema": "put on",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Vestir, pôr sobre si (roupa, equipamento ou o que o valha)."
+   ],
+   "nota": "Em sentido figurado: «put on manly readiness» é «vestir a prontidão viril»."
   },
   "puts": {
    "lema": "put",
@@ -11486,6 +11736,14 @@
    ],
    "nota": "«Shake my fell purpose» é «abalar o meu cruel propósito»."
   },
+  "shake#2": {
+   "lema": "shake",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Mover-se de um lado para o outro; tremer."
+   ],
+   "nota": "«Did shake» é «tremeu», como num acesso de febre."
+  },
   "shakes": {
    "lema": "shake",
    "classe": "verbo",
@@ -11652,6 +11910,15 @@
     "(intransitivo) Ser visível; aparecer."
    ],
    "nota": "«Show'd like» é «mostrava-se como», «parecia»."
+  },
+  "show'd#2": {
+   "lema": "show",
+   "classe": "verbo",
+   "forma": "particípio passado (grafia arcaica)",
+   "def": [
+    "(transitivo) Exibir, expor; ter algo à disposição dos outros para ver."
+   ],
+   "nota": "«They have show'd some truth» é «mostraram alguma verdade»."
   },
   "shriek'd": {
    "lema": "shriek",
@@ -13021,6 +13288,24 @@
    ],
    "nota": "«Takes the reason prisoner» é «prende a razão»."
   },
+  "takes#2": {
+   "lema": "take away",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "Remover algo, material ou abstrato, de modo que a pessoa já não o tenha; tirar."
+   ],
+   "nota": "«Takes away the performance» é «tira o desempenho»."
+  },
+  "takes#3": {
+   "lema": "take off",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Remover; tirar."
+   ],
+   "nota": "«Sets him on and takes him off» é «lança-o e desarma-o»."
+  },
   "taking-off": {
    "partes": [
     {
@@ -14098,6 +14383,15 @@
     "(transitivo) Dar crédito a; acreditar em."
    ],
    "nota": "«Trusted home» é «acreditado até o fundo», isto é, cridas por inteiro."
+  },
+  "trusted#2": {
+   "lema": "trust",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Mostrar confiança em alguém, confiando-lhe algo."
+   ],
+   "nota": "«Was to be trusted with them» é «havia de ter confiadas a si (as armas)»."
   },
   "truth": {
    "lema": "truth",
@@ -15189,6 +15483,14 @@
    ],
    "nota": "«Wild in their attire» é «desgrenhadas no vestir»."
   },
+  "wild#2": {
+   "lema": "wild",
+   "classe": "adjetivo",
+   "def": [
+    "Indomado; não domesticado."
+   ],
+   "nota": "«Turn'd wild in nature» é «tornaram-se selvagens por natureza»: os cavalos de Duncan perderam a mansidão."
+  },
   "will": {
    "lema": "will",
    "classe": "verbo auxiliar modal",
@@ -15573,6 +15875,15 @@
     "(transitivo) Fazer operar; produzir, mover, agir sobre."
    ],
    "nota": "«My dull brain was wrought with things forgotten» é «meu cérebro obtuso estava trabalhado, ocupado, com coisas esquecidas»."
+  },
+  "wrought#2": {
+   "lema": "work",
+   "classe": "verbo",
+   "forma": "particípio passado (arcaico)",
+   "def": [
+    "(transitivo) Fazer operar; produzir, mover, agir sobre."
+   ],
+   "nota": "«Free» é aqui advérbio, «livremente»: «should free have wrought» é «teria agido sem estorvo»."
   },
   "ye": {
    "lema": "ye",
@@ -16034,9 +16345,12 @@
   "9:17.1": "what#4",
   "9:17.6": "rest#3",
   "9:24.2": "will#3",
+  "9:24.3": "became#2",
   "9:25.5": "have#2",
+  "9:25.6": "wrought#2",
   "9:26.2": "well#2",
   "9:28.4": "have#2",
+  "9:28.5": "show'd#2",
   "9:30.1": "yet#2",
   "9:30.8": "to#2",
   "9:31.9": "that#6",
@@ -16044,7 +16358,9 @@
   "9:37.3": "to#2",
   "9:38.6": "clear#2",
   "9:39.2": "shall#3",
+  "9:43.2": "bid#2",
   "9:44.6": "get#3",
+  "9:44.9": "bed#2",
   "9:47.6": "yet#2",
   "9:49.9": "but#3",
   "9:52.7": "as#2",
@@ -16059,17 +16375,22 @@
   "9:59.5": "before#2",
   "9:61.3": "mine#2",
   "9:62.1": "nature#2",
+  "9:64.6": "murder#4",
   "9:69.5": "which#2",
+  "9:69.10": "fear#2",
   "9:70.2": "very#2",
   "9:71.8": "time#2",
   "9:76.5": "for#2",
   "9:77.1": "that#2",
+  "9:77.5": "heaven#2",
   "10:3.4": "made#2",
   "10:3.8": "made#2",
   "10:4.1": "what#2",
   "10:4.10": "peace#2",
   "10:5.5": "that#2",
   "10:6.8": "about#3",
+  "10:8.2": "mock#2",
+  "10:8.4": "charge#2",
   "10:8.8": "have#2",
   "10:9.1": "that#3",
   "10:9.7": "about#2",
@@ -16081,15 +16402,21 @@
   "10:22.1": "when#2",
   "10:24.1": "as#5",
   "10:27.3": "i'",
+  "10:27.6": "chamber#2",
   "10:30.4": "to#2",
+  "10:31.10": "murder#2",
   "10:32.1": "that#3",
   "10:37.1": "as#4",
+  "10:38.3": "fear#2",
+  "10:41.6": "pronounce#2",
   "10:42.2": "had#2",
   "10:44.6": "thought#3",
   "10:45.4": "so#2",
   "10:45.7": "make#2",
   "10:46.9": "more#2",
+  "10:47.3": "murder#3",
   "10:48.2": "that#2",
+  "10:48.9": "care#2",
   "10:53.6": "more#2",
   "10:55.4": "more#2",
   "10:55.9": "more#2",
@@ -16108,17 +16435,21 @@
   "10:72.3": "that#6",
   "10:74.1": "what#5",
   "10:74.9": "mine#2",
+  "10:78.3": "green#2",
   "10:81.1": "to#2",
   "10:81.4": "heart#2",
   "10:81.8": "within#2",
+  "10:82.9": "chamber#2",
   "10:84.5": "then#2",
   "10:85.2": "left#2",
   "10:85.6": "within#2",
   "10:86.1": "get#4",
+  "10:86.7": "call#2",
   "10:87.4": "to#2",
   "10:89.1": "to#2",
   "10:90.2": "within#2",
   "11:2.5": "within#2",
+  "11:4.6": "old#2",
   "11:5.1": "within#2",
   "11:5.7": "i'",
   "11:6.5": "that#2",
@@ -16128,6 +16459,7 @@
   "11:10.4": "that#2",
   "11:11.4": "who#2",
   "11:12.3": "yet#2",
+  "11:12.8": "heaven#2",
   "11:13.4": "within#2",
   "11:16.6": "within#2",
   "11:18.10": "thought#4",
@@ -16136,52 +16468,77 @@
   "11:19.4": "some#2",
   "11:19.8": "that#2",
   "11:20.7": "within#2",
+  "11:23.4": "late#2",
+  "11:23.10": "bed#2",
   "11:24.1": "that#3",
+  "11:24.6": "late#2",
   "11:25.6": "till#2",
   "11:26.2": "drink#2",
   "11:27.1": "what#5",
   "11:27.5": "drink#2",
+  "11:30.3": "takes#2",
   "11:30.9": "drink#2",
   "11:31.4": "to#2",
+  "11:32.12": "takes#3",
+  "11:33.7": "makes#2",
   "11:34.1": "to#3",
   "11:34.5": "to#3",
+  "11:35.3": "giving#2",
+  "11:35.6": "lie#2",
   "11:36.3": "drink#2",
+  "11:36.4": "gave#2",
+  "11:36.7": "lie#2",
   "11:37.5": "i'",
   "11:37.7": "very#2",
+  "11:38.5": "lie#2",
   "11:39.9": "yet#2",
   "11:40.2": "to#2",
+  "11:40.3": "cast#2",
   "11:48.5": "to#2",
+  "11:48.6": "call#2",
   "11:49.2": "have#2",
   "11:52.2": "yet#2",
   "11:53.2": "labour#2",
   "11:55.2": "make#2",
   "11:55.4": "bold#2",
   "11:55.5": "to#2",
+  "11:55.6": "call#2",
   "11:56.1": "for#2",
   "11:58.6": "so#2",
+  "11:59.8": "lay#2",
   "11:61.3": "i'",
   "11:64.6": "time#2",
   "11:65.5": "some#2",
+  "11:66.5": "shake#2",
   "11:71.7": "heart#2",
   "11:72.4": "name#2",
+  "11:75.3": "murder#2",
   "11:77.3": "o'",
+  "11:80.1": "approach#2",
+  "11:81.7": "bid#2",
+  "11:84.4": "murder#2",
   "11:90.1": "to#2",
   "11:93.1": "that#2",
+  "11:95.2": "gentle#2",
   "11:96.5": "to#2",
   "11:96.7": "what#2",
+  "11:98.2": "murder#3",
   "11:98.3": "as#5",
   "11:103.1": "what#4",
   "11:106.6": "so#2",
   "11:108.3": "but#3",
+  "11:108.6": "hour#2",
   "11:109.7": "for#2",
   "11:111.3": "but#3",
   "11:113.5": "to#2",
   "11:118.4": "very#2",
   "11:123.1": "so#4",
   "11:126.2": "to#2",
+  "11:126.4": "trusted#2",
   "11:127.2": "yet#2",
   "11:128.1": "that#5",
   "11:129.4": "so#2",
+  "11:133.6": "lay#2",
   "11:135.10": "nature#2",
   "11:139.1": "that#2",
   "11:139.2": "had#2",
@@ -16191,6 +16548,7 @@
   "11:139.9": "that#6",
   "11:139.10": "heart#2",
   "11:140.2": "to#2",
+  "11:140.5": "known#2",
   "11:142.1": "look#3",
   "11:143.7": "hold#3",
   "11:144.1": "that#2",
@@ -16199,13 +16557,16 @@
   "11:154.1": "that#2",
   "11:156.1": "to#2",
   "11:157.8": "stand#2",
+  "11:158.6": "fight#2",
   "11:160.2": "so#4",
   "11:160.3": "do#3",
   "11:161.1": "so#4",
+  "11:162.3": "put#2",
   "11:163.3": "i'",
   "11:165.3": "but#2",
   "11:166.4": "do#2",
   "11:167.1": "to#2",
+  "11:167.8": "office#2",
   "11:168.6": "easy#2",
   "11:175.2": "to#2",
   "11:177.2": "shift#2",
@@ -16215,15 +16576,18 @@
   "12:7.3": "father#2",
   "12:8.5": "as#4",
   "12:10.2": "yet#2",
+  "12:10.3": "dark#2",
   "12:11.7": "shame#2",
   "12:12.1": "that#2",
   "12:17.1": "was#2",
+  "12:20.2": "wild#2",
   "12:21.4": "as#4",
   "12:24.3": "so#2",
   "12:24.8": "mine#2",
   "12:25.1": "that#2",
   "12:25.2": "look'd#2",
   "12:29.1": "why#2",
+  "12:30.2": "known#2",
   "12:30.6": "more#2",
   "12:31.2": "that#2",
   "12:33.1": "what#5",

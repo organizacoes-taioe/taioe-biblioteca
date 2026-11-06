@@ -14,7 +14,7 @@ Glossário (um só, `glossario.json`), ato por ato:
 Estado:
 - [x] Personagens + Ato I (1.393 verbetes; no ar no local)
 - [x] Ato II (fichas, mapear e revisar)
-- [ ] Ato III
+- [x] Ato III (fichas, mapear e revisar)
 - [ ] Ato IV
 - [ ] Ato V
 - [ ] revisão das notas difíceis (principal)

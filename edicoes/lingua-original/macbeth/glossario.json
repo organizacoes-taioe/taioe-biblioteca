@@ -28,6 +28,14 @@
     "Sobre; a respeito de."
    ]
   },
+  "about#3": {
+   "lema": "about",
+   "classe": "preposição",
+   "def": [
+    "Ocupado com; envolvido em; empenhado em."
+   ],
+   "nota": "«He is about it» é «ele está nisso», «está a fazê-lo»."
+  },
   "absolute": {
    "lema": "absolute",
    "classe": "adjetivo",
@@ -3316,6 +3324,14 @@
     "(transitivo) Fazer; executar."
    ]
   },
+  "do#3": {
+   "lema": "do",
+   "classe": "verbo auxiliar",
+   "def": [
+    "(pró-verbo) Marcador sintático que retoma um verbo anterior e permite não o repetir."
+   ],
+   "nota": "«And so do I» é «e eu também (me arrependo)»: retoma «repent»."
+  },
   "doctor": {
    "lema": "doctor",
    "classe": "substantivo",
@@ -5060,6 +5076,22 @@
    ],
    "nota": "«Thou shalt get kings» é «gerarás reis»."
   },
+  "get#3": {
+   "lema": "get",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo, informal, em geral no imperativo) Ir; ir-se embora; sair."
+   ],
+   "nota": "«Get thee to bed» é «vai para a cama»."
+  },
+  "get#4": {
+   "lema": "get on",
+   "classe": "verbo",
+   "def": [
+    "Vestir; trazer sobre o corpo (sinônimo de «have on»)."
+   ],
+   "nota": "«Get on your nightgown» é «veste o teu roupão»."
+  },
   "ghost": {
    "lema": "ghost",
    "classe": "substantivo",
@@ -6153,6 +6185,14 @@
     "(intransitivo, em geral no imperativo) Não se mover; parar, deter-se."
    ],
    "nota": "«Hold, hold!» é «para, para!», o grito de quem manda parar."
+  },
+  "hold#3": {
+   "lema": "hold",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Manter-se numa posição ou estado; conservar."
+   ],
+   "nota": "«Hold our tongues» é «calar-nos», «ficar de língua presa»: manter a língua quieta."
   },
   "holily": {
    "lema": "holily",
@@ -7646,6 +7686,14 @@
    "def": [
     "(verbo de ligação) Ter a aparência de; parecer."
    ]
+  },
+  "look#3": {
+   "lema": "look to",
+   "classe": "verbo",
+   "def": [
+    "(idiomático) Cuidar de."
+   ],
+   "nota": "«Look to the lady» é «cuidai da senhora»: socorrei Lady Macbeth, que desfalece."
   },
   "look'd": {
    "lema": "look",
@@ -10681,6 +10729,14 @@
    ],
    "nota": "«We rest your hermits» é «seguimos sendo vossos eremitas», isto é, rezamos por vós."
   },
+  "rest#3": {
+   "lema": "rest",
+   "classe": "substantivo",
+   "def": [
+    "(incontável, de pessoa ou animal) Alívio do trabalho ou da atividade pelo sono; sono, repouso."
+   ],
+   "nota": "«At rest» é «a descansar», «a dormir»."
+  },
   "restrain": {
    "lema": "restrain",
    "classe": "verbo",
@@ -11454,6 +11510,14 @@
    ],
    "nota": "«When shall we…?» é «quando havemos de…?», «quando nos encontraremos?»."
   },
+  "shall#3": {
+   "lema": "shall",
+   "classe": "verbo auxiliar modal",
+   "def": [
+    "Usado antes de um verbo para indicar o futuro simples na primeira pessoa do singular ou do plural."
+   ],
+   "nota": "«I shall be counsell'd» é «serei aconselhado», «aceitarei o conselho»."
+  },
   "shalt": {
    "lema": "shall",
    "classe": "verbo auxiliar modal",
@@ -11933,6 +11997,22 @@
    "def": [
     "Do modo descrito ou subentendido; assim."
    ]
+  },
+  "so#3": {
+   "lema": "so",
+   "classe": "conjunção",
+   "def": [
+    "(arcaico) Contanto que; desde que; na condição de que."
+   ],
+   "nota": "«So I lose none» é «contanto que eu nada perca»."
+  },
+  "so#4": {
+   "lema": "so",
+   "classe": "advérbio",
+   "def": [
+    "Do mesmo modo ou na mesma extensão que o já mencionado; igualmente, também."
+   ],
+   "nota": "Com o verbo invertido: «so were their daggers» é «também os punhais deles estavam»; «so do I» é «eu também»."
   },
   "soldier": {
    "lema": "soldier",
@@ -13441,6 +13521,24 @@
    ],
    "nota": "«Have I thought good to» é «achei bom»: considerei conveniente."
   },
+  "thought#3": {
+   "lema": "think",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(intransitivo) Comunicar-se mentalmente consigo mesmo, para considerar um assunto; pensar, refletir."
+   ],
+   "nota": "«These deeds must not be thought after these ways» é «não se deve pensar nestes atos deste modo»."
+  },
+  "thought#4": {
+   "lema": "think",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "Planejar; estar com a ideia (de fazer algo)."
+   ],
+   "nota": "«I had thought to» é «eu tinha pensado em», «tinha a intenção de»."
+  },
   "thoughts": {
    "lema": "thought",
    "classe": "substantivo",
@@ -13667,6 +13765,14 @@
     "Partícula que marca o verbo seguinte como infinitivo."
    ],
    "nota": "Equivale ao «a» ou ao «de» do infinitivo português, ou ao próprio infinitivo: «to be» é «ser»."
+  },
+  "to#3": {
+   "lema": "to",
+   "classe": "advérbio",
+   "def": [
+    "(regional) Em direção a uma posição fechada, de contato ou de encaixe."
+   ],
+   "nota": "«Stand to» é «manter-se firme», «ficar rijo»; o Porteiro joga com o duplo sentido obsceno: a bebida o faz «stand to» e «not stand to»."
   },
   "to-day": {
    "lema": "today",
@@ -14315,6 +14421,14 @@
    ],
    "nota": "«The use of nature» é «o costume da natureza», o curso natural; «the aid of use» é «a ajuda do costume»."
   },
+  "use#3": {
+   "lema": "use",
+   "classe": "verbo",
+   "def": [
+    "Utilizar, empregar."
+   ],
+   "nota": "«Such an instrument I was to use» é «tal instrumento eu havia de usar»: o punhal que lhe aparece no ar é o que ele ia empregar."
+  },
   "used": {
    "lema": "use",
    "classe": "verbo",
@@ -14760,6 +14874,14 @@
    ],
    "nota": "«'Twere well» é «seria bom»."
   },
+  "well#3": {
+   "lema": "well",
+   "classe": "interjeição",
+   "def": [
+    "Usada como marcador de discurso."
+   ],
+   "nota": "Serve para abrir ou retomar a fala, sem sentido próprio: «well, I will thither» é «pois bem, eu vou para lá»."
+  },
   "went": {
    "lema": "go",
    "classe": "verbo",
@@ -14822,6 +14944,13 @@
     "Expressão de surpresa ou de incredulidade."
    ],
    "nota": "«What, can the devil speak true?» é «como? o diabo pode dizer a verdade?»."
+  },
+  "what#5": {
+   "lema": "what",
+   "classe": "determinante",
+   "def": [
+    "(interrogativo) Que, qual (diante de substantivo), em especial entre um conjunto aberto de possibilidades."
+   ]
   },
   "what's": {
    "lema": "what's",
@@ -15074,6 +15203,14 @@
     "(hoje incomum, literário, transitivo) Querer, desejar (algo)."
    ],
    "nota": "«If chance will have me king» é «se o acaso quer me fazer rei»."
+  },
+  "will#3": {
+   "lema": "will",
+   "classe": "substantivo",
+   "def": [
+    "O ato de escolher fazer algo; a intenção consciente ou a vontade de alguém."
+   ],
+   "nota": "«Our will became the servant to defect» é «a nossa vontade ficou serva da falta»: a vontade de bem receber ficou limitada pela falta de preparo."
   },
   "wilt": {
    "lema": "will",
@@ -15889,30 +16026,219 @@
   "8:94.8": "show#2",
   "8:95.5": "what#2",
   "8:95.8": "heart#2",
+  "9:4.6": "have#2",
+  "9:7.1": "hold#2",
+  "9:8.9": "too#2",
+  "9:10.2": "yet#2",
+  "9:11.7": "that#2",
+  "9:17.1": "what#4",
+  "9:17.6": "rest#3",
+  "9:24.2": "will#3",
+  "9:25.5": "have#2",
+  "9:26.2": "well#2",
+  "9:28.4": "have#2",
+  "9:30.1": "yet#2",
+  "9:30.8": "to#2",
+  "9:31.9": "that#6",
+  "9:36.1": "so#3",
+  "9:37.3": "to#2",
+  "9:38.6": "clear#2",
+  "9:39.2": "shall#3",
+  "9:44.6": "get#3",
+  "9:47.6": "yet#2",
+  "9:49.9": "but#3",
+  "9:52.7": "as#2",
+  "9:54.6": "that#2",
+  "9:54.8": "was#3",
+  "9:55.7": "to#2",
+  "9:55.8": "use#3",
+  "9:56.1": "mine#2",
+  "9:56.4": "made#2",
   "9:56.7": "o'",
+  "9:59.4": "so#2",
+  "9:59.5": "before#2",
+  "9:61.3": "mine#2",
+  "9:62.1": "nature#2",
+  "9:69.5": "which#2",
+  "9:70.2": "very#2",
+  "9:71.8": "time#2",
+  "9:76.5": "for#2",
+  "9:77.1": "that#2",
+  "10:3.4": "made#2",
+  "10:3.8": "made#2",
+  "10:4.1": "what#2",
+  "10:4.10": "peace#2",
+  "10:5.5": "that#2",
+  "10:6.8": "about#3",
+  "10:8.8": "have#2",
+  "10:9.1": "that#3",
+  "10:9.7": "about#2",
+  "10:11.1": "within#2",
+  "10:11.4": "what#4",
+  "10:12.6": "have#2",
+  "10:16.3": "as#5",
+  "10:19.2": "have#2",
+  "10:22.1": "when#2",
+  "10:24.1": "as#5",
   "10:27.3": "i'",
+  "10:30.4": "to#2",
+  "10:32.1": "that#3",
+  "10:37.1": "as#4",
+  "10:42.2": "had#2",
+  "10:44.6": "thought#3",
+  "10:45.4": "so#2",
+  "10:45.7": "make#2",
+  "10:46.9": "more#2",
+  "10:48.2": "that#2",
+  "10:53.6": "more#2",
+  "10:55.4": "more#2",
+  "10:55.9": "more#2",
+  "10:56.4": "that#2",
+  "10:56.7": "why#2",
+  "10:57.7": "to#2",
+  "10:63.4": "more#2",
+  "10:64.4": "to#2",
+  "10:64.6": "what#2",
+  "10:64.8": "have#2",
+  "10:68.2": "but#3",
+  "10:69.1": "that#2",
+  "10:69.2": "fears#2",
+  "10:71.1": "for#2",
+  "10:71.9": "within#2",
+  "10:72.3": "that#6",
+  "10:74.1": "what#5",
+  "10:74.9": "mine#2",
+  "10:81.1": "to#2",
+  "10:81.4": "heart#2",
+  "10:81.8": "within#2",
+  "10:84.5": "then#2",
+  "10:85.2": "left#2",
+  "10:85.6": "within#2",
+  "10:86.1": "get#4",
+  "10:87.4": "to#2",
+  "10:89.1": "to#2",
+  "10:90.2": "within#2",
+  "11:2.5": "within#2",
+  "11:5.1": "within#2",
   "11:5.7": "i'",
+  "11:6.5": "that#2",
   "11:6.9": "th'",
+  "11:8.7": "within#2",
   "11:9.5": "th'",
+  "11:10.4": "that#2",
+  "11:11.4": "who#2",
+  "11:12.3": "yet#2",
+  "11:13.4": "within#2",
+  "11:16.6": "within#2",
+  "11:18.10": "thought#4",
+  "11:18.11": "to#2",
+  "11:19.1": "have#2",
   "11:19.4": "some#2",
+  "11:19.8": "that#2",
+  "11:20.7": "within#2",
+  "11:24.1": "that#3",
+  "11:25.6": "till#2",
   "11:26.2": "drink#2",
+  "11:27.1": "what#5",
   "11:27.5": "drink#2",
   "11:30.9": "drink#2",
+  "11:31.4": "to#2",
+  "11:34.1": "to#3",
+  "11:34.5": "to#3",
   "11:36.3": "drink#2",
   "11:37.5": "i'",
+  "11:37.7": "very#2",
+  "11:39.9": "yet#2",
+  "11:40.2": "to#2",
+  "11:48.5": "to#2",
+  "11:49.2": "have#2",
+  "11:52.2": "yet#2",
+  "11:53.2": "labour#2",
+  "11:55.2": "make#2",
   "11:55.4": "bold#2",
+  "11:55.5": "to#2",
+  "11:56.1": "for#2",
+  "11:58.6": "so#2",
   "11:61.3": "i'",
+  "11:64.6": "time#2",
   "11:65.5": "some#2",
+  "11:71.7": "heart#2",
+  "11:72.4": "name#2",
   "11:77.3": "o'",
+  "11:90.1": "to#2",
+  "11:93.1": "that#2",
+  "11:96.5": "to#2",
+  "11:96.7": "what#2",
+  "11:98.3": "as#5",
+  "11:103.1": "what#4",
+  "11:106.6": "so#2",
+  "11:108.3": "but#3",
+  "11:109.7": "for#2",
+  "11:111.3": "but#3",
+  "11:113.5": "to#2",
+  "11:118.4": "very#2",
+  "11:123.1": "so#4",
+  "11:126.2": "to#2",
+  "11:127.2": "yet#2",
+  "11:128.1": "that#5",
+  "11:129.4": "so#2",
+  "11:135.10": "nature#2",
+  "11:139.1": "that#2",
+  "11:139.2": "had#2",
+  "11:139.4": "heart#2",
+  "11:139.5": "to#2",
+  "11:139.6": "love#2",
+  "11:139.9": "that#6",
+  "11:139.10": "heart#2",
+  "11:140.2": "to#2",
+  "11:142.1": "look#3",
+  "11:143.7": "hold#3",
+  "11:144.1": "that#2",
+  "11:151.1": "look#3",
+  "11:153.4": "have#3",
+  "11:154.1": "that#2",
+  "11:156.1": "to#2",
   "11:157.8": "stand#2",
+  "11:160.2": "so#4",
+  "11:160.3": "do#3",
+  "11:161.1": "so#4",
   "11:163.3": "i'",
+  "11:165.3": "but#2",
+  "11:166.4": "do#2",
+  "11:167.1": "to#2",
   "11:168.6": "easy#2",
+  "11:175.2": "to#2",
   "11:177.2": "shift#2",
+  "11:177.7": "that#6",
   "12:3.6": "remember#2",
+  "12:4.8": "have#2",
   "12:7.3": "father#2",
+  "12:8.5": "as#4",
+  "12:10.2": "yet#2",
   "12:11.7": "shame#2",
+  "12:12.1": "that#2",
+  "12:17.1": "was#2",
+  "12:21.4": "as#4",
+  "12:24.3": "so#2",
+  "12:24.8": "mine#2",
+  "12:25.1": "that#2",
   "12:25.2": "look'd#2",
+  "12:29.1": "why#2",
+  "12:30.6": "more#2",
+  "12:31.2": "that#2",
+  "12:33.1": "what#5",
+  "12:38.2": "nature#2",
+  "12:39.3": "that#2",
+  "12:40.1": "thine#2",
+  "12:40.5": "then#2",
+  "12:43.1": "to#2",
+  "12:44.1": "where#2",
+  "12:50.1": "well#3",
+  "12:51.1": "well#3",
+  "12:53.1": "farewell#2",
   "12:53.2": "father#2",
+  "12:55.1": "that#2",
+  "12:55.3": "make#2",
   "13:116.2": "i'",
   "13:149.7": "o'",
   "15:17.3": "i'",

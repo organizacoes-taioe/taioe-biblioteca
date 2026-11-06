@@ -793,6 +793,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'benjamin-franklin',
+  nome: 'Benjamin Franklin',
+  nomeCompleto: 'Benjamin Franklin',
+  vida: '1706–1790',
+  ordem: 'Franklin, Benjamin',
+  area: 'nao-ficcao',
+  nota: 'Tipógrafo, cientista e político de Filadélfia, um dos fundadores dos Estados Unidos.'
+});
+
+BIBLIOTECA.autor({
   id: 'vergilio',
   nome: 'Vergílio',
   nomeCompleto: 'Públio Vergílio Marão',

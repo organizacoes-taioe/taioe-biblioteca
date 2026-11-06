@@ -770,6 +770,13 @@ BIBLIOTECA.autor({
   ordem: 'Tolstói, Liev',
   area: 'nao-ficcao',
   nota: 'Romancista russo, autor de Guerra e paz e Anna Kariênina; na maturidade, escritor religioso e moralista.'
+  id: 'frederick-douglass',
+  nome: 'Frederick Douglass',
+  nomeCompleto: 'Frederick Douglass',
+  vida: '~1818–1895',
+  ordem: 'Douglass, Frederick',
+  area: 'nao-ficcao',
+  nota: 'Nascido escravo em Maryland, com o nome de Frederick Augustus Washington Bailey, fugiu em 1838 e tornou-se o maior orador do abolicionismo americano.'
 });
 
 BIBLIOTECA.autor({

@@ -789,7 +789,308 @@
     "(Auxiliar) Serve para formar os tempos compostos, indicando o passado, a conclusão ou a experiência: ter."
    ],
    "nota": "«Ils me l’auront volé»: com o particípio «volé», forma o futuro anterior; aqui expressa suposição: devem tê-lo roubado de mim."
+  },
+  "volé": {
+   "lema": "voler",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "Apropriar-se do bem alheio; tomar algo de alguém sem o seu consentimento: roubar, furtar."
+   ],
+   "nota": "«Ils me l’auront volé»: devem tê-lo roubado de mim (futuro anterior que exprime suposição)."
+  },
+  "arriva": {
+   "lema": "arriver",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Chegar ao destino: chegou."
+   ]
+  },
+  "splendide": {
+   "lema": "splendide",
+   "classe": "adjetivo",
+   "def": [
+    "Que tem esplendor, magnificência: esplêndido."
+   ]
+  },
+  "droit": {
+   "lema": "droit",
+   "classe": "adjetivo",
+   "def": [
+    "Que não está deitado, que está em pé: ereto."
+   ],
+   "nota": "«Droit sur une branche»: bem ereto sobre um galho."
+  },
+  "branche": {
+   "lema": "branche",
+   "classe": "substantivo feminino",
+   "def": [
+    "Parte ramificada e aérea de uma árvore, a partir do tronco: galho."
+   ]
+  },
+  "vissait": {
+   "lema": "visser",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Prender, fixar com parafusos: aparafusar."
+   ],
+   "nota": "«Se vissait»: aparafusava-se, isto é, prendia-se por parafuso ao pedestal."
+  },
+  "socle": {
+   "lema": "socle",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Por extensão) Suporte de um busto, de uma estatueta, de um vaso etc.: pedestal, base."
+   ]
+  },
+  "oblique": {
+   "lema": "oblique",
+   "classe": "adjetivo",
+   "def": [
+    "(Geometria) Que se afasta mais ou menos da vertical: oblíquo, inclinado."
+   ],
+   "nota": "«La tête oblique»: a cabeça inclinada, de lado."
+  },
+  "mordant": {
+   "lema": "mordre",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Apertar com os dentes de modo a ferir ou entalhar: morder."
+   ]
+  },
+  "noix": {
+   "lema": "noix",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Frutas) Fruto carnudo produzido pela nogueira (Juglans): noz."
+   ]
+  },
+  "noix#2": {
+   "lema": "noix",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Por analogia) Fruto de diversas espécies de árvores, de envoltório lenhoso: noz."
+   ],
+   "nota": "«Noix de coco»: coco, o fruto do coqueiro."
+  },
+  "empailleur": {
+   "lema": "empailleur",
+   "classe": "substantivo masculino",
+   "def": [
+    "Pessoa que empalha animais: empalhador."
+   ]
+  },
+  "grandiose": {
+   "lema": "grandiose",
+   "classe": "adjetivo",
+   "def": [
+    "Que impressiona a imaginação por um caráter de grandeza ou de majestade: grandioso."
+   ],
+   "nota": "«Par amour du grandiose»: por gosto do grandioso; o adjetivo está usado como substantivo."
+  },
+  "admettait": {
+   "lema": "admettre",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Receber por escolha, favor ou condescendência: admitir, deixar entrar."
+   ]
+  },
+  "chapelle": {
+   "lema": "chapelle",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Religião) Lugar onde se celebra o ofício religioso, num domínio particular, num hospício, num colégio etc.: capela."
+   ]
+  },
+  "bazar": {
+   "lema": "bazar",
+   "classe": "substantivo masculino",
+   "def": [
+    "Grande loja onde se vendem a varejo mercadorias diversas, em geral a preço baixo: bazar."
+   ],
+   "nota": "Aqui, pela profusão de objetos de toda espécie amontoados no quarto de Félicité."
+  },
+  "contenait": {
+   "lema": "contenir",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ter certa capacidade, compreender em certo espaço, em certa extensão: conter."
+   ]
+  },
+  "religieux": {
+   "lema": "religieux",
+   "classe": "adjetivo",
+   "def": [
+    "Relativo à religião: religioso."
+   ]
+  },
+  "hétéroclites": {
+   "lema": "hétéroclite",
+   "classe": "adjetivo",
+   "forma": "plural",
+   "def": [
+    "Misturado de elementos díspares: heteróclito."
+   ],
+   "nota": "«Choses hétéroclites»: coisas de toda espécie, sem relação entre si."
+  },
+  "gênait": {
+   "lema": "gêner",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Incomodar alguém ou alguma coisa cujo livre movimento se impede, causar embaraço, importunar, atrapalhar."
+   ],
+   "nota": "«Une grande armoire gênait pour ouvrir la porte»: um grande armário atrapalhava a abertura da porta."
+  },
+  "bœuf": {
+   "lema": "bœuf",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Pecuária) Touro castrado: boi."
+   ],
+   "nota": "«Œil de bœuf»: óculo, pequena janela redonda ou oval."
+  },
+  "sangle": {
+   "lema": "sangle",
+   "classe": "substantivo feminino",
+   "def": [
+    "Faixa de tecido ou de couro que se estica e se aperta para manter alguma coisa: cinta, correia."
+   ],
+   "nota": "«Lit de sangle»: cama de campanha, cujo estrado é feito de cintas esticadas."
+  },
+  "pot": {
+   "lema": "pot",
+   "classe": "substantivo masculino",
+   "def": [
+    "Vaso de barro, vidro, metal, plástico ou outra matéria, que serve a diversos usos: pote, jarro."
+   ],
+   "nota": "«Pot à l’eau»: jarro de água."
+  },
+  "peignes": {
+   "lema": "peigne",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Instrumento de buxo, de chifre, de marfim, de plástico etc., talhado em forma de dentes, que serve para desembaraçar e arrumar os cabelos e a barba: pente."
+   ]
+  },
+  "cube": {
+   "lema": "cube",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Por extensão) Objeto de forma paralelepipédica próxima do cubo: cubo, bloco."
+   ],
+   "nota": "«Un cube de savon bleu»: um bloco de sabão azul."
+  },
+  "assiette": {
+   "lema": "assiette",
+   "classe": "substantivo feminino",
+   "def": [
+    "Peça de louça de fundo plano na qual cada um se serve ou recebe os alimentos: prato."
+   ]
+  },
+  "ébréchée": {
+   "lema": "ébréché",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Estragado por fissuras, por brechas, por rachaduras: lascado."
+   ]
+  },
+  "chapelets": {
+   "lema": "chapelet",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "(Religião) Rosário, colar de contas enfiadas, nas quais os fiéis contam as orações que recitam: terço."
+   ]
+  },
+  "médailles": {
+   "lema": "médaille",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "(Numismática) Peça de ouro, prata ou cobre, geralmente benta, que representa um tema de devoção: medalha."
+   ]
+  },
+  "bénitier": {
+   "lema": "bénitier",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Cristianismo) Espécie de bacia ou vaso destinado a conter a água benta de que os cristãos se servem para fazer o sinal da cruz, para aspergir: pia de água benta."
+   ]
+  },
+  "coco": {
+   "lema": "coco",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Frutas) A própria noz de coco, fruto do coqueiro: coco."
+   ],
+   "nota": "«Noix de coco»: coco."
+  },
+  "couverte": {
+   "lema": "couvrir",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular",
+   "def": [
+    "Guarnecer em grande quantidade, depositando algo sobre alguma coisa ou estendendo-se uniformemente sobre ela: cobrir."
+   ]
+  },
+  "coquillages": {
+   "lema": "coquillage",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "(Por extensão) A concha do molusco: concha."
+   ],
+   "nota": "«Boîte en coquillages»: caixa revestida de conchas."
+  },
+  "donnée": {
+   "lema": "donner",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular",
+   "def": [
+    "Fazer um dom; transferir, sem retribuição, a propriedade de uma coisa que se possui ou de que se desfruta a outra pessoa: dar."
+   ],
+   "nota": "Concorda com «la boîte», que vem antes: «la boîte que lui avait donnée Victor»."
+  },
+  "arrosoir": {
+   "lema": "arrosoir",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Jardinagem) Utensílio usado para regar, composto de um recipiente com alça e de um longo bico: regador."
+   ]
+  },
+  "cahiers": {
+   "lema": "cahier",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Conjunto de folhas de papel reunidas por grampos ou costura e destinadas à escrita: caderno."
+   ]
+  },
+  "écriture": {
+   "lema": "écriture",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Por extensão) Maneira como se traçam os caracteres: caligrafia, letra."
+   ],
+   "nota": "«Cahiers d’écriture»: cadernos de caligrafia."
+  },
+  "paire": {
+   "lema": "paire",
+   "classe": "substantivo feminino",
+   "def": [
+    "Duas coisas da mesma espécie que vão necessária ou ordinariamente juntas: par."
+   ]
   }
  },
- "ocorrencias": {}
+ "ocorrencias": {
+  "525.16": "noix#2"
+ }
 }

@@ -1,0 +1,575 @@
+{
+ "verbetes": {
+  "abandonner": {
+   "lema": "abandonner",
+   "classe": "verbo",
+   "def": [
+    "Deixar de querer algo ou alguém: abandonar, renunciar a."
+   ]
+  },
+  "exigeait": {
+   "lema": "exiger",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Pedir algo em virtude de um direito legítimo ou tido por tal: exigir."
+   ]
+  },
+  "couvent": {
+   "lema": "couvent",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Antigo) Casa de educação dirigida por religiosas: convento, colégio de freiras."
+   ],
+   "nota": "Aqui é o colégio de freiras onde Virginie, a filha de Mme Aubain, é interna."
+  },
+  "correspondance": {
+   "lema": "correspondance",
+   "classe": "substantivo feminino",
+   "def": [
+    "Relação que pessoas afastadas umas das outras mantêm por troca de cartas: correspondência."
+   ]
+  },
+  "réglée": {
+   "lema": "réglé",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que é ajuizado, regular: regrado, regular."
+   ],
+   "nota": "«Une correspondance réglée»: cartas trocadas com regularidade, em datas certas."
+  },
+  "facteur": {
+   "lema": "facteur",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Profissão) (Correios) Agente encarregado de distribuir e entregar aos destinatários as cartas, objetos e valores transmitidos pelo correio: carteiro."
+   ]
+  },
+  "venu": {
+   "lema": "venir",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "Dirigir-se ao lugar em que se encontra quem fala ou de quem se fala: vir."
+   ],
+   "nota": "«N’était pas venu»: não tinha vindo. O verbo «venir» forma os tempos compostos com «être»."
+  },
+  "impatienta": {
+   "lema": "impatienter",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "(Pronominal) Perder a paciência: impacientar-se."
+   ],
+   "nota": "«Elle s’impatienta»: impacientou-se."
+  },
+  "fenêtre": {
+   "lema": "fenêtre",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Arquitetura) Abertura feita em certas partes de um edifício para dar luz e ar ao interior: janela."
+   ]
+  },
+  "vraiment": {
+   "lema": "vraiment",
+   "classe": "advérbio",
+   "def": [
+    "Efetivamente; verdadeiramente, de modo verdadeiro; realmente: de fato, realmente."
+   ]
+  },
+  "extraordinaire": {
+   "lema": "extraordinaire",
+   "classe": "adjetivo",
+   "def": [
+    "Que não é segundo o uso ordinário, que está acima do ordinário: extraordinário."
+   ]
+  },
+  "nouvelles": {
+   "lema": "nouvelles",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Informação sobre o estado de uma pessoa ou de uma coisa de que não se tinha notícia havia algum tempo: notícias."
+   ]
+  },
+  "consolât": {
+   "lema": "consoler",
+   "classe": "verbo",
+   "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+   "def": [
+    "Aliviar alguém em sua aflição por palavras, por cuidados ou de outra maneira: consolar."
+   ],
+   "nota": "«Pour qu’elle se consolât»: para que ela se consolasse. O imperfeito do subjuntivo é tempo da língua escrita, hoje raro."
+  },
+  "exemple": {
+   "lema": "exemple",
+   "classe": "substantivo masculino",
+   "def": [
+    "O que pode servir de modelo, o que pode ser imitado: exemplo."
+   ],
+   "nota": "«Par son exemple»: pelo exemplo dela, isto é, de Félicité, que também estava sem notícias."
+  },
+  "moi": {
+   "lema": "moi",
+   "classe": "pronome pessoal",
+   "def": [
+    "Pronome tônico da primeira pessoa do singular: eu, mim."
+   ],
+   "nota": "Em «Moi, madame…», põe em relevo quem fala (eu, por mim); depois do imperativo («donnez-moi», «pardonnez-moi»), faz de complemento: me, a mim."
+  },
+  "ai": {
+   "lema": "avoir",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 1ª pessoa do singular",
+   "def": [
+    "Verbo auxiliar dos tempos compostos: ter, haver."
+   ],
+   "nota": "Com «reçu» forma o passado composto: «je n’en ai reçu» é não recebi nenhuma (carta)."
+  },
+  "répliqua": {
+   "lema": "répliquer",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Dar a réplica, responder ao que foi respondido por aquele com quem se fala: replicar, responder."
+   ]
+  },
+  "doucement": {
+   "lema": "doucement",
+   "classe": "advérbio",
+   "def": [
+    "Com ponderação, delicadamente, sem violência, sem brutalidade: com suavidade, suavemente."
+   ],
+   "nota": "Também pode dizer «sem barulho» ou «em voz baixa»; em «s’endormait doucement», adormecia de mansinho."
+  },
+  "doucement#2": {
+   "lema": "doucement",
+   "classe": "advérbio",
+   "def": [
+    "Lentamente."
+   ],
+   "nota": "«L’automne s’écoula doucement»: o outono passou devagar."
+  },
+  "votre": {
+   "lema": "votre",
+   "classe": "determinante possessivo",
+   "def": [
+    "Que pertence a vós, ou a quem se trata com polidez (o senhor, a senhora): seu, sua, vosso, vossa."
+   ]
+  },
+  "haussant": {
+   "lema": "hausser",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Levantar, erguer: levantar."
+   ],
+   "nota": "«Haussant les épaules»: dando de ombros, gesto de indiferença ou desdém."
+  },
+  "promenade": {
+   "lema": "promenade",
+   "classe": "substantivo feminino",
+   "def": [
+    "Ação de passear: passeio."
+   ],
+   "nota": "«Reprit sa promenade»: voltou a andar de um lado para o outro pela sala, como antes."
+  },
+  "pensais": {
+   "lema": "penser",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 1ª pessoa do singular",
+   "def": [
+    "Exercer a atividade do espírito; realizar alguma operação da inteligência; conceber; imaginar; refletir: pensar."
+   ],
+   "nota": "«Penser à»: pensar em; «je n’y pensais pas» é nisso eu nem pensava."
+  },
+  "surplus": {
+   "lema": "surplus",
+   "classe": "substantivo masculino",
+   "def": [
+    "O que resta; o que excede: excedente, resto."
+   ],
+   "nota": "«Au surplus»: além disso, de resto."
+  },
+  "moque": {
+   "lema": "moquer",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 1ª pessoa do singular",
+   "def": [
+    "Desprezar; desafiar; mostrar desdém."
+   ],
+   "nota": "«Je m’en moque» (de «se moquer de»): pouco se me dá, não me importo."
+  },
+  "gueux": {
+   "lema": "gueux",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Antigo ou irônico) Indigente, necessitado, que atrai o desprezo: miserável, pobretão."
+   ],
+   "nota": "Dito com desprezo por Mme Aubain, a propósito do sobrinho de Félicité."
+  },
+  "affaire": {
+   "lema": "affaire",
+   "classe": "substantivo feminino",
+   "def": [
+    "Coisa de que se deve ocupar: assunto, negócio."
+   ],
+   "nota": "«Belle affaire !» é exclamação irônica: grande coisa!"
+  },
+  "ma": {
+   "lema": "ma",
+   "classe": "determinante possessivo",
+   "def": [
+    "Determinante feminino singular (adjetivo possessivo) que indica relação de dependência com o locutor «je»: minha."
+   ]
+  },
+  "songez": {
+   "lema": "songer",
+   "classe": "verbo",
+   "forma": "imperativo, 2ª pessoa do plural",
+   "def": [
+    "Pensar; prestar atenção; tomar cuidado: pensar em, reparar."
+   ],
+   "nota": "«Songez donc !»: pense só!, imagine!"
+  },
+  "nourrie": {
+   "lema": "nourrir",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular",
+   "def": [
+    "(Figurado) Instruir, educar: criar, educar."
+   ],
+   "nota": "«Nourrie dans la rudesse»: criada na rudeza, acostumada a uma vida dura."
+  },
+  "rudesse": {
+   "lema": "rudesse",
+   "classe": "substantivo feminino",
+   "def": [
+    "Caráter do que é rigoroso, penoso: rudeza, dureza."
+   ]
+  },
+  "indignée": {
+   "lema": "indigné",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que mostra indignação diante de algo mau ou injusto: indignado."
+   ]
+  },
+  "perdre": {
+   "lema": "perdre",
+   "classe": "verbo",
+   "def": [
+    "Ser privado de alguma parte de si; sofrer a perda ou a diminuição sensível de alguma faculdade que se possuía: perder."
+   ],
+   "nota": "«Perdre la tête»: perder a cabeça, perder o domínio de si."
+  },
+  "perdre#2": {
+   "lema": "perdre",
+   "classe": "verbo",
+   "def": [
+    "Ser privado, pela morte ou de outro modo, de uma pessoa que se amava: perder."
+   ]
+  },
+  "importance": {
+   "lema": "importance",
+   "classe": "substantivo feminino",
+   "def": [
+    "O que faz com que uma coisa seja de grande interesse, considerável em si mesma ou pelas circunstâncias ou pelas consequências que pode ter: importância."
+   ]
+  },
+  "égale": {
+   "lema": "égal",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que é semelhante, seja em natureza, em quantidade ou em qualidade: igual."
+   ]
+  },
+  "lien": {
+   "lema": "lien",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Figurado) Elemento que liga duas ou mais coisas entre si, que assegura sua relação: laço, vínculo."
+   ]
+  },
+  "unissait": {
+   "lema": "unir",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Diz-se, em sentido figurado, de pessoas que têm laços entre si: unir."
+   ]
+  },
+  "destinées": {
+   "lema": "destinée",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Destino particular de uma pessoa ou de uma coisa."
+   ]
+  },
+  "devaient": {
+   "lema": "devoir",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "(Auxiliar) Estar na necessidade de: dever, ter de."
+   ],
+   "nota": "«Devaient être la même»: estavam fadadas a ser a mesma. Aqui o verbo diz o que o destino já fixou."
+  },
+  "pharmacien": {
+   "lema": "pharmacien",
+   "classe": "substantivo masculino",
+   "def": [
+    "Profissional de saúde especialista em medicamentos: farmacêutico, boticário."
+   ]
+  },
+  "havane": {
+   "lema": "Havane",
+   "wiki": null,
+   "classe": "nome próprio",
+   "def": [
+    "Havana."
+   ],
+   "nota": "Capital de Cuba; o texto escreve «la Havane». Félicité a imagina como um país inteiro onde só se fuma, por causa dos charutos."
+  },
+  "lu": {
+   "lema": "lire",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "Interpretar informações escritas sob a forma de palavras ou de desenhos num suporte: ler."
+   ]
+  },
+  "renseignement": {
+   "lema": "renseignement",
+   "classe": "substantivo masculino",
+   "def": [
+    "Indício que nos ajuda a conhecer certas coisas ou que nos esclarece sobre uma pessoa: informação."
+   ]
+  },
+  "gazette": {
+   "lema": "gazette",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Jornalismo) Periódico que contém as notícias políticas, literárias ou outras: gazeta, jornal."
+   ]
+  },
+  "cigares": {
+   "lema": "cigare",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Pequeno rolo de folhas de tabaco preparado para ser fumado: charuto."
+   ]
+  },
+  "imaginait": {
+   "lema": "imaginer",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Representar algo no espírito: imaginar."
+   ]
+  },
+  "pays": {
+   "lema": "pays",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Geografia) Território de uma nação: país."
+   ]
+  },
+  "fumer": {
+   "lema": "fumer",
+   "classe": "verbo",
+   "def": [
+    "Fazer queimar tabaco ou outra substância, aspirando-a pela boca: fumar."
+   ]
+  },
+  "circulait": {
+   "lema": "circuler",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ir de um lado para outro; ir e vir: circular."
+   ]
+  },
+  "parmi": {
+   "lema": "parmi",
+   "classe": "preposição",
+   "def": [
+    "No meio de, no seio de: entre."
+   ]
+  },
+  "nègres": {
+   "lema": "nègre",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "(Antropologia) (Antigo, injurioso, pejorativo) Homem de pele negra, em geral afrodescendente."
+   ],
+   "nota": "Palavra usual na época de Flaubert, hoje ofensiva; o francês de hoje diz «noirs»."
+  },
+  "nuage": {
+   "lema": "nuage",
+   "classe": "substantivo masculino",
+   "def": [
+    "Amontoado de gotículas de água mantidas em suspensão na atmosfera: nuvem."
+   ],
+   "nota": "Em «un nuage de tabac», «un nuage de poussière», por extensão, massa de fumaça ou de poeira que lembra uma nuvem."
+  },
+  "tabac": {
+   "lema": "tabac",
+   "classe": "substantivo masculino",
+   "def": [
+    "Preparação obtida por secagem e leve fermentação das folhas da planta do mesmo nome: tabaco, fumo."
+   ]
+  },
+  "cas": {
+   "lema": "cas",
+   "classe": "substantivo masculino",
+   "def": [
+    "Acidente, aventura, conjuntura, ocasião; fato ocorrido, ou que pode ocorrer: caso."
+   ],
+   "nota": "«En cas de besoin»: em caso de necessidade."
+  },
+  "besoin": {
+   "lema": "besoin",
+   "classe": "substantivo masculino",
+   "def": [
+    "Privação de algo necessário: necessidade, falta."
+   ],
+   "nota": "«Avoir besoin de»: precisar de; «en cas de besoin»: se for preciso."
+  },
+  "retourner": {
+   "lema": "retourner",
+   "classe": "verbo",
+   "def": [
+    "Voltar ao lugar de onde se veio: retornar, voltar."
+   ],
+   "nota": "«S’en retourner»: voltar para casa, regressar."
+  },
+  "quelle": {
+   "lema": "quel",
+   "classe": "adjetivo interrogativo",
+   "forma": "feminino singular",
+   "def": [
+    "(Com um substantivo) Pergunta pela identidade do substantivo que segue: qual, que."
+   ],
+   "nota": "«À quelle distance»: a que distância."
+  },
+  "distance": {
+   "lema": "distance",
+   "classe": "substantivo feminino",
+   "def": [
+    "Intervalo; extensão: distância."
+   ]
+  },
+  "était-ce": {
+   "lema": "était-ce",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo de «être», 3ª pessoa do singular, forma interrogativa",
+   "def": [
+    "Forma interrogativa de «c’était», 3ª pessoa do singular do imperfeito do verbo «être»: era (isso)?"
+   ]
+  },
+  "savoir": {
+   "lema": "savoir",
+   "classe": "verbo",
+   "def": [
+    "Apreender pelo espírito ou pelo conhecimento; conhecer de modo certo: saber."
+   ]
+  },
+  "interrogea": {
+   "lema": "interroger",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Fazer perguntas a alguém, seja para se informar de algo, seja para verificar se a pessoa interrogada possui certo conhecimento: interrogar, perguntar."
+   ]
+  },
+  "atteignit": {
+   "lema": "atteindre",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "(Por extensão) Chegar a um termo, a algo de que se estava mais ou menos afastado: alcançar, chegar a."
+   ],
+   "nota": "Em «atteignit son atlas», estendeu a mão e pegou o atlas; em «atteignit Saint-Gatien», chegou a Saint-Gatien."
+  },
+  "atlas": {
+   "lema": "atlas",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Geografia) Coletânea ordenada de mapas, concebida para representar um espaço dado ou expor um ou mais temas: atlas."
+   ]
+  },
+  "explications": {
+   "lema": "explication",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Discurso com que se procura fazer compreender um texto, uma ideia ou uma obra, acrescentando informações ou expondo os detalhes ou os motivos: explicação."
+   ]
+  },
+  "longitudes": {
+   "lema": "longitude",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "(Geografia) Ângulo formado pelo meridiano astronômico de um lugar e o meridiano de referência: longitude."
+   ]
+  },
+  "sourire": {
+   "lema": "sourire",
+   "classe": "substantivo masculino",
+   "def": [
+    "Ação de sorrir ou seu resultado: sorriso."
+   ]
+  },
+  "cuistre": {
+   "lema": "cuistre",
+   "classe": "substantivo masculino",
+   "def": [
+    "Pessoa pedante, vaidosa e ridícula, muitas vezes orgulhosa de exibir seu saber mal assimilado diante de pessoas simples, que julga menos instruídas: pedante."
+   ],
+   "nota": "«Sourire de cuistre»: sorriso de pedante, o de Bourais diante do espanto de Félicité."
+  },
+  "ahurissement": {
+   "lema": "ahurissement",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Familiar) Estado de uma pessoa «ahurie», atônita, aparvalhada: perplexidade, atordoamento."
+   ]
+  },
+  "porte-crayon": {
+   "lema": "porte-crayon",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Antigo) Tubo de ouro, prata, cobre etc., no qual se põe um lápis para usá-lo mais facilmente: porta-lápis."
+   ]
+  },
+  "indiqua": {
+   "lema": "indiquer",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Mostrar, designar uma pessoa ou uma coisa: indicar."
+   ]
+  },
+  "découpures": {
+   "lema": "découpure",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Ação de recortar um tecido, tela, papel etc., ou resultado dessa ação: recorte."
+   ],
+   "nota": "No mapa, os contornos recortados da mancha oval."
+  }
+ },
+ "ocorrencias": {
+  "343.5": "doucement#2",
+  "438.45": "perdre#2"
+ }
+}

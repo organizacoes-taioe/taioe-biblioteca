@@ -770,6 +770,9 @@ BIBLIOTECA.autor({
   ordem: 'Tolstói, Liev',
   area: 'nao-ficcao',
   nota: 'Romancista russo, autor de Guerra e paz e Anna Kariênina; na maturidade, escritor religioso e moralista.'
+});
+
+BIBLIOTECA.autor({
   id: 'frederick-douglass',
   nome: 'Frederick Douglass',
   nomeCompleto: 'Frederick Douglass',

@@ -31,3 +31,30 @@ Seguem o guia e as notas de I e III (Biblioteca, «disse ele / disse eu», «em 
   «assassinos e intrigantes públicos… absurdos monges que se martirizam ou… literatos vãos e frívolos».
 - *the fair side of a life* → «o lado claro de uma vida» (contra «escurecida»).
 - *Signed, Benj. Vaughan.* → «Assinado: Benj. Vaughan.».
+
+## II.2
+
+- *conveyancer* → «tabelião»; *the scrivener* (o mesmo Brockden) → «o escrivão» (como em I.5 e I.9);
+  *articles of agreement* → «contrato»; *instrument* → «documento»; *charter that incorporated* → «carta de
+  incorporação» (I.9).
+- *young tradesmen* → «jovens artesãos» (como *tradesmen* em I.9); *with great industry* → «com muito
+  esforço» (não é a virtude); *more intelligent* (séc. XVIII: informado) → «mais informado», ao lado de
+  «mais instruído» (I.9 tinha posto *intelligent* → «instruídos»).
+- O *you* genérico do conselho (*the present little sacrifice of your vanity*) → «nossa vaidade… mais
+  vaidoso do que nós… nos fazer justiça» (a parte II é para o público, não para o filho; como em III, o
+  *you* genérico vira «nós»). *mark how luxury…* → «veja-se como o luxo…».
+- Provérbios 22,29, como Franklin cita (*calling* em vez do *business* da King James): «Vês um homem
+  diligente no seu ofício? Ele estará diante de reis, não estará diante de homens obscuros» (*mean men* =
+  gente de baixa condição; «ofício» como *calling* em I.1).
+- *sitting down with one, the King of Denmark, to dinner* → «me sentar à mesa com um deles» («almoçar» com
+  o rei, pela regra *dinner* = almoço, ficaria estranho; «sentar à mesa» diz a refeição).
+- *He that would thrive, must ask his wife* → «Quem quer prosperar tem de perguntar à mulher» (literal; não
+  achei provérbio português equivalente).
+- *porringer* → «tigela»; *China bowl* → «tigela de porcelana»; *plate and China* → «prataria e porcelana».
+- *the Deity; that he made the world* → «a Divindade; de que ela fez o mundo» (guia: «a Divindade»);
+  *persuasion* → «confissão» (III); *my mite* → «o meu óbolo» (o «óbolo da viúva»); *was never refused* →
+  «nunca foi negado» (= ele nunca o negou).
+- *minister or meeting* (presbiteriano) → «ministro, ou… congregação»; *administrations* → «ofícios».
+- Filipenses 4,8, da King James; *Keeping holy the Sabbath day* → «Santificar o dia de guarda» (para o
+  presbiteriano o *Sabbath* é o domingo; «dia de guarda» como o *Sabbath* de Keimer em I.7).
+- *Articles of Belief and Acts of Religion* → _Artigos de fé e atos de religião_.

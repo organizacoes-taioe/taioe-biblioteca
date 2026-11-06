@@ -66,8 +66,8 @@ latina aportuguesada (Πομπήϊος → Pompeu, Σκηπίων → Cipião, �
   «bárbaros» (o termo grego para os não gregos; não trocar).
 - Medidas e dinheiro: τάλαντον → talento; δραχμή → dracma; μνᾶ → mina; στάδιον → estádio; πλέθρον → pletro;
   πῆχυς → côvado.
-- Meses: o nome grego aportuguesado (Hecatombeão, Boedromião, Targelião) e o macedônio (Loio, Désio, Désio
-  «segundo»); Idos de Março (Μαρτίαις εἰδοῖς); calendas.
+- Meses: o nome grego aportuguesado, com minúscula como os nossos (hecatombeão, boedromião, posideão) e o
+  macedônio (loio, désio, «um segundo artemísio»); o romano intercalar, «mercedônio»; Idos de Março; calendas.
 - τύχη → **fortuna** (com maiúscula quando personificada, «a Fortuna de César»); δαίμων, τὸ δαιμόνιον → «a
   divindade», «um deus», «o destino», conforme o caso, sempre registrado nas notas; τὸ θεῖον → «o divino»,
   «os deuses»; μάντις → adivinho; οἰωνός → presságio; σημεῖον → sinal; θυσία → sacrifício.

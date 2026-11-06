@@ -35,6 +35,14 @@ Correções ao Perseus (o fac-símile de Perrin tem a forma da direita):
   Σαραπεῖον; Caes. 8.3 οἶ δα → οἶδα; 10.4 τοῦ Κλώδιον → τοῦ Κλωδίου; 12.1 Καλαϊκοὺς → Καλλαϊκοὺς; 15.2 Μετέλλονς
   → Μετέλλους, τ?ε → τε; 41.2 Διὰ → διὰ (duas vezes), «ἐπαρχίας, ἐκ» → «ἐπαρχίας. ἐκ»; 66.3 ἐντυχάνοντι →
   ἐντυγχάνοντι; 68.4 Βροῦτον → Βρούτου; 69.7 ὂψομαι → ὄψομαι;
+- restos soltos e erros de digitação achados na tradução (lista `FINAL` de `ferramentas/montar.py`): Alex. 26.6
+  começava com «πται πρὸς τὴν ἤπειρον.», o fim de 26.3 repetido (no fac-símile é o começo da p. 300), tirado;
+  19.4 «ἀν ἀναγινώσκοντος» → «ἀναγινώσκοντος»; 16.7 apóstrofo solto; 4.1–2 «Τὴν» → «τὴν» (três vezes); 8.2
+  ἀλλων → ἄλλων; 16.2 εἱώθεισαν → εἰώθεισαν; 22.4 ἢν → ἦν; 23.1 ἀει → ἀεὶ; 29.2 Ἀθηνοδορῳ → Ἀθηνοδώρῳ; 30.7 οἳ
+  πλεῖστοι → οἱ πλεῖστοι; 35.2 ἐλαφρῶ → ἐλαφρῷ; 54.1 sinal ῝ solto; 58.4 o parêntese de Perrin «(καὶ γὰρ ποταμὸς
+  ἦν πρὸς αὐτῇ βαθύς)», estragado no Perseus; εἷς → εἰς onde é a preposição (63.2 «εἰς μέσους», 70.3 duas vezes)
+  e 65.1 ἓν → ἐν; 69.1 «ι» solto; 72.3 ponto alto solto; Caes. 52.3 a oração «εἴτε καὶ σπουδῇ τὸν οἰωνὸν
+  οἰκειούμενος» estava duas vezes; 60.5 o arquivo terminava com «λαμπρῶς, ὦ», que não está no fac-símile;
 - os parênteses de Perrin, que o Perseus marca com ʽ…ʼ e às vezes sem fechar (Alex. 14.5, Caes. 2.4, 41.2), voltaram
   a ser ( ).
 

@@ -59,6 +59,33 @@ VIDAS = {
     'Alex': ('alex.json', 'alexandre', 'ΑΛΕΞΑΝΔΡΟΣ', [(1, 8), (9, 14), (15, 21), (22, 30), (31, 38), (39, 47), (48, 55), (56, 67), (68, 77)]),
     'Caes': ('caes.json', 'cesar', 'ΚΑΙΣΑΡ', [(1, 4), (5, 14), (15, 21), (22, 27), (28, 35), (36, 46), (47, 56), (57, 61), (62, 69)]),
 }
+# correções no texto montado (arquivo, antes, depois): restos soltos e erros de digitação do Perseus
+FINAL = [
+    ('alexandre-1-8.txt', 'καὶ Τὴν ὑγρότητα', 'καὶ τὴν ὑγρότητα'),
+    ('alexandre-1-8.txt', 'ἐμιμήσατο Τὴν χρόαν', 'ἐμιμήσατο τὴν χρόαν'),
+    ('alexandre-1-8.txt', 'καὶ Τὴν σάρκα', 'καὶ τὴν σάρκα'),
+    ('alexandre-1-8.txt', 'τῶν δὲ ἀλλων', 'τῶν δὲ ἄλλων'),
+    ('alexandre-15-21.txt', 'εἱώθεισαν', 'εἰώθεισαν'),
+    ('alexandre-15-21.txt', 'πεσεῖν,’ πρὸς', 'πεσεῖν, πρὸς'),
+    ('alexandre-15-21.txt', 'τοῦ μὲν ἀν ἀναγινώσκοντος', 'τοῦ μὲν ἀναγινώσκοντος'),
+    ('alexandre-22-30.txt', '[22.4] ἢν δὲ', '[22.4] ἦν δὲ'),
+    ('alexandre-22-30.txt', 'κύλικος, ἀει μακρόν', 'κύλικος, ἀεὶ μακρόν'),
+    ('alexandre-22-30.txt', 'Ἀθηνοδορῳ', 'Ἀθηνοδώρῳ'),
+    ('alexandre-22-30.txt', '[26.6] πται πρὸς τὴν ἤπειρον. ', '[26.6] '),
+    ('alexandre-22-30.txt', 'φασιν οἳ πλεῖστοι', 'φασιν οἱ πλεῖστοι'),
+    ('alexandre-56-67.txt', 'προσάγειν; καὶ γάρ ποταμὸς', 'προσάγειν (καὶ γὰρ ποταμὸς'),
+    ('alexandre-31-38.txt', 'στενωπὸν ἐλαφρῶ τῷ', 'στενωπὸν ἐλαφρῷ τῷ'),
+    ('alexandre-48-55.txt', 'ὁ ῝ Ἕρμιππός', 'ὁ Ἕρμιππός'),
+    ('alexandre-56-67.txt', 'πρὸς αὐτῇ βαθὺσ’ ἐπιστὰς', 'πρὸς αὐτῇ βαθύς) ἐπιστὰς'),
+    ('alexandre-56-67.txt', 'ἑαυτὸν εἷς μέσους', 'ἑαυτὸν εἰς μέσους'),
+    ('alexandre-56-67.txt', 'τοὺς ἓν δόξῃ', 'τοὺς ἐν δόξῃ'),
+    ('alexandre-68-77.txt', 'Πέρσαις ι πρῶτον', 'Πέρσαις πρῶτον'),
+    ('alexandre-68-77.txt', 'τοῦτο δὲ · Ἡφαιστίωνος', 'τοῦτο δὲ Ἡφαιστίωνος'),
+    ('alexandre-68-77.txt', 'βέλους εἷς τὸν ὀφθαλμόν', 'βέλους εἰς τὸν ὀφθαλμόν'),
+    ('alexandre-68-77.txt', 'πολεμίους εἷς τὸ τεῖχος', 'πολεμίους εἰς τὸ τεῖχος'),
+    ('cesar-47-56.txt', 'εἴτε καὶ σπουδῇ τὸν οἰωνὸν οἰκειούμενος, εἴτε καὶ σπουδῇ τὸν οἰωνὸν οἰκειούμενος,', 'εἴτε καὶ σπουδῇ τὸν οἰωνὸν οἰκειούμενος,'),
+    ('cesar-57-61.txt', 'σεαυτόν;” λαμπρῶς, ὦ', 'σεαυτόν;”'),
+]
 usadas = set(); ngr = 0
 os.makedirs(os.path.join(OBRA, 'original'), exist_ok=True)
 for vida, (arq, nome, titulo, grupos) in VIDAS.items():
@@ -114,6 +141,11 @@ for vida, (arq, nome, titulo, grupos) in VIDAS.items():
         corpo = []
         if k == 0: corpo.append(titulo)
         for c in range(a, b + 1): corpo += caps[c]
-        open(os.path.join(OBRA, 'original', f'{nome}-{a}-{b}.txt'), 'w', encoding='utf-8').write('\n'.join(cab) + '\n' + '\n\n'.join(corpo) + '\n')
+        arq = f'{nome}-{a}-{b}.txt'; texto = '\n\n'.join(corpo)
+        for f_, x, y in FINAL:
+            if f_ == arq:
+                if texto.count(x) != 1: sys.exit(f'{arq}: «{x}» aparece {texto.count(x)} vezes')
+                texto = texto.replace(x, y)
+        open(os.path.join(OBRA, 'original', arq), 'w', encoding='utf-8').write('\n'.join(cab) + '\n' + texto + '\n')
 falta = [CORR[k] for k in range(len(CORR)) if k not in usadas]
 print('graves', ngr, 'correções', len(usadas), 'não usadas', falta)

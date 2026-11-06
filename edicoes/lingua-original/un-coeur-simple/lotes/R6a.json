@@ -1,0 +1,795 @@
+{
+ "verbetes": {
+  "voletait": {
+   "lema": "voleter",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Voar com pequenas batidas de asa: esvoaçar."
+   ]
+  },
+  "éperdu": {
+   "lema": "éperdu",
+   "classe": "adjetivo",
+   "def": [
+    "Que tem o espírito perturbado pelo medo ou por outra paixão: desvairado, transtornado."
+   ],
+   "nota": "Aqui, o papagaio doente, delirando de febre, esvoaça como que fora de si."
+  },
+  "renversait": {
+   "lema": "renverser",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Pôr abaixo, fazer cair uma pessoa ou uma coisa: derrubar."
+   ]
+  },
+  "barboter": {
+   "lema": "barboter",
+   "classe": "verbo",
+   "def": [
+    "Agitar-se na água ou na lama: chapinhar."
+   ]
+  },
+  "chenets": {
+   "lema": "chenet",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Utensílio, dois por lareira, que serve para manter a lenha elevada no fogão a fim de ativar a combustão: cão de lareira, suporte de lenha."
+   ]
+  },
+  "sautillant": {
+   "lema": "sautiller",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Dar pequenos saltos repetidos: saltitar."
+   ]
+  },
+  "sécher": {
+   "lema": "sécher",
+   "classe": "verbo",
+   "def": [
+    "Tornar seco: secar."
+   ]
+  },
+  "tantôt": {
+   "lema": "tantôt",
+   "classe": "advérbio",
+   "def": [
+    "Às vezes. Quando repetido, marca mudanças sucessivas e mais ou menos frequentes de um estado a outro: ora…, ora…."
+   ],
+   "nota": "«Tantôt sa queue, tantôt son bec»: ora a cauda, ora o bico."
+  },
+  "queue": {
+   "lema": "queue",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Ornitologia) Penas grandes que saem do uropígio das aves e lhes servem para se dirigir no ar: cauda."
+   ]
+  },
+  "terrible": {
+   "lema": "terrible",
+   "classe": "adjetivo",
+   "def": [
+    "Que causa terror: terrível."
+   ],
+   "nota": "«Le terrible hiver de 1837»: o inverno de 1837, de frio rigoroso."
+  },
+  "hiver": {
+   "lema": "hiver",
+   "classe": "substantivo masculino",
+   "def": [
+    "Uma das quatro estações do ano: inverno."
+   ]
+  },
+  "mis": {
+   "lema": "mettre",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "Colocar uma pessoa, um animal ou uma coisa em um lugar determinado: pôr, colocar."
+   ]
+  },
+  "fer": {
+   "lema": "fer",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Metalurgia) Corpo simples metálico, branco-acinzentado, dúctil e maleável: ferro."
+   ],
+   "nota": "«Fils de fer»: arames; aqui, os arames da gaiola."
+  },
+  "congestion": {
+   "lema": "congestion",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Medicina) Acúmulo excessivo de sangue em um ponto do sistema vascular: congestão."
+   ],
+   "nota": "Aqui, a causa que Félicité supõe para a morte súbita do papagaio."
+  },
+  "empoisonnement": {
+   "lema": "empoisonnement",
+   "classe": "substantivo masculino",
+   "def": [
+    "Ação de envenenar ou resultado dessa ação: envenenamento."
+   ]
+  },
+  "persil": {
+   "lema": "persil",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Plantas) Planta hortense aromática da família das apiáceas, parecida com o cerefólio, usada em diversos preparos culinários: salsa."
+   ]
+  },
+  "preuves": {
+   "lema": "preuve",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "O que estabelece a veracidade de uma proposição ou de um fato: prova."
+   ]
+  },
+  "soupçons": {
+   "lema": "soupçon",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Opinião ou crença desfavorável, acompanhada de dúvida: suspeita."
+   ]
+  },
+  "portèrent": {
+   "lema": "porter",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do plural",
+   "def": [
+    "Pôr, estender, fazer ir, conduzir: levar, dirigir."
+   ],
+   "nota": "«Porter ses soupçons sur quelqu’un»: lançar as suspeitas sobre alguém. Aqui, as suspeitas recaíram sobre Fabu."
+  },
+  "eh": {
+   "lema": "eh",
+   "classe": "interjeição",
+   "def": [
+    "Exprime espanto, admiração ou chama a atenção: eh, ah."
+   ],
+   "nota": "«Eh bien» é «pois bem», «então»: introduz a decisão da patroa."
+  },
+  "faites": {
+   "lema": "faire",
+   "classe": "verbo",
+   "forma": "imperativo, 2ª pessoa do plural",
+   "def": [
+    "Realizar, efetuar, executar: fazer."
+   ],
+   "nota": "«Faire» seguido de infinitivo: mandar fazer. «Faites-le empailler»: mande empalhá-lo."
+  },
+  "empailler": {
+   "lema": "empailler",
+   "classe": "verbo",
+   "def": [
+    "(Por extensão) Preparar animais mortos de modo a conservar-lhes mais ou menos a aparência de vida: empalhar."
+   ]
+  },
+  "conseil": {
+   "lema": "conseil",
+   "classe": "substantivo masculino",
+   "def": [
+    "Opinião que se dá a alguém sobre o que deve ou não fazer: conselho."
+   ],
+   "nota": "«Demander conseil à quelqu’un»: pedir conselho a alguém."
+  },
+  "écrivit": {
+   "lema": "écrire",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "(Por extensão) Comunicar enviando palavras escritas: escrever."
+   ],
+   "nota": "Aqui, o farmacêutico escreveu a alguém no Havre."
+  },
+  "certain": {
+   "lema": "certain",
+   "classe": "adjetivo indefinido",
+   "def": [
+    "Precedido de «un» ou «une» e seguido de nome próprio, designa uma pessoa sobre a qual se sabe pouco ou, ao contrário (muitas vezes com ironia), muito famosa: um certo."
+   ],
+   "nota": "«Un certain Fellacher»: um certo Fellacher, alguém pouco conhecido de quem conta."
+  },
+  "fellacher": {
+   "lema": "Fellacher",
+   "wiki": null,
+   "classe": "nome próprio",
+   "def": [
+    "Sobrenome do homem que se encarregou de empalhar o papagaio."
+   ],
+   "nota": "Aparece como «un certain Fellacher», alguém de quem o narrador nada mais diz."
+  },
+  "égarait": {
+   "lema": "égarer",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "(Por extensão) Perder num lugar, no espaço: extraviar."
+   ]
+  },
+  "porter": {
+   "lema": "porter",
+   "classe": "verbo",
+   "def": [
+    "Transportar: levar."
+   ]
+  },
+  "pommiers": {
+   "lema": "pommier",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "(Árvores) Árvore da família das rosáceas, do gênero Malus, que produz as maçãs: macieira."
+   ]
+  },
+  "succédaient": {
+   "lema": "succéder",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Vir depois; tomar o lugar de: suceder."
+   ],
+   "nota": "Em «se succédaient», pronominal: sucediam-se uns aos outros, ao longo da estrada."
+  },
+  "glace": {
+   "lema": "glace",
+   "classe": "substantivo feminino",
+   "def": [
+    "Água em estado sólido: gelo."
+   ]
+  },
+  "couvrait": {
+   "lema": "couvrir",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Guarnecer em grande quantidade, depositando algo sobre alguma coisa ou estendendo-se uniformemente sobre ela: cobrir."
+   ]
+  },
+  "fossés": {
+   "lema": "fossé",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Trincheira que margeia uma estrada: vala."
+   ]
+  },
+  "chiens": {
+   "lema": "chien",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Mamífero doméstico da família dos canídeos, criado para guardar, caçar ou fazer companhia: cão."
+   ]
+  },
+  "aboyaient": {
+   "lema": "aboyer",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Emitir o seu grito, falando de um cão: latir."
+   ]
+  },
+  "fermes": {
+   "lema": "ferme",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Exploração agrícola, seja qual for o modo de aproveitamento: fazenda, sítio."
+   ]
+  },
+  "mantelet": {
+   "lema": "mantelet",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Vestuário) Espécie de pequeno manto, de capelina com mangas, que faz parte do traje feminino: mantelete."
+   ],
+   "nota": "Uma capinha curta que as mulheres usavam sobre os ombros."
+  },
+  "noirs": {
+   "lema": "noir",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Que absorve toda a luz visível que recebe, dá a impressão de escuridão: preto."
+   ]
+  },
+  "prestement": {
+   "lema": "prestement",
+   "classe": "advérbio",
+   "def": [
+    "De maneira ligeira, vivamente, prontamente: depressa, com presteza."
+   ]
+  },
+  "pavé": {
+   "lema": "pavé",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Por extensão) O conjunto de blocos de pedra que cobrem uma superfície, uma rua, uma estrada; a própria rua ou pista: calçamento."
+   ],
+   "nota": "«Sur le milieu du pavé»: pelo meio da estrada calçada."
+  },
+  "traversa": {
+   "lema": "traverser",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Passar através, de um lado a outro: atravessar."
+   ]
+  },
+  "forêt": {
+   "lema": "forêt",
+   "classe": "substantivo feminino",
+   "def": [
+    "Vasto terreno coberto de mata, com muitas árvores próximas umas das outras: floresta."
+   ]
+  },
+  "dépassa": {
+   "lema": "dépasser",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Ir além de alguma coisa: passar além de, ultrapassar."
+   ]
+  },
+  "haut-chêne": {
+   "lema": "Haut-Chêne",
+   "wiki": null,
+   "classe": "nome próprio",
+   "def": [
+    "Nome de um lugar no caminho de Félicité para Honfleur."
+   ],
+   "nota": "Aparece só como ponto do trajeto, depois da floresta, antes de Saint-Gatien."
+  },
+  "saint-gatien": {
+   "lema": "Saint-Gatien",
+   "classe": "nome próprio",
+   "def": [
+    "Antigo nome da comuna francesa de Saint-Gatien-des-Bois."
+   ],
+   "nota": "Localidade da Normandia, no caminho de Félicité para Honfleur."
+  },
+  "emportée": {
+   "lema": "emporter",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular",
+   "def": [
+    "Arrastar, levar com esforço, com rapidez ou com violência."
+   ],
+   "nota": "«Emportée par la descente»: arrastada pela ladeira abaixo (a diligência)."
+  },
+  "descente": {
+   "lema": "descente",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Por metonímia) Declive pelo qual se desce: descida, ladeira."
+   ]
+  },
+  "galop": {
+   "lema": "galop",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Equitação) A mais rápida das andaduras naturais do cavalo, que não é propriamente senão uma sequência de saltos para a frente: galope."
+   ],
+   "nota": "«Au grand galop»: a galope largo."
+  },
+  "trombe": {
+   "lema": "trombe",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Meteorologia) Tornado; ciclone."
+   ],
+   "nota": "«Comme une trombe»: como um furacão, em carreira violenta."
+  },
+  "voyant": {
+   "lema": "voir",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Perceber a imagem dos objetos pelo órgão da vista: ver."
+   ],
+   "nota": "«En voyant»: ao ver, vendo."
+  },
+  "dérangeait": {
+   "lema": "déranger",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer com que alguém seja obrigado a deixar o seu lugar, a levantar-se do assento etc.: incomodar, tirar do lugar."
+   ],
+   "nota": "«Ne se dérangeait pas»: não saía do lugar, não se afastava para dar passagem."
+  },
+  "dressa": {
+   "lema": "dresser",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "(Pronominal) Fazer ficar reto, na vertical: pôr-se de pé, erguer-se."
+   ],
+   "nota": "«Le conducteur se dressa»: o condutor ergueu-se do banco."
+  },
+  "capote": {
+   "lema": "capote",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Por analogia) Cobertura móvel de carruagens, de landôs etc.: capota."
+   ]
+  },
+  "postillon": {
+   "lema": "postillon",
+   "classe": "substantivo masculino",
+   "def": [
+    "(História) Aquele que conduzia, montando-o, um dos cavalos de uma parelha: postilhão."
+   ]
+  },
+  "retenir": {
+   "lema": "retenir",
+   "classe": "verbo",
+   "def": [
+    "Deter, conter, não deixar ir."
+   ],
+   "nota": "Aqui, frear os cavalos em disparada."
+  },
+  "accéléraient": {
+   "lema": "accélérer",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "(Intransitivo) Aumentar a velocidade: acelerar."
+   ]
+  },
+  "train": {
+   "lema": "train",
+   "classe": "substantivo masculino",
+   "def": [
+    "Andamento, velocidade dos cavalos e outros animais de tiro."
+   ],
+   "nota": "«Accéléraient leur train»: aceleravam o passo."
+  },
+  "frôlaient": {
+   "lema": "frôler",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Tocar de leve ao passar, ou passar muito perto: roçar."
+   ]
+  },
+  "secousse": {
+   "lema": "secousse",
+   "classe": "substantivo feminino",
+   "def": [
+    "Agitação, abalo daquilo que é sacudido: sacudidela, solavanco."
+   ]
+  },
+  "guides": {
+   "lema": "guide",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Tiras de couro ou cordas de cânhamo de que se servem os postilhões ou cocheiros para dirigir os cavalos atrelados a um veículo: rédeas."
+   ]
+  },
+  "débord": {
+   "lema": "débord",
+   "classe": "substantivo masculino",
+   "def": [
+    "Parte do acostamento que margeia a pista e lhe limita os lados: acostamento, beira da estrada."
+   ]
+  },
+  "furieux": {
+   "lema": "furieux",
+   "classe": "adjetivo",
+   "def": [
+    "Que está em fúria, em furor: furioso."
+   ]
+  },
+  "volée": {
+   "lema": "volée",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Por analogia) Balanço dos sinos."
+   ],
+   "nota": "«À pleine volée»: com toda a amplitude, com toda a força; aqui, do braço que levanta o chicote e, mais adiante, dos turíbulos que balançam em grande arco."
+  },
+  "fouet": {
+   "lema": "fouet",
+   "classe": "substantivo masculino",
+   "def": [
+    "Cordel de cânhamo ou de couro preso a uma vara, usado para conduzir e castigar cavalos e outros animais: chicote."
+   ]
+  },
+  "cingla": {
+   "lema": "cingler",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Bater ou açoitar com um objeto (chicote, vara, corda, tira): chicotear."
+   ]
+  },
+  "chignon": {
+   "lema": "chignon",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Penteado) Parte do penteado formada pelos cabelos levantados e atados atrás: coque."
+   ],
+   "nota": "O golpe de chicote vai da barriga ao coque de Félicité."
+  },
+  "tel": {
+   "lema": "tel",
+   "classe": "adjetivo",
+   "def": [
+    "(Tel… que) Construído com «que» como correlativo, significa tão grande, tão importante: tal."
+   ],
+   "nota": "«Un tel coup qu’elle tomba»: um golpe tão forte que ela caiu."
+  },
+  "connaissance": {
+   "lema": "connaissance",
+   "classe": "substantivo feminino",
+   "def": [
+    "Exercício da faculdade pela qual se conhecem e se distinguem os objetos: conhecimento, consciência."
+   ],
+   "nota": "«Reprendre connaissance»: voltar a si, recobrar os sentidos."
+  },
+  "panier": {
+   "lema": "panier",
+   "classe": "substantivo masculino",
+   "def": [
+    "Objeto portátil oco que serve para conter e transportar provisões, mercadorias ou animais (originalmente de vime): cesto."
+   ]
+  },
+  "heureusement": {
+   "lema": "heureusement",
+   "classe": "advérbio",
+   "def": [
+    "Por felicidade, por sorte: felizmente."
+   ]
+  },
+  "brûlure": {
+   "lema": "brûlure",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Por analogia) Sensação de calor excessivo que se experimenta: queimação, ardência."
+   ]
+  },
+  "joue": {
+   "lema": "joue",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Anatomia) Parte do rosto humano que fica abaixo das têmporas e dos olhos e se estende de cada lado do nariz até o queixo: face, bochecha."
+   ]
+  },
+  "porta": {
+   "lema": "porter",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Pôr, estender, fazer ir, conduzir: levar."
+   ],
+   "nota": "«Ses mains qu’elle y porta»: as mãos que ela levou ali, ao rosto."
+  },
+  "sang": {
+   "lema": "sang",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Anatomia) Órgão líquido constituído de glóbulos vermelhos, de células imunitárias e de plaquetas, banhados no plasma, e cujo papel principal é o transporte do oxigênio: sangue."
+   ]
+  },
+  "assit": {
+   "lema": "asseoir",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "(Pronominal) Pôr-se sentado: sentar-se."
+   ],
+   "nota": "«S’assit»: sentou-se."
+  },
+  "mètre": {
+   "lema": "mètre",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Elipse, familiar) Metro cúbico."
+   ],
+   "nota": "«Un mètre de cailloux»: um monte de pedras medido em metros cúbicos, como se deixa à beira de uma estrada."
+  },
+  "tamponna": {
+   "lema": "tamponner",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Enxugar suavemente com o auxílio de um tampão."
+   ],
+   "nota": "«Se tamponna le visage avec son mouchoir»: enxugou o rosto com o lenço."
+  },
+  "mangea": {
+   "lema": "manger",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do singular",
+   "def": [
+    "Mastigar e engolir um alimento a fim de se nutrir: comer."
+   ]
+  },
+  "croûte": {
+   "lema": "croûte",
+   "classe": "substantivo feminino",
+   "def": [
+    "Película superior, exterior e sólida que cobre uma parte mais mole, num alimento por exemplo: crosta."
+   ],
+   "nota": "«Une croûte de pain»: um pedaço de crosta de pão."
+  },
+  "mise": {
+   "lema": "mettre",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular",
+   "def": [
+    "Colocar uma pessoa, um animal ou uma coisa em um lugar determinado: pôr, colocar."
+   ]
+  },
+  "précaution": {
+   "lema": "précaution",
+   "classe": "substantivo feminino",
+   "def": [
+    "O que se faz por previdência, para não cair em algum inconveniente, para evitar algum mal: precaução."
+   ],
+   "nota": "«Par précaution»: por precaução, para o caso de precisar."
+  },
+  "consolait": {
+   "lema": "consoler",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Aliviar alguém em sua aflição por palavras, cuidados ou de qualquer outra maneira: consolar."
+   ],
+   "nota": "«Se consolait de»: consolava-se de (com)."
+  },
+  "blessure": {
+   "lema": "blessure",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Sentido próprio) Ferida ou fratura produzida por um golpe ou choque: ferimento."
+   ]
+  },
+  "regardant": {
+   "lema": "regarder",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Dirigir o olhar para alguma coisa ou alguém: olhar."
+   ]
+  },
+  "ecquemauville": {
+   "lema": "Ecquemauville",
+   "wiki": null,
+   "classe": "nome próprio",
+   "def": [
+    "Localidade da Normandia, no caminho para Honfleur."
+   ],
+   "nota": "Félicité chega ao «sommet» (alto) de Ecquemauville e daí avista as luzes de Honfleur."
+  },
+  "scintillaient": {
+   "lema": "scintiller",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Brilhar, lançar clarões de modo intermitente: cintilar."
+   ]
+  },
+  "confusément": {
+   "lema": "confusément",
+   "classe": "advérbio",
+   "def": [
+    "De maneira confusa, indistinta: confusamente."
+   ]
+  },
+  "misère": {
+   "lema": "misère",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Especialmente) Privação das coisas necessárias à vida: miséria."
+   ]
+  },
+  "enfance": {
+   "lema": "enfance",
+   "classe": "substantivo feminino",
+   "def": [
+    "Primeira parte da vida do ser humano, que precede a adolescência: infância."
+   ]
+  },
+  "déception": {
+   "lema": "déception",
+   "classe": "substantivo feminino",
+   "def": [
+    "Fato de ficar decepcionado ou de passar por uma situação aquém das expectativas: decepção."
+   ]
+  },
+  "départ": {
+   "lema": "départ",
+   "classe": "substantivo masculino",
+   "def": [
+    "Ação de deixar, de sair, de partir: partida."
+   ],
+   "nota": "«Le départ d’une caisse»: a remessa de uma caixa."
+  },
+  "revinrent": {
+   "lema": "revenir",
+   "classe": "verbo",
+   "forma": "passado simples, 3ª pessoa do plural",
+   "def": [
+    "Reaparecer depois de ter desaparecido, chegar, apresentar-se ou fazer-se sentir de novo: voltar."
+   ]
+  },
+  "montant": {
+   "lema": "monter",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Deslocar-se para o alto, transportar-se a um lugar mais elevado, elevar-se, subir."
+   ],
+   "nota": "«Lui montant à la gorge»: subindo-lhe à garganta."
+  },
+  "étouffaient": {
+   "lema": "étouffer",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do plural",
+   "def": [
+    "(Transitivo) Sufocar, impedir de respirar livremente."
+   ]
+  },
+  "promettait": {
+   "lema": "promettre",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Comprometer-se verbalmente ou por escrito a alguma coisa: prometer."
+   ]
+  },
+  "prochaine": {
+   "lema": "prochain",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Vizinho imediato; seguinte; o primeiro que se apresenta no espaço ou no tempo: próximo."
+   ],
+   "nota": "«La semaine prochaine»: a semana que vem."
+  },
+  "caisse": {
+   "lema": "caisse",
+   "classe": "substantivo feminino",
+   "def": [
+    "Recipiente rígido, de forma cúbica ou paralelepipédica, formado pela montagem de painéis cheios ou vazados, em que se podem pôr objetos para guardá-los ou transportá-los: caixa."
+   ]
+  },
+  "question": {
+   "lema": "question",
+   "classe": "substantivo feminino",
+   "def": [
+    "Proposição que se deve examinar, discutir; dificuldade cuja solução se procura: questão."
+   ],
+   "nota": "«Il n’en fut plus question»: não se falou mais nisso."
+  },
+  "reviendrait": {
+   "lema": "revenir",
+   "classe": "verbo",
+   "forma": "condicional, 3ª pessoa do singular",
+   "def": [
+    "Reaparecer depois de ter desaparecido, chegar, apresentar-se ou fazer-se sentir de novo: voltar."
+   ],
+   "nota": "«Jamais Loulou ne reviendrait»: Loulou jamais voltaria."
+  },
+  "auront": {
+   "lema": "avoir",
+   "classe": "verbo",
+   "forma": "futuro do indicativo, 3ª pessoa do plural",
+   "def": [
+    "(Auxiliar) Serve para formar os tempos compostos, indicando o passado, a conclusão ou a experiência: ter."
+   ],
+   "nota": "«Ils me l’auront volé»: com o particípio «volé», forma o futuro anterior; aqui expressa suposição: devem tê-lo roubado de mim."
+  }
+ },
+ "ocorrencias": {}
+}

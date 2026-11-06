@@ -750,6 +750,13 @@ BIBLIOTECA.autor({
   ordem: 'Rodrigues, Pero',
   area: 'nao-ficcao',
   nota: 'Jesuíta português, nascido em Évora, provincial da Companhia de Jesus no Brasil e primeiro biógrafo de José de Anchieta.'
+  id: 'plutarco',
+  nome: 'Plutarco',
+  nomeCompleto: 'Plutarco de Queroneia',
+  vida: '~46–~120',
+  ordem: 'Plutarco',
+  area: 'nao-ficcao',
+  nota: 'Escritor grego da Beócia, sacerdote de Apolo em Delfos, autor das Vidas paralelas de gregos e romanos.'
 });
 
 BIBLIOTECA.autor({

@@ -32,6 +32,7 @@ def rubrica(s):
     for a, b in ABREV.items():
         s = s.replace('to ' + a, 'to ' + b)
     s = nomes(s)
+    s = re.sub(r'\bLady M\.$', 'Lady Macbeth.', s)   # III.4: «Exeunt all but MACBETH and LADY M.»
     return ' '.join(s.split())
 
 def continua(k, x):

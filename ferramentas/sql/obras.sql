@@ -1762,6 +1762,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('pero-vaz-de-caminha/carta', 'Carta a el-rei D. Manuel sobre o achamento do Brasil'),
   ('pierre-de-ronsard/quand-vous-serez-bien-vieille', 'Quand vous serez bien vieille'),
   ('platao/apologia-de-socrates', 'Apologia de Sócrates'),
+  ('plutarco/vidas-alexandre-cesar', 'Vidas paralelas: Alexandre e César'),
   ('raimundo-correia/aleluias-amem', 'Amém!'),
   ('raimundo-correia/aleluias-banzo', 'Banzo'),
   ('raimundo-correia/aleluias-citera', 'Citera'),

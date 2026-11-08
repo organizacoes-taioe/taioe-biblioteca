@@ -292,3 +292,40 @@ BIBLIOTECA.poemas({
     {"id":"jean-de-la-fontaine-la-laitiere-et-le-pot-au-lait","titulo":"La Laitière et le Pot au lait","forma":"apologos","livro":11,"ordem":11,"versos":43,"lingua":"fr","ano":1678,"glossario":true,"n":"VII, 9"}
   ]
 });
+
+BIBLIOTECA.poemas({
+  autor: "giosue-carducci",
+  arquivo: "conteudo/giosue-carducci/lingua-original.js",
+  livros: [{"id": "rime-nuove", "titulo": "Rime nuove", "ano": 1887}, {"id": "rime-nuove", "titulo": "Rime nuove", "ano": 1887}],
+  poemas: [
+    {"id":"giosue-carducci-pianto-antico","titulo":"Pianto antico","forma":"outras","livro":0,"ordem":0,"versos":16,"lingua":"it","ano":1871,"glossario":true},
+    {"id":"giosue-carducci-san-martino","titulo":"San Martino","forma":"outras","livro":1,"ordem":1,"versos":16,"lingua":"it","ano":1883,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "giovanni-pascoli",
+  arquivo: "conteudo/giovanni-pascoli/lingua-original.js",
+  livros: [{"id": "myricae", "titulo": "Myricae", "ano": 1891}],
+  poemas: [
+    {"id":"giovanni-pascoli-novembre","titulo":"Novembre","forma":"outras","livro":0,"ordem":0,"versos":12,"lingua":"it","ano":1891,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "giacomo-leopardi",
+  arquivo: "conteudo/giacomo-leopardi/lingua-original.js",
+  livros: [{"id": "canti", "titulo": "Canti", "ano": 1831}],
+  poemas: [
+    {"id":"giacomo-leopardi-l-infinito","titulo":"L’infinito","forma":"outras","livro":0,"ordem":0,"versos":15,"lingua":"it","ano":1819,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "carlo-collodi",
+  arquivo: "conteudo/carlo-collodi/lingua-original.js",
+  livros: [{"id": "le-avventure-di-pinocchio-storia-di-un-burattino", "titulo": "Le avventure di Pinocchio. Storia di un burattino", "ano": 1883}],
+  poemas: [
+    {"id":"carlo-collodi-pinocchio","titulo":"Capitolo I","forma":"outras","livro":0,"ordem":0,"versos":27,"lingua":"it","ano":1883,"glossario":true,"subtitulo":"Come andò che maestro Ciliegia, falegname, trovò un pezzo di legno che piangeva e rideva come un bambino","genero":"Romance","prosa":true}
+  ]
+});

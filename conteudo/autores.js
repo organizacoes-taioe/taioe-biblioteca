@@ -828,3 +828,39 @@ BIBLIOTECA.autor({
   lingua: 'la',
   nota: 'Poeta latino de Sulmona, autor das Metamorfoses, dos Fastos e das Heroides; morreu no exílio, em Tomis, no mar Negro.'
 });
+
+BIBLIOTECA.autor({
+  id: 'giacomo-leopardi',
+  nome: 'Giacomo Leopardi',
+  nomeCompleto: 'Giacomo Taldegardo Francesco di Sales Saverio Pietro Leopardi',
+  vida: '1798–1837',
+  lingua: 'it',
+  nota: 'Poeta e pensador italiano de Recanati, autor dos Canti e das Operette morali.'
+});
+
+BIBLIOTECA.autor({
+  id: 'giosue-carducci',
+  nome: 'Giosuè Carducci',
+  nomeCompleto: 'Giosuè Alessandro Giuseppe Carducci',
+  vida: '1835–1907',
+  lingua: 'it',
+  nota: 'Poeta e professor italiano da Toscana, Prêmio Nobel de Literatura de 1906.'
+});
+
+BIBLIOTECA.autor({
+  id: 'giovanni-pascoli',
+  nome: 'Giovanni Pascoli',
+  nomeCompleto: 'Giovanni Placido Agostino Pascoli',
+  vida: '1855–1912',
+  lingua: 'it',
+  nota: 'Poeta italiano da Romanha, autor de Myricae e dos Canti di Castelvecchio.'
+});
+
+BIBLIOTECA.autor({
+  id: 'carlo-collodi',
+  nome: 'Carlo Collodi',
+  nomeCompleto: 'Carlo Lorenzini',
+  vida: '1826–1890',
+  lingua: 'it',
+  nota: 'Escritor e jornalista florentino, autor de As aventuras de Pinóquio.'
+});

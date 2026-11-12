@@ -37,3 +37,19 @@ Candidatas a decisão:
   original) ou tirar do texto traduzido.
 - Nomes afrancesados nas notas (Margarida Bedfort, Nicolau Jemmings): aportuguesar (feito) ou voltar
   à forma inglesa (Margaret, Nicholas).
+
+## 03 · Estado social dos anglo-americanos (I, 3)
+
+- Termos: *lois sur les successions* → «leis sobre as sucessões» (*loi des successions* → «lei das
+  sucessões»); *partage égal* → «partilha igual»; *substitutions* → «substituições» (sem glosa no
+  texto; a nota de Tocqueville já as explica); *domaines* → «propriedades»; *propriétaires fonciers* →
+  «proprietários de terras»; *tenanciers* → «rendeiros»; *patronage* → «patronato»; *capitaux
+  mobiliers* → «capitais móveis»; *rangs* → «posições»; *aisance* → «folga» («vivem com folga»).
+- «leur auteur» (o pai de quem herdam) → «o pai».
+- «la loi des successions a partout passé son niveau»: *niveau* é o instrumento de nivelar; ficou
+  «passou por toda parte o seu nível», imagem que o português aceita.
+- «une passion mâle et légitime pour l'égalité» → «uma paixão viril e legítima».
+- «ne se prête presque aussi facilement» (o *ne* é expletivo) → «se presta quase tão facilmente».
+- O remetimento «(_G_)» à nota final ficou, como no cap. 2.
+
+Candidatas a decisão: nenhuma nova.

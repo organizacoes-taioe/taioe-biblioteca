@@ -8,3 +8,5 @@
 124/8: impresso traz "sententrião" (por septentrião); transcrito como está.
 153/14: impresso traz "senvergonha" (por sem-vergonha); transcrito como está.
 155/1: impresso traz "consas" (por cousas); transcrito como está.
+157/23: "har" no impresso (por ha); 178/15: "(207," sem fechar parêntese no impresso; transcritos como estão.
+157/35: não deu para ver se a linha é recuada (¶ mantido do texto atual).

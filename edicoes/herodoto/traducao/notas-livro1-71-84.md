@@ -54,3 +54,7 @@
   explica). Alternativa: «capadócios» em todo o trecho, o que apagaria a explicação dele.
 - 79.2, αὐτὸς ἄγγελος Κροίσῳ ἐληλύθεε: «foi ele mesmo quem levou a Creso a notícia da sua chegada» (adotada) × «chegou
   ele mesmo como mensageiro a Creso» (mais literal, menos claro).
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos o discurso de Sandanis, a geografia do Halis em 72, as alianças e casamentos de 73–74, a ordem de batalha de 80, a disputa por Tirea em 82 e a tomada de Sardes em 84). Dúvidas: nenhuma.

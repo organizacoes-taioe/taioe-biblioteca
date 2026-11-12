@@ -30,3 +30,5 @@
 324/34: número de página (327) colado a 'primei'; escrevi 'primei-' (a linha seguinte começa em 'ro').
 326/1: título 'XXIX. — INFORMAÇÃO DO BRASIL E DE SUAS CAPITANIAS (1584)' apagado (-) por ser título. 327/35: número de página (330) colado a 'aque'; escrevi 'aque-' (a linha seguinte começa em 'les'). 'naturœ' lido com œ como em 'œstus' (impresso usa œ para ae).
 448/36: número de página (451) colado a 'esti'; escrevi 'esti-' (449/3 começa em 'mado'). 449/5: impresso 'A’s' com apóstrofo (transcrito como está). 'sapientiœ/gratiœ/naturœ': lido œ (impresso usa œ por ae).
+512/0: título 'XXXVIII. — SERMÃO DA CONVERSÃO DE S. PAULO (1568)' apagado (-). 511/33 'agnoces' (por agnoscas) como impresso.
+512/35: número de página (519) colado a 'patriar'; escrevi 'patriar-' (a linha seguinte começa em 'ca Jacob').

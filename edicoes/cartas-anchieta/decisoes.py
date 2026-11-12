@@ -20,6 +20,8 @@ ERROS = [
     ('XV', 'que não house medo', 'que não houvesse medo', ''),
     ('XV', 'não faza senão gritar', 'não fazia senão gritar', ''),
     ('XXVII', 'nem os merciono', 'nem os menciono', ''),
+    ('XXVII', 'potero in codem', 'potero in eodem', ''),
+    ('XXVII', 'mihi in codem', 'mihi in eodem', ''),
     ('XXIX', 'e trase começaram de edificar igrejas entre os Indios e se deu prindencia, como conservou',
      'e trabalhou muito de conservar a paz com os Indios com muita prudencia, como conservou',
      'linha trocada na composição; texto pela edição de Capistrano de Abreu (1886)'),
@@ -28,7 +30,6 @@ ERROS = [
 ]
 # erros miúdos de composição e de leitura, corrigidos sem lista: (peça, de, para)
 COMPOSICAO = [
-    ('XI', 'pronunciei ciei', 'pronunciei'),
     ('XIV', 'Pouço tempo', 'Pouco tempo'),
     ('XIV', 'Piratiuinga', 'Piratininga'),
     ('XV', 'que Jébres', 'que lebres'),

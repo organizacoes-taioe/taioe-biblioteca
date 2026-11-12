@@ -1,0 +1,159 @@
+{
+ "id": "cartas-do-brasil",
+ "rotulo": "Cartas do Brasil (seleção), Manuel da Nóbrega",
+ "url": "/biblioteca/manuel-da-nobrega/cartas-do-brasil/",
+ "escolhas": [
+  {
+   "id": "italiano",
+   "titulo": "As duas cartas que Valle Cabral traduziu do italiano ficam de fora?",
+   "ref": "cartas IV e VI do volume de 1886",
+   "contexto": "O volume de 1886 traz 21 cartas. A de 10 de agosto de 1549 ao doutor Navarro (IV) e a de Porto Seguro, de 6 de janeiro de 1550 (VI), só se conhecem por traduções italianas do século XVI; o texto português que o editor imprime é tradução dele, do italiano. Como na Literatura não entra tradução nossa nem de outros que não o autor, ficaram de fora as duas.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam de fora: só o que Nóbrega escreveu em português",
+     "nota": "A seleção tem 19 cartas, de 1549 a 1560.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Entram, com um aviso de que o português é do editor",
+     "nota": "Mais completo, mas o texto não é de Nóbrega."
+    }
+   ]
+  },
+  {
+   "id": "dialogo",
+   "titulo": "Entra depois o «Diálogo sobre a conversão do gentio»?",
+   "ref": "obra inteira",
+   "contexto": "O diálogo (c. 1556–1557), em português, entre Nóbrega, o irmão Gonçalo Alves e Mateus Nogueira, é a peça mais conhecida de Nóbrega, mas não está no volume de 1886: Valle Cabral só a menciona. Saiu na Revista do Instituto Histórico (t. XLIII, 1880), por cópia de Évora. As cartas de 1561 a 1570 também não estão nesse volume (seguem em outras publicações, a achar).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Sim: acrescentar o Diálogo, como parte da mesma obra, a partir da Revista do Instituto Histórico",
+     "nota": "Fonte livre; é só achar o fac-símile e repetir o método.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Não: ficam só as cartas do volume de 1886",
+     "nota": "A obra fica como está."
+    }
+   ]
+  },
+  {
+   "id": "notas-editor",
+   "titulo": "As notas e os sumários de Valle Cabral ficam fora do texto?",
+   "ref": "obra inteira",
+   "contexto": "Cada carta traz, na edição de 1886, um sumário em itálico sob o título e notas de rodapé de Valle Cabral (identificação de pessoas e lugares, divergências de cópias, datas deduzidas). Valle Cabral morreu em 1894, e as notas estão em domínio público, mas não são de Nóbrega e a Biblioteca tem as suas próprias notas de contexto, por lotes, aprovadas por você.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam fora: só o texto de Nóbrega, com data e lugar no título; as notas da Biblioteca vêm no fluxo de /admin/notas/",
+     "nota": "Texto limpo e notas no mesmo critério dos outros livros.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Entram as notas de Valle Cabral",
+     "nota": "Aproveita o trabalho do editor, mas mistura vozes e ocupa a leitura."
+    }
+   ]
+  },
+  {
+   "id": "grafia",
+   "titulo": "O texto fica só na grafia de hoje, sem a de 1886 ao lado?",
+   "ref": "obra inteira",
+   "contexto": "A edição de 1886 já atualizou a ortografia do século XVI de modo irregular (Christo, nella, fructo, cousa, sinão, dous); a grafia de 1886 não é a de Nóbrega, e o manuscrito está em Évora e Roma. Aqui vai a grafia de hoje (cousa → coisa, sinão → senão, dous → dois), com as palavras e a ordem do impresso.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Só a grafia de hoje, como está",
+     "nota": "A «Sobre» explica as trocas.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Mostrar ao lado a grafia de 1886, com os botões «1886» e «Grafia atual»",
+     "nota": "Mais fiel ao impresso, mas é a de Valle Cabral, não a de Nóbrega."
+    }
+   ]
+  },
+  {
+   "id": "nomes-indigenas",
+   "titulo": "Os nomes de povos e lugares indígenas ficam como no impresso?",
+   "ref": "cartas V, XIII, XVI, XIX, XX e XXI",
+   "contexto": "Nóbrega e o impresso escrevem os nomes tupis de muitas maneiras (Topinaquins, Topinachins, Topinaque; Paraçu, Paraaçú, Parauaçú; Tapariqua, Mirangaoba, Cirigype). Fixar uma forma seria escolher entre grafias que o próprio autor variava.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam como no impresso, só com os acentos e o «y → i» da grafia de hoje",
+     "nota": "Respeita o autor; o vocabulário explica os nomes mais obscuros.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Unificar na forma de hoje (Tupiniquins, Paraguaçu…)",
+     "nota": "Leitura mais fácil, mas apaga as variações do texto."
+    }
+   ]
+  },
+  {
+   "id": "a-crase",
+   "titulo": "O «à» do impresso vira «a» ou crase pelo uso de hoje?",
+   "ref": "obra inteira",
+   "contexto": "O impresso de 1886 escreve «à» (e «á») também para a simples preposição: «à saber», «à Vossa Alteza», «à pouco e pouco». Aqui vai «a» diante de infinitivo, de pronome de tratamento e de palavra masculina, e crase nos demais casos, como na gramática de hoje; sobram uns poucos casos em que a escolha é de leitura.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Regularizar pelo uso de hoje, como está",
+     "nota": "Texto legível; a «Sobre» explica.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Deixar «à» como no impresso",
+     "nota": "Mais fiel ao impresso, mas o leitor de hoje lê como crase."
+    }
+   ]
+  },
+  {
+   "id": "latim",
+   "titulo": "As citações em latim ficam sem tradução?",
+   "ref": "obra inteira",
+   "contexto": "Nóbrega cita o latim da Vulgata e da liturgia em muitas cartas («compelle intrare», «mitte operarios», «et ne nos inducas in tentationem», «lumen ad revelationem gentium»); em itálico, com a grafia do impresso. A Biblioteca não põe tradução nossa em obra literária; as notas de contexto, quando vierem (lote próprio), podem dar o sentido.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam em itálico, sem tradução; o sentido vem nas notas gerais, no lote próprio",
+     "nota": "Sem tradução nossa no texto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Pôr a tradução da Vulgata em português (Pe. Matos Soares ou outra em domínio público) entre colchetes",
+     "nota": "Mais claro, mas é mais um texto a conferir."
+    }
+   ]
+  },
+  {
+   "id": "danificado",
+   "titulo": "Onde o exemplar está danificado, o texto fica com a melhor leitura ou com um sinal?",
+   "ref": "carta XX, fim da p. 183; carta X, p. 112; carta XIX, p. 155",
+   "contexto": "O fac-símile tem poucas passagens ilegíveis: a última palavra de um parágrafo da carta a Tomé de Sousa (o texto traz «perder […].»), o meio de uma linha da carta ao Provincial de Portugal e uma palavra gasta («fedelidade» ou «fidelidade»?). Nos casos em que a leitura se apoia no sentido (affeiçoados, tomou a cargo), o texto segue a leitura mais provável.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Melhor leitura onde o sentido a firma; «[…]» só onde nada se lê",
+     "nota": "É o que está no ar; a «Sobre» diz isso.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Marcar com «[…]» toda leitura conjectural",
+     "nota": "Mais prudente, mas enche o texto de sinais."
+    }
+   ]
+  }
+ ]
+}

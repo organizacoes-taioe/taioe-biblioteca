@@ -194,6 +194,8 @@ def crase(t, seg, ant):
     lt = t.lower()
     sl = seg.lower().strip('.,;:!?')
     if lt in ('á', 'à'):
+        if ant.lower() in ('em', 'de', 'por', 'com', 'sem', 'sobre', 'entre', 'até', 'desde', 'perante') and sl not in ('vossa', 'sua'):
+            return 'A' if t[:1].isupper() else 'a'     # «em à terra» = «em a terra»
         inf = sl.endswith(('ar', 'er', 'ir', 'or')) and len(sl) > 3 and sl not in NAO_INF and not sl.endswith(('ador', 'edor', 'idor'))
         if sl in SEM_CRASE and not (sl in FEM_OK and not seg[:1].isupper()) or inf or (sl in ('vossa', 'sua', 'vossas') and seg[:1].isupper()):
             return 'A' if t[:1].isupper() else 'a'

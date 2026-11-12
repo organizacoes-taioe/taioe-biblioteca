@@ -50,3 +50,7 @@ Nenhuma correção necessária (números de anos, nomes, quem fala e quem faz co
 Dúvidas (não corrigidas):
 - 24.4–5: ἑδώλια traduzido «tombadilho»; em sentido estrito são os bancos dos remadores (ou os assentos da popa). Se o tradutor quiser mais exatidão: «nos bancos».
 - 24.5: «canto órtio» (νόμος ὄρθιος) é termo técnico pouco comum; talvez «canto agudo» ou «em tom alto», com nota.
+
+## Uniformização (principal)
+- 24.4–5 ἑδώλια → «convés da popa» (era «tombadilho», palavra rara); νόμος ὄρθιος → «o canto agudo» (ὄρθιος é o tom
+  alto; «órtio» seria palavra rara).

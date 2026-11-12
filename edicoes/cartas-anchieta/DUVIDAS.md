@@ -48,3 +48,6 @@
 528/1-2: 'cida-/de do céu': 528/1 termina em 'cida-' e 528/2 começa em 'de do céu' (o rascunho trazia 'do céu'). 528/2,3,11,16,18-20,23,24: ¶ tirados (sem recuo no recorte).
 528/28: 'pa-' no fim (528/29 começa em 'deceu'). 528/33-34: 'pobre,' inteira em 528/33, ¶ tirado (sem recuo); 528/34: número de página (535) colado a 'degrada'; escrevi 'degrada-' (a linha seguinte começa depois).
 218 13: ¶ retirado e «respondi:» deixado na linha anterior (a linha do meio começa com 'pondi:', sem recuo)
+- 40, 6+ (pranchas7): a linha 9 da transcrição começa em «o dormitorio» mas o impresso traz «ria, o dormitorio»; falta o «ria,» no começo (a linha «dez de largura…enferma-» foi gravada à parte). Ordem N+ provavelmente errada: deve vir depois de «coberta de palhas…apenas».
+- 44, 2+ (pranchas7): começo da linha cortado no recorte (antes de «“Acabarei»); a linha inteira não é legível; a linha seguinte do impresso termina em «…s, nascidos de pais cristãos! Quem na» (a transcrição tem «E são des nascidos…», garbled).
+- 44, 25+ (pranchas7): «torno, porém, ao proposito.» vem depois de «…passagem:» (linha 28), não depois de «de todo êste tão pernicioso contagio» (linha 26).

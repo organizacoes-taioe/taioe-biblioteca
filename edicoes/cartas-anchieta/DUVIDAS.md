@@ -47,3 +47,4 @@
 526/2: título apagado. 526/3: 'proxi-/mos' escrito 'proximos,' inteiro (526/4 começa em 'e por fartar').
 528/1-2: 'cida-/de do céu': 528/1 termina em 'cida-' e 528/2 começa em 'de do céu' (o rascunho trazia 'do céu'). 528/2,3,11,16,18-20,23,24: ¶ tirados (sem recuo no recorte).
 528/28: 'pa-' no fim (528/29 começa em 'deceu'). 528/33-34: 'pobre,' inteira em 528/33, ¶ tirado (sem recuo); 528/34: número de página (535) colado a 'degrada'; escrevi 'degrada-' (a linha seguinte começa depois).
+218 13: ¶ retirado e «respondi:» deixado na linha anterior (a linha do meio começa com 'pondi:', sem recuo)

@@ -56,7 +56,10 @@ Forma portuguesa usual (a dos livros de história em português; acento pela pro
   Eufrates, Tigre, Opis.
 - Povos: lídios, persas, medos, jônios, eólios, dórios, gregos (Ἕλληνες; «helenos» só em 1.56–58, onde Heródoto
   separa a raça helênica da pelasga), bárbaros (βάρβαροι: o termo grego para os não gregos; não trocar), pelasgos,
-  assírios, babilônios, cários, lícios, caunianos, cretenses, fenícios, cilícios, masságetas, citas.
+  assírios, babilônios, cários, lícios, caunianos, cretenses, fenícios, cilícios, masságetas, citas. Φωκαιέες (de
+  Foceia, na Jônia) → **foceenses**; Φωκέες (da Fócida, na Grécia) → **fócios**. Habitantes de cidade sem gentílico
+  usual em português: «os de Quios», «os de Cime». Κύρνος → Cirno (a Córsega; o nome grego fica, por causa do
+  oráculo de 1.167.4).
 - Deuses: Zeus, Hera, Apolo (o Loxias, Λοξίης, é nome de Apolo nos oráculos: «Lóxias»), Atena (Pronaia), Ártemis,
   Héracles, Afrodite Urânia, Dioniso; os nomes estrangeiros como Heródoto os dá (Milita, Alilat, Mitra).
 
@@ -73,7 +76,7 @@ Forma portuguesa usual (a dos livros de história em português; acento pela pro
   vindo de deus»; ὁ θεός (sem nome) → «o deus» quando é o de um oráculo, «deus» no geral.
 - Medidas: στάδιον → estádio; πλέθρον → pletro; ὀργυιή → braça; πῆχυς → côvado (πῆχυς βασιλήιος → côvado real);
   παλαστή → palmo; δάκτυλος → dedo; τάλαντον → talento; μνέα → mina; στατήρ → estáter; μέδιμνος → medimno;
-  ἀρτάβη → artaba; πλίνθος → tijolo; ἡμιπλίνθιον → meio-tijolo.
+  ἀρτάβη → artaba; χοῖνιξ → quénice; πλίνθος → tijolo; ἡμιπλίνθιον → meio-tijolo.
 - Instituições e guerra: ἐκκλησία → assembleia; βουλή → conselho; δῆμος → povo; στρατός, στρατιή → exército;
   στρατηγός → general; ὁπλῖται → hoplitas; ἱππεῖς → cavaleiros; τριήρης → trirreme; πεντηκόντερος → pentecôntera.
 - Persas: οἱ Μάγοι → os magos; σατραπηίη → satrapia; ὕπαρχος → governador; ἀγγαρήιον não aparece no livro I.

@@ -107,9 +107,33 @@ def segunda():
     return lista
 
 
+def terceira():
+    """Terceira rodada (depois da amostra de páginas inteiras): linhas não conferidas com «à» (o impresso só
+    usa «á» na crase: «à» é leitura errada de «á» ou de «a»), ponto seguido de minúscula (vírgula lida como
+    ponto) e hífen entre palavras que não pedem hífen (sujeira). Grava pranchas3/."""
+    conf = set()
+    for l in open(os.path.join(AQUI, 'conferencia.tsv'), encoding='utf-8'):
+        if l.strip() and not l.startswith('#'):
+            f, k, _ = l.split('\t', 2)
+            conf.add((int(f), int(k)))
+    lista = []
+    for f in pecas.folhas():
+        linhas = open(os.path.join(PASTA, 'rascunho', f'{f}.txt'), encoding='utf-8').read().splitlines()
+        caixas = json.load(open(os.path.join(PASTA, 'rascunho', f'{f}.json')))
+        for k, l in enumerate(linhas):
+            if (f, k) in conf or not l.strip():
+                continue
+            if (re.search(r'\b[àÀ]s?\b', l) or re.search(r'(?<!\b[A-Z])(?<!etc)\. [a-zà-ÿ]', l)
+                    or re.search(r'[a-zà-ÿ]{3,}-(de|da|do|e|que|em|um|uma|com|por|para)\b', l)):
+                lista.append((f, k, l, caixas[k]))
+    return lista
+
+
 if __name__ == '__main__':
     import lexico
-    if '--segunda' in sys.argv:
+    if '--terceira' in sys.argv:
+        main(lexico.ok, terceira(), 'pranchas3')
+    elif '--segunda' in sys.argv:
         main(lexico.ok, segunda(), 'pranchas2')
     else:
         main(lexico.ok)

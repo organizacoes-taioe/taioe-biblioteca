@@ -10,3 +10,4 @@
 155/1: impresso traz "consas" (por cousas); transcrito como está.
 157/23: "har" no impresso (por ha); 178/15: "(207," sem fechar parêntese no impresso; transcritos como estão.
 157/35: não deu para ver se a linha é recuada (¶ mantido do texto atual).
+182/4: impresso traz "qse" (por que se); 182/10: "omnimo" em itálico (talvez omnino); transcritos como estão.

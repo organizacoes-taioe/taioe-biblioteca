@@ -23,13 +23,70 @@ COMPOSICAO = []
 EMENDAS = []
 
 # abreviaturas e números (regex sobre o texto de 1886)
-PRE = []
+PRE = [
+    (r'(?i)\s+(?:No\s)?\d{1,3}\s+N[oó]b?rega\s*[:.]+\s*Cartas', ''),    # cabeçalho corrente que ficou no meio do texto
+    (r'(?i)\s*N[oó]b?rega\s*[:.]+\s*Cartas', ''),
+    (r'&\s*c\.', '&c.'),
+]
 
 # linhas do fac-símile que são nota de rodapé de Valle Cabral que a detecção automática deixou passar: (página, de, até)
-LINHAS_FORA = [(148, 34, 35)]
+LINHAS_FORA = [(148, 34, 35), (157, 44, 44), (158, 1, 1), (108, 3, 6)]
 
 # trechos em latim: em itálico e sem mudança de grafia
-LATIM = []
+LATIM = [
+    'ego, Pater mi, in tanto positus igne charitatis non cremor',
+    'sicut alioquin te audivi prophetantem',
+    'compelle multas intrare naves et venire ad hanc quam plantat Dominus vineam suam',
+    'Tu autem, Pater, ora pro omnibus et presertim pro filiis quos enutristi',
+    'qui quœrant Jesum Christum solum crucifixum',
+    'omnes quœrunt quæ sua sunt',
+    'sed mitte, Pater, filios tuos in Domino nutritos fratres meos, ut in omnem hanc terram exeat sonus eorum',
+    'quia patres eorum nuntiaverunt eis',
+    'Mitte igitur operarios quia jam satis alba est messis',
+    'Vale semper in Domino, mi Pater, et benedic nos omnes in Christo Jesu',
+    'petentes panem et non est qui frangat eis',
+    'quœrunt sua, sed quæ Jesu Christi',
+    'ut quos dedisti non perdam ex eis quemquam',
+    'Non solum nobis nati estis',
+    'Valete, mi fratres',
+    'commixti sunt inter gentes et didicerunt opera eorum',
+    'Volumus Jesum videre',
+    'Pater, quos dedisti mihi non perdidi',
+    'Veniat, pater, veniat, si amat Jesum Christum',
+    'sed tristitia nostra versa est in gaudium',
+    'quia amo patrem meum, qui et ipse amat me',
+    'hoc nomine et titulo',
+    'quae sua sunt, non quae Jesus Christi',
+    'pax, et non erat pax; curavimus Babilonem, et non est curata',
+    'qui est benedictus in sœcula',
+    'apposuit ut apprehenderentur alii malefactores',
+    'in utroque homine',
+    'in nomine Domini',
+    'adquiess concilio ejus',
+    'Sancti Spiritus',
+    'Miserere mei Deus',
+    'irruit spiritus Domini in eis',
+    'quis mihi daret ut pro te morerer',
+    'quid amplius de fratre nostro',
+    'ignem et aquam',
+    'et ne nos inducas in tentationem',
+    'lumen ad revelationem gentium, et gloriam plebis tuæ',
+    'defeceruntur præ lacrymis oculi mei, conturbata sunt viscera mea, effusum est in terra jecur meum',
+    'qui venit quærere ovem quæ perierat',
+    'et manducabat cum peccatoribus et publicanis',
+    'et venit quærere et salvum facere quod perierat',
+    'beati misericordes, quoniam ipsi misericordiam consequentur',
+    'usque in finem dilexit eos',
+    'potest unguentum istud venundari multo et dari pauperibus, non quia de egenis pertinebat ad eum, sed quia fur erat',
+    'respicite, nationes hominum et scitote quia nullus sperabit in Domino et confusus est',
+    'spera in Domino et fac bonitatem',
+    'Venite hunc ignem mittere in terram et vultur accendatur',
+    'mentita est iniquitas sibi',
+    'ne redeat immundus spiritus cum aliis septem nequioribus se, et sint novissima pejora prioribus',
+    'in lege naturæ',
+    'scilicet',
+    'Pater Noster',
+]
 
 # ------------------------------------------------------------------ grafia
 # forma de 1886 → forma de hoje (palavra inteira; em minúscula vale para qualquer caixa)
@@ -91,11 +148,59 @@ CONTEXTO = {
     'á|qualidade': 'a', 'á|pedra': 'a',
 }
 
+# ------------------------------------------------------------------ Nóbrega (1886): formas desta obra
+MANUAL.update({
+    'cousa': 'coisa', 'cousas': 'coisas', 'sinão': 'senão', 'dous': 'dois', 'ilhéos': 'ilhéus', 'charissimos': 'caríssimos',
+    'charissimo': 'caríssimo', 'charissima': 'caríssima', 'charidade': 'caridade', 'charidades': 'caridades',
+    'similhante': 'semelhante', 'similhantes': 'semelhantes', 'similhança': 'semelhança', 'deante': 'diante', 'adeante': 'adiante',
+    'alembrará': 'lembrará', 'alembrar': 'lembrar', 'augmentar': 'aumentar', 'augmentada': 'aumentada', 'eguaes': 'iguais',
+    'mandioqua': 'mandioca', 'inda': 'ainda', 'quaesquer': 'quaisquer', 'christianissimo': 'cristianíssimo',
+    'junctamente': 'juntamente', 'junctas': 'juntas', 'ajunctou': 'juntou', 'ajunctamos': 'juntamos', 'ajunctava': 'juntava',
+    'ajunctassem': 'juntassem', 'circumstancias': 'circunstâncias', 'açoute': 'açoite', 'fruito': 'fruto', 'hontem': 'ontem',
+    'humida': 'úmida', 'hervas': 'ervas', 'ceremonias': 'cerimônias', 'dansas': 'danças', 'escumando': 'espumando',
+    'escarneo': 'escárnio', 'bemaventurança': 'bem-aventurança', "est'outras": 'estoutras', 'contumaces': 'contumazes',
+    'salvarse-ão': 'salvar-se-ão', 'crearem': 'criarem', 'crearam': 'criaram', 'crear': 'criar', 'creados': 'criados',
+    'creatura': 'criatura', 'creou': 'criou', 'proluxa': 'prolixa', 'assignaturas': 'assinaturas', 'excusára': 'excusara',
+    'fleugmatico': 'fleumático', 'reveredissimama': 'reverendíssima', 'fal-o-ha': 'fá-lo-á', 'deshonra': 'desonra',
+    'deshonrados': 'desonrados', 'obrigavamo-nos': 'obrigávamo-nos', 'veiu-se': 'veio-se', 'veiu-lhes': 'veio-lhes',
+    'piadoso': 'piedoso', 'presumpções': 'presunções', 'esperdiçar': 'desperdiçar', 'abrahão': 'abraão', 'bemdito': 'bendito',
+    'assucar': 'açúcar', 'comtigo': 'contigo', 'desassocego': 'desassossego', 'desassocegados': 'desassossegados',
+    'irmãosinho': 'irmãozinho', 'extranhar': 'estranhar', 'testimunhar': 'testemunhar', 'fazêl-os': 'fazê-los',
+    'dilectissimos': 'diletíssimos', 'cadêa': 'cadeia', 'descommungados': 'descomungados', 'fedelidade': 'fidelidade',
+    'sobreveiu': 'sobreveio', 'prompto': 'pronto', 'creanças': 'crianças', 'reprehender': 'repreender',
+    'reprehendido': 'repreendido', 'inutilissimo': 'inutilíssimo', 'leixou': 'deixou', 'trensplantada': 'transplantada',
+    'capaces': 'capazes', 'treslado': 'traslado', 'sartão': 'sertão', 'destrue': 'destrói', 'pernãobuco': 'pernambuco',
+    'immundicia': 'imundícia', 'hectico': 'hético', 'imigo': 'inimigo', 'polas': 'pelas', 'diminue': 'diminui',
+    'consinte': 'consente', 'magua': 'mágoa', 'poderam': 'puderam', 'generações': 'gerações', 'mamalucos': 'mamelucos',
+    'cans': 'cãs', 'supito': 'súbito', 'villagalhão': 'vilagalhão', 'manchêa': 'manchea', 'acceptas': 'aceitas',
+    'sera': 'será', 'fara': 'fará', 'eramos': 'éramos', 'thomaz': 'tomás', 'christovão': 'cristóvão', 'rezões': 'razões',
+    'proveitos': 'proveitos', 'mai': 'mal', 'jorém': 'porém', 'hontem': 'ontem', 'tristesa': 'tristeza', 'dominga': 'domingo',
+    'dextra': 'dextra', 'lã': 'lá', 'là': 'lá', 'cà': 'cá', 'ca': 'cá', 'hi': 'aí', 'des': 'des', 'cae': 'cai', 'cahe': 'cai', 'crêm': 'creem', 'dêm': 'deem', 'sahia': 'saía', 'entonces': 'entonces', 'scilicet': 'scilicet', 'omnibus': 'omnibus',
+})
+
+
+SEM_CRASE = {'um', 'uns', 'estes', 'esses', 'aqueles', 'aquelles', 'outros', 'todos', 'muitos', 'alguns', 'cada', 'quem', 'vossa', 'vossas', 'sua',
+             'suas', 'deus', 'pouco', 'poucos', 'si', 'vós', 'nós', 'elles', 'eles', 'elle', 'ele', 'mim', 'nos', 'vos', 'mestre', 'padre',
+             'padres', 'irmãos', 'ver', 'sertão', 'ella', 'ellas', 'tantos', 'quaesquer', 'quaisquer', 'qualquer', 'nenhum'}
+FEM_OK = {'sua', 'suas'}          # «à sua casa» tem crase; «a Sua Alteza» (maiúscula) não
+NAO_INF = {'mulher', 'amor', 'valor', 'favor', 'senhor', 'pior', 'melhor', 'maior', 'menor', 'calor', 'temor', 'fervor', 'clamor', 'dor', 'mar',
+           'lugar', 'par', 'lar', 'altar', 'colher', 'prazer', 'poder', 'dever', 'viver', 'ser', 'parecer', 'ar', 'cear', 'tear', 'seguir',
+           'servir', 'fazer', 'saber', 'haver'}
+
 
 def crase(t, seg, ant):
-    """á, ás, áquelle… de 1886: crase de hoje (a revisão olhou todas, relatorios/crase.tsv)."""
-    base = {'á': 'à', 'ás': 'às', 'áquelle': 'àquele', 'áquella': 'àquela', 'áquelles': 'àqueles',
-            'áquellas': 'àquelas', 'áquillo': 'àquilo'}[t.lower()]
+    """á, à, ás, às, áquelle… de 1886: «a» simples (diante de infinitivo, de pronome de tratamento ou de palavra masculina)
+    ou crase de hoje (a revisão olhou todas, relatorios/crase.tsv)."""
+    lt = t.lower()
+    sl = seg.lower().strip('.,;:!?')
+    if lt in ('á', 'à'):
+        inf = sl.endswith(('ar', 'er', 'ir', 'or')) and len(sl) > 3 and sl not in NAO_INF and not sl.endswith(('ador', 'edor', 'idor'))
+        if sl in SEM_CRASE and not (sl in FEM_OK and not seg[:1].isupper()) or inf or (sl in ('vossa', 'sua', 'vossas') and seg[:1].isupper()):
+            return 'A' if t[:1].isupper() else 'a'
+        return 'À' if t[:1].isupper() else 'à'
+    base = {'ás': 'às', 'às': 'às', 'áquelle': 'àquele', 'áquella': 'àquela', 'áquelles': 'àqueles',
+            'áquellas': 'àquelas', 'áquillo': 'àquilo', 'àquelle': 'àquele', 'àquella': 'àquela', 'àquelles': 'àqueles',
+            'àquellas': 'àquelas'}[lt]
     return base[0].upper() + base[1:] if t[:1].isupper() else base
 
 

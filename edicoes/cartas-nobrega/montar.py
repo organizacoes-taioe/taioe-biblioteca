@@ -143,6 +143,7 @@ def _linhas_carta(c):
                     l = ('¶ ' if l.startswith('¶ ') else '') + novo
                 else:
                     l = ''
+            l = l.replace('∅', '')
             if l.strip() and not any(p == a and b <= k <= z for a, b, z in D.LINHAS_FORA):
                 out.append((p, k, nfc(l.rstrip())))
             for extra in ins.get((p, k), []):
@@ -241,6 +242,8 @@ def modernizar_bloco(texto, onde, rel):
         guardados.append(m.group(0))
         return f'LATIMXX{len(guardados) - 1}XX'
     for frase in D.LATIM:
+        if re.search(r'(?<![A-Za-zÀ-ÿ])' + re.escape(frase) + r'(?![A-Za-zÀ-ÿ])', texto):
+            rel['usadas'].add(('latim', frase))
         texto = re.sub(r'(?<![A-Za-zÀ-ÿ])' + re.escape(frase) + r'(?![A-Za-zÀ-ÿ])', guardar, texto)
     texto = re.sub(r'_[^_]+_', guardar, texto)          # o que já está em itálico (espanhol)
     out = []
@@ -262,7 +265,7 @@ def modernizar_bloco(texto, onde, rel):
             novo, fonte = D.MANUAL_EXATO[t], 'manual'
         elif lw in D.MANUAL:
             novo, fonte = G.igualar_caixa(t, D.MANUAL[lw]), 'manual'
-        elif lw in ('á', 'ás', 'áquelle', 'áquella', 'áquelles', 'áquellas', 'áquillo'):
+        elif lw in ('á', 'à', 'ás', 'às', 'áquelle', 'áquella', 'áquelles', 'áquellas', 'áquillo', 'àquelle', 'àquella', 'àquelles', 'àquellas'):
             novo, fonte = D.crase(t, seg, ant), 'crase'
             rel['crase'].append((onde, ant, t, seg, novo))
         elif enclise(lw):
@@ -393,6 +396,7 @@ if __name__ == '__main__':
     faltam = [x for x in [('omit', a, b) for a, b, _ in D.OMITIDAS] + [('erro', a, b) for a, b, _, _ in D.ERROS] +
               [('comp', a, b) for a, b, _ in D.COMPOSICAO + D.EMENDAS] if x not in rel['usadas']]
     faltam += [('corr', c['de'][:50]) for c in correcoes() if ('corr', c['de']) not in rel['usadas']]
+    faltam += [('latim', f) for f in D.LATIM if ('latim', f) not in rel['usadas']]
     if faltam:
         print('NÃO APLICADAS:', faltam)
     gravar_atual(cs)

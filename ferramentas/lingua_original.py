@@ -10,6 +10,8 @@ Fonte: edicoes/lingua-original/obras.json (autor, título, livro, fontes) e, por
 edicoes/lingua-original/<pasta>/poema.txt (formato dos poemas da Biblioteca) e glossario.json.
 Prosa («prosa»: true em obras.json, com o gênero, como o começo do Quixote): um trecho por linha (a
 unidade que os Cards mostram), linha em branco entre os parágrafos; a página junta os trechos.
+Texto longo em partes (Un cœur simple): uma linha «::parte <título>» abre cada parte; a numeração das
+linhas do glossário corre seguida pelo texto todo, e o site faz uma página por parte.
 
 glossario.json:
   {"verbetes": {"<chave>": {"lema": "prenda", "wiki": "es", "classe": "substantivo feminino",
@@ -128,6 +130,14 @@ def linhas_do_poema(poema):
         n += 1
         saida.append((n, l, i, 0))
     return saida
+
+
+def dividir_partes(texto):
+    """[(título, primeira linha, linha depois da última)] das partes («::parte <título>»), em índices de
+    linha do arquivo; [] se o texto não tem partes."""
+    linhas = texto.split('\n')
+    marcas = [(i, m.group(1).strip()) for i, l in enumerate(linhas) for m in [re.match(r'^::parte\s+(.*)$', l)] if m]
+    return [(t, i + 1, marcas[k + 1][0] if k + 1 < len(marcas) else len(linhas)) for k, (i, t) in enumerate(marcas)]
 
 
 def ocorrencias(poema):
@@ -419,6 +429,9 @@ def publicar():
                 item['genero'] = p['genero']   # sem ele, Poesia (as orações levam "Orações")
             if p.get('prosa'):
                 item['prosa'] = True
+            partes = dividir_partes(texto)
+            if partes:
+                item['partes'] = [{'titulo': t} for t, _a, _b in partes]
             if p.get('traducao'):
                 tr = p['traducao']
                 item['pt'] = {'tradutor': tr.get('tradutor'), 'titulo': tr['titulo'], 'ano': tr.get('ano')}
@@ -466,24 +479,36 @@ def montar(p, info_lingua, poesia=True):
     if PROVISORIO and (g is None or conferir(p['pasta'], False)):
         g = {'verbetes': {chave(x[1]): {'lema': x[1], 'classe': '(em preparo)', 'def': ['(nota em preparo)']} for x in ocorrencias(p)}}
     vb, oc = g['verbetes'], g.get('ocorrencias', {})
-    ids, verbetes = {}, {}
-    o_linhas, o_titulo, o_sub = [], [], []
-    for ref, palavra, n, i, a, b in ocorrencias(p):
-        k = oc.get(ref, chave(palavra))
-        if k not in ids:
-            ids[k] = len(ids)
+    texto = ler_texto(p['pasta'])
+    # texto em partes («::parte»): uma página por parte, cada uma com as suas notas (o título em todas)
+    cortes = dividir_partes(texto) or [(None, 0, len(texto.split('\n')))]
+    desl_linha = {m: d for (m, _t, _i, d) in linhas_do_poema(p)}
+    paginas = []
+    for _t, ini, fim in cortes:
+        linhas = texto.split('\n')[ini:fim]
+        while linhas and not linhas[0].strip():
+            linhas.pop(0)
+            ini += 1
+        paginas.append({'ini': ini, 'fim': fim, 'texto': '\n'.join(linhas).strip('\n'),
+                        'ids': {}, 'v': {}, 'o': [], 't': [], 's': []})
+
+    def id_em(pg, k):
+        if k not in pg['ids']:
+            pg['ids'][k] = len(pg['ids'])
             x = vb[k]
             v = {'p': [parte_publica(y, lingua) for y in x['partes']]} if 'partes' in x else {'p': [parte_publica(x, lingua)]}
             if x.get('nota'):
                 v['n'] = x['nota']
-            verbetes[ids[k]] = v
-        if i is None:
-            o_titulo.append([a, b, ids[k]])
-        elif i == 'sub':
-            o_sub.append([a, b, ids[k]])
+            pg['v'][pg['ids'][k]] = v
+        return pg['ids'][k]
+    for ref, palavra, n, i, a, b in ocorrencias(p):
+        k = oc.get(ref, chave(palavra))
+        if i is None or i == 'sub':
+            for pg in paginas:
+                pg['t' if i is None else 's'].append([a, b, id_em(pg, k)])
         else:
-            desl = [d for (m, _t, _i, d) in linhas_do_poema(p) if m == n][0]
-            o_linhas.append([i, a + desl, b + desl, ids[k]])
+            pg = next(x for x in paginas if x['ini'] <= i < x['fim'])
+            pg['o'].append([i - pg['ini'], a + desl_linha[n], b + desl_linha[n], id_em(pg, k)])
     fontes = [{'nome': f['nome'], 'url': f.get('url'), 'nota': f.get('nota')} for f in p.get('fontes', [])]
     wiki = wiki_padrao(lingua).split(':')[0]
     outro = wiki != lingua   # o latim: as definições vêm do en.wiktionary
@@ -507,13 +532,15 @@ def montar(p, info_lingua, poesia=True):
         apresentacao += ('\n\n**Tradução.** No botão «Português», a tradução de %s, %s, em domínio público, '
                          'na ortografia de hoje.') % (tr['tradutor'], tr['publicacao'])
         fontes.insert(len(fontes) - 1, {'nome': tr['fonte']['nome'], 'url': tr['fonte'].get('url'), 'nota': tr['fonte'].get('nota')})
-    saida = {'t': [ler_texto(p['pasta'])],
-             'g': [{'v': verbetes, 'o': o_linhas, 't': o_titulo, 's': o_sub}],
+    saida = {'t': [pg['texto'] for pg in paginas],
+             'g': [{'v': pg['v'], 'o': pg['o'], 't': pg['t'], 's': pg['s']} for pg in paginas],
              'e': {'titulo': 'Sobre este texto', 'apresentacao': apresentacao,
                    'fontes': [{k: v for k, v in f.items() if v} for f in fontes]}}
     if tr:
         with open(os.path.join(EDICAO, p['pasta'], 'traducao.txt'), encoding='utf-8') as f:
-            saida['p'] = [f.read().replace('\r\n', '\n').strip('\n')]
+            tt = f.read().replace('\r\n', '\n').strip('\n')
+        cp = dividir_partes(tt)
+        saida['p'] = ['\n'.join(tt.split('\n')[a:b]).strip('\n') for _t, a, b in cp] if cp else [tt]
     return saida
 
 

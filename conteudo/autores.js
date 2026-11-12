@@ -830,6 +830,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'gustave-flaubert',
+  nome: 'Gustave Flaubert',
+  nomeCompleto: 'Gustave Flaubert',
+  vida: '1821–1880',
+  lingua: 'fr',
+  nota: 'Romancista francês de Rouen, autor de _Madame Bovary_, de _A Educação Sentimental_ e dos _Três Contos_.'
+});
+
+BIBLIOTECA.autor({
   id: 'giacomo-leopardi',
   nome: 'Giacomo Leopardi',
   nomeCompleto: 'Giacomo Taldegardo Francesco di Sales Saverio Pietro Leopardi',

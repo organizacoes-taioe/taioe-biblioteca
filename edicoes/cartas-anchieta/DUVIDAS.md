@@ -32,3 +32,5 @@
 448/36: número de página (451) colado a 'esti'; escrevi 'esti-' (449/3 começa em 'mado'). 449/5: impresso 'A’s' com apóstrofo (transcrito como está). 'sapientiœ/gratiœ/naturœ': lido œ (impresso usa œ por ae).
 512/0: título 'XXXVIII. — SERMÃO DA CONVERSÃO DE S. PAULO (1568)' apagado (-). 511/33 'agnoces' (por agnoscas) como impresso.
 512/35: número de página (519) colado a 'patriar'; escrevi 'patriar-' (a linha seguinte começa em 'ca Jacob').
+513/35: número de página (520) colado a 'arregalan'; escrevi 'arregalan-' (514/0 começa em 'do'). 513/9: 'cœdis' (texto atual dizia cordis); 514/2: 'eum' (texto atual dizia cum); 513/31 'lopo' como impresso.
+514/35: número de página (521) colado a 'cui'; escrevi 'cui-' (515/0 começa em 'dando'). 515/9 'stimulam' como impresso.

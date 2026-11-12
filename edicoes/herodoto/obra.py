@@ -2,7 +2,7 @@
 as suas partes em PARTES (sigla «Livro II» etc.) e conta na «Sobre»."""
 
 META = {
-    'id': 'historias', 'indice': 'nao-ficcao-traducoes', 'autor': 'herodoto',
+    'id': 'herodoto-historias', 'indice': 'nao-ficcao-traducoes', 'autor': 'herodoto',
     'titulo': 'Histórias',
     'datas': 'c. 430–425 a.C.', 'genero': 'História',
     'divisao': {'singular': 'parte', 'plural': 'partes', 'rotulo': 'nome', 'agrupar': True},

@@ -15,4 +15,4 @@ Branch `pedido-herodoto` do `taioe-biblioteca` (worktree `~/.cache/claude-wt5-he
   Feitos: (nenhum).
 - Revisão contra o grego (subagente Sonnet), uniformização dos nomes e termos.
 - «Sobre» no `obra.py`, `revisao.json` (~8 decisões), autor `herodoto` em `conteudo/autores.js`, `python3
-  ferramentas/traducoes.py herodoto`, vocabulário (`edicoes/vocabulario/historias-herodoto.json`), gerar e conferir.
+  ferramentas/traducoes.py herodoto`, vocabulário (`edicoes/vocabulario/herodoto-historias.json`), gerar e conferir.

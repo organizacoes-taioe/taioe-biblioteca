@@ -81,7 +81,7 @@ for c, secs in d['caps']:
         t = re.sub(r'\s*⟦gap⟧\s*', ' … ', t)
         t = t.replace('ʼ', '’')
         t = re.sub(r'\s*⟦l⟧\s*', '\n| ', t); t = re.sub(r'\s*⟦/l⟧\s*', '\n', t)
-        t = re.sub(r' +([.,·;])', r'\1', t)
+        t = re.sub(r' +([.,·;])', r'\1', t); t = re.sub(r'  +', ' ', t)
         if '⟦' in t: sys.exit(f'sobrou marca: {ref}')
         texto = f'[{c}.{s}] '
         for p in t.split('\n'):

@@ -40,6 +40,7 @@ def corrigir(t):
     R1 agudo final → grave antes de palavra que não é enclítica; com dois acentos, sai o segundo;
     R2 dois acentos com o último grave: antes de enclítica (aqui também οἱ), o último vira agudo; senão sai;
     R3 grave final → agudo antes de enclítica segura sem acento (γὰρ σε → γάρ σε);
+    R5 dois acentos antes de pontuação: sai o segundo (οὐκ ὡς Ἕλληνές, → Ἕλληνες,);
     R4 proparoxítona ou properispômena antes de enclítica segura sem acento ganha o agudo final (πείθεσθαί μοι)."""
     out, ng, nd = [], 0, 0
     ms = list(PAL.finditer(t))
@@ -49,7 +50,12 @@ def corrigir(t):
         nxt = ms[k + 1] if k + 1 < len(ms) else None
         entre = t[m.end():nxt.start()] if nxt else '.'
         if not nxt or entre.strip() != '':
-            out.append(w); continue
+            d = u.normalize('NFD', w); ac = _acentos(d)
+            if len(ac) >= 2 and d[ac[-1]] in (ACU, GRA) and not any(c.lower() in VOG for c in d[ac[-1] + 1:] if not u.combining(c)):
+                out.append(u.normalize('NFC', d[:ac[-1]] + d[ac[-1] + 1:])); nd += 1   # R5: dois acentos antes de pontuação
+            else:
+                out.append(w)
+            continue
         prox = _sem(nxt.group()).replace('ς', 'σ')
         encl = prox in ENCL
         segura = prox in ENCL_SEGURAS and _sem_acento(nxt.group())

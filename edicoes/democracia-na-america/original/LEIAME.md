@@ -28,7 +28,7 @@ por palavra com o WS48 e, este, com o WS66. Toda divergência de palavra dentro 
 - I,2,9: «leur empire sur les mœurs» (GUT «amours»).
 Lições do impresso mantidas, mesmo estranhas (o FAC as confirma): «Madisson», «Spinosa»,
 «siége de l'État» (as *Œuvres complètes* corrigem para «chef de l'État»; ver `CONVENCOES.md` e a
-decisão `siege`), «mais elle plus juste» (II,4,8, sem «est»).
+decisão `siege`), «mais elle plus juste» (II,4,8, sem «est»; a tradução põe o verbo).
 
 ## Apresentação
 
@@ -41,4 +41,5 @@ decisão `siege`), «mais elle plus juste» (II,4,8, sem «est»).
   principales causes qui rendent la religion puissante en Amérique», inclusive), sem as causas
   acidentais, as leis, as luzes e a comparação com a Europa.
 - Notas de rodapé do autor: chamada `[n]` e bloco `¤ [n]` no fim do arquivo, renumeradas a partir de 1
-  em cada capítulo. As notas finais dos tomos («Notes», por letra ou página) ficam de fora.
+  em cada capítulo. As notas finais dos tomos («Notes», por letra ou página) ficam de fora, e as
+  remissões a elas no texto, «(_E_)», «(_F_)» (I,2) e «(_G_)» (I,3), saíram dos dois lados.

@@ -106,3 +106,18 @@ Candidatas a decisão:
   inglês sem forma portuguesa, por isso ficou.
 - *prêtre* dividido entre «sacerdote» e «padre» conforme o contexto (feito) ou sempre «sacerdote».
   Recomendo a divisão, que soa natural.
+
+## 06 · Da fonte principal das crenças nos povos democráticos (II, I, 2)
+
+- Termos: *croyances dogmatiques* → «crenças dogmáticas»; *croyances toutes faites* → «crenças já
+  feitas»; *sur la foi d'autrui* → «na fé de outrem»; *sur la parole d'autrui* → «sob a palavra de
+  outrem»; *opinion commune* → «opinião comum»; *le public* → «o público»; *empire intellectuel du
+  plus grand nombre* → «império intelectual do maior número»; *essor* → «voo».
+- «Il ne persuade pas ses croyances, il les impose» → «Ele não persuade das suas crenças: impõe-nas»
+  (o francês usa *persuader* transitivo direto com a coisa; em português só cabe «persuadir de»).
+- «la religion … y règne bien moins comme doctrine révélée que comme opinion commune»: tradução
+  literal, sem atenuar.
+- Fim: «passer ma tête dans le joug, parce qu'un million de bras me le présentent» → «meter a cabeça
+  no jugo porque um milhão de braços me oferecem», sem o «mo», raro no Brasil.
+
+Candidatas a decisão: nenhuma nova.

@@ -61,7 +61,7 @@ def corrigir(t):
         segura = prox in ENCL_SEGURAS and _sem_acento(nxt.group())
         d = u.normalize('NFD', w)
         ac = _acentos(d)
-        if not ac or nu(w) in ('τισ', 'τι'):
+        if not ac or nu(w) in ('τισ', 'τι') or w[-1] in 'ʼ’\'':   # palavra elidida guarda o acento
             out.append(w); continue
         i = ac[-1]
         final = not any(c.lower() in VOG for c in d[i + 1:] if not u.combining(c))

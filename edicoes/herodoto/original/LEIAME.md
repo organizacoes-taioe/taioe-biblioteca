@@ -33,11 +33,11 @@ o espírito das maiúsculas, ὦν/ὧν, ἦν/ἣν) e a conferir; `ferramenta
 para ver os pontos; `ferramentas/montar.py` aplica tudo e grava estes arquivos.
 
 Correções ao Perseus (o fac-símile de Godley tem a forma da direita):
-- regra do grave: 153 agudos finais no meio da frase viraram grave (σχεδόν πάντων → σχεδὸν πάντων); 29 acentos
+- regra do grave: 148 agudos finais no meio da frase viraram grave (σχεδόν πάντων → σχεδὸν πάντων); 30 acentos
   duplos que não vêm antes de enclítica saíram, ou o segundo virou agudo antes de enclítica (Ἕλληνές λέγουσι →
   Ἕλληνες λέγουσι; ἐντειλάμενὸς οἱ → ἐντειλάμενός οἱ); o agudo da enclítica na palavra anterior (πείθεσθαί μοι,
-  γάρ σε). A regra não mexe antes de pontuação nem antes de forma ambígua (οἱ artigo × pronome);
-- 190 acentos e espíritos pelo fac-símile (lista em `ferramentas/acentos-aceitos.tsv` e `ACENTOS` em
+  γάρ σε). A palavra elidida guarda o acento (οὔτ’). A regra não mexe antes de pontuação nem antes de forma ambígua (οἱ artigo × pronome);
+- 186 acentos e espíritos pelo fac-símile (lista em `ferramentas/acentos-aceitos.tsv` e `ACENTOS` em
   `ferramentas/montar.py`), entre eles ὃ δὲ (pronome) onde o Perseus tem ὁ δὲ, os particípios εἴπας, δεύτερα
   advérbio, χώρῃ e χώρη, ἱππεύειν, ἄπαις;
 - letras (`CORR` em `ferramentas/montar.py`, todas vistas nas imagens): 32.7 τελευτήσῃ → τελευτήσει; 46.2 e 55.1
@@ -48,7 +48,8 @@ Correções ao Perseus (o fac-símile de Godley tem a forma da direita):
   → κατά περ εἰ δῆμοι; 172.2 χέασθαι → χρᾶσθαι; 173.3 καὶ νυν ἔτι → καὶ νῦν ἔτι; 176.3 ἐκδημέουσι → ἐκδημέουσαι;
   179.2 τάφου → τάφρου; 193.5 τὸν φοινίκων → τῶν φοινίκων; 199.1 ἀξιούμεναι → ἀξιεύμεναι; 199.5 ὅσσαι → ὅσαι; 202.2
   ὀσμῇ → ὀδμῇ; 205.1 Μασαγετέων → Μασσαγετέων; 216.3 ἀλλ’ γῇ → ἀλλὰ γῇ; 42.2 χρηστοῖσἰ → χρηστοῖσι; 145.1 Αἴγίον → Αἴγιον; 149.1 τῆ → τῇ; 163.2 «μὲν ἦν,
-  Ἀργανθώνιος» sem a vírgula; 166.1 ἑξήκόντα → ἑξήκοντα; 171.6 ἀποδείκνῦσι → ἀποδεικνῦσι; e em 153.1 uma oração
+  Ἀργανθώνιος» sem a vírgula; 166.1 ἑξήκόντα → ἑξήκοντα; 171.6 ἀποδείκνῦσι → ἀποδεικνῦσι; 97.1 δίκαν → δικᾶν; 120.1 Ἁστυάγης → Ἀστυάγης; 128.3 Πέρῃσι →
+  Πέρσῃσι; 133.4 δὲμὴ → δὲ μὴ; e em 153.1 uma oração
   repetida («χῶρος ἐν μέσῃ ἑωυτῷ προαγορεύουσι· τῇ πόλι», onde Godley tem «χῶρος ἐν μέσῃ τῇ πόλι»: as duas palavras
   do meio vêm da frase anterior), achada na tradução.
 

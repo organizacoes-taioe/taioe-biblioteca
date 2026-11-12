@@ -864,3 +864,13 @@ BIBLIOTECA.autor({
   lingua: 'it',
   nota: 'Escritor e jornalista florentino, autor de As aventuras de Pinóquio.'
 });
+
+BIBLIOTECA.autor({
+  id: 'manuel-da-nobrega',
+  nome: 'Manuel da Nóbrega',
+  nomeCompleto: 'Manuel da Nóbrega',
+  vida: '1517–1570',
+  ordem: 'Nóbrega, Manuel da',
+  area: 'nao-ficcao',
+  nota: 'Jesuíta português, chefe da primeira missão da Companhia de Jesus ao Brasil (1549) e primeiro provincial; fundou o colégio de São Paulo de Piratininga e escreveu as primeiras cartas e relatos sobre os índios e a colônia.'
+});

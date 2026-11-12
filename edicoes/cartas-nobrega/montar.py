@@ -144,7 +144,7 @@ def _linhas_carta(c):
             if (p, k) in subst:
                 novo = subst[(p, k)]
                 if novo is not None:
-                    l = ('¶ ' if l.startswith('¶ ') else '') + novo
+                    l = ('¶ ' if l.startswith('¶ ') else '') + re.sub(r'^¶ ', '', novo)
                 else:
                     l = ''
             l = l.replace('∅', '')

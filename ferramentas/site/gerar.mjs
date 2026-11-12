@@ -114,8 +114,16 @@ function blocos(texto) {
   }
   return html;
 }
+/* figura do livro: bloco «{fig pasta/nome}» → conteudo/img/pasta/nome.svg (copiado para public/biblioteca/img/) */
+const FIG = /^\{fig ([\w-]+(?:\/[\w-]+)*)\}$/;
+function figura(b) {
+  const m = FIG.exec(b.trim()), n = /fig-(\w+)/.exec(m[1]);
+  const alt = n && /^\d+$/.test(n[1]) ? 'Figura ' + n[1] : 'Figura';
+  return '<figure class="figura"><img src="' + BASE + 'img/' + m[1] + '.svg" alt="' + alt + '"></figure>';
+}
 function paragrafos(lista) {
   return lista.map((b) => {
+    if (FIG.test(b.trim())) return figura(b);
     if (/^## /.test(b)) return '<p class="cena">' + inline(b.slice(3).trim()) + '</p>';
     if (/^@ /.test(b)) return '<p class="fala">' + inline(b.slice(2).trim()) + '</p>';
     const linhas = b.split('\n');
@@ -502,7 +510,7 @@ const umaParte = (o) => (o.coletanea || o.poema || o.documento) && o.partes.leng
 const documentosIrmaos = (o) => obrasDe(o.autor).filter((x) => x.documento && x.genero === o.genero);
 
 // ------------------------------------------------------------------ endereços (congelados)
-const RESERVADOS = new Set(['css', 'js', 'vendor', 'sitemap.xml', '404.html', 'obras.json', 'favicon.svg', 'lendo', 'lidos', 'busca', ...AREAS.map((a) => a.id)]);
+const RESERVADOS = new Set(['css', 'js', 'vendor', 'sitemap.xml', '404.html', 'obras.json', 'favicon.svg', 'img', 'lendo', 'lidos', 'busca', ...AREAS.map((a) => a.id)]);
 const congelados = fs.existsSync(ARQ_ENDERECOS) ? JSON.parse(lerLf(ARQ_ENDERECOS)) : {};
 const enderecos = {};
 function slugParte(o, p, i) {
@@ -661,7 +669,7 @@ dados.obras.forEach((o) => { if (!o.poema && !o.coletanea && !umaParte(o)) o.par
 const semMarcas = (s) => String(s).replace(/(^|\n)\{§ [^}]+\}\s*/g, '$1');
 dados.obras.forEach((o) => {
   if (!o.divisao || o.divisao.marcas !== false) return;
-  const tira = (y) => { y.texto = semMarcas(y.texto); (y.filhos || []).forEach(tira); };
+  const tira = (y) => { y.texto = semMarcas(y.texto); if (y.original) y.original = semMarcas(y.original); (y.filhos || []).forEach(tira); };
   o.partes.forEach((p) => (p.filhos || []).forEach(tira));
 });
 const dividida = (o) => o.partes.some((p) => p.filhos);
@@ -1466,6 +1474,7 @@ for (const [id, partes] of Object.entries(NOTAS_GERAIS)) for (const lista of Obj
   if (!notasPostas.has(id + ':' + n.id)) throw new Error(`nota geral ${id}:${n.id} não entrou em nenhuma página (obra ou parte errada?)`);
 fs.writeFileSync(path.join(SAIDA, 'js', 'notas.js'), NOTAS);
 fs.copyFileSync(path.join(RAIZ, 'favicon.svg'), path.join(SAIDA, 'favicon.svg'));
+if (fs.existsSync(path.join(RAIZ, 'conteudo', 'img'))) fs.cpSync(path.join(RAIZ, 'conteudo', 'img'), path.join(SAIDA, 'img'), { recursive: true });   // figuras dos livros ({fig …})
 // cópias idênticas do taioe-hub (o workflow Cópias confere o sha256)
 fs.mkdirSync(path.join(SAIDA, 'vendor'), { recursive: true });
 fs.writeFileSync(path.join(SAIDA, 'vendor', 'supabase-js-2.117.2.js'), lerLf(path.join(RAIZ, 'ferramentas', 'site', 'comum', 'supabase-js-2.117.2.js')));

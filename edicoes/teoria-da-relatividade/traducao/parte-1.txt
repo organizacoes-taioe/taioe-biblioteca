@@ -120,7 +120,7 @@ Essa estipulação contém ainda uma hipótese física, de cuja validade dificil
 
 Dois acontecimentos (por exemplo, as duas descargas _A_ e _B_) que são simultâneos _em relação ao leito da ferrovia_ são também simultâneos _em relação ao trem_? Vamos mostrar logo que a resposta tem de ser negativa.
 
-{fig 1}
+{fig teoria-da-relatividade/fig-1}
 
 Quando dizemos que as descargas _A_ e _B_ são simultâneas em relação ao leito da ferrovia, isso significa: os raios de luz que partem dos lugares _A_ e _B_ das descargas se encontram no ponto médio _M_ do trecho _A_–_B_ da via. Mas aos acontecimentos _A_ e _B_ correspondem também lugares _A_ e _B_ no trem. Seja _M′_ o ponto médio do trecho _A_—_B_ do trem em movimento. Esse ponto _M′_ coincide, é verdade, no instante das descargas[1], com o ponto _M_, mas se move no desenho para a direita com a velocidade _v_ do trem. Se um observador sentado no trem em _M′_ não tivesse essa velocidade, ficaria sempre em _M_, e os raios de luz vindos das descargas _A_ e _B_ o alcançariam então ao mesmo tempo, isto é, esses dois raios se encontrariam justamente nele. Na realidade, porém, ele corre (julgando-se a partir do leito da ferrovia) ao encontro do raio de luz que vem de _B_, enquanto se afasta do raio de luz que vem de _A_. O observador verá, portanto, o raio de luz que parte de _B_ antes do que parte de _A_. Os observadores que usam o trem como corpo de referência têm, portanto, de chegar à conclusão de que a descarga _B_ se deu antes da descarga _A_. Chegamos, assim, ao importante resultado:
 
@@ -156,7 +156,7 @@ Se abandonarmos essas hipóteses, desaparece o dilema do § 7, porque o teorema 
 
 Antes de entrar nisso, intercalemos a seguinte reflexão. Até agora consideramos sempre apenas acontecimentos que se passavam ao longo do leito da ferrovia, que tinha de fazer, matematicamente, o papel de uma linha reta. Mas podemos imaginar esse corpo de referência prolongado para os lados e para cima, da maneira indicada no § 2, por um andaime de barras, de tal modo que um acontecimento que se dê em qualquer lugar possa ser localizado em relação a esse andaime. Do mesmo modo, podemos imaginar o trem que anda com a velocidade _v_ prolongado por todo o espaço, de tal modo que todo acontecimento, por mais distante que seja, possa ser localizado também em relação ao segundo andaime. Podemos deixar de lado, sem cair em erros de princípio, o fato de que esses andaimes, na verdade, por causa da impenetrabilidade dos corpos sólidos, teriam de se destruir um ao outro sem parar. Em cada um desses andaimes imaginamos destacadas três paredes perpendiculares entre si, a que chamamos “planos coordenados” (“sistema de coordenadas”). Ao leito da ferrovia corresponde então um sistema de coordenadas _K_; ao trem, um sistema de coordenadas _K′_. Um acontecimento que se dê em qualquer lugar é fixado no espaço, em relação a _K_, pelas três perpendiculares _x_, _y_, _z_ baixadas sobre os planos coordenados, e no tempo por um valor de tempo _t_. _O mesmo acontecimento_ é fixado no espaço e no tempo, em relação a _K′_, por valores correspondentes _x′_, _y′_, _z′_, _t′_, que naturalmente não coincidem com _x_, _y_, _z_, _t_. Como essas grandezas devem ser entendidas como resultados de medições físicas já foi exposto em detalhe.
 
-{fig 2}
+{fig teoria-da-relatividade/fig-2}
 
 O nosso problema, formulado com exatidão, é evidentemente o seguinte. Quais são os valores _x′_, _y′_, _z′_, _t′_ de um acontecimento em relação a _K′_, quando são dadas as grandezas _x_, _y_, _z_, _t_ do mesmo acontecimento em relação a _K_? As relações têm de ser escolhidas de modo que a lei da propagação da luz no vácuo seja satisfeita para um mesmo raio de luz (e para todo raio de luz) em relação a _K_ _e_ a _K′_. Para a orientação espacial relativa dos sistemas de coordenadas indicada no desenho (Fig. 2), esse problema é resolvido pelas equações:
 
@@ -244,7 +244,7 @@ Mas podemos fazer essa mesma consideração tomando por base a teoria da relativ
 
 que corresponde ao teorema da adição das velocidades de mesma direção segundo a teoria da relatividade. A questão agora é saber qual desses dois teoremas resiste à experiência. Sobre isso nos instrui um experimento importantíssimo, que o genial físico Fizeau realizou há mais de meio século, e que desde então foi repetido por alguns dos melhores físicos experimentais, de modo que o resultado está fora de dúvida. O experimento trata da seguinte questão. Num líquido em repouso, a luz se propaga com uma velocidade determinada _w_. Com que rapidez ela se propaga no tubo _R_ da figura
 
-{fig fizeau}
+{fig teoria-da-relatividade/fig-fizeau}
 
 na direção da seta, quando o líquido mencionado corre por ele com a velocidade _v_?
 

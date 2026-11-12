@@ -864,3 +864,12 @@ BIBLIOTECA.autor({
   lingua: 'it',
   nota: 'Escritor e jornalista florentino, autor de As aventuras de Pinóquio.'
 });
+
+BIBLIOTECA.autor({
+  id: 'albert-einstein',
+  nome: 'Albert Einstein',
+  vida: '1879–1955',
+  ordem: 'Einstein, Albert',
+  area: 'nao-ficcao',
+  nota: 'Físico alemão, autor da teoria da relatividade especial (1905) e da geral (1915); Prêmio Nobel de Física de 1921.'
+});

@@ -10,11 +10,19 @@ als Ganzes», §§ 30–32) e o Anhang (derivação de Lorentz e mundo de Minkow
 de 1920 aplicadas (lista em `diff1920.txt` no rascunho); parte III, Anhang e notas novas vêm do OCR das duas cópias
 de 1920, conferido nas imagens. **O alemão só entra por script** (nunca colado à mão).
 
-Estado (2026-11-12):
-- [x] alemão montado por script: `bash ~/.cache/claude-pedidos-0511/teoria-da-relatividade/scripts/construir.sh`
-  (cópia dos scripts e das listas de correção em `.../fontes-git/`; reconstrói `original/` inteiro)
-- [x] tradução: prefácio + adendo, parte I (§§ 1–17). Trechos em `~/.cache/claude-pedidos-0511/teoria-da-relatividade/trad/p<N>-*.txt`,
-  juntados por `scripts/juntar.sh` em `traducao/parte-<N>.txt` (confere blocos e marcas com o original)
-- [ ] tradução: parte II (§§ 18–29), parte III (§§ 30–32), apêndice
-- [ ] figuras (4: Fig. 1, 2, 3 e a do tubo de Fizeau): hoje são blocos `{fig N}` nos dois lados; falta decidir o desenho (SVG) e o gerador
-- [ ] `obra.py`, `CONVENCOES.md`, `original/LEIAME.md`, `revisao.json` (~8), vocabulário, `traducoes.py`, gerar e conferir
+Estado (2026-11-12): **pronta para publicar** (falta só a revisão final de um leitor, ver abaixo).
+- [x] alemão montado por script: `bash montagem/construir.sh` (os caminhos apontam para `~/.cache/claude-pedidos-0511/teoria-da-relatividade/`,
+  onde ficam os downloads; o original/ inteiro sai de lá). Detalhe em `original/LEIAME.md`.
+- [x] tradução completa: prefácio + adendo, partes I–III (§§ 1–32), apêndice; `CONVENCOES.md`, `obra.py`,
+  `revisao.json` (9 decisões), `edicoes/vocabulario/teoria-da-relatividade.json` (12 verbetes, `conferir` ok),
+  `conteudo/` gravado por `traducoes.py teoria-da-relatividade`; gerar + conferir sem erro.
+- [x] figuras: 5 SVG em `conteudo/img/teoria-da-relatividade/` (Fig. 1 em alemão e português, 2, 3, tubo de Fizeau).
+
+Para o principal:
+- **Gerador** (`ferramentas/site/gerar.mjs`): bloco `{fig pasta/nome}` vira `<figure class="figura"><img …>` e
+  `conteudo/img/` é copiado para `public/biblioteca/img/` (`img` entrou nos RESERVADOS); `divisao.marcas = false`
+  agora tira as marcas `{§ …}` também do original ao lado. CSS das figuras no fim de `ferramentas/site/estilo.css`
+  (invertidas no tema escuro). O `de` já estava em `LINGUAS`.
+- Autor novo `albert-einstein` no fim de `conteudo/autores.js` (resolver por união; conferir o «});»).
+- Gerar, PR, Catálogo `obras`, merge; `traducoes_revisao.py --revisao` para as 9 decisões; tirar dos pedidos.
+- Notas gerais: ficam para os lotes.

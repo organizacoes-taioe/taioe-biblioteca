@@ -6,3 +6,5 @@
 110/5: "verde-/mar" cai na quebra da linha; escrevi verde-mar (composto).
 116/27: impresso traz "corsuma" (por consuma); transcrito como está.
 124/8: impresso traz "sententrião" (por septentrião); transcrito como está.
+153/14: impresso traz "senvergonha" (por sem-vergonha); transcrito como está.
+155/1: impresso traz "consas" (por cousas); transcrito como está.

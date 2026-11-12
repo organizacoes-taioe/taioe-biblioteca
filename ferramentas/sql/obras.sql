@@ -1147,6 +1147,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('gregorio-de-matos/soneto-um-soneto-comeco-em-vosso-gabo', 'Um soneto começo em vosso gabo'),
   ('gustave-flaubert/un-coeur-simple', 'Un cœur simple'),
   ('gustavo-adolfo-becquer/rima-xxi', 'Rima XXI'),
+  ('herodoto/historias', 'Histórias'),
   ('horacio/exegi-monumentum', 'Exegi monumentum'),
   ('horacio/tu-ne-quaesieris', 'Tu ne quaesieris'),
   ('igreja-catolica/ad-beatissimi', 'Ad Beatissimi Apostolorum'),

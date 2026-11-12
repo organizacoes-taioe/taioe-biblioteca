@@ -1,0 +1,184 @@
+{
+ "id": "herodoto-historias",
+ "rotulo": "Histórias, livro I (Heródoto)",
+ "url": "/biblioteca/herodoto/historias/",
+ "escolhas": [
+  {
+   "id": "proemio",
+   "titulo": "A primeira frase: «Esta é a exposição da investigação de Heródoto de Halicarnasso»?",
+   "ref": "I 1.0",
+   "contexto": "O livro abre com Ἡροδότου Ἁλικαρνησσέος ἱστορίης ἀπόδεξις ἥδε: «de Heródoto de Halicarnasso, da investigação (ἱστορίη), a exposição é esta». ἱστορίη é a pesquisa, o inquérito de quem pergunta e vê; daí vem a nossa palavra «história». ἀπόδεξις é a apresentação pública.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Esta é a exposição da investigação de Heródoto de Halicarnasso», como está",
+     "nota": "Fiel às duas palavras-chave e à ordem do grego.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Heródoto de Halicarnasso apresenta aqui a sua investigação»",
+     "nota": "Mais leve, mesmo sentido; perde a forma de título."
+    },
+    {
+     "id": "c",
+     "texto": "«Esta é a exposição das histórias de Heródoto de Halicarnasso»",
+     "nota": "Liga a frase ao título da obra, mas «histórias» puxa para «narrativas»."
+    }
+   ]
+  },
+  {
+   "id": "pudor",
+   "titulo": "A frase de Giges: «A mulher, com a túnica que despe, despe também o pudor»?",
+   "ref": "I 8.3",
+   "contexto": "Giges recusa ver nua a rainha: ἅμα δὲ κιθῶνι ἐκδυομένῳ συνεκδύεται καὶ τὴν αἰδῶ γυνή, «junto com a túnica que se despe, a mulher despe também o pudor». A frase é célebre e tem o mesmo verbo nos dois lados.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«A mulher, com a túnica que despe, despe também o pudor», como está",
+     "nota": "Guarda o verbo repetido do grego.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Quando a mulher tira a roupa, tira com ela a vergonha»",
+     "nota": "Mais corrente; «vergonha» é mais vago que «pudor»."
+    }
+   ]
+  },
+  {
+   "id": "feliz",
+   "titulo": "Sólon a Creso: «feliz» (ὄλβιος) × «afortunado» (εὐτυχής)?",
+   "ref": "I 32.7 (e 30–34, 86)",
+   "contexto": "O centro da conversa: antes de morrer, ninguém deve ser chamado ὄλβιος, só εὐτυχής. ὄλβιος é a felicidade completa, que só o fim da vida confirma; εὐτυχής, quem teve boa sorte até aqui. A tradução usa «feliz» para ὄλβιος e εὐδαίμων e «afortunado» para εὐτυχής, em todo o livro: «não chamá-lo ainda feliz, mas afortunado».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«feliz» × «afortunado», como está",
+     "nota": "Palavras comuns; a oposição fica clara.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«bem-aventurado» × «feliz»",
+     "nota": "Mais solene, mas «bem-aventurado» puxa para o sentido cristão."
+    },
+    {
+     "id": "c",
+     "texto": "«feliz» × «de boa sorte»",
+     "nota": "Mais explícito no segundo termo, menos natural."
+    }
+   ]
+  },
+  {
+   "id": "invejosa",
+   "titulo": "Sólon: «a divindade é toda ela invejosa e perturbadora»?",
+   "ref": "I 32.1",
+   "contexto": "Sólon diz saber τὸ θεῖον πᾶν ἐὸν φθονερόν τε καὶ ταραχῶδες: o divino (não um deus nomeado) é inteiramente invejoso e dado a perturbar. É a ideia grega de que os deuses não toleram a grandeza humana.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«a divindade é toda ela invejosa e perturbadora», como está",
+     "nota": "Fiel; «a divindade» traduz τὸ θεῖον em todo o livro.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o divino é invejoso e gosta de perturbar»",
+     "nota": "Mais literal no neutro e mais vivo no segundo adjetivo."
+    },
+    {
+     "id": "c",
+     "texto": "«os deuses são invejosos e inquietos»",
+     "nota": "Mais fácil de ler, mas troca o neutro pelo plural."
+    }
+   ]
+  },
+  {
+   "id": "fim",
+   "titulo": "Sólon: «É preciso olhar o fim de todas as coisas, como vão acabar»?",
+   "ref": "I 32.9 (e 33.1)",
+   "contexto": "σκοπέειν δὲ χρὴ παντὸς χρήματος τὴν τελευτὴν κῇ ἀποβήσεται: «é preciso olhar, de toda coisa, o fim, de que modo vai sair». A frase virou provérbio («olha o fim»).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«É preciso olhar o fim de todas as coisas, como vão acabar», como está",
+     "nota": "Fiel, com o «como vão acabar» do grego.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Em tudo é preciso olhar o fim»",
+     "nota": "A forma proverbial, mais curta; perde a segunda metade."
+    }
+   ]
+  },
+  {
+   "id": "imperio",
+   "titulo": "O oráculo a Creso: «destruiria um grande império»?",
+   "ref": "I 53.3 (e 86.1, 91.4)",
+   "contexto": "A Pítia e Anfiarau respondem que, se Creso marchasse contra os persas, μεγάλην ἀρχήν μιν καταλύσειν: «destruiria um grande império». Creso entende o dos persas; era o dele. A mesma fórmula volta em 86 e 91.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«destruiria um grande império», como está",
+     "nota": "Forma tradicional e clara; ἀρχή é o poder, o domínio.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«poria fim a um grande império»",
+     "nota": "O mesmo sentido, um pouco mais próximo de καταλύειν («dissolver»)."
+    },
+    {
+     "id": "c",
+     "texto": "«derrubaria um grande reino»",
+     "nota": "«Reino» é mais concreto, mas ἀρχή não é só o reino."
+    }
+   ]
+  },
+  {
+   "id": "paz",
+   "titulo": "Creso a Ciro: «na paz, os filhos enterram os pais; na guerra, os pais enterram os filhos»?",
+   "ref": "I 87.4",
+   "contexto": "ἐν μὲν γὰρ τῇ οἱ παῖδες τοὺς πατέρας θάπτουσι, ἐν δὲ τῷ οἱ πατέρες τοὺς παῖδας: «numa os filhos enterram os pais, no outro os pais os filhos» (o grego só retoma «a paz» e «a guerra» com o artigo).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«na paz, os filhos enterram os pais; na guerra, os pais enterram os filhos», como está",
+     "nota": "Repete os nomes para a frase ficar clara; nada muda no sentido.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«numa, os filhos enterram os pais; na outra, os pais enterram os filhos»",
+     "nota": "Mais próximo do grego, mais difícil de seguir."
+    }
+   ]
+  },
+  {
+   "id": "licoes",
+   "titulo": "Creso a Ciro: «Os meus sofrimentos, que foram amargos, tornaram-se lições para mim»?",
+   "ref": "I 207.1",
+   "contexto": "τὰ δέ μοι παθήματα ἐόντα ἀχάριτα μαθήματα γέγονε: «os meus sofrimentos, sem graça (amargos), tornaram-se ensinamentos». O grego rima παθήματα / μαθήματα, jogo que não passa ao português.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Os meus sofrimentos, que foram amargos, tornaram-se lições para mim», como está",
+     "nota": "Fiel; o jogo de som se perde.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Das minhas dores, amargas como foram, tirei lições»",
+     "nota": "Mais solto, mesmo sentido."
+    },
+    {
+     "id": "c",
+     "texto": "«O que sofri, e foi amargo, me ensinou»",
+     "nota": "Mais curto; procura um pouco do eco entre «sofri» e «ensinou»."
+    }
+   ]
+  }
+ ]
+}

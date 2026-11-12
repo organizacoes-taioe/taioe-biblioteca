@@ -96,8 +96,8 @@ Candidatas a decisão:
   elas é que nos deixam» (o *vous* aí é o de todo mundo, não o do leitor).
 - «Spinosa» (assim no impresso) → «Espinosa», a forma portuguesa corrente; «Cabanis» como está.
 - Nota 1, o trecho em inglês do _New-York Spectator_: traduzido (decisão `ingles`); *court of common
-  pleas* → «tribunal de pleitos comuns». «Chester (État de New-York)», engano de Tocqueville (é na
-  Pensilvânia? há um condado de Chester em Nova York? não conferi), ficou como está.
+  pleas* → «tribunal de pleitos comuns». «Chester (État de New-York)» (o condado de Chester conhecido é
+  o da Pensilvânia, mas o jornal diz o mesmo) ficou como Tocqueville escreveu, sem nota.
 - Nota 3: «Louisiane» → «Luisiana»; «art 2» sem ponto, como no impresso.
 
 Candidatas a decisão:

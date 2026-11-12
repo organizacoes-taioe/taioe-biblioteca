@@ -80,3 +80,12 @@ Traduz-se o francês da 12ª edição (Pagnerre, 1848), que está ao lado. As de
 - I,2,9 (religião): «qui changent le siége de l'État tous les quatre ans» → «que trocam o chefe do
   Estado a cada quatro anos», pela emenda das _Œuvres complètes_ (1864–66), com o original ao lado
   como em 1848 (decisão `siege`).
+- Fixados na tradução (ver `traducao/notas-tradutor.md`): *hiérarchie des rangs* → hierarquia das
+  classes; *charte* → carta (*charte royale* → carta régia); *cautionnement / caution* → fiança /
+  fiador; *l'arbitraire* → o arbítrio; *idées arrêtées* → ideias assentadas; *libre arbitre* →
+  livre-arbítrio; *pouvoir tutélaire* → poder tutelar (tutores, tutela); *canton* (nos Estados Unidos)
+  → distrito; *prêtre* → sacerdote no geral, padre quando é o clero católico ou o americano.
+- Nomes: Spinosa → Espinosa; «Madisson» como no impresso; nomes de lugar na forma corrente no Brasil
+  (Nova York, Pensilvânia, Rhode Island); nomes estropiados das notas como no impresso.
+- II,4,6: «il aime que les citoyens se réjouissent, pourvu qu'ils ne songent qu'à se réjouir» →
+  «gosta de que os cidadãos se divirtam, contanto que só pensem em divertir-se».

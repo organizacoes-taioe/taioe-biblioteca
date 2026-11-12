@@ -38,7 +38,7 @@ def separar(l):
     """«H »/«N »/«¶ » + texto + TAB + recuo (px, 450 dpi) → (marca, texto, recuo)."""
     txt, _, rec = l.rpartition('\t')
     m = re.match(r'^(H |N |¶ )?(.*)$', txt, re.S)
-    return (m.group(1) or '').strip(), m.group(2), int(rec) if rec.isdigit() else 0
+    return (m.group(1) or '').strip(), re.sub(r'^¶ ', '', m.group(2)), int(rec) if rec.isdigit() else 0
 
 
 def frequencia(pags):
@@ -94,13 +94,18 @@ def main():
         sep = [separar(l) for l in linhas]
         corpo = sorted(r for m, t, r in sep if m not in ('H', 'N') and r)
         mediana = corpo[len(corpo) // 2] if corpo else 0
+        # nota de rodapé também pela numeração: a primeira linha de depois de 30% da página que começa por «N) »
+        n_ini = next((k for k, (m, t, r) in enumerate(sep) if m != 'H' and k >= 0.3 * len(sep) and
+                      re.match(r'^\s*\(?\d{1,3}\)\s*\S', re.sub(r'⟦([^|⟧]*)[^⟧]*⟧', r'\1', t))), None)
         for k, (marca, txt, rec) in enumerate(sep):
+            if n_ini is not None and k >= n_ini and marca != 'H' and not re.match(r'^\(?(Da|De|Desta|Deste)\b.{0,50}(15\d\d|Bahia\.\))', txt):
+                continue
             if marca == 'H':
                 if len(txt) > 45 and not re.search(r'NOBREGA|NÓBREGA|BRASIL|CARTAS', txt):
                     cab.append((p, txt))
                 continue
-            if marca == 'N':
-                continue
+            if marca == 'N' and not re.match(r'^\(?(Da|De|Desta|Deste)\b.{0,50}(15\d\d|Bahia\.\))', txt):
+                continue            # (a data e o lugar do fim da carta, que o tamanho da letra confunde com nota, ficam)
             ini = '¶ ' if rec > mediana + 45 else ''
             saida.append(ini + resolver(txt, f, duv, (p, k + 1)))
         open(os.path.join(AQUI, '1886', f'{p}.txt'), 'w', encoding='utf-8').write('\n'.join(saida) + '\n')

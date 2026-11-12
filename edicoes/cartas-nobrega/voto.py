@@ -104,10 +104,19 @@ def pagina(n):
     # «pequenas» (≤ 0,93 da mediana das linhas da página) que começa depois de 40% das linhas
     if medh:
         med = sorted(medh)[len(medh) // 2]
-        peq = [h <= 0.94 * med for h in medh]
-        for k in range(int(len(medh) * 0.35), len(medh)):
+        peq = [h <= 55.5 for h in medh]   # altura absoluta (450 dpi): corpo ~59, notas ~52
+        if sum(peq) >= 0.8 * len(peq) and len(peq) > 10:
+            nota = 1
+        for k in range(1, len(medh)) if nota is None else []:
             resto = peq[k:]
-            if peq[k] and len(resto) >= 2 and sum(resto) >= 0.75 * len(resto) and peq[k + 1] and peq[-1]:
+            if peq[k] and sum(resto) >= 0.75 * len(resto) and (k + 1 < len(peq) and peq[k + 1]):
+                nota = k
+                break
+    # vão grande (a linha da nota) seguido de linhas mostly pequenas
+    if medh:
+        for k in range(4, len(medh)):
+            resto = peq[k:]
+            if tops[k] - tops[k - 1] > 125 and len(resto) >= 3 and sum(resto) >= 0.5 * len(resto) and (nota is None or k < nota):
                 nota = k
                 break
     for i, (k, w, p) in enumerate(a):

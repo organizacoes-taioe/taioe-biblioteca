@@ -79,6 +79,25 @@ def sem_acento(s):
 
 # ------------------------------------------------------------------ leitura da transcrição de 1897
 
+_CONF = None
+
+
+def conferencia():
+    """conferencia.json: as linhas conferidas nas imagens (ver BRIEF em FALTA.md): {p, k, linha | apagar | depois_de}."""
+    global _CONF
+    if _CONF is None:
+        subst, ins = {}, collections.defaultdict(list)
+        for i in json.load(open(os.path.join(AQUI, 'conferencia.json'), encoding='utf-8')):
+            if 'depois_de' in i:
+                ins[(i['p'], i['depois_de'])].append(i['linha'])
+            elif i.get('apagar'):
+                subst[(i['p'], i['k'])] = None
+            elif i.get('linha') is not None:
+                subst[(i['p'], i['k'])] = i['linha']
+        _CONF = (subst, ins)
+    return _CONF
+
+
 def linhas_carta(c):
     """(página, linha, texto) do corpo de uma carta (de `cartas.CARTAS`): da linha inicial à final, sem o
     cabeçalho corrente, as notas de Valle Cabral e o sumário (que a máscara do PDF perde em parte)."""
@@ -91,8 +110,17 @@ def linhas_carta(c):
                     dentro = True
                 else:
                     continue
-            if l.strip():
+            subst, ins = conferencia()
+            if (p, k) in subst:
+                novo = subst[(p, k)]
+                if novo is not None:
+                    l = ('¶ ' if l.startswith('¶ ') else '') + novo
+                else:
+                    l = ''
+            if l.strip() and not any(p == a and b <= k <= z for a, b, z in D.LINHAS_FORA):
                 out.append((p, k, nfc(l.rstrip())))
+            for extra in ins.get((p, k), []):
+                out.append((p, k, nfc(extra)))
             if p == c['p1'] and re.search(c['fim'], re.sub(r'^¶ ', '', l)):
                 return out
     raise ValueError(('fim não achado', c['n']))

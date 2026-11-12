@@ -25,6 +25,9 @@ EMENDAS = []
 # abreviaturas e números (regex sobre o texto de 1886)
 PRE = []
 
+# linhas do fac-símile que são nota de rodapé de Valle Cabral que a detecção automática deixou passar: (página, de, até)
+LINHAS_FORA = [(148, 34, 35)]
+
 # trechos em latim: em itálico e sem mudança de grafia
 LATIM = []
 

@@ -64,3 +64,10 @@
   o cheiro de uma tartaruga de couraça forte».
 - 53.3, «destruiria um grande império» (καταλύσειν: «dissolver, pôr fim»), a fórmula do engano de Creso, repetida em
   86.1 e 91.4. Alternativa: «poria fim a um grande império».
+
+## Revisão contra o grego
+
+Correção:
+- 57.2: «pelasgos que fundaram Plácia e Cílace» → «que se estabeleceram em Plácia e Cílace»: οἰκησάντων é «habitaram, estabeleceram-se», o grego não diz «fundaram».
+
+Conferidos sem erro: números e pesos das oferendas (50.2–3, 51.2), os dois oráculos em verso (mesmo número de linhas), a genealogia dos povos em 56.3. Dúvidas: nenhuma.

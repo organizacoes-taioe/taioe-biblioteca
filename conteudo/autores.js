@@ -136,6 +136,26 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-cipriano',
+  area: 'catolicismo',
+  nome: 'São Cipriano',
+  nomeCompleto: 'Táscio Cecílio Cipriano (Thascius Caecilius Cyprianus)',
+  vida: '~200–258',
+  ordem: 'Cipriano, São',
+  nota: 'Bispo de Cartago, mártir na perseguição de Valeriano. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
+  id: 'sao-patricio',
+  area: 'catolicismo',
+  nome: 'São Patrício',
+  nomeCompleto: 'Patrício (Patricius)',
+  vida: '~390–~461',
+  ordem: 'Patrício, São',
+  nota: 'Bispo e apóstolo da Irlanda, nascido na Britânia romana e levado cativo para a Irlanda na juventude. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
   id: 'sao-gregorio-magno',
   area: 'catolicismo',
   nome: 'São Gregório Magno',
@@ -891,4 +911,14 @@ BIBLIOTECA.autor({
   ordem: 'Einstein, Albert',
   area: 'nao-ficcao',
   nota: 'Físico alemão, autor da teoria da relatividade especial (1905) e da geral (1915); Prêmio Nobel de Física de 1921.'
+});
+
+BIBLIOTECA.autor({
+  id: 'alexis-de-tocqueville',
+  nome: 'Alexis de Tocqueville',
+  nomeCompleto: 'Alexis-Charles-Henri Clérel de Tocqueville',
+  vida: '1805–1859',
+  ordem: 'Tocqueville, Alexis de',
+  area: 'nao-ficcao',
+  nota: 'Pensador político e historiador francês, autor de A democracia na América e de O Antigo Regime e a Revolução.'
 });

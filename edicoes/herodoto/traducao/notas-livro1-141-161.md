@@ -48,3 +48,7 @@
 - 155.4, o conselho de Creso: «os verás transformados de homens em mulheres» (γυναῖκας ἀντ’ ἀνδρῶν… γεγονότας), frase
   conhecida; alternativa: «verás que, de homens, viraram mulheres».
 - 146.1/152.1: fixar «fócios» (Fócida) × «foceenses» (Foceia) para toda a obra.
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos as cidades jônias e eólias, as quatro falas jônicas, o oráculo dos Bránquidas e o caso de Aristódico, a entrega de Pactias, os nomes de Hárpago/Mazares/Tábalo/Pactias). Dúvidas: nenhuma.

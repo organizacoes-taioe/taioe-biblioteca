@@ -842,16 +842,6 @@
    "capitulo": 4
   },
   {
-   "lema": "fato",
-   "formas": [
-    "fato"
-   ],
-   "classe": "substantivo masculino",
-   "def": "roupa e bagagem de uso pessoal",
-   "exemplo": "ta tranquilidade.  Vou entretanto referir um fato, que por si mesmo julgarás se mais digno de dor do que ",
-   "capitulo": 4
-  },
-  {
    "lema": "escarnecer",
    "formas": [
     "escarnecerás",
@@ -1766,7 +1756,11 @@
    "classe": "verbo",
    "def": "recuperar (a saúde)",
    "exemplo": "a diligência, o que fazemos a todos, até que cobrem a saúde? Aquele com a dor das chagas prometia de rece",
-   "capitulo": 5
+   "capitulo": 5,
+   "so_capitulos": [
+    5,
+    8
+   ]
   },
   {
    "lema": "mister",
@@ -3117,7 +3111,10 @@
    "classe": "substantivo masculino",
    "def": "quem recebe alguém em casa, o anfitrião",
    "exemplo": "utros, não estando em casa mais que só nosso hóspede, com cara alegre e grandíssima dissimulação nos come",
-   "capitulo": 7
+   "capitulo": 7,
+   "so_capitulos": [
+    7
+   ]
   },
   {
    "lema": "trago",
@@ -3576,7 +3573,9 @@
   {
    "lema": "despojar",
    "formas": [
-    "despojar"
+    "despojar",
+    "despojos",
+    "despojando"
    ],
    "classe": "verbo",
    "def": "roubar, tirar tudo de",
@@ -4763,6 +4762,219 @@
    "classe": "adjetivo",
    "def": "ciumento",
    "exemplo": "o, seu verdadeiro esposo e marido muito mais cioso de sua honra do que seu marido; todas as vezes que mov",
+   "capitulo": 13
+  },
+  {
+   "lema": "alumiar",
+   "formas": [
+    "alumiado"
+   ],
+   "classe": "verbo",
+   "def": "iluminar",
+   "exemplo": " d'alma todo cheio de sabedoria celestial, e alumiado com o resplendor da fé, entra na cidade de Damasco,",
+   "capitulo": 13
+  },
+  {
+   "lema": "apascentar",
+   "formas": [
+    "apascentando"
+   ],
+   "classe": "verbo",
+   "def": "levar ao pasto, cuidar do rebanho",
+   "exemplo": " da sua conversão, anda a repartir manjares, apascentando as ovelhas de Cristo como pastor da palavra div",
+   "capitulo": 13
+  },
+  {
+   "lema": "estremado",
+   "formas": [
+    "estremada",
+    "estremadas"
+   ],
+   "classe": "adjetivo",
+   "def": "extremo, excelente",
+   "exemplo": "uer que ele trazia diante dos olhos d'alma a estremada humildade de Cristo, seu pai e senhor, de quem diz",
+   "capitulo": 13
+  },
+  {
+   "lema": "monturo",
+   "formas": [
+    "monturo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "monte de lixo e esterco",
+   "exemplo": "nhos é andar nos monturos, fazia-se S. Paulo monturo e esterco do mundo, não somente tendo-se por um mont",
+   "capitulo": 13
+  },
+  {
+   "lema": "abortivo",
+   "formas": [
+    "abortivo"
+   ],
+   "classe": "adjetivo",
+   "def": "nascido antes do tempo",
+   "exemplo": "rande dor e trabalho da sua mãe quel e quase abortivo e movido, e ela em nascendo lhe chamou Bennomim, qu",
+   "capitulo": 13
+  },
+  {
+   "lema": "lavrar",
+   "formas": [
+    "lavram",
+    "lavrado"
+   ],
+   "classe": "verbo",
+   "def": "trabalhar, esculpir ou moldar um material",
+   "exemplo": " est mihi iste , vaso escolhido, vaso d'ouro lavrado com muitas pedras preciosas de virtudes, vaso tão pu",
+   "capitulo": 13
+  },
+  {
+   "lema": "perenal",
+   "formas": [
+    "perenal"
+   ],
+   "classe": "adjetivo",
+   "def": "que não acaba, perene",
+   "exemplo": " como é verdade, que Deus é uma fonte viva e perenal de misericórdia e justiça, que é impossível esgotar-",
+   "capitulo": 13
+  },
+  {
+   "lema": "oleiro",
+   "formas": [
+    "oleiro"
+   ],
+   "classe": "substantivo masculino",
+   "def": "quem fabrica vasos e peças de barro",
+   "exemplo": "guli . São vasos de barro, obras das mãos do oleiro infernal; enquanto são homens, verdade é, que são obr",
+   "capitulo": 13
+  },
+  {
+   "lema": "pregão",
+   "formas": [
+    "pregão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "proclamação em voz alta",
+   "exemplo": "dos à perpétua desonra do inferno.  Este é o pregão, que Jeremias dá ao pecador. Quereis ainda ouvir outr",
+   "capitulo": 13
+  },
+  {
+   "lema": "mexericar",
+   "formas": [
+    "mexericando-o"
+   ],
+   "classe": "verbo",
+   "def": "fazer fofoca, intrigar",
+   "exemplo": "eu bem e folgando com seu mal, infamando-o e mexericando-o, e fazendo que os outros também o roam.  Vasa ",
+   "capitulo": 13
+  },
+  {
+   "lema": "pertinácia",
+   "formas": [
+    "pertinácia"
+   ],
+   "classe": "substantivo feminino",
+   "def": "teimosia, obstinação",
+   "exemplo": "o é e será de Deus seu furor e ira, pois com pertinácia e sem razão perseguem a seu próximo; e o castigo ",
+   "capitulo": 13
+  },
+  {
+   "lema": "quinhão",
+   "formas": [
+    "quinhão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "parte que cabe a cada um",
+   "exemplo": "dos de Cristo, verdadeiro Jacob, e não terão quinhão na glória com os filhos de Israel, mas serão espalha",
+   "capitulo": 13
+  },
+  {
+   "lema": "enxovalhar",
+   "formas": [
+    "enxovalhado"
+   ],
+   "classe": "verbo",
+   "def": "sujar, desonrar",
+   "exemplo": " sujidade posto no caminho para ser sujado e enxovalhado de todos os que passam, e a alma de um luxurioso",
+   "capitulo": 13
+  },
+  {
+   "lema": "borra",
+   "formas": [
+    "borra"
+   ],
+   "classe": "substantivo feminino",
+   "def": "resíduo grosso que fica no fundo de um líquido",
+   "exemplo": "peras senão seres feito vaso de ira cheio de borra? E porque assim como por um vaso fendido ainda que se ",
+   "capitulo": 13
+  },
+  {
+   "lema": "adelgaçar",
+   "formas": [
+    "adelgaçar"
+   ],
+   "classe": "verbo",
+   "def": "tornar fino, afinar",
+   "exemplo": "iz David; a borra da ira de Deus não se pode adelgaçar nem coar; e sabes por quê? Porque não se coa a de ",
+   "capitulo": 13
+  },
+  {
+   "lema": "entesourar",
+   "formas": [
+    "entesouras"
+   ],
+   "classe": "verbo",
+   "def": "juntar como tesouro, acumular",
+   "exemplo": "or quê? Porque não se coa a de teus pecados; entesouras a borra de pecados, também  thesaurisas tibi iram",
+   "capitulo": 13
+  },
+  {
+   "lema": "degradado",
+   "formas": [
+    "degradado",
+    "degradados"
+   ],
+   "classe": "adjetivo",
+   "def": "desterrado, exilado",
+   "exemplo": "ram inquiris , lembrando-te que és hóspede e degradado neste mundo, e que no céu está tua própria naturez",
+   "capitulo": 13
+  },
+  {
+   "lema": "mexerico",
+   "formas": [
+    "mexericos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "fofoca, intriga",
+   "exemplo": "s desonestos nem orelhas aparelhadas a ouvir mexericos, nem língua maldizente, nem mãos que obram maldade",
+   "capitulo": 13
+  },
+  {
+   "lema": "hidrópico",
+   "formas": [
+    "hidrópico"
+   ],
+   "classe": "adjetivo",
+   "def": "inchado de água, doente de hidropisia",
+   "exemplo": " nostros ipse tulit , fez-se pobre, faminto, hidrópico, leproso e paralítico. Estávamos degradados do par",
+   "capitulo": 13
+  },
+  {
+   "lema": "degredo",
+   "formas": [
+    "degredo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "exílio, desterro",
+   "exemplo": "pecado; era necessário para remédio de nosso degredo, que tomasse também esta pena sobre si.  Desterra-se",
+   "capitulo": 13
+  },
+  {
+   "lema": "afeado",
+   "formas": [
+    "afeado"
+   ],
+   "classe": "adjetivo",
+   "def": "tornado feio, deformado",
+   "exemplo": "m in quem desiderant angeli prospicere , tão afeado que  non est ei aspectus neque decor , e parecia um l",
    "capitulo": 13
   }
  ]

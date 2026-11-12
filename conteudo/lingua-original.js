@@ -294,6 +294,15 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
+  autor: "gustave-flaubert",
+  arquivo: "conteudo/gustave-flaubert/lingua-original.js",
+  livros: [{"id": "trois-contes", "titulo": "Trois Contes", "ano": 1877}],
+  poemas: [
+    {"id":"gustave-flaubert-un-coeur-simple","titulo":"Un cœur simple","forma":"outras","livro":0,"ordem":0,"versos":646,"lingua":"fr","ano":1877,"glossario":true,"genero":"Contos","prosa":true,"partes":[{"titulo":"I"},{"titulo":"II"},{"titulo":"III"},{"titulo":"IV"},{"titulo":"V"}]}
+  ]
+});
+
+BIBLIOTECA.poemas({
   autor: "giosue-carducci",
   arquivo: "conteudo/giosue-carducci/lingua-original.js",
   livros: [{"id": "rime-nuove", "titulo": "Rime nuove", "ano": 1887}, {"id": "rime-nuove", "titulo": "Rime nuove", "ano": 1887}],

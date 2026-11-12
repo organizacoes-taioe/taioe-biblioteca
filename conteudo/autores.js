@@ -532,6 +532,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'john-milton',
+  nome: 'John Milton',
+  nomeCompleto: 'John Milton',
+  vida: '1608–1674',
+  lingua: 'en',
+  nota: 'Poeta inglês, autor de _Paraíso Perdido_ e de _Paraíso Reconquistado_.'
+});
+
+BIBLIOTECA.autor({
   id: 'john-keats',
   nome: 'John Keats',
   nomeCompleto: 'John Keats',
@@ -724,6 +733,36 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'joaquim-nabuco',
+  nome: 'Joaquim Nabuco',
+  nomeCompleto: 'Joaquim Aurélio Barreto Nabuco de Araújo',
+  vida: '1849–1910',
+  ordem: 'Nabuco, Joaquim',
+  area: 'nao-ficcao',
+  nota: 'Político, diplomata e escritor pernambucano; líder do movimento abolicionista e fundador da Academia Brasileira de Letras.'
+});
+
+BIBLIOTECA.autor({
+  id: 'pero-rodrigues',
+  nome: 'Pero Rodrigues',
+  nomeCompleto: 'Pero Rodrigues',
+  vida: '1542–1628',
+  ordem: 'Rodrigues, Pero',
+  area: 'nao-ficcao',
+  nota: 'Jesuíta português, nascido em Évora, provincial da Companhia de Jesus no Brasil e primeiro biógrafo de José de Anchieta.'
+});
+
+BIBLIOTECA.autor({
+  id: 'plutarco',
+  nome: 'Plutarco',
+  nomeCompleto: 'Plutarco de Queroneia',
+  vida: '~46–~120',
+  ordem: 'Plutarco',
+  area: 'nao-ficcao',
+  nota: 'Escritor grego da Beócia, sacerdote de Apolo em Delfos, autor das Vidas paralelas de gregos e romanos.'
+});
+
+BIBLIOTECA.autor({
   id: 'seneca',
   nome: 'Sêneca',
   nomeCompleto: 'Lúcio Aneu Sêneca',
@@ -731,6 +770,36 @@ BIBLIOTECA.autor({
   ordem: 'Sêneca',
   area: 'nao-ficcao',
   nota: 'Filósofo estoico romano, nascido em Córdova, preceptor e conselheiro de Nero.'
+});
+
+BIBLIOTECA.autor({
+  id: 'liev-tolstoi',
+  nome: 'Liev Tolstói',
+  nomeCompleto: 'Liev Nikoláievitch Tolstói',
+  vida: '1828–1910',
+  ordem: 'Tolstói, Liev',
+  area: 'nao-ficcao',
+  nota: 'Romancista russo, autor de Guerra e paz e Anna Kariênina; na maturidade, escritor religioso e moralista.'
+});
+
+BIBLIOTECA.autor({
+  id: 'frederick-douglass',
+  nome: 'Frederick Douglass',
+  nomeCompleto: 'Frederick Douglass',
+  vida: '~1818–1895',
+  ordem: 'Douglass, Frederick',
+  area: 'nao-ficcao',
+  nota: 'Nascido escravo em Maryland, com o nome de Frederick Augustus Washington Bailey, fugiu em 1838 e tornou-se o maior orador do abolicionismo americano.'
+});
+
+BIBLIOTECA.autor({
+  id: 'benjamin-franklin',
+  nome: 'Benjamin Franklin',
+  nomeCompleto: 'Benjamin Franklin',
+  vida: '1706–1790',
+  ordem: 'Franklin, Benjamin',
+  area: 'nao-ficcao',
+  nota: 'Tipógrafo, cientista e político de Filadélfia, um dos fundadores dos Estados Unidos.'
 });
 
 BIBLIOTECA.autor({
@@ -767,4 +836,40 @@ BIBLIOTECA.autor({
   vida: '1821–1880',
   lingua: 'fr',
   nota: 'Romancista francês de Rouen, autor de _Madame Bovary_, de _A Educação Sentimental_ e dos _Três Contos_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'giacomo-leopardi',
+  nome: 'Giacomo Leopardi',
+  nomeCompleto: 'Giacomo Taldegardo Francesco di Sales Saverio Pietro Leopardi',
+  vida: '1798–1837',
+  lingua: 'it',
+  nota: 'Poeta e pensador italiano de Recanati, autor dos Canti e das Operette morali.'
+});
+
+BIBLIOTECA.autor({
+  id: 'giosue-carducci',
+  nome: 'Giosuè Carducci',
+  nomeCompleto: 'Giosuè Alessandro Giuseppe Carducci',
+  vida: '1835–1907',
+  lingua: 'it',
+  nota: 'Poeta e professor italiano da Toscana, Prêmio Nobel de Literatura de 1906.'
+});
+
+BIBLIOTECA.autor({
+  id: 'giovanni-pascoli',
+  nome: 'Giovanni Pascoli',
+  nomeCompleto: 'Giovanni Placido Agostino Pascoli',
+  vida: '1855–1912',
+  lingua: 'it',
+  nota: 'Poeta italiano da Romanha, autor de Myricae e dos Canti di Castelvecchio.'
+});
+
+BIBLIOTECA.autor({
+  id: 'carlo-collodi',
+  nome: 'Carlo Collodi',
+  nomeCompleto: 'Carlo Lorenzini',
+  vida: '1826–1890',
+  lingua: 'it',
+  nota: 'Escritor e jornalista florentino, autor de As aventuras de Pinóquio.'
 });

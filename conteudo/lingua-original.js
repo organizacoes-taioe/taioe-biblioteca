@@ -48,6 +48,15 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
+  autor: "john-milton",
+  arquivo: "conteudo/john-milton/lingua-original.js",
+  livros: [{"id": "paradise-lost", "titulo": "Paradise Lost", "ano": 1674}],
+  poemas: [
+    {"id":"john-milton-paradise-lost-i","titulo":"Book I","forma":"outras","livro":0,"ordem":0,"versos":799,"lingua":"en","ano":1674,"glossario":true,"pt":{"tradutor":"António José de Lima Leitão","titulo":"O Paraíso Perdido, Canto I","ano":1840}}
+  ]
+});
+
+BIBLIOTECA.poemas({
   autor: "john-keats",
   arquivo: "conteudo/john-keats/lingua-original.js",
   livros: [{"id": "lamia-isabella-the-eve-of-st-agnes-and-other-poems", "titulo": "Lamia, Isabella, The Eve of St. Agnes, and Other Poems", "ano": 1820}],
@@ -281,5 +290,42 @@ BIBLIOTECA.poemas({
     {"id":"jean-de-la-fontaine-le-lievre-et-la-tortue","titulo":"Le Lièvre et la Tortue","forma":"apologos","livro":9,"ordem":9,"versos":35,"lingua":"fr","ano":1668,"glossario":true,"n":"VI, 10"},
     {"id":"jean-de-la-fontaine-les-animaux-malades-de-la-peste","titulo":"Les Animaux malades de la peste","forma":"apologos","livro":10,"ordem":10,"versos":64,"lingua":"fr","ano":1678,"glossario":true,"n":"VII, 1","pt":{"tradutor":"Machado de Assis","titulo":"Os animais iscados da peste","ano":1886}},
     {"id":"jean-de-la-fontaine-la-laitiere-et-le-pot-au-lait","titulo":"La Laitière et le Pot au lait","forma":"apologos","livro":11,"ordem":11,"versos":43,"lingua":"fr","ano":1678,"glossario":true,"n":"VII, 9"}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "giosue-carducci",
+  arquivo: "conteudo/giosue-carducci/lingua-original.js",
+  livros: [{"id": "rime-nuove", "titulo": "Rime nuove", "ano": 1887}, {"id": "rime-nuove", "titulo": "Rime nuove", "ano": 1887}],
+  poemas: [
+    {"id":"giosue-carducci-pianto-antico","titulo":"Pianto antico","forma":"outras","livro":0,"ordem":0,"versos":16,"lingua":"it","ano":1871,"glossario":true},
+    {"id":"giosue-carducci-san-martino","titulo":"San Martino","forma":"outras","livro":1,"ordem":1,"versos":16,"lingua":"it","ano":1883,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "giovanni-pascoli",
+  arquivo: "conteudo/giovanni-pascoli/lingua-original.js",
+  livros: [{"id": "myricae", "titulo": "Myricae", "ano": 1891}],
+  poemas: [
+    {"id":"giovanni-pascoli-novembre","titulo":"Novembre","forma":"outras","livro":0,"ordem":0,"versos":12,"lingua":"it","ano":1891,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "giacomo-leopardi",
+  arquivo: "conteudo/giacomo-leopardi/lingua-original.js",
+  livros: [{"id": "canti", "titulo": "Canti", "ano": 1831}],
+  poemas: [
+    {"id":"giacomo-leopardi-l-infinito","titulo":"L’infinito","forma":"outras","livro":0,"ordem":0,"versos":15,"lingua":"it","ano":1819,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "carlo-collodi",
+  arquivo: "conteudo/carlo-collodi/lingua-original.js",
+  livros: [{"id": "le-avventure-di-pinocchio-storia-di-un-burattino", "titulo": "Le avventure di Pinocchio. Storia di un burattino", "ano": 1883}],
+  poemas: [
+    {"id":"carlo-collodi-pinocchio","titulo":"Capitolo I","forma":"outras","livro":0,"ordem":0,"versos":27,"lingua":"it","ano":1883,"glossario":true,"subtitulo":"Come andò che maestro Ciliegia, falegname, trovò un pezzo di legno che piangeva e rideva come un bambino","genero":"Romance","prosa":true}
   ]
 });

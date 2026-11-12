@@ -87,6 +87,29 @@ def linhas_peca(peca):
         for k, l in enumerate(open(os.path.join(AQUI, '1933', f'{f}.txt'), encoding='utf-8').read().splitlines(), 1):
             if l.strip():
                 out.append((f, k, nfc(l.rstrip())))
+    return hifens_perdidos(out)
+
+
+def hifens_perdidos(out):
+    """A leitura às vezes perde o hífen do fim da linha («al» / «deia»): junta as duas metades quando juntas
+    fazem palavra e uma delas, sozinha, não faz."""
+    import lexico
+    lex, lexsa, _ = lexico._carregar()
+
+    def boa(w):
+        lw = w.lower()
+        return lw in lex or lw in lexico.ANTIGAS or lexico.sem_acento(lw) in lexsa
+    for i in range(len(out) - 1):
+        f, k, l = out[i]
+        a = re.search(r'([A-Za-zÀ-ÿ]+)$', l)
+        b = re.match(r'^(?:¶ )?([a-zà-ÿ]+)', out[i + 1][2])
+        if not a or not b or out[i + 1][2].startswith('¶ '):
+            continue
+        a, b = a.group(1), b.group(1)
+        if a[:1].isupper() and len(a) > 1 and a[1:2].islower() and not boa(a + b):
+            continue
+        if (not boa(a) or not boa(b)) and boa(a + b):
+            out[i] = (f, k, l + '-')
     return out
 
 

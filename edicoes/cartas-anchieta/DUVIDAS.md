@@ -52,3 +52,6 @@
 - 44, 2+ (pranchas7): começo da linha cortado no recorte (antes de «“Acabarei»); a linha inteira não é legível; a linha seguinte do impresso termina em «…s, nascidos de pais cristãos! Quem na» (a transcrição tem «E são des nascidos…», garbled).
 - 44, 25+ (pranchas7): «torno, porém, ao proposito.» vem depois de «…passagem:» (linha 28), não depois de «de todo êste tão pernicioso contagio» (linha 26).
 - (pranchas7, observações, sem linha gravada) transcrição 1933: 218 linha 6 «vão lho consentiu» (impresso: «não lho»); 290 linhas 4–5 «in codem» ×2 (impresso quase certamente «in eodem»); 315 linha 18 começa com «40 engenhos (407)» (impresso: «engenhos (407)»); cedilha perdida em 39 «crianca», 40 «espacosas», 43 «graca», 330 «cabeca».
+- 510, linhas 17–18: a transcrição tem «¶ Se somos guerreiros… militia est vita» duplicada (linha 17 curta + linha 18 completa); apagar a 17.
+- (pranchas7, itálico omitido na transcrição, sem linha gravada) 514 linha 4: «et vicit leo de tribu Juda, radix David,» deve ir em _itálico_; 517 linha 1: «et» no fim da linha está em itálico no impresso (_et_ / _dissimulat…_).
+- (pranchas7, itálico omitido na transcrição) 521 linha 11: «in mentis excessu» em itálico no impresso; 528 linha 8 e 13: «Ingredere civitatem» em itálico no impresso.

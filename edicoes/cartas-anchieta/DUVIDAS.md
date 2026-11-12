@@ -20,3 +20,7 @@
 235/9: 'locustœ' (œ ou æ? lido œ no recorte).
 236/37: impresso 'faza' (por fazia/fazer).
 248/3-4 e 248/35, 249/0: palavras partidas (der-/radeiro; France-/ses) postas inteiras no fim da linha de cima; a linha de baixo começa depois delas (o texto atual não seguia a cobertura).
+265/3: a linha anterior (265/2) termina em 'se' sem 'po-'; escrevi 'poderão' no começo de 265/3 (po-/derão). 289/5 'merciono' (por mencionam?), 289/4 'omnimo': como impresso.
+290/3-4: impresso 'codem' (por eodem), nas duas ocorrências.
+300/15-16: impresso 'tra-/se começaram' (trase) e 'prin-/dencia' (prindencia); transcritos como estão.
+302/34: número de página (305) colado a 'fa'; escrevi 'fa-' (a linha seguinte começa em 'vorecerá'). 302/9: '30 leguas' (texto atual dizia 20; lido 30 no recorte).

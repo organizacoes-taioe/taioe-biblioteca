@@ -39,3 +39,4 @@
 519/35: número de página (526) colado a 'mo'; escrevi 'mo-' (520/0 começa em 'ves'). 519/21-22: 'fratribus' inteira na 21 (fra-/tribus).
 520/31: impresso 'oprteat' (por oportet/oporteat); 521/2: 'nomem' como impresso; 'sponsa' em romano no impresso.
 522/1: texto atual não trazia 'Deus' (impresso: 'Igreja:Deus,' colado, 'Deus' em itálico; escrevi 'Igreja: _Deus_,').
+523/3: 'Ben-' no fim da linha (523/4 começa em 'nomim'; impresso Ben-/nomim).

@@ -10,23 +10,124 @@ JUNTAR = set()
 ABREVIATURAS = {'s', 'd', 'n', 'v', 'cap', 'etc', 'sr', 'dr', 'fl', 'p', 'pe', 'r'}
 
 # erros evidentes do impresso de 1933, corrigidos: (peça, de, para, comentário); vão na «Sobre»
-ERROS = []
-# erros miúdos de composição, corrigidos sem lista: (peça, de, para)
-COMPOSICAO = []
+ERROS = [
+    ('II', 'ut semprer or etis pro', 'ut semper oretis pro', ''),
+    ('II', 'et nutuerunt', 'et nutrierunt', ''),
+    ('X', 'até que corsuma a árvore', 'até que consuma a árvore', ''),
+    ('XI', 'onde har muitos', 'onde ha muitos', ''),
+    ('XIV', 'tanta pressa qse não', 'tanta pressa que se não', ''),
+    ('XV', 'nos rescostavamos a dormir', 'nos recostavamos a dormir', ''),
+    ('XV', 'que não house medo', 'que não houvesse medo', ''),
+    ('XV', 'não faza senão gritar', 'não fazia senão gritar', ''),
+    ('XXVII', 'nem os merciono', 'nem os menciono', ''),
+    ('XXIX', 'e trase começaram de edificar igrejas entre os Indios e se deu prindencia, como conservou',
+     'e trabalhou muito de conservar a paz com os Indios com muita prudencia, como conservou',
+     'linha trocada na composição; texto pela edição de Capistrano de Abreu (1886)'),
+    ('XXIX', 'mais que Jouvar', 'mais de louvar', 'pela edição de 1886'),
+    ('XXXVIII', 'grande mutidão de almas', 'grande multidão de almas', ''),
+]
+# erros miúdos de composição e de leitura, corrigidos sem lista: (peça, de, para)
+COMPOSICAO = [
+    ('XI', 'pronunciei ciei', 'pronunciei'),
+    ('XIV', 'Pouço tempo', 'Pouco tempo'),
+    ('XIV', 'Piratiuinga', 'Piratininga'),
+    ('XV', 'que Jébres', 'que lebres'),
+    ('XV', 'Tperuig', 'Iperuig'),
+    ('XV', 'Beriguioca', 'Beriquioca'),
+    ('XV', 'Venhovos a dar', 'Venho-vos a dar'),
+    ('XXIX', 'Indios Jivres', 'Indios livres'),
+    ('XXIX', 'Compauhia', 'Companhia'),
+    ('XXIX', 'Biscairho', 'Biscainho'),
+    ('XVI', 'Cabo-Prio', 'Cabo-Frio'),
+    ('XV', 'Fadre', 'Padre'),
+    ('XI', 'Tugares', 'lugares'),
+    ('XXIX', "morreu'se confessou", 'morreu se confessou'),
+    ('XXIX', '_initium sapientiœ timor Domini_ est', '_initium sapientiœ timor Domini est_'),
+    ('XXXVIII', 'Bt sua serva', 'Et sua serva'),
+    ('XXXVIII', 'Vêdeme', 'Vêde-me'),
+    ('XV', 'Respondendolhe', 'Respondendo-lhe'),
+    ('XXXIII', 'parentecco', 'parentesco'),
+]
 EMENDAS = []
 
 # regex sobre o texto de 1933, antes da grafia
 PRE = [
-    (r"\bE' ", 'É '),
+    (r"\b([EA])['’]s\b", lambda m: {'E': 'És', 'A': 'Às'}[m.group(1)]),
+    (r"\bE['’] ", 'É '),
+    (r"\bA['’] ", 'À '),
     (r'(\d)\.([ºª])', r'\1\2'),
+    (r'\bE[º°] ', 'É '),
 ]
 
-# trechos em latim (ou castelhano) citados: itálico e sem mudança de grafia
+# trechos em latim fora de itálico na leitura (só as linhas conferidas trazem o itálico): vão em itálico e
+# sem mudança de grafia. italicos() junta os vizinhos («_virtus_ _in infirmitate_» → um só).
+LATIM_ITALICO = [
+    'virtus', 'in medio iniquitatis et super flumina Babylonis', 'omnes bene valere', 'Pauper et inutilis',
+    'Pax Christi', 'Pax', 'Minimus Societatis Jesu', 'Agnus Dei', 'in extremis', 'extremis', 'etiam', 'scilicet',
+    'nescio quid', 'sc. furtum', 'furtum', 'lupus rapaz', 'lupus rapax', 'mane comedet predam et vespere',
+    'pre consortibus suis', 'et vicit leo de tribu Juda, radix David', 'Saule, Saule, quid me persequeris',
+    'Quid me persequeris', 'quid me persequeris', 'Et Saulus: Qui es, Domine', 'Ego sum Jesus, quem tu persequeris',
+    'Ego sum Jesus quem tu persequeris', 'durum est tibi', 'vas electionis', 'Vas electionis est mihi iste',
+    'Domine, quid me vis facere', 'quid me vis facere', 'arma iniquitatis', 'in mentis excessu', 'et vespere dividet',
+    'sunt', 'Quia qui', 'ingredere civitatem', 'Ingredere civitatem', 'Deus meus, Deus meus, quid dereliquisti me',
+    'Ad quam', 'militia est vita', 'de tribu Juda', 'sponsa',
+]
 LATIM = []
+
+
+def italicos(texto):
+    import re
+    partes = re.split(r'(_[^_]+_)', texto)
+    for i in range(0, len(partes), 2):
+        p = partes[i]
+        for fr in sorted(LATIM_ITALICO, key=len, reverse=True):
+            p = re.sub(r'(?<![A-Za-zÀ-ÿ_])' + re.escape(fr) + r'(?![A-Za-zÀ-ÿ_])', '_' + fr + '_', p)
+        partes[i] = p
+    t = ''.join(partes)
+    for _ in range(3):
+        t = re.sub(r'_([^_]+)_([ ,;:.]+)_([^_]+)_', r'_\1\2\3_', t)
+    return t
+
 
 # ------------------------------------------------------------------ grafia
 # forma de 1897 → forma de hoje (palavra inteira; em minúscula vale para qualquer caixa)
 MANUAL = {
+    # 1933 (Cartas de Anchieta)
+    'deante': 'diante', 'adeante': 'adiante', 'deanteira': 'dianteira', 'deanteiras': 'dianteiras',
+    'maximê': 'máxime', 'maximé': 'máxime', 'maximè': 'máxime', 'maxime': 'máxime', 'peor': 'pior', 'peores': 'piores',
+    'assucar': 'açúcar', 'assucares': 'açúcares', 'polas': 'pelas', 'polo': 'pelo', 'polos': 'pelos',
+    'deshonra': 'desonra', 'deshonrar': 'desonrar', 'deshonrado': 'desonrado', 'deshonrados': 'desonrados',
+    'deshonesto': 'desonesto', 'deshonestos': 'desonestos', 'deshonesta': 'desonesta', 'deshonestas': 'desonestas',
+    'deshumana': 'desumana', 'bemdito': 'bendito', 'bemdita': 'bendita', 'bemaventurado': 'bem-aventurado',
+    'bemaventurados': 'bem-aventurados', 'bemaventurada': 'bem-aventurada', 'incançavel': 'incansável',
+    'sinão': 'senão', 'soia': 'soía', 'soiam': 'soíam', 'soíam': 'soíam', 'catequismo': 'catecismo',
+    'comecou': 'começou', 'comecaram': 'começaram', 'comecaram-se': 'começaram-se', 'comecado': 'começado',
+    'comecariam': 'começariam', 'graca': 'graça', 'cabeca': 'cabeça', 'crianca': 'criança', 'justica': 'justiça',
+    'espacosas': 'espaçosas', 'carecamos': 'careçamos', 'faco': 'faço', 'facam': 'façam', 'conhecas': 'conheças',
+    'lourenco': 'lourenço', 'goncalo': 'gonçalo', 'goncalves': 'gonçalves', 'esperanca': 'esperança',
+    'peconha': 'peçonha', 'conceicão': 'conceição', 'alcancado': 'alcançado', 'esforcavam': 'esforçavam',
+    'rocarias': 'roçarias', 'lanca': 'lança', 'despedacar-lhe': 'despedaçar-lhe', 'alvorocados': 'alvoroçados',
+    'adelgacar': 'adelgaçar', 'ameacas': 'ameaças', 'ameacando-nos': 'ameaçando-nos', 'tribu': 'tribo',
+    'ete': 'etc', 'emfim': 'enfim', "n'agua": "n'água", 'nagua': "n'água", 'mangedoura': 'manjedoura',
+    'mágua': 'mágoa', 'amen': 'amém', 'dezaseis': 'dezesseis', 'eramos': 'éramos', 'estrêmo': 'extremo',
+    'foramos': 'fôramos', 'féros': 'feros', 'has': 'hás', 'intitula': 'intitula', 'agasta': 'agasta',
+    'cameras': 'câmaras', 'cativara': 'cativara', 'crêm': 'creem', 'dêm': 'deem', 'mezinhas': 'mezinhas',
+    'regimen': 'regime', 'saíram': 'saíram', 'subministra-se': 'subministra-se', 'destempera': 'destempera',
+    'idéa': 'ideia', 'catecúmena': 'catecúmena', 'açoutado': 'açoitado', 'açoutes': 'açoites', 'açoute': 'açoite',
+    'encarnicadamente': 'encarniçadamente', 'subtis': 'sutis', 'subtil': 'sutil', 'subtilissimas': 'sutilíssimas',
+    'priguiça': 'preguiça', 'sententrião': 'setentrião', 'interveiu': 'interveio', 'emtanto': 'entanto',
+    'medeante': 'mediante', 'exgotam': 'esgotam', 'exgotava': 'esgotava', 'exgotar-se': 'esgotar-se', 'exgota': 'esgota',
+    'ceremonias': 'cerimônias', 'artilheria': 'artilharia', 'descança': 'descansa', 'descanço': 'descanso',
+    'cançados': 'cansados', 'pretenções': 'pretensões', 'hervas': 'ervas', 'semrazões': 'sem-razões',
+    'vespões': 'vespões', 'rechassa': 'rechaça', 'repilindo': 'repelindo', 'entremeiadas': 'entremeadas',
+    'humidos': 'úmidos', 'distilam': 'destilam', 'creação': 'criação', 'creatura': 'criatura', 'creador': 'criador',
+    'procreação': 'procriação', 'hidropico': 'hidrópico', 'subitanea': 'subitânea', 'afeiado': 'afeado',
+    'hebrêa': 'hebreia', 'alternatim': 'alternatim', 'dous': 'dois', 'veiu': 'veio', 'Veiu': 'Veio',
+    'senvergonha': 'sem-vergonha', 'encasado': 'encasado', 'tapiíra': 'tapiíra', 'rehú': 'rehú',
+    'mamalucos': 'mamelucos', 'mamalucas': 'mamelucas', 'resava': 'rezava', 'resurreição': 'ressurreição',
+    'magestade': 'majestade', 'satanaz': 'satanás', 'goiaz': 'goiás', 'altesa': 'alteza', 'praza': 'praza',
+    'prazerá': 'prazerá', 'estacio': 'estácio', 'gran': 'grão', 'trisca': 'trisca', 'perenal': 'perenal',
+    'acolheita': 'acolheita', 'asinha': 'asinha', 'vimes': 'vimes', 'sanie': 'sânie', 'catadura': 'catadura',
     # formas antigas de palavras atuais (Barata deixou algumas de propósito: giolho, antre, devação)
     'deos': 'deus', 'assi': 'assim', 'logar': 'lugar', 'logares': 'lugares', 'legoa': 'légua', 'legoas': 'léguas',
     'lingoa': 'língua', 'lingoas': 'línguas', 'agoa': 'água', "d'agoa": "d'água", 'céo': 'céu', 'ceo': 'céu',
@@ -74,7 +175,7 @@ MANUAL = {
     'pera': 'para', 'per': 'por', 'té': 'até', 'dispensa': 'despensa', 'dispenseiro': 'despenseiro', 'vae-te': 'vai-te', 'frecha': 'flecha', 'chamar-se-á': 'chamar-se-á', 'vae-se': 'vai-se', 'saio': 'saiu', 'ayres': 'aires', 'victoria': 'vitória', 'bocca': 'boca', 'summa': 'suma', 'vae': 'vai', 'riba': 'riba', 'serrão': 'serrão', 'lacão': 'lacão', 'croncrenas': 'croncrenas', 'lissão': 'lissão', 'gasalhado': 'gasalhado',
 }
 # com a caixa exata (nomes com «d'»)
-MANUAL_EXATO = {"d'Arça": "d'Arça", "d'Amaral": "d'Amaral", "d'Azevedo": "d'Azevedo", "d'Azeredo": "d'Azeredo",
+MANUAL_EXATO = {'Acosta': 'Acosta', 'Castela': 'Castela', 'Cay': 'Cay', "d'ouro": "d'ouro", 'Nha': 'Ilha', 'Ceu': 'Céu', 'Ha-os': 'Há-os', 'Florez': 'Flores', 'Itañae': 'Itañae', 'Aviz': 'Avis', 'Mem': 'Mem', 'Joannes': 'Joannes', "d'Arça": "d'Arça", "d'Amaral": "d'Amaral", "d'Azevedo": "d'Azevedo", "d'Azeredo": "d'Azeredo",
                 "d'Avila": "d'Ávila", 'S.': 'S.', 'D.': 'D.', 'N': 'N'}
 
 # «palavra|seguinte» → forma

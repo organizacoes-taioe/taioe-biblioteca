@@ -116,12 +116,16 @@ def rascunho():
 
 
 def aplicar():
-    conf = {}
+    conf, novas = {}, {}
     arq = os.path.join(AQUI, 'conferencia.tsv')
     for l in open(arq, encoding='utf-8').read().splitlines():
         if l.strip() and not l.startswith('#'):
             f, k, t = l.split('\t', 2)
-            conf[(int(f), int(k))] = t
+            if k.endswith('+'):                    # linha que a leitura perdeu: entra depois da linha k
+                if t.strip() != '-':
+                    novas.setdefault((int(f), int(k[:-1])), []).append(t)
+            else:
+                conf[(int(f), int(k))] = t
     os.makedirs(os.path.join(AQUI, '1933'), exist_ok=True)
     restam = []
     for p in pecas.PECAS:
@@ -130,14 +134,18 @@ def aplicar():
             linhas = open(os.path.join(PASTA, 'rascunho', f'{f}.txt'), encoding='utf-8').read().splitlines()
             caixas = json.load(open(os.path.join(PASTA, 'rascunho', f'{f}.json')))
             direita[f] = sorted(c[2] for c in caixas)[len(caixas) * 3 // 4] if caixas else 0
+            for t in novas.get((f, -1), []):
+                seq.append([f, t, [0, 0, direita[f], 0], True])
             for k, (l, cx) in enumerate(zip(linhas, caixas)):
                 t = conf.get((f, k), l)
-                if t.strip() in ('-', '', '¶') or (f, k) not in conf and CABECO.search(t):
-                    continue
-                if '⟦' in t or '⟨' in t:
-                    restam.append((f, k, t))
-                for parte in t.split(' ⏎ '):           # «⏎» na conferência: a linha vira duas
-                    seq.append([f, parte, cx, (f, k) in conf])
+                if not (t.strip() in ('-', '', '¶') or (f, k) not in conf and CABECO.search(t)
+                        or re.match(r'^(¶ )?[IVXL]+\.? ?— ?(CARTA|INFORMA|SERM)', t)):
+                    if '⟦' in t or '⟨' in t:
+                        restam.append((f, k, t))
+                    for parte in t.split(' ⏎ '):           # «⏎» na conferência: a linha vira duas
+                        seq.append([f, parte, cx, (f, k) in conf])
+                for t2 in novas.get((f, k), []):           # linhas perdidas pela leitura, conferidas
+                    seq.append([f, t2, [0, cx[1], direita[f], cx[3]], True])
         paragrafos(seq, direita)
         for f in pecas.folhas_de(p):
             out = [x[1] for x in seq if x[0] == f]

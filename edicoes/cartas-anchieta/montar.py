@@ -96,9 +96,20 @@ def hifens_perdidos(out):
     import lexico
     lex, lexsa, _ = lexico._carregar()
 
+    def perto(w):
+        novo, fonte = G.atual(w.lower())
+        return fonte == 'lexico' or fonte == 'esqueleto' and lexico.sem_acento(novo) == lexico.sem_acento(w)
+
     def boa(w):
         lw = w.lower()
         return lw in lex or lw in lexico.ANTIGAS or lexico.sem_acento(lw) in lexsa
+    for i in range(len(out) - 1):                 # palavra inteira numa linha e o seu fim repetido na seguinte
+        a = re.search(r'([A-Za-zÀ-ÿ]+)[,.;:]?$', out[i][2])
+        b = re.match(r'^((?:¶ )?)([a-zà-ÿ]+)([,.;:]?) ', out[i + 1][2])
+        if a and b and len(a.group(1)) >= len(b.group(2)) + 2 and a.group(1).lower().endswith(b.group(2)) \
+                and (b.group(2) not in lex or b.group(2) == 'mente'):
+            f, k, l = out[i + 1]
+            out[i + 1] = (f, k, b.group(1) + l[b.end():])
     for i in range(len(out) - 1):
         f, k, l = out[i]
         a = re.search(r'([A-Za-zÀ-ÿ]+)$', l)
@@ -106,9 +117,8 @@ def hifens_perdidos(out):
         if not a or not b or out[i + 1][2].startswith('¶ '):
             continue
         a, b = a.group(1), b.group(1)
-        if a[:1].isupper() and len(a) > 1 and a[1:2].islower() and not boa(a + b):
-            continue
-        if (not boa(a) or not boa(b)) and boa(a + b):
+        ab = a + b
+        if (not boa(a) and not boa(b)) or ((not boa(a) or not boa(b)) and (boa(ab) or perto(ab))):
             out[i] = (f, k, l + '-')
     return out
 
@@ -268,6 +278,7 @@ def modernizar_bloco(texto, onde, rel):
 def preparar(texto, onde, peca, rel):
     """As decisões sobre o texto de 1933, antes da grafia: chamadas de nota, erros, emendas."""
     texto = NOTA.sub('', texto)
+    texto = D.italicos(texto)
     for p, de, para, _ in D.ERROS:
         if p == peca and de in texto:
             texto = texto.replace(de, para, 1); rel['usadas'].add(('erro', p, de))
@@ -288,11 +299,12 @@ def modernizado():
         pars = []
         for b in blocos:
             if b[0] == 'titulo':
-                raise ValueError(b)
+                pars.append('## ' + modernizar_bloco(b[2], b[3], rel))
+                continue
             texto, onde = b[1], b[2]
             pars.append(D.depois(modernizar_bloco(preparar(texto, onde, p[0], rel), onde, rel)))
         pecas_m.append({'n': p[0], 'titulo': p[4], 'lingua': p[3], 'pars': pars,
-                        'pars_1933': [preparar(b[1], b[2], p[0], {'usadas': set()}) for b in blocos]})
+                        'pars_1933': [preparar(b[1], b[2], p[0], {'usadas': set()}) for b in blocos if b[0] != 'titulo']})
     return pecas_m, rel
 
 

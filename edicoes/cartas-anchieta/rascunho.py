@@ -76,14 +76,40 @@ def decidir(l):
     return DUVIDA.sub(um, l)
 
 
+FIM_DE_FRASE = re.compile(r'[.!?:”)]\S*$|Amen\.?$')
+
+
+def paragrafos(seq, direita):
+    """Refaz os «¶» de uma peça pela forma das linhas: abre parágrafo a linha que vem depois de uma linha que
+    acaba frase e é curta (não chega à margem direita da folha) ou que, ela mesma, começa recuada (o «¶» do voto;
+    o recuo sozinho engana nas páginas tortas). A linha conferida nas pranchas fica com o «¶» que a conferência
+    deu. seq: [[folha, texto, caixa, conferida]] na ordem; muda os textos no lugar."""
+    for i, x in enumerate(seq):
+        f, l, cx, conf = x
+        recuo = l.startswith('¶ ')
+        corpo = l[2:] if recuo else l
+        if i == 0:
+            x[1] = '¶ ' + corpo
+            continue
+        if conf:
+            continue
+        pf, pl, pc, _ = seq[i - 1]
+        curta = pc[2] < direita[pf] - 90
+        acaba = bool(FIM_DE_FRASE.search(pl.rstrip()))
+        x[1] = ('¶ ' if acaba and (curta or recuo) else '') + corpo
+
+
 def rascunho():
     os.makedirs(os.path.join(PASTA, 'rascunho'), exist_ok=True)
     total = 0
     for p in pecas.PECAS:
+        folhas = []
         for f in pecas.folhas_de(p):
             linhas, d, caixas = voto.pagina(f)
             linhas, caixas = limpar(f, [decidir(sem_ruido(l)) for l in linhas], caixas, p)
             total += sum(l.count('⟦') + l.count('⟨') for l in linhas)
+            folhas.append((linhas, caixas))
+        for f, (linhas, caixas) in zip(pecas.folhas_de(p), folhas):
             open(os.path.join(PASTA, 'rascunho', f'{f}.txt'), 'w', encoding='utf-8').write('\n'.join(linhas) + '\n')
             json.dump(caixas, open(os.path.join(PASTA, 'rascunho', f'{f}.json'), 'w'))
     print('dúvidas do voto:', total)
@@ -92,26 +118,32 @@ def rascunho():
 def aplicar():
     conf = {}
     arq = os.path.join(AQUI, 'conferencia.tsv')
-    if os.path.exists(arq):
-        for l in open(arq, encoding='utf-8').read().splitlines():
-            if l.strip() and not l.startswith('#'):
-                f, k, t = l.split('\t', 2)
-                conf[(int(f), int(k))] = t
+    for l in open(arq, encoding='utf-8').read().splitlines():
+        if l.strip() and not l.startswith('#'):
+            f, k, t = l.split('\t', 2)
+            conf[(int(f), int(k))] = t
     os.makedirs(os.path.join(AQUI, '1933'), exist_ok=True)
     restam = []
-    for f in pecas.folhas():
-        linhas = open(os.path.join(PASTA, 'rascunho', f'{f}.txt'), encoding='utf-8').read().splitlines()
-        out = []
-        for k, l in enumerate(linhas):
-            l = conf.get((f, k), l)
-            if l == '-':
-                continue
-            if '⟦' in l or '⟨' in l:
-                restam.append((f, k, l))
-            out.append(l)
-        open(os.path.join(AQUI, '1933', f'{f}.txt'), 'w', encoding='utf-8').write('\n'.join(out) + '\n')
+    for p in pecas.PECAS:
+        seq, direita = [], {}
+        for f in pecas.folhas_de(p):
+            linhas = open(os.path.join(PASTA, 'rascunho', f'{f}.txt'), encoding='utf-8').read().splitlines()
+            caixas = json.load(open(os.path.join(PASTA, 'rascunho', f'{f}.json')))
+            direita[f] = sorted(c[2] for c in caixas)[len(caixas) * 3 // 4] if caixas else 0
+            for k, (l, cx) in enumerate(zip(linhas, caixas)):
+                t = conf.get((f, k), l)
+                if t.strip() in ('-', '', '¶') or (f, k) not in conf and CABECO.search(t):
+                    continue
+                if '⟦' in t or '⟨' in t:
+                    restam.append((f, k, t))
+                for parte in t.split(' ⏎ '):           # «⏎» na conferência: a linha vira duas
+                    seq.append([f, parte, cx, (f, k) in conf])
+        paragrafos(seq, direita)
+        for f in pecas.folhas_de(p):
+            out = [x[1] for x in seq if x[0] == f]
+            open(os.path.join(AQUI, '1933', f'{f}.txt'), 'w', encoding='utf-8').write('\n'.join(out) + '\n')
     print('linhas conferidas:', len(conf), '| ainda com dúvida:', len(restam))
-    for x in restam[:20]:
+    for x in restam[:30]:
         print(*x, sep='\t')
 
 

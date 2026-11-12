@@ -30,7 +30,7 @@ PRE = [
 ]
 
 # linhas do fac-símile que são nota de rodapé de Valle Cabral que a detecção automática deixou passar: (página, de, até)
-LINHAS_FORA = [(148, 34, 35), (157, 44, 44), (158, 1, 1), (108, 3, 6)]
+LINHAS_FORA = [(148, 34, 35), (157, 44, 44), (158, 1, 1), (108, 3, 6), (183, 42, 42)]
 
 # trechos em latim: em itálico e sem mudança de grafia
 LATIM = [
@@ -225,4 +225,9 @@ def desambiguar(t, ant, seg, formas):
 
 
 def depois(s):
+    """Depois da grafia: chamadas de nota de rodapé de Valle Cabral («Negros 12)»), maiúscula solta, nomes."""
+    import re
+    s = re.sub(r'(?<=[A-Za-zÀ-ÿ.,;:!?])\s?\(?\d{1,3}\)', '', s)
+    s = re.sub(r'\b(e|que|com|de|por|para|do|da|dos|das) (Os|As|O|A)(?= [a-zà-ÿ])', lambda m: m.group(1) + ' ' + m.group(2).lower(), s)
+    s = re.sub(r' {2,}', ' ', s)
     return s.replace('Rio de janeiro', 'Rio de Janeiro')

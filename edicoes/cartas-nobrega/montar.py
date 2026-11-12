@@ -130,7 +130,11 @@ def _linhas_carta(c):
     out = []
     dentro = False
     for p in range(c['p0'], c['p1'] + 1):
-        for k, l in enumerate(open(os.path.join(AQUI, '1886', f'{p}.txt'), encoding='utf-8').read().splitlines(), 1):
+        linhas = list(enumerate(open(os.path.join(AQUI, '1886', f'{p}.txt'), encoding='utf-8').read().splitlines(), 1))
+        cab = os.path.join(AQUI, '1886', f'{p}.cab')
+        if os.path.exists(cab):         # primeira linha do corpo que a máscara tomou por cabeçalho (k = 0)
+            linhas.insert(0, (0, open(cab, encoding='utf-8').read().rstrip('\n')))
+        for k, l in linhas:
             if not dentro:
                 if p == c['p0'] and re.search(c['ini'], re.sub(r'^¶ ', '', l)):
                     dentro = True

@@ -102,17 +102,19 @@ def main():
                 continue
             if marca == 'H':
                 if len(txt) > 45 and not re.search(r'NOBREGA|NÓBREGA|BRASIL|CARTAS', txt):
-                    cab.append((p, txt))
+                    cab.append((p, resolver(txt, f, duv, (p, 0))))   # a máscara perdeu o cabeçalho: a primeira linha é do corpo
                 continue
             if marca == 'N' and not re.match(r'^\(?(Da|De|Desta|Deste)\b.{0,50}(15\d\d|Bahia\.\))', txt):
                 continue            # (a data e o lugar do fim da carta, que o tamanho da letra confunde com nota, ficam)
             ini = '¶ ' if rec > mediana + 45 else ''
             saida.append(ini + resolver(txt, f, duv, (p, k + 1)))
         open(os.path.join(AQUI, '1886', f'{p}.txt'), 'w', encoding='utf-8').write('\n'.join(saida) + '\n')
+    for p, l in cab:
+        open(os.path.join(AQUI, '1886', f'{p}.cab'), 'w', encoding='utf-8').write(l + '\n')
     with open(os.path.join(AQUI, 'relatorios', 'duvidas.tsv'), 'w', encoding='utf-8') as fo:
         for (p, k), c, e in duv:
             fo.write(f'{p}\t{k}\t{c}\t{e}\n')
-    print('dúvidas sem solução:', len(duv), '| cabeçalhos suspeitos:', cab[:5])
+    print('dúvidas sem solução:', len(duv), '| primeiras linhas de corpo recuperadas:', len(cab))
 
 
 if __name__ == '__main__':

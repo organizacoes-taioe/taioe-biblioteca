@@ -17,11 +17,11 @@ fort. Da dasselbe Lichtsignal sich auch relativ zu _K′_ mit der Geschwindigkei
 
 | x′ − ct′ = 0 . . . (2)
 
-beschrieben. Diejenigen Raum-Zeit -Punkte (Ereignisse), welche (1) erfüllen, müssen auch (2) erfüllen. Dies wird offenbar der Fall sein, wenn allgemein die Beziehung
+beschrieben. Diejenigen Raum-Zeit-Punkte (Ereignisse), welche (1) erfüllen, müssen auch (2) erfüllen. Dies wird offenbar der Fall sein, wenn allgemein die Beziehung
 
 | (x′ − ct′) = λ(x − ct) . . . (3)
 
-erfüllt ist, wobei _λ_ eine Konstante bedeutet; denn gemäß (3) bedingt das Verschwinden von _x_ − ct das Verschwinden von _x′_ − ct′.
+erfüllt ist, wobei _λ_ eine Konstante bedeutet; denn gemäß (3) bedingt das Verschwinden von _x_ − _ct_ das Verschwinden von _x′_ − _ct′_.
 
 Eine ganz analoge Betrachtung, angewandt auf längs der negativen _X_-Achse sich fortpflanzende Lichtstrahlen, liefert die Bedingung:
 
@@ -30,13 +30,11 @@ Eine ganz analoge Betrachtung, angewandt auf längs der negativen _X_-Achse sich
 Addiert bzw. subtrahiert man die Gleichungen (3) und (4), wobei man statt der Konstanten _λ_ und _μ_ bequemlichkeitshalber die Konstanten
 
 | a = (λ + μ)/2
-
 | b = (λ − μ)/2
 
 einführt, so erhält man
 
 | x′ = ax − bct
-
 | ct′ = act − bx . . . (5)
 
 Damit wäre unsere Aufgabe gelöst, wenn die Konstanten _a_ und _b_ bekannt wären; diese ergeben sich durch die folgenden Überlegungen.
@@ -51,11 +49,11 @@ Nennen wir _v_ die Geschwindigkeit, mit welcher der Anfangspunkt von _K′_ rela
 
 Den gleichen Wert _v_ erhält man aus (5), wenn man die Geschwindigkeit eines anderen Punktes von _K′_ relativ zu _K_ oder die (nach der negativen _X_-Achse gerichtete) Geschwindigkeit eines Punktes von _K_ gegenüber _K′_ berechnet. Man kann also _v_ kurz als die Relativgeschwindigkeit beider Systeme bezeichnen.
 
-Ferner ist nach dem Relativitätsprinzip klar, daß die von _K_ aus beurteilte Länge eines relativ _K′_ ruhenden Einheitsmaßstabes genau dieselbe sein muß, wie die von _K′_ aus beurteilte Länge eines relativ zu _K_ ruhenden Einheitsmaßstabes. Um zu sehen, wie die Punkte der X′- Achse von _K_ aus betrachtet aussehen, brauchen wir nur eine „Momentaufnahme“ von _K′_ von _K_ aus aufzunehmen; dieses bedeutet, daß wir für _t_ (Zeit von _K_) einen bestimmten Wert, z. B. _t_ = 0, einzusetzen haben. Für diesen erhält man aus der ersten der Gleichungen (5):
+Ferner ist nach dem Relativitätsprinzip klar, daß die von _K_ aus beurteilte Länge eines relativ _K′_ ruhenden Einheitsmaßstabes genau dieselbe sein muß, wie die von _K′_ aus beurteilte Länge eines relativ zu _K_ ruhenden Einheitsmaßstabes. Um zu sehen, wie die Punkte der _X′_-Achse von _K_ aus betrachtet aussehen, brauchen wir nur eine „Momentaufnahme“ von _K′_ von _K_ aus aufzunehmen; dieses bedeutet, daß wir für _t_ (Zeit von _K_) einen bestimmten Wert, z. B. _t_ = 0, einzusetzen haben. Für diesen erhält man aus der ersten der Gleichungen (5):
 
 | x′ = ax.
 
-Zwei Punkte der X′- Achse, welche, in _K′_ gemessen, den Abstand _x′_ = 1 haben, haben also auf unserer Momentphotographie den Abstand:
+Zwei Punkte der _X′_-Achse, welche, in _K′_ gemessen, den Abstand _x′_ = 1 haben, haben also auf unserer Momentphotographie den Abstand:
 
 | Δx = 1/a . . . (7)
 
@@ -76,17 +74,15 @@ Da nach dem Gesagten die beiden Momentphotographien gleich sein müssen, muß Δ
 Die Gleichungen (6) und (7b) bestimmen die Konstanten _a_ und _b_. Durch Einsetzen in (5) erhält man die erste und vierte der in § 11 angegebenen Gleichungen.
 
 | x′ = (x − vt) / √(1 − v²/c²)
-
 | t′ = (t − (v/c²) x) / √(1 − v²/c²) . . . (8)
 
-Damit ist die Lorentz- Transformation für Ereignisse auf der _X_-Achse gewonnen. Sie genügt der Bedingung
+Damit ist die Lorentz-Transformation für Ereignisse auf der _X_-Achse gewonnen. Sie genügt der Bedingung
 
 | x′² − c²t′² = x² − c²t² . . . (8a)
 
 Die Erweiterung dieses Resultates auf Ereignisse, die außerhalb der _X_-Achse stattfinden, ergeben sich, indem man die Gleichungen (8) beibehält und die Beziehungen
 
 | y′ = y
-
 | z′ = z . . . (9)
 
 hinzufügt. Daß man so dem Postulat von der Konstanz der Vakuum-Lichtgeschwindigkeit für beliebig gerichtete Lichtstrahlen sowohl für das System _K_ als auch für das System _K′_ genügt, erkennt man auf folgende Weise.
@@ -95,7 +91,7 @@ Zur Zeit _t_ = 0 werde vom Anfangspunkt von _K_ ein Lichtsignal ausgesandt. Sein
 
 | r = √(x² + y² + z²) = ct,
 
-oder, wie man durch. Quadrieren dieser Gleichung findet, nach der Gleichung
+oder, wie man durch Quadrieren dieser Gleichung findet, nach der Gleichung
 
 | x² + y² + z² − c²t² = 0 . . . (10)
 
@@ -111,7 +107,7 @@ erfolge. Damit die Gleichung (10a) eine Folge der Gleichung (10) sei, muß sein:
 
 | x′² + y′² + z′² − c²t′² = σ(x² + y² + z² − c²t²) . . . (11)
 
-Da für Punkte auf der _X_-Achse die Gleichung (8a) gelten muß, muß _σ_ = 1 sein. Daß die Lorentz -Transformation der Gleichung (11) mit _σ_ = 1 wirklich genügt, erkennt man leicht; (11) ist nämlich eine Folge von (8a) und (9), also auch von (8) und (9). Damit ist die Lorentz-Transformation abgeleitet.
+Da für Punkte auf der _X_-Achse die Gleichung (8a) gelten muß, muß _σ_ = 1 sein. Daß die Lorentz-Transformation der Gleichung (11) mit _σ_ = 1 wirklich genügt, erkennt man leicht; (11) ist nämlich eine Folge von (8a) und (9), also auch von (8) und (9). Damit ist die Lorentz-Transformation abgeleitet.
 
 Die durch (8) und (9) dargestellte Lorentz-Transformation bedarf noch der Verallgemeinerung. Es ist offenbar unwesentlich, daß die Achsen von _K′_ denen von _K_ räumlich parallel gewählt werden. Es ist auch unwesentlich, daß die Translationsgeschwindigkeit von _K′_ gegenüber _K_ die Richtung der _X_-Achse hat. Man kann die Lorentz-Transformation in diesem allgemeinen Sinne — wie eine einfache Überlegung ergibt — zusammensetzen aus zweierlei Transformationen, nämlich aus Lorentz-Transformationen im speziellen Sinne und aus rein räumlichen Transformationen, welche der Ersetzung des rechtwinkligen Koordinatensystems durch ein neues mit anders gerichteten Achsen entspricht.
 
@@ -125,14 +121,11 @@ identisch erfüllt wird. Dies will sagen: Setzt man links statt _x′_ usw. ihre
 
 ## Minkowskis vierdimensionale Welt (Ergänzung zu § 17).
 
-Die verallgemeinerte Lorentz-Transformation läßt sich noch einfacher charakterisieren, wenn man statt _t_ als Zeitvariable die imaginäre √−1 · ct einführt. Setzt man demgemäß
+Die verallgemeinerte Lorentz-Transformation läßt sich noch einfacher charakterisieren, wenn man statt _t_ als Zeitvariable die imaginäre √−1 · _ct_ einführt. Setzt man demgemäß
 
 | x₁ = x
-
 | x₂ = y
-
 | x₃ = z
-
 | x₄ = √−1 · ct
 
 und analog für das gestrichene System _K′_, so lautet die Bedingung, welche von der Transformation identisch erfüllt wird:

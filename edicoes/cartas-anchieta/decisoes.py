@@ -47,6 +47,7 @@ COMPOSICAO = [
     ('XXXVIII', 'Bt sua serva', 'Et sua serva'),
     ('XXXVIII', 'Vêdeme', 'Vêde-me'),
     ('XV', 'Respondendolhe', 'Respondendo-lhe'),
+    ('XX', 'será necessario cu partir', 'será necessario eu partir'),
     ('XXXIII', 'parentecco', 'parentesco'),
 ]
 EMENDAS = []
@@ -54,8 +55,8 @@ EMENDAS = []
 # regex sobre o texto de 1933, antes da grafia
 PRE = [
     (r"\b([EA])['’]s\b", lambda m: {'E': 'És', 'A': 'Às'}[m.group(1)]),
-    (r"\bE['’] ", 'É '),
-    (r"\bA['’] ", 'À '),
+    (r"\bE['’”] ", 'É '),
+    (r"\bA['’”] ", 'À '),
     (r'(\d)\.([ºª])', r'\1\2'),
     (r'\bE[º°] ', 'É '),
 ]
@@ -180,11 +181,12 @@ MANUAL = {
     'pera': 'para', 'per': 'por', 'té': 'até', 'dispensa': 'despensa', 'dispenseiro': 'despenseiro', 'vae-te': 'vai-te', 'frecha': 'flecha', 'chamar-se-á': 'chamar-se-á', 'vae-se': 'vai-se', 'saio': 'saiu', 'ayres': 'aires', 'victoria': 'vitória', 'bocca': 'boca', 'summa': 'suma', 'vae': 'vai', 'riba': 'riba', 'serrão': 'serrão', 'lacão': 'lacão', 'croncrenas': 'croncrenas', 'lissão': 'lissão', 'gasalhado': 'gasalhado',
 }
 # com a caixa exata (nomes com «d'»)
-MANUAL_EXATO = {"d'Fl-Rei": 'del-Rei', 'Aspileueta': 'Aspilcueta', 'Corpus-Christi': 'Corpus Christi', 'Acosta': 'Acosta', 'Castela': 'Castela', 'Cay': 'Cay', "d'ouro": "d'ouro", 'Nha': 'Ilha', 'Ceu': 'Céu', 'Ha-os': 'Há-os', 'Florez': 'Flores', 'Itañae': 'Itañae', 'Aviz': 'Avis', 'Mem': 'Mem', 'Joannes': 'Joannes', "d'Arça": "d'Arça", "d'Amaral": "d'Amaral", "d'Azevedo": "d'Azevedo", "d'Azeredo": "d'Azeredo",
+MANUAL_EXATO = {'Baía': 'Bahia', 'Baia': 'Bahia', 'António': 'Antônio', "d'Fl-Rei": 'del-Rei', 'Aspileueta': 'Aspilcueta', 'Corpus-Christi': 'Corpus Christi', 'Acosta': 'Acosta', 'Castela': 'Castela', 'Cay': 'Cay', "d'ouro": "d'ouro", 'Nha': 'Ilha', 'Ceu': 'Céu', 'Ha-os': 'Há-os', 'Florez': 'Flores', 'Itañae': 'Itañae', 'Aviz': 'Avis', 'Mem': 'Mem', 'Joannes': 'Joannes', "d'Arça": "d'Arça", "d'Amaral": "d'Amaral", "d'Azevedo": "d'Azevedo", "d'Azeredo": "d'Azeredo",
                 "d'Avila": "d'Ávila", 'S.': 'S.', 'D.': 'D.', 'N': 'N'}
 
 # «palavra|seguinte» → forma
 CONTEXTO = {
+    'Baía|de': 'Baía',          # a Baía de Todos os Santos fica; a cidade e a capitania são Bahia
 }
 
 

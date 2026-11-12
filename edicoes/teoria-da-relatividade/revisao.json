@@ -1,0 +1,188 @@
+{
+ "id": "teoria-da-relatividade",
+ "rotulo": "Sobre a teoria da relatividade especial e geral (Albert Einstein)",
+ "url": "/biblioteca/albert-einstein/teoria-da-relatividade/",
+ "escolhas": [
+  {
+   "id": "titulo",
+   "titulo": "O título fica «Sobre a teoria da relatividade especial e geral», com o subtítulo «Ao alcance de todos»?",
+   "ref": "título",
+   "contexto": "Em alemão, «Über die spezielle und die allgemeine Relativitätstheorie (Gemeinverständlich)»: «sobre a teoria da relatividade especial e a geral (compreensível para todos)». As edições brasileiras correntes, protegidas, usam «A teoria da relatividade especial e geral».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Sobre a teoria da relatividade especial e geral», subtítulo «Ao alcance de todos»",
+     "nota": "Fiel ao título de Einstein, com o «Sobre» e o subtítulo, que diz a intenção do livro.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«A teoria da relatividade especial e geral», sem subtítulo",
+     "nota": "Como o livro é conhecido no Brasil; perde o «Sobre» e o «gemeinverständlich»."
+    },
+    {
+     "id": "c",
+     "texto": "«Sobre a teoria da relatividade especial e geral (exposição popular)»",
+     "nota": "O subtítulo entre parênteses, como no original; «popular» soa um pouco datado."
+    }
+   ]
+  },
+  {
+   "id": "edicao",
+   "titulo": "O texto segue a 5ª edição (1920), com a terceira parte e o apêndice?",
+   "ref": "todo o livro",
+   "contexto": "A 1ª edição (1917) tem só as partes I e II (§§ 1–29). Nas edições seguintes Einstein acrescentou a parte III, sobre o universo como um todo (§§ 30–32), o apêndice (dedução da transformação de Lorentz e o mundo de Minkowski) e, em 1920, a nota sobre a confirmação do desvio da luz no eclipse de 1919, além de pequenas mudanças no texto (§ 27 e § 29 reescritos em parte). A 5ª edição é de 1920: livre no Brasil e também nos EUA (antes de 1931). Os apêndices de 1952 ficaram de fora.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "5ª edição (1920), com tudo o que ela traz",
+     "nota": "O livro como Einstein o deixou depois da confirmação de 1919; é a forma mais lida.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "1ª edição (1917), só partes I e II",
+     "nota": "O livro como saiu primeiro; perde a cosmologia e o apêndice."
+    }
+   ]
+  },
+  {
+   "id": "voce",
+   "titulo": "Einstein trata o leitor por «você»?",
+   "ref": "§§ 1 e 8 (e passim)",
+   "contexto": "Einstein escreve «du, lieber Leser» (tu, caro leitor), em tom de conversa: «Gewiß hast auch du…», «so wirst du mir … antworten». Na tradução: «Com certeza também você, caro leitor…», «você me responderá com um “sim” convicto».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«você», como está",
+     "nota": "O tom de conversa de hoje, que é o efeito do «du» em alemão.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«tu»",
+     "nota": "Mais literal; no Brasil soa regional ou solene, o contrário do que Einstein quer."
+    }
+   ]
+  },
+  {
+   "id": "especial",
+   "titulo": "«spezielle Relativitätstheorie» fica «teoria da relatividade especial»?",
+   "ref": "todo o livro",
+   "contexto": "No Brasil se diz «relatividade especial»; em Portugal e em livros antigos, «relatividade restrita».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«especial», como está",
+     "nota": "O termo dos livros didáticos brasileiros.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«restrita»",
+     "nota": "Termo de Portugal e de traduções mais antigas."
+    }
+   ]
+  },
+  {
+   "id": "bahndamm",
+   "titulo": "«Bahndamm» fica «leito da ferrovia»?",
+   "ref": "§§ 3–18 (dezenas de vezes)",
+   "contexto": "O exemplo do trem atravessa o livro: «Bahndamm» é o aterro sobre o qual corre a linha (o «embankment» da tradução inglesa); «Geleise», os trilhos; «Fahrdamm», a via. Usamos «leito da ferrovia» para «Bahndamm», «trilhos» para «Geleise» e «via» para «Fahrdamm».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«leito da ferrovia», como está",
+     "nota": "Claro para qualquer leitor, embora um pouco longo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«aterro» (ou «aterro da ferrovia»)",
+     "nota": "Mais literal e mais curto; menos conhecido como termo de ferrovia."
+    },
+    {
+     "id": "c",
+     "texto": "«via férrea»",
+     "nota": "Curto, mas se confunde com os trilhos."
+    }
+   ]
+  },
+  {
+   "id": "massa",
+   "titulo": "«träge und schwere Masse» ficam «massa inercial e massa gravitacional»?",
+   "ref": "§§ 15, 19, 20, 29",
+   "contexto": "Einstein usa «träge Masse» (massa inerte) e «schwere Masse» (massa pesada). Os termos de hoje são «massa inercial» e «massa gravitacional». Para «Schwere» sozinho usamos «gravidade» («campo de gravidade», para «Schwerefeld»), e «peso» na frase «como “inércia” ou como “peso”».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«massa inercial» e «massa gravitacional», como está",
+     "nota": "Os termos que o leitor encontra nos livros de física.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«massa inerte» e «massa pesada»",
+     "nota": "Mais literal, guarda o par alemão; soa estranho em português de hoje."
+    }
+   ]
+  },
+  {
+   "id": "universo",
+   "titulo": "Na parte III, «Welt» fica «universo» (o nosso) e «mundo» (o dos seres planos e o de Minkowski)?",
+   "ref": "§§ 30–32 e apêndice",
+   "contexto": "Einstein usa uma só palavra, «Welt», para o universo real («die Welt als Ganzes», «eine endliche und doch nicht begrenzte Welt»), para o mundo dos seres de duas dimensões («Kugelwelt») e para o «mundo» de quatro dimensões de Minkowski. Na tradução: «Considerações sobre o universo como um todo», «universo finito e, no entanto, ilimitado», mas «mundo esférico» para os seres planos e «mundo» de Minkowski, entre aspas, como ele o chamou.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«universo» para o nosso, «mundo» para os outros, como está",
+     "nota": "O português de hoje fala de «universo» na cosmologia; «mundo» guarda o termo de Minkowski.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«mundo» em todos os casos",
+     "nota": "Uma palavra só, como em alemão; «o mundo é finito» soa menos cosmológico."
+    }
+   ]
+  },
+  {
+   "id": "energia",
+   "titulo": "No § 15, «die kinetische Theorie» se lê «a energia cinética»?",
+   "ref": "§ 15, § 4 do parágrafo",
+   "contexto": "O alemão traz «Entwickelt man den Ausdruck für die kinetische Theorie in eine Reihe» (desenvolvendo em série a expressão da teoria cinética), um erro evidente por «Energie»: a série que segue é a da energia cinética. Traduzimos «a expressão da energia cinética»; o alemão ao lado fica como impresso.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«energia cinética», corrigindo, como está",
+     "nota": "O sentido certo, que todas as traduções dão.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«teoria cinética», como impresso",
+     "nota": "Fiel ao erro; deixa a frase sem sentido."
+    }
+   ]
+  },
+  {
+   "id": "spuerkraft",
+   "titulo": "No fim do § 28, «Spürkraft» fica «poder de descoberta»?",
+   "ref": "§ 28, último parágrafo",
+   "contexto": "«In der weitgehenden Beschränkung, welche hierdurch den Naturgesetzen auferlegt wird, liegt die Spürkraft, die dem allgemeinen Relativitätsprinzip innewohnt.» «Spürkraft» é, ao pé da letra, a força de farejar, de seguir a pista. Tradução: «Na restrição de longo alcance que isso impõe às leis da natureza está o poder de descoberta que é próprio do princípio da relatividade geral.»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«poder de descoberta», como está",
+     "nota": "Claro e sem imagem.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«faro»",
+     "nota": "Guarda a imagem de Einstein (o cão que fareja a pista); mais vivo, mais coloquial."
+    }
+   ]
+  }
+ ]
+}

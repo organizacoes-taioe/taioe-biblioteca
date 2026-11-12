@@ -1,0 +1,17 @@
+{
+  "id": "macbeth",
+  "rotulo": "Macbeth (Shakespeare): tradução ao lado",
+  "url": "/biblioteca/william-shakespeare/macbeth/",
+  "escolhas": [
+    {
+      "id": "traducao-ao-lado",
+      "titulo": "O Macbeth fica sem tradução ao lado, só com as notas de cada palavra?",
+      "ref": "a peça inteira (botão «Português»)",
+      "contexto": "Não achamos tradução portuguesa do Macbeth que seja ao mesmo tempo em verso, em domínio público e acessível. As de Portugal do século XIX e começo do XX não estão digitalizadas nos acervos que alcançamos (a BNP e a Hemeroteca da BN bloqueiam o acesso automático). No Brasil, as duas primeiras são de 1948: a de Oliveira Ribeiro Neto, em prosa e verso (protegida), e a de Artur de Salles (Clássicos Jackson), em prosa e parelhas de alexandrinos rimados. Artur de Salles morreu em 1952: a tradução dele está em domínio público no Brasil desde 2023, mas nos EUA só em 2044; não está digitalizada, e os alexandrinos rimados não acompanham verso a verso o verso branco de Shakespeare. As de Carlos Alberto Nunes, Manuel Bandeira e as seguintes são protegidas.",
+      "opcoes": [
+        {"id": "a", "texto": "Sem tradução ao lado, como está", "nota": "Como o «Happy Prince» e o soneto 18: o inglês com as notas de cada palavra.", "recomendada": true},
+        {"id": "b", "texto": "Procurar a de Artur de Salles (1948) para pôr ao lado", "nota": "Pede achar e digitalizar um exemplar da edição Jackson; ao lado, as falas não casariam verso a verso, e há o risco nos EUA."}
+      ]
+    }
+  ]
+}

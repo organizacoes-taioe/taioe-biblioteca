@@ -50,8 +50,8 @@ Forma portuguesa usual (a dos livros de história em português; acento pela pro
   Clazômenas, Teos, Quios, Samos, Lesbos, Cnido, Halicarnasso, Cária, Lícia, Xanto, Cauno, Pânionion (o santuário
   comum dos jônios).
 - **Média e Pérsia**: Déjoces, Fraortes, Ciaxares, Astíages, Mandane, Cambises, Ciro, Hárpago, Mitradates, Espaco
-  (Σπακώ; «Cino» na língua grega: Κυνώ), Artembares, Oibares, Histaspes, Dario, Arsames, Ecbátana, Pasárgadas
-  (tribo), Aquemênidas, magos, citas (Madies, Protótias), masságetas, Tômiris, Espargapises, Araxes, Gindes.
+  (Σπακώ; «Cino» na língua grega: Κυνώ), Artembares, Oibares, Histaspes, Dario, Arsames, Ecbátana, pasárgadas
+  (tribo; as tribos em minúscula, como os povos), Aquemênidas, magos, citas (Madies, Protótias), masságetas, Tômiris, Espargapises, Araxes, Gindes.
 - **Assíria e Babilônia**: Babilônia, Nínive, Semíramis, Nitócris, Labineto, Zeus Belo (o templo de Belo), Milita,
   Eufrates, Tigre, Opis.
 - Povos: lídios, persas, medos, jônios, eólios, dórios, gregos (Ἕλληνες; «helenos» só em 1.56–58, onde Heródoto
@@ -71,6 +71,7 @@ Forma portuguesa usual (a dos livros de história em português; acento pela pro
   δεσπότης → senhor; δοῦλος → escravo; δορυφόροι → **lanceiros** (a guarda do rei).
 - χρηστήριον, μαντήιον → **oráculo** (o lugar e a resposta); χρησμός → oráculo, resposta; ἡ Πυθίη → **a Pítia**;
   θεοπρόποι → os **enviados** ao oráculo; χρᾶσθαι → consultar (o oráculo), χρᾶν → responder (o oráculo).
+- ἡμίονος (o oráculo de 1.55 e 1.91) → **mulo**; αἱ Μοῖραι → as Moiras.
 - ὄλβιος → **feliz**; εὐτυχής → **afortunado** (na conversa de Sólon e Creso, 1.30–33, a diferença é o centro: ver
   `revisao.json`); εὐδαίμων → feliz; τὸ θεῖον → **a divindade**; φθονερός → invejoso; νέμεσις ἐκ θεοῦ → «um castigo
   vindo de deus»; ὁ θεός (sem nome) → «o deus» quando é o de um oráculo, «deus» no geral.

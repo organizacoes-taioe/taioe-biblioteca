@@ -675,6 +675,14 @@
    ],
    "nota": "Macbeth não consegue dizer «Amen» depois da oração dos criados: sente que as suas mãos o excluem da bênção."
   },
+  "amen#2": {
+   "lema": "amen",
+   "classe": "interjeição",
+   "def": [
+    "No fim de uma oração religiosa, exprime assentimento: assim seja."
+   ],
+   "nota": "«Sir, amen» é «senhor, amém»: Macduff assente ao voto de Ross."
+  },
   "amend": {
    "lema": "amend",
    "classe": "verbo",
@@ -822,6 +830,14 @@
    "def": [
     "Resposta ou réplica; algo dito ou feito em reação a uma declaração ou pergunta."
    ]
+  },
+  "answer#2": {
+   "lema": "answer",
+   "classe": "verbo",
+   "def": [
+    "(transitivo ou intransitivo) Dar resposta a (alguém ou algo); responder."
+   ],
+   "nota": "«Answer me» é «responde-me»."
   },
   "antic": {
    "lema": "antic",
@@ -2631,6 +2647,14 @@
    ],
    "nota": "«That great bond» é «aquele grande contrato»: a garantia que prende Banquo e Fleance à vida, e que Macbeth quer anular."
   },
+  "bond#2": {
+   "lema": "bond",
+   "classe": "substantivo",
+   "def": [
+    "(finanças) Obrigação documentada, com a qual alguém se compromete a pagar ou cumprir algo; garantia."
+   ],
+   "nota": "«Take a bond of fate» é «tomar uma garantia do destino»: Macbeth, embora o espírito lhe diga que Macduff não o pode ferir, mata-o mesmo assim para ter certeza dupla."
+  },
   "boneless": {
    "lema": "boneless",
    "classe": "adjetivo",
@@ -2950,6 +2974,14 @@
     "Produzir descendência por via sexual; procriar."
    ]
   },
+  "breed#2": {
+   "lema": "breed",
+   "classe": "substantivo",
+   "def": [
+    "Linhagem de uma família; estirpe, descendência."
+   ],
+   "nota": "«Blaspheme his breed» é «blasfemar da própria linhagem»: o rei Duncan, santo, foi pai de quem se diz tão vil."
+  },
   "brew'd": {
    "lema": "brew",
    "classe": "verbo",
@@ -3045,6 +3077,15 @@
     "(transitivo) Separar em duas ou mais partes à força; quebrar, romper."
    ],
    "nota": "«Hath broke ope» é «arrombou, abrindo»; em «broke their stalls», os cavalos romperam as baias."
+  },
+  "broke#2": {
+   "lema": "break",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(transitivo, figurado) Deixar de cumprir (promessa ou compromisso); violar, quebrar."
+   ],
+   "nota": "«Broke my faith» é «quebrei a minha palavra»."
   },
   "brought": {
    "lema": "bring",
@@ -3508,6 +3549,14 @@
    ],
    "nota": "«The poor cat i' the adage» alude ao provérbio do gato que queria o peixe, mas não queria molhar as patas."
   },
+  "cat#2": {
+   "lema": "cat",
+   "classe": "substantivo",
+   "def": [
+    "Mamífero carnívoro doméstico de pequeno porte; gato."
+   ],
+   "nota": "«Brinded cat» é «gato malhado», «riscado»: o bicho que serve de espírito familiar à primeira bruxa."
+  },
   "catalogue": {
    "lema": "catalogue",
    "classe": "substantivo",
@@ -3828,6 +3877,14 @@
     "(agora incontável) Aquilo que promove bom humor, em especial comida e entretenimento preparados para hóspedes."
    ],
    "nota": "«You do not give the cheer» é «não dais o acolhimento»: o anfitrião é quem deve alegrar a mesa."
+  },
+  "cheer#2": {
+   "lema": "cheer",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, em geral com «up») Animar; dar ânimo ou alegria a."
+   ],
+   "nota": "«Cheer we up his sprites» é «animemos-lhe o espírito»."
   },
   "cherubin": {
    "lema": "cherub",
@@ -5268,6 +5325,14 @@
    ],
    "nota": "«A thing of custom» é «coisa de costume», de sempre: Lady Macbeth minimiza o acesso do marido."
   },
+  "custom#2": {
+   "lema": "custom",
+   "classe": "substantivo",
+   "def": [
+    "Repetição frequente do mesmo ato; hábito, costume."
+   ],
+   "nota": "«Mortal custom» é «o costume dos mortais»: o curso comum da vida humana, que termina na morte."
+  },
   "cut": {
    "lema": "cut",
    "classe": "verbo",
@@ -5389,6 +5454,13 @@
     "(obsoleto) Capacidade de ferir; domínio ou poder de alguém de ferir ou punir."
    ],
    "nota": "«In danger of» é «ao alcance de», «sujeito ao poder de»."
+  },
+  "danger#2": {
+   "lema": "danger",
+   "classe": "substantivo",
+   "def": [
+    "Possibilidade de dano, de ferimento ou de perda; perigo, risco."
+   ]
   },
   "dangerous": {
    "lema": "dangerous",
@@ -5687,6 +5759,13 @@
     "(intransitivo) Ter ou tomar grande prazer."
    ],
    "nota": "«The labour we delight in» é «o trabalho em que nos deleitamos»: o trabalho agradável."
+  },
+  "delight#2": {
+   "lema": "delight",
+   "classe": "substantivo",
+   "def": [
+    "Grande prazer ou alegria; deleite."
+   ]
   },
   "delights": {
    "lema": "delight",
@@ -6846,6 +6925,14 @@
    ],
    "nota": "«More is thy due» é «mais te é devido»."
   },
+  "due#2": {
+   "lema": "due",
+   "classe": "adjetivo",
+   "def": [
+    "Que se deve; que cabe por direito ou obrigação."
+   ],
+   "nota": "«Due to some single breast» é «devido a um só peito», isto é, de que um só coração é o dono."
+  },
   "dues": {
    "lema": "due",
    "classe": "substantivo",
@@ -7242,6 +7329,15 @@
    ],
    "nota": "«For his own ends» é «para os seus próprios fins»: por interesse próprio."
   },
+  "ends#2": {
+   "lema": "end",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Chegar ao fim; acabar, terminar."
+   ],
+   "nota": "«Thy hope ends here!» é «aqui acaba a tua esperança!»: Macduff perde de vez a fé em Malcolm."
+  },
   "enemy": {
    "lema": "enemy",
    "classe": "substantivo",
@@ -7438,6 +7534,14 @@
     "Apreciação, estima, consideração, em especial favorável."
    ],
    "nota": "«In thine own esteem» é «na tua própria estima»."
+  },
+  "esteem#2": {
+   "lema": "esteem",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Ter em certa conta; considerar, julgar."
+   ],
+   "nota": "«Esteem him as a lamb» é «tem-no por um cordeiro»: ao lado dos vícios de Macbeth, Malcolm parecerá inocente."
   },
   "esteem'st": {
    "lema": "esteem",
@@ -8402,6 +8506,14 @@
    ],
    "nota": "«Then comes my fit again» é «então volta o meu ataque»: o acesso de medo e perturbação; «the fit is momentary» é «o ataque é passageiro»: Lady Macbeth sobre o marido."
   },
+  "fit#2": {
+   "lema": "fit",
+   "classe": "adjetivo",
+   "def": [
+    "Adequado a determinado fim; próprio, apto."
+   ],
+   "nota": "«Fit to govern» é «apto a governar»."
+  },
   "fitful": {
    "lema": "fitful",
    "classe": "adjetivo",
@@ -8487,6 +8599,14 @@
     "O ato de voar; a capacidade de voar."
    ],
    "nota": "«Thy soul's flight» é «o voo da tua alma» (que sobe ao céu, se aí for); «his cloister'd flight» é o voo do morcego, que passa pelos claustros."
+  },
+  "flight#2": {
+   "lema": "flight",
+   "classe": "substantivo",
+   "def": [
+    "O ato de fugir; fuga."
+   ],
+   "nota": "«His flight was madness» é «a fuga dele foi loucura»: Macduff abandonou a mulher e os filhos."
   },
   "flighty": {
    "lema": "flighty",
@@ -8981,6 +9101,14 @@
     "Pessoa, em geral de fora da família, cuja companhia se aprecia e por quem se tem afeto; amigo."
    ]
   },
+  "friend#2": {
+   "lema": "friend",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, arcaico) Agir como amigo de; favorecer, ajudar."
+   ],
+   "nota": "«The time to friend» é «o tempo a favor»: a ocasião propícia."
+  },
   "friends": {
    "lema": "friend",
    "classe": "substantivo",
@@ -9165,6 +9293,14 @@
     "(fisiologia, arcaico, incontável) Bile, em especial a de um animal; o líquido esverdeado de gosto profundamente amargo."
    ],
    "nota": "«Take my milk for gall» é «trocai o meu leite por fel»: o fel, símbolo de amargura e crueldade."
+  },
+  "gall#2": {
+   "lema": "gall",
+   "classe": "substantivo",
+   "def": [
+    "(fisiologia, arcaico, incontável) A bile; o líquido amargo produzido pelo fígado."
+   ],
+   "nota": "«Gall of goat» é «fel de bode»: a bile do animal, mais um ingrediente do caldeirão."
   },
   "galloping": {
    "lema": "galloping",
@@ -9378,6 +9514,14 @@
     "Talento ou capacidade natural."
    ],
    "nota": "Aqui é o dom que a natureza deu a cada cão."
+  },
+  "gift#2": {
+   "lema": "gift",
+   "classe": "substantivo",
+   "def": [
+    "Talento ou capacidade natural; dom."
+   ],
+   "nota": "«A heavenly gift of prophecy» é «um dom celeste de profecia»: o rei Eduardo vê o futuro."
   },
   "gild": {
    "lema": "gild",
@@ -9778,6 +9922,15 @@
    ],
    "nota": "«Our graces» são os favores do rei."
   },
+  "graces#2": {
+   "lema": "grace",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Virtude; qualidade moral digna de admiração."
+   ],
+   "nota": "«The king-becoming graces» são «as virtudes próprias de um rei», que Malcolm enumera e diz não ter."
+  },
   "gracious": {
    "lema": "gracious",
    "classe": "adjetivo",
@@ -10037,6 +10190,15 @@
     "(copulativo) Assumir uma condição ou qualidade com o tempo; tornar-se."
    ],
    "nota": "«He grows worse and worse» é «ele fica cada vez pior»."
+  },
+  "grows#2": {
+   "lema": "grow",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Aumentar em tamanho, quantidade ou grau; crescer."
+   ],
+   "nota": "«There grows» é «ali cresce»: a avareza de Malcolm (fingida) se avoluma."
   },
   "gruel": {
    "lema": "gruel",
@@ -10357,6 +10519,14 @@
    ],
    "nota": "«Not so happy, yet much happier» é «menos feliz e, ainda assim, muito mais afortunado»."
   },
+  "happy#2": {
+   "lema": "happy",
+   "classe": "adjetivo",
+   "def": [
+    "(arcaico) Favorecido pela sorte; afortunado, próspero."
+   ],
+   "nota": "«The happy throne» é «o trono ditoso»: o trono próspero que foi esvaziado antes do tempo."
+  },
   "harbinger": {
    "lema": "harbinger",
    "classe": "substantivo",
@@ -10372,6 +10542,14 @@
     "De um ambiente pessoal ou social, que tem propriedade severa; que apresenta dificuldade; duro, rigoroso."
    ],
    "nota": "«His day's hard journey» é «a dura jornada do dia dele»."
+  },
+  "hard#2": {
+   "lema": "hard",
+   "classe": "adjetivo",
+   "def": [
+    "Difícil de fazer ou de entender; árduo."
+   ],
+   "nota": "«'Tis hard to reconcile» é «é difícil de conciliar»."
   },
   "hardy": {
    "lema": "hardy",
@@ -10922,6 +11100,14 @@
    "def": [
     "Ação dada para prestar assistência; ajuda, socorro."
    ]
+  },
+  "help#2": {
+   "lema": "help",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Prestar ajuda a (alguém); auxiliar."
+   ],
+   "nota": "«God help thee» é «que Deus te ajude»."
   },
   "hemlock": {
    "lema": "hemlock",
@@ -12434,6 +12620,14 @@
     "Exatamente, precisamente, perfeitamente."
    ]
   },
+  "just#2": {
+   "lema": "just",
+   "classe": "adjetivo",
+   "def": [
+    "Que age com justiça; que obedece ao que é certo; justo."
+   ],
+   "nota": "«Rightly just» é «justo com razão»: Macduff pode ser honesto de verdade, apesar das suspeitas de Malcolm."
+  },
   "justice": {
    "lema": "justice",
    "classe": "substantivo",
@@ -12441,6 +12635,13 @@
     "O ideal de equidade, de imparcialidade etc., em especial quanto à punição dos malfeitores; justiça."
    ],
    "nota": "Personificada, na fala do Sargento."
+  },
+  "justice#2": {
+   "lema": "justice",
+   "classe": "substantivo",
+   "def": [
+    "O ideal de equidade, de imparcialidade, de dar a cada um o que lhe cabe; justiça."
+   ]
   },
   "jutty": {
    "lema": "jutty",
@@ -12850,6 +13051,14 @@
    ],
    "nota": "«Your noble friends do lack you» é «vossos nobres amigos sentem a vossa falta»; «you lack the season of all natures» é «falta-vos o tempero de todas as naturezas»."
   },
+  "lack#2": {
+   "lema": "lack",
+   "classe": "substantivo",
+   "def": [
+    "Estado de quem não tem algo necessário; falta, carência."
+   ],
+   "nota": "«Our lack is nothing but our leave» é «só nos falta a licença (para partir)»: o exército está pronto."
+  },
   "ladies": {
    "lema": "lady",
    "classe": "substantivo",
@@ -13173,6 +13382,15 @@
     "(transitivo) Afastar-se de; deixar (alguém ou algum lugar)."
    ],
    "nota": "«Leaves him» é «deixa-o» (a bebida abandona o bebedor, depois de o derrubar)."
+  },
+  "leaves#2": {
+   "lema": "leave",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Transmitir como herança ou legado; legar."
+   ],
+   "nota": "«He leaves» é «ele lega»: o rei Eduardo deixa o dom de curar aos reis que lhe sucederem."
   },
   "leaving": {
    "lema": "leave",
@@ -13654,6 +13872,15 @@
    ],
    "nota": "«Thy gory locks» são «teus cabelos ensanguentados»."
   },
+  "locks#2": {
+   "lema": "lock",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Dispositivo de metal que se fecha com chave, para trancar uma porta, uma tampa etc.; fechadura."
+   ],
+   "nota": "«Open, locks» é «abri-vos, fechaduras»: a bruxa sente a chegada de Macbeth e manda a porta abrir-se sozinha."
+  },
   "lodged": {
    "lema": "lodge",
    "classe": "verbo",
@@ -13662,6 +13889,15 @@
     "(intransitivo) Ficar em um lugar ou abrigo qualquer; alojar-se."
    ],
    "nota": "«Two lodged together» é «dois alojados juntos» no mesmo quarto."
+  },
+  "lodged#2": {
+   "lema": "lodge",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(intransitivo, de cereais) Ser deitado ou acamado pelo vento ou pela chuva."
+   ],
+   "nota": "«Bladed corn be lodged» é «o trigo em espiga se deite por terra», abatido pela tempestade."
   },
   "long": {
    "lema": "long",
@@ -14146,6 +14382,14 @@
     "(datado, formal) Ser humano, pessoa, seja qual for o sexo ou gênero, em geral adulta."
    ],
    "nota": "«No man's life» é «a vida de nenhum homem»; em «man's act», é a ação do homem, da humanidade."
+  },
+  "man's#2": {
+   "lema": "man",
+   "classe": "substantivo",
+   "forma": "genitivo (possessivo) singular",
+   "def": [
+    "Humano adulto do sexo masculino; homem."
+   ]
   },
   "manhood": {
    "lema": "manhood",
@@ -14638,6 +14882,14 @@
     "Apenas, só; nada mais que, puro e simples."
    ],
    "nota": "«The mere lees» é «apenas as borras»."
+  },
+  "mere#2": {
+   "lema": "mere",
+   "classe": "adjetivo",
+   "def": [
+    "(obsoleto) Puro, sem mistura; completo, absoluto."
+   ],
+   "nota": "«Of your mere own» é «inteiramente do que é vosso»; «the mere despair of surgery» é «o puro desespero da cirurgia», a falta total de remédio."
   },
   "message": {
    "lema": "message",
@@ -16980,6 +17232,14 @@
    ],
    "nota": "Aqui é o acesso de angústia de Macbeth: o delírio que o toma."
   },
+  "passion#2": {
+   "lema": "passion",
+   "classe": "substantivo",
+   "def": [
+    "(obsoleto) Sofrimento ou emoção forte; comoção."
+   ],
+   "nota": "«This noble passion» é «esta nobre comoção»: o impulso de dor e de lealdade de Macduff."
+  },
   "past": {
    "lema": "past",
    "classe": "adjetivo",
@@ -17303,6 +17563,14 @@
     "(arcaico) Que sente piedade; misericordioso."
    ],
    "nota": "«Pitiful day» é «o dia compassivo», que teria pena de Banquo."
+  },
+  "pitiful#2": {
+   "lema": "pitiful",
+   "classe": "adjetivo",
+   "def": [
+    "Que desperta compaixão; digno de pena, lastimável."
+   ],
+   "nota": "«Pitiful to the eye» é «lastimável à vista»: os doentes de escrófula."
   },
   "pity": {
    "lema": "pity",
@@ -18297,6 +18565,13 @@
    ],
    "nota": "«Lady Macbeth, as queen» é «Lady Macbeth, como rainha»: ela entra agora coroada."
   },
+  "queen#2": {
+   "lema": "queen",
+   "classe": "substantivo",
+   "def": [
+    "A esposa, consorte ou viúva de um rei; rainha."
+   ]
+  },
   "quell": {
    "lema": "quell",
    "classe": "substantivo",
@@ -19171,6 +19446,13 @@
     "(transitivo) Vingar (um ato danoso) ou vingar-se por (sua vítima); desforrar."
    ]
   },
+  "revenge#2": {
+   "lema": "revenge",
+   "classe": "substantivo",
+   "def": [
+    "O ato de causar dano a alguém em retribuição a uma ofensa; vingança."
+   ]
+  },
   "revolt": {
    "lema": "revolt",
    "classe": "substantivo",
@@ -19814,6 +20096,14 @@
    ],
    "nota": "Aqui, cada um dos pratos da balança."
   },
+  "scale#2": {
+   "lema": "scale",
+   "classe": "substantivo",
+   "def": [
+    "Cada uma das pequenas placas duras que recobrem o corpo de peixes e répteis; escama."
+   ],
+   "nota": "«Scale of dragon» é «escama de dragão»: ingrediente do caldeirão."
+  },
   "scales": {
    "lema": "scale",
    "classe": "substantivo",
@@ -19914,6 +20204,14 @@
    "def": [
     "(transitivo) Sentir ou demonstrar desprezo por algo ou alguém; desdenhar."
    ]
+  },
+  "scorn#2": {
+   "lema": "scorn",
+   "classe": "substantivo",
+   "def": [
+    "Desprezo ou desdém que se mostra por alguém ou algo."
+   ],
+   "nota": "«Laugh to scorn» é «rir com desprezo», zombar: o espírito manda Macbeth escarnecer do poder dos homens."
   },
   "scorpions": {
    "lema": "scorpion",
@@ -20021,6 +20319,14 @@
     "(obsoleto) Aquilo que dá sabor; tempero."
    ],
    "nota": "«The season of all natures» é «o tempero de todas as naturezas»: o sono, que refaz a toda criatura."
+  },
+  "season#2": {
+   "lema": "season",
+   "classe": "substantivo",
+   "def": [
+    "Período de tempo; época, ocasião."
+   ],
+   "nota": "«The fits o' the season» são «os acessos da época»: as convulsões do tempo, a desordem que toma o reino."
   },
   "seat": {
    "lema": "seat",
@@ -21341,6 +21647,15 @@
     "Expressão do rosto formada ao se flexionarem os músculos das duas pontas da boca, muitas vezes mostrando os dentes da frente; sorriso."
    ]
   },
+  "smiles#2": {
+   "lema": "smile",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Mostrar um sorriso; sorrir."
+   ],
+   "nota": "«Banquo smiles upon me» é «Banquo sorri para mim»."
+  },
   "smiling": {
    "lema": "smile",
    "classe": "verbo",
@@ -21381,6 +21696,14 @@
     "Qualquer réptil sem pernas da subordem Serpentes, de corpo alongado e língua bifurcada."
    ],
    "nota": "Aqui é a serpente do perigo: o inimigo que, só ferido, volta a se fechar e a morder."
+  },
+  "snake#2": {
+   "lema": "snake",
+   "classe": "substantivo",
+   "def": [
+    "Qualquer réptil sem pernas, de corpo alongado e coberto de escamas; serpente, cobra."
+   ],
+   "nota": "«Fenny snake» é «cobra do pântano»: um dos ingredientes do caldeirão."
   },
   "snores": {
    "lema": "snore",
@@ -21665,6 +21988,13 @@
    ],
    "nota": "«Things that do sound so fair» são «coisas que soam tão bem»."
   },
+  "sound#2": {
+   "lema": "sound",
+   "classe": "substantivo",
+   "def": [
+    "O que se percebe pelo ouvido; som, ruído."
+   ]
+  },
   "sounded": {
    "lema": "sound",
    "classe": "verbo",
@@ -21895,6 +22225,14 @@
     "(transitivo) Tratar com malícia; tentar ferir ou contrariar."
    ],
    "nota": "«To spite the world» é «para afrontar o mundo», para ferir ou contrariar o mundo."
+  },
+  "spite#2": {
+   "lema": "in spite of",
+   "classe": "locução prepositiva",
+   "def": [
+    "Apesar de; a despeito de."
+   ],
+   "nota": "«In spite of thunder» é «apesar do trovão»."
   },
   "spiteful": {
    "lema": "spiteful",
@@ -24378,6 +24716,13 @@
    ],
    "nota": "Aqui, a fala: «the valour of my tongue» é a força das palavras."
   },
+  "tongue#2": {
+   "lema": "tongue",
+   "classe": "substantivo",
+   "def": [
+    "O órgão muscular flexível da boca, usado para provar, lamber e (nos humanos) falar; língua."
+   ]
+  },
   "tongues": {
    "lema": "tongue",
    "classe": "substantivo",
@@ -24489,6 +24834,22 @@
     "(transitivo) Entrar em contato físico com; tocar."
    ],
    "nota": "Sentido figurado: «can touch him further» é «pode atingi-lo mais»: nada mais pode atingir Duncan."
+  },
+  "touch#2": {
+   "lema": "touch",
+   "classe": "substantivo",
+   "def": [
+    "(figurado) Sensibilidade; sentimento, afeto."
+   ],
+   "nota": "«The natural touch» é «o sentimento natural»: o afeto que, por instinto, liga o pai aos filhos."
+  },
+  "touch#3": {
+   "lema": "touch",
+   "classe": "substantivo",
+   "def": [
+    "O ato de tocar; contato da mão com algo."
+   ],
+   "nota": "«At his touch» é «ao seu toque»: o rei Eduardo cura com a imposição das mãos."
   },
   "touch'd": {
    "lema": "touch",
@@ -25630,6 +25991,14 @@
     "Toxina animal destinada à defesa ou ao ataque; veneno biológico inoculado por mordida, picada etc."
    ],
    "nota": "«Hath nature that in time will venom breed» é «tem a natureza em si o que com o tempo criará veneno»: o filho crescerá e será perigoso."
+  },
+  "venom#2": {
+   "lema": "venom",
+   "classe": "substantivo",
+   "def": [
+    "Toxina animal destinada à defesa ou ao ataque; veneno biológico inoculado por mordida, picada ou ferrão."
+   ],
+   "nota": "«Swelter'd venom» é «veneno suado»: o do sapo, que as bruxas jogam primeiro no caldeirão."
   },
   "venture": {
    "lema": "venture",
@@ -26968,6 +27337,13 @@
     "(arcaico) Exclamação de dor."
    ],
    "nota": "«Woe, alas!» é «ai, que dor!»."
+  },
+  "woe#2": {
+   "lema": "woe",
+   "classe": "substantivo",
+   "def": [
+    "Grande dor ou aflição; pesar."
+   ]
   },
   "woful": {
    "lema": "woeful",
@@ -28641,25 +29017,36 @@
   "18:51.1": "fly#2",
   "18:52.6": "that#4",
   "18:54.3": "hand#2",
+  "19:3.4": "cat#2",
   "19:4.3": "once#3",
   "19:5.4": "time#3",
   "19:5.6": "time#3",
   "19:6.1": "round#2",
   "19:8.2": "that#2",
+  "19:10.2": "venom#2",
   "19:11.4": "i'",
+  "19:14.5": "snake#2",
+  "19:17.5": "tongue#2",
+  "19:24.1": "scale#2",
   "19:27.5": "i'",
+  "19:29.1": "gall#2",
   "19:34.1": "make#2",
   "19:34.4": "thick#2",
   "19:43.6": "i'",
   "19:46.3": "that#2",
   "19:46.5": "put#3",
   "19:47.6": "spirits#2",
+  "19:51.2": "locks#2",
   "19:54.2": "now#2",
   "19:55.4": "do#2",
   "19:58.4": "to#2",
+  "19:58.7": "answer#2",
   "19:59.9": "fight#2",
+  "19:62.5": "lodged#2",
   "19:65.2": "heads#2",
+  "19:67.5": "answer#2",
   "19:68.2": "what#2",
+  "19:71.2": "answer#2",
   "19:74.1": "call#2",
   "19:75.5": "that#2",
   "19:80.3": "office#2",
@@ -28670,20 +29057,24 @@
   "19:91.1": "more#2",
   "19:91.5": "first#2",
   "19:94.1": "had#2",
+  "19:95.8": "scorn#2",
   "19:96.4": "man#2",
   "19:96.5": "for#2",
   "19:98.1": "then#2",
   "19:98.4": "what#5",
   "19:99.4": "make#2",
   "19:99.6": "double#2",
+  "19:100.4": "bond#2",
   "19:101.1": "that#4",
   "19:101.6": "fear#2",
+  "19:102.4": "spite#2",
   "19:105.1": "that#2",
   "19:110.1": "who#3",
   "19:110.3": "who#3",
   "19:115.6": "bid#2",
   "19:116.2": "his#2",
   "19:119.6": "nature#2",
+  "19:120.5": "custom#2",
   "19:120.6": "yet#2",
   "19:120.8": "heart#2",
   "19:121.2": "to#2",
@@ -28705,11 +29096,14 @@
   "19:143.7": "some#2",
   "19:144.1": "that#2",
   "19:146.1": "for#2",
+  "19:146.5": "smiles#2",
   "19:147.7": "what#4",
   "19:147.10": "so#2",
   "19:148.6": "so#2",
+  "19:150.3": "cheer#2",
   "19:152.2": "charm#2",
   "19:152.5": "to#2",
+  "19:152.8": "sound#2",
   "19:154.1": "that#4",
   "19:157.1": "where#2",
   "19:158.1": "stand#2",
@@ -28732,19 +29126,23 @@
   "20:3.5": "to#2",
   "20:3.6": "make#2",
   "20:5.2": "had#2",
+  "20:6.2": "flight#2",
   "20:6.8": "do#3",
   "20:7.4": "make#2",
   "20:9.8": "fear#2",
   "20:10.2": "to#2",
   "20:10.6": "to#2",
   "20:12.7": "loves#2",
+  "20:13.5": "touch#2",
   "20:13.6": "for#2",
   "20:13.8": "poor#2",
   "20:14.7": "fight#2",
   "20:16.4": "fear#2",
   "20:17.1": "as#2",
+  "20:17.8": "flight#2",
   "20:18.1": "so#2",
   "20:22.3": "o'",
+  "20:22.5": "season#2",
   "20:23.5": "times#2",
   "20:24.8": "hold#7",
   "20:25.2": "what#2",
@@ -28788,14 +29186,17 @@
   "20:62.8": "for#2",
   "20:63.6": "to#2",
   "20:63.10": "men#3",
+  "20:65.3": "help#2",
   "20:65.5": "poor#2",
   "20:66.3": "do#2",
   "20:68.7": "that#5",
   "20:70.1": "poor#2",
   "20:73.4": "state#2",
   "20:73.9": "perfect#2",
+  "20:74.4": "danger#2",
   "20:74.6": "approach#2",
   "20:75.3": "will#2",
+  "20:75.7": "man's#2",
   "20:77.1": "to#2",
   "20:78.1": "to#2",
   "20:78.2": "do#2",
@@ -28826,6 +29227,7 @@
   "21:13.5": "what#2",
   "21:14.3": "shall#3",
   "21:14.6": "time#2",
+  "21:14.8": "friend#2",
   "21:15.1": "what#2",
   "21:15.3": "have#2",
   "21:15.8": "so#2",
@@ -28851,6 +29253,7 @@
   "21:33.1": "those#2",
   "21:33.4": "those#2",
   "21:36.2": "mine#2",
+  "21:36.9": "just#2",
   "21:37.3": "shall#3",
   "21:38.3": "poor#2",
   "21:40.1": "for#2",
@@ -28871,6 +29274,7 @@
   "21:62.3": "as#2",
   "21:62.9": "poor#2",
   "21:62.10": "state#3",
+  "21:63.1": "esteem#2",
   "21:63.3": "as#3",
   "21:63.5": "lamb#2",
   "21:63.6": "being#2",
@@ -28883,6 +29287,7 @@
   "21:76.5": "will#3",
   "21:77.5": "to#2",
   "21:79.2": "nature#2",
+  "21:80.6": "happy#2",
   "21:81.2": "fall#2",
   "21:82.1": "to#2",
   "21:82.5": "what#2",
@@ -28891,26 +29296,38 @@
   "21:84.9": "so#2",
   "21:86.1": "that#6",
   "21:86.5": "to#2",
+  "21:89.4": "grows#2",
   "21:91.4": "that#2",
   "21:94.6": "as#3",
   "21:95.1": "to#2",
   "21:95.2": "make#2",
   "21:95.5": "more#2",
   "21:95.6": "that#3",
+  "21:99.3": "grows#2",
   "21:99.5": "more#2",
   "21:101.7": "yet#2",
   "21:102.4": "to#2",
   "21:102.8": "will#3",
+  "21:103.3": "mere#2",
+  "21:104.3": "graces#2",
+  "21:105.7": "graces#2",
+  "21:106.2": "justice#2",
   "21:111.5": "nay#2",
   "21:111.6": "had#2",
+  "21:116.6": "fit#2",
   "21:116.7": "to#2",
   "21:117.5": "have#2",
+  "21:118.1": "fit#2",
   "21:118.2": "to#2",
   "21:119.3": "to#2",
   "21:122.1": "since#2",
   "21:122.2": "that#5",
+  "21:124.5": "breed#2",
+  "21:125.7": "queen#2",
   "21:125.8": "that#2",
   "21:129.1": "have#2",
+  "21:130.3": "ends#2",
+  "21:131.4": "passion#2",
   "21:132.1": "child#3",
   "21:135.8": "to#2",
   "21:138.6": "for#2",
@@ -28921,6 +29338,8 @@
   "21:144.4": "what#2",
   "21:144.6": "mine#2",
   "21:145.3": "time#3",
+  "21:145.4": "broke#2",
+  "21:146.7": "delight#2",
   "21:147.8": "first#2",
   "21:148.5": "what#2",
   "21:149.5": "poor#2",
@@ -28929,15 +29348,21 @@
   "21:152.4": "point#2",
   "21:152.5": "was#3",
   "21:155.2": "welcome#3",
+  "21:156.2": "hard#2",
   "21:156.3": "to#2",
   "21:160.1": "that#2",
   "21:161.5": "art#2",
+  "21:161.9": "touch#3",
   "21:162.4": "heaven#3",
   "21:168.3": "since#3",
   "21:169.2": "have#2",
   "21:169.5": "do#2",
   "21:169.9": "heaven#3",
+  "21:171.5": "pitiful#2",
+  "21:172.2": "mere#2",
   "21:174.1": "put#3",
+  "21:175.6": "leaves#2",
+  "21:177.5": "gift#2",
   "21:179.1": "that#2",
   "21:179.6": "grace#4",
   "21:182.4": "yet#2",
@@ -28945,6 +29370,7 @@
   "21:183.5": "welcome#2",
   "21:185.3": "that#2",
   "21:185.4": "makes#2",
+  "21:186.2": "amen#2",
   "21:188.2": "poor#2",
   "21:189.3": "to#2",
   "21:190.4": "mother#2",
@@ -28953,6 +29379,7 @@
   "21:191.6": "once#5",
   "21:191.8": "to#2",
   "21:192.7": "that#2",
+  "21:194.6": "man's#2",
   "21:195.10": "lives#2",
   "21:196.2": "before#5",
   "21:197.5": "sicken#2",
@@ -28973,7 +29400,10 @@
   "21:222.1": "that#2",
   "21:225.1": "that#2",
   "21:228.2": "general#2",
+  "21:229.1": "due#2",
+  "21:231.6": "woe#2",
   "21:231.10": "part#3",
+  "21:236.8": "sound#2",
   "21:237.1": "that#2",
   "21:240.3": "to#2",
   "21:242.1": "to#2",
@@ -28987,6 +29417,7 @@
   "21:251.4": "too#2",
   "21:252.2": "have#2",
   "21:254.2": "make",
+  "21:254.8": "revenge#2",
   "21:255.1": "to#2",
   "21:255.2": "cure#2",
   "21:258.1": "what#4",
@@ -29009,6 +29440,7 @@
   "21:275.5": "set#3",
   "21:276.1": "heaven#3",
   "21:276.4": "too#2",
+  "21:279.2": "lack#2",
   "21:279.5": "but#2",
   "21:279.7": "leave#2",
   "21:281.6": "what#2",

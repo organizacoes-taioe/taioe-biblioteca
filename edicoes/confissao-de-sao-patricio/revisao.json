@@ -1,0 +1,164 @@
+{
+ "id": "sao-patricio-confissao",
+ "rotulo": "Confissão (São Patrício)",
+ "url": "/biblioteca/sao-patricio/confissao/",
+ "escolhas": [
+  {
+   "id": "hiberio-irlanda",
+   "titulo": "*Hiberio* fica «Irlanda»?",
+   "ref": "1; 16; 23; 28; 41; 62",
+   "contexto": "Patrício chama a ilha *Hiberio* (*Hiberione*, «na Irlanda»), forma latina própria dele, ao lado da *Hibernia* dos autores clássicos.\n\nHoje: «fui levado cativo para a Irlanda» (1), «depois que cheguei à Irlanda» (16), «escreveu na Irlanda» (62).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Irlanda», como está",
+     "nota": "O nome que o leitor conhece; o latim ao lado mostra a forma de Patrício.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Hibérnia»",
+     "nota": "Mais próximo do latim e com sabor antigo, mas é a forma clássica, que Patrício não usa."
+    }
+   ]
+  },
+  {
+   "id": "scotti-irlandeses",
+   "titulo": "Os *Scotti* ficam «irlandeses»?",
+   "ref": "41; 42",
+   "contexto": "No tempo de Patrício, *Scotti* eram os irlandeses (só séculos depois o nome passou aos habitantes da Escócia). *Filii Scottorum et filiae regulorum* (41); *una benedicta Scotta* (42). Em 23 ele diz *Uox Hiberionacum*, também «dos irlandeses».\n\nHoje: «Filhos dos irlandeses e filhas de pequenos reis» (41); «uma irlandesa abençoada» (42); «A voz dos irlandeses» (23).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«irlandeses», como está",
+     "nota": "Diz ao leitor quem são, sem nota.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«escotos»",
+     "nota": "Literal e histórico, mas o leitor entende «escoceses»."
+    }
+   ]
+  },
+  {
+   "id": "elias-sol",
+   "titulo": "O grito de 20 fica «Elias»?",
+   "ref": "20",
+   "contexto": "Satanás cai sobre Patrício como uma pedra; ele grita *Heliam* e vê o sol nascer, e o esplendor do sol o liberta. *Helias* é Elias, o profeta; mas soa como *Helios*, o sol em grego, e muitos estudiosos veem aí um jogo que o próprio Patrício talvez sentisse.\n\nHoje: «chamar Elias», «enquanto eu gritava “Elias!”».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Elias», como está",
+     "nota": "O que a palavra diz; o jogo com o sol fica para o leitor atento, como no latim.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Hélias»",
+     "nota": "Guarda a semelhança com Hélio (o sol), mas o leitor não reconhece o profeta."
+    }
+   ]
+  },
+  {
+   "id": "rusticatio",
+   "titulo": "A citação de 11 fica «Também a rusticidade foi criada pelo Altíssimo»?",
+   "ref": "11",
+   "contexto": "Patrício cita Eclo 7,16 (*rusticationem creatam ab Altissimo*), onde a palavra quer dizer o trabalho do campo, e a aplica à própria *rusticitas*, a falta de instrução de que se acusa no livro todo.\n\nHoje: «E o Espírito testemunha ainda: “Também a rusticidade foi criada pelo Altíssimo” (Eclo 7,16).»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«a rusticidade», como está",
+     "nota": "Guarda o sentido que Patrício dá ao versículo e liga a frase ao «o mais rústico» de 1.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o trabalho do campo»",
+     "nota": "O sentido do Eclesiástico; perde a razão pela qual Patrício o cita."
+    }
+   ]
+  },
+  {
+   "id": "mamas",
+   "titulo": "Em 18 fica «recusei-me a sugar-lhes os peitos»?",
+   "ref": "18",
+   "contexto": "Os marinheiros pagãos aceitam Patrício a bordo e lhe propõem amizade; ele *reppuli sugere mammellas eorum propter timorem Dei*. Era, ao que parece, um rito de pacto (sugar o peito de alguém como sinal de adoção ou de proteção), que ele recusa por ser pagão.\n\nHoje: «E naquele dia, por temor de Deus, recusei-me a sugar-lhes os peitos.»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«recusei-me a sugar-lhes os peitos», como está",
+     "nota": "Literal; o estranho do gesto é do texto, e o leitor entende que era um rito.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«recusei-me a selar a amizade com eles ao modo deles»",
+     "nota": "Mais claro, mas é explicação nossa, e o gesto desaparece."
+    }
+   ]
+  },
+  {
+   "id": "seniores",
+   "titulo": "Os *seniores* de Patrício ficam «superiores»?",
+   "ref": "26; 37",
+   "contexto": "*ab aliquantis senioribus meis* (26), *aliquantis de senioribus meis* (37): os que o acusam e os que se opõem à missão são homens da Igreja da Britânia com autoridade sobre ele (talvez bispos). *Senior* é «ancião», mas aqui o peso é o da autoridade, não da idade.\n\nHoje: «alguns dos meus superiores» (26 e 37); em 40, nos versos de Joel, *seniores uestri* ficou «os vossos anciãos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«superiores», como está",
+     "nota": "Diz a relação que importa na história: quem o julga tem autoridade sobre ele.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«anciãos»",
+     "nota": "Literal e com cor de Igreja antiga; pode dar a ideia só de idade."
+    },
+    {
+     "id": "c",
+     "texto": "«os mais velhos»",
+     "nota": "Simples, mas fraco para quem o julga como bispo."
+    }
+   ]
+  },
+  {
+   "id": "in-uerbis",
+   "titulo": "Em 10 fica «quase menino, ainda sem palavras»?",
+   "ref": "10",
+   "contexto": "*Adulescens, immo pene puer, in uerbis capturam dedi*. White imprime *in uerbis* («nas palavras»), separado; outros editores leem uma palavra só, *inuerbis*, que entendem como «sem fala» (como *infans*) ou como *imberbis*, «sem barba».\n\nHoje: «Adolescente, ou melhor, quase menino, ainda sem palavras, fui feito cativo».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«ainda sem palavras», como está",
+     "nota": "Serve à leitura de White e à de «sem fala», e combina com o assunto do parágrafo (a falta de instrução na língua).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«ainda sem barba»",
+     "nota": "A leitura *imberbis*: dá a idade, mas não é o texto de White."
+    }
+   ]
+  },
+  {
+   "id": "nao-49",
+   "titulo": "Em 49 a tradução lê «não», que falta no texto de White?",
+   "ref": "49",
+   "contexto": "Patrício explica por que devolvia os presentes: *ita ut me in aliquo titulo infideles caperent… nec etiam in minimo incredulis locum darem*. O *nec* («nem») da segunda metade pede um «não» na primeira, que os manuscritos usados por outros editores trazem (*ut non me… caperent*) e o texto de White não traz.\n\nHoje: «de modo que os infiéis não me apanhassem em pretexto algum, nem ao ministério do meu serviço».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "ler o «não», como está",
+     "nota": "É o sentido que o parágrafo inteiro pede.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "seguir White à letra («para que os infiéis me apanhassem»)",
+     "nota": "Fiel à letra impressa, mas contradiz a frase seguinte."
+    }
+   ]
+  }
+ ]
+}

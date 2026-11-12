@@ -1,0 +1,141 @@
+{
+ "id": "sobre-a-unidade-da-igreja",
+ "rotulo": "Sobre a unidade da Igreja católica (São Cipriano)",
+ "url": "/biblioteca/sao-cipriano/sobre-a-unidade-da-igreja/",
+ "escolhas": [
+  {
+   "id": "cap4-redacoes",
+   "titulo": "As duas redações do capítulo 4 (o primado de Pedro): como apresentar?",
+   "ref": "cap. 4",
+   "contexto": "O cap. 4 chegou em duas formas. A comum (*textus receptus*), que Hartel põe no texto: o Senhor edifica a Igreja «sobre um só» e depois dá a todos os apóstolos igual poder, «para manifestar a unidade»; «os outros apóstolos eram o mesmo que foi Pedro, dotados de igual participação na honra e no poder». A outra, que Hartel deixa no aparato e dá pelo códice M (de Munique), acrescenta «Apascenta as minhas ovelhas», «o primado é dado a Pedro, para que se mostre uma só Igreja e uma só cátedra» e «quem abandona a cátedra de Pedro, sobre a qual está fundada a Igreja, confia estar na Igreja?». Hartel a julgou interpolação; muitos estudiosos hoje (a discussão é antiga e tocou a polêmica com os protestantes) pensam que as duas são de Cipriano, que teria revisto o capítulo. M traz as duas em seguida.\n\nHoje: no texto, a redação de Hartel; logo depois do cap. 4, um bloco à parte, em itálico na abertura, com a tradução do acréscimo de M (e o latim dele ao lado); a página «Sobre» explica as duas redações.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "texto de Hartel e o acréscimo de M num bloco logo depois do cap. 4, como está",
+     "nota": "O leitor vê as duas no lugar em que importam, sem que a edição-base seja alterada; nada fica escondido.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "texto de Hartel; a outra redação só na página «Sobre»",
+     "nota": "Mais limpo, mas o leitor do cap. 4 não a vê."
+    },
+    {
+     "id": "c",
+     "texto": "a redação do primado no texto e a de Hartel no bloco à parte",
+     "nota": "Segue a forma que muitas edições católicas antigas imprimiam; mas não é o texto de Hartel, a edição-base."
+    }
+   ]
+  },
+  {
+   "id": "titulo",
+   "titulo": "O título fica «Sobre a unidade da Igreja católica»?",
+   "ref": "título",
+   "contexto": "Hartel imprime *De catholicae ecclesiae unitate*; a obra também é citada só como *De unitate ecclesiae*. *Catholica* aqui é «universal», mas a palavra já designava a Igreja.\n\nHoje: «Sobre a unidade da Igreja católica». No pedido estava «Sobre a unidade da Igreja».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Sobre a unidade da Igreja católica», como está",
+     "nota": "O título da edição-base, inteiro.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Sobre a unidade da Igreja»",
+     "nota": "Mais curto, como é citado muitas vezes."
+    },
+    {
+     "id": "c",
+     "texto": "«A unidade da Igreja católica»",
+     "nota": "Sem o «Sobre», mais à maneira de título de hoje."
+    }
+   ]
+  },
+  {
+   "id": "in-solidum",
+   "titulo": "*Episcopatus unus est, cuius a singulis in solidum pars tenetur* fica «cada um tem dele uma parte, solidariamente pelo todo»?",
+   "ref": "cap. 5",
+   "contexto": "Frase célebre e difícil. *In solidum* é termo de direito: a obrigação ou a posse que cada um tem «pelo todo» (como o devedor solidário). Cipriano quer dizer que cada bispo tem a sua parte do único episcopado, mas responde pelo todo.\n\nHoje: «O episcopado é um só, e cada um tem dele uma parte, solidariamente pelo todo.»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«cada um tem dele uma parte, solidariamente pelo todo», como está",
+     "nota": "Guarda o termo jurídico e o sentido de responsabilidade comum.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«do qual cada um possui uma parte sem divisão do todo»",
+     "nota": "Interpretação: a parte de cada um é o todo; mais teológica, menos literal."
+    },
+    {
+     "id": "c",
+     "texto": "«cada um tem dele, de modo solidário, a sua parte»",
+     "nota": "Mais leve, mas «solidário» pode soar só como «generoso»."
+    }
+   ]
+  },
+  {
+   "id": "sacramentum",
+   "titulo": "*Sacramentum unitatis* fica «sacramento da unidade»?",
+   "ref": "caps. 4; 6; 7; 8; 15; 19",
+   "contexto": "Cipriano usa *sacramentum* no sentido antigo, largo: mistério, sinal sagrado, juramento (*sacramentum unitatis*, 4 e 7; *sacramento uestis et signo*, 7; *sacramentum Paschae*, 8; *sacramentis caelestibus*, 6; *sacramentum profanat*, 15; *Dei sacramenta disturbat*, 19).\n\nHoje: «sacramento» em todos.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«sacramento» em todos, como está",
+     "nota": "A palavra do autor, que o leitor católico entende no sentido largo; o latim ao lado mostra o mesmo termo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«mistério» onde não é rito («o mistério da unidade»)",
+     "nota": "Mais claro para o leitor de hoje, mas a tradução decide por Cipriano o que ele deixa em uma palavra só."
+    }
+   ]
+  },
+  {
+   "id": "sacerdotes",
+   "titulo": "Os *sacerdotes* de Cipriano (os bispos) ficam «sacerdotes»?",
+   "ref": "caps. 13; 17; 18; 21",
+   "contexto": "Cipriano chama *sacerdos* sobretudo ao bispo (*aemuli sacerdotum*, 13; *aduersum sacerdotes Christi*, *contemptis episcopis et Dei sacerdotibus derelictis*, 17; *contra fratres et Dei sacerdotes*, 21); em 18, *Aaron sacerdotem* e *Azaria sacerdote* são os sacerdotes do Antigo Testamento, figura dos bispos.\n\nHoje: «sacerdotes» sempre.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«sacerdotes», como está",
+     "nota": "A palavra dele, e a ligação com Aarão (18) fica visível; a página «Sobre» avisa que são os bispos.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«bispos» onde são os bispos",
+     "nota": "Mais claro, mas some o paralelo com o sacerdócio de Aarão."
+    }
+   ]
+  },
+  {
+   "id": "lapsi",
+   "titulo": "Os *lapsi* ficam «os caídos»?",
+   "ref": "cap. 19",
+   "contexto": "*Lapsi* eram os que tinham renegado a fé na perseguição de Décio (sacrificando aos deuses ou comprando o certificado de que tinham sacrificado). Cipriano compara o pecado deles com o do cismático: *peius hoc crimen est quam quod admisisse lapsi uidentur*.\n\nHoje: «os caídos», «o caído».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«os caídos», como está",
+     "nota": "Literal, e é o nome que a história da Igreja em português costuma dar.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«os lapsos»",
+     "nota": "Termo técnico, decalcado do latim; pouco claro para o leitor comum."
+    },
+    {
+     "id": "c",
+     "texto": "«os que renegaram a fé»",
+     "nota": "Explica, mas perde o nome do grupo."
+    }
+   ]
+  }
+ ]
+}

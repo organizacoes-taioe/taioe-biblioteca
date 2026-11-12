@@ -236,6 +236,8 @@ def enclise(t):
         return None
     base, v, pron = m.groups()
     nv = {'a': 'á', 'e': 'ê', 'i': 'i', 'o': 'ô', 'ô': 'ô', 'u': 'u'}[v]
+    if v == 'o' and (base.endswith('m') or base in ('n', 'v', 'N', 'V')):      # achamo-la, havemo-las, no-lo, vo-lo
+        nv = 'o'
     return G.atual(base + v + 'r')[0][:-2] + nv + '-l' + pron
 
 

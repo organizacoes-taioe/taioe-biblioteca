@@ -229,5 +229,6 @@ def depois(s):
     import re
     s = re.sub(r'(?<=[A-Za-zÀ-ÿ.,;:!?])\s?\(?\d{1,3}\)', '', s)
     s = re.sub(r'\b(e|que|com|de|por|para|do|da|dos|das) (Os|As|O|A)(?= [a-zà-ÿ])', lambda m: m.group(1) + ' ' + m.group(2).lower(), s)
+    s = s.replace('nô-las', 'no-las').replace('nô-lo', 'no-lo').replace('vô-lo', 'vo-lo')
     s = re.sub(r' {2,}', ' ', s)
     return s.replace('Rio de janeiro', 'Rio de Janeiro')

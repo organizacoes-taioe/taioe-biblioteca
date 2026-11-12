@@ -12,3 +12,4 @@
 157/35: não deu para ver se a linha é recuada (¶ mantido do texto atual).
 182/4: impresso traz "qse" (por que se); 182/10: "omnimo" em itálico (talvez omnino); transcritos como estão.
 194/12: impresso traz "semrazões"; transcrito como está. 191/21: recorte corta o fim da linha (data "de 1563 anos"?), mantida a cobertura do texto atual.
+208/7: impresso traz "que confidit" (por qui); 208/31: "cansem" (por cansam); transcritos como estão. 208/25: apóstrofo tipográfico ’ usado.

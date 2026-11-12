@@ -15,3 +15,8 @@
 208/7: impresso traz "que confidit" (por qui); 208/31: "cansem" (por cansam); transcritos como estão. 208/25: apóstrofo tipográfico ’ usado.
 212/34: o texto atual trazia "pa218" (página 218 colada); escrevi "paz" (palavra inteira, a divisão pa-/z não vi no recorte). 213/3: "ha-/viam" escrevi haviam.
 222/22: impresso "sejára" e "era fato certo" (texto atual trazia exa); 223/17: "Que é do Padre?" com espaço fino antes de ? no impresso, normalizado sem espaço.
+226/35 e 227/0: número de página (229) cortava 'es-/tava'; escrevi 'estava' no fim de 226/35 e 227/0 começa em 'ainda'.
+229/37 e 230/0: número 232 colado em "aco232"; escrevi "acolhemo-nos" no fim de 229/37 e 230/0 começa em "á terra". 230/31: impresso "celoces" (por celeres); 231/14: "ende" (por onde); 230/24 "entranhavelmente" como impresso na fonte do OCR (imagem: entranhavelmente). Itálico das citações latinas marcado com _ _, parênteses em romano.
+235/9: 'locustœ' (œ ou æ? lido œ no recorte).
+236/37: impresso 'faza' (por fazia/fazer).
+248/3-4 e 248/35, 249/0: palavras partidas (der-/radeiro; France-/ses) postas inteiras no fim da linha de cima; a linha de baixo começa depois delas (o texto atual não seguia a cobertura).

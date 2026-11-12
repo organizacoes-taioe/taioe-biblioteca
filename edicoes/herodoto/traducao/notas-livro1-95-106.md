@@ -40,3 +40,7 @@
 ## Candidatos a decisão do Gere
 - 96.2 μνώμενος ἀρχήν → «como quem cortejava o poder» (imagem do grego). Alternativa sem imagem: «como quem ambicionava
   o poder».
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos os anos de reinado, as tribos medas, as cores das ameias de Ecbátana, a rota dos citas e os termos fixos). Dúvidas: nenhuma.

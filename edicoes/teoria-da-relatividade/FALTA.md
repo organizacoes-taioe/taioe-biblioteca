@@ -11,7 +11,10 @@ de 1920 aplicadas (lista em `diff1920.txt` no rascunho); parte III, Anhang e not
 de 1920, conferido nas imagens. **O alemão só entra por script** (nunca colado à mão).
 
 Estado (2026-11-12):
-- [x] fontes baixadas; `original/prefacio.txt`, `parte-1.txt`, `parte-2.txt` = 1917 cru (falta aplicar as mudanças de 1920)
-- [ ] aplicar as mudanças de 1920 nas partes I–II (por script) e conferir nas imagens
-- [ ] parte III e Anhang do OCR (por script), conferidos nas imagens; Nachtrag
-- [ ] tradução, parte por parte (`traducao/`), `CONVENCOES.md`, `obra.py`, `revisao.json`, vocabulário
+- [x] alemão montado por script: `bash ~/.cache/claude-pedidos-0511/teoria-da-relatividade/scripts/construir.sh`
+  (cópia dos scripts e das listas de correção em `.../fontes-git/`; reconstrói `original/` inteiro)
+- [x] tradução: prefácio + adendo, parte I (§§ 1–17). Trechos em `~/.cache/claude-pedidos-0511/teoria-da-relatividade/trad/p<N>-*.txt`,
+  juntados por `scripts/juntar.sh` em `traducao/parte-<N>.txt` (confere blocos e marcas com o original)
+- [ ] tradução: parte II (§§ 18–29), parte III (§§ 30–32), apêndice
+- [ ] figuras (4: Fig. 1, 2, 3 e a do tubo de Fizeau): hoje são blocos `{fig N}` nos dois lados; falta decidir o desenho (SVG) e o gerador
+- [ ] `obra.py`, `CONVENCOES.md`, `original/LEIAME.md`, `revisao.json` (~8), vocabulário, `traducoes.py`, gerar e conferir

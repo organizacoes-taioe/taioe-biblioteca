@@ -45,3 +45,7 @@
   Alternativas: «o mais indecente», «o mais torpe». Adotei «vergonhoso», o par de αἰσχρός; νόμος como «costume» em
   todo o trecho (196.1 «os costumes», 196.5 «o seu costume mais belo»), e «lei» só onde se trata de cumprir a
   obrigação (196.4, 199.5).
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos os números de canais e de estádios, as medidas persas, o cerco e a tomada de Babilônia, os costumes babilônios; lacuna de 193.2 e colchetes de 196.5 mantidos). Dúvidas: nenhuma.

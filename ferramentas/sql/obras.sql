@@ -2,6 +2,7 @@
 -- Aplicado pelo workflow Catálogo do taioe-infra, primeiro no teste e depois na produção.
 -- Obra que sai do site continua no catálogo: as posições de leitura guardadas dependem dela.
 insert into biblioteca.obras (obra, titulo) values
+  ('albert-einstein/teoria-da-relatividade', 'Sobre a teoria da relatividade especial e geral'),
   ('alberto-de-oliveira/alma-em-flor', 'Alma em Flor'),
   ('alberto-de-oliveira/meridionais-a-janela-de-julieta', 'A janela de Julieta'),
   ('alberto-de-oliveira/meridionais-a-primeira-paixao', 'A primeira paixão'),

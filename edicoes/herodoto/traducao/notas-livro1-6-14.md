@@ -22,3 +22,10 @@
 ## Candidatos a decisão do Gere
 - 8.3, a frase do pudor (adotada: «com a túnica que despe, despe também o pudor»; alternativa: «a mulher, ao tirar a
   roupa, tira com ela a vergonha»).
+
+## Revisão contra o grego
+
+Correção:
+- 9.1: «desde o começo» → suprimido («de tal modo que ela nem chegue a saber»): ἀρχήν é advérbio de reforço («de modo algum, em absoluto»), não «desde o começo»; ficou só o sentido de que ela nem chegará a saber.
+
+Dúvida (não corrigida): 8.3 «palavra doentia» para λόγον οὐχ ὑγιέα (Godley: «unwholesome»); serve, mas o tradutor pode preferir «palavra imprópria».

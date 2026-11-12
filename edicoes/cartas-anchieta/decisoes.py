@@ -81,9 +81,8 @@ def italicos(texto):
     partes = re.split(r'(_[^_]+_)', texto)
     for i in range(0, len(partes), 2):
         p = partes[i]
-        for fr in sorted(LATIM_ITALICO, key=len, reverse=True):
-            p = re.sub(r'(?<![A-Za-zÀ-ÿ_])' + re.escape(fr) + r'(?![A-Za-zÀ-ÿ_])', '_' + fr + '_', p)
-        partes[i] = p
+        alt = '|'.join(re.escape(fr) for fr in sorted(LATIM_ITALICO, key=len, reverse=True))
+        partes[i] = re.sub(r'(?<![A-Za-zÀ-ÿ_])(' + alt + r')(?![A-Za-zÀ-ÿ_])', r'_\1_', p)
     t = ''.join(partes)
     for _ in range(3):
         t = re.sub(r'_([^_]+)_([ ,;:.]+)_([^_]+)_', r'_\1\2\3_', t)
@@ -94,6 +93,11 @@ def italicos(texto):
 # forma de 1897 → forma de hoje (palavra inteira; em minúscula vale para qualquer caixa)
 MANUAL = {
     # 1933 (Cartas de Anchieta)
+    'estulticia': 'estultícia', 'discreção': 'discrição', 'dansar': 'dançar', 'aprêsto': 'apresto',
+    'exgotava-se': 'esgotava-se', 'solito': 'sólito', 'solitos': 'sólitos', 'variolas': 'varíolas', 'ostias': 'hóstias',
+    'vicereitor': 'vice-reitor', 'nigromatico': 'nigromântico', 'propinquo': 'propínquo', 'receiosos': 'receosos',
+    'corpus-christi': 'Corpus Christi', 'rabís': 'rabis', 'pierides': 'Piérides', 'érpes': 'herpes',
+    'traquilidade': 'tranquilidade', 'quadrimestrais': 'quadrimestrais', 'mancebinho': 'mancebinho',
     'deante': 'diante', 'adeante': 'adiante', 'deanteira': 'dianteira', 'deanteiras': 'dianteiras',
     'maximê': 'máxime', 'maximé': 'máxime', 'maximè': 'máxime', 'maxime': 'máxime', 'peor': 'pior', 'peores': 'piores',
     'assucar': 'açúcar', 'assucares': 'açúcares', 'polas': 'pelas', 'polo': 'pelo', 'polos': 'pelos',
@@ -176,7 +180,7 @@ MANUAL = {
     'pera': 'para', 'per': 'por', 'té': 'até', 'dispensa': 'despensa', 'dispenseiro': 'despenseiro', 'vae-te': 'vai-te', 'frecha': 'flecha', 'chamar-se-á': 'chamar-se-á', 'vae-se': 'vai-se', 'saio': 'saiu', 'ayres': 'aires', 'victoria': 'vitória', 'bocca': 'boca', 'summa': 'suma', 'vae': 'vai', 'riba': 'riba', 'serrão': 'serrão', 'lacão': 'lacão', 'croncrenas': 'croncrenas', 'lissão': 'lissão', 'gasalhado': 'gasalhado',
 }
 # com a caixa exata (nomes com «d'»)
-MANUAL_EXATO = {'Acosta': 'Acosta', 'Castela': 'Castela', 'Cay': 'Cay', "d'ouro": "d'ouro", 'Nha': 'Ilha', 'Ceu': 'Céu', 'Ha-os': 'Há-os', 'Florez': 'Flores', 'Itañae': 'Itañae', 'Aviz': 'Avis', 'Mem': 'Mem', 'Joannes': 'Joannes', "d'Arça": "d'Arça", "d'Amaral": "d'Amaral", "d'Azevedo": "d'Azevedo", "d'Azeredo": "d'Azeredo",
+MANUAL_EXATO = {"d'Fl-Rei": 'del-Rei', 'Aspileueta': 'Aspilcueta', 'Corpus-Christi': 'Corpus Christi', 'Acosta': 'Acosta', 'Castela': 'Castela', 'Cay': 'Cay', "d'ouro": "d'ouro", 'Nha': 'Ilha', 'Ceu': 'Céu', 'Ha-os': 'Há-os', 'Florez': 'Flores', 'Itañae': 'Itañae', 'Aviz': 'Avis', 'Mem': 'Mem', 'Joannes': 'Joannes', "d'Arça": "d'Arça", "d'Amaral": "d'Amaral", "d'Azevedo": "d'Azevedo", "d'Azeredo": "d'Azeredo",
                 "d'Avila": "d'Ávila", 'S.': 'S.', 'D.': 'D.', 'N': 'N'}
 
 # «palavra|seguinte» → forma
@@ -203,7 +207,9 @@ AMBIG = {
     'providencia': 'providência', 'publica': 'pública', 'publicas': 'públicas', 'publico': 'público',
     'reverencia': 'reverência', 'solicito': 'solícito', 'titulo': 'título', 'varias': 'várias',
     'espirito': 'espírito', 'antonio': 'antônio', 'continua': 'contínua', 'continuas': 'contínuas',
-    'continuo': 'contínuo',
+    'continuo': 'contínuo', 'auxilio': 'auxílio', 'contagio': 'contágio', 'exercito': 'exército', 'numero': 'número',
+    'prospero': 'próspero', 'hospedes': 'hóspedes', 'criveis': 'críveis', 'fieis': 'fiéis', 'broqueis': 'broquéis',
+    'angustias': 'angústias',
 }
 
 
@@ -212,4 +218,11 @@ def desambiguar(t, ant, seg, formas):
 
 
 def depois(s):
+    import re
+    s = re.sub(r'\b([A-Za-zçãõ]+?)issim(o|a|os|as)\b',
+               lambda m: m.group(0) if re.search(r'[áéíóúâêôàãõ]', m.group(1)) else m.group(1) + 'íssim' + m.group(2), s)
+    return _depois(s)
+
+
+def _depois(s):
     return s.replace('Rio de janeiro', 'Rio de Janeiro')

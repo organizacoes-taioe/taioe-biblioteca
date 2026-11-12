@@ -118,6 +118,8 @@ def hifens_perdidos(out):
             continue
         a, b = a.group(1), b.group(1)
         ab = a + b
+        if a.lower() in lexico.LATIM or b.lower() in lexico.LATIM:
+            continue
         if (not boa(a) and not boa(b)) or ((not boa(a) or not boa(b)) and (boa(ab) or perto(ab))):
             out[i] = (f, k, l + '-')
     return out

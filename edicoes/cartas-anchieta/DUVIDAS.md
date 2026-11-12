@@ -24,3 +24,4 @@
 290/3-4: impresso 'codem' (por eodem), nas duas ocorrências.
 300/15-16: impresso 'tra-/se começaram' (trase) e 'prin-/dencia' (prindencia); transcritos como estão.
 302/34: número de página (305) colado a 'fa'; escrevi 'fa-' (a linha seguinte começa em 'vorecerá'). 302/9: '30 leguas' (texto atual dizia 20; lido 30 no recorte).
+313/13-14: marcas manuscritas sobre a linha no exemplar (ignoradas); 313/14 'lingua' sem acento no impresso.

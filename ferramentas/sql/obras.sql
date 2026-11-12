@@ -1765,6 +1765,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('ovidio/metamorfoses-i', 'Liber I'),
   ('paul-verlaine/chanson-d-automne', 'Chanson d’automne'),
   ('paul-verlaine/il-pleure-dans-mon-coeur', 'Il pleure dans mon cœur'),
+  ('pero-lopes-de-sousa/diario-da-navegacao', 'Diário da navegação'),
   ('pero-rodrigues/vida-de-anchieta', 'Vida do Padre José de Anchieta'),
   ('pero-vaz-de-caminha/carta', 'Carta a el-rei D. Manuel sobre o achamento do Brasil'),
   ('pierre-de-ronsard/quand-vous-serez-bien-vieille', 'Quand vous serez bien vieille'),

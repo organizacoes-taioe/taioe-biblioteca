@@ -743,6 +743,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'pero-lopes-de-sousa',
+  nome: 'Pero Lopes de Sousa',
+  nomeCompleto: 'Pero Lopes de Sousa',
+  vida: 'c. 1497–1539',
+  ordem: 'Sousa, Pero Lopes de',
+  area: 'nao-ficcao',
+  nota: 'Fidalgo português, irmão de Martim Afonso de Sousa, de quem foi capitão na armada de 1530 ao Brasil; donatário das capitanias de Santo Amaro, Itamaracá e Santana. Morreu em 1539, num naufrágio, na volta da Índia.'
+});
+
+BIBLIOTECA.autor({
   id: 'pero-rodrigues',
   nome: 'Pero Rodrigues',
   nomeCompleto: 'Pero Rodrigues',

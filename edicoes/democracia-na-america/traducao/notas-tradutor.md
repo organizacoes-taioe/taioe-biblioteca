@@ -53,3 +53,28 @@ Candidatas a decisão:
 - O remetimento «(_G_)» à nota final ficou, como no cap. 2.
 
 Candidatas a decisão: nenhuma nova.
+
+## 04 · Da onipotência da maioria (I, 2, 7)
+
+- Termos: *empire (moral) de la majorité* → «império (moral) da maioria»; *mandats impératifs* →
+  «mandatos imperativos»; *l'arbitraire* → «o arbítrio» (e *arbitraire*, adj., → «arbitrário»);
+  *despotisme légal* → «despotismo legal»; *esprit de cour* → «espírito de corte»; *constituants* →
+  «constituintes»; *toute-puissance* → «onipotência» (como *omnipotence*: o português não tem
+  outra palavra comum; *tout-puissant* → «onipotente»); *puissance* → «poder» quase sempre.
+- A fala do senhor («Vous penserez comme moi, ou vous mourrez…»): o original mistura «vous êtes
+  libres» (plural) e «vous êtes un étranger» (singular); ficou tudo no singular, com **você**, que é o
+  tratamento natural da cena (um a um). A conversa com o habitante da Pensilvânia (nota 4) ficou com
+  «o senhor» implícito nos imperativos («Explique-me», «Não nos faça») e «entre vocês».
+- «Sire, et Votre Majesté» → «Senhor, e Vossa Majestade».
+- «Le gouvernement des républiques américaines me paraît aussi centralisé et plus énergique que
+  celui des monarchies absolues» → «tão centralizado quanto o das monarquias absolutas da Europa, e
+  mais enérgico» (o português não deixa os dois comparativos partilharem o «que»).
+- «Les conséquences … sont funestes et dangereux» (masculino no impresso): concordância normal em
+  português, «funestas e perigosas».
+- Citações de Madison (*Federalist* 51) e de Jefferson: traduzidas do francês de Tocqueville; a
+  continuação da citação de Madison no 2º parágrafo abre de novo com “.
+- «Madisson» e «Rhode-Island» (→ Rhode Island) como nos capítulos anteriores.
+
+Candidatas a decisão:
+- Fala do senhor tirânico: «você» no singular (feito) ou «vós» solene, que guardaria o plural de
+  «vous êtes libres». Recomendo «você», pela regra do *vous*.

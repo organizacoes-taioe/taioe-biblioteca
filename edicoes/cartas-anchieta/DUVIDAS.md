@@ -27,3 +27,5 @@
 313/13-14: marcas manuscritas sobre a linha no exemplar (ignoradas); 313/14 'lingua' sem acento no impresso.
 317/5-6: o texto atual trazia 'No' no fim de 317/5; passei-o para o começo de 317/6 («¶ No Rio de Janeiro»). 317/35: número de página (320) colado a 'ce'; escrevi 'ce-' (a linha seguinte começa em 'vada').
 319/35: número de página (322) colado a 'deser'; escrevi 'deser-' (a linha seguinte começa em 'tos').
+324/34: número de página (327) colado a 'primei'; escrevi 'primei-' (a linha seguinte começa em 'ro').
+326/1: título 'XXIX. — INFORMAÇÃO DO BRASIL E DE SUAS CAPITANIAS (1584)' apagado (-) por ser título. 327/35: número de página (330) colado a 'aque'; escrevi 'aque-' (a linha seguinte começa em 'les'). 'naturœ' lido com œ como em 'œstus' (impresso usa œ para ae).

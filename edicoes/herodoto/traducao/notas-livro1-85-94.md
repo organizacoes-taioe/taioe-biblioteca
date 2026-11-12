@@ -45,3 +45,10 @@
   enterram os pais; na outra, os pais enterram os filhos».
 - 91.1 τὴν πεπρωμένην μοῖραν ἀδύνατα ἐστὶ ἀποφυγεῖν καὶ θεῷ → «Fugir ao destino marcado é impossível até para um
   deus». Alternativa: «Do destino que foi fixado nem um deus pode escapar».
+
+## Revisão contra o grego
+
+Correção:
+- 89.1: «o que ele via de errado no que se fazia» → «o que ele via no que se fazia»: o grego (ὅ τι οἱ ἐνορῴη ἐν τοῖσι ποιευμένοισι) não diz «de errado»; acréscimo interpretativo.
+
+Conferidos sem erro: os dois oráculos em verso (85.2, mesmo número de linhas), a fala de Pítia em 91, os números (14 anos, 14 dias, 14 filhos, 18 anos, 3 anos, medidas do túmulo). Dúvidas: nenhuma.

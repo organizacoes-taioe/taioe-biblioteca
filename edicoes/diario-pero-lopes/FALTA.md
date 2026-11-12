@@ -1,14 +1,20 @@
 # Diário da navegação (Pero Lopes de Sousa): estado
 
-Branch `pedido-diario-pero-lopes`. Não-ficção; autor novo `pero-lopes-de-sousa`. Em andamento (12/11).
+Branch `pedido-diario-pero-lopes`. Não-ficção; autor novo `pero-lopes-de-sousa`. **Pronta para juntar e publicar** (12/11).
 
 ## Fonte
-- Base: Varnhagen, *Diário da navegação da armada que foi à terra do Brasil em 1530…* (Lisboa, Typ. da
-  Sociedade Propagadora dos Conhecimentos Úteis, 1839), pp. 3–59, a primeira edição. Fac-símile do Internet
-  Archive `diario_navegacao_souza` (pdf pp. 29–85; página impressa = página do pdf − 26). Segundo testemunho:
-  Google Livros `bub_gb_-F8CAAAAYAAJ` (mesma edição); terceiro: Varnhagen, 4.ª ed. (Rio, 1867),
-  `diariodenavegao00varngoog`. Eugênio de Castro (1927) não foi usado: não está livre na rede.
-- `1839/NN.txt`: transcrição linha a linha da página impressa NN (sementes do Tesseract; a conferir nas imagens).
+- Base: Varnhagen, *Diário da navegação da armada que foi à terra do Brasil em 1530…* (Lisboa, 1839), pp. 3–59, 1.ª ed.
+  Fac-símile do Internet Archive `diario_navegacao_souza` (pdf pp. 29–85; página impressa = pdf − 26). Outras leituras:
+  Google `bub_gb_-F8CAAAAYAAJ` (mesma ed.), 4.ª ed. de 1867 (`diariodenavegao00varngoog`). Eugênio de Castro (1927) não usado.
+- `1839/NN.txt`: transcrição linha a linha de cada página impressa, conferida nas imagens (subagente Sonnet; dúvidas
+  em `1839/DUVIDAS.md`; ~530 correções ao OCR em `CONFERENCIA.tsv`). Grafia 1839 já regularizada por Varnhagen.
 
-## Falta
-- conferir `1839/NN.txt` nas imagens; modernizar; partes; Sobre; vocabulário; revisao.json.
+## Como foi feito (refazer: na raiz do repo)
+`python3 edicoes/diario-pero-lopes/montar.py --publicar`: junta as páginas, divide por dia (203 entradas), grafia de hoje
+(`decisoes.py`: PRE/MANUAL/POS + léxico da São Bernardo), grava `conteudo/pero-lopes-de-sousa/diario-da-navegacao.js`
+(8 partes por trecho da viagem, títulos com datas) e a linha do `index.html`. Autor novo em `conteudo/autores.js`.
+Vocabulário: `edicoes/vocabulario/diario-pero-lopes.json` (96 verbetes, `conferir` ok). `revisao.json`: 8 decisões.
+
+## Para o principal
+- Gerar; Catálogo `obras` (obra nova); `traducoes_revisao.py --revisao` (8 escolhas). Sem `_redirects`.
+- Notas gerais: não feitas. Fora: notas e documentos de Varnhagen e o fragmento da volta (pp. 109–113, ver revisao.json).

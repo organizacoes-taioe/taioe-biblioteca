@@ -1,0 +1,164 @@
+{
+ "id": "diario-da-navegacao",
+ "rotulo": "Diário da navegação (Pero Lopes de Sousa)",
+ "url": "/biblioteca/pero-lopes-de-sousa/diario-da-navegacao/",
+ "escolhas": [
+  {
+   "id": "base",
+   "titulo": "A base é a edição de Varnhagen de 1839, e não a de 1867 nem a de Eugênio de Castro (1927)?",
+   "ref": "a obra inteira",
+   "contexto": "A primeira edição (Lisboa, 1839, pp. 3–59) imprime uma cópia do século XVIII com a ortografia regularizada por Varnhagen e confronta o códice da Ajuda. A quarta edição dele (Rio de Janeiro, 1867) modernizou ainda mais a grafia e pôs números nos dias; serviu aqui de terceira testemunha. A edição comentada de Eugênio de Castro (Rio, 1927, 2 vols.) não está livre na rede, e o livro tem comentários que podem ser protegidos.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica a de 1839, como está",
+     "nota": "A primeira edição, a mais próxima da cópia e do códice; as outras entram só para tirar dúvida.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Trocar pela de 1867",
+     "nota": "Texto revisto pelo próprio Varnhagen, mas já mais distante da grafia da cópia."
+    }
+   ]
+  },
+  {
+   "id": "grafia",
+   "titulo": "O texto fica só na grafia de hoje, sem a de 1839 ao lado?",
+   "ref": "a obra inteira",
+   "contexto": "Na Carta de Caminha o original de 1500 está ao lado, com os botões «Original» e «Grafia atual». Aqui o impresso de 1839 já traz um português regularizado por Varnhagen (nam, hum, hũa, meo, cousa), e não a escrita do manuscrito; como na Vida de Anchieta, ele não é mostrado ao lado, e a «Sobre» descreve as trocas.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Só a grafia de hoje, como está",
+     "nota": "A grafia de 1839 seria a de Varnhagen, não a do autor.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Pôr ao lado a grafia de 1839, com os botões «1839» e «Grafia atual»",
+     "nota": "Mais fiel ao impresso, mas mostra a regularização do editor."
+    }
+   ]
+  },
+  {
+   "id": "capitao-i",
+   "titulo": "O «capitam J.» do texto vai como «o capitão»?",
+   "ref": "46 ocorrências",
+   "contexto": "O impresso traz «o capitam J.» para Martim Afonso. Varnhagen avisa que o códice da Ajuda lê «I.» e que isso é a inicial de «irmão»: o autor chama o capitão-mor de «o capitão, meu irmão». Na edição está «o capitão», sem a letra, porque o nome dele já está escrito no começo e a sigla só atrapalharia a leitura.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o capitão», sem a sigla",
+     "nota": "O sentido fica claro; a «Sobre» explica.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o capitão irmão»",
+     "nota": "Desfaz a sigla como Varnhagen a lê, mas acrescenta uma palavra que o texto não traz."
+    },
+    {
+     "id": "c",
+     "texto": "«o capitão J.», como no impresso",
+     "nota": "Fiel, mas obscuro para quem lê."
+    }
+   ]
+  },
+  {
+   "id": "rumos",
+   "titulo": "Os rumos da agulha vão com o hífen e o acento de hoje (lés-sueste, su-sudoeste, oés-sudoeste)?",
+   "ref": "uns 105 rumos",
+   "contexto": "O impresso traz lessueste, lesnordeste, essudoeste, oessudoeste, loessudoeste, nornordeste, sulsudoeste, sulsueste (colados, sem acento). Passaram para as formas dos dicionários náuticos: lés-sueste, lés-nordeste, nor-nordeste, su-sudoeste, su-sueste, oés-sudoeste. «Essudoeste» e «lessudoeste», que não têm forma segura, foram para és-sudoeste e lés-sudoeste; «sueste» e «sudoeste» ficam.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Na forma de hoje, como está",
+     "nota": "O leitor reconhece os rumos; cada um tem nota no vocabulário.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Como no impresso (lessueste, nornordeste…)",
+     "nota": "As formas da época, mas parecem erros de digitação."
+    }
+   ]
+  },
+  {
+   "id": "nomes",
+   "titulo": "Os nomes de lugar vão na forma de hoje (Lisboa, Noronha, Sofala, Tenerife, Piratininga)?",
+   "ref": "Lixboa, Loronha, Çofala, Tenarife, Piratinimga, Maranham, Serra Lioa, Peraguay",
+   "contexto": "O impresso traz «Lixboa», «Fernão de Loronha», «Çofala», «Tenarife», «Piratinimga», «Maranham», «Serra Lioa». Como na Carta (Porto Seguro, Calecute) estão na forma de hoje. Os nomes dos povos e dos rios do Prata ficam como no impresso (Beguoais, Chanás, Carandins, Percaauri, Tynhaaréa), porque não têm forma de hoje.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Na forma de hoje, como está",
+     "nota": "O leitor reconhece os lugares.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Como no impresso",
+     "nota": "As formas da época."
+    }
+   ]
+  },
+  {
+   "id": "leituras",
+   "titulo": "Duas palavras raras do impresso foram lidas como «gurupés» e «freixos»: ficam?",
+   "ref": "«grupezes» (parte 5), «frechos» (partes 5 e 7)",
+   "contexto": "«quasi demos com os grupezes nas pedras» (no meio da cerração, perto da costa): lemos gurupés, o mastro da proa. «debaixo de hũs frechos» e «arboredos e frechos e outras mui fermosas arbores»: lemos freixos, as árvores. Nenhum dicionário antigo à mão traz as duas formas exatas do impresso. Por outro lado, «frecha» (3 vezes) vai para «flecha», como na Carta.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Gurupés e freixos, como está",
+     "nota": "Leituras que o sentido da frase sustenta.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Deixar «grupezes» e «frechos» como no impresso",
+     "nota": "Sem interpretar, mas o leitor não os entende."
+    }
+   ]
+  },
+  {
+   "id": "volta",
+   "titulo": "O fragmento da volta a Portugal (maio a agosto de 1532) fica de fora?",
+   "ref": "Varnhagen, notas, pp. 109–113",
+   "contexto": "A cópia que Varnhagen imprimiu termina em 5 de fevereiro de 1532, em São Vicente, quando Pero Lopes recebe a ordem de ir a Portugal. O códice da Ajuda continua com um trecho do diário da volta (de São Vicente à Bahia e a Pernambuco, até o encontro com uma nau francesa), que Varnhagen pôs numa nota, na ortografia do códice. É texto de Pero Lopes, mas acaba cortado.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fora, como está",
+     "nota": "A «Sobre» avisa que existe; cabe como parte 9 depois, se ele quiser.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Pôr como parte 9, «A volta a Portugal (fragmento)»",
+     "nota": "Mais completo, mas é um trecho truncado e em grafia diferente do resto."
+    }
+   ]
+  },
+  {
+   "id": "erros",
+   "titulo": "As cinco emendas a erros evidentes do impresso de 1839 ficam?",
+   "ref": "mandon, Crara, Pedre, oue, to- . mada",
+   "contexto": "O impresso traz «mandon Martim Afonso» (mandou), «santa Crara» (Clara), «Pedre Annes Piloto» (Pedro Anes), «era oue nam podiamos» (que) e «nao to- . mada» (tomada). Estão corrigidos, e a «Sobre» lista as cinco no quadro «Erros do impresso de 1839 corrigidos». Não mexemos na redação do autor.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Corrigidos, com a lista na «Sobre»",
+     "nota": "São erros de composição, sem dúvida.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Como no impresso",
+     "nota": "Fiel ao livro, mas deixa letras sem sentido no texto."
+    }
+   ]
+  }
+ ]
+}

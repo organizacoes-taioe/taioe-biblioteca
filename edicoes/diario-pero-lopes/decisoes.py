@@ -6,6 +6,7 @@ JUNTAR = set()
 
 # regras de contexto, antes da palavra por palavra
 PRE = [
+    (r'tam grande -revolta', 'tão grande revolta'), (r'\bsobe-la\b', 'sobre a'), (r'\blança-los\b', 'lançá-los'),
     (r"\b([Dd])esd['’] ", r'\1esde '),
     (r"\bA['’] ", 'À '), (r"\bDesde ['’] ", 'Desde '), (r"\bdesde ['’] ", 'desde '), (r'vinte é seis', 'vinte e seis'),
     (r'\bdia de natal\b', 'dia de Natal'),
@@ -29,6 +30,7 @@ PRE = [
     (r"\bachegandonos", 'achegando-nos'),
 ]
 POS = [
+    (r'tão grande-revolta', 'tão grande revolta'),
     (r'\bá\b', 'à'), (r'\bás\b', 'às'), (r'\bÁ\b', 'À'), (r'\bÁs\b', 'Às'),
     (r'\bmes\b', 'mês'), (r'\bmezes\b', 'meses'), (r'\bmeio dia\b', 'meio-dia'), (r'\bmeia noite\b', 'meia-noite'),
     (r'\bMeio dia\b', 'Meio-dia'), (r'\bterra do brasil\b', 'terra do Brasil'),
@@ -153,6 +155,8 @@ M.update({
     'ma': 'ma'
 })
 M.update({'ló':'ló','saío':'saiu','daquesta':'desta','abombarda':'bombarda','sól':'sol','mór':'mor'})
+M.update({'ellas':'elas','experiencia':'experiência','frecha':'flecha','frechas':'flecha','frechos':'freixos'})
+M['frechas']='flechas'
 MANUAL = M
 
 

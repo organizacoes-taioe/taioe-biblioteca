@@ -39,3 +39,7 @@
 - 187.5, a inscrição do túmulo de Nitócris: «Se não fosses insaciável de dinheiro e ávido de ganho vergonhoso, não
   terias aberto os túmulos dos mortos». Alternativa para αἰσχροκερδής: «ganancioso», mais curto, mas perde o «ganho
   vergonhoso».
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos as medidas da muralha, os números de estádios e côvados, o lacuna e os colchetes de 180.4, Semíramis e Nitócris, a inscrição do túmulo). Dúvidas: nenhuma.

@@ -99,6 +99,32 @@ def conferencia():
 
 
 def linhas_carta(c):
+    return desduplicar(_linhas_carta(c))
+
+
+def desduplicar(L):
+    """O voto juntou a palavra hifenizada no fim da linha (Reverendissima) e deixou o pedaço (dissima) no começo da
+    seguinte: o pedaço sai."""
+    lex = G.lexico()
+    out = []
+    for p, k, l in L:
+        if out:
+            a = out[-1][2]
+            wa = re.findall(r'[A-Za-zÀ-ÿ]+', a)
+            m = re.match(r'^(¶ )?([A-Za-zÀ-ÿ]+)(.*)$', l, re.S)
+            if wa and m and not a.rstrip().endswith('-'):
+                w, f = wa[-1], m.group(2)
+                if len(f) >= 3 and len(w) > len(f) + 1 and w.lower().endswith(f.lower()) and f.lower() not in lex:
+                    resto = m.group(3)
+                    pa = re.search(r'[,;:.!?]+$', a.rstrip())
+                    if pa and resto.startswith(pa.group(0)):
+                        resto = resto[len(pa.group(0)):]
+                    l = (m.group(1) or '') + resto.lstrip()
+        out.append((p, k, l))
+    return out
+
+
+def _linhas_carta(c):
     """(página, linha, texto) do corpo de uma carta (de `cartas.CARTAS`): da linha inicial à final, sem o
     cabeçalho corrente, as notas de Valle Cabral e o sumário (que a máscara do PDF perde em parte)."""
     out = []
@@ -285,10 +311,30 @@ def estrutura():
     return out
 
 
+_COR = None
+
+
+def correcoes():
+    """correcoes.json: trechos com palavra partida ou fundida pelo OCR, conferidos nas imagens (2ª conferência)."""
+    global _COR
+    if _COR is None:
+        _COR = json.load(open(os.path.join(AQUI, 'correcoes.json'), encoding='utf-8'))
+    return _COR
+
+
 def preparar(texto, onde, rel):
     """As decisões sobre o texto de 1897, antes da grafia: marcas de Barata, erros, emendas, abreviaturas.
     Cada uma vale na página em que começa o parágrafo ou nas duas seguintes (parágrafo que passa de página)."""
     perto = lambda pag: onde[0] <= pag <= onde[0] + 2
+    for c in correcoes():
+        ws = c['de'].split()
+        rx = ''
+        for i, w in enumerate(ws):
+            if i:
+                rx += r'\s*' if (re.fullmatch(r'[^\w]+', w) or re.fullmatch(r'[^\w]+', ws[i - 1])) else r'\s+'
+            rx += re.escape(w)
+        if re.search(rx, texto):
+            texto = re.sub(rx, lambda m: c['para'], texto, count=1); rel['usadas'].add(('corr', c['de']))
     for pag, de, _ in D.OMITIDAS:
         if perto(pag) and de in texto:
             texto = texto.replace(de, '', 1); rel['usadas'].add(('omit', pag, de))
@@ -346,6 +392,7 @@ if __name__ == '__main__':
     relatorios(rel)
     faltam = [x for x in [('omit', a, b) for a, b, _ in D.OMITIDAS] + [('erro', a, b) for a, b, _, _ in D.ERROS] +
               [('comp', a, b) for a, b, _ in D.COMPOSICAO + D.EMENDAS] if x not in rel['usadas']]
+    faltam += [('corr', c['de'][:50]) for c in correcoes() if ('corr', c['de']) not in rel['usadas']]
     if faltam:
         print('NÃO APLICADAS:', faltam)
     gravar_atual(cs)

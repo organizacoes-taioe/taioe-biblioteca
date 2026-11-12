@@ -218,3 +218,133 @@ e
 
 Julgado a partir de _K_, o relógio se move com a velocidade _v_; julgando-se a partir desse corpo de referência, entre duas das suas batidas não passa um segundo, mas 1/√(1 − v²/c²) segundos, isto é, um tempo um pouco maior. Por causa do seu movimento, o relógio anda mais devagar que em estado de repouso. Também aqui a velocidade _c_ tem o papel de uma velocidade-limite inalcançável.
 
+## 13. O teorema da adição das velocidades. A experiência de Fizeau
+
+[I.13] Como na prática só podemos mover relógios e réguas com velocidades pequenas em comparação com a velocidade da luz _c_, dificilmente os resultados do parágrafo anterior poderão ser comparados diretamente com a realidade. Como, por outro lado, eles hão de parecer bem estranhos ao leitor, quero agora tirar da teoria outra consequência, que se deduz com facilidade do que foi exposto até aqui e que a experiência confirma de modo brilhante.
+
+No § 6 deduzimos o teorema da adição para velocidades de mesma direção, tal como resulta das hipóteses da mecânica clássica. Ele se deduz também com facilidade da transformação de Galileu (§ 11). Em lugar do homem que anda no vagão, introduzimos um ponto que se move em relação ao sistema de coordenadas _K′_ segundo a equação
+
+| x′ = wt′
+
+Da primeira e da quarta equação da transformação de Galileu podem-se exprimir _x′_ e _t′_ por _x_ e _t_, e obtém-se assim:
+
+| x = (v + w) t.
+
+Essa equação não exprime outra coisa senão a lei do movimento do ponto em relação ao sistema _K_ (do homem em relação ao leito da ferrovia), velocidade que designamos por _W_, de modo que se obtém, como no § 6:
+
+| W = v + w . . . (A)
+
+Mas podemos fazer essa mesma consideração tomando por base a teoria da relatividade. Então, na equação
+
+| x′ = wt′
+
+é preciso exprimir _x′_ e _t′_ por _x_ e _t_ usando a primeira e a quarta equação da _transformação de Lorentz_. Obtém-se então, em vez da equação (A), a equação:
+
+| W = (v + w) / (1 + vw/c²) . . . (B)
+
+que corresponde ao teorema da adição das velocidades de mesma direção segundo a teoria da relatividade. A questão agora é saber qual desses dois teoremas resiste à experiência. Sobre isso nos instrui um experimento importantíssimo, que o genial físico Fizeau realizou há mais de meio século, e que desde então foi repetido por alguns dos melhores físicos experimentais, de modo que o resultado está fora de dúvida. O experimento trata da seguinte questão. Num líquido em repouso, a luz se propaga com uma velocidade determinada _w_. Com que rapidez ela se propaga no tubo _R_ da figura
+
+{fig fizeau}
+
+na direção da seta, quando o líquido mencionado corre por ele com a velocidade _v_?
+
+No sentido do princípio da relatividade, teremos de supor, em todo caso, que _em relação ao líquido_ a propagação da luz se dá sempre com a mesma velocidade _w_, esteja o líquido em movimento em relação a outros corpos ou não. Conhece-se, portanto, a velocidade da luz em relação ao líquido e a velocidade deste em relação ao tubo, e procura-se a velocidade da luz em relação ao tubo.
+
+É claro que temos aqui de novo o problema do § 6. O tubo faz o papel do leito da ferrovia, ou do sistema de coordenadas _K_; o líquido, o do vagão, ou do sistema de coordenadas _K′_; a luz, por fim, o do homem que anda no vagão, ou do ponto em movimento deste parágrafo. Se, portanto, designarmos por _W_ a velocidade da luz em relação ao tubo, ela será dada pela equação (A) ou pela (B), conforme a transformação de Galileu ou a de Lorentz corresponda à realidade.
+
+O experimento[1] decide pela equação (B), deduzida da teoria da relatividade, e com muita exatidão. A influência da velocidade _v_ da corrente sobre a propagação da luz é representada pela fórmula (B), segundo as últimas e excelentes medições de Zeeman, com exatidão melhor que 1 por cento.
+
+É preciso, porém, ressaltar que muito antes da formulação da teoria da relatividade H. A. Lorentz deu uma teoria desse fenômeno por via puramente eletrodinâmica, servindo-se de certas hipóteses sobre a estrutura eletromagnética da matéria. Mas essa circunstância não diminui em nada a força probatória do experimento como _experimentum crucis_ a favor da teoria da relatividade. Pois a eletrodinâmica de Maxwell e Lorentz, em que se apoiava a teoria original, não está em nenhuma oposição à teoria da relatividade. Esta, ao contrário, nasceu da eletrodinâmica como uma síntese e generalização surpreendentemente simples das hipóteses, antes independentes umas das outras, sobre as quais a eletrodinâmica fora construída.
+
+¤ [1] Fizeau achou W = w + v(1 − 1/n²), onde n = c/w é o índice de refração do líquido. Por outro lado, por ser vw/c² pequeno em comparação com 1, pode-se pôr em lugar de (B), primeiro, W = (w + v)(1 − vw/c²), ou, com a mesma aproximação, w + v(1 − 1/n²), o que concorda com o resultado de Fizeau.
+
+## 14. O valor heurístico da teoria da relatividade
+
+[I.14] O raciocínio exposto até aqui pode ser resumido brevemente assim. A experiência levou à convicção de que, por um lado, vale o princípio da relatividade (no sentido restrito) e, por outro, a velocidade de propagação da luz no vácuo deve ser tomada igual a uma constante _c_. Da união desses dois postulados resultou a lei de transformação para as coordenadas retangulares _x_, _y_, _z_ e o tempo _t_ dos acontecimentos que compõem os fenômenos da natureza; e o que resultou não foi a transformação de Galileu, mas (diferentemente da mecânica clássica) a transformação de Lorentz.
+
+Nesse raciocínio teve um papel importante a lei de propagação da luz, cuja aceitação se justifica pelo nosso conhecimento efetivo. Mas, uma vez de posse da transformação de Lorentz, podemos uni-la ao princípio da relatividade e resumir a teoria na afirmação:
+
+Toda lei geral da natureza deve ser tal que se transforme numa lei de enunciado exatamente igual quando, em lugar das variáveis de espaço e tempo _x_, _y_, _z_, _t_ do sistema de coordenadas original _K_, se introduzem novas variáveis de espaço e tempo _x′_, _y′_, _z′_, _t′_ de um sistema de coordenadas _K′_, sendo a relação matemática entre as grandezas com e sem apóstrofo dada pela transformação de Lorentz. Em fórmula breve: as leis gerais da natureza são covariantes em relação às transformações de Lorentz.
+
+Essa é uma condição matemática determinada que a teoria da relatividade prescreve a uma lei da natureza; com isso, ela se torna um valioso recurso heurístico na busca das leis gerais da natureza. Se se descobrisse uma lei geral da natureza que não satisfizesse essa condição, estaria refutada pelo menos uma das duas suposições fundamentais da teoria. Vejamos agora que resultados gerais ela produziu até aqui.
+
+## 15. Resultados gerais da teoria
+
+[I.15] Do que foi exposto até aqui se vê que a teoria da relatividade (especial) nasceu da eletrodinâmica e da ótica. Nesses domínios ela não mudou muita coisa nas afirmações da teoria, mas simplificou consideravelmente o edifício teórico, isto é, a dedução das leis, e — o que é incomparavelmente mais importante — reduziu muito o número das hipóteses independentes umas das outras em que a teoria se apoia. Deu à teoria de Maxwell e Lorentz um grau tal de evidência que ela teria se imposto em geral entre os físicos mesmo que o experimento tivesse falado a seu favor de modo menos convincente.
+
+A mecânica clássica precisou primeiro de uma modificação para se pôr de acordo com a exigência da teoria da relatividade especial. Essa modificação, porém, diz respeito no essencial só às leis dos movimentos rápidos, em que as velocidades _v_ da matéria não são pequenas demais em comparação com a velocidade da luz. Movimentos tão rápidos a experiência só nos mostra em elétrons e íons; nos outros movimentos, os desvios em relação às leis da mecânica clássica são pequenos demais para se fazerem notar na prática. Do movimento dos astros só se poderá falar com a teoria da relatividade geral. Segundo a teoria da relatividade, a energia cinética de um ponto material de massa _m_ já não é dada pela expressão conhecida
+
+| m v²/2
+
+mas pela expressão:
+
+| mc² / √(1 − v²/c²).
+
+Essa expressão se torna infinita quando a velocidade _v_ se aproxima da velocidade da luz _c_. A velocidade, portanto, tem de ficar sempre menor que _c_, por maiores que sejam as energias que se empreguem para acelerar o corpo. Desenvolvendo em série a expressão da energia cinética, obtém-se:
+
+| mc² + m v²/2 + (3/8) m v⁴/c² + …
+
+O terceiro desses termos é sempre pequeno em comparação com o segundo, o único que se leva em conta na mecânica clássica, quando v²/c² é pequeno em comparação com 1. O primeiro termo, _mc²_, não contém a velocidade, e por isso não entra em consideração quando se trata só de saber como a energia de um ponto material depende da velocidade. Do seu significado de princípio se falará mais adiante.
+
+O resultado de caráter geral mais importante a que a teoria da relatividade especial levou diz respeito ao conceito de massa. A física anterior à relatividade conhece duas leis de conservação de importância fundamental, a lei da conservação da energia e a lei da conservação da massa; essas duas leis fundamentais aparecem como inteiramente independentes uma da outra. Pela teoria da relatividade, elas se fundem numa lei só. Vamos expor brevemente como se chegou a isso e como se deve entender essa fusão.
+
+O princípio da relatividade exige que a lei da conservação da energia valha não só em relação a um sistema de coordenadas _K_, mas em relação a todo sistema de coordenadas _K′_ que esteja em movimento de translação uniforme em relação a _K_ (em poucas palavras, em relação a todo sistema de coordenadas “galileano”). Para a passagem entre dois sistemas desses, o que vale, ao contrário da mecânica clássica, é a transformação de Lorentz.
+
+Dessas premissas, junto com as equações fundamentais da eletrodinâmica de Maxwell, pode-se tirar com necessidade imperiosa, por considerações relativamente simples, a seguinte conclusão: um corpo que voa com a velocidade _v_ e que absorve sob a forma de radiação a energia _E₀_[1], sem mudar com isso a sua velocidade, sofre um aumento da sua energia no valor de:
+
+| E₀ / √(1 − v²/c²).
+
+Levando em conta a expressão da energia cinética dada acima, a energia procurada do corpo é então dada por:
+
+| (m + E₀/c²) c² / √(1 − v²/c²).
+
+O corpo tem, portanto, a mesma energia que um corpo de massa _m + E₀/c²_ que se movesse com a velocidade _v_. Pode-se então dizer: se um corpo absorve a energia _E₀_, a sua massa inercial cresce _E₀/c²_; a massa inercial de um corpo não é uma constante, mas varia conforme a variação da sua energia. A massa inercial de um sistema de corpos pode mesmo ser considerada a medida da sua energia. A lei da conservação da massa de um sistema coincide com a lei da conservação da energia e só vale na medida em que o sistema não absorve nem cede energia. Se se escreve a expressão da energia na forma
+
+| (mc² + E₀) / √(1 − v²/c²)
+
+vê-se que o termo _mc²_, que já nos chamou a atenção há pouco, não é outra coisa senão a energia que o corpo já possuía[2] antes de absorver a energia _E₀_.
+
+A comparação direta dessa lei com a experiência por enquanto esbarra no fato de que as variações de energia _E₀_ que podemos comunicar a um sistema não são grandes o bastante para se fazerem notar como variação da massa inercial do sistema. _E₀/c²_ é pequeno demais em comparação com a massa _m_ que havia antes da variação de energia. É graças a essa circunstância que se pôde estabelecer com sucesso uma lei da conservação da massa de validade independente.
+
+Uma última observação, de natureza fundamental. O sucesso da interpretação de Faraday e Maxwell para a ação eletromagnética a distância, por meio de processos intermediários com velocidade de propagação finita, fez que entre os físicos se firmasse a convicção de que não existem ações a distância imediatas e instantâneas do tipo da lei da gravitação de Newton. Segundo a teoria da relatividade, em lugar da ação instantânea a distância, ou da ação a distância com velocidade de propagação infinita, aparece sempre a ação a distância com a velocidade da luz. Isso está ligado ao papel fundamental que a velocidade _c_ tem nessa teoria. Na segunda parte se verá de que maneira esse resultado é modificado na teoria da relatividade geral.
+
+¤ [1] _E₀_ é a energia absorvida, julgada a partir de um sistema de coordenadas que se move com o corpo.
+
+¤ [2] Julgado a partir de um sistema de coordenadas que se move com o corpo.
+
+## 16. A teoria da relatividade especial e a experiência
+
+[I.16] Não é simples responder à pergunta sobre até que ponto a teoria da relatividade especial é apoiada pela experiência, por uma razão já mencionada a propósito do experimento fundamental de Fizeau. A teoria da relatividade especial cristalizou-se a partir da teoria de Maxwell e Lorentz dos fenômenos eletromagnéticos. Por isso, todos os fatos da experiência que apoiam essa teoria eletromagnética apoiam também a teoria da relatividade. Menciono aqui, como especialmente importante, que a teoria da relatividade permite deduzir de maneira extremamente simples, de acordo com a experiência, os efeitos que a luz enviada até nós pelas estrelas fixas sofre por causa do movimento relativo da Terra em relação a essas estrelas. Trata-se do deslocamento anual da posição aparente das estrelas fixas em consequência do movimento da Terra em torno do Sol (aberração) e da influência da componente radial dos movimentos relativos das estrelas fixas em relação à Terra sobre a cor da luz que chega até nós; esta última influência se manifesta num pequeno deslocamento das linhas espectrais da luz que nos chega de uma estrela fixa, em comparação com a posição no espectro da mesma linha espectral produzida com uma fonte de luz terrestre (princípio de Doppler). Os argumentos experimentais a favor da teoria de Maxwell e Lorentz, que são todos ao mesmo tempo argumentos a favor da teoria da relatividade, são numerosos demais para serem expostos aqui. Eles de fato restringem as possibilidades teóricas a tal ponto que nenhuma outra teoria além da de Maxwell e Lorentz conseguiu se sustentar diante da experiência.
+
+Há, porém, duas classes de fatos experimentais averiguados até hoje que a teoria de Maxwell e Lorentz só consegue representar recorrendo a uma hipótese auxiliar, que em si mesma, isto é, sem o uso da teoria da relatividade, parece estranha.
+
+É sabido que os raios catódicos e os chamados raios β, emitidos pelas substâncias radioativas, consistem em corpúsculos de eletricidade negativa (elétrons) de inércia muito pequena e grande velocidade. Investigando o desvio dessas radiações sob a influência de campos elétricos e magnéticos, pode-se estudar com muita precisão a lei do movimento desses corpúsculos.
+
+No tratamento teórico desses elétrons, é preciso lutar com a dificuldade de que a eletrodinâmica, sozinha, não é capaz de dar conta da natureza deles. Pois, como massas elétricas do mesmo sinal se repelem, as massas elétricas negativas que constituem o elétron deveriam ser dispersadas pela influência da sua ação mútua, se não atuassem entre elas ainda forças de outra espécie, cuja natureza até hoje nos é obscura[1]. Se agora se supõe que as distâncias relativas entre as massas elétricas que constituem o elétron permanecem inalteradas durante os movimentos do elétron (ligação rígida no sentido da mecânica clássica), chega-se a uma lei do movimento do elétron que não concorda com a experiência. H. A. Lorentz foi o primeiro a introduzir, guiado por pontos de vista puramente formais, a hipótese de que o corpo do elétron sofre com o movimento uma contração na direção do movimento, proporcional à expressão √(1 − v²/c²). Essa hipótese, que nada justifica do ponto de vista eletrodinâmico, dá então precisamente a lei do movimento que a experiência confirmou com grande precisão nos últimos anos.
+
+A teoria da relatividade dá a mesma lei do movimento, sem precisar de nenhuma hipótese especial sobre a estrutura e o comportamento do elétron. O mesmo se dá, como vimos no § 13, com o experimento de Fizeau, cujo resultado a teoria da relatividade forneceu sem que fosse preciso fazer hipóteses sobre a natureza física do líquido.
+
+A segunda classe de fatos a que se aludiu diz respeito à questão de saber se, em experimentos feitos na Terra, se faz notar o movimento dela no espaço do universo. Já se observou no § 5 que todos os esforços desse tipo deram resultado negativo. Antes da formulação da teoria da relatividade, a ciência tinha dificuldade em se haver com esse resultado negativo; a situação, com efeito, era a seguinte. Os preconceitos herdados sobre o tempo e o espaço não deixavam surgir dúvida de que, para a passagem de um corpo de referência a outro, o que vale é a transformação de Galileu. Supondo-se agora que as equações de Maxwell e Lorentz valham para um corpo de referência _K_, acha-se que elas não valem para um corpo de referência _K′_ que se mova com velocidade uniforme em relação a _K_, se se supõe que entre as coordenadas de _K_ e de _K′_ vigoram as relações da transformação de Galileu. Parece assim que, de todos os sistemas de coordenadas galileanos, um (_K_), de estado de movimento determinado, seria fisicamente privilegiado. Interpretava-se fisicamente esse resultado considerando _K_ em repouso em relação a um hipotético éter luminoso. Todos os sistemas de coordenadas _K′_ em movimento em relação a _K_, ao contrário, estariam em movimento em relação ao éter. A esse movimento de _K′_ em relação ao éter (“vento de éter” em relação a _K′_) se atribuíam as leis mais complicadas que deveriam valer em relação a _K′_. Coerentemente, era preciso supor um vento de éter desses também em relação à Terra, e o empenho dos físicos esteve por muito tempo voltado a demonstrá-lo.
+
+Michelson tinha achado para isso um caminho que parecia não poder falhar. Imaginem-se, fixados num corpo rígido, dois espelhos com as faces refletoras voltadas uma para a outra. Um raio de luz precisa de um tempo bem determinado _T_ para ir de um espelho ao outro e voltar, se todo esse sistema está em repouso em relação ao éter luminoso. Mas para esse processo se acha um tempo _T′_ um pouco diferente, se o corpo, com os espelhos, está em movimento em relação ao éter. E mais ainda! O cálculo mostra que esse tempo _T′_, para uma velocidade dada _v_ em relação ao éter, é um quando o corpo se move perpendicularmente aos planos dos espelhos e outro quando se move paralelamente a eles. Por mais ínfima que resultasse a diferença assim calculada entre essas duas durações, Michelson e Morley realizaram um experimento de interferência em que a diferença deveria ter aparecido com clareza. Mas o experimento deu resultado negativo, para grande embaraço dos físicos. Lorentz e FitzGerald tiraram a teoria desse embaraço supondo que o movimento do corpo em relação ao éter produz uma contração na direção do movimento, que deveria fazer desaparecer justamente a diferença de tempo mencionada. Uma comparação com o que se expôs no § 12 mostra que essa saída era a correta também do ponto de vista da teoria da relatividade. Mas, segundo a teoria da relatividade, a compreensão da situação é incomparavelmente mais satisfatória. Segundo ela, não há sistema de coordenadas privilegiado que dê ocasião a introduzir a ideia do éter, e, portanto, também não há vento de éter, nem experimento que o ponha em evidência. A contração dos corpos em movimento decorre aqui, sem hipóteses especiais, dos dois princípios fundamentais da teoria; e o que se mostra decisivo para essa contração não é o movimento em si, a que não sabemos dar sentido, mas o movimento em relação ao corpo de referência escolhido em cada caso. Assim, para um sistema de referência que se move com a Terra, o corpo dos espelhos de Michelson e Morley não está encurtado, mas está para um sistema de referência em repouso em relação ao Sol.
+
+¤ [1] A teoria da relatividade geral sugere a ideia de que as massas elétricas de um elétron são mantidas juntas por forças gravitacionais.
+
+## 17. O espaço quadridimensional de Minkowski
+
+[I.17] Um arrepio místico toma conta do não matemático quando ouve falar de “quadridimensional”, um sentimento não muito diferente do que provoca um fantasma no teatro. E, no entanto, não há afirmação mais banal que a de que o nosso mundo habitual é um contínuo espaço-temporal de quatro dimensões.
+
+O _espaço_ é um contínuo de três dimensões. Isso quer dizer que é possível descrever a posição de um ponto (em repouso) por três números (coordenadas) _x_, _y_, _z_, e que para cada ponto há pontos “vizinhos” tão próximos quanto se queira, cuja posição pode ser descrita por valores de coordenadas (coordenadas) _x₁_, _y₁_, _z₁_ tão próximos quanto se queira das coordenadas _x_, _y_, _z_ do primeiro. Por esta última propriedade falamos de “contínuo”; pelo número três das coordenadas, de “tridimensional”.
+
+Do mesmo modo, o mundo dos acontecimentos físicos, que Minkowski chamou simplesmente “mundo”, é naturalmente quadridimensional no sentido espaço-temporal. Pois se compõe de acontecimentos individuais, cada um dos quais é descrito por quatro números, a saber, três coordenadas espaciais _x_, _y_, _z_ e uma coordenada temporal, o valor de tempo _t_. O “mundo” também é um contínuo nesse sentido; pois para cada acontecimento há acontecimentos “vizinhos” tão próximos quanto se queira (realizados, ou pelo menos concebíveis), cujas coordenadas _x₁_, _y₁_, _z₁_, _t₁_ diferem tão pouco quanto se queira das do acontecimento considerado de início, _x_, _y_, _z_, _t_. Se não estamos acostumados a conceber o mundo nesse sentido como um contínuo quadridimensional, é porque na física anterior à relatividade o tempo tem, em face das coordenadas espaciais, um papel diferente, mais independente. Por isso nos acostumamos a tratar o tempo como um contínuo independente. De fato, segundo a física clássica o tempo é absoluto, isto é, independente da posição e do _estado de movimento_ do sistema de referência. Isso se exprime na última equação da transformação de Galileu (_t′ = t_).
+
+Pela teoria da relatividade, impõe-se a consideração quadridimensional do “mundo”, porque segundo essa teoria o tempo é privado da sua independência, como ensina a quarta das equações da transformação de Lorentz:
+
+| t′ = (t − (v/c²) x) / √(1 − v²/c²)
+
+Pois, segundo essa equação, a diferença de tempo _Δt′_ entre dois acontecimentos em relação a _K′_ em geral não se anula mesmo quando se anula a diferença de tempo _Δt_ entre eles em relação a _K_. Uma distância puramente espacial entre dois acontecimentos em relação a _K_ acarreta uma distância temporal entre eles em relação a _K′_. Mas não é nisso que está a descoberta de Minkowski, importante para o desenvolvimento formal da teoria da relatividade. Ela está, antes, no reconhecimento de que o contínuo espaço-temporal quadridimensional da teoria da relatividade, nas suas propriedades formais decisivas, mostra o mais estreito parentesco com o contínuo tridimensional do espaço geométrico euclidiano[1]. Para fazer aparecer esse parentesco por inteiro, é preciso, é verdade, introduzir em lugar da coordenada de tempo usual _t_ a grandeza imaginária √−1 _ct_, que lhe é proporcional. Então, porém, as leis da natureza que satisfazem as exigências da teoria da relatividade (especial) tomam formas matemáticas em que a coordenada de tempo tem exatamente o mesmo papel que as três coordenadas espaciais. Essas quatro coordenadas correspondem formalmente com exatidão às três coordenadas espaciais da geometria euclidiana. Até o não matemático há de perceber que, com esse reconhecimento puramente formal, a teoria tinha de ganhar extraordinariamente em clareza de conjunto.
+
+Estas indicações pobres dão ao leitor apenas uma ideia vaga do importante pensamento de Minkowski, sem o qual a teoria da relatividade geral, cujas ideias fundamentais vamos desenvolver a seguir, talvez não tivesse saído dos cueiros. Mas, como uma compreensão mais exata desse assunto, sem dúvida de difícil acesso para o leitor sem prática de matemática, não é necessária para entender as ideias fundamentais nem da teoria da relatividade especial nem da geral, quero deixá-lo aqui, para só voltar a ele nas últimas exposições deste livrinho.
+
+¤ [1] Ver a exposição um pouco mais detalhada no Apêndice.
+

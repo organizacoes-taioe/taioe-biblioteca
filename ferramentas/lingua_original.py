@@ -1,7 +1,7 @@
 """Poemas na língua original, sem tradução: cada palavra abre uma nota com a definição.
 
     python ferramentas/lingua_original.py palavras <pasta> [<parte>]   # as palavras do poema e a chave de cada uma
-    python ferramentas/lingua_original.py wiki <es|en|fr> <página> [<língua>]
+    python ferramentas/lingua_original.py wiki <es|en|fr|it> <página> [<língua>]
                                                                 # o verbete do Wiktionary (só a seção da língua)
     python ferramentas/lingua_original.py conferir [<pasta> [<parte>]]  # todo o poema tem verbete; campos; mesóclise
     python ferramentas/lingua_original.py publicar              # grava o conteúdo do site
@@ -44,7 +44,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EDICAO = os.path.join(RAIZ, 'edicoes', 'lingua-original')
 CACHE = os.path.join(RAIZ, 'ferramentas', 'cache', 'wiktionary')
 UA = 'TaioeBiblioteca/0.1 (https://taioe.com.br/biblioteca/; contato@taioe.com.br)'
-NOMES_LINGUA = {'es': 'Spanish', 'fr': 'French', 'en': 'English', 'la': 'Latin'}
+NOMES_LINGUA = {'es': 'Spanish', 'fr': 'French', 'en': 'English', 'la': 'Latin', 'it': 'Italian'}
 # o Wiktionary padrão de cada língua é o dela; o latim usa o en.wiktionary, na seção Latin
 WIKI_PADRAO = {'la': 'en:Latin'}
 
@@ -57,6 +57,10 @@ PALAVRA = re.compile(r"[^\W\d_]+(?:[-'’][^\W\d_]+)*")
 # e o pronome depois do hífen também (vois-tu → vois + tu); «aujourd’hui» fica inteira
 ELISAO = re.compile(r"^(jusqu|lorsqu|puisqu|quoiqu|qu|l|d|j|m|t|s|n|c)['’](?=[^\W\d_])", re.I)
 PRONOME = re.compile(r"-(?:t-)?(je|tu|il|elle|on|nous|vous|ils|elles|le|la|les|lui|leur|moi|toi|en|y)$", re.I)
+# italiano (08/11/2026): o artigo, a preposição articulada, o pronome ou o adjetivo elididos são
+# palavras à parte (l’albero → l’ + albero, dell’orto → dell’ + orto, c’era → c’ + era)
+ELISAO_IT = re.compile(r"^(dell|dall|nell|sull|all|coll|pell|quell|quest|bell|sant|grand|nessun|ciascun|alcun|"
+                       r"tutt|senz|anch|com|dov|cos|quand|mezz|buon|gl|un|l|d|c|m|t|s|v|n)['’](?=[^\W\d_])", re.I)
 
 
 def ler_obras():
@@ -97,6 +101,11 @@ def separar(texto, lingua):
     saida = []
     for m in PALAVRA.finditer(texto):
         ini, fim = m.start(), m.end()
+        if lingua == 'it':
+            e = ELISAO_IT.match(texto[ini:fim])
+            if e:
+                saida.append((ini, ini + e.end()))
+                ini += e.end()
         if lingua == 'fr':
             while True:
                 e = ELISAO.match(texto[ini:fim])
@@ -238,7 +247,9 @@ def secao_da_lingua(wt, wiki, lingua):
             if partes[k].strip() == nome:
                 return '==' + nome + '==' + partes[k + 1]
         return None
-    if wiki == 'es':
+    if wiki == 'it':
+        partes = re.split(r'(?m)^==\s*\{\{-([a-z-]+)-\}\}\s*==\s*$', wt)
+    elif wiki == 'es':
         partes = re.split(r'(?m)^==\s*\{\{lengua\|([a-z-]+)\}\}\s*==\s*$', wt)
     else:
         partes = re.split(r'(?m)^==\s*\{\{langue\|([a-z-]+)\}\}\s*==\s*$', wt)
@@ -266,13 +277,25 @@ FORA = re.compile(r'(?i)translations|traducciones|traductions|pronunciation|pron
                   r'références|further reading|voir aussi|see also|descendants|derived terms|related terms|'
                   r'synonymes|antonymes|dérivés|apparentés|hyperonymes|hyponymes|vocabulaire|holonymes|méronymes|'
                   r'quotations|informaciones adicionales|véase también|refranes|locuciones|anagramas|'
-                  r'homophones|paronymes|anagrammes|compos|gentilés|proverbes|phrases|traduction|cognates|etymology|étymologie')
+                  r'homophones|paronymes|anagrammes|compos|gentilés|proverbes|phrases|traduction|cognates|etymology|étymologie|'
+                  r'altri progetti')
+
+
+# no it.wiktionary as seções são modelos numa linha («{{-sost-|it}}», «{{-trad-}}»)
+FORA_IT = {'trad', 'trad1', 'trad2', 'pron', 'etim', 'sin', 'ant', 'der', 'rel', 'var', 'ref', 'alter', 'prov',
+           'quote', 'noconf', 'iperon', 'ipon', 'chimica', 'fras', 'nota', 'coniug', 'sill', 'hyph'}
 
 
 def compacto(sec):
     """Cabeçalhos, a linha da palavra e as definições; sem traduções, exemplos, pronúncia e etimologia."""
     saida, pular = [], False
     for l in sec.split('\n'):
+        mi = re.match(r'^\{\{-([a-z0-9]+)-(?:\|[a-z]+)?\}\}\s*$', l)
+        if mi:
+            pular = mi.group(1) in FORA_IT
+            if not pular:
+                saida.append(l)
+            continue
         m = re.match(r'^(=+)\s*(.*?)\s*=+\s*$', l)
         if m:
             pular = bool(FORA.search(m.group(2)))
@@ -297,7 +320,7 @@ def conferir_parte(x, onde, problemas, lingua):
     if not isinstance(x.get('lema'), str) or not x['lema'].strip():
         problemas.append(onde + ': falta o lema')
     w = x.get('wiki', wiki_padrao(lingua))
-    if w is not None and not re.match(r'^(es|fr|en)(:[A-Z][a-z]+)?$', str(w)):
+    if w is not None and not re.match(r'^(es|fr|en|it)(:[A-Z][a-z]+)?$', str(w)):
         problemas.append(onde + ': wiki inválido ' + repr(w))
     if w is not None and not x.get('def'):
         problemas.append(onde + ': com wiki e sem definição')

@@ -1,0 +1,125 @@
+# Notas do tradutor: parte III, capítulos 6 a 10
+
+Seguem o guia e as `notas-III-1-5.md` (Biblioteca, curadores, «em Filadélfia» sem artigo etc.).
+*says he / says I* → «disse ele / disse eu», como nos capítulos 1–5.
+
+## III.6
+
+- *Lords of Trade* → «os Lordes do Comércio» (é a mesma *Board of Trade*, «a Junta do Comércio», que
+  aparece logo depois; guardei a diferença do original). *Six Nations* → «as Seis Nações».
+- *Mr. Secretary Peters* → «o secretário Peters»; *president-general* → «presidente-geral»; *grand
+  council* → «grande conselho»; *previous question* → «questão preliminar»; *prerogative* → «prerrogativa».
+- *both sides the water* → «os dois lados do oceano».
+- *Loan Office* → «Caixa de Empréstimos»; *orders on the trustees* → «ordens de pagamento contra os
+  curadores»; *excise* → «imposto de consumo»; *money'd people* → «gente endinheirada».
+- *Massachusetts Bay* → «Baía de Massachusetts»; *Crown Point* fica.
+- *Sancho Panza* → «Sancho Pança» (forma portuguesa corrente).
+- O jogo *blacks / blacked / blacken / negrofied*: «governo de negros… ainda não os enegreceu o bastante…
+  enegrecer a Assembleia… corria o risco de virar negro». Passa inteiro.
+- Dryden (*Look round the habitable world…*), dístico rimado em decassílabos heroicos (6ª e 10ª):
+  | Olhai o mundo: vereis quão pouca gente
+  | conhece o próprio bem, ou o segue, ciente!
+  Perde *habitable*; «ciente» = *knowing it* (com sinérese em «cien-»). Refeito pelo principal e conferido no `molde.mjs` (molde `10: 6-10`, os dois ✓): «Vede o mundo em redor: que pouca gente / sabe o seu bem, ou, ciente, o segue em frente!».
+
+## III.7
+
+- *waggon* → «carroça»; *waggoner* → «carroceiro»; *carriages* → «transporte», «carroças», «veículos»;
+  *team* → «parelha»; *pack horse* → «cavalo de carga»; *pack-saddle* → «cangalha»; *furniture* (do cavalo)
+  → «arreios»; *forage* → «forragem»; *Indian corn* → «milho».
+- *county* → «comarca» (Lancaster, York, Cumberland); *back parts*, *back counties* → «interior», «comarcas
+  do interior»; *settlements* → «povoações»; *plantations* → «lavouras»; *farmer* → «lavrador».
+- *subalterns* → «oficiais subalternos»; *aids-de-camp* → «ajudantes de ordens»; *paymaster* → «pagador»;
+  *advanced guard* → «guarda avançada»; *front* → «vanguarda»; *scouts* → «batedores»; *regulars* →
+  «tropas regulares»; *raw American militia* → «milícia americana bisonha»; *the hussar* (St. Clair) →
+  «o hussardo»; *receiver-general* (dos proprietários) → «recebedor-geral».
+- *Fort Duquesne* → «o forte Duquesne»; *Will's Creek*, *Niagara*, *Frontenac*, *Crown Point* ficam;
+  *Iroquois* → «iroqueses».
+- O anúncio: *Whereas…* → «Sendo necessárias…»; *viz.* → «a saber»; registro de edital, mas sem arcaísmo.
+  O apelo aos habitantes: **vós**, como manda o guia.
+- Lista de Braddock: *loaf sugar* → «açúcar refinado»; *Muscovado do.* → «açúcar mascavo» (o *do.* =
+  *ditto* desfeito); *bohea do.* → «chá bohea» (fica o nome do chá); *Jamaica spirits* → «rum da Jamaica»;
+  *flour of mustard* → «mostarda em pó»; *dry'd tongues* → «línguas secas»; *kegg* → «barrilete». Em
+  *2 doz. old Madeira wine* acrescentei «de garrafas» («2 dúzias de garrafas de vinho da Madeira velho»):
+  sem isso a linha não se entende em português.
+- Braddock, Franklin a ele e os Bond a Franklin: **o senhor**. *Why the d--l!* → «Mas que diabo!» (o
+  original abrevia o palavrão; em português «diabo» já é brando).
+- A emenda de uma palavra: *those of the proprietaries not excepted* / *for* not *read* only → «não
+  excetuados os dos proprietários… em vez de _não_, leia-se _somente_»: o jogo passa exato.
+- *bought servants* → «criados comprados» (os servos de contrato, cujo tempo se comprava; deixei a
+  expressão crua de Franklin).
+- *scamper'd* → «deu no pé»; *lumber* → «tralha»; *Who would have thought it?* → «Quem diria?».
+
+## III.8
+
+- *commission* (ao comandante) → «comissão»; *blank commissions for officers* → «patentes de oficial em
+  branco»; *our commissions were… broken* → «as nossas patentes logo se quebraram» (guarda o jogo com os
+  vidros quebrados do aparelho elétrico, *brittle*).
+- *stockade* → «paliçada»; *palisades* → «estacas»; *loopholes* → «seteiras» (no forte), «aberturas» (nos
+  dormitórios); *stage of boards* → «estrado de tábuas»; *swivel gun* → «canhão giratório»; *perch* (da
+  carroça) → «longarina»; *the bodys* → «a caixa»; *gun locks* → «fechos das espingardas»; *priming* →
+  «escorva»; *saw-mill* → «serraria»; *hutted ourselves* → «fizemos cabanas».
+- *gill of rum* → «um _gill_ de rum» (a medida fica, como manda o guia; vai ao vocabulário: ¼ de pinto,
+  pouco mais de 0,1 litro). *steward of the rum* → «despenseiro do rum». *mate* → «imediato»; *scour the
+  anchor* → «arear a âncora».
+- *captains, lieutenants, and ensigns* → «capitães, tenentes e alferes»; *brass field-pieces* → «peças de
+  campanha de bronze»; *rounds* → «salvas»; *colonelship* → «posto de coronel».
+- *Bethlehem*, *Gnadenhut* (*Gnaden*), *the Minisink*, *Lower Ferry* ficam; *the bishop, Spangenberg* → «o
+  bispo Spangenberg»; *Dr. B.* → «o dr. B.».
+- Morávios: *elders of his class* → «os anciãos da sua classe»; *elder ladies* → «as senhoras mais velhas»;
+  *by lot* → «por sorteio», «a sorte»; *hautboys* → «oboés». O informante a Franklin: você.
+- *went on swimmingly* → «ia de vento em popa»; *blood royal* → «sangue real».
+
+## III.9
+
+- *Royal Society* → «a Real Sociedade (de Londres)»; *Fellow* → «membro»; *Transactions* → as
+  _Transactions_ (título, itálico); *Royal Academy of Sciences* → «a Real Academia de Ciências».
+- *our library company* → «a nossa Biblioteca» (o termo fixado em III.1).
+- Franceses: *M. Dalibard*, *M. le Roy*, *M. de Lor*, *Messrs.* → «o sr. Dalibard», «o sr. Le Roy», «os
+  srs. Dalibard e De Lor»; *the Abbé Nollet* → «o abade Nollet»; *Count de Buffon* → «o conde de Buffon»;
+  *Monsieur B------* fica como Franklin escreve; *élève* → _élève_ (itálico).
+- *lectures* → «conferências»; *performers* → «experimentadores»; *glass-house* → «fábrica de vidro»;
+  *quarto volume* → «volume in-quarto»; *copy-money* → «nada pelo original»; *connoisseurs* → «os
+  entendidos»; *kite* → «papagaio de papel»; *pointed rod* → «vara pontuda»; *Philadelphia Experiments* →
+  «as Experiências de Filadélfia»; *Letters* (de Nollet) → _Cartas_.
+
+## III.10
+
+- *paquet*, *paquet-boat* (o navio-correio) → «paquete»; *a paquet from Governor Denny* (o pacote de cartas)
+  → «um malote».
+- *his lordship* → «Sua Senhoria»; Loudoun e Shirley a Franklin, e Franklin a Shirley: **o senhor**;
+  Franklin e Innis: você.
+- *entre nous* → _entre nous_ [cá entre nós] (francês fica, com a tradução entre colchetes, guia § 4);
+  *escritoire* → «escrivaninha».
+- *Historical Review* → o _Exame histórico_ (o livro de 1759, _An Historical Review of the Constitution
+  and Government of Pennsylvania_). *Jas. Ralph* → «James Ralph». *Prince Frederic* → «o príncipe
+  Frederico». *three hundred a year* → «trezentas libras por ano» («libras» subentendido no original).
+- *St. George on the signs, always on horseback, and never rides on* → «como o São Jorge das tabuletas:
+  está sempre a cavalo e nunca sai do lugar».
+- *I find a low seat the easiest* (Shirley, rebaixado) → «acho que um assento baixo é o mais cômodo»
+  (o duplo sentido de *easiest* passa por «cômodo»).
+- Mar: *ninety-six sail* → «noventa e seis velas»; *dull* → «lento»; *best sailer* → «o melhor veleiro»;
+  *ensign staff* → «mastro da bandeira»; *by the head* → «à proa»; *knots* → «nós»; *log*, *log-line*,
+  *heaving the log* → «barquilha», «linha da barquilha», «lançar a barquilha»; *watches* → «quartos»;
+  *trimm'd sharper or flatter* → «mais fechadas ou mais abertas»; *had soundings* → «achamos fundo com a
+  sonda»; *privateers* → «corsários»; *indraught* → «corrente que entra»; *studdingsails* → «velas
+  auxiliares» (evitei «varredouras», raro); *yaw* → «guinada»; *wear round, all sails standing* → «virar
+  em roda, com todas as velas em cima»; *heave her down and clean her bottom* → «deitá-lo de lado e limpar
+  o fundo»; *the worm* → «o gusano»; *Look well out before there* / *Ay ay* → «Olho vivo aí na frente!» /
+  «Sim, sim».
+- *Scilly Isles* → «ilhas Scilly»; *St. George's Channel* → «canal de São Jorge»; *Salisbury Plain* →
+  «planície de Salisbury»; *Fort George* → «forte George»; *Sandy Hook*, *Halifax*, *Charlestown*,
+  *Falmouth*, *Stonehenge*, *Wilton* ficam.
+- *fall goods* → «mercadorias de outono»; *contractors* → «fornecedores»; *voucher* → «comprovante»;
+  *not a farthing* → «um vintém» (como em III.5).
+
+## Candidatos a decisão para o Gere
+
+1. O jogo racial de Morris e Franklin (III.6, *government of blacks… negrofied*): tradução literal
+   («governo de negros… virar negro», recomendada: é o texto e o tom da época) × suavizar (não recomendo:
+   seria censura e perderia a piada que sustenta a resposta de Franklin).
+2. *bought servants* (III.7): «criados comprados» (recomendada, crua como Franklin) × «servos de
+   contrato» (mais exata para o leitor de hoje, mas explica o que ele não explica).
+3. *gill of rum* (III.8): «um _gill_ de rum» (recomendada, pelo guia: medidas sem converter, com o
+   vocabulário) × «uma dose de rum» (mais legível, perde a medida).
+4. *entre nous* (III.10, Loudoun): _entre nous_ [cá entre nós] (recomendada pela regra do guia, § 4) ×
+   só _entre nous_, sem colchete (a expressão é corrente, e o colchete pesa numa fala).

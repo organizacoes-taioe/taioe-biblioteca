@@ -1,0 +1,179 @@
+{
+ "id": "vidas-alexandre-cesar",
+ "rotulo": "Vidas paralelas: Alexandre e César (Plutarco)",
+ "url": "/biblioteca/plutarco/vidas-alexandre-cesar/",
+ "escolhas": [
+  {
+   "id": "alea",
+   "titulo": "«Ἀνερρίφθω κύβος» no Rubicão: «Seja lançado o dado»?",
+   "ref": "César 32.6",
+   "contexto": "César, depois de hesitar à margem do Rubicão, diz «aquela frase que é o prelúdio comum dos que se atiram a sortes sem saída»: Ἀνερρίφθω κύβος, um verso de Menandro que Plutarco cita em grego. Ao pé da letra: «Seja lançado (ao alto) o dado». A forma consagrada em português, «A sorte está lançada», vem do latim de Suetônio (*alea iacta est*), não de Plutarco.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Seja lançado o dado», como está",
+     "nota": "Fiel ao grego (imperativo: o dado ainda vai ser lançado).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Lance-se o dado»",
+     "nota": "O mesmo sentido, mais curto."
+    },
+    {
+     "id": "c",
+     "texto": "«A sorte está lançada»",
+     "nota": "A frase célebre, mas troca o imperativo pelo fato consumado e não é o que Plutarco escreve."
+    }
+   ]
+  },
+  {
+   "id": "mulher",
+   "titulo": "A resposta de César sobre Pompeia: «eu exigia que a minha nem sequer fosse suspeita»?",
+   "ref": "César 10.6",
+   "contexto": "Perguntado por que repudiou a mulher, se não sabia de nada contra Clódio, César responde: Ὅτι τὴν ἐμὴν ἠξίουν μηδ’ ὑπονοηθῆναι. Tradução: «Porque eu exigia que a minha nem sequer fosse suspeita.» É a origem do dito «a mulher de César não basta ser honesta, tem de parecer honesta», que não está em Plutarco.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Porque eu exigia que a minha nem sequer fosse suspeita», como está",
+     "nota": "Fiel; ἠξίουν é «eu exigia, eu julgava justo».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Porque eu achava que a minha não devia nem sequer ser suspeita»",
+     "nota": "Mais brando, o mesmo sentido."
+    },
+    {
+     "id": "c",
+     "texto": "«Porque a mulher de César deve estar acima de suspeita»",
+     "nota": "A forma proverbial; acrescenta o que César não diz."
+    }
+   ]
+  },
+  {
+   "id": "catao",
+   "titulo": "As palavras de César sobre Catão morto: «tenho inveja da tua morte»?",
+   "ref": "César 54.1",
+   "contexto": "Ao saber que Catão se matou em Útica, César diz: Ὦ Κάτων, φθονῶ σοι τοῦ θανάτου· καὶ γὰρ σὺ ἐμοὶ τῆς σωτηρίας ἐφθόνησας. O jogo é o mesmo verbo (φθονεῖν, «invejar, negar por inveja») nos dois lados.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Catão, tenho inveja da tua morte, porque também tu tiveste inveja de que eu te salvasse», como está",
+     "nota": "Guarda o mesmo verbo nos dois lados.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Catão, eu te nego a tua morte, porque tu me negaste a tua salvação»",
+     "nota": "Mais perto da construção grega, mas obscuro."
+    },
+    {
+     "id": "c",
+     "texto": "«Catão, invejo-te a morte, porque me invejaste a glória de te salvar»",
+     "nota": "Claro, mas acrescenta «glória»."
+    }
+   ]
+  },
+  {
+   "id": "espirito",
+   "titulo": "O fantasma que aparece a Bruto: «o teu espírito mau»?",
+   "ref": "César 69.7 (e 69.2, 69.6)",
+   "contexto": "Antes de Filipos, uma figura aparece a Bruto na tenda e diz: Ὁ σὸς ὦ Βροῦτε δαίμων κακός· ὄψει δέ με περὶ Φιλίππους. A tradução tradicional é «o teu mau gênio», mas hoje «mau gênio» se lê como «mau humor».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Sou o teu espírito mau, Bruto; tu me verás em Filipos», como está",
+     "nota": "Claro e fiel; «espírito» é o sentido de δαίμων aqui.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Sou o teu mau gênio, Bruto…»",
+     "nota": "A forma tradicional, que o leitor de hoje entende como temperamento."
+    },
+    {
+     "id": "c",
+     "texto": "«Sou o teu mau demônio, Bruto…»",
+     "nota": "Literal, mas «demônio» puxa para o sentido cristão."
+    }
+   ]
+  },
+  {
+   "id": "paidios",
+   "titulo": "O erro do sacerdote de Amon: os sons gregos sem explicação no texto?",
+   "ref": "Alexandre 27.5",
+   "contexto": "O profeta de Amon quis saudar Alexandre em grego com «ὦ παιδίον» («meu filho») e, pela pronúncia de estrangeiro, disse «ὦ παιδίος», que soa como «ὦ παῖ Διός», «ó filho de Zeus». A tradução deixa os sons em itálico, «ô paidíon», «ô paidíos», sem dizer o que significam; quem não sabe grego não entende o trocadilho.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "deixar como está, sem explicação no texto, e explicar o trocadilho numa nota geral do lote de notas",
+     "nota": "Nada se acrescenta ao texto de Plutarco.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "pôr a explicação entre parênteses no texto: «ô paidíon» («meu filho») … «ô paidíos», que soava como «ô pai Diós», «ó filho de Zeus»",
+     "nota": "O leitor entende na hora, mas é acréscimo ao texto."
+    }
+   ]
+  },
+  {
+   "id": "lira",
+   "titulo": "«A lira de Alexandre» em Troia: «a lira de Páris»?",
+   "ref": "Alexandre 15.5",
+   "contexto": "Em Ílion, alguém pergunta a Alexandre se quer ver τὴν Ἀλεξάνδρου λύραν, «a lira de Alexandre», isto é, de Páris, o príncipe troiano, que também se chamava Alexandre. Ele responde que prefere a de Aquiles.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«a lira de Páris», como está",
+     "nota": "O leitor sabe de quem se trata; perde-se a graça de o rei ter o mesmo nome do troiano.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«a lira de Alexandre» (o de Troia)",
+     "nota": "Literal, guarda o eco do nome, mas confunde à primeira leitura sem nota."
+    }
+   ]
+  },
+  {
+   "id": "clito",
+   "titulo": "Clito e Alexandre: «julgas que vais ficar contente…?», com o eco de «nem agora estamos contentes»?",
+   "ref": "Alexandre 51.1",
+   "contexto": "Na briga do banquete, Alexandre diz a Clito: ἦ ταῦτα σὺ χαιρήσειν… νομίζεις; (ao pé da letra, «julgas que vais alegrar-te com isto?», isto é, «que vais sair impune?»). Clito retoma o mesmo verbo: ἀλλ’ οὐδὲ νῦν χαίρομεν, «nem agora estamos alegres».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«E tu, canalha, julgas que vais ficar contente…?» — «Mas nem agora estamos contentes», como está",
+     "nota": "Guarda o eco das duas falas.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«…julgas que vais sair impune…?» — «Mas nem agora estamos contentes»",
+     "nota": "O sentido da ameaça fica claro, mas o eco se perde."
+    }
+   ]
+  },
+  {
+   "id": "hero",
+   "titulo": "Hero, «prima» ou «sobrinha» de Aristóteles?",
+   "ref": "Alexandre 55.4",
+   "contexto": "Calístenes era filho de Hero, ἀνεψιὰ Ἀριστοτέλους. No grego clássico ἀνεψιά é «prima»; a tradição (e Perrin) entende «sobrinha», sentido que a palavra tem no grego tardio.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«prima de Aristóteles», como está",
+     "nota": "O sentido clássico da palavra.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«sobrinha de Aristóteles»",
+     "nota": "O que dizem a tradição e as traduções conhecidas."
+    }
+   ]
+  }
+ ]
+}

@@ -3,7 +3,8 @@
     "es": { "nome": "espanhol", "wikisource": "https://es.wikisource.org/wiki/" },
     "en": { "nome": "inglês", "wikisource": "https://en.wikisource.org/wiki/" },
     "fr": { "nome": "francês", "wikisource": "https://fr.wikisource.org/wiki/" },
-    "la": { "nome": "latim", "wikisource": "https://la.wikisource.org/wiki/" }
+    "la": { "nome": "latim", "wikisource": "https://la.wikisource.org/wiki/" },
+    "it": { "nome": "italiano", "wikisource": "https://it.wikisource.org/wiki/" }
   },
   "poemas": [
     {
@@ -46,6 +47,17 @@
       "livro": { "titulo": "Poems", "ano": 1633 },
       "fontes": [
         { "nome": "Poems (1633), no Wikisource", "url": "https://en.wikisource.org/wiki/Death_be_not_proud", "nota": "grafia de 1633, aqui atualizada" }
+      ]
+    },
+    {
+      "pasta": "paradise-lost-i", "autor": "john-milton", "lingua": "en", "forma": "outras",
+      "titulo": "Book I", "ano": 1674,
+      "livro": { "titulo": "Paradise Lost", "ano": 1674 },
+      "traducao": { "tradutor": "António José de Lima Leitão", "titulo": "O Paraíso Perdido, Canto I", "ano": 1840, "publicacao": "médico e poeta português (1787–1856), publicada em O Paraíso Perdido, poema épico em doze cantos, traduzido em verso português (Lisboa, 1840), em decassílabos brancos, mais extensa que o original (1.083 versos para 798)", "fonte": { "nome": "O Paraíso Perdido, tradução de Lima Leitão, livro I, no Wikisource", "url": "https://pt.wikisource.org/wiki/Para%C3%ADso_Perdido/Livro_I", "nota": "transcrição de edição não indicada, conferida verso a verso com a de Lisboa, Santos & Vieira, s. d. (fac-símile no Wikimedia Commons, «Antonio José de Lima Leitão - O paraiso perdido (1877).pdf»), que dá duas lições seguidas aqui («O exército infernal fora o cêntuplo»; «Sobre polido e plano pavimento»); no 23º verso fica «Instrui-me porque», do Wikisource, porque a de Santos & Vieira perde uma sílaba. Ortografia atualizada, com os acentos de Portugal; o «Argumento» é o do tradutor; os versos vão agrupados nos 14 parágrafos do original, para andarem ao lado dele" } },
+      "fontes": [
+        { "nome": "Paradise Lost. A Poem in Twelve Books, 2ª edição, revista e aumentada (Londres, S. Simmons, 1674), no Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:ParadiseLost1674CopyB.pdf", "nota": "a última edição em vida do autor e a primeira em doze livros, com os «Arguments» em prosa: o livro I inteiro, 798 versos, e o seu «Argument». Dela vêm as palavras, conferidas uma a uma, e a divisão em 14 parágrafos, pelos recuos da página (as edições modernas dividem em mais)" },
+        { "nome": "Paradise Lost (1674), transcrição do Text Creation Partnership (EEBO-TCP A50924, em domínio público)", "url": "https://github.com/textcreationpartnership/A50924", "nota": "a mesma edição de 1674, na grafia original; serviu para conferir o texto moderno palavra por palavra, e as divergências foram resolvidas nas imagens" },
+        { "nome": "Paradise Lost, transcrição de Joseph Raben, no Projeto Gutenberg (ebook 26)", "url": "https://www.gutenberg.org/ebooks/26", "nota": "a grafia e a pontuação de hoje (de edição não identificada), com as palavras de 1674 nos vv. 70 («had», não «has»), 75 («O»), 100 («contention»), 361 («of»), 409 («realm»), 426 («tied»), 627 («Foreseeing»), 703 («found out», como em 1674; a 1ª edição, de 1667, traz «founded») e 729 («naphtha»), e três erros de digitação corrigidos (vv. 356, 378 e 769). O «Argument», que não está nela, é o de 1674, na grafia de hoje" }
       ]
     },
     {
@@ -459,6 +471,47 @@
       "fontes": [
         { "nome": "Fables choisies, mises en vers, «revues, corrigées et augmentées» pelo autor, tomo 3 (Paris, Denys Thierry e Claude Barbin, 1678), no Wikisource", "url": "https://fr.wikisource.org/wiki/La_Laiti%C3%A8re_et_le_Pot_au_lait", "nota": "livro VII, fábula 9 (o segundo volume de fábulas saiu em 1678); texto do Wikisource, sobre o fac-símile da BnF (Gallica); palavras e pontuação desta edição, na ortografia de hoje («Fourmi», «était», «eh bien»), com as maiúsculas dos personagens (Corbeau, Renard, Sire Loup) e minúscula nos outros nomes comuns; «Picrochole», o rei de Rabelais (a edição traz «Pichrocole»)" },
         { "nome": "Fables de La Fontaine (Paris, Bernardin-Béchet, 1874), no Wikisource", "url": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(%C3%A9d._1874)/La_Laiti%C3%A8re_et_le_Pot_au_lait", "nota": "edição em ortografia moderna, para conferir a grafia" }
+      ]
+    },
+    {
+      "pasta": "pianto-antico", "autor": "giosue-carducci", "lingua": "it", "forma": "outras",
+      "titulo": "Pianto antico", "ano": 1871,
+      "livro": { "titulo": "Rime nuove", "ano": 1887 },
+      "fontes": [
+        { "nome": "Rime nuove, em Poesie (Bolonha, Zanichelli, 1906), no Wikisource", "url": "https://it.wikisource.org/wiki/Rime_nuove/Libro_III/Pianto_antico", "nota": "a última edição revista pelo autor; na acentuação de hoje («Rinverdì», «più») e, no resto, como está nessa edição («Da’ bei», «de la», «ne la»)" }
+      ]
+    },
+    {
+      "pasta": "novembre", "autor": "giovanni-pascoli", "lingua": "it", "forma": "outras",
+      "titulo": "Novembre", "ano": 1891,
+      "livro": { "titulo": "Myricae", "ano": 1891 },
+      "fontes": [
+        { "nome": "Myricae (Livorno, Giusti, 1891), no Wikisource", "url": "https://it.wikisource.org/wiki/Myricae/In_campagna/Novembre" }
+      ]
+    },
+    {
+      "pasta": "l-infinito", "autor": "giacomo-leopardi", "lingua": "it", "forma": "outras",
+      "titulo": "L’infinito", "ano": 1819,
+      "livro": { "titulo": "Canti", "ano": 1831 },
+      "fontes": [
+        { "nome": "Canti, na edição de Donati, no Wikisource", "url": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XII._L%27infinito", "nota": "na acentuação de hoje («là», «così», «immensità»)" }
+      ]
+    },
+    {
+      "pasta": "san-martino", "autor": "giosue-carducci", "lingua": "it", "forma": "outras",
+      "titulo": "San Martino", "ano": 1883,
+      "livro": { "titulo": "Rime nuove", "ano": 1887 },
+      "fontes": [
+        { "nome": "Rime nuove, em Poesie (Bolonha, Zanichelli, 1906), no Wikisource", "url": "https://it.wikisource.org/wiki/Rime_nuove/Libro_III/San_Martino", "nota": "a última edição revista pelo autor; na acentuação de hoje e, no resto, como está nessa edição («a gl’irti», «de’ tini», «de i vini», «su’ ceppi»)" }
+      ]
+    },
+    {
+      "pasta": "pinocchio", "autor": "carlo-collodi", "lingua": "it", "forma": "outras", "prosa": true, "genero": "Romance",
+      "titulo": "Capitolo I", "ano": 1883,
+      "subtitulo": "Come andò che maestro Ciliegia, falegname, trovò un pezzo di legno che piangeva e rideva come un bambino",
+      "livro": { "titulo": "Le avventure di Pinocchio. Storia di un burattino", "ano": 1883 },
+      "fontes": [
+        { "nome": "Le avventure di Pinocchio (Florença, Paggi, 1883), no Wikisource", "url": "https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio/Capitolo_1", "nota": "só o começo do capítulo I, até «Non mi picchiar tanto forte!», que os Cards ensinam em três partes; na acentuação de hoje («perché») e, no resto, como está na 1ª edição em livro" }
       ]
     }
   ]

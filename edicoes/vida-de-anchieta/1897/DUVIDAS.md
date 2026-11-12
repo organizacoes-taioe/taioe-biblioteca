@@ -1,0 +1,34 @@
+# Dúvidas da conferência (transcrição de 1897)
+
+- p. 14, linha «ausentes, e ou» (l. 10 do corpo): lida «e ou» (o «e» está manchado, talvez «é»); a frase pede só «ou … ou», provável erro do impresso.
+- p. 4, título do cap. 2: marca em forma de vírgula sobre o «i» de «Moramomis»; tomada por mancha, não por acento.
+- p. 6, l. «croncrenas largas»: leitura incerta da palavra (voto «croncrenas»); mantida.
+- p. 10, última linha: «locus.» (o ponto pode ser vírgula; a página seguinte começa novo período).
+- p. 15, «senho / de um engenho»: no impresso falta o «r» de «senhor» (transcrito «senho»).
+- p. 15, «humilha e abate»: no impresso a primeira palavra é «e»; mantido (o sentido pede «e»).
+- p. 15, acentos em «neste á sentença», «toda á qualidade», «promovido á algum», «e á pedra»: acento agudo visível mas pouco nítido; mantido «á».
+- p. 16, «Onvindo o / general»: no impresso «Onvindo» por «Ouvindo» (transcrito como está).
+- p. 17: no rodapé há a marca de caderno «A. B. N.» e «2» (assinatura tipográfica); não transcrita.
+- p. 18, «aqual acha-/ram»: no impresso «aqual» junto (por «a qual»); transcrito como está.
+- p. 21, «devaçaõ»: no impresso o til está sobre o «o» (devaçaõ); transcrito como está.
+- p. 24, «Irmaõ:»: til sobre o «o» no impresso; transcrito como está.
+- p. 24, «fazer fazer» (duas vezes: «iriam fazer fazer», «foram fazer fazer uma pescaria»): repetição no impresso, provável erro de composição; transcrito como está.
+- p. 22, «morreram ali máo estado»: na quebra de linha «máo es-/tado» (provável «em máo estado»; falta «em» no impresso, assim como no voto).
+- p. 25, «Aires Fernandes» (linhas 11–12 do cap.) e «Ayres Fernandes» (l. 'Ouviu isto'): grafias diferentes no próprio impresso; mantidas.
+- p. 27, «dissimuladameute»: no impresso «u» por «n» (dissimuladamente); transcrito como está.
+- p. 28, «reteudo» (por «retendo»/«detido»), «fuão» e «Foão» (para «Fulano/Foão»?): grafias estranhas do impresso, mantidas como estão.
+- p. 30, «sem a deitar em / quanto se representava»: o impresso tem «em» no fim da linha e «quanto» no começo da seguinte, sem hífen (duas palavras); transcrito assim.
+- p. 31, linha «foão e foão» (ou «Foão»): nome omitido/forma estranha no impresso («foão e foão»); mantido como está.
+- p. 33, rodapé: «A. B. N.» e «3» (assinatura de caderno), não transcritos.
+- p. 34, «que estê en gloria»: no impresso «estê en» (provável «esté em»); transcrito como parece estar impresso.
+- p. 36, «respondeu que era foã»: nome da mártir no impresso («foã», provável «Fulana»/«Joana»); mantido como impresso.
+- p. 36, «Irmã» (maiúscula em «sua Irmã a fazer») no impresso; mantida.
+- p. 38, «cunhado seu»: a vírgula depois de «outro» (acompanhando ao Padre com outro, cunhado seu,) é tinta clara; mantida.
+- p. 43: o número impresso no topo é «43» (o voto lia «48»); título do cap. 23 no impresso: «De como obedeciam ao Padre José as Aves e animaes feros fallando com elles na lingoa Brasilica».
+- p. 43, última linha do cap. 22: «de 1605» (algarismo final em tipo pesado, lido «5»; o voto dizia «1603/1605»).
+- p. 44, «Padre Pº Leitão»: o «o» sobrescrito está sem ponto visível («Pº»); transcrito «Pº».
+- p. 47, «fortaleza de Britioga» (l. 3 do 3.º parágrafo) mas «fortalesa» mais adiante: grafias diferentes no próprio impresso; mantidas.
+- p. 47, «recolberam»: no impresso «recolberam» (por «recolheram»); mantido.
+- p. 48: «Codice CX/1-17 da Bibliotheca de Evora»: no impresso a cota é uma fração (CX sobre 1–17, «C X» em cima e «1–17» embaixo); transcrita em linha como «CX/1-17».
+- p. 48: a data é «3.º de Janeiro de 1607»; o «3.º» tem o o sobrescrito; o voto lia «160» (cortado).
+- p. 49, «no Brasil» (l. «Provinciaes da Companhia no Brasil»): o «no» tem acento/mancha parecido com «nó»; lido «no».

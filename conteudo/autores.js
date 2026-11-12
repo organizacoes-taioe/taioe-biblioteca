@@ -763,6 +763,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'herodoto',
+  nome: 'Heródoto',
+  nomeCompleto: 'Heródoto de Halicarnasso',
+  vida: '~484–~425 a.C.',
+  ordem: 'Heródoto',
+  area: 'nao-ficcao',
+  nota: 'Historiador grego da Ásia Menor, autor das Histórias sobre as guerras entre gregos e persas.'
+});
+
+BIBLIOTECA.autor({
   id: 'seneca',
   nome: 'Sêneca',
   nomeCompleto: 'Lúcio Aneu Sêneca',

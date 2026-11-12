@@ -31,3 +31,7 @@
 ## Candidatos a decisão do Gere
 - 126.5–6, o discurso de Ciro aos persas: «obedecei-me e tornai-vos livres» (ἐμέο πειθόμενοι γίνεσθε ἐλεύθεροι), com o
   «vós» do plural (CONVENCOES). Alternativa: «obedecendo-me, sereis livres».
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos os anos de reinado, as tribos persas, as medidas, a carta na lebre, os termos fixos). Dúvidas: nenhuma.

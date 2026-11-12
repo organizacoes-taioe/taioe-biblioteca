@@ -121,3 +121,20 @@ Candidatas a decisão:
   no jugo porque um milhão de braços me oferecem», sem o «mo», raro no Brasil.
 
 Candidatas a decisão: nenhuma nova.
+
+## 07 · Como, nos Estados Unidos, a religião sabe servir-se dos instintos democráticos (II, I, 5)
+
+- Termos: *idées arrêtées* → «ideias assentadas» (e *arrêter ses idées* → «assentar as suas ideias»);
+  *formes / pratiques extérieures / figures / observances* → «formas / práticas exteriores / figuras /
+  observâncias»; *articles de foi* → «artigos de fé»; *passion-mère* → «paixão-mãe»; *zélateurs* →
+  «zeladores»; *amour / goût du bien-être* → «amor / gosto do bem-estar»; *prêtres* (de todas as
+  comunhões) → «sacerdotes», e «padres» onde são os católicos ou o clero americano visto de perto,
+  como no cap. 5.
+- «Cela me paraît unique» → «Isso me parece único» (a única ciência cuja prática é de todos e o
+  estudo de poucos); «celle-ci» → «desta», a ciência de Deus e do homem.
+- «dut disposer les hommes» → «deve ter disposto» (suposição, não fato).
+- «il n'y a pas en dehors d'elles» (plural no impresso, referido à opinião comum) → «fora dela».
+- «faire son salut» → «alcançar a salvação».
+- «Mahomet», «Coran» → «Maomé», «Corão»; «l'évangile» (minúscula no impresso) → «o Evangelho».
+
+Candidatas a decisão: nenhuma nova.

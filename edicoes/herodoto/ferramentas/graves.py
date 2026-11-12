@@ -7,7 +7,7 @@ import re, unicodedata as u
 ACU, GRA, CIRC = '́', '̀', '͂'
 ENCL = set('τε τοι γε περ νυν μιν νιν σφι σφιν σφεας σφεα σφεων σφισι σφε οι μοι μου με σοι σου σε τις τι τινος τινι '
            'τινα τινες τινων τισι τισιν τινας του τευ τεο τεω τω τεων ποτε πω που πη πως ποθεν ποθι θην κε κεν ρα '
-           'εστι εστιν εισι εισιν ειμι εσμεν εστε φημι φησι φησιν φαμεν φατε φασι φασιν'.split())
+           'εστι εστιν εισι εισιν ειμι εσμεν εστε φημι φησι φησιν φαμεν φατε φασι φασιν κως κου κοτε κη κω κοθι κοθεν τινεσ σευ μευ κʼ σʼ μʼ τʼ γʼ'.split())
 VOG = set('αεηιουωΑΕΗΙΟΥΩ')
 PAL = re.compile(r'[\ẁ-ͯ]+', re.U)
 def nu(w):
@@ -15,6 +15,7 @@ def nu(w):
     return ''.join(c for c in d if not u.combining(c)).replace('ς', 'σ').replace('σ', 'σ')
 def _sem(w):
     return nu(w).replace('σ', 'ς') if nu(w).endswith('σ') else nu(w)
+ENCL = {w.replace('ς', 'σ') for w in ENCL}   # comparadas com σ final, como as palavras do texto
 ENCL_SEGURAS = ENCL - {'οι'}
 def _acentos(d):
     return [i for i, c in enumerate(d) if c in (ACU, GRA, CIRC)]

@@ -12,7 +12,8 @@ Branch `pedido-herodoto` do `taioe-biblioteca` (worktree `~/.cache/claude-wt5-he
 
 ## Falta
 - Tradução, um arquivo de `traducao/` para cada um de `original/` (17), com `traducao/notas-<arquivo>.md`.
-  Feitos: (nenhum).
+  Feitos: 1–5 e 46–216 (os de 46–216 por tradutores Opus, na branch `pedido-herodoto-b`, já juntada).
+  Faltam: 6–14, 15–25, 26–45. `python3 ferramentas/conferir.py` (na pasta da obra) confere blocos, marcas, versos.
 - Revisão contra o grego (subagente Sonnet), uniformização dos nomes e termos.
 - «Sobre» no `obra.py`, `revisao.json` (~8 decisões), autor `herodoto` em `conteudo/autores.js`, `python3
   ferramentas/traducoes.py herodoto`, vocabulário (`edicoes/vocabulario/herodoto-historias.json`), gerar e conferir.

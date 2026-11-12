@@ -40,13 +40,14 @@ ACENTOS = [
     ('187.1', 'ὕπερ', 'ὑπὲρ'), ('187.4', 'ὕπερ', 'ὑπὲρ'), ('188.1', 'προβάτοῖσι', 'προβάτοισι'), ('192.3', 'μυρίαι', 'μύριαι'),
     ('202.2', 'δίαιτᾳ', 'δίαιτα'), ('210.2', 'ἐστί', 'ἔστι'),
 ]
+N_MANUAIS = len(ACENTOS); CTX = {}
 for l in open(os.path.join(AQUI, 'acentos-aceitos.tsv'), encoding='utf-8'):
     if not l.strip(): continue
     r = l.rstrip('\n').split('\t')
     novo = ('χώρη' if r[2] == 'χώρη' else 'χώρῃ') if r[1] == 'χωρῇ' else r[2].replace('᾽', 'ʼ').replace('’', 'ʼ')
     if novo[:1] != r[1][:1] and novo[:1].lower() == r[1][:1]: novo = novo[0].lower() + novo[1:]
     if novo == 'ἢ' and r[1] == 'ἡ': novo = 'ἣ'
-    ACENTOS.append((r[0], r[1], novo))
+    ACENTOS.append((r[0], r[1], novo)); CTX[len(ACENTOS) - 1] = r[4]
 PARTES = [((1, 5), 'Proêmio: os raptos'), ((6, 14), 'Candaules e Giges'), ((15, 25), 'Os reis da Lídia e Árion'),
           ((26, 45), 'Creso, Sólon e Átis'), ((46, 58), 'Creso consulta os oráculos'), ((59, 70), 'Atenas e Esparta'),
           ((71, 84), 'A guerra com Ciro e a tomada de Sardes'), ((85, 94), 'Creso na fogueira; os lídios'),
@@ -55,11 +56,20 @@ PARTES = [((1, 5), 'Proêmio: os raptos'), ((6, 14), 'Candaules e Giges'), ((15,
           ((162, 176), 'Hárpago na Jônia, na Cária e na Lícia'), ((177, 187), 'Babilônia e as suas rainhas'),
           ((188, 200), 'Ciro toma Babilônia; os costumes dos babilônios'), ((201, 216), 'Tômiris e a morte de Ciro')]
 PAL = re.compile(r'[\ẁ-ͯʼ]+')
-def troca_palavra(t, a, b):
-    for m in PAL.finditer(t):
-        if m.group() == a:
-            return t[:m.start()] + b + t[m.end():], True
-    return t, False
+def _n(w):
+    return ''.join(c for c in u.normalize('NFD', w.lower()) if not u.combining(c)).replace('ʼ', '').replace('’', '')
+def troca_palavra(t, a, b, ctx=None):
+    """troca a ocorrência de a; com ctx (as palavras em volta, da colação), a que tem a mesma palavra seguinte"""
+    ms = [m for m in PAL.finditer(t)]
+    cand = [k for k, m in enumerate(ms) if m.group() == a]
+    if ctx and len(cand) > 1:
+        cw = ctx.split(); i = next((j for j, w in enumerate(cw) if w == a), None)
+        if i is not None and i + 1 < len(cw):
+            boas = [k for k in cand if k + 1 < len(ms) and _n(ms[k + 1].group()) == _n(cw[i + 1])]
+            if boas: cand = boas
+    if not cand: return t, False
+    m = ms[cand[0]]
+    return t[:m.start()] + b + t[m.end():], True
 def capitular(t):
     i = next(k for k, c in enumerate(t) if c.isalpha())
     return t[:i] + t[i].upper() + t[i + 1:]
@@ -77,9 +87,15 @@ for c, secs in d['caps']:
         t, g1, g2 = corrigir(t); ngr += g1; ndu += g2
         for k, (r, a, b) in enumerate(ACENTOS):
             if r == ref:
-                t, ok = troca_palavra(t, a, b)
+                if a == 'ὁ' and b == 'ὃ' and k >= N_MANUAIS:
+                    # ὃ pronome só antes de μέν/δέ; antes de nome ou particípio é o artigo, e o OCR errou
+                    m_ = re.search(r'(?<![\w\u0300-\u036f])ὁ (\S+)', t)
+                    if not m_ or m_.group(1).rstrip(',·.') not in ('μὲν', 'δὲ', 'δʼ', 'μέν', 'δέ'):
+                        ac_usados.add(k); continue
+                t, ok = troca_palavra(t, a, b, CTX.get(k))
                 if not ok: sys.exit(f'acento {ref} «{a}» não achado')
                 ac_usados.add(k)
+        t = corrigir(t)[0]   # 2ª passada: um agudo do OCR antes de palavra que não é enclítica volta a grave
         t = t.replace('⟦n⟧', '')
         t = re.sub(r'\s*⟦gap⟧\s*', ' … ', t)
         t = t.replace('ʼ', '’')
@@ -91,6 +107,8 @@ for c, secs in d['caps']:
             p = p.strip()
             if not p: continue
             if p.startswith('| '):
+                if texto:   # seção que começa no verso: a marca vai no começo do primeiro verso
+                    p = '| ' + texto + p[2:]; texto = ''
                 if cur.strip(): blocos.append(cur.strip()); cur = ''
                 if blocos and blocos[-1].startswith('| ') and not cur: blocos[-1] += '\n' + p
                 else: blocos.append(p)

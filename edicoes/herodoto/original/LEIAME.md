@@ -33,11 +33,11 @@ o espírito das maiúsculas, ὦν/ὧν, ἦν/ἣν) e a conferir; `ferramenta
 para ver os pontos; `ferramentas/montar.py` aplica tudo e grava estes arquivos.
 
 Correções ao Perseus (o fac-símile de Godley tem a forma da direita):
-- regra do grave: 148 agudos finais no meio da frase viraram grave (σχεδόν πάντων → σχεδὸν πάντων); 30 acentos
+- regra do grave: 120 agudos finais no meio da frase viraram grave (σχεδόν πάντων → σχεδὸν πάντων); 19 acentos
   duplos que não vêm antes de enclítica saíram, ou o segundo virou agudo antes de enclítica (Ἕλληνές λέγουσι →
   Ἕλληνες λέγουσι; ἐντειλάμενὸς οἱ → ἐντειλάμενός οἱ); o agudo da enclítica na palavra anterior (πείθεσθαί μοι,
   γάρ σε). A palavra elidida guarda o acento (οὔτ’). A regra não mexe antes de pontuação nem antes de forma ambígua (οἱ artigo × pronome);
-- 186 acentos e espíritos pelo fac-símile (lista em `ferramentas/acentos-aceitos.tsv` e `ACENTOS` em
+- 141 acentos e espíritos pelo fac-símile (lista em `ferramentas/acentos-aceitos.tsv` e `ACENTOS` em
   `ferramentas/montar.py`), entre eles ὃ δὲ (pronome) onde o Perseus tem ὁ δὲ, os particípios εἴπας, δεύτερα
   advérbio, χώρῃ e χώρη, ἱππεύειν, ἄπαις;
 - letras (`CORR` em `ferramentas/montar.py`, todas vistas nas imagens): 32.7 τελευτήσῃ → τελευτήσει; 46.2 e 55.1

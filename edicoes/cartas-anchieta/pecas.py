@@ -19,7 +19,7 @@ PECAS = [
     ('XIV', 178, 191, 'es', 'Ao Padre Diogo Laínez, de São Vicente (16 de abril de 1563)'),
     ('XV', 193, 237, 'es', 'Ao Padre Diogo Laínez, de São Vicente (janeiro de 1565): as pazes de Iperoig'),
     ('XVI', 242, 251, 'pt', 'Ao Padre Diogo Mirão, da Bahia (9 de julho de 1565)'),
-    ('XX', 267, 267, 'pt', 'Ao capitão Jerônimo Leitão, de Piratininga (15 de novembro de 1579)'),
+    ('XX', 265, 267, 'pt', 'Ao capitão Jerônimo Leitão, de Piratininga (15 de novembro de 1579)'),
     ('XXVII', 288, 290, 'es', 'Ao Padre Cláudio Aquaviva, do Espírito Santo (7 de setembro de 1594)'),
     ('XXIX', 298, 332, 'pt', 'Informação do Brasil e de suas capitanias (1584)'),
     ('XXXIII', 445, 451, 'pt', 'Informação dos casamentos dos índios do Brasil'),
@@ -27,9 +27,24 @@ PECAS = [
 ]
 
 
+# folhas de figura no meio de uma peça (a 266 é o fac-símile do autógrafo da XX)
+SALTAR = {266}
+
+# o começo do texto na primeira folha de cada peça (o que vem antes é número, título e sumário de 1933)
+INICIO = {
+    'I': 'paz de N. S.', 'II': 'Christi', 'III': 'Maria.', 'X': 'seja comnosco', 'XI': 'ano de 1558',
+    'XIV': 'Christi', 'XV': 'amor do Espirito Santo', 'XVI': 'São Vicente se escreveu', 'XX': 'vim até agora',
+    'XXVII': 'Mui Reverendo em Cristo Padre Nosso', 'XXIX': 'primeiros Portugueses', 'XXXIII': 'Indios do Brasil parece', 'XXXVIII': 'JESUS',
+}
+
+
+def folhas_de(p):
+    return [f for f in range(p[1], p[2] + 1) if f not in SALTAR]
+
+
 def folhas():
     for p in PECAS:
-        yield from range(p[1], p[2] + 1)
+        yield from folhas_de(p)
 
 
 def pagina(folha):

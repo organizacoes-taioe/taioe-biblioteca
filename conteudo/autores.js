@@ -743,6 +743,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'jose-de-anchieta',
+  nome: 'São José de Anchieta',
+  nomeCompleto: 'José de Anchieta y Llarena',
+  vida: '1534–1597',
+  ordem: 'Anchieta, São José de',
+  area: 'nao-ficcao',
+  nota: 'Jesuíta nascido em Tenerife, nas Canárias, missionário no Brasil por 44 anos, um dos fundadores de São Paulo e do Rio de Janeiro, provincial da Companhia e autor da primeira gramática do tupi; canonizado em 2014.'
+});
+
+BIBLIOTECA.autor({
   id: 'pero-rodrigues',
   nome: 'Pero Rodrigues',
   nomeCompleto: 'Pero Rodrigues',

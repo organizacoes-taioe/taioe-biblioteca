@@ -14,3 +14,4 @@
 194/12: impresso traz "semrazões"; transcrito como está. 191/21: recorte corta o fim da linha (data "de 1563 anos"?), mantida a cobertura do texto atual.
 208/7: impresso traz "que confidit" (por qui); 208/31: "cansem" (por cansam); transcritos como estão. 208/25: apóstrofo tipográfico ’ usado.
 212/34: o texto atual trazia "pa218" (página 218 colada); escrevi "paz" (palavra inteira, a divisão pa-/z não vi no recorte). 213/3: "ha-/viam" escrevi haviam.
+222/22: impresso "sejára" e "era fato certo" (texto atual trazia exa); 223/17: "Que é do Padre?" com espaço fino antes de ? no impresso, normalizado sem espaço.

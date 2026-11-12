@@ -78,3 +78,7 @@
   chamá-lo ainda feliz, mas afortunado» (adotado, com o par «feliz × afortunado» do CONVENCOES). E 32.1 τὸ θεῖον πᾶν
   ἐὸν φθονερόν τε καὶ ταραχῶδες → «a divindade é toda ela invejosa e perturbadora» (adotado). Alternativas: «a
   divindade é sempre invejosa e gosta de perturbar», «inquietante» em vez de «perturbadora».
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos os números de 32.3–4, os nomes, as falas de Sólon, Creso, Átis e Adrasto, e os termos fixos ὄλβιος/εὐτυχής, θεῖον, νέμεσις). Dúvidas: nenhuma.

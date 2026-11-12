@@ -1,0 +1,90 @@
+{
+ "id": "democracia-na-america",
+ "rotulo": "A democracia na América, seleção (Alexis de Tocqueville)",
+ "url": "/biblioteca/alexis-de-tocqueville/democracia-na-america/",
+ "escolhas": [
+  {
+   "id": "titulo",
+   "titulo": "O título fica «A democracia na América»?",
+   "ref": "título",
+   "contexto": "Em francês, «De la démocratie en Amérique», com o «de» dos tratados («Da democracia na América»). Em português, as edições correntes usam «A democracia na América».",
+   "opcoes": [
+    {"id": "a", "texto": "«A democracia na América»", "nota": "O título pelo qual o livro é conhecido no Brasil.", "recomendada": true},
+    {"id": "b", "texto": "«Da democracia na América»", "nota": "Mais literal, no estilo dos tratados («Do contrato social»); soa antiquado."}
+   ]
+  },
+  {
+   "id": "selecao",
+   "titulo": "A seleção fica com os 14 textos escolhidos, e o cap. IX da 1ª parte (vol. I) só com as seções sobre os costumes e a religião?",
+   "ref": "seleção",
+   "contexto": "O livro inteiro tem perto de 300 mil palavras. A seleção tem a Introdução e 13 capítulos inteiros (cerca de 45 mil palavras), com mais lugar para a religião e os costumes. O cap. IX do vol. I («Das principais causas que tendem a manter a república democrática nos Estados Unidos») tem 18 mil palavras; entraram só as seções dos costumes e da religião (7 mil). Ficaram de fora as causas acidentais, as leis, as luzes e a última seção, «Importância do que precede em relação à Europa», muito citada.",
+   "opcoes": [
+    {"id": "a", "texto": "Como está", "nota": "Os capítulos mais lidos, sem o resumo das causas acidentais e das leis, que repete o resto do vol. I.", "recomendada": true},
+    {"id": "b", "texto": "Acrescentar ao cap. IX a última seção, sobre a Europa (uns 1.500 palavras)", "nota": "Fecha o argumento do vol. I sobre o despotismo que ameaça a Europa; antecipa o cap. VI do vol. II, que já está na seleção."},
+    {"id": "c", "texto": "O cap. IX inteiro", "nota": "Mais 11 mil palavras, quase todas de resumo do que veio antes."}
+   ]
+  },
+  {
+   "id": "moeurs",
+   "titulo": "«Mœurs» fica «costumes»?",
+   "ref": "toda a obra; definição na nota 3 da parte «Os costumes e a religião»",
+   "contexto": "Para Tocqueville, «mœurs» são, como os «mores» dos antigos, «os hábitos do coração» e também as noções, opiniões e ideias que formam os hábitos do espírito: o estado moral e intelectual de um povo. É um dos conceitos centrais do livro («os costumes mais que as leis»). As traduções portuguesas usam «costumes»; algumas inglesas, «mores».",
+   "opcoes": [
+    {"id": "a", "texto": "«costumes», sempre", "nota": "A palavra comum; a nota do próprio Tocqueville explica o sentido largo.", "recomendada": true},
+    {"id": "b", "texto": "«hábitos e costumes» ou «moral», conforme a frase", "nota": "Mais claro aqui e ali, mas o conceito deixa de ter uma palavra só."},
+    {"id": "c", "texto": "«mores», em itálico", "nota": "Fiel ao latim que Tocqueville invoca, mas palavra rara."}
+   ]
+  },
+  {
+   "id": "lumieres",
+   "titulo": "«Lumières» fica «luzes»?",
+   "ref": "toda a obra (ex.: «as luzes se espalham», Introdução)",
+   "contexto": "«Lumières» é o saber e a instrução difundidos num povo (o «século das luzes»). Aparece dezenas de vezes, quase sempre no plural.",
+   "opcoes": [
+    {"id": "a", "texto": "«luzes»", "nota": "Guarda a imagem e o eco do «século das luzes»; o português do séc. XIX usava assim.", "recomendada": true},
+    {"id": "b", "texto": "«instrução» ou «conhecimentos», conforme a frase", "nota": "Mais imediato para o leitor de hoje; perde a imagem da luz que Tocqueville retoma («o passado não ilumina mais o futuro»)."}
+   ]
+  },
+  {
+   "id": "interesse",
+   "titulo": "«L'intérêt bien entendu» fica «o interesse bem compreendido»?",
+   "ref": "vol. II, 2ª parte, cap. VIII e IX (títulos e texto)",
+   "contexto": "É a doutrina pela qual os americanos combatem o individualismo: servir aos outros porque, bem pesado, é do próprio interesse. Traduções correntes: «interesse bem compreendido» e «interesse bem entendido».",
+   "opcoes": [
+    {"id": "a", "texto": "«interesse bem compreendido»", "nota": "Claro: o interesse que se compreende bem, olhado a longo prazo.", "recomendada": true},
+    {"id": "b", "texto": "«interesse bem entendido»", "nota": "Mais colado ao francês; «bem entendido» em português também quer dizer «está claro», o que confunde."}
+   ]
+  },
+  {
+   "id": "seculos",
+   "titulo": "«Les siècles démocratiques» fica «os séculos democráticos»?",
+   "ref": "vol. II, quase todos os capítulos (ex.: «nos séculos de igualdade», II,2,2)",
+   "contexto": "Tocqueville chama «siècles» às épocas: «siècles aristocratiques», «siècles d'égalité», «le siècle des dévouements aveugles». Não são séculos de cem anos, mas eras.",
+   "opcoes": [
+    {"id": "a", "texto": "«séculos» (séculos democráticos, séculos de igualdade)", "nota": "Literal; o português aceita «século» por «época», e a expressão é a das traduções correntes.", "recomendada": true},
+    {"id": "b", "texto": "«tempos» ou «épocas» (tempos democráticos, épocas de igualdade)", "nota": "Mais claro para o leitor de hoje; perde a solenidade e a repetição que marca o vol. II."}
+   ]
+  },
+  {
+   "id": "vous",
+   "titulo": "Quando Tocqueville fala ao leitor («vous»), o tratamento fica «você»?",
+   "ref": "Introdução («Se… você examinar»); vol. I, 2ª parte, cap. VII («a quem você quer que ele se dirija?» e a fala do senhor: «Você é livre de não pensar como eu…»)",
+   "contexto": "O «vous» francês serve ao leitor (singular ou plural) e às falas. Na fala que Tocqueville põe na boca da maioria («Vous penserez comme moi, ou vous mourrez»), o francês mistura «vous êtes libres» (plural) com «vous êtes un étranger» (singular).",
+   "opcoes": [
+    {"id": "a", "texto": "«você», no singular, em tudo", "nota": "Natural no Brasil, e é o leitor que Tocqueville tem em vista; a fala da maioria se dirige a um homem.", "recomendada": true},
+    {"id": "b", "texto": "«vós», em tudo", "nota": "Solene, guarda o plural; soa antiquado («Suponde», «examinai»)."},
+    {"id": "c", "texto": "Construções impessoais ou com «nós» ao leitor, e «você» só nas falas", "nota": "Evita o tratamento, mas troca a pessoa do original."}
+   ]
+  },
+  {
+   "id": "siege",
+   "titulo": "«Qui changent le siége de l'État tous les quatre ans»: «o chefe do Estado» (emenda) ou «a sede do Estado» (como em 1848)?",
+   "ref": "parte «Os costumes e a religião», seção «Das principais causas que tornam a religião poderosa na América»",
+   "contexto": "A edição de 1848 (conferida na imagem) traz «changent le siége de l'État», o que não faz sentido: os americanos trocam a cada quatro anos o presidente, não a sede do governo. As Obras completas de 1864–66 corrigem para «chef de l'État». O original ao lado fica como em 1848.",
+   "opcoes": [
+    {"id": "a", "texto": "«que trocam o chefe do Estado a cada quatro anos», como está", "nota": "Segue a correção de 1864–66, que dá o sentido evidente.", "recomendada": true},
+    {"id": "b", "texto": "«que mudam a sede do Estado a cada quatro anos»", "nota": "Fiel ao impresso de 1848, mas sem sentido para o leitor."}
+   ]
+  }
+ ]
+}

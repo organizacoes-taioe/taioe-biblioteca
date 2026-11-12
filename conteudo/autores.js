@@ -864,3 +864,13 @@ BIBLIOTECA.autor({
   lingua: 'it',
   nota: 'Escritor e jornalista florentino, autor de As aventuras de Pinóquio.'
 });
+
+BIBLIOTECA.autor({
+  id: 'alexis-de-tocqueville',
+  nome: 'Alexis de Tocqueville',
+  nomeCompleto: 'Alexis-Charles-Henri Clérel de Tocqueville',
+  vida: '1805–1859',
+  ordem: 'Tocqueville, Alexis de',
+  area: 'nao-ficcao',
+  nota: 'Pensador político e historiador francês, autor de A democracia na América e de O Antigo Regime e a Revolução.'
+});

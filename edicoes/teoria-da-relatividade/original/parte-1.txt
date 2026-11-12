@@ -161,10 +161,10 @@ Bevor wir hierauf eingehen, sei folgende Zwischenüberlegung eingeschaltet. Wir 
 
 Unser Problem lautet in exakter Formulierung offenbar folgendermaßen. Wie groß sind die Werte _x′_, _y′_, _z′_, _t′_ eines Ereignisses in bezug auf _K′_, wenn die Größen _x_, _y_, _z_, _t_ desselben Ereignisses in bezug auf _K_ gegeben sind? Die Beziehungen müssen so gewählt werden, daß dem Gesetz der Vakuumfortpflanzung des Lichtes für einen und denselben Lichtstrahl (und zwar für jeden) in bezug auf _K_ _und_ _K′_ Genüge geleistet wird. Dies Problem wird für die in der Zeichnung (Fig. 2) angegebene relative räumliche Orientierung der Koordinatensysteme gelöst durch die Gleichungen:
 
-| x′ = (x−vt) / √(1 − v²/c²)
+| x′ = (x − vt) / √(1 − v²/c²)
 | y′ = y
 | z′ = z
-| t′ = (t − vx/c² ) / √(1 − v²/c²),
+| t′ = (t − (v/c²) x) / √(1 − v²/c²),
 
 welches Gleichungssystem mit dem Namen „Lorentz-Transformation“ bezeichnet wird[1].
 
@@ -183,8 +183,8 @@ Daß gemäß der Lorentz-Transformation das Gesetz der Lichtausbreitung im Vakuu
 
 also mit der Geschwindigkeit _c_ fort. Gemäß den Gleichungen der Lorentz-Transformation bedingt diese einfache Beziehung zwischen _x_ und _t_ eine Beziehung zwischen _x′_ und _t′_. In der Tat liefert die erste und vierte Gleichung der Lorentz-Transformation, wenn man in dieselben für _x_ den Wert _ct_ einsetzt:
 
-| x′ = (c−v)t / √(1−v²/c²)
-| t′ = (1−v/c)t / √(1−v²/c²),
+| x′ = (c − v)t / √(1 − v²/c²)
+| t′ = (1 − v/c)t / √(1 − v²/c²),
 
 aus welchen dann durch Division unmittelbar
 
@@ -198,8 +198,8 @@ folgt. Nach dieser Gleichung erfolgt die Lichtausbreitung, wenn sie auf das Syst
 
 [I.12] Ich lege einen Meterstab in die _x′_-Achse von _K′_ derart, daß sein Anfang in den Punkt _x′_ = 0, sein Ende in den Punkt _x′_ = 1 fällt. Welches ist die Länge des Meterstabes relativ zum System _K_? Um das zu erfahren, brauchen wir nur zu fragen, wo Stabanfang und Stabende relativ zu _K_ liegen zu einer bestimmten Zeit _t_ des Systems _K_. Man findet für diese beiden Punkte aus der ersten Gleichung der Lorentz-Transformation für die Zeit _t_ = 0:
 
-| x{(Stabanfang)} = 0 · √(1−v²/c²)
-| x{(Stabende)} = 1 · √(1−v²/c²),
+| x(Stabanfang) = 0 · √(1 − v²/c²)
+| x(Stabende) = 1 · √(1 − v²/c²),
 
 welche beiden Punkte den Abstand √(1 − v²/c²) haben. Relativ zu _K_ ist aber der Meterstab mit der Geschwindigkeit _v_ bewegt. Es folgt also, daß die Länge eines mit der Geschwindigkeit _v_ in seiner Längsrichtung bewegten starren Meterstabes √(1 − v²/c²) Meter beträgt. Der bewegte starre Stab ist also kürzer als derselbe Stab, wenn er im Zustande der Ruhe ist, und zwar um so kürzer, je rascher er bewegt ist. Für die Geschwindigkeit _v_ = _c_ wäre √(1 − v²/c²) = 0, für noch größere Geschwindigkeiten wird die Wurzel imaginär. Wir schließen daraus, daß in der Relativitätstheorie die Geschwindigkeit _c_ die Rolle einer Grenzgeschwindigkeit spielt, die durch keinen wirklichen Körper erreicht oder gar überschritten werden könnte.
 
@@ -215,7 +215,7 @@ Wir betrachten nun eine Sekundenuhr, die dauernd im Anfangspunkte (_x′_ = 0) v
 
 und
 
-| t = 1/√(1−v²/c²).
+| t = 1/√(1 − v²/c²).
 
 Von _K_ aus beurteilt ist die Uhr mit der Geschwindigkeit _v_ bewegt; von diesem Bezugskörper aus beurteilt vergeht zwischen zweien ihrer Schläge nicht eine Sekunde, sondern 1/√(1 − v²/c²) Sekunden, also eine etwas größere Zeit. Die Uhr geht infolge ihrer Bewegung langsamer als im Zustande der Ruhe. Auch hier spielt die Geschwindigkeit _c_ die Rolle einer unerreichbaren Grenzgeschwindigkeit.
 
@@ -233,7 +233,7 @@ bewegt. Aus der ersten und vierten Gleichung der Galilei-Transformation kann man
 
 Diese Gleichung drückt nichts anderes aus als das Bewegungsgesetz des Punktes gegenüber dem System _K_ (des Mannes gegenüber dem Bahndamm), welche Geschwindigkeit wir mit _W_ bezeichnen, so daß man, wie in § 6, erhält:
 
-| W = v + w (A)
+| W = v + w . . . (A)
 
 Wir können aber diese Betrachtung ebenso gut unter Zugrundelegung der Relativitätstheorie durchführen. Man hat dann in der Gleichung
 
@@ -241,7 +241,7 @@ Wir können aber diese Betrachtung ebenso gut unter Zugrundelegung der Relativit
 
 _x′_ und _t′_ durch _x_ und _t_ auszudrücken unter Verwendung der ersten und vierten Gleichung der _Lorentz-Transformation_. Man erhält dann statt der Gleichung (A) die Gleichung:
 
-| W = (v + w) / (1 + vw/c²), (B)
+| W = (v + w) / (1 + vw/c²) . . . (B)
 
 welche dem Additionstheorem gleichgerichteter Geschwindigkeiten nach der Relativitätstheorie entspricht. Die Frage ist nun, welches von diesen beiden Theoremen der Erfahrung gegenüber standhält. Hierüber belehrt uns ein höchst wichtiges Experiment, welches der geniale Physiker Fizeau vor mehr als einem halben Jahrhundert ausführte, und das seitdem von einigen der besten Experimentalphysiker wiederholt wurde, so daß das Resultat unbezweifelbar ist. Das Experiment behandelt folgende Frage. In einer ruhenden Flüssigkeit pflanze sich das Licht mit einer bestimmten Geschwindigkeit _w_ fort. Wie rasch pflanzt es sich in der Röhre _R_ der Figur
 
@@ -283,7 +283,7 @@ gegeben, sondern durch den Ausdruck:
 
 Dieser Ausdruck wird unendlich, wenn sich die Geschwindigkeit _v_ der Lichtgeschwindigkeit _c_ nähert. Es muß also die Geschwindigkeit stets kleiner als _c_ bleiben, wie große Energien man auch auf die Beschleunigung verwenden mag. Entwickelt man den Ausdruck für die kinetische Theorie in eine Reihe, so erhält man:
 
-| mc² + m v²/2 + 3/8 m v⁴/c² + ...
+| mc² + m v²/2 + (3/8) m v⁴/c² + …
 
 Das dritte dieser Glieder ist gegenüber dem zweiten, in der klassischen Mechanik allein berücksichtigten, stets klein, wenn v²/c² klein gegen 1 ist. Das erste Glied _mc²_ enthält die Geschwindigkeit nicht, kommt also nicht in Betracht, wenn es sich nur um die Frage handelt, wie die Energie eines Massenpunktes von der Geschwindigkeit abhängt. Über seine prinzipielle Bedeutung wird nachher gesprochen werden.
 
@@ -293,15 +293,15 @@ Das Relativitätsprinzip fordert, daß der Satz von der Erhaltung der Energie ni
 
 Aus diesen Prämissen in Verbindung mit den Grundgleichungen der Maxwellschen Elektrodynamik kann man mit zwingender Notwendigkeit durch verhältnismäßig einfache Betrachtungen folgenden Schluß ziehen: Ein mit der Geschwindigkeit _v_ fliegender Körper, der in Form von Strahlung die Energie _E₀_ aufnimmt[1], ohne hierbei seine Geschwindigkeit zu ändern, erfährt dabei eine Zunahme seiner Energie um den Betrag:
 
-| E₀ / √(1−v²/c²).
+| E₀ / √(1 − v²/c²).
 
 Die gesuchte Energie des Körpers ist also dann mit Rücksicht auf den vorher angegebenen Ausdruck für die kinetische Energie gegeben durch:
 
-| (m + E₀ / c²) c² / √(1 − v²/c²).
+| (m + E₀/c²) c² / √(1 − v²/c²).
 
 Der Körper hat also dann dieselbe Energie wie ein mit der Geschwindigkeit _v_ bewegter Körper von der Masse _m + E₀ / c²_. Man kann also sagen: Nimmt ein Körper die Energie _E₀_ auf, so wächst seine träge Masse um _E₀/c²_; die träge Masse eines Körpers ist keine Konstante, sondern nach Maßgabe seiner Energieänderung veränderlich. Die träge Masse eines Körpersystems kann geradezu als Maß für seine Energie angesehen werden. Der Satz von der Erhaltung der Masse eines Systems fällt mit dem Satze von der Erhaltung der Energie zusammen und gilt nur insoweit, als das System keine Energie aufnimmt und abgibt. Schreibt man den Ausdruck für die Energie in der Form
 
-| mc² + E₀ / √(1−v²/c²)
+| (mc² + E₀) / √(1 − v²/c²)
 
 so sieht man, daß die Form _mc²_, die uns schon vorhin auffiel, nichts anderes ist als die Energie, welche der Körper schon besaß[2], bevor er die Energie _E₀_ aufgenommen hatte.
 
@@ -341,7 +341,7 @@ Analog ist die Welt des physikalischen Geschehens, von Minkowski kurz „Welt“
 
 Durch die Relativitätstheorie ist die vierdimensionale Betrachtungsweise der „Welt“ geboten, da ja gemäß dieser Theorie die Zeit ihrer Selbständigkeit beraubt wird, wie die vierte der Gleichungen der Lorentz-Transformation
 
-| t′ = t − v/c² x / √(1−v²/c²)
+| t′ = (t − (v/c²) x) / √(1 − v²/c²)
 
 lehrt. Denn nach dieser Gleichung verschwindet die Zeitdifferenz _Δt′_ zweier Ereignisse in bezug auf _K′_ auch dann im allgemeinen nicht, wenn die Zeitdifferenz _Δt_ derselben in bezug auf _K_ verschwindet. Rein räumliche Distanz zweier Ereignisse in bezug auf _K_ hat zeitliche Distanz derselben in bezug auf _K′_ zur Folge. Auch hierin liegt nicht Minkowskis für die formale Entwicklung der Relativitätstheorie wichtige Entdeckung. Diese liegt vielmehr in der Erkenntnis, daß das vierdimensionale zeiträumliche Kontinuum der Relativitätstheorie in seinen maßgebenden formalen Eigenschaften die weitgehendste Verwandtschaft zeigt zu dem dreidimensionalen Kontinuum des Euklidischen geometrischen Raumes[1]. Um diese Verwandtschaft ganz hervortreten zu lassen, muß man allerdings statt der üblichen Zeitkoordinate _t_ die ihr proportionale imaginäre Größe √−1 _ct_ einführen. Dann aber nehmen die den Forderungen der (speziellen) Relativitätstheorie genügenden Naturgesetze mathematische Formen an, in denen die Zeitkoordinate genau dieselbe Rolle spielt wie die drei räumlichen Koordinaten. Diese vier Koordinaten entsprechen formal genau den drei räumlichen Koordinaten der Euklidischen Geometrie. Es muß auch dem Nichtmathematiker einleuchten, daß durch diese rein formale Erkenntnis die Theorie außerordentlich an Übersichtlichkeit gewinnen mußte.
 

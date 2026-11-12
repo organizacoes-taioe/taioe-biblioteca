@@ -144,3 +144,77 @@ A priori, não está de modo nenhum assente que esta última medição tenha de 
 
 ¤ [1] Por exemplo, o meio do 1º e do 100º vagão.
 
+## 11. A transformação de Lorentz
+
+[I.11] As reflexões dos três últimos parágrafos nos mostram que a aparente incompatibilidade da lei de propagação da luz com o princípio da relatividade foi deduzida no § 7 por uma consideração que tomava emprestadas à mecânica clássica duas hipóteses que nada justifica; essas hipóteses dizem:
+
+1. O intervalo de tempo entre dois acontecimentos é independente do estado de movimento do corpo de referência.
+
+2. A distância espacial entre dois pontos de um corpo rígido é independente do estado de movimento do corpo de referência.
+
+Se abandonarmos essas hipóteses, desaparece o dilema do § 7, porque o teorema da adição das velocidades deduzido no § 6 deixa de valer. Surge diante de nós a possibilidade de que a lei da propagação da luz no vácuo seja compatível com o princípio da relatividade. Chegamos à pergunta: como se deve modificar a reflexão do § 6 para eliminar a contradição aparente entre esses dois resultados fundamentais da experiência? Essa pergunta leva a outra, geral. Na reflexão do § 6 aparecem lugares e tempos em relação ao trem e em relação ao leito da ferrovia. Como se acham o lugar e o tempo de um acontecimento em relação ao trem, quando se conhecem o lugar e o tempo do acontecimento em relação ao leito da ferrovia? Há para essa pergunta uma resposta concebível tal que a lei da propagação da luz no vácuo não contradiga o princípio da relatividade? Em outras palavras: é concebível uma relação entre o lugar e o tempo de cada acontecimento em relação aos dois corpos de referência, de tal modo que todo raio de luz tenha a velocidade de propagação _c_ em relação ao leito da ferrovia _e_ em relação ao trem? Essa pergunta leva a uma resposta afirmativa e bem determinada, a uma lei de transformação bem determinada para as grandezas de espaço e de tempo de um acontecimento na passagem de um corpo de referência a outro.
+
+Antes de entrar nisso, intercalemos a seguinte reflexão. Até agora consideramos sempre apenas acontecimentos que se passavam ao longo do leito da ferrovia, que tinha de fazer, matematicamente, o papel de uma linha reta. Mas podemos imaginar esse corpo de referência prolongado para os lados e para cima, da maneira indicada no § 2, por um andaime de barras, de tal modo que um acontecimento que se dê em qualquer lugar possa ser localizado em relação a esse andaime. Do mesmo modo, podemos imaginar o trem que anda com a velocidade _v_ prolongado por todo o espaço, de tal modo que todo acontecimento, por mais distante que seja, possa ser localizado também em relação ao segundo andaime. Podemos deixar de lado, sem cair em erros de princípio, o fato de que esses andaimes, na verdade, por causa da impenetrabilidade dos corpos sólidos, teriam de se destruir um ao outro sem parar. Em cada um desses andaimes imaginamos destacadas três paredes perpendiculares entre si, a que chamamos “planos coordenados” (“sistema de coordenadas”). Ao leito da ferrovia corresponde então um sistema de coordenadas _K_; ao trem, um sistema de coordenadas _K′_. Um acontecimento que se dê em qualquer lugar é fixado no espaço, em relação a _K_, pelas três perpendiculares _x_, _y_, _z_ baixadas sobre os planos coordenados, e no tempo por um valor de tempo _t_. _O mesmo acontecimento_ é fixado no espaço e no tempo, em relação a _K′_, por valores correspondentes _x′_, _y′_, _z′_, _t′_, que naturalmente não coincidem com _x_, _y_, _z_, _t_. Como essas grandezas devem ser entendidas como resultados de medições físicas já foi exposto em detalhe.
+
+{fig 2}
+
+O nosso problema, formulado com exatidão, é evidentemente o seguinte. Quais são os valores _x′_, _y′_, _z′_, _t′_ de um acontecimento em relação a _K′_, quando são dadas as grandezas _x_, _y_, _z_, _t_ do mesmo acontecimento em relação a _K_? As relações têm de ser escolhidas de modo que a lei da propagação da luz no vácuo seja satisfeita para um mesmo raio de luz (e para todo raio de luz) em relação a _K_ _e_ a _K′_. Para a orientação espacial relativa dos sistemas de coordenadas indicada no desenho (Fig. 2), esse problema é resolvido pelas equações:
+
+| x′ = (x − vt) / √(1 − v²/c²)
+| y′ = y
+| z′ = z
+| t′ = (t − (v/c²) x) / √(1 − v²/c²),
+
+sistema de equações que é designado pelo nome de “transformação de Lorentz”[1].
+
+Se, porém, em lugar da lei de propagação da luz, tivéssemos tomado por base as suposições tácitas da velha mecânica sobre o caráter absoluto dos tempos e dos comprimentos, em vez dessas equações de transformação teríamos chegado às equações
+
+| x′ = x − vt
+| y′ = y
+| z′ = z
+| t′ = t
+
+sistema que muitas vezes se chama “transformação de Galileu”. A transformação de Galileu resulta da transformação de Lorentz quando nesta se faz a velocidade da luz _c_ igual a um valor infinitamente grande.
+
+Que, segundo a transformação de Lorentz, a lei da propagação da luz no vácuo é satisfeita tanto para o corpo de referência _K_ como para o corpo de referência _K′_, vê-se com facilidade pelo seguinte exemplo. Envie-se um sinal luminoso ao longo do eixo positivo dos _x_, e propague-se a excitação luminosa segundo a equação
+
+| x = ct,
+
+isto é, com a velocidade _c_. Segundo as equações da transformação de Lorentz, essa relação simples entre _x_ e _t_ acarreta uma relação entre _x′_ e _t′_. De fato, a primeira e a quarta equação da transformação de Lorentz, quando nelas se põe para _x_ o valor _ct_, dão:
+
+| x′ = (c − v)t / √(1 − v²/c²)
+| t′ = (1 − v/c)t / √(1 − v²/c²),
+
+de onde, por divisão, se segue imediatamente
+
+| x′ = ct′
+
+Segundo essa equação se dá a propagação da luz quando referida ao sistema _K′_. Vê-se, portanto, que a velocidade de propagação também em relação ao corpo de referência _K′_ é igual a _c_. O mesmo se dá com raios de luz que se propaguem em qualquer outra direção. Naturalmente, isso não é de admirar, pois as equações da transformação de Lorentz foram deduzidas justamente desse ponto de vista.
+
+¤ [1] No Apêndice se dá uma dedução simples da transformação de Lorentz.
+
+## 12. O comportamento de réguas e relógios em movimento
+
+[I.12] Coloco uma régua de um metro no eixo dos _x′_ de _K′_, de tal modo que o seu começo fique no ponto _x′_ = 0 e o seu fim no ponto _x′_ = 1. Qual é o comprimento da régua em relação ao sistema _K_? Para sabê-lo, basta perguntar onde estão o começo e o fim da régua em relação a _K_ num tempo determinado _t_ do sistema _K_. Da primeira equação da transformação de Lorentz, para o tempo _t_ = 0, acha-se para esses dois pontos:
+
+| x(começo da régua) = 0 · √(1 − v²/c²)
+| x(fim da régua) = 1 · √(1 − v²/c²),
+
+e a distância entre esses dois pontos é √(1 − v²/c²). Mas em relação a _K_ a régua se move com a velocidade _v_. Segue-se, portanto, que o comprimento de uma régua rígida de um metro que se move no sentido do seu comprimento com a velocidade _v_ é de √(1 − v²/c²) metro. A régua rígida em movimento é, pois, mais curta que a mesma régua em estado de repouso, e tanto mais curta quanto mais depressa se move. Para a velocidade _v_ = _c_ seria √(1 − v²/c²) = 0; para velocidades ainda maiores, a raiz se torna imaginária. Concluímos daí que na teoria da relatividade a velocidade _c_ tem o papel de uma velocidade-limite, que nenhum corpo real poderia alcançar, e muito menos ultrapassar.
+
+Esse papel da velocidade _c_ como velocidade-limite, aliás, já decorre das próprias equações da transformação de Lorentz. Pois elas perdem o sentido quando se escolhe _v_ maior que _c_.
+
+Se, ao contrário, tivéssemos considerado uma régua de um metro em repouso em relação a _K_ no eixo dos _x_, teríamos achado que ela, julgada a partir de _K′_, tem o comprimento √(1 − v²/c²); isso está inteiramente de acordo com o princípio da relatividade, que está na base das nossas considerações.
+
+Que das equações de transformação tenhamos de aprender algo sobre o comportamento físico de réguas e relógios é evidente a priori. Pois as grandezas _x_, _y_, _z_, _t_ não são outra coisa senão resultados de medições que se obtêm com réguas e relógios. Se tivéssemos tomado por base a transformação de Galileu, não teríamos obtido um encurtamento da régua por efeito do movimento.
+
+Consideremos agora um relógio que bate os segundos, em repouso permanente na origem (_x′_ = 0) de _K′_. Sejam _t′_ = 0 e _t′_ = 1 duas batidas sucessivas desse relógio. Para essas duas batidas, a primeira e a quarta das equações da transformação de Lorentz dão:
+
+| t = 0
+
+e
+
+| t = 1/√(1 − v²/c²).
+
+Julgado a partir de _K_, o relógio se move com a velocidade _v_; julgando-se a partir desse corpo de referência, entre duas das suas batidas não passa um segundo, mas 1/√(1 − v²/c²) segundos, isto é, um tempo um pouco maior. Por causa do seu movimento, o relógio anda mais devagar que em estado de repouso. Também aqui a velocidade _c_ tem o papel de uma velocidade-limite inalcançável.
+

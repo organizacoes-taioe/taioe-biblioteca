@@ -39,7 +39,7 @@ Correções ao Perseus (o fac-símile de Godley tem a forma da direita):
   γάρ σε). A regra não mexe antes de pontuação nem antes de forma ambígua (οἱ artigo × pronome);
 - 190 acentos e espíritos pelo fac-símile (lista em `ferramentas/acentos-aceitos.tsv` e `ACENTOS` em
   `ferramentas/montar.py`), entre eles ὃ δὲ (pronome) onde o Perseus tem ὁ δὲ, os particípios εἴπας, δεύτερα
-  advérbio, χώρῃ, ἱππεύειν, ἄπαις;
+  advérbio, χώρῃ e χώρη, ἱππεύειν, ἄπαις;
 - letras (`CORR` em `ferramentas/montar.py`, todas vistas nas imagens): 32.7 τελευτήσῃ → τελευτήσει; 46.2 e 55.1
   μαντείων, μαντείου → μαντηίων, μαντηίου; 50.2 μὰν → μὲν; 60.5 Ἀηθναίη → Ἀθηναίη; 63.1 τρέπουσι → τράπουσι, 117.2
   τρέπεται → τράπεται; 68.5 Λακεδαιμονίοσσι → Λακεδαιμονίοισι; 74.2 τῇ ἡμέρης → τῆς ἡμέρης; 80.5 ὤσφροντο →
@@ -47,10 +47,13 @@ Correções ao Perseus (o fac-símile de Godley tem a forma da direita):
   τῶν → ἀρχόντων; 164.3 τὰ ἐν τῶν → τὰ ἐκ τῶν, εἰσβάντες → ἐσβάντες; 165.1 Φωκαίες → Φωκαιέες; 170.3 κατά περ ἐς δῆμοι
   → κατά περ εἰ δῆμοι; 172.2 χέασθαι → χρᾶσθαι; 173.3 καὶ νυν ἔτι → καὶ νῦν ἔτι; 176.3 ἐκδημέουσι → ἐκδημέουσαι;
   179.2 τάφου → τάφρου; 193.5 τὸν φοινίκων → τῶν φοινίκων; 199.1 ἀξιούμεναι → ἀξιεύμεναι; 199.5 ὅσσαι → ὅσαι; 202.2
-  ὀσμῇ → ὀδμῇ; 205.1 Μασαγετέων → Μασσαγετέων; 216.3 ἀλλ’ γῇ → ἀλλὰ γῇ; 42.2 χρηστοῖσἰ → χρηστοῖσι.
+  ὀσμῇ → ὀδμῇ; 205.1 Μασαγετέων → Μασσαγετέων; 216.3 ἀλλ’ γῇ → ἀλλὰ γῇ; 42.2 χρηστοῖσἰ → χρηστοῖσι; 145.1 Αἴγίον → Αἴγιον; 149.1 τῆ → τῇ; 163.2 «μὲν ἦν,
+  Ἀργανθώνιος» sem a vírgula; 166.1 ἑξήκόντα → ἑξήκοντα; 171.6 ἀποδείκνῦσι → ἀποδεικνῦσι; e em 153.1 uma oração
+  repetida («χῶρος ἐν μέσῃ ἑωυτῷ προαγορεύουσι· τῇ πόλι», onde Godley tem «χῶρος ἐν μέσῃ τῇ πόλι»: as duas palavras
+  do meio vêm da frase anterior), achada na tradução.
 
-A colação não achou palavras perdidas nem orações repetidas no livro I (as listas de «buracos» só tinham ruído do
-OCR). Pontos que ficaram como no Perseus, porque o fac-símile não decide (o espírito é ilegível na impressão): ὦν
+A colação não achou palavras perdidas no livro I; a repetição de 153.1 apareceu na lista de «buracos», no meio do
+ruído do OCR, e foi confirmada na tradução. Pontos que ficaram como no Perseus, porque o fac-símile não decide (o espírito é ilegível na impressão): ὦν
 («então», jônico) e ᾔδεε.
 
 Apresentação (não muda o texto): a elisão com ’; maiúscula no começo de cada capítulo, como em Godley; as falas

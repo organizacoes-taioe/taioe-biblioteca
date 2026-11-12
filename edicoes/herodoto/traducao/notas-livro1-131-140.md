@@ -46,3 +46,10 @@
   curta: «cavalgar, atirar com o arco e falar a verdade».
 - 133.3–4, deliberar bêbados: «quando estão bêbados» (μεθυσκόμενοι) × «quando bebem» / «embriagados». Adotei
   «bêbados», mais direto.
+
+## Revisão contra o grego
+
+Uma correção, de português:
+- 133.3: «Isso é assim que se observa» → «Isso se observa assim» (construção errada; sentido igual).
+
+Conferidos sem erro: os sacrifícios (132), as sobremesas (133.2), as saudações (134), a educação dos filhos (136), os nomes terminados em _san_/_sigma_ (139), os costumes dos magos (140). Dúvidas: nenhuma.

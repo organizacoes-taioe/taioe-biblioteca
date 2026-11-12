@@ -79,3 +79,9 @@
 - 67.3, o oráculo de Orestes: «golpe e contragolpe» e «desgraça jaz sobre desgraça», que Licas decifra em 68.4.
   Alternativas: «pancada sobre pancada» e «dor sobre dor»; no último verso, «serás senhor de Tegea» × «vencerás
   Tegea».
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos nomes, genealogias, números, os quatro oráculos em verso e a ordem das ações em 59–68).
+
+Dúvida de estilo (não corrigida): 60.3, a frase longa («…se é que esses homens tramaram então o seguinte…») segue o grego de perto e fica pesada em português; o tradutor pode quebrá-la em duas, sem mudar o sentido.

@@ -145,11 +145,12 @@ Würden aber Stäbchen jeder Art, d. h. jeden Materials, sich in _gleicher_ Weis
 
 ## § 25. Gaußsche Koordinaten.
 
-[II.25] {fig 3}
+[II.25] Diese analytisch-geometrische Behandlungsweise läßt sich nach Gauß folgendermaßen erzielen. Man denke sich auf die Tischplatte ein System von beliebigen Kurven (vgl. Fig. 3) aufgezeichnet, die wir als _u_-Kurven bezeichnen und die wir je mit einer Zahl bezeichnen. In der Zeichnung sind die Kurven _u_ = 1, _u_ = 2 und _u_ = 3 gezeichnet. Zwischen den Kurven _u_ = 1 und _u_ = 2 sind aber noch unendlich viele eingezeichnet zu denken, welche allen reellen Zahlen entsprechen, die zwischen 1 und 2 liegen. Es liegt dann ein System von _u_-Kurven vor, welche unendlich dicht die ganze Tischplatte überdecken. Keine _u_-Kurve soll eine andere schneiden, sondern durch jeden Punkt der Tischplatte eine und nur eine Kurve hindurchgehen. Zu jedem Punkte der Oberfläche der Tischplatte gehört dann ein ganz bestimmter _u_-Wert. Ebenso sei auf die Fläche ein System von _v_ Kurven gezeichnet, die denselben Bedingungen genügen, in entsprechender Weise mit Zahlen versehen sind, aber ebenfalls beliebig gestaltet sein können. Es gehört dann zu jedem Punkte der Tischplatte ein _u_-Wert und ein _v_-Wert, welche beiden Zahlen wir die Koordinaten der Tischplatte nennen (Gaußsche Koordinaten). Der Punkt _P_ der Figur hat beispielsweise die Gaußschen Koordinaten _u_ = 3; _v_ = 1. Zwei benachbarten Punkten _P_ und _P′_ auf der Fläche entsprechen dann die Koordinaten
 
-Diese analytisch-geometrische Behandlungsweise läßt sich nach Gauß folgendermaßen erzielen. Man denke sich auf die Tischplatte ein System von beliebigen Kurven (vgl. Fig. 3) aufgezeichnet, die wir als _u_-Kurven bezeichnen und die wir je mit einer Zahl bezeichnen. In der Zeichnung sind die Kurven _u_ = 1, _u_ = 2 und _u_ = 3 gezeichnet. Zwischen den Kurven _u_ = 1 und _u_ = 2 sind aber noch unendlich viele eingezeichnet zu denken, welche allen reellen Zahlen entsprechen, die zwischen 1 und 2 liegen. Es liegt dann ein System von _u_-Kurven vor, welche unendlich dicht die ganze Tischplatte überdecken. Keine _u_-Kurve soll eine andere schneiden, sondern durch jeden Punkt der Tischplatte eine und nur eine Kurve hindurchgehen. Zu jedem Punkte der Oberfläche der Tischplatte gehört dann ein ganz bestimmter _u_-Wert. Ebenso sei auf die Fläche ein System von _v_ Kurven gezeichnet, die denselben Bedingungen genügen, in entsprechender Weise mit Zahlen versehen sind, aber ebenfalls beliebig gestaltet sein können. Es gehört dann zu jedem Punkte der Tischplatte ein _u_-Wert und ein _v_-Wert, welche beiden Zahlen wir die Koordinaten der Tischplatte nennen (Gaußsche Koordinaten). Der Punkt _P_ der Figur hat beispielsweise die Gaußschen Koordinaten _u_ = 3; _v_ = 1. Zwei benachbarten Punkten _P_ und _P′_ auf der Fläche entsprechen dann die Koordinaten
+{fig 3}
 
-| P: u; v P′: u + du, v + dv,
+| P: u, v
+| P′: u + du, v + dv,
 
 wobei _du_ und _dv_ sehr kleine Zahlen bedeuten. Der mit einem Stäbchen gemessene Abstand von _P_ und _P′_ sei die ebenfalls sehr kleine Zahl _ds_. Dann ist nach Gauß:
 
@@ -163,7 +164,7 @@ wird. Dann sind die _u_-Kurven und _v_-Kurven gerade Linien im Sinne der Euklidi
 
 Diese Betrachtungen gelten zunächst für ein Kontinuum von zwei Dimensionen. Aber die Gaußsche Methode läßt sich auch auf ein Kontinuum von drei, vier oder mehr Dimensionen anwenden. Liegt z. B. ein Kontinuum von vier Dimensionen vor, so ergibt sich folgende Darstellung. Jedem Punkte des Kontinuums werden willkürlich vier Zahlen _x₁_, _x₂_, _x₃_, _x₄_ zugeordnet, welche „Koordinaten“ genannt werden. Benachbarten Punkten entsprechen benachbarte Koordinatenwerte. Ist nun benachbarten Punkten _P_ und _P′_ ein durch Messungen ermittelbarer, physikalisch wohldefinierter Abstand _ds_ zugeordnet, so gilt eine Formel:
 
-_ds²_ = _g₁₁ dx₁²_ + _2 g₁₂ dx₁ dx₂_ ... + _g₄₄ dx₄²_ ,
+| ds² = g₁₁ dx₁² + 2g₁₂ dx₁ dx₂ + … + g₄₄ dx₄²,
 
 wobei die Größen g₁₁ usw. Werte haben, die mit dem Orte im Kontinuum variieren. Nur in dem Falle, daß das Kontinuum ein Euklidisches ist, ist es möglich, die Koordinaten _x₁_···_x₄_ den Punkten des Kontinuums so zuzuordnen, daß einfach
 
@@ -181,7 +182,7 @@ Zusammenfassend können wir also sagen: Gauß hat eine Methode zur mathematische
 
 Minkowski fand, daß die Lorentz-Transformationen folgenden einfachen Bedingungen genügen. Es seien zwei benachbarte Ereignisse betrachtet, deren gegenseitige Lage im vierdimensionalen Kontinuum durch die räumlichen Koordinatendifferenzen _dx_, _dy_, _dz_ und die zeitliche Differenz _dt_ bezüglich eines Galileischen Bezugskörpers _K_ gegeben seien. Bezüglich eines zweiten Galileischen Systems seien die analogen Differenzen für diese beiden Ereignisse _dx′_, _dy′_, _dz′_, _dt′_. Dann gilt zwischen ihnen stets die Bedingung:
 
-_dx²_ + _dy²_ + _dz²_ − _c²_ _dt²_ = _dx′²_ + _dy′²_ + _dz′²_ − _c²_ _dt′²_.
+| dx² + dy² + dz² − c² dt² = dx′² + dy′² + dz′² − c² dt′².
 
 Diese Bedingung hat die Gültigkeit der Lorentz-Transformation zur Konsequenz. Wir können das so aussprechen: Die zu zwei benachbarten Punkten des vierdimensionalen raum-zeitlichen Kontinuums gehörige Größe
 

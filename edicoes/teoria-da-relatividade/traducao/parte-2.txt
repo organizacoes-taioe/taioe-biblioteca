@@ -142,3 +142,58 @@ Mas, se varinhas de toda espécie, isto é, de qualquer material, fossem sensív
 
 ¤ [1] O nosso problema apresentou-se aos matemáticos na seguinte forma. Dada no espaço métrico euclidiano de três dimensões uma superfície, por exemplo um elipsoide, há nessa superfície uma geometria de duas dimensões, tanto quanto no plano. Gauss propôs-se o problema de tratar em princípio essa geometria de duas dimensões sem usar o fato de que a superfície pertence a um contínuo euclidiano de três dimensões. Se se imaginam construções feitas com varinhas rígidas _na superfície_ (como há pouco no tampo da mesa), para elas valem leis diferentes das da geometria euclidiana do plano. A superfície não é, em relação às varinhas, um contínuo euclidiano, e não se podem definir _na superfície_ coordenadas cartesianas. Gauss mostrou segundo que princípios se podem tratar as relações geométricas na superfície, e abriu com isso o caminho para o tratamento, por Riemann, dos contínuos não euclidianos de mais dimensões. Foi assim que os matemáticos já tinham resolvido havia muito tempo os problemas formais a que leva o postulado da relatividade geral.
 
+## 25. Coordenadas gaussianas
+
+[II.25] Esse modo de tratamento analítico-geométrico pode ser obtido, segundo Gauss, da seguinte maneira. Imagine-se desenhado no tampo da mesa um sistema de curvas quaisquer (ver a Fig. 3), que chamamos curvas _u_ e designamos cada uma por um número. No desenho estão traçadas as curvas _u_ = 1, _u_ = 2 e _u_ = 3. Mas entre as curvas _u_ = 1 e _u_ = 2 devem-se imaginar traçadas ainda infinitas outras, que correspondem a todos os números reais entre 1 e 2. Tem-se então um sistema de curvas _u_ que cobrem com densidade infinita o tampo inteiro da mesa. Nenhuma curva _u_ deve cortar outra; por cada ponto do tampo da mesa deve passar uma curva, e uma só. A cada ponto da superfície do tampo da mesa pertence então um valor de _u_ bem determinado. Do mesmo modo, suponha-se desenhado na superfície um sistema de curvas _v_ que satisfaçam as mesmas condições, providas de números de maneira correspondente, mas que também podem ter qualquer forma. A cada ponto do tampo da mesa pertencem então um valor de _u_ e um valor de _v_, dois números que chamamos as coordenadas do tampo da mesa (coordenadas gaussianas). O ponto _P_ da figura, por exemplo, tem as coordenadas gaussianas _u_ = 3, _v_ = 1. A dois pontos vizinhos _P_ e _P′_ da superfície correspondem então as coordenadas
+
+{fig 3}
+
+| P: u, v
+| P′: u + du, v + dv,
+
+onde _du_ e _dv_ significam números muito pequenos. Seja _ds_ a distância, também um número muito pequeno, entre _P_ e _P′_, medida com uma varinha. Então, segundo Gauss:
+
+| ds² = g₁₁ du² + 2g₁₂ du dv + g₂₂ dv²,
+
+onde _g₁₁_, _g₁₂_, _g₂₂_ são grandezas que dependem de _u_ e de _v_ de maneira bem determinada. As grandezas _g₁₁_, _g₁₂_ e _g₂₂_ determinam o comportamento das varinhas em relação às curvas _u_ e às curvas _v_, e portanto também em relação à superfície da mesa. No caso em que os pontos da superfície considerada formam um contínuo euclidiano em relação às varinhas de medida, e só nesse caso, é possível traçar e numerar as curvas _u_ e as curvas _v_ de tal modo que se tenha simplesmente
+
+| ds² = du² + dv²
+
+Então as curvas _u_ e as curvas _v_ são linhas retas, no sentido da geometria euclidiana, perpendiculares entre si. Então as coordenadas gaussianas são simplesmente cartesianas. Vê-se que as coordenadas gaussianas não são mais que uma maneira de associar dois números a cada ponto da superfície considerada, de tal modo que a pontos vizinhos no espaço se associem valores numéricos muito pouco diferentes.
+
+Essas considerações valem de início para um contínuo de duas dimensões. Mas o método de Gauss pode ser aplicado também a um contínuo de três, de quatro ou de mais dimensões. Se se tem, por exemplo, um contínuo de quatro dimensões, resulta a seguinte representação. A cada ponto do contínuo se associam arbitrariamente quatro números _x₁_, _x₂_, _x₃_, _x₄_, que se chamam “coordenadas”. A pontos vizinhos correspondem valores vizinhos das coordenadas. Se agora a pontos vizinhos _P_ e _P′_ se associa uma distância _ds_ fisicamente bem definida, que se pode determinar por medições, vale uma fórmula:
+
+| ds² = g₁₁ dx₁² + 2g₁₂ dx₁ dx₂ + … + g₄₄ dx₄²,
+
+onde as grandezas g₁₁ etc. têm valores que variam com o lugar no contínuo. Só no caso em que o contínuo é euclidiano é possível associar as coordenadas _x₁_ … _x₄_ aos pontos do contínuo de tal modo que se tenha simplesmente
+
+| ds² = dx₁² + dx₂² + dx₃² + dx₄²
+
+Valem então no contínuo de quatro dimensões relações análogas às que valem nas nossas medições em três dimensões.
+
+A representação de Gauss para _ds²_ dada acima, aliás, nem sempre é possível, mas só quando regiões suficientemente pequenas do contínuo considerado podem ser vistas como contínuos euclidianos. Isso vale evidentemente, por exemplo, no caso do tampo da mesa com temperatura variável de lugar para lugar. Pois numa parte pequena do tampo a temperatura é praticamente constante, e o comportamento geométrico das varinhas é, portanto, _quase_ tal como deve ser segundo as regras da geometria euclidiana. As incoerências da construção de quadrados do parágrafo anterior só aparecem com clareza quando essa construção se estende a uma parte considerável do tampo da mesa.
+
+Resumindo, podemos dizer: Gauss inventou um método para o tratamento matemático de contínuos quaisquer em que estejam definidas relações métricas (“distância” entre pontos vizinhos). A cada ponto do contínuo se associam tantos números (coordenadas gaussianas) quantas são as dimensões do contínuo. A associação se faz de modo que se guarde a univocidade da associação e que a pontos vizinhos se associem números (coordenadas gaussianas) infinitamente pouco diferentes. O sistema de coordenadas gaussiano é uma generalização lógica do sistema de coordenadas cartesiano. Pode ser aplicado também a contínuos não euclidianos, mas só quando pequenas partes do contínuo considerado, em relação à medida definida (“distância”), se comportam de modo euclidiano com aproximação tanto maior quanto menor for a parte do contínuo que se considera.
+
+## 26. O contínuo espaço-temporal da teoria da relatividade especial como contínuo euclidiano
+
+[II.26] Estamos agora em condições de formular com um pouco mais de precisão a ideia de Minkowski, apenas esboçada no § 17. Segundo a teoria da relatividade especial, para a descrição do contínuo espaço-temporal de quatro dimensões são privilegiados certos sistemas de coordenadas, que chamamos “sistemas de coordenadas galileanos”. Para eles, as quatro coordenadas _x_, _y_, _z_, _t_, que determinam um acontecimento, ou, em outras palavras, um ponto do contínuo quadridimensional, são definidas fisicamente de modo simples, como se expôs em detalhe na primeira parte deste livrinho. Para a passagem de um sistema galileano a outro, que se move com velocidade uniforme em relação ao primeiro, valem as equações da transformação de Lorentz, que são a base para a dedução das consequências da teoria da relatividade especial e que, por sua vez, não são mais que a expressão da validade universal da lei de propagação da luz para todos os sistemas de referência galileanos.
+
+Minkowski descobriu que as transformações de Lorentz satisfazem as seguintes condições simples. Considerem-se dois acontecimentos vizinhos, cuja posição mútua no contínuo quadridimensional seja dada, em relação a um corpo de referência galileano _K_, pelas diferenças de coordenadas espaciais _dx_, _dy_, _dz_ e pela diferença de tempo _dt_. Em relação a um segundo sistema galileano, sejam _dx′_, _dy′_, _dz′_, _dt′_ as diferenças análogas para esses dois acontecimentos. Então vale sempre entre elas a condição:
+
+| dx² + dy² + dz² − c² dt² = dx′² + dy′² + dz′² − c² dt′².
+
+Essa condição tem por consequência a validade da transformação de Lorentz. Podemos enunciar isso assim: a grandeza
+
+| ds² = dx² + dy² + dz² − c² dt²
+
+relativa a dois pontos vizinhos do contínuo espaço-temporal de quatro dimensões tem o mesmo valor para todos os corpos de referência privilegiados (galileanos). Se substituímos _x_, _y_, _z_, √−1 _ct_ por _x₁_, _x₂_, _x₃_, _x₄_, obtemos também o resultado de que
+
+| ds² = dx₁² + dx₂² + dx₃² + dx₄²
+
+é independente da escolha do corpo de referência[1]. À grandeza _ds_ chamamos a “distância” entre os dois acontecimentos, ou pontos quadridimensionais.
+
+Se, portanto, se escolhe como variável de tempo a variável imaginária √−1 _ct_, em vez do _t_ real, pode-se conceber o contínuo espaço-temporal segundo a teoria da relatividade especial como um contínuo quadridimensional “euclidiano”, como decorre das explicações do último parágrafo.
+
+¤ [1] Ver o Apêndice. As relações (11a) e (12), deduzidas ali para as próprias coordenadas, valem também para diferenças de coordenadas, e portanto também para diferenciais de coordenadas (diferenças infinitamente pequenas).
+

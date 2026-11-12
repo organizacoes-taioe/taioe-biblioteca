@@ -3,3 +3,4 @@
 44/31: o recorte corta o começo ("s mansos"); completei "mais mansos" (o texto atual não tinha "mais"). 59/7: itálico do latim começa na linha anterior (virtus), marquei só "in infirmitate perficitur".
 61/21: impresso traz "semprer or etis" (erro do impresso, por semper oretis); transcrito como está.
 102/13: impresso traz "traquilidade" (por tranquilidade); transcrito como está.
+110/5: "verde-/mar" cai na quebra da linha; escrevi verde-mar (composto).

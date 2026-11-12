@@ -17,3 +17,8 @@
 - 2.1 ἴσα πρὸς ἴσα σφι γενέσθαι → «estavam quites».
 - 3.2 τοὺς δέ: os troianos, que o grego não nomeia → «os outros».
 - 4.4 τὸ Ἑλληνικόν → «o povo grego».
+
+## Revisão contra o grego
+
+Conferido bloco a bloco com o grego de Godley: nenhuma correção necessária (sentido, nomes, negações e marcas conferem).
+Dúvidas: nenhuma.

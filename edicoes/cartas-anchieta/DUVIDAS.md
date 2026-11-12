@@ -37,3 +37,5 @@
 516/17: o texto atual trazia 'sericordia' (a linha 16 acaba em 'tanta', sem 'mi-'); escrevi 'misericordia' inteira. 516/18 e 516/22: sem recuo no impresso (¶ tirado).
 517/30-31: palavras partidas (con-/cilii, volue-/rit) postas inteiras na linha de cima; 517/34 e 518/15: como no texto atual (palavras partidas 'manda-mentos', 'sô-bre' fora da linha). 517/32: o ¶ do texto atual não estava; sem recuo no recorte. 518/0: título apagado (-).
 519/35: número de página (526) colado a 'mo'; escrevi 'mo-' (520/0 começa em 'ves'). 519/21-22: 'fratribus' inteira na 21 (fra-/tribus).
+520/31: impresso 'oprteat' (por oportet/oporteat); 521/2: 'nomem' como impresso; 'sponsa' em romano no impresso.
+522/1: texto atual não trazia 'Deus' (impresso: 'Igreja:Deus,' colado, 'Deus' em itálico; escrevi 'Igreja: _Deus_,').

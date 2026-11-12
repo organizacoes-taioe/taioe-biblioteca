@@ -1,0 +1,350 @@
+# titulo: Primeira parte: A teoria da relatividade especial
+
+## 1. O conteúdo físico das proposições geométricas
+
+[I.1] Com certeza também você, caro leitor, quando menino ou menina, travou conhecimento com o soberbo edifício da geometria de Euclides e se lembra, talvez com mais respeito que amor, dessa construção altiva, por cujas altas escadarias professores conscienciosos o fizeram correr de um lado para outro em horas sem conta. Com certeza, por força desse seu passado, você castigaria com desprezo quem declarasse falsa a mais remota proposiçãozinha dessa ciência. Mas esse sentimento de orgulhosa segurança talvez o abandonasse no mesmo instante se alguém lhe perguntasse: “O que é que você quer dizer, afinal, quando afirma que essas proposições são verdadeiras?” Detenhamo-nos um pouco nessa pergunta.
+
+A geometria parte de certos conceitos fundamentais, como plano, ponto, reta, aos quais somos capazes de associar representações mais ou menos claras, e de certas proposições simples (axiomas), que, com base nessas representações, estamos inclinados a aceitar como “verdadeiras”. Todas as outras proposições são então reduzidas a esses axiomas, isto é, demonstradas, segundo um método lógico cuja legitimidade nos sentimos obrigados a reconhecer. Uma proposição é correta, ou “verdadeira”, quando foi deduzida dos axiomas da maneira reconhecida. A pergunta pela “verdade” de cada proposição geométrica reduz-se, portanto, à pergunta pela “verdade” dos axiomas. Mas há muito se sabe que esta última pergunta não só não pode ser respondida pelos métodos da geometria, como em si mesma não tem sentido algum. Não se pode perguntar se é verdade que por dois pontos passa só _uma_ reta. Pode-se apenas dizer que a geometria euclidiana trata de figuras que ela chama “retas” e às quais atribui a propriedade de serem determinadas de modo único por dois de seus pontos. O conceito de “verdadeiro” não se aplica às afirmações da geometria pura, porque com a palavra “verdadeiro” costumamos designar, em última análise, a concordância com um objeto “real”; ora, a geometria não se ocupa da relação entre os seus conceitos e os objetos da experiência, mas só da conexão lógica desses conceitos entre si.
+
+Que, apesar disso, nos sintamos levados a chamar “verdadeiras” as proposições da geometria, explica-se facilmente. Aos conceitos geométricos correspondem, de modo mais ou menos exato, objetos da natureza, e estes são, sem dúvida, a única causa do surgimento daqueles conceitos. A geometria pode deixar isso de lado, para dar ao seu edifício a maior coesão lógica possível; mas o hábito, por exemplo, de ver num segmento duas marcas feitas sobre _um_ corpo praticamente rígido está profundamente arraigado nos nossos hábitos de pensamento. Estamos também acostumados a supor que três lugares estão numa reta quando, escolhendo bem o ponto de observação e olhando com um olho só, conseguimos fazer coincidir as posições aparentes em que os vemos.
+
+Se agora, seguindo o hábito de pensamento, acrescentarmos às proposições da geometria euclidiana uma única proposição, a de que a dois pontos de um corpo praticamente rígido corresponde sempre a mesma distância (segmento), quaisquer que sejam as mudanças de posição a que submetamos o corpo, as proposições da geometria euclidiana se tornam proposições sobre a disposição relativa possível de corpos praticamente rígidos[1]. A geometria assim completada deve então ser tratada como um ramo da física. Agora se pode perguntar com razão pela “verdade” das proposições geométricas assim interpretadas, porque se pode perguntar se elas valem para aquelas coisas reais que associamos aos conceitos geométricos. Com alguma imprecisão, podemos dizer, portanto, que por “verdade” de uma proposição geométrica, nesse sentido, entendemos que ela se confirma numa construção feita com régua e compasso.
+
+A convicção da “verdade” das proposições geométricas nesse sentido repousa, naturalmente, só em experiências bastante imperfeitas. De início vamos supor essa verdade das proposições geométricas, para depois ver, na última parte das nossas considerações (na teoria da relatividade geral), que ela tem limites e quais são eles.
+
+¤ [1] Com isso também se associa à linha reta um objeto da natureza. Três pontos _A_, _B_, _C_ de um corpo rígido estão então numa reta quando, dados os pontos _A_ e _C_, o ponto _B_ é escolhido de tal modo que a soma das distâncias _A͞B_ e _B͞C_ seja a menor possível. Esta indicação incompleta pode bastar neste contexto.
+
+## 2. O sistema de coordenadas
+
+[I.2] Com base na interpretação física da distância que indicamos, estamos também em condições de estabelecer por meio de medições a distância entre dois pontos de um corpo rígido. Para isso precisamos de um segmento (a varinha _S_), que usaremos de uma vez por todas como unidade de medida. Se _A_ e _B_ são dois pontos de um corpo rígido, a reta que os une pode ser construída segundo as leis da geometria; em seguida, sobre essa reta, pode-se marcar o segmento _S_ a partir de _A_ tantas vezes quantas forem necessárias para chegar a _B_. O número de vezes que se marcou o segmento é a medida do segmento _A͞B_. Nisto se baseia toda medição de comprimentos[1].
+
+Toda descrição espacial do lugar de um acontecimento ou de um objeto consiste em indicar o ponto de um corpo rígido (corpo de referência) com o qual esse acontecimento coincide. Isso vale não só para a descrição científica, mas também para a vida de todos os dias. Se analiso a indicação de lugar “em Berlim, na Potsdamer Platz”, ela significa o seguinte. O chão da Terra é o corpo rígido a que se refere a indicação de lugar; nele, “Potsdamer Platz em Berlim” é um ponto marcado e provido de nome, com o qual o acontecimento coincide no espaço[2].
+
+Esse modo primitivo de indicar o lugar só conhece lugares na superfície de corpos rígidos e depende da existência de pontos distinguíveis nessa superfície. Vejamos como o espírito humano se liberta dessas duas limitações sem que mude a essência da indicação de lugar! Se, por exemplo, paira uma nuvem sobre a Potsdamer Platz, o lugar dela, em relação à superfície da Terra, pode ser fixado erguendo-se verticalmente na praça uma vara que chegue até a nuvem. O comprimento da vara, medido com a unidade de medida, junto com a indicação do lugar do pé da vara, é então uma indicação de lugar completa. Esse exemplo mostra por que caminho se deu o refinamento do conceito de lugar.
+
+a) Prolonga-se o corpo rígido a que se refere a indicação de lugar, de tal modo que o corpo rígido assim completado alcance o objeto que se quer localizar.
+
+b) Para caracterizar o lugar, usa-se o _número_ em vez de pontos de referência com nome (aqui, o comprimento da vara medido com a régua).
+
+c) Fala-se da altura da nuvem mesmo quando não se ergueu vara nenhuma que a alcance. No nosso caso, determina-se, a partir de fotografias da nuvem tiradas de vários pontos do chão e levando em conta as propriedades de propagação da luz, o comprimento que a vara deveria ter para alcançar a nuvem.
+
+Dessa reflexão se vê que, para descrever lugares, será vantajoso conseguir, pelo uso de números de medida, tornar-se independente da existência de pontos de referência com nome sobre o corpo rígido a que se refere a indicação de lugar. A física de medição consegue isso empregando o sistema de coordenadas cartesiano.
+
+Ele consiste em três paredes planas e rígidas, perpendiculares entre si e ligadas num corpo rígido. O lugar de um acontecimento qualquer em relação ao sistema de coordenadas é descrito (no essencial) pela indicação do comprimento das três perpendiculares ou coordenadas (_x_, _y_, _z_) que se podem baixar do acontecimento sobre essas três paredes planas. O comprimento dessas três perpendiculares pode ser determinado por uma série de manipulações com barras rígidas, manipulações que as leis e os métodos da geometria euclidiana prescrevem.
+
+Nas aplicações, aquelas paredes rígidas que formam o sistema de coordenadas em geral não são construídas de fato; e as coordenadas também não são determinadas realmente por construções com barras rígidas, mas de modo indireto. O sentido físico das indicações de lugar, porém, deve sempre ser buscado de acordo com as explicações acima, se não quisermos que os resultados da física e da astronomia se dissolvam na obscuridade[3].
+
+Resulta, portanto, o seguinte: toda descrição espacial de acontecimentos se serve de um corpo rígido a que esses acontecimentos devem ser referidos no espaço. Essa referência supõe que para os “segmentos” valham as leis da geometria euclidiana, sendo o “segmento” representado fisicamente por duas marcas sobre um corpo rígido.
+
+¤ [1] Supõe-se aqui, é verdade, que a medida seja exata, isto é, dê um número inteiro. Livramo-nos dessa dificuldade com o uso de réguas graduadas, cuja introdução não exige nenhum método novo em princípio.
+
+¤ [2] Não é preciso investigar aqui mais a fundo o que significa “coincidência espacial”; esse conceito é claro o bastante para que, em cada caso real, dificilmente surjam divergências sobre se ele se aplica ou não.
+
+¤ [3] Só a teoria da relatividade geral, tratada na segunda parte do livrinho, torna necessário refinar e modificar essas concepções.
+
+## 3. Espaço e tempo na mecânica clássica
+
+[I.3] Se, sem maiores escrúpulos nem explicações minuciosas, formulo assim a tarefa da mecânica: “A mecânica deve descrever como os corpos mudam de lugar no espaço com o tempo”, carrego a consciência com alguns pecados mortais contra o espírito santo da clareza; esses pecados devem ser primeiro descobertos.
+
+Não está claro o que se deve entender aqui por “lugar” e “espaço”. Estou à janela de um vagão de trem que anda com velocidade uniforme e deixo cair uma pedra no leito da ferrovia, sem lhe dar impulso. Então vejo (abstraindo da influência da resistência do ar) a pedra cair em linha reta. Um pedestre que assiste à travessura da calçada observa que a pedra cai ao chão descrevendo um arco de parábola. Pergunto agora: os “lugares” por onde a pedra passa estão “na realidade” sobre uma reta ou sobre uma parábola? E o que significa aqui movimento “no espaço”? Depois das reflexões do § 2, a resposta é evidente. Antes de tudo, deixemos de lado a palavra obscura “espaço”, com a qual, para dizer a verdade, não conseguimos pensar coisa nenhuma; em vez dela, digamos “movimento em relação a um corpo de referência praticamente rígido”. Os lugares em relação ao corpo de referência (o vagão _ou_ o chão) já foram definidos em detalhe no parágrafo anterior. Introduzindo, em lugar de “corpo de referência”, o conceito de “sistema de coordenadas”, útil para a descrição matemática, podemos dizer: a pedra descreve uma reta em relação a um sistema de coordenadas rigidamente ligado ao vagão, e uma parábola em relação a um sistema de coordenadas rigidamente ligado ao chão. Vê-se claramente neste exemplo que não existe uma trajetória em si, mas só uma trajetória em relação a um corpo de referência determinado.
+
+Mas uma descrição _completa_ do movimento só se obtém quando se indica como o corpo muda de lugar _com o tempo_; isto é, para cada ponto da trajetória deve-se indicar em que tempo o corpo se encontra ali. Essas indicações têm de ser completadas por uma definição do tempo tal que, em virtude dela, esses valores de tempo possam ser considerados grandezas observáveis em princípio (resultados de medições). No terreno da mecânica clássica, satisfazemos essa exigência, para o nosso exemplo, da seguinte maneira. Imaginemos dois relógios exatamente iguais; um está na mão do homem à janela do vagão, o outro na mão do homem na calçada. Cada um deles verifica em que ponto do seu corpo de referência a pedra se encontra no momento em que tiquetaqueia o relógio que tem na mão. Deixamos de lado aqui a imprecisão que vem da finitude da velocidade de propagação da luz. Disso, e de uma segunda dificuldade que aqui se apresenta, falaremos em detalhe mais adiante.
+
+## 4. O sistema de coordenadas galileano
+
+[I.4] Como se sabe, a lei fundamental da mecânica de Galileu e Newton conhecida pelo nome de lei da inércia diz: um corpo suficientemente afastado de outros corpos persiste em estado de repouso ou de movimento retilíneo uniforme. Essa proposição não diz algo só sobre o movimento dos corpos, mas também sobre os corpos de referência, ou sistemas de coordenadas, admissíveis na mecânica, que se podem usar na descrição mecânica. Corpos a que a lei da inércia certamente se aplica com grande aproximação são as estrelas fixas visíveis. Ora, se usarmos um sistema de coordenadas rigidamente ligado à Terra, em relação a ele cada estrela fixa descreve, no decurso de um dia (astronômico), um círculo de raio imenso, o que contradiz o enunciado da lei da inércia. Se, portanto, mantivermos essa lei, só poderemos referir os movimentos a sistemas de coordenadas em relação aos quais as estrelas fixas não descrevam movimentos circulares. Um sistema de coordenadas cujo estado de movimento é tal que em relação a ele vale a lei da inércia, nós o chamamos “sistema de coordenadas galileano”. As leis da mecânica de Galileu e Newton só pretendem valer para um sistema de coordenadas galileano.
+
+## 5. O princípio da relatividade (no sentido restrito)
+
+[I.5] Para sermos o mais concretos possível, partimos de novo do exemplo do vagão de trem que anda com velocidade uniforme. O seu movimento, chamamo-lo translação uniforme (“uniforme”, porque tem velocidade e direção constantes; “translação”, porque o vagão, embora mude de lugar em relação à via, não gira ao fazê-lo). Imaginemos que um corvo voe pelo ar em linha reta e com velocidade uniforme, julgando-se a partir do leito da ferrovia. Julgado do vagão em movimento, o movimento do corvo é sem dúvida um movimento de outra velocidade e de outra direção; mas é igualmente retilíneo e uniforme. Em termos abstratos: se uma massa _m_ se move em linha reta e com velocidade uniforme em relação a um sistema de coordenadas _K_, ela se move também em linha reta e com velocidade uniforme em relação a um segundo sistema de coordenadas _K′_, caso este último execute em relação a _K_ um movimento de translação uniforme. Daqui se segue, levando em conta o que se expôs no parágrafo anterior:
+
+Se _K_ é um sistema de coordenadas galileano, todo outro sistema de coordenadas _K′_ também é galileano, se _K′_ estiver em relação a _K_ em estado de movimento de translação uniforme. Em relação a _K′_ valem as leis da mecânica de Galileu e Newton tanto quanto em relação a _K_.
+
+Damos mais um passo na generalização ao enunciar a proposição: se _K′_ é um sistema de coordenadas que se move em relação a _K_ com velocidade uniforme e sem rotação, os fenômenos da natureza se passam em relação a _K′_ segundo exatamente as mesmas leis gerais que em relação a _K_. A esta afirmação chamamos “princípio da relatividade” (no sentido restrito).
+
+Enquanto se esteve convencido de que todos os fenômenos da natureza se podiam representar com o auxílio da mecânica clássica, não se podia duvidar da validade desse princípio da relatividade. Mas com o desenvolvimento mais recente da eletrodinâmica e da ótica foi ficando cada vez mais evidente que a mecânica clássica não bastava como fundamento de toda a descrição física da natureza. Com isso, também a questão da validade do princípio da relatividade se tornou bem discutível, e não parecia excluído que a resposta pudesse ser negativa.
+
+Seja como for, há dois fatos gerais que de saída falam muito a favor da validade do princípio da relatividade. Com efeito, ainda que a mecânica clássica não forneça uma base suficientemente larga para a representação teórica de _todos_ os fenômenos físicos, deve conter uma parte muito considerável de verdade; pois dá com precisão admirável os movimentos reais dos corpos celestes. Por isso, também o princípio da relatividade há de valer, de qualquer modo, com grande exatidão no domínio _da mecânica_. E que um princípio de tamanha generalidade, que vale com tal exatidão num domínio de fenômenos, falhe diante de outro é, a priori, pouco provável.
+
+O segundo argumento, a que voltaremos mais tarde, é o seguinte. Se o princípio da relatividade (no sentido restrito) não vale, os sistemas de coordenadas galileanos _K_, _K′_, _K″_ etc., que se movem uns em relação aos outros com velocidade uniforme, não serão _equivalentes_ para a descrição dos fenômenos da natureza. Então dificilmente se poderia pensar outra coisa senão que as leis da natureza só se deixariam formular de modo especialmente simples e natural se, entre todos os sistemas de coordenadas galileanos, se escolhesse como corpo de referência _um_ (_K₀_), de estado de movimento determinado. A este o chamaríamos com razão (pelas vantagens que tem para a descrição da natureza) “absolutamente em repouso”, e aos outros sistemas galileanos _K_, “em movimento”. Se, por exemplo, o leito da nossa ferrovia fosse o sistema _K₀_, o nosso vagão seria um sistema _K_ em relação ao qual valeriam leis menos simples que em relação a _K₀_. Essa simplicidade menor deveria ser atribuída ao fato de que o vagão _K_ estaria em movimento em relação a _K₀_ (isto é, “realmente” em movimento). Nas leis gerais da natureza formuladas em relação a _K_, a grandeza e a direção da velocidade do vagão deveriam ter um papel. Seria de esperar, por exemplo, que o som de um tubo de órgão fosse um quando o tubo estivesse com o eixo paralelo à direção do movimento, e outro quando estivesse com o eixo perpendicular a essa direção. Ora, a nossa Terra, por causa do seu movimento orbital em torno do Sol, pode ser comparada a um vagão que corre a uns 30 km por segundo. Seria de esperar, portanto, caso o princípio da relatividade não valesse, que a direção momentânea do movimento da Terra entrasse nas leis da natureza, isto é, que o comportamento dos sistemas físicos dependesse da sua orientação no espaço em relação à Terra. Pois, como a direção da velocidade do movimento de revolução da Terra muda no decurso do ano, a Terra não pode estar em repouso em relação ao hipotético sistema _K₀_ durante o ano inteiro. Mas, por mais cuidado que se tivesse, nunca se conseguiu observar semelhante anisotropia do espaço físico terrestre, isto é, uma desigualdade física das diversas direções. Esse é um argumento de peso a favor do princípio da relatividade.
+
+## 6. O teorema da adição das velocidades segundo a mecânica clássica
+
+[I.6] O vagão de trem, que já consideramos tantas vezes, anda sobre os trilhos com a velocidade constante _v_. Dentro do vagão, um homem o percorre no sentido do comprimento, na direção do movimento, com a velocidade _w_. Com que rapidez, isto é, com que velocidade _W_ o homem avança em relação ao leito da ferrovia enquanto anda? A única resposta possível parece decorrer da seguinte reflexão:
+
+Se o homem ficasse parado durante um segundo, avançaria em relação ao leito da ferrovia uma distância _v_ igual à velocidade do vagão. Mas na realidade, além disso, andando, ele percorre nesse segundo, em relação ao vagão, e portanto também em relação ao leito da ferrovia, a distância _w_, igual à velocidade do seu passo. No segundo considerado, portanto, ele percorre ao todo, em relação ao leito da ferrovia, a distância
+
+| W = v + w
+
+Mais tarde veremos que esta reflexão, que exprime o teorema da adição das velocidades segundo a mecânica clássica, não se pode sustentar, isto é, que a lei que acabamos de escrever na verdade não vale. Por enquanto, porém, vamos contar com a sua correção.
+
+## 7. A aparente incompatibilidade da lei de propagação da luz com o princípio da relatividade
+
+[I.7] Dificilmente há na física lei mais simples que aquela segundo a qual a luz se propaga no espaço vazio. Toda criança em idade escolar sabe, ou acredita saber, que essa propagação se dá em linha reta com a velocidade _c_ = 300 000 km/s. Em todo caso, sabemos com grande exatidão que essa velocidade é a mesma para todas as cores; pois, se não fosse, quando uma estrela fixa é encoberta pela sua companheira escura não se observaria ao mesmo tempo o mínimo de emissão das diversas cores. Com uma reflexão semelhante, ligada às observações das estrelas duplas, o astrônomo holandês De Sitter pôde mostrar também que a velocidade de propagação da luz não pode depender da velocidade de movimento do corpo que a emite. A suposição de que essa velocidade de propagação dependa da direção “no espaço” é em si improvável.
+
+Em suma, suponhamos que a criança tenha razão em acreditar na lei simples da velocidade constante _c_ da luz (no vácuo)! Quem diria que essa lei tão simples lançou o físico que pensa com escrúpulo nas maiores dificuldades de raciocínio? Essas dificuldades surgem da seguinte maneira.
+
+Naturalmente, temos de referir o processo de propagação da luz, como qualquer outro, a um corpo de referência rígido (sistema de coordenadas). Escolhemos de novo como tal o leito da nossa ferrovia. Imaginemos que o ar acima dele foi retirado por bombeamento. Ao longo do leito da ferrovia envia-se um raio de luz, cuja frente, pelo que foi dito, se propaga com a velocidade _c_ em relação ao leito. Pelos trilhos anda de novo o nosso vagão com a velocidade _v_, na mesma direção em que se propaga o raio de luz, mas, naturalmente, muito mais devagar. Perguntamos pela velocidade de propagação do raio de luz em relação ao vagão. É fácil ver que aqui se pode aplicar a reflexão do parágrafo anterior; pois o homem que corre em relação ao vagão faz o papel do raio de luz. Em lugar da velocidade _W_ dele em relação ao leito da ferrovia, temos aqui a velocidade da luz em relação a esse leito; _w_ é a velocidade da luz em relação ao vagão, que procuramos, e para a qual vale, portanto:
+
+| w = c − v.
+
+A velocidade de propagação do raio de luz em relação ao vagão resulta, portanto, menor que _c_.
+
+Mas esse resultado se choca com o princípio da relatividade exposto no § 5. Segundo o princípio da relatividade, a lei da propagação da luz no vácuo, como qualquer outra lei geral da natureza, deveria ter o mesmo enunciado para o vagão como corpo de referência e para os trilhos como corpo de referência. Pela nossa reflexão, porém, isso parece impossível. Se todo raio de luz se propaga em relação ao leito com a velocidade _c_, justamente por isso a lei da propagação da luz em relação ao vagão parece ter de ser outra, em contradição com o princípio da relatividade.
+
+Diante desse dilema, parece inevitável abandonar ou o princípio da relatividade ou a lei simples da propagação da luz no vácuo. O leitor que acompanhou com atenção a exposição até aqui certamente esperará que se mantenha o princípio da relatividade, que, pela sua naturalidade e simplicidade, se impõe ao espírito como quase irrecusável, e que se substitua a lei da propagação da luz no vácuo por uma lei mais complicada, compatível com o princípio da relatividade. Mas o desenvolvimento da física teórica mostrou que esse caminho não é viável. As investigações teóricas pioneiras de H. A. Lorentz sobre os processos eletrodinâmicos e óticos nos corpos em movimento mostraram que as experiências nesses domínios levam com necessidade imperiosa a uma teoria dos processos eletromagnéticos que tem como consequência inevitável a lei da constância da velocidade da luz no vácuo. Por isso os teóricos de maior autoridade estavam antes inclinados a abandonar o princípio da relatividade, embora não se tivesse podido achar um único fato da experiência que o contradissesse.
+
+Foi aqui que entrou a teoria da relatividade. Por uma análise dos conceitos físicos de tempo e de espaço, mostrou-se _que na verdade não existe nenhuma incompatibilidade entre o princípio da relatividade e a lei de propagação da luz_, e que, ao contrário, mantendo-se de modo sistemático essas duas leis, chega-se a uma teoria logicamente irrepreensível. Essa teoria, que, para distingui-la da sua ampliação, de que falaremos mais tarde, chamamos “teoria da relatividade especial”, vai ser exposta a seguir nas suas ideias fundamentais.
+
+## 8. O conceito de tempo na física
+
+[I.8] Em dois lugares _A_ e _B_ do leito da nossa ferrovia, muito distantes um do outro, um raio caiu sobre os trilhos. Acrescento a afirmação de que essas duas descargas se deram _simultaneamente_. Se agora lhe pergunto, caro leitor, se essa afirmação tem sentido, você me responderá com um “sim” convicto. Mas, se insisto e lhe peço que me explique com mais precisão o sentido da afirmação, você percebe, depois de pensar um pouco, que a resposta a essa pergunta não é tão simples quanto parece à primeira vista.
+
+Depois de algum tempo, talvez lhe ocorra a seguinte resposta: “O significado da afirmação é claro por si mesmo e não precisa de mais explicações; eu teria, é verdade, de pensar um pouco se recebesse a incumbência de verificar por observações se, no caso concreto, os dois acontecimentos se deram ao mesmo tempo ou não.” Mas não posso me contentar com essa resposta, pela seguinte razão. Suponhamos que um hábil meteorologista tenha descoberto, por reflexões engenhosas, que nos lugares _A_ e _B_ os raios têm de cair sempre ao mesmo tempo; surge então a tarefa de verificar se esse resultado teórico corresponde à realidade ou não. O mesmo se dá com todas as afirmações físicas em que o conceito de “simultâneo” tem algum papel. Para o físico, o conceito só existe quando há a possibilidade de averiguar, no caso concreto, se ele se aplica ou não. É preciso, portanto, uma definição de simultaneidade tal que forneça o método pelo qual, no caso presente, se possa decidir por experimentos se as duas descargas se deram simultaneamente ou não. Enquanto essa exigência não for satisfeita, eu, como físico (e, aliás, também como não físico!), me iludo se acredito poder associar um sentido à afirmação de simultaneidade. (Não continue a ler, caro leitor, antes de me ter concedido isto com convicção.)
+
+Depois de pensar algum tempo, você faz então a seguinte proposta para constatar a simultaneidade. Mede-se ao longo dos trilhos o segmento _AB_ que une os dois lugares, e no ponto médio _M_ do segmento coloca-se um observador, munido de um dispositivo (por exemplo, dois espelhos inclinados de 90° um em relação ao outro) que lhe permita ver ao mesmo tempo os dois lugares _A_ e _B_. Se ele perceber as duas descargas ao mesmo tempo, elas são simultâneas.
+
+Fico muito satisfeito com essa proposta e, no entanto, não considero a questão de todo esclarecida, porque me sinto levado a fazer a seguinte objeção: “A sua definição seria sem dúvida correta se eu já soubesse que a luz que leva ao observador em _M_ a percepção das descargas se propaga com a mesma velocidade no trajeto _A_ ⟶ _M_ e no trajeto _B_ ⟶ _M_. Mas só se poderia verificar essa suposição se já se dispusesse dos meios de medir o tempo. Parece, portanto, que aqui andamos num círculo lógico.”
+
+Depois de pensar mais um pouco, porém, você me lança com razão um olhar um tanto desdenhoso e me declara: “Mesmo assim mantenho a minha definição de há pouco, porque na verdade ela não supõe nada sobre a luz. À definição de simultaneidade só se deve fazer _uma_ exigência: que, em cada caso real, ela forneça uma decisão empírica sobre se o conceito a definir se aplica ou não. Que a minha definição faz isso é indiscutível. Que a luz leve o mesmo tempo para percorrer o caminho _A_ ⟶ _M_ e o trajeto _B_ ⟶ _M_ não é, na verdade, uma _suposição ou hipótese_ sobre a natureza física da luz, mas uma _estipulação_ que posso fazer livremente para chegar a uma definição de simultaneidade.”
+
+É claro que essa definição pode ser usada para dar sentido exato à afirmação de simultaneidade não só de _dois_ acontecimentos, mas de quantos acontecimentos se queira, qualquer que seja a posição dos lugares em que ocorrem em relação ao corpo de referência (aqui, o leito da ferrovia)[1]. Com isso se chega também a uma definição do “tempo” na física. Imaginemos, com efeito, colocados nos pontos _A_, _B_, _C_ dos trilhos (sistema de coordenadas) relógios de construção igual, acertados de tal modo que as posições dos seus ponteiros sejam simultaneamente (no sentido acima) as mesmas. Entende-se então por “tempo” de um acontecimento a indicação de tempo (posição dos ponteiros) daquele desses relógios que está imediatamente vizinho (no espaço) do acontecimento. Desse modo, a cada acontecimento se associa um valor de tempo que em princípio se pode observar.
+
+Essa estipulação contém ainda uma hipótese física, de cuja validade dificilmente se duvidará sem razões empíricas. Supõe-se, com efeito, que todos esses relógios andem “com a mesma rapidez”, se são de construção igual. Em termos exatos: se dois relógios em repouso, colocados em pontos diferentes do corpo de referência, são acertados de tal modo que _uma_ posição dos ponteiros de um seja _simultânea_ (no sentido acima) com a _mesma_ posição dos ponteiros do outro, então posições iguais dos ponteiros são sempre simultâneas (no sentido da definição acima).
+
+¤ [1] Supomos ainda que, se três acontecimentos _A_, _B_, _C_ se dão em lugares diferentes de tal modo que _A_ é simultâneo com _B_ e _B_ simultâneo com _C_ (simultâneos no sentido da definição acima), o critério de simultaneidade é satisfeito também pelo par de acontecimentos _A_—_C_. Essa suposição é uma hipótese física sobre a lei de propagação da luz; ela tem de ser satisfeita, se se quiser manter a lei da constância da velocidade da luz no vácuo.
+
+## 9. A relatividade da simultaneidade
+
+[I.9] Até aqui referimos a nossa consideração a um corpo de referência determinado, que chamamos “leito da ferrovia”. Suponhamos agora que pelos trilhos corra um trem muito comprido com a velocidade constante _v_, na direção indicada na Fig. 1. As pessoas que viajam nesse trem usarão com vantagem o trem como corpo de referência rígido (sistema de coordenadas); referem todos os acontecimentos ao trem. Todo acontecimento que se dá ao longo dos trilhos se dá então também num ponto determinado do trem. Também a definição de simultaneidade pode ser dada em relação ao trem exatamente da mesma maneira que em relação ao leito da ferrovia. Mas surge agora, naturalmente, a seguinte pergunta:
+
+Dois acontecimentos (por exemplo, as duas descargas _A_ e _B_) que são simultâneos _em relação ao leito da ferrovia_ são também simultâneos _em relação ao trem_? Vamos mostrar logo que a resposta tem de ser negativa.
+
+{fig teoria-da-relatividade/fig-1}
+
+Quando dizemos que as descargas _A_ e _B_ são simultâneas em relação ao leito da ferrovia, isso significa: os raios de luz que partem dos lugares _A_ e _B_ das descargas se encontram no ponto médio _M_ do trecho _A_–_B_ da via. Mas aos acontecimentos _A_ e _B_ correspondem também lugares _A_ e _B_ no trem. Seja _M′_ o ponto médio do trecho _A_—_B_ do trem em movimento. Esse ponto _M′_ coincide, é verdade, no instante das descargas[1], com o ponto _M_, mas se move no desenho para a direita com a velocidade _v_ do trem. Se um observador sentado no trem em _M′_ não tivesse essa velocidade, ficaria sempre em _M_, e os raios de luz vindos das descargas _A_ e _B_ o alcançariam então ao mesmo tempo, isto é, esses dois raios se encontrariam justamente nele. Na realidade, porém, ele corre (julgando-se a partir do leito da ferrovia) ao encontro do raio de luz que vem de _B_, enquanto se afasta do raio de luz que vem de _A_. O observador verá, portanto, o raio de luz que parte de _B_ antes do que parte de _A_. Os observadores que usam o trem como corpo de referência têm, portanto, de chegar à conclusão de que a descarga _B_ se deu antes da descarga _A_. Chegamos, assim, ao importante resultado:
+
+Acontecimentos que são simultâneos em relação ao leito da ferrovia não são simultâneos em relação ao trem, e vice-versa (relatividade da simultaneidade). Cada corpo de referência (sistema de coordenadas) tem o seu tempo próprio; uma indicação de tempo só tem sentido quando se indica o corpo de referência a que ela se refere.
+
+Ora, antes da teoria da relatividade, a física sempre supôs tacitamente que o significado das indicações de tempo era absoluto, isto é, independente do estado de movimento do corpo de referência. Mas acabamos de ver que essa suposição é incompatível com a definição de simultaneidade que mais naturalmente se oferece; se a abandonarmos, desaparece o conflito, desenvolvido no § 7, entre a lei da propagação da luz no vácuo e o princípio da relatividade.
+
+Esse conflito, com efeito, decorre da reflexão do § 6, que agora já não se pode sustentar. Concluímos ali que o homem no vagão, que percorre em relação a ele a distância _w_ _num segundo_, percorre essa distância também em relação ao leito da ferrovia _num segundo_. Ora, como, pelas reflexões que acabamos de fazer, o tempo que um processo determinado leva em relação ao vagão não pode ser igualado à duração do mesmo processo julgada a partir do leito da ferrovia como corpo de referência, não se pode afirmar que o homem, andando, percorra em relação aos trilhos a distância _w_ num tempo que, julgado a partir do leito da ferrovia, seja igual a um segundo.
+
+A reflexão do § 6, aliás, repousa ainda numa segunda suposição, que, à luz de uma reflexão rigorosa, parece arbitrária, ainda que antes da formulação da teoria da relatividade sempre tenha sido feita (tacitamente).
+
+¤ [1] Julgando-se a partir da via!
+
+## 10. A relatividade do conceito de distância espacial
+
+[I.10] Consideremos dois lugares determinados do trem[1] que corre ao longo do leito da ferrovia com a velocidade _v_, e perguntemos pela distância entre eles. Já sabemos que para medir uma distância precisamos de um corpo de referência em relação ao qual a distância se mede. O mais simples é usar o próprio trem como corpo de referência (sistema de coordenadas). Um observador que viaja no trem mede a distância marcando em linha reta a sua régua, por exemplo ao longo do assoalho dos vagões, tantas vezes quantas forem necessárias para ir de um dos pontos marcados ao outro. O número que diz quantas vezes foi preciso aplicar a régua é então a distância procurada.
+
+Outra coisa é quando a distância deve ser julgada a partir dos trilhos. Aqui se oferece o seguinte método. Se chamarmos _A′_ e _B′_ os dois pontos do trem cuja distância nos interessa, esses dois pontos se movem com a velocidade _v_ ao longo do leito da ferrovia. Perguntamos primeiro quais são os pontos _A_ e _B_ do leito da ferrovia pelos quais os dois pontos _A′_ e _B′_ estão passando num tempo determinado _t_, julgado a partir do leito da ferrovia. Esses pontos _A_ e _B_ do leito podem ser determinados graças à definição de tempo dada no § 8. Em seguida, mede-se a distância entre esses pontos _A_ e _B_ marcando repetidas vezes o metro ao longo do leito da ferrovia.
+
+A priori, não está de modo nenhum assente que esta última medição tenha de dar o mesmo resultado que a primeira. O comprimento do trem medido a partir do leito da ferrovia pode, portanto, ser diferente do comprimento medido a partir do próprio trem. Essa circunstância dá uma segunda objeção que se deve levantar contra a reflexão, aparentemente tão evidente, do § 6. Se, com efeito, o homem no vagão percorre numa unidade de tempo, _medida a partir do trem_, a distância _w_, essa distância, _medida a partir do leito da ferrovia_, não precisa ser também igual a _w_.
+
+¤ [1] Por exemplo, o meio do 1º e do 100º vagão.
+
+## 11. A transformação de Lorentz
+
+[I.11] As reflexões dos três últimos parágrafos nos mostram que a aparente incompatibilidade da lei de propagação da luz com o princípio da relatividade foi deduzida no § 7 por uma consideração que tomava emprestadas à mecânica clássica duas hipóteses que nada justifica; essas hipóteses dizem:
+
+1. O intervalo de tempo entre dois acontecimentos é independente do estado de movimento do corpo de referência.
+
+2. A distância espacial entre dois pontos de um corpo rígido é independente do estado de movimento do corpo de referência.
+
+Se abandonarmos essas hipóteses, desaparece o dilema do § 7, porque o teorema da adição das velocidades deduzido no § 6 deixa de valer. Surge diante de nós a possibilidade de que a lei da propagação da luz no vácuo seja compatível com o princípio da relatividade. Chegamos à pergunta: como se deve modificar a reflexão do § 6 para eliminar a contradição aparente entre esses dois resultados fundamentais da experiência? Essa pergunta leva a outra, geral. Na reflexão do § 6 aparecem lugares e tempos em relação ao trem e em relação ao leito da ferrovia. Como se acham o lugar e o tempo de um acontecimento em relação ao trem, quando se conhecem o lugar e o tempo do acontecimento em relação ao leito da ferrovia? Há para essa pergunta uma resposta concebível tal que a lei da propagação da luz no vácuo não contradiga o princípio da relatividade? Em outras palavras: é concebível uma relação entre o lugar e o tempo de cada acontecimento em relação aos dois corpos de referência, de tal modo que todo raio de luz tenha a velocidade de propagação _c_ em relação ao leito da ferrovia _e_ em relação ao trem? Essa pergunta leva a uma resposta afirmativa e bem determinada, a uma lei de transformação bem determinada para as grandezas de espaço e de tempo de um acontecimento na passagem de um corpo de referência a outro.
+
+Antes de entrar nisso, intercalemos a seguinte reflexão. Até agora consideramos sempre apenas acontecimentos que se passavam ao longo do leito da ferrovia, que tinha de fazer, matematicamente, o papel de uma linha reta. Mas podemos imaginar esse corpo de referência prolongado para os lados e para cima, da maneira indicada no § 2, por um andaime de barras, de tal modo que um acontecimento que se dê em qualquer lugar possa ser localizado em relação a esse andaime. Do mesmo modo, podemos imaginar o trem que anda com a velocidade _v_ prolongado por todo o espaço, de tal modo que todo acontecimento, por mais distante que seja, possa ser localizado também em relação ao segundo andaime. Podemos deixar de lado, sem cair em erros de princípio, o fato de que esses andaimes, na verdade, por causa da impenetrabilidade dos corpos sólidos, teriam de se destruir um ao outro sem parar. Em cada um desses andaimes imaginamos destacadas três paredes perpendiculares entre si, a que chamamos “planos coordenados” (“sistema de coordenadas”). Ao leito da ferrovia corresponde então um sistema de coordenadas _K_; ao trem, um sistema de coordenadas _K′_. Um acontecimento que se dê em qualquer lugar é fixado no espaço, em relação a _K_, pelas três perpendiculares _x_, _y_, _z_ baixadas sobre os planos coordenados, e no tempo por um valor de tempo _t_. _O mesmo acontecimento_ é fixado no espaço e no tempo, em relação a _K′_, por valores correspondentes _x′_, _y′_, _z′_, _t′_, que naturalmente não coincidem com _x_, _y_, _z_, _t_. Como essas grandezas devem ser entendidas como resultados de medições físicas já foi exposto em detalhe.
+
+{fig teoria-da-relatividade/fig-2}
+
+O nosso problema, formulado com exatidão, é evidentemente o seguinte. Quais são os valores _x′_, _y′_, _z′_, _t′_ de um acontecimento em relação a _K′_, quando são dadas as grandezas _x_, _y_, _z_, _t_ do mesmo acontecimento em relação a _K_? As relações têm de ser escolhidas de modo que a lei da propagação da luz no vácuo seja satisfeita para um mesmo raio de luz (e para todo raio de luz) em relação a _K_ _e_ a _K′_. Para a orientação espacial relativa dos sistemas de coordenadas indicada no desenho (Fig. 2), esse problema é resolvido pelas equações:
+
+| x′ = (x − vt) / √(1 − v²/c²)
+| y′ = y
+| z′ = z
+| t′ = (t − (v/c²) x) / √(1 − v²/c²),
+
+sistema de equações que é designado pelo nome de “transformação de Lorentz”[1].
+
+Se, porém, em lugar da lei de propagação da luz, tivéssemos tomado por base as suposições tácitas da velha mecânica sobre o caráter absoluto dos tempos e dos comprimentos, em vez dessas equações de transformação teríamos chegado às equações
+
+| x′ = x − vt
+| y′ = y
+| z′ = z
+| t′ = t
+
+sistema que muitas vezes se chama “transformação de Galileu”. A transformação de Galileu resulta da transformação de Lorentz quando nesta se faz a velocidade da luz _c_ igual a um valor infinitamente grande.
+
+Que, segundo a transformação de Lorentz, a lei da propagação da luz no vácuo é satisfeita tanto para o corpo de referência _K_ como para o corpo de referência _K′_, vê-se com facilidade pelo seguinte exemplo. Envie-se um sinal luminoso ao longo do eixo positivo dos _x_, e propague-se a excitação luminosa segundo a equação
+
+| x = ct,
+
+isto é, com a velocidade _c_. Segundo as equações da transformação de Lorentz, essa relação simples entre _x_ e _t_ acarreta uma relação entre _x′_ e _t′_. De fato, a primeira e a quarta equação da transformação de Lorentz, quando nelas se põe para _x_ o valor _ct_, dão:
+
+| x′ = (c − v)t / √(1 − v²/c²)
+| t′ = (1 − v/c)t / √(1 − v²/c²),
+
+de onde, por divisão, se segue imediatamente
+
+| x′ = ct′
+
+Segundo essa equação se dá a propagação da luz quando referida ao sistema _K′_. Vê-se, portanto, que a velocidade de propagação também em relação ao corpo de referência _K′_ é igual a _c_. O mesmo se dá com raios de luz que se propaguem em qualquer outra direção. Naturalmente, isso não é de admirar, pois as equações da transformação de Lorentz foram deduzidas justamente desse ponto de vista.
+
+¤ [1] No Apêndice se dá uma dedução simples da transformação de Lorentz.
+
+## 12. O comportamento de réguas e relógios em movimento
+
+[I.12] Coloco uma régua de um metro no eixo dos _x′_ de _K′_, de tal modo que o seu começo fique no ponto _x′_ = 0 e o seu fim no ponto _x′_ = 1. Qual é o comprimento da régua em relação ao sistema _K_? Para sabê-lo, basta perguntar onde estão o começo e o fim da régua em relação a _K_ num tempo determinado _t_ do sistema _K_. Da primeira equação da transformação de Lorentz, para o tempo _t_ = 0, acha-se para esses dois pontos:
+
+| x(começo da régua) = 0 · √(1 − v²/c²)
+| x(fim da régua) = 1 · √(1 − v²/c²),
+
+e a distância entre esses dois pontos é √(1 − v²/c²). Mas em relação a _K_ a régua se move com a velocidade _v_. Segue-se, portanto, que o comprimento de uma régua rígida de um metro que se move no sentido do seu comprimento com a velocidade _v_ é de √(1 − v²/c²) metro. A régua rígida em movimento é, pois, mais curta que a mesma régua em estado de repouso, e tanto mais curta quanto mais depressa se move. Para a velocidade _v_ = _c_ seria √(1 − v²/c²) = 0; para velocidades ainda maiores, a raiz se torna imaginária. Concluímos daí que na teoria da relatividade a velocidade _c_ tem o papel de uma velocidade-limite, que nenhum corpo real poderia alcançar, e muito menos ultrapassar.
+
+Esse papel da velocidade _c_ como velocidade-limite, aliás, já decorre das próprias equações da transformação de Lorentz. Pois elas perdem o sentido quando se escolhe _v_ maior que _c_.
+
+Se, ao contrário, tivéssemos considerado uma régua de um metro em repouso em relação a _K_ no eixo dos _x_, teríamos achado que ela, julgada a partir de _K′_, tem o comprimento √(1 − v²/c²); isso está inteiramente de acordo com o princípio da relatividade, que está na base das nossas considerações.
+
+Que das equações de transformação tenhamos de aprender algo sobre o comportamento físico de réguas e relógios é evidente a priori. Pois as grandezas _x_, _y_, _z_, _t_ não são outra coisa senão resultados de medições que se obtêm com réguas e relógios. Se tivéssemos tomado por base a transformação de Galileu, não teríamos obtido um encurtamento da régua por efeito do movimento.
+
+Consideremos agora um relógio que bate os segundos, em repouso permanente na origem (_x′_ = 0) de _K′_. Sejam _t′_ = 0 e _t′_ = 1 duas batidas sucessivas desse relógio. Para essas duas batidas, a primeira e a quarta das equações da transformação de Lorentz dão:
+
+| t = 0
+
+e
+
+| t = 1/√(1 − v²/c²).
+
+Julgado a partir de _K_, o relógio se move com a velocidade _v_; julgando-se a partir desse corpo de referência, entre duas das suas batidas não passa um segundo, mas 1/√(1 − v²/c²) segundos, isto é, um tempo um pouco maior. Por causa do seu movimento, o relógio anda mais devagar que em estado de repouso. Também aqui a velocidade _c_ tem o papel de uma velocidade-limite inalcançável.
+
+## 13. O teorema da adição das velocidades. A experiência de Fizeau
+
+[I.13] Como na prática só podemos mover relógios e réguas com velocidades pequenas em comparação com a velocidade da luz _c_, dificilmente os resultados do parágrafo anterior poderão ser comparados diretamente com a realidade. Como, por outro lado, eles hão de parecer bem estranhos ao leitor, quero agora tirar da teoria outra consequência, que se deduz com facilidade do que foi exposto até aqui e que a experiência confirma de modo brilhante.
+
+No § 6 deduzimos o teorema da adição para velocidades de mesma direção, tal como resulta das hipóteses da mecânica clássica. Ele se deduz também com facilidade da transformação de Galileu (§ 11). Em lugar do homem que anda no vagão, introduzimos um ponto que se move em relação ao sistema de coordenadas _K′_ segundo a equação
+
+| x′ = wt′
+
+Da primeira e da quarta equação da transformação de Galileu podem-se exprimir _x′_ e _t′_ por _x_ e _t_, e obtém-se assim:
+
+| x = (v + w) t.
+
+Essa equação não exprime outra coisa senão a lei do movimento do ponto em relação ao sistema _K_ (do homem em relação ao leito da ferrovia), velocidade que designamos por _W_, de modo que se obtém, como no § 6:
+
+| W = v + w . . . (A)
+
+Mas podemos fazer essa mesma consideração tomando por base a teoria da relatividade. Então, na equação
+
+| x′ = wt′
+
+é preciso exprimir _x′_ e _t′_ por _x_ e _t_ usando a primeira e a quarta equação da _transformação de Lorentz_. Obtém-se então, em vez da equação (A), a equação:
+
+| W = (v + w) / (1 + vw/c²) . . . (B)
+
+que corresponde ao teorema da adição das velocidades de mesma direção segundo a teoria da relatividade. A questão agora é saber qual desses dois teoremas resiste à experiência. Sobre isso nos instrui um experimento importantíssimo, que o genial físico Fizeau realizou há mais de meio século, e que desde então foi repetido por alguns dos melhores físicos experimentais, de modo que o resultado está fora de dúvida. O experimento trata da seguinte questão. Num líquido em repouso, a luz se propaga com uma velocidade determinada _w_. Com que rapidez ela se propaga no tubo _R_ da figura
+
+{fig teoria-da-relatividade/fig-fizeau}
+
+na direção da seta, quando o líquido mencionado corre por ele com a velocidade _v_?
+
+No sentido do princípio da relatividade, teremos de supor, em todo caso, que _em relação ao líquido_ a propagação da luz se dá sempre com a mesma velocidade _w_, esteja o líquido em movimento em relação a outros corpos ou não. Conhece-se, portanto, a velocidade da luz em relação ao líquido e a velocidade deste em relação ao tubo, e procura-se a velocidade da luz em relação ao tubo.
+
+É claro que temos aqui de novo o problema do § 6. O tubo faz o papel do leito da ferrovia, ou do sistema de coordenadas _K_; o líquido, o do vagão, ou do sistema de coordenadas _K′_; a luz, por fim, o do homem que anda no vagão, ou do ponto em movimento deste parágrafo. Se, portanto, designarmos por _W_ a velocidade da luz em relação ao tubo, ela será dada pela equação (A) ou pela (B), conforme a transformação de Galileu ou a de Lorentz corresponda à realidade.
+
+O experimento[1] decide pela equação (B), deduzida da teoria da relatividade, e com muita exatidão. A influência da velocidade _v_ da corrente sobre a propagação da luz é representada pela fórmula (B), segundo as últimas e excelentes medições de Zeeman, com exatidão melhor que 1 por cento.
+
+É preciso, porém, ressaltar que muito antes da formulação da teoria da relatividade H. A. Lorentz deu uma teoria desse fenômeno por via puramente eletrodinâmica, servindo-se de certas hipóteses sobre a estrutura eletromagnética da matéria. Mas essa circunstância não diminui em nada a força probatória do experimento como _experimentum crucis_ a favor da teoria da relatividade. Pois a eletrodinâmica de Maxwell e Lorentz, em que se apoiava a teoria original, não está em nenhuma oposição à teoria da relatividade. Esta, ao contrário, nasceu da eletrodinâmica como uma síntese e generalização surpreendentemente simples das hipóteses, antes independentes umas das outras, sobre as quais a eletrodinâmica fora construída.
+
+¤ [1] Fizeau achou W = w + v(1 − 1/n²), onde n = c/w é o índice de refração do líquido. Por outro lado, por ser vw/c² pequeno em comparação com 1, pode-se pôr em lugar de (B), primeiro, W = (w + v)(1 − vw/c²), ou, com a mesma aproximação, w + v(1 − 1/n²), o que concorda com o resultado de Fizeau.
+
+## 14. O valor heurístico da teoria da relatividade
+
+[I.14] O raciocínio exposto até aqui pode ser resumido brevemente assim. A experiência levou à convicção de que, por um lado, vale o princípio da relatividade (no sentido restrito) e, por outro, a velocidade de propagação da luz no vácuo deve ser tomada igual a uma constante _c_. Da união desses dois postulados resultou a lei de transformação para as coordenadas retangulares _x_, _y_, _z_ e o tempo _t_ dos acontecimentos que compõem os fenômenos da natureza; e o que resultou não foi a transformação de Galileu, mas (diferentemente da mecânica clássica) a transformação de Lorentz.
+
+Nesse raciocínio teve um papel importante a lei de propagação da luz, cuja aceitação se justifica pelo nosso conhecimento efetivo. Mas, uma vez de posse da transformação de Lorentz, podemos uni-la ao princípio da relatividade e resumir a teoria na afirmação:
+
+Toda lei geral da natureza deve ser tal que se transforme numa lei de enunciado exatamente igual quando, em lugar das variáveis de espaço e tempo _x_, _y_, _z_, _t_ do sistema de coordenadas original _K_, se introduzem novas variáveis de espaço e tempo _x′_, _y′_, _z′_, _t′_ de um sistema de coordenadas _K′_, sendo a relação matemática entre as grandezas com e sem apóstrofo dada pela transformação de Lorentz. Em fórmula breve: as leis gerais da natureza são covariantes em relação às transformações de Lorentz.
+
+Essa é uma condição matemática determinada que a teoria da relatividade prescreve a uma lei da natureza; com isso, ela se torna um valioso recurso heurístico na busca das leis gerais da natureza. Se se descobrisse uma lei geral da natureza que não satisfizesse essa condição, estaria refutada pelo menos uma das duas suposições fundamentais da teoria. Vejamos agora que resultados gerais ela produziu até aqui.
+
+## 15. Resultados gerais da teoria
+
+[I.15] Do que foi exposto até aqui se vê que a teoria da relatividade (especial) nasceu da eletrodinâmica e da ótica. Nesses domínios ela não mudou muita coisa nas afirmações da teoria, mas simplificou consideravelmente o edifício teórico, isto é, a dedução das leis, e — o que é incomparavelmente mais importante — reduziu muito o número das hipóteses independentes umas das outras em que a teoria se apoia. Deu à teoria de Maxwell e Lorentz um grau tal de evidência que ela teria se imposto em geral entre os físicos mesmo que o experimento tivesse falado a seu favor de modo menos convincente.
+
+A mecânica clássica precisou primeiro de uma modificação para se pôr de acordo com a exigência da teoria da relatividade especial. Essa modificação, porém, diz respeito no essencial só às leis dos movimentos rápidos, em que as velocidades _v_ da matéria não são pequenas demais em comparação com a velocidade da luz. Movimentos tão rápidos a experiência só nos mostra em elétrons e íons; nos outros movimentos, os desvios em relação às leis da mecânica clássica são pequenos demais para se fazerem notar na prática. Do movimento dos astros só se poderá falar com a teoria da relatividade geral. Segundo a teoria da relatividade, a energia cinética de um ponto material de massa _m_ já não é dada pela expressão conhecida
+
+| m v²/2
+
+mas pela expressão:
+
+| mc² / √(1 − v²/c²).
+
+Essa expressão se torna infinita quando a velocidade _v_ se aproxima da velocidade da luz _c_. A velocidade, portanto, tem de ficar sempre menor que _c_, por maiores que sejam as energias que se empreguem para acelerar o corpo. Desenvolvendo em série a expressão da energia cinética, obtém-se:
+
+| mc² + m v²/2 + (3/8) m v⁴/c² + …
+
+O terceiro desses termos é sempre pequeno em comparação com o segundo, o único que se leva em conta na mecânica clássica, quando v²/c² é pequeno em comparação com 1. O primeiro termo, _mc²_, não contém a velocidade, e por isso não entra em consideração quando se trata só de saber como a energia de um ponto material depende da velocidade. Do seu significado de princípio se falará mais adiante.
+
+O resultado de caráter geral mais importante a que a teoria da relatividade especial levou diz respeito ao conceito de massa. A física anterior à relatividade conhece duas leis de conservação de importância fundamental, a lei da conservação da energia e a lei da conservação da massa; essas duas leis fundamentais aparecem como inteiramente independentes uma da outra. Pela teoria da relatividade, elas se fundem numa lei só. Vamos expor brevemente como se chegou a isso e como se deve entender essa fusão.
+
+O princípio da relatividade exige que a lei da conservação da energia valha não só em relação a um sistema de coordenadas _K_, mas em relação a todo sistema de coordenadas _K′_ que esteja em movimento de translação uniforme em relação a _K_ (em poucas palavras, em relação a todo sistema de coordenadas “galileano”). Para a passagem entre dois sistemas desses, o que vale, ao contrário da mecânica clássica, é a transformação de Lorentz.
+
+Dessas premissas, junto com as equações fundamentais da eletrodinâmica de Maxwell, pode-se tirar com necessidade imperiosa, por considerações relativamente simples, a seguinte conclusão: um corpo que voa com a velocidade _v_ e que absorve sob a forma de radiação a energia _E₀_[1], sem mudar com isso a sua velocidade, sofre um aumento da sua energia no valor de:
+
+| E₀ / √(1 − v²/c²).
+
+Levando em conta a expressão da energia cinética dada acima, a energia procurada do corpo é então dada por:
+
+| (m + E₀/c²) c² / √(1 − v²/c²).
+
+O corpo tem, portanto, a mesma energia que um corpo de massa _m + E₀/c²_ que se movesse com a velocidade _v_. Pode-se então dizer: se um corpo absorve a energia _E₀_, a sua massa inercial cresce _E₀/c²_; a massa inercial de um corpo não é uma constante, mas varia conforme a variação da sua energia. A massa inercial de um sistema de corpos pode mesmo ser considerada a medida da sua energia. A lei da conservação da massa de um sistema coincide com a lei da conservação da energia e só vale na medida em que o sistema não absorve nem cede energia. Se se escreve a expressão da energia na forma
+
+| (mc² + E₀) / √(1 − v²/c²)
+
+vê-se que o termo _mc²_, que já nos chamou a atenção há pouco, não é outra coisa senão a energia que o corpo já possuía[2] antes de absorver a energia _E₀_.
+
+A comparação direta dessa lei com a experiência por enquanto esbarra no fato de que as variações de energia _E₀_ que podemos comunicar a um sistema não são grandes o bastante para se fazerem notar como variação da massa inercial do sistema. _E₀/c²_ é pequeno demais em comparação com a massa _m_ que havia antes da variação de energia. É graças a essa circunstância que se pôde estabelecer com sucesso uma lei da conservação da massa de validade independente.
+
+Uma última observação, de natureza fundamental. O sucesso da interpretação de Faraday e Maxwell para a ação eletromagnética a distância, por meio de processos intermediários com velocidade de propagação finita, fez que entre os físicos se firmasse a convicção de que não existem ações a distância imediatas e instantâneas do tipo da lei da gravitação de Newton. Segundo a teoria da relatividade, em lugar da ação instantânea a distância, ou da ação a distância com velocidade de propagação infinita, aparece sempre a ação a distância com a velocidade da luz. Isso está ligado ao papel fundamental que a velocidade _c_ tem nessa teoria. Na segunda parte se verá de que maneira esse resultado é modificado na teoria da relatividade geral.
+
+¤ [1] _E₀_ é a energia absorvida, julgada a partir de um sistema de coordenadas que se move com o corpo.
+
+¤ [2] Julgado a partir de um sistema de coordenadas que se move com o corpo.
+
+## 16. A teoria da relatividade especial e a experiência
+
+[I.16] Não é simples responder à pergunta sobre até que ponto a teoria da relatividade especial é apoiada pela experiência, por uma razão já mencionada a propósito do experimento fundamental de Fizeau. A teoria da relatividade especial cristalizou-se a partir da teoria de Maxwell e Lorentz dos fenômenos eletromagnéticos. Por isso, todos os fatos da experiência que apoiam essa teoria eletromagnética apoiam também a teoria da relatividade. Menciono aqui, como especialmente importante, que a teoria da relatividade permite deduzir de maneira extremamente simples, de acordo com a experiência, os efeitos que a luz enviada até nós pelas estrelas fixas sofre por causa do movimento relativo da Terra em relação a essas estrelas. Trata-se do deslocamento anual da posição aparente das estrelas fixas em consequência do movimento da Terra em torno do Sol (aberração) e da influência da componente radial dos movimentos relativos das estrelas fixas em relação à Terra sobre a cor da luz que chega até nós; esta última influência se manifesta num pequeno deslocamento das linhas espectrais da luz que nos chega de uma estrela fixa, em comparação com a posição no espectro da mesma linha espectral produzida com uma fonte de luz terrestre (princípio de Doppler). Os argumentos experimentais a favor da teoria de Maxwell e Lorentz, que são todos ao mesmo tempo argumentos a favor da teoria da relatividade, são numerosos demais para serem expostos aqui. Eles de fato restringem as possibilidades teóricas a tal ponto que nenhuma outra teoria além da de Maxwell e Lorentz conseguiu se sustentar diante da experiência.
+
+Há, porém, duas classes de fatos experimentais averiguados até hoje que a teoria de Maxwell e Lorentz só consegue representar recorrendo a uma hipótese auxiliar, que em si mesma, isto é, sem o uso da teoria da relatividade, parece estranha.
+
+É sabido que os raios catódicos e os chamados raios β, emitidos pelas substâncias radioativas, consistem em corpúsculos de eletricidade negativa (elétrons) de inércia muito pequena e grande velocidade. Investigando o desvio dessas radiações sob a influência de campos elétricos e magnéticos, pode-se estudar com muita precisão a lei do movimento desses corpúsculos.
+
+No tratamento teórico desses elétrons, é preciso lutar com a dificuldade de que a eletrodinâmica, sozinha, não é capaz de dar conta da natureza deles. Pois, como massas elétricas do mesmo sinal se repelem, as massas elétricas negativas que constituem o elétron deveriam ser dispersadas pela influência da sua ação mútua, se não atuassem entre elas ainda forças de outra espécie, cuja natureza até hoje nos é obscura[1]. Se agora se supõe que as distâncias relativas entre as massas elétricas que constituem o elétron permanecem inalteradas durante os movimentos do elétron (ligação rígida no sentido da mecânica clássica), chega-se a uma lei do movimento do elétron que não concorda com a experiência. H. A. Lorentz foi o primeiro a introduzir, guiado por pontos de vista puramente formais, a hipótese de que o corpo do elétron sofre com o movimento uma contração na direção do movimento, proporcional à expressão √(1 − v²/c²). Essa hipótese, que nada justifica do ponto de vista eletrodinâmico, dá então precisamente a lei do movimento que a experiência confirmou com grande precisão nos últimos anos.
+
+A teoria da relatividade dá a mesma lei do movimento, sem precisar de nenhuma hipótese especial sobre a estrutura e o comportamento do elétron. O mesmo se dá, como vimos no § 13, com o experimento de Fizeau, cujo resultado a teoria da relatividade forneceu sem que fosse preciso fazer hipóteses sobre a natureza física do líquido.
+
+A segunda classe de fatos a que se aludiu diz respeito à questão de saber se, em experimentos feitos na Terra, se faz notar o movimento dela no espaço do universo. Já se observou no § 5 que todos os esforços desse tipo deram resultado negativo. Antes da formulação da teoria da relatividade, a ciência tinha dificuldade em se haver com esse resultado negativo; a situação, com efeito, era a seguinte. Os preconceitos herdados sobre o tempo e o espaço não deixavam surgir dúvida de que, para a passagem de um corpo de referência a outro, o que vale é a transformação de Galileu. Supondo-se agora que as equações de Maxwell e Lorentz valham para um corpo de referência _K_, acha-se que elas não valem para um corpo de referência _K′_ que se mova com velocidade uniforme em relação a _K_, se se supõe que entre as coordenadas de _K_ e de _K′_ vigoram as relações da transformação de Galileu. Parece assim que, de todos os sistemas de coordenadas galileanos, um (_K_), de estado de movimento determinado, seria fisicamente privilegiado. Interpretava-se fisicamente esse resultado considerando _K_ em repouso em relação a um hipotético éter luminoso. Todos os sistemas de coordenadas _K′_ em movimento em relação a _K_, ao contrário, estariam em movimento em relação ao éter. A esse movimento de _K′_ em relação ao éter (“vento de éter” em relação a _K′_) se atribuíam as leis mais complicadas que deveriam valer em relação a _K′_. Coerentemente, era preciso supor um vento de éter desses também em relação à Terra, e o empenho dos físicos esteve por muito tempo voltado a demonstrá-lo.
+
+Michelson tinha achado para isso um caminho que parecia não poder falhar. Imaginem-se, fixados num corpo rígido, dois espelhos com as faces refletoras voltadas uma para a outra. Um raio de luz precisa de um tempo bem determinado _T_ para ir de um espelho ao outro e voltar, se todo esse sistema está em repouso em relação ao éter luminoso. Mas para esse processo se acha um tempo _T′_ um pouco diferente, se o corpo, com os espelhos, está em movimento em relação ao éter. E mais ainda! O cálculo mostra que esse tempo _T′_, para uma velocidade dada _v_ em relação ao éter, é um quando o corpo se move perpendicularmente aos planos dos espelhos e outro quando se move paralelamente a eles. Por mais ínfima que resultasse a diferença assim calculada entre essas duas durações, Michelson e Morley realizaram um experimento de interferência em que a diferença deveria ter aparecido com clareza. Mas o experimento deu resultado negativo, para grande embaraço dos físicos. Lorentz e FitzGerald tiraram a teoria desse embaraço supondo que o movimento do corpo em relação ao éter produz uma contração na direção do movimento, que deveria fazer desaparecer justamente a diferença de tempo mencionada. Uma comparação com o que se expôs no § 12 mostra que essa saída era a correta também do ponto de vista da teoria da relatividade. Mas, segundo a teoria da relatividade, a compreensão da situação é incomparavelmente mais satisfatória. Segundo ela, não há sistema de coordenadas privilegiado que dê ocasião a introduzir a ideia do éter, e, portanto, também não há vento de éter, nem experimento que o ponha em evidência. A contração dos corpos em movimento decorre aqui, sem hipóteses especiais, dos dois princípios fundamentais da teoria; e o que se mostra decisivo para essa contração não é o movimento em si, a que não sabemos dar sentido, mas o movimento em relação ao corpo de referência escolhido em cada caso. Assim, para um sistema de referência que se move com a Terra, o corpo dos espelhos de Michelson e Morley não está encurtado, mas está para um sistema de referência em repouso em relação ao Sol.
+
+¤ [1] A teoria da relatividade geral sugere a ideia de que as massas elétricas de um elétron são mantidas juntas por forças gravitacionais.
+
+## 17. O espaço quadridimensional de Minkowski
+
+[I.17] Um arrepio místico toma conta do não matemático quando ouve falar de “quadridimensional”, um sentimento não muito diferente do que provoca um fantasma no teatro. E, no entanto, não há afirmação mais banal que a de que o nosso mundo habitual é um contínuo espaço-temporal de quatro dimensões.
+
+O _espaço_ é um contínuo de três dimensões. Isso quer dizer que é possível descrever a posição de um ponto (em repouso) por três números (coordenadas) _x_, _y_, _z_, e que para cada ponto há pontos “vizinhos” tão próximos quanto se queira, cuja posição pode ser descrita por valores de coordenadas (coordenadas) _x₁_, _y₁_, _z₁_ tão próximos quanto se queira das coordenadas _x_, _y_, _z_ do primeiro. Por esta última propriedade falamos de “contínuo”; pelo número três das coordenadas, de “tridimensional”.
+
+Do mesmo modo, o mundo dos acontecimentos físicos, que Minkowski chamou simplesmente “mundo”, é naturalmente quadridimensional no sentido espaço-temporal. Pois se compõe de acontecimentos individuais, cada um dos quais é descrito por quatro números, a saber, três coordenadas espaciais _x_, _y_, _z_ e uma coordenada temporal, o valor de tempo _t_. O “mundo” também é um contínuo nesse sentido; pois para cada acontecimento há acontecimentos “vizinhos” tão próximos quanto se queira (realizados, ou pelo menos concebíveis), cujas coordenadas _x₁_, _y₁_, _z₁_, _t₁_ diferem tão pouco quanto se queira das do acontecimento considerado de início, _x_, _y_, _z_, _t_. Se não estamos acostumados a conceber o mundo nesse sentido como um contínuo quadridimensional, é porque na física anterior à relatividade o tempo tem, em face das coordenadas espaciais, um papel diferente, mais independente. Por isso nos acostumamos a tratar o tempo como um contínuo independente. De fato, segundo a física clássica o tempo é absoluto, isto é, independente da posição e do _estado de movimento_ do sistema de referência. Isso se exprime na última equação da transformação de Galileu (_t′ = t_).
+
+Pela teoria da relatividade, impõe-se a consideração quadridimensional do “mundo”, porque segundo essa teoria o tempo é privado da sua independência, como ensina a quarta das equações da transformação de Lorentz:
+
+| t′ = (t − (v/c²) x) / √(1 − v²/c²)
+
+Pois, segundo essa equação, a diferença de tempo _Δt′_ entre dois acontecimentos em relação a _K′_ em geral não se anula mesmo quando se anula a diferença de tempo _Δt_ entre eles em relação a _K_. Uma distância puramente espacial entre dois acontecimentos em relação a _K_ acarreta uma distância temporal entre eles em relação a _K′_. Mas não é nisso que está a descoberta de Minkowski, importante para o desenvolvimento formal da teoria da relatividade. Ela está, antes, no reconhecimento de que o contínuo espaço-temporal quadridimensional da teoria da relatividade, nas suas propriedades formais decisivas, mostra o mais estreito parentesco com o contínuo tridimensional do espaço geométrico euclidiano[1]. Para fazer aparecer esse parentesco por inteiro, é preciso, é verdade, introduzir em lugar da coordenada de tempo usual _t_ a grandeza imaginária √−1 _ct_, que lhe é proporcional. Então, porém, as leis da natureza que satisfazem as exigências da teoria da relatividade (especial) tomam formas matemáticas em que a coordenada de tempo tem exatamente o mesmo papel que as três coordenadas espaciais. Essas quatro coordenadas correspondem formalmente com exatidão às três coordenadas espaciais da geometria euclidiana. Até o não matemático há de perceber que, com esse reconhecimento puramente formal, a teoria tinha de ganhar extraordinariamente em clareza de conjunto.
+
+Estas indicações pobres dão ao leitor apenas uma ideia vaga do importante pensamento de Minkowski, sem o qual a teoria da relatividade geral, cujas ideias fundamentais vamos desenvolver a seguir, talvez não tivesse saído dos cueiros. Mas, como uma compreensão mais exata desse assunto, sem dúvida de difícil acesso para o leitor sem prática de matemática, não é necessária para entender as ideias fundamentais nem da teoria da relatividade especial nem da geral, quero deixá-lo aqui, para só voltar a ele nas últimas exposições deste livrinho.
+
+¤ [1] Ver a exposição um pouco mais detalhada no Apêndice.
+

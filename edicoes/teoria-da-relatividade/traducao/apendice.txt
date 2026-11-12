@@ -1,0 +1,144 @@
+# titulo: Apêndice
+
+## Dedução simples da transformação de Lorentz (complemento ao § 11)
+
+Na orientação relativa dos sistemas de coordenadas indicada na Fig. 2, os eixos _X_ dos dois sistemas coincidem permanentemente. Podemos aqui dividir o problema, considerando primeiro só acontecimentos localizados no eixo _X_. Um acontecimento desses é dado, em relação ao sistema de coordenadas _K_, pela abscissa _x_ e pelo tempo _t_; em relação a _K′_, pela abscissa _x′_ e pelo tempo _t′_. Procuram-se _x′_ e _t′_ quando são dados _x_ e _t_.
+
+Um sinal luminoso que avança ao longo do eixo _X_ positivo se propaga segundo a equação
+
+| x = ct
+
+ou
+
+| x − ct = 0 . . . (1)
+
+Como o mesmo sinal luminoso deve propagar-se também em relação a _K′_ com a velocidade _c_, a propagação em relação a _K′_ é descrita pela fórmula análoga
+
+| x′ − ct′ = 0 . . . (2)
+
+Os pontos do espaço-tempo (acontecimentos) que satisfazem (1) têm de satisfazer também (2). Isso evidentemente acontecerá se valer em geral a relação
+
+| (x′ − ct′) = λ(x − ct) . . . (3)
+
+onde _λ_ significa uma constante; pois, segundo (3), anular-se _x_ − _ct_ acarreta anular-se _x′_ − _ct′_.
+
+Uma consideração inteiramente análoga, aplicada aos raios de luz que se propagam ao longo do eixo _X_ negativo, dá a condição:
+
+| x′ + ct′ = μ(x + ct) . . . (4)
+
+Somando e subtraindo as equações (3) e (4), introduzindo por comodidade, em lugar das constantes _λ_ e _μ_, as constantes
+
+| a = (λ + μ)/2
+| b = (λ − μ)/2
+
+obtém-se
+
+| x′ = ax − bct
+| ct′ = act − bx . . . (5)
+
+Com isso o nosso problema estaria resolvido, se as constantes _a_ e _b_ fossem conhecidas; elas resultam das reflexões seguintes.
+
+Para a origem de _K′_ tem-se sempre _x′_ = 0, e portanto, pela primeira das equações (5):
+
+| x = (bc/a) t.
+
+Se chamarmos _v_ a velocidade com que a origem de _K′_ se move em relação a _K_, tem-se, portanto,
+
+| v = bc/a . . . (6)
+
+O mesmo valor _v_ se obtém de (5) calculando-se a velocidade de outro ponto qualquer de _K′_ em relação a _K_, ou a velocidade (dirigida para o eixo _X_ negativo) de um ponto de _K_ em relação a _K′_. Pode-se, portanto, chamar _v_, em poucas palavras, a velocidade relativa dos dois sistemas.
+
+Além disso, pelo princípio da relatividade, é claro que o comprimento de uma régua unitária em repouso em relação a _K′_, julgado a partir de _K_, tem de ser exatamente o mesmo que o comprimento de uma régua unitária em repouso em relação a _K_, julgado a partir de _K′_. Para ver como são, vistos de _K_, os pontos do eixo _X′_, basta tirar de _K_ um “instantâneo” de _K′_; isso significa que temos de pôr para _t_ (o tempo de _K_) um valor determinado, por exemplo _t_ = 0. Para esse valor, obtém-se da primeira das equações (5):
+
+| x′ = ax.
+
+Dois pontos do eixo _X′_ que, medidos em _K′_, têm a distância _x′_ = 1 têm, portanto, no nosso instantâneo, a distância:
+
+| Δx = 1/a . . . (7)
+
+Mas, se se tira o instantâneo a partir de _K′_ (_t′_ = 0), obtém-se de (5), eliminando _t_ e levando em conta (6):
+
+| x′ = a(1 − v²/c²) x.
+
+Daqui se conclui que dois pontos do eixo _X_ à distância 1 (em relação a _K_) ficam, no nosso instantâneo, à distância
+
+| Δx′ = a(1 − v²/c²) . . . (7a)
+
+um do outro.
+
+Como, pelo que se disse, os dois instantâneos têm de ser iguais, Δx em (7) tem de ser igual a Δx′ em (7a), de modo que se obtém:
+
+| a² = 1 / (1 − v²/c²) . . . (7b)
+
+As equações (6) e (7b) determinam as constantes _a_ e _b_. Substituindo-as em (5), obtém-se a primeira e a quarta das equações dadas no § 11.
+
+| x′ = (x − vt) / √(1 − v²/c²)
+| t′ = (t − (v/c²) x) / √(1 − v²/c²) . . . (8)
+
+Com isso se obtém a transformação de Lorentz para acontecimentos no eixo _X_. Ela satisfaz a condição
+
+| x′² − c²t′² = x² − c²t² . . . (8a)
+
+A extensão desse resultado a acontecimentos que se dão fora do eixo _X_ se obtém mantendo as equações (8) e acrescentando as relações
+
+| y′ = y
+| z′ = z . . . (9)
+
+Que assim se satisfaz o postulado da constância da velocidade da luz no vácuo para raios de luz de direção qualquer, tanto para o sistema _K_ como para o sistema _K′_, percebe-se da seguinte maneira.
+
+No tempo _t_ = 0, envie-se da origem de _K_ um sinal luminoso. A sua propagação se dá segundo a equação:
+
+| r = √(x² + y² + z²) = ct,
+
+ou, como se acha elevando ao quadrado essa equação, segundo a equação
+
+| x² + y² + z² − c²t² = 0 . . . (10)
+
+A lei da propagação da luz, junto com o postulado da relatividade, exige que a propagação do mesmo sinal, julgada a partir de _K′_, se dê segundo a fórmula correspondente
+
+| r′ = ct′
+
+ou
+
+| x′² + y′² + z′² − c²t′² = 0 . . . (10a)
+
+Para que a equação (10a) seja consequência da equação (10), é preciso que se tenha:
+
+| x′² + y′² + z′² − c²t′² = σ(x² + y² + z² − c²t²) . . . (11)
+
+Como para os pontos do eixo _X_ tem de valer a equação (8a), deve ser _σ_ = 1. Que a transformação de Lorentz satisfaz de fato a equação (11) com _σ_ = 1, vê-se com facilidade; (11), com efeito, é consequência de (8a) e de (9), e portanto também de (8) e de (9). Com isso está deduzida a transformação de Lorentz.
+
+A transformação de Lorentz representada por (8) e (9) precisa ainda de generalização. É evidentemente sem importância que os eixos de _K′_ sejam escolhidos paralelos no espaço aos de _K_. Também é sem importância que a velocidade de translação de _K′_ em relação a _K_ tenha a direção do eixo _X_. A transformação de Lorentz nesse sentido geral pode ser composta — como mostra uma reflexão simples — de dois tipos de transformações, a saber, de transformações de Lorentz no sentido especial e de transformações puramente espaciais, que correspondem à substituição do sistema de coordenadas retangulares por um novo, de eixos com outra direção.
+
+Matematicamente, a transformação de Lorentz generalizada pode ser caracterizada assim:
+
+ela exprime _x′_, _y′_, _z′_, _t′_ por funções lineares homogêneas de _x_, _y_, _z_, _t_ tais que a relação
+
+| x′² + y′² + z′² − c²t′² = x² + y² + z² − c²t² . . . (11a)
+
+se satisfaça identicamente. Isso quer dizer: se se substituem à esquerda _x′_ etc. pelas suas expressões em _x_, _y_, _z_, _t_, o lado esquerdo de (11a) coincide com o direito.
+
+## O mundo quadridimensional de Minkowski (complemento ao § 17)
+
+A transformação de Lorentz generalizada pode ser caracterizada de modo ainda mais simples se, em lugar de _t_, se introduz como variável de tempo a grandeza imaginária √−1 · _ct_. Se se põe, de acordo com isso,
+
+| x₁ = x
+| x₂ = y
+| x₃ = z
+| x₄ = √−1 · ct
+
+e do mesmo modo para o sistema com apóstrofo _K′_, a condição que a transformação satisfaz identicamente se escreve:
+
+| x₁′² + x₂′² + x₃′² + x₄′² = x₁² + x₂² + x₃² + x₄² . . . (12)
+
+Com efeito, (11a) se transforma nessa equação com a escolha das “coordenadas” indicada.
+
+Vê-se de (12) que a coordenada de tempo imaginária _x₄_ entra na condição de transformação exatamente do mesmo modo que as coordenadas espaciais _x₁_, _x₂_, _x₃_. É nisso que se funda o fato de que, segundo a teoria da relatividade, o “tempo” _x₄_ entra nas leis da natureza da mesma forma que as coordenadas espaciais _x₁_, _x₂_, _x₃_.
+
+Ao contínuo de quatro dimensões descrito pelas “coordenadas” _x₁_, _x₂_, _x₃_, _x₄_ Minkowski chamou “mundo”, e ao acontecimento pontual, “ponto do mundo”. A física passa de certo modo de um _acontecer_ no espaço tridimensional a um _ser_ no “mundo” quadridimensional.
+
+Esse “mundo” quadridimensional tem profunda semelhança com o “espaço” tridimensional da geometria analítica (euclidiana). Se, com efeito, se introduz nesta um novo sistema de coordenadas cartesiano (_x₁′_, _x₂′_, _x₃′_) com a mesma origem, _x₁′_, _x₂′_, _x₃′_ são funções lineares homogêneas de _x₁_, _x₂_, _x₃_ que satisfazem identicamente a equação
+
+| x₁′² + x₂′² + x₃′² = x₁² + x₂² + x₃²
+
+A analogia com (12) é completa. Pode-se considerar formalmente o mundo de Minkowski como um espaço euclidiano de quatro dimensões (com coordenada de tempo imaginária); a transformação de Lorentz corresponde a uma “rotação” do sistema de coordenadas no “mundo” quadridimensional.

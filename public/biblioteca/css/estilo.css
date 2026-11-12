@@ -642,3 +642,9 @@ ol.vb-def { padding-left: 1.3rem; }
 .paralelo.teatro .v.r40 { text-indent: calc(40 * .42em - 1.6em); }
 .paralelo.teatro .v.r44 { text-indent: calc(44 * .42em - 1.6em); }
 .paralelo.teatro .v.r48 { text-indent: calc(48 * .42em - 1.6em); }
+
+/* figuras dos livros ({fig …} no texto; SVG em traço preto, invertido no tema escuro) */
+.figura { margin: 1.2em 0; text-align: center; }
+.figura img { max-width: 100%; height: auto; }
+@media (prefers-color-scheme: dark) { :root:not([data-tema="claro"]) .figura img { filter: invert(.88); } }
+:root[data-tema="escuro"] .figura img { filter: invert(.88); }

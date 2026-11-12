@@ -150,3 +150,24 @@ Candidatas a decisão: nenhuma nova.
 - «On dirait» → «Seria de dizer» (sem mesóclise).
 
 Candidatas a decisão: nenhuma nova.
+
+## 13 · Que espécie de despotismo as nações democráticas têm a temer (II, IV, 6)
+
+- Termos: *pouvoir immense et tutélaire* → «poder imenso e tutelar»; *tuteurs / tutelle* → «tutores
+  / tutela»; *détaillé* (do poder) → «minucioso»; *libre arbitre* → «livre-arbítrio»; *despotisme
+  administratif / démocratique* → «despotismo administrativo / democrático»; *régenter* → «governar»;
+  *hébète* → «embrutece»; *industrieux* → «industriosos»; *peuple de serviteurs* → «povo de servos»;
+  *ultra-monarchique* → «ultramonárquica»; *municipalités* (romanas) → «municípios».
+- «que ne peut-il leur ôter entièrement le trouble de penser et la peine de vivre?» → «por que não
+  pode tirar-lhes inteiramente o incômodo de pensar e o trabalho de viver?» (o *que* francês aqui é
+  «por que não», o desejo irônico; «trouble» → «incômodo», «peine» → «trabalho»).
+- «il aime que les citoyens se réjouissent, pourvu qu'ils ne songent qu'à se réjouir» → «gosta de
+  que os cidadãos se divirtam, contanto que só pensem em divertir-se» («alegrar-se» soaria devoto).
+- «De toutes les différentes formes … celle-ci serait assurément la pire»: *celle-ci* é a que põe
+  tudo nas mãos de um homem ou de um corpo irresponsável; «esta última», para não confundir com a
+  constituição eletiva do período anterior.
+- «En vain chargerez-vous…» → «Em vão você encarregará…» (o *vous* do leitor).
+
+Candidatas a decisão:
+- «se réjouir» → «divertir-se» (feito) ou «alegrar-se», mais literal. Recomendo «divertir-se»: é o
+  sentido (gozar a vida), e a frase é das mais citadas.

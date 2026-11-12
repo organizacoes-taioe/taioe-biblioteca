@@ -45,4 +45,5 @@
 525/37: impresso 'focies' (por facies); 525/31: 'nomem' como impresso.
 525/38-42: palavras partidas mantidas partidas onde a linha seguinte do texto atual já começa no resto (perseguin-/do-o; occide-/runt); 525/40 'fazendo' inteira. 525/42 'corum' (por eorum) como impresso. 525/47, 526/0, 526/1: recortes sem texto (manchas/margem), apagados.
 526/2: título apagado. 526/3: 'proxi-/mos' escrito 'proximos,' inteiro (526/4 começa em 'e por fartar').
-528/1: sem recuo (¶ tirado); 528/2-3 (fora da minha parte) trazem ¶ no rascunho mas parecem continuação, a verificar por quem conferir 528/2-3. 527/38: 'possa-se fazer' como impresso.
+528/1-2: 'cida-/de do céu': 528/1 termina em 'cida-' e 528/2 começa em 'de do céu' (o rascunho trazia 'do céu'). 528/2,3,11,16,18-20,23,24: ¶ tirados (sem recuo no recorte).
+528/28: 'pa-' no fim (528/29 começa em 'deceu'). 528/33-34: 'pobre,' inteira em 528/33, ¶ tirado (sem recuo); 528/34: número de página (535) colado a 'degrada'; escrevi 'degrada-' (a linha seguinte começa depois).

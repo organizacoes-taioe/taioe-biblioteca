@@ -43,3 +43,6 @@
 524/13: a linha seguinte (524/14) começa em 'e todas'; 'se;' do fim de exgotar-/se incluído em 524/13. ¶ tirados em 524/13 e 524/15–21 (sem recuo nos recortes).
 525/8: cabeço 'JOSEPH DE ANCHIETA' apagado (-). 525/12: o texto atual trazia 'E a' no fim (lixo do OCR); impresso termina 'na roda'. 524/22-24, 30: ¶ tirados (sem recuo); 524/31: ¶ posto (recuada).
 525/37: impresso 'focies' (por facies); 525/31: 'nomem' como impresso.
+525/38-42: palavras partidas mantidas partidas onde a linha seguinte do texto atual já começa no resto (perseguin-/do-o; occide-/runt); 525/40 'fazendo' inteira. 525/42 'corum' (por eorum) como impresso. 525/47, 526/0, 526/1: recortes sem texto (manchas/margem), apagados.
+526/2: título apagado. 526/3: 'proxi-/mos' escrito 'proximos,' inteiro (526/4 começa em 'e por fartar').
+528/1: sem recuo (¶ tirado); 528/2-3 (fora da minha parte) trazem ¶ no rascunho mas parecem continuação, a verificar por quem conferir 528/2-3. 527/38: 'possa-se fazer' como impresso.

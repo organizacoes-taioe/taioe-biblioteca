@@ -43,3 +43,7 @@
   alternativas: «Do que sofri, e sofri amargamente, aprendi»; «Sofrendo, aprendi, e a lição foi amarga».
 - 207.2, κύκλος τῶν ἀνθρωπηίων ἐστὶ πρηγμάτων → «há uma roda das coisas humanas, e ela, ao girar…» (περιφερόμενος
   pede a imagem da roda). Alternativa: «as coisas humanas andam em ciclo».
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos o Araxes e o Cáspio, o conselho de Creso, os sonhos de Ciro, Tômiris e Espargapises, os 29 anos de reinado, os costumes dos masságetas). Dúvida menor, não corrigida: 207.6 «grandes vasos de vinho puro» para κρητῆρας (o «grande» vem da natureza da cratera, não de uma palavra do grego); aceitável.

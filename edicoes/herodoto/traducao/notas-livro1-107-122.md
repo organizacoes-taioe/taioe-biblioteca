@@ -49,3 +49,7 @@
   Adotei «Cino», sem acréscimo.
 - 119.4–7, o banquete de Hárpago: tom seco, como o grego; «tudo o que o rei faz é do seu agrado» (ἀρεστὸν εἶναι πᾶν τὸ
   ἂν βασιλεὺς ἔρδῃ), frase conhecida. Alternativa: «tudo o que o rei fizer lhe agrada».
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos nomes, números, quem fala a quem, a cena do banquete, os termos fixos). Dúvidas: nenhuma.

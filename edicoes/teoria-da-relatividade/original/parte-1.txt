@@ -121,7 +121,7 @@ Diese Festsetzung enthält noch eine physikalische Hypothese, an deren Zutreffen
 
 Sind zwei Ereignisse (z. B. die beiden Blitzschläge _A_ und _B_), welche _in bezug auf den Bahndamm_ gleichzeitig sind, auch _in bezug auf den Zug_ gleichzeitig? Wir werden sogleich zeigen, daß die Antwort verneinend lauten muß.
 
-{FIG: [Illustration: Fig. 1.]}
+{fig 1}
 
 Wenn wir sagen, daß die Blitzschläge _A_ und _B_ in bezug auf den Bahndamm gleichzeitig sind, so bedeutet dies: die von den Blitzorten _A_ und _B_ ausgehenden Lichtstrahlen begegnen sich in dem Mittelpunkte _M_ der Fahrdammstrecke _A_–_B_. Den Ereignissen _A_ und _B_ entsprechen aber auch Stellen _A_ und _B_ auf dem Zuge. Es sei _M′_ der Mittelpunkt der Strecke _A_—_B_ des fahrenden Zuges. Dieser Punkt _M′_ fällt zwar im Augenblick der Blitzschläge[1] mit dem Punkte _M_ zusammen, bewegt sich aber in der Zeichnung mit der Geschwindigkeit _v_ des Zuges nach rechts. Würde ein bei _M′_ im Zuge sitzender Beobachter diese Geschwindigkeit nicht besitzen, so würde er dauernd in _M_ bleiben, und es würden ihn dann die von den Blitzschlägen _A_ und _B_ ausgehenden Lichtstrahlen gleichzeitig erreichen, d. h., diese beiden Strahlen würden sich gerade bei ihm begegnen. In Wahrheit aber eilt er (vom Bahndamm aus beurteilt) dem von _B_ herkommenden Lichtstrahl entgegen, während er dem von _A_ herkommenden Lichtstrahl vorauseilt. Der Beobachter wird also den von _B_ ausgehenden Lichtstrahl früher sehen, als den von _A_ ausgehenden. Die Beobachter, welche den Eisenbahnzug als Bezugskörper benutzen, müssen also zu dem Ergebnis kommen, der Blitzschlag _B_ habe früher stattgefunden als der Blitzschlag _A_. Wir kommen also zu dem wichtigen Ergebnis:
 
@@ -157,7 +157,7 @@ Läßt man nun diese Hypothesen fallen, so verschwindet das Dilemma des § 7, we
 
 Bevor wir hierauf eingehen, sei folgende Zwischenüberlegung eingeschaltet. Wir haben bis jetzt stets nur Ereignisse betrachtet, die sich längs des Bahndammes abspielten, der mathematisch die Funktion einer geraden Linie zu übernehmen hatte. Man kann sich aber in der in § 2 angegebenen Weise diesen Bezugskörper seitlich und nach oben durch ein Stabgerüst derart fortgesetzt denken, daß ein irgendwo stattfindendes Ereignis relativ zu diesem Stabgerüst lokalisiert werden kann. Analog kann man sich den mit der Geschwindigkeit _v_ fahrenden Zug durch den ganzen Raum fortgesetzt denken, so daß jedes noch so ferne Ereignis auch in bezug auf das zweite Gerüst lokalisiert werden könnte. Davon, daß diese Gerüste einander in Wahrheit wegen der Undurchdringlichkeit der festen Körper immer wieder zerstören müßten, können wir absehen, ohne in prinzipielle Fehler zu geraten. In jedem solchen Gerüst denken wir uns drei aufeinander senkrechte Wände ausgezeichnet und als „Koordinatenebenen“ bezeichnet („Koordinatensystem“). Dem Bahndamm entspricht dann ein Koordinatensystem _K_, dem Zug ein Koordinatensystem _K′_. Ein irgendwo stattfindendes Ereignis wird bezüglich _K_ räumlich fixiert durch die drei Lote _x_, _y_, _z_ auf die Koordinatenebenen und zeitlich fixiert durch einen Zeitwert _t_. _Dasselbe Ereignis_ wird bezüglich _K′_ raum-zeitlich fixiert durch entsprechende Werte _x′_, _y′_, _z′_, _t′_, welche mit _x_, _y_, _z_, _t_ natürlich nicht übereinstimmen. Wie diese Größen als Ergebnisse physikalischer Messungen aufzufassen sind, wurde früher ausführlich dargelegt.
 
-{FIG: [Illustration: Fig. 2.]}
+{fig 2}
 
 Unser Problem lautet in exakter Formulierung offenbar folgendermaßen. Wie groß sind die Werte _x′_, _y′_, _z′_, _t′_ eines Ereignisses in bezug auf _K′_, wenn die Größen _x_, _y_, _z_, _t_ desselben Ereignisses in bezug auf _K_ gegeben sind? Die Beziehungen müssen so gewählt werden, daß dem Gesetz der Vakuumfortpflanzung des Lichtes für einen und denselben Lichtstrahl (und zwar für jeden) in bezug auf _K_ _und_ _K′_ Genüge geleistet wird. Dies Problem wird für die in der Zeichnung (Fig. 2) angegebene relative räumliche Orientierung der Koordinatensysteme gelöst durch die Gleichungen:
 
@@ -245,7 +245,7 @@ _x′_ und _t′_ durch _x_ und _t_ auszudrücken unter Verwendung der ersten un
 
 welche dem Additionstheorem gleichgerichteter Geschwindigkeiten nach der Relativitätstheorie entspricht. Die Frage ist nun, welches von diesen beiden Theoremen der Erfahrung gegenüber standhält. Hierüber belehrt uns ein höchst wichtiges Experiment, welches der geniale Physiker Fizeau vor mehr als einem halben Jahrhundert ausführte, und das seitdem von einigen der besten Experimentalphysiker wiederholt wurde, so daß das Resultat unbezweifelbar ist. Das Experiment behandelt folgende Frage. In einer ruhenden Flüssigkeit pflanze sich das Licht mit einer bestimmten Geschwindigkeit _w_ fort. Wie rasch pflanzt es sich in der Röhre _R_ der Figur
 
-{FIG: [Illustration]}
+{fig fizeau}
 
 in der Pfeilrichtung fort, wenn diese von der vorhin genannten Flüssigkeit mit der Geschwindigkeit _v_ durchströmt ist?
 

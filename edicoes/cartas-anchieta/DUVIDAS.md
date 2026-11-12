@@ -5,3 +5,4 @@
 102/13: impresso traz "traquilidade" (por tranquilidade); transcrito como está.
 110/5: "verde-/mar" cai na quebra da linha; escrevi verde-mar (composto).
 116/27: impresso traz "corsuma" (por consuma); transcrito como está.
+124/8: impresso traz "sententrião" (por septentrião); transcrito como está.

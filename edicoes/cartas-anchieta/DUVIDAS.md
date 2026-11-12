@@ -4,3 +4,4 @@
 61/21: impresso traz "semprer or etis" (erro do impresso, por semper oretis); transcrito como está.
 102/13: impresso traz "traquilidade" (por tranquilidade); transcrito como está.
 110/5: "verde-/mar" cai na quebra da linha; escrevi verde-mar (composto).
+116/27: impresso traz "corsuma" (por consuma); transcrito como está.

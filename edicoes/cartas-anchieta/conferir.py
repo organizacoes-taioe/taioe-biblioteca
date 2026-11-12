@@ -18,7 +18,7 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pecas  # noqa: E402
 
-PASTA = os.path.expanduser(sys.argv[1] if len(sys.argv) > 1 else '~/.cache/claude-pedidos-0511/cartas-anchieta')
+PASTA = os.path.expanduser(sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('--') else '~/.cache/claude-pedidos-0511/cartas-anchieta')
 AQUI = os.path.dirname(os.path.abspath(__file__))
 POR_PRANCHA = 10
 
@@ -34,10 +34,11 @@ def suspeitas(linha, lex_ok):
     return False
 
 
-def main(lex_ok):
-    os.makedirs(os.path.join(PASTA, 'pranchas'), exist_ok=True)
-    lista = []
-    for f in pecas.folhas():
+def main(lex_ok, lista=None, saida='pranchas'):
+    os.makedirs(os.path.join(PASTA, saida), exist_ok=True)
+    feitas = lista is not None
+    lista = lista or []
+    for f in ([] if feitas else pecas.folhas()):
         linhas = open(os.path.join(PASTA, 'rascunho', f'{f}.txt'), encoding='utf-8').read().splitlines()
         caixas = json.load(open(os.path.join(PASTA, 'rascunho', f'{f}.json')))
         for k, l in enumerate(linhas):
@@ -64,11 +65,51 @@ def main(lex_ok):
             y += r.height + 12
             txt.append(f'{j}\t{f}\t{k}\t{l}')
         n += 1
-        pr.save(os.path.join(PASTA, 'pranchas', f'{n:03d}.png'))
-        open(os.path.join(PASTA, 'pranchas', f'{n:03d}.txt'), 'w', encoding='utf-8').write('\n'.join(txt) + '\n')
+        pr.save(os.path.join(PASTA, saida, f'{n:03d}.png'))
+        open(os.path.join(PASTA, saida, f'{n:03d}.txt'), 'w', encoding='utf-8').write('\n'.join(txt) + '\n')
     print(len(lista), 'linhas em', n, 'pranchas')
+
+
+
+
+def segunda():
+    """Segunda rodada: as linhas ainda não conferidas com palavra que a grafia não reconhece (fora do léxico
+    ou trocada por outra de letras diferentes, como «eramos» → «erramos»). Grava pranchas2/."""
+    import lexico
+    import montar
+    G = montar.G
+    conf = {}
+    for l in open(os.path.join(AQUI, 'conferencia.tsv'), encoding='utf-8').read().splitlines():
+        if l.strip() and not l.startswith('#'):
+            f, k, t = l.split('\t', 2)
+            conf[(int(f), int(k))] = t
+
+    def estranha(w):
+        if w[:1].isupper() or w.lower() in lexico.ANTIGAS or w.lower() in lexico.LATIM:
+            return False
+        if not lexico.ok(w):
+            return True
+        novo, fonte = G.atual(w.lower())
+        return fonte == 'esqueleto' and montar.sem_acento(novo).lower() != montar.sem_acento(w).lower()
+    lex = G.lexico()
+    lista = []
+    for f in pecas.folhas():
+        linhas = open(os.path.join(PASTA, 'rascunho', f'{f}.txt'), encoding='utf-8').read().splitlines()
+        caixas = json.load(open(os.path.join(PASTA, 'rascunho', f'{f}.json')))
+        for k, l in enumerate(linhas):
+            if (f, k) in conf or not l.strip():
+                continue
+            ws = re.findall(r"[A-Za-zÀ-ÿ]+", l)
+            partida = any(a.islower() and b.islower() and (a + b).lower() in lex and
+                          (a.lower() not in lex or b.lower() not in lex) for a, b in zip(ws, ws[1:]))
+            if partida or any(estranha(w) for w in ws):
+                lista.append((f, k, l, caixas[k]))
+    return lista
 
 
 if __name__ == '__main__':
     import lexico
-    main(lexico.ok)
+    if '--segunda' in sys.argv:
+        main(lexico.ok, segunda(), 'pranchas2')
+    else:
+        main(lexico.ok)

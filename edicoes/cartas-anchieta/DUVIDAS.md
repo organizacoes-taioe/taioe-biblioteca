@@ -34,3 +34,6 @@
 512/35: número de página (519) colado a 'patriar'; escrevi 'patriar-' (a linha seguinte começa em 'ca Jacob').
 513/35: número de página (520) colado a 'arregalan'; escrevi 'arregalan-' (514/0 começa em 'do'). 513/9: 'cœdis' (texto atual dizia cordis); 514/2: 'eum' (texto atual dizia cum); 513/31 'lopo' como impresso.
 514/35: número de página (521) colado a 'cui'; escrevi 'cui-' (515/0 começa em 'dando'). 515/9 'stimulam' como impresso.
+516/17: o texto atual trazia 'sericordia' (a linha 16 acaba em 'tanta', sem 'mi-'); escrevi 'misericordia' inteira. 516/18 e 516/22: sem recuo no impresso (¶ tirado).
+517/30-31: palavras partidas (con-/cilii, volue-/rit) postas inteiras na linha de cima; 517/34 e 518/15: como no texto atual (palavras partidas 'manda-mentos', 'sô-bre' fora da linha). 517/32: o ¶ do texto atual não estava; sem recuo no recorte. 518/0: título apagado (-).
+519/35: número de página (526) colado a 'mo'; escrevi 'mo-' (520/0 começa em 'ves'). 519/21-22: 'fratribus' inteira na 21 (fra-/tribus).

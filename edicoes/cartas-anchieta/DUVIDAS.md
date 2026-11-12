@@ -25,3 +25,5 @@
 300/15-16: impresso 'tra-/se começaram' (trase) e 'prin-/dencia' (prindencia); transcritos como estão.
 302/34: número de página (305) colado a 'fa'; escrevi 'fa-' (a linha seguinte começa em 'vorecerá'). 302/9: '30 leguas' (texto atual dizia 20; lido 30 no recorte).
 313/13-14: marcas manuscritas sobre a linha no exemplar (ignoradas); 313/14 'lingua' sem acento no impresso.
+317/5-6: o texto atual trazia 'No' no fim de 317/5; passei-o para o começo de 317/6 («¶ No Rio de Janeiro»). 317/35: número de página (320) colado a 'ce'; escrevi 'ce-' (a linha seguinte começa em 'vada').
+319/35: número de página (322) colado a 'deser'; escrevi 'deser-' (a linha seguinte começa em 'tos').

@@ -47,3 +47,7 @@
 - 166.2 «vitória cadmeia» (literal) × «vitória de Pirro» (expressão nossa, mas anacrônica, nome que o grego não dá).
   Adotei a literal.
 - 165.1/167.4 «Cirno» (o nome grego, que guarda o jogo do oráculo) × «Córsega».
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (conferidos os foceenses × fócios, Argantônio, o episódio de Cirno/Alália e Agila, os pareceres de Bias e Tales, os cários, caunianos e lícios, o oráculo dos cnídios). Dúvidas: nenhuma.

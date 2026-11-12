@@ -138,3 +138,15 @@ Candidatas a decisão: nenhuma nova.
 - «Mahomet», «Coran» → «Maomé», «Corão»; «l'évangile» (minúscula no impresso) → «o Evangelho».
 
 Candidatas a decisão: nenhuma nova.
+
+## 10 · Como os americanos combatem o individualismo com instituições livres (II, II, 4)
+
+- Termos: *institutions libres* → «instituições livres»; *libertés locales* → «liberdades locais»;
+  *canton* (nos Estados Unidos) → «distrito» («cantão» faria pensar na Suíça); *bienveillance
+  publique* → «benevolência pública»; *bons offices* → «bons ofícios»; *magistrat élu / électif* →
+  «magistrado eleito / eletivo» (a antítese do fim do parágrafo fica igual).
+- «mettent à l'étroit dans la vie privée» → «fazem sentir-se apertados na vida privada».
+- *vous* genérico («la population qui vous entoure») → «que nos rodeia».
+- «On dirait» → «Seria de dizer» (sem mesóclise).
+
+Candidatas a decisão: nenhuma nova.

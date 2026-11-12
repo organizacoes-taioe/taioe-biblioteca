@@ -78,3 +78,31 @@ Candidatas a decisão: nenhuma nova.
 Candidatas a decisão:
 - Fala do senhor tirânico: «você» no singular (feito) ou «vós» solene, que guardaria o plural de
   «vous êtes libres». Recomendo «você», pela regra do *vous*.
+
+## 05 · Das principais causas que tendem a manter a república democrática (I, 2, 9, parte)
+
+- Termos: *mœurs* → «costumes» também onde Tocqueville define a palavra («J'entends ici l'expression
+  de _mœurs_…» → «Entendo aqui a expressão _costumes_…»), com o latim _mores_ ao lado, como ele faz;
+  *prêtre* → «sacerdote» no geral (a sociedade religiosa católica: «o sacerdote e o povo»; o pregador
+  do comício; «os sacerdotes, que guardam o depósito das crenças») e «padre» quando são os católicos
+  ou o clero americano no dia a dia («o padre católico», «os padres americanos»); *communions* →
+  «comunhões»; *clergés* → «cleros»; *compagnies franches* → «companhias francas»; *rangs* →
+  «camadas» («on la retrouve dans tous les rangs»).
+- I,2,9, «qui changent le siége de l'État» → «que trocam o chefe do Estado», pela decisão `siege`.
+- A oração do sacerdote pelos poloneses: «Dieu tout-puissant» → «Deus todo-poderoso» (fórmula de
+  oração), com «tu»; três parágrafos, cada um aberto com “.
+- Os *vous* genéricos dirigidos ao leitor → «você» («Você pensa que esses homens…», «Tire o
+  príncipe», «corte os laços»); «on ne les rejette point, elles vous quittent» → «não as rejeitamos:
+  elas é que nos deixam» (o *vous* aí é o de todo mundo, não o do leitor).
+- «Spinosa» (assim no impresso) → «Espinosa», a forma portuguesa corrente; «Cabanis» como está.
+- Nota 1, o trecho em inglês do _New-York Spectator_: traduzido (decisão `ingles`); *court of common
+  pleas* → «tribunal de pleitos comuns». «Chester (État de New-York)», engano de Tocqueville (é na
+  Pensilvânia? há um condado de Chester em Nova York? não conferi), ficou como está.
+- Nota 3: «Louisiane» → «Luisiana»; «art 2» sem ponto, como no impresso.
+
+Candidatas a decisão:
+- «Spinosa» → «Espinosa» (feito) ou manter a grafia do impresso, como se fez com «Madisson».
+  Recomendo «Espinosa»: no texto traduzido vale a forma portuguesa do nome; «Madisson» é nome
+  inglês sem forma portuguesa, por isso ficou.
+- *prêtre* dividido entre «sacerdote» e «padre» conforme o contexto (feito) ou sempre «sacerdote».
+  Recomendo a divisão, que soa natural.

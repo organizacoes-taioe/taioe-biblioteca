@@ -42,3 +42,11 @@
 - 24.5 νόμος ὄρθιος: «o canto órtio» (adotado: o nome da peça, aportuguesado). Alternativas: «o nomo órtio» (o termo
   técnico, mais raro) ou «o canto agudo» (o sentido, perdendo o nome).
 - 23.1 κιθαρῳδός: «cantor de cítara» (adotado). Alternativa: «citaredo», o termo exato, mas raro.
+
+## Revisão contra o grego
+
+Nenhuma correção necessária (números de anos, nomes, quem fala e quem faz conferem).
+
+Dúvidas (não corrigidas):
+- 24.4–5: ἑδώλια traduzido «tombadilho»; em sentido estrito são os bancos dos remadores (ou os assentos da popa). Se o tradutor quiser mais exatidão: «nos bancos».
+- 24.5: «canto órtio» (νόμος ὄρθιος) é termo técnico pouco comum; talvez «canto agudo» ou «em tom alto», com nota.

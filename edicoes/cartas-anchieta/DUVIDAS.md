@@ -40,3 +40,6 @@
 520/31: impresso 'oprteat' (por oportet/oporteat); 521/2: 'nomem' como impresso; 'sponsa' em romano no impresso.
 522/1: texto atual não trazia 'Deus' (impresso: 'Igreja:Deus,' colado, 'Deus' em itálico; escrevi 'Igreja: _Deus_,').
 523/3: 'Ben-' no fim da linha (523/4 começa em 'nomim'; impresso Ben-/nomim).
+524/13: a linha seguinte (524/14) começa em 'e todas'; 'se;' do fim de exgotar-/se incluído em 524/13. ¶ tirados em 524/13 e 524/15–21 (sem recuo nos recortes).
+525/8: cabeço 'JOSEPH DE ANCHIETA' apagado (-). 525/12: o texto atual trazia 'E a' no fim (lixo do OCR); impresso termina 'na roda'. 524/22-24, 30: ¶ tirados (sem recuo); 524/31: ¶ posto (recuada).
+525/37: impresso 'focies' (por facies); 525/31: 'nomem' como impresso.

@@ -136,6 +136,26 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-cipriano',
+  area: 'catolicismo',
+  nome: 'São Cipriano',
+  nomeCompleto: 'Táscio Cecílio Cipriano (Thascius Caecilius Cyprianus)',
+  vida: '~200–258',
+  ordem: 'Cipriano, São',
+  nota: 'Bispo de Cartago, mártir na perseguição de Valeriano. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
+  id: 'sao-patricio',
+  area: 'catolicismo',
+  nome: 'São Patrício',
+  nomeCompleto: 'Patrício (Patricius)',
+  vida: '~390–~461',
+  ordem: 'Patrício, São',
+  nota: 'Bispo e apóstolo da Irlanda, nascido na Britânia romana e levado cativo para a Irlanda na juventude. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
   id: 'sao-gregorio-magno',
   area: 'catolicismo',
   nome: 'São Gregório Magno',

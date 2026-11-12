@@ -27,3 +27,5 @@ White, com a marca `[n]`; as partes saem por faixa no `obra.py` (`confessio.txt#
   Sb 1,11, Mt 12,36; 9 Eclo 4,29; 11 Is 32,4, 2Cor 3,2–3, Eclo 7,16; 20 Mt 10,20; 25 Rm 8,26, 1Jo 2,1, Rm 8,34;
   29 Zc 2,8; 34 2Sm 7,18; 38 Jr 16,19, At 13,47; 39 Mt 8,11; 40 Mt 4,19, Jr 16,16, Mt 28,19–20, Mc 16,15–16,
   Mt 24,14, At 2,17–18, Rm 9,25–26; 47 Pr 10,1; 48 cf. Mt 18,7, Rm 2,24; 55 Sl 54(55),23.
+- 12 «ego primus rusticus» → «eu, que antes era um rústico»: White (na introdução de 1918) lê *primus* = *prius*, pela
+  Vetus Latina de 1Tm 1,13 («qui primus fui blasphemus»). 9 *saliua scripturae* → «o sabor do que escrevo».

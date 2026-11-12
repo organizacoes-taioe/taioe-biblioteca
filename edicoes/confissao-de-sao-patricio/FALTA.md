@@ -1,9 +1,6 @@
-# Confissão de São Patrício: o que falta (pedido `confissao-de-sao-patricio`)
+# O que falta
 
-Feito: latim de White 1918 (`original/`, lido nas imagens), tradução inteira (`traducao/confessio.txt`, 62
-parágrafos), `obra.py`, `CONVENCOES.md`, `revisao.json` (8 decisões).
-
-Falta:
-- autor `sao-patricio` em `conteudo/autores.js` e `python3 ferramentas/traducoes.py confissao-de-sao-patricio`;
-- vocabulário `edicoes/vocabulario/<nome>.json` (`node ferramentas/vocabulario.mjs candidatos …`, `conferir` = ok);
-- releitura inteira contra o latim; gerar e conferir o site na worktree.
+Pronta na branch `pedido-patricio-cipriano`: latim, tradução, `obra.py`, `CONVENCOES.md`, `revisao.json`, vocabulário,
+autor em `conteudo/autores.js`, `conteudo/` gravado por `traducoes.py`; site gerado e conferido na worktree (`tudo certo`).
+Falta só o do principal: juntar, gerar `public/`, Catálogo `obras`, PR, merge, `traducoes_revisao.py --revisao` e tirar
+dos pedidos.

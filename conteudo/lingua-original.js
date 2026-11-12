@@ -34,7 +34,8 @@ BIBLIOTECA.poemas({
   arquivo: "conteudo/william-shakespeare/lingua-original.js",
   livros: [{"id": "shakespeare-s-sonnets", "titulo": "Shakespeare's Sonnets", "ano": 1609}],
   poemas: [
-    {"id":"william-shakespeare-sonnet-18","titulo":"Sonnet 18","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"en","ano":1609,"glossario":true}
+    {"id":"william-shakespeare-sonnet-18","titulo":"Sonnet 18","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"en","ano":1609,"glossario":true},
+    {"id":"william-shakespeare-macbeth","titulo":"Macbeth","forma":"outras","livro":-1,"ordem":1,"versos":2104,"lingua":"en","ano":1623,"glossario":true,"partes":[{"titulo":"Personagens"},{"titulo":"Ato I, cena 1"},{"titulo":"Ato I, cena 2"},{"titulo":"Ato I, cena 3"},{"titulo":"Ato I, cena 4"},{"titulo":"Ato I, cena 5"},{"titulo":"Ato I, cena 6"},{"titulo":"Ato I, cena 7"},{"titulo":"Ato II, cena 1"},{"titulo":"Ato II, cena 2"},{"titulo":"Ato II, cena 3"},{"titulo":"Ato II, cena 4"},{"titulo":"Ato III, cena 1"},{"titulo":"Ato III, cena 2"},{"titulo":"Ato III, cena 3"},{"titulo":"Ato III, cena 4"},{"titulo":"Ato III, cena 5"},{"titulo":"Ato III, cena 6"},{"titulo":"Ato IV, cena 1"},{"titulo":"Ato IV, cena 2"},{"titulo":"Ato IV, cena 3"},{"titulo":"Ato V, cena 1"},{"titulo":"Ato V, cena 2"},{"titulo":"Ato V, cena 3"},{"titulo":"Ato V, cena 4"},{"titulo":"Ato V, cena 5"},{"titulo":"Ato V, cena 6"},{"titulo":"Ato V, cena 7"},{"titulo":"Ato V, cena 8"}],"teatro":true,"divisao":{"singular":"parte","plural":"partes"},"genero":"Teatro"}
   ]
 });
 
@@ -298,7 +299,7 @@ BIBLIOTECA.poemas({
   arquivo: "conteudo/gustave-flaubert/lingua-original.js",
   livros: [{"id": "trois-contes", "titulo": "Trois Contes", "ano": 1877}],
   poemas: [
-    {"id":"gustave-flaubert-un-coeur-simple","titulo":"Un cœur simple","forma":"outras","livro":0,"ordem":0,"versos":646,"lingua":"fr","ano":1877,"glossario":true,"genero":"Contos","prosa":true,"partes":[{"titulo":"I"},{"titulo":"II"},{"titulo":"III"},{"titulo":"IV"},{"titulo":"V"}]}
+    {"id":"gustave-flaubert-un-coeur-simple","titulo":"Un cœur simple","forma":"outras","livro":0,"ordem":0,"versos":646,"lingua":"fr","ano":1877,"glossario":true,"partes":[{"titulo":"I"},{"titulo":"II"},{"titulo":"III"},{"titulo":"IV"},{"titulo":"V"}],"genero":"Contos","prosa":true}
   ]
 });
 

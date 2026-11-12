@@ -1933,6 +1933,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('vicente-de-carvalho/poemas-e-cancoes-velho-tema-5', 'Velho tema, V'),
   ('vicente-de-carvalho/poemas-e-cancoes-velho-tema-6', 'Velho tema, VI'),
   ('victor-hugo/demain-des-l-aube', 'Demain, dès l’aube…'),
+  ('william-shakespeare/macbeth', 'Macbeth'),
   ('william-shakespeare/sonnet-18', 'Sonnet 18')
 on conflict (obra) do update set titulo = excluded.titulo, atualizado_em = now()
   where biblioteca.obras.titulo is distinct from excluded.titulo;

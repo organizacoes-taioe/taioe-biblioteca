@@ -45,9 +45,9 @@ const BIBLIOTECA = {
         ano: p.ano || (l && l.ano) || null, versos: p.versos, lingua: p.lingua || '',
         traducao: p.traducao || null, glossario: !!p.glossario, pt: p.pt || null,
         coletanea: l ? { id: pac.autor + '/' + l.id, titulo: l.titulo, ano: l.ano || '', ordem: k, seq: p.livro } : null,
-        ordem: k,
-        divisao: { singular: 'parte', plural: 'partes' },
-        partes: (p.partes || [{}]).map((x) => ({ n: '', titulo: x.titulo || '' })),
+        ordem: k, teatro: !!p.teatro,
+        divisao: p.divisao || { singular: 'parte', plural: 'partes' },
+        partes: (p.partes || [{}]).map((x) => ({ n: x.n || '', titulo: x.titulo || '' })),
         arquivo: pac.arquivo
       });
     });
@@ -144,7 +144,7 @@ const SEPARADORES = { 'filete': '<span class="fio"></span>', 'fio horizontal': '
   'linha de pontos': '. . . . . . . . . . .' };
 function htmlMarca(b, pals) {
   const v = b.valor;
-  if (pals && ['subtitulo', 'data', 'dedicatoria', 'fecho'].includes(b.marca)) return marcarPalavras(v, pals);
+  if (pals && ['subtitulo', 'data', 'dedicatoria', 'fecho', 'rubrica'].includes(b.marca)) return marcarPalavras(v, pals);
   switch (b.marca) {
     case 'epigrafe': return v.split(/\s+\/\s+/).map(inline).join('<br>');
     case 'separador': return SEPARADORES[v] || esc(v || '*');
@@ -153,14 +153,42 @@ function htmlMarca(b, pals) {
     default: return inline(v);
   }
 }
-function linhasPoema(texto, glos) {
+/* Teatro na língua original (o Macbeth, «teatro» em edicoes/lingua-original/obras.json): «::fala Nome»
+   e «::rubrica …» são marcas; o verso que começa com espaços é o meio-verso que continua o da fala
+   anterior (vai recuado, numa das classes r4…r48, e não conta na numeração); a cada 5 versos, o número
+   à margem, como na edição; a indicação de cena dentro da fala, entre colchetes, vai em itálico (o
+   colchete aberto no fim da linha vale até o fim dela, e o fechado no começo, desde o começo). */
+function marcarFala(v, pals) {
+  const seg = [], re = /\[[^\]]*\]?|^[^[\]]*\]/g; let i = 0, m;
+  while ((m = re.exec(v))) {
+    if (m.index > i) seg.push([i, m.index, false]);
+    seg.push([m.index, m.index + m[0].length, true]);
+    i = m.index + m[0].length;
+  }
+  if (i < v.length) seg.push([i, v.length, false]);
+  return seg.map(([a, b, rub]) => {
+    const h = pals ? marcarPalavras(v.slice(a, b), pals.filter(([x]) => x >= a && x < b).map(([x, y, id]) => [x - a, y - a, id])) : inline(v.slice(a, b));
+    return rub ? '<span class="rub">' + h + '</span>' : h;
+  }).join('');
+}
+function linhasPoema(texto, glos, teatro) {
   const porLinha = {}, brutas = String(texto || '').split('\n');
   if (glos) glos.o.forEach(([l, a, b, id]) => (porLinha[l] = porLinha[l] || []).push([a, b, id]));
+  let nv = 0;
   return blocosPoema(texto).map((b) => {
     if (b.marca) {
       const d = glos ? brutas[b.linha].indexOf(b.valor) : 0;   // as posições contam a linha inteira, com o «::marca»
       const pals = glos ? (porLinha[b.linha] || []).map(([x, y, id]) => [x - d, y - d, id]) : null;
       return { sep: b.sep, linhas: [{ cls: 'm m-' + b.marca, html: htmlMarca(b, pals) }] };
+    }
+    if (teatro) {
+      return { sep: b.sep, linhas: b.versos.map((v, j) => {
+        const rec = /^ */.exec(v)[0].length;
+        if (!rec) nv++;
+        return { cls: 'v' + (rec ? ' r' + Math.min(48, Math.max(4, Math.round(rec / 4) * 4)) : ''),
+          html: (!rec && nv % 5 === 0 ? '<span class="vn" aria-hidden="true">' + nv + '</span>' : '') +
+            marcarFala(v, glos ? porLinha[b.linhas[j]] || [] : null) };
+      }) };
     }
     return { sep: b.sep, linhas: b.versos.map((v, j) => ({ cls: 'v', html: glos ? marcarPalavras(v, porLinha[b.linhas[j]] || []) : inline(v) })) };
   });
@@ -359,11 +387,11 @@ function textoParte(o, p) {
     grade(linhasPoema(p.pt), linhasPoema(p.texto, p.glossario), esc(o.lingua)) + '</div></div>';
   const orig = p.original !== undefined && p.original !== null;
   const lingua = orig && o.traducao ? o.traducao.codigo || '' : '';
-  const cls = 'paralelo ' + (poema ? 'poema' : 'prosa');
+  const cls = 'paralelo ' + (poema ? 'poema' : 'prosa') + (o.teatro ? ' teatro' : '');
   const attr = o.lingua && !orig ? ' lang="' + esc(o.lingua) + '"' : '';
   if (!orig && !poema) return '<div class="texto">' + blocos(p.texto) + '</div>';
   return '<div class="texto"><div class="' + cls + '"' + attr + '>' +
-    grade(poema ? linhasPoema(p.texto, p.glossario) : linhas(p.texto), orig ? linhas(p.original) : null, lingua) + '</div></div>';
+    grade(poema ? linhasPoema(p.texto, p.glossario, o.teatro) : linhas(p.texto), orig ? linhas(p.original) : null, lingua) + '</div></div>';
 }
 function incipit(texto, limite) {
   const t = String(texto).replace(/\{[^}]*\}/g, '').replace(/^\|\s?/gm, '').replace(/[_*]/g, '').replace(/\s+/g, ' ').trim();
@@ -407,9 +435,13 @@ function palavras(o) {
   return o._palavras;
 }
 const milhar = (n) => n.toLocaleString('pt-BR');
+/* no teatro, sem os nomes de quem fala e sem as marcas */
+const palavrasTeatro = (o) => o.partes.reduce((n, p) => n + (String(p.texto).split('\n').filter((l) => !/^::fala\b/.test(l))
+  .join('\n').replace(/^::\w+/gm, ' ').match(PALAVRA) || []).length, 0);
 function fichaObra(o) {
   const d = o.divisao || { singular: 'parte', plural: 'partes' };
   if (o.poema && o.prosa) return milhar(palavras(o)) + ' palavras';
+  if (o.teatro) return [plural(o.partes.length, d.singular, d.plural), milhar(palavrasTeatro(o)) + ' palavras'].join(' · ');
   if (o.poema) {
     return [o.partes.length > 1 ? plural(o.partes.length, d.singular, d.plural) : '',
       o.versos === 1 ? '1 verso' : milhar(o.versos) + ' versos'].filter(Boolean).join(' · ');

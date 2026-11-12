@@ -1,17 +1,23 @@
 """Poemas na língua original, sem tradução: cada palavra abre uma nota com a definição.
 
-    python ferramentas/lingua_original.py palavras <pasta>      # as palavras do poema e a chave de cada uma
+    python ferramentas/lingua_original.py palavras <pasta> [<parte>]   # as palavras do poema e a chave de cada uma
     python ferramentas/lingua_original.py wiki <es|en|fr|it> <página> [<língua>]
                                                                 # o verbete do Wiktionary (só a seção da língua)
-    python ferramentas/lingua_original.py conferir [<pasta>]    # todo o poema tem verbete; campos; mesóclise
+    python ferramentas/lingua_original.py conferir [<pasta> [<parte>]]  # todo o poema tem verbete; campos; mesóclise
     python ferramentas/lingua_original.py publicar              # grava o conteúdo do site
 
 Fonte: edicoes/lingua-original/obras.json (autor, título, livro, fontes) e, por poema,
 edicoes/lingua-original/<pasta>/poema.txt (formato dos poemas da Biblioteca) e glossario.json.
 Prosa («prosa»: true em obras.json, com o gênero, como o começo do Quixote): um trecho por linha (a
 unidade que os Cards mostram), linha em branco entre os parágrafos; a página junta os trechos.
-Texto longo em partes (Un cœur simple): uma linha «::parte <título>» abre cada parte; a numeração das
-linhas do glossário corre seguida pelo texto todo, e o site faz uma página por parte.
+Texto longo em partes num arquivo só (Un cœur simple): uma linha «::parte <título>» abre cada parte; a numeração
+das linhas do glossário corre seguida pelo texto todo, e o site faz uma página por parte.
+Texto em partes em arquivos (o teatro, como o Macbeth): «partes»: [{"titulo", "arquivo", "rascunho"?}] em obras.json,
+um arquivo por parte na pasta; o glossario.json é um só para a obra, e a referência da ocorrência leva
+o número da parte na frente («3:12.4»; a parte 1 é a primeira da lista, e o título, linha 0, só nela).
+Parte com "rascunho": true fica fora da conferência e do site (o glossário se faz por partes).
+Teatro («teatro»: true, com "genero": "Teatro"): «::fala Nome» (sem notas), «::rubrica …» (com notas),
+um verso por linha; o meio-verso que continua o da fala anterior começa com espaços.
 
 glossario.json:
   {"verbetes": {"<chave>": {"lema": "prenda", "wiki": "es", "classe": "substantivo feminino",
@@ -71,9 +77,25 @@ def achar(pasta):
     sys.exit('poema desconhecido: ' + pasta)
 
 
-def ler_texto(pasta):
-    with open(os.path.join(EDICAO, pasta, 'poema.txt'), encoding='utf-8') as f:
+def ler_texto(pasta, arquivo='poema.txt'):
+    with open(os.path.join(EDICAO, pasta, arquivo), encoding='utf-8') as f:
         return f.read().replace('\r\n', '\n').strip('\n')
+
+
+def partes_de(poema, todas=False):
+    """[(k, parte)] das partes do texto: k = 1, 2…, ou None num texto de um arquivo só (poema.txt).
+    Sem «todas», fica de fora a parte em rascunho."""
+    if not poema.get('partes'):
+        return [(None, {'arquivo': 'poema.txt'})]
+    return [(k, x) for k, x in enumerate(poema['partes'], 1) if todas or not x.get('rascunho')]
+
+
+def achar_parte(poema, nome):
+    """a parte pelo nome do arquivo, sem a extensão («2-1»)"""
+    for k, x in partes_de(poema, True):
+        if os.path.splitext(os.path.basename(x['arquivo']))[0] == nome:
+            return k, x
+    sys.exit('parte desconhecida: ' + nome)
 
 
 def separar(texto, lingua):
@@ -106,13 +128,17 @@ def chave(s):
     return s.lower()
 
 
-def linhas_do_poema(poema):
+MARCAS_COM_PALAVRAS = ('subtitulo', 'data', 'dedicatoria', 'fecho', 'rubrica')
+
+
+def linhas_do_poema(poema, k=None):
     """As linhas com palavras, numeradas: 0 é o título; depois cada verso e cada marca com texto
-    (::subtitulo, ::data…), na ordem do arquivo; o subtítulo de obras.json é a linha «s». Devolve [(n, texto, índice da linha no arquivo
-    ou None no título, deslocamento do texto dentro da linha)]."""
-    texto = ler_texto(poema['pasta'])
-    saida = [(0, poema['titulo'], None, 0)]
-    if poema.get('subtitulo'):
+    (::subtitulo, ::data…, ::rubrica), na ordem do arquivo; o subtítulo de obras.json é a linha «s». Devolve [(n, texto, índice da linha no arquivo
+    ou None no título, deslocamento do texto dentro da linha)]. No texto em partes, k é a parte (o título só na 1)."""
+    arquivo = poema['partes'][k - 1]['arquivo'] if k else 'poema.txt'
+    texto = ler_texto(poema['pasta'], arquivo)
+    saida = [(0, poema['titulo'], None, 0)] if not k or k == 1 else []
+    if poema.get('subtitulo') and (not k or k == 1):
         saida.append(('s', poema['subtitulo'], 'sub', 0))   # o subtítulo de obras.json: s.1, s.2…
     n = 0
     for i, l in enumerate(texto.split('\n')):
@@ -120,7 +146,7 @@ def linhas_do_poema(poema):
             continue
         m = re.match(r'^::(\w+)\s?(.*)$', l)
         if m:
-            if m.group(1) not in ('subtitulo', 'data', 'dedicatoria', 'fecho'):
+            if m.group(1) not in MARCAS_COM_PALAVRAS:
                 continue
             valor = m.group(2).strip()
             desl = l.index(valor) if valor else 0
@@ -140,12 +166,22 @@ def dividir_partes(texto):
     return [(t, i + 1, marcas[k + 1][0] if k + 1 < len(marcas) else len(linhas)) for k, (i, t) in enumerate(marcas)]
 
 
-def ocorrencias(poema):
-    """[(ref "linha.posição", palavra, n, linha no arquivo, início, fim)] (início e fim no texto da marca)."""
+def ocorrencias(poema, k=None):
+    """[(ref "linha.posição", palavra, n, linha no arquivo, início, fim)] (início e fim no texto da marca).
+    No texto em partes, a ref leva a parte na frente («3:12.4»)."""
     saida = []
-    for n, texto, i, desl in linhas_do_poema(poema):
-        for k, (a, b) in enumerate(separar(texto, poema['lingua']), 1):
-            saida.append(('%s.%d' % (n, k), texto[a:b], n, i, a, b))
+    pre = '%d:' % k if k else ''
+    for n, texto, i, desl in linhas_do_poema(poema, k):
+        for j, (a, b) in enumerate(separar(texto, poema['lingua']), 1):
+            saida.append(('%s%s.%d' % (pre, n, j), texto[a:b], n, i, a, b))
+    return saida
+
+
+def todas_ocorrencias(poema, todas=False):
+    """as ocorrências de todas as partes (sem as em rascunho, salvo «todas»)"""
+    saida = []
+    for k, _x in partes_de(poema, todas):
+        saida += ocorrencias(poema, k)
     return saida
 
 
@@ -158,17 +194,22 @@ def ler_glossario(pasta):
 
 
 # ------------------------------------------------------------------ palavras
-def cmd_palavras(pasta):
+def cmd_palavras(pasta, parte=None):
     poema = achar(pasta)
-    linha_atual = None
-    for ref, palavra, n, i, a, b in ocorrencias(poema):
-        if n != linha_atual:
-            linha_atual = n
-            texto = [t for (m, t, _, _) in linhas_do_poema(poema) if m == n][0]
-            print('\n%s  %s' % (n, texto))
-        print('    %-6s %-20s chave: %s' % (ref, palavra, chave(palavra)))
-    unicas = sorted({chave(p) for (_, p, *_r) in ocorrencias(poema)})
-    print('\n%d palavras, %d chaves diferentes' % (len(ocorrencias(poema)), len(unicas)))
+    ks = [achar_parte(poema, parte)[0]] if parte else [k for k, _x in partes_de(poema, True)]
+    total = []
+    for k in ks:
+        linhas = linhas_do_poema(poema, k)
+        linha_atual = None
+        for ref, palavra, n, i, a, b in ocorrencias(poema, k):
+            if n != linha_atual:
+                linha_atual = n
+                texto = [t for (m, t, _, _) in linhas if m == n][0]
+                print('\n%s%s  %s' % ('%d:' % k if k else '', n, texto))
+            print('    %-9s %-20s chave: %s' % (ref, palavra, chave(palavra)))
+        total += ocorrencias(poema, k)
+    unicas = sorted({chave(p) for (_, p, *_r) in total})
+    print('\n%d palavras, %d chaves diferentes' % (len(total), len(unicas)))
 
 
 # ------------------------------------------------------------------ wiki
@@ -299,7 +340,8 @@ def conferir_parte(x, onde, problemas, lingua):
         problemas.append(onde + ': falta a classe')
 
 
-def conferir(pasta, verboso=True):
+def conferir(pasta, verboso=True, parte=None):
+    """parte: só as palavras dessa parte (o nome do arquivo sem extensão), mesmo em rascunho"""
     poema = achar(pasta)
     g = ler_glossario(pasta)
     problemas = []
@@ -308,19 +350,25 @@ def conferir(pasta, verboso=True):
     vb, oc = g.get('verbetes', {}), g.get('ocorrencias', {})
     usados = set()
     refs = set()
-    for ref, palavra, *_r in ocorrencias(poema):
+    alvo = ocorrencias(poema, achar_parte(poema, parte)[0]) if parte else todas_ocorrencias(poema)
+    for ref, palavra, *_r in alvo:
         refs.add(ref)
         k = oc.get(ref, chave(palavra))
         if k not in vb:
             problemas.append('%s: «%s» (%s) sem verbete «%s»' % (pasta, palavra, ref, k))
         usados.add(k)
+    # os verbetes e as ocorrências valem para a obra inteira, também nas partes ainda em rascunho
+    todas = {ref: palavra for ref, palavra, *_r in todas_ocorrencias(poema, True)}
     for ref in oc:
-        if ref not in refs:
+        if ref not in todas:
             problemas.append('%s: ocorrência %s não existe' % (pasta, ref))
+    usados_obra = {oc.get(ref, chave(p)) for ref, p in todas.items()}
     for k, x in vb.items():
         onde = '%s: verbete «%s»' % (pasta, k)
-        if k not in usados:
+        if k not in usados_obra:
             problemas.append(onde + ' não é usado')
+        if parte and k not in usados:
+            continue
         extra = set(x) - CAMPOS
         if extra:
             problemas.append(onde + ': campos desconhecidos ' + ', '.join(sorted(extra)))
@@ -337,15 +385,16 @@ def conferir(pasta, verboso=True):
         if MESOCLISE.search(texto):
             problemas.append(onde + ': mesóclise')
     if verboso:
-        print('%s: %d palavras, %d verbetes%s' % (pasta, len(refs), len(vb), '' if problemas else ', tudo certo'))
+        print('%s%s: %d palavras, %d verbetes%s' % (pasta, ' ' + parte if parte else '', len(refs), len(usados) if parte else len(vb),
+                                                  '' if problemas else ', tudo certo'))
     return problemas
 
 
-def cmd_conferir(pasta=None):
+def cmd_conferir(pasta=None, parte=None):
     pastas = [pasta] if pasta else [p['pasta'] for p in ler_obras()['poemas']]
     problemas = []
     for p in pastas:
-        problemas += conferir(p)
+        problemas += conferir(p, parte=parte)
     for x in problemas[:80]:
         print('  ' + x)
     if len(problemas) > 80:
@@ -402,6 +451,8 @@ def publicar():
     autores = []
     por_autor = {}
     for p in obras['poemas']:
+        if p.get('partes') and not partes_de(p, PROVISORIO):
+            continue   # todas as partes em rascunho: ainda fora do site
         if p['autor'] not in por_autor:
             autores.append(p['autor'])
             por_autor[p['autor']] = []
@@ -417,10 +468,22 @@ def publicar():
                 livros.append({'id': re.sub(r'[^a-z0-9]+', '-', p['livro']['titulo'].lower()).strip('-'),
                                'titulo': p['livro']['titulo'], 'ano': p['livro'].get('ano')})
                 livro = len(livros) - 1
-            texto = ler_texto(p['pasta'])
-            versos = sum(1 for l in texto.split('\n') if l.strip() and not l.startswith('::'))
+            versos = 0
+            for kp, x in partes_de(p, PROVISORIO):
+                texto = ler_texto(p['pasta'], x['arquivo'])
+                # no teatro, o meio-verso (que começa com espaço) não conta como outro verso
+                versos += sum(1 for l in texto.split('\n') if l.strip() and not l.startswith('::')
+                              and not (p.get('teatro') and l.startswith(' ')))
             item = {'id': autor + '-' + p['pasta'], 'titulo': p['titulo'], 'forma': p['forma'], 'livro': livro,
                     'ordem': k, 'versos': versos, 'lingua': p['lingua'], 'ano': p.get('ano'), 'glossario': True}
+            if p.get('partes'):
+                item['partes'] = [{'titulo': x['titulo']} for _k, x in partes_de(p, PROVISORIO)]
+            elif dividir_partes(texto):   # «::parte» num arquivo só (aqui, texto = o poema.txt)
+                item['partes'] = [{'titulo': t} for t, _a, _b in dividir_partes(texto)]
+            if p.get('teatro'):
+                item['teatro'] = True
+            if p.get('divisao'):
+                item['divisao'] = p['divisao']
             if p.get('subtitulo'):
                 item['subtitulo'] = p['subtitulo']
             if p.get('n'):
@@ -429,9 +492,6 @@ def publicar():
                 item['genero'] = p['genero']   # sem ele, Poesia (as orações levam "Orações")
             if p.get('prosa'):
                 item['prosa'] = True
-            partes = dividir_partes(texto)
-            if partes:
-                item['partes'] = [{'titulo': t} for t, _a, _b in partes]
             if p.get('traducao'):
                 tr = p['traducao']
                 item['pt'] = {'tradutor': tr.get('tradutor'), 'titulo': tr['titulo'], 'ano': tr.get('ano')}
@@ -472,19 +532,46 @@ def publicar():
     print('publicado: %d poemas de %d autores' % (len(obras['poemas']), len(autores)))
 
 
-def montar(p, info_lingua, poesia=True):
-    lingua = p['lingua']
-    poesia = poesia and not p.get('prosa')
-    g = ler_glossario(p['pasta'])
-    if PROVISORIO and (g is None or conferir(p['pasta'], False)):
-        g = {'verbetes': {chave(x[1]): {'lema': x[1], 'classe': '(em preparo)', 'def': ['(nota em preparo)']} for x in ocorrencias(p)}}
+def glossario_da_parte(p, g, kp, lingua):
+    """as notas de uma parte: os verbetes usados nela, numerados de novo, e as ocorrências"""
     vb, oc = g['verbetes'], g.get('ocorrencias', {})
-    texto = ler_texto(p['pasta'])
-    # texto em partes («::parte»): uma página por parte, cada uma com as suas notas (o título em todas)
-    cortes = dividir_partes(texto) or [(None, 0, len(texto.split('\n')))]
+    if PROVISORIO:
+        vb = dict(vb)
+        for x in ocorrencias(p, kp):
+            vb.setdefault(oc.get(x[0], chave(x[1])), {'lema': x[1], 'classe': '(em preparo)', 'def': ['(nota em preparo)']})
+    ids, verbetes = {}, {}
+    o_linhas, o_titulo, o_sub = [], [], []
+    linhas = linhas_do_poema(p, kp)
+    for ref, palavra, n, i, a, b in ocorrencias(p, kp):
+        k = oc.get(ref, chave(palavra))
+        if k not in ids:
+            ids[k] = len(ids)
+            x = vb[k]
+            v = {'p': [parte_publica(y, lingua) for y in x['partes']]} if 'partes' in x else {'p': [parte_publica(x, lingua)]}
+            if x.get('nota'):
+                v['n'] = x['nota']
+            verbetes[ids[k]] = v
+        if i is None:
+            o_titulo.append([a, b, ids[k]])
+        elif i == 'sub':
+            o_sub.append([a, b, ids[k]])
+        else:
+            desl = [d for (m, _t, _i, d) in linhas if m == n][0]
+            o_linhas.append([i, a + desl, b + desl, ids[k]])
+    return {'v': verbetes, 'o': o_linhas, 't': o_titulo, 's': o_sub}
+
+
+def paginas_por_marcas(p, g, lingua, texto):
+    """o texto de um arquivo só dividido por «::parte»: uma página por parte, cada uma com as suas notas
+    (o título em todas); devolve (textos, glossários)"""
+    vb, oc = g['verbetes'], g.get('ocorrencias', {})
+    if PROVISORIO:
+        vb = dict(vb)
+        for x in ocorrencias(p):
+            vb.setdefault(oc.get(x[0], chave(x[1])), {'lema': x[1], 'classe': '(em preparo)', 'def': ['(nota em preparo)']})
     desl_linha = {m: d for (m, _t, _i, d) in linhas_do_poema(p)}
     paginas = []
-    for _t, ini, fim in cortes:
+    for _t, ini, fim in dividir_partes(texto):
         linhas = texto.split('\n')[ini:fim]
         while linhas and not linhas[0].strip():
             linhas.pop(0)
@@ -509,6 +596,23 @@ def montar(p, info_lingua, poesia=True):
         else:
             pg = next(x for x in paginas if x['ini'] <= i < x['fim'])
             pg['o'].append([i - pg['ini'], a + desl_linha[n], b + desl_linha[n], id_em(pg, k)])
+    return ([pg['texto'] for pg in paginas],
+            [{'v': pg['v'], 'o': pg['o'], 't': pg['t'], 's': pg['s']} for pg in paginas])
+
+
+def montar(p, info_lingua, poesia=True):
+    lingua = p['lingua']
+    poesia = poesia and not p.get('prosa') and not p.get('teatro')
+    g = ler_glossario(p['pasta'])
+    if PROVISORIO and (g is None or conferir(p['pasta'], False)):
+        g = g or {'verbetes': {}}
+    partes = partes_de(p, PROVISORIO)   # no provisório, também as partes em rascunho
+    unico = None if p.get('partes') else ler_texto(p['pasta'])
+    if unico is not None and dividir_partes(unico):
+        textos, glossarios = paginas_por_marcas(p, g, lingua, unico)
+    else:
+        textos = [ler_texto(p['pasta'], x['arquivo']) for _k, x in partes]
+        glossarios = [glossario_da_parte(p, g, kp, lingua) for kp, _x in partes]
     fontes = [{'nome': f['nome'], 'url': f.get('url'), 'nota': f.get('nota')} for f in p.get('fontes', [])]
     wiki = wiki_padrao(lingua).split(':')[0]
     outro = wiki != lingua   # o latim: as definições vêm do en.wiktionary
@@ -519,10 +623,12 @@ def montar(p, info_lingua, poesia=True):
     tr = p.get('traducao')
     apresentacao = ('Texto em %s%s. Toque numa palavra para ver a nota: a definição do sentido que ela tem '
                     'no %s, traduzida do Wiktionary%s, com o link para o verbete original, e, quando é preciso, uma '
-                    'explicação do uso %s.\n\nAs notas, como o Wiktionary, estão sob a '
-                    'licença CC BY-SA 4.0.') % (info_lingua['nome'], '' if tr else ', sem tradução',
+                    'explicação do uso %s.') % (info_lingua['nome'], '' if tr else ', sem tradução',
                                                 'poema' if poesia else 'texto', ' em inglês' if outro else '',
-                                                'no verso' if poesia else 'na frase')
+                                                'no verso' if poesia else 'na fala' if p.get('teatro') else 'na frase')
+    for par in p.get('sobre', []):
+        apresentacao += '\n\n' + par   # o que a obra precisa dizer a mais (o teatro: texto-base, divisão)
+    apresentacao += '\n\nAs notas, como o Wiktionary, estão sob a licença CC BY-SA 4.0.'
     if tr and tr.get('credito'):
         apresentacao += '\n\n**Em português.** No botão «Português», %s.' % tr['publicacao']
         if tr.get('fonte'):
@@ -532,8 +638,8 @@ def montar(p, info_lingua, poesia=True):
         apresentacao += ('\n\n**Tradução.** No botão «Português», a tradução de %s, %s, em domínio público, '
                          'na ortografia de hoje.') % (tr['tradutor'], tr['publicacao'])
         fontes.insert(len(fontes) - 1, {'nome': tr['fonte']['nome'], 'url': tr['fonte'].get('url'), 'nota': tr['fonte'].get('nota')})
-    saida = {'t': [pg['texto'] for pg in paginas],
-             'g': [{'v': pg['v'], 'o': pg['o'], 't': pg['t'], 's': pg['s']} for pg in paginas],
+    saida = {'t': textos,
+             'g': glossarios,
              'e': {'titulo': 'Sobre este texto', 'apresentacao': apresentacao,
                    'fontes': [{k: v for k, v in f.items() if v} for f in fontes]}}
     if tr:
@@ -550,12 +656,12 @@ if __name__ == '__main__':
     a = sys.argv[1:]
     if not a:
         sys.exit(__doc__)
-    if a[0] == 'palavras' and len(a) == 2:
-        cmd_palavras(a[1])
+    if a[0] == 'palavras' and len(a) in (2, 3):
+        cmd_palavras(*a[1:])
     elif a[0] == 'wiki' and len(a) in (3, 4):
         cmd_wiki(*a[1:])
     elif a[0] == 'conferir':
-        sys.exit(0 if cmd_conferir(a[1] if len(a) > 1 else None) else 1)
+        sys.exit(0 if cmd_conferir(a[1] if len(a) > 1 else None, a[2] if len(a) > 2 else None) else 1)
     elif a[0] == 'publicar':
         PROVISORIO = '--provisorio' in a
         publicar()

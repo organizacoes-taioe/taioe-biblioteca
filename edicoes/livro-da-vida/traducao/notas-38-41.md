@@ -52,6 +52,8 @@
 - [40.21] «rne» → «me»; «ga» → «ya».
 - [40.22] «ga» (três vezes) → «ya»; «go» (três vezes) → «yo»; «persoha» → «persona».
 - [40.24] «rní» → «mí»; «podido,» → vírgula no fim do parágrafo (ponto).
+- [Epílogo, 1.º parágrafo] «$ener» → «tener».
+- [Epílogo, 2.º parágrafo] «y ve está obligado» → «y vea que está obligado».
 
 ## Termos e nomes
 
@@ -110,6 +112,11 @@
 - *una manera de sueño en la vida* [40.22] → «sonho» (o contexto é sonhar; não «sono»); *discreta* → «sensata» (§ 3a); *holgarme* → «alegrar-me».
 - *señor y padre mío* [40.23] → «senhor e padre meu».
 - *concertar esta mi desbaratada vida* [40.24] → «pôr em ordem esta minha desordenada vida» (perde-se um pouco do par *concertar/desbaratada*); *llaneza* → «simplicidade» (§ 3a).
+- Título do epílogo: *remitiéndole la Vida* → «enviando-lhe a Vida» (maiúscula da edição: é o livro).
+- *El Espíritu Santo sea siempre con vuestra merced* → «O Espírito Santo esteja sempre com Vossa Mercê» (a saudação das cartas dela).
+- *Padre Maestro Avila* → «o padre mestre Ávila» (§ 4: «o Mestre Ávila»; aqui ela lhe dá também o «padre»); *trasladar* → «copiar»; *romper* → «rasgar» (como em [36.29]).
+- *hacerme a mí merced* (o confessor) → «me fazer esse favor» (§ 3a: *merced* de um homem → «favor»); *sin tasa* → «sem medida».
+- *Junio, año de MDLXII* → «junho, ano de MDLXII» (romanos, como a edição; é a data da primeira redação, como a edição a dá).
 
 ## Passagens difíceis
 
@@ -137,4 +144,14 @@
 - [40.20] *que sí debo hacer* → «que bem pode ser que o faça» (lido: ela teme tomar mais cuidado com o corpo do que precisa). *Esta que digo* → «Desta vez que digo».
 - [40.21] A frase *Y con haber querido el Señor…* não fecha (anacoluto dela); mantida.
 - [40.25] A oração relativa foi reordenada («esta alma que Sua Majestade, com tantos artifícios…, tirou do inferno»).
+- [Epílogo] *las grandes que ha hecho con nosotros*: o *grandes* são as misericórdias da frase anterior; explicitado («as grandes misericórdias que usou conosco»).
 
+## Para o Gere decidir (ou uniformizar)
+
+- *acatamiento* [38.18, 40.3] → «reverência» (proposta para a § 3a; «acatamento» hoje soa a obediência).
+- *asimiento* [40.19] → «apego»; *tasar*, *tasa* → «medir», «medida»; *perlacías* → «cargos de prelado»: propostas para a § 3a.
+- *silbo* [39.3] → «sussurro» (alternativa: «sopro»).
+- *Pascua* (Pentecostes) [38.11] → «a festa», para não se confundir com a Páscoa.
+- *el Cartujano* [38.9] → «um Cartuxo», sem itálico (é o apelido do livro); se o Gere preferir, «a _Vida de Cristo_ do Cartuxo», ou itálico.
+- Maiúscula de reverência nos pronomes: o original alterna *Mí*/*mí*, *El*/*él*; seguida a edição em cada caso («contra Mim» [38.3], «agradável a mim» [40.1], «em Ele» [38.16, 40.18]). «Em Ele» é pouco natural; proposta: «n'Ele»/«Nele» ou reescrever, nos 41 capítulos de uma vez.
+- [40.20] *que sí debo hacer* → «que bem pode ser que o faça»: leitura minha, conferir.

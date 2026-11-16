@@ -952,3 +952,13 @@ BIBLIOTECA.autor({
   area: 'nao-ficcao',
   nota: 'Jesuíta português, chefe da primeira missão da Companhia de Jesus ao Brasil (1549) e primeiro provincial; fundou o colégio de São Paulo de Piratininga e escreveu as primeiras cartas e relatos sobre os índios e a colônia.'
 });
+
+BIBLIOTECA.autor({
+  id: 'santa-teresa-de-jesus',
+  area: 'catolicismo',
+  nome: 'Santa Teresa de Jesus',
+  nomeCompleto: 'Teresa de Cepeda y Ahumada',
+  vida: '1515–1582',
+  ordem: 'Teresa de Jesus, Santa',
+  nota: 'Carmelita de Ávila, reformadora do Carmelo e fundadora das Descalças, mística e doutora da Igreja. Em tradução do castelhano.'
+});

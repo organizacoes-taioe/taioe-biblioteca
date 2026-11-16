@@ -1862,6 +1862,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('robert-louis-stevenson/requiem', 'Requiem'),
   ('santa-catarina-de-sena/dialogo', 'Diálogo da Divina Providência'),
   ('santa-teresa-de-jesus/castelo-interior', 'Castelo interior (As moradas)'),
+  ('santa-teresa-de-jesus/livro-da-vida', 'Livro da Vida'),
   ('santa-teresinha/cartas-de-santa-teresinha', 'Cartas'),
   ('santa-teresinha/historia-de-uma-alma', 'História de uma Alma'),
   ('santa-teresinha/oracoes-de-santa-teresinha', 'Orações'),

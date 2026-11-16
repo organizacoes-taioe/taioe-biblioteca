@@ -104,6 +104,14 @@ saem no português de hoje («assim», «mesmo», «melhor», «segundo», «pie
 | la oración del Huerto | a oração do Horto (o «horto» de Agostinho em minúscula) |
 | perdones · seglar · subir el espíritu | indulgências · secular · elevar o espírito |
 | medrado | crescido (nunca «medrar») |
+| escardar · muladar · mariposilla de la memoria | capinar · monturo · mariposinha da memória |
+| juntamiento con el amor celestial | junção com o amor celestial |
+| seso · aviso (cautela) · recato (cautela) | juízo · atenção · cautela |
+| holgarse (Deus com os homens) · divertirse (as potências) | alegrar-se · distrair-se |
+| romance (a língua) · llaneza · simpleza | castelhano · simplicidade · singeleza |
+| interesal · de poco tomo · piélago · alcaide | interesseira · de pouco peso · mar · comandante |
+
+Falas de Deus a ela: entre aspas, com «tu» («Serve-me tu a mim…»).
 
 Diminutivos dela ficam («cuidadinho», «mulherzinhas»). Sem contrações «mo», «ma», «lho», «no-lo»: soam de
 Portugal ou de livro antigo («ele mo deu» → «ele me deu isso», «deu-me»).

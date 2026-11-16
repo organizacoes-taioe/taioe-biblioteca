@@ -148,7 +148,7 @@ prevalece onde for mais específico. Modelos de tom: `traducao/00-prefacio.txt` 
 
 ## 9. Antes de entregar
 
-- Mesmo número de parágrafos que o original; `[n]` e `¤` no lugar; grep de mesóclise vazio (regra geral; repare que
-  «dir-se-ia» é mesóclise).
+- Mesmo número de parágrafos que o original; `[n]` e `¤` no lugar; grep de mesóclise vazio (regra geral; o condicional
+  com o pronome no meio do verbo também é mesóclise: «parece até», «seria de dizer»).
 - Notas do tradutor em `traducao/notas-<arquivo>.md`: termos novos e como ficaram, passagens difíceis, perdas.
   Termo novo que valha para o livro inteiro: proponha nas notas e no `FALTA.md` («Dúvidas»), não mude este guia.

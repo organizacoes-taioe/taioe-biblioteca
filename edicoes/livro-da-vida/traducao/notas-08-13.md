@@ -28,9 +28,21 @@
 - [11.15] «que lo ha que comenzaron» → provável «que ha mucho que comenzaron» (traduzido «que começaram há muito tempo»).
 - [11.17] «vera» → «verá».
 - [12.1] «parecer rne» → «parecerme».
-- [12.5] «entenderme ha» é a forma dela (futuro com o pronome no meio), não erro; «Porque ,esto» → «Porque esto» (vírgula solta); «ñbra» → «Abra».
+- [12.5] «Porque ,esto» → «Porque esto» (vírgula solta); «ñbra» → «Abra».
 - [12.6] «quera*» → «querer».
 - [12.7] «á El» → «a El».
+- [13.1] «•» solto antes de «Tener» (sobra de OCR); «avedia» → provável «avecica» (avezinha).
+- [13.3] «.ásperas» → «ásperas» (ponto solto); «íener» → «tener».
+- [13.6] «i Sí!... i el descanso!...» → «¡Sí!... ¡el descanso!...».
+- [13.8] «aprovccharon» → «aprovecharon».
+- [13.9] «Ilesia» → «Iglesia».
+- [13.11] «train» → «traen» (ou forma dela, *train*).
+- [13.12] «la pena que Su Majestad temía» → provável «tenía» (traduzido «tinha»).
+- [13.15] «cono* cimiento» → «conocimiento»; «'manjares» → «manjares» (apóstrofo solto); «qw>» → «que».
+- [13.18] «uo» → «no»; «pa mí» → «para mí».
+- [13.20] «guisado, como dicen/» → «guisado, como dicen,» (barra solta); «aproveche» → provável «aprovecho».
+- [13.21] «rne» → «me»; «Plega el Señor» → «Plega al Señor»; «Amén,» → «Amén.».
+- [13.22] «el .entendimiento» → «el entendimiento»; «Plega el Señor» → «Plega al Señor».
 
 ## Termos e nomes
 
@@ -81,15 +93,31 @@
 - *desgustillo*, *poquillo* [12.5] → «desgostinho», «pouquinho».
 - *curiosa* [12.6] (desejosa de saber) → «curiosa» (aqui não é o esmero no vestir da § 3a).
 - *torpeza* [11.5, 12.6] (falta de jeito para entender e dizer) → «inépcia».
+- *ánimas animosas* [13.1] → «almas animosas» (o jogo fica).
+- *se muestre el alma a sólo cazar lagartijas* [13.2]: *mostrarse* = *amostrarse*, adestrar-se → «se adestre só em caçar lagartixas».
+- *medrado* [13.4] → «crescido» (o Gere recusa «medrar»).
+- *naderías* [13.4] → «ninharias»; *de mucho tomo* → «de muito peso» (como *hombres de tomo* [11.14]).
+- *paso de gallina* [13.4] → «passo de galinha»; *atajo* → «atalho».
+- *discreción demasiada* [13.5] (o excesso de cautela dos mestres) → «prudência demasiada»; nos outros lugares *discreción* segue «discernimento».
+- *negros cuerpos* [13.6] (miseráveis) → «miseráveis corpos» («negros» se leria como cor).
+- *ardid* [13.6] → «astúcia»; *flojedad* → «frouxidão»; *amilanar* → «acovardar».
+- *propio conocimiento*, *conocimiento propio* [13.14–13.15] → «conhecimento próprio».
+- *avisado* [13.16] → «sensato» (§ 3a); *aviso* [13.14] (cautela) → «atenção».
+- *de devociones a bobas* [13.16] → «de devoções tolas».
+- *un simple* [13.17] (o mestre sem letras) → «um homem simples»; *si no es de Religión* → «se ele não é religioso».
+- *Perlado* [13.19] → «prelado»; *seglar* → «secular».
+- *nos lo dan guisado* [13.20] → «nos dão tudo pronto».
+- *a la coluna* [13.12, 13.22] (Cristo atado à coluna) → «na coluna».
+- Citação de Santo Agostinho [13.2], que ela dá em castelhano com «tú» → entre aspas, com «Vós»: “Dai-me, Senhor, o que me mandais, e mandai o que quiserdes”.
 
 ## Passagens difíceis
 
 - [8.5] *Y si vos aun no le amáis…*: a frase muda para o «vós» do leitor; o trecho das condições da amizade foi posto entre parênteses, para que «não podeis acabar convosco de amá-lo» se ligue ao «se».
 - [8.5] *cuando no fuere adelante, y se esforzare a ser perfeto, que merezca…*: lido como concessiva negativa («ainda que não vá adiante nem se esforce por ser perfeito, de modo que mereça…»); *a poco ganar* → «pelo menos».
 - [8.7] *la hora que tenía por mí de estar*: lido como a hora que ela mesma se impunha → «a hora que eu me impusera de ficar ali».
+- [8.10] *diré aquí… y se guarden*: o original tem um anacoluto (o que vai dizer não aparece; o «y se guarden» liga-se a «para que»); mantido, com o meio entre parênteses.
 - [9.5] *éste tiene este modo de proceder… que el alma ha de estar muy ganada u perdida, digo perdida la consideración*: lido como «este modo de proceder sem discurso do entendimento tem isto: que a alma há de estar muito ganha ou perdida (digo, perdida a consideração)», isto é, ou muito recolhida no amor ou toda dispersa. *Y en mi ingratitud y pecados*: membro solto também no original; mantido («e também da minha ingratidão e pecados»), ligado a «achava memória».
 - [9.9] *Bien sabía yo era lícito pedirla*: o «la» não tem antecedente claro (devoção? a graça dos gostos?); traduzido «pedi-lo» (o que ela pediu).
-- [8.10] *diré aquí… y se guarden*: o original tem um anacoluto (o que vai dizer não aparece; o «y se guarden» liga-se a «para que»); mantido, com o meio entre parênteses.
 - [10.7] *porque yo sin letras ni buena vida… y al presente no está aquí…*: frase que não fecha também no original (a oração principal não vem); mantida assim, com o parêntese. *No está aquí* fica no singular (é o confessor).
 - [10.7] *En vida está claro que no se ha de decir de lo bueno*: «em vida, está claro que não se há de dizer [o nome], quanto ao que for bom».
 - [10.9] *me ha dado el Señor, me ha dado Su Majestad la expiriencia… que a otros en cuarenta y siete*: a repetição fica; acrescentado «deu» no segundo membro («que a outros deu em quarenta e sete»), para a comparação se ler.
@@ -106,5 +134,19 @@
 - [12.4] *me hacía Dios merced de que entendiese esta verdad, que no era poco atrevimiento, cuanti más para las del cielo*: lido como «Deus me fazia mercê de que eu entendesse esta verdade: que [pensar coisas da terra] não era pouco atrevimento; quanto mais as do céu».
 - [12.5] *aunque no se entiende, es de no gran humildad, aunque no con culpa, con pena sí*: «ainda que não se entenda, é de pouca humildade; não com culpa, mas com pena, sim» (a pena é o castigo: o trabalho perdido).
 - [12.6] *u quería el Señor… que no tuviese a nadie que agradecer; y sin querer… dármelo Dios en un punto a entender*: o infinitivo *dármelo* continua o «quería» → «Deus me dava isso a entender», no indicativo, para a frase correr.
+- [13.1] *Quiere Su Majestad y es amigo de ánimas animosas* → «Sua Majestade quer almas animosas e é amigo delas».
+- [13.6] *¡Sí!… ¡el descanso!… ¡No he ya menester descanso, sino cruz*: a fala dela consigo, com as exclamações soltas, mantida («sim!… o descanso!… Já não preciso de descanso, mas de cruz»).
+- [13.9] O parágrafo acaba em reticências, sem fechar a frase («se houvesse de dizer os erros que vi…»): é assim no original.
+- [13.13] *Digo todos, porque hay muchas almas que aprovechan más en otras meditaciones*: a frase parece dizer o contrário do «todos» do parágrafo anterior (talvez «No digo todos»); traduzida como está. Vale conferir noutra edição.
+- [13.18] *porque creo temen en gran manera las letras*: o sujeito plural (os demônios) não está na frase, que vem de «el demonio» no singular; acrescentado «os demônios», para se ler.
+- [13.19] *aunque no tengan espíritu me aprovechará*: o «me» pode ser erro por «le»; traduzido como está.
+- [13.19] *si es religioso, pues ha de estar sujeto a su Perlado… sin que él de su voluntad sujete su entendimiento a quien no le tenga bueno*: lido como «já basta a cruz de estar sujeito a um prelado que talvez não tenha as três coisas, sem ainda sujeitar de vontade própria o entendimento a quem não o tem bom»; o meio entre parênteses.
+- [13.20] *Y podrá ser que pensemos algunos que estamos libres de estos trabajos… que… nos hemos de aventajar*: reordenada a frase para o sujeito («alguns de nós») e o verbo («pensemos») ficarem perto do que pensam.
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
+- **Contrações *mo*, *ma*, *lho*, *no-lo*** evitadas em todo o lote (soam de Portugal ou de livro antigo); proposta para o § 1 do `CONVENCOES.md`. Vale conferir o 1.º lote, que quase não as tem.
+- **Termos da horta** (cap. 11) seguem a tabela; o novo é *caldero* → «balde», e *torno* → «manivela». Propostas para a § 3a.
+- *discreción* → «discernimento» seguido sem exceção, menos em [13.5] (*discreción demasiada* → «prudência demasiada»).
+- *fatiga, fatigar* → «aflição», «afligir»; *congoja* → «angústia»: proposta para a § 3a.
+- *aprovechar, aprovechamiento, aprovechado* → «aproveitar», «proveito», «aproveitado»: termo de Teresa, que se repete muito; mantido.
+- [13.13] *Digo todos*: conferir noutra edição se não é *No digo todos*.

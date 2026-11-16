@@ -28,6 +28,12 @@
 - [5.7] «asíarj» → «asían».
 - [5.8] «dabá» → «daba»; ««.Pues» → ««Pues» (ponto solto).
 - [5.9] «dejó, i Oh» → «dejó. ¡Oh»; «memento» → «momento».
+- [6.1] No fim do parágrafo entrou no texto um pedaço de nota de rodapé do editor (começa com «\ Dejó la Santa incompleta la frase…»): não é de Teresa; não foi traduzido; tirar do `original/06.txt`.
+- [6.4] «Ja» → «la»; «sufrir, i Oh» → «¡Oh».
+- [6.5] «ia» → «la».
+- [6.6] «Jhacer» → «hacer»; «'señor» → «señor» (apóstrofo solto).
+- [6.8] «e, camino» → «el camino»; «Plega el Señor» → «Plega al Señor».
+- [6.9] «i Quién» → «¡Quién»; «i Qué» → «¿Qué»; «ga» → «ya».
 - [5.10] «oirías» → «oírlas»; «ñas» → «mas»; «lo iba harto mi salvación» → provável «me iba» ou só «iba» (traduzido «a minha salvação ia bem arriscada»).
 
 ## Termos e nomes
@@ -47,6 +53,11 @@
 - *virtud* no sentido de vigor [5.7] → «forças». *Ética* (héctica) → «tísica». *Parajismo* → «ataque» (perda total dos sentidos).
 - *los Morales de San Gregorio* → _Morais_ de São Gregório (a tradução castelhana dos *Moralia in Iob* que ela lia). Alternativa: _Moralia_.
 - *una persona de la Iglesia* → «uma pessoa da Igreja» (ela é discreta de propósito; não «um clérigo»).
+- *Pascua florida* → «Páscoa» (em português «Páscoa florida» pode ser lido como Domingo de Ramos).
+- *tullida* → «entrevada». *Cuartanas dobles* → «febres quartãs dobradas».
+- *ayo* (São José como quem cria o Menino) → «tutor» («aio» soa antigo).
+- *Santo, Santa, Patriarca* com maiúscula na edição (uso de 1915) → minúscula no português («vidas de santos», «este glorioso santo», «patriarca»); as maiúsculas de reverência a Deus seguem a edição.
+- *amiguísima* → «grandíssima amiga».
 - *enemiguísima de ser monja* → «muitíssimo contrária a ser monja».
 
 ## Passagens difíceis

@@ -15,7 +15,11 @@ rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. Trabalho (páginas, OCR, léxic
 5. Conferência nas imagens das dúvidas (pranchas, subagente Sonnet) → `correcoes.json` → repetir 4.
 
 ## Feito
-- Degrau 1: grego provisório (OCR + léxico, falta a conferência nas imagens) e tradução.
+- Grego provisório dos 30 degraus em `original/` (OCR + léxico + 2ª leitura; falta a conferência nas imagens das
+  ~2.600 palavras duvidosas e das linhas relidas). Estrutura: `ferramentas/estrutura-frases.json` →
+  `resolver.py` → `estrutura.json`; títulos em `titulos.json` (lidos nas imagens); cortes em `cortes.json`
+  (cópia em `ferramentas/`, **a tradução depende deles**).
+- Tradução: degrau 1.
 
 ## Falta
 - OCR completo, 2ª leitura, estrutura dos 30 degraus, conferência das dúvidas.

@@ -42,8 +42,25 @@ for f in sorted(glob.glob(os.path.join(AQUI, ENTRADA, '*.json'))):
         if len(greg) < 4: continue
         xs = sorted(l['x0'] for l in greg); x0 = xs[len(xs) // 4]
         xr = sorted(max(w[4] for w in l['words']) for l in greg); xmax = xr[len(xr) * 3 // 4]
+        import difflib
+        xr_lin = sorted(max(w[4] for w in l['words'] if len(nucleo(w[0])) >= 3) for l in greg if any(len(nucleo(w[0])) >= 3 for w in l['words']))
+        margem_d = xr_lin[len(xr_lin) * 6 // 10] if xr_lin else 10 ** 6
+        col = sorted(col, key=lambda l: l['y'])
+        txt = [' '.join(w[0] for w in l['words']) for l in col]
+        for k, l in enumerate(col):
+            if l.get('relida'):     # releitura que repete a linha vizinha
+                mine = [nucleo(w).lower() for w in txt[k].split() if len(nucleo(w)) >= 3]
+                cf = lambda q: sum(w[1] for w in q['words']) / len(q['words'])
+                for j in (k - 1, k + 1):
+                    if not (0 <= j < len(col)) or col[j].get('relida'): continue
+                    vv = [nucleo(w).lower() for w in txt[j].split() if len(nucleo(w)) >= 3]
+                    iguais = sum(1 for w in mine if any(difflib.SequenceMatcher(None, w, x).ratio() > .75 for x in vv))
+                    if mine and iguais / len(mine) >= .5:
+                        (col[j] if cf(col[j]) < cf(l) else l)['dup'] = True
         for l in col:
-            if l['y'] < h * .066 or l['y'] > h * .95: continue      # cabeçalho, pé
+            if l.get('dup'): continue
+            if l['y'] < h * .066 or l['y'] > h * .95: continue
+            l['words'] = [w for w in l['words'] if not (w[2] > margem_d - 5 and len(nucleo(w[0])) <= 3)] or l['words']      # cabeçalho, pé
             ws = sorted(l['words'], key=lambda w: w[2])
             # corta pelo vão grande: sujeira na margem, letras A B C D na calha, sobras da outra coluna
             grupos, g = [], [ws[0]]
@@ -57,7 +74,7 @@ for f in sorted(glob.glob(os.path.join(AQUI, ENTRADA, '*.json'))):
             if not ws: continue
             conf = sum(w[1] for w in ws) / len(ws)
             r, n = taxa(ws)
-            if conf < 60 and r < .6: continue          # latim lido como grego (confiança baixa)
+            if conf < (45 if l.get('relida') else 60) and r < .6: continue          # latim lido como grego (confiança baixa)
             if n >= 2 and r < .34: continue          # latim que invadiu
             if n == 0 and not any(GREGO.search(w[0]) for w in ws): continue
             if n <= 1 and r == 0 and len(ws) <= 2 and l['y'] > h * .85: continue   # nota de pé solta
@@ -68,14 +85,18 @@ for f in sorted(glob.glob(os.path.join(AQUI, ENTRADA, '*.json'))):
                 a, core, b = m.groups()
                 toks.append([a + core + b, w[1], w[2], w[3], w[4], w[5]])
             boas.append({'y': l['y'], 'y1': l['y1'], 'x0': ws[0][2], 'rec': ws[0][2] - x0, 'toks': toks})
-        # notas de pé: bloco curto e pouco grego depois de um vão grande no fim da página
-        for k in range(len(boas) - 1, max(0, len(boas) - 4), -1):
+        # notas de pé: de baixo para cima, depois de um vão grande no fim da página, as linhas que não são grego
+        corte = None
+        for k in range(len(boas) - 1, max(0, len(boas) - 6), -1):
             if boas[k]['y'] - boas[k - 1]['y1'] > 60 and boas[k]['y'] > h * .75:
-                resto = boas[k:]
-                tx = [taxa([[t[0]] for t in b['toks']])[0] for b in resto]
-                if sum(tx) / len(tx) < .6 or any(re.match(r'^[\d\W]', b['toks'][0][0]) for b in resto):
-                    boas = boas[:k]
-                break
+                corte = k; break
+        if corte is not None:
+            fica = boas[:corte]
+            for b in boas[corte:]:
+                tx = taxa([[t[0]] for t in b['toks']])[0]
+                ruim = tx < .5 or re.match(r'^[\d\W]', b['toks'][0][0])
+                if not ruim: fica.append(b)
+            boas = fica
         # recuo pela margem local (a página costuma estar torta): 30º percentil dos x0 das 15 linhas vizinhas
         for k, l in enumerate(boas):
             viz = sorted(b['x0'] for b in boas[max(0, k - 7):k + 8])

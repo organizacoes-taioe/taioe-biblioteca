@@ -10,7 +10,7 @@ if len(sys.argv) > 3: arqs = [os.path.join(jsons, '%s.json' % a) for a in sys.ar
 novas_total = 0
 for f in arqs:
     d = json.load(open(f, encoding='utf-8'))
-    if d.get('lacunas'): continue
+    if d.get('lacunas') == 2: continue
     b = os.path.basename(f)[:-5]
     png = os.path.join(pngs, b + '.png')
     if not os.path.exists(png): png = os.path.join(pngs, 'u-' + b + '.png')
@@ -25,8 +25,8 @@ for f in arqs:
         a, bb = (0, g) if ci == 0 else (g, w)
         novas = []
         for i in range(len(col) - 1):
-            if col[i + 1]['y'] - col[i]['y'] < 1.6 * pitch: continue
-            y0, y1 = col[i]['y1'] + 2, col[i + 1]['y'] - 2
+            if col[i + 1]['y'] - col[i]['y'] < 1.35 * pitch: continue
+            y0, y1 = min(col[i]['y1'], col[i]['y'] + int(alt)) + 2, col[i + 1]['y'] - 2
             if y1 - y0 < alt * .6: continue
             crop = im.crop((a, y0, bb, y1))
             with tempfile.TemporaryDirectory() as td:
@@ -45,6 +45,6 @@ for f in arqs:
                               'x1': max(x[4] for x in ws), 'words': ws, 'relida': True})
         if novas:
             col.extend(novas); col.sort(key=lambda l: l['y']); novas_total += len(novas)
-    d['lacunas'] = True
+    d['lacunas'] = 2
     json.dump(d, open(f, 'w', encoding='utf-8'), ensure_ascii=False)
 print('linhas novas', novas_total)

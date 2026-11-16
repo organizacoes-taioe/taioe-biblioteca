@@ -773,6 +773,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'jose-de-anchieta',
+  nome: 'São José de Anchieta',
+  nomeCompleto: 'José de Anchieta y Llarena',
+  vida: '1534–1597',
+  ordem: 'Anchieta, São José de',
+  area: 'nao-ficcao',
+  nota: 'Jesuíta nascido em Tenerife, nas Canárias, missionário no Brasil por 44 anos, um dos fundadores de São Paulo e do Rio de Janeiro, provincial da Companhia e autor da primeira gramática do tupi; canonizado em 2014.'
+});
+
+BIBLIOTECA.autor({
   id: 'pero-rodrigues',
   nome: 'Pero Rodrigues',
   nomeCompleto: 'Pero Rodrigues',
@@ -931,4 +941,14 @@ BIBLIOTECA.autor({
   ordem: 'Tocqueville, Alexis de',
   area: 'nao-ficcao',
   nota: 'Pensador político e historiador francês, autor de A democracia na América e de O Antigo Regime e a Revolução.'
+});
+
+BIBLIOTECA.autor({
+  id: 'manuel-da-nobrega',
+  nome: 'Manuel da Nóbrega',
+  nomeCompleto: 'Manuel da Nóbrega',
+  vida: '1517–1570',
+  ordem: 'Nóbrega, Manuel da',
+  area: 'nao-ficcao',
+  nota: 'Jesuíta português, chefe da primeira missão da Companhia de Jesus ao Brasil (1549) e primeiro provincial; fundou o colégio de São Paulo de Piratininga e escreveu as primeiras cartas e relatos sobre os índios e a colônia.'
 });

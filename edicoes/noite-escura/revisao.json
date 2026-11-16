@@ -1,0 +1,107 @@
+{
+ "id": "noite-escura",
+ "rotulo": "Noite Escura (São João da Cruz)",
+ "url": "/biblioteca/sao-joao-da-cruz/noite-escura/",
+ "escolhas": [
+  {
+   "id": "securas",
+   "titulo": "«Sequedades» fica «securas»?",
+   "ref": "toda a obra; sobretudo livro I, cap. 9–13",
+   "contexto": "Hoje: «lhes tira todas estas impertinências e criancices» em «puras securas e trevas interiores». O autor usa o plural (*sequedades*) e, à parte, *aridez*.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«secura(s)», como está",
+     "nota": "Guarda o plural e a palavra do autor; distingue de *aridez*.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«aridez», «aridezes»",
+     "nota": "A palavra mais usada hoje em livros de espiritualidade; o plural soa estranho, e confunde com *aridez*."
+    }
+   ]
+  },
+  {
+   "id": "purgacao",
+   "titulo": "«Purgación» fica «purgação», e «purificación» «purificação», sem trocar uma pela outra?",
+   "ref": "toda a obra; ex.: II,1 e II,5",
+   "contexto": "O autor usa as duas palavras, às vezes juntas («purgaciones o purificaciones»). Hoje: «logo que sai das securas e trabalhos da primeira purgação e noite do sentido»; e «por ser a parte principal da purificação da alma». Em português «purgação» lembra remédio.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "As duas, como o autor as usa, como está",
+     "nota": "Fiel ao vocabulário dele; «purgação» é o termo da tradição.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«purificação» sempre",
+     "nota": "Mais natural hoje; apaga a diferença que o autor faz quando usa as duas."
+    }
+   ]
+  },
+  {
+   "id": "refreados",
+   "titulo": "«Tienen algo refrenados los apetitos»: «um tanto refreados»?",
+   "ref": "I,8,3",
+   "contexto": "O texto que tínhamos (do OCR) dizia *rellenados*; na imagem da edição de 1929 está *refrenados*. Hoje: «com que têm um tanto refreados os apetites das criaturas, com que poderão suportar por Deus um pouco de carga e secura».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«refreados», pela imagem, como está",
+     "nota": "É o que está impresso e o que o sentido pede.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«contidos»",
+     "nota": "Mais comum; perde a imagem do freio."
+    }
+   ]
+  },
+  {
+   "id": "alvorada",
+   "titulo": "«Oh noche amable más que la alborada»: «alvorada»?",
+   "ref": "canção 5 (e a da Subida, «el alba»)",
+   "contexto": "A Noite traz «la alborada», a Subida «el alba». Hoje as duas ficam «Oh noite amável mais que a alvorada», para os versos serem os mesmos nas duas obras.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«alvorada» nas duas, como está",
+     "nota": "Uma só tradução do verso; diferença mínima de sentido.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«alvorada» na Noite e «alba» na Subida",
+     "nota": "Segue cada original à risca; «alba» é palavra rara."
+    }
+   ]
+  },
+  {
+   "id": "madeiro",
+   "titulo": "«El madero» que o fogo transforma fica «o madeiro»?",
+   "ref": "II,10 (também Subida I,11,6 e II,8,2)",
+   "contexto": "A grande comparação do livro II: o fogo primeiro seca o madeiro, o enegrece e o faz feio, e depois o transforma em si. Hoje: «o madeiro», nas duas obras; *leña* (lenha de queimar) fica «lenha».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«madeiro», como está",
+     "nota": "A palavra das traduções clássicas; é uma peça só, que arde.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«lenho»",
+     "nota": "Mais exato e curto; um pouco mais literário."
+    },
+    {
+     "id": "c",
+     "texto": "«lenha»",
+     "nota": "A mais comum; é palavra de massa, e a comparação pede uma peça só."
+    }
+   ]
+  }
+ ]
+}

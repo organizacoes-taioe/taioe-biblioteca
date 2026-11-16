@@ -412,7 +412,7 @@
       "def": [
         "Imitar, simular; zombar de, em especial imitando."
       ],
-      "nota": "Verbo de duplo sentido: «a mão que as imitou» (o escultor) e «a mão que zombou delas» (o rei). O jogo é central no poema."
+      "nota": "Verbo de duplo sentido: a mão do escultor «imitou» as paixões do rei na pedra e, ao imitá-las, «zombou» delas. O coração que as alimentou («the heart that fed») é o do rei."
     },
     "heart": {
       "lema": "heart",
@@ -641,7 +641,25 @@
       "def": [
         "De um lugar, para longe daqui."
       ]
+    },
+    "that#2": {
+      "lema": "that",
+      "classe": "conjunção",
+      "def": [
+        "Introduz uma oração subordinada que funciona como objeto: que."
+      ]
+    },
+    "that#3": {
+      "lema": "that",
+      "classe": "pronome relativo",
+      "def": [
+        "Introduz uma oração que qualifica um substantivo antecedente: que, o qual."
+      ]
     }
   },
-  "ocorrencias": {}
+  "ocorrencias": {
+    "6.2": "that#2",
+    "8.3": "that#3",
+    "8.9": "that#3"
+  }
 }

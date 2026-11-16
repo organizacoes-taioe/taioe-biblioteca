@@ -120,6 +120,10 @@ saem no português de hoje («assim», «mesmo», «melhor», «segundo», «pie
 | cuestión (o tormento) · sayal · conjurar | tormento · pano grosseiro · exorcizar |
 | requiebro (29.13) | galanteio (ver `revisao.json`) |
 | Querubines | querubins |
+| agua bendita · rezado (o ofício) · noche de las ánimas | água benta · ofício · noite de Finados |
+| corrida, correrse · entender en (a fundação) · Retor | envergonhada, envergonhar-se · ocupar-se de · reitor |
+| monesterio más encerrado · labrar (a casa) · Bula de relajación | de clausura mais estrita · fazer as obras · Bula de mitigação |
+| canto de órgano · mayorazgo · levantar (falso) | canto a várias vozes · morgado · levantar calúnia |
 
 Falas de Deus a ela: entre aspas, com «tu» («Serve-me tu a mim…»). Pessoas que ela não nomeia ficam sem
 nome também na tradução. Título de hino (_Veni Creator_) sem tradução entre colchetes.

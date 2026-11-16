@@ -36,6 +36,10 @@
 - *tierna* (de lágrimas fáceis, VI.6) → «sensível» / «terna»; *recio* (o coração) → «duro»; *alquitara* → «alambique».
 - *trampantojos* (VI.6) → «ilusões»; *algarabía* → «algaravia»; *pregonero / apregonar* → «pregoeiro / apregoar».
 - *Fray Pedro de Alcántara* → «Frei Pedro de Alcântara».
+- *escarmentada* (VI.7) → «escaldada»; *dechado* → «modelo»; *bobos* → «parados como bobos».
+- *nuestro Padre Elias* (VI.7) → «nosso Pai Elias» (maiúscula do original; é o pai do Carmelo).
+- *el prendimiento* (VI.7) → «a prisão»; *oración del Huerto* → «oração do Horto».
+- *Sacratísima Virgen*, *Madre Sacratísima*, *Santos*: maiúsculas como no original, que oscila (*santos* na ementa, *Santos* no texto).
 
 ## Passagens difíceis
 
@@ -51,6 +55,10 @@
 - VI.3, «Nuestro Señor le porná al confesor»: o *le* é o ânimo; «Nosso Senhor o dará ao confessor».
 - VI.4, o parêntese da casa da duquesa de Alba: no original o parêntese abre em «adonde, viniendo de camino» e fecha em «para aquí»; mantive o mesmo corte, com ponto e vírgula dentro.
 - VI.4, «Esto y algunas cosas de las que van aquí…»: frase sem verbo principal no original; mantive o fragmento.
+- VI.7, «Esta es la que digo que ternán razón quien ha llegado…»: elipse dela (terão razão *de não a fazer*); explicitei «terá razão de não fazer».
+- VI.7, «no es estorbo … sino gran ayuda para todo bien, lo que sería si mucho trabajase en el discurrir»: o *lo que sería* retoma «estorvo»; «estorvo seria, sim, se trabalhasse muito no discorrer».
+- VI.7, «porque son vivas centellas para encenderla más en el que tiene a Nuestro Señor»: *el* = o amor; explicitei «no amor que tem a Nosso Senhor».
+- VI.7, fim: «nunca me acaba de pesar de que haya habido nengún tiempo que yo careciese de entender que se podía malganar con tan gran pérdida»: frase embaraçada; segui a letra («que eu deixasse de entender que só se podia ganhar mal, com tão grande perda»). Alternativa, pelo sentido do capítulo: «que eu tenha vivido algum tempo privada [da Humanidade de Cristo]; entendo que só se podia ganhar mal com tão grande perda».
 
 ## Possíveis erros do texto-fonte (OCR)
 
@@ -68,5 +76,7 @@
 - VI.6, «aunque ino fuese por más»: *ino* por *no*.
 - VI.6, «Fray Pedro de [Alcánjtara»: o colchete de Silverio ficou estropiado (*[Alcánjtara* por *[Alcán]tara*); também «[ala]banzas», «mes[mo]», «[por]que», «un [día]», todos lidos inteiros.
 - VI.6, «le tiníen por loco»: *tiníen* (forma dela, por *tenían*), não é erro.
+- VI.7, «y no para el entendimiento hasta que está puesto en la u tomamos un paso»: falta uma palavra depois de *en la*; pelo sentido (do Horto até…), *cruz*. Traduzi «até que está posto na cruz»: conferir na imagem.
+- VI.7, «milaglos», «Ilesia», «empidirá»: formas dela, não erros.
 
 ## Decisões delicadas (candidatas ao dono)

@@ -34,6 +34,21 @@
 - [6.6] «Jhacer» → «hacer»; «'señor» → «señor» (apóstrofo solto).
 - [6.8] «e, camino» → «el camino»; «Plega el Señor» → «Plega al Señor».
 - [6.9] «i Quién» → «¡Quién»; «i Qué» → «¿Qué»; «ga» → «ya».
+- [7.1] «tornarmie» → «tornarme»; «muy¡» → «muy»; «primitiera» → «permitiera»; «hiproquesía» → provável «hipocresía» (se não for grafia dela).
+- [7.2] «hada» → «hacía».
+- [7.4] «Parécerne» → «Paréceme»; «sé quieren» → «se quieren».
+- [7.5] «i Oh» → «¡Oh»; «Plega la Divina Majestad» → «Plega a la».
+- [7.6] «lo que de aquello no le pesaba» → «lo que de aquello le pesaba» (o «no» contradiz o sentido; a BAE não o tem): traduzido sem o «no».
+- [7.8] «la habido» → «la ha habido»; «(Oh» → «¡Oh».
+- [7.11] «hádaseme» → «hacíaseme».
+- [7.12] «aunaue» → «aunque».
+- [7.13] «temían meditación» → «ternían» (= tendrían).
+- [7.15] «Extrama-Unción» → «Extrema-Unción».
+- [7.16] «Je» → «le»; «a tal, padre» → «a tal padre» (vírgula solta).
+- [7.18], [7.19] «i Oh» → «¡Oh».
+- [7.20] «al , principio» → «al principio»; «primitir» → «permitir»; «Latar» → «tratar».
+- [7.21] «terna» → «terná».
+- [7.22] «lós» → «los»; «Amén,» → «Amén.».
 - [5.10] «oirías» → «oírlas»; «ñas» → «mas»; «lo iba harto mi salvación» → provável «me iba» ou só «iba» (traduzido «a minha salvação ia bem arriscada»).
 
 ## Termos e nomes
@@ -58,6 +73,10 @@
 - *ayo* (São José como quem cria o Menino) → «tutor» («aio» soa antigo).
 - *Santo, Santa, Patriarca* com maiúscula na edição (uso de 1915) → minúscula no português («vidas de santos», «este glorioso santo», «patriarca»); as maiúsculas de reverência a Deus seguem a edição.
 - *amiguísima* → «grandíssima amiga».
+- *religión* como observância da regra [7.3, 7.5, 7.9] → «observância» («onde não se guarda a observância»); *las religiones* (as ordens) → «as ordens religiosas»; *cosas de la Religión* → «coisas da vida religiosa».
+- *antojo, antojarse* (visão tida por imaginação) → «fantasia», «era fantasia minha».
+- *dechados… labor* [7.5] (amostra de bordado): «o modelo de onde todos copiassem as virtudes… tão apagado o bordado», para guardar a imagem.
+- *hacerse espaldas* [7.22] → «cobrir as costas uns aos outros».
 - *enemiguísima de ser monja* → «muitíssimo contrária a ser monja».
 
 ## Passagens difíceis
@@ -73,3 +92,15 @@
 - [5.1] *Alguna tiene no estar fundado el monesterio en mucha perfeción*: lido como «alguma culpa» (não «desculpa») → «Alguma culpa tem o mosteiro, por não estar fundado em muita perfeição».
 - [5.8] *si yo no lo hubiera por mi culpa perdido*: o «lo» é o mérito do sofrimento → «se eu não lhe tivesse perdido o mérito por minha culpa».
 - [5.10] *hechas las honras en uno de nuestros frailes* → «num dos conventos dos nossos frades». *Si el engaño… no me aprovechara*: mantido ao pé da letra («se o engano… não me aproveitasse»): as lágrimas bastariam para salvá-la se a ignorância em que os confessores a puseram não lhe servisse de escusa; frase obscura também no original.
+- [7.4] *no se podrá encubrir sino poco tiempo, y acá muy mucho*: acrescentado «em casa» no primeiro membro, para o contraste com «cá» (o mosteiro) se ler.
+- [7.4] *Ve allí que lo tienen por bueno*: *ve allí* = «eis aí».
+- [7.19] *esto por una condición virtuosa lo podemos acá sacar* → «isto o podemos cá deduzir de uma condição virtuosa» (pela analogia com quem tem bom natural).
+
+## Para o Gere decidir (ou uniformizar nos outros lotes)
+
+- *merced* (Deus) → «mercê»; *Vuestra Majestad* em vocativo → «Vossa Majestade»; a Deus, «Vós». Seguido sem exceção.
+- *honestidad* → «recato»: é a escolha mais sensível deste lote (Teresa usa muito a palavra); se o Gere preferir «honestidade», trocar em 1.1, 1.2, 2.3, 2.8, 5.5.
+- *Religión* → «vida religiosa» / «observância»: proposta para entrar no § 3 do `CONVENCOES.md`.
+- *discreto, discreción* → «sensato», «discernimento»: proposta para o § 3 (é termo frequente em Teresa).
+- *regalo* entre pessoas → «carinho», «conforto», «mimada»; «regalo» só para os de Deus: proposta para o § 3.
+- Maiúscula de *Santo/Santa/Patriarca*: a edição de 1915 sempre a põe; aqui ficou minúscula. Proposta para o § 6.

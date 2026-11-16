@@ -1,0 +1,100 @@
+{
+ "id": "castelo-interior",
+ "rotulo": "Castelo interior (Santa Teresa de Jesus)",
+ "url": "/biblioteca/santa-teresa-de-jesus/castelo-interior/",
+ "escolhas": [
+  {
+   "id": "titulo",
+   "titulo": "O título da obra fica «Castelo interior (As moradas)»?",
+   "ref": "título, página da obra",
+   "contexto": "Teresa chama o livro «Castillo interior» na dedicatória; a tradição o chama também «Las Moradas», e a 1ª edição (1588) traz os dois nomes.",
+   "opcoes": [
+    {"id": "a", "texto": "«Castelo interior (As moradas)», como está", "nota": "Os dois nomes pelos quais o livro é conhecido; o de Teresa primeiro.", "recomendada": true},
+    {"id": "b", "texto": "«Castelo interior»", "nota": "Só o nome que ela deu, mais curto."},
+    {"id": "c", "texto": "«As moradas»", "nota": "O nome mais comum na Espanha, menos no Brasil."}
+   ]
+  },
+  {
+   "id": "vos-irmas",
+   "titulo": "Teresa fala às irmãs por «vós»?",
+   "ref": "o livro inteiro",
+   "contexto": "Ela escreve às monjas por *vosotras*: «Mirad mucho, hijas…» — «Olhai muito, filhas, algumas coisas que aqui vão apontadas».",
+   "opcoes": [
+    {"id": "a", "texto": "«vós», como está: «olhai», «vereis», «vos parecerá»", "nota": "O plural de conversa do castelhano dela, como nas outras obras do Catolicismo (Filoteia).", "recomendada": true},
+    {"id": "b", "texto": "«vocês»: «olhem», «vão ver», «vai parecer a vocês»", "nota": "Mais próximo da fala de hoje, mas destoa do tom e do «Vós» com que ela fala a Deus."}
+   ]
+  },
+  {
+   "id": "contentos-gustos",
+   "titulo": "*Contentos* e *gustos* ficam «contentamentos» e «gostos»?",
+   "ref": "III.2 e IV.1–IV.3 (dezenas de vezes)",
+   "contexto": "Teresa distingue os *contentos*, que nascem do nosso esforço na meditação, dos *gustos*, que Deus dá na oração de quietude: «os contentamentos me parece que se podem chamar os que nós adquirimos com a nossa meditação».",
+   "opcoes": [
+    {"id": "a", "texto": "«contentamentos» e «gostos», como está", "nota": "Os termos dela, palavra por palavra; ela mesma explica a diferença.", "recomendada": true},
+    {"id": "b", "texto": "«consolações» e «gostos»", "nota": "«Consolações» é o termo de outros autores espirituais, mas Teresa usa *consuelos* para outra coisa."}
+   ]
+  },
+  {
+   "id": "trabalhos",
+   "titulo": "*Trabajos* (os sofrimentos que Deus manda) fica «trabalhos»?",
+   "ref": "o livro inteiro, sobretudo VI.1 e VII.3",
+   "contexto": "«quando o Senhor começa a fazer maiores mercês, há maiores trabalhos» (VI.1): doenças, perseguições, securas, penas interiores.",
+   "opcoes": [
+    {"id": "a", "texto": "«trabalhos», como está", "nota": "O termo dela e da tradição espiritual em português («os trabalhos desta vida»); o contexto deixa claro que não é emprego.", "recomendada": true},
+    {"id": "b", "texto": "«sofrimentos» ou «provações», conforme o caso", "nota": "Mais claro para o leitor de hoje, mas perde a palavra fixa que ela repete."}
+   ]
+  },
+  {
+   "id": "letrados",
+   "titulo": "*Letrados* (os teólogos que ela consulta) fica «letrados»?",
+   "ref": "I.2, IV.1, V.1, VI.3, VI.8, epílogo",
+   "contexto": "«os letrados e entendidos muito bem as sabem» (I.2); em V.1, *medio letrados espantadizos*, «meio letrados assustadiços». Para ela, letrado é o homem de estudo, teólogo, em geral confessor.",
+   "opcoes": [
+    {"id": "a", "texto": "«letrados», como está", "nota": "Termo-chave de Teresa, com o seu peso histórico; existe em português com esse sentido.", "recomendada": true},
+    {"id": "b", "texto": "«homens de estudo» ou «teólogos»", "nota": "Mais imediato, mas perde a ironia de «meio letrados»."}
+   ]
+  },
+  {
+   "id": "sabandijas",
+   "titulo": "As *sabandijas* do castelo ficam «bichos»?",
+   "ref": "I.1, I.2, II.1, III.1 (as que entram nos primeiros aposentos)",
+   "contexto": "As distrações e tentações que entram com a alma nas primeiras moradas: «entram com elas tantos bichos, que não as deixam ver a formosura do castelo».",
+   "opcoes": [
+    {"id": "a", "texto": "«bichos», como está (e «coisas peçonhentas» para *cosas emponzoñosas*)", "nota": "A palavra comum para o que ela descreve (víboras, lagartixas, bichos venenosos).", "recomendada": true},
+    {"id": "b", "texto": "«sevandijas»", "nota": "O cognato português, exato, mas raro hoje."},
+    {"id": "c", "texto": "«répteis»", "nota": "Mais preciso para cobras e lagartixas, mas estreita a imagem."}
+   ]
+  },
+  {
+   "id": "cavalarias",
+   "titulo": "*Dios de las Caballerías* (VI.6) fica literal?",
+   "ref": "VI.6",
+   "contexto": "Ela chama o Senhor que dá forças à alma de «Dios de las Caballerías», à maneira do «Deus dos exércitos» da Escritura.",
+   "opcoes": [
+    {"id": "a", "texto": "«Deus das Cavalarias», como está", "nota": "Guarda a imagem dela, de livro de cavalaria.", "recomendada": true},
+    {"id": "b", "texto": "«Deus dos Exércitos»", "nota": "Mais clara, mas apaga a expressão própria de Teresa."}
+   ]
+  },
+  {
+   "id": "vistas",
+   "titulo": "As *vistas* dos noivos (V.4) ficam «encontro»?",
+   "ref": "V.4",
+   "contexto": "Na comparação do desposório: antes do noivado, os noivos *vienen a vistas*, se encontram para se conhecer; a oração de união é como esse encontro, e ainda não o desposório.",
+   "opcoes": [
+    {"id": "a", "texto": "«encontro», como está", "nota": "Claro e natural; perde-se só o termo jurídico do século XVI.", "recomendada": true},
+    {"id": "b", "texto": "«visitas»", "nota": "Mais perto da letra, mas sugere visitas repetidas."},
+    {"id": "c", "texto": "«entrevista»", "nota": "O termo antigo exato, mas hoje lembra emprego ou jornal."}
+   ]
+  },
+  {
+   "id": "latim-trad",
+   "titulo": "O latim que Teresa cita leva a tradução entre colchetes?",
+   "ref": "IV.1, V.1 e VII.2 (quatro vezes)",
+   "contexto": "Ela cita em latim e nem sempre dá o sentido: «_Pax vobis_ [Trad.: A paz esteja convosco]»; «_Mihi vivere Christus est, mori lucrum_ [Trad.: Para mim, o viver é Cristo, e o morrer, lucro]».",
+   "opcoes": [
+    {"id": "a", "texto": "latim em itálico com «[Trad.: …]» logo depois, como está", "nota": "O texto dela fica intacto e o leitor não perde o sentido; só onde ela não o dá.", "recomendada": true},
+    {"id": "b", "texto": "só o latim, sem tradução", "nota": "Como ela escreveu, mas o leitor fica sem o sentido."}
+   ]
+  }
+ ]
+}

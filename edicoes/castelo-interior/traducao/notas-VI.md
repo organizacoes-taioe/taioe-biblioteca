@@ -47,6 +47,10 @@
 - *don de conocer espíritus* (VI.9) → «dom de discernir os espíritos»; *llaneza* → «simplicidade».
 - *relisión que guardamos* (VI.9) → «vida religiosa que guardamos».
 - *cómo las servir* (VI.9, as mercês) → «como corresponder a elas».
+- *palomilla u mariposilla* (VI.11) → «pombinha, ou borboletinha».
+- *amadores* (VI.11, «cómo apretáis a vuestros amadores») → «os que Vos amam».
+- *se muere por morir* (VI.11) → «morre por morrer» (eco do «muero porque no muero» dela; mantido literal).
+- *los pulsos tiene tan abiertos* (VI.11) → «tem o pulso tão fraco» (o «pulso aberto» da medicina do tempo é o pulso débil, de moribundo; «aberto» não diria nada em português).
 
 ## Passagens difíceis
 
@@ -68,6 +72,8 @@
 - VI.7, fim: «nunca me acaba de pesar de que haya habido nengún tiempo que yo careciese de entender que se podía malganar con tan gran pérdida»: frase embaraçada; segui a letra («que eu deixasse de entender que só se podia ganhar mal, com tão grande perda»). Alternativa, pelo sentido do capítulo: «que eu tenha vivido algum tempo privada [da Humanidade de Cristo]; entendo que só se podia ganhar mal com tão grande perda».
 - VI.10, «¿Hasta cuándo, hijas, imitaremos en algo este gran Dios?»: o sentido é «quanto tempo vai levar até imitarmos»; «Até quando, filhas, esperaremos para imitar em algo este grande Deus?».
 - VI.10, «que lo es muy grande no tener cosa buena de nosotros»: *lo* = verdade; «que é verdade muito grande não termos coisa boa de nós mesmos».
+- VI.11, «adonde este rayo, que de presto pasa, todo cuanto halla de esta tierra … y lo deja hecho polvos»: o *pasa* governa «todo cuanto halla» (atravessa); «onde este raio, que passa depressa, atravessa tudo quanto acha … e o deixa feito pó».
+- VI.11, «procede quien la tiene en dar grandes gritos»: «rompe em grandes gritos».
 
 ## Possíveis erros do texto-fonte (OCR)
 
@@ -90,5 +96,6 @@
 - VI.9, «es un memento, comparado con aquella eternidad»: de novo *memento* por *momento* (como em VI.4); pode ser forma do autógrafo e não do OCR.
 - VI.10, «y ansí tememos en poco este mundo»: *tememos* por *ternemos* (= teremos); traduzido «teremos em pouco».
 - VI.10, «aunque pasa en un memento»: outra vez *memento*.
+- VI.11, «en un memento puede llegar»: *memento* (4ª vez nas Sextas; talvez grafia do autógrafo).
 
 ## Decisões delicadas (candidatas ao dono)

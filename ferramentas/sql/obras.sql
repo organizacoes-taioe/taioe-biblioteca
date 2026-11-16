@@ -1860,6 +1860,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('raul-de-leoni/luz-mediterranea-vivendo', 'Vivendo...'),
   ('raul-de-leoni/poemas-ineditos-argila', 'Argila'),
   ('robert-louis-stevenson/requiem', 'Requiem'),
+  ('santa-teresa-de-jesus/castelo-interior', 'Castelo interior (As moradas)'),
   ('santa-teresinha/cartas-de-santa-teresinha', 'Cartas'),
   ('santa-teresinha/historia-de-uma-alma', 'História de uma Alma'),
   ('santa-teresinha/oracoes-de-santa-teresinha', 'Orações'),

@@ -1,0 +1,402 @@
+{
+  "verbetes": {
+    "veni": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Vir; chegar; venho."
+      ]
+    },
+    "sancte": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Santo; santa; sagrado."
+      ],
+      "nota": "Concorda com Spiritus."
+    },
+    "spiritus": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O espírito; espirito; o espirito."
+      ],
+      "nota": "A quem se fala."
+    },
+    "reple": {
+      "lema": "repleo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Encher; preencher; completar."
+      ],
+      "nota": "Enche."
+    },
+    "tuorum": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Teu; tua; teus."
+      ],
+      "nota": "Concorda com fidelium."
+    },
+    "corda": {
+      "lema": "cor",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O coração; o espírito; a alma."
+      ],
+      "nota": "Objeto de reple."
+    },
+    "fidelium": {
+      "lema": "fidelis",
+      "classe": "adjetivo",
+      "forma": "genitivo plural",
+      "def": [
+        "Fiel; leal; confiável."
+      ],
+      "nota": "Dos fiéis."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E; tambem; ate."
+      ]
+    },
+    "tui": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Teu; tua; teus."
+      ],
+      "nota": "Concorda com amoris."
+    },
+    "amoris": {
+      "lema": "amor",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O amor; amor; paixao."
+      ],
+      "nota": "Fogo de quê: do teu amor."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em / para; em; para."
+      ]
+    },
+    "eis": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "ablativo plural",
+      "def": [
+        "Ele; ela."
+      ],
+      "nota": "Neles (nos corações)."
+    },
+    "ignem": {
+      "lema": "ignis",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O fogo; fogo; a chama."
+      ],
+      "nota": "Objeto de accende."
+    },
+    "accende": {
+      "lema": "accendo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Acender; inflamar; atiçar."
+      ],
+      "nota": "Acende."
+    },
+    "emitte": {
+      "lema": "emitto",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Enviar; mandar; soltar."
+      ],
+      "nota": "Envia."
+    },
+    "spiritum": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O espírito; espirito; o espirito."
+      ],
+      "nota": "Objeto de emitte."
+    },
+    "tuum": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Teu; tua; teus."
+      ],
+      "nota": "Concorda com Spiritum."
+    },
+    "creabuntur": {
+      "lema": "creo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural, voz passiva",
+      "def": [
+        "Criar; gerar; produzir."
+      ],
+      "nota": "Serão criados."
+    },
+    "renovabis": {
+      "lema": "renovo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Renovar; refazer; restaurar."
+      ],
+      "nota": "Renovarás."
+    },
+    "faciem": {
+      "lema": "facies",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A face; o rosto; a aparência."
+      ],
+      "nota": "Objeto de renovabis."
+    },
+    "terrae": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A terra; terra; chao."
+      ],
+      "nota": "Da terra."
+    },
+    "oremus": {
+      "lema": "oro",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Rezar; orar."
+      ],
+      "nota": "Rezemos."
+    },
+    "deus": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O deus; deus; a divindade."
+      ],
+      "nota": "A quem se fala."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de docuisti: que."
+    },
+    "corda#2": {
+      "lema": "cor",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O coração; o espírito; a alma."
+      ],
+      "nota": "Objeto de docuisti."
+    },
+    "sancti": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Santo; santa; sagrado."
+      ],
+      "nota": "Concorda com Spiritus."
+    },
+    "spiritus#2": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O espírito; espirito; o espirito."
+      ],
+      "nota": "Do Espírito."
+    },
+    "illustratione": {
+      "lema": "illustratio",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A iluminação; o esclarecimento; a ilustração."
+      ],
+      "nota": "Por meio de: pela iluminação."
+    },
+    "docuisti": {
+      "lema": "doceo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Ensinar; instruir; educar."
+      ],
+      "nota": "Instruíste."
+    },
+    "da": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Dar; dai; conceder."
+      ],
+      "nota": "Concede."
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "dativo plural",
+      "def": [
+        "Nós; nos; a nos."
+      ],
+      "nota": "A quem: a nós."
+    },
+    "eodem": {
+      "lema": "idem",
+      "classe": "pronome",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "O mesmo; a mesma; mesmo."
+      ],
+      "nota": "Concorda com Spiritu."
+    },
+    "spiritu": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O espírito; espirito; o espirito."
+      ],
+      "nota": "No mesmo Espírito."
+    },
+    "recta": {
+      "lema": "rectus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Reto; direito; correto."
+      ],
+      "nota": "As coisas retas: objeto de sapere."
+    },
+    "sapere": {
+      "lema": "sapio",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Saber; ser sábio."
+      ],
+      "nota": "Completa da."
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; sobre; a respeito de."
+      ]
+    },
+    "eius": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "genitivo singular",
+      "def": [
+        "Ele; ela."
+      ],
+      "nota": "Dele."
+    },
+    "semper": {
+      "lema": "semper",
+      "classe": "advérbio",
+      "def": [
+        "Sempre; continuamente; para sempre."
+      ]
+    },
+    "consolatione": {
+      "lema": "consolatio",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A consolação; o consolo; o conforto."
+      ],
+      "nota": "Termo de de: da consolação."
+    },
+    "gaudere": {
+      "lema": "gaudeo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Alegrar-se; regozijar-se; folgar."
+      ],
+      "nota": "Completa da: alegrar-nos."
+    },
+    "per": {
+      "lema": "per",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por; através de; por meio de."
+      ]
+    },
+    "christum": {
+      "lema": "Christus",
+      "classe": "nome próprio",
+      "forma": "acusativo singular",
+      "def": [
+        "Cristo, o Ungido: título de Jesus."
+      ]
+    },
+    "dominum": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O senhor; senhor; dono."
+      ],
+      "nota": "Aposto de Christum."
+    },
+    "nostrum": {
+      "lema": "noster",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Nosso; nossa; nossos."
+      ],
+      "nota": "Concorda com Dominum."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "interjeição",
+      "def": [
+        "Amém: assim seja. Palavra hebraica que fecha a oração."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "6.3": "corda#2",
+    "6.6": "spiritus#2"
+  }
+}

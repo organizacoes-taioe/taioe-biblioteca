@@ -1,0 +1,254 @@
+{
+  "verbetes": {
+    "ave": {
+      "lema": "ave",
+      "classe": "interjeição",
+      "def": [
+        "Salve; ave; ola."
+      ]
+    },
+    "regina": {
+      "lema": "regina",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A rainha; rainha; soberana."
+      ],
+      "nota": "A quem se fala."
+    },
+    "caelorum": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo plural",
+      "def": [
+        "O céu; ceu; o ceu."
+      ],
+      "nota": "Rainha dos céus."
+    },
+    "domina": {
+      "lema": "domina",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A senhora; a dona; a soberana."
+      ],
+      "nota": "A quem se fala."
+    },
+    "angelorum": {
+      "lema": "angelus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O anjo; o mensageiro; o enviado."
+      ],
+      "nota": "Senhora dos anjos."
+    },
+    "salve": {
+      "lema": "salve",
+      "classe": "interjeição",
+      "def": [
+        "Salve; olá; ave."
+      ]
+    },
+    "radix": {
+      "lema": "radix",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A raiz; a origem; a base."
+      ],
+      "nota": "A quem se fala."
+    },
+    "porta": {
+      "lema": "porta",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A porta; o portal; a entrada."
+      ],
+      "nota": "A quem se fala."
+    },
+    "ex": {
+      "lema": "ex",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; para fora de."
+      ]
+    },
+    "qua": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Antecedente: porta."
+    },
+    "mundo": {
+      "lema": "mundus",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "O mundo; mundo; universo."
+      ],
+      "nota": "Para quem a luz nasceu: para o mundo."
+    },
+    "lux": {
+      "lema": "lux",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A luz; luz; claridade."
+      ],
+      "nota": "Sujeito de est orta."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser; estar; existir."
+      ],
+      "nota": "Auxiliar do perfeito (depoente)."
+    },
+    "orta": {
+      "lema": "orior",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Nascer; surgir; levantar-se."
+      ],
+      "nota": "Com est: nasceu (perfeito de depoente)."
+    },
+    "gaude": {
+      "lema": "gaudeo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Alegrar-se; regozijar-se; folgar."
+      ],
+      "nota": "Semidepoente: alegra-te."
+    },
+    "virgo": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A virgem; virgem."
+      ],
+      "nota": "A quem se fala."
+    },
+    "gloriosa": {
+      "lema": "gloriosus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Glorioso; famoso; ilustre."
+      ],
+      "nota": "Concorda com Virgo."
+    },
+    "super": {
+      "lema": "super",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Sobre; acima de; por cima de."
+      ],
+      "nota": "Acima de."
+    },
+    "omnes": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino plural",
+      "def": [
+        "Todo; toda; todos."
+      ],
+      "nota": "Todas (as mulheres)."
+    },
+    "speciosa": {
+      "lema": "speciosus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Formoso; belo; bonito."
+      ],
+      "nota": "Concorda com Virgo: formosa."
+    },
+    "vale": {
+      "lema": "valeo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Estar bem; passar bem; ter força."
+      ],
+      "nota": "Despede-te: adeus."
+    },
+    "o": {
+      "lema": "o",
+      "classe": "interjeição",
+      "def": [
+        "Ó; oh; ai."
+      ]
+    },
+    "valde": {
+      "lema": "valde",
+      "classe": "advérbio",
+      "def": [
+        "Muito; bastante; fortemente."
+      ]
+    },
+    "decora": {
+      "lema": "decorus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Belo; formoso; decoroso."
+      ],
+      "nota": "Concorda com o tu de vale: formosa."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E; tambem; ate."
+      ]
+    },
+    "pro": {
+      "lema": "pro",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Por; em favor de."
+      ]
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "ablativo plural",
+      "def": [
+        "Nós; nos; a nos."
+      ],
+      "nota": "Em favor de quem: por nós."
+    },
+    "christum": {
+      "lema": "Christus",
+      "classe": "nome próprio",
+      "forma": "acusativo singular",
+      "def": [
+        "Cristo, o Ungido: título de Jesus."
+      ],
+      "nota": "Objeto de exora."
+    },
+    "exora": {
+      "lema": "exoro",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Suplicar; rogar; pedir com instância."
+      ],
+      "nota": "Suplica a."
+    }
+  },
+  "ocorrencias": {}
+}

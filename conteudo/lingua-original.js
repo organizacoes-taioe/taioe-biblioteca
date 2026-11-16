@@ -196,7 +196,17 @@ BIBLIOTECA.poemas({
     {"id":"oracoes-gloria-patri","titulo":"Gloria Patri","forma":"outras","livro":-1,"ordem":0,"versos":3,"lingua":"la","ano":null,"glossario":true,"genero":"Orações","pt":{"tradutor":null,"titulo":"Glória ao Pai","ano":null,"credito":"Na forma rezada no Brasil"}},
     {"id":"oracoes-pater-noster","titulo":"Pater Noster","forma":"outras","livro":-1,"ordem":1,"versos":9,"lingua":"la","ano":null,"glossario":true,"genero":"Orações","pt":{"tradutor":null,"titulo":"Pai-nosso","ano":null,"credito":"Na forma rezada no Brasil"}},
     {"id":"oracoes-ave-maria","titulo":"Ave Maria","forma":"outras","livro":-1,"ordem":2,"versos":7,"lingua":"la","ano":null,"glossario":true,"genero":"Orações","pt":{"tradutor":null,"titulo":"Ave-Maria","ano":null,"credito":"Na forma rezada no Brasil"}},
-    {"id":"oracoes-regina-caeli","titulo":"Regina caeli","forma":"outras","livro":-1,"ordem":3,"versos":4,"lingua":"la","ano":null,"glossario":true,"genero":"Orações","pt":{"tradutor":null,"titulo":"Rainha do Céu","ano":null,"credito":"Na forma rezada no Brasil"}}
+    {"id":"oracoes-regina-caeli","titulo":"Regina caeli","forma":"outras","livro":-1,"ordem":3,"versos":4,"lingua":"la","ano":null,"glossario":true,"genero":"Orações","pt":{"tradutor":null,"titulo":"Rainha do Céu","ano":null,"credito":"Na forma rezada no Brasil"}},
+    {"id":"oracoes-memorare","titulo":"Memorare","forma":"outras","livro":-1,"ordem":4,"versos":10,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-alma-redemptoris-mater","titulo":"Alma Redemptoris Mater","forma":"outras","livro":-1,"ordem":5,"versos":6,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-ave-regina-caelorum","titulo":"Ave, Regina caelorum","forma":"outras","livro":-1,"ordem":6,"versos":8,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-veni-sancte-spiritus","titulo":"Veni, Sancte Spiritus","forma":"outras","livro":-1,"ordem":7,"versos":9,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-symbolum-apostolorum","titulo":"Symbolum Apostolorum","forma":"outras","livro":-1,"ordem":8,"versos":10,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-credo","titulo":"Credo","forma":"outras","livro":-1,"ordem":9,"versos":23,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-adoro-te-devote","titulo":"Adoro te devote","forma":"outras","livro":-1,"ordem":10,"versos":28,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-pange-lingua","titulo":"Pange lingua","forma":"outras","livro":-1,"ordem":11,"versos":36,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-psalmus-2","titulo":"Psalmus II","forma":"outras","livro":-1,"ordem":12,"versos":29,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-ne-recorderis","titulo":"Ne recorderis","forma":"outras","livro":-1,"ordem":13,"versos":32,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"}
   ]
 });
 

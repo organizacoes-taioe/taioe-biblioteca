@@ -1,0 +1,611 @@
+{
+  "verbetes": {
+    "credo": {
+      "lema": "credo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Crer; acreditar; confiar."
+      ]
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Em / para; em; para."
+      ],
+      "nota": "Crer em."
+    },
+    "deum": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O deus; deus; a divindade."
+      ],
+      "nota": "Objeto de in."
+    },
+    "patrem": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O pai; pai; genitor."
+      ],
+      "nota": "Aposto de Deum."
+    },
+    "omnipotentem": {
+      "lema": "omnipotens",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Todo-poderoso; todo poderoso; onipotente."
+      ],
+      "nota": "Concorda com Patrem."
+    },
+    "creatorem": {
+      "lema": "creator",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O criador; criador; o autor."
+      ],
+      "nota": "Aposto de Deum."
+    },
+    "caeli": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O céu; ceu; o ceu."
+      ],
+      "nota": "De quem é criador."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E; tambem; ate."
+      ]
+    },
+    "terrae": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A terra; terra; chao."
+      ],
+      "nota": "De quem é criador."
+    },
+    "iesum": {
+      "lema": "Iesus",
+      "classe": "nome próprio",
+      "def": [
+        "Jesus."
+      ]
+    },
+    "christum": {
+      "lema": "Christus",
+      "classe": "nome próprio",
+      "def": [
+        "Cristo, o Ungido: título de Jesus."
+      ]
+    },
+    "filium": {
+      "lema": "filius",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O filho; filho; menino."
+      ],
+      "nota": "Aposto de Iesum Christum."
+    },
+    "eius": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "genitivo singular",
+      "def": [
+        "Ele; ela."
+      ],
+      "nota": "Dele: do Pai."
+    },
+    "unicum": {
+      "lema": "unicus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Único; unico; o unico."
+      ],
+      "nota": "Concorda com Filium."
+    },
+    "dominum": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O senhor; senhor; dono."
+      ],
+      "nota": "Aposto de Iesum Christum."
+    },
+    "nostrum": {
+      "lema": "noster",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Nosso; nossa; nossos."
+      ],
+      "nota": "Concorda com Dominum."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de conceptus est."
+    },
+    "conceptus": {
+      "lema": "concipio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Conceber; receber em si; engravidar."
+      ],
+      "nota": "Com est: foi concebido (perfeito passivo)."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser; estar; existir."
+      ],
+      "nota": "Auxiliar do perfeito passivo."
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; sobre; a respeito de."
+      ]
+    },
+    "spiritu": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O espírito; espirito; o espirito."
+      ],
+      "nota": "De quem foi concebido."
+    },
+    "sancto": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Santo; santa; sagrado."
+      ],
+      "nota": "Concorda com Spiritu."
+    },
+    "natus": {
+      "lema": "nascor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Nascer; nasco; brotar."
+      ],
+      "nota": "Depoente: nascido; est fica subentendido."
+    },
+    "ex": {
+      "lema": "ex",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; para fora de."
+      ]
+    },
+    "maria": {
+      "lema": "Maria",
+      "classe": "nome próprio",
+      "def": [
+        "Maria, a mãe de Jesus."
+      ]
+    },
+    "virgine": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A virgem; virgem."
+      ],
+      "nota": "Aposto de Maria."
+    },
+    "passus": {
+      "lema": "patior",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Sofrer; suportar."
+      ],
+      "nota": "Depoente: padeceu."
+    },
+    "sub": {
+      "lema": "sub",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Sob; debaixo de; embaixo de."
+      ],
+      "nota": "No tempo de."
+    },
+    "pontio": {
+      "lema": "Pontius",
+      "classe": "nome próprio",
+      "def": [
+        "Pôncio, nome de família romano, o de Pilatos."
+      ]
+    },
+    "pilato": {
+      "lema": "Pilatus",
+      "classe": "nome próprio",
+      "def": [
+        "Pilatos, o governador romano da Judeia que condenou Jesus."
+      ]
+    },
+    "crucifixus": {
+      "lema": "crucifigo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Crucificar; pregar na cruz; crucifico."
+      ],
+      "nota": "Foi crucificado (est subentendido)."
+    },
+    "mortuus": {
+      "lema": "mortuus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Morto; o morto; defunto."
+      ],
+      "nota": "Predicativo: morto."
+    },
+    "sepultus": {
+      "lema": "sepelio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Sepultar; enterrar; enterro."
+      ],
+      "nota": "Foi sepultado (est subentendido)."
+    },
+    "descendit": {
+      "lema": "descendo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Descer; desço; baixar."
+      ]
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Para; até."
+      ]
+    },
+    "inferos": {
+      "lema": "inferus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "De baixo; baixo; inferior."
+      ],
+      "nota": "Os mortos, o além."
+    },
+    "tertia": {
+      "lema": "tertius",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Terceiro; o terceiro; a terceira."
+      ],
+      "nota": "Concorda com die."
+    },
+    "die": {
+      "lema": "dies",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O dia; dia; data."
+      ],
+      "nota": "Quando."
+    },
+    "resurrexit": {
+      "lema": "resurgo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ressurgir; ressuscitar."
+      ]
+    },
+    "a": {
+      "lema": "ab",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; desde."
+      ],
+      "nota": "De entre."
+    },
+    "mortuis": {
+      "lema": "mortuus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino plural",
+      "def": [
+        "Morto; o morto; defunto."
+      ],
+      "nota": "Os mortos."
+    },
+    "ascendit": {
+      "lema": "ascendo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Subir; ascender; escalar."
+      ]
+    },
+    "caelos": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O céu; ceu; o ceu."
+      ],
+      "nota": "Para onde."
+    },
+    "sedet": {
+      "lema": "sedeo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Sentar-se; sentar."
+      ]
+    },
+    "dexteram": {
+      "lema": "dexter",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Direito; da direita; destro."
+      ],
+      "nota": "A direita (subentende-se manum, a mão)."
+    },
+    "dei": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O deus; deus; a divindade."
+      ],
+      "nota": "De quem é a direita."
+    },
+    "patris": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O pai; pai; genitor."
+      ],
+      "nota": "Aposto de Dei."
+    },
+    "omnipotentis": {
+      "lema": "omnipotens",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Todo-poderoso; todo poderoso; onipotente."
+      ],
+      "nota": "Concorda com Patris."
+    },
+    "inde": {
+      "lema": "inde",
+      "classe": "advérbio",
+      "def": [
+        "De lá; de la; dai."
+      ]
+    },
+    "venturus": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "particípio futuro, nominativo masculino singular",
+      "def": [
+        "Vir; chegar; venho."
+      ],
+      "nota": "Com est: há de vir."
+    },
+    "est#2": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser; estar; existir."
+      ],
+      "nota": "Auxiliar de venturus."
+    },
+    "iudicare": {
+      "lema": "iudico",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Julgar; avaliar; decidir."
+      ],
+      "nota": "Finalidade: para julgar."
+    },
+    "vivos": {
+      "lema": "vivus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Vivo; vivente; que vive."
+      ],
+      "nota": "Objeto de iudicare."
+    },
+    "mortuos": {
+      "lema": "mortuus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Morto; o morto; defunto."
+      ],
+      "nota": "Objeto de iudicare."
+    },
+    "spiritum": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O espírito; espirito; o espirito."
+      ],
+      "nota": "Objeto de in."
+    },
+    "sanctum": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Santo; santa; sagrado."
+      ],
+      "nota": "Concorda com Spiritum."
+    },
+    "sanctam": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Santo; santa; sagrado."
+      ],
+      "nota": "Concorda com Ecclesiam."
+    },
+    "ecclesiam": {
+      "lema": "ecclesia",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A igreja; igreja; assembleia."
+      ],
+      "nota": "Objeto de Credo."
+    },
+    "catholicam": {
+      "lema": "catholicus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Católico; catolico; catolica."
+      ],
+      "nota": "Concorda com Ecclesiam."
+    },
+    "sanctorum": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Santo; santa; sagrado."
+      ],
+      "nota": "Dos santos."
+    },
+    "communionem": {
+      "lema": "communio",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A comunhão; comunhao; a comunidade."
+      ],
+      "nota": "Objeto de Credo."
+    },
+    "remissionem": {
+      "lema": "remissio",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "O perdão; perdão; remissão."
+      ],
+      "nota": "Objeto de Credo."
+    },
+    "peccatorum": {
+      "lema": "peccatum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo plural",
+      "def": [
+        "O pecado; a culpa; o delito."
+      ],
+      "nota": "De quê."
+    },
+    "carnis": {
+      "lema": "caro",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A carne; a polpa."
+      ],
+      "nota": "De quê."
+    },
+    "resurrectionem": {
+      "lema": "resurrectio",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A ressurreição; ressurreicao; o ressurgimento."
+      ],
+      "nota": "Objeto de Credo."
+    },
+    "vitam": {
+      "lema": "vita",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A vida; vida; existencia."
+      ],
+      "nota": "Objeto de Credo."
+    },
+    "aeternam": {
+      "lema": "aeternus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Eterno; sempiterno; perpétuo."
+      ],
+      "nota": "Concorda com vitam."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "interjeição",
+      "def": [
+        "Amém: assim seja. Palavra hebraica que fecha a oração."
+      ]
+    },
+    "symbolum": {
+      "lema": "symbolum",
+      "classe": "substantivo neutro",
+      "def": [
+        "Símbolo: o resumo da fé, o Credo."
+      ]
+    },
+    "apostolorum": {
+      "lema": "apostolus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "Apóstolo."
+      ],
+      "nota": "Dos Apóstolos: o Credo que a tradição atribui a eles."
+    }
+  },
+  "ocorrencias": {
+    "7.3": "est#2"
+  }
+}

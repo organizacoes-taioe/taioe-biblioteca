@@ -1,0 +1,981 @@
+{
+  "verbetes": {
+    "pange": {
+      "lema": "pango",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Cantar; celebrar; compor."
+      ],
+      "nota": "Canta."
+    },
+    "lingua": {
+      "lema": "lingua",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A língua; a fala; o idioma."
+      ],
+      "nota": "A quem se fala."
+    },
+    "gloriosi": {
+      "lema": "gloriosus",
+      "classe": "adjetivo",
+      "forma": "genitivo neutro singular",
+      "def": [
+        "Glorioso; famoso; ilustre."
+      ],
+      "nota": "Concorda com Corporis: glorioso."
+    },
+    "corporis": {
+      "lema": "corpus",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O corpo; corpo."
+      ],
+      "nota": "De quê: do corpo."
+    },
+    "mysterium": {
+      "lema": "mysterium",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O mistério; o segredo; o rito secreto."
+      ],
+      "nota": "Objeto de pange: o mistério."
+    },
+    "sanguinisque": {
+      "partes": [
+        {
+          "lema": "sanguis",
+          "classe": "substantivo masculino",
+          "forma": "genitivo singular",
+          "def": [
+            "O sangue; a descendência; a linhagem."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "De quê: do sangue; E."
+    },
+    "pretiosi": {
+      "lema": "pretiosus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Precioso; valioso; de grande preço."
+      ],
+      "nota": "Concorda com Sanguinis: precioso."
+    },
+    "quem": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo, retoma Sanguinis: objeto de effudit."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Em / para; em; para."
+      ]
+    },
+    "mundi": {
+      "lema": "mundus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O mundo; mundo; universo."
+      ],
+      "nota": "De quê: do mundo."
+    },
+    "pretium": {
+      "lema": "pretium",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O preço; o resgate; o valor."
+      ],
+      "nota": "Com in: como preço, em resgate."
+    },
+    "fructus": {
+      "lema": "fructus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O fruto; fruto; produto."
+      ],
+      "nota": "Aposto de Rex: o fruto."
+    },
+    "ventris": {
+      "lema": "venter",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O ventre; ventre; barriga."
+      ],
+      "nota": "De quê: do ventre."
+    },
+    "generosi": {
+      "lema": "generosus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Nobre; generoso; de boa raça."
+      ],
+      "nota": "Concorda com ventris: nobre."
+    },
+    "rex": {
+      "lema": "rex",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O rei; o soberano; o monarca."
+      ],
+      "nota": "Sujeito de effudit."
+    },
+    "effudit": {
+      "lema": "effundo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Derramar; verter; espalhar."
+      ],
+      "nota": "Derramou."
+    },
+    "gentium": {
+      "lema": "gens",
+      "classe": "substantivo feminino",
+      "forma": "genitivo plural",
+      "def": [
+        "A nação; nacao; povo."
+      ],
+      "nota": "De quem: das nações."
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "dativo plural",
+      "def": [
+        "Nós; nos; a nos."
+      ],
+      "nota": "Para quem: para nós."
+    },
+    "datus": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Dar; dai; conceder."
+      ],
+      "nota": "Concorda com Rex: dado."
+    },
+    "natus": {
+      "lema": "nascor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Nascer; nasco; brotar."
+      ],
+      "nota": "Depoente: nascido."
+    },
+    "ex": {
+      "lema": "ex",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; para fora de."
+      ]
+    },
+    "intacta": {
+      "lema": "intactus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Intacto; puro; não tocado."
+      ],
+      "nota": "Concorda com Virgine: intacta."
+    },
+    "virgine": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A virgem; virgem."
+      ],
+      "nota": "Com ex: da Virgem."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E; tambem; ate."
+      ]
+    },
+    "in#2": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em / para; em; para."
+      ]
+    },
+    "mundo": {
+      "lema": "mundus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O mundo; mundo; universo."
+      ],
+      "nota": "Lugar: no mundo."
+    },
+    "conversatus": {
+      "lema": "conversor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Viver; conviver; conversar."
+      ],
+      "nota": "Depoente: tendo vivido, conversado."
+    },
+    "sparso": {
+      "lema": "spargo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, ablativo neutro singular",
+      "def": [
+        "Espalhar; semear; lançar."
+      ],
+      "nota": "Ablativo absoluto com semine: espalhada a semente."
+    },
+    "verbi": {
+      "lema": "verbum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "A palavra; palavra; verbo."
+      ],
+      "nota": "De quê: da palavra."
+    },
+    "semine": {
+      "lema": "semen",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "A semente; a descendência; o sêmen."
+      ],
+      "nota": "No ablativo absoluto: a semente."
+    },
+    "sui": {
+      "lema": "suus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Seu; dele; dela."
+      ],
+      "nota": "Concorda com incolatus: seu."
+    },
+    "moras": {
+      "lema": "mora",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "A demora; o tempo; o atraso."
+      ],
+      "nota": "Objeto de clausit: a demora, o tempo."
+    },
+    "incolatus": {
+      "lema": "incolatus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "A estada; a vida na terra; a residência."
+      ],
+      "nota": "De quê: da estada, da vida na terra."
+    },
+    "miro": {
+      "lema": "mirus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Admirável; maravilhoso; estranho."
+      ],
+      "nota": "Concorda com ordine: admirável."
+    },
+    "clausit": {
+      "lema": "claudo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Fechar; encerrar; concluir."
+      ],
+      "nota": "Encerrou."
+    },
+    "ordine": {
+      "lema": "ordo",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "A ordem; ordem."
+      ],
+      "nota": "Modo: com ordem."
+    },
+    "supremae": {
+      "lema": "supremus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Último; supremo; mais alto."
+      ],
+      "nota": "Concorda com cenae: última."
+    },
+    "nocte": {
+      "lema": "nox",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A noite; a escuridão; as trevas."
+      ],
+      "nota": "Tempo: na noite."
+    },
+    "cenae": {
+      "lema": "cena",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A ceia; o jantar; a refeição."
+      ],
+      "nota": "De quê: da ceia."
+    },
+    "recumbens": {
+      "lema": "recumbo",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo masculino singular",
+      "def": [
+        "Reclinar-se; deitar-se; recostar-se."
+      ],
+      "nota": "Concorda com o sujeito de dat: reclinado à mesa."
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Com; junto com; junto de."
+      ]
+    },
+    "fratribus": {
+      "lema": "frater",
+      "classe": "substantivo masculino",
+      "forma": "ablativo plural",
+      "def": [
+        "O irmão; o frade."
+      ],
+      "nota": "Com cum: com os irmãos."
+    },
+    "observata": {
+      "lema": "observo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, ablativo feminino singular",
+      "def": [
+        "Observar; cumprir; guardar."
+      ],
+      "nota": "Ablativo absoluto com lege: cumprida."
+    },
+    "lege": {
+      "lema": "lex",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A lei; a norma; o direito."
+      ],
+      "nota": "No ablativo absoluto: a lei."
+    },
+    "plene": {
+      "lema": "plenus",
+      "classe": "adjetivo",
+      "forma": "advérbio",
+      "def": [
+        "Cheio; cheia; pleno."
+      ],
+      "nota": "De plenus: plenamente."
+    },
+    "cibis": {
+      "lema": "cibus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo plural",
+      "def": [
+        "O alimento; a comida; o manjar."
+      ],
+      "nota": "Com in: nos alimentos."
+    },
+    "legalibus": {
+      "lema": "legalis",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino plural",
+      "def": [
+        "Da lei; legal; conforme a lei."
+      ],
+      "nota": "Concorda com cibis: da lei."
+    },
+    "cibum": {
+      "lema": "cibus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O alimento; a comida; o manjar."
+      ],
+      "nota": "Objeto de dat: o alimento."
+    },
+    "turbae": {
+      "lema": "turba",
+      "classe": "substantivo feminino",
+      "forma": "dativo singular",
+      "def": [
+        "A multidão; o grupo; o povo."
+      ],
+      "nota": "A quem: à multidão."
+    },
+    "duodenae": {
+      "lema": "duodenus",
+      "classe": "adjetivo",
+      "forma": "dativo feminino singular",
+      "def": [
+        "De doze; os doze; doze cada vez."
+      ],
+      "nota": "Concorda com turbae: de doze (os doze)."
+    },
+    "se": {
+      "lema": "sui",
+      "classe": "pronome",
+      "forma": "acusativo",
+      "def": [
+        "Se; a si; a si mesmo."
+      ],
+      "nota": "Reflexivo, objeto de dat: a si mesmo."
+    },
+    "dat": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dar; dai; conceder."
+      ],
+      "nota": "Dá."
+    },
+    "suis": {
+      "lema": "suus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino plural",
+      "def": [
+        "Seu; dele; dela."
+      ],
+      "nota": "Concorda com manibus: suas."
+    },
+    "manibus": {
+      "lema": "manus",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "A mão; mao; a mao."
+      ],
+      "nota": "Meio: com as mãos."
+    },
+    "verbum": {
+      "lema": "verbum",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "A palavra; palavra; verbo."
+      ],
+      "nota": "Sujeito de efficit: o Verbo."
+    },
+    "caro": {
+      "lema": "caro",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A carne; a polpa."
+      ],
+      "nota": "Aposto de Verbum: o Verbo feito carne."
+    },
+    "panem": {
+      "lema": "panis",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O pão; pao; o pao."
+      ],
+      "nota": "Objeto de efficit: o pão."
+    },
+    "verum": {
+      "lema": "verus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Verdadeiro; verdadeira; real."
+      ],
+      "nota": "Concorda com panem: verdadeiro."
+    },
+    "verbo": {
+      "lema": "verbum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "A palavra; palavra; verbo."
+      ],
+      "nota": "Meio: pela palavra."
+    },
+    "carnem": {
+      "lema": "caro",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A carne; a polpa."
+      ],
+      "nota": "Predicativo do objeto: em carne."
+    },
+    "efficit": {
+      "lema": "efficio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Fazer; produzir; realizar."
+      ],
+      "nota": "Faz, torna."
+    },
+    "fitque": {
+      "partes": [
+        {
+          "lema": "fio",
+          "classe": "verbo",
+          "forma": "presente do indicativo, 3ª pessoa do singular",
+          "def": [
+            "Ser feito; acontecer."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Torna-se; E."
+    },
+    "sanguis": {
+      "lema": "sanguis",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O sangue; a descendência; a linhagem."
+      ],
+      "nota": "Sujeito de fit."
+    },
+    "christi": {
+      "lema": "Christus",
+      "classe": "nome próprio",
+      "forma": "genitivo singular",
+      "def": [
+        "Cristo, o Ungido: título de Jesus."
+      ],
+      "nota": "De quem: de Cristo."
+    },
+    "merum": {
+      "lema": "merus",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Puro; sem mistura; mero."
+      ],
+      "nota": "Predicativo: puro vinho."
+    },
+    "si": {
+      "lema": "si",
+      "classe": "conjunção",
+      "def": [
+        "Se; caso."
+      ]
+    },
+    "sensus": {
+      "lema": "sensus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O sentido; o sentimento; a percepção."
+      ],
+      "nota": "Sujeito de deficit: o sentido (os sentidos)."
+    },
+    "deficit": {
+      "lema": "deficio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Falhar; faltar; desfalecer."
+      ],
+      "nota": "Falha."
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Para; até."
+      ]
+    },
+    "firmandum": {
+      "lema": "firmo",
+      "classe": "verbo",
+      "forma": "gerúndio, acusativo",
+      "def": [
+        "Fortalecer; firmar; tornar firme."
+      ],
+      "nota": "Com ad: para fortalecer."
+    },
+    "cor": {
+      "lema": "cor",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O coração; o espírito; a alma."
+      ],
+      "nota": "Objeto de firmandum: o coração."
+    },
+    "sincerum": {
+      "lema": "sincerus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Sincero; puro; genuíno."
+      ],
+      "nota": "Concorda com cor: sincero."
+    },
+    "sola": {
+      "lema": "solus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Só; único; somente."
+      ],
+      "nota": "Concorda com fides: só."
+    },
+    "fides": {
+      "lema": "fides",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A fé; a confiança; a lealdade."
+      ],
+      "nota": "Sujeito de sufficit."
+    },
+    "sufficit": {
+      "lema": "sufficio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Bastar; ser suficiente; suprir."
+      ],
+      "nota": "Basta."
+    },
+    "tantum": {
+      "lema": "tantus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Tão grande; tao grande; tamanho."
+      ],
+      "nota": "Concorda com Sacramentum: tão grande."
+    },
+    "ergo": {
+      "lema": "ergo",
+      "classe": "advérbio",
+      "def": [
+        "Logo; portanto."
+      ]
+    },
+    "sacramentum": {
+      "lema": "sacramentum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O sacramento; o juramento; o penhor."
+      ],
+      "nota": "Objeto de veneremur."
+    },
+    "veneremur": {
+      "lema": "veneror",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Venerar; adorar; reverenciar."
+      ],
+      "nota": "Depoente: veneremos (exortação)."
+    },
+    "cernui": {
+      "lema": "cernuus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "De cabeça baixa; prostrado; inclinado."
+      ],
+      "nota": "Concorda com o sujeito (nós): de cabeça baixa."
+    },
+    "antiquum": {
+      "lema": "antiquus",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Antigo; velho; de outrora."
+      ],
+      "nota": "Concorda com documentum: antigo."
+    },
+    "documentum": {
+      "lema": "documentum",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "O documento; a lição; o exemplo."
+      ],
+      "nota": "Sujeito de cedat."
+    },
+    "novo": {
+      "lema": "novus",
+      "classe": "adjetivo",
+      "forma": "dativo masculino singular",
+      "def": [
+        "Novo; nova; recente."
+      ],
+      "nota": "Concorda com ritui: novo."
+    },
+    "cedat": {
+      "lema": "cedo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Ceder; retirar-se; ir embora."
+      ],
+      "nota": "Com dativo: ceda."
+    },
+    "ritui": {
+      "lema": "ritus",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "O rito; a cerimônia; o costume."
+      ],
+      "nota": "A quem: ao rito."
+    },
+    "praestet": {
+      "lema": "praesto",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Conceder; dar; oferecer."
+      ],
+      "nota": "Forneça, preste."
+    },
+    "fides#2": {
+      "lema": "fides",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A fé; a confiança; a lealdade."
+      ],
+      "nota": "Sujeito de praestet."
+    },
+    "supplementum": {
+      "lema": "supplementum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O complemento; o reforço; o suplemento."
+      ],
+      "nota": "Objeto de praestet: o complemento."
+    },
+    "sensuum": {
+      "lema": "sensus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O sentido; o sentimento; a percepção."
+      ],
+      "nota": "De quem: dos sentidos."
+    },
+    "defectui": {
+      "lema": "defectus",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "A falha; a falta; o desfalecimento."
+      ],
+      "nota": "Para quê: para a falha."
+    },
+    "genitori": {
+      "lema": "genitor",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "O genitor; o pai."
+      ],
+      "nota": "A quem: ao Genitor (o Pai)."
+    },
+    "genitoque": {
+      "partes": [
+        {
+          "lema": "gigno",
+          "classe": "verbo",
+          "forma": "particípio perfeito, dativo masculino singular",
+          "def": [
+            "Gerar; dar à luz; produzir."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Substantivado: ao Gerado (o Filho); E."
+    },
+    "laus": {
+      "lema": "laus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "O louvor; louvor."
+      ],
+      "nota": "Sujeito de sit."
+    },
+    "iubilatio": {
+      "lema": "iubilatio",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "O júbilo; a alegria; o canto de alegria."
+      ],
+      "nota": "Sujeito de sit: o júbilo."
+    },
+    "salus": {
+      "lema": "salus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A salvação; salvacao; a saude."
+      ],
+      "nota": "Sujeito de sit: a salvação."
+    },
+    "honor": {
+      "lema": "honor",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "A honra; o respeito; a dignidade."
+      ],
+      "nota": "Sujeito de sit."
+    },
+    "virtus": {
+      "lema": "virtus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "O poder; a virtude; a força."
+      ],
+      "nota": "Sujeito de sit: o poder."
+    },
+    "quoque": {
+      "lema": "quoque",
+      "classe": "advérbio",
+      "def": [
+        "Também; tambem; igualmente."
+      ]
+    },
+    "sit": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Ser; estar; existir."
+      ],
+      "nota": "Seja."
+    },
+    "benedictio": {
+      "lema": "benedictio",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A bênção; a benedição; o louvor."
+      ],
+      "nota": "Sujeito de sit: a bênção."
+    },
+    "procedenti": {
+      "lema": "procedo",
+      "classe": "verbo",
+      "forma": "particípio presente, dativo masculino singular",
+      "def": [
+        "Avançar; avancar; prosseguir."
+      ],
+      "nota": "Substantivado: Àquele que procede (o Espírito)."
+    },
+    "ab": {
+      "lema": "ab",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; desde."
+      ]
+    },
+    "utroque": {
+      "lema": "uterque",
+      "classe": "pronome",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Cada um dos dois; ambos; um e outro."
+      ],
+      "nota": "Com ab: de ambos."
+    },
+    "compar": {
+      "lema": "compar",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Igual; semelhante; par."
+      ],
+      "nota": "Concorda com laudatio: igual."
+    },
+    "laudatio": {
+      "lema": "laudatio",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "O louvor; o elogio; a glorificação."
+      ],
+      "nota": "Sujeito de sit: o louvor."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "interjeição",
+      "def": [
+        "Amém: assim seja. Palavra hebraica que fecha a oração."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "9.2": "in#2",
+    "13.1": "in#2",
+    "16.2": "in#2",
+    "29.2": "fides#2"
+  }
+}

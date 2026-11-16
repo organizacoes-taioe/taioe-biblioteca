@@ -1,0 +1,435 @@
+{
+  "verbetes": {
+    "memorare": {
+      "lema": "memoro",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Lembrar; recordar."
+      ],
+      "nota": "Depoente (memoror): lembra-te."
+    },
+    "o": {
+      "lema": "o",
+      "classe": "interjeição",
+      "def": [
+        "Ó; oh; ai."
+      ]
+    },
+    "piissima": {
+      "lema": "pius",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Piedoso; pio; devoto."
+      ],
+      "nota": "Superlativo: piedosíssima; concorda com Virgo."
+    },
+    "virgo": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A virgem; virgem."
+      ],
+      "nota": "A quem se fala."
+    },
+    "maria": {
+      "lema": "Maria",
+      "classe": "nome próprio",
+      "def": [
+        "Maria, a mãe de Jesus."
+      ]
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não; nao."
+      ]
+    },
+    "esse": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Ser; estar; existir."
+      ],
+      "nota": "Com auditum: infinitivo perfeito passivo."
+    },
+    "auditum": {
+      "lema": "audio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo neutro singular",
+      "def": [
+        "Ouvir; escutar; ouvir dizer."
+      ],
+      "nota": "Com esse: ter sido ouvido."
+    },
+    "a": {
+      "lema": "ab",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; desde."
+      ]
+    },
+    "saeculo": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "O século; seculo; era."
+      ],
+      "nota": "Desde quando: desde sempre."
+    },
+    "quemquam": {
+      "lema": "quisquam",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Alguém; algum; qualquer um."
+      ],
+      "nota": "Sujeito de esse derelictum (alguém)."
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Para; até."
+      ]
+    },
+    "tua": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Teu; tua; teus."
+      ],
+      "nota": "Concorda com praesidia."
+    },
+    "currentem": {
+      "lema": "curro",
+      "classe": "verbo",
+      "forma": "particípio presente, acusativo masculino singular",
+      "def": [
+        "Correr; acorrer; apressar-se."
+      ],
+      "nota": "Concorda com quemquam: que corre."
+    },
+    "praesidia": {
+      "lema": "praesidium",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "A proteção; o amparo; o socorro."
+      ],
+      "nota": "Destino de ad: a tua proteção."
+    },
+    "tua#2": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Teu; tua; teus."
+      ],
+      "nota": "Concorda com auxilia."
+    },
+    "implorantem": {
+      "lema": "imploro",
+      "classe": "verbo",
+      "forma": "particípio presente, acusativo masculino singular",
+      "def": [
+        "Implorar; suplicar; rogar."
+      ],
+      "nota": "Concorda com quemquam."
+    },
+    "auxilia": {
+      "lema": "auxilium",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O auxílio; a ajuda; o socorro."
+      ],
+      "nota": "Objeto de implorantem."
+    },
+    "tua#3": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Teu; tua; teus."
+      ],
+      "nota": "Concorda com suffragia."
+    },
+    "petentem": {
+      "lema": "peto",
+      "classe": "verbo",
+      "forma": "particípio presente, acusativo masculino singular",
+      "def": [
+        "Pedir; buscar; procurar."
+      ],
+      "nota": "Concorda com quemquam."
+    },
+    "suffragia": {
+      "lema": "suffragium",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "A intercessão; o apoio; o voto."
+      ],
+      "nota": "Objeto de petentem."
+    },
+    "esse#2": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Ser; estar; existir."
+      ],
+      "nota": "Com derelictum: infinitivo perfeito passivo."
+    },
+    "derelictum": {
+      "lema": "derelinquo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino singular",
+      "def": [
+        "Abandonar; deixar; desamparar."
+      ],
+      "nota": "Com esse: ter sido abandonado."
+    },
+    "ego": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "nominativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Sujeito de curro."
+    },
+    "tali": {
+      "lema": "talis",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Tal; semelhante; dessa espécie."
+      ],
+      "nota": "Concorda com confidentia."
+    },
+    "animatus": {
+      "lema": "animo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Animar; dar vida; encorajar."
+      ],
+      "nota": "Concorda com Ego: animado."
+    },
+    "confidentia": {
+      "lema": "confidentia",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A confiança; a segurança; a firmeza."
+      ],
+      "nota": "Por meio de que: com tal confiança."
+    },
+    "te": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu; voce; vos."
+      ],
+      "nota": "Destino de ad."
+    },
+    "virginum": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "genitivo plural",
+      "def": [
+        "A virgem; virgem."
+      ],
+      "nota": "Virgem das virgens (superlativo)."
+    },
+    "mater": {
+      "lema": "mater",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A mãe; mae; a mae."
+      ],
+      "nota": "A quem se fala."
+    },
+    "curro": {
+      "lema": "curro",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Correr; acorrer; apressar-se."
+      ],
+      "nota": "Verbo principal: corro."
+    },
+    "te#2": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu; voce; vos."
+      ]
+    },
+    "venio": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Vir; chegar; venho."
+      ]
+    },
+    "coram": {
+      "lema": "coram",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Diante de; na presença de; perante."
+      ],
+      "nota": "Diante de."
+    },
+    "te#3": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "ablativo singular",
+      "def": [
+        "Tu; voce; vos."
+      ],
+      "nota": "Termo de coram."
+    },
+    "gemens": {
+      "lema": "gemo",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo masculino singular",
+      "def": [
+        "Gemer; suspirar; lamentar."
+      ],
+      "nota": "Concorda com peccator: gemendo."
+    },
+    "peccator": {
+      "lema": "peccator",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O pecador; pecador; pecadora."
+      ],
+      "nota": "Sujeito de assisto."
+    },
+    "assisto": {
+      "lema": "assisto",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Apresentar-se; estar presente; comparecer."
+      ],
+      "nota": "Verbo principal: apresento-me."
+    },
+    "noli": {
+      "lema": "nolo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Não querer; nao querer; recusar."
+      ],
+      "nota": "Com o infinitivo: não queiras = não desprezes."
+    },
+    "verbi": {
+      "lema": "verbum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "A palavra; palavra; verbo."
+      ],
+      "nota": "De quem é mãe: do Verbo."
+    },
+    "verba": {
+      "lema": "verbum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "A palavra; palavra; verbo."
+      ],
+      "nota": "Objeto de despicere."
+    },
+    "mea": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Meu; minha; meus."
+      ],
+      "nota": "Concorda com verba."
+    },
+    "despicere": {
+      "lema": "despicio",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Desprezar; olhar de cima; menosprezar."
+      ],
+      "nota": "Completa noli."
+    },
+    "sed": {
+      "lema": "sed",
+      "classe": "conjunção",
+      "def": [
+        "Mas; porem; contudo."
+      ]
+    },
+    "audi": {
+      "lema": "audio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Ouvir; escutar; ouvir dizer."
+      ]
+    },
+    "propitia": {
+      "lema": "propitius",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Propício; favorável; benigno."
+      ],
+      "nota": "Concorda com o sujeito tu: propícia."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E; tambem; ate."
+      ]
+    },
+    "exaudi": {
+      "lema": "exaudio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Atender; ouvir; escutar."
+      ],
+      "nota": "Atende."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "interjeição",
+      "def": [
+        "Amém: assim seja. Palavra hebraica que fecha a oração."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "4.1": "tua#2",
+    "4.4": "tua#3",
+    "5.1": "esse#2",
+    "8.2": "te#2",
+    "8.5": "te#3"
+  }
+}

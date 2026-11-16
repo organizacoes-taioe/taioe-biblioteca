@@ -2,7 +2,7 @@
 
 META = {
     'id': 'sao-francisco-de-assis', 'autor': 'g-k-chesterton', 'titulo': 'São Francisco de Assis',
-    'ano': 1923, 'genero': 'Biografia',
+    'ano': 1923, 'genero': 'Hagiografia',
     'divisao': {'singular': 'capítulo', 'plural': 'capítulos'},
     'traducao': {'lingua': 'inglês', 'codigo': 'en', 'titulo': 'St. Francis of Assisi'},
     'original_ao_lado': True,

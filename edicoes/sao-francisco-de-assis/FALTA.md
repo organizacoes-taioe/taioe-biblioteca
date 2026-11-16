@@ -7,7 +7,7 @@ Worktree: `~/.cache/claude-wt5-sao-francisco-chesterton`. Downloads, scripts da 
 ## Feito
 
 - Texto inglês de 1923 (`original/`, `LEIAME.md`, `montar.py`), conferido com três OCRs de 1923.
-- `CONVENCOES.md`, `obra.py`.
+- `CONVENCOES.md`, `obra.py` (gênero «Hagiografia»).
 
 ## Falta
 
@@ -23,4 +23,7 @@ Worktree: `~/.cache/claude-wt5-sao-francisco-chesterton`. Downloads, scripts da 
 
 | cap. | estado |
 |---|---|
-| I–X | por traduzir |
+| I–III | por traduzir (tradutor principal) |
+| IV–VI | traduzidos (subagente Opus, 16/11), notas em `notas-4..6.md` com candidatos ao `revisao.json` |
+| VII–IX | com um subagente Opus (16/11) |
+| X | por traduzir |

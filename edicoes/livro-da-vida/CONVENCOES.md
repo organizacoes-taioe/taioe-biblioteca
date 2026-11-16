@@ -39,14 +39,14 @@ saem no português de hoje («assim», «mesmo», «melhor», «segundo», «pie
 | recogimiento, recogerse | recolhimento, recolher-se |
 | oración de quietud, quietud | oração de quietude, quietude |
 | unión, unirse | união, unir-se |
-| arrobamiento | arroubo |
+| arrobamiento | arroubamento (como no *Castelo Interior*) |
 | arrebatamiento | arrebatamento |
 | éxtasis | êxtase |
 | rapto | rapto |
 | vuelo de espíritu | voo do espírito |
 | elevamiento, levantamiento | elevação, levantamento |
 | suspensión, suspender | suspensão, suspender |
-| embebecimiento, embebida | embebecimento, embebida |
+| embebecimiento, embebida(s) | embevecimento, embebida/absortas (como no *Castelo*) |
 | sueño de las potencias | sono das potências |
 | potencias (entendimiento, memoria, voluntad) | potências (entendimento, memória, vontade) |
 | imaginación | imaginação |
@@ -104,7 +104,7 @@ saem no português de hoje («assim», «mesmo», «melhor», «segundo», «pie
 | la oración del Huerto | a oração do Horto (o «horto» de Agostinho em minúscula) |
 | perdones · seglar · subir el espíritu | indulgências · secular · elevar o espírito |
 | medrado | crescido (nunca «medrar») |
-| escardar · muladar · mariposilla de la memoria | capinar · monturo · mariposinha da memória |
+| escardar · muladar · mariposilla de la memoria | capinar · monturo · borboletinha da memória |
 | juntamiento con el amor celestial | junção com o amor celestial |
 | seso · aviso (cautela) · recato (cautela) | juízo · atenção · cautela |
 | holgarse (Deus com os homens) · divertirse (as potências) | alegrar-se · distrair-se |
@@ -146,12 +146,12 @@ reverência a Deus seguem a edição.
 
 Latim e Escritura como ela cita (de memória, quase sempre do breviário ou dos livros em romance que
 lia): traduza o que ela escreve; o latim fica em latim, em itálico, com a tradução logo depois entre
-colchetes só se ela mesma não a der: `_Misericordias Domini in aeternum cantabo_ [Cantarei para sempre
-as misericórdias do Senhor]`. Referências, se ela não dá, não se acrescentam.
+colchetes só se ela mesma não a der, como no *Castelo*: `_Misericordias Domini in aeternum cantabo_ [Trad.:
+Cantarei para sempre as misericórdias do Senhor]`. Referências, se ela não dá, não se acrescentam.
 
 ## 6. Tipografia
 
-Aspas “…” (e ‘…’ dentro). Itálico `_assim_`. Reticências como no original. Maiúsculas de reverência só
+Aspas «…», como na edição e no *Castelo Interior* (prevalece sobre o guia geral), com “…” dentro. Itálico `_assim_`. Reticências como no original. Maiúsculas de reverência só
 onde a edição as tem. Números como ela escreve (por extenso, em geral).
 
 ## 7. Formato dos arquivos de trabalho

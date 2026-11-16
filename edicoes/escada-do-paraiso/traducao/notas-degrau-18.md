@@ -4,7 +4,7 @@
 - ἀναισθησία: «insensibilidade» (tabela). ἀναλγησία; ἀνάλγητος: «endurecimento»; «o endurecido» (ao pé da letra,
   «falta de dor», o que não sente a dor da alma; Rader: _indolentia_, _stupidus_). Proponho fixar.
 - νέκρωσις ψυχῆς (título): «a morte da alma» (evitei «mortificação», que em português é a ascese).
-- πεπωρωμένη ἀμέλεια: «negligência que virou hábito» (Rader: _negligentia quae in usum et habitum venit_).
+- πεποιωμένη ἀμέλεια: «negligência que virou hábito» (Rader: _negligentia quae in usum et habitum venit_).
 - πρόληψις: «preconceito» (Rader: _praesumptionis partus_; «presunção» ficou para οἴησις, degrau 22). προθυμία: «fervor».
 - αὐτεναντίος φιλόλογος: «um orador que fala contra si».
 - ἐγκράτεια: «abstinência» (é o comer). σωφροσύνη: «castidade» (o contexto é o olhar).
@@ -23,7 +23,7 @@
 - [18.9] κόρου φίλη: «amiga da saciedade»; Rader leu _societatis amica_ (κοινωνίας?).
 
 ## Grego a corrigir
-- [18.1] ᾿Αναισθησία, ᾿Αναλγησία → Ἀν-; ἐστὶν νενεκρωμένη → ἐστὶ νενεκρωμένη; πεποιωμένη → πεπωρωμένη (?); ἕννοια →
+- [18.1] ᾿Αναισθησία, ᾿Αναλγησία → Ἀν-; ἐστὶν νενεκρωμένη → ἐστὶ νενεκρωμένη; ἕννοια →
   ἔννοια; παγὶς → παγίς; οἱκείας → οἰκείας; διάκρισις φόβου → (ver a imagem; Rader _excludit_); φιλόθοφος →
   φιλόσοφος; φιλολόγος ἴὅ), → φιλόλογος,; βλέπειν Ἷ περὶ → βλέπειν· περὶ; κάτὰ → κατὰ.
 - [18.2] αὑτῇ → αὐτῇ; χενοδοξεΐ → κενοδοξεῖ; ἐχστηθίζει → ἐκστηθίζει; χαταῦαπτίζει → καταβαπτίζει; χρίσεως →

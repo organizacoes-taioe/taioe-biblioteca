@@ -12,7 +12,8 @@ prevalece onde for mais específico. Modelos de tom: `traducao/00-prefacio.txt` 
   `# titulo: Prefácio`; `# titulo: Nota A. O liberalismo`; `# titulo: Carta do bispo de Birmingham`;
   `# titulo: Mensagens do clero e dos leigos`; `# titulo: Notas adicionais`.
 - Ficam iguais e no mesmo lugar: `* * *`, as chamadas `[n]`, os parágrafos `¤ [n] …` (notas do autor, traduzidas:
-  «¤ [1] Ver a Nota A, _O liberalismo_, no fim do volume.»), os `## ` (traduzidos: `## § 1.`, `## Protesto.`,
+  «¤ [1] Ver a Nota A, _O liberalismo_, no fim do volume.»; a continuação de uma nota em outro parágrafo vai em «¤ » sem número, logo
+  depois dela, como no `03-capitulo-2b.txt`), os `## ` (traduzidos: `## § 1.`, `## Protesto.`,
   `## I. A diocese de Westminster.`, `## Nota sobre a p. 12.`), as linhas `| ` (versos latinos, que ficam em latim; e
   o calendário da Nota D, ver § 8).
 - Travessão: o `--` do Gutenberg vira «—», com espaço dos dois lados; o «; —» fica

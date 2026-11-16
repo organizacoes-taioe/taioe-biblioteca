@@ -44,7 +44,10 @@ repositório (ficou em `~/.cache/claude-pedidos-1611/tmp-apologia-newman/`, só 
   título de cada uma, e os números das quatro cartas de Whately). Títulos em caixa alta passaram a caixa de título.
 - **Notas de rodapé do autor** (21 no livro; no Gutenberg, numeradas de 1 a 21 e postas logo depois do parágrafo):
   renumeradas a partir de 1 em cada arquivo, a chamada `[n]` no lugar e o texto num parágrafo `¤ [n] …` no fim do
-  arquivo (o site as mostra no fim da página como «Notas do autor», formato da _Democracia na América_).
+  arquivo (o site as mostra no fim da página como «Notas do autor», formato da _Democracia na América_). A nota [6] do
+  Gutenberg (a [2] do `03-capitulo-2b.txt`) tem quatro parágrafos no impresso: os três seguintes ao primeiro (o desafio
+  aos clérigos evangélicos e as duas fórmulas de absolução) vão logo depois dela, cada um como «¤ » sem número
+  (`CONTINUA_NOTA` no `montar.py`); o site os mostra como parágrafos seguintes da nota. É a única nota assim no livro.
 - Versos: só dois trechos, ambos em latim, em `| ` linha a linha: «Victrix causa diis placuit…» (Lucano; cap. IV, 3ª
   parte) e a fala de Penteu e Baco (Horácio, Epístolas I,16; Nota A).
 - **Nota D, o calendário dos santos ingleses** (1843): cada linha da lista vai em `| ` só para guardar as quebras (não

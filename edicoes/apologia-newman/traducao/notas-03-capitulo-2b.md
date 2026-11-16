@@ -4,11 +4,10 @@
 
 ## Atenção (formato do original)
 
-- **§§ 74–76 são, na edição de 1890, a continuação da nota do autor [2]** (o desafio aos clérigos evangélicos, a
-  fórmula de absolvição do _Prayer Book_ e a fórmula romana em latim). O `montar.py` os deixou no corpo, logo
-  depois do § 73, e o `¤ [2]` do fim tem só a primeira frase. A tradução seguiu o original como está (mesmo número de
-  parágrafos). Sugestão ao principal: juntar os §§ 74–76 ao `¤ [2]`, no original e na tradução, de uma vez.
-- O latim da fórmula romana (§ 76) ficou em latim, sem itálico (bloco inteiro, CONVENCOES § 7).
+- Os três parágrafos que continuam a nota do autor [2] (o desafio aos clérigos evangélicos, a fórmula de absolvição do
+  _Prayer Book_ e a fórmula romana em latim) estavam no corpo; o uniformizador (16/11) os pôs, no original (pelo
+  `montar.py`) e na tradução, logo depois do `¤ [2]`, como parágrafos «¤ » sem número. A contagem continua 88.
+- O latim da fórmula romana ficou em latim, sem itálico (bloco inteiro, CONVENCOES § 7).
 
 ## Termos e soluções
 

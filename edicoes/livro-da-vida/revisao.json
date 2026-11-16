@@ -1,0 +1,174 @@
+{
+ "id": "livro-da-vida",
+ "rotulo": "Livro da Vida (Santa Teresa de Jesus)",
+ "url": "/biblioteca/santa-teresa-de-jesus/livro-da-vida/",
+ "escolhas": [
+  {
+   "id": "mercedes",
+   "titulo": "As *mercedes* de Deus ficam «mercês»?",
+   "ref": "o livro inteiro (umas 380 vezes; já no título)",
+   "contexto": "Teresa chama de *mercedes* os favores de Deus: «las mercedes que el Señor me ha hecho» — «as mercês que o Senhor me fez». *Gracia* aparece à parte e ficou «graça».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«mercê(s)», como está",
+     "nota": "Termo da tradição teresiana em português e o mesmo do *Castelo Interior*; distingue de *gracia*.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«graça(s)»",
+     "nota": "Mais corrente hoje, mas confunde com *gracia*, que ela usa noutro sentido."
+    },
+    {
+     "id": "c",
+     "texto": "«favor(es)»",
+     "nota": "Claro, mas apaga o termo dela."
+    }
+   ]
+  },
+  {
+   "id": "vossa-merce",
+   "titulo": "Teresa trata o confessor por «Vossa Mercê»?",
+   "ref": "prólogo, caps. 10, 16, 34, 36, 37, 40 e o epílogo (75 vezes)",
+   "contexto": "O livro é dirigido ao dominicano García de Toledo: «por pensar que vuestra merced hará esto» — «por pensar que Vossa Mercê fará isto».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Vossa Mercê», como está",
+     "nota": "O tratamento do castelhano, que o português da época também tinha; marca a distância de respeito.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o senhor»",
+     "nota": "Natural hoje, mas soa a conversa, e perde o eco com as *mercês* de Deus que o livro todo joga."
+    },
+    {
+     "id": "c",
+     "texto": "«Vossa Reverência»",
+     "nota": "Tratamento de religioso em português, mas não é o que ela escreve."
+    }
+   ]
+  },
+  {
+   "id": "honestidad",
+   "titulo": "*Honesto*, *honestidad* (o pudor) ficam «recatado», «recato»?",
+   "ref": "1.1, 1.2, 2.3, 2.8, 5.5",
+   "contexto": "Da mãe: «grandísima honestidad» — «grandíssimo recato»; do pai: «muy honesto en gran manera» — «muito recatado em grande maneira».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«recatado», «recato», como está",
+     "nota": "É o sentido do séc. XVI (pudor, decoro); «honesto» hoje se lê «que não mente».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«honesto», «honestidade»",
+     "nota": "A letra, mas o leitor de hoje entende outra coisa."
+    }
+   ]
+  },
+  {
+   "id": "arroubamento",
+   "titulo": "*Arrobamiento* fica «arroubamento»?",
+   "ref": "caps. 18–22, 24, 25, 28, 38–40 (47 vezes)",
+   "contexto": "O cap. 20 dá os nomes da mesma graça: «arroubamento, ou elevação, ou voo que chamam do espírito, e arrebatamento, que tudo é um»; e o título: «Em que trata da diferença que há da união ao arroubamento».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«arroubamento», como está",
+     "nota": "O mesmo do *Castelo Interior*, que já está no ar; corresponde à palavra dela, mais longa que «arroubo».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«arroubo»",
+     "nota": "Mais curto e mais usado hoje; teria de mudar também no *Castelo*."
+    }
+   ]
+  },
+  {
+   "id": "cruz-delgada",
+   "titulo": "A *delgada y pesadísima cruz* (16.5) fica «leve e pesadíssima»?",
+   "ref": "16.5",
+   "contexto": "«Ó verdadeiro Senhor e glória minha, que leve e pesadíssima cruz tendes preparada para os que chegam a este estado! Leve, porque é suave…» Ela mesma explica o paradoxo logo depois.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«leve e pesadíssima», como está",
+     "nota": "*Delgada* é «fina», «leve»; o paradoxo fica claro e casa com a explicação que vem a seguir.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«delgada e pesadíssima»",
+     "nota": "A letra, mas «delgada» em português é de corpo, não de peso, e o contraste se apaga."
+    }
+   ]
+  },
+  {
+   "id": "requiebro",
+   "titulo": "O *requiebro* da transverberação (29.13) fica «galanteio»?",
+   "ref": "29.13",
+   "contexto": "Depois do anjo com o dardo: «É um galanteio tão suave o que se passa entre a alma e Deus que eu suplico à sua bondade que o dê a provar a quem pensar que minto».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«galanteio», como está",
+     "nota": "É a palavra de namoro que ela usa, de propósito.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«requebro»",
+     "nota": "A forma das traduções antigas; no Brasil se lê como meneio do corpo."
+    },
+    {
+     "id": "c",
+     "texto": "«carinho»",
+     "nota": "Mais neutra, mas perde o tom de namoro."
+    }
+   ]
+  },
+  {
+   "id": "no-le-pesaba",
+   "titulo": "Em 7.6 sai o «no» de *lo que de aquello no le pesaba*?",
+   "ref": "7.6",
+   "contexto": "Cristo aparece a ela «com muito rigor, dando-me a entender o que daquilo lhe pesava» (as amizades perigosas do locutório). A edição de 1915 lê «no le pesaba», que contradiz o rigor da visão; a edição de Vicente de la Fuente (1861) não tem o «no». O castelhano ao lado fica como em 1915.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "sem o «no», como está: «o que daquilo lhe pesava»",
+     "nota": "Leitura da edição de 1861 e a que o sentido pede.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "com o «no»: «o que daquilo não lhe pesava»",
+     "nota": "A letra de 1915, mas a frase não se entende."
+    }
+   ]
+  },
+  {
+   "id": "sem-nomes",
+   "titulo": "As pessoas que Teresa não nomeia ficam sem nome também na tradução?",
+   "ref": "caps. 23–24, 28, 30–37 (Gaspar Daza, Francisco de Salcedo, Baltasar Álvarez, dona Guiomar de Ulloa, dona Luisa de la Cerda, García de Toledo…)",
+   "contexto": "Ela esconde os nomes de propósito: «um clérigo letrado que havia neste lugar», «um cavaleiro santo», «uma senhora muito principal». Os editores costumam identificá-los em nota.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "sem nome, como está",
+     "nota": "Fiel ao cuidado dela; a identificação pode vir depois, nas notas gerais.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "com o nome entre colchetes na primeira vez («um cavaleiro santo [Francisco de Salcedo]»)",
+     "nota": "Ajuda o leitor, mas é acréscimo nosso no texto."
+    }
+   ]
+  }
+ ]
+}

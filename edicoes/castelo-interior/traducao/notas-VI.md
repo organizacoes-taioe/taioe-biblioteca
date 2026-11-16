@@ -31,6 +31,11 @@
 - *navecica* (VI.5) → «barquinha»; *jayán* → «homenzarrão» (para não repetir o «gigante» que vem logo depois).
 - *pelota de un arcabuz* (VI.5) → «bala de um arcabuz»; *tierra de promisión* → «terra prometida».
 - *Sol de Justicia* → «Sol de Justiça».
+- *Dios de las Caballerías* (VI.6) → «Deus das Cavalarias» (expressão dela para o Senhor dos exércitos; alternativa: «Deus dos Exércitos», que apaga a imagem).
+- *estar en un ser* (dos desejos, VI.6) → «permanecer» («não são desejos que passam, mas que permanecem … Por que digo que permanecem?»); em VI.2 e VI.4, do que não dura, «ficar no mesmo ponto».
+- *tierna* (de lágrimas fáceis, VI.6) → «sensível» / «terna»; *recio* (o coração) → «duro»; *alquitara* → «alambique».
+- *trampantojos* (VI.6) → «ilusões»; *algarabía* → «algaravia»; *pregonero / apregonar* → «pregoeiro / apregoar».
+- *Fray Pedro de Alcántara* → «Frei Pedro de Alcântara».
 
 ## Passagens difíceis
 
@@ -60,5 +65,8 @@
 - VI.4, «si no le diese Dios, con icuanto veis, u que nos está bien»: *icuanto* por *cuanto*; leitura: «com tudo quanto vedes, e por mais que nos convenha».
 - VI.4, «para que un memento dejemos de buscar»: *memento* por *momento*.
 - VI.5, «tratado tantas per'sonas santas»: apóstrofo no meio de *personas*.
+- VI.6, «aunque ino fuese por más»: *ino* por *no*.
+- VI.6, «Fray Pedro de [Alcánjtara»: o colchete de Silverio ficou estropiado (*[Alcánjtara* por *[Alcán]tara*); também «[ala]banzas», «mes[mo]», «[por]que», «un [día]», todos lidos inteiros.
+- VI.6, «le tiníen por loco»: *tiníen* (forma dela, por *tenían*), não é erro.
 
 ## Decisões delicadas (candidatas ao dono)

@@ -124,6 +124,12 @@ saem no português de hoje («assim», «mesmo», «melhor», «segundo», «pie
 | corrida, correrse · entender en (a fundação) · Retor | envergonhada, envergonhar-se · ocupar-se de · reitor |
 | monesterio más encerrado · labrar (a casa) · Bula de relajación | de clausura mais estrita · fazer as obras · Bula de mitigação |
 | canto de órgano · mayorazgo · levantar (falso) | canto a várias vozes · morgado · levantar calúnia |
+| Maitines · Completas · hacer el oficio · hice mi culpa | Matinas · Completas · rezar o ofício · acusei-me da minha culpa |
+| Presentado · Ordinario · primera Regla · encerramiento | o Presentado · o Ordinário (o bispo) · Regra primitiva · clausura |
+| regidores · corregidor · cabildo · república | vereadores · corregedor · cabido · bem comum |
+| sin demanda · crianza · concierto · terceros · tener propio | sem sairmos a pedir esmola · cortesia · acordo · medianeiros · ter bens próprios |
+| merced (de um homem) · regalos (de casa) · regalada (em lágrimas) | favor · confortos · enternecida |
+| puertos (de montanha) · temer de musarañas | desfiladeiros · ter medo de sombras |
 
 Falas de Deus a ela: entre aspas, com «tu» («Serve-me tu a mim…»). Pessoas que ela não nomeia ficam sem
 nome também na tradução. Título de hino (_Veni Creator_) sem tradução entre colchetes.

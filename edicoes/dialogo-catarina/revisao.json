@@ -1,0 +1,193 @@
+{
+ "id": "dialogo-catarina",
+ "rotulo": "Diálogo da Divina Providência (Santa Catarina de Sena)",
+ "url": "/biblioteca/santa-catarina-de-sena/dialogo/",
+ "escolhas": [
+  {
+   "id": "titulo",
+   "titulo": "O título fica «Diálogo da Divina Providência»?",
+   "ref": "título do livro",
+   "contexto": "O códice e a edição de 1912 chamam a obra «Libro della divina dottrina, volgarmente detto Dialogo della divina provvidenza»: o nome que os discípulos lhe deram é «Livro da Divina Doutrina»; o nome corrente, «Diálogo».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Diálogo da Divina Providência», com o subtítulo «ou Livro da Divina Doutrina», como está",
+     "nota": "O nome pelo qual o livro é conhecido no Brasil.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Livro da Divina Doutrina», com o subtítulo «chamado Diálogo da Divina Providência»",
+     "nota": "O título do códice e de Fiorilli."
+    },
+    {
+     "id": "c",
+     "texto": "só «O Diálogo»",
+     "nota": "Como se cita a obra hoje."
+    }
+   ]
+  },
+  {
+   "id": "pronomes-de-deus",
+   "titulo": "Os pronomes de Deus ficam em minúscula?",
+   "ref": "o livro inteiro (Deus Pai fala quase sempre na primeira pessoa)",
+   "contexto": "Fiorilli põe às vezes «Io» com maiúscula quando Deus fala, mas não sempre: «Io manifestarò me medesimo», «la bellezza che io ho data». Na tradução: «Disse-te como todos os pecados se fazem por meio do próximo…»; «eu sou o Bem infinito».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "minúscula em todo o livro (eu, me, mim, meu; ele, seu), como está",
+     "nota": "Uso das traduções católicas de hoje; a maiúscula fica nos nomes (Verdade, Ponte, Sangue, Verbo).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "maiúscula quando Deus fala de si («Eu», «Me», «Mim», «Meu»)",
+     "nota": "Mais reverente, mas pesa num livro em que Deus fala em quase todas as linhas."
+    }
+   ]
+  },
+  {
+   "id": "sensualidade",
+   "titulo": "«Sensualitá» fica «sensualidade»?",
+   "ref": "o livro inteiro (55 vezes; caps. 4, 7, 9…)",
+   "contexto": "Em Catarina, «sensualitá» é a parte sensitiva da alma e o amor desordenado a ela, sem sentido sexual: «com ódio e desgosto dessa sensualidade, calcando-a sob a razão» (cap. 7).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«sensualidade», como está; a «Sobre» explica o sentido",
+     "nota": "É o termo técnico dos místicos e o das traduções; mantém a família de palavras.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«a parte sensitiva» (ou «o amor sensitivo», conforme a frase)",
+     "nota": "Mais claro hoje, mas varia a palavra e perde o termo único."
+    }
+   ]
+  },
+  {
+   "id": "lagrimas-sensuais",
+   "titulo": "«Lagrime sensuali» ficam «lágrimas sensíveis»?",
+   "ref": "caps. 89 e 101 (os estados das lágrimas)",
+   "contexto": "São as lágrimas que vêm da paixão sensitiva, mesmo espiritual: «Deste modo derrama lágrimas sensíveis, isto é, de paixão espiritual…» (cap. 89).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«lágrimas sensíveis», como está",
+     "nota": "Foge do sentido erótico que «sensual» tem hoje.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«lágrimas sensuais»",
+     "nota": "Fiel à palavra e ao termo «sensualidade», mas soa mal hoje."
+    },
+    {
+     "id": "c",
+     "texto": "«lágrimas dos sentidos»",
+     "nota": "Claro, mas é paráfrase."
+    }
+   ]
+  },
+  {
+   "id": "adega",
+   "titulo": "A «bottiga» do corpo místico fica «adega»?",
+   "ref": "caps. 115, 119 e 126 (a Igreja que guarda o Sangue; o lado aberto de Cristo)",
+   "contexto": "Catarina vê a Igreja como uma «bottiga» (e uma vez «cellaio») onde se guarda e se serve o Sangue, que embriaga: «o corpo místico da santa Igreja quase em forma de uma adega, e nessa adega estava o sangue do meu Filho»; o lado aberto de Cristo, «como uma adega aberta, onde possais ver e saborear o amor».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«adega», como está",
+     "nota": "Guarda a imagem do vinho e da embriaguez do Sangue; serve também para «cellaio».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«loja»",
+     "nota": "O sentido literal de «bottega», mas comercial demais em português."
+    },
+    {
+     "id": "c",
+     "texto": "«taberna»",
+     "nota": "Lugar onde se serve vinho, mas tem tom negativo."
+    }
+   ]
+  },
+  {
+   "id": "meus-cristos",
+   "titulo": "«E' miei cristi» (os sacerdotes) fica «os meus cristos»?",
+   "ref": "caps. 113–120 (os ministros e os que os perseguem)",
+   "contexto": "Deus chama os sacerdotes de «miei cristi», ao lado de «unti»: «pois são os meus cristos; e deveis amar e reverenciar a autoridade…» (cap. 120); na citação do salmo: «Não queirais tocar nos meus cristos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«os meus cristos», como está, e «ungidos» onde o texto diz «unti»",
+     "nota": "Literal; é a força da frase de Catarina.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«os meus ungidos» em todo lugar",
+     "nota": "Como nas Bíblias brasileiras (Sl 105,15), mas junta duas palavras dela."
+    }
+   ]
+  },
+  {
+   "id": "diabas",
+   "titulo": "As concubinas dos maus sacerdotes ficam «a sua diaba»?",
+   "ref": "caps. 123, 127 e 130",
+   "contexto": "Catarina chama a mulher com quem vive o mau sacerdote de «la diavola sua», «le dimonia»: «adornam com o bem da Igreja a sua diaba, com a qual vivem iníqua e impudicamente» (cap. 123).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«a sua diaba», «as diabas», como está",
+     "nota": "Fiel à dureza da imagem.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«a sua concubina»",
+     "nota": "Claro, mas some a imagem do original."
+    }
+   ]
+  },
+  {
+   "id": "aquela-que-nao-e",
+   "titulo": "«Io so' colei che non so'» fica «eu sou aquela que não é»?",
+   "ref": "cap. 134 (a oração que fecha o tratado da oração)",
+   "contexto": "No mesmo capítulo Catarina diz a Deus «só tu és aquele que é» e «nós somos aqueles que não são»: «… porque eu sou aquela que não é. E, se eu dissesse alguma coisa por mim, mentiria».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«eu sou aquela que não é», como está",
+     "nota": "Faz par com «tu és aquele que é», do mesmo capítulo, e com «aqueles que não são».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«eu sou aquela que não sou»",
+     "nota": "Literal (o «non so'» é primeira pessoa), mas soa estranho e perde o par."
+    }
+   ]
+  },
+  {
+   "id": "desejo-ansioso",
+   "titulo": "«Ansietato desiderio» fica «desejo ansioso»?",
+   "ref": "o livro inteiro (caps. 1, 2, 15, 53…)",
+   "contexto": "Fórmula de Catarina para o desejo aflito e impaciente da honra de Deus e da salvação das almas: «Uma alma se levanta, ansiosa de grandíssimo desejo…» (cap. 1); «ela se pôs com desejo ansioso» (cap. 2).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«desejo ansioso», «ansiosa de desejo», como está",
+     "nota": "Literal; a ânsia é o sentido antigo de «ansioso».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«desejo ardente», «ardente de desejo»",
+     "nota": "Mais corrente, mas perde a aflição e confunde com «ardente» (que ela também usa)."
+    }
+   ]
+  }
+ ]
+}

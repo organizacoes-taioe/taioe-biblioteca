@@ -160,7 +160,10 @@
       "lema": "lilio",
       "wiki": null,
       "classe": "substantivo masculino",
-      "nota": "Forma antiga de «lirio», o lírio. Símbolo da brancura: a testa branca da moça o faz desprezar-se a si mesmo."
+      "nota": "Forma antiga de «lirio», o lírio. Símbolo da brancura: a testa branca da moça o faz desprezar-se a si mesmo.",
+      "def": [
+        "Lírio."
+      ]
     },
     "bello": {
       "lema": "bello",
@@ -193,10 +196,14 @@
       ]
     },
     "cogello": {
-      "lema": "cogello",
+      "lema": "coger",
       "wiki": null,
       "classe": "verbo",
-      "nota": "Forma antiga de «cogerlo» («colhê-lo»). Aqui, colher o lábio, isto é, beijá-lo: o «lo» retoma «labio»."
+      "nota": "Forma antiga de «cogerlo» («colhê-lo»). Aqui, colher o lábio, isto é, beijá-lo: o «lo» retoma «labio».",
+      "forma": "infinitivo com o pronome «lo» (forma antiga de «cogerlo»)",
+      "def": [
+        "Colher, apanhar."
+      ]
     },
     "siguen": {
       "lema": "seguir",
@@ -304,7 +311,7 @@
       "lema": "gentil",
       "classe": "adjetivo",
       "def": [
-        "Próprio, relativo ou pertencente à nobreza."
+        "Gracioso, airoso, elegante."
       ],
       "nota": "Em «tu gentil cuello»: o teu pescoço nobre, elegante, de porte distinto. Não tem aqui o sentido atual de «amável»."
     },

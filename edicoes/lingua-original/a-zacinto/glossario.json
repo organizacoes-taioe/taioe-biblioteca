@@ -1,0 +1,668 @@
+{
+ "verbetes": {
+  "a": {
+   "lema": "a",
+   "classe": "preposição",
+   "def": [
+    "Indica o destino ou a quem se dirige algo; a, para."
+   ],
+   "nota": "No título, «A Zacinto» é uma apóstrofe: o poeta fala à ilha, como numa dedicatória."
+  },
+  "zacinto": {
+   "lema": "Zacinto",
+   "classe": "nome próprio",
+   "def": [
+    "Zacinto ou Zante, ilha grega do mar Jônio, onde nasceu Foscolo."
+   ],
+   "nota": "Ilha grega do mar Jônio, pátria materna do poeta; é a «Zacinto mia» a quem o soneto se dirige."
+  },
+  "né": {
+   "lema": "né",
+   "classe": "conjunção",
+   "def": [
+    "Com função negativa, coordena elementos ou orações; nem."
+   ],
+   "nota": "Aqui abre o soneto como «e não»: «Né più mai toccherò» é «nem nunca mais tocarei», como continuação de um pensamento já em curso."
+  },
+  "più": {
+   "lema": "più",
+   "classe": "advérbio",
+   "def": [
+    "Em maior quantidade, medida ou grau; mais."
+   ],
+   "nota": "«Più mai» é «nunca mais»: a negação definitiva do regresso."
+  },
+  "mai": {
+   "lema": "mai",
+   "classe": "advérbio",
+   "def": [
+    "Em nenhum tempo; nunca."
+   ]
+  },
+  "toccherò": {
+   "lema": "toccare",
+   "classe": "verbo",
+   "forma": "futuro do indicativo, 1ª pessoa do singular",
+   "def": [
+    "Pôr em contato os dedos ou outra parte do corpo com algo; tocar."
+   ]
+  },
+  "le": {
+   "lema": "il",
+   "classe": "artigo definido",
+   "forma": "feminino plural",
+   "def": [
+    "Artigo definido feminino plural."
+   ]
+  },
+  "sacre": {
+   "lema": "sacro",
+   "classe": "adjetivo",
+   "forma": "feminino plural",
+   "def": [
+    "Que diz respeito ao culto de Deus; sagrado."
+   ],
+   "nota": "Para o poeta a terra natal é sagrada, como a de um santuário."
+  },
+  "sponde": {
+   "lema": "sponda",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Trecho de terreno que delimita o mar ou um lago, ou que margeia um rio; margem, praia."
+   ]
+  },
+  "ove": {
+   "lema": "ove",
+   "classe": "advérbio",
+   "def": [
+    "No qual; em que lugar; onde."
+   ],
+   "nota": "Forma literária de «dove»."
+  },
+  "il": {
+   "lema": "il",
+   "classe": "artigo definido",
+   "def": [
+    "Artigo definido masculino singular."
+   ]
+  },
+  "mio": {
+   "lema": "mio",
+   "classe": "pronome possessivo",
+   "forma": "masculino singular",
+   "def": [
+    "Que me pertence; meu."
+   ]
+  },
+  "corpo": {
+   "lema": "corpo",
+   "classe": "substantivo masculino",
+   "def": [
+    "Estrutura física de um ser humano ou de um animal; corpo."
+   ]
+  },
+  "fanciulletto": {
+   "lema": "fanciulletto",
+   "classe": "substantivo masculino",
+   "forma": "masculino singular, diminutivo",
+   "def": [
+    "Diminutivo de «fanciullo»: menino pequeno."
+   ],
+   "nota": "De «fanciullo» (menino), com o sufixo diminutivo «-etto»: o corpo ainda de criança, que repousou ali em menino. Nesta frase funciona como adjetivo de «corpo»."
+  },
+  "giacque": {
+   "lema": "giacere",
+   "classe": "verbo",
+   "forma": "passato remoto, 3ª pessoa do singular",
+   "def": [
+    "Estar deitado; (por extensão) repousar."
+   ],
+   "nota": "Foscolo nasceu em Zacinto, onde o corpo «giacque», isto é, repousou, quando criança."
+  },
+  "mia": {
+   "lema": "mio",
+   "classe": "pronome possessivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que me pertence; meu."
+   ]
+  },
+  "che": {
+   "lema": "che",
+   "classe": "pronome relativo",
+   "def": [
+    "Introduz oração relativa; que."
+   ],
+   "nota": "Em «che te specchi», «tu que te espelhas»: o relativo retoma «Zacinto». Em «colui che l’acque cantò», «aquele que cantou as águas»."
+  },
+  "te": {
+   "lema": "te",
+   "classe": "pronome pessoal",
+   "forma": "2ª pessoa do singular, reflexivo",
+   "def": [
+    "Pronome pessoal de 2ª pessoa do singular; te."
+   ],
+   "nota": "«Che te specchi» é «que te espelhas»: o «te» reforça o reflexivo."
+  },
+  "specchi": {
+   "lema": "specchiare",
+   "wiki": "en:Italian",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 2ª pessoa do singular, reflexivo",
+   "def": [
+    "Refletir como num espelho."
+   ],
+   "nota": "Zacinto se «espelha» nas ondas: a ilha se vê refletida no mar."
+  },
+  "nell’": {
+   "lema": "nell'",
+   "wiki": "en:Italian",
+   "classe": "preposição articulada",
+   "forma": "elidida diante de vogal",
+   "def": [
+    "Contração elidida de «in» e «lo» ou «la»; na, no."
+   ],
+   "nota": "«Nell’onde» é «nas ondas»; antes de vogal, «nelle» e «nello» perdem a vogal final."
+  },
+  "onde": {
+   "lema": "onda",
+   "wiki": "it",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Massa de água do mar, de um lago ou de um rio que se eleva e se abaixa; onda."
+   ],
+   "nota": "Forma poética: «l’onde» (as ondas) por «le onde»."
+  },
+  "del": {
+   "lema": "del",
+   "classe": "preposição articulada",
+   "def": [
+    "Contração de «di» e «il»; do."
+   ]
+  },
+  "greco": {
+   "lema": "greco",
+   "classe": "adjetivo",
+   "forma": "masculino singular",
+   "def": [
+    "Relativo à Grécia ou aos seus habitantes; grego."
+   ]
+  },
+  "mar": {
+   "lema": "mare",
+   "classe": "substantivo masculino",
+   "forma": "forma apocopada («mare»)",
+   "def": [
+    "Extensão de água salgada que circunda as terras emersas; mar."
+   ]
+  },
+  "da": {
+   "lema": "da",
+   "classe": "preposição",
+   "def": [
+    "Indica a origem ou a proveniência; de."
+   ],
+   "nota": "Em «da cui», «do qual»: a origem do nascimento de Vênus."
+  },
+  "cui": {
+   "lema": "cui",
+   "wiki": "en:Italian",
+   "classe": "pronome relativo",
+   "def": [
+    "Pronome relativo precedido de preposição; qual."
+   ],
+   "nota": "«Da cui vergine nacque Venere» é «do qual nasceu virgem Vênus»."
+  },
+  "vergine": {
+   "lema": "vergine",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "(Literário) Jovem, moça; donzela."
+   ],
+   "nota": "Vênus, ao nascer do mar, era virgem e jovem; o adjetivo qualifica a deusa nesta oração."
+  },
+  "nacque": {
+   "lema": "nascere",
+   "classe": "verbo",
+   "forma": "passato remoto, 3ª pessoa do singular",
+   "def": [
+    "Entrar na vida; nascer."
+   ],
+   "nota": "O sujeito é «Venere», posto no verso seguinte: «do qual (o mar grego) nasceu virgem Vênus»."
+  },
+  "venere": {
+   "lema": "Venere",
+   "classe": "nome próprio",
+   "def": [
+    "Deusa do amor na mitologia greco-romana, inspirada na grega Afrodite."
+   ],
+   "nota": "Segundo o mito, Vênus nasceu da espuma do mar Jônio, junto às ilhas gregas."
+  },
+  "e": {
+   "lema": "e",
+   "classe": "conjunção",
+   "def": [
+    "Usada para unir duas palavras ou duas orações."
+   ]
+  },
+  "fea": {
+   "lema": "fare",
+   "wiki": "en:Italian",
+   "classe": "verbo",
+   "forma": "imperfeito do indicativo, 3ª pessoa do singular, forma poética («faceva»)",
+   "def": [
+    "Realizar; (no uso poético) tornar, fazer."
+   ],
+   "nota": "«Fea» é a forma poética de «faceva»: Vênus «fazia fecundas» aquelas ilhas com o seu primeiro sorriso."
+  },
+  "quelle": {
+   "lema": "quello",
+   "wiki": "en:Italian",
+   "classe": "pronome demonstrativo",
+   "forma": "feminino plural",
+   "def": [
+    "Indica pessoa ou coisa distante de quem fala; aquele."
+   ]
+  },
+  "isole": {
+   "lema": "isola",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Terra emersa rodeada de água por todos os lados; ilha."
+   ]
+  },
+  "feconde": {
+   "lema": "fecondo",
+   "classe": "adjetivo",
+   "forma": "feminino plural",
+   "def": [
+    "Idôneo para a reprodução; fértil."
+   ]
+  },
+  "col": {
+   "lema": "col",
+   "classe": "preposição articulada",
+   "def": [
+    "Contração de «con» e «il»; com o."
+   ]
+  },
+  "suo": {
+   "lema": "suo",
+   "classe": "pronome possessivo",
+   "forma": "masculino singular",
+   "def": [
+    "Que pertence a ele ou a ela."
+   ]
+  },
+  "primo": {
+   "lema": "primo",
+   "classe": "numeral ordinal",
+   "forma": "masculino singular",
+   "def": [
+    "Que não é precedido por outro; que inicia uma série; primeiro."
+   ]
+  },
+  "sorriso": {
+   "lema": "sorriso",
+   "classe": "substantivo masculino",
+   "def": [
+    "Modo de dispor os lábios que indica contentamento ou satisfação; sorriso."
+   ]
+  },
+  "onde#2": {
+   "lema": "onde",
+   "wiki": "en:Italian",
+   "classe": "conjunção",
+   "def": [
+    "(Literário) Pelo qual; por isso; de modo que."
+   ],
+   "nota": "«Onde non tacque» é «pelo que não calou»: por isso o verso de Homero não calou as tuas nuvens e folhas."
+  },
+  "non": {
+   "lema": "non",
+   "classe": "advérbio",
+   "def": [
+    "Nega o que segue; não."
+   ]
+  },
+  "tacque": {
+   "lema": "tacere",
+   "classe": "verbo",
+   "forma": "passato remoto, 3ª pessoa do singular",
+   "def": [
+    "Ficar mudo, não falar; calar."
+   ],
+   "nota": "O sujeito é «l’inclito verso» (v. 8): o verso ilustre de Homero «não calou» as nuvens e as folhas de Zacinto, isto é, as cantou."
+  },
+  "tue": {
+   "lema": "tuo",
+   "wiki": "en:Italian",
+   "classe": "pronome possessivo",
+   "forma": "feminino plural",
+   "def": [
+    "Que pertence a ti; teu."
+   ]
+  },
+  "limpide": {
+   "lema": "limpido",
+   "classe": "adjetivo",
+   "forma": "feminino plural",
+   "def": [
+    "Claro e transparente; límpido."
+   ]
+  },
+  "nubi": {
+   "lema": "nube",
+   "wiki": "en:Italian",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Massa de vapor de água suspensa na atmosfera; nuvem."
+   ]
+  },
+  "fronde": {
+   "lema": "fronda",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Parte da árvore composta pelas folhas; folhagem, ramagem."
+   ]
+  },
+  "l’": {
+   "lema": "il",
+   "classe": "artigo definido",
+   "forma": "elidido diante de vogal",
+   "def": [
+    "Forma elidida de «lo» e de «la»: o, a."
+   ]
+  },
+  "inclito": {
+   "lema": "inclito",
+   "classe": "adjetivo",
+   "forma": "masculino singular",
+   "def": [
+    "Ilustre, famoso, glorioso."
+   ],
+   "nota": "Palavra erudita, do latim «inclitus»: o verso «ínclito» é o de Homero, «ilustre»."
+  },
+  "verso": {
+   "lema": "verso",
+   "classe": "substantivo masculino",
+   "def": [
+    "Unidade métrica básica de um poema, formada por um segmento breve de escrita."
+   ]
+  },
+  "di": {
+   "lema": "di",
+   "classe": "preposição",
+   "def": [
+    "Indica pertença ou origem; de."
+   ]
+  },
+  "colui": {
+   "lema": "colui",
+   "classe": "pronome demonstrativo",
+   "forma": "masculino singular",
+   "def": [
+    "Aquele; aquele que (referido a alguém afastado)."
+   ],
+   "nota": "«Colui che» é «aquele que»: designa Homero, sem o nomear, como por reverência."
+  },
+  "acque": {
+   "lema": "acqua",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Líquido incolor, inodoro e insípido, essencial à vida; água."
+   ],
+   "nota": "«L’acque cantò fatali» é «cantou fatais as águas»: Homero cantou os perigos do mar na «Odisseia»."
+  },
+  "cantò": {
+   "lema": "cantare",
+   "classe": "verbo",
+   "forma": "passato remoto, 3ª pessoa do singular",
+   "def": [
+    "(Poesia) Celebrar em versos."
+   ],
+   "nota": "Aqui, «cantare» é celebrar em verso; o objeto são «l’acque… fatali» e «il diverso esiglio»."
+  },
+  "fatali": {
+   "lema": "fatale",
+   "classe": "adjetivo",
+   "forma": "feminino plural",
+   "def": [
+    "Que é fruto do destino; fatídico, determinado pelo fado."
+   ],
+   "nota": "As águas «fatali» são as ondas que guiaram o destino de Ulisses."
+  },
+  "ed": {
+   "lema": "ed",
+   "classe": "conjunção",
+   "forma": "diante de vogal",
+   "def": [
+    "Forma de «e» diante de vogal; e."
+   ]
+  },
+  "diverso": {
+   "lema": "diverso",
+   "classe": "adjetivo",
+   "forma": "masculino singular",
+   "def": [
+    "Que é dissimilar; que se distingue; vário, diferente."
+   ],
+   "nota": "O «diverso esiglio» é o exílio «vário, errante» de Ulisses."
+  },
+  "esiglio": {
+   "lema": "esiglio",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Literário) Forma antiga de «esilio»: exílio."
+   ],
+   "nota": "Forma antiga de «esilio», do latim «exilium»: o longo exílio de Ulisses longe de Ítaca."
+  },
+  "per": {
+   "lema": "per",
+   "classe": "preposição",
+   "def": [
+    "Indica causa ou meio; por."
+   ],
+   "nota": "Em «per cui», «pelo qual»: o exílio por causa do qual Ulisses ficou famoso."
+  },
+  "bello": {
+   "lema": "bello",
+   "classe": "adjetivo",
+   "forma": "masculino singular",
+   "def": [
+    "Que desperta impressão de prazer e agrado; belo."
+   ],
+   "nota": "«Bello di fama e di sventura» é «belo de fama e de desventura»: ilustre pela glória e pelas desgraças."
+  },
+  "fama": {
+   "lema": "fama",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Boa ou má) reputação; fama."
+   ]
+  },
+  "sventura": {
+   "lema": "sventura",
+   "classe": "substantivo feminino",
+   "def": [
+    "Má sorte; desgraça."
+   ]
+  },
+  "baciò": {
+   "lema": "baciare",
+   "classe": "verbo",
+   "forma": "passato remoto, 3ª pessoa do singular",
+   "def": [
+    "Aproximar os lábios de alguém ou de algo para exprimir amor, afeto ou respeito; beijar."
+   ],
+   "nota": "Ulisses «beijou» a sua Ítaca pedregosa: o retorno do exilado."
+  },
+  "la": {
+   "lema": "la",
+   "classe": "artigo definido",
+   "def": [
+    "Artigo definido feminino singular."
+   ]
+  },
+  "sua": {
+   "lema": "suo",
+   "classe": "pronome possessivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que pertence a ele ou a ela."
+   ]
+  },
+  "petrosa": {
+   "lema": "petroso",
+   "wiki": "en:Italian",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Cheio de pedras; pedregoso."
+   ]
+  },
+  "itaca": {
+   "lema": "Itaca",
+   "classe": "nome próprio",
+   "def": [
+    "Ítaca, ilha grega do mar Jônio, pátria de Ulisses."
+   ],
+   "nota": "Ilha do mar Jônio, pátria de Ulisses, a que o herói volta depois do exílio."
+  },
+  "ulisse": {
+   "lema": "Ulisse",
+   "classe": "nome próprio",
+   "def": [
+    "Ulisses, herói da «Odisseia» de Homero."
+   ],
+   "nota": "No verso, é Ulisses quem beija Ítaca; o nome fecha o último verso do segundo terceto como o regresso do exilado."
+  },
+  "tu": {
+   "lema": "tu",
+   "classe": "pronome pessoal",
+   "def": [
+    "Pronome de 2ª pessoa do singular em função de sujeito; tu."
+   ]
+  },
+  "altro": {
+   "lema": "altro",
+   "classe": "adjetivo",
+   "forma": "masculino singular",
+   "def": [
+    "Diferente do que se mencionou; outro."
+   ],
+   "nota": "«Non altro che» é «nada mais que»: Zacinto terá só o canto do filho."
+  },
+  "che#2": {
+   "lema": "che",
+   "classe": "conjunção",
+   "def": [
+    "Em «non altro che», introduz o segundo termo da comparação; que, senão."
+   ],
+   "nota": "«Non altro che il canto» é «não outra coisa que o canto», isto é, só o canto."
+  },
+  "canto": {
+   "lema": "canto",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Música) Emissão de sons ordenados por altura e ritmo com a voz; canto."
+   ],
+   "nota": "Aqui o «canto» é a poesia: o soneto mesmo, único tributo que o poeta pode dar à pátria."
+  },
+  "avrai": {
+   "lema": "avere",
+   "classe": "verbo",
+   "forma": "futuro do indicativo, 2ª pessoa do singular",
+   "def": [
+    "Estar em posse de; ter."
+   ],
+   "nota": "«Avrai» é «terás»: o futuro profetiza o que Zacinto receberá do poeta."
+  },
+  "figlio": {
+   "lema": "figlio",
+   "classe": "substantivo masculino",
+   "def": [
+    "Descendente direto masculino de um homem e de uma mulher; filho."
+   ],
+   "nota": "O «figlio» é o próprio poeta, filho de Zacinto."
+  },
+  "o": {
+   "lema": "o",
+   "wiki": "en:Italian",
+   "classe": "interjeição",
+   "forma": "vocativo",
+   "def": [
+    "Usada para chamar ou invocar alguém; ó."
+   ]
+  },
+  "materna": {
+   "lema": "materno",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Da mãe; materno."
+   ],
+   "nota": "Foscolo era filho de mãe grega; a ilha é a terra «materna», da mãe e pátria de origem."
+  },
+  "terra": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "def": [
+    "Região, país, lugar de nascimento."
+   ],
+   "nota": "Em «materna mia terra», a «terra» é a terra natal, o país."
+  },
+  "noi": {
+   "lema": "noi",
+   "classe": "pronome pessoal",
+   "def": [
+    "Pronome de 1ª pessoa do plural; nós."
+   ],
+   "nota": "«A noi» é «a nós»: o plural do poeta, que fala de si e dos que, como ele, vivem no exílio."
+  },
+  "prescrisse": {
+   "lema": "prescrivere",
+   "classe": "verbo",
+   "forma": "passato remoto, 3ª pessoa do singular",
+   "def": [
+    "Ordenar, estabelecer um comportamento ou uma sorte."
+   ],
+   "nota": "O sujeito é «il fato» (o destino): «a nós o destino prescreveu» uma sepultura sem lágrimas."
+  },
+  "fato": {
+   "lema": "fato",
+   "classe": "substantivo masculino",
+   "def": [
+    "Entre os gregos, potência arcana e irresistível que disciplina o mundo e os homens; destino."
+   ],
+   "nota": "«Il fato» é o destino, a fatalidade, em sentido clássico."
+  },
+  "illacrimata": {
+   "lema": "illacrimato",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Não chorado; sem lágrimas."
+   ],
+   "nota": "Palavra erudita (do latim «illacrimatus»): a sepultura de quem morre longe da pátria não é chorada por ninguém."
+  },
+  "sepoltura": {
+   "lema": "sepoltura",
+   "classe": "substantivo feminino",
+   "def": [
+    "Colocação de um cadáver na tumba; sepultamento."
+   ]
+  }
+ },
+ "ocorrencias": {
+  "6.5": "onde#2",
+  "12.4": "che#2"
+ }
+}

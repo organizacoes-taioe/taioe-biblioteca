@@ -24,6 +24,21 @@ livre, mas não há fac-símile acessível; edições críticas modernas não ex
    corrigir») e as linhas que faltavam, inseridas pela imagem. Desde então o `original/` é editado à mão (não
    rodar de novo o `dividir.py` sobre ele).
 
+## Cartas, prólogo e _Carta ao pastor_ (2026-11-16)
+- `inicio.txt`: a carta de João, superior de Raitu, a Clímaco, a resposta de Clímaco, o prólogo (que Rader anota
+  «Non est Climaci») e o pequeno prólogo-título antes do degrau 1 (PG 88.624–632, folhas 311–315). Ficaram de fora o
+  índice dos 30 degraus (ΠΙΝΑΞ, col. 629, repete os títulos) e a nota do compilador que o segue.
+- `carta-ao-pastor.txt`: _Πρὸς τὸν ποιμένα λόγος_ (PG 88.1165–1208, folhas 582–602 e 605; a 587 é só latim, as
+  603–604 repetem 601–602 e a 606 só tem escólios): proêmio e 15 capítulos, sem os escólios de Elias de Creta, de
+  Marcos, de Máximo e dos outros, nem a «Observatio» de Rader. Marcas `[I.1]`: capítulo em romano e bloco.
+- Método: o mesmo OCR (sem segunda leitura: o DCO não tem estas colunas); linhas escolhidas à mão, página por
+  página, nas imagens (`../ferramentas/cortar2.py`), montagem (`montar2.py`), e conferência **linha a linha** de
+  todo o texto nas imagens (`pranchas2.py`; as 580 correções e 22 linhas que faltavam em `correcoes2.tsv`, aplicadas
+  por `final2.py`, que também guarda os cortes dos blocos em `cortes2.json`). Pasta de trabalho:
+  `~/.cache/claude-pedidos-0511/escada-2/` (só neste PC). Na folha 596 (col. 1193, IΓ΄) um borrão de tinta tapa
+  algumas palavras: lidas pelo contexto (sobretudo XIII, na altura de πονήσεως, ἐνδείκνυται, πρόσθου).
+- Os títulos (ΚΕΦΑΛ., ΠΡΟΛΟΓΟΣ…) foram escritos à mão no `final2.py`, porque o OCR não lê o corpo grande.
+
 ## Apresentação
 - `[n.k]`: degrau e bloco, numeração desta edição (os parágrafos de Rader, divididos nos fins de frase).
 - `{PG 88.nnn}`: começo da coluna da PG.

@@ -13,8 +13,21 @@ rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. Trabalho (páginas, OCR, léxic
 - `obra.py` com a «Sobre»; `revisao.json` (8 decisões); autor novo `sao-joao-climaco` (Catolicismo);
   `conteudo/sao-joao-climaco/escada-do-paraiso.js`; `edicoes/vocabulario/escada-do-paraiso.json` (50 verbetes, `conferir` ok).
 
+## Cartas, prólogo e _Carta ao pastor_ (branch `pedido-escada-2`, 2026-11-16), publicável
+- Grego: `original/inicio.txt` (PG 88.624–632) e `original/carta-ao-pastor.txt` (PG 88.1165–1208), conferidos linha a
+  linha nas imagens (método em `original/LEIAME.md`; scripts `ferramentas/cortar2.py`, `montar2.py`, `final2.py`,
+  `pranchas2.py`, conferência em `ferramentas/correcoes2.tsv`). Depois da conferência, editar à mão só se não for
+  mais rodar o `final2.py` (ele regrava os dois arquivos).
+- Tradução: `traducao/inicio.txt` (principal) e `traducao/carta-ao-pastor.txt` (tradutor Opus), com notas;
+  `conferir.py` ok. Partes no `obra.py`: «Cartas e prólogo» antes do degrau 1, «Carta ao pastor» depois do 30
+  (endereços novos `cartas-e-prologo/` e `carta-ao-pastor/`; os 30 degraus não mudaram). «Sobre» atualizada;
+  `revisao.json` com 2 decisões novas (nome «Carta ao pastor»; ἀναδοχή «fiança»); vocabulário +3 (lanceta,
+  soporífero, proêmio; o campo `capitulo` dos antigos subiu 1).
+- Degrau 30: o subtítulo «Exortação breve…» virou `##` (o fim de 30.19 passou a 30.20, e o antigo 30.20 a 30.21); tirado
+  o «(13)» que sobrava no grego de 30.19.
+
 ## Para o principal
-- Juntar a branch, `node ferramentas/site/gerar.mjs`, Catálogo `obras` (obra nova), `traducoes_revisao.py --revisao`
+- Juntar a branch, `node ferramentas/site/gerar.mjs`, Catálogo `obras` (obra nova ou partes novas), `traducoes_revisao.py --revisao`
   e Catálogo `traducoes`; tirar dos pedidos. Nenhuma regra de `_redirects`.
 
 ## Falta (melhorias, não impedem publicar)
@@ -24,7 +37,4 @@ rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. Trabalho (páginas, OCR, léxic
   `~/.cache/claude-pedidos-0511/escada-do-paraiso/decisoes/ANDAMENTO.md`.
 - Tradução: uniformização fina entre os três tradutores (lida por amostra; termos-chave conferidos por contagem);
   passagens obscuras marcadas nas notas: 3.14, 3.24, 4.4, 13.1, 15.3, 15.33, 26.57, 26.65, 27.14, 27.28–29, 30.7.
-  Em 30.19 o subtítulo «Exortação breve…» está no meio do bloco, sem `##`.
-- De fora, por ora: as cartas entre João de Raitu e Clímaco e o prólogo (PG 88.624–632, folhas 311–315), e a
-  _Carta ao pastor_ (PG 88.1165–1210, folhas 582–600; páginas e OCR já baixados na pasta de trabalho).
 - Notas gerais (lote futuro).

@@ -35,6 +35,14 @@
 - [17.6] «si no las tienen ya» → provável «tiene» (o sujeito é Vossa Mercê); «¡nosotros» → «nosotros»; «en especiad» → «en especial»; «sujetó1» → «sujetó».
 - [17.8] «ga» → «ya».
 - [17.9] «mug» → «muy» (duas vezes); «haga llegado» → «haya llegado»; «le haga dado» → «le haya dado»; «ñrnén» → «Amén».
+- [18.0] (título) «pa» → «para». As aspas «…» do título (duas vezes) são da edição: marcam, ao que parece, palavras que não são de Teresa; ficaram como aspas “…” na tradução. Vale conferir no `original/LEIAME.md` ou noutra edição.
+- [18.1] «juntó» → «junto»; «débaseles» → «dábaseles».
+- [18.3] «alábenos» → «alábeos» (como em [16.4]).
+- [18.4] «pa» → «para»; «cuando acabo de recibir estas mercedes, me las comienza Dios a hacer» → provável «… mercedes, u me las comienza…» (falta «u»; traduzido com «ou»).
+- [18.8] «i Oh» → «¡Oh»; «:ansí» → «ansí» (dois-pontos soltos).
+- [18.9] «de cuanto faltare» → «de cuando faltare»; «memento» → «momento».
+- [18.10] «hay . fuerza» → «hay fuerza» (ponto solto).
+- [18.14] «Destácese toda» → «Deshácese toda»; «qbran» → «obran».
 
 ## Termos e nomes
 
@@ -81,6 +89,22 @@
 - *maripositas de las noches* [17.7] → «mariposinhas da noite» (no Brasil, «mariposa» é a borboleta noturna).
 - *tema* [17.8] (a mania do louco) → «teima»; Jacó, Lia, Raquel.
 - *vela divina* [17.8] → «vela divina» (a imagem é a da chama que queima a mariposa).
+- **Quarto grau (cap. 18)**: *levantamiento de espíritu* → «levantamento do espírito»; *juntamiento con el amor celestial* → «junção com o amor celestial»; *vuelo del espíritu* → «voo do espírito»; *arrobamientos* → «arroubos»; *suspensión de todas las potencias* → «suspensão de todas as potências» (tabela).
+- *mente* [18.2] → «mente» (ela diz que não sabe a diferença entre mente, alma e espírito).
+- *mística Teulogía* [18.2] → «teologia mística», como em [10.1].
+- *divisas* [18.3] (as duas coisas que se fazem uma) → «separadas».
+- *largueza y mananimidad* [18.3] → «largueza e magnanimidade»; *disbarates* → «disparates».
+- *alcaide* [18.4] (de uma fortaleza) → «comandante» («alcaide» no Brasil se lê «carcereiro»).
+- *de tan poco tomo* [18.4] → «de tão pouco peso», como *de mucho tomo* [13.4].
+- *tierra tan astrosa* [18.5] → «terra tão imunda»; *necedad* → «tolice».
+- *engolosinar las almas de un bien tan alto* [18.8] → «abrir nas almas o apetite de um bem tão alto».
+- *piélago de los males* [18.8] → «mar dos males» («pélago» é palavra rara).
+- *avecita* [18.9] → «avezinha», como em [13.1].
+- *huelgo* [18.10] → «fôlego».
+- *mantener la tela* [18.12] (expressão: sustentar a coisa) → «segurar o fio».
+- *emborrachar* [18.13] → «embriagar-se».
+- *mariposilla importuna de la memoria* [18.14] → «mariposinha importuna da memória», como em [17.7].
+- *la Orden del glorioso Santo Domingo* [18.15] → «a Ordem do glorioso São Domingos».
 
 ## Passagens difíceis
 
@@ -103,5 +127,10 @@
 - [17.7] *por verse junta donde está la mayor parte, y ser imposible*: lido como o desejo de se ver toda junta onde está a maior parte → «por se ver toda junta…» (acrescentado «toda», que o sentido pede).
 - [17.8] *casi estando sobrenatural* → «estando quase sobrenaturais» (concordância com as potências).
 - [17.9] *téngalo en mucho a Su Majestad* → «agradeça-o muito a Sua Majestade»; *mientra no le diere la gracia, aunque se la dé de gozarlo, para entenderlo*: reordenado («enquanto Ele não lhe der a graça de entendê-lo, ainda que lhe dê a de gozá-lo»).
+- [18.1] *porque en ella aun siente el alma no está muerta*: o «ella» é a água passada (a terceira), não a quarta; traduzido «porque na passada», para se ler. *Para poder en otra cosa* → acrescentado «ocupar-se». *Antes dábaseles licencia* = no grau anterior se dava licença aos sentidos → «antes se lhes dava licença».
+- [18.3] *Espanta a quien no tiene ocupado el entendimiento en cosas de la tierra, que no tenga ninguno para entender verdades*: lido como «espanta [até] quem não tem o entendimento ocupado na terra, de modo que não lhe fica nenhum para entender»; frase difícil também no original.
+- [18.7] *es diferente la unión del levantamiento en esta mesma unión*: mantida ao pé da letra; *parecerle ha* (duas vezes, mesóclise do original) → «há de parecer».
+- [18.10] *si no es para no la acabar de dejar a su placer* → «a não ser para que não a deixem de todo à vontade».
+- [18.14] As palavras do Senhor («Desfaz-se toda, filha…») vão entre aspas, como as outras falas citadas nos lotes anteriores.
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)

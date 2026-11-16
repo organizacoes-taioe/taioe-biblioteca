@@ -26,4 +26,9 @@
 26: conferido, ~25 correções; dúvidas: «con-/sistentem» inteira no 26 (27 começa em «ad eamdem»)
 27: conferido, ~25 correções; dúvidas: imagem desfocada; «memorati» fecha o 27, o 28 começa em «impenderent hostes» (as duas primeiras linhas da coluna 28 ficam acima do corte da imagem «a»; li-as num recorte à parte)
 28: conferido, ~20 correções; dúvidas: «(non exstat)» (inserção editorial entre parênteses) removido; guilhemets «» mantidos; «ne-/cessitatem» inteira no 28, sem vírgula final
-29: conferido, ~25 correções; dúvidas: imagem desfocada nas itálicas (nenhuma palavra duvidosa); fim «de ovibus (Joan.» com a referência continuando no 30
+29: conferido, ~25 correções; dúvidas: imagem desfocada nas itálicas (nenhuma palavra duvidosa); fim «de ovibus (Joan. x, 12, 13)?»: a referência fica entre as colunas 29 e 30, o «?» foi no 29
+30: conferido, ~15 correções; dúvidas: topo da coluna fora do recorte «a»; li num recorte à parte; texto bate
+31: conferido, ~20 correções; dúvidas: nenhuma. A coluna termina em «necessarium propter vos» (corte da carta); o trecho «Hic fortasse quis dicat…» que estava no rascunho do 31 saiu daqui (é da PL 33; ver 32–34). «(a)» removido
+32: conferido, ~15 correções; dúvidas: os números de seção («10.», «11.») impressos na Ep. 228 foram retirados (cada seção = parágrafo novo); «judi-/cemur» inteira no 32; a linha «vos (Philipp. i, 23)» no topo da coluna (fim do n. 9) não entra
+33: conferido, ~25 correções; dúvidas: «Quanquam» (impresso assim); números de seção «12.» «13.» retirados (novo parágrafo em cada); «eas-/dem» inteira no 33
+34: conferido, ~25 correções; dúvidas: «ut scilicet Dei Ecclesias… Dei dono» (assim impresso); número de seção «14.» retirado; o título «EPISTOLA CCXXIX» abaixo não entra; o «[31]» do fim passou para o início do 35

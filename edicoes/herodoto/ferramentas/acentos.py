@@ -1,5 +1,5 @@
 """Classifica a lista col-acentos.tsv da colação (as duas leituras do fac-símile iguais entre si, letras iguais às do
-Perseus, sinais diferentes). Uso: acentos.py <pasta-trabalho>  → acentos-aceitos.tsv, acentos-ver.tsv
+Perseus, sinais diferentes). Uso: acentos.py <pasta-trabalho> [livro=1]  → acentos-aceitos.tsv, acentos-ver.tsv (nos livros II–IX, l<n>-…)
 Aceitos sem ver (classes em que o OCR acerta): troca de agudo e grave na última sílaba; o agudo que a enclítica
 acrescenta na última sílaba (πείθεσθαί μοι); ὁ/ἡ/οἱ/αἱ → ὃ/ἣ/οἳ/αἳ (o OCR não inventa um acento que não está lá);
 τοὶ → τοι; χωρῇ → χώρῃ. Recusados sem ver (classes em que o OCR erra): espírito da maiúscula lido como apóstrofo,
@@ -7,6 +7,8 @@ apóstrofo solto, ὦν → ὧν e ἦν → ἣν (o espírito é ilegível no
 falta na leitura (o OCR perde sinais pequenos). O resto vai para acentos-ver.tsv, para conferir nas imagens."""
 import sys, unicodedata as u
 B = sys.argv[1]
+LIVRO = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+PRE = '' if LIVRO == 1 else f'l{LIVRO}-'
 ACU, GRA, CIRC, LEN, ASP = '́', '̀', '͂', '̓', '̔'
 def sinais(w):
     return [c for c in u.normalize('NFD', w) if u.combining(c)]
@@ -40,13 +42,13 @@ def classe(p, o):
         if k < len(do) and do[k] == ACU and do[:k] + do[k + 1:] == dp: return 'aceita'
     return 'ver'
 ac, ver, rec = [], [], 0
-for l in open(B + '/col-acentos.tsv', encoding='utf-8'):
+for l in open(B + f'/{PRE}col-acentos.tsv', encoding='utf-8'):
     if not l.strip(): continue
     r = l.rstrip('\n').split('\t')
     c = classe(r[1], r[2])
     if c == 'aceita': ac.append(r)
     elif c == 'ver': ver.append(r)
     else: rec += 1
-open(B + '/acentos-aceitos.tsv', 'w', encoding='utf-8').write(''.join('\t'.join(r) + '\n' for r in ac))
-open(B + '/acentos-ver.tsv', 'w', encoding='utf-8').write(''.join('\t'.join(r) + '\n' for r in ver))
+open(B + f'/{PRE}acentos-aceitos.tsv', 'w', encoding='utf-8').write(''.join('\t'.join(r) + '\n' for r in ac))
+open(B + f'/{PRE}acentos-ver.tsv', 'w', encoding='utf-8').write(''.join('\t'.join(r) + '\n' for r in ver))
 print('aceitos', len(ac), 'a ver', len(ver), 'recusados', rec)

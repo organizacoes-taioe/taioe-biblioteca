@@ -13,6 +13,14 @@ rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. Trabalho (páginas, OCR, léxic
 - `obra.py` com a «Sobre»; `revisao.json` (8 decisões); autor novo `sao-joao-climaco` (Catolicismo);
   `conteudo/sao-joao-climaco/escada-do-paraiso.js`; `edicoes/vocabulario/escada-do-paraiso.json` (50 verbetes, `conferir` ok).
 
+## Em andamento (branch `pedido-escada-2`, worktree `~/.cache/claude-wt5-escada-2`)
+- Grego das cartas e prólogo (`original/inicio.txt`) e da _Carta ao pastor_ (`original/carta-ao-pastor.txt`) pronto,
+  conferido linha a linha nas imagens (método em `original/LEIAME.md`).
+- Falta: traduzir os dois (`traducao/inicio.txt`, `traducao/carta-ao-pastor.txt`, com `CONVENCOES.md`; subtítulos
+  `##` e marcas `[I.1]` iguais ao grego; `python3 ferramentas/conferir.py`), pôr as duas partes no `obra.py`
+  (`('', 'Cartas e prólogo', ['inicio.txt'])` antes do degrau 1, `('', 'Carta ao pastor', ['carta-ao-pastor.txt'])`
+  depois do 30), «Sobre», `revisao.json` e vocabulário.
+
 ## Para o principal
 - Juntar a branch, `node ferramentas/site/gerar.mjs`, Catálogo `obras` (obra nova), `traducoes_revisao.py --revisao`
   e Catálogo `traducoes`; tirar dos pedidos. Nenhuma regra de `_redirects`.
@@ -25,6 +33,4 @@ rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. Trabalho (páginas, OCR, léxic
 - Tradução: uniformização fina entre os três tradutores (lida por amostra; termos-chave conferidos por contagem);
   passagens obscuras marcadas nas notas: 3.14, 3.24, 4.4, 13.1, 15.3, 15.33, 26.57, 26.65, 27.14, 27.28–29, 30.7.
   Em 30.19 o subtítulo «Exortação breve…» está no meio do bloco, sem `##`.
-- De fora, por ora: as cartas entre João de Raitu e Clímaco e o prólogo (PG 88.624–632, folhas 311–315), e a
-  _Carta ao pastor_ (PG 88.1165–1210, folhas 582–600; páginas e OCR já baixados na pasta de trabalho).
 - Notas gerais (lote futuro).

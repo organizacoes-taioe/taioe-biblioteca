@@ -18,6 +18,11 @@
 - [25.21] «hag» → «hay»; «go» → «yo» (duas vezes).
 - [25.22] «ante me parecía» → «antes»; «primite» → «permite».
 - [25.24] «Plega el Señor» → «Plega al Señor»; «primite» → «permite».
+- [26.1] «rae ha hecho» → «me ha hecho».
+- [26.2] «a donde estoy? y de mi Orden» → «a donde estoy, y de mi Orden» (sinal solto); «podía ser señalar» → provável «podría señalar» (traduzido «algumas eu poderia apontar»).
+- [26.3] «no temía sosiego» → «ternía»; «y qué sea letrado» → «y que sea»; «padecido)» → parêntese solto.
+- [26.4] «haciendo lo. contrario» → ponto solto.
+- [26.6] «haga sabido» → «haya sabido»; «go» → «yo» (duas vezes); «Amén,» → «Amén.».
 
 ## Termos e nomes
 
@@ -41,6 +46,13 @@
 - *pato* [25.23] (forma dela de *pacto*) → «pacto»; *asimientos* → «apegos» (como *asidos* → «apegados», § 3a); *lindamente* (irônico) → «lindamente».
 - *una higa para todos los demonios* [25.24] → «uma figa para todos os demônios».
 - *los letrados* [25.14, 25.18] → «letrados» (tabela).
+- *no lleve las manos en la cabeza* [26.1] (sair vencido) → «que não acabe com as mãos na cabeça» (ao pé da letra; em português o gesto também diz derrota e desespero).
+- *no ejecuta Dios como las gentes* [26.1] → «Deus não faz justiça como os homens»; *conjeturas* → «indícios»; *disimulado*, *disimulación* → «disfarçado».
+- *mormuraciones* [26.2] → «murmurações»; *el verdadero juicio* → «o verdadeiro juízo».
+- *cuestión* [26.3] (o que o confessor lhe fazia passar) → «tormento» (no castelhano de então, *dar cuestión* é dar tormento); «questão» se leria discussão. *Poco doblada la voluntad* → «pouco dobrada a vontade».
+- *afrenta* [26.4] (ao contar as mercês) → «vergonha»; *desacato* → «desacato».
+- *libros de romance* [26.5] (os do Índice de 1559) → «livros em castelhano» (§ 3a); *libro vivo* → «livro vivo»; *nonada* → «nada» («é tudo nada»); *imprimido* → «impresso».
+- *proceso de mi vida* [26.6] → «relato da minha vida» (como *discurso de mi vida* [23.15]).
 
 ## Passagens difíceis
 
@@ -55,8 +67,14 @@
 - [25.20] As perguntas dela (*¿Quién es éste…?*) vão sem aspas, como pensamento; em [25.21] a fala aos demônios vai entre aspas, por ser dita em voz alta.
 - [25.22] *no los he habido más casi miedo, ante me parecía ellos me le habían a mí* → «quase não lhes tive mais medo; antes me parecia que eles o tinham de mim».
 - [25.23] *Que espantados nos train estos demonios, porque…* lido como exclamação («Que espantados nos trazem…!»), e a frase seguinte começa com «Que então…».
+- [26.1] *mas que ¿quién será esta alma tan reta…? y que por eso teme*: a objeção em discurso indireto, com a pergunta no meio; mantida («Poderão dizer que assim é; mas quem será…?, e que por isso teme»).
+- [26.2] A série *Acaecióme… verme… y decirme el Señor… y quedar luego…* continua com infinitivos soltos (*Otras traerme a la memoria*, *Otras avisarme*); mantidos os infinitivos («Outras vezes, trazer-me à memória…»). A fala de Deus vai entre aspas, com «tu».
+- [26.3] *Lo más siguro es, yo ansí lo hago… que no deje de comunicar*: o meio da frase foi posto entre parênteses, para «O mais seguro é… que eu não deixe de comunicar» se ler; *Esto muchas veces* → «Isto, muitas vezes» (frase sem verbo, como no original). *Me estorbaban aquellas penas que me daba de la oración* → «me estorvavam a oração aquelas penas que me dava».
+- [26.4] *Entendí entonces* (de Deus, na oração) → «Entendi então»: o verbo dela para as falas, sem acrescentar quem falou.
+- [26.5] *después Su Majestad le volvía* → «depois Sua Majestade o mudava» (mudava o parecer do confessor). *Yo no podía ya por dejarlos en latín* → «e eu já não podia, por estarem só em latim». A última pergunta (*y conozcan lo mucho que deben… haberlos librado*) passou ao singular, para concordar com «Quem vê».
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
 
 - *plática* (de Deus à alma) → «conversa»: volta no cap. 26 e no *Castelo* (6.ª morada).
 - *frenesí* → «que delira».
+- *cuestión* [26.3] → «tormento».

@@ -770,6 +770,9 @@ BIBLIOTECA.autor({
   ordem: 'Sousa, Pero Lopes de',
   area: 'nao-ficcao',
   nota: 'Fidalgo português, irmão de Martim Afonso de Sousa, de quem foi capitão na armada de 1530 ao Brasil; donatário das capitanias de Santo Amaro, Itamaracá e Santana. Morreu em 1539, num naufrágio, na volta da Índia.'
+});
+
+BIBLIOTECA.autor({
   id: 'jose-de-anchieta',
   nome: 'São José de Anchieta',
   nomeCompleto: 'José de Anchieta y Llarena',
@@ -938,6 +941,9 @@ BIBLIOTECA.autor({
   ordem: 'Tocqueville, Alexis de',
   area: 'nao-ficcao',
   nota: 'Pensador político e historiador francês, autor de A democracia na América e de O Antigo Regime e a Revolução.'
+});
+
+BIBLIOTECA.autor({
   id: 'manuel-da-nobrega',
   nome: 'Manuel da Nóbrega',
   nomeCompleto: 'Manuel da Nóbrega',

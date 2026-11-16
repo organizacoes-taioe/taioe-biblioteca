@@ -58,7 +58,13 @@ Sevilha com a ortografia atualizada (ver `original/LEIAME.md`).
 | mercedes (que Dios hace) | mercês |
 | regalos (de Dios) | regalos (os mimos, as delícias que Deus dá; ver `revisao.json`) |
 | sequedad | secura |
-| ¡Oh, válame Dios! | Valha-me Deus! |
+| ¡Oh, válame Dios! | Oh, valha-me Deus! |
+| pila, pilón (as fontes de IV.2; retomadas em VI.5) | tanque |
+| trabajos (os sofrimentos que Deus manda) | trabalhos (ver `revisao.json`) |
+| silbo (do pastor, do Esposo) | assobio |
+| embebecimiento; embebidas | embevecimento; absortas |
+| letras (estudo) | estudos |
+| expiriencia; nengún; luego | experiência; nenhum; logo / em seguida (pelo contexto) |
 | harto | bastante, muito (pelo contexto) |
 
 ## 4. Escritura e latim

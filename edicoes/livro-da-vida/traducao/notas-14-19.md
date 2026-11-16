@@ -43,6 +43,18 @@
 - [18.9] «de cuanto faltare» → «de cuando faltare»; «memento» → «momento».
 - [18.10] «hay . fuerza» → «hay fuerza» (ponto solto).
 - [18.14] «Destácese toda» → «Deshácese toda»; «qbran» → «obran».
+- [19.1] «-estar» → «estar» (hífen solto); «sentido,,» → «sentido,» (vírgula dobrada).
+- [19.2] «deligencia» → «diligencia»; «tenería» → «tenerla».
+- [19.3] «Entiende que tiene virtudes, y ven» → provável «Entienden» (o sujeito são os próximos); «;\» → «;» (sinal solto); «Dios, Aunque» → «Dios. Aunque» (ponto em vez de vírgula).
+- [19.5] «cageron» → «cayeron»; «aguden» → «ayuden»; «pa» → «para»; «sog» → «soy».
+- [19.6] «mug» → «muy»; «relisión» → «religión»; «go» → «yo» (duas vezes).
+- [19.7] «ga» → «ya» (duas vezes); «go» → «yo» (duas vezes).
+- [19.8] «traslucía..» → «traslucía.» (ponto dobrado).
+- [19.9] «primitíades» → «permitíades»; «intrevalos» → «intervalos» (ou forma dela); «Plega el Señor» → «Plega al Señor»; «primita» → «permita»; «antes: en este» → «antes en este» (dois-pontos soltos).
+- [19.10] «i Qué» → «¡Qué» (três vezes); «Vos?*» → «Vos?» (asterisco solto).
+- [19.11] «i Oh» → «¡Oh».
+- [19.12] «pa» → «para»; «tanto ;» → «tanto;»; «¡j el» → «y el».
+- [19.13] «preso!ñas» → «personas»; «Dios;í» → «Dios;»; «ios» → «los».
 
 ## Termos e nomes
 
@@ -105,6 +117,16 @@
 - *emborrachar* [18.13] → «embriagar-se».
 - *mariposilla importuna de la memoria* [18.14] → «mariposinha importuna da memória», como em [17.7].
 - *la Orden del glorioso Santo Domingo* [18.15] → «a Ordem do glorioso São Domingos».
+- *pecina* [19.2] (lama de charco) → «lodo»; *gusano* → «verme»; *pieza* (cômodo) → «aposento».
+- *mullida* [19.3] (a terra) → «fofa»; *codiciosa* (a fruta) → «apetitosa»; *desmayar* → «desanimar».
+- *batería* [19.4] (do demônio) → «guerra» («bateria» não se lê como ataque).
+- *venir ancho* [19.5] → «ficar grande demais»; *sobresanar* → «fechar só por cima».
+- *criadas en religión* [19.6] → «criadas na vida religiosa» (§ 3a); *interesal* → «interesseira», como em [15.10].
+- *Regla* [19.8] → «Regra».
+- *Justus es, Domine* [19.9] → em latim, em itálico, com [Justo sois, Senhor]; o resto do verso ela dá em castelhano (*y tus juicios*) → «e os vossos juízos» (a Deus, «Vós», mesmo com o *tus* do original).
+- *báculo* [19.10] → «bordão»; *santiguarse* → «benzer-se»; *donosa* [19.11] → «graciosa» (irônico, como em [11.3]).
+- *pelo malo* [19.14] (a penugem da ave que ainda não pode voar) → «penugem».
+- *Santos* [19.5] → «santos»; *Sacramentos* → «sacramentos» (minúscula, como manda a § 3a para *Santo*).
 
 ## Passagens difíceis
 
@@ -132,5 +154,18 @@
 - [18.7] *es diferente la unión del levantamiento en esta mesma unión*: mantida ao pé da letra; *parecerle ha* (duas vezes, mesóclise do original) → «há de parecer».
 - [18.10] *si no es para no la acabar de dejar a su placer* → «a não ser para que não a deixem de todo à vontade».
 - [18.14] As palavras do Senhor («Desfaz-se toda, filha…») vão entre aspas, como as outras falas citadas nos lotes anteriores.
+- [19.4] *y no fuera más, ni fué, que meterme yo mesma… a el infierno*: reordenado para «meter-me eu mesma no inferno, sem precisar de demônios que me fizessem ir para lá». *Algo le va en ello* → «algo lhe importa nisso».
+- [19.7] *después que me teníades por vuestra bondad para que tanto no os ofendiese* → «depois que, por vossa bondade, me tínheis segura»; *querer entendiesen me los dábades* → «querer que se entendesse que me fazíeis estas mercês» (sem «mos»).
+- [19.8] *de la que todas aun no tenían bien entendido cuán mala era* → «daquela de quem nem todas ainda tinham bem entendido quão má era».
+- [19.10] *con razón me tentaba el demonio*: o «com razão» fica (a tentação parecia razoável); talvez irônico.
+- [19.12] *Hasta el día del juicio me la libraba el demonio*: *librar* = adiar a paga; o «la» é a esperança de [19.11] → «o demônio me deixava essa esperança para o dia do juízo». *Y de el mal no tanto*: elíptico; lido como «e o mal já não era tanto». *Creo tiene mucho delante de Dios* → acrescentado «merecimento».
+- [19.15] *como hacía a mí*: o sujeito é o demônio, implícito; acrescentado «o demônio».
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
+- **Termos do quarto grau** (cap. 18), para os lotes seguintes (os caps. 20–21 tratam do arroubo e do voo do espírito): *levantamiento de espíritu* → «levantamento do espírito»; *juntamiento* → «junção»; *arrobamiento* → «arroubo»; *vuelo del espíritu* → «voo do espírito». Seguida a tabela sem exceção.
+- **Falas de Deus** citadas («Desfaz-se toda, filha…» [18.14], «Serve-me tu a mim…» [19.9]) vão entre aspas, com «tu»; a fala de Teresa a Deus que ela mesma sugere [15.6] ficou sem aspas, como no original. Uniformizar se o Gere preferir outro critério.
+- **Notas de rodapé do editor** no meio do texto: [17.4] (tirar do `original/17.txt`).
+- **Aspas «…» no título do cap. 18**: são da edição; conferir o que marcam antes de publicar.
+- *delgada y pesadísima cruz* [16.5] → «leve e pesadíssima»: escolha de sentido (o paradoxo); se o Gere preferir a letra, «delgada».
+- *alcaide* [18.4] → «comandante»: a alternativa literal é «alcaide».
+- Propostas para a § 3a: *seso* → «juízo»; *aviso* (cautela) → «atenção»; *simpleza* → «singeleza» / «simplicidade»; *divertirse* → «distrair-se» (das potências) ou «desviar-se» (do assunto, [12.1]); *holgarse* (Deus) → «alegrar-se».

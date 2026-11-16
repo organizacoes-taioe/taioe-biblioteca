@@ -99,3 +99,19 @@
 - VI.11, «en un memento puede llegar»: *memento* (4ª vez nas Sextas; talvez grafia do autógrafo).
 
 ## Decisões delicadas (candidatas ao dono)
+
+1. *trabajos* (o tema do VI.1 e de todo o livro: as provações, dores, perseguições) → **«trabalhos»**, o termo dela e da
+   literatura espiritual portuguesa («os trabalhos desta vida»). Risco: o leitor de hoje pode ler «serviço, emprego».
+   Alternativa: «sofrimentos» ou «provações» (mais claro, mas perde a palavra de Teresa e o jogo «caminho tão
+   trabalhoso», VI.5). Decidir junto com as outras moradas.
+2. *silbo* (VI.2, o chamado do Esposo, «un silbo tan penetrativo») → **«assobio»**. Alternativa: «sopro» ou «chamado»
+   (menos concreto); «sibilo» é raro. É o mesmo termo do «silbo de los aires amorosos» de São João da Cruz.
+3. *Dios de las Caballerías* (VI.6) → **«Deus das Cavalarias»**, literal, com a imagem cavaleiresca dela. Alternativa:
+   «Deus dos Exércitos» (a fórmula bíblica que está por trás), mais clara, mas apaga o jeito dela.
+- (Menor) *libro de romance* (VI.1) → «livro em castelhano»; alternativa «livro em língua vulgar» ou «livro que não
+  era em latim».
+
+## Outras observações
+
+- Não há latim nem versos citados nas Sextas moradas. As citações da Escritura vão como ela as dá, sem aspas onde o
+  original não as põe (VI.7, «quem me vê a mim vê a meu Pai»); com aspas onde as põe (VI.9, «Ide, malditos de meu Pai!»).

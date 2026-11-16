@@ -1,9 +1,7 @@
 # Notas da tradução: Capítulo I (`01-capitulo-1.txt`)
 
-**Situação: traduzidos os parágrafos 1 a 20 (de 68: 65 de texto e 3 notas do autor), até «…de que falei acima.» (a vocação ao celibato, outono de
-1816).** Falta do parágrafo 21 («In 1822 I came under very different influences…», a entrada em Oriel e Whately) ao
-fim, com as 3 notas do autor (`¤ [1]` a `¤ [3]`, no fim do arquivo). Quem continuar
-acrescenta os parágrafos ao fim deste arquivo, na ordem.
+**Situação: completo, 68 parágrafos (65 de texto e 3 notas do autor), iguais ao original.** Os §§ 1–20 são do
+preparador; os §§ 21–68, do tradutor do lote 1 (que também trocou nos §§ 1–20 os «, —» por pontuação portuguesa).
 
 ## Termos e soluções
 
@@ -46,3 +44,58 @@ acrescenta os parágrafos ao fim deste arquivo, na ordem.
   último membro passa ao passado porque Newman fala do seu caso já resolvido.
 - § 20: _another deep imagination_ → «outra imaginação profunda» (Newman usa _imagination_ no sentido de convicção
   imaginada, não de fantasia; ficou literal, como em § 12 «imaginações infantis»).
+
+## Termos e soluções (§§ 21–68)
+
+- _Principal_ / _Vice-Principal_ (do Alban Hall) → «Principal», «Vice-Principal», como Provost e Tutor (cargos em inglês).
+- _a curacy_ → «um lugar de coadjutor»; _took orders_ → «recebi as ordens»; _beneficed clergymen_ → «clérigos com
+  benefício»; _probationer Fellows_ → «Fellows em período de prova»; _a fellowship at Oriel_ → «uma _fellowship_ em
+  Oriel» (itálico: palavra inglesa sem cargo correspondente); _Master of Arts_ fica.
+- _Baptismal Regeneration_ → «regeneração batismal»; _the doctrine of Tradition_ → «a doutrina da Tradição».
+- _Bible Society_ → «a Sociedade Bíblica».
+- _Catholic Claims_ → «as reivindicações católicas»; _two-bottle-orthodox_ → «ortodoxos de duas garrafas» (literal).
+- _Provost This and Principal That_ → «o Provost Fulano e o Principal Beltrano».
+- _"all his geese were swans"_ → «todos os seus gansos eram cisnes» (literal: o provérbio inglês se entende).
+- _Arianizing_ → «inclinado ao arianismo»; _ante-Nicene_ → «pré-niceno».
+- _Probability is the guide of life_ → «a probabilidade é o guia da vida».
+- _certitude_ × _certainty_ (§ 43, onde o próprio texto os opõe): «a certeza (_certitude_) é um hábito do espírito, e
+  a certeza (_certainty_), uma qualidade das proposições»; no resto, «certeza» para os dois (CONVENCOES § 3).
+- _assemblage_ (grifado) → «_reunião_»; _Effusions_ (Milner) → «_efusões_».
+- _the argument from Personality_ → «argumento da pessoa»; _from Authority_ → «da autoridade».
+- _Sacramental system_ → «sistema sacramental»; _Economies or Dispensations_ → «economias ou dispensações».
+- _a high Tory of the Cavalier stamp_ → «um _tory_ extremado, do tipo dos _cavaliers_»; _Whigs_ → «_whigs_»;
+  _Reform Bill_ → «Lei da Reforma»; _Reform Agitation_ → «agitação da Reforma».
+- _Churchmanship_ → «espírito de Igreja».
+- _Tenebræ, at the Sestine_ → «as Trevas, na Sistina»; _Castro-Giovanni_ → «Castrogiovanni» (hoje Enna).
+- _Whitehall preacherships_ → «lugares de pregador de Whitehall»; _the Diligence_ → «a diligência»; _the down mail_
+  → «a mala-posta»; _Assize Sermon_ → «o sermão das _assizes_» — ficou sem itálico: «sermão das assizes» (termo
+  de tribunal inglês; propor itálico ao principal se quiser uniformizar).
+- _"Hippoclides doesn't care"_ → «Hipoclides não se importa» (Heródoto, citado em inglês).
+- _Look on this picture and on that_ (Hamlet) → «Olhai este retrato e aquele».
+- _the Three Holy Children_ → «os três santos jovens» (Dn 3).
+- `[Greek: daimonia]` (§ 55): **mantido igual ao original**, marca do Gutenberg; o principal decide se vira o grego
+  (δαιμόνια) ou _daimonia_.
+- Latim mantido em itálico: _Nunquam minus solus, quàm cùm solus_; _Incessu patuit Dea_; _Exoriare aliquis!_;
+  _clientela_, _in propriâ personâ_, _ipse dixit_; _Miserere_.
+- Títulos ingleses: _Treatise on Apostolical Preaching_, _Letters on the Church by an Episcopalian_, _Remains_,
+  _Analogy_, _Christian Year_, _Defensio_ (Bull), _Encyclopædia Metropolitana_, _London Review_, _Bampton Lectures_,
+  _University Sermons_, _Essay on Ecclesiastical Miracles_, _Essay on Development of Doctrine_, _The Arians of the
+  Fourth Century_, _History of the Arians_, _Lyra Apostolica_, _British Magazine_, _Thalaba_, _Lead, kindly light_,
+  _National Apostasy_. Os dois últimos não têm itálico no original (o primeiro entre aspas); pus itálico.
+
+## Versos ingleses citados (para o agente de versos; ficaram em tradução literal, na linha do texto)
+
+Todos são de um verso só, citados dentro da frase; ficaram em prosa literal entre aspas, sem `| `:
+- § 35: _Blessings of friends, which to my door unasked, unhoped, have come._ (do próprio Newman, 1829).
+- § 53: _thoughts beyond their thought to those high bards were given_ (Keble, «Wordsworth»).
+- § 60: _Are these the tracks of some unearthly Friend?_ (Newman, _Lyra Apostolica_).
+- § 61: _All, save the spirit of man, is divine._ (Byron, _The Bride of Abydos_).
+
+## Passagens difíceis (§§ 21–68)
+
+- § 21: _I thus preface what otherwise might sound rude_ → «com isso preparo o que de outro modo poderia soar
+  grosseiro: …».
+- §§ 30, 40, 43, 57, 62: os «:--» e «,--» do original viraram dois-pontos, parênteses ou vírgula simples.
+- §§ 43–44: o longo período de orações «that…» continua de um parágrafo ao outro; o § 43 acaba em dois-pontos e o 44
+  recomeça em «Além disso, que…», como no original. Os tempos passaram ao presente no § 43 («somos capazes»), onde
+  Newman expõe a doutrina que ainda sustenta, e ficam no passado onde narra.

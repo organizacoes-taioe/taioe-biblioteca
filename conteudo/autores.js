@@ -770,6 +770,13 @@ BIBLIOTECA.autor({
   ordem: 'Sousa, Pero Lopes de',
   area: 'nao-ficcao',
   nota: 'Fidalgo português, irmão de Martim Afonso de Sousa, de quem foi capitão na armada de 1530 ao Brasil; donatário das capitanias de Santo Amaro, Itamaracá e Santana. Morreu em 1539, num naufrágio, na volta da Índia.'
+  id: 'jose-de-anchieta',
+  nome: 'São José de Anchieta',
+  nomeCompleto: 'José de Anchieta y Llarena',
+  vida: '1534–1597',
+  ordem: 'Anchieta, São José de',
+  area: 'nao-ficcao',
+  nota: 'Jesuíta nascido em Tenerife, nas Canárias, missionário no Brasil por 44 anos, um dos fundadores de São Paulo e do Rio de Janeiro, provincial da Companhia e autor da primeira gramática do tupi; canonizado em 2014.'
 });
 
 BIBLIOTECA.autor({

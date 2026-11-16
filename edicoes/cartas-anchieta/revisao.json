@@ -1,0 +1,169 @@
+{
+ "id": "cartas-anchieta",
+ "rotulo": "Cartas, informações e sermão (São José de Anchieta)",
+ "url": "/biblioteca/jose-de-anchieta/cartas-anchieta/",
+ "escolhas": [
+  {
+   "id": "traducoes-1933",
+   "titulo": "As sete peças escritas em latim e castelhano ficam na tradução portuguesa de 1933?",
+   "ref": "cartas I, III, X, XI, XIV, XV e XXVII",
+   "contexto": "O volume da Academia (1933) traz essas cartas só em português e não diz carta a carta quem traduziu. A nota preliminar atribui a Antônio de Alcântara Machado (1901–1935) os «traslados e traduções de cartas»; as notas citam versões anteriores de Teixeira de Melo (†1907), do cônego Januário da Cunha Barbosa (†1846) e de Baltasar da Silva Lisboa (†1840). Todos morreram antes de 1955. A tradução é boa e próxima do original, com algumas formas da época («escrevemos» por «escrevamos», «comnosco»).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica a tradução de 1933, como está",
+     "nota": "Domínio público no Brasil; a «Sobre» explica de onde vem.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Traduzir nós mesmos dos originais (Anais da Biblioteca Nacional, ed. latina de 1799)",
+     "nota": "Mais trabalho; daria uma tradução de hoje, com revisão pelas pendências."
+    }
+   ]
+  },
+  {
+   "id": "selecao",
+   "titulo": "Ficam estas 13 peças, de 38 do volume?",
+   "ref": "a obra inteira",
+   "contexto": "Escolhemos as cartas principais (São Paulo em 1554, as coisas naturais de 1560, a guerra de 1563, Iperoig em 1565, o Rio de Janeiro em 1565, a última carta, de 1594), um bilhete autógrafo, as duas Informações mais citadas e um sermão. Ficaram de fora 19 cartas menores, a Informação dos primeiros aldeamentos da Bahia, a Informação da província de 1585, as peças sobre o Padre Gonçalo de Oliveira, os Fragmentos históricos e o sermão de 1567, inédito em 1933.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam as 13",
+     "nota": "Cerca de 73 mil palavras; o essencial do volume.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Acrescentar os Fragmentos históricos, a Informação de 1585 e o sermão de 1567",
+     "nota": "Mais umas 25 mil palavras, todas em português."
+    },
+    {
+     "id": "c",
+     "texto": "Pôr o volume inteiro, menos as peças de tradução duvidosa",
+     "nota": "Umas 150 mil palavras; muitas cartas curtas e repetidas."
+    }
+   ]
+  },
+  {
+   "id": "vii-xxxi",
+   "titulo": "A carta VII e a Breve narração de 1584 (XXXI) ficam de fora?",
+   "ref": "peças VII e XXXI do volume",
+   "contexto": "Nas duas, o volume de 1933 usa a tradução do professor João Vieira de Almeida (São Paulo, 1900), de quem não achamos a data da morte; conferimos que a da XXXI é a mesma de 1900. Sem saber se ele morreu antes de 1955, não dá para dizer que a tradução está em domínio público.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam de fora",
+     "nota": "A regra da Biblioteca: na dúvida sobre o tradutor, não usar.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Traduzir nós mesmos (a VII do italiano de 1559, a XXXI do latim dos Anais, vol. XIX)",
+     "nota": "Duas peças a mais, com tradução nossa e decisões nas pendências."
+    }
+   ]
+  },
+  {
+   "id": "titulo",
+   "titulo": "O título fica «Cartas, informações e sermão»?",
+   "ref": "título da obra",
+   "contexto": "O pedido chamava a obra de «Cartas e informações (seleção)»; a edição de 1933 se chama «Cartas, informações, fragmentos históricos e sermões». Como a seleção tem um sermão e nenhum fragmento, o título nosso diz o que há nela.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Cartas, informações e sermão»",
+     "nota": "O que a seleção traz.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Cartas e informações»",
+     "nota": "Mais curto; o sermão fica como última peça."
+    },
+    {
+     "id": "c",
+     "texto": "«Cartas, informações, fragmentos históricos e sermões» (o de 1933)",
+     "nota": "Fiel ao volume, mas promete o que não está."
+    }
+   ]
+  },
+  {
+   "id": "autoria-informacoes",
+   "titulo": "As duas Informações, que não levam assinatura, ficam sob o nome de Anchieta?",
+   "ref": "peças XXIX e XXXIII",
+   "contexto": "A Informação do Brasil de 1584 foi atribuída a Anchieta por Varnhagen, Cândido Mendes e Capistrano de Abreu (1886); a dos casamentos, pela Revista do Instituto Histórico (1846) e pela edição de 1933. A atribuição é a tradicional, e a «Sobre» diz que são atribuídas.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam, com o aviso na «Sobre»",
+     "nota": "Como no volume de 1933.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Tirar as duas da seleção",
+     "nota": "Ficariam só as peças assinadas."
+    }
+   ]
+  },
+  {
+   "id": "linha-trocada",
+   "titulo": "Na Informação de 1584, a linha trocada na composição de 1933 vai corrigida pela edição de 1886?",
+   "ref": "XXIX, «Dos governadores e capitães»",
+   "contexto": "Em 1933 lê-se «edificou a cidade da Baía onde agora está, e trase começaram de edificar igrejas entre os Índios e se deu prindencia, como conservou todo o tempo que governou»: o compositor misturou duas linhas. A edição de Capistrano de Abreu (1886) traz «e trabalhou muito de conservar a paz com os Índios com muita prudência, como conservou todo o tempo que governou». Também «mais que Jouvar» está corrigido para «mais de louvar», pela mesma edição.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Corrigida pela edição de 1886, com a correção listada na «Sobre»",
+     "nota": "O texto volta a fazer sentido.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Manter o texto de 1933 como está",
+     "nota": "Fiel ao impresso, mas sem sentido nesse trecho."
+    }
+   ]
+  },
+  {
+   "id": "nomes-indigenas",
+   "titulo": "Os nomes indígenas ficam como na edição de 1933?",
+   "ref": "todo o texto (Iperuig, Pindobuçú, Cunhambeba, Tamújos, Tamújas, Itañae)",
+   "contexto": "Os nomes de pessoas e lugares portugueses estão na forma de hoje (Nóbrega, Luís, Bahia). Os indígenas seguem 1933, que segue as cópias: Iperuig (hoje se escreve Iperoig), Pindobuçú, Cunhambeba (também Cunhambebe), e, na carta XV, as formas castelhanas de Anchieta, «Tamújos» e «Tamújas», ao lado de «Tamoios».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam como em 1933",
+     "nota": "Não se impõe uma grafia moderna a nomes sem forma fixa.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Uniformizar pela forma mais usada hoje (Iperoig, Pindobuçu, Cunhambebe, Tamoios)",
+     "nota": "Mais fácil para o leitor; perde as variantes das cópias."
+    }
+   ]
+  },
+  {
+   "id": "original-ao-lado",
+   "titulo": "O texto fica só em português, sem o original latino ou castelhano ao lado?",
+   "ref": "cartas I, III, X, XI, XIV, XV e XXVII",
+   "contexto": "O volume de 1933 não traz os originais. Eles existem em edições antigas: o latim da carta X (Lara Ordoñez, 1799 e 1812), o castelhano de várias nos Anais da Biblioteca Nacional (vols. II, III e XIX). Pô-los ao lado, como o original de 1500 na Carta de Caminha, exigiria transcrever e conferir cada um.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Só português, como está",
+     "nota": "O volume de 1933 é a base.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Pôr o original ao lado, onde houver edição antiga livre",
+     "nota": "Mais trabalho; as cartas III, XI e XV têm o castelhano nos Anais."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "id": "vida-de-santo-agostinho",
+ "rotulo": "Vida de Santo Agostinho (São Possídio)",
+ "url": "/biblioteca/sao-possidio/vida-de-santo-agostinho/",
+ "escolhas": [
+  {
+   "id": "carta-completa",
+   "titulo": "A carta a Honorato (cap. 30) vai inteira?",
+   "ref": "30",
+   "contexto": "Possídio copiou na *Vida* a carta inteira de Agostinho ao bispo Honorato, sobre se os clérigos deviam fugir dos vândalos. A edição de base (Migne, vol. 32) imprime só o começo e manda o leitor à carta 228 das obras de Agostinho.\n\nHoje: a carta vai inteira; o fim (§§ 10–14, de «Talvez alguém diga aqui» até «entre os dentes dos que os criticavam») foi completado pelo vol. 33 da mesma edição, dito na página «Sobre».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "inteira, completada pelo vol. 33, como está",
+     "nota": "É o que Possídio escreveu; o leitor não precisa procurar a carta em outro livro.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "só o trecho que o vol. 32 imprime, com uma nota que remete à carta 228",
+     "nota": "Fiel à edição de base, mas o capítulo para no meio de um argumento."
+    }
+   ]
+  },
+  {
+   "id": "carta-texto",
+   "titulo": "No fim da carta, o texto é o das cartas de Agostinho?",
+   "ref": "30",
+   "contexto": "O trecho completado vem da carta 228 tal como está entre as cartas de Agostinho; a cópia que Possídio fez, na tradição da *Vida*, difere em miudezas (Weiskotten, que a segue: «Hic fortasse» por «Hic forte», e outras de uma palavra), que não mudam o sentido.\n\nHoje: o texto da carta 228 (Migne, vol. 33).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "o da carta 228, como está",
+     "nota": "Mesma edição, livre, conferida no fac-símile.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "o da cópia de Possídio, pela edição de Weiskotten (1919)",
+     "nota": "Mais próximo da *Vida*, mas a edição é crítica e moderna, e a data de morte do editor não foi achada (pode ser protegida no Brasil)."
+    }
+   ]
+  },
+  {
+   "id": "indiculus",
+   "titulo": "A lista das obras de Agostinho (o *Indiculus*) fica de fora?",
+   "ref": "18; 31",
+   "contexto": "No fim do cap. 18 Possídio promete juntar ao livro a lista dos livros, tratados e cartas de Agostinho. É uma relação de umas mil entradas, só títulos em latim, que a edição de base imprime em outro volume.\n\nHoje: fora, dito na página «Sobre».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "fora, como está",
+     "nota": "Só títulos; não se lê como texto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "incluir, como sétima parte, em latim e traduzida",
+     "nota": "Completa a obra de Possídio; trabalho grande de pouco proveito para o leitor."
+    }
+   ]
+  },
+  {
+   "id": "sacerdos",
+   "titulo": "*Sacerdos* fica «sacerdote»?",
+   "ref": "1; 8; 15; 21; 31",
+   "contexto": "No latim do tempo *sacerdos* designa sobretudo o bispo, e Possídio chama assim Agostinho e Ambrósio.\n\nHoje: «sacerdote» quando é Agostinho ou um bispo em particular («o sacerdote chegasse aonde ia por outro caminho», 12; «aquele sacerdote aceito e querido de Deus», 31); «bispos» nos concílios e nas ordenações («os concílios dos santos bispos», 21).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«sacerdote», com «bispos» nos concílios, como está",
+     "nota": "Guarda a palavra de Possídio; onde só podia ser bispo, o sentido fica claro.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«bispo» em toda parte",
+     "nota": "Mais claro, mas perde a palavra com que ele honra Agostinho."
+    }
+   ]
+  },
+  {
+   "id": "agentes-in-rebus",
+   "titulo": "*Agentes in rebus* (cap. 3) fica em latim?",
+   "ref": "3",
+   "contexto": "Um funcionário imperial de Hipona quer ouvir Agostinho e promete converter-se. *Agentes in rebus* eram correios e inspetores a serviço do imperador.\n\nHoje: «um dos funcionários imperiais que chamam _agentes in rebus_».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "em latim, explicado, como está",
+     "nota": "Possídio diz «dos que chamam», citando o nome do cargo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«um dos agentes imperiais», sem o latim",
+     "nota": "Mais leve, perde o nome do cargo."
+    }
+   ]
+  },
+  {
+   "id": "pelagianistas",
+   "titulo": "*Pelagianistae* fica «pelagianos»?",
+   "ref": "18",
+   "contexto": "Possídio usa *Pelagianistae*, forma rara, ao lado dos *Donatistae* e *Manichaei*.\n\nHoje: «contra os pelagianos, hereges novos dos nossos tempos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«pelagianos», como está",
+     "nota": "O nome que o leitor conhece.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«pelagianistas»",
+     "nota": "Literal, mas soa estranho e não acrescenta nada."
+    }
+   ]
+  },
+  {
+   "id": "disticos",
+   "titulo": "Os dois dísticos latinos vão em verso livre?",
+   "ref": "22; 31",
+   "contexto": "A inscrição da mesa de Agostinho («Quisquis amat dictis absentum rodere vitam…») e o epitáfio de um poeta (31) são dísticos elegíacos.\n\nHoje: «Quem gosta de roer com ditos a vida dos ausentes, / saiba que esta mesa não é para ele.»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "em verso livre, como está",
+     "nota": "Citação curta; a regra do guia permite, e o sentido fica exato.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "pelo método do Versificador, com metro e rima",
+     "nota": "Mais bonito, mas força as palavras em dois versos que valem pelo sentido."
+    }
+   ]
+  }
+ ]
+}

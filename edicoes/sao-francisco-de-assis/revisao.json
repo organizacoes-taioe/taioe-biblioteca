@@ -1,0 +1,110 @@
+{
+ "id": "sao-francisco-de-assis",
+ "rotulo": "São Francisco de Assis (G. K. Chesterton)",
+ "url": "/biblioteca/g-k-chesterton/sao-francisco-de-assis/",
+ "escolhas": [
+  {
+   "id": "jogral-de-deus",
+   "titulo": "O título do cap. V, *Le Jongleur de Dieu*, fica «O jogral de Deus»?",
+   "ref": "título do cap. V; também caps. II, V e X («os Jograis de Deus»)",
+   "contexto": "Chesterton dá o título em francês, a língua dos trovadores, e usa *jongleur* no sentido medieval: o cantor e artista ambulante, um degrau abaixo do trovador. O português tem a palavra exata, «jogral», que é a mesma do galego-português das cantigas.\n\nHoje: «O jogral de Deus»; os companheiros de Francisco são «os Jograis de Deus».",
+   "opcoes": [
+    {"id": "a", "texto": "«O jogral de Deus», como está", "nota": "Palavra portuguesa exata, da mesma época e do mesmo mundo dos trovadores.", "recomendada": true},
+    {"id": "b", "texto": "«_Le Jongleur de Dieu_», em francês, como no original", "nota": "Guarda a cor estrangeira do título; o leitor pode não entender."}
+   ]
+  },
+  {
+   "id": "pobrezinho",
+   "titulo": "O título do cap. VI, *The Little Poor Man*, fica «O Pobrezinho»?",
+   "ref": "título do cap. VI",
+   "contexto": "*The Little Poor Man* é a tradução inglesa de *il Poverello*, o apelido italiano de Francisco. Em português, a tradição franciscana diz «o Pobrezinho de Assis».\n\nHoje: «O Pobrezinho».",
+   "opcoes": [
+    {"id": "a", "texto": "«O Pobrezinho», como está", "nota": "A forma consagrada em português; diz o carinho do diminutivo italiano.", "recomendada": true},
+    {"id": "b", "texto": "«O _Poverello_»", "nota": "O apelido original, conhecido de quem já leu sobre ele."},
+    {"id": "c", "texto": "«O homenzinho pobre»", "nota": "Literal; soa estranho."}
+   ]
+  },
+  {
+   "id": "irmao-burro",
+   "titulo": "*Brother the Ass*, o corpo, fica «Irmão Burro»?",
+   "ref": "cap. I",
+   "contexto": "Francisco chamava o próprio corpo de *frate asino*. Chesterton: «…tão duro com o seu *Brother the Ass* (como apelidou o próprio corpo)».\n\nHoje: «tão duro com o seu Irmão Burro (como apelidou o próprio corpo)».",
+   "opcoes": [
+    {"id": "a", "texto": "«Irmão Burro», como está", "nota": "A forma mais usada no Brasil e a mais viva.", "recomendada": true},
+    {"id": "b", "texto": "«Irmão Asno»", "nota": "Mais próximo do italiano *asino*, mais livresco."},
+    {"id": "c", "texto": "«Irmão Jumento»", "nota": "Também corrente; mais rústico."}
+   ]
+  },
+  {
+   "id": "fio-da-historia",
+   "titulo": "*The point of the story like the point of a sword* fica «o fio da história, como o fio de uma espada»?",
+   "ref": "cap. I, fim do 4º parágrafo",
+   "contexto": "Sobre a crucificação no Evangelho: *it is obviously the point of the story like the point of a sword, the sword that pierced the heart of the Mother of God*. *Point* é ao mesmo tempo o sentido da história e a ponta da espada; «ponta» não diz o sentido em português.\n\nHoje: «ela é evidentemente o fio da história, como o fio de uma espada, a espada que trespassou o coração da Mãe de Deus». «Fio» é o da narrativa e o gume da espada.",
+   "opcoes": [
+    {"id": "a", "texto": "«o fio da história, como o fio de uma espada», como está", "nota": "O jogo passa, com outra palavra.", "recomendada": true},
+    {"id": "b", "texto": "«o ponto da história, como a ponta de uma espada»", "nota": "Mais perto do inglês; o jogo fica só no som."},
+    {"id": "c", "texto": "«o sentido da história, a sua ponta, como a de uma espada»", "nota": "Diz as duas coisas; mais pesado."}
+   ]
+  },
+  {
+   "id": "catolicos-catolicos",
+   "titulo": "*not sufficiently catholic to be Catholic* fica «não são bastante católicos para serem Católicos»?",
+   "ref": "cap. II, 6º parágrafo",
+   "contexto": "*Men will not believe because they will not broaden their minds… they are not sufficiently catholic to be Catholic.* O primeiro *catholic*, minúsculo, é «universal, de espírito largo»; o segundo é o da Igreja.\n\nHoje: «eles não são bastante católicos para serem Católicos».",
+   "opcoes": [
+    {"id": "a", "texto": "«não são bastante católicos para serem Católicos», como está", "nota": "O jogo de Chesterton inteiro, só pela maiúscula, como no inglês.", "recomendada": true},
+    {"id": "b", "texto": "«não são bastante universais para serem católicos»", "nota": "Claro, mas perde o golpe da repetição."}
+   ]
+  },
+  {
+   "id": "senso-comum",
+   "titulo": "*Common sense was commoner in the Middle Ages* fica «O senso comum era mais comum»?",
+   "ref": "cap. IV",
+   "contexto": "*Common sense was commoner in the Middle Ages, I think, than in our own rather journalistic age.* O jogo está em *common* / *commoner*.\n\nHoje: «O senso comum era mais comum na Idade Média, creio eu, do que nesta nossa época jornalística».",
+   "opcoes": [
+    {"id": "a", "texto": "«O senso comum era mais comum», como está", "nota": "O jogo passa inteiro; «senso comum» aqui é o bom juízo de todo mundo.", "recomendada": true},
+    {"id": "b", "texto": "«O bom senso era mais comum»", "nota": "Mais idiomático para «juízo»; o jogo some."}
+   ]
+  },
+  {
+   "id": "bobo-da-corte",
+   "titulo": "*fool* no cap. V fica «bobo» («fez papel de bobo… o bobo da corte do Rei do Paraíso»)?",
+   "ref": "cap. V",
+   "contexto": "Depois da campanha frustrada e da briga com o pai, *he had made a fool of himself*; mais adiante Francisco aceita a palavra como um título: *he would be the court fool of the King of Paradise*. A mesma palavra tem de servir à humilhação e à coroa.\n\nHoje: «Ele tinha feito papel de bobo… Continuaria a ser bobo; seria cada vez mais bobo; seria o bobo da corte do Rei do Paraíso».",
+   "opcoes": [
+    {"id": "a", "texto": "«bobo» em todo o capítulo, como está", "nota": "«Fazer papel de bobo» e «bobo da corte» usam a mesma palavra, como o inglês.", "recomendada": true},
+    {"id": "b", "texto": "«louco» («passou por louco… o louco da corte»)", "nota": "Liga ao «louco por Cristo»; «louco da corte» não é expressão portuguesa."}
+   ]
+  },
+  {
+   "id": "incivil-incivico",
+   "titulo": "*to be uncivil is to be uncivic* fica «ser incivil é ser incívico»?",
+   "ref": "cap. VI",
+   "contexto": "Contra a igualdade de quem trata todos com a mesma grosseria: *They have forgotten the very meaning and origin of the word civility, if they do not see that to be uncivil is to be uncivic.*\n\nHoje: «Essas pessoas esqueceram o próprio sentido e a origem da palavra civilidade, se não veem que ser incivil é ser incívico».",
+   "opcoes": [
+    {"id": "a", "texto": "«ser incivil é ser incívico», como está", "nota": "O jogo de raízes passa inteiro, como o próprio texto pede («a origem da palavra»).", "recomendada": true},
+    {"id": "b", "texto": "«ser descortês é ser mau cidadão»", "nota": "Mais fácil de ler; perde o jogo de que a frase fala."}
+   ]
+  },
+  {
+   "id": "irma-margarida",
+   "titulo": "*Brother Daisy and Brother Dandelion* fica «a Irmã Margarida e o Irmão Dente-de-Leão»?",
+   "ref": "cap. VIII",
+   "contexto": "Chesterton imagina um dito de Francisco no espírito do Evangelho: *be wise as Brother Daisy and Brother Dandelion*, os dois como «irmãos». Em português a margarida é feminina.\n\nHoje: «Eu vos peço, irmãozinhos, que sejais sábios como a Irmã Margarida e o Irmão Dente-de-Leão».",
+   "opcoes": [
+    {"id": "a", "texto": "«a Irmã Margarida e o Irmão Dente-de-Leão», como está", "nota": "Cada flor com o gênero da palavra portuguesa, como Francisco fazia em italiano (Irmã Água, Irmão Fogo).", "recomendada": true},
+    {"id": "b", "texto": "«o Irmão Margarida e o Irmão Dente-de-Leão»", "nota": "Fiel ao par do inglês; soa errado em português."}
+   ]
+  },
+  {
+   "id": "belloc",
+   "titulo": "Os versos de Belloc no cap. III ficam assim?",
+   "ref": "cap. III",
+   "contexto": "*Of Courtesy, it is much less / Than courage of heart or holiness, / Yet in my walks it seems to me / That the grace of God is in Courtesy.* (Belloc, «Courtesy»). Tetrâmetro com rimas aabb; traduzido em octossílabos com as rimas do original, conferidos no molde do Versificador. Perde-se o *of heart* de *courage of heart*.\n\nHoje: «A cortesia é bem menor / que a santidade e que o valor; / mas sinto, andando, dia a dia, / graça de Deus na cortesia.»",
+   "opcoes": [
+    {"id": "a", "texto": "«A cortesia é bem menor / que a santidade e que o valor; / mas sinto, andando, dia a dia, / graça de Deus na cortesia», como está", "nota": "Abre e fecha em «cortesia», como o inglês em *Courtesy*.", "recomendada": true},
+    {"id": "b", "texto": "«A cortesia, na verdade, / cede ao valor e à santidade; / mas sinto, andando, dia a dia, / graça de Deus na cortesia»", "nota": "Medida exata; «na verdade» é enchimento e perde o *much*."}
+   ]
+  }
+ ]
+}

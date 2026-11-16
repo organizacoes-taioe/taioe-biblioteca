@@ -32,3 +32,7 @@
 32: conferido, ~15 correções; dúvidas: os números de seção («10.», «11.») impressos na Ep. 228 foram retirados (cada seção = parágrafo novo); «judi-/cemur» inteira no 32; a linha «vos (Philipp. i, 23)» no topo da coluna (fim do n. 9) não entra
 33: conferido, ~25 correções; dúvidas: «Quanquam» (impresso assim); números de seção «12.» «13.» retirados (novo parágrafo em cada); «eas-/dem» inteira no 33
 34: conferido, ~25 correções; dúvidas: «ut scilicet Dei Ecclesias… Dei dono» (assim impresso); número de seção «14.» retirado; o título «EPISTOLA CCXXIX» abaixo não entra; o «[31]» do fim passou para o início do 35
+35: conferido, ~10 correções; dúvidas: nenhuma («a no-/bis» inteira no 35; o 36 começa depois de «nobis»)
+36: conferido, ~25 correções; dúvidas: o epigrama (dois versos centrados) ficou em linha corrida; fim «sic facite (Ja-» com a referência continuando no 37
+37: conferido, ~8 correções; dúvidas: nenhuma («familiari-/ter» inteira no 37; o 38 começa depois)
+38: conferido, ~6 correções (o rascunho trazia lixo de notas depois de «Amen.», apagado); dúvidas: nenhuma. A nota 1 abaixo (variante do cód. Reginae) não entra

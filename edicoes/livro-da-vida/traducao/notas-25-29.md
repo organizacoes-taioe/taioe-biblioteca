@@ -39,6 +39,20 @@
 - [27.17] «se le quitaba}» → chave solta.
 - [27.18] O latim saiu estragado: «Laetatits satn in his qtiae» → «Laetatus sum in his quae».
 - [27.20] «Hela quí» → «Hela aquí»; «Di jome» → «Díjome»; «a] Señor» → «al Señor».
+- [28.0] (título) «el Señoif» → «el Señor».
+- [28.1] «asorta» → «absorta» (ou forma dela).
+- [28.3] «hádaseme» → «hacíaseme», como em [23.3].
+- [28.4] «iba! a él» → «iba a él»; «ecede» → «excede» (forma dela, como *ecelencia*).
+- [28.5] «á una muy turbia» → «a una»; «la de] sol» → «la del sol»; «artificial Es» → falta o ponto; «podría imaginar cómo es» → falta o «no» (o sentido pede «no podría»; traduzido «não poderia»).
+- [28.7] «mañera» → «manera»; «Más dejemos» → «Mas dejemos».
+- [28.8] «Y a entender que es hombre y Dios» → provável «Y da a entender» (traduzido assim).
+- [28.9] «el imbo» → «el limbo»; «ifiernos» → «infiernos»; «Es verdad que se olvida después.» → o sentido pede pergunta ou negação (logo depois diz que não se pode esquecer); traduzido como pergunta.
+- [28.10] «se" conoce» → aspas soltas; «de ¡sí» → «de sí».
+- [28.13] «¡amor», «¡ninguna», «'me conocían» → sinais soltos; «muy con caridad» → provável «muy con claridad» (traduzido «com muita clareza»).
+- [28.14] «enjemplos» → «ejemplos» (ou forma dela).
+- [28.15] «el rn^l» → «el mal»; «todto» → «todo»; «primitía» → «permitía».
+- [28.16] «primitía» → «permitía».
+- [28.18] «Plega el Señor» → «Plega al Señor».
 
 ## Termos e nomes
 
@@ -85,6 +99,19 @@
 - **Pedro de Alcântara (27.3, 27.16–27.20)**: nomeado por ela, *Fray Pedro de Alcántara* → «frei Pedro de Alcântara» (§ 4). *Estaba grueso el espíritu* → «tinha o espírito robusto»; *repisar el mundo* → «pisar o mundo»; *volver por mí* → «tomar a minha defesa»; *maderillo* → «pedaço de madeira»; *capilla* → «capuz»; *sayal* → «pano grosseiro» («saial», «burel» seriam palavras raras); *mantillo* → «mantozinho»; *a tercero día* → «de três em três dias»; *flaqueza* (do corpo) → «magreza»; *sabroso* (na conversa) → «agradável».
 - Salmo [27.18] em latim, com a tradução entre colchetes (§ 5): _Laetatus sum in his quae dicta sunt mihi_ [Alegrei-me com o que me foi dito].
 - *San Hilarión*, *San Miguel, ángel* [27.1] → «Santo Hilarião», «São Miguel Anjo»; *andar novenas* → «fazer novenas».
+- **Visão imaginária (cap. 28)**, pela tabela: *visión imaginaria* → «visão imaginária»; *la pasada* (a do cap. 27) → «a passada»; *con los ojos corporales* · *con los ojos del alma* → «com os olhos corporais» · «com os olhos da alma»; *estas dos maneras de visión* → «estas duas maneiras de visão».
+- *hermosura*, *hermoso* → «formosura», «formoso» (como nos caps. 1 e 9); *resplandor* → «resplendor»; *blancura* → «brancura»; *dislumbrar* → «deslumbrar»; *dislustrada* (a luz do sol) → «sem lustre»; *divertimiento* → «distração».
+- *los cuerpos glorificados* [28.2] → «os corpos glorificados»; *desatina* → «faz perder o juízo».
+- *un día de San Pablo* [28.3] → «num dia de São Paulo» (a festa da Conversão, 25 de janeiro; não se explica no texto).
+- *bobería* [28.4] → «tolice»; *antojo* → «fantasia» (§ 3a).
+- *lo que le dan a comer* [28.6] (o entendimento dela) → «o que lhe dão mastigado» (a expressão de quem só entende o que lhe explicam).
+- *debujos* [28.7] → «pinturas»; *disbarate* → «disparate»; *cabales* (comparações) [28.8] → «exatas»; *posada* (a alma onde Cristo entra na comunhão) → «pousada», como em [22.17].
+- *el imbo* (limbo) [28.9] → «o limbo»; *éxtasi* → «êxtase» (tabela); *hinche* → «enche».
+- *contrahacer* [28.10] → «contrafazer»; *desabrirse* → «desgostar-se», como *desabrida* → «desgostosa» [25.13].
+- *ningún camino lleva* [28.11] → «não tem cabimento nenhum», como *no lleva camino* [25.8]; *desvanecida* (a cabeça) → «aturdida», como em [20.29]; *conortado* → «confortado».
+- *joyas*, *prendas* [28.13] → «joias», «penhores» (§ 3a).
+- *un Padre bien santo de la Compañía* [28.14] (Baltasar Álvarez, segundo os editores) → «um padre bem santo da Companhia de Jesus», sem nome, como nos caps. 23–24; *muy discreto* → «muito sensato» (§ 3a). *El uno de ellos* [28.17] (Francisco de Salcedo) também fica sem nome.
+- *llaneza* [28.17] → «simplicidade» (§ 3a); *reñir* → «repreender»; *mujercilla* [28.18] → «mulherzinha».
 
 ## Passagens difíceis
 
@@ -115,6 +142,14 @@
 - [27.17] Frase longa com o parêntese do amor que ele lhe tinha e o anacoluto *paréceme fueron cuarenta años los que me dijo*; mantidos.
 - [27.18] *con él lo he escrito* → «com esse medo o escrevi».
 - [27.19] *yo tenga más en él que en la vida* → «que eu tenha mais nele do que em vida» (mais ajuda dele morto do que vivo).
+- [28.1] *el que claramente vía estaba por testigo* → «Aquele que claramente via que estava por testemunha» (com maiúscula de reverência, como em [25.1]). *Porque cualquier novedad me le hace grande* → «me causa grande temor» (sem «mo»).
+- [28.3] *aun acá que se muestra Su Majestad conforme a lo que puede sufrir nuestra miseria; ¿qué será…?* → acrescentado «se ainda cá… é assim», para a comparação se ler.
+- [28.5] *ni la claridad que se ve para ver esta hermosura* → «nem a cansa a claridade que se vê…» (repetido «a cansa»). *Como ver un agua muy clara… a una muy turbia* → «comparada a uma muito turva».
+- [28.9] *que tengo por imposible, si muy sobrenatural no la quisiese el Señor ayudar… sería, como digo, imposible sufrirla ningún sujeto*: a repetição de «impossível» fica; o meio foi posto entre parênteses e o fim depois de dois-pontos. *Aquí ve la razón… y tuvieran de desear* → «Aqui se vê a razão que tiveram os demônios de temer… e de desejar» (o *tuvieran de* juntado ao primeiro membro). *Que, aunque la visión pasada… es más subida, que para durar la memoria*: o segundo *que* sobra; não se traduziu.
+- [28.11] *Pues sin acordarnos de ello… ver en un punto presentes cosas… ansí que esto es imposible*: frase sem verbo principal; mantida, com dois-pontos antes do fecho. *El, como si tiene necesidad… lo desea* → «Ele, como deseja dormir, se tem necessidade…» (reordenado).
+- [28.13] O argumento dela em discurso indireto (*si los que me decían esto me dijeran…*) ficou indireto, com a ordem dela; *la conociese mucho* → «a quem conhecesse muito».
+- [28.16] *curar el miedo que yo traía, puniéndomele mayor* → «curar o medo que eu trazia, pondo-me às vezes um maior» (acrescentado «às vezes»: ele a provava, como em [25.15]).
+- [28.17] O parêntese do original (*yo quería mucho a el uno de ellos…*) fica; *él a reñirme* → «e ele, a repreender-me» (frase sem verbo, como no original).
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
 
@@ -123,3 +158,4 @@
 - *cuestión* [26.3] → «tormento».
 - *noticia* (mística) → «notícia»: proposta para a § 3a (volta no *Castelo*).
 - *sayal* → «pano grosseiro».
+- [28.9] «É verdade que se esquece depois?»: pergunta posta pela tradução (o original afirma, e logo se contradiz); vale conferir noutra edição.

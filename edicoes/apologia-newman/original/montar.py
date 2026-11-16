@@ -72,6 +72,10 @@ GREGO = {'daimonia': 'δαιμόνια', 'tô telei pistin pherôn': 'τῷ τέ
          'anomos': 'ἄνομος', 'a, b, g, d, e, z': 'α, β, γ, δ, ε, ζ'}
 ESTRELAS = re.compile(r'^\*(\s+\*){4}$')
 NOTA_RODAPE = re.compile(r'^\[(\d+)\] ')
+# Parágrafos que continuam uma nota de rodapé (no HTML do Gutenberg, a nota [6] tem quatro <p>; é a única do livro):
+# vão para o fim, logo depois da nota, como «¤ » sem número (o site os mostra como parágrafos seguintes da nota)
+CONTINUA_NOTA = ('I challenge, in the sight of all England,', '"Our Lord Jesus Christ, who hath left _power_',
+                 'I subjoin the Roman form, as used in England')
 
 
 def paragrafos(bls, cabecalhos=()):
@@ -87,6 +91,9 @@ def paragrafos(bls, cabecalhos=()):
             n = NOTA_RODAPE.match(t).group(1)
             assert n in mapa, f'nota [{n}] sem chamada'
             notas.append('¤ ' + NOTA_RODAPE.sub(f'[{mapa[n]}] ', t))
+        elif t.startswith(CONTINUA_NOTA):
+            assert notas, 'continuação de nota sem nota'
+            notas.append('¤ ' + t)
         elif t in cabecalhos or t.startswith('§ ') and len(t) < 6:
             corpo.append('## ' + (caso_titulo(t) if ehmaiusc(b) else t))
         else:
@@ -94,7 +101,7 @@ def paragrafos(bls, cabecalhos=()):
                 mapa.setdefault(m.group(1), str(len(mapa) + 1))
                 return f'[{mapa[m.group(1)]}]'
             corpo.append(re.sub(r'\[(\d+)\]', troca, t))
-    assert len(notas) == len(mapa), (len(notas), len(mapa))
+    assert len([x for x in notas if NOTA_RODAPE.match(x[2:])]) == len(mapa), (len(notas), len(mapa))
     return corpo + notas
 
 

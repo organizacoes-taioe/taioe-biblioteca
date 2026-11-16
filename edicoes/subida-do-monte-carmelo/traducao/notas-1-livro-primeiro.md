@@ -43,6 +43,15 @@ Feitos: sumário do livro e capítulos 1 a 5 (43 blocos, iguais ao original até
 - I,9,1 **pez** → «piche»; **tizne** → «fuligem»; I,9,2 _Nazaraei_: o autor lê «cabelos», e assim ficou.
 - I,9,5–6 **sabandijas** → «bichos»; **retrete** → «aposento».
 - I,10 **entibiar** → «amornar»; **renuevos** → «rebentos»; **Daca, daca** → «Dá cá, dá cá».
+- I,11,3 **estar hecha una voluntad de dos** → «de duas vontades se fez uma»; **subrepticios** → «sub-reptícios»
+  (termo da moral, fica).
+- I,11,4 **asimientillo, conversacioncillas, gustillos** → «apegozinho, conversinhas, gostinhos» (o diminutivo
+  depreciativo do autor); **rémora** → «rêmora»; **nao** → «nau».
+- I,11,6 **madero** → «lenha» (o lenho que o fogo transforma em si; a imagem volta na Noite).
+- I,12,3 **conversión / aversión** → «conversão para a criatura / aversão a Deus» (termos escolásticos); **remisamente**
+  → «de modo remisso».
+- **apetito** → corrigido para «apetite(s)» em todo o arquivo, inclusive nos cap. 1–5, que tinham «apetito» no
+  singular (a regra já era «apetite»).
 - I,6,7 «Declinabit… Quiere decir: Declinará» → «Há de desviar-se» (sem mesóclise).
 
 ## OCR (corrigir no original)
@@ -56,3 +65,6 @@ Feitos: sumário do livro e capítulos 1 a 5 (43 blocos, iguais ao original até
 - I,10,2 _in Mis diebus_ → _in illis diebus_.
 - I,10,3 «los apetitos mortificados llegan a tanto, que matan al alma» → o sentido pede «no mortificados» (lacuna do
   OCR ou do impresso; conferir na imagem). Traduzido «não mortificados».
+- I,11,4 «este asida», «a el», «volara» → «esté», «a él», «volará»; I,11,6 «libre. sola» → «libre, sola»; I,11,8
+  «ad Cor i nt ni os, diciendo-» → «ad Corinthios, diciendo:»; «los que tienes mujeres» → «tienen».
+- I,12,3 «responde c la aversión» → «a la»; I,12,4 «ceguera (.)»: sinal solto, tirar.

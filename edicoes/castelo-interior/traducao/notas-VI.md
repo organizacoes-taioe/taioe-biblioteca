@@ -20,6 +20,13 @@
 - *avisado* (do confessor, VI.3) → «sensato»; *os amonesto* → «vos exorto».
 - *embebidas* (VI.3, em oração de quietude) → «absortas» («embebidas» em português soa a «molhadas»).
 - *Yo soy, no hayas miedo* (VI.3) → «Sou eu, não tenhas medo» (minúscula: não se sabe se a maiúscula de Silverio é de reverência ou só de começo de fala).
+- *gusano* (VI.4, «un gusano de tan limitado poder como nosotros») → «verme» (fora da imagem do bicho-da-seda).
+- *camarín* (VI.4) → «camarim» (ela mesma dá o nome como termo da casa nobre); *baraúnda* → «amontoado de coisas».
+- *no tengo letras* (VI.4) → «não tenho estudos».
+- *arrobamiento … roba Dios toda el alma* (VI.4): o jogo passa inteiro, «arroubamento … Deus rouba toda a alma».
+- *cielo impíreo* → «céu empíreo» (termo técnico, mantido).
+- *corrimiento* (VI.4) → «vergonha»; *motillas, chinillas* → «ciscos, pedrinhas».
+- *ave Fénix* → «fênix».
 
 ## Passagens difíceis
 
@@ -33,6 +40,8 @@
 - VI.3, «Dénosle la divina Majestad»: o *le* retoma o «remédio» da frase anterior; «Dê-nos a divina Majestade este remédio: que só ponhamos…».
 - VI.3, «deshacérsele» (o que fazer com as falas nos princípios): «tirar-lhe a importância disso».
 - VI.3, «Nuestro Señor le porná al confesor»: o *le* é o ânimo; «Nosso Senhor o dará ao confessor».
+- VI.4, o parêntese da casa da duquesa de Alba: no original o parêntese abre em «adonde, viniendo de camino» e fecha em «para aquí»; mantive o mesmo corte, com ponto e vírgula dentro.
+- VI.4, «Esto y algunas cosas de las que van aquí…»: frase sem verbo principal no original; mantive o fragmento.
 
 ## Possíveis erros do texto-fonte (OCR)
 
@@ -43,5 +52,8 @@
 - VI.2, «del demomonio»: *demomonio* por *demonio*.
 - VI.3, «el poderío y señorío que train consigo, que les hablando y obrando»: *les* por *es* (traduzido «que é falar e obrar ao mesmo tempo»).
 - VI.3, «al presente quedan !de ser Dios»: «!» solto antes de *de*.
+- VI.4, a ementa: «arrobamiento, o éxtasi, o rato»: *rato* por *rapto* (traduzido «rapto»).
+- VI.4, «si no le diese Dios, con icuanto veis, u que nos está bien»: *icuanto* por *cuanto*; leitura: «com tudo quanto vedes, e por mais que nos convenha».
+- VI.4, «para que un memento dejemos de buscar»: *memento* por *momento*.
 
 ## Decisões delicadas (candidatas ao dono)

@@ -23,6 +23,8 @@ rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. Trabalho (páginas, OCR, léxic
   (endereços novos `cartas-e-prologo/` e `carta-ao-pastor/`; os 30 degraus não mudaram). «Sobre» atualizada;
   `revisao.json` com 2 decisões novas (nome «Carta ao pastor»; ἀναδοχή «fiança»); vocabulário +3 (lanceta,
   soporífero, proêmio; o campo `capitulo` dos antigos subiu 1).
+- Degrau 30: o subtítulo «Exortação breve…» virou `##` (o fim de 30.19 passou a 30.20, e o antigo 30.20 a 30.21); tirado
+  o «(13)» que sobrava no grego de 30.19.
 
 ## Para o principal
 - Juntar a branch, `node ferramentas/site/gerar.mjs`, Catálogo `obras` (obra nova ou partes novas), `traducoes_revisao.py --revisao`
@@ -35,5 +37,4 @@ rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. Trabalho (páginas, OCR, léxic
   `~/.cache/claude-pedidos-0511/escada-do-paraiso/decisoes/ANDAMENTO.md`.
 - Tradução: uniformização fina entre os três tradutores (lida por amostra; termos-chave conferidos por contagem);
   passagens obscuras marcadas nas notas: 3.14, 3.24, 4.4, 13.1, 15.3, 15.33, 26.57, 26.65, 27.14, 27.28–29, 30.7.
-  Em 30.19 o subtítulo «Exortação breve…» está no meio do bloco, sem `##`.
 - Notas gerais (lote futuro).

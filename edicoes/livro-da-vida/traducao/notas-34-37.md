@@ -25,6 +25,21 @@
 - [35.13] «llevd¡» → «lleva»; «yol» → «yo».
 - [35.14] «dé la» → «de»; «EL» → «Él».
 - [35.15] «(maldad» → parêntese solto.
+- [36.2] «Entramos a dos» → «Entrambos a dos»; «monesterio ;» → espaço antes do «;»; «muy enferma» → «enfermo» (é frei Pedro).
+- [36.5] «cufiado» → «cuñado»; «mií profesión» → «mi»; «¡encerramiento» → sinal solto.
+- [36.6] «e] intento» → «el»; «pa servicio» → «para»; «el. hábito» → ponto solto.
+- [36.8] «el ahila» → «el alma»; «"muerte» → aspa solta.
+- [36.9] «prara» → «para».
+- [36.11] «memento» → «momento»; «>en veinte» → sinal solto; «ten otras» → «en otras»; «suplicando?» → sinal solto; «muy contenta se ofreciese» → «de que se ofreciese» (falta o «de que»).
+- [36.12] «elio» → «ello»; «decían»» → sinal solto.
+- [36.16] «pa que» → «para».
+- [36.17] «Hela quí» → «Hela aquí»; «hecho ;» → espaço.
+- [36.18] «rae» → «me»; «techo» → «hecho»; «mug» → «muy»; «agudaban» (duas vezes) → «ayudaban».
+- [36.19] «go» → «yo»; «ga» (três vezes) → «ya»; «gerro» → «yerro»; «agudaban» → «ayudaban».
+- [36.20] «ga» (duas vezes) → «ya»; «mug» (duas vezes) → «muy»; «go» (duas vezes) → «yo»; «di riéndome» → «diciéndome».
+- [36.21] «ga» → «ya».
+- [36.25] «e] Señor» → «el».
+- [36.29] «vinieren^» → sinal solto; «no>» → sinal solto; «pa servir» → «para».
 
 ## Termos e nomes
 
@@ -52,6 +67,26 @@
 - *fingís trabajo en vuestra ley* [35.13] (o Sl 93,20 da Vulgata, *fingis laborem in praecepto*) → «fingis trabalho na vossa lei», ao pé da letra; *Camino real* → «caminho real»; *senda* → «senda»; *puertos* (de montanha) → «desfiladeiros» («portos» enganaria); *despeñadero* → «despenhadeiro».
 - *tantico* [35.14] → «um tantinho»; *andar con el hilo de la gente* → «andar no passo dos outros» (como em [30.18]); *Sol de Justicia* → «Sol de Justiça».
 - *temer de musarañas* [35.15] → «ter medo de sombras» (o «musaranho» seria palavra rara; perde-se o bicho).
+- *Obispo* [36.1] → «o bispo» (minúscula, como em [33.16]); *coyuntura* → «o momento certo», «ocasião»; *espaldas y cabida* → «apoio e acolhida».
+- O *caballero* em cuja casa frei Pedro se hospedava [36.1, 36.18, 36.21] (Francisco de Salcedo, «o cavaleiro santo»), o *sacerdote* que foi à corte [36.18] (Gonzalo de Aranda, segundo os editores), o *Maestro… clérigo* [36.18] (Gaspar Daza), o *Presentado* dominicano [36.15] (Domingo Báñez) e o *Padre Presentado Dominico* [36.23] (Pedro Ibáñez): todos sem nome, como ela os deixa.
+- *encerramiento* [36.5, 36.10] → «clausura» (como *más encerrado*, § 3a); *prometer clausura* → «prometer clausura».
+- *día de San Bartolomé* [36.5] → «no dia de São Bartolomeu»; *año de mil y quinientos y sesenta y dos* → «no ano de mil e quinhentos e sessenta e dois» (por extenso, como ela).
+- *huérfanas* [36.6] → «órfãs»; *se remediaron* → «se remediaram»; *gran regalo* (ser instrumento de Deus) → «grande regalo» (é de Deus).
+- *el Ordinario* [36.7] → «o Ordinário» (o bispo; vai ao vocabulário).
+- *deleitosa* (a casa da Encarnação) [36.8] → «agradável».
+- *recios ratos* [36.9] → «momentos mais duros».
+- *discuento* (descargo) [36.12–36.14] → «as minhas razões» («dar as minhas razões»); *Hice mi culpa* → «Acusei-me da minha culpa»; *desabrido* → «desgostoso» (§ 3a); *nonada* → «quão nada».
+- *nombrada* [36.13] → «ganhar nome»; *relisión* (da casa) → «observância» (§ 3a); *penada* [36.11, 36.16] → «magoada(s)» (como em [33.2]).
+- *regidores y corregidor, y de el cabildo* [36.15] → «vereadores e o corregedor, e gente do cabido»; *república* → «bem comum» («república» enganaria hoje); *juntas* → «juntas».
+- *Consejo Real* [36.16] → «Conselho Real»; *provisión* → «provisão»; *relación* → «relação»; *pleito* [36.17] → «pleito».
+- *batería* [36.18] → «combate»; *puso de su parte* (o bispo ao Mestre) → «pôs como seu representante».
+- *concierto* [36.19–36.21] → «acordo»; *no llevaba camino* → «não tinha cabimento» (§ 3a).
+- *maraña* [36.22] → «emaranhado»; *digistión* → «digestão».
+- *dióse tan buena maña* [36.23] → «houve-se com tanta habilidade»; *hacer el oficio* [36.23, 36.25] → «rezar o ofício» (como *rezado* → «ofício», § 3a); *Completas* [36.24] → «Completas».
+- *sin haber demanda* [36.25], *sin demanda* [36.29] → «sem sairmos a pedir esmola», «sem sair a pedi-la» (a *demanda* é a coleta de esmola de porta em porta; em [33.13] ficou «sem pedirmos nada»); *cansosas* → «cansativas».
+- *muy deudos* [36.26] → «parentes muito chegados»; *Fray Hugo, Cardenal de Santa Sabina* → «frei Hugo, cardeal de Santa Sabina»; *a MCCXLVIII años* → «no ano MCCXLVIII» (romanos, como a edição); *relajación* (da Regra) → «mitigação» (como a Bula).
+- *la mesma primera Regla* [36.27], *esta primera Regla nuestra* [36.28] → «a Regra primitiva», «esta nossa Regra primitiva» (o termo carmelitano em português).
+- *romper* (o escrito) [36.29] → «rasgar»; *relajar* (a perfeição) → «relaxar» (como *relajadas*, [32.11]); *aparejo* → «disposição» (§ 3a); *no se sufre más* → «não se admite mais».
 
 ## Passagens difíceis
 
@@ -74,8 +109,18 @@
 - [35.12] *conforme a sus leyes*: as leis do mundo («conforme às leis dele»).
 - [35.14] *Los ojos en El* → «Os olhos postos em Ele» (maiúscula da edição).
 - [35.15] *Abráselos el que puede* → «Abra-os quem pode» (sem maiúscula, como na edição).
+- [36.6] O parêntese sobre o intento da casa foi marcado, para «e feita uma obra…» se ligar a «ver».
+- [36.7] *a causa de sujetarle a el Ordinario*: lido como sujeitar o mosteiro ao bispo («o sujeitar o mosteiro ao Ordinário»); *y yo no la mudaba*: o *la* é a obediência dela ao provincial («e eu não mudava de obediência»).
+- [36.9] *aunque no llegó a ser tanto como esto si durara*: «ainda que nada chegou a ser tanto como isto, se durasse» (o que veio depois não igualou esta aflição, se ela tivesse durado).
+- [36.10] *No sé si es esto parte para…*: «Não sei se é isto parte para eu ter muito mais saúde…, ou se é querer o Senhor… dar-me este consolo».
+- [36.11] A frase longa do descanso depois do almoço fica inteira, com o anacoluto dela («e todos os dias bem cansada, como se tinha sabido…»).
+- [36.20] *me persuadió en la carta* → «insistiu nisso na carta».
+- [36.22] *Este medio postrero y lo primero*: lido como as duas metades do tempo da fundação («Esta última metade e o começo»); pode ser «este último meio ano».
+- [36.23] A frase do Presentado fica sem conclusão, como no original («houve-se com tanta habilidade… (…)»); o resultado vem nas frases seguintes.
+- [36.29] *vivir siempre en él* → «viver sempre nela» (na perfeição); *váyanse… se salvarán*: o plural do original fica depois do singular «a quem parecer».
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
 
 - *Maitines* → «Matinas».
 - *Presentado* (35.6) → «o Presentado» (ao vocabulário); *puertos* → «desfiladeiros»; *temer de musarañas* → «ter medo de sombras».
+- *discuento* → «as minhas razões»; *Hice mi culpa* → «Acusei-me da minha culpa»; *regidores* → «vereadores»; *república* → «bem comum»; *primera Regla* → «Regra primitiva»; *hacer el oficio* → «rezar o ofício»; *Ordinario* → «o Ordinário» (ao vocabulário).

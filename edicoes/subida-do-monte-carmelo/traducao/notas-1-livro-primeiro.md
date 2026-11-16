@@ -40,6 +40,9 @@ Feitos: sumário do livro e capítulos 1 a 5 (43 blocos, iguais ao original até
 - I,8 **encandilar, encandilamiento** → «deslumbrar, deslumbramento»; **mariposilla** → «mariposa»; **tomado del
   paño / de baho** → «embaçado (de vapor)»; **mozo de ciego** → «guia de cego»; **tierra no rompida** → «terra não
   lavrada»; **atollamos** (Is 59,10) → «atolamos».
+- I,9,1 **pez** → «piche»; **tizne** → «fuligem»; I,9,2 _Nazaraei_: o autor lê «cabelos», e assim ficou.
+- I,9,5–6 **sabandijas** → «bichos»; **retrete** → «aposento».
+- I,10 **entibiar** → «amornar»; **renuevos** → «rebentos»; **Daca, daca** → «Dá cá, dá cá».
 - I,6,7 «Declinabit… Quiere decir: Declinará» → «Há de desviar-se» (sem mesóclise).
 
 ## OCR (corrigir no original)
@@ -49,3 +52,7 @@ Feitos: sumário do livro e capítulos 1 a 5 (43 blocos, iguais ao original até
   assim).
 - I,7,1 _¿assata est_ → _lassata est_ (Jz 16,16).
 - I,8,3 «tan, cerca que esta en» → «tan cerca que está en».
+- I,9,1 «de esa misma- manera» → «misma manera»; I,9,2 «en lo aue» → «en lo que».
+- I,10,2 _in Mis diebus_ → _in illis diebus_.
+- I,10,3 «los apetitos mortificados llegan a tanto, que matan al alma» → o sentido pede «no mortificados» (lacuna do
+  OCR ou do impresso; conferir na imagem). Traduzido «não mortificados».

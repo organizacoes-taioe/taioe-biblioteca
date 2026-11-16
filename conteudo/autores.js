@@ -1004,3 +1004,13 @@ BIBLIOTECA.autor({
   ordem: 'Catarina de Sena, Santa',
   nota: 'Terciária dominicana de Sena, mística e conselheira de papas, doutora da Igreja e padroeira da Itália e da Europa. Em tradução do italiano, com o original ao lado.'
 });
+
+BIBLIOTECA.autor({
+  id: 'sao-joao-climaco',
+  area: 'catolicismo',
+  nome: 'São João Clímaco',
+  nomeCompleto: 'João do Sinai, chamado Clímaco',
+  vida: '~579–~649',
+  ordem: 'João Clímaco, São',
+  nota: 'Monge e superior do mosteiro do Sinai, autor da Escada do Paraíso. Em tradução do grego.'
+});

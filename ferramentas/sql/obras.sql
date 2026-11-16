@@ -1886,6 +1886,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('sao-gregorio-magno/regra-pastoral', 'Regra Pastoral'),
   ('sao-gregorio-magno/vida-de-sao-bento', 'Vida de São Bento'),
   ('sao-jeronimo/vida-de-sao-paulo-eremita', 'Vida de São Paulo, primeiro eremita'),
+  ('sao-joao-climaco/escada-do-paraiso', 'Escada do Paraíso'),
   ('sao-joao-da-cruz/noche-oscura', 'Noche oscura'),
   ('sao-joao-da-cruz/noite-escura', 'Noite Escura'),
   ('sao-joao-da-cruz/subida-do-monte-carmelo', 'Subida do Monte Carmelo'),

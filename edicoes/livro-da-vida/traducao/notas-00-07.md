@@ -20,6 +20,15 @@
 - [4.7] «presfv;te» → «presente».
 - [4.8] «R» → «A» (*A personas*).
 - [4.9] «estai*» → «estas»; «hacia» → «hacía».
+- [5.1] «ano» → «año».
+- [5.2] «rne» → «me»; «ñ mí» → «a mí».
+- [5.3] «mug» → «muy»; «¿siendo» → «siendo» (sinal solto); «raí» → «mí»; «agraviándome» → provável «agravándome» (o sentido é «fazendo-me ver mais graves»).
+- [5.4] «'hacíale» → «hacíale» (apóstrofo solto); «porqué» → «porque».
+- [5.5] «nada, Aunque» → ponto antes de «Aunque».
+- [5.7] «asíarj» → «asían».
+- [5.8] «dabá» → «daba»; ««.Pues» → ««Pues» (ponto solto).
+- [5.9] «dejó, i Oh» → «dejó. ¡Oh»; «memento» → «momento».
+- [5.10] «oirías» → «oírlas»; «ñas» → «mas»; «lo iba harto mi salvación» → provável «me iba» ou só «iba» (traduzido «a minha salvação ia bem arriscada»).
 
 ## Termos e nomes
 
@@ -34,6 +43,10 @@
 - *la Religión* (a vida em ordem religiosa) → «a vida religiosa».
 - Fala a Deus: o pronome átono segue a caixa da edição: *os* → «vos» minúsculo; *Vos* → «Vós/Vos» maiúsculo.
 - *Tercer Abecedario* (de Francisco de Osuna) → _Terceiro Abecedário_, em itálico, como título de livro.
+- *ley* (lealdade a quem lhe quer bem) × *la [ley] de Dios* [5.4]: «fiel», «fidelidade… contra a que se deve a Deus», para guardar o jogo.
+- *virtud* no sentido de vigor [5.7] → «forças». *Ética* (héctica) → «tísica». *Parajismo* → «ataque» (perda total dos sentidos).
+- *los Morales de San Gregorio* → _Morais_ de São Gregório (a tradução castelhana dos *Moralia in Iob* que ela lia). Alternativa: _Moralia_.
+- *una persona de la Iglesia* → «uma pessoa da Igreja» (ela é discreta de propósito; não «um clérigo»).
 - *enemiguísima de ser monja* → «muitíssimo contrária a ser monja».
 
 ## Passagens difíceis
@@ -46,3 +59,6 @@
 - [4.2] *si me ayudo al principio a determinarme… Aun en esta vida lo paga*: o meio da frase (Deus quer que a alma sinta o espanto no começo, e quanto maior, maior o prêmio) foi posto entre parênteses, para a frase principal correr.
 - [4.7] A primeira frase fica truncada, como no original (*que al fin de este tiempo… parecíame casi imposible tanta guarda*); *mas por esto pasaba yo* lido como «mas nisto eu passava por cima», entre parênteses.
 - [4.8] *tiénele mayor*: lido como «corre maior perigo». *Sino en lugar de la oración mental* → «ao menos em lugar da oração mental».
+- [5.1] *Alguna tiene no estar fundado el monesterio en mucha perfeción*: lido como «alguma culpa» (não «desculpa») → «Alguma culpa tem o mosteiro, por não estar fundado em muita perfeição».
+- [5.8] *si yo no lo hubiera por mi culpa perdido*: o «lo» é o mérito do sofrimento → «se eu não lhe tivesse perdido o mérito por minha culpa».
+- [5.10] *hechas las honras en uno de nuestros frailes* → «num dos conventos dos nossos frades». *Si el engaño… no me aprovechara*: mantido ao pé da letra («se o engano… não me aproveitasse»): as lágrimas bastariam para salvá-la se a ignorância em que os confessores a puseram não lhe servisse de escusa; frase obscura também no original.

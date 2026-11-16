@@ -29,6 +29,12 @@
 - [16.6] «i Oh» → «¡Oh»; «pa» → «para».
 - [16.7] «ga» → «ya» (duas vezes); «go» → «yo» (duas vezes); «sog» → «soy».
 - [16.8] «i Oh» → «¡Oh»; «hag» → «hay» (duas vezes); «mug» → «muy».
+- [17.2] ««es» → «es» (aspas soltas); «gostaduras» → provável «gustaduras» (provas, bocados de prova); «cansóme» → provável «cánsome» (traduzido «canso-me»).
+- [17.4] No meio do parágrafo entrou uma nota de rodapé do editor (começa com «\ El alma, Están escritas al margen…»: as palavras «el alma» estão na margem, com a letra da Santa): não é de Teresa; não foi traduzida; tirar do `original/17.txt`.
+- [17.5] «buena gana,» → «buena gana.» (vírgula por ponto antes de «Ansí»).
+- [17.6] «si no las tienen ya» → provável «tiene» (o sujeito é Vossa Mercê); «¡nosotros» → «nosotros»; «en especiad» → «en especial»; «sujetó1» → «sujetó».
+- [17.8] «ga» → «ya».
+- [17.9] «mug» → «muy» (duas vezes); «haga llegado» → «haya llegado»; «le haga dado» → «le haya dado»; «ñrnén» → «Amén».
 
 ## Termos e nomes
 
@@ -68,6 +74,13 @@
 - *delgada y pesadísima cruz* [16.5] → «leve e pesadíssima cruz» («delgada» se leria só como «fina»; o paradoxo é o de leve × pesada).
 - *sufrimiento que la sufra* [16.5] → «paciência que a suporte».
 - *concierto* [16.7] (o combinado entre os cinco) → «acordo».
+- *holgar* (a alma, quando Deus faz de hortelão) [17.1] → «descansar».
+- *acaudalar* [17.2] → «juntar»; *gustaduras* (o fruto que se vai em provas dadas a outros) → «provas».
+- *entender en obras de caridad* [17.4] → «ocupar-se de obras de caridade»; *el ocio santo de María* → «o ócio santo de Maria»; Marta e Maria ficam.
+- *arrostrar* [17.5] (a comida) → «aceitar».
+- *maripositas de las noches* [17.7] → «mariposinhas da noite» (no Brasil, «mariposa» é a borboleta noturna).
+- *tema* [17.8] (a mania do louco) → «teima»; Jacó, Lia, Raquel.
+- *vela divina* [17.8] → «vela divina» (a imagem é a da chama que queima a mariposa).
 
 ## Passagens difíceis
 
@@ -84,5 +97,11 @@
 - [16.6] *¡Oh hijo mío!… sea sólo para vos algunas cosas*: ela passa do «vós» do vocativo ao «Vossa Mercê»; os dois ficam, como no original. O parêntese explica o «filho» (o confessor pediu que o chamasse assim). *Por amor de quien por nosotros se lo llamaron* → «por amor daquele a quem por nossa causa chamaram assim» (Cristo, chamado louco).
 - [16.6] *quiero que me lo muestre* → «quero que me mostre isso» (sem «mo»); *no me lo consienta* → «não me consinta isso».
 - [16.7] *que no se les daba más… perderlo todo que ganarlo todo* → «que a eles tanto lhes fazia… perder tudo ou ganhar tudo».
+- [17.2] *hasta que él esté tan fuerte…*: o «él» é a alma no papel de hortelão; traduzido «ela» (a alma), para não se confundir com o hortelão celestial. *Quedarse ha él… muerto de hambre* (mesóclise do original) → «e ela fique porventura morta de fome».
+- [17.2] *Digo que en tan alta oración como esta… y entiende que lo hace*: anacoluto do original; mantido.
+- [17.6] *es para alabar a Dios la guerra que da* → «é coisa de louvar a Deus a guerra que faz» (= é de espantar).
+- [17.7] *por verse junta donde está la mayor parte, y ser imposible*: lido como o desejo de se ver toda junta onde está a maior parte → «por se ver toda junta…» (acrescentado «toda», que o sentido pede).
+- [17.8] *casi estando sobrenatural* → «estando quase sobrenaturais» (concordância com as potências).
+- [17.9] *téngalo en mucho a Su Majestad* → «agradeça-o muito a Sua Majestade»; *mientra no le diere la gracia, aunque se la dé de gozarlo, para entenderlo*: reordenado («enquanto Ele não lhe der a graça de entendê-lo, ainda que lhe dê a de gozá-lo»).
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)

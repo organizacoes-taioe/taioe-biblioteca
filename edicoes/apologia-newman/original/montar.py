@@ -68,6 +68,8 @@ def junta(b):
 
 # Versos latinos citados (os dois únicos «poem» do HTML do Gutenberg)
 VERSOS = ('"Victrix causa diis placuit', '"Pentheu,')
+GREGO = {'daimonia': 'δαιμόνια', 'tô telei pistin pherôn': 'τῷ τέλει πίστιν φέρων', 'ho megas': 'ὁ μέγας',
+         'anomos': 'ἄνομος', 'a, b, g, d, e, z': 'α, β, γ, δ, ε, ζ'}
 ESTRELAS = re.compile(r'^\*(\s+\*){4}$')
 NOTA_RODAPE = re.compile(r'^\[(\d+)\] ')
 
@@ -160,6 +162,12 @@ def main(arq):
     texto = texto.split('*** END OF THE PROJECT GUTENBERG EBOOK 22088 ***', 1)[0]
     texto = texto.replace('EXTRACT OF A LETTER PROM THE REV.', 'EXTRACT OF A LETTER FROM THE REV.')  # erro de digitação do Gutenberg
     texto = texto.replace('[oe]', 'œ')   # ligadura que o Gutenberg escreveu entre colchetes (man[oe]uvre)
+    texto = texto.replace('Christmas Bay, 1841.', 'Christmas Day, 1841.')  # erro de leitura do Gutenberg (cap. IV)
+
+    def grego(m):   # o Gutenberg transliterou o grego do impresso em «[Greek: …]»; volta às letras gregas
+        chave = re.sub(r'\s+', ' ', m.group(1)).strip()
+        return GREGO[chave]
+    texto = re.sub(r'\[Greek:\s+(.*?)\]', grego, texto, flags=re.S)
     bl = blocos(texto)
     tx = [junta(b) for b in bl]
 

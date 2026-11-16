@@ -36,6 +36,22 @@
 - [39.23] «mi/orarte» → «mijorarte».
 - [39.24] «en mi» → «en mí»; «el iodo» → «el todo».
 - [39.25] «Qaicamque valí» → «Quicumque vult».
+- [40.1] «una'» → sinal solto; «eñ» → «en»; «de ella, A mí» → ponto no lugar da vírgula; «metido» (ela) → «metida».
+- [40.3] «s?» → «se».
+- [40.4] «[Oh» → «¡Oh».
+- [40.5] «recogió ■» → sinal solto; «pa» → «para».
+- [40.6] «enseñarme» → «enseñarse» (é das pessoas de recolhimento; traduzido «para se ensinarem»).
+- [40.7] «Temía por bueno» → «Ternía».
+- [40.8] «lafligir» → «afligir»; «Alas» → «Mas»; «veces ;t» → sinais soltos.
+- [40.9] «temían corazón» → «ternían»; «sin poder, afirmarme» → a vírgula vai antes de «sin poder».
+- [40.10] «i Oh» → «¡Oh»; «habernos» → «habemos».
+- [40.14] «U pusieron» → «y».
+- [40.15] «R este» → «A este»; «cada uno de ellas» → «de ellos»; «i Dichosas» → «¡Dichosas».
+- [40.18] «temía hervor» → «ternía».
+- [40.20] «no me consolaba de manera» → o «no» sobra (lido «me consolaba de manera que no hago nada en desear trabajos»).
+- [40.21] «rne» → «me»; «ga» → «ya».
+- [40.22] «ga» (três vezes) → «ya»; «go» (três vezes) → «yo»; «persoha» → «persona».
+- [40.24] «rní» → «mí»; «podido,» → vírgula no fim do parágrafo (ponto).
 
 ## Termos e nomes
 
@@ -77,6 +93,23 @@
 - *relox* [39.23] → «relógio»; *ave fénis* → «ave fênix»; *puridad* → «pureza»; *no soy parte* → «não sou capaz» (§ 3a).
 - *salmo Quicumque vult* [39.25] → «o salmo _Quicumque vult_» (título latino em itálico, sem tradução, como _Veni Creator_; é o símbolo atanasiano, que ela chama salmo).
 - *palio* [39.27] → «pálio».
+- Título do 40: *discurso de su vida* → «o relato da sua vida».
+- *una tilde* [40.1] (Mt 5,18) → «um til».
+- *acatamiento* [40.3] → «reverência» (como em [38.18]).
+- *piélago* [40.4] → «mar» (§ 3a); *se sufre* → «se admite» (como em [36.29]); *se compadece* → «condiz» (como em [34.9]).
+- *espaldas* (do espelho) [40.5] → «costas»; *gran lástima* (das culpas) → «grande dor».
+- *plazas* [40.6] (Santo Agostinho) → «praças»; *destraer* → «distrair».
+- *frenesí* [40.7] → «frenesi»; *desatinadas* → «desatinadas».
+- *es por demás* [40.8] → «é inútil».
+- *deshonestos* (pecados) [40.10] → «impuros» (§ 3a: nunca «honesto»); *desacatadamente nos habemos* → «com tão pouca reverência nos portamos»; *lastimosísima* → «dolorosíssima».
+- A Ordem e o santo [40.12–40.15] (os dominicanos e São Domingos, segundo os editores) e a pessoa do bispado [40.16] ficam sem nome, como ela os deixa. *Maitines* [40.14] → «Matinas» (§ 3a).
+- *perlacías* [40.16] → «cargos de prelado» («prelazias» seria palavra rara).
+- *asimiento* [40.19] → «apego» (o contrário de *desasimiento*); *conversación de los buenos* → «o convívio dos bons»; *palabras pesadas* → «ponderadas» («pesadas» enganaria hoje).
+- *en forma* [40.20] → «de fato».
+- *aviso* (cautela) [40.21] → «atenção» (§ 3a); *mormuran* → «murmurem»; *rinconcito* → «cantinho» (como em [35.12]); *echarme a un puerto* → «lançar-me a um porto» (aqui é porto de mar, não de montanha).
+- *una manera de sueño en la vida* [40.22] → «sonho» (o contexto é sonhar; não «sono»); *discreta* → «sensata» (§ 3a); *holgarme* → «alegrar-me».
+- *señor y padre mío* [40.23] → «senhor e padre meu».
+- *concertar esta mi desbaratada vida* [40.24] → «pôr em ordem esta minha desordenada vida» (perde-se um pouco do par *concertar/desbaratada*); *llaneza* → «simplicidade» (§ 3a).
 
 ## Passagens difíceis
 
@@ -96,4 +129,12 @@
 - [39.18] Pontuação refeita: *al menos… enredar más, amigos, parientes…* com o «mas» adversativo e dois-pontos antes de «de tudo me vi depois tão apertada».
 - [39.22] *Estando yo fuera de ella* (fora de casa) mantido junto ao «fora de mim» do original, que é jogo dela.
 - [39.24] No fim da fala do Senhor o original passa do indireto ao direto (*que te pudiese dar… que tienes*); mantido: «e que pudesse dar-te a clareza de entendimento e a quietude que tens».
+- [40.2] *que no pasase por esto* → «que eu não enfrentasse por isto».
+- [40.5] *los herejes es como si el espejo fuese quebrado* → «nos hereges, é como se o espelho estivesse quebrado».
+- [40.8] O parêntese «(e até tudo o que agora digo…)» foi marcado, para «em especial se são mulheres, com o seu confessor» se ligar a «tratá-lo».
+- [40.10] *delante de El*: em vez de «diante de Ele», «na sua presença».
+- [40.19] As palavras do Senhor em indireto, com a pergunta dele no meio: «que o que teria eu feito, se não fosse por estas pessoas?».
+- [40.20] *que sí debo hacer* → «que bem pode ser que o faça» (lido: ela teme tomar mais cuidado com o corpo do que precisa). *Esta que digo* → «Desta vez que digo».
+- [40.21] A frase *Y con haber querido el Señor…* não fecha (anacoluto dela); mantida.
+- [40.25] A oração relativa foi reordenada («esta alma que Sua Majestade, com tantos artifícios…, tirou do inferno»).
 

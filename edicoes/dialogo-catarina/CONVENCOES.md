@@ -89,6 +89,9 @@ Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (regras gerais) e `original/LEIAME.m
 | crociato amore; crociato desiderio; giuoco d'amore | amor crucificado; desejo cruciante; jogo de amor |
 | per unione / per grazia / per sentimento | quanto à união / quanto à graça / quanto ao sentimento |
 | sciolto dal corpo; grossezza del corpo; idioti; grossi e soctili | desatado do corpo; espessura do corpo; iletrados; rudes e sábios |
+| ragioni delle lagrime; lagrime cordiali; lagrime sensuali | espécies de lágrimas; lágrimas do coração; lágrimas sensíveis — ver `revisao.json` |
+| lagrima di fuoco / d'acqua / d'occhio; pianto affliggitivo; pena consolativa | lágrima de fogo / de água / dos olhos; pranto que aflige; pena que consola |
+| strignere; costringere; stimolo di coscienzia; recreazione; lamo; ròcca | constranger; obrigar; remorso de consciência; alívio; anzol; castelo |
 | pazzo d'amore; impazzare (per le creature) | louco de amor; enlouquecer (pelas tuas criaturas) |
 
 ## Escritura e citações

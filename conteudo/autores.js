@@ -952,3 +952,13 @@ BIBLIOTECA.autor({
   area: 'nao-ficcao',
   nota: 'Jesuíta português, chefe da primeira missão da Companhia de Jesus ao Brasil (1549) e primeiro provincial; fundou o colégio de São Paulo de Piratininga e escreveu as primeiras cartas e relatos sobre os índios e a colônia.'
 });
+
+BIBLIOTECA.autor({
+  id: 'sao-joao-climaco',
+  area: 'catolicismo',
+  nome: 'São João Clímaco',
+  nomeCompleto: 'João do Sinai, chamado Clímaco',
+  vida: '~579–~649',
+  ordem: 'João Clímaco, São',
+  nota: 'Monge e superior do mosteiro do Sinai, autor da Escada do Paraíso. Em tradução do grego.'
+});

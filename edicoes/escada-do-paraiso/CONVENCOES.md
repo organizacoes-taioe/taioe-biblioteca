@@ -104,3 +104,16 @@ Antíoco; Moisés; Elias; Hilarião; Basílio; Gregório (o Teólogo). Lugares: 
 Cada tradutor grava `traducao/notas-degrau-NN.md`: termos novos e a solução; passagens difíceis e a leitura
 adotada; colchetes e erros da PG que pesaram; e 1 ou 2 candidatas a decisão para o Gere (termo-chave, frase
 célebre, jogo de palavras), com o grego, a tradução adotada e uma ou duas alternativas.
+
+## Termos fixados na tradução (2026-11-16)
+ἀναλγησία «endurecimento», ἀνάλγητος «o endurecido»; οἴησις «presunção»; πρόληψις «inclinações antigas»; παρρησία
+«familiaridade» (diante de Deus, «confiança»); θυμός «cólera», ὀργή «ira»; πρᾶος «manso», πραότης «doçura»
+(ἀοργησία «mansidão», «ausência de ira» no título do degrau 8); ταπείνωσις «humildade» (virtude) ou «humilhação»
+(abaixamento); ἔρως «amor», ἀγάπη «caridade»; εὐτέλεια «rebaixamento»; μετριότης «modéstia»; ἰδιορρυθμία «viver a
+seu modo»; μετάνοια (o gesto) «prostração», γονυκλισία «genuflexão»; ἀρχάριοι «principiantes»; κανών (liturgia)
+«ofício»; οἰκονόμος «ecônomo»; φυλακή «o Cárcere», φρουρά «prisão»; χαρμολύπη «alegria triste»; σύννοια
+«recolhimento»; ἀνεξικακία «paciência nas ofensas»; δειλία θανάτου «medo da morte»; τῦφος «orgulho»; σώφρων
+«temperante», ἁγνός «casto»; μονολόγιστος Ἰησοῦ εὐχή «a oração de Jesus de uma só palavra»; Ἕλληνες «os pagãos».
+Nomes: Isidoro, Lourenço, Abacir, Macedônio, Menas, Isaac, Acácio, Antíoco, Estêvão, Hesíquio o Horebita, Evágrio,
+Antão, Cassiano; Tolos (ὁ Θολός), mosteiro de São Sabas.
+Lição da PG que falta e a tradução latina de Rader traz (20.3, 28.25): na tradução, entre colchetes.

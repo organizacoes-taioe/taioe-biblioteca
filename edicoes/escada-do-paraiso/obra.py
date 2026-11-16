@@ -36,7 +36,9 @@ META = {
             'duas digitalizações do volume e conferimos nas imagens as palavras duvidosas e os trechos em que a leitura '
             'falhou. Os números com que Migne remete aos escólios de Elias de Creta saíram do texto; os escólios, a '
             'tradução latina de Rader (que serviu só para conferir o sentido) e as notas dos editores ficaram de fora. '
-            'Onde Rader põe entre colchetes outra lição, ela fica no grego, e a tradução segue a que dá sentido.'),
+            'Onde Rader põe entre colchetes outra lição, ela fica no grego, e a tradução segue a que dá sentido. Em dois '
+            'lugares (20.3 e 28.25) falta no grego impresso um pedaço de frase que a tradução latina de Rader traz; '
+            'ele vai na tradução entre colchetes.'),
         'fontes': [
             {'nome': 'Migne, Patrologia Graeca 88 (Paris, 1860), no Internet Archive',
              'url': 'https://archive.org/details/bim_early-english-books-1641-1700_1860_88',

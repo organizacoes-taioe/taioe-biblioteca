@@ -1,0 +1,188 @@
+{
+ "id": "subida-do-monte-carmelo",
+ "rotulo": "Subida do Monte Carmelo (São João da Cruz)",
+ "url": "/biblioteca/sao-joao-da-cruz/subida-do-monte-carmelo/",
+ "escolhas": [
+  {
+   "id": "cancoes",
+   "titulo": "As canções ficam em tradução literal, linha a linha, como está?",
+   "ref": "Canções (antes do prólogo) e os versos repetidos no comentário, nas duas obras",
+   "contexto": "O livro comenta o poema «Noite escura» verso a verso, palavra por palavra. Hoje as 8 canções e todos os versos repetidos estão em tradução literal, uma linha por verso, iguais nas duas obras: «Em uma noite escura, / Com ânsias, em amores inflamada, / Oh ditosa ventura!, / Saí sem ser notada…». A tradução em verso de Teófilo Braga já está no site, ao lado do poema em espanhol, mas segue outra versão do poema em detalhes (pontuação, «la alborada»).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Literal, linha a linha, como está",
+     "nota": "O comentário explica cada palavra, e a tradução literal mostra exatamente a palavra comentada.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "A tradução em verso de Teófilo Braga, com o nome dele",
+     "nota": "Já está no site e é poesia; em vários versos não traz a palavra que o comentário explica."
+    },
+    {
+     "id": "c",
+     "texto": "Uma tradução nova em verso, pelo método do Versificador",
+     "nota": "Liras com medida e rima; dá trabalho e às vezes também se afasta da palavra comentada."
+    }
+   ]
+  },
+  {
+   "id": "apetite",
+   "titulo": "«Apetito» fica «apetite» em toda a obra?",
+   "ref": "toda a obra (umas 250 vezes); ex.: título do livro I",
+   "contexto": "É o termo central do livro I: a inclinação desordenada da vontade para as criaturas. Hoje: «trata da noite escura do sentido e do apetite, e dos danos que fazem na alma». O autor usa *deseo* à parte, para o desejo bom.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«apetite(s)», como está",
+     "nota": "O termo técnico da tradição; separa-se de «desejo» (*deseo*).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«desejo(s)»",
+     "nota": "Mais comum hoje; confunde com *deseo*, que o autor usa noutro sentido."
+    },
+    {
+     "id": "c",
+     "texto": "«apetência(s)»",
+     "nota": "Evita a ideia de fome; palavra mais rara."
+    }
+   ]
+  },
+  {
+   "id": "noticia",
+   "titulo": "«Noticia» fica «notícia», no sentido de conhecimento?",
+   "ref": "toda a obra; ex.: II,13 e II,14",
+   "contexto": "Para o autor, *noticia* é o conhecimento que a alma recebe, e a «noticia general amorosa» é a contemplação. Hoje: «só com a atenção e notícia geral amorosa que dizemos, sem inteligência particular». Em português de hoje «notícia» lembra novidade, mas guarda o sentido antigo.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«notícia», como está",
+     "nota": "Termo técnico da tradição carmelitana, mantido nas traduções portuguesas.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«conhecimento»",
+     "nota": "Claro para todos; perde o termo, e o autor usa *conocimiento* à parte."
+    }
+   ]
+  },
+  {
+   "id": "lembrancas",
+   "titulo": "«Recuerdos de Dios»: «lembranças de Deus»?",
+   "ref": "II,26,8–9",
+   "contexto": "Os toques divinos «em que lhe causa certas lembranças de Deus»; logo depois o autor diz que se causam «só com lembrar-se de algumas coisas». Em São João da Cruz *recordar* também quer dizer despertar.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«lembranças de Deus», como está",
+     "nota": "Casa com «lembrar-se de algumas coisas» na frase seguinte.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«despertares de Deus»",
+     "nota": "Guarda o outro sentido do autor; destoa da frase seguinte."
+    }
+   ]
+  },
+  {
+   "id": "alvo",
+   "titulo": "«Ponme como señuelo sobre tu corazón»: «alvo»?",
+   "ref": "III,13,2 e 5 (Ct 8,6); também Noite II,7",
+   "contexto": "Hoje: «Põe-me como alvo sobre o teu coração, como alvo sobre o teu braço». O autor explica em seguida que é o alvo onde vêm dar todas as setas do amor. As Bíblias em português trazem «selo», do latim *signaculum*.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«alvo», como está",
+     "nota": "É o que o autor lê e comenta (as setas que dão nele).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«selo», como nas Bíblias",
+     "nota": "Familiar ao leitor; não casa com o comentário das setas."
+    }
+   ]
+  },
+  {
+   "id": "adoracao",
+   "titulo": "«Ínclita adoración de las imágenes»: «adoração»?",
+   "ref": "III,35,3",
+   "contexto": "Contra os que querem tirar as imagens: «quiseram tirar de diante dos olhos dos fiéis o santo e necessário uso e a ínclita adoração das imagens de Deus e dos santos». Na língua do século XVI, *adoración* incluía a veneração; hoje «adoração» se reserva a Deus.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«adoração», como está",
+     "nota": "Fiel à palavra do autor; o sentido largo da época se entende pelo contexto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«veneração»",
+     "nota": "O termo de hoje; corrige o autor."
+    }
+   ]
+  },
+  {
+   "id": "deslizes",
+   "titulo": "Os deslizes do autor nas citações ficam como ele escreveu?",
+   "ref": "II,21,1 (Acab); II,21,6 (Balac); II,16,3 (assírios)",
+   "contexto": "O autor cita de memória: «Bem sabia isto o rei Acab, pois, ainda que Isaías lhe dissesse…» (na Escritura é Acaz); Balaão «foi aos madianitas, chamado por Balac, rei deles» (Balac era rei de Moab); os chifres com que o profeta prometeu destruir «os assírios» (eram os sírios).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam como ele escreveu, sem nota",
+     "nota": "Fidelidade ao texto; a nota geral pode apontar depois.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Corrigir no texto (Acaz, Moab, sírios)",
+     "nota": "Mais exato; deixa de ser o que o autor escreveu."
+    }
+   ]
+  },
+  {
+   "id": "livro-segundo",
+   "titulo": "«Como notaremos en el libro segundo» fica ao pé da letra?",
+   "ref": "II,6,8 e II,7,13 (também I,1,2 e I,13,1, a «quarta parte»)",
+   "contexto": "Hoje: «com os principiantes isto se há de tratar um pouco mais amplamente, como notaremos no livro segundo». O autor está no livro II; parece apontar para o que veio a ser a *Noite Escura* (os principiantes, no seu livro I).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ao pé da letra, «no livro segundo», como está",
+     "nota": "Fiel; a nota geral pode explicar a remissão.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«na Noite Escura»",
+     "nota": "Mais claro para o leitor; põe na boca do autor o que ele não escreveu."
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "titulo": "O livro termina interrompido, com reticências, como está?",
+   "ref": "III,45,6 (fim da obra)",
+   "contexto": "A *Subida* ficou inacabada nos manuscritos: o texto para no meio de uma frase sobre o pregador. Hoje termina assim: «…assim como o mau modo estraga e perde as boas…».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Com reticências, como está",
+     "nota": "Mostra que o livro ficou inacabado, como nos manuscritos.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Reticências e uma linha nossa, em itálico: «(Aqui termina o manuscrito.)»",
+     "nota": "Avisa o leitor; é acréscimo nosso no fim do texto."
+    }
+   ]
+  }
+ ]
+}

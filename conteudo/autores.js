@@ -556,11 +556,13 @@ BIBLIOTECA.autor({
 
 BIBLIOTECA.autor({
   id: 'sao-joao-da-cruz',
+  area: 'catolicismo',
   nome: 'São João da Cruz',
   nomeCompleto: 'Juan de Yepes Álvarez (San Juan de la Cruz)',
   vida: '1542–1591',
+  ordem: 'João da Cruz, São',
   lingua: 'es',
-  nota: 'Carmelita, doutor da Igreja e poeta místico do Século de Ouro espanhol.'
+  nota: 'Carmelita, doutor da Igreja e poeta místico do Século de Ouro espanhol. Em tradução do espanhol; o poema, na língua original.'
 });
 
 BIBLIOTECA.autor({

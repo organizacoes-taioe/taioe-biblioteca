@@ -632,6 +632,8 @@ const TIT_SECAO = [/^## ([IVXLC]+)\.\s+(.+)$/, /^## ([a-z])\)\s+(.+)$/];
 const SECOES_ACIMA_DE = 8000;   // palavras: capítulo maior que isto, com seções tituladas, vira índice delas
 const ehNota = (b) => /^¤ /.test(b);
 const ehTitulo = (b) => /^## /.test(b);
+// a estrofe ou a rubrica curta em itálico que abre o capítulo antes do primeiro parágrafo numerado (São João da Cruz)
+const ehEpigrafe = (b) => /^\| /.test(b) || /^_[^_\n]{1,60}_$/.test(b.trim());
 const contarPalavras = (bl) => bl.filter((b) => !ehNota(b))
   .reduce((n, b) => n + (b.replace(/\{[^}]*\}/g, ' ').replace(/[_*|]/g, ' ').match(PALAVRA) || []).length, 0);
 
@@ -652,7 +654,7 @@ function dividirParte(o, p) {
   const inis = [];
   for (const m of marcas) {
     const corrida = [];
-    for (let j = m.i - 1; j >= 0 && (ehTitulo(bl[j]) || ehNota(bl[j])); j--) if (ehTitulo(bl[j])) corrida.unshift(j);
+    for (let j = m.i - 1; j >= 0 && (ehTitulo(bl[j]) || ehNota(bl[j]) || ehEpigrafe(bl[j])); j--) if (ehTitulo(bl[j])) corrida.unshift(j);
     if (!corrida.length) return;                       // marca sem título de capítulo: não é esta a divisão
     const t = corrida.find((k) => TIT_CAP.test(bl[k]));
     inis.push(t === undefined ? corrida[corrida.length - 1] : t);

@@ -179,6 +179,49 @@
      "nota": "Μετάνοια como sentimento; quebra a uniformidade do termo no livro."
     }
    ]
+  },
+  {
+   "id": "pastor-nome",
+   "titulo": "A última parte se chama «Carta ao pastor»?",
+   "ref": "Carta ao pastor (título da parte)",
+   "contexto": "No grego o título é Πρὸς τὸν ποιμένα λόγος, «Discurso ao pastor» (no latim de Rader, Liber ad pastorem). É uma carta a João de Raitu, que Clímaco trata por tu do começo ao fim, e assim costuma ser chamada. Hoje: no índice «Carta ao pastor»; no começo do texto, o título traduzido «DE JOÃO, O ESCOLÁSTICO, AO PASTOR: DISCURSO».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Carta ao pastor», como está",
+     "nota": "O nome usual; diz o que o texto é.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Discurso ao pastor»",
+     "nota": "Literal (λόγος); soa como sermão, e o texto é dirigido a uma pessoa."
+    },
+    {
+     "id": "c",
+     "texto": "«Ao pastor»",
+     "nota": "Curto e fiel à preposição; menos claro no índice."
+    }
+   ]
+  },
+  {
+   "id": "anadoche",
+   "titulo": "Ἀναδοχή na Carta ao pastor: «fiança»?",
+   "ref": "Carta ao pastor, X.2 e XII.2–4",
+   "contexto": "Ἀναδοχή é o encargo de responder por outro diante de Deus: o superior que toma sobre si as almas dos monges («a ἀναδοχή é dar a alma pela alma do próximo»). Hoje: «fiança» e «fiador» («Alguns, tendo por nada o juízo da fiança, puseram-se a pastorear almas sem razão»).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«fiança», «fiador», como está",
+     "nota": "Exato: quem fica fiador responde pela dívida do outro.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«encargo», «quem toma o encargo»",
+     "nota": "Mais comum; perde a ideia de responder pela dívida de outro."
+    }
+   ]
   }
  ]
 }

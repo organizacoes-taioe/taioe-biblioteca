@@ -13,16 +13,19 @@ rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. Trabalho (páginas, OCR, léxic
 - `obra.py` com a «Sobre»; `revisao.json` (8 decisões); autor novo `sao-joao-climaco` (Catolicismo);
   `conteudo/sao-joao-climaco/escada-do-paraiso.js`; `edicoes/vocabulario/escada-do-paraiso.json` (50 verbetes, `conferir` ok).
 
-## Em andamento (branch `pedido-escada-2`, worktree `~/.cache/claude-wt5-escada-2`)
-- Grego das cartas e prólogo (`original/inicio.txt`) e da _Carta ao pastor_ (`original/carta-ao-pastor.txt`) pronto,
-  conferido linha a linha nas imagens (método em `original/LEIAME.md`).
-- Falta: traduzir os dois (`traducao/inicio.txt`, `traducao/carta-ao-pastor.txt`, com `CONVENCOES.md`; subtítulos
-  `##` e marcas `[I.1]` iguais ao grego; `python3 ferramentas/conferir.py`), pôr as duas partes no `obra.py`
-  (`('', 'Cartas e prólogo', ['inicio.txt'])` antes do degrau 1, `('', 'Carta ao pastor', ['carta-ao-pastor.txt'])`
-  depois do 30), «Sobre», `revisao.json` e vocabulário.
+## Cartas, prólogo e _Carta ao pastor_ (branch `pedido-escada-2`, 2026-11-16), publicável
+- Grego: `original/inicio.txt` (PG 88.624–632) e `original/carta-ao-pastor.txt` (PG 88.1165–1208), conferidos linha a
+  linha nas imagens (método em `original/LEIAME.md`; scripts `ferramentas/cortar2.py`, `montar2.py`, `final2.py`,
+  `pranchas2.py`, conferência em `ferramentas/correcoes2.tsv`). Depois da conferência, editar à mão só se não for
+  mais rodar o `final2.py` (ele regrava os dois arquivos).
+- Tradução: `traducao/inicio.txt` (principal) e `traducao/carta-ao-pastor.txt` (tradutor Opus), com notas;
+  `conferir.py` ok. Partes no `obra.py`: «Cartas e prólogo» antes do degrau 1, «Carta ao pastor» depois do 30
+  (endereços novos `cartas-e-prologo/` e `carta-ao-pastor/`; os 30 degraus não mudaram). «Sobre» atualizada;
+  `revisao.json` com 2 decisões novas (nome «Carta ao pastor»; ἀναδοχή «fiança»); vocabulário +3 (lanceta,
+  soporífero, proêmio; o campo `capitulo` dos antigos subiu 1).
 
 ## Para o principal
-- Juntar a branch, `node ferramentas/site/gerar.mjs`, Catálogo `obras` (obra nova), `traducoes_revisao.py --revisao`
+- Juntar a branch, `node ferramentas/site/gerar.mjs`, Catálogo `obras` (obra nova ou partes novas), `traducoes_revisao.py --revisao`
   e Catálogo `traducoes`; tirar dos pedidos. Nenhuma regra de `_redirects`.
 
 ## Falta (melhorias, não impedem publicar)

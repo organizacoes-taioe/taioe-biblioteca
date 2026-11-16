@@ -24,6 +24,12 @@ META = {
             'mosteiros de Alexandria, e no degrau 5, sobre os penitentes do «Cárcere»). Os degraus 23, 26 e 27 têm '
             'seções com título próprio. As marcas no começo dos parágrafos (4.12: degrau 4, parágrafo 12) são desta '
             'edição: seguem os parágrafos do texto grego, divididos nos fins de frase para a leitura e a citação.\n\n'
+            '**As cartas e a _Carta ao pastor_.** Antes do primeiro degrau vêm a carta de João de Raitu, que pede o '
+            'livro, a resposta de Clímaco e dois prólogos: o primeiro, segundo Rader, não é de Clímaco; o segundo é o '
+            'título antigo do livro, _Tábuas espirituais_. Depois do último degrau vem a _Carta ao pastor_, que '
+            'Clímaco escreveu ao mesmo João sobre o superior de monges como pastor, piloto, médico e mestre, e que a '
+            'tradição copia junto com a _Escada_: um proêmio e quinze capítulos, que terminam com um elogio de João '
+            'comparado a Moisés. Nela as marcas dão o capítulo em algarismo romano e o parágrafo (V.2).\n\n'
             '**A tradução.** Do grego, em português do Brasil, fiel ao sentido e ao andamento das sentenças de Clímaco, '
             'sem acréscimos nem explicações. Os termos da vida espiritual são sempre os mesmos ao longo do livro: '
             '_apátheia_ é «impassibilidade» (a liberdade diante das paixões, não a indiferença), _hesychía_ é '
@@ -31,10 +37,12 @@ META = {
             '«discernimento», e os _logismoí_ são os «pensamentos» que assaltam a alma. As citações da Escritura são '
             'traduzidas do grego do autor, que cita a Septuaginta, muitas vezes de memória.\n\n'
             '**O original.** O grego, no botão «Grego», é o da _Patrologia Graeca_ de Migne, vol. 88 (Paris, 1860, col. '
-            '631–1164), que reproduz a edição do jesuíta Mateus Rader (Paris, 1633), em domínio público. Não havendo '
+            '624–1208), que reproduz a edição do jesuíta Mateus Rader (Paris, 1633), em domínio público. Não havendo '
             'transcrição livre desse texto, fizemos a leitura do fac-símile com reconhecimento de caracteres, comparamos '
             'duas digitalizações do volume e conferimos nas imagens as palavras duvidosas e os trechos em que a leitura '
-            'falhou. Os números com que Migne remete aos escólios de Elias de Creta saíram do texto; os escólios, a '
+            'falhou (nas cartas e na _Carta ao pastor_, linha por linha; no capítulo XIII um borrão de tinta no exemplar tapa algumas '
+            'palavras, lidas pelo sentido e pelo latim de Rader). Os números com que Migne remete aos escólios de Elias '
+            'de Creta e dos outros comentadores saíram do texto; os escólios, o índice dos degraus que precede o livro, a '
             'tradução latina de Rader (que serviu só para conferir o sentido) e as notas dos editores ficaram de fora. '
             'Onde Rader põe entre colchetes outra lição, ela fica no grego, e a tradução segue a que dá sentido. Em dois '
             'lugares (20.3 e 28.25) falta no grego impresso um pedaço de frase que a tradução latina de Rader traz; '
@@ -42,10 +50,10 @@ META = {
         'fontes': [
             {'nome': 'Migne, Patrologia Graeca 88 (Paris, 1860), no Internet Archive',
              'url': 'https://archive.org/details/bim_early-english-books-1641-1700_1860_88',
-             'nota': 'fac-símile do texto grego e do latim de Rader (col. 631–1164); base do original ao lado'},
+             'nota': 'fac-símile do texto grego e do latim de Rader (col. 624–1208); base do original ao lado'},
             {'nome': 'Documenta Catholica Omnia: Joannes Climacus, Scala Paradisi (PG 88, col. 631–1163)',
              'url': 'http://www.documentacatholicaomnia.eu/02g/0525-0606,_Joannes_Climacus,_Scala_Paradisi_(MPG_088_0631_1163),_GM.pdf',
-             'nota': 'outra digitalização das mesmas colunas, para a segunda leitura'},
+             'nota': 'outra digitalização dos degraus, para a segunda leitura'},
         ],
     },
 }
@@ -58,4 +66,6 @@ def _titulo(n):
     return re.sub(r'^# titulo:\s*', '', s).strip()
 
 
-PARTES = [(str(n), _titulo(n), ['degrau-%02d.txt' % n]) for n in range(1, 31)]
+PARTES = ([('', 'Cartas e prólogo', ['inicio.txt'])]
+          + [(str(n), _titulo(n), ['degrau-%02d.txt' % n]) for n in range(1, 31)]
+          + [('', 'Carta ao pastor', ['carta-ao-pastor.txt'])])

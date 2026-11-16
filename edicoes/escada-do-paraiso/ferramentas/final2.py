@@ -16,7 +16,7 @@ PARTES = {'inicio': ('inicio.txt', 'ΕΠΙΣΤΟΛΑΙ ΚΑΙ ΠΡΟΛΟΓΟΣ',
           'pastor': ('carta-ao-pastor.txt', 'ΙΩΑΝΝΟΥ ΣΧΟΛΑΣΤΙΚΟΥ ΠΡΟΣ ΤΟΝ ΠΟΙΜΕΝΑ ΛΟΓΟΣ.', 'ΙΩΑΝΝΟΥ ΣΧΟΛΑΣΤΙΚΟΥ ΠΡΟΣ ΤΟΝ ΠΟΙΜΕΝΑ ΛΟΓΟΣ.')}
 ALVO = 45
 GLOBAL = {'θαλάττῇ': 'θαλάττῃ', 'Ῥαῖθοῦ': 'Ῥαϊθοῦ', 'Ῥαῖθου': 'Ῥαϊθοῦ', 'ἄνενδεὴς': 'ἀνενδεὴς',
-          'πνευματικαι.': 'πνευματικαί.', 'ὥνησας': 'ὤνησας', 'καταμαῤαϊνειν': 'καταμαραίνειν'}
+          'πνευματικαι.': 'πνευματικαί.', 'ὥνησας': 'ὤνησας', 'καταμαῤαϊνειν': 'καταμαραίνειν', "Θεὸν'": 'Θεὸν', 'ἀξελία': 'ἀδειλία', 'ἐξ, οἰήσεως': 'ἐξ οἰήσεως', 'ὡς; μέγας': 'ὡς μέγας', 'πρὸς; τὴν': 'πρὸς τὴν', 'χεῖρας. δεδωκὼς': 'χεῖρας δεδωκὼς'}
 PUN = re.compile(r'^([«“"(\[]*)(.*?)([.,;·:»”"\'’᾽)\]!]*)$')
 nfc = lambda s: unicodedata.normalize('NFC', s)
 core = lambda w: PUN.match(w).group(2)
@@ -46,9 +46,9 @@ for parte, (arq, titulo_cab, primeiro) in PARTES.items():
         if w == '-':
             for k in idx: seq[k][0] = ''
             continue
-        if w == '+':
-            k = idx[-1]
-            novas = [[x, 'ins:%s:%d' % (lid, j), seq[k][2]] for j, x in enumerate(novo.split())]
+        if w == '+':   # depois da linha e das linhas já inseridas depois dela
+            k = max(idx + [j for j, x in enumerate(seq) if str(x[1]).startswith('ins:%s:' % lid)])
+            novas = [[x, 'ins:%s:%d:%d' % (lid, len(seq), j), seq[k][2]] for j, x in enumerate(novo.split())]
             seq[k + 1:k + 1] = novas; continue
         alvo, n = (w.split('#') + ['1'])[:2]
         acha = [k for k in idx if nfc(core(seq[k][0])) == core(alvo) or nfc(seq[k][0]) == alvo]

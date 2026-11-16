@@ -20,6 +20,22 @@
 - [38.28] «pa ayudarla» → «para»; «K la mitad» → «A la mitad»; «que. la pasada» → ponto solto (lido «del mesmo lugar que la pasada», como em [38.29]); «ai cielo» → «al».
 - [38.29] «enferma'» → sinal solto; «te sobraran» → «le».
 - [38.30] «vite» → «vile».
+- [39.1] «no duda» → «no dudase».
+- [39.2] «nO» → «no»; «muy enfermo» (masculino, com *persona*; mantido sem gênero: «estava de todo livre daquela dor»).
+- [39.3] «aparecía» → «parecía»; «ün» → «un»; «Siervos» → «siervos».
+- [39.7] «train» → «traen».
+- [39.10] «/aprovechamiento» → barra solta; «en medio» → «en medio año» (falta «año»; traduzido «em meio ano»).
+- [39.13] «mug» → «muy»; «pa» → «para»; «go» → «yo»; «a d postrero» → «al»; «salvo sí» → «si»; «sog» → «soy»; «Poneme» → «Ponedme».
+- [39.15] «-todos» → traço solto.
+- [39.16] «coma» → «como»; «?.» → ponto sobrando.
+- [39.17] «teníqn» → «tenían»; «pa» → «para».
+- [39.18] «enredar más, amigos» → «mas» (adversativo; traduzido «mas amigos, parentes…»).
+- [39.19] «pa» → «para».
+- [39.20] «yéndoserne» → «yéndoseme»; «no«» → sinal solto; «carne, Dióseme» → ponto no lugar da vírgula; «rae» → «me»; «-que» → traço solto.
+- [39.22] «he oído una figura» → provável «he oído que es figura» (traduzido «ouvi falar de uma figura destes animais»).
+- [39.23] «mi/orarte» → «mijorarte».
+- [39.24] «en mi» → «en mí»; «el iodo» → «el todo».
+- [39.25] «Qaicamque valí» → «Quicumque vult».
 
 ## Termos e nomes
 
@@ -45,6 +61,22 @@
 - *lición de difuntos* [38.28] → «lição de defuntos»; *el verso* → «o versículo».
 - *las Horas* [38.29] → «as Horas»; *Colesio* [38.30] → «colégio»; *las Bulas de la Orden* [38.31] → «as Bulas da Ordem».
 - *el Padre Dominico que queda dicho* [38.32] → «o padre dominicano de quem já falei».
+- Título do 39: *prometió de hacer por las personas que ella le pidiese* → «prometeu fazer o que ela lhe pedisse pelas pessoas»; *cosas señaladas* → «coisas assinaladas».
+- As pessoas por quem ela pede [39.1–39.4] ficam sem nome, como ela as deixa; o *Retor* [39.2] → «o reitor»; *mi deudo* → «parente meu».
+- *incomportable* [39.2] → «insuportável»; *hechura* (da doença) → «feitio».
+- *Cristo a la Coluna* [39.3] → «um Cristo atado à coluna»; *silbo* (eco do «silbo» de Elias, 1Rs 19,12) → «sussurro»; *espelucé* → «arrepiei» (como em [38.19]).
+- *tasar*, *tasa* [39.9, 39.15] → «medir», «medida» (como em [37.2]).
+- *pollo trabado* [39.12] → «frango de pés atados»; *darles la rienda* → «demos-lhes rédea solta».
+- *ni peso ni tomo* [39.13] → «peso nem volume» (§ 3a dá *de poco tomo* → «de pouco peso»; aqui os dois juntos); *nonadas* → «ninharias».
+- *Breve de Roma* [39.14] → «um Breve de Roma» (maiúscula, como «Bula»).
+- *pleito por sus dineros* [39.15] → «pôr pleito pelo seu dinheiro»; *maravedí… ducados* [39.16] → «maravedi… ducados» (ao vocabulário).
+- *hojas* [39.17] → «folhas»; *poco lugar* → «pouco tempo»; *estoques* → «estoques» (a espada estreita; ao vocabulário); *dagas* → «adagas».
+- *batería* [39.18] → «combate» (como em [36.18]); *cuando no se cata* → «quando menos se espera».
+- *¿Qué se me da, Señor, a mí de mí, sino de Vos?* [39.21] → «Que me importa a mim de mim, Senhor, senão de Vós?»; *Ya eres mía y Yo soy tuyo* → «Já és minha, e Eu sou teu» (§ 2, com a maiúscula da edição).
+- *inflamamiento* [39.22] → «pareciam estar inflamados»; *hormiguero* → «formigueiro»; *se afrentaba* → «se envergonhava».
+- *relox* [39.23] → «relógio»; *ave fénis* → «ave fênix»; *puridad* → «pureza»; *no soy parte* → «não sou capaz» (§ 3a).
+- *salmo Quicumque vult* [39.25] → «o salmo _Quicumque vult_» (título latino em itálico, sem tradução, como _Veni Creator_; é o símbolo atanasiano, que ela chama salmo).
+- *palio* [39.27] → «pálio».
 
 ## Passagens difíceis
 
@@ -55,3 +87,13 @@
 - [38.17] *estar metido en los pechos de el Padre*: o *metido* é a Humanidade (Cristo): «que Ele estava metido no seio do Pai».
 - [38.21] *si El… no me le diese*: mantido ambíguo como no original («se Ele… não me desse esse ânimo; nem seria possível disfarçá-lo»).
 - [38.26] *supliesen los méritos suyos*: os méritos são do Senhor («os seus méritos»).
+- [39.1] As palavras do Senhor em discurso indireto, com os tempos do original; *que El me prometía que ninguna cosa le pidiese que no la hiciese* → «que nenhuma coisa lhe pediria que Ele não a fizesse».
+- [39.4] A frase começa com *Sabía que una persona…* e não fecha (anacoluto dela); mantido.
+- [39.5] *dejemos ser lo principal por sola su bondad* → «deixando de parte que o principal é só pela sua bondade».
+- [39.6] *aunque lo uno pido… es como quien tiene trabada la lengua… u como quien habla claro*: a primeira imagem é o pedir sem força; a segunda, o pedir em contemplação. Mantida a ordem dela.
+- [39.8] *personas a quien Dios ha llegado a conocer lo que es verdad* → «as pessoas a quem Deus fez chegar a conhecer o que é verdade», e *en tratar* → «no trato com os outros».
+- [39.13] *que es lástima las entendamos* → «que é pena que as notemos». *Yo soy ésta y olvidaré las mercedes* → «Eu sou esta, e esquecerei as mercês a cada passo» foi mantido ao pé da letra.
+- [39.18] Pontuação refeita: *al menos… enredar más, amigos, parientes…* com o «mas» adversativo e dois-pontos antes de «de tudo me vi depois tão apertada».
+- [39.22] *Estando yo fuera de ella* (fora de casa) mantido junto ao «fora de mim» do original, que é jogo dela.
+- [39.24] No fim da fala do Senhor o original passa do indireto ao direto (*que te pudiese dar… que tienes*); mantido: «e que pudesse dar-te a clareza de entendimento e a quietude que tens».
+

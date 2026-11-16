@@ -72,6 +72,12 @@ Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (regras gerais) e `original/LEIAME.m
 | cuore; cuore aperto | coração; coração aberto |
 | fornace (della caritá) | fornalha |
 | abisso; pelago; mare pacifico | abismo; pélago; mar pacífico |
+| figliuolo (da árvore); mirollo; vite, tralci; lavoratore | rebento; medula; videira, ramos; lavrador (os homens, os ministros e o Pai, pelo jogo com Jo 15) |
+| actuale (obras, penitência) | exterior (para a Ponte: «em pessoa») |
+| molestie; sicurtá; banditore | aflições (nunca «moléstias»); confiança; arauto |
+| murare; calcina; marcia; margine; balia; ancudine | assentar (as pedras); argamassa; pus; cicatriz; ama; bigorna |
+| rendere el debito | dar o que é devido / pagar a dívida, conforme a frase |
+| pazzo d'amore; impazzare (per le creature) | louco de amor; enlouquecer (pelas tuas criaturas) |
 
 ## Escritura e citações
 - Catarina cita de memória, em italiano ou em latim: traduza **como ela cita**, sem copiar Bíblia portuguesa e sem

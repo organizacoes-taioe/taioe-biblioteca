@@ -1,0 +1,151 @@
+# Notas do tradutor: capítulos 34 a 37
+
+## Leituras duvidosas do original
+
+- [34.1] «go» → «yo»; «su salud, Tuvo» → ponto no lugar da vírgula.
+- [34.2] «Di jome» (três vezes) → «Díjome»; «rae» → «me»; «sirviría» → «serviría».
+- [34.3] «vivir;-» → traço solto.
+- [34.5] «tornémie» → «tornéme»; «dé alma» → «de».
+- [34.6] «fai >en la mía» → «ni en la mía».
+- [34.9] «a !mi» → sinal solto; «gra vergüenza» → «gran».
+- [34.10] «pa creer» → «para»; «lie hiciese» → «le».
+- [34.11] «decir"» → aspa solta.
+- [34.14] «de principio, i Oh» → ponto e «¡Oh»; «(se había» → parêntese solto.
+- [34.15] «por aquí*» → asterisco solto (ponto).
+- [34.16] «muchq» → «mucho»; «EL» → «Él».
+- [35.2] «pración» → «oración».
+- [35.3] «Regla:» → dois-pontos soltos.
+- [35.4] «mucho, Aquella» → ponto no lugar da vírgula.
+- [35.5] «a d santo» → «al»; «afíos» → «años».
+- [35.6] «Seííor» → «Señor».
+- [35.8] «mug» → «muy»; «tai alma» → «mi alma».
+- [35.9] «sentía-» → traço solto.
+- [35.10] «especial . a» → ponto solto.
+- [35.12] «detuviera, i Oh» → ponto e «¡Oh».
+- [35.13] «llevd¡» → «lleva»; «yol» → «yo».
+- [35.14] «dé la» → «de»; «EL» → «Él».
+- [35.15] «(maldad» → parêntese solto.
+- [36.2] «Entramos a dos» → «Entrambos a dos»; «monesterio ;» → espaço antes do «;»; «muy enferma» → «enfermo» (é frei Pedro).
+- [36.5] «cufiado» → «cuñado»; «mií profesión» → «mi»; «¡encerramiento» → sinal solto.
+- [36.6] «e] intento» → «el»; «pa servicio» → «para»; «el. hábito» → ponto solto.
+- [36.8] «el ahila» → «el alma»; «"muerte» → aspa solta.
+- [36.9] «prara» → «para».
+- [36.11] «memento» → «momento»; «>en veinte» → sinal solto; «ten otras» → «en otras»; «suplicando?» → sinal solto; «muy contenta se ofreciese» → «de que se ofreciese» (falta o «de que»).
+- [36.12] «elio» → «ello»; «decían»» → sinal solto.
+- [36.16] «pa que» → «para».
+- [36.17] «Hela quí» → «Hela aquí»; «hecho ;» → espaço.
+- [36.18] «rae» → «me»; «techo» → «hecho»; «mug» → «muy»; «agudaban» (duas vezes) → «ayudaban».
+- [36.19] «go» → «yo»; «ga» (três vezes) → «ya»; «gerro» → «yerro»; «agudaban» → «ayudaban».
+- [36.20] «ga» (duas vezes) → «ya»; «mug» (duas vezes) → «muy»; «go» (duas vezes) → «yo»; «di riéndome» → «diciéndome».
+- [36.21] «ga» → «ya».
+- [36.25] «e] Señor» → «el».
+- [36.29] «vinieren^» → sinal solto; «no>» → sinal solto; «pa servir» → «para».
+- [37.2] «eoede» → «excede»; «gusto!» → sinal solto; «me ha dada» → «dado»; «la .hubiese» → ponto solto.
+- [37.4] «y (de pensar» → parêntese solto; «eJ Señor» → «el».
+- [37.6] «gloría» → «gloria»; «no le temían» → «temerían» (traduzido «temeriam»).
+- [37.7] «espantq» → «espanto»; «Hela quí» → «Hela aquí».
+- [37.8] «que entonces» → parece faltar um «hasta que» (traduzido «até que o Senhor torna a acendê-lo; que, enquanto isso…»).
+- [37.11] «Yo, . cierto» → ponto solto; **«i San José de Avila,»** no meio da frase (entre os dois «ya») é cabeço de página da edição, não de Teresa: não traduzido.
+- [37.12] «no he go» → «no he yo».
+
+## Termos e nomes
+
+- Título do 34: *Perlado* → «prelado». A senhora principal (dona Luisa de la Cerda) e o religioso (García de Toledo, segundo os editores) ficam sem nome, como ela os deixa: «uma senhora muito principal», «um religioso», «este padre».
+- *pecadorcilla* [34.1] → «pecadorazinha» (diminutivo dela); *monesterio que salían* → «mosteiro de onde as monjas saíam»; *mandamiento* → «ordem, com preceito de obediência».
+- *Maitines* [34.2] → «Matinas»; *Retor* → «reitor» (§ 3a); *no se sufría* → «não convinha».
+- *regalos* (da casa da senhora) [34.3, 34.4] → «confortos», «conforto» (§ 3a, entre pessoas); *señorío* → «senhorio»; *compostura* → «compostura»; *complexiones* → «compleições».
+- *malquisto* [34.4] → «malvisto» (como *malquista* em [33.2]).
+- *recaudo* (a terceira pessoa) [34.9] → «levar recado a terceira pessoa»; *regalada* (em lágrimas) → «toda enternecida e desfeita em lágrimas» (é ternura na oração, não regalo de Deus nem mimo); *no se compadecía* → «não condizia».
+- *estilo abobado* [34.7] → «estilo meio bobo»; *enajenada* → «alheada»; *embobada* [34.10] → «pasmada» (como em [25.4] e [29.14]).
+- *vejecita* [34.11] → «velhinha».
+- *locutorio* [34.14] → «locutório».
+- *espaldas* (uns aos outros) [34.15] → «excelente apoio se dão uns aos outros»; o ditado do *perdido* → «é perdido quem atrás do perdido anda».
+- *pláticas* (de Deus) [34.16] → «conversas» (§ 3a).
+- *testimonio* (contra a honra) [34.17] → «calúnia» (§ 3a, *levantar*); *mi amiga viuda* → «esta minha amiga viúva», sem nome.
+- Título do 35: *Padre San Josef* → «o nosso glorioso pai São José» (como «o meu pai São José» em [33.14]); *por los términos* → «por que meios».
+- *beata* [35.1] (María de Jesús, segundo os editores) → «uma beata», sem nome; *rodeó algunas* (léguas) → «desviou-se algumas léguas».
+- *no se tuviese propio*, *tener propio* [35.2] → «não se tivesse nada de próprio», «ter bens próprios»; *relajase* (a Regra) → «fosse mitigada» (como a «Bula de mitigação», § 3a); *Costituciones* → «Constituições»; *destraición* [35.2, 35.4] → «distração» (§ 3a); *gran regalo* (guardar os conselhos de Cristo) → «grande gosto».
+- *pliegos* [35.4] → «folhas»; *merced* (de um homem) → «favor» («mercê» só a de Deus).
+- *Presentado* [35.6] (grau acadêmico dos dominicanos) → «o Presentado», com a maiúscula da edição; vai ao vocabulário. *vivir de por amor* → «viver de pedir por amor de Deus».
+- *alzar el mandamiento* [35.7] → «levantar a ordem»; *perlada* → «prelada»; *eleción* → «eleição»; *dar voto* → «dar voto».
+- *regalo* [35.8] (na casa da senhora) → «conforto» (§ 3a); *fatigarse* → «afligir-se» (§ 3a).
+- *holgarme* [35.10] → «comprazer-me» (não é Deus que se alegra; «folgar» soaria antigo); *desecha* → «desfeita».
+- *rinconcito de Dios* [35.12] → «cantinho de Deus»; *estrechura* → «estreiteza»; *ciento por uno* → «cem por um».
+- *fingís trabajo* [35.13] (eco do Sl 93,20 da Vulgata) → «fingis trabalho na vossa lei», ao pé da letra; *Camino real* → «caminho real»; *senda* → «senda»; *puertos* (de montanha) → «desfiladeiros» («portos» enganaria); *despeñadero* → «despenhadeiro».
+- *tantico* [35.14] → «um tantinho»; *hilo de la gente* → «andar no passo dos outros» (como em [30.18]); *Sol de Justicia* → «Sol de Justiça».
+- *temer de musarañas* [35.15] → «ter medo de sombras» (o «musaranho» seria palavra rara; perde-se o bicho).
+- *Obispo* [36.1] → «o bispo» (minúscula, como em [33.16]); *coyuntura* → «o momento certo», «ocasião»; *espaldas y cabida* → «apoio e acolhida».
+- O *caballero* em cuja casa frei Pedro se hospedava [36.1, 36.18, 36.21] (Francisco de Salcedo, «o cavaleiro santo»), o *sacerdote* que foi à corte [36.18] (Gonzalo de Aranda, segundo os editores), o *Maestro… clérigo* [36.18] (Gaspar Daza), o *Presentado* dominicano [36.15] (Domingo Báñez) e o *Padre Presentado Dominico* [36.23] (Pedro Ibáñez): todos sem nome, como ela os deixa.
+- *encerramiento* [36.5, 36.10] → «clausura» (como *más encerrado*, § 3a); *prometer clausura* → «prometer clausura».
+- *día de San Bartolomé* [36.5] → «no dia de São Bartolomeu»; o ano por extenso → «no ano de mil e quinhentos e sessenta e dois» (por extenso, como ela).
+- *huérfanas* [36.6] → «órfãs»; *se remediaron* → «se remediaram»; *gran regalo* (ser instrumento de Deus) → «grande regalo» (é de Deus).
+- *el Ordinario* [36.7] → «o Ordinário» (o bispo; vai ao vocabulário).
+- *deleitosa* (a casa da Encarnação) [36.8] → «agradável».
+- *recios ratos* [36.9] → «momentos mais duros».
+- *discuento* (descargo) [36.12–36.14] → «as minhas razões» («dar as minhas razões»); *Hice mi culpa* → «Acusei-me da minha culpa»; *desabrido* → «desgostoso» (§ 3a); *nonada* → «quão nada».
+- *nombrada* [36.13] → «ganhar nome»; *relisión* (da casa) → «observância» (§ 3a); *penada* [36.11, 36.16] → «magoada(s)» (como em [33.2]).
+- *regidores*, *corregidor*, *cabildo* [36.15] → «vereadores e o corregedor, e gente do cabido»; *república* → «bem comum» («república» enganaria hoje); *juntas* → «juntas».
+- *Consejo Real* [36.16] → «Conselho Real»; *provisión* → «provisão»; *relación* → «relação»; *pleito* [36.17] → «pleito».
+- *batería* [36.18] → «combate»; *puso de su parte* (o bispo ao Mestre) → «pôs como seu representante».
+- *concierto* [36.19–36.21] → «acordo»; *no llevaba camino* → «não tinha cabimento» (§ 3a).
+- *maraña* [36.22] → «emaranhado»; *digistión* → «digestão».
+- *dióse tan buena maña* [36.23] → «houve-se com tanta habilidade»; *hacer el oficio* [36.23, 36.25] → «rezar o ofício» (como *rezado* → «ofício», § 3a); *Completas* [36.24] → «Completas».
+- *sin haber demanda* [36.25], *sin demanda* [36.29] → «sem sairmos a pedir esmola», «sem sair a pedi-la» (a *demanda* é a coleta de esmola de porta em porta; em [33.13] ficou «sem pedirmos nada»); *cansosas* → «cansativas».
+- *muy deudos* [36.26] → «parentes muito chegados»; *Fray Hugo* → «frei Hugo, cardeal de Santa Sabina»; *a MCCXLVIII años* → «no ano MCCXLVIII» (romanos, como a edição); *relajación* (da Regra) → «mitigação» (como a Bula).
+- *primera Regla* [36.27, 36.28] → «a Regra primitiva», «esta nossa Regra primitiva» (o termo carmelitano em português).
+- *romper* (o escrito) [36.29] → «rasgar»; *relajar* (a perfeição) → «relaxar» (como *relajadas*, [32.11]); *aparejo* → «disposição» (§ 3a); *no se sufre más* → «não se admite mais».
+- Título do 37: *dotrina* → «doutrina»; *grado de gloria* → «grau de glória».
+- *De mal se me hace* [37.1] → «Custa-me» (como em [33.16]); *vuestras mercedes* → «Vossas Mercês» (§ 2); *prendas* → «penhores» (§ 3a).
+- *tasa* [37.2] → «medida»; *tantito* → «tantinho».
+- *me tenía voluntad* [37.4] → «me queria bem»; *holgábame* → «alegrava-me».
+- *gracia* … *desgracia* [37.5] → «mostrava-lhes afeto… mostravam-se secos comigo»; *compostura* (a natureza humana) → «constituição»; *caballerosa* → «fidalga»; *privados* → «privados»; *autoridades postizas* → «autoridades postiças».
+- *armado de palillos* [37.6] → «armado sobre pauzinhos»; *terceros* → «medianeiros» (§ 3a); *Majestad* (maiúscula da edição) → «Majestade».
+- *regalarse con el Señor* [37.9] → «regalar-se» (é com Deus); *se compadece* → «condiz» (como em [34.9]).
+- *no me siento* [37.10] → «não dou por mim»; *seso* → «juízo» (§ 3a); *crianza* [37.10, 37.11] → «cortesia», «boas maneiras»; *santiguarse* → «benzer-se» (como no cap. 31).
+- *Relisiones* [37.11] → «ordens religiosas» (§ 3a); *cátreda* → «cátedra»; *manífico… ilustre* (tratamentos nas cartas) → «Magnífico… Ilustre», com maiúscula.
+- *boberías* [37.13] → «tolices»; *naderías* → «ninharias» (como em [31.22]).
+
+## Passagens difíceis
+
+- Título do 34: *amparo después en El* (com maiúscula na edição) foi lido como o religioso que ela ajudou a despertar, que depois a amparou: «nele», em minúscula. Se a maiúscula for de propósito (Deus), seria «em Ele».
+- [34.2] *sin temeridad*: ao pé da letra, «poucos me aconselhariam sem temeridade». *tornase a enviar* (o conselho dos outros): «que tornasse a escrever ao provincial».
+- [34.3] *a mi honra* … *su igual*: «a quem eu poderia servir com muita honra para mim, com a liberdade de quem fosse igual a elas».
+- [34.4] *mala compostura*: lido como exclamação sobre as obrigações de estado que acabou de descrever («Deus me livre dessa má compostura!»). *y se la he de ver* (pena dela): «e ainda a tenho, de ver».
+- [34.7] *en El* (Deus, maiúscula) → «em Ele»; [34.16] *hablar en El* → «falar sobre Ele».
+- [34.11] *no haya miedo*: «não há medo de que… o Senhor permita que se engane nem um nem outro».
+- [34.12] *se la ha dado*: o *la* é a humildade do parágrafo anterior; explicitado.
+- [34.13] *se haya expirimentado* → «quis que ele fosse provado».
+- [34.14] *tenía poca*: o *poca* é humildade; «Como eu a tinha pouca para tratar assim».
+- [34.16] *de oir* (aquela língua divina): lido com o arroubamento vindo de ouvir aquela língua.
+- [34.17] *levantar a los ángeles* → «vi-o com muita glória, levantado pelos anjos».
+- [35.2] «não olhava que o não serem recolhidos era causa de serem pobres, e não a pobreza causa da distração»: acrescentado o segundo «causa» para a frase se ler.
+- [35.8] As palavras do Senhor vão em discurso indireto, com a troca de tempos do original («deixe… desejo… me fosse»). *húbose de hacer*: «Mas o Senhor tinha ordenado outra coisa, e ela teve de fazer-se».
+- [35.9] Anacoluto do original («senão que, como era…, e assim… o houve por bem»), mantido. *hacer gran servicio*: o *le* é Deus; explicitado.
+- [35.10] *no la tenía*: o *la* é a pena da frase anterior; «Eu já não tinha pena de vir».
+- [35.11] A comparação da joia foi levemente reordenada («a quem eu quero mais do que a mim, e a quem desejo contentar mais do que o meu próprio descanso»); o fecho fica com o anacoluto dela («de maneira que, ainda que eu quisesse tê-la…, agora… não podia»).
+- [35.12] *conforme a sus leyes*: as leis do mundo («conforme às leis dele»).
+- [35.14] *ojos en El* → «Os olhos postos em Ele» (maiúscula da edição).
+- [35.15] *el que puede* → «Abra-os quem pode» (sem maiúscula, como na edição).
+- [36.6] O parêntese sobre o intento da casa foi marcado, para «e feita uma obra…» se ligar a «ver».
+- [36.7] *sujetarle*: lido como sujeitar o mosteiro ao bispo («o sujeitar o mosteiro ao Ordinário»); *no la mudaba*: o *la* é a obediência dela ao provincial («e eu não mudava de obediência»).
+- [36.9] *si durara*: «ainda que nada chegou a ser tanto como isto, se durasse» (o que veio depois não igualou esta aflição, se ela tivesse durado).
+- [36.10] *es esto parte*: «Não sei se é isto parte para eu ter muito mais saúde…, ou se é querer o Senhor… dar-me este consolo».
+- [36.11] A frase longa do descanso depois do almoço fica inteira, com o anacoluto dela («e todos os dias bem cansada, como se tinha sabido…»).
+- [36.20] *me persuadió* → «insistiu nisso na carta».
+- [36.22] *medio postrero*: lido como as duas metades do tempo da fundação («Esta última metade e o começo»); pode ser «este último meio ano».
+- [36.23] A frase do Presentado fica sem conclusão, como no original («houve-se com tanta habilidade… (…)»); o resultado vem nas frases seguintes.
+- [36.29] *en él* → «viver sempre nela» (na perfeição); *váyanse*: o plural do original fica depois do singular «a quem parecer».
+- [37.1] «ver que, se a uma coisa tão miserável o Senhor quis assim favorecer, que fará a quem o tiver servido de verdade»: acrescentado «se» para a pergunta se ler.
+- [37.3] *tal le tenía*: o *le* é o lugar («tendo eu tal lugar no inferno»).
+- [37.5] O primeiro parêntese (por que ela quer bem aos confessores) foi marcado, para «e, como eu andava com segurança…» se ler.
+- [37.7] *con quedar mayor*: «ficando maior o temor de vos ofender».
+- [37.8] *No ha más* → «Ainda agora».
+- [37.10] *piadoso el lugar*: o lugar do inferno era brando para o que ela merecia; reordenado («quão piedoso era, para o que eu merecia, o lugar…»). *de ella*: o *ella* é a vida, explicitado.
+- [37.11] A frase do *este cuidado* foi reordenada para se ler («que quem é razão que traga… possa trazê-lo tão grande…, não sei como»).
+
+## Para o Gere decidir (ou uniformizar nos outros lotes)
+
+- *Maitines* → «Matinas».
+- *Presentado* (35.6) → «o Presentado» (ao vocabulário); *puertos* → «desfiladeiros»; *temer de musarañas* → «ter medo de sombras».
+- *discuento* → «as minhas razões»; *Hice mi culpa* → «Acusei-me da minha culpa»; *regidores* → «vereadores»; *república* → «bem comum»; *primera Regla* → «Regra primitiva»; *hacer el oficio* → «rezar o ofício»; *Ordinario* → «o Ordinário» (ao vocabulário).
+- [37.11] O cabeço «San José de Ávila» foi tirado do meio do texto; conferir numa outra edição que nada falta ali.

@@ -1,0 +1,171 @@
+# Notas do tradutor: capítulos 14 a 19
+
+## Leituras duvidosas do original
+
+- [14.1] «;» com espaço antes (sobra de OCR).
+- [14.5] «memento» → «momento».
+- [14.6] «entienda» → provável «entiendan» (o sujeito é «personas»).
+- [14.7] «, .» → ponto solto antes de «y»; «versé» → «verse».
+- [14.9] «olor»» → «olor.»; «plega el Señor» → «plega al Señor»; «de quí» → «de aquí».
+- [14.10] «i Oh» → «¡Oh» (duas vezes); «hombres!.» → ponto solto; «oyó» → «oigo»; «mercedessemejantes» → «mercedes semejantes»; «tenis» → «tenéis»; «i Y» → «¡Y»; «Suplicóos» → «Suplícoos»; «primitáis» → «permitáis».
+- [14.11] «entramos» → provável «entrambos» (ou forma dela, = ambos).
+- [15.1] «pa» → «para».
+- [15.3] «lEgito» → «Egito»; «mo tornan» → «no tornan»; «peligroNo» → «peligro. No».
+- [15.4] «natura]» → «natural»; «np .parece» → «no parece»; «pequefíita» → «pequeñita».
+- [15.5] «Quémalas» → provável «Quiérolas» (traduzido «quero muito avisá-las»).
+- [15.6] «esta?» → «estas»; «lefios» → «leños»; «de, amor» → «de amor» (vírgula solta).
+- [15.7] «Les» → «les» (maiúscula indevida); «Ilesia» → «Iglesia».
+- [15.10] «primitirá» → «permitirá»; «gra negoción» → «gran negocio»; «comenzar las almas oración» → provável «comenzar las almas [a tener] oración».
+- [15.11] «temían» → «ternían» (= tendrían), como em [7.13].
+- [15.12] «!a» → «la».
+- [15.13] «Torna tu cruz» → «Toma tu cruz».
+- [15.14] «de]» → «del».
+- [15.15] «io» → «lo».
+- [16.1] «mug» → «muy»; «él hortolano» → «el hortolano»; «ga» → «ya»; «magor» → «mayor».
+- [16.2] «querese» → «quererse».
+- [16.3] «Habíanse» → «Háblanse»; «pa» → «para»; «;quc» → «que»; «él Evagelio» → «el Evangelio».
+- [16.4] «i Cuál» → «¡Cuál»; «ansí!Toda» → «ansí! Toda»; «alábenos» → «alábeos» (louvem-vos); «primitáis» → «permitáis».
+- [16.5] «i Oh» → «¡Oh»; «viendo os puede servir» → «viviendo os puede servir»; «treco» → «trueco».
+- [16.6] «i Oh» → «¡Oh»; «pa» → «para».
+- [16.7] «ga» → «ya» (duas vezes); «go» → «yo» (duas vezes); «sog» → «soy».
+- [16.8] «i Oh» → «¡Oh»; «hag» → «hay» (duas vezes); «mug» → «muy».
+- [17.2] ««es» → «es» (aspas soltas); «gostaduras» → provável «gustaduras» (provas, bocados de prova); «cansóme» → provável «cánsome» (traduzido «canso-me»).
+- [17.4] No meio do parágrafo entrou uma nota de rodapé do editor (começa com «\ El alma, Están escritas al margen…»: as palavras «el alma» estão na margem, com a letra da Santa): não é de Teresa; não foi traduzida; tirar do `original/17.txt`.
+- [17.5] «buena gana,» → «buena gana.» (vírgula por ponto antes de «Ansí»).
+- [17.6] «si no las tienen ya» → provável «tiene» (o sujeito é Vossa Mercê); «¡nosotros» → «nosotros»; «en especiad» → «en especial»; «sujetó1» → «sujetó».
+- [17.8] «ga» → «ya».
+- [17.9] «mug» → «muy» (duas vezes); «haga llegado» → «haya llegado»; «le haga dado» → «le haya dado»; «ñrnén» → «Amén».
+- [18.0] (título) «pa» → «para». As aspas «…» do título (duas vezes) são da edição: marcam, ao que parece, palavras que não são de Teresa; ficaram como aspas “…” na tradução. Vale conferir no `original/LEIAME.md` ou noutra edição.
+- [18.1] «juntó» → «junto»; «débaseles» → «dábaseles».
+- [18.3] «alábenos» → «alábeos» (como em [16.4]).
+- [18.4] «pa» → «para»; «cuando acabo de recibir estas mercedes, me las comienza Dios a hacer» → provável «… mercedes, u me las comienza…» (falta «u»; traduzido com «ou»).
+- [18.8] «i Oh» → «¡Oh»; «:ansí» → «ansí» (dois-pontos soltos).
+- [18.9] «de cuanto faltare» → «de cuando faltare»; «memento» → «momento».
+- [18.10] «hay . fuerza» → «hay fuerza» (ponto solto).
+- [18.14] «Destácese toda» → «Deshácese toda»; «qbran» → «obran».
+- [19.1] «-estar» → «estar» (hífen solto); «sentido,,» → «sentido,» (vírgula dobrada).
+- [19.2] «deligencia» → «diligencia»; «tenería» → «tenerla».
+- [19.3] «Entiende que tiene virtudes, y ven» → provável «Entienden» (o sujeito são os próximos); «;\» → «;» (sinal solto); «Dios, Aunque» → «Dios. Aunque» (ponto em vez de vírgula).
+- [19.5] «cageron» → «cayeron»; «aguden» → «ayuden»; «pa» → «para»; «sog» → «soy».
+- [19.6] «mug» → «muy»; «relisión» → «religión»; «go» → «yo» (duas vezes).
+- [19.7] «ga» → «ya» (duas vezes); «go» → «yo» (duas vezes).
+- [19.8] «traslucía..» → «traslucía.» (ponto dobrado).
+- [19.9] «primitíades» → «permitíades»; «intrevalos» → «intervalos» (ou forma dela); «Plega el Señor» → «Plega al Señor»; «primita» → «permita»; «antes: en este» → «antes en este» (dois-pontos soltos).
+- [19.10] «i Qué» → «¡Qué» (três vezes); «Vos?*» → «Vos?» (asterisco solto).
+- [19.11] «i Oh» → «¡Oh».
+- [19.12] «pa» → «para»; «tanto ;» → «tanto;»; «¡j el» → «y el».
+- [19.13] «preso!ñas» → «personas»; «Dios;í» → «Dios;»; «ios» → «los».
+
+## Termos e nomes
+
+- *torno* → «manivela», como no cap. 11; *andar el torno* [14.2] → «girar a manivela».
+- *contento* → «contentamento» (tabela); *consuelo* → «consolo» (§ 3a).
+- *cebo* [14.3] (o que o dono do pombal dá às pombas) → «comida».
+- *desayudar* [14.3] → «atrapalhar».
+- *aviso* [14.3] (cautela) → «atenção», como em [13.14]; *recato* [14.8] (cautela, não pudor) → «cautela».
+- *muy paso a paso* [14.4] (o entendimento que obra de mansinho) → «muito devagar e de mansinho».
+- *y pocas gracias* [14.5] (não é de admirar, não é mérito) → «e não é grande mérito».
+- *un cierra ojo y abre* [14.5] → «um abrir e fechar de olhos»; *por maravilla* → «raramente».
+- *auxilio general u particular* [14.6] → «auxílio geral ou particular» (termo da teologia da graça).
+- *dechado… labor* [14.8] → «modelo… bordado», como em [7.5]; *algarabía* → «algaravia».
+- *empreñarse para florecer* [14.9] → «formar botões para florescer» («emprenhar» destoaria).
+- *escardar* [14.9] → «capinar»; *hierbecillas* → «ervinhas»; *claveles* → «cravos»; *muladar* [14.10] → «monturo», como em [10.9].
+- *holgarse* (Deus com os homens) [14.10] → «alegrar-se» («folgar» se lê hoje como «descansar»).
+- *Emperador* → «Imperador», como em [11.10].
+- *resolgar* [15.1] → «respirar»; *centellica* → «centelhazinha» (diminutivo dela); *pequeñita* → «pequenina».
+- *ollas de Egipto* [15.3] → «panelas do Egito» (a forma da tradição bíblica em português).
+- *aparejarse* [15.5] → «dispor-se» (como *aparejo* → «disposição», § 3a).
+- *bullir* (a memória) [15.6] → «agitar-se»; *cordura* → «sensatez»; *moledor* (o entendimento que não para) → «moinho» (guarda a imagem; a alternativa seria «importuno»).
+- *pláticas* [15.7] → «discursos»; *relatar el entendimiento* → «discorrer o entendimento»; *pajitas* → «palhinhas».
+- *romance* [15.8] (a língua, por oposição ao latim do Saltério) → «castelhano», como *libros de romance* (§ 3a).
+- *llaneza* × *simpleza* [15.8] → «simplicidade» × «singeleza».
+- *hacimiento de gracias* [15.9] → «dar graças».
+- *interesal* [15.10] → «interesseira»; *sueldo* → «soldo».
+- *temor servil* × *fiel temor* [15.14] → «temor servil» × «temor fiel».
+- *descrecer* [15.12] → «diminuir».
+- *sueño de las potencias* [16.1] → «sono das potências» (tabela); *agua corriente de río o de fuente* → «água corrente de rio ou de fonte».
+- *candela* [16.1] (a vela que se põe na mão do moribundo) → «vela».
+- *simpleza* [16.2] (dela, = pouco saber) → «simplicidade»; em [15.8] *simpleza* (o modo de pôr-se diante de Deus) ficou «singeleza».
+- *en un punto* [16.2] → «num instante».
+- *divertirse* [16.3] (das potências) → «distrair-se»; *estudio* (esforço) → «empenho».
+- *coplas* [16.4] → «coplas» (os versos que ela fazia; a «pessoa» é ela mesma).
+- *seso* [16.4, 16.6, 16.7] → «juízo» («ter juízo demais», «têm muito juízo»).
+- *cumplimientos* [16.4] (do mundo) → «obrigações».
+- *delgada y pesadísima cruz* [16.5] → «leve e pesadíssima cruz» («delgada» se leria só como «fina»; o paradoxo é o de leve × pesada).
+- *sufrimiento que la sufra* [16.5] → «paciência que a suporte».
+- *concierto* [16.7] (o combinado entre os cinco) → «acordo».
+- *holgar* (a alma, quando Deus faz de hortelão) [17.1] → «descansar».
+- *acaudalar* [17.2] → «juntar»; *gustaduras* (o fruto que se vai em provas dadas a outros) → «provas».
+- *entender en obras de caridad* [17.4] → «ocupar-se de obras de caridade»; *el ocio santo de María* → «o ócio santo de Maria»; Marta e Maria ficam.
+- *arrostrar* [17.5] (a comida) → «aceitar».
+- *maripositas de las noches* [17.7] → «mariposinhas da noite» (no Brasil, «mariposa» é a borboleta noturna).
+- *tema* [17.8] (a mania do louco) → «teima»; Jacó, Lia, Raquel.
+- *vela divina* [17.8] → «vela divina» (a imagem é a da chama que queima a mariposa).
+- **Quarto grau (cap. 18)**: *levantamiento de espíritu* → «levantamento do espírito»; *juntamiento con el amor celestial* → «junção com o amor celestial»; *vuelo del espíritu* → «voo do espírito»; *arrobamientos* → «arroubos»; *suspensión de todas las potencias* → «suspensão de todas as potências» (tabela).
+- *mente* [18.2] → «mente» (ela diz que não sabe a diferença entre mente, alma e espírito).
+- *mística Teulogía* [18.2] → «teologia mística», como em [10.1].
+- *divisas* [18.3] (as duas coisas que se fazem uma) → «separadas».
+- *largueza y mananimidad* [18.3] → «largueza e magnanimidade»; *disbarates* → «disparates».
+- *alcaide* [18.4] (de uma fortaleza) → «comandante» («alcaide» no Brasil se lê «carcereiro»).
+- *de tan poco tomo* [18.4] → «de tão pouco peso», como *de mucho tomo* [13.4].
+- *tierra tan astrosa* [18.5] → «terra tão imunda»; *necedad* → «tolice».
+- *engolosinar las almas de un bien tan alto* [18.8] → «abrir nas almas o apetite de um bem tão alto».
+- *piélago de los males* [18.8] → «mar dos males» («pélago» é palavra rara).
+- *avecita* [18.9] → «avezinha», como em [13.1].
+- *huelgo* [18.10] → «fôlego».
+- *mantener la tela* [18.12] (expressão: sustentar a coisa) → «segurar o fio».
+- *emborrachar* [18.13] → «embriagar-se».
+- *mariposilla importuna de la memoria* [18.14] → «mariposinha importuna da memória», como em [17.7].
+- *la Orden del glorioso Santo Domingo* [18.15] → «a Ordem do glorioso São Domingos».
+- *pecina* [19.2] (lama de charco) → «lodo»; *gusano* → «verme»; *pieza* (cômodo) → «aposento».
+- *mullida* [19.3] (a terra) → «fofa»; *codiciosa* (a fruta) → «apetitosa»; *desmayar* → «desanimar».
+- *batería* [19.4] (do demônio) → «guerra» («bateria» não se lê como ataque).
+- *venir ancho* [19.5] → «ficar grande demais»; *sobresanar* → «fechar só por cima».
+- *criadas en religión* [19.6] → «criadas na vida religiosa» (§ 3a); *interesal* → «interesseira», como em [15.10].
+- *Regla* [19.8] → «Regra».
+- *Justus es, Domine* [19.9] → em latim, em itálico, com [Justo sois, Senhor]; o resto do verso ela dá em castelhano (*y tus juicios*) → «e os vossos juízos» (a Deus, «Vós», mesmo com o *tus* do original).
+- *báculo* [19.10] → «bordão»; *santiguarse* → «benzer-se»; *donosa* [19.11] → «graciosa» (irônico, como em [11.3]).
+- *pelo malo* [19.14] (a penugem da ave que ainda não pode voar) → «penugem».
+- *Santos* [19.5] → «santos»; *Sacramentos* → «sacramentos» (minúscula, como manda a § 3a para *Santo*).
+
+## Passagens difíceis
+
+- [14.6] *que quiere particularmente comenzar a obrar en el alma en la gran satisfación…*: lido como o modo de Deus mostrar que começa a obrar → «pela grande satisfação… e pela diferença».
+- [14.8] *y esto quisiérale*: o «le» é o tempo que lhe falta → «e quisera ter tempo para isto». *Muy sin tener asiento* → «vai muito sem sossego».
+- [14.11] *a las veces hace harto de dejar de ir adelante en alabanzas*: lido como «custa-lhe bastante deixar de ir adiante». O jogo *de propósito* / *a mi propósito* fica («saio do propósito… falo a meu propósito»).
+- [15.4] A frase *Esta quietud, y recogimiento, y centellica, si es espíritu de Dios…* não fecha no original (o «se» fica sem a oração principal); mantida assim, com o meio entre parênteses, e o parágrafo retoma em «Pois esta centelhazinha…».
+- [15.6] *no es más de con suavidad y sin ruido*: elíptico; acrescentado «ficar» («não é mais que ficar com suavidade»).
+- [15.7] *en tantito, si son bien dichas* → «se são um pouquinho bem ditas» (*tantito* = um pouco); a outra leitura, «num instante», também cabe.
+- [15.9] *Siéntese… cuando es espíritu de Dios u procurado de nosotros, con comienzo de devoción…*: lido como dois membros: «sente-se quando é de Deus ou procurado por nós: quando, com um começo de devoção… queremos passar nós à quietude, não faz efeito».
+- [15.10] *Mas cosa que pone el demonio… no tornará muchas veces el demonio*: o anacoluto do original fica.
+- [15.12] *Vienen veces que es menester…*: a frase dá voltas no original; reordenada para que o sujeito («estes, que já têm a vontade tão posta na dele») venha antes de «precisam».
+- [15.16] *y no anden las almas tan fatigadas*: lido como finalidade → «e isto para que as almas não andem tão aflitas».
+- [16.6] *¡Oh hijo mío!… sea sólo para vos algunas cosas*: ela passa do «vós» do vocativo ao «Vossa Mercê»; os dois ficam, como no original. O parêntese explica o «filho» (o confessor pediu que o chamasse assim). *Por amor de quien por nosotros se lo llamaron* → «por amor daquele a quem por nossa causa chamaram assim» (Cristo, chamado louco).
+- [16.6] *quiero que me lo muestre* → «quero que me mostre isso» (sem «mo»); *no me lo consienta* → «não me consinta isso».
+- [16.7] *que no se les daba más… perderlo todo que ganarlo todo* → «que a eles tanto lhes fazia… perder tudo ou ganhar tudo».
+- [17.2] *hasta que él esté tan fuerte…*: o «él» é a alma no papel de hortelão; traduzido «ela» (a alma), para não se confundir com o hortelão celestial. *Quedarse ha él… muerto de hambre* (mesóclise do original) → «e ela fique porventura morta de fome».
+- [17.2] *Digo que en tan alta oración como esta… y entiende que lo hace*: anacoluto do original; mantido.
+- [17.6] *es para alabar a Dios la guerra que da* → «é coisa de louvar a Deus a guerra que faz» (= é de espantar).
+- [17.7] *por verse junta donde está la mayor parte, y ser imposible*: lido como o desejo de se ver toda junta onde está a maior parte → «por se ver toda junta…» (acrescentado «toda», que o sentido pede).
+- [17.8] *casi estando sobrenatural* → «estando quase sobrenaturais» (concordância com as potências).
+- [17.9] *téngalo en mucho a Su Majestad* → «agradeça-o muito a Sua Majestade»; *mientra no le diere la gracia, aunque se la dé de gozarlo, para entenderlo*: reordenado («enquanto Ele não lhe der a graça de entendê-lo, ainda que lhe dê a de gozá-lo»).
+- [18.1] *porque en ella aun siente el alma no está muerta*: o «ella» é a água passada (a terceira), não a quarta; traduzido «porque na passada», para se ler. *Para poder en otra cosa* → acrescentado «ocupar-se». *Antes dábaseles licencia* = no grau anterior se dava licença aos sentidos → «antes se lhes dava licença».
+- [18.3] *Espanta a quien no tiene ocupado el entendimiento en cosas de la tierra, que no tenga ninguno para entender verdades*: lido como «espanta [até] quem não tem o entendimento ocupado na terra, de modo que não lhe fica nenhum para entender»; frase difícil também no original.
+- [18.7] *es diferente la unión del levantamiento en esta mesma unión*: mantida ao pé da letra; *parecerle ha* (duas vezes, mesóclise do original) → «há de parecer».
+- [18.10] *si no es para no la acabar de dejar a su placer* → «a não ser para que não a deixem de todo à vontade».
+- [18.14] As palavras do Senhor («Desfaz-se toda, filha…») vão entre aspas, como as outras falas citadas nos lotes anteriores.
+- [19.4] *y no fuera más, ni fué, que meterme yo mesma… a el infierno*: reordenado para «meter-me eu mesma no inferno, sem precisar de demônios que me fizessem ir para lá». *Algo le va en ello* → «algo lhe importa nisso».
+- [19.7] *después que me teníades por vuestra bondad para que tanto no os ofendiese* → «depois que, por vossa bondade, me tínheis segura»; *querer entendiesen me los dábades* → «querer que se entendesse que me fazíeis estas mercês» (sem «mos»).
+- [19.8] *de la que todas aun no tenían bien entendido cuán mala era* → «daquela de quem nem todas ainda tinham bem entendido quão má era».
+- [19.10] *con razón me tentaba el demonio*: o «com razão» fica (a tentação parecia razoável); talvez irônico.
+- [19.12] *Hasta el día del juicio me la libraba el demonio*: *librar* = adiar a paga; o «la» é a esperança de [19.11] → «o demônio me deixava essa esperança para o dia do juízo». *Y de el mal no tanto*: elíptico; lido como «e o mal já não era tanto». *Creo tiene mucho delante de Dios* → acrescentado «merecimento».
+- [19.15] *como hacía a mí*: o sujeito é o demônio, implícito; acrescentado «o demônio».
+
+## Para o Gere decidir (ou uniformizar nos outros lotes)
+- **Termos do quarto grau** (cap. 18), para os lotes seguintes (os caps. 20–21 tratam do arroubo e do voo do espírito): *levantamiento de espíritu* → «levantamento do espírito»; *juntamiento* → «junção»; *arrobamiento* → «arroubo»; *vuelo del espíritu* → «voo do espírito». Seguida a tabela sem exceção.
+- **Falas de Deus** citadas («Desfaz-se toda, filha…» [18.14], «Serve-me tu a mim…» [19.9]) vão entre aspas, com «tu»; a fala de Teresa a Deus que ela mesma sugere [15.6] ficou sem aspas, como no original. Uniformizar se o Gere preferir outro critério.
+- **Notas de rodapé do editor** no meio do texto: [17.4] (tirar do `original/17.txt`).
+- **Aspas «…» no título do cap. 18**: são da edição; conferir o que marcam antes de publicar.
+- *delgada y pesadísima cruz* [16.5] → «leve e pesadíssima»: escolha de sentido (o paradoxo); se o Gere preferir a letra, «delgada».
+- *alcaide* [18.4] → «comandante»: a alternativa literal é «alcaide».
+- Propostas para a § 3a: *seso* → «juízo»; *aviso* (cautela) → «atenção»; *simpleza* → «singeleza» / «simplicidade»; *divertirse* → «distrair-se» (das potências) ou «desviar-se» (do assunto, [12.1]); *holgarse* (Deus) → «alegrar-se».

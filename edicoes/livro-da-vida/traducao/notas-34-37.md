@@ -40,6 +40,13 @@
 - [36.21] «ga» → «ya».
 - [36.25] «e] Señor» → «el».
 - [36.29] «vinieren^» → sinal solto; «no>» → sinal solto; «pa servir» → «para».
+- [37.2] «eoede» → «excede»; «gusto!» → sinal solto; «me ha dada» → «dado»; «la .hubiese» → ponto solto.
+- [37.4] «y (de pensar» → parêntese solto; «eJ Señor» → «el».
+- [37.6] «gloría» → «gloria»; «no le temían» → «temerían» (traduzido «temeriam»).
+- [37.7] «espantq» → «espanto»; «Hela quí» → «Hela aquí».
+- [37.8] «torna el Señor a acender, que entonces» → parece faltar um «hasta que» (traduzido «até que o Senhor torna a acendê-lo; que, enquanto isso…»).
+- [37.11] «Yo, . cierto» → ponto solto; **«i San José de Avila,»** no meio da frase («ya se deja papel de una parte, ya … de otra») é cabeço de página da edição, não de Teresa: não traduzido.
+- [37.12] «no he go» → «no he yo».
 
 ## Termos e nomes
 
@@ -87,6 +94,16 @@
 - *muy deudos* [36.26] → «parentes muito chegados»; *Fray Hugo, Cardenal de Santa Sabina* → «frei Hugo, cardeal de Santa Sabina»; *a MCCXLVIII años* → «no ano MCCXLVIII» (romanos, como a edição); *relajación* (da Regra) → «mitigação» (como a Bula).
 - *la mesma primera Regla* [36.27], *esta primera Regla nuestra* [36.28] → «a Regra primitiva», «esta nossa Regra primitiva» (o termo carmelitano em português).
 - *romper* (o escrito) [36.29] → «rasgar»; *relajar* (a perfeição) → «relaxar» (como *relajadas*, [32.11]); *aparejo* → «disposição» (§ 3a); *no se sufre más* → «não se admite mais».
+- Título do 37: *dotrina* → «doutrina»; *grado de gloria* → «grau de glória».
+- *De mal se me hace* [37.1] → «Custa-me» (como em [33.16]); *vuestras mercedes* → «Vossas Mercês» (§ 2); *prendas* → «penhores» (§ 3a).
+- *tasa* [37.2] → «medida»; *tantito* → «tantinho».
+- *me tenía voluntad* [37.4] → «me queria bem»; *holgábame* → «alegrava-me».
+- *mostrábales gracia… mostrábanme desgracia* [37.5] → «mostrava-lhes afeto… mostravam-se secos comigo»; *compostura* (a natureza humana) → «constituição»; *caballerosa* → «fidalga»; *privados* → «privados»; *autoridades postizas* → «autoridades postiças».
+- *armado de palillos* [37.6] → «armado sobre pauzinhos»; *terceros* → «medianeiros» (§ 3a); *Majestad* (maiúscula da edição) → «Majestade».
+- *regalarse con el Señor* [37.9] → «regalar-se» (é com Deus); *se compadece* → «condiz» (como em [34.9]).
+- *no me siento* [37.10] → «não dou por mim»; *seso* → «juízo» (§ 3a); *crianza* [37.10, 37.11] → «cortesia», «boas maneiras»; *santiguarse* → «benzer-se» (como no cap. 31).
+- *Relisiones* [37.11] → «ordens religiosas» (§ 3a); *cátreda* → «cátedra»; *manífico… ilustre* (tratamentos nas cartas) → «Magnífico… Ilustre», com maiúscula.
+- *boberías* [37.13] → «tolices»; *naderías* → «ninharias» (como em [31.22]).
 
 ## Passagens difíceis
 
@@ -118,9 +135,17 @@
 - [36.22] *Este medio postrero y lo primero*: lido como as duas metades do tempo da fundação («Esta última metade e o começo»); pode ser «este último meio ano».
 - [36.23] A frase do Presentado fica sem conclusão, como no original («houve-se com tanta habilidade… (…)»); o resultado vem nas frases seguintes.
 - [36.29] *vivir siempre en él* → «viver sempre nela» (na perfeição); *váyanse… se salvarán*: o plural do original fica depois do singular «a quem parecer».
+- [37.1] «ver que, se a uma coisa tão miserável o Senhor quis assim favorecer, que fará a quem o tiver servido de verdade»: acrescentado «se» para a pergunta se ler.
+- [37.3] *quien tal le tenía en el infierno*: o *le* é o lugar («tendo eu tal lugar no inferno»).
+- [37.5] O primeiro parêntese (por que ela quer bem aos confessores) foi marcado, para «e, como eu andava com segurança…» se ler.
+- [37.7] *con quedar mayor para no ofenderos*: «ficando maior o temor de vos ofender».
+- [37.8] *No ha más que ahora* → «Ainda agora».
+- [37.10] *entendiendo primero cómo era piadoso el lugar que tenía en el infierno para lo que merecía*: o lugar do inferno era brando para o que ela merecia; reordenado («quão piedoso era, para o que eu merecia, o lugar…»). *si han de gastar algo de ella*: o *ella* é a vida, explicitado.
+- [37.11] A frase do *traer este cuidado* foi reordenada para se ler («que quem é razão que traga… possa trazê-lo tão grande…, não sei como»).
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
 
 - *Maitines* → «Matinas».
 - *Presentado* (35.6) → «o Presentado» (ao vocabulário); *puertos* → «desfiladeiros»; *temer de musarañas* → «ter medo de sombras».
 - *discuento* → «as minhas razões»; *Hice mi culpa* → «Acusei-me da minha culpa»; *regidores* → «vereadores»; *república* → «bem comum»; *primera Regla* → «Regra primitiva»; *hacer el oficio* → «rezar o ofício»; *Ordinario* → «o Ordinário» (ao vocabulário).
+- [37.11] O cabeço «San José de Ávila» foi tirado do meio do texto; conferir numa outra edição que nada falta ali.

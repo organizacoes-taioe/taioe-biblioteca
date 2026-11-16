@@ -62,3 +62,27 @@ purgación» até «todas las veces y todo el tiem-». Divergências do texto de
 - **a sus anchuras** (I,7,4) → «à sua larga».
 - **salgan de mantillas** (I,8,3) → «saiam dos cueiros»; **los veza** → «ensina-os».
 - **lenguaje, así de plática como de escritura** (I,8,2) → «linguagem, tanto de conversa como de escritura».
+- **I,9: cabeço vazado como parágrafo** logo depois do título: «EL CAMINO DE ESTA NOCHE Y PURGACION SENSITIVA.» (fim
+  do título do capítulo, em versal). Mantido traduzido para casar a contagem; o principal deve tirar o bloco do
+  original e da tradução.
+- I,9,1 «o do algún mal humor» → «o de»; «de ios dichos» → «los».
+- I,9,2 «imper lecciones» → «imperfecciones»; «Porque, s: esto» → «si»; «luego disiente quedar» → «luego se siente».
+- I,9,3 «Cuidado» → «cuidado».
+- I,9,5 «y, como alto dice» → «como allí dice».
+- I,9,6 «para el mismo que la tienen» → «tiene».
+- I,9,9 «continua «n el sentido» → «en».
+- I,10,5 «ha ciendo» → «haciendo».
+- I,10,6 «pega aL alma» → «al».
+- I,11, título: «Declárame» → «Declárase» (ou «Decláranse»).
+- I,11,1 «inilamación» → «inflamación»; «eí natural» → «el»; «Viva tue la sed» → «fue»; «alquna» → «alguna»; faltam
+  pontos e dois-pontos («dice: Mi alma…», «decir: Viva…», «mata de sed. Pero», «alguna sed.»).
+- I,11,2 «contribulado y solicito por su amor Esta» → ponto antes de «Esta»; «esto es. la parte» → vírgula; falta o
+  «!» final de «¡Oh dichosa ventura!».
+
+## Escolhas (cap. 9–11)
+
+- **en celada / ocasionadas** (I,11,4: operações «tão ocasionadas») → «tão expostas» (sujeitas a ocasiões de queda).
+- **uviado a emprenderse** (I,11,1: o fogo do amor que ainda não pegou) → «por não ter chegado ainda a pegar».
+- **alcoholando un rostro** (I,10,5: o pintor que pinta os olhos com «alcohol», o antimônio) → «retocando um rosto».
+- **renes** (Sl 72,21) → «rins».
+- O verso «¡Oh dichosa ventura!» citado na prosa (I,11,2 e 3) fica na prosa, com a forma fixa «Oh ditosa ventura!».

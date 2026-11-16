@@ -1875,6 +1875,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('sao-gregorio-magno/vida-de-sao-bento', 'Vida de São Bento'),
   ('sao-jeronimo/vida-de-sao-paulo-eremita', 'Vida de São Paulo, primeiro eremita'),
   ('sao-joao-da-cruz/noche-oscura', 'Noche oscura'),
+  ('sao-john-henry-newman/apologia-newman', 'Apologia pro Vita Sua'),
   ('sao-patricio/confissao', 'Confissão'),
   ('sao-possidio/vida-de-santo-agostinho', 'Vida de Santo Agostinho'),
   ('seneca/sobre-a-brevidade-da-vida', 'Sobre a brevidade da vida'),

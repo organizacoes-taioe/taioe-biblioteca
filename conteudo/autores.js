@@ -216,6 +216,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-john-henry-newman',
+  area: 'catolicismo',
+  nome: 'São John Henry Newman',
+  nomeCompleto: 'John Henry Newman',
+  vida: '1801–1890',
+  ordem: 'Newman, John Henry, São',
+  nota: 'Sacerdote anglicano de Oxford, convertido ao catolicismo em 1845, oratoriano e cardeal; canonizado em 2019. Em tradução do inglês, com o original ao lado.'
+});
+
+BIBLIOTECA.autor({
   id: 'g-k-chesterton',
   area: 'catolicismo',
   nome: 'G. K. Chesterton',

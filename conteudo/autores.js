@@ -938,4 +938,11 @@ BIBLIOTECA.autor({
   ordem: 'Tocqueville, Alexis de',
   area: 'nao-ficcao',
   nota: 'Pensador político e historiador francês, autor de A democracia na América e de O Antigo Regime e a Revolução.'
+  id: 'manuel-da-nobrega',
+  nome: 'Manuel da Nóbrega',
+  nomeCompleto: 'Manuel da Nóbrega',
+  vida: '1517–1570',
+  ordem: 'Nóbrega, Manuel da',
+  area: 'nao-ficcao',
+  nota: 'Jesuíta português, chefe da primeira missão da Companhia de Jesus ao Brasil (1549) e primeiro provincial; fundou o colégio de São Paulo de Piratininga e escreveu as primeiras cartas e relatos sobre os índios e a colônia.'
 });

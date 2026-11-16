@@ -27,6 +27,10 @@
 - *cielo impíreo* → «céu empíreo» (termo técnico, mantido).
 - *corrimiento* (VI.4) → «vergonha»; *motillas, chinillas* → «ciscos, pedrinhas».
 - *ave Fénix* → «fênix».
+- *pilar de agua* (VI.5, retomando a imagem das duas fontes das quartas moradas) → «tanque de água»: **uniformizar com IV.2** (lá podem ter usado «tanque», «pia» ou «fonte»).
+- *navecica* (VI.5) → «barquinha»; *jayán* → «homenzarrão» (para não repetir o «gigante» que vem logo depois).
+- *pelota de un arcabuz* (VI.5) → «bala de um arcabuz»; *tierra de promisión* → «terra prometida».
+- *Sol de Justicia* → «Sol de Justiça».
 
 ## Passagens difíceis
 
@@ -55,5 +59,6 @@
 - VI.4, a ementa: «arrobamiento, o éxtasi, o rato»: *rato* por *rapto* (traduzido «rapto»).
 - VI.4, «si no le diese Dios, con icuanto veis, u que nos está bien»: *icuanto* por *cuanto*; leitura: «com tudo quanto vedes, e por mais que nos convenha».
 - VI.4, «para que un memento dejemos de buscar»: *memento* por *momento*.
+- VI.5, «tratado tantas per'sonas santas»: apóstrofo no meio de *personas*.
 
 ## Decisões delicadas (candidatas ao dono)

@@ -86,6 +86,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-clemente-romano',
+  area: 'catolicismo',
+  nome: 'São Clemente Romano',
+  nomeCompleto: 'Clemente de Roma',
+  vida: '~35–~99',
+  ordem: 'Clemente Romano, São',
+  nota: 'Bispo de Roma no fim do século I, Padre apostólico. Em tradução do grego.'
+});
+
+BIBLIOTECA.autor({
   id: 'santo-inacio-de-antioquia',
   area: 'catolicismo',
   nome: 'Santo Inácio de Antioquia',
@@ -156,6 +166,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-possidio',
+  area: 'catolicismo',
+  nome: 'São Possídio',
+  nomeCompleto: 'Possídio de Calama (Possidius)',
+  vida: '~370–~440',
+  ordem: 'Possídio, São',
+  nota: 'Bispo de Calama, na Numídia, monge do mosteiro de Hipona e amigo de Santo Agostinho, com quem conviveu quase quarenta anos. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
   id: 'sao-gregorio-magno',
   area: 'catolicismo',
   nome: 'São Gregório Magno',
@@ -193,6 +213,16 @@ BIBLIOTECA.autor({
   vida: '1840–1894',
   ordem: 'Tissot, Joseph',
   nota: 'Superior-geral dos Missionários de São Francisco de Sales, de Annecy. Em tradução do francês, com o original ao lado.'
+});
+
+BIBLIOTECA.autor({
+  id: 'sao-john-henry-newman',
+  area: 'catolicismo',
+  nome: 'São John Henry Newman',
+  nomeCompleto: 'John Henry Newman',
+  vida: '1801–1890',
+  ordem: 'Newman, John Henry, São',
+  nota: 'Sacerdote anglicano de Oxford, convertido ao catolicismo em 1845, oratoriano e cardeal; canonizado em 2019. Em tradução do inglês, com o original ao lado.'
 });
 
 BIBLIOTECA.autor({
@@ -951,4 +981,14 @@ BIBLIOTECA.autor({
   ordem: 'Nóbrega, Manuel da',
   area: 'nao-ficcao',
   nota: 'Jesuíta português, chefe da primeira missão da Companhia de Jesus ao Brasil (1549) e primeiro provincial; fundou o colégio de São Paulo de Piratininga e escreveu as primeiras cartas e relatos sobre os índios e a colônia.'
+});
+
+BIBLIOTECA.autor({
+  id: 'santa-teresa-de-jesus',
+  area: 'catolicismo',
+  nome: 'Santa Teresa de Jesus',
+  nomeCompleto: 'Teresa de Jesus (Teresa de Cepeda y Ahumada)',
+  vida: '1515–1582',
+  ordem: 'Teresa de Jesus, Santa',
+  nota: 'Carmelita de Ávila, reformadora do Carmelo e fundadora das carmelitas descalças, doutora da Igreja. Em tradução do castelhano, com o original ao lado.'
 });

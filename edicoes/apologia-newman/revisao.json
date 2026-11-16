@@ -1,0 +1,237 @@
+{
+ "id": "apologia-newman",
+ "rotulo": "Apologia pro Vita Sua (São John Henry Newman)",
+ "url": "/biblioteca/sao-john-henry-newman/apologia-newman/",
+ "escolhas": [
+  {
+   "id": "untruthfulness",
+   "titulo": "*Untruthfulness*, a acusação que move o livro, fica «falta de veracidade»?",
+   "ref": "Prefácio e o livro todo; também *untruth* e *lie* (Nota G)",
+   "contexto": "*there is only one about which I much care,--the charge of Untruthfulness.* Na Nota G, Newman distingue *untruth* (dizer o que não é) de *lie* (a mentira culpável): «an untruth which is not a lie».\n\nHoje: «há só uma com que me importo muito: a acusação de falta de veracidade»; *untruth* → «inverdade», *lie* → «mentira».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«falta de veracidade»; «inverdade» e «mentira», como está",
+     "nota": "Guarda o par da Nota G («uma inverdade que não é mentira») e o tom de acusação formal.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«mentira» para *Untruthfulness*; «inverdade» e «mentira» na Nota G",
+     "nota": "Mais direto, mas confunde o rótulo da acusação com o *lie* que a Nota G distingue."
+    },
+    {
+     "id": "c",
+     "texto": "«insinceridade»",
+     "nota": "Palavra comum, mas mira a intenção, não a verdade do que se diz."
+    }
+   ]
+  },
+  {
+   "id": "equivocation",
+   "titulo": "*Equivocation*, o termo da casuística, fica «equívoco»?",
+   "ref": "Prefácio, cap. V e Nota G («A mentira e o equívoco»)",
+   "contexto": "*equivocation* é a frase de duplo sentido que a moral católica discutia; o Acusador a atribui a Santo Afonso.\n\nHoje: «as minhas economias, os meus equívocos»; Nota G: «A mentira e o equívoco»; *to equivocate* → «usar o equívoco».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«equívoco», como está",
+     "nota": "O termo técnico dos manuais em português; curto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«anfibologia»",
+     "nota": "Exato, mas raro; o próprio Newman reserva *amphibologia* para o latim dos casuístas."
+    },
+    {
+     "id": "c",
+     "texto": "«duplo sentido»",
+     "nota": "Claro para todos, mas pesa nas muitas repetições e perde o ar de termo técnico."
+    }
+   ]
+  },
+  {
+   "id": "establishment",
+   "titulo": "*The Establishment* (a Igreja anglicana como Igreja oficial) fica «a Igreja estabelecida»?",
+   "ref": "Prefácio, caps. I, II e V, Nota E",
+   "contexto": "*I was doing the work of a hostile Church in the bosom of the English Establishment.*\n\nHoje: «eu fazia o trabalho de uma Igreja hostil no seio da Igreja estabelecida inglesa»; *Dissent* → «a Dissidência».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«a Igreja estabelecida», como está",
+     "nota": "A expressão usual em português para a Igreja oficial do Estado.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«a Igreja oficial»",
+     "nota": "Mais clara para quem não conhece o termo, mas perde o nome técnico que Newman usa."
+    },
+    {
+     "id": "c",
+     "texto": "«o *Establishment*», em itálico",
+     "nota": "Fiel ao nome inglês; opaco para o leitor."
+    }
+   ]
+  },
+  {
+   "id": "cargos-oxford",
+   "titulo": "Os cargos de Oxford (Fellow, Tutor, Provost) ficam em inglês?",
+   "ref": "o livro todo",
+   "contexto": "*my election to a fellowship at Oriel*; *the Provost*; *one of the Tutors of my College*.\n\nHoje: «a minha eleição para um lugar de Fellow em Oriel»; «o atual Provost de Oriel»; «um dos Tutors do meu colégio». Sem itálico, com maiúscula, como no original.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Em inglês, como está",
+     "nota": "Cargos sem equivalente exato; é o uso dos livros sobre Oxford.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Traduzidos: «membro do colégio», «preceptor», «reitor»",
+     "nota": "Mais legível, mas cada palavra portuguesa sugere outra coisa (reitor de universidade, preceptor de família)."
+    }
+   ]
+  },
+  {
+   "id": "acusador",
+   "titulo": "Kingsley fica sem nome, como «o meu Acusador», com maiúscula?",
+   "ref": "Prefácio e Notas",
+   "contexto": "Na forma final do livro (1865), Newman tirou o nome de Kingsley e o chama *my Accuser*, *the writer*, *a popular writer*.\n\nHoje: «não posso lamentar ter forçado o meu Acusador a apresentar por inteiro as suas acusações contra mim»; minúscula onde o original tem *accuser*.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o meu Acusador», sem nome, como está",
+     "nota": "Respeita a escolha de Newman; a apresentação do livro já diz quem é.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«o meu acusador», em minúscula",
+     "nota": "Mais natural em português; perde o tom de figura que a maiúscula dá."
+    },
+    {
+     "id": "c",
+     "texto": "Pôr o nome de Kingsley numa nota nossa, na primeira vez",
+     "nota": "Ajuda o leitor, mas é acréscimo ao que o autor quis tirar."
+    }
+   ]
+  },
+  {
+   "id": "titulos-obras",
+   "titulo": "Os títulos das obras inglesas citadas ficam em inglês, sem tradução?",
+   "ref": "o livro todo",
+   "contexto": "*The Christian Year appeared in 1827*; *the Life of St. Walburga*; *Essay on Development*; *Tracts for the Times*.\n\nHoje: «A *Christian Year* apareceu em 1827»; «o prefácio da *Life of St. Walburga*». Só as obras antigas com título português usual se traduzem (a *Cidade de Deus*).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Em inglês, em itálico, como está",
+     "nota": "O leitor acha a obra pelo nome; é o costume das traduções de Newman.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Em português, com o inglês na primeira vez: «O ano cristão (*Christian Year*)»",
+     "nota": "Mais legível, mas é acréscimo, e são dezenas de títulos."
+    }
+   ]
+  },
+  {
+   "id": "charge",
+   "titulo": "A *Charge* do bispo ao clero fica «alocução»?",
+   "ref": "caps. II a IV, Nota C",
+   "contexto": "*my Bishop in a Charge made some light animadversions*; *The Bishops one after another began to charge against me.*\n\nHoje: «o meu bispo, numa alocução, fez algumas censuras leves»; «os bispos, um depois do outro, começaram a lançar alocuções contra mim». A *Charge* é a fala do bispo ao clero na visita pastoral, depois impressa.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«alocução», como está",
+     "nota": "Diz a fala solene do bispo ao clero; a «carta pastoral» fica para *Pastoral*.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«carta pastoral»",
+     "nota": "Termo conhecido, mas é outro gênero de documento."
+    },
+    {
+     "id": "c",
+     "texto": "«*Charge*», em itálico",
+     "nota": "Exato, mas opaco, e perde o jogo com *to charge against me*."
+    }
+   ]
+  },
+  {
+   "id": "tratamento-bispos",
+   "titulo": "*Your Lordship*, dito a um bispo, fica «Vossa Excelência»?",
+   "ref": "as cartas aos bispos de Oxford e a Wiseman (caps. II a IV)",
+   "contexto": "*I wrote to the Archdeacon on the subject, submitting the Tracts entirely to your Lordship's disposal.*\n\nHoje: «submetendo os *Tracts* inteiramente à disposição de Vossa Excelência»; *my Lord* → «senhor bispo»; *your Grace* (ao arcebispo) → «Vossa Graça»; *your Eminence* → «Vossa Eminência».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Vossa Excelência», como está",
+     "nota": "O tratamento de bispo em português.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Vossa Senhoria»",
+     "nota": "Mais perto do inglês, mas em português é tratamento de pouca cerimônia."
+    },
+    {
+     "id": "c",
+     "texto": "«Vossa Senhoria Reverendíssima»",
+     "nota": "O tratamento antigo de bispo em Portugal; pesado nas muitas repetições."
+    }
+   ]
+  },
+  {
+   "id": "suplementos",
+   "titulo": "Os suplementos I e II (as listas de cartas e de obras) ficam de fora?",
+   "ref": "o fim do livro",
+   "contexto": "A edição de 1890 traz quatro suplementos: I, a lista cronológica das cartas e papéis citados, com as páginas da edição inglesa; II, a lista das obras do autor; III, a carta do bispo Ullathorne; IV, as mensagens do clero e dos leigos.\n\nHoje: só o III e o IV estão no livro.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fora o I e o II, como está",
+     "nota": "São aparato da edição inglesa; as páginas citadas não servem ao site.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Pôr o II, a lista das obras de Newman",
+     "nota": "Útil a quem quer ler mais; é uma lista de títulos ingleses, sem tradução."
+    },
+    {
+     "id": "c",
+     "texto": "Pôr os dois",
+     "nota": "O livro inteiro, mas o I remete a páginas que o leitor não tem."
+    }
+   ]
+  },
+  {
+   "id": "paginas-inglesas",
+   "titulo": "As remissões às páginas da edição inglesa («p. 203», «ver acima, p. 219») ficam como estão?",
+   "ref": "notas do autor, Notas A a G, notas adicionais",
+   "contexto": "*\"The men who had driven me from Oxford were distinctly the Liberals…,\" p. 203*; *Vide supr. p. 219*.\n\nHoje: «…foram eles que abriram o ataque ao *Tract 90*”, p. 203»; «Ver acima, p. 219 etc.». A apresentação avisa que as páginas são as da edição de 1890.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Como estão, com as páginas inglesas",
+     "nota": "Fiel; nada de acréscimo nosso.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Trocar pela parte do livro: «cap. IV, 2ª parte»",
+     "nota": "Mais útil no site, mas muda o texto do autor em dezenas de lugares."
+    },
+    {
+     "id": "c",
+     "texto": "Tirar as remissões",
+     "nota": "Limpa o texto, mas corta o que Newman escreveu."
+    }
+   ]
+  }
+ ]
+}

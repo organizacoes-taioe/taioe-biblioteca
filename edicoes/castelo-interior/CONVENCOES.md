@@ -79,11 +79,13 @@ Sevilha com a ortografia atualizada (ver `original/LEIAME.md`).
 
 - Arquivos: `00-prologo.txt` (dedicatória e prólogo), `01-primeiras-moradas.txt` … `07-setimas-moradas.txt`,
   `08-epilogo.txt`, em `original/` e `traducao/`, um parágrafo traduzido para cada parágrafo do original.
-- Cada capítulo: `## Capítulo 1` (o título do capítulo), depois a ementa de Teresa num parágrafo em
-  itálico (`_Em que trata…_`), depois o texto, o primeiro parágrafo com a marca `[I.1]` (morada em
-  romano, capítulo em arábico). As segundas moradas têm um capítulo só: `## Capítulo único`, `[II.1]`.
+- Cada capítulo: `## Capítulo 1 — <ementa de Teresa>` (o gerador faz do título a página do capítulo, com a
+  ementa no índice), depois o texto, o primeiro parágrafo com a marca `[I.1]` (morada em romano, capítulo em
+  arábico). As segundas moradas têm um capítulo só: `## Capítulo único`, a ementa num parágrafo em itálico com a
+  marca `[II.1]` (a parte fica numa página só).
 - No começo de cada arquivo de morada, antes do primeiro capítulo, a linha de Teresa sobre o número
   de capítulos (`_Há nelas dois capítulos._`), em itálico.
+- Aspas: «…», como na edição (prevalece sobre o guia geral).
 - Os colchetes de Silverio (letra ou palavra que falta no autógrafo: *quita[r]*) ficam no original; na
   tradução, nada (traduz-se o sentido completo).
 - Trabalho por capítulo em `traducao/trechos/<morada>-<nn>.txt` (`trechos.py mostrar|conferir|juntar`).

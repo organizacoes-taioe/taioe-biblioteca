@@ -29,3 +29,23 @@ Feitos: sumário do livro e capítulos 1 a 5 (43 blocos, iguais ao original até
   antes de «Y así no se dice».
 - I,1,2 «en la primera parte de este libro… en la cuarta»: o autor fala em «partes» que não batem com os três livros
   que escreveu (a «quarta», da noite passiva, é provavelmente a _Noite Escura_); traduzido ao pé da letra.
+
+# Livro I, capítulos 6–15 (lote 1)
+
+## Escolhas
+
+- I,6,6 **hijuelos… de mal contento** → «filhinhos… difíceis de contentar».
+- I,7,1 **tormento de cordeles** → «tormento das cordas»; **gañán** → «lavrador».
+- I,7,3–4 **grosura** (Is 55,2) → «gordura» (imagem bíblica da fartura; «vir à gordura»).
+- I,8 **encandilar, encandilamiento** → «deslumbrar, deslumbramento»; **mariposilla** → «mariposa»; **tomado del
+  paño / de baho** → «embaçado (de vapor)»; **mozo de ciego** → «guia de cego»; **tierra no rompida** → «terra não
+  lavrada»; **atollamos** (Is 59,10) → «atolamos».
+- I,6,7 «Declinabit… Quiere decir: Declinará» → «Há de desviar-se» (sem mesóclise).
+
+## OCR (corrigir no original)
+
+- I,6,1 _valent aguas_ → _aquas_; I,6,6 _amoris sai_ → _sui_; I,6,7 «Quiere decir-» → «Quiere decir:».
+- I,6,1 «Esos dos males, conviene a saber: privación y positivo» → provavelmente «privativo y positivo» (traduzido
+  assim).
+- I,7,1 _¿assata est_ → _lassata est_ (Jz 16,16).
+- I,8,3 «tan, cerca que esta en» → «tan cerca que está en».

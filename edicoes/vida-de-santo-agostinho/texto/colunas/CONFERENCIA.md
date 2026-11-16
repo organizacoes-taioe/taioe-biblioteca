@@ -19,3 +19,11 @@
 19: conferido, ~25 correções; dúvidas: nenhuma («(a)» removido; «vi-/num» inteira no 19)
 20: conferido, ~25 correções; dúvidas: o dístico «Quisquis amat…» está impresso em dois versos centrados; deixei em linha corrida; «pos-/sessionum» inteira no 20 (21 começa em «Ecclesiae»)
 21: conferido, ~18 correções; dúvidas: nenhuma («simu-/latione» inteira no 21)
+22: conferido, ~25 correções; dúvidas: imagem desfocada: «quorumdam» (OCR dava quorundam), «spiritualibus» (OCR spiritalibus), «denuntiabat»
+23: conferido, ~25 correções; dúvidas: nenhuma (o «[27]» que estava no fim passou para o início do 24)
+24: conferido, ~20 correções; dúvidas: «familiarissimi» fecha o 24 e «sui amici» abre o 25; «(a)» removido
+25: conferido, ~15 correções; dúvidas: nenhuma («(a)» «(b)» removidos; «Mauri-/taniarum» inteira no 25)
+26: conferido, ~25 correções; dúvidas: «con-/sistentem» inteira no 26 (27 começa em «ad eamdem»)
+27: conferido, ~25 correções; dúvidas: imagem desfocada; «memorati» fecha o 27, o 28 começa em «impenderent hostes» (as duas primeiras linhas da coluna 28 ficam acima do corte da imagem «a»; li-as num recorte à parte)
+28: conferido, ~20 correções; dúvidas: «(non exstat)» (inserção editorial entre parênteses) removido; guilhemets «» mantidos; «ne-/cessitatem» inteira no 28, sem vírgula final
+29: conferido, ~25 correções; dúvidas: imagem desfocada nas itálicas (nenhuma palavra duvidosa); fim «de ovibus (Joan.» com a referência continuando no 30

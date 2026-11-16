@@ -56,6 +56,35 @@ Na dúvida: **fidelidade ao que João da Cruz escreveu, em português do Brasil 
 
 Proponha termos novos nas notas; não altere este guia sem o principal.
 
+### Termos acrescentados na uniformização (2026-11-16, as duas obras)
+
+| espanhol | português |
+|---|---|
+| apetito(s) | apetite(s) em toda parte (três lotes tinham «apetito»: corrigido, 50 lugares) |
+| purgación / purificación | cada uma como o autor usa (Noite II-b tinha «purificação» por *purgación*: 7 lugares) |
+| propiedad (apego de dono) | posse, ou «como coisa própria» (*tener / tomar con propiedad*); propiedad = característica fica «propriedade» |
+| curiosidad, curioso (imagens, objetos) | primor, primoroso; curiosidad de saber fica «curiosidade» |
+| angosta (puerta), estrecho (camino), Mt 7,14 | porta apertada, caminho estreito (e os verbos: angostar → apertar, estrechar → estreitar) |
+| madero (que o fogo transforma) | madeiro; leña = «lenha» |
+| supuesto (escolástico) | suposto |
+| señuelo (Ct 8,6; Jó 16,13) | alvo (o autor explica pelas setas) |
+| recuerdos de Dios | lembranças de Deus |
+| retrete | aposento (as câmaras de Ez 8; Subida I,9); quarto (Mt 6,6; III,44) |
+| hacedor (Dt 32,15) | «Deixou a Deus, que o fez» (*Criador* só para *Criador*) |
+| Epulón | o rico Epulão |
+| en celada | escondida (verso); «em oculto» na explicação |
+| escala | escada (verso); escalar fica |
+| aprovechantes | aproveitados; o par «aprovechantes y aprovechados» (Noite I,14,1) → «aproveitantes e aproveitados» |
+| regalaba (canção 6) | acariciava |
+
+- Aspas: só “…” (com ‘…’ dentro); os «…» dos lotes 2, 3 e 5 foram trocados (33 pares). Nada de «lho/lha/lhos» (6
+  trocados em III-a). Maiúsculas de Esposo, Esposa, Amado: como no original (em III,13,5 o original tem minúscula).
+- Citações repetidas da Escritura: a mesma tradução onde o autor cita igual (Dt 32,15 em III,19; Lc 14,33; Ex 33,20;
+  Ct 8,1 «eu te achasse sozinha»; Mt 7,14; Mt 6,3; 1 Cor 7,29; Jr 2,13); onde ele cita de outro modo (Mt 15,14 e
+  1 Cor 2,9, nos livros I e II), cada uma segue o espanhol dele.
+- Decisões delicadas para o Gere: `revisao.json` (aqui e na Noite). Respondida e aplicada, a decisão sai de lá e
+  vem para cá.
+
 ## 4. Escritura e latim
 
 - As citações latinas (Vulgata) ficam em latim, em itálico: `_Pauper sum ego…_`. A tradução que o autor dá em

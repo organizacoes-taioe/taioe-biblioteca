@@ -77,6 +77,30 @@ saem no português de hoje («assim», «mesmo», «melhor», «segundo», «pie
 | Nuestro Señor, el Señor, Su Majestad | Nosso Senhor, o Senhor, Sua Majestade |
 | la Humanidad de Cristo | a Humanidade de Cristo |
 
+## 3a. Termos fixados no 1.º lote (prólogo e caps. 1–7; valem para todos)
+
+| castelhano | português |
+|---|---|
+| honesto, honestidad (pudor, decoro) | recatado, recato (às vezes «pureza»); nunca «honesto» |
+| la Religión (estado de monja) · guardar religión · las religiones | a vida religiosa · a observância · as ordens religiosas |
+| discreto, discreción · avisado | sensato, discernimento · sensato |
+| regalo, regalada (entre pessoas) | carinho, conforto, mimada («regalo» só para os de Deus) |
+| curiosa, curiosidad (no vestir) | esmerada, esmero |
+| libros de romance | livros em castelhano |
+| plega a… · plega a Vuestra Majestad | queira… · queira Vossa Majestade |
+| Vuestra Majestad (vocativo a Deus) | Vossa Majestade (3.ª pessoa só nessa fórmula; o resto em «Vós») |
+| os / Vos (pronome a Deus) | segue a caixa da edição: vos / Vós |
+| consuelo · consolación | consolo · consolação |
+| antojo | fantasia |
+| parajismo · ética (héctica) | ataque · tísica |
+| tullida · Pascua florida | entrevada · Páscoa |
+| ayo (São José) | tutor |
+| Tercer Abecedario · los Morales de San Gregorio | _Terceiro Abecedário_ · _Morais_ de São Gregório (itálico) |
+| perfeito composto a Deus (habéis sufrido) | tendes suportado (não «haveis») |
+
+Maiúsculas: *Santo*, *Santa*, *Patriarca* (que a edição sempre põe com maiúscula) vão em minúscula; as de
+reverência a Deus seguem a edição.
+
 ## 4. Nomes
 
 - Santos e nomes bíblicos na forma portuguesa: São José, Santa Maria Madalena, Santo Agostinho, São

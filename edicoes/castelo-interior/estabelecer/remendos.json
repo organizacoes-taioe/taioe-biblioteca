@@ -1,0 +1,22 @@
+[
+[
+"re:abrirá E E E ¶ .{0,30}? ¶ 162 MORADAS SEXTAS ¶ rá ",
+"abrirá "
+],
+[
+"re:(?<=[a-zñ])[IVX]+ \\d{1,2} ?°? ?\\*? (?=[a-zñ])",
+""
+],
+[
+"re:\\s?\\b[IVX]+ \\d{1,2} ?°? ?\\*(?= |$)",
+" "
+],
+[
+"re:(?<=[.;:!?]) [IVX]+ \\d{1,2} ?°?(?= ¶)",
+" "
+],
+[
+"EL CASTILLO INTERIOR ¶ JHS",
+"_Este tratado, llamado Castillo interior, escribió Teresa de Jesús, monja de Nuestra Señora del Carmen, a sus hermanas y hijas las monjas carmelitas descalzas._ ¶ JHS"
+]
+]

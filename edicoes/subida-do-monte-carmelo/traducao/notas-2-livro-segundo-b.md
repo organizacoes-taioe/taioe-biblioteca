@@ -19,6 +19,13 @@ Blocos iguais ao original, marcas no lugar. Grep de mesóclise sem resultado.
 - II,16,10 **vidriera** → «vidraça»; a frase «no las puede resistir la voluntad negativa con resignación…, sino sola
   la impureza» ficou ao pé da letra.
 - II,16,15 **candela / candelero** → «candeia / castiçal».
+- II,17,5 **toda carne es insipiente** → «toda carne é insípida» (o adágio _desipit_).
+- II,17,6 **pequeñuelo** → «pequenino».
+- II,18 **término** (o modo do confessor) → «maneira»; **lleno** (satisfação) → «satisfação»; **hacer presa** →
+  «prender-se»; **a carga cerrada** → «de olhos fechados»; **almas bobas** → «almas simplórias»; **no hilemos tan
+  delgado** → «não fiemos tão fino».
+- II,18,4 «el vicio de gula espiritual, y de los otros seis»: remete à _Noite_ (I, os sete vícios capitais dos
+  principiantes); traduzido como está.
 - **embestir** (a notícia que investe na alma) → «investir».
 
 ## OCR (corrigir no original)
@@ -49,3 +56,19 @@ Blocos iguais ao original, marcas no lugar. Grep de mesóclise sem resultado.
 - II,16,15 «Epístola 2. 9 canónica» → «Epístola 2.ª canónica» (traduzido «na sua segunda Epístola canônica»);
   _jirmiorem… benejacitis aitendentes… doñee_ → _firmiorem… benefacitis attendentes… donec_; «catidelero» →
   «candelero».
+- II,17,1 «nuestra dude» → «duda».
+- II,17,2 _suní_ → _sunt_; _suaviisr_ → _suaviter_.
+- II,17,3 «de la misma alma Pues» → falta ponto; «el bajo y tin extremo» → «el bajo fin y extremo» (traduzido
+  assim).
+- II,17,4 «al modo, del hombre» → «al modo del hombre».
+- II,17,5 «intruyéndola» → «instruyéndola»; «meditación imagina» → «imaginaria»; _Qustato spiniu_ → _Gustato
+  spiritu_; «sentido!,» → «sentido;».
+- II,17,6 «de el», «hacia antes» → «de él», «hacía»; _cogitaban_ → _cogitabam_.
+- II,17,7 «sea porte» → «sea parte»; «capítulo once»: os sinais estão no cap. 13 (de Silverio; o autor numerava
+  diferente); traduzido «capítulo onze».
+- II,17,8 «el aUna capacidad» → «el alma»; «pequenez» → «pequeñez»; _ilcdi, non cscam_ → _dedi, non escam_.
+- II,17,9 «espirituales Ni tampoco» → falta ponto; «aque! buen espíritu» → «aquel»; «ejercicio io que» → «lo que».
+- II,18,1 «discipulo» → «discípulo»; II,18,2 _raeco_ → _caeco_; «facilisimamente» → «facilísimamente».
+- II,18,4 «dejémoslo ahora. hasta» → «ahora, hasta».
+- II,18,5 «conforme ai de» → «al de»; II,18,6 «de esta»; cosas… a otra» → «de estas cosas… a otra.».
+- II,18,7 «con el» → «con él».

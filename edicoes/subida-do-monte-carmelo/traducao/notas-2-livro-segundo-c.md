@@ -67,3 +67,34 @@ Espanhol:
   tiene presente a aquella cosa» parece estropiada (talvez «conociendo otra cosa con el espíritu…»); traduzida ao pé
   da letra. Conferir no fac-símile.
 - II,26,12 «a Balón» → «Balaán».
+- II,27,1 «revelacióón» → «revelación»; «con 10 otro» → «lo otro».
+- II,27,2 falta ponto: «a quien quiere. Porque».
+- II,27,3 e 27,4: «habernos de dar» → «habemos»; «ícvelen» → «revelen»; «que la conviene tener en te» → «en fe»; falta
+  ponto no fim de [4] («…la cerda.»).
+- II,27,5 «que o mi haber el apóstol» → «que con haber»; latim *sermnnem. cui bcnefaciíis nttrndentes* → *sermonem:
+  cui benefacitis attendentes*; «la palabra de la profecía dúo nos es revelada» → «que nos es revelada».
+- II,27,6 «le parece a fa persona» → «a la».
+- II,28,2 «en le substancia… hacen y causen» → «en la… causan».
+- II,29,2 «cun la facilidad» → «con»; II,29,3 «lueqo» → «luego»; II,29,6 «Espíritu Sanio» → «Santo»; II,29,7 «de
+  este manera» → «esta»; II,29,10 «une de las maneras» → «una»; II,29,12 «de elias» → «ellas»; «que no los propone»
+  → «nos los propone».
+- **II,30,1: nota de Silverio vazou para o texto** no meio de «como ha-|ce»: «1 Y curiosidades. Faltan estas palabras
+  en A y B. Ad Rom., XII. 3 A y B añaden parece que.» Tirar (são as notas de II,29,12 e de II,30). Traduzido sem ela.
+- II,30,2 «Atablándole» → «hablándole»; faltam pontos no fim de frases (antes de «Como leemos», no fim de [2]).
+- II,30,3 «monstrarle» → «mostrarle»; II,30,4 «que que aun cuando» → «que aun cuando».
+- II,31,1 «Catad» (Sl 67,34, «Ecce dabit voci suae vocem virtutis») → «Olhai»; «V así» → «Y así».
+- **II,31,2: parágrafo partido no meio da frase** («de manera que la imprima» | «ei efecto y hábito…»): quebra de
+  página tomada por parágrafo. A tradução seguiu a quebra para casar a contagem; o principal deve juntar os dois
+  blocos no original e na tradução. «ei» → «el»; «oue» → «que».
+- II,32,1 «[II.32] 1 Sigúese» → tirar o «1» solto.
+- II,32,4 «gastar mucho almacén» (munição) → «gastar muita munição».
+
+## Escolhas (cap. 27–32)
+
+- **cerda del que cose el cuero** (II,27,4) → «a cerda de quem costura o couro» (a cerda de porco que o sapateiro usa
+  como agulha, puxando o fio).
+- **Canónica** (II,27,5) → «Carta canônica».
+- **cuatro maravedís de consideración** (II,29,4) → «quatro vinténs de consideração» (moeda miúda; mesmo efeito).
+- **bachillería** (II,29,5) → «tagarelice».
+- **mayoría(s)** → «cargos altos» (como no livro I); **cosas de mayoría** (II,30,3) → «coisas de mando».
+- **entendimiento pasible** (II,32,4) → «entendimento passível» (termo dos filósofos).

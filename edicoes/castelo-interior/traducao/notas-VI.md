@@ -66,6 +66,8 @@
 - VI.7, «no es estorbo … sino gran ayuda para todo bien, lo que sería si mucho trabajase en el discurrir»: o *lo que sería* retoma «estorvo»; «estorvo seria, sim, se trabalhasse muito no discorrer».
 - VI.7, «porque son vivas centellas para encenderla más en el que tiene a Nuestro Señor»: *el* = o amor; explicitei «no amor que tem a Nosso Senhor».
 - VI.7, fim: «nunca me acaba de pesar de que haya habido nengún tiempo que yo careciese de entender que se podía malganar con tan gran pérdida»: frase embaraçada; segui a letra («que eu deixasse de entender que só se podia ganhar mal, com tão grande perda»). Alternativa, pelo sentido do capítulo: «que eu tenha vivido algum tempo privada [da Humanidade de Cristo]; entendo que só se podia ganhar mal com tão grande perda».
+- VI.10, «¿Hasta cuándo, hijas, imitaremos en algo este gran Dios?»: o sentido é «quanto tempo vai levar até imitarmos»; «Até quando, filhas, esperaremos para imitar em algo este grande Deus?».
+- VI.10, «que lo es muy grande no tener cosa buena de nosotros»: *lo* = verdade; «que é verdade muito grande não termos coisa boa de nós mesmos».
 
 ## Possíveis erros do texto-fonte (OCR)
 
@@ -86,5 +88,7 @@
 - VI.7, «y no para el entendimiento hasta que está puesto en la u tomamos un paso»: falta uma palavra depois de *en la*; pelo sentido (do Horto até…), *cruz*. Traduzi «até que está posto na cruz»: conferir na imagem.
 - VI.7, «milaglos», «Ilesia», «empidirá»: formas dela, não erros.
 - VI.9, «es un memento, comparado con aquella eternidad»: de novo *memento* por *momento* (como em VI.4); pode ser forma do autógrafo e não do OCR.
+- VI.10, «y ansí tememos en poco este mundo»: *tememos* por *ternemos* (= teremos); traduzido «teremos em pouco».
+- VI.10, «aunque pasa en un memento»: outra vez *memento*.
 
 ## Decisões delicadas (candidatas ao dono)

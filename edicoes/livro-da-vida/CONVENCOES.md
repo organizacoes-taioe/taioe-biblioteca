@@ -97,6 +97,16 @@ saem no português de hoje («assim», «mesmo», «melhor», «segundo», «pie
 | ayo (São José) | tutor |
 | Tercer Abecedario · los Morales de San Gregorio | _Terceiro Abecedário_ · _Morais_ de São Gregório (itálico) |
 | perfeito composto a Deus (habéis sufrido) | tendes suportado (não «haveis») |
+| caldero · torno · verjel · caudal | balde · manivela · jardim · cabedal (ao vocabulário) |
+| fatiga, fatigar · congoja · destraimiento | aflição, afligir · angústia · distração |
+| propio conocimiento · torpeza · aparejo | conhecimento próprio · inépcia · disposição |
+| joya · prenda (dons de Deus) | joia · penhor |
+| la oración del Huerto | a oração do Horto (o «horto» de Agostinho em minúscula) |
+| perdones · seglar · subir el espíritu | indulgências · secular · elevar o espírito |
+| medrado | crescido (nunca «medrar») |
+
+Diminutivos dela ficam («cuidadinho», «mulherzinhas»). Sem contrações «mo», «ma», «lho», «no-lo»: soam de
+Portugal ou de livro antigo («ele mo deu» → «ele me deu isso», «deu-me»).
 
 Maiúsculas: *Santo*, *Santa*, *Patriarca* (que a edição sempre põe com maiúscula) vão em minúscula; as de
 reverência a Deus seguem a edição.

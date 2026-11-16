@@ -1,0 +1,622 @@
+{
+ "verbetes": {
+  "tanto": {
+   "lema": "tanto",
+   "classe": "avverbio",
+   "def": [
+    "Molto; tão."
+   ],
+   "nota": "«Tanto gentile e tanto onesta»: tão gentil e tão honesta. O advérbio repetido abre o soneto e marca o grau da dama."
+  },
+  "gentile": {
+   "lema": "gentile",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que trata os outros com modos corteses; que mostra atenção e cuidado."
+   ],
+   "nota": "Em Dante, «gentile» tem o sentido antigo de nobre de coração, de alma bem-nascida, além de «cortês»."
+  },
+  "e": {
+   "lema": "e",
+   "classe": "conjunção",
+   "def": [
+    "Usada para unir duas palavras ou duas orações."
+   ]
+  },
+  "onesta": {
+   "lema": "onesto",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que se conforma ao que é justo e decente; que age com retidão."
+   ],
+   "nota": "Aqui «onesta» vale por «honrada, decorosa, digna», no sentido de virtude e recato, não só de não mentir."
+  },
+  "pare": {
+   "lema": "parere",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Dar a impressão de; parecer."
+   ],
+   "nota": "«Pare» é «parece»: a forma curta, comum na poesia antiga. A frase é «a minha dama parece tão gentil e tão honesta»."
+  },
+  "la": {
+   "lema": "la",
+   "classe": "artigo definido",
+   "def": [
+    "Artigo definido feminino singular."
+   ]
+  },
+  "donna": {
+   "lema": "donna",
+   "classe": "substantivo feminino",
+   "def": [
+    "Pessoa adulta do sexo feminino da espécie humana."
+   ],
+   "nota": "Do latim «domina», senhora. Na poesia do tempo, «la donna mia» é a dama amada, a senhora do poeta (aqui, Beatriz)."
+  },
+  "mia": {
+   "lema": "mio",
+   "classe": "pronome possessivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que me pertence; meu."
+   ]
+  },
+  "quand’": {
+   "lema": "quando",
+   "classe": "conjunção",
+   "forma": "elidido diante de vogal",
+   "def": [
+    "No momento em que."
+   ]
+  },
+  "ella": {
+   "lema": "ella",
+   "classe": "pronome pessoal",
+   "forma": "3ª pessoa do singular, feminino",
+   "def": [
+    "Pronome pessoal de sujeito que se refere a uma pessoa do sexo feminino já nomeada."
+   ],
+   "nota": "Forma literária e antiga de «lei» ou «essa»; hoje, «lei» ou «lei stessa»."
+  },
+  "altrui": {
+   "lema": "altrui",
+   "classe": "pronome",
+   "def": [
+    "(Raro, literário) Outra pessoa; os outros; alguém."
+   ],
+   "nota": "Em «saluta altrui», «cumprimenta alguém»: quem quer que ela encontre."
+  },
+  "saluta": {
+   "lema": "salutare",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Dar uma saudação; cumprimentar."
+   ]
+  },
+  "ch’ogne": {
+   "partes": [
+    {
+     "lema": "che",
+     "classe": "conjunção",
+     "forma": "elidido diante de vogal",
+     "def": [
+      "Introduz uma oração que indica consequência; de modo que, tanto que."
+     ]
+    },
+    {
+     "lema": "ogne",
+     "wiki": "en:Italian",
+     "classe": "adjetivo",
+     "forma": "forma antiga de «ogni»",
+     "def": [
+      "Cada; todo."
+     ]
+    }
+   ],
+   "nota": "«Ch’ogne lingua deven tremando muta»: tanto que toda língua se torna, tremendo, muda. «Ogne» é a forma antiga e poética de «ogni»."
+  },
+  "lingua": {
+   "lema": "lingua",
+   "classe": "substantivo feminino",
+   "def": [
+    "Órgão muscular da boca, instrumento da fala."
+   ],
+   "nota": "Em sentido figurado, «a língua» é a fala de quem a usa: quem a vê não consegue falar."
+  },
+  "deven": {
+   "lema": "divenire",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular, forma antiga («devien», «diviene»)",
+   "def": [
+    "Passar a ser; tornar-se."
+   ],
+   "nota": "«Deven» é a forma abreviada da Vita nuova para «diviene»: «toda língua se torna muda»."
+  },
+  "tremando": {
+   "lema": "tremare",
+   "classe": "verbo",
+   "forma": "gerúndio",
+   "def": [
+    "Agitar-se com tremores; sacudir-se por frio, medo ou emoção."
+   ]
+  },
+  "muta": {
+   "lema": "muto",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que não emite sons; que não consegue falar."
+   ]
+  },
+  "li": {
+   "lema": "li",
+   "wiki": "en:Italian",
+   "classe": "artigo definido",
+   "forma": "masculino plural, forma antiga",
+   "def": [
+    "Forma antiga de «i» ou «gli», artigo definido masculino plural."
+   ],
+   "nota": "Em «li occhi», «os olhos»; hoje, «gli occhi»."
+  },
+  "occhi": {
+   "lema": "occhio",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Órgão da visão."
+   ]
+  },
+  "no": {
+   "lema": "no",
+   "wiki": "en:Italian",
+   "classe": "advérbio",
+   "forma": "forma antiga de «non»",
+   "def": [
+    "Palavra que nega; não."
+   ],
+   "nota": "«No l’ardiscon» é «non l’ardiscono»: «não ousam»."
+  },
+  "l’": {
+   "lema": "la",
+   "classe": "pronome pessoal",
+   "forma": "elidido diante de vogal",
+   "def": [
+    "Pronome feminino de complemento direto; a."
+   ],
+   "nota": "Aqui «l’» é «la», a dama: os olhos não ousam olhá-la."
+  },
+  "ardiscon": {
+   "lema": "ardire",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do plural, forma antiga («ardiscono»)",
+   "def": [
+    "Agir com ânimo cheio de coragem e de ousadia; atrever-se."
+   ],
+   "nota": "O verbo, na forma «ardiscon», perdeu a vogal final, como «deven», «mostrasi» e outras desta página."
+  },
+  "di": {
+   "lema": "di",
+   "classe": "preposição",
+   "def": [
+    "Preposição que liga a ação ao seu complemento; aqui, de."
+   ],
+   "nota": "«Ardire di guardare» é «ousar olhar»: o infinitivo completa «ardiscon»."
+  },
+  "guardare": {
+   "lema": "guardare",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "Ver com a vista voluntária e fixa em alguém ou em algo; olhar."
+   ]
+  },
+  "si": {
+   "lema": "si",
+   "wiki": "en:Italian",
+   "classe": "pronome",
+   "forma": "reflexivo",
+   "def": [
+    "Pronome reflexivo de 3ª pessoa; se."
+   ]
+  },
+  "va": {
+   "lema": "andare",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Dirigir-se a um lugar; ir."
+   ],
+   "nota": "«Ella si va» é «ela vai (andando)»: o «si» realça o andar da dama, como quem passa sem pressa."
+  },
+  "sentendosi": {
+   "lema": "sentire",
+   "classe": "verbo",
+   "forma": "gerúndio com pronome reflexivo («sentendo» + «si»)",
+   "def": [
+    "Perceber com os sentidos ou com a mente; ouvir."
+   ],
+   "nota": "«Sentendosi laudare» é «ouvindo-se louvar», isto é, ouvindo que a elogiam."
+  },
+  "laudare": {
+   "lema": "laudare",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "(Obsoleto, literário) Variante antiga de «lodare»; louvar."
+   ]
+  },
+  "benignamente": {
+   "lema": "benignamente",
+   "classe": "advérbio",
+   "def": [
+    "De modo benigno; com bondade."
+   ]
+  },
+  "d’": {
+   "lema": "di",
+   "classe": "preposição",
+   "forma": "elidida diante de vogal",
+   "def": [
+    "Forma elidida da preposição «di»; de."
+   ]
+  },
+  "umiltà": {
+   "lema": "umiltà",
+   "classe": "substantivo feminino",
+   "def": [
+    "Característica de quem reconhece os próprios limites e, por isso, as próprias possibilidades; humildade."
+   ]
+  },
+  "vestuta": {
+   "lema": "vestire",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular, forma antiga («vestita»)",
+   "def": [
+    "Cobrir com roupas."
+   ],
+   "nota": "«Vestuta» é o particípio regular antigo, em «-uta», de «vestire»: «vestida de humildade», isto é, revestida dela como de um manto."
+  },
+  "par": {
+   "lema": "parere",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular, forma abreviada",
+   "def": [
+    "Dar a impressão de; parecer."
+   ],
+   "nota": "«E par che sia» é «e parece que é»: ela parece uma coisa vinda do céu."
+  },
+  "che": {
+   "lema": "che",
+   "classe": "conjunção",
+   "def": [
+    "Introduz uma oração subordinada: «que»."
+   ]
+  },
+  "sia": {
+   "lema": "essere",
+   "classe": "verbo",
+   "forma": "presente do subjuntivo, 3ª pessoa do singular",
+   "def": [
+    "Existir; ser."
+   ]
+  },
+  "una": {
+   "lema": "uno",
+   "classe": "artigo indefinido",
+   "forma": "feminino",
+   "def": [
+    "Artigo indefinido feminino."
+   ]
+  },
+  "cosa": {
+   "lema": "cosa",
+   "classe": "substantivo feminino",
+   "def": [
+    "Objeto ou ser que tem relação com um sujeito; coisa."
+   ]
+  },
+  "venuta": {
+   "lema": "venire",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular",
+   "def": [
+    "Dirigir-se a alguém ou a algum lugar; vir."
+   ]
+  },
+  "da": {
+   "lema": "da",
+   "classe": "preposição",
+   "def": [
+    "Indica a origem ou a proveniência."
+   ],
+   "nota": "«Da cielo in terra» é «do céu à terra»: o «da» marca o ponto de partida do movimento."
+  },
+  "cielo": {
+   "lema": "cielo",
+   "wiki": "en:Italian",
+   "classe": "substantivo masculino",
+   "def": [
+    "A abóbada que se vê sobre a Terra; céu."
+   ]
+  },
+  "in": {
+   "lema": "in",
+   "classe": "preposição",
+   "def": [
+    "Indica estado em um lugar ou movimento para ele."
+   ]
+  },
+  "terra": {
+   "lema": "terra",
+   "classe": "substantivo feminino",
+   "def": [
+    "O lugar em que se desenrola a vida do homem, em contraposição ao céu."
+   ]
+  },
+  "a": {
+   "lema": "a",
+   "classe": "preposição",
+   "def": [
+    "Indica finalidade ou destino; para."
+   ],
+   "nota": "«A miracol mostrare» é «para mostrar um milagre»: a finalidade da vinda dela."
+  },
+  "miracol": {
+   "lema": "miracolo",
+   "wiki": "en:Italian",
+   "classe": "substantivo masculino",
+   "forma": "forma truncada («miracolo» sem a vogal final)",
+   "def": [
+    "Fato extraordinário que se atribui a uma intervenção divina; milagre."
+   ]
+  },
+  "mostrare": {
+   "lema": "mostrare",
+   "classe": "verbo",
+   "forma": "infinitivo",
+   "def": [
+    "Fazer ver algo."
+   ]
+  },
+  "mostrasi": {
+   "lema": "mostrare",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular, com pronome reflexivo («mostra» + «si»)",
+   "def": [
+    "Fazer ver algo; mostrar."
+   ],
+   "nota": "«Mostrasi sì piacente» é «ela se mostra tão agradável»."
+  },
+  "sì": {
+   "lema": "sì",
+   "classe": "advérbio",
+   "forma": "advérbio de intensidade",
+   "def": [
+    "Indica grau elevado; tão, assim."
+   ],
+   "nota": "Em «sì piacente a chi la mira», «tão agradável a quem a olha»."
+  },
+  "piacente": {
+   "lema": "piacente",
+   "classe": "adjetivo",
+   "def": [
+    "Que agrada; agradável."
+   ]
+  },
+  "chi": {
+   "lema": "chi",
+   "classe": "pronome",
+   "def": [
+    "Aquele que; quem."
+   ]
+  },
+  "mira": {
+   "lema": "mirare",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Olhar com atenção."
+   ]
+  },
+  "dà": {
+   "lema": "dare",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer passar a outro; dar."
+   ]
+  },
+  "per": {
+   "lema": "per",
+   "classe": "preposição",
+   "def": [
+    "Indica o meio ou a passagem por onde se faz algo; por."
+   ],
+   "nota": "«Per li occhi» é «pelos olhos»: a doçura entra pelos olhos de quem olha."
+  },
+  "dolcezza": {
+   "lema": "dolcezza",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Figurado) Característica própria do que alegra a alma; doçura."
+   ]
+  },
+  "al": {
+   "lema": "al",
+   "classe": "preposição articulada",
+   "def": [
+    "Contração de «a» e «il»; ao."
+   ]
+  },
+  "core": {
+   "lema": "core",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Obsoleto, poético) Variante de «cuore»; coração."
+   ]
+  },
+  "ntender": {
+   "lema": "intendere",
+   "classe": "verbo",
+   "forma": "infinitivo, com perda do «i» inicial («’ntender» por «intender»)",
+   "def": [
+    "Perceber o sentido; entender, compreender."
+   ],
+   "nota": "O apóstrofo marca a letra caída: «che ’ntender no la può» é «que compreendê-la não pode»."
+  },
+  "può": {
+   "lema": "potere",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ter a capacidade ou a possibilidade de; poder."
+   ]
+  },
+  "prova": {
+   "lema": "provare",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "(Figurado) Sentir ou experimentar em si."
+   ],
+   "nota": "«Chi no la prova» é «quem não a experimenta»: só entende essa doçura quem a sente."
+  },
+  "de": {
+   "lema": "de",
+   "wiki": "en:Italian",
+   "classe": "preposição",
+   "forma": "forma antiga, separada do artigo",
+   "def": [
+    "Forma antiga de «di» e de «da»; de."
+   ],
+   "nota": "«De la» é a forma antiga de «della»: «de la sua labbia», «do seu rosto»."
+  },
+  "sua": {
+   "lema": "suo",
+   "classe": "pronome possessivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que pertence a ele ou a ela."
+   ]
+  },
+  "labbia": {
+   "lema": "labbia",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Antigo) Rosto; semblante; aspecto."
+   ],
+   "nota": "«Labbia» vem do plural antigo de «labbro» (lábio) e passou a significar o rosto, a fisionomia."
+  },
+  "mova": {
+   "lema": "muovere",
+   "classe": "verbo",
+   "forma": "presente do subjuntivo, 3ª pessoa do singular, forma antiga («muova»)",
+   "def": [
+    "Pôr em movimento; dar origem a algo."
+   ],
+   "nota": "«Si mova» é «se mova», isto é, «sai, procede»: o espírito parte do rosto dela."
+  },
+  "un": {
+   "lema": "un",
+   "classe": "artigo indefinido",
+   "def": [
+    "Artigo indefinido masculino."
+   ],
+   "nota": "«Un spirito» é «um espírito»; hoje se diz «uno spirito», diante de «sp-»."
+  },
+  "spirito": {
+   "lema": "spirito",
+   "classe": "substantivo masculino",
+   "def": [
+    "Sopro; ser imaterial, de natureza espiritual."
+   ],
+   "nota": "Aqui é o «spiritello» da psicologia medieval: um sopro vital e sutil que sai do rosto da dama e leva amor à alma."
+  },
+  "soave": {
+   "lema": "soave",
+   "classe": "adjetivo",
+   "def": [
+    "Agradável de sentir; suave."
+   ]
+  },
+  "pien": {
+   "lema": "pieno",
+   "classe": "adjetivo",
+   "forma": "masculino singular, forma truncada («pieno»)",
+   "def": [
+    "Tão cheio que não pode conter mais nada."
+   ],
+   "nota": "«Pien d’amore» é «cheio de amor»."
+  },
+  "amore": {
+   "lema": "amore",
+   "classe": "substantivo masculino",
+   "def": [
+    "Sentimento de viva afeição por uma pessoa, que se manifesta no desejo de lhe fazer o bem."
+   ]
+  },
+  "dicendo": {
+   "lema": "dire",
+   "classe": "verbo",
+   "forma": "gerúndio",
+   "def": [
+    "Exprimir em palavras; dizer."
+   ],
+   "nota": "«Che va dicendo» é «que vai dizendo»: o gerúndio com «andare» dá a ideia de ação que se prolonga."
+  },
+  "anima": {
+   "lema": "anima",
+   "classe": "substantivo feminino",
+   "def": [
+    "Parte espiritual e imortal de um ser humano; alma."
+   ]
+  },
+  "sospira": {
+   "lema": "sospirare",
+   "classe": "verbo",
+   "forma": "imperativo, 2ª pessoa do singular",
+   "def": [
+    "Emitir suspiros."
+   ],
+   "nota": "A última palavra do soneto é a ordem do espírito de amor à alma de quem olha: «suspira»."
+  },
+  "la#2": {
+   "lema": "la",
+   "classe": "pronome pessoal",
+   "forma": "3ª pessoa do singular, feminino, átono",
+   "def": [
+    "Pronome feminino de complemento direto; a, ela."
+   ],
+   "nota": "Em «chi la mira», «quem a olha»; em «no la può», «não a pode»: sempre a dama."
+  },
+  "l’#2": {
+   "lema": "il",
+   "classe": "artigo definido",
+   "forma": "elidido diante de vogal",
+   "def": [
+    "Forma elidida de «lo» e de «la»: o, a."
+   ]
+  },
+  "a#2": {
+   "lema": "a",
+   "classe": "preposição",
+   "def": [
+    "Indica o destinatário ou o termo de uma ação; a."
+   ],
+   "nota": "«A chi la mira» é «a quem a olha»; «a l’anima», «à alma»."
+  }
+ },
+ "ocorrencias": {
+  "9.6": "la#2",
+  "11.4": "la#2",
+  "11.8": "la#2",
+  "14.5": "l’#2",
+  "9.4": "a#2",
+  "14.4": "a#2"
+ }
+}

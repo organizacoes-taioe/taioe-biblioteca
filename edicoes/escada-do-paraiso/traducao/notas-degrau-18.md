@@ -5,7 +5,7 @@
   «falta de dor», o que não sente a dor da alma; Rader: _indolentia_, _stupidus_). Proponho fixar.
 - νέκρωσις ψυχῆς (título): «a morte da alma» (evitei «mortificação», que em português é a ascese).
 - πεπωρωμένη ἀμέλεια: «negligência que virou hábito» (Rader: _negligentia quae in usum et habitum venit_).
-- πρόληψις: «presunção» (Rader: _praesumptionis partus_). προθυμία: «fervor».
+- πρόληψις: «preconceito» (Rader: _praesumptionis partus_; «presunção» ficou para οἴησις, degrau 22). προθυμία: «fervor».
 - αὐτεναντίος φιλόλογος: «um orador que fala contra si».
 - ἐγκράτεια: «abstinência» (é o comer). σωφροσύνη: «castidade» (o contexto é o olhar).
 - συναίσθησις ([18.5]): «cair em si».

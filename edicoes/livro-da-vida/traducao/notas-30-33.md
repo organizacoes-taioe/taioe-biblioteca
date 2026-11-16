@@ -16,6 +16,20 @@
 - [30.19] «acalca» → «acaba»; «i Oh» → «¡Oh».
 - [30.20] «mug» → «muy»; «sog» → «soy» (três vezes); «go» → «yo» (duas vezes); «a ánimas» → «las ánimas».
 - [30.21] «mug» → «muy»; «a ¡el Señor» → «a el».
+- [31.2] «Di jome» → «Díjome»; «sellas» → «a ellas».
+- [31.3] Falta um pedaço depois de «paciencia,»: o texto salta para «vi el padecer». Pelas outras edições, falta algo como «e fique eu assim até o fim do mundo. Pois, como desta vez…»; traduzido só o que está, com a ligação mínima («e, como vi o padecer…»). Vale conferir. Também «a ¡tanto» → sinal solto.
+- [31.6] «*poco ha» → asterisco solto; «no entendí qué habla gruesa» → «qué; habla gruesa».
+- [31.7] «otras personas lo hiciese» → «hiciesen».
+- [31.10] «que está al fin» → «están»; «inistante» → «instante».
+- [31.11] «confesor ;» → espaço antes do «;»; «luego!» → sinal solto.
+- [31.12] «d cuerpo» → «el cuerpo».
+- [31.13] «.me consuela» → ponto solto.
+- [31.17] «el mesmo mundo los matará» → «la matará»; «E] mundo» → «El»; «falta^ue» → «falta que»; «en fcl otro» → «en el otro»; «ánimo ;» → espaço.
+- [31.18] «esta causa, Como» → «causa. Como».
+- [31.22] «per.der» → «perder»; falta o «¿» inicial; «Andas… juntarte» pode ser «Andamos… juntarnos» (o resto da frase está em «nós»); mantido «Andas».
+- [31.23] «a ¡no» → sinal solto.
+- [31.24] «Y (ansí» → parêntese solto; «so yo» → «soy yo».
+- [31.25] «pa que» → «para que»; «mijor*» → «mijor.».
 
 ## Termos e nomes
 
@@ -37,6 +51,18 @@
 - *fontecicas* [30.19] → «fontezinhas»; *al natural* → «tirado do natural»; *empapada* → «encharcada»; *debujada* → «pintada».
 - Latim [30.19], com a tradução entre colchetes (§ 5): _Domine, da mihi aquam_ [Senhor, dai-me água] (a Cristo, com «Vós»).
 - *menudencias* [30.22] → «miudezas».
+- *agua bendita* [31.2–31.10] → «água benta»; *bendito* (a água) → «bento». *Santiguarse* → «benzer-se» (como no cap. 29); *piedra azufre* [31.6] → «enxofre».
+- *negrillo* [31.3] (o demônio em figura) → «negrinho»; *regañar* → «rosnar» (mostrar os dentes, como cão).
+- *recreación* [31.4] (o que a água benta lhe dá) → «alívio»; *refrigerio* → «refrigério»; *regálame* (não é regalo de Deus) → «alegra-me».
+- *noche de las ánimas* [31.10] → «noite de Finados» (a véspera de 2 de novembro); *noturno* → «noturno»; *rezado* [31.10, 31.23] (o ofício divino) → «ofício».
+- *espantajos* [31.10] → «espantalhos»; *despeñarse* [31.9] → «despenhar-se».
+- *un fraile dominico* [31.12] (Pedro Ibáñez, segundo os editores) → «um frade dominicano», sem nome; *corrida* → «envergonhada» (também *correrse* [31.24]).
+- *dotar en otro monesterio muy más encerrado* [31.13] → «levar o meu dote para outro mosteiro, de clausura muito mais estrita».
+- *punto de honra* [31.20–31.21] → «ponto de honra» (tabela); *atamiento* → «atadura»; *ligadura* → «amarra»; *dar tras* → «ir atrás de».
+- *hormiguilla* [31.21] → «formiguinha»; *oruga* → «lagarta»; *medrar* → «crescer» (§ 3a); *canto de órgano* → «canto a várias vozes» («canto de órgão» seria termo raro; é a polifonia).
+- *testimonios* [31.22] (contra Cristo) → «falsos testemunhos»; *naderías y poquedades* → «ninharias e pequenezes»; *pajitas* → «palhinhas» (as *pajas* de [30.20]).
+- *de puro honrosa* [31.23] → «de puro zelosa da honra»; *tomé por mí* → «tomei por norma»; *la negra honra* → «a negra honra»; *las niñas* (as mais novas do mosteiro) → «as meninas».
+- *tomo* [31.24, 31.25] → «peso» (como nos lotes anteriores); *coger los mantos* → «recolher os mantos»; *arenitas* [31.25] → «grãozinhos de areia».
 
 ## Passagens difíceis
 
@@ -49,3 +75,15 @@
 - [30.18] *ni la da vida, ni muerte, ni placer ni pesar* → «nem lhe dá vida nem morte, nem prazer nem pesar» (ao pé da letra: nada lhe faz diferença).
 - [30.19] *Esto tiene los grandes ímpetus… a quien Dios los da* → «Isto trazem os grandes ímpetos… em quem Deus os dá».
 - [30.20] *ella muere porque no se mate* → «ela morre para que ele não se apague» (o fogo).
+- [31.5] *Hízome gran provecho ver que, aun no siendo… hace tanto mal, ¿qué hará…?*: posto «ver que, se ele, mesmo não sendo…, faz tanto mal, que fará…?» (acrescentado «se»).
+- [31.7] *escribía a cierta persona que él me dijo podía dar las cartas* → «escrevia-lhe por certa pessoa que ele me disse que podia entregar as cartas» (ela escrevia ao padre por meio de um terceiro).
+- [31.11] *ni querría parecer lo que no hago* → «nem quereria parecer o que não faço». Outras edições pontuam *ni querría parecer; lo que no hago cuando tengo persecuciones* (e o parágrafo seguinte começa aí); esta edição divide antes de *Cuando*, e a tradução segue a divisão dela.
+- [31.12] *Dábame algunas veces, y duróme hartos días… Cuando pensaba…*: o objeto de *dábame* é o tormento que vem depois; o meio (virtude aparente, o frade dominicano) foi posto entre parênteses e o fecho depois de dois-pontos.
+- [31.13] A fala de Deus ficou em discurso indireto, como no original («o Senhor me disse que de que tinha medo…»).
+- [31.17] *no consentir faltas en los buenos, que a poder de mormuraciones no las perfecione* → «não consentir faltas nos bons, que à força de murmurações não os aperfeiçoe» (lido: o mundo não perdoa as faltas dos bons e, à força de murmurar, acaba por aperfeiçoá-los). *Aunque más la tengan debajo de los pies* → «por mais que a tenham [a terra] debaixo dos pés».
+- [31.18] A frase longa (*Como comienzan… desconsuélanse*) fica inteira; *que no nos la podemos nosotros tomar* → «que nós não as podemos tomar por nós mesmos». A frase seguinte (*Como es un no se nos dar nada…*) enumera essas coisas, sem verbo principal; mantida.
+- [31.19] *no me hacía con ella* → «não me entendia com ela»; o parêntese (*porque como tiene diferente estado…*) foi marcado, para «posto que… vi que me davam pena» se ler.
+- [31.21] *si no quitan esta oruga, que ya que a todo el árbol no dañe…, mas todas carcomidas*: anacoluto do original (falta a oração principal); mantido.
+- [31.23] *Luego se pone delante el buen enjemplo* → «Logo se põe diante o bom exemplo» (ao pé da letra: o pretexto de não dar mau exemplo vem logo à frente). *La negra honra me quitaba supiese hacer esto* → «a negra honra me tirava que soubesse fazer isto».
+- [31.24] *cosas poquitas como estas, que en ser hechas por Dios les da Su Majestad tomo, ayuda su Majestad para cosas mayores* → «com coisas pequeninas como estas, a que Sua Majestade, por serem feitas por Deus, dá peso, Sua Majestade ajuda para coisas maiores» (acrescentado «com»).
+- [31.25] *los tomará mijor* → «tomará melhor os dele» (os princípios grandes de quem ler).

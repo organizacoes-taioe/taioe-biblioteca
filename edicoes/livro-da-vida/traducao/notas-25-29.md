@@ -23,6 +23,22 @@
 - [26.3] «no temía sosiego» → «ternía»; «y qué sea letrado» → «y que sea»; «padecido)» → parêntese solto.
 - [26.4] «haciendo lo. contrario» → ponto solto.
 - [26.6] «haga sabido» → «haya sabido»; «go» → «yo» (duas vezes); «Amén,» → «Amén.».
+- [27.1] «le llevaba para el cielo» → provável «me llevaba» (traduzido «me levava»).
+- [27.2] «vía ser E] el que» → «ser El»; «a] principio» → «al principio».
+- [27.3] «a mi- parecer» → hífen solto; «mijor 10 darán» → «mijor lo darán»; «Porque parecer que es» → provável «Porque decir que es» (traduzido «dizer»); «Tray» → «Trae» (ou forma dela).
+- [27.4] «téngalo en mucho á ftuien lo ha dado ;» → «a quien se lo ha dado;».
+- [27.5] «creerlo hía» é mesóclise do original (= lo creería): desfeita («eu o creria»).
+- [27.6] «del alma¡ y allí» → «del alma, y allí».
+- [27.7] «a mi noticia a que esto» → «a» sobrando.
+- [27.11] «beninidad» → «benignidad» (talvez forma dela); «fuera de Vos, ¡Oh» → «fuera de Vos. ¡Oh».
+- [27.12] «decir ;» → espaço antes do «;».
+- [27.13] «para siempre. No lleva» → falta o «?» da pergunta; «oyóme tan tarde» → provável «oíme» (traduzido «tão tarde me ouvi»).
+- [27.14] «traya» → «traiga» (ou forma dela); «i qué honrado» → «¡qué honrado»; «gustaban de verse» → «gustaba».
+- [27.15] «relisiosos» → «religiosos».
+- [27.16] «Y qué bueno» → falta o «¡» inicial.
+- [27.17] «se le quitaba}» → chave solta.
+- [27.18] O latim saiu estragado: «Laetatits satn in his qtiae» → «Laetatus sum in his quae».
+- [27.20] «Hela quí» → «Hela aquí»; «Di jome» → «Díjome»; «a] Señor» → «al Señor».
 
 ## Termos e nomes
 
@@ -53,6 +69,22 @@
 - *afrenta* [26.4] (ao contar as mercês) → «vergonha»; *desacato* → «desacato».
 - *libros de romance* [26.5] (os do Índice de 1559) → «livros em castelhano» (§ 3a); *libro vivo* → «livro vivo»; *nonada* → «nada» («é tudo nada»); *imprimido* → «impresso».
 - *proceso de mi vida* [26.6] → «relato da minha vida» (como *discurso de mi vida* [23.15]).
+- **Visão intelectual (cap. 27)**: ela não usa ainda a expressão; diz *visión… no imaginaria* (título), *no era visión imaginaria*, *esta manera de visión*; a tradução segue as palavras dela («visão… não imaginária», «visão imaginária», «esta maneira de visão»).
+- *cabe mí* [27.2, 27.3] → «junto de mim» (como *cabe sí* → «junto de si» [22.7]); *divertida* → «distraída».
+- *noticia* [27.3, 27.5, 27.10] (o conhecimento que se imprime na alma) → «notícia», o termo da mística (a «notícia amorosa» de São João da Cruz); em [27.7] *venir a mi noticia* (saber de algo) → «chegar ao meu conhecimento»; em [27.19] *la nueva* → «a notícia» (a nova da morte).
+- *influencias de la Divinidad* [27.4] → «influências da Divindade»; *la Humanidad Sacratísima* → «a sacratíssima Humanidade» (tabela).
+- *lenguaje* [27.6–27.7] → «linguagem».
+- *bullicio* [27.7] → «bulício», como em [20.19]; *manjar* → «manjar».
+- *guisado y comido* [27.8] → «preparado e comido»; *deprender* → «aprender»; *el Abecé* → «o abecê».
+- *no se sufre escribir* [27.9] → «não se pode escrever».
+- *de hito en hito* [27.10] → «fixamente», como em [20.28].
+- *acetador de personas* [27.12] → «não faz acepção de pessoas» (a forma bíblica em português); *no es cifra* → «não é nem um resumo»; *basura* → «lixo»; *río caudaloso* → «rio caudaloso» (aqui é rio de fato).
+- *el buen Jesú* [27.13] → «o bom Jesus»; *el Cirineo* → «o Cireneu»; *remedar* → «imitar»; *no lleva camino* → «não tem cabimento», como em [25.8]; *dar voces* → «clamar».
+- *gloria acidental* [27.14] (termo da teologia: a glória que se acrescenta à essencial) → «glória acidental»; *amadores de Cristo* → «quem ama de verdade a Cristo» (como *amadores* → «os que o amam» [11.11]).
+- *discretos*, *discreción* [27.15] (a prudência do mundo, irônica) → «sensatos», «sensatez» (§ 3a: *discreto* → «sensato»); *debujo* → «esboço».
+- **Pedro de Alcântara (27.3, 27.16–27.20)**: nomeado por ela, *Fray Pedro de Alcántara* → «frei Pedro de Alcântara» (§ 4). *Estaba grueso el espíritu* → «tinha o espírito robusto»; *repisar el mundo* → «pisar o mundo»; *volver por mí* → «tomar a minha defesa»; *maderillo* → «pedaço de madeira»; *capilla* → «capuz»; *sayal* → «pano grosseiro» («saial», «burel» seriam palavras raras); *mantillo* → «mantozinho»; *a tercero día* → «de três em três dias»; *flaqueza* (do corpo) → «magreza»; *sabroso* (na conversa) → «agradável».
+- Salmo [27.18] em latim, com a tradução entre colchetes (§ 5): _Laetatus sum in his quae dicta sunt mihi_ [Alegrei-me com o que me foi dito].
+- *San Hilarión*, *San Miguel, ángel* [27.1] → «Santo Hilarião», «São Miguel Anjo»; *andar novenas* → «fazer novenas».
 
 ## Passagens difíceis
 
@@ -72,9 +104,22 @@
 - [26.3] *Lo más siguro es, yo ansí lo hago… que no deje de comunicar*: o meio da frase foi posto entre parênteses, para «O mais seguro é… que eu não deixe de comunicar» se ler; *Esto muchas veces* → «Isto, muitas vezes» (frase sem verbo, como no original). *Me estorbaban aquellas penas que me daba de la oración* → «me estorvavam a oração aquelas penas que me dava».
 - [26.4] *Entendí entonces* (de Deus, na oração) → «Entendi então»: o verbo dela para as falas, sem acrescentar quem falou.
 - [26.5] *después Su Majestad le volvía* → «depois Sua Majestade o mudava» (mudava o parecer do confessor). *Yo no podía ya por dejarlos en latín* → «e eu já não podia, por estarem só em latim». A última pergunta (*y conozcan lo mucho que deben… haberlos librado*) passou ao singular, para concordar com «Quem vê».
+- [27.1] A primeira frase não tem verbo principal no original (*Pues tornando… con esta aflición… porque el Señor me llevase*); acrescentado «eu estava». *Que había de desear esto, ni creer que era demonio, no me podía forzar* → «que eu houvesse de desejar isto, ou crer que era demônio, não me podia forçar» (mantida a ordem dela).
+- [27.3] *ansí como es de las más subidas… ansí no hay términos*: os incisos (frei Pedro e os letrados) entre parênteses, para «assim como… assim…» se ler. *Porque esta sente com os sentidos*: acrescentado «esta» (a pessoa às escuras).
+- [27.5] As falas do diálogo com o confessor vão entre aspas; o resto do parágrafo, que é explicação dela, fica fora.
+- [27.7] *aunque aquí no se entiende el manjar… acá sí*: o *aquí* é a comparação e o *acá* a visão; traduzido «lá… cá», para não se confundirem.
+- [27.10] O parêntese *(lo que yo nunca supe cierto es ansí… en un arrobamiento)* foi marcado, para «assim como lá… assim é cá» se ler. *A lo que creo, lo he oído que es aquí* → «ao que creio, ouvi que é aqui» (que o versículo dos Cantares fala disto).
+- [27.13] *A mí me las querría dar siempre, y oyóme tan tarde…*: lido como «a mim mesma quereria clamar estas verdades sempre; e tão tarde me ouvi e entendi a Deus…».
+- [27.15] *que pienso hace más daño a las desventuras que pasan en estos tiempos, que no haría escándalo…*: passagem obscura; lido como «penso que fazem mais dano as desventuras que se passam nestes tempos do que faria escândalo a alguém darem os religiosos a entender por obras… o pouco em que se há de ter o mundo».
+- [27.16] *qué bueno nos le llevó Dios* → «que bom santo Deus nos levou» (acrescentado «santo», para evitar «no-lo»).
+- [27.17] Frase longa com o parêntese do amor que ele lhe tinha e o anacoluto *paréceme fueron cuarenta años los que me dijo*; mantidos.
+- [27.18] *con él lo he escrito* → «com esse medo o escrevi».
+- [27.19] *yo tenga más en él que en la vida* → «que eu tenha mais nele do que em vida» (mais ajuda dele morto do que vivo).
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
 
 - *plática* (de Deus à alma) → «conversa»: volta no cap. 26 e no *Castelo* (6.ª morada).
 - *frenesí* → «que delira».
 - *cuestión* [26.3] → «tormento».
+- *noticia* (mística) → «notícia»: proposta para a § 3a (volta no *Castelo*).
+- *sayal* → «pano grosseiro».

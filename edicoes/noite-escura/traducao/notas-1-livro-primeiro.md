@@ -86,3 +86,32 @@ purgación» até «todas las veces y todo el tiem-». Divergências do texto de
 - **alcoholando un rostro** (I,10,5: o pintor que pinta os olhos com «alcohol», o antimônio) → «retocando um rosto».
 - **renes** (Sl 72,21) → «rins».
 - O verso «¡Oh dichosa ventura!» citado na prosa (I,11,2 e 3) fica na prosa, com a forma fixa «Oh ditosa ventura!».
+- I,12,2 «anles no conocía» → «antes»; «Perqué» → «Porque»; «tiene más de veras éstas en esta tan excelente…
+  virtud» parece estropiado (talvez «tiene más de veras estas luces»); traduzido «tem mais de verdade estas luzes».
+  Conferir no fac-símile.
+- I,12,3 «a lie gar» → «llegar»; I,12,4 «na sólo» → «no sólo»; «Que la vejación hace entender Dios cómo en el alma
+  vacía…» → pontuação: «…hace entender; Dios, como en el alma vacía…, la va… instruyendo».
+- I,12,5 «corno de fundamento» → «como»; I,12,6 «no tía aquí a entender» → «no da»; falta ponto no fim de [6].
+- I,13,3 «acerca (I) de este vicio» → tirar «(I)»; «acos-» tumbrando» → «acostumbrando».
+- I,13,6 «habernos aquí dicho» → «habemos».
+- I,13,12 «tsabor» → «sabor»; «presumida ni satisfecha, tisfecha» → tirar «tisfecha» (sílaba repetida).
+- I,13,13 falta ponto antes de «Pues»; I,13,14 faltam pontos («…notada». Esto es…», «impedir. Los cuales»).
+- I,13,15 «que es lo que aquí llama el Señor su casa»: quem fala da «casa» é a alma; talvez erro por «el alma».
+  Traduzido ao pé da letra («o Senhor»). Conferir no fac-símile.
+- I,14,1 «atri-» bule» → «atribule»; I,14,2 «sugeridas (!)»: o «(!)» é de Silverio ou do OCR; tirado na tradução.
+- I,14,4 «dijo el Eclesiástico Él que» → «Eclesiástico: El que»; «diciendo Castigásteme» → dois-pontos.
+
+## Escolhas (cap. 12–14)
+
+- **pan con corteza** (I,12,1) → «pão com casca»; **muladar** → «monturo».
+- **impuesta, reformada y emprensada** (I,13,3) → «ensinada, reformada e domada».
+- **perder por punto de corto como antes perdía por largo** (I,13,1) → «perder por ponto de curto, como antes perdia
+  por comprido» (imagem do jogo: errar por falta, como antes por excesso).
+- **de por junto** (I,13,5) → «todas juntas».
+- **alzando de obra** (I,13,15) → «cessando de agir».
+- **aprovechantes y aprovechados** (I,14,1, os dois juntos) → «aproveitantes e aproveitados» (só aqui o par; em I,1,1
+  «aprovechantes» sozinho ficou «aproveitados»).
+- **apacentando y reficionando** → «apascentando e refazendo».
+- **Spiritus vertiginis** (Is 19,14) → latim em itálico, sem tradução (o autor não a dá).
+- **estímulos** (I,14,3) → «aguilhões».
+- **sujeto** (I,14,5: «los que tienen sujeto») → «capacidade».

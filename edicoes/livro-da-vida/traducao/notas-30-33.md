@@ -30,6 +30,19 @@
 - [31.23] «a ¡no» → sinal solto.
 - [31.24] «Y (ansí» → parêntese solto; «so yo» → «soy yo».
 - [31.25] «pa que» → «para que»; «mijor*» → «mijor.».
+- [32.3] «paderiendo» → «padeciendo»; «parecieron ;» → espaço.
+- [32.4] «m'e parece» → «me».
+- [32.5] «memento» → «momento».
+- [32.6] «a (un alma» → parêntese solto.
+- [32.8] «y pena; a los malos» → ponto e vírgula solto; «te había dado» → «le»; «disistir» → «digerir».
+- [32.9] «a lo que ¡en toda la Orden» → sinal solto e, provavelmente, falta «se guarda» (traduzido «o que se guarda»).
+- [32.10] «a ¿ni gusto» → «a mi».
+- [32.14] «fatigada ¡encomendándome» → sinal solto.
+- [32.15] «y <el alboroto» → sinal solto.
+- [32.16] «porque, nunca» → vírgula solta.
+- [32.17] «mats» → «mas».
+- [32.18] «a ,mí» → vírgula solta.
+- *relisión*, *relisiosos* (caps. 31–33, muitas vezes): no lote anterior se anotou *relisiosos* como erro; aqui é tão constante que talvez seja grafia da edição. Traduzido normalmente.
 
 ## Termos e nomes
 
@@ -63,6 +76,16 @@
 - *testimonios* [31.22] (contra Cristo) → «falsos testemunhos»; *naderías y poquedades* → «ninharias e pequenezes»; *pajitas* → «palhinhas» (as *pajas* de [30.20]).
 - *de puro honrosa* [31.23] → «de puro zelosa da honra»; *tomé por mí* → «tomei por norma»; *la negra honra* → «a negra honra»; *las niñas* (as mais novas do mosteiro) → «as meninas».
 - *tomo* [31.24, 31.25] → «peso» (como nos lotes anteriores); *coger los mantos* → «recolher os mantos»; *arenitas* [31.25] → «grãozinhos de areia».
+- **Inferno (32.1–32.7)**: *cifra* [32.0] → «resumo» (como em [27.12]); *callejón* → «beco»; *horno* → «forno»; *sabandijas* → «bichos asquerosos»; *alacena* → «armário embutido»; *agujero* → «buraco»; *atenazar* → «torturar com tenazes»; *debujo* → «desenho»; *desesperamiento*, *desesperación* → «desespero»; *apretamiento*, *ahogamiento* → «aperto», «sufoco»; *me tullí* → «fiquei entrevada» (§ 3a).
+- *estos luteranos* [32.6] → «estes luteranos».
+- *aposentada* [32.7] (onde os demônios a tinham posto) → «alojada»; *tan malísima* → «tão malíssima» (o superlativo dela fica).
+- *manjares más gruesos* [32.8] → «manjares mais grossos».
+- *Bula de relajación* [32.9] → «Bula de mitigação» (é a Regra mitigada; «relaxação» soaria estranho); *honestidad y relisión* → «recato e observância» (§ 3a); *regalo* (da casa) → «conforto» (§ 3a); *relajadas* (as ordens) [32.11] → «relaxadas» (aqui não é termo técnico).
+- *una persona* [32.10] (María de Ocampo, segundo os editores) → «uma pessoa», sem nome; *las Descalzas* → «as descalças» (as franciscanas descalças); *aquella señora mi compañera viuda* (dona Guiomar de Ulloa) → «aquela senhora viúva, minha companheira», sem nome; *dar trazas* → «dar traças»; *no llevaban mucho camino* → «não tinham muito cabimento» (§ 3a).
+- *premio* [32.12] (= *apremio*) → «obrigação» (§ 3a).
+- *mi perlado*, *el Provincial* [32.13–32.15] → «o meu prelado», «o provincial» (minúscula, como nos lotes anteriores); *admitir la casa* → «admitir a casa».
+- *un gran letrado… de la Orden de Santo Domingo* [32.16] (Pedro Ibáñez) → sem nome; *mayorazgo* → «morgado» (vai ao vocabulário); *hacienda* [32.17] → «os bens».
+- *el caballero santo* [32.18] (Francisco de Salcedo) e *el Maestro… el clérigo* (Gaspar Daza) → «o cavaleiro santo», «o Mestre… o clérigo», sem nome, como nos caps. 23–28.
 
 ## Passagens difíceis
 
@@ -87,3 +110,15 @@
 - [31.23] *Luego se pone delante el buen enjemplo* → «Logo se põe diante o bom exemplo» (ao pé da letra: o pretexto de não dar mau exemplo vem logo à frente). *La negra honra me quitaba supiese hacer esto* → «a negra honra me tirava que soubesse fazer isto».
 - [31.24] *cosas poquitas como estas, que en ser hechas por Dios les da Su Majestad tomo, ayuda su Majestad para cosas mayores* → «com coisas pequeninas como estas, a que Sua Majestade, por serem feitas por Deus, dá peso, Sua Majestade ajuda para coisas maiores» (acrescentado «com»).
 - [31.25] *los tomará mijor* → «tomará melhor os dele» (os princípios grandes de quem ler).
+- [32.0] *para lo que fué* → «em comparação com o que foi» (o que se representou é só um resumo).
+- [32.2] O parêntese (*porque fué encogérseme… causados de el demonio*) foi marcado, para «as dores corporais, tão insuportáveis que…, não é tudo nada» se ler; o anacoluto fica.
+- [32.3] *no es nada oirlo decir…, no es nada con esta pena*: a repetição de «não é nada» fica; o meio (*aunque pocas, que por temor…*) entre parênteses.
+- [32.5] *de un memento que se haya de sufrir lo que yo en él allí padecí* → «de um momento em que se haja de suportar o que eu ali padeci nele».
+- [32.6] *estotro que no le tiene* → «esta outra, que não o tem» (a pena do inferno, que não tem termo).
+- [32.7] *es peligrosa cosa contentarnos, ni traer sosiego ni contento el alma que anda cayendo…* → reordenado para «é coisa perigosa contentarmo-nos, e a alma que anda caindo… trazer sossego e contentamento». *Que no me deje de su mano para que yo torne a caer* → «não me largar da sua mão, para que eu não torne a cair» (o sentido pede a negação).
+- [32.11] São José guarda uma porta: *nos guardaría El* → «nos guardaria ele» (minúscula, porque é São José, e não Deus, apesar da maiúscula da edição). A pergunta *que qué sería de el mundo…* foi posta entre parênteses.
+- [32.12] *y como estaba tan contentísima en aquella casa, que…*: anacoluto do original (o «como» fica sem conclusão); mantido.
+- [32.14] *A mí, que bien me estaba en mi monesterio* → «A mim, que eu estava bem no meu mosteiro» (o que diziam a ela).
+- [32.16] *mas aunque yo esto decía, y me parece lo hiciera, porque…*: anacoluto do original; mantido.
+- [32.17] *de tal manera creo ser verdadera la revelación, como no vaya contra…* → «de tal maneira creio que a revelação é verdadeira: contanto que não vá contra…» (só a crê verdadeira dentro desse limite). *Manera de concierto y relisión* → «modo de ordem e de vida religiosa»; *se le asentó* → «assentou-se nele».
+- [32.18] A última frase fica sem conclusão (*Y estando en estos términos… tenía creído…*): a construção segue no cap. 33; o parêntese marca a fala do Senhor e a exclamação dela.

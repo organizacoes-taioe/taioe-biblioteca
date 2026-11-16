@@ -1,0 +1,536 @@
+{
+  "verbetes": {
+    "lo": {
+      "lema": "lo",
+      "classe": "artigo definido",
+      "forma": "neutro",
+      "def": [
+        "Artigo neutro: transforma em substantivo a palavra ou a oração que o segue."
+      ],
+      "nota": "No título, «lo fatal» é «o fatal», «o que é fatal»: o inevitável. No v. 9, «lo que no conocemos» é «aquilo que não conhecemos»."
+    },
+    "fatal": {
+      "lema": "fatal",
+      "classe": "adjetivo",
+      "def": [
+        "Que não se pode evitar; que depende do destino."
+      ],
+      "nota": "O sentido primeiro é o de destino, ligado ao latim «fatum»: aquilo que o destino impõe e que ninguém evita. É o sentido do título."
+    },
+    "dichoso": {
+      "lema": "dichoso",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Feliz, afortunado."
+      ],
+      "nota": "Abre o poema: feliz é quem quase não sente. O sentido vem de «dicha», felicidade."
+    },
+    "el": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido masculino singular. Antecede substantivos masculinos, indicando que devem ser tomados como informação conhecida."
+      ]
+    },
+    "árbol": {
+      "lema": "árbol",
+      "classe": "substantivo masculino",
+      "def": [
+        "Planta de tronco lenhoso, que se ramifica a certa altura do solo."
+      ]
+    },
+    "que": {
+      "lema": "que",
+      "classe": "pronome relativo",
+      "def": [
+        "Representa um antecedente já mencionado e introduz uma oração subordinada."
+      ]
+    },
+    "es": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Verbo de ligação: atribui uma qualidade ou identidade ao sujeito."
+      ]
+    },
+    "apenas": {
+      "lema": "apenas",
+      "classe": "advérbio",
+      "def": [
+        "Em muito pouca proporção ou intensidade; quase não."
+      ],
+      "nota": "Em «apenas sensitivo», «quase não sensível»: o árbol sente pouco, e por isso é feliz."
+    },
+    "sensitivo": {
+      "lema": "sensitivo",
+      "wiki": "en:Spanish",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Sensível."
+      ],
+      "nota": "Capaz de sentir; aqui, capaz de sentir só um pouco."
+    },
+    "y": {
+      "lema": "y",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção copulativa: une palavras, orações ou frases."
+      ]
+    },
+    "más": {
+      "lema": "más",
+      "classe": "advérbio",
+      "def": [
+        "Em comparação implícita ou explícita, indica maior quantidade, excesso, superioridade ou preferência."
+      ],
+      "nota": "No v. 2, «y más la piedra dura»: «e mais ainda a pedra dura», mais feliz que o árbol. No v. 3, «más grande»: o comparativo de «grande»."
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido feminino singular. Antecede substantivos femininos, indicando que devem ser tomados como informação conhecida."
+      ]
+    },
+    "piedra": {
+      "lema": "piedra",
+      "classe": "substantivo feminino",
+      "def": [
+        "Corpo duro e sólido, de natureza mineral; pedra."
+      ]
+    },
+    "dura": {
+      "lema": "duro",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que resiste a ser riscado, cortado ou deformado; que é difícil de penetrar."
+      ],
+      "nota": "A pedra «dura» é a mais insensível dos seres; por isso é mais feliz do que o árbol, que sente um pouco."
+    },
+    "porque": {
+      "lema": "porque",
+      "classe": "conjunção",
+      "def": [
+        "Introduz uma oração que expressa causa: pois."
+      ]
+    },
+    "esa": {
+      "lema": "ese",
+      "classe": "pronome demonstrativo",
+      "forma": "feminino singular",
+      "def": [
+        "Indica algo que está longe de quem fala e perto de quem ouve, ou que já foi mencionado."
+      ],
+      "nota": "Aqui «esa» é «essa», a pedra, que já foi nomeada: «porque essa já não sente»."
+    },
+    "ya": {
+      "lema": "ya",
+      "classe": "advérbio",
+      "def": [
+        "Indica que algo acontece ou aconteceu antes do momento esperado: já."
+      ],
+      "nota": "Em «ya no siente», «já não sente»: a pedra chegou ao ponto em que não sente mais."
+    },
+    "no": {
+      "lema": "no",
+      "classe": "advérbio",
+      "def": [
+        "Expressa negação."
+      ]
+    },
+    "siente": {
+      "lema": "sentir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Perceber algo por meio dos sentidos ou do ânimo."
+      ]
+    },
+    "pues": {
+      "lema": "pues",
+      "classe": "conjunção",
+      "def": [
+        "Indica causa ou explicação: porque, visto que."
+      ]
+    },
+    "hay": {
+      "lema": "haber",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (forma «hay»)",
+      "def": [
+        "Existir, estar presente."
+      ]
+    },
+    "dolor": {
+      "lema": "dolor",
+      "classe": "substantivo masculino",
+      "def": [
+        "Sensação desagradável, física ou moral; sofrimento."
+      ]
+    },
+    "grande": {
+      "lema": "grande",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "De tamanho, intensidade ou importância maiores que o normal."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica pertencimento, origem ou relação com algo."
+      ]
+    },
+    "ser": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Existir, ter vida."
+      ],
+      "nota": "Em «el dolor de ser vivo», «a dor de ser vivo»; e em «ser y no saber nada», «ser e não saber nada»: o verbo «ser» como existência."
+    },
+    "vivo": {
+      "lema": "vivo",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que tem vida."
+      ]
+    },
+    "ni": {
+      "lema": "ni",
+      "classe": "conjunção",
+      "def": [
+        "Indica a negação de um segundo elemento, depois de uma negação anterior: nem."
+      ]
+    },
+    "mayor": {
+      "lema": "mayor",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Maior em tamanho, quantidade ou importância (comparativo de «grande»)."
+      ]
+    },
+    "pesadumbre": {
+      "lema": "pesadumbre",
+      "classe": "substantivo feminino",
+      "def": [
+        "Sofrimento, mal-estar ou desgosto físico ou moral."
+      ],
+      "nota": "Aqui, no sentido moral: o peso da angústia que a consciência traz."
+    },
+    "vida": {
+      "lema": "vida",
+      "classe": "substantivo feminino",
+      "def": [
+        "Existência de um ser vivo; período em que ele existe."
+      ]
+    },
+    "consciente": {
+      "lema": "consciente",
+      "classe": "adjetivo",
+      "def": [
+        "Que sente, pensa, quer e age com pleno conhecimento e posse de si."
+      ],
+      "nota": "«La vida consciente» é a vida de quem tem consciência: é essa lucidez, e não o sofrimento da carne, a maior pesadumbre."
+    },
+    "saber": {
+      "lema": "saber",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Ter conhecimento de algo."
+      ]
+    },
+    "nada": {
+      "lema": "nada",
+      "classe": "pronome indefinido",
+      "def": [
+        "Nenhuma coisa."
+      ]
+    },
+    "sin": {
+      "lema": "sin",
+      "classe": "preposição",
+      "def": [
+        "Indica falta ou ausência de algo."
+      ]
+    },
+    "rumbo": {
+      "lema": "rumbo",
+      "classe": "substantivo masculino",
+      "def": [
+        "Direção seguida para chegar a um lugar ou a uma meta."
+      ],
+      "nota": "«Sin rumbo cierto»: sem direção certa. Ser sem saber para onde."
+    },
+    "cierto": {
+      "lema": "cierto",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que se sabe real, verdadeiro; que não oferece dúvidas."
+      ],
+      "nota": "Em «rumbo cierto», «rumo certo», seguro, definido."
+    },
+    "temor": {
+      "lema": "temor",
+      "classe": "substantivo masculino",
+      "def": [
+        "Medo que se sente de algo ou de alguém."
+      ]
+    },
+    "haber": {
+      "lema": "haber",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Verbo auxiliar, usado para formar os tempos compostos."
+      ]
+    },
+    "sido": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Existir; verbo de ligação."
+      ],
+      "nota": "«El temor de haber sido» é o medo de ter sido, de ter existido: a vida passada como motivo de temor."
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "def": [
+        "Artigo indefinido masculino singular."
+      ],
+      "nota": "Em «un futuro terror», «um terror futuro»: o adjetivo «futuro» vem antes do substantivo «terror»."
+    },
+    "futuro": {
+      "lema": "futuro",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que ainda não é, mas há de ser; que virá."
+      ]
+    },
+    "terror": {
+      "lema": "terror",
+      "classe": "substantivo masculino",
+      "def": [
+        "Medo muito intenso."
+      ]
+    },
+    "espanto": {
+      "lema": "espanto",
+      "classe": "substantivo masculino",
+      "def": [
+        "Sensação de grande medo ou assombro diante de algo."
+      ]
+    },
+    "seguro": {
+      "lema": "seguro",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Livre de perigo, dúvida ou risco; certo."
+      ],
+      "nota": "Em «el espanto seguro de estar mañana muerto»: o espanto certo, inevitável, de estar morto amanhã."
+    },
+    "estar": {
+      "lema": "estar",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Encontrar-se em determinado lugar, estado ou situação."
+      ]
+    },
+    "mañana": {
+      "lema": "mañana",
+      "classe": "advérbio",
+      "def": [
+        "No dia seguinte ao de hoje; amanhã."
+      ],
+      "nota": "Aqui, o advérbio, e não o substantivo: «estar mañana muerto» é «estar morto amanhã», num futuro próximo e certo."
+    },
+    "muerto": {
+      "lema": "muerto",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que perdeu a vida."
+      ]
+    },
+    "sufrir": {
+      "lema": "sufrir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Sentir dor, dano ou pena, física ou moral."
+      ]
+    },
+    "por": {
+      "lema": "por",
+      "classe": "preposição",
+      "def": [
+        "Indica a causa, o motivo ou a finalidade de algo."
+      ]
+    },
+    "sombra": {
+      "lema": "sombra",
+      "classe": "substantivo feminino",
+      "def": [
+        "Ausência de luz; aparência sem corpo, mistério."
+      ],
+      "nota": "Aqui, o desconhecido que vem depois da morte: «por la sombra y por lo que no conocemos». Sofrer pela vida e pela sombra."
+    },
+    "conocemos": {
+      "lema": "conocer",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Ter a noção, a experiência ou o trato de algo."
+      ]
+    },
+    "sospechamos": {
+      "lema": "sospechar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Imaginar algo com base em indícios."
+      ]
+    },
+    "carne": {
+      "lema": "carne",
+      "classe": "substantivo feminino",
+      "def": [
+        "Em sentido figurado, o corpo dos seres vivos, em oposição ao espírito."
+      ],
+      "nota": "Aqui, a carne em sentido cristão: a parte física do ser humano, dominada pelos desejos, que tenta e perturba o espírito."
+    },
+    "tienta": {
+      "lema": "tentar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Induzir ao desejo; provocar a tentação."
+      ],
+      "nota": "Mesmo verbo de «tentar», «tentação». Uma carne que tenta, com seus «frescos racimos»: a imagem do desejo."
+    },
+    "con": {
+      "lema": "con",
+      "classe": "preposição",
+      "def": [
+        "Indica companhia, meio ou instrumento."
+      ]
+    },
+    "sus": {
+      "lema": "su",
+      "classe": "pronome possessivo",
+      "forma": "plural",
+      "def": [
+        "Indica que algo pertence à terceira pessoa."
+      ]
+    },
+    "frescos": {
+      "lema": "fresco",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que tem uma temperatura agradavelmente baixa; viçoso, novo."
+      ]
+    },
+    "racimos": {
+      "lema": "racimo",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Conjunto de frutos (as uvas, por exemplo) ligados a um mesmo cacho."
+      ],
+      "nota": "Os «frescos racimos» da carne que tenta contrastam com os «fúnebres ramos» da tumba: os dois brotam da mesma planta, a vida, que termina em morte."
+    },
+    "tumba": {
+      "lema": "tumba",
+      "classe": "substantivo feminino",
+      "def": [
+        "Lugar onde se enterra um cadáver; sepultura."
+      ]
+    },
+    "aguarda": {
+      "lema": "aguardar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Esperar."
+      ]
+    },
+    "fúnebres": {
+      "lema": "fúnebre",
+      "classe": "adjetivo",
+      "forma": "plural",
+      "def": [
+        "Relativo aos mortos, ao enterro ou à morte."
+      ]
+    },
+    "ramos": {
+      "lema": "ramo",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Cada uma das partes que saem do tronco ou do caule de uma planta."
+      ],
+      "nota": "Os ramos fúnebres são os da tumba, que aguarda com eles: o fim da vida, em contraste com os cachos viçosos da carne."
+    },
+    "vamos": {
+      "lema": "ir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Mover-se de um lugar a outro."
+      ]
+    },
+    "adónde": {
+      "lema": "adónde",
+      "classe": "advérbio",
+      "def": [
+        "Pergunta o movimento ou a direção da ação: para onde."
+      ],
+      "nota": "Em «no saber adónde vamos»: ignorar para onde vamos. A grafia das edições correntes; a edição de 1905 traz «a dónde», em duas palavras."
+    },
+    "dónde": {
+      "lema": "dónde",
+      "classe": "advérbio",
+      "def": [
+        "Pergunta o lugar: onde."
+      ],
+      "nota": "Em «de dónde venimos»: de onde viemos."
+    },
+    "venimos": {
+      "lema": "venir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Dirigir-se a um lugar em direção a quem fala; vir."
+      ]
+    },
+    "que#2": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Introduz o segundo termo de uma comparação."
+      ],
+      "nota": "Segundo termo da comparação: «más grande que el dolor», «mayor pesadumbre que la vida consciente»."
+    }
+  },
+  "ocorrencias": {
+    "3.7": "que#2",
+    "4.4": "que#2"
+  }
+}

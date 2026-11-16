@@ -82,6 +82,13 @@ Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (regras gerais) e `original/LEIAME.m
 | schiecto; conversazione; per sentimento / per grazia | puro; convivência; quanto ao sentimento / quanto à graça |
 | giustiziere (o demônio); vita durabile; actualmente / mentalmente; orazione actuale | executor; vida perdurável; exteriormente / mentalmente; oração exterior |
 | pronomes | sem contrações literárias («to», «lha», «vo-lo»): «te dou isso», «dou-lhe isso» |
+| orazione vocale, mentale, continua; tempo ordinato; l'ore | oração vocal, mental, contínua; tempo marcado; as horas (do ofício) |
+| comunicarsi sacramentalmente / virtualmente; visitazione | comungar sacramentalmente / virtualmente; visitação |
+| liberale (amore); schiecto e liberale | generoso; puro e generoso |
+| intriso e impastato; condire; tenerezza (del corpo) | embebido e amassado; temperar; apego |
+| crociato amore; crociato desiderio; giuoco d'amore | amor crucificado; desejo cruciante; jogo de amor |
+| per unione / per grazia / per sentimento | quanto à união / quanto à graça / quanto ao sentimento |
+| sciolto dal corpo; grossezza del corpo; idioti; grossi e soctili | desatado do corpo; espessura do corpo; iletrados; rudes e sábios |
 | pazzo d'amore; impazzare (per le creature) | louco de amor; enlouquecer (pelas tuas criaturas) |
 
 ## Escritura e citações

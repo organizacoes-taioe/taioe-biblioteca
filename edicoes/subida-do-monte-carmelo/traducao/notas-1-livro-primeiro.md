@@ -52,6 +52,14 @@ Feitos: sumário do livro e capítulos 1 a 5 (43 blocos, iguais ao original até
   → «de modo remisso».
 - **apetito** → corrigido para «apetite(s)» em todo o arquivo, inclusive nos cap. 1–5, que tinham «apetito» no
   singular (a regra já era «apetite»).
+- I,13,6 **desabrido** → «insosso» (oposto a «saboroso»); I,13,7 **allanar la voluntad** → «aplanar a vontade».
+- I,13,9 **en su desprecio** → «em seu próprio desprezo».
+- I,13,11–12, versos do Monte (literal provisório, à espera do Versificador): «venir» → «vir» (como «vir à união»
+  em todo o livro); «gustarlo todo» → «gostar de tudo»; «arrojarte al todo» → «te lançar ao tudo»; o título
+  _Modo para no impedir al todo_ → _Modo de não impedir o tudo_. As linhas estão como no original (dísticos); não
+  conferi o corte no fac-símile.
+- I,14 e I,15: versos repetidos iguais aos da canção 1 (`0-argumento-e-prologo.txt`); as citações dos versos dentro
+  da prosa vão entre aspas “…” (o original usa «…»), com a mesma tradução.
 - I,6,7 «Declinabit… Quiere decir: Declinará» → «Há de desviar-se» (sem mesóclise).
 
 ## OCR (corrigir no original)
@@ -68,3 +76,7 @@ Feitos: sumário do livro e capítulos 1 a 5 (43 blocos, iguais ao original até
 - I,11,4 «este asida», «a el», «volara» → «esté», «a él», «volará»; I,11,6 «libre. sola» → «libre, sola»; I,11,8
   «ad Cor i nt ni os, diciendo-» → «ad Corinthios, diciendo:»; «los que tienes mujeres» → «tienen».
 - I,12,3 «responde c la aversión» → «a la»; I,12,4 «ceguera (.)»: sinal solto, tirar.
+- I,13,1 «habernos de tratar», «habernos, con el favor divino» → «habemos» (duas vezes); I,13,9 «lo hagan,;» → «lo
+  hagan;»; I,15,2 «no sale- el alma» → «no sale el alma».
+- I,13,1 «en el cuarto Libro, cuando habemos de tratar de los principiantes»: de novo a «quarta parte» (ver I,1,2);
+  traduzido ao pé da letra.

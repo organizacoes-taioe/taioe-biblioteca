@@ -33,6 +33,15 @@ Blocos iguais ao original, marcas no lugar. Grep de mesóclise sem resultado.
   ser dado».
 - II,19,9 **castillo de Emaús** → «povoado de Emaús» (_castellum_ = aldeia); **insipientes** → «insensatos».
 - II,19,11 **no se abrevie** → «não se estreite»; **impóngale en que** → «ensine-o a».
+- II,20,6 **entenderlo ha** → «há de entendê-lo»; **dirasme** → «me dirás».
+- II,21 **término** (modo de tratar com Deus, título e § 1–2) → «modo»; **términos** (limites naturais) → «termos».
+- II,21,1 o autor atribui a Acab a resposta a Isaías (Is 7,12 é Acaz): traduzido como está.
+- II,21,6 «fue a los madianitas… Balac, rey de ellos» (Balac era rei de Moab): traduzido como está.
+- II,21,8 **término que lleva el sol** → «curso que o sol leva»; **inficionarse** → «infeccionar-se»;
+  **pestilencia** → «peste».
+- II,21,11 **en buen romance** → «em bom romance» (= em língua vulgar; expressão ainda corrente); **espíritu de
+  entender al revés** → «espírito de entender às avessas»; **ingerir** (mentiras) → «meter de mistura».
+- II,21,12 **engañarlos has** → «hás de enganá-los».
 - **embestir** (a notícia que investe na alma) → «investir».
 
 ## OCR (corrigir no original)
@@ -93,3 +102,24 @@ Blocos iguais ao original, marcas no lugar. Grep de mesóclise sem resultado.
   esta», «les quise Dios» → «quiso», «humillarlos así Mas», «De ¡o cual», «Que quiere decir Ay», «les parecía.
   igafiarles» → «les parecía engañarles», «no los libro» → «libró», «verdadensimas», «del ciclo» → «cielo», «alguna
   mots» → «mota», «ti niebla» → «tiniebla», «de Jas tales».
+- II,20: latim restituído: _Slnive_ → _Ninive_; _filii sui Que_ → falta ponto; Jo 12,16 (_Hace non eognoverunf…
+  primum. sed… glorificatw» est Jesús, tune… hace_) → _Haec non cognoverunt… primum: sed… glorificatus est Jesus,
+  tunc… haec_; 1 Rs 2,30 (_Logucns… minisiraret… usgut… Y eruntamen_) → _Loquens… ministraret… usque… Verumtamen_;
+  Lm 3,47 (_Formido ci laqueas ¡acta est… rt contritio_) → _Formido et laqueus facta est… et contritio_; Jn 4,2
+  _praeoecupavi_ → _praeoccupavi_.
+- II,20 (espanhol): «Ninivo» → «Nínive»; «tal plaga» a este reino» → «tal plaga a este reino»; «que el les» → «él»;
+  «no te alargues ni arrojes en hablar» sem ponto; «Y dirasme… si no lo habernos» → «habemos»; «¿por que» →
+  «¿por qué»; «Jeremías;:»; «a los divinos profetas teman» → «tenían»; «Joñas» → «Jonás».
+- II,21: _vi non tentaba_ → _et non tentabo_; _ómnibus… locuntur tibi-_ → _omnibus… loquuntur tibi:_; 2 Cr 20,12
+  _(acere dehramub, hoc solum Imbemus residui, ui_ → _facere debeamus, hoc solum habemus residui, ut_ (a Vulgata
+  traz _agere_; pus _facere_, que é o que o OCR deixa ver: conferir na imagem); _susciíarer_ → _suscitarer_;
+  _¡ipsorum._ → _ipsorum:_; _mihiquf_ → _mihique_; Boécio _lamine… spemgue_ → _lumine… spemque_; _peceut_ →
+  _peccat_; _Dominas miscuit_ → _Dominus miscuit_.
+- II,21 (espanhol): «Aseguranse, como habemos dicho algunos» (vírgula); «gusta de el. como» → «de él, como»;
+  «responde Dios J» → «Dios?»; «esta Dios mal» → «está»; «condesciende pon aquella vía Como» → «por aquella vía.
+  Como»; «(y a veces» (parêntese sem fecho); «tí… mi» → «ti… mí»; «déselo» → «dáselo»; «habernos» → «habemos»
+  (duas vezes em II,21,4); «Josalat» → «Josafat»; «pioveas» → «proveas»; «DiOb» → «Dios»; «so enojó» → «se
+  enojó»; «ene jf do» → «enojado»; «Hallarse» → «hallarse»; «facilisirnarnente»; «put de» → «puede»; «maneas» →
+  «maneras».
+- II,21,11 nota de Silverio vazada no texto: «en que J Sap.. XI. 17. vinieron muchos» → tirar «J Sap.. XI. 17.»
+  (não traduzida).

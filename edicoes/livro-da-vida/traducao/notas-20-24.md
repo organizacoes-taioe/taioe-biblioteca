@@ -21,6 +21,16 @@
 - [20.27] «i Oh», «i Con» → «¡Oh», «¡Con».
 - [20.28] «i qué» → «¡qué»; «parécete» → «parécele»; «a ¡cerrar» → «a cerrar».
 - [20.29] «nada él allí» → provável «nada suyo allí» ou «él» sobrando (traduzido «nada seu»).
+- [21.1] «verdades, i Oh» → «verdades. ¡Oh»; «i qué» → «¡qué»; «reys» → «reyes».
+- [21.2] «go» → «yo» (três vezes); «hag» → «hay»; «sog» → «soy»; «tornóme» → «tórnome»; «mug» → «muy»; «regs» → «reyes».
+- [21.3] «i Oh» → «¡Oh»; «hag» → «hay» (duas vezes).
+- [21.4] «hag ga» → «hay ya»; «andamios» → «andamos».
+- [21.6] «si "os» → «si os» (aspas soltas).
+- [21.7] «i Oh» → «¡Oh»; «de ella ;» → espaço antes do «;».
+- [21.9] «pa sí» → «para sí»; «rabto» → «rapto» (como em [20.23]); «no lo puede más encarecer» → provável «puedo» (traduzido impessoal: «que mais não se pode encarecer»).
+- [21.10] «^n la tierra» → «en la tierra»; «relisión» → «religión».
+- [21.11] «más mijoradas, porque siempre las va favoreciendo más. Dios es alma suya» → pontuação trocada: «… favoreciendo más Dios. Es alma suya» (traduzido assim); «y ;me» → «y me».
+- [21.12] «destraba» → «destraída»; «grande secretos» → «grandes secretos».
 
 ## Termos e nomes
 
@@ -46,6 +56,16 @@
 - *tráfagos* [20.27] → «afãs»; *negro descanso* → «mísero descanso» (como *negros cuerpos* → «miseráveis corpos» [13.6]).
 - *motas* [20.28] (no copo de água ao sol) → «ciscos»; *vaso* (de beber) → «copo»; *de en hito en hito* → «fixamente».
 - *desvanecida* [20.29] → «aturdida»; *por vista de ojos* → «com os próprios olhos».
+- *dobleces* [21.1] → «fingimentos»; *tráfago* → «afã», como *tráfagos* → «afãs» [20.27].
+- *a voces* [21.2] → «em altos brados»; *estado* (para pregá-lo) → «estado».
+- *cornado* [21.5] (moeda de pouco valor) → «tostão» (a moeda de pouco valor que se lê no Brasil; «ceitil» seria palavra rara).
+- *parlar* [21.5] → «falar».
+- *atalaya* [21.6] → «atalaia».
+- *asidos* [21.7] → «apegados» (o contrário de *desasidos*, «desapegados»).
+- *olor* [21.9] (das flores das virtudes) → «perfume», como em [14.9] e [17.3].
+- *granjear el huerto* [21.10] → «cultivar a horta»; *juego de niños* → «brincadeira de criança».
+- *discreción y autoridad de su estado* [21.10] → «prudência e autoridade do seu estado» (aqui é o decoro do cargo, não o discernimento; como *discreción demasiada* → «prudência demasiada» [13.5]).
+- *asistentemente* [21.11] → «de perto»; *le luce* → «assim se nota nela».
 
 ## Passagens difíceis
 
@@ -60,6 +80,12 @@
 - [20.21] *u como embobecida*: o feminino singular vai com a alma, implícita, depois de «as potências tão absortas»; mantido.
 - [20.26] *aunque en esta nunca creo, y es ansí verdad, confesé culpa, harta culpa era tenerlos en algo*: lido como «ainda que disto, creio, nunca confessei culpa (e é assim verdade); bastante culpa era tê-lo em alguma conta». *Tuviéralos en mucho* → «eu o teria em muito» (sem mesóclise).
 - [20.29] *que, mal que le pese, se los hace cerrar*: o sujeito é Deus, implícito; acrescentado «Ele» e desfeito o «se los» («lhe faz fechar os olhos»).
+- [21.1] *¡Cómo les valdría mucho más procurarla…!*: o «la» não tem antecedente claro (o estado? a luz?); traduzido «procurá-lo» (o estado).
+- [21.4] *Todo lo hace aventurar la vida, que deseo muchas veces estar sin ella*: lido como «o que me faz arriscar tudo isto é ter a vida em pouco» → «Tudo isto me faz arriscar a vida, que muitas vezes desejo estar sem ela». *Crea se lo diría* → «creia que eu o diria» (sem «lho»).
+- [21.5] *a que no se abalance, y no hace nada*: lido como «e não lhe parece que faz nada» (o que faz lhe parece nada); *no es todo nada, sino contentar a Dios* → «tudo é nada, senão contentar a Deus».
+- [21.8] A frase *Considero… cuando una como yo… siento tanto…, ¿qué sería…?* começa em 3.ª pessoa e passa à 1.ª; mantido, com «se» no lugar de *cuando*.
+- [21.9] *Pues dicho ya estos efetos…*: frase sem verbo principal no original; traduzida como frase inteira («Pois já ficam ditos estes efeitos…»). *Sin ninguno nuestro* → acrescentado «trabalho» («sem nenhum trabalho nosso»).
+- [21.10] *aprovecharía más en un día que pospusiese*: o singular é a pessoa grave; posto no plural, para concordar com «pessoas graves».
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
 

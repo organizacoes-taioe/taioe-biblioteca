@@ -13,6 +13,13 @@
 - [3.2] «K» → «A» (*A cabo*).
 - [3.6] «llevarios» → «llevarlos».
 - [3.7] «lo que-» → «lo que» (hífen solto).
+- [4.2] «voluntad la hora» → «voluntad. A la hora» (falta ponto e «A»); «después, Aun» → ponto antes de «Aun»; «Amén,» → «Amén.».
+- [4.3] «i oh» → «¡oh»; «go» → «yo».
+- [4.4] «mí»» → «mí,»; «a (mostrar» → «a mostrar» (parêntese solto).
+- [4.6] «pa» → «para».
+- [4.7] «presfv;te» → «presente».
+- [4.8] «R» → «A» (*A personas*).
+- [4.9] «estai*» → «estas»; «hacia» → «hacía».
 
 ## Termos e nomes
 
@@ -25,6 +32,8 @@
 - *discreto, discreción* (juízo, bom senso) → «sensato», «discernimento»; «discreto» hoje se lê «reservado». *Avisado* → «sensato».
 - *regalo, regalada* entre pessoas (mimo, conforto) → «carinho», «mimada»; «regalo(s)» fica para os de Deus.
 - *la Religión* (a vida em ordem religiosa) → «a vida religiosa».
+- Fala a Deus: o pronome átono segue a caixa da edição: *os* → «vos» minúsculo; *Vos* → «Vós/Vos» maiúsculo.
+- *Tercer Abecedario* (de Francisco de Osuna) → _Terceiro Abecedário_, em itálico, como título de livro.
 - *enemiguísima de ser monja* → «muitíssimo contrária a ser monja».
 
 ## Passagens difíceis
@@ -34,3 +43,6 @@
 - [2.1] *desenvolvíamonos para leer en ellos* → «arranjávamos tempo para lê-los».
 - [2.7] *no está el negocio en guardarnos de los hombres, sino en no nos guardar de descontentaros*: mantido ao pé da letra («o negócio não está em nos guardarmos dos homens, mas em não nos guardarmos de Vos descontentar»).
 - [2.8] *Traía un desasosiego, que en ocho días… estaba muy más contenta*: lido como «trazia uma inquietação tal que em oito dias… estava muito mais contente» (a inquietação da vida de antes fez que logo se achasse melhor no mosteiro).
+- [4.2] *si me ayudo al principio a determinarme… Aun en esta vida lo paga*: o meio da frase (Deus quer que a alma sinta o espanto no começo, e quanto maior, maior o prêmio) foi posto entre parênteses, para a frase principal correr.
+- [4.7] A primeira frase fica truncada, como no original (*que al fin de este tiempo… parecíame casi imposible tanta guarda*); *mas por esto pasaba yo* lido como «mas nisto eu passava por cima», entre parênteses.
+- [4.8] *tiénele mayor*: lido como «corre maior perigo». *Sino en lugar de la oración mental* → «ao menos em lugar da oração mental».

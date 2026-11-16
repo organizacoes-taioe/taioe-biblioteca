@@ -95,6 +95,8 @@ Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (regras gerais) e `original/LEIAME.m
 | e' miei cristi; unti; cellaio; mughiare | os meus cristos; ungidos; adega; bramir |
 | prelazione; sudditi; colore (pretexto); viltá; secolari | prelatura; súditos; pretexto; abjeção; seculares |
 | actualmente (da comunhão) | realmente, de fato (nunca «exteriormente» aqui) |
+| scellerato; tapinello; spilonca di ladroni; acceptatore delle creature | perverso; desventurado; covil de ladrões; fazer acepção de pessoas |
+| pena ingrassativa; conversare; pascere (le pecorelle) | pena que nutre; conviver; apascentar |
 | pazzo d'amore; impazzare (per le creature) | louco de amor; enlouquecer (pelas tuas criaturas) |
 
 ## Escritura e citações

@@ -1003,6 +1003,9 @@ BIBLIOTECA.autor({
   vida: '1347–1380',
   ordem: 'Catarina de Sena, Santa',
   nota: 'Terciária dominicana de Sena, mística e conselheira de papas, doutora da Igreja e padroeira da Itália e da Europa. Em tradução do italiano, com o original ao lado.'
+});
+
+BIBLIOTECA.autor({
   id: 'sao-joao-climaco',
   area: 'catolicismo',
   nome: 'São João Clímaco',

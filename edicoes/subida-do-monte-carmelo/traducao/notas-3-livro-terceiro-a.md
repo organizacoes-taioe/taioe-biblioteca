@@ -1,7 +1,7 @@
 # Notas do tradutor: livro III, capítulos 1–23 (lote 4)
 
-Situação: capítulos 1–15 prontos (memória); 16–23 (vontade) em andamento. Blocos e marcas conferidos por script
-contra o original até onde está feito. Grep de mesóclise sem resultado.
+Situação: capítulos 1–23 prontos (o arquivo inteiro). Blocos (133) e marcas conferidos por script contra o original.
+Grep de mesóclise sem resultado.
 
 ## Escolhas
 
@@ -21,6 +21,16 @@ contra o original até onde está feito. Grep de mesóclise sem resultado.
 - **versillos del Monte** (III,15,2) → «versinhos do Monte».
 - **inclita adoración de las imágenes** (III,15,3) → «ínclita adoração das imagens»: «adoração» no sentido largo da
   época (veneração); mantido por fidelidade. Candidata ao `revisao.json`.
+- **Dt 32,15** (III,19,2, os quatro graus, repetido em 19,5, 19,7 e 19,8): «Empachose el amado y dio trancos hacia
+  atrás. Empachose, engrosose y dilatose. Dejó a Dios su hacedor, y alejose de Dios su salud» → «Fartou-se o amado e
+  deu passos para trás. Fartou-se, engordou e dilatou-se. Deixou a Deus, que o fez, e afastou-se de Deus, sua
+  salvação» (igual nas quatro ocorrências; «hacedor» sem «Criador», que é termo fixo para *Criador*).
+- **estados, oficios** (bens temporais, III,18) → «posições, cargos».
+- **báculo** (III,17,2) → «bordão».
+- **fornicio** → «fornicação»; **atahonas** → «moinhos»; **triaca** → «antídoto»; **régulo** → «basilisco»;
+  **disquijarabas los leones** → «quebravas as queixadas dos leões»; **lacillo y liga** → «laçozinho e visgo».
+- **conveniencia angelical** (III,23,4) → «conformidade angélica»; **evacúa las digresiones** → «esvazia as divagações».
+- **el Poeta** (III,22,6): Ovídio (*principiis obsta*), dado pelo autor em espanhol; traduzido do espanhol dele.
 - Escritura: o autor cita de memória e em espanhol; traduzido do espanhol dele, sem itálico nem aspas.
 
 ## OCR (para o principal corrigir o original)
@@ -58,3 +68,25 @@ contra o original até onde está feito. Grep de mesóclise sem resultado.
 - III,15,2: «umversalmente» → «universalmente». «en el capítulo del primer libro»: falta o número (é o cap. 13 do
   livro I, onde estão os versos do Monte); traduzido ao pé da letra, sem número; conferir na imagem.
 - III,15,3: «hofnbres».
+- III,16,1: trecho embaralhado pelo OCR: «como dice San S Sin obras» (= Santiago), «haber ahora de Ira; r de la
+  noche» (= tratar), «la que se ribe» (= escribe), «de to a u ánima» (= toda tu ánima), «todo lo; e el hombre
+  spintual» (= todo lo que el hombre espiritual), «enterarla» (talvez «enseñarla»; traduzido «ensiná-la»), latim
+  «Forütudinem meam ad te cusiodiam» → _Fortitudinem meam ad te custodiam_ (corrigido na tradução).
+- III,16,5: «lás del otro».
+- III,18,3: «si no siente en ellos sirve más a Dios» (= «si no es que en ellos sirve…»; traduzido assim); «sino en sí
+  sirve» → «sino en si». III,18,4: «hacerlos doblado hijos de perdición que fueron ellos» (falta «más»). III,18,6:
+  «como si no 1 tí tuviese» → «no la tuviese»; a última frase do parágrafo está incompleta no OCR («que poner el gozo
+  en otra cosa… porque lo demás es vanidad»): traduzido «é vaidade, porque o resto é vaidade», conferir na imagem.
+- III,19,7: trecho embaralhado: «pecados morales por Y tercer grado nota … su acedor). En ste rado … tienen as
+  potencias … del mundo riquezas» = «pecados mortales por la codicia (y este tercer grado nota… Dejó a Dios su
+  hacedor). En este grado … tienen las potencias … del mundo, riquezas…». Traduzido assim; conferir na imagem.
+- III,19: Silverio salta do [10] para o [12]; ficou igual. III,19,10: «desespesandose» → «desesperándose»; «de tal
+  dios e consigue» → «se consigue». III,19,12: «in reprobutn» → _in reprobum_ (corrigido na tradução).
+- III,20,1: «Nuesiro», «Porqiu-». III,20,4: falta ponto depois de «no las hace»; «habernos» → «habemos».
+- III,21,1: «mis conocido» → «más conocido».
+- III,22,2: «complacencia g deleite», «adulación i) alabanzas», «en cierto manera», «la Fuerza d I espíritu», «lo
+  vera»; a frase «mas debe vivir… que en la fuerza del espíritu» está sem o «más» (traduzido «antes deve viver… mais
+  na fraqueza do sentido que na força do espírito»).
+- III,22,6: «i perniciosa», «gozaisc u complacerse», «cuántos, males», «alicionarse a lo lal» (= aficionarse a lo
+  tal), «y (i I la medicina» (= y la medicina).
+- III,23,2: «seseguirle». III,23,4: «alma ij sentido» (= y sentido), «lo tal. pues» (ponto solto).

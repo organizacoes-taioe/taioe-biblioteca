@@ -21,6 +21,14 @@
 - [15.13] «Torna tu cruz» → «Toma tu cruz».
 - [15.14] «de]» → «del».
 - [15.15] «io» → «lo».
+- [16.1] «mug» → «muy»; «él hortolano» → «el hortolano»; «ga» → «ya»; «magor» → «mayor».
+- [16.2] «querese» → «quererse».
+- [16.3] «Habíanse» → «Háblanse»; «pa» → «para»; «;quc» → «que»; «él Evagelio» → «el Evangelio».
+- [16.4] «i Cuál» → «¡Cuál»; «ansí!Toda» → «ansí! Toda»; «alábenos» → «alábeos» (louvem-vos); «primitáis» → «permitáis».
+- [16.5] «i Oh» → «¡Oh»; «viendo os puede servir» → «viviendo os puede servir»; «treco» → «trueco».
+- [16.6] «i Oh» → «¡Oh»; «pa» → «para».
+- [16.7] «ga» → «ya» (duas vezes); «go» → «yo» (duas vezes); «sog» → «soy».
+- [16.8] «i Oh» → «¡Oh»; «hag» → «hay» (duas vezes); «mug» → «muy».
 
 ## Termos e nomes
 
@@ -39,7 +47,7 @@
 - *holgarse* (Deus com os homens) [14.10] → «alegrar-se» («folgar» se lê hoje como «descansar»).
 - *Emperador* → «Imperador», como em [11.10].
 - *resolgar* [15.1] → «respirar»; *centellica* → «centelhazinha» (diminutivo dela); *pequeñita* → «pequenina».
-- *ollas de Egito* [15.3] → «panelas do Egito» (a forma da tradição bíblica em português).
+- *ollas de Egipto* [15.3] → «panelas do Egito» (a forma da tradição bíblica em português).
 - *aparejarse* [15.5] → «dispor-se» (como *aparejo* → «disposição», § 3a).
 - *bullir* (a memória) [15.6] → «agitar-se»; *cordura* → «sensatez»; *moledor* (o entendimento que não para) → «moinho» (guarda a imagem; a alternativa seria «importuno»).
 - *pláticas* [15.7] → «discursos»; *relatar el entendimiento* → «discorrer o entendimento»; *pajitas* → «palhinhas».
@@ -49,6 +57,17 @@
 - *interesal* [15.10] → «interesseira»; *sueldo* → «soldo».
 - *temor servil* × *fiel temor* [15.14] → «temor servil» × «temor fiel».
 - *descrecer* [15.12] → «diminuir».
+- *sueño de las potencias* [16.1] → «sono das potências» (tabela); *agua corriente de río o de fuente* → «água corrente de rio ou de fonte».
+- *candela* [16.1] (a vela que se põe na mão do moribundo) → «vela».
+- *simpleza* [16.2] (dela, = pouco saber) → «simplicidade»; em [15.8] *simpleza* (o modo de pôr-se diante de Deus) ficou «singeleza».
+- *en un punto* [16.2] → «num instante».
+- *divertirse* [16.3] (das potências) → «distrair-se»; *estudio* (esforço) → «empenho».
+- *coplas* [16.4] → «coplas» (os versos que ela fazia; a «pessoa» é ela mesma).
+- *seso* [16.4, 16.6, 16.7] → «juízo» («ter juízo demais», «têm muito juízo»).
+- *cumplimientos* [16.4] (do mundo) → «obrigações».
+- *delgada y pesadísima cruz* [16.5] → «leve e pesadíssima cruz» («delgada» se leria só como «fina»; o paradoxo é o de leve × pesada).
+- *sufrimiento que la sufra* [16.5] → «paciência que a suporte».
+- *concierto* [16.7] (o combinado entre os cinco) → «acordo».
 
 ## Passagens difíceis
 
@@ -62,5 +81,8 @@
 - [15.10] *Mas cosa que pone el demonio… no tornará muchas veces el demonio*: o anacoluto do original fica.
 - [15.12] *Vienen veces que es menester…*: a frase dá voltas no original; reordenada para que o sujeito («estes, que já têm a vontade tão posta na dele») venha antes de «precisam».
 - [15.16] *y no anden las almas tan fatigadas*: lido como finalidade → «e isto para que as almas não andem tão aflitas».
+- [16.6] *¡Oh hijo mío!… sea sólo para vos algunas cosas*: ela passa do «vós» do vocativo ao «Vossa Mercê»; os dois ficam, como no original. O parêntese explica o «filho» (o confessor pediu que o chamasse assim). *Por amor de quien por nosotros se lo llamaron* → «por amor daquele a quem por nossa causa chamaram assim» (Cristo, chamado louco).
+- [16.6] *quiero que me lo muestre* → «quero que me mostre isso» (sem «mo»); *no me lo consienta* → «não me consinta isso».
+- [16.7] *que no se les daba más… perderlo todo que ganarlo todo* → «que a eles tanto lhes fazia… perder tudo ou ganhar tudo».
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)

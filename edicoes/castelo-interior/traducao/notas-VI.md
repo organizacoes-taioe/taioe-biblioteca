@@ -9,6 +9,12 @@
 - *En Él esperan* → «Nele esperam» (maiúscula de reverência mantida no pronome).
 - *libro de romance* (VI.1) → «livro em castelhano» («romance» em português se leria como novela).
 - *cuerdo* (do confessor, VI.1) → «prudente» (com a ironia dela: prudente demais e pouco experiente).
+- *palomica* (VI.2) → «pombinha» (como *mariposica* → «borboletinha»).
+- *silbo* (VI.2, o chamado do Esposo) → «assobio» (alternativa: «sopro», «chamado»; o termo de Teresa e de São João da Cruz).
+- *embebecimiento* → «embevecimento».
+- *antojo* → «fantasia»; *antojar* (VI.2) → «imaginar».
+- *por las adefueras* (VI.2) → «do lado de fora».
+- *olor* (VI.2) → «perfume».
 
 ## Passagens difíceis
 
@@ -26,5 +32,6 @@
 - VI.1, «que yino él a entender»: *yino* por *vino*.
 - VI.1, «son aún más recio que lo dicho»: esperava-se *recias* (concordância de Teresa ou do OCR).
 - VI.1, «la decía le avisase»: leitura normal (*laísmo* dela), não é erro.
+- VI.2, «del demomonio»: *demomonio* por *demonio*.
 
 ## Decisões delicadas (candidatas ao dono)

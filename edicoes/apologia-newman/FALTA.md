@@ -17,9 +17,9 @@ Palavras do original (sem cabeçalho); parágrafos contam as notas do autor (`¤
 | arquivo | parágrafos | palavras | situação |
 |---|---:|---:|---|
 | 00-prefacio.txt | 44 | 6.657 | traduzido |
-| 01-capitulo-1.txt | 68 | 11.911 | **em parte**: §§ 1–20 traduzidos (2.249 palavras); faltam §§ 21–68 (9.662) |
-| 02-capitulo-2a.txt | 37 | 9.499 | por traduzir |
-| 03-capitulo-2b.txt | 88 | 9.353 | por traduzir |
+| 01-capitulo-1.txt | 68 | 11.911 | traduzido (lote 1) |
+| 02-capitulo-2a.txt | 37 | 9.499 | traduzido (lote 1) |
+| 03-capitulo-2b.txt | 88 | 9.353 | traduzido (lote 1) |
 | 04-capitulo-3a.txt | 53 | 9.015 | por traduzir |
 | 05-capitulo-3b.txt | 84 | 9.672 | por traduzir |
 | 06-capitulo-4a.txt | 66 | 10.151 | por traduzir |
@@ -27,7 +27,7 @@ Palavras do original (sem cabeçalho); parágrafos contam as notas do autor (`¤
 | 08-capitulo-4c.txt | 101 | 9.227 | por traduzir |
 | 09-capitulo-5a.txt | 34 | 10.891 | por traduzir |
 | 10-capitulo-5b.txt | 49 | 4.958 | por traduzir |
-| 11-nota-a.txt | 59 | 3.952 | por traduzir |
+| 11-nota-a.txt | 59 | 3.952 | traduzido (lote 1) |
 | 12-nota-b.txt | 30 | 3.744 | por traduzir |
 | 13-nota-c.txt | 27 | 4.646 | por traduzir |
 | 14-nota-d.txt | 128 | 4.777 | por traduzir (calendário: CONVENCOES § 8) |
@@ -73,3 +73,14 @@ Termos novos que valham para o livro todo: propor nas notas e na lista abaixo (o
    capítulo, o que é acréscimo nosso.
 3. **Capítulo IV em 3 partes** com o «§ 2.» do autor no meio da 2ª: o corte em § 2 daria uma parte de 15 mil
    palavras. Sugestão: manter assim.
+
+## Lote 1 (2026-11-16): dúvidas para o principal
+
+4. **`03-capitulo-2b.txt`, §§ 74–76**: no impresso são a continuação da nota do autor [2] (desafio aos evangélicos e
+   as duas fórmulas de absolvição), mas o `montar.py` os deixou no corpo. Original e tradução estão iguais (88
+   parágrafos). Sugestão: juntá-los ao `¤ [2]` nos dois arquivos de uma vez.
+5. **`[Greek: …]`** (cap. I § 55, cap. II-a §§ 27 e 35, Nota A § 56): ficaram como no Gutenberg. Sugestão: trocar
+   pelo grego (δαιμόνια; τῷ τέλει πίστιν φέρων; ὁ μέγας; α, β, γ, δ, ε, ζ) no original e na tradução.
+6. **Versos ingleses de um verso só**, citados na frase (cap. I §§ 35, 53, 60, 61; cap. II-a §§ 22, 34; Nota A § 57):
+   ficaram em prosa literal entre aspas, sem `| `; lista em `traducao/notas-*.md`. Sugestão: deixar assim.
+7. _Charge_ (carta pastoral do bispo) → «_Charge_», em itálico: proposta para o livro todo.

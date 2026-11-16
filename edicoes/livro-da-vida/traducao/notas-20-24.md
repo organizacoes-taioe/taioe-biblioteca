@@ -31,6 +31,17 @@
 - [21.10] «^n la tierra» → «en la tierra»; «relisión» → «religión».
 - [21.11] «más mijoradas, porque siempre las va favoreciendo más. Dios es alma suya» → pontuação trocada: «… favoreciendo más Dios. Es alma suya» (traduzido assim); «y ;me» → «y me».
 - [21.12] «destraba» → «destraída»; «grande secretos» → «grandes secretos».
+- [22.0] (título) «si el Señor no le vanta» → «no le levanta».
+- [22.1] «algunos . libros» → ponto solto; «Train» → «Traen».
+- [22.3] «impedimento, i Oh» → «impedimento. ¡Oh».
+- [22.6] «memento» → «momento»; «i Y», «i mas», «i Oh» → «¡Y», «¡mas», «¡Oh»; «que (mirándoos» → parêntese solto.
+- [22.8] «la merced el Señor hace» → «la merced que el Señor hace».
+- [22.9] «a 'rio procurar» → «a no procurar»; «comidámonos» (= comedámonos, «contenhamo-nos»): forma dela, talvez não seja erro.
+- [22.10] «vérnosle» → «vémosle».
+- [22.11] «presto*» → asterisco solto; «pobreza.de» → «pobreza de».
+- [22.13] «i Qué» → «¡Qué».
+- [22.15] «y en cuando» → provável «y cuando».
+- [22.17] «i qué», «i Oh» → «¡qué», «¡Oh».
 
 ## Termos e nomes
 
@@ -66,6 +77,22 @@
 - *granjear el huerto* [21.10] → «cultivar a horta»; *juego de niños* → «brincadeira de criança».
 - *discreción y autoridad de su estado* [21.10] → «prudência e autoridade do seu estado» (aqui é o decoro do cargo, não o discernimento; como *discreción demasiada* → «prudência demasiada» [13.5]).
 - *asistentemente* [21.11] → «de perto»; *le luce* → «assim se nota nela».
+- *Humanidad de Cristo*, *sacratísima Humanidad* → «Humanidade de Cristo», «sacratíssima Humanidade» (tabela); *la Divinidad* → «a Divindade».
+- *vía purgativa*, *iluminativa* [22.1] → «via purgativa», «iluminativa».
+- *considerarse en cuadrada manera* [22.1] → «considerar-se como num quadrado» (a imagem de estar cercado de Deus por todos os lados; os editores não a explicam bem).
+- *Apóstolos*, *Cruz* (ao pé da Cruz) → com maiúscula, como na edição e em [16.7].
+- *a sorbos* [22.5] → «aos goles»; *solapada* → «disfarçada»; *seso* → «juízo» (como no lote 3).
+- *condición* [22.6] (o natural de cada um) → «temperamento»; *esforzar* (os discípulos) → «dar forças».
+- *dechado* [22.7] → «modelo» (como em [7.5], [14.8]); *cabe sí* → «junto de si».
+- *de maña* [22.9] → «de propósito»; *arrimo* → «arrimo»; *motita* → «ciscozinho» (como *motas* → «ciscos» [20.28]).
+- *mostrarse a procurar* [22.10] → «adestrar-se em procurar» (como *mostrarse a cazar lagartijas* [13.2]).
+- *poner por tercero* [22.11] → «pôr por medianeiro»; *cimiento* → «alicerce».
+- *asnillos* [22.12] → «burrinhos»; *traer la noria* → «mover a nora» (tabela: «nora»); *los de su cámara y secreto* → «os da sua câmara e segredo».
+- *ayuditas* [22.13] → «ajudazinhas»; *a el descubierto* → «às claras»; *cieno* → «lodo».
+- *amor saca amor* [22.14] → «amor gera amor»; *prenda* → «penhor» (§ 3a).
+- *dar con todo en el suelo* [22.15] → «dar de todo com tudo no chão» (ao pé da letra; sentido claro: largar tudo); *ciento por uno* → «cem por um».
+- *posada* [22.17] → «pousada».
+- *discreción* [22.18] → «discernimento» (§ 3a).
 
 ## Passagens difíceis
 
@@ -86,6 +113,16 @@
 - [21.8] A frase *Considero… cuando una como yo… siento tanto…, ¿qué sería…?* começa em 3.ª pessoa e passa à 1.ª; mantido, com «se» no lugar de *cuando*.
 - [21.9] *Pues dicho ya estos efetos…*: frase sem verbo principal no original; traduzida como frase inteira («Pois já ficam ditos estes efeitos…»). *Sin ninguno nuestro* → acrescentado «trabalho» («sem nenhum trabalho nosso»).
 - [21.10] *aprovecharía más en un día que pospusiese*: o singular é a pessoa grave; posto no plural, para concordar com «pessoas graves».
+- [22.2] *como ha llevado la mía, quiero yo ahora decir*: as duas orações estão coladas no original; separadas («e por muitos caminhos… Como levou a minha é o que eu quero agora dizer»), com o parêntese.
+- [22.3] *hasta que Su Majestad por expiriencia me lo daba a entender* → «me dava isso a entender» (sem «mo»). A frase longa vai até «impedimento»; o parêntese abre em «e depois entendi» e fecha em «nem sabia o que fazia».
+- [22.4] *Había sido yo tan devota toda mi vida de Cristo, porque esto era ya a la postre*: lido como espanto («Eu tinha sido tão devota de Cristo toda a minha vida!»), e o «porque» explica que o engano foi só no fim, antes dos arroubos.
+- [22.5] *va un poco de poca humildad* → «vai um pouco de falta de humildade» (como ela mesma diz em [22.9]); a *motita de poca humildad* [22.9] ficou «ciscozinho de pouca humildade».
+- [22.7] *hámelo dicho el Señor* → «o Senhor me disse isso» (sem «mo»). *Que no parece se le caía de la boca siempre Jesús* → «que parece não lhe sair nunca da boca o nome de Jesus» (acrescentado «o nome de»).
+- [22.13] *¡Qué manera para creer, que cuando El quiere, espera a que vuele el sapo por sí mesmo!*: ironia (seria absurdo crer que Deus espera o sapo voar sozinho) → «Que maneira de crer: que, quando Ele quer, espere que o sapo voe por si mesmo!».
+- [22.14] *cuán grande nos le mostró Dios… a quien tan a su costa nos le mostró* → «de quão grande foi o que Deus nos mostrou… em quem, tão à custa dele, nos mostrou esse amor» (sem «no-lo»); *Dénosle Su Majestad* → «Que Sua Majestade nos dê este amor».
+- [22.15] Frase longa, com a pergunta que se desdobra («por que, no arroubo… pode deixar santificada? Como é que depois…»); mantida, com o parêntese. *Paréceme a mí, si es…* → «me pergunto se não será…».
+- [22.17] A fala de Deus (*Mirá, que esto es una gota…*) vai entre aspas, com «Olhai» (o *mirad* é aos homens, no plural).
+- [22.18] *si las tratare con personas espirituales, lo sean* → «o sejam de fato» (acrescentado «de fato»); *quedarse han secos* (mesóclise do original) → «ficarão secos»; *El Señor nos la dé* → «Que o Senhor nos dê isso».
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
 

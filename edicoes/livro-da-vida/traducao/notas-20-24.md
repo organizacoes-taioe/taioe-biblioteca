@@ -52,6 +52,11 @@
 - [23.14] «que con confesión, por ser seglar» → provável «que no confesión» (traduzido «não em confissão»); «te llamase» → «le llamase»; «entramos» → «entrambos».
 - [23.16] «lo que era 13 me animó» → «lo que era y me animó»; «el' Señor» → apóstrofo solto; «temía mucha culpa» → «ternía» (= tendría), como em [15.11]; «habla en él» → provável «hablaba».
 - [23.17] «otra, i Qué» → «otra. ¡Qué».
+- [24.2] «vi lo. poco» → ponto solto.
+- [24.3] «que .algunas» → ponto solto; «primitiese» → «permitiese».
+- [24.4] «Compañía de Jesús, Procuró» → «Jesús. Procuró» (vírgula por ponto); «mug» → «muy» (duas vezes); «ga» → «ya» (duas vezes); «go» → «yo»; «gerro» → «yerro».
+- [24.5] «go» → «yo» (três vezes); «mug» → «muy» (três vezes).
+- [24.8] «memento» → «momento»; «a e] confesor» → «al confesor».
 
 ## Termos e nomes
 
@@ -115,6 +120,16 @@
 - *por junto* [23.14] → «de uma vez», como em [11.3]; *condición* (o natural dela) → «temperamento», como em [22.6]; *confesión general* → «confissão geral».
 - *discurso de mi vida* [23.15] → «um relato da minha vida»; *sacristana y portera* → «a sacristã e a porteira»; *fatiga* → «angústia» (junto de «aflição»).
 - *bien avisado* [23.16] → «sensato» (§ 3a).
+- *premio* [24.1] (= *apremio*) → «obrigação» («deixava liberdade, e não obrigação»).
+- *profisión* [24.1] → «profissão» (os votos).
+- *arrinconamiento* [24.2] → «recolher-me num canto»; *bullir* → «mexer-me»; *cimiento* → «alicerce», como em [22.11].
+- *el Padre Francisco, que era Duque de Gandía* [24.4] → «o padre Francisco, que tinha sido duque de Gandia» (§ 4: «padre» e «duque» em minúscula; Gandia na forma portuguesa).
+- *medicina y consejo* [24.4] → «o remédio e o conselho»; *avisos* → «conselhos»; *holgarse* (o cavaleiro) → «alegrar-se».
+- **Mais pessoas sem nome** [24.5–24.6]: o confessor mudado de lugar é Diego de Cetina; a *señora viuda de mucha calidad* é dona Guiomar de Ulloa; o confessor dela, *este Padre*, é Juan de Prádanos (segundo os editores). Como no cap. 23, a tradução não os nomeia.
+- *hiño de Veni Creator* [24.6] → «o hino _Veni Creator_» (título de hino, em itálico, sem tradução entre colchetes: é nome próprio, não citação).
+- *arrebatamiento tan súpito* [24.6] → «arrebatamento tão súbito» (tabela); *esta merced de arrobamientos* → «esta mercê de arroubos».
+- *conversación* [24.6] (na fala de Deus) → «trato» («Já não quero que tenhas trato com homens, mas com anjos»); «conversação» se leria só como conversa.
+- *maña y blandura* [24.6] → «jeito e brandura»; *asentar en amistad* [24.7] → «firmar amizade»; *deudos* → «parentes».
 
 ## Passagens difíceis
 
@@ -154,9 +169,18 @@
 - [23.13] *avisarlas en secreto pongan mucho, y le tengan ellos* → «avisá-las de que guardem muito segredo, e que o guardem também eles». *Como quien le cuesta harto trabajo no le tener algunas personas* → «como alguém a quem custa bastante trabalho que algumas pessoas… não o tenham guardado».
 - [23.15] A citação de São Paulo é indireta no original (*Que era Dios muy fiel…*); ficou indireta, sem aspas.
 - [23.18] *y el Señor que me ayudó, y a él* → «e o Senhor me ajudou, e a ele» (o «que» solto não se traduz).
+- [24.1] *si yo no me le pusiese por amor* → «se eu mesma não a pusesse por amor» (a obrigação).
+- [24.3] *me la quería dar Su Majestad* → «e Sua Majestade queria dar-me essa penitência» (sem «ma»); *me lo mandaba el Señor, y dábale gracia para que me lo mandase* → «era o Senhor que me mandava isso, e que lhe dava graça para mandar de maneira…» (sem «mo»).
+- [24.4] *Procuró mi confesor y el caballero que he dicho también vino a mí, para que le hablase*: o verbo no singular serve aos dois; traduzido no plural, com o «que veio a mim» como aposto do cavaleiro.
+- [24.6] *También con harta maña y blandura*: frase sem verbo no original → «E isto com bastante jeito e brandura».
+- [24.8] *dejar otra a su sierva* → «fazer da sua serva outra pessoa»; *no fué menester mandármelo más* → «não foi preciso mandar-me isso mais vezes» (sem «mo»); *lo dejaba* (deixava de procurá-lo) → «desistia».
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
 
 - *águila caudalosa* → «águia poderosa»: proposta para a § 3a (volta no *Castelo* e nas *Relações*).
 - *rabiamientos* → «furores»: o jogo com *arrobamientos* se perde.
 - Cabeçalho de página da edição em [20.15] (tirar do `original/20.txt`).
+- **Nomes dos confessores e amigos** (caps. 23–24: Gaspar Daza, Francisco de Salcedo, Diego de Cetina, dona Guiomar de Ulloa, Juan de Prádanos): Teresa não os nomeia, e a tradução seguiu-a. Se o Gere quiser identificá-los para o leitor, o lugar é o vocabulário ou uma nota de rodapé.
+- *Veni Creator* sem tradução entre colchetes (é título de hino); se o Gere preferir, «[Vinde, Espírito Criador]».
+- Fala de Deus [24.6]: «Já não quero que tenhas trato com homens, mas com anjos» (a forma conhecida em português costuma ser «conversação» ou «conversar»; ficou «trato», mais natural).
+- Termos fixados neste lote, para a § 3a: *águila caudalosa* → «águia poderosa»; *no somos parte* → «não somos capazes»; *tráfago(s)* → «afã(s)»; *motas* → «ciscos»; *asido(s)* → «apegado(s)»; *condición* (o natural) → «temperamento»; *cimiento* → «alicerce»; *poner por tercero* → «pôr por medianeiro»; *premio* (= apremio) → «obrigação».

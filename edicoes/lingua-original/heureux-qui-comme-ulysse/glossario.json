@@ -1,0 +1,679 @@
+{
+  "verbetes": {
+    "heureux": {
+      "lema": "heureux",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que goza de felicidade; que tem o que pode torná-lo contente."
+      ],
+      "nota": "«Heureux qui…» é «feliz aquele que…»: o pronome «celui» fica subentendido, como nos provérbios."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "Pronome relativo sujeito, que retoma uma pessoa ou uma coisa."
+      ],
+      "nota": "Sem antecedente: «aquele que»."
+    },
+    "comme": {
+      "lema": "comme",
+      "classe": "conjunção",
+      "def": [
+        "Da mesma maneira que; como."
+      ]
+    },
+    "ulysse": {
+      "lema": "Ulysse",
+      "classe": "nome próprio",
+      "def": [
+        "Herói grego, esposo de Penélope, que aparece na _Ilíada_ e na _Odisseia_ de Homero."
+      ],
+      "nota": "Odisseu, o herói da _Odisseia_, que voltou a Ítaca depois de dez anos de viagens."
+    },
+    "a": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (auxiliar)",
+      "def": [
+        "Verbo auxiliar que forma os tempos compostos de muitos verbos."
+      ]
+    },
+    "fait": {
+      "lema": "faire",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Realizar, executar uma ação."
+      ]
+    },
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Artigo indefinido singular: designa algo ou alguém não determinado."
+      ]
+    },
+    "beau": {
+      "lema": "beau",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Agradável à vista ou ao espírito; belo."
+      ]
+    },
+    "voyage": {
+      "lema": "voyage",
+      "classe": "substantivo masculino",
+      "def": [
+        "Ação de percorrer um caminho mais ou menos longo para ir de uma cidade a outra, de um país a outro."
+      ]
+    },
+    "ou": {
+      "lema": "ou",
+      "classe": "conjunção",
+      "def": [
+        "Liga duas palavras ou duas orações que são alternativas."
+      ]
+    },
+    "cestui-là": {
+      "lema": "cestui-là",
+      "classe": "pronome demonstrativo",
+      "wiki": null,
+      "forma": "forma arcaica de «celui-là»",
+      "nota": "Jasão, que conquistou o velo de ouro; a forma «cestui-là» é antiga e já soava arcaica no século XVI.",
+      "def": [
+        "Aquele."
+      ]
+    },
+    "conquit": {
+      "lema": "conquérir",
+      "classe": "verbo",
+      "forma": "passado simples, 3ª pessoa do singular",
+      "def": [
+        "Adquirir pelas armas."
+      ]
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "forma": "feminino singular",
+      "def": [
+        "Artigo definido feminino singular."
+      ]
+    },
+    "toison": {
+      "lema": "toison",
+      "classe": "substantivo feminino",
+      "def": [
+        "Conjunto da lã que cobre uma ovelha, um carneiro."
+      ],
+      "nota": "O velo de ouro, o Tosão de Ouro que Jasão foi buscar na Cólquida."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "Liga duas palavras ou duas orações; e."
+      ]
+    },
+    "puis": {
+      "lema": "puis",
+      "classe": "advérbio",
+      "def": [
+        "Permite o encadeamento cronológico de acontecimentos; depois."
+      ]
+    },
+    "est": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (auxiliar)",
+      "def": [
+        "Definir um estado, uma característica do sujeito; é também o auxiliar de verbos como «retourner»."
+      ],
+      "nota": "«Est retourné»: voltou."
+    },
+    "retourné": {
+      "lema": "retourner",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Voltar ao lugar de onde se veio."
+      ]
+    },
+    "plein": {
+      "lema": "plein",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que contém uma grande quantidade."
+      ],
+      "nota": "«Plein d’usage et raison»: rico de experiência e de bom senso."
+    },
+    "d’": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "elisão de «de»",
+      "def": [
+        "Indica a origem, a posse, a matéria ou a ligação entre duas palavras."
+      ]
+    },
+    "usage": {
+      "lema": "usage",
+      "classe": "substantivo masculino",
+      "def": [
+        "Hábito, prática particular; aqui, a experiência que se adquire."
+      ],
+      "nota": "Aqui, a experiência adquirida com o que se viu e viveu."
+    },
+    "raison": {
+      "lema": "raison",
+      "classe": "substantivo feminino",
+      "def": [
+        "Faculdade intelectual pela qual o homem conhece, julga e se conduz; entendimento."
+      ]
+    },
+    "vivre": {
+      "lema": "vivre",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Ter vida, estar vivo; levar o curso da própria vida."
+      ]
+    },
+    "entre": {
+      "lema": "entre",
+      "classe": "preposição",
+      "def": [
+        "Indica o que fica no espaço que separa duas ou mais coisas, ou no meio de um grupo."
+      ]
+    },
+    "ses": {
+      "lema": "son",
+      "classe": "determinante possessivo",
+      "forma": "plural",
+      "def": [
+        "Determinante possessivo da 3ª pessoa: indica que algo pertence ao sujeito de quem se fala."
+      ]
+    },
+    "parents": {
+      "lema": "parent",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Pessoa da mesma família; aparentado."
+      ],
+      "nota": "Sentido antigo e ainda corrente: os familiares em geral, não só o pai e a mãe."
+    },
+    "le": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "forma": "masculino singular",
+      "def": [
+        "Artigo definido masculino singular."
+      ]
+    },
+    "reste": {
+      "lema": "reste",
+      "classe": "substantivo masculino",
+      "def": [
+        "O que fica de um todo, de uma quantidade maior; o que subsiste."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica a origem, a posse, a matéria ou a ligação entre duas palavras."
+      ]
+    },
+    "son": {
+      "lema": "son",
+      "classe": "determinante possessivo",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante possessivo da 3ª pessoa: indica que algo pertence ao sujeito de quem se fala."
+      ]
+    },
+    "âge": {
+      "lema": "âge",
+      "classe": "substantivo masculino",
+      "def": [
+        "Cada uma das partes da vida de uma pessoa."
+      ],
+      "nota": "Aqui, a vida inteira, o tempo de vida que sobra."
+    },
+    "quand": {
+      "lema": "quand",
+      "classe": "advérbio",
+      "forma": "interrogativo",
+      "def": [
+        "Em que momento? Introduz uma pergunta sobre o tempo."
+      ]
+    },
+    "reverrai": {
+      "lema": "revoir",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Ver de novo."
+      ]
+    },
+    "je": {
+      "lema": "je",
+      "classe": "pronome pessoal",
+      "forma": "depois do verbo, na interrogação",
+      "def": [
+        "Pronome pessoal da 1ª pessoa do singular, sujeito."
+      ],
+      "nota": "«Reverrai-je» é «reverei eu», a inversão do sujeito na pergunta."
+    },
+    "hélas": {
+      "lema": "hélas",
+      "classe": "interjeição",
+      "def": [
+        "Marca aflição, pesar ou decepção; exprime uma queixa."
+      ]
+    },
+    "mon": {
+      "lema": "mon",
+      "classe": "determinante possessivo",
+      "forma": "masculino singular",
+      "def": [
+        "Determinante possessivo da 1ª pessoa do singular, masculino."
+      ]
+    },
+    "petit": {
+      "lema": "petit",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "De pequena dimensão; pouco extenso."
+      ],
+      "nota": "Em Du Bellay, «petit» vem com afeto: a aldeia é pequena e querida."
+    },
+    "village": {
+      "lema": "village",
+      "classe": "substantivo masculino",
+      "def": [
+        "Grupo de habitações rurais."
+      ]
+    },
+    "fumer": {
+      "lema": "fumer",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Lançar fumaça."
+      ],
+      "nota": "«Reverrai-je fumer la cheminée»: verei fumegar a chaminé, sinal de casa habitada."
+    },
+    "cheminée": {
+      "lema": "cheminée",
+      "classe": "substantivo feminino",
+      "def": [
+        "Construção que abriga uma lareira e tem um conduto para dar saída à fumaça."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Indica o lugar, o tempo ou o estado em que algo se dá; em."
+      ]
+    },
+    "quelle": {
+      "lema": "quel",
+      "classe": "adjetivo interrogativo",
+      "forma": "feminino singular",
+      "def": [
+        "Pergunta pela identidade ou pela qualidade de algo; qual."
+      ]
+    },
+    "saison": {
+      "lema": "saison",
+      "classe": "substantivo feminino",
+      "def": [
+        "Período do ano com clima e temperatura relativamente constantes."
+      ]
+    },
+    "clos": {
+      "lema": "clos",
+      "classe": "substantivo masculino",
+      "def": [
+        "Espaço de terra cultivado e cercado por muros, sebes ou valas."
+      ],
+      "nota": "Terreno cercado, o quintal ou a horta da casa."
+    },
+    "ma": {
+      "lema": "ma",
+      "classe": "determinante possessivo",
+      "forma": "feminino singular",
+      "def": [
+        "Determinante possessivo da 1ª pessoa do singular, feminino."
+      ]
+    },
+    "pauvre": {
+      "lema": "pauvre",
+      "classe": "adjetivo",
+      "def": [
+        "Que está na pobreza; que não dispõe de recursos suficientes."
+      ],
+      "nota": "Aqui, humilde e querida mais do que miserável."
+    },
+    "maison": {
+      "lema": "maison",
+      "classe": "substantivo feminino",
+      "def": [
+        "Construção destinada à habitação; casa."
+      ]
+    },
+    "m’": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "forma": "elisão de «me»",
+      "def": [
+        "Pronome pessoal da 1ª pessoa do singular, complemento."
+      ]
+    },
+    "une": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "Artigo indefinido singular: designa algo ou alguém não determinado."
+      ]
+    },
+    "province": {
+      "lema": "province",
+      "classe": "substantivo feminino",
+      "def": [
+        "Extensão de país que faz parte de um Estado e tem várias cidades, vilas e aldeias sob um mesmo governo."
+      ],
+      "nota": "Na linguagem do poeta, um reino inteiro: a palavra vem da «provincia» romana, território conquistado e governado."
+    },
+    "beaucoup": {
+      "lema": "beaucoup",
+      "classe": "advérbio",
+      "def": [
+        "Em grande quantidade; consideravelmente."
+      ]
+    },
+    "avantage": {
+      "lema": "avantage",
+      "classe": "substantivo masculino",
+      "def": [
+        "Superioridade; vantagem."
+      ],
+      "nota": "«Beaucoup d’avantage» é o atual «davantage»: muito mais."
+    },
+    "plus": {
+      "lema": "plus",
+      "classe": "advérbio",
+      "def": [
+        "Mais; em maior quantidade ou grau."
+      ],
+      "nota": "Comparativo: «mais me agrada… do que»."
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "forma": "objeto indireto",
+      "def": [
+        "Pronome pessoal da 1ª pessoa do singular, complemento."
+      ]
+    },
+    "plaît": {
+      "lema": "plaire",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser agradável; agradar."
+      ],
+      "nota": "Na grafia de 1558, «plaist»."
+    },
+    "séjour": {
+      "lema": "séjour",
+      "classe": "substantivo masculino",
+      "def": [
+        "Morada, residência mais ou menos longa num lugar, num país."
+      ],
+      "nota": "Aqui, a morada, o lugar onde se vive."
+    },
+    "qu’": {
+      "lema": "que",
+      "classe": "pronome relativo",
+      "forma": "elisão de «que»",
+      "def": [
+        "Pronome relativo complemento direto."
+      ]
+    },
+    "ont": {
+      "lema": "avoir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural (auxiliar)",
+      "def": [
+        "Verbo auxiliar que forma os tempos compostos de muitos verbos."
+      ]
+    },
+    "bâti": {
+      "lema": "bâtir",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Construir uma casa, um edifício."
+      ]
+    },
+    "mes": {
+      "lema": "mon",
+      "classe": "determinante possessivo",
+      "forma": "plural",
+      "def": [
+        "Determinante possessivo da 1ª pessoa do singular, masculino."
+      ]
+    },
+    "aïeux": {
+      "lema": "aïeul",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Avô ou avó; por extensão, antepassado."
+      ]
+    },
+    "que": {
+      "lema": "que",
+      "classe": "conjunção",
+      "forma": "segundo termo de comparação",
+      "def": [
+        "Introduz o segundo termo de uma comparação; do que."
+      ]
+    },
+    "des": {
+      "lema": "des",
+      "classe": "artigo definido contraído",
+      "forma": "contração de «de» + «les»",
+      "def": [
+        "Contração da preposição «de» e do artigo definido «les»."
+      ]
+    },
+    "palais": {
+      "lema": "palais",
+      "classe": "substantivo masculino",
+      "def": [
+        "Vasta moradia urbana de um soberano, de um príncipe, de um alto dignitário."
+      ]
+    },
+    "romains": {
+      "lema": "romain",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Relativo à civilização dos romanos, povo da Antiguidade."
+      ]
+    },
+    "front": {
+      "lema": "front",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte anterior de alguma coisa."
+      ],
+      "nota": "Aqui, a fachada, a parte da frente do edifício."
+    },
+    "audacieux": {
+      "lema": "audacieux",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que tem audácia; ousado."
+      ]
+    },
+    "marbre": {
+      "lema": "marbre",
+      "classe": "substantivo masculino",
+      "def": [
+        "Rocha metamórfica originada de calcário ou dolomita, que se pode polir."
+      ]
+    },
+    "dur": {
+      "lema": "dur",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Firme; difícil de penetrar ou de entalhar."
+      ]
+    },
+    "l’": {
+      "lema": "le",
+      "classe": "artigo definido",
+      "forma": "elisão de «le» ou «la»",
+      "def": [
+        "Artigo definido masculino singular."
+      ]
+    },
+    "ardoise": {
+      "lema": "ardoise",
+      "classe": "substantivo feminino",
+      "def": [
+        "Pedra xistosa de cor escura que se divide em lâminas; pedaço dela, cortado para cobrir telhados."
+      ],
+      "nota": "A ardósia dos telhados do Anjou, em contraste com o mármore de Roma."
+    },
+    "fine": {
+      "lema": "fin",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Delgado, fino, de pouca espessura; delicado, elegante."
+      ]
+    },
+    "loire": {
+      "lema": "Loire",
+      "classe": "nome próprio",
+      "def": [
+        "Grande rio da França."
+      ],
+      "nota": "O rio Loire, que passa pela região natal do poeta; Du Bellay o faz masculino, «mon Loire»."
+    },
+    "gaulois": {
+      "lema": "gaulois",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Relativo à Gália, à língua gaulesa ou aos povos que a falavam."
+      ]
+    },
+    "tibre": {
+      "lema": "Tibre",
+      "classe": "nome próprio",
+      "def": [
+        "Rio que atravessa Roma e deságua no mar Tirreno."
+      ],
+      "nota": "O rio Tibre, que passa por Roma, onde o poeta vivia quando escreveu."
+    },
+    "latin": {
+      "lema": "latin",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Relativo aos latinos, habitantes do Lácio; romano."
+      ]
+    },
+    "liré": {
+      "lema": "Liré",
+      "classe": "nome próprio",
+      "def": [
+        "Aldeia e antigo município francês do departamento de Maine-et-Loire."
+      ],
+      "nota": "A aldeia de Liré, no Anjou, onde nasceu o poeta."
+    },
+    "mont": {
+      "lema": "mont",
+      "classe": "substantivo masculino",
+      "def": [
+        "Montanha; elevação de terreno."
+      ]
+    },
+    "palatin": {
+      "lema": "Palatin",
+      "classe": "nome próprio",
+      "def": [
+        "Uma das sete colinas sobre as quais Roma foi fundada."
+      ],
+      "nota": "O monte Palatino, uma das colinas de Roma, onde ficavam os palácios dos imperadores."
+    },
+    "air": {
+      "lema": "air",
+      "classe": "substantivo masculino",
+      "def": [
+        "Mistura gasosa que constitui a atmosfera; aqui, o ar que se respira."
+      ]
+    },
+    "marin": {
+      "lema": "marin",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que pertence ao mar."
+      ]
+    },
+    "douceur": {
+      "lema": "douceur",
+      "classe": "substantivo feminino",
+      "def": [
+        "Qualidade do que é doce; suavidade."
+      ]
+    },
+    "angevine": {
+      "lema": "angevin",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Relativo ao Anjou ou a seus habitantes."
+      ],
+      "nota": "Do Anjou, a antiga província do vale do Loire onde nasceu o poeta."
+    },
+    "est#2": {
+      "lema": "être",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Definir um estado, uma característica do sujeito; é também o auxiliar de verbos como «retourner»."
+      ],
+      "nota": "Verbo de ligação: «Qui m’est une province», que é para mim uma província."
+    },
+    "qui#2": {
+      "lema": "qui",
+      "classe": "pronome relativo",
+      "def": [
+        "Pronome relativo sujeito, que retoma uma pessoa ou uma coisa."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "8.3": "est#2",
+    "2.4": "qui#2",
+    "8.1": "qui#2"
+  }
+}

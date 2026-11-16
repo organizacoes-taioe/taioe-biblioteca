@@ -1,0 +1,184 @@
+{
+ "id": "escada-do-paraiso",
+ "rotulo": "Escada do Paraíso (São João Clímaco)",
+ "url": "/biblioteca/sao-joao-climaco/escada-do-paraiso/",
+ "escolhas": [
+  {
+   "id": "degrau",
+   "titulo": "Cada uma das 30 partes se chama «degrau» no título?",
+   "ref": "toda a obra (títulos)",
+   "contexto": "No grego cada parte é um λόγος («discurso», «tratado»): «ΛΟΓΟΣ Α΄. Περὶ ἀποταγῆς βίου». Mas o próprio Clímaco chama cada uma de βαθμός («degrau») nos fechos («Décimo primeiro degrau…»), e a tradição chama a obra de escada em trinta degraus. Hoje: «PRIMEIRO DEGRAU. A renúncia à vida do mundo», e no site «Degrau 1».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Primeiro degrau», «Degrau 1», como está",
+     "nota": "O nome que o leitor conhece; casa com o título do livro.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Primeiro discurso», «Discurso 1»",
+     "nota": "Literal (λόγος); perde a imagem da escada nos títulos."
+    }
+   ]
+  },
+  {
+   "id": "hesiquia",
+   "titulo": "Ἡσυχία fica «hesíquia» em toda a obra?",
+   "ref": "toda a obra; sobretudo degrau 27",
+   "contexto": "Termo técnico do monaquismo oriental (94 vezes na tradução): o recolhimento, o silêncio interior e exterior, a vida retirada; dele vem «hesicasta». Hoje: «hesíquia», e «quietude» só onde é o simples sossego exterior (3 vezes).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«hesíquia», como está",
+     "nota": "O termo próprio, usado nas traduções em português da Filocalia; pede ao leitor que o aprenda.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«quietude»",
+     "nota": "Palavra comum; perde o sentido técnico e confunde com o simples sossego."
+    },
+    {
+     "id": "c",
+     "texto": "«recolhimento»",
+     "nota": "Natural em português católico; aproxima do vocabulário ocidental, menos exato."
+    }
+   ]
+  },
+  {
+   "id": "apatheia",
+   "titulo": "Ἀπάθεια fica «impassibilidade»?",
+   "ref": "degrau 29 e toda a obra",
+   "contexto": "O cume da escada (degrau 29): a liberdade diante das paixões, não a indiferença. Hoje: «impassibilidade» (49 vezes) e «impassível».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«impassibilidade», como está",
+     "nota": "A forma usual nas traduções dos Padres; soa um pouco fria.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«libertação das paixões»",
+     "nota": "Mais clara; vira locução e pesa nas definições curtas."
+    },
+    {
+     "id": "c",
+     "texto": "«apatia»",
+     "nota": "Transcrição; em português hoje quer dizer indiferença, o contrário do sentido."
+    }
+   ]
+  },
+  {
+   "id": "charmolype",
+   "titulo": "Χαρμολύπη, a palavra-chave do degrau 7: «alegria triste»?",
+   "ref": "degrau 7 (7.5 e seguintes)",
+   "contexto": "Palavra composta de χαρά «alegria» e λύπη «tristeza»: o pranto pelos pecados que, ao mesmo tempo, consola. Hoje: «Segura com força a bem-aventurada alegria triste da santa compunção…».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«alegria triste», como está",
+     "nota": "Segue a ordem do grego (alegria primeiro).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«tristeza alegre»",
+     "nota": "Põe o peso na tristeza, que é o pranto do degrau."
+    },
+    {
+     "id": "c",
+     "texto": "«alegria dolorosa»",
+     "nota": "Mais suave; perde o par exato alegria/tristeza."
+    }
+   ]
+  },
+  {
+   "id": "respiracao",
+   "titulo": "A frase célebre do degrau 27: «Una-se a lembrança de Jesus à tua respiração»?",
+   "ref": "degrau 27, 27.36",
+   "contexto": "ἡ Ἰησοῦ μνήμη ἑνωθήτω τῇ πνοῇ σου: a frase mais citada do livro na história da oração de Jesus. Hoje: «Una-se a lembrança de Jesus à tua respiração, e então conhecerás o proveito da hesíquia».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Una-se a lembrança de Jesus à tua respiração», como está",
+     "nota": "Fiel e próxima das citações correntes.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Que a lembrança de Jesus se una ao teu fôlego»",
+     "nota": "Mais solta; «fôlego» é mais concreto que «respiração»."
+    }
+   ]
+  },
+  {
+   "id": "abecedario",
+   "titulo": "No degrau 26, as listas em abecedário levam as letras gregas?",
+   "ref": "degrau 26, 26.15–26.17",
+   "contexto": "Clímaco faz duas listas em ordem alfabética: as virtudes dos principiantes (Α ὑπακοή, Β νηστεία, Γ σάκκος…) e as marcas dos perfeitos. No grego ao lado as letras estão. Hoje a tradução tira as letras: «Ótimo para todos é este alfabeto: obediência, jejum, saco, cinza…».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Sem as letras, como está",
+     "nota": "Leitura corrida; o artifício só se vê no grego.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Com as letras gregas antes de cada item: «Α obediência, Β jejum…»",
+     "nota": "Mostra o abecedário; as letras não batem com as palavras em português."
+    }
+   ]
+  },
+  {
+   "id": "suprimentos",
+   "titulo": "Os dois pedaços que faltam no grego e estão no latim de Rader vão entre colchetes?",
+   "ref": "degrau 20, 20.3; degrau 28, 28.25",
+   "contexto": "Em dois lugares o grego impresso na PG está truncado: em 20.3 falta o começo da frase («… o sonolento, companheiro dela»: dela quem?), e em 28.25 o começo de uma definição. A tradução latina de Rader, feita sobre outros manuscritos, traz as duas. Hoje: «[O monge vigilante é inimigo da fornicação;] o sonolento, companheiro dela» e «[Sinal de que foste ouvido é] a libertação da dúvida…».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Suprir pelo latim, entre colchetes, como está",
+     "nota": "A frase faz sentido e o leitor vê o que não está no grego.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Traduzir só o grego impresso, sem suprimento",
+     "nota": "Fiel ao texto ao lado; as duas frases ficam truncadas."
+    },
+    {
+     "id": "c",
+     "texto": "Suprir sem colchetes",
+     "nota": "Leitura limpa; esconde a diferença com o grego ao lado."
+    }
+   ]
+  },
+  {
+   "id": "anaklesis",
+   "titulo": "A primeira definição do degrau 5: «A penitência é a renovação do batismo»?",
+   "ref": "degrau 5, 5.1",
+   "contexto": "Μετάνοιά ἐστιν ἀνάκλησις βαπτίσματος. Ἀνάκλησις é «chamar de volta», «reavivar». Hoje: «A penitência é a renovação do batismo». Μετάνοια fica «penitência» em toda a obra (CONVENCOES), «arrependimento» só onde é o sentimento.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«A penitência é a renovação do batismo», como está",
+     "nota": "Clara; é a forma em que a frase circula.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«A penitência é a volta ao batismo»",
+     "nota": "Mais perto da imagem de chamar de volta."
+    },
+    {
+     "id": "c",
+     "texto": "«O arrependimento é a renovação do batismo»",
+     "nota": "Μετάνοια como sentimento; quebra a uniformidade do termo no livro."
+    }
+   ]
+  }
+ ]
+}

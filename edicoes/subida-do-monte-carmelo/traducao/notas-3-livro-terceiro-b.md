@@ -5,6 +5,11 @@
 - **documento** (III,24,5: «poner aquí un documento») → «regra» (ensinamento prático, não papel).
 - **Epulón** (III,25,5) → «aquele rico Epulão», o nome tradicional do rico da parábola de Lázaro.
 - **molicies** (III,25,6) → «moleza» (o vício contra a castidade; o autor não o nomeia mais claro).
+- **curiosidad, curioso** (imagens, rosários, oratórios) → «primor, primoroso» (o esmero do feitio); **hechura** →
+  «feitio»; **propiedad** (apego de dono) → «posse» ou «como coisa própria»; **virtudes** no sentido de milagres
+  (III,36,3) → «milagres»; **la política** (III,27,1) → «a vida civil».
+- **Allegarse ha el hombre al corazón alto** (III,32,1, Sl 63,7) → «Há de chegar-se o homem ao coração alto, e Deus
+  será exaltado» (sem mesóclise); conferir com a forma usada no lote 4, se o verso aparecer lá.
 - **parlería** → «tagarelice»; **enemistad a la servidumbre** → «aversão a servir».
 
 ## OCR (espanhol visivelmente errado; traduzido pelo que o autor escreveu)
@@ -34,3 +39,23 @@
 - III,31,6: «arioIos» → «ariolos» (adivinhos); «sobreuaturalmente» (§ 7) → «sobrenaturalmente».
 - III,31,8: vazou uma variante de Silverio no meio do texto («Así el C. de Ale — A, B y e p. a la cristiana
   república.»): omitida na tradução; tirar do original. Também «la U» (§ 9) → «la fe»; «pn -s» → «pues»; «h;.» (§ 10), lixo.
+- III,32,4: «apai entes» → «aparentes».
+- III,34,1: «guzo» → «gozo»; «indas» → «todas». O autor remete ao «segundo y tercer libro» (o II e o começo do III);
+  traduzido ao pé da letra.
+- III,35,5: «¡imagen» → «imagen»; «quieto Porque» (falta ponto).
+- III,36,1: «bebería» → «bobería» (tolice). § 3: «bario» → «harto» (bem); «tomo» → «como»; «las tornan» → «las toman».
+- III,37,2: «lu imagen» → «la imagen».
+- III,38,2: «parle» → «parte»; «las fiesta» → «las fiestas». § 5: «qute» → «que».
+- III,39,1: «h Dios» → «a Dios»; «ei puro» → «el puro».
+- III,39,3: termina com «1 Así», resto solto (talvez começo de um parágrafo que se perdeu ou lixo de página):
+  omitido na tradução; conferir no fac-símile (p. ~335 de 1929).
+- III,41,2: «(fisto» → «gusto».
+- III,42,3: «no me da más esos desiertos que otros cualesquiera» → «tanto faz que sejam desertos ou quaisquer outros».
+- III,42,4: «leant ndo» → «levantando».
+- **San Simón** (III,42,2, o Estilita) → «São Simão», como o autor escreve (o nome usual é Simeão Estilita).
+- III,44,1: «Preiended» → «Pretended». § 2: «hubia» → «había»; «agrado» → «agradó»; Sl 144,18–20: «en la verdad que le
+  piden» parece faltar um «esto es,» antes de «que le piden»; traduzido como aposto.
+- III,45,3: «enseñaas» → «enseñas».
+- III,45,6: o texto da Subida acaba incompleto («pierde....»), como nos manuscritos; ficou «…».
+- **retrete** (III,44,4: «entra en tu retrete») → «quarto» (o aposento retirado; em português de hoje «retrete» é latrina).
+- **buen término** (III,45,6) → «bom modo»; **acciones** do pregador → «gestos».

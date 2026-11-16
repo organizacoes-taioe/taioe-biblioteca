@@ -952,3 +952,13 @@ BIBLIOTECA.autor({
   area: 'nao-ficcao',
   nota: 'Jesuíta português, chefe da primeira missão da Companhia de Jesus ao Brasil (1549) e primeiro provincial; fundou o colégio de São Paulo de Piratininga e escreveu as primeiras cartas e relatos sobre os índios e a colônia.'
 });
+
+BIBLIOTECA.autor({
+  id: 'santa-catarina-de-sena',
+  area: 'catolicismo',
+  nome: 'Santa Catarina de Sena',
+  nomeCompleto: 'Catarina Benincasa',
+  vida: '1347–1380',
+  ordem: 'Catarina de Sena, Santa',
+  nota: 'Terciária dominicana de Sena, mística e conselheira de papas, doutora da Igreja e padroeira da Itália e da Europa. Em tradução do italiano, com o original ao lado.'
+});

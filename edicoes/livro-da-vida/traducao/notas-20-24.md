@@ -42,6 +42,16 @@
 - [22.13] «i Qué» → «¡Qué».
 - [22.15] «y en cuando» → provável «y cuando».
 - [22.17] «i qué», «i Oh» → «¡qué», «¡Oh».
+- [23.0] (título) «comenzó!» → «comenzó» (sinal solto).
+- [23.1] «de quí» → «de aquí»; «go» → «yo».
+- [23.3] «hádaseme» → «hacíaseme».
+- [23.4] «tímida, i Qué» → «tímida. ¡Qué».
+- [23.10] «a ;animarme» → «a animarme»; «consigo, i Oh» → «consigo. ¡Oh».
+- [23.12] «veinte arios» → «veinte años».
+- [23.13] «primitido» → «permitido».
+- [23.14] «que con confesión, por ser seglar» → provável «que no confesión» (traduzido «não em confissão»); «te llamase» → «le llamase»; «entramos» → «entrambos».
+- [23.16] «lo que era 13 me animó» → «lo que era y me animó»; «el' Señor» → apóstrofo solto; «temía mucha culpa» → «ternía» (= tendría), como em [15.11]; «habla en él» → provável «hablaba».
+- [23.17] «otra, i Qué» → «otra. ¡Qué».
 
 ## Termos e nomes
 
@@ -93,6 +103,18 @@
 - *dar con todo en el suelo* [22.15] → «dar de todo com tudo no chão» (ao pé da letra; sentido claro: largar tudo); *ciento por uno* → «cem por um».
 - *posada* [22.17] → «pousada».
 - *discreción* [22.18] → «discernimento» (§ 3a).
+- **Os confessores (caps. 23–24)**: ela não diz nenhum nome, e a tradução também não. O *clérigo letrado* [23.6, 23.8] é Gaspar Daza; o *caballero santo*, casado [23.6–23.10], é Francisco de Salcedo; o *padre de la Compañía* [23.14, 23.16] é Diego de Cetina (segundo os editores). Se o Gere quiser os nomes, vão ao vocabulário ou a uma nota, não ao texto.
+- *caballero* [23.6] → «cavaleiro» (fidalgo); *clérigo* → «clérigo»; *seglar* [23.14] → «secular» (§ 3a).
+- *los de la Compañía de Jesús* → «os da Companhia de Jesus» (tabela).
+- *industria* [23.7] → «diligência»; *sufrir* (o estado que permite) → «permitir».
+- *batería* [23.4] → «guerra», como em [19.4]; *el medio de un alma* → «o remédio de uma alma».
+- *medrar* [23.9] → «crescer» (nunca «medrar»).
+- *sufrimiento* [23.10] → «paciência», como em [16.5]; *discreción* → «discernimento» (§ 3a); *menudencias* → «miudezas».
+- *Subida del monte* [23.12] (de Bernardino de Laredo, *Subida del Monte Sión*) → _Subida do Monte_, em itálico, como os outros títulos de livro.
+- *tiento* [23.13] → «tato»; *mal de corazón* → «mal de coração» (como no 1.º lote).
+- *por junto* [23.14] → «de uma vez», como em [11.3]; *condición* (o natural dela) → «temperamento», como em [22.6]; *confesión general* → «confissão geral».
+- *discurso de mi vida* [23.15] → «um relato da minha vida»; *sacristana y portera* → «a sacristã e a porteira»; *fatiga* → «angústia» (junto de «aflição»).
+- *bien avisado* [23.16] → «sensato» (§ 3a).
 
 ## Passagens difíceis
 
@@ -123,6 +145,15 @@
 - [22.15] Frase longa, com a pergunta que se desdobra («por que, no arroubo… pode deixar santificada? Como é que depois…»); mantida, com o parêntese. *Paréceme a mí, si es…* → «me pergunto se não será…».
 - [22.17] A fala de Deus (*Mirá, que esto es una gota…*) vai entre aspas, com «Olhai» (o *mirad* é aos homens, no plural).
 - [22.18] *si las tratare con personas espirituales, lo sean* → «o sejam de fato» (acrescentado «de fato»); *quedarse han secos* (mesóclise do original) → «ficarão secos»; *El Señor nos la dé* → «Que o Senhor nos dê isso».
+- [23.1] *la que he vivido desde que comencé… es que vivía Dios en mí* → «a que vivi desde que comecei… é que Deus vivia em mim» (o desvio da frase fica).
+- [23.6] *Dijéronme de un clérigo letrado…, yo procuré por medio de un caballero santo*: o objeto de *procuré* (o clérigo) está implícito; posto «eu o procurei».
+- [23.7] *y lleva toda la vida de perfeción, que… sufre su estado* → «leva toda a vida de perfeição que o seu estado permite»; *que por ella no se pierde* → «que por causa dela não se perde nada» (a mulher não o atrapalha).
+- [23.8] *Estaban deudos suyos casados con parientes míos y también con otro harto siervo de Dios… tenía mucha comunicación*: o sujeito de *tenía* (o cavaleiro) fica implícito; reordenado em duas orações. *Llevarme como a fuerte, que de razón había de estar* → «levar-me como a forte (que com razão eu havia de estar…)».
+- [23.10] *Decíame este santo… flaquezas, que a él le parecían que lo eran con su humildad, para mi remedio*: reordenado («Dizia-me…, para meu remédio, fraquezas que a ele, com a sua humildade, lhe pareciam que o eram»).
+- [23.11] *se lo dijese* → «lhe dissesse» (sem «lho»); *ha poco me lo dió Dios* → «faz pouco que Deus me deu» (sem «ma»).
+- [23.13] *avisarlas en secreto pongan mucho, y le tengan ellos* → «avisá-las de que guardem muito segredo, e que o guardem também eles». *Como quien le cuesta harto trabajo no le tener algunas personas* → «como alguém a quem custa bastante trabalho que algumas pessoas… não o tenham guardado».
+- [23.15] A citação de São Paulo é indireta no original (*Que era Dios muy fiel…*); ficou indireta, sem aspas.
+- [23.18] *y el Señor que me ayudó, y a él* → «e o Senhor me ajudou, e a ele» (o «que» solto não se traduz).
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)
 

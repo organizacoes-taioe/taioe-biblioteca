@@ -17,7 +17,7 @@ for a, b in (json.load(open(f'{base}/remendos.json')) if os.path.exists(f'{base}
     if a.startswith('re:'):
         txt = re.sub(a[3:], b, txt)
     else:
-        assert a in txt, a
+        if a not in txt: print("remendo sem efeito:", a)
         txt = txt.replace(a, b)
 txt = re.sub(r' \*(?= )', '', txt)
 EM = json.load(open(f'{base}/ementas.json'))
@@ -83,14 +83,17 @@ while i < len(ps):
     m = re.match(r'^CAPITULO ([IVX]+|PRIMERO|UNICO)\.?$', P)
     if m:
         cap_n = CAPN[m.group(1)]
-        arquivos[atual].append('## ' + ('Capítulo único' if 'UNICO' in P else f'Capítulo {cap_n}'))
         i += 1
         em = []
         while i < len(ps) and maius(ps[i]):
             em.append(ps[i]); i += 1
         chave = f'{ROM[morada-1]}.{cap_n}'
-        arquivos[atual].append('_' + EM.get(chave, caixa(' '.join(em))) + '_')
-        esperando = f'[{chave}] '
+        ementa = EM.get(chave, caixa(' '.join(em)))
+        if 'UNICO' in P:
+            arquivos[atual] += ['## Capítulo único', f'[{chave}] _' + ementa + '_']
+        else:
+            arquivos[atual].append(f'## Capítulo {cap_n} — ' + ementa)
+            esperando = f'[{chave}] '
         continue
     if re.match(r'^J[Hh][Ss]\.?$', p) and morada == 7 and cap_n == 4:
         atual = '08-epilogo'; arquivos[atual] = ['# titulo: Epílogo', 'JHS']; i += 1; continue

@@ -42,6 +42,11 @@
 - *Sacratísima Virgen*, *Madre Sacratísima*, *Santos*: maiúsculas como no original, que oscila (*santos* na ementa, *Santos* no texto).
 - *cabe sí* (VI.8) → «junto de si»; *aparecimientos* → «aparições»; *Mi tema es y será* → «A minha teima é e será»; *corrido* (o demônio) → «envergonhado».
 - *cuando es servido / si fuere servido* → «quando lhe agrada / quando quer», «se for do agrado» (evitei o «ser servido» antigo).
+- *holanda* (VI.9, a veste de Cristo) → «linho finíssimo» («holanda» como tecido é raro hoje).
+- *dar higas* (VI.9) → «fazer figa» (o gesto contra o mau-olhado; vivo no Brasil).
+- *don de conocer espíritus* (VI.9) → «dom de discernir os espíritos»; *llaneza* → «simplicidade».
+- *relisión que guardamos* (VI.9) → «vida religiosa que guardamos».
+- *cómo las servir* (VI.9, as mercês) → «como corresponder a elas».
 
 ## Passagens difíceis
 
@@ -80,5 +85,6 @@
 - VI.6, «le tiníen por loco»: *tiníen* (forma dela, por *tenían*), não é erro.
 - VI.7, «y no para el entendimiento hasta que está puesto en la u tomamos un paso»: falta uma palavra depois de *en la*; pelo sentido (do Horto até…), *cruz*. Traduzi «até que está posto na cruz»: conferir na imagem.
 - VI.7, «milaglos», «Ilesia», «empidirá»: formas dela, não erros.
+- VI.9, «es un memento, comparado con aquella eternidad»: de novo *memento* por *momento* (como em VI.4); pode ser forma do autógrafo e não do OCR.
 
 ## Decisões delicadas (candidatas ao dono)

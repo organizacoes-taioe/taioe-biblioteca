@@ -98,3 +98,4 @@ Espanhol:
 - **bachillería** (II,29,5) → «tagarelice».
 - **mayoría(s)** → «cargos altos» (como no livro I); **cosas de mayoría** (II,30,3) → «coisas de mando».
 - **entendimiento pasible** (II,32,4) → «entendimento passível» (termo dos filósofos).
+- **por mucho que sean** (II,26,9; o impresso traz assim, «por mucho»): traduzido «por pouco que sejam», pelo sentido (os toques «muitas vezes são bem fracos»; vale o mais fraco deles). Revisão de 2026-11-16.

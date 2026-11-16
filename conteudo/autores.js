@@ -86,6 +86,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-clemente-romano',
+  area: 'catolicismo',
+  nome: 'São Clemente Romano',
+  nomeCompleto: 'Clemente de Roma',
+  vida: '~35–~99',
+  ordem: 'Clemente Romano, São',
+  nota: 'Bispo de Roma no fim do século I, Padre apostólico. Em tradução do grego.'
+});
+
+BIBLIOTECA.autor({
   id: 'santo-inacio-de-antioquia',
   area: 'catolicismo',
   nome: 'Santo Inácio de Antioquia',

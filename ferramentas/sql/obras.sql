@@ -1867,6 +1867,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('santo-atanasio/vida-de-santo-antao', 'Vida de Santo Antão'),
   ('santo-inacio-de-antioquia/cartas-inacio-antioquia', 'Cartas'),
   ('sao-cipriano/sobre-a-unidade-da-igreja', 'Sobre a unidade da Igreja católica'),
+  ('sao-clemente-romano/primeira-carta-de-clemente', 'Carta aos Coríntios'),
   ('sao-francisco-de-sales/introducao-a-vida-devota', 'Introdução à vida devota (Filoteia)'),
   ('sao-gregorio-magno/regra-pastoral', 'Regra Pastoral'),
   ('sao-gregorio-magno/vida-de-sao-bento', 'Vida de São Bento'),

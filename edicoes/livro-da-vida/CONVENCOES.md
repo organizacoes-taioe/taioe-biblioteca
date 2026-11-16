@@ -110,8 +110,13 @@ saem no português de hoje («assim», «mesmo», «melhor», «segundo», «pie
 | holgarse (Deus com os homens) · divertirse (as potências) | alegrar-se · distrair-se |
 | romance (a língua) · llaneza · simpleza | castelhano · simplicidade · singeleza |
 | interesal · de poco tomo · piélago · alcaide | interesseira · de pouco peso · mar · comandante |
+| águila caudalosa · no somos parte · tráfago(s) | águia poderosa · não somos capazes · afã(s) |
+| motas, motita · asidos · condición (o natural) | ciscos, ciscozinho · apegados · temperamento |
+| cimiento · poner por tercero · premio (= apremio) | alicerce · pôr por medianeiro · obrigação |
+| rabiamientos (São Vicente Ferrer) | furores |
 
-Falas de Deus a ela: entre aspas, com «tu» («Serve-me tu a mim…»).
+Falas de Deus a ela: entre aspas, com «tu» («Serve-me tu a mim…»). Pessoas que ela não nomeia ficam sem
+nome também na tradução. Título de hino (_Veni Creator_) sem tradução entre colchetes.
 
 Diminutivos dela ficam («cuidadinho», «mulherzinhas»). Sem contrações «mo», «ma», «lho», «no-lo»: soam de
 Portugal ou de livro antigo («ele mo deu» → «ele me deu isso», «deu-me»).

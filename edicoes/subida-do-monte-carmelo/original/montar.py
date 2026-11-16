@@ -48,7 +48,7 @@ PAGINAS = {
     ('subida', 3): (252, 371),
     ('noche', 0): (372, 376),
     ('noche', 1): (377, 426),
-    ('noche', 2): (427, 525),
+    ('noche', 2): (427, 523),   # 524: fe de erratas (aplicada nas EMENDAS)
 }
 INDICE = (526, 541)
 
@@ -90,7 +90,7 @@ def pequena(l, W):
     return r < 0.0101 or (r < 0.0106 and h < 0.0170)
 
 
-def classificar(pag):
+def classificar(pag, ipag=None):
     W, H = pag['W'], pag['H']
     L = pag['linhas']
     longas = [l for l in L if len(l[4]) >= 30 and not maiusc(l[4])]
@@ -98,17 +98,40 @@ def classificar(pag):
     margem = xs[len(xs) // 4] if xs else 0.1 * W
     out = []
     pe = False
+    abre_livro = False   # entre «LIBRO …» e «CAPITULO I»: o sumário vem em letra pequena e não é nota
     for k, l in enumerate(L):
         x0, y0, x1, y1, t, pid = l
         r = (x1 - x0) / max(1, len(t)) / W
         h = (y1 - y0) / W
-        if k < 3 and y0 / H < 0.08 and (maiusc(t) or re.fullmatch(r'[\dIl\W]+', t.strip())):
+        if k < 3 and y0 / H < 0.1 and (maiusc(t) or re.fullmatch(r'[\dIl\W]+', t.strip())
+                                       or (sum(c.isupper() for c in t) >= 0.5 * max(1, len(letras(t)))
+                                           and re.search(r'L.?I.?B.?R.?O|N.?O.?C.?H|SUBIDA|C.?A.?P\b|\bCAP|IMERO|IMFRO|EGUNDO|ERCERO',
+                                                         t.upper()))):
             out.append('cabeco')
             continue
-        if not pe:
+        if (k < 3 and y0 / H < 0.075 and len(t) < 32 and x0 - margem > 0.12 * W
+                and all(L[j][1] - y0 > 0.03 * H for j in range(k + 1, min(k + 2, len(L))) if L[j][1] > y0 + 5)):
+            out.append('cabeco')   # cabeço centrado que o OCR leu como minúsculas («kochf oscrsA»)
+            continue
+        if (ipag, k) in CLASSE_FORCADA:
+            out.append(CLASSE_FORCADA[(ipag, k)])
+            continue
+        if maiusc(t) and re.match(r'^\[?L\s?I\s?B\s?R\s?O\s', t.strip()) and k < 4:
+            abre_livro = True
+            out.append('maiusc')
+            continue
+        if abre_livro:
+            if maiusc(t):
+                abre_livro = False   # CAPITULO ou CANCION: daqui em diante, a classificação de sempre
+            else:
+                out.append('prosa')
+                continue
+        if ipag in NOTAS_DESDE:
+            pe = k >= NOTAS_DESDE[ipag]
+        elif not pe:
             if pequena(l, W) and k + 1 < len(L) and pequena(L[k + 1], W):
                 pe = True
-            elif re.match(r'^\d{1,2}\s+\S', t) and h < 0.0175 and k > 0:
+            elif re.match(r'^\d{1,2}\s+[^\s\.,]', t) and h < 0.0175 and k > 0:
                 pe = True
             elif (re.match(r'^[\dIl]{1,2}\s+\S', t) and not re.match(r'^[\dIl]{1,2}\s?[\dIl]?\s?\.', t)
                   and y0 / H > 0.6 and r < 0.0116 and k > 0):
@@ -268,7 +291,7 @@ def juntar_linhas(linhas):
 
 VOGAIS = {'a': 'á', 'e': 'é', 'i': 'í', 'o': 'ó', 'u': 'ú'}
 SEM_ACENTO = str.maketrans('áéíóúÁÉÍÓÚ', 'aeiouAEIOU')
-OBSOLETOS = {'fué': 'fue', 'fuí': 'fui', 'dió': 'dio', 'vió': 'vio', 'pié': 'pie', 'ví': 'vi', 'dí': 'di',
+OBSOLETOS = {'hán': 'han', 'fué': 'fue', 'fuí': 'fui', 'dió': 'dio', 'vió': 'vio', 'pié': 'pie', 'ví': 'vi', 'dí': 'di',
              'fuése': 'fuese', 'Fué': 'Fue', 'Dió': 'Dio', 'Vió': 'Vio'}
 # palavras válidas sem acento que não se tocam (o contexto decide; ficam como Silverio imprimiu)
 AMBIGUAS = set('''si sí mi mí tu tú el él que qué como cómo cuan cuán cuanto cuánto donde dónde esta está ésta
@@ -346,12 +369,26 @@ def carregar(fontes):
     return A, B
 
 
+# número de parágrafo de Silverio mal lido pelas três leituras, conferido na imagem:
+# (página djvu, linha): (número, True = troca o primeiro token lido; False = o número faltava)
+NUMERO_FORCADO = {
+    (84, 5): (1, True), (104, 15): (5, True), (185, 19): (1, True), (217, 23): (1, True),
+    (297, 19): (3, True), (316, 15): (5, True), (354, 18): (3, True), (366, 21): (4, True),
+    (382, 23): (6, True), (427, 5): (1, True), (507, 24): (5, True), (513, 23): (4, False), (400, 2): (2, False),
+}
+
+# classe de linha corrigida à mão (título que o classificador tomou por nota)
+CLASSE_FORCADA = {(217, 22): 'maiusc'}
+# páginas em que o classificador tomou o corpo por nota (número de parágrafo sem ponto): notas só desta linha em diante
+NOTAS_DESDE = {242: 34, 400: 32}
+
+
 def linhas_votadas(A, B, fontes, ini, fim, vocab, duvidas):
     """Devolve a lista de linhas [(classe, texto, pagina, y0, x0, margem, W)] das páginas ini..fim."""
     saida = []
     for i in range(ini, fim + 1):
         pa, pb = A[i], B[i]
-        classes, margem = classificar(pa)
+        classes, margem = classificar(pa, i)
         ta, dono = [], []
         for k, l in enumerate(pa['linhas']):
             for w in l[4].split():
@@ -368,7 +405,14 @@ def linhas_votadas(A, B, fontes, ini, fim, vocab, duvidas):
             if w:
                 por_linha[k].append(w)
         for k, l in enumerate(pa['linhas']):
-            saida.append((classes[k], ' '.join(por_linha[k]), i, l[1], l[0], margem, pa['W'], l[3]))
+            txt = ' '.join(por_linha[k])
+            m = re.match(r'^([\dIl|]{1,2})\s?\.\s', l[4])
+            if m and classes[k] == 'prosa' and not re.match(r'^[\dIl|]{1,2}\s?\.', txt):
+                txt = m.group(1) + '. ' + re.sub(r'^\S{1,2}\.\s', '', txt)   # o voto apagou o número do parágrafo (as outras leituras não o tinham)
+            if (i, k) in NUMERO_FORCADO:
+                n, apaga = NUMERO_FORCADO[(i, k)]
+                txt = f'{n}. ' + (txt.split(' ', 1)[1] if apaga else txt)
+            saida.append((classes[k], txt, i, l[1], l[0], margem, pa['W'], l[3]))
     return saida
 
 
@@ -432,6 +476,8 @@ def montar_livro(linhas, livro, obra):
                 estado = None
                 if re.match(r'^CANCIONES', tt) and livro == 0:
                     cancoes = True
+                elif cancoes and any(x[0] == 'verso' for x in blocos):
+                    cancoes = False
                 elif re.match(r'^(PR[OÓ]LOGO|ARGUMENTO)', tt):
                     cancoes = False
                     esperado = 1
@@ -450,7 +496,7 @@ def montar_livro(linhas, livro, obra):
             if prosa:
                 fecha()
             # estrofe nova: número «2.—» ou salto grande
-            if versos and (re.match(r'^\d\.\s?[—-]', t) or (ultimo_y is not None and y0 - ultimo_y > 0.07 * W)):
+            if versos and (re.match(r'^[\dJIl]{1,2}\.\s?[—-]', t) or (ultimo_y is not None and y0 - ultimo_y > 0.07 * W)):
                 blocos.append(['verso', versos])
                 versos = []
             versos.append(t)
@@ -587,14 +633,18 @@ def render(blocos, obra, livro, titulos, vocab):
                 if n != cap:
                     print(f'aviso: capítulo lido {n}, esperado {cap}', file=sys.stderr)
             tit = titulos.get((obra, livro, cap)) or frase(' '.join(b[2]), vocab)
-            out.append(f'## {cap}. {tit}')
+            corpo = frase(' '.join(b[2]), vocab) if b[2] else ''
+            if corpo and (obra, livro, cap) not in ((('subida', 3, 40),)) and difflib.SequenceMatcher(None, _norm(tit), _norm(corpo)).ratio() < 0.6:
+                print(f'aviso: título do índice não bate com o do corpo no capítulo {cap}; fica o do corpo', file=sys.stderr)
+                tit = corpo
+            out.append(f'## {cap}. {tit}'.rstrip(' .') if tit else f'## {cap}.')
             primeiro = True
         elif tipo == 'sub':
             t = b[1]
-            if obra == 'subida' and livro == 0 and t.startswith('SUBIDA DEL MONTE'):
+            if livro == 0 and (t.startswith('SUBIDA DEL MONTE') or t.startswith('NOCHE OSCURA')):
                 pass
             elif re.match(r'^(ARGUMENTO|PR[OÓ]LOGO|CANCIONES)$', t.strip(' .')):
-                out.append('## ' + frase(t, vocab))
+                out.append('## ' + frase(t, vocab).replace('Prologo', 'Prólogo'))
             elif t.startswith('FIN DEL LIBRO'):
                 out.append('_' + frase(t, vocab) + '._')
             else:
@@ -629,7 +679,7 @@ def render(blocos, obra, livro, titulos, vocab):
             estrofes = [[]]
             for v in b[1]:
                 v = limpar_par(v)
-                v = re.sub(r'^\d\.\s*[—-]\s*', '', v)
+                v = re.sub(r'^[\dJIl]{1,2}\.\s*[—-]\s*', '', v)
                 v = re.sub(r'\s*[»\*]$', '', v) if v.endswith(' »') or v.endswith(' *') else v
                 if v.startswith('—') and estrofes[-1]:
                     estrofes.append([])
@@ -650,7 +700,7 @@ PASTA = {'subida': 'subida-do-monte-carmelo', 'noche': 'noite-escura'}
 ARQUIVOS = {
     ('subida', 0): [('0-argumento-e-prologo.txt', None, None)],
     ('subida', 1): [('1-livro-primeiro.txt', None, None)],
-    ('subida', 2): [('2-livro-segundo-a.txt', 1, 15), ('2-livro-segundo-b.txt', 16, 32)],
+    ('subida', 2): [('2-livro-segundo-a.txt', 1, 12), ('2-livro-segundo-b.txt', 13, 21), ('2-livro-segundo-c.txt', 22, 32)],
     ('subida', 3): [('3-livro-terceiro-a.txt', 1, 23), ('3-livro-terceiro-b.txt', 24, 45)],
     ('noche', 0): [('0-prologo-e-cancoes.txt', None, None)],
     ('noche', 1): [('1-livro-primeiro.txt', None, None)],
@@ -674,7 +724,8 @@ def cabecalho(obra, livro, faixa, arq):
         f'# obra: San Juan de la Cruz, {TITULO_OBRA[obra]}',
         '# fonte: Internet Archive, «Obras de San Juan de la Cruz, t. II» (obrasdesanjuande02john; outra digitalização do '
         'mesmo exemplar em BMC11ObrasDeSanJuanDeLaCruzTomoIISubidaYNocheOscura), três leituras (OCR) do fac-símile '
-        'votadas por original/montar.py' + (' na pasta subida-do-monte-carmelo' if obra == 'noche' else ''),
+        'votadas por original/montar.py' + (' na pasta subida-do-monte-carmelo' if obra == 'noche' else '')
+        + ('; palavras ilegíveis limpas pela transcrição do Documenta Catholica Omnia (só para o OCR)' if obra == 'subida' and livro >= 2 else ''),
         '# edicao: Obras de San Juan de la Cruz, Doctor de la Iglesia, editadas y anotadas por el P. Silverio de Santa '
         'Teresa, C. D., t. II, Subida y Noche oscura (Burgos, Tipografía de «El Monte Carmelo», 1929; Biblioteca '
         f'Mística Carmelitana, 11), pp. {PAGS_IMPRESSAS[(obra, livro)]}',
@@ -707,7 +758,8 @@ CAPITAIS = {'Angel': 'Ángel', 'Angeles': 'Ángeles', 'Angeles,': 'Ángeles,', '
 SEMPRE = {'capitulo': 'capítulo', 'capitulos': 'capítulos', 'vacio': 'vacío', 'vacios': 'vacíos',
           'oido': 'oído', 'oidos': 'oídos', 'oir': 'oír', 'tenia': 'tenía', 'tenian': 'tenían', 'decia': 'decía',
           'hacia': 'hacia', 'mas': 'mas', 'guia': 'guía', 'guias': 'guías', 'sabia': 'sabia', 'fatigase': 'fatígase',
-          'sigúese': 'síguese', 'cuan': 'cuan'}
+          'sigúese': 'síguese', 'cuan': 'cuan', 'airan': 'aíran', 'siguense': 'síguense', 'lamparas': 'lámparas',
+          'oleo': 'óleo'}
 # latim que a acentuação do espanhol estragaria (ómnibus, réquiem)
 LATIM_PROTEGIDO = {'omnibus', 'requiem', 'Domine', 'omnia', 'anima', 'animae', 'vide', 'lucis', 'caeli', 'coeli',
                    'Deus', 'unus', 'luci', 'dare', 'omnes', 'gratia', 'mihi', 'tibi', 'sibi', 'nobis', 'vobis', 'filii', 'opera', 'vita', 'via'}
@@ -726,6 +778,158 @@ def normalizar(texto):
                    r'(?=\s*[,;:\.\)]|\s+mism|\s+propi|\s+sól|\s+solo|\s+sola|\s+y\b|\s+o\b|\s+que\b)',
                    r'\1 sí', texto)
     return texto
+
+
+# ---------------------------------------------------------------- segundo testemunho (só a Subida)
+# dco-subida.txt: transcrição da Subida no Documenta Catholica Omnia (texto de Silverio, sem as notas). Serve só
+# para limpar o OCR: troca uma palavra do texto votado apenas quando ela é suspeita (sinal estranho no meio, ou
+# palavra que não existe na lista de frequência) e o testemunho, alinhado no mesmo capítulo, traz no mesmo lugar
+# uma palavra parecida que existe. Nada mais se muda por ele.
+LETRA = 'A-Za-zÁÉÍÓÚÜÑáéíóúüñ'
+DCO_LIVROS = {1: 'LIBRO PRIMERO', 2: 'LIBRO SEGUNDO', 3: 'LIBRO TERCERO'}
+
+
+def _norm(w):
+    w = unicodedata.normalize('NFD', w.lower())
+    w = ''.join(ch for ch in w if not unicodedata.combining(ch) or ch == '\u0303')
+    return re.sub(r'[^a-zñ\u0303]', '', unicodedata.normalize('NFC', w))
+
+
+def capitulos_dco(arq, livro):
+    linhas = [l for l in open(arq, encoding='utf-8').read().split('\n')
+              if 'file:///' not in l and 'S. Juan De La Cruz' not in l]
+    # o corpo começa no segundo «LIBRO PRIMERO» (o primeiro é o índice)
+    idx = [i for i, l in enumerate(linhas) if l.strip() == DCO_LIVROS[livro]]
+    ini = idx[-1]
+    fim = len(linhas)
+    if livro + 1 in DCO_LIVROS:
+        prox = [i for i, l in enumerate(linhas) if l.strip() == DCO_LIVROS[livro + 1] and i > ini]
+        fim = prox[0] if prox else fim
+    caps = collections.OrderedDict()
+    atual = 0 if livro == 3 else None
+    buf = []
+    for l in linhas[ini + 1:fim]:
+        m = re.match(r'^\s*CAP[ÍI]TULO (\d+)\.?', l)
+        if m:
+            if atual is not None:
+                caps[atual] = ' '.join(buf)
+            atual, buf = int(m.group(1)), [l[m.end():]]
+            continue
+        buf.append(l)
+    caps[atual] = ' '.join(buf)
+    if livro == 3 and 0 in caps:
+        caps[1] = caps.pop(0)
+    return caps
+
+
+def limpar_com_testemunho(texto, livro, arq, vocab, log):
+    caps = capitulos_dco(arq, livro)
+    pedacos = re.split(r'(?m)^(?=## \d+\.)', texto)
+    out = []
+    for ped in pedacos:
+        m = re.match(r'## (\d+)\.', ped)
+        n = int(m.group(1)) if m else (1 if livro == 3 else None)
+        w_txt = caps.get(n)
+        if not w_txt:
+            out.append(ped)
+            continue
+        cru = [x for x in w_txt.split() if re.search('[' + LETRA + ']', x)]
+        wt = [re.sub(r'^[^' + LETRA + r']+|[^' + LETRA + r']+$', '', x) for x in cru]
+        wn = [_norm(w) for w in wt]
+        toks = [mm for mm in re.finditer(r'\S+', ped)]
+        tn = [_norm(mm.group(0)) for mm in toks]
+        sm = difflib.SequenceMatcher(None, tn, wn, autojunk=False)
+        trocas = {}
+        for op, a1, a2, b1, b2 in sm.get_opcodes():
+            if op != 'replace' or a2 - a1 > 8 or b2 - b1 > 8:
+                continue
+            if a2 - a1 != b2 - b1:
+                # trecho embaralhado pelo OCR («a idad • Líos» por «caridad de Dios»): troca o trecho inteiro,
+                # se a maior parte das palavras é suspeita e os dois trechos se parecem
+                raws = [toks[i].group(0) for i in range(a1, a2)]
+                if any(r.startswith(('[', '#', '|', '_')) or r.endswith('_') for r in raws):
+                    continue
+                cores = [re.sub(r'^[^' + LETRA + r']+|[^' + LETRA + r']+$', '', r) for r in raws]
+                susp = [bool(re.search(r'[^' + LETRA + r'\-]', c)) or vocab.freq(c) < 2 for c in cores]
+                if sum(susp) * 2 < len(susp) or not any(re.search(r'[^' + LETRA + r'\-]', c) for c in cores):
+                    continue
+                ca, cb = ''.join(tn[a1:a2]), ''.join(wn[b1:b2])
+                if not ca or not 0.7 <= len(cb) / len(ca) <= 1.4 or difflib.SequenceMatcher(None, ca, cb).ratio() < 0.6:
+                    continue
+                if any(vocab.freq(w) < 2 for w in wt[b1:b2]) or any(re.search(r'[\(\)\[\]]', x) for x in cru[b1:b2]):
+                    continue
+                novo = acentuar(' '.join(cru[b1:b2]), vocab, collections.Counter())
+                pre = re.match(r'^[«\(¡¿"]*', raws[0]).group(0)
+                pos = re.search(r'[,\.;:!\?»\)]*$', raws[-1]).group(0)
+                novo = pre + novo.lstrip('«(¡¿"') if pre else novo
+                novo = novo.rstrip(',.;:!?»)') + pos if pos else novo
+                trocas[a1] = novo
+                for i in range(a1 + 1, a2):
+                    trocas[i] = ''
+                log.append((n, ' '.join(raws), novo))
+                continue
+            for i, j in zip(range(a1, a2), range(b1, b2)):
+                raw = toks[i].group(0)
+                if raw.startswith('[') or raw.startswith('#') or raw == '|':
+                    continue
+                mm = re.match(r'^([«\(¡¿"_]*)(.*?)([,\.;:!\?»\)_]*)$', raw)
+                pre, core, pos = mm.groups()
+                w = wt[j]
+                suspeita = (re.search(r'[^' + LETRA + r'\-]', core) or vocab.freq(core) < 2)
+                if not suspeita or vocab.freq(w) < 2 or not core:
+                    continue
+                if difflib.SequenceMatcher(None, tn[i], wn[j]).ratio() < 0.5:
+                    continue
+                if not re.search(r'[^' + LETRA + r'\-]', core):
+                    # palavra só de letras, mas rara: pode ser forma do autor, nome ou latim de Silverio
+                    # (Balaán, Apocalipsi, coelo); só se troca erro de uma ou duas letras por palavra comum
+                    if (core[:1].isupper() or len(core) != len(w) or vocab.freq(w) < 20
+                            or sum(x != y for x, y in zip(_norm(core), _norm(w))) > 1):
+                        continue
+                novo = w[0].upper() + w[1:] if core[:1].isupper() else w
+                novo = acentuar(novo, vocab, collections.Counter())
+                trocas[i] = pre + novo + pos
+                log.append((n, raw, trocas[i]))
+        if trocas:
+            partes, ult = [], 0
+            for i, mm in enumerate(toks):
+                if i in trocas:
+                    if trocas[i] == '':
+                        ult = mm.end()
+                        continue
+                    partes.append(ped[ult:mm.start()])
+                    partes.append(trocas[i])
+                    ult = mm.end()
+            partes.append(ped[ult:])
+            ped = ''.join(partes)
+        out.append(ped)
+    return ''.join(out)
+
+
+
+def tirar_sujeira(texto, vocab, log):
+    """Sinais soltos que o OCR grudou numa palavra («mismo*», «Dios'», «^digo»): saem quando o que sobra é
+    palavra comum."""
+    def troca(m):
+        w = m.group(0)
+        if w.startswith('[') or w in ('|', '##'):
+            return w
+        jj = re.fullmatch('([' + LETRA + ']+)(,?)\\.([' + LETRA + ']+)([,\\.;:]?)', w)
+        if jj and vocab.freq(jj.group(1)) >= 20 and vocab.freq(jj.group(3)) >= 20:
+            a_, v_, b_, p_ = jj.groups()
+            novo = (a_ + v_ + ' ' + b_ if b_[0].islower() else a_ + '. ' + b_) + p_
+            log.append(('-', w, novo))
+            return novo
+        mm = re.match(r"^([«\(¡¿_]*)([\'\*\"~\^\\{}<>|`’]*)(.*?)([\'\*\"~\^\\{}<>|`’]*)([,\.;:!\?»\)_]*)$", w)
+        if not mm or not (mm.group(2) or mm.group(4)):
+            return w
+        core = mm.group(3)
+        if re.fullmatch('[' + LETRA + ']+', core) and vocab.freq(core) >= 20:
+            novo = mm.group(1) + core + mm.group(5)
+            log.append(('-', w, novo))
+            return novo
+        return w
+    return '\n'.join(l if l.startswith('#') else re.sub(r'\S+', troca, l) for l in texto.split('\n'))
 
 
 def aplicar_emendas(texto, obra, livro):
@@ -774,7 +978,14 @@ def main():
     titulos = titulos_indice(A, B, fontes, vocab)
     texto = render(blocos, a.obra, a.livro, titulos, vocab)
     texto = normalizar(texto)
+    trocas_t = []
+    arq_t = os.path.join(fontes, 'dco-subida.txt')
+    if a.obra == 'subida' and a.livro >= 2 and os.path.exists(arq_t):
+        texto = limpar_com_testemunho(texto, a.livro, arq_t, vocab, trocas_t)
+        print(f'{len(trocas_t)} palavras limpas pelo segundo testemunho', file=sys.stderr)
     texto, falhas = aplicar_emendas(texto, a.obra, a.livro)
+    if a.livro >= 2 or a.obra == 'noche':
+        texto = tirar_sujeira(texto, vocab, trocas_t)
     for f in falhas:
         print('emenda não aplicada:', f, file=sys.stderr)
     if a.gravar:
@@ -793,6 +1004,10 @@ def main():
         with open(a.duvidas, 'w', encoding='utf-8') as f:
             for d in duvidas:
                 f.write('\t'.join(str(x) for x in d) + '\n')
+        if trocas_t:
+            with open(a.duvidas.replace('.tsv', '-testemunho.tsv'), 'w', encoding='utf-8') as f:
+                for d in trocas_t:
+                    f.write('\t'.join(str(x) for x in d) + '\n')
     print(f'{len(blocos)} blocos, {len(duvidas)} dúvidas, {sum(log.values())} acentos', file=sys.stderr)
 
 

@@ -38,7 +38,7 @@ repositório (ficou em `~/.cache/claude-pedidos-1611/tmp-apologia-newman/`, só 
 - Mantidos como no Gutenberg: aspas retas `"` e `'`, travessão `--`, itálico `_assim_` (o Gutenberg o marca), grafia
   britânica e a do autor (`shew`, `connexion`), referências bíblicas no formato do autor (`Matt. xxiv. 15.`), as
   remissões a páginas da edição de 1890 (títulos das notas: «Note A, on page 14»; «Vide supr. p. 219»).
-- Única correção: «EXTRACT OF A LETTER **PROM** THE REV. E. SMEDLEY» → «FROM» (erro de digitação, nas notas adicionais).
+- Únicas correções: «EXTRACT OF A LETTER **PROM** THE REV. E. SMEDLEY» → «FROM» (erro de digitação, nas notas adicionais), e a ligadura que o Gutenberg escreve `[oe]` virou `œ` (manœuvre, Syro-Phœnician, pomœria, Cœlestius).
 - Quebras de seção do autor (cinco asteriscos) → parágrafo `* * *`. Títulos internos → `## ` («§ 1.» e «§ 2.» no
   capítulo IV; «Protest.» no III; nas mensagens do clero, cada diocese; nas notas adicionais, «Note on page …» e o
   título de cada uma, e os números das quatro cartas de Whately). Títulos em caixa alta passaram a caixa de título.

@@ -159,6 +159,7 @@ def main(arq):
     texto = texto.split('*** START OF THE PROJECT GUTENBERG EBOOK 22088 ***', 1)[1]
     texto = texto.split('*** END OF THE PROJECT GUTENBERG EBOOK 22088 ***', 1)[0]
     texto = texto.replace('EXTRACT OF A LETTER PROM THE REV.', 'EXTRACT OF A LETTER FROM THE REV.')  # erro de digitação do Gutenberg
+    texto = texto.replace('[oe]', 'œ')   # ligadura que o Gutenberg escreveu entre colchetes (man[oe]uvre)
     bl = blocos(texto)
     tx = [junta(b) for b in bl]
 

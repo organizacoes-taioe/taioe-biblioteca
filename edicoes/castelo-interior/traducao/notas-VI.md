@@ -40,6 +40,8 @@
 - *nuestro Padre Elias* (VI.7) → «nosso Pai Elias» (maiúscula do original; é o pai do Carmelo).
 - *el prendimiento* (VI.7) → «a prisão»; *oración del Huerto* → «oração do Horto».
 - *Sacratísima Virgen*, *Madre Sacratísima*, *Santos*: maiúsculas como no original, que oscila (*santos* na ementa, *Santos* no texto).
+- *cabe sí* (VI.8) → «junto de si»; *aparecimientos* → «aparições»; *Mi tema es y será* → «A minha teima é e será»; *corrido* (o demônio) → «envergonhado».
+- *cuando es servido / si fuere servido* → «quando lhe agrada / quando quer», «se for do agrado» (evitei o «ser servido» antigo).
 
 ## Passagens difíceis
 

@@ -20,6 +20,13 @@
 - [10.7] «de quí» → «de aquí»; «raía» → «mía»; «de lo que oído» → «de lo que he oído» (falta «he»).
 - [10.8] «€sto» → «esto».
 - [10.9] «impedimcntos» → «impedimentos»; «anos» → «años».
+- [11.2] «del iodo» → «del todo».
+- [11.3] «ie» → «le»; «Plega el Señor» → «Plega al Señor».
+- [11.4] «iodas» → «todas»; «Vitoria» → «vitoria» (maiúscula indevida); «perfición» → provável «perfeción» (se não for variante dela).
+- [11.9] «veees» → «veces».
+- [11.12] «i no» → «¡no»; «¿por- qué» → «¿por qué» (hífen solto).
+- [11.15] «que lo ha que comenzaron» → provável «que ha mucho que comenzaron» (traduzido «que começaram há muito tempo»).
+- [11.17] «vera» → «verá».
 
 ## Termos e nomes
 
@@ -46,6 +53,22 @@
 - *hilar* [10.7] → «fiar» (fiar lã ou linho).
 - *muladar* [10.9] → «monturo»; *huerto de tan suaves flores* → «horta de tão suaves flores» (já anuncia a horta do cap. 11).
 - *romperálo*, *escribirlo he*, *quedarnos hemos* [10.6–10.7]: futuros com o pronome no meio, desfeitos («o rasgará», «hei de escrevê-lo», «ficaremos»).
+- **Horta (cap. 11)**, como na tabela: *huerto*, *huerta* → «horta» (ela usa os dois); *hortolano* → «hortelão»; *regar* → «regar»; *sacar agua del pozo* → «tirar água do poço»; *noria y arcaduces* → «nora e alcatruzes»; *río u arroyo* → «rio ou arroio»; *llover* → «chover»; *las cuatro maneras de agua*, *estas cuatro aguas* → «as quatro maneiras de água», «estas quatro águas».
+- *caldero* [11.10] (o recipiente que desce ao poço) → «balde». Termo novo e fixo para os lotes seguintes.
+- *torno* [11.7] (o que faz girar a nora) → «manivela» («torno» se lê como a máquina de tornear).
+- *verjel* [11.8] → «jardim» (variação dela para a horta; «vergel» é palavra rara).
+- *malas yerbas* [11.6] → «ervas daninhas».
+- *caudal* [11.5] (o que o Senhor põe) → «cabedal».
+- *cabar en su huerto, y estamos cabe el Señor* [11.12] → «cavar na sua horta, e estamos junto do Senhor dela» (o jogo *cabar*/*cabe* se perde).
+- *caros* [11.1] (os que se dão a Deus a custo) → «fazemo-nos tão caros», para guardar o jogo com «sem grande preço».
+- *amadores* [11.11] (de Deus) → «os que o amam» («amadores» hoje se lê «amadores» de esporte).
+- *congojas* [11.11] → «angústias»; *afligimiento* [11.15] → «aflição»; *apretarse* [11.17] → «angustiar-se».
+- *destraimiento* [11.16–11.17] → «distração»; *discreción, discrición* [11.15–11.16] → «discernimento», como na § 3a.
+- *encarceladita* [11.15] → «encarceradinha» (a alma presa no corpo); *mujercitas* [11.14] → «mulherzinhas»; *cuidadito* [10.2] → «cuidadinho». Os diminutivos dela ficam.
+- *hombres de tomo* [11.14] → «homens de peso».
+- *donosa manera* [11.3] (ironia) → «graciosa maneira».
+- *por junto* [11.3, 11.10] → «de uma vez», «tudo de uma vez».
+- *perderse ha* [11.8] → «se perderá» (mesóclise do original desfeita).
 
 ## Passagens difíceis
 
@@ -59,5 +82,13 @@
 - [10.7] *En vida está claro que no se ha de decir de lo bueno*: «em vida, está claro que não se há de dizer [o nome], quanto ao que for bom».
 - [10.9] *me ha dado el Señor, me ha dado Su Majestad la expiriencia… que a otros en cuarenta y siete*: a repetição fica; acrescentado «deu» no segundo membro («que a outros deu em quarenta e sete»), para a comparação se ler.
 - [10.9] *con más claridad que aquí me lo ha dejado decir*: o sujeito é Vossa Mercê (que sabe quem ela é melhor do que ela pôde dizer ali) → «do que aqui me deixou dizer».
+- [11.1] *que no me parece otra cosa determinarnos a siguir por este camino de oración, al que tanto nos amó*: «al que tanto nos amó» é o objeto de *siguir* → «determinarmo-nos a seguir, por este caminho de oração, aquele que tanto nos amou», entre parênteses.
+- [11.3] *Y luego le queremos a manos llenas… tenernos nuestras afeciones… y muchas consolaciones espirituales*: lido como «queremos tudo»: ficar com as afeições e ainda ter muitas consolações; o meio entre parênteses.
+- [11.8] *una de las personas que esto me mandaron escribir, que la ha traído el Señor en cuatro meses…*: mantida discreta, como ela quer (é García de Toledo, segundo os editores; não se nomeia).
+- [11.9] *y aun plega a Dios lo quiera tener*: o sujeito é o poço (que tenha água) → «e ainda queira Deus que ele a queira ter».
+- [11.11] *Su precio se tienen estos trabajos, que, como quien los pasó muchos años… Sé que son grandísimos*: o ponto do original corta a frase ao meio; juntadas as duas partes numa frase só, dentro do mesmo parágrafo («Estes trabalhos têm o seu preço; que, como quem os passou muitos anos…, sei que são grandíssimos»).
+- [11.12] *Atapados los ojos de pensar, ¿por qué da aquél…?*: «Tapados os olhos para não pensar: por que dá…?» (o pensamento que não se deve ter).
+- [11.13] *Recibir, más me parece a mí eso, que no dar nosotros nada*: «Isso me parece a mim mais receber do que darmos nós alguma coisa» (os gostos são receber, não dar).
+- [11.15] *y si había de estar inhábil para aprovechar una hora, que lo esté cuatro*: «e, se ela havia de estar inábil… uma hora, faz que o esteja quatro» (acrescentado «faz», que o sentido pede).
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)

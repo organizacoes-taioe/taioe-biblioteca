@@ -16,7 +16,7 @@ Branch `pedido-subida-noite-escura`. Situação em 2026-11-16.
 |---|---|---|
 | `0-argumento-e-prologo.txt` | 1.875 | pronta (versos literais provisórios) |
 | `1-livro-primeiro.txt` | 15.352 | cap. 1–5 prontos (5.460); faltam cap. 6–15 (9.892) |
-| `2-livro-segundo-a.txt` (cap. 1–12) | 15.321 | falta |
+| `2-livro-segundo-a.txt` (cap. 1–12) | 15.321 | pronta (lote 2, branch `pedido-subida-noite-escura-t2`) |
 | `2-livro-segundo-b.txt` (cap. 13–21) | 18.247 | falta |
 | `2-livro-segundo-c.txt` (cap. 22–32) | 16.317 | falta |
 | `3-livro-terceiro-a.txt` (cap. 1–23) | 18.352 | falta |
@@ -24,7 +24,7 @@ Branch `pedido-subida-noite-escura`. Situação em 2026-11-16.
 | Noite: `0-prologo-e-cancoes.txt` | 518 | falta |
 | Noite: `1-livro-primeiro.txt` | 14.626 | falta |
 | Noite: `2-livro-segundo-a.txt` (cap. 1–12) | 13.000 | falta |
-| Noite: `2-livro-segundo-b.txt` (cap. 13–25) | 14.995 | falta |
+| Noite: `2-livro-segundo-b.txt` (cap. 13–25) | 14.995 | pronta (lote 2, branch `pedido-subida-noite-escura-t2`) |
 
 Falta traduzir ≈ 138 mil palavras.
 

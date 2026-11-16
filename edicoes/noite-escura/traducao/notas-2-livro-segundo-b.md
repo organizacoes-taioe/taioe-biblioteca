@@ -7,7 +7,12 @@ Grep de mesóclise sem resultado; blocos iguais ao original.
 - Os versos repetidos usam a tradução literal das canções da Subida (`../subida-do-monte-carmelo/traducao/0-argumento-e-prologo.txt`),
   com a pontuação e as maiúsculas do texto da Noite (Silverio imprime aqui «salí», «estando» em minúscula nos versos
   citados no meio da prosa, e «A oscuras y segura» sem vírgula).
-- «en celada» → «escondida», como nas canções.
+- «en celada» → «escondida», como nas canções. Em II,23,1 o autor explica a palavra («En celada es tanto como decir:
+  en escondido»): ficou «“Escondida” é o mesmo que dizer: em oculto, ou encoberta»; em II,23,13 «En celada y
+  escondido, en el cual escondido» → «Escondida, e em esconderijo; e nesse esconderijo».
+- Canção 3 (II,25): a Noite traz «Sin otra luz **y** guía» (a Subida, «ni guía»); ficou «Sem outra luz e guia»,
+  diferente da canção da Subida («nem guia»). O Versificador decide se uniformiza.
+- II,21,10 o verso citado na prosa «Con ansias en amores inflamada» → «com ânsias, em amores inflamada».
 
 ## Escolhas
 
@@ -22,6 +27,10 @@ Grep de mesóclise sem resultado; blocos iguais ao original.
   **Levantarme he** (II,19,2) → «Vou me levantar»; **Acordádome he** (II,19,4) → «Lembrei-me»; **darte ha** (II,20,2)
   → «ele te dará».
 - **varón de deseos** (Daniel) → «varão de desejos».
+- **almilla** (II,21,6) → «colete»; **colorado** → «vermelho»; **toga** fica.
+- **a excusa de** (II,23,2 e 12) → «às ocultas de».
+- **siempre ser de Dios** (II,25,3) → «ser eterno de Deus».
+- **salud** (II,21,7 «yelmo de salud»; II,21,10 «su amada salud») → «salvação».
 
 ## OCR (o espanhol visivelmente errado; traduzido pelo que o autor escreveu)
 
@@ -40,5 +49,11 @@ Grep de mesóclise sem resultado; blocos iguais ao original.
 - II,19,1 «apelito», latim «Piuviam voluntariam segrrgabis, Deus, hacrediíati tuac, ct injirmata caí» (Pluviam
   voluntariam segregabis, Deus, haereditati tuae, et infirmata est), «biert»; II,19,4 «Ponmc», «diriendo», «es
   piritualmente»; II,19,5 «lo gue», «fodean» (rodean).
+- II,21,4 latim «in jide» (fide), duas vezes; II,21,7 «otra paite».
+- II,23,3 «4.» solto no fim do parágrafo (número de parágrafo vazado); II,23,5 «nueccs»; II,23,8 «de rarazón»;
+  II,23,10 falta ponto antes de «Pero sutilizole»; II,23,12 «le entro pidiendo» (le andaba / le iba pidiendo, lido
+  «foi pedindo»), «atreverla» (atrevería).
+- II,24,2 «salif», «espn ritual»; II,24,3 «ios actos», latim «in suo cursa médium… a re ¿atibas scdibus» (cursu
+  medium… a regalibus sedibus); II,24,4 «biri» (sin), «mantd»; II,25,4 «ej Amado».
 - II,20,1 latim «Sirte iniquitate» (Sine), «salmo: mo:»; II,20,5 «se liará» (hará); II,20,6 falta o ponto antes de
   «De esta manera».

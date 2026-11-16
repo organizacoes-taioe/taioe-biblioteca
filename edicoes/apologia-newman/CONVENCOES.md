@@ -15,8 +15,8 @@ prevalece onde for mais específico. Modelos de tom: `traducao/00-prefacio.txt` 
   «¤ [1] Ver a Nota A, _O liberalismo_, no fim do volume.»), os `## ` (traduzidos: `## § 1.`, `## Protesto.`,
   `## I. A diocese de Westminster.`, `## Nota sobre a p. 12.`), as linhas `| ` (versos latinos, que ficam em latim; e
   o calendário da Nota D, ver § 8).
-- Travessão: o `--` do Gutenberg vira «—», com espaço dos dois lados; depois de vírgula ou ponto e vírgula, a
-  pontuação fica («;--I was» → «; — eu estava»). O «:--» antes de citação ou de lista vira só «:». Aspas: “…”, com ‘…’ dentro. Itálico `_assim_`, onde o original tem.
+- Travessão: o `--` do Gutenberg vira «—», com espaço dos dois lados; o «; —» fica
+  («;--I was» → «; — eu estava»), mas o «,--» inglês vira só «—» (ou só vírgula): nunca «, —». O «:--» antes de citação ou de lista vira só «:». Aspas: “…”, com ‘…’ dentro. Itálico `_assim_`, onde o original tem.
 - Reticências de corte nas citações (`....`, `...`) → «…» (e «[…]» não: Newman não usa colchetes para isso).
 
 ## 2. Tom e tratamento
@@ -37,6 +37,8 @@ prevalece onde for mais específico. Modelos de tom: `traducao/00-prefacio.txt` 
   caro senhor»; «the Very Rev. Dr. Newman» → «o Reverendíssimo Dr. Newman»; fechos («Ever yours very truly»,
   «Your affectionate friend and faithful servant in Christ») traduzidos ao pé da letra, uma linha por parágrafo como
   no original. Entre amigos, nas cartas, «you» → «você» só se o tom for familiar; nas formais, «o senhor» / «V. Exa.».
+- _you_ dirigido aos adversários protestantes (apóstrofe, cap. V) → «os senhores»; no desabafo do cap. IV, 1ª parte
+  (§ 49, aos jornais e curiosos: «Covardes!»), ficou «vocês», fala exaltada e não argumento.
 - Pronomes de Deus e de Cristo com maiúscula só onde o original tem (Him, His).
 
 ## 3. Termos fixos
@@ -76,6 +78,15 @@ prevalece onde for mais específico. Modelos de tom: `traducao/00-prefacio.txt` 
 | equivocation (casuística) | equívoco (o termo técnico da moral: a frase de duplo sentido) |
 | the Oratory, Oratorian | o Oratório, oratoriano |
 | Sermon, Parochial Sermons | sermão, os _Parochial Sermons_ |
+| Charge (do bispo ao clero) | alocução (nunca _Charge_ nem «pastoral»; «carta pastoral» só para _Pastoral_) |
+| untruth; lie; falsehood | inverdade; mentira; falsidade (a Nota G opõe _untruth_ e _lie_) |
+| Dissent, Dissenters | a Dissidência, os dissidentes |
+| fellowship (de Oriel) | o lugar de Fellow |
+| tentative | tateante («uma obra tateante», «caráter tateante»; a Nota C retoma a palavra) |
+| issue (da controvérsia) | o ponto em litígio |
+| the New Test (do _Hebdomadal Board_) | o novo juramento |
+| Vide; vid. supr. | Ver; ver acima |
+| Assize Sermon; assizes | o sermão das _assizes_; as sessões do tribunal |
 
 ## 4. Oxford, cargos e lugares
 
@@ -89,6 +100,9 @@ prevalece onde for mais específico. Modelos de tom: `traducao/00-prefacio.txt` 
   the resident Masters → os _Masters_ residentes; Heads of Houses → os chefes dos colégios; the Hebdomadal Board →
   o _Hebdomadal Board_ (o conselho semanal dos chefes dos colégios; sem explicação no texto); Convocation (a
   assembleia da Universidade) → a _Convocation_; (o sínodo de Cantuária: «a Convocação»).
+- A um bispo: _your Lordship_ → «Vossa Excelência», _his Lordship_ → «Sua Excelência», _my Lord_ → «senhor bispo»;
+  _your Eminence_ → «Vossa Eminência»; ao arcebispo, _your Grace_ → «Vossa Graça»; _my Lord_ a um leigo (Nota G) →
+  «milorde». Cargos ingleses no plural ficam no plural inglês («Fellows», «Tutors»).
 - Prelados: «Dr. Whately», «Archbishop Whately» → «Dr. Whately», «o arcebispo Whately»; «the Bishop of Oxford» → «o
   bispo de Oxford»; «my Diocesan» → «o meu bispo diocesano»; «Cardinal» → «cardeal». Mr. → «o sr.» (minúscula);
   Dr. → «Dr.»; Rev. → «o rev.».
@@ -109,6 +123,10 @@ prevalece onde for mais específico. Modelos de tom: `traducao/00-prefacio.txt` 
   Tractarian Movement_” do sr. Oakeley; “_What, then, does Dr. Newman mean?_”; a _Christian Year_; a _Lyra
   Apostolica_; o _British Critic_; a _Analogy_ de Butler; o _Essay on Development_. Se Newman as dá sem marca,
   pôr em itálico.
+- As vidas da série de 1843-4 também são títulos: «a _Life of St. Stephen Harding_», «a _Life of St. Walburga_»; a série,
+  «as _Lives of the English Saints_» (descritivo, «as vidas dos santos ingleses», onde Newman fala do projeto ou do
+  assunto, não do título). Nomes de leis traduzidos sem o inglês ao lado («a Lei da Reforma», «a lei dos bens
+  temporais da Igreja»).
 - Obras antigas ou latinas com título português usual: em português («a _Cidade de Deus_», «as _Confissões_»);
   título latino que ele dá em latim, em latim.
 - Livros da Bíblia e referências: no formato do autor, só com a abreviatura do livro em português (ver § 7).
@@ -126,6 +144,8 @@ prevalece onde for mais específico. Modelos de tom: `traducao/00-prefacio.txt` 
   15.» → «Mat. xxiv. 15.»).
 - Citações dos próprios escritos de Newman (sermões, cartas, artigos), longas, vão como parágrafos à parte, iguais
   ao original; traduzir como o resto do texto.
+- Grego: em letras gregas, como no impresso (δαιμόνια; ὁ μέγας; ἄνομος), nos dois lados; o Gutenberg o transliterava em `[Greek: …]`,
+  e o `montar.py` o devolve (tabela `GREGO`).
 - Versos: só os dois trechos latinos (Lucano; Horácio, na Nota A), que ficam em latim. Se surgir verso inglês
   citado, tradução literal linha a linha com `| ` e registro em `VERSOS.md` (ainda não há).
 

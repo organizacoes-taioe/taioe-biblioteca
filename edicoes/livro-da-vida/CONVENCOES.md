@@ -114,6 +114,12 @@ saem no português de hoje («assim», «mesmo», «melhor», «segundo», «pie
 | motas, motita · asidos · condición (o natural) | ciscos, ciscozinho · apegados · temperamento |
 | cimiento · poner por tercero · premio (= apremio) | alicerce · pôr por medianeiro · obrigação |
 | rabiamientos (São Vicente Ferrer) | furores |
+| plática (de Deus) · noticia (místico) · no lleva camino | conversa · notícia · não tem cabimento |
+| dar higas, una higa · aceleramientos · saeta | fazer figas, uma figa · agitações · flecha |
+| desabrida, desabrirse · hermosura · resplandor | desgostosa, desgostar-se · formosura · resplendor |
+| cuestión (o tormento) · sayal · conjurar | tormento · pano grosseiro · exorcizar |
+| requiebro (29.13) | galanteio (ver `revisao.json`) |
+| Querubines | querubins |
 
 Falas de Deus a ela: entre aspas, com «tu» («Serve-me tu a mim…»). Pessoas que ela não nomeia ficam sem
 nome também na tradução. Título de hino (_Veni Creator_) sem tradução entre colchetes.

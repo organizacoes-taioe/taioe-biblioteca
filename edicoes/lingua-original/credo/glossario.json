@@ -1,0 +1,1165 @@
+{
+  "verbetes": {
+    "credo": {
+      "lema": "credo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Crer."
+      ]
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Em / para."
+      ],
+      "nota": "Crer em."
+    },
+    "unum": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "Concorda com Deum."
+    },
+    "deum": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O deus."
+      ],
+      "nota": "Objeto de in."
+    },
+    "patrem": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O pai."
+      ],
+      "nota": "Aposto de Deum."
+    },
+    "omnipotentem": {
+      "lema": "omnipotens",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Todo-poderoso."
+      ],
+      "nota": "Concorda com Patrem."
+    },
+    "factorem": {
+      "lema": "factor",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O criador; o fazedor."
+      ],
+      "nota": "Aposto de Deum."
+    },
+    "caeli": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O céu."
+      ],
+      "nota": "De quem é criador."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "terrae": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A terra."
+      ],
+      "nota": "De quem é criador."
+    },
+    "visibilium": {
+      "lema": "visibilis",
+      "classe": "adjetivo",
+      "forma": "genitivo neutro plural",
+      "def": [
+        "Visível."
+      ],
+      "nota": "Das coisas visíveis."
+    },
+    "omnium": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "genitivo neutro plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Concorda com visibilium."
+    },
+    "invisibilium": {
+      "lema": "invisibilis",
+      "classe": "adjetivo",
+      "forma": "genitivo neutro plural",
+      "def": [
+        "Invisível."
+      ],
+      "nota": "Das coisas invisíveis."
+    },
+    "unum#2": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "Concorda com Dominum."
+    },
+    "dominum": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O senhor."
+      ],
+      "nota": "Objeto de in."
+    },
+    "iesum": {
+      "lema": "Iesus",
+      "classe": "nome próprio",
+      "def": [
+        "Jesus."
+      ]
+    },
+    "christum": {
+      "lema": "Christus",
+      "classe": "nome próprio",
+      "def": [
+        "Cristo, o Ungido: título de Jesus."
+      ]
+    },
+    "filium": {
+      "lema": "filius",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O filho."
+      ],
+      "nota": "Aposto de Dominum."
+    },
+    "dei": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O deus."
+      ],
+      "nota": "De quem é filho."
+    },
+    "unigenitum": {
+      "lema": "unigenitus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Unigênito."
+      ],
+      "nota": "Concorda com Filium."
+    },
+    "ex": {
+      "lema": "ex",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; para fora de."
+      ]
+    },
+    "patre": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O pai."
+      ],
+      "nota": "De quem nasceu."
+    },
+    "natum": {
+      "lema": "nascor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino singular",
+      "def": [
+        "Nascer."
+      ],
+      "nota": "Depoente: nascido."
+    },
+    "ante": {
+      "lema": "ante",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Antes de; diante de."
+      ]
+    },
+    "omnia": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Concorda com saecula."
+    },
+    "saecula": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O século; a era."
+      ],
+      "nota": "Antes de quê."
+    },
+    "deum#2": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O deus."
+      ],
+      "nota": "Aposto de Filium."
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De."
+      ]
+    },
+    "deo": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O deus."
+      ],
+      "nota": "De quem procede."
+    },
+    "lumen": {
+      "lema": "lumen",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "A luz; o lume."
+      ],
+      "nota": "Aposto de Filium."
+    },
+    "lumine": {
+      "lema": "lumen",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "A luz; o lume."
+      ],
+      "nota": "De quem procede."
+    },
+    "verum": {
+      "lema": "verus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Verdadeiro."
+      ],
+      "nota": "Concorda com Deum."
+    },
+    "vero": {
+      "lema": "verus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Verdadeiro."
+      ],
+      "nota": "Concorda com Deo."
+    },
+    "genitum": {
+      "lema": "gigno",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino singular",
+      "def": [
+        "Gerar."
+      ],
+      "nota": "Gerado."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "factum": {
+      "lema": "facio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino singular",
+      "def": [
+        "Fazer."
+      ],
+      "nota": "Feito (criado)."
+    },
+    "consubstantialem": {
+      "lema": "consubstantialis",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Consubstancial."
+      ],
+      "nota": "Concorda com Filium."
+    },
+    "patri": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "O pai."
+      ],
+      "nota": "Com quem: complementa consubstantialem."
+    },
+    "per": {
+      "lema": "per",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por."
+      ]
+    },
+    "quem": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Por meio de quem."
+    },
+    "omnia#2": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Sujeito de facta sunt."
+    },
+    "facta": {
+      "lema": "fio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo neutro plural",
+      "def": [
+        "Ser feito; acontecer."
+      ],
+      "nota": "Com sunt: foram feitas (perfeito passivo)."
+    },
+    "sunt": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Auxiliar do perfeito passivo."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de descendit."
+    },
+    "propter": {
+      "lema": "propter",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por causa de; por."
+      ]
+    },
+    "nos": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "acusativo plural",
+      "def": [
+        "Nós."
+      ]
+    },
+    "homines": {
+      "lema": "homo",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "O homem; ser humano."
+      ],
+      "nota": "Aposto de nos."
+    },
+    "nostram": {
+      "lema": "noster",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com salutem."
+    },
+    "salutem": {
+      "lema": "salus",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A salvação."
+      ],
+      "nota": "Por causa de quê."
+    },
+    "descendit": {
+      "lema": "descendo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Descer."
+      ]
+    },
+    "caelis": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "O céu."
+      ],
+      "nota": "De onde."
+    },
+    "incarnatus": {
+      "lema": "incarno",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Encarnar."
+      ],
+      "nota": "Com est: encarnou-se (perfeito passivo)."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Auxiliar do perfeito passivo."
+    },
+    "spiritu": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O espírito."
+      ],
+      "nota": "De quem."
+    },
+    "sancto": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com Spiritu."
+    },
+    "maria": {
+      "lema": "Maria",
+      "classe": "nome próprio",
+      "def": [
+        "Maria, a mãe de Jesus."
+      ]
+    },
+    "virgine": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A virgem; a donzela."
+      ],
+      "nota": "Aposto de Maria."
+    },
+    "homo": {
+      "lema": "homo",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O homem; ser humano."
+      ],
+      "nota": "Predicativo: como homem."
+    },
+    "factus": {
+      "lema": "fio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Ser feito; acontecer."
+      ],
+      "nota": "Com est: fez-se (perfeito passivo)."
+    },
+    "crucifixus": {
+      "lema": "crucifigo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Crucificar."
+      ],
+      "nota": "Foi crucificado (est subentendido)."
+    },
+    "etiam": {
+      "lema": "etiam",
+      "classe": "advérbio",
+      "def": [
+        "Também; até."
+      ]
+    },
+    "pro": {
+      "lema": "pro",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Por; em favor de."
+      ]
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "ablativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Por quem."
+    },
+    "sub": {
+      "lema": "sub",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Sob."
+      ],
+      "nota": "No tempo de."
+    },
+    "pontio": {
+      "lema": "Pontius",
+      "classe": "nome próprio",
+      "def": [
+        "Pôncio, nome de família romano, o de Pilatos."
+      ]
+    },
+    "pilato": {
+      "lema": "Pilatus",
+      "classe": "nome próprio",
+      "def": [
+        "Pilatos, o governador romano da Judeia que condenou Jesus."
+      ]
+    },
+    "passus": {
+      "lema": "patior",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Sofrer; suportar."
+      ],
+      "nota": "Depoente: padeceu."
+    },
+    "sepultus": {
+      "lema": "sepelio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Sepultar."
+      ],
+      "nota": "Com est: foi sepultado."
+    },
+    "est#2": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Auxiliar de passus e sepultus."
+    },
+    "resurrexit": {
+      "lema": "resurgo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ressurgir; ressuscitar."
+      ]
+    },
+    "tertia": {
+      "lema": "tertius",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Terceiro."
+      ],
+      "nota": "Concorda com die."
+    },
+    "die": {
+      "lema": "dies",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O dia."
+      ],
+      "nota": "Quando."
+    },
+    "secundum": {
+      "lema": "secundum",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Segundo; conforme."
+      ],
+      "nota": "Conforme."
+    },
+    "scripturas": {
+      "lema": "scriptura",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "A escritura."
+      ],
+      "nota": "Conforme quê."
+    },
+    "ascendit": {
+      "lema": "ascendo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Subir."
+      ]
+    },
+    "in#2": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Em / para."
+      ],
+      "nota": "Para onde."
+    },
+    "caelum": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O céu."
+      ],
+      "nota": "Para onde."
+    },
+    "sedet": {
+      "lema": "sedeo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Sentar-se; estar sentado."
+      ]
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Para; até, junto a."
+      ]
+    },
+    "dexteram": {
+      "lema": "dexter",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Direito; da direita."
+      ],
+      "nota": "A direita (subentende-se manum, a mão)."
+    },
+    "patris": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O pai."
+      ],
+      "nota": "De quem é a direita."
+    },
+    "iterum": {
+      "lema": "iterum",
+      "classe": "advérbio",
+      "def": [
+        "Outra vez; de novo."
+      ]
+    },
+    "venturus": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "particípio futuro, nominativo masculino singular",
+      "def": [
+        "Vir."
+      ],
+      "nota": "Com est: há de vir."
+    },
+    "est#3": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Auxiliar de venturus."
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Com."
+      ]
+    },
+    "gloria": {
+      "lema": "gloria",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A glória."
+      ],
+      "nota": "Modo: com glória."
+    },
+    "iudicare": {
+      "lema": "iudico",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Julgar."
+      ],
+      "nota": "Finalidade: para julgar."
+    },
+    "vivos": {
+      "lema": "vivus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Vivo."
+      ],
+      "nota": "Objeto de iudicare."
+    },
+    "mortuos": {
+      "lema": "mortuus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Morto."
+      ],
+      "nota": "Objeto de iudicare."
+    },
+    "cuius": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo: de quem, de cujo."
+    },
+    "regni": {
+      "lema": "regnum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O reino."
+      ],
+      "nota": "De quem."
+    },
+    "erit": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "finis": {
+      "lema": "finis",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O fim; o limite."
+      ],
+      "nota": "Sujeito de erit."
+    },
+    "spiritum": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O espírito."
+      ],
+      "nota": "Objeto de in."
+    },
+    "sanctum": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com Spiritum."
+    },
+    "dominum#2": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O senhor."
+      ],
+      "nota": "Aposto de Spiritum."
+    },
+    "vivificantem": {
+      "lema": "vivifico",
+      "classe": "verbo",
+      "forma": "particípio presente, acusativo masculino singular",
+      "def": [
+        "Vivificar; dar vida."
+      ],
+      "nota": "Concorda com Spiritum."
+    },
+    "qui#2": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de procedit."
+    },
+    "patre#2": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O pai."
+      ],
+      "nota": "De quem procede."
+    },
+    "filioque": {
+      "partes": [
+        {
+          "lema": "filius",
+          "classe": "substantivo masculino",
+          "forma": "ablativo singular",
+          "def": [
+            "O filho."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "De quem procede."
+    },
+    "procedit": {
+      "lema": "procedo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Avançar; prosseguir."
+      ]
+    },
+    "qui#3": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de adoratur e conglorificatur."
+    },
+    "patre#3": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O pai."
+      ],
+      "nota": "Com quem."
+    },
+    "filio": {
+      "lema": "filius",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O filho."
+      ],
+      "nota": "Com quem."
+    },
+    "simul": {
+      "lema": "simul",
+      "classe": "advérbio",
+      "def": [
+        "Ao mesmo tempo; juntamente."
+      ]
+    },
+    "adoratur": {
+      "lema": "adoro",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Adorar."
+      ],
+      "nota": "É adorado."
+    },
+    "conglorificatur": {
+      "lema": "conglorifico",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Glorificar; dar glória."
+      ],
+      "nota": "É glorificado."
+    },
+    "qui#4": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de locutus est."
+    },
+    "locutus": {
+      "lema": "loquor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Falar."
+      ],
+      "nota": "Depoente: falou."
+    },
+    "est#4": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Auxiliar de locutus."
+    },
+    "per#2": {
+      "lema": "per",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por."
+      ],
+      "nota": "Por meio de."
+    },
+    "prophetas": {
+      "lema": "propheta",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "O profeta."
+      ],
+      "nota": "Por meio de quem."
+    },
+    "unam": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "Concorda com Ecclesiam."
+    },
+    "sanctam": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com Ecclesiam."
+    },
+    "catholicam": {
+      "lema": "catholicus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Católico."
+      ],
+      "nota": "Concorda com Ecclesiam."
+    },
+    "apostolicam": {
+      "lema": "apostolicus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Apostólico."
+      ],
+      "nota": "Concorda com Ecclesiam."
+    },
+    "ecclesiam": {
+      "lema": "ecclesia",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A igreja."
+      ],
+      "nota": "Objeto de Credo, subentendido: creio na Igreja."
+    },
+    "confiteor": {
+      "lema": "confiteor",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Confessar."
+      ],
+      "nota": "Depoente: confesso."
+    },
+    "unum#3": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "Concorda com baptisma."
+    },
+    "baptisma": {
+      "lema": "baptisma",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O batismo."
+      ],
+      "nota": "Objeto de Confiteor."
+    },
+    "in#3": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Em / para."
+      ],
+      "nota": "Para: em vista de."
+    },
+    "remissionem": {
+      "lema": "remissio",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "O perdão; a remissão."
+      ],
+      "nota": "Para quê."
+    },
+    "peccatorum": {
+      "lema": "peccatum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo plural",
+      "def": [
+        "O pecado."
+      ],
+      "nota": "De quê."
+    },
+    "exspecto": {
+      "lema": "exspecto",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Esperar; aguardar."
+      ]
+    },
+    "resurrectionem": {
+      "lema": "resurrectio",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A ressurreição."
+      ],
+      "nota": "Objeto de exspecto."
+    },
+    "mortuorum": {
+      "lema": "mortuus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Morto."
+      ],
+      "nota": "Dos mortos."
+    },
+    "vitam": {
+      "lema": "vita",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A vida."
+      ],
+      "nota": "Objeto de exspecto."
+    },
+    "venturi": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "particípio futuro, genitivo neutro singular",
+      "def": [
+        "Vir."
+      ],
+      "nota": "Concorda com saeculi: vindouro."
+    },
+    "saeculi": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O século; a era."
+      ],
+      "nota": "De quê."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "interjeição",
+      "def": [
+        "Amém: assim seja. Palavra hebraica que fecha a oração."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "3.3": "unum#2",
+    "5.1": "deum#2",
+    "5.7": "deum#2",
+    "7.3": "omnia#2",
+    "11.4": "est#2",
+    "13.3": "in#2",
+    "14.4": "est#3",
+    "16.5": "dominum#2",
+    "17.1": "qui#2",
+    "17.3": "patre#2",
+    "18.1": "qui#3",
+    "18.3": "patre#3",
+    "19.1": "qui#4",
+    "19.3": "est#4",
+    "19.4": "per#2",
+    "21.2": "unum#3",
+    "21.4": "in#3"
+  }
+}

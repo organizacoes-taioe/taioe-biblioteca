@@ -1,0 +1,1655 @@
+{
+  "verbetes": {
+    "regnum": {
+      "lema": "regnum",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "O reino."
+      ],
+      "nota": "Sujeito de est."
+    },
+    "eius": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "genitivo singular",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Dele: de quem é o reino."
+    },
+    "regnum#2": {
+      "lema": "regnum",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "O reino."
+      ],
+      "nota": "Predicado: é um reino eterno."
+    },
+    "sempiternum": {
+      "lema": "sempiternus",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Eterno."
+      ],
+      "nota": "Concorda com regnum."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "omnes": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Concorda com reges."
+    },
+    "reges": {
+      "lema": "rex",
+      "classe": "substantivo masculino",
+      "forma": "nominativo plural",
+      "def": [
+        "O rei."
+      ],
+      "nota": "Sujeito de servient e de oboedient."
+    },
+    "servient": {
+      "lema": "servio",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Servir."
+      ]
+    },
+    "ei": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "A ele: complemento de servient."
+    },
+    "oboedient": {
+      "lema": "oboedio",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Obedecer."
+      ],
+      "nota": "Obedecerão (a ele, com dativo)."
+    },
+    "quare": {
+      "lema": "quare",
+      "classe": "advérbio",
+      "def": [
+        "Por quê."
+      ]
+    },
+    "fremuerunt": {
+      "lema": "fremo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Bramir; agitar-se."
+      ],
+      "nota": "Sujeito: gentes."
+    },
+    "gentes": {
+      "lema": "gens",
+      "classe": "substantivo feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "A nação; o povo."
+      ]
+    },
+    "populi": {
+      "lema": "populus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo plural",
+      "def": [
+        "O povo; a população."
+      ]
+    },
+    "meditati": {
+      "lema": "meditor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino plural",
+      "def": [
+        "Meditar; tramar."
+      ],
+      "nota": "Depoente: sentido ativo; com sunt, perfeito: meditaram."
+    },
+    "sunt": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Auxiliar do perfeito do depoente."
+    },
+    "inania": {
+      "lema": "inanis",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Vão; vazio."
+      ],
+      "nota": "Objeto de meditati sunt."
+    },
+    "astiterunt": {
+      "lema": "assisto",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Apresentar-se."
+      ],
+      "nota": "Sujeito: reges."
+    },
+    "reges#2": {
+      "lema": "rex",
+      "classe": "substantivo masculino",
+      "forma": "nominativo plural",
+      "def": [
+        "O rei."
+      ]
+    },
+    "terrae": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A terra."
+      ],
+      "nota": "Reis da terra."
+    },
+    "principes": {
+      "lema": "princeps",
+      "classe": "adjetivo",
+      "forma": "nominativo plural",
+      "def": [
+        "Principal; primeiro."
+      ]
+    },
+    "convenerunt": {
+      "lema": "convenio",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Reunir-se."
+      ]
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Em / para."
+      ]
+    },
+    "unum": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "In unum: num só lugar, juntos."
+    },
+    "adversus": {
+      "lema": "adversus",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Contra."
+      ]
+    },
+    "dominum": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O senhor."
+      ],
+      "nota": "Depois de adversus."
+    },
+    "christum": {
+      "lema": "Christus",
+      "classe": "nome próprio",
+      "forma": "acusativo singular",
+      "def": [
+        "Cristo, o Ungido: título de Jesus."
+      ],
+      "nota": "O ungido: depois de adversus."
+    },
+    "eius#2": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "genitivo singular",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Dele: o ungido dele."
+    },
+    "dirumpamus": {
+      "lema": "dirumpo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Romper; despedaçar."
+      ],
+      "nota": "Exortação: rompamos."
+    },
+    "vincula": {
+      "lema": "vinculum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O laço; o vínculo."
+      ],
+      "nota": "Objeto de dirumpamus."
+    },
+    "eorum": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Deles."
+    },
+    "proiciamus": {
+      "lema": "proicio",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Lançar; arremessar."
+      ],
+      "nota": "Exortação: lancemos."
+    },
+    "a": {
+      "lema": "ab",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; desde."
+      ],
+      "nota": "A nobis: para longe de nós."
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "ablativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Depois de a."
+    },
+    "iugum": {
+      "lema": "iugum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O jugo."
+      ],
+      "nota": "Objeto de proiciamus."
+    },
+    "ipsorum": {
+      "lema": "ipse",
+      "classe": "pronome",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Mesmo; próprio."
+      ],
+      "nota": "Deles mesmos."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de habitat."
+    },
+    "habitat": {
+      "lema": "habito",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Habitar; morar."
+      ]
+    },
+    "in#2": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em / para."
+      ]
+    },
+    "caelis": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "O céu."
+      ],
+      "nota": "Onde mora."
+    },
+    "irridebit": {
+      "lema": "irrideo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Zombar; rir de."
+      ],
+      "nota": "Sujeito: Qui habitat."
+    },
+    "eos": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Objeto de irridebit."
+    },
+    "dominus": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O senhor."
+      ],
+      "nota": "Sujeito de subsannabit."
+    },
+    "subsannabit": {
+      "lema": "subsanno",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Escarnecer; zombar."
+      ]
+    },
+    "eos#2": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Objeto de subsannabit."
+    },
+    "tunc": {
+      "lema": "tunc",
+      "classe": "advérbio",
+      "def": [
+        "Então."
+      ]
+    },
+    "loquetur": {
+      "lema": "loquor",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Falar."
+      ],
+      "nota": "Depoente: forma passiva, sentido ativo: falará."
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Para; até, junto a."
+      ]
+    },
+    "eos#3": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Depois de ad."
+    },
+    "ira": {
+      "lema": "ira",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A ira; a raiva."
+      ]
+    },
+    "sua": {
+      "lema": "suus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Seu; dele."
+      ],
+      "nota": "Concorda com ira."
+    },
+    "furore": {
+      "lema": "furor",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O furor."
+      ]
+    },
+    "suo": {
+      "lema": "suus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Seu; dele."
+      ],
+      "nota": "Concorda com furore."
+    },
+    "conturbabit": {
+      "lema": "conturbo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Perturbar; aturdir."
+      ]
+    },
+    "eos#4": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Objeto de conturbabit."
+    },
+    "ego": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "nominativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Sujeito de constitui."
+    },
+    "autem": {
+      "lema": "autem",
+      "classe": "conjunção",
+      "def": [
+        "Porém; mas."
+      ]
+    },
+    "constitui": {
+      "lema": "constituo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Estabelecer; instituir."
+      ],
+      "nota": "Estabeleci."
+    },
+    "regem": {
+      "lema": "rex",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O rei."
+      ],
+      "nota": "Objeto de constitui."
+    },
+    "meum": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com regem."
+    },
+    "super": {
+      "lema": "super",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Sobre."
+      ]
+    },
+    "sion": {
+      "lema": "Sion",
+      "classe": "nome próprio",
+      "def": [
+        "Sião, o monte santo de Jerusalém, cidade de Deus."
+      ]
+    },
+    "montem": {
+      "lema": "mons",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O monte."
+      ],
+      "nota": "Aposto de Sion."
+    },
+    "sanctum": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com montem."
+    },
+    "meum#2": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com montem."
+    },
+    "praedicabo": {
+      "lema": "praedico",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Proclamar; anunciar."
+      ],
+      "nota": "Proclamarei."
+    },
+    "decretum": {
+      "lema": "decretum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O decreto."
+      ],
+      "nota": "Objeto de praedicabo."
+    },
+    "eius#3": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "genitivo singular",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Dele: o decreto dele."
+    },
+    "dominus#2": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O senhor."
+      ],
+      "nota": "Sujeito de dixit."
+    },
+    "dixit": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dizer."
+      ]
+    },
+    "me": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Depois de ad."
+    },
+    "filius": {
+      "lema": "filius",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O filho."
+      ],
+      "nota": "Predicado: és meu filho."
+    },
+    "meus": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com Filius."
+    },
+    "es": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "tu": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "nominativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Sujeito de es."
+    },
+    "ego#2": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "nominativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Sujeito de genui."
+    },
+    "hodie": {
+      "lema": "hodie",
+      "classe": "advérbio",
+      "def": [
+        "Hoje."
+      ]
+    },
+    "genui": {
+      "lema": "gigno",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Gerar."
+      ],
+      "nota": "Gerei."
+    },
+    "te": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Objeto de genui."
+    },
+    "postula": {
+      "lema": "postulo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Pedir; exigir."
+      ],
+      "nota": "Pede."
+    },
+    "a#2": {
+      "lema": "ab",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; desde."
+      ]
+    },
+    "me#2": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "ablativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Depois de a: de mim."
+    },
+    "dabo": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Dar."
+      ]
+    },
+    "tibi": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "A quem se dá."
+    },
+    "gentes#2": {
+      "lema": "gens",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "A nação; o povo."
+      ],
+      "nota": "Objeto de dabo."
+    },
+    "hereditatem": {
+      "lema": "hereditas",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A herança."
+      ],
+      "nota": "Aposto de gentes: como herança."
+    },
+    "tuam": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com hereditatem."
+    },
+    "possessionem": {
+      "lema": "possessio",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A posse; propriedade."
+      ],
+      "nota": "Objeto de dabo (subentendido)."
+    },
+    "tuam#2": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com possessionem."
+    },
+    "terminos": {
+      "lema": "terminus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "O limite; fim."
+      ],
+      "nota": "Aposto de possessionem."
+    },
+    "terrae#2": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A terra."
+      ],
+      "nota": "Os confins da terra."
+    },
+    "reges#3": {
+      "lema": "rego",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Reger; governar."
+      ],
+      "nota": "Regerás."
+    },
+    "eos#5": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Objeto de reges."
+    },
+    "virga": {
+      "lema": "virga",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A vara; cajado."
+      ]
+    },
+    "ferrea": {
+      "lema": "ferreus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "De ferro; férreo."
+      ],
+      "nota": "Concorda com virga."
+    },
+    "tamquam": {
+      "lema": "tamquam",
+      "classe": "advérbio",
+      "def": [
+        "Como; assim como."
+      ]
+    },
+    "vas": {
+      "lema": "vas",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O vaso; recipiente."
+      ],
+      "nota": "Objeto de confringes."
+    },
+    "figuli": {
+      "lema": "figulus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O oleiro; ceramista."
+      ],
+      "nota": "Do oleiro."
+    },
+    "confringes": {
+      "lema": "confringo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Quebrar; despedaçar."
+      ],
+      "nota": "Quebrarás."
+    },
+    "eos#6": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Objeto de confringes."
+    },
+    "nunc": {
+      "lema": "nunc",
+      "classe": "advérbio",
+      "def": [
+        "Agora."
+      ]
+    },
+    "reges#4": {
+      "lema": "rex",
+      "classe": "substantivo masculino",
+      "forma": "vocativo plural",
+      "def": [
+        "O rei."
+      ],
+      "nota": "A quem se fala."
+    },
+    "intellegite": {
+      "lema": "intellego",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural",
+      "def": [
+        "Compreender; entender."
+      ]
+    },
+    "erudimini": {
+      "lema": "erudio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural, voz passiva",
+      "def": [
+        "Instruir; educar."
+      ],
+      "nota": "Deixai-vos instruir."
+    },
+    "qui#2": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de iudicatis."
+    },
+    "iudicatis": {
+      "lema": "iudico",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do plural",
+      "def": [
+        "Julgar."
+      ]
+    },
+    "terram": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A terra."
+      ],
+      "nota": "Objeto de iudicatis."
+    },
+    "servite": {
+      "lema": "servio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural",
+      "def": [
+        "Servir."
+      ],
+      "nota": "Com dativo: servi."
+    },
+    "domino": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "O senhor."
+      ],
+      "nota": "A quem se serve."
+    },
+    "timore": {
+      "lema": "timor",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O temor; medo."
+      ]
+    },
+    "exsultate": {
+      "lema": "exsulto",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural",
+      "def": [
+        "Exultar; alegrar-se."
+      ]
+    },
+    "ei#2": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "A ele."
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Com."
+      ]
+    },
+    "tremore": {
+      "lema": "tremor",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O tremor; tremedeira."
+      ],
+      "nota": "Depois de cum."
+    },
+    "apprehendite": {
+      "lema": "apprehendo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural",
+      "def": [
+        "Agarrar; apanhar."
+      ],
+      "nota": "Abraçai."
+    },
+    "disciplinam": {
+      "lema": "disciplina",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A instrução; ensino."
+      ],
+      "nota": "Objeto de apprehendite."
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "advérbio",
+      "def": [
+        "Não; que não."
+      ]
+    },
+    "quando": {
+      "lema": "quando",
+      "classe": "advérbio",
+      "def": [
+        "Quando; em que tempo."
+      ]
+    },
+    "irascatur": {
+      "lema": "irascor",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Irar-se; zangar-se."
+      ],
+      "nota": "Depoente: forma passiva, sentido ativo; sujeito subentendido: o Senhor."
+    },
+    "pereatis": {
+      "lema": "pereo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 2ª pessoa do plural",
+      "def": [
+        "Perecer; morrer."
+      ],
+      "nota": "Depende de ne: para que não pereçais."
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De."
+      ]
+    },
+    "via": {
+      "lema": "via",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "O caminho."
+      ],
+      "nota": "Depois de de."
+    },
+    "cum#2": {
+      "lema": "cum",
+      "classe": "conjunção",
+      "def": [
+        "Quando; no momento em que."
+      ]
+    },
+    "exarserit": {
+      "lema": "exardesco",
+      "classe": "verbo",
+      "forma": "futuro perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Inflamar-se; acender-se."
+      ],
+      "nota": "Se inflamar."
+    },
+    "brevi": {
+      "lema": "brevis",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Breve."
+      ],
+      "nota": "In brevi: em pouco tempo, logo."
+    },
+    "ira#2": {
+      "lema": "ira",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A ira; a raiva."
+      ],
+      "nota": "Sujeito de exarserit."
+    },
+    "eius#4": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "genitivo singular",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Dele: a ira dele."
+    },
+    "beati": {
+      "lema": "beatus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Bem-aventurado; feliz."
+      ],
+      "nota": "Bem-aventurados."
+    },
+    "omnes#2": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Concorda com Beati."
+    },
+    "qui#3": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de confidunt."
+    },
+    "confidunt": {
+      "lema": "confido",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Confiar; ter fé."
+      ],
+      "nota": "Confiar em: in + ablativo."
+    },
+    "eo": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Depois de in."
+    },
+    "gloria": {
+      "lema": "gloria",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A glória."
+      ],
+      "nota": "A glória (seja dada)."
+    },
+    "patri": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "dativo singular",
+      "def": [
+        "O pai."
+      ],
+      "nota": "A quem se dá a glória."
+    },
+    "domine": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O senhor."
+      ],
+      "nota": "A quem se fala."
+    },
+    "exaudi": {
+      "lema": "exaudio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Atender."
+      ],
+      "nota": "Escuta."
+    },
+    "orationem": {
+      "lema": "oratio",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A oração; a prece."
+      ],
+      "nota": "Objeto de exaudi."
+    },
+    "meam": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com orationem."
+    },
+    "clamor": {
+      "lema": "clamor",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O clamor; o grito."
+      ],
+      "nota": "Sujeito de veniat."
+    },
+    "meus#2": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com clamor."
+    },
+    "te#2": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Depois de ad."
+    },
+    "veniat": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Vir."
+      ],
+      "nota": "Que chegue."
+    },
+    "oremus": {
+      "lema": "oro",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Rezar; orar."
+      ],
+      "nota": "Exortação: oremos."
+    },
+    "omnipotens": {
+      "lema": "omnipotens",
+      "classe": "adjetivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Todo-poderoso."
+      ],
+      "nota": "Concorda com Deus."
+    },
+    "sempiterne": {
+      "lema": "sempiternus",
+      "classe": "adjetivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Eterno."
+      ],
+      "nota": "Concorda com Deus."
+    },
+    "deus": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O deus."
+      ],
+      "nota": "A quem se fala."
+    },
+    "qui#4": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de voluisti."
+    },
+    "dilecto": {
+      "lema": "dilectus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Amado; querido."
+      ],
+      "nota": "Amado: concorda com Filio."
+    },
+    "filio": {
+      "lema": "filius",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O filho."
+      ],
+      "nota": "Depois de in."
+    },
+    "tuo": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com Filio."
+    },
+    "universorum": {
+      "lema": "universus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Universal; de todos."
+      ],
+      "nota": "De todos."
+    },
+    "rege": {
+      "lema": "rex",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O rei."
+      ],
+      "nota": "Aposto de Filio."
+    },
+    "omnia": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Objeto de instaurare."
+    },
+    "instaurare": {
+      "lema": "instauro",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Restaurar; renovar."
+      ],
+      "nota": "Restaurar: complemento de voluisti."
+    },
+    "voluisti": {
+      "lema": "volo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Querer."
+      ],
+      "nota": "Quiseste."
+    },
+    "concede": {
+      "lema": "concedo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Conceder; outorgar."
+      ],
+      "nota": "Concede."
+    },
+    "propitius": {
+      "lema": "propitius",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Propício."
+      ],
+      "nota": "Propício: concorda com o sujeito subentendido (tu)."
+    },
+    "ut": {
+      "lema": "ut",
+      "classe": "advérbio",
+      "def": [
+        "Como; para que."
+      ]
+    },
+    "cuncta": {
+      "lema": "cunctus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Todo; inteiro."
+      ],
+      "nota": "Concorda com familia."
+    },
+    "familia": {
+      "lema": "familia",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A família; casa."
+      ],
+      "nota": "Sujeito de subdantur."
+    },
+    "gentium": {
+      "lema": "gens",
+      "classe": "substantivo feminino",
+      "forma": "genitivo plural",
+      "def": [
+        "A nação; o povo."
+      ],
+      "nota": "Das nações."
+    },
+    "peccati": {
+      "lema": "peccatum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O pecado."
+      ],
+      "nota": "Do pecado."
+    },
+    "vulnere": {
+      "lema": "vulnus",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "A ferida; chaga."
+      ],
+      "nota": "Causa: pela ferida."
+    },
+    "disgregata": {
+      "lema": "disgrego",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Dispersar; separar."
+      ],
+      "nota": "Dispersa: concorda com familia."
+    },
+    "eius#5": {
+      "lema": "is",
+      "classe": "pronome",
+      "forma": "genitivo singular",
+      "def": [
+        "Ele; este, isso."
+      ],
+      "nota": "Dele."
+    },
+    "suavissimo": {
+      "lema": "suavis",
+      "classe": "adjetivo",
+      "forma": "superlativo, dativo neutro singular",
+      "def": [
+        "Suave; doce."
+      ],
+      "nota": "Suavíssimo: concorda com Imperio."
+    },
+    "subdantur": {
+      "lema": "subdo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do plural, voz passiva",
+      "def": [
+        "Submeter; sujeitar."
+      ],
+      "nota": "Sejam submetidas."
+    },
+    "imperio": {
+      "lema": "imperium",
+      "classe": "substantivo neutro",
+      "forma": "dativo singular",
+      "def": [
+        "O domínio; poder."
+      ],
+      "nota": "A quem se submetem."
+    },
+    "qui#5": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de vivit e de regnat."
+    },
+    "tecum": {
+      "partes": [
+        {
+          "lema": "tu",
+          "classe": "pronome",
+          "forma": "ablativo singular",
+          "def": [
+            "Tu."
+          ]
+        },
+        {
+          "lema": "cum",
+          "classe": "preposição",
+          "forma": "preposição com ablativo",
+          "def": [
+            "Com."
+          ]
+        }
+      ],
+      "nota": "Depois de cum."
+    },
+    "vivit": {
+      "lema": "vivo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Viver."
+      ]
+    },
+    "regnat": {
+      "lema": "regno",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Reinar."
+      ]
+    },
+    "unitate": {
+      "lema": "unitas",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A unidade; união."
+      ]
+    },
+    "spiritus": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O espírito."
+      ]
+    },
+    "sancti": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com Spiritus."
+    },
+    "deus#2": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O deus."
+      ],
+      "nota": "Aposto de Qui."
+    },
+    "per": {
+      "lema": "per",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por."
+      ]
+    },
+    "omnia#2": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Concorda com saecula."
+    },
+    "saecula": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O século; a era."
+      ],
+      "nota": "Depois de per."
+    },
+    "saeculorum": {
+      "lema": "saeculum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo plural",
+      "def": [
+        "O século; a era."
+      ],
+      "nota": "Dos séculos."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "interjeição",
+      "def": [
+        "Amém: assim seja. Palavra hebraica que fecha a oração."
+      ]
+    },
+    "psalmus": {
+      "lema": "psalmus",
+      "classe": "substantivo masculino",
+      "def": [
+        "Salmo."
+      ],
+      "nota": "O título: o Salmo II do Saltério."
+    },
+    "ii": {
+      "lema": "II",
+      "classe": "numeral",
+      "def": [
+        "Dois (em algarismo romano)."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "1.3": "regnum#2",
+    "3.2": "reges#2",
+    "4.6": "eius#2",
+    "6.3": "in#2",
+    "6.9": "eos#2",
+    "7.4": "eos#3",
+    "7.5": "in#2",
+    "7.9": "in#2",
+    "7.13": "eos#4",
+    "8.10": "meum#2",
+    "9.3": "eius#3",
+    "9.4": "dominus#2",
+    "10.5": "ego#2",
+    "11.2": "a#2",
+    "11.3": "me#2",
+    "11.7": "gentes#2",
+    "12.3": "tuam#2",
+    "12.5": "terrae#2",
+    "13.1": "reges#3",
+    "13.2": "eos#5",
+    "13.3": "in#2",
+    "13.11": "eos#6",
+    "14.3": "reges#4",
+    "14.6": "qui#2",
+    "15.3": "in#2",
+    "15.7": "ei#2",
+    "17.5": "cum#2",
+    "17.7": "in#2",
+    "17.9": "ira#2",
+    "17.10": "eius#4",
+    "18.2": "omnes#2",
+    "18.3": "qui#3",
+    "18.5": "in#2",
+    "20.3": "regnum#2",
+    "22.3": "meus#2",
+    "22.5": "te#2",
+    "24.4": "qui#4",
+    "24.5": "in#2",
+    "27.1": "eius#5",
+    "28.1": "qui#5",
+    "28.6": "in#2",
+    "28.10": "deus#2",
+    "29.2": "omnia#2"
+  }
+}

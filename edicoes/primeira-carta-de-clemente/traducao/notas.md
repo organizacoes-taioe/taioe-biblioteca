@@ -23,10 +23,13 @@ Traduzida de uma vez por um só tradutor (2026-11-16) e revista contra o grego p
 - **41.1** εὐαριστείτω (sic, Lake): entendido como εὐαρεστείτω, «agrade a Deus», com Lake.
 - **44.2** ἐπινομὴν δεδώκασιν, ἐὰν κοιμηθῶσιν: «deram depois a norma de que, se viessem a adormecer…»;
   o sujeito de «adormecer» fica ambíguo como no grego (decisão no `revisao.json`).
-- **44.3** ἀβαναύσως: «desinteressadamente»; **49.5** οὐδὲν βάναυσον: «nada de vulgar».
+- **44.3** ἀβαναύσως: «com desinteresse»; **49.5** οὐδὲν βάναυσον: «nada de vulgar».
 - **45.1** ἔστε: «Sois porfiados» (indicativo, com a tradução de Lake; a nota dele admite o imperativo).
 - **50.3** ἐν τῇ ἐπισκοπῇ τῆς βασιλείας: «na visita do reino de Cristo».
 - **52.1–2** ἐξομολογεῖσθαι: «fazer confissão», «confessarei ao Senhor» (confissão de louvor e de culpa).
 - **59.3** começa com a lacuna de Lake («…»); εὑρέτην πνευμάτων (lição de Lake, que traduz «finder of
   spirits»; outros leem εὐεργέτην, «benfeitor»): «o único que encontra os espíritos».
 - **61.1** τὴν ἐξουσίαν τῆς βασιλείας: «o poder da realeza» (os imperadores).
+- **μιαρός, μυσερός, βδελυκτός**: impuro, repugnante, abominável (acerto da revisão). **ἐκτενής**: fervoroso.
+- **στασιάζειν** → revoltar-se; em 43.2 (as tribos) ficou «disputavam».
+- A revisão contra o grego (62 achados) está aplicada no que era erro ou melhora clara; ficaram como estavam, com Lake: 1.3 «exortáveis», 2.4, 2.8 «tábuas», 12.7 «fio», 34.8 «os que o esperam», 37.2, 50.5.

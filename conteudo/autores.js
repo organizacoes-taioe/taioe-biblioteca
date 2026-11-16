@@ -991,6 +991,9 @@ BIBLIOTECA.autor({
   vida: '1515–1582',
   ordem: 'Teresa de Jesus, Santa',
   nota: 'Carmelita de Ávila, reformadora do Carmelo e fundadora das carmelitas descalças, doutora da Igreja. Em tradução do castelhano, com o original ao lado.'
+});
+
+BIBLIOTECA.autor({
   id: 'santa-catarina-de-sena',
   area: 'catolicismo',
   nome: 'Santa Catarina de Sena',

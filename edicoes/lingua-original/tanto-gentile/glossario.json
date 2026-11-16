@@ -2,9 +2,9 @@
  "verbetes": {
   "tanto": {
    "lema": "tanto",
-   "classe": "avverbio",
+   "classe": "advérbio",
    "def": [
-    "Molto; tão."
+    "Em tal grau ou medida; tão."
    ],
    "nota": "«Tanto gentile e tanto onesta»: tão gentil e tão honesta. O advérbio repetido abre o soneto e marca o grau da dama."
   },
@@ -609,6 +609,13 @@
     "Indica o destinatário ou o termo de uma ação; a."
    ],
    "nota": "«A chi la mira» é «a quem a olha»; «a l’anima», «à alma»."
+  },
+  "che#2": {
+   "lema": "che",
+   "classe": "pronome relativo",
+   "def": [
+    "Que, o qual: retoma um termo antecedente e introduz a oração que o qualifica."
+   ]
   }
  },
  "ocorrencias": {
@@ -617,6 +624,8 @@
   "11.8": "la#2",
   "14.5": "l’#2",
   "9.4": "a#2",
-  "14.4": "a#2"
+  "14.4": "a#2",
+  "11.1": "che#2",
+  "14.1": "che#2"
  }
 }

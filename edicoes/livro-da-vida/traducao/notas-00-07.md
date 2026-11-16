@@ -28,6 +28,7 @@
 - [5.7] «asíarj» → «asían».
 - [5.8] «dabá» → «daba»; ««.Pues» → ««Pues» (ponto solto).
 - [5.9] «dejó, i Oh» → «dejó. ¡Oh»; «memento» → «momento».
+- [5.10] «oirías» → «oírlas»; «ñas» → «mas»; «lo iba harto mi salvación» → provável «me iba» ou só «iba» (traduzido «a minha salvação ia bem arriscada»).
 - [6.1] No fim do parágrafo entrou no texto um pedaço de nota de rodapé do editor (começa com «\ Dejó la Santa incompleta la frase…»): não é de Teresa; não foi traduzido; tirar do `original/06.txt`.
 - [6.4] «Ja» → «la»; «sufrir, i Oh» → «¡Oh».
 - [6.5] «ia» → «la».
@@ -49,7 +50,6 @@
 - [7.20] «al , principio» → «al principio»; «primitir» → «permitir»; «Latar» → «tratar».
 - [7.21] «terna» → «terná».
 - [7.22] «lós» → «los»; «Amén,» → «Amén.».
-- [5.10] «oirías» → «oírlas»; «ñas» → «mas»; «lo iba harto mi salvación» → provável «me iba» ou só «iba» (traduzido «a minha salvação ia bem arriscada»).
 
 ## Termos e nomes
 
@@ -82,10 +82,10 @@
 ## Passagens difíceis
 
 - [1.2] *Fueron grandes los trabajos que pasaron el tiempo que vivió*: lido como os trabalhos da mãe → «que passou».
-- [3.2] *deseaba no fuese monja, que éste no fué Dios servido de dármele*: lido como «desejava não ser monja (e isto não foi Deus servido de me conceder)».
 - [2.1] *desenvolvíamonos para leer en ellos* → «arranjávamos tempo para lê-los».
 - [2.7] *no está el negocio en guardarnos de los hombres, sino en no nos guardar de descontentaros*: mantido ao pé da letra («o negócio não está em nos guardarmos dos homens, mas em não nos guardarmos de Vos descontentar»).
 - [2.8] *Traía un desasosiego, que en ocho días… estaba muy más contenta*: lido como «trazia uma inquietação tal que em oito dias… estava muito mais contente» (a inquietação da vida de antes fez que logo se achasse melhor no mosteiro).
+- [3.2] *deseaba no fuese monja, que éste no fué Dios servido de dármele*: lido como «desejava não ser monja (e isto não foi Deus servido de me conceder)».
 - [4.2] *si me ayudo al principio a determinarme… Aun en esta vida lo paga*: o meio da frase (Deus quer que a alma sinta o espanto no começo, e quanto maior, maior o prêmio) foi posto entre parênteses, para a frase principal correr.
 - [4.7] A primeira frase fica truncada, como no original (*que al fin de este tiempo… parecíame casi imposible tanta guarda*); *mas por esto pasaba yo* lido como «mas nisto eu passava por cima», entre parênteses.
 - [4.8] *tiénele mayor*: lido como «corre maior perigo». *Sino en lugar de la oración mental* → «ao menos em lugar da oração mental».

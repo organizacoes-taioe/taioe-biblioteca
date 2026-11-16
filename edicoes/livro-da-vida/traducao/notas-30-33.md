@@ -43,82 +43,112 @@
 - [32.17] «mats» → «mas».
 - [32.18] «a ,mí» → vírgula solta.
 - *relisión*, *relisiosos* (caps. 31–33, muitas vezes): no lote anterior se anotou *relisiosos* como erro; aqui é tão constante que talvez seja grafia da edição. Traduzido normalmente.
+- [33.1] «a (crecer» → parêntese solto.
+- [33.2] «las' afrentaba» → apóstrofo solto; «tornaban algo de mí» → provável «por mí» (traduzido «tomavam a minha defesa»); «discuento» → «descuento» (ou forma dela).
+- [33.5] «en día hubiese» → «en ella»; «a 'mi parecer» → apóstrofo solto.
+- [33.9] «acuerdó» → «acuerdo».
+- [33.10] «gue» → «que»; «estudio]» → colchete solto; «iodos» → «todos».
+- [33.11] «a el trabajo» → «el»; «dió'» → apóstrofo solto.
+- [33.12] «lime dio» → «me dio»; «Hádaseme» → «Hacíaseme», como em [28.3]; «dañoso»» → aspas soltas.
+- [33.13] «(l),\jue» → chamada de nota da edição «(1)» e «que»; não traduzida.
+- [33.14] «Di jome» → «Díjome»; «uo tiene» → «no tiene».
+- [33.15] «tenida» → «tenido»; «a ¡el cielo» → sinal solto.
+- [33.16] «mug» → «muy»; «go» → «yo».
 
 ## Termos e nomes
 
-- *el discurso de su vida* [30.0] → «o curso da sua vida», como no título do cap. 23.
-- *Fray Pedro de Alcántara* → «frei Pedro de Alcântara» (§ 4); *el Santo varón* → «o santo varão» (minúscula, § 3a).
-- *silicio de hoja de lata* [30.2] → «cilício de folha de flandres».
+- *discurso* (de sua vida) [30.0] → «o curso da sua vida», como no título do cap. 23.
+- *Fray Pedro de Alcántara* → «frei Pedro de Alcântara» (§ 4); *santo varón* → «o santo varão» (minúscula, § 3a).
+- *silicio* de *hoja de lata* [30.2] → «cilício de folha de flandres».
 - *de romance* [30.2, 30.11] → «em castelhano» (§ 3a).
-- *la viuda sierva de Dios* [30.3] (dona Guiomar de Ulloa) → «a viúva serva de Deus», sem nome, porque ela não a nomeia aqui. *Descansar con ella* → «desabafar com ela»; *cabía en ella* → «era pessoa para isso»; *recaudó licencia* → «obteve licença»; *doblez y encubierta* → «duplicidade nem disfarce».
-- *este caballero casado* [30.6] (Francisco de Salcedo) → «este cavaleiro casado», sem nome, como nos caps. 23–28. *Contradición de buenos* → «a contradição dos bons»; *húbome lástima* → «teve de mim compaixão».
-- *Comisario general de la Custodia de San Josef* [30.7] → «comissário-geral da Custódia de São José» (a custódia franciscana da reforma de frei Pedro; não se explica no texto).
-- *trabajos de alma* [30.7] → «trabalhos da alma» (tabela).
-- *trabucado* [30.10] → «transtornado»; *aherrojada* → «acorrentada»; *no tienen tomo* → «não têm peso» (como nos lotes anteriores); *jugar a la pelota con el alma* → «jogar bola com a alma»; *reparo* → «amparo»; *por el tino pasado* → «pelo tino de antes».
-- *traslado del infierno* [30.11] → «uma cópia do inferno».
-- *irse a la mano* [30.12] → «conter-me»; *tener de su mano* → «segurar com a sua mão»; *poner muy por sí* → «propor-se muito firmemente».
-- *desgustadas* (palavras do confessor) [30.13] → «desagradáveis»; *de advertencia* → «de caso pensado»; *seso* → «juízo» (§ 3a).
-- *No estés fatigada: no hayas miedo* [30.14] (fala de Deus) → “Não estejas aflita, não tenhas medo”, entre aspas, com «tu» (§ 2 e § 3a: *fatiga* → «aflição»). *Regalábame con Dios* → «Regalava-me com Deus» (é regalo com Deus, não entre pessoas).
-- *por maravilla* [30.16] (*nunca por maravilla va a cosa mala*) → «quase nunca vai a coisa má» (o sentido de frequência, como em [29.13]). *Un loco furioso* → «um louco furioso»; *un credo* → «o tempo de um credo».
-- *bobería de alma* [30.18] → «uma tolice na alma» (*bobería* → «tolice», como em [28.4]); *andar al hilo de la gente* → «andar no passo dos outros»; *asnillo* → «burrinho» (como «burrinhos» em [22.12]).
+- A *viuda* serva de Deus [30.3] e a *compañera* [32.10–33.11] (dona Guiomar de Ulloa) → «a viúva serva de Deus», «a minha companheira», sem nome, porque ela não a nomeia. *Descansar* com ela → «desabafar»; *recaudar* licença → «obter»; *doblez*, *encubierta* → «duplicidade», «disfarce».
+- O *caballero casado* [30.6], *caballero santo* [32.18] (Francisco de Salcedo) e o *Maestro*, *clérigo* [32.18] (Gaspar Daza) → «o cavaleiro casado», «o cavaleiro santo», «o Mestre», sem nome, como nos caps. 23–28. *Contradición* de bons → «a contradição dos bons».
+- *Comisario general* da *Custodia* [30.7] → «comissário-geral da Custódia de São José» (a custódia franciscana de frei Pedro; não se explica no texto).
+- *trabucado* [30.10] → «transtornado»; *aherrojada* → «acorrentada»; *tomo* [30.10, 30.20, 31.24, 31.25] → «peso», como nos lotes anteriores; jogar *a la pelota* → «jogar bola»; *reparo* → «amparo»; *tino* → «tino».
+- *traslado* (do inferno) [30.11] → «cópia».
+- *irse a la mano* [30.12] → «conter-se»; *ir a la mano* (a outro) [33.8] → «refrear».
+- *desgustadas* (as palavras dos confessores) [30.13] → «desagradáveis»; *de advertencia* → «de caso pensado»; *seso* → «juízo» (§ 3a).
+- Fala de Deus [30.14] → “Não estejas aflita, não tenhas medo”, entre aspas, com «tu» (*fatigada* → «aflita», § 3a). *Regalarse* com Deus → «regalar-se» (é com Deus).
+- *por maravilla* [30.16] → «quase nunca» (sentido de frequência, como em [29.13]); *un credo* → «o tempo de um credo».
+- *bobería* (de alma) [30.18] → «uma tolice na alma» (como em [28.4]); andar *al hilo* da gente → «andar no passo dos outros»; *asnillo* → «burrinho» (como em [22.12]).
 - *fontecicas* [30.19] → «fontezinhas»; *al natural* → «tirado do natural»; *empapada* → «encharcada»; *debujada* → «pintada».
 - Latim [30.19], com a tradução entre colchetes (§ 5): _Domine, da mihi aquam_ [Senhor, dai-me água] (a Cristo, com «Vós»).
 - *menudencias* [30.22] → «miudezas».
-- *agua bendita* [31.2–31.10] → «água benta»; *bendito* (a água) → «bento». *Santiguarse* → «benzer-se» (como no cap. 29); *piedra azufre* [31.6] → «enxofre».
-- *negrillo* [31.3] (o demônio em figura) → «negrinho»; *regañar* → «rosnar» (mostrar os dentes, como cão).
-- *recreación* [31.4] (o que a água benta lhe dá) → «alívio»; *refrigerio* → «refrigério»; *regálame* (não é regalo de Deus) → «alegra-me».
-- *noche de las ánimas* [31.10] → «noite de Finados» (a véspera de 2 de novembro); *noturno* → «noturno»; *rezado* [31.10, 31.23] (o ofício divino) → «ofício».
+- *agua bendita* [31.2–31.10] → «água benta» (*bendito*, a água → «bento»); *santiguarse* → «benzer-se» (como no cap. 29); *piedra azufre* [31.6] → «enxofre».
+- *negrillo* [31.3] (o demônio em figura) → «negrinho»; *regañar* → «rosnar».
+- *recreación* [31.4] (o efeito da água benta) → «alívio»; *refrigerio* → «refrigério»; *regálame* (não é regalo de Deus) → «alegra-me».
+- *noche de las ánimas* [31.10] → «noite de Finados»; *noturno* → «noturno»; *rezado* [31.10, 31.23] (o ofício divino) → «ofício».
 - *espantajos* [31.10] → «espantalhos»; *despeñarse* [31.9] → «despenhar-se».
-- *un fraile dominico* [31.12] (Pedro Ibáñez, segundo os editores) → «um frade dominicano», sem nome; *corrida* → «envergonhada» (também *correrse* [31.24]).
-- *dotar en otro monesterio muy más encerrado* [31.13] → «levar o meu dote para outro mosteiro, de clausura muito mais estrita».
+- *fraile dominico* [31.12], *gran letrado* dominicano [32.16–33.6] (Pedro Ibáñez, segundo os editores) → «um frade dominicano», «este meu padre dominicano», sem nome.
+- *corrida*, *correrse* [31.12, 31.24, 33.2, 33.4] → «envergonhada», «envergonhar-se».
+- *dotar* [31.13] → «levar o meu dote»; mosteiro *más encerrado* [31.13, 33.2] → «de clausura mais estrita».
 - *punto de honra* [31.20–31.21] → «ponto de honra» (tabela); *atamiento* → «atadura»; *ligadura* → «amarra»; *dar tras* → «ir atrás de».
-- *hormiguilla* [31.21] → «formiguinha»; *oruga* → «lagarta»; *medrar* → «crescer» (§ 3a); *canto de órgano* → «canto a várias vozes» («canto de órgão» seria termo raro; é a polifonia).
-- *testimonios* [31.22] (contra Cristo) → «falsos testemunhos»; *naderías y poquedades* → «ninharias e pequenezes»; *pajitas* → «palhinhas» (as *pajas* de [30.20]).
-- *de puro honrosa* [31.23] → «de puro zelosa da honra»; *tomé por mí* → «tomei por norma»; *la negra honra* → «a negra honra»; *las niñas* (as mais novas do mosteiro) → «as meninas».
-- *tomo* [31.24, 31.25] → «peso» (como nos lotes anteriores); *coger los mantos* → «recolher os mantos»; *arenitas* [31.25] → «grãozinhos de areia».
-- **Inferno (32.1–32.7)**: *cifra* [32.0] → «resumo» (como em [27.12]); *callejón* → «beco»; *horno* → «forno»; *sabandijas* → «bichos asquerosos»; *alacena* → «armário embutido»; *agujero* → «buraco»; *atenazar* → «torturar com tenazes»; *debujo* → «desenho»; *desesperamiento*, *desesperación* → «desespero»; *apretamiento*, *ahogamiento* → «aperto», «sufoco»; *me tullí* → «fiquei entrevada» (§ 3a).
-- *estos luteranos* [32.6] → «estes luteranos».
-- *aposentada* [32.7] (onde os demônios a tinham posto) → «alojada»; *tan malísima* → «tão malíssima» (o superlativo dela fica).
-- *manjares más gruesos* [32.8] → «manjares mais grossos».
-- *Bula de relajación* [32.9] → «Bula de mitigação» (é a Regra mitigada; «relaxação» soaria estranho); *honestidad y relisión* → «recato e observância» (§ 3a); *regalo* (da casa) → «conforto» (§ 3a); *relajadas* (as ordens) [32.11] → «relaxadas» (aqui não é termo técnico).
-- *una persona* [32.10] (María de Ocampo, segundo os editores) → «uma pessoa», sem nome; *las Descalzas* → «as descalças» (as franciscanas descalças); *aquella señora mi compañera viuda* (dona Guiomar de Ulloa) → «aquela senhora viúva, minha companheira», sem nome; *dar trazas* → «dar traças»; *no llevaban mucho camino* → «não tinham muito cabimento» (§ 3a).
+- *hormiguilla* [31.21] → «formiguinha»; *oruga* → «lagarta»; *medrar* → «crescer» (§ 3a); *canto de órgano* → «canto a várias vozes» («canto de órgão» seria termo raro).
+- *testimonios* [31.22] (contra Cristo) → «falsos testemunhos»; *naderías*, *poquedades* → «ninharias», «pequenezes»; *pajitas* → «palhinhas» (as *pajas* de [30.20]).
+- *de puro honrosa* [31.23] → «de puro zelosa da honra»; *tomé por mí* → «tomei por norma»; *negra honra* → «a negra honra»; *las niñas* (as mais novas) → «as meninas».
+- *arenitas* [31.25] → «grãozinhos de areia».
+- **Inferno (32.1–32.7)**: *cifra* [32.0] → «resumo» (como em [27.12]); *callejón* → «beco»; *sabandijas* → «bichos asquerosos»; *alacena* → «armário embutido»; *atenazar* → «torturar com tenazes»; *debujo* → «desenho»; *desesperamiento* → «desespero»; *apretamiento*, *ahogamiento* → «aperto», «sufoco»; *tullirse* → «ficar entrevada» (§ 3a).
+- *luteranos* [32.6] → «luteranos».
+- *aposentada* [32.7] → «alojada»; *malísima* → «malíssima» (o superlativo dela fica).
+- *Bula de relajación* [32.9] → «Bula de mitigação» (é a Regra mitigada; «relaxação» soaria estranho); *honestidad* e *relisión* → «recato e observância» (§ 3a); *regalo* (da casa) → «conforto» (§ 3a); *relajadas* (as ordens) [32.11] → «relaxadas».
+- *una persona* [32.10] (María de Ocampo, segundo os editores) → «uma pessoa», sem nome; *Descalzas* → «as descalças» (as franciscanas); *trazas* → «traças»; *no llevaban camino* → «não tinham cabimento» (§ 3a).
 - *premio* [32.12] (= *apremio*) → «obrigação» (§ 3a).
-- *mi perlado*, *el Provincial* [32.13–32.15] → «o meu prelado», «o provincial» (minúscula, como nos lotes anteriores); *admitir la casa* → «admitir a casa».
-- *un gran letrado… de la Orden de Santo Domingo* [32.16] (Pedro Ibáñez) → sem nome; *mayorazgo* → «morgado» (vai ao vocabulário); *hacienda* [32.17] → «os bens».
-- *el caballero santo* [32.18] (Francisco de Salcedo) e *el Maestro… el clérigo* (Gaspar Daza) → «o cavaleiro santo», «o Mestre… o clérigo», sem nome, como nos caps. 23–28.
+- *perlado*, *Provincial* [32.13–33.1] → «prelado», «provincial» (minúscula, como nos lotes anteriores).
+- *mayorazgo* [32.16] → «morgado» (vai ao vocabulário); *hacienda* [32.17] → «os bens».
+- *entender en* (a fundação) [33.0–33.4] → «ocupar-se de».
+- *malquista* [33.2] → «malvista»; *penada* → «magoada».
+- *levantar* (falso) [33.5] → «levantar calúnia»; *Inquisición* → «Inquisição»; *cerimonia* → «cerimônia».
+- *Retor* da Companhia [33.7–33.10] (Gaspar de Salazar, segundo os editores) → «o reitor», sem nome; *su mayor* → «o seu superior»; *ministro* [33.8] → «o ministro» (como em [29.5]); *resolgar* → «respirar» (como em [29.12]); *confesonario* → «confessionário».
+- *nuevas* (de alguém) [33.9] → «coisas contadas»; *noticia* (de uma pessoa) → «conhecimento» (como em [27.7]).
+- *labrar* (a casa) [33.11–33.12] → «fazer as obras»; *sin labrar* → «sem acabamento»; *oficiales* → «operários»; *blanca* → «vintém»; *trazar* → «fazer a planta»; *sitio* → «terreno»; *cabal* → «completo»; *al sereno* → «ao relento»; *Breve* → «Breve» (maiúscula da edição).
+- *Padre Santo* [33.13] → «o Santo Padre»; *sin demanda* → «sem pedirmos nada»; *Santa* (fora do nome) → «santa» (§ 3a).
+- *alzar* [33.14] → «ver a elevação»; *joya* → «joia» (§ 3a); *tizne* → «fuligem».
+- *niña* [33.15] (Nossa Senhora) → «muito menina»; *soledad* → «solidão».
+- *se me hacía de mal* [33.16] → «me custava»; *recaudo* → «o despacho»; *dar la obediencia* → «dar a obediência» (não se explica no texto).
 
 ## Passagens difíceis
 
-- [30.3] O parêntese (*que esto he tenido siempre… yo les argüía con razones contra mí*) foi marcado, para o fecho «assim, sem duplicidade nem disfarce, lhe tratei a minha alma» se ler.
-- [30.7] *me llevaba el Señor por camino de temer, como creer que era demonio* → «por caminho de temer, como o de crer que era demônio». *Temor ni siguridad nadie podía que yo la tuviese* → «nem temor nem segurança ninguém podia fazer que eu os tivesse» (acrescentado «fazer»).
-- [30.8] *todo parece lo pone Dios a fuego y a sangre* → «tudo parece que Deus o põe a fogo e sangue» (ao pé da letra: a alma vê tudo como castigo).
-- [30.10] *Dejemos a parte el tenerla el Señor, que es lo que hace al caso* → «Deixemos de lado o segurá-la o Senhor, que é o que importa» (lido: o que de fato a guarda de ofender a Deus é o Senhor, e ela não se detém nisso).
-- [30.11] *mas pronunciado por la boca* → «mas pronunciado pela boca» (frase solta do original: crê só da boca para fora). *Es como si no se supiese* → «é como se não se soubesse ler» (acrescentado «ler»).
-- [30.15] *sino una alma y cuerpo del todo inútil y pesado* → «senão uma alma e um corpo de todo inúteis e pesados» (sem verbo, como no original). *Que vaya con asiento* → «que tenha firmeza».
-- [30.18] *ni la da vida, ni muerte, ni placer ni pesar* → «nem lhe dá vida nem morte, nem prazer nem pesar» (ao pé da letra: nada lhe faz diferença).
-- [30.19] *Esto tiene los grandes ímpetus… a quien Dios los da* → «Isto trazem os grandes ímpetos… em quem Deus os dá».
-- [30.20] *ella muere porque no se mate* → «ela morre para que ele não se apague» (o fogo).
-- [31.5] *Hízome gran provecho ver que, aun no siendo… hace tanto mal, ¿qué hará…?*: posto «ver que, se ele, mesmo não sendo…, faz tanto mal, que fará…?» (acrescentado «se»).
-- [31.7] *escribía a cierta persona que él me dijo podía dar las cartas* → «escrevia-lhe por certa pessoa que ele me disse que podia entregar as cartas» (ela escrevia ao padre por meio de um terceiro).
-- [31.11] *ni querría parecer lo que no hago* → «nem quereria parecer o que não faço». Outras edições pontuam *ni querría parecer; lo que no hago cuando tengo persecuciones* (e o parágrafo seguinte começa aí); esta edição divide antes de *Cuando*, e a tradução segue a divisão dela.
-- [31.12] *Dábame algunas veces, y duróme hartos días… Cuando pensaba…*: o objeto de *dábame* é o tormento que vem depois; o meio (virtude aparente, o frade dominicano) foi posto entre parênteses e o fecho depois de dois-pontos.
-- [31.13] A fala de Deus ficou em discurso indireto, como no original («o Senhor me disse que de que tinha medo…»).
-- [31.17] *no consentir faltas en los buenos, que a poder de mormuraciones no las perfecione* → «não consentir faltas nos bons, que à força de murmurações não os aperfeiçoe» (lido: o mundo não perdoa as faltas dos bons e, à força de murmurar, acaba por aperfeiçoá-los). *Aunque más la tengan debajo de los pies* → «por mais que a tenham [a terra] debaixo dos pés».
-- [31.18] A frase longa (*Como comienzan… desconsuélanse*) fica inteira; *que no nos la podemos nosotros tomar* → «que nós não as podemos tomar por nós mesmos». A frase seguinte (*Como es un no se nos dar nada…*) enumera essas coisas, sem verbo principal; mantida.
-- [31.19] *no me hacía con ella* → «não me entendia com ela»; o parêntese (*porque como tiene diferente estado…*) foi marcado, para «posto que… vi que me davam pena» se ler.
-- [31.21] *si no quitan esta oruga, que ya que a todo el árbol no dañe…, mas todas carcomidas*: anacoluto do original (falta a oração principal); mantido.
-- [31.23] *Luego se pone delante el buen enjemplo* → «Logo se põe diante o bom exemplo» (ao pé da letra: o pretexto de não dar mau exemplo vem logo à frente). *La negra honra me quitaba supiese hacer esto* → «a negra honra me tirava que soubesse fazer isto».
-- [31.24] *cosas poquitas como estas, que en ser hechas por Dios les da Su Majestad tomo, ayuda su Majestad para cosas mayores* → «com coisas pequeninas como estas, a que Sua Majestade, por serem feitas por Deus, dá peso, Sua Majestade ajuda para coisas maiores» (acrescentado «com»).
-- [31.25] *los tomará mijor* → «tomará melhor os dele» (os princípios grandes de quem ler).
+- [30.3] O parêntese sobre a clareza com que ela sempre tratou a alma foi marcado, para o fecho («assim, sem duplicidade nem disfarce…») se ler.
+- [30.7] O caminho de temor «como o de crer que era demônio»; e «nem temor nem segurança ninguém podia fazer que eu os tivesse» (acrescentado «fazer»).
+- [30.8] «tudo parece que Deus o põe a fogo e sangue»: ao pé da letra (a alma vê tudo como castigo).
+- [30.10] Fecho do parágrafo: «Deixemos de lado o segurá-la o Senhor, que é o que importa» (lido: quem a guarda de ofender a Deus é o Senhor).
+- [30.11] «mas pronunciado pela boca»: frase solta do original (crê só da boca para fora). «como se não se soubesse ler»: acrescentado «ler».
+- [30.15] «senão uma alma e um corpo de todo inúteis e pesados»: sem verbo, como no original.
+- [30.18] «nem lhe dá vida nem morte, nem prazer nem pesar»: ao pé da letra (nada lhe faz diferença).
+- [30.20] «ela morre para que ele não se apague»: «ele» é o fogo.
+- [31.5] «ver que, se ele, mesmo não sendo… seus, faz tanto mal, que fará…?»: acrescentado «se».
+- [31.7] «escrevia-lhe por certa pessoa»: ela escrevia ao padre por meio de um terceiro.
+- [31.11] Fecho: «nem quereria parecer o que não faço». Outras edições pontuam de outro modo e ligam esse fim ao começo de [31.12] (o que ela não faz «quando tenho perseguições»); a tradução segue a divisão desta edição.
+- [31.12] O objeto de *dábame* é o tormento que vem depois; o meio (a virtude aparente e o frade dominicano) foi posto entre parênteses, e o fecho depois de dois-pontos.
+- [31.13] A fala de Deus ficou em discurso indireto, como no original.
+- [31.17] «não consentir faltas nos bons, que à força de murmurações não os aperfeiçoe» (lido: o mundo não perdoa as faltas dos bons e, de tanto murmurar, acaba por aperfeiçoá-los). «por mais que a tenham debaixo dos pés»: «a» é a terra.
+- [31.18] As duas frases longas ficam inteiras; a segunda («Como é um não nos importar…») enumera, sem verbo principal, como no original.
+- [31.19] O parêntese da irmã casada foi marcado, para «posto que… vi que me davam pena» se ler.
+- [31.21] Anacoluto do original (a lagarta sem oração principal); mantido.
+- [31.22] Começa na 2.ª pessoa e passa a «nós», como na edição (talvez erro: ver as leituras).
+- [31.23] «Logo se põe diante o bom exemplo»: ao pé da letra (o pretexto de não dar mau exemplo vem logo à frente).
+- [31.24] «com coisas pequeninas como estas… Sua Majestade ajuda para coisas maiores»: acrescentado «com».
+- [31.25] «tomará melhor os dele»: os princípios grandes de quem ler.
 - [32.0] *para lo que fué* → «em comparação com o que foi» (o que se representou é só um resumo).
-- [32.2] O parêntese (*porque fué encogérseme… causados de el demonio*) foi marcado, para «as dores corporais, tão insuportáveis que…, não é tudo nada» se ler; o anacoluto fica.
-- [32.3] *no es nada oirlo decir…, no es nada con esta pena*: a repetição de «não é nada» fica; o meio (*aunque pocas, que por temor…*) entre parênteses.
-- [32.5] *de un memento que se haya de sufrir lo que yo en él allí padecí* → «de um momento em que se haja de suportar o que eu ali padeci nele».
-- [32.6] *estotro que no le tiene* → «esta outra, que não o tem» (a pena do inferno, que não tem termo).
-- [32.7] *es peligrosa cosa contentarnos, ni traer sosiego ni contento el alma que anda cayendo…* → reordenado para «é coisa perigosa contentarmo-nos, e a alma que anda caindo… trazer sossego e contentamento». *Que no me deje de su mano para que yo torne a caer* → «não me largar da sua mão, para que eu não torne a cair» (o sentido pede a negação).
-- [32.11] São José guarda uma porta: *nos guardaría El* → «nos guardaria ele» (minúscula, porque é São José, e não Deus, apesar da maiúscula da edição). A pergunta *que qué sería de el mundo…* foi posta entre parênteses.
-- [32.12] *y como estaba tan contentísima en aquella casa, que…*: anacoluto do original (o «como» fica sem conclusão); mantido.
-- [32.14] *A mí, que bien me estaba en mi monesterio* → «A mim, que eu estava bem no meu mosteiro» (o que diziam a ela).
-- [32.16] *mas aunque yo esto decía, y me parece lo hiciera, porque…*: anacoluto do original; mantido.
-- [32.17] *de tal manera creo ser verdadera la revelación, como no vaya contra…* → «de tal maneira creio que a revelação é verdadeira: contanto que não vá contra…» (só a crê verdadeira dentro desse limite). *Manera de concierto y relisión* → «modo de ordem e de vida religiosa»; *se le asentó* → «assentou-se nele».
-- [32.18] A última frase fica sem conclusão (*Y estando en estos términos… tenía creído…*): a construção segue no cap. 33; o parêntese marca a fala do Senhor e a exclamação dela.
+- [32.2] O parêntese das dores dela nesta vida foi marcado; o anacoluto («as dores corporais… não é tudo nada») fica.
+- [32.3] A repetição de «não é nada» fica; o meio («ainda que poucas…») entre parênteses.
+- [32.7] Reordenado: «é coisa perigosa contentarmo-nos, e a alma que anda caindo… trazer sossego e contentamento». «para que eu não torne a cair»: o sentido pede a negação, que o original não tem.
+- [32.11] São José guarda uma porta: «nos guardaria ele», em minúscula (é São José, apesar da maiúscula da edição). A pergunta sobre o mundo sem os religiosos foi posta entre parênteses.
+- [32.12] e [32.16] Anacolutos do original («como estava tão contentíssima…»; «mas, ainda que eu dissesse isto…»); mantidos.
+- [32.14] «A mim, que eu estava bem no meu mosteiro»: é o que diziam a ela.
+- [32.17] «de tal maneira creio que a revelação é verdadeira: contanto que não vá contra…» (só a crê verdadeira dentro desse limite). *se le asentó* → «assentou-se nele».
+- [32.18] A última frase fica sem conclusão, como no original.
+- [33.1] «embora até então o meu provincial me tivesse mandado fazê-lo» (sem «mo»).
+- [33.3] No parêntese, «dele» é o confessor, de quem ela esperava consolo. Acrescentado «Deus» como sujeito de «se ofendesse».
+- [33.5] Reordenada a condição («se alguém visse que eu ia contra a menor cerimônia da Igreja»); «com o que ele me dissesse eu podia bem ficar segura».
+- [33.11] A queixa a Deus vai sem aspas, como em [30.16]; as falas de Deus em [33.12] vão entre aspas, com «tu». Parênteses marcados em [33.11] e [33.12] para as frases longas se lerem.
+- [33.16] O parêntese «que nunca acabávamos de negociá-lo» fica obscuro como no original (lido: pelos outros caminhos, nunca se acabava).
+
+## Para o Gere decidir (ou uniformizar nos outros lotes)
+
+- [31.3] Lacuna do OCR: falta um pedaço (ver as leituras); vale conferir noutra edição e, se for o caso, completar a tradução.
+- *Bula de relajación* → «Bula de mitigação» (alternativa: «Bula de relaxação», mais literal).
+- *canto de órgano* → «canto a várias vozes».
+- *rezado* → «ofício»; *noche de las ánimas* → «noite de Finados»; *mayorazgo* → «morgado».
+- *levantar* (falso testemunho) → «levantar calúnia».
+- Termos fixados neste lote, para a § 3a: *agua bendita* → «água benta»; *rezado* → «ofício»; *corrida* → «envergonhada»; *entender en* → «ocupar-se de»; *Retor* → «reitor»; *más encerrado* → «de clausura mais estrita»; *labrar* (casa) → «fazer as obras».

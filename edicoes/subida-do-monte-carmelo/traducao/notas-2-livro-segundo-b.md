@@ -26,6 +26,13 @@ Blocos iguais ao original, marcas no lugar. Grep de mesóclise sem resultado.
   delgado** → «não fiemos tão fino».
 - II,18,4 «el vicio de gula espiritual, y de los otros seis»: remete à _Noite_ (I, os sete vícios capitais dos
   principiantes); traduzido como está.
+- II,19,2 a frase «pudieran errar mucho, pues no eran de aquel tiempo, los que le vieran morir…» está truncada no
+  original; traduzida pelo sentido, sem acréscimo.
+- II,19,7 **alucina** → «se ofusca»; **vuelve por el pueblo** → «toma a defesa do povo»; **cuchillo** (_gladius_)
+  → «espada»; **Enseñorearse ha / desmenuzarlas has / dárseles ha** → «Há de dominar / hás de despedaçá-las / há de
+  ser dado».
+- II,19,9 **castillo de Emaús** → «povoado de Emaús» (_castellum_ = aldeia); **insipientes** → «insensatos».
+- II,19,11 **no se abrevie** → «não se estreite»; **impóngale en que** → «ensine-o a».
 - **embestir** (a notícia que investe na alma) → «investir».
 
 ## OCR (corrigir no original)
@@ -72,3 +79,17 @@ Blocos iguais ao original, marcas no lugar. Grep de mesóclise sem resultado.
 - II,18,4 «dejémoslo ahora. hasta» → «ahora, hasta».
 - II,18,5 «conforme ai de» → «al de»; II,18,6 «de esta»; cosas… a otra» → «de estas cosas… a otra.».
 - II,18,7 «con el» → «con él».
+- II,19: o latim do capítulo saiu muito estragado no OCR; restituído pela Vulgata, sem mudar a forma do autor:
+  _terram hunc_ → _hanc_; _¿unde… posesurus_ → _unde… possessurus_; Gn 46 (_Acgiptum, guía… jaciam tr ib;. Fgo…
+  i everlcntcm_) → _Aegyptum, quia in gentem magnam faciam te ibi. Ego… Et inde adducam te revertentem_; _auíem_ →
+  _autem_; Is 28 (_ei quem… jaciei… experta reexpecta… In logúela_) → _et quem… faciet… expecta reexpecta… In
+  loquela_; _populum istam_ → _istum_; _Exspeetavimus_ → _Exspectavimus_; _fluminc… términos_ → _flumine… terminos_;
+  _príncipes… leguniur, judicantcs_ → _principes… leguntur, judicantes_; 1 Cor 2,14 (_Mi… inttlLigere: guía…
+  examinaiur_) → _illi… intelligere: quia… examinatur_; Sl 2 (_férrea… jiguli conjn riges_) → _ferrea… figuli
+  confringes_; _Desidcrium_ → _Desiderium_.
+- II,19 (espanhol): «son variables Cuanto», «siendo ella;,», «tengo de poseer P», «le revelo» → «reveló», «le llevo»
+  → «llevó», «le dijo-», «te sacare, guiándote Lo cual», «se había de de cumplir», «maravillaiase», «se esperaba Y
+  así», «di? la victoria», «veinte u dos mil» → «veinte y dos mil», «de su parte De donde», «cuatrocientos mil Y de
+  esta», «les quise Dios» → «quiso», «humillarlos así Mas», «De ¡o cual», «Que quiere decir Ay», «les parecía.
+  igafiarles» → «les parecía engañarles», «no los libro» → «libró», «verdadensimas», «del ciclo» → «cielo», «alguna
+  mots» → «mota», «ti niebla» → «tiniebla», «de Jas tales».

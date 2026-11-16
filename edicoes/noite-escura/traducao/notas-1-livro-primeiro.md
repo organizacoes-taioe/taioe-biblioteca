@@ -37,3 +37,28 @@ repetidos) seguem a tradução literal fixada na Subida (`../../subida-do-monte-
 - I,6,2 «apetitos 5 que» → tirar o «5».
 - I,6,3 «al (justo y voluntad propia… su Dios. luego» → «al gusto… su Dios, luego».
 - I,6,6 «habernos de dar» → «habemos».
+- I,7,1 «porque s? entiistecen» → «se entristecen»; «como diie San Pablo» → «dice»; falta ponto antes de «Todo lo
+  cual».
+- I,7,2 «corno son» → «como»; I,7,4 «al regalo u sabor» → «y sabor».
+
+## Página 387 de 1929 (Noite I, cap. 8, §2–3): reconferida na imagem
+
+Imagem: arquivo `obrasdesanjuande02john_0400.jp2` do fac-símile (leaf 401 no JSON de páginas; recortes
+`p400a.png` e `p400b.png` em `tmp-subida-noite-escura/`). A página está legível nos recortes; vai de «2. La primera
+purgación» até «todas las veces y todo el tiem-». Divergências do texto de `original/`:
+
+- §3 «con que tienen algo **rellenados** los apetitos» → na imagem, **«refrenados»**. Traduzido «refreados». Emendar.
+- §3 «como **hallemos** dicho» → «habemos dicho».
+- §3 «su propio amor **g** gusto» → «amor y gusto».
+- §2 «muí) poco lenguaje» → «muy poco lenguaje»; «escritura. y aun de experiencia muy poco» → vírgula antes de «y» e
+  ponto no fim («muy poco.»).
+- O resto da página confere com o original.
+
+## Escolhas (cap. 7–8)
+
+- **acidia** → «acídia» (termo da tradição; é o vício capital da preguiça espiritual).
+- **les crece, como dicen, el ojo** (I,7,1, a inveja) → «ficam, como dizem, de olho grande» (o mesmo dito em
+  português).
+- **a sus anchuras** (I,7,4) → «à sua larga».
+- **salgan de mantillas** (I,8,3) → «saiam dos cueiros»; **los veza** → «ensina-os».
+- **lenguaje, así de plática como de escritura** (I,8,2) → «linguagem, tanto de conversa como de escritura».

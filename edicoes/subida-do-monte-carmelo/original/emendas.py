@@ -16,6 +16,13 @@ EMENDAS = {
         ('que la mia;', 'que la mía;'),
     ],
     ('subida', 1): [
+        ('a ¡uventute mea', 'a juventute mea'),
+        ('sola e» fe,', 'sola en fe,'),
+        ('según habernos ya dicho', 'según habemos ya dicho'),
+        ('Hijo de Dios. vino', 'Hijo de Dios vino'),
+        ('no com prende a la luz', 'no comprende a la luz'),
+        ('sobre sí Y así no se dice', 'sobre sí. Y así no se dice'),
+        (', y ella nada era; ya los cielos', ', y ella nada era; y a los cielos'),
         ('pesamientos', 'pensamientos'),
         # títulos e versos
         ('qué sea npche oscura', 'qué sea noche oscura'),   # «npche» é erro do próprio volume (as duas leituras)

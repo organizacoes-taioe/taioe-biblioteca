@@ -27,6 +27,10 @@
 - [11.12] «i no» → «¡no»; «¿por- qué» → «¿por qué» (hífen solto).
 - [11.15] «que lo ha que comenzaron» → provável «que ha mucho que comenzaron» (traduzido «que começaram há muito tempo»).
 - [11.17] «vera» → «verá».
+- [12.1] «parecer rne» → «parecerme».
+- [12.5] «entenderme ha» é a forma dela (futuro com o pronome no meio), não erro; «Porque ,esto» → «Porque esto» (vírgula solta); «ñbra» → «Abra».
+- [12.6] «quera*» → «querer».
+- [12.7] «á El» → «a El».
 
 ## Termos e nomes
 
@@ -69,6 +73,14 @@
 - *donosa manera* [11.3] (ironia) → «graciosa maneira».
 - *por junto* [11.3, 11.10] → «de uma vez», «tudo de uma vez».
 - *perderse ha* [11.8] → «se perderá» (mesóclise do original desfeita).
+- *divertirse* [12.1] (afastar-se do assunto) → «desviar-se».
+- *Arte de servir a Dios* [12.2] (de Alonso de Madrid) → _Arte de Servir a Deus_, em itálico, como título de livro (como o _Terceiro Abecedário_).
+- *aprovechado* [12.2] (quem progrediu na oração) → «aproveitado» («eu o dou por aproveitado»), para guardar a família *aprovechar* → «aproveitar», que ela repete muito.
+- *subir el espíritu* [12.0, 12.7] → «elevar o espírito»; *levantar el espíritu* [12.4] → «levantar o espírito»; em [12.5] *no se suban sin que Dios los suba* → «que não subam sem que Deus os suba» (o jogo fica).
+- *en un credo* [12.5] (o tempo de rezar um Credo) → «no espaço de um credo».
+- *desgustillo*, *poquillo* [12.5] → «desgostinho», «pouquinho».
+- *curiosa* [12.6] (desejosa de saber) → «curiosa» (aqui não é o esmero no vestir da § 3a).
+- *torpeza* [11.5, 12.6] (falta de jeito para entender e dizer) → «inépcia».
 
 ## Passagens difíceis
 
@@ -90,5 +102,9 @@
 - [11.12] *Atapados los ojos de pensar, ¿por qué da aquél…?*: «Tapados os olhos para não pensar: por que dá…?» (o pensamento que não se deve ter).
 - [11.13] *Recibir, más me parece a mí eso, que no dar nosotros nada*: «Isso me parece a mim mais receber do que darmos nós alguma coisa» (os gostos são receber, não dar).
 - [11.15] *y si había de estar inhábil para aprovechar una hora, que lo esté cuatro*: «e, se ela havia de estar inábil… uma hora, faz que o esteja quatro» (acrescentado «faz», que o sentido pede).
+- [12.1] *Estále muy bien a un alma, que no la ha subido de aquí*: o sujeito de *ha subido* é Deus, implícito → «a uma alma que não foi elevada daqui» (passiva, para não acrescentar o sujeito).
+- [12.4] *me hacía Dios merced de que entendiese esta verdad, que no era poco atrevimiento, cuanti más para las del cielo*: lido como «Deus me fazia mercê de que eu entendesse esta verdade: que [pensar coisas da terra] não era pouco atrevimento; quanto mais as do céu».
+- [12.5] *aunque no se entiende, es de no gran humildad, aunque no con culpa, con pena sí*: «ainda que não se entenda, é de pouca humildade; não com culpa, mas com pena, sim» (a pena é o castigo: o trabalho perdido).
+- [12.6] *u quería el Señor… que no tuviese a nadie que agradecer; y sin querer… dármelo Dios en un punto a entender*: o infinitivo *dármelo* continua o «quería» → «Deus me dava isso a entender», no indicativo, para a frase correr.
 
 ## Para o Gere decidir (ou uniformizar nos outros lotes)

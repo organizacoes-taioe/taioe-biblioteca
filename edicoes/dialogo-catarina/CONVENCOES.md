@@ -92,6 +92,9 @@ Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (regras gerais) e `original/LEIAME.m
 | ragioni delle lagrime; lagrime cordiali; lagrime sensuali | espécies de lágrimas; lágrimas do coração; lágrimas sensíveis — ver `revisao.json` |
 | lagrima di fuoco / d'acqua / d'occhio; pianto affliggitivo; pena consolativa | lágrima de fogo / de água / dos olhos; pranto que aflige; pena que consola |
 | strignere; costringere; stimolo di coscienzia; recreazione; lamo; ròcca | constranger; obrigar; remorso de consciência; alívio; anzol; castelo |
+| e' miei cristi; unti; cellaio; mughiare | os meus cristos; ungidos; adega; bramir |
+| prelazione; sudditi; colore (pretexto); viltá; secolari | prelatura; súditos; pretexto; abjeção; seculares |
+| actualmente (da comunhão) | realmente, de fato (nunca «exteriormente» aqui) |
 | pazzo d'amore; impazzare (per le creature) | louco de amor; enlouquecer (pelas tuas criaturas) |
 
 ## Escritura e citações

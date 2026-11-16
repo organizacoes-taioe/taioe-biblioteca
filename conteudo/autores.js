@@ -156,6 +156,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'sao-possidio',
+  area: 'catolicismo',
+  nome: 'São Possídio',
+  nomeCompleto: 'Possídio de Calama (Possidius)',
+  vida: '~370–~440',
+  ordem: 'Possídio, São',
+  nota: 'Bispo de Calama, na Numídia, monge do mosteiro de Hipona e amigo de Santo Agostinho, com quem conviveu quase quarenta anos. Em tradução do latim.'
+});
+
+BIBLIOTECA.autor({
   id: 'sao-gregorio-magno',
   area: 'catolicismo',
   nome: 'São Gregório Magno',

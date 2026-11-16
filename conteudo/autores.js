@@ -992,3 +992,13 @@ BIBLIOTECA.autor({
   ordem: 'Teresa de Jesus, Santa',
   nota: 'Carmelita de Ávila, reformadora do Carmelo e fundadora das carmelitas descalças, doutora da Igreja. Em tradução do castelhano, com o original ao lado.'
 });
+
+BIBLIOTECA.autor({
+  id: 'santa-catarina-de-sena',
+  area: 'catolicismo',
+  nome: 'Santa Catarina de Sena',
+  nomeCompleto: 'Catarina Benincasa',
+  vida: '1347–1380',
+  ordem: 'Catarina de Sena, Santa',
+  nota: 'Terciária dominicana de Sena, mística e conselheira de papas, doutora da Igreja e padroeira da Itália e da Europa. Em tradução do italiano, com o original ao lado.'
+});

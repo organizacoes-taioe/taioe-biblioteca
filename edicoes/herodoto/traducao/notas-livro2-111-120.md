@@ -74,3 +74,9 @@ rima; os epítetos ficam.
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 115.4: «foste à mulher do teu próprio anfitrião» é regência estranha em português (o grego é «foste ter com a mulher do teu hóspede»: o ato de ir à casa dele e seduzi-la) → «foste à casa do teu anfitrião e levaste a mulher dele» ou, mais perto, «foste procurar a mulher do teu próprio anfitrião».
+- 116.2: ficou «[pois]» entre colchetes no texto (reflexo do [γὰρ] suspeito do grego); o leitor não sabe o que é → tirar o colchete («E é claro que ele compôs…», sem «pois»).
+- 120.4: «a ele não convinha ceder ao irmão que cometia injustiça» não diz o que se cede → «e não convinha a Heitor confiar o reino a um irmão que cometia injustiça».
+- Resto (sentido, números, nomes, versos de Homero, Salgas/Tônis conforme as notas): sem divergência.

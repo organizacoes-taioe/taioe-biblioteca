@@ -18,20 +18,20 @@
 - νότος (26.3) → «vento sul»; ἄριστον → «almoço».
 
 ## Passagens
-- 18.1 οἱ ἐν τέλεϊ ἑκάστοτε ἐόντες τῶν ἀστῶν → «os cidadãos que estão a cada vez no cargo» (os magistrados do ano);
+- 18.1 οἱ ἐν τέλεϊ → «os cidadãos que estão a cada vez no cargo» (os magistrados do ano);
   ἐπιτηδεύοντας → «tomando conta disso».
-- 19.2 οὐκ ἀξιόμαχοι ἐγίνοντο → «os outros não davam para o combate».
+- 19.2 ἀξιόμαχοι → «os outros não davam para o combate».
 - 21.2–21.3: o grego fecha a fala do rei e abre outra, a mensagem que os espiões devem repetir; mantive as duas aspas
   como no Perseus (a segunda «fala» é a mensagem, em 3ª pessoa: «marche», «dê graças»).
-- 22.4 εἰ μὴ τῷ πόματι ἀνέφερον → «se não se refizessem com a bebida»; τούτῳ γὰρ ἑωυτοὺς ὑπὸ Περσέων ἑσσοῦσθαι →
+- 22.4 ἀνέφερον → «se não se refizessem com a bebida»; ἑσσοῦσθαι →
   «pois nisso eles ficavam atrás dos persas» (o único ponto em que o etíope admite a vantagem persa).
 - 23.2 λιπαρώτεροι → «com a pele mais lustrosa»; 23.3 ἀσθενές → «fraca» (a água «sem força» para sustentar o que
   boia), como no grego.
-- 25.1 οὔτε λόγον ἑωυτῷ δοὺς → «sem se dar conta»; 25.5 ἐγνωσιμάχεε → «tivesse mudado de ideia»; ἐπὶ τῇ ἀρχῆθεν
-  γενομένῃ ἁμαρτάδι → «apesar do erro do começo».
-- 25.6 ποιηφαγέοντες διέζωον → «iam vivendo de capim»; ἐκ δεκάδος ἕνα ἀποκληρώσαντες → «tiraram a sorte de um em
+- 25.1 λόγον ἑωυτῷ δοὺς → «sem se dar conta»; 25.5 ἐγνωσιμάχεε → «tivesse mudado de ideia»; ἁμαρτάδι →
+  «apesar do erro do começo».
+- 25.6 ποιηφαγέοντες → «iam vivendo de capim»; ἐκ δεκάδος → «tiraram a sorte de um em
   cada dez».
-- 26.1 φανεροί εἰσι ἀπικόμενοι → «sabe-se que chegaram» (o contraste com o que vem depois, de que ninguém sabe nada).
+- 26.1 φανεροί εἰσι → «sabe-se que chegaram» (o contraste com o que vem depois, de que ninguém sabe nada).
 
 ## Candidatos a decisão do Gere
 - Nenhum.

@@ -59,3 +59,6 @@ dísticos elegíacos.
   unidade do termo mas soa estranho numa inscrição a quem passa.
 - 231.1, ὁ τρέσας Ἀριστόδημος: adotei «Aristodemo, o que tremeu» (literal: o apelido é um particípio, «o que tremeu de
   medo»). Alternativa: «Aristodemo, o Covarde» (mais curto, com cara de apelido, mas perde a imagem).
+
+## Revisão contra o grego
+- Nenhuma correção necessária. Conferidos: epitáfio (300 miríades = três milhões contra quatro mil), os dois outros epigramas, Simônides filho de Leoprepes, Êurito e Aristodemo (olhos doentes, em Alpenos), Pantites, os 400 tebanos de Eurímaco, as marcas do rei; nomes e negações batem com o grego. «Alpenos» aqui concorda com 176 (a divergência está em 216.1).

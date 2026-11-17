@@ -53,3 +53,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+
+- 99.1: «mas faço de Artemísia, a mulher que eu mais admiro…» (elipse dura: «faço» sem objeto) → «mas de Artemísia faço menção, a mulher que mais admiro por ter feito a expedição contra a Grécia».
+Números conferidos: 1207 trirremes e as parcelas dos povos (300, 200, 150, 100, 30, 50, 30, 70, 100, 17, 60, 100, 5), 3000 barcos menores; todos conferem com o grego.

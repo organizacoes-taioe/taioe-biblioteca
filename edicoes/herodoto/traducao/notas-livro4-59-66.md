@@ -33,3 +33,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. (Conferidos: nomes dos deuses citas, três estádios, cento e cinquenta carros, um homem de cada cem, ombro direito, negações dos ritos em 60.2.)

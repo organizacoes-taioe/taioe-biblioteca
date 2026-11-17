@@ -47,3 +47,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 86.2: número que difere do texto grego do arquivo: o grego lê «onze miríades e cem braças» (110 100), mas a tradução diz «um milhão cento e dez mil braças» (1 110 000). A conta de Heródoto (9 dias × 70 000 + 8 noites × 60 000 = 1 110 000 braças = 11 100 estádios) dá o número da tradução, e o texto grego impresso está errado por um fator de dez (leitura variante ou erro de cópia). → manter a tradução, mas registrar o fato na nota da passagem («o texto grego traz 110 100; a conta exige 1 110 000»).
+- 86.3: o mesmo caso: o grego lê «três miríades e trinta braças» (30 030); a tradução diz «trezentas e trinta mil» (330 000), que é o que a conta (3 × 70 000 + 2 × 60 000) e os 3 300 estádios exigem. → manter, com a mesma nota.
+Os demais números (11 100 e 3 300 estádios do Ponto, 4 e 120 do Bósforo, 500 e 1 400 da Propôntida, 7 e 400 do Helesponto, 700 000 homens, 600 navios, 38 nascentes, dois e três dias) conferem.

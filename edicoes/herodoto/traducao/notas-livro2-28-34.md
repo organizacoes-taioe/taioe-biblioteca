@@ -38,3 +38,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária (números conferidos: 4, 12 e 40 dias, 12 esquenos, 12 dias, 240 000, 3 anos, 4 meses, 5 dias).

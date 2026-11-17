@@ -50,3 +50,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 164.1: «onde, com os sâmios, tomou e povoou a cidade de Zancle»: a preposição do grego é «da parte de, tirando de» os sâmios, não «com» → «onde tomou aos sâmios e povoou a cidade de Zancle» (ou «recebeu dos sâmios»).
+- 170.3: «destes, que foram obrigados pelo cidadão Mícito, filho de Quero, a ir em socorro dos tarentinos»: Mícito não é «cidadão» (170.4 diz que era criado e administrador); o grego diz que os régios, «dos cidadãos», forçados por Mícito, foram em socorro → «dos cidadãos de Régio que, obrigados por Mícito, filho de Quero, foram em socorro dos tarentinos, morreram três mil».
+- 170.3 e 163.2: «Quero» (Χοῖρος) e «Cites» (Σκύθης) lêem-se como palavra comum; conferir as formas usadas no resto da obra (sugestão: «Queros», «Escites»).
+- Resto da parte: números (3 pentecônteras, 300 000 do exército de Amílcar, 60 navios corcireus, 5 anos de cerco, 3 000 régios), nomes e negações conferem com o grego.

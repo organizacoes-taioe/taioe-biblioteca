@@ -54,3 +54,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 94.2 (menor): «sobrinho dele» pode ser lido como sobrinho de Artafernes; o grego (ἀδελφιδέον ἑωυτοῦ) é sobrinho de Dario → «sobrinho de Dario» (como no CONVENCOES).
+- Resto do lote: sem omissão, acréscimo, número ou negação trocados; números (seiscentas trirremes, trezentos talentos de incenso, quatro mil clerucos, seis dias, sétimo dia) conferem; nomes conforme o CONVENCOES.

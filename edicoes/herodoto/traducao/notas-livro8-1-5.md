@@ -30,3 +30,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- Nenhuma correção necessária (números conferidos: 127+40+20+20+18+12+10+8+7+5+2+2 = 271 navios, como em 2.1).

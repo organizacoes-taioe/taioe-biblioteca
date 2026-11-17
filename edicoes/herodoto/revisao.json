@@ -1,6 +1,6 @@
 {
  "id": "herodoto-historias",
- "rotulo": "Histórias, livros I e II (Heródoto)",
+ "rotulo": "Histórias, livros I a III (Heródoto)",
  "url": "/biblioteca/herodoto/historias/",
  "escolhas": [
   {
@@ -234,6 +234,44 @@
      "id": "b",
      "texto": "«nomo»",
      "nota": "O termo dos egiptólogos; pediria nota de vocabulário em cada parte."
+    }
+   ]
+  },
+  {
+   "id": "l3-costume-rei",
+   "titulo": "O verso de Píndaro: «o costume é rei de todos»?",
+   "ref": "III 38.4",
+   "contexto": "Heródoto fecha a história dos gregos e dos calátias (uns queimam os pais mortos, outros os comem, e cada um se horroriza com o costume do outro) citando Píndaro: νόμος πάντων βασιλεύς. νόμος é ao mesmo tempo o costume e a lei; o capítulo inteiro fala de costumes (νόμοι, «costumes», em 38.1–4).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«o costume é rei de todos», como está",
+     "nota": "Liga a frase ao resto do capítulo, que é sobre costumes.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«a lei é rainha de todos»",
+     "nota": "A forma mais citada do verso; aqui perde a ligação com os costumes do capítulo."
+    }
+   ]
+  },
+  {
+   "id": "l3-isonomia",
+   "titulo": "No debate dos persas: «igualdade perante a lei» ou «isonomia»?",
+   "ref": "III 80.6 (e 83.1)",
+   "contexto": "Otanes defende o governo do povo, que tem «o nome mais belo de todos», ἰσονομίη: a igualdade de direitos dos cidadãos. Heródoto não usa aqui a palavra «democracia». A tradução diz «igualdade perante a lei».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«igualdade perante a lei», como está",
+     "nota": "Palavras comuns, entendidas sem nota.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«isonomia»",
+     "nota": "O termo grego aportuguesado, usado nos estudos; pediria nota de vocabulário."
     }
    ]
   }

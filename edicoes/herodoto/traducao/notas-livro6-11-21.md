@@ -57,3 +57,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 13.2: «os seus santuários e as suas casas» para ta idia (bens particulares, como em 9.3) → «os seus santuários e os bens particulares» (mesma forma de 9.3)
+- 21.2: «Bem diferente dos atenienses» (oudén homoíos) deixa vago quem faz diferente de quem → «Os atenienses, ao contrário, mostraram…» (sem mudar o sentido; só clareza)
+- Fora isso, números (100 navios, 40 soldados de bordo, 11 navios, sexto ano), nomes e negações conferem; nenhuma omissão.

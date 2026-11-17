@@ -27,3 +27,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 3.2: «onde ele é mais largo» fica ambíguo (o «ele» parece ser o fosso); o grego fala do lago, no ponto em que é maior → «até o lago Meótis, no ponto em que o lago é maior».

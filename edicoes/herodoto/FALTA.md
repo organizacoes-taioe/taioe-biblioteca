@@ -115,7 +115,7 @@ a do VII, se o VIII não for agora). Regras da rodada: `~/.cache/claude-pedidos-
   Nenhuma regra de `_redirects`.
 - Mudança comum: `ferramentas/traducoes.py` aceita marca `[121α.1]` (letra grega depois do capítulo), agora de α a θ
   (`[10θ.1]` no livro VII). O livro IV, já no ar, muda no original ao lado (34.2, 35.3, 167.3, 169.1): o Catálogo `obras`
-  cobre. Decisões novas do VII: 3 (`l7-oraculo-muralhas`, `l7-poucos-homens`, `l7-estrangeiro`).
+  cobre. Decisões novas do VII: 3 (`l7-oraculo-muralhas`, `l7-poucos-homens`, `l7-estrangeiro`). Do VIII: 2 (`l8-ser-grego`, `l8-donzela`).
 
 ## Livro IX (como continuar)
 - Mesmo PDF do vol. IV (`dl8/v4-1924.pdf`): o título «BOOK IX» na p. 181, o grego nas páginas pares de 182 até ~324

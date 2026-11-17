@@ -8,7 +8,7 @@
   «Niseia», de Mégara, que é outra coisa).
 - κάλαμος (98.3) → «cana» (o bambu: «um só gomo de cana» para καλάμου ἓν γόνυ); φλοῦς, ἐσθὴς φλοΐνη (98.4) →
   «junco», «roupa de junco», para separar as duas plantas; φορμός → «esteira»; θώρηξ → «couraça».
-- κέγχρος (100.1) → «painço»; κάλυξ → «vagem». O grego não dá nome à planta («há do tamanho do painço…»): ficou «um
+- κέγχρος (100.1) → «milhete» (como em 1.193.4); κάλυξ → «vagem». O grego não dá nome à planta («há do tamanho do milhete…»): ficou «um
   grão», o mínimo para a frase existir.
 - οἱ μύρμηκες → «as formigas» (como no título da parte); ψάμμος χρυσῖτις (102.2) → «a areia… tem ouro».
 - ἡ κάμηλος (feminino no grego, como genérico) → «o camelo» no genérico (103.1), «as camelas» onde o grego fala das

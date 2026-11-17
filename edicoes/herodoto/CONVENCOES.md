@@ -3,8 +3,9 @@
 Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (vale tudo de lá: nunca mesóclise, um bloco traduzido para cada bloco
 do original, as marcas `[c.s]` no mesmo lugar). Texto-fonte e correções: `original/LEIAME.md`. Traduz-se o grego
 de Godley (Loeb, 1920), que vai ao lado; a tradução inglesa de Godley serve só para conferir o sentido, nunca de base.
-A obra cresce por livros (pedido do Gere: «em partes»): agora o livro I (Clio); os outros vêm em pedidos seguintes,
-com estas mesmas convenções. Ao traduzir um livro novo, acrescentar aqui os nomes e termos dele.
+A obra cresce por livros (pedido do Gere: «em partes»): os livros I (Clio) e II (Euterpe); os outros vêm em pedidos
+seguintes, com estas mesmas convenções. Ao traduzir um livro novo, acrescentar aqui os nomes e termos dele (o livro II
+tem a sua seção no fim).
 
 ## Princípio e tom
 
@@ -22,7 +23,8 @@ dele em distinguir o que viu, o que ouviu e o que pensa (λέγουσι «dizem�
 - `traducao/<arquivo>.txt` para cada `original/<arquivo>.txt`, com o mesmo número de blocos (parágrafos separados por
   linha em branco), na mesma ordem. Cabeçalho `# titulo: <título da parte>`. Um parágrafo por capítulo; os oráculos
   em verso fazem bloco à parte, como no original.
-- O primeiro bloco do primeiro arquivo de cada livro é o nome do livro: `Α · ΚΛΕΙΩ` → `LIVRO I · CLIO`.
+- O primeiro bloco do primeiro arquivo de cada livro é o nome do livro: `Α · ΚΛΕΙΩ` → `LIVRO I · CLIO`;
+  `Β · ΕΥΤΕΡΠΗ` → `LIVRO II · EUTERPE`.
 - As marcas `[5.2]` (capítulo.seção, a numeração usual, dentro de cada livro; o livro é o da parte) ficam no mesmo
   lugar, iguais, no começo da frase correspondente (se a ordem da frase mudar, a marca fica antes da frase que começa
   a seção). O proêmio é `[1.0]`: Godley o imprime no começo do capítulo 1, antes da seção 1; os outros livros não
@@ -91,3 +93,38 @@ Nas falas, tu entre iguais, para o rei e do rei para os súditos, como no grego;
 
 `traducao/notas-<arquivo>.md`: nomes e termos novos, passagens difíceis e a leitura adotada, onde o texto de Godley
 pesou (colchetes, lacunas), oráculos e como foram traduzidos. Quem uniformiza no fim lê todas.
+
+## Livro II (Euterpe): nomes e termos
+
+O livro do Egito. Heródoto chama os deuses egípcios pelos nomes gregos (Zeus, Hefesto, Atena, Ártemis, Apolo, Deméter,
+Dioniso, Pã, Leto, Tifão) e só às vezes dá o nome egípcio (Amon, Osíris, Ísis, Hórus, Bubástis): traduzir como ele dá,
+sem trocar um pelo outro. A identificação é dele («Osíris, que dizem ser Dioniso»), e fica.
+
+- **Reis**: Psamético (Ψαμμήτιχος), Min, Nitócris, Méris (Μοῖρις), Sesóstris, Feros (Φερῶς), Proteu, Rampsinito,
+  Quéops, Quéfren, Miquerino, Asíquis, Ânisis, Sabacos, Setos (o sacerdote de Hefesto), Neco, Psâmis, Apríes, Amásis;
+  Cambises, Ciro (do livro I). Os doze reis (δυωδεκαρχίη → «os doze reis», «o governo dos doze»).
+- **Lugares**: o Egito, o Nilo, o Delta, Mênfis, Heliópolis, Tebas, Sais, Bubástis (a cidade e a deusa), Busíris,
+  Buto, Mendes, Naucrátis, Pelúsio (a boca pelusíaca), Canopo (a boca canópica), Elefantina, Siene, Méroe, Tacompso,
+  Quêmis (Χέμμις), Papremis, Tônis (o guarda da boca canópica), o lago Méris, o labirinto, a Líbia, a Etiópia e os
+  etíopes, a Arábia e os árabes, a Síria Palestina, a Fenícia e Tiro, os colcos, a Cólquida, o mar Vermelho
+  (Ἐρυθρὴ θάλασσα), o mar do Norte (ἡ βορηίη θάλασσα: o Mediterrâneo, visto do Egito), o Istro, os nasamões, os
+  celtas, os cinetes, Pirene.
+- **Gregos e outros**: Hecateu (o historiador), Melampo, Cadmo, Homero e Hesíodo, Helena, Alexandre (Ἀλέξανδρος, o
+  filho de Príamo, que nós chamamos Páris: fica Alexandre, como no livro I), Menelau, Príamo, Heitor, Polidamna,
+  Telêmaco, Diomedes, os _Cantos cíprios_ (τὰ Κύπρια ἔπεα), Ródopis, Caraxo, Safo, Esopo, Iadmon, Ládice, Polícrates,
+  Etearco.
+- **Deuses e animais sagrados**: Amon, Osíris, Ísis, Hórus, Bubástis, Ápis (o boi; Ἔπαφος na língua grega →
+  Épafo), a fênix, o íbis, o crocodilo (κροκόδειλος; os jônios o chamaram assim, 69.3: a explicação é dele),
+  ἵπποι ποτάμιοι → **cavalos do rio** (o nome de Heródoto; ver `revisao.json`), a lontra, o gato (αἰέλουρος), os
+  icnêumones (ἰχνεύμων: o mangusto; palavra no vocabulário), o mussaranho, a víbora alada.
+- **Termos**: ἱρέες → **sacerdotes**; ἱρόν → **santuário**; νηός → **templo**; ἄγαλμα → **estátua** (a imagem do
+  deus); νομός → **distrito** (as divisões do Egito; ver `revisao.json`); νομάρχης não aparece; σχοῖνος → **esqueno**
+  (medida egípcia de 60 estádios, 6.3: a explicação é dele); ἄρουρα → **arura** (medida de terra, 168.1); ταριχεύειν,
+  ταρίχευσις → **embalsamar, embalsamamento**; πυραμίς → pirâmide; λαβύρινθος → labirinto; ὀβελοί → obeliscos;
+  κολοσσοί → colossos; ἀνδρόσφιγγες → esfinges de cabeça humana; βύβλος → papiro; κίκι → óleo de rícino (_kiki_,
+  palavra egípcia); οἶνος ἐκ κριθέων → «vinho de cevada»; τὰ γράμματα → as letras (ἱρά → sagradas, δημοτικά →
+  populares); οἱ μάχιμοι → **os guerreiros**, com as duas classes, os **calasírios** e os **hermotíbios**; as sete
+  classes (γένεα): sacerdotes, guerreiros, vaqueiros, porqueiros, comerciantes (κάπηλοι), intérpretes, pilotos.
+  ὁρτή → festa; πανήγυρις → festa (reunião de muita gente); λύχνοκαίη → «a festa das lâmpadas».
+- Palavras de outras línguas que Heródoto cita e explica (_bekos_, o pão dos frígios, 2.2; _piromis_, 143.4; _Maneros_,
+  79): em itálico, com a explicação dele.

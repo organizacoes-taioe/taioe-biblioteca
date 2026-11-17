@@ -70,3 +70,7 @@
 - 154.1, ἐς τὸ πρόσω μεγάθεος: adotei «os bons serviços são muito honrados e fazem subir em grandeza» (a leitura de
   Godley: o serviço é recompensado com promoção). A outra leitura toma a expressão só como intensivo: «os bons serviços
   são honrados ao mais alto grau». Recomendo a adotada (explica por que Zópiro quer que o feito seja só dele).
+
+## Revisão contra o grego
+- 156.2: «tinha sofrido de Dario o que tinha sofrido de si mesmo» segue o grego, mas fica opaco para o leitor (a ironia do narrador se perde) → «dizendo que tinha sofrido de Dario aquilo que, na verdade, sofrera de si mesmo» (ou mantê-lo, se o Gere preferir a literalidade).
+- Números (1 ano e 7 meses, 20.º mês, 1.000 / 2.000 / 4.000 homens, 10.º e 7.º dia e 20 dias, 3.000 empalados, 50.000 mulheres, 20 Babilônias), nomes e portas conferidos: nenhuma outra correção necessária. A escolha 154.1 (ἐς τὸ πρόσω μεγάθεος) está bem sustentada.

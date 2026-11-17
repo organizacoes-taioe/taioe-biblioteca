@@ -35,7 +35,7 @@
   em 27.1, «antigos e novos»; mantida a inversão).
 - 26.3 λόγος → «conta-se»; «em condições combinadas».
 - 26.4 «fizeram um juramento» (o verbo é o de cortar as vítimas do juramento).
-- 26.6 «e a deixamos a vós» (evitei «vo-la cedemos», que soa velho).
+- 26.6 παρίεμεν → «e cedemos» (sem objeto, como no grego; evitei «vo-la cedemos», que soa velho).
 - 27.1 πατρώιον → «por herança»: «de onde nos vem, por herança, a nós que sempre fomos valentes, o direito de ser os
   primeiros».
 - 27.2: o grego começa pelos Heraclidas («Os Heraclidas, cujo chefe estes dizem ter matado no istmo…») e só depois diz o

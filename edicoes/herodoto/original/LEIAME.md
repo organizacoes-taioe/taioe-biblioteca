@@ -8,7 +8,7 @@ O texto de Hude (Oxford, 1908; 3ª ed. 1927; Hude morreu em 1936) também é liv
 dele conferível; ficamos com Godley, que tem transcrição e fac-símiles. Rosén (Teubner, 1987–1997) e Wilson (Oxford,
 2015) são protegidos.
 
-Por enquanto os livros I (Clio) e II (Euterpe), os dois do vol. I de Godley. A obra cresce por livros, em pedidos
+Por enquanto os livros I (Clio) e II (Euterpe), os dois do vol. I de Godley, e o III (Tália), do vol. II. A obra cresce por livros, em pedidos
 seguintes; cada livro tem os seus arquivos `livro<n>-<a>-<b>.txt` e é montado pelos mesmos scripts (`../ferramentas/`,
 com o número do livro no fim: `extrair.py dl/her-grc2.xml 2 l2.json`, `colacao.py . 2`, `acentos.py . 2`,
 `montar.py . <obra> 2`; o bloco de cada livro fica em `LIVROS`, no `montar.py`).
@@ -85,6 +85,29 @@ ficamos com a correção. As referências que o Perseus acrescenta às citaçõe
 
 Os capítulos 121α–121ζ (a história de Rampsinito e do ladrão) têm a numeração de Hude, que o Perseus escreve 121A–121F;
 a marca é `[121α.1]`. Colchetes de Godley no livro II: 116.2, 143.4, 148.4; lacunas, «…»: 40.1, 86.2, 175.4.
+
+## Livro III (2026-11-16)
+
+Base: A. D. Godley, *Herodotus*, vol. II, *Books III and IV* (Loeb, Londres, Heinemann, e Nova York, Putnam, 1921).
+Godley morreu em 1925: em domínio público no Brasil; nos EUA também (publicado antes de 1931). Mesmo método:
+- fac-símile principal: Internet Archive `herodotus0002adgo_j1l1`, a impressão de 1921 do vol. II («MCMXXI», a 1ª);
+  páginas gregas do livro III = p. 26–218 do PDF (pares), lidas pelo Tesseract (`grc`, 300 dpi; OCR em `ocr3/`,
+  páginas em `pag3/`, na pasta de trabalho);
+- segunda leitura: o OCR do Internet Archive em `herodotus0000hero` (Harvard, reimpressão de 2000 da edição
+  «revised and reprinted 1938»; mesmas chapas), da 2ª ocorrência de «BOOK III» até «BOOK IV». As outras cópias do
+  vol. II no Internet Archive (a de Toronto é de 1928) têm OCR sem grego.
+
+A colação deu 47 pontos de letras (quase todos ζ lido como ξ e maiúsculas), 390 de acentos (43 aceitos pela regra,
+36 a ver), 89 fracos e 6 buracos; 31 pontos vistos nas imagens. Correções ao Perseus (o fac-símile tem a forma da
+direita): 2.2 παρατρέπουσι → παρατράπουσι, 21.3 τρέπουσι → τράπουσι, 65.3 ἀποτρέπειν → ἀποτράπειν, 81.1 ἐπιτρέπειν →
+ἐπιτράπειν, 157.1 ἐπιτρέπεσθαι → ἐπιτράπεσθαι (as formas jônicas, como nos livros I e II); 12.1 ἔκειτο → ἐκέετο,
+22.4 προκεῖσθαι → προκέεσθαι, 34.2 προσκεῖσθαι → προσκέεσθαι, 100.1 κεῖται → κέεται (jônico; em 57.2 Godley
+imprime ἀνάκειται, e fica); 14.11 Αἴγυπτους → Αἴγυπτον; 21.2 a palavra que o Perseus perdeu, «ἀνήρ ἐστι δίκαιος»;
+34.5 «οἷον σὲ ἐκεῖνος» (Godley acentua o pronome). Ficaram como no Perseus, conferidos: 16.1 τἆλλα, 52.3 ἆσσον, 82.3
+γνώμῃσί τε. Os 43 acentos aceitos: `ferramentas/acentos-aceitos-l3.tsv` (quase todos ὃ pronome antes de δέ).
+
+Colchetes de Godley no livro III: 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; lacunas, «…»: 39.2, 49.1. O oráculo dos
+sifnios (57.4) em três versos. Título: «Γ · ΘΑΛΕΙΑ».
 
 ## Numeração e divisão
 

@@ -1,7 +1,14 @@
 # Heródoto, Histórias: estado
 
-Livro I no ar (PR #100). Livro II pronto na branch `pedido-herodoto-2` do `taioe-biblioteca` (worktree
-`~/.cache/claude-wt5-herodoto-2`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+Livros I e II no ar (PRs #100 e #113). Livro III em andamento na branch `pedido-herodoto-3` (worktree
+`~/.cache/claude-wt5-herodoto-3`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+
+## Livro III (Tália): em andamento (2026-11-16)
+- [x] Grego montado e conferido (`original/livro3-*.txt`, 16 partes; `original/LEIAME.md`, «Livro III»): vol. II de
+  Godley, 1921 (IA `herodotus0002adgo_j1l1`, PDF em `dl3/`, OCR em `ocr3/`, páginas em `pag3/`); 2ª leitura
+  `dl/herodotus0000hero.txt`. `colacao.py . 3`, `acentos.py . 3`, `montar.py . <obra> 3`, `pranchas.py … pag3`.
+- [ ] Tradução (`traducao/livro3-*.txt` e notas), uma parte por vez; revisão Sonnet; uniformização.
+- [ ] `CONVENCOES.md` (nomes do livro III), `obra.py` (partes e «Sobre»), `revisao.json`, vocabulário, `conteudo/`.
 
 ## Livro II (Euterpe): pronto (2026-11-16)
 - Grego montado e conferido (`original/livro2-*.txt`, 18 partes; `original/LEIAME.md`, «Livro II»). Scripts

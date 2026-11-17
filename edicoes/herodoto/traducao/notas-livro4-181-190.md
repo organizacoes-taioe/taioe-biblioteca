@@ -49,3 +49,7 @@
 - 189.2: **_aigéai_ em itálico** na segunda menção (recomendação: o argumento do nome fica visível, com uma palavra
   grega só) × «peles de cabra» as duas vezes, sem palavra grega (fiel à letra, mas «que os gregos tiraram o nome de
   égides» das peles de cabra fica sem razão em português) × uma nota de rodapé sobre a palavra.
+
+## Revisão contra o grego
+- 181.4: «ela chega perto do quente à meia-noite» altera a construção: no grego a água vai ficando mais quente e «se aproxima da meia-noite» (é o tempo que se aproxima, e só então ferve) → «Esquentando cada vez mais, aproxima-se da meia-noite, e então ferve e borbulha».
+- Números conferem (dez dias de caminho entre cada colina de sal, 181–185; trinta dias até os lotófagos, 183.2; quatro anos, 187.2) e as nomenclaturas (amônios, garamantes, atarantes, atlantes, trogloditas etíopes) estão iguais às do CONVENCOES.md e das outras partes.

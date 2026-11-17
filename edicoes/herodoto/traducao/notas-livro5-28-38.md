@@ -46,3 +46,6 @@
 ## Candidatos a decisão do Gere
 - 35.1 ἡ βασιληίη τῆς Μιλήτου: adotei «o governo de Mileto». Alternativa fiel à letra: «o reinado de Mileto» (a
   palavra grega é a da realeza, e talvez Heródoto a use de propósito, para o poder de fato de Aristágoras).
+
+## Revisão contra o grego
+- 35.1: «ao mesmo tempo o apertava a cobrança das despesas do exército, tinha medo, por ter o exército se saído mal…» (frase atropelada, o sujeito muda sem aviso) → «ao mesmo tempo o apertava a cobrança das despesas do exército; e ele tinha medo, porque a expedição se saíra mal e porque se indispusera com Megabates, e achava que ia perder o governo de Mileto».

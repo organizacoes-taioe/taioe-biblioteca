@@ -328,3 +328,24 @@ os nomes que só aparecem uma vez (o catálogo, 61–99, sobretudo) estão nas n
 - **Números**: μυριάς → dez mil, com o número por extenso (170 μυριάδες → «um milhão e setecentos mil»); onde Heródoto
   soma uma parcela à parte, o andamento aditivo fica: «duzentos e quarenta mil, e mais mil e quatrocentos» (184–187);
   μυριάδες sem número dado → «tantas dezenas de milhares»; μύριοι → dez mil.
+
+## Livro VIII (Urânia): nomes e termos
+
+O livro de Salamina: o Artemísio, a passagem pelas Termópilas e o ataque a Delfos, Atenas abandonada e a acrópole
+tomada, os conselhos em Salamina, a batalha, a volta de Xerxes, Temístocles em Andros, Artabazo em Potideia e Olinto,
+Mardônio e os oráculos, Alexandre da Macedônia em Atenas. O título: `Θ · ΟΥΡΑΝΙΗ` → `LIVRO VIII · URÂNIA`. Os nomes e
+termos do livro VII valem aqui (a seção acima). Lista escrita antes da tradução: forma melhor vai nas notas.
+
+- **Gregos**: Temístocles, filho de Néocles; Euribíades, filho de Euriclides; Adimanto, filho de Ócito (Corinto);
+  Aristides, filho de Lisímaco; Mnesífilo; Sicino (o criado de Temístocles); Diceu, filho de Teocides; Demarato;
+  Cílias de Cione (o mergulhador); Ameinias de Palene; Polícrito de Egina; Panécio de Tenos; Timodemo de Afidnas;
+  Bácis, Lisístrato e Museu (os oráculos); Mis (Μῦς), o europeu; os Eácidas; Cecrops, Erecteu.
+- **Persas e outros**: Xerxes, Mardônio, Artemísia, Ariabignes, Hermotimo de Pédaso e Panionio de Quios, Artabazo,
+  filho de Fárnaces; Alexandre, filho de Amintas, e os reis da Macedônia (Pérdicas, Gavanes, Aéropo; Argeu, Filipe…).
+- **Lugares**: o Artemísio, Afetas, o Euripo, as Cavidades da Eubeia (Κοῖλα τῆς Εὐβοίης), Histieia; a Fócida e os
+  fócios, o Parnaso, Delfos, o santuário de Atena Pronaia, Filaco e Autónoo; Salamina, Psitália, Fáleron, o Istmo, a
+  muralha do Istmo, Trezena, Egina, Elêusis, a acrópole de Atenas, o Areópago; Andros, Caristo, Paros; Potideia, Olinto,
+  Palene; o Ptoon (o santuário de Apolo Ptoo), Tebas, Lebadeia (Trofônio), Abas.
+- **Termos**: τὸ ἀγγαρήιον (98.2) → o _angareion_, com a explicação dele (o correio a cavalo do rei); ἀριστήια →
+  **prêmio do valor**; ναυμαχίη → batalha naval; ἐπιβάται → soldados de bordo; πρόμαχοι → os que lutam na frente;
+  δρησμός → fuga; τὸ Ἑλληνικόν (144.2) → **o ser grego** / «a grecidade» só se for preciso (ver nas notas).

@@ -277,12 +277,59 @@ PARTES7 = [
     ((226, 233), 'Os que se distinguiram; os epitáfios'),
     ((234, 239), 'Demarato e o corpo de Leônidas'),
 ]
+# livro VIII (Urânia), no vol. IV de Godley (1924)
+CORR8 = [
+    ('2.1', 'ἦσαν μὲν ὦν οὗτοι', 'ἦσαν μὲν οὗτοι'),
+    ('3.1', 'ἐπιτρέπειν', 'ἐπιτράπειν'),
+    ('12.1', 'ἐξεφέποντο', 'ἐξεφέροντο'),
+    ('16.2', 'τρέπεσθαι', 'τράπεσθαι'),
+    ('67.1', 'ʽΠάριοι δὲ', '(Πάριοι δὲ'),
+    ('67.1', 'ἀποβήσεταἰ,', 'ἀποβήσεται),'),
+    ('69.1', 'ἀγαιόμενοί', 'ἀγεόμενοί'),
+    ('74.2', 'ἐλέγετο τῶν αὐτῶν', 'ἐλέγετο περὶ τῶν αὐτῶν'),
+    ('75.2', 'ʽτυγχάνει', '(τυγχάνει'),
+    ('75.2', 'πρήγματἀ', 'πρήγματα)'),
+    ('101.2', 'πειρᾶσαι', 'πειρᾶσθαι'),
+    ('104.1', 'Πηδάσοισι τούτοισι', 'Πηδάσοισι τουτέοισι'),
+    ('104.1', 'ἱρείη', 'ἱερείη'),
+    ('128.2', 'συμμαχίν', 'συμμαχίη'),
+    ('138.3', 'κεῖται', 'κέεται'),
+]
+ACENTOS8 = [
+    ('11.1', 'ἀντίπρῳροι', 'ἀντίπρωροι'),
+    ('12.1', 'πρῴρας', 'πρώρας'),
+    ('14.1', 'δε', 'δὲ'),
+    ('65.5', 'εἶς', 'εἷς'),
+    ('144.2', 'ἐστι', 'ἐστὶ'),
+]
+PARTES8 = [
+    ((1, 5), 'A frota grega no Artemísio'),
+    ((6, 14), 'As primeiras batalhas no Artemísio e a tempestade'),
+    ((15, 26), 'A última batalha no Artemísio; os mortos das Termópilas'),
+    ((27, 39), 'Os fócios e o ataque a Delfos'),
+    ((40, 48), 'Atenas abandonada; a frota em Salamina'),
+    ((49, 55), 'O conselho em Salamina; a tomada da acrópole'),
+    ((56, 64), 'Temístocles convence Euribíades'),
+    ((65, 69), 'A visão de Diceu; o conselho de Xerxes e Artemísia'),
+    ((70, 82), 'O muro do Istmo, a mensagem de Sicino e Aristides'),
+    ((83, 89), 'A batalha de Salamina'),
+    ((90, 96), 'O fim da batalha'),
+    ((97, 107), 'Xerxes decide voltar; Hermotimo'),
+    ((108, 112), 'Temístocles e Andros'),
+    ((113, 120), 'A volta de Xerxes'),
+    ((121, 129), 'Os prêmios; Artabazo em Potideia e Olinto'),
+    ((130, 135), 'As frotas em Samos e em Delos; Mardônio e os oráculos'),
+    ((136, 139), 'Alexandre da Macedônia e os seus antepassados'),
+    ((140, 144), 'A resposta dos atenienses'),
+]
 ED1 = ('A. D. Godley, Herodotus, vol. I (Loeb, Londres e Nova York, 1920); conferido com o fac-símile da impressão '
        'de 1921 (Internet Archive herodotud0000adgo); ver LEIAME.md')
 ED2 = ('A. D. Godley, Herodotus, vol. II (Loeb, Londres e Nova York, 1921); conferido com o fac-símile da impressão '
        'de 1921 (Internet Archive herodotus0002adgo_j1l1); ver LEIAME.md')
 ED3 = ('A. D. Godley, Herodotus, vol. III (Loeb, Londres e Nova York, 1922); conferido com o fac-símile da 1ª impressão, '
        '1922 (Internet Archive in.ernet.dli.2015.183370); ver LEIAME.md')
+ED4 = ('A. D. Godley, Herodotus, vol. IV (Loeb, Londres e Nova York, 1924); conferido com o fac-símile da 1ª impressão, '
+       '1924 (Internet Archive bwb_Y0-DUM-764); ver LEIAME.md')
 LIVROS = {1: dict(corr=CORR1, acentos=ACENTOS1, partes=PARTES1, aceitos='acentos-aceitos.tsv', letra='Α',
                   romano='I', titulo='Α · ΚΛΕΙΩ', ncaps=216, edicao=ED1),
           2: dict(corr=CORR2, acentos=ACENTOS2, partes=PARTES2, aceitos='acentos-aceitos-l2.tsv', letra='Β',
@@ -296,10 +343,12 @@ LIVROS = {1: dict(corr=CORR1, acentos=ACENTOS1, partes=PARTES1, aceitos='acentos
           6: dict(corr=CORR6, acentos=ACENTOS6, partes=PARTES6, aceitos='acentos-aceitos-l6.tsv', letra='Ζ',
                   romano='VI', titulo='Ζ · ΕΡΑΤΩ', ncaps=140, edicao=ED3),
           7: dict(corr=CORR7, acentos=ACENTOS7, partes=PARTES7, aceitos='acentos-aceitos-l7.tsv', letra='Η',
-                  romano='VII', titulo='Η · ΠΟΛΥΜΝΙΑ', ncaps=239, edicao=ED3, depois=DEPOIS7)}
+                  romano='VII', titulo='Η · ΠΟΛΥΜΝΙΑ', ncaps=239, edicao=ED3, depois=DEPOIS7),
+          8: dict(corr=CORR8, acentos=ACENTOS8, partes=PARTES8, aceitos='acentos-aceitos-l8.tsv', letra='Θ',
+                  romano='VIII', titulo='Θ · ΟΥΡΑΝΙΗ', ncaps=144, edicao=ED4)}
 L = LIVROS[LIVRO]
 CORR, ACENTOS, PARTES = L['corr'], list(L['acentos']), L['partes']
-SUB = dict(zip('ABCDEFGH', 'αβγδεζηθ'))   # 121A–F (II), 92A–G (V), 86A–D (VI), 8A–D, 9A–C, 10A–H, 16A–C (VII)
+SUB = dict(zip('ABCDEFGH', 'αβγδεζηθ'))   # 121A–F (II), 92A–G (V), 86A–D (VI), 8A–D, 9A–C, 10A–H, 16A–C (VII), 60A–C, 68A–C, 140A–B (VIII)
 def cap_marca(c):
     return c[:-1] + SUB[c[-1]] if c[-1] in SUB else c
 def cap_num(c):

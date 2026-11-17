@@ -128,3 +128,32 @@ sem trocar um pelo outro. A identificação é dele («Osíris, que dizem ser Di
   ὁρτή → festa; πανήγυρις → festa (reunião de muita gente); λύχνοκαίη → «a festa das lâmpadas».
 - Palavras de outras línguas que Heródoto cita e explica (_bekos_, o pão dos frígios, 2.2; _piromis_, 143.4; _Maneros_,
   79): em itálico, com a explicação dele.
+
+## Livro III (Tália): nomes e termos
+
+O livro de Cambises e de Dario: a conquista do Egito, a loucura de Cambises, Polícrates de Samos, o mago, os sete
+persas, o debate sobre o governo, as satrapias e os tributos, os confins da terra (Índia, Arábia), Democedes e a
+revolta de Babilônia. O título: `Γ · ΘΑΛΕΙΑ` → `LIVRO III · TÁLIA`.
+
+- **Persas**: Cambises, Ciro, Cassandane (Κασσανδάνη), Esmérdis (Σμέρδις: o irmão de Cambises e o mago, que tem o
+  mesmo nome), Patizites (Πατιζείθης, o outro mago), Prexaspes, Otanes (filho de Farnaspes), Fedímia (Φαιδυμίη),
+  os sete: Otanes, Aspatines, Gobrias, Intafernes, Megabizo, Hidarnes e Dario, filho de Histaspes; Oibares (o
+  cavalariço de Dario; a forma do livro I), Atossa, Artistone, Parmis, Oretes, Mitrobates, Bageu (Βαγαῖος),
+  Zópiro (filho de Megabizo); Susa, Ecbátana (também a da Síria, 64.4).
+- **Egito e África**: Amásis, Psamenito (Ψαμμήνιτος), Nitétis (Νίτητις), Apríes, Fanes de Halicarnasso, Ápis, os
+  amônios e Amon, Oásis (a cidade), os ictiófagos (Ἰχθυοφάγοι: «comedores de peixe» só se Heródoto explicar), os
+  etíopes de vida longa (Αἰθίοπες μακρόβιοι), a mesa do Sol, os cartagineses (Καρχηδόνιοι), Cirene, Barca.
+- **Gregos**: Polícrates, filho de Éaces, Pantagnoto e Silosonte (Συλοσῶν), seus irmãos; Meândrio, Licareto,
+  Carilau; Periandro, Licofron, Melissa, Procles de Epidauro; Corinto, Corcira (Κέρκυρα), Samos, Sifnos e os sifnios,
+  Egina e os eginetas, Cidônia (Creta), Hidreia, Trezena, Hermíone; Eupalino de Mégara, Reco, Teodoro de Samos;
+  Democedes de Crotona, Califonte, Mílon, Gilo de Tarento, Aristofilides; os lacedemônios (Λακεδαιμόνιοι; Esparta
+  quando é a cidade); Arquias; Anacreonte; Píndaro (38.4).
+- **Ásia e confins**: os árabes e a Arábia, os indianos (Ἰνδοί) e a Índia, os calátias (Καλλατίαι, 38.4), os
+  padeus (Παδαῖοι), os arimaspos, o Erídano, as Cassitérides, o Áces (Ἄκης, o rio do vale); incenso, mirra, cássia,
+  canela (κινάμωμον), ládano (λήδανον), estoraque (στύραξ).
+- **Termos**: ὁ μάγος → **o mago**; τὰ Μαγοφόνια → «a Matança dos Magos» (nome da festa, 79.3); σατραπηίη →
+  **satrapia**; ἀρχή (a província) → governo, província; νομός (a divisão dos tributos, 89–97) → **distrito**, como no
+  livro II; φόρος → **tributo**; δῶρα → presentes; τάλαντον Βαβυλώνιον / Εὐβοϊκόν → talento babilônico / euboico;
+  ψῆγμα → ouro em pó. No debate (80–82): ἰσονομίη → **igualdade perante a lei**; τὸ πλῆθος ἄρχον, πλῆθος → **o povo**,
+  **a multidão** (conforme o tom); ὀλιγαρχίη → oligarquia; μουναρχίη, μούναρχος → monarquia, monarca; τύραννος → tirano.
+  κάπηλος (89.3, Dario) → comerciante; δεσπότης → senhor. ὁ ἱπποκόμος → o cavalariço; οἱ δορυφόροι → os lanceiros.

@@ -1,8 +1,10 @@
 """Confronta o grego do Perseus (já com graves.py) com duas leituras do fac-símile de Godley:
   O1 = Tesseract (grc) da impressão de 1921 (Internet Archive herodotud0000adgo), com as caixas das palavras (hOCR);
   O2 = OCR do Internet Archive da reimpressão de 1975 (historiesvolumei00hero_249), mesmas chapas.
-Uso: colacao.py <pasta-trabalho> [livro=1]   (lê l<n>.json, ocr/*.hocr (livro I) ou ocr<n>/*.hocr,
-dl/historiesvolumei00hero_249.txt; grava col-*.tsv no livro I, l<n>-col-*.tsv nos outros)
+  Vol. II (livros III e IV): O1 = Tesseract da impressão de 1921 (herodotus0002adgo_j1l1); O2 = OCR do Internet
+  Archive da reimpressão revista de 1938 (herodotus0000hero).
+Uso: colacao.py <pasta-trabalho> [livro=1]   (lê l<n>.json, ocr/*.hocr (livro I) ou ocr<n>/*.hocr, e a 2ª leitura
+do volume (O2 abaixo); grava col-*.tsv no livro I, l<n>-col-*.tsv nos outros)
 Listas: col-letras.tsv (as duas leituras concordam entre si e não com o Perseus, nas letras), col-acentos.tsv
 (mesmas letras, acentos ou espíritos diferentes, as duas leituras iguais), col-fracas.tsv (só uma leitura
 discorda, parecida com o Perseus), col-buracos.tsv (palavras do Perseus que nenhuma leitura tem, e palavras
@@ -58,7 +60,9 @@ for f in sorted(glob.glob(B + f'/{OCRD}/*.hocr')):
                 o1.append(x); o1pos.append((pag, bb))
 on1 = [norm(w) for w in o1]
 # O2: djvu.txt do Internet Archive (reimpressão de 1975)
-ocr = open(B + '/dl/historiesvolumei00hero_249.txt', encoding='utf-8').read().split('\n')
+O2 = {1: 'dl/historiesvolumei00hero_249.txt', 2: 'dl/historiesvolumei00hero_249.txt',
+      3: 'dl/herodotus0000hero.txt', 4: 'dl/herodotus0000hero.txt'}
+ocr = open(B + '/' + O2[LIVRO], encoding='utf-8').read().split('\n')
 def grego(s):
     l = [c for c in s if c.isalpha()]
     g = [c for c in l if 'Ͱ' <= c <= 'Ͽ' or 'ἀ' <= c <= '῿']
@@ -66,9 +70,14 @@ def grego(s):
 if LIVRO == 1:
     ini = next(i for i, l in enumerate(ocr) if 'ροδότου' in l)
     fim = next(i for i, l in enumerate(ocr) if l.startswith('BOOK II'))
-else:   # o volume I da Loeb tem os livros I e II; o II vai do título «BOOK II» até o índice
+elif LIVRO == 2:   # o volume I da Loeb tem os livros I e II; o II vai do título «BOOK II» até o índice
     ini = next(i for i, l in enumerate(ocr) if l.startswith('BOOK II'))
     fim = next(i for i, l in enumerate(ocr) if l.startswith('INDEX'))
+else:   # vol. II: o título do livro aparece primeiro no sumário; vale a 2ª ocorrência
+    tit = {3: 'BOOK III', 4: 'BOOK IV'}[LIVRO]
+    ini = [i for i, l in enumerate(ocr) if l.strip() == tit][1]
+    fim = (next(i for i, l in enumerate(ocr) if i > ini and l.startswith('BOOK IV')) if LIVRO == 3
+           else next(i for i, l in enumerate(ocr) if i > ini and l.startswith('INDEX')))
 txt = ''
 for l in ocr[ini:fim]:
     l = l.rstrip()

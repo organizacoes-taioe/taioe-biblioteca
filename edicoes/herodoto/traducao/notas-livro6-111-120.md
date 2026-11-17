@@ -62,3 +62,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 119.4 (menor): «Assim foi o que diz respeito aos erétrios» está truncada → «Assim terminou o caso dos erétrios» (ἔσχε οὕτω).
+- 112.2 (menor): «sem terem nem cavalaria nem arqueiros»: o grego diz τοξευμάτων, «flechas/arco» → «sem cavalaria nem flechas» ou «sem arqueiros»; aceitável como está.
+- Resto do lote: sem omissão, acréscimo, número ou negação trocados; números (oito estádios, sete navios, 6.400 e 192 mortos, 210 e 40 estádios, vinte anos, dois mil, terceiro dia) conferem.

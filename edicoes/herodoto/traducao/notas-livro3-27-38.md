@@ -52,3 +52,8 @@
   em português). Recomendação: «o costume é rei de todos».
 - 32.4, ἀποψιλώσας: adotei «quando desfolhaste a casa de Ciro», para manter a imagem da alface, de que a frase
   depende. Alternativa: «quando despojaste a casa de Ciro» (o sentido sem a imagem). Recomendação: «desfolhaste».
+
+## Revisão contra o grego
+Sem erro de sentido, número ou omissão; dois pontos de português.
+- 37.2: «patecos fenícios» (Παταΐκοισι) é palavra rara e não explicada → «figurinhas fenícias chamadas patecos» ou «bonecos fenícios (os patecos)», mantendo a explicação do pigmeu logo depois.
+- 38.1: «pois, se não, não teria tentado zombar» é truncado (falta o que o «se não» nega) → «pois, se não estivesse louco, não teria tentado zombar de coisas sagradas e de costumes».

@@ -20,3 +20,12 @@ Tradução do principal. Vale também como registro da uniformização do livro 
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Livro III, 1–9: nenhum erro de sentido, número ou omissão; um ponto de termo.
+- 6.2: δήμαρχος traduzido por «governador», que é o termo fixado para ὕπαρχος no CONVENCOES → «prefeito» (ou «chefe de distrito»), para não confundir.
+
+Livro III, 10–16: sem erro de sentido, número ou omissão; dois pontos de português.
+- 13.4: «porque eram pouco» (os presentes de Cirene, ὀλίγα) → «porque eram poucos».
+- 15.4: «recebeu o pago» (μισθόν) é popular/regional → «recebeu a paga» ou «recebeu o castigo».
+- 14.9 (opcional): «pelo que ele sabe por outros» deixa dúvida sobre quem sabe (é Cambises) → «como ele soube por outros».

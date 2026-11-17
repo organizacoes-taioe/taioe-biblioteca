@@ -62,3 +62,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 100.2: «nenhum desses… vai descer dos navios e tentar te enfrentar, nem desta terra firme»: o grego diz que ninguém virá dos navios nem da terra firme te enfrentar; «nem desta terra firme» fica solto → «e ninguém desta terra firme virá te enfrentar».
+- 100.4: «nada do que é teu foi arruinado»: o grego não diz «teu» (nada dos negócios, entre os persas, foi estragado) → «nada, do lado dos persas, foi arruinado».
+- 98.2: _angareion_ conforme CONVENCOES.md (98.2); a explicação do correio a cavalo está em 98.1: correto. 98.1 «um cavalo e um homem para cada dia de caminho»: correto.
+- Conferidos: 300 mil homens (100.5 e 101.3), quatro filhos de Paniônio (106.4), a fala de Mardônio, de Xerxes e de Artemísia (102), colchetes de 104.1–105.1, Hermótimo de Pédaso: corretos. Sem negação trocada nem omissão.

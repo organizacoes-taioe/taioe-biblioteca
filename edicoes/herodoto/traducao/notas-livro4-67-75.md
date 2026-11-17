@@ -36,3 +36,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 67.2: nome fora do CONVENCOES: «_enarees_» (Ἐνάρεες) → a convenção manda _enareus_ (com a explicação dele); uniformizar. (Se se preferir o plural «enarees», é a convenção que deve mudar.)
+Nenhum outro problema de sentido, número ou negação nesta parte (cinquenta servos e cinquenta cavalos, quarenta dias, os três adivinhos e o dobro conferem).

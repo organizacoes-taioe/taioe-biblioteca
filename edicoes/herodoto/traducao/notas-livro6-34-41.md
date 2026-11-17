@@ -43,3 +43,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 38.1: «Esteságoras, o filho de Címon, seu irmão por parte de mãe»: «seu irmão» parece dizer que Esteságoras era irmão do morto; no grego o irmão (de mesma mãe) é Címon, e Esteságoras é o sobrinho (paidi) → «a Esteságoras, filho de Címon, que era irmão dele por parte de mãe» ou «a seu sobrinho Esteságoras, filho de Címon, irmão dele por parte de mãe»
+- 38.2: «e dos bem exaltados» é obscuro (hypothermoteros, «um tanto mais ardente, mais violento») → «um inimigo, e dos mais exaltados» ou «e homem de sangue quente»
+- Números (36 e 420 estádios, 500 mercenários, 5 e 4 navios, três anos), nomes e negações conferem; nenhuma omissão.

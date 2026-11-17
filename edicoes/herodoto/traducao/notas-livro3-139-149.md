@@ -51,3 +51,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 147.1: «dessas ordens ele se lembrava e as esqueceu» soa contraditório e a frase fica pesada (as ordens vêm antes do verbo) → «embora se lembrasse das ordens que Dario lhe dera ao mandá-lo (não matar nem escravizar nenhum sâmio e entregar a ilha a Silosonte sem dano), esqueceu-as e deu ordem ao exército…».
+- Nomes (Silosonte, Meândrio, Licareto, Carilau, Telesarco), números (seis talentos, quinze hoplitas), negações e sentido conferidos: nenhuma outra correção necessária.

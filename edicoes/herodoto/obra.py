@@ -28,28 +28,32 @@ META = {
             'Istro, e, do outro lado do mundo, a fundação de Cirene, os povos da Líbia e o cerco de Barca. O livro V, _Terpsícore_, é o da '
             'revolta jônica: Megabazo na Trácia, Histieu e Aristágoras de Mileto, Aristágoras em Esparta e em Atenas, a história de '
             'Atenas depois dos tiranos (Clístenes e as tribos, as guerras com Tebas, Cálcis e Egina), o discurso do coríntio '
-            'Sosícles contra a tirania, com Cípselo e Periandro, o incêndio de Sardes e a guerra em Chipre e na Cária.\n\n'
-            '**Em partes.** Por enquanto estão aqui os livros I a V; os outros quatro vêm depois, um a um, com as mesmas '
+            'Sosícles contra a tirania, com Cípselo e Periandro, o incêndio de Sardes e a guerra em Chipre e na Cária. O livro VI, _Érato_, é o do fim da '
+            'revolta e de Maratona: a batalha de Lade e a queda de Mileto, a morte de Histieu, os Milcíades no Quersoneso, '
+            'os reis de Esparta e a queda de Demarato, a loucura de Cleômenes, a expedição de Dátis e Artafernes, a batalha de '
+            'Maratona, os alcmeônidas e o casamento de Agariste, e o fim de Milcíades.\n\n'
+            '**Em partes.** Por enquanto estão aqui os livros I a VI; os outros três vêm depois, um a um, com as mesmas '
             'convenções.\n\n'
             '**A divisão.** Os capítulos e as seções são os da numeração usual (as pequenas marcas no texto: 5.2 é o '
-            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II, 160 no III, 205 no IV e 126 no V (no II, a história '
-            'de Rampsinito, o capítulo 121, se divide em 121α a 121ζ; no V, o discurso de Sosícles, o capítulo 92, em 92α a 92η). Os grupos de capítulos e os títulos '
+            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II, 160 no III, 205 no IV, 126 no V e 140 no VI (no II, a história '
+            'de Rampsinito, o capítulo 121, se divide em 121α a 121ζ; no V, o discurso de Sosícles, o capítulo 92, em 92α a 92η; no VI, a história de Glauco, o capítulo 86, em 86α a 86δ). Os grupos de capítulos e os títulos '
             'deles são desta edição, para a leitura em partes.\n\n'
             '**A tradução.** Do grego, em português do Brasil, fiel ao sentido e à ordem das ideias, sem acréscimos, com o '
             'andamento de quem conta em voz alta, que é o de Heródoto: as fórmulas que abrem e fecham cada história, o «dizem» '
             'e o «pelo que eu soube» com que ele separa o que viu, o que ouviu e o que pensa. Os nomes estão na forma '
             'portuguesa usual. Os oráculos em verso vão em verso livre, linha por linha. O que Godley imprime entre colchetes, '
             'por julgar acréscimo de copista, vai entre colchetes também na tradução (no livro I, 148.2, 167.1, 180.4, 196.5; '
-            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; o IV e o V não têm); onde o texto se perdeu, «…» (I 92.2, '
-            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1; IV 47.2, 149.2; o V não tem).\n\n'
+            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; o IV e o V não têm; no VI, 111.2 e o capítulo 122 inteiro); onde o texto se perdeu, «…» (I 92.2, '
+            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1; IV 47.2, 149.2; o V não tem; VI 64.1).\n\n'
             '**O original.** O grego, no botão «Grego», é o da edição de A. D. Godley (_Herodotus_, coleção Loeb: vol. I, '
-            '1920, com os livros I e II; vol. II, 1921, com o III e o IV; vol. III, 1922, com o V), em domínio público. Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por '
+            '1920, com os livros I e II; vol. II, 1921, com o III e o IV; vol. III, 1922, com o V e o VI), em domínio público. Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por '
             'palavra, com duas leituras do fac-símile da edição (a primeira impressão de cada volume e uma reimpressão das mesmas chapas); '
             'corrigimos pela imagem, no livro I, uns 40 erros de digitação (letras trocadas, palavras juntas ou partidas, uma '
             'oração repetida em 153.1) e cerca de 280 acentos; no livro II, 16 palavras com letras trocadas, duas palavras '
             'que faltavam (47.1, 113.3) e 21 acentos; no livro III, 10 palavras com letras trocadas (quase todas formas jônicas, '
             'como ἐκέετο e τράπουσι), uma palavra que faltava (21.2) e uns 40 acentos; no livro IV, 20 palavras com letras trocadas, uma que faltava (119.4) e uns 116 '
-            'acentos; no livro V, 13 palavras com letras trocadas, juntas ou partidas, uma que faltava (29.2), os parênteses de 67.3 e uns 25 acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
+            'acentos; no livro V, 13 palavras com letras trocadas, juntas ou partidas, uma que faltava (29.2), os parênteses de 67.3 e uns 25 acentos; no livro VI, 15 palavras com letras trocadas, duas que faltavam (53.2, 138.2), '
+            'os parênteses de 69.4 e 109 e uns 35 acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
             'ao lado do grego na edição Loeb, serviu só para conferir o sentido.'),
         'fontes': [
             {'nome': 'A. D. Godley, Herodotus, vol. I (Loeb, 1920), impressão de 1921, no Internet Archive',
@@ -60,7 +64,7 @@ META = {
              'nota': 'fac-símile do texto grego (livros III e IV nas páginas pares); conferência das correções'},
             {'nome': 'A. D. Godley, Herodotus, vol. III (Loeb, 1922), impressão de 1922, no Internet Archive',
              'url': 'https://archive.org/details/in.ernet.dli.2015.183370',
-             'nota': 'fac-símile do texto grego (livro V nas páginas pares); conferência das correções'},
+             'nota': 'fac-símile do texto grego (livros V e VI nas páginas pares); conferência das correções'},
             {'nome': 'Perseus Digital Library: Heródoto, Histórias (texto de Godley, CC BY-SA 4.0)',
              'url': 'https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0016/tlg001',
              'nota': 'transcrição do grego de Godley, base do texto ao lado'},
@@ -73,6 +77,7 @@ L2 = 'Livro II'
 L3 = 'Livro III'
 L4 = 'Livro IV'
 L5 = 'Livro V'
+L6 = 'Livro VI'
 PARTES = [
     (L1, 'Proêmio: os raptos (1–5)', ['livro1-1-5.txt']),
     (L1, 'Candaules e Giges (6–14)', ['livro1-6-14.txt']),
@@ -164,4 +169,19 @@ PARTES = [
     (L5, 'Aristágoras em Atenas e o incêndio de Sardes (97–103)', ['livro5-97-103.txt']),
     (L5, 'A revolta de Chipre (104–115)', ['livro5-104-115.txt']),
     (L5, 'A Cária, o Helesponto e a morte de Aristágoras (116–126)', ['livro5-116-126.txt']),
+    # livro VI (Érato)
+    (L6, 'Histieu e a frota jônica em Lade (1–10)', ['livro6-1-10.txt']),
+    (L6, 'A batalha de Lade e a queda de Mileto (11–21)', ['livro6-11-21.txt']),
+    (L6, 'Os sâmios em Zancle; a morte de Histieu (22–33)', ['livro6-22-33.txt']),
+    (L6, 'Os Milcíades no Quersoneso (34–41)', ['livro6-34-41.txt']),
+    (L6, 'Mardônio, Tasos e os arautos de Dario (42–50)', ['livro6-42-50.txt']),
+    (L6, 'Os reis de Esparta (51–60)', ['livro6-51-60.txt']),
+    (L6, 'Demarato e Leotíquides (61–72)', ['livro6-61-72.txt']),
+    (L6, 'A loucura e a morte de Cleômenes (73–84)', ['livro6-73-84.txt']),
+    (L6, 'Glauco e a guerra com Egina (85–93)', ['livro6-85-93.txt']),
+    (L6, 'Dátis e Artafernes; a tomada de Erétria (94–101)', ['livro6-94-101.txt']),
+    (L6, 'Antes de Maratona (102–110)', ['livro6-102-110.txt']),
+    (L6, 'A batalha de Maratona (111–120)', ['livro6-111-120.txt']),
+    (L6, 'Os alcmeônidas e o casamento de Agariste (121–131)', ['livro6-121-131.txt']),
+    (L6, 'Milcíades em Paros; os pelasgos de Lemnos (132–140)', ['livro6-132-140.txt']),
 ]

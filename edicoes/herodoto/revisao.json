@@ -1,6 +1,6 @@
 {
  "id": "herodoto-historias",
- "rotulo": "Histórias, livros I a V (Heródoto)",
+ "rotulo": "Histórias, livros I a VI (Heródoto)",
  "url": "/biblioteca/herodoto/historias/",
  "escolhas": [
   {
@@ -372,6 +372,68 @@
      "id": "b",
      "texto": "«deram o nome de Cípselo, tirado da arca»",
      "nota": "Sem palavra grega; o leitor não vê o parentesco dos nomes."
+    }
+   ]
+  },
+  {
+   "id": "l6-crio",
+   "titulo": "Cleômenes a Crio: «cobre de bronze os teus chifres, carneiro»?",
+   "ref": "VI 50.3",
+   "contexto": "Crio (Κριός) quer dizer «carneiro» em grego, e Cleômenes faz o jogo com o nome dele: ὦ κριέ, «ó carneiro» ou «ó Crio». Em português o nome e o bicho não se ligam.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«cobre de bronze os teus chifres, carneiro», como está",
+     "nota": "Guarda o insulto e a imagem dos chifres; o leitor liga ao nome pelo contexto (ele acabou de perguntar o nome).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«cobre de bronze os teus chifres, _krié_, carneiro»",
+     "nota": "A palavra grega em itálico mostra o jogo, como em «égide» e em «Cípselo»; pesa mais na fala."
+    },
+    {
+     "id": "c",
+     "texto": "«cobre de bronze os teus chifres, Crio»",
+     "nota": "Fica o nome; o jogo se perde."
+    }
+   ]
+  },
+  {
+   "id": "l6-sepeia",
+   "titulo": "O lugar da batalha de Cleômenes contra os argivos: «Sépeia»?",
+   "ref": "VI 77.1",
+   "contexto": "O grego de Godley, que vai ao lado, lê Ἡσίπεια («Hesipeia»); os outros editores e os livros de história leem Σήπεια, «Sépeia», que é a forma conhecida do lugar, perto de Tirinto.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Sépeia», como está",
+     "nota": "A forma usual em português e nos livros de história.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Hesipeia»",
+     "nota": "Igual ao grego ao lado; forma que só a edição de Godley tem."
+    }
+   ]
+  },
+  {
+   "id": "l6-hipoclides",
+   "titulo": "A resposta de Hipoclides: «Hipoclides não se importa»?",
+   "ref": "VI 129.4",
+   "contexto": "Hipoclides, o pretendente favorito de Agariste, dança de cabeça para baixo no banquete, e Clístenes lhe diz que ele dançou fora o casamento. Ele responde οὐ φροντὶς Ἱπποκλείδῃ, que virou provérbio: «Hipoclides não liga».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Hipoclides não se importa», como está",
+     "nota": "Curto, com o nome na frente, como um provérbio.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Pouco importa a Hipoclides»",
+     "nota": "Mais perto da construção grega («não há preocupação para Hipoclides»)."
     }
    ]
   }

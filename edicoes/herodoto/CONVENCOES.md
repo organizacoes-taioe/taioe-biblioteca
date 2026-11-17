@@ -263,23 +263,23 @@ Cária. O título: `Ε · ΤΕΡΨΙΧΟΡΗ` → `LIVRO V · TERPSÍCORE`. List
 O livro do fim da revolta jônica e de Maratona: Histieu, a batalha de Lade e a queda de Mileto, os Milcíades no
 Quersoneso, Mardônio e os arautos de Dario, os reis de Esparta (Demarato, Leotíquides, Cleômenes), Glauco, Dátis e
 Artafernes, Erétria, Maratona, os alcmeônidas e Agariste, Milcíades em Paros e os pelasgos de Lemnos. O título:
-`Ζ · ΕΡΑΤΩ` → `LIVRO VI · ÉRATO`. Lista escrita antes da tradução: o tradutor que achar forma melhor usa a melhor e
-registra nas notas.
+`Ζ · ΕΡΑΤΩ` → `LIVRO VI · ÉRATO`. Lista acertada pelos nomes da tradução.
 
 - **Jônia**: Histieu, Aristágoras, Artafernes (o governador de Sardes e, em 94–119, o filho dele, sobrinho de Dario),
-  Hermipo de Atarneu; Lade, Dionísio de Foceia, Eaces, filho de Silosonte; Zancle, Anaxilau de Régio, Hipócrates de
+  Hermipo de Atarneu; Lade, Dionísio de Foceia, Éaces, filho de Silosonte (a forma dos livros III e IV); Zancle, Anaxilau de Régio, Hipócrates de
   Gela, Cadmo de Cós, Cálacte; Dídimo e o santuário dos Bránquidas (como no livro I); Frínico e a peça _A tomada de
   Mileto_; Hárpago (o general persa, 28); Quios, Lesbos, Tênedos, Proconeso, Perinto.
 - **Quersoneso e Trácia**: Milcíades, filho de Cípselo, e Milcíades, filho de Címon; Esteságoras; os dolonces, os
   apsíntios; Hegesípile, filha de Óloro (rei trácio); Mardônio, filho de Gobrias; Atos, os brigos; Tasos e os tásios,
   Escaptésile.
 - **Esparta e Egina**: Cleômenes, Demarato, Leotíquides, Crio, Aristodemo, Eurístenes e Procles, Teras; os éforos; a
-  Pítia Periala, Cobão; Argos e Sépeia, o bosque de Argos; Glauco, filho de Epicides; Nicodromo; os eginetas.
+  Pítia Periala, Cobão; Argos e Sépeia (Godley lê Ἡσίπεια; ver `revisao.json`), o bosque de Argos; Glauco, filho de Epicides; Nicodromo; os eginetas.
 - **Maratona (94–120)**: Dátis, o medo; Naxos, Delos, Caristo, Erétria e os erétrios; Hípias; Maratona; Fidípides
   (ἡμεροδρόμης → «corredor», com a explicação dele se houver), Pã; o polemarco (πολέμαρχος) Calímaco de Afidnas; os
   plateenses; Epizelo; Árderica, na Císsia.
-- **Atenas**: Alcmeão, Mégacles, Agariste, Clístenes de Sicione, Hipoclides, filho de Tisandro, Péricles; Paros e os
-  pários, Timo; Lemnos, os pelasgos, o Himeto, Bráuron, Hefestia, Mirina.
+- **Atenas**: Alcméon, Megacles (as formas do livro I), Agariste, Clístenes de Sicione, Hipoclides, filho de Tisandro, Péricles; Paros e os
+  pários, Timo, «auxiliar das sacerdotisas»; Lemnos, os pelasgos, o Himeto, Bráuron, Hefestia, Mirina.
 - **Termos**: γέρεα (os privilégios dos reis de Esparta, 56–58) → **privilégios**; πρόξεινος → próxeno (só com
   explicação dele; senão, «hóspede oficial»); ὁ πολέμαρχος → **o polemarco**; ἐπιβάται → soldados de bordo; διέκπλοος →
-  manobra de atravessar a linha inimiga (uma vez na nota); ἀστυγείτονες → vizinhos.
+  manobra de atravessar a linha inimiga (uma vez na nota); ἀστυγείτονες → vizinhos; τὰ ἴδια → os bens particulares; ὁ
+  ἡμεροδρόμης → corredor; οἱ περίοικοι → os periecos; οἱ εἵλωτες → os hilotas; κλῆρος (os colonos atenienses) → lotes.

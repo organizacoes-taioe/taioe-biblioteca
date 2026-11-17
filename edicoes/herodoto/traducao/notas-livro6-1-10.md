@@ -41,3 +41,14 @@
 - 2.1: «ele, que tinha prometido submeter a Sardenha»: depois de «o rei Dario» o «ele» parece ser Dario; o grego (hos) é Histieu → «Histieu, que tinha prometido submeter a Sardenha, a maior das ilhas, tomava para si…»
 - 9.2: «chamaram os desses homens que estavam ali» está truncado (synkalesantes) → «chamaram os que, desses homens, estavam presentes e lhes disseram o seguinte»
 - 9.3: «as casas» para ta idia (os bens particulares, por oposição aos santuários) é estreito → «nem os santuários nem os bens particulares» (ou «as propriedades»)
+
+## Uniformização do livro VI (principal)
+- Aplicadas as correções dos revisores (registro no fim de cada parte): 2.1, 9.2, 9.3 e 13.2 («os bens particulares»),
+  21.2, 23.5, 33.2 (sem a «fundação» de Mesâmbria), 38.1 (o parentesco de Esteságoras), 38.2, 45.2, 43.3, 56.1, 65.1,
+  72.2, 74.2, 79.1 («de cinquenta em cinquenta»), 86β.2, 94.2 («sobrinho de Dario»), 103.1, 106.1 («no segundo dia»),
+  119.4, 122.2, 126.3 (cortado o acréscimo «e os mantinha ali»), 127.2, 136.1 («pedindo a pena de morte»), 134.1 e
+  135.2 («auxiliar das sacerdotisas», no lugar de «subsacerdotisa»). Ficou «Cneto» (88.1): é a forma portuguesa de
+  Κνοῖθος pela latina (οι → e, como Febo).
+- Nomes acertados no `CONVENCOES.md` pela tradução: Éaces; Alcméon e Megacles (as formas do livro I).
+- Decisões novas no `revisao.json` (recomendação aplicada): 50.3 «carneiro» no jogo com o nome de Crio; 77.1 «Sépeia»
+  (Godley lê Hesipeia); 129.4 «Hipoclides não se importa». O resto dos candidatos dos tradutores ficou como está.

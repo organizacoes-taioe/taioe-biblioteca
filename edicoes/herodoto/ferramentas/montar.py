@@ -266,7 +266,7 @@ PARTES7 = [
     ((132, 137), 'Os gregos que se deram aos medos; Espértias e Búlis'),
     ((138, 144), 'Atenas e o muro de madeira'),
     ((145, 152), 'A aliança dos gregos e Argos'),
-    ((153, 162), 'Gélon de Siracusa'),
+    ((153, 162), 'Gelão de Siracusa'),
     ((163, 171), 'Hímera; Corcira e Creta'),
     ((172, 178), 'Tempe abandonado; Termópilas e Artemísio'),
     ((179, 187), 'Os primeiros encontros no mar; o tamanho do exército'),

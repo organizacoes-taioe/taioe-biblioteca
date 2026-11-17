@@ -283,3 +283,37 @@ Artafernes, Erétria, Maratona, os alcmeônidas e Agariste, Milcíades em Paros 
   explicação dele; senão, «hóspede oficial»); ὁ πολέμαρχος → **o polemarco**; ἐπιβάται → soldados de bordo; διέκπλοος →
   manobra de atravessar a linha inimiga (uma vez na nota); ἀστυγείτονες → vizinhos; τὰ ἴδια → os bens particulares; ὁ
   ἡμεροδρόμης → corredor; οἱ περίοικοι → os periecos; οἱ εἵλωτες → os hilotas; κλῆρος (os colonos atenienses) → lotes.
+
+## Livro VII (Polímnia): nomes e termos
+
+O livro da expedição de Xerxes: a morte de Dario, o conselho de Xerxes e os sonhos, o canal do Atos e as pontes do
+Helesponto, a marcha até Sardes e Abidos, a contagem e o catálogo do exército e da frota em Dorisco, a conversa com
+Demarato, a marcha pela Trácia e pela Macedônia, os gregos que tomaram o partido dos medos, Atenas e o muro de madeira,
+a aliança dos gregos, Argos, Gelão, Corcira e Creta, Tempe, as Termópilas e o Artemísio, a tempestade na Magnésia e a
+batalha das Termópilas. O título: `Η · ΠΟΛΥΜΝΙΑ` → `LIVRO VII · POLÍMNIA`. Lista escrita antes da tradução: se um nome
+estiver errado ou houver forma melhor, usar a melhor e registrar nas notas (quem uniformiza acerta aqui no fim).
+
+- **Pérsia**: Dario, Xerxes, Atossa, Artobazanes; Mardônio, filho de Gobrias; Artábano, filho de Histaspes (tio de
+  Xerxes); Aquêmenes (irmão de Xerxes); Masistes; Hidarnes; Otanes; Megabizo; Megabazo; Bubares e Artaqueu (o canal
+  do Atos); Pítio, filho de Átis (o lídio); Mascames (Dorisco); Boges (Eion); Ariabignes; Prexaspes; Artemísia,
+  filha de Lígdamis, de Halicarnasso; Sandoces; os magos; os Imortais (οἱ ἀθάνατοι). Os nomes do catálogo (61–99) na
+  forma latina usual, como os dos livros III e VI; os que só aparecem ali, nas notas.
+- **A marcha**: a Capadócia, Critala, o Halis, a Frígia, Celenas, o Mársias, Colossas, o Lico, Cidrara, Sardes;
+  Abidos, Sestos, o Helesponto, o Quersoneso, Ílion (Ἴλιον), o Escamandro, a Pérgamo de Príamo, Atena Ília; Dorisco,
+  o Hebro; Sane, Acanto, o Atos; o Estrímon, Eion, os Nove Caminhos (Ἐννέα ὁδοί), o Pangeu, Abdera, Terma, a
+  Calcídica, Palene, a Pieria, a Macedônia, a Tessália, o Olimpo, o Ossa, o Peneu, Tempe, a Perrébia.
+- **Grécia**: Leônidas, filho de Anaxândrides; Cleômbroto; Demarato (a forma do livro VI); Diêneces; Alfeu e Marão;
+  Êurito e Aristodemo; Pantites; Efialtes, filho de Euridemo, o málio; Megístias, o adivinho acarnane; Simônides de
+  Ceos; Leontíades e os tebanos; os téspios e Demófilo; Temístocles, filho de Néocles; Euribíades; Espértias e Búlis;
+  Taltíbio e os Taltibíadas; os Alêuadas da Tessália; Onomácrito; os Pisistrátidas; os anfictiões (Ἀμφικτύονες).
+- **Sicília e o resto**: Gelão, filho de Dinómenes; Hierão; Terão de Ácragas; Térilo de Hímera; Anaxilau de Régio;
+  Amílcar, filho de Hanão; Cartago e os cartagineses; Siracusa, Gela, Hímera; Corcira e os corcireus; Creta e Minos.
+- **Termópilas e Artemísio**: as Termópilas (Θερμοπύλαι; «Pilas», Πύλαι, onde o grego diz só isso), a Málida e os
+  málios (Μηλιέες), Tráquis, Antela, Alpenos, o Asopo, o Fênix, o Eta, a trilha Anopeia (Ἀνόπαια); o Artemísio,
+  Afetas, o cabo Sépias, a Magnésia, a Eubeia, Escíatos, o Euripo.
+- **Termos**: μηδίζειν → **tomar o partido dos medos** / **passar para o lado dos medos** (a forma do livro VI; nada
+  de «medizar»); οἱ μηδίσαντες → os que tomaram o partido dos medos; τὸ ξύλινον τεῖχος → **o muro de madeira**;
+  ὄψις → **visão**, ὄνειρον → **sonho** (12–19); διῶρυξ → canal; γέφυρα → ponte; σύλλογος → reunião; μυριάς → dez mil
+  (μυριάδες: o número por extenso, «um milhão e setecentos mil» por 170 μυριάδες); σταθμός (da marcha) → etapa;
+  οἱ ἀθάνατοι → os Imortais; ἐπιβάται → soldados de bordo (como no VI); προδότης → traidor; φθόνος → inveja (dos
+  deuses, τὸ θεῖον φθονερόν, como no livro I); ὁ Πόντος → o Ponto.

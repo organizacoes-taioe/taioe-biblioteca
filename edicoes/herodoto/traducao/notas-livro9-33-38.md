@@ -56,3 +56,7 @@
   «lutas de guerra»). O grego joga com a palavra, que vale para a competição dos jogos e para a batalha; «luta» guarda
   o duplo sentido em português e ainda casa com a queda na luta do pentatlo. Alternativas: «disputas» (mais neutro,
   mas soa menos à guerra) ou «combates» («combates atléticos», que força o lado dos jogos).
+
+## Revisão contra o grego
+- 33.3: «tentaram convencê-lo com um pagamento a ser, junto com os reis dos Heraclidas, o guia nas guerras» está truncado e torto (os reis são heraclidas) → «tentaram convencê-lo, mediante pagamento, a ser o comandante nas guerras, junto com os reis heraclidas».
+- 36.1: «trazido pelos espartanos» (ἀγόντων) obscurece o sentido; os espartanos conduziam o exército → «sob o comando dos espartanos» (ou «quando os espartanos comandavam»).

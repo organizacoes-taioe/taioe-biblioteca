@@ -47,3 +47,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 119.1: «em dez mil opiniões não tenho uma só contrária a que o rei teria feito o seguinte» é truncado e difícil → «entre dez mil razões não tenho uma que me impeça de pensar que o rei teria feito o seguinte».
+- 115.4: «não o recebeu de volta» (o grego tem só ἀπέλαβε, «recuperou»): «de volta» repete → «não o recuperou».
+- Números conferidos: 300 mil (113.3), os mil cavaleiros (113.2), 45 dias (115.1), seis filhos do rei dos bisaltas (116.2): corretos. Hidarnes poupado (113.2) e a fala do piloto e de Xerxes (118.3): sentido correto. Nenhum erro de sentido.

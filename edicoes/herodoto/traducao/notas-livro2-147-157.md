@@ -90,3 +90,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 148.4: ficou «[Pois]» entre colchetes no texto (reflexo do [γὰρ] suspeito do grego); o leitor não sabe o que é → tirar o colchete («Ele tem doze pátios cobertos…», sem «pois»; mesma coisa que 116.2).
+- Resto (números, medidas, nomes, sentido): sem divergência.

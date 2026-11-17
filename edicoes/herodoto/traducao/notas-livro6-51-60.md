@@ -49,3 +49,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 56.1: «na partida das expedições» restringe o que o grego diz (en tais exodiais, «nas expedições») → «nas expedições, usam quantas reses quiserem»
+- Números (28 anciãos, 100 escolhidos, dobro das porções, 10 dias de luto, duas quénices e uma cótila), nomes e negações conferem; nenhuma omissão nem acréscimo de sentido.

@@ -53,3 +53,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 33.2: «lá fundaram a cidade de Mesâmbria» acrescenta uma fundação; o grego (oikesan) diz só que foram morar nela → «e foram morar na cidade de Mesâmbria»
+- 23.5: «ele receberia a metade… e tudo o que havia nos campos caberia a Hipócrates» faz parecer duas pessoas; o beneficiário é um só, Hipócrates → «Hipócrates receberia a metade… e ficaria com tudo o que havia nos campos»
+- Números (300 zancleus, 100 rapazes, 2 e 98, 120 meninos), nomes e negações conferem; nenhuma omissão.

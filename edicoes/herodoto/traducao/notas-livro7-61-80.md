@@ -81,3 +81,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+
+- 62.2: «Ánafes» (acento fora da ortografia portuguesa) → «Anafes».
+- 67.1: ἀκινάκας → «espadas curtas», mas em 54.2 o mesmo objeto é «espada persa… _akinakes_» e em 61.1 e 64.2 os punhais são «punhais» → manter um só termo para o akinakes no livro (por exemplo «adaga persa (_akinakes_)»).

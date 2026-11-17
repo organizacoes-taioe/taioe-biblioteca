@@ -51,3 +51,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. Conferidos os números (200 estádios, 195.1; setenta pés e duas braças, 195.3; quatro estádios, 195.4; quatro povos, 197.2; cem e trezentos por um, 198.3; três côvados, 192.2; oito meses, 199.2) e a lista de animais.

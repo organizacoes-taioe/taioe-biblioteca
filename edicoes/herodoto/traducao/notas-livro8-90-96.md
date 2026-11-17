@@ -47,3 +47,11 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 90.4 (a pedido): «por ser amigo dos jônios» acrescenta «dos jônios»; o grego diz só φίλος ἐών («sendo amigo»). Godley traz «a friend of the Ionians» e é a leitura natural (os jônios acabam de ser salvos e os fenícios os acusavam) → justificado; a nota 90.4 já avisa. Se quiser estrito: «por ser amigo (dos jônios, subentende-se)» na nota, e no texto manter.
+- 90.4 (fim): «E eles, então, se voltaram contra os fenícios» deixa o sujeito vago (os persas do rei que executam a ordem) → «Então os homens do rei se voltaram contra os fenícios».
+- 94.2: «um barco ligeiro, que não se viu que ninguém o tivesse mandado» é pesado (dupla negação) → «um barco ligeiro, que ninguém apareceu como tendo mandado» ou «sem que se visse quem o mandara».
+- 94.2: «Atena Círade» (Σκιράς): forma pouco comum; conferir com a nota.
+- 92.1: «filho de Crio» (Κριοῦ, patronímico): correto; conferir se a forma «Crio» consta das convenções.
+- Números conferidos: 10 mil dracmas (93.2). Fílaco e Histieu: ver divergência «Fílaco/Filaco» do fim. Nenhum erro de sentido.

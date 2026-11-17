@@ -35,3 +35,7 @@
 - 36.1, o jogo ὑπερβόρεοι / ὑπερνότιοι («além do vento norte» / «além do vento sul»): adotei «hiperbóreos… hipernótios»,
   que guarda a ironia mas pede que o leitor conheça o grego. Alternativa: «se há homens além do vento norte, há também
   outros além do vento sul», que perde o nome dos hiperbóreos (ou uma nota de rodapé, no site).
+
+## Revisão contra o grego
+- 35.2: «eles mesmos lhes deram outras honras» é ambíguo (parece ser os deuses); no grego quem deu as honras são os délios (σφέων) → «e os délios lhes deram outras honras».
+- 28.1: «se derramares água, não farás lama, mas, se acenderes fogo, farás lama» usa a 2ª pessoa do singular (tu), estranha no resto do texto → «se se derramar água, não se faz lama, mas, se se acende fogo, faz-se lama» (ou «quem derramar água não fará lama, mas quem acender fogo fará»).

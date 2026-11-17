@@ -35,3 +35,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 8.1: «Cílias de Escione» foge de CONVENCOES.md («Cílias de Cione»); conferir a forma nas partes 8.1 e 92 → uniformizar (Cione ou Escione, uma só).
+- 6.2: δῆθεν («supostamente») virou «é claro», que parece afirmar que os gregos iam mesmo escapar; é o pensamento dos persas → «e eles, pensavam, iam escapar».
+- 11.2: «Gorgo, rei de Salamina»: o grego é Górgis/Gorgos, rei da Salamina de Chipre (a Gorgo espartana é mulher) → conferir a forma do livro V e dizer «Salamina de Chipre» (ou pôr nas notas).
+- Números conferidos: 200 navios mandados em volta (7.1), 30 tomados (11.2), 80 estádios (8.2), 53 navios áticos (14.1): corretos. Sem omissões nem negações trocadas.

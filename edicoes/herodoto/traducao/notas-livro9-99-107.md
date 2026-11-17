@@ -112,3 +112,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 101.3: «esse augúrio voou até eles» (κληδών) — «augúrio» é rara e a palavra é a mesma voz de 100.1 → «esse presságio», ou «essa notícia», como a «voz» de 100.1.
+- 102.3 e 105.1: «os de Trezena» → o `CONVENCOES.md` fixa o povo como **trezênios**: «os trezênios».
+- 100.1: «um caduceu caído na beira da água» — o grego diz só «posto, jazendo» → «um caduceu deitado na beira da água».
+- Resto (99–107) conferido seção por seção: números (quinhentas cabeças, sessenta mil já em 96, dois generais que fogem e dois que morrem), nomes e negações corretos; sem omissão.

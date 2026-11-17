@@ -23,11 +23,13 @@ META = {
             'história dos seus reis, das pirâmides até Amásis, contada pelo que Heródoto viu e ouviu dos sacerdotes. O livro III, _Tália_, é o de Cambises e de Dario: a '
             'conquista do Egito e a loucura de Cambises, Polícrates de Samos, o mago que tomou o trono, os sete persas e o '
             'debate sobre a melhor forma de governo, as satrapias e os tributos do império, os confins da terra (a Índia e a '
-            'Arábia), o médico Democedes e a revolta de Babilônia.\n\n'
-            '**Em partes.** Por enquanto estão aqui os livros I a III; os outros seis vêm depois, um a um, com as mesmas '
+            'Arábia), o médico Democedes e a revolta de Babilônia. O livro IV, _Melpômene_, é o dos citas e o da Líbia: a origem, a terra, os rios e os '
+            'costumes dos citas e dos povos vizinhos (as amazonas entre eles), a expedição de Dario contra eles, que volta pela ponte do '
+            'Istro, e, do outro lado do mundo, a fundação de Cirene, os povos da Líbia e o cerco de Barca.\n\n'
+            '**Em partes.** Por enquanto estão aqui os livros I a IV; os outros cinco vêm depois, um a um, com as mesmas '
             'convenções.\n\n'
             '**A divisão.** Os capítulos e as seções são os da numeração usual (as pequenas marcas no texto: 5.2 é o '
-            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II e 160 no III (no II, a história '
+            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II, 160 no III e 205 no IV (no II, a história '
             'de Rampsinito, o capítulo 121, se divide em 121α a 121ζ). Os grupos de capítulos e os títulos '
             'deles são desta edição, para a leitura em partes.\n\n'
             '**A tradução.** Do grego, em português do Brasil, fiel ao sentido e à ordem das ideias, sem acréscimos, com o '
@@ -35,15 +37,16 @@ META = {
             'e o «pelo que eu soube» com que ele separa o que viu, o que ouviu e o que pensa. Os nomes estão na forma '
             'portuguesa usual. Os oráculos em verso vão em verso livre, linha por linha. O que Godley imprime entre colchetes, '
             'por julgar acréscimo de copista, vai entre colchetes também na tradução (no livro I, 148.2, 167.1, 180.4, 196.5; '
-            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1); onde o texto se perdeu, «…» (I 92.2, '
-            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1).\n\n'
+            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; o IV não tem); onde o texto se perdeu, «…» (I 92.2, '
+            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1; IV 47.2, 149.2).\n\n'
             '**O original.** O grego, no botão «Grego», é o da edição de A. D. Godley (_Herodotus_, coleção Loeb: vol. I, '
-            '1920, com os livros I e II; vol. II, 1921, com o III), em domínio público. Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por '
+            '1920, com os livros I e II; vol. II, 1921, com o III e o IV), em domínio público. Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por '
             'palavra, com duas leituras do fac-símile da edição (a impressão de 1921 e uma reimpressão das mesmas chapas); '
             'corrigimos pela imagem, no livro I, uns 40 erros de digitação (letras trocadas, palavras juntas ou partidas, uma '
             'oração repetida em 153.1) e cerca de 280 acentos; no livro II, 16 palavras com letras trocadas, duas palavras '
             'que faltavam (47.1, 113.3) e 21 acentos; no livro III, 10 palavras com letras trocadas (quase todas formas jônicas, '
-            'como ἐκέετο e τράπουσι), uma palavra que faltava (21.2) e uns 40 acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
+            'como ἐκέετο e τράπουσι), uma palavra que faltava (21.2) e uns 40 acentos; no livro IV, 20 palavras com letras trocadas, uma que faltava (119.4) e uns 116 '
+            'acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
             'ao lado do grego na edição Loeb, serviu só para conferir o sentido.'),
         'fontes': [
             {'nome': 'A. D. Godley, Herodotus, vol. I (Loeb, 1920), impressão de 1921, no Internet Archive',
@@ -51,7 +54,7 @@ META = {
              'nota': 'fac-símile do texto grego (livros I e II nas páginas pares); conferência das correções'},
             {'nome': 'A. D. Godley, Herodotus, vol. II (Loeb, 1921), impressão de 1921, no Internet Archive',
              'url': 'https://archive.org/details/herodotus0002adgo_j1l1',
-             'nota': 'fac-símile do texto grego (livro III nas páginas pares); conferência das correções'},
+             'nota': 'fac-símile do texto grego (livros III e IV nas páginas pares); conferência das correções'},
             {'nome': 'Perseus Digital Library: Heródoto, Histórias (texto de Godley, CC BY-SA 4.0)',
              'url': 'https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0016/tlg001',
              'nota': 'transcrição do grego de Godley, base do texto ao lado'},
@@ -62,6 +65,7 @@ META = {
 L1 = 'Livro I'
 L2 = 'Livro II'
 L3 = 'Livro III'
+L4 = 'Livro IV'
 PARTES = [
     (L1, 'Proêmio: os raptos (1–5)', ['livro1-1-5.txt']),
     (L1, 'Candaules e Giges (6–14)', ['livro1-6-14.txt']),
@@ -116,4 +120,27 @@ PARTES = [
     (L3, 'Democedes (129–138)', ['livro3-129-138.txt']),
     (L3, 'Silosonte e Samos (139–149)', ['livro3-139-149.txt']),
     (L3, 'A revolta de Babilônia e Zópiro (150–160)', ['livro3-150-160.txt']),
+    # livro IV (Melpômene)
+    (L4, 'Dario contra os citas; as origens dos citas (1–12)', ['livro4-1-12.txt']),
+    (L4, 'Aristeas e os povos do norte (13–27)', ['livro4-13-27.txt']),
+    (L4, 'O inverno da Cítia e os hiperbóreos (28–36)', ['livro4-28-36.txt']),
+    (L4, 'As partes da terra (37–45)', ['livro4-37-45.txt']),
+    (L4, 'Os rios da Cítia (46–58)', ['livro4-46-58.txt']),
+    (L4, 'Os deuses e a guerra dos citas (59–66)', ['livro4-59-66.txt']),
+    (L4, 'Adivinhos, juramentos e funerais dos citas (67–75)', ['livro4-67-75.txt']),
+    (L4, 'Anacársis e Cíles (76–82)', ['livro4-76-82.txt']),
+    (L4, 'A ponte do Bósforo e a marcha pela Trácia (83–92)', ['livro4-83-92.txt']),
+    (L4, 'Os getas e Zalmóxis; a ponte do Istro (93–98)', ['livro4-93-98.txt']),
+    (L4, 'A Cítia e os seus vizinhos (99–109)', ['livro4-99-109.txt']),
+    (L4, 'As amazonas e os saurômatas (110–117)', ['livro4-110-117.txt']),
+    (L4, 'Os citas recuam diante de Dario (118–125)', ['livro4-118-125.txt']),
+    (L4, 'Idantirso e os presentes dos citas (126–135)', ['livro4-126-135.txt']),
+    (L4, 'Os jônios na ponte e a volta de Dario (136–144)', ['livro4-136-144.txt']),
+    (L4, 'Os mínios e Tera (145–149)', ['livro4-145-149.txt']),
+    (L4, 'Bato e a fundação de Cirene (150–158)', ['livro4-150-158.txt']),
+    (L4, 'Os reis de Cirene e Feretima (159–167)', ['livro4-159-167.txt']),
+    (L4, 'Os povos da Líbia (168–180)', ['livro4-168-180.txt']),
+    (L4, 'As colinas de sal e os povos do deserto (181–190)', ['livro4-181-190.txt']),
+    (L4, 'A Líbia ocidental (191–199)', ['livro4-191-199.txt']),
+    (L4, 'O cerco de Barca e o fim de Feretima (200–205)', ['livro4-200-205.txt']),
 ]

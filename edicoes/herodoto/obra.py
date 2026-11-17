@@ -34,22 +34,25 @@ META = {
             'Maratona, os alcmeônidas e o casamento de Agariste, e o fim de Milcíades. O livro VII, _Polímnia_, é o da expedição de '
             'Xerxes: o conselho e os sonhos que o levam à guerra, o canal do Atos e as pontes do Helesponto, a marcha, o '
             'catálogo dos povos do exército e da frota, a conversa com Demarato, os gregos que tomaram o partido dos medos, o '
-            'oráculo do muro de madeira, Gelão de Siracusa, o Artemísio e a batalha das Termópilas.\n\n'
-            '**Em partes.** Por enquanto estão aqui os livros I a VII; os outros dois vêm depois, um a um, com as mesmas '
+            'oráculo do muro de madeira, Gelão de Siracusa, o Artemísio e a batalha das Termópilas. O livro VIII, _Urânia_, é o '
+            'de Salamina: as batalhas do Artemísio, o ataque a Delfos, Atenas abandonada e a acrópole tomada, os conselhos dos '
+            'gregos e de Xerxes, a batalha de Salamina, a volta de Xerxes, Temístocles em Andros, e Alexandre da Macedônia, '
+            'que leva aos atenienses a proposta de Mardônio, e a resposta deles.\n\n'
+            '**Em partes.** Por enquanto estão aqui os livros I a VIII; o IX vem depois, um a um, com as mesmas '
             'convenções.\n\n'
             '**A divisão.** Os capítulos e as seções são os da numeração usual (as pequenas marcas no texto: 5.2 é o '
-            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II, 160 no III, 205 no IV, 126 no V, 140 no VI e 239 no VII (no II, a história '
-            'de Rampsinito, o capítulo 121, se divide em 121α a 121ζ; no V, o discurso de Sosícles, o capítulo 92, em 92α a 92η; no VI, a história de Glauco, o capítulo 86, em 86α a 86δ; no VII, os discursos do conselho de Xerxes, em 8α a 8δ, 9α a 9γ e 10α a 10θ, e a resposta de Artabano, em 16α a 16γ). Os grupos de capítulos e os títulos '
+            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II, 160 no III, 205 no IV, 126 no V, 140 no VI, 239 no VII e 144 no VIII (no II, a história '
+            'de Rampsinito, o capítulo 121, se divide em 121α a 121ζ; no V, o discurso de Sosícles, o capítulo 92, em 92α a 92η; no VI, a história de Glauco, o capítulo 86, em 86α a 86δ; no VII, os discursos do conselho de Xerxes, em 8α a 8δ, 9α a 9γ e 10α a 10θ, e a resposta de Artabano, em 16α a 16γ; no VIII, o discurso de Temístocles, em 60α a 60γ, o conselho de Artemísia, em 68α a 68γ, e a mensagem de Mardônio e o discurso de Alexandre, em 140α e 140β). Os grupos de capítulos e os títulos '
             'deles são desta edição, para a leitura em partes.\n\n'
             '**A tradução.** Do grego, em português do Brasil, fiel ao sentido e à ordem das ideias, sem acréscimos, com o '
             'andamento de quem conta em voz alta, que é o de Heródoto: as fórmulas que abrem e fecham cada história, o «dizem» '
             'e o «pelo que eu soube» com que ele separa o que viu, o que ouviu e o que pensa. Os nomes estão na forma '
             'portuguesa usual. Os oráculos em verso vão em verso livre, linha por linha. O que Godley imprime entre colchetes, '
             'por julgar acréscimo de copista, vai entre colchetes também na tradução (no livro I, 148.2, 167.1, 180.4, 196.5; '
-            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; o IV e o V não têm; no VI, 111.2 e o capítulo 122 inteiro; o VII não tem); onde o texto se perdeu, «…» (I 92.2, '
-            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1; IV 47.2, 149.2; o V não tem; VI 64.1; VII 61.1, 76.1, 154.1).\n\n'
+            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; o IV e o V não têm; no VI, 111.2 e o capítulo 122 inteiro; o VII não tem; no VIII, 104.1 a 105.1); onde o texto se perdeu, «…» (I 92.2, '
+            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1; IV 47.2, 149.2; o V não tem; VI 64.1; VII 61.1, 76.1, 154.1; VIII 124.2).\n\n'
             '**O original.** O grego, no botão «Grego», é o da edição de A. D. Godley (_Herodotus_, coleção Loeb: vol. I, '
-            '1920, com os livros I e II; vol. II, 1921, com o III e o IV; vol. III, 1922, com o V, o VI e o VII), em domínio público. Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por '
+            '1920, com os livros I e II; vol. II, 1921, com o III e o IV; vol. III, 1922, com o V, o VI e o VII; vol. IV, 1924, com o VIII e o IX), em domínio público. Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por '
             'palavra, com duas leituras do fac-símile da edição (a primeira impressão de cada volume e uma reimpressão das mesmas chapas); '
             'corrigimos pela imagem, no livro I, uns 40 erros de digitação (letras trocadas, palavras juntas ou partidas, uma '
             'oração repetida em 153.1) e cerca de 280 acentos; no livro II, 16 palavras com letras trocadas, duas palavras '
@@ -58,7 +61,8 @@ META = {
             'acentos; no livro V, 13 palavras com letras trocadas, juntas ou partidas, uma que faltava (29.2), os parênteses de 67.3 e uns 25 acentos; no livro VI, 15 palavras com letras trocadas, duas que faltavam (53.2, 138.2), '
             'os parênteses de 69.4 e 109 e uns 35 acentos; no livro VII, 16 palavras com letras trocadas (uma delas, Κάδμος em '
             '164.1, erro tipográfico do próprio Godley), seis que faltavam (8γ.2, 16γ.1, 19.2, 111.2, 176.4, 219.1), os '
-            'parênteses de 205.1 e uns 40 acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
+            'parênteses de 205.1 e uns 40 acentos; no livro VIII, 9 palavras com letras trocadas, uma que faltava (74.2) e '
+            'uma a mais (2.1), os parênteses de 67.1 e 75.2 e uns 15 acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
             'ao lado do grego na edição Loeb, serviu só para conferir o sentido.'),
         'fontes': [
             {'nome': 'A. D. Godley, Herodotus, vol. I (Loeb, 1920), impressão de 1921, no Internet Archive',
@@ -70,6 +74,9 @@ META = {
             {'nome': 'A. D. Godley, Herodotus, vol. III (Loeb, 1922), impressão de 1922, no Internet Archive',
              'url': 'https://archive.org/details/in.ernet.dli.2015.183370',
              'nota': 'fac-símile do texto grego (livros V, VI e VII nas páginas pares); conferência das correções'},
+            {'nome': 'A. D. Godley, Herodotus, vol. IV (Loeb, 1924), impressão de 1924, no Internet Archive',
+             'url': 'https://archive.org/details/bwb_Y0-DUM-764',
+             'nota': 'fac-símile do texto grego (livros VIII e IX nas páginas pares); conferência das correções'},
             {'nome': 'Perseus Digital Library: Heródoto, Histórias (texto de Godley, CC BY-SA 4.0)',
              'url': 'https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0016/tlg001',
              'nota': 'transcrição do grego de Godley, base do texto ao lado'},
@@ -84,6 +91,7 @@ L4 = 'Livro IV'
 L5 = 'Livro V'
 L6 = 'Livro VI'
 L7 = 'Livro VII'
+L8 = 'Livro VIII'
 PARTES = [
     (L1, 'Proêmio: os raptos (1–5)', ['livro1-1-5.txt']),
     (L1, 'Candaules e Giges (6–14)', ['livro1-6-14.txt']),
@@ -218,4 +226,23 @@ PARTES = [
     (L7, 'Efialtes e a última luta (213–225)', ['livro7-213-225.txt']),
     (L7, 'Os que se distinguiram; os epitáfios (226–233)', ['livro7-226-233.txt']),
     (L7, 'Demarato e o corpo de Leônidas (234–239)', ['livro7-234-239.txt']),
+    # livro VIII (Urânia)
+    (L8, 'A frota grega no Artemísio (1–5)', ['livro8-1-5.txt']),
+    (L8, 'As primeiras batalhas no Artemísio e a tempestade (6–14)', ['livro8-6-14.txt']),
+    (L8, 'A última batalha no Artemísio; os mortos das Termópilas (15–26)', ['livro8-15-26.txt']),
+    (L8, 'Os fócios e o ataque a Delfos (27–39)', ['livro8-27-39.txt']),
+    (L8, 'Atenas abandonada; a frota em Salamina (40–48)', ['livro8-40-48.txt']),
+    (L8, 'O conselho em Salamina; a tomada da acrópole (49–55)', ['livro8-49-55.txt']),
+    (L8, 'Temístocles convence Euribíades (56–64)', ['livro8-56-64.txt']),
+    (L8, 'A visão de Diceu; o conselho de Xerxes e Artemísia (65–69)', ['livro8-65-69.txt']),
+    (L8, 'O muro do istmo, a mensagem de Sicino e Aristides (70–82)', ['livro8-70-82.txt']),
+    (L8, 'A batalha de Salamina (83–89)', ['livro8-83-89.txt']),
+    (L8, 'O fim da batalha (90–96)', ['livro8-90-96.txt']),
+    (L8, 'Xerxes decide voltar; Hermótimo (97–107)', ['livro8-97-107.txt']),
+    (L8, 'Temístocles e Andros (108–112)', ['livro8-108-112.txt']),
+    (L8, 'A volta de Xerxes (113–120)', ['livro8-113-120.txt']),
+    (L8, 'Os prêmios; Artabazo em Potideia e Olinto (121–129)', ['livro8-121-129.txt']),
+    (L8, 'As frotas em Samos e em Delos; Mardônio e os oráculos (130–135)', ['livro8-130-135.txt']),
+    (L8, 'Alexandre da Macedônia e os seus antepassados (136–139)', ['livro8-136-139.txt']),
+    (L8, 'A resposta dos atenienses (140–144)', ['livro8-140-144.txt']),
 ]

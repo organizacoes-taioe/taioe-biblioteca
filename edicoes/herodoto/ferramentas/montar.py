@@ -311,7 +311,7 @@ PARTES8 = [
     ((49, 55), 'O conselho em Salamina; a tomada da acrópole'),
     ((56, 64), 'Temístocles convence Euribíades'),
     ((65, 69), 'A visão de Diceu; o conselho de Xerxes e Artemísia'),
-    ((70, 82), 'O muro do Istmo, a mensagem de Sicino e Aristides'),
+    ((70, 82), 'O muro do istmo, a mensagem de Sicino e Aristides'),
     ((83, 89), 'A batalha de Salamina'),
     ((90, 96), 'O fim da batalha'),
     ((97, 107), 'Xerxes decide voltar; Hermotimo'),

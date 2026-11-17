@@ -1,6 +1,6 @@
 {
  "id": "herodoto-historias",
- "rotulo": "Histórias, livros I a VII (Heródoto)",
+ "rotulo": "Histórias, livros I a VIII (Heródoto)",
  "url": "/biblioteca/herodoto/historias/",
  "escolhas": [
   {
@@ -501,6 +501,49 @@
      "id": "b",
      "texto": "«Hóspede, vai dizer aos lacedemônios…»",
      "nota": "A palavra que usamos para ξεῖνε no resto das Histórias."
+    }
+   ]
+  },
+  {
+   "id": "l8-ser-grego",
+   "titulo": "Os atenienses a Esparta: «o ser grego, que é do mesmo sangue e da mesma língua»?",
+   "ref": "VIII 144.2",
+   "contexto": "Na resposta final dos atenienses, a segunda razão para não se aliarem aos persas é τὸ Ἑλληνικόν, um neutro abstrato («o que é grego»), definido logo depois: o mesmo sangue, a mesma língua, os santuários e sacrifícios comuns, os costumes iguais. É uma das definições mais citadas do que é ser grego.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«e depois o ser grego, que é do mesmo sangue e da mesma língua», como está",
+     "nota": "Guarda o abstrato do grego, sem pôr uma palavra que ele não tem.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«e depois a gente grega, que é do mesmo sangue e da mesma língua»",
+     "nota": "Lê-se melhor com «do mesmo sangue», mas faz do abstrato um povo."
+    },
+    {
+     "id": "c",
+     "texto": "«e depois a nação grega…»",
+     "nota": "A forma de muitas traduções; põe uma ideia política que o grego não tem."
+    }
+   ]
+  },
+  {
+   "id": "l8-donzela",
+   "titulo": "Os mistérios de Elêusis: «para a Mãe e a Donzela»?",
+   "ref": "VIII 65.4",
+   "contexto": "Heródoto diz que os atenienses celebram a festa todos os anos «para a Mãe e a Κούρη»: Deméter e a filha, Perséfone, que ele não nomeia. Κούρη quer dizer «moça, donzela» e é também o nome de culto da deusa (Coré).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«para a Mãe e a Donzela», como está",
+     "nota": "O sentido da palavra; entende-se sem nota, e Heródoto também não dá o nome.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«para a Mãe e a Coré»",
+     "nota": "O nome de culto, usual nos estudos, mas pede nota."
     }
    ]
   }

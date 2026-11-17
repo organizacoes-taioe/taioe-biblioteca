@@ -11,7 +11,7 @@
   também «Ápis» em português: no contexto não há confusão); Amon (o oráculo).
 - Medidas: esqueno (σχοῖνος, 6.3: a explicação é dele), parasanga, braça, estádio, côvado (CONVENCOES).
 - ἡ Ἐρυθρὴ θάλασσα → mar Vermelho; ἡ βορηίη θάλασσα → mar do Norte; ἡ νοτίη → mar do Sul (11.3, o par de Heródoto).
-- ἐπίκτητος γῆ (5.1, 10.1) → «terra ganha»; δῶρον τοῦ ποταμοῦ → «presente do rio» (a frase célebre).
+- ἐπίκτητος γῆ (5.1, 10.1) → «terra ganha»; δῶρον τοῦ ποταμοῦ → «dádiva do rio» (a frase célebre, na forma em que é conhecida; ver `revisao.json`).
 - ἐμβόλιμος (4.1) → «acrescentam um mês»; διὰ τρίτου ἔτεος → «a cada dois anos» (contagem inclusiva grega).
 
 ## Passagens
@@ -30,3 +30,13 @@
 - 11.4: ἐντός («dentro de vinte mil anos», «dentro de dez mil») perdido na primeira ocorrência: «o golfo se encha de terra em vinte mil anos» → «o golfo se encha de terra dentro de vinte mil anos».
 - 16.2: sujeito ambíguo: «o Nilo se parte na ponta desse Delta, de modo que ele ficaria entre a Ásia e a Líbia» (no grego, o que ficaria no meio é o Delta) → «de modo que o Delta ficaria entre a Ásia e a Líbia».
 - 5–18, resto: Nenhuma correção necessária (números e medidas conferidos: 11 braças, 60 esquenos, 3600, 4860 = 81 esquenos, 6120, 1800, 14 dias, 200 estádios, 40 dias, 20 000/10 000 anos, 900 anos, 8 e 16/15 côvados).
+
+## Uniformização do livro II (principal)
+- Aplicado da revisão: 11.4 «dentro de»; 16.2 «o Delta ficaria»; 25.1 «os ventos são frescos» (sem a negação que não
+  está no grego); 42.4 o verbo dos amônios; 49.2 o sujeito («esses ritos»); 51.2 «os pelasgos»; 100.2 «a rainha
+  babilônia»; 115.4 «seduziste a mulher»; 120.4 «fazer a vontade do irmão»; 174.1 «o oráculo da terra de cada um».
+- Não aplicado: 83.1 (μαντηίαι, «os modos de adivinhar», é o sentido; Godley também); 143.2 «tantos quantos eu disse»
+  (εἶπον pode ser 1ª do singular, e Godley entende assim); 116.2 e 148.4 os colchetes de Godley ficam (CONVENCOES).
+- Nomes: Sídon → Sidônia em todo o livro (116, 161); 42.5 _Amun_ → _Amon_ (a palavra egípcia que ele cita, ligada a
+  «amônios»). 5.1 «dádiva do rio» (`revisao.json`). Decisões novas no `revisao.json`: dádiva × presente (5.1),
+  cavalos do rio × hipopótamos (71.1), distrito × nomo.

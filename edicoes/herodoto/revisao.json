@@ -1,6 +1,6 @@
 {
  "id": "herodoto-historias",
- "rotulo": "Histórias, livro I (Heródoto)",
+ "rotulo": "Histórias, livros I e II (Heródoto)",
  "url": "/biblioteca/herodoto/historias/",
  "escolhas": [
   {
@@ -177,6 +177,63 @@
      "id": "c",
      "texto": "«O que sofri, e foi amargo, me ensinou»",
      "nota": "Mais curto; procura um pouco do eco entre «sofri» e «ensinou»."
+    }
+   ]
+  },
+  {
+   "id": "l2-dadiva",
+   "titulo": "«O Egito é uma dádiva do rio»: «dádiva» ou «presente»?",
+   "ref": "II 5.1",
+   "contexto": "Heródoto diz que o Egito é para os egípcios ἐπίκτητός τε γῆ καὶ δῶρον τοῦ ποταμοῦ: uma terra ganha (acrescentada) e um δῶρον do rio. A frase ficou célebre; em português costuma correr como «o Egito é uma dádiva do Nilo».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«uma terra ganha e uma dádiva do rio», como está",
+     "nota": "A forma em que a frase é conhecida em português.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«uma terra ganha e um presente do rio»",
+     "nota": "Palavra mais comum; a frase perde o eco da citação conhecida."
+    }
+   ]
+  },
+  {
+   "id": "l2-cavalos-do-rio",
+   "titulo": "Os «cavalos do rio» ou os «hipopótamos»?",
+   "ref": "II 71.1",
+   "contexto": "Heródoto descreve um animal que chama ἵπποι ποτάμιοι, «cavalos do rio» (de onde vem a nossa palavra hipopótamo), com crina e cauda de cavalo, casco fendido e o tamanho de um boi grande: descreve-o como bicho que o leitor grego não conhecia.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Os cavalos do rio são sagrados para o distrito de Papremis», como está",
+     "nota": "O nome que Heródoto dá; a descrição (crina e cauda de cavalo) faz sentido com ele.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Os hipopótamos são sagrados…»",
+     "nota": "O leitor reconhece logo o animal, mas perde-se o nome de Heródoto e a graça da descrição."
+    }
+   ]
+  },
+  {
+   "id": "l2-distrito",
+   "titulo": "As divisões do Egito: «distrito» ou «nomo»?",
+   "ref": "II 4.3 (e 42.1, 164–166, 177.2)",
+   "contexto": "O Egito se dividia em províncias que os gregos chamavam νομοί. Os livros de história do Egito em português usam o termo técnico «nomo»; a tradução usa a palavra comum «distrito» (o distrito de Tebas, de Papremis, de Sais; νομάρχης → «governador do distrito»).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«distrito», como está",
+     "nota": "Palavra comum, entendida sem nota.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«nomo»",
+     "nota": "O termo dos egiptólogos; pediria nota de vocabulário em cada parte."
     }
    ]
   }

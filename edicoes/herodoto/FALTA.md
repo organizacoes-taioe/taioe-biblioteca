@@ -1,7 +1,36 @@
 # Heródoto, Histórias: estado
 
-Livros I a III no ar (PRs #100, #113 e #115). Livro IV pronto na branch `pedido-herodoto-4` (worktree
-`~/.cache/claude-wt5-herodoto-4`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+Livros I a IV no ar (PRs #100, #113, #115 e #116). Livro V pronto na branch `pedido-herodoto-5` (worktree
+`~/.cache/claude-wt5-herodoto-5`); livro VI pronto na `pedido-herodoto-6` (worktree `~/.cache/claude-wt5-herodoto-6`),
+que parte da `pedido-herodoto-5` e a contém: basta juntar a do VI. Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+
+## Livro VI (Érato): pronto (2026-11-17)
+- Grego montado e conferido (`original/livro6-*.txt`, 14 partes; `original/LEIAME.md`, «Livro VI»): mesmo PDF do vol. III
+  (p. 164–312; OCR em `ocr6/`, páginas em `pag6/`, pranchas em `ver6/`); `colacao.py . 6`, `acentos.py . 6`,
+  `montar.py . <obra> 6`. 15 palavras com letras trocadas, duas que faltavam (53.2, 138.2), os parênteses de 69.4 e 109,
+  37 acentos; 31 pontos vistos nas imagens. Marcas 86α–86δ (Glauco). Colchetes em 111.2 e no capítulo 122 inteiro.
+- Tradução por quatro tradutores Opus em sequência; revisão contra o grego por dois revisores Sonnet (registro no fim de
+  cada `traducao/notas-livro6-*.md`); o que se aplicou em `traducao/notas-livro6-1-10.md`. `CONVENCOES.md`, seção
+  «Livro VI», acertada pelos nomes da tradução.
+- `obra.py` (100 partes; a «Sobre» com o livro VI), `revisao.json` (+3 decisões: «carneiro» no jogo com Crio, 50.3;
+  «Sépeia» × «Hesipeia», 77.1; «Hipoclides não se importa», 129.4; recomendação aplicada, nada muda no ar), vocabulário
+  (+12 verbetes, 138 no total, `conferir` ok), `conteudo/` gerado. `gerar.mjs` e `conferir.mjs` sem erro; os endereços
+  dos livros I a V não mudam.
+
+## Livro V (Terpsícore): pronto (2026-11-17)
+- Grego montado e conferido (`original/livro5-*.txt`, 13 partes; `original/LEIAME.md`, «Livro V»). Fonte nova: o vol. III
+  de Godley, 1ª impressão de 1922 (IA `in.ernet.dli.2015.183370`, PDF em `dl5/`, OCR em `ocr5/`, páginas em `pag5/`,
+  pranchas em `ver5/`); 2ª leitura `dl5/herodotus19203hero.txt` (reimpressão de 1982). `colacao.py . 5`, `acentos.py . 5`,
+  `montar.py . <obra> 5`, rodados de `~/.cache/claude-pedidos-0511/herodoto/`. 15 correções de letras (com 5.1, erro
+  tipográfico de Godley, e os parênteses de 67.3), 26 acentos; 34 pontos vistos nas imagens. Marcas 92α–92η (Hude; o
+  Perseus escreve 92A–92G): `conferir.py`, `montar.py` e `ferramentas/traducoes.py` aceitam α–η.
+- Tradução: 1–10 pelo principal, o resto por quatro tradutores Opus em sequência; revisão contra o grego por dois
+  revisores Sonnet (registro no fim de cada `traducao/notas-livro5-*.md`); o que se aplicou em
+  `traducao/notas-livro5-1-10.md`. `CONVENCOES.md`, seção «Livro V», acertada pelos nomes da tradução.
+- `obra.py` (86 partes; a «Sobre» com o livro V e o fac-símile do vol. III), `revisao.json` (+3 decisões: «igualdade de
+  palavra», 78.1; «um apedrejador», 67.2; Cípselo «tirado da _kypséle_, a arca», 92ε.1; recomendação aplicada, nada muda
+  no ar), vocabulário (+11 verbetes, 126 no total, `conferir` ok), `conteudo/` gerado. `gerar.mjs` e `conferir.mjs` sem
+  erro; os endereços dos livros I a IV não mudam.
 
 ## Livro IV (Melpômene): pronto (2026-11-16)
 - Grego montado e conferido (`original/livro4-*.txt`, 22 partes; `original/LEIAME.md`, «Livro IV»): mesmo PDF do vol. II
@@ -47,7 +76,7 @@ Livros I a III no ar (PRs #100, #113 e #115). Livro IV pronto na branch `pedido-
 - Mudança comum: `ferramentas/traducoes.py` aceita marca `[121α.1]` (letra grega depois do capítulo).
 
 ## Livro seguinte (como continuar)
-- O livro V está no vol. III de Godley (Loeb, 1922; Godley morreu em 1925): achar o fac-símile de 1922 no Internet
-  Archive (e uma 2ª leitura com OCR grego), acrescentar ao `colacao.py` o recorte do V (O1/O2 do vol. III) e ao
-  `montar.py` o bloco 5 (`ED3`, título «Ε · ΤΕΡΨΙΧΟΡΗ»); o resto como no IV (`extrair.py dl/her-grc2.xml 5 l5.json`).
+- O livro VII está no mesmo vol. III (no PDF `dl5/v3-1922.pdf`, o título «BOOK VII» na p. 315 e o grego nas páginas
+  pares a partir da 316, até o fim do volume); a 2ª leitura, de «BOOK VII» até o índice: acrescentar o recorte do 7 ao
+  `colacao.py` e o bloco 7 ao `montar.py` (`ED3`, título «Η · ΠΟΛΥΜΝΙΑ»). Os livros VIII e IX estão no vol. IV (1925).
 - Notas gerais (lote futuro): livro I, o jogo Κυνώ/Σπακώ (110.1), παθήματα/μαθήματα (207.1), as Musas nos títulos.

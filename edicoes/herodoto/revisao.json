@@ -1,6 +1,6 @@
 {
  "id": "herodoto-historias",
- "rotulo": "Histórias, livros I a IV (Heródoto)",
+ "rotulo": "Histórias, livros I a VI (Heródoto)",
  "url": "/biblioteca/herodoto/historias/",
  "escolhas": [
   {
@@ -310,6 +310,130 @@
      "id": "b",
      "texto": "«peles de cabra… e foi dessas peles de cabra que os gregos tiraram o nome de égides»",
      "nota": "Sem palavra grega; o leitor não vê por que o nome viria daí."
+    }
+   ]
+  },
+  {
+   "id": "l5-isegoria",
+   "titulo": "«A igualdade de palavra é coisa de valor»?",
+   "ref": "V 78.1",
+   "contexto": "Heródoto explica o crescimento de Atenas depois dos tiranos pela ἰσηγορίη: o direito igual de todo cidadão de falar na assembleia. A palavra grega não tem equivalente de uso corrente; no livro III (80.6), ἰσονομίη ficou «igualdade perante a lei».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«a igualdade de palavra é coisa de valor», como está",
+     "nota": "Diz o que a palavra grega diz, no mesmo molde de «igualdade perante a lei».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«a liberdade de palavra é coisa de valor»",
+     "nota": "Mais corrente, mas perde a ideia de igualdade, que é o centro da frase."
+    },
+    {
+     "id": "c",
+     "texto": "«a isegoria é coisa de valor»",
+     "nota": "O termo técnico, que o leitor comum não conhece."
+    }
+   ]
+  },
+  {
+   "id": "l5-apedrejador",
+   "titulo": "A Pítia a Clístenes de Sicione: «Adrasto era rei dos de Sicione, e ele, um apedrejador»?",
+   "ref": "V 67.2",
+   "contexto": "Clístenes quer expulsar de Sicione o culto do herói Adrasto, e a Pítia o insulta com λευστήρ, de λεύω, «apedrejar». A palavra pode ser «o que apedreja» (um qualquer, um homem do povo, frente ao rei) ou «o que merece ser apedrejado».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«e ele, um apedrejador», como está",
+     "nota": "Fiel à forma da palavra; guarda a ambiguidade do insulto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«e ele, um que merece ser apedrejado»",
+     "nota": "Escolhe um dos sentidos; mais claro como insulto."
+    }
+   ]
+  },
+  {
+   "id": "l5-cipselo",
+   "titulo": "O nome de Cípselo: «deram o nome de Cípselo, tirado da _kypséle_, a arca»?",
+   "ref": "V 92ε.1",
+   "contexto": "Labda esconde o filho numa arca (κυψέλη), e por isso ele se chama Κύψελος. Em português, «Cípselo» não lembra «arca», e a razão do nome se perde se só se traduz. A solução segue a de «égide» no livro IV (189.2).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«deram o nome de Cípselo, tirado da _kypséle_, a arca», como está",
+     "nota": "A palavra grega em itálico mostra de onde vem o nome.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«deram o nome de Cípselo, tirado da arca»",
+     "nota": "Sem palavra grega; o leitor não vê o parentesco dos nomes."
+    }
+   ]
+  },
+  {
+   "id": "l6-crio",
+   "titulo": "Cleômenes a Crio: «cobre de bronze os teus chifres, carneiro»?",
+   "ref": "VI 50.3",
+   "contexto": "Crio (Κριός) quer dizer «carneiro» em grego, e Cleômenes faz o jogo com o nome dele: ὦ κριέ, «ó carneiro» ou «ó Crio». Em português o nome e o bicho não se ligam.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«cobre de bronze os teus chifres, carneiro», como está",
+     "nota": "Guarda o insulto e a imagem dos chifres; o leitor liga ao nome pelo contexto (ele acabou de perguntar o nome).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«cobre de bronze os teus chifres, _krié_, carneiro»",
+     "nota": "A palavra grega em itálico mostra o jogo, como em «égide» e em «Cípselo»; pesa mais na fala."
+    },
+    {
+     "id": "c",
+     "texto": "«cobre de bronze os teus chifres, Crio»",
+     "nota": "Fica o nome; o jogo se perde."
+    }
+   ]
+  },
+  {
+   "id": "l6-sepeia",
+   "titulo": "O lugar da batalha de Cleômenes contra os argivos: «Sépeia»?",
+   "ref": "VI 77.1",
+   "contexto": "O grego de Godley, que vai ao lado, lê Ἡσίπεια («Hesipeia»); os outros editores e os livros de história leem Σήπεια, «Sépeia», que é a forma conhecida do lugar, perto de Tirinto.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Sépeia», como está",
+     "nota": "A forma usual em português e nos livros de história.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Hesipeia»",
+     "nota": "Igual ao grego ao lado; forma que só a edição de Godley tem."
+    }
+   ]
+  },
+  {
+   "id": "l6-hipoclides",
+   "titulo": "A resposta de Hipoclides: «Hipoclides não se importa»?",
+   "ref": "VI 129.4",
+   "contexto": "Hipoclides, o pretendente favorito de Agariste, dança de cabeça para baixo no banquete, e Clístenes lhe diz que ele dançou fora o casamento. Ele responde οὐ φροντὶς Ἱπποκλείδῃ, que virou provérbio: «Hipoclides não liga».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Hipoclides não se importa», como está",
+     "nota": "Curto, com o nome na frente, como um provérbio.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Pouco importa a Hipoclides»",
+     "nota": "Mais perto da construção grega («não há preocupação para Hipoclides»)."
     }
    ]
   }

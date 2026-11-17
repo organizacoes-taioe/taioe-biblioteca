@@ -3,7 +3,8 @@ Uso: montar.py <pasta-trabalho> <pasta-obra> [livro=1]
 Ordem: extrair.py (l<n>.json) → graves.py (regras dos acentos) → colacao.py → acentos.py → este script, que aplica
 CORR (letras, conferidas nas imagens), os acentos aceitos (acentos-aceitos.tsv no livro I, acentos-aceitos-l<n>.tsv
 nos outros, copiados em ferramentas/) e ACENTOS (os conferidos à mão). Cada livro tem o seu bloco em LIVROS.
-Os capítulos 121A–121F do Perseus (livro II, a história de Rampsinito) saem como 121α–121ζ, a numeração de Hude."""
+Os capítulos 121A–121F do Perseus (livro II, a história de Rampsinito) saem como 121α–121ζ, a numeração de Hude;
+no livro V, 92A–92G (o discurso de Sosícles) saem como 92α–92η."""
 import json, os, re, sys, unicodedata as u
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from graves import corrigir
@@ -131,10 +132,83 @@ PARTES4 = [((1, 12), 'Dario contra os citas; as origens dos citas'), ((13, 27), 
            ((150, 158), 'Bato e a fundação de Cirene'), ((159, 167), 'Os reis de Cirene e Feretima'),
            ((168, 180), 'Os povos da Líbia'), ((181, 190), 'As colinas de sal e os povos do deserto'),
            ((191, 199), 'A Líbia ocidental'), ((200, 205), 'O cerco de Barca e o fim de Feretima')]
+# livro V (Terpsícore), no vol. III de Godley (1922)
+CORR5 = [
+    ('9.3', 'Δίγυες', 'Λίγυες'), ('15.2', 'τρέπονται', 'τράπονται'), ('17.2', 'Μακεδονίν', 'Μακεδονίῃ'),
+    ('23.1', 'Ἑλλήποντον', 'Ἑλλήσποντον'), ('29.2', 'τούτους μὲν πόλιν', 'τούτους μὲν τὴν πόλιν'),
+    ('41.1', 'ἔφεδρον', 'ἔπεδρον'), ('52.4', 'ἐς βάλλοντι', 'ἐσβάλλοντι'), ('61.2', 'τρέπονται', 'τράπονται'),
+    ('79.2', 'οὐκ ὦν', 'οὐκῶν'), ('83.3', 'ἱροεργίαι', 'ἱρουργίαι'), ('106.3', 'ἀξιοῦμαι', 'ἀξιεῦμαι'),
+    ('106.4', 'εἴ περ', 'εἴπερ'), ('59.1', 'ἀμφιτρύων', 'Ἀμφιτρύων'),
+    ('5.1', 'πολλά,·', 'πολλάς·'), ('67.3', 'Κλεισθένης ʽ καὶ γὰρ τοῦτο δεῖ ἀπηγήσασθαἰ ὡς', 'Κλεισθένης (καὶ γὰρ τοῦτο δεῖ ἀπηγήσασθαι) ὡς'),
+]
+ACENTOS5 = [
+    ('30.4', 'φερέγγυός', 'φερέγγυος'), ('30.4', 'εἰμι', 'εἰμὶ'), ('41.2', 'ἀληθεῖ', 'ἀληθέι'),
+    ('49.8', 'ἐχόμενόν', 'ἐχόμενον'), ('49.8', 'ἐστι', 'ἐστὶ'), ('50.2', 'χρὲον', 'χρεὸν'), ('52.3', 'εἱσι', 'εἰσι'),
+    ('80.1', 'χρῇσαι', 'χρῆσαι'), ('86.3', 'τραπέσθαι', 'τράπεσθαι'),
+]
+PARTES5 = [((1, 10), 'Os perintios, os peônios e os trácios'), ((11, 16), 'Histieu, Côes e os peônios levados para a Ásia'),
+           ((17, 27), 'Os macedônios e os enviados persas; Histieu em Susa'),
+           ((28, 38), 'Naxos e o começo da revolta jônica'), ((39, 48), 'Cleômenes e Dorieu'),
+           ((49, 54), 'Aristágoras em Esparta'), ((55, 65), 'Hiparco, os gefireus e a queda dos Pisistrátidas'),
+           ((66, 78), 'Clístenes, Iságoras e as vitórias de Atenas'),
+           ((79, 89), 'Tebas, Egina e as estátuas de Dâmia e Auxésia'), ((90, 96), 'Hípias e o discurso de Sosícles'),
+           ((97, 103), 'Aristágoras em Atenas e o incêndio de Sardes'), ((104, 115), 'A revolta de Chipre'),
+           ((116, 126), 'A Cária, o Helesponto e a morte de Aristágoras')]
+# livro VI (Érato), no vol. III de Godley (1922)
+CORR6 = [
+    ('12.1', 'ἐπιτρέπουσι', 'ἐπιτράπουσι'),
+    ('33.2', 'τρέπονται', 'τράπονται'),
+    ('34.2', 'ἐκτρέπονται', 'ἐκτράπονται'),
+    ('42.1', 'δωσίδικοι', 'δοσίδικοι'),
+    ('53.2', 'ὀρθῷ χρεωμένῳ', 'ὀρθῷ λόγῳ χρεωμένῳ'),
+    ('61.2', 'προσέκειτο', 'προσεκέετο'),
+    ('71.2', 'Δευτυχίδης', 'Λευτυχίδης'),
+    ('73.2', 'Κάσαυβον', 'Κάσαμβον'),
+    ('77.1', 'κεῖται', 'κέεται'),
+    ('91.2', 'ἐπισπαστῆρσι', 'ἐπισπάστροισι'),
+    ('98.3', 'ἐρξίης', 'ἐρξείης'),
+    ('100.3', 'φράξει', 'φράζει'),
+    ('119.3', 'τρέπεται', 'τράπεται'),
+    ('119.4', 'φυλάσοντες', 'φυλάσσοντες'),
+    ('138.2', 'αὐτῶν τινός', 'αὐτῶν ὑπʼ ἐκείνων τινός'),
+    ('139.4', 'κεῖται', 'κέεται'),
+    ('86C.2', 'γλαῦκʼ Ἐπικυδείδη', 'Γλαῦκʼ Ἐπικυδείδη'),
+    ('69.4', 'ʽτὸν χρόνον γάρ, τοὺς δέκα μῆνας, οὐδέκω ἐξήκειν̓', '(τὸν χρόνον γάρ, τοὺς δέκα μῆνας, οὐδέκω ἐξήκειν)'),
+    ('109.1', 'ʽὀλίγους γὰρ εἶναι στρατιῇ τῇ Μήδων συμβάλλειν’', '(ὀλίγους γὰρ εἶναι στρατιῇ τῇ Μήδων συμβάλλειν)'),
+    ('109.2', 'ʽτὸ Παλαιὸν γὰρ Ἀθηναῖοι ὁμόψηφον τὸν πολέμαρχον ἐποιεῦντο τοῖσι στρατηγοῖσἰ', '(τὸ παλαιὸν γὰρ Ἀθηναῖοι ὁμόψηφον τὸν πολέμαρχον ἐποιεῦντο τοῖσι στρατηγοῖσι)'),
+]
+ACENTOS6 = [
+    ('13.2', 'τοὺ', 'τοῦ'),
+    ('28.2', 'Καϊκου', 'Καΐκου'),
+    ('46.3', 'οὓτω', 'οὕτω'),
+    ('46.3', 'ὣστε', 'ὥστε'),
+    ('73.2', 'γένει', 'γένεϊ'),
+    ('74.1', 'τῆ', 'τῇ'),
+    ('91.1', 'οἶοί', 'οἷοί'),
+    ('108.3', 'πλησιοχώροισί', 'πλησιοχώροισι'),
+]
+PARTES6 = [
+    ((1, 10), 'Histieu e a frota jônica em Lade'),
+    ((11, 21), 'A batalha de Lade e a queda de Mileto'),
+    ((22, 33), 'Os sâmios em Zancle; a morte de Histieu'),
+    ((34, 41), 'Os Milcíades no Quersoneso'),
+    ((42, 50), 'Mardônio, Tasos e os arautos de Dario'),
+    ((51, 60), 'Os reis de Esparta'),
+    ((61, 72), 'Demarato e Leotíquides'),
+    ((73, 84), 'A loucura e a morte de Cleômenes'),
+    ((85, 93), 'Glauco e a guerra com Egina'),
+    ((94, 101), 'Dátis e Artafernes; a tomada de Erétria'),
+    ((102, 110), 'Antes de Maratona'),
+    ((111, 120), 'A batalha de Maratona'),
+    ((121, 131), 'Os alcmeônidas e o casamento de Agariste'),
+    ((132, 140), 'Milcíades em Paros; os pelasgos de Lemnos'),
+]
 ED1 = ('A. D. Godley, Herodotus, vol. I (Loeb, Londres e Nova York, 1920); conferido com o fac-símile da impressão '
        'de 1921 (Internet Archive herodotud0000adgo); ver LEIAME.md')
 ED2 = ('A. D. Godley, Herodotus, vol. II (Loeb, Londres e Nova York, 1921); conferido com o fac-símile da impressão '
        'de 1921 (Internet Archive herodotus0002adgo_j1l1); ver LEIAME.md')
+ED3 = ('A. D. Godley, Herodotus, vol. III (Loeb, Londres e Nova York, 1922); conferido com o fac-símile da 1ª impressão, '
+       '1922 (Internet Archive in.ernet.dli.2015.183370); ver LEIAME.md')
 LIVROS = {1: dict(corr=CORR1, acentos=ACENTOS1, partes=PARTES1, aceitos='acentos-aceitos.tsv', letra='Α',
                   romano='I', titulo='Α · ΚΛΕΙΩ', ncaps=216, edicao=ED1),
           2: dict(corr=CORR2, acentos=ACENTOS2, partes=PARTES2, aceitos='acentos-aceitos-l2.tsv', letra='Β',
@@ -142,10 +216,14 @@ LIVROS = {1: dict(corr=CORR1, acentos=ACENTOS1, partes=PARTES1, aceitos='acentos
           3: dict(corr=CORR3, acentos=ACENTOS3, partes=PARTES3, aceitos='acentos-aceitos-l3.tsv', letra='Γ',
                   romano='III', titulo='Γ · ΘΑΛΕΙΑ', ncaps=160, edicao=ED2),
           4: dict(corr=CORR4, acentos=ACENTOS4, partes=PARTES4, aceitos='acentos-aceitos-l4.tsv', letra='Δ',
-                  romano='IV', titulo='Δ · ΜΕΛΠΟΜΕΝΗ', ncaps=205, edicao=ED2)}
+                  romano='IV', titulo='Δ · ΜΕΛΠΟΜΕΝΗ', ncaps=205, edicao=ED2),
+          5: dict(corr=CORR5, acentos=ACENTOS5, partes=PARTES5, aceitos='acentos-aceitos-l5.tsv', letra='Ε',
+                  romano='V', titulo='Ε · ΤΕΡΨΙΧΟΡΗ', ncaps=126, edicao=ED3),
+          6: dict(corr=CORR6, acentos=ACENTOS6, partes=PARTES6, aceitos='acentos-aceitos-l6.tsv', letra='Ζ',
+                  romano='VI', titulo='Ζ · ΕΡΑΤΩ', ncaps=140, edicao=ED3)}
 L = LIVROS[LIVRO]
 CORR, ACENTOS, PARTES = L['corr'], list(L['acentos']), L['partes']
-SUB = dict(zip('ABCDEF', 'αβγδεζ'))
+SUB = dict(zip('ABCDEFG', 'αβγδεζη'))   # 121A–F (II), 92A–G (V), 86A–D (VI)
 def cap_marca(c):
     return c[:-1] + SUB[c[-1]] if c[-1] in SUB else c
 def cap_num(c):
@@ -221,7 +299,7 @@ for c, secs in d['caps']:
             cur += (' ' if cur else '') + texto.strip()
     if cur.strip(): blocos.append(cur.strip())
     # maiúscula no começo do capítulo, como em Godley
-    m = re.match(r'(\[\d+[α-ζ]?\.\d+\] )(.*)$', blocos[0], re.S)
+    m = re.match(r'(\[\d+[α-η]?\.\d+\] )(.*)$', blocos[0], re.S)
     blocos[0] = m.group(1) + capitular(m.group(2))
     caps[c] = blocos
 falta = [CORR[k] for k in range(len(CORR)) if k not in usadas] + [ACENTOS[k] for k in range(len(ACENTOS)) if k not in ac_usados]

@@ -61,3 +61,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 128.1, 128.3: «Escione» / «os de Escione» (Σκιώνη): igual a 8.1 («Cílias de Escione»), mas CONVENCOES.md traz «Cílias de Cione» → uniformizar no livro (a forma portuguesa corrente é «Escione»; então corrigir a lista, ou usar «Cione» nos dois lugares).
+- 127.1: «os botieus» (Βοττιαῖοι): forma rara; conferir se é a de outros livros (VII) → manter uma só.
+- 124.2: a lacuna do texto grego («…» antes de Euribíades) foi mantida: correto; conferir se a nota a explica.
+- Números conferidos: 12 côvados (121.2), três estrelas de ouro (122.1), 300 cavaleiros espartanos (124.3), 60 mil (126.1), três meses (129.1), duas partes de cinco do caminho (129.2): corretos. Falas de Temístocles a Timodemo e negações: corretas. Nenhum erro de sentido.

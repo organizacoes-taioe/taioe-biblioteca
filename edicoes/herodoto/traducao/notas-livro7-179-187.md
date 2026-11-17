@@ -60,3 +60,6 @@ eles se juntam ainda…»):
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- Nenhuma correção necessária. Conferidos um a um e batem com o grego (e a soma fecha): 1 207 navios da Ásia × 200 = 241 400; 30 soldados de bordo por navio = 36 210; 3 000 pentecônteras × 80 = 240 000; frota 517 610; infantaria 1 700 000; cavalaria 80 000; árabes e líbios 20 000; total da Ásia 2 317 610; Europa: 120 navios = 24 000 e 300 000 de infantaria; combatentes 2 641 610; com a mesma quantidade de servidores, 5 283 220; trigo 110 340 medimnos por dia; onze dias de espera; três navios gregos (Trezena, Egina, Ática) e dez persas.

@@ -37,3 +37,8 @@
 - 81.1 ὀλίγους ὡς Σκύθας εἶναι: «poucos, os que são de fato citas» (Godley: «the true Scythians were but few»; adotei)
   ou «poucos, para citas» (poucos, em comparação com o que se espera de um povo como o cita). As duas leituras se
   defendem no grego.
+
+## Revisão contra o grego
+- 77.1: «foi aprender com a Grécia» (τῆς Ἑλλάδος μαθητής) soa estranho, como se a Grécia fosse a mestra → «foi à Grécia como discípulo» (ou «para estudar na Grécia»).
+- 76.4: τύμπανον vertido «tamborim» (em português, um instrumento específico de samba) → «tambor» (ou «tímpano», o tamborim de mão das festas da Mãe dos Deuses).
+Números (seis vezes, seiscentas ânforas, seis dedos, dois côvados, um mês ou mais) e nomes conferem.

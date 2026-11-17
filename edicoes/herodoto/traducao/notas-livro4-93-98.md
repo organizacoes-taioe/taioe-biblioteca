@@ -37,3 +37,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. (Conferidos: os três dardos, os três anos, os sessenta nós, a negação de 97.4 e 96.1, os nomes Côes, Zalmóxis, Gebeleízis; «de cinco em cinco anos» em 94.2 é a contagem inclusiva grega, aceitável.)

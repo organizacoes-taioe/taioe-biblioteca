@@ -45,3 +45,10 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 136.1: νέμεσθαι («para habitar, para ter como sua terra»; Godley: «to dwell in») virou «para governar» → «e a quem o rei deu para morar (como sua) Alabanda…».
+- 137.5: ἐγχειρίδιον/μάχαιρα → CONVENCOES.md manda «punhal»; aqui μάχαιρα saiu «faca». Em 137.5 «faca» é mais natural (o pastor menino), mas diverge da lista → decidir: punhal (lista) ou acrescentar a exceção às convenções.
+- Perdicas: a lista traz «Pérdicas» (com acento) e estas quatro seções escrevem «Perdicas» (137.1, 137.2, 139.1) → uniformizar com as demais partes (ver 140–144).
+- 137.1: «sétimo antepassado» está certo (Alexandre, Amintas, Alcetas, Aéropo, Filipe, Argeu, Perdicas, em 139.1, contando Alexandre como primeiro).
+- Conferidos: Gigeia, irmã de Alexandre, mulher de Bubares; Amintas da Ásia; as rosas de 60 pétalas (138.2); três vezes o sol no colo (137.5): corretos. Nenhum outro erro de sentido.

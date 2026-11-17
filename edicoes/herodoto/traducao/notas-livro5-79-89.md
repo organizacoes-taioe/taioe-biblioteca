@@ -48,3 +48,7 @@
 ## Candidatos a decisão do Gere
 - 79.1, «a assembleia de muitas vozes»: alternativa «a assembleia do povo» (mais clara, perde a imagem do oráculo) ou
   «o lugar de muitas vozes» (mais enigmática, mais perto do grego).
+
+## Revisão contra o grego
+- 89.3: «coisas intoleráveis» (ἀνάρσια) é mais forte que o grego, que diz «atos hostis» → «ter sofrido dos eginetas atos hostis» (leve).
+- Sem omissões, números ou negações trocados (conferidos: 20 estádios, 10 coregos, vez e meia, 30 e 31 anos).

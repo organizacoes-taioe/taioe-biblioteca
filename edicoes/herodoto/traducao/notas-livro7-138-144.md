@@ -73,3 +73,10 @@ como no grego (a cidade, o povo como um só). Na 2ª resposta, o «tu» é Atena
 - 139.3, εἰ καὶ πολλοὶ τειχέων κιθῶνες ἦσαν ἐληλαμένοι → adotei «muitas túnicas de muralhas» (a imagem de Heródoto:
   muros um por cima do outro, como túnicas vestidas uma sobre a outra). Alternativa mais clara, sem a imagem: «muitas
   camadas de muralhas».
+
+## Revisão contra o grego
+- 139.1: «uma opinião que vai provocar a inveja da maior parte dos homens» troca o sentido: o adjetivo grego (ἐπίφθονον) é «malvista, que atrai hostilidade», não «inveja» → «uma opinião que vai ser malvista pela maior parte dos homens».
+- 139.5: «foram eles mesmos que despertaram todo o resto do mundo grego, tudo o que não tomou o partido dos medos, e que, depois dos deuses, repeliram o rei» tem o «e que» pendurado no «resto do mundo grego», como se este tivesse repelido o rei; o sujeito de «repeliram» são os atenienses → «…que não tomou o partido dos medos; e foram eles que, depois dos deuses, repeliram o rei».
+- 143.3: «nem sequer levantar as mãos contra eles» fica sem antecedente claro (os últimos nomeados são os adivinhos) → «contra os persas» (ou «contra o invasor»).
+- 143.1 e 142.3 (χρησμολόγοι): «adivinhos» é usado também para μάντις em outras partes; se houver uniformização, «intérpretes de oráculos» distingue os dois (o grego tem duas palavras).
+- Resto da parte: sentido, nomes, números (200 navios, 10 dracmas) e negações conferem com o grego; o verso 140.3 final já está em «Candidatos».

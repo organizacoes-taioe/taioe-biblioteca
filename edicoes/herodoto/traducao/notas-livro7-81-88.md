@@ -37,3 +37,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+
+- 85.1: «o da Pactíica» (forma isolada; em 67.2 são «pácties») → «o dos pácties», ou explicar na nota que a Pactíica é a terra deles.
+- 86.1–2: «os cáspios» aparecem duas vezes na lista dos cavaleiros (86.1 e 86.2); a repetição está no texto grego estabelecido, a tradução a segue (sem erro; vale uma nota, pois pode ser corrupção do grego).

@@ -42,13 +42,13 @@
 - 16.5 «entender muito e não ter poder sobre nada» (a sentença célebre; o paralelo «muito / nada» fica).
 - 17.1: o parêntese, «(também eles tomavam, e muito, o partido dos medos)», e o «não por vontade, mas por
   necessidade» vão juntos: os fócios eram partidários dos medos à força.
-- 17.4 προόπτῳ θανάτῳ → «a uma morte certa» (a morte que se vê chegar); ἔρραψαν → «tramaram» (o verbo é o de
+- 17.4 προόπτῳ θανάτῳ → «a uma morte certa» (a morte que se vê chegar); μαθέτω τις αὐτῶν → «que algum deles fique sabendo»; ἔρραψαν → «tramaram» (o verbo é o de
   costurar).
 - 18.1 βέλεα → «as armas» (as de arremesso, dardos e flechas): «já apontavam as armas»; «e talvez alguém até tenha
   lançado».
 - 18.2: o «ele» de ἠθέλησε é Mardônio (o singular depois dos cavaleiros no plural); o grego não repete o nome, e a
   tradução também não.
-- 18.3 εὐεργεσίῃσι → «em bons serviços não ganhareis nem de mim nem do rei» (vão receber em troca mais do que deram);
+- 18.3 εὐεργεσίῃσι → «em benefícios não vencereis nem a mim nem ao rei» (vão receber em troca mais do que deram; corrigido na revisão);
   o fecho → «O caso dos fócios ficou por aí» (a fórmula do livro VIII).
 
 ## Candidatos a decisão do Gere

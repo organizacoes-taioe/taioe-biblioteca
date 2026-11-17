@@ -39,3 +39,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 196.1: «nem esse aguentou, a não ser mal» é calco do grego e soa truncado → «e nem esse aguentou, a não ser a custo» (ou «aguentou só mal e mal»).
+- 196.1: o grego escreve o rio da Acaia com outra grafia (Epidano) que a do 129.2 (Apidano); a tradução usa «Apídano» nos dois, o que é certo se for o mesmo rio (Godley faz igual).
+- Resto da parte: números (22 000 pletros, 5, 15 e dois de 20 estádios; três dias na Málida), nomes e negações conferem com o grego.

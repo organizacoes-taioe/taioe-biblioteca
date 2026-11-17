@@ -1,7 +1,18 @@
 # Heródoto, Histórias: estado
 
-Livros I a III no ar (PRs #100, #113 e #115). Livro IV pronto na branch `pedido-herodoto-4` (worktree
-`~/.cache/claude-wt5-herodoto-4`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+Livros I a IV no ar (PRs #100, #113, #115 e #116). Livro V em andamento na branch `pedido-herodoto-5` (worktree
+`~/.cache/claude-wt5-herodoto-5`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+
+## Livro V (Terpsícore): em andamento (2026-11-17)
+- Feito: grego montado e conferido (`original/livro5-*.txt`, 13 partes; `original/LEIAME.md`, «Livro V»). Fonte nova: o
+  vol. III de Godley, 1ª impressão de 1922 (IA `in.ernet.dli.2015.183370`, PDF em `dl5/`, OCR em `ocr5/`, páginas em
+  `pag5/`, pranchas em `ver5/`); 2ª leitura `dl5/herodotus19203hero.txt` (reimpressão de 1982). `colacao.py . 5`,
+  `acentos.py . 5`, `montar.py . <obra> 5`, rodados de `~/.cache/claude-pedidos-0511/herodoto/`. Marcas 92α–92η (Hude;
+  o Perseus escreve 92A–92G): `conferir.py`, `montar.py` e `ferramentas/traducoes.py` aceitam α–η.
+- Falta: tradução das 13 partes (`traducao/livro5-*.txt` + notas), revisão contra o grego, `CONVENCOES.md` (seção
+  «Livro V»), `obra.py` (partes do V e a «Sobre» com o vol. III), `revisao.json` se houver decisão nova, vocabulário,
+  `conteudo/` gerado, `gerar.mjs` e `conferir.mjs`. O livro entra todo de uma vez (obra com `PARTES` sem tradução some do
+  site).
 
 ## Livro IV (Melpômene): pronto (2026-11-16)
 - Grego montado e conferido (`original/livro4-*.txt`, 22 partes; `original/LEIAME.md`, «Livro IV»): mesmo PDF do vol. II
@@ -47,7 +58,7 @@ Livros I a III no ar (PRs #100, #113 e #115). Livro IV pronto na branch `pedido-
 - Mudança comum: `ferramentas/traducoes.py` aceita marca `[121α.1]` (letra grega depois do capítulo).
 
 ## Livro seguinte (como continuar)
-- O livro V está no vol. III de Godley (Loeb, 1922; Godley morreu em 1925): achar o fac-símile de 1922 no Internet
-  Archive (e uma 2ª leitura com OCR grego), acrescentar ao `colacao.py` o recorte do V (O1/O2 do vol. III) e ao
-  `montar.py` o bloco 5 (`ED3`, título «Ε · ΤΕΡΨΙΧΟΡΗ»); o resto como no IV (`extrair.py dl/her-grc2.xml 5 l5.json`).
+- O livro VI está no mesmo vol. III (fontes do V: no PDF `dl5/v3-1922.pdf`, o título «BOOK VI» na p. 163 e o grego
+  nas páginas pares a partir da 164; a 2ª leitura, de «BOOK VI» até «BOOK VII»; o `colacao.py` já tem o recorte do 6).
+  Falta no `montar.py` o bloco 6 (`ED3`, título «Ϛ · ΕΡΑΤΩ»: conferir a letra que Godley imprime).
 - Notas gerais (lote futuro): livro I, o jogo Κυνώ/Σπακώ (110.1), παθήματα/μαθήματα (207.1), as Musas nos títulos.

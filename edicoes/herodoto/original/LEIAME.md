@@ -8,7 +8,7 @@ O texto de Hude (Oxford, 1908; 3ª ed. 1927; Hude morreu em 1936) também é liv
 dele conferível; ficamos com Godley, que tem transcrição e fac-símiles. Rosén (Teubner, 1987–1997) e Wilson (Oxford,
 2015) são protegidos.
 
-Por enquanto os livros I (Clio) e II (Euterpe), os dois do vol. I de Godley, e o III (Tália) e o IV (Melpômene), do vol. II. A obra cresce por livros, em pedidos
+Por enquanto os livros I (Clio) e II (Euterpe), os dois do vol. I de Godley, o III (Tália) e o IV (Melpômene), do vol. II, e o V (Terpsícore), do vol. III. A obra cresce por livros, em pedidos
 seguintes; cada livro tem os seus arquivos `livro<n>-<a>-<b>.txt` e é montado pelos mesmos scripts (`../ferramentas/`,
 com o número do livro no fim: `extrair.py dl/her-grc2.xml 2 l2.json`, `colacao.py . 2`, `acentos.py . 2`,
 `montar.py . <obra> 2`; o bloco de cada livro fica em `LIVROS`, no `montar.py`).
@@ -132,6 +132,37 @@ Perseus, conferidos: 27.1 ἓν, 80.2 δι’, 114.4 ἐποίησαν, 144.1 �
 Sem colchetes de Godley no livro IV; lacunas, «…»: 47.2 e 149.2. Versos: o de Homero em 29.1 (_Odisseia_ 4.85), o
 epigrama de Mandrocles (88.2, quatro versos) e os oráculos de Bato e de Cirene (155.3, 157.2, 159.3). Título:
 «Δ · ΜΕΛΠΟΜΕΝΗ».
+
+## Livro V (2026-11-17)
+
+Base: A. D. Godley, *Herodotus*, vol. III, *Books V–VII* (Loeb, Londres, Heinemann, e Nova York, Putnam, 1922).
+Godley morreu em 1925: em domínio público no Brasil; nos EUA também (publicado antes de 1931). Mesmo método:
+- fac-símile principal: Internet Archive `in.ernet.dli.2015.183370`, a 1ª impressão do vol. III («MCMXXII», Londres e
+  Nova York; digitalização da Digital Library of India, 600 dpi, preto e branco); páginas gregas do livro V = p. 18–160
+  do PDF (pares), lidas pelo Tesseract (`grc`, 300 dpi; OCR em `ocr5/`, páginas em `pag5/`, PDF em `dl5/`, na pasta de
+  trabalho, com o roteiro `scripts/ocr1922-l5.sh`);
+- segunda leitura: o OCR do Internet Archive em `herodotus19203hero` (reimpressão de 1982: «First printed 1922;
+  reprinted 1928, 1938, 1950, 1957, 1963, 1971, 1982»; mesmas chapas), da linha «BOOK V» até «BOOK VI». Das outras
+  cópias do vol. III, a de Toronto (`herodotuswitheng03herouoft`) tem OCR sem grego, e as da Digital Library of India
+  (`in.ernet.dli.2015.30897`, `…69771`) leem pior (93 % das palavras iguais ao Perseus, contra 95 %).
+
+A colação deu 39 pontos de letras (quase todos ζ lido como ξ e maiúsculas), 488 de acentos (17 aceitos pela regra, 24 a
+ver), 45 fracos e 14 buracos; 34 pontos vistos nas imagens. Dois «aceitos pela regra» o fac-símile desmentiu (1.3
+πολλόν τε e 78.1 ἓν: as duas leituras erraram igual) e saíram da lista. Correções ao Perseus (o fac-símile tem a forma da
+direita): 9.3 Δίγυες → Λίγυες; 15.2 e 61.2 τρέπονται → τράπονται, 86.3 τραπέσθαι → τράπεσθαι (jônico, como nos
+livros I a IV); 17.2 Μακεδονίν → Μακεδονίῃ; 23.1 Ἑλλήποντον → Ἑλλήσποντον; 29.2 a palavra que o Perseus perdeu,
+«τούτους μὲν τὴν πόλιν»; 41.1 ἔφεδρον → ἔπεδρον (jônico); 52.4 ἐς βάλλοντι → ἐσβάλλοντι; 59.1 ἀμφιτρύων →
+Ἀμφιτρύων (o verso da trípode); 79.2 οὐκ ὦν → οὐκῶν; 83.3 ἱροεργίαι → ἱρουργίαι; 106.3 ἀξιοῦμαι → ἀξιεῦμαι; 106.4
+εἴ περ → εἴπερ. Acentos: 30.4 «φερέγγυος εἰμὶ» e 49.8 «ἐχόμενον ἐστὶ» (Godley não trata εἰμί como enclítica aqui,
+como em 2.28.4), 41.2 ἀληθέι, 50.2 χρεὸν, 52.3 εἰσι, 67.3 ἀπηγήσασθαι, 80.1 χρῆσαι, e os 17 aceitos pela regra
+(`ferramentas/acentos-aceitos-l5.tsv`, quase todos ὃ pronome antes de δέ). Ficaram como no Perseus, conferidos: 24.3
+ὅτι, 52.4 νηυσιπέρητοι, 100.1 Καΰστριον, 50.2 τἆλλα, 60.1 e 61.1 τεῒν, 41.2 ὤχλεον; e 121.1 ἐμπεσόντες, onde Godley
+imprime ἐμπεσύντες, erro tipográfico. Os dois «buracos» de 73.2 e 89.3 são notas de rodapé de Godley.
+
+Os capítulos 92α–92η (o discurso de Sosícles, com a história de Cípselo e Periandro) têm a numeração de Hude, que o
+Perseus escreve 92A–92G; a marca é `[92α.1]`, como `[121α.1]` no livro II. Sem colchetes de Godley e sem lacunas no
+livro V. Versos: as três inscrições das trípodes de Tebas (59–61), o oráculo a Hiparco (56.1), o epigrama da
+quadriga de Atenas (77.4) e os oráculos de Cípselo (92β.2–3, 92ε.2). Título: «Ε · ΤΕΡΨΙΧΟΡΗ».
 
 ## Numeração e divisão
 

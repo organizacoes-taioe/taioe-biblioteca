@@ -38,3 +38,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 134.1: «cada um, conforme a via, puseram-se a persegui-la» é obscuro (lê-se «a via» como substantivo) → «cada grupo, conforme ia vendo a lebre, punha-se a persegui-la» (ou «à medida que a viam»).
+- 134.1: «disse aos que costumava falar também das outras coisas» está truncado (regência) → «disse àquele com quem costumava falar também das outras coisas» (o grego tem o plural, «àqueles com quem costumava falar»).
+- 134.3: «enganar os soldados que menos aguentam as fadigas» deixa a ideia pela metade (o engano é para deixá-los no acampamento, como explica 135.2) → «enganar os soldados mais fracos, para que fiquem com as fadigas do acampamento» ou, mais simples, «enganar os mais fracos dos soldados, deixando-os ali com o trabalho pesado».
+- 127.4: «Héstia» (Ἱστίη), correto e coerente com 59.2, onde ela é Tabiti na língua cita; nenhuma correção.

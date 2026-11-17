@@ -68,3 +68,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 88.1: «filho de Cneto» → o nome no grego é Κνοῖθος (genitivo Κνοίθου): «Cnoito» (Godley: Cnoethus); conferir se o resto da obra usa a mesma forma.
+- 86β.2 (menor): «adio a decisão disso para vós» fica duro; o grego é «adio para vós o confirmar isto» → «adio para vós a resolução disto até o quarto mês a partir de hoje».
+- Resto do lote (85–87, 89–93): sem omissão, número, negação ou sujeito trocados; números (setenta navios, vinte navios a cinco dracmas, setecentos, mil talentos, cem talentos, mil voluntários) conferem.

@@ -48,3 +48,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- Nenhuma correção necessária. Conferidos: oito navios de fundo; quatrocentos navios no mínimo; três dias de tempestade, parada no quarto; quinze navios apanhados; Pentilo com doze navios, onze perdidos; nomes (Aminocles, Cretines, Sandoces, Tamásio, Aridolis, Pentilo, Demónoo) e as duas negações («não ia escapar uma segunda vez») conferem com o grego.

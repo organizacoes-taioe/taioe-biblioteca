@@ -34,3 +34,8 @@
 - 55.1, ἐλαίη τε καὶ θάλασσα: adotei «uma oliveira e um mar», como o grego (θάλασσα é a palavra do mar; era um poço de
   água salgada, a marca do tridente de Posêidon, e Heródoto o chama «mar»). Alternativa: «uma oliveira e uma água do
   mar», que se entende melhor, mas já é um pouco de explicação.
+
+## Revisão contra o grego
+- 52.2: ὀλοιτρόχους («pedras redondas», blocos que rolam) está certo; só conferir se as notas dizem que são pedras de rolar → sem mudança necessária.
+- 50.2: «Téspias» (Θέσπεια, a cidade) ao lado de «téspios» (o povo): coerente, mas CONVENCOES.md só traz «téspios»; registrar a forma da cidade.
+- Números e nomes conferidos (um mês + três meses, arconte Calíades, côvado, 2º dia depois do incêndio): corretos. Nenhuma correção necessária no sentido.

@@ -43,3 +43,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+
+- 37.3: «o sol é o que anuncia o futuro aos gregos, e a lua, a eles» («a eles» parece os gregos; o grego diz que a lua é dos persas) → «o sol anuncia o futuro aos gregos, e a lua, a nós, persas».
+- 43.1: período longo e torto («Quando o exército chegou ao rio Escamandro, que foi o primeiro dos rios… cuja corrente se esgotou… quando a beberam, quando Xerxes chegou…») → «Quando o exército chegou ao rio Escamandro, o primeiro rio, desde a partida de Sardes, cuja água se esgotou e não bastou ao exército e aos animais que a bebiam, Xerxes, ao chegar a esse rio, subiu à Pérgamo de Príamo…».
+- 37.1: a frase «se anunciava que estavam inteiramente feitos os quebra-mares… e o próprio canal» fica pesada, mas o sentido está certo (observação de estilo, sem correção obrigatória).

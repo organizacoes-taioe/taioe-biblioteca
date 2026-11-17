@@ -36,3 +36,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. (Números da estrada real conferidos: 111 paradas, 450 parasangas, 13.500 estádios, 14.040 com Éfeso–Sardes.)

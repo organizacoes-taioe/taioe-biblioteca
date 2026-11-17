@@ -23,9 +23,9 @@
 - νεκρός (22.3, 23, 25.1) → «o corpo» (como «o corpo de Leônidas» no livro VII).
 - ὁ πεζός (23.1) → «a infantaria»; τὸ πλῆθος (23.2) → «a massa do exército»; ἀναρχίη → «estavam sem comandante».
 - ὑποζύγια (24.1) → «animais de carga»; οἰμωγή → «lamento».
-- ἅμαξα (25.1) → «carroça» (como no livro I); **a fonte Gargáfia** (CONVENCOES); **o santuário do herói Andrócrates**
-  (τέμενος; nos livros VI e VII τέμενος saiu «recinto sagrado»: aqui segui a lista do livro IX, que dá «santuário»; a
-  uniformizar, se o principal preferir «recinto»); κατὰ ἔθνεα → «povo por povo».
+- ἅμαξα (25.1) → «carroça» (como no livro I); **a fonte Gargáfia** (CONVENCOES); **o recinto sagrado do herói Andrócrates**
+  (τέμενος → «recinto sagrado», como nos livros VI e VII e no resto do livro IX; ἱρόν é «santuário»; acertado na
+  revisão); κατὰ ἔθνεα → «povo por povo».
 
 ## Passagens
 - 19.1, os peloponésios «que preferiam a melhor causa» (os que estavam do lado da Grécia), «e outros também por

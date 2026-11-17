@@ -1,7 +1,7 @@
 # Notas: livro IX, 86–89
 
 ## Nomes e termos
-- **Timagênidas** e **Atagino** (CONVENCOES; como em 15–16 e 38); ἀρχηγέται → «os principais cabeças» (os que
+- **Timagênides** e **Atagino** (CONVENCOES; como em 15–16 e 38); ἀρχηγέται → «os principais cabeças» (os que
   puxaram a cidade para o lado dos medos); μηδίζειν, μηδισμός → **tomar o partido dos medos** (CONVENCOES; o
   substantivo de 88.1 saiu «a culpa de ter tomado o partido dos medos», sem palavra nova).
 - τὸ τεῖχος (86.2) → «a muralha» (a de Tebas, como em 41.2 e 66.3; não é «o muro» do acampamento persa).
@@ -23,16 +23,16 @@
 - 86.2 «no décimo primeiro dia depois do combate»; ἐπολιόρκεον (imperfeito) → «sitiavam»; «atacavam a muralha»
   (os assaltos repetidos).
 - 87.1 «como não paravam de causar estragos» (σινόμενοι, o verbo de 73.3, «devastavam»: aqui o dano à terra); a
-  frase de Timagênidas é longa e se dobra («já que… agora, então… mas, se… e, se…»): ficou numa frase só, como no
+  frase de Timagênides é longa e se dobra («já que… agora, então… mas, se… e, se…»): ficou numa frase só, como no
   grego; ἀναπλήσῃ → «não sofra mais do que já sofreu» (o grego diz «não se encha de mais [males]»: a medida
   do sofrimento).
-- 87.2 τὸ κοινόν, duas vezes → «do tesouro comum» / «em comum com a cidade»: Timagênidas joga com a mesma
+- 87.2 τὸ κοινόν, duas vezes → «do tesouro comum» / «em comum com a cidade»: Timagênides joga com a mesma
   palavra (o dinheiro público e a decisão pública); ficou «comum» nas duas, para guardar o eco; «e não só nós»; δεόμενοι → «porque nos querem de verdade»; «nós mesmos nos apresentaremos para nos
   defender» (o grego: «nos ofereceremos para o debate»).
 - 87.2 «Pareceu que ele falava muito bem e na hora certa» (ἐς καιρόν).
 - 88.1 ἐκδιδρήσκει (presente histórico) → «fugiu às escondidas»; ἀπαχθέντας → «foram levados» (a Pausânias);
   ἀπέλυσε → «os livrou da acusação»; μεταίτιοι → «não tinham parte nenhuma na culpa»; διωθέεσθαι → «se
-  livrar» (de afastar de si a acusação com dinheiro, como Timagênidas sugeriu em 87.2); «suspeitando justamente
+  livrar» (de afastar de si a acusação com dinheiro, como Timagênides sugeriu em 87.2); «suspeitando justamente
   disso» (que eles se livrariam no debate, com subornos); διέφθειρε → «mandou matá-los» (Pausânias não os matou com a
   mão; «matou-os» também seria possível); fecho: «Isso foi o que aconteceu em Plateia e em Tebas».
 - 89.1 «já estava longe»; ἀνειρώτων → «perguntavam» (o imperfeito: a pergunta insistente).

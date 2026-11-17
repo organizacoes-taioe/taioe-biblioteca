@@ -27,7 +27,7 @@
   de alguém: ver 45.1 nas Passagens).
 
 ## Passagens
-- 39.1 «aquele homem» (ἐκεῖνος, Timagênidas, do fim de 38.2); «percebendo que o conselho era bom».
+- 39.1 «aquele homem» (ἐκεῖνος, Timagênides, do fim de 38.2); «percebendo que o conselho era bom».
 - 39.1–39.2: os presentes históricos (πέμπει, λαμβάνουσι) ficaram no passado, como nos livros anteriores.
 - 39.2 ἀφειδέως → «matavam sem piedade, sem poupar» (o grego repete a raiz de «poupar»; ficou
   a repetição quase igual); ἄδην → «se fartaram»; περιβαλόμενοι → «cercaram» (o resto, para tocá-lo).

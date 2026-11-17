@@ -3,7 +3,7 @@
 ## Nomes e termos
 - O título: `Ι · ΚΑΛΛΙΟΠΗ` → `LIVRO IX · CALÍOPE` (CONVENCOES).
 - **Tórax de Larissa** (1.1; a forma de 9.58); **Muríquides**, «um homem do Helesponto» (4.1), depois «o helespontino»
-  (5.2); **Lícidas**, o conselheiro apedrejado (5.1–3).
+  (5.2); **Lícides** (Λυκίδης; -ίδης → -ides, como Leotíquides), o conselheiro apedrejado (5.1–3).
 - ἀγνωμοσύνη (3.1, 4.2) → **teimosia** (nas duas vezes, porque Heródoto joga com a palavra: a de Mardônio, que quer
   Atenas de novo, e a dos atenienses, que ele espera ver ceder); δοριάλωτος (4.2) → «conquistada pela lança»;
   ἡ βουλή (5.1) → **o conselho**, οἱ βουλευταί → os conselheiros (CONVENCOES); ὁ δῆμος → o povo.

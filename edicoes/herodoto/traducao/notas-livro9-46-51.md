@@ -14,10 +14,8 @@
 - ἡ νῆσος (51.1) → **a Ilha** (CONVENCOES), com maiúscula no nome do lugar e minúscula em «uma ilha em terra firme»
   (51.2, a explicação de Heródoto).
 - **Oeroe** (51.2, 51.4): a lista do CONVENCOES diz «o Oeroe»; o grego a trata no feminino e a faz «filha do Asopo»
-  (51.3) e «a Oeroe asópide» (51.4). Ficou **a Oeroe**, no feminino, onde o artigo aparece (51.4), e «O nome dele é
-  Oeroe» em 51.2, onde o «dele» é o rio, como no grego (o sujeito ainda é «o rio», e logo depois «ela é filha do
-  Asopo»: a passagem do masculino ao feminino é de Heródoto). A uniformizar, se o principal preferir «o Oeroe» nas
-  outras partes.
+  (51.3) e «a Oeroe asópide» (51.4). Ficou **a Oeroe**, no feminino, em todo o livro
+  (51.4; decidido na revisão); em 51.2, «Chama-se Oeroe», sem gênero, e logo depois «ela é filha do Asopo».
 - Ἀσωπίς (51.4) → «filha do Asopo» (o epíteto patronímico; «asópide» não se entende).
 - φυλακή (51.3) → «a segunda vigília da noite».
 - ἀρχαῖος (48.1) → «antigas» (as posições de antes da troca); ἄριστοι → «os mais valentes» (CONVENCOES).

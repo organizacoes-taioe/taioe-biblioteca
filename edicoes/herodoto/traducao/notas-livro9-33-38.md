@@ -8,7 +8,7 @@
   **messênios** e **Itome** (nomes novos); **Tânagra**, **Tegea** (a forma do livro VIII).
 - **Hegesístrato**, eleu, o mais ilustre dos **telíadas** (Τελλιάδαι, nome novo: a família de adivinhos, em
   minúscula como os iâmidas); **Zacinto** (a forma dos livros III e IV); **Hipômaco**, um **leucádio** (como em 28.5);
-  **Timagênidas, filho de Hérpis** (CONVENCOES; Hérpis, Ἕρπυς, é novo).
+  **Timagênides, filho de Hérpis** (CONVENCOES; Hérpis, Ἕρπυς, é novo).
 - μάντις → **adivinho** (CONVENCOES); ὁ θυόμενος → «quem fazia os sacrifícios»; τὰ ἱρά → «os sacrifícios»;
   καλλιερέειν (38.2) → **ter sinais favoráveis** (CONVENCOES): «os sinais não eram favoráveis»; καλά, ἐπιτήδεα (36–37) →
   «favoráveis», «propícios».

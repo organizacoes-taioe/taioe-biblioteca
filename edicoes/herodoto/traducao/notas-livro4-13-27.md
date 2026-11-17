@@ -37,3 +37,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 22.1: nome fora do CONVENCOES: «tisságetas» (Θυσσαγέται) → «tirsagetas», como a convenção do livro IV.
+- 26.1: πρόβατα («ovelhas», o gado miúdo) vertido «gado» → «ovelhas» (ou «carneiros»); com «gado» fica vago e sugere bois.

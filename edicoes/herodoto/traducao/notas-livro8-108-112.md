@@ -43,3 +43,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 108.3 (fim): «e eles teriam sempre por alimento a colheita de cada ano dos gregos»: «eles» soa como os gregos, mas o sujeito do grego (σφέας) são os persas, que se alimentariam da colheita dos gregos → «e os persas teriam sempre por alimento a colheita de cada ano dos gregos».
+- 108.2: «o maior de todos os males que eles poderiam fazer à Grécia»: o grego diz que seria o maior mal causado à Grécia (por desfazerem as pontes), não necessariamente «que eles fariam»; sentido aceitável → «o maior de todos os males para a Grécia».
+- Conferidos: Euribíades contra Temístocles (108), a fala aos atenienses (109), a mensagem de Sicino (110.3), a resposta dos andrianos (111.3, Pobreza e Incapacidade): corretos. Sem omissão, número nem negação trocada.

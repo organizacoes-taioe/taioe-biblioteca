@@ -39,3 +39,8 @@
 ## Candidatos a decisão do Gere
 - 10ε.1, οὐ γὰρ ἐᾷ φρονέειν μέγα ὁ θεὸς ἄλλον ἢ ἑωυτόν: adotei «deus não deixa que ninguém tenha orgulho, a não ser
   ele mesmo». Alternativa mais literal: «deus não deixa ninguém pensar grande, senão ele mesmo».
+
+## Revisão contra o grego
+
+- 8α.1: νόμος («esta lei») → «este costume» (Xerxes fala do costume de não ficar quieto, não de uma lei).
+- 10β.1: «se os atenienses sozinhos destruíram um exército tão grande» (o «se» soa condicional; no grego é fato conhecido) → «pois os atenienses sozinhos destruíram um exército tão grande…».

@@ -43,3 +43,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 20.1: «quer queirais vos deitar» (forma de «querer» rara e dura de ler) → «quer vos deiteis com todas, quer com as que quiserdes».

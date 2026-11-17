@@ -102,3 +102,10 @@
   Calícrates não aparecem como sacerdotes em lugar nenhum. Recomendação: manter _irenes_ (é o texto que vai ao lado) e
   dar uma nota de leitura no site: «os rapazes que tinham acabado a formação espartana; os manuscritos dizem
   “sacerdotes”».
+
+## Revisão contra o grego
+- 78.3: «a espetaram numa estaca» (ἀνεσταύρωσαν) → o `CONVENCOES.md` manda **pendurar numa cruz** (como no livro VII): «a penduraram numa cruz». No mesmo capítulo, «pendurando Mardônio numa estaca» traduz outro verbo (ἀνασκολοπίσας, «empalar»): se ficar «estaca» aqui, os dois verbos se distinguem; só o primeiro deve seguir a convenção.
+- 79.2: «prefiro não agradar nem aos eginetas...» — o grego é um desejo («que eu não agrade...»), não uma preferência → «que eu não agrade, por isso, nem aos eginetas nem aos que gostam dessas coisas».
+- 80.1: «crateras de ouro» — «cratera» é palavra rara → «grandes taças de ouro para misturar o vinho».
+- 80.3: «também entregaram muita» — o verbo grego é «mostravam» (ἀπεδείκνυσαν: declaravam, apresentavam) → «também apresentaram muita».
+- Resto (76–85) conferido seção por seção: números (côvados, dez, três túmulos, dez anos), nomes e negações corretos; sem omissão.

@@ -31,3 +31,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+
+- 21.2: «navios para o transporte de cavalos, que também iam à guerra» (não fica claro quem ia: os povos, não os cavalos) → «navios para o transporte de cavalos, e eles próprios também seguiam na expedição».
+- 22.3: «e as que ficam além de Sane, … e que o persa então se dispôs a fazer cidades de ilha…, são estas» (oração relativa pesada) → «as outras cidades, além de Sane, do lado de dentro do Atos, que o persa então se dispôs a tornar cidades de ilha em vez de cidades do continente, são estas».

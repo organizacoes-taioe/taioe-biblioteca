@@ -38,3 +38,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+
+- 6.2: frase sem verbo principal («De outro lado, os Pisistrátidas que tinham subido a Susa, que se apegavam… e ainda lhe ofereciam») → «De outro lado, vieram os Pisistrátidas, que tinham subido a Susa; apegavam-se aos mesmos discursos dos Alêuadas e ainda lhe ofereciam algo mais além disso».
+- 6.4: «atravessado por uma ponte por um homem persa» (duplo «por», sentido de ligar as margens) → «que o Helesponto havia de ser ligado por uma ponte, lançada por um persa».

@@ -38,3 +38,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 87.4 (a pedido): o texto traduzido não traz nenhum nome de pessoa aqui; o que o tradutor acrescentou é «gregos» em «lutava pelos gregos» (grego: αὐτοῖσι ἀμύνειν, «defendia-os», sem nomear os gregos; Godley também diz só «for them»). O sentido é esse (o trierarca ático julga que ela é grega ou desertora a favor dos gregos), a nota 87.4 declara o acréscimo → aceitável; se quiser fidelidade estrita: «lutava a favor deles».
+- 85.2: «Fílaco, filho de Histieu» (os dois sâmios): mesma forma «Fílaco» de 39.1 (o herói de Delfos), em desacordo com CONVENCOES.md («Filaco»); são dois homens diferentes, a grafia é a mesma → uniformizar com a lista.
+- 84.2: «Insensatos» para ὦ δαιμόνιοι (fala da aparição, tom de censura) → aceitável; sem correção.
+- Conferidos: fenícios diante dos atenienses (ala de Elêusis e do ocidente), jônios diante dos lacedemônios (ala do oriente e do Pireu): corretos; Teomestor e Fílaco; Damasítimo; fala de Xerxes (os homens viraram mulheres e as mulheres, homens). Nenhuma correção de sentido.

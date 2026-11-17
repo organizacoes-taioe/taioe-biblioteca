@@ -110,3 +110,6 @@
   Leitura adotada: «mesmo morto e salgado», que guarda a palavra dos peixes e deixa o leitor ver a ligação, sem
   explicar. A outra: «mesmo morto e seco» (Godley, «dead and dry»), mais natural para um morto, mas que perde o eco com
   os peixes. Recomendação: «morto e salgado».
+
+## Revisão contra o grego
+Nenhuma correção necessária (114–122 conferidas seção por seção: números — cem e duzentos talentos, três nomes de lugar —, nomes e negações corretos; sem omissão).

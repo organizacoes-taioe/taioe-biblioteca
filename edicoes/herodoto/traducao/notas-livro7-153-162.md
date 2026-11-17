@@ -70,3 +70,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 159.1: «Não, não fales mais dessa proposta» → o «Não, não» é acréscimo (o grego só tem «não menciones mais»); basta «Não fales mais dessa proposta».
+- Resto da parte: números (200 trirremes, 20 000 hoplitas, 2 000 cavaleiros, arqueiros, fundeiros e infantes ligeiros; 7 anos de Cleandro), nomes e negações conferem com o grego; a lacuna de 154.1 está indicada e explicada nas notas. Sem outras correções.

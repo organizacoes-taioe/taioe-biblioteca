@@ -51,9 +51,10 @@ BIBLIOTECA.poemas({
 BIBLIOTECA.poemas({
   autor: "john-milton",
   arquivo: "conteudo/john-milton/lingua-original.js",
-  livros: [{"id": "paradise-lost", "titulo": "Paradise Lost", "ano": 1674}],
+  livros: [{"id": "paradise-lost", "titulo": "Paradise Lost", "ano": 1674}, {"id": "poems-c-upon-several-occasions", "titulo": "Poems, &c. upon Several Occasions", "ano": 1673}],
   poemas: [
-    {"id":"john-milton-paradise-lost-i","titulo":"Book I","forma":"outras","livro":0,"ordem":0,"versos":799,"lingua":"en","ano":1674,"glossario":true,"pt":{"tradutor":"António José de Lima Leitão","titulo":"O Paraíso Perdido, Canto I","ano":1840}}
+    {"id":"john-milton-paradise-lost-i","titulo":"Book I","forma":"outras","livro":0,"ordem":0,"versos":799,"lingua":"en","ano":1674,"glossario":true,"pt":{"tradutor":"António José de Lima Leitão","titulo":"O Paraíso Perdido, Canto I","ano":1840}},
+    {"id":"john-milton-when-i-consider","titulo":"When I consider how my light is spent","forma":"sonetos","livro":1,"ordem":1,"versos":14,"lingua":"en","ano":1673,"glossario":true,"subtitulo":"Sonnet XIX"}
   ]
 });
 
@@ -118,9 +119,10 @@ BIBLIOTECA.poemas({
 BIBLIOTECA.poemas({
   autor: "charles-baudelaire",
   arquivo: "conteudo/charles-baudelaire/lingua-original.js",
-  livros: [{"id": "les-fleurs-du-mal", "titulo": "Les Fleurs du mal", "ano": 1861}],
+  livros: [{"id": "les-fleurs-du-mal", "titulo": "Les Fleurs du mal", "ano": 1861}, {"id": "les-fleurs-du-mal", "titulo": "Les Fleurs du mal", "ano": 1857}],
   poemas: [
-    {"id":"charles-baudelaire-l-albatros","titulo":"L’Albatros","forma":"outras","livro":0,"ordem":0,"versos":16,"lingua":"fr","ano":1861,"glossario":true,"pt":{"tradutor":"Eduardo Guimaraens","titulo":"O albatroz","ano":null}}
+    {"id":"charles-baudelaire-l-albatros","titulo":"L’Albatros","forma":"outras","livro":0,"ordem":0,"versos":16,"lingua":"fr","ano":1861,"glossario":true,"pt":{"tradutor":"Eduardo Guimaraens","titulo":"O albatroz","ano":null}},
+    {"id":"charles-baudelaire-correspondances","titulo":"Correspondances","forma":"sonetos","livro":1,"ordem":1,"versos":14,"lingua":"fr","ano":1857,"glossario":true}
   ]
 });
 
@@ -222,9 +224,11 @@ BIBLIOTECA.poemas({
 BIBLIOTECA.poemas({
   autor: "catulo",
   arquivo: "conteudo/catulo/lingua-original.js",
-  livros: [{"id": "carmina", "titulo": "Carmina", "ano": null}],
+  livros: [{"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}],
   poemas: [
-    {"id":"catulo-odi-et-amo","titulo":"Odi et amo","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"José Feliciano de Castilho","titulo":"O amor e o ódio","ano":1858}}
+    {"id":"catulo-odi-et-amo","titulo":"Odi et amo","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"José Feliciano de Castilho","titulo":"O amor e o ódio","ano":1858}},
+    {"id":"catulo-vivamus-mea-lesbia","titulo":"Vivamus, mea Lesbia","forma":"outras","livro":1,"ordem":1,"versos":13,"lingua":"la","ano":null,"glossario":true},
+    {"id":"catulo-multas-per-gentes","titulo":"Multas per gentes","forma":"outras","livro":2,"ordem":2,"versos":10,"lingua":"la","ano":null,"glossario":true}
   ]
 });
 
@@ -277,10 +281,11 @@ BIBLIOTECA.poemas({
 BIBLIOTECA.poemas({
   autor: "horacio",
   arquivo: "conteudo/horacio/lingua-original.js",
-  livros: [{"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}],
+  livros: [{"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}],
   poemas: [
     {"id":"horacio-tu-ne-quaesieris","titulo":"Tu ne quaesieris","forma":"outras","livro":0,"ordem":0,"versos":8,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"António Ribeiro dos Santos","titulo":"A Leuconoe","ano":1807}},
-    {"id":"horacio-exegi-monumentum","titulo":"Exegi monumentum","forma":"outras","livro":1,"ordem":1,"versos":16,"lingua":"la","ano":null,"glossario":true}
+    {"id":"horacio-exegi-monumentum","titulo":"Exegi monumentum","forma":"outras","livro":1,"ordem":1,"versos":16,"lingua":"la","ano":null,"glossario":true},
+    {"id":"horacio-persicos-odi","titulo":"Persicos odi","forma":"outras","livro":2,"ordem":2,"versos":8,"lingua":"la","ano":null,"glossario":true}
   ]
 });
 
@@ -347,5 +352,95 @@ BIBLIOTECA.poemas({
   livros: [{"id": "le-avventure-di-pinocchio-storia-di-un-burattino", "titulo": "Le avventure di Pinocchio. Storia di un burattino", "ano": 1883}],
   poemas: [
     {"id":"carlo-collodi-pinocchio","titulo":"Capitolo I","forma":"outras","livro":0,"ordem":0,"versos":27,"lingua":"it","ano":1883,"glossario":true,"subtitulo":"Come andò che maestro Ciliegia, falegname, trovò un pezzo di legno che piangeva e rideva come un bambino","genero":"Romance","prosa":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "lope-de-vega",
+  arquivo: "conteudo/lope-de-vega/lingua-original.js",
+  livros: [{"id": "la-ni-a-de-plata", "titulo": "La niña de plata", "ano": 1612}],
+  poemas: [
+    {"id":"lope-de-vega-soneto-a-violante","titulo":"Un soneto me manda hacer Violante","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"es","ano":1612,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "luis-de-gongora",
+  arquivo: "conteudo/luis-de-gongora/lingua-original.js",
+  livros: [{"id": "obras-en-verso-del-homero-espa-ol-1627", "titulo": "Obras en verso del Homero español (1627)", "ano": 1627}],
+  poemas: [
+    {"id":"luis-de-gongora-mientras-por-competir","titulo":"Mientras por competir con tu cabello","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"es","ano":1582,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "ruben-dario",
+  arquivo: "conteudo/ruben-dario/lingua-original.js",
+  livros: [{"id": "cantos-de-vida-y-esperanza", "titulo": "Cantos de vida y esperanza", "ano": 1905}],
+  poemas: [
+    {"id":"ruben-dario-lo-fatal","titulo":"Lo fatal","forma":"outras","livro":0,"ordem":0,"versos":13,"lingua":"es","ano":1905,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "percy-bysshe-shelley",
+  arquivo: "conteudo/percy-bysshe-shelley/lingua-original.js",
+  livros: [{"id": "the-examiner", "titulo": "The Examiner", "ano": 1818}],
+  poemas: [
+    {"id":"percy-bysshe-shelley-ozymandias","titulo":"Ozymandias","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"en","ano":1818,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "william-blake",
+  arquivo: "conteudo/william-blake/lingua-original.js",
+  livros: [{"id": "songs-of-experience", "titulo": "Songs of Experience", "ano": 1794}],
+  poemas: [
+    {"id":"william-blake-the-tyger","titulo":"The Tyger","forma":"outras","livro":0,"ordem":0,"versos":24,"lingua":"en","ano":1794,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "joachim-du-bellay",
+  arquivo: "conteudo/joachim-du-bellay/lingua-original.js",
+  livros: [{"id": "les-regrets", "titulo": "Les Regrets", "ano": 1558}],
+  poemas: [
+    {"id":"joachim-du-bellay-heureux-qui-comme-ulysse","titulo":"Heureux qui, comme Ulysse, a fait un beau voyage","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"fr","ano":1558,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "jose-maria-de-heredia",
+  arquivo: "conteudo/jose-maria-de-heredia/lingua-original.js",
+  livros: [{"id": "les-troph-es", "titulo": "Les Trophées", "ano": 1893}],
+  poemas: [
+    {"id":"jose-maria-de-heredia-les-conquerants","titulo":"Les Conquérants","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"fr","ano":1893,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "dante-alighieri",
+  arquivo: "conteudo/dante-alighieri/lingua-original.js",
+  livros: [{"id": "vita-nuova-cap-xxvi", "titulo": "Vita nuova (cap. XXVI)", "ano": 1294}],
+  poemas: [
+    {"id":"dante-alighieri-tanto-gentile","titulo":"Tanto gentile e tanto onesta pare","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"it","ano":1293,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "francesco-petrarca",
+  arquivo: "conteudo/francesco-petrarca/lingua-original.js",
+  livros: [{"id": "canzoniere-rerum-vulgarium-fragmenta-35", "titulo": "Canzoniere (Rerum vulgarium fragmenta, 35)", "ano": 1374}],
+  poemas: [
+    {"id":"francesco-petrarca-solo-et-pensoso","titulo":"Solo et pensoso i più deserti campi","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"it","ano":1336,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "ugo-foscolo",
+  arquivo: "conteudo/ugo-foscolo/lingua-original.js",
+  livros: [{"id": "poesie", "titulo": "Poesie", "ano": 1803}],
+  poemas: [
+    {"id":"ugo-foscolo-a-zacinto","titulo":"A Zacinto","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"it","ano":1803,"glossario":true}
   ]
 });

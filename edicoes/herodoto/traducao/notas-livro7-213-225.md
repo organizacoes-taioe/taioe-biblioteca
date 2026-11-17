@@ -75,3 +75,8 @@ oráculos de 140–141 e 148.3.
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 216.1: «a cidade de Alpeno» diverge de «Alpenos» (176.2, 176.5, e o CONVENCOES) → «Alpenos», nos dois lugares do livro.
+- 225.3: «enquanto se defendiam com as espadas»: o grego usa aqui outra palavra (μάχαιρα, faca de combate, adaga) e em 224.1 a de «espada» (ξίφος); com as duas por «espada» a diferença some → «com as facas de combate» (ou «punhais») em 225.3, se quem uniformiza quiser manter a distinção.
+- Resto da parte: números (mil fócios; dois irmãos de Xerxes; quatro vezes que os gregos repeliram os persas; os 300), genealogias, nomes e negações conferem com o grego.

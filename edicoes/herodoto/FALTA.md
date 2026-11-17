@@ -1,17 +1,21 @@
 # Heródoto, Histórias: estado
 
 Livros I a IV no ar (PRs #100, #113, #115 e #116). Livro V pronto na branch `pedido-herodoto-5` (worktree
-`~/.cache/claude-wt5-herodoto-5`); livro VI em andamento na `pedido-herodoto-6` (worktree `~/.cache/claude-wt5-herodoto-6`),
-que parte da `pedido-herodoto-5`: juntar a do V antes. Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+`~/.cache/claude-wt5-herodoto-5`); livro VI pronto na `pedido-herodoto-6` (worktree `~/.cache/claude-wt5-herodoto-6`),
+que parte da `pedido-herodoto-5` e a contém: basta juntar a do VI. Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
 
-## Livro VI (Érato): em andamento (2026-11-17)
-- Feito: grego montado e conferido (`original/livro6-*.txt`, 14 partes; `original/LEIAME.md`, «Livro VI»): mesmo PDF do
-  vol. III (p. 164–312; OCR em `ocr6/`, páginas em `pag6/`, pranchas em `ver6/`); `colacao.py . 6`, `acentos.py . 6`,
-  `montar.py . <obra> 6`. Marcas 86α–86δ (Glauco). Colchetes em 111.2 e no capítulo 122 inteiro.
-- Falta: tradução das 14 partes (`traducao/livro6-*.txt` + notas; o principal costuma fazer a 1ª, que abre com
-  `LIVRO VI · ÉRATO`), revisão contra o grego, `CONVENCOES.md` (seção «Livro VI»), `obra.py` (partes do VI e a «Sobre»),
-  `revisao.json` se houver decisão nova, vocabulário, `conteudo/` gerado, `gerar.mjs` e `conferir.mjs`. O livro entra
-  todo de uma vez.
+## Livro VI (Érato): pronto (2026-11-17)
+- Grego montado e conferido (`original/livro6-*.txt`, 14 partes; `original/LEIAME.md`, «Livro VI»): mesmo PDF do vol. III
+  (p. 164–312; OCR em `ocr6/`, páginas em `pag6/`, pranchas em `ver6/`); `colacao.py . 6`, `acentos.py . 6`,
+  `montar.py . <obra> 6`. 15 palavras com letras trocadas, duas que faltavam (53.2, 138.2), os parênteses de 69.4 e 109,
+  37 acentos; 31 pontos vistos nas imagens. Marcas 86α–86δ (Glauco). Colchetes em 111.2 e no capítulo 122 inteiro.
+- Tradução por quatro tradutores Opus em sequência; revisão contra o grego por dois revisores Sonnet (registro no fim de
+  cada `traducao/notas-livro6-*.md`); o que se aplicou em `traducao/notas-livro6-1-10.md`. `CONVENCOES.md`, seção
+  «Livro VI», acertada pelos nomes da tradução.
+- `obra.py` (100 partes; a «Sobre» com o livro VI), `revisao.json` (+3 decisões: «carneiro» no jogo com Crio, 50.3;
+  «Sépeia» × «Hesipeia», 77.1; «Hipoclides não se importa», 129.4; recomendação aplicada, nada muda no ar), vocabulário
+  (+12 verbetes, 138 no total, `conferir` ok), `conteudo/` gerado. `gerar.mjs` e `conferir.mjs` sem erro; os endereços
+  dos livros I a V não mudam.
 
 ## Livro V (Terpsícore): pronto (2026-11-17)
 - Grego montado e conferido (`original/livro5-*.txt`, 13 partes; `original/LEIAME.md`, «Livro V»). Fonte nova: o vol. III

@@ -206,6 +206,77 @@ PARTES6 = [
     ((121, 131), 'Os alcmeônidas e o casamento de Agariste'),
     ((132, 140), 'Milcíades em Paros; os pelasgos de Lemnos'),
 ]
+# livro VII (Polímnia), no vol. III de Godley (1922)
+CORR7 = [
+    ('8.1', 'ἐπίκητον', 'ἐπίκλητον'),
+    ('8.1', 'ἔλεξεν Ξέρξης', 'ἔλεξε Ξέρξης'),
+    ('8C.2', 'ὑμῖν χώρην', 'ὑμῖν μίαν χώρην'),
+    ('16C.1', 'τὴν ἐσθῆτα', 'τὴν σὴν ἐσθῆτα'),
+    ('17.2', 'ἀποτρέπων', 'ἀποτράπων'),
+    ('18.3', 'τρέπομαι', 'τράπομαι'),
+    ('19.2', 'ἀρχὴν ἑωυτοῦ', 'ἀρχὴν τὴν ἑωυτοῦ'),
+    ('41.2', 'τρέποντες', 'τράποντες'),
+    ('55.2', 'τρέποντες', 'τράποντες'),
+    ('82.1', 'οἵ περεἰρέαται', 'οἵ περ εἰρέαται'),
+    ('96.1', 'Σαάκαι', 'Σάκαι'),
+    ('111.2', 'οἱ Διονύσου', 'οἱ τοῦ Διονύσου'),
+    ('129.1', 'ὑπωρείας', 'ὑπωρέας'),
+    ('130.2', 'ὑπόβρυχα', 'ὑποβρυχέα'),
+    ('146.1', 'Ξάρδις', 'Σάρδις'),
+    ('158.2', 'ἐπαυρέσιες', 'ἐπαυρήσιες'),
+    ('164.1', 'Κάδυος', 'Κάδμος'),
+    ('176.4', 'τήν νῦν', 'τήν περ νῦν'),
+    ('199.1', 'ὑπωρείαν', 'ὑπωρέην'),
+    ('205.1', 'Κλεομβρότου· οὗτος γὰρ ἦν νεώτατος Ἀναξανδρίδεω παῖς καὶ', 'Κλεομβρότου (οὗτος γὰρ ἦν νεώτατος Ἀναξανδρίδεω παῖς) καὶ'),
+    ('205.3', 'Ἑλλήνωι', 'Ἑλλήνων'),
+    ('219.1', 'Θερμοπύλῃσι Ἑλλήνων', 'Θερμοπύλῃσι ἐοῦσι Ἑλλήνων'),
+    ('226.1', 'ἀπίωσι', 'ἀπιέωσι'),
+]
+ACENTOS7 = [
+    ('100.2', 'πρῴρας', 'πρώρας'),
+    ('100.3', 'πρῴρας', 'πρώρας'),
+    ('123.2', 'δε', 'δὲ'),
+    ('128.1', 'μεγάθεΐ', 'μεγάθεϊ'),
+    ('154.3', 'ἐσσωθέντας', 'ἑσσωθέντας'),
+    ('175.2', 'ᾔδεσαν', 'ἤδεσαν'),
+    ('180.1', 'πρῴρης', 'πρώρης'),
+    ('220.2', 'ᾔσθετο', 'ἤσθετο'),
+    ('223.2', 'πολλῶ', 'πολλῷ'),
+]
+# depois da 2ª passada do graves.py, que poria de novo o agudo (κοὐ não é a enclítica κου; Godley imprime Ἰήσονος τε)
+DEPOIS7 = [
+    ('140.3', 'πυργώματά κοὐ', 'πυργώματα κοὐ'),
+    ('193.2', 'Ἰήσονός τε', 'Ἰήσονος τε'),
+]
+PARTES7 = [
+    ((1, 7), 'A morte de Dario; Xerxes decide a guerra'),
+    ((8, 11), 'O conselho de Xerxes'),
+    ((12, 19), 'Os sonhos de Xerxes e de Artábano'),
+    ((20, 25), 'O canal do Atos e as pontes'),
+    ((26, 32), 'Pítio, o lídio, e a marcha até Sardes'),
+    ((33, 43), 'As pontes do Helesponto e a marcha até Ílion'),
+    ((44, 53), 'Xerxes em Abidos: a conversa com Artábano'),
+    ((54, 60), 'A travessia e a contagem em Dorisco'),
+    ((61, 80), 'O exército: os povos e as armas'),
+    ((81, 88), 'Os comandantes, os Imortais e a cavalaria'),
+    ((89, 99), 'A frota e Artemísia'),
+    ((100, 105), 'A revista e a conversa com Demarato'),
+    ((106, 120), 'A marcha pela Trácia'),
+    ((121, 131), 'Pela Macedônia até a Tessália'),
+    ((132, 137), 'Os gregos que se deram aos medos; Espértias e Búlis'),
+    ((138, 144), 'Atenas e o muro de madeira'),
+    ((145, 152), 'A aliança dos gregos e Argos'),
+    ((153, 162), 'Gélon de Siracusa'),
+    ((163, 171), 'Hímera; Corcira e Creta'),
+    ((172, 178), 'Tempe abandonado; Termópilas e Artemísio'),
+    ((179, 187), 'Os primeiros encontros no mar; o tamanho do exército'),
+    ((188, 195), 'A tempestade na Magnésia'),
+    ((196, 201), 'Xerxes na Tessália e na Málida'),
+    ((202, 212), 'As Termópilas: os primeiros dias'),
+    ((213, 225), 'Efialtes e a última luta'),
+    ((226, 233), 'Os que se distinguiram; os epitáfios'),
+    ((234, 239), 'Demarato e o corpo de Leônidas'),
+]
 ED1 = ('A. D. Godley, Herodotus, vol. I (Loeb, Londres e Nova York, 1920); conferido com o fac-símile da impressão '
        'de 1921 (Internet Archive herodotud0000adgo); ver LEIAME.md')
 ED2 = ('A. D. Godley, Herodotus, vol. II (Loeb, Londres e Nova York, 1921); conferido com o fac-símile da impressão '
@@ -223,10 +294,12 @@ LIVROS = {1: dict(corr=CORR1, acentos=ACENTOS1, partes=PARTES1, aceitos='acentos
           5: dict(corr=CORR5, acentos=ACENTOS5, partes=PARTES5, aceitos='acentos-aceitos-l5.tsv', letra='Ε',
                   romano='V', titulo='Ε · ΤΕΡΨΙΧΟΡΗ', ncaps=126, edicao=ED3),
           6: dict(corr=CORR6, acentos=ACENTOS6, partes=PARTES6, aceitos='acentos-aceitos-l6.tsv', letra='Ζ',
-                  romano='VI', titulo='Ζ · ΕΡΑΤΩ', ncaps=140, edicao=ED3)}
+                  romano='VI', titulo='Ζ · ΕΡΑΤΩ', ncaps=140, edicao=ED3),
+          7: dict(corr=CORR7, acentos=ACENTOS7, partes=PARTES7, aceitos='acentos-aceitos-l7.tsv', letra='Η',
+                  romano='VII', titulo='Η · ΠΟΛΥΜΝΙΑ', ncaps=239, edicao=ED3, depois=DEPOIS7)}
 L = LIVROS[LIVRO]
 CORR, ACENTOS, PARTES = L['corr'], list(L['acentos']), L['partes']
-SUB = dict(zip('ABCDEFG', 'αβγδεζη'))   # 121A–F (II), 92A–G (V), 86A–D (VI)
+SUB = dict(zip('ABCDEFGH', 'αβγδεζηθ'))   # 121A–F (II), 92A–G (V), 86A–D (VI), 8A–D, 9A–C, 10A–H, 16A–C (VII)
 def cap_marca(c):
     return c[:-1] + SUB[c[-1]] if c[-1] in SUB else c
 def cap_num(c):
@@ -258,7 +331,7 @@ def capitular(t):
     i = next(k for k, c in enumerate(t) if c.isalpha())
     return t[:i] + t[i].upper() + t[i + 1:]
 d = json.load(open(os.path.join(B, f'l{LIVRO}.json'), encoding='utf-8'))
-usadas, ac_usados, ngr, ndu = set(), set(), 0, 0
+usadas, ac_usados, dep_usados, ngr, ndu = set(), set(), set(), 0, 0
 caps = {}
 for c, secs in d['caps']:
     blocos, cur = [], ''
@@ -280,6 +353,11 @@ for c, secs in d['caps']:
                 if not ok: sys.exit(f'acento {ref} «{a}» não achado')
                 ac_usados.add(k)
         t = corrigir(t)[0]   # 2ª passada: um agudo do OCR antes de palavra que não é enclítica volta a grave
+        for k, (r, a, b) in enumerate(L.get('depois', [])):
+            if r == ref:
+                if t.count(a) != 1: sys.exit(f'depois {ref} «{a}» aparece {t.count(a)} vezes')
+                t = t.replace(a, b); dep_usados.add(k)
+        t = re.sub(r'(?<=\w)⟦n⟧(?=\w)', ' ', t)   # nota entre duas palavras sem espaço no Perseus (4.167.3, 5.16.1…)
         t = t.replace('⟦n⟧', '')
         t = re.sub(r'\s*⟦gap⟧\s*', ' … ', t)
         t = t.replace('ʼ', '’')
@@ -302,10 +380,10 @@ for c, secs in d['caps']:
             cur += (' ' if cur else '') + texto.strip()
     if cur.strip(): blocos.append(cur.strip())
     # maiúscula no começo do capítulo, como em Godley
-    m = re.match(r'(\[\d+[α-η]?\.\d+\] )(.*)$', blocos[0], re.S)
-    blocos[0] = m.group(1) + capitular(m.group(2))
+    m = re.match(r'(\[\d+[α-θ]?\.\d+\] )(.*)$', blocos[0], re.S)
+    if not m.group(2).startswith('…'): blocos[0] = m.group(1) + capitular(m.group(2))
     caps[c] = blocos
-falta = [CORR[k] for k in range(len(CORR)) if k not in usadas] + [ACENTOS[k] for k in range(len(ACENTOS)) if k not in ac_usados]
+falta = [CORR[k] for k in range(len(CORR)) if k not in usadas] + [ACENTOS[k] for k in range(len(ACENTOS)) if k not in ac_usados] + [x for k, x in enumerate(L.get('depois', [])) if k not in dep_usados]
 if falta: sys.exit(f'não aplicadas: {falta}')
 os.makedirs(os.path.join(OBRA, 'original'), exist_ok=True)
 n1 = 'Α' if LIVRO == 1 else L['letra']

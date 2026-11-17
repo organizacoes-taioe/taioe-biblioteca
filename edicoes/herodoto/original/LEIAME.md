@@ -190,6 +190,40 @@ escreve 86A–86D. Colchetes de Godley no livro VI: 111.2 e o capítulo 122 inte
 Versos: o oráculo dos argivos e dos milésios (19.2 e 77.2), o de Glauco (86γ.2) e o de Delos (98.3). Título:
 «Ζ · ΕΡΑΤΩ».
 
+## Livro VII (2026-11-17)
+
+Mesmo volume (vol. III de Godley, 1922) e mesmas fontes dos livros V e VI: o fac-símile `in.ernet.dli.2015.183370` nas
+p. 316–574 do PDF (páginas pares; OCR em `ocr7/`, páginas em `pag7/`, roteiro `scripts/ocr1922-l7.sh`) e a 2ª leitura
+`herodotus19203hero`, de «BOOK VII» até o índice. A colação deu 70 pontos de letras (quase todos ζ lido como ξ, Ξ lido
+como Ἐξ e maiúsculas), 631 de acentos (35 aceitos pela regra, 45 a ver), 92 fracos e 12 buracos; 74 pontos vistos nas
+imagens. Dois «aceitos pela regra» o fac-símile desmentiu (100.1 ἓν e 235.1 ὃ) e saíram da lista; três (141.3 Ζεύς,
+220.4 φημί, 228.3 εἰδώς, fins de verso) o Perseus já tinha.
+
+Correções ao Perseus (o fac-símile tem a forma da direita): 8.1 ἐπίκητον → ἐπίκλητον, ἔλεξεν → ἔλεξε; 17.2
+ἀποτρέπων → ἀποτράπων, 18.3 τρέπομαι → τράπομαι, 41.2 e 55.2 τρέποντες → τράποντες (jônico, como nos livros
+anteriores); 82.1 οἵ περεἰρέαται → οἵ περ εἰρέαται; 96.1 Σαάκαι → Σάκαι; 129.1 ὑπωρείας → ὑπωρέας, 199.1 ὑπωρείαν →
+ὑπωρέην; 130.2 ὑπόβρυχα → ὑποβρυχέα; 146.1 Ξάρδις → Σάρδις; 158.2 ἐπαυρέσιες → ἐπαυρήσιες; 205.3 Ἑλλήνωι → Ἑλλήνων;
+226.1 ἀπίωσι → ἀπιέωσι; seis palavras que o Perseus perdeu: 8γ.2 «μίαν», 16γ.1 «σὴν», 19.2 «τὴν», 111.2 «τοῦ»,
+176.4 «περ», 219.1 «ἐοῦσι»; e os parênteses de Godley em 205.1, que o Perseus trocou por ponto alto. Em 164.1 Godley
+imprime Κάδυος (o Perseus o copia), erro tipográfico: fica Κάδμος, como no resto do capítulo. Acentos: 100.2, 100.3
+πρώρας e 180.1 πρώρης (Godley sem iota subscrito aqui), 123.2 δὲ, 128.1 μεγάθεϊ, 154.3 ἑσσωθέντας (como nos outros
+livros), 175.2 ἤδεσαν, 220.2 ἤσθετο, 223.2 πολλῷ; depois das regras do `graves.py`, que os acentuariam de novo
+(`DEPOIS7`), 140.3 πυργώματα (κοὐ não é a enclítica κου) e 193.2 Ἰήσονος τε; e os 30 aceitos pela regra
+(`ferramentas/acentos-aceitos-l7.tsv`, quase todos ὃ pronome antes de δέ). Ficaram como no Perseus, conferidos: 9.1,
+11.1, 101.1, 234.1 εἶς («és»), 10γ.1 οἰκηίῃ, 16β.1 φῄς, 103.1 φῂς, 30.2 καταπεπηγυῖα, 104.5, 119.2, 130.2, 190.1
+τἆλλα, 112.1 ἐνὶ, 140.3 οἶον, 157.2 ᾖ, 208.2 οὒ, 233.1 ἆσσον, 135.2 ἄνδρες; e dois erros tipográficos de Godley:
+98.1 ἐπιπλέοντων (fica ἐπιπλεόντων), 220.3 «ἢ τὴν βασιλέα» (fica τὸν), e 129.1 Θεσσαλίῃ (fica Θεσσαλίη, nominativo).
+
+Os capítulos 8α–8δ, 9α–9γ, 10α–10θ (o conselho de Xerxes: os discursos de Xerxes, Mardônio e Artábano) e 16α–16γ (a
+resposta de Artábano a Xerxes) têm a numeração de Hude, que o Perseus escreve 8A–8D, 9A–9C, 10A–10H, 16A–16C; a marca
+`[10θ.1]` levou o θ às ferramentas (`montar.py`, `conferir.py`, `ferramentas/traducoes.py`). Sem colchetes de Godley no
+livro VII; lacunas, «…»: 61.1, 76.1 (o capítulo começa por ela, e a primeira palavra fica em minúscula, como em
+Godley) e 154.1. Versos: os oráculos aos atenienses (140.2–3, 141.3–4), o oráculo dos espartanos sobre Leônidas
+(220.4) e os epitáfios das Termópilas (228.1–3). Título: «Η · ΠΟΛΥΜΝΙΑ».
+
+Conserto comum (2026-11-17): onde o Perseus põe a nota de Godley entre duas palavras sem espaço (4.167.3, 4.169.1,
+5.16.1, 5.69.2, 5.73.1, 7.76.1, 7.220.4), o `montar.py` juntava as duas palavras («Δαρείουοὐδέν»); agora as separa.
+
 ## Numeração e divisão
 
 Capítulos e seções (`[5.2]`) são os do Perseus, os usuais (livro I: 216 capítulos); o proêmio é `[1.0]`. Os grupos

@@ -10,9 +10,9 @@ for f in sorted(glob.glob('original/livro*.txt')):
     erros = []
     if len(ob) != len(tb): erros.append(f'blocos {len(ob)} × {len(tb)}')
     for i, (a, b) in enumerate(zip(ob, tb)):
-        if re.findall(r'\[\d+[α-η]?\.\d+\]', a) != re.findall(r'\[\d+[α-η]?\.\d+\]', b): erros.append(f'marcas no bloco {i + 1}')
+        if re.findall(r'\[\d+[α-θ]?\.\d+\]', a) != re.findall(r'\[\d+[α-θ]?\.\d+\]', b): erros.append(f'marcas no bloco {i + 1}')
         if a.count('| ') != b.count('| ') and a.startswith('| '): erros.append(f'versos no bloco {i + 1}')
-        if a.count('[') - len(re.findall(r'\[\d+[α-η]?\.\d+\]', a)) != b.count('[') - len(re.findall(r'\[\d+[α-η]?\.\d+\]', b)): erros.append(f'colchetes no bloco {i + 1}')
+        if a.count('[') - len(re.findall(r'\[\d+[α-θ]?\.\d+\]', a)) != b.count('[') - len(re.findall(r'\[\d+[α-θ]?\.\d+\]', b)): erros.append(f'colchetes no bloco {i + 1}')
     if MES.search(open(t, encoding='utf-8').read()): erros.append('mesóclise')
     print(os.path.basename(f), 'ok' if not erros else erros); ok = ok and not erros
 sys.exit(0 if ok else 1)

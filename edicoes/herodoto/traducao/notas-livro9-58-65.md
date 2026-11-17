@@ -76,3 +76,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 58.3: «perdoava de bom grado, porque elogiáveis esses homens» — a causal soa estranha para o genitivo absoluto («vós, inexperientes... elogiando-os») → «quando elogiáveis esses homens» ou «já que elogiáveis esses homens».
+- Resto da parte (58–65) conferido seção por seção: sem omissão, negação ou número trocado.

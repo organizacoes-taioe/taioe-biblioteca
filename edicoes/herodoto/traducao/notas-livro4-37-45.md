@@ -34,3 +34,7 @@
 ## Candidatos a decisão do Gere
 - 43.5 ἐσθῆτι φοινικηίῃ: a palavra pode ser «de palmeira» (φοῖνιξ, a palmeira) ou «vermelha, púrpura» (φοῖνιξ, a cor).
   Adotei «roupa de folha de palmeira», como Godley e boa parte dos tradutores; alternativa: «roupa vermelha».
+
+## Revisão contra o grego
+- 45.3: nome fora do CONVENCOES: «Ásies» (Ἀσίης, o filho de Cótis) e «Asíade» (a tribo de Sardes) → a convenção dá «Ásias» para o nome (e para a tribo); uniformizar com ela (ex.: «por Ásias, filho de Cótis, filho de Manes» e «a tribo de Sardes que se chama Ásias»), ou, se se mantiver «Asíade», atualizar a convenção.
+Nenhum outro problema de sentido, número ou negação nesta parte (medidas de 41.1, prazos de 42.4, 44.2 e 43.4 conferem).

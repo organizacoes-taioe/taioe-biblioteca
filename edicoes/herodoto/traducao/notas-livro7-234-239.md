@@ -51,3 +51,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 235.3: «Partindo dessa ilha, que eles aterrorizem os lacedemônios»: o «eles» vem depois de «os lacedemônios» (235.1–2 falam de lacedemônios) e pode ser lido como os próprios espartanos; o sujeito do grego são os homens da frota de Xerxes → «Partindo dessa ilha, que os teus homens aterrorizem os lacedemônios».
+- Resto da parte: números (8 000 espartanos; 300 navios para Citera; 400 navios naufragados; 300 mandados em volta do Peloponeso), nomes (Quílon, Aquêmenes, Gorgo) e negações conferem com o grego.

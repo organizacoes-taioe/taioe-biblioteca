@@ -37,3 +37,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. Conferidos os números (oitenta mil homens, 143.3; dezessete anos, 144.2; seis tiranos do Helesponto e quatro da Jônia mais o eólio, 138) e os nomes.

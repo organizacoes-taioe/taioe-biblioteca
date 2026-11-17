@@ -80,3 +80,10 @@
 - **129.4, a resposta de Hipoclides** (o provérbio grego, que Heródoto diz ter nascido ali): «Hipoclides não se importa»
   (recomendado: a fala curta, no tom de pouco caso, com o nome na terceira pessoa, como no grego) ou «Pouco importa a
   Hipoclides» (mais perto da construção do grego, «nenhuma preocupação para Hipoclides», e com mais jeito de provérbio).
+
+## Revisão contra o grego
+- 126.3: «e os mantinha ali» é acréscimo (não está no grego, que só diz que Clístenes mandou fazer pista e palestra «para esse fim»; os pretendentes são retidos só em 128.1) → cortar «e os mantinha ali».
+- 126.1 (dúvida): «na geração seguinte» para δευτέρῃ ὕστερον («na segunda geração depois») → conferir; «duas gerações depois» é a leitura literal, e a de Godley é «na geração seguinte» (inclusiva); decidir e manter.
+- 127.2 (menor): «Da Etólia veio o irmão de Titormo» → o grego dá primeiro «veio um etólio», e depois quem era: «Veio um etólio: Males, irmão de Titormo, aquele que...».
+- 122.2 (menor): «a esse homem a deu» → «a esse homem a deu em casamento» (falta o objeto, que no grego fica subentendido na filha).
+- Resto do lote: sem omissão, número ou negação trocados; números (cem bois, sessenta dias, um ano, um talento) conferem; nomes conforme o CONVENCOES.

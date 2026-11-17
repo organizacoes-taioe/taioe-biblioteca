@@ -67,3 +67,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 143.2: «tantos quantos eu disse» põe Heródoto como sujeito; no grego quem disse o número são os sacerdotes → «tantos quantos eles disseram» (os 345 colossos de 143.4).

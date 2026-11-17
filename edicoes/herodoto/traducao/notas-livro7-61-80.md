@@ -21,18 +21,18 @@
   (Ἀνάφης), filho de Otanes; **Megápano** (Μεγάπανος); **Otaspes** (Ὀτάσπης), filho de Artaqueu (Ἀρταχαίης, a forma de
   22.2); Histaspes, filho de Dario e de Atossa; **Farnazatres** (Φαρναζάθρης), filho de **Artabates**; **Sisamnes**,
   filho de Hidarnes; **Artabazo**, filho de **Farnaces**; **Azanes** (Ἀζάνης), filho de Arteu (como em 22.2);
-  **Artífio** (Ἀρτύφιος), filho de Artábano; **Ariomardo** (Ἀριόμαρδος: o irmão de Artífio, 67.1, e o filho de Dario,
+  **Artífio** (Ἀρτύφιος), filho de Artabano; **Ariomardo** (Ἀριόμαρδος: o irmão de Artífio, 67.1, e o filho de Dario,
   78.1, que têm o mesmo nome); **Ferendates** (Φερενδάτης), filho de Megabazo; **Artaíntes** (Ἀρταΰντης), filho de
   **Itamitres** (Ἰθαμίτρης); **Arsamenes** (Ἀρσαμένης), filho de Dario; **Siromitres** (Σιρομίτρης), filho de Eobazo
   (a forma do livro IV); **Arsames**, filho de Dario e de Artistone (livro III); **Massages** (Μασσάγης), filho de
   **Oarizo** (Ὀάριζος); **Dotos** (Δῶτος), filho de **Megasidro** (Μεγασίδρης); **Gobrias**, filho de Dario e de
   Artistone; **Artocmes** (Ἀρτόχμης); Lido, filho de Átis (a forma do livro I); Artafernes, filho de Artafernes (livro
-  VI); **Bassaces** (Βασσάκης), filho de Artábano; **Badres**, filho de **Histanes** (Ὑστάνης); Pármis, filha de
+  VI); **Bassaces** (Βασσάκης), filho de Artabano; **Badres**, filho de **Histanes** (Ὑστάνης); Parmis, filha de
   Esmérdis (livro III); **Artaíctes, filho de Querásmis** (Χεράσμις; Artaíctes como em 33.1); **Farandates**
   (Φαρανδάτης), filho de **Teáspis** (Τεάσπις); **Masístio** (Μασίστιος), filho de Siromitres; **Mardontes**
   (Μαρδόντης), filho de Bageu (livro III).
 - Lugares: a Cólquida, Atenas, a Babilônia, o Egito, a Líbia, o monte Olimpo (o da Mísia), o Estrímon, Maratona,
-  Sestos, Mícale, o mar Vermelho.
+  Sesto, Mícale, o mar Vermelho.
 - Armas e roupas (a regra é o vocabulário comum, sem «acinace», «gérron», «pelta»):
   - τιάραι, πῖλοι ἀπαγέες (61.1) → «gorros de feltro moles, chamados tiaras» (como em 1.132: «gorros de feltro, as
     tiaras»); πῖλοι (62.2) → «gorros de feltro»; μίτραι, μιτρηφόροι → «turbantes» (como em 1.195); κυρβασίαι (64.2)

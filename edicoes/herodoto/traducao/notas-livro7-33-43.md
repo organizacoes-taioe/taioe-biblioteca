@@ -1,11 +1,11 @@
 # Notas: livro VII, 33–43
 
 ## Nomes e termos
-- Abidos, Sestos, o Quersoneso, Eleunte (CONVENCOES e 20–25); **Madito** (Μάδυτος); **Xantipo, filho de Arífron**
-  (Ξάνθιππος ὁ Ἀρίφρονος); **Artaíctes** (Ἀρταΰκτης), governador de Sestos; **Protesilau** (Πρωτεσίλεως).
+- Ábido, Sesto, o Quersoneso, Eleunte (CONVENCOES e 20–25); **Madito** (Μάδυτος); **Xantipo, filho de Arífron**
+  (Ξάνθιππος ὁ Ἀρίφρονος); **Artaíctes** (Ἀρταΰκτης), governador de Sesto; **Protesilau** (Πρωτεσίλεως).
 - **niseus** (Νησαῖοι ἵπποι) e a planície **Niseu** (Νήσαιον), na Média (40.2–3); **Patiranfes** (Πατιράμφης), filho
   de Otanes.
-- A marcha (42–43): o **Caico** (Κάικος), a terra mísia, o monte **Cane** (Κάνη), **Atarneu** (a forma do livro VI),
+- A marcha (42–43): o **Caíco** (Κάικος), a terra mísia, o monte **Cane** (Κάνη), **Atarneu** (a forma do livro VI),
   **Carene** (Καρήνη), a planície de **Tebe** (Θήβης πεδίον), **Adramítio** (Ἀδραμύττειον), Antandro, a pelásgica; o
   **Ida**; a terra de Ílion (ἡ Ἰλιὰς γῆ); o Escamandro, a Pérgamo de Príamo, Atena Ília (CONVENCOES); **Reteu**
   (Ῥοίτειον), **Ofríneo** (Ὀφρύνειον), **Dárdano** (a forma do livro V); os **gergites** teucros (Γέργιθες Τευκροί).

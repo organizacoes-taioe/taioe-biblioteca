@@ -9,7 +9,7 @@
 - Gelão, filho de Dinómenes (CONVENCOES), a Sicília, Corcira, Creta; τὰ Γέλωνος πρήγματα → «o poder de Gelão».
 - οἱ κατάσκοποι (145.2–148.1) → «os espiões»; βασανίζειν (146.1) → «interrogar sob tortura»; ἐπάιστοι ἐγένοντο → «foram
   descobertos»; ἀσινέας (146.3) → «sem nenhum dano»; οἱ δορυφόροι → os lanceiros (CONVENCOES); ἡ ἵππος → «a cavalaria».
-- Abidos, o Ponto, o Helesponto, Egina, o Peloponeso (147.2); πλοῖα σιταγωγά → «barcos carregados de trigo»; οἱ
+- Ábido, o Ponto, o Helesponto, Egina, o Peloponeso (147.2); πλοῖα σιταγωγά → «barcos carregados de trigo»; οἱ
   πάρεδροι → «os que estavam sentados junto dele»; σιτία → «mantimentos».
 - Argos e os argivos; Cleômenes, filho de Anaxândrides (os seis mil mortos: Sépeia, livro VI); τὸ βουλευτήριον
   (148.3) → «o conselho» (o lugar); ἡ βουλή (149.1) → «o conselho»; σπονδαί (149.1) → «trégua», εἰρήνη (148.4) →

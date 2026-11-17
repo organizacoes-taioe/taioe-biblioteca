@@ -14,7 +14,7 @@
   sete, livro III); Megabazo, filho de Megabates (livro V); Aquêmenes, filho de Dario.
 - Os mais famosos (98.1), na ordem do grego (o gentílico antes do nome): o sidônio **Tetramnesto** (Τετράμνηστος),
   filho de **Aniso** (Ἄνυσος); o tírio **Maten** (Ματτήν), filho de **Siromo** (Σίρωμος, a forma do livro V); o
-  **arádio** (de Arado) **Mérbalo** (Μέρβαλος), filho de **Agbalo** (Ἄγβαλος); o cilício **Sienésis** (Συέννεσις),
+  **arádio** (de Arado) **Mérbalo** (Μέρβαλος), filho de **Agbalo** (Ἄγβαλος); o cilício **Siênesis** (Συέννεσις),
   filho de **Oromedonte** (Ὠρομέδων); o lício **Cibernisco** (Κυβερνίσκος), filho de **Sicas** (Σίκας); os cipriotas
   Gorgo, filho de Quérsis (o rei de Salamina do livro V), e **Timônax** (Τιμῶναξ), filho de **Timágoras**; dos cários,
   Histieu, filho de Timnes (o de Termera, livro V), Pigres, filho de **Hisseldomo** (Ὑσσέλδωμος), e **Damasítimo**

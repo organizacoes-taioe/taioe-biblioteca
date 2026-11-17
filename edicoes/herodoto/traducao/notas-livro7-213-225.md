@@ -31,7 +31,7 @@
 - τὰ δόρατα → «as lanças»; τὰ ξίφεα (224.1) e αἱ μάχαιραι (225.3) → «espadas» (as duas palavras ficaram iguais, como
   nas partes anteriores, salvo onde o grego as opõe, 91.1).
 - **Abrocomes** (Ἀβροκόμης) e **Hiperantes** (Ὑπεράνθης), filhos de Dario e de **Fratagune** (Φραταγούνη), filha de
-  **Artanes** (Ἀρτάνης), filho de Histaspes, filho de **Ársames** (Ἀρσάμης; livro I).
+  **Artanes** (Ἀρτάνης), filho de Histaspes, filho de **Arsames** (Ἀρσάμης; livro I).
 - ὁ ὠθισμός (225.1) → «empurra-empurra» (o embate de escudos contra escudos); ὁ κολωνός → «o outeiro»; ὁ λίθινος λέων →
   «o leão de pedra».
 

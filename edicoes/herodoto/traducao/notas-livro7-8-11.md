@@ -1,7 +1,7 @@
 # Notas: livro VII, 8–11
 
 ## Nomes e termos
-- Xerxes, Mardônio, Artábano, Gobrias, Histaspes, Dátis, Artafernes, Aristágoras, Histieu (CONVENCOES).
+- Xerxes, Mardônio, Artabano, Gobrias, Histaspes, Dátis, Artafernes, Aristágoras, Histieu (CONVENCOES).
 - A genealogia de 11.2: Dario, Histaspes, Arsames, **Ariaramnes** (Ἀριαράμνης), **Teíspes** (Τεΐσπης, duas vezes),
   Ciro, Cambises, **Aquêmenes** (Ἀχαιμένης); a cadeia de genitivos ficou «filho de… filho de…», como no grego.
 - Pélops, o frígio (8γ.1, 11.4); os **sacas** (Σάκαι, 9.2); os indianos (como no livro III); etíopes, assírios.
@@ -25,14 +25,14 @@
   aos homens da tentativa» (eco de ἀπείρητον, «sem ser tentado»).
 - 10.1 ἐπιλεήνας → «depois de polir» (deixar lisa, agradável, a opinião de Xerxes).
 - 10β.1–2 καὶ δὴ καὶ συνήνεικε… / οὔκων ἀμφοτέρῃ σφι ἐχώρησε → «suponhamos que te aconteça…» / «Suponhamos, então,
-  que não tenham sucesso nos dois»: as duas hipóteses de Artábano, como as entende Godley.
+  que não tenham sucesso nos dois»: as duas hipóteses de Artabano, como as entende Godley.
 - 10δ.2 εὕρημα εὕρηκε → «fez um achado» (ganho de sorte, não de conselho).
 - 10ε.1 κολούειν → «cortar» (podar o que se eleva); φρονέειν μέγα → «ter orgulho».
 - 10θ.1 ἐν ἤθεσι τοῖσι Περσέων → «em casa, entre os persas».
-- 10θ.3 ἢ σέ γε ἐν τῇ Λακεδαιμονίων: o σέ é a hesitação do grego (Artábano passa do «alguém ouvirá» ao «tu»); ficou
+- 10θ.3 ἢ σέ γε ἐν τῇ Λακεδαιμονίων: o σέ é a hesitação do grego (Artabano passa do «alguém ouvirá» ao «tu»); ficou
   «ou na dos lacedemônios», sem o pronome.
 - 11.4 ἵνα καὶ τὸ δεινὸν τὸ πείσομαι τοῦτο μάθω → «para que eu fique sabendo também que coisa terrível é essa que
-  vou sofrer» (a ironia de Xerxes sobre o «perigo» de Artábano).
+  vou sofrer» (a ironia de Xerxes sobre o «perigo» de Artabano).
 - Aspas: o Perseus fecha e reabre as falas a cada marca com letra (8α–8δ, 9α–9γ, 10α–10θ); como no livro VI (86α–δ),
   cada discurso ficou com uma abertura e um fecho só.
 

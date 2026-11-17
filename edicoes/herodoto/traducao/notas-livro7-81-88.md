@@ -1,7 +1,7 @@
 # Notas: livro VII, 81–88
 
 ## Nomes e termos
-- Generais da infantaria (82.1): Mardônio, filho de Gobrias; **Tritantecmes** (Τριτανταίχμης), filho de Artábano;
+- Generais da infantaria (82.1): Mardônio, filho de Gobrias; **Tritantecmes** (Τριτανταίχμης), filho de Artabano;
   **Esmerdômenes** (Σμερδομένης), filho de Otanes; Masistes, filho de Dario e de Atossa; **Gérgis** (Γέργις), filho de
   **Ariazo** (Ἀριάζος); Megabizo, filho de Zópiro.
 - Hidarnes, filho de Hidarnes (83.1), general dos Imortais (οἱ ἀθάνατοι, CONVENCOES).

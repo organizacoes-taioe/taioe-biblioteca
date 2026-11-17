@@ -9,7 +9,7 @@
   (Κάδυτις, 159.2); os milésios (159.3); os eleus (Ἠλεῖοι, 160) e Olímpia; Sidônia (Σιδών, 161.2: a forma da
   liturgia no Brasil, «Tiro e Sidônia»); «o de Tiro» (τῷ Τυρίῳ, 161.2: o grego diz só «o tírio», o rei ou a cidade;
   ficou assim); as histórias da Líbia (ἐν τοῖσι Λιβυκοῖσι λόγοισι, 161.3: o livro IV); Patarbêmis (162.3); Momênfis
-  (Μώμεμφις, 163.2, 169.1); a ilha Prosopítis e Natô (165.1); os trácios, os citas, os persas, os lídios (167.1); os
+  (Μώμεμφις, 163.2, 169.1); a ilha Prosópitis (como em 41.4) e Natô (165.1); os trácios, os citas, os persas, os lídios (167.1); os
   coríntios (167.2); o lago Redondo de Delos (ἡ τροχοειδὴς καλεομένη, 170.2); as Tesmofórias (171.2); as filhas de
   Dânao (171.3); os árcades; o Peloponeso.
 - Os distritos dos guerreiros (165.1, 166.1): ficaram como adjetivos, à maneira do grego, em minúscula: o busirita, o

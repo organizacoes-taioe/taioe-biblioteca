@@ -1,8 +1,48 @@
 # Heródoto, Histórias: estado
 
-Livros I a IV no ar (PRs #100, #113, #115 e #116). Livro V pronto na branch `pedido-herodoto-5` (worktree
-`~/.cache/claude-wt5-herodoto-5`); livro VI pronto na `pedido-herodoto-6` (worktree `~/.cache/claude-wt5-herodoto-6`),
-que parte da `pedido-herodoto-5` e a contém: basta juntar a do VI. Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+Livros I a IV no ar (PRs #100, #113, #115 e #116). Livros V a VIII prontos em branches encadeadas: `pedido-herodoto-5`,
+`-6`, `-7` e `pedido-herodoto-8` (contém todas; worktree `~/.cache/claude-wt5-herodoto-8`): basta juntar a do VIII (ou
+a do VII, se o VIII não for agora). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+
+## Livro VIII (Urânia): pronto (2026-11-17)
+- Grego montado e conferido (`original/livro8-*.txt`, 18 partes; `original/LEIAME.md`, «Livro VIII»). Fonte nova: o
+  vol. IV de Godley (1924, `bwb_Y0-DUM-764`, PDF em `dl8/v4-1924.pdf`, p. 26–178; OCR em `ocr8/`, páginas em `pag8/`,
+  pranchas em `ver8/`); 2ª leitura `dl8/in.ernet.dli.2015.69772.txt` (reimpressão de 1930). `colacao.py . 8`,
+  `acentos.py . 8`, `montar.py . <obra> 8`. 9 palavras com letras trocadas, uma que faltava (74.2) e uma a mais (2.1:
+  Godley não tem ὦν), os parênteses de 67.1 e 75.2, 15 acentos; 35 pontos vistos nas imagens. Marcas 60α–γ, 68α–γ,
+  140α–β; colchetes 104.1–105.1; lacuna 124.2.
+- Tradução por três tradutores Opus em sequência (1–55, 56–107, 108–144); revisão contra o grego por um revisor Sonnet;
+  um aplicador Opus (21 achados aplicados, 13 recusados; Pérdicas, triacôntera, «o istmo» em minúscula):
+  `traducao/notas-livro8-1-5.md`, «Revisão aplicada». `CONVENCOES.md`, seção «Livro VIII», pelos nomes finais.
+- `obra.py` (145 partes; a «Sobre» com o livro VIII e o fac-símile do vol. IV), `revisao.json` (+2 decisões: «o ser
+  grego», 144.2; «a Mãe e a Donzela», 65.4; recomendação aplicada, nada muda no ar), vocabulário (+5 verbetes, 155 no
+  total, `conferir` ok), `conteudo/` gerado. `gerar.mjs` e `conferir.mjs` sem erro; os endereços dos livros I a IV não
+  mudam.
+- Candidatos que ficaram nas notas: 55.1 «uma oliveira e um mar»; 140α.1–2, as aspas da mensagem do rei fecham onde
+  Godley as fecha (o Perseus fecha antes).
+
+## Livro VII (Polímnia): pronto (2026-11-17)
+- Grego montado e conferido (`original/livro7-*.txt`, 27 partes; `original/LEIAME.md`, «Livro VII»): mesmo PDF do vol. III
+  (p. 316–574; OCR em `ocr7/`, páginas em `pag7/`, pranchas em `ver7/`, na pasta de trabalho
+  `~/.cache/claude-pedidos-0511/herodoto/`); `colacao.py . 7`, `acentos.py . 7`, `montar.py . <obra> 7`. 16 palavras com
+  letras trocadas (Κάδμος em 164.1 é erro tipográfico do próprio Godley), seis que faltavam, os parênteses de 205.1, uns
+  40 acentos; 74 pontos vistos nas imagens. Marcas 8α–8δ, 9α–9γ, 10α–10θ, 16α–16γ (o θ entrou em `montar.py`,
+  `conferir.py` e `ferramentas/traducoes.py`). `montar.py` ganhou `DEPOIS7` (acentos que o `graves.py` refaria) e não
+  põe maiúscula em capítulo que começa por lacuna (76.1).
+- Consertos em livros já prontos: livro IV, os parênteses de 34.2 e 35.3 (sobravam «ʽ» soltos do Perseus); livros IV e
+  V, cinco lugares onde a nota de Godley juntava duas palavras («Δαρείουοὐδέν»: 4.167.3, 4.169.1, 5.16.1, 5.69.2,
+  5.73.1); livro VI, «Ácanto» → «Acanto» (6.44.2).
+- Tradução por quatro tradutores Opus em sequência (1–7 e 121–162; 8–53; 54–120; 163–239); revisão contra o grego por
+  dois revisores Sonnet (registro no fim de cada `traducao/notas-livro7-*.md`); um aplicador Opus julgou os achados (33
+  aplicados, 8 recusados) e uniformizou os nomes com os livros I–VI (Artabano, Ábido, Sesto, Âmpelo, Dinômenes…):
+  `traducao/notas-livro7-1-7.md`, «Revisão aplicada». `CONVENCOES.md`, seção «Livro VII», acertada pelos nomes finais.
+- `obra.py` (127 partes; a «Sobre» com o livro VII), `revisao.json` (+3 decisões: o último verso do oráculo do muro de
+  madeira, «mergulhai a alma na dor», 140.3, aplicada; «muita gente, mas poucos homens», 210.2; «Estrangeiro, vai dizer
+  aos lacedemônios», 228.2; recomendação aplicada), vocabulário (+12 verbetes, 150 no total, `conferir` ok),
+  `conteudo/` gerado. `gerar.mjs` e `conferir.mjs` sem erro; os endereços dos livros I a IV não mudam (os do V, VI e VII
+  são novos).
+- Candidatos que ficaram nas notas, sem ir ao Gere (recomendação aplicada): 10ε.1 «deus não deixa que ninguém tenha
+  orgulho», 102.1 «valor» (ἀρετή), 139.3 «túnicas de muralhas», 176.3 «os Caldeirões», 231.1 «Aristodemo, o que tremeu».
 
 ## Livro VI (Érato): pronto (2026-11-17)
 - Grego montado e conferido (`original/livro6-*.txt`, 14 partes; `original/LEIAME.md`, «Livro VI»): mesmo PDF do vol. III
@@ -73,10 +113,21 @@ que parte da `pedido-herodoto-5` e a contém: basta juntar a do VI. Regras da ro
 ## Para o principal
 - Juntar a branch, gerar, Catálogo `obras` (a obra já existe: atualiza) e `traducoes` se houver decisões novas.
   Nenhuma regra de `_redirects`.
-- Mudança comum: `ferramentas/traducoes.py` aceita marca `[121α.1]` (letra grega depois do capítulo).
+- Mudança comum: `ferramentas/traducoes.py` aceita marca `[121α.1]` (letra grega depois do capítulo), agora de α a θ
+  (`[10θ.1]` no livro VII). O livro IV, já no ar, muda no original ao lado (34.2, 35.3, 167.3, 169.1): o Catálogo `obras`
+  cobre. Decisões novas do VII: 3 (`l7-oraculo-muralhas`, `l7-poucos-homens`, `l7-estrangeiro`). Do VIII: 2 (`l8-ser-grego`, `l8-donzela`).
 
-## Livro seguinte (como continuar)
-- O livro VII está no mesmo vol. III (no PDF `dl5/v3-1922.pdf`, o título «BOOK VII» na p. 315 e o grego nas páginas
-  pares a partir da 316, até o fim do volume); a 2ª leitura, de «BOOK VII» até o índice: acrescentar o recorte do 7 ao
-  `colacao.py` e o bloco 7 ao `montar.py` (`ED3`, título «Η · ΠΟΛΥΜΝΙΑ»). Os livros VIII e IX estão no vol. IV (1925).
+## Livro IX (como continuar)
+- Mesmo PDF do vol. IV (`dl8/v4-1924.pdf`): o título «BOOK IX» na p. 181, o grego nas páginas pares de 182 até ~324
+  (o índice começa na 327; conferir o fim nas imagens). 2ª leitura: `dl8/in.ernet.dli.2015.69772.txt`, de «BOOK IX» até
+  «INDEX» (o recorte do 9 já está no `colacao.py`). O OCR do próprio `bwb_Y0-DUM-764` (`dl8/bwb_Y0-DUM-764.txt`) tem
+  grego, mas é da mesma digitalização: serve de 3ª leitura.
+- Passos, como no VIII: `extrair.py dl/her-grc2.xml 9 l9.json`; roteiro de OCR `scripts/ocr1924-l9.sh` (copiar o
+  `ocr1924-l8.sh`, trocando as páginas e as pastas); no `montar.py`, `CORR9`, `ACENTOS9`, `PARTES9` e o bloco 9 em
+  `LIVROS` (`ED4`, título «Ι · ΚΑΛΛΙΟΠΗ», 122 capítulos). Conferir com `ast.parse` depois de mexer (a aspa do `ED1 = ('`
+  já quebrou três vezes). `grep ʽ` no `l9.json` (parênteses de Godley que o Perseus marca com sinal solto). Roteiros:
+  `~/.cache/claude-pedidos-0511/herodoto/TRADUTOR-L8.md`, `REVISOR-L8.md` (trocar 8 por 9); `scripts/godley.py 9 a b`.
+  Com o IX, a «Sobre» deixa de dizer «por enquanto»: a obra fica completa (tirar o «em andamento» do pedido).
+
+## Outros
 - Notas gerais (lote futuro): livro I, o jogo Κυνώ/Σπακώ (110.1), παθήματα/μαθήματα (207.1), as Musas nos títulos.

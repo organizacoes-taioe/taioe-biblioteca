@@ -25,28 +25,31 @@ META = {
             'debate sobre a melhor forma de governo, as satrapias e os tributos do império, os confins da terra (a Índia e a '
             'Arábia), o médico Democedes e a revolta de Babilônia. O livro IV, _Melpômene_, é o dos citas e o da Líbia: a origem, a terra, os rios e os '
             'costumes dos citas e dos povos vizinhos (as amazonas entre eles), a expedição de Dario contra eles, que volta pela ponte do '
-            'Istro, e, do outro lado do mundo, a fundação de Cirene, os povos da Líbia e o cerco de Barca.\n\n'
-            '**Em partes.** Por enquanto estão aqui os livros I a IV; os outros cinco vêm depois, um a um, com as mesmas '
+            'Istro, e, do outro lado do mundo, a fundação de Cirene, os povos da Líbia e o cerco de Barca. O livro V, _Terpsícore_, é o da '
+            'revolta jônica: Megabazo na Trácia, Histieu e Aristágoras de Mileto, Aristágoras em Esparta e em Atenas, a história de '
+            'Atenas depois dos tiranos (Clístenes e as tribos, as guerras com Tebas, Cálcis e Egina), o discurso do coríntio '
+            'Sosícles contra a tirania, com Cípselo e Periandro, o incêndio de Sardes e a guerra em Chipre e na Cária.\n\n'
+            '**Em partes.** Por enquanto estão aqui os livros I a V; os outros quatro vêm depois, um a um, com as mesmas '
             'convenções.\n\n'
             '**A divisão.** Os capítulos e as seções são os da numeração usual (as pequenas marcas no texto: 5.2 é o '
-            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II, 160 no III e 205 no IV (no II, a história '
-            'de Rampsinito, o capítulo 121, se divide em 121α a 121ζ). Os grupos de capítulos e os títulos '
+            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II, 160 no III, 205 no IV e 126 no V (no II, a história '
+            'de Rampsinito, o capítulo 121, se divide em 121α a 121ζ; no V, o discurso de Sosícles, o capítulo 92, em 92α a 92η). Os grupos de capítulos e os títulos '
             'deles são desta edição, para a leitura em partes.\n\n'
             '**A tradução.** Do grego, em português do Brasil, fiel ao sentido e à ordem das ideias, sem acréscimos, com o '
             'andamento de quem conta em voz alta, que é o de Heródoto: as fórmulas que abrem e fecham cada história, o «dizem» '
             'e o «pelo que eu soube» com que ele separa o que viu, o que ouviu e o que pensa. Os nomes estão na forma '
             'portuguesa usual. Os oráculos em verso vão em verso livre, linha por linha. O que Godley imprime entre colchetes, '
             'por julgar acréscimo de copista, vai entre colchetes também na tradução (no livro I, 148.2, 167.1, 180.4, 196.5; '
-            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; o IV não tem); onde o texto se perdeu, «…» (I 92.2, '
-            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1; IV 47.2, 149.2).\n\n'
+            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; o IV e o V não têm); onde o texto se perdeu, «…» (I 92.2, '
+            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1; IV 47.2, 149.2; o V não tem).\n\n'
             '**O original.** O grego, no botão «Grego», é o da edição de A. D. Godley (_Herodotus_, coleção Loeb: vol. I, '
-            '1920, com os livros I e II; vol. II, 1921, com o III e o IV), em domínio público. Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por '
-            'palavra, com duas leituras do fac-símile da edição (a impressão de 1921 e uma reimpressão das mesmas chapas); '
+            '1920, com os livros I e II; vol. II, 1921, com o III e o IV; vol. III, 1922, com o V), em domínio público. Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por '
+            'palavra, com duas leituras do fac-símile da edição (a primeira impressão de cada volume e uma reimpressão das mesmas chapas); '
             'corrigimos pela imagem, no livro I, uns 40 erros de digitação (letras trocadas, palavras juntas ou partidas, uma '
             'oração repetida em 153.1) e cerca de 280 acentos; no livro II, 16 palavras com letras trocadas, duas palavras '
             'que faltavam (47.1, 113.3) e 21 acentos; no livro III, 10 palavras com letras trocadas (quase todas formas jônicas, '
             'como ἐκέετο e τράπουσι), uma palavra que faltava (21.2) e uns 40 acentos; no livro IV, 20 palavras com letras trocadas, uma que faltava (119.4) e uns 116 '
-            'acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
+            'acentos; no livro V, 13 palavras com letras trocadas, juntas ou partidas, uma que faltava (29.2), os parênteses de 67.3 e uns 25 acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
             'ao lado do grego na edição Loeb, serviu só para conferir o sentido.'),
         'fontes': [
             {'nome': 'A. D. Godley, Herodotus, vol. I (Loeb, 1920), impressão de 1921, no Internet Archive',
@@ -55,6 +58,9 @@ META = {
             {'nome': 'A. D. Godley, Herodotus, vol. II (Loeb, 1921), impressão de 1921, no Internet Archive',
              'url': 'https://archive.org/details/herodotus0002adgo_j1l1',
              'nota': 'fac-símile do texto grego (livros III e IV nas páginas pares); conferência das correções'},
+            {'nome': 'A. D. Godley, Herodotus, vol. III (Loeb, 1922), impressão de 1922, no Internet Archive',
+             'url': 'https://archive.org/details/in.ernet.dli.2015.183370',
+             'nota': 'fac-símile do texto grego (livro V nas páginas pares); conferência das correções'},
             {'nome': 'Perseus Digital Library: Heródoto, Histórias (texto de Godley, CC BY-SA 4.0)',
              'url': 'https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0016/tlg001',
              'nota': 'transcrição do grego de Godley, base do texto ao lado'},
@@ -66,6 +72,7 @@ L1 = 'Livro I'
 L2 = 'Livro II'
 L3 = 'Livro III'
 L4 = 'Livro IV'
+L5 = 'Livro V'
 PARTES = [
     (L1, 'Proêmio: os raptos (1–5)', ['livro1-1-5.txt']),
     (L1, 'Candaules e Giges (6–14)', ['livro1-6-14.txt']),
@@ -143,4 +150,18 @@ PARTES = [
     (L4, 'As colinas de sal e os povos do deserto (181–190)', ['livro4-181-190.txt']),
     (L4, 'A Líbia ocidental (191–199)', ['livro4-191-199.txt']),
     (L4, 'O cerco de Barca e o fim de Feretima (200–205)', ['livro4-200-205.txt']),
+    # livro V (Terpsícore)
+    (L5, 'Os perintios, os peônios e os trácios (1–10)', ['livro5-1-10.txt']),
+    (L5, 'Histieu, Côes e os peônios levados para a Ásia (11–16)', ['livro5-11-16.txt']),
+    (L5, 'Os macedônios e os enviados persas; Histieu em Susa (17–27)', ['livro5-17-27.txt']),
+    (L5, 'Naxos e o começo da revolta jônica (28–38)', ['livro5-28-38.txt']),
+    (L5, 'Cleômenes e Dorieu (39–48)', ['livro5-39-48.txt']),
+    (L5, 'Aristágoras em Esparta (49–54)', ['livro5-49-54.txt']),
+    (L5, 'Hiparco, os gefireus e a queda dos Pisistrátidas (55–65)', ['livro5-55-65.txt']),
+    (L5, 'Clístenes, Iságoras e as vitórias de Atenas (66–78)', ['livro5-66-78.txt']),
+    (L5, 'Tebas, Egina e as estátuas de Dâmia e Auxésia (79–89)', ['livro5-79-89.txt']),
+    (L5, 'Hípias e o discurso de Sosícles (90–96)', ['livro5-90-96.txt']),
+    (L5, 'Aristágoras em Atenas e o incêndio de Sardes (97–103)', ['livro5-97-103.txt']),
+    (L5, 'A revolta de Chipre (104–115)', ['livro5-104-115.txt']),
+    (L5, 'A Cária, o Helesponto e a morte de Aristágoras (116–126)', ['livro5-116-126.txt']),
 ]

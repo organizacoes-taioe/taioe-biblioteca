@@ -48,3 +48,7 @@
   conquistado pela sabedoria e por uma lei forte» (ἀρετή como a coragem disciplinada dos espartanos, que é o assunto
   da fala; Godley: «valour»). Alternativa: «a virtude» (o sentido largo de ἀρετή, a excelência do homem, que a
   sabedoria e a lei formam).
+
+## Revisão contra o grego
+
+Nenhuma correção necessária.

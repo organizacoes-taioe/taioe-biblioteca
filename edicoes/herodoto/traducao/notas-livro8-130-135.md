@@ -50,3 +50,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 133.1, 135.1, 135.3: «Mis de Europo / natural de Europo» difere de CONVENCOES.md («Mis, o europeu»); a forma da tradução é mais clara (Εὐρωπέα = de Europo, na Cária; «europeu» enganaria) → atualizar a lista, não a tradução.
+- 130.2: «Artaqueu» (pai de Artaíntes, Ἀρταχαίης) igual ao do canal do Atos nas convenções: coerente. Artaíntes e Itamitres conferem (Itamitres sobrinho de Artaíntes, escolhido por ele).
+- 135.1: «aconteceu uma coisa que é, a meu ver, das mais admiráveis» pesado mas correto (θῶμα μοι μέγιστον).
+- Números e nomes conferidos: 300 navios (130.2), 110 navios (131.1), genealogia de Leotíquides (20 gerações até Héracles, na ordem do grego) e «os sete primeiros» (131.3), sete conjurados e seis fugidos (132.2), três tebanos (135.2): corretos. Nenhum erro de sentido.

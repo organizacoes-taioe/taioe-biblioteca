@@ -53,3 +53,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 18.3: «em bons serviços não ganhareis nem de mim nem do rei» é ambíguo (parece falar de serviços prestados por eles); o grego diz que não se vence (νικήσετε) o rei nem Mardônio em benefícios → «em generosidade não nos vencereis, nem a mim nem ao rei» (a leitura de Godley: «não superareis em generosidade nem a mim nem ao rei»).
+- 17.4: «Que algum deles aprenda» (μαθέτω τις) é fraco; sentido de «cada um (deles) fique sabendo» → «que cada um deles fique sabendo que, sendo bárbaros, tramaram a morte de gregos» (detalhe menor).

@@ -56,3 +56,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 83.1: μαντηίαι são os oráculos (Godley: «the oracles are not constituted alike»), não «modos de adivinhar» → «Mas os oráculos não são organizados do mesmo modo entre eles: são diferentes.»
+- 77–90, resto: Nenhuma correção necessária (conferidos: três dias por mês, setenta dias de natrão, as três maneiras de embalsamar, lacuna em 86.2 mantida com «…»).

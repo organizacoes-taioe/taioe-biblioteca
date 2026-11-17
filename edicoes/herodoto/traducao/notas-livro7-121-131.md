@@ -60,3 +60,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 122.1: «Ámpelo» leva acento agudo indevido (proparoxítona antes de nasal) → «Âmpelo» (ou «Ampelo», como for a forma do livro); repetir no 123.1 «cabo Ámpelo».
+- 127.1: «a terra botieia da macedônia» lê-se como substantivo e fica ambíguo → «a terra botieia da macedônica» ou «a Botieia da Macedônia»; sentido do grego é «terra botieia e macedônica».
+- 130.3: «com vista aos filhos de Aleuas» soa truncado → «visando aos filhos de Aleuas» (ou «tendo em mente os filhos de Aleuas»).
+- Resto da parte: sentido, nomes e números conferem com o grego.

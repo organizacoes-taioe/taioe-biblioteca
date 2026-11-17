@@ -30,3 +30,14 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 110.2: tempos misturados: «iam levadas pelas ondas e pelo vento, e chegam a Cremnos» → «e chegaram a Cremnos» (o resto da frase está no passado).
+- 113.3: ἐκτιλώσαντο («amansaram») é verbo de ação conjugada à vontade; «também eles amansaram as outras amazonas» pode soar ambíguo → «também eles conquistaram as outras amazonas» (sentido igual ao do grego, mais claro).
+Números conferem (três barcos, três e três dias de caminho em 116.1, uma ou duas amazonas por vez).
+
+### Divergências de nome entre as partes do livro IV (conferidas com grep em todos os `livro4-*.txt`)
+- «tisságetas» (13–27, 22.1, e 118–125, linha 13) contra «tirsagetas» do CONVENCOES (Θυσσαγέται): trocar nas duas partes.
+- «Ásies» e «Asíade» (37–45, 45.3) contra «Ásias» do CONVENCOES: uniformizar.
+- «_enarees_» (67–75, 67.2) contra _enareus_ do CONVENCOES: uniformizar.
+- Sem divergência entre partes nos demais nomes verificados: Tánais, Hípanis, Hipacíris, Borístenes e boristenitas, Cremnos (20.1 e 110.2), Hileia, Istro, Meótis, saurômatas, andrófagos, agatirsos, neuros, melanclenos, issedões, Cíles, Ariapites, Idantirso, Saulio, Anacársis, Termodonte, Gelono/gelonos, Carcinítis, Táurica. «Quersoneso» (136–144) é outro lugar (o da Trácia), e não conflita com «Península Áspera» (99.3).

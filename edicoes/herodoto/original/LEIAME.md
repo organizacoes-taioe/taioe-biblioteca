@@ -129,7 +129,8 @@ Acentos: 69 conferidos à mão (`ACENTOS4` no `montar.py`: o trema de Godley nos
 Perseus, conferidos: 27.1 ἓν, 80.2 δι’, 114.4 ἐποίησαν, 144.1 ἐλίπετο, 149.1 τοιγαρῶν, 148.2 Τηΰγετον, 165.1 τἆλλα,
 5.4 τούτου, 71.1 σελίνου; e os espíritos que o OCR troca (εὖρος, ὤμους, αὖτις, ἕψομαι, ἓξ, ἦ μέν, o dórico αἰ).
 
-Sem colchetes de Godley no livro IV; lacunas, «…»: 47.2 e 149.2. Versos: o de Homero em 29.1 (_Odisseia_ 4.85), o
+Parênteses de Godley em 34.2 e 35.3, que o Perseus marca com sinais soltos (como em 5.67.3), postos de volta em
+2026-11-17, conferidos nas imagens. Sem colchetes de Godley no livro IV; lacunas, «…»: 47.2 e 149.2. Versos: o de Homero em 29.1 (_Odisseia_ 4.85), o
 epigrama de Mandrocles (88.2, quatro versos) e os oráculos de Bato e de Cirene (155.3, 157.2, 159.3). Título:
 «Δ · ΜΕΛΠΟΜΕΝΗ».
 

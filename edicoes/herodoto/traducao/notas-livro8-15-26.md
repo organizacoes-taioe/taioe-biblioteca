@@ -42,3 +42,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 23.1: χώρας («lugares, terras») virou «aldeias»; Heródoto não fala de aldeias → «percorreram todo o litoral da parte chamada Elópia, na terra de Histieia».
+- 20.2 (fim): «coube-lhes fazer uso da desgraça, no mais alto grau» soa truncado → «coube-lhes fazer uso da desgraça, e da maior».
+- 21.1: «a quem tinha sido ordenado, e que tinha um barco a remo pronto, que avisasse…» pesado (o sujeito fica solto) → «a quem isso estava ordenado: tinha um barco a remo pronto para avisar…».
+- Números conferidos (5 navios egípcios, 200 homens de Clínias, metade dos navios avariados, 20 mil, mil e quatro mil mortos): corretos. Negações, discursos e oráculo fiéis.

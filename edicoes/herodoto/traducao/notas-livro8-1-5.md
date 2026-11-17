@@ -52,3 +52,16 @@ Os achados da revisão contra o grego (fim de cada `notas-livro8-*.md`), julgado
 - Recusado 43.1 «macedno»: é a forma do livro I (1.56.3, «macednos»), com a explicação nas notas desta parte.
 - Sem mudança 42.1 Pógon e 50.2 Téspias: já estão nas notas (Téspias, como no livro V).
 - Sem mudança 52.2: o revisor mesmo não pede mudança.
+
+### 56–107
+- Aplicado 61.2: são os atenienses que têm cidade e terra maiores → «mostrou… que os atenienses tinham cidade e terra maiores do que as deles…; pois nenhum dos gregos repeliria os atenienses, se atacassem».
+- Aplicado 60γ.1: «Aos homens que decidem o que é razoável costuma acontecer, em geral, o que é razoável; aos que decidem o que não é razoável, nem o deus quer favorecer…» (fica a repetição de οἰκότα, sem o «coisas razoáveis» frouxo).
+- Aplicado 90.4 (fim): «Os persas, então, se voltaram contra os fenícios» (o «eles» vinha logo depois de Ariaramnes, no singular).
+- Aplicado 94.2: «um barco ligeiro, sem que se visse quem o tinha mandado».
+- Aplicado 100.2: «nem ninguém desta terra firme».
+- Aplicado 100.4: «do lado dos persas, nada se perdeu para ti» (o τοι do grego fica, sem o «do que é teu»).
+- Aplicado (uniformização): título de 70–82, «O muro do istmo».
+- Recusado 63.1 e 84.2: o revisor mesmo acha aceitável.
+- Recusado 65.1 «planície Triásia», 71.2 «estrada Cirônida», 94.2 «Atena Círade»: as formas adjetivas do grego, coerentes entre si e explicadas nas notas; gosto.
+- Recusado 87.4 «lutava pelos gregos» e 90.4 «amigo dos jônios»: é o sentido do grego (o αὐτοῖσι são os do trierarca; o amigo é dos jônios recém-salvos), e as notas avisam.
+- Sem mudança 66.2 (Caristo e os caristios), 75.1 (Téspias), 77.1 (Excesso, filho da Insolência), 85.2 (Fílaco), 92.1 (Crio): coerentes; a lista do CONVENCOES foi acertada onde faltava.

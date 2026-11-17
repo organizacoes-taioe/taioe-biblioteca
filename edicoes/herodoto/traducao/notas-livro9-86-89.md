@@ -48,3 +48,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 86.1: «estavam entre os principais cabeças» — «cabeças» soa mal como substantivo → «que estavam entre os principais chefes».
+- Resto (86–89) conferido seção por seção: dias (11º e 20º), nomes e negações corretos; sem omissão.

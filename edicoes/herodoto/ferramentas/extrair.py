@@ -1,7 +1,9 @@
 """Extrai um livro do grego de Godley (Perseus tlg0016.tlg001.perseus-grc2) por capítulo e seção.
 Uso: extrair.py <xml> <livro> <saida.json>
 Marcas: ⟦n⟧ nota de Godley (o Perseus só guarda o número), ⟦gap⟧ lacuna, [ … ] o texto que Godley põe entre
-colchetes (<del>), “ … ” as falas (<q>; rend="merge" continua a fala anterior), ⟦l⟧…⟦/l⟧ os versos."""
+colchetes (<del>), “ … ” as falas (<q>; rend="merge" continua a fala anterior), ⟦l⟧…⟦/l⟧ os versos.
+Saem as referências que o Perseus acrescenta às citações (<bibl>, «Homer, Iliad, 6.289-292»); de <choice> fica
+só a correção (<corr>; livro II, 90.2: Godley imprime αἱ ἱρέες, erro tipográfico, e o Perseus corrige οἱ)."""
 import json, re, sys
 import xml.etree.ElementTree as ET
 NS = '{http://www.tei-c.org/ns/1.0}'
@@ -18,6 +20,10 @@ def texto(el, ctx):
         if tag == 'note':
             notas.append({'ref': ctx, 'nota': ''.join(ch.itertext()).strip()})
             s += '⟦n⟧'
+        elif tag == 'bibl':
+            pass
+        elif tag == 'choice':
+            s += ''.join(texto(x, ctx) for x in ch if x.tag.replace(NS, '') == 'corr')
         elif tag == 'gap':
             s += ' ⟦gap⟧ '
         elif tag == 'del':

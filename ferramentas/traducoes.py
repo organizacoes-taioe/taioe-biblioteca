@@ -75,7 +75,7 @@ def marcas(texto):
     """[I.1] e [12] no começo do parágrafo, e [1.2] em qualquer lugar → {§ …}; colunas {PG 26.837} saem."""
     texto = re.sub(r'\s*\{(PG|PL) [^}]+\}\s*', ' ', texto)
     texto = re.sub(r'(?m)^\[([IVXLC]+\.\d+|\d+)\]\s*', r'{§ \1} ', texto)
-    texto = re.sub(r'\[(\d+\.\d+)\]\s*', r'{§ \1} ', texto)   # capítulo.versículo, também no meio do parágrafo (Didaqué)
+    texto = re.sub(r'\[(\d+[α-ζ]?\.\d+)\]\s*', r'{§ \1} ', texto)   # capítulo.versículo, também no meio do parágrafo (Didaqué); 121α.1 em Heródoto II
     return re.sub(r'[ \t]+\n', '\n', re.sub(r' {2,}', ' ', texto)).strip()
 
 

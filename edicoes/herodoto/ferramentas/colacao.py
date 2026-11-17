@@ -1,7 +1,8 @@
 """Confronta o grego do Perseus (já com graves.py) com duas leituras do fac-símile de Godley:
   O1 = Tesseract (grc) da impressão de 1921 (Internet Archive herodotud0000adgo), com as caixas das palavras (hOCR);
   O2 = OCR do Internet Archive da reimpressão de 1975 (historiesvolumei00hero_249), mesmas chapas.
-Uso: colacao.py <pasta-trabalho>   (lê l1.json, ocr/*.hocr, dl/historiesvolumei00hero_249.txt; grava col-*.tsv)
+Uso: colacao.py <pasta-trabalho> [livro=1]   (lê l<n>.json, ocr/*.hocr (livro I) ou ocr<n>/*.hocr,
+dl/historiesvolumei00hero_249.txt; grava col-*.tsv no livro I, l<n>-col-*.tsv nos outros)
 Listas: col-letras.tsv (as duas leituras concordam entre si e não com o Perseus, nas letras), col-acentos.tsv
 (mesmas letras, acentos ou espíritos diferentes, as duas leituras iguais), col-fracas.tsv (só uma leitura
 discorda, parecida com o Perseus), col-buracos.tsv (palavras do Perseus que nenhuma leitura tem, e palavras
@@ -10,6 +11,9 @@ import json, re, sys, os, glob, html, unicodedata as u, difflib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from graves import corrigir
 B = sys.argv[1]
+LIVRO = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+PRE = '' if LIVRO == 1 else f'l{LIVRO}-'
+OCRD = 'ocr' if LIVRO == 1 else f'ocr{LIVRO}'
 PAL = re.compile(r"[Ͱ-Ͽἀ-῿̀-ͯ᾽᾿ʼ’'΄`´῾]+")
 def norm(w):
     w = u.normalize('NFD', w.lower())
@@ -22,7 +26,7 @@ def forma(w):
 def toks(t):
     return [w for w in PAL.findall(t) if any(c.isalpha() for c in w)]
 # Perseus
-d = json.load(open(B + '/l1.json', encoding='utf-8'))
+d = json.load(open(B + f'/l{LIVRO}.json', encoding='utf-8'))
 pt, pref = [], []
 for c, secs in d['caps']:
     for s, t in secs:
@@ -32,7 +36,7 @@ for c, secs in d['caps']:
 pn = [norm(w) for w in pt]
 # O1: hOCR da impressão de 1921
 o1, o1pos = [], []
-for f in sorted(glob.glob(B + '/ocr/*.hocr')):
+for f in sorted(glob.glob(B + f'/{OCRD}/*.hocr')):
     pag = os.path.basename(f)[:3]
     h = open(f, encoding='utf-8').read()
     linhas = re.findall(r"<span class='ocr_line'.*?</span>\s*</span>", h, re.S)
@@ -59,8 +63,12 @@ def grego(s):
     l = [c for c in s if c.isalpha()]
     g = [c for c in l if 'Ͱ' <= c <= 'Ͽ' or 'ἀ' <= c <= '῿']
     return len(l) >= 4 and len(g) / len(l) > 0.6
-ini = next(i for i, l in enumerate(ocr) if 'ροδότου' in l)
-fim = next(i for i, l in enumerate(ocr) if l.startswith('BOOK II'))
+if LIVRO == 1:
+    ini = next(i for i, l in enumerate(ocr) if 'ροδότου' in l)
+    fim = next(i for i, l in enumerate(ocr) if l.startswith('BOOK II'))
+else:   # o volume I da Loeb tem os livros I e II; o II vai do título «BOOK II» até o índice
+    ini = next(i for i, l in enumerate(ocr) if l.startswith('BOOK II'))
+    fim = next(i for i, l in enumerate(ocr) if l.startswith('INDEX'))
 txt = ''
 for l in ocr[ini:fim]:
     l = l.rstrip()
@@ -107,5 +115,5 @@ for k in sorted(set(i1) & set(i2)):
         r = pref[min(k, len(pref) - 1)]
         buracos.append(f'{r}\tSÓ-FAC\t{" ".join(comuns)}\t{" ".join(x1)}\t{" ".join(x2)}\t{ctx(k)}\t{pos(min(k, len(pt)-1))}')
 for nome, l in [('letras', letras), ('acentos', acentos), ('fracas', fracas), ('buracos', buracos)]:
-    open(f'{B}/col-{nome}.tsv', 'w', encoding='utf-8').write('\n'.join(l) + '\n')
+    open(f'{B}/{PRE}col-{nome}.tsv', 'w', encoding='utf-8').write('\n'.join(l) + '\n')
     print(nome, len(l))

@@ -8,8 +8,10 @@ O texto de Hude (Oxford, 1908; 3ª ed. 1927; Hude morreu em 1936) também é liv
 dele conferível; ficamos com Godley, que tem transcrição e fac-símiles. Rosén (Teubner, 1987–1997) e Wilson (Oxford,
 2015) são protegidos.
 
-Por enquanto só o livro I (Clio). A obra cresce por livros, em pedidos seguintes; cada livro tem os seus arquivos
-`livro<n>-<a>-<b>.txt` e é montado pelos mesmos scripts (`../ferramentas/`, trocando o número do livro).
+Por enquanto os livros I (Clio) e II (Euterpe), os dois do vol. I de Godley. A obra cresce por livros, em pedidos
+seguintes; cada livro tem os seus arquivos `livro<n>-<a>-<b>.txt` e é montado pelos mesmos scripts (`../ferramentas/`,
+com o número do livro no fim: `extrair.py dl/her-grc2.xml 2 l2.json`, `colacao.py . 2`, `acentos.py . 2`,
+`montar.py . <obra> 2`; o bloco de cada livro fica em `LIVROS`, no `montar.py`).
 
 ## De onde vem
 
@@ -62,6 +64,27 @@ entre “ ”, como o Perseus as marca (Godley também usa aspas); os versos dos
 imprime entre colchetes vai entre colchetes (1.148.2, 167.1, 180.4, 196.5); as lacunas que ele marca com pontos,
 «…» (1.92.2, 180.4, 193.2); ficaram de fora as notas críticas de Godley, a paginação e os títulos correntes. O título
 do livro, «Α · ΚΛΕΙΩ», junta a letra de Godley ao nome da Musa, que os livros têm desde a Antiguidade.
+
+## Livro II (2026-11-16)
+
+Mesmo método e mesmas fontes (o vol. I de Godley tem os livros I e II): o fac-símile de 1921 nas p. 300–522 do PDF
+(páginas pares), lido pelo Tesseract; a 2ª leitura, o OCR do Internet Archive da reimpressão de 1975, do título «BOOK
+II» até o índice. A colação deu 72 pontos de letras, 406 de acentos (21 aceitos pela regra, 57 a ver), 123 fracos e
+7 buracos; 28 pontos vistos nas imagens. O Perseus do livro II já traz quase todos os graves (a regra mudou 5).
+
+Correções ao Perseus (o fac-símile tem a forma da direita): 17.4 τρέπεται → τράπεται, 80.1 ἐκτρέπονται → ἐκτράπονται,
+92.5 τρέπουσι → τράπουσι, 120.4 ἐπιτρέπειν → ἐπιτράπειν (as formas jônicas, como no livro I); 29.4 λίμνην → λίμνη;
+45.3 εὐμένεια → εὐμενείη; 47.2 δικαιοῦσι → δικαιεῦσι; 67.1 ἀποφανόντες → ἀποθανόντες; 69.2 ταριχεύσαντες →
+ταριχεύοντες; 93.1 ἐκπλέουσι → ἐκπλώουσι; 93.2 ἡγεμονία → ἡγεμονίη; 96.4 ῥιπὶ → ῥίπεϊ; 116.3 ἀριστείῃ → ἀριστηίῃ;
+121ζ.1 διανέμοντα → διαπέμποντα; 158.3 ὑπώρεαν → ὑπωρέην; 169.2 βασιληία → βασιλήια (o palácio); duas palavras que o
+Perseus perdeu: 47.1 ὑός (no começo da página do fac-símile) e 113.3 τὸν τοῦ στόματος. Acentos: 28.4 ἄβυσσοι εἰσὶ
+(Godley não trata εἰσί como enclítica aqui), 41.6 τἄλλα, 59.3 Ἡλίῳ, 61.1 πρότερόν μοι, 149.4 ἔστι, 149.5 ὕδωρ e 14
+aceitos pela regra (`ferramentas/acentos-aceitos-l2.tsv`; os 6 ἡ → ἣ da leitura ficaram de fora: são o artigo, ἡ δὲ
+τρίτη, e o OCR inventa o acento). Em 90.2 Godley imprime αἱ ἱρέες, erro tipográfico; o Perseus o corrige (οἱ), e
+ficamos com a correção. As referências que o Perseus acrescenta às citações de Homero (116.3–5) saem.
+
+Os capítulos 121α–121ζ (a história de Rampsinito e do ladrão) têm a numeração de Hude, que o Perseus escreve 121A–121F;
+a marca é `[121α.1]`. Colchetes de Godley no livro II: 116.2, 143.4, 148.4; lacunas, «…»: 40.1, 86.2, 175.4.
 
 ## Numeração e divisão
 

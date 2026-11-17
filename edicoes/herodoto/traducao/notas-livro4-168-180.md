@@ -50,3 +50,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 175.2: «coberta de mato» enfraquece o contraste: o grego diz que a colina é espessa de bosques (ἴδαι), ao passo que o resto da Líbia é nua → «coberta de bosques, enquanto o resto da Líbia de que falei é nu» (ou «sem árvores», como já está).
+- Números e nomes conferem (200 estádios, 175.2; cem cidades, 179.3; terceiro mês, 180.6; adirmáquidas, giligamas, asbistas, auscisas, bacales, nasamões, psilos, garamantes, macas, gindanes, lotófagos, maclies, auses: iguais ao CONVENCOES.md).

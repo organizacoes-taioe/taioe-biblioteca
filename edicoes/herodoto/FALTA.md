@@ -1,8 +1,29 @@
 # Heródoto, Histórias: estado
 
-Livros I a IV no ar (PRs #100, #113, #115 e #116). Livros V a VIII prontos em branches encadeadas: `pedido-herodoto-5`,
-`-6`, `-7` e `pedido-herodoto-8` (contém todas; worktree `~/.cache/claude-wt5-herodoto-8`): basta juntar a do VIII (ou
-a do VII, se o VIII não for agora). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+**A obra está completa** (livros I a IX). Livros I a IV no ar (PRs #100, #113, #115 e #116). Livros V a IX prontos em
+branches encadeadas: `pedido-herodoto-5` … `pedido-herodoto-8` e `pedido-herodoto-9` (contém todas; worktree
+`~/.cache/claude-wt5-herodoto-9`): basta juntar a do IX. Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`.
+Este arquivo fica só para o principal publicar; depois do merge, pode ser apagado.
+
+## Livro IX (Calíope): pronto (2026-11-17)
+- Grego montado e conferido (`original/livro9-*.txt`, 17 partes; `original/LEIAME.md`, «Livro IX»): vol. IV de Godley
+  (`dl8/v4-1924.pdf`, p. 182–324; OCR em `ocr9/`, páginas em `pag9/`, pranchas em `ver9/`, roteiro
+  `scripts/ocr1924-l9.sh`, na pasta de trabalho `~/.cache/claude-pedidos-0511/herodoto/`); `colacao.py . 9`,
+  `acentos.py . 9`, `montar.py . <obra> 9`. 3 palavras com letras trocadas, um ponto alto a mais (81.2), cinco lugares
+  onde o Perseus perdeu palavras (33.1, 41.4, 46.3, 120.4, 122.1), uns 38 acentos; 40 pontos vistos nas imagens. Marcas
+  7α–7β; colchetes 33.1; sem lacunas; `DEPOIS9` (21.2 «δυνατοί εἰμεν»: o `graves.py` não tem εἰμεν entre as enclíticas).
+- Tradução: 1–11 pelo principal, o resto por quatro tradutores Opus em sequência (12–38, 39–65, 66–98, 99–122);
+  revisão contra o grego por dois revisores Sonnet; um aplicador Opus (18 achados aplicados, 7 recusados) uniformizou
+  os nomes com I–VIII (Amêstris, «os de Trezena», τέμενος «recinto sagrado», -ίδης → -ides: Timagênides, Lícides;
+  «presságio»; «opróbrio» → «vergonha», também em 7.231): `traducao/notas-livro9-1-5.md`, «Revisão aplicada».
+  `CONVENCOES.md`, seção «Livro IX», pelas formas finais.
+- `obra.py` (162 partes; a «Sobre» com o livro IX e sem o «por enquanto»: a obra está completa, com as fontes dos
+  quatro volumes), `revisao.json` (+3 decisões: «as cinco maiores lutas», 33–35; os _irenes_ × sacerdotes, 85.1;
+  «morto e salgado», 120.2; recomendação aplicada, nada muda no ar), vocabulário (+5 verbetes, 159 no total;
+  «opróbrio» saiu; `conferir` ok), `conteudo/` gerado. `gerar.mjs` e `conferir.mjs` sem erro (7.563 páginas); os
+  endereços dos livros I a IV não mudam.
+- Candidatos que ficaram nas notas, sem ir ao Gere: 91.2, o nome Hegesístrato («o que conduz o exército»), presságio
+  que não passa ao português (nota de leitura futura); 15.2 «devastou-lhes os campos» (Godley: cortou as árvores).
 
 ## Livro VIII (Urânia): pronto (2026-11-17)
 - Grego montado e conferido (`original/livro8-*.txt`, 18 partes; `original/LEIAME.md`, «Livro VIII»). Fonte nova: o
@@ -111,23 +132,12 @@ a do VII, se o VIII não for agora). Regras da rodada: `~/.cache/claude-pedidos-
   `conteudo/` gerado. `gerar.mjs` e `conferir.mjs` sem erro; os endereços do livro I não mudam.
 
 ## Para o principal
-- Juntar a branch, gerar, Catálogo `obras` (a obra já existe: atualiza) e `traducoes` se houver decisões novas.
-  Nenhuma regra de `_redirects`.
-- Mudança comum: `ferramentas/traducoes.py` aceita marca `[121α.1]` (letra grega depois do capítulo), agora de α a θ
-  (`[10θ.1]` no livro VII). O livro IV, já no ar, muda no original ao lado (34.2, 35.3, 167.3, 169.1): o Catálogo `obras`
-  cobre. Decisões novas do VII: 3 (`l7-oraculo-muralhas`, `l7-poucos-homens`, `l7-estrangeiro`). Do VIII: 2 (`l8-ser-grego`, `l8-donzela`).
-
-## Livro IX (como continuar)
-- Mesmo PDF do vol. IV (`dl8/v4-1924.pdf`): o título «BOOK IX» na p. 181, o grego nas páginas pares de 182 até ~324
-  (o índice começa na 327; conferir o fim nas imagens). 2ª leitura: `dl8/in.ernet.dli.2015.69772.txt`, de «BOOK IX» até
-  «INDEX» (o recorte do 9 já está no `colacao.py`). O OCR do próprio `bwb_Y0-DUM-764` (`dl8/bwb_Y0-DUM-764.txt`) tem
-  grego, mas é da mesma digitalização: serve de 3ª leitura.
-- Passos, como no VIII: `extrair.py dl/her-grc2.xml 9 l9.json`; roteiro de OCR `scripts/ocr1924-l9.sh` (copiar o
-  `ocr1924-l8.sh`, trocando as páginas e as pastas); no `montar.py`, `CORR9`, `ACENTOS9`, `PARTES9` e o bloco 9 em
-  `LIVROS` (`ED4`, título «Ι · ΚΑΛΛΙΟΠΗ», 122 capítulos). Conferir com `ast.parse` depois de mexer (a aspa do `ED1 = ('`
-  já quebrou três vezes). `grep ʽ` no `l9.json` (parênteses de Godley que o Perseus marca com sinal solto). Roteiros:
-  `~/.cache/claude-pedidos-0511/herodoto/TRADUTOR-L8.md`, `REVISOR-L8.md` (trocar 8 por 9); `scripts/godley.py 9 a b`.
-  Com o IX, a «Sobre» deixa de dizer «por enquanto»: a obra fica completa (tirar o «em andamento» do pedido).
+- Juntar a branch `pedido-herodoto-9`, gerar, Catálogo `obras` (a obra já existe: atualiza) e `traducoes` (decisões
+  novas de V a IX). Nenhuma regra de `_redirects`. Tirar o Heródoto dos pedidos (deixa de estar «em andamento»).
+- Mudança comum: `ferramentas/traducoes.py` aceita marca `[121α.1]` (letra grega depois do capítulo), de α a θ. O livro
+  IV, já no ar, muda no original ao lado (34.2, 35.3, 167.3, 169.1), e o VII ganhou «vergonha» no lugar de «opróbrio»
+  (7.231): o Catálogo `obras` cobre. Decisões novas: V (3), VI (3), VII (3: `l7-oraculo-muralhas`, `l7-poucos-homens`,
+  `l7-estrangeiro`), VIII (2: `l8-ser-grego`, `l8-donzela`), IX (3: `l9-lutas`, `l9-irenes`, `l9-salgado`).
 
 ## Outros
 - Notas gerais (lote futuro): livro I, o jogo Κυνώ/Σπακώ (110.1), παθήματα/μαθήματα (207.1), as Musas nos títulos.

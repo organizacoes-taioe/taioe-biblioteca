@@ -16,7 +16,8 @@
   ânimo»; ἡ πρόφασις → «a desculpa».
 - ἡ μῆνις, μηνίειν (229.2) → «irar-se» (como a ira de 134.1, aqui a dos espartanos); ὁ συνάγγελος (230.1) → «o
   companheiro de mensagem».
-- τὸ ὄνειδος (231.1) → «opróbrio»; ἡ ἀτιμίη → «desonra», ἠτίμωτο → «estava desonrado» (a perda dos direitos de
+- τὸ ὄνειδος (231.1) → «vergonha» (era «opróbrio», palavra rara; trocada na revisão do livro IX, que repete a frase em
+  9.71.2); ἡ ἀτιμίη → «desonra», ἠτίμωτο → «estava desonrado» (a perda dos direitos de
   cidadão em Esparta; Heródoto descreve o que era, e a tradução não explica mais); ὁ τρέσας → «o que tremeu» (ver
   candidatos); ἡ ἐν Πλαταιῇσι μάχη → «a batalha de Plateia» (a forma usual do nome da batalha; os plateenses, como
   em 132.1).

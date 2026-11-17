@@ -37,20 +37,21 @@ META = {
             'oráculo do muro de madeira, Gelão de Siracusa, o Artemísio e a batalha das Termópilas. O livro VIII, _Urânia_, é o '
             'de Salamina: as batalhas do Artemísio, o ataque a Delfos, Atenas abandonada e a acrópole tomada, os conselhos dos '
             'gregos e de Xerxes, a batalha de Salamina, a volta de Xerxes, Temístocles em Andros, e Alexandre da Macedônia, '
-            'que leva aos atenienses a proposta de Mardônio, e a resposta deles.\n\n'
-            '**Em partes.** Por enquanto estão aqui os livros I a VIII; o IX vem depois, um a um, com as mesmas '
-            'convenções.\n\n'
-            '**A divisão.** Os capítulos e as seções são os da numeração usual (as pequenas marcas no texto: 5.2 é o '
-            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II, 160 no III, 205 no IV, 126 no V, 140 no VI, 239 no VII e 144 no VIII (no II, a história '
-            'de Rampsinito, o capítulo 121, se divide em 121α a 121ζ; no V, o discurso de Sosícles, o capítulo 92, em 92α a 92η; no VI, a história de Glauco, o capítulo 86, em 86α a 86δ; no VII, os discursos do conselho de Xerxes, em 8α a 8δ, 9α a 9γ e 10α a 10θ, e a resposta de Artabano, em 16α a 16γ; no VIII, o discurso de Temístocles, em 60α a 60γ, o conselho de Artemísia, em 68α a 68γ, e a mensagem de Mardônio e o discurso de Alexandre, em 140α e 140β). Os grupos de capítulos e os títulos '
+            'que leva aos atenienses a proposta de Mardônio, e a resposta deles. O livro IX, _Calíope_, é o de Plateia e de Mícale: '
+            'Mardônio de novo em Atenas, a marcha dos espartanos, a morte de Masístio, os adivinhos, a batalha de Plateia e a '
+            'morte de Mardônio, os despojos, o cerco de Tebas, a batalha de Mícale, Xerxes e a mulher de Masistes, e o cerco de '
+            'Sesto, que termina a guerra; a obra fecha com um conselho de Ciro aos persas.\n\n'
+                        '**A divisão.** Os capítulos e as seções são os da numeração usual (as pequenas marcas no texto: 5.2 é o '
+            'capítulo 5, seção 2, do livro; 1.0 é o proêmio), 216 capítulos no livro I, 182 no II, 160 no III, 205 no IV, 126 no V, 140 no VI, 239 no VII, 144 no VIII e 122 no IX (no II, a história '
+            'de Rampsinito, o capítulo 121, se divide em 121α a 121ζ; no V, o discurso de Sosícles, o capítulo 92, em 92α a 92η; no VI, a história de Glauco, o capítulo 86, em 86α a 86δ; no VII, os discursos do conselho de Xerxes, em 8α a 8δ, 9α a 9γ e 10α a 10θ, e a resposta de Artabano, em 16α a 16γ; no VIII, o discurso de Temístocles, em 60α a 60γ, o conselho de Artemísia, em 68α a 68γ, e a mensagem de Mardônio e o discurso de Alexandre, em 140α e 140β; no IX, a resposta dos atenienses aos lacedemônios, em 7α e 7β). Os grupos de capítulos e os títulos '
             'deles são desta edição, para a leitura em partes.\n\n'
             '**A tradução.** Do grego, em português do Brasil, fiel ao sentido e à ordem das ideias, sem acréscimos, com o '
             'andamento de quem conta em voz alta, que é o de Heródoto: as fórmulas que abrem e fecham cada história, o «dizem» '
             'e o «pelo que eu soube» com que ele separa o que viu, o que ouviu e o que pensa. Os nomes estão na forma '
             'portuguesa usual. Os oráculos em verso vão em verso livre, linha por linha. O que Godley imprime entre colchetes, '
             'por julgar acréscimo de copista, vai entre colchetes também na tradução (no livro I, 148.2, 167.1, 180.4, 196.5; '
-            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; o IV e o V não têm; no VI, 111.2 e o capítulo 122 inteiro; o VII não tem; no VIII, 104.1 a 105.1); onde o texto se perdeu, «…» (I 92.2, '
-            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1; IV 47.2, 149.2; o V não tem; VI 64.1; VII 61.1, 76.1, 154.1; VIII 124.2).\n\n'
+            'no II, 116.2, 143.4, 148.4; no III, 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; o IV e o V não têm; no VI, 111.2 e o capítulo 122 inteiro; o VII não tem; no VIII, 104.1 a 105.1; no IX, 33.1); onde o texto se perdeu, «…» (I 92.2, '
+            '180.4, 193.2; II 40.1, 86.2, 175.4; III 39.2, 49.1; IV 47.2, 149.2; o V não tem; VI 64.1; VII 61.1, 76.1, 154.1; VIII 124.2; o IX não tem).\n\n'
             '**O original.** O grego, no botão «Grego», é o da edição de A. D. Godley (_Herodotus_, coleção Loeb: vol. I, '
             '1920, com os livros I e II; vol. II, 1921, com o III e o IV; vol. III, 1922, com o V, o VI e o VII; vol. IV, 1924, com o VIII e o IX), em domínio público. Partimos da transcrição da Perseus Digital Library e a comparamos, palavra por '
             'palavra, com duas leituras do fac-símile da edição (a primeira impressão de cada volume e uma reimpressão das mesmas chapas); '
@@ -62,7 +63,7 @@ META = {
             'os parênteses de 69.4 e 109 e uns 35 acentos; no livro VII, 16 palavras com letras trocadas (uma delas, Κάδμος em '
             '164.1, erro tipográfico do próprio Godley), seis que faltavam (8γ.2, 16γ.1, 19.2, 111.2, 176.4, 219.1), os '
             'parênteses de 205.1 e uns 40 acentos; no livro VIII, 9 palavras com letras trocadas, uma que faltava (74.2) e '
-            'uma a mais (2.1), os parênteses de 67.1 e 75.2 e uns 15 acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
+            'uma a mais (2.1), os parênteses de 67.1 e 75.2 e uns 15 acentos; no livro IX, 3 palavras com letras trocadas, um ponto alto a mais (81.2), cinco lugares onde faltavam palavras (33.1, 41.4, 46.3, 120.4, 122.1) e uns 38 acentos. Ficaram de fora as notas críticas de Godley, e a tradução inglesa dele, '
             'ao lado do grego na edição Loeb, serviu só para conferir o sentido.'),
         'fontes': [
             {'nome': 'A. D. Godley, Herodotus, vol. I (Loeb, 1920), impressão de 1921, no Internet Archive',
@@ -92,6 +93,7 @@ L5 = 'Livro V'
 L6 = 'Livro VI'
 L7 = 'Livro VII'
 L8 = 'Livro VIII'
+L9 = 'Livro IX'
 PARTES = [
     (L1, 'Proêmio: os raptos (1–5)', ['livro1-1-5.txt']),
     (L1, 'Candaules e Giges (6–14)', ['livro1-6-14.txt']),
@@ -245,4 +247,22 @@ PARTES = [
     (L8, 'As frotas em Samos e em Delos; Mardônio e os oráculos (130–135)', ['livro8-130-135.txt']),
     (L8, 'Alexandre da Macedônia e os seus antepassados (136–139)', ['livro8-136-139.txt']),
     (L8, 'A resposta dos atenienses (140–144)', ['livro8-140-144.txt']),
+    # livro IX (Calíope)
+    (L9, 'Mardônio de novo em Atenas (1–5)', ['livro9-1-5.txt']),
+    (L9, 'Os atenienses em Esparta; os espartanos partem (6–11)', ['livro9-6-11.txt']),
+    (L9, 'Mardônio recua para a Beócia; o banquete de Tebas (12–18)', ['livro9-12-18.txt']),
+    (L9, 'Os gregos em Eritras; a morte de Masístio (19–25)', ['livro9-19-25.txt']),
+    (L9, 'Tegeatas e atenienses; os dois exércitos (26–32)', ['livro9-26-32.txt']),
+    (L9, 'Os adivinhos: Tisâmeno e Hegesístrato (33–38)', ['livro9-33-38.txt']),
+    (L9, 'O conselho de Mardônio; Alexandre à noite (39–45)', ['livro9-39-45.txt']),
+    (L9, 'A troca das alas; a fonte Gargáfia (46–51)', ['livro9-46-51.txt']),
+    (L9, 'A retirada dos gregos; Amonfáreto (52–57)', ['livro9-52-57.txt']),
+    (L9, 'A batalha de Plateia (58–65)', ['livro9-58-65.txt']),
+    (L9, 'A fuga de Artabazo; a luta no muro; os mais valentes (66–75)', ['livro9-66-75.txt']),
+    (L9, 'Depois da batalha: a mulher de Cós, Lâmpon e os despojos (76–85)', ['livro9-76-85.txt']),
+    (L9, 'O cerco de Tebas; Artabazo na Tessália e na Trácia (86–89)', ['livro9-86-89.txt']),
+    (L9, 'Os sâmios chamam os gregos; Evênio de Apolônia (90–98)', ['livro9-90-98.txt']),
+    (L9, 'A batalha de Mícale (99–107)', ['livro9-99-107.txt']),
+    (L9, 'Xerxes e a mulher de Masistes (108–113)', ['livro9-108-113.txt']),
+    (L9, 'O cerco de Sesto; Artaíctes; o conselho de Ciro (114–122)', ['livro9-114-122.txt']),
 ]

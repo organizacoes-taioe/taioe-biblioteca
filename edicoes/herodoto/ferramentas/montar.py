@@ -322,6 +322,49 @@ PARTES8 = [
     ((136, 139), 'Alexandre da Macedônia e os seus antepassados'),
     ((140, 144), 'A resposta dos atenienses'),
 ]
+# livro IX (Calíope), no vol. IV de Godley (1924)
+CORR9 = [
+    ('26.5', 'προσκρίθη', 'προεκρίθη'),
+    ('26.6', 'ἀξιονικότεροί εἰμεν', 'ἀξιονικότεροι εἰμὲν'),
+    ('33.1', 'τῇ δευτέρῃ ἐθύοντο', 'τῇ δευτέρῃ ἡμέρῃ ἐθύοντο'),
+    ('41.4', 'ἐᾶν μηδὲ', 'ἐᾶν χαίρειν μηδὲ'),
+    ('46.3', 'ὑμέας ἐς τόδε', 'ὑμέας μὲν ἐς τόδε'),
+    ('59.2', 'ἕκαστος', 'ἕκαστοι'),
+    ('81.2', 'Παυσανίη· δὲ', 'Παυσανίῃ δὲ'),
+    ('114.2', 'Πελοποννησίοις', 'Πελοποννησίοισι'),
+    ('120.4', 'ἐς τὴν Ξέρξης', 'ἐς τὴν ἀκτὴν ἐς τὴν Ξέρξης'),
+    ('122.1', 'τούτου δὲ Ἀρταΰκτεω', 'τούτου δὲ τοῦ Ἀρταΰκτεω'),
+]
+ACENTOS9 = [
+    ('37.3', 'Τεγέη', 'Τεγέῃ'),
+    ('81.2', 'ὃσα', 'ὅσα'),
+    ('90.2', 'ἂρα', 'ἄρα'),
+    ('94.2', 'ᾔδεε', 'ἤδεε'),
+    ('119.1', 'Ὀιόβαζον', 'Οἰόβαζον'),
+]
+# Godley imprime «δυνατοί εἰμεν» (21.2), mas o graves.py não tem εἰμεν entre as enclíticas (em 26.6 e 27.5–6 Godley acentua εἰμὲν)
+DEPOIS9 = [
+    ('21.2', 'δυνατοὶ εἰμεν', 'δυνατοί εἰμεν'),
+]
+PARTES9 = [
+    ((1, 5), 'Mardônio de novo em Atenas'),
+    ((6, 11), 'Os atenienses em Esparta; os espartanos partem'),
+    ((12, 18), 'Mardônio recua para a Beócia; o banquete de Tebas'),
+    ((19, 25), 'Os gregos em Eritras; a morte de Masístio'),
+    ((26, 32), 'Tegeatas e atenienses; os dois exércitos'),
+    ((33, 38), 'Os adivinhos: Tisâmeno e Hegesístrato'),
+    ((39, 45), 'O conselho de Mardônio; Alexandre à noite'),
+    ((46, 51), 'A troca das alas; a fonte Gargáfia'),
+    ((52, 57), 'A retirada dos gregos; Amonfáreto'),
+    ((58, 65), 'A batalha de Plateia'),
+    ((66, 75), 'A fuga de Artabazo; a luta no muro; os mais valentes'),
+    ((76, 85), 'Depois da batalha: a mulher de Cós, Lâmpon e os despojos'),
+    ((86, 89), 'O cerco de Tebas; Artabazo na Tessália e na Trácia'),
+    ((90, 98), 'Os sâmios chamam os gregos; Evênio de Apolônia'),
+    ((99, 107), 'A batalha de Mícale'),
+    ((108, 113), 'Xerxes e a mulher de Masistes'),
+    ((114, 122), 'O cerco de Sesto; Artaíctes; o conselho de Ciro'),
+]
 ED1 = ('A. D. Godley, Herodotus, vol. I (Loeb, Londres e Nova York, 1920); conferido com o fac-símile da impressão '
        'de 1921 (Internet Archive herodotud0000adgo); ver LEIAME.md')
 ED2 = ('A. D. Godley, Herodotus, vol. II (Loeb, Londres e Nova York, 1921); conferido com o fac-símile da impressão '
@@ -345,10 +388,12 @@ LIVROS = {1: dict(corr=CORR1, acentos=ACENTOS1, partes=PARTES1, aceitos='acentos
           7: dict(corr=CORR7, acentos=ACENTOS7, partes=PARTES7, aceitos='acentos-aceitos-l7.tsv', letra='Η',
                   romano='VII', titulo='Η · ΠΟΛΥΜΝΙΑ', ncaps=239, edicao=ED3, depois=DEPOIS7),
           8: dict(corr=CORR8, acentos=ACENTOS8, partes=PARTES8, aceitos='acentos-aceitos-l8.tsv', letra='Θ',
-                  romano='VIII', titulo='Θ · ΟΥΡΑΝΙΗ', ncaps=144, edicao=ED4)}
+                  romano='VIII', titulo='Θ · ΟΥΡΑΝΙΗ', ncaps=144, edicao=ED4),
+          9: dict(corr=CORR9, acentos=ACENTOS9, partes=PARTES9, aceitos='acentos-aceitos-l9.tsv', letra='Ι',
+                  romano='IX', titulo='Ι · ΚΑΛΛΙΟΠΗ', ncaps=122, edicao=ED4, depois=DEPOIS9)}
 L = LIVROS[LIVRO]
 CORR, ACENTOS, PARTES = L['corr'], list(L['acentos']), L['partes']
-SUB = dict(zip('ABCDEFGH', 'αβγδεζηθ'))   # 121A–F (II), 92A–G (V), 86A–D (VI), 8A–D, 9A–C, 10A–H, 16A–C (VII), 60A–C, 68A–C, 140A–B (VIII)
+SUB = dict(zip('ABCDEFGH', 'αβγδεζηθ'))   # 121A–F (II), 92A–G (V), 86A–D (VI), 8A–D, 9A–C, 10A–H, 16A–C (VII), 60A–C, 68A–C, 140A–B (VIII), 7A–B (IX)
 def cap_marca(c):
     return c[:-1] + SUB[c[-1]] if c[-1] in SUB else c
 def cap_num(c):

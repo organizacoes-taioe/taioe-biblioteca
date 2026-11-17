@@ -3,7 +3,7 @@
 Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (vale tudo de lá: nunca mesóclise, um bloco traduzido para cada bloco
 do original, as marcas `[c.s]` no mesmo lugar). Texto-fonte e correções: `original/LEIAME.md`. Traduz-se o grego
 de Godley (Loeb, 1920), que vai ao lado; a tradução inglesa de Godley serve só para conferir o sentido, nunca de base.
-A obra cresce por livros (pedido do Gere: «em partes»): os livros I a IV; os outros vêm em pedidos
+A obra cresce por livros (pedido do Gere: «em partes»): os livros I a V; os outros vêm em pedidos
 seguintes, com estas mesmas convenções. Ao traduzir um livro novo, acrescentar aqui os nomes e termos dele (o livro II
 tem a sua seção no fim).
 
@@ -201,3 +201,56 @@ os povos da Líbia e o cerco de Barca. O título: `Δ · ΜΕΛΠΟΜΕΝΗ` →
   **colônia**, ἄποικοι → colonos; ἡ σχεδίη → **a ponte** (de barcos), ἡ γέφυρα → a ponte; ὁ Ἀχίλλειος δρόμος → «a
   Corrida de Aquiles»; ἐνάρεες (67.2) → _enarees_, com a explicação dele (como no livro I); ὕπαρχος → governador; φόρος → tributo. Os
   presentes dos citas (131–132): um pássaro, um rato, uma rã e cinco flechas.
+
+## Livro V (Terpsícore): nomes e termos
+
+O livro da revolta jônica: Megabazo na Trácia e na Peônia, os macedônios, Histieu e Aristágoras, Naxos, Esparta
+(Cleômenes e Dorieu), Aristágoras em Esparta e a estrada real, Atenas (Hiparco, os alcmeônidas, Clístenes e as tribos,
+as guerras com Tebas, Cálcis e Egina), o discurso de Sosícles (Cípselo e Periandro), o incêndio de Sardes, Chipre e a
+Cária. O título: `Ε · ΤΕΡΨΙΧΟΡΗ` → `LIVRO V · TERPSÍCORE`. Esta lista foi escrita antes da tradução; o tradutor que
+achar forma melhor usa a melhor e registra nas notas, e quem uniformiza acerta esta seção no fim.
+
+- **Trácia, Peônia e Macedônia (1–27)**: Megabazo (Μεγάβαζος, como no livro IV); Perinto e os perintios; os peônios
+  (Παίονες), o Estrímon; os trácios, os getas, os trausos, os crestoneus (Κρηστωναῖοι); os sigines (Σιγύνναι), os
+  ênetos (Ἐνετοί), os lígures (Λίγυες) de Massália (Μασσαλίη); Pigres e Mantíes (Μαντύης), peônios; Histieu de
+  Mileto, Côes de Mitilene, filho de Erxandro (do livro IV); Mírcino (Μύρκινος) dos edonos (Ἠδωνοί); o lago Prasíade
+  (Πρασιάς), o monte Dísoro; os siropeônios, os peoplas, os doberes, os agrianes, os odomantos; o Pangeu; Amintas e
+  Alexandre, filho de Amintas (o macedônio; não confundir com o Alexandre de Troia); Bubares; Gigeia (Γυγαίη);
+  os helanódicas (Ἑλλανοδίκαι, os juízes de Olímpia); Pérdicas, Témeno, Argos; Otanes, filho de Sisamnes (não o
+  dos sete), e Sisamnes, o juiz esfolado por Cambises; Calcedônia, Bizâncio, Antandro, Lampônio, Lemnos, Imbros;
+  Licareto (irmão de Meândrio, do livro III); os pelasgos.
+- **Revolta jônica (28–38, 97–126)**: Aristágoras, filho de Molpágoras; Artafernes (Ἀρταφρένης, irmão de Dario,
+  governador em Sardes); Megabates; Cílax de Mindo; Naxos e os náxios, Paros e os pários; Caucasa (Καυκάσα, em
+  Quios); Hecateu (o historiador, do livro II), filho de Hegesandro; Iatrágoras; Miunte; Oliato de Milasa, Histieu
+  de Termera, Aristágoras de Cime; os efésios, o Caistro, o Tmolo, o Pactolo; Cibebe (Κυβήβη, a deusa de Sardes);
+  Melântio; os erétrios (de Erétria), Eualcides; Dauríses, Himaies, Otanes (os generais persas, 116–123); Chipre:
+  Onésilo, Gorgo (Γόργος, rei de Salamina de Chipre, irmão dele), Quérsis, Siromo, Euelton; Amatunte e os amatúsios;
+  Artíbio; Solos, Filocipro, Aristocipro; Cúrio (Κούριον) e os cúrios, Estesenor; os cários, o Mársias e o
+  Meandro, Labraunda e Zeus Estrátio (Στράτιος), Pédaso, Heraclides de Milasa, Pixodaro; Dárdano, Ábido, Percote,
+  Lâmpsaco, Peso, Clazômenas, Cime; Pitágoras (o cidadão de Mileto, 126).
+- **Esparta e Dorieu (39–54)**: Anaxândrides, Cleômenes, Dorieu, Leônidas, Cleômbroto; os éforos (ἔφοροι); Gorgo
+  (a filha de Cleômenes); o Cínipe, Anticares de Eleon, Érix, Heracleia; Síbaris e Crotona, Télis, Cálias de Élide, o
+  adivinho dos iâmidas (Ἰαμίδαι); Filipo, filho de Butacides; Eurileão; Selinunte, Pitágoras (o tirano de Selinunte);
+  Egesta e os egesteus (Ἐγεσταῖοι); Demarato.
+- **A estrada real (52–54)**: ἡ ὁδὸς ἡ βασιληίη → «a estrada real»; σταθμοί βασιλήιοι → **paradas reais**,
+  καταλύσιες → **pousadas**; παρασάγγης → **parasanga** (a explicação é dele: trinta estádios); a Lídia, a Frígia, o
+  Hális, a Capadócia, a Cilícia, a Armênia, a terra matiena (Ματιηνή), a Císsia, o Coaspes, o Gindes, Susa, o palácio
+  de Mêmnon (τὰ Μεμνόνεια).
+- **Atenas (55–96)**: Hiparco e Hípias, filhos de Pisístrato; Harmódio e Aristogíton; os gefireus (Γεφυραῖοι); Cadmo
+  e os fenícios; as letras (γράμματα), φοινικήια → «fenícias»; Apolo Ismênio (em Tebas da Beócia); Anfitrião e os
+  teleboas, Esceu, filho de Hipocoonte, Laodamante, filho de Etéocles; os encheleus; os alcmeônidas (Ἀλκμεωνίδαι),
+  Lipsídrio (Λειψύδριον); Anquimólio, Cíneas de Cônio; Fáleron; a muralha pelásgica (τὸ Πελασγικὸν τεῖχος); Sigeu, o
+  Escamandro; Clístenes, Iságoras, filho de Tisandro; Íon e os filhos dele, Geleonte, Egícoro, Árgades e Hoples;
+  Clístenes de Sicione, Adrasto, Melanipo, Tideu; os hiatas, os oneatas, os quereatas e os arquelaus; Cílon; Eleusis
+  (Ἐλευσίς); os calcídios (Χαλκιδέες, de Cálcis, na Eubeia), os hipóbotas (Ἱπποβόται: os ricos de Cálcis, «os
+  criadores de cavalos» só se Heródoto explicar); os beócios, o Euripo, Énoe, Hísias; Tebas e os tebanos, Tânagra,
+  Coroneia, Téspias; o Asopo, Tebe e Egina, filhas de Asopo; Éaco e os Eácidas; os eginetas, os epidáurios, Dâmia e
+  Auxésia, Éa (Οἴη), Trezena, os argivos; Sosícles de Corinto; Cípselo, Eécion (Ἠετίων), Labda, os baquíadas
+  (Βακχιάδαι), Anfíon, Petra; Periandro, Trasibulo de Mileto, Melissa, os tesprotos, o Aqueronte; Pítaco, Alceu,
+  Mitilene, Hegesístrato.
+- **Termos**: ἀπόστασις → **revolta**; ἰσονομίη → **igualdade perante a lei** (como no livro III); ἰσηγορίη (78) →
+  **igualdade de palavra**; ἰσοκρατίη (92α) → **igualdade de poder**; τύραννος, τυραννίς → tirano, tirania; ὁ δῆμος
+  → o povo; οἱ δῆμοι (as divisões da Ática) → **os demos**; φυλή → **tribo**; φύλαρχος → chefe de tribo; ἡ βουλή → o
+  conselho; πρυτάνιες τῶν ναυκράρων → os prítanes dos naucraros; ἔφοροι → éforos; ἡ ἀγορή → a ágora; ὁ ἀγών → os jogos;
+  πένταθλον → pentatlo; στάδιον (a corrida) → o estádio; ἀναθήματα → oferendas; τρίπους → trípode; ὁ δῆμος τῶν
+  Ἀθηναίων → os atenienses (o povo de Atenas, conforme o tom); ξεῖνος → hóspede; ξεινίη → hospitalidade.

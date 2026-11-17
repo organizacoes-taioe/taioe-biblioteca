@@ -49,3 +49,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 164.4: «uma parente sua, filha do rei dos barceus, que se chamava Alazir; vai para junto dele» deixa em dúvida se Alazir é a filha ou o rei (no grego é o rei, o sogro morto no fim da frase) → «filha do rei dos barceus, de nome Alazir; Arcesilau vai para junto dele».
+- Números e nomes conferem (40 e 16 anos, 159.1; sete mil hoplitas, 160.3; três tribos, 161.3; quatro Batos e quatro Arcesilaus, oito gerações, 163.3); Ariandes, Amásis, Badres e Feretima coerentes com as demais partes.

@@ -53,3 +53,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 56.1: «como a aurora os surpreendeu ainda discutindo entre si» é ambíguo: vem logo depois de «o arauto voltou para os atenienses», e parece falar dos atenienses; no grego são os lacedemônios (Pausânias, Eurianax e Amonfáreto) que discutiam → «e, como a aurora surpreendeu os lacedemônios ainda discutindo entre si».

@@ -334,18 +334,25 @@ os nomes que só aparecem uma vez (o catálogo, 61–99, sobretudo) estão nas n
 O livro de Salamina: o Artemísio, a passagem pelas Termópilas e o ataque a Delfos, Atenas abandonada e a acrópole
 tomada, os conselhos em Salamina, a batalha, a volta de Xerxes, Temístocles em Andros, Artabazo em Potideia e Olinto,
 Mardônio e os oráculos, Alexandre da Macedônia em Atenas. O título: `Θ · ΟΥΡΑΝΙΗ` → `LIVRO VIII · URÂNIA`. Os nomes e
-termos do livro VII valem aqui (a seção acima). Lista escrita antes da tradução: forma melhor vai nas notas.
+termos do livro VII valem aqui (a seção acima). Lista acertada pelos nomes da tradução; os que só aparecem uma vez
+estão nas notas de cada parte.
 
 - **Gregos**: Temístocles, filho de Néocles; Euribíades, filho de Euriclides; Adimanto, filho de Ócito (Corinto);
   Aristides, filho de Lisímaco; Mnesífilo; Sicino (o criado de Temístocles); Diceu, filho de Teocides; Demarato;
-  Cílias de Cione (o mergulhador); Ameinias de Palene; Polícrito de Egina; Panécio de Tenos; Timodemo de Afidnas;
-  Bácis, Lisístrato e Museu (os oráculos); Mis (Μῦς), o europeu; os Eácidas; Cecrops, Erecteu.
-- **Persas e outros**: Xerxes, Mardônio, Artemísia, Ariabignes, Hermotimo de Pédaso e Panionio de Quios, Artabazo,
-  filho de Fárnaces; Alexandre, filho de Amintas, e os reis da Macedônia (Pérdicas, Gavanes, Aéropo; Argeu, Filipe…).
+  Cílias de Escione (o mergulhador; Escione, como em 7.123.1); Ameinias de Palene; Polícrito de Egina, filho de Crio;
+  Panécio de Tenos; Timodemo de Afidnas; Bácis, Lisístrato e Museu (os oráculos); os Eácidas; Cécrope, Erecteu.
+- **Persas e outros**: Xerxes, Mardônio, Artemísia, Ariabignes, Hermótimo de Pédaso e Paniônio de Quios; Artabazo,
+  filho de Farnaces (como em 7.66.2); Mis de Europo (Εὐρωπεύς: da Europo da Cária; não «europeu»); Gorgo, rei da
+  Salamina de Chipre (11.2, o do livro V); Alexandre, filho de Amintas, e os reis da Macedônia (Pérdicas, a forma de
+  5.22; Gavanes, Aéropo; Argeu, Filipe…).
 - **Lugares**: o Artemísio, Afetas, o Euripo, as Cavidades da Eubeia (Κοῖλα τῆς Εὐβοίης), Histieia; a Fócida e os
-  fócios, o Parnaso, Delfos, o santuário de Atena Pronaia, Filaco e Autónoo; Salamina, Psitália, Fáleron, o Istmo, a
-  muralha do Istmo, Trezena, Egina, Elêusis, a acrópole de Atenas, o Areópago; Andros, Caristo, Paros; Potideia, Olinto,
-  Palene; o Ptoon (o santuário de Apolo Ptoo), Tebas, Lebadeia (Trofônio), Abas.
+  fócios, o Parnaso, Delfos, o santuário de Atena Pronaia, Fílaco e Autônoo (os heróis de Delfos; Fílaco também o
+  sâmio de 85.2); Salamina, Psitália, Fáleron, o istmo e o muro do istmo (em minúscula, como no livro VII, também nos
+  títulos), Trezena e o porto Pógon, Egina, Elêusis, a planície Triásia, a estrada Cirônida, Atena Círade, a acrópole
+  de Atenas, o Areópago; Téspias (a cidade; os téspios); Andros, Caristo (os caristios), Paros; Potideia, Olinto,
+  Palene, Escione, os botieus; o Ptoon (o santuário de Apolo Ptoo), Tebas, Lebadeia (Trofônio), Abas.
 - **Termos**: τὸ ἀγγαρήιον (98.2) → o _angareion_, com a explicação dele (o correio a cavalo do rei); ἀριστήια →
   **prêmio do valor**; ναυμαχίη → batalha naval; ἐπιβάται → soldados de bordo; πρόμαχοι → os que lutam na frente;
-  δρησμός → fuga; τὸ Ἑλληνικόν (144.2) → **o ser grego** / «a grecidade» só se for preciso (ver nas notas).
+  δρησμός → fuga; τριηκόντερος → triacôntera (como em 7.97); τριήραρχος → trierarca; Μακεδνὸν ἔθνος (43.1) →
+  «macedno», a forma do livro I (1.56.3); μάχαιρα → punhal (livro VII), mas «faca» em 137.5 (a do menino, que não é
+  arma); τὸ Ἑλληνικόν (144.2) → **o ser grego** (ver nas notas).

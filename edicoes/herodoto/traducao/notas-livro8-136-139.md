@@ -9,7 +9,7 @@
   dele); o grego não diz de quem, e a tradução também não (os atenienses vêm logo depois).
 - ὁ λεώς (136.2) → «um povo»; ἄλκιμος → «valente»; τὰ παθήματα → «os desastres»; ὁ Ἀθηναῖος (136.3, o singular
   coletivo) → «o ateniense» (como «o persa», «o bárbaro»).
-- 137: **Perdicas** (Περδίκκης), **Gavanes** (Γαυάνης) e **Aéropo** (Ἀέροπος), descendentes de **Témeno** (livro V);
+- 137: **Pérdicas** (Περδίκκης; a forma de 5.22), **Gavanes** (Γαυάνης) e **Aéropo** (Ἀέροπος), descendentes de **Témeno** (livro V);
   Argos; os **ilírios** (ἐς Ἰλλυριούς → «para a terra dos ilírios», como no livro I); a **Alta Macedônia** (ἡ ἄνω
   Μακεδονίη); **Lebeia** (Λεβαίη); ἡ τυραννίς → «a tirania» (CONVENCOES: a palavra grega fica, também em 137.2, «as
   tiranias dos homens», onde é o poder dos que reinavam); ἡ ἀρχή (139.1) → «o poder».
@@ -22,7 +22,7 @@
   **jardins de Midas, filho de Górdias** (os nomes do livro I); τὰ φύλλα (das rosas) → «pétalas»; **o Sileno** (ὁ
   Σιληνός, com artigo, como no grego: o ser que Midas apanhou); o monte **Bérmio** (Βέρμιον).
 - 139.1, a genealogia: Alexandre, Amintas, **Alcetas** (Ἀλκέτης), Aéropo, **Filipe** (Φίλιππος: a forma portuguesa usual
-  dos reis da Macedônia; o Filipo do livro V, 5.47, filho de Butacides, é outro), **Argeu** (Ἀργαῖος), Perdicas
+  dos reis da Macedônia; o Filipo do livro V, 5.47, filho de Butacides, é outro), **Argeu** (Ἀργαῖος), Pérdicas
   (CONVENCOES).
 
 ## Passagens

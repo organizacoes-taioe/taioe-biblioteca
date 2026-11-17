@@ -65,3 +65,26 @@ Os achados da revisão contra o grego (fim de cada `notas-livro8-*.md`), julgado
 - Recusado 65.1 «planície Triásia», 71.2 «estrada Cirônida», 94.2 «Atena Círade»: as formas adjetivas do grego, coerentes entre si e explicadas nas notas; gosto.
 - Recusado 87.4 «lutava pelos gregos» e 90.4 «amigo dos jônios»: é o sentido do grego (o αὐτοῖσι são os do trierarca; o amigo é dos jônios recém-salvos), e as notas avisam.
 - Sem mudança 66.2 (Caristo e os caristios), 75.1 (Téspias), 77.1 (Excesso, filho da Insolência), 85.2 (Fílaco), 92.1 (Crio): coerentes; a lista do CONVENCOES foi acertada onde faltava.
+
+### 108–144
+- Aplicado 108.3: o sujeito são os persas → «e os persas teriam sempre por alimento a colheita de cada ano dos gregos».
+- Aplicado 115.4: «e, na volta, não o recuperou» (sem o «de volta» repetido).
+- Aplicado 119.1: «entre dez mil opiniões não tenho uma só que duvide de que o rei teria feito o seguinte».
+- Aplicado 136.1: νέμεσθαι → «a quem o rei deu para morar Alabanda» (não «governar»).
+- Aplicado em parte 142.3: ficou o sentido «os atenienses, causadores de tudo isso» (τούτων ἁπάντων vai com αἰτίους, e 142.2 acaba de dizer que eles provocaram a guerra; Godley lê assim); só «culpados» → «causadores», a palavra do grego.
+- Aplicado 144.1: «mas é vergonhoso que tenhais tido esse medo, ao que parece, vós que conheceis bem como pensam os atenienses: não há…» (o «medo vergonhoso» parecia sentimento dos espartanos).
+- Recusado 108.2: «o maior de todos os males que eles poderiam fazer à Grécia» é o grego (σφι… ἐργάσαιτο) e a leitura de Godley.
+- Recusado 142.2: o revisor mesmo acha aceitável; 140α (aspas) e 135.1, também.
+- Recusado 137.5 «punhal»: fica «faca»; o menino a tem por acaso, e «punhal» faria dele um homem armado diante do rei; a exceção foi para o CONVENCOES.
+- Sem mudança 124.2 (a lacuna, explicada nas notas), 127.1 «botieus» (a forma de 7.185), 128 «Escione», 130.2 «Artaqueu», 133–135 «Mis de Europo» (a lista do CONVENCOES é que mudou).
+
+### Uniformização (livro VIII inteiro, com os livros I–VII)
+- Perdicas → **Pérdicas** (137.1, 137.2, 139.1; a forma de 5.22, que é também a usual em português), no texto e nas notas de 136–139.
+- «um barco de trinta remos» → **triacôntera** (21.1; como em 7.97).
+- «O muro do Istmo» → **O muro do istmo** (título de 70–82).
+- Já estavam iguais em todas as partes e com os livros anteriores (só a lista do CONVENCOES mudou): Escione, Fílaco, Autônoo, Cécrope, Mis de Europo, Farnaces, Hermótimo, Paniônio, trierarca, Fáleron, Ameinias, «o istmo» no texto. Ficam, decididas: «macedno» (1.56.3), «botieus» (7.185), «planície Triásia», «estrada Cirônida», «Atena Círade», «Pógon», «Téspias»; μάχαιρα em 137.5 → «faca».
+
+### Candidatos a decisão do Gere (opinião)
+- 55.1 ἐλαίη τε καὶ θάλασσα: está «uma oliveira e um mar»; recomendo manter (é a palavra de Heródoto, e a disputa de Posêidon e Atena explica o «mar»); alternativa: «uma oliveira e um poço de água do mar».
+- 65.4 ἡ Κούρη: está «a Donzela»; recomendo manter (Heródoto não dá o nome; «a Mãe e a Donzela» se entende sem nota); alternativa: «a Coré», com nota.
+- 144.2 τὸ Ἑλληνικόν: está «o ser grego»; recomendo manter (guarda o abstrato e é a frase famosa); alternativa: «a gente grega», que casa melhor com «do mesmo sangue e da mesma língua» sem o peso político de «a nação grega».

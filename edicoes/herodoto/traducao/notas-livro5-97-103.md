@@ -45,3 +45,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. (Conferidos: 30 mil atenienses, 20 navios, 5 trirremes erétrias, 20 a nenhum número trocado; nomes Melântio, Caropino, Hermofanto, Coresso, Eualcides.)

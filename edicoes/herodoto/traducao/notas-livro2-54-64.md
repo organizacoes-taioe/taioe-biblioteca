@@ -45,3 +45,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária (conferidos: 700 000 em Bubástis, mais de mil homens em Papremis, ordem das seis festas, nomes das três sacerdotisas de Dodona).

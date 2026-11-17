@@ -71,3 +71,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+
+Nenhuma correção necessária.
+Observação de uniformização: em 119.3 σταθμός está como «parada» (a convenção do livro VII diz «etapa» para o σταθμός da marcha; aqui é o lugar de repouso do rei, e «parada» serve).

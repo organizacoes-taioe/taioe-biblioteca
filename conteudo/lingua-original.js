@@ -208,7 +208,10 @@ BIBLIOTECA.poemas({
     {"id":"oracoes-adoro-te-devote","titulo":"Adoro te devote","forma":"outras","livro":-1,"ordem":10,"versos":28,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
     {"id":"oracoes-pange-lingua","titulo":"Pange lingua","forma":"outras","livro":-1,"ordem":11,"versos":36,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
     {"id":"oracoes-psalmus-2","titulo":"Psalmus II","forma":"outras","livro":-1,"ordem":12,"versos":29,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
-    {"id":"oracoes-ne-recorderis","titulo":"Ne recorderis","forma":"outras","livro":-1,"ordem":13,"versos":32,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"}
+    {"id":"oracoes-ne-recorderis","titulo":"Ne recorderis","forma":"outras","livro":-1,"ordem":13,"versos":32,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-litaniae-lauretanae","titulo":"Litaniae Lauretanae","forma":"outras","livro":-1,"ordem":14,"versos":71,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-trium-puerorum","titulo":"Trium puerorum","forma":"outras","livro":-1,"ordem":15,"versos":72,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"},
+    {"id":"oracoes-quicumque","titulo":"Quicumque","forma":"outras","livro":-1,"ordem":16,"versos":80,"lingua":"la","ano":null,"glossario":true,"genero":"Orações"}
   ]
 });
 

@@ -1,0 +1,1403 @@
+{
+  "verbetes": {
+    "kyrie": {
+      "lema": "Kyrie",
+      "classe": "interjeição",
+      "def": [
+        "Senhor, em grego: «Kyrie, eleison» é «Senhor, tende piedade»."
+      ]
+    },
+    "eleison": {
+      "lema": "eleison",
+      "classe": "verbo (imperativo)",
+      "def": [
+        "Tende piedade, em grego: «Kyrie, eleison»."
+      ]
+    },
+    "christe": {
+      "lema": "Christus",
+      "classe": "nome próprio",
+      "def": [
+        "Cristo, o Ungido: título de Jesus."
+      ]
+    },
+    "audi": {
+      "lema": "audio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Ouvir."
+      ],
+      "nota": "Ouve."
+    },
+    "nos": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "acusativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Objeto de audi."
+    },
+    "exaudi": {
+      "lema": "exaudio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Atender."
+      ],
+      "nota": "Atende."
+    },
+    "nos#2": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "acusativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Objeto de exaudi."
+    },
+    "pater": {
+      "lema": "pater",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O pai."
+      ],
+      "nota": "A quem se fala."
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De."
+      ]
+    },
+    "caelis": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "O céu."
+      ],
+      "nota": "Dos céus."
+    },
+    "deus": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O deus."
+      ],
+      "nota": "A quem se fala."
+    },
+    "miserere": {
+      "lema": "misereor",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Ter piedade."
+      ],
+      "nota": "Depoente: tem piedade."
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "dativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "De quem: com miserere."
+    },
+    "fili": {
+      "lema": "filius",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O filho."
+      ],
+      "nota": "A quem se fala."
+    },
+    "redemptor": {
+      "lema": "redemptor",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O redentor."
+      ],
+      "nota": "A quem se fala; junto a Fili."
+    },
+    "mundi": {
+      "lema": "mundus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O mundo."
+      ],
+      "nota": "Do mundo: complemento de Redemptor."
+    },
+    "spiritus": {
+      "lema": "spiritus",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O espírito."
+      ],
+      "nota": "A quem se fala."
+    },
+    "sancte": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com Spiritus."
+    },
+    "sancta": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com Trinitas."
+    },
+    "trinitas": {
+      "lema": "trinitas",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A Trindade; a tríade."
+      ],
+      "nota": "A quem se fala."
+    },
+    "unus": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "Concorda com Deus: um só."
+    },
+    "sancta#2": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com Maria."
+    },
+    "maria": {
+      "lema": "Maria",
+      "classe": "nome próprio",
+      "def": [
+        "Maria, a mãe de Jesus."
+      ]
+    },
+    "ora": {
+      "lema": "oro",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Rezar; orar."
+      ],
+      "nota": "Reza."
+    },
+    "pro": {
+      "lema": "pro",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Por; em favor de."
+      ]
+    },
+    "nobis#2": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "ablativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Por nós."
+    },
+    "sancta#3": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com Genetrix."
+    },
+    "dei": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O deus."
+      ],
+      "nota": "De Deus: complemento de Genetrix."
+    },
+    "genetrix": {
+      "lema": "genetrix",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A genitora; a mãe."
+      ],
+      "nota": "A quem se fala."
+    },
+    "sancta#4": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Concorda com Virgo."
+    },
+    "virgo": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A virgem; a donzela."
+      ],
+      "nota": "A quem se fala."
+    },
+    "virginum": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "genitivo plural",
+      "def": [
+        "A virgem; a donzela."
+      ],
+      "nota": "Das virgens: a virgem por excelência."
+    },
+    "mater": {
+      "lema": "mater",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A mãe."
+      ],
+      "nota": "A quem se fala."
+    },
+    "christi": {
+      "lema": "Christus",
+      "classe": "nome próprio",
+      "def": [
+        "Cristo, o Ungido: título de Jesus."
+      ],
+      "nota": "De Cristo."
+    },
+    "ecclesiae": {
+      "lema": "ecclesia",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A igreja."
+      ],
+      "nota": "Da Igreja."
+    },
+    "misericordiae": {
+      "lema": "misericordia",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A misericórdia; a compaixão."
+      ],
+      "nota": "Da misericórdia."
+    },
+    "divinae": {
+      "lema": "divinus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Divino; de Deus."
+      ],
+      "nota": "Concorda com gratiae."
+    },
+    "gratiae": {
+      "lema": "gratia",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A graça."
+      ],
+      "nota": "Da graça."
+    },
+    "spei": {
+      "lema": "spes",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A esperança."
+      ],
+      "nota": "Da esperança."
+    },
+    "purissima": {
+      "lema": "purus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Puro; limpo."
+      ],
+      "nota": "Superlativo: puríssima."
+    },
+    "castissima": {
+      "lema": "castus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Casto; puro."
+      ],
+      "nota": "Superlativo: castíssima."
+    },
+    "inviolata": {
+      "lema": "inviolatus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Inviolado; intacto."
+      ],
+      "nota": "Concorda com Mater: intacta."
+    },
+    "intemerata": {
+      "lema": "intemeratus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Imaculado; sem mancha."
+      ],
+      "nota": "Concorda com Mater: imaculada."
+    },
+    "amabilis": {
+      "lema": "amabilis",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Amável; digno de amor."
+      ],
+      "nota": "Concorda com Mater: amável."
+    },
+    "admirabilis": {
+      "lema": "admirabilis",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Admirável; digno de admiração."
+      ],
+      "nota": "Concorda com Mater: admirável."
+    },
+    "boni": {
+      "lema": "bonus",
+      "classe": "adjetivo",
+      "forma": "genitivo neutro singular",
+      "def": [
+        "Bom."
+      ],
+      "nota": "Concorda com consilii."
+    },
+    "consilii": {
+      "lema": "consilium",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O conselho; o parecer."
+      ],
+      "nota": "Do bom conselho."
+    },
+    "creatoris": {
+      "lema": "creator",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O criador."
+      ],
+      "nota": "Do Criador."
+    },
+    "salvatoris": {
+      "lema": "salvator",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O salvador; o que salva."
+      ],
+      "nota": "Do Salvador."
+    },
+    "prudentissima": {
+      "lema": "prudens",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Prudente; sensato."
+      ],
+      "nota": "Superlativo: prudentíssima."
+    },
+    "veneranda": {
+      "lema": "veneror",
+      "classe": "verbo",
+      "forma": "gerundivo, vocativo feminino singular",
+      "def": [
+        "Venerar; adorar."
+      ],
+      "nota": "Que deve ser venerada."
+    },
+    "praedicanda": {
+      "lema": "praedico",
+      "classe": "verbo",
+      "forma": "gerundivo, vocativo feminino singular",
+      "def": [
+        "Proclamar; anunciar."
+      ],
+      "nota": "Que deve ser proclamada."
+    },
+    "potens": {
+      "lema": "potens",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Poderoso."
+      ],
+      "nota": "Concorda com Virgo."
+    },
+    "clemens": {
+      "lema": "clemens",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Clemente; benigno."
+      ],
+      "nota": "Concorda com Virgo."
+    },
+    "fidelis": {
+      "lema": "fidelis",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Fiel."
+      ],
+      "nota": "Concorda com Virgo."
+    },
+    "speculum": {
+      "lema": "speculum",
+      "classe": "substantivo neutro",
+      "forma": "vocativo singular",
+      "def": [
+        "O espelho; o que reflete."
+      ],
+      "nota": "A quem se fala."
+    },
+    "iustitiae": {
+      "lema": "iustitia",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A justiça; a equidade."
+      ],
+      "nota": "Da justiça."
+    },
+    "sedes": {
+      "lema": "sedes",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A sede; o assento."
+      ],
+      "nota": "A quem se fala."
+    },
+    "sapientiae": {
+      "lema": "sapientia",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A sabedoria; o saber."
+      ],
+      "nota": "Da sabedoria."
+    },
+    "causa": {
+      "lema": "causa",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A causa; o motivo."
+      ],
+      "nota": "A quem se fala."
+    },
+    "nostrae": {
+      "lema": "noster",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com laetitiae."
+    },
+    "laetitiae": {
+      "lema": "laetitia",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A alegria; o júbilo."
+      ],
+      "nota": "Da nossa alegria."
+    },
+    "vas": {
+      "lema": "vas",
+      "classe": "substantivo neutro",
+      "forma": "vocativo singular",
+      "def": [
+        "O vaso; recipiente."
+      ],
+      "nota": "A quem se fala."
+    },
+    "spirituale": {
+      "lema": "spiritualis",
+      "classe": "adjetivo",
+      "forma": "vocativo neutro singular",
+      "def": [
+        "Espiritual; do espírito."
+      ],
+      "nota": "Concorda com Vas."
+    },
+    "honorabile": {
+      "lema": "honorabilis",
+      "classe": "adjetivo",
+      "forma": "vocativo neutro singular",
+      "def": [
+        "Honorável; digno de honra."
+      ],
+      "nota": "Concorda com Vas."
+    },
+    "insigne": {
+      "lema": "insignis",
+      "classe": "adjetivo",
+      "forma": "vocativo neutro singular",
+      "def": [
+        "Notável; insigne."
+      ],
+      "nota": "Concorda com Vas."
+    },
+    "devotionis": {
+      "lema": "devotio",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A devoção; a dedicação."
+      ],
+      "nota": "De devoção."
+    },
+    "rosa": {
+      "lema": "rosa",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A rosa."
+      ],
+      "nota": "A quem se fala."
+    },
+    "mystica": {
+      "lema": "mysticus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Místico; misterioso."
+      ],
+      "nota": "Concorda com Rosa."
+    },
+    "turris": {
+      "lema": "turris",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A torre; a construção alta."
+      ],
+      "nota": "A quem se fala."
+    },
+    "davidica": {
+      "lema": "Davidicus",
+      "classe": "adjetivo (nome próprio)",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "De Davi, o rei de Israel, antepassado de Jesus."
+      ],
+      "nota": "De Davi: concorda com Turris."
+    },
+    "eburnea": {
+      "lema": "eburneus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "De marfim; ebúrneo."
+      ],
+      "nota": "Concorda com Turris."
+    },
+    "domus": {
+      "lema": "domus",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A casa; o lar."
+      ],
+      "nota": "A quem se fala."
+    },
+    "aurea": {
+      "lema": "aureus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "De ouro; dourado."
+      ],
+      "nota": "Concorda com Domus."
+    },
+    "foederis": {
+      "lema": "foedus",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "A aliança; o pacto."
+      ],
+      "nota": "Da aliança: complemento de arca."
+    },
+    "arca": {
+      "lema": "arca",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A arca; o baú."
+      ],
+      "nota": "A quem se fala."
+    },
+    "ianua": {
+      "lema": "ianua",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A porta; a entrada."
+      ],
+      "nota": "A quem se fala."
+    },
+    "caeli": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O céu."
+      ],
+      "nota": "Do céu."
+    },
+    "stella": {
+      "lema": "stella",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A estrela."
+      ],
+      "nota": "A quem se fala."
+    },
+    "matutina": {
+      "lema": "matutinus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Matutino; da manhã."
+      ],
+      "nota": "Concorda com Stella."
+    },
+    "salus": {
+      "lema": "salus",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A salvação."
+      ],
+      "nota": "A quem se fala."
+    },
+    "infirmorum": {
+      "lema": "infirmus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Fraco; enfermo."
+      ],
+      "nota": "Substantivado: dos enfermos."
+    },
+    "refugium": {
+      "lema": "refugium",
+      "classe": "substantivo neutro",
+      "forma": "vocativo singular",
+      "def": [
+        "O refúgio; o abrigo."
+      ],
+      "nota": "A quem se fala."
+    },
+    "peccatorum": {
+      "lema": "peccator",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O pecador."
+      ],
+      "nota": "Dos pecadores."
+    },
+    "solacium": {
+      "lema": "solacium",
+      "classe": "substantivo neutro",
+      "forma": "vocativo singular",
+      "def": [
+        "O consolo; o alívio."
+      ],
+      "nota": "A quem se fala."
+    },
+    "migrantium": {
+      "lema": "migro",
+      "classe": "verbo",
+      "forma": "particípio presente, genitivo masculino plural",
+      "def": [
+        "Migrar; mudar de terra."
+      ],
+      "nota": "Substantivado: dos migrantes."
+    },
+    "consolatrix": {
+      "lema": "consolatrix",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A consoladora; a que conforta."
+      ],
+      "nota": "A quem se fala."
+    },
+    "afflictorum": {
+      "lema": "affligo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, genitivo masculino plural",
+      "def": [
+        "Afligir; abater."
+      ],
+      "nota": "Substantivado: dos aflitos."
+    },
+    "auxilium": {
+      "lema": "auxilium",
+      "classe": "substantivo neutro",
+      "forma": "vocativo singular",
+      "def": [
+        "O auxílio."
+      ],
+      "nota": "A quem se fala."
+    },
+    "christianorum": {
+      "lema": "christianus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Cristão; de Cristo."
+      ],
+      "nota": "Substantivado: dos cristãos."
+    },
+    "regina": {
+      "lema": "regina",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A rainha."
+      ],
+      "nota": "A quem se fala."
+    },
+    "angelorum": {
+      "lema": "angelus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O anjo."
+      ],
+      "nota": "Dos anjos."
+    },
+    "patriarcharum": {
+      "lema": "patriarcha",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O patriarca; o chefe do clã."
+      ],
+      "nota": "Dos patriarcas."
+    },
+    "prophetarum": {
+      "lema": "propheta",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O profeta."
+      ],
+      "nota": "Dos profetas."
+    },
+    "apostolorum": {
+      "lema": "apostolus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O apóstolo; o enviado."
+      ],
+      "nota": "Dos apóstolos."
+    },
+    "martyrum": {
+      "lema": "martyr",
+      "classe": "substantivo",
+      "forma": "genitivo plural",
+      "def": [
+        "O mártir; a testemunha."
+      ],
+      "nota": "Dos mártires."
+    },
+    "confessorum": {
+      "lema": "confessor",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O confessor; o que confessa a fé."
+      ],
+      "nota": "Dos confessores."
+    },
+    "virginum#2": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "genitivo plural",
+      "def": [
+        "A virgem; a donzela."
+      ],
+      "nota": "Das virgens."
+    },
+    "sanctorum": {
+      "lema": "sanctus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Santo."
+      ],
+      "nota": "Substantivado: dos santos."
+    },
+    "omnium": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Concorda com Sanctorum."
+    },
+    "sine": {
+      "lema": "sine",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Sem; na falta de."
+      ]
+    },
+    "labe": {
+      "lema": "labes",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A mancha; a nódoa."
+      ],
+      "nota": "Sem mancha."
+    },
+    "originali": {
+      "lema": "originalis",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Original; da origem."
+      ],
+      "nota": "Concorda com labe."
+    },
+    "concepta": {
+      "lema": "concipio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, vocativo feminino singular",
+      "def": [
+        "Conceber."
+      ],
+      "nota": "Concorda com Regina: concebida."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Em / para."
+      ],
+      "nota": "Para: movimento."
+    },
+    "caelum": {
+      "lema": "caelum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O céu."
+      ],
+      "nota": "Para o céu."
+    },
+    "assumpta": {
+      "lema": "assumo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, vocativo feminino singular",
+      "def": [
+        "Tomar; assumir."
+      ],
+      "nota": "Concorda com Regina: levada."
+    },
+    "sacratissimi": {
+      "lema": "sacratus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Sagrado; consagrado."
+      ],
+      "nota": "Superlativo; concorda com Rosarii."
+    },
+    "rosarii": {
+      "lema": "rosarium",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O rosário; o roseiral."
+      ],
+      "nota": "Do Rosário."
+    },
+    "familiae": {
+      "lema": "familia",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A família; casa."
+      ],
+      "nota": "Da família."
+    },
+    "pacis": {
+      "lema": "pax",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A paz."
+      ],
+      "nota": "Da paz."
+    },
+    "agnus": {
+      "lema": "agnus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O cordeiro."
+      ],
+      "nota": "A quem se fala (nominativo no lugar do vocativo)."
+    },
+    "dei#2": {
+      "lema": "deus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O deus."
+      ],
+      "nota": "De Deus."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de tollis; retoma Agnus."
+    },
+    "tollis": {
+      "lema": "tollo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Tomar / tirar."
+      ],
+      "nota": "Tiras (carregas)."
+    },
+    "peccata": {
+      "lema": "peccatum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O pecado."
+      ],
+      "nota": "Objeto de tollis."
+    },
+    "mundi#2": {
+      "lema": "mundus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O mundo."
+      ],
+      "nota": "Do mundo."
+    },
+    "parce": {
+      "lema": "parco",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Poupar; perdoar."
+      ],
+      "nota": "Poupa (perdoa)."
+    },
+    "nobis#3": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "dativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "A quem: com parce."
+    },
+    "domine": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O senhor."
+      ],
+      "nota": "A quem se fala."
+    },
+    "ut": {
+      "lema": "ut",
+      "classe": "advérbio",
+      "def": [
+        "Como; para que."
+      ]
+    },
+    "digni": {
+      "lema": "dignus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Digno."
+      ],
+      "nota": "Concorda com o sujeito subentendido: nós."
+    },
+    "efficiamur": {
+      "lema": "efficio",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural, voz passiva",
+      "def": [
+        "Fazer; produzir."
+      ],
+      "nota": "Para que sejamos feitos."
+    },
+    "promissionibus": {
+      "lema": "promissio",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "A promessa; o compromisso."
+      ],
+      "nota": "Complemento de digni: dignos das promessas."
+    },
+    "oremus": {
+      "lema": "oro",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Rezar; orar."
+      ],
+      "nota": "Exortação: rezemos."
+    },
+    "concede": {
+      "lema": "concedo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Conceder; outorgar."
+      ],
+      "nota": "Concede."
+    },
+    "nos#3": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "acusativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Sujeito de gaudere, com famulos."
+    },
+    "famulos": {
+      "lema": "famulus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "O servo; o servidor."
+      ],
+      "nota": "Aposto de nos: servos."
+    },
+    "tuos": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com famulos."
+    },
+    "quaesumus": {
+      "lema": "quaeso",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Pedir; por favor."
+      ],
+      "nota": "Pedimos."
+    },
+    "perpetua": {
+      "lema": "perpetuus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Perpétuo; contínuo."
+      ],
+      "nota": "Concorda com sanitate."
+    },
+    "mentis": {
+      "lema": "mens",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A mente."
+      ],
+      "nota": "Da mente."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "corporis": {
+      "lema": "corpus",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O corpo."
+      ],
+      "nota": "Do corpo."
+    },
+    "sanitate": {
+      "lema": "sanitas",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A saúde; o bem-estar."
+      ],
+      "nota": "Com saúde: complemento de gaudere."
+    },
+    "gaudere": {
+      "lema": "gaudeo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Alegrar-se."
+      ],
+      "nota": "Gozar de; depende de concede."
+    },
+    "gloriosa": {
+      "lema": "gloriosus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Glorioso."
+      ],
+      "nota": "Concorda com intercessione."
+    },
+    "beatae": {
+      "lema": "beatus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Bem-aventurado; feliz."
+      ],
+      "nota": "Concorda com Mariae."
+    },
+    "mariae": {
+      "lema": "Maria",
+      "classe": "nome próprio",
+      "forma": "genitivo singular",
+      "def": [
+        "Maria, a mãe de Jesus (genitivo)."
+      ],
+      "nota": "De Maria."
+    },
+    "semper": {
+      "lema": "semper",
+      "classe": "advérbio",
+      "def": [
+        "Sempre."
+      ]
+    },
+    "virginis": {
+      "lema": "virgo",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A virgem; a donzela."
+      ],
+      "nota": "Da Virgem."
+    },
+    "intercessione": {
+      "lema": "intercessio",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A intercessão; a mediação."
+      ],
+      "nota": "Pela intercessão."
+    },
+    "a": {
+      "lema": "ab",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; desde."
+      ],
+      "nota": "De: separação."
+    },
+    "praesenti": {
+      "lema": "praesens",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Presente; que está."
+      ],
+      "nota": "Concorda com tristitia."
+    },
+    "liberari": {
+      "lema": "libero",
+      "classe": "verbo",
+      "forma": "infinitivo presente, voz passiva",
+      "def": [
+        "Libertar."
+      ],
+      "nota": "Ser libertados."
+    },
+    "tristitia": {
+      "lema": "tristitia",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A tristeza; a mágoa."
+      ],
+      "nota": "Da tristeza."
+    },
+    "aeterna": {
+      "lema": "aeternus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Eterno."
+      ],
+      "nota": "Concorda com laetitia."
+    },
+    "perfrui": {
+      "lema": "perfruor",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Gozar; desfrutar."
+      ],
+      "nota": "Depoente: gozar plenamente."
+    },
+    "laetitia": {
+      "lema": "laetitia",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A alegria; o júbilo."
+      ],
+      "nota": "Da alegria: complemento de perfrui."
+    },
+    "per": {
+      "lema": "per",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por."
+      ]
+    },
+    "christum": {
+      "lema": "Christus",
+      "classe": "nome próprio",
+      "def": [
+        "Cristo, o Ungido: título de Jesus."
+      ],
+      "nota": "Por Cristo."
+    },
+    "dominum": {
+      "lema": "dominus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O senhor."
+      ],
+      "nota": "Concorda com Christum."
+    },
+    "nostrum": {
+      "lema": "noster",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com Dominum."
+    },
+    "amen": {
+      "lema": "amen",
+      "classe": "interjeição",
+      "def": [
+        "Amém: assim seja. Palavra hebraica que fecha a oração."
+      ]
+    },
+    "litaniae": {
+      "lema": "litania",
+      "classe": "substantivo feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "Ladainha: oração de súplicas curtas, uma depois da outra."
+      ]
+    },
+    "lauretanae": {
+      "lema": "Lauretanus",
+      "classe": "adjetivo (nome próprio)",
+      "forma": "nominativo feminino plural",
+      "def": [
+        "De Loreto, o santuário de Nossa Senhora na Itália onde a ladainha se rezava."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "2.6": "nos#2",
+    "7.1": "sancta#2",
+    "7.5": "nobis#2",
+    "8.1": "sancta#3",
+    "9.1": "sancta#4",
+    "54.2": "virginum#2",
+    "61.2": "dei#2",
+    "61.6": "mundi#2",
+    "61.8": "nobis#3",
+    "62.2": "dei#2",
+    "62.6": "mundi#2",
+    "62.8": "nos#2",
+    "63.2": "dei#2",
+    "63.6": "mundi#2",
+    "64.3": "nobis#2",
+    "64.4": "sancta#3",
+    "67.2": "nos#3"
+  }
+}

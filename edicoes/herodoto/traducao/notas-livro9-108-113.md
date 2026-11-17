@@ -26,8 +26,8 @@
 ## Passagens
 - 108.1 προσπταίσας → «depois do tropeço» (a mesma imagem de 101.3, «tropeçasse em Mardônio»); «Foi então… que ele se
   apaixonou» (o τότε δή… ἄρα do grego, que marca o começo da história); προσπέμποντι → «mandando-lhe recados»;
-  κατεργασθῆναι → «conquistá-la»; προμηθεόμενος → «por consideração»; «e isso mesmo segurava também a mulher» (τὠυτὸ
-  τοῦτο εἶχε: o respeito a Masistes, que contém Xerxes, contém também a mulher, que se sabe a salvo da violência),
+  κατεργασθῆναι → «conquistá-la»; προμηθεόμενος → «por consideração»; «e isso mesmo valia também para a mulher» (τὠυτὸ
+  τοῦτο εἶχε: o respeito a Masistes, que contém Xerxes, protege também a mulher, que se sabe a salvo da violência),
   entre parênteses, como uma explicação dentro da frase; ἐργόμενος τῶν ἄλλων → «barrado em tudo o mais»; πρήσσει
   (presente histórico) → «arranja»; λάμψεσθαι (= λήψεσθαι, jônico) → «ia conseguir mais facilmente a mãe» (o grego diz
   só «ela», αὐτήν; «a mãe», para que o leitor não pense na filha, que é o objeto do casamento: é a leitura de Godley e
@@ -39,8 +39,8 @@
 - 109.2 «que tinha de acabar mal com toda a sua casa» (κακῶς γὰρ ἔδεε… γενέσθαι: a fórmula de Heródoto para a
   desgraça que estava fixada, como em 1.8.2 e 2.161.3); «Tu me darás o que eu te pedir?»; πᾶν μᾶλλον → «qualquer outra
   coisa» (pensava que ela pediria tudo, menos aquilo); ἀδεῶς → «sem medo».
-- 109.3 παντοῖος ἐγίνετο → «fez de tudo»; «não por outro motivo, mas por medo de Amêstris, que já antes adivinhava o
-  que se passava, e de ser apanhado fazendo assim» (κατεικαζούσῃ: ela já suspeitava; o manto, que era dela, seria a
+- 109.3 παντοῖος ἐγίνετο → «fez de tudo»; «não por outro motivo, mas por medo de que Amêstris, que já antes
+  desconfiava do que se passava, o apanhasse fazendo assim» (um medo só) (κατεικαζούσῃ: ela já suspeitava; o manto, que era dela, seria a
   prova); ἄπλετον → «sem fim»; «O exército é um presente bem persa» (a observação de Heródoto, solta); ἀγάλλετο → «se
   exibia com ele».
 - 110.1 οὐκ εἶχε ἔγκοτον → «não guardou raiva»; ἐλπίζουσα → «supondo»; πρήσσειν → «tramava»; ἐβούλευε ὄλεθρον →

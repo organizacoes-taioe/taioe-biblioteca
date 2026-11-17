@@ -21,8 +21,9 @@
 - στῖφος (70.4) → «tropa» (como em 57.1); ἀλκή → «resistir» («nenhum deles se lembrava mais de resistir»).
 - ἀριστεύειν (71–74) → **distinguir-se** («distinguiu-se mais»; «o mais valente dos atenienses», 74.1); ἄριστος →
   **o mais valente** (CONVENCOES); ἀγαθός (71.1, 71.3, 75.1) → «valentes», «homem valente»; ἀρετή → «valor».
-- Os **sacas** (como em 31); **Aristodemo** (CONVENCOES), com ὄνειδος e ἀτιμίη → «opróbrio e desonra» e αἰτίη →
-  «culpa» (as palavras de 7.231, onde se conta a desonra dele; «opróbrio» ficou pela continuidade com o livro VII);
+- Os **sacas** (como em 31); **Aristodemo** (CONVENCOES), com ὄνειδος e ἀτιμίη → «vergonha e desonra» e αἰτίη →
+  «culpa» (as palavras de 7.231, onde se conta a desonra dele; na revisão, «opróbrio», palavra rara, virou «vergonha»
+  aqui e no livro VII);
   **Posidônio**, **Filocíon**, **Amonfáreto, o espartano**, **Calícrates** (CONVENCOES).
 - **Arimnesto**, «um homem de Plateia» (CONVENCOES).
 - **Sófanes, filho de Eutíquides** (Eutíquides é novo), «do demo de Decélia» (δῆμος → **demo**, CONVENCOES do livro
@@ -69,7 +70,7 @@
 - 71.1 «e, entre os homens, conta-se que Mardônio» (λέγεται: Heródoto não afirma por si).
 - 71.2 «Não tenho outra coisa com que mostrar isso… a não ser» (ἀποσημήνασθαι: dar um sinal, uma prova); γνῶμαι
   (no plural) → «a meu ver» (o plural é o de Heródoto falando de si, como em outros lugares);
-  «tinha caído em opróbrio e desonra» (εἶχε, o imperfeito: era a situação dele até Plateia).
+  «tinha caído na vergonha e na desonra» (εἶχε, o imperfeito: era a situação dele até Plateia).
 - 71.3 λέσχη → «uma conversa»; φανερῶς → «à vista de todos»; λυσσῶντα → «fora de si» (o grego diz «em fúria», a
   palavra da raiva); «e que nisso este era tanto melhor» (o grego, no fim: era melhor por ter sido valente sem querer
   morrer).

@@ -4,7 +4,7 @@
 - **Mícale**, na **Jônia** (CONVENCOES; sem artigo, como «em Plateia»); **Delos**, **Samos** e os **sâmios**;
   **Leotíquides, o lacedemônio** (CONVENCOES).
 - Os mensageiros: **Lâmpon, filho de Trasicles** (não o Lâmpon de Egina, filho de Píteas, de 78–79), **Atenágoras,
-  filho de Arquestrátidas** (nomes novos) e **Hegesístrato, filho de Aristágoras** (o sâmio, CONVENCOES; não o
+  filho de Arquestrátides** (nomes novos; -ίδης → -ides, como Leotíquides) e **Hegesístrato, filho de Aristágoras** (o sâmio, CONVENCOES; não o
   adivinho eleu de 37–38).
 - **Teomestor, filho de Androdamante** (as formas de 8.85); τύραννος → **tirano** (CONVENCOES).
 - τὸ τρῶμα (90.1) → «o desastre» (o grego diz «a ferida»: a derrota dos persas); ἀποστήσονται → «se revoltariam»
@@ -12,8 +12,8 @@
   ὅμηροι → «reféns».
 - O vocativo (91.1–2) → «Hóspede sâmio» (a fórmula de «Hóspede milésio», livro V, e de «Hóspede egineta», 79.1);
   ὁ ξεῖνος (91.1) → «o hóspede sâmio» (a mesma palavra fora da fala).
-- κληδών (91.1) → «augúrio» (o sinal tirado de uma palavra ouvida); οἰωνός (91.2, 92.2) → «presságio» (as duas
-  palavras do grego ficaram diferentes).
+- κληδών (91.1, 101.3) e οἰωνός (91.2, 92.2) → **presságio** (decidido na revisão: «augúrio» é palavra rara e
+  «agouro» puxa para o mau sinal; a diferença do grego, sinal de palavra ouvida × sinal de ave, não passa).
 - πίστις → «garantias»; ὅρκια → «juramentos»; συμμαχίη → «aliança»; σύμμαχοι → «aliados».
 - καλλιερέειν (93.1, 96.1) → **ter sinais favoráveis** (CONVENCOES); μαντεύεσθαι → «ser o adivinho», «fazer de
   adivinho»; μαντική → «o dom de adivinhar»; μάντις → **adivinho**.
@@ -59,7 +59,7 @@
   jônios são gregos); «o bárbaro» (o singular coletivo).
 - 90.3 εὐπετές → «fácil»; ἀξιόμαχοι → «capazes de lutar com os seus»; «se havia alguma suspeita» (o grego diz
   «se suspeitavam de alguma coisa»: o sujeito são os generais gregos).
-- 91.1 λισσόμενος → «insistia muito nos seus pedidos»; «ou porque queria saber para tirar disso um augúrio,
+- 91.1 λισσόμενος → «insistia muito nos seus pedidos»; «ou porque queria saber para tirar disso um presságio,
   ou por acaso, por obra de um deus» (as duas hipóteses de Heródoto; ele não decide).
 - 91.2 O nome Hegesístrato quer dizer, em grego, «o que conduz o exército»: por isso Leotíquides o aceita como
   presságio. O jogo não passa ao português, e Heródoto não o explica; fica sem acréscimo (é candidato a nota de

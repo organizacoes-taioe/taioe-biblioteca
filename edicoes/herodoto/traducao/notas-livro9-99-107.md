@@ -10,8 +10,7 @@
 - γέρρα → **escudos de vime** (CONVENCOES); ἕρκος (99.3) → «cerca» (como em 96.3); τὸ τεῖχος (102–106) → **o muro**
   (o acampamento fortificado dos persas, como em 98.2 e em Plateia).
 - φήμη (100–101) → «uma voz» (o rumor que corre sem que se saiba de onde, e que Heródoto tem por divino; em
-  português, «corre a voz»); κληδών (101.3) → «esse augúrio» (a forma de 91.1: o grego troca de palavra, e a tradução
-  também); ἐσέπτατο → «voou» (as duas vezes, 100.1 e 101.3: a imagem do grego).
+  português, «corre a voz»); κληδών (101.3) → «esse presságio» (a forma de 91.1; ver lá); ἐσέπτατο → «voou» (as duas vezes, 100.1 e 101.3: a imagem do grego).
 - τὸ κηρυκήιον (100.1) → **o caduceu** (CONVENCOES): o bastão do arauto; ἡ κυματωγή → «a beira da água» (onde quebram
   as ondas).
 - τὰ θεῖα τῶν πρηγμάτων (100.2) → «o que há de divino nos acontecimentos»; τρῶμα → «o desastre» (como em 90.1);
@@ -60,8 +59,8 @@
 - 99.3 δῆθεν → «como se fossem eles os que melhor conheciam a região» (o pretexto); «de quem também esperavam que
   fizessem alguma revolta se tivessem força nas mãos» (δυνάμιος ἐπιλαβομένοισι); προεφυλάσσοντο → «se guardavam de
   antemão»; συνεφόρησαν → «juntaram» (puseram lado a lado os escudos, como em Plateia, 61.3).
-- 100.1 «tudo estava pronto para os gregos» (o passivo impessoal do grego); κείμενον → «caído» (deixado ali, sem que se
-  soubesse por quem: é o sinal); «e a voz correu entre eles assim» (διῆλθε).
+- 100.1 «tudo estava pronto para os gregos» (o passivo impessoal do grego); κείμενον → «deitado» (posto ali, sem que se
+  soubesse por quem: é o sinal; «caído» era o primeiro texto); «e a voz correu entre eles assim» (διῆλθε).
 - 100.2 A frase de Heródoto («fica claro… se também então…») é a sua prova do divino; o «se» é o do grego (εἰ: a prova
   está no fato de que…), e ficou; «caindo no mesmo dia» (συμπιπτούσης: a coincidência, como συνεκύρησε em 90.1);
   θαρσῆσαι → «se encheu de muito mais coragem»; «quis correr o perigo com mais ardor».

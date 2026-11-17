@@ -57,3 +57,6 @@
 - 56.1, o primeiro verso do oráculo: adotei «Suporta, leão, o insuportável, com um coração que suporta», que guarda o
   verbo três vezes. Alternativa mais solta: «Leão, aguenta o que não se aguenta, com ânimo paciente» (perde uma das
   três repetições, ganha naturalidade).
+
+## Revisão contra o grego
+- 55.1: «Hiparco, filho de Pisístrato e irmão do tirano Hípias, que tinha visto em sonho…» (o «que» parece ligar-se a Hípias, e quem teve a visão foi Hiparco) → «mataram Hiparco, que tinha visto em sonho uma visão claríssima do que ia sofrer; ele era filho de Pisístrato e irmão do tirano Hípias».

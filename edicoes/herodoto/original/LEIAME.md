@@ -153,8 +153,9 @@ direita): 9.3 Δίγυες → Λίγυες; 15.2 e 61.2 τρέπονται → 
 livros I a IV); 17.2 Μακεδονίν → Μακεδονίῃ; 23.1 Ἑλλήποντον → Ἑλλήσποντον; 29.2 a palavra que o Perseus perdeu,
 «τούτους μὲν τὴν πόλιν»; 41.1 ἔφεδρον → ἔπεδρον (jônico); 52.4 ἐς βάλλοντι → ἐσβάλλοντι; 59.1 ἀμφιτρύων →
 Ἀμφιτρύων (o verso da trípode); 79.2 οὐκ ὦν → οὐκῶν; 83.3 ἱροεργίαι → ἱρουργίαι; 106.3 ἀξιοῦμαι → ἀξιεῦμαι; 106.4
-εἴ περ → εἴπερ. Acentos: 30.4 «φερέγγυος εἰμὶ» e 49.8 «ἐχόμενον ἐστὶ» (Godley não trata εἰμί como enclítica aqui,
-como em 2.28.4), 41.2 ἀληθέι, 50.2 χρεὸν, 52.3 εἰσι, 67.3 ἀπηγήσασθαι, 80.1 χρῆσαι, e os 17 aceitos pela regra
+εἴ περ → εἴπερ; 67.3 os parênteses de Godley, «(καὶ γὰρ τοῦτο δεῖ ἀπηγήσασθαι)», que o Perseus perdeu (sobrou um
+sinal solto). Em 5.1 Godley imprime «πολλά,·», erro tipográfico (o Perseus o copia): fica πολλάς·. Acentos: 30.4 «φερέγγυος εἰμὶ» e 49.8 «ἐχόμενον ἐστὶ» (Godley não trata εἰμί como enclítica aqui,
+como em 2.28.4), 41.2 ἀληθέι, 50.2 χρεὸν, 52.3 εἰσι, 80.1 χρῆσαι, e os 17 aceitos pela regra
 (`ferramentas/acentos-aceitos-l5.tsv`, quase todos ὃ pronome antes de δέ). Ficaram como no Perseus, conferidos: 24.3
 ὅτι, 52.4 νηυσιπέρητοι, 100.1 Καΰστριον, 50.2 τἆλλα, 60.1 e 61.1 τεῒν, 41.2 ὤχλεον; e 121.1 ἐμπεσόντες, onde Godley
 imprime ἐμπεσύντες, erro tipográfico. Os dois «buracos» de 73.2 e 89.3 são notas de rodapé de Godley.

@@ -35,3 +35,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Sem erro de sentido, número ou omissão; três pontos de português.
+- 19.2: «não fariam coisa santa se marchassem contra os próprios filhos» (οὐκ ἂν ποιέειν ὅσια) soa estranho → «não agiriam com piedade (não seria lícito) marchando contra os próprios filhos».
+- 21.2–21.3: o discurso do etíope abre aspas em 21.2 e abre outras em 21.3, mas só se fecham as de dentro; falta fechar as de fora (ou usar aspas simples na mensagem ao rei).
+- 22.4: «nisso eles ficavam atrás dos persas»: «eles» pode ser lido como os persas, e o sentido é o contrário (os etíopes é que perdem para os persas no vinho) → «nisso os etíopes ficavam atrás dos persas» (ou «era com ele que os persas os venciam»).

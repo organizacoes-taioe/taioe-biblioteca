@@ -8,7 +8,7 @@ O texto de Hude (Oxford, 1908; 3ª ed. 1927; Hude morreu em 1936) também é liv
 dele conferível; ficamos com Godley, que tem transcrição e fac-símiles. Rosén (Teubner, 1987–1997) e Wilson (Oxford,
 2015) são protegidos.
 
-Por enquanto os livros I (Clio) e II (Euterpe), os dois do vol. I de Godley, o III (Tália) e o IV (Melpômene), do vol. II, e o V (Terpsícore), do vol. III. A obra cresce por livros, em pedidos
+Por enquanto os livros I (Clio) e II (Euterpe), os dois do vol. I de Godley, o III (Tália) e o IV (Melpômene), do vol. II, e o V (Terpsícore) e o VI (Érato), do vol. III. A obra cresce por livros, em pedidos
 seguintes; cada livro tem os seus arquivos `livro<n>-<a>-<b>.txt` e é montado pelos mesmos scripts (`../ferramentas/`,
 com o número do livro no fim: `extrair.py dl/her-grc2.xml 2 l2.json`, `colacao.py . 2`, `acentos.py . 2`,
 `montar.py . <obra> 2`; o bloco de cada livro fica em `LIVROS`, no `montar.py`).
@@ -164,6 +164,30 @@ Os capítulos 92α–92η (o discurso de Sosícles, com a história de Cípselo 
 Perseus escreve 92A–92G; a marca é `[92α.1]`, como `[121α.1]` no livro II. Sem colchetes de Godley e sem lacunas no
 livro V. Versos: as três inscrições das trípodes de Tebas (59–61), o oráculo a Hiparco (56.1), o epigrama da
 quadriga de Atenas (77.4) e os oráculos de Cípselo (92β.2–3, 92ε.2). Título: «Ε · ΤΕΡΨΙΧΟΡΗ».
+
+## Livro VI (2026-11-17)
+
+Mesmo volume (vol. III de Godley, 1922) e mesmas fontes do livro V: o fac-símile `in.ernet.dli.2015.183370` nas p.
+164–312 do PDF (páginas pares; OCR em `ocr6/`, páginas em `pag6/`, roteiro `scripts/ocr1922-l6.sh`) e a 2ª leitura
+`herodotus19203hero`, de «BOOK VI» até «BOOK VII». A colação deu 35 pontos de letras, 459 de acentos (29 aceitos pela
+regra, 37 a ver), 35 fracos e 7 buracos; 31 pontos vistos nas imagens. Um «aceito pela regra» o fac-símile desmentiu
+(6.1 ἓν) e saiu da lista.
+
+Correções ao Perseus (o fac-símile tem a forma da direita): 12.1 ἐπιτρέπουσι → ἐπιτράπουσι, 33.2 τρέπονται →
+τράπονται, 34.2 ἐκτρέπονται → ἐκτράπονται, 119.3 τρέπεται → τράπεται; 61.2 προσέκειτο → προσεκέετο, 77.1 e 139.4
+κεῖται → κέεται (jônico, como nos livros anteriores); 42.1 δωσίδικοι → δοσίδικοι; 71.2 Δευτυχίδης → Λευτυχίδης; 73.2
+Κάσαυβον → Κάσαμβον; 86γ.2 γλαῦκ’ → Γλαῦκ’ (o nome, no oráculo); 91.2 ἐπισπαστῆρσι → ἐπισπάστροισι; 98.3 ἐρξίης →
+ἐρξείης; 100.3 φράξει → φράζει; 119.4 φυλάσοντες → φυλάσσοντες; duas palavras que o Perseus perdeu, 53.2 «ὀρθῷ λόγῳ
+χρεωμένῳ» e 138.2 «ὑπ’ ἐκείνων τινός»; e os parênteses de Godley em 69.4, 109.1 e 109.2, que o Perseus marca com
+sinais soltos (como em 5.67.3). Acentos: 13.2 τοῦ, 28.2 Καΐκου, 46.3 οὕτω e ὥστε, 73.2 γένεϊ, 74.1 τῇ, 91.1 οἷοί,
+108.3 πλησιοχώροισι τε, e os 29 aceitos pela regra (`ferramentas/acentos-aceitos-l6.tsv`, quase todos ὃ pronome antes de
+δέ; 51.1 δέ κως, 135.2 Δελφούς ὥς). Ficaram como no Perseus, conferidos: 23.3 Ζαγκλαῖοι, 6.1 e 121.2 τἆλλα, 12.1 τῇσι,
+15.1 ἀποδεικνύμενοί τε, 77.2 ὧς, 80.1 ἦ, 109.4 οὒ; e 63.3 γενέσθαι, onde Godley imprime γένεσθαι, erro tipográfico.
+
+Os capítulos 86α–86δ (a história de Glauco, que Leotíquides conta aos atenienses) têm a numeração de Hude, que o Perseus
+escreve 86A–86D. Colchetes de Godley no livro VI: 111.2 e o capítulo 122 inteiro (Cálias); lacuna, «…»: 64.1.
+Versos: o oráculo dos argivos e dos milésios (19.2 e 77.2), o de Glauco (86γ.2) e o de Delos (98.3). Título:
+«Ζ · ΕΡΑΤΩ».
 
 ## Numeração e divisão
 

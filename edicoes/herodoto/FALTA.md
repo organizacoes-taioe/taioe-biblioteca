@@ -1,7 +1,17 @@
 # Heródoto, Histórias: estado
 
 Livros I a IV no ar (PRs #100, #113, #115 e #116). Livro V pronto na branch `pedido-herodoto-5` (worktree
-`~/.cache/claude-wt5-herodoto-5`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+`~/.cache/claude-wt5-herodoto-5`); livro VI em andamento na `pedido-herodoto-6` (worktree `~/.cache/claude-wt5-herodoto-6`),
+que parte da `pedido-herodoto-5`: juntar a do V antes. Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+
+## Livro VI (Érato): em andamento (2026-11-17)
+- Feito: grego montado e conferido (`original/livro6-*.txt`, 14 partes; `original/LEIAME.md`, «Livro VI»): mesmo PDF do
+  vol. III (p. 164–312; OCR em `ocr6/`, páginas em `pag6/`, pranchas em `ver6/`); `colacao.py . 6`, `acentos.py . 6`,
+  `montar.py . <obra> 6`. Marcas 86α–86δ (Glauco). Colchetes em 111.2 e no capítulo 122 inteiro.
+- Falta: tradução das 14 partes (`traducao/livro6-*.txt` + notas; o principal costuma fazer a 1ª, que abre com
+  `LIVRO VI · ÉRATO`), revisão contra o grego, `CONVENCOES.md` (seção «Livro VI»), `obra.py` (partes do VI e a «Sobre»),
+  `revisao.json` se houver decisão nova, vocabulário, `conteudo/` gerado, `gerar.mjs` e `conferir.mjs`. O livro entra
+  todo de uma vez.
 
 ## Livro V (Terpsícore): pronto (2026-11-17)
 - Grego montado e conferido (`original/livro5-*.txt`, 13 partes; `original/LEIAME.md`, «Livro V»). Fonte nova: o vol. III
@@ -62,7 +72,7 @@ Livros I a IV no ar (PRs #100, #113, #115 e #116). Livro V pronto na branch `ped
 - Mudança comum: `ferramentas/traducoes.py` aceita marca `[121α.1]` (letra grega depois do capítulo).
 
 ## Livro seguinte (como continuar)
-- O livro VI está no mesmo vol. III (fontes do V: no PDF `dl5/v3-1922.pdf`, o título «BOOK VI» na p. 163 e o grego
-  nas páginas pares a partir da 164; a 2ª leitura, de «BOOK VI» até «BOOK VII»; o `colacao.py` já tem o recorte do 6).
-  Falta no `montar.py` o bloco 6 (`ED3`, título «Ϛ · ΕΡΑΤΩ»: conferir a letra que Godley imprime).
+- O livro VII está no mesmo vol. III (no PDF `dl5/v3-1922.pdf`, o título «BOOK VII» na p. 315 e o grego nas páginas
+  pares a partir da 316, até o fim do volume); a 2ª leitura, de «BOOK VII» até o índice: acrescentar o recorte do 7 ao
+  `colacao.py` e o bloco 7 ao `montar.py` (`ED3`, título «Η · ΠΟΛΥΜΝΙΑ»). Os livros VIII e IX estão no vol. IV (1925).
 - Notas gerais (lote futuro): livro I, o jogo Κυνώ/Σπακώ (110.1), παθήματα/μαθήματα (207.1), as Musas nos títulos.

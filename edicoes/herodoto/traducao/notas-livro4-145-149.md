@@ -32,3 +32,8 @@
 - 149.1 Οἰόλυκος: **Oiólico** (o nome grego, e o jogo de palavras se perde; recomendação, porque Heródoto não explica o
   nome, e traduzir nomes próprios não é o costume da obra) × «Ovelha-Lobo» (o sentido aparece, mas o nome vira
   apelido português num texto em que todos os outros ficam gregos). Godley dá o nome grego e explica numa nota.
+
+## Revisão contra o grego
+- 147.4: «filho de Pecíles» (Ποικίλης): nome fora do CONVENCOES.md; confirmar a forma (Godley: Poeciles) → manter se já decidida nas notas, senão registrar no CONVENCOES.
+- 147.4: «Havia na ilha … essa mesma, descendentes de Membliaro» ficou truncada: o grego diz que na ilha havia descendentes de Membliaro, sem sujeito claro em português → «Havia, na ilha hoje chamada Tera, e antes Calista (a mesma), descendentes de Membliaro, filho de Pecíles, um fenício».
+- Demais números e nomes conferem (oito gerações, três barcos de trinta remos, seis partes, seis cidades).

@@ -1,7 +1,20 @@
 # Heródoto, Histórias: estado
 
-Livros I e II no ar (PRs #100 e #113). Livro III pronto na branch `pedido-herodoto-3` (worktree
-`~/.cache/claude-wt5-herodoto-3`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+Livros I a III no ar (PRs #100, #113 e #115). Livro IV pronto na branch `pedido-herodoto-4` (worktree
+`~/.cache/claude-wt5-herodoto-4`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+
+## Livro IV (Melpômene): pronto (2026-11-16)
+- Grego montado e conferido (`original/livro4-*.txt`, 22 partes; `original/LEIAME.md`, «Livro IV»): mesmo PDF do vol. II
+  (p. 222–430; OCR em `ocr4/`, páginas em `pag4/`, pranchas em `ver4/`, na pasta de trabalho); `colacao.py . 4`,
+  `acentos.py . 4`, `montar.py . <obra> 4`. 20 palavras com letras trocadas, uma que faltava (119.4), 116 acentos;
+  44 pontos vistos nas imagens. Sem colchetes; lacunas 47.2 e 149.2.
+- Tradução: 1–12 e 200–205 pelo principal, o resto por cinco tradutores Opus em sequência; revisão contra o grego
+  por dois revisores Sonnet (registro no fim de cada `traducao/notas-livro4-*.md`); o que se aplicou e os nomes
+  uniformizados em `traducao/notas-livro4-1-12.md`. `CONVENCOES.md`, seção «Livro IV», acertada pelos nomes da tradução.
+- `obra.py` (73 partes; a «Sobre» com o livro IV), `revisao.json` (+2 decisões: «hiperbóreos… hipernótios», 36.1;
+  _aigéai_ × «peles de cabra» na origem do nome «égide», 189.2; recomendação aplicada, nada muda no ar), vocabulário
+  (+22 verbetes e 1 forma, 115 no total, `conferir` ok), `conteudo/` gerado. `gerar.mjs` e `conferir.mjs` sem erro; os
+  endereços dos livros I a III não mudam.
 
 ## Livro III (Tália): pronto (2026-11-16)
 - Grego montado e conferido (`original/livro3-*.txt`, 16 partes; `original/LEIAME.md`, «Livro III»): vol. II de
@@ -34,8 +47,7 @@ Livros I e II no ar (PRs #100 e #113). Livro III pronto na branch `pedido-herodo
 - Mudança comum: `ferramentas/traducoes.py` aceita marca `[121α.1]` (letra grega depois do capítulo).
 
 ## Livro seguinte (como continuar)
-- O livro IV está no mesmo vol. II de Godley: o mesmo PDF (`dl3/adgo1921-v2.pdf`, páginas gregas a partir da 222, pares,
-  até antes do índice) e a mesma 2ª leitura; `colacao.py` já tem o recorte do IV (2ª ocorrência de «BOOK IV» até
-  «INDEX»). Falta o OCR (copiar `scripts/ocr1921-l3.sh` com `seq 222 2 <fim>` e pasta `ocr4`), o bloco 4 em `LIVROS`
-  no `montar.py` (`edicao=ED2`, título «Δ · ΜΕΛΠΟΜΕΝΗ») e a seção do IV no `CONVENCOES.md`.
+- O livro V está no vol. III de Godley (Loeb, 1922; Godley morreu em 1925): achar o fac-símile de 1922 no Internet
+  Archive (e uma 2ª leitura com OCR grego), acrescentar ao `colacao.py` o recorte do V (O1/O2 do vol. III) e ao
+  `montar.py` o bloco 5 (`ED3`, título «Ε · ΤΕΡΨΙΧΟΡΗ»); o resto como no IV (`extrair.py dl/her-grc2.xml 5 l5.json`).
 - Notas gerais (lote futuro): livro I, o jogo Κυνώ/Σπακώ (110.1), παθήματα/μαθήματα (207.1), as Musas nos títulos.

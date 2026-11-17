@@ -304,6 +304,16 @@
    "capitulo": 8
   },
   {
+   "lema": "primícias",
+   "formas": [
+    "primícias"
+   ],
+   "classe": "substantivo feminino plural",
+   "def": "os primeiros frutos ou produtos, oferecidos aos deuses",
+   "exemplo": "s lídios: tinha em mente ou oferecê-los como primícias a algum dos deuses, ou cumprir uma",
+   "capitulo": 8
+  },
+  {
    "lema": "ameia",
    "formas": [
     "ameias"
@@ -476,6 +486,16 @@
    "classe": "substantivo masculino",
    "def": "cereal de grãos miúdos, o painço",
    "exemplo": "ura. E de que tamanho de árvore ficam o milhete e o gergelim, eu sei, mas não vou mencionar,",
+   "capitulo": 16
+  },
+  {
+   "lema": "sinete",
+   "formas": [
+    "sinete"
+   ],
+   "classe": "substantivo masculino",
+   "def": "anel com uma pedra gravada, usado para selar",
+   "exemplo": "umam o corpo inteiro. [195.2] Cada um tem um sinete e um bastão feito à mão; e em cada",
    "capitulo": 16
   },
   {
@@ -727,7 +747,8 @@
   {
    "lema": "hecatombe",
    "formas": [
-    "hecatombes"
+    "hecatombes",
+    "hecatombe"
    ],
    "classe": "substantivo feminino",
    "def": "grande sacrifício aos deuses, em origem de cem reses",
@@ -806,14 +827,14 @@
    "capitulo": 35
   },
   {
-   "lema": "pateco",
+   "lema": "tiara",
    "formas": [
-    "patecos"
+    "tiaras"
    ],
-   "classe": "substantivo masculino",
-   "def": "pequena figura de deus que os fenícios levavam na proa dos navios",
-   "exemplo": "a estátua de Hefesto é muito parecida com os patecos fenícios, que os fenícios levam na",
-   "capitulo": 39
+   "classe": "substantivo feminino",
+   "def": "gorro alto de feltro usado pelos persas",
+   "exemplo": "ardam na sombra, usando gorros de feltro, as tiaras. Isso é assim; e vi também outras ",
+   "capitulo": 37
   },
   {
    "lema": "ictiófago",
@@ -826,14 +847,34 @@
    "capitulo": 38
   },
   {
-   "lema": "tiara",
+   "lema": "pateco",
    "formas": [
-    "tiaras"
+    "patecos"
    ],
-   "classe": "substantivo feminino",
-   "def": "gorro alto de feltro usado pelos persas",
-   "exemplo": "ardam na sombra, usando gorros de feltro, as tiaras. Isso é assim; e vi também outras ",
-   "capitulo": 37
+   "classe": "substantivo masculino",
+   "def": "pequena figura de deus que os fenícios levavam na proa dos navios",
+   "exemplo": "a estátua de Hefesto é muito parecida com os patecos fenícios, que os fenícios levam na",
+   "capitulo": 39
+  },
+  {
+   "lema": "engastado",
+   "formas": [
+    "engastado"
+   ],
+   "classe": "adjetivo",
+   "def": "encaixado num aro de metal, como pedra de anel",
+   "exemplo": "hou este: tinha um anel de sinete que usava, engastado em ouro, de pedra esmeralda, obra ",
+   "capitulo": 40
+  },
+  {
+   "lema": "cavalariço",
+   "formas": [
+    "cavalariço"
+   ],
+   "classe": "substantivo masculino",
+   "def": "empregado que cuida dos cavalos",
+   "exemplo": ", esse teria o reino.  [85.1] Dario tinha um cavalariço esperto, que se chamava Oibares. A",
+   "capitulo": 44
   },
   {
    "lema": "euboico",
@@ -878,34 +919,14 @@
    "capitulo": 47
   },
   {
-   "lema": "primícias",
+   "lema": "hoplita",
    "formas": [
-    "primícias"
-   ],
-   "classe": "substantivo feminino plural",
-   "def": "os primeiros frutos ou produtos, oferecidos aos deuses",
-   "exemplo": "s lídios: tinha em mente ou oferecê-los como primícias a algum dos deuses, ou cumprir uma",
-   "capitulo": 8
-  },
-  {
-   "lema": "sinete",
-   "formas": [
-    "sinete"
+    "hoplitas"
    ],
    "classe": "substantivo masculino",
-   "def": "anel com uma pedra gravada, usado para selar",
-   "exemplo": "umam o corpo inteiro. [195.2] Cada um tem um sinete e um bastão feito à mão; e em cada",
-   "capitulo": 16
-  },
-  {
-   "lema": "engastado",
-   "formas": [
-    "engastado"
-   ],
-   "classe": "adjetivo",
-   "def": "encaixado num aro de metal, como pedra de anel",
-   "exemplo": "hou este: tinha um anel de sinete que usava, engastado em ouro, de pedra esmeralda, obra ",
-   "capitulo": 40
+   "def": "soldado grego de infantaria pesada, com escudo e lança",
+   "exemplo": "ugar que um dos de lá se revoltou com quinze hoplitas, ficou com ela e agora é tirano de",
+   "capitulo": 48
   },
   {
    "lema": "aguilhão",
@@ -928,24 +949,235 @@
    "capitulo": 50
   },
   {
-   "lema": "hoplita",
+   "lema": "feltro",
    "formas": [
-    "hoplitas"
+    "feltro"
    ],
    "classe": "substantivo masculino",
-   "def": "soldado grego de infantaria pesada, com escudo e lança",
-   "exemplo": "ugar que um dos de lá se revoltou com quinze hoplitas, ficou com ela e agora é tirano de",
-   "capitulo": 48
+   "def": "tecido grosso de lã ou pelo prensado, sem tear, usado para cobrir e agasalhar",
+   "exemplo": "vore: no inverno, cobre a árvore com um feltro branco bem fechado; no verão, deixa-a sem feltro. [23.5] Ni",
+   "capitulo": 53
   },
   {
-   "lema": "cavalariço",
+   "lema": "pisoeiro",
    "formas": [
-    "cavalariço"
+    "pisoeiro"
    ],
    "classe": "substantivo masculino",
-   "def": "empregado que cuida dos cavalos",
-   "exemplo": ", esse teria o reino.  [85.1] Dario tinha um cavalariço esperto, que se chamava Oibares. A",
-   "capitulo": 44
+   "def": "artesão que bate e lava o tecido de lã para engrossá-lo e limpá-lo",
+   "exemplo": "um dos cidadãos, entrou numa oficina de pisoeiro em Proconeso e morreu ali, e que o pisoeiro fechou a oficin",
+   "capitulo": 53
+  },
+  {
+   "lema": "tocaia",
+   "formas": [
+    "tocaia"
+   ],
+   "classe": "substantivo feminino",
+   "def": "emboscada; esconderijo de onde se espera a caça ou o inimigo",
+   "exemplo": " da caça, deste modo: o caçador fica de tocaia, depois de subir numa árvore (e as árvores são cerradas por",
+   "capitulo": 53
+  },
+  {
+   "lema": "empalar",
+   "formas": [
+    "empalado",
+    "empalou"
+   ],
+   "classe": "verbo",
+   "def": "matar espetando o corpo numa estaca pontiaguda",
+   "exemplo": "egabizo; depois, quando estava para ser empalado por esse motivo pelo rei Xerxes, a mãe de Sataspes, que era",
+   "capitulo": 55
+  },
+  {
+   "lema": "cânhamo",
+   "formas": [
+    "cânhamo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "planta de cuja fibra se fazem tecidos e cordas; sua semente, queimada, solta fumaça",
+   "exemplo": "mantas.  [74.1] Cresce na terra deles o cânhamo, muito parecido com o linho, menos na grossura e no tamanho",
+   "capitulo": 58
+  },
+  {
+   "lema": "junça",
+   "formas": [
+    "junça"
+   ],
+   "classe": "substantivo feminino",
+   "def": "planta de raiz aromática, parecida com o junco, usada como perfume e tempero",
+   "exemplo": " e com o ventre aberto, limpo, cheio de junça picada, de incenso, de semente de aipo e de anis, e costura",
+   "capitulo": 58
+  },
+  {
+   "lema": "tília",
+   "formas": [
+    "tília"
+   ],
+   "classe": "substantivo feminino",
+   "def": "árvore de casca fibrosa e flores perfumadas",
+   "exemplo": "vinhar; e eles adivinham com a casca da tília: o adivinho fende a tília em três tiras, entrelaça-as nos p",
+   "capitulo": 58
+  },
+  {
+   "lema": "emplastrar",
+   "formas": [
+    "emplastram"
+   ],
+   "classe": "verbo",
+   "def": "cobrir o corpo com uma pasta espessa",
+   "exemplo": ", com essa massa raspada, que é grossa, emplastram o corpo todo e o rosto; e com isso, ao mesmo tempo, ficam p",
+   "capitulo": 58
+  },
+  {
+   "lema": "sovela",
+   "formas": [
+    "sovela"
+   ],
+   "classe": "substantivo feminino",
+   "def": "ferramenta de ponta fina, usada para furar couro",
+   "exemplo": "s que fazem o pacto, picando-os com uma sovela ou fazendo com uma faca um pequeno corte no corpo; depois m",
+   "capitulo": 58
+  },
+  {
+   "lema": "caniçal",
+   "formas": [
+    "caniçal"
+   ],
+   "classe": "substantivo masculino",
+   "def": "terreno coberto de canas finas, à beira da água",
+   "exemplo": "xtenso, e em volta dele um pântano e um caniçal. Nele se apanham lontras, castores e outros animais de cara",
+   "capitulo": 62
+  },
+  {
+   "lema": "incensório",
+   "formas": [
+    "incensório"
+   ],
+   "classe": "substantivo masculino",
+   "def": "vaso em que se queima incenso nos cultos",
+   "exemplo": "uelton, aquele que ofereceu em Delfos o incensório, que é digno de se ver e está no tesouro dos coríntios. Che",
+   "capitulo": 69
+  },
+  {
+   "lema": "sílfio",
+   "formas": [
+    "sílfio"
+   ],
+   "classe": "substantivo masculino",
+   "def": "planta de Cirene, de resina muito valorizada como tempero e remédio, hoje desaparecida",
+   "exemplo": "e os cireneus moraram; e daqui começa o sílfio. [169.2] O sílfio se estende da ilha de Plateia até a boca ",
+   "capitulo": 70
+  },
+  {
+   "lema": "lótus",
+   "formas": [
+    "lótus"
+   ],
+   "classe": "substantivo masculino",
+   "def": "arbusto do norte da África cujo fruto doce servia de alimento",
+   "exemplo": "ófagos, que vivem comendo só o fruto do lótus. O fruto do lótus tem o tamanho do fruto do lentisco e, na ",
+   "capitulo": 70
+  },
+  {
+   "lema": "lentisco",
+   "formas": [
+    "lentisco"
+   ],
+   "classe": "substantivo masculino",
+   "def": "arbusto de frutos pequenos e redondos, de que se extrai uma resina",
+   "exemplo": "ruto do lótus tem o tamanho do fruto do lentisco e, na doçura, parece-se com o fruto da palmeira. Desse frut",
+   "capitulo": 70
+  },
+  {
+   "lema": "garança",
+   "formas": [
+    "garança"
+   ],
+   "classe": "substantivo feminino",
+   "def": "planta de raiz usada para tingir de vermelho",
+   "exemplo": "bra sem pelo, com franjas, tingidas com garança, e foi dessas _aigéai_ que os gregos tiraram o nome de égid",
+   "capitulo": 71
+  },
+  {
+   "lema": "asfódelo",
+   "formas": [
+    "asfódelo"
+   ],
+   "classe": "substantivo masculino",
+   "def": "planta de caule longo e flores brancas em espiga",
+   "exemplo": ". As casas deles são feitas de talos de asfódelo trançados em volta de juncos, e se levam de um lugar para o",
+   "capitulo": 71
+  },
+  {
+   "lema": "égide",
+   "formas": [
+    "égides"
+   ],
+   "classe": "substantivo feminino",
+   "def": "peça de couro com franjas usada sobre o peito; na arte grega, atributo de Atena",
+   "exemplo": "tão, que os gregos tiraram a roupa e as égides das estátuas de Atena; pois, a não ser que a roupa das líbi",
+   "capitulo": 71
+  },
+  {
+   "lema": "búbalo",
+   "formas": [
+    "búbalos"
+   ],
+   "classe": "substantivo masculino",
+   "def": "antílope grande da África, de chifres curvos",
+   "exemplo": "tes: antílopes de anca branca, gazelas, búbalos e burros, não os que têm chifres, mas outros, que não bebem",
+   "capitulo": 72
+  },
+  {
+   "lema": "órix",
+   "formas": [
+    "órix"
+   ],
+   "classe": "substantivo masculino",
+   "def": "antílope africano de chifres longos e retos",
+   "exemplo": "e não bebem (pois de fato não bebem); e órix, de cujos chifres se fazem os braços das liras fenícias (es",
+   "capitulo": 72
+  },
+  {
+   "lema": "áspide",
+   "formas": [
+    "áspides"
+   ],
+   "classe": "substantivo feminino",
+   "def": "serpente venenosa",
+   "exemplo": "s, os leões, os elefantes, os ursos, as áspides, os burros que têm chifres, os de cabeça de cão e os sem ca",
+   "capitulo": 72
+  },
+  {
+   "lema": "vermelhão",
+   "formas": [
+    "vermelhão"
+   ],
+   "classe": "substantivo masculino",
+   "def": "pigmento vermelho vivo, usado para pintar o corpo",
+   "exemplo": "o do lado esquerdo, e untam o corpo com vermelhão. Dizem que descendem dos homens de Troia. [191.2] Essa terr",
+   "capitulo": 72
+  },
+  {
+   "lema": "piche",
+   "formas": [
+    "piche"
+   ],
+   "classe": "substantivo masculino",
+   "def": "substância negra, grossa e pegajosa, tirada do solo ou do alcatrão",
+   "exemplo": "m do lodo, com penas de aves untadas de piche, pó de ouro. Se isso é verdade, não sei; escrevo o que se d",
+   "capitulo": 72
+  },
+  {
+   "lema": "vindimar",
+   "formas": [
+    "vindimar"
+   ],
+   "classe": "verbo",
+   "def": "colher as uvas",
+   "exemplo": "ra do mar ficam no ponto de ceifar e de vindimar; e, depois que estes foram recolhidos, ficam no ponto de re",
+   "capitulo": 72
   }
  ]
 }

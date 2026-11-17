@@ -8,7 +8,7 @@ O texto de Hude (Oxford, 1908; 3ª ed. 1927; Hude morreu em 1936) também é liv
 dele conferível; ficamos com Godley, que tem transcrição e fac-símiles. Rosén (Teubner, 1987–1997) e Wilson (Oxford,
 2015) são protegidos.
 
-Por enquanto os livros I (Clio) e II (Euterpe), os dois do vol. I de Godley, e o III (Tália), do vol. II. A obra cresce por livros, em pedidos
+Por enquanto os livros I (Clio) e II (Euterpe), os dois do vol. I de Godley, e o III (Tália) e o IV (Melpômene), do vol. II. A obra cresce por livros, em pedidos
 seguintes; cada livro tem os seus arquivos `livro<n>-<a>-<b>.txt` e é montado pelos mesmos scripts (`../ferramentas/`,
 com o número do livro no fim: `extrair.py dl/her-grc2.xml 2 l2.json`, `colacao.py . 2`, `acentos.py . 2`,
 `montar.py . <obra> 2`; o bloco de cada livro fica em `LIVROS`, no `montar.py`).
@@ -108,6 +108,30 @@ imprime ἀνάκειται, e fica); 14.11 Αἴγυπτους → Αἴγυπ�
 
 Colchetes de Godley no livro III: 14.11, 51.2, 59.2, 91.3, 97.2, 149.1; lacunas, «…»: 39.2, 49.1. O oráculo dos
 sifnios (57.4) em três versos. Título: «Γ · ΘΑΛΕΙΑ».
+
+## Livro IV (2026-11-16)
+
+Mesmo volume (vol. II de Godley, 1921) e mesmas fontes do livro III: o fac-símile `herodotus0002adgo_j1l1` nas p. 222–430
+do PDF (páginas pares; OCR em `ocr4/`, páginas em `pag4/`, na pasta de trabalho) e a 2ª leitura `herodotus0000hero`, da
+2ª ocorrência de «BOOK IV» até o índice. A colação deu 68 pontos de letras (quase todos ζ lido como ξ e maiúsculas),
+473 de acentos (48 aceitos pela regra, 108 a ver), 108 fracos e 11 buracos; 44 pontos vistos nas imagens.
+
+Correções ao Perseus (o fac-símile tem a forma da direita): 3.2 μετά γε → μετὰ δὲ; 4.1 Δαρεῖυς → Δαρεῖος; 20.2 κατʼ
+ὅσον → κατόσον (Godley imprime numa palavra só); 48.3 Ὀρδησσὸς καὶ μέσου → Ὀρδησσὸς διὰ μέσου; 54.1 Ὑβλαίην →
+Ὑλαίην; 57.1 λίμνην καλεόμενον → καλεομένην; 60.2 τρέπεται → τράπεται (jônico, como nos livros I a III); 64.3
+ἀποδερμάτων → ἀποδαρμάτων; 73.2 Σκύψαι → Σκύθαι, 101.2 Σκυψέων → Σκυθέων; 78.4 ἐγκλῄσειε → ἐγκληίσειε; 119.4 a
+palavra que o Perseus perdeu, «ἐπίῃ καὶ ἐπὶ τὴν ἡμετέρην»; 148.1 οἰκηιούμενος → οἰκηιεύμενος; 148.3 Μεμβιάρου →
+Μεμβλιάρου; 156.3 Βλατέα → Πλατέα; 160.1 κλέεται → καλέεται; 163.3 ἐξοπτήσεις → ἐξοπτήσῃς; 186.2 δικαιοῦσι →
+δικαιεῦσι (como no livro II); 201.1 Βορκαίους → Βαρκαίους; 201.3 ἐξῄσαν → ἐξήισαν; 203.3 Ἀρυνάνδεω → Ἀρυάνδεω.
+Acentos: 69 conferidos à mão (`ACENTOS4` no `montar.py`: o trema de Godley nos dativos jônicos, ἔτεϊ, πλήθεϊ, θέρεϊ,
+μεγάθεϊ, e em Τάναϊς, Βορυσθενεϊτέων, Κολάξαϊς; τῷ por τῳ em 5.1, 8.3 e 9.5; ὑπὲρ por ὕπερ; αὐτή em 9.4; ἦρξαν,
+ἁμάξῃ, ἕστηκε, εἷς, οἷά, κυματώγην) e 47 aceitos pela regra (`ferramentas/acentos-aceitos-l4.tsv`). Ficaram como no
+Perseus, conferidos: 27.1 ἓν, 80.2 δι’, 114.4 ἐποίησαν, 144.1 ἐλίπετο, 149.1 τοιγαρῶν, 148.2 Τηΰγετον, 165.1 τἆλλα,
+5.4 τούτου, 71.1 σελίνου; e os espíritos que o OCR troca (εὖρος, ὤμους, αὖτις, ἕψομαι, ἓξ, ἦ μέν, o dórico αἰ).
+
+Sem colchetes de Godley no livro IV; lacunas, «…»: 47.2 e 149.2. Versos: o de Homero em 29.1 (_Odisseia_ 4.85), o
+epigrama de Mandrocles (88.2, quatro versos) e os oráculos de Bato e de Cirene (155.3, 157.2, 159.3). Título:
+«Δ · ΜΕΛΠΟΜΕΝΗ».
 
 ## Numeração e divisão
 

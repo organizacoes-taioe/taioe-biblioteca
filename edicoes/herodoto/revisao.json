@@ -1,6 +1,6 @@
 {
  "id": "herodoto-historias",
- "rotulo": "Histórias, livros I a III (Heródoto)",
+ "rotulo": "Histórias, livros I a IV (Heródoto)",
  "url": "/biblioteca/herodoto/historias/",
  "escolhas": [
   {
@@ -272,6 +272,44 @@
      "id": "b",
      "texto": "«isonomia»",
      "nota": "O termo grego aportuguesado, usado nos estudos; pediria nota de vocabulário."
+    }
+   ]
+  },
+  {
+   "id": "l4-hipernotios",
+   "titulo": "Os povos do extremo norte e do extremo sul: «hiperbóreos… hipernótios»?",
+   "ref": "IV 36.1",
+   "contexto": "Heródoto zomba da lenda dos hiperbóreos («os que vivem além do Bóreas», o vento norte): se há hiperbóreos, diz ele, também há ὑπερνότιοι, «os que vivem além do Noto», o vento sul. A segunda palavra é invenção dele, para a piada.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Mas, se há homens hiperbóreos, há também outros, hipernótios», como está",
+     "nota": "Guarda a piada: a palavra inventada responde à outra; o sentido vem de «Noto», o vento sul, que o leitor pode não conhecer.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Mas, se há homens além do vento norte, há também outros além do vento sul»",
+     "nota": "Claro sem nota, mas some o nome «hiperbóreos», que é o assunto do capítulo."
+    }
+   ]
+  },
+  {
+   "id": "l4-egide",
+   "titulo": "De onde vem o nome «égide»: «foi dessas _aigéai_ que os gregos tiraram o nome de égides»?",
+   "ref": "IV 189.2",
+   "contexto": "Heródoto diz que a égide de Atena vem das líbias, que usam por cima da roupa peles de cabra (αἰγέαι, de αἴξ, «cabra»), e que o nome αἰγίς saiu daí. Em português, «égide» não lembra «cabra», e o argumento se perde se só se traduz.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«peles de cabra… e foi dessas _aigéai_ que os gregos tiraram o nome de égides», como está",
+     "nota": "A palavra grega em itálico mostra o parentesco dos nomes, sem nota.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«peles de cabra… e foi dessas peles de cabra que os gregos tiraram o nome de égides»",
+     "nota": "Sem palavra grega; o leitor não vê por que o nome viria daí."
     }
    ]
   }

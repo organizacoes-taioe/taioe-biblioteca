@@ -73,3 +73,11 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 109.1 a 112.1: «Amêstris» (cinco vezes) → o `CONVENCOES.md` escreve **Améstris** (a mulher de Xerxes): uniformizar.
+- 108.1: «isso mesmo segurava também a mulher, pois sabia bem que não ia sofrer violência» — o sentido é que a mesma consideração a protegia (ela sabia que não seria forçada); «segurava» sugere o contrário → «isso mesmo também protegia a mulher, pois ela sabia bem que não sofreria violência».
+- 108.2: «levou para a sua casa a mulher para Dario» — frase embaralhada → «levou para a sua casa a mulher destinada a Dario».
+- 109.3: «por medo de Amêstris, que já antes adivinhava o que se passava, e de ser apanhado fazendo assim» — no grego é um só medo (que Améstris, que já desconfiava, o apanhasse assim), e o «e» faz parecer dois → «por medo de que Améstris, que já antes desconfiava do que se passava, o apanhasse assim».
+- 111.3: «mandando-me que uma mulher de quem tenho filhos [...] essa, mandas que eu a largue» — o objeto fica pendurado e o verbo só vem no fim; difícil de seguir → «mandando-me largar uma mulher de quem tenho filhos já moços e filhas (das quais tu mesmo tomaste uma como mulher para o teu filho) e que, além disso, me agrada muito, para me casar com a tua filha?».
+- Resto (108–113) conferido seção por seção: sentido, negações e nomes corretos; sem omissão.

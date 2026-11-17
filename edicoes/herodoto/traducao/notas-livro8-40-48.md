@@ -32,3 +32,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 43.1: «dórico e macedno» é forma rara em português (ἔθνος Μακεδνόν, o povo de Dóris/Pindo, não os macedônios) → manter «macedno» só com a explicação nas notas, ou «dórico, o povo chamado macedno».
+- 42.1: «Pógon» (Πώγων) não consta de CONVENCOES.md; conferir se as notas dão a forma («Pogon», «o porto Pógon»).
+- Números conferidos contra o grego: lacedemônios 16, sicionenses 15, epidáurios 10, trezênios 5, hermioneus 3, atenienses 180, megarenses (mesmo contingente, 20), ampraciotas 7, leucádios 3, eginetas 30, náxios 4, citnos 1 + 1 pentecôntera, mélios 2 pentecônteras, total 378: tudo como no grego. (A soma das parcelas dá bem menos que 378; a diferença é do próprio Heródoto, não da tradução. Vale uma nota.)
+- Nenhum erro de sentido, nome ou negação nesta parte.

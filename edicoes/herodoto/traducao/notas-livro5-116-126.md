@@ -42,3 +42,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. (Conferidos: 2.000 persas e 10.000 cários mortos, uma cidade por dia, os três genros de Dario, Mársias e Labraunda, Leros, Mírcino, Sardenha.)

@@ -75,3 +75,7 @@
   as duas; a literal guarda a ambiguidade.
 - 70.2 e seguintes, os «amaldiçoados»: alternativa «os sacrílegos» (mais clara sobre a culpa, menos sobre a mancha
   religiosa que se expulsa).
+
+## Revisão contra o grego
+- 67.3: «bem dentro do pritaneu» reforça demais o «no próprio pritaneu» (αὐτῷ) → «no próprio pritaneu» (leve; sem sentido trocado).
+- Sem omissões, números ou negações trocados nos demais capítulos (números conferidos: 700 famílias, 300 partidários, 60 anos, 700 prisioneiros, 4.000 colonos, 2 minas).

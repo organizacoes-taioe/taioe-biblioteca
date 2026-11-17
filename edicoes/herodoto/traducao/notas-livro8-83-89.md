@@ -5,7 +5,7 @@
   os de Tenos, os Eácidas, Egina (como em 64 e 82).
 - 85: os fenícios, os jônios, o **Pireu** (ὁ Πειραιεύς); **Teomestor, filho de Androdamante** (Θεομήστωρ ὁ
   Ἀνδροδάμαντος) e **Fílaco, filho de Histieu** (Φύλακος ὁ Ἱστιαίου; Fílaco, como o herói de 39.1), sâmios; ὁ
-  τριήραρχος → «comandante de trirreme» (τριηραρχέειν → «comandar uma trirreme», 46.3); ὁ εὐεργέτης βασιλέος →
+  τριήραρχος → «trierarca» (a forma de 7.181.1 e 7.182.1; τριηραρχέειν → «comandar uma trirreme», 46.3); ὁ εὐεργέτης βασιλέος →
   «benfeitor do rei»; ὀροσάγγαι → _orosangai_, em itálico, com a explicação dele (como _akinakes_ no livro VII).
 - 87–88: **Calinda** e os **calindenses** (Καλυνδέες; ἡ Καλυνδικὴ νηῦς → «o navio de Calinda»); **Damasítimo**
   (Δαμασίθυμος), rei dos calindenses; ἡ νηῦς Ἀττική → «um navio ático» (o grego diz «ático», não «ateniense»);

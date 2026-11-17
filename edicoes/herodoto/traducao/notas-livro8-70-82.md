@@ -60,3 +60,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 71.2: «estrada Cirônida» (Σκιρωνίς, a estrada de Círon, junto ao penhasco Cirônida): forma pouco comum → conferir com a nota ou pôr «a estrada de Círon».
+- 75.1: «cidadão de Téspias» e «os téspios» em 50.2: coerentes; só registrar a forma da cidade em CONVENCOES.md.
+- 77.1 (oráculo, v. 4): κόρον → «o forte Excesso, filho da Insolência»: aceitável (κόρος = saciedade que leva à insolência); a nota deve dizer.
+- Números e nomes conferidos: 380 navios, faltavam 2 (82.2); 30 mil… n/a; Cleômbroto, irmão de Leônidas; sete povos (73); Sicino; Panécio, filho de Sosímenes; as duas falas de Aristides e a resposta de Temístocles (80): corretos, sem negação trocada. Nenhuma correção de sentido.

@@ -53,3 +53,7 @@ salvar o corpo». A prosa seguinte, «Isso foi o que a Pítia respondeu antes»,
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 147.1: «e eles não fariam grande dano aos inimigos matando três homens»: o sujeito do grego são os persas (Xerxes e os seus), mas o «eles» vem logo depois de «os gregos» e lê-se como os gregos → «e os persas não fariam grande dano aos inimigos matando três homens».
+- Resto da parte: números (três espiões, seis mil argivos, trinta anos, dez mil não aparece), nomes e negações conferem com o grego; sem outras correções.

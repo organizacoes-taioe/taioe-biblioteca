@@ -55,3 +55,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. (Conferidos: três vezes o pedido de Dario ao criado, Sardenha, quinto mês em Solos, linhagem de Onésilo, Clides, as flechas e o escudeiro cário.)

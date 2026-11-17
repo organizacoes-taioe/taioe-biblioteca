@@ -1,11 +1,13 @@
 """Pranchas de recortes do fac-símile de 1921 para conferir pontos da colação.
-Uso: pranchas.py <pasta-trabalho> <lista.tsv> <saida-prefixo> [por_prancha=10]
+Uso: pranchas.py <pasta-trabalho> <lista.tsv> <saida-prefixo> [por_prancha=10] [pasta-das-paginas=pag]
+(as páginas do vol. II, livros III e IV, ficam em pag3/)
 A lista tem, por linha: id \t ref \t perseus \t leitura \t pag \t x0,y0,x1,y1 (caixa da palavra no PNG de 300 dpi).
 Cada recorte é a linha inteira, com a palavra num retângulo vermelho e o número do item à esquerda."""
 import sys, os
 from PIL import Image, ImageDraw, ImageFont
 B, lista, saida = sys.argv[1], sys.argv[2], sys.argv[3]
 N = int(sys.argv[4]) if len(sys.argv) > 4 else 10
+PAGD = sys.argv[5] if len(sys.argv) > 5 else 'pag'
 itens = [l.rstrip('\n').split('\t') for l in open(lista, encoding='utf-8') if l.strip()]
 try:
     fonte = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 26)
@@ -14,7 +16,7 @@ except Exception:
 cache = {}
 def pagina(p):
     if p not in cache:
-        cache.clear(); cache[p] = Image.open(f'{B}/pag/p{p}-{p}.png').convert('RGB')
+        cache.clear(); cache[p] = Image.open(f'{B}/{PAGD}/p{p}-{p}.png').convert('RGB')
     return cache[p]
 recs = []
 for it in itens:

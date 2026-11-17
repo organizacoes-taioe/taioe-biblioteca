@@ -71,10 +71,33 @@ PARTES2 = [((1, 4), 'Psamético e os homens mais antigos'), ((5, 18), 'A terra d
            ((111, 120), 'Feros, Proteu e Helena'), ((121, 123), 'Rampsinito e o ladrão'),
            ((124, 136), 'Quéops, Quéfren e Miquerino'), ((137, 146), 'Sabacos, Setos e as gerações dos reis'),
            ((147, 157), 'Os doze reis e Psamético'), ((158, 171), 'Neco, Psâmis e Apríes'), ((172, 182), 'Amásis')]
+# livro III (Thalia), no vol. II de Godley (1921)
+CORR3 = [
+    ('2.2', 'παρατρέπουσι', 'παρατράπουσι'), ('12.1', 'ἔκειτο', 'ἐκέετο'), ('14.11', 'Αἴγυπτους', 'Αἴγυπτον'),
+    ('21.2', 'ἀνήρ δίκαιος', 'ἀνήρ ἐστι δίκαιος'), ('21.3', 'τρέπουσι', 'τράπουσι'), ('22.4', 'προκεῖσθαι', 'προκέεσθαι'),
+    ('34.2', 'προσκεῖσθαι', 'προσκέεσθαι'), ('34.5', 'οἷον σε ἐκεῖνος', 'οἷον σὲ ἐκεῖνος'),
+    ('65.3', 'ἀποτρέπειν', 'ἀποτράπειν'), ('81.1', 'ἐπιτρέπειν', 'ἐπιτράπειν'), ('100.1', 'κεῖται', 'κέεται'),
+    ('157.1', 'ἐπιτρέπεσθαι', 'ἐπιτράπεσθαι'),
+]
+ACENTOS3 = []
+PARTES3 = [((1, 9), 'Cambises marcha contra o Egito'), ((10, 16), 'Psamenito e a conquista do Egito'),
+           ((17, 26), 'A expedição contra os etíopes'), ((27, 38), 'A loucura de Cambises'),
+           ((39, 47), 'Polícrates e o anel'), ((48, 60), 'Periandro e Licofron; o cerco de Samos'),
+           ((61, 66), 'O mago e a morte de Cambises'), ((67, 79), 'Os sete contra os magos'),
+           ((80, 88), 'O debate sobre o governo; Dario rei'), ((89, 97), 'As satrapias e os tributos'),
+           ((98, 106), 'A Índia e as formigas do ouro'), ((107, 117), 'A Arábia e os confins da terra'),
+           ((118, 128), 'Intafernes; Oretes e a morte de Polícrates'), ((129, 138), 'Democedes'),
+           ((139, 149), 'Silosonte e Samos'), ((150, 160), 'A revolta de Babilônia e Zópiro')]
+ED1 = ('A. D. Godley, Herodotus, vol. I (Loeb, Londres e Nova York, 1920); conferido com o fac-símile da impressão '
+       'de 1921 (Internet Archive herodotud0000adgo); ver LEIAME.md')
+ED2 = ('A. D. Godley, Herodotus, vol. II (Loeb, Londres e Nova York, 1921); conferido com o fac-símile da impressão '
+       'de 1921 (Internet Archive herodotus0002adgo_j1l1); ver LEIAME.md')
 LIVROS = {1: dict(corr=CORR1, acentos=ACENTOS1, partes=PARTES1, aceitos='acentos-aceitos.tsv', letra='Α',
-                  romano='I', titulo='Α · ΚΛΕΙΩ', ncaps=216),
+                  romano='I', titulo='Α · ΚΛΕΙΩ', ncaps=216, edicao=ED1),
           2: dict(corr=CORR2, acentos=ACENTOS2, partes=PARTES2, aceitos='acentos-aceitos-l2.tsv', letra='Β',
-                  romano='II', titulo='Β · ΕΥΤΕΡΠΗ', ncaps=182)}
+                  romano='II', titulo='Β · ΕΥΤΕΡΠΗ', ncaps=182, edicao=ED1),
+          3: dict(corr=CORR3, acentos=ACENTOS3, partes=PARTES3, aceitos='acentos-aceitos-l3.tsv', letra='Γ',
+                  romano='III', titulo='Γ · ΘΑΛΕΙΑ', ncaps=160, edicao=ED2)}
 L = LIVROS[LIVRO]
 CORR, ACENTOS, PARTES = L['corr'], list(L['acentos']), L['partes']
 SUB = dict(zip('ABCDEF', 'αβγδεζ'))
@@ -164,7 +187,7 @@ exemplo = '«[1.1]»'
 for k, ((a, b), tit) in enumerate(PARTES):
     cab = [f'# titulo: Ἡροδότου Ἱστορίαι {L["letra"]}, {a}–{b}',
            '# fonte: Perseus Digital Library, tlg0016.tlg001.perseus-grc2 (CC BY-SA 4.0), https://github.com/PerseusDL/canonical-greekLit',
-           '# edicao: A. D. Godley, Herodotus, vol. I (Loeb, Londres e Nova York, 1920); conferido com o fac-símile da impressão de 1921 (Internet Archive herodotud0000adgo); ver LEIAME.md',
+           '# edicao: ' + L['edicao'],
            f'# marcas: {exemplo} = capítulo.seção do livro {L["romano"]}, a numeração usual; um parágrafo por capítulo'
            + ('; 121α–121ζ: a história de Rampsinito, como em Hude' if LIVRO == 2 and a <= 121 <= b else ''), '']
     corpo = [L['titulo']] if k == 0 else []

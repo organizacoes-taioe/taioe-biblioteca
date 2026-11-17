@@ -1,0 +1,568 @@
+{
+  "verbetes": {
+    "un": {
+      "lema": "un",
+      "classe": "artigo indefinido",
+      "def": [
+        "Artigo indefinido masculino singular."
+      ]
+    },
+    "soneto": {
+      "lema": "soneto",
+      "classe": "substantivo masculino",
+      "def": [
+        "Composição poética de catorze versos, em geral hendecassílabos, em dois quartetos e dois tercetos."
+      ],
+      "nota": "O poema é um soneto que fala do próprio fazer-se: cada verso conta quantos já foram escritos."
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal átono de primeira pessoa do singular, em função de complemento."
+      ],
+      "nota": "No v. 1, «me manda hacer»: «manda-me fazer». No v. 2, «me he visto»: «vi-me», com sentido reflexivo."
+    },
+    "manda": {
+      "lema": "mandar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ordenar que se faça algo."
+      ],
+      "nota": "«Un soneto me manda hacer»: ela me ordena que faça um soneto."
+    },
+    "hacer": {
+      "lema": "hacer",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Produzir ou criar algo."
+      ]
+    },
+    "violante": {
+      "lema": "Violante",
+      "wiki": null,
+      "classe": "substantivo próprio",
+      "nota": "Nome de mulher: a dama que, na comédia «La niña de plata», de Lope de Vega, pede um soneto ao poeta; é ela que o põe em apuros."
+    },
+    "que": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Introduz uma oração subordinada ou une os termos de uma comparação."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Indica o lugar, o tempo ou o modo em que algo se situa ou se realiza."
+      ]
+    },
+    "mi": {
+      "lema": "mi",
+      "classe": "pronome possessivo",
+      "forma": "singular",
+      "def": [
+        "Indica que algo pertence à primeira pessoa do singular."
+      ]
+    },
+    "vida": {
+      "lema": "vida",
+      "classe": "substantivo feminino",
+      "def": [
+        "Existência de uma pessoa."
+      ],
+      "nota": "Em «en mi vida», «em toda a minha vida»: nunca me vi em tamanho aperto."
+    },
+    "he": {
+      "lema": "haber",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Verbo auxiliar, usado para formar os tempos compostos."
+      ]
+    },
+    "visto": {
+      "lema": "ver",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Perceber com os olhos."
+      ],
+      "nota": "«Me he visto en tanto aprieto»: «vi-me em tamanho aperto»."
+    },
+    "tanto": {
+      "lema": "tanto",
+      "classe": "pronome indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Tamanho, em quantidade ou intensidade."
+      ]
+    },
+    "aprieto": {
+      "lema": "aprieto",
+      "classe": "substantivo masculino",
+      "def": [
+        "Situação difícil ou comprometida, de que é complicado sair."
+      ]
+    },
+    "catorce": {
+      "lema": "catorce",
+      "classe": "numeral cardinal",
+      "def": [
+        "Treze mais um (14)."
+      ]
+    },
+    "versos": {
+      "lema": "verso",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Cada uma das linhas de um poema, sujeita a medida e ritmo."
+      ]
+    },
+    "dicen": {
+      "lema": "decir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Expressar com palavras um pensamento."
+      ],
+      "nota": "«Dicen que es soneto»: sujeito indeterminado, «dizem que é soneto»."
+    },
+    "es": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Verbo de ligação: atribui uma qualidade ou identidade ao sujeito."
+      ]
+    },
+    "burla": {
+      "lema": "burla",
+      "classe": "substantivo feminino",
+      "def": [
+        "Ação ou dito engenhoso, feito para divertir."
+      ],
+      "nota": "«Burla burlando» é uma locução: «de brincadeira em brincadeira», «sem sentir»; algo que avança quase sem que se perceba. Aqui, os três primeiros versos já saíram de brincadeira."
+    },
+    "burlando": {
+      "lema": "burlar",
+      "classe": "verbo",
+      "forma": "gerúndio",
+      "def": [
+        "Zombar de alguém ou de algo."
+      ],
+      "nota": "Gerúndio da locução «burla burlando» (ver «burla»)."
+    },
+    "van": {
+      "lema": "ir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Mover-se de um lugar a outro."
+      ],
+      "nota": "«Van los tres delante»: os três já foram, já estão feitos, à frente."
+    },
+    "los": {
+      "lema": "los",
+      "classe": "artigo definido",
+      "forma": "masculino plural",
+      "def": [
+        "Artigo definido masculino plural."
+      ]
+    },
+    "tres": {
+      "lema": "tres",
+      "classe": "numeral cardinal",
+      "def": [
+        "Dois mais um (3)."
+      ]
+    },
+    "delante": {
+      "lema": "delante",
+      "classe": "advérbio",
+      "def": [
+        "Antes, ou com preferência de lugar."
+      ],
+      "nota": "Aqui, «à frente», já escritos: os três primeiros versos do soneto."
+    },
+    "yo": {
+      "lema": "yo",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal de primeira pessoa do singular, em função de sujeito."
+      ]
+    },
+    "pensé": {
+      "lema": "pensar",
+      "classe": "verbo",
+      "forma": "pretérito perfeito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Formar ideias ou juízos na mente."
+      ]
+    },
+    "no": {
+      "lema": "no",
+      "classe": "advérbio",
+      "def": [
+        "Expressa negação."
+      ]
+    },
+    "hallara": {
+      "lema": "hallar",
+      "classe": "verbo",
+      "forma": "pretérito imperfeito do subjuntivo, 1ª e 3ª pessoa do singular",
+      "def": [
+        "Encontrar algo ou alguém."
+      ],
+      "nota": "A forma em -ra, aqui de subjuntivo: «pensei que não achasse rima». O poeta temia não achar uma palavra para rimar."
+    },
+    "consonante": {
+      "lema": "consonante",
+      "classe": "substantivo masculino",
+      "def": [
+        "Palavra que rima com outra, com coincidência de todos os sons a partir da vogal tônica."
+      ],
+      "nota": "Aqui, «a rima consoante»: a palavra do fim do verso que rima com as outras do quarteto. O soneto pede quatro versos com duas rimas, e o poeta teme não achá-las."
+    },
+    "y": {
+      "lema": "y",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção copulativa: une palavras, orações ou frases."
+      ]
+    },
+    "estoy": {
+      "lema": "estar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Encontrar-se em determinado lugar, estado ou situação."
+      ]
+    },
+    "a": {
+      "lema": "a",
+      "classe": "preposição",
+      "def": [
+        "Indica a situação de algo ou alguém em relação a um ponto."
+      ],
+      "nota": "«A la mitad de»: «no meio de», na metade."
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido feminino singular. Antecede substantivos femininos, indicando que devem ser tomados como informação conhecida."
+      ]
+    },
+    "mitad": {
+      "lema": "mitad",
+      "classe": "substantivo feminino",
+      "def": [
+        "Cada uma das duas partes iguais em que se divide algo."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica pertencimento, origem ou relação com algo."
+      ]
+    },
+    "otro": {
+      "lema": "otro",
+      "classe": "pronome indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "Diferente daquele de que se fala, ou mais um."
+      ],
+      "nota": "«Otro cuarteto»: o segundo quarteto, que ele já vai pela metade."
+    },
+    "cuarteto": {
+      "lema": "cuarteto",
+      "classe": "substantivo masculino",
+      "def": [
+        "Estrofe ou poema de quatro versos, de arte maior, com rima abraçada."
+      ]
+    },
+    "mas": {
+      "lema": "mas",
+      "classe": "conjunção",
+      "def": [
+        "Introduz uma oposição ao que acaba de ser dito: porém."
+      ]
+    },
+    "si": {
+      "lema": "si",
+      "classe": "conjunção",
+      "def": [
+        "Introduz uma oração condicional."
+      ]
+    },
+    "veo": {
+      "lema": "ver",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Perceber com os olhos."
+      ],
+      "nota": "Em «si me veo en el primer terceto»: «se me vejo no primeiro terceto», isto é, se me encontro nele."
+    },
+    "el": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido masculino singular. Antecede substantivos masculinos, indicando que devem ser tomados como informação conhecida."
+      ]
+    },
+    "primer": {
+      "lema": "primero",
+      "classe": "numeral ordinal",
+      "forma": "masculino singular apocopado antes de substantivo",
+      "def": [
+        "Que ocupa o primeiro lugar em uma série."
+      ]
+    },
+    "terceto": {
+      "lema": "terceto",
+      "classe": "substantivo masculino",
+      "def": [
+        "Estrofe de três versos, em geral hendecassílabos; no soneto, cada uma das duas últimas estrofes."
+      ]
+    },
+    "hay": {
+      "lema": "haber",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (forma «hay»)",
+      "def": [
+        "Existir, estar presente."
+      ]
+    },
+    "cosa": {
+      "lema": "cosa",
+      "classe": "substantivo feminino",
+      "def": [
+        "Nome com que se pode designar um objeto real ou imaginário, uma abstração ou um conceito."
+      ]
+    },
+    "cuartetos": {
+      "lema": "cuarteto",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Estrofe ou poema de quatro versos, de arte maior, com rima abraçada."
+      ]
+    },
+    "espante": {
+      "lema": "espantar",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Causar espanto, susto ou medo."
+      ],
+      "nota": "«Que me espante»: que me assuste. Já feitos os quartetos, nada nos quartetos o assusta."
+    },
+    "por": {
+      "lema": "por",
+      "classe": "preposição",
+      "def": [
+        "Indica a causa, o motivo ou a finalidade de algo."
+      ]
+    },
+    "voy": {
+      "lema": "ir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Mover-se de um lugar a outro."
+      ],
+      "nota": "«Voy entrando» e «le voy dando» são perífrases de gerúndio: expressam a ação em andamento, «vou entrando», «vou dando»."
+    },
+    "entrando": {
+      "lema": "entrar",
+      "classe": "verbo",
+      "forma": "gerúndio",
+      "def": [
+        "Passar de fora para dentro."
+      ]
+    },
+    "parece": {
+      "lema": "parecer",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dar a impressão de algo."
+      ]
+    },
+    "entré": {
+      "lema": "entrar",
+      "classe": "verbo",
+      "forma": "pretérito perfeito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Passar de fora para dentro."
+      ]
+    },
+    "con": {
+      "lema": "con",
+      "classe": "preposição",
+      "def": [
+        "Indica companhia, meio ou instrumento."
+      ]
+    },
+    "pie": {
+      "lema": "pie",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte do corpo na extremidade da perna, sobre a qual a pessoa se apoia."
+      ],
+      "nota": "«Entrar con pie derecho» é «começar com o pé direito»: começar bem, com boa sorte."
+    },
+    "derecho": {
+      "lema": "derecho",
+      "classe": "adjetivo",
+      "def": [
+        "Que fica do lado oposto ao do coração."
+      ],
+      "nota": "Ver «pie»."
+    },
+    "pues": {
+      "lema": "pues",
+      "classe": "conjunção",
+      "def": [
+        "Indica causa ou explicação: porque, visto que."
+      ]
+    },
+    "fin": {
+      "lema": "fin",
+      "classe": "substantivo masculino",
+      "def": [
+        "Término ou consumação de algo."
+      ],
+      "nota": "«Dar fin» é «dar fim», concluir. O verso 11, «pues fin con este verso le voy dando», diz que o terceto se acaba com o próprio verso que ele escreve."
+    },
+    "este": {
+      "lema": "este",
+      "classe": "pronome demonstrativo",
+      "forma": "masculino singular",
+      "def": [
+        "Indica algo que está perto de quem fala."
+      ]
+    },
+    "verso": {
+      "lema": "verso",
+      "classe": "substantivo masculino",
+      "def": [
+        "Cada uma das linhas de um poema, sujeita a medida e ritmo."
+      ]
+    },
+    "le": {
+      "lema": "le",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal átono de terceira pessoa, em função de complemento indireto."
+      ],
+      "nota": "Aqui «le» é o terceto: «vou lhe dando fim», isto é, dando fim ao primeiro terceto."
+    },
+    "dando": {
+      "lema": "dar",
+      "classe": "verbo",
+      "forma": "gerúndio",
+      "def": [
+        "Entregar ou conceder algo."
+      ]
+    },
+    "ya": {
+      "lema": "ya",
+      "classe": "advérbio",
+      "def": [
+        "Indica que algo acontece ou aconteceu antes do momento esperado: já."
+      ]
+    },
+    "segundo": {
+      "lema": "segundo",
+      "classe": "numeral ordinal",
+      "forma": "masculino singular",
+      "def": [
+        "Que ocupa o segundo lugar em uma série."
+      ]
+    },
+    "aun": {
+      "lema": "aun",
+      "classe": "advérbio",
+      "def": [
+        "Também, inclusive, até."
+      ],
+      "nota": "Sem acento, «aun» é «até», «inclusive»; aqui, «e até suspeito que...»."
+    },
+    "sospecho": {
+      "lema": "sospechar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Imaginar algo com base em indícios."
+      ]
+    },
+    "que#2": {
+      "lema": "que",
+      "classe": "pronome relativo",
+      "def": [
+        "Representa um antecedente já mencionado e introduz uma oração subordinada."
+      ]
+    },
+    "trece": {
+      "lema": "trece",
+      "classe": "numeral cardinal",
+      "def": [
+        "Doze mais um (13)."
+      ]
+    },
+    "acabando": {
+      "lema": "acabar",
+      "classe": "verbo",
+      "forma": "gerúndio",
+      "def": [
+        "Dar fim a algo."
+      ]
+    },
+    "contad": {
+      "lema": "contar",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do plural (vosotros)",
+      "def": [
+        "Determinar o número de elementos de um conjunto."
+      ],
+      "nota": "Imperativo de «vosotros», o plural de «tú» na Espanha: «contai». Ele pede aos leitores que contem os versos."
+    },
+    "son": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Verbo de ligação: atribui uma qualidade ou identidade ao sujeito."
+      ]
+    },
+    "hecho": {
+      "lema": "hacer",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Produzir ou criar algo."
+      ],
+      "nota": "«Y está hecho»: «e está feito». O soneto está pronto, e o poeta termina com um verso que fala do próprio fim."
+    },
+    "está": {
+      "lema": "estar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Encontrar-se em determinado lugar, estado ou situação."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "8.7": "que#2"
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "verbetes": {
+    "multas": {
+      "lema": "multus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino plural",
+      "def": [
+        "Muito."
+      ],
+      "nota": "Concorda com gentes: muitos."
+    },
+    "per": {
+      "lema": "per",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por."
+      ]
+    },
+    "gentes": {
+      "lema": "gens",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "A nação; o povo."
+      ],
+      "nota": "Depois de per: por povos."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "multa": {
+      "lema": "multus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Muito."
+      ],
+      "nota": "Concorda com aequora: muitos."
+    },
+    "aequora": {
+      "lema": "aequor",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O alto-mar; a vastidão."
+      ],
+      "nota": "Depois de per: pelos mares."
+    },
+    "vectus": {
+      "lema": "veho",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Transportar; viajar."
+      ],
+      "nota": "Concorda com o sujeito de advenio: levado, depois de viajar."
+    },
+    "advenio": {
+      "lema": "advenio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Chegar; vir."
+      ],
+      "nota": "Chego."
+    },
+    "has": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "acusativo feminino plural",
+      "def": [
+        "Este."
+      ],
+      "nota": "Concorda com inferias: estas."
+    },
+    "miseras": {
+      "lema": "miser",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino plural",
+      "def": [
+        "Infeliz; miserável."
+      ],
+      "nota": "Concorda com inferias: tristes."
+    },
+    "frater": {
+      "lema": "frater",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O irmão."
+      ],
+      "nota": "A quem se fala: irmão."
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Para; até, junto a."
+      ]
+    },
+    "inferias": {
+      "lema": "inferiae",
+      "classe": "substantivo",
+      "forma": "acusativo plural",
+      "def": [
+        "As oferendas aos mortos; os ritos."
+      ],
+      "nota": "Depois de ad, para quê: para as oferendas aos mortos."
+    },
+    "ut": {
+      "lema": "ut",
+      "classe": "advérbio",
+      "def": [
+        "Como; para que."
+      ],
+      "nota": "Com subjuntivo: para que."
+    },
+    "te": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Objeto de donarem: te."
+    },
+    "postremo": {
+      "lema": "postremus",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Derradeiro; final."
+      ],
+      "nota": "Concorda com munere: último."
+    },
+    "donarem": {
+      "lema": "dono",
+      "classe": "verbo",
+      "forma": "imperfeito do subjuntivo, 1ª pessoa do singular",
+      "def": [
+        "Dar; presentear."
+      ],
+      "nota": "Depois de ut: presenteasse."
+    },
+    "munere": {
+      "lema": "munus",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "O dom; o dever."
+      ],
+      "nota": "Com donarem, com quê: com o presente."
+    },
+    "mortis": {
+      "lema": "mors",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A morte."
+      ],
+      "nota": "De que é o presente: da morte, o devido aos mortos."
+    },
+    "mutam": {
+      "lema": "mutus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Mudo; calado."
+      ],
+      "nota": "Concorda com cinerem: muda."
+    },
+    "nequiquam": {
+      "lema": "nequiquam",
+      "classe": "advérbio",
+      "def": [
+        "Em vão."
+      ]
+    },
+    "adloquerer": {
+      "lema": "adloquor",
+      "classe": "verbo",
+      "forma": "imperfeito do subjuntivo, 1ª pessoa do singular",
+      "def": [
+        "Dirigir-se a; falar a."
+      ],
+      "nota": "Depende de ut, depoente: falasse."
+    },
+    "cinerem": {
+      "lema": "cinis",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "A cinza; as cinzas."
+      ],
+      "nota": "Objeto de adloquerer: a cinza (aqui, feminino)."
+    },
+    "quandoquidem": {
+      "lema": "quandoquidem",
+      "classe": "conjunção",
+      "def": [
+        "Já que; visto que."
+      ]
+    },
+    "fortuna": {
+      "lema": "fortuna",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A sorte; a fortuna."
+      ],
+      "nota": "Sujeito de abstulit: a sorte."
+    },
+    "mihi": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "De quem foi tirado: de mim."
+    },
+    "tete": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Forma reforçada de te, objeto de abstulit: a ti."
+    },
+    "abstulit": {
+      "lema": "aufero",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Levar embora; tirar."
+      ],
+      "nota": "Tirou."
+    },
+    "ipsum": {
+      "lema": "ipse",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Mesmo; próprio."
+      ],
+      "nota": "Concorda com tete: a ti mesmo."
+    },
+    "heu": {
+      "lema": "heu",
+      "classe": "interjeição",
+      "def": [
+        "Ai; lamento."
+      ]
+    },
+    "miser": {
+      "lema": "miser",
+      "classe": "adjetivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Infeliz; miserável."
+      ],
+      "nota": "Concorda com frater: infeliz."
+    },
+    "indigne": {
+      "lema": "indignus",
+      "classe": "adjetivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Indigno; sem mérito."
+      ],
+      "nota": "Concorda com frater: que não merecias isso."
+    },
+    "adempte": {
+      "lema": "adimo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, vocativo masculino singular",
+      "def": [
+        "Arrebatar; tomar."
+      ],
+      "nota": "Concorda com frater: arrebatado."
+    },
+    "mihi#2": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "De quem: de mim."
+    },
+    "nunc": {
+      "lema": "nunc",
+      "classe": "advérbio",
+      "def": [
+        "Agora."
+      ]
+    },
+    "tamen": {
+      "lema": "tamen",
+      "classe": "advérbio",
+      "def": [
+        "Contudo."
+      ]
+    },
+    "interea": {
+      "lema": "interea",
+      "classe": "advérbio",
+      "def": [
+        "Enquanto isso; entretanto."
+      ]
+    },
+    "haec": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Este."
+      ],
+      "nota": "Objeto de accipe: estas coisas."
+    },
+    "prisco": {
+      "lema": "priscus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Arcaico; primitivo."
+      ],
+      "nota": "Concorda com more: antigo."
+    },
+    "quae": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo neutro plural",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de tradita sunt; retoma haec."
+    },
+    "more": {
+      "lema": "mos",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O costume; o hábito."
+      ],
+      "nota": "Como: pelo costume."
+    },
+    "parentum": {
+      "lema": "parens",
+      "classe": "substantivo",
+      "forma": "genitivo plural",
+      "def": [
+        "O genitor; pai ou mãe."
+      ],
+      "nota": "De quem é o costume: dos pais, dos antepassados."
+    },
+    "tradita": {
+      "lema": "trado",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo neutro plural",
+      "def": [
+        "Transmitir; entregar."
+      ],
+      "nota": "Com sunt: foram oferecidas."
+    },
+    "sunt": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Com tradita: perfeito passivo."
+    },
+    "tristi": {
+      "lema": "tristis",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Triste."
+      ],
+      "nota": "Concorda com munere: triste."
+    },
+    "munere#2": {
+      "lema": "munus",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "O dom; o dever."
+      ],
+      "nota": "Como quê: como oferenda."
+    },
+    "accipe": {
+      "lema": "accipio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Receber."
+      ],
+      "nota": "Recebe."
+    },
+    "fraterno": {
+      "lema": "fraternus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Fraterno; de irmão."
+      ],
+      "nota": "Concorda com fletu: de irmão."
+    },
+    "multum": {
+      "lema": "multus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Muito."
+      ],
+      "nota": "Como advérbio: muito."
+    },
+    "manantia": {
+      "lema": "mano",
+      "classe": "verbo",
+      "forma": "particípio presente, acusativo neutro plural",
+      "def": [
+        "Manar; fluir."
+      ],
+      "nota": "Concorda com haec: que escorrem."
+    },
+    "fletu": {
+      "lema": "fletus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O pranto."
+      ],
+      "nota": "De quê: do pranto."
+    },
+    "atque": {
+      "lema": "atque",
+      "classe": "conjunção",
+      "def": [
+        "E; e também."
+      ]
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Em / para."
+      ]
+    },
+    "perpetuum": {
+      "lema": "perpetuus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Perpétuo; contínuo."
+      ],
+      "nota": "In perpetuum: para sempre."
+    },
+    "ave": {
+      "lema": "ave",
+      "classe": "interjeição",
+      "def": [
+        "Salve."
+      ],
+      "nota": "A saudação: salve."
+    },
+    "vale": {
+      "lema": "valeo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Estar bem."
+      ],
+      "nota": "Passa bem: adeus."
+    }
+  },
+  "ocorrencias": {
+    "6.6": "mihi#2",
+    "8.4": "munere#2"
+  }
+}

@@ -1014,3 +1014,93 @@ BIBLIOTECA.autor({
   ordem: 'João Clímaco, São',
   nota: 'Monge e superior do mosteiro do Sinai, autor da Escada do Paraíso. Em tradução do grego.'
 });
+
+BIBLIOTECA.autor({
+  id: 'lope-de-vega',
+  nome: 'Lope de Vega',
+  nomeCompleto: 'Félix Lope de Vega y Carpio',
+  vida: '1562–1635',
+  lingua: 'es',
+  nota: 'Dramaturgo e poeta do Século de Ouro espanhol, autor de centenas de comédias e de sonetos famosos.'
+});
+
+BIBLIOTECA.autor({
+  id: 'luis-de-gongora',
+  nome: 'Luis de Góngora',
+  nomeCompleto: 'Luis de Góngora y Argote',
+  vida: '1561–1627',
+  lingua: 'es',
+  nota: 'Poeta do Século de Ouro espanhol, mestre do estilo culto, de sintaxe e imagens elaboradas.'
+});
+
+BIBLIOTECA.autor({
+  id: 'ruben-dario',
+  nome: 'Rubén Darío',
+  nomeCompleto: 'Félix Rubén García Sarmiento',
+  vida: '1867–1916',
+  lingua: 'es',
+  nota: 'Poeta nicaraguense, a figura central do modernismo em língua espanhola.'
+});
+
+BIBLIOTECA.autor({
+  id: 'percy-bysshe-shelley',
+  nome: 'Percy Bysshe Shelley',
+  nomeCompleto: 'Percy Bysshe Shelley',
+  vida: '1792–1822',
+  lingua: 'en',
+  nota: 'Poeta romântico inglês, autor de _Ozymandias_ e _Prometeu Libertado_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'william-blake',
+  nome: 'William Blake',
+  nomeCompleto: 'William Blake',
+  vida: '1757–1827',
+  lingua: 'en',
+  nota: 'Poeta, gravador e pintor inglês, autor das _Songs of Innocence and of Experience_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'joachim-du-bellay',
+  nome: 'Joachim du Bellay',
+  nomeCompleto: 'Joachim du Bellay',
+  vida: '1522–1560',
+  lingua: 'fr',
+  nota: 'Poeta do Renascimento francês, da Plêiade, autor de _Les Regrets_ e da _Défense et illustration de la langue française_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'jose-maria-de-heredia',
+  nome: 'José-Maria de Heredia',
+  nomeCompleto: 'José-Maria de Heredia',
+  vida: '1842–1905',
+  lingua: 'fr',
+  nota: 'Poeta francês de origem cubana, parnasiano, autor dos sonetos de _Les Trophées_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'dante-alighieri',
+  nome: 'Dante Alighieri',
+  nomeCompleto: 'Durante degli Alighieri',
+  vida: '1265–1321',
+  lingua: 'it',
+  nota: 'Poeta florentino, autor da Vita nuova e da Divina Comédia.'
+});
+
+BIBLIOTECA.autor({
+  id: 'francesco-petrarca',
+  nome: 'Francesco Petrarca',
+  nomeCompleto: 'Francesco Petrarca',
+  vida: '1304–1374',
+  lingua: 'it',
+  nota: 'Poeta e humanista toscano, autor do Canzoniere.'
+});
+
+BIBLIOTECA.autor({
+  id: 'ugo-foscolo',
+  nome: 'Ugo Foscolo',
+  nomeCompleto: 'Niccolò Ugo Foscolo',
+  vida: '1778–1827',
+  lingua: 'it',
+  nota: 'Poeta e escritor italiano, nascido em Zacinto, autor dos Sonetti e de Dei Sepolcri.'
+});

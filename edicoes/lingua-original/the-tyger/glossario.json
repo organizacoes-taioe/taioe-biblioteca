@@ -1,0 +1,574 @@
+{
+  "verbetes": {
+    "the": {
+      "lema": "the",
+      "classe": "artigo definido",
+      "def": [
+        "Usado antes de um sintagma nominal para mostrar que ele é definidamente identificável."
+      ]
+    },
+    "tyger": {
+      "lema": "tyger",
+      "classe": "substantivo",
+      "def": [
+        "Forma obsoleta de «tiger»: tigre."
+      ],
+      "nota": "A grafia de Blake, que as edições mantêm: o «y» dá ao animal um ar de coisa antiga e estranha. Nome de um animal e de um enigma."
+    },
+    "burning": {
+      "lema": "burning",
+      "classe": "adjetivo",
+      "def": [
+        "Em chamas."
+      ],
+      "nota": "O tigre «arde»: pelagem fulva, olhos que são fogo."
+    },
+    "bright": {
+      "lema": "bright",
+      "classe": "adjetivo",
+      "def": [
+        "Que emite muita luz; deslumbrante, luminoso, radiante."
+      ]
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "def": [
+        "Contido em; dentro de."
+      ]
+    },
+    "forests": {
+      "lema": "forest",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Grande extensão de terra coberta de árvores."
+      ],
+      "nota": "Verbete só pelo sentido comum: o plural poético, as selvas da noite."
+    },
+    "of": {
+      "lema": "of",
+      "classe": "preposição",
+      "def": [
+        "Que pertence a, existe em ou ocorre em um dado lugar ou tempo."
+      ]
+    },
+    "night": {
+      "lema": "night",
+      "classe": "substantivo",
+      "def": [
+        "O tempo em que o Sol está abaixo do horizonte e o céu está escuro; noite."
+      ]
+    },
+    "what": {
+      "lema": "what",
+      "classe": "determinante interrogativo",
+      "def": [
+        "Usado para perguntar a identidade ou a espécie de algo; que, qual."
+      ]
+    },
+    "immortal": {
+      "lema": "immortal",
+      "classe": "adjetivo",
+      "def": [
+        "Que não está sujeito à morte; que vive para sempre."
+      ]
+    },
+    "hand": {
+      "lema": "hand",
+      "classe": "substantivo",
+      "def": [
+        "A parte do membro anterior abaixo do antebraço ou do pulso, em humanos e outros primatas; mão."
+      ]
+    },
+    "or": {
+      "lema": "or",
+      "classe": "conjunção",
+      "def": [
+        "Liga ao menos duas palavras, locuções ou orações alternativas, cada uma das quais poderia tornar verdadeira a passagem."
+      ]
+    },
+    "eye": {
+      "lema": "eye",
+      "classe": "substantivo",
+      "def": [
+        "Órgão com que os animais veem."
+      ]
+    },
+    "could": {
+      "lema": "can",
+      "classe": "verbo auxiliar modal",
+      "forma": "pretérito",
+      "def": [
+        "(auxiliar modal, defectivo) Ser capaz de."
+      ]
+    },
+    "frame": {
+      "lema": "frame",
+      "classe": "verbo",
+      "def": [
+        "Dar forma ou ordem a; compor, conceber, planejar."
+      ],
+      "nota": "«Frame» é «dar forma, conceber»: a mão ou o olho imortal que formou o tigre. Fim da 1ª e da última estrofe, com uma mudança: «could frame» vira «dare frame»."
+    },
+    "thy": {
+      "lema": "thy",
+      "classe": "determinante possessivo",
+      "def": [
+        "Forma possessiva de «thou»: que pertence a ti (singular)."
+      ],
+      "nota": "«Thy» é o «teu, tua» de «thou»."
+    },
+    "fearful": {
+      "lema": "fearful",
+      "classe": "adjetivo",
+      "def": [
+        "Que causa medo; terrível, assustador."
+      ],
+      "nota": "O sentido forte, «que enche de temor», e não o de «medroso»: a simetria do tigre é aterradora."
+    },
+    "symmetry": {
+      "lema": "symmetry",
+      "classe": "substantivo",
+      "def": [
+        "O arranjo harmonioso de uma distribuição equilibrada dos elementos de um todo."
+      ],
+      "nota": "A proporção das partes do tigre: as listras, o corpo, o olhar. Perfeita e, por isso, assustadora."
+    },
+    "distant": {
+      "lema": "distant",
+      "classe": "adjetivo",
+      "def": [
+        "Longínquo (física, lógica ou mentalmente)."
+      ]
+    },
+    "deeps": {
+      "lema": "deep",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "O mar profundo; as profundezas."
+      ],
+      "nota": "Em «distant deeps or skies»: as profundezas ou os céus longínquos, de onde viria o fogo dos olhos do tigre."
+    },
+    "skies": {
+      "lema": "sky",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "A atmosfera acima de um ponto, em especial como se vê da superfície da Terra, o lugar onde se veem o Sol, a Lua, as estrelas e as nuvens."
+      ]
+    },
+    "burnt": {
+      "lema": "burn",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(intransitivo) Estar em chamas; arder."
+      ],
+      "nota": "«Burnt» é a forma inglesa antiga e a mais usada hoje na Inglaterra: «ardeu»."
+    },
+    "fire": {
+      "lema": "fire",
+      "classe": "substantivo",
+      "def": [
+        "(incontável) Reação química, em geral autossustentada, em que o oxigênio se liga ao carbono ou a outro combustível, com produção de calor e chama; fogo."
+      ]
+    },
+    "thine": {
+      "lema": "thine",
+      "classe": "pronome possessivo",
+      "def": [
+        "(arcaico) Pronome possessivo da segunda pessoa do singular: o teu, a tua."
+      ],
+      "nota": "«Thine» é «teu»: «thou» é «tu», «thee» é «te» e «thy» é «teu» (antes de consoante)."
+    },
+    "eyes": {
+      "lema": "eye",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Órgão com que os animais veem."
+      ]
+    },
+    "on": {
+      "lema": "on",
+      "classe": "preposição",
+      "def": [
+        "Posicionado na superfície de cima de, tocando-a por cima; sobre."
+      ]
+    },
+    "wings": {
+      "lema": "wing",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Apêndice do corpo de um animal (ave, morcego, inseto) que lhe permite voar; asa."
+      ]
+    },
+    "dare": {
+      "lema": "dare",
+      "classe": "verbo",
+      "def": [
+        "Ter coragem suficiente (para fazer algo); ousar."
+      ],
+      "nota": "«Dare» sem «-s» na 3ª pessoa (como em «what dread hand dare…»): é a forma antiga do subjuntivo, «que ouse»."
+    },
+    "he": {
+      "lema": "he",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pessoa que se identifica como do sexo masculino, ou animal já conhecido ou subentendido; ele."
+      ]
+    },
+    "aspire": {
+      "lema": "aspire",
+      "classe": "verbo",
+      "def": [
+        "Subir; mover-se para cima; ser muito alto."
+      ],
+      "nota": "«On what wings dare he aspire?»: com que asas ele ousa subir? Alude a Ícaro e a quem tenta alcançar o fogo dos deuses."
+    },
+    "what#2": {
+      "lema": "what",
+      "classe": "pronome",
+      "def": [
+        "(interrogativo) Que coisa, evento, circunstância etc.: usado para pedir a especificação de uma identidade, quantidade, qualidade etc.; o que, qual."
+      ]
+    },
+    "seize": {
+      "lema": "seize",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Agarrar de propósito; capturar."
+      ],
+      "nota": "Blake grafou «sieze». Seu Prometeu rouba o fogo; a pergunta é: que mão ousa tomar o fogo?"
+    },
+    "and": {
+      "lema": "and",
+      "classe": "conjunção",
+      "def": [
+        "Como conjunção coordenativa: exprime dois elementos tomados em conjunto ou um em acréscimo ao outro."
+      ]
+    },
+    "shoulder": {
+      "lema": "shoulder",
+      "classe": "substantivo",
+      "def": [
+        "A parte do tronco humano que forma uma superfície relativamente horizontal a partir do pescoço; ombro."
+      ]
+    },
+    "art#2": {
+      "lema": "art",
+      "classe": "substantivo",
+      "def": [
+        "Atividade criativa hábil, em geral com foco estético."
+      ],
+      "nota": "Aqui, a habilidade, a destreza do artífice: «que ombro, que arte» é «que força e que técnica»."
+    },
+    "twist": {
+      "lema": "twist",
+      "classe": "verbo",
+      "def": [
+        "Torcer; enrolar em torno de si."
+      ],
+      "nota": "Verbo da forja: o artesão «torce» os tendões do coração, como se fossem cordas."
+    },
+    "sinews": {
+      "lema": "sinew",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Cordão ou tendão do corpo."
+      ]
+    },
+    "heart": {
+      "lema": "heart",
+      "classe": "substantivo",
+      "def": [
+        "Órgão muscular que bombeia o sangue pelo corpo, tradicionalmente tido como a sede das emoções; coração."
+      ]
+    },
+    "when": {
+      "lema": "when",
+      "classe": "conjunção",
+      "def": [
+        "No (ou logo que no) momento em que; em todo e qualquer momento em que; se."
+      ]
+    },
+    "began": {
+      "lema": "begin",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(ergativo) Começar, iniciar; dar o primeiro passo em algo."
+      ]
+    },
+    "to": {
+      "lema": "to",
+      "classe": "partícula do infinitivo",
+      "def": [
+        "Usada antes de um verbo para formar o infinitivo."
+      ]
+    },
+    "beat": {
+      "lema": "beat",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Pulsar; bater de modo ritmado."
+      ],
+      "nota": "O coração do tigre começa a bater: o instante da criação."
+    },
+    "dread": {
+      "lema": "dread",
+      "classe": "adjetivo",
+      "def": [
+        "Que inspira grande temor; temível."
+      ],
+      "nota": "Depois de «dread hand» e «dread feet», o adjetivo repete a ideia de reverência e terror juntos."
+    },
+    "feet": {
+      "lema": "foot",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Estrutura anatômica dos animais usada para andar, na ponta da perna; pé."
+      ]
+    },
+    "hammer": {
+      "lema": "hammer",
+      "classe": "substantivo",
+      "def": [
+        "Ferramenta com uma cabeça pesada e um cabo, usada para golpear."
+      ]
+    },
+    "chain": {
+      "lema": "chain",
+      "classe": "substantivo",
+      "def": [
+        "Série de anéis ou elos interligados, em geral de metal."
+      ]
+    },
+    "furnace": {
+      "lema": "furnace",
+      "classe": "substantivo",
+      "def": [
+        "Aparelho de aquecimento para trabalhos a alta temperatura, como a fundição de metais; fornalha."
+      ],
+      "nota": "Estrofe da forja: martelo, corrente, fornalha e bigorna, as imagens do deus-ferreiro que fez o tigre."
+    },
+    "was": {
+      "lema": "be",
+      "classe": "verbo",
+      "forma": "pretérito do indicativo, 1ª e 3ª pessoas do singular",
+      "def": [
+        "Ter as qualidades descritas por um adjetivo ou locução; ser, estar."
+      ]
+    },
+    "brain": {
+      "lema": "brain",
+      "classe": "substantivo",
+      "def": [
+        "Centro de controle do sistema nervoso de um animal, situado no crânio; cérebro."
+      ]
+    },
+    "anvil": {
+      "lema": "anvil",
+      "classe": "substantivo",
+      "def": [
+        "Bloco pesado de ferro usado pelos ferreiros como superfície onde se golpeia e se molda o metal."
+      ]
+    },
+    "grasp": {
+      "lema": "grasp",
+      "classe": "substantivo",
+      "def": [
+        "Aperto; ato de segurar com firmeza."
+      ],
+      "nota": "«What dread grasp dare its deadly terrors clasp?» é «que garra terrível ousa prender seus terrores mortais?»: os terrores do tigre, os dentes e garras que a mão do criador segura."
+    },
+    "its": {
+      "lema": "it",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a ele, a ela (a algo que não é pessoa); seu, dele."
+      ]
+    },
+    "deadly": {
+      "lema": "deadly",
+      "classe": "adjetivo",
+      "def": [
+        "Que causa a morte; letal."
+      ]
+    },
+    "terrors": {
+      "lema": "terror",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Pavor, medo intenso."
+      ]
+    },
+    "clasp": {
+      "lema": "clasp",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Segurar com firmeza; agarrar."
+      ],
+      "nota": "Ordem invertida: «dare its deadly terrors clasp» é «dare clasp its deadly terrors», «ousar agarrar os seus terrores mortais»."
+    },
+    "stars": {
+      "lema": "star",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Qualquer ponto pequeno, natural e brilhante no céu, mais visível à noite ou no crepúsculo; estrela."
+      ]
+    },
+    "threw": {
+      "lema": "throw",
+      "classe": "verbo",
+      "forma": "passado",
+      "def": [
+        "(transitivo) Arremessar; soltar (um objeto) com certa força das mãos ou de um aparelho, de modo que se mova rapidamente pelo ar."
+      ]
+    },
+    "down": {
+      "lema": "down",
+      "classe": "advérbio",
+      "def": [
+        "De uma posição mais alta para outra mais baixa; para baixo."
+      ]
+    },
+    "their": {
+      "lema": "their",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a eles, vem deles ou a eles se refere (plural)."
+      ]
+    },
+    "spears": {
+      "lema": "spear",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Vara comprida com ponta afiada, usada como arma de arremesso ou de estocada; lança."
+      ],
+      "nota": "Os astros «jogam as lanças» e «regam o céu de lágrimas»: a imagem é de uma batalha cósmica perdida, ou de espanto, diante da criação do tigre."
+    },
+    "watered": {
+      "lema": "water",
+      "classe": "verbo",
+      "forma": "pretérito",
+      "def": [
+        "(transitivo) Molhar, regar."
+      ],
+      "nota": "As estrelas «regaram» o céu com as suas lágrimas. Na gravura de Blake: «water'd»."
+    },
+    "heaven": {
+      "lema": "heaven",
+      "classe": "substantivo",
+      "def": [
+        "O céu, em sentido antiquado ou poético: o céu distante em que o sol, a lua e as estrelas aparecem ou se movem; o firmamento."
+      ]
+    },
+    "with": {
+      "lema": "with",
+      "classe": "preposição",
+      "def": [
+        "Em companhia de; ao lado de, junto de."
+      ]
+    },
+    "tears": {
+      "lema": "tear",
+      "classe": "substantivo",
+      "forma": "plural",
+      "def": [
+        "Gota de líquido claro e salgado produzida pelos olhos quando se chora ou por irritação; lágrima."
+      ]
+    },
+    "did": {
+      "lema": "do",
+      "classe": "verbo auxiliar",
+      "forma": "pretérito",
+      "def": [
+        "Marcador sintático usado em perguntas, em negações e para dar ênfase."
+      ],
+      "nota": "Auxiliar sem tradução própria: «did he smile?» é «ele sorriu?»."
+    },
+    "smile": {
+      "lema": "smile",
+      "classe": "verbo",
+      "def": [
+        "(intransitivo) Exprimir divertimento, prazer, amor ou bondade."
+      ]
+    },
+    "his": {
+      "lema": "his",
+      "classe": "determinante possessivo",
+      "def": [
+        "Que pertence a ele."
+      ]
+    },
+    "work": {
+      "lema": "work",
+      "classe": "substantivo",
+      "def": [
+        "Produto; resultado de um esforço; obra."
+      ]
+    },
+    "see": {
+      "lema": "see",
+      "classe": "verbo",
+      "def": [
+        "Perceber ou detectar alguém ou algo com os olhos, ou como se fosse pela vista."
+      ]
+    },
+    "who": {
+      "lema": "who",
+      "classe": "pronome relativo",
+      "def": [
+        "Introduz uma oração relativa cujo antecedente é uma pessoa; que, o qual."
+      ]
+    },
+    "made": {
+      "lema": "make",
+      "classe": "verbo",
+      "forma": "pretérito e particípio passado",
+      "def": [
+        "Construir, produzir ou dar origem a algo; fazer."
+      ]
+    },
+    "lamb": {
+      "lema": "lamb",
+      "classe": "substantivo",
+      "def": [
+        "Ovelha nova, em especial a de menos de nove meses; cordeiro."
+      ],
+      "nota": "O cordeiro de «The Lamb», o poema par de «The Tyger» nas _Songs of Innocence_, e também Cristo. A pergunta: o mesmo criador fez os dois?"
+    },
+    "make": {
+      "lema": "make",
+      "classe": "verbo",
+      "def": [
+        "(transitivo) Criar; construir, produzir."
+      ]
+    },
+    "thee": {
+      "lema": "thee",
+      "classe": "pronome pessoal",
+      "def": [
+        "Caso oblíquo e reflexivo de «thou»."
+      ],
+      "nota": "Pronome arcaico de 2ª pessoa do singular, hoje restrito à poesia e aos textos religiosos: «thou» é «tu» (sujeito), «thee» é «te, ti» (objeto) e «thy» é «teu, tua». Aqui o poeta fala ao tigre."
+    }
+  },
+  "ocorrencias": {
+    "8.1": "what#2",
+    "9.6": "art#2",
+    "13.1": "what#2",
+    "13.4": "what#2",
+    "15.1": "what#2",
+    "15.4": "what"
+  }
+}

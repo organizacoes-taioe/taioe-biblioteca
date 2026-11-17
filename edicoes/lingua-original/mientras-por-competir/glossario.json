@@ -1,0 +1,527 @@
+{
+  "verbetes": {
+    "mientras": {
+      "lema": "mientras",
+      "classe": "conjunção",
+      "def": [
+        "Indica simultaneidade entre duas ações: enquanto."
+      ],
+      "nota": "Abre os dois quartetos (v. 1, 3, 5 e 7: «mientras… mientras… mientras… y mientras»). A oração principal só chega no v. 9, com «goza»."
+    },
+    "por": {
+      "lema": "por",
+      "classe": "preposição",
+      "def": [
+        "Indica o fim ou o propósito de uma ação: para."
+      ],
+      "nota": "«Por competir» (v. 1) é «para competir»; «por cogello» (v. 5) é «para colhê-lo», com o mesmo sentido final."
+    },
+    "competir": {
+      "lema": "competir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Dito de uma coisa, em sentido figurado: igualar-se a outras em qualidade e perfeição."
+      ],
+      "nota": "«Competir con tu cabello»: rivalizar com o seu cabelo. É o ouro que brilha em vão, derrotado pelo cabelo."
+    },
+    "con": {
+      "lema": "con",
+      "classe": "preposição",
+      "def": [
+        "Indica companhia, meio ou instrumento."
+      ]
+    },
+    "tu": {
+      "lema": "tu",
+      "classe": "pronome possessivo",
+      "forma": "singular",
+      "def": [
+        "Indica que algo pertence à segunda pessoa do singular."
+      ]
+    },
+    "cabello": {
+      "lema": "cabello",
+      "classe": "substantivo masculino",
+      "def": [
+        "Cada um dos fios que crescem na cabeça; o conjunto deles."
+      ],
+      "nota": "Os quatro elementos da beleza da moça: «cabello», «frente», «labio» e «cuello». O v. 9 os retoma, um a um: «goza cuello, cabello, labio y frente»."
+    },
+    "oro": {
+      "lema": "oro",
+      "classe": "substantivo masculino",
+      "def": [
+        "Metal precioso, de cor amarela brilhante."
+      ],
+      "nota": "Primeiro termo da série «oro, lilio, clavel, cristal» (v. 11): as quatro comparações que o v. 9 retoma, e que o v. 14 reduz a «tierra, humo, polvo, sombra, nada»."
+    },
+    "bruñido": {
+      "lema": "bruñido",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Reluzente, polido."
+      ],
+      "nota": "Particípio de «bruñir»: o ouro polido, lustroso, que brilha ao sol."
+    },
+    "al": {
+      "lema": "al",
+      "classe": "contração",
+      "def": [
+        "Contração da preposição «a» com o artigo definido «el»: ao."
+      ]
+    },
+    "sol": {
+      "lema": "sol",
+      "classe": "substantivo masculino",
+      "def": [
+        "Estrela em torno da qual gira a Terra; sua luz."
+      ]
+    },
+    "relumbra": {
+      "lema": "relumbrar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Resplandecer, brilhar muito."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Indica o lugar, o tempo ou o modo em que algo se situa ou se realiza."
+      ]
+    },
+    "vano": {
+      "lema": "vano",
+      "classe": "adjetivo",
+      "def": [
+        "Sem substância, sem fundamento; inútil."
+      ],
+      "nota": "«En vano» é «em vão»: o ouro bruñido não consegue rivalizar com o cabelo da moça."
+    },
+    "menosprecio": {
+      "lema": "menosprecio",
+      "classe": "substantivo masculino",
+      "def": [
+        "Ato de ter algo em pouco, de considerá-lo inferior; falta de apreço."
+      ],
+      "nota": "«Con menosprecio»: o lírio olha com desprezo a fronte, que o supera em brancura."
+    },
+    "medio": {
+      "lema": "medio",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte que fica à mesma distância dos extremos de algo."
+      ],
+      "nota": "«En medio el llano» é «no meio da planície»: o artigo «el» sem preposição, como «en medio de»."
+    },
+    "el": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido masculino singular. Antecede substantivos masculinos, indicando que devem ser tomados como informação conhecida."
+      ]
+    },
+    "llano": {
+      "lema": "llano",
+      "classe": "substantivo masculino",
+      "def": [
+        "Terreno plano, sem elevações; planície."
+      ],
+      "nota": "Imagem do campo aberto, onde o lírio cresce. O adjetivo («llano») significa «igual e extenso, sem altos nem baixos»; aqui é substantivo."
+    },
+    "mira": {
+      "lema": "mirar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Fixar a vista em algo."
+      ]
+    },
+    "blanca": {
+      "lema": "blanco",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Da cor da neve ou do leite."
+      ]
+    },
+    "frente": {
+      "lema": "frente",
+      "classe": "substantivo feminino",
+      "def": [
+        "Parte superior do rosto, entre as sobrancelhas e a raiz do cabelo; testa."
+      ]
+    },
+    "lilio": {
+      "lema": "lilio",
+      "wiki": null,
+      "classe": "substantivo masculino",
+      "nota": "Forma antiga de «lirio», o lírio. Símbolo da brancura: a testa branca da moça o faz desprezar-se a si mesmo.",
+      "def": [
+        "Lírio."
+      ]
+    },
+    "bello": {
+      "lema": "bello",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Agradável aos sentidos; formoso."
+      ],
+      "nota": "Epíteto do lírio, a flor emblema da brancura."
+    },
+    "a": {
+      "lema": "a",
+      "classe": "preposição",
+      "def": [
+        "Indica complemento indireto."
+      ]
+    },
+    "cada": {
+      "lema": "cada",
+      "classe": "adjetivo indefinido",
+      "def": [
+        "Designa cada elemento individual de uma série ou de um conjunto."
+      ]
+    },
+    "labio": {
+      "lema": "labio",
+      "classe": "substantivo masculino",
+      "def": [
+        "Cada uma das duas bordas carnudas que limitam a boca."
+      ]
+    },
+    "cogello": {
+      "lema": "coger",
+      "wiki": null,
+      "classe": "verbo",
+      "nota": "Forma antiga de «cogerlo» («colhê-lo»). Aqui, colher o lábio, isto é, beijá-lo: o «lo» retoma «labio».",
+      "forma": "infinitivo com o pronome «lo» (forma antiga de «cogerlo»)",
+      "def": [
+        "Colher, apanhar."
+      ]
+    },
+    "siguen": {
+      "lema": "seguir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ir atrás de algo ou de alguém."
+      ],
+      "nota": "Sujeito: «más ojos». Mais olhos seguem o lábio da moça, para colhê-lo, do que olham para o cravo temporão."
+    },
+    "más": {
+      "lema": "más",
+      "classe": "advérbio",
+      "def": [
+        "Em comparação, indica maior quantidade."
+      ]
+    },
+    "ojos": {
+      "lema": "ojo",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Órgão da visão."
+      ]
+    },
+    "que": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Introduz o segundo termo de uma comparação."
+      ],
+      "nota": "Segundo termo da comparação: «más ojos que [siguen] al clavel temprano». Mais olhos seguem o lábio do que o cravo."
+    },
+    "clavel": {
+      "lema": "clavel",
+      "classe": "substantivo masculino",
+      "def": [
+        "Flor da planta do cravo."
+      ]
+    },
+    "temprano": {
+      "lema": "temprano",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que ocorre antes do tempo ordinário; adiantado, precoce."
+      ],
+      "nota": "O cravo «temprano» é o que floresce cedo, antes da estação."
+    },
+    "y": {
+      "lema": "y",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção copulativa: une palavras, orações ou frases."
+      ]
+    },
+    "triunfa": {
+      "lema": "triunfar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Vencer, sair vitorioso."
+      ]
+    },
+    "desdén": {
+      "lema": "desdén",
+      "classe": "substantivo masculino",
+      "def": [
+        "Indiferença e distanciamento que mostram pouca estima por alguém."
+      ],
+      "nota": "«Con desdén lozano»: com um desdém altivo; é o pescoço da moça que triunfa, altivo, sobre o cristal."
+    },
+    "lozano": {
+      "lema": "lozano",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "Que tem a si mesmo em alta estima; orgulhoso, altivo."
+      ],
+      "nota": "Na origem, viçoso e vigoroso; aqui, o «desdén» é altivo e orgulhoso de si."
+    },
+    "del": {
+      "lema": "del",
+      "classe": "contração",
+      "def": [
+        "Contração da preposição «de» com o artigo definido «el»: do."
+      ]
+    },
+    "luciente": {
+      "lema": "luciente",
+      "classe": "adjetivo",
+      "def": [
+        "Que luz, que brilha."
+      ]
+    },
+    "cristal": {
+      "lema": "cristal",
+      "classe": "substantivo masculino",
+      "def": [
+        "Vidro de alta qualidade; mineral transparente."
+      ],
+      "nota": "Aqui, o cristal de rocha, transparente e luminoso, comparado ao pescoço da moça."
+    },
+    "gentil": {
+      "lema": "gentil",
+      "classe": "adjetivo",
+      "def": [
+        "Gracioso, airoso, elegante."
+      ],
+      "nota": "Em «tu gentil cuello»: o teu pescoço nobre, elegante, de porte distinto. Não tem aqui o sentido atual de «amável»."
+    },
+    "cuello": {
+      "lema": "cuello",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte mais estreita do corpo, que une a cabeça ao tronco; pescoço."
+      ]
+    },
+    "goza": {
+      "lema": "gozar",
+      "classe": "verbo",
+      "forma": "imperativo, 2ª pessoa do singular (tú)",
+      "def": [
+        "Ter prazer ou alegria com algo."
+      ],
+      "nota": "Palavra-chave do poema, o «carpe diem»: a oração principal que o «mientras» esperava. «Goza cuello, cabello, labio y frente»: aproveita a juventude."
+    },
+    "antes": {
+      "lema": "antes",
+      "classe": "advérbio",
+      "def": [
+        "Indica que algo ocorre primeiro no tempo."
+      ],
+      "nota": "«Antes que» é a locução conjuntiva «antes que», ou seja, «antes de que»."
+    },
+    "lo": {
+      "lema": "lo",
+      "classe": "artigo definido, neutro",
+      "forma": "neutro",
+      "def": [
+        "Pronome neutro: representa algo já mencionado ou que se pode inferir."
+      ],
+      "nota": "Em «lo que fue en tu edad dorada», «o que foi na tua idade dourada»: o artigo neutro, que prepara a lista «oro, lilio, clavel, cristal luciente»."
+    },
+    "fue": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "pretérito perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Verbo de ligação: atribui uma qualidade ou identidade ao sujeito."
+      ]
+    },
+    "edad": {
+      "lema": "edad",
+      "classe": "substantivo feminino",
+      "def": [
+        "Tempo que decorreu desde o nascimento de alguém; cada período da vida."
+      ],
+      "nota": "«Edad dorada»: a idade dourada, a juventude, como a Idade de Ouro da mitologia."
+    },
+    "dorada": {
+      "lema": "dorado",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Da cor do ouro, ou coberto de ouro."
+      ],
+      "nota": "Particípio de «dorar», aqui como adjetivo: «dourada», a juventude."
+    },
+    "no": {
+      "lema": "no",
+      "classe": "advérbio",
+      "def": [
+        "Expressa negação."
+      ]
+    },
+    "solo": {
+      "lema": "solo",
+      "classe": "advérbio",
+      "def": [
+        "Somente, apenas."
+      ],
+      "nota": "Sem acento ortográfico, como nas edições correntes; a ortografia antiga dizia «sólo»."
+    },
+    "plata": {
+      "lema": "plata",
+      "classe": "substantivo feminino",
+      "def": [
+        "Metal precioso de cor branca brilhante; prata."
+      ],
+      "nota": "Os cabelos brancos: a prata em que o ouro dos cabelos se converte com a idade."
+    },
+    "o": {
+      "lema": "o",
+      "classe": "conjunção",
+      "def": [
+        "Indica alternativa entre dois termos."
+      ]
+    },
+    "víola": {
+      "lema": "viola",
+      "classe": "substantivo feminino",
+      "def": [
+        "Violeta, a flor."
+      ],
+      "nota": "A grafia com acento («víola») marca que a palavra tem três sílabas no verso. A violeta, de cor lívida: murcha e se torna cor de morte."
+    },
+    "troncada": {
+      "lema": "troncado",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Dito de uma coisa que foi cortada ou partida; truncada."
+      ],
+      "nota": "Particípio de «troncar»: cortada, ceifada. A violeta «troncada» é a flor ceifada, murcha, já sem vida."
+    },
+    "se": {
+      "lema": "se",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome reflexivo de terceira pessoa."
+      ],
+      "nota": "Em «se vuelva»: «se torne». «Volverse» (volver com «se») é «tornar-se», «converter-se em»."
+    },
+    "vuelva": {
+      "lema": "volver",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª e 3ª pessoa do singular",
+      "def": [
+        "Transformar-se em algo; tornar-se."
+      ],
+      "nota": "Subjuntivo depois de «antes que»: «antes que [tudo isso] se torne». O sujeito é a lista «oro, lilio, clavel, cristal luciente» (v. 11)."
+    },
+    "mas": {
+      "lema": "mas",
+      "classe": "conjunção",
+      "def": [
+        "Em oração negativa, expressa a contraposição: sino."
+      ],
+      "nota": "Em «no solo… mas tú y ello juntamente»: «não só… mas tu e tudo isso ao mesmo tempo». Não é a «mas» adversativa comum."
+    },
+    "tú": {
+      "lema": "tú",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal de segunda pessoa do singular, em função de sujeito."
+      ]
+    },
+    "ello": {
+      "lema": "ello",
+      "classe": "pronome pessoal",
+      "forma": "neutro",
+      "def": [
+        "Pronome pessoal neutro de terceira pessoa."
+      ],
+      "nota": "«Ello» é «isso», todo o conjunto de belezas da lista do v. 11: «mas tu e tudo isso» juntos."
+    },
+    "juntamente": {
+      "lema": "juntamente",
+      "classe": "advérbio",
+      "def": [
+        "De forma conjunta; ao mesmo tempo."
+      ]
+    },
+    "tierra": {
+      "lema": "tierra",
+      "classe": "substantivo feminino",
+      "def": [
+        "Matéria de que se compõe o solo; terra, pó."
+      ]
+    },
+    "humo": {
+      "lema": "humo",
+      "classe": "substantivo masculino",
+      "def": [
+        "Mistura de gases e partículas que se desprende de um corpo em combustão; fumaça."
+      ]
+    },
+    "polvo": {
+      "lema": "polvo",
+      "classe": "substantivo masculino",
+      "def": [
+        "Terra seca reduzida a partículas muito finas; pó."
+      ]
+    },
+    "sombra": {
+      "lema": "sombra",
+      "classe": "substantivo feminino",
+      "def": [
+        "Ausência de luz; aparência sem corpo, fantasma."
+      ]
+    },
+    "nada": {
+      "lema": "nada",
+      "classe": "pronome indefinido",
+      "def": [
+        "Nenhuma coisa."
+      ],
+      "nota": "O último verso: a série («tierra, humo, polvo, sombra, nada») desce até o nada, em cinco passos."
+    },
+    "que#2": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Indica que o que se segue acontece depois de outra coisa."
+      ],
+      "nota": "Em «antes que», locução conjuntiva: «antes que lo que fue… se vuelva»."
+    },
+    "que#3": {
+      "lema": "que",
+      "classe": "pronome relativo",
+      "def": [
+        "Representa um antecedente já mencionado e introduz uma oração subordinada."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "10.2": "que#2",
+    "10.4": "que#3"
+  }
+}

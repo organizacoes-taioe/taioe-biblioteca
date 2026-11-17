@@ -59,3 +59,9 @@
   varão», o que tem valor). Adotei «que havia muita gente, mas poucos homens» (natural, e o par passa). Alternativas:
   «que eram muitos os seres humanos, mas poucos os homens» (mais perto da letra, mais pesada) ou «muitos homens, mas
   poucos guerreiros» (mais clara, mas perde a palavra «homem» no sentido forte).
+
+## Revisão contra o grego
+- 204.1: «filho de Agesilau» traduz Ἡγησίλεως (Hegesilau), nome diferente de Ἀγησίλαος (Agesilau, o rei posterior) → «filho de Hegesilau», para não confundir com o Agesilau conhecido. A lista tem 20 nomes no grego e 20 na tradução, na mesma ordem.
+- 209.2: «guardar a verdade diante de ti é a maior das lutas»: o verbo grego (ἀσκέειν) é «praticar, exercitar» → «dizer-te a verdade, contra a tua vontade, é a maior das lutas» (ou «praticar a verdade diante de ti»).
+- 212.1: «Pois, como eram poucos, atacaram esperando que eles estivessem cobertos de feridas»: «eram poucos» refere-se aos gregos, mas o sujeito de «atacaram» são os bárbaros → «Pois, como os gregos eram poucos, os bárbaros atacaram esperando que eles estivessem cobertos de feridas».
+- Resto da parte: números (300 espartanos; 1 000 de Tegeia e Mantineia; 120 de Orcômeno; 1 000 do resto da Arcádia; 400 coríntios; 200 de Fliunte; 80 micênios; 700 téspios; 400 tebanos; 1 000 fócios; quatro dias de espera, ataque no quinto), nomes e negações conferem com o grego.

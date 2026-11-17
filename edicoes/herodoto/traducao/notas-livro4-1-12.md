@@ -30,3 +30,18 @@
 
 ## Revisão contra o grego
 - 3.2: «onde ele é mais largo» fica ambíguo (o «ele» parece ser o fosso); o grego fala do lago, no ponto em que é maior → «até o lago Meótis, no ponto em que o lago é maior».
+
+## Uniformização e revisão (principal, livro IV inteiro)
+- Aplicado da revisão: 3.2 (o lago), 26.1 «ovelhas», 35.2 «os délios», 76.4 «tambor», 77.1 «foi à Grécia como
+  discípulo», 99.1 (sem o «mais do que»), 110.2 «chegaram», 134.1 (duas frases), 147.4, 164.4, 175.2 «bosques», 181.4,
+  202.2 «de Arcesilau», 203.2 «só contra uma cidade grega, Barca».
+- Não aplicado: 28.1 (a 2ª pessoa é do grego, ποιήσεις); 86.2–3 (ἕνδεκα μυριάδες καὶ ἑκατόν é «cento e onze
+  miríades», 1.110.000 braças, e τρεῖς μυριάδες καὶ τριήκοντα, «trinta e três miríades»: a tradução está certa, e o
+  revisor leu «onze miríades e cem»); 113.3 «amansaram» (é o verbo do grego); 120.1 «levar embora o gado»
+  (ὑπεξελαύνοντες é tocar o gado para longe, como em 121.1 e em Godley); 134.3 (o grego não diz «deixando-os»).
+- Nomes que ficam como os tradutores os deram (o `CONVENCOES.md`, escrito antes da tradução, foi corrigido):
+  tisságetas (Θυσσαγέται), Hírgis (57.1) e Sírgis (123.3), Ásies e a tribo Asíade (45.3), _enarees_ (67.2, como no
+  livro I), Polimnesto, Haliarco (160.4, a forma do grego de Godley), Eobazo, Gerro (rio e região). Megabizo (43.1,
+  pai de Zópiro) e Megabazo (143–144) são pessoas diferentes.
+- 109.1 φθειροτραγέουσι: «comem pinhas» (φθείρ é também a pinha); a outra leitura, «comem piolhos», é a de muitos
+  tradutores. Não é decisão do Gere: fica nas notas.

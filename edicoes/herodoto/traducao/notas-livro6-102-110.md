@@ -66,3 +66,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 106.1 (menor): «no dia seguinte à saída da cidade» → o grego (δευτεραῖος) é «no segundo dia»; «no dia seguinte» sugere um dia só. Sugestão: «estava em Esparta já no segundo dia depois de sair da cidade dos atenienses».
+- 103.1 (menor): «a esse, aconteceu que o pai, Címon, ... fosse banido» fica pesado; → «e o pai dele, Címon, filho de Esteságoras, foi banido de Atenas por Pisístrato, filho de Hipócrates» (o sentido do grego, κατέλαβε φυγεῖν, é «coube-lhe fugir»).
+- Resto do lote: sem omissão, acréscimo, número ou negação trocados; números (quatro mil, dez generais, três Olimpíadas, o nono dia do mês, onze votos de comando, 109.4 «dez») conferem; Fidípides, polemarco e Calímaco de Afidnas conforme o CONVENCOES.

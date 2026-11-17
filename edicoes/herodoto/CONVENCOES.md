@@ -3,9 +3,8 @@
 Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (vale tudo de lá: nunca mesóclise, um bloco traduzido para cada bloco
 do original, as marcas `[c.s]` no mesmo lugar). Texto-fonte e correções: `original/LEIAME.md`. Traduz-se o grego
 de Godley (Loeb, 1920), que vai ao lado; a tradução inglesa de Godley serve só para conferir o sentido, nunca de base.
-A obra cresce por livros (pedido do Gere: «em partes»): os livros I a VI; os outros vêm em pedidos
-seguintes, com estas mesmas convenções. Ao traduzir um livro novo, acrescentar aqui os nomes e termos dele (o livro II
-tem a sua seção no fim).
+A obra foi feita por livros (pedido do Gere: «em partes»), do I ao IX, e está completa; cada livro tem a sua seção de
+nomes e termos no fim (a do livro I são as seções gerais).
 
 ## Princípio e tom
 
@@ -356,3 +355,50 @@ estão nas notas de cada parte.
   δρησμός → fuga; τριηκόντερος → triacôntera (como em 7.97); τριήραρχος → trierarca; Μακεδνὸν ἔθνος (43.1) →
   «macedno», a forma do livro I (1.56.3); μάχαιρα → punhal (livro VII), mas «faca» em 137.5 (a do menino, que não é
   arma); τὸ Ἑλληνικόν (144.2) → **o ser grego** (ver nas notas).
+
+## Livro IX (Calíope): nomes e termos
+
+O livro de Plateia e de Mícale: Mardônio de novo em Atenas, os atenienses em Esparta, a marcha dos lacedemônios, o
+banquete de Tebas, a morte de Masístio, os adivinhos, o conselho de Mardônio, a troca das alas, a retirada dos gregos e
+Amonfáreto, a batalha de Plateia e a morte de Mardônio, os despojos, o cerco de Tebas, a batalha de Mícale, Xerxes e a
+mulher de Masistes, o cerco de Sesto e Artaíctes, e o conselho de Ciro, que fecha a obra. O título: `Ι · ΚΑΛΛΙΟΠΗ` →
+`LIVRO IX · CALÍOPE`. Os nomes e termos dos livros VII e VIII valem aqui. Lista acertada pelos nomes da tradução, na
+revisão (`traducao/notas-livro9-1-5.md`, «Revisão aplicada»); os que só aparecem uma vez ficam nas notas de cada parte.
+
+- **Gregos**: Pausânias, filho de Cleômbroto (tutor de Plistarco, filho de Leônidas); Eurianax, filho de Dorieu;
+  Aristides, filho de Lisímaco; Amonfáreto, filho de Políades (comandante do batalhão de Pitane); Aristodemo (o que
+  voltou das Termópilas); Posidônio, Filocíon, Calícrates (os espartanos que se distinguiram); Sófanes, filho de Eutíquides, de Decélia;
+  Aimnesto (o espartano que matou Mardônio, 64.2); Arimnesto, o plateense (72.2); Lâmpon, filho de Píteas (Egina);
+  Tisâmeno, filho de Antíoco (o adivinho eleu, dos iâmidas); Hegesístrato, filho de Télias (o adivinho eleu de
+  Mardônio), e o outro Hegesístrato, filho de Aristágoras (o sâmio, 90.1); Evênio de Apolônia e o seu filho Deífono;
+  Leotíquides, filho de Menares; Xantipo, filho de Arífron; Tersandro de Orcômeno; Timagênides, filho de Hérpis, e
+  Atagino, filho de Frínon (os tebanos); Quileu de Tegea; Lícides (o conselheiro apedrejado, 5.1); Muríquides (o helespontino); Hegetórides de Cós (o pai da
+  mulher de Cós, 76); Harmocides (o general dos fócios, 17.4); Atenágoras, filho de Arquestrátides, e Lâmpon,
+  filho de Trasicles (os mensageiros sâmios, 90.1); Olimpiodoro, filho de Lâmpon (21.3); Tórax de Larissa. Patronímico e nome em -ίδης → **-ides** (Leotíquides, Anaxândrides, Timagênides);
+  -ίδαι dos clãs → -idas (Heraclidas, Tindáridas).
+- **Persas**: Mardônio, filho de Gobrias; Artabazo, filho de Farnaces; Masístio (o comandante da cavalaria; «Macístio»
+  para os gregos, 20); Masistes, filho de Dario (o irmão de Xerxes); Artaíntes e Itamitres (os comandantes da frota);
+  Tigranes; Amêstris (a mulher de Xerxes; a forma do livro VII, 7.61.2 e 7.114.2); Artaínte
+  (a filha de Masistes); Dario, filho de Xerxes; Artaíctes (Sesto); Eobazo; Artembares (o do conselho de Ciro, 122); Ciro; Farandates, filho de Teáspis; Artontes, filho de Mardônio;
+  Mardontes.
+- **Lugares**: Plateia e os plateenses, o Citéron, o Asopo, a fonte Gargáfia, a Ilha (ἡ Νῆσος, entre os braços da
+  Oeroe), **a Oeroe** (no feminino: o grego a faz filha do Asopo, 51.3–4), o Moloente, Eritras, Hísias, o santuário
+  de Deméter Eleusínia, o recinto sagrado do herói Andrócrates, o templo de Hera (Ἥραιον), o Argiópio,
+  Decélia, Tânagra, Escolo, Tebas, Mégara, Pitane; Mícale, o santuário das Deusas (97), o Gesão e o Escolopoente; Sesto,
+  Cárdia, Ábido, Eleunte e o recinto sagrado de Protesilau, Egospótamos, o Lecto, Madito.
+- **Povos**: lacedemônios, espartanos, periecos, hilotas; tegeatas, mantineus, eleus, plateenses, megarenses,
+  fliásios, epidáurios, **os de Trezena** (a forma do livro VIII; não «trezênios»), tebanos, fócios, sâmios, milésios.
+- **Termos**: μηδίζειν → **tomar o partido dos medos** (livros VII e VIII); ἀριστήια → **prêmio do valor**; ἄριστος,
+  ἀριστεῦσαι → **o mais valente**, **distinguir-se** (71–75); λόχος → **batalhão**; λοχαγός → comandante de batalhão;
+  τάξις → posição, fileira; κέρας → **ala** (a direita, a esquerda); τὸ τεῖχος (o dos persas, 65–70) → **o muro** (a
+  paliçada de madeira do acampamento, 15.2); γέρρα → **escudos de vime**; σφάγια → **vítimas** (as dos sacrifícios
+  antes da batalha); καλλιερέειν → **ter sinais favoráveis** (nos sacrifícios); σκηνή → **tenda**; ληίη → **despojo**;
+  ὁ Ἰσθμός → **o istmo**, em minúscula (livros VII e VIII); Ὑακίνθια → a festa das **Jacintias**; μάντις → **adivinho**;
+  τὸ κηρυκήιον (100.1) → o **caduceu**; ἀνασταυροῦν → **pendurar numa cruz** (homem vivo) /
+  **espetar numa estaca** (uma cabeça: a de Leônidas, 78.3, como em 7.238.1); ἀνασκολοπίζειν (78.3, o corpo de Mardônio) → «pendurar numa estaca»; ἀνακρεμαννύναι (120.4) → «pendurar».
+  τέμενος → **recinto sagrado** (25.3, 65.2, 101.1, 116); ἱρόν → **santuário**; νηός → **templo**. ὀπέωνες (50.1, 51.4) →
+  **ajudantes** (διήκονοι, 82.2, são «servidores», outra palavra). κληδών e οἰωνός (91–92, 101.3) → **presságio**;
+  φήμη (100–101) → «uma voz». ὄνειδος (71.2, e 7.231) → **vergonha** (nada de «opróbrio»); κρητῆρες → crateras (como
+  nos livros I e III); ἀγών → **luta** (33–35, 60.1, 89.2); ψιλοί → armados à ligeira;
+  τέλεα → «esquadrões» (da cavalaria, 20–23), «divisões» (42.1, 59.2); _irenes_ (85.1, o texto de Godley); τάριχος
+  (120.2) → «salgado», como os peixes de 120.1. Números de miríades por extenso, como nos livros VII e VIII.

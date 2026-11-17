@@ -257,6 +257,29 @@ mensagem de Mardônio e o discurso de Alexandre) têm a numeração de Hude, que
 oráculo de Bácis sobre a Eubeia (20.2), o de Bácis sobre Salamina (77.1–2) e o de Lisístrato (96.2). Título:
 «Θ · ΟΥΡΑΝΙΗ».
 
+## Livro IX (2026-11-17)
+
+Mesma base do livro VIII (vol. IV de Godley, 1924) e mesmo método: páginas gregas do livro IX = p. 182–324 do PDF
+(pares; o título «BOOK IX» na p. 181, o texto acaba na p. 324), lidas pelo Tesseract (OCR em `ocr9/`, páginas em
+`pag9/`, roteiro `scripts/ocr1924-l9.sh`); segunda leitura no OCR de `in.ernet.dli.2015.69772`, de «BOOK IX» até o
+índice.
+
+A colação deu 43 pontos de letras (quase todos ζ lido como ξ e Ξ como Ἐ), 376 de acentos (31 aceitos pela regra, 39 a
+ver), 80 fracos e 8 buracos; 40 pontos vistos nas imagens. Um «aceito pela regra» o fac-símile desmentiu (33.2 ἓν).
+
+Correções ao Perseus (o fac-símile tem a forma da direita): 26.5 προσκρίθη → προεκρίθη; 59.2 ἕκαστος → ἕκαστοι;
+114.2 Πελοποννησίοις → Πελοποννησίοισι; 81.2 «Παυσανίη· δὲ» → «Παυσανίῃ δὲ» (o Perseus tem um ponto alto a mais);
+cinco lugares onde o Perseus perdeu palavras: 33.1 «τῇ δευτέρῃ ἡμέρῃ», 41.4 «ἐᾶν χαίρειν», 46.3 «ὑμέας μὲν», 120.4
+«ἐς τὴν ἀκτὴν ἐς τὴν Ξέρξης ἔζευξε», 122.1 «τούτου δὲ τοῦ Ἀρταΰκτεω». Acentos: 26.6 «ἀξιονικότεροι εἰμὲν» (Godley
+acentua εἰμὲν aqui e em 27.5–6, 46.2–3; em 21.2 imprime «δυνατοί εἰμεν», que o `graves.py`, sem εἰμεν entre as
+enclíticas, trocaria: `DEPOIS9`), 37.3 Τεγέῃ, 81.2 ὅσα, 90.2 ἄρα, 94.2 ἤδεε (sem iota subscrito, como ἤδεσαν no livro
+VII), 119.1 Οἰόβαζον (como em 115.1), e os 30 aceitos pela regra (`ferramentas/acentos-aceitos-l9.tsv`). Ficaram como
+no Perseus, conferidos: 13.1 ἤκουσε, 16.1 λογιμωτάτους e λογίμου, 26.3 ἱζόμεθα, 43.2 ἰυγήν, 74.1 ἁλύσι, 85.1 ἰρένας,
+93.2 σιγῇ, 120.2 ὅτι, 13.3 ἱππασίμη, 25.1 ὤσαντο e εἵνεκα, 31.5 ηὖξον, 80.1 εἵλωτας, 81.2 τἆλλα.
+
+Os capítulos 7α–7β (a resposta dos atenienses aos lacedemônios) têm a numeração de Hude, que o Perseus escreve 7A–7B.
+Colchetes de Godley: 33.1 (o nome Κλυτιάδην); sem lacunas. Versos: o oráculo de Bácis sobre o Termodonte e o Asopo (43.2). Título: «Ι · ΚΑΛΛΙΟΠΗ».
+
 ## Numeração e divisão
 
 Capítulos e seções (`[5.2]`) são os do Perseus, os usuais (livro I: 216 capítulos); o proêmio é `[1.0]`. Os grupos

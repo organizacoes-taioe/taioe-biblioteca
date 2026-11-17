@@ -87,3 +87,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 174.1: «levavam-no a um oráculo, ao que cada um tinha» é truncado e obscuro (no grego, ao oráculo que havia onde cada um morava) → «levavam-no ao oráculo que houvesse na terra de cada um».

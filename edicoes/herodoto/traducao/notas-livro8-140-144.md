@@ -62,3 +62,10 @@
   definido pelo sangue, pela língua, pelos santuários, pelos sacrifícios e pelos costumes). Alternativa: «a nação
   grega» (ou «o povo grego»), que se lê melhor com «que é do mesmo sangue e da mesma língua», mas dá ao grego uma
   palavra política que ele não tem.
+
+## Revisão contra o grego
+- 140α.1–2 (a pedido): o fechamento das aspas simples da mensagem do rei depois de «todos os que eu queimei» é justificado. O grego do Perseus fecha as aspas logo depois de μετίημι, mas o que segue é todo dito ao próprio Mardônio (vocativo Μαρδόνιε; imperativos ποίεε, ἀπόδος, ἀνόρθωσον; primeira pessoa «eu queimei» = o rei); só «τούτων δὲ ἀπιγμένων… ἀναγκαίως ἔχει μοι ποιέειν» (μοι = Mardônio) e «λέγω δὲ ὑμῖν» são do general. O inglês de Godley fecha no mesmo lugar que a tradução (depois de «Rebuild all their temples… with me»), com «(says Mardonius)» no que vem a seguir. Sem correção.
+- 142.3: «que os atenienses, culpados de tudo isso, se tornem também culpados da escravidão dos gregos» traduz mal ἄλλως τε τούτων ἁπάντων αἰτίους γενέσθαι δουλοσύνης: «de tudo isso» não está no sentido (a frase é «além disso, é intolerável que justamente os atenienses se tornem causa de escravidão para os gregos») → «e, de resto, que os atenienses, logo eles, se tornem causa da escravidão dos gregos não se pode suportar de modo nenhum».
+- 142.2: «a luta, no começo, foi pela vossa terra» (περὶ τῆς ὑμετέρης ἀρχῆθεν): aceitável; o grego diz «a luta começou por vossa causa».
+- 144.1: «parece que tivestes um medo vergonhoso» (αἰσχρῶς… ἀρρωδῆσαι, com οἴκατε): correto, mas «vergonhoso» lê-se como sentimento dos atenienses → «tivestes medo, o que é uma vergonha para quem conhece o pensamento dos atenienses».
+- Conferidos: 140α–β inteiros, a fala dos espartanos (142), a resposta a Alexandre (143) e aos espartanos (144): sem número errado, sem negação trocada (ἔστ’ ἂν ὁ ἥλιος… μήκοτε ὁμολογήσειν = «enquanto o sol… nunca faremos acordo»). Forma «o ser grego» (144.2): como em CONVENCOES.md.

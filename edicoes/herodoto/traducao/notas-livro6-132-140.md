@@ -77,3 +77,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 136.1: «por um crime de morte» pode ser lido como homicídio; o grego diz que o processou com pena de morte em jogo (θανάτου ὑπαγαγών) → «levou-o diante do povo para ser julgado com pena de morte».
+- 134.1 e 135.2 (palavra rara): «subsacerdotisa» (ὑποζάκορος) é palavra rara; o Gere não quer palavra rara → «auxiliar das sacerdotisas» ou «sacristã», com a escolha anotada.
+- Resto do lote: sem omissão, acréscimo, número ou negação trocados; números (setenta navios, cem talentos, vinte e seis dias, cinquenta talentos) conferem.

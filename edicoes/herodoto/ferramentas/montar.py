@@ -1,15 +1,17 @@
 """Monta edicoes/herodoto/original/ a partir do Perseus (Godley 1920), com as correções do fac-símile.
-Uso: montar.py <pasta-trabalho> <pasta-obra>
-Ordem: extrair.py (l1.json) → graves.py (regras dos acentos) → colacao.py → acentos.py → este script, que aplica
-CORR (letras, conferidas nas imagens), os acentos aceitos (acentos-aceitos.tsv, copiado em ferramentas/) e ACENTOS
-(os conferidos à mão)."""
+Uso: montar.py <pasta-trabalho> <pasta-obra> [livro=1]
+Ordem: extrair.py (l<n>.json) → graves.py (regras dos acentos) → colacao.py → acentos.py → este script, que aplica
+CORR (letras, conferidas nas imagens), os acentos aceitos (acentos-aceitos.tsv no livro I, acentos-aceitos-l<n>.tsv
+nos outros, copiados em ferramentas/) e ACENTOS (os conferidos à mão). Cada livro tem o seu bloco em LIVROS.
+Os capítulos 121A–121F do Perseus (livro II, a história de Rampsinito) saem como 121α–121ζ, a numeração de Hude."""
 import json, os, re, sys, unicodedata as u
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from graves import corrigir
 B, OBRA = sys.argv[1:3]
+LIVRO = int(sys.argv[3]) if len(sys.argv) > 3 else 1
 AQUI = os.path.dirname(os.path.abspath(__file__))
 # letras: (seção, antes, depois), conferidas no fac-símile de 1921 (pranchas da colação)
-CORR = [
+CORR1 = [
     ('32.7', 'ἔτι τελευτήσῃ', 'ἔτι τελευτήσει'), ('46.2', 'μαντείων', 'μαντηίων'), ('50.2', 'ἐπὶ μὰν', 'ἐπὶ μὲν'),
     ('55.1', 'μαντείου', 'μαντηίου'), ('60.5', 'Ἀηθναίη', 'Ἀθηναίη'), ('63.1', 'τρέπουσι', 'τράπουσι'),
     ('68.5', 'Λακεδαιμονίοσσι', 'Λακεδαιμονίοισι'), ('74.2', 'τῇ ἡμέρης', 'τῆς ἡμέρης'),
@@ -25,7 +27,7 @@ CORR = [
     ('166.1', 'ἑξήκόντα', 'ἑξήκοντα'), ('171.6', 'ἀποδείκνῦσι', 'ἀποδεικνῦσι'), ('173.3', 'καὶ νυν ἔτι', 'καὶ νῦν ἔτι'), ('42.2', 'χρηστοῖσἰ', 'χρηστοῖσι'),
 ]
 # acentos e espíritos conferidos à mão (seção, forma do Perseus depois de graves.py, forma de Godley)
-ACENTOS = [
+ACENTOS1 = [
     ('5.2', 'νέος', 'νεός'), ('7.4', 'γενεᾶς', 'γενεὰς'), ('10.2', 'νοῶ', 'νόῳ'), ('11.3', 'σε', 'σὲ'),
     ('19.1', 'ἅφθη', 'ἄφθη'), ('22.2', 'εἶπας', 'εἴπας'), ('86.5', 'εἶπας', 'εἴπας'), ('122.1', 'εἶπας', 'εἴπας'),
     ('128.2', 'εἶπας', 'εἴπας'), ('27.4', 'ὓπερ', 'ὑπὲρ'), ('31.1', 'ὀλβία', 'ὄλβια'), ('42.1', 'ἶσχον', 'ἴσχον'),
@@ -40,21 +42,54 @@ ACENTOS = [
     ('187.1', 'ὕπερ', 'ὑπὲρ'), ('187.4', 'ὕπερ', 'ὑπὲρ'), ('188.1', 'προβάτοῖσι', 'προβάτοισι'), ('192.3', 'μυρίαι', 'μύριαι'),
     ('202.2', 'δίαιτᾳ', 'δίαιτα'), ('210.2', 'ἐστί', 'ἔστι'),
 ]
-N_MANUAIS = len(ACENTOS); CTX = {}
-for l in open(os.path.join(AQUI, 'acentos-aceitos.tsv'), encoding='utf-8'):
-    if not l.strip(): continue
-    r = l.rstrip('\n').split('\t')
-    novo = ('χώρη' if r[2] == 'χώρη' else 'χώρῃ') if r[1] == 'χωρῇ' else r[2].replace('᾽', 'ʼ').replace('’', 'ʼ')
-    if novo[:1] != r[1][:1] and novo[:1].lower() == r[1][:1]: novo = novo[0].lower() + novo[1:]
-    if novo == 'ἢ' and r[1] == 'ἡ': novo = 'ἣ'
-    ACENTOS.append((r[0], r[1], novo)); CTX[len(ACENTOS) - 1] = r[4]
-PARTES = [((1, 5), 'Proêmio: os raptos'), ((6, 14), 'Candaules e Giges'), ((15, 25), 'Os reis da Lídia e Árion'),
+PARTES1 = [((1, 5), 'Proêmio: os raptos'), ((6, 14), 'Candaules e Giges'), ((15, 25), 'Os reis da Lídia e Árion'),
           ((26, 45), 'Creso, Sólon e Átis'), ((46, 58), 'Creso consulta os oráculos'), ((59, 70), 'Atenas e Esparta'),
           ((71, 84), 'A guerra com Ciro e a tomada de Sardes'), ((85, 94), 'Creso na fogueira; os lídios'),
           ((95, 106), 'Os medos'), ((107, 122), 'O nascimento de Ciro'), ((123, 130), 'Ciro contra Astíages'),
           ((131, 140), 'Os costumes dos persas'), ((141, 161), 'Os jônios e Pactias'),
           ((162, 176), 'Hárpago na Jônia, na Cária e na Lícia'), ((177, 187), 'Babilônia e as suas rainhas'),
           ((188, 200), 'Ciro toma Babilônia; os costumes dos babilônios'), ((201, 216), 'Tômiris e a morte de Ciro')]
+# livro II (Euterpe)
+CORR2 = [
+    ('17.4', 'τρέπεται', 'τράπεται'), ('29.4', 'λίμνην μεγάλη', 'λίμνη μεγάλη'), ('45.3', 'εὐμένεια', 'εὐμενείη'),
+    ('47.1', 'παριὼν αὐτοῖσι', 'παριὼν ὑός, αὐτοῖσι'), ('47.2', 'δικαιοῦσι', 'δικαιεῦσι'),
+    ('67.1', 'ἀποφανόντες', 'ἀποθανόντες'), ('69.2', 'ταριχεύσαντες', 'ταριχεύοντες'), ('80.1', 'ἐκτρέπονται', 'ἐκτράπονται'),
+    ('92.5', 'τρέπουσι', 'τράπουσι'), ('93.1', 'ἐκπλέουσι', 'ἐκπλώουσι'), ('93.2', 'ἡγεμονία', 'ἡγεμονίη'),
+    ('96.4', 'ῥιπὶ', 'ῥίπεϊ'), ('113.3', 'τὸν στόματος', 'τὸν τοῦ στόματος'), ('116.3', 'ἀριστείῃ', 'ἀριστηίῃ'),
+    ('120.4', 'ἐπιτρέπειν', 'ἐπιτράπειν'), ('121F.1', 'διανέμοντα', 'διαπέμποντα'), ('158.3', 'ὑπώρεαν', 'ὑπωρέην'),
+    ('169.2', 'βασιληία', 'βασιλήια'),
+]
+ACENTOS2 = [
+    ('28.4', 'ἄβυσσοί', 'ἄβυσσοι'), ('28.4', 'εἰσι', 'εἰσὶ'), ('41.6', 'τἆλλα', 'τἄλλα'), ('59.3', 'Ἡλίω', 'Ἡλίῳ'),
+    ('61.1', 'προτερόν', 'πρότερόν'), ('149.4', 'ἔστἱ', 'ἔστι'), ('149.5', 'ὓδωρ', 'ὕδωρ'),
+]
+PARTES2 = [((1, 4), 'Psamético e os homens mais antigos'), ((5, 18), 'A terra do Egito'),
+           ((19, 27), 'As cheias do Nilo'), ((28, 34), 'As fontes do Nilo'), ((35, 41), 'Os costumes dos egípcios'),
+           ((42, 53), 'Héracles e os deuses dos gregos'), ((54, 64), 'Dodona e as festas dos egípcios'),
+           ((65, 76), 'Os animais sagrados'), ((77, 90), 'A vida dos egípcios e os embalsamamentos'),
+           ((91, 98), 'Perseu, os pântanos e o caminho do rio'), ((99, 110), 'Min, Nitócris, Méris e Sesóstris'),
+           ((111, 120), 'Feros, Proteu e Helena'), ((121, 123), 'Rampsinito e o ladrão'),
+           ((124, 136), 'Quéops, Quéfren e Miquerino'), ((137, 146), 'Sabacos, Setos e as gerações dos reis'),
+           ((147, 157), 'Os doze reis e Psamético'), ((158, 171), 'Neco, Psâmis e Apríes'), ((172, 182), 'Amásis')]
+LIVROS = {1: dict(corr=CORR1, acentos=ACENTOS1, partes=PARTES1, aceitos='acentos-aceitos.tsv', letra='Α',
+                  romano='I', titulo='Α · ΚΛΕΙΩ', ncaps=216),
+          2: dict(corr=CORR2, acentos=ACENTOS2, partes=PARTES2, aceitos='acentos-aceitos-l2.tsv', letra='Β',
+                  romano='II', titulo='Β · ΕΥΤΕΡΠΗ', ncaps=182)}
+L = LIVROS[LIVRO]
+CORR, ACENTOS, PARTES = L['corr'], list(L['acentos']), L['partes']
+SUB = dict(zip('ABCDEF', 'αβγδεζ'))
+def cap_marca(c):
+    return c[:-1] + SUB[c[-1]] if c[-1] in SUB else c
+def cap_num(c):
+    return int(re.match(r'\d+', c).group())
+N_MANUAIS = len(ACENTOS); CTX = {}
+for l in open(os.path.join(AQUI, L['aceitos']), encoding='utf-8'):
+    if not l.strip(): continue
+    r = l.rstrip('\n').split('\t')
+    novo = ('χώρη' if r[2] == 'χώρη' else 'χώρῃ') if r[1] == 'χωρῇ' else r[2].replace('᾽', 'ʼ').replace('’', 'ʼ')
+    if novo[:1] != r[1][:1] and novo[:1].lower() == r[1][:1]: novo = novo[0].lower() + novo[1:]
+    if novo == 'ἢ' and r[1] == 'ἡ': novo = 'ἣ'
+    ACENTOS.append((r[0], r[1], novo)); CTX[len(ACENTOS) - 1] = r[4]
 PAL = re.compile(r'[\ẁ-ͯʼ]+')
 def _n(w):
     return ''.join(c for c in u.normalize('NFD', w.lower()) if not u.combining(c)).replace('ʼ', '').replace('’', '')
@@ -73,7 +108,7 @@ def troca_palavra(t, a, b, ctx=None):
 def capitular(t):
     i = next(k for k, c in enumerate(t) if c.isalpha())
     return t[:i] + t[i].upper() + t[i + 1:]
-d = json.load(open(os.path.join(B, 'l1.json'), encoding='utf-8'))
+d = json.load(open(os.path.join(B, f'l{LIVRO}.json'), encoding='utf-8'))
 usadas, ac_usados, ngr, ndu = set(), set(), 0, 0
 caps = {}
 for c, secs in d['caps']:
@@ -102,7 +137,7 @@ for c, secs in d['caps']:
         t = re.sub(r'\s*⟦l⟧\s*', '\n| ', t); t = re.sub(r'\s*⟦/l⟧\s*', '\n', t)
         t = re.sub(r' +([.,·;])', r'\1', t); t = re.sub(r'  +', ' ', t)
         if '⟦' in t: sys.exit(f'sobrou marca: {ref}')
-        texto = f'[{c}.{s}] '
+        texto = f'[{cap_marca(c)}.{s}] '
         for p in t.split('\n'):
             p = p.strip()
             if not p: continue
@@ -118,18 +153,22 @@ for c, secs in d['caps']:
             cur += (' ' if cur else '') + texto.strip()
     if cur.strip(): blocos.append(cur.strip())
     # maiúscula no começo do capítulo, como em Godley
-    m = re.match(r'(\[\d+\.\d+\] )(.*)$', blocos[0], re.S)
+    m = re.match(r'(\[\d+[α-ζ]?\.\d+\] )(.*)$', blocos[0], re.S)
     blocos[0] = m.group(1) + capitular(m.group(2))
-    caps[int(c)] = blocos
+    caps[c] = blocos
 falta = [CORR[k] for k in range(len(CORR)) if k not in usadas] + [ACENTOS[k] for k in range(len(ACENTOS)) if k not in ac_usados]
 if falta: sys.exit(f'não aplicadas: {falta}')
 os.makedirs(os.path.join(OBRA, 'original'), exist_ok=True)
+n1 = 'Α' if LIVRO == 1 else L['letra']
+exemplo = '«[1.1]»'
 for k, ((a, b), tit) in enumerate(PARTES):
-    cab = [f'# titulo: Ἡροδότου Ἱστορίαι Α, {a}–{b}',
+    cab = [f'# titulo: Ἡροδότου Ἱστορίαι {L["letra"]}, {a}–{b}',
            '# fonte: Perseus Digital Library, tlg0016.tlg001.perseus-grc2 (CC BY-SA 4.0), https://github.com/PerseusDL/canonical-greekLit',
            '# edicao: A. D. Godley, Herodotus, vol. I (Loeb, Londres e Nova York, 1920); conferido com o fac-símile da impressão de 1921 (Internet Archive herodotud0000adgo); ver LEIAME.md',
-           '# marcas: «[1.1]» = capítulo.seção do livro I, a numeração usual; um parágrafo por capítulo', '']
-    corpo = ['Α · ΚΛΕΙΩ'] if k == 0 else []
-    for c in range(a, b + 1): corpo += caps[c]
-    open(os.path.join(OBRA, 'original', f'livro1-{a}-{b}.txt'), 'w', encoding='utf-8').write('\n'.join(cab) + '\n' + '\n\n'.join(corpo) + '\n')
+           f'# marcas: {exemplo} = capítulo.seção do livro {L["romano"]}, a numeração usual; um parágrafo por capítulo'
+           + ('; 121α–121ζ: a história de Rampsinito, como em Hude' if LIVRO == 2 and a <= 121 <= b else ''), '']
+    corpo = [L['titulo']] if k == 0 else []
+    for c in caps:
+        if a <= cap_num(c) <= b: corpo += caps[c]
+    open(os.path.join(OBRA, 'original', f'livro{LIVRO}-{a}-{b}.txt'), 'w', encoding='utf-8').write('\n'.join(cab) + '\n' + '\n\n'.join(corpo) + '\n')
 print('graves', ngr, 'acentos duplos', ndu, 'letras', len(usadas), 'acentos', len(ac_usados))

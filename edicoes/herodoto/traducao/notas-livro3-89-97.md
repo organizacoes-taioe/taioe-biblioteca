@@ -63,3 +63,8 @@
 ## Dúvida
 - Μᾶρες (94.2) → «mares»: é a forma portuguesa direta, mas no meio da lista pode ser lida como «mares» do oceano.
   Alternativa sem forma usual: «maros». Deixei «mares»; quem uniformiza decide.
+
+## Revisão contra o grego
+- 97.3: «duas quénices de ouro» (χοίνικας) é palavra rara, e a medida não é explicada → «dois litros e pouco» não vale (a quênix tem cerca de 1 litro): usar «duas medidas (quênices)» na primeira vez ou «dois litros de ouro não refinado», conforme decisão do Gere.
+- 91.3: «chegavam setecentos talentos; pois medem cento e vinte mil medidas de trigo» → o trigo é a parte «dada a mais» e a oração com «pois» fica solta; sugestão: «…sem contar essa prata e o trigo dado a mais, chegavam setecentos talentos (o trigo: cento e vinte mil medidas, que se medem para os persas…)». Números conferidos, todos corretos.
+- Conferidos sem erro: todos os talentos dos 20 distritos (400, 500, 360, 500/140/360, 350, 700, 170, 300, 1000+500 meninos, 450, 200, 360, 400, 600, 250, 300, 400, 200, 300, 360), as 78 minas, o total 9.880 + 4.680 = 14.560, as 360 presas/cavalos etc.

@@ -42,3 +42,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 109.1: «do modo como a sua natureza comporta» (ὡς ἡ φύσις αὐτοῖσι ὑπάρχει) soa truncado → «do modo que a sua natureza lhes dá» (ou «como é natural nelas»).
+- Sentido, números (côvados, três, cinco gargantas), negações e nomes conferidos: nenhuma outra correção necessária.

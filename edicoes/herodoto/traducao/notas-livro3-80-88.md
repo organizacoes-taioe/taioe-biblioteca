@@ -54,3 +54,8 @@
 - ὕβρις no debate (80.2–81.2, sete vezes): adotei «insolência» (a palavra que os livros I e II já usam, e a que cabe
   também no «povo desenfreado» de Megabizo). Alternativa: «desmedida» (o sentido grego de passar do limite, que pesa
   em «saciado de insolência», 80.4, mas soa mais rebuscado na fala). Recomendação: «insolência».
+
+## Revisão contra o grego
+- 80.4: «o melhor de todos para dar ouvidos a calúnias» (ἄριστος ἐνδέκεσθαι) pode ser lido como elogio → «o mais pronto de todos a dar ouvidos a calúnias».
+- 80.4: «inveja os melhores enquanto estão aí e vivem» (περιεοῦσί τε καὶ ζώουσι) → «inveja os melhores, que sobrevivem e vivem».
+- 80.3: «a monarquia, a quem é permitido» (concordância com coisa) → «a monarquia, à qual é permitido».

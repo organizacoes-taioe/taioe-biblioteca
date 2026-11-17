@@ -43,3 +43,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 102.3: «depois de separá-la das crias, o mais novas possível» é truncado e ambíguo → «depois de separá-la de crias o mais novas possível» (ou «de crias recém-nascidas, quanto possível»).
+- 102.1: «do lado da Ursa e do vento norte» (ἄρκτου) é obscuro para o leitor → «ao norte, do lado do vento norte».
+- 99.1: «mas eles não lhe dão ouvidos» (οὐ συγγινωσκόμενοι, «não concordando») aceitável; sem correção.
+- Sentido, números e negações do restante conferidos: nenhuma outra correção necessária.

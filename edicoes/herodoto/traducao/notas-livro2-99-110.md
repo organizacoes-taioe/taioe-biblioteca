@@ -63,3 +63,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 100.2: «tinha o mesmo nome da babilônia» lê-se como se fosse a cidade (minúscula, sem substantivo); o grego diz «da mulher babilônica» → «tinha o mesmo nome da rainha da Babilônia, Nitócris».

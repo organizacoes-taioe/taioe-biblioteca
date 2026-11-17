@@ -36,3 +36,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 2.1: «ele, que tinha prometido submeter a Sardenha»: depois de «o rei Dario» o «ele» parece ser Dario; o grego (hos) é Histieu → «Histieu, que tinha prometido submeter a Sardenha, a maior das ilhas, tomava para si…»
+- 9.2: «chamaram os desses homens que estavam ali» está truncado (synkalesantes) → «chamaram os que, desses homens, estavam presentes e lhes disseram o seguinte»
+- 9.3: «as casas» para ta idia (os bens particulares, por oposição aos santuários) é estreito → «nem os santuários nem os bens particulares» (ou «as propriedades»)

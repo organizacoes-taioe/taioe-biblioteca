@@ -39,3 +39,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária (conferidos: duas roupas/uma roupa, banhos duas vezes por dia e por noite, nove esquenos, a lacuna em 40.1 mantida com «…»).

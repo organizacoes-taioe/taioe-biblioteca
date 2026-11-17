@@ -24,3 +24,12 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 202.2: «não tinham culpa na morte» deixa sem dizer de quem → «não tinham culpa na morte de Arcesilau».
+- 203.2: «pois tinham sido mandados só contra Barca, entre as cidades gregas» soa estranho; o grego diz que foram enviados contra uma só cidade grega, Barca → «pois tinham sido mandados só contra Barca, uma única cidade grega».
+- Números conferem (nove meses de cerco, 200.2; sessenta estádios, 203.3).
+- Nomes entre as partes do livro IV (conferidos em todas as 22 partes, não só nesta): sem divergência de forma nos nomes próprios principais (Ariandes, Histieu, Milcíades, Escópasis, Idantirso, Taxacis, Targitau, Colaxais, Gobrias, Badres, Amásis, Feretima, Hileia, Meótis, Tánais, Tritão/Tritônis, Cínipe, Euespérides, Taigeto, Lacedemônia). Três pontos a decidir:
+  - «tisságetas» (13–27 e 118–125) × «tirsagetas» no CONVENCOES.md: as partes concordam entre si; ajustar o CONVENCOES (ou as duas partes), não uma só.
+  - «quatro Batos e quatro Arcesilaus» (163.3) usa o plural «Arcesilaus», enquanto o resto do livro diz «Arcesilau» → «quatro Arcesilaus» é aceitável, mas, se se quiser uniformidade, «quatro Batos e quatro Arcesilaus» pode ficar «quatro Batos e quatro Arcesilaus (Arcesilau)» ou manter como está; não é erro.
+  - «Megabizo» (37–45, Μεγάβυζος, filho de Zópiro) × «Megabazo» (143–144, Μεγάβαζος): são duas pessoas diferentes, e a forma está certa; só vale lembrar no CONVENCOES, para ninguém uniformizar por engano.

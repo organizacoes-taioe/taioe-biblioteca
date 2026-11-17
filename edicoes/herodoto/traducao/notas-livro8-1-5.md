@@ -33,3 +33,22 @@
 
 ## Revisão contra o grego
 - Nenhuma correção necessária (números conferidos: 127+40+20+20+18+12+10+8+7+5+2+2 = 271 navios, como em 2.1).
+
+## Revisão aplicada (livro VIII inteiro)
+
+Os achados da revisão contra o grego (fim de cada `notas-livro8-*.md`), julgados pelo grego.
+
+### 1–55
+- Aplicado 6.2: δῆθεν é o que os persas pensavam → «e eles iam escapar, assim pensavam os bárbaros; mas era preciso, na conta deles, …».
+- Aplicado 11.2: «irmão de Gorgo, rei da Salamina de Chipre» (o rei do livro V; sem isso, o leitor do livro VIII pensa na Salamina da Ática).
+- Aplicado 20.2: «o uso que lhes coube foi o da desgraça, e da maior» (fica o jogo com «fazer uso» dos versos).
+- Aplicado 21.1: «a quem cabia, e que para isso tinha um barco a remo pronto, avisar os que estavam nas Termópilas».
+- Aplicado 21.1 (uniformização): τριηκόντερος → «triacôntera», como em 7.97.
+- Aplicado 23.1: χῶραι → «todos os lugares do litoral», não «aldeias».
+- Aplicado 29.2: «enquanto aquela causa nos agradava» («partido» lia-se como facção).
+- Aplicado 33.1: só «violaram algumas mulheres, tantos eram eles» (o grego não diz que morreram).
+- Sem mudança 8.1: «Cílias de Escione» já está certo (Escione, 7.123.1); corrigida a lista do CONVENCOES.
+- Sem mudança 39.1: Fílaco e Autônoo, as formas da tradução (também em 84–89); corrigida a lista.
+- Recusado 43.1 «macedno»: é a forma do livro I (1.56.3, «macednos»), com a explicação nas notas desta parte.
+- Sem mudança 42.1 Pógon e 50.2 Téspias: já estão nas notas (Téspias, como no livro V).
+- Sem mudança 52.2: o revisor mesmo não pede mudança.

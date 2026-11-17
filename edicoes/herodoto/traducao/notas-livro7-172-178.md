@@ -47,3 +47,8 @@
 ## Candidatos a decisão do Gere
 - 176.3, τὰ Χύτρους καλέουσι οἱ ἐπιχώριοι: adotei «que os da terra chamam os Caldeirões» (o nome traduzido, como se faz
   com nome grego de sentido claro). Alternativa: deixar a palavra grega, «os _Chytroi_», com a perda do sentido.
+
+## Revisão contra o grego
+- 173.1: «chegando a Halo, na Acaia» pode ser lido como a Acaia do Peloponeso; é a Acaia da Ftiótida (o CONVENCOES usa «os aqueus da Ftiótida») → «em Halo, na Acaia da Ftiótida».
+- 176.5: «e eles decidiram levantá-lo de novo» vem logo depois de «o muro antigo» e fica sem sujeito claro (são os gregos de 175) → «e os gregos decidiram levantá-lo de novo e afastar dali o bárbaro».
+- Resto da parte: números (dez mil hoplitas, meio pletro), nomes e negações conferem com o grego; sem outras correções.

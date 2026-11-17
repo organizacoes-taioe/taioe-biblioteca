@@ -53,3 +53,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 132.2: «quando as coisas estivessem bem resolvidas para eles» deixa ambíguo quem são «eles» (o dativo é dos gregos que juram, não dos que se entregaram) → «quando as coisas tivessem corrido bem para os gregos (aliados)».
+- 134.2: a proclamação («se algum dos lacedemônios queria morrer por Esparta») fica sem ligação com o sujeito «Espértias e Búlis… se ofereceram»; o leitor perde o fio → pôr um corte, «…morrer por Esparta, apresentaram-se de boa vontade Espértias… e Búlis…» ou «então».
+- 137.3: «Aristeas» (grafia grega) em português corrente seria «Aristeu»; conferir com a forma adotada nos outros livros (no VII só aparece aqui).
+- Resto da parte: sentido, nomes, genealogias e negações conferem com o grego.

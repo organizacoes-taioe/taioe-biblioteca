@@ -3,9 +3,8 @@
 Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (vale tudo de lá: nunca mesóclise, um bloco traduzido para cada bloco
 do original, as marcas `[c.s]` no mesmo lugar). Texto-fonte e correções: `original/LEIAME.md`. Traduz-se o grego
 de Godley (Loeb, 1920), que vai ao lado; a tradução inglesa de Godley serve só para conferir o sentido, nunca de base.
-A obra cresce por livros (pedido do Gere: «em partes»): os livros I a VI; os outros vêm em pedidos
-seguintes, com estas mesmas convenções. Ao traduzir um livro novo, acrescentar aqui os nomes e termos dele (o livro II
-tem a sua seção no fim).
+A obra foi feita por livros (pedido do Gere: «em partes»), do I ao IX, e está completa; cada livro tem a sua seção de
+nomes e termos no fim (a do livro I são as seções gerais).
 
 ## Princípio e tom
 

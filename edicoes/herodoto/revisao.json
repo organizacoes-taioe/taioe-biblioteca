@@ -1,6 +1,6 @@
 {
  "id": "herodoto-historias",
- "rotulo": "Histórias, livros I a VIII (Heródoto)",
+ "rotulo": "Histórias, livros I a IX (Heródoto)",
  "url": "/biblioteca/herodoto/historias/",
  "escolhas": [
   {
@@ -544,6 +544,68 @@
      "id": "b",
      "texto": "«para a Mãe e a Coré»",
      "nota": "O nome de culto, usual nos estudos, mas pede nota."
+    }
+   ]
+  },
+  {
+   "id": "l9-lutas",
+   "titulo": "O oráculo de Tisâmeno: «as cinco maiores lutas»?",
+   "ref": "IX 33.2–35.2",
+   "contexto": "A Pítia diz a Tisâmeno que ele vai ganhar «os cinco maiores ἀγῶνες». Ele entende competições atléticas, treina para o pentatlo e perde em Olímpia por uma só queda na luta; os espartanos entendem guerras, e ele os ajuda a vencer cinco batalhas. A palavra grega serve aos dois sentidos.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«as cinco maiores lutas», como está",
+     "nota": "«Luta» guarda o duplo sentido (o esporte e a batalha) e casa com a queda na luta do pentatlo.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«as cinco maiores disputas»",
+     "nota": "Mais neutro; serve aos jogos e, menos bem, às batalhas."
+    },
+    {
+     "id": "c",
+     "texto": "«os cinco maiores combates»",
+     "nota": "Puxa para a guerra; o engano de Tisâmeno fica menos claro."
+    }
+   ]
+  },
+  {
+   "id": "l9-irenes",
+   "titulo": "Os mortos espartanos de Plateia: os _irenes_ ou os sacerdotes?",
+   "ref": "IX 85.1–2",
+   "contexto": "Godley imprime ἰρένας, os _irenes_ (os jovens de uns vinte anos que acabavam a formação espartana), uma correção dos editores; os manuscritos trazem «sacerdotes». O grego que vai ao lado é o de Godley.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«os _irenes_», como está",
+     "nota": "Segue o texto de Godley, que está ao lado; sem explicação no texto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«os sacerdotes»",
+     "nota": "A lição dos manuscritos; o grego ao lado diria outra coisa."
+    }
+   ]
+  },
+  {
+   "id": "l9-salgado",
+   "titulo": "Protesilau «mesmo morto e salgado»?",
+   "ref": "IX 120.2",
+   "contexto": "Os peixes salgados que os guardas assam saltam no fogo, e Artaíctes diz que Protesilau, «mesmo morto e τάριχος», tem poder para castigá-lo. A palavra é a mesma dos peixes salgados (e também a do corpo embalsamado); Godley traduz «dead and dry».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«mesmo morto e salgado», como está",
+     "nota": "Repete a palavra dos peixes, que é o centro do prodígio.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«mesmo morto e seco»",
+     "nota": "A leitura de Godley; perde o eco dos peixes."
     }
    ]
   }

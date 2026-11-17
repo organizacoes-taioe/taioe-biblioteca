@@ -51,3 +51,7 @@
   arte» (τεχνάζειν como «usar de artifício», a leitura do texto de Godley, «trained in deceit»). A outra leitura, que
   o próprio Godley dá em nota, toma τεχνάζειν como «praticar a arte»: «ficou claro para Dario que ele sabia praticar
   a arte». Recomendo a adotada (a frase seguinte, com os chicotes, supõe que Dario viu o fingimento).
+
+## Revisão contra o grego
+- 130.5: «juntou para si uma grande quantidade de ouro» → o grego (συνελέχθη, passivo) não diz «para si»: «juntou-se uma grande quantidade de ouro».
+- Números (7 dias e noites, 15 persas, 1 talento, 100 minas, 2 talentos, 2 trirremes), nomes e negações conferidos: nenhuma outra correção necessária.

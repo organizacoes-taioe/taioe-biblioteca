@@ -113,3 +113,10 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 90.3: «estavam prontos a ir como reféns nos navios deles» — na frase anterior «deles» são os persas; aqui são os gregos (ἐκείνων), e o leitor se perde → «nos navios dos gregos». Também «se havia alguma suspeita de que os estivessem levando com engano» → «se suspeitavam que os estivessem levando com engano».
+- 90.1: «Arquestrátidas» (pai de Atenágoras) → o resto do livro usa -ides (Hegetórides, Timagênidas): «Arquestrátides».
+- 91.1: «para tirar disso um augúrio» — «augúrio» é rara, e o livro usa «presságio» logo depois → «para tirar disso um presságio».
+- 94.3: «passou a ter nele o dom de adivinhar» — frase pesada (ἔμφυτον: dom inato) → «passou a ter em si o dom de adivinhar».
+- Resto (90–98) conferido seção por seção: números (sessenta ovelhas, sessenta mil, dois lotes), nomes e negações corretos; sem omissão.

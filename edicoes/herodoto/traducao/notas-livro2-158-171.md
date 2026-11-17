@@ -87,3 +87,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum. (Os nomes dos distritos em 165–166 são escolha de forma, para quem uniformiza: ver acima.)
+
+## Revisão contra o grego
+Nenhuma correção necessária. (Só uma observação, não erro: 161.2 usa «Sidônia», decisão registrada nas notas, e 116.2–6 usa «Sídon» para a mesma Σιδών; se o Gere preferir uma forma só no livro, é questão de escolha dele.)

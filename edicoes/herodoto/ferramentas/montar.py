@@ -263,7 +263,7 @@ PARTES7 = [
     ((100, 105), 'A revista e a conversa com Demarato'),
     ((106, 120), 'A marcha pela Trácia'),
     ((121, 131), 'Pela Macedônia até a Tessália'),
-    ((132, 137), 'Os gregos que se deram aos medos; Espértias e Búlis'),
+    ((132, 137), 'Os gregos que tomaram o partido dos medos; Espértias e Búlis'),
     ((138, 144), 'Atenas e o muro de madeira'),
     ((145, 152), 'A aliança dos gregos e Argos'),
     ((153, 162), 'Gelão de Siracusa'),

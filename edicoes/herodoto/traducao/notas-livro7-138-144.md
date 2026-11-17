@@ -80,3 +80,6 @@ como no grego (a cidade, o povo como um só). Na 2ª resposta, o «tu» é Atena
 - 143.3: «nem sequer levantar as mãos contra eles» fica sem antecedente claro (os últimos nomeados são os adivinhos) → «contra os persas» (ou «contra o invasor»).
 - 143.1 e 142.3 (χρησμολόγοι): «adivinhos» é usado também para μάντις em outras partes; se houver uniformização, «intérpretes de oráculos» distingue os dois (o grego tem duas palavras).
 - Resto da parte: sentido, nomes, números (200 navios, 10 dracmas) e negações conferem com o grego; o verso 140.3 final já está em «Candidatos».
+
+## Decisão aplicada
+- 140.3, último verso: «e mergulhai a alma na dor» (a leitura de Godley e da maioria), com a escolha no `revisao.json` (`l7-oraculo-muralhas`).

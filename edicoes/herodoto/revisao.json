@@ -1,6 +1,6 @@
 {
  "id": "herodoto-historias",
- "rotulo": "Histórias, livros I a VI (Heródoto)",
+ "rotulo": "Histórias, livros I a VII (Heródoto)",
  "url": "/biblioteca/herodoto/historias/",
  "escolhas": [
   {
@@ -434,6 +434,73 @@
      "id": "b",
      "texto": "«Pouco importa a Hipoclides»",
      "nota": "Mais perto da construção grega («não há preocupação para Hipoclides»)."
+    }
+   ]
+  },
+  {
+   "id": "l7-oraculo-muralhas",
+   "titulo": "O fim do primeiro oráculo aos atenienses: «e mergulhai a alma na dor»?",
+   "ref": "VII 140.3",
+   "contexto": "A Pítia manda os enviados atenienses saírem do santuário com um verso que diz, ao pé da letra, «e espalhai o ânimo sobre os males». Os intérpretes divergem: a maioria (Godley entre eles) lê «afundai a alma na dor»; outros, «enchei de coragem o ânimo contra os males».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Saí do recinto sagrado e mergulhai a alma na dor», como está",
+     "nota": "A leitura de Godley e da maioria; combina com o oráculo, que só anuncia desgraça.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Saí do recinto sagrado e espalhai o ânimo sobre os males»",
+     "nota": "Literal, deixa as duas leituras em aberto, mas fica obscuro em português."
+    },
+    {
+     "id": "c",
+     "texto": "«Saí do recinto sagrado e armai de coragem o ânimo contra os males»",
+     "nota": "A outra leitura: um conselho de coragem."
+    }
+   ]
+  },
+  {
+   "id": "l7-poucos-homens",
+   "titulo": "Nas Termópilas, «havia muita gente, mas poucos homens»?",
+   "ref": "VII 210.2",
+   "contexto": "Depois do primeiro ataque dos medos, Heródoto diz que ficou claro a todos, e ao próprio rei, que eram muitos os ἄνθρωποι, mas poucos os ἄνδρες: o jogo entre a palavra para «ser humano» e a palavra para «homem» (o varão, o guerreiro).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«havia muita gente, mas poucos homens», como está",
+     "nota": "O jogo passa natural: «gente» × «homens».",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«eram muitos os seres humanos, mas poucos os homens»",
+     "nota": "Mais perto das duas palavras gregas, mais pesado."
+    },
+    {
+     "id": "c",
+     "texto": "«eram muitos homens, mas poucos guerreiros»",
+     "nota": "Explica o sentido, mas perde o jogo de palavras."
+    }
+   ]
+  },
+  {
+   "id": "l7-estrangeiro",
+   "titulo": "O epitáfio dos espartanos: «Estrangeiro, vai dizer aos lacedemônios…»?",
+   "ref": "VII 228.2",
+   "contexto": "O epitáfio de Simônides começa por ὦ ξεῖν’, o vocativo que no resto da obra traduzimos por «hóspede» (o estrangeiro que se recebe). Aqui é quem passa pelo túmulo.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Estrangeiro, vai dizer aos lacedemônios que aqui / jazemos, obedientes às palavras deles», como está",
+     "nota": "A forma tradicional do epitáfio em português; quem passa pelo túmulo é um estranho, não um hóspede.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Hóspede, vai dizer aos lacedemônios…»",
+     "nota": "A palavra que usamos para ξεῖνε no resto das Histórias."
     }
    ]
   }

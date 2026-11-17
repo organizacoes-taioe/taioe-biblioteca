@@ -41,3 +41,8 @@
 ## Candidatos a decisão do Gere
 - 50.3, o trocadilho de Crio: «carneiro» no vocativo (o que fiz, com nota) ou «Crio» (o nome, perdendo o jogo sem a
   nota). Recomendo «carneiro».
+
+## Revisão contra o grego
+- 45.2: «tinha tropeçado com o exército de terra, contra os brigos, e muito com a frota» é truncado e estranho (prospáisas) → «porque tinha sofrido um revés com o exército de terra, diante dos brigos, e um grande revés com a frota, em volta do Atos»
+- 43.3: «uma coisa de grande espanto» perde o superlativo (megiston thoma) → «uma coisa de espantar ao máximo» ou «a maior maravilha»; opcional
+- Números (36 e 420 estádios não aparecem aqui; 80, 200 e 300 talentos, 300 navios, 20 mil homens), nomes e negações conferem; nenhuma omissão.

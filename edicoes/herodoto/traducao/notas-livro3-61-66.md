@@ -37,3 +37,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Sem erro de sentido, número ou omissão; três pontos de português.
+- 62.1: «e também o que tinha sido mandado ao Egito (…) pôs-se no meio deles» é confuso (o «o que» pode ser lido como coisa, e «deles» não tem referente claro) → «e também o arauto mandado ao Egito (…) pôs-se no meio do exército e anunciou…».
+- 65.1: «Por então, foi só isso» (τότε μὲν τοσαῦτα) é estranho → «Por ora, foi só isso» ou «Naquele momento, foi só isso».
+- 65.5: «os que dominam sobre vós o poder real são os magos» sai truncado → «quem tem nas mãos o poder real, para vós, são os magos».

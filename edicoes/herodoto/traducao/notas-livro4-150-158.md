@@ -57,3 +57,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. Conferidos os números (sete anos sem chuva, 151.1; seis talentos, sete côvados e três colossos, 152.3–4; sete regiões e duas pentecônteras, 153.1; dois anos em Plateia, 157.1; seis anos em Azíris, 158.1) e os nomes (Grino, Bato, Corobio, Coleu, Sóstrato, Etearco, Frônime, Temíson, Polimnesto).

@@ -40,3 +40,8 @@
 ## Candidatos a decisão do Gere
 - 65.4, ἡ Κούρη: adotei «a Donzela» (o sentido da palavra; Heródoto não diz o nome da deusa). Alternativa: «a Coré», a
   forma usual nos livros sobre os mistérios, que guarda o nome grego mas não se entende sem nota.
+
+## Revisão contra o grego
+- 65.1: «planície Triásia» (Θριάσιον πεδίον): forma pouco usada; conferir se é a de outros livros e a da nota → «planície de Trias» ou «Triásio», uma só forma.
+- 66.2: «os caristios» (povo) e «Caristo» (lugar, CONVENCOES.md): coerente, só conferir que as notas dizem «de Caristo».
+- Conferidos: 30 mil homens (65.1), três dias + três dias (66.1), as cinco cidades (66.2), a fala de Artemísia (68α–γ) e as negações (nem a pior, nem os menores feitos; «os homens deles são mais fortes que os teus»): corretos. Nenhuma correção de sentido necessária.

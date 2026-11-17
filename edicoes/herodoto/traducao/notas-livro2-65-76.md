@@ -59,3 +59,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária (conferidos: 17 côvados, quatro meses de jejum do crocodilo, 500 anos da fênix, o íbis em duas espécies; «cavalos do rio» conforme o CONVENCOES).

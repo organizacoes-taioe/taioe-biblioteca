@@ -54,3 +54,9 @@
 - 42.5, o nome egípcio de Zeus (Ἀμοῦν): adotei _Amun_, em itálico, como palavra egípcia citada; o deus continua «Amon»
   no resto do livro (CONVENCOES). Alternativa: «os egípcios chamam Zeus de Amon», sem itálico, o que liga mais
   claramente ao nome dos amônios e ao oráculo de Amon (32.1), mas perde a forma que Heródoto dá.
+
+## Revisão contra o grego
+- 42.4: frase truncada, sem verbo para os amônios: «os egípcios fazem a estátua de Zeus com cara de carneiro, e, aprendendo com os egípcios, os amônios, que são colonos…» → «…e, depois dos egípcios, também os amônios a fazem, pois são colonos dos egípcios e dos etíopes e falam uma língua intermediária entre as duas».
+- 49.2: «porque então seria do mesmo feitio dos costumes dos gregos, e não introduzido há pouco» (sem sujeito claro; o grego diz que, se coincidissem, os ritos seriam de feitio grego e não introduzidos há pouco) → «pois então os ritos gregos seriam de feitio grego, e não introduzidos há pouco».
+- 51.2: «foi daí que também eles começaram a ser tidos por gregos» (no grego, quem passou a ser tido por grego são os pelasgos; «eles» pode ser lido como os atenienses) → «foi daí que também os pelasgos começaram a ser tidos por gregos».
+- 42–53, resto: Nenhuma correção necessária (conferidos: 17 000 anos, 2300 anos, cinco gerações, 400 anos).

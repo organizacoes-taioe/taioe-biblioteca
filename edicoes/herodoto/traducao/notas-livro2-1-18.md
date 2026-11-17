@@ -24,3 +24,9 @@
 - 7.2: a conta dos caminhos ficou como no grego, um pouco travada.
 - 14.2: o trigo «debulhado com os porcos» (ἀποδινήσας τῇσι ὑσί): é o que o grego diz (Godley também); ficou.
 - 17.2 ἀμφοτερέων τῶν ἐπωνυμιέων ἔχεσθαι → «pertence aos dois nomes» (Líbia e Ásia).
+
+## Revisão contra o grego
+- 1–4: Nenhuma correção necessária.
+- 11.4: ἐντός («dentro de vinte mil anos», «dentro de dez mil») perdido na primeira ocorrência: «o golfo se encha de terra em vinte mil anos» → «o golfo se encha de terra dentro de vinte mil anos».
+- 16.2: sujeito ambíguo: «o Nilo se parte na ponta desse Delta, de modo que ele ficaria entre a Ásia e a Líbia» (no grego, o que ficaria no meio é o Delta) → «de modo que o Delta ficaria entre a Ásia e a Líbia».
+- 5–18, resto: Nenhuma correção necessária (números e medidas conferidos: 11 braças, 60 esquenos, 3600, 4860 = 81 esquenos, 6120, 1800, 14 dias, 200 estádios, 40 dias, 20 000/10 000 anos, 900 anos, 8 e 16/15 côvados).

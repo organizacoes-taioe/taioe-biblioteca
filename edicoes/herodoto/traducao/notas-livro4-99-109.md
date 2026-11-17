@@ -47,3 +47,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 109.1: φθειροτραγέουσι é ambíguo no grego (φθείρ = «piolho» ou «pinha»; os antigos já discutiam): a tradução fixa «comem pinhas» sem aviso → pôr a escolha nas «Passagens» (e, se o Gere quiser, nas decisões), com a alternativa «comem piolhos».
+- 99.1: «A Trácia avança para o mar mais do que a terra cita» acrescenta o «mais do que» (comparação); o grego só diz que a Trácia fica diante da terra cita, rumo ao mar → «A Trácia fica diante da terra cita, do lado do mar».
+Números conferem (oito reis em 102.2; dez, dez e vinte dias e duzentos estádios por dia, quatro mil estádios de lado em 101; trinta estádios de muralha em 108.1; uma geração antes em 105.1).

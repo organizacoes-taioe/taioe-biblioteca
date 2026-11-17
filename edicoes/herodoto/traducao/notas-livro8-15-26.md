@@ -19,7 +19,7 @@
 
 ## Passagens
 - 15.1 τὸ ἀπὸ Ξέρξεω δειμαίνοντες → «com medo do que viria de Xerxes» (o castigo, se falhassem).
-- 18.1 οὐκ ἥκιστα → «e não menos»; τετρωμέναι → «avariados» (lit. «feridos», dos navios).
+- 18.1 οὐκ ἥκιστα → «e sobretudo»; τετρωμέναι → «avariados» (lit. «feridos», dos navios).
 - 19.1: a frase longa do grego (Temístocles pensou…, e, como os eubeus levavam os rebanhos…, reuniu os generais)
   ficou partida em duas orações coordenadas, sem mudar a ordem.
 - 20.1 περιπετέα ἐποιήσαντο σφίσι αὐτοῖσι τὰ πρήγματα → «tinham levado a si mesmos à ruína» (a reviravolta súbita).

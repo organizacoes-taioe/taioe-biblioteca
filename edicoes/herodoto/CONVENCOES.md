@@ -3,7 +3,7 @@
 Leia antes `edicoes/CONVENCOES-TRADUCAO.md` (vale tudo de lá: nunca mesóclise, um bloco traduzido para cada bloco
 do original, as marcas `[c.s]` no mesmo lugar). Texto-fonte e correções: `original/LEIAME.md`. Traduz-se o grego
 de Godley (Loeb, 1920), que vai ao lado; a tradução inglesa de Godley serve só para conferir o sentido, nunca de base.
-A obra cresce por livros (pedido do Gere: «em partes»): os livros I (Clio) e II (Euterpe); os outros vêm em pedidos
+A obra cresce por livros (pedido do Gere: «em partes»): os livros I a IV; os outros vêm em pedidos
 seguintes, com estas mesmas convenções. Ao traduzir um livro novo, acrescentar aqui os nomes e termos dele (o livro II
 tem a sua seção no fim).
 
@@ -157,3 +157,47 @@ revolta de Babilônia. O título: `Γ · ΘΑΛΕΙΑ` → `LIVRO III · TÁLIA`
   ψῆγμα → ouro em pó. No debate (80–82): ἰσονομίη → **igualdade perante a lei**; τὸ πλῆθος ἄρχον, πλῆθος → **o povo**,
   **a multidão** (conforme o tom); ὀλιγαρχίη → oligarquia; μουναρχίη, μούναρχος → monarquia, monarca; τύραννος → tirano.
   κάπηλος (89.3, Dario) → comerciante; δεσπότης → senhor. ὁ ἱπποκόμος → o cavalariço; οἱ δορυφόροι → os lanceiros.
+
+## Livro IV (Melpômene): nomes e termos
+
+O livro dos citas e da Líbia: a expedição de Dario contra os citas (as origens, a terra, os rios, os costumes, os
+povos vizinhos, a campanha e a volta pela ponte do Istro) e, depois, Tera, a fundação de Cirene, os reis de Cirene,
+os povos da Líbia e o cerco de Barca. O título: `Δ · ΜΕΛΠΟΜΕΝΗ` → `LIVRO IV · MELPÔMENE`.
+
+- **Citas e mitos**: os citas (Σκύθαι), a Cítia (ἡ Σκυθική; Σκυθίη); Targitau (Ταργίταος), Lipóxais, Arpóxais e
+  Colaxais (Κολάξαϊς); os auquetas, catíaros, traspies e paralatas (as tribos, em minúscula, como os povos); os
+  escolotos (Σκολότοι, o nome que os citas se dão); Héracles e a mulher-víbora (ἡ Ἔχιδνα → Equidna), Agatirso,
+  Gelono e Cita, os filhos dela; os citas reais (Σκύθαι βασιλήιοι), os citas nômades, os citas lavradores (γεωργοί)
+  e agricultores (ἀροτῆρες); Idantirso (Ἰδάνθυρσος), Escópasis, Taxacis; Anacársis (Ἀνάχαρσις), Cíles (Σκύλης),
+  Ariapites (Ἀριαπείθης), Octamasades, Espargapites, Saulio; Madies (do livro I); Tabiti (Ἱστίη), Papeu (Zeus),
+  Api (a Terra), Getósiro (Apolo), Argimpasa (Afrodite Urânia), Tagimasadas (Posêidon): os nomes citas em itálico só
+  quando Heródoto os dá como palavra da língua.
+- **Povos do norte e vizinhos**: os cimérios (Κιμμέριοι) e o Bósforo Cimério, os issedões, os arimaspos (homens de
+  um olho só: a explicação é dele), os grifos guardiões do ouro, os hiperbóreos (Ὑπερβόρεοι), os argipeus, os
+  tauros, os agatirsos, os neuros, os andrófagos, os melanclenos (Μελάγχλαινοι), os gelonos, os budinos, os
+  saurômatas (Σαυρομάται), as amazonas (Ἀμαζόνες; _Oiórpata_, o nome cita delas, em itálico), os getas e Zalmóxis
+  (Σάλμοξις), os trausos, os sindos, os tirsagetas, os iircas, os boristenitas (Βορυσθενεῖται: os gregos de Olbia,
+  no Borístenes), os calípidas, os alizões.
+- **Lugares e rios**: o Istro (o Danúbio: fica Istro), o Tíras, o Hípanis, o Borístenes, o Panticapes, o Hipacíris,
+  o Gerro, o Tánais (Τάναϊς), o Lico, o Oaro, o Sírgis; o lago Meótis (ἡ Μαιῆτις λίμνη), o Ponto (o mar Negro: «o
+  Ponto»; Πόντος Εὔξεινος → o Ponto Euxino), o Bósforo, a Propôntida, o Helesponto; a Hileia (Ὑλαίη, a terra das
+  árvores), Gerros (a região), a península Táurica, o Cáucaso, o Araxes; Proconeso, Cízico, Calcedônia, Bizâncio,
+  Mesâmbria, Perinto, Apolônia; a Trácia e os trácios, o Tearo (Τέαρος), o Artesco, Dorisco; a Jônia e os tiranos
+  jônios na ponte: Histieu de Mileto (Ἱστιαῖος), Milcíades o ateniense, Côes de Mitilene, Hipoclo, Estrátis e os
+  outros; Mandrocles de Samos, que fez a ponte; Megabazo, Artabano, Eobazo (Οἰόβαζος), Gobrias, Sataspes (43), Ariandes (Ἀρυάνδης, governador do Egito), Amásis (o persa, general contra Barca), Badres.
+- **As partes da terra (36–45)**: a Europa, a Ásia e a Líbia (Λιβύη: a África de Heródoto; fica «Líbia»); o
+  Oceano; o mar Vermelho, o golfo Arábico, o mar do Sul (ἡ νοτίη θάλασσα); Neco, os fenícios que deram a volta à
+  Líbia; Cilax de Carianda; Europa, Asia (a mulher de Prometeu), Lido, Ásias (a tribo de Sardes): os nomes como ele dá.
+- **Líbia e Cirene**: Tera (Θήρη) e Teras, os mínios (Μινύαι), Membliaro, Polímnesto, Bato (Βάττος, «rei» na língua
+  dos líbios: a explicação é dele), Grino (Γρῖννος), Corobio de Itano, Plateia (Πλατέα, a ilha), Azíris, Irasa, a
+  fonte de Apolo; Cirene e os cireneus, Barca e os barceus; Arcesilau, Bato o Feliz (ὁ εὐδαίμων), Bato o Coxo,
+  Feretima (Φερετίμη), Demonax de Mantineia, Laarco, Ladice, Alazir (Ἀλάζειρ), Euelton de Salamina; os
+  adirmáquidas, giligamas, asbistas, auscisas, bacales, nasamões, psilos, garamantes, macas, gindanes, lotófagos,
+  maclies, auses, atarantes, atlantes, maxies, záveces, gizantes; o lago Tritônis, Tritão, o monte Atlas, as colinas
+  de sal (κολωνοὶ ἁλός), a Sirte, o Cínipe, os trogloditas etíopes; Atena (a Atena líbia, as égides).
+- **Termos**: νομάδες → **nômades**; ἄροτρον, ζυγόν, σάγαρις, φιάλη (os objetos de ouro caídos do céu, 5.3) →
+  **arado, jugo, machado, taça** (σάγαρις, o machado de dois gumes: «machado»); ἁμαξόβιοι → «que vivem em carros»;
+  ἀκινάκης → **espada curta**; οἱ τάφοι τῶν βασιλέων → os túmulos dos reis; ἡ κάνναβις → **o cânhamo**; ἀποικίη →
+  **colônia**, ἄποικοι → colonos; ἡ σχεδίη → **a ponte** (de barcos), ἡ γέφυρα → a ponte; ὁ Ἀχίλλειος δρόμος → «a
+  Corrida de Aquiles»; ἐνάρεες (67.2) → _enareus_, com a explicação dele; ὕπαρχος → governador; φόρος → tributo. Os
+  presentes dos citas (131–132): um pássaro, um rato, uma rã e cinco flechas.

@@ -1,7 +1,19 @@
 # Heródoto, Histórias: estado
 
-Livros I e II no ar (PRs #100 e #113). Livro III pronto na branch `pedido-herodoto-3` (worktree
-`~/.cache/claude-wt5-herodoto-3`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+Livros I a III no ar (PRs #100, #113 e #115). Livro IV em andamento na branch `pedido-herodoto-4` (worktree
+`~/.cache/claude-wt5-herodoto-4`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
+
+## Livro IV (Melpômene): em andamento (2026-11-16)
+- Feito: grego montado e conferido (`original/livro4-*.txt`, 22 partes; `original/LEIAME.md`, «Livro IV»; OCR em
+  `ocr4/`, páginas em `pag4/`, pranchas em `ver4/`, na pasta de trabalho; `montar.py . <obra> 4`); `CONVENCOES.md`,
+  seção «Livro IV».
+- Tradução (`traducao/livro4-*.txt` + `notas-livro4-*.md`, roteiros `~/.cache/claude-pedidos-0511/herodoto/TRADUTOR-L4.md`
+  e `REVISOR-L4.md`): o principal faz 1–12, 83–92, 93–98, 99–109, 110–117 e 200–205; tradutores Opus, um de cada vez:
+  T1 13–58, T2 59–82 e 118–125, T3 126–158, T4 159–199. `python3 ferramentas/conferir.py` mostra o que falta.
+- Depois: revisão contra o grego (Sonnet, só relata, no fim de cada `notas-livro4-*.md`), uniformização, `obra.py`
+  (o livro IV em PARTES e na «Sobre»: lacunas 47.2 e 149.2, sem colchetes, «21 palavras com letras trocadas, uma que
+  faltava (119.4) e uns 116 acentos»), `revisao.json` (só decisão nova), vocabulário, `ferramentas/traducoes.py`,
+  gerar e conferir. **O IV entra todo de uma vez** (obra com parte sem tradução some do site).
 
 ## Livro III (Tália): pronto (2026-11-16)
 - Grego montado e conferido (`original/livro3-*.txt`, 16 partes; `original/LEIAME.md`, «Livro III»): vol. II de

@@ -34,3 +34,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 25.1: negação acrescentada: «a terra é quente e não há ventos frios» (o grego diz ἀνέμων ψυχρῶν, «ventos frescos» presentes; Godley: «the winds cool») → «a terra é quente e os ventos são frescos».
+- 19–27, resto: Nenhuma correção necessária (cem dias, dois dias de caminho, cinco dias de chuva e três explicações conferidos).

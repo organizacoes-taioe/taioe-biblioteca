@@ -38,3 +38,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Nenhuma correção necessária. (Conferidos os números: cinco bocas do Istro, cinco e quatro dias de navegação no Hípanis, quarenta e dez dias no Borístenes, ordem dos oito rios, e os nomes dos afluentes.)

@@ -62,3 +62,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 72.2: «fugiu de Esparta, levado a julgamento» inverte a ordem: foi levado ao tribunal (hypachtheis) e então fugiu → «levado a julgamento, fugiu de Esparta»
+- 65.1: «se o fizesse rei no lugar de Demarato, ele o acompanharia» deixa o sujeito vago (quem faz rei, quem acompanha) → «se Cleômenes o fizesse rei no lugar de Demarato, Leotíquides o acompanharia contra os eginetas»
+- Números (dez meses, 7 e 9 meses, terceira noite), genealogias, nomes e negações conferem; nenhuma omissão. A lacuna do texto grego em 64.1 está marcada com reticências, como no original.

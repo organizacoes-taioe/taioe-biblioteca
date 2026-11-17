@@ -38,3 +38,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 120.1: «levar embora o gado» não está no grego, que diz só «retirando-se e saindo a cavalo» (a ordem dos poços e do capim segue) → «retirar-se» ou «recuar a cavalo», sem o gado (o gado só aparece em 121.1).
+- 123.3: «tisságetas» (Θυσσαγέται) difere de «tirsagetas», forma do CONVENCOES.md (Povos do norte) → coerente com as outras partes (13–27, 22.2); só o CONVENCOES.md diz «tirsagetas»: ajustar o CONVENCOES, não a tradução.

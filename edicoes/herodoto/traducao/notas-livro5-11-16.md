@@ -32,3 +32,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 15.3: «siriopeônios» (Σιριοπαίονες) → o CONVENCOES.md usa «siropeônios»; uniformizar.

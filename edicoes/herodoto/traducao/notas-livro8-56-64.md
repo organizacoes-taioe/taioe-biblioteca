@@ -35,3 +35,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 61.2: «mostrou que eles mesmos tinham cidade e terra maiores do que aqueles… pois nenhum dos gregos os repeliria, se eles atacassem»: em português «eles mesmos» soa como os coríntios (o antecedente mais próximo), o contrário do grego (os atenienses é que têm cidade e terra maiores, com duzentos navios tripulados, e ninguém repele os atenienses) → «mostrou que os atenienses tinham cidade e terra maiores do que as deles, enquanto tivessem duzentos navios tripulados; pois nenhum dos gregos os repeliria, se atacassem».
+- 60γ.1 (fim): «Aos homens que tomam decisões razoáveis costumam acontecer coisas razoáveis» é frouxo para οἰκότα (o provável, o que convém) → «Aos que decidem com bom senso costuma acontecer o que é de esperar; aos que não decidem assim, nem o deus quer ajudar os pensamentos humanos».
+- 63.1: ἀνεδιδάσκετο («foi sendo levado a mudar de ideia») traduzido «foi se deixando convencer», e depois repetido; aceitável, sem correção.
+- Falas conferidas: Mnesífilo (57.2), Adimanto e a resposta (59.1), os três discursos de Temístocles (60α–γ), Síris (62.2): quem fala, negações e condições corretos. Nenhum outro problema.

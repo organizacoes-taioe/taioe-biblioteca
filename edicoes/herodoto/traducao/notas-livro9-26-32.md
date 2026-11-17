@@ -66,3 +66,6 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- Nenhuma correção necessária (conferidos todos os números do catálogo de 28.2–30.1 e as somas de 29 e 30: batem com o grego)

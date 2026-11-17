@@ -29,3 +29,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+
+- 30.1: «Dito isso e cumprido» (não se entende o que foi cumprido) → «Depois de dizer isso e de cumprir a promessa, seguiu sempre adiante».

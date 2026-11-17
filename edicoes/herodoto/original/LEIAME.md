@@ -278,7 +278,7 @@ no Perseus, conferidos: 13.1 ἤκουσε, 16.1 λογιμωτάτους e λο
 93.2 σιγῇ, 120.2 ὅτι, 13.3 ἱππασίμη, 25.1 ὤσαντο e εἵνεκα, 31.5 ηὖξον, 80.1 εἵλωτας, 81.2 τἆλλα.
 
 Os capítulos 7α–7β (a resposta dos atenienses aos lacedemônios) têm a numeração de Hude, que o Perseus escreve 7A–7B.
-Sem colchetes nem lacunas. Versos: o oráculo de Bácis sobre o Termodonte e o Asopo (43.2). Título: «Ι · ΚΑΛΛΙΟΠΗ».
+Colchetes de Godley: 33.1 (o nome Κλυτιάδην); sem lacunas. Versos: o oráculo de Bácis sobre o Termodonte e o Asopo (43.2). Título: «Ι · ΚΑΛΛΙΟΠΗ».
 
 ## Numeração e divisão
 

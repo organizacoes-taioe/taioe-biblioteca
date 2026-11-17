@@ -356,3 +356,41 @@ estão nas notas de cada parte.
   δρησμός → fuga; τριηκόντερος → triacôntera (como em 7.97); τριήραρχος → trierarca; Μακεδνὸν ἔθνος (43.1) →
   «macedno», a forma do livro I (1.56.3); μάχαιρα → punhal (livro VII), mas «faca» em 137.5 (a do menino, que não é
   arma); τὸ Ἑλληνικόν (144.2) → **o ser grego** (ver nas notas).
+
+## Livro IX (Calíope): nomes e termos
+
+O livro de Plateia e de Mícale: Mardônio de novo em Atenas, os atenienses em Esparta, a marcha dos lacedemônios, o
+banquete de Tebas, a morte de Masístio, os adivinhos, o conselho de Mardônio, a troca das alas, a retirada dos gregos e
+Amonfáreto, a batalha de Plateia e a morte de Mardônio, os despojos, o cerco de Tebas, a batalha de Mícale, Xerxes e a
+mulher de Masistes, o cerco de Sesto e Artaíctes, e o conselho de Ciro, que fecha a obra. O título: `Ι · ΚΑΛΛΙΟΠΗ` →
+`LIVRO IX · CALÍOPE`. Os nomes e termos dos livros VII e VIII valem aqui. Lista escrita antes da tradução: se um nome
+dela estiver errado ou houver forma melhor, use a melhor e registre nas notas; os que só aparecem uma vez ficam nas notas
+de cada parte.
+
+- **Gregos**: Pausânias, filho de Cleômbroto (tutor de Plistarco, filho de Leônidas); Eurianax, filho de Dorieu;
+  Aristides, filho de Lisímaco; Amonfáreto, filho de Políades (comandante do batalhão de Pitane); Aristodemo (o que
+  voltou das Termópilas); Posidônio, Filocíon, Calícrates (os espartanos que se distinguiram); Sófanes de Decélia;
+  Aimnesto (o espartano que matou Mardônio, 64.2); Arimnesto, o plateense (72.2); Lâmpon, filho de Píteas (Egina);
+  Tisâmeno, filho de Antíoco (o adivinho eleu, dos iâmidas); Hegesístrato, filho de Télias (o adivinho eleu de
+  Mardônio), e o outro Hegesístrato, filho de Aristágoras (o sâmio, 90.1); Evênio de Apolônia e o seu filho Deífono;
+  Leotíquides, filho de Menares; Xantipo, filho de Arífron; Tersandro de Orcômeno; Timagênidas e Atagino (os tebanos);
+  Quileu de Tegea; Lícidas (o conselheiro apedrejado, 5.1); Muríquides (o helespontino); Hegetórides de Cós (o pai da
+  mulher de Cós, 76).
+- **Persas**: Mardônio, filho de Gobrias; Artabazo, filho de Farnaces; Masístio (o comandante da cavalaria; «Macístio»
+  para os gregos, 20); Masistes, filho de Dario (o irmão de Xerxes); Artaíntes e Itamitres (os comandantes da frota);
+  Tigranes; Améstris (a mulher de Xerxes); Artaínte (a filha de Masistes); Dario, filho de Xerxes; Artaíctes (Sesto);
+  Eobazo; Artembares (o do conselho de Ciro, 122); Ciro.
+- **Lugares**: Plateia e os plateenses, o Citéron, o Asopo, a fonte Gargáfia, a Ilha (ἡ Νῆσος, entre os braços do
+  Oeroe), o Oeroe, Eritras, Hísias, o santuário de Deméter Eleusínia, o santuário do herói Andrócrates, o Argiópio,
+  Decélia, Tânagra, Escolo, Tebas, Mégara, Pitane; Mícale, o santuário das Deusas (97), o Gesão e o Escolopoente; Sesto,
+  Cárdia, Ábido, Eleunte e o santuário de Protesilau, Egospótamos.
+- **Povos**: lacedemônios, espartanos, periecos, hilotas; tegeatas, mantineus, eleus, plateenses, megarenses,
+  fliásios, epidáurios, trezênios, tebanos, fócios, sâmios, milésios.
+- **Termos**: μηδίζειν → **tomar o partido dos medos** (livros VII e VIII); ἀριστήια → **prêmio do valor**; ἄριστος,
+  ἀριστεῦσαι → **o mais valente**, **distinguir-se** (71–75); λόχος → **batalhão**; λοχαγός → comandante de batalhão;
+  τάξις → posição, fileira; κέρας → **ala** (a direita, a esquerda); τὸ τεῖχος (o dos persas, 65–70) → **o muro** (a
+  paliçada de madeira do acampamento, 15.2); γέρρα → **escudos de vime**; σφάγια → **vítimas** (as dos sacrifícios
+  antes da batalha); καλλιερέειν → **ter sinais favoráveis** (nos sacrifícios); σκηνή → **tenda**; ληίη → **despojo**;
+  ὁ Ἰσθμός → **o istmo**, em minúscula (livros VII e VIII); Ὑακίνθια → a festa das **Jacintias**; μάντις → **adivinho**;
+  τὸ κηρυκήιον (100.1) → o **caduceu**; ἀνασταυροῦν → **pendurar numa cruz** (como no livro VII). Números de miríades por
+  extenso, como nos livros VII e VIII.

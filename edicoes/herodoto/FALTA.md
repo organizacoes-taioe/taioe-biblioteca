@@ -1,18 +1,22 @@
 # Heródoto, Histórias: estado
 
-Livros I a IV no ar (PRs #100, #113, #115 e #116). Livro V em andamento na branch `pedido-herodoto-5` (worktree
+Livros I a IV no ar (PRs #100, #113, #115 e #116). Livro V pronto na branch `pedido-herodoto-5` (worktree
 `~/.cache/claude-wt5-herodoto-5`). Regras da rodada: `~/.cache/claude-pedidos-0511/BRIEF.md`. A obra cresce por livros.
 
-## Livro V (Terpsícore): em andamento (2026-11-17)
-- Feito: grego montado e conferido (`original/livro5-*.txt`, 13 partes; `original/LEIAME.md`, «Livro V»). Fonte nova: o
-  vol. III de Godley, 1ª impressão de 1922 (IA `in.ernet.dli.2015.183370`, PDF em `dl5/`, OCR em `ocr5/`, páginas em
-  `pag5/`, pranchas em `ver5/`); 2ª leitura `dl5/herodotus19203hero.txt` (reimpressão de 1982). `colacao.py . 5`,
-  `acentos.py . 5`, `montar.py . <obra> 5`, rodados de `~/.cache/claude-pedidos-0511/herodoto/`. Marcas 92α–92η (Hude;
-  o Perseus escreve 92A–92G): `conferir.py`, `montar.py` e `ferramentas/traducoes.py` aceitam α–η.
-- Falta: tradução das 13 partes (`traducao/livro5-*.txt` + notas), revisão contra o grego, `CONVENCOES.md` (seção
-  «Livro V»), `obra.py` (partes do V e a «Sobre» com o vol. III), `revisao.json` se houver decisão nova, vocabulário,
-  `conteudo/` gerado, `gerar.mjs` e `conferir.mjs`. O livro entra todo de uma vez (obra com `PARTES` sem tradução some do
-  site).
+## Livro V (Terpsícore): pronto (2026-11-17)
+- Grego montado e conferido (`original/livro5-*.txt`, 13 partes; `original/LEIAME.md`, «Livro V»). Fonte nova: o vol. III
+  de Godley, 1ª impressão de 1922 (IA `in.ernet.dli.2015.183370`, PDF em `dl5/`, OCR em `ocr5/`, páginas em `pag5/`,
+  pranchas em `ver5/`); 2ª leitura `dl5/herodotus19203hero.txt` (reimpressão de 1982). `colacao.py . 5`, `acentos.py . 5`,
+  `montar.py . <obra> 5`, rodados de `~/.cache/claude-pedidos-0511/herodoto/`. 15 correções de letras (com 5.1, erro
+  tipográfico de Godley, e os parênteses de 67.3), 26 acentos; 34 pontos vistos nas imagens. Marcas 92α–92η (Hude; o
+  Perseus escreve 92A–92G): `conferir.py`, `montar.py` e `ferramentas/traducoes.py` aceitam α–η.
+- Tradução: 1–10 pelo principal, o resto por quatro tradutores Opus em sequência; revisão contra o grego por dois
+  revisores Sonnet (registro no fim de cada `traducao/notas-livro5-*.md`); o que se aplicou em
+  `traducao/notas-livro5-1-10.md`. `CONVENCOES.md`, seção «Livro V», acertada pelos nomes da tradução.
+- `obra.py` (86 partes; a «Sobre» com o livro V e o fac-símile do vol. III), `revisao.json` (+3 decisões: «igualdade de
+  palavra», 78.1; «um apedrejador», 67.2; Cípselo «tirado da _kypséle_, a arca», 92ε.1; recomendação aplicada, nada muda
+  no ar), vocabulário (+11 verbetes, 126 no total, `conferir` ok), `conteudo/` gerado. `gerar.mjs` e `conferir.mjs` sem
+  erro; os endereços dos livros I a IV não mudam.
 
 ## Livro IV (Melpômene): pronto (2026-11-16)
 - Grego montado e conferido (`original/livro4-*.txt`, 22 partes; `original/LEIAME.md`, «Livro IV»): mesmo PDF do vol. II

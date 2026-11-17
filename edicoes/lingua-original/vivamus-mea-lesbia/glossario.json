@@ -1,0 +1,496 @@
+{
+  "verbetes": {
+    "vivamus": {
+      "lema": "vivo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Viver."
+      ],
+      "nota": "Exortação: vivamos."
+    },
+    "mea": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com Lesbia: minha."
+    },
+    "lesbia": {
+      "lema": "Lesbia",
+      "classe": "nome próprio",
+      "forma": "vocativo singular",
+      "def": [
+        "Lésbia, a amada dos poemas de Catulo."
+      ],
+      "nota": "Nome próprio, Lésbia: a quem se fala."
+    },
+    "atque": {
+      "lema": "atque",
+      "classe": "conjunção",
+      "def": [
+        "E; e também."
+      ]
+    },
+    "amemus": {
+      "lema": "amo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Amar."
+      ],
+      "nota": "Exortação: amemos."
+    },
+    "rumoresque": {
+      "partes": [
+        {
+          "lema": "rumor",
+          "classe": "substantivo masculino",
+          "forma": "acusativo plural",
+          "def": [
+            "O boato; o falatório."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Objeto de aestimemus: os falatórios."
+    },
+    "senum": {
+      "lema": "senex",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O velho; o ancião."
+      ],
+      "nota": "De quem são os falatórios: dos velhos."
+    },
+    "severiorum": {
+      "lema": "severus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Severo; rigoroso."
+      ],
+      "nota": "Comparativo, concorda com senum: mais severos."
+    },
+    "omnes": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Concorda com rumores: todos."
+    },
+    "unius": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "Concorda com assis: um só."
+    },
+    "aestimemus": {
+      "lema": "aestimo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Avaliar; estimar."
+      ],
+      "nota": "Exortação: avaliemos."
+    },
+    "assis": {
+      "lema": "as",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O asse; a moeda."
+      ],
+      "nota": "Genitivo de preço: no valor de um asse."
+    },
+    "soles": {
+      "lema": "sol",
+      "classe": "substantivo masculino",
+      "forma": "nominativo plural",
+      "def": [
+        "O sol; o astro."
+      ],
+      "nota": "Sujeito de possunt: os sóis."
+    },
+    "occidere": {
+      "lema": "occido",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Pôr-se; cair."
+      ],
+      "nota": "Depende de possunt: pôr-se."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "redire": {
+      "lema": "redeo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Voltar."
+      ],
+      "nota": "Depende de possunt: voltar."
+    },
+    "possunt": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Poder."
+      ]
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "dativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Com dormienda, quem há de dormir: por nós."
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "conjunção",
+      "def": [
+        "Quando; no momento em que."
+      ],
+      "nota": "Conjunção: quando."
+    },
+    "semel": {
+      "lema": "semel",
+      "classe": "advérbio",
+      "def": [
+        "Uma vez; de uma vez."
+      ]
+    },
+    "occidit": {
+      "lema": "occido",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Pôr-se; cair."
+      ],
+      "nota": "Depois de cum: se põe."
+    },
+    "brevis": {
+      "lema": "brevis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Breve."
+      ],
+      "nota": "Concorda com lux: breve."
+    },
+    "lux": {
+      "lema": "lux",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A luz."
+      ],
+      "nota": "Sujeito de occidit: a luz."
+    },
+    "nox": {
+      "lema": "nox",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A noite."
+      ],
+      "nota": "Sujeito de est dormienda: a noite."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Com dormienda: há de ser dormida."
+    },
+    "perpetua": {
+      "lema": "perpetuus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Perpétuo; contínuo."
+      ],
+      "nota": "Concorda com nox: perpétua."
+    },
+    "una": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "Concorda com nox: uma só."
+    },
+    "dormienda": {
+      "lema": "dormio",
+      "classe": "verbo",
+      "forma": "gerundivo, nominativo feminino singular",
+      "def": [
+        "Dormir."
+      ],
+      "nota": "Concorda com nox: que deve ser dormida."
+    },
+    "da": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Dar."
+      ],
+      "nota": "Dá."
+    },
+    "mi": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Forma breve de mihi: a mim."
+    },
+    "basia": {
+      "lema": "basium",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O beijo."
+      ],
+      "nota": "Objeto de da: beijos."
+    },
+    "mille": {
+      "lema": "mille",
+      "classe": "adjetivo",
+      "def": [
+        "Mil."
+      ],
+      "nota": "Concorda com basia: mil."
+    },
+    "deinde": {
+      "lema": "deinde",
+      "classe": "advérbio",
+      "def": [
+        "Então; em seguida."
+      ]
+    },
+    "centum": {
+      "lema": "centum",
+      "classe": "adjetivo",
+      "def": [
+        "Cem."
+      ],
+      "nota": "Subentende basia: cem."
+    },
+    "dein": {
+      "lema": "deinde",
+      "classe": "advérbio",
+      "def": [
+        "Então; em seguida."
+      ],
+      "nota": "Forma curta de deinde: depois."
+    },
+    "mille#2": {
+      "lema": "mille",
+      "classe": "adjetivo",
+      "def": [
+        "Mil."
+      ],
+      "nota": "Subentende basia: mil."
+    },
+    "altera": {
+      "lema": "alter",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Outro; de dois."
+      ],
+      "nota": "Concorda com mille (basia): outros."
+    },
+    "secunda": {
+      "lema": "secundus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Segundo; seguinte."
+      ],
+      "nota": "Concorda com centum (basia): segundos."
+    },
+    "usque": {
+      "lema": "usque",
+      "classe": "preposição",
+      "def": [
+        "Sem parar; até."
+      ],
+      "nota": "Sem parar."
+    },
+    "milia": {
+      "lema": "mille",
+      "classe": "adjetivo",
+      "forma": "acusativo plural",
+      "def": [
+        "Mil."
+      ],
+      "nota": "Objeto de fecerimus: milhares."
+    },
+    "multa": {
+      "lema": "multus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Muito."
+      ],
+      "nota": "Concorda com milia: muitos."
+    },
+    "fecerimus": {
+      "lema": "facio",
+      "classe": "verbo",
+      "forma": "futuro perfeito do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Fazer."
+      ],
+      "nota": "Depois de cum: quando tivermos feito."
+    },
+    "conturbabimus": {
+      "lema": "conturbo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Perturbar; aturdir."
+      ],
+      "nota": "Embaralharemos (a conta)."
+    },
+    "illa": {
+      "lema": "ille",
+      "classe": "pronome",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Aquele; ele."
+      ],
+      "nota": "Objeto de conturbabimus: aqueles (os milhares)."
+    },
+    "ne": {
+      "lema": "ne",
+      "classe": "advérbio",
+      "def": [
+        "Não; que não."
+      ],
+      "nota": "Com subjuntivo: para que não."
+    },
+    "sciamus": {
+      "lema": "scio",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Saber; conhecer."
+      ],
+      "nota": "Depois de ne: saibamos (a conta)."
+    },
+    "aut": {
+      "lema": "aut",
+      "classe": "conjunção",
+      "def": [
+        "Ou; senão."
+      ]
+    },
+    "quis": {
+      "lema": "quis",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Quem?; o quê?."
+      ],
+      "nota": "Depois de ne: alguém (= aliquis)."
+    },
+    "malus": {
+      "lema": "malus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Mau; ruim."
+      ],
+      "nota": "Concorda com quis: mau, mal-intencionado."
+    },
+    "invidere": {
+      "lema": "invideo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Invejar."
+      ],
+      "nota": "Depende de possit: pôr mau-olhado, invejar."
+    },
+    "possit": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Poder."
+      ],
+      "nota": "Depois de ne: possa."
+    },
+    "tantum": {
+      "lema": "tantus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Tão grande; tamanho."
+      ],
+      "nota": "Sujeito de esse, com basiorum: tamanho número."
+    },
+    "sciat": {
+      "lema": "scio",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Saber; conhecer."
+      ],
+      "nota": "Depois de cum: souber."
+    },
+    "esse": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Oração infinitiva: que há."
+    },
+    "basiorum": {
+      "lema": "basium",
+      "classe": "substantivo neutro",
+      "forma": "genitivo plural",
+      "def": [
+        "O beijo."
+      ],
+      "nota": "Partitivo, com tantum: de beijos."
+    }
+  },
+  "ocorrencias": {
+    "8.2": "mille#2",
+    "9.4": "mille#2"
+  }
+}

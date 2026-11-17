@@ -70,3 +70,10 @@
 ## Candidatos a decisão do Gere
 - 77.1, o lugar da batalha: **Sépeia** (o que fiz; a forma do CONVENCOES e dos livros de história) ou **Hesipeia** (a
   leitura do grego de Godley, que vai ao lado, e da tradução inglesa dele).
+
+## Revisão contra o grego
+- 74.2: «uma água que se vê pouca pinga de uma rocha» está truncada (falta a ligação) → «uma pouca de água, visível, pinga de uma rocha num barranco» (ὀλίγον φαινόμενον).
+- 77.1: o nome do lugar é Hesipeia no grego (Ἡσίπεια); a tradução tem «Sépeia», já registrada como candidata a decisão. Sem outra correção.
+- 79.1: «uns cinquenta dos argivos, um de cada vez» mistura duas ideias; o grego diz que os chamava de cinquenta em cinquenta (κατὰ πεντήκοντα) → «chamando os argivos de cinquenta em cinquenta, cada vez que saíam, Cleômenes os matava».
+- 79.1 (menor): «chamava-os dizendo que tinha recebido o resgate deles» omite que dizia «ter» o resgate para eles (ἔχειν τὰ ἄποινα, «ter em mãos»); aceitável. Sem ação.
+- Resto do lote (73, 75–76, 78, 80–84): sem omissão, número ou negação trocados.

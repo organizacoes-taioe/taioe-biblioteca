@@ -79,3 +79,8 @@
 - 92β.2, «fará justiça a Corinto»: o verbo grego é tanto «pôr em ordem, endireitar» quanto «castigar». Adotei «fará
   justiça», que guarda as duas leituras; alternativas: «castigará Corinto» (a leitura sombria, que combina com o que
   Cípselo faz) ou «endireitará Corinto».
+
+## Revisão contra o grego
+- 90.2: «muitas coisas intoleráveis» (ἀνάρσια) → «muitos males» ou «muitas hostilidades» vindas dos atenienses (leve; mesma palavra de 89.3).
+- 92α.1: regência errada em «coisa que não há nada mais injusto entre os homens nem mais sanguinário» → «coisa que nada há, entre os homens, de mais injusto nem de mais sanguinário» (ou «coisa mais injusta e mais sanguinária que qualquer outra entre os homens»).
+- Sem omissões, números ou negações trocados (conferidos: 10 baquíadas, 30 anos, 20/dois sentidos do oráculo, lances de Trasibulo e Melissa).

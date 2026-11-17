@@ -99,3 +99,8 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 66.2: «na pressa em que o vissem ir» — obscuro (σπουδῆς ἔχοντα: com que pressa ele próprio fosse) → «com a pressa com que o vissem ir».
+- 71.2: «tinha caído em opróbrio e desonra» — «opróbrio» é palavra rara → «vivia na vergonha e na desonra».
+- Resto (66–75) conferido seção por seção: números (quarenta mil, trezentos mil, 91, 16, 52, seiscentos), nomes e negações corretos; sem omissão.

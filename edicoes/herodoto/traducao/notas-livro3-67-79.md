@@ -40,3 +40,7 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+Sem erro de sentido, número ou omissão; nenhuma correção obrigatória.
+- 69.5 (opcional): «Ciro, filho de Cambises» traduz fielmente Κῦρος ὁ Καμβύσεω, mas com o Cambises desta história (filho de Ciro) o leitor pode se confundir → «Ciro (o pai de Cambises)», se o Gere quiser clareza.

@@ -41,3 +41,9 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 33.1: διέφθειραν γυναῖκας («arruinaram, violaram»; Godley: morreram por causa da multidão) virou «mataram algumas mulheres, violentando-as»: «mataram» é interpretação, o grego diz só o dano → «violaram algumas mulheres, tantos eram eles» (ou manter «mataram» com nota).
+- 39.1: «Fílaco» (e «Autônoo») difere de CONVENCOES.md («Filaco e Autónoo»); decidir a grafia (a tradução traz o acento em Fílaco, a lista não).
+- 29.2: «aquele partido nos agradava» para ἐκεῖνα ἡμῖν ἥνδανε (a situação anterior, a causa dos gregos): «partido» induz a ler como facção → «enquanto as coisas nos agradavam daquele lado».
+- Números conferidos (600 fócios, 4 mil mortos, 50 talentos, 30 estádios, 60 delfenses): corretos. Negações e quem fala em 29–30 corretos.

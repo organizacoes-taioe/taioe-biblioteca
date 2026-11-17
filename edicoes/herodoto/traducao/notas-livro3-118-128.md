@@ -50,3 +50,10 @@
 
 ## Candidatos a decisão do Gere
 - Nenhum.
+
+## Revisão contra o grego
+- 125.3: «ele os ficou tendo como cativos» é português ruim (ἐν ἀνδραπόδων λόγῳ ποιεύμενος εἶχε) → «ficou com eles como escravos».
+- 122.4: «e eu o mostrarei a ele» fica ambíguo (o que se mostra?) → «e eu lhe mostrarei o dinheiro».
+- 119.2: «acorrentou-os para a morte» (ἔδησε τὴν ἐπὶ θανάτῳ) é obscuro → «prendeu-os, condenados à morte».
+- 127.3: «temos de detê-lo com a morte» (καταλαμπτέος … θανάτῳ) → «temos de apanhá-lo e matá-lo».
+- Números (15 hoplitas, 8 arcas, 1.000 lanceiros, 30 voluntários), nomes e negações conferidos: nenhuma outra correção.

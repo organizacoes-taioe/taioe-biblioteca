@@ -1,0 +1,395 @@
+{
+  "verbetes": {
+    "amittit": {
+      "lema": "amitto",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Perder; deixar escapar."
+      ],
+      "nota": "Perde."
+    },
+    "merito": {
+      "lema": "meritum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "O mérito."
+      ],
+      "nota": "Como advérbio: com razão."
+    },
+    "proprium": {
+      "lema": "proprius",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Próprio; particular."
+      ],
+      "nota": "Substantivado, objeto de amittit: o que é seu."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de amittit e de adpetit: quem."
+    },
+    "alienum": {
+      "lema": "alienus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Alheio; de outro."
+      ],
+      "nota": "Substantivado, objeto de adpetit: o alheio."
+    },
+    "adpetit": {
+      "lema": "appeto",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Cobiçar; ambicionar."
+      ],
+      "nota": "Cobiça."
+    },
+    "canis": {
+      "lema": "canis",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O cão."
+      ],
+      "nota": "Sujeito de vidit: um cão."
+    },
+    "per": {
+      "lema": "per",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por."
+      ]
+    },
+    "flumen": {
+      "lema": "flumen",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O rio; a corrente."
+      ],
+      "nota": "Depois de per: pelo rio."
+    },
+    "carnem": {
+      "lema": "caro",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A carne."
+      ],
+      "nota": "Objeto de ferret: a carne."
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "conjunção",
+      "def": [
+        "Quando; no momento em que."
+      ],
+      "nota": "Conjunção: quando."
+    },
+    "ferret": {
+      "lema": "fero",
+      "classe": "verbo",
+      "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Levar; carregar."
+      ],
+      "nota": "Depois de cum: levava."
+    },
+    "natans": {
+      "lema": "nato",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo masculino singular",
+      "def": [
+        "Nadar; flutuar."
+      ],
+      "nota": "Concorda com canis: nadando."
+    },
+    "lympharum": {
+      "lema": "lympha",
+      "classe": "substantivo feminino",
+      "forma": "genitivo plural",
+      "def": [
+        "A água clara; a água."
+      ],
+      "nota": "De quê: das águas."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em."
+      ]
+    },
+    "speculo": {
+      "lema": "speculum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "O espelho; o vidro polido."
+      ],
+      "nota": "Depois de in: no espelho."
+    },
+    "vidit": {
+      "lema": "video",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ver."
+      ],
+      "nota": "Viu."
+    },
+    "simulacrum": {
+      "lema": "simulacrum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "A imagem; o reflexo."
+      ],
+      "nota": "Objeto de vidit: a imagem."
+    },
+    "suum": {
+      "lema": "suus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Seu; dele."
+      ],
+      "nota": "Concorda com simulacrum: sua."
+    },
+    "aliamque": {
+      "partes": [
+        {
+          "lema": "alius",
+          "classe": "adjetivo",
+          "forma": "acusativo feminino singular",
+          "def": [
+            "Outro; diferente."
+          ]
+        },
+        {
+          "lema": "-que",
+          "classe": "conjunção",
+          "def": [
+            "E."
+          ]
+        }
+      ],
+      "nota": "Concorda com praedam: outra; -que liga putans ao que vem antes: e."
+    },
+    "praedam": {
+      "lema": "praeda",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A presa; o despojo."
+      ],
+      "nota": "Sujeito de ferri: uma presa."
+    },
+    "ab": {
+      "lema": "ab",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De; desde."
+      ]
+    },
+    "altero": {
+      "lema": "alter",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Outro; de dois."
+      ],
+      "nota": "Depois de ab, agente de ferri: por outro (cão)."
+    },
+    "ferri": {
+      "lema": "fero",
+      "classe": "verbo",
+      "forma": "infinitivo presente, voz passiva",
+      "def": [
+        "Levar; carregar."
+      ],
+      "nota": "Depende de putans: ser levada."
+    },
+    "putans": {
+      "lema": "puto",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo masculino singular",
+      "def": [
+        "Achar; supor."
+      ],
+      "nota": "Concorda com canis: julgando."
+    },
+    "eripere": {
+      "lema": "eripio",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Arrancar; tirar."
+      ],
+      "nota": "Depende de voluit: arrancar."
+    },
+    "voluit": {
+      "lema": "volo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Querer."
+      ],
+      "nota": "Quis."
+    },
+    "verum": {
+      "lema": "verum",
+      "classe": "conjunção",
+      "def": [
+        "Porém; todavia."
+      ],
+      "nota": "Mas."
+    },
+    "decepta": {
+      "lema": "decipio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Iludir; ludibriar."
+      ],
+      "nota": "Concorda com aviditas: enganada."
+    },
+    "aviditas": {
+      "lema": "aviditas",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A avidez; a cobiça."
+      ],
+      "nota": "Sujeito de dimisit e de potuit: a avidez."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "quem": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo, retoma cibum, objeto de tenebat: que."
+    },
+    "tenebat": {
+      "lema": "teneo",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Segurar; manter."
+      ],
+      "nota": "Segurava."
+    },
+    "ore": {
+      "lema": "os",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "A boca."
+      ],
+      "nota": "Onde: na boca."
+    },
+    "dimisit": {
+      "lema": "dimitto",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Soltar; deixar ir."
+      ],
+      "nota": "Soltou."
+    },
+    "cibum": {
+      "lema": "cibus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O alimento; a comida."
+      ],
+      "nota": "Objeto de dimisit: a comida."
+    },
+    "nec": {
+      "lema": "nec",
+      "classe": "conjunção",
+      "def": [
+        "Nem; e não."
+      ]
+    },
+    "quem#2": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo, objeto de petebat e de adtingere: o que."
+    },
+    "petebat": {
+      "lema": "peto",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Buscar; procurar alcançar."
+      ],
+      "nota": "Buscava."
+    },
+    "potuit": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Poder."
+      ],
+      "nota": "Pôde."
+    },
+    "adeo": {
+      "lema": "adeo",
+      "classe": "advérbio",
+      "def": [
+        "A tal ponto; justamente."
+      ],
+      "nota": "Com nec: nem sequer."
+    },
+    "adtingere": {
+      "lema": "attingo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Alcançar; atingir."
+      ],
+      "nota": "Depende de potuit: alcançar."
+    },
+    "fluvium": {
+      "lema": "fluvius",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "Rio."
+      ],
+      "nota": "O título: «o cão pelo rio» (atravessando o rio)."
+    }
+  },
+  "ocorrencias": {
+    "7.2": "quem#2"
+  }
+}

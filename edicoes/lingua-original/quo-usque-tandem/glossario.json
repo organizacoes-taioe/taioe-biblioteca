@@ -1,0 +1,291 @@
+{
+  "verbetes": {
+    "quo": {
+      "lema": "quo",
+      "classe": "advérbio",
+      "def": [
+        "Para onde."
+      ],
+      "nota": "Com usque: até quando."
+    },
+    "usque": {
+      "lema": "usque",
+      "classe": "advérbio",
+      "def": [
+        "Sem parar; até."
+      ],
+      "nota": "Quo usque: até quando."
+    },
+    "tandem": {
+      "lema": "tandem",
+      "classe": "advérbio",
+      "def": [
+        "Afinal; finalmente."
+      ],
+      "nota": "Afinal."
+    },
+    "abutere": {
+      "lema": "abutor",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Abusar; usar mal."
+      ],
+      "nota": "Depoente, forma curta de abuteris: abusarás."
+    },
+    "catilina": {
+      "lema": "Catilina",
+      "classe": "nome próprio",
+      "forma": "vocativo singular",
+      "def": [
+        "Catilina, o senador que conspirou contra Roma em 63 a.C."
+      ],
+      "nota": "Nome próprio, Catilina: a quem se fala."
+    },
+    "patientia": {
+      "lema": "patientia",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A paciência; a tolerância."
+      ],
+      "nota": "Com abutere: da paciência."
+    },
+    "nostra": {
+      "lema": "noster",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com patientia: nossa."
+    },
+    "quam": {
+      "lema": "quam",
+      "classe": "advérbio",
+      "def": [
+        "Quanto; do que."
+      ],
+      "nota": "Com diu: por quanto."
+    },
+    "diu": {
+      "lema": "diu",
+      "classe": "advérbio",
+      "def": [
+        "Por muito tempo; há muito."
+      ],
+      "nota": "Quam diu: por quanto tempo."
+    },
+    "etiam": {
+      "lema": "etiam",
+      "classe": "advérbio",
+      "def": [
+        "Também; até."
+      ],
+      "nota": "Ainda."
+    },
+    "furor": {
+      "lema": "furor",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O furor."
+      ],
+      "nota": "Sujeito de eludet: o furor."
+    },
+    "iste": {
+      "lema": "iste",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Esse; o que está aí."
+      ],
+      "nota": "Concorda com furor: esse."
+    },
+    "tuus": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com furor: teu."
+    },
+    "nos": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "acusativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Objeto de eludet: nós."
+    },
+    "eludet": {
+      "lema": "eludo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Zombar; burlar."
+      ],
+      "nota": "Zombará de."
+    },
+    "quem": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Que; qual (em pergunta)."
+      ],
+      "nota": "Interrogativo, concorda com finem: que."
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Para; até, junto a."
+      ]
+    },
+    "finem": {
+      "lema": "finis",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O fim; o limite."
+      ],
+      "nota": "Depois de ad: até que fim."
+    },
+    "sese": {
+      "lema": "sui",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Se; a si mesmo."
+      ],
+      "nota": "Objeto de iactabit: a si mesma."
+    },
+    "effrenata": {
+      "lema": "effrenatus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Desenfreado; sem freio."
+      ],
+      "nota": "Concorda com audacia: desenfreada."
+    },
+    "iactabit": {
+      "lema": "iacto",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Sacudir; agitar."
+      ],
+      "nota": "Com sese: se lançará."
+    },
+    "audacia": {
+      "lema": "audacia",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A ousadia; o atrevimento."
+      ],
+      "nota": "Sujeito de iactabit: a audácia."
+    },
+    "o": {
+      "lema": "o",
+      "classe": "interjeição",
+      "def": [
+        "Ó."
+      ]
+    },
+    "tempora": {
+      "lema": "tempus",
+      "classe": "substantivo neutro",
+      "forma": "vocativo plural",
+      "def": [
+        "O tempo."
+      ],
+      "nota": "Exclamação: ó tempos."
+    },
+    "mores": {
+      "lema": "mos",
+      "classe": "substantivo masculino",
+      "forma": "vocativo plural",
+      "def": [
+        "O costume; o hábito."
+      ],
+      "nota": "Exclamação: ó costumes."
+    },
+    "senatus": {
+      "lema": "senatus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O senado; o conselho."
+      ],
+      "nota": "Sujeito de intellegit: o senado."
+    },
+    "haec": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Este."
+      ],
+      "nota": "Objeto de intellegit e de videt: estas coisas."
+    },
+    "intellegit": {
+      "lema": "intellego",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Compreender; entender."
+      ],
+      "nota": "Entende."
+    },
+    "consul": {
+      "lema": "consul",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O cônsul."
+      ],
+      "nota": "Sujeito de videt: o cônsul."
+    },
+    "videt": {
+      "lema": "video",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ver."
+      ],
+      "nota": "Vê."
+    },
+    "hic": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Este."
+      ],
+      "nota": "Sujeito de vivit: este homem (Catilina)."
+    },
+    "tamen": {
+      "lema": "tamen",
+      "classe": "advérbio",
+      "def": [
+        "Contudo."
+      ]
+    },
+    "vivit": {
+      "lema": "vivo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Viver."
+      ],
+      "nota": "Vive."
+    }
+  },
+  "ocorrencias": {}
+}

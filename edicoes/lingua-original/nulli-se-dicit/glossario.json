@@ -1,0 +1,231 @@
+{
+  "verbetes": {
+    "nulli": {
+      "lema": "nullus",
+      "classe": "adjetivo",
+      "forma": "dativo masculino singular",
+      "def": [
+        "Nenhum; nulo."
+      ],
+      "nota": "Com nubere, que pede dativo: com ninguém."
+    },
+    "se": {
+      "lema": "sui",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Se; a si mesmo."
+      ],
+      "nota": "Sujeito de malle (oração infinitiva): ela."
+    },
+    "dicit": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dizer."
+      ],
+      "nota": "Diz."
+    },
+    "mulier": {
+      "lema": "mulier",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A mulher."
+      ],
+      "nota": "Sujeito de dicit: a mulher."
+    },
+    "mea": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com mulier: minha."
+    },
+    "nubere": {
+      "lema": "nubo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Casar-se; dito da mulher."
+      ],
+      "nota": "Depende de malle: casar-se."
+    },
+    "malle": {
+      "lema": "malo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Preferir; querer antes."
+      ],
+      "nota": "Oração infinitiva, com se: preferir."
+    },
+    "quam": {
+      "lema": "quam",
+      "classe": "advérbio",
+      "def": [
+        "Quanto; do que."
+      ],
+      "nota": "Depois de malle: do que."
+    },
+    "mihi": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Com nubere, subentendido: comigo."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "si": {
+      "lema": "si",
+      "classe": "conjunção",
+      "def": [
+        "Se (condição)."
+      ]
+    },
+    "se#2": {
+      "lema": "sui",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Se; a si mesmo."
+      ],
+      "nota": "Objeto de petat: a ela."
+    },
+    "iuppiter": {
+      "lema": "Iuppiter",
+      "classe": "nome próprio",
+      "forma": "nominativo singular",
+      "def": [
+        "Júpiter, o rei dos deuses."
+      ],
+      "nota": "Nome próprio, Júpiter: sujeito de petat."
+    },
+    "ipse": {
+      "lema": "ipse",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Mesmo; próprio."
+      ],
+      "nota": "Concorda com Iuppiter: em pessoa."
+    },
+    "petat": {
+      "lema": "peto",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Pedir."
+      ],
+      "nota": "Depois de si: pedisse (em casamento)."
+    },
+    "sed": {
+      "lema": "sed",
+      "classe": "conjunção",
+      "def": [
+        "Mas."
+      ]
+    },
+    "cupido": {
+      "lema": "cupidus",
+      "classe": "adjetivo",
+      "forma": "dativo masculino singular",
+      "def": [
+        "Desejoso; ávido."
+      ],
+      "nota": "Concorda com amanti: apaixonado."
+    },
+    "quod": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Objeto de dicit: o que."
+    },
+    "amanti": {
+      "lema": "amo",
+      "classe": "verbo",
+      "forma": "particípio presente, dativo masculino singular",
+      "def": [
+        "Amar."
+      ],
+      "nota": "A quem: ao amante."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em."
+      ]
+    },
+    "vento": {
+      "lema": "ventus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O vento; o sopro."
+      ],
+      "nota": "Depois de in: no vento."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "rapida": {
+      "lema": "rapidus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Rápido; veloz."
+      ],
+      "nota": "Concorda com aqua: corrente."
+    },
+    "scribere": {
+      "lema": "scribo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Escrever; redigir."
+      ],
+      "nota": "Sujeito de oportet: escrever."
+    },
+    "oportet": {
+      "lema": "oportet",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser preciso; convir."
+      ],
+      "nota": "Impessoal: é preciso."
+    },
+    "aqua": {
+      "lema": "aqua",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A água."
+      ],
+      "nota": "Depois de in: na água."
+    }
+  },
+  "ocorrencias": {
+    "2.5": "se#2"
+  }
+}

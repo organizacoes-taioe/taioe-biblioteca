@@ -1,0 +1,725 @@
+{
+  "verbetes": {
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de gaudet e de dat: quem."
+    },
+    "se": {
+      "lema": "sui",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Se; a si mesmo."
+      ],
+      "nota": "Sujeito de laudari: a si mesmo."
+    },
+    "laudari": {
+      "lema": "laudo",
+      "classe": "verbo",
+      "forma": "infinitivo presente, voz passiva",
+      "def": [
+        "Louvar."
+      ],
+      "nota": "Depende de gaudet: ser elogiado."
+    },
+    "gaudet": {
+      "lema": "gaudeo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Alegrar-se."
+      ],
+      "nota": "Gosta."
+    },
+    "verbis": {
+      "lema": "verbum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "A palavra."
+      ],
+      "nota": "Meio: com palavras."
+    },
+    "subdolis": {
+      "lema": "subdolus",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro plural",
+      "def": [
+        "Ardiloso; manhoso."
+      ],
+      "nota": "Concorda com verbis: ardilosas."
+    },
+    "fere": {
+      "lema": "fere",
+      "classe": "advérbio",
+      "def": [
+        "Quase; geralmente."
+      ],
+      "nota": "Quase sempre."
+    },
+    "dat": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dar."
+      ],
+      "nota": "Com poenas: paga."
+    },
+    "poenas": {
+      "lema": "poena",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "A pena; o castigo."
+      ],
+      "nota": "Objeto de dat: a pena."
+    },
+    "turpi": {
+      "lema": "turpis",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Feio; vergonhoso."
+      ],
+      "nota": "Concorda com paenitentia: vergonhoso."
+    },
+    "paenitentia": {
+      "lema": "paenitentia",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A penitência; o arrependimento."
+      ],
+      "nota": "Modo: com um arrependimento."
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "conjunção",
+      "def": [
+        "Quando; no momento em que."
+      ],
+      "nota": "Conjunção: quando."
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "De."
+      ]
+    },
+    "fenestra": {
+      "lema": "fenestra",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A janela; a abertura."
+      ],
+      "nota": "Depois de de: de uma janela."
+    },
+    "corvus": {
+      "lema": "corvus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O corvo."
+      ],
+      "nota": "Sujeito de vellet: um corvo."
+    },
+    "raptum": {
+      "lema": "rapio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino singular",
+      "def": [
+        "Arrebatar; roubar."
+      ],
+      "nota": "Concorda com caseum: roubado."
+    },
+    "caseum": {
+      "lema": "caseus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O queijo."
+      ],
+      "nota": "Objeto de comesse: o queijo."
+    },
+    "comesse": {
+      "lema": "comedo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Comer; devorar."
+      ],
+      "nota": "Forma curta de comedere, depende de vellet: comer."
+    },
+    "vellet": {
+      "lema": "volo",
+      "classe": "verbo",
+      "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Querer."
+      ],
+      "nota": "Depois de cum: queria."
+    },
+    "celsa": {
+      "lema": "celsus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Elevado; erguido."
+      ],
+      "nota": "Concorda com arbore: alta."
+    },
+    "residens": {
+      "lema": "resideo",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo masculino singular",
+      "def": [
+        "Pousar; residir."
+      ],
+      "nota": "Concorda com corvus: pousado."
+    },
+    "arbore": {
+      "lema": "arbor",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A árvore."
+      ],
+      "nota": "Onde: numa árvore."
+    },
+    "vulpes": {
+      "lema": "vulpes",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A raposa."
+      ],
+      "nota": "Sujeito de vidit e de coepit: a raposa."
+    },
+    "hunc": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Este."
+      ],
+      "nota": "Objeto de vidit: este (o corvo)."
+    },
+    "vidit": {
+      "lema": "video",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ver."
+      ],
+      "nota": "Viu."
+    },
+    "deinde": {
+      "lema": "deinde",
+      "classe": "advérbio",
+      "def": [
+        "Então; em seguida."
+      ]
+    },
+    "sic": {
+      "lema": "sic",
+      "classe": "advérbio",
+      "def": [
+        "Assim; desta maneira."
+      ]
+    },
+    "coepit": {
+      "lema": "coepi",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Começar; principiar."
+      ],
+      "nota": "Começou."
+    },
+    "loqui": {
+      "lema": "loquor",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Falar."
+      ],
+      "nota": "Depoente, depende de coepit: falar."
+    },
+    "o": {
+      "lema": "o",
+      "classe": "interjeição",
+      "def": [
+        "Ó."
+      ]
+    },
+    "qui#2": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Exclamativo, concorda com nitor: que."
+    },
+    "tuarum": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino plural",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com pennarum: tuas."
+    },
+    "corve": {
+      "lema": "corvus",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "O corvo."
+      ],
+      "nota": "A quem se fala: corvo."
+    },
+    "pennarum": {
+      "lema": "penna",
+      "classe": "substantivo feminino",
+      "forma": "genitivo plural",
+      "def": [
+        "A pena; a pluma."
+      ],
+      "nota": "De quê: das penas."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "nitor": {
+      "lema": "nitor",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O brilho; o lustro."
+      ],
+      "nota": "Sujeito de est: o brilho."
+    },
+    "quantum": {
+      "lema": "quantus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Quanto; quão grande."
+      ],
+      "nota": "Objeto de geris: quanto."
+    },
+    "decoris": {
+      "lema": "decus",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "A honra; o ornamento."
+      ],
+      "nota": "Partitivo, com quantum: de beleza."
+    },
+    "corpore": {
+      "lema": "corpus",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "O corpo."
+      ],
+      "nota": "Onde: no corpo."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "vultu": {
+      "lema": "vultus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O rosto; a expressão."
+      ],
+      "nota": "Onde: no rosto."
+    },
+    "geris": {
+      "lema": "gero",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Trazer; ter (em si)."
+      ],
+      "nota": "Trazes."
+    },
+    "si": {
+      "lema": "si",
+      "classe": "conjunção",
+      "def": [
+        "Se (condição)."
+      ]
+    },
+    "vocem": {
+      "lema": "vox",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A voz."
+      ],
+      "nota": "Objeto de haberes: voz."
+    },
+    "haberes": {
+      "lema": "habeo",
+      "classe": "verbo",
+      "forma": "imperfeito do subjuntivo, 2ª pessoa do singular",
+      "def": [
+        "Ter."
+      ],
+      "nota": "Hipótese irreal: tivesses."
+    },
+    "nulla": {
+      "lema": "nullus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Nenhum; nulo."
+      ],
+      "nota": "Concorda com ales: nenhuma."
+    },
+    "prior": {
+      "lema": "prior",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Anterior; primeiro."
+      ],
+      "nota": "Predicativo de foret: superior."
+    },
+    "ales": {
+      "lema": "ales",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A ave; o pássaro."
+      ],
+      "nota": "Sujeito de foret: ave."
+    },
+    "foret": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Forma antiga de esset: seria."
+    },
+    "at": {
+      "lema": "at",
+      "classe": "conjunção",
+      "def": [
+        "Mas."
+      ]
+    },
+    "ille": {
+      "lema": "ille",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Aquele; ele."
+      ],
+      "nota": "Sujeito de emisit: aquele."
+    },
+    "stultus": {
+      "lema": "stultus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Tolo; néscio."
+      ],
+      "nota": "Concorda com ille: tolo."
+    },
+    "dum": {
+      "lema": "dum",
+      "classe": "conjunção",
+      "def": [
+        "Enquanto."
+      ],
+      "nota": "Enquanto."
+    },
+    "vult": {
+      "lema": "volo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Querer."
+      ],
+      "nota": "Quer."
+    },
+    "vocem#2": {
+      "lema": "vox",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A voz."
+      ],
+      "nota": "Objeto de ostendere: a voz."
+    },
+    "ostendere": {
+      "lema": "ostendo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Mostrar; exibir."
+      ],
+      "nota": "Depende de vult: mostrar."
+    },
+    "emisit": {
+      "lema": "emitto",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Deixar sair; soltar."
+      ],
+      "nota": "Deixou cair."
+    },
+    "ore": {
+      "lema": "os",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "A boca."
+      ],
+      "nota": "De onde: da boca."
+    },
+    "caseum#2": {
+      "lema": "caseus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O queijo."
+      ],
+      "nota": "Objeto de emisit: o queijo."
+    },
+    "quem": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo, retoma caseum, objeto de rapuit: que."
+    },
+    "celeriter": {
+      "lema": "celeriter",
+      "classe": "advérbio",
+      "def": [
+        "Depressa; com rapidez."
+      ]
+    },
+    "dolosa": {
+      "lema": "dolosus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Astuto; enganador."
+      ],
+      "nota": "Concorda com vulpes: astuta."
+    },
+    "vulpes#2": {
+      "lema": "vulpes",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A raposa."
+      ],
+      "nota": "Sujeito de rapuit: a raposa."
+    },
+    "avidis": {
+      "lema": "avidus",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino plural",
+      "def": [
+        "Ávido; guloso."
+      ],
+      "nota": "Concorda com dentibus: ávidos."
+    },
+    "rapuit": {
+      "lema": "rapio",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Arrebatar; roubar."
+      ],
+      "nota": "Agarrou."
+    },
+    "dentibus": {
+      "lema": "dens",
+      "classe": "substantivo masculino",
+      "forma": "ablativo plural",
+      "def": [
+        "O dente; a presa."
+      ],
+      "nota": "Meio: com os dentes."
+    },
+    "tunc": {
+      "lema": "tunc",
+      "classe": "advérbio",
+      "def": [
+        "Então."
+      ]
+    },
+    "demum": {
+      "lema": "demum",
+      "classe": "advérbio",
+      "def": [
+        "Só então; por fim."
+      ],
+      "nota": "Com tunc: só então."
+    },
+    "ingemuit": {
+      "lema": "ingemo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Lamentar-se; queixar-se."
+      ],
+      "nota": "Gemeu."
+    },
+    "corvi": {
+      "lema": "corvus",
+      "classe": "substantivo masculino",
+      "forma": "genitivo singular",
+      "def": [
+        "O corvo."
+      ],
+      "nota": "De quem: do corvo."
+    },
+    "deceptus": {
+      "lema": "decipio",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo masculino singular",
+      "def": [
+        "Iludir; ludibriar."
+      ],
+      "nota": "Concorda com stupor: enganado."
+    },
+    "stupor": {
+      "lema": "stupor",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O torpor; a estupidez."
+      ],
+      "nota": "Sujeito de ingemuit: a tolice."
+    },
+    "hac": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Este."
+      ],
+      "nota": "Concorda com re: esta."
+    },
+    "re": {
+      "lema": "res",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A coisa; o fato."
+      ],
+      "nota": "Meio: com este caso."
+    },
+    "probatur": {
+      "lema": "probo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Provar; aprovar."
+      ],
+      "nota": "Prova-se."
+    },
+    "quantum#2": {
+      "lema": "quantus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Quanto; quão grande."
+      ],
+      "nota": "Interrogativo indireto, como advérbio: quanto."
+    },
+    "ingenium": {
+      "lema": "ingenium",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "O engenho; o talento."
+      ],
+      "nota": "Sujeito de valet: a inteligência."
+    },
+    "valet": {
+      "lema": "valeo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter força; valer."
+      ],
+      "nota": "Vale."
+    },
+    "virtute": {
+      "lema": "virtus",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "O poder; a virtude."
+      ],
+      "nota": "Ablativo de comparação: que a força."
+    },
+    "semper": {
+      "lema": "semper",
+      "classe": "advérbio",
+      "def": [
+        "Sempre."
+      ]
+    },
+    "praevalet": {
+      "lema": "praevaleo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Prevalecer; valer mais."
+      ],
+      "nota": "Vale mais."
+    },
+    "sapientia": {
+      "lema": "sapientia",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A sabedoria."
+      ],
+      "nota": "Sujeito de praevalet: a sabedoria."
+    }
+  },
+  "ocorrencias": {
+    "6.2": "qui#2",
+    "9.6": "vocem#2",
+    "10.3": "caseum#2",
+    "11.2": "vulpes#2",
+    "13.4": "quantum#2"
+  }
+}

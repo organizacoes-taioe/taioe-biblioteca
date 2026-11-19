@@ -1,0 +1,328 @@
+{
+  "verbetes": {
+    "fame": {
+      "lema": "fames",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A fome; a gana."
+      ],
+      "nota": "Causa: pela fome."
+    },
+    "coacta": {
+      "lema": "cogo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Forçar; obrigar."
+      ],
+      "nota": "Concorda com vulpes: forçada."
+    },
+    "vulpes": {
+      "lema": "vulpes",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A raposa."
+      ],
+      "nota": "Sujeito de appetebat: a raposa."
+    },
+    "alta": {
+      "lema": "altus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Alto; profundo."
+      ],
+      "nota": "Concorda com vinea: alta."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em."
+      ]
+    },
+    "vinea": {
+      "lema": "vinea",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A vinha; a parreira."
+      ],
+      "nota": "Depois de in: numa parreira."
+    },
+    "uvam": {
+      "lema": "uva",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A uva; o cacho."
+      ],
+      "nota": "Objeto de appetebat: a uva."
+    },
+    "appetebat": {
+      "lema": "appeto",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Cobiçar; ambicionar."
+      ],
+      "nota": "Tentava alcançar."
+    },
+    "summis": {
+      "lema": "summus",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino plural",
+      "def": [
+        "O mais alto; supremo."
+      ],
+      "nota": "Concorda com viribus: todas as."
+    },
+    "saliens": {
+      "lema": "salio",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo feminino singular",
+      "def": [
+        "Saltar; pular."
+      ],
+      "nota": "Concorda com vulpes: saltando."
+    },
+    "viribus": {
+      "lema": "vis",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "A força; a violência."
+      ],
+      "nota": "Meio: com as forças."
+    },
+    "quam": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo, retoma uvam, objeto de tangere: a qual."
+    },
+    "tangere": {
+      "lema": "tango",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Tocar."
+      ],
+      "nota": "Depende de potuit: tocar."
+    },
+    "ut": {
+      "lema": "ut",
+      "classe": "conjunção",
+      "def": [
+        "Quando; como (com indicativo)."
+      ],
+      "nota": "Com indicativo: quando."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "potuit": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Poder."
+      ],
+      "nota": "Pôde."
+    },
+    "discedens": {
+      "lema": "discedo",
+      "classe": "verbo",
+      "forma": "particípio presente, nominativo feminino singular",
+      "def": [
+        "Ir embora; afastar-se."
+      ],
+      "nota": "Concorda com a raposa: afastando-se."
+    },
+    "ait": {
+      "lema": "aio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dizer; afirmar."
+      ],
+      "nota": "Diz."
+    },
+    "nondum": {
+      "lema": "nondum",
+      "classe": "advérbio",
+      "def": [
+        "Ainda não; até agora não."
+      ]
+    },
+    "matura": {
+      "lema": "maturus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Maduro; amadurecido."
+      ],
+      "nota": "Predicativo de est: madura (a uva)."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "nolo": {
+      "lema": "nolo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Não querer."
+      ],
+      "nota": "Não quero."
+    },
+    "acerbam": {
+      "lema": "acerbus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Amargo; áspero."
+      ],
+      "nota": "Substantivado, objeto de sumere: (a uva) verde."
+    },
+    "sumere": {
+      "lema": "sumo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Assumir; pegar."
+      ],
+      "nota": "Depende de nolo: pegar."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de elevant e de debebunt: os que."
+    },
+    "facere": {
+      "lema": "facio",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Fazer."
+      ],
+      "nota": "Depende de possunt: fazer."
+    },
+    "quae": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo neutro plural",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Objeto de facere e de elevant: as coisas que."
+    },
+    "possunt": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Poder."
+      ],
+      "nota": "Podem."
+    },
+    "verbis": {
+      "lema": "verbum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "A palavra."
+      ],
+      "nota": "Meio: com palavras."
+    },
+    "elevant": {
+      "lema": "elevo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Diminuir; depreciar, fazer pouco de."
+      ],
+      "nota": "Depreciam."
+    },
+    "ascribere": {
+      "lema": "ascribo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Atribuir; inscrever."
+      ],
+      "nota": "Depende de debebunt: aplicar."
+    },
+    "hoc": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Este."
+      ],
+      "nota": "Concorda com exemplum: este."
+    },
+    "debebunt": {
+      "lema": "debeo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Dever; ter de."
+      ],
+      "nota": "Deverão."
+    },
+    "exemplum": {
+      "lema": "exemplum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O exemplo; o modelo."
+      ],
+      "nota": "Objeto de ascribere: o exemplo."
+    },
+    "sibi": {
+      "lema": "sui",
+      "classe": "pronome",
+      "forma": "dativo plural",
+      "def": [
+        "Se; a si mesmo."
+      ],
+      "nota": "A quem: a si mesmos."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "uva": {
+      "lema": "uva",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "Uva; cacho de uvas."
+      ]
+    }
+  },
+  "ocorrencias": {}
+}

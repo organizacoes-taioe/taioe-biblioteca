@@ -1,0 +1,161 @@
+{
+  "verbetes": {
+    "miraris": {
+      "lema": "miror",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Admirar."
+      ],
+      "nota": "Depoente: admiras."
+    },
+    "veteres": {
+      "lema": "vetus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Antigo; de muito tempo."
+      ],
+      "nota": "Objeto de miraris: os antigos."
+    },
+    "vacerra": {
+      "lema": "Vacerra",
+      "classe": "nome próprio",
+      "forma": "vocativo singular",
+      "def": [
+        "Vacerra, o que só admirava os poetas mortos."
+      ],
+      "nota": "Nome próprio, Vacerra: a quem se fala."
+    },
+    "solos": {
+      "lema": "solus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Só."
+      ],
+      "nota": "Concorda com veteres: só."
+    },
+    "nec": {
+      "lema": "nec",
+      "classe": "conjunção",
+      "def": [
+        "Nem; e não."
+      ]
+    },
+    "laudas": {
+      "lema": "laudo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Louvar."
+      ],
+      "nota": "Elogias."
+    },
+    "nisi": {
+      "lema": "nisi",
+      "classe": "conjunção",
+      "def": [
+        "Se não; a menos que."
+      ],
+      "nota": "Senão."
+    },
+    "mortuos": {
+      "lema": "mortuus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Morto."
+      ],
+      "nota": "Concorda com poetas: mortos."
+    },
+    "poetas": {
+      "lema": "poeta",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "O poeta; o versejador."
+      ],
+      "nota": "Objeto de laudas: os poetas."
+    },
+    "ignoscas": {
+      "lema": "ignosco",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 2ª pessoa do singular",
+      "def": [
+        "Perdoar; desculpar."
+      ],
+      "nota": "Depende de petimus, sem ut: que perdoes."
+    },
+    "petimus": {
+      "lema": "peto",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Pedir."
+      ],
+      "nota": "Pedimos."
+    },
+    "tanti": {
+      "lema": "tantus",
+      "classe": "adjetivo",
+      "forma": "genitivo neutro singular",
+      "def": [
+        "Tão grande; tamanho."
+      ],
+      "nota": "Genitivo de preço, com est: valer tanto."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Com tanti: vale tanto."
+    },
+    "ut": {
+      "lema": "ut",
+      "classe": "conjunção",
+      "def": [
+        "Para que (com subjuntivo)."
+      ],
+      "nota": "Depois de tanti non est: para que."
+    },
+    "placeam": {
+      "lema": "placeo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do singular",
+      "def": [
+        "Agradar; satisfazer."
+      ],
+      "nota": "Depois de ut: agrade."
+    },
+    "tibi": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "A quem: a ti."
+    },
+    "perire": {
+      "lema": "pereo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Perecer; morrer."
+      ],
+      "nota": "Sujeito de est: morrer."
+    }
+  },
+  "ocorrencias": {}
+}

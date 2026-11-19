@@ -1,0 +1,255 @@
+{
+  "verbetes": {
+    "gallia": {
+      "lema": "Gallia",
+      "classe": "nome próprio",
+      "forma": "nominativo singular",
+      "def": [
+        "A Gália, a terra dos gauleses (hoje, sobretudo a França e a Bélgica)."
+      ],
+      "nota": "Nome próprio, a Gália: sujeito de est divisa."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Com divisa: está dividida."
+    },
+    "omnis": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Concorda com Gallia: toda."
+    },
+    "divisa": {
+      "lema": "divido",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Dividir; repartir."
+      ],
+      "nota": "Com est: dividida."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Em (com acusativo, na divisão)."
+      ]
+    },
+    "partes": {
+      "lema": "pars",
+      "classe": "substantivo feminino",
+      "forma": "acusativo plural",
+      "def": [
+        "A parte."
+      ],
+      "nota": "Depois de in: em partes."
+    },
+    "tres": {
+      "lema": "tres",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino plural",
+      "def": [
+        "Três."
+      ],
+      "nota": "Concorda com partes: três."
+    },
+    "quarum": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "genitivo feminino plural",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo, retoma partes: das quais."
+    },
+    "unam": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "Objeto de incolunt: uma."
+    },
+    "incolunt": {
+      "lema": "incolo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Habitar; morar em."
+      ],
+      "nota": "Habitam."
+    },
+    "belgae": {
+      "lema": "Belgae",
+      "classe": "nome próprio",
+      "forma": "nominativo plural",
+      "def": [
+        "Os belgas, o povo do norte da Gália."
+      ],
+      "nota": "Nome próprio, os belgas: sujeito de incolunt."
+    },
+    "aliam": {
+      "lema": "alius",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Outro; diferente."
+      ],
+      "nota": "Objeto de incolunt, subentendido: outra."
+    },
+    "aquitani": {
+      "lema": "Aquitani",
+      "classe": "nome próprio",
+      "forma": "nominativo plural",
+      "def": [
+        "Os aquitanos, o povo do sudoeste da Gália."
+      ],
+      "nota": "Nome próprio, os aquitanos: sujeito de incolunt, subentendido."
+    },
+    "tertiam": {
+      "lema": "tertius",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Terceiro."
+      ],
+      "nota": "Objeto de incolunt, subentendido: a terceira."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de appellantur e de incolunt: os que."
+    },
+    "ipsorum": {
+      "lema": "ipse",
+      "classe": "pronome",
+      "forma": "genitivo masculino plural",
+      "def": [
+        "Mesmo; próprio."
+      ],
+      "nota": "De quem: deles mesmos."
+    },
+    "lingua": {
+      "lema": "lingua",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A língua; a fala."
+      ],
+      "nota": "Em quê: na língua."
+    },
+    "celtae": {
+      "lema": "Celtae",
+      "classe": "nome próprio",
+      "forma": "nominativo plural",
+      "def": [
+        "Os celtas: o nome que os gauleses do centro davam a si mesmos."
+      ],
+      "nota": "Nome próprio, os celtas: predicativo de appellantur."
+    },
+    "nostra": {
+      "lema": "noster",
+      "classe": "adjetivo",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com lingua, subentendida: na nossa."
+    },
+    "galli": {
+      "lema": "Galli",
+      "classe": "nome próprio",
+      "forma": "nominativo plural",
+      "def": [
+        "Os gauleses: o nome romano dos celtas da Gália."
+      ],
+      "nota": "Nome próprio, os gauleses: predicativo de appellantur."
+    },
+    "appellantur": {
+      "lema": "appello",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural, voz passiva",
+      "def": [
+        "Chamar; dar nome."
+      ],
+      "nota": "São chamados."
+    },
+    "hi": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Este."
+      ],
+      "nota": "Sujeito de differunt: estes."
+    },
+    "omnes": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Concorda com hi: todos."
+    },
+    "institutis": {
+      "lema": "institutum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo plural",
+      "def": [
+        "O costume; a instituição."
+      ],
+      "nota": "Em quê: nos costumes."
+    },
+    "legibus": {
+      "lema": "lex",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "A lei."
+      ],
+      "nota": "Em quê: nas leis."
+    },
+    "inter": {
+      "lema": "inter",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Entre; no meio de."
+      ]
+    },
+    "se": {
+      "lema": "sui",
+      "classe": "pronome",
+      "forma": "acusativo plural",
+      "def": [
+        "Se; a si mesmo."
+      ],
+      "nota": "Depois de inter: si."
+    },
+    "differunt": {
+      "lema": "differo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Diferir; ser diferente."
+      ],
+      "nota": "Diferem."
+    }
+  },
+  "ocorrencias": {}
+}

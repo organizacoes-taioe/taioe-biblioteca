@@ -1,0 +1,657 @@
+{
+  "verbetes": {
+    "o": {
+      "lema": "o",
+      "classe": "interjeição",
+      "def": [
+        "Ó."
+      ]
+    },
+    "fortuna": {
+      "lema": "fortuna",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "A sorte; a fortuna."
+      ],
+      "nota": "A quem se fala: Fortuna, a sorte em pessoa."
+    },
+    "velut": {
+      "lema": "velut",
+      "classe": "advérbio",
+      "def": [
+        "Tal como; assim como."
+      ]
+    },
+    "luna": {
+      "lema": "luna",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A lua."
+      ],
+      "nota": "Comparação: a lua."
+    },
+    "statu": {
+      "lema": "status",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O estado; a condição."
+      ],
+      "nota": "Em quê: de estado."
+    },
+    "variabilis": {
+      "lema": "variabilis",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Variável; mutável."
+      ],
+      "nota": "Concorda com Fortuna: mudável."
+    },
+    "semper": {
+      "lema": "semper",
+      "classe": "advérbio",
+      "def": [
+        "Sempre."
+      ]
+    },
+    "crescis": {
+      "lema": "cresco",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Crescer."
+      ],
+      "nota": "Cresces."
+    },
+    "aut": {
+      "lema": "aut",
+      "classe": "conjunção",
+      "def": [
+        "Ou; senão."
+      ]
+    },
+    "decrescis": {
+      "lema": "decresco",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Diminuir; minguar."
+      ],
+      "nota": "Decresces."
+    },
+    "vita": {
+      "lema": "vita",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A vida."
+      ],
+      "nota": "Sujeito de obdurat e de curat: a vida."
+    },
+    "detestabilis": {
+      "lema": "detestabilis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Abominável; detestável."
+      ],
+      "nota": "Concorda com vita: detestável."
+    },
+    "nunc": {
+      "lema": "nunc",
+      "classe": "advérbio",
+      "def": [
+        "Agora."
+      ],
+      "nota": "Com tunc: ora."
+    },
+    "obdurat": {
+      "lema": "obduro",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Endurecer; persistir."
+      ],
+      "nota": "Endurece."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "tunc": {
+      "lema": "tunc",
+      "classe": "advérbio",
+      "def": [
+        "Então."
+      ],
+      "nota": "Com nunc: ora."
+    },
+    "curat": {
+      "lema": "curo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Cuidar."
+      ],
+      "nota": "Cura."
+    },
+    "ludo": {
+      "lema": "ludus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O jogo; a brincadeira."
+      ],
+      "nota": "Modo: por brincadeira."
+    },
+    "mentis": {
+      "lema": "mens",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A mente."
+      ],
+      "nota": "De quê: da mente."
+    },
+    "aciem": {
+      "lema": "acies",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "O gume; a agudeza."
+      ],
+      "nota": "Objeto de obdurat e de curat: a agudeza."
+    },
+    "egestatem": {
+      "lema": "egestas",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A pobreza; a miséria."
+      ],
+      "nota": "Objeto de dissolvit: a pobreza."
+    },
+    "potestatem": {
+      "lema": "potestas",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A autoridade; o domínio."
+      ],
+      "nota": "Objeto de dissolvit: o poder."
+    },
+    "dissolvit": {
+      "lema": "dissolvo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dissolver; derreter."
+      ],
+      "nota": "Dissolve."
+    },
+    "ut": {
+      "lema": "ut",
+      "classe": "advérbio",
+      "def": [
+        "Como (comparação)."
+      ],
+      "nota": "Comparação: como."
+    },
+    "glaciem": {
+      "lema": "glacies",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "O gelo; a água congelada."
+      ],
+      "nota": "Comparação, como objeto: o gelo."
+    },
+    "sors": {
+      "lema": "sors",
+      "classe": "substantivo feminino",
+      "forma": "vocativo singular",
+      "def": [
+        "O destino; o lote."
+      ],
+      "nota": "A quem se fala: sorte."
+    },
+    "immanis": {
+      "lema": "immanis",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Monstruoso; desmedido."
+      ],
+      "nota": "Concorda com sors: monstruosa."
+    },
+    "inanis": {
+      "lema": "inanis",
+      "classe": "adjetivo",
+      "forma": "vocativo feminino singular",
+      "def": [
+        "Vão; vazio."
+      ],
+      "nota": "Concorda com sors: vazia."
+    },
+    "rota": {
+      "lema": "rota",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A roda."
+      ],
+      "nota": "Aposto de tu: roda."
+    },
+    "tu": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "nominativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Tu."
+    },
+    "volubilis": {
+      "lema": "volubilis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Giratório; volúvel."
+      ],
+      "nota": "Concorda com rota: que gira."
+    },
+    "status": {
+      "lema": "status",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O estado; a condição."
+      ],
+      "nota": "Aposto de tu: estado."
+    },
+    "malus": {
+      "lema": "malus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Mau; ruim."
+      ],
+      "nota": "Concorda com status: mau."
+    },
+    "vana": {
+      "lema": "vanus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Ilusório; fútil."
+      ],
+      "nota": "Concorda com salus: ilusória."
+    },
+    "salus": {
+      "lema": "salus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A saúde; o bem-estar; a salvação."
+      ],
+      "nota": "Aposto de tu: bem-estar."
+    },
+    "dissolubilis": {
+      "lema": "dissolubilis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Dissolúvel; que se desfaz."
+      ],
+      "nota": "Concorda com salus: que se desfaz."
+    },
+    "obumbrata": {
+      "lema": "obumbro",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Sombrear; escurecer."
+      ],
+      "nota": "Concorda com tu: coberta de sombra."
+    },
+    "velata": {
+      "lema": "velo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Velar."
+      ],
+      "nota": "Concorda com tu: velada."
+    },
+    "mihi": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Contra quem: contra mim."
+    },
+    "quoque": {
+      "lema": "quoque",
+      "classe": "advérbio",
+      "def": [
+        "Também."
+      ]
+    },
+    "niteris": {
+      "lema": "nitor",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Esforçar-se; apoiar-se."
+      ],
+      "nota": "Depoente: pesas, fazes força."
+    },
+    "nunc#2": {
+      "lema": "nunc",
+      "classe": "advérbio",
+      "def": [
+        "Agora."
+      ]
+    },
+    "per": {
+      "lema": "per",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por."
+      ]
+    },
+    "ludum": {
+      "lema": "ludus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O jogo; a brincadeira."
+      ],
+      "nota": "Depois de per: por jogo."
+    },
+    "dorsum": {
+      "lema": "dorsum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "As costas; o dorso."
+      ],
+      "nota": "Objeto de fero: as costas."
+    },
+    "nudum": {
+      "lema": "nudus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Nu; despido."
+      ],
+      "nota": "Concorda com dorsum: nu."
+    },
+    "fero": {
+      "lema": "fero",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Levar; carregar."
+      ],
+      "nota": "Levo, ofereço."
+    },
+    "tui": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "genitivo neutro singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Concorda com sceleris: tua."
+    },
+    "sceleris": {
+      "lema": "scelus",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "O crime; a maldade."
+      ],
+      "nota": "Por causa de quê: da maldade."
+    },
+    "sors#2": {
+      "lema": "sors",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "O destino; o lote."
+      ],
+      "nota": "Sujeito de est (subentendido): a sorte."
+    },
+    "salutis": {
+      "lema": "salus",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A saúde; o bem-estar; a salvação."
+      ],
+      "nota": "De quê: da saúde."
+    },
+    "virtutis": {
+      "lema": "virtus",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "O poder; a virtude."
+      ],
+      "nota": "De quê: da virtude."
+    },
+    "mihi#2": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Com contraria: a mim."
+    },
+    "contraria": {
+      "lema": "contrarius",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Contrário; oposto."
+      ],
+      "nota": "Predicativo de sors: contrária."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "affectus": {
+      "lema": "affectus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O afeto; o ânimo."
+      ],
+      "nota": "Sujeito de est: o ânimo."
+    },
+    "defectus": {
+      "lema": "defectus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "A falha; a falta."
+      ],
+      "nota": "Sujeito de est: a fraqueza."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em."
+      ]
+    },
+    "angaria": {
+      "lema": "angaria",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A servidão; a opressão."
+      ],
+      "nota": "Depois de in: em servidão."
+    },
+    "hac": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "ablativo feminino singular",
+      "def": [
+        "Este."
+      ],
+      "nota": "Concorda com hora: nesta."
+    },
+    "hora": {
+      "lema": "hora",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A hora."
+      ],
+      "nota": "Depois de in: nesta hora."
+    },
+    "sine": {
+      "lema": "sine",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Sem; na falta de."
+      ]
+    },
+    "mora": {
+      "lema": "mora",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A demora; o tempo."
+      ],
+      "nota": "Depois de sine: sem demora."
+    },
+    "corde": {
+      "lema": "chorda",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A corda; o fio."
+      ],
+      "nota": "Grafia medieval de chordae: da corda."
+    },
+    "pulsum": {
+      "lema": "pulsus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "A pulsação; a batida."
+      ],
+      "nota": "Objeto de tangite: o pulsar."
+    },
+    "tangite": {
+      "lema": "tango",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural",
+      "def": [
+        "Tocar."
+      ],
+      "nota": "Tocai."
+    },
+    "quod": {
+      "lema": "quod",
+      "classe": "conjunção",
+      "def": [
+        "Visto que; já que."
+      ],
+      "nota": "Porque."
+    },
+    "sortem": {
+      "lema": "sors",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "O destino; o lote."
+      ],
+      "nota": "Depois de per: pela sorte."
+    },
+    "sternit": {
+      "lema": "sterno",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Derrubar; prostrar."
+      ],
+      "nota": "(a Fortuna) derruba."
+    },
+    "fortem": {
+      "lema": "fortis",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Forte; corajoso."
+      ],
+      "nota": "Substantivado, objeto de sternit: o forte."
+    },
+    "mecum": {
+      "partes": [
+        {
+          "lema": "ego",
+          "classe": "pronome",
+          "forma": "ablativo singular",
+          "def": [
+            "Eu."
+          ]
+        },
+        {
+          "lema": "cum",
+          "classe": "preposição",
+          "forma": "preposição com ablativo",
+          "def": [
+            "Com."
+          ]
+        }
+      ],
+      "nota": "Comigo: a preposição cum vai colada depois do pronome."
+    },
+    "omnes": {
+      "lema": "omnis",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Todo."
+      ],
+      "nota": "Sujeito de plangite: todos."
+    },
+    "plangite": {
+      "lema": "plango",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural",
+      "def": [
+        "Lamentar; prantear."
+      ],
+      "nota": "Chorai."
+    }
+  },
+  "ocorrencias": {
+    "22.1": "nunc#2",
+    "25.1": "sors#2",
+    "27.1": "mihi#2",
+    "27.2": "nunc#2"
+  }
+}

@@ -469,7 +469,8 @@ function livros(obras) {
   return Object.keys(vistos).length;
 }
 const TEXTOS = { 'Contos': ['conto', 'contos'], 'Poesia': ['poema', 'poemas'], 'Orações': ['oração', 'orações'],
-  'Romance': ['texto', 'textos'] };
+  'Romance': ['texto', 'textos'], 'História': ['texto', 'textos'], 'Discursos': ['discurso', 'discursos'],
+  'Cartas': ['carta', 'cartas'], 'Inscrições': ['texto', 'textos'] };
 /* os textos em verso (o.poema) contam-se pelo gênero: «3 poemas», ou «3 orações» nas orações na língua original;
    a prosa na língua original (o começo do Quixote) entra no mesmo esquema, como «texto» */
 const rotuloVersos = (g) => (g !== 'Poesia' && TEXTOS[g]) || TEXTOS.Poesia;

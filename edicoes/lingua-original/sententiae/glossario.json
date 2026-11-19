@@ -1,0 +1,766 @@
+{
+  "verbetes": {
+    "bis": {
+      "lema": "bis",
+      "classe": "advérbio",
+      "def": [
+        "Duas vezes; em dobro."
+      ]
+    },
+    "vincit": {
+      "lema": "vinco",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Vencer."
+      ],
+      "nota": "Vence."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de vincit, sem antecedente: quem."
+    },
+    "se": {
+      "lema": "sui",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Se; a si mesmo."
+      ],
+      "nota": "Objeto de vincit: a si mesmo."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em."
+      ]
+    },
+    "victoria": {
+      "lema": "victoria",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A vitória; o triunfo."
+      ],
+      "nota": "Depois de in: na vitória."
+    },
+    "avarus": {
+      "lema": "avarus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Avarento; sovina."
+      ],
+      "nota": "Sujeito de est: o avarento."
+    },
+    "ipse": {
+      "lema": "ipse",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Mesmo; próprio."
+      ],
+      "nota": "Concorda com avarus: ele mesmo."
+    },
+    "miseriae": {
+      "lema": "miseria",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A miséria; a desgraça."
+      ],
+      "nota": "De que é a causa: da miséria."
+    },
+    "causa": {
+      "lema": "causa",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A causa; o motivo."
+      ],
+      "nota": "Predicativo de est: a causa."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "É."
+    },
+    "suae": {
+      "lema": "suus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Seu; dele."
+      ],
+      "nota": "Concorda com miseriae: sua."
+    },
+    "discipulus": {
+      "lema": "discipulus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O discípulo; o aluno."
+      ],
+      "nota": "Predicativo de est: discípulo."
+    },
+    "prioris": {
+      "lema": "prior",
+      "classe": "adjetivo",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Anterior; primeiro."
+      ],
+      "nota": "De quem é discípulo: do anterior (dia)."
+    },
+    "posterior": {
+      "lema": "posterior",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Posterior; seguinte."
+      ],
+      "nota": "Concorda com dies: seguinte."
+    },
+    "dies": {
+      "lema": "dies",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O dia."
+      ],
+      "nota": "Sujeito de est: o dia."
+    },
+    "fortuna": {
+      "lema": "fortuna",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A sorte; a fortuna."
+      ],
+      "nota": "Sujeito de est: a sorte."
+    },
+    "vitrea": {
+      "lema": "vitreus",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "De vidro; vítreo."
+      ],
+      "nota": "Predicativo, concorda com fortuna: de vidro."
+    },
+    "est#2": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "tum": {
+      "lema": "tum",
+      "classe": "advérbio",
+      "def": [
+        "Então; nesse momento."
+      ],
+      "nota": "Então, justamente."
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "conjunção",
+      "def": [
+        "Quando; no momento em que."
+      ],
+      "nota": "Conjunção: quando."
+    },
+    "splendet": {
+      "lema": "splendeo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Resplandecer; cintilar."
+      ],
+      "nota": "Depois de cum: brilha."
+    },
+    "frangitur": {
+      "lema": "frango",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Quebrar; romper."
+      ],
+      "nota": "Quebra-se."
+    },
+    "stultum": {
+      "lema": "stultus",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Tolo; néscio."
+      ],
+      "nota": "Predicativo de est: coisa tola."
+    },
+    "timere": {
+      "lema": "timeo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Temer."
+      ],
+      "nota": "Sujeito de est: temer."
+    },
+    "quod": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de potest (id quod: aquilo que)."
+    },
+    "vitari": {
+      "lema": "vito",
+      "classe": "verbo",
+      "forma": "infinitivo presente, voz passiva",
+      "def": [
+        "Evitar."
+      ],
+      "nota": "Depende de potest: ser evitado."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "potest": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Poder."
+      ],
+      "nota": "Pode."
+    },
+    "inopi": {
+      "lema": "inops",
+      "classe": "adjetivo",
+      "forma": "dativo masculino singular",
+      "def": [
+        "Necessitado; pobre."
+      ],
+      "nota": "A quem: ao pobre."
+    },
+    "beneficium": {
+      "lema": "beneficium",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O benefício; o favor."
+      ],
+      "nota": "Objeto de dat: o benefício."
+    },
+    "dat": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dar."
+      ],
+      "nota": "Dá."
+    },
+    "qui#2": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de dat, sem antecedente: quem."
+    },
+    "celeriter": {
+      "lema": "celeriter",
+      "classe": "advérbio",
+      "def": [
+        "Depressa; com rapidez."
+      ]
+    },
+    "malum": {
+      "lema": "malus",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Mau; ruim."
+      ],
+      "nota": "Predicativo, concorda com consilium: mau."
+    },
+    "consilium": {
+      "lema": "consilium",
+      "classe": "substantivo neutro",
+      "forma": "nominativo singular",
+      "def": [
+        "O conselho; o parecer."
+      ],
+      "nota": "Sujeito de est: o plano."
+    },
+    "quod#2": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de potest, retoma consilium: que."
+    },
+    "mutari": {
+      "lema": "muto",
+      "classe": "verbo",
+      "forma": "infinitivo presente, voz passiva",
+      "def": [
+        "Mudar; transformar."
+      ],
+      "nota": "Depende de potest: ser mudado."
+    },
+    "iratus": {
+      "lema": "iratus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Irado; zangado."
+      ],
+      "nota": "Sujeito de loquitur: o irado."
+    },
+    "nil": {
+      "lema": "nil",
+      "classe": "pronome",
+      "def": [
+        "Nada."
+      ],
+      "nota": "Objeto de loquitur: nada."
+    },
+    "non#2": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ],
+      "nota": "Com nil: nada que não."
+    },
+    "criminis": {
+      "lema": "crimen",
+      "classe": "substantivo neutro",
+      "forma": "genitivo singular",
+      "def": [
+        "A acusação; a culpa."
+      ],
+      "nota": "Com loco: de acusação."
+    },
+    "loquitur": {
+      "lema": "loquor",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Falar."
+      ],
+      "nota": "Depoente: diz."
+    },
+    "loco": {
+      "lema": "locus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O local; o espaço."
+      ],
+      "nota": "Com criminis: em lugar de acusação."
+    },
+    "etiam": {
+      "lema": "etiam",
+      "classe": "advérbio",
+      "def": [
+        "Também; até."
+      ],
+      "nota": "Até."
+    },
+    "capillus": {
+      "lema": "capillus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O cabelo; o fio."
+      ],
+      "nota": "Sujeito de habet: o fio de cabelo."
+    },
+    "unus": {
+      "lema": "unus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Um."
+      ],
+      "nota": "Concorda com capillus: um só."
+    },
+    "habet": {
+      "lema": "habeo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter."
+      ],
+      "nota": "Tem."
+    },
+    "umbram": {
+      "lema": "umbra",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A sombra; a penumbra."
+      ],
+      "nota": "Objeto de habet: a sombra."
+    },
+    "suam": {
+      "lema": "suus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Seu; dele."
+      ],
+      "nota": "Concorda com umbram: sua."
+    },
+    "amicum": {
+      "lema": "amicus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O amigo; o companheiro."
+      ],
+      "nota": "Objeto de habeas: um amigo."
+    },
+    "an": {
+      "lema": "an",
+      "classe": "conjunção",
+      "def": [
+        "Ou; porventura."
+      ],
+      "nota": "Ou."
+    },
+    "nomen": {
+      "lema": "nomen",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O nome."
+      ],
+      "nota": "Objeto de habeas: só um nome."
+    },
+    "habeas": {
+      "lema": "habeo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 2ª pessoa do singular",
+      "def": [
+        "Ter."
+      ],
+      "nota": "Pergunta indireta: tens."
+    },
+    "aperit": {
+      "lema": "aperio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Revelar; abrir."
+      ],
+      "nota": "Revela."
+    },
+    "calamitas": {
+      "lema": "calamitas",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A desgraça; a calamidade."
+      ],
+      "nota": "Sujeito de aperit: a desgraça."
+    },
+    "heu": {
+      "lema": "heu",
+      "classe": "interjeição",
+      "def": [
+        "Ai! (exclamação de dor ou de pena)."
+      ]
+    },
+    "quam": {
+      "lema": "quam",
+      "classe": "advérbio",
+      "def": [
+        "Quanto; do que."
+      ],
+      "nota": "Exclamação: quão, como."
+    },
+    "difficilis": {
+      "lema": "difficilis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Difícil; árduo."
+      ],
+      "nota": "Predicativo, concorda com custodia: difícil."
+    },
+    "gloriae": {
+      "lema": "gloria",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A glória."
+      ],
+      "nota": "De que é a guarda: da glória."
+    },
+    "custodia": {
+      "lema": "custodia",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A guarda; a vigilância."
+      ],
+      "nota": "Sujeito de est: a guarda."
+    },
+    "pericla": {
+      "lema": "periculum",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O perigo; o risco."
+      ],
+      "nota": "Objeto de videt: os perigos."
+    },
+    "timidus": {
+      "lema": "timidus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Medroso; tímido."
+      ],
+      "nota": "Sujeito de videt: o medroso."
+    },
+    "quae": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo neutro plural",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de sunt, retoma pericla: que."
+    },
+    "sunt": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Existem."
+    },
+    "videt": {
+      "lema": "video",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ver."
+      ],
+      "nota": "Vê."
+    },
+    "quod#3": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Objeto de vult e de habet: o que."
+    },
+    "vult": {
+      "lema": "volo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Querer."
+      ],
+      "nota": "Quer."
+    },
+    "qui#3": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de habet e de potest, sem antecedente: quem."
+    },
+    "velle": {
+      "lema": "volo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Querer."
+      ],
+      "nota": "Depende de potest: querer."
+    },
+    "quod#4": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de est: o que."
+    },
+    "satis": {
+      "lema": "satis",
+      "classe": "advérbio",
+      "def": [
+        "Bastante; suficiente."
+      ],
+      "nota": "Predicativo de est: bastante."
+    },
+    "cui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "dativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Com licet, sem antecedente: a quem."
+    },
+    "plus": {
+      "lema": "plus",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Mais."
+      ],
+      "nota": "Sujeito de licet: mais."
+    },
+    "licet": {
+      "lema": "licet",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser permitido; ser lícito."
+      ],
+      "nota": "Impessoal: é permitido."
+    },
+    "quam#2": {
+      "lema": "quam",
+      "classe": "advérbio",
+      "def": [
+        "Quanto; do que."
+      ],
+      "nota": "Depois de plus: do que."
+    },
+    "par": {
+      "lema": "par",
+      "classe": "adjetivo",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Igual; adequado."
+      ],
+      "nota": "Predicativo de est: justo."
+    },
+    "plus#2": {
+      "lema": "plus",
+      "classe": "adjetivo",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Mais."
+      ],
+      "nota": "Objeto de vult: mais."
+    },
+    "nemo": {
+      "lema": "nemo",
+      "classe": "pronome",
+      "forma": "nominativo singular",
+      "def": [
+        "Ninguém; nenhuma pessoa."
+      ],
+      "nota": "Sujeito de pervenit: ninguém."
+    },
+    "timendo": {
+      "lema": "timeo",
+      "classe": "verbo",
+      "forma": "gerúndio, ablativo",
+      "def": [
+        "Temer."
+      ],
+      "nota": "Como: tendo medo."
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Para; até, junto a."
+      ]
+    },
+    "summum": {
+      "lema": "summus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "O mais alto; supremo."
+      ],
+      "nota": "Concorda com locum: o mais alto."
+    },
+    "pervenit": {
+      "lema": "pervenio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Chegar até; alcançar."
+      ],
+      "nota": "Chega."
+    },
+    "locum": {
+      "lema": "locus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O local; o espaço."
+      ],
+      "nota": "Depois de ad: ao lugar."
+    },
+    "sententiae": {
+      "lema": "sententia",
+      "classe": "substantivo feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "Sentença: frase curta que encerra uma verdade ou um conselho; máxima."
+      ],
+      "nota": "O título: as Sentenças, versos soltos tirados dos mimos de Publílio e reunidos em ordem alfabética depois dele."
+    }
+  },
+  "ocorrencias": {
+    "4.3": "est#2",
+    "5.2": "est#2",
+    "6.5": "qui#2",
+    "7.2": "est#2",
+    "7.4": "quod#2",
+    "8.3": "non#2",
+    "11.6": "est#2",
+    "13.1": "quod#3",
+    "13.4": "qui#3",
+    "13.6": "quod#4",
+    "13.8": "est#2",
+    "14.4": "quam#2",
+    "14.6": "est#2",
+    "14.7": "plus#2",
+    "14.9": "quam#2"
+  }
+}

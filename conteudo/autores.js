@@ -1104,3 +1104,57 @@ BIBLIOTECA.autor({
   lingua: 'it',
   nota: 'Poeta e escritor italiano, nascido em Zacinto, autor dos Sonetti e de Dei Sepolcri.'
 });
+
+BIBLIOTECA.autor({
+  id: 'publilio-siro',
+  nome: 'Publílio Siro',
+  nomeCompleto: 'Publílio Siro',
+  vida: '~85–~43 a.C.',
+  lingua: 'la',
+  nota: 'Escravo sírio levado a Roma e liberto, autor de mimos, dos quais ficaram só as Sentenças: máximas de um verso cada, tiradas deles.'
+});
+
+BIBLIOTECA.autor({
+  id: 'inscricoes',
+  nome: 'Inscrições',
+  nomeCompleto: 'Inscrições latinas antigas',
+  coletivo: true,   // não é uma pessoa: as páginas não o dão como autor (schema.org Person)
+  lingua: 'la',
+  nota: 'Grafites e epitáfios romanos, riscados em paredes e gravados em túmulos, pelo número do Corpus Inscriptionum Latinarum (CIL).'
+});
+
+BIBLIOTECA.autor({
+  id: 'cancoes-estudantis',
+  nome: 'Canções estudantis',
+  nomeCompleto: 'Canções estudantis em latim, de autor desconhecido',
+  coletivo: true,   // não é uma pessoa
+  lingua: 'la',
+  nota: 'Canções em latim das universidades europeias, cantadas há séculos pelos estudantes.'
+});
+
+BIBLIOTECA.autor({
+  id: 'carmina-burana',
+  nome: 'Carmina Burana',
+  nomeCompleto: 'Carmina Burana, as canções de Benediktbeuern',
+  coletivo: true,   // não é uma pessoa: uma coletânea
+  lingua: 'la',
+  nota: 'Coletânea de poemas e canções em latim, e alguns em alemão, dos séculos XI a XIII, num manuscrito copiado por volta de 1230 e achado em 1803 no mosteiro de Benediktbeuern, na Baviera.'
+});
+
+BIBLIOTECA.autor({
+  id: 'cesar',
+  nome: 'César',
+  nomeCompleto: 'Caio Júlio César',
+  vida: '100–44 a.C.',
+  lingua: 'la',
+  nota: 'General e político romano, que contou as próprias campanhas nos Comentários sobre a Guerra das Gálias e sobre a Guerra Civil.'
+});
+
+BIBLIOTECA.autor({
+  id: 'cicero',
+  nome: 'Cícero',
+  nomeCompleto: 'Marco Túlio Cícero',
+  vida: '106–43 a.C.',
+  lingua: 'la',
+  nota: 'Orador, político e filósofo romano, o modelo da prosa latina clássica.'
+});

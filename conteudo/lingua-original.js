@@ -215,29 +215,43 @@ BIBLIOTECA.poemas({
 BIBLIOTECA.poemas({
   autor: "marcial",
   arquivo: "conteudo/marcial/lingua-original.js",
-  livros: [{"id": "epigrammata", "titulo": "Epigrammata", "ano": 86}],
+  livros: [{"id": "epigrammata", "titulo": "Epigrammata", "ano": 86}, {"id": "epigrammata", "titulo": "Epigrammata", "ano": 86}, {"id": "epigrammata", "titulo": "Epigrammata", "ano": 86}, {"id": "epigrammata", "titulo": "Epigrammata", "ano": 86}, {"id": "epigrammata", "titulo": "Epigrammata", "ano": 86}, {"id": "epigrammata", "titulo": "Epigrammata", "ano": 88}, {"id": "epigrammata", "titulo": "Epigrammata", "ano": 89}, {"id": "epigrammata", "titulo": "Epigrammata", "ano": 89}, {"id": "epigrammata", "titulo": "Epigrammata", "ano": 94}, {"id": "epigrammata", "titulo": "Epigrammata", "ano": 102}],
   poemas: [
-    {"id":"marcial-non-amo-te","titulo":"Non amo te","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":86,"glossario":true}
+    {"id":"marcial-non-amo-te","titulo":"Non amo te","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":86,"glossario":true},
+    {"id":"marcial-sunt-bona","titulo":"Sunt bona","forma":"outras","livro":1,"ordem":1,"versos":2,"lingua":"la","ano":86,"glossario":true},
+    {"id":"marcial-quem-recitas","titulo":"Quem recitas","forma":"outras","livro":2,"ordem":2,"versos":2,"lingua":"la","ano":86,"glossario":true},
+    {"id":"marcial-nuper-erat-medicus","titulo":"Nuper erat medicus","forma":"outras","livro":3,"ordem":3,"versos":2,"lingua":"la","ano":86,"glossario":true},
+    {"id":"marcial-bella-es","titulo":"Bella es","forma":"outras","livro":4,"ordem":4,"versos":4,"lingua":"la","ano":86,"glossario":true},
+    {"id":"marcial-versiculos-in-me","titulo":"Versiculos in me","forma":"outras","livro":5,"ordem":5,"versos":2,"lingua":"la","ano":88,"glossario":true},
+    {"id":"marcial-thais-habet","titulo":"Thais habet","forma":"outras","livro":6,"ordem":6,"versos":2,"lingua":"la","ano":89,"glossario":true},
+    {"id":"marcial-semper-pauper-eris","titulo":"Semper pauper eris","forma":"outras","livro":7,"ordem":7,"versos":2,"lingua":"la","ano":89,"glossario":true},
+    {"id":"marcial-miraris-veteres","titulo":"Miraris veteres","forma":"outras","livro":8,"ordem":8,"versos":4,"lingua":"la","ano":94,"glossario":true},
+    {"id":"marcial-difficilis-facilis","titulo":"Difficilis facilis","forma":"outras","livro":9,"ordem":9,"versos":2,"lingua":"la","ano":102,"glossario":true}
   ]
 });
 
 BIBLIOTECA.poemas({
   autor: "catulo",
   arquivo: "conteudo/catulo/lingua-original.js",
-  livros: [{"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}],
+  livros: [{"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}, {"id": "carmina", "titulo": "Carmina", "ano": null}],
   poemas: [
     {"id":"catulo-odi-et-amo","titulo":"Odi et amo","forma":"outras","livro":0,"ordem":0,"versos":2,"lingua":"la","ano":null,"glossario":true,"pt":{"tradutor":"José Feliciano de Castilho","titulo":"O amor e o ódio","ano":1858}},
     {"id":"catulo-vivamus-mea-lesbia","titulo":"Vivamus, mea Lesbia","forma":"outras","livro":1,"ordem":1,"versos":13,"lingua":"la","ano":null,"glossario":true},
-    {"id":"catulo-multas-per-gentes","titulo":"Multas per gentes","forma":"outras","livro":2,"ordem":2,"versos":10,"lingua":"la","ano":null,"glossario":true}
+    {"id":"catulo-multas-per-gentes","titulo":"Multas per gentes","forma":"outras","livro":2,"ordem":2,"versos":10,"lingua":"la","ano":null,"glossario":true},
+    {"id":"catulo-nulli-se-dicit","titulo":"Nulli se dicit","forma":"outras","livro":3,"ordem":3,"versos":4,"lingua":"la","ano":null,"glossario":true}
   ]
 });
 
 BIBLIOTECA.poemas({
   autor: "fedro",
   arquivo: "conteudo/fedro/lingua-original.js",
-  livros: [{"id": "fabulae-aesopiae", "titulo": "Fabulae Aesopiae", "ano": null}],
+  livros: [{"id": "fabulae-aesopiae", "titulo": "Fabulae Aesopiae", "ano": null}, {"id": "fabulae-aesopiae", "titulo": "Fabulae Aesopiae", "ano": null}, {"id": "fabulae-aesopiae", "titulo": "Fabulae Aesopiae", "ano": null}, {"id": "fabulae-aesopiae", "titulo": "Fabulae Aesopiae", "ano": null}, {"id": "fabulae-aesopiae", "titulo": "Fabulae Aesopiae", "ano": null}],
   poemas: [
-    {"id":"fedro-lupus-et-agnus","titulo":"Lupus et agnus","forma":"outras","livro":0,"ordem":0,"versos":15,"lingua":"la","ano":null,"glossario":true}
+    {"id":"fedro-lupus-et-agnus","titulo":"Lupus et agnus","forma":"outras","livro":0,"ordem":0,"versos":15,"lingua":"la","ano":null,"glossario":true},
+    {"id":"fedro-vulpes-et-uva","titulo":"Vulpes et uva","forma":"outras","livro":1,"ordem":1,"versos":6,"lingua":"la","ano":null,"glossario":true},
+    {"id":"fedro-canis-per-fluvium","titulo":"Canis per fluvium","forma":"outras","livro":2,"ordem":2,"versos":7,"lingua":"la","ano":null,"glossario":true},
+    {"id":"fedro-vulpes-et-corvus","titulo":"Vulpes et corvus","forma":"outras","livro":3,"ordem":3,"versos":14,"lingua":"la","ano":null,"glossario":true},
+    {"id":"fedro-rana-rupta-et-bos","titulo":"Rana rupta et bos","forma":"outras","livro":4,"ordem":4,"versos":10,"lingua":"la","ano":null,"glossario":true}
   ]
 });
 
@@ -442,5 +456,68 @@ BIBLIOTECA.poemas({
   livros: [{"id": "poesie", "titulo": "Poesie", "ano": 1803}],
   poemas: [
     {"id":"ugo-foscolo-a-zacinto","titulo":"A Zacinto","forma":"sonetos","livro":0,"ordem":0,"versos":14,"lingua":"it","ano":1803,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "publilio-siro",
+  arquivo: "conteudo/publilio-siro/lingua-original.js",
+  livros: [],
+  poemas: [
+    {"id":"publilio-siro-sententiae","titulo":"Sententiae","forma":"outras","livro":-1,"ordem":0,"versos":15,"lingua":"la","ano":null,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "inscricoes",
+  arquivo: "conteudo/inscricoes/lingua-original.js",
+  livros: [],
+  poemas: [
+    {"id":"inscricoes-admiror-paries","titulo":"Admiror, paries","forma":"outras","livro":-1,"ordem":0,"versos":6,"lingua":"la","ano":null,"glossario":true,"genero":"Inscrições"}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "cancoes-estudantis",
+  arquivo: "conteudo/cancoes-estudantis/lingua-original.js",
+  livros: [],
+  poemas: [
+    {"id":"cancoes-estudantis-gaudeamus-igitur","titulo":"Gaudeamus igitur","forma":"outras","livro":-1,"ordem":0,"versos":15,"lingua":"la","ano":1781,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "carmina-burana",
+  arquivo: "conteudo/carmina-burana/lingua-original.js",
+  livros: [],
+  poemas: [
+    {"id":"carmina-burana-o-fortuna","titulo":"O Fortuna","forma":"outras","livro":-1,"ordem":0,"versos":36,"lingua":"la","ano":null,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "cesar",
+  arquivo: "conteudo/cesar/lingua-original.js",
+  livros: [{"id": "commentarii-de-bello-gallico", "titulo": "Commentarii de bello Gallico", "ano": null}],
+  poemas: [
+    {"id":"cesar-gallia-est-omnis","titulo":"Gallia est omnis","forma":"outras","livro":0,"ordem":0,"versos":4,"lingua":"la","ano":null,"glossario":true,"genero":"História","prosa":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "cicero",
+  arquivo: "conteudo/cicero/lingua-original.js",
+  livros: [{"id": "in-catilinam", "titulo": "In Catilinam", "ano": null}],
+  poemas: [
+    {"id":"cicero-quo-usque-tandem","titulo":"Quo usque tandem","forma":"outras","livro":0,"ordem":0,"versos":6,"lingua":"la","ano":null,"glossario":true,"genero":"Discursos","prosa":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "seneca",
+  arquivo: "conteudo/seneca/lingua-original.js",
+  livros: [{"id": "epistulae-morales-ad-lucilium", "titulo": "Epistulae morales ad Lucilium", "ano": null}],
+  poemas: [
+    {"id":"seneca-ita-fac-mi-lucili","titulo":"Ita fac, mi Lucili","forma":"outras","livro":0,"ordem":0,"versos":6,"lingua":"la","ano":null,"glossario":true,"genero":"Cartas","prosa":true}
   ]
 });

@@ -1,6 +1,10 @@
 # Só tem efeito nos previews: em produção, o "/" é do hub.
 /  /biblioteca/  302
 
+# O Gaudeamus igitur (19/11/2026) fica na Literatura, sob «Canções estudantis»: o «Anônimo» é do Catolicismo.
+/biblioteca/anonimo/gaudeamus-igitur/  /biblioteca/cancoes-estudantis/gaudeamus-igitur/  301
+/biblioteca/anonimo/gaudeamus-igitur  /biblioteca/cancoes-estudantis/gaudeamus-igitur/  301
+
 # Livros de poemas que viraram obra própria (02/11/2026): os poemas avulsos levam ao poema no livro.
 # Regras exatas, antes de qualquer regra com /*: na Cloudflare, tudo o que vem depois da primeira
 # regra com /* conta como dinâmica, e o limite é de 100 dinâmicas (2.000 exatas).

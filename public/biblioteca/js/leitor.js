@@ -973,7 +973,18 @@
     if (!folha || !fimParte || !window.fetch) return;
     var aqui = location.pathname.replace(/\/?$/, '/');
     fetch('/cards/data/textos.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (x) {
-      var txt = ((x && x.textos) || []).filter(function (t) { return t.biblioteca === aqui; })[0];
+      var lista = (x && x.textos) || [];
+      var txt = lista.filter(function (t) { return t.biblioteca === aqui && t.idioma !== 'pc'; })[0];
+      /* As palavras raras do português (taioe-cards, RARAS.md, 20/11/2026): a obra inteira tem
+         um curso, para quem lê em português; o botão vai no fim de cada capítulo, e os Cards abrem
+         a parte da vez */
+      var rara = lista.filter(function (t) { return t.idioma === 'pc' && t.obra && aqui.indexOf(t.biblioteca) === 0; })
+        .sort(function (a, b) { return a.parte - b.parte; })[0];
+      if (!txt && rara) {
+        var pt = ler('taioe:lingua') || (navigator.language || '').slice(0, 2);
+        if (pt && pt !== 'pt') return;
+        txt = rara;
+      }
       if (!txt) return;
       if (txt.idioma === 'pt') {
         var pref = ler('taioe:lingua') || (navigator.language || '').slice(0, 2);
@@ -984,7 +995,8 @@
       var a = document.createElement('a');
       a.className = 'botao';
       a.href = '/cards/?texto=' + encodeURIComponent(txt.id);
-      a.textContent = txt.tipo === 'prosa' ? 'Aprender as palavras deste texto' : 'Aprender as palavras deste poema';
+      a.textContent = txt.idioma === 'pc' ? 'Aprender as palavras raras deste livro'
+        : txt.tipo === 'prosa' ? 'Aprender as palavras deste texto' : 'Aprender as palavras deste poema';
       p.appendChild(a);
       fimParte.parentNode.insertBefore(p, fimParte);
     }).catch(function () { /* sem os Cards, sem botão */ });

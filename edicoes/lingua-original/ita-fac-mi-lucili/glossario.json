@@ -1,0 +1,366 @@
+{
+  "verbetes": {
+    "ita": {
+      "lema": "ita",
+      "classe": "advérbio",
+      "def": [
+        "De tal modo; tão."
+      ],
+      "nota": "Assim."
+    },
+    "fac": {
+      "lema": "facio",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Fazer."
+      ],
+      "nota": "Faze."
+    },
+    "mi": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "vocativo masculino singular",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com Lucili: meu."
+    },
+    "lucili": {
+      "lema": "Lucilius",
+      "classe": "nome próprio",
+      "forma": "vocativo singular",
+      "def": [
+        "Lucílio, o amigo a quem Sêneca escreve as cartas."
+      ],
+      "nota": "Nome próprio, Lucílio: a quem se fala."
+    },
+    "vindica": {
+      "lema": "vindico",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Reivindicar; libertar."
+      ],
+      "nota": "Reivindica."
+    },
+    "te": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Objeto de vindica: a ti."
+    },
+    "tibi": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Para quem: para ti."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "tempus": {
+      "lema": "tempus",
+      "classe": "substantivo neutro",
+      "forma": "acusativo singular",
+      "def": [
+        "O tempo."
+      ],
+      "nota": "Objeto de collige e de serva: o tempo."
+    },
+    "quod": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo neutro singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo, retoma tempus, sujeito de auferebatur: que."
+    },
+    "adhuc": {
+      "lema": "adhuc",
+      "classe": "advérbio",
+      "def": [
+        "Até agora; ainda."
+      ],
+      "nota": "Até agora."
+    },
+    "aut": {
+      "lema": "aut",
+      "classe": "conjunção",
+      "def": [
+        "Ou; senão."
+      ],
+      "nota": "Aut… aut: ou… ou."
+    },
+    "auferebatur": {
+      "lema": "aufero",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Levar embora; tirar."
+      ],
+      "nota": "Era tirado."
+    },
+    "aut#2": {
+      "lema": "aut",
+      "classe": "conjunção",
+      "def": [
+        "Ou; senão."
+      ]
+    },
+    "subripiebatur": {
+      "lema": "subripio",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Furtar; tirar às escondidas."
+      ],
+      "nota": "Era furtado."
+    },
+    "excidebat": {
+      "lema": "excido",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Cair fora; escapar."
+      ],
+      "nota": "Escapava."
+    },
+    "collige": {
+      "lema": "colligo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Recolher; juntar."
+      ],
+      "nota": "Recolhe."
+    },
+    "serva": {
+      "lema": "servo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Guardar; observar."
+      ],
+      "nota": "Guarda."
+    },
+    "persuade": {
+      "lema": "persuadeo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do singular",
+      "def": [
+        "Persuadir; convencer."
+      ],
+      "nota": "Convence."
+    },
+    "tibi#2": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Com persuade: a ti mesmo."
+    },
+    "hoc": {
+      "lema": "hic",
+      "classe": "pronome",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Este."
+      ],
+      "nota": "Sujeito de esse: isto."
+    },
+    "sic": {
+      "lema": "sic",
+      "classe": "advérbio",
+      "def": [
+        "Assim; desta maneira."
+      ]
+    },
+    "esse": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Depende de persuade: ser."
+    },
+    "ut": {
+      "lema": "ut",
+      "classe": "advérbio",
+      "def": [
+        "Como (com indicativo)."
+      ],
+      "nota": "Com indicativo: como."
+    },
+    "scribo": {
+      "lema": "scribo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Escrever; redigir."
+      ],
+      "nota": "Escrevo."
+    },
+    "quaedam": {
+      "lema": "quidam",
+      "classe": "pronome",
+      "forma": "nominativo neutro plural",
+      "def": [
+        "Um certo; algum."
+      ],
+      "nota": "Concorda com tempora: alguns."
+    },
+    "tempora": {
+      "lema": "tempus",
+      "classe": "substantivo neutro",
+      "forma": "nominativo plural",
+      "def": [
+        "O tempo."
+      ],
+      "nota": "Sujeito de eripiuntur: momentos."
+    },
+    "eripiuntur": {
+      "lema": "eripio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural, voz passiva",
+      "def": [
+        "Arrancar; tirar."
+      ],
+      "nota": "São arrancados."
+    },
+    "nobis": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "dativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Dativo de afastamento: de nós."
+    },
+    "quaedam#2": {
+      "lema": "quidam",
+      "classe": "pronome",
+      "forma": "nominativo neutro plural",
+      "def": [
+        "Um certo; algum."
+      ],
+      "nota": "Substantivado, sujeito de subducuntur: alguns."
+    },
+    "subducuntur": {
+      "lema": "subduco",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural, voz passiva",
+      "def": [
+        "Subtrair; retirar."
+      ],
+      "nota": "São subtraídos."
+    },
+    "quaedam#3": {
+      "lema": "quidam",
+      "classe": "pronome",
+      "forma": "nominativo neutro plural",
+      "def": [
+        "Um certo; algum."
+      ],
+      "nota": "Substantivado, sujeito de effluunt: alguns."
+    },
+    "effluunt": {
+      "lema": "effluo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Escorrer; esvair-se."
+      ],
+      "nota": "Escorrem."
+    },
+    "turpissima": {
+      "lema": "turpis",
+      "classe": "adjetivo",
+      "forma": "superlativo, nominativo feminino singular",
+      "def": [
+        "Feio; vergonhoso."
+      ],
+      "nota": "Predicativo de est: a mais vergonhosa."
+    },
+    "tamen": {
+      "lema": "tamen",
+      "classe": "advérbio",
+      "def": [
+        "Contudo."
+      ]
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "iactura": {
+      "lema": "iactura",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A perda; o prejuízo."
+      ],
+      "nota": "Sujeito de est: a perda."
+    },
+    "quae": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo, retoma iactura, sujeito de fit: que."
+    },
+    "per": {
+      "lema": "per",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Por."
+      ]
+    },
+    "neglegentiam": {
+      "lema": "neglegentia",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A negligência; o descuido."
+      ],
+      "nota": "Depois de per: por negligência."
+    },
+    "fit": {
+      "lema": "fio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser feito; acontecer."
+      ],
+      "nota": "Se faz."
+    }
+  },
+  "ocorrencias": {
+    "3.1": "aut#2",
+    "3.3": "aut#2",
+    "4.2": "tibi#2",
+    "5.5": "quaedam#2",
+    "5.7": "quaedam#3"
+  }
+}

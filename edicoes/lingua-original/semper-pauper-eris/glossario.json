@@ -1,0 +1,117 @@
+{
+  "verbetes": {
+    "semper": {
+      "lema": "semper",
+      "classe": "advérbio",
+      "def": [
+        "Sempre."
+      ]
+    },
+    "pauper": {
+      "lema": "pauper",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Pobre."
+      ],
+      "nota": "Predicativo de eris: pobre."
+    },
+    "eris": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Serás."
+    },
+    "si": {
+      "lema": "si",
+      "classe": "conjunção",
+      "def": [
+        "Se (condição)."
+      ]
+    },
+    "pauper#2": {
+      "lema": "pauper",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Pobre."
+      ],
+      "nota": "Predicativo de es: pobre."
+    },
+    "es": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "És."
+    },
+    "aemiliane": {
+      "lema": "Aemilianus",
+      "classe": "nome próprio",
+      "forma": "vocativo singular",
+      "def": [
+        "Emiliano, o pobre a quem o epigrama se dirige."
+      ],
+      "nota": "Nome próprio, Emiliano: a quem se fala."
+    },
+    "dantur": {
+      "lema": "do",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural, voz passiva",
+      "def": [
+        "Dar."
+      ],
+      "nota": "São dadas."
+    },
+    "opes": {
+      "lema": "ops",
+      "classe": "substantivo feminino",
+      "forma": "nominativo plural",
+      "def": [
+        "A riqueza; o poder."
+      ],
+      "nota": "Sujeito de dantur: as riquezas."
+    },
+    "nullis": {
+      "lema": "nullus",
+      "classe": "adjetivo",
+      "forma": "dativo masculino plural",
+      "def": [
+        "Nenhum; nulo."
+      ],
+      "nota": "A quem: a ninguém."
+    },
+    "nunc": {
+      "lema": "nunc",
+      "classe": "advérbio",
+      "def": [
+        "Agora."
+      ]
+    },
+    "nisi": {
+      "lema": "nisi",
+      "classe": "conjunção",
+      "def": [
+        "Se não; a menos que."
+      ],
+      "nota": "Senão."
+    },
+    "divitibus": {
+      "lema": "dives",
+      "classe": "adjetivo",
+      "forma": "dativo masculino plural",
+      "def": [
+        "Rico; abastado."
+      ],
+      "nota": "A quem: aos ricos."
+    }
+  },
+  "ocorrencias": {
+    "1.5": "pauper#2"
+  }
+}

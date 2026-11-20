@@ -1,0 +1,274 @@
+{
+  "verbetes": {
+    "admiror": {
+      "lema": "admiror",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Admirar-se; espantar-se."
+      ],
+      "nota": "Depoente: admiro-me."
+    },
+    "paries": {
+      "lema": "paries",
+      "classe": "substantivo masculino",
+      "forma": "vocativo singular",
+      "def": [
+        "A parede; o muro."
+      ],
+      "nota": "A quem se fala: parede."
+    },
+    "te": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Sujeito de cecidisse (oração infinitiva): tu."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "cecidisse": {
+      "lema": "cado",
+      "classe": "verbo",
+      "forma": "infinitivo perfeito",
+      "def": [
+        "Cair."
+      ],
+      "nota": "Depende de admiror: ter caído."
+    },
+    "ruinis": {
+      "lema": "ruina",
+      "classe": "substantivo feminino",
+      "forma": "ablativo plural",
+      "def": [
+        "A ruína; o desabamento."
+      ],
+      "nota": "Como: em ruínas."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Retoma paries: tu que."
+    },
+    "tot": {
+      "lema": "tot",
+      "classe": "adjetivo",
+      "def": [
+        "Tantos."
+      ],
+      "nota": "Com scriptorum: tantos."
+    },
+    "scriptorum": {
+      "lema": "scriptor",
+      "classe": "substantivo masculino",
+      "forma": "genitivo plural",
+      "def": [
+        "O escritor; o autor."
+      ],
+      "nota": "De quem: dos escritores."
+    },
+    "taedia": {
+      "lema": "taedium",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O tédio; o enfado."
+      ],
+      "nota": "Objeto de sustineas: os enfados."
+    },
+    "sustineas": {
+      "lema": "sustineo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 2ª pessoa do singular",
+      "def": [
+        "Aguentar; sustentar."
+      ],
+      "nota": "Relativa de causa: suportas."
+    },
+    "quisquis": {
+      "lema": "quisquis",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Quem quer que; o que quer que."
+      ],
+      "nota": "Sujeito de amat e de valeat: quem quer que."
+    },
+    "amat": {
+      "lema": "amo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Amar."
+      ],
+      "nota": "Ama."
+    },
+    "valeat": {
+      "lema": "valeo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Estar bem."
+      ],
+      "nota": "Desejo: passe bem."
+    },
+    "pereat": {
+      "lema": "pereo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Perecer; morrer."
+      ],
+      "nota": "Desejo: morra."
+    },
+    "qui#2": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de pereat e de nescit, sem antecedente: quem."
+    },
+    "nescit": {
+      "lema": "nescio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Não saber."
+      ],
+      "nota": "Não sabe."
+    },
+    "amare": {
+      "lema": "amo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Amar."
+      ],
+      "nota": "Depende de nescit: amar."
+    },
+    "bis": {
+      "lema": "bis",
+      "classe": "advérbio",
+      "def": [
+        "Duas vezes; em dobro."
+      ]
+    },
+    "tanto": {
+      "lema": "tantus",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Tão grande; tamanho."
+      ],
+      "nota": "Medida, com bis: duas vezes mais."
+    },
+    "quisquis#2": {
+      "lema": "quisquis",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Quem quer que; o que quer que."
+      ],
+      "nota": "Sujeito de pereat e de vetat: quem quer que."
+    },
+    "amare#2": {
+      "lema": "amo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Amar."
+      ],
+      "nota": "Depende de vetat: amar."
+    },
+    "vetat": {
+      "lema": "veto",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Proibir; vedar."
+      ],
+      "nota": "Proíbe."
+    },
+    "fui": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Fui."
+    },
+    "sum": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Sou."
+    },
+    "desidero": {
+      "lema": "desidero",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Desejar; sentir falta."
+      ],
+      "nota": "Sem objeto: não desejo nada, não sinto falta de nada."
+    },
+    "sit": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Desejo: seja."
+    },
+    "tibi": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "A quem: a ti."
+    },
+    "terra": {
+      "lema": "terra",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A terra."
+      ],
+      "nota": "Sujeito de sit: a terra."
+    },
+    "levis": {
+      "lema": "levis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Leve; suave."
+      ],
+      "nota": "Predicativo, concorda com terra: leve."
+    }
+  },
+  "ocorrencias": {
+    "3.5": "qui#2",
+    "4.4": "quisquis#2",
+    "4.5": "amare#2"
+  }
+}

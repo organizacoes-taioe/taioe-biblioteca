@@ -1,0 +1,125 @@
+{
+  "verbetes": {
+    "quem": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Objeto de recitas; retoma libellus, que vem depois: o (livrinho) que."
+    },
+    "recitas": {
+      "lema": "recito",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Recitar; declamar."
+      ],
+      "nota": "Recitas."
+    },
+    "meus": {
+      "lema": "meus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Meu."
+      ],
+      "nota": "Concorda com libellus: meu."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "o": {
+      "lema": "o",
+      "classe": "interjeição",
+      "def": [
+        "Ó."
+      ]
+    },
+    "fidentine": {
+      "lema": "Fidentinus",
+      "classe": "nome próprio",
+      "forma": "vocativo singular",
+      "def": [
+        "Fidentino, o plagiário que recitava os versos de Marcial como seus."
+      ],
+      "nota": "Nome próprio, Fidentino: a quem se fala."
+    },
+    "libellus": {
+      "lema": "libellus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O livrinho; o opúsculo."
+      ],
+      "nota": "Sujeito de est: o livrinho."
+    },
+    "sed": {
+      "lema": "sed",
+      "classe": "conjunção",
+      "def": [
+        "Mas."
+      ]
+    },
+    "male": {
+      "lema": "male",
+      "classe": "advérbio",
+      "def": [
+        "Mal; de modo ruim."
+      ]
+    },
+    "cum": {
+      "lema": "cum",
+      "classe": "conjunção",
+      "def": [
+        "Quando; no momento em que."
+      ],
+      "nota": "Conjunção: quando."
+    },
+    "recitas#2": {
+      "lema": "recito",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Recitar; declamar."
+      ],
+      "nota": "Depois de cum: recitas."
+    },
+    "incipit": {
+      "lema": "incipio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Começar; iniciar."
+      ],
+      "nota": "Começa (o livrinho)."
+    },
+    "esse": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Depende de incipit: ser."
+    },
+    "tuus": {
+      "lema": "tuus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Teu."
+      ],
+      "nota": "Predicativo do livrinho: teu."
+    }
+  },
+  "ocorrencias": {
+    "2.4": "recitas#2"
+  }
+}

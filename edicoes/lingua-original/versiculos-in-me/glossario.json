@@ -1,0 +1,110 @@
+{
+  "verbetes": {
+    "versiculos": {
+      "lema": "versiculus",
+      "classe": "substantivo masculino",
+      "forma": "acusativo plural",
+      "def": [
+        "O versinho; o verso pequeno."
+      ],
+      "nota": "Objeto de scribere: versinhos."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Contra; para (com acusativo)."
+      ]
+    },
+    "me": {
+      "lema": "ego",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Eu."
+      ],
+      "nota": "Depois de in: contra mim."
+    },
+    "narratur": {
+      "lema": "narro",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Contar; relatar."
+      ],
+      "nota": "Passivo pessoal: diz-se que (ele)."
+    },
+    "scribere": {
+      "lema": "scribo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Escrever; redigir."
+      ],
+      "nota": "Depende de narratur: escrever."
+    },
+    "cinna": {
+      "lema": "Cinna",
+      "classe": "nome próprio",
+      "forma": "nominativo singular",
+      "def": [
+        "Cina, o poeta invejoso do epigrama."
+      ],
+      "nota": "Nome próprio, Cina: sujeito de narratur."
+    },
+    "non": {
+      "lema": "non",
+      "classe": "advérbio",
+      "def": [
+        "Não."
+      ]
+    },
+    "scribit": {
+      "lema": "scribo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Escrever; redigir."
+      ],
+      "nota": "Escreve."
+    },
+    "cuius": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "genitivo masculino singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Relativo, de quem são os poemas: cujos."
+    },
+    "carmina": {
+      "lema": "carmen",
+      "classe": "substantivo neutro",
+      "forma": "acusativo plural",
+      "def": [
+        "O canto; o poema."
+      ],
+      "nota": "Objeto de legit: os poemas."
+    },
+    "nemo": {
+      "lema": "nemo",
+      "classe": "pronome",
+      "forma": "nominativo singular",
+      "def": [
+        "Ninguém; nenhuma pessoa."
+      ],
+      "nota": "Sujeito de legit: ninguém."
+    },
+    "legit": {
+      "lema": "lego",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ler."
+      ],
+      "nota": "Lê."
+    }
+  },
+  "ocorrencias": {}
+}

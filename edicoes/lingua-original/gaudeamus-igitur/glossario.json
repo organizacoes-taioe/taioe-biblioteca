@@ -1,0 +1,362 @@
+{
+  "verbetes": {
+    "gaudeamus": {
+      "lema": "gaudeo",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do plural",
+      "def": [
+        "Alegrar-se."
+      ],
+      "nota": "Exortação: alegremo-nos."
+    },
+    "igitur": {
+      "lema": "igitur",
+      "classe": "conjunção",
+      "def": [
+        "Portanto; então."
+      ],
+      "nota": "Pois."
+    },
+    "iuvenes": {
+      "lema": "iuvenis",
+      "classe": "substantivo masculino",
+      "forma": "nominativo plural",
+      "def": [
+        "O jovem; o moço."
+      ],
+      "nota": "Predicativo de sumus: jovens."
+    },
+    "dum": {
+      "lema": "dum",
+      "classe": "conjunção",
+      "def": [
+        "Enquanto."
+      ],
+      "nota": "Enquanto."
+    },
+    "sumus": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Somos."
+    },
+    "post": {
+      "lema": "post",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Depois de; atrás de."
+      ]
+    },
+    "iucundam": {
+      "lema": "iucundus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Agradável; aprazível."
+      ],
+      "nota": "Concorda com iuventutem: alegre."
+    },
+    "iuventutem": {
+      "lema": "iuventus",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A juventude; a mocidade."
+      ],
+      "nota": "Depois de post: a juventude."
+    },
+    "molestam": {
+      "lema": "molestus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Penoso; incômodo."
+      ],
+      "nota": "Concorda com senectutem: penosa."
+    },
+    "senectutem": {
+      "lema": "senectus",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A velhice; a idade avançada."
+      ],
+      "nota": "Depois de post: a velhice."
+    },
+    "nos": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "acusativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Objeto de habebit: nós."
+    },
+    "habebit": {
+      "lema": "habeo",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ter."
+      ],
+      "nota": "Terá."
+    },
+    "humus": {
+      "lema": "humus",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "O chão; a terra."
+      ],
+      "nota": "Sujeito de habebit: a terra."
+    },
+    "ubi": {
+      "lema": "ubi",
+      "classe": "advérbio",
+      "def": [
+        "Onde."
+      ]
+    },
+    "sunt": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Estão."
+    },
+    "qui": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Sujeito de fuere: os que."
+    },
+    "ante": {
+      "lema": "ante",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Antes de; diante de."
+      ]
+    },
+    "nos#2": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "acusativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Depois de ante: nós."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em."
+      ]
+    },
+    "mundo": {
+      "lema": "mundus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O mundo."
+      ],
+      "nota": "Depois de in: no mundo."
+    },
+    "fuere": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Forma poética de fuerunt: estiveram."
+    },
+    "vadite": {
+      "lema": "vado",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural",
+      "def": [
+        "Ir."
+      ],
+      "nota": "Ide."
+    },
+    "ad": {
+      "lema": "ad",
+      "classe": "preposição",
+      "forma": "preposição com acusativo",
+      "def": [
+        "Para; até, junto a."
+      ]
+    },
+    "superos": {
+      "lema": "superus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "De cima; do alto."
+      ],
+      "nota": "Substantivado, depois de ad: os de cima (os deuses do céu)."
+    },
+    "transite": {
+      "lema": "transeo",
+      "classe": "verbo",
+      "forma": "imperativo presente, 2ª pessoa do plural",
+      "def": [
+        "Passar; atravessar."
+      ],
+      "nota": "Passai."
+    },
+    "inferos": {
+      "lema": "inferus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "De baixo."
+      ],
+      "nota": "Substantivado, depois de ad: os de baixo (os mortos)."
+    },
+    "iam": {
+      "lema": "iam",
+      "classe": "advérbio",
+      "def": [
+        "Já."
+      ]
+    },
+    "vita": {
+      "lema": "vita",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A vida."
+      ],
+      "nota": "Sujeito de est: a vida."
+    },
+    "nostra": {
+      "lema": "noster",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Nosso."
+      ],
+      "nota": "Concorda com vita: nossa."
+    },
+    "brevis": {
+      "lema": "brevis",
+      "classe": "adjetivo",
+      "forma": "nominativo feminino singular",
+      "def": [
+        "Breve."
+      ],
+      "nota": "Predicativo de est: breve."
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ]
+    },
+    "brevi": {
+      "lema": "brevis",
+      "classe": "adjetivo",
+      "forma": "ablativo neutro singular",
+      "def": [
+        "Breve."
+      ],
+      "nota": "Com tempore subentendido: em breve."
+    },
+    "finietur": {
+      "lema": "finio",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Terminar; acabar."
+      ],
+      "nota": "Terminará (será acabada)."
+    },
+    "venit": {
+      "lema": "venio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Vir."
+      ],
+      "nota": "Vem."
+    },
+    "mors": {
+      "lema": "mors",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A morte."
+      ],
+      "nota": "Sujeito de venit: a morte."
+    },
+    "velociter": {
+      "lema": "velociter",
+      "classe": "advérbio",
+      "def": [
+        "Velozmente; com velocidade."
+      ]
+    },
+    "rapit": {
+      "lema": "rapio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Arrebatar; roubar."
+      ],
+      "nota": "Arrebata."
+    },
+    "nos#3": {
+      "lema": "nos",
+      "classe": "pronome",
+      "forma": "acusativo plural",
+      "def": [
+        "Nós."
+      ],
+      "nota": "Objeto de rapit: nós."
+    },
+    "atrociter": {
+      "lema": "atrociter",
+      "classe": "advérbio",
+      "def": [
+        "Cruelmente; sem piedade."
+      ]
+    },
+    "nemini": {
+      "lema": "nemo",
+      "classe": "pronome",
+      "forma": "dativo singular",
+      "def": [
+        "Ninguém; nenhuma pessoa."
+      ],
+      "nota": "Com parcetur: a ninguém."
+    },
+    "parcetur": {
+      "lema": "parco",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do singular, voz passiva",
+      "def": [
+        "Poupar; perdoar."
+      ],
+      "nota": "Passiva impessoal, com nemini: ninguém será poupado."
+    }
+  },
+  "ocorrencias": {
+    "6.5": "nos#2",
+    "14.2": "nos#3"
+  }
+}

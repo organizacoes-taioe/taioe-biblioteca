@@ -1,0 +1,482 @@
+{
+  "verbetes": {
+    "inops": {
+      "lema": "inops",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Sem recursos; fraco, pobre."
+      ],
+      "nota": "Substantivado, sujeito de perit: o fraco."
+    },
+    "potentem": {
+      "lema": "potens",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino singular",
+      "def": [
+        "Poderoso."
+      ],
+      "nota": "Substantivado, objeto de imitari: o poderoso."
+    },
+    "dum": {
+      "lema": "dum",
+      "classe": "conjunção",
+      "def": [
+        "Enquanto."
+      ],
+      "nota": "Quando."
+    },
+    "vult": {
+      "lema": "volo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Querer."
+      ],
+      "nota": "Quer."
+    },
+    "imitari": {
+      "lema": "imitor",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Imitar; copiar."
+      ],
+      "nota": "Depoente, depende de vult: imitar."
+    },
+    "perit": {
+      "lema": "pereo",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Perecer; morrer."
+      ],
+      "nota": "Perece."
+    },
+    "in": {
+      "lema": "in",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Em."
+      ]
+    },
+    "prato": {
+      "lema": "pratum",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "O prado; o campo."
+      ],
+      "nota": "Depois de in: num prado."
+    },
+    "quondam": {
+      "lema": "quondam",
+      "classe": "advérbio",
+      "def": [
+        "Outrora; certa vez."
+      ],
+      "nota": "Certa vez."
+    },
+    "rana": {
+      "lema": "rana",
+      "classe": "substantivo feminino",
+      "forma": "nominativo singular",
+      "def": [
+        "A rã."
+      ],
+      "nota": "Sujeito de conspexit: uma rã."
+    },
+    "conspexit": {
+      "lema": "conspicio",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Avistar; notar."
+      ],
+      "nota": "Avistou."
+    },
+    "bovem": {
+      "lema": "bos",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O boi; a vaca."
+      ],
+      "nota": "Objeto de conspexit: um boi."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E."
+      ]
+    },
+    "tacta": {
+      "lema": "tango",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Tocar."
+      ],
+      "nota": "Concorda com a rã: tocada (tomada) pela inveja."
+    },
+    "invidia": {
+      "lema": "invidia",
+      "classe": "substantivo feminino",
+      "forma": "ablativo singular",
+      "def": [
+        "A inveja; o ciúme."
+      ],
+      "nota": "Causa: pela inveja."
+    },
+    "tantae": {
+      "lema": "tantus",
+      "classe": "adjetivo",
+      "forma": "genitivo feminino singular",
+      "def": [
+        "Tão grande; tamanho."
+      ],
+      "nota": "Concorda com magnitudinis: tamanha."
+    },
+    "magnitudinis": {
+      "lema": "magnitudo",
+      "classe": "substantivo feminino",
+      "forma": "genitivo singular",
+      "def": [
+        "A grandeza; o tamanho."
+      ],
+      "nota": "Genitivo com invidia: (inveja) de tamanha grandeza."
+    },
+    "rugosam": {
+      "lema": "rugosus",
+      "classe": "adjetivo",
+      "forma": "acusativo feminino singular",
+      "def": [
+        "Enrugado; rugoso."
+      ],
+      "nota": "Concorda com pellem: enrugada."
+    },
+    "inflavit": {
+      "lema": "inflo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Inflar; inchar."
+      ],
+      "nota": "Inflou."
+    },
+    "pellem": {
+      "lema": "pellis",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A pele; o couro."
+      ],
+      "nota": "Objeto de inflavit: a pele."
+    },
+    "tum": {
+      "lema": "tum",
+      "classe": "advérbio",
+      "def": [
+        "Então; nesse momento."
+      ]
+    },
+    "natos": {
+      "lema": "nascor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, acusativo masculino plural",
+      "def": [
+        "Nascer."
+      ],
+      "nota": "Substantivado, objeto de interrogavit: os filhos."
+    },
+    "suos": {
+      "lema": "suus",
+      "classe": "adjetivo",
+      "forma": "acusativo masculino plural",
+      "def": [
+        "Seu; dele."
+      ],
+      "nota": "Concorda com natos: seus."
+    },
+    "interrogavit": {
+      "lema": "interrogo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Perguntar; interrogar."
+      ],
+      "nota": "Perguntou."
+    },
+    "an": {
+      "lema": "an",
+      "classe": "conjunção",
+      "def": [
+        "Ou; porventura."
+      ],
+      "nota": "Interrogativa indireta: se."
+    },
+    "bove": {
+      "lema": "bos",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O boi; a vaca."
+      ],
+      "nota": "Ablativo de comparação: que o boi."
+    },
+    "esset": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Interrogativa indireta: era."
+    },
+    "latior": {
+      "lema": "latus",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Largo; amplo."
+      ],
+      "nota": "Nominativo feminino singular, predicativo de esset: mais larga."
+    },
+    "illi": {
+      "lema": "ille",
+      "classe": "pronome",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Aquele; ele."
+      ],
+      "nota": "Sujeito de negarunt: eles (os filhos)."
+    },
+    "negarunt": {
+      "lema": "nego",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Negar; recusar."
+      ],
+      "nota": "Forma curta de negaverunt: disseram que não."
+    },
+    "rursus": {
+      "lema": "rursus",
+      "classe": "advérbio",
+      "def": [
+        "De novo; outra vez."
+      ]
+    },
+    "intendit": {
+      "lema": "intendo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Esticar; dirigir."
+      ],
+      "nota": "Esticou."
+    },
+    "cutem": {
+      "lema": "cutis",
+      "classe": "substantivo feminino",
+      "forma": "acusativo singular",
+      "def": [
+        "A pele."
+      ],
+      "nota": "Objeto de intendit: a pele."
+    },
+    "maiore": {
+      "lema": "magnus",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Grande."
+      ],
+      "nota": "Ablativo masculino singular, concorda com nisu: maior."
+    },
+    "nisu": {
+      "lema": "nisus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O esforço; o impulso."
+      ],
+      "nota": "Modo: com esforço."
+    },
+    "simili": {
+      "lema": "similis",
+      "classe": "adjetivo",
+      "forma": "ablativo masculino singular",
+      "def": [
+        "Semelhante; parecido."
+      ],
+      "nota": "Concorda com modo: semelhante."
+    },
+    "quaesivit": {
+      "lema": "quaero",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Procurar; buscar."
+      ],
+      "nota": "Perguntou."
+    },
+    "modo": {
+      "lema": "modus",
+      "classe": "substantivo masculino",
+      "forma": "ablativo singular",
+      "def": [
+        "O modo; a medida."
+      ],
+      "nota": "Modo: de modo."
+    },
+    "quis": {
+      "lema": "quis",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Quem; que coisa (em pergunta)."
+      ],
+      "nota": "Interrogativo indireto, sujeito de esset: quem."
+    },
+    "maior": {
+      "lema": "magnus",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Grande."
+      ],
+      "nota": "Nominativo masculino singular, predicativo de esset: maior."
+    },
+    "illi#2": {
+      "lema": "ille",
+      "classe": "pronome",
+      "forma": "nominativo masculino plural",
+      "def": [
+        "Aquele; ele."
+      ],
+      "nota": "Sujeito de dixerunt: eles."
+    },
+    "dixerunt": {
+      "lema": "dico",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Dizer."
+      ],
+      "nota": "Disseram."
+    },
+    "bovem#2": {
+      "lema": "bos",
+      "classe": "substantivo masculino",
+      "forma": "acusativo singular",
+      "def": [
+        "O boi; a vaca."
+      ],
+      "nota": "Sujeito do infinitivo subentendido: (que era) o boi."
+    },
+    "novissime": {
+      "lema": "novissime",
+      "classe": "advérbio",
+      "def": [
+        "Por último; em último lugar."
+      ],
+      "nota": "Por fim."
+    },
+    "indignata": {
+      "lema": "indignor",
+      "classe": "verbo",
+      "forma": "particípio perfeito, nominativo feminino singular",
+      "def": [
+        "Indignar-se; irritar-se."
+      ],
+      "nota": "Depoente, concorda com a rã: indignada."
+    },
+    "dum#2": {
+      "lema": "dum",
+      "classe": "conjunção",
+      "def": [
+        "Enquanto."
+      ],
+      "nota": "Enquanto."
+    },
+    "validius": {
+      "lema": "validus",
+      "classe": "adjetivo",
+      "forma": "comparativo",
+      "def": [
+        "Robusto; vigoroso."
+      ],
+      "nota": "Como advérbio: com mais força."
+    },
+    "inflare": {
+      "lema": "inflo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Inflar; inchar."
+      ],
+      "nota": "Depende de vult: inflar."
+    },
+    "sese": {
+      "lema": "sui",
+      "classe": "pronome",
+      "forma": "acusativo singular",
+      "def": [
+        "Se; a si mesmo."
+      ],
+      "nota": "Objeto de inflare: a si mesma."
+    },
+    "rupto": {
+      "lema": "rumpo",
+      "classe": "verbo",
+      "forma": "particípio perfeito, ablativo neutro singular",
+      "def": [
+        "Romper; rebentar."
+      ],
+      "nota": "Concorda com corpore: rebentado."
+    },
+    "iacuit": {
+      "lema": "iaceo",
+      "classe": "verbo",
+      "forma": "perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Jazer; estar deitado."
+      ],
+      "nota": "Jazeu: ficou estendida, morta."
+    },
+    "corpore": {
+      "lema": "corpus",
+      "classe": "substantivo neutro",
+      "forma": "ablativo singular",
+      "def": [
+        "O corpo."
+      ],
+      "nota": "Ablativo absoluto, com rupto: com o corpo rebentado."
+    },
+    "rupta": {
+      "lema": "rumpo",
+      "classe": "verbo",
+      "forma": "particípio perfeito passivo, nominativo feminino singular",
+      "def": [
+        "Rompido; arrebentado."
+      ],
+      "nota": "O título: «a rã arrebentada e o boi»."
+    },
+    "bos": {
+      "lema": "bos",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "Boi."
+      ]
+    }
+  },
+  "ocorrencias": {
+    "8.4": "illi#2",
+    "8.6": "bovem#2",
+    "9.3": "dum#2"
+  }
+}

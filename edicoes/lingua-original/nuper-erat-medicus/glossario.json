@@ -1,0 +1,120 @@
+{
+  "verbetes": {
+    "nuper": {
+      "lema": "nuper",
+      "classe": "advérbio",
+      "def": [
+        "Há pouco; recentemente."
+      ]
+    },
+    "erat": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "imperfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "Era."
+    },
+    "medicus": {
+      "lema": "medicus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O médico; o doutor."
+      ],
+      "nota": "Predicativo de erat: médico."
+    },
+    "nunc": {
+      "lema": "nunc",
+      "classe": "advérbio",
+      "def": [
+        "Agora."
+      ]
+    },
+    "est": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "É."
+    },
+    "vispillo": {
+      "lema": "vispillo",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O coveiro; o carregador de mortos."
+      ],
+      "nota": "Predicativo de est: coveiro."
+    },
+    "diaulus": {
+      "lema": "Diaulus",
+      "classe": "nome próprio",
+      "forma": "nominativo singular",
+      "def": [
+        "Diaulo, o médico que virou coveiro nos epigramas de Marcial."
+      ],
+      "nota": "Nome próprio, Diaulo: sujeito de erat e de est."
+    },
+    "quod": {
+      "lema": "qui",
+      "classe": "pronome",
+      "forma": "acusativo neutro singular",
+      "def": [
+        "Que; o qual."
+      ],
+      "nota": "Objeto de facit e de fecerat: o que."
+    },
+    "vispillo#2": {
+      "lema": "vispillo",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O coveiro; o carregador de mortos."
+      ],
+      "nota": "Sujeito de facit: o coveiro."
+    },
+    "facit": {
+      "lema": "facio",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Fazer."
+      ],
+      "nota": "Faz."
+    },
+    "fecerat": {
+      "lema": "facio",
+      "classe": "verbo",
+      "forma": "mais-que-perfeito do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Fazer."
+      ],
+      "nota": "Tinha feito."
+    },
+    "et": {
+      "lema": "et",
+      "classe": "conjunção",
+      "def": [
+        "E; também."
+      ],
+      "nota": "Aqui, também: o médico também o fazia."
+    },
+    "medicus#2": {
+      "lema": "medicus",
+      "classe": "substantivo masculino",
+      "forma": "nominativo singular",
+      "def": [
+        "O médico; o doutor."
+      ],
+      "nota": "Sujeito de fecerat: o médico."
+    }
+  },
+  "ocorrencias": {
+    "2.2": "vispillo#2",
+    "2.6": "medicus#2"
+  }
+}

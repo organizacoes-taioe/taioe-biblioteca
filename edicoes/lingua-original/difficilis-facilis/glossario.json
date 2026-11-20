@@ -1,0 +1,122 @@
+{
+  "verbetes": {
+    "difficilis": {
+      "lema": "difficilis",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Difícil; árduo."
+      ],
+      "nota": "Predicativo de es: difícil."
+    },
+    "facilis": {
+      "lema": "facilis",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Fácil; afável."
+      ],
+      "nota": "Predicativo de es: fácil."
+    },
+    "iucundus": {
+      "lema": "iucundus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Agradável; aprazível."
+      ],
+      "nota": "Predicativo de es: agradável."
+    },
+    "acerbus": {
+      "lema": "acerbus",
+      "classe": "adjetivo",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "Amargo; áspero."
+      ],
+      "nota": "Predicativo de es: amargo."
+    },
+    "es": {
+      "lema": "sum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Ser."
+      ],
+      "nota": "És."
+    },
+    "idem": {
+      "lema": "idem",
+      "classe": "pronome",
+      "forma": "nominativo masculino singular",
+      "def": [
+        "O mesmo."
+      ],
+      "nota": "O mesmo: ao mesmo tempo."
+    },
+    "nec": {
+      "lema": "nec",
+      "classe": "conjunção",
+      "def": [
+        "Nem; e não."
+      ]
+    },
+    "tecum": {
+      "partes": [
+        {
+          "lema": "tu",
+          "classe": "pronome",
+          "forma": "ablativo singular",
+          "def": [
+            "Tu."
+          ]
+        },
+        {
+          "lema": "cum",
+          "classe": "preposição",
+          "forma": "preposição com ablativo",
+          "def": [
+            "Com."
+          ]
+        }
+      ],
+      "nota": "Contigo: a preposição cum vai colada depois do pronome."
+    },
+    "possum": {
+      "lema": "possum",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Poder."
+      ],
+      "nota": "Posso."
+    },
+    "vivere": {
+      "lema": "vivo",
+      "classe": "verbo",
+      "forma": "infinitivo presente",
+      "def": [
+        "Viver."
+      ],
+      "nota": "Depende de possum: viver."
+    },
+    "sine": {
+      "lema": "sine",
+      "classe": "preposição",
+      "forma": "preposição com ablativo",
+      "def": [
+        "Sem; na falta de."
+      ]
+    },
+    "te": {
+      "lema": "tu",
+      "classe": "pronome",
+      "forma": "ablativo singular",
+      "def": [
+        "Tu."
+      ],
+      "nota": "Depois de sine: sem ti."
+    }
+  },
+  "ocorrencias": {}
+}

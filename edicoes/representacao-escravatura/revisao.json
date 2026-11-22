@@ -1,0 +1,45 @@
+{
+ "id": "representacao-sobre-a-escravatura",
+ "rotulo": "Representação sobre a escravatura (José Bonifácio)",
+ "url": "/biblioteca/jose-bonifacio/representacao-sobre-a-escravatura/",
+ "escolhas": [
+  {
+   "id": "me-emprego",
+   "titulo": "Corrigir «quando me empego nestas tristes considerações» para «me emprego»?",
+   "ref": "Representação (p. 14 do impresso)",
+   "contexto": "O impresso de 1825 traz «empego», que não faz sentido na frase e parece erro de composição por «emprego» (empregar-se em algo: dedicar-se). O texto no ar está com «me emprego», e a troca aparece na lista de erros da página «Sobre».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica «me emprego»",
+     "nota": "Corrige o erro evidente, e a lista de erros registra a lição de 1825.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Voltar a «me empego»",
+     "nota": "Mantém a letra do impresso, mesmo sem sentido claro."
+    }
+   ]
+  },
+  {
+   "id": "premissas",
+   "titulo": "Manter «as premissas dos frutos» ou trocar por «as primícias dos frutos»?",
+   "ref": "Representação (p. 26 do impresso)",
+   "contexto": "O autor escreve que os escravos vêm «offerecer-lhe até as premissas dos frutos de suas terrinhas». «Premissas» era forma antiga de «primícias», os primeiros frutos da colheita. Hoje a palavra quer dizer outra coisa. O texto no ar mantém a do autor, com a nota no toque.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica «premissas», com a nota",
+     "nota": "Respeita a palavra do autor; a nota explica o sentido.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Trocar por «primícias»",
+     "nota": "Lê melhor hoje, mas muda a palavra impressa."
+    }
+   ]
+  }
+ ]
+}

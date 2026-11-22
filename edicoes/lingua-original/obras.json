@@ -904,6 +904,51 @@
       "fontes": [
         { "nome": "L. Annaei Senecae Ad Lucilium Epistulae Morales, ed. Richard M. Gummere, vol. I (Londres, William Heinemann, 1917), no Perseus Digital Library", "url": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi1017.phi015.perseus-lat2:1.1.1/", "nota": "carta 1, sobre o tempo, o começo do § 1; palavras e pontuação desta edição" }
       ]
+    },
+    {
+      "pasta": "cancion-de-jinete", "autor": "federico-garcia-lorca", "lingua": "es", "forma": "outras",
+      "titulo": "Canción de jinete", "ano": 1927,
+      "livro": { "titulo": "Canciones", "ano": 1927 },
+      "fontes": [
+        { "nome": "Canción del jinete, no Wikisource", "url": "https://es.wikisource.org/wiki/Canci%C3%B3n_del_jinete", "nota": "o poema «Córdoba. / Lejana y sola.», de _Canciones_ (1921–1924); não é «Canción de jinete (1860)», do mesmo livro" },
+        { "nome": "Canciones, 1921-1924 (Málaga, Litoral, 1927), no Internet Archive", "url": "https://archive.org/details/canciones_202401" }
+      ]
+    },
+    {
+      "pasta": "peso-ancestral", "autor": "alfonsina-storni", "lingua": "es", "forma": "outras",
+      "titulo": "Peso ancestral", "ano": 1919,
+      "livro": { "titulo": "Irremediablemente...", "ano": 1919 },
+      "fontes": [
+        { "nome": "Irremediablemente... (1919), no Wikisource", "url": "https://es.wikisource.org/wiki/Peso_ancestral", "nota": "maiúsculas no começo dos versos como na edição de 1919; «Así» com acento" },
+        { "nome": "Irremediablemente... (Buenos Aires, 1919), no Internet Archive", "url": "https://archive.org/details/storniirremediablemente" }
+      ]
+    },
+    {
+      "pasta": "los-heraldos-negros", "autor": "cesar-vallejo", "lingua": "es", "forma": "outras",
+      "titulo": "Los heraldos negros", "ano": 1919,
+      "livro": { "titulo": "Los heraldos negros", "ano": 1919 },
+      "fontes": [
+        { "nome": "Los heraldos negros (Lima, 1919), no Wikisource", "url": "https://es.wikisource.org/wiki/Los_heraldos_negros", "nota": "o livro traz 1918 na capa e saiu em 1919; acentuação e sinais de abertura de hoje («más», «caídas», «¡Yo no sé!»); mantidas as formas «talvez» e «atilas» do autor" },
+        { "nome": "o poema, na Wikipédia", "url": "https://es.wikipedia.org/wiki/Los_heraldos_negros" }
+      ]
+    },
+    {
+      "pasta": "en-paz", "autor": "amado-nervo", "lingua": "es", "forma": "outras",
+      "titulo": "En paz", "ano": 1917,
+      "livro": { "titulo": "Elevación", "ano": 1917 },
+      "fontes": [
+        { "nome": "En paz, no Wikisource", "url": "https://es.wikisource.org/wiki/En_paz" },
+        { "nome": "Elevación (Nuevos poemas) (Madrid, 1916), no Internet Archive", "url": "https://archive.org/details/elevacion-1", "nota": "do original vêm o epígrafe, «las mieles o la hiel», «largas las noches», «tú solo» e a data; ortografia de hoje («fui», «fue», «solo», «mayo»)" }
+      ]
+    },
+    {
+      "pasta": "la-tortuga-gigante", "autor": "horacio-quiroga", "lingua": "es", "forma": "outras", "prosa": true, "genero": "Contos",
+      "titulo": "La tortuga gigante", "ano": 1918,
+      "livro": { "titulo": "Cuentos de la selva (para los niños)", "ano": 1918 },
+      "fontes": [
+        { "nome": "Cuentos de la selva para los niños (Buenos Aires, Imprenta Mercatali, 1918), no Wikisource", "url": "https://es.wikisource.org/wiki/La_tortuga_gigante", "nota": "só o começo do conto, do início até «una lata de kerosene» (262 palavras), o homem doente no monte, antes do tigre e da tortuga; na acentuação de hoje («fue», «Él») e, no resto, como está na 1ª edição, com o diálogo em raya (—)" },
+        { "nome": "Cuentos de la selva (Proyecto Fénix), no Internet Archive", "url": "https://archive.org/details/proyecto-fenix-quiroga-cuentos-de-la-selva", "nota": "edição de hoje, com a qual o texto foi confrontado: sem diferença de palavras" }
+      ]
     }
   ]
 }

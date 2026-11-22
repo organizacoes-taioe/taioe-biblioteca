@@ -1,0 +1,711 @@
+{
+  "verbetes": {
+    "a": {
+      "lema": "a",
+      "classe": "preposição",
+      "def": [
+        "Indica direção, destino ou ponto de chegada."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica origem, posse ou pertinência; também liga o nome ao seu complemento."
+      ]
+    },
+    "el": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido masculino singular."
+      ]
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido feminino singular."
+      ]
+    },
+    "las": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "forma": "feminino plural",
+      "def": [
+        "Artigo definido feminino plural."
+      ]
+    },
+    "y": {
+      "lema": "y",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção copulativa: une palavras, orações ou frases."
+      ]
+    },
+    "o": {
+      "lema": "o",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção disjuntiva: indica alternativa entre duas possibilidades."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Indica lugar, tempo ou modo em que algo está ou ocorre."
+      ]
+    },
+    "que": {
+      "lema": "que",
+      "classe": "conjunção",
+      "def": [
+        "Introduz uma oração subordinada completiva; «que»."
+      ],
+      "nota": "Em «veo… que yo fui el arquitecto» e em «no me dijiste que mayo fuese eterno»: liga o verbo ao que se vê ou se diz. Em «que si extraje…», idem: o poeta vê que, se extraiu mel ou fel, foi por causa do que pôs nas coisas."
+    },
+    "yo": {
+      "lema": "yo",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal de primeira pessoa do singular: designa quem fala."
+      ]
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal átono de primeira pessoa do singular: «me», «a mim»."
+      ]
+    },
+    "mi": {
+      "lema": "mi",
+      "classe": "adjetivo possessivo",
+      "forma": "singular",
+      "def": [
+        "Meu, minha (diante do substantivo)."
+      ]
+    },
+    "te": {
+      "lema": "te",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal átono de segunda pessoa do singular: «te», «a ti»."
+      ]
+    },
+    "no": {
+      "lema": "no",
+      "classe": "advérbio",
+      "def": [
+        "Expressa negação."
+      ]
+    },
+    "nunca": {
+      "lema": "nunca",
+      "classe": "advérbio",
+      "def": [
+        "Em nenhum momento; jamais."
+      ]
+    },
+    "ni": {
+      "lema": "ni",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção negativa que une elementos de uma enumeração negada; «nem»."
+      ]
+    },
+    "cuando": {
+      "lema": "cuando",
+      "classe": "conjunção",
+      "def": [
+        "No momento em que; «quando»."
+      ]
+    },
+    "mas": {
+      "lema": "mas",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção adversativa: opõe ao que se disse; «mas», «porém»."
+      ],
+      "nota": "Sem acento, é a conjunção «mas», e não o advérbio «más»."
+    },
+    "si": {
+      "lema": "si",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção condicional: introduz a condição de que depende o que se afirma."
+      ]
+    },
+    "sin": {
+      "lema": "sin",
+      "classe": "preposição",
+      "def": [
+        "Indica falta ou ausência de algo."
+      ]
+    },
+    "al": {
+      "lema": "al",
+      "classe": "contração",
+      "def": [
+        "Contração da preposição «a» com o artigo «el»."
+      ]
+    },
+    "porque": {
+      "lema": "porque",
+      "classe": "conjunção",
+      "def": [
+        "Introduz a causa ou o motivo do que se afirma; porque."
+      ],
+      "nota": "Repetido no começo de três versos: o poeta enumera os motivos para agradecer à vida."
+    },
+    "acarició": {
+      "lema": "acariciar",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 3ª pessoa do singular",
+      "def": [
+        "Tocar com suavidade e carinho; acariciar."
+      ]
+    },
+    "algunas": {
+      "lema": "alguno",
+      "classe": "pronome indefinido",
+      "forma": "feminino plural",
+      "def": [
+        "Uma pessoa ou coisa não determinada; alguma."
+      ],
+      "nota": "«Algunas» retoma «noches»: algumas noites."
+    },
+    "amado": {
+      "lema": "amar",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Sentir amor por alguém; amar."
+      ],
+      "nota": "«Fui amado»: voz passiva, fui amado. O verso resume uma vida: amei e fui amado."
+    },
+    "amé": {
+      "lema": "amar",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 1ª pessoa do singular",
+      "def": [
+        "Sentir amor por alguém; amar."
+      ]
+    },
+    "arquitecto": {
+      "lema": "arquitecto",
+      "classe": "substantivo masculino",
+      "def": [
+        "Pessoa que projeta e dirige a construção de edifícios; arquiteto."
+      ],
+      "nota": "Imagem do poema: cada um é o arquiteto do seu destino. A epígrafe latina diz o mesmo: «artífice da vida, artífice de si»."
+    },
+    "bendigo": {
+      "lema": "bendecir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Invocar sobre alguém a proteção divina; louvar e agradecer."
+      ],
+      "nota": "Tom religioso: o poeta «abençoa» a vida, em ação de graças, ao se aproximar do fim."
+    },
+    "buenas": {
+      "lema": "bueno",
+      "classe": "adjetivo",
+      "forma": "feminino plural",
+      "def": [
+        "De boa qualidade; que agrada; bom."
+      ]
+    },
+    "cambio": {
+      "lema": "cambio",
+      "classe": "substantivo masculino",
+      "def": [
+        "Troca de uma coisa por outra; mudança."
+      ],
+      "nota": "«En cambio»: em compensação, em troca; marca o contraste com o verso anterior."
+    },
+    "camino": {
+      "lema": "camino",
+      "classe": "substantivo masculino",
+      "def": [
+        "Percurso que se faz de um lugar a outro; caminho."
+      ],
+      "nota": "«Rudo camino»: o caminho áspero da vida."
+    },
+    "cerca": {
+      "lema": "cerca",
+      "classe": "advérbio",
+      "def": [
+        "A pouca distância, no espaço ou no tempo; perto."
+      ],
+      "nota": "«Muy cerca de mi ocaso»: muito perto do fim da vida."
+    },
+    "cierto": {
+      "lema": "cierto",
+      "classe": "adjetivo",
+      "def": [
+        "Verdadeiro, que não se pode pôr em dúvida; certo."
+      ],
+      "nota": "«Cierto» aqui é «é verdade, sem dúvida»: o poeta reconhece o que vem, antes de objetar com «mas»."
+    },
+    "cosas": {
+      "lema": "cosa",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Tudo o que existe, real ou imaginário; coisa."
+      ]
+    },
+    "coseché": {
+      "lema": "cosechar",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 1ª pessoa do singular",
+      "def": [
+        "Recolher os frutos da terra; colher."
+      ]
+    },
+    "debes": {
+      "lema": "deber",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 2ª pessoa do singular",
+      "def": [
+        "Ter a obrigação de pagar ou dar algo; dever."
+      ],
+      "nota": "«Nada me debes»: a vida não lhe deve nada, está quitada; daí «estamos en paz»."
+    },
+    "destino": {
+      "lema": "destino",
+      "classe": "substantivo masculino",
+      "def": [
+        "Encadeamento dos acontecimentos tidos como inevitáveis; destino."
+      ],
+      "nota": "A tese do poema: o destino é obra de cada um, não algo imposto de fora."
+    },
+    "dijiste": {
+      "lema": "decir",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 2ª pessoa do singular",
+      "def": [
+        "Exprimir com palavras; dizer."
+      ]
+    },
+    "diste": {
+      "lema": "dar",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 2ª pessoa do singular",
+      "def": [
+        "Entregar algo a alguém; dar."
+      ]
+    },
+    "duda": {
+      "lema": "duda",
+      "classe": "substantivo feminino",
+      "def": [
+        "Incerteza sobre algo; dúvida."
+      ],
+      "nota": "«Sin duda»: sem dúvida, certamente."
+    },
+    "ellas": {
+      "lema": "ellas",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal de terceira pessoa do feminino plural; elas."
+      ],
+      "nota": "Retoma «cosas»: «puse en ellas», pus nelas (nas coisas)."
+    },
+    "esperanza": {
+      "lema": "esperanza",
+      "classe": "substantivo feminino",
+      "def": [
+        "Confiança em alcançar o que se deseja; esperança."
+      ]
+    },
+    "estamos": {
+      "lema": "estar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do plural",
+      "def": [
+        "Encontrar-se em um lugar ou em um estado."
+      ],
+      "nota": "«Estamos en paz»: estamos quites, sem dívida de um para o outro."
+    },
+    "eterno": {
+      "lema": "eterno",
+      "classe": "adjetivo",
+      "def": [
+        "Que não tem princípio nem fim; eterno."
+      ],
+      "nota": "«Que mayo fuese eterno»: que o mês de maio, a primavera da vida, durasse para sempre."
+    },
+    "extraje": {
+      "lema": "extraer",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 1ª pessoa do singular",
+      "def": [
+        "Tirar algo de onde estava; extrair."
+      ]
+    },
+    "fallida": {
+      "lema": "fallido",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que não se realizou, que falhou; frustrado."
+      ],
+      "nota": "«Esperanza fallida»: a esperança frustrada, a que não se cumpre."
+    },
+    "faz": {
+      "lema": "faz",
+      "wiki": "en:Spanish",
+      "classe": "substantivo feminino",
+      "def": [
+        "Parte anterior da cabeça; rosto, face."
+      ],
+      "nota": "Palavra literária e antiga para «rostro»; é do latim «facies». O sol acariciou o seu rosto."
+    },
+    "final": {
+      "lema": "final",
+      "classe": "substantivo masculino",
+      "def": [
+        "Último momento ou parte de algo; fim, final."
+      ]
+    },
+    "fue": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 3ª pessoa do singular",
+      "def": [
+        "Verbo de ligação: atribui uma qualidade ou identidade ao sujeito."
+      ],
+      "nota": "«Fue porque…»: foi porque. Constrói a explicação: se extraiu mel ou fel, foi por causa do que o próprio poeta pôs nas coisas."
+    },
+    "fuese": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "pretérito imperfeito do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Verbo de ligação: atribui uma qualidade ou identidade ao sujeito."
+      ],
+      "nota": "«Que mayo fuese eterno»: que maio fosse eterno; subjuntivo depois do verbo de dizer negado."
+    },
+    "fui": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 1ª pessoa do singular",
+      "def": [
+        "Verbo de ligação: atribui uma qualidade ou identidade ao sujeito."
+      ],
+      "nota": "Em «yo fui el arquitecto» e em «fui amado»: do verbo «ser»."
+    },
+    "hallé": {
+      "lema": "hallar",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 1ª pessoa do singular",
+      "def": [
+        "Encontrar o que se procurava ou o que não se esperava; achar."
+      ]
+    },
+    "hiel": {
+      "lema": "hiel",
+      "classe": "substantivo feminino",
+      "def": [
+        "Bile; também, amargura ou o que é amargo; fel."
+      ],
+      "nota": "Sentido figurado: o amargo da vida, oposto ao mel («miel»)."
+    },
+    "injustos": {
+      "lema": "injusto",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que não é justo, que contraria a justiça."
+      ]
+    },
+    "inmerecida": {
+      "lema": "inmerecido",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que não se mereceu."
+      ]
+    },
+    "invierno": {
+      "lema": "invierno",
+      "classe": "substantivo masculino",
+      "def": [
+        "Estação mais fria do ano; inverno."
+      ],
+      "nota": "Figura da velhice, que seguirá ao viço da juventude («lozanías»)."
+    },
+    "largas": {
+      "lema": "largo",
+      "classe": "adjetivo",
+      "forma": "feminino plural",
+      "def": [
+        "De grande comprimento ou duração; longo."
+      ],
+      "nota": "«Largas las noches»: construção com o artigo diante do adjetivo, para dar ênfase: achei longas as noites de minhas penas."
+    },
+    "lozanías": {
+      "lema": "lozanía",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Viço e frescor das plantas; por extensão, vigor da juventude."
+      ],
+      "nota": "O vigor e o viço da juventude: aos viços da mocidade vai suceder o inverno da velhice."
+    },
+    "marzo": {
+      "lema": "marzo",
+      "classe": "substantivo masculino",
+      "def": [
+        "Terceiro mês do ano; março."
+      ],
+      "nota": "Data do poema: março de 1913."
+    },
+    "mayo": {
+      "lema": "mayo",
+      "classe": "substantivo masculino",
+      "def": [
+        "Quinto mês do ano; maio."
+      ],
+      "nota": "Maio é a primavera no hemisfério norte, e por isso figura da juventude."
+    },
+    "mieles": {
+      "lema": "miel",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Substância doce que as abelhas elaboram; mel."
+      ],
+      "nota": "«Mieles» no plural e «hiel» no singular: o doce em suas variedades e o amargo, que é um só."
+    },
+    "mis": {
+      "lema": "mi",
+      "classe": "adjetivo possessivo",
+      "forma": "plural",
+      "def": [
+        "Meu, minha (diante do substantivo)."
+      ]
+    },
+    "muy": {
+      "lema": "muy",
+      "classe": "advérbio",
+      "forma": "apócope de «mucho» diante de adjetivo ou advérbio",
+      "def": [
+        "Em alto grau; muito."
+      ]
+    },
+    "nada": {
+      "lema": "nada",
+      "classe": "pronome indefinido",
+      "def": [
+        "Nenhuma coisa; nada."
+      ]
+    },
+    "noches": {
+      "lema": "noche",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Período em que o Sol está abaixo do horizonte; noite."
+      ],
+      "nota": "Aqui, as noites são os momentos de dor e de trevas da vida."
+    },
+    "ocaso": {
+      "lema": "ocaso",
+      "classe": "substantivo masculino",
+      "def": [
+        "Período final de uma vida; também, o pôr do sol."
+      ],
+      "nota": "«Muy cerca de mi ocaso»: muito perto do fim da vida. A imagem é a do pôr do sol."
+    },
+    "paz": {
+      "lema": "paz",
+      "classe": "substantivo feminino",
+      "def": [
+        "Estado de quem não tem conflito nem dívida com ninguém; paz."
+      ]
+    },
+    "pena": {
+      "lema": "pena",
+      "classe": "substantivo feminino",
+      "def": [
+        "Sofrimento, dor moral; pena."
+      ]
+    },
+    "penas": {
+      "lema": "pena",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Sofrimento, dor moral; pena."
+      ]
+    },
+    "planté": {
+      "lema": "plantar",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 1ª pessoa do singular",
+      "def": [
+        "Pôr uma planta ou semente na terra; plantar."
+      ]
+    },
+    "prometiste": {
+      "lema": "prometer",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 2ª pessoa do singular",
+      "def": [
+        "Obrigar-se a fazer ou dar algo; prometer."
+      ]
+    },
+    "propio": {
+      "lema": "propio",
+      "classe": "adjetivo",
+      "def": [
+        "Que pertence a cada um em particular; próprio."
+      ]
+    },
+    "puse": {
+      "lema": "poner",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 1ª pessoa do singular",
+      "def": [
+        "Colocar em um lugar; pôr."
+      ],
+      "nota": "«Puse hiel o mieles»: coloquei fel ou mel nas coisas, ou seja, a vida é como cada um a faz."
+    },
+    "rosales": {
+      "lema": "rosal",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Planta que dá rosas; roseira."
+      ]
+    },
+    "rosas": {
+      "lema": "rosa",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Flor da roseira; rosa."
+      ],
+      "nota": "Fecha a ideia do trio de versos: quem planta roseiras colhe rosas, ou seja, recebe o que semeou."
+    },
+    "rudo": {
+      "lema": "rudo",
+      "classe": "adjetivo",
+      "def": [
+        "Duro, áspero, difícil; rude."
+      ]
+    },
+    "sabrosas": {
+      "lema": "sabroso",
+      "classe": "adjetivo",
+      "forma": "feminino plural",
+      "def": [
+        "Que tem sabor agradável; saboroso."
+      ]
+    },
+    "santamente": {
+      "lema": "santamente",
+      "wiki": "en:Spanish",
+      "classe": "advérbio",
+      "def": [
+        "De modo santo; com santidade."
+      ],
+      "nota": "«Santamente serenas»: serenas de um modo quase sagrado, de uma paz que vem de Deus."
+    },
+    "seguir": {
+      "lema": "seguir",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Ir depois ou atrás de algo ou alguém; suceder."
+      ],
+      "nota": "«Va a seguir»: vai suceder, vai vir depois. Perífrase de futuro próximo."
+    },
+    "serenas": {
+      "lema": "sereno",
+      "classe": "adjetivo",
+      "forma": "feminino plural",
+      "def": [
+        "Tranquilo, sem agitação; sereno."
+      ]
+    },
+    "siempre": {
+      "lema": "siempre",
+      "classe": "advérbio",
+      "def": [
+        "Em todo tempo; sempre."
+      ]
+    },
+    "sol": {
+      "lema": "sol",
+      "classe": "substantivo masculino",
+      "def": [
+        "Estrela em torno da qual gira a Terra; sol."
+      ]
+    },
+    "solo": {
+      "lema": "solo",
+      "classe": "advérbio",
+      "def": [
+        "Unicamente; somente."
+      ],
+      "nota": "Sem acento hoje; no original, «sólo». «Tú solo noches buenas»: apenas noites boas, só noites boas."
+    },
+    "trabajos": {
+      "lema": "trabajo",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Esforço, penalidade, dificuldade; trabalho."
+      ],
+      "nota": "Sentido antigo: não é só emprego, mas esforço, penas, provações («trabajos injustos»)."
+    },
+    "tú": {
+      "lema": "tú",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal de segunda pessoa do singular; tu."
+      ],
+      "nota": "O poeta fala à Vida, tratada por «tú»."
+    },
+    "tuve": {
+      "lema": "tener",
+      "classe": "verbo",
+      "forma": "pretérito perfeito, 1ª pessoa do singular",
+      "def": [
+        "Possuir; ter."
+      ]
+    },
+    "va": {
+      "lema": "ir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Mover-se de um lugar a outro."
+      ],
+      "nota": "«Va a seguir»: ir + a + infinitivo, futuro próximo."
+    },
+    "veo": {
+      "lema": "ver",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Perceber pela vista; ver."
+      ]
+    },
+    "vida": {
+      "lema": "vida",
+      "classe": "substantivo feminino",
+      "def": [
+        "Existência de um ser; vida."
+      ],
+      "nota": "A vida é a interlocutora do poema («yo te bendigo, Vida»): personificada, é a ela que o poeta fala e agradece."
+    }
+  },
+  "ocorrencias": {}
+}

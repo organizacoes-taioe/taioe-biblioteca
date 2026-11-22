@@ -1,0 +1,686 @@
+{
+  "verbetes": {
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica origem, posse ou pertinência; também liga o nome ao seu complemento."
+      ]
+    },
+    "el": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido masculino singular."
+      ]
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido feminino singular."
+      ]
+    },
+    "los": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "forma": "masculino plural",
+      "def": [
+        "Artigo definido masculino plural."
+      ]
+    },
+    "las": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "forma": "feminino plural",
+      "def": [
+        "Artigo definido feminino plural."
+      ]
+    },
+    "y": {
+      "lema": "y",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção copulativa: une palavras, orações ou frases."
+      ]
+    },
+    "o": {
+      "lema": "o",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção disjuntiva: indica alternativa entre duas possibilidades."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Indica lugar, tempo ou modo em que algo está ou ocorre."
+      ]
+    },
+    "por": {
+      "lema": "por",
+      "classe": "preposição",
+      "def": [
+        "Indica causa, meio ou o lugar por onde se passa."
+      ]
+    },
+    "que": {
+      "lema": "que",
+      "classe": "pronome relativo",
+      "def": [
+        "Representa um antecedente já mencionado e introduz uma oração subordinada."
+      ]
+    },
+    "yo": {
+      "lema": "yo",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal de primeira pessoa do singular: designa quem fala."
+      ]
+    },
+    "no": {
+      "lema": "no",
+      "classe": "advérbio",
+      "def": [
+        "Expressa negação."
+      ]
+    },
+    "pero": {
+      "lema": "pero",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção adversativa: introduz oposição ou restrição ao que se disse; «mas»."
+      ]
+    },
+    "cuando": {
+      "lema": "cuando",
+      "classe": "conjunção",
+      "def": [
+        "No momento em que; «quando»."
+      ]
+    },
+    "sobre": {
+      "lema": "sobre",
+      "classe": "preposição",
+      "def": [
+        "Em posição superior; por cima de."
+      ]
+    },
+    "si": {
+      "lema": "si",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção condicional: introduz a condição de que depende o que se afirma."
+      ]
+    },
+    "tan": {
+      "lema": "tan",
+      "classe": "advérbio",
+      "def": [
+        "Em tal grau; tão."
+      ]
+    },
+    "una": {
+      "lema": "uno",
+      "classe": "artigo indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "Artigo indefinido feminino singular."
+      ]
+    },
+    "ante": {
+      "lema": "ante",
+      "classe": "preposição",
+      "def": [
+        "Diante de, em presença de."
+      ]
+    },
+    "como": {
+      "lema": "como",
+      "classe": "advérbio",
+      "def": [
+        "Introduz uma comparação; «como», «tal qual»."
+      ],
+      "nota": "No poema aparece na comparação («como del odio de Dios», «como charco de culpa») e em «como cuando»: «como quando»."
+    },
+    "se": {
+      "lema": "se",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome átono de terceira pessoa: marca o reflexivo, o apassivador ou o impessoal."
+      ],
+      "nota": "Em «se empozara», «se empoza»: a resaca e a vida «se estancam», acumulam-se. Em «se nos quema»: o pão «nos» queima, sem que se queira."
+    },
+    "todo": {
+      "lema": "todo",
+      "classe": "pronome indefinido",
+      "forma": "masculino singular",
+      "def": [
+        "A totalidade; tudo."
+      ],
+      "nota": "Em «todo lo sufrido» e «todo lo vivido»: tudo o que se sofreu, tudo o que se viveu."
+    },
+    "del": {
+      "lema": "del",
+      "classe": "contração",
+      "def": [
+        "Contração da preposição «de» com o artigo «el»."
+      ]
+    },
+    "sé": {
+      "lema": "saber",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Ter conhecimento de algo."
+      ],
+      "nota": "O verso que abre e fecha o poema: «¡Yo no sé!». Não é ignorância simples, e sim o assombro diante do que não se explica."
+    },
+    "hay": {
+      "lema": "haber",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular (impessoal)",
+      "def": [
+        "Existir, estar presente."
+      ],
+      "nota": "«Hay golpes»: há golpes, existem golpes. Forma impessoal de «haber»."
+    },
+    "son": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Verbo de ligação: atribui uma qualidade ou identidade ao sujeito."
+      ]
+    },
+    "serán": {
+      "lema": "ser",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Verbo de ligação: atribui uma qualidade ou identidade ao sujeito."
+      ],
+      "nota": "Futuro de conjetura: «serán talvez los potros…» é «devem ser, talvez, os potros…»."
+    },
+    "lo": {
+      "lema": "lo",
+      "classe": "artigo definido",
+      "forma": "neutro",
+      "def": [
+        "Artigo neutro: transforma em substantivo a palavra ou a oração que o segue."
+      ],
+      "nota": "«Todo lo sufrido»: tudo o que se sofreu; «todo lo vivido»: tudo o que se viveu."
+    },
+    "abren": {
+      "lema": "abrir",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do plural",
+      "def": [
+        "Fazer um corte, uma fenda ou uma abertura; abrir."
+      ],
+      "nota": "Os golpes «abrem» valas escuras no rosto e nas costas: marcas visíveis do sofrimento."
+    },
+    "adorable": {
+      "lema": "adorable",
+      "classe": "adjetivo",
+      "def": [
+        "Digno de ser adorado ou muito querido."
+      ],
+      "nota": "A fé é «adorável» no sentido forte: digna de adoração, que o Destino, porém, blasfema."
+    },
+    "algún": {
+      "lema": "alguno",
+      "classe": "pronome indefinido",
+      "forma": "masculino singular, apocopado diante do substantivo",
+      "def": [
+        "Uma pessoa ou coisa não determinada; algum."
+      ]
+    },
+    "alguna": {
+      "lema": "alguno",
+      "classe": "pronome indefinido",
+      "forma": "feminino singular",
+      "def": [
+        "Uma pessoa ou coisa não determinada; alguma."
+      ]
+    },
+    "alma": {
+      "lema": "alma",
+      "classe": "substantivo feminino",
+      "def": [
+        "Parte imaterial do ser humano, sede dos sentimentos; alma."
+      ]
+    },
+    "atilas": {
+      "lema": "atila",
+      "wiki": "en:Spanish",
+      "classe": "substantivo masculino",
+      "def": [
+        "Pessoa cruel e devastadora (de Átila, rei dos hunos, chamado «o flagelo de Deus»)."
+      ],
+      "nota": "«Atilas», no plural e com minúscula, no sentido comum: os chefes bárbaros que devastam tudo. Os «potros de bárbaros atilas» são os cavalos das hordas invasoras."
+    },
+    "bárbaros": {
+      "lema": "bárbaro",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Dos povos que invadiram o Império Romano; por extensão, cruel, selvagem."
+      ],
+      "nota": "«Bárbaros atilas»: os invasores sem piedade, imagem da violência dos golpes."
+    },
+    "blasfema": {
+      "lema": "blasfemar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Proferir palavras injuriosas contra Deus ou as coisas sagradas; blasfemar."
+      ],
+      "nota": "Imagem forte: é o Destino quem blasfema contra a fé, como se fosse um ser que a insulta e a derruba."
+    },
+    "caídas": {
+      "lema": "caída",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Ato de cair; queda."
+      ],
+      "nota": "«Caídas hondas de los Cristos del alma»: as quedas profundas dos «Cristos» do poeta, isto é, das crenças que o sustentavam."
+    },
+    "charco": {
+      "lema": "charco",
+      "classe": "substantivo masculino",
+      "def": [
+        "Água parada em uma depressão do terreno; poça."
+      ],
+      "nota": "A vida inteira se empoça no olhar «como charco de culpa»: imagem da água suja e parada."
+    },
+    "crepitaciones": {
+      "lema": "crepitación",
+      "wiki": "en:Spanish",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Ruído repetido e seco, como o da lenha ao queimar; crepitação, estalo."
+      ],
+      "nota": "São os estalos do pão que queima no forno, comparados aos golpes sangrentos."
+    },
+    "cristos": {
+      "lema": "Cristo",
+      "wiki": "en:Spanish",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Imagem de Cristo; aqui, no plural, figura do sofredor ou da fé que cai."
+      ],
+      "nota": "«Los Cristos del alma»: as muitas figuras de Cristo que a alma carrega, cada uma uma fé, uma esperança que cai."
+    },
+    "culpa": {
+      "lema": "culpa",
+      "classe": "substantivo feminino",
+      "def": [
+        "Responsabilidade por um ato condenável; culpa."
+      ]
+    },
+    "destino": {
+      "lema": "destino",
+      "classe": "substantivo masculino",
+      "def": [
+        "Encadeamento dos acontecimentos tidos como inevitáveis; destino."
+      ],
+      "nota": "Maiúsculo no poema («el Destino»): uma força personificada, que blasfema."
+    },
+    "dios": {
+      "lema": "Dios",
+      "wiki": "en:Spanish",
+      "classe": "nome próprio",
+      "def": [
+        "O ser supremo das religiões monoteístas; Deus."
+      ],
+      "nota": "«El odio de Dios»: o poeta sente os golpes como ódio divino, num verso que beira a blasfêmia."
+    },
+    "ellos": {
+      "lema": "ellos",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal de terceira pessoa do masculino plural; eles."
+      ],
+      "nota": "Refere-se aos «golpes»."
+    },
+    "empoza": {
+      "lema": "empozar",
+      "wiki": "en:Spanish",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Estancar em poço ou poça; acumular-se."
+      ],
+      "nota": "O verbo é de «pozo» (poço): o que se «empoza» fica parado e fundo, como a água. A vida vivida acumula-se no olhar como poça de culpa."
+    },
+    "empozara": {
+      "lema": "empozar",
+      "wiki": "en:Spanish",
+      "classe": "verbo",
+      "forma": "pretérito imperfeito do subjuntivo, 3ª pessoa do singular",
+      "def": [
+        "Estancar em poço ou poça; acumular-se."
+      ],
+      "nota": "«Como si… se empozara»: como se se acumulasse. A resaca (o que o mar devolve) se junta no fundo da alma."
+    },
+    "esos": {
+      "lema": "ese",
+      "classe": "pronome demonstrativo",
+      "forma": "masculino plural",
+      "def": [
+        "Aponta o que está perto de quem escuta; esse."
+      ]
+    },
+    "fe": {
+      "lema": "fe",
+      "classe": "substantivo feminino",
+      "def": [
+        "Confiança plena em algo ou alguém; crença religiosa; fé."
+      ]
+    },
+    "fiero": {
+      "lema": "fiero",
+      "classe": "adjetivo",
+      "def": [
+        "Cruel, feroz; também duro e altivo."
+      ],
+      "nota": "«El rostro más fiero»: o rosto mais duro, que nem assim resiste aos golpes."
+    },
+    "fuerte": {
+      "lema": "fuerte",
+      "classe": "adjetivo",
+      "def": [
+        "Que tem grande resistência ou vigor; forte."
+      ]
+    },
+    "fuertes": {
+      "lema": "fuerte",
+      "classe": "adjetivo",
+      "forma": "plural",
+      "def": [
+        "Que tem grande resistência ou intensidade; forte."
+      ],
+      "nota": "«Golpes… tan fuertes»: tão fortes que não se pode dizer mais, e a frase se interrompe nas reticências."
+    },
+    "golpes": {
+      "lema": "golpe",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Choque violento de um corpo com outro; pancada, golpe."
+      ],
+      "nota": "Figura central do poema: os golpes da vida, as dores sem causa e sem nome, que o poeta não sabe explicar."
+    },
+    "heraldos": {
+      "lema": "heraldo",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Mensageiro que anuncia algo; arauto."
+      ],
+      "nota": "Os «heraldos negros» são mensageiros da Morte: os golpes anunciam o fim."
+    },
+    "hombre": {
+      "lema": "hombre",
+      "classe": "substantivo masculino",
+      "def": [
+        "Ser humano; homem."
+      ],
+      "nota": "«El hombre» em sentido genérico: o ser humano em geral, que olha para trás sem saber quem o golpeia."
+    },
+    "hombro": {
+      "lema": "hombro",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte do corpo em que se une o braço ao tronco; ombro."
+      ]
+    },
+    "hondas": {
+      "lema": "hondo",
+      "classe": "adjetivo",
+      "forma": "feminino plural",
+      "def": [
+        "De muita profundidade; fundo."
+      ]
+    },
+    "horno": {
+      "lema": "horno",
+      "classe": "substantivo masculino",
+      "def": [
+        "Construção ou aparelho em que se cozinha, se funde ou se seca algo pelo calor; forno."
+      ],
+      "nota": "O pão que «se queima» na boca do forno: imagem de um bem que se perde no momento de ser tirado."
+    },
+    "llama": {
+      "lema": "llamar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Chamar alguém, com voz ou com um gesto."
+      ],
+      "nota": "A «palmada» no ombro que chama o homem: o golpe que o faz voltar-se."
+    },
+    "locos": {
+      "lema": "loco",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que perdeu a razão; louco, perturbado."
+      ],
+      "nota": "«Los ojos locos»: olhos desvairados, de quem se vira para o nada e nada vê."
+    },
+    "lomo": {
+      "lema": "lomo",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte do corpo, das costas; lombo, dorso."
+      ]
+    },
+    "manda": {
+      "lema": "mandar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Enviar algo a alguém; mandar."
+      ],
+      "nota": "A Morte «manda» os heraldos negros: ela os envia como mensageiros."
+    },
+    "más": {
+      "lema": "más",
+      "classe": "advérbio",
+      "def": [
+        "Em maior grau ou quantidade; mais."
+      ],
+      "nota": "«Más fiero», «más fuerte»: o superlativo («o mais feroz», «o mais forte»)."
+    },
+    "mirada": {
+      "lema": "mirada",
+      "classe": "substantivo feminino",
+      "def": [
+        "Ato de olhar; olhar."
+      ]
+    },
+    "muerte": {
+      "lema": "muerte",
+      "classe": "substantivo feminino",
+      "def": [
+        "Fim da vida; morte."
+      ],
+      "nota": "Maiúscula no poema («la Muerte»): a Morte personificada, que manda os heraldos negros."
+    },
+    "negros": {
+      "lema": "negro",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Da cor mais escura, a da ausência de luz; preto, negro."
+      ]
+    },
+    "nos": {
+      "lema": "nos",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome átono de primeira pessoa do plural; «nos»."
+      ],
+      "nota": "«Que nos manda la Muerte»: que a Morte nos manda. Em «se nos quema», o «nos» indica a quem o pão se queima."
+    },
+    "odio": {
+      "lema": "odio",
+      "classe": "substantivo masculino",
+      "def": [
+        "Aversão intensa a alguém ou a algo; ódio."
+      ]
+    },
+    "ojos": {
+      "lema": "ojo",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Órgão da visão; olho."
+      ]
+    },
+    "oscuras": {
+      "lema": "oscuro",
+      "classe": "adjetivo",
+      "forma": "feminino plural",
+      "def": [
+        "Que não tem luz ou tem pouca; escuro."
+      ]
+    },
+    "palmada": {
+      "lema": "palmada",
+      "classe": "substantivo feminino",
+      "def": [
+        "Golpe dado com a palma da mão; palmada."
+      ],
+      "nota": "É o golpe leve no ombro que chama alguém; comparação para a maneira como os golpes da vida chamam o homem."
+    },
+    "pan": {
+      "lema": "pan",
+      "classe": "substantivo masculino",
+      "def": [
+        "Alimento feito de massa de farinha, amassada e assada; pão."
+      ]
+    },
+    "pobre": {
+      "lema": "pobre",
+      "classe": "adjetivo",
+      "def": [
+        "Digno de compaixão; coitado."
+      ],
+      "nota": "«Pobre… ¡pobre!»: compaixão pelo homem. A repetição interrompida mostra a emoção do poeta."
+    },
+    "pocos": {
+      "lema": "poco",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Em pequena quantidade; pouco."
+      ],
+      "nota": "«Son pocos»: os golpes são poucos, mas bastam."
+    },
+    "potros": {
+      "lema": "potro",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Cavalo novo, até uns quatro anos; potro."
+      ]
+    },
+    "puerta": {
+      "lema": "puerta",
+      "classe": "substantivo feminino",
+      "def": [
+        "Abertura por onde se entra e se sai; porta."
+      ]
+    },
+    "quema": {
+      "lema": "quemar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Consumir pelo fogo; queimar."
+      ],
+      "nota": "«Se nos quema»: queima-se para nós, o pão se queima na boca do forno."
+    },
+    "resaca": {
+      "lema": "resaca",
+      "classe": "substantivo feminino",
+      "def": [
+        "Movimento de retorno das ondas depois de baterem na praia; também, o que o mar devolve e deixa na costa."
+      ],
+      "nota": "Aqui, tudo o que foi sofrido, devolvido e depositado no fundo da alma como detritos de uma onda."
+    },
+    "rostro": {
+      "lema": "rostro",
+      "classe": "substantivo masculino",
+      "def": [
+        "Parte anterior da cabeça; rosto, face."
+      ]
+    },
+    "sangrientos": {
+      "lema": "sangriento",
+      "classe": "adjetivo",
+      "forma": "masculino plural",
+      "def": [
+        "Que verte sangue ou está manchado de sangue; sangrento."
+      ]
+    },
+    "sufrido": {
+      "lema": "sufrir",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Sentir dor ou pena; sofrer."
+      ]
+    },
+    "talvez": {
+      "lema": "talvez",
+      "wiki": "en:Spanish",
+      "classe": "advérbio",
+      "def": [
+        "Indica dúvida ou possibilidade; talvez."
+      ],
+      "nota": "Forma da época de Vallejo; hoje se escreve, em geral, «tal vez»."
+    },
+    "vida": {
+      "lema": "vida",
+      "classe": "substantivo feminino",
+      "def": [
+        "Existência de um ser; vida."
+      ]
+    },
+    "vivido": {
+      "lema": "vivir",
+      "classe": "verbo",
+      "forma": "particípio passado",
+      "def": [
+        "Existir, estar vivo; viver."
+      ]
+    },
+    "vuelve": {
+      "lema": "volver",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Dirigir de novo para algum lado; virar, voltar."
+      ],
+      "nota": "«Vuelve los ojos»: o homem volta os olhos, vira o olhar para trás, como quem é chamado por uma palmada no ombro."
+    },
+    "zanjas": {
+      "lema": "zanja",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Cova longa e estreita feita na terra; vala."
+      ],
+      "nota": "Imagem do rosto cavado, riscado de sulcos, como se o sofrimento escavasse valas."
+    }
+  },
+  "ocorrencias": {}
+}

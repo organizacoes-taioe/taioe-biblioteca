@@ -1,0 +1,361 @@
+{
+  "verbetes": {
+    "a": {
+      "lema": "a",
+      "classe": "preposição",
+      "def": [
+        "Indica direção, destino ou ponto de chegada."
+      ]
+    },
+    "de": {
+      "lema": "de",
+      "classe": "preposição",
+      "def": [
+        "Indica origem, posse ou pertinência; também liga o nome ao seu complemento."
+      ]
+    },
+    "el": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido masculino singular."
+      ]
+    },
+    "la": {
+      "lema": "la",
+      "classe": "artigo definido",
+      "def": [
+        "Artigo definido feminino singular."
+      ]
+    },
+    "los": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "forma": "masculino plural",
+      "def": [
+        "Artigo definido masculino plural."
+      ]
+    },
+    "las": {
+      "lema": "el",
+      "classe": "artigo definido",
+      "forma": "feminino plural",
+      "def": [
+        "Artigo definido feminino plural."
+      ]
+    },
+    "y": {
+      "lema": "y",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção copulativa: une palavras, orações ou frases."
+      ]
+    },
+    "en": {
+      "lema": "en",
+      "classe": "preposição",
+      "def": [
+        "Indica lugar, tempo ou modo em que algo está ou ocorre."
+      ]
+    },
+    "por": {
+      "lema": "por",
+      "classe": "preposição",
+      "def": [
+        "Indica causa, meio ou o lugar por onde se passa."
+      ]
+    },
+    "que": {
+      "lema": "que",
+      "classe": "pronome relativo",
+      "def": [
+        "Representa um antecedente já mencionado e introduz uma oração subordinada."
+      ]
+    },
+    "yo": {
+      "lema": "yo",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal de primeira pessoa do singular: designa quem fala."
+      ]
+    },
+    "me": {
+      "lema": "me",
+      "classe": "pronome pessoal",
+      "def": [
+        "Pronome pessoal átono de primeira pessoa do singular: «me», «a mim»."
+      ]
+    },
+    "mi": {
+      "lema": "mi",
+      "classe": "adjetivo possessivo",
+      "forma": "singular",
+      "def": [
+        "Meu, minha (diante do substantivo)."
+      ]
+    },
+    "nunca": {
+      "lema": "nunca",
+      "classe": "advérbio",
+      "def": [
+        "Em nenhum momento; jamais."
+      ]
+    },
+    "tan": {
+      "lema": "tan",
+      "classe": "advérbio",
+      "def": [
+        "Em tal grau; tão."
+      ]
+    },
+    "aceitunas": {
+      "lema": "aceituna",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Fruto da oliveira; azeitona."
+      ]
+    },
+    "alforja": {
+      "lema": "alforja",
+      "classe": "substantivo feminino",
+      "def": [
+        "Saco duplo, fechado nas pontas e aberto no meio, que se põe sobre a cavalgadura ou ao ombro para levar provisões."
+      ],
+      "nota": "Aqui, o alforje do cavaleiro: a única provisão que leva para a viagem são azeitonas."
+    },
+    "antes": {
+      "lema": "antes",
+      "classe": "advérbio",
+      "def": [
+        "Em tempo anterior; primeiro."
+      ],
+      "nota": "«Antes de llegar a Córdoba»: antes de chegar a Córdoba."
+    },
+    "aunque": {
+      "lema": "aunque",
+      "classe": "conjunção",
+      "def": [
+        "Conjunção concessiva: introduz um obstáculo que não impede o que se afirma; «ainda que», «embora»."
+      ]
+    },
+    "ay": {
+      "lema": "ay",
+      "classe": "interjeição",
+      "def": [
+        "Expressa dor, pena ou lamento."
+      ]
+    },
+    "camino": {
+      "lema": "camino",
+      "classe": "substantivo masculino",
+      "def": [
+        "Terreno por onde se passa para ir de um lugar a outro; caminho, estrada."
+      ]
+    },
+    "caminos": {
+      "lema": "camino",
+      "classe": "substantivo masculino",
+      "forma": "plural",
+      "def": [
+        "Terreno por onde se passa para ir de um lugar a outro; caminho, estrada."
+      ]
+    },
+    "canción": {
+      "lema": "canción",
+      "classe": "substantivo feminino",
+      "def": [
+        "Composição poética para ser cantada; canção."
+      ]
+    },
+    "córdoba": {
+      "lema": "Córdoba",
+      "wiki": "en:Spanish",
+      "classe": "nome próprio",
+      "def": [
+        "Cidade da Andaluzia, no sul da Espanha, às margens do Guadalquivir."
+      ],
+      "nota": "O nome que fecha cada estrofe: a cidade que o cavaleiro vê ao longe e à qual, diz ele, nunca chegará. Em Lorca, Córdoba é o lugar da morte anunciada."
+    },
+    "desde": {
+      "lema": "desde",
+      "classe": "preposição",
+      "def": [
+        "Indica o ponto, no espaço ou no tempo, de onde algo parte ou começa."
+      ]
+    },
+    "espera": {
+      "lema": "esperar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Permanecer em um lugar até que alguém chegue ou algo aconteça; aguardar."
+      ],
+      "nota": "A morte «espera» o cavaleiro: já está à sua espera na cidade, antes que ele chegue."
+    },
+    "está": {
+      "lema": "estar",
+      "classe": "verbo",
+      "forma": "presente do indicativo, 3ª pessoa do singular",
+      "def": [
+        "Encontrar-se em um lugar ou em um estado."
+      ],
+      "nota": "«Me está mirando»: está me olhando; «estar» + gerúndio, ação em curso."
+    },
+    "grande": {
+      "lema": "grande",
+      "classe": "adjetivo",
+      "def": [
+        "De tamanho, intensidade ou importância maiores que o normal; grande."
+      ]
+    },
+    "jaca": {
+      "lema": "jaca",
+      "classe": "substantivo feminino",
+      "def": [
+        "Cavalo ou égua de pequena altura, de até uns 1,46 m na cernelha."
+      ],
+      "nota": "A montaria do cavaleiro, uma égua pequena e rija, comum na Andaluzia. É negra, como a noite que o cerca."
+    },
+    "jinete": {
+      "lema": "jinete",
+      "classe": "substantivo masculino",
+      "def": [
+        "Pessoa que monta a cavalo; cavaleiro."
+      ],
+      "nota": "Em espanhol «jinete» é só quem monta a cavalo, não necessariamente um cavaleiro de armas."
+    },
+    "largo": {
+      "lema": "largo",
+      "classe": "adjetivo",
+      "forma": "masculino singular",
+      "def": [
+        "De grande comprimento ou duração; longo, comprido."
+      ]
+    },
+    "lejana": {
+      "lema": "lejano",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que está a grande distância; distante."
+      ],
+      "nota": "Refere-se a Córdoba, e o verso se repete no começo e no fim: a cidade é inalcançável por mais que se ande."
+    },
+    "llano": {
+      "lema": "llano",
+      "classe": "substantivo masculino",
+      "def": [
+        "Terreno plano, sem desníveis; planície."
+      ]
+    },
+    "llegar": {
+      "lema": "llegar",
+      "classe": "verbo",
+      "forma": "infinitivo",
+      "def": [
+        "Chegar a um lugar, ao fim de um trajeto."
+      ]
+    },
+    "llegaré": {
+      "lema": "llegar",
+      "classe": "verbo",
+      "forma": "futuro do indicativo, 1ª pessoa do singular",
+      "def": [
+        "Chegar a um lugar, ao fim de um trajeto."
+      ],
+      "nota": "«Nunca llegaré»: nunca chegarei. O futuro afirma, com certeza, o que o cavaleiro já sabe do seu destino."
+    },
+    "luna": {
+      "lema": "luna",
+      "classe": "substantivo feminino",
+      "def": [
+        "Satélite natural da Terra; lua."
+      ]
+    },
+    "mirando": {
+      "lema": "mirar",
+      "classe": "verbo",
+      "forma": "gerúndio",
+      "def": [
+        "Dirigir a vista a algo ou alguém; olhar."
+      ]
+    },
+    "muerte": {
+      "lema": "muerte",
+      "classe": "substantivo feminino",
+      "def": [
+        "Fim da vida; morte."
+      ],
+      "nota": "Personificada: a morte olha o cavaleiro desde as torres da cidade e o espera."
+    },
+    "negra": {
+      "lema": "negro",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Da cor mais escura, a da ausência de luz; preto, negro."
+      ]
+    },
+    "qué": {
+      "lema": "qué",
+      "classe": "pronome interrogativo",
+      "def": [
+        "Em exclamações, intensifica a qualidade do que se exclama: «que», «quão»."
+      ],
+      "nota": "«¡Ay qué camino tan largo!»: que caminho tão longo!"
+    },
+    "roja": {
+      "lema": "rojo",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Da cor do sangue ou do fogo; vermelho."
+      ],
+      "nota": "A lua que era «grande» passa a «roja» na segunda estrofe, como mau presságio; é a cor do crepúsculo e do sangue."
+    },
+    "sepa": {
+      "lema": "saber",
+      "classe": "verbo",
+      "forma": "presente do subjuntivo, 1ª pessoa do singular",
+      "def": [
+        "Ter conhecimento de algo; conhecer."
+      ],
+      "nota": "Subjuntivo depois de «aunque»: ainda que eu conheça os caminhos."
+    },
+    "sola": {
+      "lema": "solo",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Sem companhia; só, sozinho."
+      ],
+      "nota": "«Lejana y sola»: a cidade distante e isolada, como o próprio cavaleiro."
+    },
+    "torres": {
+      "lema": "torre",
+      "classe": "substantivo feminino",
+      "forma": "plural",
+      "def": [
+        "Construção mais alta que larga, isolada ou parte de um edifício."
+      ],
+      "nota": "As torres de Córdoba, entre elas as da mesquita-catedral, de onde a morte o vigia."
+    },
+    "valerosa": {
+      "lema": "valeroso",
+      "classe": "adjetivo",
+      "forma": "feminino singular",
+      "def": [
+        "Que tem valor; corajoso, valente."
+      ]
+    },
+    "viento": {
+      "lema": "viento",
+      "classe": "substantivo masculino",
+      "def": [
+        "Corrente de ar que se desloca na atmosfera; vento."
+      ]
+    }
+  },
+  "ocorrencias": {}
+}

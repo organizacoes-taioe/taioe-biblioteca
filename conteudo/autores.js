@@ -1158,3 +1158,48 @@ BIBLIOTECA.autor({
   lingua: 'la',
   nota: 'Orador, político e filósofo romano, o modelo da prosa latina clássica.'
 });
+
+BIBLIOTECA.autor({
+  id: 'federico-garcia-lorca',
+  nome: 'Federico García Lorca',
+  nomeCompleto: 'Federico del Sagrado Corazón de Jesús García Lorca',
+  vida: '1898–1936',
+  lingua: 'es',
+  nota: 'Poeta e dramaturgo espanhol da Geração de 27, autor do _Romancero gitano_ e de _Bodas de sangre_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'alfonsina-storni',
+  nome: 'Alfonsina Storni',
+  nomeCompleto: 'Alfonsina Storni',
+  vida: '1892–1938',
+  lingua: 'es',
+  nota: 'Poeta argentina de origem suíça, autora de _La inquietud del rosal_ e de _Irremediablemente..._.'
+});
+
+BIBLIOTECA.autor({
+  id: 'cesar-vallejo',
+  nome: 'César Vallejo',
+  nomeCompleto: 'César Abraham Vallejo Mendoza',
+  vida: '1892–1938',
+  lingua: 'es',
+  nota: 'Poeta peruano, autor de _Los heraldos negros_, _Trilce_ e _Poemas humanos_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'amado-nervo',
+  nome: 'Amado Nervo',
+  nomeCompleto: 'Juan Crisóstomo Ruiz de Nervo',
+  vida: '1870–1919',
+  lingua: 'es',
+  nota: 'Poeta mexicano do modernismo, autor de _Serenidad_, _Elevación_ e _La amada inmóvil_.'
+});
+
+BIBLIOTECA.autor({
+  id: 'horacio-quiroga',
+  nome: 'Horacio Quiroga',
+  nomeCompleto: 'Horacio Silvestre Quiroga Forteza',
+  vida: '1878–1937',
+  lingua: 'es',
+  nota: 'Contista uruguaio, radicado na Argentina e em Misiones; mestre do conto de selva e de terror.'
+});

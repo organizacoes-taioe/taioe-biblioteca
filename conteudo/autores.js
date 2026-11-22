@@ -1203,3 +1203,13 @@ BIBLIOTECA.autor({
   lingua: 'es',
   nota: 'Contista uruguaio, radicado na Argentina e em Misiones; mestre do conto de selva e de terror.'
 });
+
+BIBLIOTECA.autor({
+  id: 'jose-bonifacio',
+  nome: 'José Bonifácio',
+  nomeCompleto: 'José Bonifácio de Andrada e Silva',
+  vida: '1763–1838',
+  ordem: 'Bonifácio, José',
+  area: 'nao-ficcao',
+  nota: 'Naturalista e estadista paulista, ministro de D. Pedro I e principal articulador da Independência do Brasil, chamado o Patriarca da Independência. Deputado à Constituinte de 1823, foi preso e exilado quando ela foi dissolvida.'
+});

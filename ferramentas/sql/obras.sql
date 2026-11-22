@@ -1213,6 +1213,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('john-milton/paradise-lost-i', 'Book I'),
   ('john-milton/when-i-consider', 'When I consider how my light is spent'),
   ('jorge-manrique/coplas-por-la-muerte-de-su-padre', 'Coplas por la muerte de su padre'),
+  ('jose-bonifacio/representacao-sobre-a-escravatura', 'Representação sobre a escravatura'),
   ('jose-de-alencar/iracema', 'Iracema'),
   ('jose-de-anchieta/cartas-anchieta', 'Cartas, informações e sermão'),
   ('jose-maria-de-heredia/les-conquerants', 'Les Conquérants'),

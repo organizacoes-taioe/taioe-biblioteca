@@ -521,3 +521,48 @@ BIBLIOTECA.poemas({
     {"id":"seneca-ita-fac-mi-lucili","titulo":"Ita fac, mi Lucili","forma":"outras","livro":0,"ordem":0,"versos":6,"lingua":"la","ano":null,"glossario":true,"genero":"Cartas","prosa":true}
   ]
 });
+
+BIBLIOTECA.poemas({
+  autor: "federico-garcia-lorca",
+  arquivo: "conteudo/federico-garcia-lorca/lingua-original.js",
+  livros: [{"id": "canciones", "titulo": "Canciones", "ano": 1927}],
+  poemas: [
+    {"id":"federico-garcia-lorca-cancion-de-jinete","titulo":"Canción de jinete","forma":"outras","livro":0,"ordem":0,"versos":16,"lingua":"es","ano":1927,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "alfonsina-storni",
+  arquivo: "conteudo/alfonsina-storni/lingua-original.js",
+  livros: [{"id": "irremediablemente", "titulo": "Irremediablemente...", "ano": 1919}],
+  poemas: [
+    {"id":"alfonsina-storni-peso-ancestral","titulo":"Peso ancestral","forma":"outras","livro":0,"ordem":0,"versos":12,"lingua":"es","ano":1919,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "cesar-vallejo",
+  arquivo: "conteudo/cesar-vallejo/lingua-original.js",
+  livros: [{"id": "los-heraldos-negros", "titulo": "Los heraldos negros", "ano": 1919}],
+  poemas: [
+    {"id":"cesar-vallejo-los-heraldos-negros","titulo":"Los heraldos negros","forma":"outras","livro":0,"ordem":0,"versos":17,"lingua":"es","ano":1919,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "amado-nervo",
+  arquivo: "conteudo/amado-nervo/lingua-original.js",
+  livros: [{"id": "elevaci-n", "titulo": "Elevación", "ano": 1917}],
+  poemas: [
+    {"id":"amado-nervo-en-paz","titulo":"En paz","forma":"outras","livro":0,"ordem":0,"versos":15,"lingua":"es","ano":1917,"glossario":true}
+  ]
+});
+
+BIBLIOTECA.poemas({
+  autor: "horacio-quiroga",
+  arquivo: "conteudo/horacio-quiroga/lingua-original.js",
+  livros: [{"id": "cuentos-de-la-selva-para-los-ni-os", "titulo": "Cuentos de la selva (para los niños)", "ano": 1918}],
+  poemas: [
+    {"id":"horacio-quiroga-la-tortuga-gigante","titulo":"La tortuga gigante","forma":"outras","livro":0,"ordem":0,"versos":27,"lingua":"es","ano":1918,"glossario":true,"genero":"Contos","prosa":true}
+  ]
+});

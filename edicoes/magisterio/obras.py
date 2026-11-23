@@ -66,6 +66,10 @@ DOCS = {
         '29 de junho de 1923', 1923, 'latim', 'la', 'AAS 15 (1923), p. 309-326',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19230629_studiorum-ducem.html',
         'https://www.vatican.va/archive/aas/documents/AAS-15-1923-ocr.pdf'),
+    'pacem-dei-munus': ('Pacem, Dei Munus Pulcherrimum', 'Sobre o restabelecimento cristão da paz', 'Carta encíclica', 'Bento XV',
+        '23 de maio de 1920', 1920, 'latim', 'la', 'AAS 12 (1920), p. 209-218',
+        'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-12-1920-ocr.pdf'),
     'spiritus-paraclitus': ('Spiritus Paraclitus', 'Sobre São Jerônimo e a Sagrada Escritura', 'Carta encíclica', 'Bento XV',
         '15 de setembro de 1920', 1920, 'latim', 'la', 'AAS 12 (1920), p. 385-422',
         'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html',
@@ -157,6 +161,11 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
                       '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),
     'sacrorum-antistitum': ('Os erros evidentes de digitalização (uns trinta) foram corrigidos, e as chamadas de '
                             'nota que o site perdia ou trocava voltaram ao lugar das _Acta_.'),
+    'pacem-dei-munus': ('A transcrição do site vem do mesmo reconhecimento de texto das _Acta_ e repete os erros '
+                        'dele; os evidentes (uns quarenta) foram corrigidos pela gramática e pelos textos citados. '
+                        'Em dois a palavra muda o sentido: no § 9, os inimigos que devemos «amar» (_diligamus_) '
+                        'como irmãos, onde o site tem _dirigamus_; e no § 19, «dirigir-Nos» (_alloqui_) a todos '
+                        '«com toda a verdade» (_verissime_), onde o site tem _alioqui_ e _ferissime_.'),
     'spiritus-paraclitus': ('Os erros de digitalização do site (uns setenta no texto e trinta nas notas) foram '
                             'corrigidos pelas _Acta_.'),
 }

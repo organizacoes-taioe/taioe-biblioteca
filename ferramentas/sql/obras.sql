@@ -1184,6 +1184,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('igreja-catolica/mit-brennender-sorge', 'Mit brennender Sorge'),
   ('igreja-catolica/mortalium-animos', 'Mortalium Animos'),
   ('igreja-catolica/non-abbiamo-bisogno', 'Non Abbiamo Bisogno'),
+  ('igreja-catolica/pacem-dei-munus', 'Pacem, Dei Munus Pulcherrimum'),
   ('igreja-catolica/pascendi', 'Pascendi Dominici Gregis'),
   ('igreja-catolica/quadragesimo-anno', 'Quadragesimo Anno'),
   ('igreja-catolica/quas-primas', 'Quas Primas'),

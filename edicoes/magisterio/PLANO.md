@@ -91,6 +91,7 @@ em partes entre tradutores com termos fixos, uniformizada no fim.
 | documento | papa | data | língua | palavras | estado |
 |---|---|---|---|---|---|
 | *Ubi Arcano Dei Consilio* | Pio XI | 1922 | latim | ~7,1 mil (59 notas) | no ar; 67 parágrafos das _Acta_ (o site juntava dois), ~40 erros do site corrigidos; 2 decisões nas pendências |
+| *Pacem, Dei Munus Pulcherrimum* | Bento XV | 1920 | latim | ~2,5 mil (24 notas) | no ar; o site e as _Acta_ vêm do mesmo OCR: ~40 erros corrigidos pela gramática e pelos textos citados; 2 decisões nas pendências |
 
 ## Depois
 

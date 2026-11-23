@@ -56,6 +56,9 @@ notas do próprio documento, sem comentários. Os termos se fixam aqui, sem fila
 | modernistae | modernistas |
 | secta (a maçonaria) | seita |
 | Datum Romae apud S. Petrum, die… | Dado em Roma, junto de São Pedro, no dia… |
+| praedicandi potestas (a licença canônica) | faculdade de pregar |
+| sacri concionatores; sacri oratores | pregadores sagrados; oradores sagrados |
+| Respublicae (os países, no plural) | Repúblicas (no singular, «Estado») |
 | Pontificatus Nostri anno… | do Nosso Pontificado, o ano… (ex.: «no ano décimo sexto do Nosso Pontificado») |
 | PIUS PP. XI, LEO PP. XIII | PIO PP. XI, LEÃO PP. XIII |
 | Principatus (o do Papa) | Principado |

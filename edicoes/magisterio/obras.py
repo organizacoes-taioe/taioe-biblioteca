@@ -70,6 +70,10 @@ DOCS = {
         '23 de maio de 1920', 1920, 'latim', 'la', 'AAS 12 (1920), p. 209-218',
         'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_23051920_pacem-dei-munus-pulcherrimum.html',
         'https://www.vatican.va/archive/aas/documents/AAS-12-1920-ocr.pdf'),
+    'humani-generis-redemptionem': ('Humani Generis Redemptionem', 'Sobre a pregação da palavra divina', 'Carta encíclica', 'Bento XV',
+        '15 de junho de 1917', 1917, 'latim', 'la', 'AAS 9 (1917), p. 305-317',
+        'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_15061917_humani-generis-redemptionem.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-09-I-1917-ocr.pdf'),
     'spiritus-paraclitus': ('Spiritus Paraclitus', 'Sobre São Jerônimo e a Sagrada Escritura', 'Carta encíclica', 'Bento XV',
         '15 de setembro de 1920', 1920, 'latim', 'la', 'AAS 12 (1920), p. 385-422',
         'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html',
@@ -82,6 +86,14 @@ DOCS = {
         '1º de novembro de 1914', 1914, 'latim', 'la', 'AAS 6 (1914), p. 565-581',
         'https://www.vatican.va/content/benedict-xv/la/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html',
         'https://www.vatican.va/archive/aas/documents/AAS-06-1914-ocr.pdf'),
+    # o site da Santa Sé só tem inglês e italiano: a base é o PDF das AAS (url do texto: None)
+    'lacrimabili-statu': ('Lacrimabili Statu', 'Sobre os índios da América do Sul', 'Carta encíclica', 'São Pio X',
+        '7 de junho de 1912', 1912, 'latim', 'la', 'AAS 4 (1912), p. 521-525', None,
+        'https://www.vatican.va/archive/aas/documents/AAS-04-1912-ocr.pdf'),
+    # decreto de congregação, como o Lamentabili; o site da Santa Sé não o tem: base no PDF das AAS (url do texto: None)
+    'quam-singulari': ('Quam Singulari', 'Sobre a idade da primeira comunhão', 'Decreto', 'São Pio X',
+        '8 de agosto de 1910', 1910, 'latim', 'la', 'AAS 2 (1910), p. 577-583', None,
+        'https://www.vatican.va/archive/aas/documents/AAS-02-1910-ocr.pdf'),
     'sacrorum-antistitum': ('Sacrorum Antistitum', 'O juramento antimodernista', 'Motu proprio', 'São Pio X',
         '1º de setembro de 1910', 1910, 'latim', 'la', 'AAS 2 (1910), p. 655-680',
         'https://www.vatican.va/content/pius-x/la/motu_proprio/documents/hf_p-x_motu-proprio_19100901_sacrorum-antistitum.html',
@@ -116,6 +128,8 @@ DOCS = {
 ADJETIVO = {'la': 'latino', 'it': 'italiano', 'de': 'alemão'}
 ACTA = {'AAS': '_Acta Apostolicae Sedis_', 'ASS': '_Acta Sanctae Sedis_'}
 NUMERACAO = {   # de onde vem a numeração dos parágrafos (a marca à margem)
+    'quam-singulari': ('O decreto não numera a exposição, e o site do Vaticano não o tem em outra língua; por isso não há '
+                       'marca à margem. As normas I a VIII são numeradas no próprio texto.'),
     'tra-le-sollecitudini': 'Os números dos parágrafos são os do próprio documento.',
     'lamentabili': ('Os números das 65 proposições são os do próprio decreto. As notas que as _Acta_ acrescentam, '
                     'marcadas «N. R.» (nota da redação), não fazem parte do decreto e ficaram de fora.'),
@@ -127,11 +141,15 @@ NUMERACAO = {   # de onde vem a numeração dos parágrafos (a marca à margem)
                              'numeram; a versão inglesa junta parágrafos e vai só até 43).'),
 }
 ABERTURA = {  # id: o começo da apresentação, quando «<tipo> de <papa>, de <data>.» não serve
+    'quam-singulari': ('Decreto da Sagrada Congregação da Disciplina dos Sacramentos, de 8 de agosto de 1910, aprovado '
+                       'por São Pio X, sobre a idade da primeira confissão e da primeira comunhão.'),
+    'lacrimabili-statu': ('Carta encíclica de São Pio X aos arcebispos e bispos da América Latina, de 7 de junho de 1912, '
+                          'sobre a condição dos índios.'),
     'lamentabili': ('Decreto do Santo Ofício (a Sagrada Congregação da Romana e Universal Inquisição), de 3 de '
                     'julho de 1907, aprovado e confirmado por São Pio X no dia seguinte, com as 65 proposições '
                     'condenadas dos modernistas.'),
 }
-SEM_NOTAS = {'lamentabili'}  # documentos sem notas próprias
+SEM_NOTAS = {'lamentabili', 'lacrimabili-statu'}  # documentos sem notas próprias
 CORRECOES = {  # id: frase sobre as correções feitas no texto de base
     'ad-catholici-sacerdotii': ('Os erros de digitalização do site (uns cento e cinquenta no texto e trinta nas notas) foram '
                                 'corrigidos pelas _Acta_, e também seis referências bíblicas erradas das notas. A página 35 das '
@@ -168,6 +186,17 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
                         '«com toda a verdade» (_verissime_), onde o site tem _alioqui_ e _ferissime_.'),
     'spiritus-paraclitus': ('Os erros de digitalização do site (uns setenta no texto e trinta nas notas) foram '
                             'corrigidos pelas _Acta_.'),
+    'quam-singulari': ('Os erros evidentes da leitura do PDF (OCR), uns quinze, foram corrigidos pela gramática e pelos '
+                       'textos citados; as notas, que nas _Acta_ recomeçam a cada página, vão numeradas em sequência. '
+                       'Num caso a correção muda o sentido: a data do decreto _Sacra Tridentina Synodus_, que o PDF dá '
+                       'como 26 de dezembro de 1905, é 20 de dezembro.'),
+    'humani-generis-redemptionem': ('A transcrição do site vem do mesmo reconhecimento de texto das _Acta_ e repete os '
+                                    'erros dele; os evidentes (uns trinta) foram corrigidos pela gramática e pelos textos '
+                                    'citados. Três mudam o sentido: no § 1, Cristo «morrendo» (_moriendo_) no altar da '
+                                    'Cruz, onde o site tem _monendo_; no § 3, as causas destes «males» (_malorum_), onde '
+                                    'tem _maiorum_; e no § 10, «entre as verdades reveladas» (_revelatis_), onde tem _revelatio_.'),
+    'lacrimabili-statu': ('Os erros evidentes da leitura do PDF (OCR), uma dúzia, foram corrigidos pela gramática; '
+                          'nenhum muda o sentido.'),
 }
 
 

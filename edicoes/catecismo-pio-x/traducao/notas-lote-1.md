@@ -26,6 +26,11 @@
   pergunta fica «_infernos_» («O que se entende aqui por _infernos_?»).
 - «Limbo dei santi Padri»: **limbo dos santos Padres**, minúsculo, como na tabela do guia.
 - Artigo 6 (Q 124): «La parola: _siede_» → «As palavras _está sentado_» (o Credo brasileiro tem duas palavras).
+- «_ab eterno_» (Q 133, em itálico no italiano): **desde toda a eternidade**, sem itálico (como a Q 70, «da tutta
+  l’eternità»).
+- «per modo di spirazione» (Q 134): **por modo de espiração** (é a palavra que explica o nome «Espírito»; «sopro»
+  perderia a ligação). Palavra técnica: decisão possível para o Gere.
+- «giudizio particolare / universale»: **juízo particular / universal**; «pena» (do juízo): **pena**.
 
 ## Passagens difíceis
 

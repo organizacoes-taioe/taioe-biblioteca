@@ -156,6 +156,10 @@ e `traducao/p1-c01.txt` (perguntas 1–21), feitos pelo preparador.
 | impedimenti dirimenti / impedienti; pubblicazioni | impedimentos dirimentes / impedientes; proclamas |
 | potenze dell'anima; liberalità | faculdades da alma; generosidade |
 | Profeti ed Agiografi | Profetas e Hagiógrafos |
+| in quanto, inquantochè (sentido de «sob o aspecto de») | porque, na medida em que, como («como Deus e homem»); nunca «enquanto», que se lê «ao passo que» |
+| redimere; custodi (os Anjos); superiori ecclesiastici e secolari | redimir; guardiões; superiores eclesiásticos e seculares |
+| doppiezza; per modo di cibo o di bevanda; si richiede | duplicidade; como comida ou bebida; requer-se, é preciso, são necessários (não «se pede») |
+| ebrei | judeus (os de hoje, Q 227, 479); «povo hebreu» o da lei antiga (Q 389) |
 | formas das perguntas: Che cosa è…? Che cosa vuol dire…? Che cosa s'intende…? Spiegatemi… | O que é…? Que quer dizer…? O que se entende…? Explique-me… |
 
 Termo novo que se repete: anote-o nas notas do tradutor com a solução, para entrar aqui.

@@ -1,0 +1,55 @@
+{
+ "id": "magisterio-pacem-dei-munus",
+ "rotulo": "Pacem, Dei Munus Pulcherrimum (Bento XV, 1920)",
+ "url": "/biblioteca/igreja-catolica/pacem-dei-munus/",
+ "escolhas": [
+  {
+   "id": "subtitulo",
+   "titulo": "O subtítulo *De pacis reconciliatione christiana*: «restabelecimento cristão da paz» ou «reconciliação cristã da paz»?",
+   "ref": "título",
+   "contexto": "O latim junta *reconciliatio* a *pax*: no latim clássico e eclesiástico, *reconciliatio pacis* é o restabelecimento da paz (como *reconciliatio gratiae*, «recuperar a graça»). Ao pé da letra, «reconciliação da paz» soa estranho em português, porque hoje só se reconciliam pessoas. A versão inglesa do Vaticano dá «On Peace and Christian Reconciliation». Hoje no site: «Sobre o restabelecimento cristão da paz».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Sobre o restabelecimento cristão da paz», como está",
+     "nota": "O sentido do latim, em português natural; perde o eco de «reconciliação», que o texto usa para os povos (§ 1, § 15).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Sobre a reconciliação cristã da paz»",
+     "nota": "Literal, como no pedido; guarda a palavra do latim, mas soa estranho."
+    },
+    {
+     "id": "c",
+     "texto": "«Sobre a paz e a reconciliação cristã»",
+     "nota": "Como a versão inglesa; claro, mas desfaz a construção do latim em duas coisas."
+    }
+   ]
+  },
+  {
+   "id": "liga-dos-estados",
+   "titulo": "§ 17, a futura união dos Estados: como traduzir *in unam tamquam consociationem seu potius quandam quasi familiam*?",
+   "ref": "§ 17",
+   "contexto": "O Papa deseja que todos os Estados, afastada a desconfiança, se unam «in unam tamquam consociationem seu potius quandam quasi familiam», para defender a liberdade de cada um e a ordem da sociedade humana; logo depois fala da «associação dos povos» (*consociatio*). Em 1920 o leitor ouvia aí a Sociedade das Nações, recém-criada, que o texto não nomeia. O latim atenua duas vezes (*tamquam*, *quasi*). Hoje: «se unam numa só associação, por assim dizer, ou melhor, numa espécie de família».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«numa só associação, por assim dizer, ou melhor, numa espécie de família», como está",
+     "nota": "Guarda as duas atenuações do latim e a mesma palavra, «associação», que volta logo depois.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«numa como que associação única, ou antes, numa espécie de família»",
+     "nota": "Mais colado à ordem do latim; o «como que» antes do substantivo pesa em português."
+    },
+    {
+     "id": "c",
+     "texto": "«numa liga única, ou melhor, numa espécie de família de povos»",
+     "nota": "Mais perto do vocabulário da Sociedade das Nações; acrescenta «de povos», que o latim não tem."
+    }
+   ]
+  }
+ ]
+}

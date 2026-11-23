@@ -75,6 +75,10 @@ Pontos de cada lote que pedem cuidado:
   edição. Ficaram como a edição as grafias dela (_sètte_ «seitas», com o acento da página).
 - Resíduo possível: erro que o OCR repetiu igual (raro). O tradutor que estranhar o italiano anota o número da
   pergunta; o principal confere a página no djvu (página do djvu = página impressa + 12).
+- Material de trabalho (só neste PC, fora do git): `~/.cache/claude-pedidos-2311/tmp-catecismo-pio-x/` (`pag/` as
+  páginas do Wikisource, `img/pN.jpg` as imagens, `ocr/pN.txt` o OCR) e os scripts em
+  `~/.cache/claude-pedidos-2311/scripts-catecismo/` (`recortes.py` recorta a linha de um ponto suspeito). Apagar
+  depois da publicação.
 
 ## Fora desta edição (para depois, se o Gere quiser)
 

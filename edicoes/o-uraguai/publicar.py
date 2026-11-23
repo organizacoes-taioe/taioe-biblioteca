@@ -2,7 +2,7 @@
 
 Chamado por montar.py --publicar (não precisa do cache). Partes: a dedicatória (o que vem antes do poema na
 1ª edição), os cinco cantos (os versos num bloco só, como em 1769, com o número do verso à margem de 10 em 10,
-pela marca {e N} do gerador; as notas do autor, que em 1769 vêm no pé das páginas, no fim de cada canto) e os
+pela marca {v N} do gerador; as notas do autor, que em 1769 vêm no pé das páginas, no fim de cada canto) e os
 dois sonetos «Ao Autor» do fim do livro.
 """
 import json, os, re, sys
@@ -122,7 +122,7 @@ def partes():
     cantos, notas = ler_texto(), ler_notas()
     ps = [{'n': '', 'titulo': 'Dedicatória', 'paragrafos': ler_abertura('abertura.txt')}]
     for i, (vs, ns) in enumerate(zip(cantos, notas)):
-        linhas = [('{e %d} ' % (k + 1) if (k + 1) % 10 == 0 else '') + v for k, v in enumerate(vs)]
+        linhas = [('{v %d} ' % (k + 1) if (k + 1) % 10 == 0 else '') + v for k, v in enumerate(vs)]
         blocos = ['\n'.join('| ' + l for l in linhas)]
         for n in ns:
             blocos += nota_em_blocos(n)
@@ -141,7 +141,7 @@ def publicar():
     destino = os.path.join(RAIZ, 'conteudo', META['autor'], META['id'] + '.js')
     comentario = ('O Uraguai — Basílio da Gama\n   Gerado por edicoes/o-uraguai/montar.py --publicar. Não edite à mão:\n'
                   '   corrija texto.txt (montar.py), notas1769.txt (notas.py), abertura.txt ou fecho.txt e rode de novo.\n\n'
-                  '   Os versos de cada canto num bloco («| »); {e N} põe o número do verso à margem; «¤ » as notas do autor.')
+                  '   Os versos de cada canto num bloco («| »); {v N} põe o número do verso à margem; «¤ » as notas do autor.')
     site.publicar(destino, META, partes(), edicao, comentario)
     rel = 'conteudo/' + META['autor'] + '/' + META['id'] + '.js'
     if site.registrar_no_index(os.path.join(RAIZ, 'index.html'), rel):

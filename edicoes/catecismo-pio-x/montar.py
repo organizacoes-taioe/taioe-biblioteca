@@ -60,6 +60,16 @@ CORRECOES = [
     (277, 'Tradizione e la parola', 'Tradizione è la parola'),
     (278, 'per con seguirlo', 'per conseguirlo'),
     (282, 'Prudenza e la virtù', 'Prudenza è la virtù'),
+    # conferidas pelo uniformizador (2026-11-23), a partir das notas dos tradutores
+    (148, "''Quante domande sono nel Pater noster?''", "''Quante domande sono nel'' Pater noster''?''"),
+    (159, 'nel l’ora', 'nell’ora'),
+    (174, 'sano chiamati', 'sono chiamati'),
+    (205, 'turale che si versa', 'naturale che si versa'),   # a p. 204 termina em {{Pt|na-|}}, sem a outra metade
+    (244, 'pericolose di tendono', 'pericolose di peccare s’intendono'),
+    (267, '4. schivare', '4.º schivare'),
+    (283, 'create, è conosciamo', 'create, e conosciamo'),   # na página, um pingo sobre o «e», não o acento
+    (286, 'miserie si spirituali', 'miserie sì spirituali'),
+    (295, 'ing nocchiarsi', 'inginocchiarsi'),
 ]
 ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII']
 PARTES = {'PRIMA': 1, 'SECONDA': 2, 'TERZA': 3, 'QUARTA': 4, 'QUINTA': 5}

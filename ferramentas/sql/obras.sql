@@ -1175,6 +1175,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('igreja-catolica/ad-beatissimi', 'Ad Beatissimi Apostolorum'),
   ('igreja-catolica/ad-catholici-sacerdotii', 'Ad Catholici Sacerdotii'),
   ('igreja-catolica/casti-connubii', 'Casti Connubii'),
+  ('igreja-catolica/catecismo-pio-x', 'Catecismo Maior de São Pio X'),
   ('igreja-catolica/divini-illius-magistri', 'Divini Illius Magistri'),
   ('igreja-catolica/divini-redemptoris', 'Divini Redemptoris'),
   ('igreja-catolica/humani-generis-redemptionem', 'Humani Generis Redemptionem'),

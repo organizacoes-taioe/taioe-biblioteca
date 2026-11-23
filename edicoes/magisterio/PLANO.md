@@ -92,6 +92,9 @@ em partes entre tradutores com termos fixos, uniformizada no fim.
 |---|---|---|---|---|---|
 | *Ubi Arcano Dei Consilio* | Pio XI | 1922 | latim | ~7,1 mil (59 notas) | no ar; 67 parágrafos das _Acta_ (o site juntava dois), ~40 erros do site corrigidos; 2 decisões nas pendências |
 | *Pacem, Dei Munus Pulcherrimum* | Bento XV | 1920 | latim | ~2,5 mil (24 notas) | no ar; o site e as _Acta_ vêm do mesmo OCR: ~40 erros corrigidos pela gramática e pelos textos citados; 2 decisões nas pendências |
+| *Humani Generis Redemptionem* | Bento XV | 1917 | latim | ~3,1 mil (39 notas) | no ar; site conferido com o OCR das _Acta_, ~30 erros corrigidos (3 mudam o sentido); 2 decisões nas pendências |
+| *Lacrimabili Statu* | São Pio X | 1912 | latim | ~1,2 mil (sem notas) | no ar; o site não tem o latim: transcrito do PDF das AAS, 12 erros corrigidos; 2 decisões nas pendências |
+| *Quam Singulari* (decreto da Congregação dos Sacramentos) | São Pio X | 1910 | latim | ~2 mil (11 notas) | no ar; sem página no site: transcrito do PDF das AAS, 16 erros corrigidos; partiu dos trechos do Magistério temático; 2 decisões nas pendências |
 
 ## Depois
 

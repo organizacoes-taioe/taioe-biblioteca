@@ -46,6 +46,12 @@
   Igreja, e a ti darei as chaves do reino dos céus; e tudo o que ligares na terra será ligado também no céu, e tudo o
   que desligares na terra será desligado também no céu» e «Apascenta os meus cordeiros, apascenta as minhas ovelhas»;
   Q 174 e 188 «Quem vos ouve, ouve a mim, e quem vos despreza, despreza a mim».
+- Cap. XI–XIII: «rimettere i peccati», «potestà di rimettere» → **perdoar os pecados**, **poder de perdoar** (o
+  artigo citado segue o Credo: «_Na remissão dos pecados_»); «sciogliere e legare» → **desligar e ligar**; artigos
+  citados com o «Na» do Credo (Q 235 «_Na remissão dos pecados_», Q 239 «_Na ressurreição da carne_», Q 246 «_Na vida
+  eterna_»); «undecimo», «dodicesimo» → **décimo primeiro**, **décimo segundo**; «doti dei corpi gloriosi» → **dotes**:
+  _impassibilidade_, _claridade_, _agilidade_, _sutileza_ (Q 244); «eletti», «dannati», «Beati» → **eleitos**,
+  **condenados**, **Bem-aventurados**; «Amen» → **_Amém_**, «Così sia», «Così è» → **Assim seja**, **Assim é** (Q 252).
 
 ## Passagens difíceis
 

@@ -43,7 +43,7 @@ Pedido do Gere (rodada de 2026-11-23). Branch `pedido-catecismo-pio-x` do `taioe
 ## Falta
 
 1. ~~Tradução~~ (feita) e ~~uniformização~~ (feita, acima).
-2. ~~Revisão contra o italiano~~ (2026-11-23: dois revisores, 31 achados; 26 aplicados pelo uniformizador, 5 recusados: «sé» 193/206, _ab eterno_ 133, «me dai» 306, «culpável» 363/424, «povo hebreu» 389, «retamente» 923).
+2. ~~Revisão contra o italiano~~ (2026-11-23: dois revisores, 31 achados; 24 aplicados pelo uniformizador, 7 recusados: «sé» 193/206, _ab eterno_ 133, «me dai» 306, «culpável» 363/424, «povo hebreu» 389, «retamente» 923).
 3. **Vocabulário** (regra para todo livro em português): `edicoes/vocabulario/catecismo-pio-x.json`
    (`node ferramentas/vocabulario.mjs …`, `edicoes/vocabulario/LEIA.md`). Provavelmente poucas palavras.
 4. ~~`revisao.json`~~ (8 decisões, feito).

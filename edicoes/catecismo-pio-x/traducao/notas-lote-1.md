@@ -31,6 +31,21 @@
 - «per modo di spirazione» (Q 134): **por modo de espiração** (é a palavra que explica o nome «Espírito»; «sopro»
   perderia a ligação). Palavra técnica: decisão possível para o Gere.
 - «giudizio particolare / universale»: **juízo particular / universal**; «pena» (do juízo): **pena**.
+- Cap. X (a Igreja): «Chiesa purgante» → **Igreja padecente** (Q 147, 223); «contrassegni» (Q 155) → **sinais**;
+  «i quattro caratteri dell’unità…» (Q 162) → **as quatro características**; «sette» → **seitas**; «ceto gerarchico»
+  (Q 191) → **corpo hierárquico**; «sede» (do Bispo) → **sé**; «Sede Apostolica» → **Sé Apostólica**; «Cattedra di
+  Roma» → **Cátedra de Roma**; «personaggi più venerandi» (Q 205) → **as pessoas mais veneráveis**; «sacri ministri»
+  → **ministros sagrados**; «ecclesiastici e laici» → **eclesiásticos e leigos**; «parroco» → **pároco** (Q 213,
+  «Il Parroco», com maiúscula como no italiano); «docente ossia insegnante» (Q 181) → «_docente_, isto é, _que
+  ensina_»; «in loro suffragio» (Q 223) → **em sufrágio por elas**; «pertinacia» (Q 228) → **obstinação**;
+  «maomettani» (Q 226) → **maometanos** (palavra da época; hoje «muçulmanos»: decisão possível para o Gere);
+  «domma» → **dogma**.
+- Artigo 9 citado (Q 143, 215): na forma do Credo do § 5, com o «na» («_na santa Igreja Católica, na comunhão dos
+  santos_»; Q 215 «_na comunhão dos santos_»).
+- Citações de Cristo, traduzidas do italiano do catecismo: Q 153 «Tu és Pedro, e sobre esta pedra edificarei a minha
+  Igreja, e a ti darei as chaves do reino dos céus; e tudo o que ligares na terra será ligado também no céu, e tudo o
+  que desligares na terra será desligado também no céu» e «Apascenta os meus cordeiros, apascenta as minhas ovelhas»;
+  Q 174 e 188 «Quem vos ouve, ouve a mim, e quem vos despreza, despreza a mim».
 
 ## Passagens difíceis
 
@@ -41,6 +56,12 @@
 
 - Q 123: «della Madre sua santissima che fu assunta» → «que foi assunta» (palavra da Assunção; a pergunta opõe
   «subiu» a «foi assunta»). Se parecer técnica demais para o povo, «que foi levada ao céu».
+- Q 151: «Dite distintamente che cosa è necessario…?» é uma ordem: «Diga, um por um, o que é necessário… .»
+- Q 171: a frase longa ficou numa só, como no italiano («Quem…, embora separado do corpo da Igreja, estaria unido à
+  alma dela, e portanto no caminho da salvação»); «come meglio può» → «o melhor que pode».
+- Q 210: «al proprio Vescovo in grazia e comunione con la Sede Apostolica» — mantida a mesma ambiguidade («ao seu
+  Bispo em graça e comunhão com a Sé Apostólica»): quem está em comunhão é o Bispo.
+- Q 199: «da tenersi da tutta la Chiesa» → «que deve ser seguida por toda a Igreja».
 
 ## Possíveis erros do italiano (para conferir no fac-símile)
 
@@ -49,3 +70,4 @@
 - Q 83: a pergunta termina com ponto, não com interrogação; traduzido com «?».
 - Q 121: «sulle terra» por «sulla terra» (a resposta tem «sulla»).
 - Q 124: «Spiegatemi le parole; _siede…_» — de novo ponto e vírgula no lugar de dois-pontos.
+- Q 211: «alla cura delle anime è al governo spirituale» — «è» por «e»; traduzido «e ao governo».

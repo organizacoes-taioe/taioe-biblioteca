@@ -1,0 +1,57 @@
+{
+  "id": "o-uraguai",
+  "rotulo": "O Uraguai (Basílio da Gama): grafia e edição",
+  "url": "/biblioteca/basilio-da-gama/o-uraguai/",
+  "escolhas": [
+    {
+      "id": "cepe",
+      "titulo": "O guerreiro fica *Cepé*, como o autor escreve, ou *Sepé*?",
+      "ref": "Cantos II, III e IV (12 vezes) e o soneto de Seixas Brandão",
+      "contexto": "A 1ª edição escreve sempre *Cepé*. As edições de hoje (e o texto do Wikisource) trocam por *Sepé*, a forma com que o guerreiro histórico, Sepé Tiaraju, ficou conhecido. O som é o mesmo.\n\nHoje no site: «Cepé no pavilhão. Porém Cacambo».",
+      "opcoes": [
+        {"id": "a", "texto": "*Cepé*, como está", "nota": "A forma do autor; a regra da edição é manter os nomes como ele os escreveu.", "recomendada": true},
+        {"id": "b", "texto": "*Sepé*", "nota": "A forma de hoje e das edições escolares; liga o nome à figura histórica."}
+      ]
+    },
+    {
+      "id": "formas-antigas",
+      "titulo": "As formas antigas que não mudam o verso ficam atualizadas (*coisa*, *dois*, *coberto*, *flecha*, *artilharia*)?",
+      "ref": "todo o poema (cousa, dous, cuberto, descubrir, frecha, artilheria, cavaleria, infanteria, felices, valeroso, várgeas, salvages)",
+      "contexto": "A regra pedida para este livro foi manter só as formas antigas que mudam o número de sílabas do decassílabo (*inda*, *mui*, *exprimentada*, *galopear*, *co'a*). As outras passaram à forma de hoje. N'*Os Lusíadas* a regra foi outra: lá ficaram também *cousa*, *dous*, *fermoso*, que não pesam no verso.\n\nHoje no site: «Prontos para dois gêneros de guerra»; «Não queiras ver se cortam nossas flechas».",
+      "opcoes": [
+        {"id": "a", "texto": "Atualizadas, como está", "nota": "Mais fácil de ler; o verso não perde nada.", "recomendada": true},
+        {"id": "b", "texto": "Voltar às formas de 1769 (*dous*, *frecha*, *cuberto*…)", "nota": "Igual a *Os Lusíadas*; mais perto do texto de 1769."}
+      ]
+    },
+    {
+      "id": "seras-lido",
+      "titulo": "«Serás lido Uraguai», sem vírgula, como em 1769, ou «Serás lido, Uraguai»?",
+      "ref": "V, 140",
+      "contexto": "O verso mais citado do poema. A 1ª edição não põe vírgula antes do vocativo (os dois exemplares conferidos); as edições de hoje põem. A regra da edição é a pontuação de 1769, salvo erro evidente.\n\nHoje no site: «Serás lido Uraguai. Cubra os meus olhos».",
+      "opcoes": [
+        {"id": "a", "texto": "Sem vírgula, como em 1769", "nota": "Fiel ao impresso, como o resto da pontuação.", "recomendada": true},
+        {"id": "b", "texto": "«Serás lido, Uraguai»", "nota": "Como o verso é citado hoje; a vírgula do vocativo ajuda a leitura."}
+      ]
+    },
+    {
+      "id": "ao-autor",
+      "titulo": "Os dois sonetos «Ao Autor» (de Seixas Brandão e de Alvarenga Peixoto) ficam no fim do livro?",
+      "ref": "1ª edição, últimas páginas",
+      "contexto": "A 1ª edição fecha com dois sonetos de amigos do autor, com os nomes deles embaixo. Não são de Basílio da Gama, mas fazem parte do livro de 1769 e falam do poema.\n\nHoje no site: a última parte, «Ao Autor», com os dois sonetos e os nomes dos autores.",
+      "opcoes": [
+        {"id": "a", "texto": "Ficam, como está", "nota": "O livro como saiu em 1769.", "recomendada": true},
+        {"id": "b", "texto": "Tirar", "nota": "Fica só o que é de Basílio da Gama."}
+      ]
+    },
+    {
+      "id": "cobe",
+      "titulo": "O índio fica *Cobé*, na grafia de hoje, ou *Kobbé*, como em 1769?",
+      "ref": "IV, 65",
+      "contexto": "A 1ª edição escreve *Kobbé*, com *k* e *bb*. O som é o de *Cobé*, a forma das edições de hoje. Nos outros nomes indígenas só a grafia mudou (*Lindoya* → *Lindoia*, *Caitutú* → *Caitutu*).\n\nHoje no site: «Vinha o índio Cobé disforme, e feio».",
+      "opcoes": [
+        {"id": "a", "texto": "*Cobé*, como está", "nota": "A grafia de hoje, como nos outros nomes.", "recomendada": true},
+        {"id": "b", "texto": "*Kobbé*", "nota": "A letra de 1769, que talvez quisesse marcar um nome estranho."}
+      ]
+    }
+  ]
+}

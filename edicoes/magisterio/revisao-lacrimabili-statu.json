@@ -1,0 +1,55 @@
+{
+ "id": "magisterio-lacrimabili-statu",
+ "rotulo": "Lacrimabili Statu (São Pio X, 1912)",
+ "url": "/biblioteca/igreja-catolica/lacrimabili-statu/",
+ "escolhas": [
+  {
+   "id": "indi",
+   "titulo": "O nome dado aos povos nativos: *Indi* como «índios» ou «indígenas»?",
+   "ref": "título e todo o texto",
+   "contexto": "O latim usa *Indi* em todo o documento (o título: *De misera Indorum conditione sublevanda*) e, duas vezes, *indigenae* («até o extermínio dos indígenas»; «as sagradas missões junto aos indígenas, que foram os primeiros a habitar esse solo americano»). *Indi* é o nome histórico, o mesmo da *Immensa Pastorum* de 1741, que o documento cita. Hoje no Brasil se diz «índios» e, cada vez mais, «indígenas» ou «povos indígenas». Hoje no site: «índios» para *Indi* e «indígenas» para *indigenae*.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«índios» para *Indi* e «indígenas» para *indigenae*, como está",
+     "nota": "Fiel ao latim e à época, e guarda a distinção entre as duas palavras do texto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«indígenas» nos dois casos",
+     "nota": "Mais perto do uso de hoje; perde a distinção do latim e soa anacrônico nas citações de Bento XIV."
+    },
+    {
+     "id": "c",
+     "texto": "«índios» nos dois casos",
+     "nota": "Uniforme; mas *indigenae* diz «os nativos», e o § 5 joga com isso («os primeiros a habitar esse solo»)."
+    }
+   ]
+  },
+  {
+   "id": "calamitosi-generis",
+   "titulo": "§ 1, *summaque calamitosi generis miseratione afficimur*: «essa gente», «essa raça» ou «esse povo» desventurado?",
+   "ref": "§ 1",
+   "contexto": "Depois de lembrar os crimes ainda cometidos contra os índios, o Papa diz: «estremecemos de horror e somos tomados da mais profunda compaixão por …». O latim *genus* pode ser «raça», «gente», «estirpe» ou «povo»; aqui fala de todos os índios da região, que são muitos povos. «Raça» é a palavra mais literal da época, mas hoje carrega outro peso. Hoje no site: «por essa gente desventurada».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«por essa gente desventurada», como está",
+     "nota": "Dá o *genus* sem o peso de «raça» e cobre os vários povos; é o tom de compaixão do latim.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«por essa raça desventurada»",
+     "nota": "Mais literal e do vocabulário de 1912; hoje pode soar como juízo racial, que o texto não faz."
+    },
+    {
+     "id": "c",
+     "texto": "«por esse povo desventurado»",
+     "nota": "Claro, mas o singular «povo» junta numa só nação as muitas tribos de que o texto fala logo depois."
+    }
+   ]
+  }
+ ]
+}

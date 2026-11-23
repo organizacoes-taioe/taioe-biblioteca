@@ -49,7 +49,7 @@
     "tarda"
    ],
    "classe": "adjetivo",
-   "def": "lento, vagaroso",
+   "def": "lento, vagaroso; também tardio, de tempo distante",
    "exemplo": "Os fogosos cavalos, e os robustos, E tardos bois, que hão de sofrer o jugo No pes",
    "capitulo": 2
   },
@@ -59,7 +59,7 @@
     "mitrados"
    ],
    "classe": "adjetivo",
-   "def": "que usa barretina alta, em forma de mitra (os granadeiros)",
+   "def": "que usa mitra; aqui, os granadeiros, de gorro alto em forma de mitra",
    "exemplo": "testa, e os olhos Vão marchando os mitrados granadeiros, Sobre ligeiras rodas con",
    "capitulo": 2
   },
@@ -91,7 +91,7 @@
     "amiudar"
    ],
    "classe": "verbo",
-   "def": "repetir a curtos intervalos (os tiros); peça de amiudar: canhão de tiro rápido",
+   "def": "tornar frequente, repetir a curtos intervalos (os tiros)",
    "exemplo": "vas espécies de fundidos bronzes, Que amiúdam de prontas mãos servidos, E multiplic",
    "capitulo": 2
   },
@@ -129,16 +129,6 @@
    "capitulo": 2
   },
   {
-   "lema": "congresso",
-   "formas": [
-    "congresso"
-   ],
-   "classe": "substantivo masculino",
-   "def": "reunião, ajuntamento de pessoas",
-   "exemplo": "Levantadas as mesas, entretinham O congresso de heróis discursos vários. Ali Cat",
-   "capitulo": 2
-  },
-  {
    "lema": "cerro",
    "formas": [
     "cerro"
@@ -152,8 +142,7 @@
    "lema": "discorrer",
    "formas": [
     "discorre",
-    "discorria",
-    "discorrer"
+    "discorria"
    ],
    "classe": "verbo",
    "def": "correr por, percorrer, andar de um lado para outro",
@@ -161,8 +150,7 @@
    "capitulo": 2,
    "so_capitulos": [
     2,
-    3,
-    7
+    3
    ]
   },
   {
@@ -173,16 +161,6 @@
    "classe": "substantivo feminino",
    "def": "barco feito de couro de boi, usado para atravessar rios no Sul",
    "exemplo": "nos espera. Preparo curvas balsas, e pelotas, E em uma parte de passar aceno,",
-   "capitulo": 2
-  },
-  {
-   "lema": "nobilitar",
-   "formas": [
-    "nobilitados"
-   ],
-   "classe": "verbo",
-   "def": "fazer nobre, dar foro de nobreza",
-   "exemplo": "es. Ultimamente foram, nos nossos dias, nobilitados, e admitidos aos cargos da República. E",
    "capitulo": 2
   },
   {
@@ -206,16 +184,6 @@
    "capitulo": 2
   },
   {
-   "lema": "abarracado",
-   "formas": [
-    "abarracado"
-   ],
-   "classe": "adjetivo",
-   "def": "acampado em barracas",
-   "exemplo": "obadela para ter dois meses um Exército abarracado sobre as árvores. Canoas. Pequenas",
-   "capitulo": 2
-  },
-  {
    "lema": "anelante",
    "formas": [
     "anelante"
@@ -223,18 +191,6 @@
    "classe": "adjetivo",
    "def": "ofegante, que respira com dificuldade",
    "exemplo": "os que o campo descobriram, Um cavalo anelante, e o peito, e as ancas Coberto de suo",
-   "capitulo": 3
-  },
-  {
-   "lema": "escuma",
-   "formas": [
-    "escuma",
-    "escumas",
-    "escumando"
-   ],
-   "classe": "substantivo feminino",
-   "def": "espuma",
-   "exemplo": "e as ancas Coberto de suor, e branca escuma. Temos perto o inimigo: aos seus dizi",
    "capitulo": 3
   },
   {
@@ -275,16 +231,6 @@
    "classe": "substantivo masculino",
    "def": "luxo, pompa, ostentação",
    "exemplo": "uezas. Muito suor, e pouco, ou nenhum fasto. Volta, senhor, não passes adiante.",
-   "capitulo": 3
-  },
-  {
-   "lema": "fero",
-   "formas": [
-    "fero"
-   ],
-   "classe": "adjetivo",
-   "def": "feroz, terrível",
-   "exemplo": "de orações vos põem no campo Contra o fero trovão da artilharia, Que os muros ar",
    "capitulo": 3
   },
   {
@@ -335,27 +281,6 @@
    "classe": "substantivo feminino",
    "def": "haste, cabo da lança",
    "exemplo": "erra dura, E treme fora muito tempo a hástea. Mas de um golpe a Cepé na testa, e",
-   "capitulo": 3
-  },
-  {
-   "lema": "caída",
-   "formas": [
-    "caída"
-   ],
-   "classe": "substantivo feminino",
-   "def": "queda",
-   "exemplo": "em falso, Rodou sobre si mesmo, e na caída Lançou longe a Cepé. Rende-te, ou mor",
-   "capitulo": 3
-  },
-  {
-   "lema": "tape",
-   "formas": [
-    "tape",
-    "tapes"
-   ],
-   "classe": "substantivo masculino",
-   "def": "índio dos tapes, povo guarani das missões do Sul",
-   "exemplo": "te, ou morre, Grita o governador; e o tape altivo, Sem responder, encurva o ar",
    "capitulo": 3
   },
   {
@@ -460,26 +385,6 @@
    "capitulo": 4
   },
   {
-   "lema": "menear",
-   "formas": [
-    "menear"
-   ],
-   "classe": "verbo",
-   "def": "mover, agitar de um lado para outro",
-   "exemplo": "e murmurar se ouvia Ao longe o rio, e menear-se o vento. Respirava descanso a natu",
-   "capitulo": 4
-  },
-  {
-   "lema": "limoso",
-   "formas": [
-    "limosa"
-   ],
-   "classe": "adjetivo",
-   "def": "cheio de limo, de lodo",
-   "exemplo": "a. Já sabia entanto A nova empresa na limosa gruta O pátrio rio; e dando um jeito",
-   "capitulo": 4
-  },
-  {
    "lema": "atalhar",
    "formas": [
     "atalha"
@@ -495,7 +400,7 @@
     "grimpas"
    ],
    "classe": "substantivo feminino",
-   "def": "o ponto mais alto, o cimo das torres",
+   "def": "ponto mais alto, cimo, pináculo (das torres)",
    "exemplo": "s, E o templo, que tocava o céu co'as grimpas. Mas não sabia que a fortuna entant",
    "capitulo": 4
   },
@@ -505,7 +410,7 @@
     "senhoril"
    ],
    "classe": "adjetivo",
-   "def": "nobre, de senhor, distinto",
+   "def": "próprio de senhor ou senhora; nobre, elegante",
    "exemplo": "eu valor! Tinha Cacambo Real esposa a senhoril Lindoia, De costumes suavíssimos, e h",
    "capitulo": 4
   },
@@ -563,16 +468,6 @@
    "capitulo": 4
   },
   {
-   "lema": "flâmula",
-   "formas": [
-    "flâmulas"
-   ],
-   "classe": "substantivo feminino",
-   "def": "bandeirola comprida e estreita, no alto dos mastros",
-   "exemplo": "escem das nuvens a beijar os mares As flâmulas guerreiras. No horizonte Já sobre o m",
-   "capitulo": 4
-  },
-  {
    "lema": "apascentar",
    "formas": [
     "apascentava",
@@ -612,16 +507,6 @@
    "def": "entregue pela Inquisição à justiça civil, para ser executado",
    "exemplo": ", pro fide occisus. A Igreja. Foi relaxado ao braço secular, &c.",
    "capitulo": 4
-  },
-  {
-   "lema": "sulfúreo",
-   "formas": [
-    "sulfúreo"
-   ],
-   "classe": "adjetivo",
-   "def": "de enxofre",
-   "exemplo": "Por ásperos desertos conduziam O pó sulfúreo, e as sibilantes balas, E o bronze, q",
-   "capitulo": 5
   },
   {
    "lema": "escalvado",
@@ -744,16 +629,6 @@
    "capitulo": 5
   },
   {
-   "lema": "camáldulas",
-   "formas": [
-    "camáldulas"
-   ],
-   "classe": "substantivo feminino plural",
-   "def": "rosário de contas grossas",
-   "exemplo": "guentada a luz do dia. Com as grossas camáldulas à porta, Devoto, e penitente os esper",
-   "capitulo": 5
-  },
-  {
    "lema": "sólio",
    "formas": [
     "sólio"
@@ -769,7 +644,7 @@
     "tiaras"
    ],
    "classe": "substantivo feminino",
-   "def": "coroa do papa; aqui, os papas",
+   "def": "barrete do papa com três coroas; aqui, os papas",
    "exemplo": "mpanhia. Os Cetros, e as Coroas, E as Tiaras, e as Púrpuras em torno Semeadas no c",
    "capitulo": 6
   },
@@ -799,7 +674,7 @@
     "paios"
    ],
    "classe": "substantivo masculino",
-   "def": "embutido de lombo de porco",
+   "def": "embutido grosso de carne de porco",
    "exemplo": "dos arções de um lado, e de outro Os paios saborosos, e os vermelhos Presuntos e",
    "capitulo": 6
   },
@@ -809,7 +684,7 @@
     "borracha"
    ],
    "classe": "substantivo feminino",
-   "def": "bolsa de couro para levar vinho",
+   "def": "odre de couro para levar vinho",
    "exemplo": "companheira antiga De seus caminhos a borracha pende. Entra no povo, e ao templo se",
    "capitulo": 6
   },

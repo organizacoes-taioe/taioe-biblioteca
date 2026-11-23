@@ -13,11 +13,19 @@ Regras e formato em `CONVENCOES.md`.
 - `texto.txt`: lição e pontuação de 1769; 27 lições corrigem o texto moderno (decisoes.json), todas vistas nas
   imagens; ~250 pontos de pontuação decididos nas imagens (pontuacao_conferida.json).
 - Notas: 88, transcritas das imagens (`notas1769.txt`, um subagente Sonnet com as quatro leituras OCR e o WS de
-  ajuda; conferidas por amostra) e passadas à grafia de hoje por `notas.py` → `notas.txt`.
+  ajuda; conferidas depois, todas, contra as imagens dos dois exemplares) e passadas à grafia de hoje por `notas.py` → `notas.txt`.
 - Dedicatória (`abertura.txt`) e os sonetos «Ao Autor» (`fecho.txt`), passados à mão das imagens.
 - `publicar.py` (via `montar.py --publicar`), autor `basilio-da-gama` em `conteudo/autores.js`,
-  vocabulário (`edicoes/vocabulario/o-uraguai.json`, 81 verbetes, `conferir` ok), `revisao.json` (5 decisões).
+  vocabulário (`edicoes/vocabulario/o-uraguai.json`, 69 verbetes depois da conferência, `conferir` ok), `revisao.json` (5 decisões).
 - Gerado e conferido no local (`gerar.mjs` e `conferir.mjs` ok; 7 partes, ~13.700 palavras).
+
+## Conferência (2026-11-23)
+- Notas: as 88 conferidas palavra por palavra contra as imagens de 1769 (Boston). Um erro: nota «Nossos Avôs»
+  (pág. 30), «defuntos Avós» → «Avôs» (o texto não muda de sentido). `notas.txt` refeito.
+- Vocabulário: 12 verbetes tirados (palavra que se adivinha ou sem fonte segura: congresso, nobilitar, abarracado,
+  escuma, fero, caída, menear, limoso, flâmula, sulfúreo; camáldulas e tape sem fonte); definições corrigidas
+  (mitrado, amiudar, tardo, borracha, paio, grimpa, senhoril, tiara); mostra, laço e discorrer limitados às
+  partes em que têm o sentido definido. Fontes: Dicionário Aberto (Figueiredo, 1913) e Wiktionary.
 
 ## Falta (para o principal)
 - `python3 edicoes/o-uraguai/montar.py --publicar` (grava `conteudo/basilio-da-gama/o-uraguai.js` e a linha do

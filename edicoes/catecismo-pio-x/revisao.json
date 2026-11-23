@@ -1,0 +1,174 @@
+{
+ "id": "catecismo-pio-x",
+ "rotulo": "Catecismo Maior de São Pio X (1905)",
+ "url": "/biblioteca/igreja-catolica/catecismo-pio-x/",
+ "escolhas": [
+  {
+   "id": "tratamento",
+   "titulo": "O catequista trata quem aprende por «você»?",
+   "ref": "todo o livro; ex.: perguntas 1, 2, 18",
+   "contexto": "O italiano usa o «voi» de respeito: *Siete voi cristiano?*, *Perchè dite voi…?*, *Recitateli*. As orações a Deus, a Nossa Senhora e aos santos ficam por «vós», como se reza. Hoje no site: «Você é cristão?» (1), «Por que você diz: _pela graça de Deus_?» (2), «Recite-os.» (18).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Você», como está",
+     "nota": "Natural no Brasil de hoje; claro para criança e adulto.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«Vós»: «Sois cristão?», «Por que dizeis…?», «Recitai-os.»",
+     "nota": "O tom dos catecismos antigos do Brasil; soa arcaico."
+    },
+    {
+     "id": "c",
+     "texto": "«Tu»: «És cristão?», «Por que dizes…?»",
+     "nota": "Próximo do catecismo de Portugal; pouco usado no Brasil."
+    }
+   ]
+  },
+  {
+   "id": "mandamentos",
+   "titulo": "Os dez mandamentos seguem as palavras do catecismo, com as formas do Brasil onde dizem o mesmo?",
+   "ref": "Parte III, perguntas 343, 350-351, 372, 388, 399, 411, 423, 431, 450, 465",
+   "contexto": "O catecismo traz os mandamentos na forma italiana e explica as palavras dela, a começar por *Io sono il Signore Iddio tuo* (pergunta 350) e *Non avrai altro Dio avanti di me* (351). Hoje no site: «Eu sou o Senhor teu Deus: 1.º Não terás outro Deus diante de mim. 2.º Não tomar o nome de Deus em vão. 3.º Lembra-te de santificar as festas. 4.º Honra pai e mãe. 5.º Não matar. 6.º Não pecar contra a castidade. 7.º Não furtar. 8.º Não levantar falso testemunho. 9.º Não desejar a mulher do próximo. 10.º Não cobiçar as coisas alheias.»",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Como está: as palavras do catecismo, com as do Brasil onde dizem o mesmo",
+     "nota": "As perguntas que explicam as palavras continuam fazendo sentido.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "A forma decorada no Brasil inteira («1.º Amar a Deus sobre todas as coisas… 3.º Guardar domingos e festas de guarda…»)",
+     "nota": "A que todos sabem; a pergunta 350 («Eu sou o Senhor teu Deus») fica sem o texto que explica."
+    },
+    {
+     "id": "c",
+     "texto": "Tudo traduzido ao pé da letra do italiano («6.º Não fornicar», «7.º Não roubar»)",
+     "nota": "Mais fiel; foge da forma que o leitor conhece."
+    }
+   ]
+  },
+  {
+   "id": "pai-nosso-dividas",
+   "titulo": "O Pai-Nosso do catecismo diz «perdoai-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores»?",
+   "ref": "Parte II, perguntas 284, 309-311",
+   "contexto": "O Pai-Nosso vai na forma rezada no Brasil, mas a pergunta 310 explica: «Por que os nossos pecados se chamam dívidas?». Com «ofensas» a pergunta fica solta. O resto vai como se reza. Hoje no site: «Perdoai-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores» (as palavras do Evangelho, Mt 6,12).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«dívidas» e «devedores», como está",
+     "nota": "Coerente com a pergunta 310.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem ofendido»",
+     "nota": "A forma rezada; a pergunta 310 fala de uma palavra que não está na oração."
+    }
+   ]
+  },
+  {
+   "id": "credo-infernos",
+   "titulo": "O 5.º artigo do Credo fica «desceu aos infernos»?",
+   "ref": "Parte I, perguntas 18, 115-116",
+   "contexto": "A pergunta 116 explica: «O que se entende aqui por _infernos_?» (o limbo dos santos Padres). A forma rezada hoje no Brasil diz «desceu à mansão dos mortos»; a antiga, «desceu aos infernos». O resto do Credo vai na forma de hoje. Hoje no site: «desceu aos infernos; ao terceiro dia ressuscitou dos mortos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«desceu aos infernos», como está",
+     "nota": "A forma antiga, ainda conhecida; coerente com a pergunta 116.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«desceu à mansão dos mortos»",
+     "nota": "A forma de hoje; a pergunta 116 explica uma palavra que sumiu."
+    }
+   ]
+  },
+  {
+   "id": "preceitos",
+   "titulo": "*Precetti della Chiesa* fica «preceitos da Igreja»?",
+   "ref": "Parte III, capítulo IV (perguntas 469-507)",
+   "contexto": "O catecismo distingue os *comandamenti* de Deus dos *precetti* da Igreja, e diz uma vez «primo precetto o comandamento della Chiesa» (475) e outra «primo comandamento della Chiesa» (479). No Brasil se diz mais «mandamentos da Igreja». Hoje no site: «Os preceitos da Igreja são cinco» (474); nas 475 e 479, «primeiro preceito ou mandamento» e «primeiro mandamento da Igreja», como no italiano.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«preceitos da Igreja», como está",
+     "nota": "Guarda a distinção do italiano.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«mandamentos da Igreja»",
+     "nota": "O nome mais comum no Brasil; mistura com os mandamentos de Deus."
+    }
+   ]
+  },
+  {
+   "id": "numeracao",
+   "titulo": "As perguntas levam a numeração contínua, de 1 a 993, que a edição de 1905 não tem?",
+   "ref": "todo o livro",
+   "contexto": "A edição de 1905 não numera as perguntas; o «D.» e o «R.» marcam pergunta e resposta. A página «Sobre» diz que a numeração é nossa. Hoje no site: cada pergunta em negrito com o número na frente («**1. Você é cristão?**»), nas duas colunas, sem «D.» e «R.».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Com os números, sem «D.» e «R.», como está",
+     "nota": "Fácil de citar e de achar; o negrito já marca a pergunta.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Com os números e com «P.» e «R.»",
+     "nota": "Mais perto da página de 1905; repete o que o negrito já diz."
+    },
+    {
+     "id": "c",
+     "texto": "Sem números, como em 1905",
+     "nota": "Fiel à edição; difícil de citar."
+    }
+   ]
+  },
+  {
+   "id": "confissao-vos",
+   "titulo": "Nas fórmulas da confissão, o penitente trata o confessor por «vós»?",
+   "ref": "Parte IV, perguntas 762, 764 e 767",
+   "contexto": "O italiano: *Beneditemi, Padre, perchè ho peccato*; *…e a voi, Padre spirituale*. São fórmulas de rito, que ecoam o *Confiteor* («e a vós, irmãos»). Fora delas, o catecismo trata quem aprende por «você» (decisão 1). Hoje no site: «Abençoai-me, padre, porque pequei» (762); «Confesso a Deus todo-poderoso, à bem-aventurada Virgem Maria, a todos os Santos e a vós, meu pai espiritual, porque pequei» (764); «…e a vós, meu pai espiritual, peço a penitência e a absolvição» (767).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«Vós», como está",
+     "nota": "Tom de oração e de rito, como o Confiteor que se reza na Missa.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«O senhor»: «Abençoe-me, padre, porque pequei», «…e ao senhor, meu pai espiritual»",
+     "nota": "Como se fala hoje com o padre; a fórmula perde o tom de rito."
+    }
+   ]
+  },
+  {
+   "id": "maometanos",
+   "titulo": "Na pergunta 226, *maomettani* fica «maometanos»?",
+   "ref": "Parte I, pergunta 226",
+   "contexto": "A resposta dá como exemplo de infiéis que admitem o único Deus verdadeiro *i maomettani*, o nome da época. Hoje se diz «muçulmanos»; «maometanos» soa antigo e, para muitos, impróprio. Hoje no site: «assim são os maometanos e outros semelhantes».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«maometanos», como está",
+     "nota": "A palavra do texto de 1905, ainda compreensível; o livro é um documento da época.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«muçulmanos»",
+     "nota": "A palavra de hoje; afasta-se da letra do original."
+    }
+   ]
+  }
+ ]
+}

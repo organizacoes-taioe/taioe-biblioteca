@@ -1,0 +1,45 @@
+{
+ "id": "magisterio-ubi-arcano",
+ "rotulo": "Ubi Arcano Dei Consilio (Pio XI, 1922)",
+ "url": "/biblioteca/igreja-catolica/ubi-arcano/",
+ "escolhas": [
+  {
+   "id": "nacionalismo",
+   "titulo": "*immoderatus nationis amor* fica «amor desmedido da nação» ou vira «nacionalismo»?",
+   "ref": "§ 25",
+   "contexto": "O trecho sobre o amor da pátria, um dos mais citados da encíclica: esse amor é estímulo de virtudes, mas vira semente de injustiças quando, passando os limites do justo, «in immoderatum creverit nationis amorem». O latim não usa a palavra «nacionalismo»; o texto italiano do site do Vaticano diz «immoderato nazionalismo». Hoje: «cresce até se tornar um amor desmedido da nação».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«um amor desmedido da nação», como está",
+     "nota": "Fiel ao latim, que traduzimos; o leitor vê a passagem do amor da pátria (bom) ao amor sem medida (mau) com as mesmas palavras.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«um nacionalismo desmedido»",
+     "nota": "Como o texto italiano; mais claro para hoje, mas põe no latim uma palavra que ele não tem."
+    }
+   ]
+  },
+  {
+   "id": "sociedade-das-nacoes",
+   "titulo": "*vera illa nationum societas*: «verdadeira sociedade das nações», com minúsculas?",
+   "ref": "§ 45",
+   "contexto": "Nenhuma instituição humana consegue dar às nações um código comum, «como o teve na Idade Média aquela verdadeira sociedade das nações que foi a comunidade dos povos cristãos». Em 1922 o leitor ouvia aí a alusão à Sociedade das Nações (*Societas Nationum*), fundada em 1919/1920: a verdadeira seria a cristandade medieval. O latim escreve com minúsculas.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«aquela verdadeira sociedade das nações», com minúsculas, como está",
+     "nota": "As mesmas palavras do nome da instituição, sem a marcar: a alusão fica para quem a percebe, como no latim.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«aquela verdadeira Sociedade das Nações», com maiúsculas",
+     "nota": "Deixa a alusão explícita; acrescenta uma ênfase que o latim não tem."
+    }
+   ]
+  }
+ ]
+}

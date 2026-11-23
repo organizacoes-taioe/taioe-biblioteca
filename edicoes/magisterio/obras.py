@@ -58,6 +58,10 @@ DOCS = {
         '11 de dezembro de 1925', 1925, 'latim', 'la', 'AAS 17 (1925), p. 593-610',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html',
         'https://www.vatican.va/archive/aas/documents/AAS-17-1925-ocr.pdf'),
+    'ubi-arcano': ('Ubi Arcano Dei Consilio', 'Sobre a paz de Cristo no reino de Cristo', 'Carta encíclica', 'Pio XI',
+        '23 de dezembro de 1922', 1922, 'latim', 'la', 'AAS 14 (1922), p. 673-700',
+        'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19221223_ubi-arcano-dei-consilio.html',
+        'https://www.vatican.va/archive/aas/documents/AAS-14-1922-ocr.pdf'),
     'studiorum-ducem': ('Studiorum Ducem', 'Sobre Santo Tomás de Aquino', 'Carta encíclica', 'Pio XI',
         '29 de junho de 1923', 1923, 'latim', 'la', 'AAS 15 (1923), p. 309-326',
         'https://www.vatican.va/content/pius-xi/la/encyclicals/documents/hf_p-xi_enc_19230629_studiorum-ducem.html',
@@ -146,6 +150,9 @@ CORRECOES = {  # id: frase sobre as correções feitas no texto de base
     'rerum-ecclesiae': ('Os erros evidentes da leitura do PDF (OCR) foram corrigidos pela gramática, pelo sentido e pela '
                         'versão inglesa do site; as notas, que nas _Acta_ recomeçam a cada página, vão numeradas em sequência.'),
     'quas-primas': ('Os erros de digitalização do site foram corrigidos pelas _Acta_.'),
+    'ubi-arcano': ('Os erros de digitalização do site (uns quarenta) foram corrigidos pelas _Acta_, cuja divisão em '
+                   'parágrafos seguimos. Num deles a palavra muda o sentido: no § 4, os negócios «que encontramos já '
+                   'iniciados» (_inita_), onde o site tem _finita_ («terminados»).'),
     'ad-beatissimi': ('Os erros evidentes de digitalização do site (uns quarenta) foram corrigidos. Num caso, no '
                       '§ 19, a palavra estragada foi lida como _immortalitatis_ («imortalidade»), conjectura nossa.'),
     'sacrorum-antistitum': ('Os erros evidentes de digitalização (uns trinta) foram corrigidos, e as chamadas de '

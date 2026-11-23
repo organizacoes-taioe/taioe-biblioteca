@@ -17,16 +17,36 @@ Pedido do Gere (rodada de 2026-11-23). Branch `pedido-catecismo-pio-x` do `taioe
 - Testado: `python3 ferramentas/traducoes.py catecismo-pio-x` e `node ferramentas/site/gerar.mjs` com a tradução
   provisória (cópia do original nos arquivos que faltam), sem commitar o que eles geram.
 
+## Feito (tradutores e uniformizador, 2026-11-23)
+
+- **Tradução** completa nos 4 lotes (`traducao/`, 41 arquivos, ~41 mil palavras; `conferir.py` «ok» em todos, sem
+  mesóclise). Notas de cada tradutor em `traducao/notas-lote-N.md`.
+- **Uniformização**: tabelas de termos dos 4 lotes juntas no `CONVENCOES.md` (§ 3 e § 4); varredura por script dos
+  ~170 lemas de conteúdo mais frequentes do italiano, comparando por lote a palavra portuguesa usada. Acertados:
+  virtudes, vícios e novíssimos em minúscula (73 + 13 trocas), «méritos» de Cristo × «merecimentos» nossos (7),
+  maiúsculas soltas (pároco, céu, jubileu, doutrina cristã, Comunhão sacramental, Anjos e Santos, paixão,
+  ressurreição, Cruz de Cristo, «unir-me a vós»), _Pai-Nosso_ em itálico na 283. Os termos dos lotes já batiam
+  (mentira oficiosa, Santos Óleos, perdoar/remissão, salvação/saúde).
+- **Erros do italiano** apontados pelos tradutores, vistos na imagem (`img/pN.jpg`):
+  - da transcrição, corrigidos em `CORRECOES` e `original/` regravado: 283 (_Pater noster_ em redondo na pergunta),
+    334 «nel l’ora» → «nell’ora», 403 «sano» → «sono», 553 «acqua turale» → «naturale» (a p. 204 acaba em
+    `{{Pt|na-|}}` sem a outra metade), 738 «pericolose di tendono» → «di peccare s’intendono», 841 «4.» → «4.º»,
+    923 «è conosciamo» → «e» (na página só um pingo sobre o «e»), 933 «si» → «sì», 974 «ing nocchiarsi».
+  - da edição de 1905 (ficam no original; a tradução lê a forma certa): 28 e 124 «;» por «:»; 81 «dell’attestazione»
+    (por «dall’»); 83 e 502 pergunta terminada em ponto; 121 «sulle terra»; 211 «anime è al governo»; 450 «_Non
+    dire_ il _falso testimonio_» (itálico partido); 656 «Messa è quello»; 741 «infinità bontà»; 772 item 4.º
+    terminado em ponto; 888 «la Bibbie»; 952 «la vita dal corpo»; 964 «delle salute», «della altrui grazia»; 979
+    «e dire;».
+- **`revisao.json`**: 8 decisões (as 6 do preparador revistas, com «Hoje no site», e mais 2: «vós» ao confessor nas
+  fórmulas da confissão; «maometanos» na 226). `ferramentas/traducoes_revisao.py` aceita.
+
 ## Falta
 
-1. **Tradução**, em 4 lotes paralelos (abaixo). Cada tradutor só cria os seus arquivos em `traducao/` e o seu
-   `traducao/notas-lote-N.md`; não edita o original, o guia, o `obra.py` nem arquivo de outro lote.
-2. **Revisão do principal**: juntar as notas dos 4 lotes; uniformizar termos (atualizar a tabela do `CONVENCOES.md`);
-   conferir no fac-símile os erros do italiano apontados pelos tradutores e pôr em `CORRECOES` (e rodar `montar.py`
-   de novo: os arquivos de `original/` se regravam); `conferir.py` sem nada; grep de mesóclise.
+1. ~~Tradução~~ (feita) e ~~uniformização~~ (feita, acima).
+2. **Revisão contra o italiano** por dois revisores; os achados vão ao uniformizador, que aplica.
 3. **Vocabulário** (regra para todo livro em português): `edicoes/vocabulario/catecismo-pio-x.json`
    (`node ferramentas/vocabulario.mjs …`, `edicoes/vocabulario/LEIA.md`). Provavelmente poucas palavras.
-4. `revisao.json`: rever as 6 decisões e acrescentar as que os tradutores levantarem (até uns 8).
+4. ~~`revisao.json`~~ (8 decisões, feito).
 5. Publicar (principal): `traducoes.py catecismo-pio-x`, gerador, Catálogo etc.
 
 ### Os 4 lotes

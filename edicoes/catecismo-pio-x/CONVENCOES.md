@@ -43,10 +43,22 @@ e `traducao/p1-c01.txt` (perguntas 1–21), feitos pelo preparador.
   você fará antes de dormir?»). A resposta vem na 1ª pessoa quando o italiano a põe («Sim, sou cristão…»).
 - **Deus, Nosso Senhor, Nossa Senhora e os santos, nas orações e jaculatórias: por «vós»**, como se reza no Brasil
   («Senhor, eu vos ofereço este trabalho: dai-me a vossa bênção»).
-- Maiúsculas: como no original para os pronomes de Deus («Egli», «Lui» → «Ele»); «Papa», «Bispos», «Igreja»,
-  «Sacramento» (o Santíssimo), «Missa» com maiúscula; os nomes dos sacramentos com maiúscula (Batismo, Crisma…).
+- Maiúsculas: como no original para os pronomes de Deus («Egli», «Lui» → «Ele», «a Ele»); depois de preposição
+  contraída, sempre minúscula («dele», «nele»); os de Nossa Senhora sempre minúsculos («ela», «por meio dela»), mesmo
+  onde o italiano põe «Lei». «Papa», «Bispo(s)», «Igreja», «Anjos», «Santos» (os do céu), «Sacramento» (o
+  Santíssimo), «Missa», «Comunhão» (a sacramental) com maiúscula; os nomes dos sacramentos com maiúscula (Batismo,
+  Crisma, Penitência, Ordem, Matrimônio, quando é o sacramento; «contrair matrimônio», «matrimônio civil» em
+  minúscula). **Virtudes, dons do Espírito Santo, vícios capitais e novíssimos sempre em minúscula** no meio da frase,
+  também nas listas e nos títulos de § («Da fé», «a prudência, a justiça…», «1.º soberba», «morte, juízo, inferno e
+  paraíso»), embora o italiano os ponha com maiúscula. Em minúscula também: paraíso, inferno, purgatório, céu,
+  pároco, jubileu, doutrina cristã, comunhão dos santos, a paixão e a ressurreição de Jesus Cristo (mas «Páscoa da
+  Ressurreição»). «Cruz» com maiúscula quando é a de Cristo e no «sinal da Cruz»; «suplício da cruz» em minúscula.
+- **Méritos × merecimentos**: os de Jesus Cristo (e os da Virgem e dos Santos, o tesouro da Igreja) são
+  «méritos»; os nossos, «merecimento(s)» (Q 42, 269, 315, 526, 690, 953); exceção: «segundo os méritos ou os
+  deméritos de cada um» (Q 251).
 - Italiano antigo e de catecismo: «Iddio» = «Deus»; «figliuolo» = «filho» («Figlio/Figliuolo di Dio» = «Filho de
-  Deus»); «salute» (eterna) = **«salvação»**, nunca «saúde»; «roba» = «bens», «coisas»; «divozione» = «devoção»;
+  Deus»); «salute» (eterna) = **«salvação»** (também na oração da Q 991, pelo enfermo que recebe o Viático); é
+  «saúde» só quando é a do corpo (Q 811, 808: a Extrema-Unção); «roba» = «bens», «coisas»; «divozione» = «devoção»;
   «imagine» = «imagem»; «padroni e dipendenti» = «patrões e empregados»; «giovanetti» = «jovens».
 - Frase longa da resposta: pode partir em duas, sem perder a repetição da pergunta nem as ligações (perché,
   dunque, cioè → porque, portanto, isto é). Nunca mesóclise.
@@ -118,6 +130,33 @@ e `traducao/p1-c01.txt` (perguntas 1–21), feitos pelo preparador.
 | mortificazione; mortificarsi | mortificação; mortificar-se |
 | tentazione; occasioni (prossime) | tentação; ocasiões (próximas) |
 | il prossimo | o próximo |
+| rimettere (i peccati); remissione | perdoar (os pecados); remissão (o substantivo, como no Credo) |
+| bugia giocosa, officiosa, dannosa | mentira jocosa, oficiosa, danosa (Q 456–461, 749) |
+| Olio Santo (a Extrema-Unção) | Santos Óleos; «sacro Crisma» (o óleo) = santo Crisma |
+| merito | mérito (de Cristo, da Virgem, dos Santos); merecimento (o nosso) |
+| pregare; orazione, preghiera; esaudire | rezar; oração (as duas); atender |
+| Persona (divina) | Pessoa (da Trindade); pessoa (a de Cristo, Q 89, 92) |
+| onnipotente; onnipotenza; progenitori | todo-poderoso; onipotência; primeiros pais |
+| intelletto (faculdade); Intelletto (dom) | inteligência; entendimento |
+| Chiesa purgante; sètte; Sede Apostolica | Igreja padecente; seitas; Sé Apostólica |
+| eletti, dannati, Beati; dannazione | eleitos, condenados, Bem-aventurados; condenação |
+| maomettani | maometanos (decisão no `revisao.json`) |
+| imprecazione; pertinacia; detrazione o mormorazione | praga; obstinação; maledicência ou murmuração |
+| rubare; furto; rapina; roba altrui | furtar; furto; roubo; as coisas alheias (no 7.º e 10.º mandamentos), bens alheios (fora deles) |
+| opere servili; età della discrezione | trabalhos servis; idade da discrição |
+| sacramenti dei morti / dei vivi; grazia prima / seconda | sacramentos dos mortos / dos vivos; graça primeira / segunda |
+| Battesimo di sangue, di desiderio; pompe del demonio | Batismo de sangue, de desejo; pompas do demônio |
+| parentela spirituale; rispetti umani | parentesco espiritual; respeito humano |
+| ostia; particola; Viatico; ringraziamento | hóstia; partícula; _Viático_; ação de graças |
+| dolore; dispiacere; eccitare il dolore | dor; pesar; despertar a dor |
+| abito cattivo; piena avvertenza | mau hábito; plena advertência |
+| soddisfazione ossia penitenza; ingiungere; scontare la pena | satisfação, ou penitência; impor; pagar a pena |
+| acquistare le indulgenze; tesoro della Chiesa | ganhar as indulgências; tesouro da Igreja |
+| potestà, podestà | poder |
+| impedimenti dirimenti / impedienti; pubblicazioni | impedimentos dirimentes / impedientes; proclamas |
+| potenze dell'anima; liberalità | faculdades da alma; generosidade |
+| Profeti ed Agiografi | Profetas e Hagiógrafos |
+| formas das perguntas: Che cosa è…? Che cosa vuol dire…? Che cosa s'intende…? Spiegatemi… | O que é…? Que quer dizer…? O que se entende…? Explique-me… |
 
 Termo novo que se repete: anote-o nas notas do tradutor com a solução, para entrar aqui.
 

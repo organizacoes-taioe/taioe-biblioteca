@@ -58,6 +58,8 @@ notas do próprio documento, sem comentários. Os termos se fixam aqui, sem fila
 | Datum Romae apud S. Petrum, die… | Dado em Roma, junto de São Pedro, no dia… |
 | Pontificatus Nostri anno… | do Nosso Pontificado, o ano… (ex.: «no ano décimo sexto do Nosso Pontificado») |
 | PIUS PP. XI, LEO PP. XIII | PIO PP. XI, LEÃO PP. XIII |
+| Principatus (o do Papa) | Principado |
+| convictus (domesticus, civilis) | convivência (doméstica, civil) |
 
 Termo novo que se repete: registre-o nas notas do tradutor, com a solução, para entrar nesta tabela.
 

@@ -1193,6 +1193,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('igreja-catolica/spiritus-paraclitus', 'Spiritus Paraclitus'),
   ('igreja-catolica/studiorum-ducem', 'Studiorum Ducem'),
   ('igreja-catolica/tra-le-sollecitudini', 'Tra le sollecitudini'),
+  ('igreja-catolica/ubi-arcano', 'Ubi Arcano Dei Consilio'),
   ('inscricoes/admiror-paries', 'Admiror, paries'),
   ('jean-de-la-fontaine/la-cigale-et-la-fourmi', 'La Cigale et la Fourmi'),
   ('jean-de-la-fontaine/la-grenouille-et-le-boeuf', 'La Grenouille qui se veut faire aussi grosse que le Bœuf'),

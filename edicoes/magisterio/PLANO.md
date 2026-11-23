@@ -86,6 +86,12 @@ Duas decisões de cada nas pendências (`revisao-<documento>.json`). Método nov
 texto do site com o OCR das AAS por script (as divergências apontam os erros dos dois lados) e tradução dividida
 em partes entre tradutores com termos fixos, uniformizada no fim.
 
+## Pedidos de 23/11
+
+| documento | papa | data | língua | palavras | estado |
+|---|---|---|---|---|---|
+| *Ubi Arcano Dei Consilio* | Pio XI | 1922 | latim | ~7,1 mil (59 notas) | no ar; 67 parágrafos das _Acta_ (o site juntava dois), ~40 erros do site corrigidos; 2 decisões nas pendências |
+
 ## Depois
 
 Os próximos vêm da lista do Magistério em `/admin/sugestoes/`, quando o Gere pedir. O levantamento

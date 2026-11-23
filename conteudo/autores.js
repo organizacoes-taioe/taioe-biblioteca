@@ -512,6 +512,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'basilio-da-gama',
+  nome: 'Basílio da Gama',
+  nomeCompleto: 'José Basílio da Gama',
+  vida: '1741–1795',
+  ordem: 'Gama, Basílio da',
+  nota: 'Poeta árcade mineiro, autor de _O Uraguai_.'
+});
+
+BIBLIOTECA.autor({
   id: 'vicente-de-carvalho',
   nome: 'Vicente de Carvalho',
   nomeCompleto: 'Vicente Augusto de Carvalho',

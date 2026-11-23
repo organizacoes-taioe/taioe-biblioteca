@@ -1,0 +1,55 @@
+{
+ "id": "magisterio-humani-generis-redemptionem",
+ "rotulo": "Humani Generis Redemptionem (Bento XV, 1917)",
+ "url": "/biblioteca/igreja-catolica/humani-generis-redemptionem/",
+ "escolhas": [
+  {
+   "id": "salubriter",
+   "titulo": "§ 6-7, a palavra de Trento que o Papa comenta, *salubriter*: «salutarmente» ou «com proveito das almas»?",
+   "ref": "§ 6-7",
+   "contexto": "O Concílio de Trento só permite aos Bispos escolher para pregar os que possam «officium praedicationis salubriter exsequi». O Papa se detém na palavra: «*Salubriter*, dictum est – notate verbum quo rei continetur norma – non *eloquenter*, non *cum plausu audientium*, verum cum animarum fructu». O comentário gira em torno do advérbio, que tem a raiz de *salus* (saúde, salvação). Hoje no site: «os que possam _exercer salutarmente o ofício da pregação_. _Salutarmente_, foi dito – notai a palavra, que contém a norma da coisa –, não _eloquentemente_, não _com o aplauso dos ouvintes_, mas com fruto das almas».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«salutarmente», como está",
+     "nota": "Uma palavra só, como no latim, que o Papa pode destacar e contrapor a «eloquentemente»; guarda o eco de salvação.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«com proveito das almas» (e «*Com proveito das almas*, foi dito…»)",
+     "nota": "Mais claro de imediato, como a versão inglesa («with profit to souls»), mas antecipa o «com fruto das almas» que o Papa dá como explicação e perde o jogo com «eloquentemente»."
+    },
+    {
+     "id": "c",
+     "texto": "«de modo salutar»",
+     "nota": "O mesmo sentido de «salutarmente», em locução; fica menos marcado como a palavra citada."
+    }
+   ]
+  },
+  {
+   "id": "concha-canal",
+   "titulo": "§ 19, a frase de São Bernardo *Si sapis, concham te exhibebis et non canalem*: «concha e não canal» ou «reservatório e não canal»?",
+   "ref": "§ 19",
+   "contexto": "São Bernardo (Sermão 18 sobre o Cântico) compara o pregador ao canal, que deixa passar a água sem reter nada, e à *concha*, a bacia que primeiro se enche e só depois transborda; o Papa explica: «enche-te tu mesmo daquilo que dizes, e não te contentes com passá-lo aos outros», e cita a queixa do santo: «canais temos hoje muitos na Igreja, conchas, porém, pouquíssimas!». Em português a frase corre como «concha e não canal», mas «concha» hoje lembra primeiro a do mar. Hoje no site: «Se és sábio, hás de mostrar-te concha e não canal».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«concha e não canal», como está",
+     "nota": "A forma conhecida da frase em português, com a palavra do latim; «concha» também é a bacia côncava, e a explicação do Papa vem logo depois.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«reservatório e não canal»",
+     "nota": "Mais claro para quem não conhece a imagem; perde a forma conhecida e a palavra do santo."
+    },
+    {
+     "id": "c",
+     "texto": "«bacia e não canal»",
+     "nota": "Imagem concreta e certa, mas soa doméstica e também se afasta da forma conhecida."
+    }
+   ]
+  }
+ ]
+}

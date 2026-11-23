@@ -1,0 +1,55 @@
+{
+ "id": "magisterio-quam-singulari",
+ "rotulo": "Quam singulari (Congregação dos Sacramentos, São Pio X, 1910)",
+ "url": "/biblioteca/igreja-catolica/quam-singulari/",
+ "escolhas": [
+  {
+   "id": "aetas-discretionis",
+   "titulo": "*Aetas discretionis* (e *anni discretionis*), a expressão-chave do decreto: «idade da discrição» ou «idade do discernimento»?",
+   "ref": "todo o decreto (normas I e IV; citação de Latrão IV)",
+   "contexto": "É o termo técnico que o decreto vem definir: vem do cânon 21 de Latrão IV (*postquam ad annos discretionis pervenerit*) e de Trento, e a norma I o fixa: é a idade em que a criança começa a raciocinar, por volta dos sete anos. Em português, «idade da discrição» e «anos da discrição» são a forma tradicional dos catecismos e do direito canônico antigo (e a do Magistério temático, que já traduziu trechos do decreto); mas hoje «discrição» lembra sobretudo «reserva», e o leitor comum pode não pegar o sentido de «discernimento». Hoje no site: «idade da discrição» / «anos da discrição».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«idade da discrição», «anos da discrição», como está",
+     "nota": "O termo consagrado, igual ao Magistério temático; o próprio decreto explica o sentido («em que a criança começa a raciocinar»).",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«idade do discernimento», «anos do discernimento»",
+     "nota": "Mais claro ao leitor de hoje; perde o termo técnico que liga o texto a Latrão, a Trento e aos catecismos."
+    },
+    {
+     "id": "c",
+     "texto": "«idade da razão»",
+     "nota": "Simples, mas apaga a distinção do texto, que fala ora de «idade da razão», ora de «idade da discrição» (e as iguala: «hac rationis, seu discretionis aetate»)."
+    }
+   ]
+  },
+  {
+   "id": "necessitate-medii",
+   "titulo": "Norma III, *fidei mysteria necessaria necessitate medii*: como verter a «necessidade de meio»?",
+   "ref": "norma III",
+   "contexto": "Termo da teologia moral: são necessárias «com necessidade de meio» as verdades sem cujo conhecimento ninguém se salva (a existência de Deus remunerador e, segundo a opinião comum, a Trindade e a Encarnação), à diferença das necessárias «por necessidade de preceito». A criança deve perceber, segundo a sua capacidade, esses mistérios antes da primeira Comunhão. O decreto não explica o termo. Hoje no site: «os mistérios da fé necessários com necessidade de meio».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«os mistérios da fé necessários com necessidade de meio», como está",
+     "nota": "O termo técnico, ao pé da letra, como nos manuais de teologia em português e no Magistério temático; obscuro para quem não conhece a distinção.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«os mistérios da fé necessários por necessidade de meio»",
+     "nota": "A outra forma usual nos manuais; muda só a preposição."
+    },
+    {
+     "id": "c",
+     "texto": "«os mistérios da fé necessários, como meio, para a salvação»",
+     "nota": "Mais claro, mas acrescenta «para a salvação», que o latim não diz, e desfaz o termo técnico."
+    }
+   ]
+  }
+ ]
+}

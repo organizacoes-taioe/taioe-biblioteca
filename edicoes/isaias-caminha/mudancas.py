@@ -73,7 +73,13 @@ def mudancas():
             continue                                   # só grafia
         pw = pal(W[mw(i1, True):mw(i2, True)])
         pm = pal(M[mm(j1, True):mm(j2, True)])
-        if not (iguais(pa, pw) and iguais(pb, pm)):
+        if max(len(pa), len(pb)) > LONGO:
+            # trecho longo: basta que as modernas tragam quase o mesmo (o OCR erra uma palavra ou outra)
+            from difflib import SequenceMatcher
+            sim = lambda x, y: SequenceMatcher(None, [chave(t) for t in x], [chave(t) for t in y], autojunk=False).ratio() if x or y else 1.0
+            if sim(pa, pw) < 0.8 or sim(pb, pm) < 0.8:
+                continue
+        elif not (iguais(pa, pw) and iguais(pb, pm)) or iguais(pw, pm):
             continue                                   # sem a confirmação das duas modernas
         if max(len(pa), len(pb)) > LONGO:
             maior, ed = (pb, '1917') if len(pb) >= len(pa) else (pa, '1909')
@@ -101,13 +107,53 @@ def mudancas():
             if k in vistos:
                 continue
             vistos.add(k)
-            x = {'cap': x['cap'], 'de': sa, 'para': sb + f' ({rep[k]} vezes)'}
+            x = {'cap': x['cap'], 'de': sa or '—', 'para': (sb or '—') + f' ({rep[k]} vezes)'}
         fim.append(x)
     return fim, longos
 
 
+def _norm(s):
+    from edicao.grafia import chave as ch
+    return ' ' + ' '.join(ch(w) for w in re.findall(r"[^\W_]+", s)) + ' '
+
+
+def _lido(pdf, txt, faixa):
+    """Texto corrido de uma leitura (camada do PDF ou Tesseract), normalizado para busca."""
+    if txt:
+        pags = open(cache(config.OBRA, txt), encoding='utf-8').read().split('\f')[faixa[0] - 1:faixa[1]]
+        linhas = [l for p in pags for l in p.split('\n')]
+    else:
+        linhas = [l for p in config.linhas_tesseract(pdf, *faixa) for l in p]
+    return _norm(config._juntar(linhas))
+
+
+def robustas(itens):
+    """Só as mudanças em que as duas leituras de cada edição trazem o trecho: a de 1909 nas duas de 1909
+    (camada do PDF e Tesseract) e a de 1917 nas duas de 1917."""
+    from edicao1909 import PAGS09, PDF09
+    l09 = [_lido(PDF09, None, PAGS09), _lido(None, 'c09.txt', PAGS09)]
+    l17 = [_lido(config.PDF17, None, config.PAGS17), _lido(None, 'c17.txt', config.PAGS17)]
+    ok = []
+    for x in itens:
+        de, para = re.sub(r' \(\d+ vezes\)$', '', x['de']), re.sub(r' \(\d+ vezes\)$', '', x['para'])
+        if de.count('«') != de.count('»') or para.count('«') != para.count('»'):
+            continue                          # aspa solta: leitura duvidosa
+        if ' vezes)' in x['para'] and not any(len(w) >= 4 or w == 'Eu' for w in re.findall(r'\w+', de + ' ' + para)):
+            continue                          # troca repetida de palavra curta (do → de): o OCR a confunde
+        if de in ('—', '') or para in ('—', ''):
+            if ' vezes)' in x['para']:
+                ok.append(x)                 # palavra tirada ou posta várias vezes (Eu, o): fica
+            continue
+        if all(_norm(de) in l for l in l09) and all(_norm(para) in l for l in l17):
+            ok.append(x)
+    return ok
+
+
 if __name__ == '__main__':
     itens, longos = mudancas()
+    n = len(itens)
+    itens = robustas(itens)
+    print(n, 'diferenças confirmadas pelas modernas;', len(itens), 'também nas duas leituras de cada edição')
     json.dump({'itens': itens, 'longos': longos}, open(os.path.join(AQUI, 'mudancas.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=1)
     print(len(itens), 'mudanças de palavras;', len(longos), 'trechos longos acrescentados ou cortados;',

@@ -514,6 +514,12 @@ def varrer_pontuacao(E, M):
                 tirar.add(i)
             elif t in ('«', '»') and i in sem_par:
                 tirar.add(i)
+    # vírgula depois de abreviatura («o dr, Ricardo», «O Sr, é») é o ponto mal lido; sinal no começo do parágrafo sai
+    for i, t in enumerate(E):
+        if t == ',' and i and E[i - 1] in ('dr', 'Dr', 'Sr', 'sr', 'Snr', 'snr', 'Srs', 'srs', 'Ex', 'D', 'S', 'V'):
+            E[i] = '.'
+        elif t in (',', ';', '.', ':') and i and (E[i - 1] == '¶' or E[i - 1].startswith('#')):
+            tirar.add(i)
     VARRIDAS.extend((junta(E[max(0, i - 6):i]), E[i], '', junta(E[i + 1:i + 7])) for i in sorted(tirar))
     print('pontuação de mancha tirada:', len(tirar))
     return [t for i, t in enumerate(E) if i not in tirar]

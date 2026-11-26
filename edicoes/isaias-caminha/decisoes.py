@@ -41,6 +41,7 @@ EMENDAS = [
     ('erro', "tudo aquillo á ser lido", "tudo aquillo ia ser lido"),
     ('erro', "de fraqueza, de décisão é mais", "de fraqueza, de decisão e mais"),
     ('erro', "ferir a marmellada", "ferir a martellada"),
+    ('erro', "do que por quer outra", "do que por qualquer outra"),
     ('erro', "me venham ar sensações", "me venham as sensações"),
     ('erro', "parecia ser em homem rico", "parecia ser um homem rico"),
     ('erro', "arqueologia, e muita certa", "arqueologia, e muito certa"),

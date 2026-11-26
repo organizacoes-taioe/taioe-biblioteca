@@ -8,3 +8,4 @@ notas da Bíblia (`../../../biblia/revisao/aprendizado.md`, seção «Notas»), 
   *Carta a Diogneto*); fora o que só data a história (D. João V no *Alienista*).
 - Hipóteses eruditas cortadas: de Diogneto, só que não se sabe quem era e o que o título indica.
 - Frases em outra língua: a tradução e, se for citação conhecida, de onde vem (Lucano, Dante, Manzoni).
+- 2026-11-04 (aplicado em 26/11), *Carta a Diogneto*, a nota de quem era Diogneto (excluída): «O leitor já não sabia quem era de qualquer jeito, essa nota não expande a compreensão dele em nada. Também sabemos que excelentíssimo aponta para posição alta, valeria a nota apenas se fosse mais específica». Nota que só diz que não se sabe, ou que explica um tratamento evidente, não entra.

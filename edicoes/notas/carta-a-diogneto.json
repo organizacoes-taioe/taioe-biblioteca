@@ -2,20 +2,13 @@
  "obra": "carta-a-diogneto",
  "notas": [
   {
-   "id": "diogneto",
-   "parte": 1,
-   "apos": "excelentíssimo Diogneto",
-   "lote": 1,
-   "texto": "Não se sabe quem era. «Excelentíssimo» era o tratamento dos homens de posição, como os altos funcionários do Império Romano.",
-   "porque": "O destinatário é a primeira dúvida do leitor; κράτιστε era o título dos cavaleiros e procuradores; as duas hipóteses (Meditações 1,6; Ti. Cláudio Diogneto, procurador c. 200) conferidas na Wikipédia (Epistle to Diognetus), em Schaff e na Britannica de 1911."
-  },
-  {
    "id": "lua-nova",
    "parte": 1,
    "apos": "do jejum e da lua nova",
    "lote": 1,
    "texto": "Para os judeus, a lua nova marcava o começo de cada mês e era dia de festa, com sacrifícios próprios no Templo.",
-   "porque": "O leitor de hoje não sabe que a lua nova era uma festa judaica; sem isso, a lista de 4,1 fica obscura (e explica 4,5, os meses pela lua)."
+   "porque": "O leitor de hoje não sabe que a lua nova era uma festa judaica; sem isso, a lista de 4,1 fica obscura (e explica 4,5, os meses pela lua).",
+   "revista": true
   },
   {
    "id": "enjeitar",
@@ -23,7 +16,8 @@
    "apos": "não enjeitam os que lhes nascem",
    "lote": 1,
    "texto": "No mundo greco-romano era costume aceito o pai abandonar o recém-nascido que não quisesse criar, sobretudo meninas e crianças com defeito. Muitos morriam; outros eram recolhidos para virar escravos.",
-   "porque": "Costume de época que o leitor não tem; sem ele a frase parece banal. O vocabulário não cobre «enjeitar»; a nota explica a prática, não a palavra."
+   "porque": "Costume de época que o leitor não tem; sem ele a frase parece banal. O vocabulário não cobre «enjeitar»; a nota explica a prática, não a palavra.",
+   "revista": true
   },
   {
    "id": "negar-o-senhor",

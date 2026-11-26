@@ -21,10 +21,56 @@ import notas  # noqa: E402
 from obra import HISTORIAS, META, ROM  # noqa: E402
 
 
+def conferencia():
+    """As linhas de conferencia.tsv: pagina, chave (do comparar.py), de, para, tipo (ws | erro | ok), nota."""
+    import csv
+    arq = os.path.join(AQUI, 'conferencia.tsv')
+    if not os.path.exists(arq):
+        return []
+    return list(csv.DictReader(open(arq, encoding='utf-8'), delimiter='\t'))
+
+
+LUGAR = {}          # (página, trecho) -> «História, cap. N», para a lista de erros da «Sobre»
+
+
+def lugares(P):
+    """Para cada página, os capítulos que começam nela (posição no texto, rótulo)."""
+    por_cab = {h[0]: h for h in HISTORIAS}
+    out, hist, cap = {}, None, None
+    for n in sorted(P):
+        t = P[n]['texto']
+        marcas = [(0, hist, cap)]
+        for m in re.finditer(r'(?m)^(###|##) (.+)$', t):
+            if m.group(1) == '###':
+                hist = por_cab[m.group(2)][1]
+            else:
+                mm = re.match(r'([IVXL]+) —', m.group(2))
+                if mm:
+                    cap = decisoes.NUMEROS_CAP.get(('II', mm.group(1)), mm.group(1)) if hist == 'O Sítio do Picapau Amarelo' else mm.group(1)
+            marcas.append((m.start(), hist, cap))
+        out[n] = marcas
+    return out
+
+
+def lugar(P, mapa, pag, trecho):
+    i = P[pag]['texto'].find(trecho)
+    h, c = None, None
+    for pos, hh, cc in mapa[pag]:
+        if pos <= max(i, 0):
+            h, c = hh, cc
+    return f'{h}, cap. {c}' if h else f'p. {pag}'
+
+
 def paginas_corrigidas():
     P = {int(k): v for k, v in json.load(open(os.path.join(AQUI, '1931', 'paginas.json'), encoding='utf-8')).items()}
-    usadas = set()
-    for i, (pag, de, para, tipo) in enumerate(decisoes.CORRECOES):
+    mapa = lugares(P)
+    corr = list(decisoes.CORRECOES)
+    for r in conferencia():
+        if r['tipo'] in ('ws', 'erro'):
+            corr.append((int(r['pagina']), r['de'], r['para'], r['tipo']))
+    for i, (pag, de, para, tipo) in enumerate(corr):
+        if tipo == 'erro':
+            LUGAR[(pag, de)] = lugar(P, mapa, pag, de)
         t = P[pag]['texto']
         if tipo.endswith('*') and t.count(de) >= 1:     # todas as ocorrências da página
             P[pag]['texto'] = t.replace(de, para)
@@ -32,7 +78,6 @@ def paginas_corrigidas():
         if t.count(de) != 1:
             raise SystemExit(f'correção {i} (p. {pag}): {de!r} aparece {t.count(de)} vezes')
         P[pag]['texto'] = t.replace(de, para)
-        usadas.add(i)
     return P
 
 
@@ -198,7 +243,7 @@ def js_texto(s):
 
 
 def publicar(hist):
-    edicao = notas.edicao()
+    edicao = notas.edicao(lambda p, de=None: LUGAR.get((p, de), f'p. {p}'))
     L = ['/* Reinações de Narizinho — Monteiro Lobato',
          '   Gerado por edicoes/reinacoes-de-narizinho/montar.py --publicar a partir de 1931/paginas.json.',
          '   Não edite à mão: corrija as decisões em edicoes/reinacoes-de-narizinho/ e rode de novo.',

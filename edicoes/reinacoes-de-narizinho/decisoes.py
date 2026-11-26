@@ -35,11 +35,19 @@ INTERTITULOS = {'O CASAMENTO': 'O casamento'}
 
 HIFEN_FICA = set()
 
-FICA_TRECHOS = []
+FICA_TRECHOS = [
+    # o bilhete de Rabicó (p. 65 do livro), com os erros de propósito: «O estylo, a letra, a ortographia e a
+    # grammatica é tudo delle!»
+    '_Pesso-vos-lhe perdão da minha kovardia. Tommiques stá qui amolando a phaca pra me matttar. Tenha ddó deste infeliz, que se assina, com perdão da palavra,_',
+    'RABICO_',
+]
 
 FINAL = [
     # palavra de dois sentidos que o modernizador acentuou como substantivo: aqui é verbo
     ('quem é que fábrica esta fazenda', 'quem é que fabrica esta fazenda'),
+    # o «á» de 1931 que hoje não leva crase (antes de verbo e de pronome de tratamento) ou leva no plural
+    ('punha-se à farejar', 'punha-se a farejar'), ('trazemos à Vossa Sublime', 'trazemos a Vossa Sublime'),
+    ('sempre à suas ordens', 'sempre às suas ordens'),
     # as piadas que dependem da grafia de 1931 (a mesma palavra, outra grafia): ficam como em 1931
     ('Fantasma, Emília, corrigiu Narizinho. F é igual a F, como você pode ver nesta caixa de fósforos.',
      'Phantasma, Emília, corrigiu Narizinho. PH é igual a F, como você pode ver nesta caixa de phosphoros.'),

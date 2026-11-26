@@ -83,7 +83,7 @@ def conferidos():
     out = {}
     if os.path.exists(arq):
         for r in csv.DictReader(open(arq, encoding='utf-8'), delimiter='\t'):
-            out[(r['pagina'], r['ws'], r['antes'])] = r
+            out[(r['pagina'], r['chave'])] = r
     return out
 
 
@@ -155,8 +155,9 @@ def main():
             f.write('id\tpagina\tws\tocr\tantes\tdepois\ttipo\tdecidido\n')
             for i, p in enumerate(lista, 1):
                 p['id'] = i
-                d = conf.get((str(p['pagina']), p['ws'], p['antes']))
-                p['decidido'] = d['leitura'] if d else ''
+                p['chave'] = f"{p['ws']}|{p['antes']}"
+                d = conf.get((str(p['pagina']), p['chave']))
+                p['decidido'] = (d['tipo'] + ':' + d['para']) if d else ''
                 f.write(f"{i}\t{p['pagina']}\t{p['ws']}\t{p['ocr']}\t{p['antes']}\t{p['depois']}\t{p.get('tipo', '')}\t{p['decidido']}\n")
         json.dump(lista, open(os.path.join(REL, nome + '.json'), 'w', encoding='utf-8'), ensure_ascii=False)
     from collections import Counter

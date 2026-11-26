@@ -82,7 +82,9 @@ MANUAL = {
     'hade': 'há de', 'mingoante': 'minguante', 'recae': 'recai', 'Sáe': 'Sai', 'cáe': 'cai', 'Egypcios': 'Egípcios',
     'Allemanha': 'Alemanha', 'Troia': 'Troia',
     'Marquez': 'Marquês', 'marquez': 'marquês', 'MARQUEZ': 'MARQUÊS', 'marqueza': 'marquesa', 'Marqueza': 'Marquesa',
-    'filés': 'filés', 'hurrahs': 'hurras', 'nhen': 'nhen', 'HOJE': 'HOJE',
+    'filés': 'filés', 'hurrahs': 'hurras', 'nhen': 'nhen', 'HOJE': 'HOJE', 'facto': 'fato', 'effeito': 'efeito',
+    'trophéos': 'troféus', 'caracter': 'caráter', 'flôr': 'flor', 'beija-flôr': 'beija-flor',
+    'damnadissima': 'danadíssima', 'phelómeno': 'felômeno', 'resomnando': 'ressonando', 'PiNOCCHIO': 'PINOCCHIO',
 }
 FICAM = set()
 
@@ -129,8 +131,25 @@ M.MANUAL = {**M.MANUAL, **MANUAL}
 M.FICAM = set(M.FICAM) | FICAM
 
 
+# palavras com apóstrofo (o modernizador as deixa como estão)
+APOSTROFO = {"E'": 'É', "A'": 'À', "A's": 'Às', "E'pé": 'Épé', "p'ra": 'pra', "d'ora": 'de ora',
+             "sobr'olhos": 'sobrolhos', "p'r'áqui": "p'r'aqui", "p'r'alli": "p'r'ali", "PO'": 'PÓ'}
+
+
 def linha(l, rel):
-    return M.modernizar_linha(l, rel)
+    out = []
+    l = l.replace('A´', "A'").replace('E´', "E'").replace('O´', "O'")
+    for w in M.TOK.findall(l):
+        if w in APOSTROFO:
+            rel.append((w, APOSTROFO[w], 'manual'))
+            out.append(APOSTROFO[w])
+        elif '-' in w and w in MANUAL:              # palavras com hífen decididas inteiras (ênclise, soletração)
+            if MANUAL[w] != w:
+                rel.append((w, MANUAL[w], 'manual'))
+            out.append(MANUAL[w])
+        else:
+            out.append(M.token(w, rel))
+    return ''.join(out)
 
 
 def texto(t, rel):

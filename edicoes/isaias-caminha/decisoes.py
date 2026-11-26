@@ -95,6 +95,9 @@ ITALICOS = [
 ]
 
 TROCAS_NOMES = []
+DIC = set()
+NOMES_COMUNS = {'Estado', 'Senhor', 'Senhora', 'Dona', 'Rua', 'Largo', 'Deus', 'Imprensa', 'Presidente', 'Ministro',
+                'Coronel', 'Câmara', 'Congresso', 'Diretor', 'República', 'Escrivão', 'Almirante', 'Capitão', 'Doutor'}
 
 
 def _toks(s):
@@ -175,6 +178,14 @@ def corrigir(out, flags):
         novo = w[0].upper() + w[1:] if t[0].isupper() else w
         ACENTOS_TROCADOS.append((t, novo))
         out[i] = novo
+    # vírgula lida no lugar do ponto antes de palavra comum em maiúscula («sem origens, Que mal havia»)
+    if not DIC:
+        DIC.update(l.strip() for l in open('/usr/share/dict/brazilian', encoding='utf-8', errors='ignore') if l.strip())
+    for i in range(1, len(out) - 1):
+        prox = out[i + 1].split('-')[0]
+        if (out[i] == ',' and out[i - 1][:1].isalpha() and prox[:1].isupper() and len(prox) > 1 and prox.lower() in DIC
+                and prox not in DIC and prox not in NOMES_COMUNS):
+            out[i] = '.'
     TROCAS_NOMES.clear()
     for i, t in enumerate(out):
         if t in NOMES:

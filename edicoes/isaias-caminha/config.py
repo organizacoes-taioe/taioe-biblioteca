@@ -514,6 +514,30 @@ def varrer_pontuacao(E, M):
                 tirar.add(i)
             elif t in ('«', '»') and i in sem_par:
                 tirar.add(i)
+    # vírgula lida no lugar do ponto: a moderna tem ponto ali e a palavra seguinte é maiúscula
+    for tp, i1, i2, j1, j2 in alinhar(E, M, chave=chave):
+        if tp == 'replace' and E[i1:i2] == [','] and M[j1:j2] in (['.'], ['!'], ['?']) and E[i2][:1].isupper():
+            E[i1] = M[j1]
+    # «sem origens, Que mal havia»: vírgula antes de palavra comum em maiúscula é o ponto mal lido
+    dic = set(dicionario())
+    NOMES_COMUNS = {'Estado', 'Senhor', 'Senhora', 'Dona', 'Rua', 'Largo', 'Deus', 'Imprensa', 'Presidente', 'Ministro',
+                    'Coronel', 'Câmara', 'Camara', 'Congresso', 'Diretor', 'Director', 'República', 'Republica', 'Escrivão'}
+    for i, t in enumerate(E[:-1]):
+        prox = E[i + 1]
+        if (t == ',' and prox[:1].isupper() and prox not in NOMES_COMUNS and len(prox) > 1
+                and prox.lower() in dic and prox not in dic and i and E[i - 1][:1].isalpha()):
+            E[i] = '.'
+    FUNCAO = {'do', 'da', 'de', 'dos', 'das', 'o', 'a', 'os', 'as', 'em', 'no', 'na', 'que', 'e', 'um', 'uma', 'com',
+              'por', 'para', 'pelo', 'pela', 'ao', 'á', 'à', 'se', 'me', 'lhe', 'seu', 'sua', 'n', 'mais'}
+    for i, t in enumerate(E):
+        ant = E[i - 1] if i else ''
+        prox = E[i + 1] if i + 1 < len(E) else ''
+        # «do. Brasil»: ponto depois de palavra que não fecha frase
+        if t == '.' and ant in FUNCAO and i not in tirar:
+            tirar.add(i)
+        # «para O prestígio»: o artigo lido em maiúscula no meio da frase (o Tesseract troca a caixa do «o»)
+        elif t in ('O', 'A', 'Os', 'As') and (ant[:1].islower() or ant == ',') and not prox[:1].isupper() and prox not in ('«', '»'):
+            E[i] = t.lower()
     # vírgula depois de abreviatura («o dr, Ricardo», «O Sr, é») é o ponto mal lido; sinal no começo do parágrafo sai
     for i, t in enumerate(E):
         if t == ',' and i and E[i - 1] in ('dr', 'Dr', 'Sr', 'sr', 'Snr', 'snr', 'Srs', 'srs', 'Ex', 'D', 'S', 'V'):

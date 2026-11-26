@@ -81,6 +81,8 @@ MANUAL = {
     'jaboticabeira': 'jabuticabeira', 'JABOTICABAS': 'JABUTICABAS', 'nacar': 'nácar', 'tútú': 'tutu',
     'hade': 'há de', 'mingoante': 'minguante', 'recae': 'recai', 'Sáe': 'Sai', 'cáe': 'cai', 'Egypcios': 'Egípcios',
     'Allemanha': 'Alemanha', 'Troia': 'Troia',
+    'Marquez': 'Marquês', 'marquez': 'marquês', 'MARQUEZ': 'MARQUÊS', 'marqueza': 'marquesa', 'Marqueza': 'Marquesa',
+    'filés': 'filés', 'hurrahs': 'hurras', 'nhen': 'nhen', 'HOJE': 'HOJE',
 }
 FICAM = set()
 
@@ -123,7 +125,7 @@ def _lexico():
 
 
 M.lexico = _lexico
-M.MANUAL = MANUAL
+M.MANUAL = {**M.MANUAL, **MANUAL}
 M.FICAM = set(M.FICAM) | FICAM
 
 

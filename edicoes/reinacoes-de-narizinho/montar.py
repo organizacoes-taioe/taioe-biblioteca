@@ -26,6 +26,9 @@ def paginas_corrigidas():
     usadas = set()
     for i, (pag, de, para, tipo) in enumerate(decisoes.CORRECOES):
         t = P[pag]['texto']
+        if tipo.endswith('*') and t.count(de) >= 1:     # todas as ocorrências da página
+            P[pag]['texto'] = t.replace(de, para)
+            continue
         if t.count(de) != 1:
             raise SystemExit(f'correção {i} (p. {pag}): {de!r} aparece {t.count(de)} vezes')
         P[pag]['texto'] = t.replace(de, para)

@@ -4,11 +4,11 @@ mesmas páginas, página a página, e os recortes do fac-símile para conferir a
     python3 -I edicoes/reinacoes-de-narizinho/comparar.py [--pranchas]
 
 Lê o Tesseract de TESS (<pdf>.tsv, palavras com coordenadas) e grava em REL:
-  pontos.tsv   uma linha por divergência de palavra (id, página, leitura do Wikisource, do OCR, contexto),
-               só onde a leitura do OCR é palavra conhecida (léxico do sistema ou do próprio livro) e difere
-               da do Wikisource em mais do que grafia miúda; as já decididas em conferencia.tsv saem marcadas;
-  raras.tsv    palavras do Wikisource que não estão no léxico e aparecem uma vez só (erro de 1931 ou da
-               transcrição?), com a leitura do OCR no mesmo lugar;
+  pontos.tsv   uma linha por divergência de palavra em que as DUAS leituras concordam entre si contra o
+               Wikisource (e leem palavra conhecida); as já decididas em conferencia.tsv saem marcadas;
+  raras.tsv    palavras do Wikisource fora do léxico que aparecem uma vez só, com as duas leituras no mesmo
+               lugar e o tipo: '1931' (as duas leem o mesmo que o Wikisource: é o impresso), 'OCR' (as duas
+               leem outra coisa: erro da transcrição?), '?';
   com --pranchas, ver/prancha-NNN.png: os recortes da linha de cada ponto ainda sem decisão, 8 por prancha.
 """
 import csv
@@ -27,6 +27,7 @@ from edicao.grafia import chave  # noqa: E402
 
 TRAB = os.path.expanduser('~/.cache/claude-pedidos-2611/reinacoes-de-narizinho')
 TESS = os.path.join(TRAB, 'tess')
+TESS2 = os.path.join(TRAB, 'tess2')     # segunda leitura: imagem original, --psm 6
 IMG = os.path.join(TRAB, 'dl', 'pag')
 REL = os.path.join(TRAB, 'rel')
 PAL = re.compile(r"[^\W\d_]+(?:['’\-][^\W\d_]+)*", re.U)
@@ -42,9 +43,9 @@ def ws_tokens(texto):
     return PAL.findall(t)
 
 
-def tess_palavras(n):
+def tess_palavras(n, pasta=TESS):
     """[(palavra, (x0, y0, x1, y1), (linha x0, y0, x1, y1))] da página, na ordem de leitura."""
-    arq = os.path.join(TESS, f'{n:03d}.tsv')
+    arq = os.path.join(pasta, f'{n:03d}.tsv')
     if not os.path.exists(arq):
         return None
     linhas = {}
@@ -86,6 +87,28 @@ def conferidos():
     return out
 
 
+def leituras(W, T):
+    """Alinha as palavras da transcrição (W) com as de um OCR (T): {(i1, i2): (leitura, caixa)} nos trechos
+    curtos que diferem, e {i: leitura} palavra a palavra nos trechos iguais ou trocados um por um."""
+    a = [k(w) for w in W]
+    b = [k(t[0]) for t in T]
+    sm = SequenceMatcher(None, a, b, autojunk=False)
+    dif, por = {}, {}
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op in ('equal',) or (op == 'replace' and i2 - i1 == j2 - j1):
+            for d in range(i2 - i1):
+                por[i1 + d] = (T[j1 + d][0], T[j1 + d][2])
+        if op == 'equal':
+            continue
+        if i2 - i1 > 3 or j2 - j1 > 3:
+            continue
+        if ''.join(a[i1:i2]).replace('-', '') == ''.join(b[j1:j2]).replace('-', ''):
+            continue
+        caixa = T[j1][2] if j1 < j2 else (T[j1 - 1][2] if j1 else (T[0][2] if T else None))
+        dif[(i1, i2)] = (' '.join(t[0] for t in T[j1:j2]), caixa)
+    return dif, por
+
+
 def main():
     paginas = json.load(open(os.path.join(AQUI, '1931', 'paginas.json'), encoding='utf-8'))
     lex, cont = lexico(paginas)
@@ -95,59 +118,53 @@ def main():
     pontos, raras = [], []
     for ns, v in sorted(paginas.items(), key=lambda x: int(x[0])):
         n = int(ns)
-        T = tess_palavras(n)
-        if T is None:
+        T1 = tess_palavras(n)
+        T2 = tess_palavras(n, TESS2)
+        if T1 is None or T2 is None:
             continue
         W = ws_tokens(v['texto'])
-        a = [k(w) for w in W]
-        b = [k(t[0]) for t in T]
-        sm = SequenceMatcher(None, a, b, autojunk=False)
-        for op, i1, i2, j1, j2 in sm.get_opcodes():
-            if op == 'equal':
+        d1, p1 = leituras(W, T1)
+        d2, p2 = leituras(W, T2)
+        for (i1, i2), (r1, cx) in d1.items():
+            if (i1, i2) not in d2:
                 continue
-            wsr = ' '.join(W[i1:i2]); tr = ' '.join(t[0] for t in T[j1:j2])
-            antes = ' '.join(W[max(0, i1 - 4):i1]); depois = ' '.join(W[i2:i2 + 4])
-            caixa = T[j1][2] if j1 < j2 else (T[j1 - 1][2] if j1 else None)
-            if ''.join(a[i1:i2]).replace('-', '') == ''.join(b[j1:j2]).replace('-', ''):
-                continue                  # só a separação ou o hífen mudam («Chama-se» / «Chama se»)
-            if op == 'replace' and (j2 - j1) != (i2 - i1):
-                continue                  # o OCR partiu ou juntou palavras («a cura» / «altura»): ruído
-            if op in ('replace', 'insert') and j2 - j1 <= 3 and all(conh(t[0]) for t in T[j1:j2]) and (i2 - i1) <= 3:
-                # o OCR lê palavra(s) conhecida(s) onde a transcrição tem outra coisa (ou nada)
-                if op == 'insert' and all(len(t[0]) <= 2 for t in T[j1:j2]):
-                    continue              # letras soltas do OCR (borda da página, ilustração)
-                if ''.join(a[i1:i2]) == ''.join(b[j1:j2]):
-                    continue              # só a separação muda («dum» / «d um»)
-                pontos.append({'pagina': n, 'ws': wsr, 'ocr': tr, 'antes': antes, 'depois': depois, 'caixa': caixa})
-            elif op == 'delete' and i2 - i1 <= 2 and all(conh(w) for w in W[i1:i2]):
-                # palavra da transcrição que o OCR não tem: só se o OCR está limpo em volta (não é ruído)
-                viz = T[max(0, j1 - 3):j1 + 3]
-                if len(viz) >= 4 and all(conh(t[0]) for t in viz):
-                    pontos.append({'pagina': n, 'ws': wsr, 'ocr': '', 'antes': antes, 'depois': depois,
-                                   'caixa': caixa})
+            r2 = d2[(i1, i2)][0]
+            if [k(x) for x in r1.split()] != [k(x) for x in r2.split()]:
+                continue                  # os dois OCRs não concordam: ruído de um deles
+            if r1 and not all(conh(x) for x in r1.split()):
+                continue
+            pontos.append({'pagina': n, 'ws': ' '.join(W[i1:i2]), 'ocr': r1, 'antes': ' '.join(W[max(0, i1 - 4):i1]),
+                           'depois': ' '.join(W[i2:i2 + 4]), 'caixa': cx})
         for i, w in enumerate(W):
-            if cont[k(w)] == 1 and k(w) not in lex and not w[:1].isupper():
-                j = None
-                for op, i1, i2, j1, j2 in sm.get_opcodes():
-                    if i1 <= i < i2:
-                        j = j1 + (i - i1) if op in ('equal', 'replace') and j1 + (i - i1) < j2 else None
-                        break
-                raras.append({'pagina': n, 'ws': w, 'ocr': T[j][0] if j is not None else '',
-                              'antes': ' '.join(W[max(0, i - 4):i]), 'depois': ' '.join(W[i + 1:i + 4]),
-                              'caixa': T[j][2] if j is not None else None})
+            partes = [p for p in w.split('-') if p]
+            if cont[k(w)] != 1 or w[:1].isupper() or all(k(p) in lex or cont[k(p)] >= 2 for p in partes):
+                continue
+            r1, r2 = p1.get(i), p2.get(i)
+            o1, o2 = (r1[0] if r1 else ''), (r2[0] if r2 else '')
+            if k(o1) == k(w) and k(o2) == k(w):
+                tipo = '1931'                 # os dois OCRs leem o mesmo: é o impresso (erro de 1931?)
+            elif o1 and k(o1) == k(o2):
+                tipo = 'OCR'                  # os dois OCRs leem outra coisa: erro da transcrição?
+            else:
+                tipo = '?'
+            raras.append({'pagina': n, 'ws': w, 'ocr': f'{o1} / {o2}', 'tipo': tipo,
+                          'antes': ' '.join(W[max(0, i - 4):i]), 'depois': ' '.join(W[i + 1:i + 4]),
+                          'caixa': (r1 or r2 or (None, None))[1]})
     for lista, nome in ((pontos, 'pontos'), (raras, 'raras')):
         with open(os.path.join(REL, nome + '.tsv'), 'w', encoding='utf-8') as f:
-            f.write('id\tpagina\tws\tocr\tantes\tdepois\tdecidido\n')
+            f.write('id\tpagina\tws\tocr\tantes\tdepois\ttipo\tdecidido\n')
             for i, p in enumerate(lista, 1):
                 p['id'] = i
                 d = conf.get((str(p['pagina']), p['ws'], p['antes']))
                 p['decidido'] = d['leitura'] if d else ''
-                f.write(f"{i}\t{p['pagina']}\t{p['ws']}\t{p['ocr']}\t{p['antes']}\t{p['depois']}\t{p['decidido']}\n")
+                f.write(f"{i}\t{p['pagina']}\t{p['ws']}\t{p['ocr']}\t{p['antes']}\t{p['depois']}\t{p.get('tipo', '')}\t{p['decidido']}\n")
         json.dump(lista, open(os.path.join(REL, nome + '.json'), 'w', encoding='utf-8'), ensure_ascii=False)
-    print('pontos:', len(pontos), 'sem decisão:', sum(1 for p in pontos if not p['decidido']), '; raras:', len(raras))
+    from collections import Counter
+    print('pontos:', len(pontos), 'sem decisão:', sum(1 for p in pontos if not p['decidido']), '; raras:', len(raras),
+          dict(Counter(p['tipo'] for p in raras)))
     if '--pranchas' in sys.argv:
         pranchas([p for p in pontos if not p['decidido']], 'prancha')
-        pranchas([p for p in raras if not p['decidido']], 'rara')
+        pranchas([p for p in raras if not p['decidido'] and p['tipo'] != '1931'], 'rara')
 
 
 def pranchas(lista, nome, por=8):

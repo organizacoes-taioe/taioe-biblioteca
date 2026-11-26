@@ -249,12 +249,23 @@ def tesseract():
     return _obra_ocr(linhas_tesseract(PDF17, *PAGS17))
 
 
+DICIONARIO = []
+
+
+def dicionario():
+    """As palavras do português (/usr/share/dict/brazilian): ocr.limpar não as troca pela da edição moderna
+    (sem isso, «a compressão» de 1917 virava «a compreensão» da Ática)."""
+    if not DICIONARIO and os.path.exists('/usr/share/dict/brazilian'):
+        DICIONARIO.extend(l.strip() for l in open('/usr/share/dict/brazilian', encoding='utf-8', errors='ignore') if l.strip())
+    return DICIONARIO
+
+
 def transcricoes():
     md = modernas()
     guias = [md['bv'], md['ws']]
     out = {}
     for nome, f in (('t17', tesseract), ('c17', camada)):
-        o, n = ocr.limpar(f(), guias)
+        o, n = ocr.limpar(f(), guias, dicionario())
         print(f'OCR {nome}: palavras corrigidas pelas guias:', n)
         o = ocr.estrutura_como(o, md['bv'])
         for p, b in zip(o, md['bv']):

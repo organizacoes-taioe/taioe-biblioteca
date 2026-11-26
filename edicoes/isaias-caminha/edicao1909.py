@@ -30,7 +30,7 @@ def texto1909():
     tr = {}
     for nome, obra in (('t09', config._obra_ocr(config.linhas_tesseract(PDF09, *PAGS09))),
                        ('c09', config.camada('c09', PAGS09))):
-        o, n = ocr.limpar(obra, guias)
+        o, n = ocr.limpar(obra, guias, config.dicionario())
         print(f'OCR {nome}: palavras corrigidas pelas guias:', n)
         o = ocr.estrutura_como(o, ws)
         for p, b in zip(o, ws):

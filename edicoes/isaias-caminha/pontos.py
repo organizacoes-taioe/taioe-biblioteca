@@ -30,7 +30,13 @@ EXPANSOES = {'senhor', 'senhora', 'senhores', 'doutor', 'são', 'santa', 'santo'
              'excelência', 'companhia', 'cia', 'número', 'doutora', 'doutores'}
 
 
+FORMAS = {('cousa', 'coisa'), ('cousas', 'coisas'), ('dous', 'dois'), ('bebedo', 'bêbado'), ('bebedos', 'bêbados'),
+          ('cognac', 'conhaque'), ('wagon', 'vagão'), ('restaurant', 'restaurante'), ('lage', 'laje')}
+
+
 def mesma(a, b):
+    if (a.lower(), b.lower()) in FORMAS:
+        return True
     return (chave(a) == chave(b) or esqueleto(a) == esqueleto(b) or mesma_palavra(a, b)
             or chave(ao1990(b)) == chave(a))
 

@@ -35,7 +35,7 @@ FONTES = [
 
 # (lugar, 1931, corrigido): erros de 1931 corrigidos fora de CORRECOES e de conferencia.tsv
 ERROS_ANTERIORES = [
-    ('O Sítio do Picapau Amarelo, cap. VIII', 'XIII — TOM-MIX', 'VIII — TOM-MIX'),
+    (66, 'O Sítio do Picapau Amarelo, cap. VIII', 'XIII — TOM-MIX', 'VIII — TOM-MIX'),
 ]
 
 
@@ -50,9 +50,10 @@ def edicao(lugar_de_pagina=None):
     """lugar_de_pagina: função página do PDF -> «História, cap. N» (montar.py)."""
     lugar = lugar_de_pagina or (lambda p, de=None: f'p. {p}')
     conf = _conferencia()
-    erros = [(lugar(p, d), d, n) for p, d, n, t in decisoes.CORRECOES if t == 'erro']
-    erros += [(lugar(int(r['pagina']), r['de']), r['de'], r['para']) for r in conf if r.get('tipo') == 'erro']
+    erros = [(p, lugar(p, d), d, n) for p, d, n, t in decisoes.CORRECOES if t == 'erro']
+    erros += [(int(r['pagina']), lugar(int(r['pagina']), r['de']), r['de'], r['para']) for r in conf if r.get('tipo') == 'erro']
     erros += ERROS_ANTERIORES
+    erros = [e[1:] for e in sorted(erros, key=lambda e: e[0])]
     corrigidos = (sum(1 for _, _, _, t in decisoes.CORRECOES if t in ('ws', 'ws*'))
                   + sum(1 for r in conf if r.get('tipo') == 'ws'))
     texto = APRESENTACAO.format(conferidos=len(conf), corrigidos=corrigidos)

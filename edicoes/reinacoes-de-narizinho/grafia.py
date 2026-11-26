@@ -149,6 +149,13 @@ def linha(l, rel):
         if w in APOSTROFO:
             rel.append((w, APOSTROFO[w], 'manual'))
             out.append(APOSTROFO[w])
+        elif len(w) > 1 and w.isupper() and w not in MANUAL:   # palavra em maiúsculas (CARA DE CORUJA): fica em maiúsculas
+            r2 = []
+            n = M.token(w.lower(), r2)
+            n = (_regras_finais(n) if n == w.lower() else n).upper()
+            if n != w:
+                rel.append((w, n, 'maiúsculas'))
+            out.append(n)
         elif '-' in w and w in MANUAL:              # palavras com hífen decididas inteiras (ênclise, soletração)
             if MANUAL[w] != w:
                 rel.append((w, MANUAL[w], 'manual'))

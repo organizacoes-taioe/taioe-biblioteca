@@ -32,8 +32,12 @@ Branch `pedido-reinacoes-de-narizinho`. Pedido do Gere (rodada de 26/11; regras 
 4. Vocabulário: `edicoes/vocabulario/reinacoes-de-narizinho.json` (100 verbetes, `conferir` ok).
 
 ## Estado
-- Texto montado, grafia, «Sobre», `revisao.json` (5 decisões), vocabulário: FEITOS.
-- Conferência: pontos das páginas 9–212 conferidos; FALTA o resto, quando o OCR acabar.
+- **Pronto para publicar.** Texto (11 histórias, 81 capítulos, ~79 mil palavras), grafia, «Sobre» (17 erros
+  de 1931 listados; 21 leituras da transcrição corrigidas; 69 pontos conferidos nas imagens), `revisao.json`
+  (5 decisões, recomendação aplicada), vocabulário (100 verbetes), autor novo `monteiro-lobato`.
+  `gerar.mjs` e `conferir.mjs` sem erro; sem regra nova de `_redirects`.
+- O principal: juntar, gerar, Catálogo `obras`, `traducoes_revisao.py --revisao` (as 5 decisões), tirar dos
+  pedidos. Lista do advogado: nos EUA a edição de 1931 só entra em domínio público em 1º/1/2027.
 
 ## Dúvidas que ficaram
 - «canudos incões» (p. 216 do livro): assim no impresso; palavra não achada nos dicionários.

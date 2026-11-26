@@ -6,7 +6,8 @@ independente do OCR que vem nos PDFs. Cópia do de Policarpo Quaresma (e este, d
 
 Cada página vira ferramentas/cache/isaias-caminha/tess-<pdf>/<n>.tsv (palavras com coordenadas, a
 300 dpi, contadas a partir do recorte) e <n>.json (o recorte, em pixels). O recorte é a coluna de
-texto que o OCR da Brasiliana acha (linhas com cinco palavras ou mais), com folga.
+texto que o OCR da Brasiliana acha (linhas com cinco palavras ou mais), com folga. Modo --psm 6 (bloco
+uniforme): o 4, usado em Policarpo, partia as linhas tortas destas páginas em duas e trocava a ordem.
 
 Tesseract: o do Ubuntu, extraído numa pasta (apt-get download + dpkg -x), na variável TESSERACT_RAIZ
 (padrão: ~/.cache/tesseract-local/raiz). No notebook (6 GB), rodar com teto:
@@ -82,7 +83,7 @@ def pagina(args):
     png = os.path.join(pasta, f'{n}')
     subprocess.run(['pdftoppm', '-f', str(n), '-l', str(n), '-r', str(DPI), '-gray', '-png', '-singlefile',
                     '-x', str(x0), '-y', '0', '-W', str(x1 - x0), '-H', '100000', pdf, png], check=True)
-    subprocess.run([exe, png + '.png', os.path.join(pasta, str(n)), '-l', 'por', '--psm', '4', 'tsv'],
+    subprocess.run([exe, png + '.png', os.path.join(pasta, str(n)), '-l', 'por', '--psm', os.environ.get('PSM', '6'), 'tsv'],
                    check=True, env=env, capture_output=True)
     os.remove(png + '.png')
     json.dump({'x': x0, 'y': 0, 'dpi': DPI}, open(os.path.join(pasta, f'{n}.json'), 'w'))

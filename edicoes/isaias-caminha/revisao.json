@@ -1,0 +1,28 @@
+{
+  "id": "isaias-caminha",
+  "rotulo": "Recordações do Escrivão Isaías Caminha (Lima Barreto): edição",
+  "url": "/biblioteca/lima-barreto/isaias-caminha/",
+  "escolhas": [
+    {
+      "id": "loberant",
+      "titulo": "O diretor do jornal se chama sempre «Loberant»?",
+      "ref": "66 vezes, dos cap. VIII ao XIV",
+      "contexto": "As duas edições em vida de Lima Barreto (1909 e 1917) chamam o dr. Ricardo de «Loberant» até o cap. IX e quase sempre de «Leborant» dali em diante (50 vezes contra 16); a de 1917 foi composta sobre a de 1909 e repete a troca. Na errata da 1ª edição o autor manda ler «Loberant» onde estava «Leborante». As edições modernas escrevem sempre «Loberant».\n\nHoje: «Encontrei Loberant» (fim do livro), onde 1917 imprime «Encontrei Leborant».",
+      "opcoes": [
+        {"id": "a", "texto": "Sempre «Loberant», como está", "nota": "É a forma da errata de 1909 e a do começo do livro; a troca vai listada na «Sobre».", "recomendada": true},
+        {"id": "b", "texto": "Como as edições imprimem («Loberant» e depois «Leborant»)", "nota": "Fiel ao impresso, mas o leitor tropeça num nome que muda no meio do livro."},
+        {"id": "c", "texto": "Sempre «Leborant»", "nota": "A forma mais frequente nas duas edições (50 vezes)."}
+      ]
+    },
+    {
+      "id": "compressao",
+      "titulo": "A primeira frase fica com «a compressão», como em 1909 e 1917?",
+      "ref": "cap. I, 1ª frase",
+      "contexto": "As duas edições em vida trazem «A tristeza, a compressão e a desigualdade de nível mental do meu meio familiar, agiram sobre mim de um modo curioso». As edições modernas (Ática, Wikisource) trocaram por «a compreensão», que muda o sentido (a compressão é o aperto, a opressão do meio).",
+      "opcoes": [
+        {"id": "a", "texto": "«a compressão», como está", "nota": "É o que o autor imprimiu duas vezes, e faz sentido ao lado de «tristeza» e «desigualdade».", "recomendada": true},
+        {"id": "b", "texto": "«a compreensão», como nas edições modernas", "nota": "A leitura que muitos leitores conhecem; mas é emenda sem apoio nas edições do autor."}
+      ]
+    }
+  ]
+}

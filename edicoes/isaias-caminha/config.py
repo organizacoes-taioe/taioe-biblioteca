@@ -220,9 +220,28 @@ def linhas_tesseract(pdf, a, b):
             if r['level'] != '5' or not (r['text'] or '').strip():
                 continue
             k = (int(r['block_num']), int(r['par_num']), int(r['line_num']))
-            linhas.setdefault(k, []).append((int(r['top']), int(r['left']), r['text'].strip()))
-        ls = sorted(linhas.values(), key=lambda ws: sorted(w[0] for w in ws)[len(ws) // 2])
-        paginas.append([' '.join(w[2] for w in sorted(ws, key=lambda w: w[1])) for ws in ls])
+            linhas.setdefault(k, []).append((int(r['top']), int(r['left']), r['text'].strip(), int(r['height'])))
+        # uma linha impressa que o Tesseract partiu em dois blocos (páginas tortas): as metades se juntam
+        # quando as faixas verticais se sobrepõem em mais da metade
+        faixas = []
+        for ws in linhas.values():
+            ys = sorted(w[0] for w in ws)
+            hs = sorted(w[3] for w in ws)
+            y0 = ys[len(ys) // 2]
+            faixas.append([y0, y0 + hs[len(hs) // 2], list(ws)])
+        faixas.sort(key=lambda f: f[0])
+        juntas = []
+        for f in faixas:
+            for g in juntas:
+                sob = min(f[1], g[1]) - max(f[0], g[0])
+                if sob > 0.5 * min(f[1] - f[0], g[1] - g[0]) and not (
+                        min(w[1] for w in f[2]) < max(w[1] for w in g[2]) and min(w[1] for w in g[2]) < max(w[1] for w in f[2])):
+                    g[2] += f[2]
+                    break
+            else:
+                juntas.append(f)
+        juntas.sort(key=lambda f: f[0])
+        paginas.append([' '.join(w[2] for w in sorted(g[2], key=lambda w: w[1])) for g in juntas])
     return paginas
 
 
@@ -335,6 +354,10 @@ def _sim(a, b):
 
 
 def rever(tr, md, sitios):
+    return _rever(tr, md, sitios, BASE, 'c17', 'bv', True)
+
+
+def _rever(tr, md, sitios, base, outro, prim, com_conferencia):
     """Depois do voto: (1) os pontos conferidos no fac-símile (conferencia.json: assinatura -> 't17', 'c17'
     ou o texto) valem sobre tudo; (2) sem apoio moderno, se a leitura da edição moderna de 1917 (bv) se
     parece com a de um dos OCRs (ratio >= 0,5), vale a dela: é o impresso lido através do ruído;
@@ -345,9 +368,9 @@ def rever(tr, md, sitios):
     from edicao.tokens import achatar, e_palavra, texto as junta
     conf = {}
     arq = os.path.join(AQUI, 'conferencia.json')
-    if os.path.exists(arq):
+    if com_conferencia and os.path.exists(arq):
         conf = json.load(open(arq, encoding='utf-8'))
-    B = achatar(tr[BASE])
+    B = achatar(tr[base])
     usados = set()
     lidas = 0
     for x in sitios:
@@ -359,10 +382,10 @@ def rever(tr, md, sitios):
             x['por'] = 'conferido no fac-símile'
             x['duvida'] = False
             usados.add(a)
-        elif not x['apoio'] and 'bv' in x['modernas']:
-            m = _toks(x['modernas']['bv'])
+        elif not x['apoio'] and prim in x['modernas']:
+            m = _toks(x['modernas'][prim])
             pal = lambda ts: [chave(t) for t in ts if e_palavra(t)]
-            limpas = [n for n in (BASE, 'c17') if n in L and not any(lixo(t) for t in L[n])]
+            limpas = [n for n in (base, outro) if n in L and not any(lixo(t) for t in L[n])]
             junto = {n: ''.join(pal(v)) for n, v in L.items()}
             igual_m = [n for n in limpas if pal(L[n]) == pal(m)]
             if igual_m:                          # as palavras da moderna, com a pontuação de um OCR
@@ -371,7 +394,8 @@ def rever(tr, md, sitios):
             elif limpas and len(set(junto.values())) == 1:      # os OCRs só diferem nos espaços
                 x['escolha'], x['por'], x['duvida'] = L[limpas[0]], 'OCRs iguais sem os espaços', False
                 lidas += 1
-            elif max(_sim(m, v) for v in L.values()) >= 0.5 and '#' not in ''.join(m):
+            elif (max(_sim(m, v) for v in L.values()) >= 0.5 and '#' not in ''.join(m)
+                  and min(len(pal(v)) for v in L.values()) - 1 <= len(pal(m)) <= max(len(pal(v)) for v in L.values()) + 1):
                 x['escolha'] = _aspas(B[max(0, x['s'] - 60):x['s']], [t for t in m if t != '*'])
                 x['por'] = 'moderna lida nos OCRs'
                 x['duvida'] = False
@@ -388,13 +412,32 @@ def rever(tr, md, sitios):
         pos = x['e']
     E.extend(B[pos:])
     E = [t for t in E if t != '*']
-    return varrer(E, md['bv']), sitios
+    E = varrer(E, md[prim], 'varridas.tsv' if com_conferencia else 'varridas1909.tsv')
+    return corrigir_lidos(E, {k: v for k, v in conf.items() if k.startswith('c|')}), sitios
+
+
+def corrigir_lidos(E, corr):
+    """Leituras conferidas no fac-símile fora dos pontos de divergência (pontos.py): chave
+    'c|antes|atual|depois' (tokens separados por espaço) -> o texto impresso, na grafia de 1917."""
+    falhas = 0
+    for k, novo in corr.items():
+        _, antes, atual, depois = k.split('|')
+        a, d, z = antes.split(), atual.split(), depois.split()
+        pad = a + d + z
+        achados = [i for i in range(len(E) - len(pad) + 1) if E[i:i + len(pad)] == pad]
+        if len(achados) != 1:
+            falhas += 1
+            continue
+        i = achados[0] + len(a)
+        E = E[:i] + _toks(novo) + E[i + len(d):]
+    print('leituras conferidas aplicadas:', len(corr) - falhas, '; sem lugar:', falhas)
+    return E
 
 
 VARRIDAS = []
 
 
-def varrer(E, moderna):
+def varrer(E, moderna, relatorio='varridas.tsv'):
     from edicao.estabelecer import _aspas
     from edicao.tokens import achatar, alinhar, e_palavra, texto as junta
     M = achatar(moderna)
@@ -426,7 +469,7 @@ def varrer(E, moderna):
     out.extend(E[pos:])
     pasta = fontes.cache(OBRA, 'relatorios')
     os.makedirs(pasta, exist_ok=True)
-    with open(os.path.join(pasta, 'varridas.tsv'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(pasta, relatorio), 'w', encoding='utf-8') as f:
         f.write('antes\tOCR\tmoderna\tdepois\n')
         for v in VARRIDAS:
             f.write('\t'.join(v) + '\n')

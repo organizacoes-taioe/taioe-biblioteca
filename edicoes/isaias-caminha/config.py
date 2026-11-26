@@ -399,6 +399,8 @@ def _rever(tr, md, sitios, base, outro, prim, com_conferencia):
             limpas = [n for n in (base, outro) if n in L and not any(lixo(t) for t in L[n])]
             junto = {n: ''.join(pal(v)) for n, v in L.items()}
             igual_m = [n for n in limpas if pal(L[n]) == pal(m)]
+            # entre as que têm as palavras da moderna, a que tem também a pontuação dela
+            igual_m.sort(key=lambda n: [chave(t) for t in L[n] if t != '*'] != [chave(t) for t in m if t != '*'])
             if igual_m:                          # as palavras da moderna, com a pontuação de um OCR
                 x['escolha'], x['por'], x['duvida'] = L[igual_m[0]], 'OCR igual à moderna nas palavras', False
                 lidas += 1
@@ -413,7 +415,7 @@ def _rever(tr, md, sitios, base, outro, prim, com_conferencia):
                 lidas += 1
         x['escolha_txt'] = junta(x['escolha'])
     print('pontos sem apoio resolvidos pela moderna lida nos OCRs:', lidas)
-    sobra = set(conf) - usados
+    sobra = {k for k in conf if not k.startswith('c|')} - usados
     if sobra:
         print('conferência sem ponto correspondente:', len(sobra), list(sobra)[:5])
     E, pos = [], 0
@@ -432,14 +434,22 @@ def corrigir_lidos(E, corr):
     'c|antes|atual|depois' (tokens separados por espaço) -> o texto impresso, na grafia de 1917."""
     falhas = 0
     for k, novo in corr.items():
-        _, antes, atual, depois = k.split('|')
+        _, antes, atual, depois = ['c'] + k[2:].split('¦')
         a, d, z = antes.split(), atual.split(), depois.split()
-        pad = a + d + z
-        achados = [i for i in range(len(E) - len(pad) + 1) if E[i:i + len(pad)] == pad]
+        # o ponto vizinho, já corrigido, pode ter mudado o contexto: tenta com menos contexto
+        for na, nz in ((len(a), len(z)), (2, 2), (len(a), 0), (0, len(z)), (1, 1)):
+            aa, zz = a[len(a) - na:], z[:nz]
+            pad = aa + d + zz
+            if len(pad) < 3:
+                continue
+            achados = [i for i in range(len(E) - len(pad) + 1) if E[i:i + len(pad)] == pad]
+            if len(achados) == 1:
+                break
         if len(achados) != 1:
             falhas += 1
+            print('  sem lugar:', k)
             continue
-        i = achados[0] + len(a)
+        i = achados[0] + len(aa)
         E = E[:i] + _toks(novo) + E[i + len(d):]
     print('leituras conferidas aplicadas:', len(corr) - falhas, '; sem lugar:', falhas)
     return E

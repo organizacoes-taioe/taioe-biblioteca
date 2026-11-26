@@ -78,7 +78,7 @@ def pontos():
             continue                                  # 1917 = Wikisource (1909): emenda da Ática
         antes = E[max(0, i1 - 5):i1]
         depois = E[i2:i2 + 5]
-        chave_c = 'c|' + ' '.join(antes) + '|' + ' '.join(ev) + '|' + ' '.join(depois)
+        chave_c = 'c|' + ' '.join(antes) + '¦' + ' '.join(ev) + '¦' + ' '.join(depois)
         lixo = any(config.lixo(t) for t in ev)
         pa = [t for t in E[max(0, i1 - 12):i1] if e_palavra(t)][-3:]
         pd = [t for t in E[i2:i2 + 12] if e_palavra(t)][:3]

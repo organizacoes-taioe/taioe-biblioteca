@@ -62,7 +62,7 @@ def pagina(bruto):
     t = re.sub(r'<center><p[^>]*>(.*?)</p></center>', lambda m: '\n\n\u0001' + m.group(1) + '\n\n', t, flags=re.S)
     t = re.sub(r'\{\{(?:t2|T2|t3)\|(.*?)(?:\|sp=[^}]*)?\}\}', lambda m: '\n\n\u0001' + m.group(1) + '\n\n', t)
     t = re.sub(r'\{\{(?:c|C|right|left)\|((?:[^{}]|\{\{[^{}]*\}\})*)\}\}', lambda m: '\n\n\u0002' + m.group(1) + '\n\n', t)
-    t = re.sub(r'\{\{cabeçalho\|([^{}]*)\}\}', lambda m: '\n\n\u0002' + '   '.join(x for x in m.group(1).split('|') if x) + '\n\n', t)
+    t = re.sub(r'\{\{cabeçalho\|([^{}]*)\}\}', lambda m: '\n\n\u0002' + ' '.join(x for x in m.group(1).split('|') if x) + '\n\n', t)
     t = re.sub(r'\{\{tabela[^{}]*?título\s*=\s*([^|{}]*?)\s*\|\s*página\s*=\s*([^|{}]*?)\s*\}\}',
                lambda m: '\n\n\u0002' + m.group(1) + ' — ' + m.group(2) + '\n\n', t, flags=re.S)
     t = t.replace("'''", '')

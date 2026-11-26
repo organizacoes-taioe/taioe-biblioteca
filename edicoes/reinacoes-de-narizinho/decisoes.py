@@ -48,6 +48,7 @@ FINAL = [
     # o «á» de 1931 que hoje não leva crase (antes de verbo e de pronome de tratamento) ou leva no plural
     ('punha-se à farejar', 'punha-se a farejar'), ('trazemos à Vossa Sublime', 'trazemos a Vossa Sublime'),
     ('sempre à suas ordens', 'sempre às suas ordens'),
+    ('arquibancadas — 100 reis.', 'arquibancadas — 100 réis.'),
     # as piadas que dependem da grafia de 1931 (a mesma palavra, outra grafia): ficam como em 1931
     ('Fantasma, Emília, corrigiu Narizinho. F é igual a F, como você pode ver nesta caixa de fósforos.',
      'Phantasma, Emília, corrigiu Narizinho. PH é igual a F, como você pode ver nesta caixa de phosphoros.'),

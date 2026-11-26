@@ -10,6 +10,41 @@ Os pontos conferidos no fac-símile que o voto decide ficam em conferencia.json 
 """
 
 EMENDAS = [
+    # a errata do próprio volume de 1917 (p. [235]): «veio» por «vinha», «deserrollar-se» (a errata dá a forma
+    # errada igual à certa, «desenrolar-se»); as outras três («attendia», «dissolver-se», «diminuiu-lhe») o
+    # confronto já trouxe corrigidas: ver notas.ERROS_ANTERIORES
+    ('erro', "uma vez ou outra, veio perturbar", "uma vez ou outra, vinha perturbar"),
+    ('erro', "algo de grave deserrollar-se", "algo de grave desenrolar-se"),
+    # linhas que a composição de 1917 perdeu, completadas pela 1ª edição (1909)
+    ('erro', "engrossadores com as, a senhora", "engrossadores com as suas mulheres e filhas encontravam-se alli em "
+             "tocantes despedidas a amigos das duas camaras. A viscondessa de Varennes, a famosa Odalina, poetisa de "
+             "muito merito e tão do gosto de Floc, viera tambem. O dr. Ricardo afastou-se logo d'ella com a senhora"),
+    ('erro', "com um engenhoso aptablado de magica", "com um engenhoso apparelho de apparições e eclipses, especie "
+             "complicada de tablado de magica"),
+    # erros tipográficos evidentes de 1917 (conferidos no fac-símile; quase todos ausentes de 1909)
+    ('erro', "creio descobrir descobrir alguma", "creio descobrir alguma"),
+    ('erro', "escrever alguma verrinas", "escrever algumas verrinas"),
+    ('erro', "estava em nós, na na nossa", "estava em nós, na nossa"),
+    ('erro', "entre vinte cinco ou", "entre vinte e cinco ou"),
+    ('erro', "das suas biographicas heroicas", "das suas biographias heroicas"),
+    ('erro', "Sendo obrigado obrigado a", "Sendo obrigado a"),
+    ('erro', "responder Plinio — Pagou sim, apressou-se em responder Plinio de Andrade", "responder Plinio de Andrade"),
+    ('erro', "me convidada a jantar", "me convidava a jantar"),
+    ('erro', "esperava essa perguntou", "esperava essa pergunta"),
+    ('erro', "ou em pelotiqueiro", "ou um pelotiqueiro"),
+    ('erro', "recitar versos na salas", "recitar versos nas salas"),
+    ('erro', "encontrados ortos a facadas", "encontrados mortos a facadas"),
+    ('erro', "dez horas eu recebera", "dez horas e eu recebera"),
+    ('erro', "para o fortuna do dr", "para a fortuna do dr"),
+    ('erro', "Fomos a una venda", "Fomos a uma venda"),
+    ('erro', "de força. alvez se sentisse", "de força. Talvez se sentisse"),
+    ('erro', "tudo aquillo á ser lido", "tudo aquillo ia ser lido"),
+    ('erro', "de fraqueza, de décisão é mais", "de fraqueza, de decisão e mais"),
+    ('erro', "ferir a marmellada", "ferir a martellada"),
+    ('erro', "me venham ar sensações", "me venham as sensações"),
+    ('erro', "parecia ser em homem rico", "parecia ser um homem rico"),
+    ('erro', "arqueologia, e muita certa", "arqueologia, e muito certa"),
+    ('erro', "debaixo das nações livrescas", "debaixo das noções livrescas"),
 ]
 
 AJUSTES = [

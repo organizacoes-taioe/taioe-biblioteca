@@ -1,0 +1,57 @@
+{
+  "id": "reinacoes-de-narizinho",
+  "rotulo": "Reinações de Narizinho (Monteiro Lobato): edição-base e grafia",
+  "url": "/biblioteca/monteiro-lobato/reinacoes-de-narizinho/",
+  "escolhas": [
+    {
+      "id": "edicao-base",
+      "titulo": "O texto segue a 1ª edição (1931), e não a das Obras Completas (Brasiliense, 1947), a última revista por Lobato?",
+      "ref": "o livro inteiro",
+      "contexto": "Em 1931 Lobato juntou num volume onze histórias que tinha publicado desde 1920. Ele as reescreveu mais de uma vez; a última revisão em vida é a das Obras Completas (Brasiliense, 1947), que muda palavras e frases por todo o livro (no começo do «Marquês de Rabicó», por exemplo, 1931 tem «gordinho como uma bola», e a de 1947, «gordo como uma bola»). Da de 1947 não se achou fac-símile gratuito (procurado na Brasiliana USP, na Biblioteca Nacional, no Internet Archive, no Museu Monteiro Lobato e no Google Livros); o texto dela só existe em edições digitais recentes, refeitas e sem as imagens para conferir. A de 1931 tem o fac-símile do Museu Monteiro Lobato (Taubaté) e a transcrição do Wikisource, conferidas aqui. Nos Estados Unidos, a de 1931 entra em domínio público em 1º de janeiro de 2027; o texto de 1947, só em 2043.",
+      "opcoes": [
+        {"id": "a", "texto": "A 1ª edição (1931), como está", "nota": "Único texto do autor que se pode conferir nas imagens; a «Sobre» explica a escolha. Como em Macunaíma (1928) e em Amor de Perdição (1862).", "recomendada": true},
+        {"id": "b", "texto": "Trocar pelo texto das Obras Completas (1947)", "nota": "É a última revisão do autor, mas só por edições digitais recentes, sem fac-símile para conferir (contra a regra da casa); se aparecer um fac-símile de 1947, refaz-se o texto por ele."}
+      ]
+    },
+    {
+      "id": "titulo",
+      "titulo": "O título fica «Reinações de Narizinho», e não «As Reinações de Narizinho», como na folha de rosto de 1931?",
+      "ref": "o título do livro",
+      "contexto": "A folha de rosto de 1931 diz «As Reinações de Narizinho», e a falsa folha de rosto também; a capa e as edições seguintes, inclusive as Obras Completas, dizem «Reinações de Narizinho», que é o nome pelo qual o livro é conhecido.",
+      "opcoes": [
+        {"id": "a", "texto": "«Reinações de Narizinho», como está", "nota": "O nome do livro em todas as edições depois da 1ª e o que o leitor procura; a «Sobre» registra o título de 1931.", "recomendada": true},
+        {"id": "b", "texto": "«As Reinações de Narizinho», como na folha de rosto de 1931", "nota": "Mais fiel à edição-base."}
+      ]
+    },
+    {
+      "id": "pinocchio",
+      "titulo": "«Pinocchio» fica com a grafia italiana de 1931, e não passa a «Pinóquio»?",
+      "ref": "«O Irmão de Pinocchio» (título e texto, 17 vezes) e «propriedades pinocchianas»",
+      "contexto": "Em 1931 Lobato escreve o nome à italiana, Pinocchio; nas edições depois, «Pinóquio». Não é questão de ortografia (é nome estrangeiro, como Peter Pan, Sherlock e Tom-Mix, que ficam), mas o leitor de hoje conhece o boneco como Pinóquio. Os nomes que o próprio livro inventa também ficam como em 1931: Fazdeconta, Escavalinho (o «circo de escavalinho» de Emília), Lafontaine, Munkausen.\n\nHoje: «O Irmão de Pinocchio».",
+      "opcoes": [
+        {"id": "a", "texto": "«Pinocchio», como em 1931", "nota": "Respeita o texto da edição-base.", "recomendada": true},
+        {"id": "b", "texto": "«Pinóquio» (e «pinoquianas»)", "nota": "A forma que Lobato usou depois e que o leitor de hoje reconhece."}
+      ]
+    },
+    {
+      "id": "paginas-que-faltam",
+      "titulo": "As duas páginas que faltam no fac-símile (pp. 249 e 282 de 1931) ficam com o texto de uma edição posterior?",
+      "ref": "«A Pena de Papagaio», começo do cap. I («A história de Peter Pan…» até «…no mundo inteiro, te-») e o fim da história («— Vivam! — exclamou o senhor de Lafontaine…» até o fim)",
+      "contexto": "O exemplar fotografado pelo Museu Monteiro Lobato não tem essas duas páginas. O Wikisource as preencheu com o texto de uma edição posterior, já na grafia de hoje, sem dizer qual. Esse texto é o da revisão de Lobato, não o de 1931, e pode diferir em palavras; aqui só o nome «La Fontaine» foi posto na forma de 1931, «Lafontaine», para não mudar no meio da história. A «Sobre» diz onde começam e acabam os dois trechos.",
+      "opcoes": [
+        {"id": "a", "texto": "O texto da edição posterior, como está, com o aviso na «Sobre»", "nota": "A história fica inteira; a diferença é pequena e está dita.", "recomendada": true},
+        {"id": "b", "texto": "Deixar no texto uma marca «[falta esta página no fac-símile]» no lugar dos dois trechos", "nota": "Só texto de 1931, mas a história fica com dois buracos, um deles no começo."}
+      ]
+    },
+    {
+      "id": "piadas-de-grafia",
+      "titulo": "As três passagens cuja graça depende da grafia de 1931 ficam como em 1931?",
+      "ref": "«O Sítio do Picapau Amarelo», cap. X (o bilhete de Rabicó); «O Irmão de Pinocchio», cap. I («“elle” toda a vida teve dois “ll”»); «O Circo de Escavalinho», cap. III («PH é igual a F»)",
+      "contexto": "O resto do livro está na grafia de hoje, mas nestas três passagens a piada é a própria grafia: o bilhete de Rabicó, cheio de erros de propósito («Pesso-vos-lhe perdão da minha kovardia. Tommiques stá qui amolando a phaca pra me matttar…»); dona Benta, que lendo um livro português corrigia «ele» com um «l» só porque «“elle” toda a vida teve dois “ll”»; e Narizinho, que ensina a Emília que «Phantasma» se lê com F: «PH é igual a F, como você pode ver nesta caixa de phosphoros. Ninguém lê POSPORO». Postas na grafia de hoje, as três perdem o sentido.\n\nHoje: o bilhete inteiro como em 1931; «“elle”… dois “ll”»; «Phantasma», «PH», «phosphoros» e «POSPORO».",
+      "opcoes": [
+        {"id": "a", "texto": "Só essas palavras ficam na grafia de 1931, como está", "nota": "A graça fica; a «Sobre» explica.", "recomendada": true},
+        {"id": "b", "texto": "Tudo na grafia de hoje, com uma nota explicando a grafia antiga", "nota": "Texto uniforme, mas o leitor precisa da nota para entender."}
+      ]
+    }
+  ]
+}

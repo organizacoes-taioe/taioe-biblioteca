@@ -1222,3 +1222,12 @@ BIBLIOTECA.autor({
   area: 'nao-ficcao',
   nota: 'Naturalista e estadista paulista, ministro de D. Pedro I e principal articulador da Independência do Brasil, chamado o Patriarca da Independência. Deputado à Constituinte de 1823, foi preso e exilado quando ela foi dissolvida.'
 });
+
+BIBLIOTECA.autor({
+  id: 'monteiro-lobato',
+  nome: 'Monteiro Lobato',
+  nomeCompleto: 'José Bento Renato Monteiro Lobato',
+  vida: '1882–1948',
+  ordem: 'Lobato, Monteiro',
+  nota: 'Contista, editor e escritor paulista, de Taubaté; criou o Sítio do Picapau Amarelo e os seus livros para crianças.'
+});

@@ -84,7 +84,13 @@ MANUAL = {
     'Marquez': 'Marquês', 'marquez': 'marquês', 'MARQUEZ': 'MARQUÊS', 'marqueza': 'marquesa', 'Marqueza': 'Marquesa',
     'filés': 'filés', 'hurrahs': 'hurras', 'nhen': 'nhen', 'HOJE': 'HOJE', 'facto': 'fato', 'effeito': 'efeito',
     'trophéos': 'troféus', 'caracter': 'caráter', 'flôr': 'flor', 'beija-flôr': 'beija-flor',
-    'damnadissima': 'danadíssima', 'phelómeno': 'felômeno', 'resomnando': 'ressonando', 'PiNOCCHIO': 'PINOCCHIO',
+    'damnadissima': 'danadíssima', 'acção': 'ação', 'siquer': 'sequer', 'princezinha': 'princesinha',
+    'hervinhas': 'ervinhas', 'nubia': 'núbia', 'nubios': 'núbios', 'escaléres': 'escaleres', 'peteléco': 'peteleco',
+    'potóca': 'potoca', 'ajutorio': 'ajutório', 'há-de': 'há de', 'hei-de': 'hei de', 'Há-de': 'Há de',
+    'super-alimentação': 'superalimentação', 'para-quedas': 'paraquedas', 'dona-de-casa': 'dona de casa',
+    'engulir': 'engolir', 'enguliu': 'engoliu', 'engulido': 'engolido', 'engulida': 'engolida', 'enguli': 'engoli',
+    'engulira': 'engolira', 'engulo': 'engulo', 'engulidinha': 'engolidinha', 'desengulir': 'desengolir',
+    'desengula': 'desengula', 'engula': 'engula', 'aproveitavel': 'aproveitável', 'cascavel': 'cascavel', 'exquisitissimo': 'esquisitíssimo', 'exquisitissima': 'esquisitíssima', 'furtar-côr': 'furtar-cor', 'phelómeno': 'felômeno', 'resomnando': 'ressonando', 'PiNOCCHIO': 'PINOCCHIO',
 }
 FICAM = set()
 
@@ -148,8 +154,23 @@ def linha(l, rel):
                 rel.append((w, MANUAL[w], 'manual'))
             out.append(MANUAL[w])
         else:
-            out.append(M.token(w, rel))
+            n = M.token(w, rel)
+            if n == w:
+                n = _regras_finais(w)
+                if n != w:
+                    rel.append((w, n, 'regra'))
+            out.append(n)
     return ''.join(out)
+
+
+def _regras_finais(w):
+    """O que o modernizador deixa sem par: superlativos e -ável/-ível sem acento (aborrecidissimo, aproveitavel)."""
+    if re.search(r'[áéíóúâêôãõ]', w.lower()):
+        return w
+    n = re.sub(r'issim(o|a|os|as)$', r'íssim\1', w)
+    n = re.sub(r'ISSIM(O|A|OS|AS)$', r'ÍSSIM\1', n)
+    n = re.sub(r'(?<=[^aeiou])(av|iv)(el|eis)$', lambda m: {'av': 'áv', 'iv': 'ív'}[m.group(1)] + m.group(2), n)
+    return n
 
 
 def texto(t, rel):

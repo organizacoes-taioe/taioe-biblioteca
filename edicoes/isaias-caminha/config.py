@@ -426,17 +426,26 @@ def _rever(tr, md, sitios, base, outro, prim, com_conferencia):
     E.extend(B[pos:])
     E = [t for t in E if t != '*']
     E = varrer(E, md[prim], 'varridas.tsv' if com_conferencia else 'varridas1909.tsv')
-    return corrigir_lidos(E, {k: v for k, v in conf.items() if k.startswith('c|')}), sitios
+    lidos = {k: v for k, v in conf.items() if k.startswith('c|')}
+    E, resto = corrigir_lidos(E, lidos)
+    E = varrer_pontuacao(E, achatar(md[prim]))
+    E, resto = corrigir_lidos(E, resto)          # as chaves gravadas depois da varredura da pontuação
+    for k in resto:
+        print('  sem lugar:', k)
+    print('leituras conferidas aplicadas:', len(lidos) - len(resto), '; sem lugar:', len(resto))
+    return E, sitios
 
 
 def corrigir_lidos(E, corr):
     """Leituras conferidas no fac-símile fora dos pontos de divergência (pontos.py): chave
-    'c|antes|atual|depois' (tokens separados por espaço) -> o texto impresso, na grafia de 1917."""
-    falhas = 0
+    'c|antes¦atual¦depois' (tokens separados por espaço) -> o texto impresso, na grafia de 1917.
+    Devolve (E, as que não acharam lugar)."""
+    resto = {}
     for k, novo in corr.items():
         _, antes, atual, depois = ['c'] + k[2:].split('¦')
         a, d, z = antes.split(), atual.split(), depois.split()
         # o ponto vizinho, já corrigido, pode ter mudado o contexto: tenta com menos contexto
+        achados, aa = [], []
         for na, nz in ((len(a), len(z)), (2, 2), (len(a), 0), (0, len(z)), (1, 1)):
             aa, zz = a[len(a) - na:], z[:nz]
             pad = aa + d + zz
@@ -446,16 +455,67 @@ def corrigir_lidos(E, corr):
             if len(achados) == 1:
                 break
         if len(achados) != 1:
-            falhas += 1
-            print('  sem lugar:', k)
+            resto[k] = novo
             continue
         i = achados[0] + len(aa)
         E = E[:i] + _toks(novo) + E[i + len(d):]
-    print('leituras conferidas aplicadas:', len(corr) - falhas, '; sem lugar:', falhas)
-    return E
+    return E, resto
 
 
 VARRIDAS = []
+
+
+def varrer_pontuacao(E, M):
+    """Sinais que são manchas do papel lidas pelos dois OCRs, onde a edição moderna não tem nada: o ponto
+    seguido de minúscula (salvo depois de abreviatura), o ponto colado a outra pontuação («animador,.»),
+    a aspa angular sem par no parágrafo, e as aspas retas ou curvas, o hífen solto, «..» e «_» (1917 só usa
+    aspas angulares); onde a moderna tem o sinal equivalente no mesmo lugar, ele fica (travessão,
+    reticências)."""
+    from edicao.tokens import alinhar, e_palavra, texto as junta
+    E = list(E)
+    tirar = set()
+    sem_par, pilha = set(), []
+    for i, t in enumerate(E):
+        if t == '¶' or t.startswith('#'):
+            sem_par.update(pilha); pilha = []
+        elif t == '«':
+            pilha.append(i)
+        elif t == '»':
+            if pilha:
+                pilha.pop()
+            else:
+                sem_par.add(i)
+    sem_par.update(pilha)
+    EQUIV = {'-': '—', '..': '...', '_': None, '"': None, '“': None, '”': None, '„': None, '€': None, '$': None, '&': None}
+    for tp, i1, i2, j1, j2 in alinhar(E, M, chave=chave):
+        if tp == 'equal':
+            continue
+        mv = M[j1:j2]
+        for i in range(i1, i2):
+            t = E[i]
+            if t in EQUIV:
+                eq = EQUIV[t]
+                if eq and eq in mv:
+                    E[i] = eq
+                elif t in ('"', '“', '”', '„') and any(x in ('"', '“', '”', '«', '»') for x in mv):
+                    pass
+                else:
+                    tirar.add(i)
+                continue
+            if any(e_palavra(x) for x in E[i1:i2]) or any(x in ('.', '«', '»', ',', ':', ';') for x in mv):
+                continue
+            prox = E[i + 1] if i + 1 < len(E) else ''
+            ant = E[i - 1] if i else ''
+            if t == '.' and (prox[:1].islower() or prox in (',', ';', '.')) and not (
+                    ant in ABREV or len(ant) == 1 and ant.isalpha() or ant in ('etc', 'Ex')):
+                tirar.add(i)
+            elif t == '.' and ant in (',', ';', ':'):
+                tirar.add(i)
+            elif t in ('«', '»') and i in sem_par:
+                tirar.add(i)
+    VARRIDAS.extend((junta(E[max(0, i - 6):i]), E[i], '', junta(E[i + 1:i + 7])) for i in sorted(tirar))
+    print('pontuação de mancha tirada:', len(tirar))
+    return [t for i, t in enumerate(E) if i not in tirar]
 
 
 def varrer(E, moderna, relatorio='varridas.tsv'):

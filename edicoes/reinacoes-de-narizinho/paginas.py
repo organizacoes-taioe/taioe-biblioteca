@@ -30,7 +30,7 @@ CAP = re.compile(r'^([IVXL]+)\s*[—―-]\s*(.+)$')
 
 
 def _limpar_modelos(t):
-    t = re.sub(r'\{\{PT\|\|[^{}]*\}\}', '', t)               # o resto da palavra/frase que fica na página seguinte
+    t = re.sub(r'\{\{PT\|\|[^{}]*\}\}', '\u0008', t)         # o resto da palavra que fica na página seguinte: juntar
     t = re.sub(r'\{\{PT\|([^{}|]*)\}\}', r'\1', t)
     t = re.sub(r'\{\{(?:dropinitial|capitular)\|([^{}]*)\}\}', r'\1', t)
     t = re.sub(r'\{\{--\}\}', '—', t)
@@ -50,6 +50,7 @@ def pagina(bruto):
     t = re.sub(r'<noinclude>.*?</noinclude>', '', bruto, flags=re.S)
     continua = not re.match(r'\s*\n\s*\n', t) and not t.lstrip().startswith(('{{t2', '{{T2', '{{t3', '<center>'))
     t = re.sub(r'<br\s*/?>', '\u0007', t)
+    t = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]', r'\1', t)      # [[:w:pt:Pixoxó|pichochó]] -> pichochó
     t = re.sub(r'(?m)^:+', '\n', t)          # cartas recuadas (pp. 65 e 97 do livro): um parágrafo por linha
     t = _limpar_modelos(t)
     for _ in range(3):
@@ -75,6 +76,8 @@ def pagina(bruto):
         b = b.strip()
         if not b:
             continue
+        if b == '\u0008':
+            blocos.append('\u0008'); continue
         if b == '\u0006':
             blocos.append('\u0006'); continue
         if b.startswith('\u0001'):
@@ -107,7 +110,8 @@ def pagina(bruto):
             out.append(b)
     fecha = bool(out) and out[-1] == '\u0006'
     out = [b for b in out if b != '\u0006']
-    return '\n\n'.join(out), continua, fecha
+    t = '\n\n'.join(out)
+    return t, continua, fecha
 
 
 def main():

@@ -1,0 +1,117 @@
+{
+  "base": "Orpheu n.º 2, 1915 (por transcrição)",
+  "apresentacao": "**Texto-base.** _Ode Marítima_ é o grande poema de Álvaro de Campos, o engenheiro naval que Fernando Pessoa fez nascer em 1914. Saiu em vida do autor uma única vez, no n.º 2 da revista _Orpheu_ (Lisboa, abril-maio-junho de 1915), dedicada a Santa-Rita Pintor; este texto segue essa publicação, que é a que Pessoa viu impressa. O poema não tem divisão do autor, e aqui vai numa página só; cada décimo verso leva o número à margem.\n\n**Como foi estabelecido.** Não achei fac-símile livre do _Orpheu_ 2 (o exemplar digitalizado da Biblioteca Nacional de Portugal tem acesso restrito, e não o contornei). A base é a transcrição do _Orpheu_ nº 2 do Projeto Gutenberg (ebook 23621, 2007), que reproduz a revista na ortografia de 1915, conferida palavra por palavra com a transcrição do Wikisource em português, de uma edição moderna. As duas coincidem quase em tudo; onde divergem em palavra, e o Wikisource tem erro evidente de leitura (letras trocadas, palavras partidas), valeu a transcrição do _Orpheu_; nos poucos pontos em que as duas são possíveis (lista abaixo), também. Como não pude ver as páginas da revista, os três pontos em que a transcrição parece errada e foram emendados estão na lista abaixo.\n\n**Grafia.** A de hoje, na forma brasileira, palavra por palavra: os acentos que Pessoa e o compositor punham em 1915 e hoje não se escrevem (_êle_, _sôbre_, _ólho_, _vêr_, _dôr_), os acentos que faltavam (_misterio_, _silencio_), as consoantes de hoje (_actual_ e _facto_ viram _atual_ e _fato_; _nocturno_, _noturno_), _s_ e _z_ (_civilisação_, _civilização_; _quizerdes_, _quiserdes_), _cousa_ vira _coisa_ e _emfim_, _enfim_. O travessão de 1915 (duas barras na transcrição) sai «—». Mudou só a maneira de escrever, nunca a palavra: ficam as de Portugal e as do mar (_comboios_, _gajeiros_, _paquete_), as contrações populares _pró_, _prá_, _prós_, _pr'_ e _plas_, a pontuação, as maiúsculas, as reticências e os gritos exatamente como na revista (_Ahò-ò-ò-ò_, _Eh-eh-eh_, _Schooner ahó-ó-ó_, a canção do pirata em inglês, em itálico quando a revista a punha em itálico e em maiúsculas quando a punha em maiúsculas). A revista recuava as linhas da canção do pirata; o site não tem recuo, e elas ficam à margem, como as outras.",
+  "fontes": [
+    {
+      "nome": "Orpheu n.º 2, revista trimestral de literatura (Lisboa, abril-junho de 1915), transcrição do Projeto Gutenberg, ebook 23621 (2007)",
+      "url": "https://www.gutenberg.org/ebooks/23621",
+      "nota": "texto-base; a revista na ortografia da época"
+    },
+    {
+      "nome": "Wikisource, Ode Marítima (transcrição de edição moderna)",
+      "url": "https://pt.wikisource.org/wiki/Ode_Mar%C3%ADtima",
+      "nota": "segundo testemunho, só para conferir"
+    }
+  ],
+  "secoes": {
+    "erros": {
+      "titulo": "Erros da transcrição, corrigidos",
+      "explica": "Pontos em que a transcrição do Orpheu tem erro evidente (concordância ou sentido), emendados sem ver a página da revista. À esquerda, como a transcrição dá, na grafia da época."
+    },
+    "mantidas": {
+      "titulo": "Onde o Orpheu e o texto do Wikisource divergem",
+      "explica": "Nestes pontos vale o Orpheu (pela transcrição). À direita, a lição do Wikisource."
+    }
+  },
+  "erros": [
+    {
+      "cap": "",
+      "de": "como um gata com cio por um muro",
+      "para": "como uma gata com cio por um muro"
+    },
+    {
+      "cap": "",
+      "de": "ora estas, ora as apostas",
+      "para": "ora estas, ora as opostas"
+    },
+    {
+      "cap": "",
+      "de": "prático à forca, sensível a tudo",
+      "para": "prático à força, sensível a tudo"
+    }
+  ],
+  "mantidas": [
+    {
+      "cap": "",
+      "texto": "Do fumo das chaminés das fábricas próximas",
+      "variante": "Do fundo das chaminés",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "essencialidade de mistério e sentidos parados",
+      "variante": "e sentido parados",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "o soluço absurdo que as nossas almas derramam",
+      "variante": "derramaram",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "seja como for, seja para onde for, partir!",
+      "variante": "por onde for",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "Um corpo cheio de sanguessugas",
+      "variante": "Um copo",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "das vossas mãos estranguladoras!",
+      "variante": "estranguladores",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "como numa capa no frio!",
+      "variante": "como uma capa",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "Dentro de mim há só um vácuo",
+      "variante": "há um só vácuo",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "Na hora de guerra dos velhos navios!",
+      "variante": "aos velhos navios",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "Os nossos cais nos nossos portos, / Os nossos cais de pedra atual",
+      "variante": "sem o verso «Os nossos cais nos nossos portos»",
+      "obs": "o Wikisource omite um verso"
+    },
+    {
+      "cap": "",
+      "texto": "Tremo com um frio da alma",
+      "variante": "Tremo com frio da alma",
+      "obs": ""
+    },
+    {
+      "cap": "",
+      "texto": "percorro com a alma",
+      "variante": "percorro a alma",
+      "obs": ""
+    }
+  ]
+}

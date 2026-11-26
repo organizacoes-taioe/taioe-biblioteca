@@ -1,0 +1,69 @@
+{
+  "id": "ode-maritima",
+  "rotulo": "Ode Marítima (Álvaro de Campos): edição e grafia",
+  "url": "/biblioteca/fernando-pessoa/ode-maritima/",
+  "escolhas": [
+    {
+      "id": "edicao-base",
+      "titulo": "O texto segue o Orpheu n.º 2 (1915), pela transcrição do Projeto Gutenberg, e não a versão das edições modernas?",
+      "ref": "o poema inteiro",
+      "contexto": "A ode saiu em vida de Pessoa só no Orpheu 2 (1915); as edições de hoje (Ática, 1978 e depois) a reeditam com acertos de editor, e o Wikisource dá uma transcrição moderna. Não achei fac-símile livre da revista (a Biblioteca Nacional de Portugal restringe o acesso), então o Orpheu chega aqui só pela transcrição do Gutenberg, conferida com a do Wikisource. Divergem em umas 12 palavras (a lista está na «Sobre»), como «Do fumo das chaminés» × «Do fundo das chaminés» e «Um corpo cheio de sanguessugas» × «Um copo cheio de sanguessugas».",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "O Orpheu 2, como está",
+          "nota": "É o texto que Pessoa viu impresso. Quando o fac-símile for achado, se confirmam os pontos duvidosos (FALTA.md).",
+          "recomendada": true
+        },
+        {
+          "id": "b",
+          "texto": "A lição do Wikisource nos pontos em que as duas divergem",
+          "nota": "Mantém o texto corrente das edições modernas, mas o Wikisource tem erros de leitura (letras trocadas, palavras partidas) e a edição de que vem não está dita."
+        }
+      ]
+    },
+    {
+      "id": "grafia",
+      "titulo": "A grafia é a brasileira de hoje, mantendo as contrações «pró», «prá», «plas»?",
+      "ref": "o poema inteiro",
+      "contexto": "Pessoa escrevia como em Portugal em 1915: «êle», «sôbre», «actual», «facto», «nocturno», «cousa», «civilisação». A Biblioteca põe a grafia de hoje nos originais em português (Os Maias, Mensagem, O Guardador de Rebanhos). Em verso livre a troca não muda o metro. As contrações de fala («pró lado», «prá Morte», «plas vigias», «pr'àqui») são expressivas, e ficam; os gritos e a canção em inglês ficam como na revista.",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Brasileira de hoje, com as contrações do autor, como está",
+          "nota": "A mesma regra dos outros livros de Pessoa no site.",
+          "recomendada": true
+        },
+        {
+          "id": "b",
+          "texto": "Também «pro», «pra», «pelas»",
+          "nota": "Texto mais corrente, mas apaga uma marca da voz de Campos."
+        },
+        {
+          "id": "c",
+          "texto": "Manter a ortografia de 1915",
+          "nota": "Fiel à revista, mas contra a regra da Biblioteca para as formas antigas («cousa»)."
+        }
+      ]
+    },
+    {
+      "id": "erros",
+      "titulo": "Três pontos em que a transcrição parece errada são emendados?",
+      "ref": "«como um gata com cio» (uma gata); «ora as apostas» (opostas); «prático à forca» (à força)",
+      "contexto": "Sem ver a página da revista, só dá para julgar pelo sentido e pelo Wikisource, que tem as três lições emendadas. Em «ora estas, ora as opostas» e em «uma gata» o erro é evidente; «prático à força» é menos certo.",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Emendar os três, e dizer na «Sobre»",
+          "nota": "Como está; as três emendas estão listadas.",
+          "recomendada": true
+        },
+        {
+          "id": "b",
+          "texto": "Manter a transcrição como está",
+          "nota": "Fiel ao que a transcrição dá, mas deixa um verso sem sentido."
+        }
+      ]
+    }
+  ]
+}

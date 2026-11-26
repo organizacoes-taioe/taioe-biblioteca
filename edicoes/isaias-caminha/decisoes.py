@@ -101,9 +101,80 @@ def _toks(s):
     return TOK.findall(s)
 
 
+ACENTOS = {}
+ACENTOS_TROCADOS = []
+# palavras que ficam sem o acento que o dicionário sugere (estrangeiras, nomes)
+SEM_ACENTO = {'restaurant', 'reporters', 'reporter', 'toilettes', 'toilette', 'baccarat', 'menu', 'Floc', 'Leiva', 'Laje'}
+
+
+# trocas conferidas uma a uma na lista que _acentos() propõe (as outras propostas eram erradas: pôde, àquela...)
+ACENTOS_OK = {a: b for a, b in (
+    ('prestigio', 'prestígio'), ('oficio', 'ofício'), ('espirito', 'espírito'), ('juizes', 'juízes'), ('circulo', 'círculo'),
+    ('distancia', 'distância'), ('varias', 'várias'), ('policia', 'polícia'), ('silabas', 'sílabas'),
+    ('desnecessario', 'desnecessário'), ('literario', 'literário'), ('veiculo', 'veículo'), ('vicio', 'vício'),
+    ('beneficio', 'benefício'), ('virgulas', 'vírgulas'), ('atras', 'atrás'), ('substancia', 'substância'),
+    ('tambem', 'também'), ('secretario', 'secretário'), ('paginas', 'páginas'), ('cientifico', 'científico'),
+    ('historia', 'história'), ('mingua', 'míngua'), ('viamos', 'víamos'), ('priamo', 'príamo'), ('avancava', 'avançava'),
+    ('preguicosa', 'preguiçosa'), ('comecamos', 'começamos'), ('atraiam', 'atraíam'), ('atraia', 'atraía'),
+    ('saira', 'saíra'), ('forca', 'força'), ('observacões', 'observações'), ('ocasiào', 'ocasião'), ('políciais', 'policiais'),
+    ('critíca', 'crítica'), ('tólstoi', 'tolstói'), ('sófia', 'sofia'), ('términus', 'terminus'), ('marques', 'marquês'),
+    ('açhas', 'achas'), ('noticia', 'notícia'), ('noticias', 'notícias'), ('titulo', 'título'), ('titulos', 'títulos'),
+    ('intimo', 'íntimo'))}
+AMBIGUAS = {'critica': 'crítica', 'criticas': 'críticas', 'intima': 'íntima', 'intimo': 'íntimo', 'intimas': 'íntimas',
+            'intimos': 'íntimos', 'baia': 'baía', 'pratica': 'prática', 'praticas': 'práticas', 'duvida': 'dúvida',
+            'duvidas': 'dúvidas', 'continuo': 'contínuo', 'continuos': 'contínuos', 'critico': 'crítico',
+            'criticos': 'críticos', 'publico': 'público', 'publica': 'pública', 'publicos': 'públicos', 'publicas': 'públicas'}
+DETERMINANTES = {'a', 'as', 'o', 'os', 'da', 'das', 'do', 'dos', 'na', 'nas', 'no', 'nos', 'uma', 'umas', 'um', 'uns',
+                 'sua', 'suas', 'seu', 'seus', 'minha', 'minhas', 'meu', 'meus', 'pela', 'pelas', 'pelo', 'pelos',
+                 'esta', 'essa', 'aquela', 'à', 'às', 'de', 'em', 'com', 'sem', 'por', 'para', 'que', 'outra', 'qualquer',
+                 'tal', 'cada', 'nenhuma', 'alguma', 'grande', 'boa', 'e', 'numa', 'num', 'duma', 'dum', 'este', 'esse', 'aquele', 'ao', 'aos'}
+
+
+def _acentos():
+    """Forma acentuada mais comum nos outros livros da Biblioteca (já na grafia de hoje), pela forma sem
+    acento: a edição moderna de referência (Ática, pela BVEB) perdeu muitos acentos («noticia», «titulo»,
+    «espirito»). Vale quando a acentuada é ao menos 5 vezes mais frequente que a forma do texto."""
+    if not ACENTOS:
+        import glob
+        import unicodedata
+        from collections import Counter
+        sem = lambda w: ''.join(c for c in unicodedata.normalize('NFD', w) if unicodedata.category(c) != 'Mn')
+        raiz = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'conteudo')
+        n = Counter()
+        for f in glob.glob(os.path.join(raiz, '*', '*.js')):
+            if os.path.basename(f) == 'isaias-caminha.js':
+                continue
+            n.update(w.lower() for w in re.findall(r'[^\W\d_]+', open(f, encoding='utf-8').read()))
+        melhor = {}
+        for w, c in n.items():
+            k = sem(w)
+            if c > melhor.get(k, ('', 0))[1]:
+                melhor[k] = (w, c)
+        ACENTOS.update({'n': n, 'melhor': melhor, 'sem': sem})
+    return ACENTOS
+
+
 def corrigir(out, flags):
-    """Sobre o texto pronto (grafia de hoje): nomes uniformizados, blocos de versos e itálicos."""
+    """Sobre o texto pronto (grafia de hoje): acentos perdidos pela referência, nomes uniformizados, blocos
+    de versos e itálicos."""
     out, flags = list(out), list(flags)
+    ACENTOS_TROCADOS.clear()
+    for i, t in enumerate(out):
+        low = t.lower()
+        if low in AMBIGUAS:                 # verbo ou nome: nome depois de artigo, possessivo ou preposição
+            w = AMBIGUAS[low]
+            if low.startswith('contínu'.replace('í', 'i')):
+                if out[i - 1].lower() == 'eu':
+                    continue
+            elif out[i - 1].lower() not in DETERMINANTES:
+                continue
+        elif low in ACENTOS_OK:
+            w = ACENTOS_OK[low]
+        else:
+            continue
+        novo = w[0].upper() + w[1:] if t[0].isupper() else w
+        ACENTOS_TROCADOS.append((t, novo))
+        out[i] = novo
     TROCAS_NOMES.clear()
     for i, t in enumerate(out):
         if t in NOMES:

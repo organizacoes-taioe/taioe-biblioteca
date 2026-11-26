@@ -81,7 +81,7 @@ MANUAL = {
     'jaboticabeira': 'jabuticabeira', 'JABOTICABAS': 'JABUTICABAS', 'nacar': 'nácar', 'tútú': 'tutu',
     'hade': 'há de', 'mingoante': 'minguante', 'recae': 'recai', 'Sáe': 'Sai', 'cáe': 'cai', 'Egypcios': 'Egípcios',
     'Allemanha': 'Alemanha', 'Troia': 'Troia',
-    'Marquez': 'Marquês', 'marquez': 'marquês', 'MARQUEZ': 'MARQUÊS', 'marqueza': 'marquesa', 'Marqueza': 'Marquesa',
+    'depézinha': 'depezinha', 'cow-boy': 'cowboy', 'Marquez': 'Marquês', 'marquez': 'marquês', 'MARQUEZ': 'MARQUÊS', 'marqueza': 'marquesa', 'Marqueza': 'Marquesa',
     'filés': 'filés', 'hurrahs': 'hurras', 'nhen': 'nhen', 'HOJE': 'HOJE', 'facto': 'fato', 'effeito': 'efeito',
     'trophéos': 'troféus', 'caracter': 'caráter', 'flôr': 'flor', 'beija-flôr': 'beija-flor',
     'damnadissima': 'danadíssima', 'acção': 'ação', 'siquer': 'sequer', 'princezinha': 'princesinha',

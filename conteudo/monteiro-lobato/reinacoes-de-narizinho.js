@@ -25,7 +25,7 @@ BIBLIOTECA.obra({
         "explica": "Grafia de 1931 nas duas colunas."
       }
     },
-    "apresentacao": "**Texto-base.** Este texto reproduz a primeira edição de _Reinações de Narizinho_ (São Paulo, Companhia Editora Nacional, 1931; «Bibliotheca Pedagogica Brasileira», série 1, volume I), em que Monteiro Lobato juntou num livro só, refeitas, onze histórias que vinha publicando desde 1920, quando saiu _A Menina do Narizinho Arrebitado_. Na folha de rosto de 1931 o título é «As Reinações de Narizinho»; aqui fica o nome que o livro teve em todas as edições seguintes. Lobato reviu o texto outras vezes, e a última revisão em vida é a das _Obras Completas_ (Brasiliense, 1947), que muda palavras e frases por todo o livro. Dessa não se achou fac-símile gratuito; a de 1931 é a única edição em vida do autor que se pode ler nas imagens, e por isso é a base. As ilustrações de J. G. Villin, que acompanham a edição de 1931, não entram aqui.\n\n**Como foi estabelecido.** O ponto de partida foi a transcrição do Wikisource, feita sobre as fotografias de um exemplar de 1931 do Museu Monteiro Lobato, em Taubaté. Ela foi confrontada palavra por palavra, página por página, com duas leituras automáticas novas (OCR) das mesmas fotografias; os pontos em que as duas leituras concordavam contra a transcrição, e as palavras raras da transcrição, foram conferidos um a um nas imagens (0 pontos). Assim se corrigiram 2 leituras da transcrição. Ao exemplar fotografado faltam duas páginas, ambas de «A Pena de Papagaio»: a 249, do começo do capítulo I («A história de Peter Pan, que dona Benta contara aos meninos…» até «…Só Peter Pan, no mundo inteiro, te-»), e a 282, o fim da história («— Vivam! — exclamou o senhor de Lafontaine…» até «…no ponto em que os meninos a haviam interrompido»). Nesses dois trechos o texto é o de uma edição posterior, que o Wikisource usou para completá-los, e não o de 1931; só o nome do fabulista foi posto na forma de 1931 («Lafontaine»).\n\n**Correções.** Corrigiram-se só os erros evidentes da composição de 1931, listados abaixo: letras trocadas, palavras repetidas, a pontuação evidentemente errada, o capítulo VIII do «Sítio do Picapau Amarelo», que saiu numerado XIII. Na página 283 (no começo de «O Pó de Pirlimpimpim»), oito linhas foram montadas fora do lugar («…para virem cor- / e olhou.», «…disse dona Benta ap- / Minutos depois viu lá longe…»); cada uma voltou ao único lugar em que a frase se completa. «O casamento», no «Marquês de Rabicó», vem em 1931 como título sem número entre os capítulos III e IV, e assim ficou, dentro do III. No índice do fim, 1931 traz «Casa de Coruja» por «Cara de Coruja»; o título certo é o do cabeçalho da história.\n\n**Ortografia.** A grafia foi atualizada pelo Acordo Ortográfico de 1990, na forma brasileira: _elle_ → ele, _annos_ → anos, _sitio_ → sítio, _Picapau Amarello_ → Picapau Amarelo, _vóvó_ → vovó, _accommodal-a_ → acomodá-la, _idéa_ → ideia, _creança_ → criança, _quasi_ → quase, _poude_ → pôde, _porisso_ → por isso, _jaboticaba_ → jabuticaba. Ficaram como Lobato escreveu as palavras e as formas da fala das personagens (_mecê_, _sêo_, _vosmecê_, _inda_, _pra_), as onomatopeias, os nomes que o livro inventa (_Fazdeconta_, _Escavalinho_, _Pantasma_, _pirlimpimpim_) e os estrangeiros (_Pinocchio_, _Lafontaine_, _Peter Pan_, _Tom-Mix_). Três passagens cuja graça é a própria grafia de 1931 ficaram nela: o bilhete de Rabicó, com os erros de propósito («Pesso-vos-lhe perdão da minha kovardia…»); dona Benta, para quem «\"elle\" toda a vida teve dois \"ll\"»; e a lição de Narizinho a Emília: «PH é igual a F, como você pode ver nesta caixa de phosphoros». O texto do autor foi respeitado como ele o deixou em 1931, sem cortes nem trocas de palavras.\n\n**Divisão.** Como em 1931, onze histórias, cada uma com os seus capítulos numerados e com título; cada capítulo é uma página desta biblioteca.",
+    "apresentacao": "**Texto-base.** Este texto reproduz a primeira edição de _Reinações de Narizinho_ (São Paulo, Companhia Editora Nacional, 1931; «Bibliotheca Pedagogica Brasileira», série 1, volume I), em que Monteiro Lobato juntou num livro só, refeitas, onze histórias que vinha publicando desde 1920, quando saiu _A Menina do Narizinho Arrebitado_. Na folha de rosto de 1931 o título é «As Reinações de Narizinho»; aqui fica o nome que o livro teve em todas as edições seguintes. Lobato reviu o texto outras vezes, e a última revisão em vida é a das _Obras Completas_ (Brasiliense, 1947), que muda palavras e frases por todo o livro. Dessa não se achou fac-símile gratuito; a de 1931 é a única edição em vida do autor que se pode ler nas imagens, e por isso é a base. As ilustrações de J. G. Villin, que acompanham a edição de 1931, não entram aqui.\n\n**Como foi estabelecido.** O ponto de partida foi a transcrição do Wikisource, feita sobre as fotografias de um exemplar de 1931 do Museu Monteiro Lobato, em Taubaté. Ela foi confrontada palavra por palavra, página por página, com duas leituras automáticas novas (OCR) das mesmas fotografias; os pontos em que as duas leituras concordavam contra a transcrição, e as palavras raras da transcrição, foram conferidos um a um nas imagens (67 pontos). Assim se corrigiram 22 leituras da transcrição. Ao exemplar fotografado faltam duas páginas, ambas de «A Pena de Papagaio»: a 249, do começo do capítulo I («A história de Peter Pan, que dona Benta contara aos meninos…» até «…Só Peter Pan, no mundo inteiro, te-»), e a 282, o fim da história («— Vivam! — exclamou o senhor de Lafontaine…» até «…no ponto em que os meninos a haviam interrompido»). Nesses dois trechos o texto é o de uma edição posterior, que o Wikisource usou para completá-los, e não o de 1931; só o nome do fabulista foi posto na forma de 1931 («Lafontaine»).\n\n**Correções.** Corrigiram-se só os erros evidentes da composição de 1931, listados abaixo: letras trocadas, palavras repetidas, a pontuação evidentemente errada, o capítulo VIII do «Sítio do Picapau Amarelo», que saiu numerado XIII. Na página 283 (no começo de «O Pó de Pirlimpimpim»), oito linhas foram montadas fora do lugar («…para virem cor- / e olhou.», «…disse dona Benta ap- / Minutos depois viu lá longe…»); cada uma voltou ao único lugar em que a frase se completa. «O casamento», no «Marquês de Rabicó», vem em 1931 como título sem número entre os capítulos III e IV, e assim ficou, dentro do III. No índice do fim, 1931 traz «Casa de Coruja» por «Cara de Coruja»; o título certo é o do cabeçalho da história.\n\n**Ortografia.** A grafia foi atualizada pelo Acordo Ortográfico de 1990, na forma brasileira: _elle_ → ele, _annos_ → anos, _sitio_ → sítio, _Picapau Amarello_ → Picapau Amarelo, _vóvó_ → vovó, _accommodal-a_ → acomodá-la, _idéa_ → ideia, _creança_ → criança, _quasi_ → quase, _poude_ → pôde, _porisso_ → por isso, _jaboticaba_ → jabuticaba. Ficaram como Lobato escreveu as palavras e as formas da fala das personagens (_mecê_, _sêo_, _vosmecê_, _inda_, _pra_), as onomatopeias, os nomes que o livro inventa (_Fazdeconta_, _Escavalinho_, _Pantasma_, _pirlimpimpim_) e os estrangeiros (_Pinocchio_, _Lafontaine_, _Peter Pan_, _Tom-Mix_). Três passagens cuja graça é a própria grafia de 1931 ficaram nela: o bilhete de Rabicó, com os erros de propósito («Pesso-vos-lhe perdão da minha kovardia…»); dona Benta, para quem «\"elle\" toda a vida teve dois \"ll\"»; e a lição de Narizinho a Emília: «PH é igual a F, como você pode ver nesta caixa de phosphoros». O texto do autor foi respeitado como ele o deixou em 1931, sem cortes nem trocas de palavras.\n\n**Divisão.** Como em 1931, onze histórias, cada uma com os seus capítulos numerados e com título; cada capítulo é uma página desta biblioteca.",
     "fontes": [
       {
         "nome": "Fac-símile da 1ª edição, 1931, exemplar do Museu Monteiro Lobato (Taubaté)",
@@ -40,9 +40,89 @@ BIBLIOTECA.obra({
     ],
     "erros": [
       {
+        "cap": "Narizinho Arrebitado, cap. IV",
+        "de": "em rodor.",
+        "para": "em redor."
+      },
+      {
+        "cap": "O Sítio do Picapau Amarelo, cap. IV",
+        "de": "não enttende coisa",
+        "para": "não entende coisa"
+      },
+      {
         "cap": "O Sítio do Picapau Amarelo, cap. VIII",
         "de": "XIII — TOM-MIX",
         "para": "VIII — TOM-MIX"
+      },
+      {
+        "cap": "O Sítio do Picapau Amarelo, cap. XI",
+        "de": "aquelle philophoso que",
+        "para": "aquelle philosopho que"
+      },
+      {
+        "cap": "O Marquês de Rabicó, cap. II",
+        "de": "enchido de macena nova",
+        "para": "enchido de macella nova"
+      },
+      {
+        "cap": "O Marquês de Rabicó, cap. II",
+        "de": "um bom sabubo",
+        "para": "um bom sabugo"
+      },
+      {
+        "cap": "O Casamento de Narizinho, cap. VI",
+        "de": "pedras preciosás",
+        "para": "pedras preciosas"
+      },
+      {
+        "cap": "Aventuras do Príncipe, cap. VI",
+        "de": "arrumar diversar escamas",
+        "para": "arrumar diversas escamas"
+      },
+      {
+        "cap": "O Gato Félix, cap. IV",
+        "de": "e criminalogicos.",
+        "para": "e criminologicos."
+      },
+      {
+        "cap": "Cara de Coruja, cap. VIII",
+        "de": "o revirassse em",
+        "para": "o revirasse em"
+      },
+      {
+        "cap": "O Irmão de Pinocchio, cap. II",
+        "de": "então venhà commigo",
+        "para": "então venha commigo"
+      },
+      {
+        "cap": "O Irmão de Pinocchio, cap. II",
+        "de": "neste trouco.",
+        "para": "neste tronco."
+      },
+      {
+        "cap": "O Circo de Escavalinho, cap. IV",
+        "de": "pobre Fasdeconta",
+        "para": "pobre Fazdeconta"
+      },
+      {
+        "cap": "A Pena de Papagaio, cap. X",
+        "de": "do burró em",
+        "para": "do burro em"
+      },
+      {
+        "cap": "O Pó de Pirlimpimpim, cap. II",
+        "de": "Emqunto isso",
+        "para": "Emquanto isso"
+      },
+      {
+        "cap": "O Pó de Pirlimpimpim, cap. I",
+        "de": "comeu nao poude",
+        "para": "comeu não poude"
+      },
+      {
+        "cap": "O Pó de Pirlimpimpim, cap. II",
+        "de": "E 'assim mesmo",
+        "para": "E' assim mesmo"
       }
     ]
   },
@@ -219,7 +299,7 @@ Nisto surgiu na sala, muito apressada e aflita, uma baratinha de mantilha, que f
 
 — A senhora por aqui!. exclamou este admirado. Que deseja?
 
-— Ando atrás do Pequeno Polegar, respondeu elaa duas semanas que me fugiu do livro onde mora e não o encontro em parte alguma. Já percorri todos os reinos encantados sem descobrir o menor sinal dele.
+— Ando atrás do Pequeno Polegar, respondeu ela. Há duas semanas que me fugiu do livro onde mora e não o encontro em parte alguma. Já percorri todos os reinos encantados sem descobrir o menor sinal dele.
 
 — Quem é esta velha? perguntou a menina ao ouvido do príncipe. Parece que a conheço...
 
@@ -313,7 +393,7 @@ E farejou outra vez o ar com o seu nariz de papagaio seco.
 
 Apesar de ser muito burrinho, o príncipe desconfiou que o tal Fura-Bolos fosse o mesmo Polegar.
 
-— Talvez esteja, disse. Talvez Polegar seja o bobinho que veio se oferecer para substituir o Carlito Pirolito. Que é dele? indagou correndo os olhos em rodor. Esteve aqui ainda agora, não faz meio minuto!..
+— Talvez esteja, disse. Talvez Polegar seja o bobinho que veio se oferecer para substituir o Carlito Pirolito. Que é dele? indagou correndo os olhos em redor. Esteve aqui ainda agora, não faz meio minuto!..
 
 Procuraram o bobinho por toda a parte inutilmente. É que a menina, mal viu entrar na sala a diaba da velha, disfarçadamente o agarrara e enfiara pela manga do vestido.
 
@@ -385,7 +465,7 @@ Em vez de ficar danada com aquilo, como Narizinho supôs, dona Aranha começou a
 
 — Ora graças! exclamou num suspiro de alívio. Chegou afinal o dia da minha libertação. Quando nasci, uma fada rabugenta, que detestava minha pobre mãe, virou-me em aranha, condenando-me a viver de costuras a vida inteira. No mesmo instante, porem, uma fada boa apareceu, dando-me esse espelho com estas palavras: «No dia em que fizeres o vestido mais lindo do mundo deixarás de ser aranha e serás o que quiseres».
 
-— Que bom! disse Nariziro. E no que vai a senhora virar?
+— Que bom! disse Narizinho. E no que vai a senhora virar?
 
 — Não sei ainda. Tenho de consultar o príncipe.
 
@@ -429,7 +509,7 @@ Foi o pedaço que Narizinho mais gostou. Quantas cenas engraçadas! Quantas trag
 
 O doutor Caramujo foi chamado às pressas para tapar esguicho da tatarona e concertar o besouro.
 
-— Que bom cirurgião! exclamou Narizinho, vendo a perícia com que ele arrolhava a tatorana e concertava o besouro com tanta perfeição que só sobraram duas peças — uma pernaxe uma antena. «E trabalha cientificamente», refletiu a menina, notando que antes de tratar do doente o doutor nunca deixava de fazer o «respectivo diagnóstico».
+— Que bom cirurgião! exclamou Narizinho, vendo a perícia com que ele arrolhava a tatorana e concertava o besouro com tanta perfeição que só sobraram duas peças — uma perna e uma antena. «E trabalha cientificamente», refletiu a menina, notando que antes de tratar do doente o doutor nunca deixava de fazer o «respectivo diagnóstico».
 
 — Amanhã sem falta vou levar Emília ao consultório dele, disse ela ao príncipe.
 
@@ -441,7 +521,7 @@ O peixinho gritou para o mordomo que achasse a boneca sem demora.
 
 Enquanto isso o baile prosseguia. Vieram as libélulas, que gozam a fama de serem as mais leves dançarinas do mundo. De fato! Dançam sem tocar os pezinhos no chão — voando o tempo inteiro. Estava a linda valsa das libélulas na metade quando o mordomo reapareceu, muito aflito.
 
-— Dona Emília foi assaltada por algum bandido! foi dizendo. Está lá na gruta dos tescuros estendida no chão como morta.
+— Dona Emília foi assaltada por algum bandido! foi dizendo. Está lá na gruta dos tesouros estendida no chão como morta.
 
 De um salto Narizinho pulou do trono para correr em salvação da sua querida amiga. Encontrou-a caída por terra, com o rosto arranhado, sem dar o menor acordo de si. O doutor Caramujo, chamado com urgência, despertou-a logo com um bom beliscão, depois do indispensável «diagnóstico».
 
@@ -567,15 +647,15 @@ Emília empertigou-se toda e começou a dizer na sua falinha fina de boneca de p
 
 — Da mantilha, Emília!
 
-— Do Cobertor.
+— Do COBERTOR.
 
 — Mantilha, boba!
 
-— Cobertor. Foi saindo com ela debaixo do Cobertor e eu vi e pulei para cima dela. Mas a coroca me unhou a cara e me bateu com a casca na cabeça, com tanta força que dormi. Só acordei quando o doutor Cara de Coruja...
+— COBERTOR. Foi saindo com ela debaixo do COBERTOR e eu vi e pulei para cima dela. Mas a coroca me unhou a cara e me bateu com a casca na cabeça, com tanta força que dormi. Só acordei quando o doutor Cara de Coruja...
 
 — Doutor Caramujo, Emília!
 
-— Doutor Cara De Coruja. Só acordei quando o doutor Cara De CORUJÍSSIMA me pregou um liscabão.
+— Doutor CARA DE CORUJA. Só acordei quando o doutor CARA DE CORUJÍSSIMA me pregou um liscabão.
 
 — Beliscão, emendou Narizinho pela última vez, enfiando a boneca no bolso. Viu que a fala da Emília ainda não estava bem ajustada, coisa que só o tempo poderia corrigir. Viu também que era de gênio teimoso, e asneirenta por natureza, pensando a respeito de tudo de um modo especial todo seu.
 
@@ -774,7 +854,7 @@ E a boneca contou direitinho o triste fim da pobre vespa.
 
 — Orador, Emília!
 
-— Fazedor De Discursos. Veio ele, de discursinho debaixo do braço, escrito num papel e leu, leu, leu, que não acabava mais. As formigas ficaram aborrecidas com o besourinho (era um besourinho do Instituto Histórico) e apitaram. Apareceu um louva-a-deus soldado, de pauzinho na mão. «Que há?» perguntou. «Há que estamos cansadas e com fome e este famoso orador não acaba nunca o seu discurso. Está muito pau,» disseram as formigas. «Para pau, pau!» resolveu o soldado — e arrolhou o orador com o seu pauzinho.
+— FAZEDOR DE DISCURSOS. Veio ele, de discursinho debaixo do braço, escrito num papel e leu, leu, leu, que não acabava mais. As formigas ficaram aborrecidas com o besourinho (era um besourinho do Instituto Histórico) e apitaram. Apareceu um louva-a-deus soldado, de pauzinho na mão. «Que há?» perguntou. «Há que estamos cansadas e com fome e este famoso orador não acaba nunca o seu discurso. Está muito pau,» disseram as formigas. «Para pau, pau!» resolveu o soldado — e arrolhou o orador com o seu pauzinho.
 
 As formigas, muito contentes, continuaram o serviço e levaram para o fundo da cova o cadáver da vespa. Em seguida apareceu uma com um letreiro assim, que fincou num montinho de terra:
 
@@ -942,7 +1022,7 @@ Havia de ser isso mesmo, porque logo depois chegou uma terceira, muito apressada
 
 E disparou em direção da porteira. Procura que procura, logo achou, perto dum tijuco mole, uma pobre minhoca corcoveando com várias formiguinhas ferradas no seu lombo.
 
-Teve vontade de libertar a prisioneira, mas a curiosidade de de ver o que aconteceria foi maior — deixou a triste minhoca entregue ao seu trágico destino.
+Teve vontade de libertar a prisioneira, mas a curiosidade de ver o que aconteceria foi maior — e deixou a triste minhoca entregue ao seu trágico destino.
 
 Novas formiguinhas foram chegando, que de um bote — «zás!»... ferravam a minhoca sem dó. Não demorou muito e já eram mais de vinte. A minhoca bem que espinoteou; por fim, exausta, foi moleando o corpo até que morreu, bem morrida. As formiguinhas então principiaram a arrastá-la para o formigueiro.
 
@@ -1234,7 +1314,7 @@ A borboleta lá se foi, amedrontada e desapontadíssima.
 
 — Sabe sim! retorquiu a boneca. São umas sabidíssimas as senhoras borboletas. Se sabem fabricar pó azul para as asas, que é coisa dificílima, como não hão de saber o endereço dum borboletograma?
 
-Narizinho fez cara de quem diz: «Ninguém pode entender como funciona a cabeça da Emília! Ora raciocina uito bem, tal qual gente. Outras vezes, é assim — tão torto que deixa uma pessoa atrapalhada...»
+Narizinho fez cara de quem diz: «Ninguém pode entender como funciona a cabeça da Emília! Ora raciocina muito bem, tal qual gente. Outras vezes, é assim — tão torto que deixa uma pessoa atrapalhada...»
 
 O cavalo pangaré veio, a menina montou e lá partiram todos pela estrada afora — «pác, pác, pác...» Em certo ponto Narizinho disse à boneca:
 
@@ -1627,7 +1707,7 @@ A rainha sorriu.
 
 — Parece, menina. Mas é o jeito. Como não sabem trabalhar e a natureza os fez unicamente para serem esposos da rainha, as abelhas não têm a menor consideração por eles depois que a rainha elege um para esposo. Trucidam-nos e lançam os cadáveres para fora da colmeia. Estas minhas filhas acham que o sentimentalismo não dá bom resultado em matéria de organização social.
 
-Narizinho, cada vez mais admirada da inteligência da rainha, murmurou ao ouvido da boneca: «Vê, Emília? Isto é que é falar bem! Até parece aquele filofoso que vovó às vezes lê, o tal Rou... Rou... Rousseau, creio.»
+Narizinho, cada vez mais admirada da inteligência da rainha, murmurou ao ouvido da boneca: «Vê, Emília? Isto é que é falar bem! Até parece aquele filósofo que vovó às vezes lê, o tal Rou... Rou... Rousseau, creio.»
 
 Nisto um «trrrlin, trrrlin» de esporas ressoou perto. Voltaram-se todos. Era Tom-Mix que entrava. O cowboy correu os olhos pela sala. Logo que deu com Narizinho, dirigiu-se para ela, dizendo:
 
@@ -1880,7 +1960,7 @@ Rabicó não ligou a mínima importância àquelas palavras. Tratou mas foi de e
 
 — Senhora condessa, acho que é tempo de mudar de vida. Precisa casar-se, senão é capaz de ficar tia. Amanhã vem cá um distinto cavalheiro pedir a mão de vossa excelência.
 
-Emília andava bem de saúde, gorda e corada. Tia Nastácia havia enchido de macena nova a perninha que fora saqueada no passeio ao Reino das Abelhas e Narizinho havia concertado uma das suas sobrancelhas de retrós, que estava desfiando. Além disso, pintara-lhe nas faces duas rodelas de carmim, bem redondinhas.
+Emília andava bem de saúde, gorda e corada. Tia Nastácia havia enchido de macela nova a perninha que fora saqueada no passeio ao Reino das Abelhas e Narizinho havia concertado uma das suas sobrancelhas de retrós, que estava desfiando. Além disso, pintara-lhe nas faces duas rodelas de carmim, bem redondinhas.
 
 Emília não se mostrava disposta a casar. Dizia sempre que não tinha gênio para aturar marido, além de que não via lá pelo seu sítio ninguém que a merecesse.
 
@@ -1916,7 +1996,7 @@ Enquanto a boneca se vestia, a menina correu ao pomar em procura de Pedrinho, qu
 
 — Acreditou piamente e declarou que nesse caso aceitará Rabicó como esposo, embora não vá morar com ele enquanto não virar príncipe novamente.
 
-Pedrinho fez como ela pediu. Arranjou um bom sabubo, ainda com umas palhinhas no pescoço que fingiam barba muito bem, botou-lhe braços e pernas, fez cara, com nariz, boca, olhos e tudo — e não esqueceu de marcar-lhe a testa com um sinal de coroa de rei. Depois enterrou-lhe na cabeça uma cartolinha e lá foi com ele à casa da boneca.
+Pedrinho fez como ela pediu. Arranjou um bom sabugo, ainda com umas palhinhas no pescoço que fingiam barba muito bem, botou-lhe braços e pernas, fez cara, com nariz, boca, olhos e tudo — e não esqueceu de marcar-lhe a testa com um sinal de coroa de rei. Depois enterrou-lhe na cabeça uma cartolinha e lá foi com ele à casa da boneca.
 
 — Tóc, tóc, tóc, bateu.
 
@@ -2285,7 +2365,7 @@ Enquanto as velhas discutiam o estranho caso, Pedrinho fez a carta de resposta. 
 
 Imediatamente os peixinhos escoteiros se aproximaram. Cheiraram a concha, viram que havia resposta dentro e com fortes narigadas a derrubaram n'água, voltando a rolar com ela pelo fundo do rio.
 
-Quando o príncipe leu a resposta de Narizinho quase morreu de alegria. Apesar de ser a carta mais curta do mundo, pois se compunha apenas duma palavra —  «Sim!» — o príncipe perdeu a compostura, dando pinotes em cima do trono que até parecia um peixe pescado e largado no seco.
+Quando o príncipe leu a resposta de Narizinho quase morreu de alegria. Apesar de ser a carta mais curta do mundo, pois se compunha apenas duma palavra —  «SIM!» — o príncipe perdeu a compostura, dando pinotes em cima do trono que até parecia um peixe pescado e largado no seco.
 
 Os ministros e demais fidalgos da corte trocaram olhares de aflição. Teria enlouquecido o amado príncipe?
 
@@ -2387,7 +2467,7 @@ Emília gostou muito do polvo.
 
 — Ele que coma o brinco duma vez, respondeu a boneca. Toda essa tristeza de Rabicó é vontade de comer o brinco.
 
-Rabicó passou a língua pelos beiços, com uma olhadela para o bodoque de  edrinho — e suspirou.
+Rabicó passou a língua pelos beiços, com uma olhadela para o bodoque de Pedrinho — e suspirou.
 
 Enquanto isso Pedrinho conversava com o doutor Caramujo a respeito da serpente do mar.
 
@@ -2645,7 +2725,7 @@ Os tais couraceiros eram uns terríveis caranguejos rajados, de casca rija como 
 
 — No camarote número 7, bem no fundo, respondeu Pedrinho em voz baixa para que o polvo não ouvisse.
 
-Os couraceiros foram avançando pé ante pé. Foram avancando e, de repente, deram um pulo, todos ao mesmo tempo e «fulminaram» o polvo. Sim, fulminaram. Como viessem montados em peixes elétricos ficaram carregadíssimos de eletricidade, como pilhas, e assim, mal seus ferrões tocaram o polvo, produziu-se um terrível choque elétrico que o fulminou. E não fulminou Rabicó também? Não. Rabicó agarrara-se por acaso a um para-raio que havia ali.
+Os couraceiros foram avançando pé ante pé. Foram avançando e, de repente, deram um pulo, todos ao mesmo tempo e «fulminaram» o polvo. Sim, fulminaram. Como viessem montados em peixes elétricos ficaram carregadíssimos de eletricidade, como pilhas, e assim, mal seus ferrões tocaram o polvo, produziu-se um terrível choque elétrico que o fulminou. E não fulminou Rabicó também? Não. Rabicó agarrara-se por acaso a um para-raio que havia ali.
 
 Assim que se viu solto dos tentáculos do monstro, correu ele, coin, coin, coin, para onde estava o menino. Mas apesar de salvo continuava, coin, coin, coin, como se ainda estivesse sofrendo alguma coisa. Pedrinho examinou-o. O pobre marquês estava com um siri ferrado na pontinha da cauda!
 
@@ -2701,7 +2781,7 @@ Quem mandava no reino já era Narizinho. Um desejo seu valia por ordem terminant
 
 As portas do palácio abriram-se afinal e os três aventureiros surgiram. Emília incontinenti notou qualquer coisa estranha na ponta da cauda do marquês.
 
-— Que é que Rabicó tem na cauda? interrogou ela firmando a vista. Parece que o laço de fita virou siri... e correu para ver bem. Verificando que era siri mesme, desmaiou de vergonha — ah!...
+— Que é que Rabicó tem na cauda? interrogou ela firmando a vista. Parece que o laço de fita virou siri... e correu para ver bem. Verificando que era siri mesmo, desmaiou de vergonha — ah!...
 
 Houve grande rebuliço. Toda a corte correu a ampará-la. Veio às pressas o doutor Caramujo, que lhe tomou o pulso demoradamente.
 
@@ -3354,7 +3434,7 @@ Narizinho enjoou-se tanto da burrice da Emília que a enfiou de cabeça para bai
 
 Justamente nesse instante a vaca deu um mugido. O príncipe, que não esperava por aquilo, caiu para traz com o susto.
 
-— Coitadinho do meu maridinho! exclamou a menina precipitando-se para erguê-lo. Não precisa assustar-se assim, bobo. A mocha dá esses berros só de brincadeira — e ajudou-o a arrumar diversar escamas que haviam saído do lugar.
+— Coitadinho do meu maridinho! exclamou a menina precipitando-se para erguê-lo. Não precisa assustar-se assim, bobo. A mocha dá esses berros só de brincadeira — e ajudou-o a arrumar diversas escamas que haviam saído do lugar.
 
 O príncipe, entretanto, não quis mais saber de histórias. Pálido ainda do susto, pediu para voltar para casa.
 
@@ -3593,7 +3673,7 @@ Um dia me deu na cabeça viajar. Fui ao porto e vi lá uma porção de navios, u
 
 — Sim, ia afundar, continuou o gato. Tinha arrebentado a proa e estava bebendo água que nem uma esponja. Os marinheiros corriam de um lado para outro, como doidos. Uns tomavam os escaleres, outros amarravam à cintura os salva-vidas, outros lançavam-se à água.
 
-Eu disse comigo: «E agora, Félix, que vai ser de ti?» Pensei, pensei, pensei e por fim tive uma ideia, A única salvação seria fazer-me engolir vivo por algum dos tubarões que rodeavam o navio, com as bocas abertas e aquelas dentuças que mais pareciam serras.
+Eu disse comigo: «E agora, Félix, que vai ser de ti?» Pensei, pensei, pensei e por fim tive uma ideia. A única salvação seria fazer-me engolir vivo por algum dos tubarões que rodeavam o navio, com as bocas abertas e aquelas dentuças que mais pareciam serras.
 
 — Credo! exclamou outra vez tia Nastácia, fazendo o sinal da cruz. É por essas e outras que nunca hei de sair do meu cantinho...
 
@@ -3673,7 +3753,7 @@ Aceitei o conselho da velha e fui andando, andando, andando até que encontrei u
 
 — Encontrei outra velha, muito velha, e perguntei: «A senhora...»
 
-— Etc., etc., disse Emília. E que que ela respondeu?
+— Etc., etc., disse Emília. E que é que ela respondeu?
 
 O gato Félix, ainda mais desapontado, continuou:
 
@@ -3927,7 +4007,7 @@ Pedrinho foi brincar, deixando o Visconde mergulhado em profunda meditação.
 
 Estava um dia muito lindo de sol quente. Dona Benta sentou-se na sua cadeira de pernas serradas, para acabar um vestido de Narizinho, e a menina ficou ao lado dela para enfiar a agulha e virar a máquina.
 
-Emília tinha ido para a varanda, balançar-se numa pequena rede especialmente armada para ela num canto. A boneca estava pensando na vida, com ideias de virar escritora de histórias. Nisto o gato Félix, que ia passando, resolveu parar. Sentou-se sobre as patas traseiras e cravou os olhos na boneca, enquanto sua cauda ia desenhando preguiçosos «Ss» no ar.
+Emília tinha ido para a varanda, balançar-se numa pequena rede especialmente armada para ela num canto. A boneca estava pensando na vida, com ideias de virar escritora de histórias. Nisto o gato Félix, que ia passando, resolveu parar. Sentou-se sobre as patas traseiras e cravou os olhos na boneca, enquanto sua cauda ia desenhando preguiçosos «SS» no ar.
 
 — Que tanto olha para mim? disse de repente Emília. Nunca me viu?
 
@@ -4023,13 +4103,13 @@ Aquilo era indireta para Emília, que se remexeu toda, já danadinha e pronta pa
 
 O visconde não se atrapalhou com o aparte. Limitou-se a lançar sobre o gato um olhar terrível e a dizer :
 
-— Não é discurso não, senhor gato! É outra coisa, e uem vai explicar o que é, não sou eu e sim aquela senhora vassoura, que ali está ao lado de tia Nastácia...
+— Não é discurso não, senhor gato! É outra coisa, e quem vai explicar o que é, não sou eu e sim aquela senhora vassoura, que ali está ao lado de tia Nastácia...
 
 Todos olharam muito espantados para o visconde, sem compreenderem o que ele queria dizer com aquilo.
 
 Em seguida o visconde recomeçou :
 
-— Meus senhores e senhoras! A história que vou contar não foi lida em livro nenhum, mas é o resultado dos meus estudos científicos e criminalogicos.
+— Meus senhores e senhoras! A história que vou contar não foi lida em livro nenhum, mas é o resultado dos meus estudos científicos e criminologicos.
 
 — Fale menos difícil, visconde, senão ninguém o entende, exclamou Emília.
 
@@ -4734,7 +4814,7 @@ Emília foi abrir. Era uma baratinha de mantilha — a célebre dona Carocha...
 
 — Vim buscar a lâmpada de Aladino, a vara de condão de Cinderela e as botas do Gato de Botas. Esses maluquinhos, com a pressa de voltarem, esqueceram-se desses objetos aqui.
 
-Foi um desapontamento geral. Emília quis mentir, dizendo que não havia ali, nem bota, nem vara, nem lâmpada. Narizinho teve ímpetos de se atracar com a velha. Pedrinho chegou a olhar para o bodoque. Mas dona Benta estava na salinha próxima e dona Benta fazia muita questão que seus netos respeitas sem os mais velhos. Por isso resignaram-se a entregar aquelas preciosidades.
+Foi um desapontamento geral. Emília quis mentir, dizendo que não havia ali, nem bota, nem vara, nem lâmpada. Narizinho teve ímpetos de se atracar com a velha. Pedrinho chegou a olhar para o bodoque. Mas dona Benta estava na salinha próxima e dona Benta fazia muita questão que seus netos respeitassem os mais velhos. Por isso resignaram-se a entregar aquelas preciosidades.
 
 — Pois leve, disse Narizinho contendo-se a custo. Mas fique sabendo que o que lhe vale é vovó estar aí na salinha. Se não fosse isso...
 
@@ -4829,7 +4909,7 @@ O velho sábio parece que tinha alguma paixão oculta pela boneca, pois apressou
 
 — Pois então venha comigo, e Emília, sem mais cerimônias, o levou para certo lugar no campo, para lá da porteira, onde havia um velho tronco de pau, caído à beira do caminho que ia ter à floresta.
 
-— Pedrinho, disse ela, costuma passar por aqui quando volta da mata onde anda procurando o pau vivente. E como está que não pode passar por perto de pau nenhum sem dar um golpe, já estou vendo o jeitinho dele: chega, para e — pan! machadada neste trouco. Pois bem, vosmecê me vai ficar escondido num oco deste pau, e assim que ele chegar, parar e der o golpe, vosmecê vai gemer — mas gemer bem gemido, com voz rouca de pau velho, está entendendo?
+— Pedrinho, disse ela, costuma passar por aqui quando volta da mata onde anda procurando o pau vivente. E como está que não pode passar por perto de pau nenhum sem dar um golpe, já estou vendo o jeitinho dele: chega, para e — pan! machadada neste tronco. Pois bem, vosmecê me vai ficar escondido num oco deste pau, e assim que ele chegar, parar e der o golpe, vosmecê vai gemer — mas gemer bem gemido, com voz rouca de pau velho, está entendendo?
 
 — Mas para que isso? atreveu-se o sábio a perguntar.
 
@@ -4931,7 +5011,7 @@ Narizinho desconfiou da insistência e daquela mão no bolso.
 
 Narizinho agarrou-a e, tirando-lhe a mão do bolso à força, viu que havia nela um papelzinho do mesmo tamanho e enrolado do mesmo jeito que os que Pedrinho pusera no chapéu.
 
-Foi um escândalo. Todos a criticaram, achando muito feio aquele procedimento; depois caíram na gargalhada, ao lerem o que estava no papelzinho. Emília, em vez de escrever o seu nome, havia escrito, na sua letrinha torta de boneca de pano — Eu!
+Foi um escândalo. Todos a criticaram, achando muito feio aquele procedimento; depois caíram na gargalhada, ao lerem o que estava no papelzinho. Emília, em vez de escrever o seu nome, havia escrito, na sua letrinha torta de boneca de pano — EU!
 
 — Ché, que fiasco! exclamou tia Nastácia pendurando o beiço. Nunca vi ação mais feia. Eu, se fosse dona Benta, não deixava que essa cavorteiragem fosse passando assim sem mais sem menos. Dava umas palmadinhas nela, ah, isso dava mesmo! Onde se viu querer empulhar a gente dessa maneira? Credo!
 
@@ -4945,7 +5025,7 @@ Era a primeira repreensão que Emília levava de dona Benta. Sua vontade foi de 
 
 Terminado o incidente, prosseguiu-se na tirada da sorte.
 
-Dona Benta meteu a mão no chapéu e pescou um dos papéis. Abriu-o e leu — «Tia NASTÁCIA».
+Dona Benta meteu a mão no chapéu e pescou um dos papéis. Abriu-o e leu — «TIA NASTÁCIA».
 
 Foi um desapontamento geral. Ninguém esperou que a sorte fosse tão burra de escolher justamente a autora do desenho mais feio. Mas a Sorte é a Sorte; o que ela decide está decidido e ninguém pode reclamar. Em vista disso a negra ficou encarregada de dar forma humana ao pedaço de pau vivente, pondo assim no mundo o irmão de Pinocchio.
 
@@ -4963,7 +5043,7 @@ Emília estava seriamente ofendida e sem dúvida nenhuma preparava-se para algum
 
 — ?
 
-— Boa? Está muito enganado. Mais malvada que ela só o Barba Azul. Você é porque é novo nesta casa e não a conhece. Tia Nastácia não tem dó de nada. Pega aqueles frangos tão lindos e — zás! torce-lhes o pescoço. Mata patos, mata perus, mata camundongos — não há o que não mate. Outro dia, no Natal, a diaba assassinou um irmão de Rabicó, tão bonitinho! Pegou naquela faca de ponta que mora na cozinha e — fuq_t_! enfiou dentro dele, até lá no fundo. E pensa que foi só isso? Está enganado! Depois pelou o coitadinho numa água bem fervendo e assou o coitadinho num forno tão quente que nem se podia chegar perto.
+— Boa? Está muito enganado. Mais malvada que ela só o Barba Azul. Você é porque é novo nesta casa e não a conhece. Tia Nastácia não tem dó de nada. Pega aqueles frangos tão lindos e — zás! torce-lhes o pescoço. Mata patos, mata perus, mata camundongos — não há o que não mate. Outro dia, no Natal, a diaba assassinou um irmão de Rabicó, tão bonitinho! Pegou naquela faca de ponta que mora na cozinha e — fuqt! enfiou dentro dele, até lá no fundo. E pensa que foi só isso? Está enganado! Depois pelou o coitadinho numa água bem fervendo e assou o coitadinho num forno tão quente que nem se podia chegar perto.
 
 — ?
 
@@ -5249,7 +5329,7 @@ Era ali a casa da menina da Capinha Vermelha, cuja avó havia sido devorada pelo
 
 Narizinho contou então tudo o que lhe havia acontecido e a terrível desgraça que sucedera a Fazdeconta.
 
-— Que coincidência! exclamou Capinha. Imagina que eu estava agora há pouco tomando banho no ribeirão e un objeto, feito castanha de caju, veio rolando pela água abaixo e esbarrou em mim. Peguei-o, olhei e vi que era uma cabeça, com boca, nariz e tudo. Quem sabe se não é a cabeça de Fazdeconta? Está no bolso do meu aventalzinho. Espera aí que vou buscá-la.
+— Que coincidência! exclamou Capinha. Imagina que eu estava agora há pouco tomando banho no ribeirão e um objeto, feito castanha de caju, veio rolando pela água abaixo e esbarrou em mim. Peguei-o, olhei e vi que era uma cabeça, com boca, nariz e tudo. Quem sabe se não é a cabeça de Fazdeconta? Está no bolso do meu aventalzinho. Espera aí que vou buscá-la.
 
 Foi lá dentro e trouxe a cabeça.
 
@@ -5424,21 +5504,21 @@ Passados os três dias de repouso, o visconde pulou da sua lata e foi passear pe
 
 Dali a pouco o programa estava pronto — e que lindo!
 
-| Grande Circo De ESCAVALINHO
+| GRANDE CIRCO DE ESCAVALINHO
 | equestre e pedestre dirigido por
-| Pedro MALAZARTE ESCAVALINHO Da Silva
+| PEDRO MALAZARTE ESCAVALINHO DA SILVA
 | no Sítio do Pica-Pau Amarelo
 | A famosa Emília correrá no seu cavalo de rabo de pena
 | O incrível homem que come fogo e engole espadas
 | O célebre palhaço Sabugueira
 | (rir, rir, rir...)
-| A monumental pantomima O PANTASMA Da Ópera
-| O espetáculo terminará com uma sensacionalíssima Surpresa
+| A monumental pantomima O PANTASMA DA ÓPERA
+| O espetáculo terminará com uma sensacionalíssima SURPRESA
 | Os espectadores terão direito a uma cocada ou pé de moleque da célebre
 | doceira ANASTAZIMOVA
-| HOJE   HOJE   HOJE
-| Ver Para Crer
-| Preços: cadeiras — 1$000; arquibancadas — 100 reis.
+| HOJE HOJE HOJE
+| VER PARA CRER
+| Preços: cadeiras — 1$000; arquibancadas — 100 réis.
 | Observação: é expressamente proibido entrar por baixo do pano
 
 — Está muito bom, aprovou a menina. Só falta a música.
@@ -5536,7 +5616,7 @@ A boneca deu uma risadinha cavorteira e foi correndo para dentro.
 
 — Essa fica para o fim, concluiu o menino, pondo o machadinho ao ombro e partindo para a floresta.
 
-Na tarde desse dia dona Benta caiu numa grande aflição. Imaginem que  tinha perdido os óculos e não podia costurar, nem fazer coisa nenhuma. «Sem óculos não sou gente», costumava dizer. Nastácia e Narizinho já haviam batido a casa inteira, mas nem rasto encontraram dos de dona Benta».
+Na tarde desse dia dona Benta caiu numa grande aflição. Imaginem que  tinha perdido os óculos e não podia costurar, nem fazer coisa nenhuma. «Sem óculos não sou gente», costumava dizer. Nastácia e Narizinho já haviam batido a casa inteira, mas nem rasto encontraram dos «olhos de dona Benta».
 
 Nisto a boneca aproximou-se da pobre senhora, dizendo com o seu arzinho de santa:
 
@@ -5664,7 +5744,7 @@ Ser delegado de polícia era para tia Nastácia a coisa mais importante que um h
 
 Depois de construído o circo, começaram os ensaios. Pedrinho e a menina lá se trancavam com os artistas, não consentindo que ninguém os fosse espiar. Maroto havia chegado e já estava no serviço de montar guarda à porta, para que nem dona Benta ou a preta pudessem se aproximar. Maroto tinha ordem de latir, de morder não.
 
-Terminados os ensaios da primeira parte, Pedrinho cuidou da pantomima. Foi um custo! Essa pantomima tinha sido imaginada por Pedrinho de um certo jeito, mas como todos meteram o bedelho, saiu uma mexida danada. Emília fez questão de dar o título — e deu um título muito sem pé nem cabeça: O PANTASMA Da Ópera.
+Terminados os ensaios da primeira parte, Pedrinho cuidou da pantomima. Foi um custo! Essa pantomima tinha sido imaginada por Pedrinho de um certo jeito, mas como todos meteram o bedelho, saiu uma mexida danada. Emília fez questão de dar o título — e deu um título muito sem pé nem cabeça: O PANTASMA DA ÓPERA.
 
 — Phantasma, Emília, corrigiu Narizinho. PH é igual a F, como você pode ver nesta caixa de phosphoros. Ninguém lê POSPORO.
 
@@ -5674,9 +5754,9 @@ Terminados os ensaios da primeira parte, Pedrinho cuidou da pantomima. Foi um cu
 
 — Mas eu tenho as minhas razões. Pantasma nada tem que ver com fantasma. Pantasma é uma ideia que tenho na cabeça há muito tempo, de um bicho que até agora ainda não existiu no mundo. Tem olhos nos pés, tem pés no nariz, tem nariz no umbigo, tem umbigo no calcanhar, tem calcanhar no cotovelo, tem cotovelos nas costelas, tem costelas no...
 
-— Chega, Emília! berrou a menina tapando os ouvidos. Não precisa contar o bicho inteiro. Fica Pantasma, como você quer. Mas esse Ópera, que é?
+— Chega, Emília! berrou a menina tapando os ouvidos. Não precisa contar o bicho inteiro. Fica Pantasma, como você quer. Mas esse ÓPERA, que é?
 
-— Não sei. Acho ópera um nome bonito e por isso o escolhi. Se você faz muita questão, eu tiro o ER e fica o PANTASMA Da Opa. É o mais que eu posso fazer.
+— Não sei. Acho ópera um nome bonito e por isso o escolhi. Se você faz muita questão, eu tiro o ER e fica o PANTASMA DA OPA. É o mais que eu posso fazer.
 
 Os dois meninos se entreolharam.
 
@@ -5726,7 +5806,7 @@ Pedrinho ia fazendo as apresentações e acomodando os convidados nos seus lugar
 
 — Cocadas só no intervalo, respondeu Emília. São de três qualidades. Umas brancas como neve, outras cor de rosa como rosa cor de rosa, outras queimadinhas como rapadura. Tia Nastácia é uma danada para toda a sorte de doces e quitutes. Só não sabe fazer bonecos de pau. Fez o Fazdeconta tão feio que o coitado não tem coragem de aparecer para ninguém.
 
-Chegada a hora de se acenderem os lampiões, entrou no picadeiro um «casaca de ferro». Era o pobre Fasdeconta, com a sua ponta de prego furando as costas da casaca verde que a menina lhe havia feito. Foi uma vaia.
+Chegada a hora de se acenderem os lampiões, entrou no picadeiro um «casaca de ferro». Era o pobre Fazdeconta, com a sua ponta de prego furando as costas da casaca verde que a menina lhe havia feito. Foi uma vaia.
 
 — Olha o arara! gritou o capitão dos couraceiros.
 
@@ -5804,11 +5884,11 @@ Foi recebida com uma chuva de palmas. Emília fez uma graciosa saudação de cab
 
 Tia Nastácia não disse nada; apenas murmurou «Credo!» e persignou-se.
 
-Quando chegou o momento de pular os arcos, surgiu lá de dentro Fazdeconta com dois arcos na mão. Coitado! Estava mais feio do que nunca, na roupa de cow-boy que Narizinho lhe arranjara. Aladino virou-se para o Gato de Botas e disse: «Este é que é o verdadeiro Cavaleiro da Triste Figura», e o Polegar berrou: «Arranca o prego!»
+Quando chegou o momento de pular os arcos, surgiu lá de dentro Fazdeconta com dois arcos na mão. Coitado! Estava mais feio do que nunca, na roupa de cowboy que Narizinho lhe arranjara. Aladino virou-se para o Gato de Botas e disse: «Este é que é o verdadeiro Cavaleiro da Triste Figura», e o Polegar berrou: «Arranca o prego!»
 
 Aquele prego de Fazdeconta, cuja cabeça aparecia quando ele estava sem chapéu e cuja ponta furava as costas de todos os seus casacos, era um eterno assunto de discussão no sítio. Pedrinho achava que deviam chamar o doutor Caramujo para operá-lo, cortando com a sua serrinha o extravagante apêndice. Mas a menina era de opinião que tal ponta de prego constituía a única arma de defesa do coitado. Além disso, era um bom cabide que ela costumava utilizar nos seus passeios com a boneca. Para pendurar coisas leves, como o chapéu ou o guarda-chuvinha da Emília, nada melhor. E foi em vista dessa utilidade que a ponta de prego ficou toda a vida nas costas do coitado.
 
-Fazdeconta não ligou importância às troças que o público fez à custa dele. Trepou num banquinho e segurou com toda a convicção o arco de papel vermelho que Emília ia pular. A boneca botou o cavalo no galope, correu duas voltas e na terceira — zupt! deu um salto. Furou o arco, indo cair do outro lado, depézinha sobre o cavalo.
+Fazdeconta não ligou importância às troças que o público fez à custa dele. Trepou num banquinho e segurou com toda a convicção o arco de papel vermelho que Emília ia pular. A boneca botou o cavalo no galope, correu duas voltas e na terceira — zupt! deu um salto. Furou o arco, indo cair do outro lado, depezinha sobre o cavalo.
 
 Os espectadores romperam em palmas delirantes.
 
@@ -5846,13 +5926,13 @@ O curioso é que o boneco melhorou bastante de aspecto. Ficou bem menos feio, po
 
 Fazdeconta foi levado para dentro e o público, chefiado pelo Pequeno Polegar, continuou a pedir palhaço. E como Pedrinho não conseguisse encontrar o visconde, teve de aparecer com explicações.
 
-— Respeitável público! disse ele. Uma grande desgraça aconteceu. O nosso famoso palhaço Sabugueira acaba de desaparecer misteriosamente. Algum malvado o raptou, com certeza, de modo que não há mais palhaço. Também não há mais pantomima. A senhora Emília, que desempenhava nela o principal papel, está emburrada e recusa-se a representar. Em vista desses contratempos, vou terminar o espetáculo com a Surpresa!
+— Respeitável público! disse ele. Uma grande desgraça aconteceu. O nosso famoso palhaço Sabugueira acaba de desaparecer misteriosamente. Algum malvado o raptou, com certeza, de modo que não há mais palhaço. Também não há mais pantomima. A senhora Emília, que desempenhava nela o principal papel, está emburrada e recusa-se a representar. Em vista desses contratempos, vou terminar o espetáculo com a SURPRESA!
 
 Uns espectadores bateram palmas: outros assobiaram e o Gato Félix gritou:
 
 — Cocada, ao menos!
 
-Nisto entrou a Surpresa. Era — adivinhem se são capazes! Era um elefante, o menor elefante do mundo, como Pedrinho foi dizendo enquanto arrumava no picadeiro as garrafas sobre as quais o elefantinho ia caminhar.
+Nisto entrou a SURPRESA. Era — adivinhem se são capazes! Era um elefante, o menor elefante do mundo, como Pedrinho foi dizendo enquanto arrumava no picadeiro as garrafas sobre as quais o elefantinho ia caminhar.
 
 Foi um verdadeiro sucesso, a surpresa. Era um elefante tão perfeito que até parecia artificial — com tromba, presas de marfim e grandes orelhas caídas. Deu umas voltas pelo picadeiro, naquele andar sossegado dos elefantes grandes e depois começou a caminhar com muito medo em cima das garrafas que Pedrinho colocara de jeito.
 
@@ -5864,9 +5944,9 @@ Tamanho susto levou o elefante que tremeu em cima das garrafas, vindo ao chão. 
 
 Foi um sucesso! O circo quase veio abaixo de tanta vaia e gritaria. Pedrinho entrou no picadeiro furioso e caiu de pontapés no Maroto, enquanto Rabicó fugia a bom fugir para o terreiro.
 
-Para salvar a situação Narizinho entrou nesse momento com um cabo de vassoura com tabuleta na ponta, onde se lia em enormes letras vermelhas: Intervalo.
+Para salvar a situação Narizinho entrou nesse momento com um cabo de vassoura com tabuleta na ponta, onde se lia em enormes letras vermelhas: INTERVALO.
 
-— Intervalo tem dois LL! gritou o Pequeno Polegar.
+— Intervalo tem dois L! gritou o Pequeno Polegar.
 
 Mas ninguém prestou atenção naquilo. Todos só cuidavam de descer o mais depressa possível, de medo que as cocadas não chegassem. Tia Nastácia, no seu vestido de seda do tempo do Imperador, descobriu o tabuleiro, que estava escondido atrás da sua cadeira, e começou a distribuição.
 
@@ -6682,7 +6762,7 @@ Quando o burro desapareceu numa nuvem de pó, lá bem ao longe, o fabulista susp
 — Felicidade, teu nome é juventude!... Em seguida voltou a sentar-se na pedra, à beira do ribeirão, e retomou a conversa com Esopo no ponto em que os meninos a haviam interrompido.` },
     { n: "XI", titulo: "O Pó de Pirlimpimpim", texto: `## Capítulo I — O burro falante
 
-{§ XI.1} Dona Benta estava na cozinha, conversando com tia Nastácia.
+{§ XI.1} Dona BENTA estava na cozinha, conversando com tia Nastácia.
 
 — Que terá acontecido? dizia ela. Os meninos foram ontem para a cama cedo demais. Vi logo que era sinal de grossa travessura para hoje. De manhã, quando me levantei, não vi nenhum. Tinham sumido, sem ao menos tomar café. Por onde andarão os diabretes?
 
@@ -6776,7 +6856,7 @@ O burro compreendeu o medo muito natural da negra. Foi-se chegando devagarinho e
 
 {§ XI.2} Não durou muito aquele medo. Tia Nastácia foi perdendo a cisma que tinha com o burro, acabando grande amiga dele. Era quem o tratava, quem lhe dava milho e água e ainda quem lhe passava a raspadeira todas as semanas, com muito cuidado para o não arranhar.
 
-Emqunto isso, conversava com ele. Ferrava cada prosa tão comprida que a boneca chegou a dizer, piscando os olhinhos de retrós:
+Enquanto isso, conversava com ele. Ferrava cada prosa tão comprida que a boneca chegou a dizer, piscando os olhinhos de retrós:
 
 — Isto ainda me acaba em casamento!...
 
@@ -6856,7 +6936,7 @@ Todos cheiraram o pó de pirlimpimpim, e imediatamente começaram a sentir a vis
 
 — Parece que vou morrer! gritou. Acudam-me!...
 
-— Não tenha medo, vovó! E 'assim mesmo! Este fiunnn dura enquanto estivermos voando. Depois para — sinal de chegada.
+— Não tenha medo, vovó! É assim mesmo! Este fiunnn dura enquanto estivermos voando. Depois para — sinal de chegada.
 
 De fato foi assim. O fiunnn zuniu no ouvido deles por longo tempo e por fim cessou.
 
@@ -7044,7 +7124,7 @@ De fato. Segundos depois aparecia à tona d'água uma aflitíssima cabeça de bu
 
 Entraram os dois pelo mar a dentro, nadando a largas braçadas em direção do náufrago.
 
-— Segurem-no pelo rabo e puxem! berrava Emília da praia. Mas não puixem com muita força, senão arrancam-lhe o rabo!...
+— Segurem-no pelo rabo e puxem! berrava Emília da praia. Mas não puxem com muita força, senão arrancam-lhe o rabo!...
 
 Assim fizeram os salvadores. Um agarrou o burro pelo rabo e o outro pela orelha, e o vieram puxando para terra.
 

@@ -175,7 +175,8 @@ def _juntar(linhas):
 def _obra_ocr(linhas_por_pagina):
     linhas = []
     for pag in linhas_por_pagina:
-        pag = [l.strip().replace('#', '') for l in pag if l.strip() and not LIXO.match(l.strip())]
+        # «_» e «#» do OCR são manchas (o itálico vem de decisoes.ITALICOS, conferido nas imagens)
+        pag = [l.strip().replace('#', '').replace('_', ' ') for l in pag if l.strip() and not LIXO.match(l.strip())]
         pag = [l for l in pag if not TITULO_OCR.match(l)]
         while pag and (CABECO.match(pag[0]) or (CABECO_TXT.match(pag[0]) and len(pag[0]) < 40)):
             pag = pag[1:]

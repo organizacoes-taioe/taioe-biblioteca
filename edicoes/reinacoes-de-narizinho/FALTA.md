@@ -10,20 +10,33 @@ Branch `pedido-reinacoes-de-narizinho`. Pedido do Gere (rodada de 26/11; regras 
   (175 MB, 321 páginas; fotos de um exemplar, com as ilustrações de J. G. Villin, †1979, protegidas até
   2050: nada delas entra). Transcrição do Wikisource sobre esse PDF: 297 páginas de texto, nível 3
   (revisadas uma vez, um transcritor só), salvo PDF 260 e 294 (nível 2).
-- **Faltam no fac-símile as pp. 249 e 282 do livro** (PDF 260 e 294, ambas de «A Penna de Papagaio»):
-  o Wikisource as preencheu com o texto de outra edição, na grafia de hoje («com algumas adaptações»,
-  diz a página do índice). Ver decisão no `revisao.json`.
-- Obras Completas (Brasiliense, 1947, a última revisão do autor): **nenhum fac-símile livre achado**
-  (Brasiliana USP, BN Digital, Internet Archive, Museu Monteiro Lobato, HathiTrust atrás de CAPTCHA;
-  o registro «Reinações de Narizinho» da BBM é a tradução *Las travesuras de Naricita*, Buenos Aires,
-  1944). O Internet Archive `reinacoes-de-narizinho` é um ebook moderno («Digitalização e Revisão Arlindo
-  San»), do texto da Brasiliense, só com as duas primeiras histórias: não serve de base.
-- Segundo testemunho: OCR próprio (Tesseract) das imagens do mesmo PDF
-  (`~/.cache/claude-pedidos-2611/reinacoes-de-narizinho/scr/ocr.sh`: `pdfimages -j` das pp. 9–321, fundo
-  normalizado por `prep.py`, `tesseract -l por --psm 3`, com o Tesseract de `~/.cache/tesseract-local/raiz`).
+- **Faltam no fac-símile as pp. 249 e 282 do livro** (PDF 260 e 294, «A Penna de Papagaio»): o Wikisource
+  as preencheu com o texto de outra edição, na grafia de hoje. Ficam assim (decisão no `revisao.json`).
+- Obras Completas (Brasiliense, 1947): **nenhum fac-símile livre achado** (Brasiliana USP, BN Digital,
+  Internet Archive, Museu Monteiro Lobato; HathiTrust atrás de CAPTCHA; o registro «Reinações de Narizinho»
+  da BBM é a tradução *Las travesuras de Naricita*, Buenos Aires, 1944). Edições gratuitas de 2019: o
+  Internet Archive `reinacoes-de-narizinho` (ebook «Arlindo San», texto da Brasiliense, só as duas primeiras
+  histórias) e o `marques-de-rabico` (Iba Mendes, «Projeto Livro Livre», 2019: diz «publicado
+  originalmente em 1931», mas o texto é o revisto, da Brasiliense). Nenhuma serve de base.
+- Duas leituras próprias das imagens (cópia dos scripts em `ocr/`): `scr/ocr.sh` (fundo normalizado por `scr/prep.py`, `--psm 3`) e
+  `scr/ocr2.sh` (imagem original, `--psm 6`), em `~/.cache/claude-pedidos-2611/reinacoes-de-narizinho/`
+  (imagens: `pdfimages -j` das pp. 9–321 em `dl/pag/NNN.jpg`; Tesseract de `~/.cache/tesseract-local/raiz`).
 
-## Passos
-1. `python3 -I edicoes/reinacoes-de-narizinho/paginas.py` → `1931/paginas.json` (texto de 1931 por página). FEITO.
-2. Comparar com o Tesseract página a página e conferir nas imagens as divergências. EM ANDAMENTO.
-3. Grafia de hoje, montagem das 11 histórias e «Sobre». FALTA.
-4. Vocabulário. FALTA.
+## Como refazer
+1. `python3 -I edicoes/reinacoes-de-narizinho/paginas.py` → `1931/paginas.json`.
+2. `python3 -I edicoes/reinacoes-de-narizinho/comparar.py` → `rel/pontos.tsv` (as duas leituras concordam
+   contra o Wikisource) e `rel/raras.tsv`; `conferir.py <png> <pág>:<palavra>…` recorta as linhas;
+   decisões em `conferencia.tsv` (ws | erro | ok).
+3. `python3 -I edicoes/reinacoes-de-narizinho/montar.py [--publicar]` (grafia: `grafia.py`, decisões:
+   `decisoes.py`, «Sobre»: `notas.py`).
+4. Vocabulário: `edicoes/vocabulario/reinacoes-de-narizinho.json` (100 verbetes, `conferir` ok).
+
+## Estado
+- Texto montado, grafia, «Sobre», `revisao.json` (5 decisões), vocabulário: FEITOS.
+- Conferência: pontos das páginas 9–212 conferidos; FALTA o resto, quando o OCR acabar.
+
+## Dúvidas que ficaram
+- «canudos incões» (p. 216 do livro): assim no impresso; palavra não achada nos dicionários.
+- «philophoso» (Narizinho, p. 70) e «criminalogicos» (o visconde, p. 164) tratados como erros do impresso
+  («philosopho», «criminologicos»); podem ser de propósito.
+- p. 283: a ordem das linhas recompostas (ver `decisoes.py`) é reconstrução nossa.

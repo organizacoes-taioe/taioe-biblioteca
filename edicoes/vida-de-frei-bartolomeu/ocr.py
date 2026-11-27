@@ -60,6 +60,21 @@ def colunas(im):
 UMA_COLUNA = {'bnp1619': range(15, 18), 'ia1619': range(10, 13)}
 
 
+def largura_inteira(im):
+    """Página de 1619 com texto de margem a margem (documentos latinos, cabeços de livro): em quantas de dez
+    faixas o vão do meio tem tinta. Três ou mais: o Tesseract lê a página inteira, achando ele as colunas."""
+    from PIL import Image
+    w, h = im.size
+    tot = 0
+    for k in range(10):
+        y0 = int(h * (0.08 + 0.085 * k))
+        faixa = im.crop((0, y0, w, int(y0 + h * 0.085))).resize((w // 4, 1), Image.BOX)
+        p = [255 - v for v in faixa.get_flattened_data()]
+        lo, hi = int(len(p) * 0.40), int(len(p) * 0.60)
+        tot += min(sum(p[i - 2:i + 3]) for i in range(lo, hi)) > 40
+    return tot >= 3
+
+
 def uma(args):
     nome, n = args
     saida = os.path.join(PASTA, 'tess-' + nome)
@@ -70,13 +85,20 @@ def uma(args):
     exe, env = ambiente()
     with tempfile.TemporaryDirectory(dir=PASTA) as tmp:
         im = imagem(nome, n, tmp)
-        caixas = colunas(im) if nome.endswith('1619') and n not in UMA_COLUNA.get(nome, ()) else [(0, 0, im.size[0], im.size[1])]
-        info = {'tamanho': im.size, 'caixas': caixas}
+        psm = '4'
+        if nome.endswith('1619') and n not in UMA_COLUNA.get(nome, ()):
+            if largura_inteira(im):
+                caixas, psm = [(0, 0, im.size[0], im.size[1])], '3'
+            else:
+                caixas = colunas(im)
+        else:
+            caixas = [(0, 0, im.size[0], im.size[1])]
+        info = {'tamanho': im.size, 'caixas': caixas, 'psm': psm}
         for k, cx in enumerate(caixas):
             suf = 'ab'[k] if len(caixas) > 1 else ''
             png = os.path.join(tmp, f'c{k}.png')
             im.crop(cx).save(png)
-            subprocess.run([exe, png, os.path.join(saida, f'{n}{suf}'), '-l', 'por', '--psm', '4', 'tsv'],
+            subprocess.run([exe, png, os.path.join(saida, f'{n}{suf}'), '-l', 'por', '--psm', psm, 'tsv'],
                            check=True, env=env, stderr=subprocess.DEVNULL)
     json.dump(info, open(marca, 'w'))
     return n

@@ -23,7 +23,7 @@ import testemunhos as T  # noqa: E402
 PESO = {'bnp': 1.0, 'ia': 1.0, 'ga': 0.5, 'r185': 1.0, 'r1818': 1.0, 'gr185': 0.6, 'gr1818': 0.6}
 G1619 = ('bnp', 'ia', 'ga')
 GLIS = ('r185', 'r1818', 'gr185', 'gr1818')
-ORDEM_FORMA = ('r185', 'r1818', 'gr185', 'gr1818', 'bnp', 'ia', 'ga')
+ORDEM_FORMA = ('r185', 'r1818', 'gr185', 'gr1818', 'ia', 'bnp', 'ga')
 SEM_COBERTURA = 12        # 'del' maior que isto: o testemunho não tem o trecho (página que falta), não vota
 
 
@@ -93,7 +93,7 @@ def leituras(n, tests, uns):
 
 
 def k_de(palavras):
-    return ' '.join(k for k in (C.chave(t) for t in palavras) if k)
+    return ''.join(k for k in (C.chave(t) for t in palavras) if k)
 
 
 def votos(lido, grupo):
@@ -115,33 +115,105 @@ def firme(v, minimo=1.5):
     return k if p >= minimo and p > segundo else None
 
 
+def parecidas(a, b):
+    """Chaves próximas (o OCR de 1619 perde ou troca uma letra: ſ, til, «&»)."""
+    if a == b:
+        return True
+    if not a or not b:
+        return False
+    import difflib
+    r = difflib.SequenceMatcher(None, a, b).ratio()
+    return r >= 0.75 or (len(a) <= 3 and len(b) <= 3 and r >= 0.66)
+
+
+_VALIDAS = None
+
+
+def validas():
+    """Chaves de formas que as edições de Lisboa dão pelo menos 3 vezes (palavras de verdade, não erro de OCR)."""
+    global _VALIDAS
+    if _VALIDAS is None:
+        c = collections.Counter()
+        for nome in ('r185', 'r1818'):
+            f = os.path.join(T.PASTA, 'colacao', nome + '.json')
+            if os.path.exists(f):
+                for w in json.load(open(f))['palavras']:
+                    c[C.chave(w['t'])] += 1
+        _VALIDAS = {k for k, n in c.items() if n >= 3}
+    return _VALIDAS
+
+
 def decidir(lido):
-    """lido: {testemunho: [palavras] ou None}. Devolve (chave escolhida, situação)."""
-    v16, _ = votos(lido, G1619)
-    vl, _ = votos(lido, GLIS)
-    k16, kl = firme(v16), firme(vl, 1.5 if sum(vl.values()) > 1.6 else 1.0)
-    if k16 is not None and kl is not None:
-        if k16 == kl:
-            return k16, 'ok'
-        return k16, 'var'
-    tudo = v16 + vl
-    if not tudo:
-        return None, 'nada'
-    k, p = tudo.most_common(1)[0]
-    lados = (k in v16) + (k in vl)
-    if p >= 2.0 and lados == 2 and (len(tudo) == 1 or p > 1.5 * tudo.most_common(2)[1][1]):
-        return k, 'ok'
-    if k16 is not None and not vl:           # Lisboa não cobre (páginas que faltam nas duas edições)
-        return k16, 'ok1619'
-    return k, 'duv'
+    """lido: {testemunho: [palavras] ou None}. Devolve (chave escolhida, situação).
+
+    ok: a chave mais votada com apoio dos dois lados (1619 e Lisboa), soma ≥ 2; ok16: só 1619 cobre e
+    bnp = ia; var: bnp = ia contra Lisboa (fica 1619); okL: 1619 dividido, Lisboa firme e algum leitor de
+    1619 parecido; duv: o resto (conferência nas imagens)."""
+    k = {n: k_de(lido[n]) for n in PESO if lido.get(n) is not None}
+    pontos = collections.Counter()
+    for n, x in k.items():
+        pontos[x] += PESO[n]
+    cruz = [x for x in pontos if any(k.get(n) == x for n in G1619) and any(k.get(n) == x for n in GLIS)]
+    if cruz:
+        x = max(cruz, key=lambda z: pontos[z])
+        if pontos[x] >= 2.0 and pontos[x] >= max(pontos.values()) - 0.5:
+            return x, 'ok'
+    b, i, g = k.get('bnp'), k.get('ia'), k.get('ga')
+    lis = {n: k[n] for n in GLIS if n in k}
+    vl = collections.Counter()
+    for n, x in lis.items():
+        vl[x] += PESO[n]
+    kl = firme(vl, 1.5 if sum(vl.values()) > 1.6 else 1.0)
+    if b is not None and b == i:
+        if not lis:
+            return b, 'ok16'
+        perto = [x for x in lis.values() if x and parecidas(x, b) and all(p in validas() for p in x.split())]
+        if perto:
+            return max(perto, key=lambda x: (vl[x], x)), 'ok'
+        if b == '' and kl:
+            return kl, 'okL'
+        return b, 'var'
+    if kl is not None:
+        if any(parecidas(x, kl) for x in (b, i) if x) or (kl == '' and not b):
+            return kl, 'okL'
+        if kl and sum(1 for n in ('r185', 'r1818') if lis.get(n) == kl) >= 2:
+            return kl, 'okL2'
+        return kl, 'duv'
+    if not lis and b is not None:
+        if g is not None and g != '' and g in (b, i):
+            return g, 'ok16'
+        return b, 'duv1619'
+    if pontos:
+        return pontos.most_common(1)[0][0], 'duv'
+    return None, 'nada'
+
+
+def valida(t):
+    return all(C.chave(p) in validas() or not C.chave(p) for p in t)
 
 
 def forma(lido, k):
-    for nome in ORDEM_FORMA:
-        t = lido.get(nome)
-        if t is not None and k_de(t) == k:
-            return t, nome
-    return None, None
+    """A forma de quem tem a chave: Lisboa antes de 1619; entre elas, a que só tem palavras de verdade."""
+    cands = [(n, lido[n]) for n in ORDEM_FORMA if lido.get(n) is not None and k_de(lido[n]) == k]
+    for n, t in cands:
+        if valida(t):
+            return t, n
+    return (cands[0][1], cands[0][0]) if cands else (None, None)
+
+
+def medoide(lido):
+    """Para as dúvidas: a leitura (palavras de verdade) mais parecida com todas as outras, pesadas."""
+    import difflib
+    k = {n: k_de(lido[n]) for n in PESO if lido.get(n) is not None}
+    melhor = (-1, None)
+    for n, x in k.items():
+        if not valida(lido[n]):
+            continue
+        sc = sum(PESO[m] * difflib.SequenceMatcher(None, x, y).ratio() for m, y in k.items())
+        if sc > melhor[0]:
+            melhor = (sc, x)
+    tot = sum(PESO[m] for m in k)
+    return melhor[1], (melhor[0] / tot if tot else 0)
 
 
 def main():
@@ -152,7 +224,10 @@ def main():
     L = leituras(n, tests, uns)
     saida = []
     cont = collections.Counter()
+    paginas_ok = set(range(15, 18)) | set(range(19, 583))
     for u, (a, b) in enumerate(uns):
+        if pal[a]['p'] not in paginas_ok:
+            continue
         # vão antes da unidade: palavras que algum testemunho tem e a referência não
         lido_ins = {'bnp': []}
         for nome, d in L.items():
@@ -160,7 +235,7 @@ def main():
                 lido_ins[nome] = d['ins'].get(u, [])
         if any(lido_ins.values()):
             k, sit = decidir(lido_ins)
-            if k:
+            if k or sit == 'var':
                 f, quem = forma(lido_ins, k)
                 cont['ins-' + sit] += 1
                 saida.append({'u': u, 'i': a, 'vao': True, 'f': f, 'quem': quem, 'sit': sit,
@@ -172,9 +247,16 @@ def main():
             if d['de'] <= u <= d['ate']:
                 lido[nome] = d['txt'][u]
         k, sit = decidir(lido)
+        conf = None
+        if sit in ('duv', 'duv1619'):
+            km, conf = medoide(lido)
+            if km is not None:
+                k = km
+                if conf >= 0.75:
+                    sit = 'med'
         f, quem = forma(lido, k)
         cont[sit] += 1
-        saida.append({'u': u, 'i': a, 'n': b - a, 'f': f, 'quem': quem, 'sit': sit,
+        saida.append({'u': u, 'i': a, 'n': b - a, 'f': f, 'quem': quem, 'sit': sit, 'conf': conf,
                       'lido': {x: (' '.join(y) if y is not None else None) for x, y in lido.items()}})
     json.dump(saida, open(os.path.join(T.PASTA, 'voto.json'), 'w'), ensure_ascii=False)
     print(dict(cont))

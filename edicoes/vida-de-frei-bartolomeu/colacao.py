@@ -38,9 +38,13 @@ def chave(t):
         return '&'
     t = sem_acento(t).replace('f', 's').replace('v', 'u').replace('j', 'i')
     t = re.sub(r'[^a-zç]', '', t)
+    t = re.sub(r'(?<=[aeiou])(sl|ls|ll|sr)(?=[aeiou])', 's', t) if not t.startswith(('aquel', 'del', 'el', 'nel', 'mil')) else t
     if not t:
         return ''
-    return esqueleto(t)
+    k = esqueleto(t)
+    k = re.sub(r'n(?=[^aeiou]|$)', '', k)        # til de 1619 que o OCR perde: grade = grande, be = bem
+    k = re.sub(r'ao(s?)$', r'a\1', k)              # erão = eram
+    return k or t
 
 
 def ancoras(ka, kb, n=4):
@@ -137,6 +141,19 @@ def _substituicao(ka, kb, i0, i1, j0, j1):
                 break
         if achou:
             continue
+        # grupo aproximado (palavra partida no fim da linha com o hífen mal lido: «diffes» + «rença»)
+        r11 = difflib.SequenceMatcher(None, ka[i], kb[j]).ratio()
+        if r11 < 0.6:
+            for n, m in ((1, 2), (2, 1)):
+                if i + n <= i1 and j + m <= j1:
+                    ja, jb = ''.join(ka[i:i + n]), ''.join(kb[j:j + m])
+                    if len(ja) >= 5 and difflib.SequenceMatcher(None, ja, jb).ratio() >= 0.85:
+                        out.append((i, i + n, j, j + m, 'grp'))
+                        i, j = i + n, j + m
+                        achou = True
+                        break
+        if achou:
+            continue
         # 1:1, ou palavra a mais de um lado se a seguinte casa melhor
         if j + 1 < j1 and ka[i] == kb[j + 1]:
             out.append((i, i, j, j + 1, 'ins'))
@@ -168,6 +185,46 @@ TESTEMUNHOS = {
 }
 
 
+_CONHECIDAS = None
+
+
+def conhecidas():
+    """Chaves que as edições de Lisboa (Tesseract) dão pelo menos 3 vezes."""
+    global _CONHECIDAS
+    if _CONHECIDAS is None:
+        import collections
+        c = collections.Counter()
+        for fonte in ('r1850v1', 'r1853v2', 'r1818v1'):
+            s, _ = T.sequencia(fonte)
+            for w in s:
+                c[chave(w['t'])] += 1
+        _CONHECIDAS = {k for k, n in c.items() if n >= 3}
+    return _CONHECIDAS
+
+
+def juntar_partidas(seq):
+    """1619: palavra partida no fim da linha cujo hífen o OCR não leu («necef» / «fario»): junta quando a
+    soma é palavra conhecida e uma das partes não é."""
+    kn = conhecidas()
+    out = []
+    i = 0
+    while i < len(seq):
+        w = seq[i]
+        if i + 1 < len(seq) and seq[i + 1].get('nl') and not re.search(r'[,;:.!?)]$', w['t']) \
+                and re.match(r'[a-zà-ÿſ]', seq[i + 1]['t']):
+            a = re.sub(r'[-=¬.]$', '', w['t'])
+            j = a + seq[i + 1]['t']
+            ka, kb, kj = chave(a), chave(seq[i + 1]['t']), chave(j)
+            if kj in kn and (ka not in kn or kb not in kn) and len(kj) >= 4:
+                w = dict(w, t=j)
+                out.append(w)
+                i += 2
+                continue
+        out.append(w)
+        i += 1
+    return out
+
+
 def carregar(nome):
     seq, notas = [], []
     for fonte, de, ate in TESTEMUNHOS[nome]:
@@ -176,6 +233,8 @@ def carregar(nome):
         except FileNotFoundError:
             print('falta', fonte, file=sys.stderr)
             continue
+        if fonte.endswith('1619'):
+            s = juntar_partidas(s)
         for w in s + n:
             w['f'] = fonte
         seq += s

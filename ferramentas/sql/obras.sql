@@ -1707,6 +1707,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('mario-de-andrade/remate-de-males-tempo-da-maria-5-eco-e-o-descorajado', 'Eco e o descorajado'),
   ('mario-de-andrade/remate-de-males-tempo-da-maria-6-louvacao-da-tarde', 'Louvação da tarde'),
   ('mario-de-andrade/remate-de-males-tempo-da-maria-7-maria', 'Maria'),
+  ('moliere/le-misanthrope', 'Le Misanthrope'),
   ('monteiro-lobato/reinacoes-de-narizinho', 'Reinações de Narizinho'),
   ('olavo-bilac/avulsos-hino-a-bandeira', 'Hino à Bandeira Nacional'),
   ('olavo-bilac/panoplias-para-a-rainha-dona-amelia-de-portugal', 'Para a Rainha Dona Amélia de Portugal'),

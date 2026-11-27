@@ -1036,6 +1036,7 @@ insert into biblioteca.obras (obra, titulo) values
   ('giacomo-leopardi/l-infinito', 'L’infinito'),
   ('gil-vicente/auto-da-barca-do-inferno', 'Auto da Barca do Inferno'),
   ('gil-vicente/auto-da-barca-do-purgatorio', 'Auto da Barca do Purgatório'),
+  ('gil-vicente/farsa-de-ines-pereira', 'Farsa de Inês Pereira'),
   ('giosue-carducci/pianto-antico', 'Pianto antico'),
   ('giosue-carducci/san-martino', 'San Martino'),
   ('giovanni-pascoli/novembre', 'Novembre'),

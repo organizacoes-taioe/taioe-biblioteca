@@ -131,6 +131,14 @@
    ],
    "nota": "Aqui, «fora de casa», ao ar livre, pelos campos."
   },
+  "abroad#2": {
+   "lema": "abroad",
+   "classe": "advérbio",
+   "def": [
+    "(datado) Por toda parte; amplamente; por grande espaço."
+   ],
+   "nota": "«Shriek abroad» é «gritar por toda parte»."
+  },
   "absolved": {
    "lema": "absolve",
    "classe": "verbo",
@@ -853,6 +861,14 @@
     "Em companhia; junto, juntamente."
    ],
    "nota": "«Go along» é «ir junto», «ir comigo»."
+  },
+  "along#2": {
+   "lema": "along",
+   "classe": "advérbio",
+   "def": [
+    "Ao longo; no sentido do comprimento."
+   ],
+   "nota": "«Lay thee all along» é «deita-te estendido ao comprido»."
   },
   "aloof": {
    "lema": "aloof",
@@ -2250,6 +2266,14 @@
    ],
    "nota": "«Beauty's pen» é «a pena da beleza»: a própria beleza escreve o prazer no rosto dele, como num livro."
   },
+  "beauty's#2": {
+   "lema": "beauty",
+   "classe": "substantivo",
+   "def": [
+    "(incontável) Qualidade do que é atraente, agradável à vista; beleza."
+   ],
+   "forma": "genitivo (possessivo)"
+  },
   "because": {
    "lema": "because",
    "classe": "conjunção",
@@ -2581,6 +2605,14 @@
     "(intransitivo) Pertencer; ser parte de."
    ],
    "nota": "«Belonging to a man» é «que pertence a um homem»: Julieta diz que o nome Montéquio não faz parte de Romeu."
+  },
+  "belonging#2": {
+   "lema": "belong",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Pertencer; ser parte de."
+   ],
+   "forma": "gerúndio"
   },
   "beloved": {
    "lema": "beloved",
@@ -3325,6 +3357,15 @@
    ],
    "nota": "«The love I bore» é «o amor que eu tinha, que eu trazia»."
   },
+  "bore#2": {
+   "lema": "bear",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Carregar ou levar, em sentido literal ou figurado."
+   ],
+   "forma": "passado",
+   "nota": "«Bore my letter» é «levou a minha carta»."
+  },
   "born": {
    "lema": "born",
    "classe": "adjetivo",
@@ -4023,6 +4064,14 @@
     "(transitivo) Consumir pelo fogo; queimar."
    ],
    "nota": "«We burn daylight» é «queimamos a luz do dia»: gastamos tempo à toa; em «teach the torches to burn bright» é arder com brilho."
+  },
+  "burn#2": {
+   "lema": "burn",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Ser consumido pelo fogo ou pelas chamas; arder."
+   ],
+   "nota": "«Doth burn» é «está a arder»."
   },
   "burneth": {
    "lema": "burn",
@@ -4730,6 +4779,14 @@
     "(intransitivo) Acontecer por acaso; suceder."
    ],
    "nota": "«May chance to scathe you» é «pode vir a prejudicar-te»."
+  },
+  "chance#2": {
+   "lema": "chance",
+   "classe": "substantivo",
+   "def": [
+    "(contável, arcaico) O que acontece a alguém; sorte; destino."
+   ],
+   "nota": "«This lamentable chance» é «este lamentável sucesso», acontecimento."
   },
   "chances": {
    "lema": "chance",
@@ -6600,6 +6657,14 @@
    ],
    "nota": "«Is cross and full of sin» é «é contrária (ao bem) e cheia de pecado»."
   },
+  "cross#2": {
+   "lema": "cross",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Contradizer ou frustrar os planos de (alguém); contrariar."
+   ],
+   "nota": "«To cross my obsequies» é «contrariar as minhas exéquias»."
+  },
   "crossing": {
    "lema": "crossing",
    "classe": "substantivo",
@@ -7060,6 +7125,14 @@
    "def": [
     "Que tem absoluta, ou (mais comumente) relativa, falta de luz; escuro."
    ]
+  },
+  "dark#2": {
+   "lema": "dark",
+   "classe": "substantivo",
+   "def": [
+    "Ausência, completa ou parcial, de luz; escuridão."
+   ],
+   "nota": "«In dark» é «no escuro»."
   },
   "darkness": {
    "lema": "darkness",
@@ -8022,6 +8095,15 @@
    ],
    "nota": "«Nothing but discords» é «só dissonâncias»: o que sairia da espada de Mercutio, no lugar de música."
   },
+  "discords#2": {
+   "lema": "discord",
+   "classe": "substantivo",
+   "def": [
+    "Tensão ou luta resultante da falta de acordo; discórdia."
+   ],
+   "forma": "plural",
+   "nota": "«Your discords» é «as vossas discórdias»: as brigas."
+  },
   "discourses": {
    "lema": "discourse",
    "classe": "verbo",
@@ -8465,6 +8547,14 @@
    "wiki": null,
    "nota": "«Dooms-day» é o dia do Juízo Final, o fim dos tempos: o príncipe teria dado sentença pior do que o fim do mundo?"
   },
+  "dooms-day#2": {
+   "lema": "doomsday",
+   "classe": "substantivo",
+   "def": [
+    "Qualquer dia de grande morte e destruição."
+   ],
+   "nota": "«Tybalt's dooms-day» é «o dia fatal de Tebaldo», o da sua morte."
+  },
   "door": {
    "lema": "door",
    "classe": "substantivo",
@@ -8732,6 +8822,14 @@
     "Acontecimentos imaginários vistos na mente durante o sono; sonho."
    ]
   },
+  "dream#3": {
+   "lema": "dream",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Imaginar como experiência, em geral dormindo; sonhar."
+   ],
+   "nota": "«Did I dream it so?» é «sonhei isso assim?»."
+  },
   "dreamers": {
    "lema": "dreamer",
    "classe": "substantivo",
@@ -8783,6 +8881,15 @@
     "(transitivo) Atrair ou levar (alguém) a seguir um determinado rumo de ação; puxar numa direção."
    ],
    "nota": "«I drew to part them» é «avancei para separá-los»: no sentido de ir para junto."
+  },
+  "drew#2": {
+   "lema": "draw",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Puxar para fora (uma arma) da bainha; desembainhar."
+   ],
+   "forma": "passado",
+   "nota": "«Drew on him» é «sacou a espada contra ele»."
   },
   "dried": {
    "lema": "dried",
@@ -9263,6 +9370,14 @@
     "Execução; realização, cumprimento."
    ],
    "nota": "«My prayer's effect» é «o cumprimento da minha oração»: o que ele pediu a Julieta, o beijo."
+  },
+  "effect#2": {
+   "lema": "effect",
+   "classe": "substantivo",
+   "def": [
+    "O resultado ou o desfecho de uma causa; efeito."
+   ],
+   "nota": "«Took effect» é «fez efeito»."
   },
   "effeminate": {
    "lema": "effeminate",
@@ -12153,6 +12268,14 @@
    ],
    "nota": "«The general doom» é «o Juízo universal»."
   },
+  "general#2": {
+   "lema": "general",
+   "classe": "substantivo",
+   "def": [
+    "Detentor de uma alta patente militar, em origem o comandante de um exército; general."
+   ],
+   "nota": "«General of your woes» é «chefe das vossas dores»: quem as conduz."
+  },
   "gentle": {
    "lema": "gentle",
    "classe": "adjetivo",
@@ -13517,6 +13640,14 @@
    "def": [
     "(contável) A parte do corpo de um animal ou de uma pessoa que contém o cérebro, a boca e os órgãos dos sentidos principais; cabeça."
    ]
+  },
+  "head#2": {
+   "lema": "head",
+   "classe": "substantivo",
+   "def": [
+    "(de rio) Nascente; origem."
+   ],
+   "nota": "«Their spring, their head» são a fonte e a origem (da desgraça)."
   },
   "heads": {
    "lema": "head",
@@ -15143,6 +15274,14 @@
     "Aparelho usado para produzir música; instrumento."
    ]
   },
+  "instruments#2": {
+   "lema": "instrument",
+   "classe": "substantivo",
+   "def": [
+    "Ferramenta ou utensílio usado para manipulação ou medição; instrumento."
+   ],
+   "forma": "plural"
+  },
   "intend": {
    "lema": "intend",
    "classe": "verbo",
@@ -16040,6 +16179,15 @@
     "Aceito, familiar; sabido."
    ],
    "nota": "«'Tis known» é «é sabido», «é notório»."
+  },
+  "known#2": {
+   "lema": "know",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Estar familiarizado com; ter conhecido."
+   ],
+   "forma": "particípio passado",
+   "nota": "«Have known thee for a holy man» é «temos-te conhecido como santo»."
   },
   "knows": {
    "lema": "know",
@@ -18332,6 +18480,14 @@
    ],
    "nota": "«To see thee married» é «ver-te casada»."
   },
+  "married#2": {
+   "lema": "marry",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Unir em matrimônio; casar."
+   ],
+   "forma": "passado e particípio passado"
+  },
   "marry": {
    "lema": "marry",
    "classe": "interjeição",
@@ -19681,6 +19837,14 @@
    ],
    "nota": "«Foul mouth» é «boca fétida» do jazigo: sua abertura."
   },
+  "mouth#2": {
+   "lema": "mouth",
+   "classe": "substantivo",
+   "def": [
+    "(anatomia) Abertura do rosto por onde se come e se fala; boca."
+   ],
+   "nota": "«The mouth of outrage» é «a boca do ultraje»: a voz da violência."
+  },
   "move": {
    "lema": "move",
    "classe": "verbo",
@@ -20163,6 +20327,14 @@
    "def": [
     "De origem recente; que ocorreu há pouco."
    ]
+  },
+  "new#2": {
+   "lema": "new",
+   "classe": "adjetivo",
+   "def": [
+    "Feito ou criado há pouco; recente."
+   ],
+   "nota": "«New kill'd» é «recém-morta»: aqui «new» faz as vezes de advérbio."
   },
   "new-made": {
    "lema": "newmade",
@@ -20924,6 +21096,21 @@
    ],
    "nota": "Em «an open et cetera», Mercúcio faz uma piada obscena: a fruta madura (a nêspera) aberta, e o «et cetera» é eufemismo para o sexo feminino."
   },
+  "open#2": {
+   "lema": "open",
+   "classe": "verbo",
+   "def": [
+    "Fazer ou ficar fisicamente desobstruído, descoberto; abrir."
+   ]
+  },
+  "open#3": {
+   "lema": "open",
+   "classe": "adjetivo",
+   "def": [
+    "Fisicamente desobstruído, descoberto; aberto."
+   ],
+   "nota": "«Open outcry» é «clamor aberto», público."
+  },
   "opens": {
    "lema": "open",
    "classe": "verbo",
@@ -21292,6 +21479,14 @@
     "Residência oficial de um chefe de Estado ou de outro dignitário, em especial numa monarquia ou num império; palácio."
    ],
    "nota": "Aqui, figurado: o corpo belo onde mora a traição."
+  },
+  "palace#2": {
+   "lema": "palace",
+   "classe": "substantivo",
+   "def": [
+    "Residência oficial de um chefe de Estado ou de outro dignitário, em especial numa monarquia; palácio."
+   ],
+   "nota": "«Palace of dim night» é «palácio da noite sombria»: o jazigo, visto como morada da noite."
   },
   "pale": {
    "lema": "pale",
@@ -22668,6 +22863,13 @@
    ],
    "nota": "Em «precious book of love», é «querido», estimado com ternura."
   },
+  "precious#2": {
+   "lema": "precious",
+   "classe": "adjetivo",
+   "def": [
+    "De alto valor ou preço; precioso."
+   ]
+  },
   "precious-juiced": {
    "partes": [
     {
@@ -22748,6 +22950,14 @@
     "O fato ou a condição de estar presente, à vista; (por extensão) porte, aspecto ao se apresentar."
    ],
    "nota": "«Show a fair presence» é «mostra um aspecto agradável»."
+  },
+  "presence#2": {
+   "lema": "presence",
+   "classe": "substantivo",
+   "def": [
+    "(arcaico) Assembleia de grandes personagens; sala de audiências."
+   ],
+   "nota": "«A feasting presence» é «uma sala de recepção em festa»: o jazigo cheio de luz."
   },
   "present": {
    "lema": "present",
@@ -23424,6 +23634,15 @@
    ],
    "nota": "Aqui o sentido é mais fraco: «seguir», «acompanhar» o ânimo dele; o jogo é «pursued ... not pursuing»."
   },
+  "pursued#2": {
+   "lema": "pursue",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, um tanto arcaico) Continuar; levar adiante."
+   ],
+   "forma": "particípio passado",
+   "nota": "«Be pursued further than death» é «ser levada adiante além da morte»."
+  },
   "pursuing": {
    "lema": "pursue",
    "classe": "verbo",
@@ -23540,6 +23759,14 @@
    ],
    "nota": "«In question» é «em questão», «em discussão»: «call hers, exquisite, in question more» é «pôr em questão a outra, ainda mais requintada»."
   },
+  "question#2": {
+   "lema": "question",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Fazer perguntas; indagar."
+   ],
+   "nota": "«Stay not to question» é «não fiques a perguntar»."
+  },
   "quick": {
    "lema": "quick",
    "classe": "adjetivo",
@@ -23547,6 +23774,14 @@
     "Vivaz; animado, cheio de vida."
    ],
    "nota": "«So green, so quick, so fair an eye» é «um olho tão verde, tão vivo, tão belo»."
+  },
+  "quick#2": {
+   "lema": "quick",
+   "classe": "adjetivo",
+   "def": [
+    "Que se move com rapidez ou pode fazê-lo; veloz; rápido."
+   ],
+   "nota": "«Thy drugs are quick» é «as tuas drogas são rápidas»: agem logo."
   },
   "quickly": {
    "lema": "quickly",
@@ -23671,6 +23906,22 @@
    ],
    "nota": "«Raise a spirit» é fazer aparecer um espírito, como num ritual de invocação, e em sentido obsceno, fazer «levantar» o que está caído."
   },
+  "raise#2": {
+   "lema": "raise",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Fazer subir; levantar; fazer surgir."
+   ],
+   "nota": "«Raise up the Montagues» é «levantai os Montéquios (da cama)», despertai-os."
+  },
+  "raise#3": {
+   "lema": "raise",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Formar pelo acúmulo de materiais; levantar; erigir."
+   ],
+   "nota": "«Raise her statue» é «erguer a sua estátua»."
+  },
   "raised": {
    "lema": "raise",
    "classe": "verbo",
@@ -23679,6 +23930,15 @@
     "(transitivo) Fazer subir; levantar, elevar."
    ],
    "nota": "«A smoke raised with the fume of sighs» é «uma fumaça levantada pelo vapor de suspiros»."
+  },
+  "raised#2": {
+   "lema": "raise",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Fazer subir; levantar; fazer surgir."
+   ],
+   "forma": "passado e particípio passado",
+   "nota": "«Raised the watch» é «levantou a guarda»: chamou-a."
   },
   "ran": {
    "lema": "run",
@@ -23757,6 +24017,14 @@
    "def": [
     "(transitivo, obsoleto) Repreender, ralhar com."
    ]
+  },
+  "rate#2": {
+   "lema": "rate",
+   "classe": "substantivo",
+   "def": [
+    "(obsoleto) O valor de algo; preço."
+   ],
+   "nota": "«At such rate» é «a tal preço», por tal valor."
   },
   "rather": {
    "lema": "rather",
@@ -25441,6 +25709,14 @@
    ],
    "nota": "«The search of eyes» é «a procura dos olhos»: que os olhos não o encontrem."
   },
+  "search#2": {
+   "lema": "search",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Olhar em (um lugar) à procura de algo; vasculhar."
+   ],
+   "nota": "«Search about the churchyard» é «vasculhai o cemitério»."
+  },
   "searchers": {
    "lema": "searcher",
    "classe": "substantivo",
@@ -26012,6 +26288,14 @@
    ],
    "nota": "«Shake, quoth the dove-house» é «tremeu, disse o pombal»: o pombal sacudiu com o terremoto."
   },
+  "shake#2": {
+   "lema": "shake",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Fazer (algo) mover-se rapidamente em direções opostas, alternadamente; sacudir."
+   ],
+   "nota": "«Shake the yoke» é «sacudir o jugo»: livrar-se dele."
+  },
   "shall": {
    "lema": "shall",
    "classe": "verbo auxiliar modal",
@@ -26487,6 +26771,14 @@
     "Inspiração longa de ar, seguida de expiração, que exprime pesar ou alívio; suspiro."
    ]
   },
+  "sighs#2": {
+   "lema": "sigh",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Lamentar; sofrer pesar; suspirar."
+   ],
+   "forma": "3ª pessoa do singular do presente"
+  },
   "sight": {
    "lema": "sight",
    "classe": "substantivo",
@@ -26885,6 +27177,14 @@
     "(figurado) Pessoa abjeta; miserável."
    ],
    "nota": "É insulto: «a weak slave» é «um miserável fraco», um covarde."
+  },
+  "slave#2": {
+   "lema": "slave",
+   "classe": "substantivo",
+   "def": [
+    "(figurado) Quem não tem poder de resistência a algo, ou está sob o domínio de algo; escravo."
+   ],
+   "nota": "«Be slave to patience» é «seja escrava da paciência»: submeta-se a ela."
   },
   "slay": {
    "lema": "slay",
@@ -28516,6 +28816,15 @@
    ],
    "nota": "«Hath stol'n him home» é «foi-se esgueirando para casa»: sair às escondidas."
   },
+  "stol'n#2": {
+   "lema": "steal",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Mover-se em silêncio ou em segredo; passar despercebido."
+   ],
+   "forma": "particípio passado",
+   "nota": "«Their stol'n marriage-day» é «o dia do casamento às escondidas»."
+  },
   "stole": {
    "lema": "steal",
    "classe": "verbo",
@@ -28541,6 +28850,14 @@
     "(contável) Pedaço de material rochoso; pedra."
    ],
    "nota": "Aqui, também as pedras de virtude curativa, que a medicina antiga usava."
+  },
+  "stones#2": {
+   "lema": "stone",
+   "classe": "substantivo",
+   "def": [
+    "(contável) Pedaço de material rochoso; pedra."
+   ],
+   "forma": "plural"
   },
   "stony": {
    "lema": "stony",
@@ -30194,6 +30511,13 @@
     "A pessoa ou coisa que está na terceira posição."
    ],
    "nota": "Em «one, two, and the third in your bosom», o terceiro golpe é o que atinge o peito."
+  },
+  "third#2": {
+   "lema": "third",
+   "classe": "adjetivo",
+   "def": [
+    "Forma ordinal do número três; que vem depois do segundo; terceiro."
+   ]
   },
   "thirty": {
    "lema": "thirty",
@@ -31983,6 +32307,13 @@
     "Antes do tempo; prematuro."
    ],
    "nota": "«Untimely death» é «morte prematura»."
+  },
+  "untimely#2": {
+   "lema": "untimely",
+   "classe": "advérbio",
+   "def": [
+    "Prematuramente."
+   ]
   },
   "unto": {
    "lema": "unto",
@@ -34474,6 +34805,14 @@
     "Invertebrado em geral tubular, do filo dos anelídeos; minhoca."
    ],
    "nota": "«Worms' meat» é «comida de vermes»: Mercutio, moribundo, diz que o deixaram para os vermes."
+  },
+  "worms#2": {
+   "lema": "worm",
+   "classe": "substantivo",
+   "def": [
+    "Invertebrado em geral tubular, do filo dos anelídeos; minhoca."
+   ],
+   "forma": "plural"
   },
   "wormwood": {
    "lema": "wormwood",
@@ -37355,12 +37694,14 @@
   "26:30.2": "had#2",
   "26:32.2": "keep#2",
   "26:32.3": "her#2",
+  "27:1.7": "belonging#2",
   "27:3.1": "give#2",
   "27:3.5": "boy#3",
   "27:3.8": "stand#2",
   "27:4.1": "yet#2",
   "27:4.5": "for#2",
   "27:5.4": "lay#2",
+  "27:5.7": "along#2",
   "27:6.2": "thine#2",
   "27:6.3": "ear#2",
   "27:6.7": "hollow#3",
@@ -37376,6 +37717,7 @@
   "27:13.5": "yet#2",
   "27:14.2": "flower#2",
   "27:15.5": "is#2",
+  "27:15.8": "stones#2",
   "27:18.3": "that#2",
   "27:18.8": "keep#2",
   "27:19.4": "to#2",
@@ -37384,6 +37726,7 @@
   "27:22.2": "cursed#2",
   "27:22.6": "way#2",
   "27:23.1": "to#2",
+  "27:23.2": "cross#2",
   "27:23.6": "true#2",
   "27:24.8": "awhile#2",
   "27:26.1": "give#2",
@@ -37393,6 +37736,7 @@
   "27:33.3": "to#2",
   "27:33.7": "face#2",
   "27:34.3": "to#2",
+  "27:35.2": "precious#2",
   "27:35.3": "ring#2",
   "27:35.5": "ring#2",
   "27:35.6": "that#2",
@@ -37412,12 +37756,14 @@
   "27:48.9": "doubt#3",
   "27:50.8": "earth#2",
   "27:51.7": "to#2",
+  "27:51.8": "open#2",
   "27:54.2": "is#2",
   "27:55.1": "that#2",
   "27:56.2": "is#2",
   "27:57.3": "is#3",
   "27:57.5": "to#2",
   "27:57.6": "do#2",
+  "27:61.4": "pursued#2",
   "27:63.6": "for#2",
   "27:66.1": "fly#2",
   "27:67.8": "youth#2",
@@ -37431,13 +37777,16 @@
   "27:76.6": "have#3",
   "27:76.9": "boy#2",
   "27:78.10": "watch#3",
+  "27:81.1": "open#2",
   "27:81.4": "lay#2",
   "27:82.2": "faith#2",
   "27:82.9": "face#2",
   "27:83.4": "county#2",
   "27:85.9": "think#2",
   "27:86.6": "have#2",
+  "27:86.7": "married#2",
   "27:87.4": "so#2",
+  "27:87.8": "dream#3",
   "27:87.10": "so#2",
   "27:89.1": "to#2",
   "27:89.2": "think#2",
@@ -37449,12 +37798,14 @@
   "27:92.8": "youth#2",
   "27:93.1": "for#2",
   "27:93.3": "lies#2",
+  "27:94.5": "presence#2",
   "27:97.8": "point#3",
   "27:98.1": "have#2",
   "27:98.8": "call#2",
   "27:100.1": "call#2",
   "27:101.2": "that#2",
   "27:102.2": "had#2",
+  "27:103.5": "beauty's#2",
   "27:104.1": "is#2",
   "27:105.5": "is#2",
   "27:107.7": "do#2",
@@ -37467,11 +37818,15 @@
   "27:112.1": "that#3",
   "27:112.4": "is#2",
   "27:113.2": "that#3",
+  "27:114.4": "dark#2",
   "27:114.5": "to#2",
   "27:115.2": "fear#2",
+  "27:116.5": "palace#2",
+  "27:118.2": "worms#2",
   "27:118.3": "that#2",
   "27:119.3": "set#2",
   "27:119.7": "rest#6",
+  "27:120.2": "shake#2",
   "27:121.4": "flesh#2",
   "27:121.8": "last#4",
   "27:122.4": "last#5",
@@ -37479,6 +37834,7 @@
   "27:126.6": "once#3",
   "27:128.1": "here's#3",
   "27:128.7": "true#2",
+  "27:129.4": "quick#2",
   "27:129.8": "kiss#2",
   "27:130.5": "end#2",
   "27:130.14": "crow#2",
@@ -37512,6 +37868,7 @@
   "27:159.8": "too#2",
   "27:160.9": "hour#2",
   "27:161.1": "is#2",
+  "27:161.6": "chance#2",
   "27:162.2": "lady#2",
   "27:165.10": "within#2",
   "27:166.5": "lady#2",
@@ -37520,6 +37877,7 @@
   "27:171.3": "too#2",
   "27:172.5": "holy#2",
   "27:173.3": "to#2",
+  "27:173.4": "question#2",
   "27:173.5": "for#2",
   "27:173.7": "watch#3",
   "27:173.8": "is#2",
@@ -37544,32 +37902,44 @@
   "27:187.2": "is#2",
   "27:189.2": "watch#3",
   "27:190.2": "is#2",
+  "27:190.10": "burn#2",
   "27:191.3": "is#2",
+  "27:191.5": "search#2",
   "27:193.2": "sight#2",
   "27:193.4": "lies#2",
   "27:193.6": "county#2",
   "27:195.1": "who#2",
   "27:195.7": "days#2",
   "27:196.4": "prince#2",
+  "27:197.1": "raise#2",
+  "27:197.7": "search#2",
   "27:199.3": "true#2",
   "27:201.5": "watch#3",
   "27:202.1": "here's#2",
   "27:203.7": "prince#2",
+  "27:205.1": "third#2",
   "27:205.2": "watch#3",
   "27:205.7": "that#2",
+  "27:205.9": "sighs#2",
   "27:208.4": "stay#4",
   "27:208.7": "too#2",
   "27:209.3": "prince#2",
   "27:211.1": "that#2",
   "27:211.8": "rest#3",
   "27:213.5": "that#3",
+  "27:213.9": "abroad#2",
+  "27:216.2": "open#3",
   "27:217.2": "fear#2",
   "27:218.3": "lies#2",
   "27:218.5": "county#2",
   "27:219.7": "before#2",
+  "27:220.3": "new#2",
+  "27:221.1": "search#2",
   "27:221.2": "seek#2",
   "27:221.8": "murder#2",
+  "27:223.2": "instruments#2",
   "27:223.6": "to#2",
+  "27:223.7": "open#2",
   "27:224.3": "men's#2",
   "27:225.5": "look#2",
   "27:226.5": "for#2",
@@ -37590,8 +37960,12 @@
   "27:236.6": "mine#2",
   "27:237.1": "look#2",
   "27:239.1": "to#2",
+  "27:240.4": "mouth#2",
+  "27:242.6": "head#2",
   "27:242.8": "true#2",
+  "27:243.6": "general#2",
   "27:244.2": "lead#2",
+  "27:245.5": "slave#2",
   "27:245.7": "patience#2",
   "27:246.2": "forth#2",
   "27:247.6": "to#2",
@@ -37606,9 +37980,13 @@
   "27:253.5": "for#2",
   "27:254.1": "is#2",
   "27:256.5": "that#2",
+  "27:257.2": "married#2",
+  "27:257.6": "stol'n#2",
+  "27:258.3": "dooms-day#2",
   "27:261.2": "to#2",
   "27:261.9": "her#2",
   "27:262.4": "have#2",
+  "27:262.5": "married#2",
   "27:262.6": "her#2",
   "27:263.2": "county#2",
   "27:264.9": "mean#2",
@@ -37620,6 +37998,7 @@
   "27:267.5": "so#2",
   "27:267.9": "art#2",
   "27:268.5": "so#2",
+  "27:268.7": "effect#2",
   "27:269.4": "for#2",
   "27:269.8": "her#2",
   "27:270.2": "form#3",
@@ -37628,6 +38007,7 @@
   "27:272.2": "help#2",
   "27:272.3": "to#2",
   "27:272.5": "her#2",
+  "27:274.4": "bore#2",
   "27:275.2": "stay'd#2",
   "27:276.7": "alone#2",
   "27:277.4": "hour#2",
@@ -37637,6 +38017,7 @@
   "27:279.2": "to#2",
   "27:279.3": "keep#2",
   "27:279.4": "her#2",
+  "27:282.5": "untimely#2",
   "27:282.6": "lay#3",
   "27:283.5": "true#2",
   "27:284.6": "her#2",
@@ -37650,11 +38031,13 @@
   "27:292.4": "hour#2",
   "27:293.6": "law#2",
   "27:294.3": "have#2",
+  "27:294.4": "known#2",
   "27:294.8": "holy#2",
   "27:299.7": "give#2",
   "27:301.6": "left#2",
   "27:302.1": "give#2",
   "27:303.6": "that#2",
+  "27:303.7": "raised#2",
   "27:303.9": "watch#3",
   "27:304.3": "made#4",
   "27:305.5": "to#2",
@@ -37664,6 +38047,7 @@
   "27:307.6": "to#2",
   "27:308.2": "by#4",
   "27:308.4": "by#4",
+  "27:308.7": "drew#2",
   "27:309.6": "to#2",
   "27:309.9": "watch#3",
   "27:312.5": "that#3",
@@ -37673,6 +38057,7 @@
   "27:317.2": "heaven#2",
   "27:317.5": "to#2",
   "27:317.6": "kill#2",
+  "27:318.7": "discords#2",
   "27:318.8": "too#2",
   "27:319.1": "have#2",
   "27:320.4": "give#2",
@@ -37680,9 +38065,11 @@
   "27:321.6": "for#2",
   "27:323.4": "give#2",
   "27:324.1": "for#2",
+  "27:324.4": "raise#3",
   "27:325.1": "that#3",
   "27:325.7": "is#2",
   "27:326.1": "there#2",
+  "27:326.7": "rate#2",
   "27:326.9": "set#2",
   "27:327.4": "true#2",
   "27:328.5": "by#2",

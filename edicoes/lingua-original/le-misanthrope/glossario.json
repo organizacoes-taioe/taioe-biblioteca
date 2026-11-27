@@ -33,6 +33,22 @@
     "(Figurado) Cobrir alguém de bens, de graças, de carícias, de elogios, de cortesias além da medida: encher, sobrecarregar."
    ]
   },
+  "accoutume": {
+   "lema": "accoutumer",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 1ª pessoa do singular",
+   "def": [
+    "Levar a adquirir um hábito: acostumar."
+   ]
+  },
+  "accueille": {
+   "lema": "accueillir",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer boa ou má acolhida: acolher, receber."
+   ]
+  },
   "accès": {
    "lema": "accès",
    "classe": "substantivo masculino",
@@ -54,6 +70,14 @@
    "forma": "plural",
    "def": [
     "Que é amável e benevolente, a quem se pode falar: afável."
+   ]
+  },
+  "affamés": {
+   "lema": "affamé",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Que sofre de fome; (figurado) ávido: famintos."
    ]
   },
   "affectent": {
@@ -104,6 +128,14 @@
    ],
    "nota": "O misantropo, apaixonado por Célimène. O nome vem de Alceste, heroína grega, mas aqui é só o nome do personagem.",
    "wiki": null
+  },
+  "aller": {
+   "lema": "aller",
+   "classe": "verbo",
+   "def": [
+    "Deslocar-se até um lugar; (figurado) caminhar, desenrolar-se: ir, andar."
+   ],
+   "nota": "«Mieux aller»: andar melhor."
   },
   "allez": {
    "lema": "aller",
@@ -169,6 +201,13 @@
    ],
    "nota": "No século XVII, «appas» são os atrativos, os encantos, de uma mulher ou de uma coisa; aqui, o atrativo que a franqueza tem para Alceste."
   },
+  "approche": {
+   "lema": "approche",
+   "classe": "substantivo feminino",
+   "def": [
+    "Ação de se aproximar: aproximação."
+   ]
+  },
   "après": {
    "lema": "après",
    "classe": "preposição",
@@ -192,6 +231,13 @@
    ],
    "nota": "Mulher que se faz de recatada, «prude», mas que quer conquistar Alceste e fala mal de Célimène.",
    "wiki": null
+  },
+  "artifice": {
+   "lema": "artifice",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Formal) O que serve para disfarçar, para enganar: artifício, ardil."
+   ]
   },
   "assis": {
    "lema": "assis",
@@ -246,6 +292,30 @@
     "Marca a igualdade de quantidade, de valor, de número: tanto, outro tanto."
    ]
   },
+  "autre": {
+   "lema": "autre",
+   "classe": "adjetivo indefinido",
+   "def": [
+    "Do mesmo tipo mas cuja identidade é diferente do que se acabou de falar: outro."
+   ]
+  },
+  "autres": {
+   "lema": "autre",
+   "classe": "adjetivo indefinido",
+   "forma": "plural",
+   "def": [
+    "Do mesmo tipo mas cuja identidade é diferente; outros: outros, outras."
+   ],
+   "nota": "«Les uns… les autres»: uns… outros."
+  },
+  "aux": {
+   "lema": "au",
+   "classe": "artigo definido",
+   "forma": "contraído, plural",
+   "def": [
+    "Contração obrigatória da preposição «à» e do artigo definido «les»: aos, às."
+   ]
+  },
   "avais": {
    "lema": "avoir",
    "classe": "verbo",
@@ -267,6 +337,13 @@
    "classe": "preposição",
    "def": [
     "Introduz complementos circunstanciais que indicam a maneira, o instrumento: com."
+   ]
+  },
+  "aversion": {
+   "lema": "aversion",
+   "classe": "substantivo feminino",
+   "def": [
+    "Violenta antipatia; repugnância: aversão."
    ]
   },
   "avez": {
@@ -311,11 +388,27 @@
     "O que é útil, favorável; riqueza, posse: bem, bens."
    ]
   },
+  "biens": {
+   "lema": "bien",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "O que se possui: bens, posses."
+   ]
+  },
   "bienséance": {
    "lema": "bienséance",
    "classe": "substantivo feminino",
    "def": [
     "Conveniência do que se diz ou se faz com o que é devido às pessoas, à idade, ao lugar: decoro, boas maneiras."
+   ]
+  },
+  "bienvenue": {
+   "lema": "bienvenu",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que chega a propósito, que se acolhe com prazer: bem-vinda."
    ]
   },
   "bile": {
@@ -341,6 +434,14 @@
    ],
    "nota": "O «blanc» era o pó ou creme branco com que as damas empoavam o rosto; aqui, Alceste zomba da velha que se pinta."
   },
+  "blessures": {
+   "lema": "blessure",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Ferida ou fratura produzida por um golpe ou choque: feridas."
+   ]
+  },
   "blessés": {
    "lema": "blessé",
    "classe": "adjetivo",
@@ -349,6 +450,13 @@
     "Que sofreu um ferimento: ferido."
    ],
    "nota": "Aqui, no sentido figurado: feridos, ofendidos."
+  },
+  "blâmable": {
+   "lema": "blâmable",
+   "classe": "adjetivo",
+   "def": [
+    "Digno de censura: censurável."
+   ]
   },
   "bois": {
    "lema": "Du Bois",
@@ -373,6 +481,22 @@
    "def": [
     "Coragem guerreira: bravura."
    ]
+  },
+  "brigue": {
+   "lema": "brigue",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Antiquado) Manobra secreta e indireta para obter de alguém uma vantagem: intriga, cabala."
+   ]
+  },
+  "bruits": {
+   "lema": "bruit",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Rumor que corre; notícia incerta: boatos, rumores."
+   ],
+   "nota": "«Méchants bruits»: maus boatos, calúnias."
   },
   "brusquement": {
    "lema": "brusquement",
@@ -414,6 +538,13 @@
    ],
    "nota": "Aqui, as demonstrações de carinho e cortesia, os abraços; «accabler de caresses»: encher de carícias."
   },
+  "carnage": {
+   "lema": "carnage",
+   "classe": "substantivo masculino",
+   "def": [
+    "Ato de matar com violência ou em grande número: carnificina."
+   ]
+  },
   "cas": {
    "lema": "cas",
    "classe": "substantivo masculino",
@@ -443,6 +574,21 @@
    "classe": "pronome demonstrativo",
    "def": [
     "Aquilo, isso: essa coisa, por oposição a «ceci»."
+   ]
+  },
+  "cent": {
+   "lema": "cent",
+   "classe": "adjetivo numeral",
+   "def": [
+    "Nove vezes dez mais um; o número 100: cem."
+   ],
+   "nota": "«Cent choses»: cem coisas, muitas coisas."
+  },
+  "cependant": {
+   "lema": "cependant",
+   "classe": "advérbio",
+   "def": [
+    "Durante esse tempo, entretanto; (também) no entanto, contudo: no entanto."
    ]
   },
   "ces": {
@@ -525,6 +671,13 @@
    ],
    "nota": "«Ne se changera pas»: não mudará."
   },
+  "chaque": {
+   "lema": "chaque",
+   "classe": "adjetivo indefinido",
+   "def": [
+    "Determinante distributivo, que sempre vem antes do substantivo: cada."
+   ]
+  },
   "chargez": {
    "lema": "charger",
    "classe": "verbo",
@@ -548,6 +701,14 @@
    "classe": "substantivo feminino",
    "def": [
     "Objeto, ideia ou abstração qualquer, que não se pode ou não se quer identificar com precisão: coisa."
+   ]
+  },
+  "choses": {
+   "lema": "chose",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Objeto, ideia ou abstração qualquer: coisas."
    ]
   },
   "châtier": {
@@ -606,6 +767,14 @@
    ],
    "nota": "Aqui, o trato mútuo, a troca de cortesias entre as pessoas; Alceste lhe dá a cor mercantil: «commerce honteux de semblants d’amitié»."
   },
+  "communs": {
+   "lema": "commun",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Que pertence a vários ou a todos; ordinário: comuns."
+   ]
+  },
   "comparaisons": {
    "lema": "comparaison",
    "classe": "substantivo feminino",
@@ -619,6 +788,14 @@
    "classe": "substantivo feminino",
    "def": [
     "Ação de se acomodar ao sentimento, ao gosto de alguém para lhe agradar: complacência."
+   ]
+  },
+  "complaisants": {
+   "lema": "complaisant",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Que tem complacência com os outros; que procura agradar: complacentes."
    ]
   },
   "compliments": {
@@ -653,6 +830,22 @@
    ],
    "nota": "«Donner la comédie»: fornecer uma comédia aos outros, servir de espetáculo."
   },
+  "confonde": {
+   "lema": "confondre",
+   "classe": "verbo",
+   "forma": "presente do subjuntivo, 3ª pessoa do singular",
+   "def": [
+    "(Figurado) Cobrir de confusão, envergonhar: confundir."
+   ],
+   "nota": "«Digne qu’on le confonde»: digno de que o humilhem, de que o desmascarem."
+  },
+  "connu": {
+   "lema": "connu",
+   "classe": "adjetivo",
+   "def": [
+    "Do qual se tem conhecimento: conhecido."
+   ]
+  },
   "conter": {
    "lema": "conter",
    "classe": "verbo",
@@ -676,6 +869,23 @@
     "Em oposição a; em choque com; ao encontro de: contra."
    ]
   },
+  "contredit": {
+   "lema": "contredire",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Opor ao que alguém acaba de dizer uma afirmação contrária: contradizer."
+   ]
+  },
+  "convient": {
+   "lema": "convenir",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ser conveniente; (aqui) reconhecer, admitir: concordar."
+   ],
+   "nota": "«En convient»: concorda com isso, admite."
+  },
   "conçu": {
    "lema": "concevoir",
    "classe": "verbo",
@@ -684,6 +894,13 @@
     "(Figurado) Sentir (um sentimento), formá-lo em si: conceber."
    ],
    "nota": "«Avoir conçu une haine»: ter sentido nascer em si uma aversão."
+  },
+  "corriger": {
+   "lema": "corriger",
+   "classe": "verbo",
+   "def": [
+    "Retificar, melhorar conforme uma regra ou regras: corrigir."
+   ]
   },
   "corrompus": {
    "lema": "corrompu",
@@ -721,6 +938,13 @@
    "classe": "substantivo masculino",
    "def": [
     "(Formal) Irritação veemente, cólera."
+   ]
+  },
+  "cours": {
+   "lema": "cours",
+   "classe": "substantivo masculino",
+   "def": [
+    "Movimento de escoamento natural no espaço; (figurado) rumo, curso: curso."
    ]
   },
   "court": {
@@ -879,6 +1103,13 @@
     "Objeto de comparação, de distinção de uma coisa em relação a outra: diferença."
    ]
   },
+  "digne": {
+   "lema": "digne",
+   "classe": "adjetivo",
+   "def": [
+    "Que merece alguma coisa: digno."
+   ]
+  },
   "dirai": {
    "lema": "dire",
    "classe": "verbo",
@@ -917,6 +1148,13 @@
    "forma": "plural",
    "def": [
     "Pessoa que diz; (aqui) quem fala muito sem dizer nada: dizedor."
+   ]
+  },
+  "disputer": {
+   "lema": "disputer",
+   "classe": "verbo",
+   "def": [
+    "Estar em discussão mais ou menos viva a respeito de opiniões, interesses; (também) disputar: disputar."
    ]
   },
   "distingue": {
@@ -961,6 +1199,13 @@
    ],
    "nota": "«Donner la comédie»: dar um espetáculo, ser objeto de riso; em «allez donne la comédie» o verbo está com sujeito «partout où vous allez»."
   },
+  "donner": {
+   "lema": "donner",
+   "classe": "verbo",
+   "def": [
+    "Fazer um dom; (aqui) provocar, produzir: dar."
+   ]
+  },
   "donneurs": {
    "lema": "donneur",
    "classe": "substantivo masculino",
@@ -994,6 +1239,20 @@
    "nota": "Um cortesão importuno que se gaba de ser nobre e valente; um dos que Alceste cita como exemplo.",
    "wiki": null
   },
+  "doucement": {
+   "lema": "doucement",
+   "classe": "advérbio",
+   "def": [
+    "De maneira doce, sem violência: suavemente, com calma."
+   ]
+  },
+  "douceur": {
+   "lema": "douceur",
+   "classe": "substantivo feminino",
+   "def": [
+    "Qualidade do que é doce; (figurado) brandura, indulgência: doçura, suavidade."
+   ]
+  },
   "doute": {
    "lema": "doute",
    "classe": "substantivo masculino",
@@ -1001,6 +1260,15 @@
     "Incerteza sobre a existência ou a verdade de uma coisa: dúvida."
    ],
    "nota": "«Sans doute»: sem dúvida, certamente."
+  },
+  "dresse": {
+   "lema": "dresser",
+   "classe": "verbo",
+   "forma": "presente do subjuntivo, 3ª pessoa do singular",
+   "def": [
+    "Erguer, pôr em pé; (figurado) preparar, armar: arme."
+   ],
+   "nota": "«Dresser un artifice»: armar uma cilada, preparar um embuste."
   },
   "du": {
    "lema": "du",
@@ -1033,6 +1301,14 @@
     "Dar a conhecer de maneira manifesta: declarar, dizer."
    ]
   },
+  "défauts": {
+   "lema": "défaut",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Imperfeição; (moral) falha de caráter: defeitos."
+   ]
+  },
   "déplaise": {
    "lema": "déplaire",
    "classe": "verbo",
@@ -1050,12 +1326,26 @@
     "Ser desagradável, falando de pessoas: desagrada."
    ]
   },
+  "désert": {
+   "lema": "désert",
+   "classe": "substantivo masculino",
+   "def": [
+    "Zona pouco ou nada povoada; lugar solitário: deserto."
+   ]
+  },
   "d’": {
    "lema": "de",
    "classe": "preposição",
    "forma": "elisão de «de»",
    "def": [
     "Elisão da preposição «de» diante de vogal ou de h mudo."
+   ]
+  },
+  "effroyable": {
+   "lema": "effroyable",
+   "classe": "adjetivo",
+   "def": [
+    "Que causa pavor: terrível, assustador."
    ]
   },
   "elle": {
@@ -1087,6 +1377,22 @@
    "def": [
     "Apertar, estreitar com os dois braços: abraçar."
    ]
+  },
+  "emplois": {
+   "lema": "emploi",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Uso que se faz de alguma coisa; (também) cargo, função: empregos."
+   ]
+  },
+  "emporter": {
+   "lema": "emporter",
+   "classe": "verbo",
+   "def": [
+    "Levar para fora de um lugar; «l’emporter»: vencer, levar a melhor."
+   ],
+   "nota": "«L’emporter sur»: levar a melhor sobre, vencer."
   },
   "empressements": {
    "lema": "empressement",
@@ -1120,6 +1426,14 @@
     "(poético) Ainda; além disso."
    ],
    "nota": "«Encor» sem o «e» final é a forma dos poetas, que a usavam quando o metro pedia uma sílaba a menos."
+  },
+  "encore": {
+   "lema": "encore",
+   "classe": "advérbio",
+   "def": [
+    "Serve para marcar que a ação ou estado continua; ainda mais, ainda assim: ainda."
+   ],
+   "nota": "«Encore en est-il»: ainda há alguns; ainda assim existem alguns."
   },
   "endroits": {
    "lema": "endroit",
@@ -1169,12 +1483,27 @@
    ],
    "nota": "«J’entre en une humeur noire»: caio num humor sombrio."
   },
+  "enveloppés": {
+   "lema": "envelopper",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino plural",
+   "def": [
+    "Cobrir, envolver inteiramente: envolvidos."
+   ]
+  },
   "envisage": {
    "lema": "envisager",
    "classe": "verbo",
    "forma": "presente do indicativo, 1ª pessoa do singular",
    "def": [
     "(Antiquado) Olhar uma pessoa no rosto: encarar."
+   ]
+  },
+  "esprit": {
+   "lema": "esprit",
+   "classe": "substantivo masculino",
+   "def": [
+    "A inteligência, a imaginação: espírito, mente."
    ]
   },
   "est": {
@@ -1222,6 +1551,21 @@
     "Pronome tônico da 3ª pessoa do plural masculino: eles."
    ]
   },
+  "examinons": {
+   "lema": "examiner",
+   "classe": "verbo",
+   "forma": "imperativo, 1ª pessoa do plural",
+   "def": [
+    "Observar com atenção, com reflexão: examinemos."
+   ]
+  },
+  "exception": {
+   "lema": "exception",
+   "classe": "substantivo feminino",
+   "def": [
+    "Ação de excetuar: exceção."
+   ]
+  },
   "excuser": {
    "lema": "excuser",
    "classe": "verbo",
@@ -1229,6 +1573,20 @@
     "Dar desculpa; (pronominal) justificar-se: desculpar."
    ],
    "nota": "«S’excuser»: desculpar-se, ser justificável."
+  },
+  "excès": {
+   "lema": "excès",
+   "classe": "substantivo masculino",
+   "def": [
+    "O que está em demasia: excesso."
+   ]
+  },
+  "extrémité": {
+   "lema": "extrémité",
+   "classe": "substantivo feminino",
+   "def": [
+    "O fim de uma coisa, a parte que a termina; (figurado) extremo: extremidade, excesso."
+   ]
   },
   "fades": {
    "lema": "fade",
@@ -1254,6 +1612,14 @@
     "Aquele que faz certas obras; (por extensão) quem faz e diz muito, com ostentação: fazedor."
    ],
    "nota": "«Faiseur de protestations»: quem vive fazendo juras e declarações."
+  },
+  "faisons": {
+   "lema": "faire",
+   "classe": "verbo",
+   "forma": "imperativo, 1ª pessoa do plural",
+   "def": [
+    "Criar, produzir; praticar: façamos."
+   ]
   },
   "fait": {
    "lema": "faire",
@@ -1303,6 +1669,22 @@
     "Elogio falso ou exagerado, dado com o intuito de agradar: adulação."
    ]
   },
+  "flegme": {
+   "lema": "flegme",
+   "classe": "substantivo masculino",
+   "def": [
+    "Domínio de si, calma da alma: fleuma."
+   ],
+   "nota": "A «fleuma» (flegme) é a calma, o sangue-frio que Philinte opõe à «bile» de Alceste."
+  },
+  "fléchir": {
+   "lema": "fléchir",
+   "classe": "verbo",
+   "def": [
+    "Fazer dobrar, curvar; (figurado) ceder: ceder, dobrar-se."
+   ],
+   "nota": "«Fléchir au temps»: ceder ao tempo, acomodar-se aos tempos."
+  },
   "foi": {
    "lema": "foi",
    "classe": "substantivo feminino",
@@ -1310,6 +1692,13 @@
     "Palavra dada, compromisso; (também) crença em Deus: fé."
    ],
    "nota": "Aqui, fidelidade ao que se promete: «foi» é a palavra empenhada."
+  },
+  "folie": {
+   "lema": "folie",
+   "classe": "substantivo feminino",
+   "def": [
+    "Perturbação do espírito, acesso de loucura: loucura."
+   ]
   },
   "fond": {
    "lema": "fond",
@@ -1335,6 +1724,14 @@
    ],
    "nota": "«Font combat»: travam combate, competem."
   },
+  "force": {
+   "lema": "force",
+   "classe": "substantivo feminino",
+   "def": [
+    "Faculdade natural de agir com vigor; (em «à force de») pelo efeito repetido de: força."
+   ],
+   "nota": "«À force de sagesse»: à custa de tanta sabedoria; «force» aí é a insistência."
+  },
   "fort": {
    "lema": "fort",
    "classe": "advérbio",
@@ -1342,6 +1739,13 @@
     "(Antiquado) Muito, extremamente: muito."
    ],
    "nota": "«Fort bien»: muito bem."
+  },
+  "fourbe": {
+   "lema": "fourbe",
+   "classe": "adjetivo",
+   "def": [
+    "Que emprega, para enganar, uma astúcia pérfida: velhaco, trapaceiro."
+   ]
   },
   "fourberie": {
    "lema": "fourberie",
@@ -1390,6 +1794,21 @@
     "Homem ou menino filho do mesmo pai e da mesma mãe que outro: irmãos."
    ],
    "nota": "«Ces deux frères que peint l’École des maris»: Sganarelle e Ariste, irmãos da comédia anterior de Molière, «L’École des maris»."
+  },
+  "fuir": {
+   "lema": "fuir",
+   "classe": "verbo",
+   "def": [
+    "Afastar-se a toda velocidade, por medo: fugir."
+   ]
+  },
+  "fuit": {
+   "lema": "fuir",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Afastar-se a toda velocidade; evitar: foge, evita."
+   ]
   },
   "fureur": {
    "lema": "fureur",
@@ -1470,6 +1889,21 @@
    ],
    "nota": "Aqui, no tom irônico de «ces grands faiseurs de protestations»: esses grandes fazedores de juras."
   },
+  "grimace": {
+   "lema": "grimace",
+   "classe": "substantivo feminino",
+   "def": [
+    "Contorção do rosto, feita muitas vezes de propósito: careta, trejeito."
+   ],
+   "nota": "Aqui, a careta de falsa cortesia do homem que Alceste descreve."
+  },
+  "gronder": {
+   "lema": "gronder",
+   "classe": "verbo",
+   "def": [
+    "Fazer ouvir um ruído surdo; (figurado) resmungar de descontentamento: resmungar, rosnar."
+   ]
+  },
   "grâce": {
    "lema": "grâce",
    "classe": "substantivo feminino",
@@ -1477,6 +1911,29 @@
     "Perdão, favor concedido a quem merecia punição; (também) o que agrada: graça."
    ],
    "nota": "«Faire grâce»: poupar, perdoar a pena; «de mauvaise grâce», mais abaixo, é «de mau jeito»."
+  },
+  "générale": {
+   "lema": "général",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Comum a todos os indivíduos de um gênero: geral."
+   ]
+  },
+  "haine": {
+   "lema": "haine",
+   "classe": "substantivo feminino",
+   "def": [
+    "Sentimento de aversão, de repulsa, em relação a uma pessoa ou grupo: ódio."
+   ]
+  },
+  "haines": {
+   "lema": "haine",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Sentimento de aversão, de repulsa: ódios."
+   ]
   },
   "hais": {
    "lema": "haïr",
@@ -1492,6 +1949,22 @@
    "forma": "presente do indicativo, 3ª pessoa do singular",
    "def": [
     "Detestar, sentir aversão por: odeia."
+   ]
+  },
+  "hasard": {
+   "lema": "hasard",
+   "classe": "substantivo masculino",
+   "def": [
+    "Causa indiscernível, alheia a toda intenção humana: acaso."
+   ],
+   "nota": "«Par hasard»: por acaso."
+  },
+  "heurte": {
+   "lema": "heurter",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Entrar em contato bruscamente; (figurado) chocar: chocar."
    ]
   },
   "homme": {
@@ -1555,6 +2028,14 @@
    ],
    "nota": "«Nature humaine»: a natureza humana, a humanidade."
   },
+  "humains": {
+   "lema": "humain",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Ser vivo que faz parte da espécie humana: humanos."
+   ]
+  },
   "humeur": {
    "lema": "humeur",
    "classe": "substantivo feminino",
@@ -1599,6 +2080,15 @@
     "Que desagrada, que aborrece ou cansa com assiduidades, com discursos: importuno."
    ]
   },
+  "imposent": {
+   "lema": "imposer",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Impor-se pela autoridade; enganar, iludir: impor."
+   ],
+   "nota": "«Imposer à»: enganar, iludir alguém, causar-lhe falsa impressão."
+  },
   "incartades": {
    "lema": "incartade",
    "classe": "substantivo feminino",
@@ -1628,11 +2118,26 @@
     "Que se desonrou na opinião pública; (antiquado) de má reputação: infame."
    ]
   },
+  "injuste": {
+   "lema": "injuste",
+   "classe": "adjetivo",
+   "def": [
+    "Que não tem justiça; que age contra as regras da justiça: injusto."
+   ]
+  },
   "injustice": {
    "lema": "injustice",
    "classe": "substantivo feminino",
    "def": [
     "Falta de justiça ou de equidade: injustiça."
+   ]
+  },
+  "insinue": {
+   "lema": "insinuer",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "(Pronominal) Introduzir-se aos poucos, com habilidade: insinuar-se."
    ]
   },
   "instant": {
@@ -1642,6 +2147,13 @@
     "Duração muito breve; momento preciso no tempo: instante."
    ],
    "nota": "«Tout à l’instant»: neste mesmo instante, imediatamente."
+  },
+  "intéressé": {
+   "lema": "intéressé",
+   "classe": "adjetivo",
+   "def": [
+    "Que só leva em conta o próprio interesse: interesseiro."
+   ]
   },
   "intérêt": {
    "lema": "intérêt",
@@ -1707,6 +2219,15 @@
     "Que tem graça, agrado; bonita."
    ],
    "nota": "«Faire la jolie»: fazer-se de bonita."
+  },
+  "jours": {
+   "lema": "jour",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Período de vinte e quatro horas: dias."
+   ],
+   "nota": "«Tous les jours»: todos os dias."
   },
   "jure": {
    "lema": "jurer",
@@ -1831,6 +2352,14 @@
    ],
    "nota": "Rubrica de cena: «se levant brusquement», levantando-se de repente."
   },
+  "lieux": {
+   "lema": "lieu",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Porção do espaço: lugares."
+   ]
+  },
   "lorsque": {
    "lema": "lorsque",
    "classe": "conjunção",
@@ -1930,6 +2459,14 @@
    ],
    "nota": "Aqui, em sentido figurado: o mau humor, a mania de Alceste."
   },
+  "malfaisants": {
+   "lema": "malfaisant",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Que se compraz em prejudicar, em fazer mal aos outros: maléfico."
+   ]
+  },
   "malheur": {
    "lema": "malheur",
    "classe": "substantivo masculino",
@@ -1961,12 +2498,26 @@
    ],
    "nota": "Aqui, o tribunal dos marechais da França, que julgava questões de honra entre nobres."
   },
+  "masque": {
+   "lema": "masque",
+   "classe": "substantivo masculino",
+   "def": [
+    "Falso rosto de papelão ou outro material com que se cobre o rosto: máscara."
+   ]
+  },
   "masquent": {
    "lema": "masquer",
    "classe": "verbo",
    "forma": "presente do subjuntivo, 3ª pessoa do plural",
    "def": [
     "Pôr uma máscara em alguém; (figurado) disfarçar, esconder: mascarar."
+   ]
+  },
+  "maudit": {
+   "lema": "maudit",
+   "classe": "adjetivo",
+   "def": [
+    "Muito mau; amaldiçoado, detestável: maldito."
    ]
   },
   "mauvaise": {
@@ -1993,6 +2544,32 @@
     "Plural de «mon» e «ma»: meus, minhas."
    ]
   },
+  "mesures": {
+   "lema": "mesure",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Dimensão; (figurado) moderação, comedimento: medidas."
+   ],
+   "nota": "«Garder des mesures»: guardar as aparências, manter o comedimento."
+  },
+  "mettons": {
+   "lema": "mettre",
+   "classe": "verbo",
+   "forma": "imperativo, 1ª pessoa do plural",
+   "def": [
+    "Colocar uma pessoa, animal ou coisa num lugar determinado: ponhamos."
+   ],
+   "nota": "«Mettons-nous moins en peine»: preocupemo-nos menos."
+  },
+  "mettre": {
+   "lema": "mettre",
+   "classe": "verbo",
+   "def": [
+    "Colocar uma pessoa, um animal ou uma coisa num lugar determinado: pôr."
+   ],
+   "nota": "«Se mettre en courroux»: irritar-se, pôr-se em cólera."
+  },
   "mieux": {
    "lema": "mieux",
    "classe": "advérbio",
@@ -2017,6 +2594,13 @@
     "(corrente) Pessoa de humor sombrio e irritadiço, que foge do trato com os outros: misantropo."
    ],
    "nota": "O título da peça: Alceste, o misantropo, é quem se recusa a fingir cortesia e foge do convívio."
+  },
+  "misérable": {
+   "lema": "misérable",
+   "classe": "adjetivo",
+   "def": [
+    "Reduzido à miséria; (figurado) desprezível, vil: miserável."
+   ]
   },
   "mode": {
    "lema": "mode",
@@ -2067,6 +2651,13 @@
    ],
    "nota": "«Payer de la même monnoie»: pagar na mesma moeda."
   },
+  "monsieur": {
+   "lema": "monsieur",
+   "classe": "substantivo masculino",
+   "def": [
+    "Tratamento que permite dirigir-se de modo polido a um homem: senhor."
+   ]
+  },
   "montre": {
    "lema": "montrer",
    "classe": "verbo",
@@ -2102,6 +2693,22 @@
    ],
    "nota": "Praguejar «morbleu» era comum na época: «pela morte de Deus», atenuado para não dizer «Dieu»."
   },
+  "mortelles": {
+   "lema": "mortel",
+   "classe": "adjetivo",
+   "forma": "feminino plural",
+   "def": [
+    "Que causa a morte; (figurado) muito cruel: mortais."
+   ]
+  },
+  "mortels": {
+   "lema": "mortel",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Ser humano, enquanto sujeito à morte, por oposição aos deuses e aos imortais: mortais."
+   ]
+  },
   "mot": {
    "lema": "mot",
    "classe": "substantivo masculino",
@@ -2114,6 +2721,32 @@
    "classe": "verbo",
    "def": [
     "Deixar de viver: morrer."
+   ]
+  },
+  "mouvements": {
+   "lema": "mouvement",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Deslocamento de um corpo; (figurado) impulso da alma: movimentos, ímpetos."
+   ],
+   "nota": "Aqui, os impulsos súbitos da alma, os arrebatamentos."
+  },
+  "murmure": {
+   "lema": "murmurer",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer ouvir um murmúrio, um ruído de vozes surdo e confuso; (figurado) queixar-se baixinho: murmurar."
+   ],
+   "nota": "«Votre âme murmure»: a vossa alma protesta, se revolta."
+  },
+  "méchants": {
+   "lema": "méchant",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Mau, contrário de bom; (antiquado) perverso: maus."
    ]
   },
   "mérite": {
@@ -2138,6 +2771,14 @@
     "Pôr juntas coisas, confundindo-as: misturar."
    ],
    "nota": "«On nous mêle avec tout l’univers»: confundem-nos com o resto do mundo."
+  },
+  "mêler": {
+   "lema": "mêler",
+   "classe": "verbo",
+   "def": [
+    "(Pronominal) Intrometer-se: meter-se."
+   ],
+   "nota": "«Se mêler de»: meter-se a, intrometer-se em."
   },
   "même": {
    "lema": "même",
@@ -2234,6 +2875,14 @@
    ],
    "nota": "«Se nomme»: chama-se."
   },
+  "nommez": {
+   "lema": "nommer",
+   "classe": "verbo",
+   "forma": "imperativo, 2ª pessoa do plural",
+   "def": [
+    "Atribuir, impor um nome a alguém ou algo; qualificar: chamai."
+   ]
+  },
   "non": {
    "lema": "non",
    "classe": "advérbio",
@@ -2272,6 +2921,14 @@
     "Pronome da primeira pessoa do plural, sujeito ou complemento: nós, nos."
    ]
   },
+  "nul": {
+   "lema": "nul",
+   "classe": "pronome indefinido",
+   "def": [
+    "Nenhum, ninguém: nenhum."
+   ],
+   "nota": "«Nul n’y contredit»: ninguém contradiz."
+  },
   "nulle": {
    "lema": "nul",
    "classe": "adjetivo indefinido",
@@ -2304,11 +2961,33 @@
     "(Formal) Que gosta de prestar favor, de agradar: prestimoso, solícito."
    ]
   },
+  "observe": {
+   "lema": "observer",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 1ª pessoa do singular",
+   "def": [
+    "Notar, olhar com atenção: observar."
+   ]
+  },
+  "obstination": {
+   "lema": "obstination",
+   "classe": "substantivo feminino",
+   "def": [
+    "Ação de se obstinar, de se apegar com teimosia a uma ideia, a um sentimento: obstinação."
+   ]
+  },
   "odieux": {
    "lema": "odieux",
    "classe": "adjetivo",
    "def": [
     "Que excita o ódio, a aversão, a reprovação: odioso."
+   ]
+  },
+  "offensé": {
+   "lema": "offensé",
+   "classe": "adjetivo",
+   "def": [
+    "Que sofreu ou está sofrendo uma ofensa: ofendido."
    ]
   },
   "offre": {
@@ -2409,6 +3088,21 @@
     "Mostrar-se, aparecer; manifestar-se: aparecer, mostrar-se."
    ]
   },
+  "parce": {
+   "lema": "parce",
+   "classe": "conjunção",
+   "def": [
+    "Usado só na locução «parce que»: porque."
+   ]
+  },
+  "parfaite": {
+   "lema": "parfait",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que reúne todas as qualidades, sem mistura de defeitos: perfeita."
+   ]
+  },
   "parfois": {
    "lema": "parfois",
    "classe": "advérbio",
@@ -2430,6 +3124,13 @@
    "forma": "presente do subjuntivo, 3ª pessoa do singular",
    "def": [
     "Usar a faculdade da linguagem; proferir, articular palavras: fale."
+   ]
+  },
+  "parmi": {
+   "lema": "parmi",
+   "classe": "preposição",
+   "def": [
+    "No meio de, no seio de: entre."
    ]
   },
   "paroles": {
@@ -2469,6 +3170,15 @@
    "def": [
     "Movimento que faz uma pessoa ao pôr um pé diante do outro para andar: passo."
    ]
+  },
+  "pauvres": {
+   "lema": "pauvre",
+   "classe": "adjetivo",
+   "forma": "plural",
+   "def": [
+    "Digno de pena, coitado; (propriamente) que vive na pobreza: pobres."
+   ],
+   "nota": "«Pauvres mortels»: pobres mortais, pobres criaturas humanas."
   },
   "payer": {
    "lema": "payer",
@@ -2524,6 +3234,13 @@
     "Exercer a atividade do espírito; julgar, achar: pensar."
    ]
   },
+  "perfection": {
+   "lema": "perfection",
+   "classe": "substantivo feminino",
+   "def": [
+    "Qualidade do que é perfeito em seu gênero: perfeição."
+   ]
+  },
   "permise": {
    "lema": "permettre",
    "classe": "verbo",
@@ -2573,6 +3290,14 @@
    ],
    "nota": "«Chagrin philosophe»: o mau humor com ares de sabedoria, de filosofia."
   },
+  "pied-plat": {
+   "lema": "pied-plat",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Pejorativo) Homem que não tem coragem: pé-rapado."
+   ],
+   "nota": "O «pied-plat» era o homem de baixa condição, pé-rapado, servil e rastejante."
+  },
   "pitié": {
    "lema": "pitié",
    "classe": "substantivo feminino",
@@ -2603,6 +3328,14 @@
     "Ser agradável: agradar."
    ],
    "nota": "«S’il vous plaît»: por favor, se vos apraz."
+  },
+  "plein": {
+   "lema": "plein",
+   "classe": "adjetivo",
+   "def": [
+    "Que contém tudo o que pode conter: cheio."
+   ],
+   "nota": "«À plein»: por inteiro, em cheio."
   },
   "pleine": {
    "lema": "plein",
@@ -2657,6 +3390,31 @@
     "Em favor de; a respeito de; para: por, para."
    ]
   },
+  "pourra": {
+   "lema": "pouvoir",
+   "classe": "verbo",
+   "forma": "futuro do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ser capaz de; ter a faculdade de: poderá."
+   ]
+  },
+  "pourraient": {
+   "lema": "pouvoir",
+   "classe": "verbo",
+   "forma": "condicional, 3ª pessoa do plural",
+   "def": [
+    "Ser capaz de; ter a faculdade de: poderiam."
+   ]
+  },
+  "poussé": {
+   "lema": "pousser",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "Fazer pressão contra alguém ou algo para deslocá-lo; (figurado) fazer avançar na vida: empurrado, promovido."
+   ],
+   "nota": "«S’est poussé dans le monde»: abriu caminho na sociedade, subiu na vida."
+  },
   "pouvez": {
    "lema": "pouvoir",
    "classe": "verbo",
@@ -2682,6 +3440,32 @@
     "Que precede todos os outros no tempo, no lugar, na ordem: primeiro."
    ]
   },
+  "prenant": {
+   "lema": "prendre",
+   "classe": "verbo",
+   "forma": "particípio presente",
+   "def": [
+    "Segurar, adotar: tomando."
+   ],
+   "nota": "«Prenant un autre cours»: seguindo outro rumo."
+  },
+  "prend": {
+   "lema": "prendre",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Segurar, pôr na mão; (figurado) tomar, sobrevir a alguém: toma."
+   ],
+   "nota": "«Il me prend des mouvements soudains»: sobrevêm-me ímpetos repentinos."
+  },
+  "prends": {
+   "lema": "prendre",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 1ª pessoa do singular",
+   "def": [
+    "Segurar; (figurado) tomar, aceitar: tomo."
+   ]
+  },
   "prie": {
    "lema": "prier",
    "classe": "verbo",
@@ -2690,6 +3474,14 @@
     "Pedir com insistência ou humildade; rogar."
    ],
    "nota": "«Je vous prie»: peço-vos, por favor."
+  },
+  "procès": {
+   "lema": "procès",
+   "classe": "substantivo masculino",
+   "def": [
+    "Causa levada a um juiz, que trata de um litígio: processo."
+   ],
+   "nota": "Alceste tem um processo em andamento, que reaparece mais tarde na peça."
   },
   "profession": {
    "lema": "profession",
@@ -2753,6 +3545,14 @@
    "classe": "conjunção",
    "def": [
     "Serve para marcar uma causa, um motivo, uma razão: já que, visto que."
+   ]
+  },
+  "puisse": {
+   "lema": "pouvoir",
+   "classe": "verbo",
+   "forma": "presente do subjuntivo, 1ª pessoa do singular",
+   "def": [
+    "Ser capaz de; ter a faculdade de: possa."
    ]
   },
   "pure": {
@@ -2968,6 +3768,50 @@
     "(Antiquado) Linhagem; conjunto dos ascendentes e descendentes de uma mesma família: raça, estirpe."
    ]
   },
+  "radouci": {
+   "lema": "radouci",
+   "classe": "adjetivo",
+   "def": [
+    "Tornado mais doce, amaciado: abrandado."
+   ]
+  },
+  "raideur": {
+   "lema": "raideur",
+   "classe": "substantivo feminino",
+   "def": [
+    "Caráter do que é rígido; (figurado) inflexibilidade: rigidez."
+   ]
+  },
+  "raison": {
+   "lema": "raison",
+   "classe": "substantivo feminino",
+   "def": [
+    "Faculdade intelectual pela qual o homem conhece, julga e se conduz: razão."
+   ]
+  },
+  "raison#2": {
+   "lema": "raison",
+   "classe": "substantivo feminino",
+   "def": [
+    "Direito que alguém tem em relação a outro; verdade do seu lado: razão."
+   ],
+   "nota": "«Avoir raison»: ter razão."
+  },
+  "raisonne": {
+   "lema": "raisonner",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Servir-se da razão para conhecer, para julgar: raciocinar."
+   ]
+  },
+  "rang": {
+   "lema": "rang",
+   "classe": "substantivo masculino",
+   "def": [
+    "Ordem, disposição de várias pessoas numa mesma linha; (figurado) posição social: posto, lugar."
+   ]
+  },
   "rayez": {
    "lema": "rayer",
    "classe": "verbo",
@@ -3017,6 +3861,13 @@
    ],
    "nota": "«Rendre offre pour offre»: retribuir oferta com oferta."
   },
+  "revêtu": {
+   "lema": "revêtu",
+   "classe": "adjetivo",
+   "def": [
+    "(Figurado) Que está ornado, decorado: revestido."
+   ]
+  },
   "ridicule": {
    "lema": "ridicule",
    "classe": "adjetivo",
@@ -3031,6 +3882,13 @@
     "(Com valor negativo, junto a «ne») Ausência de alguma coisa ou de tudo: nada."
    ]
   },
+  "rigueur": {
+   "lema": "rigueur",
+   "classe": "substantivo feminino",
+   "def": [
+    "Severidade inflexível, dureza, austeridade: rigor."
+   ]
+  },
   "ris": {
    "lema": "rire",
    "classe": "verbo",
@@ -3040,6 +3898,15 @@
    ],
    "nota": "«Je ris de»: rio-me de."
   },
+  "rit": {
+   "lema": "rire",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Marcar um sentimento de alegria; (com «à») sorrir a alguém para lhe agradar: ri."
+   ],
+   "nota": "«On lui rit»: sorriem-lhe, tratam-no com simpatia."
+  },
   "rompre": {
    "lema": "rompre",
    "classe": "verbo",
@@ -3047,6 +3914,22 @@
     "Separar em duas partes; (figurado) romper, quebrar."
    ],
    "nota": "«Rompre en visière»: romper com alguém, enfrentar de frente."
+  },
+  "rougir": {
+   "lema": "rougir",
+   "classe": "verbo",
+   "def": [
+    "Ficar vermelho, de vergonha ou de emoção: corar."
+   ]
+  },
+  "roulements": {
+   "lema": "roulement",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Movimento do que rola: rolar, revirar."
+   ],
+   "nota": "«Roulements d’yeux»: o revirar de olhos, o olhar embevecido."
   },
   "régals": {
    "lema": "régal",
@@ -3076,6 +3959,29 @@
    "classe": "adjetivo",
    "def": [
     "Que é prudente, circunspecto, ajuizado; que tem um sentimento justo das coisas: sensato."
+   ]
+  },
+  "sagesse": {
+   "lema": "sagesse",
+   "classe": "substantivo feminino",
+   "def": [
+    "Prudência, circunspecção, sentimento justo das coisas: sabedoria."
+   ]
+  },
+  "sait": {
+   "lema": "savoir",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Apreender pelo espírito ou pelo conhecimento; conhecer de modo certo: sabe."
+   ]
+  },
+  "sales": {
+   "lema": "sale",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Que é malcheiroso, que não está limpo; (figurado) vergonhoso: sujos."
    ]
   },
   "sans": {
@@ -3124,12 +4030,28 @@
     "Lugar da ação que se representa no teatro: cenário, cena."
    ]
   },
+  "scélérat": {
+   "lema": "scélérat",
+   "classe": "adjetivo",
+   "def": [
+    "Que cometeu ou é capaz de cometer grandes crimes: celerado, criminoso."
+   ]
+  },
   "se": {
    "lema": "se",
    "classe": "pronome reflexivo",
    "def": [
     "Pronome pessoal da 3ª pessoa, dos dois gêneros e números; complemento de um verbo pronominal reflexivo: se."
    ]
+  },
+  "seconde": {
+   "lema": "second",
+   "classe": "adjetivo",
+   "forma": "feminino singular",
+   "def": [
+    "Que vem imediatamente depois do primeiro: segundo, segunda."
+   ],
+   "nota": "«Folie à nulle autre seconde»: loucura que não perde para nenhuma outra, que é a maior de todas."
   },
   "semblants": {
    "lema": "semblant",
@@ -3139,6 +4061,13 @@
     "Aparência enganosa: fingimento, aparências."
    ],
    "nota": "«Semblants d’amitié»: fingimentos de amizade, amizade de fachada."
+  },
+  "semer": {
+   "lema": "semer",
+   "classe": "verbo",
+   "def": [
+    "Espalhar a semente sobre uma terra preparada; (figurado) espalhar: semear, espalhar."
+   ]
   },
   "sentiments": {
    "lema": "sentiment",
@@ -3170,6 +4099,14 @@
    "forma": "plural",
    "def": [
     "Afirmação ou promessa feita atestando Deus, um ser ou objeto sagrado: juramento."
+   ]
+  },
+  "seront": {
+   "lema": "être",
+   "classe": "verbo",
+   "forma": "futuro do indicativo, 3ª pessoa do plural",
+   "def": [
+    "Definir um estado, uma característica do sujeito: serão."
    ]
   },
   "ses": {
@@ -3227,6 +4164,21 @@
    ],
    "nota": "«Âme bien située»: alma bem colocada, de posição respeitável."
   },
+  "siècle": {
+   "lema": "siècle",
+   "classe": "substantivo masculino",
+   "def": [
+    "Período de cem anos; (aqui) a época, os tempos: século."
+   ],
+   "nota": "«Le siècle où nous sommes»: a época em que vivemos."
+  },
+  "sobriété": {
+   "lema": "sobriété",
+   "classe": "substantivo feminino",
+   "def": [
+    "Caráter de quem é sóbrio, moderado; (figurado) moderação: sobriedade."
+   ]
+  },
   "soins": {
    "lema": "soin",
    "classe": "substantivo masculino",
@@ -3242,6 +4194,14 @@
    "forma": "presente do subjuntivo, 3ª pessoa do singular",
    "def": [
     "Definir um estado, uma característica do sujeito: seja."
+   ]
+  },
+  "sommes": {
+   "lema": "être",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 1ª pessoa do plural",
+   "def": [
+    "Definir um estado, uma característica do sujeito: somos."
    ]
   },
   "son": {
@@ -3260,6 +4220,29 @@
     "Definir um estado, uma característica do sujeito: são, estão."
    ]
   },
+  "sort": {
+   "lema": "sort",
+   "classe": "substantivo masculino",
+   "def": [
+    "O destino considerado como causa dos diversos acontecimentos da vida: sorte."
+   ]
+  },
+  "sort#2": {
+   "lema": "sortir",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Passar de dentro para fora: sai."
+   ]
+  },
+  "soudains": {
+   "lema": "soudain",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Que é súbito, imediato: repentinos."
+   ]
+  },
   "souffrir": {
    "lema": "souffrir",
    "classe": "verbo",
@@ -3273,6 +4256,13 @@
    "classe": "preposição",
    "def": [
     "Serve para marcar a situação de uma coisa em relação a outra que está acima; também a dependência: sob."
+   ]
+  },
+  "splendeur": {
+   "lema": "splendeur",
+   "classe": "substantivo feminino",
+   "def": [
+    "Grande brilho de luz; (figurado) esplendor: esplendor."
    ]
   },
   "suis": {
@@ -3376,6 +4366,14 @@
    ],
    "nota": "«Je n’y puis plus tenir»: já não aguento mais, já não consigo resistir."
   },
+  "titres": {
+   "lema": "titre",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Qualificativo ou denominação que se dá a alguém: títulos."
+   ]
+  },
   "tombe": {
    "lema": "tomber",
    "classe": "verbo",
@@ -3384,6 +4382,13 @@
     "Ser arrastado para baixo pelo próprio peso: cair."
    ],
    "nota": "Aqui, no sentido figurado: o calor da amizade «cai», arrefece."
+  },
+  "ton": {
+   "lema": "ton",
+   "classe": "substantivo masculino",
+   "def": [
+    "Som de certa frequência; (figurado) modo de falar, entonação: tom."
+   ]
   },
   "tourne": {
    "lema": "tourner",
@@ -3456,6 +4461,22 @@
     "Ação de uma pessoa que trai: traição."
    ]
   },
+  "trahisse": {
+   "lema": "trahir",
+   "classe": "verbo",
+   "forma": "imperfeito do subjuntivo, 3ª pessoa do singular",
+   "def": [
+    "Praticar uma perfídia contra alguém: traísse."
+   ]
+  },
+  "traitable": {
+   "lema": "traitable",
+   "classe": "adjetivo",
+   "def": [
+    "Que é acomodatício, maleável; fácil de tratar: tratável, maleável."
+   ],
+   "nota": "«Une vertu traitable»: uma virtude flexível, que se deixa tratar."
+  },
   "traitent": {
    "lema": "traiter",
    "classe": "verbo",
@@ -3481,6 +4502,21 @@
    ],
    "nota": "«Pour le trancher net»: para cortar a conversa de vez."
   },
+  "travers": {
+   "lema": "travers",
+   "classe": "substantivo masculino",
+   "def": [
+    "Extensão de um corpo considerada na largura: través, lado a lado."
+   ],
+   "nota": "«Au travers de»: através de."
+  },
+  "traître": {
+   "lema": "traître",
+   "classe": "substantivo masculino",
+   "def": [
+    "Pessoa que trai: traidor."
+   ]
+  },
   "trop": {
    "lema": "trop",
    "classe": "advérbio",
@@ -3496,11 +4532,27 @@
     "Encontrar a pessoa ou a coisa que se procura: encontro."
    ]
   },
+  "tâche": {
+   "lema": "tâcher",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Fazer esforços para chegar ao fim de uma coisa: tentar, procurar."
+   ],
+   "nota": "«Tâcher à» (construção antiga): procurar, esforçar-se por; hoje «tâcher de»."
+  },
   "témoigner": {
    "lema": "témoigner",
    "classe": "verbo",
    "def": [
     "(Transitivo) Manifestar, dar a conhecer o que se sabe, o que se sente: demonstrar."
+   ]
+  },
+  "têtebleu": {
+   "lema": "têtebleu",
+   "classe": "interjeição",
+   "def": [
+    "(Antiquado) Juramento: eufemismo de «tête de Dieu»."
    ]
   },
   "un": {
@@ -3519,6 +4571,14 @@
     "Determinante colocado diante de um substantivo feminino que representa um objeto não conhecido com precisão: uma."
    ]
   },
+  "unis": {
+   "lema": "unir",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino plural",
+   "def": [
+    "Juntar, ligar: unidos."
+   ]
+  },
   "univers": {
    "lema": "univers",
    "classe": "substantivo masculino",
@@ -3527,6 +4587,14 @@
    ],
    "nota": "«Tout l’univers»: o mundo inteiro, todo mundo."
   },
+  "uns": {
+   "lema": "un",
+   "classe": "pronome indefinido",
+   "forma": "masculino plural",
+   "def": [
+    "Plural de «un»; «les uns… les autres»: uns… outros."
+   ]
+  },
   "usage": {
    "lema": "usage",
    "classe": "substantivo masculino",
@@ -3534,6 +4602,14 @@
     "Costume; prática recebida: uso."
    ],
    "nota": "Aqui, «l’usage» é o costume social, o bom-tom exigido pelo mundo."
+  },
+  "usages": {
+   "lema": "usage",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Costume; prática recebida: usos, costumes."
+   ]
   },
   "vains": {
    "lema": "vain",
@@ -3566,6 +4642,45 @@
     "Que tem grande extensão; sem limites: vasto."
    ]
   },
+  "vautours": {
+   "lema": "vautour",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Ave de rapina, que se alimenta de carniça, de cabeça e pescoço nus: abutres."
+   ]
+  },
+  "verrez": {
+   "lema": "voir",
+   "classe": "verbo",
+   "forma": "futuro do indicativo, 2ª pessoa do plural",
+   "def": [
+    "Perceber a imagem dos objetos pelo órgão da visão: vereis."
+   ]
+  },
+  "vertu": {
+   "lema": "vertu",
+   "classe": "substantivo feminino",
+   "def": [
+    "Disposição firme e constante da alma que leva a fazer o bem e a evitar o mal: virtude."
+   ]
+  },
+  "vertueuses": {
+   "lema": "vertueux",
+   "classe": "adjetivo",
+   "forma": "feminino plural",
+   "def": [
+    "Que tem virtude: virtuosas."
+   ]
+  },
+  "vertus": {
+   "lema": "vertu",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Disposição firme da alma que leva a fazer o bem: virtudes."
+   ]
+  },
   "veuille": {
    "lema": "vouloir",
    "classe": "verbo",
@@ -3575,12 +4690,27 @@
    ],
    "nota": "«Qui veuille d’une estime»: que queira uma estima; «vouloir de» é aceitar, querer saber de."
   },
+  "veut": {
+   "lema": "vouloir",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Ter a intenção, a vontade de fazer algo: quer."
+   ]
+  },
   "veux": {
    "lema": "vouloir",
    "classe": "verbo",
    "forma": "presente do indicativo, 1ª pessoa do singular",
    "def": [
     "Ter a intenção, a vontade de fazer algo: querer."
+   ]
+  },
+  "vice": {
+   "lema": "vice",
+   "classe": "substantivo masculino",
+   "def": [
+    "Defeito, imperfeição grave: vício."
    ]
   },
   "vices": {
@@ -3616,6 +4746,22 @@
     "Ir ao lugar onde está quem fala: vem."
    ],
    "nota": "«Vous vient embrasser»: vem abraçar-vos (o pronome «vous» vem antes do primeiro verbo, ordem da época)."
+  },
+  "vieux": {
+   "lema": "vieux",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "De certa idade; antigo: velhos."
+   ]
+  },
+  "vigoureuses": {
+   "lema": "vigoureux",
+   "classe": "adjetivo",
+   "forma": "feminino plural",
+   "def": [
+    "Que tem vigor: vigorosas."
+   ]
   },
   "ville": {
    "lema": "ville",
@@ -3687,6 +4833,13 @@
     "Ter a intenção, a vontade de fazer algo: quereis."
    ]
   },
+  "vouloir": {
+   "lema": "vouloir",
+   "classe": "verbo",
+   "def": [
+    "Ter a intenção, a vontade de fazer algo; decidir-se a isso: querer."
+   ]
+  },
   "vous": {
    "lema": "vous",
    "classe": "pronome pessoal",
@@ -3694,6 +4847,14 @@
     "Pronome clítico ou tônico da segunda pessoa do singular ou do plural de cortesia: vós, o senhor, a senhora."
    ],
    "nota": "Aqui é uma só pessoa tratada com cerimônia."
+  },
+  "voyons": {
+   "lema": "voir",
+   "classe": "verbo",
+   "forma": "imperativo, 1ª pessoa do plural",
+   "def": [
+    "Perceber a imagem dos objetos pelo órgão da visão; (aqui) examinar, considerar: vejamos."
+   ]
   },
   "y": {
    "lema": "y",
@@ -3732,11 +4893,27 @@
     "Período decorrido desde o nascimento de um ser vivo: idade."
    ]
   },
+  "âges": {
+   "lema": "âge",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Período decorrido desde o nascimento; (por extensão) época: idades, eras."
+   ]
+  },
   "âme": {
    "lema": "âme",
    "classe": "substantivo feminino",
    "def": [
     "Parte imaterial do homem, oposta ao corpo: alma."
+   ]
+  },
+  "âmes": {
+   "lema": "âme",
+   "classe": "substantivo feminino",
+   "forma": "plural",
+   "def": [
+    "Princípio da vida num ser humano; parte imaterial do homem: almas."
    ]
   },
   "échauffer": {
@@ -3895,6 +5072,7 @@
   "2:197.2": "en#2",
   "2:199.7": "en#2",
   "2:199.11": "pas#2",
+  "2:200.7": "raison#2",
   "2:207.3": "en#2",
   "2:216.4": "en#2",
   "2:218.7": "tout#2",
@@ -3937,6 +5115,7 @@
   "2:264.7": "le#2",
   "2:265.7": "ce#2",
   "3:4.3": "l’#3",
+  "3:13.24": "sort#2",
   "3:18.8": "que#2",
   "3:20.7": "la#2",
   "3:23.4": "que#2",
@@ -3990,6 +5169,7 @@
   "3:143.2": "il#2",
   "3:146.3": "que#2",
   "3:149.5": "que#3",
+  "3:153.1": "sort#2",
   "3:154.4": "que#3",
   "3:155.7": "que#4",
   "3:158.7": "ce#2",
@@ -4080,6 +5260,7 @@
   "7:15.5": "le#2",
   "7:17.8": "tout#2",
   "8:3.2": "l’#2",
+  "8:5.6": "sort#2",
   "8:24.4": "le#2",
   "8:25.2": "le#2",
   "8:26.3": "il#2",
@@ -4136,6 +5317,7 @@
   "8:139.6": "que#2",
   "8:140.5": "qu’#3",
   "8:140.9": "qu’#3",
+  "8:141.10": "raison#2",
   "8:146.6": "en#2",
   "8:147.5": "que#2",
   "8:148.2": "l’#3",
@@ -4247,6 +5429,7 @@
   "14:103.2": "que#2",
   "14:105.6": "l’#3",
   "14:106.9": "tout#3",
+  "14:107.4": "raison#2",
   "14:108.1": "il#2",
   "14:109.2": "en#2",
   "14:110.5": "en#2",
@@ -4391,6 +5574,7 @@
   "18:9.7": "si#2",
   "18:10.5": "que#2",
   "18:12.5": "en#2",
+  "18:12.7": "raison#2",
   "18:14.2": "ce#2",
   "18:14.3": "que#2",
   "18:16.5": "qu’#2",
@@ -4476,6 +5660,7 @@
   "20:5.3": "ce#2",
   "20:5.4": "que#2",
   "20:8.7": "tout#2",
+  "20:17.9": "raison#2",
   "20:21.7": "que#2",
   "20:21.8": "l’#3",
   "20:23.7": "même#2",
@@ -4527,6 +5712,7 @@
   "21:10.2": "le#2",
   "21:11.6": "le#2",
   "21:12.4": "si#2",
+  "21:18.10": "raison#2",
   "21:18.12": "il#2",
   "21:22.5": "plus#2",
   "21:27.7": "tout#3",

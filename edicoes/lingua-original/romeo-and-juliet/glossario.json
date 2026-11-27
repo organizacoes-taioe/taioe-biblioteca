@@ -569,6 +569,13 @@
     "Posteriormente a; depois de, no tempo."
    ]
   },
+  "after#3": {
+   "lema": "after",
+   "classe": "advérbio",
+   "def": [
+    "Atrás; mais tarde; em seguida."
+   ]
+  },
   "after-hours": {
    "lema": "after-hours",
    "classe": "substantivo",
@@ -1392,6 +1399,14 @@
     "Considerado como, em relação a outra coisa; como."
    ],
    "nota": "«As a note» é «como uma nota», como sinal."
+  },
+  "as#3": {
+   "lema": "as",
+   "classe": "conjunção",
+   "def": [
+    "Funciona como conjunção relativa, às vezes como pronome relativo; que, o qual, quem."
+   ],
+   "nota": "Depois de «such»: «such drugs… as will disperse» é «tais drogas… que se espalham»."
   },
   "as't": {
    "lema": "as't",
@@ -2732,6 +2747,15 @@
     "Comparativo de «good» e «well»: de qualidade superior; melhor."
    ]
   },
+  "better#3": {
+   "lema": "better",
+   "classe": "advérbio",
+   "forma": "comparativo",
+   "def": [
+    "Comparativo de «well»: de modo melhor; mais."
+   ],
+   "nota": "«Love thee better than myself» é «amo-te mais que a mim mesmo»."
+  },
   "between": {
    "lema": "between",
    "classe": "preposição",
@@ -3492,6 +3516,13 @@
    ],
    "nota": "«Boy» é tratamento de desprezo a Romeu, como se fosse um moleque."
   },
+  "boy#3": {
+   "lema": "boy",
+   "classe": "substantivo",
+   "def": [
+    "Criança do sexo masculino; rapaz."
+   ]
+  },
   "boys": {
    "lema": "boy",
    "classe": "substantivo",
@@ -3626,6 +3657,14 @@
     "Aurora; o raiar do dia."
    ],
    "nota": "«By the break of day» é «ao romper do dia»."
+  },
+  "break#4": {
+   "lema": "break",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Violar; deixar de cumprir."
+   ],
+   "nota": "«Break it» é «viola-a»: infringe a lei de que se fala."
   },
   "breaks": {
    "lema": "break",
@@ -4064,6 +4103,14 @@
     "(arcaico) A menos que; a não ser que; se não."
    ],
    "nota": "«But thou love me» é «a menos que me ames»; «but if» também é «a menos que»."
+  },
+  "but#5": {
+   "lema": "but",
+   "classe": "conjunção",
+   "def": [
+    "Exceto que; a não ser que (introduz uma oração que restringe uma afirmação negativa)."
+   ],
+   "nota": "«Knows not but I am gone» é «não sabe senão que eu me fui»."
   },
   "butcher": {
    "lema": "butcher",
@@ -8443,6 +8490,14 @@
     "(incontável) Descrença ou incerteza (sobre algo); dúvida."
    ]
   },
+  "doubt#3": {
+   "lema": "doubt",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, arcaico) Suspeitar; ter suspeita de."
+   ],
+   "nota": "«His intents I doubt» é «seus propósitos eu suspeito»."
+  },
   "dove": {
    "lema": "dove",
    "classe": "substantivo",
@@ -10275,6 +10330,13 @@
     "(raro, arcaico) Que procede do destino ou foi por ele determinado."
    ]
   },
+  "fatal#3": {
+   "lema": "fatal",
+   "classe": "adjetivo",
+   "def": [
+    "Que causa morte ou destruição; mortal."
+   ]
+  },
   "fate": {
    "lema": "fate",
    "classe": "substantivo",
@@ -11302,6 +11364,14 @@
     "(formal, literário) Porque."
    ],
    "nota": "«For then we should…» é «porque então seríamos…»."
+  },
+  "for#3": {
+   "lema": "for",
+   "classe": "preposição",
+   "def": [
+    "(na locução «for all») Apesar de; não obstante."
+   ],
+   "nota": "«For all this same» é «apesar de tudo isto»."
   },
   "forbear": {
    "lema": "forbear",
@@ -13286,6 +13356,14 @@
    ],
    "nota": "«I have heard» é «eu ouvi», «eu tenho ouvido»."
   },
+  "have#3": {
+   "lema": "have at",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, idiomático, arcaico) Atacar; entrar em combate com."
+   ],
+   "nota": "«Have at thee» é «à luta contigo!», «toma!»."
+  },
   "having": {
    "lema": "have",
    "classe": "verbo",
@@ -13775,6 +13853,14 @@
     "Contração de «here is»: aqui está; eis."
    ]
   },
+  "here's#3": {
+   "lema": "here's",
+   "classe": "contração",
+   "def": [
+    "Contração de «here is»: aqui está; eis."
+   ],
+   "nota": "«Here's to my love!» é um brinde: «à saúde (ao) meu amor!», dito ao beber."
+  },
   "hereabout": {
    "lema": "hereabout",
    "classe": "advérbio",
@@ -14134,6 +14220,13 @@
    ],
    "nota": "«The fearful hollow of thine ear» é a cavidade do ouvido, onde o som se mete."
   },
+  "hollow#3": {
+   "lema": "hollow",
+   "classe": "adjetivo",
+   "def": [
+    "(de algo sólido) Que tem espaço vazio ou cavidade por dentro; oco."
+   ]
+  },
   "holp": {
    "lema": "help",
    "classe": "verbo",
@@ -14375,6 +14468,14 @@
     "(intransitivo) Morar; alojar-se."
    ],
    "nota": "«You shall not house with me» é «não morarás comigo»."
+  },
+  "house#4": {
+   "lema": "house",
+   "classe": "substantivo",
+   "def": [
+    "Construção onde vivem seres humanos; casa."
+   ],
+   "nota": "«His house» é a bainha do punhal, vista como casa dele."
   },
   "households": {
    "lema": "household",
@@ -15117,6 +15218,15 @@
     "(copulativo) Usado para indicar que o sujeito tem as qualidades descritas por um adjetivo, um sintagma preposicional ou um substantivo; ser, estar."
    ]
   },
+  "is#3": {
+   "lema": "be",
+   "classe": "verbo auxiliar",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "(arcaico) Usado com o particípio passado de certos verbos intransitivos, em especial de movimento, para formar o perfeito."
+   ],
+   "nota": "«Is come» é «veio», «chegou»: o inglês antigo usava «be», e não «have», com verbos de movimento."
+  },
   "is't": {
    "lema": "is't",
    "classe": "contração",
@@ -15683,6 +15793,13 @@
     "Ato de tocar com os lábios, em geral para mostrar amor, afeição ou paixão; beijo."
    ]
   },
+  "kiss#3": {
+   "lema": "kiss",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Tocar com os lábios ou pressionar os lábios contra algo, em geral para mostrar amor, afeição ou paixão; beijar."
+   ]
+  },
   "kisses": {
    "lema": "kiss",
    "classe": "substantivo",
@@ -15698,6 +15815,14 @@
    "forma": "plural",
    "def": [
     "Ato de tocar com os lábios, em geral por amor, afeto ou paixão; beijo."
+   ]
+  },
+  "kisses#3": {
+   "lema": "kiss",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Tocar com os lábios ou pressionar os lábios contra algo, em geral para mostrar amor, afeição ou paixão; beijar."
    ]
   },
   "kissing": {
@@ -16147,6 +16272,21 @@
    ],
    "nota": "«Last night» é «ontem à noite»; «that last» é «este último que disse»."
   },
+  "last#4": {
+   "lema": "last",
+   "classe": "advérbio",
+   "def": [
+    "(em sequência) Depois de todo o resto; por fim."
+   ],
+   "nota": "«Look your last» é «olhai pela última vez»."
+  },
+  "last#5": {
+   "lema": "last",
+   "classe": "adjetivo",
+   "def": [
+    "Final; derradeiro; que vem depois de todos os outros do mesmo tipo."
+   ]
+  },
   "lasting": {
    "lema": "lasting",
    "classe": "adjetivo",
@@ -16247,6 +16387,14 @@
    "classe": "verbo",
    "def": [
     "(transitivo) Pôr, colocar (algo) em posição horizontal; depor."
+   ]
+  },
+  "lay#3": {
+   "lema": "lie",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(intransitivo) Repousar em posição horizontal sobre uma superfície; jazer."
    ]
   },
   "laying": {
@@ -16436,6 +16584,14 @@
     "(transitivo) Transferir (algo) a alguém; deixar."
    ],
    "nota": "«Leave him all» é «deixar-lhe tudo», como herança."
+  },
+  "leave#5": {
+   "lema": "leave",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Transferir (algo) a alguém; deixar."
+   ],
+   "nota": "«Did leave it for my office» é «deixou-o a meu encargo»: confiou-me a tarefa."
   },
   "leaves": {
    "lema": "leaf",
@@ -17638,6 +17794,15 @@
     "(ditransitivo, o segundo objeto é um verbo) Fazer com que (alguém faça algo); obrigar."
    ],
    "nota": "«Made Verona's ancient citizens cast by…» é «fez os velhos cidadãos de Verona largarem…»."
+  },
+  "made#4": {
+   "lema": "make",
+   "classe": "verbo",
+   "forma": "passado",
+   "def": [
+    "(arcaico) Fazer estar (em determinado lugar), usado depois de «what»."
+   ],
+   "nota": "«What made your master in this place?» é «que fazia o teu amo neste lugar?»."
   },
   "madly": {
    "lema": "madly",
@@ -20572,6 +20737,14 @@
    ],
    "nota": "«Married once» é «casada alguma vez», «enfim casada»."
   },
+  "once#3": {
+   "lema": "at once",
+   "classe": "advérbio",
+   "def": [
+    "Imediatamente; agora mesmo; já."
+   ],
+   "nota": "«At once» é «de uma vez»: sem esperar."
+  },
   "one": {
    "lema": "one",
    "classe": "numeral",
@@ -22078,6 +22251,14 @@
     "Pequena divisão ou aspecto individual de algo; ponto."
    ],
    "nota": "«A fearful point» é «um ponto de dar medo», uma questão assustadora."
+  },
+  "point#3": {
+   "lema": "point",
+   "classe": "substantivo",
+   "def": [
+    "Momento particular num acontecimento; ponto."
+   ],
+   "nota": "«At the point of death» é «no ponto da morte», prestes a morrer."
   },
   "points": {
    "lema": "point",
@@ -23978,6 +24159,14 @@
     "Lugar onde se pode repousar, temporária ou permanentemente; pouso, morada."
    ],
    "nota": "«Set up his rest» é uma expressão antiga: «firmou o seu pouso», isto é, está decidido, apostou tudo em ficar com ela (Paris fez a sua escolha)."
+  },
+  "rest#6": {
+   "lema": "rest",
+   "classe": "substantivo",
+   "def": [
+    "Lugar onde se pode repousar, temporária ou permanentemente; pouso, morada."
+   ],
+   "nota": "«Set up my rest» é expressão antiga: «firmar o pouso», decidir ficar de vez; aqui, também o descanso eterno."
   },
   "restorative": {
    "lema": "restorative",
@@ -25995,6 +26184,14 @@
    ],
    "nota": "«Divinest show» é «aparência divina»: o rosto belo que esconde o engano."
   },
+  "show#3": {
+   "lema": "show",
+   "classe": "substantivo",
+   "def": [
+    "(contável) Exposição de itens."
+   ],
+   "nota": "«To make up a show» é «para fazer uma exibição»: arrumar poucos objetos de modo que a loja pareça cheia."
+  },
   "showering": {
    "lema": "shower",
    "classe": "verbo",
@@ -27875,6 +28072,14 @@
     "(arcaico) Aguentar; suportar sem ceder."
    ],
    "nota": "«Stay the siege of loving terms» é «suportar o assédio de palavras amorosas»."
+  },
+  "stay#4": {
+   "lema": "stay",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Parar ou retardar algo; deter."
+   ],
+   "nota": "«Stay the friar» é «detenham o frade»."
   },
   "stay'd": {
    "lema": "stay",
@@ -32600,6 +32805,14 @@
    ],
    "nota": "«Keeps his watch» é «faz a sua vigília»."
   },
+  "watch#3": {
+   "lema": "watch",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa ou grupo de pessoas que vigia; guarda."
+   ],
+   "nota": "«The watch» é a guarda da cidade, os vigias."
+  },
   "watch'd": {
    "lema": "watch",
    "classe": "verbo",
@@ -34615,6 +34828,14 @@
    "def": [
     "(contável) Pessoa jovem; moço."
    ]
+  },
+  "youth#3": {
+   "lema": "youth",
+   "classe": "substantivo",
+   "def": [
+    "(incontável) A parte da vida que vem depois da infância; juventude."
+   ],
+   "nota": "«Cut thy youth in twain» é «cortou em dois a tua juventude»: tirou-lhe a vida ainda jovem."
   },
   "youthful": {
    "lema": "youthful",
@@ -36833,38 +37054,439 @@
   "24:146.9": "silver#2",
   "24:147.6": "sounding#2",
   "24:148.5": "silver#2",
+  "25:7.3": "above#2",
+  "25:8.4": "lady#2",
+  "25:9.3": "that#2",
+  "25:9.8": "leave#2",
+  "25:9.9": "to#2",
+  "25:10.6": "kisses#2",
+  "25:11.1": "that#3",
+  "25:12.5": "is#2",
+  "25:13.2": "but#3",
+  "25:16.6": "letters#2",
+  "25:17.4": "lady#2",
+  "25:17.8": "well#3",
+  "25:19.1": "for#2",
+  "25:19.5": "ill#3",
+  "25:19.9": "well#3",
+  "25:20.3": "is#2",
+  "25:20.4": "well#3",
+  "25:20.9": "ill#3",
+  "25:22.3": "immortal#2",
+  "25:22.7": "lives#2",
+  "25:23.3": "her#2",
+  "25:24.5": "to#2",
+  "25:25.7": "ill#3",
+  "25:26.4": "leave#5",
   "25:27.4": "so#2",
+  "25:30.7": "patience#2",
+  "25:34.4": "do#2",
+  "25:34.6": "thing#2",
+  "25:34.10": "do#2",
+  "25:35.4": "letters#2",
+  "25:36.1": "no#2",
+  "25:37.3": "get#2",
+  "25:40.1": "well#2",
+  "25:42.1": "to#2",
+  "25:47.4": "worn#2",
+  "25:52.1": "green#2",
+  "25:54.4": "to#2",
+  "25:54.8": "show#3",
+  "25:56.1": "an#2",
+  "25:56.6": "need#3",
+  "25:57.3": "is#2",
+  "25:58.2": "lives#2",
+  "25:58.5": "wretch#2",
+  "25:59.4": "thought#2",
+  "25:59.6": "but#3",
+  "25:59.9": "need#2",
+  "25:62.6": "is#2",
+  "25:66.6": "that#3",
+  "25:67.2": "there#2",
+  "25:67.3": "is#2",
+  "25:69.1": "as#3",
+  "25:70.1": "that#3",
+  "25:71.2": "that#3",
+  "25:72.5": "powder#2",
+  "25:73.5": "fatal#3",
+  "25:74.8": "law#2",
+  "25:75.6": "that#2",
+  "25:77.3": "to#2",
+  "25:77.6": "is#2",
+  "25:78.1": "need#2",
+  "25:79.7": "back#2",
+  "25:80.3": "is#2",
+  "25:80.10": "law#2",
+  "25:81.5": "law#2",
+  "25:81.6": "to#2",
+  "25:81.7": "make#2",
+  "25:82.6": "break#4",
+  "25:83.6": "will#2",
+  "25:84.8": "will#2",
+  "25:85.6": "thing#2",
+  "25:85.8": "will#4",
+  "25:86.8": "had#2",
+  "25:88.1": "there#2",
+  "25:88.2": "is#2",
+  "25:88.8": "men's#2",
+  "25:90.5": "that#2",
+  "25:92.8": "flesh#2",
+  "25:94.4": "for#2",
+  "25:94.8": "use#2",
+  "26:3.1": "holy#2",
+  "26:5.6": "voice#2",
+  "26:6.1": "welcome#3",
+  "26:7.4": "mind#2",
+  "26:7.7": "give#2",
+  "26:8.2": "to#2",
+  "26:9.1": "one#2",
+  "26:9.5": "to#2",
+  "26:10.7": "sick#2",
+  "26:12.2": "that#3",
+  "26:14.10": "forth#2",
   "26:15.1": "so#4",
+  "26:15.2": "that#3",
+  "26:17.8": "is#2",
+  "26:18.5": "to#2",
+  "26:19.2": "fearful#2",
+  "26:20.3": "by#3",
+  "26:22.2": "dear#2",
   "26:22.3": "import#2",
+  "26:23.2": "do#2",
   "26:23.3": "much#2",
+  "26:27.7": "alone#2",
+  "26:29.6": "that#3",
+  "26:30.2": "had#2",
+  "26:32.2": "keep#2",
   "26:32.3": "her#2",
+  "27:3.1": "give#2",
+  "27:3.5": "boy#3",
+  "27:3.8": "stand#2",
+  "27:4.1": "yet#2",
+  "27:4.5": "for#2",
+  "27:5.4": "lay#2",
+  "27:6.2": "thine#2",
+  "27:6.3": "ear#2",
+  "27:6.7": "hollow#3",
   "27:7.1": "so#2",
+  "27:10.1": "as#2",
+  "27:10.3": "that#2",
+  "27:10.6": "something#2",
+  "27:11.1": "give#2",
+  "27:11.5": "do#2",
+  "27:12.6": "to#2",
+  "27:12.7": "stand#2",
+  "27:12.8": "alone#2",
+  "27:13.5": "yet#2",
+  "27:14.2": "flower#2",
+  "27:15.5": "is#2",
+  "27:18.3": "that#2",
+  "27:18.8": "keep#2",
+  "27:19.4": "to#2",
+  "27:21.2": "boy#3",
+  "27:21.5": "something#2",
+  "27:22.2": "cursed#2",
+  "27:22.6": "way#2",
+  "27:23.1": "to#2",
+  "27:23.6": "true#2",
+  "27:24.8": "awhile#2",
+  "27:26.1": "give#2",
+  "27:29.1": "give#2",
+  "27:30.6": "stand#2",
+  "27:33.1": "is#2",
+  "27:33.3": "to#2",
+  "27:33.7": "face#2",
+  "27:34.3": "to#2",
+  "27:35.3": "ring#2",
+  "27:35.5": "ring#2",
+  "27:35.6": "that#2",
+  "27:35.9": "use#2",
+  "27:36.2": "dear#2",
+  "27:37.7": "to#2",
+  "27:38.2": "what#2",
+  "27:38.4": "farther#2",
+  "27:38.7": "to#2",
+  "27:38.8": "do#2",
+  "27:39.1": "by#3",
+  "27:39.2": "heaven#2",
+  "27:42.1": "more#2",
+  "27:42.4": "more#2",
   "27:45.1": "so#2",
+  "27:47.2": "for#3",
+  "27:48.9": "doubt#3",
+  "27:50.8": "earth#2",
+  "27:51.7": "to#2",
+  "27:54.2": "is#2",
+  "27:55.1": "that#2",
+  "27:56.2": "is#2",
+  "27:57.3": "is#3",
+  "27:57.5": "to#2",
+  "27:57.6": "do#2",
+  "27:63.6": "for#2",
+  "27:66.1": "fly#2",
+  "27:67.8": "youth#2",
+  "27:68.4": "sin#2",
+  "27:70.1": "by#3",
+  "27:70.2": "heaven#2",
+  "27:70.4": "love#2",
+  "27:70.6": "better#3",
+  "27:71.1": "for#2",
+  "27:71.6": "against#2",
+  "27:76.6": "have#3",
+  "27:76.9": "boy#2",
+  "27:78.10": "watch#3",
+  "27:81.4": "lay#2",
+  "27:82.2": "faith#2",
+  "27:82.9": "face#2",
+  "27:83.4": "county#2",
   "27:85.9": "think#2",
+  "27:86.6": "have#2",
   "27:87.4": "so#2",
   "27:87.10": "so#2",
+  "27:89.1": "to#2",
+  "27:89.2": "think#2",
   "27:89.5": "so#2",
+  "27:89.7": "give#2",
+  "27:90.1": "one#2",
+  "27:90.8": "book#2",
+  "27:92.4": "no#2",
+  "27:92.8": "youth#2",
+  "27:93.1": "for#2",
+  "27:93.3": "lies#2",
+  "27:97.8": "point#3",
+  "27:98.1": "have#2",
+  "27:98.8": "call#2",
+  "27:100.1": "call#2",
+  "27:101.2": "that#2",
+  "27:102.2": "had#2",
+  "27:104.1": "is#2",
+  "27:105.5": "is#2",
+  "27:107.7": "do#2",
+  "27:108.5": "that#2",
+  "27:108.6": "cut#2",
+  "27:108.8": "youth#3",
+  "27:109.1": "to#2",
+  "27:109.4": "that#2",
+  "27:109.6": "thine#2",
+  "27:112.1": "that#3",
+  "27:112.4": "is#2",
+  "27:113.2": "that#3",
+  "27:114.5": "to#2",
+  "27:115.2": "fear#2",
+  "27:118.3": "that#2",
+  "27:119.3": "set#2",
+  "27:119.7": "rest#6",
+  "27:121.4": "flesh#2",
+  "27:121.8": "last#4",
+  "27:122.4": "last#5",
   "27:123.9": "kiss#2",
+  "27:126.6": "once#3",
+  "27:128.1": "here's#3",
+  "27:128.7": "true#2",
   "27:129.8": "kiss#2",
+  "27:130.5": "end#2",
+  "27:131.1": "saint#2",
+  "27:132.1": "have#2",
+  "27:133.1": "here's#2",
+  "27:133.2": "one#2",
+  "27:133.6": "one#2",
+  "27:133.7": "that#2",
+  "27:135.5": "that#2",
+  "27:135.7": "lends#2",
   "27:138.3": "so#2",
+  "27:138.4": "holy#2",
+  "27:139.1": "one#2",
+  "27:139.2": "that#2",
+  "27:139.4": "love#2",
+  "27:142.2": "long#2",
+  "27:143.1": "full#2",
+  "27:143.2": "half#2",
+  "27:143.4": "hour#2",
+  "27:146.5": "but#5",
+  "27:148.5": "to#2",
+  "27:149.5": "alone#2",
+  "27:149.6": "fear#2",
+  "27:150.6": "ill#3",
+  "27:150.8": "thing#2",
+  "27:153.2": "that#3",
+  "27:158.1": "to#2",
+  "27:159.5": "else#2",
   "27:159.8": "too#2",
+  "27:160.9": "hour#2",
+  "27:161.1": "is#2",
+  "27:162.2": "lady#2",
+  "27:165.10": "within#2",
+  "27:166.5": "lady#2",
+  "27:170.5": "bosom#2",
+  "27:170.7": "lies#2",
   "27:171.3": "too#2",
+  "27:172.5": "holy#2",
+  "27:173.3": "to#2",
+  "27:173.5": "for#2",
+  "27:173.7": "watch#3",
+  "27:173.8": "is#2",
+  "27:174.8": "longer#2",
+  "27:175.2": "get#2",
+  "27:175.5": "for#2",
+  "27:177.8": "true#2",
+  "27:178.8": "end#2",
+  "27:179.6": "left#2",
+  "27:180.1": "to#2",
+  "27:180.2": "help#2",
+  "27:180.4": "after#3",
+  "27:180.7": "kiss#3",
+  "27:181.6": "hang#2",
+  "27:182.1": "to#2",
   "27:182.2": "make#2",
+  "27:182.8": "kisses#3",
+  "27:184.1": "within#2",
+  "27:184.2": "lead#2",
+  "27:184.3": "boy#3",
+  "27:184.5": "way#2",
+  "27:187.2": "is#2",
+  "27:189.2": "watch#3",
+  "27:190.2": "is#2",
+  "27:191.3": "is#2",
+  "27:193.2": "sight#2",
+  "27:193.4": "lies#2",
+  "27:193.6": "county#2",
+  "27:195.1": "who#2",
+  "27:195.7": "days#2",
+  "27:196.4": "prince#2",
+  "27:199.3": "true#2",
+  "27:201.5": "watch#3",
+  "27:202.1": "here's#2",
+  "27:203.7": "prince#2",
+  "27:205.2": "watch#3",
+  "27:205.7": "that#2",
+  "27:208.4": "stay#4",
   "27:208.7": "too#2",
+  "27:209.3": "prince#2",
+  "27:211.1": "that#2",
+  "27:211.8": "rest#3",
+  "27:213.5": "that#3",
+  "27:217.2": "fear#2",
+  "27:218.3": "lies#2",
+  "27:218.5": "county#2",
+  "27:219.7": "before#2",
+  "27:221.2": "seek#2",
+  "27:223.6": "to#2",
+  "27:224.3": "men's#2",
+  "27:225.5": "look#2",
+  "27:226.5": "for#2",
+  "27:226.8": "house#4",
+  "27:227.1": "is#2",
+  "27:227.5": "back#2",
+  "27:228.7": "bosom#2",
+  "27:229.4": "sight#2",
+  "27:229.7": "is#2",
+  "27:229.8": "as#2",
+  "27:230.1": "that#2",
+  "27:232.3": "for#2",
+  "27:233.1": "to#2",
+  "27:233.7": "more#2",
+  "27:234.6": "is#2",
   "27:236.2": "further#2",
+  "27:236.5": "against#2",
   "27:236.6": "mine#2",
+  "27:237.1": "look#2",
+  "27:239.1": "to#2",
+  "27:242.8": "true#2",
+  "27:244.2": "lead#2",
+  "27:245.7": "patience#2",
+  "27:246.2": "forth#2",
+  "27:247.6": "to#2",
+  "27:247.7": "do#2",
+  "27:248.1": "yet#2",
+  "27:249.3": "against#2",
+  "27:250.4": "stand#2",
+  "27:250.6": "to#2",
+  "27:252.4": "once#3",
+  "27:252.5": "what#2",
+  "27:253.5": "for#2",
+  "27:254.1": "is#2",
+  "27:256.5": "that#2",
+  "27:261.2": "to#2",
   "27:261.9": "her#2",
+  "27:262.4": "have#2",
   "27:262.6": "her#2",
+  "27:263.2": "county#2",
+  "27:264.9": "mean#2",
+  "27:265.1": "to#2",
   "27:265.3": "her#2",
+  "27:265.6": "second#2",
+  "27:266.8": "kill#2",
   "27:267.4": "her#2",
   "27:267.5": "so#2",
+  "27:267.9": "art#2",
   "27:268.5": "so#2",
+  "27:269.4": "for#2",
   "27:269.8": "her#2",
+  "27:270.2": "form#3",
+  "27:271.1": "that#3",
+  "27:272.1": "to#2",
+  "27:272.2": "help#2",
+  "27:272.3": "to#2",
   "27:272.5": "her#2",
+  "27:276.7": "alone#2",
+  "27:277.4": "hour#2",
+  "27:278.3": "to#2",
   "27:278.5": "her#2",
+  "27:279.1": "meaning#2",
+  "27:279.2": "to#2",
+  "27:279.3": "keep#2",
   "27:279.4": "her#2",
+  "27:282.6": "lay#3",
+  "27:283.5": "true#2",
   "27:284.6": "her#2",
+  "27:284.8": "forth#2",
+  "27:285.2": "bear#2",
+  "27:285.4": "work#2",
+  "27:285.6": "heaven#2",
+  "27:285.8": "patience#2",
+  "27:290.3": "is#2",
+  "27:291.4": "fault#2",
+  "27:292.4": "hour#2",
+  "27:293.6": "law#2",
+  "27:294.3": "have#2",
+  "27:294.8": "holy#2",
+  "27:299.7": "give#2",
+  "27:301.6": "left#2",
+  "27:302.1": "give#2",
+  "27:303.6": "that#2",
+  "27:303.9": "watch#3",
+  "27:304.3": "made#4",
+  "27:305.5": "to#2",
+  "27:306.4": "stand#2",
   "27:306.7": "so#2",
-  "27:318.8": "too#2"
+  "27:307.3": "one#2",
+  "27:307.6": "to#2",
+  "27:308.2": "by#4",
+  "27:308.4": "by#4",
+  "27:309.6": "to#2",
+  "27:309.9": "watch#3",
+  "27:312.5": "that#3",
+  "27:314.5": "to#2",
+  "27:316.5": "is#2",
+  "27:317.1": "that#2",
+  "27:317.2": "heaven#2",
+  "27:317.5": "to#2",
+  "27:317.6": "kill#2",
+  "27:318.8": "too#2",
+  "27:319.1": "have#2",
+  "27:320.4": "give#2",
+  "27:321.2": "is#2",
+  "27:321.6": "for#2",
+  "27:323.4": "give#2",
+  "27:324.1": "for#2",
+  "27:325.1": "that#3",
+  "27:325.7": "is#2",
+  "27:326.1": "there#2",
+  "27:326.9": "set#2",
+  "27:327.4": "true#2",
+  "27:328.5": "by#2",
+  "27:332.3": "to#2",
+  "27:332.10": "things#2",
+  "27:334.1": "for#2"
  }
 }

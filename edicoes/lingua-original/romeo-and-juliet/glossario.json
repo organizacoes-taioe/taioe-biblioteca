@@ -16464,15 +16464,6 @@
    ],
    "nota": "Em «many a morning», «many a» + singular é «muitas (manhãs)»."
   },
-  "many#2": {
-   "lema": "marry",
-   "classe": "verbo",
-   "forma": "grafia «many» da edição, por «marry»",
-   "def": [
-    "(transitivo) Tomar como marido ou mulher; casar-se com."
-   ],
-   "nota": "A edição imprime «many», mas o sentido é o de «marry»: «rather than marry Paris» é «em vez de casar com Páris»."
-  },
   "many's": {
    "lema": "many",
    "classe": "pronome",
@@ -16596,6 +16587,13 @@
    "nota": "Vem de «by Mary», «por Maria»: «Marry, sir» é «ora, senhor», «pois bem»."
   },
   "marry#2": {
+   "lema": "marry",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Tomar como marido ou esposa; casar com."
+   ]
+  },
+  "marry#3": {
    "lema": "marry",
    "classe": "verbo",
    "def": [
@@ -32027,7 +32025,7 @@
   "5:67.1": "an#2",
   "5:67.5": "to#2",
   "5:67.9": "once#2",
-  "5:69.3": "marry#2",
+  "5:69.3": "marry#3",
   "5:70.3": "to#2",
   "5:71.5": "to#2",
   "5:72.5": "that#2",
@@ -33720,7 +33718,7 @@
   "20:78.5": "to#2",
   "20:79.1": "that#2",
   "20:79.6": "to#2",
-  "20:81.7": "many#2",
+  "20:81.7": "marry#2",
   "20:84.8": "bears#2",
   "20:90.2": "that#2",
   "20:90.3": "to#2",

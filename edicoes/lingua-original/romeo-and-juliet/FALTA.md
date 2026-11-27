@@ -8,4 +8,4 @@ Pedido da rodada de 27/11 (regras: `~/.cache/claude-pedidos-2711/BRIEF.md`). Mod
   (numeração conferida com a da edição em todas as cenas; acertos em `FORCAR`, `JUNTAR`, `DIVIDIR`).
 - Glossário: Ato I pronto (personagens, prólogo, 1-1…1-5, fora do rascunho). Atos II–V: fichas → lotes → `juntar.py`, depois mapear e revisar, como no Macbeth (`~/.cache/claude-pedidos-2711/romeo-and-juliet/BRIEF-GLOSSARIO.md`).
   As partes ficam com `"rascunho": true` em `obras.json` até o glossário delas fechar.
-- Tradução ao lado: a pesquisar (decisão em `../revisao-romeo-and-juliet.json`).
+- Tradução ao lado: pesquisada; nenhuma completa em verso e em domínio público acessível. Decisão «sem tradução ao lado» em `../revisao-romeo-and-juliet.json` (recomendação aplicada).

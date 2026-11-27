@@ -843,6 +843,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'frei-luis-de-sousa',
+  nome: 'Frei Luís de Sousa',
+  nomeCompleto: 'Frei Luís de Sousa (Manuel de Sousa Coutinho)',
+  vida: '~1555–1632',
+  ordem: 'Sousa, Frei Luís de',
+  area: 'nao-ficcao',
+  nota: 'Frade dominicano português, chamado no século Manuel de Sousa Coutinho; cronista da Ordem dos Pregadores, autor também da História de São Domingos, e tido como um dos mestres da prosa portuguesa.'
+});
+
+BIBLIOTECA.autor({
   id: 'plutarco',
   nome: 'Plutarco',
   nomeCompleto: 'Plutarco de Queroneia',

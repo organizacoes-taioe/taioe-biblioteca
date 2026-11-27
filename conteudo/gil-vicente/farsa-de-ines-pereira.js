@@ -1,0 +1,2104 @@
+/* Farsa de Inês Pereira — Gil Vicente
+   Gerado por edicoes/farsa-de-ines-pereira/publicar.py. Não edite à mão:
+   corrija edicoes/farsa-de-ines-pereira/licoes.py ou grafia.py e rode modernizar.py, montar.py e este.
+*/
+BIBLIOTECA.obra({
+  id: "farsa-de-ines-pereira",
+  autor: "gil-vicente",
+  titulo: "Farsa de Inês Pereira",
+  ano: 1523,
+  genero: "Teatro",
+  divisao: {"singular": "parte", "plural": "partes"},
+  descricao: "Farsa representada a Dom João III no convento de Tomar, em 1523, sobre o dito «mais quero asno que me leve que cavalo que me derrube».",
+  edicao: {
+    base: "Copilação de 1562",
+    apresentacao: `**Texto-base.** Este texto reproduz a farsa como está na _Copilaçam de todalas obras de Gil Vicente_ (Lisboa, 1562), a edição das obras preparada por seus filhos, onde ela abre com o título «Auto de Inês Pereira», na grafia brasileira de hoje. Não se conhece folheto avulso impresso em vida do autor.
+
+**Como foi estabelecido.** O texto da reimpressão de Hamburgo (1834), que reproduz a Copilação, foi passado a limpo a partir da leitura automática de duas digitalizações e depois relido verso a verso contra o fac-símile de 1562 da Biblioteca Nacional de Portugal. Onde as duas edições divergem, vale a de 1562: a edição de 1834 trocou palavras e formas, mudou a fala de alguns versos, reescreveu rubricas e acrescentou outras (as indicações «sai», «vai-se», «à parte», «lê a carta» não estão na Copilação e saíram daqui). Ficaram de 1834 só três emendas de erros evidentes de 1562: «ou marido ou maridinho / tenha o que houver mister» (1562: «marinho», «tenho»), «Sirvo allí mi Dios Cupido» (1562: «mis dias») e a fala «Dai-me vós cá essa chave», que 1562 não dá a Inês.
+
+**Grafia.** A mesma regra de _Os Lusíadas_ e das duas Barcas: muda só a maneira de escrever, nunca a forma da palavra. Ficam _pera_, _assi_, _cousa_, _dous_, _mi_, _sam_ (sou), _perém_, _milhor_, _fogir_, _cospir_, _curuja_, _lião_, _exempro_, _concrusão_, _leixar_, _ũa_. As falas do Ermitão e as cantigas castelhanas ficam em castelhano, na grafia de 1834.
+
+**Divisão.** A farsa é uma cena só. Para facilitar a leitura, ela está dividida aqui em dez partes, pela chegada de cada personagem; a divisão e os títulos são nossos.`,
+    fontes: [
+      {"nome": "Copilaçam de todalas obras de Gil Vicente (Lisboa, 1562), fac-símile da Biblioteca Nacional de Portugal", "url": "https://purl.pt/11494", "nota": "o texto-base; a farsa está nos fólios CCXIII v.º–CCXX v.º"},
+      {"nome": "Obras de Gil Vicente, tomo III (Hamburgo, 1834), exemplar da Universidade de Toronto", "url": "https://archive.org/details/obrasvic03viceuoft", "nota": "reimpressão da Copilação; pp. 121–159, passadas a limpo e conferidas com 1562"},
+      {"nome": "Obras de Gil Vicente, tomo III (Hamburgo, 1834), outro exemplar", "url": "https://archive.org/details/obrasdegilvicen02vicegoog", "nota": "para desempatar a leitura automática"}
+    ]
+  },
+  partes: [
+    { n: "", titulo: "Inês e a Mãe", texto: `_A seguinte farsa de folgar foi representada ao muito alto e mui poderoso Rei Dom João, o terceiro do nome em Portugal, no seu convento de Tomar, era do Senhor de MDXXIII. O seu argumento é que, porquanto duvidavam certos homens de bom saber se o autor fazia de si mesmo estas obras, ou se as furtava de outros autores, lhe deram este tema sobre que fizesse, s. um exemplo comum que dizem: «Mais quero asno que me leve que cavalo que me derrube». E sobre este motivo se fez esta farsa._
+
+_Finge-se na introdução que Inês Pereira, filha de ũa mulher de baixa sorte, muito fantesiosa, está lavrando em casa, e sua mãe é a ouvir missa, e ela diz:_
+
+@ Inês
+
+| Renego deste lavrar
+| E do primeiro que o usou;
+| Ò diabo que o eu dou,
+| Que tão mau é de aturar.
+| Ó Jesu! que enfadamento,
+| E que raiva e que tormento,
+| Que cegueira e que canseira!
+| Eu hei de buscar maneira
+| D'algum outro aviamento.
+
+| Coitada, assi hei de estar
+| Encerrada nesta casa
+| Como panela sem asa,
+| Que sempre está n'um lugar.
+| E assi hão de ser logrados
+| Dous dias amargurados
+| Que eu posso durar viva?
+| E assi hei d'estar cativa
+| Em poder de desfiados?
+
+| Comendo-me eu logo ò demo
+| S'eu mais lavro nem pontada;
+| Já tenho a vida cansada
+| De jazer sempre d'um cabo.
+| Todas folgam, e eu não,
+| Todas vêm e todas vão
+| Onde querem, senão eu.
+| Hui! e que pecado é o meu,
+| Ou que dor de coração?
+
+| Esta vida é mais que morta.
+| Sam eu curuja ou curujo,
+| Ou sam algum caramujo,
+| Que não sai senão à porta?
+| E quando me dão algum dia
+| Licença, como a bugia,
+| Que possa estar à janela,
+| É já mais que a Madanela
+| Quando achou a aleluia.
+
+_Vem a Mãe, e diz:_
+
+@ Mãe
+
+| Logo eu adivinhei
+| Lá na missa onde eu estava,
+| Como a minha Inês lavrava
+| A tarefa que lh'eu dei.
+| Acaba esse travesseiro.
+| E nasceu-te algum unheiro;
+| Ou cuidas que é dia santo?
+
+@ Inês
+
+| Praza a Deus que algum quebranto
+| Me tire de cativeiro.
+
+@ Mãe
+
+| Toda tu estás aquela!
+| Choram-te os filhos por pão?
+
+@ Inês
+
+| Prouvesse a Deus; que já é razão
+| De eu não estar tão singela.
+
+@ Mãe
+
+| Olhade ali o mau pesar!
+| Como queres tu casar
+| Com fama de preguiçosa?
+
+@ Inês
+
+| Mas eu, mãe, sam aguçosa,
+| E vós dai-vos de vagar.
+
+@ Mãe
+
+| Ora espera assi, vejamos.
+
+@ Inês
+
+| Quem já visse esse prazer.
+
+@ Mãe
+
+| Cal-te que poderá ser,
+| Qu'ante a Páscoa vêm os Ramos.
+| Não t'apresses tu, Inês,
+| Maior é o ano que o mês.
+| Quando te não precatares
+| Virão maridos a pares,
+| E filhos de três em três.
+
+@ Inês
+
+| Quero-m'ora alevantar;
+| Folgo mais de falar nisso,
+| Assi me dê Deus o paraíso,
+| Mil vezes que não lavrar:
+| Isto não sei que o faz.
+
+@ Mãe
+
+| Aqui vem Lianor Vaz.
+
+@ Inês
+
+| E ela vem-se benzendo.` },
+    { n: "", titulo: "Lianor Vaz", texto: `@ Lianor Vaz
+
+| Jesu a que m'eu encomendo,
+| Quanta cousa que se faz!
+
+@ Mãe
+
+| Lianor Vaz, que foi isso?
+
+@ Lianor Vaz
+
+| Venho eu, mana, amarela?
+
+@ Mãe
+
+| Mais ruiva que ũa panela.
+
+@ Lianor Vaz
+
+| Não sei como tenho siso.
+| Jesu! Jesu! que farei?
+| Não sei se me vá a El-Rei,
+| Se me vá ao Cardeal.
+
+@ Mãe
+
+| Como! e tamanho é mal?
+
+@ Lianor Vaz
+
+| Tamanho? Eu to direi.
+
+| Vinha agora pereli
+| Ò redor da minha vinha,
+| E um clérigo, mana minha,
+| Par Deus, lançou mão de mi;
+| Não me podia valer,
+| Diz que havia de saber
+| Se era eu fêmea, se macho.
+
+@ Mãe
+
+| Hui! seria algum mochacho,
+| Que brincava por prazer.
+
+@ Lianor Vaz
+
+| Si, mochacho sobejava.
+| Era um zote tamanhouço!
+| Eu andava no retouço,
+| Tão rouca que não falava,
+| Quando o vi pegar comigo,
+| Que m'achei naquele perigo,
+| Assolverei, não assolverás —
+| — Jesu! homem, qu'hás contigo?
+
+| — Irmã, eu t'assolverei
+| Co breviairo de Braga.
+| — Que breviairo, ou que praga?
+| Que não quero: aque d'el-Rei! —
+| Quando viu revolta a voda,
+| Foi e esfarrapou-me toda
+| O cabeção da camisa.
+
+@ Mãe
+
+| Assi me fez dessa guisa
+| Outro, no tempo da poda.
+
+| Eu cuidei que era jogo,
+| E ele... dai-o vós ò fogo!
+| Tomou-me tamanho riso,
+| Riso em todo meu siso,
+| E ele leixou-me logo.
+
+@ Lianor Vaz
+
+| Si, agora, eramá,
+| Também eu me ria cá
+| Das cousas que me dizia:
+| Chamava-me luz do dia:
+| Nunca teu olho verá.
+
+| Se estivera de maneira
+| Sem ser rouca, bradar'eu;
+| Mas logo m'o demo deu
+| Cadarrão e peitogueira,
+| Cócegas e cor de rir,
+| E coxa pera fogir,
+| E fraca pera vencer:
+| Porém pude-me valer
+| Sem me ninguém acudir.
+
+| O demo (e não pode al ser)
+| Se chantou no corpo dele.
+
+@ Mãe
+
+| Mana, conhecia-te ele?
+
+@ Lianor Vaz
+
+| Mas queria-me conhecer.
+
+@ Mãe
+
+| Vistes vós tamanho mal!
+
+@ Lianor Vaz
+
+| Eu m'irei ao Cardeal,
+| E far-lhe-ei assi mesura,
+| E contar-lhe-ei a aventura
+| Que achei no meu olival.
+
+@ Mãe
+
+| Não estás tu arranhada
+| De te carpir nas queixadas?
+
+@ Lianor Vaz
+
+| Eu tenho as unhas cortadas,
+| E mais estou trosquiada:
+| E mais pera que era isso?
+| E mais pera que é o siso?
+| E mais no meio da requesta
+| Veio um homem de ũa besta,
+| Que em vê-lo vi o paraíso.
+
+| E soltou-me, porque vinha
+| Bem contra sua vontade.
+| Porém, a falar verdade,
+| Já eu andava cansadinha,
+| Não me valia rogar,
+| Nem me valia chamar
+| Aque de Vasco de Foes,
+| Acudi-me como soes!
+| E ele senão pegar.
+
+| — Mais mansa, Lianor Vaz,
+| Assi Deus te faça santa.
+| — Trama te dê na garganta!
+| Como! isto assi se faz?
+| — Isto não releva nada.
+| — Tu não vês que sam casada?
+
+@ Mãe
+
+| Deras-lhe má hora boa
+| E mordera-lo na coroa.
+
+@ Lianor Vaz
+
+| Assi fora excomungada.
+| Não lhe dera um empuxão,
+| Porque sou tão maviosa,
+| Que é cousa maravilhosa;
+| E esta é a concrusão.
+| Leixemos isto. Eu venho
+| Com grande amor que vos tenho.
+| Porque diz o exempro antigo
+| Que amiga e bom amigo
+| Mais aquenta que bom lenho.
+
+| Inês Pereira é concertada
+| Pera casar com alguém?
+
+@ Mãe
+
+| Atégora com ninguém
+| Não é ela embaraçada.
+
+@ Lianor Vaz
+
+| Eu vos trago um casamento,
+| Em nome do Anjo bento:
+| Filha, não sei se vos praz.
+
+@ Inês
+
+| E quando, Lianor Vaz?
+
+@ Lianor Vaz
+
+| Eu vos trago aviamento.
+
+@ Inês
+
+| Porém não hei de casar
+| Senão com homem avisado:
+| Ainda que pobre pelado,
+| Seja discreto em falar.
+
+@ Lianor Vaz
+
+| Eu vos trago um bom marido,
+| Rico, honrado, conhecido:
+| Diz que em camisa vos quer.
+
+@ Inês
+
+| Primeiro eu hei de saber
+| Se é parvo, se sabido.
+
+@ Lianor Vaz
+
+| Nesta carta que aqui vem
+| Pera vós, filha, d'amores,
+| Veredes vós, minhas flores,
+| A descrição que ele tem.
+
+@ Inês
+
+| Mostrai-m'a cá, quero ver.
+
+@ Lianor Vaz
+
+| Tomai: e sabedes vós ler?
+
+@ Mãe
+
+| Hui! e ela sabe latim,
+| E gramateca e alfaqui,
+| E tudo quanto ela quer.
+
+_Lê Inês Pereira a carta._
+
+@ Inês
+
+| Senhora amiga Inês Pereira,
+| Pero Marques vosso amigo,
+| Que ora estou na nossa aldeia,
+| Mesmo na vossa mercea
+| M'encomendo, e mais digo,
+| Digo que benza-vos Deus,
+| Que vos fez de tão bom jeito:
+| Bom prazer e bom proveito
+| Veja vossa mãe de vós.
+
+| Ainda que eu vos vi
+| Estoutro dia de folgar,
+| E não quisestes bailar,
+| Nem cantar diante mi.
+
+@ Inês
+
+| Na voda de seu avô,
+| Ou onde me viu ora ele?
+| Lianor Vaz, este é ele?
+
+@ Lianor Vaz
+
+| Lede a carta sem dó,
+| Que inda eu sam contente dele.
+
+_Prossegue Inês Pereira a carta._
+
+@ Inês
+
+| Nem cantar presente mi,
+| Pois Deus sabe a rebentinha
+| Que me fizestes então.
+| Ora, Inês, que ajais bênção
+| De vosso pai e a minha,
+| Que venha isto a concrusão.
+
+| Vistes tão parvo vilão?
+| Eu nunca tal cousa vi
+| Nem tanto fora de mão.
+
+@ Lianor Vaz
+
+| Quereis casar a prazer
+| No tempo d'agora, Inês?
+| Antes casa, em que te pês,
+| Que não é tempo d'escolher.
+| Sempre eu ouvi dizer,
+| Ou seja sapo ou sapinho,
+| Ou marido ou maridinho,
+| Tenha o que houver mister,
+| Este é o certo caminho.
+
+@ Mãe
+
+| Par Deus, amiga, essa é ela;
+| Mata o cavalo de sela,
+| E bô é o asno que me leva.
+
+@ Lianor Vaz
+
+| Filha, no chão do Couce,
+| Quem não puder andar choute.
+| Mais quero eu quem m'adore,
+| Que quem faça com que chore.
+| Chamá-lo-hei, Inês?
+
+@ Inês
+
+| Si,
+| Venha e veja-me a mi,
+| Quero ver, quando me vir,
+| Se perderá o presumir
+| Logo em chegando aqui,
+| Pera me fartar de rir.
+
+@ Mãe
+
+| Touca-te, se cá vier,
+| Pois que pera casar anda.
+
+@ Inês
+
+| Essa é boa demanda!
+| Cerimônias há mister
+| Homem que tal carta manda?
+| Eu o estou cá pintando:
+| Sabeis, mãe, que eu adivinho?
+| Deve ser um vilanzinho,
+| Ei-lo se vem penteando:
+| Será com algum ancinho?` },
+    { n: "", titulo: "Pero Marques", texto: `_Vem Pero Marques, e diz:_
+
+@ Pero
+
+| Homem que vai donde eu vou
+| Não se deve de correr;
+| Ria embora quem quiser,
+| Que eu em meu siso estou.
+| Não sei onde mora aqui:
+| Olhai que m'esquece a mi!
+| Eu creo que nesta rua,
+| E esta parreira é sua:
+| Já conheço que é aqui.
+
+_Chega a casa de Inês Pereira._
+
+@ Pero
+
+| Digo que esteis muito embora.
+| Folguei ora de vir cá.
+| Eu vos escrevi de lá
+| Ũa cartinha, senhora:
+| E assi que de maneira . . .
+
+@ Mãe
+
+| Tomai aquela cadeira.
+
+@ Pero
+
+| E que val aqui ũa destas?
+
+@ Inês
+
+| Oh Jesu! que jam das bestas!
+| Olhai aquela canseira.
+
+_Assentou-se com as costas para elas, e diz:_
+
+@ Pero
+
+| Eu cuido que não estou bem.
+
+@ Mãe
+
+| Como vos chamais, amigo?
+
+@ Pero
+
+| Eu Pero Marques me digo,
+| Como meu pai que Deus tem.
+| Faleceu (perdoe-lhe Deus,
+| Que fora bem escusado)
+| E ficamos dous ereos,
+| Perém meu é o morgado.
+
+@ Mãe
+
+| De morgado é vosso estado?
+| Isso veria dos céus.
+
+@ Pero
+
+| Mais gado tenho eu já quanto.
+| E o maior de todo o gado,
+| Digo maior algum tanto.
+
+| E desejo ser casado,
+| Prouguesse ao Spírito Santo,
+| Com Inês; que eu me espanto
+| Quem me fez seu namorado.
+| Parece moça de bem,
+| E eu de bem er também.
+| Ora vós er ide vendo
+| Se lhe vem milhor ninguém,
+| A segundo o qu'eu entendo.
+
+| Cuido que lhe trago aqui
+| Peras da minha pereira:
+| Hão de estar na derradeira.
+| Tende ora, Inês, per i.
+
+@ Inês
+
+| E isso hei de ter na mão?
+
+@ Pero
+
+| Deitai as peas no chão.
+
+@ Inês
+
+| As perlas pera enfiar,
+| Três chocalhos e um novelo,
+| E as peas no capelo:
+| E as peras onde estão?
+
+@ Pero
+
+| Nunca tal m'aconteceu:
+| Algum rapaz m'as comeu;
+| Que as meti no capelo,
+| E ficou aqui o novelo,
+| E o pentein não se perdeu:
+| Pois trazia-as de boamente.
+
+@ Inês
+
+| Fresco vinha aí o presente
+| Com folhinhas borrifadas.
+
+@ Pero
+
+| Não qu'elas vinham chentadas
+| Cá em fundo no mais quente.
+
+| Vossa mãe foi-se? Ora bem,
+| Sós nos leixou ela assi?
+| Cant'eu quero-m'ir daqui,
+| Não diga algum demo alguém . . .
+
+@ Inês
+
+| Vós que m'havíeis de fazer,
+| Nem ninguém que há de dizer?
+| O galante despejado!
+
+@ Pero
+
+| Se eu fora já casado,
+| D'outra arte havia de ser,
+| Como homem de bom pecado.
+
+@ Inês
+
+| Quão desviado este está!
+| Todos andam por caçar
+| Suas damas sem casar.
+| E este, tomade-o lá!
+
+@ Pero
+
+| Vossa mãe é lá no muro?
+
+@ Inês
+
+| Minha mãe e vós seguro
+| Que ela venha cá dormir.
+
+@ Pero
+
+| Pois, senhora, eu quero-m'ir
+| Antes que venha o escuro.
+
+@ Inês
+
+| E não cureis mais de vir.
+
+@ Pero
+
+| Virá cá Lianor Vaz,
+| Veremos que lhe dizeis.
+
+@ Inês
+
+| Homem, não aporfieis,
+| Que não quero, nem me praz.
+| Ide casar a Cascais.
+
+@ Pero
+
+| Não vos anojarei mais.
+| Ainda que saiba estalar;
+| E prometo não casar
+| Até que vós não queirais.
+
+| Estas vos são elas a vós;
+| Anda home a gastar calçado.
+| E quando cuida que é aviado,
+| Escarnefucham de vós.
+| Creo que lá fica a peia:
+| Par Deus! bô ia eu à aldeia.
+| Senhora, cá fica o fato.
+
+@ Inês
+
+| Olhai se o levou o gato.
+
+@ Pero
+
+| Inda não tendes candeia?
+
+| Ponho per cajo que alguém
+| Vem como eu vim agora,
+| E vós a escuras a tal hora:
+| Parece-vos que será bem?
+| Ficai-vos ora com Deus:
+| Sarrai a porta sobre vós
+| Com vossa candeiazinha;
+| E siquaes sereis vós minha,
+| Entonces veremos nós.
+
+_Vai-se Pero Marques, e diz Inês Pereira:_
+
+@ Inês
+
+| Pessoa conheço eu
+| Que levara outro caminho.
+| Casai lá c'um vilanzinho,
+| Mais covarde que um judeu!
+| Se fora outro homem agora,
+| E me topara a tal hora,
+| Estando comigo às escuras,
+| Dissera-me mil doçuras,
+| Ainda que mais não fora.
+
+@ Mãe
+
+| Pero Marques foi-se já?
+
+@ Inês
+
+| E pera que era ele aqui?
+
+@ Mãe
+
+| E não t'agrada ele a ti?
+
+@ Inês
+
+| Vá-se muitieramá;
+| Que sempre disse e direi.
+| Mãe, eu me não casarei
+| Senão com homem discreto,
+| E assi vo-lo prometo.
+| Ou antes o leixarei.
+
+| Que seja homem mal feito,
+| Feio, pobre, sem feição,
+| Como tiver descrição,
+| Não lhe quero mais proveito.
+| E saiba tanger viola,
+| E coma eu pão e cebola,
+| Siquer ũa canteguinha,
+| Discreto, feito em farinha,
+| Porque isto me degola.
+
+@ Mãe
+
+| Sempre tu hás de bailar,
+| E sempre ele há de tanger?
+| Se não tiveres que comer,
+| O tanger te há de fartar?
+
+@ Inês
+
+| Cada louco com sua teima,
+| Com ũa borda de boleima,
+| E ũa vez d'água fria,
+| Não quero mais cada dia.
+
+@ Mãe
+
+| Como às vezes isso queima!
+| E qu'é d'esses escudeiros?
+
+@ Inês
+
+| Eu falei ontem ali,
+| Que passaram por aqui
+| Os Judeus casamenteiros,
+| E hão de vir agora aqui.` },
+    { n: "", titulo: "Os Judeus casamenteiros", texto: `@ Latão
+
+| Ou de cá, quem está lá?
+
+@ Vidal
+
+| Nome del Deo aqui somos.
+
+@ Latão
+
+| Não sabeis quão longe fomos.
+
+@ Vidal
+
+| Corremos a ieramá.
+| Este e eu.
+
+@ Latão
+
+| Eu e este,
+| Pola lama e polo pó,
+| Que era pera haver dó,
+| Com chuiva, sol e noroeste.
+| Foi a coisa de maneira,
+| Tal friúra e tal canseira,
+| Que trago as tripas maçadas:
+| Assi me fadem boas fadas
+| Que me saltou caganeira —
+
+@ Vidal
+
+| Pera vossa mercê ver
+| O que nos encomendou.
+
+@ Latão
+
+| O que nos encomendou
+| Será o que houver de ser.
+| Todo este mundo é fadiga,
+| Vós dixestes, filha amiga,
+| Que vos buscássemos logo. . . .
+
+@ Vidal
+
+| E logo pujemos fogo.
+
+@ Latão
+
+| Cal-te.
+
+@ Vidal
+
+| Não queres que diga?
+
+| Não fui eu também contigo?
+| Tu e eu não somos eu,
+| Tu judeu e eu judeu?
+| Não somos massa d'um trigo?
+
+@ Latão
+
+| Leixai-me falar.
+
+@ Vidal
+
+| Já calo.
+| Senhora, fomos . . . agora falo,
+| Ou falas tu?
+
+@ Latão
+
+| Dize, que dizias?
+| Que foste, que fomos, que ias
+| Buscá-lo, esgravatá-lo.
+
+@ Vidal
+
+| Vós quereis, Amor, marido
+| Mui discreto, e de viola?
+| Esta moça não é tola,
+| Que quer casar per sentido.
+
+@ Vidal
+
+| Judeu, queres-me leixar?
+
+@ Latão
+
+| Leixo, não quero falar.
+
+@ Vidal
+
+| Buscamo-lo
+
+@ Latão
+
+| Demo foi logo.
+| Crede que o vosso rogo
+| Vencerá o Tejo e o mar.
+
+| Eu cuido que falo e calo:
+| Falo eu agora ou não?
+| Ou falo, se vem à mão;
+| Não digas que não te falo.
+
+@ Inês
+
+| Não falará um de vós?
+| Já queria saber isso.
+
+@ Mãe
+
+| Que siso, Inês, que siso
+| Tens debaixo desses véus!
+
+@ Inês
+
+| Diz o exemplo da velha,
+| O que não haveis de comer
+| Leixai-o a outrem mexer.
+
+@ Mãe
+
+| Mau conselho t'aconselha.
+
+@ Inês
+
+| Judeus, que novas trazeis?
+
+@ Vidal
+
+| O marido que quereis
+| De viola e dessa sorte
+| Não no há senão na corte,
+| Que cá não no achareis.
+
+| Falamos a Badajoz,
+| Músico, discreto, solteiro:
+| Este fora o verdadeiro,
+| Mas soltou-se-nos da noz.
+| Fomos a Vilha Caslim,
+| E falou-nos em latim:
+| Vinde cá daqui a ũa hora,
+| E trazei-m'essa senhora.
+
+@ Inês
+
+| Assi que é tudo nada em fim?
+
+@ Vidal
+
+| Esperai, aguardai ora.
+| Soubemos d'um escudeiro
+| De feição d'atafoneiro,
+| Que virá logo essora,
+| Que fala, e como ora fala
+| Que estrogirá esta sala,
+| E tange, e como ora tange
+| E alcança quanto abrange,
+| E se preza bem da gala.` },
+    { n: "", titulo: "O Escudeiro", texto: `_Vem o Escudeiro, e diz:_
+
+@ Escudeiro
+
+| Se esta senhora é tal
+| Como os Judeus ma gabaram,
+| Certo os anjos a pintaram,
+| E não pode ser i al.
+| Diz que os olhos com que via
+| Foram de Santa Luzia,
+| E cabelos da Madanela.
+| Se fosse moça tão bela,
+| Como donzela seria?
+
+| Moça de vila será ela
+| Com sinalzinho postiço,
+| E sarnosa no toutiço,
+| Como burra de Castela.
+| Eu assi como chegar,
+| Compre-me bem d'atentar
+| Se é garrida, se é honesta,
+| Porque o milhor da festa
+| É achar siso e calar.
+
+@ Mãe
+
+| Se este Escudeiro há de vir,
+| E é homem de descrição,
+| Hás-te de pôr em feição
+| De falar pouco e não rir.
+| E mais, Inês, não muito olhar,
+| E muito chão o menear,
+| Porque te julguem por muda;
+| Porque a moça sesuda
+| É ũa perla pera amar.
+
+@ Escudeiro
+
+| Olha cá, Fernando, eu vou
+| Ver a com qu'hei de casar:
+| Avisa-te, que hás de estar
+| Sem barrete onde eu estou.
+
+@ Moço
+
+| Como a Rei! Corpo de mi.
+| Mui bem vai isso assi.
+
+@ Escudeiro
+
+| E se cospir pola ventura,
+| Põe-lhe o pé e faze mesura.
+
+@ Moço
+
+| Ainda eu isso não vi.
+
+@ Escudeiro
+
+| E se me vires mentir,
+| Gabando-me de privado,
+| Está tu dissimulado,
+| Ou sai-te pera fora a rir.
+| Isto te aviso daqui,
+| Faze-o por amor de mi.
+
+@ Moço
+
+| Porém, senhor, digo eu
+| Que mau calçado é o meu
+| Pera estas vistas assi.
+
+@ Escudeiro
+
+| Que farei, que o sapateiro
+| Não tem solas, nem tem pele?
+
+@ Moço
+
+| Sapatos me daria ele,
+| Se me vós désseis dinheiro.
+
+@ Escudeiro
+
+| Eu o haverei agora,
+| E mais calças te prometo.
+
+@ Moço
+
+| Homem que não tem nem preto,
+| Casa muito na má hora.
+
+_Chega o Escudeiro onde está Inês Pereira, e diz:_
+
+@ Escudeiro
+
+| Antes que mais diga agora,
+| Deus vos salve, fresca rosa,
+| E vos dê por minha esposa,
+| Por mulher e por senhora;
+| Que bem vejo
+| Nesse ar, nesse despejo,
+| Mui graciosa donzela,
+| Que vós sois, minha alma, aquela
+| Que eu busco e que desejo.
+
+| Obrou bem a Natureza
+| Em vos dar tal condição,
+| Que amais a descrição
+| Muito mais que a riqueza.
+| Bem parece
+| Que a descrição merece
+| Gozar vossa fermosura,
+| Que é tal que de ventura
+| Outra tal não s'acontece.
+
+| Senhora, eu me contento
+| Receber-vos como estais;
+| Se vós não vos contentais,
+| O vosso contentamento
+| Pode falecer no mais.
+
+@ Latão
+
+| Como fala!
+
+@ Vidal
+
+| E ela como se cala!
+| Este há de ser seu marido.
+| Segundo a coisa s'abala.
+
+@ Escudeiro
+
+| Eu não tenho mais de meu,
+| Somente ser comprador
+| Do Marichal meu senhor,
+| E sam escudeiro seu.
+| Sei bem ler,
+| E muito bem escrever,
+| E bom jugador de bola,
+| E quanto a tanger viola,
+| Logo me vereis tanger.
+
+| Moço, que estás lá olhando?
+
+@ Moço
+
+| Que manda Vossa Mercê?
+
+@ Escudeiro
+
+| Que venhas cá.
+
+@ Moço
+
+| Pera quê?
+
+@ Escudeiro
+
+| Porque faças o que eu mando.
+
+@ Moço
+
+| Logo vou.
+| O diabo me tomou
+| Sair-me de Jam Montes
+| Por servir um tavanés,
+| Mor doudo que Deus criou.
+
+@ Escudeiro
+
+| Fui despedir um rapaz,
+| Por tomar este ladrão,
+| Que valia Perpinhão.
+| Moço!
+
+@ Moço
+
+| Que vos praz?
+
+@ Escudeiro
+
+| A viola.
+
+@ Moço
+
+| Oh como ficará tola,
+| Se não fosse casar ante
+| Co mais safeo bargante
+| Que coma pão e cebola.
+
+| Ei-la aqui bem temperada;
+| Não tendes que temperar.
+
+@ Escudeiro
+
+| Faria bem de t'a quebrar
+| Na cabeça bem migada.
+
+@ Moço
+
+| E se ela é emprestada,
+| Quem na havia de pagar?
+| Meu amo, eu quero-m'ir.
+
+@ Escudeiro
+
+| E quando queres partir?
+
+@ Moço
+
+| Logo quero começar.
+
+| Determino de partir
+| Ante que venha o Inverno,
+| Porque vós não dais governo
+| Pera vos ninguém servir.
+
+@ Escudeiro
+
+| Não dormes tu que te farte?
+
+@ Moço
+
+| No chão, e o telhado por manta,
+| E sarra-se-me a garganta
+| De fome.
+
+@ Escudeiro
+
+| Isso tem arte.
+
+@ Moço
+
+| Vós sempre zombais assi.
+
+@ Escudeiro
+
+| Oh que boas vozes tem
+| Esta viola aqui.
+| Leixa-me casar a mi,
+| Depois eu te farei bem.
+
+@ Mãe
+
+| Agora vos digo eu
+| Que Inês está no paraíso.
+
+@ Inês
+
+| Que tendes de ver com isso?
+| Todo o mal há de ser meu.
+
+@ Mãe
+
+| Oh como é seca a velhice!
+
+@ Inês
+
+| Leixai-me ouvir e folgar,
+| Que não m'hei de contentar
+| De casar com parvoíce.
+| Pode ser maior riqueza
+| Que um homem avisado?
+
+@ Mãe
+
+| Muitas vezes, mal pecado,
+| É milhor boa simpreza.
+
+@ Latão
+
+| Ora ouvi e ouvireis,
+| Dizei algũa cantadela,
+| Namorai esta donzela,
+| E esta cantiga direis:
+| Canas do amor canas
+| Canas do amor.
+| Polo longo de um rio
+| Canaval está florido,
+| Canas do amor.
+
+_Canta o Escudeiro o romance de «Mal me quieren en Castilla», e diz Vidal:_
+
+@ Vidal
+
+| Latão, já o sono é comigo,
+| Como oiço cantar guaiado,
+| Que não vai esfandangado.
+
+@ Latão
+
+| E é o demo qu'eu digo.
+| Viste cantar Donaso
+| Pelo mar vai à vela,
+| Vela vai pelo mar?
+
+@ Vidal
+
+| Filha Inês, assi vivais
+| Que tomeis esse senhor
+| Escudeiro cantador
+| E caçador de pardais,
+| Sabedor, revolvedor,
+| Falador, gracejador,
+| Afoitado pola mão,
+| E sabe de gavião:
+| Tomai-o por meu amor.
+
+| Podeis topar um rabugento,
+| Desmazelado, baboso,
+| Descancarrado, brigoso,
+| Medroso, carapatento.
+| Este escudeiro, aosadas,
+| Onde se derem pancadas.
+| Ele as há de levar
+| Boas, se não apanhar:
+| Nele tendes boas fadas.
+
+@ Mãe
+
+| Quero rir com toda a mágoa
+| Destes teus casamenteiros.
+| Nunca vi Judeus ferreiros
+| Aturar também a frágoa.
+| Não te é milhor, mal por mal,
+| Inês, um bom ofecial,
+| Que te ganhe nessa praça,
+| Que é um escravo de graça,
+| E mais casas com teu igual?
+
+@ Latão
+
+| Senhora, perdei cuidado:
+| O que há de ser, há de ser;
+| E ninguém pode tolher
+| O que está determinado.
+
+@ Vidal
+
+| Assi diz Rabizarão.
+
+@ Mãe
+
+| Inês, guar'-te de rascão:
+| Escudeiro queres tu?
+
+@ Inês
+
+| Jesu nome de Jesu!
+| Quão fora sois de feição!
+
+| Já minha mãe adivinha.
+| Folgastes vós na verdade
+| Casar à vossa vontade,
+| Eu quero casar à minha.
+
+@ Mãe
+
+| Casa, filha, muitembora.
+
+@ Escudeiro
+
+| Dai-me cá essa mão, senhora.
+
+@ Inês
+
+| Senhor, de mui boa mente.
+
+@ Escudeiro
+
+| Per palavras de presente
+| Vos recebo desde agora.
+
+| Nome de Deus assi seja,
+| Eu Brás da Mata, escudeiro,
+| Recebo a vós Inês Pereira
+| Por esposa verdadeira,
+| Como manda a Santa Igreja.
+
+@ Inês
+
+| Eu aqui diante Deus,
+| Inês Pereira recebo a vós,
+| Sem mais preço nem demanda,
+| Como a Santa Igreja manda,
+| A Brás da Mata.
+
+@ Latão
+
+| Aí somos nós.
+
+@ Vidal
+
+| Alça manim dona, ò dona, há,
+| Arrea especula,
+| Bento o Deu de Jacob,
+| Bento o Deu que a Faraó
+| Espantou e espantará:
+| Bento o Deu de Abraham,
+| Benta a terra de Canam.
+| Pera bem sejais casados.
+| Dai-nos cá senhos ducados.
+
+@ Mãe
+
+| Amenhã vo-los darão.
+
+| Pois assi é, bem será
+| Que não passe isto assi:
+| Eu quero chegar ali
+| Chamar meus amigos cá,
+| E bailarão de terreiro.
+
+@ Escudeiro
+
+| Oh! quem me fora solteiro!
+
+@ Inês
+
+| Já vós vos arrependeis?
+
+@ Escudeiro
+
+| Ó esposa, não faleis,
+| Que casar é cativeiro.` },
+    { n: "", titulo: "A boda", texto: `_Vem a Mãe com certas moças e mancebos pera fazerem festa, e diz ũa delas, per nome Luzia:_
+
+@ Luzia
+
+| Inês, por teu bem te seja:
+| Oh que esposo e que alegria!
+
+@ Inês
+
+| Venhas embora, Luzia,
+| E cedo t'eu assi veja.
+
+@ Mãe
+
+| Ora vai tu ali, Inês,
+| E bailareis três por três.
+
+@ Fernando
+
+| Tu conosco, Luzia, aqui;
+| E a desposada ali:
+| Ora vede qual direis.
+
+_Cantam todos de terreiro:_
+
+| Mal ferida iba la garza
+| Enamorada
+| Sola va y gritos daba.
+
+_E acabando de cantar e bailar, diz Fernando:_
+
+@ Fernando
+
+| Ora senhores honrados,
+| Ficai com vossa mercê,
+| E nosso Senhor vos dê
+| Com que vivais descansados.
+
+@ Luzia
+
+| Ficai com Deus, desposados,
+| Com prazer e com saúde,
+| E sempre ele vos ajude
+| Com que vivais descansados.
+| Esta festa foi agora,
+| Mas milhor será outrora.
+
+@ Mãe
+
+| Ficai com Deus, filha minha,
+| Não virei cá tão asinha:
+| A minha bênção ajais.
+| Esta casa em que ficais
+| Vos dou e vou-me à casinha.
+| Senhor filho e senhor meu,
+| Pois que já Inês é vossa,
+| Vossa mulher e esposa,
+| Encomendo-vo-la eu.
+| E pois que desque nasceu
+| A outrem não conheceu,
+| Senão a vós por senhor,
+| Que lhe tenhais muito amor,
+| Que amado sejais no céu.` },
+    { n: "", titulo: "O marido", texto: `_Vai-se, e fica o Escudeiro com sua mulher, o qual diz:_
+
+@ Escudeiro
+
+| E vós cantais, Inês Pereira?
+| Em vodas m'andáveis vós?
+| Juro ao corpo de Deus
+| Que esta seja a derradeira.
+| Se vos eu vejo cantar,
+| Eu vos farei assoviar.
+
+@ Inês
+
+| Bofé, senhor meu marido,
+| Se vós disso sois servido,
+| Bem o posso eu escusar.
+
+@ Escudeiro
+
+| Mas é bem que o escuseis,
+| E outras cousas que não digo.
+
+@ Inês
+
+| Porque bradais vós comigo?
+
+@ Escudeiro
+
+| Será bem que vos caleis,
+| E mais sereis avisada
+| Que não me respondais nada
+| Em que ponha fogo a tudo:
+| Porque o homem sesudo
+| Traz a mulher sopeada.
+
+| Vós não haveis de falar
+| Com homem, nem mulher que seja;
+| Somente ir à Igreja
+| Não vos quero eu leixar.
+| Já vos preguei as janelas,
+| Porque não vos ponhais nelas;
+| Estareis aqui encerrada
+| Nesta casa tão fechada,
+| Como freira d'Oudivelas.
+
+@ Inês
+
+| Que pecado foi o meu?
+| Porque me dais tal prisão?
+
+@ Escudeiro
+
+| Vós buscastes descrição,
+| Que culpa vos tenho eu?
+| Pode ser maior aviso,
+| Maior descrição e siso
+| Que guardar eu meu tisouro?
+| Não sois vós, mulher, meu ouro?
+| Que mal faço em guardar isso?
+
+| Vós não haveis de mandar
+| Em casa somente um pelo;
+| S'eu disser isto é novelo,
+| Havei-lo de confirmar.
+| E mais, quando eu vier
+| De fora, haveis de tremer,
+| E cousa que vós digais
+| Não vos há de valer mais
+| Daquilo que eu quiser.
+
+| Moço, às partes d'além
+| Vou fazer-me cavaleiro.
+
+@ Moço
+
+| Se vós tivésseis dinheiro,
+| Não seria senão bem.
+
+@ Escudeiro
+
+| Tu hás de ficar aqui.
+| Olha, por amor de mi,
+| O que faz tua senhora:
+| Fechá-la-ás sempre de fora.
+| Vós lavrai, ficai per i.
+
+@ Moço
+
+| Co dinheiro que leixais
+| Não comerei eu galinhas.
+
+@ Escudeiro
+
+| Vai-te tu per essas vinhas:
+| Que diabo queres mais?
+
+@ Moço
+
+| Olhai, olhai, como rima!
+| E depois de ida a vendima?
+
+@ Escudeiro
+
+| Apanha desse rabisco.
+
+@ Moço
+
+| Pesar ora de Sampisco
+| E convidarei minha prima.
+
+| E o rabisco acabado,
+| Ir-me-ei espojar às eiras?
+
+@ Escudeiro
+
+| Vai-te per essas figueiras
+| E farta-te, desmazelado.
+
+@ Moço
+
+| Assi!
+
+@ Escudeiro
+
+| Pois que cuidavas?
+| E depois virão as favas —
+| Conheces túbaras de terra?
+
+@ Moço
+
+| I-vos vós embora à guerra,
+| Qu'eu vos guardarei oitavas.
+
+_Ido o Escudeiro, diz o Moço:_
+
+@ Moço
+
+| Senhora, o que ele mandou
+| Não posso menos fazer.
+
+@ Inês
+
+| Pois que te dá de comer,
+| Faze o que t'encomendou.
+
+@ Moço
+
+| Vós fartai-vos de lavrar,
+| Eu me vou desenfadar
+| Com essas moças lá fora:
+| Vós perdoai-me, senhora,
+| Porque vos hei de fechar.
+
+_Fica fechada Inês Pereira, e lavrando canta:_
+
+@ Inês
+
+| Quem bem tem e mal escolhe,
+| Por mal que lhe venha não s'anoje.
+
+_Falado._
+
+| Renego da descrição,
+| Comendo ò demo o aviso,
+| Que sempre cuidei que nisso
+| Estava a boa condição:
+| Cuidei que fossem cavaleiros
+| Fidalgos e escudeiros,
+| Não cheios de desvarios.
+| E em suas casas macios,
+| E na guerra lastimeiros.
+
+| Vede que cavalarias,
+| Vede já que mouros mata
+| Quem sua mulher maltrata,
+| Sem lhe dar de paz um dia.
+| Sempre eu ouvi dizer
+| Que o homem que isto fizer
+| Nunca mata drago em vale,
+| Nem mouro que chamem Ale;
+| E assi deve de ser.
+
+| Juro em todo meu sentido
+| Que se solteira me vejo,
+| Assi como eu desejo,
+| Que eu saiba escolher marido,
+| A boa fé sem mau engano,
+| Pacífico todo ano,
+| E que ande a meu mandar:
+| Havia-m'eu de vingar
+| Deste mal e deste dano.` },
+    { n: "", titulo: "A carta de Arzila", texto: `_Entra o Moço com ũa carta, e diz:_
+
+@ Moço
+
+| Esta carta vem d'além,
+| Creio que é de meu senhor.
+
+@ Inês
+
+| Mostrai cá, meu guarda-mor,
+| E veremos o que i vem.
+
+_Sobrescrito._
+
+| A senhora mui prezada
+| Inês Pereira da Grã,
+| À senhora minha irmã,
+| Em Tomar lhe seja dada.
+
+| De meu irmão; venha embora.
+
+@ Moço
+
+| Vosso irmão está em Arzila?
+| Eu apostarei que i vem
+| Nova de meu senhor também.
+
+@ Inês
+
+| Já ele partiu de Tavila?
+
+@ Moço
+
+| Há três meses que é passado.
+
+@ Inês
+
+| Aqui virá logo recado
+| Se lhe vai bem ou que faz.
+
+@ Moço
+
+| Bem pequena é a carta assaz.
+
+@ Inês
+
+| Carta de homem avisado.
+
+_Lê a carta._
+
+| Muito honrada irmã.
+| Esforçai o coração
+| E tomai por devação
+| De querer o que Deus quer.
+
+@ Inês
+
+| E isto que quer dizer?
+
+_Prossegue._
+
+| E não vos maravilheis
+| De cousa que o mundo faça.
+| Que sempre nos embaraça
+| Com cousas. Sabei que indo
+| Vosso marido fogindo
+| Da batalha pera a vila,
+| Meia légua d'Arzila
+| O matou um mouro pastor.
+
+@ Moço
+
+| Oh meu amo e meu senhor!
+
+@ Inês
+
+| Dai-me vós cá essa chave,
+| E i buscar vossa vida.
+
+@ Moço
+
+| Oh que triste despedida!
+
+@ Inês
+
+| Oh que nova tão suave!
+| Desatado é o nó.
+| S'eu por ele ponho dó,
+| O diabo m'arrebente:
+| Pera mim era valente,
+| E matou-o um mouro só.
+
+| Guardar de cavaleirão
+| Barbudo, repetenado,
+| Que em figura d'avisado
+| É malino e sotrancão.
+| Agora quero tomar
+| Pera boa vida gozar
+| Um muito manso marido:
+| Não no quero já sabido,
+| Pois tão caro há de custar.` },
+    { n: "", titulo: "O segundo casamento", texto: `_Vem Lianor Vaz visitá-la, e ela finge-se muito anojada._
+
+@ Lianor Vaz
+
+| Como estais, Inês Pereira?
+
+@ Inês
+
+| Muito triste, Lianor Vaz.
+
+@ Lianor Vaz
+
+| Que fareis ao que Deus faz?
+
+@ Inês
+
+| Casei por minha canseira.
+
+@ Lianor Vaz
+
+| Se ficastes prenhe, basta.
+
+@ Inês
+
+| Bem quisera eu dele casta,
+| Mas não quis minha ventura.
+
+@ Lianor Vaz
+
+| Filha, não tomeis tristura,
+| Que a morte a todos gasta.
+
+| O que havedes de fazer,
+| Casade vós, filha minha.
+
+@ Inês
+
+| Jesu! Jesu! tão asinha?
+| Isso m'haveis de dizer?
+| Quem perdeu um tal marido,
+| Tão discreto e tão sabido,
+| E tão amigo de minha vida?
+
+@ Lianor Vaz
+
+| Dai isso por esquecido,
+| E buscai outra guarida.
+
+| Pero Marques tem que herdou
+| Fazenda de mil cruzados;
+| Mas vós quereis avisados.
+
+@ Inês
+
+| Não; já esse tempo passou:
+| Sobre quantos mestres são
+| Experiência dá lição.
+
+@ Lianor Vaz
+
+| Pois tendes esse saber,
+| Querei ora a quem vos quer,
+| Dai ò demo a opinião.
+
+_Vai-se Lianor Vaz por Pero Marques._
+
+@ Inês
+
+| Andar: Pero Marques seja;
+| Quero tomar por esposo
+| Quem se tenha por ditoso
+| De cada vez que me veja.
+| Por usar de siso mero,
+| Asno que me leve quero,
+| E não cavalo folão;
+| Antes lebre que lião,
+| Antes lavrador que Nero.
+
+_Vem Lianor Vaz com Pero Marques._
+
+@ Lianor Vaz
+
+| Nó mais cerimônias agora;
+| Abraçai Inês Pereira
+| Por mulher e por parceira.
+
+@ Pero
+
+| Ah, homem! empacho má hora
+| Quanto a dizer abraçar;
+| Depois que a eu usar
+| Entonces poderá ser.
+
+@ Inês
+
+| Não lhe quero mais saber;
+| Já me quero contentar.
+
+@ Lianor Vaz
+
+| Ora dai-me essas mãos cá:
+| Sabeis as palavras? si!
+
+@ Pero
+
+| Ensinaram-m'as a mi,
+| Perém esquecem-me já.
+
+@ Lianor Vaz
+
+| Ora dizei como digo.
+
+@ Pero
+
+| E tendes vós aqui trigo
+| Pera nos jeitar por riba?
+
+@ Lianor Vaz
+
+| Inda é cedo, como rima!
+
+@ Pero
+
+| Soma vós casais comigo,
+
+| E eu convosco, pardelhas:
+| Não compre aqui mais falar,
+| E quando vos eu negar,
+| Que me cortem as orelhas.
+
+@ Lianor Vaz
+
+| Vou-me; ficai-vos embora.
+
+@ Inês
+
+| Marido, e sairei eu agora,
+| Que há muito que não saiu?
+
+@ Pero
+
+| Sim, mulher, saí vós i,
+| Qu'eu me sairei pera fora.
+
+@ Inês
+
+| Marido, não digo disso.
+
+@ Pero
+
+| Pois que dizeis vós, mulher?
+
+@ Inês
+
+| Ir folgar onde eu quiser.
+
+@ Pero
+
+| I onde quiserdes ir,
+| Vinde quando quiserdes vir,
+| Estai quando quiserdes estar:
+| Com que podeis vós folgar
+| Qu'eu não deva consentir?` },
+    { n: "", titulo: "O Ermitão", texto: `_Vem um Ermitão a pedir esmola, e diz:_
+
+@ Ermitão
+
+| Señores, por caridad
+| Dad limosna al dolorido
+| Ermitaño de Cupido
+| Para siempre en soledad,
+| Pues su siervo soy nacido.
+| Por ejemplo,
+| Me meti en su santo templo
+| Ermitaño en pobre ermita,
+| Abastada de infinita
+| Tristeza en que contemplo.
+
+| Adonde rezo mis horas
+| Y mis dias y mis años,
+| Mis servicios y mis daños.
+| Donde tu, mi alma, lloras
+| Dolor de tantos engaños.
+| Y acabando
+| Las horas, todas llorando,
+| Tomo las cuentas una y una,
+| Con que tomo a la fortuna
+| Cuenta del mal en que ando,
+| Sin esperar paga alguna.
+
+| Y ansí sin esperanza
+| De cobrar lo merecido,
+| Sirvo allí mi Dios Cupido
+| Con tanto amor sin mudanza,
+| Que soy su santo escogido.
+
+| O señores,
+| Los que bien os va d'amores,
+| Dad limosna al sin holgura,
+| Que habita en sierra escura,
+| Uno de los amadores
+| Que tuvo menos ventura.
+
+| Y rogaré al Dios de mi,
+| En que mis sentidos traigo,
+| Que recibais mejor pago
+| De lo que yo recebi
+| En esta vida que hago.
+| Y rezaré,
+| Con gran devocion y fe,
+| Que Dios os libre de engaño,
+| Que eso me hizo ermitaño,
+| Y para siempre seré,
+| Pues para siempre es mi daño.
+
+@ Inês
+
+| Olhai cá, marido amigo.
+| Eu tenho por devação
+| Dar esmola a um ermitão.
+| E não vades vós comigo.
+
+@ Pero
+
+| I-vos embora, mulher
+| Não tenho lá que fazer.
+
+@ Inês
+
+| Tomai a esmola, padre, lá,
+| Pois que Deus vos trouxe aqui.
+
+@ Ermitão
+
+| Sea por amor de mi
+| Vuesa buena caridad.
+
+| Deo gracias, mi señora,
+| La limosna mata el pecado,
+| Y vos teneis buen cuidado
+| De ser de mi matadora.
+| Débeis saber,
+| Para merced me hacer,
+| Que por vos soy ermitaño,
+| Y aun mas os desengaño
+| Que esperanza de os ver
+| Me hizo vestir tal paño.
+
+@ Inês
+
+| Jesus, Jesus, manas minhas!
+| Sois vós aquele que um dia
+| Em casa de minha tia
+| Me mandastes camarinhas;
+| E quando aprendia a lavrar
+| Mandáveis-me tanta cousinha?
+| Eu era ainda Inesinha,
+| Não vos queria falar.
+
+@ Ermitão
+
+| Señora, téngoos servido,
+| Y vos á mi despreciado;
+| Haced que el tiempo pasado
+| No se cuente por perdido.
+
+@ Inês
+
+| Padre, mui bem vos entendo.
+| Ò demo que vos eu encomendo,
+| Que bem sabeis vós pedir!
+| Eu determino lá d'ir
+| À ermida, Deus querendo.
+
+@ Ermitão
+
+| Y cuando?
+
+@ Inês
+
+| I-vos, meu santo,
+| Que eu irei um dia destes
+| Muito cedo e muito prestes.
+
+@ Ermitão
+
+| Señora, yo me voy en tanto.
+
+@ Inês
+
+| Em tudo é bô a concrusão.
+| Marido, aquele ermitão
+| É um anjinho de Deus.
+
+@ Pero
+
+| Corregê vós esses véus,
+| E ponde-vos em feição.
+
+@ Inês
+
+| Sabeis vós o que eu queria?
+
+@ Pero
+
+| Que quereis, minha mulher?
+
+@ Inês
+
+| Que houvésseis por prazer
+| De irmos lá em romaria.
+
+@ Pero
+
+| Seja logo sem deter.
+
+@ Inês
+
+| Ora este caminho é comprido,
+| Contai ũa historia, marido.
+
+@ Pero
+
+| Bofá que me praz, mulher.
+
+@ Inês
+
+| Passemos primeiro o rio.
+| Descalçai-vos.
+
+@ Pero
+
+| Assi há de ser?
+| E pois como?
+
+@ Inês
+
+| E levar-me-eis no ombro,
+| Não me corte a madre o frio.
+
+_Põe-se às costas do marido._
+
+@ Inês
+
+| Assi.
+
+@ Pero
+
+| Ides à vossa vontade?
+
+@ Inês
+
+| Como estar no paraíso.
+
+@ Pero
+
+| Muito folgo eu co isso.
+
+@ Inês
+
+| Esperade ora, esperade;
+| Olhai que lousas aquelas,
+| Pera poer as talhas nelas.
+
+@ Pero
+
+| Quereis que as leve?
+
+@ Inês
+
+| Si: ũa aqui, e outra aqui.
+| Oh como folgo com elas!
+| Cantemos.
+
+@ Pero
+
+| Se vós quereis.
+
+@ Inês
+
+| E vós me respondereis
+| A tudo quanto eu cantar:
+| Pois assi se fazem as cousas.
+
+_Canta Inês Pereira:_
+
+| Marido cuco me levades
+| E mais duas lousas.
+
+@ Pero
+
+| Pois assi se fazem as cousas.
+
+@ Inês
+
+| Bem sabedes vós, marido,
+| Quanto vos quero;
+| Sempre fostes percebido
+| Pera cervo:
+| Agora vos tomou o demo
+| Com duas lousas.
+
+@ Pero
+
+| Pois assi se fazem as cousas.
+
+@ Inês
+
+| Bem sabedes vós, marido,
+| Quanto vos amo,
+| Sempre fostes percebido
+| Pera gamo.
+| Carregado ides, noss'amo,
+| Com duas lousas.
+
+@ Pero
+
+| Pois assi se fazem as cousas.
+
+_E assi se vão, e se acaba a dita farsa._
+
+_Laus Deo._` }
+  ]
+});

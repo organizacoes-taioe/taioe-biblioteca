@@ -629,6 +629,7 @@ ol.vb-def { padding-left: 1.3rem; }
   font-size: .62em; letter-spacing: .04em; color: var(--tinta-tenue); user-select: none;
 }
 .paralelo .m-rubrica { font-style: italic; color: var(--tinta-suave); padding-left: 2em; line-height: 1.5; }
+.paralelo .m-prosa { line-height: 1.5; margin: .2em 0; }   /* a carta lida em cena (Misanthrope, V, 4) */
 .paralelo.teatro .rub { font-style: italic; color: var(--tinta-suave); }
 .paralelo.teatro .v.r4 { text-indent: calc(4 * .42em - 1.6em); }
 .paralelo.teatro .v.r8 { text-indent: calc(8 * .42em - 1.6em); }

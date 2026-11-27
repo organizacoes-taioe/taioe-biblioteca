@@ -128,7 +128,7 @@ def chave(s):
     return s.lower()
 
 
-MARCAS_COM_PALAVRAS = ('subtitulo', 'data', 'dedicatoria', 'fecho', 'rubrica')
+MARCAS_COM_PALAVRAS = ('subtitulo', 'data', 'dedicatoria', 'fecho', 'rubrica', 'prosa')   # prosa: a carta lida no teatro
 
 
 def linhas_do_poema(poema, k=None):

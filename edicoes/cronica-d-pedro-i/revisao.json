@@ -1,0 +1,145 @@
+{
+ "id": "cronica-de-d-pedro-i",
+ "rotulo": "Crônica de D. Pedro I (Fernão Lopes)",
+ "url": "/biblioteca/fernao-lopes/cronica-de-d-pedro-i/",
+ "escolhas": [
+  {
+   "id": "base",
+   "titulo": "A base é a edição da Academia (1816), e não a do padre Bayão (1735)?",
+   "ref": "a obra inteira",
+   "contexto": "A Academia seguiu o códice da Torre do Tombo, conservando a grafia e até alguns erros, e conferiu com outros dois códices. Bayão (1735, reimpressa em 1760) mexeu nas palavras e acrescentou dois capítulos que os códices do século XVI não têm. As edições críticas modernas (Giuliano Macchi, 1966) são protegidas. A de 1895 é a de 1816 com a grafia do seu tempo.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Fica a de 1816, como está",
+     "nota": "A mais fiel aos manuscritos entre as livres.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Trocar pela de Bayão (1735)",
+     "nota": "Texto retocado pelo editor, com dois capítulos a mais."
+    }
+   ]
+  },
+  {
+   "id": "original-ao-lado",
+   "titulo": "O texto de 1816 fica ao lado da grafia de hoje, com os botões «Original (1816)» e «Grafia atual»?",
+   "ref": "a obra inteira",
+   "contexto": "Como na Carta de Caminha. A edição de 1816 reproduz a grafia do códice (huum, nom, mujto, elRei), não uma grafia do editor. O lado do original vem de leitura por OCR conferida nos pontos duvidosos; pode guardar erros miúdos de letra.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Os dois lados, como está",
+     "nota": "Quem quiser vê a escrita do século XV.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Só a grafia de hoje",
+     "nota": "Mais simples; a «Sobre» descreve as trocas."
+    }
+   ]
+  },
+  {
+   "id": "paragrafos",
+   "titulo": "Os capítulos ficam divididos nos parágrafos da edição de 1895?",
+   "ref": "os 44 capítulos",
+   "contexto": "A edição de 1816 imprime quase todo capítulo num bloco só, alguns com mais de duas mil palavras. A de 1895 (Bibliotheca de Classicos Portuguezes) os dividiu em parágrafos; aqui eles valem nos dois lados.",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Parágrafos de 1895, como está",
+     "nota": "Leitura mais fácil na tela.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Um bloco por capítulo, como em 1816",
+     "nota": "Mais fiel ao impresso, mais cansativo."
+    }
+   ]
+  },
+  {
+   "id": "palavras-antigas",
+   "titulo": "Palavras que não se usam mais ficam no texto (estonce, u, ca, pero, ello), com nota?",
+   "ref": "estonce 34, ca 57, u 24, pero 20, ello 21",
+   "contexto": "A edição de 1895 trocou várias delas por palavras de hoje (estonce → então, u → onde, ca → porque). Aqui ficam as do autor, na grafia de hoje, e o toque abre o sentido. As formas antigas de palavras que existem (cousa, leixar, per, pera, assi) passaram à forma atual.\n\nHoje: «a contia que estonce chamavam maravedis», «u chamam a praça dos Escanos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Ficam, com nota, como está",
+     "nota": "Conserva as palavras do autor.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Trocar pelas de hoje (então, onde, porque…)",
+     "nota": "Mais fácil de ler, mas muda as palavras."
+    }
+   ]
+  },
+  {
+   "id": "el-rei",
+   "titulo": "«elRei» e «delRei» ficam «el-rei» e «del-rei»?",
+   "ref": "cerca de 700 vezes",
+   "contexto": "É a forma que o português de hoje ainda registra (el-rei). A alternativa seria «o rei», «do rei», que muda a palavra.\n\nHoje: «depois da morte del-rei seu padre».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«el-rei», «del-rei», como está",
+     "nota": "",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«de el-rei» no lugar de «del-rei»",
+     "nota": "Sem a contração."
+    },
+    {
+     "id": "c",
+     "texto": "«o rei», «do rei»",
+     "nota": "Muda a palavra do autor."
+    }
+   ]
+  },
+  {
+   "id": "nomes",
+   "titulo": "Os nomes vão na forma portuguesa de hoje (Henrique, Fradique, Telo, Inês, Valladolid)?",
+   "ref": "a obra inteira",
+   "contexto": "O texto traz Hemrrique, Fradarique, Tello, Enes, Valhadolide, Lixboa. Os nomes castelhanos de pessoas ficam com sobrenome na forma portuguesa (Fernandes, Gonçalves), salvo alguns que o texto escreve à castelhana (Perez, López).",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "Forma de hoje, como está",
+     "nota": "Como na Carta de Caminha.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "Como no texto, só com a grafia atualizada (Henrrique, Fradarique)",
+     "nota": "Mais próximo do original."
+    }
+   ]
+  },
+  {
+   "id": "gram",
+   "titulo": "«gram» antes de substantivo vai como «grã» (feminino) ou «grão» (masculino)?",
+   "ref": "46 vezes",
+   "contexto": "«Gram» é «grande» encurtado. Hoje se escreve «grã» e «grão» (grã-cruz, grão-mestre); a edição de 1895 às vezes pôs «grande».\n\nHoje: «trazendo grã casa de caçadores», «foi grão criador de fidalgos».",
+   "opcoes": [
+    {
+     "id": "a",
+     "texto": "«grã» / «grão», como está",
+     "nota": "Conserva a forma curta do autor.",
+     "recomendada": true
+    },
+    {
+     "id": "b",
+     "texto": "«grande»",
+     "nota": "Mais claro, mas muda a palavra."
+    }
+   ]
+  }
+ ]
+}

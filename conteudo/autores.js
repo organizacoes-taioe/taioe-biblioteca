@@ -853,6 +853,16 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'fernao-lopes',
+  nome: 'Fernão Lopes',
+  nomeCompleto: 'Fernão Lopes',
+  vida: '~1380–~1460',
+  ordem: 'Lopes, Fernão',
+  area: 'nao-ficcao',
+  nota: 'Guarda-mor da Torre do Tombo e primeiro cronista-mor de Portugal, autor das crônicas de D. Pedro I, D. Fernando e D. João I.'
+});
+
+BIBLIOTECA.autor({
   id: 'herodoto',
   nome: 'Heródoto',
   nomeCompleto: 'Heródoto de Halicarnasso',

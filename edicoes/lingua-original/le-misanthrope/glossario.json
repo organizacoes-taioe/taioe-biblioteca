@@ -79,9 +79,9 @@
    "lema": "abord",
    "classe": "substantivo masculino",
    "def": [
-    "(Antiquado) Ação de chegar à margem; (por extensão) primeiro contato: aborda."
+    "Ação de se aproximar de alguém; primeiro contato: abordagem, aproximação."
    ],
-   "nota": "«D’abord»: logo, de imediato."
+   "nota": "«D’abord»: logo, de imediato, à primeira vista; «le premier abord»: o primeiro contato."
   },
   "abrégé": {
    "lema": "abrégé",
@@ -241,6 +241,14 @@
     "Ataque súbito e passageiro de um estado: acesso, acessos."
    ]
   },
+  "accès#2": {
+   "lema": "accès",
+   "classe": "substantivo masculino",
+   "def": [
+    "Possibilidade de chegar a alguém ou a algo; entrada: acesso."
+   ],
+   "nota": "«Ouvre trop d’accès dans votre âme»: dá acesso demais, abre demais a porta do vosso coração."
+  },
   "acheter": {
    "lema": "acheter",
    "classe": "verbo",
@@ -367,6 +375,14 @@
    ],
    "nota": "«Ce discours s’adresse à vous»: este discurso se dirige a vós."
   },
+  "adresse#2": {
+   "lema": "adresse",
+   "classe": "substantivo feminino",
+   "def": [
+    "Habilidade, destreza no que se faz: destreza, habilidade."
+   ],
+   "nota": "«Adresse à cheval»: destreza a cavalo; «adresse à feindre»: arte de fingir."
+  },
   "adressée": {
    "lema": "adresser",
    "classe": "verbo",
@@ -405,6 +421,22 @@
     "Coisa de que se deve ocupar; o que convém a alguém: assunto, negócio."
    ],
    "nota": "«Être votre affaire»: ser o que vos convém, o que vos serve."
+  },
+  "affaire#2": {
+   "lema": "affaire",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Antiquado) Questão incômoda, embaraço; querela, desavença: encrenca, briga."
+   ],
+   "nota": "«Une fâcheuse affaire»: uma encrenca desagradável; «me fasse une affaire avec lui»: arranje briga com ele."
+  },
+  "affaire#3": {
+   "lema": "affaire",
+   "classe": "locução interjetiva",
+   "def": [
+    "«Point d’affaire!»: nada feito!, de jeito nenhum."
+   ],
+   "nota": "Alceste recusa ficar: «Point d’affaire»: nada feito."
   },
   "affaires": {
    "lema": "affaire",
@@ -2533,6 +2565,14 @@
    ],
    "nota": "«Ce n’est que du bruit»: é só barulho, não tem substância."
   },
+  "bruit#2": {
+   "lema": "bruit",
+   "classe": "substantivo masculino",
+   "def": [
+    "Rumor que corre; notícia que se espalha: boato, rumor."
+   ],
+   "nota": "«Au bruit que contre vous sa malice a tourné»: ao boato que a malícia dele espalhou contra vós."
+  },
   "bruits": {
    "lema": "bruit",
    "classe": "substantivo masculino",
@@ -2652,7 +2692,7 @@
    "def": [
     "Pequeno aposento retirado; (aqui) o gabinete particular, onde se guardam papéis: gabinete."
    ],
-   "nota": "«Bon à mettre au cabinet»: só bom para guardar no gabinete, longe do público; Alceste diz que o soneto não merece ser lido."
+   "nota": "«Bon à mettre au cabinet»: só serve para ficar guardado no «cabinet» (o gabinete e, na troça, também a privada); Alceste diz que o soneto não merece ser lido."
   },
   "cache": {
    "lema": "cacher",
@@ -3062,7 +3102,7 @@
    "def": [
     "(Por extensão) Sensação de calor; (figurado) ardor, entusiasmo: calor."
    ],
-   "nota": "Aqui, o calor da amizade e do afeto, o entusiasmo de Philinte por alguém («votre chaleur pour lui»)."
+   "nota": "«Chaleur»: ardor, fervor, a vivacidade com que se sente ou se faz algo: «votre chaleur pour lui»: o vosso fervor por ele; «la chaleur de montrer ses ouvrages»: a ânsia ardente de mostrar as suas obras."
   },
   "chambre": {
    "lema": "chambre",
@@ -3143,6 +3183,15 @@
     "(Figurado) Sobrecarregar, acumular; cobrir com excesso: carregar."
    ],
    "nota": "«Vous chargez la fureur de vos embrassements»: ainda sobrecarregais o furor de vossos abraços; ou seja, exagerais no ímpeto dos abraços."
+  },
+  "chargez#2": {
+   "lema": "charger",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 2ª pessoa do plural",
+   "def": [
+    "(Pronominal) Encarregar-se de, tomar a seu cargo: encarregar-se."
+   ],
+   "nota": "«Ne vous chargez point de ces soins superflus»: não vos incumbais dessas atenções inúteis."
   },
   "chargé": {
    "lema": "charger",
@@ -3483,7 +3532,7 @@
    "classe": "verbo",
    "forma": "particípio passado, masculino plural",
    "def": [
-    "Alegar, rapportar; designar o autor ou o passo que se alega: citar."
+    "Alegar, mencionar; designar o autor ou o passo que se alega: citar."
    ],
    "nota": "«Citer comme modèle»: apresentar como modelo."
   },
@@ -3957,6 +4006,15 @@
    ],
    "nota": "«Digne qu’on le confonde»: digno de que o humilhem, de que o desmascarem."
   },
+  "confonde#2": {
+   "lema": "confondre",
+   "classe": "verbo",
+   "forma": "presente do subjuntivo, 3ª pessoa do singular",
+   "def": [
+    "Tomar uma coisa por outra; misturar: confundir, misturar."
+   ],
+   "nota": "«N’a rien qu’on ne confonde»: nada que não se misture, tudo anda embaralhado."
+  },
   "confondre": {
    "lema": "confondre",
    "classe": "verbo",
@@ -4421,6 +4479,14 @@
     "Impressão que um corpo faz ao bater em outro: golpe."
    ],
    "nota": "«Coup d’œil»: relance, olhar rápido; «à tous coups»: a cada instante."
+  },
+  "coup#2": {
+   "lema": "coup",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Antiquado) Vez, ocasião: vez."
+   ],
+   "nota": "«Encore un coup»: mais uma vez."
   },
   "coupable": {
    "lema": "coupable",
@@ -4943,9 +5009,9 @@
   "demande": {
    "lema": "demander",
    "classe": "verbo",
-   "forma": "presente do indicativo, 1ª pessoa do singular",
+   "forma": "presente do indicativo, 1ª ou 3ª pessoa do singular",
    "def": [
-    "Pedir; perguntar a alguém: pergunto."
+    "Pedir; perguntar a alguém; (figurado) exigir: peço, pergunto, exige."
    ]
   },
   "demander": {
@@ -5460,9 +5526,9 @@
   "dit": {
    "lema": "dire",
    "classe": "verbo",
-   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "forma": "presente do indicativo, 3ª pessoa do singular; ou particípio passado",
    "def": [
-    "Exprimir pela palavra: diz."
+    "Exprimir pela palavra: diz, dito."
    ]
   },
   "dite": {
@@ -5602,6 +5668,14 @@
    "def": [
     "Fazer um dom; (aqui) provocar, produzir: dar."
    ]
+  },
+  "donner#2": {
+   "lema": "donner",
+   "classe": "verbo",
+   "def": [
+    "(Figurado) Deixar-se levar por, entregar-se a (com «dans»): enveredar por."
+   ],
+   "nota": "«Donner dans les mœurs d’à présent»: entregar-se aos costumes de hoje, seguir a moda."
   },
   "donnerai": {
    "lema": "donner",
@@ -5887,7 +5961,7 @@
    "def": [
     "Ação de desencadear-se com violência: desencadeamento, fúria."
    ],
-   "nota": "O Wiktionary registra-o como variante de «déchaînement» na ortografia antiga; é o desencadear das forças da natureza."
+   "nota": "Aqui, a fúria das forças da natureza soltas de uma vez («le déchaînement de toute la nature»)."
   },
   "déchaîner": {
    "lema": "déchaîner",
@@ -6240,7 +6314,7 @@
    "def": [
     "Irritação causada por ferimento do amor-próprio; ressentimento: despeito."
    ],
-   "nota": "«En dépit de»: apesar de; «en dépit qu’on en ait»: apesar de quem se aborreça com isso."
+   "nota": "«Dépit»: irritação por orgulho ferido, despeito; «en dépit qu’on en ait»: por mais que se queira resistir, a contragosto."
   },
   "déplaire": {
    "lema": "déplaire",
@@ -6981,6 +7055,14 @@
     "Perceber um som: ouvir."
    ]
   },
+  "entendre#2": {
+   "lema": "entendre",
+   "classe": "verbo",
+   "def": [
+    "(Antiquado) Compreender o sentido de algo: compreender, entender."
+   ],
+   "nota": "«Je crois vous entendre»: creio compreender-vos."
+  },
   "entendrons": {
    "lema": "entendre",
    "classe": "verbo",
@@ -6997,6 +7079,15 @@
    "def": [
     "Perceber um som: ouço."
    ]
+  },
+  "entends#2": {
+   "lema": "entendre",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 1ª pessoa do singular",
+   "def": [
+    "(Antiquado) Compreender o sentido de algo: compreender, entender."
+   ],
+   "nota": "«Je vous entends»: eu vos compreendo, entendo o que quereis dizer."
   },
   "entièrement": {
    "lema": "entièrement",
@@ -7045,6 +7136,14 @@
     "Ir de fora para dentro: entrar."
    ],
    "nota": "«J’entre en une humeur noire»: caio num humor sombrio."
+  },
+  "entre#2": {
+   "lema": "entre",
+   "classe": "preposição",
+   "def": [
+    "Indica o espaço ou a relação que separa ou une duas ou mais pessoas ou coisas: entre."
+   ],
+   "nota": "«Entre nous»: entre nós; «entre humains»: no meio dos homens; «prononcer entre eux»: decidir entre eles."
   },
   "entrer": {
    "lema": "entrer",
@@ -7620,6 +7719,14 @@
    ],
    "nota": "«Mon faible»: a minha fraqueza, o meu ponto fraco."
   },
+  "faible#2": {
+   "lema": "faible",
+   "classe": "adjetivo",
+   "def": [
+    "Que tem pouca força ou pouca importância: fraco."
+   ],
+   "nota": "«Faible avantage», «faible victoire»: vantagem, vitória de pouco peso."
+  },
   "faibles": {
    "lema": "faible",
    "classe": "adjetivo",
@@ -7700,11 +7807,26 @@
   "fait": {
    "lema": "faire",
    "classe": "verbo",
-   "forma": "particípio passado",
+   "forma": "particípio passado; ou presente do indicativo, 3ª pessoa do singular",
    "def": [
-    "Realizar, executar, produzir: feito."
+    "Realizar, executar, produzir; causar: feito, faz."
    ],
-   "nota": "«J’ai fait profession de l’être»: fiz profissão de sê-lo, declarei-me publicamente."
+   "nota": "«J’ai fait profession de l’être»: declarei-me publicamente; «se fait aimer», «fait peur»: faz-se amar, causa medo (faire + complemento: causar, tornar)."
+  },
+  "fait#3": {
+   "lema": "fait",
+   "classe": "substantivo masculino",
+   "def": [
+    "Ação, ato; o que foi feito: feito, ato."
+   ],
+   "nota": "«N’est point mon fait»: não é o meu gênero, não é o que me convém; «la beauté du fait»: a beleza do gesto."
+  },
+  "fait#4": {
+   "lema": "tout à fait",
+   "classe": "locução adverbial",
+   "def": [
+    "De modo completo, inteiramente: totalmente."
+   ]
   },
   "faites": {
    "lema": "faire",
@@ -7780,7 +7902,7 @@
    "def": [
     "Operar, efetuar, executar, realizar: fazer."
    ],
-   "nota": "«Se fassent les avances»: sejam feitas as adiantadas; em 15:93 «vous fassent foi»: vos deem certeza."
+   "nota": "«Se fassent les avances»: que se façam os adiantamentos, os primeiros passos (e as despesas) da corte; «vous fassent foi»: vos deem prova."
   },
   "fassiez": {
    "lema": "faire",
@@ -8259,6 +8381,13 @@
    ],
    "nota": "Aqui, fidelidade ao que se promete: «foi» é a palavra empenhada."
   },
+  "foi#2": {
+   "lema": "foi",
+   "classe": "locução interjetiva",
+   "def": [
+    "«Ma foi»: por minha fé, na verdade (reforça o que se diz)."
+   ]
+  },
   "fois": {
    "lema": "fois",
    "classe": "substantivo feminino",
@@ -8329,6 +8458,14 @@
     "Faculdade natural de agir com vigor; (em «à force de») pelo efeito repetido de: força."
    ],
    "nota": "«À force de sagesse»: à custa de tanta sabedoria; «force» aí é a insistência."
+  },
+  "force#2": {
+   "lema": "force",
+   "classe": "adjetivo indefinido",
+   "def": [
+    "(Antiquado) Grande quantidade de: muitos."
+   ],
+   "nota": "«Force desseins»: muitos projetos."
   },
   "forfait": {
    "lema": "forfait",
@@ -8464,9 +8601,25 @@
   },
   "franc": {
    "lema": "franc",
+   "classe": "adjetivo",
+   "def": [
+    "Sincero, leal, que fala sem rodeios: franco."
+   ],
+   "nota": "«Un franc aveu»: uma confissão franca."
+  },
+  "franc#2": {
+   "lema": "franc",
+   "classe": "adjetivo",
+   "def": [
+    "Completo, puro, sem mistura (antes do nome): autêntico, de marca."
+   ],
+   "nota": "«Franc scélérat»: um verdadeiro canalha, canalha de marca."
+  },
+  "franc#3": {
+   "lema": "franc",
    "classe": "advérbio",
    "def": [
-    "Largamente, abertamente, resolutamente, sem disfarçar: com franqueza."
+    "Com franqueza, abertamente, sem disfarçar: francamente."
    ],
    "nota": "«Tout franc»: com toda a franqueza."
   },
@@ -8483,7 +8636,7 @@
    "classe": "adjetivo",
    "forma": "feminino singular",
    "def": [
-    "Sincero, leal, honesto: franco."
+    "Sem mistura, completo, puro: autêntico."
    ],
    "nota": "«Franche grimace»: pura simulação, puro fingimento."
   },
@@ -8516,7 +8669,7 @@
    "def": [
     "Sincero, leal, honesto: franco."
    ],
-   "nota": "«Nos francs marquis»: os nossos marqueses sinceros (irônico: os franco-atiradores, de quem se ouve a verdade)."
+   "nota": "«Francs, justes et dociles»: sinceros, justos e dóceis."
   },
   "francs#2": {
    "lema": "franc",
@@ -8526,6 +8679,15 @@
     "Unidade monetária usada por vários países: franco."
    ],
    "nota": "Aqui, a moeda: «vingt mille francs», vinte mil francos, a soma do processo."
+  },
+  "francs#3": {
+   "lema": "franc",
+   "classe": "adjetivo",
+   "forma": "masculino plural",
+   "def": [
+    "Completo, puro, sem mistura: autêntico, de pura cepa."
+   ],
+   "nota": "«Nos francs marquis»: os nossos marqueses de pura cepa, marqueses até a medula (irônico)."
   },
   "frappent": {
    "lema": "frapper",
@@ -8794,6 +8956,15 @@
     "Soldado encarregado de proteger uma pessoa ou vigiar um lugar: guarda."
    ],
    "nota": "Aqui, um oficial da «maréchaussée», que vem notificar Alceste."
+  },
+  "garde#2": {
+   "lema": "garder",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Conservar, manter, observar: guarda, mantém."
+   ],
+   "nota": "«Garder des mesures»: guardar as conveniências, agir com moderação; «garde une honnête pudeur»: mantém um recato honesto."
   },
   "garder": {
    "lema": "garder",
@@ -10677,6 +10848,14 @@
    ],
    "nota": "Aqui, «liberté» é o desembaraço, a soltura nos movimentos."
   },
+  "liberté#2": {
+   "lema": "liberté",
+   "classe": "substantivo feminino",
+   "def": [
+    "Estado de quem pode agir sem coação: liberdade."
+   ],
+   "nota": "«Avoir la liberté de»: ter a possibilidade de, ser livre para."
+  },
   "libre": {
    "lema": "libre",
    "classe": "adjetivo",
@@ -10936,6 +11115,15 @@
     "(Injurioso) Que é covarde; (figurado) que não tem firmeza: covarde, frouxo."
    ]
   },
+  "lâche#2": {
+   "lema": "lâcher",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 1ª ou 3ª pessoa do singular",
+   "def": [
+    "Soltar, deixar escapar: largar, dizer."
+   ],
+   "nota": "«On ne lâche aucun mot»: não se solta nenhuma palavra."
+  },
   "lâchement": {
    "lema": "lâchement",
    "classe": "advérbio",
@@ -11149,7 +11337,7 @@
    "def": [
     "(Por extensão) Tratar alguém de modo desfavorável: maltratar."
    ],
-   "nota": "«Je suis maltraité»: sou mal recebido, sou tratado com dureza (pela dama)."
+   "nota": "«Je suis maltraité»: sou mal recebido, tratado com dureza (pela dama); «le bon droit maltraité»: o direito justo atropelado."
   },
   "mandent": {
    "lema": "mander",
@@ -11617,7 +11805,7 @@
    "def": [
     "Colocar uma pessoa, um animal ou uma coisa num lugar determinado: posto."
    ],
-   "nota": "«M’a mis dans un ardent désir»: pôs-me num ardente desejo."
+   "nota": "«M’a mis dans un ardent désir»: pôs-me num ardente desejo; «s’est mis d’être habile»: meteu-se na cabeça ser hábil; «mis en usage»: posto em prática."
   },
   "misanthrope": {
    "lema": "misanthrope",
@@ -11763,7 +11951,7 @@
    "def": [
     "Certa duração, não considerada muito longa: momento."
    ],
-   "nota": "«Ses moments»: os seus momentos, as suas horas (de bom humor ou de arrebatamento)."
+   "nota": "«Il est cent moments où…»: há cem momentos em que…, muitas vezes."
   },
   "mon": {
    "lema": "mon",
@@ -11805,7 +11993,7 @@
    "def": [
     "Deslocar-se para cima, transportar-se a um lugar mais alto: subir."
    ],
-   "nota": "Sentido de entrar: «Monte ici pour vous voir» (Arsinoé sobe aqui para vos ver)."
+   "nota": "«Monte ici pour vous voir»: sobe aqui para vos ver; é o criado que anuncia que Arsinoé está subindo ao apartamento de Célimène."
   },
   "montent": {
    "lema": "monter",
@@ -12414,9 +12602,9 @@
    "classe": "adjetivo",
    "forma": "feminino singular",
    "def": [
-    "Que absorve toda a luz visível; (figurado) sombrio, melancólico: preto, negro."
+    "Que é da cor mais escura; (figurado) sombrio, melancólico, vil: negra, escura."
    ],
-   "nota": "«Humeur noire»: humor negro, acesso de melancolia."
+   "nota": "«Humeur noire»: humor sombrio, acesso de melancolia; «la noire»: a de tez ou cabelos escuros; «fausseté noire»: falsidade negra, vil."
   },
   "noirs": {
    "lema": "noir",
@@ -13081,7 +13269,14 @@
    "def": [
     "Fazer um outrage a alguém: ultrajar."
    ],
-   "nota": "«On outrage…»: ultrajam; o verbo fica sem complemento porque Alceste é interrompido."
+   "nota": "«On outrage…»: ultrajam…; Alceste é interrompido e a frase fica sem complemento; «qui m’outrage»: que me ultraja."
+  },
+  "outrage#2": {
+   "lema": "outrage",
+   "classe": "substantivo masculino",
+   "def": [
+    "Injúria grave, ofensa cruel feita a alguém: ultraje, afronta."
+   ]
   },
   "outrager": {
    "lema": "outrager",
@@ -13277,12 +13472,12 @@
   },
   "parente": {
    "lema": "parent",
-   "classe": "substantivo masculino",
+   "classe": "substantivo feminino",
    "forma": "feminino",
    "def": [
     "Mulher que tem laço de parentesco com uma pessoa: parenta."
    ],
-   "nota": "«Parente»: Célimène é prima de Éliante, e é a quem Alceste chama de parenta dela."
+   "nota": "«Parente»: parenta; Alceste pede a Éliante que o vingue de Célimène, prima dela."
   },
   "parfait": {
    "lema": "parfait",
@@ -13550,16 +13745,16 @@
    "def": [
     "Ir de um lugar a outro, atravessar: passando."
    ],
-   "nota": "«En passant»: de passagem."
+   "nota": "«En passant»: de passagem; «passant sur de petits discords»: relevando, deixando passar pequenas desavenças."
   },
   "passe": {
    "lema": "passer",
    "classe": "verbo",
    "forma": "presente do subjuntivo, 3ª pessoa do singular",
    "def": [
-    "Ir de um lugar a outro; atravessar: passar."
+    "Ir de um lugar a outro; (figurado) ser tido por, dissipar-se, acontecer: passar."
    ],
-   "nota": "«Que son chagrin ne passe»: que o seu mau humor não passe (dê passagem)."
+   "nota": "«Que son chagrin ne passe»: que o seu mau humor passe, se dissipe (o «ne» é expletivo); «elle passe pour prude»: é tida por pudica; «ce qui se passe»: o que acontece."
   },
   "passe#2": {
    "lema": "passe",
@@ -13662,7 +13857,7 @@
    "def": [
     "Dor, aflição, pesar."
    ],
-   "nota": "«À peine»: com dificuldade, mal, apenas."
+   "nota": "«À peine»: mal, apenas; «se mettre en peine»: preocupar-se; «avec peine»: com dificuldade; «être en peine de»: estar aflito por; «sur peine de la vie»: sob pena de morte."
   },
   "peint": {
    "lema": "peindre",
@@ -13694,7 +13889,7 @@
    "def": [
     "Que merece a pendura, a forca: digno da forca."
    ],
-   "nota": "«Cas pendable»: crime grave; Alceste diz que o caso de Philinte não é tão grave quanto este."
+   "nota": "«Cas pendable»: crime digno da forca; Philinte replica que o seu caso não é tão grave."
   },
   "pendant": {
    "lema": "pendant",
@@ -14129,9 +14324,9 @@
    "lema": "plaiderie",
    "classe": "substantivo feminino",
    "def": [
-    "Processo, ação de plaidar; litígio: demanda."
+    "Ação de pleitear em juízo; litígio: demanda, pleito."
    ],
-   "nota": "Palavra antiga, «plaiderie» é a atividade de demandar em juízo, o litígio."
+   "nota": "Palavra antiga: a atividade de demandar em juízo, o litígio."
   },
   "plaigne": {
    "lema": "plaindre",
@@ -14228,7 +14423,7 @@
    "def": [
     "Que agrada; (também) que faz rir, divertido: agradável, engraçado."
    ],
-   "nota": "«Si plaisant que je suis»: apesar de tão engraçado que eu sou (irônico)."
+   "nota": "«Je ne croyais pas être si plaisant que je suis»: não sabia que eu era tão engraçado (ironia de Alceste); «je vous trouve plaisant d’user…»: acho-vos atrevido de usar… (ironia)."
   },
   "plaisanterie": {
    "lema": "plaisanterie",
@@ -14771,7 +14966,7 @@
    "def": [
     "Segurar, tomar nas mãos; (figurado) adotar, assumir: tomar."
    ],
-   "nota": "«Prendre le nom»: assumir o título, o nome."
+   "nota": "«Prendre un bâton»: pegar um pau; «s’en prendre à»: atacar, culpar; «prendre bien»: receber bem; «prendre parti»: decidir-se; «prendre sujet»: achar motivo."
   },
   "prendrez": {
    "lema": "prendre",
@@ -14919,6 +15114,23 @@
    ],
    "nota": "«Je prise moins»: faço menos caso de."
   },
+  "prise#2": {
+   "lema": "prise",
+   "classe": "substantivo feminino",
+   "def": [
+    "Ação de agarrar; (figurado) ocasião, pretexto: presa, margem."
+   ],
+   "nota": "«Donner prise à»: dar margem a, oferecer pretexto a."
+  },
+  "prise#3": {
+   "lema": "prendre",
+   "classe": "verbo",
+   "forma": "particípio passado, feminino singular",
+   "def": [
+    "Segurar, tomar; (figurado) adotar, assumir: tomada."
+   ],
+   "nota": "«La résolution en est prise»: a decisão está tomada."
+  },
   "privés": {
    "lema": "priver",
    "classe": "verbo",
@@ -14964,7 +15176,7 @@
    "def": [
     "Forma ou maneira de proceder ou agir em justiça: processo."
    ],
-   "nota": "Na peça, o processo em que Alceste está metido por causa do soneto/dívida."
+   "nota": "«Toute la procédure»: todo o processo; a querela entre Oronte e Alceste foi resolvida num abraço e «embrulhada» de uma vez, como se encerra um processo."
   },
   "procédés": {
    "lema": "procédé",
@@ -15345,7 +15557,7 @@
    "def": [
     "Fornecer, dar: emprestar, dar."
    ],
-   "nota": "«Prêter les lumières»: dar as luzes, esclarecer."
+   "nota": "«Prêter les lumières»: dar as luzes, esclarecer; «prêter les mains à»: consentir em; «prêter foi»: dar crédito."
   },
   "prêts": {
    "lema": "prêt",
@@ -15668,6 +15880,14 @@
     "Um dentre outros (sem determinar qual): algum, certo."
    ]
   },
+  "quelque#2": {
+   "lema": "quelque",
+   "classe": "adjetivo indefinido",
+   "def": [
+    "(Com «que» e subjuntivo) por mais… que, seja qual for: por maior, por mais."
+   ],
+   "nota": "«Quelque ardeur qu’elle m’ait pu donner»: por mais ardor que ela me tenha podido dar; «quelque rare que soit»: por mais raro que seja."
+  },
   "quelquefois": {
    "lema": "quelquefois",
    "classe": "advérbio",
@@ -15907,6 +16127,22 @@
     "Direito que alguém tem em relação a outro; verdade do seu lado: razão."
    ],
    "nota": "«Avoir raison»: ter razão."
+  },
+  "raison#3": {
+   "lema": "raison",
+   "classe": "substantivo feminino",
+   "def": [
+    "Motivo, causa que justifica algo: razão, motivo."
+   ],
+   "nota": "«Par quelle raison»: por que motivo; «par la raison que»: pelo motivo de que."
+  },
+  "raison#4": {
+   "lema": "raison",
+   "classe": "substantivo feminino",
+   "def": [
+    "(Antiquado) O que é justo, razoável; satisfação devida: razão, justiça."
+   ],
+   "nota": "«Faites-moi raison d’une offense»: dai-me satisfação, fazei-me justiça por uma ofensa; «ce n’est pas la raison que»: não é justo que."
   },
   "raisonnable": {
    "lema": "raisonnable",
@@ -16328,7 +16564,7 @@
    "classe": "verbo",
    "forma": "particípio passado",
    "def": [
-    "Prestar, fazer, remeter: fazer, prestar."
+    "Dar, prestar: prestado."
    ],
    "nota": "«Rendre service»: prestar serviço, ajudar."
   },
@@ -16545,7 +16781,15 @@
    "def": [
     "Vir outra vez, voltar: voltar."
    ],
-   "nota": "«Y revenir»: voltar a isso, recorrer da sentença; em 23:26, voltar sobre o assunto."
+   "nota": "«Y revenir»: voltar a isso, recorrer da sentença."
+  },
+  "revenir#2": {
+   "lema": "revenir",
+   "classe": "verbo",
+   "def": [
+    "(Figurado) Agradar, ser do gosto de alguém: agradar."
+   ],
+   "nota": "«Un homme qui ne saurait me revenir»: um homem que não me agrada, de quem não consigo gostar."
   },
   "reviens": {
    "lema": "revenir",
@@ -18898,9 +19142,9 @@
    "lema": "tenir",
    "classe": "verbo",
    "def": [
-    "(Transitivo) Segurar firmemente na mão: segurar; (aqui, intransitivo) resistir."
+    "Segurar firmemente; (figurado) resistir, depender, ater-se: ter, ater-se."
    ],
-   "nota": "«Je n’y puis plus tenir»: já não aguento mais, já não consigo resistir."
+   "nota": "«Je n’y puis plus tenir»: já não aguento; «tenir la bride»: refrear; «la chose pût tenir à moi»: dependesse de mim; «tout tenir des mains de»: dever tudo às mãos de; «s’y tenir»: ater-se a isso."
   },
   "tentations": {
    "lema": "tentation",
@@ -19092,7 +19336,7 @@
    "def": [
     "Ser arrastado para baixo pelo próprio peso: cair."
    ],
-   "nota": "Aqui, no sentido figurado: o calor da amizade «cai», arrefece."
+   "nota": "«Votre chaleur tombe»: o calor arrefece; «tomber d’accord de»: concordar com, admitir."
   },
   "tomber": {
    "lema": "tomber",
@@ -19125,6 +19369,13 @@
    "classe": "substantivo masculino",
    "def": [
     "Som de certa frequência; (figurado) modo de falar, entonação: tom."
+   ]
+  },
+  "ton#2": {
+   "lema": "ton",
+   "classe": "adjetivo possessivo",
+   "def": [
+    "Que pertence a ti, um só objeto masculino: teu."
    ]
   },
   "tort": {
@@ -19247,6 +19498,15 @@
    ],
    "nota": "«Faire deux tours»: dar duas voltas, passear."
   },
+  "tours#2": {
+   "lema": "tour",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Ação hábil ou maliciosa; ardil, golpe: truque, artimanha."
+   ],
+   "nota": "«De semblables tours»: tais golpes, tais artimanhas."
+  },
   "tous": {
    "lema": "tout",
    "classe": "adjetivo indefinido",
@@ -19350,6 +19610,14 @@
    ],
    "nota": "«Prendre un assez bon train»: ganhar bom ritmo, andar bem."
   },
+  "train#2": {
+   "lema": "train",
+   "classe": "substantivo masculino",
+   "def": [
+    "(Antiquado) Séquito de criados e cavalos; modo de vida de um nobre: comitiva, tratamento."
+   ],
+   "nota": "«Son train et sa dépense»: o seu séquito e os seus gastos, o seu fausto."
+  },
   "trait": {
    "lema": "trait",
    "classe": "substantivo masculino",
@@ -19414,9 +19682,9 @@
    "classe": "substantivo masculino",
    "forma": "plural",
    "def": [
-    "(Figurado) Palavra mordaz, dito picante, que atinge como um dardo: farpas."
+    "(Figurado) Palavra mordaz, dito picante; (também) golpe, traço: farpas, traços."
    ],
-   "nota": "«Traits médisants»: farpas maledicentes."
+   "nota": "«Traits médisants»: farpas maledicentes; «connaissez vos traits»: reconhecei a vossa letra, os vossos traços; «excuser tous les traits»: desculpar todos os golpes."
   },
   "traité": {
    "lema": "traité",
@@ -19425,6 +19693,15 @@
     "Obra didática em que se trata de um assunto; (aqui) acordo, pacto: tratado."
    ],
    "nota": "«Notre traité»: o nosso trato, o acordo que fizemos (de dizer a verdade um ao outro)."
+  },
+  "traité#2": {
+   "lema": "traiter",
+   "classe": "verbo",
+   "forma": "particípio passado, masculino singular",
+   "def": [
+    "Agir com alguém de determinada maneira: tratar."
+   ],
+   "nota": "«Cœur fut-il de la sorte traité»: foi jamais um coração tratado desse modo?"
   },
   "trancher": {
    "lema": "trancher",
@@ -19491,6 +19768,14 @@
     "Que trai, que é capaz de traição: traiçoeiro."
    ],
    "nota": "«Traîtres appas»: encantos traiçoeiros."
+  },
+  "traîtres#2": {
+   "lema": "traître",
+   "classe": "substantivo masculino",
+   "forma": "plural",
+   "def": [
+    "Pessoa que trai: traidores."
+   ]
   },
   "traîtresse": {
    "lema": "traîtresse",
@@ -19901,7 +20186,7 @@
    "def": [
     "Pessoa que vê ou ouve algo: testemunha."
    ],
-   "nota": "«Sûrs témoins»: testemunhos seguros, provas; em 23:12, os «témoins» são as provas, o que se viu."
+   "nota": "«Sûrs témoins»: testemunhos seguros, provas; em 23:12, o que os olhos viram; em 23:104, as pessoas que testemunham."
   },
   "téméraires": {
    "lema": "téméraire",
@@ -20044,7 +20329,7 @@
    "def": [
     "Deslocar-se até um lugar; (figurado) andar, estar: vai."
    ],
-   "nota": "«Qui va fort bien»: que vai muito bem."
+   "nota": "«Voilà qui va fort bien»: isso vai muito bem; «y va-t-il de sa gloire»: está em jogo a sua glória?; «à qui va ce billet»: a quem se dirige este bilhete; «il va jusqu’à»: chega a."
   },
   "vain": {
    "lema": "vain",
@@ -20094,7 +20379,7 @@
    "def": [
     "Dirigir-se a um lugar; também, com infinitivo, indica futuro próximo: vou."
    ],
-   "nota": "«Je vais n’épargner»: vou deixar de poupar."
+   "nota": "«Je vais n’épargner personne»: vou não poupar ninguém; «je m’en vais vous dire»: vou vos dizer."
   },
   "valait": {
    "lema": "valoir",
@@ -20338,7 +20623,7 @@
    "def": [
     "Espécie de peça de vestuário curta e sem abas: jaqueta, casaco curto."
    ],
-   "nota": "«L’homme à la veste»: Oronte, apelidado pela roupa (Acaste lhe entrega a carta: «Voici votre paquet»); a edição de 1682 troca por «l’homme au sonnet»."
+   "nota": "«L’homme à la veste»: Oronte, assim apelidado na carta de Célimène (Alceste é «l’homme aux rubans verts»); na edição de 1682 aparece «l’homme au sonnet»."
   },
   "veuille": {
    "lema": "vouloir",
@@ -21065,9 +21350,9 @@
    "lema": "éclat",
    "classe": "substantivo masculino",
    "def": [
-    "Brilho, magnificência; (figurado) glória: brilho, esplendor."
+    "Brilho, magnificência; (figurado) ruído público, escândalo: brilho, escândalo."
    ],
-   "nota": "«L’éclat de sa race»: o brilho da sua linhagem."
+   "nota": "«L’éclat de sa race»: o brilho da sua linhagem; «faire éclat de»: dar publicidade a; «craindre l’éclat»: temer o escândalo; «cet éclat»: esse escândalo."
   },
   "éclatant": {
    "lema": "éclatant",
@@ -21414,7 +21699,7 @@
    "def": [
     "Disposição em que se encontra uma pessoa, uma coisa, um assunto; (com maiúscula) a nação organizada: Estado."
    ],
-   "nota": "Aqui, «l’État» é o Estado, o reino."
+   "nota": "«L’État»: o Estado, o reino; «l’état où je vous vois»: a condição em que vos vejo; «hors d’état de»: sem condições de."
   },
   "étendue": {
    "lema": "étendu",
@@ -21528,7 +21813,7 @@
   "2:9.7": "tout#2",
   "2:12.3": "ce#2",
   "2:12.4": "qu’#2",
-  "2:13.5": "que#3",
+  "2:13.5": "que",
   "2:13.8": "le#2",
   "2:13.10": "plus#2",
   "2:18.7": "en#2",
@@ -21537,12 +21822,14 @@
   "2:30.7": "tout#2",
   "2:35.1": "que#6",
   "2:36.3": "que#5",
+  "2:38.3": "lâche#2",
   "2:40.1": "il#2",
   "2:40.4": "le#2",
   "2:45.7": "que#4",
   "2:54.7": "en#2",
   "2:65.9": "le#2",
   "2:66.10": "tout#3",
+  "2:66.12": "fait#3",
   "2:67.7": "il#2",
   "2:67.11": "l’#3",
   "2:68.4": "que#2",
@@ -21557,14 +21844,16 @@
   "2:81.6": "qu’#2",
   "2:85.5": "il#2",
   "2:88.4": "il#2",
-  "2:89.10": "qu’#3",
+  "2:89.10": "qu’#2",
   "2:94.9": "point#2",
+  "2:98.5": "entre#2",
   "2:99.5": "que#3",
   "2:101.5": "plus#2",
   "2:103.2": "chagrin#3",
   "2:106.4": "que#2",
   "2:109.2": "tout#2",
   "2:112.4": "tout#2",
+  "2:112.5": "franc#3",
   "2:114.4": "si#2",
   "2:116.8": "ce#2",
   "2:116.9": "que#2",
@@ -21575,6 +21864,7 @@
   "2:120.5": "mal#2",
   "2:124.2": "en#2",
   "2:129.1": "que#5",
+  "2:131.3": "franc#2",
   "2:133.7": "ce#2",
   "2:133.8": "qu’#2",
   "2:135.3": "qu’#3",
@@ -21586,6 +21876,7 @@
   "2:147.7": "le#2",
   "2:147.9": "l’#2",
   "2:148.2": "ce#2",
+  "2:149.8": "garde#2",
   "2:154.2": "l’#2",
   "2:156.1": "il#2",
   "2:159.4": "l’#3",
@@ -21600,6 +21891,7 @@
   "2:173.6": "que#4",
   "2:174.7": "si#2",
   "2:176.3": "il#2",
+  "2:189.2": "foi#2",
   "2:192.3": "en#2",
   "2:196.3": "que#2",
   "2:197.2": "en#2",
@@ -21608,6 +21900,7 @@
   "2:200.7": "raison#2",
   "2:207.3": "en#2",
   "2:216.4": "en#2",
+  "2:217.5": "fait#3",
   "2:218.7": "tout#2",
   "2:219.2": "l’#3",
   "2:222.5": "tout#3",
@@ -21622,6 +21915,7 @@
   "2:229.2": "ce#2",
   "2:234.7": "l’#2",
   "2:236.2": "si#2",
+  "2:236.4": "donner#2",
   "2:237.5": "leur#2",
   "2:238.5": "ce#2",
   "2:238.6": "qu’#2",
@@ -21633,6 +21927,7 @@
   "2:241.4": "que#2",
   "2:241.6": "sens#2",
   "2:242.8": "qu’#2",
+  "2:243.4": "quelque#2",
   "2:243.6": "qu’#2",
   "2:244.4": "les#2",
   "2:244.8": "les#2",
@@ -21666,6 +21961,8 @@
   "3:48.2": "il#2",
   "3:50.6": "tout#3",
   "3:50.8": "en#2",
+  "3:50.11": "foi#2",
+  "3:54.5": "entre#2",
   "3:55.5": "que#2",
   "3:56.4": "il#2",
   "3:56.11": "l’#2",
@@ -21684,6 +21981,7 @@
   "3:89.2": "qu’#6",
   "3:90.1": "bas#2",
   "3:91.2": "il#2",
+  "3:94.2": "soins#2",
   "3:94.5": "en#2",
   "3:97.3": "en#2",
   "3:98.1": "bas#2",
@@ -21710,6 +22008,7 @@
   "3:137.3": "que#2",
   "3:140.3": "ce#2",
   "3:140.4": "que#2",
+  "3:141.10": "entendre#2",
   "3:142.6": "ce#2",
   "3:142.7": "que#2",
   "3:143.2": "il#2",
@@ -21741,11 +22040,14 @@
   "3:198.6": "les#2",
   "3:199.5": "ferme#2",
   "3:201.6": "le#2",
+  "3:202.2": "foi#2",
   "3:202.7": "le#2",
   "3:202.10": "il#2",
+  "3:203.3": "entre#2",
   "3:203.8": "en#2",
   "3:204.6": "l’#2",
   "4:2.4": "le#2",
+  "4:3.8": "affaire#2",
   "4:7.1": "plus#2",
   "4:17.4": "en#2",
   "4:17.11": "pas#2",
@@ -21754,6 +22056,7 @@
   "5:10.8": "ce#2",
   "5:10.9": "que#2",
   "5:12.3": "querelle#2",
+  "5:13.7": "accès#2",
   "5:14.6": "qu’#2",
   "5:16.3": "que#2",
   "5:19.7": "les#2",
@@ -21798,10 +22101,12 @@
   "5:85.10": "chagrin#2",
   "6:2.1": "qu’#5",
   "6:5.2": "l’#3",
+  "6:9.10": "affaire#2",
   "6:11.9": "le#2",
   "6:13.2": "que#5",
   "6:15.2": "ce#2",
   "6:17.6": "les#2",
+  "6:19.3": "quelque#2",
   "6:19.5": "qu’#2",
   "6:21.2": "quoi#3",
   "6:21.5": "en#2",
@@ -21810,6 +22115,7 @@
   "7:5.1": "où#2",
   "7:8.2": "quoi#2",
   "7:11.2": "le#2",
+  "7:12.3": "affaire#3",
   "7:13.5": "que#3",
   "7:14.8": "les#2",
   "7:15.2": "le#2",
@@ -21881,8 +22187,8 @@
   "8:138.6": "ce#2",
   "8:138.7": "qu’#2",
   "8:139.6": "que#2",
-  "8:140.5": "qu’#3",
-  "8:140.9": "qu’#3",
+  "8:140.5": "qu’",
+  "8:140.9": "qu’",
   "8:141.10": "raison#2",
   "8:146.6": "en#2",
   "8:147.5": "que#2",
@@ -21899,6 +22205,7 @@
   "8:165.6": "qu’#2",
   "8:167.2": "l’#3",
   "8:169.7": "leur#2",
+  "8:183.4": "garde#2",
   "8:184.4": "qu’#4",
   "8:185.7": "qu’#2",
   "8:189.4": "en#2",
@@ -21914,6 +22221,7 @@
   "10:11.3": "quoi#2",
   "10:16.2": "l’#3",
   "10:18.2": "il#2",
+  "10:19.6": "entre#2",
   "10:22.7": "ce#2",
   "10:22.8": "que#2",
   "10:22.10": "en#2",
@@ -21924,6 +22232,7 @@
   "10:40.8": "pas#2",
   "11:7.1": "où#2",
   "11:8.4": "bien#2",
+  "11:9.8": "raison#3",
   "11:10.7": "que#2",
   "11:11.2": "il#2",
   "11:11.13": "passe#2",
@@ -21936,13 +22245,16 @@
   "11:38.5": "soins#2",
   "11:39.3": "ce#2",
   "11:39.4": "qu’#2",
+  "11:42.1": "quelque#2",
   "11:45.1": "ce#2",
+  "11:45.6": "raison#4",
   "11:45.10": "leur#2",
   "11:46.6": "tout#3",
   "11:47.1": "il#2",
   "11:49.7": "le#2",
   "11:52.1": "il#2",
   "11:53.2": "qui#2",
+  "11:53.6": "ton#2",
   "11:53.8": "si#2",
   "11:55.2": "quoi#2",
   "11:57.1": "en#2",
@@ -21983,6 +22295,7 @@
   "14:28.5": "il#2",
   "14:29.8": "en#2",
   "14:33.11": "en#2",
+  "14:35.4": "prise#2",
   "14:37.6": "en#2",
   "14:39.2": "ce#2",
   "14:42.3": "l’#2",
@@ -22011,6 +22324,7 @@
   "14:94.8": "qu’#2",
   "14:96.6": "l’#3",
   "14:100.4": "qu’#3",
+  "14:102.9": "entre#2",
   "14:103.1": "ce#2",
   "14:103.2": "que#2",
   "14:105.6": "l’#3",
@@ -22021,6 +22335,7 @@
   "14:110.5": "en#2",
   "14:114.4": "tout#3",
   "14:114.6": "ce#2",
+  "14:116.8": "faible#2",
   "14:118.1": "ce#2",
   "14:118.2": "que#2",
   "14:118.5": "que#4",
@@ -22042,6 +22357,7 @@
   "14:147.8": "soins#2",
   "14:147.9": "qu’#2",
   "14:148.8": "si#2",
+  "14:149.7": "faible#2",
   "14:151.10": "bas#3",
   "14:155.2": "l’#3",
   "14:155.9": "en#2",
@@ -22066,6 +22382,7 @@
   "15:28.2": "quoi#2",
   "15:35.3": "l’#3",
   "15:36.9": "qu’#2",
+  "15:36.12": "confonde#2",
   "15:37.1": "tout#3",
   "15:38.1": "ce#2",
   "15:38.4": "plus#2",
@@ -22078,6 +22395,7 @@
   "15:55.11": "qu’#2",
   "15:58.6": "qu’#2",
   "15:60.2": "chagrin#2",
+  "15:64.4": "francs#3",
   "15:66.2": "il#2",
   "15:72.1": "que#6",
   "15:74.7": "que#2",
@@ -22109,6 +22427,8 @@
   "16:17.2": "ce#2",
   "16:17.3": "qu’#2",
   "16:18.4": "l’#3",
+  "16:18.8": "train#2",
+  "16:19.2": "adresse#2",
   "16:21.4": "en#2",
   "16:27.7": "si#2",
   "16:30.6": "leur#2",
@@ -22146,6 +22466,7 @@
   "16:76.7": "les#2",
   "16:79.1": "qu’#2",
   "16:86.7": "en#2",
+  "17:2.4": "raison#4",
   "17:4.1": "qu’#5",
   "17:4.4": "qu’#5",
   "17:5.3": "ce#2",
@@ -22160,7 +22481,9 @@
   "17:26.10": "soins#2",
   "17:29.6": "si#2",
   "17:29.8": "qu’#4",
+  "17:30.4": "coup#2",
   "17:31.5": "que#3",
+  "17:32.8": "outrage#2",
   "17:37.6": "si#2",
   "17:41.2": "le#2",
   "17:43.3": "la#2",
@@ -22172,7 +22495,9 @@
   "17:49.8": "si#2",
   "17:49.10": "qu’#4",
   "17:51.4": "part#3",
+  "17:52.3": "force#2",
   "17:52.5": "qu’#2",
+  "17:53.8": "raison#3",
   "17:55.3": "mal#2",
   "17:55.4": "qu’#2",
   "17:56.2": "l’#3",
@@ -22197,12 +22522,14 @@
   "18:15.1": "ce#2",
   "18:16.5": "qu’#2",
   "18:17.5": "qu’#2",
+  "18:18.8": "adresse#2",
   "18:19.5": "ce#2",
   "18:19.6": "que#2",
   "18:29.9": "en#2",
   "18:29.11": "qu’#3",
   "18:33.4": "tout#3",
   "18:34.4": "tout#3",
+  "18:34.8": "outrage#2",
   "18:35.4": "plus#2",
   "18:35.9": "tout#2",
   "18:37.8": "plus#2",
@@ -22212,6 +22539,7 @@
   "18:42.4": "l’#2",
   "18:47.2": "que#6",
   "18:48.3": "le#2",
+  "18:54.4": "raison#3",
   "18:54.9": "en#2",
   "18:56.1": "le#2",
   "18:58.4": "le#2",
@@ -22227,6 +22555,7 @@
   "18:70.7": "qu’#5",
   "18:72.7": "l’#2",
   "18:73.7": "tout#2",
+  "18:73.9": "fait#4",
   "18:75.6": "si#2",
   "18:77.6": "si#2",
   "18:81.1": "ce#2",
@@ -22247,6 +22576,7 @@
   "18:94.8": "ce#2",
   "18:94.9": "qu’#2",
   "18:97.2": "part#2",
+  "18:98.9": "traité#2",
   "18:100.14": "querelle#2",
   "18:102.4": "tout#3",
   "18:102.10": "tout#3",
@@ -22278,6 +22608,8 @@
   "19:17.1": "il#2",
   "19:19.5": "il#2",
   "19:21.1": "il#2",
+  "19:22.4": "raison#3",
+  "19:23.3": "raison#3",
   "19:23.6": "il#2",
   "19:29.2": "il#2",
   "19:29.5": "le#2",
@@ -22290,11 +22622,14 @@
   "19:48.2": "le#2",
   "19:49.1": "que#5",
   "19:50.9": "en#2",
+  "19:52.8": "foi#2",
   "19:52.10": "l’#2",
   "19:53.4": "qui#2",
   "19:56.1": "il#2",
+  "19:56.6": "quelque#2",
   "19:58.3": "en#2",
   "20:2.3": "en#2",
+  "20:2.5": "prise#3",
   "20:5.3": "ce#2",
   "20:5.4": "que#2",
   "20:8.7": "tout#2",
@@ -22312,6 +22647,8 @@
   "20:41.7": "l’#3",
   "20:42.7": "chagrins#2",
   "20:42.8": "qu’#2",
+  "20:44.2": "entre#2",
+  "20:45.1": "traîtres#2",
   "20:47.4": "mal#2",
   "20:47.8": "si#2",
   "20:47.10": "que#4",
@@ -22320,11 +22657,15 @@
   "20:48.2": "que#2",
   "20:49.6": "crédit#2",
   "20:50.5": "rapport#2",
+  "20:52.4": "tours#2",
+  "20:53.6": "franc#2",
   "20:54.6": "crédit#2",
   "20:55.2": "l’#2",
   "20:55.3": "en#2",
   "20:56.2": "il#2",
+  "20:57.2": "bruit#2",
   "20:57.3": "que#2",
+  "20:63.1": "quelque#2",
   "20:64.9": "le#2",
   "20:69.1": "ce#2",
   "20:69.5": "francs#2",
@@ -22341,6 +22682,7 @@
   "20:80.4": "plus#2",
   "20:80.5": "que#4",
   "20:80.10": "l’#2",
+  "20:82.4": "raison#3",
   "20:86.7": "que#2",
   "20:87.5": "tout#3",
   "20:90.3": "en#2",
@@ -22375,6 +22717,7 @@
   "21:35.4": "qu’#3",
   "21:38.3": "que#6",
   "21:41.2": "ce#2",
+  "21:42.8": "entre#2",
   "21:43.5": "si#2",
   "21:43.8": "que#4",
   "21:45.4": "face#2",
@@ -22393,6 +22736,7 @@
   "21:66.1": "ce#2",
   "21:66.2": "que#2",
   "21:68.2": "en#2",
+  "22:5.4": "entre#2",
   "22:5.8": "que#2",
   "22:6.6": "qu’#2",
   "22:7.10": "soins#2",
@@ -22401,11 +22745,13 @@
   "22:14.3": "il#2",
   "22:15.4": "que#3",
   "22:16.4": "qu’#3",
+  "22:17.5": "entends#2",
   "23:7.2": "ce#2",
   "23:14.7": "leur#2",
   "23:23.8": "le#2",
   "23:24.54": "la#2",
-  "23:26.22": "que#3",
+  "23:26.19": "revenir#2",
+  "23:26.22": "que",
   "23:26.24": "l’#2",
   "23:28.21": "si#2",
   "23:28.28": "ce#2",
@@ -22413,7 +22759,7 @@
   "23:34.33": "ce#2",
   "23:34.34": "qu’#2",
   "23:34.43": "que#4",
-  "23:34.51": "que#3",
+  "23:34.51": "que",
   "23:34.58": "si#2",
   "23:34.70": "que#4",
   "23:34.79": "l’#3",
@@ -22439,6 +22785,7 @@
   "23:57.4": "en#2",
   "23:57.9": "sens#2",
   "23:61.3": "que#2",
+  "23:67.4": "chargez#2",
   "23:70.2": "ce#2",
   "23:77.8": "si#2",
   "23:78.7": "le#2",
@@ -22472,6 +22819,7 @@
   "23:135.9": "si#2",
   "23:136.3": "tout#3",
   "23:136.8": "tout#3",
+  "23:137.8": "outrage#2",
   "23:140.6": "qu’#3",
   "23:142.8": "même#3",
   "23:145.3": "en#2",
@@ -22479,6 +22827,7 @@
   "23:147.2": "ce#2",
   "23:153.4": "l’#2",
   "23:153.5": "en#2",
-  "23:153.7": "la#2"
+  "23:153.7": "la#2",
+  "23:161.10": "liberté#2"
  }
 }

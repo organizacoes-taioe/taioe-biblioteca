@@ -1,0 +1,18 @@
+{
+  "id": "le-misanthrope",
+  "rotulo": "Le Misanthrope (Molière): tradução ao lado",
+  "url": "/biblioteca/moliere/le-misanthrope/",
+  "escolhas": [
+    {
+      "id": "traducao-ao-lado",
+      "titulo": "O Misanthrope fica sem tradução ao lado, só com as notas de cada palavra?",
+      "ref": "a peça inteira (botão «Português»)",
+      "contexto": "Achamos uma só tradução portuguesa antiga em verso: a de António Feliciano de Castilho, «O Misanthropo» (Lisboa, Academia Real das Ciências, 1874; «Theatro de Molière, quinta tentativa»), em domínio público (Castilho morreu em 1875) e digitalizada no Internet Archive (exemplar de Harvard). O próprio Castilho a chama «versão libérrima»: passa a ação para Lisboa e troca os nomes (Alceste é Severo Tristão de Mattos; Philinte, Frederico; Célimène, D. Amália de Oliveira; Oronte, Bonifácio; Arsinoé, Eulália), estica a peça (uns 2.700 versos para os 1.808 de Molière), divide as cenas de outro jeito e muda o fim (Severo sai deixando ao criado o próprio necrológio, para os jornais). Os alexandrinos rimados são bons e vivos, e o começo segue de perto («Mas que tem? diga lá. — Deixe-me, por quem é.»), mas logo se afasta: ao lado do francês, as falas não casariam nem cena a cena. As traduções brasileiras e portuguesas do século XX em diante (Jamil Almansur Haddad, Bárbara Heliodora, Vasco Graça Moura) são protegidas.",
+      "opcoes": [
+        {"id": "a", "texto": "Sem tradução ao lado, como está", "nota": "Como o Macbeth: o francês com as notas de cada palavra. A versão de Castilho é mais adaptação que tradução.", "recomendada": true},
+        {"id": "b", "texto": "Pôr a de Castilho ao lado, cena a cena", "nota": "Pede transcrever os cerca de 2.700 versos do OCR de 1874 (fraco) e atualizar a grafia; as falas não ficariam lado a lado, só o começo de cada cena, e a página «Sobre» diria que é adaptação."},
+        {"id": "c", "texto": "Pôr a de Castilho como obra à parte, na Literatura em português", "nota": "«O Misantropo», de Castilho, como texto dele (adaptação de Molière), com o vocabulário das palavras raras; o Misanthrope continua sem tradução ao lado."}
+      ]
+    }
+  ]
+}

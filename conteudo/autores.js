@@ -656,6 +656,15 @@ BIBLIOTECA.autor({
 });
 
 BIBLIOTECA.autor({
+  id: 'moliere',
+  nome: 'Molière',
+  nomeCompleto: 'Jean-Baptiste Poquelin, dito Molière',
+  vida: '1622–1673',
+  lingua: 'fr',
+  nota: 'Comediógrafo e ator francês.'
+});
+
+BIBLIOTECA.autor({
   id: 'arthur-rimbaud',
   nome: 'Arthur Rimbaud',
   nomeCompleto: 'Jean Nicolas Arthur Rimbaud',

@@ -153,7 +153,7 @@ const SEPARADORES = { 'filete': '<span class="fio"></span>', 'fio horizontal': '
   'linha de pontos': '. . . . . . . . . . .' };
 function htmlMarca(b, pals) {
   const v = b.valor;
-  if (pals && ['subtitulo', 'data', 'dedicatoria', 'fecho', 'rubrica'].includes(b.marca)) return marcarPalavras(v, pals);
+  if (pals && ['subtitulo', 'data', 'dedicatoria', 'fecho', 'rubrica', 'prosa'].includes(b.marca)) return marcarPalavras(v, pals);
   switch (b.marca) {
     case 'epigrafe': return v.split(/\s+\/\s+/).map(inline).join('<br>');
     case 'separador': return SEPARADORES[v] || esc(v || '*');
@@ -166,7 +166,9 @@ function htmlMarca(b, pals) {
    e «::rubrica …» são marcas; o verso que começa com espaços é o meio-verso que continua o da fala
    anterior (vai recuado, numa das classes r4…r48, e não conta na numeração); a cada 5 versos, o número
    à margem, como na edição; a indicação de cena dentro da fala, entre colchetes, vai em itálico (o
-   colchete aberto no fim da linha vale até o fim dela, e o fechado no começo, desde o começo). */
+   colchete aberto no fim da linha vale até o fim dela, e o fechado no começo, desde o começo).
+   Numeração que corre pela peça inteira (o Misanthrope, 1–1808): «::versos N» no alto da parte diz quantos
+   versos vêm antes dela. Prosa dentro da peça (as cartas lidas em voz alta): «::prosa …», sem número. */
 function marcarFala(v, pals) {
   const seg = [], re = /\[[^\]]*\]?|^[^[\]]*\]/g; let i = 0, m;
   while ((m = re.exec(v))) {
@@ -185,6 +187,7 @@ function linhasPoema(texto, glos, teatro) {
   if (glos) glos.o.forEach(([l, a, b, id]) => (porLinha[l] = porLinha[l] || []).push([a, b, id]));
   let nv = 0;
   return blocosPoema(texto).map((b) => {
+    if (b.marca === 'versos') { nv = Number(b.valor) || 0; return { sep: false, linhas: [] }; }
     if (b.marca) {
       const d = glos ? brutas[b.linha].indexOf(b.valor) : 0;   // as posições contam a linha inteira, com o «::marca»
       const pals = glos ? (porLinha[b.linha] || []).map(([x, y, id]) => [x - d, y - d, id]) : null;
@@ -445,7 +448,7 @@ function palavras(o) {
 }
 const milhar = (n) => n.toLocaleString('pt-BR');
 /* no teatro, sem os nomes de quem fala e sem as marcas */
-const palavrasTeatro = (o) => o.partes.reduce((n, p) => n + (String(p.texto).split('\n').filter((l) => !/^::fala\b/.test(l))
+const palavrasTeatro = (o) => o.partes.reduce((n, p) => n + (String(p.texto).split('\n').filter((l) => !/^::(fala|versos)\b/.test(l))
   .join('\n').replace(/^::\w+/gm, ' ').match(PALAVRA) || []).length, 0);
 function fichaObra(o) {
   const d = o.divisao || { singular: 'parte', plural: 'partes' };

@@ -40,6 +40,15 @@ BIBLIOTECA.poemas({
 });
 
 BIBLIOTECA.poemas({
+  autor: "moliere",
+  arquivo: "conteudo/moliere/lingua-original.js",
+  livros: [],
+  poemas: [
+    {"id":"moliere-le-misanthrope","titulo":"Le Misanthrope","forma":"outras","livro":-1,"ordem":0,"versos":1818,"lingua":"fr","ano":1667,"glossario":true,"partes":[{"titulo":"Personagens"},{"titulo":"Ato I, cena 1"},{"titulo":"Ato I, cena 2"},{"titulo":"Ato I, cena 3"},{"titulo":"Ato II, cena 1"},{"titulo":"Ato II, cena 2"},{"titulo":"Ato II, cena 3"},{"titulo":"Ato II, cena 4"},{"titulo":"Ato II, cena 5"},{"titulo":"Ato II, cena 6"},{"titulo":"Ato III, cena 1"},{"titulo":"Ato III, cena 2"},{"titulo":"Ato III, cena 3"},{"titulo":"Ato III, cena 4"},{"titulo":"Ato III, cena 5"},{"titulo":"Ato IV, cena 1"},{"titulo":"Ato IV, cena 2"},{"titulo":"Ato IV, cena 3"},{"titulo":"Ato IV, cena 4"},{"titulo":"Ato V, cena 1"},{"titulo":"Ato V, cena 2"},{"titulo":"Ato V, cena 3"},{"titulo":"Ato V, cena 4"}],"teatro":true,"divisao":{"singular":"parte","plural":"partes"},"genero":"Teatro"}
+  ]
+});
+
+BIBLIOTECA.poemas({
   autor: "john-donne",
   arquivo: "conteudo/john-donne/lingua-original.js",
   livros: [{"id": "poems", "titulo": "Poems", "ano": 1633}],

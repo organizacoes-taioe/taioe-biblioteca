@@ -112,10 +112,13 @@ def todas_chaves():
     return ocs
 
 
-if sys.argv[1] == 'baixar':
+if sys.argv[1] in ('baixar', 'baixar-reverso'):
     ocs = todas_chaves()
     feitas = 0
-    for k, lst in ocs.items():
+    itens = list(ocs.items())
+    if sys.argv[1] == 'baixar-reverso':
+        itens.reverse()   # do fim da peça para o começo (enquanto as fichas do começo baixam o resto)
+    for k, lst in itens:
         for c in candidatos(k, lst[0][1])[:2]:
             v = verbete(c)
             if v:

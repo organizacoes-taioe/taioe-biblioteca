@@ -6655,6 +6655,14 @@
     "Uso que se faz de alguma coisa; (também) cargo, função: empregos."
    ]
   },
+  "employer": {
+   "lema": "employer",
+   "classe": "verbo",
+   "def": [
+    "Utilizar, servir-se de: empregar."
+   ],
+   "nota": "«Employer toute chose»: empregar todos os meios, mover tudo."
+  },
   "empoisonneur": {
    "lema": "empoisonneur",
    "classe": "substantivo masculino",
@@ -6807,6 +6815,13 @@
    "classe": "substantivo feminino",
    "def": [
     "Líquido geralmente preto de que se serve para escrever, para imprimir: tinta."
+   ]
+  },
+  "endroit": {
+   "lema": "endroit",
+   "classe": "substantivo masculino",
+   "def": [
+    "Parte determinada de um espaço: lugar."
    ]
   },
   "endroits": {
@@ -7945,7 +7960,7 @@
    "def": [
     "Operar, efetuar, executar: fazer."
    ],
-   "nota": "«Je vous ferai voir»: mostrar-vos-ei, farei que vejais."
+   "nota": "«Je vous ferai voir»: farei que vejais, hei de mostrar-vos."
   },
   "ferait": {
    "lema": "faire",
@@ -8787,7 +8802,7 @@
    "def": [
     "(Pronominal) Precaver-se, evitar: guardar, guardar-se."
    ],
-   "nota": "«Me garderai bien de»: guardar-me-ei de, evitarei com cuidado, não farei questão de."
+   "nota": "«Me garderai bien de»: vou evitar com cuidado, não farei questão de."
   },
   "garderais": {
    "lema": "garder",
@@ -11583,7 +11598,7 @@
    "classe": "substantivo feminino",
    "forma": "plural",
    "def": [
-    "Contenança que se toma, ar que se dá, com alguma intenção: aparência, jeito."
+    "Postura que se assume, ar que se dá, com alguma intenção: aparência, jeito."
    ],
    "nota": "«Mines»: ares, caretas, afetação; em 15:43, «faire les mines»: fazer cara feia, mostrar ressentimento."
   },
@@ -15105,6 +15120,15 @@
     "Palavras trocadas na conversa: conversa, palavras."
    ],
    "nota": "«À propos»: oportuno, na hora certa."
+  },
+  "propose": {
+   "lema": "proposer",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "Apresentar, oferecer à consideração; (pronominal) ter como alvo, fixar-se um objetivo: propor."
+   ],
+   "nota": "«Que son cœur se propose»: que o seu coração se propõe, que ele tem em vista."
   },
   "propre": {
    "lema": "propre",
@@ -18905,6 +18929,14 @@
    ],
    "nota": "«En termes galants»: em termos galantes, em linguagem elegante."
   },
+  "terre": {
+   "lema": "terre",
+   "classe": "substantivo feminino",
+   "def": [
+    "Solo sobre o qual caminhamos, sobre o qual são construídas as casas: terra."
+   ],
+   "nota": "«Sur la terre»: no mundo, sobre a terra."
+  },
   "terrible": {
    "lema": "terrible",
    "classe": "adjetivo",
@@ -19467,6 +19499,15 @@
    "def": [
     "Que é vitorioso, que venceu; que tira vantagem de algo: triunfante."
    ]
+  },
+  "triomphent": {
+   "lema": "triompher",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do plural",
+   "def": [
+    "(Figurado) Obter qualquer vantagem sobre alguém: triunfar, imperar."
+   ],
+   "nota": "«Où triomphent les vices»: onde os vícios imperam, onde vencem."
   },
   "triompher": {
    "lema": "triompher",
@@ -20963,6 +21004,14 @@
     "(Figurado) Surpreender por algo vivo, brilhante ou enganoso: deslumbrar."
    ],
    "nota": "«S’éblouir les yeux»: iludir-se, enganar-se com a aparência."
+  },
+  "écarté": {
+   "lema": "écarté",
+   "classe": "adjetivo",
+   "def": [
+    "Que se encontra afastado, à parte: afastado, isolado."
+   ],
+   "nota": "«Un endroit écarté»: um lugar afastado, retirado do mundo."
   },
   "échauffer": {
    "lema": "échauffer",

@@ -2,8 +2,8 @@
 
 Texto da Copilação de 1562 (fac-símile da BNP, purl.pt/11494, PDF `res-175-a`, pp. 440–454 = fól. CCXIII v.º–
 CCXX v.º, «Auto de Ines Pereyra» … «Laus Deo») na grafia brasileira de hoje. Não há folheto avulso conhecido.
-O fac-símile (212 MB) e as páginas recortadas ficam fora do git, em `~/.cache/claude-pedidos-2711/farsa-de-ines-pereira/`
-(só no notebook); para refazer: baixar o PDF de `https://purl.pt/11494/6/` e `pdftoppm -f 440 -l 454 -r 200`.
+As colunas recortadas do fac-símile (`pag/col-<p>-a|b.png`) ficam fora do git, em `~/.cache/claude-pedidos-2711/farsa-de-ines-pereira/`
+(só no notebook; o PDF de 212 MB foi apagado); para refazer: baixar o PDF de `https://purl.pt/11494/6/` e `pdftoppm -f 440 -l 454 -r 200`.
 
 ## Como o texto foi feito
 1. Reimpressão de Hamburgo (1834), tomo III, pp. 121–159: OCR do exemplar de Toronto (`colacao/ocr-1834-toronto.txt`),

@@ -56,6 +56,7 @@ LICOES = [
     ('| Viste tão parvo vilão?', '| Vistes tão parvo vilão?'),
     ('| Ceremônias há mister', '| Cerimônias há mister'),
     ('| Eu creio que nesta rua,', '| Eu creo que nesta rua,'),
+    ('| Creio que é de meu senhor.', '| Creo que é de meu senhor.'),
     # p. 444
     ("| Eu cuido que não 'stou bem.", '| Eu cuido que não estou bem.'),
     ('| E ficamos dous hereos,\n| Porém meu é o morgado.', '| E ficamos dous ereos,\n| Perém meu é o morgado.'),

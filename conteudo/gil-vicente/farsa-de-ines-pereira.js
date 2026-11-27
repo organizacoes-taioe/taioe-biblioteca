@@ -1582,7 +1582,7 @@ _Falado._
 @ Moço
 
 | Esta carta vem d'além,
-| Creio que é de meu senhor.
+| Creo que é de meu senhor.
 
 @ Inês
 

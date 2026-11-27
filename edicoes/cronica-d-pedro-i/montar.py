@@ -45,6 +45,9 @@ def corrigir(E):
                 novo.append(x)
                 continue
             lw = x['t'].lower()
+            if lw in D.TIL:
+                x['t'] = (D.TIL[lw][0].upper() + D.TIL[lw][1:]) if x['t'][:1].isupper() else D.TIL[lw]
+                lw = x['t'].lower()
             if lw in M.LIXO and not x.get('conferido'):
                 continue
             if lw in M.OCR and not x.get('conferido'):
@@ -147,6 +150,14 @@ def nomes(E):
             (altas if w[:1].isupper() else baixas).add(w.lower())
         CAPS = altas - baixas
     lex = M.G.lexico()
+    global CX
+    CX = collections.defaultdict(lambda: [0, 0])      # forma de 1816: [vezes em minúscula, em maiúscula no meio da frase]
+    for p in E:
+        ant = '.'
+        for x in p['corpo']:
+            if 'p' not in x and ant not in FIM:
+                CX[x['t'].lower()][x['t'][:1].isupper()] += 1
+            ant = x['t']
     for p in E:
         for campo in ('titulo', 'corpo'):
             ant = '.'
@@ -170,7 +181,8 @@ def nomes(E):
                     # 1895 com maiúscula: nome, salvo no começo de frase (Pois, E, Como), onde só vale
                     # se a palavra não for comum (o dicionário só a traz com maiúscula, ou nem a traz)
                     pal = M.G.ao1990(a.lower())
-                    x['nome'] = a[:1].isupper() and x['t'][:1].isupper() and (pal in CAPS or pal not in lex or pal in NOMES_COMUNS)
+                    x['nome'] = a[:1].isupper() and x['t'][:1].isupper() and (pal in CAPS or pal not in lex or pal in NOMES_COMUNS
+                                                                                   or CX[x['t'].lower()][1] > CX[x['t'].lower()][0])
                 else:
                     pal = m.split(' ')[0].lower()
                     x['nome'] = pal in CAPS or pal not in lex or pal in ('dom', 'dona', 'deus')

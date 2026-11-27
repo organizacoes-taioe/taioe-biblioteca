@@ -51,7 +51,7 @@ GRAFIA = {
     'samtiaguo': 'Santiago', 'valhadolide': 'Valladolid', 'purtugal': 'Portugal', 'castella': 'Castela',
     'iffamte': 'infante', 'iffante': 'infante', 'iffamtes': 'infantes', 'iffantes': 'infantes',
     'dom': 'Dom', 'dona': '=95', 'hade': 'há de', 'ade': 'há de', 'ca': 'ca', 'ameude': 'amiúde',
-    'galees': 'galés', 'gallees': 'galés', 'galee': 'galé', 'estevam': 'Estêvão', 'ia': '=95', 'fradarique': 'Fradique', 'fradrique': 'Fradique', 'arreal': 'arraial', 'arreai': 'arraial', 'annes': 'Anes', 'eanes': 'Eanes', 'çuja': 'suja', 'mocos': 'moços', 'lancou': 'lançou',
+    'maravidijs': 'maravedis', 'maravidis': 'maravedis', 'galees': 'galés', 'gallees': 'galés', 'galee': 'galé', 'estevam': 'Estêvão', 'ia': '=95', 'fradarique': 'Fradique', 'fradrique': 'Fradique', 'arreal': 'arraial', 'arreai': 'arraial', 'annes': 'Anes', 'eanes': 'Eanes', 'çuja': 'suja', 'mocos': 'moços', 'lancou': 'lançou',
 }
 
 GRAFIA95 = {

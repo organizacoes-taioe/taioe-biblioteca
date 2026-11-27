@@ -129,3 +129,7 @@ TROCAS_MODERNO = {
     '*': [('gradecer vôo lo-emos', 'gradecer-vo-lo-emos'), ('a a saber', 'a saber'), ('ter-lho-hia', 'ter-lho-ia'),
           ('ser-vos-há', 'ser-vos-á'), ('Crê-de-me', 'Crede-me'), ('mostrar se ia', 'mostrar-se-ia')],
 }
+
+# o til que o OCR perde em parte das leituras (o impresso traz irmaão, çidadaãos: imagens dos caps. I e XX)
+TIL = {'irmaao': 'irmaão', 'irmaaos': 'irmaãos', 'hirmaao': 'hirmaão', 'çidadaaos': 'çidadaãos', 'çidadaao': 'çidadaão',
+       'christaaos': 'christaãos'}

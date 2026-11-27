@@ -1,0 +1,18 @@
+{
+  "id": "romeo-and-juliet",
+  "rotulo": "Romeo and Juliet (Shakespeare): tradução ao lado",
+  "url": "/biblioteca/william-shakespeare/romeo-and-juliet/",
+  "escolhas": [
+    {
+      "id": "traducao-ao-lado",
+      "titulo": "Romeo and Juliet fica sem tradução ao lado, só com as notas de cada palavra?",
+      "ref": "a peça inteira (botão «Português»)",
+      "contexto": "Não achamos tradução portuguesa da peça inteira que seja ao mesmo tempo em verso, em domínio público e acessível. No Brasil, a primeira completa é a de Onestaldo de Pennafort (1940, prosa e verso; o tradutor morreu em 1987, protegida); depois vêm Oliveira Ribeiro Neto (1948), Carlos Alberto Nunes, os Medeiros e Oscar Mendes, Barbara Heliodora e as seguintes, todas protegidas. Em Portugal, a conhecida é a de Domingos Ramos (Porto, Lello; 3ª edição em 1924), a que o Teatro do Estudante usou em 1938; não está digitalizada nos acervos que alcançamos, não confirmamos se é em verso nem a data da morte do tradutor (a BNP e a Hemeroteca bloqueiam o acesso automático). Em domínio público há só trechos em verso: Francisco Otaviano (I.5, o encontro, e II.2, o jardim) e Olavo Bilac (as mesmas e III.5, a despedida), publicados nas Conferências Literárias de Bilac (1912); também não os achamos digitalizados, e cobririam três cenas de vinte e quatro.",
+      "opcoes": [
+        {"id": "a", "texto": "Sem tradução ao lado, como está", "nota": "Como o Macbeth: o inglês com as notas de cada palavra.", "recomendada": true},
+        {"id": "b", "texto": "Procurar os trechos de Bilac (1912) para pôr ao lado das três cenas", "nota": "Pede achar um exemplar das Conferências Literárias; as outras 21 cenas e os prólogos ficariam sem tradução, e o site hoje só põe tradução na obra inteira."},
+        {"id": "c", "texto": "Procurar a de Domingos Ramos", "nota": "Pede achar um exemplar e confirmar que é em verso e que o tradutor morreu antes de 1956."}
+      ]
+    }
+  ]
+}

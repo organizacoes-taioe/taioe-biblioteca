@@ -13,7 +13,7 @@ Branch `pedido-cronica-d-pedro-i`. Não-ficção, gênero «História»; autor n
   pp. 3–116), ſ → s, sem as notas de variantes nem as aspas de linha. `atualizado/parte-NN.txt`: grafia de hoje, mesmos
   parágrafos (os da edição de 1895). `titulos.json`: títulos (1816 e hoje). `sobre.md`: a página «Sobre».
 - `revisao.json`: 7 decisões (base, original ao lado, parágrafos, palavras antigas, el-rei, nomes, grã/grão).
-- Vocabulário: `edicoes/vocabulario/cronica-d-pedro-i.json`, 276 verbetes, `conferir` ok.
+- Vocabulário: `edicoes/vocabulario/cronica-d-pedro-i.json`, 275 verbetes, `conferir` ok.
 - Scripts da cadeia (só para refazer o texto; o principal não precisa): `linhas.py` (hOCR → linhas) → `limpar.py`
   (cabeçalho, notas de rodapé, reclamo, títulos, aspas) → `colacao.py` (4 testemunhos alinhados ao pivô D) →
   `estabelecer.py` (escolha por apoio, s longo e ligaduras, alinhamento com 1895) → `montar.py` (correções de

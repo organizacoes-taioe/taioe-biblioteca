@@ -1,0 +1,27 @@
+{
+  "id": "farsa-de-ines-pereira",
+  "rotulo": "Farsa de Inês Pereira (Gil Vicente): texto-base e emendas",
+  "url": "/biblioteca/gil-vicente/farsa-de-ines-pereira/",
+  "escolhas": [
+    {
+      "id": "texto-base",
+      "titulo": "O texto segue a Copilação de 1562, lida no fac-símile, e não a reimpressão de Hamburgo (1834)?",
+      "ref": "a farsa inteira",
+      "contexto": "A farsa só existe na Copilação de 1562 (não há folheto avulso). As duas Barcas do site foram lidas na reimpressão de 1834, que reproduz a Copilação; aqui, além dela, cada verso foi conferido no fac-símile de 1562 da Biblioteca Nacional de Portugal. A de 1834 se afasta de 1562 em uns 150 pontos: troca palavras e formas, muda a fala de alguns versos, reescreve rubricas e acrescenta outras («sai», «vai-se», «à parte», «lê a carta»).\n\nExemplos (1834 → 1562, que está no site): «Isto não sei que me faz» → «que o faz»; «Se lhe vem melhor alguém» → «milhor ninguém»; «E isso hei de ter mão?» → «ter na mão» (a sílaba que faltava); «Porém, a falar a verdade» → «a falar verdade»; «Como os Judeus nos gabarão» → «ma gabaram»; «E bom jogador de bóia» → «jugador de bola»; «Ou de cá. — Quem está lá?» (Latão e Inês) → o verso inteiro de Latão.",
+      "opcoes": [
+        {"id": "a", "texto": "A Copilação de 1562, como está", "nota": "É a edição dos filhos de Gil Vicente, a única antiga; 1834 a reproduz com retoques de editor.", "recomendada": true},
+        {"id": "b", "texto": "A reimpressão de 1834, como nas Barcas", "nota": "Texto mais regular, mas com palavras e rubricas que não são de Gil Vicente."}
+      ]
+    },
+    {
+      "id": "emendas",
+      "titulo": "Ficam as três emendas de 1834 sobre erros evidentes de 1562?",
+      "ref": "três lugares",
+      "contexto": "Em três pontos a Copilação parece trazer erro de impressão, e o site segue a emenda de 1834:\n\n1. Lianor Vaz: «Ou seja sapo ou sapinho, / ou marido ou maridinho, / tenha o que houver mister» (1562: «ou marido ou marinho, / tenho o que ouver mister»; com «marinho» o verso fica com uma sílaba a menos, e «tenho» não tem sujeito).\n2. O Ermitão: «Sirvo allí mi Dios Cupido / con tanto amor sin mudanza / que soy su santo escogido» (1562: «mis dias Copido»; o «su» do verso seguinte pede Cupido como aquele a quem ele serve).\n3. Depois da notícia da morte do Escudeiro, «Dai-me vós cá essa chave / e i buscar vossa vida» vai com Inês, que manda o Moço embora; 1562 não põe o nome dela, e os versos ficariam com o Moço, que é quem tem a chave.",
+      "opcoes": [
+        {"id": "a", "texto": "As três emendas, como está", "nota": "Corrigem só o que não faz sentido ou quebra o verso; cada uma está dita na «Sobre».", "recomendada": true},
+        {"id": "b", "texto": "1562 ao pé da letra também nesses três lugares", "nota": "Mais fiel à Copilação, mas com três passagens truncadas."}
+      ]
+    }
+  ]
+}

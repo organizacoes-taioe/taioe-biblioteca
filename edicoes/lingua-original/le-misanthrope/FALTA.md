@@ -17,11 +17,20 @@ Material de trabalho (downloads, cenas.json, fichas, lotes): `~/.cache/claude-pe
   notas); `lingua_original.py` dá notas ao `::prosa`; CSS `.m-prosa`.
 - `obras.json` (com «Sobre» e fontes) e `conteudo/autores.js` (Molière). Todas as partes em `rascunho`.
 
-## Falta
-1. Glossário (fr.wiktionary): `ferramentas/fichas.py baixar` (cache) e fichas por lote; lotes juntados por
-   `ferramentas/juntar.py <lote.json> [partes]`; tirar `rascunho` de cada parte pronta em `obras.json`.
-2. `python3 ferramentas/lingua_original.py conferir le-misanthrope` «tudo certo»; `publicar`; gerar e olhar.
-3. `revisao-le-misanthrope.json` (tradução ao lado: Castilho, *O Misanthropo*, 1874, «versão libérrima»).
+- Glossário: 2.740 verbetes, 1.021 ocorrências apontadas a variantes; feito por dois agentes Sonnet (Personagens e
+  Atos I–II; Atos III–V, branches `pedido-le-misanthrope-ga` e `-gb`, já juntas aqui), revisto por dois revisores
+  Sonnet (palavras de conteúdo; lotes em `~/.cache/claude-pedidos-2711/le-misanthrope/glossario/revisao/`) e
+  pelo principal (nomes próprios, sentidos do séc. XVII, ce/ce#2, soins/soins#2, grimace, veste, cape, parties).
+  `conferir` dá «tudo certo»; partes fora do rascunho; `conteudo/moliere/lingua-original.js` gravado.
+- `revisao-le-misanthrope.json`: 1 decisão (sem tradução ao lado, recomendada; Castilho 1874 «versão libérrima»
+  como opção b ou c).
+
+## Falta (para o principal)
+- Juntar a branch, gerar o site, Catálogo `obras` (obra nova), PR; `traducoes_revisao.py --revisao` (1 escolha).
+  Endereços novos (`/biblioteca/moliere/le-misanthrope/…`): nenhuma regra de `_redirects`.
+- O código mudou em `gerar.mjs` (`::versos`, `::prosa`), `lingua_original.py` (`prosa` com notas) e `estilo.css`
+  (`.m-prosa`); o Macbeth e os outros saem iguais.
+- Se o Gere escolher a opção b ou c: o OCR de Castilho está no IA (`omisanthropocom00moligoog`, djvu.txt).
 
 ## Não conferido
 - Onde o OCR de Despois–Mesnard está de cabeça para baixo (boa parte do Ato III e algumas páginas do IV e V),

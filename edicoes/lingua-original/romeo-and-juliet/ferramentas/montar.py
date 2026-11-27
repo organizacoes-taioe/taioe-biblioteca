@@ -13,11 +13,14 @@ FALAS = {'Rom.': 'Romeo', 'Jul.': 'Juliet', 'Nurse.': 'Nurse', 'Ben.': 'Benvolio
  'Abr.': 'Abraham', 'Ap.': 'Apothecary', 'Fri. J.': 'Friar John', 'Page.': 'Page', 'Chor.': 'Chorus',
  'La. Mon.': 'Lady Montague', 'Sec. Cap.': 'Second Capulet', 'First Cit.': 'First Citizen',
  'First Off.': 'First Officer'}
-ABREV = {'Rom.': 'Romeo', 'Jul.': 'Juliet', 'Ben.': 'Benvolio', 'Mer.': 'Mercutio', 'Cap.': 'Capulet',
+ABREV = {'Fri. L.': 'Friar Laurence', 'First Serv.': 'First Servant', 'Sec. Serv.': 'Second Servant', 'Rom.': 'Romeo', 'Jul.': 'Juliet', 'Ben.': 'Benvolio', 'Mer.': 'Mercutio', 'Cap.': 'Capulet',
  'La. Cap.': 'Lady Capulet', 'Tyb.': 'Tybalt', 'Par.': 'Paris'}
 # (cena, começo do texto) → True: continua o verso anterior; False: verso novo
 FORCAR = {(8, 'A thousand times good night'): True, (17, '[_Within_] Ho, daughter'): True,
  (25, '[_Within_] Lead, boy'): True}
+# erros da transcrição do PG (colação com a Globe do MIT) e abreviações nas rubricas de dentro da fala
+CORRIGIR = [('rather than many Paris', 'rather than marry Paris'), ('[Exit First Serv.]', '[Exit First Servant.]'),
+ ('[Exit Sec. Serv.]', '[Exit Second Servant.]'), ('[Exit Sec. Servant.]', '[Exit Second Servant.]')]
 # (cena, começo do texto): a linha que o PG quebrou e que, pela numeração da edição, é um verso só, junta-se à anterior
 JUNTAR = {(3, 'the county stays.'), (25, 'that:')}
 # (cena, texto inteiro, onde partir): a linha de prosa que o PG juntou e que, pela numeração, são duas
@@ -33,6 +36,7 @@ def rubrica(s):
     s = s.lstrip('[').strip()
     for a, b in ABREV.items():
         s = s.replace('to ' + a, 'to ' + b)
+        s = re.sub(r'^Exit ' + re.escape(a) + '$', 'Exit ' + b + '.', s)
     s = nomes(s)
     s = re.sub(r'\bLady M\.$', 'Lady Macbeth.', s)   # III.4: «Exeunt all but MACBETH and LADY M.»
     return ' '.join(s.split())
@@ -97,6 +101,8 @@ for k, s in enumerate(c):
         if fala == 'Fri.' and t.startswith('L. '):
             fala = 'Fri. L.'; t = t[3:]   # II.3: «Fri.» em itálico e «L.» fora, no PG
             x = list(x); x[5] = t
+        for a, b in CORRIGIR:
+            t = t.replace(a, b)
         cont = continua(k, x)
         if fala:
             if out and out[-1] != '':
@@ -113,6 +119,8 @@ for k, s in enumerate(c):
             for h in hist[-12:]: print('     ', h)
         if dl:
             t = t + ' [' + rubrica(dl) + ']'
+            for a, b in CORRIGIR:
+                t = t.replace(a, b)
         out.append(' ' * ind_txt + t)
         ultimo = (ind_txt, t if not dl else t[:t.rfind(' [')])
     while out and out[-1] == '':

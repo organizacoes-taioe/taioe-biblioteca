@@ -250,5 +250,6 @@ if __name__ == '__main__':
         print(f'{t}: {pal(bs)} palavras')
     print('total', sum(pal(bs) for _, bs in partes))
     if '--publicar' in sys.argv:
+        sys.path.insert(0, AQUI)
         import publicar
         publicar.gravar(partes)

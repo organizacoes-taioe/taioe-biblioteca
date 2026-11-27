@@ -1,0 +1,107 @@
+{
+  "id": "diario-intimo",
+  "rotulo": "Diário Íntimo (Lima Barreto): edição",
+  "url": "/biblioteca/lima-barreto/diario-intimo/",
+  "escolhas": [
+    {
+      "id": "organizador",
+      "titulo": "Publicar o Diário com a seleção e a ordem do organizador (1956)?",
+      "ref": "A obra toda",
+      "contexto": "Lima Barreto não deixou o Diário pronto: o livro é uma montagem de Francisco de Assis Barbosa (morto em 1991), feita de cadernos, folhas soltas e recortes, com a escolha do que entra e a data provável das notas sem data. As notas, a introdução, a nota prévia e as rubricas dele ficaram de fora; o texto é todo de Lima Barreto, e as notas datadas seguem as datas do autor. Refazer a seleção pelos manuscritos da Biblioteca Nacional não é possível daqui. O risco (a seleção e a ordem como obra protegida do organizador) vai para a lista do advogado.",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Publicar como está, só com o texto do autor",
+          "nota": "A ordem por datas é a do próprio autor; a seleção é o único ponto discutível, e a Biblioteca Nacional já publicou esse mesmo texto em 2002 como livre.",
+          "recomendada": true
+        },
+        {
+          "id": "b",
+          "texto": "Tirar do ar até o advogado responder",
+          "nota": "O mais prudente, mas o livro fica fora do site por tempo indefinido."
+        }
+      ]
+    },
+    {
+      "id": "base-1956",
+      "titulo": "Seguir o texto de 1956 onde a transcrição de 2002 diverge?",
+      "ref": "Mais de 300 pontos (lista no correcoes.tsv da obra)",
+      "contexto": "A transcrição gratuita (Biblioteca Nacional, 2002; a mesma do Wikisource) deriva da edição de 1956, mas pula linhas e troca palavras. Exemplos: 1956 «Empreguei-me e há três meses que vou exercendo as minhas funções. A minha casa…» × 2002 «Empreguei-me há 6 meses e vou exercendo as minhas funções. Minha casa…»; 1956 «o chefe da usina mandou pôr o seguinte aviso» × 2002 «dou-vos o seguinte aviso»; 1956 «Dei cerca de duzentos exemplares» × 2002 «mil e duzentos». O texto no ar segue 1956, conferido nas imagens.",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Seguir 1956, como está",
+          "nota": "É a última edição do organizador em fac-símile; as diferenças de 2002 não têm fonte conhecida e várias são erros evidentes.",
+          "recomendada": true
+        },
+        {
+          "id": "b",
+          "texto": "Seguir a transcrição de 2002",
+          "nota": "Texto mais difundido na internet, mas sem edição impressa que o sustente."
+        }
+      ]
+    },
+    {
+      "id": "nao-puder",
+      "titulo": "Acrescentar o «não» em «se… eu não puder ser mais alguma coisa do que o idiota Rocha Faria — antes morrer»?",
+      "ref": "1903, nota de 12 de junho",
+      "contexto": "A edição de 1956 imprime «Se, depois de percorrido esse martirológio, eu puder ser mais alguma coisa do que o idiota Rocha Faria — antes morrer», que diz o contrário do que o autor quer dizer. A transcrição de 2002 traz «eu não puder». O texto no ar está com «não», e a falta vai na lista de erros de 1956 da «Sobre».",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Fica «eu não puder», como está",
+          "nota": "Dá o sentido evidente da frase; a lição de 1956 fica registrada na «Sobre».",
+          "recomendada": true
+        },
+        {
+          "id": "b",
+          "texto": "Voltar a «eu puder», como em 1956",
+          "nota": "Fiel ao impresso, mesmo com o sentido truncado."
+        }
+      ]
+    },
+    {
+      "id": "formas-do-autor",
+      "titulo": "Manter as formas que 1956 dá e a transcrição de 2002 modernizou (cobardia, alvoroto, abóboda, dum, ’stá)?",
+      "ref": "Umas 20 ocorrências",
+      "contexto": "Onde 1956 tem uma forma ainda viva da língua e 2002 a trocou pela mais comum, o texto no ar segue 1956: «cobardia» (2002: covardia), «alvoroto» (alvoroço), «abóboda» (abóbada), «sentenceiam» (sentenciam), «às abscondidas» (escondidas), «dum», «duma» (de um, de uma) e, nas falas, «’Stá», «’stás», «’Stou», «’Stamos» (está, estás…). As formas só antigas foram modernizadas, como nos outros livros: cousa → coisa, dous → dois, contacto → contato, balha → baila.",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Manter as formas de 1956, como está",
+          "nota": "São palavras do autor, todas ainda nos dicionários; nas falas, o «’stá» é a pronúncia que ele quis marcar.",
+          "recomendada": true
+        },
+        {
+          "id": "b",
+          "texto": "Trocar pelas formas comuns de hoje",
+          "nota": "Lê mais liso, mas apaga escolhas do autor."
+        }
+      ]
+    },
+    {
+      "id": "clara-dos-anjos",
+      "titulo": "A primeira versão de «Clara dos Anjos» (1904) fica no fim do Diário?",
+      "ref": "Partes «Clara dos Anjos, I» a «IV» (18 mil palavras)",
+      "contexto": "Na edição de 1956 o volume do Diário fecha com a primeira versão, incompleta, do romance Clara dos Anjos, escrita em 1904, que o autor deixou nos seus papéis (não é a novela de 1921–1922). O texto no ar a traz nas quatro últimas partes, sem o subtítulo do organizador.",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Fica no fim do Diário, como está",
+          "nota": "É como o livro circula desde 1956, e são páginas do autor.",
+          "recomendada": true
+        },
+        {
+          "id": "b",
+          "texto": "Vira obra à parte, de Lima Barreto",
+          "nota": "Separa o romance das notas; o Diário fica só com as notas."
+        },
+        {
+          "id": "c",
+          "texto": "Sai do site",
+          "nota": "O Diário fica só com as notas de 1900 a 1921."
+        }
+      ]
+    }
+  ]
+}

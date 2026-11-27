@@ -10,9 +10,9 @@ SAIDA = os.path.join(RAIZ, 'conteudo', 'lima-barreto', 'diario-intimo.js')
 
 APRESENTACAO = """**O livro.** Lima Barreto guardou, de 1900 até perto da morte, cadernos e folhas soltas com notas do dia, contas, listas de leitura, cópias de cartas e de recortes, planos de romances e capítulos começados. Pensou em publicar parte disso como memórias, mas o _Diário Íntimo_ só saiu em 1953, organizado por Francisco de Assis Barbosa a partir dos manuscritos que a família guardou (hoje na Biblioteca Nacional). Na edição de 1956 das _Obras de Lima Barreto_ (São Paulo, Brasiliense, vol. XIV), o volume cresceu: entraram os esboços de romance de 1900, 1906, 1910 e 1914 e, no fim, a primeira versão de _Clara dos Anjos_, de 1904, que o autor deixou incompleta e é outra obra que não a novela do mesmo nome, escrita em 1921 e 1922.
 
-**Texto-base.** Esta edição segue o texto de 1956, o mais completo, na sua ordem: as notas datadas pelo autor vão pelas datas dele; as que ele não datou ficam onde o organizador as pôs, entre as do mesmo ano. É só o texto de Lima Barreto: ficam de fora o prefácio, a nota prévia e as notas do organizador ao fim de cada ano, as chamadas dessas notas e as rubricas «Sem data». Ficam as marcas com que o organizador assinalou o que não pôde ler nos manuscritos: [...] para o trecho ilegível, [?] para a leitura duvidosa, e as iniciais seguidas de reticências (C...) com que abreviou alguns nomes.
+**Texto-base.** Esta edição segue o texto de 1956, o mais completo, na sua ordem: as notas datadas pelo autor vão pelas datas dele; as que ele não datou ficam onde o organizador as pôs, entre as do mesmo ano. É só o texto de Lima Barreto: ficam de fora o prefácio, a nota prévia e as notas do organizador ao fim de cada ano, as chamadas dessas notas e as rubricas «Sem data». Ficam as marcas com que o organizador assinalou o que não pôde ler nos manuscritos: [...] e [ilegível] para o que não se pôde ler, [?] para a leitura duvidosa, e as iniciais seguidas de reticências (C...) com que abreviou alguns nomes.
 
-**Como foi estabelecido.** O ponto de partida foi a transcrição da Fundação Biblioteca Nacional (2002), que segue a edição de 1956 já na ortografia de 1971, como a publica a Biblioteca Virtual Miguel de Cervantes. Ela foi confrontada palavra por palavra com duas leituras por OCR de um exemplar de 1956 (a do Internet Archive e uma nossa, com o Tesseract), e cada divergência foi conferida nas imagens das páginas. {CORRECOES}
+**Como foi estabelecido.** O ponto de partida foi a transcrição da Fundação Biblioteca Nacional (2002), como a publica a Biblioteca Virtual Miguel de Cervantes: ela deriva da edição de 1956, já na ortografia de 1971, mas pula linhas e troca palavras e pontuação. Ela foi confrontada palavra por palavra com duas leituras por OCR de um exemplar de 1956 (a do Internet Archive e uma nossa, com o Tesseract), e cada divergência foi conferida nas imagens das páginas. {CORRECOES}
 
 **Divisão.** Uma parte por ano, como no livro; os anos com poucas notas vão juntos (1906 e 1907, 1912 a 1915, 1920 e 1921). Os asteriscos separam as notas, como no impresso. A primeira versão de _Clara dos Anjos_ fecha o volume, nos seus quatro capítulos.
 
@@ -24,7 +24,7 @@ FONTES = [
     {'nome': 'Diário Íntimo, transcrição da Fundação Biblioteca Nacional (2002), na Biblioteca Virtual Miguel de Cervantes',
      'url': 'https://www.cervantesvirtual.com/obra/diario-intimo--0/', 'nota': 'ponto de partida da transcrição'},
     {'nome': 'Wikisource em português, a mesma transcrição de 2002', 'url': 'https://pt.wikisource.org/wiki/Di%C3%A1rio_%C3%8Dntimo_(Lima_Barreto)',
-     'nota': 'só para comparar'},
+     'nota': 'a mesma transcrição de 2002, num texto corrido; não foi usada'},
 ]
 
 
@@ -49,7 +49,7 @@ def correcoes():
 def gravar(partes):
     erros, n_bn = correcoes()
     frase = (f'A conferência devolveu ao texto {n_bn} lições de 1956 que a transcrição de 2002 tinha perdido ou trocado '
-             '(palavras, linhas, maiúsculas, itálicos)')
+             '(palavras, linhas, pontuação, maiúsculas, itálicos)')
     frase += (f', e corrigiu {len(erros)} erros evidentes do próprio impresso de 1956, listados abaixo.' if erros else '.')
     edicao = {'base': 'Edição de 1956', 'apresentacao': APRESENTACAO.replace('{CORRECOES}', frase), 'fontes': FONTES}
     if erros:

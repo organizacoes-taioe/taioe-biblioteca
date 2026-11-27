@@ -1174,6 +1174,13 @@
    ],
    "nota": "«In her best array» é «com os seus melhores trajes»: a felicidade se apresenta bem vestida."
   },
+  "array#2": {
+   "lema": "array",
+   "classe": "substantivo",
+   "def": [
+    "Vestuário e ornamento; traje."
+   ]
+  },
   "arrives": {
    "lema": "arrive",
    "classe": "verbo",
@@ -1198,6 +1205,14 @@
     "(copulativo) Usado para indicar que o sujeito tem as qualidades descritas por um adjetivo ou sintagma preposicional; ser, estar."
    ],
    "nota": "«Thou art» é «tu és», «tu estás»."
+  },
+  "art#2": {
+   "lema": "art",
+   "classe": "substantivo",
+   "def": [
+    "Habilidade adquirida por estudo, prática ou observação; perícia."
+   ],
+   "nota": "«Thy years and art» é «a tua idade e a tua perícia»."
   },
   "artificial": {
    "lema": "artificial",
@@ -1837,6 +1852,14 @@
     "(transitivo, reflexivo) Comportar-se; portar-se."
    ],
    "nota": "«He bears him like a portly gentleman» é «ele se porta como um cavalheiro digno»: «bears him» é reflexivo, «se porta»."
+  },
+  "bears#2": {
+   "lema": "bear",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Mamífero grande, em geral onívoro, da família dos ursídeos, de pelo espesso, cauda minúscula e patas planas; urso."
+   ]
   },
   "beast": {
    "lema": "beast",
@@ -3936,6 +3959,14 @@
    ],
    "nota": "«Carry coals» é «carregar carvão»: tarefa de gente baixa. A expressão quer dizer aguentar insulto sem reagir."
   },
+  "carry#2": {
+   "lema": "carry",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Levantar (algo) e levá-lo a outro lugar; transportar."
+   ],
+   "nota": "Aqui «carry» é «aturar»: «I will carry no crotchets» é «não vou aturar caprichos»; «crotchet» é também a semínima, da música."
+  },
   "case": {
    "lema": "case",
    "classe": "substantivo",
@@ -4229,6 +4260,14 @@
    "def": [
     "(transitivo) Dar ânimo ou alegria a; alegrar."
    ]
+  },
+  "cheer#2": {
+   "lema": "cheer",
+   "classe": "substantivo",
+   "def": [
+    "O que promove bom ânimo, em especial a comida e a diversão preparadas para uma festa."
+   ],
+   "nota": "«Wedding cheer» é a festa do casamento, com o seu banquete."
   },
   "cheerly": {
    "lema": "cheerly",
@@ -5754,6 +5793,14 @@
     "(ambitransitivo) Gritar, berrar, exclamar."
    ]
   },
+  "cry#2": {
+   "lema": "cry",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Proferir em voz alta; declarar publicamente."
+   ],
+   "nota": "«I cry you mercy» é «peço-vos perdão»: fórmula antiga de desculpa."
+  },
   "crying": {
    "lema": "cry",
    "classe": "verbo",
@@ -7134,6 +7181,14 @@
    ],
    "nota": "«I have done» é «já acabei», «não digo mais»; em «I am done» é «estou acabado», «perdi a partida»."
   },
+  "done#2": {
+   "lema": "do",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Executar; realizar; fazer."
+   ]
+  },
   "doom": {
    "lema": "doom",
    "classe": "substantivo",
@@ -7221,6 +7276,13 @@
     "(ambitransitivo) Considerar questionável ou improvável; hesitar em acreditar; ter dúvida."
    ],
    "nota": "«I doubt it not» é «não duvido disso»."
+  },
+  "doubt#2": {
+   "lema": "doubt",
+   "classe": "substantivo",
+   "def": [
+    "(incontável) Descrença ou incerteza (sobre algo); dúvida."
+   ]
   },
   "dove": {
    "lema": "dove",
@@ -7596,6 +7658,12 @@
    "wiki": null,
    "nota": "«Dry-beat» é «surrar sem tirar sangue»; «the rest of the eight» é «as outras oito» (das nove vidas do gato): Mercutio ameaça Tybalt."
   },
+  "dry-beat#2": {
+   "lema": "dry-beat",
+   "classe": "verbo",
+   "nota": "«Dry-beat» é «surrar sem tirar sangue»: Pedro ameaça os músicos com a sua «inteligência» como porrete.",
+   "wiki": null
+  },
   "duellist": {
    "lema": "duelist",
    "classe": "substantivo",
@@ -7770,6 +7838,14 @@
     "Estado de conforto, sem desprazer; liberdade de dor, privação e incômodo."
    ],
    "nota": "«At ease» é «à vontade, com comodidade»."
+  },
+  "ease#2": {
+   "lema": "heartsease",
+   "classe": "substantivo",
+   "def": [
+    "Flor silvestre europeia (Viola tricolor); amor-perfeito."
+   ],
+   "nota": "«Heart's ease» (alívio do coração) é o nome de uma canção popular da época, e também o do amor-perfeito."
   },
   "east": {
    "lema": "east",
@@ -8914,6 +8990,13 @@
    ],
    "nota": "«I fear» no começo ou no meio da frase é também «receio»: «I fear, too early» é «receio que seja cedo demais»."
   },
+  "fear#2": {
+   "lema": "fear",
+   "classe": "substantivo",
+   "def": [
+    "(incontável) Emoção forte e desagradável causada por perigo real ou imaginado; medo."
+   ]
+  },
   "fearful": {
    "lema": "fearful",
    "classe": "adjetivo",
@@ -10056,6 +10139,13 @@
     "Sem constrangimento; livre."
    ],
    "nota": "«They are free men» é «são homens livres», as moscas, ao contrário de Romeu."
+  },
+  "free#2": {
+   "lema": "free",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Libertar; livrar; soltar."
+   ]
   },
   "free-town": {
    "lema": "Free-town",
@@ -11822,6 +11912,13 @@
     "Ação dada para prestar assistência; ajuda, socorro."
    ]
   },
+  "help#2": {
+   "lema": "help",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Prestar assistência a (alguém ou algo); ajudar."
+   ]
+  },
   "helps": {
    "lema": "help",
    "classe": "verbo",
@@ -12394,6 +12491,13 @@
     "Querer que (algo) aconteça, com a expectativa de que possa acontecer; esperar."
    ],
    "nota": "«I hope» é «espero que»."
+  },
+  "hope#2": {
+   "lema": "hope",
+   "classe": "substantivo",
+   "def": [
+    "Sentimento de confiança ou expectativa de que algo desejado pode ou vai acontecer; esperança."
+   ]
   },
   "hopeful": {
    "lema": "hopeful",
@@ -14356,6 +14460,14 @@
    ],
    "nota": "«Know the letters» é «conhecer as letras»."
   },
+  "letters#2": {
+   "lema": "letter",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Comunicação escrita ou impressa, em geral mais longa e formal que um bilhete; carta."
+   ]
+  },
   "letting": {
    "lema": "let",
    "classe": "verbo",
@@ -15469,6 +15581,15 @@
     "(antes de substantivo contável) Um grande número indefinido de; muitos."
    ],
    "nota": "Em «many a morning», «many a» + singular é «muitas (manhãs)»."
+  },
+  "many#2": {
+   "lema": "marry",
+   "classe": "verbo",
+   "forma": "grafia «many» da edição, por «marry»",
+   "def": [
+    "(transitivo) Tomar como marido ou mulher; casar-se com."
+   ],
+   "nota": "A edição imprime «many», mas o sentido é o de «marry»: «rather than marry Paris» é «em vez de casar com Páris»."
   },
   "many's": {
    "lema": "many",
@@ -16904,6 +17025,14 @@
    ],
    "nota": "«Native spring» é «a fonte de origem» das lágrimas: o coração."
   },
+  "native#2": {
+   "lema": "native",
+   "classe": "adjetivo",
+   "def": [
+    "Que pertence a alguém por nascimento ou origem; natural."
+   ],
+   "nota": "«Native progress» é o «curso natural»: o sangue deixa de seguir o seu caminho de sempre."
+  },
   "natural": {
    "lema": "natural",
    "classe": "adjetivo",
@@ -17926,6 +18055,14 @@
    "def": [
     "Para fora; de dentro para o exterior, ou para longe do centro."
    ]
+  },
+  "out#2": {
+   "lema": "out",
+   "classe": "interjeição",
+   "def": [
+    "Fora!; vá-se embora!"
+   ],
+   "nota": "Exclamação de dor e reprovação: «Out, alas!» é algo como «ai, ai de mim!»."
   },
   "outrage": {
    "lema": "outrage",
@@ -19384,6 +19521,14 @@
     "Custo de uma ação ou de um feito."
    ],
    "nota": "«The price of his dear blood» é «o preço do seu sangue querido»: o custo da morte de Mercúcio."
+  },
+  "price#2": {
+   "lema": "price",
+   "classe": "substantivo",
+   "def": [
+    "Valor; estimativa; excelência; mérito."
+   ],
+   "nota": "«Of more price» é «de mais valor»."
   },
   "prick": {
    "lema": "prick",
@@ -21012,6 +21157,14 @@
    ],
    "nota": "Rosmaninho ou alecrim; o «R» inicial é o que a Ama quer relacionar com «Romeo»."
   },
+  "rosemary#2": {
+   "lema": "rosemary",
+   "classe": "substantivo",
+   "def": [
+    "Arbusto de origem europeia e da Ásia Menor, que produz erva aromática usada na cozinha e em perfumes; alecrim."
+   ],
+   "nota": "O alecrim, erva da lembrança, era usado nas bodas e nos enterros; aqui vai espetado sobre o corpo."
+  },
   "roses": {
    "lema": "rose",
    "classe": "substantivo",
@@ -22469,6 +22622,15 @@
    ],
    "nota": "Aqui, a cor: a lua banha de luz prateada o alto das árvores."
   },
+  "silver#2": {
+   "lema": "silver",
+   "classe": "substantivo",
+   "def": [
+    "Elemento metálico branco e lustroso; prata.",
+    "Moedas de prata ou de metal branco semelhante."
+   ],
+   "nota": "«Silver sound» é «som prateado» (claro, doce); Pedro joga com a prata como dinheiro: os músicos tocam por prata, isto é, por pagamento."
+  },
   "silver-sweet": {
    "partes": [
     {
@@ -22927,6 +23089,15 @@
    ],
    "nota": "Aqui, personificada: a manhã sorri para a noite carrancuda."
   },
+  "smiles#2": {
+   "lema": "smile",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Mostrar um sorriso; sorrir."
+   ],
+   "nota": "Vênus, deusa do amor, «não sorri numa casa de lágrimas»: onde se chora, o amor não tem vez."
+  },
   "smilest": {
    "lema": "smile",
    "classe": "verbo",
@@ -23147,6 +23318,14 @@
    ],
    "nota": "Aqui é a festa de Capuleto: «our solemnity» é «a nossa solenidade», o baile."
   },
+  "solemnity#2": {
+   "lema": "solemnity",
+   "classe": "substantivo",
+   "def": [
+    "Celebração ou festividade."
+   ],
+   "nota": "«Our solemnity» é a festa do casamento, a solenidade desta manhã."
+  },
   "soles": {
    "lema": "sole",
    "classe": "substantivo",
@@ -23344,6 +23523,14 @@
     "Ato de sondar; sondagem."
    ],
    "nota": "«Sounding» é aqui o ato de sondar, de tentar descobrir o que há por dentro: o coração dele está fechado a sondagens e à descoberta."
+  },
+  "sounding#2": {
+   "lema": "sounding",
+   "classe": "substantivo",
+   "def": [
+    "O ato de soar; o produzir som."
+   ],
+   "nota": "«Gold for sounding» é «ouro por tocar»: Pedro brinca com o «som» e a paga dos músicos."
   },
   "soundly": {
    "lema": "soundly",
@@ -26458,6 +26645,13 @@
    ],
    "nota": "«Makes my flesh tremble» é «faz tremer a minha carne»: Tebaldo treme de ira contida."
   },
+  "tremble#2": {
+   "lema": "tremble",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Sacudir, estremecer ou vibrar."
+   ]
+  },
   "trencher": {
    "lema": "trencher",
    "classe": "substantivo",
@@ -28283,6 +28477,15 @@
    ],
    "nota": "«Wedded to calamity» é «casado com a desgraça»."
   },
+  "wedded#2": {
+   "lema": "wed",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Tomar como cônjuge; casar-se com."
+   ],
+   "nota": "«He hath wedded» é «ele se casou com»: a morte tomou a filha por esposa."
+  },
   "wedding": {
    "lema": "wedding",
    "classe": "substantivo",
@@ -28290,6 +28493,14 @@
     "Cerimônia de casamento; rito que celebra o começo de um matrimônio."
    ],
    "nota": "«My wedding bed» é «meu leito nupcial»: Julieta diz que, se for casada com ele, a cova será o seu leito de núpcias."
+  },
+  "wedding#2": {
+   "lema": "wedding",
+   "classe": "substantivo",
+   "def": [
+    "Cerimônia de casamento; rito que celebra o começo de um matrimônio."
+   ],
+   "nota": "«Wedding cheer» é a festa de casamento."
   },
   "wedding-bed": {
    "lema": "wedding-bed",
@@ -29521,6 +29732,14 @@
    "def": [
     "Lesão, como corte, facada ou rasgo, em geral numa parte externa do corpo; ferida."
    ]
+  },
+  "wound#2": {
+   "lema": "wound",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Ferir ou machucar (alguém) cortando, perfurando ou rasgando a pele."
+   ],
+   "nota": "«Doth wound» é «fere»: «doth» é só auxiliar enfático."
   },
   "wounded": {
    "lema": "wound",
@@ -31719,26 +31938,47 @@
   "19:259.8": "to#2",
   "20:4.7": "so#2",
   "20:7.6": "like#2",
+  "20:10.3": "smiles#2",
   "20:12.8": "much#2",
   "20:15.3": "much#2",
   "20:16.5": "her#2",
   "20:26.4": "make#3",
   "20:30.1": "so#2",
   "20:31.4": "so#2",
+  "20:31.10": "price#2",
   "20:40.4": "so#2",
   "20:40.9": "mine#2",
   "20:42.9": "mass",
   "20:47.8": "kiss#2",
+  "20:48.9": "done#2",
   "20:48.10": "so#2",
+  "20:49.6": "hope#2",
+  "20:58.6": "help#2",
+  "20:68.8": "art#2",
+  "20:72.9": "hope#2",
+  "20:81.7": "many#2",
+  "20:84.8": "bears#2",
+  "20:90.10": "tremble#2",
+  "20:91.7": "fear#2",
+  "20:91.9": "doubt#2",
+  "20:101.4": "native#2",
+  "20:118.5": "letters#2",
+  "20:122.4": "free#2",
   "20:122.8": "present#2",
+  "20:123.7": "fear#2",
+  "20:125.10": "fear#2",
+  "20:128.5": "letters#2",
   "21:3.1": "so#2",
   "21:8.6": "so#2",
   "21:16.10": "her#2",
+  "21:38.2": "help#2",
   "21:39.3": "think#2",
   "21:41.5": "her#2",
+  "21:47.5": "help#2",
   "21:47.9": "her#2",
   "21:52.7": "light#2",
   "22:12.1": "so#2",
+  "22:20.6": "fear#2",
   "22:42.9": "like#3",
   "22:51.6": "like#3",
   "23:23.1": "make#3",
@@ -31753,12 +31993,36 @@
   "24:11.5": "her#2",
   "24:13.5": "i'",
   "24:32.5": "her#2",
+  "24:32.6": "out#2",
   "24:35.4": "her#2",
   "24:39.5": "her#2",
   "24:39.8": "make#2",
+  "24:48.5": "wedded#2",
+  "24:70.5": "solemnity#2",
   "24:78.4": "her#2",
+  "24:88.8": "rosemary#2",
+  "24:90.5": "array#2",
   "24:90.7": "her#2",
+  "24:96.2": "wedding#2",
+  "24:96.3": "cheer#2",
+  "24:111.5": "ease#2",
+  "24:112.1": "ease#2",
+  "24:112.11": "ease#2",
+  "24:113.3": "ease#2",
+  "24:126.5": "carry#2",
+  "24:131.10": "dry-beat#2",
+  "24:134.7": "wound#2",
+  "24:136.5": "silver#2",
+  "24:137.2": "silver#2",
+  "24:137.8": "silver#2",
+  "24:139.4": "silver#2",
+  "24:141.3": "silver#2",
+  "24:142.3": "silver#2",
   "24:143.2": "too#2",
+  "24:145.3": "cry#2",
+  "24:146.9": "silver#2",
+  "24:147.6": "sounding#2",
+  "24:148.5": "silver#2",
   "25:27.4": "so#2",
   "26:15.1": "so#4",
   "26:23.3": "much#2",

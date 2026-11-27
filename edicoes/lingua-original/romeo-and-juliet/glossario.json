@@ -1,0 +1,1303 @@
+{
+ "verbetes": {
+  "a": {
+   "lema": "a",
+   "classe": "artigo indefinido",
+   "def": [
+    "Exemplar não específico de (algo); o artigo indefinido."
+   ]
+  },
+  "abraham": {
+   "lema": "Abraham",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome de um criado de Montague."
+  },
+  "alike": {
+   "lema": "alike",
+   "classe": "adjetivo",
+   "def": [
+    "Que tem semelhança; parecido, sem diferença."
+   ],
+   "nota": "«Both alike in dignity» é «as duas semelhantes em posição», de igual categoria."
+  },
+  "an": {
+   "lema": "an",
+   "classe": "artigo indefinido",
+   "def": [
+    "Um, uma (forma usada diante de som vocálico)."
+   ]
+  },
+  "an#2": {
+   "lema": "an",
+   "classe": "conjunção",
+   "def": [
+    "(arcaico) Se."
+   ],
+   "nota": "Em «an I should live a thousand years» é «se eu vivesse mil anos»; «an if» é «se acaso»."
+  },
+  "ancient": {
+   "lema": "ancient",
+   "classe": "adjetivo",
+   "def": [
+    "Que dura desde um tempo remoto; de longa duração, de grande idade, muito antigo."
+   ]
+  },
+  "and": {
+   "lema": "and",
+   "classe": "conjunção",
+   "def": [
+    "Como conjunção coordenativa: exprime dois elementos tomados em conjunto ou um em acréscimo ao outro."
+   ]
+  },
+  "another": {
+   "lema": "another",
+   "classe": "determinante",
+   "def": [
+    "Mais um, além da quantidade já havida; um segundo ou adicional, semelhante."
+   ]
+  },
+  "apothecary": {
+   "lema": "apothecary",
+   "classe": "substantivo",
+   "def": [
+    "(arcaico) Pessoa que vende remédios; boticário."
+   ]
+  },
+  "at": {
+   "lema": "at",
+   "classe": "preposição",
+   "def": [
+    "Em, perto de, ou nas vizinhanças de (um lugar particular)."
+   ]
+  },
+  "attend": {
+   "lema": "attend",
+   "classe": "verbo",
+   "def": [
+    "(transitivo, arcaico) Ouvir (algo ou alguém); escutar."
+   ],
+   "nota": "«If you attend» é «se escutardes»: «attend» aqui é dar ouvidos, prestar atenção."
+  },
+  "attendants": {
+   "lema": "attendant",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Criado ou camareiro; pessoa que acompanha e serve."
+   ]
+  },
+  "balthasar": {
+   "lema": "Balthasar",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome do criado de Romeo."
+  },
+  "benvolio": {
+   "lema": "Benvolio",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome do sobrinho de Montague e amigo de Romeo."
+  },
+  "blood": {
+   "lema": "blood",
+   "classe": "substantivo",
+   "def": [
+    "Líquido vital que corre no corpo de muitos tipos de animais e em geral leva nutrientes e oxigênio; sangue."
+   ]
+  },
+  "both": {
+   "lema": "both",
+   "classe": "determinante",
+   "def": [
+    "Cada um dos dois; um e o outro."
+   ]
+  },
+  "break": {
+   "lema": "break",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Irromper; abrir caminho; surgir à vista."
+   ],
+   "nota": "«From ancient grudge break to new mutiny» é «de um velho rancor irrompe em nova violência»: «break» é verbo no presente, e o sujeito é «grudge»."
+  },
+  "bucklers": {
+   "lema": "buckler",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Tipo de escudo, de formatos e tamanhos variados, levado na mão ou preso ao braço (em geral o esquerdo) para proteger o corpo."
+   ]
+  },
+  "bury": {
+   "lema": "bury",
+   "classe": "verbo",
+   "def": [
+    "Sepultar ritualmente numa cova ou num túmulo; enterrar."
+   ],
+   "nota": "Sentido figurado: «bury their parents' strife» é «enterrar a luta dos pais», pôr fim a ela."
+  },
+  "but": {
+   "lema": "but",
+   "classe": "conjunção",
+   "def": [
+    "Porém, contudo, no entanto, por outro lado: introduz uma oração contrária a uma crença anterior ou em contraste com a oração ou frase precedente."
+   ]
+  },
+  "but#2": {
+   "lema": "but",
+   "classe": "preposição",
+   "def": [
+    "Afora, exceto, excluindo."
+   ],
+   "nota": "«But their children's end» é «a não ser o fim dos filhos deles»."
+  },
+  "but#3": {
+   "lema": "but",
+   "classe": "advérbio",
+   "def": [
+    "(sobretudo literário ou poético) Meramente, apenas, somente, nada mais que."
+   ],
+   "nota": "«Do but keep the peace» é «só mantenho a paz»; «cannot choose but laugh» é «não posso deixar de rir»."
+  },
+  "capulet": {
+   "lema": "Capulet",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Sobrenome da outra família rival de Verona; «Capulet» é também o nome do chefe dessa casa, pai de Juliet."
+  },
+  "carry": {
+   "lema": "carry",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Levantar (algo) e levá-lo a outro lugar; transportar (algo) erguendo."
+   ],
+   "nota": "«Carry coals» é «carregar carvão»: tarefa de gente baixa. A expressão quer dizer aguentar insulto sem reagir."
+  },
+  "children's": {
+   "lema": "child",
+   "classe": "substantivo",
+   "forma": "genitivo (possessivo) plural",
+   "def": [
+    "(com possessivo) Descendente direto por nascimento, de qualquer idade; filho, filha."
+   ]
+  },
+  "chorus": {
+   "lema": "chorus",
+   "classe": "substantivo",
+   "def": [
+    "(por extensão, sobretudo na Grã-Bretanha, teatro, histórico) Ator que diz o prólogo e o epílogo de uma peça e, às vezes, comenta a ação."
+   ],
+   "nota": "É a personagem que recita o soneto de abertura, fora da ação."
+  },
+  "citizens": {
+   "lema": "citizen",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Habitante de uma cidade ou vila, em especial com direitos ou deveres legalmente reconhecidos; cidadão."
+   ]
+  },
+  "civil": {
+   "lema": "civil",
+   "classe": "adjetivo",
+   "def": [
+    "(incomparável) Que tem a ver com o povo e com o governo, em oposição ao militar ou ao religioso."
+   ],
+   "nota": "«Civil blood» e «civil hands» são o sangue e as mãos de cidadãos: o sangue derramado entre vizinhos da mesma cidade. Em «civil brawls» são as brigas entre cidadãos."
+  },
+  "continuance": {
+   "lema": "continuance",
+   "classe": "substantivo",
+   "def": [
+    "O período durante o qual algo continua; duração."
+   ]
+  },
+  "could": {
+   "lema": "can",
+   "classe": "verbo auxiliar modal",
+   "forma": "pretérito",
+   "def": [
+    "(auxiliar modal, defectivo) Ser capaz de."
+   ]
+  },
+  "daughter": {
+   "lema": "daughter",
+   "classe": "substantivo",
+   "def": [
+    "Descendente feminina de alguém; filha."
+   ]
+  },
+  "death": {
+   "lema": "death",
+   "classe": "substantivo",
+   "def": [
+    "Cessação da vida e de todos os processos a ela associados; fim da existência de um organismo; morte."
+   ]
+  },
+  "death-mark'd": {
+   "lema": "death-marked",
+   "classe": "adjetivo",
+   "wiki": null,
+   "nota": "Grafia antiga de «death-marked»: «marcado pela morte». É o amor que tem a morte como marca, como destino."
+  },
+  "dignity": {
+   "lema": "dignity",
+   "classe": "substantivo",
+   "def": [
+    "Alto cargo, categoria ou posição."
+   ]
+  },
+  "do": {
+   "lema": "do",
+   "classe": "verbo auxiliar",
+   "def": [
+    "Marcador sintático de ênfase nos modos indicativo, imperativo e subjuntivo."
+   ],
+   "nota": "Em «Do with their death bury», «do» é um auxiliar sem sentido próprio, que só reforça o verbo: é «com a sua morte enterram»."
+  },
+  "do#2": {
+   "lema": "do",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Realizar; executar."
+   ],
+   "nota": "Aqui é verbo com sentido pleno: «do me wrong» é «fazer-me mal»; «what you do» é «o que fazeis»."
+  },
+  "each": {
+   "lema": "each",
+   "classe": "determinante",
+   "def": [
+    "Cada; todos, um por um."
+   ]
+  },
+  "ears": {
+   "lema": "ear",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(contável) Órgão da audição, que consiste no pavilhão, no canal auditivo, no tímpano e nos ossículos; ouvido, orelha."
+   ]
+  },
+  "end": {
+   "lema": "end",
+   "classe": "substantivo",
+   "def": [
+    "(por extensão) A cessação de um esforço, atividade, estado ou movimento; fim."
+   ],
+   "nota": "«Their children's end» é a morte dos filhos, o fim que eles têm."
+  },
+  "enter": {
+   "lema": "enter",
+   "classe": "verbo",
+   "def": [
+    "(teatro) Usado como indicação cênica, em geral antes do nome do personagem que entra em cena."
+   ],
+   "nota": "Indicação cênica: «Enter Benvolio» é «Entra Benvolio»."
+  },
+  "escalus": {
+   "lema": "Escalus",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome do príncipe de Verona, o governante da cidade."
+  },
+  "fair": {
+   "lema": "fair",
+   "classe": "adjetivo",
+   "def": [
+    "(sentido original, arcaico ou literário) Belo, de aparência agradável, com um ar puro e fresco."
+   ]
+  },
+  "fair#2": {
+   "lema": "fair",
+   "classe": "substantivo",
+   "def": [
+    "(obsoleto) Beleza, formosura."
+   ],
+   "nota": "Aqui o adjetivo vira substantivo: «the fair» é «a beleza»; «fair without the fair within» é «bela por fora, sem a beleza por dentro»."
+  },
+  "fair#3": {
+   "lema": "fair",
+   "classe": "adjetivo",
+   "def": [
+    "Favorável, agradável."
+   ],
+   "nota": "«The game was ne'er so fair» é «o jogo nunca esteve tão bom», tão favorável."
+  },
+  "family": {
+   "lema": "family",
+   "classe": "substantivo",
+   "def": [
+    "Grupo de pessoas muito próximas por laços de sangue, casamento ou adoção; em especial, os pais e os filhos."
+   ]
+  },
+  "fatal": {
+   "lema": "fatal",
+   "classe": "adjetivo",
+   "def": [
+    "(raro, arcaico) Que procede do destino ou foi por ele determinado."
+   ],
+   "nota": "«Fatal loins» são as famílias, a linhagem, marcada pelo destino."
+  },
+  "fearful": {
+   "lema": "fearful",
+   "classe": "adjetivo",
+   "def": [
+    "Que assusta; que causa medo."
+   ]
+  },
+  "foes": {
+   "lema": "foe",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Inimigo."
+   ]
+  },
+  "forth": {
+   "lema": "forth",
+   "classe": "advérbio",
+   "def": [
+    "(formal, arcaico) Para fora, à vista; para diante, a partir de um lugar."
+   ],
+   "nota": "«From forth the fatal loins» é «de dentro das entranhas fatais»: «from forth» é «de dentro de»."
+  },
+  "franciscan": {
+   "lema": "Franciscan",
+   "classe": "substantivo",
+   "def": [
+    "Frade da ordem religiosa fundada por São Francisco de Assis em 1209, hoje chamada Ordem dos Frades Menores; franciscano."
+   ]
+  },
+  "friar": {
+   "lema": "friar",
+   "classe": "substantivo",
+   "def": [
+    "Membro de uma ordem cristã mendicante, como a dos agostinianos, carmelitas, franciscanos ou dominicanos; frade."
+   ]
+  },
+  "friend": {
+   "lema": "friend",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa, em geral de fora da família, cuja companhia se aprecia e por quem se tem afeto; amigo."
+   ]
+  },
+  "from": {
+   "lema": "from",
+   "classe": "preposição",
+   "def": [
+    "Usado para indicar origem ou procedência; de, a partir de."
+   ]
+  },
+  "gregory": {
+   "lema": "Gregory",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome de um dos criados de Capulet."
+  },
+  "grudge": {
+   "lema": "grudge",
+   "classe": "substantivo",
+   "def": [
+    "(contável) Rancor profundo e/ou antigo em relação a algo ou alguém, em especial por um mal que se julga ter sofrido; ressentimento."
+   ]
+  },
+  "guards": {
+   "lema": "guard",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Pessoa ou coisa que protege ou vigia algo; guarda."
+   ]
+  },
+  "hands": {
+   "lema": "hand",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "A parte do membro anterior abaixo do antebraço ou do pulso, em humanos e outros primatas; mão."
+   ]
+  },
+  "heads": {
+   "lema": "head",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(por metonímia, contável) Líder ou especialista; chefe."
+   ],
+   "nota": "Em «heads of two houses», os chefes das duas famílias."
+  },
+  "here": {
+   "lema": "here",
+   "classe": "advérbio",
+   "def": [
+    "(local) Neste lugar, em, sobre ou junto de um lugar percebido como próximo de quem fala; aqui."
+   ]
+  },
+  "hours": {
+   "lema": "hour",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Unidade de tempo igual a um vigésimo quarto do dia (sessenta minutos); hora."
+   ]
+  },
+  "house": {
+   "lema": "house",
+   "classe": "substantivo",
+   "def": [
+    "Construção onde vivem seres humanos; casa."
+   ]
+  },
+  "house#2": {
+   "lema": "house",
+   "classe": "substantivo",
+   "def": [
+    "Dinastia; família com seus antepassados e descendentes, em especial real ou nobre."
+   ],
+   "nota": "Aqui «house» é a família nobre: «the house of Capulet» é a casa, a família dos Capulet."
+  },
+  "households": {
+   "lema": "household",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(coletivo) Todas as pessoas que vivem numa mesma casa; família, com criados e dependentes."
+   ],
+   "nota": "No soneto, as duas famílias rivais, os Montague e os Capulet."
+  },
+  "houses": {
+   "lema": "house",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Dinastia; família com seus antepassados e descendentes, em especial real ou nobre."
+   ],
+   "nota": "Aqui «houses» são as famílias nobres, as casas dos Montague e dos Capulet, e não prédios."
+  },
+  "if": {
+   "lema": "if",
+   "classe": "conjunção",
+   "def": [
+    "Supondo que, admitindo que, nas circunstâncias em que; se."
+   ]
+  },
+  "in": {
+   "lema": "in",
+   "classe": "preposição",
+   "def": [
+    "Contido por; dentro de."
+   ]
+  },
+  "is": {
+   "lema": "be",
+   "classe": "verbo",
+   "forma": "presente do indicativo, 3ª pessoa do singular",
+   "def": [
+    "(copulativo) Usado para indicar que o sujeito tem as qualidades descritas por um adjetivo, um sintagma preposicional ou um substantivo; ser, estar."
+   ],
+   "nota": "Em «Is now the two hours' traffic of our stage», o verbo vem antes do sujeito: «é agora o assunto de duas horas do nosso palco»."
+  },
+  "john": {
+   "lema": "John",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome do outro frade da peça, da mesma ordem do Frei Lourenço (Frei João); em «poor John», é o peixe seco e salgado, comida pobre."
+  },
+  "juliet": {
+   "lema": "Juliet",
+   "classe": "nome próprio",
+   "def": [
+    "Uma das personagens-título da peça «Romeo and Juliet», de Shakespeare."
+   ]
+  },
+  "juliet's": {
+   "lema": "Juliet",
+   "classe": "nome próprio",
+   "forma": "genitivo (possessivo)",
+   "def": [
+    "Uma das personagens-título da peça «Romeo and Juliet», de Shakespeare."
+   ]
+  },
+  "kinsfolk": {
+   "lema": "kinfolk",
+   "classe": "substantivo",
+   "def": [
+    "(EUA) Parentes, familiares."
+   ],
+   "nota": "«Kinsfolk» é grafia alternativa de «kinfolk»: a parentela."
+  },
+  "kinsman": {
+   "lema": "kinsman",
+   "classe": "substantivo",
+   "def": [
+    "Parente do sexo masculino."
+   ]
+  },
+  "lady": {
+   "lema": "lady",
+   "classe": "substantivo",
+   "def": [
+    "Mulher de berço ou de classe mais alta; mulher de autoridade."
+   ],
+   "nota": "Antes do nome, é o título da senhora de uma casa nobre: «Lady Capulet» é a mulher de Capulet."
+  },
+  "laurence": {
+   "lema": "Laurence",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome do frade franciscano da peça: Frei Lourenço."
+  },
+  "lay": {
+   "lema": "lay",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Pôr, colocar (algo) em posição horizontal; depor."
+   ],
+   "nota": "«Where we lay our scene» é «onde situamos a nossa cena», onde fazemos acontecer a ação da peça."
+  },
+  "life": {
+   "lema": "life",
+   "classe": "substantivo",
+   "def": [
+    "O estado dos organismos anterior à sua morte; vida."
+   ]
+  },
+  "loins": {
+   "lema": "loin",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(Bíblia, eufemismo) A região púbica; os órgãos reprodutores."
+   ],
+   "nota": "«The fatal loins of these two foes» é a linhagem, o ventre de onde nascem os amantes: os dois nascem das duas famílias inimigas."
+  },
+  "love": {
+   "lema": "love",
+   "classe": "substantivo",
+   "def": [
+    "Afeição forte; cuidado profundo e afetuoso por alguém."
+   ]
+  },
+  "love#2": {
+   "lema": "love",
+   "classe": "verbo",
+   "def": [
+    "(em geral transitivo) Ter forte afeição por (alguém ou algo); amar."
+   ],
+   "nota": "Aqui é o verbo: «I love» é «eu amo»."
+  },
+  "lovers": {
+   "lema": "lover",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Quem ama e cuida de outra pessoa de modo romântico; namorado, amado, amante, par amoroso."
+   ]
+  },
+  "makes": {
+   "lema": "make",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Criar; produzir."
+   ]
+  },
+  "man": {
+   "lema": "man",
+   "classe": "substantivo",
+   "def": [
+    "Humano adulto do sexo masculino; homem."
+   ]
+  },
+  "mantua": {
+   "lema": "Mantua",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Cidade do norte da Itália, perto de Verona."
+  },
+  "maskers": {
+   "lema": "masker",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Pessoa que usa máscara; quem aparece disfarçado num baile de máscaras."
+   ]
+  },
+  "mend": {
+   "lema": "mend",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Reparar fisicamente (algo quebrado, estragado, rasgado ou de algum modo danificado)."
+   ],
+   "nota": "Sentido figurado: «strive to mend» é «esforçar-se por corrigir», pôr em ordem o que faltar."
+  },
+  "mercutio": {
+   "lema": "Mercutio",
+   "classe": "nome próprio",
+   "def": [
+    "Uma das personagens principais da peça «Romeo and Juliet», de Shakespeare."
+   ],
+   "nota": "Parente do príncipe e amigo de Romeo."
+  },
+  "misadventured": {
+   "lema": "misadventured",
+   "classe": "adjetivo",
+   "def": [
+    "(obsoleto) Infeliz, desafortunado."
+   ],
+   "nota": "Palavra de Shakespeare, de «misadventure», infortúnio: «misadventured… overthrows» são quedas desventuradas, cheias de má sorte."
+  },
+  "miss": {
+   "lema": "miss",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Deixar de realizar ou de alcançar; falhar."
+   ],
+   "nota": "«What here shall miss» é «o que aqui faltar», o que ficar por dizer ou mostrar bem."
+  },
+  "montague": {
+   "lema": "Montague",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Sobrenome de uma das duas famílias rivais de Verona; «Montague» é também o nome do chefe dessa casa, pai de Romeo."
+  },
+  "musicians": {
+   "lema": "musician",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Compositor, regente ou executante de música; em especial, pessoa que canta ou toca um instrumento."
+   ]
+  },
+  "mutiny": {
+   "lema": "mutiny",
+   "classe": "substantivo",
+   "def": [
+    "Comoção violenta; tumulto, luta."
+   ],
+   "nota": "Em geral é a revolta de marinheiros contra os oficiais; aqui, o sentido mais amplo: tumulto, violência na cidade."
+  },
+  "my": {
+   "lema": "my",
+   "classe": "determinante possessivo",
+   "def": [
+    "Determinante possessivo da primeira pessoa do singular: meu."
+   ]
+  },
+  "nephew": {
+   "lema": "nephew",
+   "classe": "substantivo",
+   "def": [
+    "Filho do irmão ou da irmã de alguém, ou do cunhado ou da cunhada; sobrinho."
+   ]
+  },
+  "new": {
+   "lema": "new",
+   "classe": "adjetivo",
+   "def": [
+    "De origem recente; que ocorreu há pouco."
+   ]
+  },
+  "nobleman": {
+   "lema": "nobleman",
+   "classe": "substantivo",
+   "def": [
+    "Nobre; aristocrata; os graus vão de barão a rei e imperador."
+   ]
+  },
+  "not": {
+   "lema": "not",
+   "classe": "advérbio",
+   "def": [
+    "Nega o sentido do verbo que modifica."
+   ]
+  },
+  "nought": {
+   "lema": "nought",
+   "classe": "substantivo",
+   "def": [
+    "Nenhuma quantidade; nada; zero."
+   ],
+   "nota": "Aqui «nought» é «nada»: «nought could remove» é «nada podia remover»."
+  },
+  "now": {
+   "lema": "now",
+   "classe": "advérbio",
+   "def": [
+    "No momento presente; agora."
+   ]
+  },
+  "nurse": {
+   "lema": "nurse",
+   "classe": "substantivo",
+   "def": [
+    "(arcaico) Pessoa (em geral uma mulher) que cuida dos filhos de outras pessoas; ama."
+   ],
+   "nota": "A «nurse» de Juliet é a ama que a criou; neste texto aparece como personagem."
+  },
+  "of": {
+   "lema": "of",
+   "classe": "preposição",
+   "def": [
+    "Que pertence a alguém ou a algo como coisa que possui ou como característica sua (genitivo possessivo)."
+   ]
+  },
+  "officer": {
+   "lema": "officer",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa que ocupa posição de autoridade numa organização hierárquica, em especial militar, policial ou governamental; oficial."
+   ]
+  },
+  "old": {
+   "lema": "old",
+   "classe": "adjetivo",
+   "def": [
+    "Que existe há um tempo relativamente longo."
+   ]
+  },
+  "on": {
+   "lema": "on",
+   "classe": "preposição",
+   "def": [
+    "Posicionado na superfície de cima de, tocando-a por cima; sobre."
+   ]
+  },
+  "order": {
+   "lema": "order",
+   "classe": "substantivo",
+   "def": [
+    "(contável) Grupo de adeptos religiosos, em especial monges ou freiras, distinguidos dentro da sua religião por seguirem uma regra ou princípios particulares; ordem."
+   ]
+  },
+  "other": {
+   "lema": "other",
+   "classe": "determinante",
+   "def": [
+    "Distinto do que já se mencionou; outro."
+   ]
+  },
+  "our": {
+   "lema": "our",
+   "classe": "determinante possessivo",
+   "def": [
+    "Que pertence a nós, excluindo a pessoa a quem se fala; nosso."
+   ]
+  },
+  "overthrows": {
+   "lema": "overthrow",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(arcaico, raro) Ato de lançar algo ao chão; derrubada."
+   ],
+   "nota": "Aqui são as quedas, as ruínas: «piteous overthrows» é «ruínas dignas de pena»."
+  },
+  "page": {
+   "lema": "page",
+   "classe": "substantivo",
+   "def": [
+    "(histórico) Menino que serve; jovem que acompanha uma pessoa de alta posição, em especial nas cortes."
+   ],
+   "nota": "Aqui é o pajem, o rapaz criado que acompanha o seu senhor: «page to Paris» é o pajem de Paris."
+  },
+  "pair": {
+   "lema": "pair",
+   "classe": "substantivo",
+   "def": [
+    "Duas pessoas numa relação, numa parceria ou numa amizade; par."
+   ]
+  },
+  "parents": {
+   "lema": "parent",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(em geral no plural) Pessoa que cria uma criança; pai ou mãe."
+   ]
+  },
+  "paris": {
+   "lema": "Paris",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome do jovem nobre, parente do príncipe, que quer casar com Juliet."
+  },
+  "passage": {
+   "lema": "passage",
+   "classe": "substantivo",
+   "def": [
+    "Parte de um caminho ou de uma viagem; via, passagem."
+   ],
+   "nota": "«The fearful passage of their love» é o percurso, o curso do amor deles."
+  },
+  "patient": {
+   "lema": "patient",
+   "classe": "adjetivo",
+   "def": [
+    "(de pessoa) Disposto a esperar se for preciso; que não perde a calma enquanto espera; paciente."
+   ],
+   "nota": "«Patient ears» são ouvidos pacientes: a plateia atenta e sem pressa."
+  },
+  "peter": {
+   "lema": "Peter",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome do criado da Ama de Juliet."
+  },
+  "piteous": {
+   "lema": "piteous",
+   "classe": "adjetivo",
+   "def": [
+    "Que provoca pena, compaixão ou simpatia; lamentável, digno de pena."
+   ]
+  },
+  "place": {
+   "lema": "place",
+   "classe": "substantivo",
+   "def": [
+    "Uma área; algum lugar dentro de uma área; em especial, praça aberta de cidade, mercado ou pátio."
+   ],
+   "nota": "«A public place» é «um lugar público», uma praça."
+  },
+  "prince": {
+   "lema": "prince",
+   "classe": "substantivo",
+   "def": [
+    "O governante (masculino) ou chefe de um principado; príncipe."
+   ],
+   "nota": "Em «Escalus, prince of Verona», é o soberano que governa a cidade; em «kinsman to the prince», é o seu parente."
+  },
+  "public": {
+   "lema": "public",
+   "classe": "adjetivo",
+   "def": [
+    "Que pode ser conhecido ou visto por todos; que acontece sem ocultação, aberto à vista de todos."
+   ]
+  },
+  "rage": {
+   "lema": "rage",
+   "classe": "substantivo",
+   "def": [
+    "Ira violenta e incontida."
+   ]
+  },
+  "remove": {
+   "lema": "remove",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Mover de um lugar para outro, em especial para tirar."
+   ]
+  },
+  "romeo": {
+   "lema": "Romeo",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome do protagonista da peça: Romeo, filho de Montague."
+  },
+  "same": {
+   "lema": "same",
+   "classe": "adjetivo",
+   "def": [
+    "Que não difere; idêntico, o mesmo."
+   ]
+  },
+  "sampson": {
+   "lema": "Sampson",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Nome de um dos criados de Capulet."
+  },
+  "scene": {
+   "lema": "scene",
+   "classe": "substantivo",
+   "def": [
+    "O local, o tempo e as circunstâncias em que algo ocorre, ou em que se passa a ação de uma história ou peça."
+   ],
+   "nota": "Na lista de personagens, «Scene: Verona: Mantua» diz onde se passa a ação."
+  },
+  "servant": {
+   "lema": "servant",
+   "classe": "substantivo",
+   "def": [
+    "Pessoa contratada para realizar tarefas regulares, da casa ou outras, e que recebe pagamento; criado."
+   ]
+  },
+  "servants": {
+   "lema": "servant",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Pessoa contratada para realizar tarefas regulares, da casa ou outras, e que recebe pagamento; criado."
+   ]
+  },
+  "shall": {
+   "lema": "shall",
+   "classe": "verbo auxiliar modal",
+   "def": [
+    "Usado antes de um verbo para indicar o futuro simples na primeira pessoa e, na segunda e na terceira, determinação ou obrigação."
+   ],
+   "nota": "Em perguntas na primeira pessoa («Shall we dine?»), propõe ou sugere uma ação futura: «devemos…?», «vamos…?»."
+  },
+  "son": {
+   "lema": "son",
+   "classe": "substantivo",
+   "def": [
+    "O filho de alguém, do sexo masculino."
+   ]
+  },
+  "stage": {
+   "lema": "stage",
+   "classe": "substantivo",
+   "def": [
+    "(teatro) Plataforma, em geral elevada, sobre a qual se dão espetáculos ou outros eventos públicos; palco."
+   ]
+  },
+  "star-cross'd": {
+   "lema": "star-crossed",
+   "classe": "adjetivo",
+   "forma": "grafia antiga, com «’d» no lugar de «-ed»",
+   "def": [
+    "(idiomático) Desafortunado pelo destino; cuja sorte está «escrita nas estrelas»."
+   ],
+   "nota": "Literalmente «cruzados pelas estrelas»: contrariados pelos astros, de má sorte."
+  },
+  "strife": {
+   "lema": "strife",
+   "classe": "substantivo",
+   "def": [
+    "Conflito amargo, às vezes violento."
+   ]
+  },
+  "strive": {
+   "lema": "strive",
+   "classe": "verbo",
+   "def": [
+    "Tentar alcançar um resultado; fazer um esforço intenso; esforçar-se."
+   ]
+  },
+  "swords": {
+   "lema": "sword",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Arma longa de lâmina, com cabo e guarda; espada."
+   ]
+  },
+  "take": {
+   "lema": "take",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Pôr nas mãos, na posse ou sob o controle de si; tomar."
+   ]
+  },
+  "the": {
+   "lema": "the",
+   "classe": "artigo definido",
+   "def": [
+    "Usado antes de um sintagma nominal para mostrar que ele é definidamente identificável."
+   ]
+  },
+  "their": {
+   "lema": "their",
+   "classe": "determinante possessivo",
+   "def": [
+    "Que pertence a eles, vem deles ou a eles se refere (plural); deles."
+   ]
+  },
+  "these": {
+   "lema": "this",
+   "classe": "determinante",
+   "forma": "plural",
+   "def": [
+    "O (objeto) aqui, usado para indicar algo ou alguém próximo."
+   ]
+  },
+  "three": {
+   "lema": "three",
+   "classe": "numeral",
+   "def": [
+    "Valor numérico igual a 3; o número que vem depois de dois e antes de quatro."
+   ]
+  },
+  "to": {
+   "lema": "to",
+   "classe": "preposição",
+   "def": [
+    "Na direção de; em direção a."
+   ]
+  },
+  "to#2": {
+   "lema": "to",
+   "classe": "partícula",
+   "def": [
+    "Partícula que marca o verbo seguinte como infinitivo."
+   ],
+   "nota": "Antes de um verbo, «to» é só a marca do infinitivo: «to stand» é «ficar de pé»; com sentido de finalidade, é «para»."
+  },
+  "toil": {
+   "lema": "toil",
+   "classe": "substantivo",
+   "def": [
+    "Trabalho, labuta, em especial de natureza penosa."
+   ]
+  },
+  "traffic": {
+   "lema": "traffic",
+   "classe": "substantivo",
+   "def": [
+    "O transporte comercial ou a troca de mercadorias; comércio."
+   ],
+   "nota": "«The two hours' traffic of our stage» é o «negócio» das duas horas de palco: aquilo de que a peça trata nesse tempo."
+  },
+  "two": {
+   "lema": "two",
+   "classe": "numeral",
+   "def": [
+    "Valor numérico igual a 2; o número que vem depois de um e antes de três."
+   ]
+  },
+  "tybalt": {
+   "lema": "Tybalt",
+   "classe": "nome próprio",
+   "def": [
+    "Uma das personagens principais da peça «Romeo and Juliet», de Shakespeare."
+   ],
+   "nota": "Sobrinho de Lady Capulet."
+  },
+  "unclean": {
+   "lema": "unclean",
+   "classe": "adjetivo",
+   "def": [
+    "Sujo, manchado, imundo."
+   ],
+   "nota": "Aqui é a impureza moral e quase ritual do sangue derramado: «makes civil hands unclean» é «suja de sangue mãos de cidadãos»."
+  },
+  "variance": {
+   "lema": "variance",
+   "classe": "substantivo",
+   "def": [
+    "O estado de diferir ou de estar em conflito."
+   ],
+   "nota": "«At variance» é «em desacordo», «em discórdia»."
+  },
+  "verona": {
+   "lema": "Verona",
+   "classe": "nome próprio",
+   "wiki": null,
+   "nota": "Cidade do norte da Itália, onde a peça se passa."
+  },
+  "watchmen": {
+   "lema": "watchman",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "Homem posto para vigiar; guarda, em especial o que guarda um prédio ou as ruas da cidade à noite; vigia."
+   ]
+  },
+  "we": {
+   "lema": "we",
+   "classe": "pronome pessoal",
+   "def": [
+    "Duas ou mais pessoas, incluindo ou constituídas pelo falante ou falantes; nós."
+   ]
+  },
+  "we'll": {
+   "lema": "we'll",
+   "classe": "contração",
+   "def": [
+    "Contração de «we will» ou «we shall» («nós havemos de»)."
+   ]
+  },
+  "what": {
+   "lema": "what",
+   "classe": "pronome",
+   "def": [
+    "(interrogativo) Que coisa, evento, circunstância etc.: usado para pedir a especificação de uma identidade, quantidade, qualidade etc.; o que, qual."
+   ]
+  },
+  "what#2": {
+   "lema": "what",
+   "classe": "pronome",
+   "def": [
+    "(relativo) Aquilo que; tudo o que; o que quer que."
+   ],
+   "nota": "«What here shall miss» é «o que aqui faltar»."
+  },
+  "where": {
+   "lema": "where",
+   "classe": "advérbio",
+   "def": [
+    "No lugar em que, ou a um lugar em que; onde."
+   ]
+  },
+  "which": {
+   "lema": "which",
+   "classe": "pronome relativo",
+   "def": [
+    "(relativo, formal) Designa a coisa ou as coisas mencionadas antes; que, o qual."
+   ]
+  },
+  "whose": {
+   "lema": "whose",
+   "classe": "determinante",
+   "def": [
+    "(relativo) De quem, pertencente a quem; (relativo) de que, pertencente ao qual ou à qual."
+   ]
+  },
+  "wife": {
+   "lema": "wife",
+   "classe": "substantivo",
+   "def": [
+    "Mulher casada, em especial em relação ao cônjuge; esposa."
+   ]
+  },
+  "with": {
+   "lema": "with",
+   "classe": "preposição",
+   "def": [
+    "Em companhia de; ao lado de, junto de."
+   ]
+  },
+  "word": {
+   "lema": "word",
+   "classe": "substantivo",
+   "def": [
+    "A menor unidade da língua que tem significado próprio e pode ser expressa sozinha; palavra."
+   ]
+  },
+  "you": {
+   "lema": "you",
+   "classe": "pronome pessoal",
+   "def": [
+    "A pessoa ou as pessoas a quem se fala ou escreve; tu, vós, você(s)."
+   ],
+   "nota": "No tempo de Shakespeare, «you» é o tratamento de respeito ou do plural; «thou» é o do trato íntimo ou de superior a inferior."
+  },
+  "young": {
+   "lema": "young",
+   "classe": "adjetivo",
+   "def": [
+    "Na primeira parte do crescimento ou da vida; nascido há pouco."
+   ]
+  }
+ },
+ "ocorrencias": {
+  "2:12.2": "but#2",
+  "2:15.1": "what#2",
+  "2:15.9": "to#2",
+  "3:2.7": "house#2",
+  "3:5.3": "an#2",
+  "3:6.9": "o'",
+  "3:9.7": "to#2",
+  "3:11.1": "to#2",
+  "3:11.4": "to#2",
+  "3:11.7": "to#2",
+  "3:11.11": "to#2",
+  "3:13.5": "house#2",
+  "3:13.9": "to#2",
+  "3:30.9": "to#2",
+  "3:67.10": "do#2",
+  "3:71.3": "but#3",
+  "3:72.4": "to#2",
+  "3:86.7": "to#2",
+  "3:101.1": "to#2",
+  "3:102.4": "to#2",
+  "3:108.1": "to#2",
+  "3:111.3": "but#2",
+  "3:116.3": "to#2",
+  "3:128.6": "to#2",
+  "3:143.7": "to#2",
+  "3:162.3": "but#3",
+  "3:168.1": "to#2",
+  "3:187.3": "to#2",
+  "3:187.4": "do#2",
+  "3:201.5": "to#2",
+  "3:211.1": "an#2",
+  "3:211.8": "do#2",
+  "3:214.9": "love#2",
+  "3:220.6": "love#2",
+  "3:222.9": "love#2",
+  "3:238.1": "to#2",
+  "3:239.4": "to#2",
+  "3:239.5": "love#2",
+  "3:240.7": "to#2",
+  "3:241.6": "to#2",
+  "3:242.8": "to#2",
+  "3:246.1": "to#2",
+  "3:248.10": "fair#2",
+  "3:252.6": "but#2",
+  "3:254.7": "to#2",
+  "4:5.7": "to#2",
+  "4:13.7": "to#2",
+  "4:16.8": "but#2",
+  "4:19.7": "but#3",
+  "4:20.1": "an#2",
+  "4:24.4": "love#2",
+  "4:26.6": "to#2",
+  "4:44.11": "to#2",
+  "4:105.7": "to#2",
+  "4:106.2": "to#2",
+  "5:18.11": "but#3",
+  "5:38.1": "to#2",
+  "5:40.1": "to#2",
+  "5:51.1": "to#2",
+  "5:52.3": "an#2",
+  "5:56.7": "but#3",
+  "5:57.1": "to#2",
+  "5:67.1": "an#2",
+  "5:67.5": "to#2",
+  "5:70.3": "to#2",
+  "5:71.5": "to#2",
+  "5:85.6": "love#2",
+  "5:94.1": "to#2",
+  "5:96.2": "fair#2",
+  "5:96.5": "fair#2",
+  "5:96.7": "to#2",
+  "5:103.3": "to#2",
+  "5:105.6": "to#2",
+  "6:14.2": "but#3",
+  "6:22.1": "to#2",
+  "6:25.2": "to#2",
+  "6:31.5": "to#2",
+  "6:41.6": "fair#3",
+  "6:75.3": "o'",
+  "6:99.8": "to#2",
+  "6:106.4": "but#2",
+  "7:3.7": "to#2",
+  "7:21.4": "to#2",
+  "7:45.4": "but#3",
+  "7:49.7": "to#2",
+  "7:57.4": "love#2",
+  "7:62.1": "to#2",
+  "7:64.1": "to#2",
+  "7:68.1": "to#2",
+  "7:73.2": "to#2",
+  "7:74.1": "to#2",
+  "7:76.5": "do#2",
+  "7:92.5": "to#2",
+  "7:104.1": "to#2",
+  "7:105.4": "do#2",
+  "7:111.7": "do#2",
+  "7:111.10": "do#2",
+  "7:133.5": "to#2",
+  "7:139.7": "but#2",
+  "7:147.5": "to#2",
+  "7:153.4": "love#2",
+  "10:116.7": "th'",
+  "12:120.9": "i'",
+  "12:167.4": "i'",
+  "13:52.3": "o'",
+  "13:55.1": "i'",
+  "15:93.3": "o'",
+  "15:103.8": "o'",
+  "15:110.7": "o'",
+  "16:52.5": "i'",
+  "18:23.1": "o'",
+  "18:23.6": "o'",
+  "18:33.5": "o'",
+  "19:172.9": "o'",
+  "24:13.5": "i'"
+ }
+}

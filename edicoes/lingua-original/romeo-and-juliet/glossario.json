@@ -1832,6 +1832,14 @@
    ],
    "nota": "«It beats as it would fall in twenty pieces» é «lateja como se fosse cair em vinte pedaços»."
   },
+  "beats#2": {
+   "lema": "beat",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(transitivo) Golpear repetidamente; bater em; fazer recuar a golpes."
+   ]
+  },
   "beauteous": {
    "lema": "beauteous",
    "classe": "adjetivo",
@@ -1847,6 +1855,15 @@
     "Pessoa bela; beldade."
    ],
    "nota": "«Other beauties» são «outras belas», outras mulheres bonitas."
+  },
+  "beauties#2": {
+   "lema": "beauty",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "A qualidade de ser (em especial à vista) atraente, agradável, bonito; beleza."
+   ],
+   "nota": "«By their own beauties» é «pela luz das suas próprias belezas»."
   },
   "beautiful": {
    "lema": "beautiful",
@@ -2719,6 +2736,13 @@
    ],
    "nota": "Romeu diz «I am too bold»: «sou ousado demais», por falar a quem não lhe falava."
   },
+  "bold#2": {
+   "lema": "bold",
+   "classe": "adjetivo",
+   "def": [
+    "Presunçoso, atrevido; que se permite liberdades."
+   ]
+  },
   "bon": {
    "lema": "bon",
    "classe": "adjetivo",
@@ -2765,6 +2789,13 @@
     "Conjunto de folhas de papel unidas por uma das bordas, com material impresso ou escrito; livro."
    ],
    "nota": "«Without book» é «de cor», sem ler no livro; «by the book» é «pelo livro» (segundo as regras, o manual)."
+  },
+  "book#2": {
+   "lema": "book",
+   "classe": "substantivo",
+   "def": [
+    "Conjunto de folhas de papel unidas por uma das bordas, com material impresso ou escrito; livro."
+   ]
   },
   "books": {
    "lema": "book",
@@ -2948,6 +2979,14 @@
    ],
    "nota": "«Ay, boy, ready» é «sim, rapaz, pronto»: o criado responde ao chamado; em 7:60, «my rapier, boy» é o pedido de Capuleto ao pajem."
   },
+  "boy#2": {
+   "lema": "boy",
+   "classe": "substantivo",
+   "def": [
+    "Criança do sexo masculino; rapaz."
+   ],
+   "nota": "«Boy» é tratamento de desprezo a Romeu, como se fosse um moleque."
+  },
   "boys": {
    "lema": "boy",
    "classe": "substantivo",
@@ -3052,6 +3091,21 @@
    ],
    "nota": "«From ancient grudge break to new mutiny» é «de um velho rancor irrompe em nova violência»: «break» é verbo no presente, e o sujeito é «grudge»."
   },
+  "break#2": {
+   "lema": "break",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Irromper; abrir caminho; surgir à vista."
+   ]
+  },
+  "break#3": {
+   "lema": "break of day",
+   "classe": "substantivo",
+   "def": [
+    "Aurora; o raiar do dia."
+   ],
+   "nota": "«By the break of day» é «ao romper do dia»."
+  },
   "breaks": {
    "lema": "break",
    "classe": "verbo",
@@ -3068,6 +3122,13 @@
     "O peito, a frente do tórax humano."
    ],
    "nota": "Aqui, o peito como sede dos sentimentos: «in my breast» é «dentro do meu peito»."
+  },
+  "breast#2": {
+   "lema": "breast",
+   "classe": "substantivo",
+   "def": [
+    "O peito, a frente do tórax humano."
+   ]
   },
   "breath": {
    "lema": "breath",
@@ -3510,6 +3571,14 @@
    "def": [
     "(intransitivo) Pedir, convocar ou acenar; chamar em voz alta."
    ]
+  },
+  "call#2": {
+   "lema": "call",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Dar a (alguém ou algo) um nome ou uma designação; chamar de."
+   ],
+   "nota": "«May call him man» é «pode chamá-lo de homem»."
   },
   "call'd": {
    "lema": "call",
@@ -4889,6 +4958,14 @@
    ],
    "nota": "«You must contrary me!» é «tens de me contrariar!»: do adjetivo «contrary», o verbo é «ir contra»."
   },
+  "contrary#2": {
+   "lema": "contrary",
+   "classe": "advérbio",
+   "def": [
+    "De modo contrário; em oposição."
+   ],
+   "nota": "«Blows so contrary» é «sopra tão contrário»: o vento da notícia sopra em sentido oposto."
+  },
   "convert": {
    "lema": "convert",
    "classe": "verbo",
@@ -5460,6 +5537,13 @@
     "(em geral transitivo) Fazer uma incisão; cortar a superfície de algo; dividir com faca, tesoura ou outro instrumento afiado."
    ],
    "nota": "«Cut off their heads» é «cortar as cabeças»; «cut the winds» é «fender o ar», com a espada."
+  },
+  "cut#2": {
+   "lema": "cut",
+   "classe": "verbo",
+   "def": [
+    "(em geral transitivo) Fazer uma incisão; cortar a superfície de algo; dividir com faca, tesoura ou outro instrumento afiado."
+   ]
   },
   "cut'st": {
    "lema": "cut",
@@ -6092,6 +6176,14 @@
     "(transitivo) Usar o intelecto para planejar (algo); tramar."
    ],
    "nota": "«Bid her devise» é «peça-lhe que arranje»: que ela bole um meio."
+  },
+  "devise#2": {
+   "lema": "devise",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Usar o intelecto para planejar (algo); tramar."
+   ],
+   "nota": "«Than thou canst devise» é «do que podes imaginar»."
   },
   "devotion": {
    "lema": "devotion",
@@ -7172,6 +7264,13 @@
    ],
    "nota": "Aqui «earth» é a terra, o chão; «lady of my earth» é «dona das minhas terras», herdeira; em «for earth too dear», é «caro demais para a terra (este mundo)»."
   },
+  "earth#2": {
+   "lema": "earth",
+   "classe": "substantivo",
+   "def": [
+    "(incontável) Solo, terra."
+   ]
+  },
   "earth-treading": {
    "partes": [
     {
@@ -7407,6 +7506,13 @@
     "(por extensão) A cessação de um esforço, atividade, estado ou movimento; fim."
    ],
    "nota": "«Their children's end» é a morte dos filhos, o fim que eles têm."
+  },
+  "end#2": {
+   "lema": "end",
+   "classe": "substantivo",
+   "def": [
+    "(por extensão) A cessação de um esforço, atividade, estado ou movimento; fim."
+   ]
   },
   "endart": {
    "lema": "endart",
@@ -7910,6 +8016,13 @@
    ],
    "nota": "«My wits faint» é «meu engenho desfalece»: Romeo fraqueja na disputa de agudeza."
   },
+  "faint#2": {
+   "lema": "faint",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo) Perder a coragem ou o ânimo; desfalecer."
+   ]
+  },
   "faintly": {
    "lema": "faintly",
    "classe": "advérbio",
@@ -8186,6 +8299,13 @@
    ],
    "nota": "«Fatal loins» são as famílias, a linhagem, marcada pelo destino."
   },
+  "fatal#2": {
+   "lema": "fatal",
+   "classe": "adjetivo",
+   "def": [
+    "(raro, arcaico) Que procede do destino ou foi por ele determinado."
+   ]
+  },
   "fate": {
    "lema": "fate",
    "classe": "substantivo",
@@ -8224,6 +8344,14 @@
     "(obsoleto) Falta; carência; ausência."
    ],
    "nota": "«For fault of a worse» é «por falta de um pior»: Romeo diz que é o mais novo do nome por não haver outro menos digno."
+  },
+  "fault#2": {
+   "lema": "fault",
+   "classe": "substantivo",
+   "def": [
+    "Culpabilidade; responsabilidade por um fato censurável; culpa."
+   ],
+   "nota": "«His fault» é «a culpa dele», o delito."
   },
   "favour": {
    "lema": "favour",
@@ -8736,6 +8864,23 @@
    ],
    "nota": "Mercúcio chama de «moscas» os janotas, que zumbem e importunam."
   },
+  "flies#2": {
+   "lema": "fly",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo, arcaico, poético) Fugir, escapar (de)."
+   ],
+   "nota": "Na rubrica, «flies with his followers» é «foge com os seus seguidores»."
+  },
+  "flies#3": {
+   "lema": "fly",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(zoologia) Qualquer inseto da ordem dos dípteros, de duas asas; mosca."
+   ]
+  },
   "flint": {
    "lema": "flint",
    "classe": "substantivo",
@@ -8832,6 +8977,14 @@
     "(intransitivo) Mover-se pelo ar, com asas ou como se as tivesse; voar."
    ],
    "nota": "«Strength to make it fly» é «força para fazê-lo voar»: o olhar lançado como um dardo."
+  },
+  "fly#2": {
+   "lema": "fly",
+   "classe": "verbo",
+   "def": [
+    "(intransitivo, ambitransitivo, arcaico, poético) Fugir, escapar (de)."
+   ],
+   "nota": "«Turn and fly» é «virar-se e fugir»."
   },
   "foe": {
    "lema": "foe",
@@ -8939,6 +9092,13 @@
     "(pejorativo) Pessoa de mau juízo ou pouca inteligência; tolo."
    ],
    "nota": "Aqui é só carinho: «pretty fool» é «a bonitinha, a tolinha»."
+  },
+  "fool#2": {
+   "lema": "fool",
+   "classe": "substantivo",
+   "def": [
+    "(pejorativo) Pessoa de mau juízo ou pouca inteligência; tolo."
+   ]
   },
   "fool's": {
    "lema": "fool",
@@ -9885,6 +10045,14 @@
    ],
    "nota": "«Got leave» é «obtido licença»."
   },
+  "got#2": {
+   "lema": "get",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Obter; adquirir."
+   ]
+  },
   "gown": {
    "lema": "gown",
    "classe": "substantivo",
@@ -10701,6 +10869,14 @@
    ],
    "nota": "Em «heads of two houses», os chefes das duas famílias."
   },
+  "heads#2": {
+   "lema": "head",
+   "classe": "substantivo",
+   "forma": "plural",
+   "def": [
+    "(contável) A parte do corpo de um animal ou de uma pessoa que contém o cérebro, a boca e os órgãos dos sentidos principais; cabeça."
+   ]
+  },
   "health": {
    "lema": "health",
    "classe": "substantivo",
@@ -10823,6 +10999,14 @@
     "(antiquado ou poético) O céu: o firmamento distante em que o sol, a lua e as estrelas aparecem ou se movem."
    ],
    "nota": "Aqui é o firmamento, e não o paraíso."
+  },
+  "heaven#2": {
+   "lema": "heaven",
+   "classe": "substantivo",
+   "def": [
+    "(religião) A morada de Deus e dos bem-aventurados; o paraíso."
+   ],
+   "nota": "Aqui «heaven» é o céu de Deus, e também a Providência que decide a sorte das pessoas."
   },
   "heavenly": {
    "lema": "heavenly",
@@ -11078,6 +11262,15 @@
     "(reflexivo) Pôr-se em lugar onde fique fora da vista ou mais difícil de achar; esconder-se."
    ],
    "nota": "«Hath hid himself» é «escondeu-se»."
+  },
+  "hid#2": {
+   "lema": "hide",
+   "classe": "verbo",
+   "forma": "particípio passado",
+   "def": [
+    "(transitivo) Pôr (algo) fora da vista; esconder, ocultar."
+   ],
+   "nota": "«Hid with a flowering face» é «escondido sob um rosto florido»."
   },
   "hide": {
    "lema": "hide",
@@ -12910,6 +13103,13 @@
    ],
    "nota": "«Take the law of our sides» é «pôr a lei do nosso lado»: agir de modo que a culpa da briga caiba aos outros."
   },
+  "law#2": {
+   "lema": "law",
+   "classe": "substantivo",
+   "def": [
+    "(em geral com «the») O conjunto de regras e normas obrigatórias, costumes e padrões estabelecidos numa comunidade pela sua legislatura ou por seus costumes; lei."
+   ]
+  },
   "lawyers": {
    "lema": "lawyer",
    "classe": "substantivo",
@@ -13013,6 +13213,14 @@
     "Adquirir, ou tentar adquirir, conhecimento; ficar sabendo; saber."
    ],
    "nota": "«Learn of him» é «saber dele», «ficar sabendo por ele»."
+  },
+  "learn#2": {
+   "lema": "learn",
+   "classe": "verbo",
+   "def": [
+    "(arcaico, não padrão) Ensinar."
+   ],
+   "nota": "«Learn me how to lose» é «ensina-me a perder»."
   },
   "learn'd": {
    "lema": "learn",
@@ -14204,6 +14412,14 @@
    ],
    "nota": "«Manage it» é «brandi-la», usar bem a espada."
   },
+  "manage#2": {
+   "lema": "manage",
+   "classe": "substantivo",
+   "def": [
+    "(agora raro) O ato de conduzir ou controlar algo; condução."
+   ],
+   "nota": "«The unlucky manage of this fatal brawl» é «a infeliz condução desta briga fatal», isto é, como tudo se passou."
+  },
   "manes": {
    "lema": "mane",
    "classe": "substantivo",
@@ -14574,6 +14790,22 @@
     "Transmitir um sentido; querer dizer, significar."
    ],
    "nota": "«I mean» no começo da frase é «quero dizer»; «we mean well» é «temos boa intenção»."
+  },
+  "mean#2": {
+   "lema": "means",
+   "classe": "substantivo",
+   "forma": "singular (grafia antiga)",
+   "def": [
+    "Método ou instrumento usado para alcançar um fim; meio."
+   ],
+   "nota": "«No sudden mean of death» é «nenhum meio de morte súbita»."
+  },
+  "mean#3": {
+   "lema": "mean",
+   "classe": "adjetivo",
+   "def": [
+    "De qualidade ou grau baixo; inferior, pobre, miserável."
+   ]
   },
   "mean'st": {
    "lema": "mean",
@@ -15388,6 +15620,13 @@
     "Mamífero roedor de corpo pequeno e cauda longa; rato, camundongo."
    ],
    "nota": "Em «dun's the mouse» (6:42), é o rato do ditado «quieto como um rato»."
+  },
+  "mouse#2": {
+   "lema": "mouse",
+   "classe": "substantivo",
+   "def": [
+    "Mamífero roedor de corpo pequeno e cauda longa; rato, camundongo."
+   ]
   },
   "move": {
    "lema": "move",
@@ -19516,6 +19755,15 @@
    ],
    "nota": "Os juncos que cobriam o chão do salão."
   },
+  "rushes#2": {
+   "lema": "rush",
+   "classe": "verbo",
+   "forma": "3ª pessoa do singular do presente",
+   "def": [
+    "(intransitivo) Mover-se ou avançar depressa e com ímpeto; precipitar-se."
+   ],
+   "nota": "«'Twixt them rushes» é «precipita-se entre eles»."
+  },
   "sack": {
    "lema": "sack",
    "classe": "verbo",
@@ -21680,6 +21928,15 @@
    ],
    "nota": "«Be spoke» e «faintly spoke» são «ser dito» e «dito com timidez»: «spoke» está por «spoken» (particípio antigo)."
   },
+  "spoke#2": {
+   "lema": "speak",
+   "classe": "verbo",
+   "forma": "particípio passado (forma antiga)",
+   "def": [
+    "(intransitivo) Comunicar-se com a voz; falar."
+   ],
+   "nota": "«Spoke him fair» é «falou-lhe com gentileza»: aqui «spoke» é o passado de «speak»."
+  },
   "spoken": {
    "lema": "speak",
    "classe": "verbo",
@@ -21703,6 +21960,13 @@
     "(transitivo) Estender, abrir (um material etc.) de modo que cubra mais espaço; abrir."
    ],
    "nota": "«Spread his sweet leaves» é «abrir as suas folhas delicadas», as pétalas do botão."
+  },
+  "spread#2": {
+   "lema": "spread",
+   "classe": "verbo",
+   "def": [
+    "(transitivo) Estender, abrir (um material etc.) de modo que cubra mais espaço; abrir."
+   ]
   },
   "spring": {
    "lema": "spring",
@@ -22191,6 +22455,14 @@
    ],
    "nota": "«Storm you» é «esbravejas», «arrebentas de raiva»: a tempestade como imagem do furor."
   },
+  "storm#2": {
+   "lema": "storm",
+   "classe": "substantivo",
+   "def": [
+    "Qualquer estado perturbado da atmosfera que causa tempo destrutivo ou desagradável; tempestade."
+   ],
+   "nota": "«What storm is this?» é «que tempestade é esta?»: figura de linguagem para a notícia desencontrada."
+  },
   "story": {
    "lema": "story",
    "classe": "substantivo",
@@ -22378,6 +22650,13 @@
     "Capaz de resistir a grande força; forte, firme."
    ],
    "nota": "«Strong proof» é «prova firme»; a castidade como armadura que resiste a golpes."
+  },
+  "strong#2": {
+   "lema": "strong",
+   "classe": "adjetivo",
+   "def": [
+    "Capaz de resistir a grande força; forte, firme."
+   ]
   },
   "struck": {
    "lema": "strike",
@@ -23270,6 +23549,14 @@
    ],
    "nota": "«The term of a despised life» é «o prazo de uma vida desprezada», sua duração."
   },
+  "term#2": {
+   "lema": "term",
+   "classe": "substantivo",
+   "def": [
+    "Palavra ou expressão usada para designar algo; termo."
+   ],
+   "nota": "«No better term than this» é «nenhuma palavra melhor do que esta»: o insulto «villain» (canalha)."
+  },
   "terms": {
    "lema": "term",
    "classe": "substantivo",
@@ -23797,6 +24084,14 @@
    "def": [
     "(transitivo) Empurrar ou impelir com força; enfiar."
    ]
+  },
+  "thrust#2": {
+   "lema": "thrust",
+   "classe": "substantivo",
+   "def": [
+    "(esgrima) Ataque feito movendo a espada em linha reta e acertando com a ponta; estocada."
+   ],
+   "nota": "«An envious thrust from Tybalt» é «uma estocada maldosa de Teobaldo»."
   },
   "thrusts": {
    "lema": "thrust",
@@ -24414,6 +24709,13 @@
     "Sucesso conclusivo depois de esforço, conflito ou obstáculos; vitória; conquista."
    ],
    "nota": "«In their triumph die» é «morrem no momento do seu triunfo»."
+  },
+  "triumph#2": {
+   "lema": "triumph",
+   "classe": "substantivo",
+   "def": [
+    "Sucesso conclusivo depois de esforço, conflito ou obstáculos; vitória; conquista."
+   ]
   },
   "trooping": {
    "lema": "troop",
@@ -25579,6 +25881,14 @@
     "Condutor de carroça ou carruagem; carroceiro, cocheiro."
    ],
    "nota": "«Her waggoner» é «o cocheiro dela», um pernilongo minúsculo."
+  },
+  "waggoner#2": {
+   "lema": "wagoner",
+   "classe": "substantivo",
+   "forma": "grafia alternativa (britânica)",
+   "def": [
+    "Condutor de carroça ou carruagem; carroceiro, cocheiro."
+   ]
   },
   "wailing": {
    "lema": "wailing",
@@ -28665,50 +28975,117 @@
   "15:41.1": "something#2",
   "15:41.2": "make#3",
   "15:52.2": "reason#2",
+  "15:60.7": "call#2",
+  "15:62.3": "term#2",
+  "15:67.1": "boy#2",
+  "15:70.8": "devise#2",
   "15:72.2": "so#2",
   "15:73.4": "mine#2",
   "15:79.6": "make#3",
+  "15:79.7": "bold#2",
+  "15:91.8": "flies#2",
   "15:93.3": "o'",
   "15:97.4": "page#2",
   "15:98.2": "page#2",
   "15:103.8": "o'",
+  "15:104.8": "mouse#2",
   "15:104.12": "scratch#2",
+  "15:106.2": "book#2",
+  "15:110.4": "faint#2",
   "15:110.7": "o'",
   "15:111.5": "meat#2",
   "15:112.3": "too#2",
+  "15:115.5": "got#2",
+  "15:124.8": "earth#2",
   "15:125.7": "days#2",
+  "15:126.8": "end#2",
+  "15:129.3": "triumph#2",
+  "15:130.3": "heaven#2",
+  "15:134.8": "heads#2",
+  "15:137.3": "boy#2",
   "15:137.6": "consort#2",
   "15:143.7": "doom#2",
+  "15:145.5": "fool#2",
+  "15:157.3": "manage#2",
+  "15:157.6": "fatal#2",
+  "15:167.3": "spoke#2",
+  "15:173.5": "bold#2",
+  "15:173.7": "breast#2",
+  "15:175.9": "beats#2",
+  "15:180.4": "beats#2",
+  "15:180.7": "fatal#2",
+  "15:181.4": "rushes#2",
+  "15:182.3": "thrust#2",
+  "15:188.9": "fly#2",
   "15:193.7": "kill#2",
+  "15:199.2": "fault#2",
+  "15:199.7": "law#2",
+  "15:199.9": "end#2",
   "15:202.4": "exile#2",
+  "15:205.7": "strong#2",
   "15:212.7": "kill#2",
+  "16:4.6": "waggoner#2",
+  "16:7.1": "spread#2",
+  "16:11.4": "beauties#2",
+  "16:14.2": "learn#2",
+  "16:17.9": "bold#2",
+  "16:24.4": "cut#2",
   "16:25.4": "make#2",
   "16:27.4": "worship#2",
+  "16:45.2": "heaven#2",
+  "16:47.2": "heaven#2",
   "16:52.5": "i'",
   "16:55.6": "make#2",
   "16:58.9": "mine#2",
+  "16:59.9": "breast#2",
+  "16:63.2": "break#2",
+  "16:63.7": "break#2",
+  "16:65.2": "earth#2",
+  "16:65.4": "earth#2",
+  "16:65.6": "end#2",
+  "16:70.2": "storm#2",
+  "16:70.8": "contrary#2",
   "16:73.7": "doom#3",
+  "16:79.4": "hid#2",
   "16:88.2": "mortal#2",
+  "16:89.3": "book#2",
   "16:96.7": "make#2",
+  "16:102.6": "earth#2",
   "16:103.4": "beast#2",
   "16:108.6": "kill#2",
+  "16:133.4": "end#2",
+  "17:29.2": "fault#2",
+  "17:29.4": "law#2",
+  "17:30.8": "law#2",
+  "17:33.6": "heaven#2",
+  "17:35.3": "mouse#2",
+  "17:36.4": "heaven#2",
   "17:36.9": "her#2",
+  "17:45.3": "flies#3",
+  "17:45.10": "fly#2",
+  "17:49.3": "mean#2",
+  "17:49.9": "mean#3",
   "17:50.4": "kill#2",
   "17:61.3": "hang#2",
   "17:72.10": "hair#2",
   "17:94.2": "so#2",
+  "17:100.8": "end#2",
   "17:101.9": "her#2",
   "17:102.4": "think#2",
   "17:113.3": "her#2",
   "17:124.3": "amazed#2",
+  "17:129.10": "earth#2",
+  "17:130.6": "earth#2",
   "17:141.4": "conduct#2",
   "17:147.7": "kill#2",
   "17:148.9": "too#2",
+  "17:149.2": "law#2",
   "17:157.7": "her#2",
   "17:166.3": "her#2",
   "17:172.2": "so#2",
   "17:172.6": "sweet#3",
   "17:174.3": "make#3",
+  "17:178.4": "break#3",
   "18:6.2": "so#2",
   "18:14.5": "make#3",
   "18:15.6": "think#2",
@@ -28719,13 +29096,16 @@
   "18:23.6": "o'",
   "18:23.9": "her#2",
   "18:25.7": "like#2",
+  "18:31.4": "end#2",
   "18:33.5": "o'",
   "18:35.2": "her#2",
   "18:36.4": "light#4",
+  "18:38.4": "call#2",
   "19:5.5": "hollow#2",
   "19:17.2": "light#4",
   "19:20.4": "so#3",
   "19:20.9": "so#2",
+  "19:24.8": "heads#2",
   "19:26.8": "so#2",
   "19:32.4": "so#2",
   "19:34.9": "too#2",
@@ -28754,18 +29134,28 @@
   "19:133.7": "so#2",
   "19:146.4": "calm#2",
   "19:148.5": "her#2",
+  "19:150.4": "fool#2",
   "19:153.9": "her#2",
   "19:172.9": "o'",
   "19:177.10": "much#2",
   "19:178.9": "her#2",
   "19:179.3": "her#2",
+  "19:180.3": "heaven#2",
   "19:180.5": "her#2",
   "19:181.9": "her#2",
   "19:181.10": "so#2",
+  "19:187.4": "fool#2",
   "19:189.4": "need#3",
   "19:194.3": "her#2",
   "19:198.4": "thought#2",
+  "19:199.8": "fool#2",
   "19:200.6": "fortune's#2",
+  "19:221.5": "earth#2",
+  "19:221.9": "heaven#2",
+  "19:222.8": "earth#2",
+  "19:223.8": "heaven#2",
+  "19:224.3": "earth#2",
+  "19:225.4": "heaven#2",
   "19:233.5": "so#2",
   "19:234.2": "think#2",
   "19:239.2": "think#2",
